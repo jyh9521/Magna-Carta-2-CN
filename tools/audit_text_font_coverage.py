@@ -57,12 +57,31 @@ def font_coverage(font, codepoints):
     return records
 
 
+def supported_font_class(tables, export):
+    """Recognize imported Engine.Font or an exact local Font Class definition.
+
+    A cooked Engine package has a local Class, not an Engine.Font import. Do
+    not accept arbitrary *.Font names or equate this format check with a live
+    native class identity.
+    """
+    ref = export['class']
+    if type(ref) is not int:
+        return False
+    if export['class_path'] == 'Engine.Font' and -len(tables['imports']) <= ref < 0:
+        imported = tables['imports'][-ref-1]
+        return imported['path'] == 'Engine.Font' and imported['class_name']['name'] == 'Class'
+    if export['class_path'] == 'Font' and 0 < ref <= len(tables['exports']):
+        definition = tables['exports'][ref-1]
+        return definition['path'] == 'Font' and definition['class_path'] == 'Class'
+    return False
+
+
 def load_font(source, decoder):
     _hash(source['sha256'])
     logical, tables = _tables(source['data'], source['sha256'], decoder)
     matches = [e for e in tables['exports'] if e['path'] == source['font_object']]
-    if len(matches) != 1 or matches[0]['class_path'] != 'Engine.Font':
-        raise FormatError('expected exactly one Engine.Font object: ' + source['font_object'])
+    if len(matches) != 1 or not supported_font_class(tables, matches[0]):
+        raise FormatError('expected one imported Engine.Font or locally defined Font object: ' + source['font_object'])
     e = matches[0]; offset, size = e['serial_offset'], e['serial_size']
     if offset < 0 or size < 4 or offset + size > len(logical):
         raise FormatError('coverage Font payload outside logical package')

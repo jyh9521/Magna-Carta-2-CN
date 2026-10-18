@@ -2,6 +2,9 @@
 
 ## 当前主线：真实文本已绑定，字体绑定仍待证明
 
+- **2026-10-19 reference helper：** 判定函数调用的0x826c5ec0完整90-word模板及三条name/class注册参数链已核实；静态关联DefaultTextStyle/ImageStyle/ComboStyle和三种UIStyle类，记录+3C parent循环而不假称实际终止。双盘一致，新增15项回归；外部lookup/name构造、字段native映射和实际fallback仍待证明。见 STYLE_REFERENCE_HELPER.md。
+- **同轮补齐实际覆盖入口：** 修正coverage auditor只认imported Engine.Font而拒绝Engine本地Font Class的假设；本地类型必须精确解析到Font Class，新增3项身份防护测试。两份SmallFont均为256 glyph/IsRemapped=false，警告39个literal只记为non-remapped-font-mode-unverified（exit1），不猜直接索引或缺字。默认602项测试通过。
+
 - **2026-10-19 selection predicate：** 四个已核实组件表的slot124均指向同一36-word函数；+104、+F4..100和helper返回两word参与条件选择，不是恒定owner路线。双盘报告一致，新增11项合成回归；运行vptr/字段值/实际分支仍未证明。下一离线追踪0x826c5ec0的name/class fallback及PrimaryStyle声明对应；见 STYLE_SELECTION_PREDICATE.md。
 
 - **2026-10-19 新增标签默认平面审计：** 两个警告标签自身无 PrimaryStyle，但独立 CDO 链保留 DefaultComboStyle；六状态嵌套 TextStyle 各自的 CDO 引用 EngineFonts.SmallFont，两份命名空间候选完整语义指纹相等。新增12条默认平面观察与原12条 General_15 组件路径分开，未合并默认值、未证明 native alternate-owner 分支或运行字体。16项自制测试加入，默认573项通过；见 OWNER_PRIMARY_STYLE.md。

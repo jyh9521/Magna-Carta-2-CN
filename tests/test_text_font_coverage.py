@@ -107,6 +107,37 @@ class TextFontCoverageTests(unittest.TestCase):
         with self.assertRaises(ValueError):coverage.audit(raw,plan,fonts+[dict(fonts[0],label='ONE')])
         with self.assertRaises(ValueError):coverage.audit(raw,plan,[])
 
+    def test_local_font_class_coverage_matches_imported_font(self):
+        raw,plan,fonts=fixture();source=fonts[0]
+        logical,tables=coverage._tables(source['data'],source['sha256'],None)
+        tables['exports'].append(dict(path='Font',class_path='Class'))
+        tables['exports'][0].update(class_path='Font',**{'class':len(tables['exports'])})
+        expected=coverage.audit(raw,plan,fonts)
+        with patch.object(coverage,'_tables',return_value=(logical,tables)):
+            self.assertEqual(coverage.audit(raw,plan,fonts),expected)
+
+    def test_local_font_class_must_resolve_to_exact_class_definition(self):
+        raw,plan,fonts=fixture();source=fonts[0]
+        logical,tables=coverage._tables(source['data'],source['sha256'],None)
+        for path,kind,ref in [('Other.Font','Class',4),('Font','Engine.Font',4),('Font','Class',True),
+                               ('Font','Class',0),('Font','Class',99),('Font','Class',-2)]:
+            t=copy.deepcopy(tables);t['exports'].append(dict(path=path,class_path=kind))
+            t['exports'][0].update(class_path='Font',**{'class':ref})
+            with self.subTest(path=path,kind=kind,ref=ref),patch.object(coverage,'_tables',return_value=(logical,t)):
+                with self.assertRaisesRegex(ValueError,'locally defined Font'):coverage.audit(raw,plan,fonts)
+
+    def test_imported_font_class_identity_is_not_only_a_display_path(self):
+        raw,plan,fonts=fixture();source=fonts[0];logical,tables=coverage._tables(source['data'],source['sha256'],None)
+        for change in ['path','kind','local-ref']:
+            t=copy.deepcopy(tables);e=t['exports'][0]
+            if change=='local-ref':e['class']=1
+            else:
+                imp=t['imports'][-e['class']-1]
+                if change=='path':imp['path']='Other.Font'
+                else:imp['class_name']['name']='Font'
+            with self.subTest(change=change),patch.object(coverage,'_tables',return_value=(logical,t)):
+                with self.assertRaisesRegex(ValueError,'imported Engine.Font'):coverage.audit(raw,plan,fonts)
+
     def test_zero_area_visible_glyph_fails_without_assuming_tofu_identity(self):
         raw,plan,fonts=fixture();data=alias_package(height=0)
         fonts[0].update(data=data,sha256=coverage.digest(data))

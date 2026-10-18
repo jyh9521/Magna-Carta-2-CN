@@ -10,6 +10,7 @@ PROBES=[('ui-draw-string-native.json','NATIVE_BINDINGS.md'),
         ('ui-draw-string-style-selection.json','NATIVE_STYLE_SELECTION.md'),
         ('ui-draw-string-class-tables.json','NATIVE_CLASS_TABLES.md'),
         ('ui-draw-string-selection-predicate.json','STYLE_SELECTION_PREDICATE.md'),
+        ('ui-style-reference-helper.json','STYLE_REFERENCE_HELPER.md'),
         ('ui-object-initialization.json','OBJECT_INITIALIZATION.md')]
 
 

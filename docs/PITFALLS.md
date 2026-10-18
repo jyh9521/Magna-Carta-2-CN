@@ -1,5 +1,23 @@
 # Pitfalls
 
+## 2026-10-19: a local Font Class is not an unresolved imported Engine.Font
+
+Engine's SmallFont uses an exact local Font Class definition. A reader that
+requires only the imported display path Engine.Font rejects it before coverage
+analysis. Resolve the class reference, not an arbitrary *.Font suffix. Both
+SmallFont aliases are non-remapped: the39 warning literals remain explicitly
+mode-unverified, not missing-remap or passed direct-index coverage. The
+supplementer must retain its explicit-remap guard. See STYLE_REFERENCE_HELPER.md.
+
+## 2026-10-19: fallback names and output-zero stores do not prove font defaults
+
+The style-reference helper associates three native class-name operand chains
+with default text/image/combo tag literals. Its two cleared output words and
+optional flag stores are not Font initialization. A registration window does
+not establish its function's returned runtime class; repeated parent+3C loads
+do not establish termination. Preserve external-call and serialized/native
+layout unknowns; see STYLE_REFERENCE_HELPER.md.
+
 ## 2026-10-19: a conditional selector is not a constant default-style route
 
 All four supplied component tables share slot124's actual36-word predicate.

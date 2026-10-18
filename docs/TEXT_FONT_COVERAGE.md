@@ -79,7 +79,9 @@ Original source font/raster/decoder requirements remain in FONT_BUNDLE_BUILD.md.
   TOKEN sequence are validated through build_coalesced. A reverse plan must
   reproduce every original container byte, not only the edited field.
 - Every --font-package binds label, path, complete SHA256 and exact Font object.
-  Expected class is Engine.Font. Missing, duplicate, malformed or unsupported
+  Expected class is an Engine.Font Class import or an exact local Font Class
+  definition (the cooked Engine package uses the latter). Arbitrary *.Font
+  display paths are not accepted. Missing, duplicate, malformed or unsupported
   objects do not disappear from a successful subset. All supplied fonts must
   cover the requested literals; no loaded-object winner is chosen.
 - Codepoints come from translated literal spans outside exact matches of the

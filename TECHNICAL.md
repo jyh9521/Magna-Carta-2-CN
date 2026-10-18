@@ -1,5 +1,7 @@
 # 当前技术结论（2026-10-18）
 
+- **Verified / High-confidence deduction（2026-10-19）**：style-reference helper的90-word代码、三种完整UIStyle类名与DefaultTextStyle/ImageStyle/ComboStyle字面tag参数链已核实；class-based fallback为高置信推断，不证明实际类返回值、callee保存或序列化/native布局。见 docs/STYLE_REFERENCE_HELPER.md。
+
 - **Verified（2026-10-19，静态代码）**：四个组件类表 slot124 均指向0x826a8e70，新增36-word完整模板校验其+104 word门、四word OR门、helper调用和五条条件边；已补齐静态表项到判定函数的关联，未证明运行dispatch或序列化字段/native布局对应。见 docs/STYLE_SELECTION_PREDICATE.md。
 
 - **Verified（2026-10-19，离线序列化证据）**：警告标签 PrimaryStyle 的 CDO 平面经 DefaultComboStyle 六状态/嵌套文本默认对象保留 EngineFonts.SmallFont；Engine/Startup 两份候选完整指纹相等。它与已有 General_15 组件链并列，不合并字段、不选择有效字体，也未证明 native owner 指针对应。见 docs/OWNER_PRIMARY_STYLE.md。

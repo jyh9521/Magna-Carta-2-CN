@@ -245,6 +245,14 @@ def inspect_bindings(image,plan,metadata_raw,metadata):
         except ImportError:
             from ppc_style_predicate import verify_style_predicate
         report['style_predicate']=verify_style_predicate(view,plan['style_predicate'],report['class_tables'],plan['code_ranges'])
+    if 'style_reference_helper' in plan:
+        if 'style_predicate' not in report:raise FormatError('style reference helper requires explicit style predicate plan')
+        try:
+            from .ppc_style_reference_helper import verify_style_reference_helper
+        except ImportError:
+            from ppc_style_reference_helper import verify_style_reference_helper
+        report['style_reference_helper']=verify_style_reference_helper(view,plan['style_reference_helper'],report['style_predicate'],
+            plan['class_tables'],report['class_tables'],plan['code_ranges'])
     if 'object_initialization' in plan:
         if 'class_tables' not in report:raise FormatError('object initialization requires explicit class table plan')
         try:

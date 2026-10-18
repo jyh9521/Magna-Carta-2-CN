@@ -1,5 +1,14 @@
 # File Formats
 
+## Verified 446/25 UI serialization (2026-10-18)
+
+The component template header precedes NetIndex: class defaults use 4 bytes,
+ordinary component instances 8, components under a class-default outer chain 16.
+Flags are serialized LO u32 then HO u32; ClassDefaultObject is HO 0x200.
+STYLE_ID is four tagged IntProperty A/B/C/D values. UIStyle's native tail holds
+an int32 count followed by state/style-data int32-reference pairs. Full schema,
+guards, offsets, fixed source references and coverage: UI_STYLE_GRAPH.md.
+
 This document records reverse-engineered file formats used by the localization project.
 
 Use this file for concrete binary or structured format documentation such as headers, offsets, field sizes, alignment, compression, checksums, string tables, pointer tables, and archive metadata.

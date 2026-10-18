@@ -53,8 +53,39 @@ def main(argv=None):
     p = argparse.ArgumentParser(description=__doc__)
     p.add_argument('package', type=Path); p.add_argument('--sha256', required=True)
     p.add_argument('--lzx-library', type=Path); p.add_argument('--output', type=Path, required=True)
+    p.add_argument('--deep', action='store_true', help='Trace component/nested serialized style candidates without executing game')
+    p.add_argument('--text-token', help='Match nested StrProperty values (deep mode only)')
+    p.add_argument('--reference-package', nargs=3, action='append', default=[], metavar=('LABEL', 'PATH', 'SHA256'))
     a = p.parse_args(argv)
     try:
+        if a.deep:
+            if not a.text_token:
+                raise FormatError('--deep requires a nonempty --text-token')
+            try:
+                from .inspect_font_references import _tables
+                from .ue3_ui_styles import StyleGraph
+            except ImportError:
+                from inspect_font_references import _tables
+                from ue3_ui_styles import StyleGraph
+            packages = {}
+            decoder = LzxDecoder(a.lzx_library) if a.lzx_library else None
+            inputs = [(a.package.stem, str(a.package), a.sha256)] + a.reference_package
+            for label, path, digest in inputs:
+                key = label.casefold()
+                if key in packages:
+                    raise FormatError('duplicate package label')
+                logical, tables = _tables(Path(path).read_bytes(), digest.lower(), decoder)
+                packages[key] = dict(logical=logical, tables=tables, sha256=digest.lower())
+            result = StyleGraph(packages).trace(a.package.stem, a.text_token)
+            write_report(a.output, result)
+            if json.loads(a.output.read_text(encoding='utf-8')) != result:
+                raise FormatError('output reopening mismatch')
+            print(json.dumps(dict(**result['coverage'], text_matches=len(result['text_matches']),
+                                  candidate_paths=sum(len(m['candidate_paths']) for m in result['text_matches']),
+                                  runtime_binding_verified=False), sort_keys=True))
+            return 0
+        if a.text_token or a.reference_package:
+            raise FormatError('--text-token and --reference-package require --deep')
         raw = a.package.read_bytes()
         if hashlib.sha256(raw).hexdigest() != a.sha256.lower():
             raise FormatError('package SHA256 mismatch')

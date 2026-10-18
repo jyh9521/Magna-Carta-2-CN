@@ -1,5 +1,9 @@
 # 来源与许可
 
+## UI 组件格式研究
+
+组件模板/ClassDefault 路由、版本条件及 LO/HO 标志含义参考 Eliot van Uytfanghe 的 Unreal-Library，固定 MIT 提交 `8236c39b79e30887a487ecf9b018204e430a5ebc`。来源 URL 与六文件 SHA256 见 references/ui-style-research.lock.json，许可原文见 licenses/Unreal-Library-MIT.txt。仅参考格式事实并在当前原始字节上独立验证；本项目 Python 图读取器为独立实现，未集成上游源码、反编译器或运行时。嵌套样式、StateMap 与本作告警链以实际结构验证为准，见 docs/UI_STYLE_GRAPH.md。
+
 ## 独立迁移的工具
 
 作者：jyh9521；上游：[MagnaCarta2-Recompiled](https://github.com/jyh9521/MagnaCarta2-Recompiled/tree/bc0d93ae886a9ebfd998b48b7ec30cf0f92e0c47)。

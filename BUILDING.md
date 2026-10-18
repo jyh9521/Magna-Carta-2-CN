@@ -17,6 +17,8 @@ Disc 2 同法指定独立输出及目录；首次解出后再次提取应使用�
 
 ## 字体使用方离线扫描
 
+新增 `tools/inspect_ui_fonts.py --deep --text-token TOKEN`：在显式 hash 锁定的参考包间解析组件前缀、已知嵌套结构、STYLE_ID 和 UIStyle 状态表，输出静态字体候选路径。`tools/probe_ui_style_font.py` 在 raw 副本上构建同尺寸字体引用探针；不部署、不启动游戏。完整参数、原版/对照/候选 hash 与覆盖边界见 docs/UI_STYLE_GRAPH.md。
+
 `tools/inspect_font_references.py --consumers` 枚举可解析 tagged 对象中的直接 Font/MultiFont ObjectProperty 引用，保留 import/export 身份、逻辑偏移与覆盖缺口。它与 `--inventory` / `--object` 互斥，不启动游戏、不修改资源。命令、62 包实测和组件前缀缺口见 docs/FONT_CONSUMERS.md。
 
 ## 最小补字原型（独立输出，未获游戏验收）

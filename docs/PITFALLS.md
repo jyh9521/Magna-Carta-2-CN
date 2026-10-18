@@ -1,5 +1,14 @@
 # Pitfalls
 
+## 2026-10-18: component prefix and nested-ID pitfalls resolved
+
+**Verified for 446/25:** the extra component header precedes NetIndex; it is not
+a universal twelve-byte skip. Ordinary instances use 8-byte prefixes, templates
+under class-default outers 16, and class-default objects themselves 4. Raw flags
+are two LO/HO words. STYLE_ID is tagged A/B/C/D, not native GUID bytes. All these
+branches have synthetic regression tests and original-package verification;
+see UI_STYLE_GRAPH.md. The earlier no-guessing entry below remains valid history.
+
 ## 2026-10-18: a failed component prefix is not an absent Font reference
 
 **Verified:** the current NetIndex-plus-tags consumer reader cannot parse 9703

@@ -1,5 +1,7 @@
 # 当前技术结论（2026-10-18）
 
+- **Verified**：组件与嵌套样式读取器在 62 包中解析 16279 个已选 UI 对象（分类缺口另列）；两个启动警告标签经静态 ID/六状态链指向 Startup_int 的 General_15。109 个 UIStyle/614 个 StateMap 记录结构通过；见 docs/UI_STYLE_GRAPH.md。此结论补齐序列化主链，不证明运行时绑定。
+
 - **Verified**：双盘 XDVDFS 目录及 XEX2 身份，见 docs/RESOURCE_SURVEY.md。
 - **Verified**：8 个 Coalesced 文件结构、混合端序、原字节往返及 INI 物理行提取，见 docs/COALESCED_SURVEY.md。
 - **Verified**：启动登录提示的 INT 文本已由历史可见 TST 标记绑定，见 docs/RUNTIME_TEXT_BINDING.md；该结论不证明字体绑定。

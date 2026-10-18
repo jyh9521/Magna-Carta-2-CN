@@ -1,5 +1,10 @@
 # Direct serialized font consumers (2026-10-18)
 
+**Superseding continuation:** [UI component/style graph](UI_STYLE_GRAPH.md)
+resolves the component-prefix gap and follows both warning labels to their
+serialized GeneralFont/General_15 candidates. Counts below preserve this earlier
+top-level-only scan; runtime font selection remains unverified.
+
 ## Current execution boundary
 
 The user performs all game tests. Continue offline extraction, serialization

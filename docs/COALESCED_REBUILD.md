@@ -26,6 +26,12 @@ python -m unittest discover -s tests -p test_build_coalesced.py -v
 
 空 entries 的无修改重建必须逐字节一致。9 项合成测试覆盖可变长度、混合行尾、hash/原文/ID 防护、控制码与文件保护。
 
+## 源值 hash 计划与字面字体检查（2026-10-19）
+
+schema1 新增显式 `source_mode: sha256-utf8`，entries 用 id/source_sha256/translation，不将完整原文字串放入 locale；默认/显式 literal 模式保留旧 id/source/translation 接口。源值 hash 是精确提取值的 UTF-8 SHA256，不是原 UTF-16 字节区间；整容器 hash 另锁原始字节。布尔/浮点版本、未知模式、混合字段及源值 hash 错误均失败，不猜源文。
+
+`locales/zh-Hans/text-probe.json` 可从干净仓库配合原容器直接复现既有两字技术候选；`audit_text_font_coverage.py` 内存正向/逆向验证后检查全部显式字体的字面 remap/指标。完整流程、命令和边界见 TEXT_FONT_COVERAGE.md。它不证明控件实际字体或中文显示，不自动翻译或部署。
+
 ## 实际原版静态实验
 
 当前韩版 D1 `MC2Game/Localization/Coalesced.int` 原 SHA256：

@@ -692,4 +692,7 @@ Known limitations should be documented clearly rather than hidden.
 
 ## 2026-10-18 当前玩家可见状态
 
-**Open / High：** 尚无可用汉化补丁；中文 glyph coverage、UI 布局、剧情、双盘切换和完整流程未验收。启动提示的静态样式链已指向 General_15 候选，三份 cooked/独立候选的 namespace/GUID 与完整数据指纹一致；双盘 4145 包类表调查完成，见 FONT_BINDING_AUDIT.md。Core 默认原型尾部、实际加载优先级与绘制绑定仍未确认，历史中文候选未获显示验收。最新约定为游戏测试全部由用户进行，自主开发只做离线分析、工具、合成验证及隔离候选准备。
+**Open / High：** 尚无可用汉化补丁；中文 glyph coverage、UI 布局、剧情、双盘切换和完整流程未验收。启动提示的静态样式链已指向 General_15 候选，三份 cooked/独立候选的 namespace/GUID 与完整数据指纹一致；双盘 4145 包类表调查完成，见 FONT_BINDING_AUDIT.md。序列化 Core CDO 尾链已闭合，原生默认值、实际加载优先级与绘制绑定仍未确认，历史中文候选未获显示验收。最新约定为游戏测试全部由用户进行，自主开发只做离线分析、工具、合成验证及隔离候选准备。
+
+
+字面字体覆盖已能离线验证所有显式候选，但不验证像素、atlas矩形、shaping/fallback、动态展开、UI裁剪或实际控件字体。两字文本与三别名候选的静态通过不是玩家可用性验收，见 TEXT_FONT_COVERAGE.md。

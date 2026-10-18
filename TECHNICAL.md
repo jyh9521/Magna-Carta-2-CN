@@ -1,5 +1,7 @@
 # 当前技术结论（2026-10-18）
 
+- **Verified（2026-10-19）**：源值 UTF-8 hash 计划复现双盘相同两字文本候选，正反回写逐字节一致；全部显式 Font 的字面 remap/指标覆盖与负对照可复现。非运行绑定或显示证明，见 docs/TEXT_FONT_COVERAGE.md。
+
 - **Verified（2026-10-19）**：三别名最小补字通用装配入口已在双盘复现全部独立构建候选 hash，并验证六份原始物理字节备份恢复；只写新目录，不部署或启动游戏。见 docs/FONT_BUNDLE_BUILD.md。
 
 - **Verified（2026-10-19）**：完整双盘 4145 个 .xxx 的资源 hash/包表通过；每盘三份 canonical Font.General_15 候选，共用已核验 namespace GUID。三份完整字体/六图集标准化指纹相同；运行时胜出及覆盖语义未推断，见 docs/FONT_BINDING_AUDIT.md。

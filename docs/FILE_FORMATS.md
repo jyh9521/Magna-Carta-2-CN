@@ -867,3 +867,12 @@ XDVDFS / XEX2：见 RESOURCE_SURVEY.md；Coalesced：见 COALESCED_SURVEY.md。�
 ## Font / Texture / Stored LZX 新增实测
 
 Font tagged/native双份指标和remap见FONT_RESEARCH.md；Texture2D的MCARTA LZX flag0x40与resident raw0变体、Xbox BC3布局见TEXTURE_RESEARCH.md及FONT_SUPPLEMENT.md；stored LZX帧及第三方decoder验证见LZX_STORED_RESEARCH.md。均为固定源字节/本地工具验证，不代替游戏显示证明。
+
+
+## Source-hash edit manifest (tool schema1, not a game binary format)
+
+Coalesced change plans retain the literal source mode and add explicit
+source_mode=sha256-utf8 with entries id/source_sha256/translation. The source hash
+covers exact extracted value UTF-8 bytes; whole input_sha256 locks the serialized
+container independently. No normalization or implicit mode fallback is permitted.
+See TEXT_FONT_COVERAGE.md for fields, example workflow and verification limits.

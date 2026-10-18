@@ -5,6 +5,7 @@ from dataclasses import replace
 import hashlib
 import json
 from pathlib import Path
+import re
 
 try:
     from .coalesced import MAX_BYTES, extract_entries, parse, serialize
@@ -18,9 +19,44 @@ def sha256(data):
     return hashlib.sha256(data).hexdigest()
 
 
-def rebuild(data, changes):
-    if changes.get("schema_version") != 1:
+def resolve_changes(data, changes):
+    """Resolve optional source hashes without publishing original text in locale data."""
+    if (not isinstance(changes, dict) or type(changes.get("schema_version")) is not int
+            or changes.get("schema_version") != 1):
         raise ValueError("unsupported changes schema")
+    mode = changes.get('source_mode', 'literal')
+    if mode == 'literal':
+        return changes
+    if mode != 'sha256-utf8':
+        raise ValueError('unsupported source verification mode')
+    if sha256(data) != changes.get('input_sha256'):
+        raise ValueError('input SHA256 mismatch')
+    resource = changes.get('resource')
+    if not isinstance(resource, str) or not resource or not isinstance(changes.get('entries'), list):
+        raise ValueError('invalid source-hash changes envelope')
+    rows = {r['id']:r for r in extract_entries(parse(data), resource)}
+    edits, seen = [], set()
+    for edit in changes['entries']:
+        if (not isinstance(edit, dict) or 'source' in edit
+                or not isinstance(edit.get('id'), str) or not isinstance(edit.get('translation'), str)
+                or not isinstance(edit.get('source_sha256'), str)
+                or not re.fullmatch('[0-9a-f]{64}', edit['source_sha256'])):
+            raise ValueError('invalid source-hash edit')
+        identity = edit['id']
+        if identity in seen or identity not in rows:
+            raise ValueError('duplicate or unknown edit ID')
+        seen.add(identity)
+        source = rows[identity]['source']
+        if sha256(source.encode('utf-8')) != edit['source_sha256']:
+            raise ValueError('expected source UTF-8 SHA256 mismatch')
+        edits.append(dict(id=identity, source=source, translation=edit['translation']))
+    resolved = dict(changes, entries=edits)
+    resolved.pop('source_mode')
+    return resolved
+
+
+def rebuild(data, changes):
+    changes = resolve_changes(data, changes)
     if sha256(data) != changes.get("input_sha256"):
         raise ValueError("input SHA256 mismatch")
     resource = changes.get("resource")

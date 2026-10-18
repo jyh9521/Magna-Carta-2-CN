@@ -153,5 +153,6 @@ area glyph metrics. No text or game resource was written to an installation.
 This only proves explicit remap/metric coverage of that one candidate, not
 runtime font selection, shaping, fallback, dynamic expansions or visual quality.
 The complete local metadata is minimal-text-coverage-probe.json alongside the
-bundle verification. A reusable source/placeholder/font-coverage validator is
-the next offline task; no full original source text enters Git.
+bundle verification. The reusable source/placeholder/font-coverage validator and versioned
+source-hash edit plan are now implemented; see TEXT_FONT_COVERAGE.md.
+No full original source text enters Git.

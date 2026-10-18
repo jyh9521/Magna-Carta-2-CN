@@ -6,6 +6,7 @@
 - [字体绑定审计与双盘候选构建](docs/FONT_BINDING_AUDIT.md)：原型/CDO、forced-export 命名空间、4145 包类表调查及未部署的三别名对照/geometry 探针。
 - [双盘版本与资源清单](docs/RESOURCE_SURVEY.md)、[FILEMAP](docs/FILEMAP.md)。
 - [系列术语固定来源](docs/SERIES_TERMS.md)、[术语表](GLOSSARY.md)。
+- [源值锁定与字面字体覆盖](docs/TEXT_FONT_COVERAGE.md)：版本化两字文本探针、双盘源/标记/逆向检查及全部显式字体覆盖；非游戏显示证明。
 - [三别名最小补字可复现装配](docs/FONT_BUNDLE_BUILD.md)：双盘版本计划、源/语义指纹防护、原始对照和备份恢复检查；不部署。
 - [两字补字原型](docs/FONT_SUPPLEMENT.md)、[纹理解析](docs/TEXTURE_RESEARCH.md)、[LZX 构建](docs/LZX_RESEARCH.md)。
 - [字体结构研究](docs/FONT_RESEARCH.md)、[包表解析](docs/UE3_PACKAGE_RESEARCH.md)、[容器回写与原版基线](docs/COALESCED_REBUILD.md)。

@@ -608,3 +608,13 @@ runneradmin identified the same directory with unequal path spellings. Compare
 resolved identities in the injector and assert that exactly one read was
 corrupted. An isolated junction-temp reproduction fails with the original test
 and passes with the corrected test; production readback guards are not relaxed.
+
+### Literal remap coverage is not a widget binding or display proof
+
+A placeholder's characters are not its expanded runtime content. Exclude only
+exact protected TOKEN matches, retain unknown syntax, and report dynamic coverage
+as unverified. Explicitly mapped whitespace may have no pixels, but an empty
+visible glyph is not sufficient coverage. Do not guess no-remap/direct-index,
+non-BMP or fallback behavior. Keep every supplied font's failures, not just one
+passing alias. A source-value UTF-8 hash is not a serialized UTF-16 range hash;
+retain the separate whole-container hash and reject unknown source modes.

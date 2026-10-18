@@ -1,0 +1,116 @@
+# 系列术语参考与审核流程
+
+## 已验证的固定来源
+
+首次读取日期：2026-10-18。作者：jyh9521 及各参考仓库贡献者。
+两个仓库只读；本项目没有向参考仓库写入文件或提交。
+
+| 来源 | 固定 commit | 主维护源 | 收录数 / 上游用词状态 |
+|---|---|---|---|
+| [冰之魅影](https://github.com/jyh9521/Magna-Carta-The-Phantom-of-Avalanche-CN/tree/2c9e3fc77e16e6d848ea7dcb939d184f6e59e93f) | `2c9e3fc77e16e6d848ea7dcb939d184f6e59e93f` | `locales/zh-CN/terms.json` | 118：111 approved、7 candidate |
+| [真红的圣痕](https://github.com/jyh9521/Magna-Carta-Tears-Of-Blood-CN/tree/4e1edeb9475c52f1f4d757e738bf50526f819e95) | `4e1edeb9475c52f1f4d757e738bf50526f819e95` | `GLOSSARY.md` 的“术语表”章节 | 2,021：全部“已统一” |
+
+已完整读取两份 GLOSSARY。冰之魅影的 GLOSSARY 明确由 JSON 生成，因此读取结构源；
+同时读取其 `reference-terms.json` 元数据锁，不把该文件当作当前第二仓库词表。
+该上游还引用真红旧提交 `7c1d155ced5770458d02e2bd7d61b865565a3996`；
+本项目直接固定真红上述新提交，两个来源的历史不混同。
+
+真红明确声明 GLOSSARY 为唯一术语基准。已读取
+`locales/zh-CN/terminology-review-01.json`，其中 entries 保存资源 ID、原文 SHA256、
+译文、reviewed 状态和 context，没有原词词面，属于校对补丁而非完整词典，
+不能替代 GLOSSARY。后附性别/代词表不计作五列词条。
+两种上游“定稿”都仅代表该项目用词选择，不证明官方译名，也不证明跨作品人物同一性。
+冰之魅影全部 118 项 relation 均为 pending；其 translation_state 与 relation 分开保留。
+
+`references/series.lock.json` 固定 9 个文件的路径、SHA256、大小和完整提交。
+涉及两份 GLOSSARY、结构源/元数据/校对源及两份 LICENSING 与 LICENSE-translations。
+参考文本保存在忽略的 `build/series-references/`，不复制整份上游数据入本仓库。
+
+## 实际比较结果
+
+完整短语精确比较：2,139 个参考条目，9 个跨来源共有原词；
+跨来源译名冲突 **0**；单来源同原词多译冲突 **0**。
+这仅覆盖锁定词表的字面比较；没有把“无冲突”解释为世界观或人物同一性已验证。
+
+9 个相同词面和相同译名：
+
+| 原词 | 两方用词 | 概念关系 |
+|---|---|---|
+| 라드린느 | 拉德琳娜 | 待人工核对；全名与背景不可自动继承 |
+| 마그나 카르타 | 真名法典 | 待本作语境核对；空格形单独保留 |
+| 마그나카르타 | 真名法典 | 待本作语境核对；无空格形单独保留 |
+| 마라카트 | 马拉卡特 | 待本作语境核对 |
+| 바이에르 | 拜耶尔 | 待本作语境核对 |
+| 신기 | 神器 | 待本作语境核对 |
+| 지라트 | 吉拉特 | 待本作语境核对 |
+| 카르타 | 卡尔塔 | 待本作语境核对 |
+| 칼린츠 | 卡林兹 | 待人工核对；同短名不证明同一人物 |
+
+当前本项目术语 **0**、确认继承 **0**。没有实际本作概念证据前，
+参考查找命中保持候选，不创建伪造的源字符串 ID 或资源位置。
+
+## 可复现命令（Python 3.12+ 标准库）
+
+```powershell
+python tools/series_terms.py fetch
+python tools/series_terms.py audit
+python tools/series_terms.py lookup "칼린츠"
+python tools/series_terms.py lookup "마그나카르타" --variant "마그나 카르타"
+python tools/series_terms.py check --with-references
+python tools/series_terms.py render --check
+python -m unittest discover -s tests -p test_series_terms.py -v
+```
+
+fetch 只获取已锁定的原始文件并核验 SHA256；已存在但损坏的缓存直接报错，不静默替换。
+audit 输出全部冲突候选、固定来源、类别、上游状态、原始 context 和资源/行号。
+lookup 只支持完整原词和显式 `--variant`，不忽略大小写或空白、不模糊匹配、不取子串。
+没有命中只表示没有精确词面，不表示系列新增概念。
+这些命令不回写剧情、不修改参考仓库、不合并原资源 ID。
+
+## 本项目结构化数据
+
+唯一维护源：`locales/zh-Hans/terms.json`。根 GLOSSARY 由 render 生成。
+
+每项必填：
+
+- id：本项目稳定术语 ID，不能用其他游戏资源 ID 冒充。
+- source：本作实际原词；需要时附 source_ko/source_ja/source_en。
+- target、category、resource、source_string_id、basis。
+- form：full-name / short-name / title / alias / term；全名、简称、称号、别名单独记录。
+- review_status：candidate / reviewed / in-game-verified。
+- relation：unverified / same-concept / different-concept；“无匹配”不能自动选择 different-concept。
+- series_references：数组，候选也须保留 reference、commit、source_id、source、target，
+  可另记录 context、category、source review state；未命中时空数组。
+
+同原词多个中文需在每项写 disambiguation；经确认的 same-concept 译名改变需 override_reason，
+必须由维护者人工决定，工具只检测是否记录原因。拼写变体需要 variant_basis。
+系列候选必须与固定来源完整身份相符；缺来源、缺审核状态、未知状态、重复 ID、
+可疑模糊合并、未经说明的多译和未经说明的系列译名更改均使 check 失败。
+
+后续译文文件可以传 `check --with-references --translations <JSON>`：
+JSON 顶层 translations 数组，每项有 id、target 和 term_ids；可附 term_forms 字典（术语 ID → 本句实际称呼形式）。
+检查未知术语 ID、被引用的未审核候选，以及 term_forms 标注与词条 form 不一致的全名/简称/称号混用；候选译名出现在译文时仅作为需审核信号报错，
+不会据子串自动替换。人物称呼混用仍需人工结合上下文复核；form 字段阻止省略称呼类别，
+不宣称自动理解人物身份或别名。
+
+## 上游更新与冲突处理
+
+更新不能使用 main 作为日常构建来源。维护者另建候选锁、重新审阅许可并记录文件摘要，
+用 `--lock <candidate-lock> --cache <candidate-cache> fetch` 独立下载；随后：
+
+```powershell
+python tools/series_terms.py compare --other-lock <candidate-lock> --other-cache <candidate-cache>
+```
+
+compare 报告新增、移除和 target/category/context/status 等元数据变化，保留 before/after。
+只有 commit 改变但词条完全相同不制造词条变更；候选锁本身仍明确记录新 commit。
+Markdown 源的行号是定位依据，不是跨版本稳定语义 ID，因此插行可能显示移除/新增，
+需人工复核。冲突不默认选择任一来源；先核对同概念、时期、身份、版本，后由维护者决策。
+
+## 许可与署名
+
+两仓库均将自有原创译文声明为 CC BY-SA 4.0；原版游戏原文和资源不在此授权范围。
+本项目仅提交来源锁、少量对照说明和自编工具，不提交完整混合词典缓存。
+日后实际继承原创译文须注明参考项目、提交、原译文贡献者，遵循相同方式共享；
+本项目的 `LICENSE-translations.md` 与上游许可边界应一并检查。
+工具是本项目独立实现，没有复制上游工具源码。离线单元测试全部使用合成数据。

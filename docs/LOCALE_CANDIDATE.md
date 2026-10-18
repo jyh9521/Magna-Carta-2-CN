@@ -1,5 +1,10 @@
 # Offline locale candidate assembly — 2026-10-19
 
+Current active text scope is the LogIn_NewGame prefix probe in LOGIN_PROBE.md.
+The original reproduction hashes below describe the earlier Kick packets.
+Those historical packets must not be validated with the newer trusted plans;
+current plans lock a different text record/output while retaining Font/TOC data.
+
 ## Status and purpose
 
 **Verified offline:** tools/build_locale_candidate.py assembles the original-

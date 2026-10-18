@@ -901,3 +901,8 @@ See docs/NATIVE_CLASS_TABLES.md for four full native class-name/registration ope
 ## Constructor metadata and intermediate clear (2026-10-19)
 
 See docs/OBJECT_INITIALIZATION.md for the checked metadata size/callback chain, selected callback invocation and zero-fill geometry. The small metadata chain now verifies its own argument preservation rather than assuming external helpers preserve those registers. Allocator/post-callback helpers still have unverified effects; an intermediate clear is not a component font default or runtime drawing value.
+
+
+## Warning probe scope correction (2026-10-19)
+
+See docs/LOGIN_PROBE.md: the previous valid Kick diagnostic was unrelated to the investigated LogIn_NewGame labels. Active disc candidate plans now use a selector/source-hash guarded prefix edit on the warning record, preserve its exact suffix/tokens and revalidate all39 literals against all three Font aliases. This corrects experiment scope without changing native/font conclusions or running a game. Native property/default core0x823b0f98 remains a retained offline lead.

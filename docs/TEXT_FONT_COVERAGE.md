@@ -1,5 +1,9 @@
 # Source-locked text edits and literal Font coverage — 2026-10-19
 
+Current warning-scoped candidate: see LOGIN_PROBE.md. The older text-probe.json
+and numbers below describe the retained Kick diagnostic. Active disc candidate
+plans now use the source-hash prefix plan for LogIn_NewGame instead.
+
 ## Scope
 
 **Verified offline:** tools/audit_text_font_coverage.py validates a Coalesced
@@ -43,6 +47,9 @@ After resolution, the existing exact source/token/encoding/re-extraction checks
 remain mandatory. Plans and inputs are not mutated. No-op rebuilds retain the
 existing byte-identical behavior. Source-hash plans work with both the ordinary
 text builder and the read-only coverage auditor.
+
+The additional explicit sha256-utf8-prefix mode is documented in LOGIN_PROBE.md;
+it retains the exact suffix from the guarded source and audits the whole result.
 
 ## Clean-checkout workflow
 

@@ -721,3 +721,14 @@ callback-entry or rendered font value. Metadata result+11C is a direct callback
 field, not the unrelated virtual slot11C in every table. Metadata's ownD8/E4
 zeros belong to a different object. See OBJECT_INITIALIZATION.md; do not extend
 zero runs over nonzero metadata fields such as14C=8.
+
+### Coverage of a marker is not coverage of the investigated UI experiment
+
+The retained Kick marker had valid byte/inverse/remap proofs but targeted another
+record than the LogIn_NewGame warning's known MarkupString. Correct the active
+source selector before extending engine research or calling the packet a warning
+probe. A prefix edit can preserve the guarded original suffix without publishing
+its full text. Do not count Unicode codepoints as UTF-16 units for astral text,
+split recognized control tokens, or audit only inserted glyphs while ignoring
+the retained body. Current Login prefix packets audit all39 literal codepoints;
+old successful Kick manifests still fail against the newer trusted plans.

@@ -222,3 +222,12 @@
 - 40-word fill helper经精确模板与纯整数分区验证zero调用的prefix/16-byte/4-byte/tail覆盖；不是运行/模拟PPC。组件clear site之后还存在property/default相关候选调用，所以只证明满足前置条件时的中间clear契约，不证明callback入口或绘制时字体为0。另一个相同helper调用清的是stack buffer。
 - 新20项合成/算术回归，基线517、修改537、native537、独立源码回退517；全部4个probe的LF/文档hash测试现精确匹配CLI参数，而不是文档任意位置出现hash。双盘报告相同，旧3个计划精确输入报告保持字节兼容；原件/配置不变，无游戏/原生目标执行或部署。
 - 后续沿clear之后的默认值/属性阶段及base-style/measurement路径继续；字体生效和中文显示仍由用户游戏验收。见 docs/OBJECT_INITIALIZATION.md。
+
+
+## 活动候选纠正到已调查的启动警告（2026-10-19）
+
+- 对照真实目录与UI图发现：旧text-probe.json确实是MC2UI.int/[ButtonA]/Kick，不是两处警告的MC2UI_TCR.int/[GameStart]/LogIn_NewGame。旧资源/覆盖证明保留但不重命名为警告证明；优先修正可供用户验证的实验范围，而不是继续在错误文本候选上堆引擎分析。
+- 新通用sha256-utf8-prefix模式检查完整source hash、可选精确selector、Unicode前缀边界和显式UTF16长度flag，保留源suffix/控制码；不提交完整警告原文。builder/auditor拒绝重复/非有限JSON，builder增加输入前后复核与输出字节重开/有限清理。
+- 双盘活动candidate计划改指text-probe-login.json；警告首3个BMP字符替换为既有踢击!，66 units不变，仅6字节/1条记录改变，63字符suffix及3个literal换行token保留，输出349968ee...与历史警告marker资源字节一致。Kick与其他18175条记录保持原值，不是新游戏显示结果。
+- 新鲜只读图仍1209 UI/2匹配/12状态字体路径；全39个结果literal在3份补字Font均覆盖，未添加任何新glyph或剧情行。双盘5资源装配和独立复核、10份原始备份恢复成立；旧Kick包必须被新可信计划拒绝。
+- 新20项合成回归，基线537、修改557、native557、隔离源码回退537；仍不启动/部署、不改用户配置。原生property/default core0x823b0f98的156-word/copy/fill线索已保留但语义未冒充完成；后续继续与字体/measurement调查结合，所有游戏验收由用户进行。见 docs/LOGIN_PROBE.md。

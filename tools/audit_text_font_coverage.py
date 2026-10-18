@@ -10,7 +10,7 @@ import unicodedata
 try:
     from .build_coalesced import rebuild, resolve_changes
     from .coalesced import MAX_BYTES
-    from .font_binding_plan import digest, _hash
+    from .font_binding_plan import digest, _hash, parse_json_object
     from .inspect_font_references import _tables
     from .ue3_fonts import parse_font_payload
     from .ue3_package import FormatError, LzxDecoder, write_report
@@ -18,7 +18,7 @@ try:
 except ImportError:
     from build_coalesced import rebuild, resolve_changes
     from coalesced import MAX_BYTES
-    from font_binding_plan import digest, _hash
+    from font_binding_plan import digest, _hash, parse_json_object
     from inspect_font_references import _tables
     from ue3_fonts import parse_font_payload
     from ue3_package import FormatError, LzxDecoder, write_report
@@ -94,6 +94,8 @@ def audit(original, changes, fonts, decoder=None):
         cps = literal_codepoints(edit['translation']); codepoints.update(cps)
         entries.append(dict(id=edit['id'], translation_sha256=digest(edit['translation'].encode('utf-8')),
                             literal_codepoints=cps, protected_token_count=len(TOKEN.findall(edit['translation']))))
+        if source_mode == 'sha256-utf8-prefix':
+            entries[-1]['edit_scope'] = dict(edit['prefix_scope'])
     codepoints = sorted(codepoints)
     labels, rows = set(), []
     for source in fonts:
@@ -141,7 +143,7 @@ def main(argv=None):
         if a.coalesced.stat().st_size > MAX_BYTES or a.changes.stat().st_size > MAX_BYTES:
             raise FormatError('coverage input size limit')
         original = a.coalesced.read_bytes(); raw_changes = a.changes.read_bytes()
-        changes = json.loads(raw_changes.decode('utf-8-sig'))
+        changes = parse_json_object(raw_changes)
         snapshots = [(a.coalesced,digest(original)),(a.changes,digest(raw_changes))]
         fonts = []
         for label,path,sha,obj in a.font_package:

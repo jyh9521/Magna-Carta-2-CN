@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "input_sha256": "179e265cfc9e6d3e9f2586abe75b5da303b2af9b8484079851dab72f9f7edb8c",
+  "resource": "MC2Game/Localization/Coalesced.int",
+  "source_mode": "sha256-utf8-prefix",
+  "entries": [
+    {
+      "id": "coalesced:8c6e837c9ff729ebde4418d1e1c0e51a0a9dce429775a0677dfffd7c82fd14b0",
+      "source_sha256": "433b88e1ab8a02514102f0bce9bd48ce787e55dd76ef5d0cc8fffc25d8003282",
+      "source_prefix_codepoints": 3,
+      "replacement": "踢击!",
+      "preserve_utf16_units": true,
+      "selector": {
+        "embedded_path": "..\\MC2Game\\Localization\\INT\\MC2UI_TCR.int",
+        "section": "GameStart",
+        "key": "LogIn_NewGame",
+        "occurrence": 1
+      }
+    }
+  ],
+  "review_status": "technical-prototype",
+  "game_rendering_verified": false,
+  "probe_markup": "<Strings:MC2UI_TCR.GameStart.LogIn_NewGame>",
+  "purpose": "Same two-glyph technical prefix, at the historically identified warning record; exact source suffix/control tokens retained; not final translation or current runtime/font acceptance"
+}

@@ -1,5 +1,9 @@
 # UI component prefix and warning style graph — 2026-10-18
 
+The active two-glyph packet now targets this graph's exact LogIn_NewGame selector,
+not the unrelated retained Kick diagnostic. See LOGIN_PROBE.md for source-hash
+prefix editing, fresh two-label/twelve-path re-audit and unchanged runtime gates.
+
 Follow-up: [prototype/namespace audit and both-disc all-alias controls](FONT_BINDING_AUDIT.md)
 preserves explicit archetype/CDO gaps and establishes three equivalent canonical
 General_15 candidates across the complete original-disc package inventories.

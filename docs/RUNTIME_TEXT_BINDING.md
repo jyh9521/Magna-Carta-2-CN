@@ -1,5 +1,10 @@
 # Runtime text binding and font experiments (2026-10-18)
 
+Current offline follow-up: LOGIN_PROBE.md corrects active packet plans to this
+same LogIn_NewGame record using a source-hash prefix edit. All runtime results
+below remain historical; this later work launches/deploys nothing and does not
+turn the earlier Chinese negative into a positive display result.
+
 ## Verified inputs and boundaries
 
 All runs use Canary `50e9c715d`, Disc 1 title `4E4D0811`, and an unchanged

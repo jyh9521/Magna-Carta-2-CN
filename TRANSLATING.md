@@ -765,3 +765,14 @@ A mature translation layer should allow contributors to:
 - add another locale without reverse-engineering the entire game again
 
 The translation system should be maintainable independently from the original translator's memory.
+
+## Source-hash prefix diagnostics
+
+The explicit sha256-utf8-prefix edit mode is a technical diagnostic, not a bulk
+translation shortcut. It checks the whole original value's UTF-8 hash and an
+optional exact entry selector, then replaces a caller-specified Unicode prefix
+while retaining the exact source suffix and token sequence. Codepoint boundaries
+and optional UTF-16-unit preservation are distinct; review grapheme/unknown
+syntax boundaries separately. See docs/LOGIN_PROBE.md. Active candidate plans
+use the scoped warning probe, not the retained historical Kick probe. Rendering
+flags remain false; no story translation gate changes.

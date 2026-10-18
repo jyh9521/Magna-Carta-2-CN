@@ -945,3 +945,14 @@ geometry uses prefix/16-byte blocks/4-byte words/tail partitions, not memory or
 CPU execution. Wrapper/allocation whole-function hashes and declared extents
 are distinct from their partially checked instruction windows; later call
 effects and callback-entry/render values remain unverified.
+
+## Source-hash prefix Coalesced edits (schema1)
+
+Explicit source_mode=sha256-utf8-prefix uses id/source_sha256,
+source_prefix_codepoints/replacement/preserve_utf16_units and optional exact
+selector(embedded_path/section/key/occurrence). The source hash covers the whole
+unmodified UTF-8 value; replacement operates at Unicode codepoint boundaries,
+with a separately typed UTF-16-unit length guard. Protected-token splits and
+content/order changes fail. Resolved output retains the exact suffix; reports
+record selector/unit counts/suffix hash, not original text. Literal/full-value
+hash modes are unchanged for valid inputs. See LOGIN_PROBE.md.

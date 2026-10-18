@@ -1,5 +1,10 @@
 # Independent moved-tree revalidation — 2026-10-19
 
+Active disc plans now lock the warning-scoped prefix packet described in
+LOGIN_PROBE.md. Earlier retained Kick packet evidence below remains historical;
+replay needs its matching original plan, not a relaxed verifier. Integrity of
+that older packet never established the warning's text scope.
+
 ## Purpose and proof boundary
 
 **Verified offline:** tools/verify_locale_candidate.py independently verifies a

@@ -10,13 +10,46 @@ import re
 try:
     from .coalesced import MAX_BYTES, extract_entries, parse, serialize
     from .validate_catalog import TOKEN
+    from .font_binding_plan import parse_json_object
 except ImportError:
     from coalesced import MAX_BYTES, extract_entries, parse, serialize
     from validate_catalog import TOKEN
+    from font_binding_plan import parse_json_object
 
 
 def sha256(data):
     return hashlib.sha256(data).hexdigest()
+
+
+def resolve_prefix(source, edit, row):
+    """Replace an explicitly bounded Unicode prefix; preserve the exact suffix."""
+    allowed = {'id','source_sha256','source_prefix_codepoints','replacement','preserve_utf16_units','selector'}
+    if set(edit)-allowed or not {'source_prefix_codepoints','replacement','preserve_utf16_units'} <= set(edit):
+        raise ValueError('invalid prefix edit fields')
+    count, replacement = edit['source_prefix_codepoints'], edit['replacement']
+    if type(count) is not int or not 0 <= count <= len(source) or not isinstance(replacement,str):
+        raise ValueError('prefix codepoint range/replacement invalid')
+    if type(edit['preserve_utf16_units']) is not bool:
+        raise ValueError('prefix UTF16 preservation flag must be boolean')
+    if any(m.start() < count < m.end() for m in TOKEN.finditer(source)):
+        raise ValueError('prefix boundary splits a protected token')
+    original_units = len(source[:count].encode('utf-16-le'))//2
+    replacement_units = len(replacement.encode('utf-16-le'))//2
+    if edit['preserve_utf16_units'] and original_units != replacement_units:
+        raise ValueError('prefix UTF16 length changed')
+    selector = {key:row[key] for key in ('embedded_path','section','key','occurrence')}
+    if 'selector' in edit:
+        supplied = edit['selector']
+        if (not isinstance(supplied,dict) or set(supplied) != set(selector)
+                or any(not isinstance(supplied[k],str) for k in ('embedded_path','section','key'))
+                or type(supplied['occurrence']) is not int or supplied != selector):
+            raise ValueError('prefix entry selector mismatch')
+    target = replacement + source[count:]
+    if TOKEN.findall(source) != TOKEN.findall(target):
+        raise ValueError('protected token content or order changed')
+    return target, dict(source_prefix_codepoints=count,source_prefix_utf16_units=original_units,
+                       replacement_utf16_units=replacement_units,preserved_suffix_sha256=sha256(source[count:].encode('utf8')),
+                       source_selector=selector)
 
 
 def resolve_changes(data, changes):
@@ -26,8 +59,11 @@ def resolve_changes(data, changes):
         raise ValueError("unsupported changes schema")
     mode = changes.get('source_mode', 'literal')
     if mode == 'literal':
+        if isinstance(changes.get('entries'),list) and any(isinstance(e,dict) and any(k in e for k in
+                ('source_prefix_codepoints','replacement','preserve_utf16_units','selector')) for e in changes['entries']):
+            raise ValueError('prefix fields require explicit prefix source mode')
         return changes
-    if mode != 'sha256-utf8':
+    if mode not in ('sha256-utf8','sha256-utf8-prefix'):
         raise ValueError('unsupported source verification mode')
     if sha256(data) != changes.get('input_sha256'):
         raise ValueError('input SHA256 mismatch')
@@ -38,10 +74,13 @@ def resolve_changes(data, changes):
     edits, seen = [], set()
     for edit in changes['entries']:
         if (not isinstance(edit, dict) or 'source' in edit
-                or not isinstance(edit.get('id'), str) or not isinstance(edit.get('translation'), str)
+                or not isinstance(edit.get('id'), str)
                 or not isinstance(edit.get('source_sha256'), str)
                 or not re.fullmatch('[0-9a-f]{64}', edit['source_sha256'])):
             raise ValueError('invalid source-hash edit')
+        if mode == 'sha256-utf8' and (not isinstance(edit.get('translation'),str)
+                or any(k in edit for k in ('source_prefix_codepoints','replacement','preserve_utf16_units','selector'))):
+            raise ValueError('invalid or mixed full-value source-hash edit')
         identity = edit['id']
         if identity in seen or identity not in rows:
             raise ValueError('duplicate or unknown edit ID')
@@ -49,7 +88,11 @@ def resolve_changes(data, changes):
         source = rows[identity]['source']
         if sha256(source.encode('utf-8')) != edit['source_sha256']:
             raise ValueError('expected source UTF-8 SHA256 mismatch')
-        edits.append(dict(id=identity, source=source, translation=edit['translation']))
+        if mode == 'sha256-utf8-prefix':
+            target, metadata = resolve_prefix(source, edit, rows[identity])
+            edits.append(dict(id=identity,source=source,translation=target,prefix_scope=metadata))
+        else:
+            edits.append(dict(id=identity, source=source, translation=edit['translation']))
     resolved = dict(changes, entries=edits)
     resolved.pop('source_mode')
     return resolved
@@ -119,22 +162,36 @@ def main(argv=None):
     p.add_argument("input", type=Path)
     p.add_argument("changes", type=Path)
     p.add_argument("--output", required=True, type=Path)
-    args = p.parse_args(argv)
+    args = p.parse_args(argv); created = False; output = None
     try:
-        if args.input.stat().st_size > MAX_BYTES:
+        if args.input.stat().st_size > MAX_BYTES or args.changes.stat().st_size > MAX_BYTES:
             raise ValueError("input size limit")
-        if args.output.resolve() in (args.input.resolve(), args.changes.resolve()):
-            raise ValueError("output aliases input")
+        if args.output.exists() or args.output.is_symlink() or args.output.resolve() in (args.input.resolve(), args.changes.resolve()):
+            raise ValueError("output must be new and distinct from inputs")
         original = args.input.read_bytes()
-        output = rebuild(original, json.loads(args.changes.read_text(encoding="utf-8")))
+        raw_plan = args.changes.read_bytes()
+        output = rebuild(original, parse_json_object(raw_plan))
+        if args.input.read_bytes() != original or args.changes.read_bytes() != raw_plan:
+            raise ValueError('text source/plan changed before publication')
         args.output.parent.mkdir(parents=True, exist_ok=True)
         with args.output.open("xb") as stream:
+            created = True
             stream.write(output)
+        if args.output.is_symlink() or args.output.read_bytes() != output:
+            raise ValueError('text output byte reopening mismatch')
+        if args.input.read_bytes() != original or args.changes.read_bytes() != raw_plan:
+            raise ValueError('text source/plan changed after publication')
         print(json.dumps(dict(input_sha256=sha256(original), output_sha256=sha256(output),
                               input_size=len(original), output_size=len(output),
                               reextract_equal=True, deployed=False), sort_keys=True))
         return 0
     except (OSError, ValueError, KeyError, TypeError) as error:
+        if created:
+            try:
+                if not args.output.is_symlink() and args.output.read_bytes() == output:
+                    args.output.unlink()
+            except OSError:
+                pass
         print("ERROR: " + str(error))
         return 2
 

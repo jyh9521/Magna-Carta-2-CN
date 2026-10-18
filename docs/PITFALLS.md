@@ -1,5 +1,15 @@
 # Pitfalls
 
+## 2026-10-19: physical Font copies need not have different runtime identities
+
+**Verified:** standalone font.xxx and forced-export Font roots in MC2Game/Startup
+share canonical Font.General_15 and the original Font package GUID. Whole raw
+payload hashes differ, while complete normalized glyph/remap/decoded-atlas data
+is equal. A one-package probe can therefore leave another same-namespace copy
+untouched; source metadata does not prove which copy wins. The new diagnostic
+marks all three planned copies together. A null archetype/missing override field
+also does not establish false/zero native defaults. See FONT_BINDING_AUDIT.md.
+
 ## 2026-10-18: component prefix and nested-ID pitfalls resolved
 
 **Verified for 446/25:** the extra component header precedes NetIndex; it is not

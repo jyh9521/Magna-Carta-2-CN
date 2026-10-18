@@ -1,5 +1,7 @@
 # 当前技术结论（2026-10-18）
 
+- **Verified（2026-10-19）**：完整双盘 4145 个 .xxx 的资源 hash/包表通过；每盘三份 canonical Font.General_15 候选，共用已核验 namespace GUID。三份完整字体/六图集标准化指纹相同；运行时胜出及覆盖语义未推断，见 docs/FONT_BINDING_AUDIT.md。
+
 - **Verified**：组件与嵌套样式读取器在 62 包中解析 16279 个已选 UI 对象（分类缺口另列）；两个启动警告标签经静态 ID/六状态链指向 Startup_int 的 General_15。109 个 UIStyle/614 个 StateMap 记录结构通过；见 docs/UI_STYLE_GRAPH.md。此结论补齐序列化主链，不证明运行时绑定。
 
 - **Verified**：双盘 XDVDFS 目录及 XEX2 身份，见 docs/RESOURCE_SURVEY.md。

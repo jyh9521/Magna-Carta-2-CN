@@ -56,6 +56,7 @@ def main(argv=None):
     p.add_argument('--deep', action='store_true', help='Trace component/nested serialized style candidates without executing game')
     p.add_argument('--text-token', help='Match nested StrProperty values (deep mode only)')
     p.add_argument('--reference-package', nargs=3, action='append', default=[], metavar=('LABEL', 'PATH', 'SHA256'))
+    p.add_argument('--audit-bindings', action='store_true', help='Audit renderer prototypes and all supplied Font namespace candidates (requires --deep)')
     a = p.parse_args(argv)
     try:
         if a.deep:
@@ -74,9 +75,26 @@ def main(argv=None):
                 key = label.casefold()
                 if key in packages:
                     raise FormatError('duplicate package label')
-                logical, tables = _tables(Path(path).read_bytes(), digest.lower(), decoder)
+                raw = Path(path).read_bytes()
+                logical, tables = _tables(raw, digest.lower(), decoder)
                 packages[key] = dict(logical=logical, tables=tables, sha256=digest.lower())
-            result = StyleGraph(packages).trace(a.package.stem, a.text_token)
+                if a.audit_bindings:
+                    packages[key]['package_guid'] = parse_summary(raw,len(raw))['guid']
+            graph = StyleGraph(packages)
+            result = graph.trace(a.package.stem, a.text_token)
+            if a.audit_bindings:
+                try:
+                    from .font_binding_audit import audit_font_candidates
+                except ImportError:
+                    from font_binding_audit import audit_font_candidates
+                fonts = set()
+                for match in result['text_matches']:
+                    if 'renderer' in match:
+                        r = match['renderer']
+                        match['renderer_prototype_audit'] = graph.archetype_audit((r['package'],r['object_index']))
+                    for candidate in match['candidate_paths']:
+                        f = candidate['font'];fonts.add((f['package'],f['object_index']))
+                result['font_namespace_audit'] = audit_font_candidates(graph,fonts,decoder)
             write_report(a.output, result)
             if json.loads(a.output.read_text(encoding='utf-8')) != result:
                 raise FormatError('output reopening mismatch')
@@ -84,8 +102,8 @@ def main(argv=None):
                                   candidate_paths=sum(len(m['candidate_paths']) for m in result['text_matches']),
                                   runtime_binding_verified=False), sort_keys=True))
             return 0
-        if a.text_token or a.reference_package:
-            raise FormatError('--text-token and --reference-package require --deep')
+        if a.text_token or a.reference_package or a.audit_bindings:
+            raise FormatError('--text-token, --reference-package and --audit-bindings require --deep')
         raw = a.package.read_bytes()
         if hashlib.sha256(raw).hexdigest() != a.sha256.lower():
             raise FormatError('package SHA256 mismatch')

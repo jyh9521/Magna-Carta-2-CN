@@ -3,6 +3,7 @@
 目标语言 `zh-Hans`，保留原版 Xbox 360 游戏结构，以 Xenia 为首选验证环境。当前是**研究与工具初始化**，不是可安装汉化补丁；未开始批量剧情翻译。
 
 - [当前进度](docs/STATUS.md)：里程碑、已验证与未知项。
+- [字体绑定审计与双盘候选构建](docs/FONT_BINDING_AUDIT.md)：原型/CDO、forced-export 命名空间、4145 包类表调查及未部署的三别名对照/geometry 探针。
 - [双盘版本与资源清单](docs/RESOURCE_SURVEY.md)、[FILEMAP](docs/FILEMAP.md)。
 - [系列术语固定来源](docs/SERIES_TERMS.md)、[术语表](GLOSSARY.md)。
 - [两字补字原型](docs/FONT_SUPPLEMENT.md)、[纹理解析](docs/TEXTURE_RESEARCH.md)、[LZX 构建](docs/LZX_RESEARCH.md)。

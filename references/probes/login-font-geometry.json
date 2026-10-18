@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "game_rendering_verified": false,
+  "required_source_count": 3,
+  "canonical_font_path": "font.general_15",
+  "expected_namespace_guid": "48dc8cf544327a628eab7dad23b9607d",
+  "expected_semantic_sha256": "f06656fc2f1364b438a924eb8115be604d45c307be4707b59692488590a05e0a",
+  "codepoint": 47196,
+  "expected_glyph": 959,
+  "target_glyph": 65,
+  "sources": [
+    {
+      "label": "font",
+      "path": "MC2Game/CookedXenon/font.xxx",
+      "sha256": "b9a476cc377fe54e04d574f66a2018f1a0b69138c9f25f696d46ef07b9b1a4e6",
+      "font_object": "General_15"
+    },
+    {
+      "label": "MC2Game",
+      "path": "MC2Game/CookedXenon/MC2Game.xxx",
+      "sha256": "13f92622e2ae2920f6ce6dfc7b0edbbcbec7e83adeacbd56fed84a021739a641",
+      "font_object": "Font.General_15"
+    },
+    {
+      "label": "Startup_int",
+      "path": "MC2Game/CookedXenon/Startup_int.xxx",
+      "sha256": "be264d1397e7fca36b5098e1f2b6ee4f8001f7a7216268bcf2c65edcd8de82c3",
+      "font_object": "Font.General_15"
+    }
+  ],
+  "toc": {
+    "path": "MC2Game/Xbox360TOC.txt",
+    "sha256": "04f504dba0b7d74be0ffccbc0ce0d8ecf7f2dd1dc99af4273be5bb162ff8c9ab"
+  }
+}

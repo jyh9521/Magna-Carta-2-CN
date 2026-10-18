@@ -7,6 +7,7 @@ no tag-start guessing, target execution, resource modification or runtime claims
 from __future__ import annotations
 
 import struct
+import re
 from collections import defaultdict
 
 try:
@@ -78,6 +79,91 @@ class StyleGraph:
                     object_flags=e['object_flags'], export_flags=e.get('export_flags'),
                     source_sha256=self.packages[package]['sha256'],
                     logical_serial_offset=e['serial_offset'], serial_size=e['serial_size'])
+
+    def canonical_identity(self, node):
+        """Report the uncooked namespace; never choose a loaded object instance."""
+        package, index = node[0].casefold(), node[1]
+        node = package, index
+        e = self.export(*node)
+        forced = bool(e.get('export_flags', 0) & 1)
+        root, seen = node, set()
+        while True:
+            if root in seen or len(seen) >= 256:
+                raise FormatError('cyclic or overlong identity outer chain')
+            seen.add(root)
+            parent = self.export(*root)['outer']
+            if not parent:
+                break
+            if parent < 0:
+                raise FormatError('imported identity outer is not supported')
+            root = package, parent
+        outermost = self.export(*root)
+        if forced:
+            if outermost['class_path'].rsplit('.', 1)[-1] != 'Package':
+                raise FormatError('forced export requires an outermost Package export')
+            name = e['path']
+            guid = outermost.get('guid')
+        else:
+            name = package + '.' + e['path']
+            guid = self.packages[package].get('package_guid')
+        if guid is not None and not re.fullmatch('[0-9a-f]{32}',guid):
+            raise FormatError('invalid namespace GUID metadata')
+        return dict(canonical_path=name.casefold(), class_path=self.symbolic_reference(package, e['class']),
+                    forced_export=forced, namespace_guid=guid,
+                    namespace_root=self.describe(root) if forced else None,
+                    runtime_instance_selected=False)
+
+    def archetype_audit(self, node, prefixes=('TextStyleCustomization', 'StringStyle')):
+        """Audit explicit prototypes and flag-selected CDOs as separate planes.
+
+        A null archetype does NOT imply zero field values. Class defaults are
+        located by Class index + HO ClassDefaultObject flag, never by name.
+        """
+        def chain(start):
+            records, seen, current = [], set(), start
+            while current:
+                if current in seen or len(seen) >= 256:
+                    return dict(nodes=records, termination='unresolved',
+                                reason='cyclic or overlong archetype chain')
+                seen.add(current)
+                e = self.export(*current)
+                try:
+                    parsed = self.parse(current)
+                    fields = [p for p in parsed['flattened'] if p['property_path'][0]['name'] in prefixes]
+                    records.append(dict(owner=self.describe(current), prefix=parsed['prefix'], fields=fields,
+                                        archetype_reference=e['archetype']))
+                    parent = self.reference(current[0], e['archetype'])
+                    if parent:
+                        parent_class = self.symbolic_reference(parent[0], self.export(*parent)['class'])
+                        if parent_class not in self.class_chain(current):
+                            raise FormatError('archetype has incompatible class')
+                    current = parent
+                except (ValueError, KeyError) as exc:
+                    return dict(nodes=records, termination='unresolved', reason=str(exc))
+            return dict(nodes=records, termination='null-archetype', reason=None)
+
+        explicit = chain(node)
+        defaults, unresolved = [], []
+        if explicit['termination'] == 'unresolved':
+            unresolved.append('explicit archetype chain: ' + explicit['reason'])
+        try:
+            definition = self.reference(node[0], self.export(*node)['class'])
+            if definition is None:
+                raise FormatError('null object class')
+            package, index = definition
+            for i, e in enumerate(self.packages[package]['tables']['exports'], 1):
+                if e['class'] == index and object_flags(e)[1] & 0x200:
+                    defaults.append(chain((package, i)))
+            if len(defaults) != 1:
+                unresolved.append('class-default candidate count is ' + str(len(defaults)))
+            for candidate in defaults:
+                if candidate['termination'] == 'unresolved':
+                    unresolved.append('class-default chain: ' + candidate['reason'])
+        except (ValueError, KeyError) as exc:
+            unresolved.append(str(exc))
+        return dict(explicit_archetypes=explicit, class_default_candidates=defaults,
+                    unresolved=unresolved, effective_values_resolved=False,
+                    interpretation='serialized prototype and CDO evidence; null/missing fields are not zero/default values')
 
     def reference(self, package, ref):
         package = package.casefold()

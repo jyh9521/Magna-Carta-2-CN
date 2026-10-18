@@ -1,5 +1,9 @@
 # UI component prefix and warning style graph — 2026-10-18
 
+Follow-up: [prototype/namespace audit and both-disc all-alias controls](FONT_BINDING_AUDIT.md)
+preserves explicit archetype/CDO gaps and establishes three equivalent canonical
+General_15 candidates across the complete original-disc package inventories.
+
 ## Verified offline result (not runtime acceptance)
 
 Two TitleMap labels explicitly serialize

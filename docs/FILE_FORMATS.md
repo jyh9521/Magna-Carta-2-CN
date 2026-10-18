@@ -1,5 +1,15 @@
 # File Formats
 
+## Cooked namespace metadata (2026-10-19)
+
+For this profile, export flag bit0 (value1, EF_ForcedExport) identifies forced
+exports. An outermost exported Package provides their uncooked namespace name
+and GUID; standalone objects use the physical package's summary GUID and label.
+Matching path/class/GUID is namespace-candidate evidence, not loaded-instance
+precedence. Three General_15 representations have identical full normalized
+glyph/remap/decoded-atlas data despite different table-local payload bytes.
+See FONT_BINDING_AUDIT.md for hash-locked sources, complete-disc scope and limits.
+
 ## Verified 446/25 UI serialization (2026-10-18)
 
 The component template header precedes NetIndex: class defaults use 4 bytes,

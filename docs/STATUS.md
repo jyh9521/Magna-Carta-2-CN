@@ -3,6 +3,9 @@
 ## 当前主线：真实文本已绑定，字体绑定仍待证明
 
 - **最新执行约定：游戏测试全部由用户进行。** 后续自主推进限离线分析、工具、合成测试及候选准备；不自行启动 Xenia、发送输入或部署游戏资源。历史运行记录不构成继续游戏测试的授权。
+- **2026-10-19 持续推进：** 继承原型链与 CDO 平面已分开审计，不把缺失字段当成 false；Core.Default__Component 尾部仍明示未解析。ForcedExport/namespace/GUID 与完整 glyph/remap/六张图集的标准化指纹证明三份 General_15 候选数据等价，但不选择运行时胜出者，见 FONT_BINDING_AUDIT.md。
+- **范围扩展到双盘全包：** D1 1912、D2 2233 个 .xxx 共 4145 包逐件 SHA256 和完整包表验证，零包头/字体身份错误；每盘恰三处 General_15 命名空间候选，三文件跨盘 hash 相同。这是类表调查，不是所有 Font payload 或游戏显示验收。
+- **双盘离线包已构建、未部署：** 三别名同时做原有字形959→65 geometry 标记，三份候选标准化指纹一致，六份独立反向文件均等于 raw 对照；D1/D2 各有 hash 锁定 TOC。通用构建器、版本计划和回归测试已加入，不覆盖原件、不启动游戏。
 - **新完成：启动警告的静态完整字体链。** 组件前缀已按 class/outer/flags 解析为 4/8/16 字节三分支；62 包中 16279 个已选 UI 对象全部解析，1327 个分类缺口单列。TitleMap 两个 LogIn_NewGame 标签经 StringRenderComponent、AssignedStyleID、GeneralFont 六状态和嵌套 TextStyle 指向 Startup_int export21 General_15；12 条路径不等于运行时选中。见 UI_STYLE_GRAPH.md。
 - **离线诊断已备妥，未部署：** GeneralFont 六处 StyleFont 的同尺寸 21→20 候选（General_15→Subtitle）、原样 raw 对照及独立反向副本 hash 恢复通过；两候选共用单字段 TOC 大小副本。原版/对照/候选静态图均保留两条文本绑定、12 条路径。109 个 UIStyle、614 条状态映射完成结构验证。
 - 新增通用 `--consumers` 离线扫描：对既有日志所列 62 包验 hash 后只读分析，122876 exports 中 52541 成功解析 tagged 前缀、58210 明示跳过、12125 明示未解析；59 条直接字体引用中，新增覆盖 MC2Game 的 16 条自定义默认对象引用与 Engine 的 2 条默认引用。所有 62 包再次核验 hash 不变。详见 FONT_CONSUMERS.md。

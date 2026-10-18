@@ -1,5 +1,9 @@
 # 来源与许可
 
+## Cooked Font 命名空间研究
+
+EF_ForcedExport 与 uncooked package 名解析参考 Konstantin Nosov 的 MIT UEViewer 固定提交 `a0bfb468d42be831b126632fd8a0ae6b3614f981`；两文件 URL/SHA256 在 references/font-namespace-research.lock.json。与已锁定 Unreal-Library ExportFlags enum 相互核对。Python 审计为独立实现，仅验证命名空间候选与数据等价，不移植游戏 loader，也不声称证明实际加载优先级。
+
 ## UI 组件格式研究
 
 组件模板/ClassDefault 路由、版本条件及 LO/HO 标志含义参考 Eliot van Uytfanghe 的 Unreal-Library，固定 MIT 提交 `8236c39b79e30887a487ecf9b018204e430a5ebc`。来源 URL 与六文件 SHA256 见 references/ui-style-research.lock.json，许可原文见 licenses/Unreal-Library-MIT.txt。仅参考格式事实并在当前原始字节上独立验证；本项目 Python 图读取器为独立实现，未集成上游源码、反编译器或运行时。嵌套样式、StateMap 与本作告警链以实际结构验证为准，见 docs/UI_STYLE_GRAPH.md。

@@ -146,3 +146,8 @@ Next offline work follows registration callback storage/invocation, allocation
 and property/default phases, plus the slot0x124 and base-style producer paths.
 These remaining phases are required before making an effective Font claim;
 the two-guard font overlay from NATIVE_STYLE_SELECTION.md still applies.
+
+Follow-up: OBJECT_INITIALIZATION.md checks the small metadata-helper chain,
+size/callback words and selected callback/clear-phase sites. It distinguishes an
+intermediate clear from later property/default effects; active font/default
+values remain unverified. Earlier class-table plan inputs/reports are unchanged.

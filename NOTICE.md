@@ -59,3 +59,8 @@ MIT, commitddd128bcca99fe8bfbb99bea583c972351fa6ace, XenonUtils/xbox.h and
 XenonRecomp/recompiler.cpp. Exact URLs/hashes are in references/pdata-research.lock.json;
 upstream license retained in licenses/XenonRecomp-MIT.md. Independent Python
 format reader only; no upstream runtime/SDK or game asset is integrated.
+
+Object-initialization follow-up independently checks counted-branch/zero-fill
+patterns and arithmetic interval geometry. Versioned IBM instruction URLs and
+their observed availability are retained in references/object-initialization-research.json;
+no vendor prose, runtime or Capstone code is integrated. Target reports stay local.

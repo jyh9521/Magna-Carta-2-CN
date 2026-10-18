@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "implementation": "independent exact word/template checks and closed-form interval algebra; no target execution or instruction interpreter",
+  "instruction_references": [
+    {
+      "author": "IBM",
+      "document": "AIX 7.1 bc branch conditional instruction",
+      "url": "https://www.ibm.com/docs/en/aix/7.1.0?topic=set-bc-branch-conditional-instruction",
+      "used_for": "count decrement / condition combinations and relative branch fields",
+      "availability": "primary indexed extract inspected; direct HTML open returned403; no immutable HTML identity claimed"
+    },
+    {
+      "author": "IBM",
+      "document": "AIX 7.2 rlwimi mask insert instruction",
+      "url": "https://www.ibm.com/docs/en/aix/7.2.0?topic=is-rlwimi-rlimi-rotate-left-word-immediate-then-mask-insert-instruction",
+      "used_for": "instruction-family reference; only zero-preservation used in this profile",
+      "availability": "versioned vendor URL; direct HTML open returned403; no immutable HTML identity claimed"
+    }
+  ],
+  "format_provenance": "references/pdata-research.lock.json and references/xex-image-research.lock.json",
+  "local_independent_syntax_crosscheck": "Capstone5.0.8 research only, not a tool/core-CI dependency",
+  "runtime_semantics": "opaque allocator and post-clear/default/property helpers remain unverified"
+}

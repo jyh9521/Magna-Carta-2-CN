@@ -213,3 +213,12 @@
 - 发现新style/class计划在Windows工作区仍为CRLF，而Git已按.gitattributes存为LF；旧文档锁的是本地CRLF hash，clean checkout会失败。未放宽输入hash校验，改为发布源码LF字节的正确hash，工作区6份JSON纯换行差异统一回现有Git blob，内容语义不变。
 - 新增2项仓库字节契约测试；先在旧CRLF输入复现失败，再验证源码LF与文档hash一致。合计517项、native517、combined隔离回退495；新archive不再用工作区JSON覆盖来掩盖clean-checkout问题，真实CLI也直接读取Git归档计划复核双盘。
 - 同一历史CRLF计划输入的报告仍逐字节兼容；改用发布LF计划时只允许报告的plan_sha256身份字段改变，其余字节须完全相同。游戏原件、语义计划数据和配置保持不变。
+
+
+## Metadata callback链与中间clear阶段（2026-10-19）
+
+- 新object_initialization opt-in计划验证20/21-word save/restore、57-word base与77-word metadata constructor、size getter及选定wrapper/allocator窗口；metadata参数r4写+50、r9经r28写+11C。metadata table的slot120指向读取+50的8字节getter，未将其误当UI component的方法表。
+- selected callback site0x823b9b18从原Class或fallback helper返回指针+11C取地址，传allocation返回值r30；allocation结果0会跳过该调用点。Class空指针处理、fallback语义和较大callee的寄存器保持不冒充已证实。
+- 40-word fill helper经精确模板与纯整数分区验证zero调用的prefix/16-byte/4-byte/tail覆盖；不是运行/模拟PPC。组件clear site之后还存在property/default相关候选调用，所以只证明满足前置条件时的中间clear契约，不证明callback入口或绘制时字体为0。另一个相同helper调用清的是stack buffer。
+- 新20项合成/算术回归，基线517、修改537、native537、独立源码回退517；全部4个probe的LF/文档hash测试现精确匹配CLI参数，而不是文档任意位置出现hash。双盘报告相同，旧3个计划精确输入报告保持字节兼容；原件/配置不变，无游戏/原生目标执行或部署。
+- 后续沿clear之后的默认值/属性阶段及base-style/measurement路径继续；字体生效和中文显示仍由用户游戏验收。见 docs/OBJECT_INITIALIZATION.md。

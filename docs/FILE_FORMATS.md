@@ -935,3 +935,13 @@ class names. Slot128 points to a checked61-word getter; slot124's result selects
 entry+E8 vs the pointer loaded at entry+28 plus174. These are static operands,
 not serialized offsets or active runtime field values. Table window size and
 leaf BLR boundaries do not imply full table/function extent.
+
+## Object-initialization static contract
+
+OBJECT_INITIALIZATION.md records metadata size+50/callback+11C word transfers,
+checked save/base/constructor helpers, the metadata table's slot120 size getter,
+selected wrapper/allocator sites, and the40-word zero-fill template. Its integer
+geometry uses prefix/16-byte blocks/4-byte words/tail partitions, not memory or
+CPU execution. Wrapper/allocation whole-function hashes and declared extents
+are distinct from their partially checked instruction windows; later call
+effects and callback-entry/render values remain unverified.

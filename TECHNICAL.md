@@ -896,3 +896,8 @@ See docs/NATIVE_STYLE_SELECTION.md for the two-guard font word overlay, shared v
 ## Native class-prefix and static table association (2026-10-19)
 
 See docs/NATIVE_CLASS_TABLES.md for four full native class-name/registration operands, three leaf table initializers and the slot128 getter's two source-base branches. Static class-associated target identity is now checked with the new opt-in profile; active vptrs, allocator/constructor defaults and external helper effects remain unverified. In particular, those leaves do not write font wordsD8/E4.
+
+
+## Constructor metadata and intermediate clear (2026-10-19)
+
+See docs/OBJECT_INITIALIZATION.md for the checked metadata size/callback chain, selected callback invocation and zero-fill geometry. The small metadata chain now verifies its own argument preservation rather than assuming external helpers preserve those registers. Allocator/post-callback helpers still have unverified effects; an intermediate clear is not a component font default or runtime drawing value.

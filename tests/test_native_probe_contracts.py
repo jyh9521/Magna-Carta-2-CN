@@ -1,5 +1,6 @@
 """Repository-only probe/document byte contracts; no game assets or Git required."""
 import hashlib
+import re
 from pathlib import Path
 import unittest
 
@@ -7,7 +8,8 @@ import unittest
 ROOT=Path(__file__).resolve().parents[1]
 PROBES=[('ui-draw-string-native.json','NATIVE_BINDINGS.md'),
         ('ui-draw-string-style-selection.json','NATIVE_STYLE_SELECTION.md'),
-        ('ui-draw-string-class-tables.json','NATIVE_CLASS_TABLES.md')]
+        ('ui-draw-string-class-tables.json','NATIVE_CLASS_TABLES.md'),
+        ('ui-object-initialization.json','OBJECT_INITIALIZATION.md')]
 
 
 class NativeProbeContractTests(unittest.TestCase):
@@ -21,7 +23,8 @@ class NativeProbeContractTests(unittest.TestCase):
         for plan,document in PROBES:
             with self.subTest(plan=plan):
                 raw=(ROOT/'references/probes'/plan).read_bytes();expected=hashlib.sha256(raw).hexdigest()
-                self.assertIn(expected,(ROOT/'docs'/document).read_text(encoding='utf8'))
+                text=(ROOT/'docs'/document).read_text(encoding='utf8')
+                self.assertEqual(re.findall(r'--plan-sha256\s+([0-9a-f]{64})',text),[expected])
 
 
 if __name__=='__main__':unittest.main()

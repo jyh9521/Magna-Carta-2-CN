@@ -710,3 +710,14 @@ plan bytes. Do not normalize arbitrary inputs inside a verifier or weaken exact
 hash guards. Old raw-plan identity remains different; reports may legitimately
 change only their plan_sha256 when the semantic plan is unchanged. See the
 native probe byte-contract regressions and canonical CLI proof in build/.
+
+### Do not promote a clear call or a Class metadata zero to an instance default
+
+The same fill helper clears both a stack buffer and an allocation destination;
+its target register/context matters. At the allocation destination call, r4 is
+zero and r5 comes from metadata slot120, but additional initialization calls
+occur before allocation returns. An intermediate zero does not establish a
+callback-entry or rendered font value. Metadata result+11C is a direct callback
+field, not the unrelated virtual slot11C in every table. Metadata's ownD8/E4
+zeros belong to a different object. See OBJECT_INITIALIZATION.md; do not extend
+zero runs over nonzero metadata fields such as14C=8.

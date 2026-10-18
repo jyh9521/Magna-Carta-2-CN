@@ -86,7 +86,7 @@ def declarations(raw,table,source_sha):
 
 def inspect_tables(image,plan,metadata_raw):
     fields={'schema_version','profile','image_sha256','image_base','code_ranges','string_range','data_range','engine_source_sha256','tables'}
-    if (not isinstance(plan,dict) or set(plan)!=fields or type(plan.get('schema_version')) is not int
+    if (not isinstance(plan,dict) or set(plan)-fields not in (set(),{'measurement_path'}) or not fields<=set(plan) or type(plan.get('schema_version')) is not int
             or plan['schema_version']!=1 or plan.get('profile')!='ppc-initialized-native-row8-v1'):
         raise FormatError('unsupported initialized native table plan')
     if len(image)>MAX_IMAGE or digest(image)!=hash_field(plan['image_sha256']):
@@ -150,9 +150,14 @@ def inspect_tables(image,plan,metadata_raw):
         out.append(dict(label=table['label'],engine_class=table['engine_class'],engine_class_index=table['engine_class_index'],
             metadata_sha256=table['metadata_sha256'],table_address=at,table_count=count,row_size=8,
             table_window_sha256=table['table_sha256'],sentinel_address=at+count*8,metadata_coverage=coverage,bindings=bindings))
-    return dict(schema_version=1,profile=plan['profile'],image_sha256=digest(image),engine_source_sha256=source_sha,tables=out,
+    report=dict(schema_version=1,profile=plan['profile'],image_sha256=digest(image),engine_source_sha256=source_sha,tables=out,
         coordinate_system='reconstructed virtual-image addresses; not raw PE pointers',
         storage='preinitialized name/code words; no descriptor initializer or adjustor word inferred',
         static_name_code_association_verified=True,native_tokens_preserved=True,native_token_dispatch_semantics_verified=False,
         engine_package_reread=False,metadata_identity_anchor_verified=True,code_body_semantics_verified=False,
         runtime_registration_verified=False,active_font_verified=False,image_modified=False,executed=False)
+    if 'measurement_path' in plan:
+        try:from .ppc_text_measurement import verify_measurement
+        except ImportError:from ppc_text_measurement import verify_measurement
+        report['measurement_path']=verify_measurement(view,plan['measurement_path'],out,code,plan['string_range'],plan['data_range'])
+    return report

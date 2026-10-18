@@ -17,6 +17,8 @@ Disc 2 同法指定独立输出及目录；首次解出后再次提取应使用�
 
 ## 字体使用方离线扫描
 
+新增显式 `font-metrics-measurement-path.json`，在13项initialized绑定后检查TextSize caller/helper/metric三窗口与常量。旧initialized计划输出不变，不解释执行指令或推断运行Font；命令与LF hash见 docs/TEXT_MEASUREMENT_PATH.md。
+
 测量调查新增 `inspect_function_metadata.py --class ... --native-only` 与 `inspect_initialized_natives.py`；前三个Class的完整native-only报告生成方式、SHA及initialized row8计划见 docs/INITIALIZED_NATIVE_TABLES.md。它与既有cold row12 inspector分离，默认旧元数据输出不变，不调用目标代码。
 
 新增第六个显式native计划 `references/probes/ui-style-reference-helper.json`，核对判定函数helper及三条class-name/tag参数链。旧五个计划不变；命令/计划LF hash见 docs/STYLE_REFERENCE_HELPER.md。工具仅静态读取，不调用目标函数。

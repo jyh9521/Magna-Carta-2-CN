@@ -1,5 +1,14 @@
 # File Formats
 
+## Native metric glyph records versus stored Font records (2026-10-19)
+
+The source-locked metric code computes a20-byte runtime record stride, reads
+width/height-like words at+8/+C and a texture-index byte at+10. Existing Font
+serialization still stores17 bytes per native glyph entry. The code's map-like
+entry stride is8, next-link word+0/key-u16+4/value-u16+6. These observations do not
+prove the serialized/native layout bridge or change the file writer. See
+TEXT_MEASUREMENT_PATH.md for exact branches, hashes and limits.
+
 ## Initialized Font/Canvas native rows (2026-10-19)
 
 For the hash-locked reconstructed PPC image, the Font/MultiFont/Canvas tables

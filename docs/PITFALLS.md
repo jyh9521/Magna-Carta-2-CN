@@ -1,5 +1,14 @@
 # Pitfalls
 
+## 2026-10-19: metric mode branches do not establish a serialized Font bridge
+
+The checked metric window uses a20-byte native record stride, while stored Font
+glyph records remain17 bytes. Its direct/remapped-looking branches and7F
+substitution are code facts, not a live IsRemapped value or a rendering result.
+Font.Characters/Textures/CharRemap declaration-reader failures are unsupported
+Array/Map metadata, not absent fields. Keep the bridge and draw-path equality
+unverified; see TEXT_MEASUREMENT_PATH.md.
+
 ## 2026-10-19: initialized native pointers are not cold descriptor rows
 
 Font/MultiFont/Canvas store name/code pairs eight bytes apart, while the earlier

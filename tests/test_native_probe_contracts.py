@@ -13,6 +13,7 @@ PROBES=[('ui-draw-string-native.json','NATIVE_BINDINGS.md'),
         ('ui-draw-string-selection-predicate.json','STYLE_SELECTION_PREDICATE.md'),
         ('ui-style-reference-helper.json','STYLE_REFERENCE_HELPER.md'),
         ('font-metrics-initialized-tables.json','INITIALIZED_NATIVE_TABLES.md'),
+        ('font-metrics-measurement-path.json','TEXT_MEASUREMENT_PATH.md'),
         ('ui-object-initialization.json','OBJECT_INITIALIZATION.md')]
 
 

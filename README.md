@@ -5,6 +5,7 @@
 - [当前进度](docs/STATUS.md)：里程碑、已验证与未知项。
 - [双盘版本与资源清单](docs/RESOURCE_SURVEY.md)、[FILEMAP](docs/FILEMAP.md)。
 - [系列术语固定来源](docs/SERIES_TERMS.md)、[术语表](GLOSSARY.md)。
+- [字体结构研究](docs/FONT_RESEARCH.md)、[包表解析](docs/UE3_PACKAGE_RESEARCH.md)、[容器回写与原版基线](docs/COALESCED_REBUILD.md)。
 - [当前 Coalesced 实测](docs/COALESCED_SURVEY.md)、[构建命令](BUILDING.md)、[来源与许可](NOTICE.md)。
 
 ```powershell

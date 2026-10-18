@@ -1,6 +1,6 @@
 # 当前可执行流程（2026-10-18）
 
-Python 3.12+，仅标准库；本次本地 Python 3.14.2。尚无汉化补丁构建命令。
+Python 3.12+，仅标准库；本次本地 Python 3.14.2。尚无汉化补丁构建命令。包表/字体只读解析和容器副本回写见 docs/UE3_PACKAGE_RESEARCH.md、docs/FONT_RESEARCH.md、docs/COALESCED_REBUILD.md；它们不等于完整补丁构建。
 
 ```powershell
 python -m unittest discover -s tests -v

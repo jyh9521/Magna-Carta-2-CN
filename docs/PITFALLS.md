@@ -662,3 +662,10 @@ UIComp_DrawString.SetFont/DisableCustomFont and the two style getters are declar
 ### Preserve bytecode boundaries without inventing native behavior
 
 The5 scripted siblings are now fully decoded only with explicit --include-scripted and hash-locked Core input. In these bodies short-circuit Skip spans include the enclosing EndFunctionParms, while default-value spans include EndParmValue; an off-by-one shifts the following statement. Core operator FriendlyName aliases differ from export leaves when the operator flag is set. Preserve Context raw skip/property-type fields without assigning an unverified VM meaning. Enum-typed Orientation does not prove runtime index bounds; source-like expressions and syntactic control edges are not executions. See SCRIPTED_UI_LAYOUT.md.
+
+
+### XEX virtual images are not ordinary raw PE files or authenticated signatures
+
+A XEX basic image retains PE raw pointers/size that do not describe its virtual bytes: .text raw0x2c8c00 is not code RVA0x2d0000; .reloc is partly absent. Do not feed those raw offsets into native-address claims. CBC chaining continues across stored basic extents; inserted zero bytes do not enter ciphertext or reset the IV. Exact inverse re-encryption and dual AES agreement do not verify RSA or stored digest semantics: direct plaintext-page SHA1 matched0/307 digest fields, so that hypothesis stays rejected. REA rejected the XEX format and the genuinely reconstructed PE architecture; no provider/architecture spoofing or native session was used.
+
+Wide name searches also need actual NUL boundaries and big-endian alignment. A one-byte-shifted UTF16LE ASCII match is not a second string encoding. The full native-registration leads start with intUUIComp_, not the interior UIComp_ substring; four unique data pointers were found only after using full names. They are not yet verified native entry points. See NATIVE_IMAGE.md.

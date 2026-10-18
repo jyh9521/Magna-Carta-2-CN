@@ -1,0 +1,25 @@
+{
+  "repository": "https://github.com/xenia-project/xenia",
+  "commit": "95a5c3ee250f80c3b9d139658649d9ffb6db3eec",
+  "files": [
+    {
+      "path": "src/xenia/kernel/util/xex2_info.h",
+      "url": "https://raw.githubusercontent.com/xenia-project/xenia/95a5c3ee250f80c3b9d139658649d9ffb6db3eec/src/xenia/kernel/util/xex2_info.h",
+      "sha256": "3df4a38e4a05f5d6e2a55be566727380dafeea683b2564093915ba515f89b9a9"
+    },
+    {
+      "path": "src/xenia/cpu/xex_module.cc",
+      "url": "https://raw.githubusercontent.com/xenia-project/xenia/95a5c3ee250f80c3b9d139658649d9ffb6db3eec/src/xenia/cpu/xex_module.cc",
+      "sha256": "36a30e1bc54b9854cbd2572b74e366e733460c5df6edf2b29542de36575858f2"
+    },
+    {
+      "path": "LICENSE",
+      "url": "https://raw.githubusercontent.com/xenia-project/xenia/95a5c3ee250f80c3b9d139658649d9ffb6db3eec/LICENSE",
+      "sha256": "369ea6b0f7ba57544067e9d470ca82a927da787fb0a749b11cb55f1fd0ba47ae"
+    }
+  ],
+  "schema_version": 1,
+  "author": "Ben Vanik and Xenia contributors",
+  "license": "BSD-3-Clause",
+  "reuse": "format research and public platform key constant only; independent Python implementation; no emulator/runtime integration"
+}

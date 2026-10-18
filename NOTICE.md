@@ -47,3 +47,6 @@ no upstream runtime or game assets are integrated.
 Additional native-function format research from the same Eliot van Uytfanghe / Unreal-Library MIT commit: UFunction.cs, FieldTokens.cs and OtherTokens.cs; exact identities in references/function-metadata-research.lock.json. Existing locks preserve token/flag maps. Independent Python implementation only; no upstream runtime/source integrated.
 
 Additional scripted-UI token format research from the same Eliot van Uytfanghe / Unreal-Library MIT commit: LetTokens, ContextTokens, JumpTokens, ArrayTokens, FunctionTokens, CastTokens and UnrealTokens. Exact URLs/hashes are in references/scripted-ui-research.lock.json. Independent Python grammar/reference analysis only; no upstream runtime/source integrated.
+
+
+XEX image format research/public platform key constant: Ben Vanik and Xenia contributors, xenia-project/xenia, BSD-3-Clause, commit95a5c3ee250f80c3b9d139658649d9ffb6db3eec; xex2_info.h and xex_module.cc. Exact source identities are locked in references/xex-image-research.lock.json and upstream license retained in licenses/Xenia-BSD-3-Clause.txt. Independent Python implementation, no emulator/runtime/SDK integrated. Optional PyCryptodome/cryptography backends are external dependencies, not vendored binaries.

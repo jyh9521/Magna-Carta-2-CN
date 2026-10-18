@@ -1,6 +1,6 @@
 # 当前可执行流程（2026-10-18）
 
-Python 3.12+，仅标准库；本次本地 Python 3.14.2。尚无汉化补丁构建命令。包表/字体只读解析和容器副本回写见 docs/UE3_PACKAGE_RESEARCH.md、docs/FONT_RESEARCH.md、docs/COALESCED_REBUILD.md；它们不等于完整补丁构建。
+Python 3.12+，核心工具/默认测试仅标准库；加密XEX还原的显式可选依赖另见下文。本次本地 Python 3.14.2。尚无汉化补丁构建命令。包表/字体只读解析和容器副本回写见 docs/UE3_PACKAGE_RESEARCH.md、docs/FONT_RESEARCH.md、docs/COALESCED_REBUILD.md；它们不等于完整补丁构建。
 
 ```powershell
 python -m unittest discover -s tests -v
@@ -680,3 +680,8 @@ MC2Game.xxx copy and its still-pending raw-package interactive control.
 ## UI布局脚本的显式opt-in分析（2026-10-19）
 
 在函数审计命令加`--include-scripted --reference-package Core <Core.xxx> <SHA256>`，按有界语法解析5个layout wrapper并绑定Core.Object操作符声明；全类由默认18通过/5未解析变为23通过/0未解析。输出含typed AST、source-like语句和纯语法控制边，既不执行也不部署。原/引用包hash与profile在加载可选decoder前全部校验。完整命令与Context skip、动态数组索引和native实现未验证边界见 docs/SCRIPTED_UI_LAYOUT.md。
+
+
+## XEX原生映像只读还原（2026-10-19）
+
+`tools/extract_xex_image.py` 支持hash锁定XEX2 none/basic profile，输出新分析映像/报告及可选原始容器逆向副本；不启动游戏、不补签、不写回原件。显式加密backend的可选版本在requirements-crypto.txt，默认测试仍仅标准库。双盘/双AES实现还原共同映像、原始XEX全字节恢复、PE虚拟布局及认证未验证边界见 docs/NATIVE_IMAGE.md。所有产物只放build/，不进入Git。

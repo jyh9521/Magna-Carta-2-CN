@@ -1,5 +1,7 @@
 # 当前技术结论（2026-10-18）
 
+- **Verified（2026-10-19）**：双盘XEX由两个AES backend分别还原同一20119552字节PPCBE虚拟映像，各自物理逆向副本完整匹配原XEX。代码页/PE注释已区分，认证和实际native字体路径未证明；见 docs/NATIVE_IMAGE.md。
+
 - **Verified（2026-10-19）**：显式脚本模式将UIComp_DrawString全类审计推进至23/23；5个布局wrapper的736字节/242 token、字段/继承Struct、参数与跳转已完整解析。Core.Object操作符声明身份已核实，native实现及Context skip的VM含义未证明；见 docs/SCRIPTED_UI_LAYOUT.md。
 
 - **Verified（2026-10-19）**：UIComp_DrawString直属23个Function中18个native声明只有NativeParm/Nothing/EndOfScript参数桩，NativeToken均0；SetFont、DisableCustomFont和两个样式getter的类型/返回声明已核实，但原生实现和有效字体仍未证明。另5个非native脚本显式未解析，见 docs/FUNCTION_METADATA.md。

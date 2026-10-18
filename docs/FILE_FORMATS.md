@@ -905,3 +905,8 @@ See FUNCTION_METADATA.md for retained Line/TextPos/FriendlyName fields, native t
 ## Opt-in 446/25 scripted UI wrapper subset
 
 SCRIPTED_UI_LAYOUT.md records the bounded grammar and exact5-body/736-byte/242-token result. StructMember retains property/struct references and copy/modification bytes; inherited owner ancestry is checked. Static arrays retain enum/type identity, not runtime index proof. Default/Skip spans and forward statement targets are checked; Context raw skip5 is preserved without VM-meaning inference. Core.Object numeric operator declarations are scoped/unique, not executable registrations. This is not a general VM or bytecode dialect claim.
+
+
+## XEX2 none/basic offline image profile
+
+NATIVE_IMAGE.md records the hash-locked dual-disc originals, exact basic stored/zero extents and common virtual-image identity. XEX/security fields are big-endian, reconstructed PE metadata little-endian and native code/data words big-endian. CBC spans the concatenated stored data; zero extents are inserted afterward. PE raw pointers/declared image size are annotations, not remapping instructions. Stored page extents are checked; RSA/page-digest authentication remains unverified.

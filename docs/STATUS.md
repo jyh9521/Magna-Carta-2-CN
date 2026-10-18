@@ -170,3 +170,12 @@
 - Core.Object239个直属Function头内按唯一NativeToken绑定4个操作符声明，不按数字表猜语义；别名仅在operator flag下放行。local/Class/继承Struct引用、类型/enum、call参数、Skip/default跨度与前向语句目标均校验。Context skip含义与动态Orientation范围明确未验证。
 - 新增23项纯自编包/脚本合成回归，基线415、修改438、native438、独立源码回退415；原游戏包与配置hash保持，无启动/部署/批量剧情翻译。见 docs/SCRIPTED_UI_LAYOUT.md。
 - 下一步转向可执行文件native注册/实现及文本测量路径；SetFont等18个native方法的实际字体选择、原生构造、中文像素验收仍未完成，游戏测试继续由用户负责。
+
+
+## 双盘原生映像可复现还原（2026-10-19）
+
+- 新增xex_image/extract_xex_image：预检原hash/profile与边界后显式选择AES backend，完整CBC存储流解密后插零；逆向去零/重加密与原头组成全字节原XEX副本。none/basic之外的变体拒绝，不改签名/入口/原文件，不执行。
+- 双盘原XEX完整hash不同，Media ID/盘号保留各自身份；D2新提取文件匹配旧独立全文件清单。PyCryptodome3.23.0及cryptography46.0.3各自还原两盘，4份20119552字节映像全相同，SHA=d18d49fb2960426715ba17d61d069cce42b1eadac153af13c9395cd42b1773e9；各盘物理逆向副本复读与原件一致，不因此交换完整XEX。
+- PE32/PPCBE头及代码页范围已核实；PE原始指针/SizeOfImage不用于重映射，RSA和存储页digest语义保持未验证。REA两个目标均被格式/架构边界拒绝，无native session；有限Capstone查看不冒充完整反编译或游戏验证。
+- 已找到4个intUUIComp_DrawStringexec...完整宽字符串及各1个数据指针，仍只是注册线索，不是SetFont等native入口地址。下一步追踪数据表/初始化及执行函数边界、字体覆盖/测量逻辑。
+- 新增22项纯合成结构/CLI/cipher-contract与Git签名检测回归，基线438、修改460、native460、独立源码回退438。核心CI无需加密依赖；真实AES双实现证据另列。所有原包/配置hash保持，无启动、部署或批量剧情翻译。见 docs/NATIVE_IMAGE.md。

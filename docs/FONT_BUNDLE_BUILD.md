@@ -156,3 +156,9 @@ The complete local metadata is minimal-text-coverage-probe.json alongside the
 bundle verification. The reusable source/placeholder/font-coverage validator and versioned
 source-hash edit plan are now implemented; see TEXT_FONT_COVERAGE.md.
 No full original source text enters Git.
+
+
+Combined font/text/TOC dependency assembly is now available in
+[LOCALE_CANDIDATE](LOCALE_CANDIDATE.md). It consumes the actual candidate bytes,
+not this bundle's success flags, and preserves explicit source/raster/runtime
+verification boundaries. It does not install or run the output.

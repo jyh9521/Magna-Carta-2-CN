@@ -130,3 +130,10 @@ Eighteen new synthetic tests need no game, font raster dependencies or DLL.
 They cover source-hash resolution, strict schemas/modes, token/ID/source guards,
 raw/compressed aliases, all-font coverage failures, glyph boundary cases,
 inverse equality, report/readback/input mutation, CLI and locale-plan consistency.
+
+
+For a single guarded original-path-shaped Font/text/TOC candidate tree, see
+[LOCALE_CANDIDATE](LOCALE_CANDIDATE.md). It requires every binary candidate hash
+and full Font identity/semantics, reruns this source/literal audit, updates all
+actual resource-size deltas and independently checks backup restoration. This
+adds packaging integrity, not runtime/display acceptance.

@@ -39,6 +39,10 @@ Xenia 测试必须基于用户提供的 `xenia/xenia-canary.config.toml`，不�
 
 通用 `tools/audit_text_font_coverage.py` 按原容器 hash、稳定 ID、源值 hash/原文和保护标记顺序验证修改计划，内存回写/反向还原后检查所有显式 Font 的字面字符 remap 与指标；只写新报告、不选运行字体。`locales/zh-Hans/text-probe.json` 已保存仅一条两字技术探针的源值 hash 计划，不需要私有 changes 文件；`build_coalesced.py` 可直接用同一计划构建独立文本副本。完整命令、双盘/负对照/逆向证据及边界见 [TEXT_FONT_COVERAGE](docs/TEXT_FONT_COVERAGE.md)。未开始批量翻译。
 
+## 字体/文本/TOC最小候选装配（2026-10-19）
+
+`tools/build_locale_candidate.py` 按 locales/zh-Hans/candidate-disc1.json / candidate-disc2.json 校验所有依赖真实字节，再一次生成原路径形状的5资源候选、原始对照和备份恢复检查。拒绝原件/字体输入目录内输出，不信任上游manifest成功标志，不启动或部署。命令、依赖、schema、双盘与整树复现证据见 [LOCALE_CANDIDATE](docs/LOCALE_CANDIDATE.md)。它是离线技术候选，不是完整游戏目录、安装包或发布补丁。
+
 ## 双盘差异报告（只读）
 
 在两份完整哈希清单准备后，执行：

@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "kind": "offline-locale-candidate",
+  "game_rendering_verified": false,
+  "font_plan": {
+    "path": "locales/zh-Hans/font-build-disc1.json",
+    "sha256": "77b0bd2d6bfe6523a2318a254d42ce9b617cf24f0e1cc205e9be180ed557600e"
+  },
+  "text_plan": {
+    "path": "locales/zh-Hans/text-probe.json",
+    "sha256": "8bb583d5631a374cf4ae03d960f9b6fb90870d76e1e96a613be8540c7f47bdda"
+  },
+  "text_resource": "MC2Game/Localization/Coalesced.int",
+  "font_candidates": [
+    {
+      "label": "font",
+      "sha256": "91dd68f7a2048d7f3a71b3af56f7e6dae326744c6f37e9f136e4528f5fec51be"
+    },
+    {
+      "label": "mc2game",
+      "sha256": "0614f916c20e1166fb21517037cfa431cf6a570fedb0eb4a825412def151cc23"
+    },
+    {
+      "label": "startup_int",
+      "sha256": "a95821ee7a5cf41d92f4cc92d436dc1cf1bd104106a014ba42c7894358067d75"
+    }
+  ],
+  "expected_text_sha256": "58c6f12ab4408c600cf9167a54e8038ad42b875d7e9319f797863a15c3cfcebb",
+  "expected_toc_sha256": "575535af22d1f0b44da8e3b9f0331d3302787b4a0b0a4c1af6f6fae448153b00"
+}

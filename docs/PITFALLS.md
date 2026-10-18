@@ -618,3 +618,12 @@ visible glyph is not sufficient coverage. Do not guess no-remap/direct-index,
 non-BMP or fallback behavior. Keep every supplied font's failures, not just one
 passing alias. A source-value UTF-8 hash is not a serialized UTF-16 range hash;
 retain the separate whole-container hash and reject unknown source modes.
+
+### Packaging must validate actual dependencies, not a producer's success flag
+
+A font-bundle manifest can be stale, omitted or forged. Derive confined payload
+paths from a trusted exact-hash plan, verify every candidate's complete bytes,
+then independently check original/new Font identity/semantics and text coverage.
+Recompute TOC changes from actual lengths, including text when variable-length;
+do not reuse a font-only TOC blindly. Keep original compressed controls distinct
+from raw geometry controls, and never call an incomplete candidate tree a game.

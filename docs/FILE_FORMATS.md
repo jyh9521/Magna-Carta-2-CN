@@ -876,3 +876,12 @@ source_mode=sha256-utf8 with entries id/source_sha256/translation. The source ha
 covers exact extracted value UTF-8 bytes; whole input_sha256 locks the serialized
 container independently. No normalization or implicit mode fallback is permitted.
 See TEXT_FONT_COVERAGE.md for fields, example workflow and verification limits.
+
+
+## Offline candidate assembly metadata (tool schema1)
+
+Candidate plan references exact font/text plan bytes plus every expected Font,
+text and TOC binary hash. Output manifest uses relative resource/report paths
+for candidate, original-control and backup-restored copies. It is not an
+installer format or a game archive. See LOCALE_CANDIDATE.md for the contract and
+which original/raster/runtime properties are actually checked.

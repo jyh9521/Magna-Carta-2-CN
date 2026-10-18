@@ -1,6 +1,8 @@
 """Locale-neutral version/namespace guards shared by font bundle builders."""
 from __future__ import annotations
 import hashlib
+import json
+from pathlib import Path
 import re
 try:
     from .ue3_package import FormatError
@@ -71,3 +73,15 @@ def _read(root, relative, expected):
     if digest(data) != expected:
         raise FormatError('source SHA256 mismatch: '+relative)
     return data, target
+
+
+def read_locked_json(root, reference):
+    """Read a confined, exact-hash JSON object and retain its actual bytes/path."""
+    if not isinstance(reference, dict):
+        raise FormatError('locked JSON reference must be an object')
+    _relative(reference.get('path')); _hash(reference.get('sha256'))
+    raw, path = _read(Path(root).resolve(),reference['path'],reference['sha256'])
+    value = json.loads(raw.decode('utf-8-sig'))
+    if not isinstance(value, dict):
+        raise FormatError('locked JSON payload must be an object')
+    return value, path, raw

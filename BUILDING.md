@@ -670,3 +670,8 @@ MC2Game.xxx copy and its still-pending raw-package interactive control.
 ## UI ScriptStruct默认值与原生声明（2026-10-19）
 
 `tools/inspect_struct_defaults.py` 只读解析明确hash锁定的446/25元数据、继承声明和持久默认值；`inspect_ui_fonts.py --deep --audit-bindings --audit-struct-defaults` 进一步按Class/outer/类型引用绑定renderer字段。Bool值偏移已修正为tag-header位置，非空payload位置；不修改游戏资源。完整命令、6定义/4绑定结果和原生运行边界见 docs/STRUCT_DEFAULTS.md。
+
+
+## UI函数声明与native参数桩（2026-10-19）
+
+`tools/inspect_function_metadata.py` 只读验证hash锁定的446/25 Function声明与精确native参数桩。`--object FULL_PATH`可重复；`--class UIComp_DrawString`清点该Class直属Function，不能与--object并用。全类23项中18项通过、5项非native脚本显式保留，返回exit1；定点11个native方法返回exit0。输出必须全新，复读后重查原包；不执行函数。命令/字段/测试及未验证边界见 docs/FUNCTION_METADATA.md。

@@ -1,5 +1,7 @@
 # 当前技术结论（2026-10-18）
 
+- **Verified（2026-10-19）**：UIComp_DrawString直属23个Function中18个native声明只有NativeParm/Nothing/EndOfScript参数桩，NativeToken均0；SetFont、DisableCustomFont和两个样式getter的类型/返回声明已核实，但原生实现和有效字体仍未证明。另5个非native脚本显式未解析，见 docs/FUNCTION_METADATA.md。
+
 - **Verified（2026-10-19）**：6个UI ScriptStruct定义/继承schema和4个renderer字段绑定通过；包内bOverrideDrawFont明确为0、DrawFont=null，Bool实际header偏移修正。枚举槽1的存储名为UIALIGN_Center，非运行绘制证明。见 docs/STRUCT_DEFAULTS.md。
 
 - **Verified（2026-10-19）**：双盘搬移候选独立复核通过，5资源/18成员每盘按可信计划重新解析/回放，未调用装配构建器。实际伪候选hash/伪报告hash/多余文件/错盘/junction负对照均失败；不证明运行或显示，见 docs/CANDIDATE_REVALIDATION.md。

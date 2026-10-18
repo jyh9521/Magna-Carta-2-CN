@@ -652,3 +652,8 @@ zero. Bool size0 means a header value, not a four-byte payload: the former
 flattened bool offset was four bytes late and is now corrected. REA's general
 binary opener did not admit UE3.xxx; repeated renaming/provider setup is not a
 format decoder. Use the version/hash-locked reader and retain this boundary.
+
+
+### Native parameter stubs are not the font-selection algorithm
+
+UIComp_DrawString.SetFont/DisableCustomFont and the two style getters are declared native; their stored scripts only name parameters and terminate. NativeToken=0 does not identify a C++ implementation or prove no native behavior. Do not claim setters/flags/call order from names or these stubs. Functions also retain nonzero Line/TextPos and FriendlyName, unlike zero-valued data-only ScriptStruct fields. Five sibling non-native methods remain explicit unparsed records, not empty successful functions; do not silently extend native-stub size rules to general v446 bytecode.

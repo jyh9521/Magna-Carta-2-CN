@@ -152,3 +152,12 @@
 - TextAlignment两实例两轴均为存储槽1，其枚举名UIALIGN_Center；数组轴槽对应Horizontal/Vertical。Bool值原在tag-header而非size0的payload，旧flat偏移晚4字节，已修正并读原逻辑字复核。对象StyleFont探针偏移不变。
 - 图仍1209个已解析UI、2匹配/12字体路径；7个非UI分类缺口保留。源码基线381、修改397、native397、独立源码回退381；新增16项纯合成回归。原包hash、配置和部署状态不变，无游戏操作。
 - 后续静态调查已定位SetFont15555、DisableCustomFont15563、GetAppliedStringStyle15568、GetFinalStringStyle15571等Function出口；下一步验证声明/可读脚本或native边界，不凭名称断言行为，不调用游戏函数或提前批量翻译。
+
+
+## UI函数声明与native边界（2026-10-19）
+
+- 新增ue3_function_metadata/inspect_function_metadata，只读验证UField/UStruct/UFunction头、保留的非零Line/TextPos及FriendlyName、参数/返回声明和精确NativeParm桩；复用有界完整property_chain，不盲跳未知脚本。
+- Engine Class15601 UIComp_DrawString的23个直属Function全部列入审计：18个native参数桩完整解析（含SetFont/DisableCustomFont及两个style getter），5个非native方法逐项保留为未解析，class模式exit1而非伪成功。18个NativeToken均0，不等于native实现已定位。
+- 已确认SetFont参数为Engine.Font，GetAppliedStringStyle返回UIStyle_Combo、可选UIState；GetFinalStringStyle接收out UICombinedStyleData并返回Bool。这些是声明而非调用/行为证据，实际覆盖启闭和有效字体仍未证明。
+- 基线397、修改415、native415、隔离源码回退397；新增18个纯合成测试，覆盖真实自编包CLI、逐字节截断/桩变异、参数顺序/归属、flags、头尾和部分失败；原游戏包/配置hash不变，无启动/部署。
+- 后续沿5个脚本wrapper及可执行文件native注册/实现静态边界继续调查；不重跑已被拒绝的.xxx通用REA格式，不调用游戏函数，不把静态结果当中文验收。

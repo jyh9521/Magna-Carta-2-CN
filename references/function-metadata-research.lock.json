@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "project": "Unreal-Library",
+  "author": "Eliot van Uytfanghe",
+  "repository": "https://github.com/EliotVU/Unreal-Library",
+  "commit": "8236c39b79e30887a487ecf9b018204e430a5ebc",
+  "license": "MIT",
+  "reuse": "format research only; independent Python implementation; no upstream runtime/source integrated",
+  "files": [
+    {
+      "path": "src/Core/Classes/UFunction.cs",
+      "url": "https://raw.githubusercontent.com/EliotVU/Unreal-Library/8236c39b79e30887a487ecf9b018204e430a5ebc/src/Core/Classes/UFunction.cs",
+      "sha256": "31c0191b064c1ca63679abb63d1e2013e328ddf44601854d3910140a262492b7"
+    },
+    {
+      "path": "src/Core/Tokens/FieldTokens.cs",
+      "url": "https://raw.githubusercontent.com/EliotVU/Unreal-Library/8236c39b79e30887a487ecf9b018204e430a5ebc/src/Core/Tokens/FieldTokens.cs",
+      "sha256": "3163194a75f30e4ac6382818d3347106d60ac716b7b7f22036e504f2810f5e40"
+    },
+    {
+      "path": "src/Core/Tokens/OtherTokens.cs",
+      "url": "https://raw.githubusercontent.com/EliotVU/Unreal-Library/8236c39b79e30887a487ecf9b018204e430a5ebc/src/Core/Tokens/OtherTokens.cs",
+      "sha256": "022361fa32599a696d9ee731b6cac981f57b9bdaf9fab6c48ee06e02a2108e52"
+    }
+  ],
+  "related_locks": [
+    "references/struct-default-research.lock.json",
+    "references/ui-style-research.lock.json"
+  ]
+}

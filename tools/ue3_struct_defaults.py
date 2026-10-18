@@ -117,20 +117,26 @@ def local_schema(graph,node):
     flags = r.u32();default_start = r.pos
     defaults = read_properties(r,graph.packages[package]['tables']['names'])
     if r.pos!=len(r.data): raise FormatError('ScriptStruct defaults trailing bytes')
-    members,seen,current = [],set(),header['children']
+    members=property_chain(graph,node,header['children'])
+    return dict(owner=graph.describe(node),net_index=net,header=header,struct_flags=flags,
+                default_start=default_start,defaults=defaults,declarations=members)
+
+
+def property_chain(graph,node,first):
+    """Validate a complete, local, acyclic declaration chain for a struct/function."""
+    package=node[0];members,seen,current = [],set(),first
     while current:
         if current<0 or current in seen or len(seen)>=2048:
-            raise FormatError('imported/cyclic/overlong struct property chain')
+            raise FormatError('imported/cyclic/overlong declaration property chain')
         seen.add(current);child = graph.export(package,current)
-        if child['outer']!=node[1]: raise FormatError('struct property chain crosses owner')
+        if child['outer']!=node[1]: raise FormatError('declaration property chain crosses owner')
         declaration = property_declaration(graph,(package,current));members.append(declaration)
         current = declaration['next_reference']
     local = {i for i,c in enumerate(graph.packages[package]['tables']['exports'],1)
              if c['outer']==node[1] and c['class_path'].endswith('Property')}
-    if seen!=local: raise FormatError('struct property chain omits local declarations')
-    if len({d['name'] for d in members})!=len(members): raise FormatError('duplicate struct property names')
-    return dict(owner=graph.describe(node),net_index=net,header=header,struct_flags=flags,
-                default_start=default_start,defaults=defaults,declarations=members)
+    if seen!=local: raise FormatError('declaration property chain omits local declarations')
+    if len({d['name'] for d in members})!=len(members): raise FormatError('duplicate declaration property names')
+    return members
 
 
 def schema(graph,node,cache=None,stack=()):

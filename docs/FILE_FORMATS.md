@@ -895,3 +895,8 @@ This profile retains zero editor header fields and no script bytes. BoolProperty
 size0 stores its value in the tag header: logical bool-word and empty-payload
 offsets differ by4. These are logical serialization offsets, not runtime member
 or native bool-bit offsets. Unknown layouts fail instead of scanning for tags.
+
+
+## 446/25 native Function declarations and parameter stubs
+
+See FUNCTION_METADATA.md for retained Line/TextPos/FriendlyName fields, native token/flags and exact `(NativeParm + i32 reference)* Nothing EndOfScript` stub recognition. This is a bounded native-only subset, not general bytecode or executable decompilation. UIComp_DrawString has18 recognized methods and5 explicit non-native unparsed records; unknown tokens are rejected. Shared declaration-chain validation retains all parameter/return types and checks owned reference order.

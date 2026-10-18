@@ -169,3 +169,6 @@ Next bounded investigation: declared UIComp_DrawString functions SetFont15555,
 DisableCustomFont15563, GetAppliedStringStyle15568 and GetFinalStringStyle15571.
 Their export identities/sizes were found; names alone do not prove bodies,
 native behavior, call order or active drawing. No invocation is authorized here.
+
+
+The next function-declaration investigation is now recorded in FUNCTION_METADATA.md:18 native parameter stubs are verified,5 scripted siblings remain unparsed. This does not resolve the still-open native implementation or runtime-effective-value questions above.

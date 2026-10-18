@@ -76,3 +76,37 @@ The latest controlled experiment established real `TST` warning text binding.
 Chinese glyphs remain absent; see [runtime matrix](RUNTIME_TEXT_BINDING.md).
 Earlier physical-Escape/occluded-window observations are historical failed
 observations, not current control status or game acceptance.
+
+## Function-key control used for paired warnings
+
+For the exact non-debug Canary executable SHA256
+`e5e197f50a7ed1b6f94a927613d0510f31b528eacbec5b7dea4e5fa99c49ac0e`, the following
+explicit local control avoids letter/Return input-method interference. It has
+produced real warning captures; individual sent taps still need state checks.
+The ordinary launcher CLI and its default input policy remain unchanged.
+
+```python
+from pathlib import Path
+from tools.launch_xenia import prepare, save, launch
+run = Path('build/UNIQUE_F7_RUN')
+r = prepare('xenia/xenia_canary.exe', 'xenia/xenia-canary.config.toml',
+            'build/poc-game/disc1/default.xex', run)
+assert r['exe_sha256'] == 'e5e197f50a7ed1b6f94a927613d0510f31b528eacbec5b7dea4e5fa99c49ac0e'
+keys = ['--hid=keyboard', '--keyboard_mode=1', '--keybind_start=0x76',
+        '--keybind_a=0x77', '--keybind_b=0x2E', '--keybind_guide=0x87']
+r['command'] += keys
+r['tuning_overrides'] = keys
+save(run, r)
+launch(run, r)
+```
+
+F7=Start, F8=A, Delete=B. Do not press A to advance the no-save warning during
+binding probes. Compare baseline/candidate/recovery under this SAME input list.
+The source TOML remains byte-identical and no graphics/timing values are added.
+F23 was rejected by the computer-use input API, so that trial is inconclusive.
+
+This profile is deliberately pinned: upstream handles F7/F8 as state operations
+in debug builds, not in this non-debug build. See the pinned
+[OnKeyDown implementation](https://github.com/xenia-canary/xenia-canary/blob/50e9c715d/src/xenia/app/emulator_window.cc#L979-L1064).
+An input profile proven with this binary is not automatically valid for another
+emulator build. Screenshots and configuration verification remain local.

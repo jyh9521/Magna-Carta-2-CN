@@ -531,3 +531,10 @@ and chunk count. Derive the header field; do not blind-patch offset 21 on other
 builds. General_15 and Subtitle append tests still omit Chinese, so do not assume
 these are the warning's live font. See RUNTIME_TEXT_BINDING.md for controls and
 remaining hypotheses. Movie playback after a guest fault is not a passing boot.
+
+## Do not discard editor-named packages by filename
+
+Default__Engine Tiny/Small FontName fields refer to MC2EditorResources, whose
+three Korean Fonts were absent from the earlier three-package study. Cooked
+MC2Engine.ini and Xe-MC2Engine.ini disagree on Tiny/Small; serialized defaults
+are not proof of runtime priority. See FONT_REFERENCES.md.

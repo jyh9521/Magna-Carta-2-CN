@@ -6,9 +6,10 @@
 - 真实启动警告的 INT `GameStart/LogIn_NewGame` 已由可见 `TST` 标记验证，不再以待机视频代替交互证据。
 - 原字体及 General_15 / EngineMedium_Subtitle 的外部、常驻补字候选均未显示两枚测试汉字；字体绑定与最小中文显示尚未通过。
 - LZX 无修改重编码对照也会引起 guest fault；独立解码正确不足以证明游戏兼容。清除三处压缩状态的 raw 外层副本能加载警告，但不是发布方案。
-- 四项部署文件已恢复原始 hash；同场景最终回退画面还需补证据。详细矩阵见 RUNTIME_TEXT_BINDING.md。
-- 新增同尺寸 Font remap 探针：只改既有映射的 uint16 glyph index，具备整包 hash/原映射/目标范围防护；静态反向恢复 byte-identical，245 项测试通过。真实外部/常驻候选已生成，尚未部署验收。
-- 下一步先完成回退画面，再以既有可见字形的独立 sentinel 确认实际 Font；不继续盲目追加字形、不开始批量翻译。
+- 五项曾部署资源已恢复原始 hash；F7 原版基线已取得同一警告的原文恢复画面。最新恢复运行再复核中。详细矩阵见 RUNTIME_TEXT_BINDING.md。
+- 新增同尺寸 Font remap 探针：只改既有映射的 uint16 glyph index，具备整包 hash/原映射/目标范围防护；静态反向恢复 byte-identical，245 项测试通过。真实 Editor 及外部/常驻 General_15、Subtitle remap 探针已捕获警告，均无预期字形变化。
+- 新证据：Default__Engine 的 Tiny/Small 指向此前漏查的 MC2EditorResources 三套韩文字体（各 11534 字形，无 CJK remap）；另有 Xe 配置不同引用，实际优先级未验。见 FONT_REFERENCES.md。
+- 下一步对同一可见字形同时做 tagged/native 几何 sentinel，区分 remap 消费方式与字体选择；如仍无变化再追踪渲染路径。不盲目补字、不开始批量翻译。
 
 以下为历史累计记录；如与此节冲突，以本节及新的运行矩阵为准。
 

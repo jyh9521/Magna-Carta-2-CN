@@ -135,3 +135,23 @@ and reached the original title. Sent Start key events did not yield a captured
 interactive warning before the idle movie resumed. This is an inconclusive input
 attempt, not visual recovery acceptance. No sentinel package was deployed during
 this run; the extracted game remains at the original four resource hashes.
+
+## Newly followed defaults
+
+See FONT_REFERENCES.md: Tiny/Small serialized defaults lead to three additional
+Fonts in MC2EditorResources. The same-size editor-font probe has no captured
+warning outcome and was restored. Earlier General_15/Subtitle negative outcomes
+do not exclude these newly identified font candidates.
+
+## F7 same-scene controls supersede the pending text-recovery gate
+
+The original Korean warning has now been captured in
+`build/binding-20261018-f7-baseline/original-recovered-login.png`, with all original
+resource hashes. This supplies the previously missing original text-recovery
+view. Two additional warning captures remained unchanged after existing-glyph
+remap probes (editor fonts, then external+resident General_15/Subtitle). Their
+negative result does not establish live Font binding. See FONT_REFERENCES.md.
+
+All tested resources were restored before the final fresh F7 recovery run.
+The subsequent glyph-geometry sensitivity probe remains a separate next gate;
+font supplementation / Chinese display is still unaccepted.

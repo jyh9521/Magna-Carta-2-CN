@@ -117,3 +117,10 @@ format validation, **not** game rendering or full glyph coverage acceptance.
    build a defensive same-size isolated PoC only after font binding is known.
 4. Verify original/modified/rollback in the same Xenia scene. Keep original ISO
    unchanged, verify hashes, and only then expand the localization toolchain.
+
+## Inventory scope correction (2026-10-18)
+
+The 26-font results above cover the original three selected packages only.
+Engine default references identify three more Fonts in MC2EditorResources.xxx;
+see FONT_REFERENCES.md for exact fields, conflicting cooked configuration values
+and the runtime-binding boundary. A filename-based inventory is incomplete.

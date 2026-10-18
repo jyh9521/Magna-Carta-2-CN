@@ -197,3 +197,12 @@
 - 新增通用CE/PPC .pdata读取器；44484条记录全检边界/长度/排序/不重叠，保留全部四种flag组合。18个native入口均有确切声明记录；initializer选段恰好从prologue-end至declared-end；overlay leaf无覆盖条目，不按下一个start推算边界。
 - 既有struct读取器另解析UICombinedStyleData5390及9声明，DrawFont5387指向Engine.Font且持久默认null；不因此推算native layout/当前输出。新15项纯合成回归，基线480、修改495、native495、隔离源码回退480，默认CI不需要游戏/crypto/Capstone。
 - 原件、配置和部署状态保持；无启动或游戏函数执行，不批量剧情翻译。后续沿base-style producer、virtual目标、条件refresh和原生构造/测量继续离线调查。游戏验收全部由用户进行，见 docs/NATIVE_STYLE_SELECTION.md。
+
+
+## 类名前缀、leaf callback与静态样式table（2026-10-19）
+
+- 新class_tables显式计划核验4个完整U类名与name+2参数链；DrawString/Editbox/Slider/Caption分别关联3个84字节leaf callback与3个只读table窗口。Slider/Caption共享callback但保留独立名称。Engine另独立复核4个Class及其本地继承关系，不把字符串匹配当原生ABI证明。
+- 81-word窗口的slot128均指向0x826a8f00；61条getter指令验证slot124结果非零时选entry+E8、为零时选entry+28所读指针+174，后续使用所选base+1C的pointer。外部helper、slot124目标、完整native field语义和活动dispatch仍未证明。
+- 初始指针搜索的第四匹配实际位于.pdata，现按PE虚拟.rdata类型/flags与不重叠边界拒绝；不按裸地址匹配猜table。较早的3个有cleanup调用的table-write候选未被冒充default constructor，真正选中的call-free leaf没有D8/E4写入，不据此假定字体指针/flag为0。
+- 新20项纯合成回归；基线495、修改515、native515、独立源码回退495。双盘报告逐字节一致，原native/style计划输出仍逐字节兼容；无需游戏/crypto/Capstone的默认CI持续验证。
+- 原游戏/配置/部署状态不变，无游戏或原生目标函数执行，不批量剧情翻译。下一离线项继续callback存储/调用、分配与属性初始化阶段、slot124及base-style producer；有效Font和中文显示仍待用户游戏验收。见 docs/NATIVE_CLASS_TABLES.md。

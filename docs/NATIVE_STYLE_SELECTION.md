@@ -129,3 +129,8 @@ Ignored build/native-style-verification retains exact local outputs and rollback
 Next offline investigations follow the base-style producer, virtual target,
 conditional refresh helper and native constructors/measurement. None of these
 static findings substitutes for the user's Chinese display acceptance.
+
+Follow-up: NATIVE_CLASS_TABLES.md adds an independent opt-in plan associating
+full class-name operands, leaf callback table stores and the concrete static
+slot0x128 word/getter routing. This does not establish an active vptr or runtime
+dispatch and does not change the original profile's narrower evidence scope.

@@ -230,4 +230,12 @@ def inspect_bindings(image,plan,metadata_raw,metadata):
         except ImportError:
             from ppc_style_selection import verify_style_selection
         report['style_selection']=verify_style_selection(view,rows,plan['style_selection'],plan['code_ranges'])
+    if 'class_tables' in plan:
+        if 'style_selection' not in report:raise FormatError('class table analysis requires explicit style selection plan')
+        try:
+            from .ppc_class_tables import verify_class_tables
+        except ImportError:
+            from ppc_class_tables import verify_class_tables
+        report['class_tables']=verify_class_tables(view,plan['class_tables'],plan['engine_class'],plan['code_ranges'],
+                                                  report['style_selection']['virtual_slot_byte_offset'])
     return report

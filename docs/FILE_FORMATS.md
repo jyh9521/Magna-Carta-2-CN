@@ -925,3 +925,13 @@ All44484 records are checked, not silently skipped by flag. Exact declared ends
 and absent leaf entries remain distinct from next-start guesses and runtime code
 coverage. The opt-in style profile verifies four code windows and the font
 bit/nonzero-pointer guards before the unique output+0x20 store.
+
+## Native class-name/table opt-in profile
+
+NATIVE_CLASS_TABLES.md records full UTF-16BE U-prefixed names with the verified
+name+2 call operand, bounded16-word registration/21-word leaf templates and
+81-word .rdata table windows. Shared callback/table aliases preserve separate
+class names. Slot128 points to a checked61-word getter; slot124's result selects
+entry+E8 vs the pointer loaded at entry+28 plus174. These are static operands,
+not serialized offsets or active runtime field values. Table window size and
+leaf BLR boundaries do not imply full table/function extent.

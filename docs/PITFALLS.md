@@ -686,3 +686,15 @@ Similarly, CE .pdata packed length—not the next listed start—declares functi
 extent. Real gaps occur after the initializer and getter helper. The overlay leaf
 has no covering record; that absence neither removes its code nor extends the
 preceding record over it. See NATIVE_STYLE_SELECTION.md for confidence levels.
+
+### Keep class-name prefixes, initializer phases and object contexts distinct
+
+The checked native registrations pass full-U-name address+2; do not generalize
+that one code-unit adjustment into a resource-name normalization rule. A table
+write with surrounding cleanup calls is not enough to name a default constructor.
+The actual selected leaf callback windows do not write component font wordsD8/E4;
+their silence is not zero-initialization evidence. Registration helper writes at
+its own object-relativeD8/E4 belong to another object, not the component instance.
+Pointer scans also find code addresses inside .pdata: restrict table candidates
+to typed read-only .rdata rather than scoring isolated aligned matches. See
+NATIVE_CLASS_TABLES.md for the separate static/semantic/runtime evidence planes.

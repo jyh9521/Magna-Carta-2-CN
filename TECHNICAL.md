@@ -891,3 +891,8 @@ The goal is to preserve enough technical knowledge that future localization work
 ## Native style getter/overlay follow-up (2026-10-19)
 
 See docs/NATIVE_STYLE_SELECTION.md for the two-guard font word overlay, shared virtual slot/call-site association, and CE/PPC metadata-declared extents. Persistent UICombinedStyleData declarations do not recover native offsets or effective state. Constructor/base-style/copy helper semantics and active rendering remain unverified.
+
+
+## Native class-prefix and static table association (2026-10-19)
+
+See docs/NATIVE_CLASS_TABLES.md for four full native class-name/registration operands, three leaf table initializers and the slot128 getter's two source-base branches. Static class-associated target identity is now checked with the new opt-in profile; active vptrs, allocator/constructor defaults and external helper effects remain unverified. In particular, those leaves do not write font wordsD8/E4.

@@ -521,4 +521,3 @@ correctly recorded the long `runneradmin` path. The launcher behavior was correc
 the fixture compared noncanonical spellings. Canonicalize the fixture root before
 constructing expectations. Keep full configuration and no-tuning checks unchanged.
 Failed run: 39109395945, commit 6bd840d; do not report it as successful.
-

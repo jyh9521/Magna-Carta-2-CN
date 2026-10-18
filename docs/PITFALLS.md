@@ -589,3 +589,12 @@ Object when Core is supplied. Otherwise the real Component CDO's Object
 archetype fails a false class-compatibility check. Keep optional boundaries
 explicit; reject malformed supplied definitions. Closing the CDO chain still
 does not establish native initialization or the font selected during drawing.
+
+### Multi-alias supplement restoration and raster drift
+
+Controls in the supplement bundle retain original physical compressed bytes;
+geometry probe controls are decompressed/raw. Do not interchange these meanings.
+Backup-restoration equality does not demonstrate recovering an original compressed
+first header chunk from the candidate alone. Raster dependency changes can alter
+atlas pixels despite unchanged glyph count; the full expected supplemented
+fingerprint is a deliberate guard. Never silently refresh it on mismatch.

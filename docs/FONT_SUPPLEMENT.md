@@ -12,6 +12,10 @@ No original package, font-source file, ISO or existing output is overwritten.
 Generated packages, reports and original-derived previews remain ignored under
 `build/font-supplement/`. Do not upload these complete game assets.
 
+Current follow-up: the reusable three-alias builder includes the newly confirmed
+MC2Game embedded copy. See [FONT_BUNDLE_BUILD](FONT_BUNDLE_BUILD.md); the two-file
+v2 data below remains historical, not the complete current alias coverage.
+
 ## Inputs and final v2 outputs
 
 | Input | Bytes | SHA-256 |

@@ -230,5 +230,6 @@ Local evidence: build/all-alias-supplement-verification/{MC2Game-report.json,
 cross-alias-validation.json}. The existing font/Startup candidates are hash-
 checked against their own reports, not assumed compatible from filenames.
 Only metadata and rebuilding instructions enter Git; no candidate is deployed.
-Next offline work is a reusable multi-alias supplement assembly/validation
-entrypoint with version/identity/semantic guards, not another game launch.
+The reusable multi-alias supplement assembly/validation entrypoint is now
+implemented with version/identity/semantic guards; see FONT_BUNDLE_BUILD.md.
+It rebuilds both discs without deployment or game launch.

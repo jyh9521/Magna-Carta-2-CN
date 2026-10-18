@@ -2,12 +2,11 @@
 from __future__ import annotations
 
 import argparse
-import hashlib
 import json
 from pathlib import Path
-import re
 
 try:
+    from .font_binding_plan import digest, validate_binding_plan, _read
     from .decompress_package import decompress_copy
     from .font_binding_audit import fingerprint
     from .inspect_font_references import _tables
@@ -16,6 +15,7 @@ try:
     from .ue3_ui_styles import StyleGraph
     from .update_resource_sizes import update_sizes
 except ImportError:
+    from font_binding_plan import digest, validate_binding_plan, _read
     from decompress_package import decompress_copy
     from font_binding_audit import fingerprint
     from inspect_font_references import _tables
@@ -25,74 +25,14 @@ except ImportError:
     from update_resource_sizes import update_sizes
 
 
-def digest(data):
-    return hashlib.sha256(data).hexdigest()
-
-
 def validate_plan(plan):
-    if not isinstance(plan,dict) or plan.get('schema_version') != 1 or plan.get('game_rendering_verified') is not False:
-        raise FormatError('probe plan requires schema1 and game_rendering_verified=false')
-    sources = plan.get('sources')
-    count = plan.get('required_source_count')
-    if type(count) is not int or not 1 <= count <= 32 or not isinstance(sources,list) or len(sources) != count:
-        raise FormatError('probe source count mismatch')
-    labels, paths = set(), set()
-    for source in sources:
-        if not isinstance(source,dict):
-            raise FormatError('source must be an object')
-        label = source.get('label','')
-        if (not re.fullmatch(r'[A-Za-z][A-Za-z0-9_-]{0,47}',label)
-                or label.casefold() in {'con','prn','aux','nul',*(f'com{i}' for i in range(1,10)),*(f'lpt{i}' for i in range(1,10))}
-                or label.casefold() in labels):
-            raise FormatError('duplicate or invalid probe source label')
-        labels.add(label.casefold())
-        path = source.get('path','')
-        _relative(path)
-        if path.casefold() in paths:
-            raise FormatError('duplicate probe source path')
-        paths.add(path.casefold())
-        _hash(source.get('sha256'))
-        if not isinstance(source.get('font_object'),str) or not source['font_object']:
-            raise FormatError('font object path required')
-    toc = plan.get('toc',{})
-    if not isinstance(toc,dict):
-        raise FormatError('TOC must be an object')
-    _relative(toc.get('path',''));_hash(toc.get('sha256'))
-    if toc['path'].casefold() in paths:
-        raise FormatError('TOC cannot alias a source package')
-    _hash(plan.get('expected_semantic_sha256'))
-    if not re.fullmatch('[0-9a-f]{32}',plan.get('expected_namespace_guid','')) or plan['expected_namespace_guid'] == '0'*32:
-        raise FormatError('nonzero namespace GUID required')
-    if not isinstance(plan.get('canonical_font_path'),str) or not plan['canonical_font_path']:
-        raise FormatError('canonical font identity required')
+    sources = validate_binding_plan(plan)
     for field in ('codepoint','expected_glyph','target_glyph'):
         if type(plan.get(field)) is not int or not 0 <= plan[field] <= 65535:
             raise FormatError('invalid '+field)
     if plan['expected_glyph'] == plan['target_glyph']:
         raise FormatError('probe donor must differ')
     return sources
-
-
-def _hash(value):
-    if not isinstance(value,str) or not re.fullmatch('[0-9a-f]{64}',value):
-        raise FormatError('expected lowercase SHA256')
-
-
-def _relative(value):
-    if (not isinstance(value,str) or not value or '\\' in value or ':' in value
-            or value.startswith('/') or any(p in ('','.','..') for p in value.split('/'))):
-        raise FormatError('expected confined slash-separated relative resource path')
-    return value
-
-
-def _read(root, relative, expected):
-    target = (root / _relative(relative)).resolve()
-    if not target.is_relative_to(root):
-        raise FormatError('resource path escapes selected game root')
-    data = target.read_bytes()
-    if digest(data) != expected:
-        raise FormatError('source SHA256 mismatch: '+relative)
-    return data, target
 
 
 def build(plan, game_root, output_root, decoder=None):

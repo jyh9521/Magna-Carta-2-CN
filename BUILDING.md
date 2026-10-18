@@ -29,7 +29,11 @@ Xenia 测试必须基于用户提供的 `xenia/xenia-canary.config.toml`，不�
 
 可选依赖：`python -m pip install -r requirements-font.txt`。Noto 字体固定来源及 hash 在 references/font-sources.lock.json，字体原件只放本地 build/font-source。LZX 的本地构建、固定源码与许可见 docs/LZX_RESEARCH.md。
 
-补字 CLI、hash 参数及两字计划见 docs/FONT_SUPPLEMENT.md；独立字体与 Startup 驻留对象都必须处理。补字输出只存 build，不覆盖原件。TOC 只更新明确验证的文件大小字段，见 docs/TOC_SIZE_REBUILD.md；它不证明所有运行索引均有效。四份候选文件的本地清单为 build/font-supplement/v2/deployment-plan.json，目前未部署中文试验。
+补字 CLI、hash 参数及两字计划见 docs/FONT_SUPPLEMENT.md；独立字体、Startup 与 MC2Game 驻留别名都应按锁定计划处理。补字输出只存 build，不覆盖原件。TOC 只更新明确验证的文件大小字段，见 docs/TOC_SIZE_REBUILD.md；它不证明所有运行索引均有效。四份候选文件的本地清单为 build/font-supplement/v2/deployment-plan.json，目前未部署中文试验。
+
+## 三别名最小补字装配（2026-10-19）
+
+`tools/build_font_supplement.py` 按 locales/zh-Hans/font-build-disc1.json 或 locales/zh-Hans/font-build-disc2.json一次构建三别名补字候选、该盘仅字体大小变更的 TOC、原始字节对照和独立备份恢复检查。完整命令、输入提取、依赖、schema 与恢复边界见 [FONT_BUNDLE_BUILD](docs/FONT_BUNDLE_BUILD.md)。要求全新隔离输出；不部署、不改文本、不运行游戏，不把两字技术候选当发布补丁。
 
 ## 双盘差异报告（只读）
 

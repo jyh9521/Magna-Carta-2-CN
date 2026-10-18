@@ -698,3 +698,15 @@ its own object-relativeD8/E4 belong to another object, not the component instanc
 Pointer scans also find code addresses inside .pdata: restrict table candidates
 to typed read-only .rdata rather than scoring isolated aligned matches. See
 NATIVE_CLASS_TABLES.md for the separate static/semantic/runtime evidence planes.
+
+
+### Git EOL rules do not canonicalize an already-written working file
+
+Windows Path.write_text may create CRLF even when Git stores LF. A local plan
+SHA can then pass local CLI checks but fail the documented command in a clean
+checkout. Pin the exact shipped LF source bytes, write hash-bearing JSON with
+write_bytes or explicit newline='\n', and test doc hashes against repository
+plan bytes. Do not normalize arbitrary inputs inside a verifier or weaken exact
+hash guards. Old raw-plan identity remains different; reports may legitimately
+change only their plan_sha256 when the semantic plan is unchanged. See the
+native probe byte-contract regressions and canonical CLI proof in build/.

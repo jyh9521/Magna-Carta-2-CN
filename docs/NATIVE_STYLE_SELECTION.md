@@ -105,7 +105,7 @@ python tools/inspect_native_bindings.py `
   build/xex-native-verification/final/disc1-pycryptodome.bin `
   --sha256 d18d49fb2960426715ba17d61d069cce42b1eadac153af13c9395cd42b1773e9 `
   --plan references/probes/ui-draw-string-style-selection.json `
-  --plan-sha256 d0809f9b7b96a321f05fb586186b219d1e331d860996ef7daf6223276683fef5 `
+  --plan-sha256 15d741596b3efff92296b5fa46a7f3d291e2a90c32319eed0fc2e10f1012bcf3 `
   --native-report build/native-binding-verification/native-methods.json `
   --output build/native-style-verification/disc1-final.json
 ```

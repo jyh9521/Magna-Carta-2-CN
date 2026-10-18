@@ -121,7 +121,7 @@ python tools/inspect_native_bindings.py `
   build/xex-native-verification/final/disc1-pycryptodome.bin `
   --sha256 d18d49fb2960426715ba17d61d069cce42b1eadac153af13c9395cd42b1773e9 `
   --plan references/probes/ui-draw-string-class-tables.json `
-  --plan-sha256 f52b29bb4a49fd9b1afae7251e1a7abbe23f51047db832124dc0f14499e0a0c1 `
+  --plan-sha256 daca5d6c5d24af06d4b9b697124ca3cc870d4e0ea84086bd16047d14005c0774 `
   --native-report build/native-binding-verification/native-methods.json `
   --output build/native-constructor-verification/disc1-final.json
 ```
@@ -137,7 +137,9 @@ expected hashes, fresh-hash structural failures, suffix/boundary/class guards,
 .rdata vs .pdata, gaps/declared ranges, null guard/order, signed address halves,
 legacy opt-in compatibility and CLI/input reopening. Other table-slot semantics
 are deliberately not invented when a new trusted plan changes a valid code word.
-Full source regression495 ->515 -> isolated rollback495; optional decoder515.
+Two additional repository byte-contract tests enforce LF probe sources and exact
+documented plan hashes. Full source regression495 ->517 -> isolated rollback495;
+optional decoder517.
 No game, crypto, Capstone or original assets are needed by default CI.
 
 Next offline work follows registration callback storage/invocation, allocation

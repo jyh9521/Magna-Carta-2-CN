@@ -206,3 +206,10 @@
 - 初始指针搜索的第四匹配实际位于.pdata，现按PE虚拟.rdata类型/flags与不重叠边界拒绝；不按裸地址匹配猜table。较早的3个有cleanup调用的table-write候选未被冒充default constructor，真正选中的call-free leaf没有D8/E4写入，不据此假定字体指针/flag为0。
 - 新20项纯合成回归；基线495、修改515、native515、独立源码回退495。双盘报告逐字节一致，原native/style计划输出仍逐字节兼容；无需游戏/crypto/Capstone的默认CI持续验证。
 - 原游戏/配置/部署状态不变，无游戏或原生目标函数执行，不批量剧情翻译。下一离线项继续callback存储/调用、分配与属性初始化阶段、slot124及base-style producer；有效Font和中文显示仍待用户游戏验收。见 docs/NATIVE_CLASS_TABLES.md。
+
+
+## 原生probe的Git/LF字节契约修复（2026-10-19）
+
+- 发现新style/class计划在Windows工作区仍为CRLF，而Git已按.gitattributes存为LF；旧文档锁的是本地CRLF hash，clean checkout会失败。未放宽输入hash校验，改为发布源码LF字节的正确hash，工作区6份JSON纯换行差异统一回现有Git blob，内容语义不变。
+- 新增2项仓库字节契约测试；先在旧CRLF输入复现失败，再验证源码LF与文档hash一致。合计517项、native517、combined隔离回退495；新archive不再用工作区JSON覆盖来掩盖clean-checkout问题，真实CLI也直接读取Git归档计划复核双盘。
+- 同一历史CRLF计划输入的报告仍逐字节兼容；改用发布LF计划时只允许报告的plan_sha256身份字段改变，其余字节须完全相同。游戏原件、语义计划数据和配置保持不变。

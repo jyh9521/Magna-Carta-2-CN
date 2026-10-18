@@ -2,6 +2,8 @@
 
 ## 当前主线：真实文本已绑定，字体绑定仍待证明
 
+- **2026-10-19 测量入口静态绑定：** 新native-only完整header盘点与独立initialized row8读取器核实Font2/MultiFont1/Canvas10共13项；Canvas12个非native脚本只记省略、不执行或强行解析。原6套cold相关计划不变，464/470等native token保留；下一步沿StrLen/TextSize及Font wrapper追helper，不推断SmallFont直接索引。见 INITIALIZED_NATIVE_TABLES.md。
+
 - **2026-10-19 reference helper：** 判定函数调用的0x826c5ec0完整90-word模板及三条name/class注册参数链已核实；静态关联DefaultTextStyle/ImageStyle/ComboStyle和三种UIStyle类，记录+3C parent循环而不假称实际终止。双盘一致，新增15项回归；外部lookup/name构造、字段native映射和实际fallback仍待证明。见 STYLE_REFERENCE_HELPER.md。
 - **同轮补齐实际覆盖入口：** 修正coverage auditor只认imported Engine.Font而拒绝Engine本地Font Class的假设；本地类型必须精确解析到Font Class，新增3项身份防护测试。两份SmallFont均为256 glyph/IsRemapped=false，警告39个literal只记为non-remapped-font-mode-unverified（exit1），不猜直接索引或缺字。默认602项测试通过。
 

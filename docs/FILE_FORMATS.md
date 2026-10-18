@@ -1,5 +1,16 @@
 # File Formats
 
+## Initialized Font/Canvas native rows (2026-10-19)
+
+For the hash-locked reconstructed PPC image, the Font/MultiFont/Canvas tables
+store big-endian u32 name-address/code-address pairs (8 bytes), followed by an
+8-byte zero sentinel. Their complete native scopes have2/1/10 rows. Function
+native tokens live in the separate Engine declaration metadata, not an invented
+third table word. This format is distinct from the earlier cold12-byte UI
+descriptor profile. Coordinates are virtual-image addresses, not PE raw file
+offsets; names/code words and .pdata-declared entries do not prove live dispatch.
+See INITIALIZED_NATIVE_TABLES.md for source/plan/report hashes and reproduction.
+
 ## Cooked namespace metadata (2026-10-19)
 
 For this profile, export flag bit0 (value1, EF_ForcedExport) identifies forced

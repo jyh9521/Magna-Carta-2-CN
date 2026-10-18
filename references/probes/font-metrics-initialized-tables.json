@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "image_sha256": "d18d49fb2960426715ba17d61d069cce42b1eadac153af13c9395cd42b1773e9",
+  "image_base": 2181038080,
+  "code_ranges": [
+    [
+      2183987200,
+      2196373504
+    ]
+  ],
+  "string_range": [
+    2181038080,
+    2183987200
+  ],
+  "data_range": [
+    2196373504,
+    2200633344
+  ],
+  "engine_source_sha256": "f71131de2a39176f48d5bf7ef6ed803513d5b38303f21915029c245442b8fe9a",
+  "profile": "ppc-initialized-native-row8-v1",
+  "tables": [
+    {
+      "label": "Font",
+      "engine_class": "Font",
+      "engine_class_index": 4920,
+      "table_address": 2199966352,
+      "table_count": 2,
+      "symbol_prefix": "intUFontexec",
+      "metadata_sha256": "63b7fae367b771c60ab53e1fcaaba02c282efb062b8a009b914c755a0eb93f05",
+      "table_sha256": "5f7eb869dcd6959ca539c4374e152e0f9c3efe438f5eed0cf222aef0d791c62e"
+    },
+    {
+      "label": "MultiFont",
+      "engine_class": "MultiFont",
+      "engine_class_index": 11474,
+      "table_address": 2199966696,
+      "table_count": 1,
+      "symbol_prefix": "intUMultiFontexec",
+      "metadata_sha256": "49504af61b26871907bfd2b3693c2e8599a2613eb1031d05999e63b7730eab3d",
+      "table_sha256": "683b9c58b9ef5cf8365d1e501075d364b2aff19d4014a6c8afa14e38493d244a"
+    },
+    {
+      "label": "Canvas",
+      "engine_class": "Canvas",
+      "engine_class_index": 5062,
+      "table_address": 2199965736,
+      "table_count": 10,
+      "symbol_prefix": "intUCanvasexec",
+      "metadata_sha256": "86310872caffa62026e1c684368f2ad02949b6b61b6c0c3053f7d7c47bbb074d",
+      "table_sha256": "28866a6649c1699e89e71de38080123730b64b9cffb6d38a5030243ca948701f"
+    }
+  ]
+}

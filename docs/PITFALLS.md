@@ -1,5 +1,14 @@
 # Pitfalls
 
+## 2026-10-19: initialized native pointers are not cold descriptor rows
+
+Font/MultiFont/Canvas store name/code pairs eight bytes apart, while the earlier
+UI component profile has cold12-byte descriptors. Preserve the initialized
+code words and indexed native tokens464/470 instead of zeroing or relabelling
+metadata to satisfy the cold reader. Canvas's complete header inventory must
+retain12 omitted scripted functions; partial successful native parsing is not
+whole-scope evidence. See INITIALIZED_NATIVE_TABLES.md.
+
 ## 2026-10-19: a local Font Class is not an unresolved imported Engine.Font
 
 Engine's SmallFont uses an exact local Font Class definition. A reader that

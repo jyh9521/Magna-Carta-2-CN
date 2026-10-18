@@ -1,5 +1,7 @@
 # 当前技术结论（2026-10-18）
 
+- **Verified（2026-10-19，静态表与元数据）**：Font/MultiFont/Canvas三张preinitialized row8表共13个code指针与完整native声明、sentinel和精确pdata入口关联；Canvas22个Function header中10 native/12脚本单列，保留464/470等索引，不套用cold row12。尚非绘制/测量实现证明。见 docs/INITIALIZED_NATIVE_TABLES.md。
+
 - **Verified / High-confidence deduction（2026-10-19）**：style-reference helper的90-word代码、三种完整UIStyle类名与DefaultTextStyle/ImageStyle/ComboStyle字面tag参数链已核实；class-based fallback为高置信推断，不证明实际类返回值、callee保存或序列化/native布局。见 docs/STYLE_REFERENCE_HELPER.md。
 
 - **Verified（2026-10-19，静态代码）**：四个组件类表 slot124 均指向0x826a8e70，新增36-word完整模板校验其+104 word门、四word OR门、helper调用和五条条件边；已补齐静态表项到判定函数的关联，未证明运行dispatch或序列化字段/native布局对应。见 docs/STYLE_SELECTION_PREDICATE.md。

@@ -17,7 +17,9 @@ class ConfigLauncherTests(unittest.TestCase):
     def setUp(self):
         self.temp = tempfile.TemporaryDirectory()
         self.addCleanup(self.temp.cleanup)
-        self.root = Path(self.temp.name)
+        # Hosted Windows TEMP can use an 8.3 alias (RUNNER~1). The launcher
+        # deliberately canonicalizes paths; compare canonical paths too.
+        self.root = Path(self.temp.name).resolve()
         self.exe = self.root / "emulator space" / "emulator.exe"
         self.exe.parent.mkdir()
         self.exe.write_bytes(b"synthetic executable")

@@ -513,3 +513,12 @@ Negative knowledge should be preserved as carefully as successful implementation
 - 24×24 BC3存储格不要求glyph指标高度24；本次保持23，避免改变字体全局最大高度。原字符/填充不得为了补字删除。
 - 标题待机演示可进入村庄，看见HUD或启动进程不是受控游戏输入与资源绑定证明。未见KCK的尝试按未建立结果保留。
 - 物理Esc会中止当前窗口控制工具，但用户明确它只表示退出游戏，不暂停工程；不把工具事件冒充用户暂停项目。
+# Xenia launcher CI: Windows short TEMP paths (2026-10-18)
+
+The initial launcher tests passed locally and on Linux but failed two path-string
+assertions on Windows hosted runners. TEMP used `RUNNER~1`, while `Path.resolve()`
+correctly recorded the long `runneradmin` path. The launcher behavior was correct;
+the fixture compared noncanonical spellings. Canonicalize the fixture root before
+constructing expectations. Keep full configuration and no-tuning checks unchanged.
+Failed run: 39109395945, commit 6bd840d; do not report it as successful.
+

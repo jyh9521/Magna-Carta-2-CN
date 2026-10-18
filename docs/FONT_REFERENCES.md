@@ -134,3 +134,59 @@ The next runtime gate is still a same-warning geometry capture, followed by its
 recovery view. If input remains unreliable, preserve the candidate and investigate
 resource loading/draw selection read-only instead of adding further atlas glyphs
 or calling a title/movie frame a passing test.
+
+## Main script package embeds another General_15 (2026-10-18)
+
+**Verified serialized evidence:** the logging-only run
+`build/binding-20261018-file-trace` adds only `--log_level=3` to the unchanged
+user TOML. The stopped runtime log SHA256 is
+`15ee4c1c1fb78bdf5c144fd2e38a6ecc4f6ab43d6a7aca6743d8db643722127b`.
+NtCreateFile requests selected 62 existing CookedXenon files; their tables
+parsed without errors. Requests do not prove successful loads or Font selection.
+Local per-package hashes/results: `requested-package-font-scan.json` under
+`build/font-geometry-probe/`. No log or proprietary package is distributed.
+
+MC2Game.xxx original SHA256
+`13f92622e2ae2920f6ce6dfc7b0edbbcbec7e83adeacbd56fed84a021739a641`
+contains **13 Engine.Font exports**: Font.General_15 and 12 font_ui Fonts.
+General_15 logical offset 10172281, size 433092, parses with matching tagged/native
+records, 2608 glyphs/remap entries and six local Engine.Texture2D references.
+These are separate package-local objects from the previously probed copies.
+TitleMap_MSPT.xxx SHA256
+`e094df8399beac753e07a1ee388d5192b8f0a721fa854d786104de7439e98395`
+has no Font/MultiFont-class export. Engine.xxx also has EngineFonts.SmallFont;
+class-default Font/MultiFont objects must not be counted as textured fonts.
+
+Reproduce the inventory from the user's extracted package (new output required):
+
+```powershell
+python tools/inspect_font_references.py build/poc-game/disc1/MC2Game/CookedXenon/MC2Game.xxx --sha256 13f92622e2ae2920f6ce6dfc7b0edbbcbec7e83adeacbd56fed84a021739a641 --inventory --lzx-library build/lzx/native-verified/ue3_lzx.dll --output build/NEW-MC2Game-inventory.json
+```
+
+This read-only mode shares package hash/profile/decoder guards with the existing
+FontName inspector. It matches the exact class leaf Font or MultiFont, flags
+Default__ names, and returns logical-package offsets/sizes (not positions in
+compressed on-disk bytes). It does not parse every candidate's
+payload, infer class inheritance, or claim runtime use. --object and --inventory
+are mutually exclusive; existing default inspection remains unchanged. Three
+new synthetic tests cover exact class filtering, defaults, hash guards,
+unchanged source, CLI output reopening/overwrite protection and exclusive modes.
+
+**Runtime pending:** `binding-20261018-mc2game-raw-control` used the recorded F7
+input profile, original text/fonts and only the raw MC2Game wrapper plus TOC size
+11632640 -> 58032128. Source/snapshot config verification passed. Title/movie
+were visible, but repeated short Start taps did not yield a captured warning.
+Do not call this a passing interactive raw-package control. Its two deployment
+paths were hash-guarded back to the original MC2Game and TOC; the owned process
+was stopped. Original ISO, XEX and TOML were not edited.
+
+The not-yet-deployed MC2Game geometry candidate copies glyph 65 (A) geometry
+into tagged/native glyph 959 (U+B85C). Raw baseline SHA256
+`3aec13662b165e9b78c4af75756d13114069f1cb580078baf90123d1332f3fe3`,
+geometry SHA256
+`15911b07764cfffbfdc0374357e5dd6a22b34ac50fee37b6a5088311162ecd6b`,
+both 58032128 bytes. Remap and all other exports/texture bytes are preserved.
+The independent inverse-copy check is byte-identical; it is not in-game recovery.
+Next gate: capture the raw-original warning, then this candidate in the same
+warning, then original recovery. Only a positive controlled Font change permits
+moving the two-glyph Chinese experiment onto this copy.

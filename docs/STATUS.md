@@ -10,7 +10,8 @@
 - 新增同尺寸 Font remap 探针：只改既有映射的 uint16 glyph index，具备整包 hash/原映射/目标范围防护；静态反向恢复 byte-identical，245 项测试通过。真实 Editor 及外部/常驻 General_15、Subtitle remap 探针已捕获警告，均无预期字形变化。
 - 新证据：Default__Engine 的 Tiny/Small 指向此前漏查的 MC2EditorResources 三套韩文字体（各 11534 字形，无 CJK remap）；另有 Xe 配置不同引用，实际优先级未验。见 FONT_REFERENCES.md。
 - tagged/native 几何探针已实现且独立反向回退通过，253 项原生测试通过。本轮只取得候选标题/视频，自动短按未稳定进入警告，不记作字体阴性结论；四项部署已恢复。见 FONT_REFERENCES.md。
-- 下一步仍需同场景几何探针与恢复画面；并行推进只读的资源加载/绘制选择证据，不盲目补字、不开始批量翻译。
+- 新发现：debug 文件请求跟踪中的 62 个现存 CookedXenon 包完成类表扫描；MC2Game.xxx 也嵌入 Font.General_15 和 12 个 font_ui.Font 对象。文件请求不是绘制绑定；此前探针没有覆盖这个 General_15 副本。新增 --inventory 类枚举工具可复现此遗漏，256 项测试通过。
+- MC2Game 原样解压对照只捕获标题/视频，未取得警告，兼容性仍待验证；该包几何候选只做静态验证，未部署。MC2Game 与 TOC 已恢复原始 hash，专用 TOML 未变。下一步先取得这个 raw 对照的警告，再测其几何标记及恢复，不盲目补字或批量翻译。
 
 以下为历史累计记录；如与此节冲突，以本节及新的运行矩阵为准。
 

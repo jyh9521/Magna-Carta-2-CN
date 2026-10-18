@@ -1,4 +1,4 @@
-"""Read tagged *FontName defaults without claiming runtime font selection."""
+"""Inspect FontName defaults or embedded Font classes without inferring runtime use."""
 from __future__ import annotations
 
 import argparse
@@ -33,7 +33,7 @@ def tagged_font_names(payload, names):
     return refs
 
 
-def inspect(data, expected_hash, object_path='Default__Engine', decoder=None):
+def _tables(data, expected_hash, decoder):
     if hashlib.sha256(data).hexdigest() != expected_hash:
         raise FormatError('package SHA256 mismatch')
     s = parse_summary(data, len(data))
@@ -42,7 +42,26 @@ def inspect(data, expected_hash, object_path='Default__Engine', decoder=None):
     end = (max(c['uncompressed_offset'] + c['uncompressed_size'] for c in s['compressed_chunks'])
            if s['compression_flags'] else len(data))
     logical = package_header(data, {**s, 'header_size': end}, decoder)
-    t = parse_tables(logical, s, len(logical))
+    return logical, parse_tables(logical, s, len(logical))
+
+
+def inventory(data, expected_hash, decoder=None):
+    """List Font-class exports wherever embedded; do not infer payload or use."""
+    _, tables = _tables(data, expected_hash, decoder)
+    candidates = []
+    for e in tables['exports']:
+        if e['class_path'].rsplit('.', 1)[-1] not in ('Font', 'MultiFont'):
+            continue
+        candidates.append({k: e[k] for k in ('path', 'class_path', 'serial_offset', 'serial_size')})
+        candidates[-1]['class_default'] = e['path'].rsplit('.', 1)[-1].startswith('Default__')
+    return dict(schema_version=1, source_sha256=expected_hash, font_class_exports=candidates,
+                offset_convention='logical package offsets, not compressed file positions',
+                interpretation='serialized class candidates, not validated Font payloads or runtime selection',
+                game_rendering_verified=False)
+
+
+def inspect(data, expected_hash, object_path='Default__Engine', decoder=None):
+    logical, t = _tables(data, expected_hash, decoder)
     exports = [e for e in t['exports'] if e['path'] == object_path]
     if len(exports) != 1:
         raise FormatError('expected one selected defaults export')
@@ -59,7 +78,9 @@ def main(argv=None):
     p = argparse.ArgumentParser(description=__doc__)
     p.add_argument('package', type=Path)
     p.add_argument('--sha256', required=True)
-    p.add_argument('--object', default='Default__Engine')
+    mode = p.add_mutually_exclusive_group()
+    mode.add_argument('--object', default=None)
+    mode.add_argument('--inventory', action='store_true', help='List embedded Font/MultiFont class candidates, including defaults')
     p.add_argument('--lzx-library', type=Path)
     p.add_argument('--output', type=Path, required=True)
     a = p.parse_args(argv)
@@ -68,7 +89,9 @@ def main(argv=None):
                 a.package.resolve(), a.lzx_library.resolve() if a.lzx_library else None):
             raise FormatError('output must be new and distinct from inputs')
         decoder = LzxDecoder(a.lzx_library) if a.lzx_library else None
-        result = inspect(a.package.read_bytes(), a.sha256, a.object, decoder)
+        data = a.package.read_bytes()
+        result = (inventory(data, a.sha256, decoder) if a.inventory else
+                  inspect(data, a.sha256, a.object or 'Default__Engine', decoder))
         a.output.parent.mkdir(parents=True, exist_ok=True)
         with a.output.open('x', encoding='utf-8') as stream:
             json.dump(result, stream, indent=2); stream.write('\n')

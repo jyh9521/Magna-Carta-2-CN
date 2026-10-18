@@ -634,3 +634,10 @@ both tagged/native records while preserving remap and texture bytes. Original
 hash/mapping/donor bounds remain mandatory. Reports carry old/new patch bytes for
 an independent inverse-copy check. See docs/FONT_REFERENCES.md; no diagnostic
 candidate should be mistaken for Chinese display acceptance.
+
+
+For embedded Font discovery, `tools/inspect_font_references.py --inventory`
+accepts the same hash/decoder/output arguments as the default inspector and lists
+Font/MultiFont class candidates without assuming a font-named package. It is
+exclusive with `--object`. See docs/FONT_REFERENCES.md for the newly identified
+MC2Game.xxx copy and its still-pending raw-package interactive control.

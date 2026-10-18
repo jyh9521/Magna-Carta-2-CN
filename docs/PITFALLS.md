@@ -538,3 +538,13 @@ Default__Engine Tiny/Small FontName fields refer to MC2EditorResources, whose
 three Korean Fonts were absent from the earlier three-package study. Cooked
 MC2Engine.ini and Xe-MC2Engine.ini disagree on Tiny/Small; serialized defaults
 are not proof of runtime priority. See FONT_REFERENCES.md.
+
+## Fonts can be embedded in the main game script package
+
+Do not limit a font search to font.xxx, Startup or editor resources. The actual
+MC2Game.xxx class table also contains Font.General_15 plus 12 font_ui.Font
+exports. Earlier geometry candidates did not cover this copy. Use the guarded
+class inventory described in FONT_REFERENCES.md. NtCreateFile debug requests
+identify candidates, not successful loads or actual draw selection. A raw
+MC2Game control reached title/movie only; its warning compatibility is pending,
+so the MC2Game geometry candidate was not deployed in that trial.

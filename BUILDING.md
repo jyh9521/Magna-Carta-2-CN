@@ -11,9 +11,13 @@ python tools/disc_inventory.py "MagnaCarta II (Korea) (Disc 1).iso" --hash-image
 
 Disc 2 同法指定独立输出及目录；首次解出后再次提取应使用新目录，工具拒绝覆盖。`--hash-files` 可为全部成员流式散列。版本、ISO SHA-256、XEX 身份见 docs/RESOURCE_SURVEY.md。
 
-实际文本解析命令与 hash 见 docs/COALESCED_SURVEY.md；提取范围受 hash 和结构校验。当前只有只读文本提取与内存无修改往返，没有资源回写、字体构建或 ISO 重封装。系列来源复现见 docs/SERIES_TERMS.md。
+实际文本解析命令与 hash 见 docs/COALESCED_SURVEY.md；提取范围受 hash 和结构校验。现有 Coalesced 副本回写、字体候选和 TOC 大小更新工具见下文及对应研究文档；它们尚非可用汉化补丁，也没有 ISO 重封装。系列来源复现见 docs/SERIES_TERMS.md。
 
-原件保持不变；本轮所有派生资源都在被忽略的 build/。没有游戏文件安装或卸载动作，原版启动资源状态未改变。未来中文部署应使用隔离完整游戏副本，并在 Xenia 同场景前/后/回退录证；本轮没有该验收。
+原件保持不变；派生资源在被忽略的 build/。最新约定为游戏测试全部由用户执行，开发阶段不自行启动模拟器或部署候选。未来中文验收应由用户在隔离副本中进行同场景前/后/回退录证。
+
+## 字体使用方离线扫描
+
+`tools/inspect_font_references.py --consumers` 枚举可解析 tagged 对象中的直接 Font/MultiFont ObjectProperty 引用，保留 import/export 身份、逻辑偏移与覆盖缺口。它与 `--inventory` / `--object` 互斥，不启动游戏、不修改资源。命令、62 包实测和组件前缀缺口见 docs/FONT_CONSUMERS.md。
 
 ## 最小补字原型（独立输出，未获游戏验收）
 

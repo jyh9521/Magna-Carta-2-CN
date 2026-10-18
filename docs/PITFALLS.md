@@ -1,5 +1,19 @@
 # Pitfalls
 
+## 2026-10-18: a failed component prefix is not an absent Font reference
+
+**Verified:** the current NetIndex-plus-tags consumer reader cannot parse 9703
+MC2Game exports, including 954 UIComp_DrawString objects. The earlier narrow
+UIStyle scan returned no direct links in that package, while the broadened
+reader finds 16 on custom defaults. Neither result covers component native
+prefixes or nested style structures. See FONT_CONSUMERS.md for exact counts.
+
+Do not infer no font use from an empty result, search for arbitrary plausible
+tags, or guess a universal 12-byte skip from a few component samples. Preserve
+coverage, object indices, failure reasons and logical offsets. A malformed later
+ObjectProperty must discard earlier candidate links from the same object.
+The new synthetic consumer tests lock this object-level atomicity.
+
 This document records failed approaches, misleading assumptions, fragile workflows, compatibility traps, and other technical mistakes discovered during development of the localization project.
 
 The purpose is to preserve negative knowledge.

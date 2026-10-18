@@ -1,5 +1,9 @@
 # Font defaults and missing package discovery (2026-10-18)
 
+Latest offline continuation: [direct Font consumers](FONT_CONSUMERS.md).
+Game tests now belong exclusively to the user; the runtime commands/results
+below document historical work, not autonomous next actions.
+
 ## Verified serialized references, not runtime binding
 
 Engine.xxx SHA256:

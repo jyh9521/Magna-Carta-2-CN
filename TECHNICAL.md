@@ -2,10 +2,11 @@
 
 - **Verified**：双盘 XDVDFS 目录及 XEX2 身份，见 docs/RESOURCE_SURVEY.md。
 - **Verified**：8 个 Coalesced 文件结构、混合端序、原字节往返及 INI 物理行提取，见 docs/COALESCED_SURVEY.md。
-- **High-confidence deduction**：启动登录提示和主菜单帮助适合优先追踪，但实际运行时查找绑定未确认。
-- **Unverified hypothesis**：font/font_ui/EngineFonts 包含最终显示所需全部字形；资源名本身不证明 glyph coverage。
+- **Verified**：启动登录提示的 INT 文本已由历史可见 TST 标记绑定，见 docs/RUNTIME_TEXT_BINDING.md；该结论不证明字体绑定。
+- **Verified**：离线直接字体使用方扫描覆盖 62 个已有请求日志选中的包，发现 59 条顶层 ObjectProperty 字体引用，见 docs/FONT_CONSUMERS.md。组件/嵌套样式仍有明示缺口。
+- **Unverified hypothesis**：启动提示的有效字体及字体副本选择尚未确定；资源名、静态引用和文件请求不等于绘制证据。
 
-工具独立迁移与旧研究版本见 NOTICE.md。没有迁入 ReXGlue、SDK 或运行时。未实现译文回写、TOC 更新、资源包重建，也未验证 Xenia 中文显示。内存 serialize 不是游戏回写支持。
+工具独立迁移与旧研究版本见 NOTICE.md。没有迁入 ReXGlue、SDK 或运行时。已实现受 hash 保护的文本副本回写、TOC 大小更新及字体候选构建，尚未验证中文显示，尚无发布补丁。游戏测试由用户进行；后续自主工作继续离线分析与自动化。
 
 ## 原始通用技术规范（示例不代表已验证）
 

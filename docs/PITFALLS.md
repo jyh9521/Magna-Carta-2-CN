@@ -1,5 +1,14 @@
 # Pitfalls
 
+## 2026-10-19: opaque Map declarations and Next boundaries are real evidence
+
+Font.CharRemap stores null key/value type references and raw flags1002; the
+metric code's u16 entries do not justify inventing reflected Map types. Font's
+property Next run ends at its own FontCharacter ScriptStruct, so a Class is not
+validated by requiring every Next target to be another property. Declaration
+support also must not silently accept undecoded Array/Map default values. See
+FONT_DECLARATIONS.md.
+
 ## 2026-10-19: metric mode branches do not establish a serialized Font bridge
 
 The checked metric window uses a20-byte native record stride, while stored Font

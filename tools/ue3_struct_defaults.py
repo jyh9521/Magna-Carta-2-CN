@@ -17,7 +17,8 @@ except ImportError:
 
 
 KINDS = {'BoolProperty','IntProperty','FloatProperty','NameProperty','StrProperty',
-         'ByteProperty','ObjectProperty','ClassProperty','StructProperty','InterfaceProperty'}
+         'ByteProperty','ObjectProperty','ClassProperty','StructProperty','InterfaceProperty',
+         'ArrayProperty','MapProperty'}
 
 
 def reference(graph,package,ref,kinds=None):
@@ -48,6 +49,23 @@ def payload(graph,node,kind):
     return r,net
 
 
+def container_children(graph,node,refs):
+    """Only exact, local, immediately owned property definitions are supported."""
+    package,index=node
+    if len(set(refs))!=len(refs):raise FormatError('duplicate container property type reference')
+    records=[]
+    for ref in refs:
+        if ref<=0:raise FormatError('container type must be a nonnull local property')
+        record=reference(graph,package,ref,KINDS);child=graph.export(package,ref)
+        if child['class_path']!='Core.'+record['class_name'] or child['outer']!=index:
+            raise FormatError('container property type crosses owner/class')
+        records.append(record)
+    local={i for i,e in enumerate(graph.packages[package]['tables']['exports'],1)
+           if e['outer']==index and e['class_path'].endswith('Property')}
+    if local!=set(refs):raise FormatError('container type references omit local property children')
+    return records
+
+
 def property_declaration(graph,node):
     e = graph.export(*node);kind = e['class_path'].rsplit('.',1)[-1]
     if kind not in KINDS: raise FormatError('unsupported declaration property type')
@@ -63,7 +81,7 @@ def property_declaration(graph,node):
     if flags & 0x20: raise FormatError('networked property declaration unsupported')
     category = read_name(r,graph.packages[package]['tables']['names'])
     array_enum = reference(graph,package,r.i32(),{'Enum'})
-    target,meta_class = None,None
+    target,meta_class,container = None,None,None
     if kind in ('ObjectProperty','ClassProperty','InterfaceProperty'):
         target = reference(graph,package,r.i32(),{'Class'})
         if target is None: raise FormatError('null object property class declaration')
@@ -72,12 +90,27 @@ def property_declaration(graph,node):
         target = reference(graph,package,r.i32(),{'ScriptStruct'})
         if target is None: raise FormatError('null struct property type declaration')
     elif kind=='ByteProperty': target = reference(graph,package,r.i32(),{'Enum'})
+    elif kind=='ArrayProperty':
+        inner,=container_children(graph,node,[r.i32()])
+        container=dict(kind='array',inner=inner,type_visibility='serialized-property-reference')
+    elif kind=='MapProperty':
+        key,value=r.i32(),r.i32()
+        if not key and not value:
+            container_children(graph,node,[])
+            container=dict(kind='map',key=None,value=None,type_visibility='opaque-null-type-references')
+        elif not key or not value:
+            raise FormatError('partially null map type declarations unsupported')
+        else:
+            key_type,value_type=container_children(graph,node,[key,value])
+            container=dict(kind='map',key=key_type,value=value_type,type_visibility='serialized-property-references')
     if r.pos!=len(r.data): raise FormatError('property declaration trailing bytes')
-    return dict(owner=graph.describe(node),name=e['path'].rsplit('.',1)[-1],kind=kind,
+    result=dict(owner=graph.describe(node),name=e['path'].rsplit('.',1)[-1],kind=kind,
                 net_index=net,next_reference=next_field,array_dim=dimensions,flags_hex=f'{flags:016x}',
                 category=category,array_enum=array_enum,target=target,meta_class=meta_class,
                 enum_catalog=enum_catalog(graph,package,target) if kind=='ByteProperty' and target else None,
                 array_enum_catalog=enum_catalog(graph,package,array_enum) if array_enum else None)
+    if container is not None:result['container']=container
+    return result
 
 
 def enum_catalog(graph,package,ref):
@@ -163,6 +196,8 @@ def validate_values(graph,package,props,declarations,cache,depth=0):
             raise FormatError('unknown/duplicate/out-of-range default property slot')
         seen.add(key);expected='ObjectProperty' if d['kind']=='ClassProperty' else d['kind']
         if p['type']!=expected: raise FormatError('default tag/declaration type mismatch')
+        if p['type'] in ('ArrayProperty','MapProperty'):
+            raise FormatError('container default values require a separate typed value decoder')
         if p['type']=='StructProperty':
             if p['struct'].casefold()!=d['target']['path'].rsplit('.',1)[-1]:
                 raise FormatError('default struct tag/type target mismatch')

@@ -1,5 +1,7 @@
 # 当前技术结论（2026-10-18）
 
+- **Verified（2026-10-19，声明/序列化类型）**：Engine.Font五个本地属性现完整盘点；Characters/Textures的local inner分别绑定FontCharacter完整schema/Texture2D Class，CharRemap的两个类型ref确为null、保持opaque。未从Next顺序计算native偏移或改写Map类型；见 docs/FONT_DECLARATIONS.md。
+
 - **Verified / High-confidence deduction（2026-10-19）**：Canvas.TextSize尾部38-word、47-word helper与122-word call-free metric窗口完整模板通过；word+68两模式、u16读取、native stride20及fallback7F已核实。Font字段名称为高置信推断，serialized/native桥接和绘制等价未证明；不改变SmallFont mode-unverified覆盖状态。见 docs/TEXT_MEASUREMENT_PATH.md。
 
 - **Verified（2026-10-19，静态表与元数据）**：Font/MultiFont/Canvas三张preinitialized row8表共13个code指针与完整native声明、sentinel和精确pdata入口关联；Canvas22个Function header中10 native/12脚本单列，保留464/470等索引，不套用cold row12。尚非绘制/测量实现证明。见 docs/INITIALIZED_NATIVE_TABLES.md。

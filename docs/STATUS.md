@@ -2,6 +2,8 @@
 
 ## 当前主线：真实文本已绑定，字体绑定仍待证明
 
+- **2026-10-19 Font声明补齐：** Array/Map声明通用读取与独立Class/property审计已加入，五个Font属性解析通过、FontCharacter五成员及Texture2D inner已绑定；CharRemap null/null仍显式opaque。Next到同owner ScriptStruct边界单列，不假装UClass.Children或native布局已还原。新增15项回归，默认658项通过；见 FONT_DECLARATIONS.md。
+
 - **2026-10-19 字符度量分支：** TextSize绑定已连至47-word helper和122-word无call窗口，核实mode-word+68的direct-index/键值链分支及7F替代路径；native glyph stride20与磁盘17字节分开。新增15项静态回归，未将磁盘IsRemapped直接当native状态或升级实际覆盖证明。下一离线处理Font Array/Map声明与序列化桥；见 TEXT_MEASUREMENT_PATH.md。
 
 - **2026-10-19 测量入口静态绑定：** 新native-only完整header盘点与独立initialized row8读取器核实Font2/MultiFont1/Canvas10共13项；Canvas12个非native脚本只记省略、不执行或强行解析。原6套cold相关计划不变，464/470等native token保留；下一步沿StrLen/TextSize及Font wrapper追helper，不推断SmallFont直接索引。见 INITIALIZED_NATIVE_TABLES.md。

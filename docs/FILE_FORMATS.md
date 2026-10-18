@@ -1,5 +1,14 @@
 # File Formats
 
+## Property container declaration tails (2026-10-19)
+
+For the source-locked446/25 big-endian metadata profile, ArrayProperty adds one
+int32 property-definition reference after the common declaration header;
+MapProperty adds key/value int32 references. Font's map stores0/0 and remains
+opaque. Nonnull types are exact local/owned Core property exports, not guessed
+native element widths. These tails are declarations, not Array/Map value data.
+See FONT_DECLARATIONS.md for scope, guards and complete Font source findings.
+
 ## Native metric glyph records versus stored Font records (2026-10-19)
 
 The source-locked metric code computes a20-byte runtime record stride, reads

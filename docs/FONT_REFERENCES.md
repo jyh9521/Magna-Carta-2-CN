@@ -190,3 +190,29 @@ The independent inverse-copy check is byte-identical; it is not in-game recovery
 Next gate: capture the raw-original warning, then this candidate in the same
 warning, then original recovery. Only a positive controlled Font change permits
 moving the two-glyph Chinese experiment onto this copy.
+
+### Linker metadata is part of Font identity
+
+The inventory now also preserves each candidate's one-based object index,
+outer reference, object/export flags and the complete outer chain (including
+imported ancestors). Raw numeric flags are reported without assuming their
+runtime interpretation. Class-default detection remains separate from flags.
+
+Verified for the original MC2Game package above: Font.General_15 is export
+34612, outer 45279 (`Font`, class Core.Package). Both exports have export_flags
+1; Font object_flags is `000f000400000000`, parent object_flags is
+`0007000400000000`. The raw wrapper preserves all 13 Font-class inventory
+entries, including these linker fields. Local reports are
+`build/input-poll-study/MC2Game.inventory-linker.json` and
+`raw-linker-preservation.json`. These facts motivate investigating package
+resolution, but do not prove that the warning uses this copy.
+
+General_15's six tagged atlas dimensions are five 512x512 pages and a final
+512x64 page, with no tagged bounds anomalies for its 2608 original glyphs.
+No new glyphs were deployed on this basis. Direct UIStyle_Text/UIStyle_Combo
+scans of MC2Game and TitleMap_MSPT found zero direct StyleFont entries; inherited,
+custom-widget and dynamic font choices are not covered by that narrow scan.
+
+Synthetic tests now cover both exported and imported ancestor metadata; the
+full suite has 258 tests. Exact inventory field preservation is static evidence,
+not an actual selected Font/draw result.

@@ -110,3 +110,35 @@ in debug builds, not in this non-debug build. See the pinned
 [OnKeyDown implementation](https://github.com/xenia-canary/xenia-canary/blob/50e9c715d/src/xenia/app/emulator_window.cc#L979-L1064).
 An input profile proven with this binary is not automatically valid for another
 emulator build. Screenshots and configuration verification remain local.
+
+## Short-input diagnosis (2026-10-18, pending)
+
+Fresh trials `binding-20261018-mc2game-raw-control2` and
+`binding-20261018-original-input-recheck` both used the same F7 profile. The
+first changed only MC2Game to its raw-original wrapper plus its TOC size; the
+second restored every game resource to original first. Both showed title/movie
+but no captured login warning after automated Start taps. Thus this failure is
+not sufficient evidence against raw-package compatibility or font selection.
+An original-resource-only trial `binding-20261018-insert-original` changed only
+the Start CLI binding from 0x76 to 0x2D (Insert); other five overrides stayed
+the same. Registration log confirms Insert maps to START, but short taps again
+did not produce a captured warning. Do not call this an accepted input profile.
+No A/confirm button was used to advance the no-save warning. A Shift+F7 trial
+also did not yield a warning; it was not a permanent binding change.
+
+All three configuration verifications passed; the source TOML remained byte-
+identical. Their owned processes were stopped; staged game resources were
+restored and checked against original hashes. Insert title and F7 original title
+captures remain local. No game-view recovery is claimed from these title frames.
+
+Pinned source research, not a runtime input trace:
+[KeyboardInputDriver](https://github.com/xenia-canary/xenia-canary/blob/50e9c715d/src/xenia/hid/keyboard/keyboard_input_driver.cc)
+sets each binding's is_pressed on OnKey down/up. GetState checks current pressed
+state only while the window has focus; the key-event queue is separate and used
+by GetKeystroke. Therefore a tap entirely between gamepad polls is a plausible
+miss mechanism, **not a verified cause** of the observed trials. Effective focus,
+guest poll timing and event delivery still need direct evidence. The supported
+computer-use press_key interface exposes a chord, not a hold-duration parameter;
+do not invent a held-key result or count sent taps as accepted guest input.
+Local pinned-source hashes are recorded in `build/input-poll-study/source-manifest.json`;
+no upstream emulator source is copied into this repository's tracked files.

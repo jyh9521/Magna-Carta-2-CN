@@ -49,10 +49,23 @@ def inventory(data, expected_hash, decoder=None):
     """List Font-class exports wherever embedded; do not infer payload or use."""
     _, tables = _tables(data, expected_hash, decoder)
     candidates = []
-    for e in tables['exports']:
+    for index, e in enumerate(tables['exports'], 1):
         if e['class_path'].rsplit('.', 1)[-1] not in ('Font', 'MultiFont'):
             continue
-        candidates.append({k: e[k] for k in ('path', 'class_path', 'serial_offset', 'serial_size')})
+        candidates.append({k: e[k] for k in ('path', 'class_path', 'serial_offset', 'serial_size',
+                                            'export_flags', 'object_flags', 'outer')})
+        candidates[-1]['object_index'] = index
+        parents, ref = [], e['outer']
+        while ref:
+            parent = tables['exports'][ref - 1] if ref > 0 else tables['imports'][-ref - 1]
+            record = dict(object_index=ref, path=parent['path'])
+            if ref > 0:
+                record.update({k: parent[k] for k in ('class_path', 'export_flags', 'object_flags')})
+            else:
+                record['class_name'] = parent['class_name']['name']
+            parents.append(record)
+            ref = parent['outer']
+        candidates[-1]['outer_chain'] = parents
         candidates[-1]['class_default'] = e['path'].rsplit('.', 1)[-1].startswith('Default__')
     return dict(schema_version=1, source_sha256=expected_hash, font_class_exports=candidates,
                 offset_convention='logical package offsets, not compressed file positions',

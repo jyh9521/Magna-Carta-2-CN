@@ -4,6 +4,7 @@ from pathlib import Path
 import struct
 import tempfile
 import unittest
+from unittest.mock import patch
 
 from tools.inspect_font_references import tagged_font_names, inspect, inventory, main
 
@@ -20,7 +21,7 @@ def payload(raw=None, kind='StrProperty', index=0, duplicate=False):
     return word(0) + tag + (tag if duplicate else b'') + fname('None')
 
 
-def package(class_name='Thing', object_name='Default__Engine'):
+def package(class_name='Thing', object_name='Default__Engine', outer=0, export_flags=0):
     # One bounded tagged defaults export; no game assets or native decoder.
     names = NAMES + ['Core', 'Package', 'Class', class_name, object_name]
     fn = lambda i: word(i, 0)
@@ -28,8 +29,8 @@ def package(class_name='Thing', object_name='Default__Engine'):
     im = fn(5) + fn(6) + word(0) + fn(5) + fn(5) + fn(7) + word(0xffffffff) + fn(8)
     header_size = 101 + len(nt) + len(im) + 68
     body = payload()
-    ex = word(0xfffffffe, 0, 0) + fn(9) + word(0) + bytes(8)
-    ex += word(len(body), header_size, 0, 0, 0) + bytes(16)
+    ex = word(0xfffffffe, 0, outer & 0xffffffff) + fn(9) + word(0) + bytes(8)
+    ex += word(len(body), header_size, 0, export_flags, 0) + bytes(16)
     header = b'\x9e\x2a\x83\xc1' + word((25 << 16) | 446, header_size) + string('None')
     header += word(0, len(names), 101, 1, 101 + len(nt) + len(im), 2, 101 + len(nt), 0)
     header += bytes(16) + word(1, 1, len(names), 0, 3004, 42, 0, 0)
@@ -51,8 +52,30 @@ class FontReferenceTests(unittest.TestCase):
         e, = inventory(b, h)['font_class_exports']
         self.assertEqual(e['path'], 'General_15')
         self.assertFalse(e['class_default'])
+        self.assertEqual(e['object_index'], 1)
+        self.assertEqual(e['outer_chain'], [])
         self.assertEqual(b[e['serial_offset']:e['serial_offset'] + e['serial_size']], payload())
         with self.assertRaises(ValueError): inventory(b, '0' * 64)
+
+    def test_inventory_preserves_linker_flags_and_import_parent(self):
+        b = package('Font', 'General_15', outer=-1, export_flags=1)
+        e, = inventory(b, hashlib.sha256(b).hexdigest())['font_class_exports']
+        self.assertEqual(e['export_flags'], 1)
+        self.assertEqual(e['object_flags'], '0000000000000000')
+        self.assertEqual(e['outer'], -1)
+        self.assertEqual(e['outer_chain'], [dict(object_index=-1, path='Core', class_name='Package')])
+
+    def test_inventory_export_parent_chain(self):
+        parent = dict(path='Assets', class_path='Core.Package', outer=0,
+                      export_flags=1, object_flags='0000000000000000')
+        font = dict(path='Assets.Glyphs', class_path='Engine.Font', outer=1,
+                    serial_offset=123, serial_size=456, export_flags=1,
+                    object_flags='0000000000000000')
+        with patch('tools.inspect_font_references._tables', return_value=(b'', dict(exports=[parent, font], imports=[]))):
+            e, = inventory(b'', 'unused')['font_class_exports']
+        self.assertEqual(e['object_index'], 2)
+        self.assertEqual(e['outer_chain'], [dict(object_index=1, **{k:parent[k] for k in
+                         ('path', 'class_path', 'export_flags', 'object_flags')})])
 
     def test_inventory_cli_roundtrip_and_exclusive_mode(self):
         with tempfile.TemporaryDirectory() as d:

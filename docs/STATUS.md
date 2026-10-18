@@ -161,3 +161,12 @@
 - 已确认SetFont参数为Engine.Font，GetAppliedStringStyle返回UIStyle_Combo、可选UIState；GetFinalStringStyle接收out UICombinedStyleData并返回Bool。这些是声明而非调用/行为证据，实际覆盖启闭和有效字体仍未证明。
 - 基线397、修改415、native415、隔离源码回退397；新增18个纯合成测试，覆盖真实自编包CLI、逐字节截断/桩变异、参数顺序/归属、flags、头尾和部分失败；原游戏包/配置hash不变，无启动/部署。
 - 后续沿5个脚本wrapper及可执行文件native注册/实现静态边界继续调查；不重跑已被拒绝的.xxx通用REA格式，不调用游戏函数，不把静态结果当中文验收。
+
+
+## UI布局脚本与控制路径（2026-10-19）
+
+- --include-scripted显式启用有界UE3 wrapper语法；保留默认native-only模式18/5与exit1，新的Engine+Core全类审计23/23、0未解析、exit0。5个脚本736字节/242 token全部消耗；不执行字节码。
+- 已验证WrapMode/ClipAlignment写入、按Orientation索引的AutoSizeParameters.bAutoSizeEnabled、继承AutoSizePadding的Value/ScaleType两端写入，及bReapplyFormatting条件分支通往Outer上下文的RequestSceneUpdate(false,true,省略,省略)调用点。callee声明第二参数为bPositionsChanged；实际native效果仍未验证。
+- Core.Object239个直属Function头内按唯一NativeToken绑定4个操作符声明，不按数字表猜语义；别名仅在operator flag下放行。local/Class/继承Struct引用、类型/enum、call参数、Skip/default跨度与前向语句目标均校验。Context skip含义与动态Orientation范围明确未验证。
+- 新增23项纯自编包/脚本合成回归，基线415、修改438、native438、独立源码回退415；原游戏包与配置hash保持，无启动/部署/批量剧情翻译。见 docs/SCRIPTED_UI_LAYOUT.md。
+- 下一步转向可执行文件native注册/实现及文本测量路径；SetFont等18个native方法的实际字体选择、原生构造、中文像素验收仍未完成，游戏测试继续由用户负责。

@@ -45,3 +45,5 @@ references/struct-default-research.lock.json. Independent Python readers only;
 no upstream runtime or game assets are integrated.
 
 Additional native-function format research from the same Eliot van Uytfanghe / Unreal-Library MIT commit: UFunction.cs, FieldTokens.cs and OtherTokens.cs; exact identities in references/function-metadata-research.lock.json. Existing locks preserve token/flag maps. Independent Python implementation only; no upstream runtime/source integrated.
+
+Additional scripted-UI token format research from the same Eliot van Uytfanghe / Unreal-Library MIT commit: LetTokens, ContextTokens, JumpTokens, ArrayTokens, FunctionTokens, CastTokens and UnrealTokens. Exact URLs/hashes are in references/scripted-ui-research.lock.json. Independent Python grammar/reference analysis only; no upstream runtime/source integrated.

@@ -675,3 +675,8 @@ MC2Game.xxx copy and its still-pending raw-package interactive control.
 ## UI函数声明与native参数桩（2026-10-19）
 
 `tools/inspect_function_metadata.py` 只读验证hash锁定的446/25 Function声明与精确native参数桩。`--object FULL_PATH`可重复；`--class UIComp_DrawString`清点该Class直属Function，不能与--object并用。全类23项中18项通过、5项非native脚本显式保留，返回exit1；定点11个native方法返回exit0。输出必须全新，复读后重查原包；不执行函数。命令/字段/测试及未验证边界见 docs/FUNCTION_METADATA.md。
+
+
+## UI布局脚本的显式opt-in分析（2026-10-19）
+
+在函数审计命令加`--include-scripted --reference-package Core <Core.xxx> <SHA256>`，按有界语法解析5个layout wrapper并绑定Core.Object操作符声明；全类由默认18通过/5未解析变为23通过/0未解析。输出含typed AST、source-like语句和纯语法控制边，既不执行也不部署。原/引用包hash与profile在加载可选decoder前全部校验。完整命令与Context skip、动态数组索引和native实现未验证边界见 docs/SCRIPTED_UI_LAYOUT.md。

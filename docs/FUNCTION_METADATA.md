@@ -9,7 +9,7 @@ big-endian UE3 package446/licensee25. No game, emulator or function is executed.
 All23 immediate Core.Function exports of Engine Class15601
 UIComp_DrawString were inventoried by export outer, not by leaf-name search.
 Eighteen have native declarations and exact parameter-only scripts. Five are
-explicitly unparsed by this **native-only** reader; they are not empty methods
+explicitly unparsed by the default **native-only** mode; they are not empty methods
 or failures of the original game. This resolves the package/native boundary,
 not native registration, implementation or effective font selection.
 
@@ -126,7 +126,12 @@ package evidence, not native-code decompilation or runtime evidence.
 
 **Still unverified:** native constructor defaults; calls that enable/disable
 overrides; actual selected Font at drawing; renderer metrics and Chinese pixels.
-Next offline leads are the five remaining scripted wrappers and the executable
-native registration/implementation boundary. A name alone proves neither call
+The native-only milestone left five scripted wrappers as the next lead; their
+opt-in follow-up is below. Executable native registration/implementation remains open. A name alone proves neither call
 order nor implementation; serialized null/default flags do not prove runtime
 absence of an override. Game testing remains exclusively with the user.
+
+
+## Opt-in scripted follow-up
+
+The later --include-scripted mode with a hash-locked Core reference fully decodes the5 scripted siblings (23/23 class exports total). Default native-only results above remain reproducible. See SCRIPTED_UI_LAYOUT.md for typed AST/control paths, Core operator aliases, source-hash preflight and explicit Context/native/runtime limits.

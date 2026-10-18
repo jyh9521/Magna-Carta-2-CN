@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "project": "Unreal-Library",
+  "author": "Eliot van Uytfanghe",
+  "repository": "https://github.com/EliotVU/Unreal-Library",
+  "commit": "8236c39b79e30887a487ecf9b018204e430a5ebc",
+  "license": "MIT",
+  "reuse": "format research only; independent Python implementation; no upstream runtime/source integrated",
+  "files": [
+    {
+      "path": "src/Core/Tokens/LetTokens.cs",
+      "url": "https://raw.githubusercontent.com/EliotVU/Unreal-Library/8236c39b79e30887a487ecf9b018204e430a5ebc/src/Core/Tokens/LetTokens.cs",
+      "sha256": "9d767cb13225f037680bee3ec64a847ac177e2c1358edc8131ff5f466718a913"
+    },
+    {
+      "path": "src/Core/Tokens/ContextTokens.cs",
+      "url": "https://raw.githubusercontent.com/EliotVU/Unreal-Library/8236c39b79e30887a487ecf9b018204e430a5ebc/src/Core/Tokens/ContextTokens.cs",
+      "sha256": "e19bfdee49074de099ab147829e15856f2763401dbfd37d165e21afd68c58378"
+    },
+    {
+      "path": "src/Core/Tokens/JumpTokens.cs",
+      "url": "https://raw.githubusercontent.com/EliotVU/Unreal-Library/8236c39b79e30887a487ecf9b018204e430a5ebc/src/Core/Tokens/JumpTokens.cs",
+      "sha256": "c1f840ffcd304b08b36874499b1221f18d47e359696b69c51d33bdcc56c94308"
+    },
+    {
+      "path": "src/Core/Tokens/ArrayTokens.cs",
+      "url": "https://raw.githubusercontent.com/EliotVU/Unreal-Library/8236c39b79e30887a487ecf9b018204e430a5ebc/src/Core/Tokens/ArrayTokens.cs",
+      "sha256": "720c7070c07caf50d996ea245b1504e731ebcd48f4bcda32dcf493beb7b0bd10"
+    },
+    {
+      "path": "src/Core/Tokens/FunctionTokens.cs",
+      "url": "https://raw.githubusercontent.com/EliotVU/Unreal-Library/8236c39b79e30887a487ecf9b018204e430a5ebc/src/Core/Tokens/FunctionTokens.cs",
+      "sha256": "2b1d903a0aa295cbab22e8a8b219ae7a8cf30ee9b67e8bde5b251abdadd441ae"
+    },
+    {
+      "path": "src/Core/Tokens/CastTokens.cs",
+      "url": "https://raw.githubusercontent.com/EliotVU/Unreal-Library/8236c39b79e30887a487ecf9b018204e430a5ebc/src/Core/Tokens/CastTokens.cs",
+      "sha256": "2f0de4b8312f348da5f4ead3163be3159f88e7b11b482b07a1bb468ac07be2df"
+    },
+    {
+      "path": "src/UnrealTokens.cs",
+      "url": "https://raw.githubusercontent.com/EliotVU/Unreal-Library/8236c39b79e30887a487ecf9b018204e430a5ebc/src/UnrealTokens.cs",
+      "sha256": "5f4ff4c33cf580596199dfb13353e9eae18f8361b3b8611b919bace0776c3165"
+    }
+  ],
+  "related_locks": [
+    "references/function-metadata-research.lock.json",
+    "references/struct-default-research.lock.json",
+    "references/ui-style-research.lock.json"
+  ]
+}

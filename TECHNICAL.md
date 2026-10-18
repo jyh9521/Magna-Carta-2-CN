@@ -1,5 +1,7 @@
 # 当前技术结论（2026-10-18）
 
+- **Verified（2026-10-19）**：显式脚本模式将UIComp_DrawString全类审计推进至23/23；5个布局wrapper的736字节/242 token、字段/继承Struct、参数与跳转已完整解析。Core.Object操作符声明身份已核实，native实现及Context skip的VM含义未证明；见 docs/SCRIPTED_UI_LAYOUT.md。
+
 - **Verified（2026-10-19）**：UIComp_DrawString直属23个Function中18个native声明只有NativeParm/Nothing/EndOfScript参数桩，NativeToken均0；SetFont、DisableCustomFont和两个样式getter的类型/返回声明已核实，但原生实现和有效字体仍未证明。另5个非native脚本显式未解析，见 docs/FUNCTION_METADATA.md。
 
 - **Verified（2026-10-19）**：6个UI ScriptStruct定义/继承schema和4个renderer字段绑定通过；包内bOverrideDrawFont明确为0、DrawFont=null，Bool实际header偏移修正。枚举槽1的存储名为UIALIGN_Center，非运行绘制证明。见 docs/STRUCT_DEFAULTS.md。

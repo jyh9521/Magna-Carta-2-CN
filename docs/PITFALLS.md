@@ -657,3 +657,8 @@ format decoder. Use the version/hash-locked reader and retain this boundary.
 ### Native parameter stubs are not the font-selection algorithm
 
 UIComp_DrawString.SetFont/DisableCustomFont and the two style getters are declared native; their stored scripts only name parameters and terminate. NativeToken=0 does not identify a C++ implementation or prove no native behavior. Do not claim setters/flags/call order from names or these stubs. Functions also retain nonzero Line/TextPos and FriendlyName, unlike zero-valued data-only ScriptStruct fields. Five sibling non-native methods remain explicit unparsed records, not empty successful functions; do not silently extend native-stub size rules to general v446 bytecode.
+
+
+### Preserve bytecode boundaries without inventing native behavior
+
+The5 scripted siblings are now fully decoded only with explicit --include-scripted and hash-locked Core input. In these bodies short-circuit Skip spans include the enclosing EndFunctionParms, while default-value spans include EndParmValue; an off-by-one shifts the following statement. Core operator FriendlyName aliases differ from export leaves when the operator flag is set. Preserve Context raw skip/property-type fields without assigning an unverified VM meaning. Enum-typed Orientation does not prove runtime index bounds; source-like expressions and syntactic control edges are not executions. See SCRIPTED_UI_LAYOUT.md.

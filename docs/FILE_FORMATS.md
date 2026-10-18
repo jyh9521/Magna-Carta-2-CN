@@ -900,3 +900,8 @@ or native bool-bit offsets. Unknown layouts fail instead of scanning for tags.
 ## 446/25 native Function declarations and parameter stubs
 
 See FUNCTION_METADATA.md for retained Line/TextPos/FriendlyName fields, native token/flags and exact `(NativeParm + i32 reference)* Nothing EndOfScript` stub recognition. This is a bounded native-only subset, not general bytecode or executable decompilation. UIComp_DrawString has18 recognized methods and5 explicit non-native unparsed records; unknown tokens are rejected. Shared declaration-chain validation retains all parameter/return types and checks owned reference order.
+
+
+## Opt-in 446/25 scripted UI wrapper subset
+
+SCRIPTED_UI_LAYOUT.md records the bounded grammar and exact5-body/736-byte/242-token result. StructMember retains property/struct references and copy/modification bytes; inherited owner ancestry is checked. Static arrays retain enum/type identity, not runtime index proof. Default/Skip spans and forward statement targets are checked; Context raw skip5 is preserved without VM-meaning inference. Core.Object numeric operator declarations are scoped/unique, not executable registrations. This is not a general VM or bytecode dialect claim.

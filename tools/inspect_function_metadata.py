@@ -1,6 +1,7 @@
-"""Read-only, hash-locked native UI function declarations and parameter stubs."""
+"""Read-only, hash-locked UI declarations, native stubs and opt-in wrapper scripts."""
 from __future__ import annotations
 import argparse
+import hashlib
 import json
 from pathlib import Path
 
@@ -23,16 +24,30 @@ def main(argv=None):
     scope.add_argument('--object',action='append')
     scope.add_argument('--class',dest='defining_class',help='inventory immediate Function exports of this exact Class')
     p.add_argument('--lzx-library',type=Path)
+    p.add_argument('--include-scripted',action='store_true',help='opt in to the bounded UI-wrapper grammar, never execute it')
+    p.add_argument('--reference-package',nargs=3,action='append',default=[],metavar=('LABEL','PATH','SHA256'))
     p.add_argument('--output',type=Path,required=True);a=p.parse_args(argv)
     try:
-        inputs=[a.package]+([a.lzx_library] if a.lzx_library else [])
+        inputs=[a.package]+[Path(row[1]) for row in a.reference_package]+([a.lzx_library] if a.lzx_library else [])
         if a.output.exists() or a.output.is_symlink() or a.output.resolve() in [v.resolve() for v in inputs]:
             raise FormatError('function report must be new and distinct from inputs')
         raw=a.package.read_bytes();summary=parse_summary(raw,len(raw))
         if summary['byte_order']!='big':raise FormatError('function reader requires big-endian 446/25')
+        if hashlib.sha256(raw).hexdigest()!=a.sha256:raise FormatError('package SHA256 mismatch')
+        reference_inputs=[];labels={a.package.stem.casefold()}
+        for key,path,sha in a.reference_package:
+            if key.casefold() in labels:raise FormatError('duplicate reference package label')
+            labels.add(key.casefold());value=Path(path).read_bytes();s=parse_summary(value,len(value))
+            if s['byte_order']!='big':raise FormatError('function references require big-endian 446/25')
+            if hashlib.sha256(value).hexdigest()!=sha:raise FormatError('reference package SHA256 mismatch')
+            reference_inputs.append((key,Path(path),sha,value))
         decoder=LzxDecoder(a.lzx_library) if a.lzx_library else None
         logical,tables=_tables(raw,a.sha256,decoder);label=a.package.stem.casefold()
-        g=StyleGraph({label:dict(logical=logical,tables=tables,sha256=a.sha256)})
+        packages={label:dict(logical=logical,tables=tables,sha256=a.sha256)};snapshots=[(a.package,raw)]
+        for key,path,sha,value in reference_inputs:
+            l,t=_tables(value,sha,decoder)
+            packages[key.casefold()]=dict(logical=l,tables=t,sha256=sha);snapshots.append((path,value))
+        g=StyleGraph(packages)
         names=a.object
         if a.defining_class:
             owners=g.paths[label].get(a.defining_class.casefold(),[])
@@ -45,14 +60,15 @@ def main(argv=None):
             try:
                 matches=g.paths[label].get(name.casefold(),[])
                 if len(matches)!=1:raise FormatError('missing/ambiguous Function definition')
-                results.append(parse_function_metadata(g,(label,matches[0])))
+                results.append(parse_function_metadata(g,(label,matches[0]),a.include_scripted))
             except (ValueError,KeyError) as exc:errors.append(dict(object=name,reason=str(exc)))
         report=dict(schema_version=1,source_sha256=a.sha256,profile='446/25-big-retained-editor-fields-and-friendly-name',
-                    selected_objects=names,defining_class_scope=a.defining_class,
+                    selected_objects=names,defining_class_scope=a.defining_class,include_scripted=a.include_scripted,
+                    reference_sources=[dict(package=key.casefold(),sha256=sha) for key,_,sha,_ in reference_inputs],
                     functions=results,unparsed=errors,native_implementation_verified=False,game_rendering_verified=False)
         write_report(a.output,report)
         if json.loads(a.output.read_text(encoding='utf8'))!=report:raise FormatError('function report reopening mismatch')
-        if a.package.read_bytes()!=raw:raise FormatError('original package changed during inspection')
+        if any(path.read_bytes()!=value for path,value in snapshots):raise FormatError('original package changed during inspection')
         print(json.dumps(dict(functions=len(results),unparsed=len(errors),game_rendering_verified=False),sort_keys=True))
         return int(bool(errors))
     except (OSError,ValueError,KeyError) as exc:

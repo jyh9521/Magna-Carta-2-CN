@@ -104,3 +104,34 @@ Next: complete that capture, then identify the live Font using an existing-glyph
 sentinel, establish runtime mapping/atlas selection, and repeat the Chinese
 negative/candidate/recovery sequence. No bulk translation or formal ISO merge
 starts on the basis of these partial results.
+
+## Same-size mapping sentinel tool (2026-10-18)
+
+`tools/probe_font_mapping.py` changes only one existing remap glyph-index uint16
+field in a selected Font export. It requires the complete package SHA256, exact
+object path, codepoint, expected original glyph index and bounded existing target
+index. Compressed packages are rejected; make a separate raw copy first when
+needed. Glyph count, tables, tagged/native geometry and texture bytes stay intact.
+This is a diagnostic probe, not translation data or a release patch.
+
+```powershell
+python tools/probe_font_mapping.py INPUT_PACKAGE --sha256 INPUT_SHA256 --font-object OBJECT_PATH --codepoint 0xB85C --expected-glyph ORIGINAL_INDEX --target-glyph 65 --output NEW_PACKAGE --report NEW_REPORT
+```
+
+The original warning starts with U+B85C. Static data maps it to General_15 glyph
+959 and Subtitle glyph 595. An isolated candidate redirects General_15 to its
+existing ASCII A (65) and Subtitle to B (66), in external font.xxx and the resident
+Startup copy. Only two remap fields change per package relative to its appropriate
+original/raw baseline; text and atlases are unchanged. A visible A or B replacing
+the original first syllable would identify a font candidate, but runtime outcome
+must be recorded separately. Missing or unchanged text is not positive binding.
+
+Five synthetic tests cover exact inverse recovery, field-only changes, hash,
+object/mapping/index guards, compressed-input rejection and CLI output protection.
+Local static outputs: build/font-mapping-probe/. Runtime binding remains pending.
+
+The fresh `binding-20261018-recovery-hb2` run reverified the supplied config dump
+and reached the original title. Sent Start key events did not yield a captured
+interactive warning before the idle movie resumed. This is an inconclusive input
+attempt, not visual recovery acceptance. No sentinel package was deployed during
+this run; the extracted game remains at the original four resource hashes.

@@ -618,3 +618,11 @@ compression states. `supplement_font.py --raw-atlas` is opt-in raw bulk output.
 Neither command implies Chinese display or console compatibility. For table/TOC
 updates and exact runtime boundaries see docs/RUNTIME_TEXT_BINDING.md. Keep all
 originals and restore deployed resource copies before another control test.
+
+### Existing-glyph binding probe
+
+`tools/probe_font_mapping.py` is an opt-in same-size diagnostic for an existing
+remap entry, not a font supplement or translation builder. Require the original
+package hash, Font object path, codepoint and expected glyph. Never target an
+unknown version. See docs/RUNTIME_TEXT_BINDING.md for the exact CLI shape and
+negative-result boundaries; generated game packages remain local under build/.

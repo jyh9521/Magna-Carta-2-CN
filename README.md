@@ -6,6 +6,7 @@
 - [字体绑定审计与双盘候选构建](docs/FONT_BINDING_AUDIT.md)：原型/CDO、forced-export 命名空间、4145 包类表调查及未部署的三别名对照/geometry 探针。
 - [双盘版本与资源清单](docs/RESOURCE_SURVEY.md)、[FILEMAP](docs/FILEMAP.md)。
 - [系列术语固定来源](docs/SERIES_TERMS.md)、[术语表](GLOSSARY.md)。
+- [UI序列化默认值与声明](docs/STRUCT_DEFAULTS.md)：Class/outer绑定、继承Guid、精确Bool偏移及枚举槽；仍非原生运行证明。
 - [搬移候选独立复核](docs/CANDIDATE_REVALIDATION.md)：闭合成员集、可信计划/manifest锚定与独立Font/文本/TOC重放，拒绝伪成功metadata；只读。
 - [字体/文本/TOC最小候选装配](docs/LOCALE_CANDIDATE.md)：双盘依赖与真实字节校验、5资源隔离目录、备份恢复和整树重复构建；不部署或运行。
 - [源值锁定与字面字体覆盖](docs/TEXT_FONT_COVERAGE.md)：版本化两字文本探针、双盘源/标记/逆向检查及全部显式字体覆盖；非游戏显示证明。

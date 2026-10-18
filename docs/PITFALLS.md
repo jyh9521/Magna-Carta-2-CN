@@ -639,3 +639,16 @@ producer extra-input hashes are only declarations unless separately reopened;
 without a trusted original manifest anchor, do not claim their original byte
 identity. Candidate descendants must remain a closed regular-file set, not
 junction/symlink shortcuts that happen to point at currently matching bytes.
+
+
+### Do not skip editor-shaped fields just because a package is cooked for Xenon
+
+The inspected 446/25 data-only ScriptStructs retain ScriptText/CppText/Line/TextPos
+zero fields before script size/flags/defaults. A guessed console omission shifts
+all later data. Also distinguish persistent ScriptStruct default records from
+C++ initialization and effective instance memory. STYLE_ID has no own default
+records but inherits Guid declarations/explicit parent defaults; missing is not
+zero. Bool size0 means a header value, not a four-byte payload: the former
+flattened bool offset was four bytes late and is now corrected. REA's general
+binary opener did not admit UE3.xxx; repeated renaming/provider setup is not a
+format decoder. Use the version/hash-locked reader and retain this boundary.

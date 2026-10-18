@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "project": "Unreal-Library",
+  "author": "Eliot van Uytfanghe",
+  "repository": "https://github.com/EliotVU/Unreal-Library",
+  "commit": "8236c39b79e30887a487ecf9b018204e430a5ebc",
+  "license": "MIT",
+  "reuse": "format research only; independent Python reader, no upstream runtime/source integrated",
+  "files": [
+    {
+      "path": "src/Core/Classes/UField.cs",
+      "url": "https://raw.githubusercontent.com/EliotVU/Unreal-Library/8236c39b79e30887a487ecf9b018204e430a5ebc/src/Core/Classes/UField.cs",
+      "sha256": "dbd2f375812ea431c04affdd0286bd37256fd7eb68479677a94722be915a40b9"
+    },
+    {
+      "path": "src/Core/Classes/UStruct.cs",
+      "url": "https://raw.githubusercontent.com/EliotVU/Unreal-Library/8236c39b79e30887a487ecf9b018204e430a5ebc/src/Core/Classes/UStruct.cs",
+      "sha256": "59b05b822d345ec894b59bd6f59faa04dec8b4a01b031ef5c5858583f2400dbb"
+    },
+    {
+      "path": "src/Core/Classes/UScriptStruct.cs",
+      "url": "https://raw.githubusercontent.com/EliotVU/Unreal-Library/8236c39b79e30887a487ecf9b018204e430a5ebc/src/Core/Classes/UScriptStruct.cs",
+      "sha256": "a30ed7279de3843a50b412735b0c778d6ed9c7514f675023b29385be92d16193"
+    },
+    {
+      "path": "src/Core/Classes/UEnum.cs",
+      "url": "https://raw.githubusercontent.com/EliotVU/Unreal-Library/8236c39b79e30887a487ecf9b018204e430a5ebc/src/Core/Classes/UEnum.cs",
+      "sha256": "40ac0715c85174c11192a3f36c8a5d7e23aa257a0dc70868d8b94b719efb0e8d"
+    },
+    {
+      "path": "src/Core/Classes/Props/UProperty.cs",
+      "url": "https://raw.githubusercontent.com/EliotVU/Unreal-Library/8236c39b79e30887a487ecf9b018204e430a5ebc/src/Core/Classes/Props/UProperty.cs",
+      "sha256": "2eba865ff3798281f5f20fa65c18f23a74cb59f5da86fd0bc43a9c25ce429be8"
+    },
+    {
+      "path": "src/Core/Classes/Props/UInterfaceProperty.cs",
+      "url": "https://raw.githubusercontent.com/EliotVU/Unreal-Library/8236c39b79e30887a487ecf9b018204e430a5ebc/src/Core/Classes/Props/UInterfaceProperty.cs",
+      "sha256": "9085346a288a6ec7752d943f4868cdccf2fb5d22e4483d716010a3a12f24cec2"
+    }
+  ],
+  "version_constants_lock": "references/ui-style-research.lock.json"
+}

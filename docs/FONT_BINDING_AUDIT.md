@@ -233,3 +233,15 @@ Only metadata and rebuilding instructions enter Git; no candidate is deployed.
 The reusable multi-alias supplement assembly/validation entrypoint is now
 implemented with version/identity/semantic guards; see FONT_BUNDLE_BUILD.md.
 It rebuilds both discs without deployment or game launch.
+
+
+## Serialized struct-default follow-up
+
+The metadata declaration plane is now read independently of renderer/CDO tags:
+see STRUCT_DEFAULTS.md. Both renderer fields bind through Engine Class15601 to
+property15535/struct5371 and property15534/struct5255. The persistent struct
+explicitly stores bOverrideDrawFont=0 and DrawFont=null; those values are not
+inferred from missing fields. Instance alignment1 has a verified stored enum
+slot name UIALIGN_Center in both orientations. Native initialization/effective
+runtime values remain unverified. Bool logical offsets now point at header words,
+not empty payload positions; regenerate old bool-location reports before reuse.

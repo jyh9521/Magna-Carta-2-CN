@@ -35,6 +35,7 @@ def read_properties(reader, names):
         if kind == "StructProperty":
             prop["struct"] = fname(reader, names)
         if kind == "BoolProperty":
+            prop["bool_value_offset"] = reader.pos
             prop["bool"] = reader.u32()
             if prop["bool"] not in (0, 1) or size != 0:
                 raise FormatError("invalid BoolProperty")

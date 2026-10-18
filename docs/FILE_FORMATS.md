@@ -885,3 +885,13 @@ text and TOC binary hash. Output manifest uses relative resource/report paths
 for candidate, original-control and backup-restored copies. It is not an
 installer format or a game archive. See LOCALE_CANDIDATE.md for the contract and
 which original/raster/runtime properties are actually checked.
+
+
+## 446/25 ScriptStruct/UProperty/UEnum metadata
+
+Native serialized metadata layouts, explicit persistent defaults, inherited Guid
+schemas and scoped property references are documented in STRUCT_DEFAULTS.md.
+This profile retains zero editor header fields and no script bytes. BoolProperty
+size0 stores its value in the tag header: logical bool-word and empty-payload
+offsets differ by4. These are logical serialization offsets, not runtime member
+or native bool-bit offsets. Unknown layouts fail instead of scanning for tags.

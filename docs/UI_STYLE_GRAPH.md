@@ -186,3 +186,10 @@ ancestry to Object; both warning renderer CDO tails now terminate at null.
 Nested IntProperty/ByteProperty values are size-checked and preserved, including
 array indices and u8/FName distinction. See FONT_BINDING_AUDIT.md for exact
 indices, hashes, remaining classification errors and native-default limits.
+
+
+Struct declaration/default planes and enum catalogs are now available through
+--audit-struct-defaults (requires --deep --audit-bindings). Scoped Class/outer/type
+references, inherited Guid declarations, persistent default bool0/object-null
+values and explicit instance alignment are kept distinct from native/runtime
+state. Bool header offsets are corrected by4 bytes. See STRUCT_DEFAULTS.md.

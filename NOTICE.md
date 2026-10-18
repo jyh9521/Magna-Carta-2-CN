@@ -36,3 +36,10 @@ EF_ForcedExport 与 uncooked package 名解析参考 Konstantin Nosov 的 MIT UE
 `tools/ue3_textures.py` 的 Xbox tiling 地址计算改编自 UEViewer，作者 Konstantin Nosov，MIT，固定提交 `a0bfb468d42be831b126632fd8a0ae6b3614f981` 的 Unreal/UnrealMaterial/UnTexture.cpp；完整版权与许可保留在工具文件中。其他纹理布局由实际字节核验，详见 TEXTURE_RESEARCH.md。
 
 最小补字原字体源：Noto Sans CJK SC Regular，notofonts/noto-cjk，Sans2.004 / `523d033d6cb47f4a80c58a35753646f5c3608a78`，SIL OFL 1.1。固定路径/hash 见 references/font-sources.lock.json，完整许可见 licenses/Noto-Sans-CJK-OFL.txt。原始字体只下载到本地 build，不提交字体二进制。生成像素及其衍生字体数据遵循该许可，不覆盖原游戏字体或游戏资源的版权边界。
+
+
+Additional UE3 metadata format research: Eliot van Uytfanghe / Unreal-Library,
+MIT, commit8236c39b79e30887a487ecf9b018204e430a5ebc. UField/UStruct/UScriptStruct/
+UProperty/UInterfaceProperty/UEnum source identities are preserved in
+references/struct-default-research.lock.json. Independent Python readers only;
+no upstream runtime or game assets are integrated.

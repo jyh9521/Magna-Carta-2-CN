@@ -665,3 +665,8 @@ accepts the same hash/decoder/output arguments as the default inspector and list
 Font/MultiFont class candidates without assuming a font-named package. It is
 exclusive with `--object`. See docs/FONT_REFERENCES.md for the newly identified
 MC2Game.xxx copy and its still-pending raw-package interactive control.
+
+
+## UI ScriptStruct默认值与原生声明（2026-10-19）
+
+`tools/inspect_struct_defaults.py` 只读解析明确hash锁定的446/25元数据、继承声明和持久默认值；`inspect_ui_fonts.py --deep --audit-bindings --audit-struct-defaults` 进一步按Class/outer/类型引用绑定renderer字段。Bool值偏移已修正为tag-header位置，非空payload位置；不修改游戏资源。完整命令、6定义/4绑定结果和原生运行边界见 docs/STRUCT_DEFAULTS.md。

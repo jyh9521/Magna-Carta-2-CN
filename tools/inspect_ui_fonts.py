@@ -57,8 +57,11 @@ def main(argv=None):
     p.add_argument('--text-token', help='Match nested StrProperty values (deep mode only)')
     p.add_argument('--reference-package', nargs=3, action='append', default=[], metavar=('LABEL', 'PATH', 'SHA256'))
     p.add_argument('--audit-bindings', action='store_true', help='Audit renderer prototypes and all supplied Font namespace candidates (requires --deep)')
+    p.add_argument('--audit-struct-defaults',action='store_true',help='Bind renderer StructProperty declarations/defaults (requires --deep --audit-bindings)')
     a = p.parse_args(argv)
     try:
+        if a.audit_struct_defaults and not (a.deep and a.audit_bindings):
+            raise FormatError('--audit-struct-defaults requires --deep --audit-bindings')
         if a.deep:
             if not a.text_token:
                 raise FormatError('--deep requires a nonempty --text-token')
@@ -95,6 +98,22 @@ def main(argv=None):
                     for candidate in match['candidate_paths']:
                         f = candidate['font'];fonts.add((f['package'],f['object_index']))
                 result['font_namespace_audit'] = audit_font_candidates(graph,fonts,decoder)
+                if a.audit_struct_defaults:
+                    try:
+                        from .ue3_struct_defaults import audit_struct_property
+                    except ImportError:
+                        from ue3_struct_defaults import audit_struct_property
+                    for match in result['text_matches']:
+                        bound,errors=[],[]
+                        if 'renderer' in match:
+                            r=match['renderer'];node=(r['package'],r['object_index'])
+                            fields=sorted({p['property_path'][0]['name'] for p in graph.parse(node)['flattened']
+                                           if p['type']=='StructProperty' and len(p['property_path'])==1})
+                            for name in fields:
+                                try:bound.append(audit_struct_property(graph,node,name))
+                                except (ValueError,KeyError) as exc:errors.append(dict(field=name,reason=str(exc)))
+                        match['renderer_struct_default_audit']=dict(bindings=bound,unresolved=errors,
+                            native_initialization_verified=False,runtime_effective_values_resolved=False)
             write_report(a.output, result)
             if json.loads(a.output.read_text(encoding='utf-8')) != result:
                 raise FormatError('output reopening mismatch')

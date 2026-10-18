@@ -143,3 +143,12 @@
 - 未传manifest锚定时仅证明可信计划下的资源/重放契约，不宣称原producer metadata字节身份；历史额外输入声明和外部raster文件均保持未重开/未验证标记。当前verifier实际输入另行snapshot复核，不混淆两种证明。
 - 基线367、修改381、native381、独立源码回退367；新增14项合成回归，含False/0与1/1.0类型、晚期篡改和路径读回复核。原游戏/配置/部署状态不变。
 - 后续回到UI原生默认值、有效覆盖与linker字体选择的静态缺口调查；候选装配和完整性不能替代该证据。所有游戏验证继续由用户执行，最小中文验收前不批量剧情翻译。
+
+
+## UI持久结构默认值与作用域绑定（2026-10-19）
+
+- 新增ue3_struct_defaults/inspect_struct_defaults读取器；深度UI审计可选--audit-struct-defaults，经Class15601→property15535/15534→ScriptStruct5371/5255绑定，不按叶名称猜结构。
+- 6个定义全解析，两个renderer各两字段绑定成功。持久定义显式bOverrideDrawFont=0、DrawFont=null；STYLE_ID无自有默认值，继承Core.Object.Guid的声明及单列父默认记录，不将缺项当0。原生构造/动态覆盖和有效绘制仍未证明。
+- TextAlignment两实例两轴均为存储槽1，其枚举名UIALIGN_Center；数组轴槽对应Horizontal/Vertical。Bool值原在tag-header而非size0的payload，旧flat偏移晚4字节，已修正并读原逻辑字复核。对象StyleFont探针偏移不变。
+- 图仍1209个已解析UI、2匹配/12字体路径；7个非UI分类缺口保留。源码基线381、修改397、native397、独立源码回退381；新增16项纯合成回归。原包hash、配置和部署状态不变，无游戏操作。
+- 后续静态调查已定位SetFont15555、DisableCustomFont15563、GetAppliedStringStyle15568、GetFinalStringStyle15571等Function出口；下一步验证声明/可读脚本或native边界，不凭名称断言行为，不调用游戏函数或提前批量翻译。

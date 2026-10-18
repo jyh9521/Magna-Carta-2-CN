@@ -7,6 +7,7 @@ no tag-start guessing, target execution, resource modification or runtime claims
 from __future__ import annotations
 
 import struct
+import math
 import re
 from collections import defaultdict
 
@@ -19,7 +20,7 @@ except ImportError:
 
 
 TAGGED_STRUCTS = {'UIStyleReference', 'StyleDataReference', 'STYLE_ID',
-                  'UIDataStoreBinding', 'UITextStyleOverride'}
+                  'UIDataStoreBinding', 'UITextStyleOverride', 'UITextAttributes'}
 UI_BASES = {'engine.uiobject', 'engine.uicomponent', 'engine.uistyle',
             'engine.uistyle_data', 'engine.uiskin'}
 
@@ -269,6 +270,14 @@ class StyleGraph:
         prefix['net_index'] = r.i32()
         prefix['tagged_offset'] = r.pos
         props = read_properties(r, context['tables']['names'])
+        flat, opaque = self.flatten_properties(package,props,start)
+        result = dict(prefix=prefix, properties=props, flattened=flat, opaque=opaque,
+                      tagged_end=r.pos, native_tail_size=size - r.pos)
+        self._parsed[node] = result
+        return result
+
+    def flatten_properties(self, package, props, base_offset):
+        context = self.packages[package]
         # Known nested structures are validated completely, before caching any result.
         flat, opaque = [], []
 
@@ -294,7 +303,7 @@ class StyleGraph:
                         walk(children, record['logical_package_offset'], location, depth + 1)
                         continue
                     opaque.append(dict(**record, size=len(prop['raw'])))
-                elif prop['type'] in ('ObjectProperty', 'ComponentProperty'):
+                elif prop['type'] in ('ObjectProperty', 'ComponentProperty', 'InterfaceProperty'):
                     record['reference'] = raw.i32()
                     ref = record['reference']
                     if not -len(context['tables']['imports']) <= ref <= len(context['tables']['exports']):
@@ -314,19 +323,23 @@ class StyleGraph:
                         record['value_encoding'] = 'FName'
                     else:
                         raise FormatError('unsupported UI ByteProperty size')
+                elif prop['type'] == 'FloatProperty':
+                    bits = raw.read(4); value = struct.unpack('>f',bits)[0]
+                    record.update(value_bits=bits.hex(), value_encoding='f32-be')
+                    if math.isfinite(value): record['value'] = value
+                    else: record['non_finite'] = True
                 elif prop['type'] == 'BoolProperty':
-                    record['value'] = prop['bool']
+                    record.update(value=prop['bool'], value_storage='tag-header',
+                                  logical_payload_offset=base+prop['value_offset'],
+                                  logical_package_offset=base+prop['bool_value_offset'])
                 else:
                     flat.append(record)
                     continue
                 if prop['type'] != 'StructProperty' and raw.pos != len(raw.data):
                     raise FormatError('UI scalar property size mismatch')
                 flat.append(record)
-        walk(props, start, [], 0)
-        result = dict(prefix=prefix, properties=props, flattened=flat, opaque=opaque,
-                      tagged_end=r.pos, native_tail_size=size - r.pos)
-        self._parsed[node] = result
-        return result
+        walk(props, base_offset, [], 0)
+        return flat, opaque
 
     def fields(self, node, path):
         return [p for p in self.parse(node)['flattened']

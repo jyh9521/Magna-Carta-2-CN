@@ -2,6 +2,8 @@
 
 ## 当前主线：真实文本已绑定，字体绑定仍待证明
 
+- **2026-10-19 新增标签默认平面审计：** 两个警告标签自身无 PrimaryStyle，但独立 CDO 链保留 DefaultComboStyle；六状态嵌套 TextStyle 各自的 CDO 引用 EngineFonts.SmallFont，两份命名空间候选完整语义指纹相等。新增12条默认平面观察与原12条 General_15 组件路径分开，未合并默认值、未证明 native alternate-owner 分支或运行字体。16项自制测试加入，默认573项通过；见 OWNER_PRIMARY_STYLE.md。
+
 - **最新执行约定：游戏测试全部由用户进行。** 后续自主推进限离线分析、工具、合成测试及候选准备；不自行启动 Xenia、发送输入或部署游戏资源。历史运行记录不构成继续游戏测试的授权。
 - **2026-10-19 持续推进：** 继承原型链与 CDO 平面已分开审计，不把缺失字段当成 false；Core.Default__Component 尾部仍明示未解析。ForcedExport/namespace/GUID 与完整 glyph/remap/六张图集的标准化指纹证明三份 General_15 候选数据等价，但不选择运行时胜出者，见 FONT_BINDING_AUDIT.md。
 - **范围扩展到双盘全包：** D1 1912、D2 2233 个 .xxx 共 4145 包逐件 SHA256 和完整包表验证，零包头/字体身份错误；每盘恰三处 General_15 命名空间候选，三文件跨盘 hash 相同。这是类表调查，不是所有 Font payload 或游戏显示验收。

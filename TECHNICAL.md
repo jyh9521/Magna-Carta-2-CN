@@ -1,5 +1,7 @@
 # 当前技术结论（2026-10-18）
 
+- **Verified（2026-10-19，离线序列化证据）**：警告标签 PrimaryStyle 的 CDO 平面经 DefaultComboStyle 六状态/嵌套文本默认对象保留 EngineFonts.SmallFont；Engine/Startup 两份候选完整指纹相等。它与已有 General_15 组件链并列，不合并字段、不选择有效字体，也未证明 native owner 指针对应。见 docs/OWNER_PRIMARY_STYLE.md。
+
 - **Verified / High-confidence deduction（2026-10-19）**：18个native静态描述符与Engine声明一致；SetFont/DisableCustomFont配对指令的0xe4 word及20000000 mask和0xd8写入已核实，DrawFont/覆盖位语义为高置信推断；构造/运行字体仍未证明。见 docs/NATIVE_BINDINGS.md。
 
 - **Verified（2026-10-19）**：双盘XEX由两个AES backend分别还原同一20119552字节PPCBE虚拟映像，各自物理逆向副本完整匹配原XEX。代码页/PE注释已区分，认证和实际native字体路径未证明；见 docs/NATIVE_IMAGE.md。

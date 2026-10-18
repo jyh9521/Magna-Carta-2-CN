@@ -1,5 +1,15 @@
 # Pitfalls
 
+## 2026-10-19: component StringStyle does not exhaust label style candidates
+
+The two warning labels omit their own PrimaryStyle, while the independent CDO
+plane contains a DefaultComboStyle tag. Six nested text objects omit StyleFont;
+their separate class-default plane observes EngineFonts.SmallFont. Retaining
+those observations must not merge defaults or identify the native alternate
+owner pointer by assumption. The original twelve General_15 component paths
+remain unchanged; neither route proves effective font selection. See
+OWNER_PRIMARY_STYLE.md.
+
 ## 2026-10-19: physical Font copies need not have different runtime identities
 
 **Verified:** standalone font.xxx and forced-export Font roots in MC2Game/Startup

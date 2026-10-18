@@ -56,7 +56,7 @@ def main(argv=None):
     p.add_argument('--deep', action='store_true', help='Trace component/nested serialized style candidates without executing game')
     p.add_argument('--text-token', help='Match nested StrProperty values (deep mode only)')
     p.add_argument('--reference-package', nargs=3, action='append', default=[], metavar=('LABEL', 'PATH', 'SHA256'))
-    p.add_argument('--audit-bindings', action='store_true', help='Audit renderer prototypes and all supplied Font namespace candidates (requires --deep)')
+    p.add_argument('--audit-bindings', action='store_true', help='Audit renderer/label prototypes, PrimaryStyle selectors and supplied Font namespace candidates (requires --deep)')
     p.add_argument('--audit-struct-defaults',action='store_true',help='Bind renderer StructProperty declarations/defaults (requires --deep --audit-bindings)')
     a = p.parse_args(argv)
     try:
@@ -88,10 +88,18 @@ def main(argv=None):
             if a.audit_bindings:
                 try:
                     from .font_binding_audit import audit_font_candidates
+                    from .owner_style_audit import audit_owner_primary_style
                 except ImportError:
                     from font_binding_audit import audit_font_candidates
+                    from owner_style_audit import audit_owner_primary_style
                 fonts = set()
                 for match in result['text_matches']:
+                    owner = match['owner']
+                    owner_audit = audit_owner_primary_style(graph, (owner['package'], owner['object_index']))
+                    match['owner_primary_style_audit'] = owner_audit
+                    for observation in owner_audit['selector_observations']:
+                        for candidate in observation['candidate_paths']:
+                            f = candidate['font']; fonts.add((f['package'], f['object_index']))
                     if 'renderer' in match:
                         r = match['renderer']
                         match['renderer_prototype_audit'] = graph.archetype_audit((r['package'],r['object_index']))

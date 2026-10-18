@@ -712,3 +712,9 @@ references/probes/ui-object-initialization.json 进一步启用metadata size/cal
 ## 启动警告的源值锁定prefix探针
 
 当前双盘candidate计划改用 locales/zh-Hans/text-probe-login.json，将原有两字技术marker用于真正关联两处警告MarkupString的LogIn_NewGame记录；不再把旧Kick候选当警告候选。新增通用sha256-utf8-prefix模式保留源suffix和控制码，不在locale数据中复制完整原文。构建/独立复核命令、精确作用域与未实测边界见 docs/LOGIN_PROBE.md；旧text-probe.json保留为历史独立诊断。
+# Offline Font serialization inspection
+
+`tools/inspect_font_serialization.py` consumes a hash-locked reconstructed image
+and `references/probes/font-serialization.json`; see docs/FONT_SERIALIZATION.md
+for exact invocation and evidence boundaries. Reports must be new. Default
+self-authored tests need no game files, decoder, Capstone or target execution.

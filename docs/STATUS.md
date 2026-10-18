@@ -2,6 +2,8 @@
 
 ## 当前主线：真实文本已绑定，字体绑定仍待证明
 
+- **2026-10-19 Font序列化链：** UFont/UMultiFont操作数注册链、独立callback/table窗口及slot34的六个完整函数模板通过；17/20字节glyph、4/8字节map与6C先于68的传输顺序已静态核实。UFont前方非NUL指针数据导致旧扫描漏检，新增精确操作数锚而不放宽旧profile。外部archive/helper语义、寄存器保持与实际字体仍未证明；见 FONT_SERIALIZATION.md。
+
 - **2026-10-19 Font声明补齐：** Array/Map声明通用读取与独立Class/property审计已加入，五个Font属性解析通过、FontCharacter五成员及Texture2D inner已绑定；CharRemap null/null仍显式opaque。Next到同owner ScriptStruct边界单列，不假装UClass.Children或native布局已还原。新增15项回归，默认658项通过；见 FONT_DECLARATIONS.md。
 
 - **2026-10-19 字符度量分支：** TextSize绑定已连至47-word helper和122-word无call窗口，核实mode-word+68的direct-index/键值链分支及7F替代路径；native glyph stride20与磁盘17字节分开。新增15项静态回归，未将磁盘IsRemapped直接当native状态或升级实际覆盖证明。下一离线处理Font Array/Map声明与序列化桥；见 TEXT_MEASUREMENT_PATH.md。

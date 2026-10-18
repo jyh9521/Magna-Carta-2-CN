@@ -25,6 +25,18 @@ def registration_words(s,name,callback,size,c):
             d(15,5,0,ch),d(14,11,10,sl),d(14,10,6,nl),d(14,9,5,cl),mr(8,7),d(14,6,11,2),d(14,5,0,0),d(14,4,0,size),branch(s+60,c['registration_helper'],True)]
 
 
+def font_initializer_words(family,table):
+    """Separate Font/MultiFont callbacks; do not relax the old style profile."""
+    high,low=halves(table)
+    head=[d(10,24,3,0),0x4d9a0020,d(15,10,0,high),d(14,11,0,0)]
+    stores=[d(36,11,3,offset) for offset in (0x54,0x58,0x5c,0x60)]
+    if family=='Font':
+        return head+[d(14,9,10,low),d(14,8,0,8),d(36,9,3,0)]+stores+[d(36,8,3,0x64),0x4e800020]
+    if family=='MultiFont':
+        return head+[d(14,9,0,8),d(14,8,10,low)]+stores+[d(36,9,3,0x64),d(36,8,3,0),0x4e800020]
+    raise FormatError('unsupported font initializer family')
+
+
 def initializer_words(family,table,c):
     th,tl=halves(table);bh,bl=halves(c['base_secondary_table']);sh,sl=halves(c['secondary_table'])
     head=[d(10,24,3,0),0x4d9a0020]

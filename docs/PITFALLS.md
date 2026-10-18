@@ -796,3 +796,11 @@ its full text. Do not count Unicode codepoints as UTF-16 units for astral text,
 split recognized control tokens, or audit only inserted glyphs while ignoring
 the retained body. Current Login prefix packets audit all39 literal codepoints;
 old successful Kick manifests still fail against the newer trusted plans.
+# Operand-anchored Font literals (2026-10-19)
+
+A preceding-NUL UTF16 scan missed UFont at821AE46C because pointer data ends
+immediately before the literal. An exact registration operand plus terminated
+readonly literal is a stronger local anchor. Use the separate Font profile;
+do not relax old style-profile boundaries or drop full native U prefixes.
+See FONT_SERIALIZATION.md. The six static serialization templates do not
+establish archive virtual-call semantics or authorize runtime-font claims.

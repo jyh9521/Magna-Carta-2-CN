@@ -985,3 +985,12 @@ with a separately typed UTF-16-unit length guard. Protected-token splits and
 content/order changes fail. Resolved output retains the exact suffix; reports
 record selector/unit counts/suffix hash, not original text. Literal/full-value
 hash modes are unchanged for valid inputs. See LOGIN_PROBE.md.
+# Selected Font serialization/native distinction (2026-10-19)
+
+See FONT_SERIALIZATION.md for hash/structural guarded registration and six
+selected PPC functions. Glyph element transfers4+4+4+4+1 bytes from offsets
+0/4/8/C/10 while native array arithmetic uses20-byte stride. Map elements
+transfer2+2 bytes from offsets4/6 while native arithmetic uses8-byte stride;
+next-link at0 is not in the element transfer sequence. Word+6C precedes map,
+word+68 follows it. Kerning/IsRemapped identity is high-confidence deduction,
+not a verified archive-call/runtime bridge; container type refs remain opaque.

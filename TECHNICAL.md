@@ -918,3 +918,10 @@ See docs/OBJECT_INITIALIZATION.md for the checked metadata size/callback chain, 
 ## Warning probe scope correction (2026-10-19)
 
 See docs/LOGIN_PROBE.md: the previous valid Kick diagnostic was unrelated to the investigated LogIn_NewGame labels. Active disc candidate plans now use a selector/source-hash guarded prefix edit on the warning record, preserve its exact suffix/tokens and revalidate all39 literals against all three Font aliases. This corrects experiment scope without changing native/font conclusions or running a game. Native property/default core0x823b0f98 remains a retained offline lead.
+# Font serialization research
+
+See docs/FONT_SERIALIZATION.md: explicit UFont/UMultiFont registration operands
+and callbacks link bounded slot34 windows to six complete static templates.
+Native glyph/map strides20/8 differ from transferred disk widths17/4. Native
+6C/68 order is observed; property identity and archive/helper return contracts
+remain separate confidence levels. Existing parser/coverage rules are unchanged.

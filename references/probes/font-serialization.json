@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "profile": "ppc-font-serialization-v1",
+  "image_sha256": "d18d49fb2960426715ba17d61d069cce42b1eadac153af13c9395cd42b1773e9",
+  "image_base": 2181038080,
+  "code_ranges": [
+    [
+      2183987200,
+      2196373504
+    ]
+  ],
+  "readonly_range": [
+    2181039104,
+    2183589984
+  ],
+  "calls": {
+    "font": 2187446448,
+    "multifont": 2187446880,
+    "glyph_array": 2187447544,
+    "map_array": 2187448096,
+    "glyph_record": 2187448512,
+    "map_record": 2187448400,
+    "save29": 2189882396,
+    "restore29": 2189882476,
+    "parent": 2184889848,
+    "texture_array": 2187351672,
+    "rehash": 2187447872,
+    "free": 2183987704,
+    "float_array": 2184013416,
+    "save27": 2189882388,
+    "restore27": 2189882468,
+    "resize": 2183988136,
+    "append": 2183987952
+  },
+  "registration": {
+    "common_name_address": 2181734700,
+    "shared_callback": 2184385808,
+    "registration_helper": 2184864080
+  },
+  "windows": {
+    "font": {
+      "sha256": "cb2b05b362ea656319f8aa95098e9cd6c43d4191ffd889163ecbc8b64aef13db",
+      "prologue_words": 3
+    },
+    "multifont": {
+      "sha256": "ccb9f87ddafe3899a439232bae6d16ab4b6da61462fcdb1d6d9d77f92450f4d6",
+      "prologue_words": 5
+    },
+    "glyph_array": {
+      "sha256": "14aac39293527aa1a566fe1ef216169addd44281cedb2e837dc27b8425a9eda6",
+      "prologue_words": 3
+    },
+    "map_array": {
+      "sha256": "b980ac4300208f1f25f1bcb9c361aa5450e2c1363af8806aa2dab4f5b401b659",
+      "prologue_words": 3
+    },
+    "glyph_record": {
+      "sha256": "591bbda2d726f61e0b7a9994fa61469819727c3a743c34489daaf32606873b8c",
+      "prologue_words": 5
+    },
+    "map_record": {
+      "sha256": "e38a0eb40026e224d9bab98af4859089ec84acf01060df6df086c13df70d80ef",
+      "prologue_words": 5
+    }
+  },
+  "classes": [
+    {
+      "name": "UFont",
+      "name_address": 2182800492,
+      "registration_start": 2184078424,
+      "callback": 2187449528,
+      "table": 2182800528,
+      "registration_sha256": "e7592958a8ff74bfbd95dad9372e578bbb1c3d6fbf9a222bcdb74635e18bc4be",
+      "callback_sha256": "0db6b6f52b28757c7be1d5ce09bd3f5181ccee3c4114966af88563006521bedd",
+      "table_sha256": "a6a3d56e1b2db5021ca6bfc40d820809c30ecf64639898ee2b477d051697de22"
+    },
+    {
+      "name": "UMultiFont",
+      "name_address": 2182800504,
+      "registration_start": 2185403752,
+      "callback": 2187449256,
+      "table": 2182800808,
+      "registration_sha256": "aa55e9948a48bef545f67751b10036483e368c20f8549895bbe042bfbe80ed8f",
+      "callback_sha256": "6720466c9a3956ba6bb49d4e15b0b56650a4fe13075daaa97af0defba8016e32",
+      "table_sha256": "e9e2b6986a76407ad0e2d01e532046ca8fb11bad54d0ec30f991261c04c9fa27"
+    }
+  ]
+}

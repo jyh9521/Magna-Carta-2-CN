@@ -581,3 +581,11 @@ class inventory described in FONT_REFERENCES.md. NtCreateFile debug requests
 identify candidates, not successful loads or actual draw selection. A raw
 MC2Game control reached title/movie only; its warning compatibility is pending,
 so the MC2Game geometry candidate was not deployed in that trial.
+
+### Core.Component is not the root of the class hierarchy
+
+A class walker may stop at Component when Core is absent, but must continue to
+Object when Core is supplied. Otherwise the real Component CDO's Object
+archetype fails a false class-compatibility check. Keep optional boundaries
+explicit; reject malformed supplied definitions. Closing the CDO chain still
+does not establish native initialization or the font selected during drawing.

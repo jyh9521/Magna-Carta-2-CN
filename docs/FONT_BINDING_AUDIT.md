@@ -20,13 +20,14 @@ visible geometry change, recovery and Chinese display remain user-run gates.
 | Plane | Exact serialized chain |
 |---|---|
 | Warning renderer prototypes | TitleMap exports2191/2204 -> MC2Game export32829 Default__MC2UILabel.LabelStringRenderer -> Engine export21510 Default__UILabel.LabelStringRenderer -> null archetype |
-| Class-default candidates | Engine export15602 Default__UIComp_DrawString -> export15479 Default__UIComp_DrawComponents -> export6065 Default__UIComponent -> unavailable import Core.Default__Component |
+| Class-default candidates | Engine export15602 Default__UIComp_DrawString -> export15479 Default__UIComp_DrawComponents -> export6065 Default__UIComponent -> Core export4 Default__Component -> Core export2 Default__Object -> null archetype |
 
 Class defaults are located using the defining Class index and HO flag0x200,
 not a `Default__` name guess. The defining package must have exactly one CDO
 candidate to avoid ambiguity; all candidates and errors are retained otherwise.
 Prototype class compatibility, cycles and bounds are checked. Null archetype or
-missing fields **do not mean zero/false values**. The Core tail is unresolved.
+missing fields **do not mean zero/false values**. The Core CDO tail is now
+resolved from the original hash-locked Core.xxx, not inferred.
 The only explicit warning customization observed is alignment; no serialized
 DrawFont override appears in these inspected prototype/CDO nodes. Native default
 initialization and effective inherited overrides remain unverified.
@@ -152,3 +153,43 @@ and inverse construction, both version plans, output readback failures, and
 hash-locked XDVDFS/header-only inventories. Modified 319 tests passed (one skip),
 and all 319 passed with the explicitly selected native decoder. None run game
 code. Source rollback is checked separately against the 293-test baseline.
+
+## Core ancestry closure and nested scalar follow-up
+
+Core.xxx is a 32768-byte original package, SHA256
+`1f79abbc4c0992e4c2eef33e755af6a9993dc980cdf053677e9b138f0cecb815`.
+Supply it alongside the earlier five packages:
+
+```powershell
+# Add to the --deep --audit-bindings command; choose a new output file each run.
+--reference-package Core build/poc-game/disc1/MC2Game/CookedXenon/Core.xxx 1f79abbc4c0992e4c2eef33e755af6a9993dc980cdf053677e9b138f0cecb815
+```
+
+The reader previously stopped class ancestry at Core.Component, a useful
+unsupplied-Core boundary. This incorrectly rejected Component's legitimate
+Object CDO archetype when Core was supplied. With Core present it now follows
+the real super link to Core.Object; missing/cyclic/non-Class definitions fail
+rather than silently using the old boundary. Without Core, existing behavior
+is retained. Both warning renderer CDO audits terminate at null archetype with
+no unresolved audit entries. Their explicit renderer prototype chains remain
+separate and unchanged. This closes the serialized CDO tail, not native defaults
+or effective/runtime values.
+
+Nested IntProperty values now retain signed i32 values. ByteProperty values are
+reported as either exact u8 or checked eight-byte FName, with value_encoding;
+other lengths fail rather than guessing. Static array indices stay explicit.
+Both warning TextStyleCustomization.TextAlignment[0] and [1] serialize u8 **1**;
+bOverrideAlignment is **1**. Enum meaning is not inferred from this number.
+No serialized DrawFont override appears along either complete inspected chain.
+
+The final graph still has 1209 parsed UI exports (480 at offset4; 729 at8),
+two matches and twelve state paths. Seven non-UI classification errors
+(Level/Model/Polys/ShaderCache/World imports missing from supplied Engine)
+remain reported, not counted as successfully classified objects. All three
+Font candidates retain their original full semantic fingerprint.
+
+Eight new synthetic regression tests cover Core closure/compatibility, optional
+boundary preservation, broken/cyclic/non-Class Core, exact signed/byte/named-enum
+values and sizes, and FName bounds. Baseline319 -> modified327 -> independent
+source rollback319; native-enabled327. Evidence remains local under
+build/core-style-verification/, including binding-audit-core-final.json.

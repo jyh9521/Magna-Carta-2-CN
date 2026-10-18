@@ -211,7 +211,12 @@ class StyleGraph:
             seen.add((package, ref))
             path = self.symbolic_reference(package, ref)
             chain.append(path)
-            if path in ('core.component', 'core.object'):
+            if path == 'core.object':
+                break
+            # Component is a useful boundary when Core was not supplied, not
+            # the actual root class. With Core present, retain its Object
+            # ancestry so a Component CDO's Object prototype is not rejected.
+            if path == 'core.component' and 'core' not in self.packages:
                 break
             definition = self.reference(package, ref)
             if definition is None:
@@ -298,6 +303,17 @@ class StyleGraph:
                     record['value'] = raw.string()
                 elif prop['type'] == 'NameProperty':
                     record['value'] = read_name(raw, context['tables']['names'])
+                elif prop['type'] == 'IntProperty':
+                    record['value'] = raw.i32()
+                elif prop['type'] == 'ByteProperty':
+                    if len(raw.data) == 1:
+                        record['value'] = raw.read(1)[0]
+                        record['value_encoding'] = 'u8'
+                    elif len(raw.data) == 8:
+                        record['value'] = read_name(raw, context['tables']['names'])
+                        record['value_encoding'] = 'FName'
+                    else:
+                        raise FormatError('unsupported UI ByteProperty size')
                 elif prop['type'] == 'BoolProperty':
                     record['value'] = prop['bool']
                 else:

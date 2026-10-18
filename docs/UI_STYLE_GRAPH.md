@@ -180,3 +180,9 @@ bounded recursion, malformed IDs/maps, duplicate/indexed fields, font-reference
 patch/inverse and CLI guards. Modified 293 tests passed (one optional skip),
 and all 293 passed with the explicitly selected native decoder. None execute
 game code. Independent source rollback restores the prior 268-test behavior.
+
+Core CDO follow-up: supply the hash-locked Core package to continue Component
+ancestry to Object; both warning renderer CDO tails now terminate at null.
+Nested IntProperty/ByteProperty values are size-checked and preserved, including
+array indices and u8/FName distinction. See FONT_BINDING_AUDIT.md for exact
+indices, hashes, remaining classification errors and native-default limits.

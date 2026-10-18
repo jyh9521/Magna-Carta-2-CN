@@ -844,3 +844,7 @@ The goal is to preserve enough knowledge that future localization work does not 
 ## 2026-10-18 当前实测索引
 
 XDVDFS / XEX2：见 RESOURCE_SURVEY.md；Coalesced：见 COALESCED_SURVEY.md。二者为本轮真实字节验证，前文模板示例不是本作格式。
+
+## Font / Texture / Stored LZX 新增实测
+
+Font tagged/native双份指标和remap见FONT_RESEARCH.md；Texture2D的MCARTA LZX flag0x40与resident raw0变体、Xbox BC3布局见TEXTURE_RESEARCH.md及FONT_SUPPLEMENT.md；stored LZX帧及第三方decoder验证见LZX_STORED_RESEARCH.md。均为固定源字节/本地工具验证，不代替游戏显示证明。

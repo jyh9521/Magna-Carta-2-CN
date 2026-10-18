@@ -15,6 +15,12 @@ Disc 2 同法指定独立输出及目录；首次解出后再次提取应使用�
 
 原件保持不变；本轮所有派生资源都在被忽略的 build/。没有游戏文件安装或卸载动作，原版启动资源状态未改变。未来中文部署应使用隔离完整游戏副本，并在 Xenia 同场景前/后/回退录证；本轮没有该验收。
 
+## 最小补字原型（独立输出，未获游戏验收）
+
+可选依赖：`python -m pip install -r requirements-font.txt`。Noto 字体固定来源及 hash 在 references/font-sources.lock.json，字体原件只放本地 build/font-source。LZX 的本地构建、固定源码与许可见 docs/LZX_RESEARCH.md。
+
+补字 CLI、hash 参数及两字计划见 docs/FONT_SUPPLEMENT.md；独立字体与 Startup 驻留对象都必须处理。补字输出只存 build，不覆盖原件。TOC 只更新明确验证的文件大小字段，见 docs/TOC_SIZE_REBUILD.md；它不证明所有运行索引均有效。四份候选文件的本地清单为 build/font-supplement/v2/deployment-plan.json，目前未部署中文试验。
+
 ## 双盘差异报告（只读）
 
 在两份完整哈希清单准备后，执行：

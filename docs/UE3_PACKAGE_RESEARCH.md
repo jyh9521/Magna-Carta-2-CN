@@ -60,3 +60,9 @@ python tools/ue3_package.py build/disc1-font-study/MC2Game/CookedXenon/EngineFon
 ## 压缩偏移陷阱（本次实测）
 
 **Verified**：Startup_int 的物理 summary_end 为 325；首块物理 offset 为 325，但逻辑 uncompressed_offset 为 101、uncompressed_size 为 786393、compressed_size 为 62798。压缩块目录是物理 summary 的附加表，不应要求逻辑首块 offset ≥ 物理 summary_end；这种混用两套坐标的检查会错误拒绝本次真实样本。工具分别检查物理 compressed_offset 对 summary 的边界、逻辑表/serial 对逻辑长度的边界。该区别仍不构成已解压成功的证据。
+
+## 后续验证：Startup_int 已解压包表
+
+上述 summary-only 是未配置解码器的早期基线。现在已通过固定 libmspack 可选适配器读取 Startup_int 全部包表，2593 names / 288 imports / 4374 exports；重复解码一致，原 hash 未变，详见 LZX_RESEARCH.md。全部逻辑区另作本地只读解压，41 个 UIStyle_Text 的 StyleFont 直接引用可解析，其中多个指向 Font.General_15；这仍不是 Kick/启动提示的具体运行绑定证明。
+
+Startup 内含 Font.General_15 与 Font.EngineMedium_Subtitle 的本地 export，因此只改外部 font.xxx 不能保证驻留 UI 使用新字体。最小补字构建需分别处理独立包和 Startup 对象；实际加载与中文显示待验收。

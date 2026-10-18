@@ -56,3 +56,15 @@
 - 实现 SHA256/原文/稳定 ID 防护的 Coalesced 副本回写，9 项测试通过，真实等长 ASCII 与中文干运行再提取通过；修改后游戏生效尚待验证。
 - 当前 Canary @50e9c715d 已实际进入原版标题与村庄；原版画面、独立 storage/content/cache 与日志留本地。Esc 仅退出游戏，不暂停开发。
 - D1 独立提取 2016 文件逐一 hash 一致，无 ISO 修改。下一步按 COALESCED_REBUILD.md 验证同场景 ASCII 绑定与回退，再补字验中文；不等待合盘。
+
+## 两字补字原型与保留性检查（2026-10-18）
+
+- 上一批源码40086fb已推送，138项测试及CI通过。
+- 固定可选libmspack native解码器已编译并验hash；Startup从summary-only推进至包表/逻辑区可读。41个直接StyleFont静态引用可解析，未冒充具体提示运行绑定。
+- 35个字体Texture2D对象完成结构调查；10个独立font纹理经过LZX解压与Xbox BC3反平铺，预览可辨识。原版raw resident与独立compressed atlas一致。
+- Noto Sans CJK SC来源/版本/许可证已锁定；两字计划在locales/zh-Hans/font-supplement.json。仅加入“踢、击”，非正式翻译或完整中文字库。
+- General_15保留原2608个字形，追加至2610；tagged/native/remap原记录保留；最大高度23不变；仅72个原空闲BC3块改变，其他像素/块/填充一致。
+- 独立font.xxx及Startup_int.xxx副本已append/repoint构建并完整再解析。Startup保留4372个其他export、13个旧压缩chunk及原尾部；没有修改XEX或ISO。
+- TOC候选只改上述两包首大小字段，保留路径/扇区/其他列/CRLF；字体、Startup、Coalesced和TOC四份中文候选均留本地，尚未部署中文。
+- 基线138项通过，当前215项native-enabled测试通过；默认CI不依赖DLL/原版资源，可选native测试跳过1项。字体副本2608→2610→2608与hash回退通过，不是游戏内回退。
+- ASCII隔离尝试已恢复原容器；没有KCK可见证据，不标为绑定成功。当前游戏内中文仍为待验证；下一步唯一优先：受控同场景确认文本绑定，随后部署中文候选并取得修改/回退画面，不做全量翻译。

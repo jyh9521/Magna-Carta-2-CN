@@ -505,3 +505,11 @@ Negative knowledge should be preserved as carefully as successful implementation
 - 本机控制台默认 cp932，打印中文研究内容发生 UnicodeEncodeError；设置 PYTHONIOENCODING=utf-8，磁盘文件始终 UTF-8。原始读取记录不改成成功。
 
 - 首次 git diff --check 发现 CRLF 与模板硬换行/TSV 空字段。索引通过 .gitattributes 归一 LF，Markdown 仅豁免 blank-at-eol，保留原有硬换行和空列；Python 文件尾多余空行已修复。默认 diff 检查随后重跑。
+
+## 2026-10-18 字体推进中的已验证陷阱
+
+- MCARTA bulk flag0x40对应LZX，不直接套通用UE3标志语义；原版resident Startup同一图集是raw0，独立font是LZX0x40。原始平铺字节hash一致，仍分别保留存储模式。
+- Startup驻留Font.General_15，单改外部font.xxx不是完整补字方案。
+- 24×24 BC3存储格不要求glyph指标高度24；本次保持23，避免改变字体全局最大高度。原字符/填充不得为了补字删除。
+- 标题待机演示可进入村庄，看见HUD或启动进程不是受控游戏输入与资源绑定证明。未见KCK的尝试按未建立结果保留。
+- 物理Esc会中止当前窗口控制工具，但用户明确它只表示退出游戏，不暂停工程；不把工具事件冒充用户暂停项目。

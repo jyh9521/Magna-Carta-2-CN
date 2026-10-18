@@ -466,3 +466,7 @@ A mature localization project should make it clear:
 - what must be generated locally from original game files
 
 If the licensing boundary is not obvious, document it explicitly.
+
+## 2026-10-18 可选字体开发依赖
+
+本地可选 LZX 动态库来自固定 libmspack，LGPL-2.1，未进入 Git；MIT 适配器与独立存储块写入器不改变该库许可。UEViewer tiling 函数的 MIT 完整声明保留于工具。Noto Sans CJK SC 字形源采用 OFL-1.1，许可与版本锁已保存；生成的补字数据不能笼统视为纯 MIT。完整原版字体/图集和补字后的完整游戏包均不公开分发，只在本地从原件构建。

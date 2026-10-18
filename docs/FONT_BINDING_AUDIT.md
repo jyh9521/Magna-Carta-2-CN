@@ -193,3 +193,42 @@ boundary preservation, broken/cyclic/non-Class Core, exact signed/byte/named-enu
 values and sizes, and FName bounds. Baseline319 -> modified327 -> independent
 source rollback319; native-enabled327. Evidence remains local under
 build/core-style-verification/, including binding-audit-core-final.json.
+
+## Two-glyph candidate coverage across all three aliases
+
+The existing locale prototype plan (only U+8E22 and U+51FB, not bulk translation)
+now also rebuilds original MC2Game.xxx with supplement_font.py. The Noto font
+source, glyph placements and source/package hashes remain locked as documented
+in FONT_RESEARCH.md and references/font-sources.lock.json. This candidate uses
+append-only compressed-package storage, not the raw geometry-control packet.
+
+| Candidate | Bytes | SHA256 |
+|---|---:|---|
+| font | 1842707 | 91dd68f7a2048d7f3a71b3af56f7e6dae326744c6f37e9f136e4528f5fec51be |
+| mc2game | 18254735 | 0614f916c20e1166fb21517037cfa431cf6a570fedb0eb4a825412def151cc23 |
+| startup_int | 2993190 | a95821ee7a5cf41d92f4cc92d436dc1cf1bd104106a014ba42c7894358067d75 |
+
+All three independently decoded candidates have 2610 glyphs/remap entries and
+the same full normalized fingerprint:
+`3e720fef59fc0a0e1a545555a517369e1d55c68f32ec019f2c143e45658d87f7`.
+MC2Game preserves 83390 unaffected exports, 52 original compressed chunks and
+3241 trailing bytes. Its original 2608 tagged/native/remap records remain;
+72 previously unused BC3 blocks change, maximum glyph height stays23, and all
+original glyph pixels/other blocks/padding stay identical. Rasterization quality
+and in-game use remain unverified. The original resources were rehashed afterward.
+
+Font-only TOC copies use all three new physical lengths, including MC2Game's
+11632640 -> 18254735. Each disc uses its own hash-locked original TOC, and the
+independent inverse first-size updates reproduce that original byte-for-byte.
+Neither TOC changes Coalesced or any text resource; do not substitute these for
+the earlier text+two-font experiment or combine them with geometry diagnostics.
+
+- D1 font-only TOC SHA256 `575535af22d1f0b44da8e3b9f0331d3302787b4a0b0a4c1af6f6fae448153b00`.
+- D2 font-only TOC SHA256 `598849c89c1dd38f3f5d6fd326f881f8f7f69dafc3a51817b3fe7469db89ba10`.
+
+Local evidence: build/all-alias-supplement-verification/{MC2Game-report.json,
+cross-alias-validation.json}. The existing font/Startup candidates are hash-
+checked against their own reports, not assumed compatible from filenames.
+Only metadata and rebuilding instructions enter Git; no candidate is deployed.
+Next offline work is a reusable multi-alias supplement assembly/validation
+entrypoint with version/identity/semantic guards, not another game launch.

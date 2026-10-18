@@ -65,14 +65,36 @@ def _relative(value):
     return value
 
 
-def _read(root, relative, expected):
+def confined_path(root, relative):
+    """Resolve a relative input path without escaping its explicit root."""
+    root = Path(root).resolve()
     target = (root / _relative(relative)).resolve()
     if not target.is_relative_to(root):
         raise FormatError('resource path escapes selected input root')
+    return target
+
+
+def _read(root, relative, expected):
+    target = confined_path(root,relative)
     data = target.read_bytes()
     if digest(data) != expected:
         raise FormatError('source SHA256 mismatch: '+relative)
     return data, target
+
+
+def parse_json_object(raw):
+    """Reject ambiguous duplicate keys and non-finite constants in metadata."""
+    def unique(pairs):
+        result = {}
+        for key,value in pairs:
+            if key in result: raise FormatError('duplicate JSON key: '+key)
+            result[key] = value
+        return result
+    def invalid_constant(value):
+        raise FormatError('non-finite JSON constant: '+value)
+    value = json.loads(raw.decode('utf-8-sig'),object_pairs_hook=unique,parse_constant=invalid_constant)
+    if not isinstance(value,dict): raise FormatError('JSON payload must be an object')
+    return value
 
 
 def read_locked_json(root, reference):
@@ -81,7 +103,5 @@ def read_locked_json(root, reference):
         raise FormatError('locked JSON reference must be an object')
     _relative(reference.get('path')); _hash(reference.get('sha256'))
     raw, path = _read(Path(root).resolve(),reference['path'],reference['sha256'])
-    value = json.loads(raw.decode('utf-8-sig'))
-    if not isinstance(value, dict):
-        raise FormatError('locked JSON payload must be an object')
+    value = parse_json_object(raw)
     return value, path, raw

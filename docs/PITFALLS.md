@@ -627,3 +627,15 @@ then independently check original/new Font identity/semantics and text coverage.
 Recompute TOC changes from actual lengths, including text when variable-length;
 do not reuse a font-only TOC blindly. Keep original compressed controls distinct
 from raw geometry controls, and never call an incomplete candidate tree a game.
+
+### Python JSON object equality is weaker than a typed metadata contract
+
+False==0 and 1==1.0 make ordinary dict equality accept altered metadata types.
+Independent candidate replay rejects duplicate JSON keys/non-finite constants
+and uses strict canonical JSON,
+while computing every resource/report value from trusted plans and actual bytes.
+A self-consistent forged report hash is still not report truth. Historical
+producer extra-input hashes are only declarations unless separately reopened;
+without a trusted original manifest anchor, do not claim their original byte
+identity. Candidate descendants must remain a closed regular-file set, not
+junction/symlink shortcuts that happen to point at currently matching bytes.

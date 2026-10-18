@@ -43,6 +43,10 @@ Xenia 测试必须基于用户提供的 `xenia/xenia-canary.config.toml`，不�
 
 `tools/build_locale_candidate.py` 按 locales/zh-Hans/candidate-disc1.json / candidate-disc2.json 校验所有依赖真实字节，再一次生成原路径形状的5资源候选、原始对照和备份恢复检查。拒绝原件/字体输入目录内输出，不信任上游manifest成功标志，不启动或部署。命令、依赖、schema、双盘与整树复现证据见 [LOCALE_CANDIDATE](docs/LOCALE_CANDIDATE.md)。它是离线技术候选，不是完整游戏目录、安装包或发布补丁。
 
+## 搬移候选的独立复核（2026-10-19）
+
+`tools/verify_locale_candidate.py` 无需原游戏根目录或原字体bundle，只读候选内的已校验对照/候选/恢复文件及可信repo计划，独立重放Font、文本、TOC并比对metadata；不调用构建器、不信任成功布尔值。要求严格闭合文件集，拒绝多余文件/链接/错盘/伪报告。原manifest可信hash可显式锚定；不传时不会宣称原metadata字节身份已证明。完整命令和真实负对照见 [CANDIDATE_REVALIDATION](docs/CANDIDATE_REVALIDATION.md)。报告必须写在候选树之外，不部署、不启动游戏。
+
 ## 双盘差异报告（只读）
 
 在两份完整哈希清单准备后，执行：

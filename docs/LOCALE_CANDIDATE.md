@@ -158,5 +158,6 @@ variable text sizes, portable repeatability, CLI and both locked disc plans.
 No native decoder, source font/raster dependency or game is needed by default.
 
 A valid candidate assembly is still not a display/binding/whole-game acceptance
-result. The next offline step is independent revalidation of a moved/copied tree
-against its trusted plans; the user's game tests remain untouched.
+result. Independent revalidation of a moved/copied tree against trusted plans
+is now implemented: see CANDIDATE_REVALIDATION.md. The user's game tests remain
+untouched; packaging integrity does not settle UI/native font selection.

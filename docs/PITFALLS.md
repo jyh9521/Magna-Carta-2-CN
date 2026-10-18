@@ -669,3 +669,10 @@ The5 scripted siblings are now fully decoded only with explicit --include-script
 A XEX basic image retains PE raw pointers/size that do not describe its virtual bytes: .text raw0x2c8c00 is not code RVA0x2d0000; .reloc is partly absent. Do not feed those raw offsets into native-address claims. CBC chaining continues across stored basic extents; inserted zero bytes do not enter ciphertext or reset the IV. Exact inverse re-encryption and dual AES agreement do not verify RSA or stored digest semantics: direct plaintext-page SHA1 matched0/307 digest fields, so that hypothesis stays rejected. REA rejected the XEX format and the genuinely reconstructed PE architecture; no provider/architecture spoofing or native session was used.
 
 Wide name searches also need actual NUL boundaries and big-endian alignment. A one-byte-shifted UTF16LE ASCII match is not a second string encoding. The full native-registration leads start with intUUIComp_, not the interior UIComp_ substring; four unique data pointers were found only after using full names. They are not yet verified native entry points. See NATIVE_IMAGE.md.
+
+
+### Static native descriptor reconstruction is not runtime registration or defaults
+
+The intUUIComp_DrawStringexec* cold rows contain zero descriptors until initialization; those zeros are not UI component defaults. Constant values must be traced through reused symbolic stack slots and sign-extended lis/addi address materialization, not the last textual register assignment. Reject unknown reads/calls/interior branches, DS update forms, duplicate/incomplete writes and nonzero adjustors in this profile. The lookup comparator-zero and row+4/stride12 shape is checked separately; its helper is not executed or assumed to compare strings a particular way.
+
+Object-relative font words0xd8/0xe4 and PPC packed bit0x20000000 do not replace logical package tag offsets/BoolProperty0-or-1 headers. Paired setter/disable instruction chains support field-name deductions but do not prove constructor values, caller order, active font, complete struct layout or Chinese pixels. See NATIVE_BINDINGS.md.

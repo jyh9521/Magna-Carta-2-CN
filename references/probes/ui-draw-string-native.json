@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "profile": "ppc-native-row12-cold-init-v1",
+  "image_sha256": "d18d49fb2960426715ba17d61d069cce42b1eadac153af13c9395cd42b1773e9",
+  "image_base": 2181038080,
+  "code_ranges": [
+    [
+      2183987200,
+      2196373504
+    ]
+  ],
+  "string_range": [
+    2181038080,
+    2183987200
+  ],
+  "data_range": [
+    2196373504,
+    2200633344
+  ],
+  "table_address": 2200066344,
+  "table_count": 18,
+  "symbol_prefix": "intUUIComp_DrawStringexec",
+  "engine_class": "UIComp_DrawString",
+  "engine_class_index": 15601,
+  "engine_source_sha256": "f71131de2a39176f48d5bf7ef6ed803513d5b38303f21915029c245442b8fe9a",
+  "native_report_sha256": "c991997d33d16e15137b20bc16f1e55cf9497541466081a88f0653c71ddb4652",
+  "initializer_start": 2196156368,
+  "initializer_end": 2196156832,
+  "initializer_tail": 2189882452,
+  "lookup_start": 2185314696,
+  "lookup_prologue": 2189882392,
+  "lookup_comparator": 2189880000,
+  "lookup_epilogue": 2189882472,
+  "font_fields": {
+    "setter_method": "SetFont",
+    "setter_alias_offset": 40,
+    "setter_window_offset": 136,
+    "disable_method": "DisableCustomFont",
+    "disable_alias_offset": 20,
+    "disable_window_offset": 84,
+    "disable_skip_offset": 120,
+    "conditional_helper": 2188022656
+  },
+  "initializer_sha256": "1396ca6900d2c6fa3d9a4d4db88fe0518fb0cb8bdb726f50e9112ba7a6bba3fb",
+  "lookup_sha256": "22ea0730b85b0b3d55e6aec5f2f76d7b90c0d82450b3cc9f5fa92858684d49da"
+}

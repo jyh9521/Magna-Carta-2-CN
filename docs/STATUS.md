@@ -179,3 +179,12 @@
 - PE32/PPCBE头及代码页范围已核实；PE原始指针/SizeOfImage不用于重映射，RSA和存储页digest语义保持未验证。REA两个目标均被格式/架构边界拒绝，无native session；有限Capstone查看不冒充完整反编译或游戏验证。
 - 已找到4个intUUIComp_DrawStringexec...完整宽字符串及各1个数据指针，仍只是注册线索，不是SetFont等native入口地址。下一步追踪数据表/初始化及执行函数边界、字体覆盖/测量逻辑。
 - 新增22项纯合成结构/CLI/cipher-contract与Git签名检测回归，基线438、修改460、native460、独立源码回退438。核心CI无需加密依赖；真实AES双实现证据另列。所有原包/配置hash保持，无启动、部署或批量剧情翻译。见 docs/NATIVE_IMAGE.md。
+
+
+## 原生方法静态关联与字体word指令链（2026-10-19）
+
+- 新增ppc_native_bindings/inspect_native_bindings和hash锁定profile；18个完整intU...名称、typed Engine声明、cold row12表及sentinel全部对应。116条直线初始化指令按常量/符号栈字节恢复18描述符及零sentinel；不执行指令或改写映像。
+- 32-word查找模板核实stride12、比较helper返回0时取row+4；比较/保存恢复helper语义及初始化实际到达仍未验证。双盘映像报告逐字节一致。SetFont静态code word=823fdb68，DisableCustomFont=823fdf28，GetAppliedStringStyle=826a8ff8，GetFinalStringStyle=823fe0d8。
+- 配对指令链核实word+0xe4的设置mask20000000及清除keep-maskdfffffff、setter从stack+0x50写word+0xd8、addend0xc4。按作用域SetFont.NewFont参数与配对方法高置信推断为DrawFont/覆盖位；不是完整native struct、参数producer、构造值或活动Font证明。
+- Engine包本工具不重读，使用已重新生成并逐字节复核的精确native-report hash锚定；不把success bool当证据。新20项纯合成回归，基线460、修改480、native480、独立源码回退460；涵盖逐字节模板/字段变异、1024 mask、符号栈/型别/边界/复读。
+- 后续继续原生构造/默认值、getter和条件helper的字体选择/测量路径；原游戏/配置不变、无启动部署、不批量剧情翻译。见 docs/NATIVE_BINDINGS.md。

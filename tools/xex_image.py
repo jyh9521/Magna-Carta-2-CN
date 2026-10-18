@@ -19,6 +19,22 @@ class FormatError(ValueError):pass
 def digest(data):return hashlib.sha256(data).hexdigest()
 
 
+class VirtualImage:
+    """Bounded reads of already reconstructed virtual bytes; never load/execute."""
+    def __init__(self,data,base):
+        if type(base) is not int or not 0<=base<=0xffffffff or len(data)>MAX_IMAGE or base+len(data)>0x100000000:
+            raise FormatError('invalid virtual image base/size')
+        self.data,self.base=data,base
+    def read(self,address,size):
+        if type(address) is not int or type(size) is not int:
+            raise FormatError('virtual image address/size must be integers')
+        offset=address-self.base
+        if offset<0 or size<0 or offset+size>len(self.data):
+            raise FormatError('virtual image read outside bounds')
+        return self.data[offset:offset+size]
+    def word(self,address):return struct.unpack('>I',self.read(address,4))[0]
+
+
 def parse_xex(data,expected_sha256):
     if len(data)>MAX_IMAGE or digest(data)!=expected_sha256.lower():raise FormatError('XEX source size/hash mismatch')
     def span(offset,size):

@@ -50,3 +50,6 @@ Additional scripted-UI token format research from the same Eliot van Uytfanghe /
 
 
 XEX image format research/public platform key constant: Ben Vanik and Xenia contributors, xenia-project/xenia, BSD-3-Clause, commit95a5c3ee250f80c3b9d139658649d9ffb6db3eec; xex2_info.h and xex_module.cc. Exact source identities are locked in references/xex-image-research.lock.json and upstream license retained in licenses/Xenia-BSD-3-Clause.txt. Independent Python implementation, no emulator/runtime/SDK integrated. Optional PyCryptodome/cryptography backends are external dependencies, not vendored binaries.
+
+
+PPC native-binding analysis is independently implemented from bounded instruction/profile observations and versioned IBM AIX instruction documentation (URLs in references/native-binding-research.json). No IBM instruction prose, Capstone implementation or emulator runtime is integrated; Capstone5.0.8 was an independent local research cross-check only.

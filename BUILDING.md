@@ -685,3 +685,8 @@ MC2Game.xxx copy and its still-pending raw-package interactive control.
 ## XEX原生映像只读还原（2026-10-19）
 
 `tools/extract_xex_image.py` 支持hash锁定XEX2 none/basic profile，输出新分析映像/报告及可选原始容器逆向副本；不启动游戏、不补签、不写回原件。显式加密backend的可选版本在requirements-crypto.txt，默认测试仍仅标准库。双盘/双AES实现还原共同映像、原始XEX全字节恢复、PE虚拟布局及认证未验证边界见 docs/NATIVE_IMAGE.md。所有产物只放build/，不进入Git。
+
+
+## 原生方法静态绑定与字段指令链（2026-10-19）
+
+`tools/inspect_native_bindings.py` 用确切image/plan/native-report hash验证名称表、cold descriptor初始化及查找形状，不执行PPC代码。新VirtualImage只提供有界虚拟字节读取，不按PE raw pointer重映射。18项绑定、字体word/mask指令链、元数据依赖复现命令与运行未验证边界见 docs/NATIVE_BINDINGS.md；工具和20项合成回归仅标准库。

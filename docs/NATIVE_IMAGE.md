@@ -142,3 +142,8 @@ Xenia contributors, BSD-3-Clause, fixed commit
 Exact URLs/hashes are locked in references/xex-image-research.lock.json;
 license text is retained at licenses/Xenia-BSD-3-Clause.txt. The Python format
 implementation is independent; no emulator, SDK or runtime was integrated.
+
+
+## Subsequent static binding follow-up
+
+NATIVE_BINDINGS.md now records a bounded table/initializer/lookup proof for all18 native declarations and paired font-word instruction chains. The older four-name leads above have advanced to static entry associations, not observed runtime registration, constructor values or active font selection.

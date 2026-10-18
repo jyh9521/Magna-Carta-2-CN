@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "implementation": "independent bounded PPC word/template and abstract-constant analysis; no imported emulator/disassembler runtime",
+  "instruction_references": [
+    {
+      "author": "IBM",
+      "document": "AIX 7.2 rlwinm/rlinm",
+      "url": "https://www.ibm.com/docs/en/aix/7.2.0?topic=is-rlwinm-rlinm-rotate-left-word-immediate-then-mask-instruction"
+    },
+    {
+      "author": "IBM",
+      "document": "AIX 7.2 ld",
+      "url": "https://www.ibm.com/docs/en/aix/7.2.0?topic=set-ld-load-doubleword-instruction"
+    },
+    {
+      "author": "IBM",
+      "document": "AIX 7.1 std",
+      "url": "https://www.ibm.com/docs/en/aix/7.1.0?topic=set-std-store-double-word-instruction"
+    },
+    {
+      "author": "IBM",
+      "document": "AIX 7.1 oris/oriu",
+      "url": "https://www.ibm.com/docs/en/aix/7.1.0?topic=set-oris-oriu-immediate-shifted-instruction"
+    }
+  ],
+  "reference_scope": "versioned vendor documentation; URLs retained, no claim of immutable vendor HTML identity",
+  "independent_local_crosscheck": "Capstone 5.0.8 research only, not required by tools or core CI",
+  "image_reconstruction_provenance": "references/xex-image-research.lock.json"
+}

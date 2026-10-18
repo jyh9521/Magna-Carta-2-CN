@@ -910,3 +910,8 @@ SCRIPTED_UI_LAYOUT.md records the bounded grammar and exact5-body/736-byte/242-t
 ## XEX2 none/basic offline image profile
 
 NATIVE_IMAGE.md records the hash-locked dual-disc originals, exact basic stored/zero extents and common virtual-image identity. XEX/security fields are big-endian, reconstructed PE metadata little-endian and native code/data words big-endian. CBC spans the concatenated stored data; zero extents are inserted afterward. PE raw pointers/declared image size are annotations, not remapping instructions. Stored page extents are checked; RSA/page-digest authentication remains unverified.
+
+
+## Hash-locked PPC native row12 cold-initializer profile
+
+NATIVE_BINDINGS.md records18 rows (name pointer +8-byte descriptor), zero sentinel, typed Engine metadata identity, bounded constant/symbolic-stack def-use recovery and exact lookup structure. Descriptor code words and zero adjustment words are recovered without modifying image bytes. Native object-relative0xd8/0xe4 word operations and packed mask0x20000000 are distinct from serialized tagged properties; semantic field labels are high-confidence deductions, not complete struct/runtime layout proof.

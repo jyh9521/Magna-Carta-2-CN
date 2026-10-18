@@ -188,3 +188,12 @@
 - 配对指令链核实word+0xe4的设置mask20000000及清除keep-maskdfffffff、setter从stack+0x50写word+0xd8、addend0xc4。按作用域SetFont.NewFont参数与配对方法高置信推断为DrawFont/覆盖位；不是完整native struct、参数producer、构造值或活动Font证明。
 - Engine包本工具不重读，使用已重新生成并逐字节复核的精确native-report hash锚定；不把success bool当证据。新20项纯合成回归，基线460、修改480、native480、独立源码回退460；涵盖逐字节模板/字段变异、1024 mask、符号栈/型别/边界/复读。
 - 后续继续原生构造/默认值、getter和条件helper的字体选择/测量路径；原游戏/配置不变、无启动部署、不批量剧情翻译。见 docs/NATIVE_BINDINGS.md。
+
+
+## Getter双条件覆盖与声明函数范围（2026-10-19）
+
+- 原native plan保持不变，新增显式style_selection计划；四个窗口共96条指令逐字结构核验，双盘报告全字节一致。GetFinal wrapper直调0x826a90c0；该helper和GetApplied尾链均读virtual slot+0x128，具体vtable目标和producer/copy语义仍未证明。
+- overlay0x826a92c0核实flag+0xe4的20000000位和pointer+0xd8都非零才写output+0x20；任一为零均绕过，其他store与+0x20不重叠。bit置1本身不代表字体已被替换。字段名称仍为配对作用域方法支持的高置信推断，不把对象相对位置当序列化offset。
+- 新增通用CE/PPC .pdata读取器；44484条记录全检边界/长度/排序/不重叠，保留全部四种flag组合。18个native入口均有确切声明记录；initializer选段恰好从prologue-end至declared-end；overlay leaf无覆盖条目，不按下一个start推算边界。
+- 既有struct读取器另解析UICombinedStyleData5390及9声明，DrawFont5387指向Engine.Font且持久默认null；不因此推算native layout/当前输出。新15项纯合成回归，基线480、修改495、native495、隔离源码回退480，默认CI不需要游戏/crypto/Capstone。
+- 原件、配置和部署状态保持；无启动或游戏函数执行，不批量剧情翻译。后续沿base-style producer、virtual目标、条件refresh和原生构造/测量继续离线调查。游戏验收全部由用户进行，见 docs/NATIVE_STYLE_SELECTION.md。

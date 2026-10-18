@@ -690,3 +690,5 @@ MC2Game.xxx copy and its still-pending raw-package interactive control.
 ## 原生方法静态绑定与字段指令链（2026-10-19）
 
 `tools/inspect_native_bindings.py` 用确切image/plan/native-report hash验证名称表、cold descriptor初始化及查找形状，不执行PPC代码。新VirtualImage只提供有界虚拟字节读取，不按PE raw pointer重映射。18项绑定、字体word/mask指令链、元数据依赖复现命令与运行未验证边界见 docs/NATIVE_BINDINGS.md；工具和20项合成回归仅标准库。
+
+显式换用 references/probes/ui-draw-string-style-selection.json 可增加getter/双条件font overlay与CE/PPC .pdata声明范围验证；原plan输出保持兼容。完整hash/命令、两次bypass与leaf无.pdata条目的区别见 docs/NATIVE_STYLE_SELECTION.md。仍只读文件，不调用游戏函数。

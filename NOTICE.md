@@ -53,3 +53,9 @@ XEX image format research/public platform key constant: Ben Vanik and Xenia cont
 
 
 PPC native-binding analysis is independently implemented from bounded instruction/profile observations and versioned IBM AIX instruction documentation (URLs in references/native-binding-research.json). No IBM instruction prose, Capstone implementation or emulator runtime is integrated; Capstone5.0.8 was an independent local research cross-check only.
+
+CE/PPC .pdata format research: hedge-dev and contributors / XenonRecomp,
+MIT, commitddd128bcca99fe8bfbb99bea583c972351fa6ace, XenonUtils/xbox.h and
+XenonRecomp/recompiler.cpp. Exact URLs/hashes are in references/pdata-research.lock.json;
+upstream license retained in licenses/XenonRecomp-MIT.md. Independent Python
+format reader only; no upstream runtime/SDK or game asset is integrated.

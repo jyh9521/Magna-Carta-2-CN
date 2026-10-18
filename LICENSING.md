@@ -475,3 +475,9 @@ If the licensing boundary is not obvious, document it explicitly.
 ## Native-image research follow-up
 
 The public XEX platform constant/format research preserves Xenia BSD-3-Clause provenance in NOTICE.md and licenses/Xenia-BSD-3-Clause.txt. No Xenia runtime/SDK is integrated. Complete decoded PE/XEX images, restored original containers and native data/assembly reports remain local under ignored build/. A reconstructed native image is still game data, not a distributable localization source artifact. The Git hygiene check also inspects ELF/PE signatures independent of filename suffix.
+
+CE/PPC packed-function format research additionally cites hedge-dev and
+contributors / XenonRecomp (MIT), pinned in references/pdata-research.lock.json;
+the upstream license is retained in licenses/XenonRecomp-MIT.md. The Python
+reader is independent; no recompiler, SDK, runtime or complete game bytes are
+redistributed. Local static instruction/metadata reports remain ignored.

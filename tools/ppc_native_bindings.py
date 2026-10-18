@@ -220,7 +220,14 @@ def inspect_bindings(image,plan,metadata_raw,metadata):
         if len(params)!=1 or params[0]['kind']!='ObjectProperty' or params[0]['target']['path']!='engine.font' or disable['parameters'] or setter['return_declaration'] is not None or disable['return_declaration'] is not None:
             raise FormatError('scoped font method parameter declarations mismatch')
         fields.update(font_parameter_declaration_verified=True,parameter_stack_producer_verified=False)
-    return dict(schema_version=1,image_sha256=digest(image),metadata_report_sha256=digest(metadata_raw),bindings=rows,lookup=lookup,
+    report=dict(schema_version=1,image_sha256=digest(image),metadata_report_sha256=digest(metadata_raw),bindings=rows,lookup=lookup,
                 initializer_instructions=instructions,font_field_instruction_chains=fields,
                 engine_package_reread=False,metadata_identity_anchor_verified=True,image_modified=False,
                 initializer_reached_at_runtime_verified=False,active_font_verified=False,executed=False)
+    if 'style_selection' in plan:
+        try:
+            from .ppc_style_selection import verify_style_selection
+        except ImportError:
+            from ppc_style_selection import verify_style_selection
+        report['style_selection']=verify_style_selection(view,rows,plan['style_selection'],plan['code_ranges'])
+    return report

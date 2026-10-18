@@ -676,3 +676,13 @@ Wide name searches also need actual NUL boundaries and big-endian alignment. A o
 The intUUIComp_DrawStringexec* cold rows contain zero descriptors until initialization; those zeros are not UI component defaults. Constant values must be traced through reused symbolic stack slots and sign-extended lis/addi address materialization, not the last textual register assignment. Reject unknown reads/calls/interior branches, DS update forms, duplicate/incomplete writes and nonzero adjustors in this profile. The lookup comparator-zero and row+4/stride12 shape is checked separately; its helper is not executed or assumed to compare strings a particular way.
 
 Object-relative font words0xd8/0xe4 and PPC packed bit0x20000000 do not replace logical package tag offsets/BoolProperty0-or-1 headers. Paired setter/disable instruction chains support field-name deductions but do not prove constructor values, caller order, active font, complete struct layout or Chinese pixels. See NATIVE_BINDINGS.md.
+
+### An override flag alone does not select a font; next-start is not an end
+
+The checked overlay tests both bit0x20000000 and a nonzero pointer word before
+writing output+0x20. Null bypass preserves the existing output even with the bit
+set. Do not infer an effective Font from a setter/flag without this second guard.
+Similarly, CE .pdata packed length—not the next listed start—declares function
+extent. Real gaps occur after the initializer and getter helper. The overlay leaf
+has no covering record; that absence neither removes its code nor extends the
+preceding record over it. See NATIVE_STYLE_SELECTION.md for confidence levels.

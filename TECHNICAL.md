@@ -886,3 +886,8 @@ A mature technical implementation should allow future contributors to understand
 - which questions remain unresolved
 
 The goal is to preserve enough technical knowledge that future localization work can build on the project rather than repeat the same reverse engineering.
+
+
+## Native style getter/overlay follow-up (2026-10-19)
+
+See docs/NATIVE_STYLE_SELECTION.md for the two-guard font word overlay, shared virtual slot/call-site association, and CE/PPC metadata-declared extents. Persistent UICombinedStyleData declarations do not recover native offsets or effective state. Constructor/base-style/copy helper semantics and active rendering remain unverified.

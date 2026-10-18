@@ -915,3 +915,13 @@ NATIVE_IMAGE.md records the hash-locked dual-disc originals, exact basic stored/
 ## Hash-locked PPC native row12 cold-initializer profile
 
 NATIVE_BINDINGS.md records18 rows (name pointer +8-byte descriptor), zero sentinel, typed Engine metadata identity, bounded constant/symbolic-stack def-use recovery and exact lookup structure. Descriptor code words and zero adjustment words are recovered without modifying image bytes. Native object-relative0xd8/0xe4 word operations and packed mask0x20000000 are distinct from serialized tagged properties; semantic field labels are high-confidence deductions, not complete struct/runtime layout proof.
+
+## CE/PPC exception-directory and guarded style profile
+
+NATIVE_STYLE_SELECTION.md records the PE little-endian directory3/virtual .pdata
+contract and big-endian8-byte CE records. Packed prologue8/function-length22
+fields count four-byte words; two raw flags are retained without unwind claims.
+All44484 records are checked, not silently skipped by flag. Exact declared ends
+and absent leaf entries remain distinct from next-start guesses and runtime code
+coverage. The opt-in style profile verifies four code windows and the font
+bit/nonzero-pointer guards before the unique output+0x20 store.

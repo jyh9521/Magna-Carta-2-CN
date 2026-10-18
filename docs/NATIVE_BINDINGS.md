@@ -157,3 +157,8 @@ boundary remains; this is a bounded static format/data-flow tool, not a VM.
 Next offline work follows constructor/default initialization, getter/format
 helper selection and text measurement. Effective Font and Chinese rendering
 remain unverified, with all game acceptance still reserved to the user.
+
+Follow-up: NATIVE_STYLE_SELECTION.md adds an explicit extended plan for the
+getter/overlay paths and CE/PPC metadata-declared extents. The original plan and
+report shape above remain unchanged. The overlay requires both the packed bit
+and nonzero pointer; a bit set by itself does not replace the output font word.

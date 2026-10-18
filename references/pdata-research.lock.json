@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "repository": "https://github.com/hedge-dev/XenonRecomp",
+  "commit": "ddd128bcca99fe8bfbb99bea583c972351fa6ace",
+  "author": "hedge-dev and contributors",
+  "license": "MIT",
+  "reuse": "format research only; independently implemented Python reader; no runtime, SDK, upstream source or target instructions integrated",
+  "sources": [
+    {
+      "path": "XenonUtils/xbox.h",
+      "url": "https://raw.githubusercontent.com/hedge-dev/XenonRecomp/ddd128bcca99fe8bfbb99bea583c972351fa6ace/XenonUtils/xbox.h",
+      "sha256": "eba4079e8379bdb138f4da77405a3432df60f8bcdf3f47cbc3ca1c8543cf5814"
+    },
+    {
+      "path": "XenonRecomp/recompiler.cpp",
+      "url": "https://raw.githubusercontent.com/hedge-dev/XenonRecomp/ddd128bcca99fe8bfbb99bea583c972351fa6ace/XenonRecomp/recompiler.cpp",
+      "sha256": "30e7ea5b4d8a225bc3e0ac71aebd1a0af7bcde5aaf5679517719b559c9cd777a"
+    },
+    {
+      "path": "LICENSE.md",
+      "url": "https://raw.githubusercontent.com/hedge-dev/XenonRecomp/ddd128bcca99fe8bfbb99bea583c972351fa6ace/LICENSE.md",
+      "sha256": "bcb33ae2cbc6c0f2818712d806112e774e684fce01ce80573f92adf80b7487f4"
+    }
+  ],
+  "verified_scope": "8-byte big-endian record: 8-bit prologue length, 22-bit function length, two raw flag bits; function length multiplied by 4; raw flags not an unwinder or architecture-width proof"
+}

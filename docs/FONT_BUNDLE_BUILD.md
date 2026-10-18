@@ -140,3 +140,18 @@ with a junction-backed temporary root (old test fails; corrected test passes).
 The injector now resolves both path identities and asserts a single injected
 read. This fixes the test's short/long temporary-path mismatch; it does not
 weaken the builder's readback or change candidate bytes. See PITFALLS.md.
+
+## Minimal text follow-up (read-only probe)
+
+The existing local hash-locked one-line Coalesced technical plan was rebuilt in
+memory and reproduced its previous candidate SHA256
+`58c6f12ab4408c600cf9167a54e8038ad42b875d7e9319f797863a15c3cfcebb`.
+Its literal codepoints are U+0021/U+51FB/U+8E22, with zero protected tokens in
+this particular entry. All three original Font aliases lack the two added
+codepoints; all three assembled candidates map all three literals to positive-
+area glyph metrics. No text or game resource was written to an installation.
+This only proves explicit remap/metric coverage of that one candidate, not
+runtime font selection, shaping, fallback, dynamic expansions or visual quality.
+The complete local metadata is minimal-text-coverage-probe.json alongside the
+bundle verification. A reusable source/placeholder/font-coverage validator is
+the next offline task; no full original source text enters Git.

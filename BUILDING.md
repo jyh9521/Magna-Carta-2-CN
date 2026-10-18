@@ -15,6 +15,16 @@ Disc 2 同法指定独立输出及目录；首次解出后再次提取应使用�
 
 原件保持不变；本轮所有派生资源都在被忽略的 build/。没有游戏文件安装或卸载动作，原版启动资源状态未改变。未来中文部署应使用隔离完整游戏副本，并在 Xenia 同场景前/后/回退录证；本轮没有该验收。
 
+## 双盘差异报告（只读）
+
+在两份完整哈希清单准备后，执行：
+
+```powershell
+python tools/compare_discs.py build/disc1-hashed.json build/disc2-hashed.json --output build/multidisc-research/disc-comparison.json
+```
+
+输出包含双方身份、逐文件 SHA256/大小/位置及四种分类，不执行整合。已有输出拒绝覆盖。未来整合→汉化回写的规划见 docs/MULTIDISC_RESEARCH.md；目前没有正式合盘构建命令，汉化可以独立推进。
+
 ## 原始通用规范（下列命令仅示例）
 
 ---

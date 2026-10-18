@@ -521,3 +521,13 @@ correctly recorded the long `runneradmin` path. The launcher behavior was correc
 the fixture compared noncanonical spellings. Canonicalize the fixture root before
 constructing expectations. Keep full configuration and no-tuning checks unchanged.
 Failed run: 39109395945, commit 6bd840d; do not report it as successful.
+
+## Runtime controls: LZX, raw packages and font selection (2026-10-18)
+
+Native decoder roundtrip is not game compatibility: original first-chunk no-op
+stored/CAB re-encodes guest-faulted too. Alignment alone did not fix them. A raw
+outer package needs package bit 0x02000000 cleared as well as compression flags
+and chunk count. Derive the header field; do not blind-patch offset 21 on other
+builds. General_15 and Subtitle append tests still omit Chinese, so do not assume
+these are the warning's live font. See RUNTIME_TEXT_BINDING.md for controls and
+remaining hypotheses. Movie playback after a guest fault is not a passing boot.

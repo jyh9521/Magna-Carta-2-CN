@@ -257,7 +257,7 @@ def atlas_tiles(atlas, texture, decoder):
     return compressed_chunk(payload, bulk["element_count"], decoder)[1]
 
 
-def supplement_package(data, expected_hash, font_object, plan, alphas, decoder):
+def supplement_package(data, expected_hash, font_object, plan, alphas, decoder, raw_atlas=False):
     verify_hash(data, expected_hash, "package")
     glyphs = validate_plan(plan)
     summary = parse_summary(data, len(data))
@@ -337,9 +337,11 @@ def supplement_package(data, expected_hash, font_object, plan, alphas, decoder):
         raise FormatError("old tagged/native/remap record hash preservation failed")
     font_offset = (len(logical) + 3) & ~3
     new_atlas_offset = (font_offset + len(new_font) + 3) & ~3
-    compressed = wrap_ue3_chunk(tiled) if bulk["flags"] == 0x40 else tiled
+    compressed = wrap_ue3_chunk(tiled) if bulk["flags"] == 0x40 and not raw_atlas else tiled
     new_atlas = bytearray(atlas[:bulk["payload_offset"]] + compressed + atlas[bulk["payload_offset"] + bulk["size_on_disk"]:])
     struct.pack_into(">I", new_atlas, bulk["size_on_disk_field_offset"], len(compressed))
+    if raw_atlas:
+        struct.pack_into(">I", new_atlas, bulk["header_offset"], 0)
     for header in (texture["source_art"], bulk):
         struct.pack_into(">I", new_atlas, header["data_offset_field_offset"], new_atlas_offset + header["payload_offset"])
     # Validate rebuilt native bulk framing and byte-for-byte tile content.
@@ -405,6 +407,7 @@ def main(argv=None):
     parser.add_argument("--lzx-library", type=Path, required=True)
     parser.add_argument("--output", type=Path, required=True)
     parser.add_argument("--report", type=Path, required=True)
+    parser.add_argument("--raw-atlas", action="store_true", help="Explicit raw-inline atlas experiment")
     args = parser.parse_args(argv)
     try:
         inputs = [args.package, args.font_file, args.plan, args.lzx_library]
@@ -415,7 +418,9 @@ def main(argv=None):
         plan_data = args.plan.read_bytes()
         plan = json.loads(plan_data.decode("utf-8-sig"))
         alphas, raster_report = rasterize_plan(args.font_file, args.font_sha256, plan)
-        output, report = supplement_package(data, args.package_sha256, args.font_object, plan, alphas, LzxDecoder(args.lzx_library))
+        output, report = supplement_package(data, args.package_sha256, args.font_object, plan, alphas,
+                                             LzxDecoder(args.lzx_library), args.raw_atlas)
+        report["raw_atlas_requested"] = args.raw_atlas
         report.update({"font_source_sha256": args.font_sha256.lower(), "plan_sha256": sha256(plan_data), "rasters": raster_report})
         args.output.parent.mkdir(parents=True, exist_ok=True)
         args.report.parent.mkdir(parents=True, exist_ok=True)

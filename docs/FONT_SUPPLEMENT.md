@@ -147,3 +147,11 @@ runtime test still needs verified UI binding, correct text/TOC deployment and
 same-scene original/modified/rollback capture. Preserve source hashes, verify
 saves/load behavior and measure actual layout before extending the glyph set.
 Static package parse and readable local PNGs do **not** satisfy that gate.
+
+## Runtime qualification (2026-10-18)
+
+Offline append/pixel checks above remain valid, but runtime Chinese rendering
+is NOT accepted. Both General_15 and EngineMedium_Subtitle experiments omitted
+Chinese. Stored-LZX rebuilt Startup packages guest-faulted even in original-data
+no-op controls. Experimental `--raw-atlas` plus a fully uncompressed outer package
+loads the warning, but does not establish font binding. See RUNTIME_TEXT_BINDING.md.

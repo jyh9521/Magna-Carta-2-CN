@@ -1,4 +1,4 @@
-"""Launch an isolated experiment from an exact user-config snapshot, without tuning overrides."""
+"""Launch from an exact user config; optional keyboard-test deviations are explicit."""
 from __future__ import annotations
 
 import argparse
@@ -8,13 +8,17 @@ from pathlib import Path
 import subprocess
 import tomllib
 
+KEYBOARD_TEST_OVERRIDES = ["--hid=keyboard", "--keyboard_mode=1",
+                           "--keybind_start=0x0D", "--keybind_a=0x20",
+                           "--keybind_b=0x08", "--keybind_guide=0x87"]
+
 
 def file_hash(path):
     with Path(path).open("rb") as stream:
         return hashlib.file_digest(stream, "sha256").hexdigest()
 
 
-def prepare(exe, config, game, run_dir, expected_config=None):
+def prepare(exe, config, game, run_dir, expected_config=None, keyboard_test_input=False):
     exe, config, game, run_dir = (Path(p).resolve() for p in (exe, config, game, run_dir))
     for p in (exe, config, game):
         if not p.is_file():
@@ -34,10 +38,12 @@ def prepare(exe, config, game, run_dir, expected_config=None):
     for name in ("storage", "content", "cache"):
         args.append(f"--{name}_root={run_dir / name}")
     args.append(f"--log_file={run_dir / 'runtime.log'}")
+    overrides = list(KEYBOARD_TEST_OVERRIDES) if keyboard_test_input else []
+    args.extend(overrides)
     record = dict(schema_version=1, status="prepared", config_source=str(config),
                   config_sha256=digest, config_snapshot=str(snapshot),
                   exe_sha256=file_hash(exe), game_sha256=file_hash(game),
-                  command=args, cwd=str(exe.parent), tuning_overrides=[],
+                  command=args, cwd=str(exe.parent), tuning_overrides=overrides,
                   game_rendering_verified=False)
     save(run_dir, record)
     return record
@@ -79,7 +85,8 @@ def verify_config(run_dir):
     if tomllib.loads(dump) != expected:
         raise ValueError("loaded config dump differs from snapshot")
     return dict(status="config-dump-matches", config_sha256=record["config_sha256"],
-                source_unchanged=True, tuning_overrides=[], game_rendering_verified=False)
+                source_unchanged=True, tuning_overrides=record["tuning_overrides"],
+                game_rendering_verified=False)
 
 
 def main(argv=None):
@@ -91,16 +98,20 @@ def main(argv=None):
     parser.add_argument("--run-dir", type=Path)
     parser.add_argument("--config-sha256")
     parser.add_argument("--launch", action="store_true")
+    parser.add_argument("--keyboard-test-input", action="store_true",
+                        help="Explicit temporary keyboard-controller CLI override; source TOML unchanged")
     args = parser.parse_args(argv)
     try:
         if args.verify:
-            if any((args.exe, args.config, args.game, args.run_dir, args.launch, args.config_sha256)):
+            if any((args.exe, args.config, args.game, args.run_dir, args.launch,
+                    args.config_sha256, args.keyboard_test_input)):
                 raise ValueError("verify cannot be combined with launch arguments")
             result = verify_config(args.verify)
         else:
             if not all((args.exe, args.config, args.game, args.run_dir)):
                 raise ValueError("exe, config, game and run-dir are required")
-            result = prepare(args.exe, args.config, args.game, args.run_dir, args.config_sha256)
+            result = prepare(args.exe, args.config, args.game, args.run_dir,
+                             args.config_sha256, args.keyboard_test_input)
             if args.launch:
                 launch(args.run_dir, result)
         print(json.dumps(result, ensure_ascii=True))

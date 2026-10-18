@@ -7,7 +7,7 @@ import unittest
 from unittest.mock import patch, Mock
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "tools"))
-from launch_xenia import prepare, launch, verify_config, main
+from launch_xenia import prepare, launch, verify_config, main, KEYBOARD_TEST_OVERRIDES
 
 
 CONFIG = b'[GPU]\r\ngpu = "vulkan" # user setting\r\n[HID]\r\nkeyboard_mode = 0\r\n'
@@ -51,6 +51,14 @@ class ConfigLauncherTests(unittest.TestCase):
 
     def test_expected_hash(self):
         self.prepare(expected_config=hashlib.sha256(CONFIG).hexdigest())
+
+    def test_explicit_keyboard_input_deviation_is_recorded(self):
+        record = self.prepare(keyboard_test_input=True)
+        self.assertEqual(record['tuning_overrides'], KEYBOARD_TEST_OVERRIDES)
+        self.assertEqual(record['command'][-6:], record['tuning_overrides'])
+        self.assertEqual(self.config.read_bytes(), CONFIG)
+        self.log()
+        self.assertEqual(verify_config(self.run)['tuning_overrides'], record['tuning_overrides'])
 
     def test_wrong_hash_has_no_output(self):
         with self.assertRaisesRegex(ValueError, 'SHA256 mismatch'):

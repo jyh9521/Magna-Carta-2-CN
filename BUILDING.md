@@ -601,3 +601,20 @@ A mature project should make it possible for another developer to rebuild the lo
 - documented build commands
 
 The build process should not depend on the original author's memory or private local environment.
+
+## Experimental runtime diagnostic copies (2026-10-18)
+
+These commands require locally supplied originals and an explicitly built native
+LZX decoder (see docs/FONT_RESEARCH.md). They are not a release pipeline:
+
+```powershell
+python tools/decompress_package.py INPUT_PACKAGE --sha256 ORIGINAL_SHA256 --lzx-library PATH_TO_DECODER --output NEW_PACKAGE --report NEW_REPORT
+python tools/launch_xenia.py --exe xenia/xenia_canary.exe --config xenia/xenia-canary.config.toml --game build/poc-game/disc1/default.xex --run-dir build/UNIQUE_RUN --keyboard-test-input --launch
+```
+
+`decompress_package.py` defaults to zero-padding to 32768 bytes, accepts only the
+verified profile, preserves decoded object tables/payload and clears all three
+compression states. `supplement_font.py --raw-atlas` is opt-in raw bulk output.
+Neither command implies Chinese display or console compatibility. For table/TOC
+updates and exact runtime boundaries see docs/RUNTIME_TEXT_BINDING.md. Keep all
+originals and restore deployed resource copies before another control test.

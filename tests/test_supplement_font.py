@@ -134,6 +134,21 @@ class FontAppendTests(unittest.TestCase):
 
 
 class PackageSupplementTests(unittest.TestCase):
+    def test_explicit_raw_atlas_preserves_other_exports(self):
+        data = package_fixture(texture_compressed=True)
+        out, report = supplement.supplement_package(data, hashlib.sha256(data).hexdigest(),
+            "General", plan(), {0x4E2D: bytes([255]) * 576}, stored_decoder, raw_atlas=True)
+        tables = parse_tables(out)
+        e = next(x for x in tables['exports'] if x['path'] == 'General.Atlas')
+        texture = supplement.parse_atlas_payload(out[e['serial_offset']:e['serial_offset'] + e['serial_size']],
+                                                tables['names'], e['serial_offset'])
+        self.assertEqual(texture['mips'][0]['bulk']['flags'], 0)
+        self.assertEqual(texture['mips'][0]['bulk']['element_count'],
+                         texture['mips'][0]['bulk']['size_on_disk'])
+        self.assertTrue(report['original_glyphs_and_remap_preserved'])
+        self.assertTrue(report['all_pixels_outside_selected_cells_identical'])
+        self.assertEqual(report['unaffected_exports_byte_identical'], 1)
+
     def run_build(self, data, p=None):
         return supplement.supplement_package(data, hashlib.sha256(data).hexdigest(), "General", p or plan(), {0x4E2D: bytes([255]) * 576}, stored_decoder)
 

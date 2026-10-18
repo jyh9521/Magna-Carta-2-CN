@@ -18,7 +18,7 @@ do not mistake an idle movie for controlled gameplay.
 
 `tools/launch_xenia.py` copies the selected configuration byte-for-byte into a
 fresh run directory and explicitly passes the snapshot via `--config`. It does
-not generate substitute settings or add tuning arguments. Only storage, content,
+not generate substitute settings or add tuning arguments by default. Only storage, content,
 cache and log paths are isolated. Original saves are not imported. A record keeps
 config/executable/game hashes, full argv, cwd and PID. Inputs are rechecked before
 process creation. Existing runs, invalid TOML, optional hash mismatch and runs
@@ -54,15 +54,25 @@ Disc 1 `default.xex` and this configuration. Evidence stays local in
 Verification returned `config-dump-matches`, source unchanged, no tuning
 overrides, exit **0**. Game files and the user configuration were not edited.
 
-Window control again reported a physical-Escape stop. This run therefore has
-**no new reliable game capture or text-binding result**. Earlier observations
-included possible movie/demo content and an occluded-window capture; they prove
-neither controller input nor UI resource binding. Preserve failed observations,
-but do not classify them as game QA.
+## Explicit keyboard test control (2026-10-18)
 
-Next: get a fresh targetable window, prove actual input/state change under this
-baseline, and record an original same-scene UI. Necessary input-setting changes
-must be explicit, separately recorded deviations, never silent edits to the
-supplied file. Then verify ASCII binding and original recovery before deploying
-the four Chinese candidates. Chinese rendering, game-side rollback, saves and full
-progression remain unverified. Esc stops window control, not development.
+`--keyboard-test-input` is opt-in; normal launches still have no tuning overrides.
+It adds exactly these CLI arguments, recorded in run.json:
+
+```text
+--hid=keyboard --keyboard_mode=1 --keybind_start=0x0D
+--keybind_a=0x20 --keybind_b=0x08 --keybind_guide=0x87
+```
+
+Return is Start, Space is A, Backspace is B. No graphics settings change. Original
+TOML and snapshot remain byte-identical; the config-dump check alone does not
+prove effective input settings because CLI overrides are recorded separately.
+Use the SAME override list for compared baseline/candidate/recovery runs.
+Keyboard/IME/focus and short taps can be unreliable; inspect an actual interactive
+state change instead of counting sent keys as accepted input. Do not mistake the
+opening/idle movie for a playable scene. User Esc exits the game, not development.
+
+The latest controlled experiment established real `TST` warning text binding.
+Chinese glyphs remain absent; see [runtime matrix](RUNTIME_TEXT_BINDING.md).
+Earlier physical-Escape/occluded-window observations are historical failed
+observations, not current control status or game acceptance.

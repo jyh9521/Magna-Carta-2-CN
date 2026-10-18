@@ -155,3 +155,12 @@ negative result does not establish live Font binding. See FONT_REFERENCES.md.
 All tested resources were restored before the final fresh F7 recovery run.
 The subsequent glyph-geometry sensitivity probe remains a separate next gate;
 font supplementation / Chinese display is still unaccepted.
+
+## Geometry probe checkpoint
+
+A donor-metric probe now changes both tagged and native records without changing
+remap or atlas data. The combined five-font candidate loaded movie/title frames,
+but no real warning was captured in this run; its runtime result is inconclusive.
+All deployed resources were restored by hash. See FONT_REFERENCES.md for the
+reproducible command and explicit pending gate. Static inverse-copy recovery and
+253 native-enabled tests pass; neither is game rendering acceptance.

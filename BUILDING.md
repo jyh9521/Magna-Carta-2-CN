@@ -626,3 +626,11 @@ remap entry, not a font supplement or translation builder. Require the original
 package hash, Font object path, codepoint and expected glyph. Never target an
 unknown version. See docs/RUNTIME_TEXT_BINDING.md for the exact CLI shape and
 negative-result boundaries; generated game packages remain local under build/.
+
+### Duplicated geometry diagnostic
+
+`probe_font_mapping.py --geometry` opts into same-size donor-metric copying in
+both tagged/native records while preserving remap and texture bytes. Original
+hash/mapping/donor bounds remain mandatory. Reports carry old/new patch bytes for
+an independent inverse-copy check. See docs/FONT_REFERENCES.md; no diagnostic
+candidate should be mistaken for Chinese display acceptance.

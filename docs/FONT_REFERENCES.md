@@ -92,3 +92,45 @@ The F23 experiment was rejected by the computer-use API and is not an accepted
 key event. F7/F8/Delete runs record input-only CLI deviations, original TOML and
 graphics unchanged. These are not identical-input comparisons with older Return
 runs. Reproduction for this exact Canary build is in XENIA_TESTING.md.
+
+## Duplicated geometry probe
+
+`probe_font_mapping.py --geometry` keeps remap keys/values unchanged. It copies
+an existing donor glyph's StartU, StartV, USize, VSize and TextureIndex into BOTH
+the tagged property values and the 17-byte native glyph record. Exact package
+SHA256, codepoint/original mapping and donor bounds are still required. Font
+reparsing must match the expected metrics; all other exports (including atlas
+bulk bytes) must remain byte-identical. Reports record reversible old/new bytes
+for each bounded field. Existing remap-only CLI behavior remains the default.
+
+```powershell
+python tools/probe_font_mapping.py build/disc1-font-study/MC2Game/CookedXenon/font.xxx --sha256 b9a476cc377fe54e04d574f66a2018f1a0b69138c9f25f696d46ef07b9b1a4e6 --font-object General_15 --codepoint 0xB85C --expected-glyph 959 --target-glyph 65 --geometry --output build/NEW-geometry.xxx --report build/NEW-geometry.json
+```
+
+The single General_15 static copy keeps size 1343488, output SHA256
+`725236937cefd2b3fd445f92a70c70b6d5d2ee693904171c7066e6dbc12cea45`.
+Independent report-driven inverse recovery equals the complete original hash.
+Three additional synthetic tests validate both copies, untouched remap/other
+exports, inverse restoration, guards and CLI dispatch; the suite now has 253 tests.
+
+A local combined candidate redirects U+B85C geometry to A in General_15, B in
+Subtitle (both external and resident), C in editor Tiny, D in Small, E in Large.
+No atlas, remap or text content changes. The resident package uses the already
+studied raw wrapper and its TOC size update. This geometry probe is diagnostic,
+not a translated font or a release candidate. Runtime result is recorded below
+only after a real interactive warning capture; movie/title loading is insufficient.
+
+### Geometry trial outcome (2026-10-18)
+
+`build/binding-20261018-f7-geometry` started with the unchanged user TOML and the
+same F7 input overrides as the recorded original warning. It reached movie and
+title frames. Automated Start taps did NOT produce a captured warning in this
+trial. Therefore geometry sensitivity is **pending**, not a negative result and
+not successful font binding. The four deployed files (font, Startup, editor
+resources, TOC) were SHA-guarded and restored; `restored.json` retains identities.
+The original ISO, XEX and user configuration were not changed.
+
+The next runtime gate is still a same-warning geometry capture, followed by its
+recovery view. If input remains unreliable, preserve the candidate and investigate
+resource loading/draw selection read-only instead of adding further atlas glyphs
+or calling a title/movie frame a passing test.

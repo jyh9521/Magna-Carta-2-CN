@@ -1,0 +1,136 @@
+{
+  "schema_version": 1,
+  "profile": "ppc-native-row12-cold-init-v1",
+  "image_sha256": "d18d49fb2960426715ba17d61d069cce42b1eadac153af13c9395cd42b1773e9",
+  "image_base": 2181038080,
+  "code_ranges": [
+    [
+      2183987200,
+      2196373504
+    ]
+  ],
+  "string_range": [
+    2181038080,
+    2183987200
+  ],
+  "data_range": [
+    2196373504,
+    2200633344
+  ],
+  "table_address": 2200066344,
+  "table_count": 18,
+  "symbol_prefix": "intUUIComp_DrawStringexec",
+  "engine_class": "UIComp_DrawString",
+  "engine_class_index": 15601,
+  "engine_source_sha256": "f71131de2a39176f48d5bf7ef6ed803513d5b38303f21915029c245442b8fe9a",
+  "native_report_sha256": "c991997d33d16e15137b20bc16f1e55cf9497541466081a88f0653c71ddb4652",
+  "initializer_start": 2196156368,
+  "initializer_end": 2196156832,
+  "initializer_tail": 2189882452,
+  "lookup_start": 2185314696,
+  "lookup_prologue": 2189882392,
+  "lookup_comparator": 2189880000,
+  "lookup_epilogue": 2189882472,
+  "font_fields": {
+    "setter_method": "SetFont",
+    "setter_alias_offset": 40,
+    "setter_window_offset": 136,
+    "disable_method": "DisableCustomFont",
+    "disable_alias_offset": 20,
+    "disable_window_offset": 84,
+    "disable_skip_offset": 120,
+    "conditional_helper": 2188022656
+  },
+  "initializer_sha256": "1396ca6900d2c6fa3d9a4d4db88fe0518fb0cb8bdb726f50e9112ba7a6bba3fb",
+  "lookup_sha256": "22ea0730b85b0b3d55e6aec5f2f76d7b90c0d82450b3cc9f5fa92858684d49da",
+  "style_selection": {
+    "profile": "ppc-style-overlay-v1",
+    "final_method": "GetFinalStringStyle",
+    "applied_method": "GetAppliedStringStyle",
+    "final_wrapper_tail_offset": 236,
+    "applied_wrapper_tail_offset": 156,
+    "final_start": 2188021952,
+    "overlay_start": 2188022464,
+    "prologue_helper": 2189882396,
+    "producer_helper": 2188141312,
+    "copy_call_target": 2189905536,
+    "epilogue_helper": 2189882476,
+    "applied_epilogue": 2189882472,
+    "final_wrapper_epilogue": 2189882468,
+    "overlay_sha256": "87640ea66e11ac36b2823ffa691327dc8dd5a8a6fed34dab05a863eed1773072",
+    "final_sha256": "af078066a51f6aab22c7a3d1a560de3dead83f3ef3dee6f7699e575f1b2230e3",
+    "final_wrapper_tail_sha256": "15bd18e78dec66dce8e4e7125d6b52bfd82a2f6828a1130b72c085bbcaf93624",
+    "applied_wrapper_tail_sha256": "49b58fbebbafc6a111d99e4c8be1ebe3b214f3bd1d5dd7cf76ee0d28daa9fdd3"
+  },
+  "class_tables": {
+    "profile": "ppc-class-name-table-v1",
+    "common_name_address": 2181734700,
+    "shared_callback": 2184385808,
+    "registration_helper": 2184864080,
+    "base_secondary_table": 2182232684,
+    "secondary_table": 2182879124,
+    "getter_start": 2188021504,
+    "getter_prologue": 2189882388,
+    "getter_epilogue": 2189882468,
+    "reference_helper": 2188139312,
+    "state_helper": 2188134808,
+    "cast_helper": 2188049544,
+    "getter_sha256": "8bbcd343dabcb4549ee883f359b0f1ac2f67f4164e95ff1c802ed0a43365bc06",
+    "classes": [
+      {
+        "native_name": "UUIComp_DrawString",
+        "name_address": 2182876208,
+        "registration_start": 2185224856,
+        "callback_start": 2188003872,
+        "table_address": 2182878144,
+        "size_operand": 272,
+        "initializer_family": "base",
+        "registration_sha256": "075365838c36b63ce83b703dbfa1241b098305a091e0500baf681d7ed93b8657",
+        "initializer_sha256": "b36c6af725078b8af34e0e32310aefe8408e82d09922338dd1ae4962b3f11501",
+        "table_sha256": "4ea4f1545ba952bad91610963262ee08a74297458fed541d6e0c741754be9dec"
+      },
+      {
+        "native_name": "UUIComp_DrawStringEditbox",
+        "name_address": 2182876248,
+        "registration_start": 2185225416,
+        "callback_start": 2188004240,
+        "table_address": 2182878472,
+        "size_operand": 328,
+        "initializer_family": "derived",
+        "registration_sha256": "e769538c47e64303929d78b79a7b3e4e87025e419c35265c65542c4837c3ec7e",
+        "initializer_sha256": "599282372912e04824ff38c4e7b1f2f3e8801721a25efe0954a88b84e9c04dc4",
+        "table_sha256": "6bdf524fe13736804ff12d9e3ec14fa7864a2b8ca3ba92dcd762abe527187065"
+      },
+      {
+        "native_name": "UUIComp_DrawStringSlider",
+        "name_address": 2182876300,
+        "registration_start": 2185225696,
+        "callback_start": 2188004552,
+        "table_address": 2182878800,
+        "size_operand": 272,
+        "initializer_family": "derived",
+        "registration_sha256": "9db8a65258054bb1b6bf944eeb1e73f6c226a6cff10da6867398011df7e60f62",
+        "initializer_sha256": "cf6b7c8de06459f20938d410ec6cc09e2ce29fc242cb3b2c9bbfaf2b48cb561e",
+        "table_sha256": "bf1d963de44ab1aea27ed1631e505e08e977568f00503ca3a6e6d79a67feb513"
+      },
+      {
+        "native_name": "UUIComp_DrawCaption",
+        "name_address": 2182876352,
+        "registration_start": 2185225136,
+        "callback_start": 2188004552,
+        "table_address": 2182878800,
+        "size_operand": 272,
+        "initializer_family": "derived",
+        "registration_sha256": "8da0bb52263ecba26c1002f2fbf65596710f80683b498bcf8d959ba964b8c0ef",
+        "initializer_sha256": "cf6b7c8de06459f20938d410ec6cc09e2ce29fc242cb3b2c9bbfaf2b48cb561e",
+        "table_sha256": "bf1d963de44ab1aea27ed1631e505e08e977568f00503ca3a6e6d79a67feb513"
+      }
+    ]
+  },
+  "style_predicate": {
+    "profile": "ppc-style-predicate-v1",
+    "start": 2188021360,
+    "reference_helper": 2188140224,
+    "sha256": "b3a92e719121d144d6e9213adea79c326120091408d4f0f38106c7467ccdc113"
+  }
+}

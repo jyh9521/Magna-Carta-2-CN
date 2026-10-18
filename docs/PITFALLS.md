@@ -1,5 +1,14 @@
 # Pitfalls
 
+## 2026-10-19: a conditional selector is not a constant default-style route
+
+All four supplied component tables share slot124's actual36-word predicate.
+Its entry+104 gate, four-word OR and helper-result gates prevent interpreting
+the getter's alternate-owner route as unconditional. Static offset equality
+between the predicate and getter does not assign serialized fields to native
+memory. Preserve the SmallFont CDO and General_15 component observations until
+the identities/values are proved; see STYLE_SELECTION_PREDICATE.md.
+
 ## 2026-10-19: component StringStyle does not exhaust label style candidates
 
 The two warning labels omit their own PrimaryStyle, while the independent CDO

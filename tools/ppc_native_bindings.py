@@ -238,6 +238,13 @@ def inspect_bindings(image,plan,metadata_raw,metadata):
             from ppc_class_tables import verify_class_tables
         report['class_tables']=verify_class_tables(view,plan['class_tables'],plan['engine_class'],plan['code_ranges'],
                                                   report['style_selection']['virtual_slot_byte_offset'])
+    if 'style_predicate' in plan:
+        if 'class_tables' not in report:raise FormatError('style predicate requires explicit class table plan')
+        try:
+            from .ppc_style_predicate import verify_style_predicate
+        except ImportError:
+            from ppc_style_predicate import verify_style_predicate
+        report['style_predicate']=verify_style_predicate(view,plan['style_predicate'],report['class_tables'],plan['code_ranges'])
     if 'object_initialization' in plan:
         if 'class_tables' not in report:raise FormatError('object initialization requires explicit class table plan')
         try:

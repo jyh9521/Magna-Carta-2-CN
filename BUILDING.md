@@ -17,6 +17,8 @@ Disc 2 同法指定独立输出及目录；首次解出后再次提取应使用�
 
 ## 字体使用方离线扫描
 
+native静态调查新增显式 `references/probes/ui-draw-string-selection-predicate.json`：在既有class-table证明后核验slot124完整判定函数，旧计划/CLI输出不变。命令和LF计划hash见 docs/STYLE_SELECTION_PREDICATE.md；不执行目标代码或游戏。
+
 `inspect_ui_fonts.py --deep --audit-bindings` 现在同时输出匹配标签的 `owner_primary_style_audit`，保留 PrimaryStyle / DefaultStyleTag 及嵌套文本 CDO 的字体观察；原组件链计数不变。新默认字体观察会加入 namespace 指纹审计，可能扩大解码范围；完整证据与非运行边界见 docs/OWNER_PRIMARY_STYLE.md。默认573项合成回归通过。
 
 继承/命名空间审计加 `--deep --audit-bindings`；双盘全 .xxx 类表扫描用 `tools/inventory_font_namespaces.py`。`tools/build_font_binding_probe.py` 按 references/probes/ 下 hash 锁定计划，一次构建三别名的 raw 对照、geometry 候选、独立反向检查及对应 TOC；只写全新隔离目录、不部署、不启动游戏。完整命令和证据边界见 docs/FONT_BINDING_AUDIT.md。

@@ -598,3 +598,13 @@ Backup-restoration equality does not demonstrate recovering an original compress
 first header chunk from the candidate alone. Raster dependency changes can alter
 atlas pixels despite unchanged glyph count; the full expected supplemented
 fingerprint is a deliberate guard. Never silently refresh it on mismatch.
+
+### Windows short temp names can make a fault injector miss its target
+
+The first multi-alias builder CI passed both Linux jobs but failed the Windows
+readback-injection test: the builder canonicalized its output root, while the
+injector compared an unresolved TemporaryDirectory name. RUNNER~1 versus
+runneradmin identified the same directory with unequal path spellings. Compare
+resolved identities in the injector and assert that exactly one read was
+corrupted. An isolated junction-temp reproduction fails with the original test
+and passes with the corrected test; production readback guards are not relaxed.

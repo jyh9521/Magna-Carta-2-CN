@@ -134,3 +134,9 @@ no original game, font raster dependencies, decoder DLL or game execution.
 
 All complete game resources and generated reports remain ignored under build/;
 Git contains only source, synthetic tests, locale plans and documentation.
+
+A Windows-only CI fault-injection path mismatch was reproduced independently
+with a junction-backed temporary root (old test fails; corrected test passes).
+The injector now resolves both path identities and asserts a single injected
+read. This fixes the test's short/long temporary-path mismatch; it does not
+weaken the builder's readback or change candidate bytes. See PITFALLS.md.

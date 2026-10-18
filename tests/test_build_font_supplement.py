@@ -101,11 +101,17 @@ class SupplementBundleTests(unittest.TestCase):
     def test_output_readback_failure_leaves_no_completion_manifest(self):
         with tempfile.TemporaryDirectory() as d:
             root=Path(d);game,font,plan,alphas=self.fixture(root);read=Path.read_bytes
+            target=(root/'output/candidates/one.xxx').resolve()
+            hits=[]
             def altered(path):
                 result=read(path)
-                return result+b'corrupt' if path==root/'output/candidates/one.xxx' else result
+                if path.resolve()==target:
+                    hits.append(str(path))
+                    return result+b'corrupt'
+                return result
             with patch.object(Path,'read_bytes',altered),self.assertRaisesRegex(ValueError,'reopening'):
                 self.run_build(root,game,font,plan,alphas)
+            self.assertEqual(len(hits),1)
             self.assertFalse((root/'output/manifest.json').exists())
 
     def test_late_source_change_detected_before_publication(self):

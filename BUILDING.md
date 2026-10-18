@@ -17,6 +17,8 @@ Disc 2 同法指定独立输出及目录；首次解出后再次提取应使用�
 
 ## 最小补字原型（独立输出，未获游戏验收）
 
+Xenia 测试必须基于用户提供的 `xenia/xenia-canary.config.toml`，不得静默替换为默认配置或覆盖画质、分辨率、时序及输入设置。`tools/launch_xenia.py` 保存逐字节配置快照，仅隔离 storage/content/cache/log；启动及加载核对见 [XENIA_TESTING](docs/XENIA_TESTING.md)。配置加载成功不代表中文显示通过。
+
 可选依赖：`python -m pip install -r requirements-font.txt`。Noto 字体固定来源及 hash 在 references/font-sources.lock.json，字体原件只放本地 build/font-source。LZX 的本地构建、固定源码与许可见 docs/LZX_RESEARCH.md。
 
 补字 CLI、hash 参数及两字计划见 docs/FONT_SUPPLEMENT.md；独立字体与 Startup 驻留对象都必须处理。补字输出只存 build，不覆盖原件。TOC 只更新明确验证的文件大小字段，见 docs/TOC_SIZE_REBUILD.md；它不证明所有运行索引均有效。四份候选文件的本地清单为 build/font-supplement/v2/deployment-plan.json，目前未部署中文试验。

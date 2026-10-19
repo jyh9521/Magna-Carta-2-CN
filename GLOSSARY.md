@@ -321,7 +321,11 @@
 | mc2-square-rescue-315 | 벨제붑 | 别西卜 | character | alias | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:e0e8cbc67c875459ff1d1869bc7d93831a9f27f5721f226ebf85370ecdc46631 |
 | mc2-kota-care-316 | 조파 | 佐帕 | character | alias | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:518da6219ad55a776e7b9ab93d0422bcbb039a5eccf1305cda965481a94dc82e |
 | mc2-kota-care-317 | 각성의 향 | 觉醒之香 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:ec74dc911e6f3d1db38cc7fe69d7bb9804cf845c9b263f9a40823b84b4fe99ed |
+| mc2-mind-entry-318 | 정신접촉 | 精神接触 | term | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:71bdbb8f4246de0941223abca003e20b4a92f4beb04f05a1a1a6c7541138df76 |
+| mc2-mind-entry-319 | 정신 접촉 | 精神接触 | term | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:b5eb04e7c9e1a9bcf7075ba03490bb99cdcc5e71bbf63153127da21384539f61 |
+| mc2-mind-entry-320 | 정신 세계 | 精神世界 | location | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:3e3555a1facb96120de49fc8885c0be60ec7385801554355b8f5415c478136a5 |
+| mc2-mind-entry-321 | 초월의 카몬드 | 超越卡蒙德 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:23add876735933a7f366fdb05f7c2725972defce5e5cdb053cb3245b6e1cc246 |
 
-本作词条：317；已继承：0。
+本作词条：321；已继承：0。
 
 固定来源、统计、冲突与审核流程见 [系列术语参考](docs/SERIES_TERMS.md)。

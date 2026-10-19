@@ -1,3 +1,9 @@
+## 第三十三批第六章主线与字幕收尾（2026-10-19）
+
+新增INT102条，累计4,943条draft；共享220项candidate，另1项独立字幕candidate；字幕187/315cue。
+CSMB06全部201条与五份csm06字幕33cue有draft；城镇前80条为73draft/7源删除标记保留。
+见 [BATCH_033_RUHALT_CLOSE](docs/BATCH_033_RUHALT_CLOSE.md)。其他任务/NPC/场地提示仍有缺口，字库/TOC/可玩入口未更新。
+
 ## 第三十二批伊格顿获救与拉提女王任务（2026-10-19）
 
 新增INT124条，累计4,841条draft、218项candidate；新增独立字幕7cue，累计161/315。

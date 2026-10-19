@@ -901,3 +901,12 @@ checker requires the packet-manifest hash and phase, reports wrong/missing
 resource bytes, and does not launch/install anything. A positive byte check
 is not game rendering or restored-behavior acceptance. Put its report outside
 both inputs so it never writes into a test-resource directory.
+
+
+## 独立字幕术语与Coalesced工作区术语锁
+
+Verified：prepare_translation_workspace当前要求terms中的每条resource/source_string_id都存在于其导出的Coalesced容器，
+直接混入Movies独立字幕锚点会在发布工作区前拒绝。不要为绕过检查而伪造容器ID、改写资源来源或跳过原有验证。
+第33批的一号候选采用batch-033.review.json/subtitle_term_candidates保存真实subtitle ID、cue源hash、resource、
+target和candidate状态；Coalesced共享terms仍只保存其已支持的容器锚点。
+未来扩展统一导入器时应增加显式锁定的字幕来源及验证，再迁移该候选，不能把独立候选自动提升为reviewed。

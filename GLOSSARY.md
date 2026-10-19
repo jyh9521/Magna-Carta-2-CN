@@ -222,7 +222,9 @@
 | mc2-ruhault-opening-216 | 번개의 칸 | 雷之KAN | system | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:06c032e674e035bcf7c44f159370f766bbaaabc51b257a2ffcbbe64f8848bc2d |
 | mc2-queen-rati-217 | 여왕 라티 | 拉提女王 | character | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:69382aacd47ecc606af0fcc45a0af247df6ffc869f5cd60104d2eebffa61ff7f |
 | mc2-queen-rati-218 | 여왕 라티의 가면조각 | 拉提女王的面具碎片 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:7be20e7cbac26f952acf448d685a8d0c5d75b40512695ac72e3868178d9924c6 |
+| mc2-ruhault-close-219 | 루할트 고원 | 鲁哈尔特高原 | place | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:992ebb5202648fd2d35c43fb909bcea2216bfd69be4f5b359f03447f9691aefb |
+| mc2-ruhault-close-220 | 트레와 사막 | 特雷瓦沙漠 | place | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:bed09b54c519b26501729140554fe3132cacd5844c1c908d46ba6ebcc3e81976 |
 
-本作词条：218；已继承：0。
+本作词条：220；已继承：0。
 
 固定来源、统计、冲突与审核流程见 [系列术语参考](docs/SERIES_TERMS.md)。

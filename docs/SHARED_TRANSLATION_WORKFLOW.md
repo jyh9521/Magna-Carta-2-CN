@@ -1,5 +1,11 @@
 # 共享译库、核心名词与第二批翻译
 
+## 最新：第六批与连续接续（2026-10-19）
+
+新增272条，累计1,389条，124项candidate；当前工作区build/team-batch006/verified-workspace。
+接续点及每批推送后继续的约定见 [TRANSLATION_QUEUE](TRANSLATION_QUEUE.md)，批次证据见
+[BATCH_006_TEAM](BATCH_006_TEAM.md)。后文数字均为历史快照。
+
 ## 最新：第五批阿巴泽特到访（2026-10-19）
 
 新增276条，累计1,117条INT草稿，102项candidate。当前工作区build/abazet-batch005/workspace，

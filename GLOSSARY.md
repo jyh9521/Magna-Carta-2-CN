@@ -106,7 +106,29 @@
 | mc2-abazet-100 | 중독 | 中毒 | status | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:d15a0a864491566e81b07bfe50a58fc3ffbb23a68faf9d7683168023343a288e |
 | mc2-abazet-101 | 대센티넬 부대 | 反哨兵部队 | organization | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:a2f351c030235a5f5017f069d2684346eef8919bbf7d27d0160e3e15cdcc01b3 |
 | mc2-abazet-102 | 파티전투 | 小队战斗 | combat | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:8d3e31ae9355a604363854998ac47562bbfcfaf99f35e7467bda73ba709bcf72 |
+| mc2-team-103 | 크로우비스트 | 乌鸦兽 | creature | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:27774161d91addb7c8b3deaee92a3259b0333907407ea3b8e8e4f676bbfb3e94 |
+| mc2-team-104 | 리더 | 队长 | combat | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:466f2d57ff14904dd41c986b41a8ddf3e5d7de6dc5670e7e363c173a02cc46ed |
+| mc2-team-105 | 배틀메뉴 | 战斗菜单 | ui | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:97999aa50b66d6ae619188f38e3a630ecb7c41f6a800ac967d4126a4102022c9 |
+| mc2-team-106 | AI설정 | AI设置 | ui | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:a8b1a7460b0923d3b1c1b23e5c6cea49af67d019a78c231080e33a3c9d6326e5 |
+| mc2-team-107 | 체인 | 连锁 | combat | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:95bafda032be64818e11d57ed2d6af0b41131ae24f413cd5c074a23e6c61290d |
+| mc2-team-108 | 체인드라이브 | 连锁超限 | combat | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:cabc0749b9b83580bc3d8c07fff3ee373417ce8640ba43fcda8114acf3c96c6c |
+| mc2-team-109 | 체인브레이크 | 连锁终结 | combat | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:2b2a801391cc26392d6810c301d780330b0a750aeda4b6824e539c8cf9ed68e4 |
+| mc2-team-110 | 바람의 칸 | 风之KAN | combat | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:5e24a75b0be7834f6f6f95731e8b82b0a78203a8c3d8fd77bafa9fce2757436f |
+| mc2-team-111 | 불의 칸 | 火之KAN | combat | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:5e24a75b0be7834f6f6f95731e8b82b0a78203a8c3d8fd77bafa9fce2757436f |
+| mc2-team-112 | 환경칸 | 环境KAN | combat | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:3944b9f167362ba1c46d2203caff199c63a27aeac5265bf557098614de669079 |
+| mc2-team-113 | 베를리네트 왕가 | 贝尔利内特王室 | organization | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:9a5f694af28679d5d7c5508d289917fbf6da8e399a65503e3b13cf2dcd3b579e |
+| mc2-team-114 | 카르타 | 卡尔塔 | race | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:9a5f694af28679d5d7c5508d289917fbf6da8e399a65503e3b13cf2dcd3b579e |
+| mc2-team-115 | 카이토의 갑옷 | 凯托的铠甲 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:a8ab2a633fb901bf3d1cde4fea934a930eb7f3506bf6603e81431ec7b14432f1 |
+| mc2-team-116 | 네코네코 | 猫猫 | creature | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:001cdb36f31458aad652cfb7ed2531bad0420e624daeaba937e15ccc480cb49e |
+| mc2-team-117 | 네코네코 족 | 猫猫族 | race | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:dc38bfc7bc59d82298f7b9e85cdb532536b7799dae045fdb243f176bae788939 |
+| mc2-team-118 | 검은 네코네코 | 黑猫猫 | creature | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:edc2d7864d9cfa1b6530e9c3cf6d91cefeb879590a1005c4808cb812fa4cd167 |
+| mc2-team-119 | 힐 시드 | 治愈种子 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:32d3480b41b4a9ca8e83996a60f0072f32112a863efd5b48bbb0453bbd4f55bb |
+| mc2-team-120 | 큐어 리프 | 疗愈叶 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:ca2a11ec33e7dac3bdbf0ed1bafd98f78180f04b8f8c6cc060579e218aefd990 |
+| mc2-team-121 | 경험의 벨트 | 经验腰带 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:22f6858c653c595d1758494899933744175b69bed0efc7ed1de410a19ef45ed2 |
+| mc2-team-122 | 후안 | 胡安 | character | short-name | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:b4212d458bad19eb32699126e067675202dc057b9927aaef592649a51118b5af |
+| mc2-team-123 | 카몬드 채굴장 | 卡蒙德采掘场 | place | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:a4bbd1e3e9586a00ed893adb02020eb5c37436bac42a180f10c3d85653ccc586 |
+| mc2-team-124 | 아바젯 초원 | 阿巴泽特草原 | place | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:0e87be90037abb832eede0c13d78629f0bfa737a41a8a3c80cb0915d4fdb95a3 |
 
-本作词条：102；已继承：0。
+本作词条：124；已继承：0。
 
 固定来源、统计、冲突与审核流程见 [系列术语参考](docs/SERIES_TERMS.md)。

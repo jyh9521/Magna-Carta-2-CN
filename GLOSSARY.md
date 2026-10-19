@@ -395,7 +395,15 @@
 | mc2-final-confrontation-389 | 복제 | 复制 | concept | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:f4a0f4f2d320c3afe6737ba9c9dadb721c6b15dcdbf24fb0011bc6489206b58e |
 | mc2-final-confrontation-390 | 칸의 순환 | KAN循环 | concept | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:a2c7d466142db59eb5a7d69763a640928aadf10213d0f3ee89c9dd0d81f7fa23 |
 | mc2-rite-token-391 | 의식의 증표 | 仪式信物 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:d12942fa13cf091751a9fc1b41b349ac18a9c5818d15c8456e037ffd8e33529b |
+| mc2-bluemoon-392 | 알베도 | 阿尔贝多 | character | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:777b9eaa6c63c9450b12800ccf40df596944c7939a10417d4148f118c2d0b0bd |
+| mc2-bluemoon-393 | 드레고 | 德雷戈 | character | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:267f69b6cd0bd8db394acb1aed5073af8f6f1ccf777543260c7ec93e87f27fab |
+| mc2-bluemoon-394 | 푸른 달의 성물 | 青月圣物 | quest | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:e21083203f98a6c5fc2860b6aa603f43358e7d7fa157bc66a275e717cbf26be6 |
+| mc2-bluemoon-395 | 푸른 달의 검 | 青月之剑 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:cc5f77a8b8e29232803e7b6a164183e84b46b2a192fd0be869c688ccb0a94330 |
+| mc2-bluemoon-396 | 푸른 달의 거울 | 青月之镜 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:5ccc0fbdd30534d8e169e72b3479a6617852071812479c3548bb81ac84939300 |
+| mc2-bluemoon-397 | 푸른 달의 보옥 | 青月宝玉 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:56bd4831ee7a839197557e0df8000d332bf3a7458197a4715eaf408ceaa5da23 |
+| mc2-bluemoon-398 | 다크 트레와 리더 | 暗黑特雷瓦头领 | role | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:c926718d762cb88335c9555895cfd5d7041692ec1e82653991caa92d31f9c319 |
+| mc2-bluemoon-399 | 푸른 달의 재건 | 青月重建 | quest | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:6a05fc750673540cb2370815de7dac8767b613df13004d8371d5a4482c22538a |
 
-本作词条：391；已继承：0。
+本作词条：399；已继承：0。
 
 固定来源、统计、冲突与审核流程见 [系列术语参考](docs/SERIES_TERMS.md)。

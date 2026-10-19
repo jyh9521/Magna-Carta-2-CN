@@ -39,6 +39,10 @@ def word(value):
 def validate_plan(plan):
     if not isinstance(plan, dict) or plan.get("schema_version") != 1 or plan.get("in_game_verified") is not False:
         raise FormatError("plan requires schema_version1 and in_game_verified=false")
+    padding=plan.get('ink_padding')
+    if padding is not None and (not isinstance(padding,dict) or set(padding)!={'left','right'}
+            or any(type(v) is not int or not 0<=v<=16 for v in padding.values())):
+        raise FormatError('ink_padding requires bounded integer left/right margins')
     if type(plan.get("font_size")) is not int or not 1 <= plan["font_size"] <= 128:
         raise FormatError("plan font_size outside 1..128")
     if 'remap_conversion' in plan and plan['remap_conversion'] != 'identity-256':
@@ -128,8 +132,15 @@ def rasterize_plan(font_file, expected_hash, plan):
         if 'metric_width' in g:
             ink=image.getbbox()
             if ink is None or ink[2]-ink[0]>g['metric_width']:raise FormatError('ink exceeds explicit metric width')
+            padding=plan.get('ink_padding')
+            if padding is not None:
+                if ink[2]-ink[0]+padding['left']+padding['right']>g['metric_width']:
+                    raise FormatError('explicit ink padding does not fit metric width')
+                extra=g['metric_width']-(ink[2]-ink[0]+padding['left']+padding['right'])
+                left=padding['left']+extra//2
+            else:left=min(1,g['metric_width']-(ink[2]-ink[0]))
             fitted=Image.new('L',image.size)
-            fitted.paste(image.crop((ink[0],0,ink[2],g['height'])),(min(1,g['metric_width']-(ink[2]-ink[0])),0))
+            fitted.paste(image.crop((ink[0],0,ink[2],g['height'])),(left,0))
             image=fitted
         alpha = image.tobytes()
         if not any(alpha):

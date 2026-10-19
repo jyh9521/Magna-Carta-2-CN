@@ -1,6 +1,8 @@
 {
   "schema_version": 1,
   "locale": "zh-Hans",
+  "non_story_default": true,
+  "story_text_kinds": ["dialogue", "narrative", "story_subtitle"],
   "single_clause_no_full_stop": ["item_description", "skill_description", "equipment_description", "effect_description"],
-  "notes": "单句且句中无标点的物品、技能等说明，末尾不加句号。正文、剧情不套用此限制。换行分隔的说明与属性分别检查；控制码原样保留。"
+  "notes": "除剧情对白、剧情叙述及剧情字幕外，任何类别的单句且句中无标点文本，末尾不加句号，包括系统/下载提示、教程和菜单。多句或句中有标点时不机械删句号；分类必须显式指定；控制码原样保留。"
 }

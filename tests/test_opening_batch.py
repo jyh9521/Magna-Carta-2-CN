@@ -34,8 +34,9 @@ class OpeningBatchTests(unittest.TestCase):
         review=load('locales/zh-Hans/opening-batch.review.json')
         self.assertEqual(set(index),{e['id'] for e in review['entries']})
         for r in review['entries']:
-            self.assertFalse(style_errors(dict(index[r['id']],text_kind=r['text_kind']),
-                                          load('locales/zh-Hans/style-rules.json')))
+            # Historical batch contract predates the broader non-story rule.
+            rules=dict(load('locales/zh-Hans/style-rules.json'),non_story_default=False)
+            self.assertFalse(style_errors(dict(index[r['id']],text_kind=r['text_kind']),rules))
 
     def test_larger_glyph_count_requires_explicit_bounded_opt_in(self):
         p=plan();p['glyphs']=[dict(p['glyphs'][0],character=chr(0x4e00+i)) for i in range(129)]

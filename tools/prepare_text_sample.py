@@ -7,6 +7,7 @@ from __future__ import annotations
 import argparse
 import copy
 import json
+import unicodedata
 from pathlib import Path
 
 from tools.font_binding_plan import digest, read_locked_json, _read, parse_json_object
@@ -55,12 +56,15 @@ def allocate(font, texture, characters, template):
 
 
 def prepare(base_route, sample, game_root, project_root, font_file, output, decoder,
-            glyph_limit=128, metric_heights=None, repair_blank=False, fit_ink_widths=False, additional_plans=()):
+            glyph_limit=128, metric_heights=None, repair_blank=False, fit_ink_widths=False, additional_plans=(),ink_padding=None,wide_letter_tracking=None):
     project_root, output = Path(project_root).resolve(), Path(output).resolve()
     game_root = Path(game_root).resolve()
     if type(glyph_limit) is not int or not 1 <= glyph_limit <= 2048:
         raise ValueError('glyph_limit must be within 1..2048')
     metric_heights = metric_heights or {}
+    if ink_padding is not None and not fit_ink_widths:raise ValueError('ink padding requires explicit fit-ink-widths')
+    if wide_letter_tracking is not None and (ink_padding is None or type(wide_letter_tracking) is not int or not 0<=wide_letter_tracking<=16):
+        raise ValueError('wide letter tracking requires ink padding and bounded integer tracking')
     if (output.exists() or output.is_relative_to(game_root) or game_root.is_relative_to(output)
             or not output.is_relative_to(project_root)):
         raise ValueError('plan output must be new, within project and disjoint from originals')
@@ -113,6 +117,13 @@ def prepare(base_route, sample, game_root, project_root, font_file, output, deco
         gp.pop('atlas_height', None)
         gp.pop('replace_blank_codepoints',None)
         if blank:gp['replace_blank_codepoints']=blank
+        if ink_padding is not None:
+            gp['ink_padding']=dict(left=ink_padding[0],right=ink_padding[1])
+            for g in gp['glyphs']:
+                g['width']=max(g['width'],(gp['font_size']+sum(ink_padding)+3)//4*4)
+        if wide_letter_tracking is not None:
+            gp['wide_letter_advance']=gp['font_size']+wide_letter_tracking
+            for g in gp['glyphs']:g['width']=max(g['width'],(gp['wide_letter_advance']+3)//4*4)
         if glyph_limit != 128:
             gp['glyph_limit'] = glyph_limit
         if i in metric_heights:
@@ -149,7 +160,11 @@ def prepare(base_route, sample, game_root, project_root, font_file, output, deco
         alphas, rasters = rasterize_plan(Path(font_file), fp['font_source_sha256'], gp)
         if fit_ink_widths:
             for g,r in zip(gp['glyphs'],rasters):
-                box=r['raster_bbox'];g['metric_width']=min(g['width'],box[2]-box[0]+2)
+                box=r['raster_bbox']
+                g['metric_width']=(box[2]-box[0]+sum(ink_padding) if ink_padding is not None
+                                   else min(g['width'],box[2]-box[0]+2))
+                if wide_letter_tracking is not None and unicodedata.category(g['character']).startswith('L') and unicodedata.east_asian_width(g['character']) in ('W','F'):
+                    g['metric_width']=max(g['metric_width'],gp['wide_letter_advance'])
             alphas,_=rasterize_plan(Path(font_file),fp['font_source_sha256'],gp)
         changed, _ = supplement_package(raw, digest(raw), source['font_object'], gp, alphas, decoder, raw_atlas=True)
         new_graph = StyleGraph({label: context(changed, decoder)})
@@ -187,6 +202,8 @@ def main(argv=None):
     p.add_argument('--repair-blank', action='store_true')
     p.add_argument('--fit-ink-widths', action='store_true')
     p.add_argument('--additional-plan', action='append',type=Path,default=[])
+    p.add_argument('--ink-padding',nargs=2,type=int,metavar=('LEFT','RIGHT'))
+    p.add_argument('--wide-letter-tracking',type=int)
     p.add_argument('--metric-height', action='append', default=[], metavar='FAMILY_INDEX=HEIGHT',
                    help='Explicit opt-in to increased new-glyph metrics; old glyphs stay unchanged')
     a = p.parse_args(argv)
@@ -195,7 +212,7 @@ def main(argv=None):
         heights = {int(i): int(h) for i,h in pairs}
         if len(heights) != len(pairs):
             raise ValueError('duplicate metric height family')
-        print(json.dumps(prepare(a.base_route,a.sample,a.game_root,a.project_root,a.font_file,a.output,LzxDecoder(a.lzx_library),a.glyph_limit,heights,a.repair_blank,a.fit_ink_widths,a.additional_plan), sort_keys=True))
+        print(json.dumps(prepare(a.base_route,a.sample,a.game_root,a.project_root,a.font_file,a.output,LzxDecoder(a.lzx_library),a.glyph_limit,heights,a.repair_blank,a.fit_ink_widths,a.additional_plan,a.ink_padding,a.wide_letter_tracking), sort_keys=True))
         return 0
     except (ValueError, OSError, KeyError, TypeError, ImportError) as e:
         print('ERROR: '+str(e)); return 2

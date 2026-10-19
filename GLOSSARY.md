@@ -355,7 +355,8 @@
 | mc2-sidequests-349 | 헬피쉬 | 地狱鱼 | creature | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:92678075f716e38a01c22616c6ccc60b07628f6c7cf6e0abc47989c58704dedd |
 | mc2-sidequests-350 | 해저 동굴의 향 | 海底洞窟香料 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:3ae2e0cfa10b454b248e0abdca70b5c01749e4ec86f040a13bc1d10de808a953 |
 | mc2-sidequests-351 | 코타메레 | 柯塔马雷 | location | alias | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:377f39c5e1bd9743d69b8006d93432778369728b7f29b6d3c7c5c3d543932f77 |
+| mc2-departure-352 | 쾌속이동장치 | 高速移动装置 | device | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:d034650773cfe4aca486cbcd3db7edd037df7e00bad757a63290154fec807f9d |
 
-本作词条：351；已继承：0。
+本作词条：352；已继承：0。
 
 固定来源、统计、冲突与审核流程见 [系列术语参考](docs/SERIES_TERMS.md)。

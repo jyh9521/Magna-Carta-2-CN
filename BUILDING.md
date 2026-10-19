@@ -724,3 +724,10 @@ See docs/WARNING_FONT_ROUTE_PROBE.md and tools/build_font_route_probe.py for
 the combined five-Font/six-resource candidate, raw controls, explicit identity-
 256 option, user-operated QA sequence and read-only full-byte replay. The normal
 supplement path still rejects non-remapped Fonts without the exact opt-in.
+
+The standalone `tools/verify_resource_phase.py` checks a selected packet phase
+against an explicit resource directory using a mandatory trusted manifest SHA.
+It needs neither the font file nor an LZX decoder. Exit0 means resource bytes
+match only; exit1 gives mismatches/missing files and exit2 rejects invalid input.
+The new JSON report must be outside both input directories. See the warning
+probe document for the exact invocation and game-acceptance distinction.

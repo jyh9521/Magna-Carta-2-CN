@@ -106,3 +106,35 @@ retained locally and excluded from this work.
 If the raw control works and the panel changes but Chinese does not appear,
 the next investigation is driven by that specific result. It does not justify
 another unrelated infrastructure expansion or bulk story translation.
+
+## Check the six resource bytes before interpreting a game result
+
+`tools/verify_resource_phase.py` is a standalone Python-standard-library checker,
+also copied into the manual packet as `Verify-Resources.py`. It reads only the
+declared six resources beneath an explicit resource root. It does not enumerate
+the rest of the directory, install/copy resources, launch anything or read user
+configuration. A trusted manifest SHA256 is mandatory; it first checks that
+manifest and the selected packet-phase bytes, then compares the resource root.
+
+```powershell
+python Verify-Resources.py --packet-root Disc1 --manifest-sha256 MANIFEST_SHA256 --resource-root YOUR_TEST_RESOURCE_ROOT --phase candidate --output OUTSIDE_INPUT_ROOTS/new-candidate-check.json
+```
+
+Use `controls` for original/restored resource bytes, `raw-controls` for the
+outer-decompression comparison, or `candidate` for the composed font/text probe.
+The current Disc1/Disc2 manifest SHA256 values are printed in the packet's manual
+guide. Do not calculate a new trusted hash merely to admit a changed manifest.
+The phase report must be a new path outside both input roots. The tool checks
+input stability and reopens its output; it removes only its own unchanged report
+after a late input mutation. External output changes are preserved.
+
+- exit0: every declared resource size/hash matches the selected phase;
+- exit1: a complete report lists mismatching/missing resources;
+- exit2: invalid/untrusted/changing inputs or an invalid output destination.
+
+Both discs intentionally share five candidate resources but have different
+TOCs. A Disc2 candidate checked against the Disc1 packet must report the TOC
+mismatch, not a positive result. This addresses a specific manual-testing risk;
+it is not another font-selector hypothesis. A byte match proves only that phase's
+declared files match at the stated path. It never proves installation history,
+game behavior, successful restoration of runtime behavior or Chinese rendering.

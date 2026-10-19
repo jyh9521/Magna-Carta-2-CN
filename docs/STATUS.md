@@ -2,6 +2,8 @@
 
 ## 当前主线：真实文本已绑定，字体绑定仍待证明
 
+- **2026-10-19 手测入口核对：** 给现有六资源候选加入独立、只读、标准库阶段核对器。固定 packet manifest hash 后检查原版/raw-control/candidate，列出缺件/混用与错误光盘 TOC；不启动、安装或改写测试目录。候选资源字节保持上一提交不变；匹配结果仍不等于中文显示或游戏行为验收。
+
 - **2026-10-19 转向实际中文候选：** 新单包实验同时覆盖三份 General_15 与此前未补字的两份 SmallFont；Startup_int 两个字体顺序合成后重新验证，不互相覆盖。SmallFont 仅显式 identity-256 模式转为映射字体并补两字；新警告为同长度 ASCII/中文诊断面板。双盘各六资源、带独立 raw-control 和原件恢复副本，未部署、未游戏测试。辅助函数草稿暂存，不再作为当前主线；见 WARNING_FONT_ROUTE_PROBE.md。
 
 - **2026-10-19 Font序列化链：** UFont/UMultiFont操作数注册链、独立callback/table窗口及slot34的六个完整函数模板通过；17/20字节glyph、4/8字节map与6C先于68的传输顺序已静态核实。UFont前方非NUL指针数据导致旧扫描漏检，新增精确操作数锚而不放宽旧profile。外部archive/helper语义、寄存器保持与实际字体仍未证明；见 FONT_SERIALIZATION.md。

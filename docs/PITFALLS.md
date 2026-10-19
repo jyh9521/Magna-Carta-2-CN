@@ -812,3 +812,12 @@ over the same Startup_int file discards one edit. The route builder composes
 edits and then rechecks all final fingerprints. SmallFont's explicit identity-
 256 conversion is only a disk candidate, not verified runtime equivalence.
 The active raw control has its own TOC and is distinct from original backups.
+
+## Do not interpret a mixed-resource test as a font result
+
+The combined probe has six resources. Candidate font/text bytes are shared
+between discs, but their TOCs are not. The read-only verify_resource_phase.py
+checker requires the packet-manifest hash and phase, reports wrong/missing
+resource bytes, and does not launch/install anything. A positive byte check
+is not game rendering or restored-behavior acceptance. Put its report outside
+both inputs so it never writes into a test-resource directory.

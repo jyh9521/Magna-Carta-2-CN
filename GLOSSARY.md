@@ -319,7 +319,9 @@
 | mc2-lab-exit-313 | 제조실 출입카드 | 制造室通行卡 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:098281d172a7bc8ff2fc562e720e045ef20650d13081b609cfe1bfedb5caae16 |
 | mc2-lab-exit-314 | 북부군 보관함 열쇠 | 北部军保管箱钥匙 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:f035bd82425d720e2ba01a1c3d896b14fdf78f0603c80b9315b2d88776bffedb |
 | mc2-square-rescue-315 | 벨제붑 | 别西卜 | character | alias | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:e0e8cbc67c875459ff1d1869bc7d93831a9f27f5721f226ebf85370ecdc46631 |
+| mc2-kota-care-316 | 조파 | 佐帕 | character | alias | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:518da6219ad55a776e7b9ab93d0422bcbb039a5eccf1305cda965481a94dc82e |
+| mc2-kota-care-317 | 각성의 향 | 觉醒之香 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:ec74dc911e6f3d1db38cc7fe69d7bb9804cf845c9b263f9a40823b84b4fe99ed |
 
-本作词条：315；已继承：0。
+本作词条：317；已继承：0。
 
 固定来源、统计、冲突与审核流程见 [系列术语参考](docs/SERIES_TERMS.md)。

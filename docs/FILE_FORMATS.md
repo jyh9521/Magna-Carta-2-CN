@@ -994,3 +994,10 @@ transfer2+2 bytes from offsets4/6 while native arithmetic uses8-byte stride;
 next-link at0 is not in the element transfer sequence. Word+6C precedes map,
 word+68 follows it. Kerning/IsRemapped identity is high-confidence deduction,
 not a verified archive-call/runtime bridge; container type refs remain opaque.
+## Explicit 256-glyph identity-remap candidate
+
+The opt-in supplement mode identity-256 retains the old glyph records and
+introduces256 u16/u16 identity map pairs, then new supplement pairs. Tagged
+IsRemapped and the final native word both become1. Required FNames must already
+exist. This is a checked serialization transformation, not proof of a loaded
+Font state or equivalence of the actual drawing path. See WARNING_FONT_ROUTE_PROBE.md.

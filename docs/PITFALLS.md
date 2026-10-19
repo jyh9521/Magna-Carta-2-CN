@@ -804,3 +804,11 @@ readonly literal is a stronger local anchor. Use the separate Font profile;
 do not relax old style-profile boundaries or drop full native U prefixes.
 See FONT_SERIALIZATION.md. The six static serialization templates do not
 establish archive virtual-call semantics or authorize runtime-font claims.
+## Preserve both Font edits in Startup_int
+
+The warning's component and default-style candidates include different font
+families in the same package. Copying separate General_15/SmallFont candidates
+over the same Startup_int file discards one edit. The route builder composes
+edits and then rechecks all final fingerprints. SmallFont's explicit identity-
+256 conversion is only a disk candidate, not verified runtime equivalence.
+The active raw control has its own TOC and is distinct from original backups.

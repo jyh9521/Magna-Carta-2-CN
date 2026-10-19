@@ -144,7 +144,7 @@ def build(plan, game_root, project_root, font_file, output_root, decoder=None):
         after = fingerprint(after_graph, select_font(after_graph, source, plan), decoder)
         if (after['semantic_sha256'] != plan['expected_supplement_semantic_sha256']
                 or after['glyph_count'] != before[label]['glyph_count'] + len(glyphs)
-                or after['remap_count'] != before[label]['remap_count'] + len(glyphs)):
+                or after['remap_count'] != before[label]['remap_count'] + len(glyphs) + (256 if glyph_plan.get('remap_conversion')=='identity-256' else 0)):
             raise FormatError('supplement semantic/count mismatch: ' + label)
         candidates[label] = dict(data=candidate, report=report, fingerprint=after)
         if len(candidate) != len(originals[label]):

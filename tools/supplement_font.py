@@ -41,6 +41,8 @@ def validate_plan(plan):
         raise FormatError("plan requires schema_version1 and in_game_verified=false")
     if type(plan.get("font_size")) is not int or not 1 <= plan["font_size"] <= 128:
         raise FormatError("plan font_size outside 1..128")
+    if 'remap_conversion' in plan and plan['remap_conversion'] != 'identity-256':
+        raise FormatError('unsupported explicit remap_conversion')
     if "metric_height" in plan and (type(plan["metric_height"]) is not int or not 1 <= plan["metric_height"] <= 128):
         raise FormatError("invalid metric_height")
     glyphs = plan.get("glyphs")
@@ -115,9 +117,38 @@ def tagged_glyph(names, metric):
     return bytes(out) + fname("None")
 
 
-def append_font_payload(data, names, additions):
+def identity_remap_payload(data, names):
+    """Opt-in candidate: retain 256 glyphs and introduce explicit u8 identity keys.
+
+    Disk transformation only. Neither caller/draw-path equivalence nor runtime
+    activation is inferred from the selected native measurement branch.
+    """
+    old=parse_font_payload(data,names)
+    if old['is_remapped'] or old['remap'] or len(old['characters'])!=256:
+        raise FormatError('identity-256 requires exactly 256 non-remapped glyphs')
+    for name in ('None','IsRemapped','IntProperty'):
+        if names.count(name)!=1:raise FormatError('identity remap requires unique existing property names')
+    prefix=bytearray(data[:old['native_offset']])
+    tag=next((p for p in old['properties'] if p['name']=='IsRemapped'),None)
+    if tag is not None:
+        prefix[tag['value_offset']:tag['value_offset']+4]=word(1)
+    else:
+        fname=lambda name:word(names.index(name))+word(0)
+        prefix=prefix[:-8]+fname('IsRemapped')+fname('IntProperty')+word(4)+word(0)+word(1)+prefix[-8:]
+    out=bytes(prefix)+data[old['native_offset']:old['remap_offset']]+word(256)
+    out+=b''.join(struct.pack('>HH',i,i) for i in range(256))+word(1)
+    new=parse_font_payload(out,names)
+    if new['characters'] and ([[g[k] for k in METRIC_KEYS] for g in new['characters']]!=[[g[k] for k in METRIC_KEYS] for g in old['characters']]
+        or new['textures']!=old['textures']):raise FormatError('identity remap changed original metrics/textures')
+    return out
+
+
+def append_font_payload(data, names, additions, remap_conversion=None):
     """Append tagged/native/remap records; retain every original stored record byte."""
     old = parse_font_payload(data, names)
+    if remap_conversion is not None:
+        if remap_conversion!='identity-256':raise FormatError('unsupported explicit remap_conversion')
+        data=identity_remap_payload(data,names);old=parse_font_payload(data,names)
     if not old["is_remapped"]:
         raise FormatError("supplement requires existing explicit remap")
     count, remap_count = len(old["characters"]), len(old["remap"])
@@ -263,7 +294,11 @@ def supplement_package(data, expected_hash, font_object, plan, alphas, decoder, 
     summary = parse_summary(data, len(data))
     logical = decode_logical(data, summary, decoder)
     tables = parse_tables(logical, summary, len(logical))
-    candidates = [e for e in tables["exports"] if e["path"] == font_object and e["class_path"] == "Engine.Font"]
+    try:
+        from .audit_text_font_coverage import supported_font_class
+    except ImportError:
+        from audit_text_font_coverage import supported_font_class
+    candidates = [e for e in tables["exports"] if e["path"] == font_object and supported_font_class(tables,e)]
     if len(candidates) != 1:
         raise FormatError("font object must resolve to exactly one Engine.Font export")
     export = candidates[0]
@@ -276,7 +311,10 @@ def supplement_package(data, expected_hash, font_object, plan, alphas, decoder, 
     if not 1 <= ref <= len(tables["exports"]):
         raise FormatError("atlas reference is not a local export")
     atlas_export = tables["exports"][ref - 1]
-    if atlas_export["class_path"] != "Engine.Texture2D":
+    local_class=atlas_export['class']
+    local_texture=(atlas_export['class_path']=='Texture2D' and type(local_class) is int and 0<local_class<=len(tables['exports'])
+        and tables['exports'][local_class-1]['path']=='Texture2D' and tables['exports'][local_class-1]['class_path']=='Class')
+    if atlas_export["class_path"] != "Engine.Texture2D" and not local_texture:
         raise FormatError("atlas reference is not Texture2D")
     atlas_offset, atlas_size = atlas_export["serial_offset"], atlas_export["serial_size"]
     atlas = logical[atlas_offset:atlas_offset + atlas_size]
@@ -323,7 +361,7 @@ def supplement_package(data, expected_hash, font_object, plan, alphas, decoder, 
         raise FormatError("new glyph alpha quantization exceeds bound")
     if any(old_rgba[i * 4:i * 4 + 4] != new_rgba[i * 4:i * 4 + 4] for i in range(texture["width"] * texture["height"]) if i not in selected_pixels):
         raise FormatError("original atlas surface outside cells changed")
-    new_font = append_font_payload(old_font, tables["names"], additions)
+    new_font = append_font_payload(old_font, tables["names"], additions,plan.get('remap_conversion'))
     new_font_parsed = parse_font_payload(new_font, tables["names"])
     tagged_size = next(p["size"] for p in font["properties"] if p["name"] == "Characters") - 4
     def original_record_hashes(payload, parsed):
@@ -377,7 +415,7 @@ def supplement_package(data, expected_hash, font_object, plan, alphas, decoder, 
     if verified_logical != expected_logical:
         raise FormatError("complete rebuilt package logical roundtrip failed")
     parse_tables(verified_logical, output_summary, len(verified_logical))
-    return output, {"schema_version": 1, "status": "static-prototype-verified", "input_sha256": sha256(data), "output_sha256": sha256(output),
+    report={"schema_version": 1, "status": "static-prototype-verified", "input_sha256": sha256(data), "output_sha256": sha256(output),
                     "input_size": len(data), "output_size": len(output), "font_object": font_object,
                     "atlas_object": atlas_export["path"], "original_texture_bulk_flags": bulk["flags"], "original_glyph_count": len(font["characters"]),
                     "supplemented_glyph_count": len(font["characters"]) + len(additions),
@@ -394,6 +432,10 @@ def supplement_package(data, expected_hash, font_object, plan, alphas, decoder, 
                     "new_font_offset": font_offset, "new_atlas_offset": new_atlas_offset,
                     "package_compression": compression_report, "runtime_rendering_verified": False,
                     "rasterization_quality_verified": False}
+    if 'remap_conversion' in plan:
+        report['remap_conversion']=dict(profile='identity-256',original_mode=False,candidate_mode=True,identity_entries=256,
+            old_glyph_metrics_preserved=True,runtime_equivalence_verified=False)
+    return output,report
 
 
 def main(argv=None):

@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "kind": "offline-font-route-probe",
+  "game_rendering_verified": false,
+  "font_plans": [
+    {
+      "path": "locales/zh-Hans/font-build-disc2.json",
+      "sha256": "316196406f72d61fbe41a79a969f6ff1b7a3a026fce976cb579b3db909ef8c58"
+    },
+    {
+      "path": "locales/zh-Hans/font-build-smallfont-disc2.json",
+      "sha256": "cdff2f5ff2fa45ba52acb4f3fe960e0b365e8a795a0eafdf60c3560880ca2a65"
+    }
+  ],
+  "text_plan": {
+    "path": "locales/zh-Hans/text-probe-font-routes.json",
+    "sha256": "43e2b09ac6f9c38a3d4cb5bf6b6046ae115884c1f8e27b0389b19256a58b4035"
+  },
+  "text_resource": "MC2Game/Localization/Coalesced.int",
+  "expected_text_sha256": "9f5cea2c629c4b638be6e20796162166bcaf9088a7fbc16ed0fad29e91fc4b2b",
+  "raw_packages": true
+}

@@ -718,3 +718,9 @@ references/probes/ui-object-initialization.json 进一步启用metadata size/cal
 and `references/probes/font-serialization.json`; see docs/FONT_SERIALIZATION.md
 for exact invocation and evidence boundaries. Reports must be new. Default
 self-authored tests need no game files, decoder, Capstone or target execution.
+## Warning font-route candidate
+
+See docs/WARNING_FONT_ROUTE_PROBE.md and tools/build_font_route_probe.py for
+the combined five-Font/six-resource candidate, raw controls, explicit identity-
+256 option, user-operated QA sequence and read-only full-byte replay. The normal
+supplement path still rejects non-remapped Fonts without the exact opt-in.

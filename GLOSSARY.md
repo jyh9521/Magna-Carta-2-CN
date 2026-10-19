@@ -250,7 +250,16 @@
 | mc2-royal-trials-244 | 잔달리아 협곡 | 赞达利亚峡谷 | place | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:9cbc09855f325db8d4fa0b61542cb0bf8c7ff9cb863b096ef63940eaa2952d87 |
 | mc2-royal-trials-245 | 어둠의 은신처 | 暗影藏身处 | place | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:62765abbe6abf3503b1b446a6559b46cab6e6e33f8785a2e61dfee41bb6ba0a3 |
 | mc2-royal-trials-246 | 르제필다 그레나 베를리네트 | 蕾洁菲尔妲·格蕾娜·贝尔利内特 | character | full-name | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:924f0766f89b81e9542607580fb721991942306aefc3aac007a453a8e4174f1f |
+| mc2-coming-age-247 | 네스틴 | 内斯汀 | character | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:c0f00fde13feacdd9902c102acf543b329830ce256269d44802d8520cce55439 |
+| mc2-coming-age-248 | 스위틴 | 斯维汀 | character | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:c0f00fde13feacdd9902c102acf543b329830ce256269d44802d8520cce55439 |
+| mc2-coming-age-249 | 그라미 | 格拉米 | character | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:b14205411e73d4642ca57c4b6c96434029bc3e058d11605c6a58446c0d082ae2 |
+| mc2-coming-age-250 | 유니온 | 尤尼昂 | character | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:881c11b18bbbfb9b721ac76136ad16d442ac93c2e89469eb7f54d7c0876c5587 |
+| mc2-coming-age-251 | 유니온의 뿔 | 尤尼昂之角 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:dd5893f06166c2556dca9a1fc9df8f4f085efba832c64100e39e465dd5abc071 |
+| mc2-coming-age-252 | 향의 원천 | 香气之源 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:12b3e867eb96e101e7fb89d03f82e53bf8251e0084f23bd580e4be29e3d6a50c |
+| mc2-coming-age-253 | 자연의 의식 | 自然仪式 | quest | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:7f263764bb7fb602894e69b47a313227d8c3460079f7e3bb1a3725aca93082d9 |
+| mc2-coming-age-254 | 힘의 의식 | 力量仪式 | quest | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:7f263764bb7fb602894e69b47a313227d8c3460079f7e3bb1a3725aca93082d9 |
+| mc2-coming-age-255 | 향의 의식 | 香气仪式 | quest | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:7f263764bb7fb602894e69b47a313227d8c3460079f7e3bb1a3725aca93082d9 |
 
-本作词条：246；已继承：0。
+本作词条：255；已继承：0。
 
 固定来源、统计、冲突与审核流程见 [系列术语参考](docs/SERIES_TERMS.md)。

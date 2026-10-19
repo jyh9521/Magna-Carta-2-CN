@@ -232,7 +232,10 @@
 | mc2-sixth-regions-226 | 라노아라 호수 | 拉诺阿拉湖 | place | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:63cbd7ac88d36c1b43c875bbaa4af4bbaa0d4e16c464776014a0e8225592aef7 |
 | mc2-sixth-regions-227 | 레인폴트 | 雷恩波尔特 | place | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:a47ec29b3aeed8078f91f01c08539260e651d622e02ce246ad09af8c0ccf5900 |
 | mc2-sixth-regions-228 | 레인폴트 폐허 | 雷恩波尔特废墟 | place | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:86befcd0b2a0bfef46e6ec4ca8018956331a716e5863ab651ff7be8d31c6f47e |
+| mc2-rest-stop-229 | 일기장 | 日记 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:46915d1006b470135521ee0cbd1b8583d244929ff53a87fc68c3c2546717b439 |
+| mc2-rest-stop-230 | 낡은 일기장 | 破旧的日记 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:71f6fe7b592c71a4f2028f321a706ec344a201bf97a7efe27a392f53a8ca4715 |
+| mc2-rest-stop-231 | 작은 주머니 | 小袋子 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:46915d1006b470135521ee0cbd1b8583d244929ff53a87fc68c3c2546717b439 |
 
-本作词条：228；已继承：0。
+本作词条：231；已继承：0。
 
 固定来源、统计、冲突与审核流程见 [系列术语参考](docs/SERIES_TERMS.md)。

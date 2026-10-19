@@ -910,3 +910,7 @@ Verified：prepare_translation_workspace当前要求terms中的每条resource/so
 第33批的一号候选采用batch-033.review.json/subtitle_term_candidates保存真实subtitle ID、cue源hash、resource、
 target和candidate状态；Coalesced共享terms仍只保存其已支持的容器锚点。
 未来扩展统一导入器时应增加显式锁定的字幕来源及验证，再迁移该候选，不能把独立候选自动提升为reviewed。
+
+## 第六章护送任务的未知反斜线（batch036）
+
+Verified / source：MC2Quest.int [06_603_0] 603_0在“몬스터를”之后含`\처`，不是已确认的`\n`。原ID/hash见batch-036.review.json；保持原值，不猜换行，不计draft。即使同值后面另有合法换行也不整体规范化。

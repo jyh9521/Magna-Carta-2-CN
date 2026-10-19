@@ -367,7 +367,8 @@
 | mc2-gate-trials-361 | 진용 | 真勇 | area | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:9484584c5ca74a0824d5d44791c4e689d23c66ad686119737bad2dac496ceb5f |
 | mc2-gate-trials-362 | 시련의 구체 | 试炼之球 | object | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:460a5425833ef323a9700e00294c3355e6e04f2a948c75e6830e86fc870c41cc |
 | mc2-gate-trials-363 | 가호의 빛 | 庇护之光 | effect | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:123f3a013c262d4939cb8c160e44aff6aa1a6287acdb7b4e92778a72da4ec98b |
+| mc2-royal-gate-364 | 왕의 관문 | 王之关卡 | location | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:dbb725ecb2f787f5bd6e0644aea891393621101ebdd0e34a3ccee2ab6e45bb6f |
 
-本作词条：363；已继承：0。
+本作词条：364；已继承：0。
 
 固定来源、统计、冲突与审核流程见 [系列术语参考](docs/SERIES_TERMS.md)。

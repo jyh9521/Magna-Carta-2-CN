@@ -1,3 +1,10 @@
+## 第84批接续状态（2026-10-20）
+
+INT累计8,866条draft，本批Ch04_Abazet_1三十八条，详见[BATCH_084_ABAZET_SIEGE](BATCH_084_ABAZET_SIEGE.md)。共享candidate411及词表冻结。
+下一组Ch04_Abazet_2五十二与04_oldfox十五按阶段接续；另外ruhalt/698_0一条为真实未译对白，待核人物上下文，未标held。
+邮件128/235、44字幕315/315已提取cue、所有旧held与双盘来源保持，不合盘。其余原值9310含工具/样本，不作为确定玩家待译量。
+早期NPC猜测不补后期真相，纯省略按上下文逐条辨别；未刷新字库/TOC/玩家入口，离线不代替游戏验收。
+
 ## 第83批接续状态（2026-10-20）
 
 INT累计8,828条draft；本批27条见[BATCH_083_RUE_SMILE](BATCH_083_RUE_SMILE.md)。rue_cerestin七条、10_dunanfield七/10_kotaneco五、休息站人物/导航四、两封邮件四已补。

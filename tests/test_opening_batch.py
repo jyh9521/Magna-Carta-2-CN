@@ -76,7 +76,14 @@ class OpeningBatchTests(unittest.TestCase):
 
     def test_terms_have_provenance_and_remain_candidates(self):
         terms=load('locales/zh-Hans/terms.json')
-        self.assertFalse(validate_terms(terms))
+        # This source-free unit contract checks declared identities and pinned
+        # commits. The CLI --with-references separately verifies the actual
+        # cached upstream bytes; a clean checkout must not require that cache.
+        declared=[ref for t in terms['terms'] for ref in t['series_references']]
+        pinned={r['id']:r['commit'] for r in load('references/series.lock.json')['references']}
+        for ref in declared:
+            self.assertEqual(ref['commit'],pinned[ref['reference']])
+        self.assertFalse(validate_terms(terms,declared))
         self.assertGreaterEqual(len(terms['terms']),20)
         self.assertTrue(all(t['review_status']=='candidate' for t in terms['terms']))
         # Terms grow beyond the historical opening sample. Check the explicitly

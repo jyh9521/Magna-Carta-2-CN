@@ -79,7 +79,34 @@
 | mc2-island-073 | 함정 | 陷阱 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:fbddf7e0e575179526ba970eb3c4b16d8c04244bb2ccc90e178fa506f9bb8bfe |
 | mc2-island-074 | 타겟팅 서클 | 瞄准圈 | combat | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:1c8e0b6da47868c07e40a5b42c6f8561aa184842539785be28d3e59e58c1117a |
 | mc2-island-075 | 학살자 엘가 | 屠杀者艾尔加 | character | title | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:0519ae7c99287e762b595099ed52c07e4bfcc1b621c44a936b8700327106c1e0 |
+| mc2-abazet-076 | 루 | 露 | character | short-name | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:5609869e982948d7906f5cf1d4d9e34f205cba783d9cd102443e83527a59c7c3 |
+| mc2-abazet-077 | 알렉스 | 亚历克斯 | character | short-name | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:55ee4141ea120a246dff0deac55efdd9d83ec8ddb2894bfc015dce14475e160e |
+| mc2-abazet-078 | 알렉스 백작 | 亚历克斯伯爵 | character | title | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:55ee4141ea120a246dff0deac55efdd9d83ec8ddb2894bfc015dce14475e160e |
+| mc2-abazet-079 | 시온 레그럴 | 希昂·雷格拉尔 | character | full-name | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:9d5baaa64f8b8d8e02fd1ec084838bc966360b2cee8b6918d67d114a789025ea |
+| mc2-abazet-080 | 웨어울프 | 狼人 | creature | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:501e8d3be26d534571cc6454701b2e92295ba62046ff3a4f96b20bba6e8ca6e4 |
+| mc2-abazet-081 | 늙은 여우 협곡 | 老狐峡谷 | place | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:220a6319bce74e8f0a8077a11231c815efa98011e9d9e35a798ef77c45d0e672 |
+| mc2-abazet-082 | 큐브 | 库布 | device | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:f9e2fda51381aecafcae3d8b2e774be09694d33fe177610792bc71c4e2a91c46 |
+| mc2-abazet-083 | 길드원 조합 | 公会联盟 | organization | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:17d3940ab3be23686e3528830442dfdb18aa09de4ac2c4d8310a7127178686b1 |
+| mc2-abazet-084 | 마레 족 | 马雷族 | race | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:82f3273c10ba8b5bb087a82736951143e223c6c41ba189ae11483210935a4162 |
+| mc2-abazet-085 | 아비스 족 | 阿维斯族 | race | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:a32419b064534674af77501c1de2493dafc9236669b76b1273446227b408f429 |
+| mc2-abazet-086 | 라티 족 | 拉提族 | race | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:92d2bf2935e8e83d8a8cf91a34a57b3eef554e5654f00199a789c1ded64b424b |
+| mc2-abazet-087 | 재화종 | 灾祸种 | world | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:dad8b18207e7c4747203ba30d70329cffa49d006ebe6d5a4fb5b589d292f859f |
+| mc2-abazet-088 | 물빛 저습지 | 水色湿地 | place | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:dad8b18207e7c4747203ba30d70329cffa49d006ebe6d5a4fb5b589d292f859f |
+| mc2-abazet-089 | 슈나이더 | 施耐德 | character | short-name | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:10a8f89b502033dc6b49ccef29dbdbd8f5367bb189ef49bd6819d0f4e266b3c3 |
+| mc2-abazet-090 | 이엘 | 伊尔 | character | short-name | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:f4edbda14fa7d59bdd9f7b20af97b64b31c4d69ded9689ff78f4ec84c854a07c |
+| mc2-abazet-091 | 이엠 | 伊姆 | character | short-name | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:ffb48d404feaad351a246e7d59f6f1006a60be78ee532672e36948f189e06245 |
+| mc2-abazet-092 | 이엔 | 伊恩 | character | short-name | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:d7addc08b42e0633d7f0c852562f169f1e7b87b73bd224db141dd48894ad66e7 |
+| mc2-abazet-093 | 카이토 | 凯托 | character | short-name | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:3f269d30c54b509b97925edf38963ec836c5c4e41a39e862688917397e3afdb8 |
+| mc2-abazet-094 | 데프틴 광산 | 德普廷矿山 | place | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:7aaa3ca45cc74b41a4ba86aff70fc52117aa64875748a1218f7093e238c5336c |
+| mc2-abazet-095 | 퐁 | 蓬蓬 | creature | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:915351dee0856b110e8cd9781810d4aa2ae943cd3d3a8a8ff7a97c8ea30d50b3 |
+| mc2-abazet-096 | 퐁 잡기 | 抓蓬蓬 | minigame | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:915351dee0856b110e8cd9781810d4aa2ae943cd3d3a8a8ff7a97c8ea30d50b3 |
+| mc2-abazet-097 | 포이즌 웜 | 毒蠕虫 | creature | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:9d3f5f7ad3a55e8bfe297e57e0ebe70494a0234d7a6d1219846437bf7f56bd15 |
+| mc2-abazet-098 | 해독제 | 解毒剂 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:6d765a21866b26410a94bf583c81a993a655a62135cf740d287a8e50b43596b3 |
+| mc2-abazet-099 | 해독약 | 解毒剂 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:d15a0a864491566e81b07bfe50a58fc3ffbb23a68faf9d7683168023343a288e |
+| mc2-abazet-100 | 중독 | 中毒 | status | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:d15a0a864491566e81b07bfe50a58fc3ffbb23a68faf9d7683168023343a288e |
+| mc2-abazet-101 | 대센티넬 부대 | 反哨兵部队 | organization | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:a2f351c030235a5f5017f069d2684346eef8919bbf7d27d0160e3e15cdcc01b3 |
+| mc2-abazet-102 | 파티전투 | 小队战斗 | combat | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:8d3e31ae9355a604363854998ac47562bbfcfaf99f35e7467bda73ba709bcf72 |
 
-本作词条：75；已继承：0。
+本作词条：102；已继承：0。
 
 固定来源、统计、冲突与审核流程见 [系列术语参考](docs/SERIES_TERMS.md)。

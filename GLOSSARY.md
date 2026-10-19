@@ -424,7 +424,14 @@
 | mc2-lunch-fruit-418 | 하만 | 哈曼 | character | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:c9dddfaccaa531ea3803f862af1cbc4144daffb5872469e49b57a5cbe87eee8c |
 | mc2-lunch-fruit-419 | 마마 웜 | 玛玛蠕虫 | creature | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:b036411df1c0520dea21b8a9edfbbf6ceabb317bfc4dfbe5962c096743844701 |
 | mc2-lunch-fruit-420 | 리안나의 도시락 | 莉安娜的便当 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:ec7398603e69db39b74b10aa0ebb2710f92e3c836584271f2bb452b74e685557 |
+| mc2-island-preparation-421 | 화염초 | 火焰草 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:ce360755fedc9ee047ca0b31bfe9cd0fb327b5e28dbdbd693294514571641578 |
+| mc2-island-preparation-422 | 공구 | 工具 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:8c0e86ef9aac86b2605d627614653a253021c98c16ca3f4502d87effd69bf5d2 |
+| mc2-island-preparation-423 | 빌터의 열쇠 | 比尔特的钥匙 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:2243a689ebb755e98b6d21b7ee0afd14f1cc451912efc0af08cb34fb7b6e2681 |
+| mc2-island-preparation-424 | 덫의 재료 | 陷阱材料 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:1d0b0e30a5e54407e01f2d70482ba57a5e1f7e245e4b39bdcd9457ee5baa3883 |
+| mc2-island-preparation-425 | 단단한 뿔 | 坚硬的角 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:5b820bac11985e4b1b78107ddfe1370f13e3284f9365c592ee0077874728ef36 |
+| mc2-island-preparation-426 | 빌터의 상자 | 比尔特的箱子 | object | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:768f77c007ebf7a46425bf134c73865e11e1373b2c14c82402df7d83fca2d991 |
+| mc2-island-preparation-427 | 피어스웜 | 穿刺蠕虫 | creature | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:049bf6239c29f3a118a4a381bf99fb0dece75c7f983cee1ba22bfc8d8006cd33 |
 
-本作词条：420；已继承：0。
+本作词条：427；已继承：0。
 
 固定来源、统计、冲突与审核流程见 [系列术语参考](docs/SERIES_TERMS.md)。

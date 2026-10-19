@@ -63,7 +63,23 @@
 | mc2-opening-057 | 대시 | 冲刺 | combat | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:92c9ba0ff1091e0e9157b38ccb02581fc72af688492f25e048416e4e6a8b564e |
 | mc2-opening-058 | 카운터 | 反击 | combat | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:50f8b3834c956082d43d420f71cefc5e2e32d77215d00b728d8988d98504c49d |
 | mc2-opening-059 | 이공진퇴 | 凌空震踢 | skill | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:a0d8d808919753b1baabb3dfa671c652711b8dee2fe89b8b0a70ee954429582a |
+| mc2-island-060 | 엘가 | 艾尔加 | character | short-name | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:1b0de89908471eea1002b1fda2add9e70c16a803e4475f1821fd30549f4eae6f |
+| mc2-island-061 | 슈엔자이트 | 修恩扎伊特 | character | short-name | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:cb193c45203708ee5f3dbb876dd54e26bbbcbc10809bcb027e36980e4425e2e0 |
+| mc2-island-062 | 청령의 숲 | 青灵森林 | place | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:244da57d30ff22525d5b5d210a7974b873f3fc9eb7155f26c943f954d5c50e0d |
+| mc2-island-063 | 청령의 해안 | 青灵海岸 | place | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:e4ae5bb8e52c6c7931f2ae94d0c76ded106ecdeffe2fe25baa78d72b35bb7b53 |
+| mc2-island-064 | 데스발리스타 | 死亡弩炮 | weapon | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:4a8f64f5e531af8d4cfaabe99bbdd3d797c3d64252bc8810eea71f6d93f48382 |
+| mc2-island-065 | 피어스 웜 | 穿刺蠕虫 | creature | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:fd4c9fbb784fdcdc215b1209221bc1f2b4b4118e6f3057c946f083eb19667e19 |
+| mc2-island-066 | 속성칸 | 属性KAN | combat | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:00fa8959508d633ade678883b094e58e29d7a97855245a5ad825be403326ee08 |
+| mc2-island-067 | 연환술사 | 连环术师 | role | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:d0eec7273eede4c222c25b5bd9185b738887cad084f5b1efd7a357336d3faaac |
+| mc2-island-068 | 어지러움 | 眩晕 | status | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:3bcbb517d9039e362970d6c1e92437a1e7e54f47ad847907408c20b1e19fb537 |
+| mc2-island-069 | 침묵 | 沉默 | status | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:3bcbb517d9039e362970d6c1e92437a1e7e54f47ad847907408c20b1e19fb537 |
+| mc2-island-070 | 목캔디 | 润喉糖 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:acbd5233c06800c8088bf88f5b31a33ef404db5201fa8ad22cc216cb13d4c33d |
+| mc2-island-071 | 붕대 | 绷带 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:871a324efa000809ed9121116d40f3f671dd203b5b205109d91cada4cc38a4a5 |
+| mc2-island-072 | 화염병 | 燃烧瓶 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:8c6b059ceae3f00b3499de698afce341b5d66616abd86972fa55f86a111fd69c |
+| mc2-island-073 | 함정 | 陷阱 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:fbddf7e0e575179526ba970eb3c4b16d8c04244bb2ccc90e178fa506f9bb8bfe |
+| mc2-island-074 | 타겟팅 서클 | 瞄准圈 | combat | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:1c8e0b6da47868c07e40a5b42c6f8561aa184842539785be28d3e59e58c1117a |
+| mc2-island-075 | 학살자 엘가 | 屠杀者艾尔加 | character | title | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:0519ae7c99287e762b595099ed52c07e4bfcc1b621c44a936b8700327106c1e0 |
 
-本作词条：59；已继承：0。
+本作词条：75；已继承：0。
 
 固定来源、统计、冲突与审核流程见 [系列术语参考](docs/SERIES_TERMS.md)。

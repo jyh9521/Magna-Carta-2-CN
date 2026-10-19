@@ -165,7 +165,11 @@
 | mc2-rescue-159 | 남부 관문 | 南部关卡 | place | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:240c4ff3b1a72cd506b5bfcb3b285bdf74a57f07ac1906db51840c105265bd80 |
 | mc2-rescue-160 | 마이티 랩퍼스 | 强壮拉普斯 | creature | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:e41508f6df60bb1f3068b8231ebf5ab0aceade233b2caaaba8dae3e2abb26d2b |
 | mc2-rescue-161 | 폭탄 상자 | 炸弹箱 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:e41508f6df60bb1f3068b8231ebf5ab0aceade233b2caaaba8dae3e2abb26d2b |
+| mc2-return-162 | 사랑의 묘약 | 爱情魔药 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:043126b392e856b9ecf0fce8a861b34167bfcad48d0c10870c02c4fc2886efea |
+| mc2-return-163 | 후안의 편지 | 胡安的信 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:b8a8b0648ef17a05961dc5fc723ab1c97558e653da8974a94d267b55e497d1fc |
+| mc2-return-164 | 바리케이드 | 路障 | object | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:323049f7d61a97a53a596769fd33b06d5fce185a5595e0dacf096f3d37b3e573 |
+| mc2-return-165 | 치유연환술 | 治愈连环术 | combat | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:19ac590a95b1396f59d17b76a1faa27e69ebdc1e3df535352c5c1ca624176ca9 |
 
-本作词条：161；已继承：0。
+本作词条：165；已继承：0。
 
 固定来源、统计、冲突与审核流程见 [系列术语参考](docs/SERIES_TERMS.md)。

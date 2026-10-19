@@ -922,3 +922,7 @@ Verified / source：MC2Item.int的Valuables中，key_laboratory及key_laboratory
 ## 第九章演说源句异常（batch050）
 
 Verified / source：MC2CSMB.int [CSMB09_20] voc_csmb_0920_06含감Ｒ异常混合字符，句段缺损。稳定ID/hash见batch-050.review.json held_entries；双盘源hash一致也不证明语义完整。保持原值，不猜补成常见韩语动词，不计draft；完整源仅留忽略的本地验证证据。
+
+## Boss回复日志是拼接片段（batch051）
+
+Verified / source：MC2UI.int Battle_Log/beeljebubRecover_1/2分为Boss主语和带助词的HP后缀片段。Unverified：运行时夹入数值的位置/拼接顺序尚无调用证据。两项ID/hash记录于batch-051.review.json held_entries，原值保持；不要只译Boss主语，也不要未经证据重组数值/动词顺序。

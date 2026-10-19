@@ -220,7 +220,9 @@
 | mc2-ruhault-opening-214 | 루할트 분지 | 鲁哈尔特盆地 | place | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:949eb6501a9675d451f57db1dfda8b88c8c6a0563573d35b36bda0f686e28ea9 |
 | mc2-ruhault-opening-215 | 연계오의 | 连携奥义 | system | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:f172216d13fc3814baea00d7d67e7420007f1fbdc308af83b631b7a8ebcd5c13 |
 | mc2-ruhault-opening-216 | 번개의 칸 | 雷之KAN | system | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:06c032e674e035bcf7c44f159370f766bbaaabc51b257a2ffcbbe64f8848bc2d |
+| mc2-queen-rati-217 | 여왕 라티 | 拉提女王 | character | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:69382aacd47ecc606af0fcc45a0af247df6ffc869f5cd60104d2eebffa61ff7f |
+| mc2-queen-rati-218 | 여왕 라티의 가면조각 | 拉提女王的面具碎片 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:7be20e7cbac26f952acf448d685a8d0c5d75b40512695ac72e3868178d9924c6 |
 
-本作词条：216；已继承：0。
+本作词条：218；已继承：0。
 
 固定来源、统计、冲突与审核流程见 [系列术语参考](docs/SERIES_TERMS.md)。

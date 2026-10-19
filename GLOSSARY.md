@@ -176,7 +176,11 @@
 | mc2-alliance-170 | 은백의 바이젠 | 银白的拜泽恩 | character | title | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:c7ff4683e79e65916cc81f09fe9edebeef8edf8bc3b79988e9fee474f52c7c3e |
 | mc2-alliance-171 | 향수병 | 香水瓶 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:5d041bb3303b854e3118eee7d0b6b7f12a087ac6288cd479d651645cc99d12f0 |
 | mc2-alliance-172 | 바이젠의 유품 | 拜泽恩的遗物 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:90f849f05f777fefdf2082fbd9b0e4bb2b411c30c2e6f8e0815da5da5269b7ef |
+| mc2-tomb-173 | 아셀리나 | 阿塞莉娜 | character | short-name | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:e55887d706ef53a646858bce2fc3e29422d9d71702adb6289aa67952b37dfb0c |
+| mc2-tomb-174 | 카르타대전 | 卡尔塔大战 | event | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:05ca4d61845696a9e82f8f4a7a222cbcf381d5f50c3bbb5b09ecc243148de010 |
+| mc2-tomb-175 | 스트라스의 묘 | 斯特拉斯之墓 | place | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:620706bb0e5f63167565980fb5ab5ee83117582e9f0ec2ad2506f51536477c74 |
+| mc2-tomb-176 | 아셀리나의 눈물 | 阿塞莉娜之泪 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:ffc4da4291457945e2e5f71548e88bc0939e398e211b22e50ab43530c6a542aa |
 
-本作词条：172；已继承：0。
+本作词条：176；已继承：0。
 
 固定来源、统计、冲突与审核流程见 [系列术语参考](docs/SERIES_TERMS.md)。

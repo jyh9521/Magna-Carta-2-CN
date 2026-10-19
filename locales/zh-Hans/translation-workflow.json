@@ -11,7 +11,7 @@
   },
   "terms": {
     "path": "locales/zh-Hans/terms.json",
-    "sha256": "4273bd0b1592f52caf87cc499e0a137de2ad73723454741de1158f773f216ee0"
+    "sha256": "e4ece1d5a6c1ea377cb55e5560578a6ad07892e327a5a2a8b01a8886b20270d5"
   },
   "batches": [
     {
@@ -163,11 +163,21 @@
         "path": "locales/zh-Hans/batch-015.review.json",
         "sha256": "76f10958585a877f65e2437c59271b0771f1b7df7f028680641884b3bb9ed569"
       }
+    },
+    {
+      "plan": {
+        "path": "locales/zh-Hans/batch-016.json",
+        "sha256": "b966effa34317ae969fd2ffcbda3b90efc9b2db3b8f3a4caeefa85f356916484"
+      },
+      "review": {
+        "path": "locales/zh-Hans/batch-016.review.json",
+        "sha256": "9a8c8306aff300b9ac0d9d33732ada85129c860b0a5ea5b2bc012e6015387454"
+      }
     }
   ],
   "notes": [
     "暂停合盘；按资源路径及完整容器hash共享译文，保留两盘来源。",
     "当前运行文本主线为INT；JPN/KOR独立保留，不凭后缀认定语言或自动对齐。",
-    "Coalesced与Movies字幕独立锁定；字幕profile十六份127cue，第十五批补齐csm01-45/50共14条。"
+    "Coalesced与Movies字幕独立锁定；字幕profile十八份141cue，第十六批补齐csm04-20/100共14条。"
   ]
 }

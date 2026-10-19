@@ -224,7 +224,11 @@
 | mc2-queen-rati-218 | 여왕 라티의 가면조각 | 拉提女王的面具碎片 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:7be20e7cbac26f952acf448d685a8d0c5d75b40512695ac72e3868178d9924c6 |
 | mc2-ruhault-close-219 | 루할트 고원 | 鲁哈尔特高原 | place | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:992ebb5202648fd2d35c43fb909bcea2216bfd69be4f5b359f03447f9691aefb |
 | mc2-ruhault-close-220 | 트레와 사막 | 特雷瓦沙漠 | place | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:bed09b54c519b26501729140554fe3132cacd5844c1c908d46ba6ebcc3e81976 |
+| mc2-feast-221 | 천풍일격섬 | 天风一击闪 | skill | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:2aa9463710aeff77af183cef10c2c7af4fc8687363fdd29a9629fae52a7b6f19 |
+| mc2-feast-222 | 킬로티 | 基洛蒂 | character | short-name | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:0c9728e7b7a451f2aa2ec2f976076666a2d367656f343c36e8cbb96153874ca4 |
+| mc2-feast-223 | 세리아 | 塞莉娅 | character | short-name | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:6c1bac362b2537207a48d2864bc28bd0d7e5b193c38ff0ab6a3f53472a4355d6 |
+| mc2-feast-224 | 성인식 | 成人礼 | event | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:6a1f6a93402b9d6ce47e4b1206e7e853ce553f7b184ff24438dd94bd85af7009 |
 
-本作词条：220；已继承：0。
+本作词条：224；已继承：0。
 
 固定来源、统计、冲突与审核流程见 [系列术语参考](docs/SERIES_TERMS.md)。

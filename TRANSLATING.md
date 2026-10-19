@@ -1,3 +1,9 @@
+## 第三十四批马雷成人礼与第六章场地念白补齐（2026-10-19）
+
+新增INT125条，累计5,068条draft；224项共享candidate及1项独立字幕candidate，字幕187/315cue不变。
+Compose/Chapter06共67字段有draft；柯塔马雷庆典前/中两个状态51条、城镇34条与关联技能/姓名同步完成。
+见 [BATCH_034_MARE_FEAST](docs/BATCH_034_MARE_FEAST.md)。其他NPC/任务/邮件仍有缺口，离线成功不是游戏验收。
+
 ## 第三十三批第六章主线与字幕收尾（2026-10-19）
 
 新增INT102条，累计4,943条draft；共享220项candidate，另1项独立字幕candidate；字幕187/315cue。

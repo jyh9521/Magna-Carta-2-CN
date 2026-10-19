@@ -314,7 +314,11 @@
 | mc2-lab-truth-308 | 연구실 출입카드 | 研究室通行卡 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:03bfa9a5ca5d3f8787a74d41c800a34f3a0d9673cf3504c4bd18cd975c53b03a |
 | mc2-lab-rescue-309 | 발포어 | 巴尔福 | character | alias | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:e0502ed17d57ea67a0991451d26c250ca871bbf606dc829a7ad0c5a0e835279c |
 | mc2-lab-rescue-310 | 제동장치 | 制动装置 | term | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:865b39a6bda1e3bcab0ba3fe62e6214363181565c211da668a731c219412860e |
+| mc2-lab-exit-311 | 제조실 | 制造室 | location | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:7731838933c1097576e655e0ab09f7272173a07d1c940ce241cc96241973c4a4 |
+| mc2-lab-exit-312 | 제조실 열쇠 | 制造室钥匙 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:7731838933c1097576e655e0ab09f7272173a07d1c940ce241cc96241973c4a4 |
+| mc2-lab-exit-313 | 제조실 출입카드 | 制造室通行卡 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:098281d172a7bc8ff2fc562e720e045ef20650d13081b609cfe1bfedb5caae16 |
+| mc2-lab-exit-314 | 북부군 보관함 열쇠 | 北部军保管箱钥匙 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:f035bd82425d720e2ba01a1c3d896b14fdf78f0603c80b9315b2d88776bffedb |
 
-本作词条：310；已继承：0。
+本作词条：314；已继承：0。
 
 固定来源、统计、冲突与审核流程见 [系列术语参考](docs/SERIES_TERMS.md)。

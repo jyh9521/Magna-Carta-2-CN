@@ -411,7 +411,9 @@
 | mc2-malachia-core-405 | 뇌제 | 雷帝 | weapon | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:f7b886ca145d9a650fd0fbb1f8f056e969ac38bdef31a99ea863cda84fa364df |
 | mc2-malachia-core-406 | 연구소의 열쇠 | 研究所钥匙 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:22f361b7bcf01648e114220572dcea5fda07c2548dd2ed39d05fa75dbddbf607 |
 | mc2-malachia-core-407 | 단도 | 短刀 | weapon-type | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:f34b6c3ff00646ca1d59194ea7e5aabc929f355086bd7ffe5c79f48ddbd51de1 |
+| mc2-thief-revenge-408 | 팬텀 블레이드 | 幻影之刃 | weapon | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:77f3a047bec89322a9234ad4d256e388ced2222dcf8aa01bcabe377156cd43f8 |
+| mc2-thief-revenge-409 | 도적 | 盗贼 | role | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:46084cf6474af095cf5df7e65a4ef91d5ae9eff1088f7c3610ce60773c29103e |
 
-本作词条：407；已继承：0。
+本作词条：409；已继承：0。
 
 固定来源、统计、冲突与审核流程见 [系列术语参考](docs/SERIES_TERMS.md)。

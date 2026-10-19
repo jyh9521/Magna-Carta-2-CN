@@ -663,11 +663,21 @@
         "path": "locales/zh-Hans/batch-065.review.json",
         "sha256": "81cf7015ad17ca01d83ab71f59e232bbd0b68ad50e9f2b5ed0f9664d74fb0c4f"
       }
+    },
+    {
+      "plan": {
+        "path": "locales/zh-Hans/batch-066.json",
+        "sha256": "a1a3985367db9db1757d09c81fc72a863fb0624c1fc46caf0974517da5853acf"
+      },
+      "review": {
+        "path": "locales/zh-Hans/batch-066.review.json",
+        "sha256": "9b7563e51ec0f08fbf01e635b84d0b8d0b27484b63b5827bf07e73f226b6bb8e"
+      }
     }
   ],
   "notes": [
     "暂停合盘；按资源路径及完整容器hash共享译文，保留两盘来源。",
     "当前运行文本主线为INT；JPN/KOR独立保留，不凭后缀认定语言或自动对齐。",
-    "Coalesced与Movies字幕独立锁定；字幕profile三十七份270cue，第六十一批补csm11-50/60十六cue，第十一章两份独立字幕16cue均draft。"
+    "Coalesced与Movies字幕独立锁定；字幕profile三十八份271cue，第六十六批补csm12-80送行一cue，仍为draft。"
   ]
 }

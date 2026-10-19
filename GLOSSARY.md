@@ -150,7 +150,15 @@
 | mc2-calamity-144 | 마그나카르타 | 玛格纳卡尔塔 | title | title | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:e710ef654e9df380c65a5b3298319e6455801b41239df79391b0441b349da871 |
 | mc2-calamity-145 | 루할트 내전 | 鲁哈尔特内战 | event | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:ecad05d727a8be418589b66ca0f4130ed10c72e37d6cca272e8e2fb60fa2be1d |
 | mc2-calamity-146 | 악몽의 마녀 | 梦魇魔女 | character | title | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:b0b7824c32f20fa0db58b4a61cb2e4056f64b03a0e92f0d96d33f9d36e74a56e |
+| mc2-kotamare-147 | 세레스틴 | 塞蕾丝汀 | character | short-name | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:eda46e077ffd61b9621c893c6ea46ad6cf549303e2d95c78c7a37c682957cf5c |
+| mc2-kotamare-148 | 케이틴 | 凯汀 | character | short-name | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:66448008e810616fe9bef2dfe82c836e348c7447738d604250690a790c0bf1ae |
+| mc2-kotamare-149 | 푸른 달 트레와 | 青月特雷瓦 | race | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:0a04bbb4488b5821db5e7444f865b722531ac350c1efc2a617829f274929963e |
+| mc2-kotamare-150 | 검은 뿔 트레와 | 黑角特雷瓦 | race | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:0a04bbb4488b5821db5e7444f865b722531ac350c1efc2a617829f274929963e |
+| mc2-kotamare-151 | 마비향 | 麻痹香 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:77a508f5c48783d04e107134ed332f3de294eba190f99a6ea5455d1ee10c320c |
+| mc2-kotamare-152 | 연환력 증대 | 连环力增幅 | combat | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:2d765e59479f9b8cde573c8fe0eee8854b94b37196be68d264cfb4267fc1474d |
+| mc2-kotamare-153 | 해저 동굴 | 海底洞窟 | place | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:d06f0b5a5a1f129206470eede236562027163c8a827bf6e76fa298b674674cd8 |
+| mc2-kotamare-154 | 벨포트 | 贝尔福特 | place | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:150058458be81f9870d0696e0a9e6ab132e6a73b4b438a61fb46a43fd248f454 |
 
-本作词条：146；已继承：0。
+本作词条：154；已继承：0。
 
 固定来源、统计、冲突与审核流程见 [系列术语参考](docs/SERIES_TERMS.md)。

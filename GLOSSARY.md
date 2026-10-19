@@ -403,7 +403,10 @@
 | mc2-bluemoon-397 | 푸른 달의 보옥 | 青月宝玉 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:56bd4831ee7a839197557e0df8000d332bf3a7458197a4715eaf408ceaa5da23 |
 | mc2-bluemoon-398 | 다크 트레와 리더 | 暗黑特雷瓦头领 | role | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:c926718d762cb88335c9555895cfd5d7041692ec1e82653991caa92d31f9c319 |
 | mc2-bluemoon-399 | 푸른 달의 재건 | 青月重建 | quest | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:6a05fc750673540cb2370815de7dac8767b613df13004d8371d5a4482c22538a |
+| mc2-reinpolt-malachia-400 | 레인폴트의 참사 | 雷恩波尔特惨案 | event | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:ca8de5e581fd58d3568d5606e406487efdf64f408f8de0bb318bf46fde574988 |
+| mc2-reinpolt-malachia-401 | 말라키아 | 玛拉基亚 | character | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:a6ea3562dd5736dd266ac169def44fc18ecae3a490af3cb76f78269ba23a25d1 |
+| mc2-reinpolt-malachia-402 | 세야의 눈물 | 塞娅之泪 | lore | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:8fcd28052279e166d04c86a3c0f13818871c2e3d243dfe83eb51299d6b70ed58 |
 
-本作词条：399；已继承：0。
+本作词条：402；已继承：0。
 
 固定来源、统计、冲突与审核流程见 [系列术语参考](docs/SERIES_TERMS.md)。

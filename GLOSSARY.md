@@ -266,7 +266,12 @@
 | mc2-velfort-informant-260 | 제로하 | 泽罗哈 | character | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:1a581d02d0a2e1537538996dfbc3d2772eebbaac7f59e75b14d392f16d66dbad |
 | mc2-velfort-informant-261 | 쿡스 | 库克斯 | character | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:cde7ce9bcf0802d648b50a7b57382bb264b752863eea57516bd02e2041f7a336 |
 | mc2-velfort-informant-262 | 센티넬 연구소 | 哨兵研究所 | place | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:6f908df94472d5bd1ea098820291a9e93a15a460aee31f355ed6baa118de64f1 |
+| mc2-infiltration-263 | 소용돌이 폭탄 | 漩涡炸弹 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:ed76c02b8b5b9d92d8b2f642481e15e41143e00a32fed961e843a02bddecef85 |
+| mc2-infiltration-264 | 필러제어장치 | 晶柱控制装置 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:168c3b835b2a6cafd58a4234ab91dff47237d44dd9de490f2fd1a927b82545d8 |
+| mc2-infiltration-265 | 센티넬 연구소 출입카드 | 哨兵研究所通行卡 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:6566878b8f94811d631e6abf892234ff581f0b3cd3e352251449a1e975840a30 |
+| mc2-infiltration-266 | 블리자드엣지 | 暴雪之刃 | skill | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:db5fc8595629174a01a32e48dad0f6f33c0abe4424082019a4b57d556b8d98fb |
+| mc2-infiltration-267 | 블리자드 엣지 | 暴雪之刃 | skill | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:5578415cec2cd64ad76aa839448755527db037f08c9a42af948c3d814917173a |
 
-本作词条：262；已继承：0。
+本作词条：267；已继承：0。
 
 固定来源、统计、冲突与审核流程见 [系列术语参考](docs/SERIES_TERMS.md)。

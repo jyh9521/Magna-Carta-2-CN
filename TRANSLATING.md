@@ -1,3 +1,9 @@
+## 第四十三批潜入准备与第七章主线收尾（2026-10-20）
+
+新增INT76条，累计5,897条draft；267项共享candidate及1项独立字幕candidate，字幕194/315cue不变。
+CSMB07主线282/282、Compose40/40、城内NPC41/41有draft；其他第七章支线/邮件仍待接续。
+见 [BATCH_043_INFILTRATION](docs/BATCH_043_INFILTRATION.md)。字库/TOC/可玩入口未更新，离线成功不是游戏验收。
+
 ## 第四十二批贝尔福特与情报员追踪（2026-10-19）
 
 新增INT130条，累计5,821条draft；262项共享candidate及1项独立字幕candidate，字幕194/315cue不变。

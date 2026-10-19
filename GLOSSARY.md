@@ -138,7 +138,16 @@
 | mc2-council-132 | 통곡의 문 | 恸哭之门 | place | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:c002103dabf0f28524201755cfa405f5a75d9dc99f9ed3ce4b6dffd0755c219e |
 | mc2-council-133 | 총사령부 | 总司令部 | organization | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:240c037eb5a7c3825fa6a6112b88c3ed2ff5f654247d4d98741a30e39c6c722f |
 | mc2-council-134 | 폭탄 꾸러미 | 炸弹包 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:e84294b36db34d101054f23c00c7efa908e1dc26cf1199a9f5a53e156329f16b |
+| mc2-canyon-135 | 강화 | 强化 | combat | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:db0650d1e97285d73d0aea5ca516ed1c771693de01bcda8d191e7e149d7cb440 |
+| mc2-canyon-136 | 카몬드 보드 | 卡蒙德盘 | combat | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:5b3716ae771b7dd9e8c3559d3a2d63a187ab7e76cc5679e2d11d0cf0b4a8847c |
+| mc2-canyon-137 | 홀 | 插孔 | combat | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:939549fb92f023cfcc6e6a617b6644d1174ee3c72c70c16be0e0b00ba524e5e7 |
+| mc2-canyon-138 | 정수추출 | 精华提取 | combat | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:4875ae3de72935d0283e2310271e9af4cc152ba283bb6bb66c8dc5222bbf8655 |
+| mc2-canyon-139 | 카르마 | 卡尔玛 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:ec67d5f822b4aac8ab164f6ddc5956a3a67991e59759b20a6af25ecb37a5b2b1 |
+| mc2-canyon-140 | 세공 | 饰品加工 | crafting | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:ec347a9e28b7be2e0e9a1023cd480e807030b8cabd0d365e26876e8404186112 |
+| mc2-canyon-141 | 클레어 | 克蕾尔 | character | short-name | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:43532b67d0cc390c4e1ba39620f0b5194f3594bfea55a51bdf0d4cb06a858b24 |
+| mc2-canyon-142 | 휴아렌 | 修亚伦 | character | short-name | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:aa0e458195dac6d1968d92d4ccf2aeffbdba60978dc8746b977c18f7610a2b3b |
+| mc2-canyon-143 | 듀난 언덕 | 杜南丘陵 | place | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:b42ed4576f0e48c58c5e365561e0bd765d188ff29b3a1eeed065fdd702085c7f |
 
-本作词条：134；已继承：0。
+本作词条：143；已继承：0。
 
 固定来源、统计、冲突与审核流程见 [系列术语参考](docs/SERIES_TERMS.md)。

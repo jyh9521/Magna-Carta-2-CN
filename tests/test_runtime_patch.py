@@ -142,8 +142,10 @@ class RuntimePatchTests(unittest.TestCase):
         with tempfile.TemporaryDirectory() as d:
             root=Path(d).resolve();g,e,p,b,h=self.make_bundle(root);c=root/'user.toml';c.write_bytes(b'')
             r=launch_xenia.prepare(e,c,g,root/'run',patch_bundle=b,patch_manifest_sha256=h)
-            with patch.object(launch_xenia.subprocess,'Popen',return_value=type('FakeProcess',(),{'pid':123})()) as popen:
-                launch_xenia.launch(Path(os.path.relpath(root/'run')),r)
+            # Hosted Windows uses D: for the checkout and C: for TEMP. Resolve
+            # the relative fixture from its own root, not the ambient checkout.
+            with patch('os.getcwd',return_value=str(root)), patch.object(launch_xenia.subprocess,'Popen',return_value=type('FakeProcess',(),{'pid':123})()) as popen:
+                launch_xenia.launch(Path('run'),r)
                 popen.assert_called_once()
             self.assertEqual(r['status'],'started')  # Mock process only, never a native executable.
 

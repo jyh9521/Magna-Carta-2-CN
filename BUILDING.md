@@ -90,6 +90,14 @@ Ch02_Abazet已遍历276条：274条draft、2条纯标记保留；csm02四份字�
 双盘 Coalesced 输出316条一致草稿，另保留44份动画字幕目录及既有49条字幕译文。
 本轮只完成文本资源离线回填，未更新字体/TOC/可玩入口；现有测试目录及其配置、存档、runs不变。
 
+## GitHub Actions 干净环境验证（2026-10-19）
+
+CI须先执行`python tools/series_terms.py fetch`获取series.lock固定的9份参考文件，
+再执行`python tools/series_terms.py check --with-references`；不能依赖开发机build缓存，
+也不能跳过引用核验。Windows runner的checkout可能在D盘、TEMP在C盘，
+相对路径测试必须以自己的fixture为工作目录，不能跨盘调用无start的relpath。
+失败原因、跨盘复现与回归说明见[CI_FAILURES](docs/CI_FAILURES.md)。
+
 ## 每轮收尾约定
 
 - 普通翻译、字库、排版及资源修复只增量刷新现有测试目录，不逐轮生成 ISO 或完整游戏副本；需要额外整盘副本时先说明理由并征求用户同意。

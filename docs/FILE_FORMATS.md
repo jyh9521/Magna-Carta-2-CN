@@ -1,3 +1,11 @@
+## 较大字集和显式指标增长选项（2026-10-19）
+
+补字 schema1 可选 glyph_limit（整数 1..2048，默认 128）；可选
+metric_height_growth={original,candidate} 必须是严格整数且 original<candidate<=128，
+candidate 必须等于 metric_height，original 必须匹配源 Font 全部字形的最大 VSize。
+保留旧 tagged/native 字形、旧 remap 和非目标像素；透明 cell padding 不算可见指标。
+未开启选项的旧行为不变，alpha 超出指标仍拒绝；见 OPENING_BATCH_TEST.md。
+
 ## Selected Coalesced catalog（2026-10-19）
 
 `sample_catalog.py` 的 `selected-coalesced-catalog` schema1 记录容器 SHA/resource 和

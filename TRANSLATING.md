@@ -1,3 +1,9 @@
+## 开场扩展批次（2026-10-19）
+
+`opening-batch.json` 累计 231 条：保留原 27 条，新增开场 NPC、42 条教程、常用菜单和姓名。
+23 条人物/核心术语在 terms.json 和 GLOSSARY.md 中统一为 candidate，未标 reviewed。
+逐项分类在 opening-batch.review.json；控制码及标点只检查不改写。详见 docs/OPENING_BATCH_TEST.md。
+
 ## 正式提取与首批翻译（2026-10-19）
 
 用户截图确认七句开场中文正常可见，现进入全量 Coalesced 提取、分批 draft 翻译阶段。

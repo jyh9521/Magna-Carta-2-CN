@@ -1,3 +1,8 @@
+## NPC、教程与菜单累计测试包（2026-10-19）
+
+累计 231 条、三类字体七别名的新批次构建与原文对照入口见 [OPENING_BATCH_TEST](docs/OPENING_BATCH_TEST.md)。
+新字形指标显式增长，不缩改译文；开发阶段仅离线构建，用户负责游戏内验收。
+
 ## 正式文本提取与首批回填（2026-10-19）
 
 双盘原始 Coalesced 提取后，按 locales/zh-Hans/extraction-profile.json 固定 hash

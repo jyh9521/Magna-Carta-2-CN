@@ -1,3 +1,13 @@
+## 大批次不能继续靠改译文绕过字体高度（2026-10-19）
+
+15px Noto 在本批的共同 bbox 并集为 18px，“箭”单字已需 17px；
+旧 SmallFont 16px 即使逐字移动基线也容不下。22px 字形并集需 25px。
+本批显式增长新字指标并按 BC3 对齐扩大 cell，不裁切、不缩字号、不更改正式译文；
+原有字形和旧样本不变。新最大高度可能影响引擎行距，必须单独做游戏内 QA。
+
+公开 JSON 的源 hash 必须按仓库 LF 字节计算；Windows text write 的 CRLF 经 Git
+规范化后会使 route 依赖 hash 失配。本批按 LF 重建并从暂存树导出干净副本复核。
+
 ## 块对齐 cell 的空白不属于可见字形高度（2026-10-19）
 
 Subtitle 用 32px 高 BC3 cell、29px glyph metric。旧 raster 从 cell 底部选共享基线，

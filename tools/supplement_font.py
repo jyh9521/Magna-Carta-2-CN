@@ -49,8 +49,18 @@ def validate_plan(plan):
             not 128 <= plan['atlas_height'] <= 2048 or plan['atlas_height'] & (plan['atlas_height']-1)):
         raise FormatError('atlas_height must be a power of two within 128..2048')
     glyphs = plan.get("glyphs")
-    if not isinstance(glyphs, list) or not 1 <= len(glyphs) <= 128:
-        raise FormatError("prototype plan requires 1..128 glyphs")
+    limit = plan.get('glyph_limit', 128)
+    if type(limit) is not int or not 1 <= limit <= 2048:
+        raise FormatError('glyph_limit must be within 1..2048')
+    if not isinstance(glyphs, list) or not 1 <= len(glyphs) <= limit:
+        raise FormatError(f"prototype plan requires 1..{limit} glyphs")
+    growth = plan.get('metric_height_growth')
+    if growth is not None:
+        if (not isinstance(growth, dict) or set(growth) != {'original', 'candidate'}
+                or any(type(growth[k]) is not int for k in growth)
+                or not 1 <= growth['original'] < growth['candidate'] <= 128
+                or plan.get('metric_height') != growth['candidate']):
+            raise FormatError('invalid explicit metric height growth')
     seen = set()
     for glyph in glyphs:
         if not isinstance(glyph, dict) or set(glyph) != {"character", "texture_index", "x", "y", "width", "height"}:
@@ -383,7 +393,10 @@ def supplement_package(data, expected_hash, font_object, plan, alphas, decoder, 
         if cp not in alphas:
             raise FormatError("missing glyph coverage raster")
         metric_height = plan.get("metric_height", g["height"])
-        if metric_height > old_max_height:
+        growth = plan.get('metric_height_growth')
+        if growth is not None and growth['original'] != old_max_height:
+            raise FormatError('metric height growth original maximum mismatch')
+        if metric_height > old_max_height and growth is None:
             raise FormatError("supplement metric increases original maximum font height")
         if any(alphas[cp][metric_height * g["width"]:]):
             raise FormatError("glyph alpha outside metric_height would clip")

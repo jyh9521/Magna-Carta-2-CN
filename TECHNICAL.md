@@ -1,3 +1,10 @@
+## 扩展收字与显式指标增长（2026-10-19）
+
+本批 673 个不同字面字符驱动三类字体补字。生成器保留默认 128 字上限，
+新增显式 glyph_limit（最多 2048）和原高度锁定的 metric_height_growth。
+General_15 新字指标 23→25、SmallFont 16→18、Subtitle 29 不变；旧字指标不改，
+新增字图/TOC/覆盖与原像素保护均离线校验，运行行距与裁切待测。见 docs/OPENING_BATCH_TEST.md。
+
 ## 剧情正文空白反馈与 Subtitle 覆盖（2026-10-19）
 
 旧版本两种字体覆盖未包含 EngineMedium_Subtitle。用户有/无行宽补丁同场景正文均空白；

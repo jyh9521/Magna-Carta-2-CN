@@ -15,7 +15,7 @@ from tools.build_font_route_probe import encoded
 from tools.font_binding_audit import fingerprint
 from tools.ue3_ui_styles import StyleGraph
 from tools.ue3_fonts import parse_font_payload
-from tools.supplement_font import (parse_atlas_payload, block_rect, overlaps,
+from tools.supplement_font import (parse_atlas_payload, block_rect,
                                    rasterize_plan, supplement_package)
 from tools.audit_text_font_coverage import literal_codepoints
 from tools.build_coalesced import rebuild, resolve_changes
@@ -27,19 +27,26 @@ def allocate(font, texture, characters, template):
     """Deterministic first-fit in block coordinates; never reuses old glyph cells."""
     index = template['texture_index']
     w, h = template['width'], template['height']
-    used = [block_rect((g['StartU'], g['StartV'], g['USize'], g['VSize']))
+    rectangles = [block_rect((g['StartU'], g['StartV'], g['USize'], g['VSize']))
             for g in font['characters'] if g['TextureIndex'] == index and g['USize'] and g['VSize']]
+    # BC3 block occupancy preserves first-fit ordering without a scan of every
+    # existing glyph for each candidate cell in a larger translation batch.
+    def blocks(rect):
+        x0, y0, width, height = rect
+        return {(x, y) for y in range(y0, y0+height) for x in range(x0, x0+width)}
+    used = set().union(*(blocks(rect) for rect in rectangles))
     result = []
+    # Occupancy only grows: a rejected earlier position can never become free.
+    # Keep a monotonic cursor instead of restarting at (0, 0) for every glyph.
+    positions = ((x, y) for y in range(0, texture['height']-h+1, 4)
+                        for x in range(0, texture['width']-w+1, 4))
     for char in characters:
         found = None
-        for y in range(0, texture['height'] - h + 1, 4):
-            for x in range(0, texture['width'] - w + 1, 4):
-                rect = block_rect((x, y, w, h))
-                if not any(overlaps(rect, old) for old in used):
-                    found = dict(character=char, texture_index=index, x=x, y=y, width=w, height=h)
-                    used.append(rect)
-                    break
-            if found is not None:
+        for x, y in positions:
+            occupied = blocks(block_rect((x, y, w, h)))
+            if not occupied & used:
+                found = dict(character=char, texture_index=index, x=x, y=y, width=w, height=h)
+                used.update(occupied)
                 break
         if found is None:
             raise ValueError('insufficient unused atlas cells for sample')
@@ -47,9 +54,13 @@ def allocate(font, texture, characters, template):
     return result
 
 
-def prepare(base_route, sample, game_root, project_root, font_file, output, decoder):
+def prepare(base_route, sample, game_root, project_root, font_file, output, decoder,
+            glyph_limit=128, metric_heights=None):
     project_root, output = Path(project_root).resolve(), Path(output).resolve()
     game_root = Path(game_root).resolve()
+    if type(glyph_limit) is not int or not 1 <= glyph_limit <= 2048:
+        raise ValueError('glyph_limit must be within 1..2048')
+    metric_heights = metric_heights or {}
     if (output.exists() or output.is_relative_to(game_root) or game_root.is_relative_to(output)
             or not output.is_relative_to(project_root)):
         raise ValueError('plan output must be new, within project and disjoint from originals')
@@ -85,11 +96,23 @@ def prepare(base_route, sample, game_root, project_root, font_file, output, deco
         font = parse_font_payload(logical[export['serial_offset']:export['serial_offset']+export['serial_size']], names)
         mapped = {r['codepoint'] for r in font['remap']} if font['is_remapped'] else set(range(256))
         missing = [chr(cp) for cp in wanted if cp not in mapped]
-        if not 1 <= len(missing) <= 128:
-            raise ValueError('sample must require 1..128 additional glyphs in each family')
+        if not 1 <= len(missing) <= glyph_limit:
+            raise ValueError(f'sample must require 1..{glyph_limit} additional glyphs in each family')
+        gp = copy.deepcopy(gp)
+        gp.pop('atlas_height', None)
+        if glyph_limit != 128:
+            gp['glyph_limit'] = glyph_limit
+        if i in metric_heights:
+            old_height = max(g['VSize'] for g in font['characters'])
+            height = metric_heights[i]
+            if type(height) is not int or not old_height < height <= 128:
+                raise ValueError('explicit metric height must increase original maximum within 128')
+            gp['metric_height'] = height
+            gp['metric_height_growth'] = dict(original=old_height, candidate=height)
+            for glyph in gp['glyphs']:
+                glyph['height'] = max(glyph['height'], (height+3)//4*4)
         template = gp['glyphs'][0]; atlas = ctx['tables']['exports'][font['textures'][template['texture_index']]-1]
         texture = parse_atlas_payload(logical[atlas['serial_offset']:atlas['serial_offset']+atlas['serial_size']], names, atlas['serial_offset'])
-        gp = copy.deepcopy(gp)
         try:
             placements = allocate(font, texture, missing, template)
         except ValueError:
@@ -118,6 +141,8 @@ def prepare(base_route, sample, game_root, project_root, font_file, output, deco
         fp['supplement'] = ref(f'glyphs-{i}.json', encoded(gp))
         refs.append(ref(f'font-{i}.json', encoded(fp)))
     route = copy.deepcopy(route); route['font_plans'] = refs
+    if set(metric_heights) - set(range(len(refs))):
+        raise ValueError('metric height family index outside route')
     route['text_plan'] = dict(path=Path(sample).resolve().relative_to(project_root).as_posix(), sha256=digest(sample_bytes))
     route['expected_text_sha256'] = digest(changed_text)
     files['route.json'] = encoded(route)
@@ -139,9 +164,16 @@ def main(argv=None):
     for name in ['base-route','sample','game-root','font-file','output','lzx-library']:
         p.add_argument('--'+name, type=Path, required=True)
     p.add_argument('--project-root', type=Path, default=Path('.'))
+    p.add_argument('--glyph-limit', type=int, default=128)
+    p.add_argument('--metric-height', action='append', default=[], metavar='FAMILY_INDEX=HEIGHT',
+                   help='Explicit opt-in to increased new-glyph metrics; old glyphs stay unchanged')
     a = p.parse_args(argv)
     try:
-        print(json.dumps(prepare(a.base_route,a.sample,a.game_root,a.project_root,a.font_file,a.output,LzxDecoder(a.lzx_library)), sort_keys=True))
+        pairs = [v.split('=') for v in a.metric_height]
+        heights = {int(i): int(h) for i,h in pairs}
+        if len(heights) != len(pairs):
+            raise ValueError('duplicate metric height family')
+        print(json.dumps(prepare(a.base_route,a.sample,a.game_root,a.project_root,a.font_file,a.output,LzxDecoder(a.lzx_library),a.glyph_limit,heights), sort_keys=True))
         return 0
     except (ValueError, OSError, KeyError, TypeError, ImportError) as e:
         print('ERROR: '+str(e)); return 2

@@ -368,7 +368,14 @@
 | mc2-gate-trials-362 | 시련의 구체 | 试炼之球 | object | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:460a5425833ef323a9700e00294c3355e6e04f2a948c75e6830e86fc870c41cc |
 | mc2-gate-trials-363 | 가호의 빛 | 庇护之光 | effect | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:123f3a013c262d4939cb8c160e44aff6aa1a6287acdb7b4e92778a72da4ec98b |
 | mc2-royal-gate-364 | 왕의 관문 | 王之关卡 | location | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:dbb725ecb2f787f5bd6e0644aea891393621101ebdd0e34a3ccee2ab6e45bb6f |
+| mc2-inferno-365 | 호그톤 | 霍格顿 | character | short-name | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:234d47d8432364b19418e58ea63ea78e8d1d1909d46e8888d93ee7188d9fb707 |
+| mc2-inferno-366 | 마이어 | 迈耶 | character | short-name | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:8c0ac14253687b196e880658a9d8b3dee7eca9fd7ab398101e4977911c712f46 |
+| mc2-inferno-367 | 인페르노 | 因费尔诺 | monster | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:aac5cdc213958832ab41ed77ba056085a77909f4cdc8a18956396c54b1b4d602 |
+| mc2-inferno-368 | 블레이즈 | 布雷兹 | monster | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:59ddeeafbe419afbdbc1a09f0d94b67106db3dd9905b29b2934d441b2826d8e8 |
+| mc2-inferno-369 | 블레이즈의 꼬리 | 布雷兹之尾 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:9ba31541b90ddf7f04dcd4328c9859619c93beaa327dcbce4abb969a99819a96 |
+| mc2-inferno-370 | 안티 페르노탄 | 反费尔诺弹 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:ab1a5f516c8679ce055af066e3ef7f59d247be47ed73c6d3be95702508df102c |
+| mc2-inferno-371 | 헌터 길드 | 猎人公会 | faction | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:cbf9d2d41362d93ee2299fa91269c67f854984812d7ed0d9cacfea30ad074b00 |
 
-本作词条：364；已继承：0。
+本作词条：371；已继承：0。
 
 固定来源、统计、冲突与审核流程见 [系列术语参考](docs/SERIES_TERMS.md)。

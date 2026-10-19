@@ -1,3 +1,11 @@
+## 块对齐 cell 的空白不属于可见字形高度（2026-10-19）
+
+Subtitle 用 32px 高 BC3 cell、29px glyph metric。旧 raster 从 cell 底部选共享基线，
+即使字形并集能容下 29px，也因底部 padding 错报 union overflow。
+新回归先在原代码复现错误，再只在需要时上移整组 baseline 到 metric 下沿；
+实际 bbox 并集超过 metric 仍拒绝，不缩放、不裁切、不抬高旧字体上限，旧已可用基线不变。
+这修复生成器误拒绝，不等于确认游戏正文空白根因。
+
 ## 样本扩展不能绕过共享基线检查（2026-10-19）
 
 首版剧情 draft 在 SmallFont 15px 收字时，字符“真”的 bbox 顶端 -14 与其他字最大

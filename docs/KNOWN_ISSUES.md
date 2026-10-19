@@ -1,3 +1,10 @@
+## 最新：旧剧情样本正文空白，新增 Subtitle 候选待测（2026-10-19）
+
+用户确认有/无行宽修复都空白；姓名和 A 按钮可见。旧样本游戏验收未通过。
+新增 Subtitle 两别名覆盖 101 个缺字，原九句和 General_15/SmallFont 不变；
+入口 dist/MC2-story-subtitle-disc1/开始中文测试.cmd，默认不加载行宽补丁。
+它是针对已确认覆盖遗漏的新候选，运行字体及画面恢复仍待同场景验证，见 STORY_DIALOGUE_SAMPLE.md。
+
 ## 真实剧情宽框仍待用户验收（2026-10-19）
 
 九条开场/NPC 样本和一键中文/无修复/原文入口已准备；详见 STORY_DIALOGUE_SAMPLE.md。

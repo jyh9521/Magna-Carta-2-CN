@@ -1,3 +1,23 @@
+## 2026-10-19 用户反馈：正文空白（后续更正）
+
+用户截图确认：姓名“주토”和 A 按钮可见，宽框正文空白；中文主入口及同资源无行宽修复入口均空白。
+因此旧样本游戏验收失败，行宽补丁不是空白的必要条件。先前 General_15 模板静态链不等于活动字体。
+本地核查发现 font.xxx 和 Startup_int 的 EngineMedium_Subtitle 各缺 103 个字面中的 101 个，
+旧版覆盖报告只检查显式提供的 General_15/SmallFont，遗漏 Subtitle。
+
+新候选：`locales/zh-Hans/story-subtitle/route.json` 原样复用九句文本和前两种字体计划，
+只增加 Subtitle 两别名的 101 个缺字；原 512×512 字图无需扩高，27px raster、29px 字形上限，
+保留旧字形/映射/像素和其他字体的完整指纹。不把新增覆盖判为已证明的实际字体选择或空白根因。
+
+新入口：`dist/MC2-story-subtitle-disc1/开始中文测试.cmd`，默认不加载原生行宽补丁。
+请与旧目录的“开始未修复对照.cmd”在同一句比较，二者都不加载补丁、文本相同，区别是新增 Subtitle 覆盖。
+标题原文、原画质/输入配置保持不变；完整原文入口仍保留。若仍空白，下一步应做 ASCII 文本绑定探针，
+不继续把其他无关字体全部补上当成已修复。
+
+构建/复核命令沿用下文 build_font_route_probe，将 --plan 换为 locales/zh-Hans/story-subtitle/route.json，
+输出换为 build/story-subtitle-disc1。prepare_oneclick_probe 输出 dist/MC2-story-subtitle-disc1，
+省略 --patch-bundle 和 --patch-manifest-sha256。所有完整资源仍在忽略目录中。
+
 # 真实剧情中文样本与用户宽框验收（2026-10-19）
 
 ## 样本边界

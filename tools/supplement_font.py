@@ -92,8 +92,13 @@ def rasterize_plan(font_file, expected_hash, plan):
     # Retain the historical baseline when it fits. A larger sample can need
     # the optional bottom margin for an ascender; never shrink or clip glyphs.
     baseline = max(baseline, -min(box[1] for box in boxes.values()))
-    if baseline + max_descent > min(plan.get('metric_height',g['height']) for g in glyphs):
-        raise FormatError('glyph union exceeds metric height at shared baseline')
+    metric_limit = min(plan.get('metric_height',g['height']) for g in glyphs)
+    if baseline + max_descent > metric_limit:
+        # BC3 cells are block-aligned; their padding is not visible metric space.
+        # Move the whole baseline only when the complete union still fits.
+        baseline = metric_limit - max_descent
+        if baseline + min(box[1] for box in boxes.values()) < 0:
+            raise FormatError('glyph union exceeds metric height at shared baseline')
     alphas, report = {}, []
     for g in glyphs:
         char = g["character"]

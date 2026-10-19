@@ -1,3 +1,10 @@
+## 正文空白后的新 Subtitle 测试入口（2026-10-19）
+
+旧剧情样本已收到游戏内空白反馈。新增独立入口 `dist/MC2-story-subtitle-disc1/开始中文测试.cmd`，
+原九句不变，补齐此前遗漏的 Subtitle 两别名；默认不装原生行宽补丁。
+构建计划 `locales/zh-Hans/story-subtitle/route.json`；原候选保留作对照。
+自动覆盖通过不等于画面恢复，详见 docs/STORY_DIALOGUE_SAMPLE.md 顶部更正。
+
 ## 真实剧情宽框样本（2026-10-19）
 
 九条真实开场/NPC 对话与可编辑提取→回填流程已建立，详见 [STORY_DIALOGUE_SAMPLE](docs/STORY_DIALOGUE_SAMPLE.md)。

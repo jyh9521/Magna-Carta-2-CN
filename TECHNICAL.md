@@ -1,3 +1,9 @@
+## 剧情正文空白反馈与 Subtitle 覆盖（2026-10-19）
+
+旧版本两种字体覆盖未包含 EngineMedium_Subtitle。用户有/无行宽补丁同场景正文均空白；
+这不支持把行宽修复当作空白的必要条件。新增 Subtitle 两别名 source/hash/namespace/语义锁定计划，
+仅补 101 字、同一文本，无新扩图；完整证据边界见 docs/STORY_DIALOGUE_SAMPLE.md。
+
 ## 真实剧情样本绑定与往返（2026-10-19）
 
 详见 docs/STORY_DIALOGUE_SAMPLE.md。MC2Game 的 Balloon/YesNoBal Dialogue 模板引用

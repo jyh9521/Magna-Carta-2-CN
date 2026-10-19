@@ -45,9 +45,12 @@ def validate_plan(plan):
         raise FormatError('unsupported explicit remap_conversion')
     if "metric_height" in plan and (type(plan["metric_height"]) is not int or not 1 <= plan["metric_height"] <= 128):
         raise FormatError("invalid metric_height")
+    if 'atlas_height' in plan and (type(plan['atlas_height']) is not int or
+            not 128 <= plan['atlas_height'] <= 2048 or plan['atlas_height'] & (plan['atlas_height']-1)):
+        raise FormatError('atlas_height must be a power of two within 128..2048')
     glyphs = plan.get("glyphs")
-    if not isinstance(glyphs, list) or not 1 <= len(glyphs) <= 16:
-        raise FormatError("prototype plan requires 1..16 glyphs")
+    if not isinstance(glyphs, list) or not 1 <= len(glyphs) <= 128:
+        raise FormatError("prototype plan requires 1..128 glyphs")
     seen = set()
     for glyph in glyphs:
         if not isinstance(glyph, dict) or set(glyph) != {"character", "texture_index", "x", "y", "width", "height"}:
@@ -86,6 +89,11 @@ def rasterize_plan(font_file, expected_hash, plan):
     boxes = {g["character"]: font.getbbox(g["character"], anchor="ls") for g in glyphs}
     max_descent = max(max(0, box[3]) for box in boxes.values())
     baseline = min(g["height"] for g in glyphs) - 1 - max_descent
+    # Retain the historical baseline when it fits. A larger sample can need
+    # the optional bottom margin for an ascender; never shrink or clip glyphs.
+    baseline = max(baseline, -min(box[1] for box in boxes.values()))
+    if baseline + max_descent > min(plan.get('metric_height',g['height']) for g in glyphs):
+        raise FormatError('glyph union exceeds metric height at shared baseline')
     alphas, report = {}, []
     for g in glyphs:
         char = g["character"]
@@ -288,6 +296,36 @@ def atlas_tiles(atlas, texture, decoder):
     return compressed_chunk(payload, bulk["element_count"], decoder)[1]
 
 
+def grow_atlas(atlas, names, serial_offset, texture, new_height, decoder):
+    """Explicit vertical-only growth; tile addresses depend on unchanged width.
+
+    Preserve every original tiled byte, prove original decoded rows identical,
+    and update tagged/native height and inline bulk count/size consistently.
+    Always emits raw inline bulk; callers must explicitly opt into raw atlases.
+    """
+    if (new_height <= texture['height'] or new_height > 2048 or new_height < 128
+            or new_height & (new_height-1) or len(texture['mips']) != 1):
+        raise FormatError('atlas growth requires increasing power-of-two one-mip height')
+    old_tiles = atlas_tiles(atlas, texture, decoder)
+    new_size = texture['mips'][0]['aligned_width'] * ((new_height+127)&~127)
+    if new_size < len(old_tiles):
+        raise FormatError('atlas growth would shrink storage')
+    tiles = old_tiles + bytes(new_size-len(old_tiles))
+    old_rgba = decode_dxt5(untile_dxt5(old_tiles, texture['width'], texture['height']), texture['width'], texture['height'])
+    grown_rgba = decode_dxt5(untile_dxt5(tiles, texture['width'], new_height), texture['width'], new_height)
+    if old_rgba != grown_rgba[:len(old_rgba)]:
+        raise FormatError('atlas growth changed original decoded rows')
+    r = Reader(atlas); r.i32(); props = unique_properties(read_properties(r, names))
+    bulk = texture['mips'][0]['bulk']
+    out = bytearray(atlas[:bulk['payload_offset']] + tiles + word(texture['width']) + word(new_height))
+    struct.pack_into('>I',out,props['SizeY']['value_offset'],new_height)
+    struct.pack_into('>III',out,bulk['header_offset'],0,new_size,new_size)
+    parsed = parse_atlas_payload(bytes(out),names,serial_offset)
+    if atlas_tiles(bytes(out),parsed,decoder) != tiles:
+        raise FormatError('grown atlas reparse mismatch')
+    return bytes(out), parsed
+
+
 def supplement_package(data, expected_hash, font_object, plan, alphas, decoder, raw_atlas=False):
     verify_hash(data, expected_hash, "package")
     glyphs = validate_plan(plan)
@@ -321,6 +359,12 @@ def supplement_package(data, expected_hash, font_object, plan, alphas, decoder, 
     texture = parse_atlas_payload(atlas, tables["names"], atlas_offset)
     if len(texture["mips"]) != 1:
         raise FormatError("prototype supports one-mip atlas only")
+    original_height = texture['height']
+    original_bulk_flags = texture['mips'][0]['bulk']['flags']
+    if 'atlas_height' in plan:
+        if not raw_atlas:
+            raise FormatError('atlas growth requires explicit raw_atlas')
+        atlas, texture = grow_atlas(atlas, tables['names'], atlas_offset, texture, plan['atlas_height'], decoder)
     validate_placements(font, texture, glyphs)
     mip = texture["mips"][0]
     bulk = mip["bulk"]
@@ -417,7 +461,7 @@ def supplement_package(data, expected_hash, font_object, plan, alphas, decoder, 
     parse_tables(verified_logical, output_summary, len(verified_logical))
     report={"schema_version": 1, "status": "static-prototype-verified", "input_sha256": sha256(data), "output_sha256": sha256(output),
                     "input_size": len(data), "output_size": len(output), "font_object": font_object,
-                    "atlas_object": atlas_export["path"], "original_texture_bulk_flags": bulk["flags"], "original_glyph_count": len(font["characters"]),
+                    "atlas_object": atlas_export["path"], "original_texture_bulk_flags": original_bulk_flags, "original_glyph_count": len(font["characters"]),
                     "supplemented_glyph_count": len(font["characters"]) + len(additions),
                     "added_codepoints": [a["codepoint"] for a in additions], "original_glyphs_and_remap_preserved": True,
                     "original_record_sha256": original_hashes,
@@ -435,6 +479,9 @@ def supplement_package(data, expected_hash, font_object, plan, alphas, decoder, 
     if 'remap_conversion' in plan:
         report['remap_conversion']=dict(profile='identity-256',original_mode=False,candidate_mode=True,identity_entries=256,
             old_glyph_metrics_preserved=True,runtime_equivalence_verified=False)
+    if 'atlas_height' in plan:
+        report['atlas_growth'] = dict(original_height=original_height, candidate_height=texture['height'],
+            width=texture['width'], original_tiled_bytes_retained=True, original_decoded_rows_identical=True)
     return output,report
 
 

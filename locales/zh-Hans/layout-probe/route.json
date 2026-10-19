@@ -1,0 +1,22 @@
+{
+  "expected_text_sha256": "70abfd5406bd9908b07c1e6a61187a2d16a8d35dab40c197c647337ae048c730",
+  "font_plans": [
+    {
+      "path": "locales/zh-Hans/layout-probe/font-0.json",
+      "sha256": "728457afa02d4ae478acc4e2c852a420b137be2f6099783dc30dd6cd8a941385"
+    },
+    {
+      "path": "locales/zh-Hans/layout-probe/font-1.json",
+      "sha256": "1be774091835f17200d7c8179fbb3721635ee02f6948c78ff83de93e878f34ff"
+    }
+  ],
+  "game_rendering_verified": false,
+  "kind": "offline-font-route-probe",
+  "raw_packages": true,
+  "schema_version": 1,
+  "text_plan": {
+    "path": "locales/zh-Hans/text-probe-layout.json",
+    "sha256": "6a7c8c875cf90782255d92ea0366a78d588651953dd934a62997924cf232587e"
+  },
+  "text_resource": "MC2Game/Localization/Coalesced.int"
+}

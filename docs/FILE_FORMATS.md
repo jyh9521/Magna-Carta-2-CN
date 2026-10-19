@@ -1001,3 +1001,15 @@ introduces256 u16/u16 identity map pairs, then new supplement pairs. Tagged
 IsRemapped and the final native word both become1. Required FNames must already
 exist. This is a checked serialization transformation, not proof of a loaded
 Font state or equivalence of the actual drawing path. See WARNING_FONT_ROUTE_PROBE.md.
+
+## Explicit vertical atlas growth (2026-10-19)
+
+Supplement plans may opt into `atlas_height`: an increasing power-of-two height
+within 128..2048, unchanged width, one mip and explicit raw-atlas output only.
+The writer retains existing tiled bytes, zero-extends aligned storage, checks
+original decoded rows, and updates tagged SizeY, native mip height, bulk element
+count, stored size and relocated inline offsets. All old glyph coordinates and
+metrics stay unchanged. Sample plans remain bounded to 128 glyph additions;
+placement validation still rejects any overlap with original BC3 blocks.
+This serialization profile is offline verified, not runtime texture compatibility.
+See TEXT_LAYOUT_PROBE.md for the 512x64 -> 512x128 candidate and replay commands.

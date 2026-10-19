@@ -692,6 +692,11 @@ Known limitations should be documented clearly rather than hidden.
 
 ## 2026-10-18 当前玩家可见状态
 
+**2026-10-19 更新 / Partially fixed：** 用户截图确认 Disc1 标题弹窗的“踢击”两字正常显示。
+这是单场景、两字的显示验收，并非完整汉化、双盘或全部字体通过。
+本轮已准备长句/标点/无空格中文自动断行的独立测试入口，见 TEXT_LAYOUT_PROBE.md；
+额外折行、标点禁则、裁剪及字图扩高的运行表现等待用户截图。
+
 **Open / High：** 尚无可用汉化补丁；中文 glyph coverage、UI 布局、剧情、双盘切换和完整流程未验收。启动提示的静态样式链已指向 General_15 候选，三份 cooked/独立候选的 namespace/GUID 与完整数据指纹一致；双盘 4145 包类表调查完成，见 FONT_BINDING_AUDIT.md。序列化 Core CDO 尾链已闭合，原生默认值、实际加载优先级与绘制绑定仍未确认，历史中文候选未获显示验收。最新约定为游戏测试全部由用户进行，自主开发只做离线分析、工具、合成验证及隔离候选准备。
 
 

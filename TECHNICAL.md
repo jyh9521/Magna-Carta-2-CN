@@ -925,3 +925,9 @@ and callbacks link bounded slot34 windows to six complete static templates.
 Native glyph/map strides20/8 differ from transferred disk widths17/4. Native
 6C/68 order is observed; property identity and archive/helper return contracts
 remain separate confidence levels. Existing parser/coverage rules are unchanged.
+
+## 中文布局样本推进（2026-10-19）
+
+用户截图已确认 Disc1 标题警告中两字探针实际可见；未区分两种同时补字的字体路线。
+扩展样本与通用显式单 mip 字图增高的字节/像素保护见 docs/TEXT_LAYOUT_PROBE.md。
+布局、扩图运行兼容与自动断行仍等待扩展样本的用户游戏验收，不从静态指纹推断。

@@ -1,5 +1,9 @@
 # 当前可执行流程（2026-10-18）
 
+2026-10-19 扩展中文长句/标点/自动换行测试见 [TEXT_LAYOUT_PROBE](docs/TEXT_LAYOUT_PROBE.md)：
+新入口 `dist/MC2-layout-test-disc1/开始中文测试.cmd`，旧两字入口保留。
+源样本、自动收字/空位分配、显式字图扩高、构建/复核命令与用户验收步骤均在该文档。
+
 Python 3.12+，核心工具/默认测试仅标准库；加密XEX还原的显式可选依赖另见下文。本次本地 Python 3.14.2。尚无汉化补丁构建命令。包表/字体只读解析和容器副本回写见 docs/UE3_PACKAGE_RESEARCH.md、docs/FONT_RESEARCH.md、docs/COALESCED_REBUILD.md；它们不等于完整补丁构建。
 
 ```powershell

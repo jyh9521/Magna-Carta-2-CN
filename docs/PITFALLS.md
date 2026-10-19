@@ -804,6 +804,14 @@ readonly literal is a stronger local anchor. Use the separate Font profile;
 do not relax old style-profile boundaries or drop full native U prefixes.
 See FONT_SERIALIZATION.md. The six static serialization templates do not
 establish archive virtual-call semantics or authorize runtime-font claims.
+## 扩展样本不等于继续向原 atlas 任意塞字
+
+General_15 最后一图 512×64 仅有三个 24×24 空位，45 字样本必须明确扩高。
+宽度不变的 tiled 高度扩展仍须校验原行像素、批量 glyph 的 block 避让和 bulk/mip/SizeY 一致性。
+SmallFont 旧两字基线不保证更大字符集：共享 bbox 可能恰需用掉原有一像素底边留白。
+保留三个显式换行不构成自动断行证明；最后无空格段落必须在游戏中观察。
+见 TEXT_LAYOUT_PROBE.md，原始小样本与新样本分开保留。
+
 ## Preserve both Font edits in Startup_int
 
 The warning's component and default-style candidates include different font

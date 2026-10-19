@@ -407,7 +407,11 @@
 | mc2-reinpolt-malachia-401 | 말라키아 | 玛拉基亚 | character | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:a6ea3562dd5736dd266ac169def44fc18ecae3a490af3cb76f78269ba23a25d1 |
 | mc2-reinpolt-malachia-402 | 세야의 눈물 | 塞娅之泪 | lore | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:8fcd28052279e166d04c86a3c0f13818871c2e3d243dfe83eb51299d6b70ed58 |
 | mc2-sentinel-lab-alias-403 | 센티넬연구소 | 哨兵研究所 | place | alias | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:65a4ad52c961471c2dc7c35f1fbc77bcd11c9af6345b758b68814037343575a5 |
+| mc2-malachia-core-404 | 번개의 핵 | 雷之核心 | quest | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:569439554646124c038b6b0a949049097a0d096a07b3bb6353f42ac7350a2ca7 |
+| mc2-malachia-core-405 | 뇌제 | 雷帝 | weapon | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:f7b886ca145d9a650fd0fbb1f8f056e969ac38bdef31a99ea863cda84fa364df |
+| mc2-malachia-core-406 | 연구소의 열쇠 | 研究所钥匙 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:22f361b7bcf01648e114220572dcea5fda07c2548dd2ed39d05fa75dbddbf607 |
+| mc2-malachia-core-407 | 단도 | 短刀 | weapon-type | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:f34b6c3ff00646ca1d59194ea7e5aabc929f355086bd7ffe5c79f48ddbd51de1 |
 
-本作词条：403；已继承：0。
+本作词条：407；已继承：0。
 
 固定来源、统计、冲突与审核流程见 [系列术语参考](docs/SERIES_TERMS.md)。

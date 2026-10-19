@@ -1,3 +1,9 @@
+## 研究所钥匙与通行卡同key的两个occurrence（2026-10-20）
+
+Verified / source：INT/MC2Item/Valuables的key_laboratory及key_laboratory_D各有两次。第一次是研究所钥匙名/描述（名末尾一空格），第二次是研究室通行卡/描述，不是同一词面。
+第79批只增加occurrence1：稳定ID分别以22f361b7、22a4a7a8开头；第47批已译occurrence2卡片两字段保持。不能按section/key字典覆盖或只取最后一条。
+79批之后四字段均已译；后续验证不能沿用历史“仅occurrence2在merged”或本批“occurrence1属于新增”的断言，应保留两组旧值。此为源记录/回填验证，不证明引擎查找策略，也不证明钥匙Item就是Rue_1赠物。
+
 ## 未译导出不是整个场景前缀的总量（2026-10-20）
 
 Verified / source：第75批回查完整INT catalog，CSMBQ06为117字段；040节已有2条历史draft，前次导出115条只是当时未译子集。

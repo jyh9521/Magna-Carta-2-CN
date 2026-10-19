@@ -926,3 +926,9 @@ Verified / source：MC2CSMB.int [CSMB09_20] voc_csmb_0920_06含감Ｒ异常混�
 ## Boss回复日志是拼接片段（batch051）
 
 Verified / source：MC2UI.int Battle_Log/beeljebubRecover_1/2分为Boss主语和带助词的HP后缀片段。Unverified：运行时夹入数值的位置/拼接顺序尚无调用证据。两项ID/hash记录于batch-051.review.json held_entries，原值保持；不要只译Boss主语，也不要未经证据重组数值/动词顺序。
+
+## 同key跨locale的机关文案并非逐句对齐（batch062）
+
+Verified / source：MC2Compose的Chapter11_29在INT与JPN中内容不同；INT讲中心之门与英雄牺牲，JPN另有明确的四碑计数。该字段INT的UTF-8源值hash为591045150b284d3b73bb96aecd0cf733ca1cf4417fe8b986e99b8260f787460f，JPN的UTF-8源值hash为20f64eb471195fd60ba271e5ddae23dfec80c2bf0d1cbe6a5e2a019b9599424c。
+32/33同样存在句子跨字段分配差异；相同section/key不保证逐句或数值对应。不得据JPN计数改写INT已有五碑机关，也不得直接把JPN译文按key批量填入INT。两者须保留独立resource、ID及源hash，只作明确归属的上下文旁证。
+Unverified：INT11_27的성쇄词义以及32-36说话者/运行触发仍未确认；JPN同key的隆盛措辞不是原韩文拼写修复或角色绑定的证明。未把这些待查字段计入本批draft。完整原文仅保留忽略的研究证据，后续按锁定源重新提取核查。

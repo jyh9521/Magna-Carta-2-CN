@@ -214,7 +214,13 @@
 | mc2-villager-relic-208 | 마을사람의 유품 | 村民的遗物 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:2497f062ecbf6c43eb30a0782c63a70fe671fe3ab66df3561c5dee2f8d364466 |
 | mc2-fantastic-root-209 | 환상의 뿌리 | 幻之根 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:917ac303c2a64a106f0c624374c22232d11767b566a46d746a6dd9f0dbf42ce5 |
 | mc2-liandal-fruit-210 | 리안달의 열매 | 利安达尔果实 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:a8160588a079ed87583a30d78ecebb87668bc90b81857c8a624135ab90885d87 |
+| mc2-ruhault-opening-211 | 칸 지뢰 | KAN地雷 | system | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:949eb6501a9675d451f57db1dfda8b88c8c6a0563573d35b36bda0f686e28ea9 |
+| mc2-ruhault-opening-212 | 번개 폭탄 | 雷电炸弹 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:79e618ca7aa0a2e5bbf6b7fd018003f2f40e634ed14fb84644e874f062b06fd5 |
+| mc2-ruhault-opening-213 | 파이어와인 | 法伊尔瓦因 | character | short-name | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:b2639e695d276d13ba1fadc08b1a69820e893106064054353afedf71d5da6992 |
+| mc2-ruhault-opening-214 | 루할트 분지 | 鲁哈尔特盆地 | place | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:949eb6501a9675d451f57db1dfda8b88c8c6a0563573d35b36bda0f686e28ea9 |
+| mc2-ruhault-opening-215 | 연계오의 | 连携奥义 | system | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:f172216d13fc3814baea00d7d67e7420007f1fbdc308af83b631b7a8ebcd5c13 |
+| mc2-ruhault-opening-216 | 번개의 칸 | 雷之KAN | system | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:06c032e674e035bcf7c44f159370f766bbaaabc51b257a2ffcbbe64f8848bc2d |
 
-本作词条：210；已继承：0。
+本作词条：216；已继承：0。
 
 固定来源、统计、冲突与审核流程见 [系列术语参考](docs/SERIES_TERMS.md)。

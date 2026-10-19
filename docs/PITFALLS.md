@@ -914,3 +914,7 @@ target和candidate状态；Coalesced共享terms仍只保存其已支持的容器
 ## 第六章护送任务的未知反斜线（batch036）
 
 Verified / source：MC2Quest.int [06_603_0] 603_0在“몬스터를”之后含`\처`，不是已确认的`\n`。原ID/hash见batch-036.review.json；保持原值，不猜换行，不计draft。即使同值后面另有合法换行也不整体规范化。
+
+## 实验室钥匙与通行卡同key（batch047）
+
+Verified / source：MC2Item.int的Valuables中，key_laboratory及key_laboratory_D各有两个occurrence，第一组为钥匙，第二组为通行卡。本批仅第二组稳定ID/source hash回填；第一组保持。不要按key构建会覆盖同名项的字典，不要用不含occurrence的next取首项。完整源值仅留忽略的验证目录。

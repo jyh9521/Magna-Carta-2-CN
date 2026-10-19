@@ -306,7 +306,13 @@
 | mc2-lab-opening-300 | 동력장치 열쇠 | 动力装置钥匙 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:4503c4dfd368939fba411e368756a90935d50bdd365cc9a902483e614453a467 |
 | mc2-lab-opening-301 | 닉스의 보관함 | 尼克斯的保管箱 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:4503c4dfd368939fba411e368756a90935d50bdd365cc9a902483e614453a467 |
 | mc2-lab-opening-302 | 닉스의 보관함 열쇠 | 尼克斯的保管箱钥匙 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:514460fa53ce33410173d503386eea95f49dece497cc0776265114fc4541b109 |
+| mc2-lab-truth-303 | 인간형 센티넬 | 人形哨兵 | character | alias | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:55cf1b480444d945150feadba364e9b05488e1730a1824df1cd590887c59c93c |
+| mc2-lab-truth-304 | 세컨드 | 二号 | character | alias | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:2f8e484f911446e41034301dc8a1ffa7a094d9fdd73b42217984a1dc00e8c0e2 |
+| mc2-lab-truth-305 | 퍼스트 엘가 | 一号艾尔加 | character | alias | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:76c38ac6022293a7b37e4816f8c30532455fa3585987e88064bc54d42ef82f66 |
+| mc2-lab-truth-306 | 세컨드 엘가 | 二号艾尔加 | character | alias | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:2f8e484f911446e41034301dc8a1ffa7a094d9fdd73b42217984a1dc00e8c0e2 |
+| mc2-lab-truth-307 | 절대명령 | 绝对命令 | term | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:268dfa8c8c63a4849683896f11e7a54f8ead31270f10ce2a68a203075ca8783c |
+| mc2-lab-truth-308 | 연구실 출입카드 | 研究室通行卡 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:03bfa9a5ca5d3f8787a74d41c800a34f3a0d9673cf3504c4bd18cd975c53b03a |
 
-本作词条：302；已继承：0。
+本作词条：308；已继承：0。
 
 固定来源、统计、冲突与审核流程见 [系列术语参考](docs/SERIES_TERMS.md)。

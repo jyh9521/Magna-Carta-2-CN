@@ -312,7 +312,9 @@
 | mc2-lab-truth-306 | 세컨드 엘가 | 二号艾尔加 | character | alias | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:2f8e484f911446e41034301dc8a1ffa7a094d9fdd73b42217984a1dc00e8c0e2 |
 | mc2-lab-truth-307 | 절대명령 | 绝对命令 | term | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:268dfa8c8c63a4849683896f11e7a54f8ead31270f10ce2a68a203075ca8783c |
 | mc2-lab-truth-308 | 연구실 출입카드 | 研究室通行卡 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:03bfa9a5ca5d3f8787a74d41c800a34f3a0d9673cf3504c4bd18cd975c53b03a |
+| mc2-lab-rescue-309 | 발포어 | 巴尔福 | character | alias | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:e0502ed17d57ea67a0991451d26c250ca871bbf606dc829a7ad0c5a0e835279c |
+| mc2-lab-rescue-310 | 제동장치 | 制动装置 | term | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:865b39a6bda1e3bcab0ba3fe62e6214363181565c211da668a731c219412860e |
 
-本作词条：308；已继承：0。
+本作词条：310；已继承：0。
 
 固定来源、统计、冲突与审核流程见 [系列术语参考](docs/SERIES_TERMS.md)。

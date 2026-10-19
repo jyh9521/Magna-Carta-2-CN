@@ -9,13 +9,14 @@
 
 ## 当前落点
 
-- 最新批次：batch-022；累计3,775条INT草稿，194项candidate，workflow二十二份不重叠计划。
-- 当前工作区：build/field-comments-batch022/workspace；历史工作区保留作对照，不是新增维护源。
-- 当前INT的CSMB04前缀411条、MC2Quest的04_前缀15个section186条均有draft；Ch04_Abazet 242/242与Compose/Chapter04 68/68亦已有draft，不表示第四章全部可见文字覆盖。
-- 同阶段缺口：MC2QubeMail/E04_001–029共29封、58个主题/正文原字段尚无draft；下一批先读完整邮件、保护段落/功能格式并接续这些字段，再推进第五章。
+- 最新批次：batch-023；累计3,834条INT草稿，200项candidate，workflow二十三份不重叠计划。
+- 当前工作区：build/mail04-batch023/workspace；历史工作区保留作对照，不是新增维护源。
+- E04_001–029邮件29封、58主题/正文字段均有draft；248个源硬换行和空段落保留。Igton关联姓名已译。
+- MC2QubeMail总235字段当前只有E04的58个已译；B04（10）/Q04（2）仍无draft，下一批先核读这12字段的场景关联与格式，不预设其他前缀已覆盖。
+- 当前INT的CSMB04 411、Quest04_前缀15个section186、Ch04_Abazet242、Compose/Chapter04 68条均有draft，不表示第四章所有可见文字已完成。
 - 剧情下一场CSMB05_001（10条），随后05_020/030/031；第五章独立字幕需按相邻场景推进，不重复当前csm04两份14cue。
 - CSMB03为687/688条draft、03_20未知转义1条保留；CSMB02为585/585条draft；Ch02_Abazet为274/276条draft，2条纯标记保留。
-- 当前INT MC2Quest中Ch02前缀section除Ch02_296_00/pay空白字段外均有draft，不表示所有第二章任务/引导/邮件全覆盖。
+- 当前INT MC2Quest中Ch02前缀section除Ch02_296_00/pay空白字段外均有draft；其他邮件/引导仍须审计，不能泛称全章覆盖。
 - KotaMare初始/_01/_02/_03共118条及02_oldfox 14条已有draft，不重复早先状态。
 
 ## 持续待查

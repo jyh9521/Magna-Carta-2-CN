@@ -198,7 +198,13 @@
 | mc2-chapter04-192 | 도난 당한 카몬드 | 被盗的卡蒙德 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:5b4f7839399bf33b95966973e7e9d0fc17c45a9823d016a9b5689c6ecc3368fd |
 | mc2-field-comment-193 | 베카스 | 贝卡斯 | character | short-name | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:bef5296b50e236e63c9695d1d6652f57ee8013abb17631e758ba22979692e362 |
 | mc2-field-comment-194 | 레카스 | 雷卡斯 | character | short-name | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:272cac59e1ce46918cbba542849ad0ec74491febd6d3756e076ce4354a39d385 |
+| mc2-mail04-195 | 이그톤 | 伊格顿 | character | short-name | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:10c9016297ddd82c38d07db9cea7ebb951093b309e311b3ab54dc08dc4529cb3 |
+| mc2-mail04-196 | 휘시스 | 惠西斯 | character | short-name | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:e9200719621b89dddd4526d8875b7e4ce4fffc21dec9ab2002d21dbed6befb2d |
+| mc2-mail04-197 | 아비스베르크 | 阿维斯贝尔克 | place | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:002eb6fa68c2e5eeed4cb37df6ca600097ab0f6fbf2ded1c34e6154cb92fc627 |
+| mc2-mail04-198 | 레트러뷰션 | 惩戒者 | weapon | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:6af57fbd4aabd5ce8553a8ad7e6f689246c56bdd164718e25de178a514b7ce9c |
+| mc2-mail04-199 | 칼리다 | 卡利达 | place | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:f2636b200f47f78537dc5dc39dc70a6c7d745b6ead79244028ad3894aac39ff5 |
+| mc2-mail04-200 | 이블린 | 伊芙琳 | character | short-name | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:f8b4209110892dec713e2ae9d04b05f72f804419135ddb7815ea94414fce6cea |
 
-本作词条：194；已继承：0。
+本作词条：200；已继承：0。
 
 固定来源、统计、冲突与审核流程见 [系列术语参考](docs/SERIES_TERMS.md)。

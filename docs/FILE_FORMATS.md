@@ -1,3 +1,11 @@
+## 库布邮件的主题/正文值（2026-10-19）
+
+Verified / source：当前INT MC2QubeMail的E04_001–029共29个section，每节有对应的_Sub和_Con两字段；
+源ID仍由resource/embedded_path/section/key/occurrence绑定，不按主题文字去重。正文有248个字面\n，
+包括连续\n形成的空段落；E04_018_Sub尾随一个空格。batch-023按mail_subject/mail_body显式分类，
+全部保留这些结构，不对邮件套用对白去硬换行策略。是否每行都具有游戏内功能及实际排版仍未验收，
+因此此处是保守保留规则而非运行机制结论。源hash/数字/ASCII括号/方括号/段落布局逐值核对；详见BATCH_023_MAIL04.md。
+
 ## 共享译库与字幕catalog（2026-10-19）
 
 `translation-workflow.json` schema_version1显式锁定提取profile、样式规则、术语及各batch

@@ -295,7 +295,18 @@
 | mc2-family-legacy-289 | 리든 가의 화염구 | 利登家族火球 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:e1640e96ef4ee82018bcb724ddc299cc6c4886528e9539664006b06792e6c446 |
 | mc2-family-legacy-290 | 에메랄드 | 祖母绿 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:75fc352db36d2836155faebea71b3802bc9d0898f13f393fd30386024638c83f |
 | mc2-family-legacy-291 | 칸 차져 | KAN充能器 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:553991b8e539ef22fd906ae24bfb89dfad47c2b1028cced088b9eb0538f3c861 |
+| mc2-lab-opening-292 | 퍼스트 | 一号 | character | alias | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:84ee9ae63f01a981049dd200fd4a46a00fb14d54d9fd5a85866c1ce300911d2a |
+| mc2-lab-opening-293 | 닉스 | 尼克斯 | character | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:28d4d6113512ea44c17273062e5a718c1ca3a1f669fbc69a04cbbbcb2ef419b2 |
+| mc2-lab-opening-294 | 중앙연구실 | 中央研究室 | place | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:f2605f82938ef6313b830265fe6bacfa88e24bdc5b7f6a3d6168638fd230d48d |
+| mc2-lab-opening-295 | 중앙 연구소 | 中央研究所 | place | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:9133ab78da932a438ccd081b645b2fbe04fc830c17c96f381e6bc23209853150 |
+| mc2-lab-opening-296 | 동력 장치 | 动力装置 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:f6070774fd98bdb2e9e5a3f746d8e24d6e8c538a85bbefb0b994274d423903c1 |
+| mc2-lab-opening-297 | 동력장치 | 动力装置 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:b0c94df901eab25d119cdd07608c0fa8273d2257cd6ff056d377eec1f4397aaf |
+| mc2-lab-opening-298 | 워프 장치 | 传送装置 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:63c9bdfb8f806fc6590e3eb4ba0d69b2a37d086640b14b91707aac83b84976f7 |
+| mc2-lab-opening-299 | 워프장치 | 传送装置 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:f007dc0713b5ed61838e6f2ad7966f03ce02976e6d53719357f6a92af48f3381 |
+| mc2-lab-opening-300 | 동력장치 열쇠 | 动力装置钥匙 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:4503c4dfd368939fba411e368756a90935d50bdd365cc9a902483e614453a467 |
+| mc2-lab-opening-301 | 닉스의 보관함 | 尼克斯的保管箱 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:4503c4dfd368939fba411e368756a90935d50bdd365cc9a902483e614453a467 |
+| mc2-lab-opening-302 | 닉스의 보관함 열쇠 | 尼克斯的保管箱钥匙 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:514460fa53ce33410173d503386eea95f49dece497cc0776265114fc4541b109 |
 
-本作词条：291；已继承：0。
+本作词条：302；已继承：0。
 
 固定来源、统计、冲突与审核流程见 [系列术语参考](docs/SERIES_TERMS.md)。

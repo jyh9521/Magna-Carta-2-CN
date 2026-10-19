@@ -32,7 +32,19 @@ class RuhaltCloseTests(unittest.TestCase):
         c=self.r['subtitle_term_candidates'];self.assertEqual(len(c),1);self.assertEqual((c[0]['source'],c[0]['target']),('퍼스트','一号'))
         self.assertEqual(c[0]['resource'],'MC2Game/Movies/csm06-120.txt');self.assertTrue(c[0]['source_string_id'].startswith('subtitle:'))
         self.assertEqual(c[0]['review_status'],'candidate');self.assertEqual(c[0]['relation'],'unverified')
-        self.assertNotIn('퍼스트',terms);self.assertRegex(c[0]['anchor_source_sha256'],r'^[0-9a-f]{64}$')
+        self.assertRegex(c[0]['anchor_source_sha256'],r'^[0-9a-f]{64}$')
+        # Batch033 only had a Movies anchor; later genuine Coalesced occurrences
+        # may join shared terms without altering this immutable subtitle record.
+        if '퍼스트' in terms:
+            shared=terms['퍼스트'];self.assertEqual(shared['target'],c[0]['target'])
+            self.assertEqual(shared['resource'],'MC2Game/Localization/Coalesced.int')
+            self.assertEqual((shared['review_status'],shared['relation']),('candidate','unverified'))
+            batches=load('locales/zh-Hans/translation-workflow.json')['batches']
+            early={e['id'] for spec in batches[:33] for e in load(spec['plan']['path'])['entries']}
+            later={e['id']:e for spec in batches[33:] for e in load(spec['plan']['path'])['entries']}
+            self.assertNotIn(shared['source_string_id'],early);self.assertIn(shared['source_string_id'],later)
+            self.assertIn(c[0]['target'],later[shared['source_string_id']]['translation'])
+            self.assertNotEqual(shared['source_string_id'],c[0]['source_string_id'])
     def test_full_chapter_six_movie_locks(self):
         p=load('locales/zh-Hans/subtitle-profile.json');self.assertGreaterEqual(len(p['plans']),27)
         self.assertEqual(sum(len(load(s['path'])['entries']) for s in p['plans'][:27]),187)

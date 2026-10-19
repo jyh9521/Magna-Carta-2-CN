@@ -9,8 +9,8 @@
 
 ## 当前落点
 
-- 最新批次：batch-045；累计6,070条INT草稿，291项共享candidate及1项独立字幕candidate，workflow四十五份不重叠计划。
-- 当前工作区：build/family-legacy-batch045/current-workspace；历史工作区保留作对照，不是新增维护源。
+- 最新批次：batch-046；累计6,163条INT草稿，302项共享candidate及1项历史字幕来源候选记录（一号亦已纳入共享库），workflow四十六份不重叠计划。
+- 当前工作区：build/lab-opening-batch046/current-workspace；历史工作区保留作对照，不是新增维护源。
 - E04_001–029邮件29封、58主题/正文字段均有draft；248个源硬换行和空段落保留。Igton关联姓名已译。
 - MC2QubeMail的E04/B04/Q04/E05/E06/Q06及E07/Q07/Q_kenaros_1共114/235字段有draft；B04五封战术提示与Q04哨所任务邮件已核读。Q04正文源值本身未完句，仅译现有从句；其余121字段仍待分阶段审计。泽格隆关联姓名已译。
 - 当前INT的CSMB04 411、Quest04_前缀15个section186、Ch04_Abazet242、Compose/Chapter04 68条均有draft，不表示第四章所有可见文字已完成。
@@ -21,6 +21,8 @@
 - KotaMare初始/_01/_02/_03共118条及02_oldfox 14条已有draft，不重复早先状态。
 
 ## 持续待查
+
+- 第46批研究所开场55/239、动力任务21、念白10与关联7字段有draft；下一批从CSMB08_20接续营救/实验室事件，独立csm08-30/40尚未到场景。一号已有真实Coalesced锚点纳入共享，旧字幕候选记录保持，不造ID。
 
 - 第45批第七章剩余33任务字段、8封邮件16字段与关联姓名/地点/Item19有draft；Quest/07_150/150，E07/Q07八封16字段均draft，另封印石邮件已补。下一批接第八章连续剧情；历史未知格式继续保持。
 

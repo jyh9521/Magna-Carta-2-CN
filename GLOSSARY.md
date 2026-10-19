@@ -180,7 +180,9 @@
 | mc2-tomb-174 | 카르타대전 | 卡尔塔大战 | event | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:05ca4d61845696a9e82f8f4a7a222cbcf381d5f50c3bbb5b09ecc243148de010 |
 | mc2-tomb-175 | 스트라스의 묘 | 斯特拉斯之墓 | place | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:620706bb0e5f63167565980fb5ab5ee83117582e9f0ec2ad2506f51536477c74 |
 | mc2-tomb-176 | 아셀리나의 눈물 | 阿塞莉娜之泪 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:ffc4da4291457945e2e5f71548e88bc0939e398e211b22e50ab43530c6a542aa |
+| mc2-return-abazet-177 | 루할트 | 鲁哈尔特 | place | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:ff29a054d61738336accbaeea2708e73866823d78c29917e5a68dc833429e8aa |
+| mc2-return-abazet-178 | 네코폭탄 | 猫猫炸弹 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:33e47e23f4886ee283b78d0ed991b8d8224595fb95e42f44c24c99e62f208580 |
 
-本作词条：176；已继承：0。
+本作词条：178；已继承：0。
 
 固定来源、统计、冲突与审核流程见 [系列术语参考](docs/SERIES_TERMS.md)。

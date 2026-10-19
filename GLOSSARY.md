@@ -344,7 +344,8 @@
 | mc2-materials-338 | 전송장치 | 传送装置 | device | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:7fdf2f8288a4f30b2fea9fcb8f52f7d80315485a513b20815c2b694fae9dd30a |
 | mc2-materials-339 | 거대한 카몬드 | 巨型卡蒙德 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:a2ed2341183c61db3beb828172a471678ae9e93493922acdb1efca41beda88a0 |
 | mc2-materials-340 | 코어 | 核心 | device | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:ece802663383cf3e8220b0ec63623b6e81c3d8916486381964d9c2fa0c60ec32 |
+| mc2-invasion-341 | 란츠하임 연합군 | 兰兹海姆联合军 | faction | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:aa578d071fde5fd84f270c0999ffb8a19a2258a17cf278f279159d6b7d69be11 |
 
-本作词条：340；已继承：0。
+本作词条：341；已继承：0。
 
 固定来源、统计、冲突与审核流程见 [系列术语参考](docs/SERIES_TERMS.md)。

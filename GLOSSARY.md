@@ -375,7 +375,19 @@
 | mc2-inferno-369 | 블레이즈의 꼬리 | 布雷兹之尾 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:9ba31541b90ddf7f04dcd4328c9859619c93beaa327dcbce4abb969a99819a96 |
 | mc2-inferno-370 | 안티 페르노탄 | 反费尔诺弹 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:ab1a5f516c8679ce055af066e3ef7f59d247be47ed73c6d3be95702508df102c |
 | mc2-inferno-371 | 헌터 길드 | 猎人公会 | faction | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:cbf9d2d41362d93ee2299fa91269c67f854984812d7ed0d9cacfea30ad074b00 |
+| mc2-giant-moth-372 | 자이언트 모스 | 巨蛾 | monster | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:214c7d62a783055e0ff7526623b50a4ec2fd52b5878894140e7d01983edc42a1 |
+| mc2-giant-moth-373 | 자이언트모스 | 巨蛾 | monster | alias | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:0cbc7d8c21b0df323d5b64354a9b6126c9cdb0bbec6f7acb4fdf00ffd33876c3 |
+| mc2-giant-moth-374 | 칸의 정기 | KAN精气 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:3c051cf1c74686cf890415e8cb068e88deb0a3cbd92c1508a1d92c63da44dd93 |
+| mc2-giant-moth-375 | 불의 정기 | 火之精气 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:c0e98df07644154965c57aa81062dc0ea57b7f282f4cd76c8ff36af97fda51b4 |
+| mc2-giant-moth-376 | 물의 정기 | 水之精气 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:c0e98df07644154965c57aa81062dc0ea57b7f282f4cd76c8ff36af97fda51b4 |
+| mc2-giant-moth-377 | 바람의 정기 | 风之精气 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:6ba878afeca38d3192b04e47e4529f9d171b0132c42dcfabb66ec35d59a58bc9 |
+| mc2-giant-moth-378 | 번개의 정기 | 雷之精气 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:6ba878afeca38d3192b04e47e4529f9d171b0132c42dcfabb66ec35d59a58bc9 |
+| mc2-giant-moth-379 | 불의 그릇 | 火之容器 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:a0a9e411f34a3437904506d4ed41076911cd79a62729a1f9e4d37abb8963bb0b |
+| mc2-giant-moth-380 | 물의 그릇 | 水之容器 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:0917bb1a7eb8dd4d2b75dee942151b2a86c542b3f6816f3dbb9fa858779124fc |
+| mc2-giant-moth-381 | 번개의 그릇 | 雷之容器 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:5379c1ae29602eb55e1603b9248d8bcfcaef70fb3401d8208e6d4c0653808e7d |
+| mc2-giant-moth-382 | 바람의 그릇 | 风之容器 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:5cf37ad0c32edb6cc4b2d839f5f02080eddd6854e3adbdcc54b40cca9b483de9 |
+| mc2-giant-moth-383 | 칸 아이즈 | KAN之眼 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:c92f6625907791d6a71431a7721458cdbea930ee04530ecb1159795f52c26f49 |
 
-本作词条：371；已继承：0。
+本作词条：383；已继承：0。
 
 固定来源、统计、冲突与审核流程见 [系列术语参考](docs/SERIES_TERMS.md)。

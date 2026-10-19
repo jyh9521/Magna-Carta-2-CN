@@ -9,8 +9,8 @@
 
 ## 当前落点
 
-- 最新批次：batch-069；累计8,105条INT草稿，371项共享candidate及1项历史字幕来源候选记录（一号亦已纳入共享库），workflow六十九份不重叠计划。
-- 当前工作区：build/inferno-batch069/current-workspace；历史工作区保留作对照，不是新增维护源。
+- 最新批次：batch-070；累计8,198条INT草稿，383项共享candidate及1项历史字幕来源候选记录（一号亦已纳入共享库），workflow七十份不重叠计划。
+- 当前工作区：build/giant-moth-batch070/workspace；历史工作区保留作对照，不是新增维护源。
 - E04_001–029邮件29封、58主题/正文字段均有draft；248个源硬换行和空段落保留。Igton关联姓名已译。
 - MC2QubeMail的E04/B04/Q04/E05/E06/Q06及E07/Q07/Q_kenaros_1/Q08_qube_1/Q12_qube_1/E12_001/002共122/235字段有draft；B04五封战术提示与Q04哨所任务邮件已核读。Q04正文源值本身未完句，仅译现有从句；其余113字段仍待分阶段审计。泽格隆关联姓名已译。
 - 当前INT的CSMB04 411、Quest04_前缀15个section186、Ch04_Abazet242、Compose/Chapter04 68条均有draft，不表示第四章所有可见文字已完成。
@@ -21,6 +21,8 @@
 - KotaMare初始/_01/_02/_03共118条及02_oldfox 14条已有draft，不重复早先状态。
 
 ## 持续待查
+
+- 第70批GiantMoth五组73字段与相关Item20有draft；累计8,198、383项candidate。Quest12_九组135/135字段均draft，不等于全章所有文字。精气与魂不合并，Kan_Orb按源名/眼镜描述暂译KAN之眼，不按英文key译球；任务数字/QUEST/功能布局、八个Item尾随空格保持。下一批补CSMBQ11两组62条连携支线、关联任务/技能与Compose提示，之后接第十三章剧情/字幕；所有历史held保持。
 
 - 第69批盗贼口信9、Inferno三组53、姓名2/Item4及三封邮件6字段有draft；累计8,105、371项candidate，邮件122/235。反费尔诺弹保留源名페르노词形；21处邮件换行、空段落/行末空格及QUEST/%s/数字保持。下一批接GiantMoth五组73字段及关联名称/Item，随后补CSMBQ11两组62条连携支线、关联任务及技能/Compose提示；本次提取无CSMBQ12前缀，不据主线完成泛称全部覆盖。历史held含68两处保持。
 

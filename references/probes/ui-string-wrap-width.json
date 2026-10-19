@@ -1,0 +1,54 @@
+{
+  "schema_version": 1,
+  "kind": "ppc-runtime-patch",
+  "image_base": 2181038080,
+  "image_sha256": "d18d49fb2960426715ba17d61d069cce42b1eadac153af13c9395cd42b1773e9",
+  "game_sha256": "26146f0ceaeb1945bc8e0031d31bfd7fe929c85a6e9e0992aeaa823968c0750f",
+  "emulator_sha256": "e5e197f50a7ed1b6f94a927613d0510f31b528eacbec5b7dea4e5fa99c49ac0e",
+  "title_id": "4E4D0811",
+  "module_hash": "0FAA852250B131D1",
+  "title_name": "Magna Carta II",
+  "name": "Correct forced-wrap line extent",
+  "windows": [
+    {
+      "label": "wrap",
+      "address": 2188150864,
+      "size": 2016,
+      "sha256": "7fb07a6de4511a0e7555957bc68c92b656813b63458b196144ceda297408f9b8"
+    },
+    {
+      "label": "split-consumer",
+      "address": 2188155168,
+      "size": 3276,
+      "sha256": "0c364c3eb8f13c48fe278cb8e80b77c7a051fd53ba68b691b5f5e6eac9a726eb"
+    },
+    {
+      "label": "center-consumer",
+      "address": 2188159032,
+      "size": 1532,
+      "sha256": "cf7ca2195e94862a4412e6259849d95149b634471b0f7df3ba8d69c3d4b86b93"
+    }
+  ],
+  "cave": {
+    "address": 2196302752,
+    "size": 12,
+    "expected": "000000000000000000000000"
+  },
+  "writes": [
+    {
+      "address": 2188152400,
+      "expected": "ef40f77c",
+      "replacement": "487c5d50"
+    },
+    {
+      "address": 2196302752,
+      "expected": "000000000000000000000000",
+      "replacement": "ef40f77cef5ac8284b83a2ac"
+    }
+  ],
+  "replay": {
+    "entry": 2188152400,
+    "exit": 2188152404,
+    "cave": 2196302752
+  }
+}

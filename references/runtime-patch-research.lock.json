@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "repository": "https://github.com/xenia-canary/xenia-canary",
+  "commit": "50e9c715d",
+  "author": "Ben Vanik and Xenia contributors",
+  "license": "BSD-3-Clause",
+  "reuse": "Read-only runtime patch format, hash matching, storage-root lookup and executable-page mapping research; no upstream implementation copied",
+  "files": [
+    {
+      "path": "src/xenia/patcher/patch_db.cc",
+      "url": "https://raw.githubusercontent.com/xenia-canary/xenia-canary/50e9c715d/src/xenia/patcher/patch_db.cc",
+      "sha256": "707cea6f8a9c9778ec2c28c97d0eb05f8b0fdf395e00b4a8156dee52c473b066"
+    },
+    {
+      "path": "src/xenia/patcher/patcher.cc",
+      "url": "https://raw.githubusercontent.com/xenia-canary/xenia-canary/50e9c715d/src/xenia/patcher/patcher.cc",
+      "sha256": "6e963fdaf813e883000b46cab57492734c25ee34504a899d6fbfd6228ac28ebf"
+    },
+    {
+      "path": "src/xenia/app/xenia_main.cc",
+      "url": "https://raw.githubusercontent.com/xenia-canary/xenia-canary/50e9c715d/src/xenia/app/xenia_main.cc",
+      "sha256": "4069a6de600b5b952cdf19ffe05d1c71116e781e4e5a192d8a714ac1fffb5173"
+    },
+    {
+      "path": "src/xenia/cpu/xex_module.cc",
+      "url": "https://raw.githubusercontent.com/xenia-canary/xenia-canary/50e9c715d/src/xenia/cpu/xex_module.cc",
+      "sha256": "6453f4bbaae19a26cd1da9b3da733a49fa608593d4fd944f7a5408d8109a23db"
+    },
+    {
+      "path": "src/xenia/cpu/processor.cc",
+      "url": "https://raw.githubusercontent.com/xenia-canary/xenia-canary/50e9c715d/src/xenia/cpu/processor.cc",
+      "sha256": "4345a06430a1a23a5825cb3fca2a9beab152b8dacf93e2d6b8b3fecbc9075d86"
+    },
+    {
+      "path": "src/xenia/cpu/module.cc",
+      "url": "https://raw.githubusercontent.com/xenia-canary/xenia-canary/50e9c715d/src/xenia/cpu/module.cc",
+      "sha256": "db0b5cc60236344aa174a994f2aef8e950818257a29894fe7904f14d662e4cce"
+    },
+    {
+      "path": "LICENSE",
+      "url": "https://raw.githubusercontent.com/xenia-canary/xenia-canary/50e9c715d/LICENSE",
+      "sha256": "369ea6b0f7ba57544067e9d470ca82a927da787fb0a749b11cb55f1fd0ba47ae"
+    }
+  ]
+}

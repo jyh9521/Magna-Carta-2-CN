@@ -26,10 +26,12 @@ def quote(value):
     return '"'+value+'"'
 
 
-def launcher(python,project,packet,manifest_sha,exe,config,config_sha,phase):
+def launcher(python,project,packet,manifest_sha,exe,config,config_sha,phase,patch_bundle=None,patch_manifest_sha256=None):
     """Only produce text. This function does not execute the launcher."""
     check=' '.join(map(quote,[python,project/'tools/verify_resource_phase.py','--packet-root',packet,'--manifest-sha256',manifest_sha]))
     run=' '.join(map(quote,[python,project/'tools/launch_xenia.py','--exe',exe,'--config',config,'--config-sha256',config_sha]))
+    if patch_bundle is not None:
+        run+=' '+' '.join(map(quote,['--patch-bundle',patch_bundle,'--patch-manifest-sha256',patch_manifest_sha256]))
     lines=['@echo off','chcp 65001 >nul','setlocal DisableDelayedExpansion','cd /d "%~dp0"',
         'set "MC2_RUN_ID='+phase+'-%RANDOM%-%RANDOM%"',
         check+' --resource-root "%~dp0'+phase+'" --phase '+phase+' --output "%~dp0runs\\%MC2_RUN_ID%-check.json"',
@@ -38,7 +40,8 @@ def launcher(python,project,packet,manifest_sha,exe,config,config_sha,phase):
     return ('\r\n'.join(lines)+'\r\n').encode('utf8')
 
 
-def prepare(source_root,packet_root,manifest_sha256,game_sha256,exe,config,output_root,project_root=None,python=None):
+def prepare(source_root,packet_root,manifest_sha256,game_sha256,exe,config,output_root,project_root=None,python=None,
+            patch_bundle=None,patch_manifest_sha256=None):
     source=Path(source_root).resolve();packet=Path(packet_root).resolve();out=Path(output_root).resolve()
     project=Path(project_root or Path(__file__).resolve().parents[1]).resolve();python=Path(python or sys.executable).resolve()
     exe,config=Path(exe).resolve(),Path(config).resolve()
@@ -52,6 +55,14 @@ def prepare(source_root,packet_root,manifest_sha256,game_sha256,exe,config,outpu
     quote(packet);hash_value(game_sha256)
     game=confined(source,'default.xex')
     if digest(game)!=game_sha256:raise ValueError('original default.xex SHA256 mismatch')
+    if (patch_bundle is None)!=(patch_manifest_sha256 is None):raise ValueError('runtime patch bundle requires trusted manifest SHA256')
+    if patch_bundle is not None:
+        try:
+            from .runtime_patch import read_bundle
+        except ImportError:
+            from runtime_patch import read_bundle
+        read_bundle(patch_bundle,patch_manifest_sha256,game,exe,config.read_bytes())
+        quote(Path(patch_bundle).resolve())
     original,snap=inspect(packet,manifest_sha256,source,'controls')
     if not original['all_resources_match']:raise ValueError('original game resource bytes differ from packet controls')
     phases=('candidate','raw-controls');phase_snapshots=[];phase_bytes=0
@@ -95,13 +106,20 @@ def prepare(source_root,packet_root,manifest_sha256,game_sha256,exe,config,outpu
     current={p.relative_to(source).as_posix() for p in source.rglob('*')}
     if current!={name for name,_,_,_ in files}|set(directories):raise ValueError('source member inventory changed before publication')
     # Publish clickable files last, after both complete trees have validated.
-    for name,phase in [('开始中文测试.cmd','candidate'),('开始原文对照.cmd','raw-controls')]:
-        raw=launcher(python,project,packet,manifest_sha256,exe,config,config_sha,phase);path=out/name;path.write_bytes(raw)
+    entries=[('开始中文测试.cmd','candidate',patch_bundle),('开始原文对照.cmd','raw-controls',None)]
+    if patch_bundle is not None:entries.append(('开始未修复对照.cmd','candidate',None))
+    for name,phase,bundle in entries:
+        raw=launcher(python,project,packet,manifest_sha256,exe,config,config_sha,phase,
+            Path(bundle).resolve() if bundle is not None else None,patch_manifest_sha256);path=out/name;path.write_bytes(raw)
         if path.read_bytes()!=raw:raise ValueError('launcher reopening mismatch')
     report=dict(schema_version=1,kind='prepared-oneclick-warning-probe',source_root=str(source),packet_root=str(packet),
         packet_manifest_sha256=manifest_sha256,game_sha256=game_sha256,config_sha256=config_sha,
         phases=results,full_independent_copies=True,links_created=False,originals_unchanged=True,
         game_started=False,game_rendering_verified=False,deployment_to_original_performed=False)
+    if patch_bundle is not None:
+        read_bundle(patch_bundle,patch_manifest_sha256,game,exe,config.read_bytes())
+        report['runtime_patch']=dict(bundle=str(Path(patch_bundle).resolve()),manifest_sha256=patch_manifest_sha256,
+            per_run_storage_only=True,control_entry='开始未修复对照.cmd')
     raw=(json.dumps(report,ensure_ascii=True,indent=2)+'\n').encode();(out/'PREPARED.json').write_bytes(raw)
     if (out/'PREPARED.json').read_bytes()!=raw:raise ValueError('prepared report reopening mismatch')
     return report
@@ -110,9 +128,11 @@ def prepare(source_root,packet_root,manifest_sha256,game_sha256,exe,config,outpu
 def main(argv=None):
     p=argparse.ArgumentParser(description=__doc__)
     for flag in ['source-root','packet-root','exe','config','output-root']:p.add_argument('--'+flag,type=Path,required=True)
-    p.add_argument('--manifest-sha256',required=True);p.add_argument('--game-sha256',required=True);a=p.parse_args(argv)
+    p.add_argument('--manifest-sha256',required=True);p.add_argument('--game-sha256',required=True)
+    p.add_argument('--patch-bundle',type=Path);p.add_argument('--patch-manifest-sha256');a=p.parse_args(argv)
     try:
-        r=prepare(a.source_root,a.packet_root,a.manifest_sha256,a.game_sha256,a.exe,a.config,a.output_root)
+        r=prepare(a.source_root,a.packet_root,a.manifest_sha256,a.game_sha256,a.exe,a.config,a.output_root,
+                  patch_bundle=a.patch_bundle,patch_manifest_sha256=a.patch_manifest_sha256)
         print(json.dumps(dict(phases=len(r['phases']),game_started=False,originals_unchanged=True,output=str(a.output_root.resolve())),sort_keys=True));return 0
     except (OSError,ValueError,KeyError,TypeError) as exc:
         print('ERROR: '+str(exc));return 2

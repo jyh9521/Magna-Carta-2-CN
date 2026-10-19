@@ -1,5 +1,10 @@
 # 当前可执行流程（2026-10-18）
 
+2026-10-19 原生强制折行宽度修复候选见 [WRAP_WIDTH_FIX](docs/WRAP_WIDTH_FIX.md)：
+只补扣行起点，不改样本/字库/框体，不添加手动换行。
+新入口 `dist/MC2-layout-fix-disc1/开始中文测试.cmd`；同目录有同中文资源、无修复的 A/B 对照。
+新增显式 `--patch-bundle/--patch-manifest-sha256` 只在每次 run/storage/patches 下装配，原配置不变。
+
 2026-10-19 扩展中文长句/标点/自动换行测试见 [TEXT_LAYOUT_PROBE](docs/TEXT_LAYOUT_PROBE.md)：
 新入口 `dist/MC2-layout-test-disc1/开始中文测试.cmd`，旧两字入口保留。
 源样本、自动收字/空位分配、显式字图扩高、构建/复核命令与用户验收步骤均在该文档。

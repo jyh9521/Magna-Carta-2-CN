@@ -64,3 +64,10 @@ Object-initialization follow-up independently checks counted-branch/zero-fill
 patterns and arithmetic interval geometry. Versioned IBM instruction URLs and
 their observed availability are retained in references/object-initialization-research.json;
 no vendor prose, runtime or Capstone code is integrated. Target reports stay local.
+
+Runtime patch format research: Ben Vanik and Xenia contributors,
+xenia-canary/xenia-canary, BSD-3-Clause, commit50e9c715d. PatchDB/Patcher storage-root
+lookup, module-hash matching and executable-page mapping were read to validate
+the independent runtime bundle/launcher implementation. Exact source identities
+are in references/runtime-patch-research.lock.json; no upstream implementation or
+emulator binary is committed. The existing Xenia BSD license is retained.

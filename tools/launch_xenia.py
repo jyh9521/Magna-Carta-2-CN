@@ -18,7 +18,8 @@ def file_hash(path):
         return hashlib.file_digest(stream, "sha256").hexdigest()
 
 
-def prepare(exe, config, game, run_dir, expected_config=None, keyboard_test_input=False):
+def prepare(exe, config, game, run_dir, expected_config=None, keyboard_test_input=False,
+            patch_bundle=None, patch_manifest_sha256=None):
     exe, config, game, run_dir = (Path(p).resolve() for p in (exe, config, game, run_dir))
     for p in (exe, config, game):
         if not p.is_file():
@@ -28,6 +29,15 @@ def prepare(exe, config, game, run_dir, expected_config=None, keyboard_test_inpu
     tomllib.loads(raw.decode("utf-8-sig"))
     if expected_config is not None and expected_config != digest:
         raise ValueError("config SHA256 mismatch")
+    payloads=None
+    if (patch_bundle is None)!=(patch_manifest_sha256 is None):
+        raise ValueError('runtime patch bundle and trusted manifest SHA256 must be supplied together')
+    if patch_bundle is not None:
+        try:
+            from .runtime_patch import read_bundle
+        except ImportError:
+            from runtime_patch import read_bundle
+        _,payloads=read_bundle(patch_bundle,patch_manifest_sha256,game,exe,raw)
     # The run must not add experiment state inside the game input tree.
     if run_dir == game.parent or game.parent in run_dir.parents:
         raise ValueError("run directory must be outside game tree")
@@ -45,6 +55,14 @@ def prepare(exe, config, game, run_dir, expected_config=None, keyboard_test_inpu
                   exe_sha256=file_hash(exe), game_sha256=file_hash(game),
                   command=args, cwd=str(exe.parent), tuning_overrides=overrides,
                   game_rendering_verified=False)
+    if payloads is not None:
+        patch_root=run_dir/'storage/patches';patch_root.mkdir(parents=True,exist_ok=False)
+        for name,data in payloads.items():
+            target=patch_root/name
+            with target.open('xb') as f:f.write(data)
+            if target.read_bytes()!=data:raise ValueError('runtime patch copy reopening mismatch')
+        record['runtime_patch']=dict(bundle=str(Path(patch_bundle).resolve()),manifest_sha256=patch_manifest_sha256,
+            files={str(patch_root/name):hashlib.sha256(data).hexdigest() for name,data in payloads.items()})
     save(run_dir, record)
     return record
 
@@ -54,6 +72,7 @@ def save(run_dir, record):
 
 
 def launch(run_dir, record):
+    run_dir=Path(run_dir).resolve()
     if record["status"] != "prepared":
         raise ValueError("run is not prepared")
     for p in (record["config_source"], record["config_snapshot"]):
@@ -63,6 +82,15 @@ def launch(run_dir, record):
                       (record["command"][1], record["game_sha256"])):
         if file_hash(p) != digest:
             raise ValueError("launch input changed")
+    if 'runtime_patch' in record:
+        r=record['runtime_patch']
+        if file_hash(Path(r['bundle'])/'manifest.json')!=r['manifest_sha256']:
+            raise ValueError('runtime patch manifest changed before launch')
+        patch_root=Path(run_dir)/'storage/patches'
+        if set(patch_root.iterdir())!={Path(p) for p in r['files']}:
+            raise ValueError('runtime patch inventory changed before launch')
+        for p,h in r['files'].items():
+            if Path(p).is_symlink() or file_hash(p)!=h:raise ValueError('runtime patch copy changed before launch')
     process = subprocess.Popen(record["command"], cwd=record["cwd"])
     record.update(status="started", pid=process.pid)
     save(run_dir, record)
@@ -98,20 +126,22 @@ def main(argv=None):
     parser.add_argument("--run-dir", type=Path)
     parser.add_argument("--config-sha256")
     parser.add_argument("--launch", action="store_true")
+    parser.add_argument('--patch-bundle',type=Path)
+    parser.add_argument('--patch-manifest-sha256')
     parser.add_argument("--keyboard-test-input", action="store_true",
                         help="Explicit temporary keyboard-controller CLI override; source TOML unchanged")
     args = parser.parse_args(argv)
     try:
         if args.verify:
             if any((args.exe, args.config, args.game, args.run_dir, args.launch,
-                    args.config_sha256, args.keyboard_test_input)):
+                    args.config_sha256, args.keyboard_test_input,args.patch_bundle,args.patch_manifest_sha256)):
                 raise ValueError("verify cannot be combined with launch arguments")
             result = verify_config(args.verify)
         else:
             if not all((args.exe, args.config, args.game, args.run_dir)):
                 raise ValueError("exe, config, game and run-dir are required")
             result = prepare(args.exe, args.config, args.game, args.run_dir,
-                             args.config_sha256, args.keyboard_test_input)
+                             args.config_sha256, args.keyboard_test_input,args.patch_bundle,args.patch_manifest_sha256)
             if args.launch:
                 launch(args.run_dir, result)
         print(json.dumps(result, ensure_ascii=True))

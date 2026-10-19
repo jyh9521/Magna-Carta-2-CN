@@ -804,6 +804,14 @@ readonly literal is a stronger local anchor. Use the separate Font profile;
 do not relax old style-profile boundaries or drop full native U prefixes.
 See FONT_SERIALIZATION.md. The six static serialization templates do not
 establish archive virtual-call semantics or authorize runtime-font claims.
+## 窄框触发折行，不等于所有宽框都会失败
+
+用户补充标题弹窗窄、剧情框宽；必须分别验收。原生强制分割分支多计 origin 的错误，
+会使居中左偏 origin/2，而框小只提高触发频率。不要加手动换行、改左对齐或扩大框体冒充测宽修复。
+运行时 patch 查找路径也须核对实际 Xenia 版本：50e9c715d 使用 storage_root/patches，
+既有 launcher 每次更换 storage_root，所以往全局 xenia/patches 放文件不会进入该隔离路径。
+见 WRAP_WIDTH_FIX.md。
+
 ## 扩展样本不等于继续向原 atlas 任意塞字
 
 General_15 最后一图 512×64 仅有三个 24×24 空位，45 字样本必须明确扩高。

@@ -1013,3 +1013,16 @@ metrics stay unchanged. Sample plans remain bounded to 128 glyph additions;
 placement validation still rejects any overlap with original BC3 blocks.
 This serialization profile is offline verified, not runtime texture compatibility.
 See TEXT_LAYOUT_PROBE.md for the 512x64 -> 512x128 candidate and replay commands.
+
+## Per-run PPC runtime patch bundle (2026-10-19)
+
+`runtime_patch.py` accepts a schema1 source/image-hash-locked plan with equal-size,
+aligned, nonoverlapping expected/replacement writes and complete context-window
+hashes. An explicit cave is checked against original XEX executable pages, .pdata
+non-overlap and zero .text alignment padding. The bundle contains a standard Xenia
+`.patch.toml` and a manifest pinning the game, emulator, image and patch file bytes;
+original/modified complete images remain ignored local evidence, not source assets.
+Launcher optional bundle/hash arguments are paired and explicit. Files are copied
+into a new run's storage/patches, checked before launch, and never installed globally.
+Module hash matching follows the pinned Xenia version; expected-byte validation
+occurs at build time and source-XEX SHA is checked before each launch. See WRAP_WIDTH_FIX.md.

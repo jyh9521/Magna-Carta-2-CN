@@ -420,7 +420,11 @@
 | mc2-pong-rewards-414 | 영웅의 카몬드 | 英雄卡蒙德 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:aed2496d6f38cadc3d1f1963bfd0b70e1fc21b5675a26a0096290be4e54705a5 |
 | mc2-pong-rewards-415 | 소생환 | 苏生丸 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:7cfe814e22af36c7b322ee9d2282ff7484b07f3116fdd0598b5b4249c17a41ce |
 | mc2-coast-cleanup-416 | 클로퍼스 | 克洛普斯 | creature | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:29afc249cfeba61ebd96beaf5d79010393c7ee99e7d2f0a499586a83e2940507 |
+| mc2-lunch-fruit-417 | 리안나 | 莉安娜 | character | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:ec7398603e69db39b74b10aa0ebb2710f92e3c836584271f2bb452b74e685557 |
+| mc2-lunch-fruit-418 | 하만 | 哈曼 | character | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:c9dddfaccaa531ea3803f862af1cbc4144daffb5872469e49b57a5cbe87eee8c |
+| mc2-lunch-fruit-419 | 마마 웜 | 玛玛蠕虫 | creature | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:b036411df1c0520dea21b8a9edfbbf6ceabb317bfc4dfbe5962c096743844701 |
+| mc2-lunch-fruit-420 | 리안나의 도시락 | 莉安娜的便当 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:ec7398603e69db39b74b10aa0ebb2710f92e3c836584271f2bb452b74e685557 |
 
-本作词条：416；已继承：0。
+本作词条：420；已继承：0。
 
 固定来源、统计、冲突与审核流程见 [系列术语参考](docs/SERIES_TERMS.md)。

@@ -937,3 +937,9 @@ Unverified：INT11_27的성쇄词义以及32-36说话者/运行触发仍未确�
 
 Verified / source：MC2Quest.int的11_303_0在yes_0/in_0/DES分别写4/3/5，且奇怪蘑菇与毒蘑菇的源名在不同字段间不一致；Item key Mashpoison却以奇怪蘑菇的韩文源词命名。不要按英语key、相似名称或某一说明把其他源条件统一。Unverified：运行实际检查的数量/物品尚无调用或游戏证据，译文仅忠实保留各字段。
 11_302_0的302_6/7源为未完片段，显示/拼接未验证；连同Chapter11_27的未确认词义，三处ID/hash/reason记录于batch-063.review.json held_entries，原值/尾随空格保持，不补全或计draft。체액/채액与코타메레按候选alias处理，不改原拼写。
+
+## 连携技能重key与词内空格（batch071）
+
+Verified / source：双盘锁定INT的MC2Skill.int/Renkai_Ougi中，Skill_d_37出现两次，不能以(section,key)字典去重。occurrence1是风/雷描述，ID为coalesced:d02cca0a45466b43635aa14caa97a7a936f0c90f0f5f0dbae180097f716d8183，源值UTF-8 hash为092189de54fd4e88eeed72e9e6724cb306120ee93279a537daa9d7876fb51d40；occurrence2是冰/雷描述，ID为coalesced:dacc826ac97f366f530bdf7db67ae20723de9f871e311ff2351b8ea5bc160a68，hash为aebd919bd063cdb7e58ba4b276909b0bcfd0e9cd8219bac2bc37e110baf01f1b。55批已译1，71批只新增2；旧译与原始两个occurrence均保持。
+Verified / source：同一INT的Juto_Crocell_Renkai源名노바 슬래시含内部空格，Compose12_38/39的노바슬래시无空格；精确短语搜索会漏掉前者。保留各自源ID/hash/拼写，仅在候选词库记录主词/alias，不预先规范化源文本。
+Unverified：实际技能触发、属性效果与提示调用尚无本批运行证据；源码邻接和描述不替代游戏验收。초빙결뇌진폭暂译超冰结雷震爆，原汉字与官方译名仍待核。

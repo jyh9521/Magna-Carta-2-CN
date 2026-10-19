@@ -387,7 +387,11 @@
 | mc2-giant-moth-381 | 번개의 그릇 | 雷之容器 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:5379c1ae29602eb55e1603b9248d8bcfcaef70fb3401d8208e6d4c0653808e7d |
 | mc2-giant-moth-382 | 바람의 그릇 | 风之容器 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:5cf37ad0c32edb6cc4b2d839f5f02080eddd6854e3adbdcc54b40cca9b483de9 |
 | mc2-giant-moth-383 | 칸 아이즈 | KAN之眼 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:c92f6625907791d6a71431a7721458cdbea930ee04530ecb1159795f52c26f49 |
+| mc2-skill-sidequests-384 | 마레의 비약 | 马雷灵药 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:4e09daa0a513a661a96835f4d2d090347b2f436e3a1314e436f9694ab1669993 |
+| mc2-skill-sidequests-385 | 노바 슬래시 | 新星斩 | skill | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:a7e9a3115c24b0dd63eaa1e93b75e28dd24863029da81984189d90da4a7d92a2 |
+| mc2-skill-sidequests-386 | 노바슬래시 | 新星斩 | skill | alias | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:c2464562b6128b16bbb11628d8cf392beeb3fbbb4f1b0f6c617620a1248f9b6e |
+| mc2-skill-sidequests-387 | 초빙결뇌진폭 | 超冰结雷震爆 | skill | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:18453a142cfd6abb3002041bfd0f0e2ba143e00d4aec1a23957b16b463af0a5e |
 
-本作词条：383；已继承：0。
+本作词条：387；已继承：0。
 
 固定来源、统计、冲突与审核流程见 [系列术语参考](docs/SERIES_TERMS.md)。

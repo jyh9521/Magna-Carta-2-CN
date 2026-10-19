@@ -1,3 +1,9 @@
+## 第七十一批连携支线与技能说明（2026-10-20）
+
+新增INT82条，累计8,280条draft；新增4项共享candidate至387项。
+两组支线62、任务10、学习提示4与Skill6同步；Skill_d_37按occurrence区分且保留旧风雷描述，字幕271/315、邮件122/235保持。
+见 [BATCH_071_SKILL_SIDEQUESTS](docs/BATCH_071_SKILL_SIDEQUESTS.md)。字库/TOC/玩家入口未更新，离线成功不是游戏验收。
+
 ## 第七十批巨蛾狩猎与四属性精气（2026-10-20）
 
 新增INT93条，累计8,198条draft；新增12项共享candidate至383项。

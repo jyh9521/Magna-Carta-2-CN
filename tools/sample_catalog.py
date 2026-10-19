@@ -36,12 +36,12 @@ def export_catalog(data, plan):
                 input_sha256=sha256(data), resource=plan['resource'], entries=selected)
 
 
-def import_plan(data, catalog):
+def import_plan(data, catalog, style_rules=None):
     if (catalog.get('kind') != 'selected-coalesced-catalog'
             or type(catalog.get('schema_version')) is not int
             or catalog.get('input_sha256') != sha256(data)):
         raise ValueError('catalog schema or input SHA256 mismatch')
-    errors = validate(catalog)
+    errors = validate(catalog, style_rules)
     if errors:
         raise ValueError('; '.join(errors))
     resource = catalog.get('resource')
@@ -70,6 +70,7 @@ def main(argv=None):
     p.add_argument('source', type=Path)
     p.add_argument('document', type=Path)
     p.add_argument('--output', required=True, type=Path)
+    p.add_argument('--style-rules', type=Path)
     a = p.parse_args(argv)
     try:
         if a.output.exists() or a.output.is_symlink() or a.output.resolve() in (a.source.resolve(), a.document.resolve()):
@@ -78,7 +79,8 @@ def main(argv=None):
             raise ValueError('input size limit')
         data, document = a.source.read_bytes(), a.document.read_bytes()
         parsed = parse_json_object(document)
-        result = export_catalog(data, parsed) if a.mode == 'export' else import_plan(data, parsed)
+        rules = parse_json_object(a.style_rules.read_bytes()) if a.style_rules else None
+        result = export_catalog(data, parsed) if a.mode == 'export' else import_plan(data, parsed, rules)
         if a.source.read_bytes() != data or a.document.read_bytes() != document:
             raise ValueError('input changed during catalog operation')
         raw = (json.dumps(result, ensure_ascii=True, indent=2) + '\n').encode()

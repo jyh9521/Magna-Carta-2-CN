@@ -9,7 +9,7 @@ TOKEN = re.compile(r"\{[A-Za-z_0-9]+(?:![rsa])?(?::[^{}]*)?\}|%(?:\d+\$)?[-+ #0]
 FIELDS = ("id", "resource", "context", "source_locale", "source", "translation", "status", "reviewer")
 
 
-def validate(data):
+def validate(data, style_rules=None):
     errors, seen = [], set()
     if not isinstance(data, dict) or data.get("schema_version") != 1 or not isinstance(data.get("entries"), list):
         return ["invalid catalog envelope"]
@@ -31,13 +31,22 @@ def validate(data):
             errors.append(f"row {n}: protected token order changed (not yet verified)")
         if row["status"] == "untranslated" and row["translation"]:
             errors.append(f"row {n}: untranslated must be empty")
+        if style_rules is not None:
+            try:
+                from .translation_style import style_errors
+            except ImportError:
+                from translation_style import style_errors
+            errors.extend(f"row {n}: {error}" for error in style_errors(row, style_rules))
     return errors
 
 
 def main():
-    p = argparse.ArgumentParser(description=__doc__); p.add_argument("catalog", type=Path); args = p.parse_args()
+    p = argparse.ArgumentParser(description=__doc__); p.add_argument("catalog", type=Path)
+    p.add_argument('--style-rules', type=Path)
+    args = p.parse_args()
     try:
-        errors = validate(json.loads(args.catalog.read_text(encoding="utf-8")))
+        rules = json.loads(args.style_rules.read_text(encoding='utf8')) if args.style_rules else None
+        errors = validate(json.loads(args.catalog.read_text(encoding="utf-8")), rules)
     except (OSError, ValueError) as error:
         p.exit(2, str(error) + "\n")
     for error in errors:

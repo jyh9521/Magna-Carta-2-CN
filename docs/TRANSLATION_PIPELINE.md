@@ -1,0 +1,52 @@
+# 正式提取、分批翻译与验收
+
+## 当前事实（2026-10-19）
+
+**Verified / 用户画面：** 七句开场译文在 Xenia 截图中可读，用户表示“没问题”。
+不扩大为 NPC/菜单/第二盘/完整游戏验收；其他字体和自动折行边界仍需分别验证。
+
+**Verified / 离线：** `locales/zh-Hans/extraction-profile.json` 固定八个已调查原容器 SHA256。
+两盘分别验证解析和逐字节无修改往返；配置容器仅审计，不当作玩家译库。
+三种本地化容器分别跨盘完全相同，因此共享翻译工作并保留盘别。
+INT/JPN/KOR 不互相合并，不凭名字猜日文对应；source_locale 保留 und，后缀不是语言判定。
+
+共 80 份目录、35,901 条候选：INT 18,176 / JPN 17,642 / KOR 83。
+这不是全游戏台词数，包含编辑器、标识符、数值和非玩家字段。
+opaque 文档保留原字节并在 manifest 计数，不伪装成已提取；xxx/硬编码/图片视频文字仍需审计。
+
+## 提取与编辑
+
+仓库根运行；原始资源提取沿用 BUILDING.md，输出必须全新：
+
+```powershell
+python tools/export_translation_catalogs.py --source-root . --profile locales/zh-Hans/extraction-profile.json --output build/translation-catalogs
+```
+
+manifest 保存源 hash、盘别、往返、opaque 数量和目录路径。
+每份 catalog 保留 ID、源 hash、原文、上下文、物理行选择器、译文、状态和 reviewer。
+domain_hint 仅供分流，不证明运行绑定/玩家可见性/说明类型。
+保留原文目录不动，复制所选条目成分批 catalog；只编辑 translation/status/text_kind/reviewer。
+未翻译条目不进入回填计划，原文照抄不算完成。
+
+首批本地编辑文件：`build/translation-start/batch-001.catalog.json`。
+
+```powershell
+python tools/validate_catalog.py build/translation-start/batch-001.catalog.json --style-rules locales/zh-Hans/style-rules.json
+python tools/sample_catalog.py import build/disc1-selected/MC2Game/Localization/Coalesced.int build/translation-start/batch-001.catalog.json --style-rules locales/zh-Hans/style-rules.json --output build/translation-start/imported-plan.json
+python tools/build_coalesced.py build/disc1-selected/MC2Game/Localization/Coalesced.int locales/zh-Hans/batch-001.json --output build/translation-start/MODIFIED_FILE.int
+```
+
+公开 `batch-001.json` 仅包含 ID、源 hash 和译文，可从原容器重建，不依赖本地原文 catalog。
+`batch-001.review.json` 保存分类及待审用词；守护者/哨兵/斯特拉斯/耐力尚未进入 reviewed 术语表。
+首批含开场全部 21 句、物品名称/说明 4 条、技能强化说明 2 条，共 27 条（旧七句之外新增 20 条）。
+旧样本两句 NPC 不在本批，旧样本文件保留。
+
+## 规则与验收
+
+说明单句且无句中标点时不加句号，正文不套用；见 TRANSLATING.md。
+导入时显式指定规则，仅检查不替换，分类和语义仍需审核；draft 不等于 reviewed。
+正式译文不为当前样本的字体容量自动改写、缩字或裁切；新增字集应驱动后续字体工程。
+本批 27 条回填值一致，其余 18,149 条不变；逆向计划还原完整原 hash。
+ROLLBACK.sh 另测独立副本，只接受预期中文 hash；中文输出仍保持修改状态。
+本轮尚未按扩展后的字符集重建字体/TOC/完整测试包，不应直接替换进旧九句包。
+下一批按 NPC/教程/菜单分组；新字集生成字库和候选包后，游戏验收仍由用户执行。

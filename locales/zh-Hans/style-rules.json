@@ -1,0 +1,6 @@
+{
+  "schema_version": 1,
+  "locale": "zh-Hans",
+  "single_clause_no_full_stop": ["item_description", "skill_description", "equipment_description", "effect_description"],
+  "notes": "单句且句中无标点的物品、技能等说明，末尾不加句号。正文、剧情不套用此限制。换行分隔的说明与属性分别检查；控制码原样保留。"
+}

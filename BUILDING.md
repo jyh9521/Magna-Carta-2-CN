@@ -1,3 +1,9 @@
+## 正式文本提取与首批回填（2026-10-19）
+
+双盘原始 Coalesced 提取后，按 locales/zh-Hans/extraction-profile.json 固定 hash
+导出 80 份本地目录；命令、标点规则和首批源锁定计划见 docs/TRANSLATION_PIPELINE.md。
+首批容器回填不等于已生成可玩的新包，新增字符仍须重建字库和 TOC 并由用户验收。
+
 ## 正文空白后的新 Subtitle 测试入口（2026-10-19）
 
 旧剧情样本已收到游戏内空白反馈。新增独立入口 `dist/MC2-story-subtitle-disc1/开始中文测试.cmd`，

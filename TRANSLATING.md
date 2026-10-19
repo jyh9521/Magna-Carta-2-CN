@@ -1,3 +1,9 @@
+## 第四十五批家族支线与第七章邮件补齐（2026-10-20）
+
+新增INT68条，累计6,070条draft；291项共享candidate及1项独立字幕candidate，字幕194/315cue不变。
+Quest/07_全部150字段与E07/Q07八封16字段有draft，关联封印石邮件及家族/钥匙物品同步完成；全邮件114/235字段。
+见 [BATCH_045_FAMILY_LEGACY](docs/BATCH_045_FAMILY_LEGACY.md)。字库/TOC/可玩入口未更新，离线成功不是游戏验收。
+
 ## 第四十四批市民与星光平原支线（2026-10-20）
 
 新增INT105条，累计6,002条draft；274项共享candidate及1项独立字幕candidate，字幕194/315cue不变。

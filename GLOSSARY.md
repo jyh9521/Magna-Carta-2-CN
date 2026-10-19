@@ -278,7 +278,24 @@
 | mc2-city-quests-272 | 몬스터의 가죽 | 怪物皮 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:52c2cce8ebf5e07a613bb88b63d91541790d81b166a39068b7aa0da85068d907 |
 | mc2-city-quests-273 | 웨어보어 | 野猪人 | character | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:52c2cce8ebf5e07a613bb88b63d91541790d81b166a39068b7aa0da85068d907 |
 | mc2-city-quests-274 | 그라운드 비스트 | 地行兽 | character | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:52c2cce8ebf5e07a613bb88b63d91541790d81b166a39068b7aa0da85068d907 |
+| mc2-family-legacy-275 | 리든 | 利登 | character | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:ef7c7faf4ce0dd26d6b40ce3e59461c0e3abebdf73488ac316711a099183a055 |
+| mc2-family-legacy-276 | 리든 가 | 利登家族 | faction | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:ef7c7faf4ce0dd26d6b40ce3e59461c0e3abebdf73488ac316711a099183a055 |
+| mc2-family-legacy-277 | 리든가 | 利登家族 | faction | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:46b05e6cb0c82cd4f5f5aaea8f7d6aa94fcc5004b03604ec46369b4fbbe9aed9 |
+| mc2-family-legacy-278 | 케나로스 | 凯纳罗斯 | character | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:d3084bc7d47f38781807be50467af2dacf0e95714b2eafb7b2e77c229966a515 |
+| mc2-family-legacy-279 | 은둔자의 동굴 | 隐者洞窟 | place | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:461468e522a44ce4655aee23c3a26b816309da8727c354571d9d375372db20e1 |
+| mc2-family-legacy-280 | 봉인석 | 封印石 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:2cef95d475b3d729018320562bc69d47f8b690d8fc6e27965a4c8934fabf424d |
+| mc2-family-legacy-281 | 고대의 무덤 | 古代墓穴 | place | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:46b05e6cb0c82cd4f5f5aaea8f7d6aa94fcc5004b03604ec46369b4fbbe9aed9 |
+| mc2-family-legacy-282 | 늙은 여우 볼케이노 | 老狐沃尔凯诺 | character | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:46b05e6cb0c82cd4f5f5aaea8f7d6aa94fcc5004b03604ec46369b4fbbe9aed9 |
+| mc2-family-legacy-283 | 석회 언덕 | 石灰丘陵 | place | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:46b05e6cb0c82cd4f5f5aaea8f7d6aa94fcc5004b03604ec46369b4fbbe9aed9 |
+| mc2-family-legacy-284 | 파마의 열쇠 | 帕玛之钥 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:e72215f6eedf4c4f2bda9b569a2e8e76de752e518ee4376bf8d62585b685a70c |
+| mc2-family-legacy-285 | 계마의 열쇠 | 凯玛之钥 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:ff8b9ec7fe811c3b584cdd40f4921460461be119d7abc1f03ead27d0ca4835cb |
+| mc2-family-legacy-286 | 율마의 열쇠 | 尤尔玛之钥 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:6693deb34f97b913c3fa05d0ab2dfee08cb2e95d15ee53d3d0f624a7428445dc |
+| mc2-family-legacy-287 | 윤마의 열쇠 | 尹玛之钥 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:af45e72b321d4a7866d348c9f17827f44d39d3136834507608ae9eee1e1b5fed |
+| mc2-family-legacy-288 | 박마의 열쇠 | 帕克玛之钥 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:d97c7d0408d8c7ea112714d07043e867412284843385a8ea221463a1cfb3f9a4 |
+| mc2-family-legacy-289 | 리든 가의 화염구 | 利登家族火球 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:e1640e96ef4ee82018bcb724ddc299cc6c4886528e9539664006b06792e6c446 |
+| mc2-family-legacy-290 | 에메랄드 | 祖母绿 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:75fc352db36d2836155faebea71b3802bc9d0898f13f393fd30386024638c83f |
+| mc2-family-legacy-291 | 칸 차져 | KAN充能器 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:553991b8e539ef22fd906ae24bfb89dfad47c2b1028cced088b9eb0538f3c861 |
 
-本作词条：274；已继承：0。
+本作词条：291；已继承：0。
 
 固定来源、统计、冲突与审核流程见 [系列术语参考](docs/SERIES_TERMS.md)。

@@ -415,7 +415,11 @@
 | mc2-thief-revenge-409 | 도적 | 盗贼 | role | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:46084cf6474af095cf5df7e65a4ef91d5ae9eff1088f7c3610ce60773c29103e |
 | mc2-blue-moon-return-410 | 상인조합 | 商人公会 | organization | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:e08b160f8556069bd6f98fb893a5058e9c22271981640ebd68364b68b0c2faf1 |
 | mc2-father-relic-411 | 세리틴 | 塞莉汀 | character | short-name | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:78a17cb6d1faca189953d2a52836cf2c8d50092ca036618a5348f9b60ea7e744 |
+| mc2-pong-rewards-412 | 힐 리프 | 治愈叶 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:2545b1aa3fd5e22ef8a1d74502418dfdc047182d50fecae5f935a8b4916c9090 |
+| mc2-pong-rewards-413 | 큐어 플라워 | 疗愈花 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:5f129f4b43f088eed93616b15330d6d310aad1612bd18ea824a23343f11e98e1 |
+| mc2-pong-rewards-414 | 영웅의 카몬드 | 英雄卡蒙德 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:aed2496d6f38cadc3d1f1963bfd0b70e1fc21b5675a26a0096290be4e54705a5 |
+| mc2-pong-rewards-415 | 소생환 | 苏生丸 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:7cfe814e22af36c7b322ee9d2282ff7484b07f3116fdd0598b5b4249c17a41ce |
 
-本作词条：411；已继承：0。
+本作词条：415；已继承：0。
 
 固定来源、统计、冲突与审核流程见 [系列术语参考](docs/SERIES_TERMS.md)。

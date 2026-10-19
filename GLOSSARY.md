@@ -204,7 +204,11 @@
 | mc2-mail04-198 | 레트러뷰션 | 惩戒者 | weapon | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:6af57fbd4aabd5ce8553a8ad7e6f689246c56bdd164718e25de178a514b7ce9c |
 | mc2-mail04-199 | 칼리다 | 卡利达 | place | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:f2636b200f47f78537dc5dc39dc70a6c7d745b6ead79244028ad3894aac39ff5 |
 | mc2-mail04-200 | 이블린 | 伊芙琳 | character | short-name | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:f8b4209110892dec713e2ae9d04b05f72f804419135ddb7815ea94414fce6cea |
+| mc2-tactical04-201 | 레비아탄 | 利维坦 | character | short-name | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:13602819568bcd4ca21f522191956af518ca6def66febf2f15188a9575fd3bd5 |
+| mc2-tactical04-202 | 저글론 | 泽格隆 | character | short-name | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:9bb6f6c74d4732b35d228de8c2b5d8363a8dbd2f0a9ab5c800233aa5d27b45b4 |
+| mc2-tactical04-203 | 지면효과 | 地面效果 | system | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:7955cad990ae8de5cf520c6f5f4cdc4fe9b4a41408cce9fc808bb21f747daa39 |
+| mc2-tactical04-204 | 화상 | 烧伤 | system | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:7955cad990ae8de5cf520c6f5f4cdc4fe9b4a41408cce9fc808bb21f747daa39 |
 
-本作词条：200；已继承：0。
+本作词条：204；已继承：0。
 
 固定来源、统计、冲突与审核流程见 [系列术语参考](docs/SERIES_TERMS.md)。

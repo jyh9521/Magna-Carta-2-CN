@@ -1,0 +1,110 @@
+{
+  "schema_version": 1,
+  "status": "draft",
+  "entries": [
+    {
+      "id": "coalesced:1139969c1b4b55f2b947cedcf3b057d621cb6385630991423eb44eefddc70ceb",
+      "text_kind": "mail_subject"
+    },
+    {
+      "id": "coalesced:9a117a0a990b795bb88d7e82b54547ddf33a06f5c44992e9ca3675c4e77d4cb6",
+      "text_kind": "mail_body"
+    },
+    {
+      "id": "coalesced:13602819568bcd4ca21f522191956af518ca6def66febf2f15188a9575fd3bd5",
+      "text_kind": "mail_subject"
+    },
+    {
+      "id": "coalesced:85799044137a58feef006977ff0cba3d0a6d22f39b04c4c9fbbd442bd405d57c",
+      "text_kind": "mail_body"
+    },
+    {
+      "id": "coalesced:321587e155840884def94dcca68869feb3b64c22340d8c5f1148ed43d8305443",
+      "text_kind": "mail_subject"
+    },
+    {
+      "id": "coalesced:ead0aa56099fd4be04e94b64cd875f7c5439a01a2ddd57a6d794a83dff1114f3",
+      "text_kind": "mail_body"
+    },
+    {
+      "id": "coalesced:9bb6f6c74d4732b35d228de8c2b5d8363a8dbd2f0a9ab5c800233aa5d27b45b4",
+      "text_kind": "mail_subject"
+    },
+    {
+      "id": "coalesced:7955cad990ae8de5cf520c6f5f4cdc4fe9b4a41408cce9fc808bb21f747daa39",
+      "text_kind": "mail_body"
+    },
+    {
+      "id": "coalesced:39744e67b6c6352b57736ee61f4367cfebc1400db892fcbfb5600a8fc17ef50d",
+      "text_kind": "mail_subject"
+    },
+    {
+      "id": "coalesced:da8defc0eff08643920170cd27bb3aab1450e3e506aecce7605e4fc62b340e53",
+      "text_kind": "mail_body"
+    },
+    {
+      "id": "coalesced:dd6ed791401602fecc4d0744ef8c5abbf2e80cc6bbe678857d1d846e197166eb",
+      "text_kind": "mail_subject"
+    },
+    {
+      "id": "coalesced:8493644dfe4e48aef58b4996233ee1f95d65dd78329be483203af2599e23f07b",
+      "text_kind": "mail_body"
+    },
+    {
+      "id": "coalesced:e134d6cb2919b26d2dd7a74c427695b68faae1b4ee5af2beac71f6cb3533b9b7",
+      "text_kind": "name"
+    }
+  ],
+  "coverage": [
+    {
+      "document": "MC2QubeMail.int",
+      "section": "B04_001",
+      "entries": 2
+    },
+    {
+      "document": "MC2QubeMail.int",
+      "section": "B04_002",
+      "entries": 2
+    },
+    {
+      "document": "MC2QubeMail.int",
+      "section": "B04_003",
+      "entries": 2
+    },
+    {
+      "document": "MC2QubeMail.int",
+      "section": "B04_004",
+      "entries": 2
+    },
+    {
+      "document": "MC2QubeMail.int",
+      "section": "B04_005",
+      "entries": 2
+    },
+    {
+      "document": "MC2QubeMail.int",
+      "section": "Q04_QUBE_0",
+      "entries": 2
+    },
+    {
+      "document": "MC2CharacterName.int",
+      "section": "Default",
+      "entries": 1
+    }
+  ],
+  "preserved_functional_break_ids": [
+    "coalesced:9a117a0a990b795bb88d7e82b54547ddf33a06f5c44992e9ca3675c4e77d4cb6",
+    "coalesced:85799044137a58feef006977ff0cba3d0a6d22f39b04c4c9fbbd442bd405d57c",
+    "coalesced:ead0aa56099fd4be04e94b64cd875f7c5439a01a2ddd57a6d794a83dff1114f3",
+    "coalesced:7955cad990ae8de5cf520c6f5f4cdc4fe9b4a41408cce9fc808bb21f747daa39",
+    "coalesced:da8defc0eff08643920170cd27bb3aab1450e3e506aecce7605e4fc62b340e53"
+  ],
+  "held_entries": [],
+  "notes": [
+    "新增13条：B04五封主题/正文10、Q04_QUBE_0主题/正文2、zerglone姓名1；累计3847。",
+    "五封战术邮件保留全部源硬换行、空段落及B04_004_Con尾随全角空格；数字2/3、HP和方括号保留。",
+    "B04对应第四阶段哨所、杜南丘陵作战和首领提示；Q04正文源值本身是未完句，仅译现有从句，不补写未给出的结论。",
+    "贝卡斯复用既有candidate，不据此合并Compose中的雷卡斯；利维坦、泽格隆、地面效果、烧伤四项新增candidate，均未人工定稿。",
+    "MC2QubeMail当前E04/B04/Q04共70/235字段有draft，不表示其他前缀已覆盖；同阶段csm04字幕不重复，141cue不变。"
+  ]
+}

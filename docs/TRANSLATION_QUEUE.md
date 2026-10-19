@@ -9,10 +9,10 @@
 
 ## 当前落点
 
-- 最新批次：batch-023；累计3,834条INT草稿，200项candidate，workflow二十三份不重叠计划。
-- 当前工作区：build/mail04-batch023/workspace；历史工作区保留作对照，不是新增维护源。
+- 最新批次：batch-024；累计3,847条INT草稿，204项candidate，workflow二十四份不重叠计划。
+- 当前工作区：build/tactical-mail-batch024/workspace；历史工作区保留作对照，不是新增维护源。
 - E04_001–029邮件29封、58主题/正文字段均有draft；248个源硬换行和空段落保留。Igton关联姓名已译。
-- MC2QubeMail总235字段当前只有E04的58个已译；B04（10）/Q04（2）仍无draft，下一批先核读这12字段的场景关联与格式，不预设其他前缀已覆盖。
+- MC2QubeMail的E04/B04/Q04共70/235字段有draft；B04五封战术提示与Q04哨所任务邮件已核读。Q04正文源值本身未完句，仅译现有从句；其余165字段仍待分阶段审计。泽格隆关联姓名已译。
 - 当前INT的CSMB04 411、Quest04_前缀15个section186、Ch04_Abazet242、Compose/Chapter04 68条均有draft，不表示第四章所有可见文字已完成。
 - 剧情下一场CSMB05_001（10条），随后05_020/030/031；第五章独立字幕需按相邻场景推进，不重复当前csm04两份14cue。
 - CSMB03为687/688条draft、03_20未知转义1条保留；CSMB02为585/585条draft；Ch02_Abazet为274/276条draft，2条纯标记保留。

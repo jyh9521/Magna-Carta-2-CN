@@ -327,7 +327,14 @@
 | mc2-mind-entry-321 | 초월의 카몬드 | 超越卡蒙德 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:23add876735933a7f366fdb05f7c2725972defce5e5cdb053cb3245b6e1cc246 |
 | mc2-mind-memories-322 | 물빛저습지 | 水色湿地 | location | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:50c18d985e120fe6ea64a75d2a6fddf01f6cec750d6b59697ac0a66a4e73cefb |
 | mc2-mind-return-323 | 천뇌천풍인 | 天雷天风印 | term | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:2eab074b07484f38f62dafc7de12f556b66305d783663d089def841b26211966 |
+| mc2-history-324 | 아비스 전쟁 | 阿维斯战争 | term | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:e044359094b84cf5361ab01bfdba686e55ba6619e1088af931d757f9c98009b7 |
+| mc2-history-325 | 타스 | 塔斯 | character | alias | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:506b6f1032564dc80d8f2f0f6e06b283c0b8a6fe7ea479d24e2957aee440990e |
+| mc2-history-326 | 스라츠 | 斯拉茨 | character | alias | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:65f1638cc211767bf467b842022c9325e1f90bfab04e03df530f1aa4edc1ef86 |
+| mc2-history-327 | 데몬 | 恶魔 | term | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:506b6f1032564dc80d8f2f0f6e06b283c0b8a6fe7ea479d24e2957aee440990e |
+| mc2-history-328 | 쉐도우 | 暗影 | term | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:a24d13f9c6dd603a3c2136093076a3d82e73c3cb7a3cbbdf03187e2e0bd060b1 |
+| mc2-history-329 | 마레의 인장 | 马雷族印章 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:c54891a5d6cf85a45ef5bf2f5c2294369b5e54f7c2f5a67e35038a3b125033dd |
+| mc2-history-330 | 스트라스의 비석 | 斯特拉斯石碑 | location | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:ff7a62e706fe291ca3d0fbe64723ce4ab73ba84d57fc1b4ca86e645dcf832749 |
 
-本作词条：323；已继承：0。
+本作词条：330；已继承：0。
 
 固定来源、统计、冲突与审核流程见 [系列术语参考](docs/SERIES_TERMS.md)。

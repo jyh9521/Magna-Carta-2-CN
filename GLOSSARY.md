@@ -169,7 +169,10 @@
 | mc2-return-163 | 후안의 편지 | 胡安的信 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:b8a8b0648ef17a05961dc5fc723ab1c97558e653da8974a94d267b55e497d1fc |
 | mc2-return-164 | 바리케이드 | 路障 | object | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:323049f7d61a97a53a596769fd33b06d5fce185a5595e0dacf096f3d37b3e573 |
 | mc2-return-165 | 치유연환술 | 治愈连环术 | combat | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:19ac590a95b1396f59d17b76a1faa27e69ebdc1e3df535352c5c1ca624176ca9 |
+| mc2-defense-166 | 네코네코의 방울 | 猫猫的铃铛 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:c2c4d2180a1fb7a058c8d1d4fdb0263922edf34748e6cbcb79e86a73e02a96b1 |
+| mc2-defense-167 | 검은 네코네코의 열쇠 | 黑猫猫的钥匙 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:c6eefa7ea5002d940210a7409487e5f124b0c6db8d4ab312588de52a88a56c19 |
+| mc2-defense-168 | 네코족 특제 폭탄 | 猫猫族特制的炸弹 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:ae70a26ab016835eb05cfeed1898772fd18c13e9b1ff1c746a9ff61f45224b83 |
 
-本作词条：165；已继承：0。
+本作词条：168；已继承：0。
 
 固定来源、统计、冲突与审核流程见 [系列术语参考](docs/SERIES_TERMS.md)。

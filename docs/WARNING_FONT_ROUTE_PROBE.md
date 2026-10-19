@@ -138,3 +138,34 @@ mismatch, not a positive result. This addresses a specific manual-testing risk;
 it is not another font-selector hypothesis. A byte match proves only that phase's
 declared files match at the stated path. It never proves installation history,
 game behavior, successful restoration of runtime behavior or Chinese rendering.
+
+## Double-click or drag/drop entry, no manual resource copying
+
+`tools/prepare_oneclick_probe.py` prepares two **complete independent game
+copies**, `candidate` and `raw-controls`, from a supplied original resource tree.
+It verifies the original default.xex hash, all six original/packet resource
+hashes and every copied file; all other source files and empty directories are
+retained. It never uses hardlinks/junctions and never installs into the original
+tree. It requires free space for two full games plus the phase resources.
+
+```powershell
+python tools/prepare_oneclick_probe.py --source-root ORIGINAL_DISC1_ROOT --packet-root PREPARED_PACKET/Disc1 --manifest-sha256 TRUSTED_DISC1_MANIFEST_SHA --game-sha256 26146f0ceaeb1945bc8e0031d31bfd7fe929c85a6e9e0992aeaa823968c0750f --exe xenia/xenia_canary.exe --config xenia/xenia-canary.config.toml --output-root dist/NEW-oneclick-disc1
+```
+
+Preparation **does not launch anything**. After both full copies pass byte
+checks, it publishes `开始中文测试.cmd` and `开始原文对照.cmd`. The user may
+double-click either file, or drag the corresponding directory's `default.xex`
+into their own Xenia. Keep the whole prepared game directory intact; the XEX
+alone is not a self-contained patch or game.
+
+Each CMD first checks the six selected phase resources, then invokes the existing
+config-preserving launcher only when the user clicks it. The original config
+hash is pinned; each run gets a new snapshot, log/storage/content/cache path.
+No keyboard/graphics override is added. Changing the user's config deliberately
+requires refreshing this prepared entry rather than silently changing a test
+baseline. CMD dependencies refer to the original local project/emulator paths;
+these are local convenience launchers, not a portable release.
+
+Synthetic tests inspect generated launch text and independent copy behavior;
+they never execute CMD, Xenia or game instructions. Preparation/byte checks are
+not evidence that a launcher has run or that Chinese renders in game.

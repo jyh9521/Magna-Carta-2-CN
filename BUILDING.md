@@ -731,3 +731,10 @@ It needs neither the font file nor an LZX decoder. Exit0 means resource bytes
 match only; exit1 gives mismatches/missing files and exit2 rejects invalid input.
 The new JSON report must be outside both input directories. See the warning
 probe document for the exact invocation and game-acceptance distinction.
+
+For a player who wants double-click/drag-drop testing, use
+`tools/prepare_oneclick_probe.py`. It makes two full independent copies and
+publishes the two user-click CMD files only after validation. Preparation never
+launches a game and never changes original resources/configuration. Exact
+arguments, space needs and local-path dependency behavior are in
+docs/WARNING_FONT_ROUTE_PROBE.md.

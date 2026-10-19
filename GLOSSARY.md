@@ -394,7 +394,8 @@
 | mc2-final-confrontation-388 | 아비스베르크 전쟁 | 阿维斯贝尔克战争 | event | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:fc49b30e217c34b319cb01d3dacc7599230fd82effe0ae17808e2b079f4a3ac1 |
 | mc2-final-confrontation-389 | 복제 | 复制 | concept | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:f4a0f4f2d320c3afe6737ba9c9dadb721c6b15dcdbf24fb0011bc6489206b58e |
 | mc2-final-confrontation-390 | 칸의 순환 | KAN循环 | concept | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:a2c7d466142db59eb5a7d69763a640928aadf10213d0f3ee89c9dd0d81f7fa23 |
+| mc2-rite-token-391 | 의식의 증표 | 仪式信物 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:d12942fa13cf091751a9fc1b41b349ac18a9c5818d15c8456e037ffd8e33529b |
 
-本作词条：390；已继承：0。
+本作词条：391；已继承：0。
 
 固定来源、统计、冲突与审核流程见 [系列术语参考](docs/SERIES_TERMS.md)。

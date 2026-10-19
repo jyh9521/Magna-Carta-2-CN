@@ -1,3 +1,10 @@
+## 第85批接续状态（2026-10-20）
+
+INT累计8,933条draft；本批Ch04_Abazet_2五十二与04_oldfox十五条见[BATCH_085_ABAZET_AFTERMATH](BATCH_085_ABAZET_AFTERMATH.md)。共享candidate411及词表冻结。
+Ch04两城内组/峡谷NPC遗漏已补，仍有ruhalt/698_0一条待人物上下文核读；其余Default/Ch00/Ch02/06及pong game字段需按用途辨别，不盲目补标点或计数。
+下一轮先审计真实未译NPC及关联任务，再接续早期任务/教程与邮件。邮件128/235、44字幕315/315已提取cue、所有旧held和双盘来源保持，不合盘。
+9243条其余原值包含工具/样本，不作为确定玩家待译量。未刷新字库/TOC/玩家入口，离线不代替游戏验收。
+
 ## 第84批接续状态（2026-10-20）
 
 INT累计8,866条draft，本批Ch04_Abazet_1三十八条，详见[BATCH_084_ABAZET_SIEGE](BATCH_084_ABAZET_SIEGE.md)。共享candidate411及词表冻结。

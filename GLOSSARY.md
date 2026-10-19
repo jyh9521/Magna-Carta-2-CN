@@ -212,7 +212,8 @@
 | mc2-blood-contract-206 | 마스터 | 主人 | system | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:a1de2232201066a45a2dd483217903cce11fc35273b59edfd5050f0d8fff1ba7 |
 | mc2-island-liberation-207 | 제바사 | 杰巴萨 | character | short-name | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:a5ba220921d4416bb309126ce1f4be0415d009ad4625efc6336a22f504c92a61 |
 | mc2-villager-relic-208 | 마을사람의 유품 | 村民的遗物 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:2497f062ecbf6c43eb30a0782c63a70fe671fe3ab66df3561c5dee2f8d364466 |
+| mc2-fantastic-root-209 | 환상의 뿌리 | 幻之根 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:917ac303c2a64a106f0c624374c22232d11767b566a46d746a6dd9f0dbf42ce5 |
 
-本作词条：208；已继承：0。
+本作词条：209；已继承：0。
 
 固定来源、统计、冲突与审核流程见 [系列术语参考](docs/SERIES_TERMS.md)。

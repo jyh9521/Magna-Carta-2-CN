@@ -187,7 +187,12 @@
 | mc2-proof-181 | 검은 칼날 요새 | 黑刃要塞 | place | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:a6181a4bca6c45fc4f8e2d571b23c32ef3b1f6091611e18435b147026029e145 |
 | mc2-proof-182 | 알스 | 阿尔斯 | character | short-name | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:67f3b4fb779118fbca0cf3fd9ad48e63850ff238ea16e0597495215382d47de1 |
 | mc2-proof-183 | 기밀문서 | 机密文件 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:58a96be9bc3f2909ea91f45bac4f2d0e6d313a14b6ee79ecd91090243633f226 |
+| mc2-fortress-184 | 마룬 | 马伦 | character | short-name | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:b8dbb9d30e26eddbd0fe7d6388a710b448c7c22cd5b199aee937f657d9db7f31 |
+| mc2-fortress-185 | 에피스 | 艾菲斯 | character | short-name | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:b8dbb9d30e26eddbd0fe7d6388a710b448c7c22cd5b199aee937f657d9db7f31 |
+| mc2-fortress-186 | 콜러서스 | 科洛瑟斯 | character | short-name | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:d64bf2df30ccf2be9fa2c81dd81552fe34c070dae0eee714f6f555c983e4b66a |
+| mc2-fortress-187 | 고문서 | 古文书 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:3096058771c9e2e0d9feff3ab00af0f514af65bebf7a7c28c5958bdf1526edfc |
+| mc2-fortress-188 | 생물학자 | 生物学家 | character | short-name | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:d2a7f87c1a394a1fa037516ca780e0d26e762fa3e6b6280d0b9fcbdcf98da3b0 |
 
-本作词条：183；已继承：0。
+本作词条：188；已继承：0。
 
 固定来源、统计、冲突与审核流程见 [系列术语参考](docs/SERIES_TERMS.md)。

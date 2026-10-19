@@ -9,12 +9,12 @@
 
 ## 当前落点
 
-- 最新批次：batch-025；累计3,946条INT草稿，206项candidate，workflow二十五份不重叠计划。
-- 当前工作区：build/rue-return-batch025/workspace；历史工作区保留作对照，不是新增维护源。
+- 最新批次：batch-026；累计4,113条INT草稿，207项candidate，workflow二十六份不重叠计划。
+- 当前工作区：build/island-liberation-batch026/current-workspace；历史工作区保留作对照，不是新增维护源。
 - E04_001–029邮件29封、58主题/正文字段均有draft；248个源硬换行和空段落保留。Igton关联姓名已译。
 - MC2QubeMail的E04/B04/Q04共70/235字段有draft；B04五封战术提示与Q04哨所任务邮件已核读。Q04正文源值本身未完句，仅译现有从句；其余165字段仍待分阶段审计。泽格隆关联姓名已译。
 - 当前INT的CSMB04 411、Quest04_前缀15个section186、Ch04_Abazet242、Compose/Chapter04 68条均有draft，不表示第四章所有可见文字已完成。
-- 第五章CSMB05_001/020/030/031四场88条、05_harbor七条NPC、Chapter05_20–23四条出航提示已有draft；露归队csm05-10八条字幕同步完成。下一场CSMB05_040，随后按源section顺序推进，补齐对应任务/NPC；后段csm05-82/85/90五条未译。
+- 第五章CSMB05_001/020/030/031四场88条、05_harbor七条NPC、Chapter05_20–23四条出航提示已有draft；露归队csm05-10八条字幕同步完成。CSMB05_040至060（含055_1）七场91条与05_chinook31条、Compose/Chapter05新增45条战斗/回村提示也已有draft。下一场CSMB05_070（40条），衔接村长请求、对应任务及05_chinook_s八条；后段csm05-82/85/90五条未译。
 - CSMB03为687/688条draft、03_20未知转义1条保留；CSMB02为585/585条draft；Ch02_Abazet为274/276条draft，2条纯标记保留。
 - 当前INT MC2Quest中Ch02前缀section除Ch02_296_00/pay空白字段外均有draft；其他邮件/引导仍须审计，不能泛称全章覆盖。
 - KotaMare初始/_01/_02/_03共118条及02_oldfox 14条已有draft，不重复早先状态。

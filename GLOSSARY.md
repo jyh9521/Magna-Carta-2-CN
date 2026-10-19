@@ -210,7 +210,8 @@
 | mc2-tactical04-204 | 화상 | 烧伤 | system | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:7955cad990ae8de5cf520c6f5f4cdc4fe9b4a41408cce9fc808bb21f747daa39 |
 | mc2-blood-contract-205 | 피의 계약 | 血之契约 | system | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:a1de2232201066a45a2dd483217903cce11fc35273b59edfd5050f0d8fff1ba7 |
 | mc2-blood-contract-206 | 마스터 | 主人 | system | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:a1de2232201066a45a2dd483217903cce11fc35273b59edfd5050f0d8fff1ba7 |
+| mc2-island-liberation-207 | 제바사 | 杰巴萨 | character | short-name | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:a5ba220921d4416bb309126ce1f4be0415d009ad4625efc6336a22f504c92a61 |
 
-本作词条：206；已继承：0。
+本作词条：207；已继承：0。
 
 固定来源、统计、冲突与审核流程见 [系列术语参考](docs/SERIES_TERMS.md)。

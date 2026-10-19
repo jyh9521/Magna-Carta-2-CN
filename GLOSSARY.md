@@ -228,7 +228,11 @@
 | mc2-feast-222 | 킬로티 | 基洛蒂 | character | short-name | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:0c9728e7b7a451f2aa2ec2f976076666a2d367656f343c36e8cbb96153874ca4 |
 | mc2-feast-223 | 세리아 | 塞莉娅 | character | short-name | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:6c1bac362b2537207a48d2864bc28bd0d7e5b193c38ff0ab6a3f53472a4355d6 |
 | mc2-feast-224 | 성인식 | 成人礼 | event | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:6a1f6a93402b9d6ce47e4b1206e7e853ce553f7b184ff24438dd94bd85af7009 |
+| mc2-sixth-regions-225 | 헤인겔 | 海因格尔 | character | short-name | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:54b40e316f25951bbf11b2ca77b787c5f49db49bace6e19f7564c7b1efc8216f |
+| mc2-sixth-regions-226 | 라노아라 호수 | 拉诺阿拉湖 | place | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:63cbd7ac88d36c1b43c875bbaa4af4bbaa0d4e16c464776014a0e8225592aef7 |
+| mc2-sixth-regions-227 | 레인폴트 | 雷恩波尔特 | place | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:a47ec29b3aeed8078f91f01c08539260e651d622e02ce246ad09af8c0ccf5900 |
+| mc2-sixth-regions-228 | 레인폴트 폐허 | 雷恩波尔特废墟 | place | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:86befcd0b2a0bfef46e6ec4ca8018956331a716e5863ab651ff7be8d31c6f47e |
 
-本作词条：224；已继承：0。
+本作词条：228；已继承：0。
 
 固定来源、统计、冲突与审核流程见 [系列术语参考](docs/SERIES_TERMS.md)。

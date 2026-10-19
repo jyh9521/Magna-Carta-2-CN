@@ -1,3 +1,9 @@
+## 第三十五批第六章城镇与地区NPC补齐（2026-10-19）
+
+新增INT132条，累计5,200条draft；228项共享candidate及1项独立字幕candidate，字幕187/315cue不变。
+NpcTalk/06_七组312字段全部核读，287draft/25源标记保持；任务当前50/316，仍有266字段与邮件待推进。
+见 [BATCH_035_SIXTH_REGIONS](docs/BATCH_035_SIXTH_REGIONS.md)。字库/TOC/可玩入口未更新，离线成功不是游戏验收。
+
 ## 第三十四批马雷成人礼与第六章场地念白补齐（2026-10-19）
 
 新增INT125条，累计5,068条draft；224项共享candidate及1项独立字幕candidate，字幕187/315cue不变。

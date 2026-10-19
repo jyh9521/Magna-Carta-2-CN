@@ -1,3 +1,9 @@
+## 第四十二批贝尔福特与情报员追踪（2026-10-19）
+
+新增INT130条，累计5,821条draft；262项共享candidate及1项独立字幕candidate，字幕194/315cue不变。
+CSMB07主线218/282、Compose38/40、城内NPC37/41；泽罗哈追踪20字段与关联姓名/研究所同步完成。
+见 [BATCH_042_VELFORT_INFORMANT](docs/BATCH_042_VELFORT_INFORMANT.md)。字库/TOC/可玩入口未更新，离线成功不是游戏验收。
+
 ## 第四十一批关卡拦阻与劳德证言（2026-10-19）
 
 新增INT94条，累计5,691条draft；259项共享candidate及1项独立字幕candidate，字幕194/315cue不变。

@@ -9,8 +9,8 @@
 
 ## 当前落点
 
-- 最新批次：batch-041；累计5,691条INT草稿，259项共享candidate及1项独立字幕candidate，workflow四十一份不重叠计划。
-- 当前工作区：build/road-velfort-batch041/workspace；历史工作区保留作对照，不是新增维护源。
+- 最新批次：batch-042；累计5,821条INT草稿，262项共享candidate及1项独立字幕candidate，workflow四十二份不重叠计划。
+- 当前工作区：build/velfort-informant-batch042/current-workspace；历史工作区保留作对照，不是新增维护源。
 - E04_001–029邮件29封、58主题/正文字段均有draft；248个源硬换行和空段落保留。Igton关联姓名已译。
 - MC2QubeMail的E04/B04/Q04/E05/E06/Q06及E07_001共98/235字段有draft；B04五封战术提示与Q04哨所任务邮件已核读。Q04正文源值本身未完句，仅译现有从句；其余137字段仍待分阶段审计。泽格隆关联姓名已译。
 - 当前INT的CSMB04 411、Quest04_前缀15个section186、Ch04_Abazet242、Compose/Chapter04 68条均有draft，不表示第四章所有可见文字已完成。
@@ -22,7 +22,9 @@
 
 ## 持续待查
 
-- 第41批CSMB07_25/30共67条及Compose26/星光平原1有draft；CSMB07累计153/282、Compose33/40。下一批从CSMB07_40接续城内/情报员救援，07_velfort NPC与07_701_0任务按场景核读，不预称已覆盖。
+- 第42批CSMB07_40/45/48共65、NPC37、追踪任务20、念白5与姓名/地点3有draft；CSMB07累计218/282、Compose38/40、NPC37/41。下一批接续07_50/60/70及泽罗哈/漩涡炸弹四条NPC，其他第七章支线仍待审计。
+
+- 第41批CSMB07_25/30共67条及Compose26/星光平原1有draft；CSMB07累计153/282、Compose33/40。第42批已接续CSMB07_40/45/48、城内NPC37条与07_701_0任务20字段，后续救援仍待推进。
 
 - 第40批CSMB07_20/23共86/282主线字段、Compose7/40、运输队关联7字段与独立csm07-10七cue有draft；字幕28份194/315。第41批已接续CSMB07_25/30；NPC/任务与其余Compose仍待核读。
 

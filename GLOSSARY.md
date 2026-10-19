@@ -196,7 +196,9 @@
 | mc2-heirloom-190 | 데바 | 黛芭 | character | short-name | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:4aa43213154f82e1b0a9874b7078211a27d75b32495e06dd4b1e57790f65587d |
 | mc2-heirloom-191 | 구절초 | 九节草 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:d77d1933a5b26f6a8592b0ce8300374259b7cc60921d9508d532b99c9291ab7f |
 | mc2-chapter04-192 | 도난 당한 카몬드 | 被盗的卡蒙德 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:5b4f7839399bf33b95966973e7e9d0fc17c45a9823d016a9b5689c6ecc3368fd |
+| mc2-field-comment-193 | 베카스 | 贝卡斯 | character | short-name | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:bef5296b50e236e63c9695d1d6652f57ee8013abb17631e758ba22979692e362 |
+| mc2-field-comment-194 | 레카스 | 雷卡斯 | character | short-name | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:272cac59e1ce46918cbba542849ad0ec74491febd6d3756e076ce4354a39d385 |
 
-本作词条：192；已继承：0。
+本作词条：194；已继承：0。
 
 固定来源、统计、冲突与审核流程见 [系列术语参考](docs/SERIES_TERMS.md)。

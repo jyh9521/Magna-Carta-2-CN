@@ -9,17 +9,18 @@
 
 ## 当前落点
 
-- 最新批次：batch-021；累计3,616条INT草稿，192项candidate，workflow二十一份不重叠计划。
-- 当前工作区：build/chapter04-batch021/workspace；历史工作区保留作对照，不是新增维护源。
-- 当前INT的CSMB04前缀411条均有draft；剧情下一场CSMB05_001（10条），随后05_020/030/031。
-- 第四章NPC为Ch04_Abazet 151/242条，剩余91条；下一条索引151：04_2243_00。下一批先补城镇尾段，再推进第五章正文，避免遗漏同阶段NPC。
-- 当前INT MC2Quest的04_前缀15个section共186条均有draft；不表示第四章全部任务/Compose/邮件/图片文字已覆盖。
+- 最新批次：batch-022；累计3,775条INT草稿，194项candidate，workflow二十二份不重叠计划。
+- 当前工作区：build/field-comments-batch022/workspace；历史工作区保留作对照，不是新增维护源。
+- 当前INT的CSMB04前缀411条、MC2Quest的04_前缀15个section186条均有draft；Ch04_Abazet 242/242与Compose/Chapter04 68/68亦已有draft，不表示第四章全部可见文字覆盖。
+- 同阶段缺口：MC2QubeMail/E04_001–029共29封、58个主题/正文原字段尚无draft；下一批先读完整邮件、保护段落/功能格式并接续这些字段，再推进第五章。
+- 剧情下一场CSMB05_001（10条），随后05_020/030/031；第五章独立字幕需按相邻场景推进，不重复当前csm04两份14cue。
 - CSMB03为687/688条draft、03_20未知转义1条保留；CSMB02为585/585条draft；Ch02_Abazet为274/276条draft，2条纯标记保留。
 - 当前INT MC2Quest中Ch02前缀section除Ch02_296_00/pay空白字段外均有draft，不表示所有第二章任务/引导/邮件全覆盖。
 - KotaMare初始/_01/_02/_03共118条及02_oldfox 14条已有draft，不重复早先状态。
-- 当前csm04两份14cue已译，后续独立字幕按阶段推进；第五章正文/字幕及同阶段Compose/邮件仍需核对。
 
 ## 持续待查
+
+- Compose/Chapter04_39的베카스（贝卡斯）与66的레카스（雷卡斯）关联待核，暂为两个独立candidate，不认定同一Boss或源拼写错误。
 
 - Ch00_1/00_101_00的未知反斜线条目保留原文，不猜成换行。
 - CSMB03_20/voc_csmb_0320_50未知反斜线条目保留，不猜作换行。

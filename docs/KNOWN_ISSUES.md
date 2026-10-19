@@ -1,3 +1,9 @@
+## 第二十二批第四章城镇与场地念白（2026-10-19）
+
+新增INT159条，累计3,775条草稿、194项candidate；字幕141/315cue保持。
+Ch04_Abazet 242/242、Compose/Chapter04 68/68有draft；E04邮件58个字段尚待推进，尚非全章文字完成。
+见 [BATCH_022_FIELD_COMMENTS](BATCH_022_FIELD_COMMENTS.md)；字库/TOC/可玩入口未更新，尚非游戏内验收。
+
 ## 第二十一批第四章主剧情尾段（2026-10-19）
 
 新增INT162条，累计3,616条草稿、192项candidate；字幕141/315cue保持。

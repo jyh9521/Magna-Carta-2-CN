@@ -262,7 +262,8 @@
 | mc2-transport-256 | 아비스 수송대 | 阿维斯运输队 | faction | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:855d08360794e1a2484fd1ab4f28e0dfdc943edf617b81bf6ad940f618f03757 |
 | mc2-transport-257 | 아비스 수송대 이용권 | 阿维斯运输队乘车券 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:801d9d027eb3f6426e962ed2761182fde6a091d8d8465ad641f112038fd9e2e4 |
 | mc2-transport-258 | 아비스 상점 | 阿维斯商店 | place | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:a80413afa38b085eff7e6b6f4ad5e6eff8ef0066bd1ba98d4cbff137c7f76bfe |
+| mc2-road-velfort-259 | 별빛 평원 | 星光平原 | place | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:6cb4294ba6fa95eb1e397f6af42071e709268b8e1e76c5df8d25333e78aef63b |
 
-本作词条：258；已继承：0。
+本作词条：259；已继承：0。
 
 固定来源、统计、冲突与审核流程见 [系列术语参考](docs/SERIES_TERMS.md)。

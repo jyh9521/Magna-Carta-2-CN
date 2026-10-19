@@ -1,3 +1,9 @@
+## 第四十一批关卡拦阻与劳德证言（2026-10-19）
+
+新增INT94条，累计5,691条draft；259项共享candidate及1项独立字幕candidate，字幕194/315cue不变。
+CSMB07主线153/282、Compose33/40；关联星光平原字段同步完成，后续城内NPC/救援任务仍待接续。
+见 [BATCH_041_ROAD_VELFORT](docs/BATCH_041_ROAD_VELFORT.md)。字库/TOC/可玩入口未更新，离线成功不是游戏验收。
+
 ## 第四十批第七章身份争执与运输队（2026-10-19）
 
 新增INT100条，累计5,597条draft；258项共享candidate及1项独立字幕candidate，字幕新增7cue至194/315。

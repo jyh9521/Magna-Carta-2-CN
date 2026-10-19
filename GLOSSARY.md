@@ -49,7 +49,21 @@
 | mc2-system-043 | 최대스태미너 | 最大耐力 | stat | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:85b6fc427f49f39c68b26742cf8e73c4089c7b676ffa08f5ae4af0c1b7f5efcf |
 | mc2-system-044 | 스태미너회복 | 耐力恢复 | stat | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:475e1915bd0340266fe05bfa3b1e596faf352ea758b72f207aa71dabcc6a8788 |
 | mc2-system-045 | 강화 가능횟수 | 可强化次数 | stat | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:9151807ded59df57269c3976e7c3c38e4f3a426a0ccd3142b9f0fba4b5d36efe |
+| mc2-opening-046 | 라 스트라다 | 拉·斯特拉达 | place | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:78dc2621dfe750f12268d057759f3fe0034694dd83715654b626561a438cce90 |
+| mc2-opening-047 | 란츠하임 | 兰兹海姆 | place | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:2685f95b3ddd9263e7fef6b919bdf087589e11ecc90e8b8288cf9ec8d4e8860c |
+| mc2-opening-048 | 빌터 | 比尔特 | character | short-name | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:72bdad763638614ff00c852b1c65292f28384b0a8e2bcb699bc631c6d163893a |
+| mc2-opening-049 | 바람노래동굴 | 风歌洞窟 | place | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:fdf5f49e10cb2687e5b6c02045d923dde80cc0161e30c872cdf1b75e71c0638d |
+| mc2-opening-050 | 트레와 족 | 特雷瓦族 | race | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:2bba66e0bed291e317341faafbe2dd3eb81de1c7dfbab07ae7f56cb8692f7122 |
+| mc2-opening-051 | 랩퍼스 | 拉普斯 | creature | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:c84c3051e59c2b7ae1eeb986a2096cf0b882f3b0ac5af53e998567507c12f377 |
+| mc2-opening-052 | 랩퍼스 껍질 | 拉普斯壳 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:c84c3051e59c2b7ae1eeb986a2096cf0b882f3b0ac5af53e998567507c12f377 |
+| mc2-opening-053 | 연환술 | 连环术 | combat | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:902ed4f817b9270abc3e73971c4f5e0949de5b0253f2baeb6f35e55e80dbd9c0 |
+| mc2-opening-054 | 힘의 칸 | 力量KAN | combat | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:314013556d48508141800792692a9f7018a64ed4ec9fc2df6be0537a9367c894 |
+| mc2-opening-055 | 전투모드 | 战斗模式 | combat | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:cf0fb4ccb24b05901b07ef3bc4e488a640e9859c145261bd5351d2662be6294a |
+| mc2-opening-056 | 이동모드 | 移动模式 | combat | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:eacd03fbc7ee4d91dc3e8695095a631f143e3993b035ac35faef9891dc7abc0e |
+| mc2-opening-057 | 대시 | 冲刺 | combat | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:92c9ba0ff1091e0e9157b38ccb02581fc72af688492f25e048416e4e6a8b564e |
+| mc2-opening-058 | 카운터 | 反击 | combat | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:50f8b3834c956082d43d420f71cefc5e2e32d77215d00b728d8988d98504c49d |
+| mc2-opening-059 | 이공진퇴 | 凌空震踢 | skill | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:a0d8d808919753b1baabb3dfa671c652711b8dee2fe89b8b0a70ee954429582a |
 
-本作词条：45；已继承：0。
+本作词条：59；已继承：0。
 
 固定来源、统计、冲突与审核流程见 [系列术语参考](docs/SERIES_TERMS.md)。

@@ -166,9 +166,11 @@ class PublicWorkflowTests(unittest.TestCase):
         workflow=self.load('locales/zh-Hans/translation-workflow.json')
         batches=[self.load(batch['plan']['path']) for batch in workflow['batches']]
         ids=[e['id'] for p in batches for e in p['entries']]
-        self.assertEqual((len(ids),len(set(ids))),(316,316))
+        self.assertEqual(len(ids),len(set(ids)))
+        self.assertGreaterEqual(len(ids),533)
         self.assertEqual(batches[0],self.load('locales/zh-Hans/readability-fix.json'))
         self.assertEqual(len(batches[1]['entries']),54)
+        self.assertEqual(len(batches[2]['entries']),217)
         for p in batches:
             self.assertTrue(all('source' not in e for e in p['entries']))
 

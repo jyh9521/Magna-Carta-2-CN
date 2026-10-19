@@ -1,3 +1,9 @@
+## 最新：第三批新增217条（2026-10-19）
+
+当前累计533条INT草稿，59项candidate术语。新批次覆盖四个连续开场场景及同阶段村民，
+关联名称同步回填；异常转义的一条NPC保留待查。完整记录见 [BATCH_003_OPENING](BATCH_003_OPENING.md)。
+当前workflow明确列出三个不重叠批次，旧工作区与316条版保留为基线，不把历史数字当当前进度。
+
 ## 最新：共享译库已建立，合盘暂缓（2026-10-19）
 
 用户选择共享翻译工程而非先合盘；最新流程见 [SHARED_TRANSLATION_WORKFLOW](SHARED_TRANSLATION_WORKFLOW.md)。

@@ -1,5 +1,6 @@
 """CI entry-point regressions; no game launch or upstream network required."""
 from pathlib import Path
+import os
 import unittest
 from unittest.mock import patch
 
@@ -23,9 +24,19 @@ class CIPortabilityTests(unittest.TestCase):
         case = runtime_fixture.RuntimePatchTests(
             'test_launch_accepts_relative_run_directory_without_false_inventory_failure')
         result = unittest.TestResult()
-        with patch('os.path.relpath', side_effect=ValueError('different drive roots')):
+        original = runtime_fixture.launch_xenia.launch
+        previous = Path.cwd()
+
+        def checked_launch(run_dir, record):
+            # stat('.') observes the OS working directory, not a mocked getcwd.
+            self.assertTrue(os.path.samefile('.', Path(record['config_snapshot']).parent.parent))
+            return original(run_dir, record)
+
+        with patch('os.path.relpath', side_effect=ValueError('different drive roots')), \
+                patch.object(runtime_fixture.launch_xenia, 'launch', side_effect=checked_launch):
             case.run(result)
         self.assertTrue(result.wasSuccessful(), result.errors + result.failures)
+        self.assertTrue(os.path.samefile('.', previous))
 
 
 if __name__ == '__main__':

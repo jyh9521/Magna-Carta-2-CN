@@ -1,5 +1,6 @@
 """Self-authored PPC snippets, patch guards and per-run launcher isolation."""
 import copy
+from contextlib import chdir
 import json
 import os
 from pathlib import Path
@@ -144,7 +145,7 @@ class RuntimePatchTests(unittest.TestCase):
             r=launch_xenia.prepare(e,c,g,root/'run',patch_bundle=b,patch_manifest_sha256=h)
             # Hosted Windows uses D: for the checkout and C: for TEMP. Resolve
             # the relative fixture from its own root, not the ambient checkout.
-            with patch('os.getcwd',return_value=str(root)), patch.object(launch_xenia.subprocess,'Popen',return_value=type('FakeProcess',(),{'pid':123})()) as popen:
+            with chdir(root), patch.object(launch_xenia.subprocess,'Popen',return_value=type('FakeProcess',(),{'pid':123})()) as popen:
                 launch_xenia.launch(Path('run'),r)
                 popen.assert_called_once()
             self.assertEqual(r['status'],'started')  # Mock process only, never a native executable.

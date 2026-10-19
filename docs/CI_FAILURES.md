@@ -17,8 +17,10 @@
 - workflow先执行series_terms fetch，再check --with-references；参考的commit和SHA256
   仍由series.lock锁定，不使用最新版、不放宽校验、不修改译文/候选审核状态。
 - 使用全新缓存验证2个参考项目、9个文件，避免把开发机缓存存在当CI前置条件。
-- 相对路径fixture从自己的root解析`Path('run')`，显式mock os.getcwd为fixture根目录。
+- 相对路径fixture通过contextlib.chdir从自己的root解析`Path('run')`，退出时恢复原目录。
   Popen仍为mock；不启动模拟器，也不改生产启动器、游戏资源或用户工作目录。
+  首轮云端复核发现Windows Python3.14.8路径实现会绕过mock getcwd而使用真实OS目录，
+  因此不能只mock getcwd；已增加stat('.')核对真实目录和退出恢复的回归。
 - 新增CI回归：检查fetch/check顺序与参数；强制relpath抛跨盘错误时仍能执行真实原测试。
 - 实际用临时Q盘映射仓库、C盘TEMP复现原始失败，并在相同跨盘条件确认修复通过；
   映射只用于测试，验证后解除，不移动或复制完整游戏目录。

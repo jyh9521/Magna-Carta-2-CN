@@ -259,7 +259,10 @@
 | mc2-coming-age-253 | 자연의 의식 | 自然仪式 | quest | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:7f263764bb7fb602894e69b47a313227d8c3460079f7e3bb1a3725aca93082d9 |
 | mc2-coming-age-254 | 힘의 의식 | 力量仪式 | quest | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:7f263764bb7fb602894e69b47a313227d8c3460079f7e3bb1a3725aca93082d9 |
 | mc2-coming-age-255 | 향의 의식 | 香气仪式 | quest | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:7f263764bb7fb602894e69b47a313227d8c3460079f7e3bb1a3725aca93082d9 |
+| mc2-transport-256 | 아비스 수송대 | 阿维斯运输队 | faction | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:855d08360794e1a2484fd1ab4f28e0dfdc943edf617b81bf6ad940f618f03757 |
+| mc2-transport-257 | 아비스 수송대 이용권 | 阿维斯运输队乘车券 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:801d9d027eb3f6426e962ed2761182fde6a091d8d8465ad641f112038fd9e2e4 |
+| mc2-transport-258 | 아비스 상점 | 阿维斯商店 | place | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:a80413afa38b085eff7e6b6f4ad5e6eff8ef0066bd1ba98d4cbff137c7f76bfe |
 
-本作词条：255；已继承：0。
+本作词条：258；已继承：0。
 
 固定来源、统计、冲突与审核流程见 [系列术语参考](docs/SERIES_TERMS.md)。

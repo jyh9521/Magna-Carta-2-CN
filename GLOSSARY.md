@@ -271,7 +271,14 @@
 | mc2-infiltration-265 | 센티넬 연구소 출입카드 | 哨兵研究所通行卡 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:6566878b8f94811d631e6abf892234ff581f0b3cd3e352251449a1e975840a30 |
 | mc2-infiltration-266 | 블리자드엣지 | 暴雪之刃 | skill | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:db5fc8595629174a01a32e48dad0f6f33c0abe4424082019a4b57d556b8d98fb |
 | mc2-infiltration-267 | 블리자드 엣지 | 暴雪之刃 | skill | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:5578415cec2cd64ad76aa839448755527db037f08c9a42af948c3d814917173a |
+| mc2-city-quests-268 | 스트로 | 斯特萝 | character | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:1816dc0e805eee8b8f8bd53998ef4aa3f2531956883fe69bb2c5cc2423f63961 |
+| mc2-city-quests-269 | 라즈 | 拉兹 | character | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:d7341445d357160ca3a71d07048b60dac465371e430eda59e5e03f25ee561b93 |
+| mc2-city-quests-270 | 붉은 보석 | 红色宝石 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:22b1506e97ff3c55376aacde096490a4c98ad98692603cb5e3c4d265f1a7d771 |
+| mc2-city-quests-271 | 전투식량 | 战斗口粮 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:fc1de0fc70e16c5df5d6c621b2b8c0007e4fdacc87a835f3acf787ac473dafca |
+| mc2-city-quests-272 | 몬스터의 가죽 | 怪物皮 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:52c2cce8ebf5e07a613bb88b63d91541790d81b166a39068b7aa0da85068d907 |
+| mc2-city-quests-273 | 웨어보어 | 野猪人 | character | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:52c2cce8ebf5e07a613bb88b63d91541790d81b166a39068b7aa0da85068d907 |
+| mc2-city-quests-274 | 그라운드 비스트 | 地行兽 | character | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:52c2cce8ebf5e07a613bb88b63d91541790d81b166a39068b7aa0da85068d907 |
 
-本作词条：267；已继承：0。
+本作词条：274；已继承：0。
 
 固定来源、统计、冲突与审核流程见 [系列术语参考](docs/SERIES_TERMS.md)。

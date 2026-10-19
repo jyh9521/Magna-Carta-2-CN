@@ -406,7 +406,8 @@
 | mc2-reinpolt-malachia-400 | 레인폴트의 참사 | 雷恩波尔特惨案 | event | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:ca8de5e581fd58d3568d5606e406487efdf64f408f8de0bb318bf46fde574988 |
 | mc2-reinpolt-malachia-401 | 말라키아 | 玛拉基亚 | character | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:a6ea3562dd5736dd266ac169def44fc18ecae3a490af3cb76f78269ba23a25d1 |
 | mc2-reinpolt-malachia-402 | 세야의 눈물 | 塞娅之泪 | lore | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:8fcd28052279e166d04c86a3c0f13818871c2e3d243dfe83eb51299d6b70ed58 |
+| mc2-sentinel-lab-alias-403 | 센티넬연구소 | 哨兵研究所 | place | alias | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:65a4ad52c961471c2dc7c35f1fbc77bcd11c9af6345b758b68814037343575a5 |
 
-本作词条：402；已继承：0。
+本作词条：403；已继承：0。
 
 固定来源、统计、冲突与审核流程见 [系列术语参考](docs/SERIES_TERMS.md)。

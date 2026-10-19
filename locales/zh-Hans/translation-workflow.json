@@ -11,7 +11,7 @@
   },
   "terms": {
     "path": "locales/zh-Hans/terms.json",
-    "sha256": "13972f1e60334d65370d03d95f723e989e1dff9f8420f87c2086e4085f2df2b1"
+    "sha256": "711126b396f6fb11f6a160667810437826e9e392ca3c20ce46829a32e55b26f9"
   },
   "batches": [
     {
@@ -553,11 +553,21 @@
         "path": "locales/zh-Hans/batch-054.review.json",
         "sha256": "46bacfb89226ec03bd27ad744ef9a1926d0a6d9e4bc85d503ca1263fafeddf2e"
       }
+    },
+    {
+      "plan": {
+        "path": "locales/zh-Hans/batch-055.json",
+        "sha256": "44cb47e38ed5f970acefaa8d295d73aa9ecd71d8b7f3097912fa6cab3247dcdb"
+      },
+      "review": {
+        "path": "locales/zh-Hans/batch-055.review.json",
+        "sha256": "c9fa341c7d18b04bce39149ef4f2c2eaa252ede022b1c9c55d4ddca66c90a406"
+      }
     }
   ],
   "notes": [
     "暂停合盘；按资源路径及完整容器hash共享译文，保留两盘来源。",
     "当前运行文本主线为INT；JPN/KOR独立保留，不凭后缀认定语言或自动对齐。",
-    "Coalesced与Movies字幕独立锁定；字幕profile三十三份234cue，第五十二批补csm10-10开场两cue；10-65/70后续待对应场景。"
+    "Coalesced与Movies字幕独立锁定；字幕profile三十五份254cue，第五十五批补csm10-65/70二十cue，第十章三份独立字幕22cue均draft。"
   ]
 }

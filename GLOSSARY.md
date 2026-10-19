@@ -326,7 +326,8 @@
 | mc2-mind-entry-320 | 정신 세계 | 精神世界 | location | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:3e3555a1facb96120de49fc8885c0be60ec7385801554355b8f5415c478136a5 |
 | mc2-mind-entry-321 | 초월의 카몬드 | 超越卡蒙德 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:23add876735933a7f366fdb05f7c2725972defce5e5cdb053cb3245b6e1cc246 |
 | mc2-mind-memories-322 | 물빛저습지 | 水色湿地 | location | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:50c18d985e120fe6ea64a75d2a6fddf01f6cec750d6b59697ac0a66a4e73cefb |
+| mc2-mind-return-323 | 천뇌천풍인 | 天雷天风印 | term | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:2eab074b07484f38f62dafc7de12f556b66305d783663d089def841b26211966 |
 
-本作词条：322；已继承：0。
+本作词条：323；已继承：0。
 
 固定来源、统计、冲突与审核流程见 [系列术语参考](docs/SERIES_TERMS.md)。

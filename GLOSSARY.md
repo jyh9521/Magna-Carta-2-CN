@@ -135,7 +135,10 @@
 | mc2-orders-129 | 방어구 파괴 | 破甲 | combat | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:71906416ac250108240a6cb091420f65f76327040bcb275a4b08cc928be3cc49 |
 | mc2-orders-130 | 랩퍼스 변종 | 拉普斯变种 | creature | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:1073673c486e34a27709bb5d082118719d5433c0e1d7a1d9c9e5f26dbca99d1b |
 | mc2-orders-131 | 폭탄 | 炸弹 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:61ae1166433911ef45f9cf02eacdcff244c89cc9ca7f144d1c6ba51dc623fc6c |
+| mc2-council-132 | 통곡의 문 | 恸哭之门 | place | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:c002103dabf0f28524201755cfa405f5a75d9dc99f9ed3ce4b6dffd0755c219e |
+| mc2-council-133 | 총사령부 | 总司令部 | organization | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:240c037eb5a7c3825fa6a6112b88c3ed2ff5f654247d4d98741a30e39c6c722f |
+| mc2-council-134 | 폭탄 꾸러미 | 炸弹包 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:e84294b36db34d101054f23c00c7efa908e1dc26cf1199a9f5a53e156329f16b |
 
-本作词条：131；已继承：0。
+本作词条：134；已继承：0。
 
 固定来源、统计、冲突与审核流程见 [系列术语参考](docs/SERIES_TERMS.md)。

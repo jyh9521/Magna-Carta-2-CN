@@ -1,497 +1,88 @@
-## 字距与非剧情标点修订（2026-10-19）
+# 《真名法典2》简体中文汉化
 
-最新规则、字体参数、重建/刷新流程和测试清单见 [TEXT_READABILITY](docs/TEXT_READABILITY.md)。宽字符最小 advance 为字号+5，字形左右最小留白2/3；所有非剧情无内部标点单句均不加句末句号。已离线验证，游戏画面待用户验收；同一测试入口刷新，保留原文对照、runs、存档和配置。
+Xbox 360 版《MagnaCarta II》（마그나카르타 2）的简体中文汉化与可重建本地化工具链。
 
-## 最新：对话显示与开场字幕修复候选（2026-10-19）
+目标语言为 `zh-Hans`，以 Xenia 为主要测试环境。仓库保存结构化译文、术语、字体与资源处理工具，以及格式研究和验证记录；语言数据与通用工具分离，便于后续维护和其他语言复用。
 
-用户截图确认旧包丢问号、空白间距和提前换行。真实字图查到已有 remap 指向透明字形。
-新入口 `dist/MC2-display-repair-disc1/开始中文测试.cmd`：修复空白标点、对白重排，补 31 条启动/系统提示和 49 条开场字幕。
-离线像素与往返验证不等于画面通过，详情与验收见 [DIALOGUE_DISPLAY_REPAIR](docs/DIALOGUE_DISPLAY_REPAIR.md)。
+## 支持版本与当前状态
 
-## 最新测试批次（2026-10-19）
+基于项目已校验的韩版 Disc 1 / Disc 2 原始样本开发，资源身份由[提取配置](locales/zh-Hans/extraction-profile.json)锁定。版本指纹及双盘差异见[版本与资源调查](docs/RESOURCE_SURVEY.md)，其他区域或未知版本不作为当前构建目标。
 
-开场 NPC、教程与菜单累计 231 条独立测试包：
-本机入口 `dist/MC2-opening-batch-disc1/开始中文测试.cmd`，同目录保留原文对照。
-译名仍为候选；新增字形高度及菜单排版待用户测试。范围、重建和具体清单见 [OPENING_BATCH_TEST](docs/OPENING_BATCH_TEST.md)。
+**正在分批翻译与验证，尚非完整汉化发行版。**
 
-# 《真名法典2》Xbox 360 简体中文汉化工程
+进度快照：2026-10-20，`batch-054`。
 
-目标语言 `zh-Hans`，保留原版 Xbox 360 游戏结构，以 Xenia 为首选验证环境。当前进入**正式文本提取与分批草稿翻译阶段**，尚非完整可安装汉化补丁。
+| 内容 | 当前进度 |
+| --- | --- |
+| 正文文本 | 6,955 / 18,176 条已有中文草稿 |
+| 独立动画字幕 | 234 / 315 条已有中文草稿 |
+| 邮件主题与正文 | 116 / 235 字段已有草稿，包含在正文统计内 |
+| 共享术语 | 322 项候选，另保留历史字幕来源记录 |
+| 字体与显示 | 已有补字、标点与对白排版测试候选，仍需游戏内验收 |
+| 发布与验收 | 现有开场测试包不包含全部累计译文；完整流程验收尚未完成 |
 
-- [正式译库与首批翻译](docs/TRANSLATION_PIPELINE.md)：开场七句用户截图验收；双盘提取、80 份目录、27 条 draft 与说明句末标点规则。
+草稿数量不等于人工定稿或游戏内完成率。正文统计包含空白、删除标记和格式待查项，图片及硬编码文字仍需覆盖审计。后续进度以[连续翻译接续点](docs/TRANSLATION_QUEUE.md)与[翻译工作流](locales/zh-Hans/translation-workflow.json)为准。
 
-- [强制折行测宽修复候选](docs/WRAP_WIDTH_FIX.md)：标题窄弹窗的左溢缺陷、16字节原生修复、原样本 A/B 一键入口；剧情宽框与修复后像素待用户独立验收。
+两盘保留独立来源，共用经过资源路径与哈希校验的译库，**当前不做双盘合一**。
 
-- [原生方法静态关联](docs/NATIVE_BINDINGS.md)：18项表/初始化/查找证明及字体word/mask指令链；仍非运行绑定或显示证明。
-- [双盘原生映像还原](docs/NATIVE_IMAGE.md)：双AES实现、逆向全字节恢复与共同PPC映像；只读、不执行、不分发原文件。
-- [当前进度](docs/STATUS.md)：里程碑、已验证与未知项。
-- [字体绑定审计与双盘候选构建](docs/FONT_BINDING_AUDIT.md)：原型/CDO、forced-export 命名空间、4145 包类表调查及未部署的三别名对照/geometry 探针。
-- [双盘版本与资源清单](docs/RESOURCE_SURVEY.md)、[FILEMAP](docs/FILEMAP.md)。
-- [系列术语固定来源](docs/SERIES_TERMS.md)、[术语表](GLOSSARY.md)。
-- [UI布局脚本与控制路径](docs/SCRIPTED_UI_LAYOUT.md)：5个wrapper完整解码、Core操作符作用域绑定、精确字段/跳转；无执行。
-- [UI函数声明与native边界](docs/FUNCTION_METADATA.md)：默认模式23个直属方法，18个精确参数桩、5个非native脚本保留未解析；不执行函数。
-- [UI序列化默认值与声明](docs/STRUCT_DEFAULTS.md)：Class/outer绑定、继承Guid、精确Bool偏移及枚举槽；仍非原生运行证明。
-- [搬移候选独立复核](docs/CANDIDATE_REVALIDATION.md)：闭合成员集、可信计划/manifest锚定与独立Font/文本/TOC重放，拒绝伪成功metadata；只读。
-- [字体/文本/TOC最小候选装配](docs/LOCALE_CANDIDATE.md)：双盘依赖与真实字节校验、5资源隔离目录、备份恢复和整树重复构建；不部署或运行。
-- [源值锁定与字面字体覆盖](docs/TEXT_FONT_COVERAGE.md)：版本化两字文本探针、双盘源/标记/逆向检查及全部显式字体覆盖；非游戏显示证明。
-- [三别名最小补字可复现装配](docs/FONT_BUNDLE_BUILD.md)：双盘版本计划、源/语义指纹防护、原始对照和备份恢复检查；不部署。
-- [两字补字原型](docs/FONT_SUPPLEMENT.md)、[纹理解析](docs/TEXTURE_RESEARCH.md)、[LZX 构建](docs/LZX_RESEARCH.md)。
-- [字体结构研究](docs/FONT_RESEARCH.md)、[包表解析](docs/UE3_PACKAGE_RESEARCH.md)、[容器回写与原版基线](docs/COALESCED_REBUILD.md)。
-- [当前 Coalesced 实测](docs/COALESCED_SURVEY.md)、[构建命令](BUILDING.md)、[来源与许可](NOTICE.md)。
+## 获取与测试
+
+仓库提供源码、译文、配置和技术文档，不包含游戏本体、原版镜像、Xenia 或本机构建输出。重建需另行准备匹配版本的原始文件及字体等依赖。
+
+现有本地测试入口及内容范围：
+
+- [开场 NPC、教程与菜单测试](docs/OPENING_BATCH_TEST.md)：开场范围的独立测试包与原文对照。
+- [对白显示与开场字幕修复](docs/DIALOGUE_DISPLAY_REPAIR.md)：标点、空白字形与折行修复候选。
+- [字体与文本可读性](docs/TEXT_READABILITY.md)：字距、标点和排版规则。
+
+上述测试包属于各自记录的阶段，不代表当前累计译文已经全部打包。新增译文仍需同步字库与 TOC，并检查对白、菜单、动画字幕、战斗及正常存读档；离线验证不代替实际游玩。
+
+问题反馈宜附版本或测试包身份、Xenia 版本、场景、复现操作、截图及日志。
+
+## 从源码重建
+
+依赖、原始文件身份、资源提取、字体生成、回填及增量刷新流程见[构建说明](BUILDING.md)。当前包含多个专项构建与诊断流程，不提供将所有研究候选自动组合为完整发行版的单命令安装。
+
+默认源码测试使用 Python 3.12+，以自制样本运行，不依赖游戏本体：
 
 ```powershell
-python -m unittest discover -s tests -v
+python -m unittest discover -s tests -q
+python tools/series_terms.py check --with-references
+python tools/series_terms.py render --check
 python tools/check_repository.py
 ```
 
-只读工具使用 Python 3.12+ 标准库；CI 使用自制样本，不需要游戏。原版资源、Xenia、本地规范与生成报告均不进入 Git。原生重编译路线已排除；不依赖 ReXGlue 或宿主运行时。
+普通迭代复用现有测试目录，只按校验流程增量刷新相关资源，不逐轮生成 ISO 或完整游戏副本。原盘、配置、存档、运行记录及必要回滚证据保持不变。
 
-## 长期目标：双盘合一与单一启动
+## 参与翻译与维护
 
-优先调查真正资源合一；分别验收单入口、单目录、单容器。自动换盘保留为备选，但尚无本作实际换盘通过证据。三个同路径冲突不自动覆盖；不修改原 ISO、不启动大型 XEX 改造，也不把合盘当作汉化前置条件。详见 [双盘技术研究与验收门槛](docs/MULTIDISC_RESEARCH.md)。
+译文按稳定 ID 和原文摘要绑定，保留控制码、占位符、资源标识与功能换行。未知格式先记录，不猜补；候选译名和自动检查通过不等于人工校对完成。
 
-## 原始通用文档模板（保留规范）
+- [翻译说明](TRANSLATING.md)：文本分类、上下文、换行与校对约定。
+- [术语表](GLOSSARY.md)：由 `locales/zh-Hans/terms.json` 生成。
+- [系列术语来源](docs/SERIES_TERMS.md)：参考版本、来源和跨作品身份的核对边界。
 
-下列通用示例不是已实现功能、安装步骤或兼容性承诺；当前事实以前述实测文档为准。
+其他语言的数据应独立放入 `locales/<locale>/`，并验证编码、字形覆盖和游戏内排版；当前不表示其他语言已完成适配。
 
----
+## 仓库结构
 
-# Game Localization Project
+| 路径 | 内容 |
+| --- | --- |
+| `locales/zh-Hans/` | 译文、术语、来源约束与批次审核记录 |
+| `tools/` | 提取、校验、字体和资源重建工具 |
+| `tests/` | 自动化测试与自制样本 |
+| `references/`、`assets/`、`licenses/` | 固定来源、项目配置素材及第三方许可 |
+| `docs/` | 格式研究、构建方法、专项测试与历史批次记录 |
+| `build/`、`dist/`、`xenia/` | 本地输入、生成物及测试环境，不随源码分发 |
 
-This repository contains the source, translation data, tools, documentation, and reproducible build workflow for a game localization project.
+## 技术与测试文档
 
-Replace the placeholder sections in this template with project-specific information.
+- [技术说明](TECHNICAL.md) · [当前状态](docs/STATUS.md) · [已知问题](docs/KNOWN_ISSUES.md)
+- [共享译库与双盘回填](docs/SHARED_TRANSLATION_WORKFLOW.md) · [正式文本管线](docs/TRANSLATION_PIPELINE.md)
+- [文件格式](docs/FILE_FORMATS.md) · [技术陷阱](docs/PITFALLS.md) · [全部专项文档](docs/)
 
----
+## 许可与来源
 
-# Project
+项目原创代码采用 [MIT](LICENSE)，原创译文采用 [CC BY-SA 4.0](LICENSE-translations.md)。字体、参考工具和第三方组件遵循各自许可，固定版本、作者及复用范围见[来源与许可](NOTICE.md)。
 
-**Game:**  
-**Localized title:**  
-**Target locale:**  
-**Platform:**  
-**Supported version:**  
-**Status:**  
-
-Short project description:
-
-> Describe what this localization covers, what version it targets, and whether it is complete, in progress, experimental, or maintenance-only.
-
----
-
-# Download
-
-Player-ready builds should be published through GitHub Releases whenever appropriate.
-
-Example:
-
-```text
-Releases:
-https://github.com/<owner>/<repository>/releases
-```
-
-Do not use the source repository root as a release-package storage area.
-
----
-
-# What This Localization Includes
-
-List the localized content.
-
-Examples:
-
-- menus
-- UI
-- dialogue
-- subtitles
-- item names
-- item descriptions
-- tutorials
-- system messages
-- credits
-- pre-rendered video subtitles
-
-Also list intentionally unsupported or incomplete areas.
-
----
-
-# Supported Game Version
-
-Document the exact supported version.
-
-Example:
-
-```text
-Platform:
-Region:
-Distribution:
-Game version:
-Executable:
-File size:
-SHA-256:
-```
-
-Do not describe untested versions as supported.
-
-For detailed build verification, see:
-
-```text
-BUILDING.md
-```
-
----
-
-# Installation
-
-Provide player-facing installation instructions.
-
-Keep this section short and practical.
-
-Example:
-
-1. Prepare a clean supported version of the game.
-2. Download the latest localization release.
-3. Extract the package into the game directory.
-4. Follow any project-specific launcher or language-selection instructions.
-5. Start the game.
-
-If installation differs significantly by platform or version, document each case separately.
-
----
-
-# Uninstallation
-
-Explain how to remove the localization safely.
-
-Document:
-
-- files added
-- files replaced
-- backups created
-- settings changed
-- generated files
-
-If restoring original files is required, state that clearly.
-
----
-
-# Technical Overview
-
-Briefly explain how the localization works.
-
-Possible topics include:
-
-- text extraction
-- runtime text replacement
-- archive rebuilding
-- executable patching
-- font replacement
-- custom glyph rendering
-- encoding conversion
-- subtitle injection
-- video subtitle generation
-
-Keep this section high-level.
-
-Detailed reverse-engineering notes belong in:
-
-```text
-TECHNICAL.md
-```
-
----
-
-# Repository Structure
-
-Recommended high-level structure:
-
-```text
-README.md
-BUILDING.md
-TRANSLATING.md
-TECHNICAL.md
-LICENSING.md
-
-docs/
-  PITFALLS.md
-  FILE_FORMATS.md
-  KNOWN_ISSUES.md
-
-locales/
-  <locale>/
-
-src/
-tools/
-tests/
-assets/
-```
-
-Not every project needs every directory.
-
----
-
-# Building From Source
-
-This repository should support reproducible rebuilding whenever technically possible.
-
-Typical workflow:
-
-```text
-clean repository checkout
-+ user-supplied original game files
-+ documented dependencies
-→ build
-→ validated localization output
-```
-
-See:
-
-```text
-BUILDING.md
-```
-
-for exact requirements and commands.
-
----
-
-# Translation
-
-Translation data should be structured and maintainable.
-
-Preferred location:
-
-```text
-locales/<locale>/
-```
-
-See:
-
-```text
-TRANSLATING.md
-```
-
-for:
-
-- translation format
-- encoding rules
-- placeholders
-- control codes
-- terminology
-- line breaks
-- length limits
-- translation QA
-- adding another locale
-
----
-
-# Adding Another Language
-
-When technically feasible, this project should allow other contributors to reuse the localization framework for additional locales.
-
-Preferred structure:
-
-```text
-locales/
-  zh-CN/
-  zh-TW/
-  ja-JP/
-  ko-KR/
-```
-
-The exact supported locales depend on the game's engine, encoding system, font system, and current implementation.
-
-If the technical framework can reasonably be generalized, prefer reusable localization infrastructure over one-language-only behavior.
-
----
-
-# Known Issues
-
-Player-visible limitations and compatibility problems are documented in:
-
-```text
-docs/KNOWN_ISSUES.md
-```
-
-Do not hide known limitations.
-
----
-
-# Technical Research
-
-Reverse-engineering findings and implementation details are documented in:
-
-```text
-TECHNICAL.md
-docs/FILE_FORMATS.md
-docs/PITFALLS.md
-```
-
-These documents should preserve both successful findings and meaningful failed approaches.
-
----
-
-# Compatibility
-
-Document compatibility with:
-
-- game versions
-- regions
-- source ports
-- modernizer patches
-- mods
-- emulators
-- operating systems
-- compatibility layers
-
-If the localization uses a proxy DLL, runtime hook, or loader, document known conflicts.
-
----
-
-# Development Status
-
-Use this section to summarize the current state.
-
-Example:
-
-```text
-Text extraction: complete
-Font support: complete
-UI translation: complete
-Dialogue translation: in progress
-Subtitle QA: in progress
-Release packaging: complete
-```
-
-Keep status factual and current.
-
----
-
-# Contributing
-
-Contributions may include:
-
-- translation improvements
-- terminology review
-- reverse-engineering research
-- tool development
-- compatibility testing
-- bug reports
-- documentation
-
-Before contributing, read:
-
-```text
-TRANSLATING.md
-TECHNICAL.md
-LICENSING.md
-```
-
-Use issues or pull requests according to the project's workflow.
-
----
-
-# Bug Reports
-
-When reporting localization issues, provide as much of the following as possible:
-
-- game version
-- platform
-- localization version
-- locale
-- level or scene
-- screenshot
-- exact text
-- reproduction steps
-- logs if available
-- whether the issue occurs without the localization
-
-This helps distinguish localization bugs from original-game or emulator issues.
-
----
-
-# Licensing
-
-This repository may contain material under multiple licenses.
-
-Possible categories include:
-
-- project-owned code
-- translation text
-- upstream source code
-- third-party libraries
-- fonts
-- game source text
-- game-derived resources
-
-See:
-
-```text
-LICENSING.md
-```
-
-for the actual licensing boundaries.
-
-Do not assume one license applies to every file.
-
----
-
-# Copyright Notice
-
-The original game, its source text, trademarks, characters, media, and other proprietary assets remain the property of their respective rights holders.
-
-This project is an independent localization effort unless explicitly stated otherwise.
-
-Do not include complete proprietary game files in the repository unless redistribution is explicitly permitted.
-
----
-
-# Credits
-
-Credit:
-
-- original game developers and publishers
-- upstream localization or reverse-engineering projects
-- tool authors
-- font authors
-- translators
-- testers
-- contributors
-
-Preserve upstream attribution requirements.
-
----
-
-# Project Links
-
-Replace these placeholders as needed.
-
-```text
-Repository:
-https://github.com/<owner>/<repository>
-
-Releases:
-https://github.com/<owner>/<repository>/releases
-
-Issue tracker:
-https://github.com/<owner>/<repository>/issues
-
-Project page:
-<optional>
-```
-
-Remove unused links when adapting the template.
-
----
-
-# Final Project Goal
-
-The project should ideally allow:
-
-- players to install a ready-to-use localization
-- developers to rebuild the project from source
-- translators to edit structured localization data
-- researchers to understand the technical work
-- maintainers to reproduce previous decisions
-- future contributors to adapt the framework to another locale when feasible
-
-The repository should preserve not only the finished translation, but also the knowledge required to maintain and extend it.
+原版游戏文本、商标与商业资源的权利归原权利方所有，不在上述原创内容授权范围内。仓库不分发完整原版游戏文件。

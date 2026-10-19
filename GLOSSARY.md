@@ -192,7 +192,10 @@
 | mc2-fortress-186 | 콜러서스 | 科洛瑟斯 | character | short-name | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:d64bf2df30ccf2be9fa2c81dd81552fe34c070dae0eee714f6f555c983e4b66a |
 | mc2-fortress-187 | 고문서 | 古文书 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:3096058771c9e2e0d9feff3ab00af0f514af65bebf7a7c28c5958bdf1526edfc |
 | mc2-fortress-188 | 생물학자 | 生物学家 | character | short-name | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:d2a7f87c1a394a1fa037516ca780e0d26e762fa3e6b6280d0b9fcbdcf98da3b0 |
+| mc2-heirloom-189 | 마리스 | 玛莉丝 | character | short-name | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:2690bcadcc8d1038a2aa57d14d0303f782b3a3fc9ad8ba230e7210db2537a0f8 |
+| mc2-heirloom-190 | 데바 | 黛芭 | character | short-name | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:4aa43213154f82e1b0a9874b7078211a27d75b32495e06dd4b1e57790f65587d |
+| mc2-heirloom-191 | 구절초 | 九节草 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:d77d1933a5b26f6a8592b0ce8300374259b7cc60921d9508d532b99c9291ab7f |
 
-本作词条：188；已继承：0。
+本作词条：191；已继承：0。
 
 固定来源、统计、冲突与审核流程见 [系列术语参考](docs/SERIES_TERMS.md)。

@@ -182,7 +182,12 @@
 | mc2-tomb-176 | 아셀리나의 눈물 | 阿塞莉娜之泪 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:ffc4da4291457945e2e5f71548e88bc0939e398e211b22e50ab43530c6a542aa |
 | mc2-return-abazet-177 | 루할트 | 鲁哈尔特 | place | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:ff29a054d61738336accbaeea2708e73866823d78c29917e5a68dc833429e8aa |
 | mc2-return-abazet-178 | 네코폭탄 | 猫猫炸弹 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:33e47e23f4886ee283b78d0ed991b8d8224595fb95e42f44c24c99e62f208580 |
+| mc2-proof-179 | 왕의 증명 | 王之证明 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:30fbb1589e7d1942a14c5bcafbc0ab4480ec0feb9a96cf2d2a915fee86dbbdfc |
+| mc2-proof-180 | 왕가의 영혼 | 王室之魂 | character | short-name | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:b6978b8116ae0282d4205f7cd30e15689ef9ea91ea97b65e7cf5d59e23ceded7 |
+| mc2-proof-181 | 검은 칼날 요새 | 黑刃要塞 | place | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:a6181a4bca6c45fc4f8e2d571b23c32ef3b1f6091611e18435b147026029e145 |
+| mc2-proof-182 | 알스 | 阿尔斯 | character | short-name | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:67f3b4fb779118fbca0cf3fd9ad48e63850ff238ea16e0597495215382d47de1 |
+| mc2-proof-183 | 기밀문서 | 机密文件 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:58a96be9bc3f2909ea91f45bac4f2d0e6d313a14b6ee79ecd91090243633f226 |
 
-本作词条：178；已继承：0。
+本作词条：183；已继承：0。
 
 固定来源、统计、冲突与审核流程见 [系列术语参考](docs/SERIES_TERMS.md)。

@@ -918,3 +918,7 @@ Verified / source：MC2Quest.int [06_603_0] 603_0在“몬스터를”之后含`
 ## 实验室钥匙与通行卡同key（batch047）
 
 Verified / source：MC2Item.int的Valuables中，key_laboratory及key_laboratory_D各有两个occurrence，第一组为钥匙，第二组为通行卡。本批仅第二组稳定ID/source hash回填；第一组保持。不要按key构建会覆盖同名项的字典，不要用不含occurrence的next取首项。完整源值仅留忽略的验证目录。
+
+## 第九章演说源句异常（batch050）
+
+Verified / source：MC2CSMB.int [CSMB09_20] voc_csmb_0920_06含감Ｒ异常混合字符，句段缺损。稳定ID/hash见batch-050.review.json held_entries；双盘源hash一致也不证明语义完整。保持原值，不猜补成常见韩语动词，不计draft；完整源仅留忽略的本地验证证据。

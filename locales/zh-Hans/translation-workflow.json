@@ -503,11 +503,21 @@
         "path": "locales/zh-Hans/batch-049.review.json",
         "sha256": "7eaad839b77a1314c9e15c569866899372d0ceef43f9c51e83bd10225dd39d60"
       }
+    },
+    {
+      "plan": {
+        "path": "locales/zh-Hans/batch-050.json",
+        "sha256": "f534ccd6c5a0568c7de04cac49761de7169128092b4a595c5af668d3f18c9313"
+      },
+      "review": {
+        "path": "locales/zh-Hans/batch-050.review.json",
+        "sha256": "66f1138d613ea463423e9cd43b9d72a56feaf916e103c72cf8d741345769631b"
+      }
     }
   ],
   "notes": [
     "暂停合盘；按资源路径及完整容器hash共享译文，保留两盘来源。",
     "当前运行文本主线为INT；JPN/KOR独立保留，不凭后缀认定语言或自动对齐。",
-    "Coalesced与Movies字幕独立锁定；字幕profile三十份203cue，第四十八批补齐csm08-30/40九cue，第八章这两份独立字幕均draft。"
+    "Coalesced与Movies字幕独立锁定；字幕profile三十一份207cue，第五十批新增csm09-10开场四cue；csm09-40后续25cue待对应场景。"
   ]
 }

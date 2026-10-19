@@ -128,7 +128,14 @@
 | mc2-team-122 | 후안 | 胡安 | character | short-name | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:b4212d458bad19eb32699126e067675202dc057b9927aaef592649a51118b5af |
 | mc2-team-123 | 카몬드 채굴장 | 卡蒙德采掘场 | place | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:a4bbd1e3e9586a00ed893adb02020eb5c37436bac42a180f10c3d85653ccc586 |
 | mc2-team-124 | 아바젯 초원 | 阿巴泽特草原 | place | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:0e87be90037abb832eede0c13d78629f0bfa737a41a8a3c80cb0915d4fdb95a3 |
+| mc2-orders-125 | 라우드 | 劳德 | character | short-name | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:fc476f3dc0bcf13a9f81e487eeb76d39315da99f78240d54d37b165237051f97 |
+| mc2-orders-126 | 라우드 사령관 | 劳德司令官 | character | title | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:fc476f3dc0bcf13a9f81e487eeb76d39315da99f78240d54d37b165237051f97 |
+| mc2-orders-127 | 코타마레 | 柯塔马雷 | place | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:acf63e073dcc0a556c8e48fba0b71782e571a8988907f007d07d0e4b5a36fd60 |
+| mc2-orders-128 | 아바젯 항구 | 阿巴泽特港口 | place | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:dbdf6af8ff5325063e0e6d98181714d742a1e12fd12c25f5f70fc1cbd70bcbcc |
+| mc2-orders-129 | 방어구 파괴 | 破甲 | combat | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:71906416ac250108240a6cb091420f65f76327040bcb275a4b08cc928be3cc49 |
+| mc2-orders-130 | 랩퍼스 변종 | 拉普斯变种 | creature | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:1073673c486e34a27709bb5d082118719d5433c0e1d7a1d9c9e5f26dbca99d1b |
+| mc2-orders-131 | 폭탄 | 炸弹 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:61ae1166433911ef45f9cf02eacdcff244c89cc9ca7f144d1c6ba51dc623fc6c |
 
-本作词条：124；已继承：0。
+本作词条：131；已继承：0。
 
 固定来源、统计、冲突与审核流程见 [系列术语参考](docs/SERIES_TERMS.md)。

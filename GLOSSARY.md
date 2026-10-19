@@ -414,7 +414,8 @@
 | mc2-thief-revenge-408 | 팬텀 블레이드 | 幻影之刃 | weapon | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:77f3a047bec89322a9234ad4d256e388ced2222dcf8aa01bcabe377156cd43f8 |
 | mc2-thief-revenge-409 | 도적 | 盗贼 | role | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:46084cf6474af095cf5df7e65a4ef91d5ae9eff1088f7c3610ce60773c29103e |
 | mc2-blue-moon-return-410 | 상인조합 | 商人公会 | organization | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:e08b160f8556069bd6f98fb893a5058e9c22271981640ebd68364b68b0c2faf1 |
+| mc2-father-relic-411 | 세리틴 | 塞莉汀 | character | short-name | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:78a17cb6d1faca189953d2a52836cf2c8d50092ca036618a5348f9b60ea7e744 |
 
-本作词条：410；已继承：0。
+本作词条：411；已继承：0。
 
 固定来源、统计、冲突与审核流程见 [系列术语参考](docs/SERIES_TERMS.md)。

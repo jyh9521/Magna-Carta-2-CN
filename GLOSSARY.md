@@ -345,7 +345,17 @@
 | mc2-materials-339 | 거대한 카몬드 | 巨型卡蒙德 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:a2ed2341183c61db3beb828172a471678ae9e93493922acdb1efca41beda88a0 |
 | mc2-materials-340 | 코어 | 核心 | device | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:ece802663383cf3e8220b0ec63623b6e81c3d8916486381964d9c2fa0c60ec32 |
 | mc2-invasion-341 | 란츠하임 연합군 | 兰兹海姆联合军 | faction | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:aa578d071fde5fd84f270c0999ffb8a19a2258a17cf278f279159d6b7d69be11 |
+| mc2-sidequests-342 | 신기한 버섯 | 神奇蘑菇 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:90851cf756d1d4f9f87c764ba8b06e5c2705464492aa64f693c38b383e3b5191 |
+| mc2-sidequests-343 | 이상한 버섯 | 奇怪蘑菇 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:90851cf756d1d4f9f87c764ba8b06e5c2705464492aa64f693c38b383e3b5191 |
+| mc2-sidequests-344 | 독버섯 | 毒蘑菇 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:6564de6d6b802a2c2db08d171d59d560c0b1a7811f843a8cd42e615092addef2 |
+| mc2-sidequests-345 | 사랑의 비약 | 爱情魔药 | item | alias | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:2f5de6ad80efe011943048fd33472ba9bd06ef334a7d70f63869211e4017bcab |
+| mc2-sidequests-346 | 연체동물의 체액 | 软体动物体液 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:92678075f716e38a01c22616c6ccc60b07628f6c7cf6e0abc47989c58704dedd |
+| mc2-sidequests-347 | 연체동물의 채액 | 软体动物体液 | item | alias | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:62718dab3f3412bc2a57163fc5400ea4458219bc9a8787266ac7e904eca20b09 |
+| mc2-sidequests-348 | 궁극의 약 | 终极药 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:e793f25b5075cb814b1407df6226b27afea46b77493caed13eb22d9003ecc18d |
+| mc2-sidequests-349 | 헬피쉬 | 地狱鱼 | creature | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:92678075f716e38a01c22616c6ccc60b07628f6c7cf6e0abc47989c58704dedd |
+| mc2-sidequests-350 | 해저 동굴의 향 | 海底洞窟香料 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:3ae2e0cfa10b454b248e0abdca70b5c01749e4ec86f040a13bc1d10de808a953 |
+| mc2-sidequests-351 | 코타메레 | 柯塔马雷 | location | alias | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:377f39c5e1bd9743d69b8006d93432778369728b7f29b6d3c7c5c3d543932f77 |
 
-本作词条：341；已继承：0。
+本作词条：351；已继承：0。
 
 固定来源、统计、冲突与审核流程见 [系列术语参考](docs/SERIES_TERMS.md)。

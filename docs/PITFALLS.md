@@ -932,3 +932,8 @@ Verified / source：MC2UI.int Battle_Log/beeljebubRecover_1/2分为Boss主语和
 Verified / source：MC2Compose的Chapter11_29在INT与JPN中内容不同；INT讲中心之门与英雄牺牲，JPN另有明确的四碑计数。该字段INT的UTF-8源值hash为591045150b284d3b73bb96aecd0cf733ca1cf4417fe8b986e99b8260f787460f，JPN的UTF-8源值hash为20f64eb471195fd60ba271e5ddae23dfec80c2bf0d1cbe6a5e2a019b9599424c。
 32/33同样存在句子跨字段分配差异；相同section/key不保证逐句或数值对应。不得据JPN计数改写INT已有五碑机关，也不得直接把JPN译文按key批量填入INT。两者须保留独立resource、ID及源hash，只作明确归属的上下文旁证。
 Unverified：INT11_27的성쇄词义以及32-36说话者/运行触发仍未确认；JPN同key的隆盛措辞不是原韩文拼写修复或角色绑定的证明。未把这些待查字段计入本批draft。完整原文仅保留忽略的研究证据，后续按锁定源重新提取核查。
+
+## 第十一章支线源条件不一致与残句（batch063）
+
+Verified / source：MC2Quest.int的11_303_0在yes_0/in_0/DES分别写4/3/5，且奇怪蘑菇与毒蘑菇的源名在不同字段间不一致；Item key Mashpoison却以奇怪蘑菇的韩文源词命名。不要按英语key、相似名称或某一说明把其他源条件统一。Unverified：运行实际检查的数量/物品尚无调用或游戏证据，译文仅忠实保留各字段。
+11_302_0的302_6/7源为未完片段，显示/拼接未验证；连同Chapter11_27的未确认词义，三处ID/hash/reason记录于batch-063.review.json held_entries，原值/尾随空格保持，不补全或计draft。체액/채액与코타메레按候选alias处理，不改原拼写。

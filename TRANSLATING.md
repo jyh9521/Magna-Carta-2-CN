@@ -1,3 +1,14 @@
+## 第二十五批露归队与风息岛出航（2026-10-19）
+
+新增INT99条，累计3,946条draft、206项candidate；独立字幕新增csm05-10八条，累计149/315cue。
+CSMB05四场88条、港口NPC七条、出航提示四条；X/Y菜单样式与功能换行保持。
+见 [BATCH_025_RUE_RETURN](docs/BATCH_025_RUE_RETURN.md)。字库/TOC/可玩入口未更新，离线成功不是游戏验收。
+
+## 第二十四批战术邮件（2026-10-19）
+
+新增INT13条，累计3,847条draft、204项candidate；E04/B04/Q04邮件共70/235字段有draft。
+见 [BATCH_024_TACTICAL_MAIL](docs/BATCH_024_TACTICAL_MAIL.md)；Q04源正文未完句不补写结论。
+
 ## 第二十三批E04库布邮件（2026-10-19）
 
 新增INT59条，累计3,834条草稿、200项candidate；E04邮件29封58字段与关联署名1条有draft。

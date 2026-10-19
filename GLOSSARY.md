@@ -158,7 +158,14 @@
 | mc2-kotamare-152 | 연환력 증대 | 连环力增幅 | combat | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:2d765e59479f9b8cde573c8fe0eee8854b94b37196be68d264cfb4267fc1474d |
 | mc2-kotamare-153 | 해저 동굴 | 海底洞窟 | place | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:d06f0b5a5a1f129206470eede236562027163c8a827bf6e76fa298b674674cd8 |
 | mc2-kotamare-154 | 벨포트 | 贝尔福特 | place | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:150058458be81f9870d0696e0a9e6ab132e6a73b4b438a61fb46a43fd248f454 |
+| mc2-rescue-155 | 루탄 | 鲁坦 | character | short-name | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:c60201898026e34218dcc6f594c2f07a0e81f83187a6505289da9a6d0724d7e7 |
+| mc2-rescue-156 | 니르티 | 尼尔提 | character | short-name | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:feccae6c5f7e2c7a78e36e8e45390a5600eb9f96624de438cde2a4384db2511a |
+| mc2-rescue-157 | 듀난 평원 | 杜南平原 | place | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:02795d3b6756bada8f83fc15d4c0040485032d4c3e9c738da55603884290bb92 |
+| mc2-rescue-158 | 침묵의 황야 | 寂静荒野 | place | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:81f7fd193bc52f54181c3d679f27fe080284bbbd9f92fb5eb272ea67ad2712a7 |
+| mc2-rescue-159 | 남부 관문 | 南部关卡 | place | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:240c4ff3b1a72cd506b5bfcb3b285bdf74a57f07ac1906db51840c105265bd80 |
+| mc2-rescue-160 | 마이티 랩퍼스 | 强壮拉普斯 | creature | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:e41508f6df60bb1f3068b8231ebf5ab0aceade233b2caaaba8dae3e2abb26d2b |
+| mc2-rescue-161 | 폭탄 상자 | 炸弹箱 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:e41508f6df60bb1f3068b8231ebf5ab0aceade233b2caaaba8dae3e2abb26d2b |
 
-本作词条：154；已继承：0。
+本作词条：161；已继承：0。
 
 固定来源、统计、冲突与审核流程见 [系列术语参考](docs/SERIES_TERMS.md)。

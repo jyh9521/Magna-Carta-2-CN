@@ -11,7 +11,7 @@
   },
   "terms": {
     "path": "locales/zh-Hans/terms.json",
-    "sha256": "d3624c8d344989e048fe1427ea7713317dc59660df91dc3e0f8eba6100e9f9d7"
+    "sha256": "a0054b142c8ba120eee129f48e58c2df176aedef7781aa559df69ca54d71ac36"
   },
   "batches": [
     {
@@ -103,11 +103,21 @@
         "path": "locales/zh-Hans/batch-009.review.json",
         "sha256": "8d8372dcd6f03a8503a261f6fde5c177745da1b4a3fd60fa73ae08a245052968"
       }
+    },
+    {
+      "plan": {
+        "path": "locales/zh-Hans/batch-010.json",
+        "sha256": "572eaa3bf302d39eb8781987e11402bd8c790f7ee212cf672e276dba90c9d191"
+      },
+      "review": {
+        "path": "locales/zh-Hans/batch-010.review.json",
+        "sha256": "7bc86e84043dd39a31f9e706d8e23e1d13f3bc009ee3378134d6f0407c13429d"
+      }
     }
   ],
   "notes": [
     "暂停合盘；按资源路径及完整容器hash共享译文，保留两盘来源。",
     "当前运行文本主线为INT；JPN/KOR独立保留，不凭后缀认定语言或自动对齐。",
-    "队列标签只是分流，不代表玩家可见性；本轮无字幕新增，原四份字幕计划继续有效。"
+    "Coalesced与Movies字幕分开锁定；字幕profile保留原四份49cue并新增第十批两份8cue。"
   ]
 }

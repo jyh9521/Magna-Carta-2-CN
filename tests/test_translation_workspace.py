@@ -181,7 +181,16 @@ class PublicWorkflowTests(unittest.TestCase):
         self.assertEqual((len(names),len(set(names))),(44,44))
         for ref in profile['plans']:
             self.assertEqual(w.digest((self.root/ref['path']).read_bytes()),ref['sha256'])
-        self.assertEqual(sum(len(self.load(p['path'])['entries']) for p in profile['plans']),49)
+        baseline=['locales/zh-Hans/display-subtitles/'+name+'.txt.json' for name in
+            ('csm00-10','csm00-12','csm00-20','csm_prologue')]
+        self.assertEqual([p['path'] for p in profile['plans'][:4]],baseline)
+        self.assertEqual(sum(len(self.load(p)['entries']) for p in baseline),49)
+        identities=[]
+        for ref in profile['plans']:
+            plan=self.load(ref['path'])
+            identities.extend((plan['resource'],plan['input_sha256'],e['start']) for e in plan['entries'])
+        self.assertGreaterEqual(len(identities),49)
+        self.assertEqual(len(identities),len(set(identities)))
 
 
 if __name__ == '__main__':

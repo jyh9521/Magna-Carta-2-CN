@@ -147,7 +147,10 @@
 | mc2-canyon-141 | 클레어 | 克蕾尔 | character | short-name | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:43532b67d0cc390c4e1ba39620f0b5194f3594bfea55a51bdf0d4cb06a858b24 |
 | mc2-canyon-142 | 휴아렌 | 修亚伦 | character | short-name | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:aa0e458195dac6d1968d92d4ccf2aeffbdba60978dc8746b977c18f7610a2b3b |
 | mc2-canyon-143 | 듀난 언덕 | 杜南丘陵 | place | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:b42ed4576f0e48c58c5e365561e0bd765d188ff29b3a1eeed065fdd702085c7f |
+| mc2-calamity-144 | 마그나카르타 | 玛格纳卡尔塔 | title | title | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:e710ef654e9df380c65a5b3298319e6455801b41239df79391b0441b349da871 |
+| mc2-calamity-145 | 루할트 내전 | 鲁哈尔特内战 | event | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:ecad05d727a8be418589b66ca0f4130ed10c72e37d6cca272e8e2fb60fa2be1d |
+| mc2-calamity-146 | 악몽의 마녀 | 梦魇魔女 | character | title | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:b0b7824c32f20fa0db58b4a61cb2e4056f64b03a0e92f0d96d33f9d36e74a56e |
 
-本作词条：143；已继承：0。
+本作词条：146；已继承：0。
 
 固定来源、统计、冲突与审核流程见 [系列术语参考](docs/SERIES_TERMS.md)。

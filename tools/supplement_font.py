@@ -49,6 +49,10 @@ def validate_plan(plan):
             not 128 <= plan['atlas_height'] <= 2048 or plan['atlas_height'] & (plan['atlas_height']-1)):
         raise FormatError('atlas_height must be a power of two within 128..2048')
     glyphs = plan.get("glyphs")
+    replacements=plan.get('replace_blank_codepoints',[])
+    if (not isinstance(replacements,list) or len(set(replacements))!=len(replacements)
+            or any(type(cp) is not int or not 1<=cp<=65535 for cp in replacements)):
+        raise FormatError('invalid blank glyph replacement list')
     limit = plan.get('glyph_limit', 128)
     if type(limit) is not int or not 1 <= limit <= 2048:
         raise FormatError('glyph_limit must be within 1..2048')
@@ -63,7 +67,7 @@ def validate_plan(plan):
             raise FormatError('invalid explicit metric height growth')
     seen = set()
     for glyph in glyphs:
-        if not isinstance(glyph, dict) or set(glyph) != {"character", "texture_index", "x", "y", "width", "height"}:
+        if not isinstance(glyph, dict) or set(glyph)-{'metric_width'} != {"character", "texture_index", "x", "y", "width", "height"}:
             raise FormatError("unsupported glyph plan fields")
         char = glyph["character"]
         if not isinstance(char, str) or len(char) != 1 or not 0 < ord(char) <= 65535 or unicodedata.category(char).startswith("C") or char.isspace():
@@ -73,12 +77,15 @@ def validate_plan(plan):
         seen.add(char)
         if any(type(glyph[k]) is not int for k in ("texture_index", "x", "y", "width", "height")):
             raise FormatError("glyph placement must use integer fields")
+        if 'metric_width' in glyph and (type(glyph['metric_width']) is not int or not 1<=glyph['metric_width']<=glyph['width']):
+            raise FormatError('invalid explicit glyph metric width')
         if not 0 <= glyph["texture_index"] <= 255 or min(glyph["x"], glyph["y"]) < 0 or any(glyph[k] % 4 for k in ("x", "y", "width", "height")) or not 4 <= glyph["width"] <= 128 or not 4 <= glyph["height"] <= 128:
             raise FormatError("glyph requires bounded block-aligned cell")
     if any(plan.get("metric_height", g["height"]) > g["height"] for g in glyphs):
         raise FormatError("metric_height exceeds cell height")
     if len({g["texture_index"] for g in glyphs}) != 1:
         raise FormatError("prototype supplements only one existing atlas at a time")
+    if set(replacements)-{ord(g['character']) for g in glyphs}:raise FormatError('replacement absent from planned glyphs')
     return glyphs
 
 
@@ -118,6 +125,12 @@ def rasterize_plan(font_file, expected_hash, plan):
             raise FormatError("glyph would clip at shared baseline")
         image = Image.new("L", (g["width"], g["height"]))
         ImageDraw.Draw(image).text((x, baseline), char, font=font, anchor="ls", fill=255)
+        if 'metric_width' in g:
+            ink=image.getbbox()
+            if ink is None or ink[2]-ink[0]>g['metric_width']:raise FormatError('ink exceeds explicit metric width')
+            fitted=Image.new('L',image.size)
+            fitted.paste(image.crop((ink[0],0,ink[2],g['height'])),(min(1,g['metric_width']-(ink[2]-ink[0])),0))
+            image=fitted
         alpha = image.tobytes()
         if not any(alpha):
             raise FormatError("glyph raster is empty")
@@ -166,7 +179,7 @@ def identity_remap_payload(data, names):
     return out
 
 
-def append_font_payload(data, names, additions, remap_conversion=None):
+def append_font_payload(data, names, additions, remap_conversion=None, replace_blank_codepoints=()):
     """Append tagged/native/remap records; retain every original stored record byte."""
     old = parse_font_payload(data, names)
     if remap_conversion is not None:
@@ -177,7 +190,9 @@ def append_font_payload(data, names, additions, remap_conversion=None):
     count, remap_count = len(old["characters"]), len(old["remap"])
     if count + len(additions) > 65536:
         raise FormatError("glyph index exceeds u16 remap range")
-    if any(a["codepoint"] in {r["codepoint"] for r in old["remap"]} for a in additions):
+    replacements=set(replace_blank_codepoints);old_cps={r['codepoint'] for r in old['remap']}
+    if replacements-old_cps:raise FormatError('replacement codepoint has no original mapping')
+    if any(a["codepoint"] in old_cps-replacements for a in additions):
         raise FormatError("supplement codepoint already mapped")
     if len({a["codepoint"] for a in additions}) != len(additions):
         raise FormatError("duplicate supplement codepoint")
@@ -191,14 +206,15 @@ def append_font_payload(data, names, additions, remap_conversion=None):
     old_native_end = old["native_offset"] + 4 + count * 17
     out += data[old["native_offset"] + 4:old_native_end]
     out += b"".join(struct.pack(">iiiiB", *(a[k] for k in METRIC_KEYS)) for a in additions)
-    out += data[old_native_end:old["remap_offset"]] + word(remap_count + len(additions))
+    out += data[old_native_end:old["remap_offset"]] + word(remap_count + len(additions)-len(replacements))
     pairs_end = old["remap_offset"] + 4 + remap_count * 4
-    out += data[old["remap_offset"] + 4:pairs_end]
-    out += b"".join(struct.pack(">HH", a["codepoint"], count + i) for i, a in enumerate(additions)) + data[pairs_end:]
+    new_indices={a['codepoint']:count+i for i,a in enumerate(additions)}
+    out += b''.join(struct.pack('>HH',r['codepoint'],new_indices[r['codepoint']] if r['codepoint'] in replacements else r['glyph_index']) for r in old['remap'])
+    out += b"".join(struct.pack(">HH", a["codepoint"], count + i) for i, a in enumerate(additions) if a['codepoint'] not in replacements) + data[pairs_end:]
     new = parse_font_payload(out, names)
     if [[g[k] for k in METRIC_KEYS] for g in new["characters"][:count]] != [[g[k] for k in METRIC_KEYS] for g in old["characters"]]:
         raise FormatError("original glyph metric preservation failed")
-    if [(r["codepoint"], r["glyph_index"]) for r in new["remap"][:remap_count]] != [(r["codepoint"], r["glyph_index"]) for r in old["remap"]]:
+    if [(r["codepoint"], r["glyph_index"]) for r in new["remap"][:remap_count] if r['codepoint'] not in replacements] != [(r["codepoint"], r["glyph_index"]) for r in old["remap"] if r['codepoint'] not in replacements]:
         raise FormatError("original remap preservation failed")
     return out
 
@@ -357,6 +373,11 @@ def supplement_package(data, expected_hash, font_object, plan, alphas, decoder, 
     export = candidates[0]
     old_font = logical[export["serial_offset"]:export["serial_offset"] + export["serial_size"]]
     font = parse_font_payload(old_font, tables["names"])
+    replacements=plan.get('replace_blank_codepoints',[])
+    if replacements:
+        from tools.font_ink import ink_records
+        records=ink_records(dict(logical=logical,tables=tables),font,replacements,decoder)
+        if any(r['status']!='transparent' for r in records):raise FormatError('replacement requires verified transparent original glyph')
     atlas_index = glyphs[0]["texture_index"]
     if atlas_index >= len(font["textures"]):
         raise FormatError("planned atlas index outside font Textures")
@@ -404,7 +425,9 @@ def supplement_package(data, expected_hash, font_object, plan, alphas, decoder, 
         for by in range(g["y"] // 4, (g["y"] + g["height"]) // 4):
             for bx in range(g["x"] // 4, (g["x"] + g["width"]) // 4):
                 allowed_blocks.add(xbox_tiled_block_offset(bx, by, mip["aligned_width"] // 4) * 16)
-        additions.append({"codepoint": cp, "StartU": g["x"], "StartV": g["y"], "USize": g["width"], "VSize": metric_height, "TextureIndex": atlas_index})
+        metric_width=g.get('metric_width',g['width'])
+        if any(any(alphas[cp][y*g['width']+metric_width:(y+1)*g['width']]) for y in range(g['height'])):raise FormatError('glyph alpha outside metric_width would clip')
+        additions.append({"codepoint": cp, "StartU": g["x"], "StartV": g["y"], "USize": metric_width, "VSize": metric_height, "TextureIndex": atlas_index})
     changed_blocks = {i for i in range(0, len(tiled), 16) if tiled[i:i + 16] != old_tiled[i:i + 16]}
     if not changed_blocks <= allowed_blocks:
         raise FormatError("texture blocks changed outside selected cells")
@@ -423,7 +446,7 @@ def supplement_package(data, expected_hash, font_object, plan, alphas, decoder, 
         raise FormatError("new glyph alpha quantization exceeds bound")
     if any(old_rgba[i * 4:i * 4 + 4] != new_rgba[i * 4:i * 4 + 4] for i in range(texture["width"] * texture["height"]) if i not in selected_pixels):
         raise FormatError("original atlas surface outside cells changed")
-    new_font = append_font_payload(old_font, tables["names"], additions,plan.get('remap_conversion'))
+    new_font = append_font_payload(old_font, tables["names"], additions,plan.get('remap_conversion'),replacements)
     new_font_parsed = parse_font_payload(new_font, tables["names"])
     tagged_size = next(p["size"] for p in font["properties"] if p["name"] == "Characters") - 4
     def original_record_hashes(payload, parsed):
@@ -431,7 +454,7 @@ def supplement_package(data, expected_hash, font_object, plan, alphas, decoder, 
         native_start, remap_start = parsed["native_offset"] + 4, parsed["remap_offset"] + 4
         return {"tagged": sha256(payload[tagged_start:tagged_start + tagged_size]),
                 "native": sha256(payload[native_start:native_start + len(font["characters"]) * 17]),
-                "remap": sha256(payload[remap_start:remap_start + len(font["remap"]) * 4])}
+                "remap": sha256(b''.join(payload[remap_start+i*4:remap_start+(i+1)*4] for i,r in enumerate(font['remap']) if r['codepoint'] not in replacements))}
     original_hashes = original_record_hashes(old_font, font)
     if original_hashes != original_record_hashes(new_font, new_font_parsed):
         raise FormatError("old tagged/native/remap record hash preservation failed")
@@ -481,7 +504,8 @@ def supplement_package(data, expected_hash, font_object, plan, alphas, decoder, 
                     "input_size": len(data), "output_size": len(output), "font_object": font_object,
                     "atlas_object": atlas_export["path"], "original_texture_bulk_flags": original_bulk_flags, "original_glyph_count": len(font["characters"]),
                     "supplemented_glyph_count": len(font["characters"]) + len(additions),
-                    "added_codepoints": [a["codepoint"] for a in additions], "original_glyphs_and_remap_preserved": True,
+                    "added_codepoints": [a["codepoint"] for a in additions], "original_glyphs_and_remap_preserved": not bool(replacements),
+                    "original_glyphs_and_unselected_remap_preserved": True, "replaced_blank_codepoints": replacements,
                     "original_record_sha256": original_hashes,
                     "original_max_glyph_height": old_max_height,
                     "supplemented_max_glyph_height": max(g["VSize"] for g in new_font_parsed["characters"]),

@@ -1,3 +1,10 @@
+## 用户确认旧包显示缺陷；新候选待画面验收（2026-10-19）
+
+**Verified failure / High：** 用户截图确认旧包问号消失、标点附近空隙，以及余宽充分时提前换行。
+**Fixed offline / runtime pending：** 新包修复透明字形映射，按实际 ink 调整新增字形宽度；66 条对白显式去除继承硬断行。
+启动提示及49条开场字幕已加入独立候选，真实字幕读取、自然换行及三类2048高字图兼容仍待用户实测。
+新入口 dist/MC2-display-repair-disc1/开始中文测试.cmd；完整验收清单见 DIALOGUE_DISPLAY_REPAIR.md。
+
 ## 新 NPC/教程/菜单包待验收（2026-10-19）
 
 **Open / Medium：** dist/MC2-opening-batch-disc1 是累计 231 条的独立候选，

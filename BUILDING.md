@@ -1,3 +1,9 @@
+## 显示修复与独立字幕资源（2026-10-19）
+
+`display-fonts/route.json` 在七个字体别名上实际检查 alpha，而不只检查 remap；
+同包生成四个带时间轴字幕 txt、262 条 Coalesced 回填和 TOC。新入口为 dist/MC2-display-repair-disc1。
+完整构建命令和旧包失败/新包通过的针对性检查见 docs/DIALOGUE_DISPLAY_REPAIR.md。
+
 ## NPC、教程与菜单累计测试包（2026-10-19）
 
 累计 231 条、三类字体七别名的新批次构建与原文对照入口见 [OPENING_BATCH_TEST](docs/OPENING_BATCH_TEST.md)。

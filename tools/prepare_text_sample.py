@@ -55,7 +55,7 @@ def allocate(font, texture, characters, template):
 
 
 def prepare(base_route, sample, game_root, project_root, font_file, output, decoder,
-            glyph_limit=128, metric_heights=None):
+            glyph_limit=128, metric_heights=None, repair_blank=False, fit_ink_widths=False, additional_plans=()):
     project_root, output = Path(project_root).resolve(), Path(output).resolve()
     game_root = Path(game_root).resolve()
     if type(glyph_limit) is not int or not 1 <= glyph_limit <= 2048:
@@ -75,6 +75,12 @@ def prepare(base_route, sample, game_root, project_root, font_file, output, deco
     changed_text = rebuild(text, text_plan)
     files = {}; refs = []; snapshots = [(Path(base_route), digest(route_bytes)), (Path(sample), digest(sample_bytes)),
                                         (Path(font_file), digest(Path(font_file).read_bytes()))]
+    extra_refs=[]
+    for path in additional_plans:
+        path=Path(path).resolve();raw=path.read_bytes();ep=parse_json_object(raw)
+        extra_refs.append(dict(path=path.relative_to(project_root).as_posix(),sha256=digest(raw)))
+        snapshots.append((path,digest(raw)))
+        wanted=sorted(set(wanted)|{cp for e in ep['entries'] for cp in literal_codepoints(e['translation'])})
     def ref(name, raw):
         files[name] = raw
         return dict(path=(output/name).relative_to(project_root).as_posix(), sha256=digest(raw))
@@ -96,10 +102,17 @@ def prepare(base_route, sample, game_root, project_root, font_file, output, deco
         font = parse_font_payload(logical[export['serial_offset']:export['serial_offset']+export['serial_size']], names)
         mapped = {r['codepoint'] for r in font['remap']} if font['is_remapped'] else set(range(256))
         missing = [chr(cp) for cp in wanted if cp not in mapped]
+        blank=[]
+        if repair_blank:
+            from tools.font_ink import ink_records
+            blank=[r['codepoint'] for r in ink_records(ctx,font,[cp for cp in wanted if cp in mapped],decoder) if r['status']=='transparent']
+            missing=sorted(set(missing)|{chr(cp) for cp in blank})
         if not 1 <= len(missing) <= glyph_limit:
             raise ValueError(f'sample must require 1..{glyph_limit} additional glyphs in each family')
         gp = copy.deepcopy(gp)
         gp.pop('atlas_height', None)
+        gp.pop('replace_blank_codepoints',None)
+        if blank:gp['replace_blank_codepoints']=blank
         if glyph_limit != 128:
             gp['glyph_limit'] = glyph_limit
         if i in metric_heights:
@@ -133,7 +146,11 @@ def prepare(base_route, sample, game_root, project_root, font_file, output, deco
                 raise ValueError('sample exceeds bounded atlas growth capacity')
         gp['glyphs'] = placements
         gp['purpose'] = 'Text-sample layout probe; game layout pending user acceptance'
-        alphas, _ = rasterize_plan(Path(font_file), fp['font_source_sha256'], gp)
+        alphas, rasters = rasterize_plan(Path(font_file), fp['font_source_sha256'], gp)
+        if fit_ink_widths:
+            for g,r in zip(gp['glyphs'],rasters):
+                box=r['raster_bbox'];g['metric_width']=min(g['width'],box[2]-box[0]+2)
+            alphas,_=rasterize_plan(Path(font_file),fp['font_source_sha256'],gp)
         changed, _ = supplement_package(raw, digest(raw), source['font_object'], gp, alphas, decoder, raw_atlas=True)
         new_graph = StyleGraph({label: context(changed, decoder)})
         fp = copy.deepcopy(fp)
@@ -141,6 +158,8 @@ def prepare(base_route, sample, game_root, project_root, font_file, output, deco
         fp['supplement'] = ref(f'glyphs-{i}.json', encoded(gp))
         refs.append(ref(f'font-{i}.json', encoded(fp)))
     route = copy.deepcopy(route); route['font_plans'] = refs
+    if extra_refs:route['additional_text_plans']=extra_refs
+    if repair_blank:route['verify_glyph_ink']=True
     if set(metric_heights) - set(range(len(refs))):
         raise ValueError('metric height family index outside route')
     route['text_plan'] = dict(path=Path(sample).resolve().relative_to(project_root).as_posix(), sha256=digest(sample_bytes))
@@ -165,6 +184,9 @@ def main(argv=None):
         p.add_argument('--'+name, type=Path, required=True)
     p.add_argument('--project-root', type=Path, default=Path('.'))
     p.add_argument('--glyph-limit', type=int, default=128)
+    p.add_argument('--repair-blank', action='store_true')
+    p.add_argument('--fit-ink-widths', action='store_true')
+    p.add_argument('--additional-plan', action='append',type=Path,default=[])
     p.add_argument('--metric-height', action='append', default=[], metavar='FAMILY_INDEX=HEIGHT',
                    help='Explicit opt-in to increased new-glyph metrics; old glyphs stay unchanged')
     a = p.parse_args(argv)
@@ -173,7 +195,7 @@ def main(argv=None):
         heights = {int(i): int(h) for i,h in pairs}
         if len(heights) != len(pairs):
             raise ValueError('duplicate metric height family')
-        print(json.dumps(prepare(a.base_route,a.sample,a.game_root,a.project_root,a.font_file,a.output,LzxDecoder(a.lzx_library),a.glyph_limit,heights), sort_keys=True))
+        print(json.dumps(prepare(a.base_route,a.sample,a.game_root,a.project_root,a.font_file,a.output,LzxDecoder(a.lzx_library),a.glyph_limit,heights,a.repair_blank,a.fit_ink_widths,a.additional_plan), sort_keys=True))
         return 0
     except (ValueError, OSError, KeyError, TypeError, ImportError) as e:
         print('ERROR: '+str(e)); return 2

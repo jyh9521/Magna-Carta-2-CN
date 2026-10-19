@@ -1,3 +1,10 @@
+## 映射存在不等于标点可见（2026-10-19）
+
+旧 EngineMedium_Subtitle 的 U+FF1F / U+2026 remap 目标 alpha 像素数均为 0；
+U+00B7 和 U+2014 亦有透明映射。新 font_ink.py 检查解码像素，显式空白字形重映射不改旧 glyph/非目标 remap。
+新 glyph metric_width 把可见采样宽度和 BC3 cell 分离，降低标点后的透明横向占位。
+两张截图的标点/换行不是字符串检查能排除的问题；证据、SAMI 字幕格式和候选入口见 docs/DIALOGUE_DISPLAY_REPAIR.md。
+
 ## 扩展收字与显式指标增长（2026-10-19）
 
 本批 673 个不同字面字符驱动三类字体补字。生成器保留默认 128 字上限，

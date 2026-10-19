@@ -9,11 +9,11 @@ import re
 
 try:
     from .coalesced import MAX_BYTES, extract_entries, parse, serialize
-    from .validate_catalog import TOKEN
+    from .validate_catalog import TOKEN, token_errors
     from .font_binding_plan import parse_json_object
 except ImportError:
     from coalesced import MAX_BYTES, extract_entries, parse, serialize
-    from validate_catalog import TOKEN
+    from validate_catalog import TOKEN, token_errors
     from font_binding_plan import parse_json_object
 
 
@@ -92,7 +92,9 @@ def resolve_changes(data, changes):
             target, metadata = resolve_prefix(source, edit, rows[identity])
             edits.append(dict(id=identity,source=source,translation=target,prefix_scope=metadata))
         else:
-            edits.append(dict(id=identity, source=source, translation=edit['translation']))
+            row=dict(id=identity, source=source, translation=edit['translation'])
+            if 'line_break_policy' in edit: row['line_break_policy']=edit['line_break_policy']
+            edits.append(row)
     resolved = dict(changes, entries=edits)
     resolved.pop('source_mode')
     return resolved
@@ -124,8 +126,8 @@ def rebuild(data, changes):
             raise ValueError("expected source mismatch")
         if any(c in target for c in "\r\n\0"):
             raise ValueError("physical newline/NUL in replacement; use verified literal tokens")
-        if TOKEN.findall(source) != TOKEN.findall(target):
-            raise ValueError("protected token content or order changed")
+        if token_errors(source,target,edit.get('line_break_policy')):
+            raise ValueError("protected token content or order changed; check explicit line break policy")
         by_document.setdefault(row["embedded_path"], []).append((row, target))
     rebuilt = []
     for document in files:

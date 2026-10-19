@@ -1,3 +1,11 @@
+## 显式透明字形修复、采样宽度和字幕格式（2026-10-19）
+
+补字可选 replace_blank_codepoints：必须有旧映射且源字图实际 alpha 为零；旧 remap 的指定 value 改指附加 glyph，不添加重复 key。
+可选逐 glyph metric_width 为 1..cell width，仅改变新增 glyph USize；越界 alpha 仍拒绝，旧 glyph 不变。
+Coalesced 可选逐行 line_break_policy={source_count,target_count}，只豁免数量锁定的字面换行，其他 token 仍逐项有序相等。
+开场 Movies/*.txt 实测为 UTF16LE BOM、header 1、CRLF 和成对 SYNC Start/P Class=KRCC，后半 cue 为清屏 nbsp。
+subtitle_text.py 保留全部时序/class/清屏/br；公开 timed-subtitle-text schema1 仅保存资源/hash/起止时间/源值hash/译文。详见 DIALOGUE_DISPLAY_REPAIR.md。
+
 ## 较大字集和显式指标增长选项（2026-10-19）
 
 补字 schema1 可选 glyph_limit（整数 1..2048，默认 128）；可选

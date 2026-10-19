@@ -29,6 +29,7 @@ def export_catalog(data, plan):
     for edit in resolved['entries']:
         row = dict(rows[edit['id']], translation=edit['translation'], status='draft')
         row['source_sha256'] = sha256(row['source'].encode('utf8'))
+        if 'line_break_policy' in edit:row['line_break_policy']=edit['line_break_policy']
         selected.append(row)
     if not selected:
         raise ValueError('selected catalog must not be empty')
@@ -57,7 +58,9 @@ def import_plan(data, catalog, style_rules=None):
             raise ValueError('catalog ID, selector or source mismatch')
         if not entry['translation'].strip():
             raise ValueError('unexpected empty translation')
-        edits.append(dict(id=entry['id'], source_sha256=entry['source_sha256'], translation=entry['translation']))
+        edit=dict(id=entry['id'], source_sha256=entry['source_sha256'], translation=entry['translation'])
+        if 'line_break_policy' in entry:edit['line_break_policy']=entry['line_break_policy']
+        edits.append(edit)
     plan = dict(schema_version=1, resource=resource, input_sha256=sha256(data),
                 source_mode='sha256-utf8', entries=edits)
     rebuild(data, plan)  # exact protected-token sequence, encoding, every unedited value

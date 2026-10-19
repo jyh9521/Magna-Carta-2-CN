@@ -41,6 +41,8 @@ def prepare(plan,game_root,project_root,font_file,decoder=None):
     if not isinstance(groups,list) or not 1<=len(groups)<=8:raise FormatError('font route family count outside bound')
     raw_mode=plan.get('raw_packages',False)
     if type(raw_mode) is not bool:raise FormatError('raw_packages must be an explicit boolean')
+    if type(plan.get('verify_glyph_ink',False)) is not bool:raise FormatError('verify_glyph_ink must be boolean')
+    if not isinstance(plan.get('additional_text_plans',[]),list) or len(plan.get('additional_text_plans',[]))>16:raise FormatError('additional text plan count outside bound')
     originals={};current={};raw_controls={};inputs=[];plans=[];reports=[];seen_fonts=set();identities=set();toc_spec=None
     def locked(spec):
         obj,path,raw=read_locked_json(project_root,spec);inputs.append((path,digest(raw)));return obj
@@ -77,7 +79,15 @@ def prepare(plan,game_root,project_root,font_file,decoder=None):
             if before['semantic_sha256']!=fp['expected_semantic_sha256']:raise FormatError('font route original semantic mismatch')
             changed,report=supplement_package(current[path],digest(current[path]),source['font_object'],gp,alphas,decoder,raw_atlas=raw_mode)
             current[path]=changed;reports.append(dict(family=fp['canonical_font_path'],resource=path,report=report))
-    final=[];coverage_fonts=[]
+    extra_texts=[]
+    for ref in plan.get('additional_text_plans',[]):
+        ep=locked(ref);path=_relative(ep['resource'])
+        if path in originals or path in {resource,toc_spec['path']}:raise FormatError('duplicate additional resource role')
+        original,physical=_read(game_root,path,ep['input_sha256']);inputs.append((physical,digest(original)))
+        from tools.subtitle_text import rebuild as rebuild_subtitle
+        originals[path]=original;current[path]=rebuild_subtitle(original,ep);raw_controls[path]=original
+        extra_texts.extend(e['translation'] for e in ep['entries'])
+    final=[];coverage_fonts=[];ink_reports=[]
     for fp,gp,sources in plans:
         for source in sources:
             label=source['label'].casefold();raw=current[source['path']];g=StyleGraph({label:context(raw,decoder)})
@@ -85,6 +95,17 @@ def prepare(plan,game_root,project_root,font_file,decoder=None):
             if result['semantic_sha256']!=fp['expected_supplement_semantic_sha256']:raise FormatError('font route final semantic mismatch')
             final.append(dict(family=fp['canonical_font_path'],resource=source['path'],fingerprint=result))
             coverage_fonts.append(dict(label='route'+str(len(coverage_fonts)),data=raw,sha256=digest(raw),font_object=source['font_object']))
+            if plan.get('verify_glyph_ink'):
+                from tools.font_ink import ink_records
+                from tools.audit_text_font_coverage import literal_codepoints
+                from tools.ue3_fonts import parse_font_payload
+                ctx=g.packages[label];ex=g.export(*select_font(g,source,fp))
+                font=parse_font_payload(ctx['logical'][ex['serial_offset']:ex['serial_offset']+ex['serial_size']],ctx['tables']['names'])
+                texts=[e['translation'] for e in tp['entries']]+extra_texts
+                cps={cp for t in texts for cp in literal_codepoints(t)}
+                records=ink_records(ctx,font,cps,decoder)
+                if any(r['status']!='ink' for r in records):raise FormatError('mapped glyph has no ink or is missing')
+                ink_reports.append(dict(family=fp['canonical_font_path'],resource=source['path'],codepoints=records))
     coverage=audit(text,tp,coverage_fonts,decoder)
     if not coverage['all_supplied_fonts_cover_literals']:raise FormatError('font route full probe text lacks coverage')
     changed_text=rebuild(text,tp)
@@ -104,6 +125,7 @@ def prepare(plan,game_root,project_root,font_file,decoder=None):
         for kind,raw in [('controls',originals[path]),('candidate',current[path]),('rollback-check',originals[path])]:files[kind+'/'+path]=raw
         rows.append(dict(path=path,original_sha256=digest(originals[path]),candidate_sha256=digest(current[path]),original_size=len(originals[path]),candidate_size=len(current[path])))
     files['reports/fonts.json']=encoded(final);files['reports/coverage.json']=encoded(coverage);files['reports/operations.json']=encoded(reports)
+    if plan.get('verify_glyph_ink'):files['reports/ink.json']=encoded(ink_reports)
     manifest=dict(schema_version=1,kind=plan['kind'],plan_canonical_sha256=digest(encoded(plan)),font_family_count=len(plans),font_object_count=len(final),
         resources=rows,toc_changes=changes,member_sha256={p:digest(raw) for p,raw in files.items()},
         rollback_method='hash-guarded-retained-original-backup',game_rendering_verified=False,deployment_performed=False)

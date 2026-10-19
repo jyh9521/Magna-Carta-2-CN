@@ -104,6 +104,9 @@ def audit(original, changes, fonts, decoder=None):
     reverse = dict(schema_version=1, resource=changes['resource'], input_sha256=digest(rebuilt),
                    entries=[dict(id=e['id'],source=e['translation'],translation=e['source'])
                             for e in changes['entries']])
+    for before,after in zip(changes['entries'],reverse['entries']):
+        if 'line_break_policy' in before:
+            p=before['line_break_policy'];after['line_break_policy']=dict(source_count=p['target_count'],target_count=p['source_count'])
     if rebuild(rebuilt,reverse) != original:
         raise FormatError('inverse text rebuild did not reproduce original bytes')
     entries, codepoints = [], set()
@@ -137,7 +140,8 @@ def audit(original, changes, fonts, decoder=None):
     return dict(schema_version=1, resource=changes['resource'], input_sha256=digest(original),
                 rebuilt_sha256=digest(rebuilt), input_size=len(original), rebuilt_size=len(rebuilt),
                 changes_canonical_sha256=input_plan_sha256, source_verification_mode=source_mode,
-                source_identity_and_reextraction_verified=True, protected_token_sequences_preserved=True,
+                source_identity_and_reextraction_verified=True, protected_token_sequences_preserved=not any('line_break_policy' in e for e in changes['entries']),
+                non_layout_protected_tokens_preserved=True,
                 inverse_rebuild_byte_identical=True,
                 entries=entries, literal_codepoints=codepoints, fonts=rows,
                 all_supplied_fonts_cover_literals=all(r['covers_requested_literals'] for r in rows),

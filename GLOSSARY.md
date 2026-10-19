@@ -391,7 +391,10 @@
 | mc2-skill-sidequests-385 | 노바 슬래시 | 新星斩 | skill | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:a7e9a3115c24b0dd63eaa1e93b75e28dd24863029da81984189d90da4a7d92a2 |
 | mc2-skill-sidequests-386 | 노바슬래시 | 新星斩 | skill | alias | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:c2464562b6128b16bbb11628d8cf392beeb3fbbb4f1b0f6c617620a1248f9b6e |
 | mc2-skill-sidequests-387 | 초빙결뇌진폭 | 超冰结雷震爆 | skill | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:18453a142cfd6abb3002041bfd0f0e2ba143e00d4aec1a23957b16b463af0a5e |
+| mc2-final-confrontation-388 | 아비스베르크 전쟁 | 阿维斯贝尔克战争 | event | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:fc49b30e217c34b319cb01d3dacc7599230fd82effe0ae17808e2b079f4a3ac1 |
+| mc2-final-confrontation-389 | 복제 | 复制 | concept | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:f4a0f4f2d320c3afe6737ba9c9dadb721c6b15dcdbf24fb0011bc6489206b58e |
+| mc2-final-confrontation-390 | 칸의 순환 | KAN循环 | concept | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:a2c7d466142db59eb5a7d69763a640928aadf10213d0f3ee89c9dd0d81f7fa23 |
 
-本作词条：387；已继承：0。
+本作词条：390；已继承：0。
 
 固定来源、统计、冲突与审核流程见 [系列术语参考](docs/SERIES_TERMS.md)。

@@ -11,7 +11,7 @@
   },
   "terms": {
     "path": "locales/zh-Hans/terms.json",
-    "sha256": "ef39187db55521142f63a8dc7da57f7f088aa5ccd6386bbcd314605188a5a8ef"
+    "sha256": "f8ba51d34d36c9fb2069663d4ea6a89fcb825a8a8b37a2434e0ce4d353eed2da"
   },
   "batches": [
     {
@@ -723,11 +723,21 @@
         "path": "locales/zh-Hans/batch-071.review.json",
         "sha256": "9bc69568643f77de6ef66932af915f0d65109d72049d5411615a3f40c8ec132e"
       }
+    },
+    {
+      "plan": {
+        "path": "locales/zh-Hans/batch-072.json",
+        "sha256": "5c3d4eb5e6c40b8a9b2de3f66bb03de8138daa89e825dff5006163b87fcafe55"
+      },
+      "review": {
+        "path": "locales/zh-Hans/batch-072.review.json",
+        "sha256": "a25ec70f29929f1360b64bae946afb75a97af50c3069f6fd9ee7a1ff24367254"
+      }
     }
   ],
   "notes": [
     "暂停合盘；按资源路径及完整容器hash共享译文，保留两盘来源。",
     "当前运行文本主线为INT；JPN/KOR独立保留，不凭后缀认定语言或自动对齐。",
-    "Coalesced与Movies字幕独立锁定；字幕profile三十八份271cue，第六十六批补csm12-80送行一cue，仍为draft。"
+    "Coalesced与Movies字幕独立锁定；字幕profile四十四计划315/315已提取cue均draft，非游戏内验收或全文完成。"
   ]
 }

@@ -172,7 +172,11 @@
 | mc2-defense-166 | 네코네코의 방울 | 猫猫的铃铛 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:c2c4d2180a1fb7a058c8d1d4fdb0263922edf34748e6cbcb79e86a73e02a96b1 |
 | mc2-defense-167 | 검은 네코네코의 열쇠 | 黑猫猫的钥匙 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:c6eefa7ea5002d940210a7409487e5f124b0c6db8d4ab312588de52a88a56c19 |
 | mc2-defense-168 | 네코족 특제 폭탄 | 猫猫族特制的炸弹 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:ae70a26ab016835eb05cfeed1898772fd18c13e9b1ff1c746a9ff61f45224b83 |
+| mc2-alliance-169 | 바이젠 | 拜泽恩 | character | short-name | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:c6df01c209ef1160e94bd98127724927e75e50adaa14a0879310cacb8a50f4ce |
+| mc2-alliance-170 | 은백의 바이젠 | 银白的拜泽恩 | character | title | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:c7ff4683e79e65916cc81f09fe9edebeef8edf8bc3b79988e9fee474f52c7c3e |
+| mc2-alliance-171 | 향수병 | 香水瓶 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:5d041bb3303b854e3118eee7d0b6b7f12a087ac6288cd479d651645cc99d12f0 |
+| mc2-alliance-172 | 바이젠의 유품 | 拜泽恩的遗物 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:90f849f05f777fefdf2082fbd9b0e4bb2b411c30c2e6f8e0815da5da5269b7ef |
 
-本作词条：168；已继承：0。
+本作词条：172；已继承：0。
 
 固定来源、统计、冲突与审核流程见 [系列术语参考](docs/SERIES_TERMS.md)。

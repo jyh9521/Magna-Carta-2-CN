@@ -1,3 +1,8 @@
+## 任务空白字段不是应补写的奖励（2026-10-19）
+
+Verified / source：MC2Quest/Ch02_296_00/pay原值为空白；保留源hash与完整空白，不填0、SID或猜测奖励。
+batch-015.review.json记录held ID/hash，不把原文照抄或空白占位计入已译。字段语义尚未另外验证。
+
 ## 第三章对白的另一处未知反斜线（2026-10-19）
 
 Verified / source：INT MC2CSMB/CSMB03_20/voc_csmb_0320_50除正常硬换行外，还包含未知反斜线序列。

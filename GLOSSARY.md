@@ -334,7 +334,17 @@
 | mc2-history-328 | 쉐도우 | 暗影 | term | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:a24d13f9c6dd603a3c2136093076a3d82e73c3cb7a3cbbdf03187e2e0bd060b1 |
 | mc2-history-329 | 마레의 인장 | 马雷族印章 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:c54891a5d6cf85a45ef5bf2f5c2294369b5e54f7c2f5a67e35038a3b125033dd |
 | mc2-history-330 | 스트라스의 비석 | 斯特拉斯石碑 | location | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:ff7a62e706fe291ca3d0fbe64723ce4ab73ba84d57fc1b4ca86e645dcf832749 |
+| mc2-materials-331 | 특수합금 | 特种合金 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:ece802663383cf3e8220b0ec63623b6e81c3d8916486381964d9c2fa0c60ec32 |
+| mc2-materials-332 | 메레 | 梅雷 | creature | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:854bfa5ecf7f8fe785af80f8cd4d226f3529d6edadad9f9542a85732b88236ce |
+| mc2-materials-333 | 메레의 꽃가루 | 梅雷花粉 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:854bfa5ecf7f8fe785af80f8cd4d226f3529d6edadad9f9542a85732b88236ce |
+| mc2-materials-334 | 검은 진주 | 黑珍珠 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:854bfa5ecf7f8fe785af80f8cd4d226f3529d6edadad9f9542a85732b88236ce |
+| mc2-materials-335 | 블레보러 | 布莱博拉 | creature | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:eb87d25cfa0f076eb460b927082af53eb9ae5263d0d03879a558d54d6ea97794 |
+| mc2-materials-336 | 아이보러 | 艾博拉 | creature | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:eb87d25cfa0f076eb460b927082af53eb9ae5263d0d03879a558d54d6ea97794 |
+| mc2-materials-337 | 영겁의 카몬드 | 永劫卡蒙德 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:7f971eefe614f10505870d5379cf87802cf927a8975242640514d0dbf8d2ccd9 |
+| mc2-materials-338 | 전송장치 | 传送装置 | device | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:7fdf2f8288a4f30b2fea9fcb8f52f7d80315485a513b20815c2b694fae9dd30a |
+| mc2-materials-339 | 거대한 카몬드 | 巨型卡蒙德 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:a2ed2341183c61db3beb828172a471678ae9e93493922acdb1efca41beda88a0 |
+| mc2-materials-340 | 코어 | 核心 | device | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:ece802663383cf3e8220b0ec63623b6e81c3d8916486381964d9c2fa0c60ec32 |
 
-本作词条：330；已继承：0。
+本作词条：340；已继承：0。
 
 固定来源、统计、冲突与审核流程见 [系列术语参考](docs/SERIES_TERMS.md)。

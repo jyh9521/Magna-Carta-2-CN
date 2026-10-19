@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "primary_resource": "MC2Game/Localization/Coalesced.int",
+  "extraction_profile": {
+    "path": "locales/zh-Hans/extraction-profile.json",
+    "sha256": "d527769c4ce6c16e0e0e1df453f89f98d7a27c4216bd0088a6ebdc9346254ec8"
+  },
+  "style_rules": {
+    "path": "locales/zh-Hans/style-rules.json",
+    "sha256": "9111af1973d265a499a8b464b3655d2ef2d10b0a6ed7f22b12652c91e22c04f9"
+  },
+  "terms": {
+    "path": "locales/zh-Hans/terms.json",
+    "sha256": "8b8301dfe20adea848902061308a353c2675488548a92b3b368613b2c749d6fd"
+  },
+  "batches": [
+    {
+      "plan": {
+        "path": "locales/zh-Hans/readability-fix.json",
+        "sha256": "52f7b01cbc119fabf1e04f6e454506fa1093bb5aebb80f92370b9ea85c17e0b5"
+      },
+      "review": {
+        "path": "locales/zh-Hans/readability-fix.review.json",
+        "sha256": "edf2574f5823352d7c711ebab823d8e63325cbd14a534099a843ee3ff5ce3f4c"
+      }
+    },
+    {
+      "plan": {
+        "path": "locales/zh-Hans/batch-002.json",
+        "sha256": "bf23614dce593698f23f8492571144d08f47c6d80f2375ae006aa54973044806"
+      },
+      "review": {
+        "path": "locales/zh-Hans/batch-002.review.json",
+        "sha256": "e8d135450c247fb337403d3d7499c9feeadd299041d9f719fb8221ec7acbc831"
+      }
+    }
+  ],
+  "notes": [
+    "暂停合盘；按资源路径及完整容器hash共享译文，保留两盘来源。",
+    "当前运行文本主线为INT；JPN/KOR独立保留，不凭后缀认定语言或自动对齐。",
+    "队列标签只是分流，不代表玩家可见性；本轮无字幕新增，原四份字幕计划继续有效。"
+  ]
+}

@@ -1,3 +1,12 @@
+## 最新：共享译库已建立，合盘暂缓（2026-10-19）
+
+用户选择共享翻译工程而非先合盘；最新流程见 [SHARED_TRANSLATION_WORKFLOW](SHARED_TRANSLATION_WORKFLOW.md)。
+本地80份Coalesced目录已重新从八份锁定原容器验证并导出，跨盘只维护35,901条候选。
+316条累计draft显式包含原readability-fix的262条及batch-002新增54条；45项术语仍是candidate。
+两盘全部44份Movies字幕另行从完整hash验证的ISO提取，共315个cue，其中49条已有draft。
+该统计不包含未调查的xxx内嵌、硬编码和图片文字，不宣称全游戏提取已完成。
+旧样本与历史计划保留作证据，日常工作仅使用workflow显式列出的批次，避免重复翻译/覆盖。
+
 ## 后续累计批次已准备（2026-10-19）
 
 本页首批“下一批 NPC/教程/菜单”已落实为 opening-batch 的 231 条累计源锁定计划。

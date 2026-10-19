@@ -79,7 +79,12 @@ class OpeningBatchTests(unittest.TestCase):
         self.assertFalse(validate_terms(terms))
         self.assertGreaterEqual(len(terms['terms']),20)
         self.assertTrue(all(t['review_status']=='candidate' for t in terms['terms']))
-        index={e['id']:e['translation'] for e in load('locales/zh-Hans/opening-batch.json')['entries']}
+        # Terms grow beyond the historical opening sample. Check the explicitly
+        # selected current batches rather than requiring all future terms to
+        # belong to that frozen sample.
+        workflow=load('locales/zh-Hans/translation-workflow.json')
+        index={e['id']:e['translation'] for batch in workflow['batches']
+               for e in load(batch['plan']['path'])['entries']}
         for term in terms['terms']:
             self.assertIn(term['target'],index[term['source_string_id']])
 

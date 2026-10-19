@@ -33,6 +33,10 @@ def export_sources(root, profile, output):
     if output.exists():
         raise ValueError('output must be new')
     prepared, sources, grouped = [], [], {}
+    resources_by_hash = {}
+    for source in profile['sources']:
+        if source.get('role') == 'translation':
+            resources_by_hash.setdefault(source['sha256'], set()).add(source['resource'])
     for source in profile['sources']:
         path = root / source['path']
         if not path.resolve().is_relative_to(root.resolve()):
@@ -66,7 +70,12 @@ def export_sources(root, profile, output):
             by_document.setdefault(row['embedded_path'], []).append(row)
         for embedded, entries in sorted(by_document.items()):
             filename = digest(embedded.encode('utf8'))[:16] + '.json'
-            relative = source['sha256'] + '/' + filename
+            # Identical bytes can occur at different logical resource paths.
+            # They must not collide on disk or merge source IDs/contexts.
+            namespace = source['sha256']
+            if len(resources_by_hash[source['sha256']]) > 1:
+                namespace += '-' + digest(source['resource'].encode('utf8'))[:16]
+            relative = namespace + '/' + filename
             group['catalogs'].append(dict(path=relative, embedded_path=embedded, entries=len(entries),
                                           domain_hint=entries[0]['domain_hint']))
             prepared.append((relative, dict(schema_version=1, kind='selected-coalesced-catalog',

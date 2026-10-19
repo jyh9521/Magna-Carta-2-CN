@@ -1,3 +1,17 @@
+## 共享译库与字幕catalog（2026-10-19）
+
+`translation-workflow.json` schema_version1显式锁定提取profile、样式规则、术语及各batch
+plan/review的路径和SHA256；同resource+容器hash共享，保留discs，不做同词面合并。
+work catalog在现有selected-coalesced-catalog记录上增加work_queue；只叠加显式draft，
+review分类ID集必须与plan完全相同；重复batch ID拒绝，不采用后写覆盖。
+
+`subtitle-profile.json` schema_version1记录两盘path/size/sha256、完整Movies/*.txt成员及
+已有timed-subtitle-text计划依赖锁。导出`timed-subtitle-catalog` schema_version1，
+记录resource/input_sha256/discs与entries；每条有start/end/cue_class、原文/source_sha256、
+translation/status/reviewer/text_kind。ID为`subtitle:`加JSON序列[resource,start,end]的SHA256。
+时间、class、清屏及br不作为可翻译正文；源全文只在忽略的build输出。
+详见 [SHARED_TRANSLATION_WORKFLOW](SHARED_TRANSLATION_WORKFLOW.md)。
+
 ## 字距与非剧情标点修订（2026-10-19）
 
 最新规则、字体参数、重建/刷新流程和测试清单见 [TEXT_READABILITY](TEXT_READABILITY.md)。宽字符最小 advance 为字号+5，字形左右最小留白2/3；所有非剧情无内部标点单句均不加句末句号。已离线验证，游戏画面待用户验收；同一测试入口刷新，保留原文对照、runs、存档和配置。

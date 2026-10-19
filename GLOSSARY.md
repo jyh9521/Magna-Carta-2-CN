@@ -27,7 +27,29 @@
 | mc2-combat-021 | 칸 | KAN | combat | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:e29a8a806138e10a3c99af13cdd1ca8bcaf841d9ec98c6b8b218625b5a09bdd3 |
 | mc2-place-022 | 필러 | 晶柱 | place | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:66c4a9b0540c7d42ea1de3cc4ea5f456fb3f3d21591773af004eb8c7d72e8845 |
 | mc2-item-023 | 카몬드 | 卡蒙德 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:217cede641944e237d7ff0a3102722a2395fe3e3c47c81644ba8887f8d11df1e |
+| mc2-system-024 | 도끼 | 斧 | weapon-type | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:8eee7ca9caeb89ae2d25aef287d70685b3f62548bcab65b0c3003cba416c6d51 |
+| mc2-system-025 | 망치 | 锤 | weapon-type | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:9fd0c5e59e3e30957442c28f708de028eeb7f3836a14556ec7edbe54547b1cb5 |
+| mc2-system-026 | 부채 | 扇 | weapon-type | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:8b9d1c48baac8eb941c8e1fcbb8f90151c4d6d8ad440de0369d362d80bc706ab |
+| mc2-system-027 | 로드 | 法杖 | weapon-type | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:c91d1343fba224e2dd00b6b88b53006942f72c3be2bb9ae6923c3a34486c2433 |
+| mc2-system-028 | 화염구 | 火球 | weapon-type | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:0ead576d14aad8495e772e678bf7cf9164d3ffbfdf03a7ca68824b9df337520f |
+| mc2-system-029 | 너클 | 拳套 | weapon-type | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:d95e719813f873cb4079eccbf072eabfdab322306747da25dc44a5600a15ffb7 |
+| mc2-system-030 | 아로마 | 香器 | weapon-type | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:661aa7b0313ebd385f082a6eebf4ffba3ba041af4d86a424675c3826a6fe4caa |
+| mc2-system-031 | 활 | 弓 | weapon-type | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:150a9568f0b7da37790c7664c2fee179fbdd491be336fd6b3886a41716355d86 |
+| mc2-system-032 | 총 | 枪 | weapon-type | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:e30f893411ec916841f06aa6d8cd9a2c4cbd2b9c7b5a7295e2766f3ea9765f3d |
+| mc2-system-033 | 피뢰침 | 避雷针 | weapon-type | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:1b26d1522a436b98bdf250cb4bbe4f35e255f6fa0aa5f0b8a4df5123b66d940f |
+| mc2-system-034 | 카타나 | 太刀 | weapon-type | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:ca3c9056778336ea476b2b8416a87d3ffb93dc2e73c722da87cc1a5edd078ade |
+| mc2-system-035 | 수리검 | 手里剑 | weapon-type | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:61baaf510986343e368de5e68772c06b300ee186400773deb2149229481fd2ce |
+| mc2-system-036 | 최대HP | 最大HP | stat | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:a835d4ff08661291c909f30de6ff1ecef32f4c4fefef0d1e2cb4eddd985f709b |
+| mc2-system-037 | 회복량 | 恢复量 | stat | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:84452e40d5790fb5359c45ae847cb76898cf6a7cb16c9980090906c7dc14a98a |
+| mc2-system-038 | 공격력 | 攻击力 | stat | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:a0e0bb4db7b4fcec9b0b0cd97ccf7f33854612d8f7f49da804cd4a6446577526 |
+| mc2-system-039 | 방어력 | 防御力 | stat | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:a33ec3e5fe1be2dca19e0aa6a5c18b07647b78d633493952b2ea0aef49260e77 |
+| mc2-system-040 | 연환공격력 | 连环攻击力 | stat | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:666ed66dcc5a3dcb953ee336c02b96622bc9955898afb37e4a5b6f1708138d75 |
+| mc2-system-041 | 연환방어력 | 连环防御力 | stat | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:673a4e4ec9407798bcda9de0e93a213e6fa62374911f219f742bfcd22845daa0 |
+| mc2-system-042 | 민첩 | 敏捷 | stat | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:9487a5b4b87315e875f6d82cd7a6206db01b1ebf6dc9a5a9b3c427bd4e438629 |
+| mc2-system-043 | 최대스태미너 | 最大耐力 | stat | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:85b6fc427f49f39c68b26742cf8e73c4089c7b676ffa08f5ae4af0c1b7f5efcf |
+| mc2-system-044 | 스태미너회복 | 耐力恢复 | stat | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:475e1915bd0340266fe05bfa3b1e596faf352ea758b72f207aa71dabcc6a8788 |
+| mc2-system-045 | 강화 가능횟수 | 可强化次数 | stat | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:9151807ded59df57269c3976e7c3c38e4f3a426a0ccd3142b9f0fba4b5d36efe |
 
-本作词条：23；已继承：0。
+本作词条：45；已继承：0。
 
 固定来源、统计、冲突与审核流程见 [系列术语参考](docs/SERIES_TERMS.md)。

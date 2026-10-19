@@ -235,7 +235,10 @@
 | mc2-rest-stop-229 | 일기장 | 日记 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:46915d1006b470135521ee0cbd1b8583d244929ff53a87fc68c3c2546717b439 |
 | mc2-rest-stop-230 | 낡은 일기장 | 破旧的日记 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:71f6fe7b592c71a4f2028f321a706ec344a201bf97a7efe27a392f53a8ca4715 |
 | mc2-rest-stop-231 | 작은 주머니 | 小袋子 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:46915d1006b470135521ee0cbd1b8583d244929ff53a87fc68c3c2546717b439 |
+| mc2-dunan-support-232 | 매드맥 | 麦德麦克 | character | short-name | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:43e5156cd4a005ed2504155163a89b0e5e1b1642b2b28bfe42e2a8d24fa2dd17 |
+| mc2-dunan-support-233 | 듀난 도적 | 杜南盗贼 | faction | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:4dd4188a98a43c80fb7551163550cfcaf0da1e004de796caa43a7b15b6d1f3ad |
+| mc2-dunan-support-234 | 듀난 도적의 아지트 | 杜南盗贼窝点 | place | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:f9547fb3b4b7451811aff92f7b94da7b515baf63b554ed15808f393b7495b623 |
 
-本作词条：231；已继承：0。
+本作词条：234；已继承：0。
 
 固定来源、统计、冲突与审核流程见 [系列术语参考](docs/SERIES_TERMS.md)。

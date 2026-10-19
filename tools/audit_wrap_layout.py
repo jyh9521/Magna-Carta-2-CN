@@ -24,7 +24,15 @@ except ImportError:
     from verify_resource_phase import inspect,confined,stable
 
 
-def audit(image,plan,sample,packet,manifest_sha,fonts):
+def sample_paragraph(sample,entry_id=None):
+    selected=sample['entries'][0] if entry_id is None else next((e for e in sample['entries'] if e['id']==entry_id),None)
+    if selected is None:raise ValueError('layout audit entry ID absent from sample')
+    text=selected['translation'].split('\\n')[-1]
+    if not text or any(c.isspace() for c in text):raise ValueError('audit requires an unspaced final paragraph')
+    return selected['id'],text
+
+
+def audit(image,plan,sample,packet,manifest_sha,fonts,entry_id=None):
     packet=Path(packet).resolve()
     if digest(image)==plan['image_sha256']:variant='baseline'
     else:
@@ -34,8 +42,7 @@ def audit(image,plan,sample,packet,manifest_sha,fonts):
     original=confined(packet/'controls',sample['resource']).read_bytes()
     candidate=confined(packet/'candidate',sample['resource']).read_bytes()
     if rebuild(original,sample)!=candidate:raise ValueError('candidate sample text differs from exact plan')
-    text=sample['entries'][0]['translation'].split('\\n')[-1]
-    if any(c.isspace() for c in text):raise ValueError('audit requires an unspaced final paragraph')
+    selected_id,text=sample_paragraph(sample,entry_id)
     profile=plan['replay'];cases=[]
     for spec in fonts:
         path,obj=spec.split('::',1);ctx=context(confined(packet/'candidate',path).read_bytes(),None)
@@ -65,7 +72,7 @@ def audit(image,plan,sample,packet,manifest_sha,fonts):
     return dict(variant=variant,cases=len(cases),failed_cases=sum(not c['passed'] for c in cases),
         no_wrap_cases=sum(len(c['lines'])==1 for c in cases),
         no_wrap_failures=sum(len(c['lines'])==1 and not c['passed'] for c in cases),
-        text_resource_sha256=digest(candidate),manual_newlines_added=0,game_started=False,
+        text_resource_sha256=digest(candidate),entry_id=selected_id,manual_newlines_added=0,game_started=False,
         assumptions='glyph USize advance; zero additional runtime bias/kerning; controlled box widths and scale; final paragraph only',
         rows=cases)
 
@@ -73,11 +80,13 @@ def audit(image,plan,sample,packet,manifest_sha,fonts):
 def main(argv=None):
     p=argparse.ArgumentParser(description=__doc__)
     for name in ('image','plan','sample','packet-root','output'):p.add_argument('--'+name,type=Path,required=True)
-    p.add_argument('--manifest-sha256',required=True);p.add_argument('--font',action='append',required=True);a=p.parse_args(argv)
+    p.add_argument('--manifest-sha256',required=True);p.add_argument('--font',action='append',required=True)
+    p.add_argument('--entry-id',help='Audit the final original-break-delimited paragraph of this sample entry')
+    a=p.parse_args(argv)
     try:
         roots=[a.image.resolve(),a.plan.resolve(),a.sample.resolve(),a.packet_root.resolve()]
         if a.output.exists() or any(a.output.resolve().is_relative_to(r) for r in roots):raise ValueError('audit output must be new and outside inputs')
-        r=audit(a.image.read_bytes(),json.loads(a.plan.read_bytes()),json.loads(a.sample.read_bytes()),a.packet_root,a.manifest_sha256,a.font)
+        r=audit(a.image.read_bytes(),json.loads(a.plan.read_bytes()),json.loads(a.sample.read_bytes()),a.packet_root,a.manifest_sha256,a.font,a.entry_id)
         raw=(json.dumps(r,ensure_ascii=True,indent=2)+'\n').encode();a.output.parent.mkdir(parents=True,exist_ok=True)
         with a.output.open('xb') as f:f.write(raw)
         if a.output.read_bytes()!=raw:raise ValueError('layout audit reopening mismatch')

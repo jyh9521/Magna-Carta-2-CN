@@ -1,3 +1,11 @@
+## 真实剧情 draft 样本（2026-10-19）
+
+`locales/zh-Hans/text-sample-story.json` 保存开场 CSMB00_10 前七句和 Ch00_0/00_101 两句。
+保留稳定 ID、源值 hash 和原有八个 `\n`；其余记录不改，不以标题警告充当剧情。
+样本音译“朱特”尚未定稿，未写入 reviewed 术语表。
+通用 `sample_catalog.py export/import` 提供本地可编辑 catalog 和 hash 计划往返；
+原文 catalog 留 build，新字需重新生成补字计划。完整流程见 docs/STORY_DIALOGUE_SAMPLE.md。
+
 # 本项目当前规则（2026-10-18）
 
 2026-10-19：两字用户显示验收后，新增 `locales/zh-Hans/text-probe-layout.json`

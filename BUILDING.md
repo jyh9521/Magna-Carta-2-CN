@@ -1,3 +1,9 @@
+## 真实剧情宽框样本（2026-10-19）
+
+九条真实开场/NPC 对话与可编辑提取→回填流程已建立，详见 [STORY_DIALOGUE_SAMPLE](docs/STORY_DIALOGUE_SAMPLE.md)。
+一键入口：`dist/MC2-story-test-disc1/开始中文测试.cmd`；同目录保留同中文无修复及原文对照。
+仅离线自动验证，不启动游戏；标题警告保持原文，用户从新游戏进入开场剧情验收。
+
 # 当前可执行流程（2026-10-18）
 
 2026-10-19 原生强制折行宽度修复候选见 [WRAP_WIDTH_FIX](docs/WRAP_WIDTH_FIX.md)：

@@ -1,3 +1,11 @@
+## 真实剧情宽框仍待用户验收（2026-10-19）
+
+九条开场/NPC 样本和一键中文/无修复/原文入口已准备；详见 STORY_DIALOGUE_SAMPLE.md。
+自动往返、字库覆盖、字节恢复和受控行宽模型不是游戏通过证据。
+本次 General_15 512×256、SmallFont 256×512 扩图兼容、实际对话布局、NPC 触发、
+字体动态覆盖尚待用户截图；隔离存储不自动继承旧存档，测试请从新游戏开始。
+其余剧情/过场 Subtitle/Disc2 未由九句样本覆盖；样本之后出现原文属预期。
+
 # Known Issues
 
 This document records known user-visible limitations, compatibility problems, incomplete areas, and unresolved defects in the localization project.

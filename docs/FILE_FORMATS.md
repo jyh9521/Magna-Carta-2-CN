@@ -1,3 +1,11 @@
+## Selected Coalesced catalog（2026-10-19）
+
+`sample_catalog.py` 的 `selected-coalesced-catalog` schema1 记录容器 SHA/resource 和
+非空选定 entries；每条保留原提取器字段及 embedded_path/section/key/occurrence/source_sha256。
+只编辑 translation。导入逐项比对真实源行、严格 selector 类型和源值 hash，拒绝重复 ID、
+坏 token 顺序、物理换行/NUL、空译文和未知版本，再调用现有容器回填器。
+输出公开计划采用 sha256-utf8 模式，不嵌入完整原文。源文本 catalog 属本地 build 数据。
+
 # File Formats
 
 ## Property container declaration tails (2026-10-19)

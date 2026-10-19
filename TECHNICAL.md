@@ -1,3 +1,10 @@
+## 真实剧情样本绑定与往返（2026-10-19）
+
+详见 docs/STORY_DIALOGUE_SAMPLE.md。MC2Game 的 Balloon/YesNoBal Dialogue 模板引用
+`MC2CSMB.CSMB00_10.voc_csmb_0010_04`，六状态序列化字体候选为 General_15；
+模板引用不等于已执行剧情或已测活动宽度。九句原文提取→catalog→hash 计划→回填→
+重新提取、独立逆向还原通过；与标题警告互不覆盖。
+
 # 当前技术结论（2026-10-18）
 
 - **Verified（2026-10-19，声明/序列化类型）**：Engine.Font五个本地属性现完整盘点；Characters/Textures的local inner分别绑定FontCharacter完整schema/Texture2D Class，CharRemap的两个类型ref确为null、保持opaque。未从Next顺序计算native偏移或改写Map类型；见 docs/FONT_DECLARATIONS.md。

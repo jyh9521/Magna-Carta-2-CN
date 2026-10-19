@@ -238,7 +238,19 @@
 | mc2-dunan-support-232 | 매드맥 | 麦德麦克 | character | short-name | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:43e5156cd4a005ed2504155163a89b0e5e1b1642b2b28bfe42e2a8d24fa2dd17 |
 | mc2-dunan-support-233 | 듀난 도적 | 杜南盗贼 | faction | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:4dd4188a98a43c80fb7551163550cfcaf0da1e004de796caa43a7b15b6d1f3ad |
 | mc2-dunan-support-234 | 듀난 도적의 아지트 | 杜南盗贼窝点 | place | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:f9547fb3b4b7451811aff92f7b94da7b515baf63b554ed15808f393b7495b623 |
+| mc2-royal-trials-235 | 왕의 시련 | 王之试炼 | quest | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:e7c692b51831d44a80dee23a193484b6bb70c47c1046939f0a191a2368d4f7d0 |
+| mc2-royal-trials-236 | 왕가의 사당 | 王室神殿 | place | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:e81256646efacb65008ece2c92801efb8d85981dcc97e7c8617d5f087781a367 |
+| mc2-royal-trials-237 | 물의 사당 | 水之神殿 | place | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:a779d256cfa71e74b177b3b8071366ce0078bf7747f83f38edc52d3e5a9301f0 |
+| mc2-royal-trials-238 | 불의 사당 | 火之神殿 | place | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:9cbc09855f325db8d4fa0b61542cb0bf8c7ff9cb863b096ef63940eaa2952d87 |
+| mc2-royal-trials-239 | 번개의 사당 | 雷之神殿 | place | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:3e6db3da9ae55e9891cac1a551446960739b7f3c27e44e5973b2a91bc8387a39 |
+| mc2-royal-trials-240 | 바람의 사당 | 风之神殿 | place | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:3e6db3da9ae55e9891cac1a551446960739b7f3c27e44e5973b2a91bc8387a39 |
+| mc2-royal-trials-241 | 물의 영혼 | 水之魂 | character | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:c5cba9024423f9df2dddae70c41a0f39c582f62cc8c2259b5380bbf05b6d6935 |
+| mc2-royal-trials-242 | 불의 영혼 | 火之魂 | character | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:16f2ad820779ba4da1ec4254b263ba5b0f2c502cc4ee26947f59145da9ef94a8 |
+| mc2-royal-trials-243 | 물의 민족 | 水之民 | faction | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:3338e0379844eb14e8bad76c52a8ebf2d6dacfa02fe2f8c644eb9ec564e5d77f |
+| mc2-royal-trials-244 | 잔달리아 협곡 | 赞达利亚峡谷 | place | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:9cbc09855f325db8d4fa0b61542cb0bf8c7ff9cb863b096ef63940eaa2952d87 |
+| mc2-royal-trials-245 | 어둠의 은신처 | 暗影藏身处 | place | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:62765abbe6abf3503b1b446a6559b46cab6e6e33f8785a2e61dfee41bb6ba0a3 |
+| mc2-royal-trials-246 | 르제필다 그레나 베를리네트 | 蕾洁菲尔妲·格蕾娜·贝尔利内特 | character | full-name | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:924f0766f89b81e9542607580fb721991942306aefc3aac007a453a8e4174f1f |
 
-本作词条：234；已继承：0。
+本作词条：246；已继承：0。
 
 固定来源、统计、冲突与审核流程见 [系列术语参考](docs/SERIES_TERMS.md)。

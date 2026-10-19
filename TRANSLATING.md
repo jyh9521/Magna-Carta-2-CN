@@ -1,3 +1,9 @@
+## 第三十八批成人礼通知与王之试炼（2026-10-19）
+
+新增INT69条，累计5,400条draft；246项共享candidate及1项独立字幕candidate，字幕187/315cue不变。
+Quest/06_为225/316字段；水试炼未知反斜线保留，关联水火之魂和五个UI神殿名同步完成。
+见 [BATCH_038_ROYAL_TRIALS](docs/BATCH_038_ROYAL_TRIALS.md)。字库/TOC/可玩入口未更新，离线成功不是游戏验收。
+
 ## 第三十七批杜南任务与第六章邮件（2026-10-19）
 
 新增INT58条，累计5,331条draft；234项共享candidate及1项独立字幕candidate，字幕187/315cue不变。

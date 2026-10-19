@@ -356,7 +356,18 @@
 | mc2-sidequests-350 | 해저 동굴의 향 | 海底洞窟香料 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:3ae2e0cfa10b454b248e0abdca70b5c01749e4ec86f040a13bc1d10de808a953 |
 | mc2-sidequests-351 | 코타메레 | 柯塔马雷 | location | alias | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:377f39c5e1bd9743d69b8006d93432778369728b7f29b6d3c7c5c3d543932f77 |
 | mc2-departure-352 | 쾌속이동장치 | 高速移动装置 | device | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:d034650773cfe4aca486cbcd3db7edd037df7e00bad757a63290154fec807f9d |
+| mc2-gate-trials-353 | 명석의 시련 | 明智之试炼 | quest | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:a6572ea7e5c49b832b1e0e2132777747c43080241c3fe3d3a6304d5597871fc5 |
+| mc2-gate-trials-354 | 지혜 | 智慧 | area | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:45154a24bd5524e25fc06c7dca888ad96705073b538781d7b39b21943fc8f794 |
+| mc2-gate-trials-355 | 명민 | 聪敏 | area | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:45154a24bd5524e25fc06c7dca888ad96705073b538781d7b39b21943fc8f794 |
+| mc2-gate-trials-356 | 통찰 | 洞察 | area | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:45154a24bd5524e25fc06c7dca888ad96705073b538781d7b39b21943fc8f794 |
+| mc2-gate-trials-357 | 시동의 스위치 | 启动开关 | device | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:1b76e05c960b125b8fa4cc5e68844ad265a8d959b79507fe406e12d12e23511f |
+| mc2-gate-trials-358 | 제물의 시련 | 祭品之试炼 | quest | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:e2cedf34718af2d0ea8c1941cf870d050021e2aafa091ca29c86dd70f6cfe6ed |
+| mc2-gate-trials-359 | 용기 | 勇气 | area | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:9484584c5ca74a0824d5d44791c4e689d23c66ad686119737bad2dac496ceb5f |
+| mc2-gate-trials-360 | 용맹 | 勇猛 | area | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:9484584c5ca74a0824d5d44791c4e689d23c66ad686119737bad2dac496ceb5f |
+| mc2-gate-trials-361 | 진용 | 真勇 | area | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:9484584c5ca74a0824d5d44791c4e689d23c66ad686119737bad2dac496ceb5f |
+| mc2-gate-trials-362 | 시련의 구체 | 试炼之球 | object | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:460a5425833ef323a9700e00294c3355e6e04f2a948c75e6830e86fc870c41cc |
+| mc2-gate-trials-363 | 가호의 빛 | 庇护之光 | effect | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:123f3a013c262d4939cb8c160e44aff6aa1a6287acdb7b4e92778a72da4ec98b |
 
-本作词条：352；已继承：0。
+本作词条：363；已继承：0。
 
 固定来源、统计、冲突与审核流程见 [系列术语参考](docs/SERIES_TERMS.md)。

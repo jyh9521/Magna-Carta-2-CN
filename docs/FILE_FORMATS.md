@@ -1,3 +1,7 @@
+## 第166阶段：杜南后续与风息岛求援
+
+197新INT语境（NPC90＋六任务101＋关联六字段），累计9032/315、4692已观察/499待上下文、272功能分隔；零改译，workflow仍116批/14082草稿。2236_2省略句解释候选保留待议，已读不等于批准。九scope/62旧成员完整迁移、10profile改变/410理由显式取代，16×32/1000守卫不变。活动phase164包无资源差异，当前phase166闭包2777中2767未变。见[阶段166](PHASE_166_DUNAN_AFTERMATH_AND_ISLAND_RELIEF.md)。
+
 ## 第165阶段：阿巴泽特主城与边境支线
 
 stolen_kamond与stolen_kamond_d为原始名/说明键，后缀小写_d保留，不按其他_D统一。Ch02/Ch04同document/section明确key所有权迁移保留所有occurrence及功能分隔，不按名称去重；500SID/Styles X/Y/QUEST%s/尾空格保持。见[阶段165](PHASE_165_ABAZET_CITY_AND_BORDER_QUESTS.md)。

@@ -4583,6 +4583,15 @@
     },
     {
       "document": "..\\MC2Game\\Localization\\INT\\MC2NpcTalk.int",
+      "id": "coalesced:a746a588cda7a96b11f3d3d56f900c6d3616df25c1801bd6e7182c5e1b5aac70",
+      "key": "01_105_00",
+      "occurrence": 1,
+      "section": "Ch01_0",
+      "source_sha256": "8ff5d017378235620ffe92c86f672cf2f6539eae7c7bed23ecc331ca4d7c9552",
+      "translation_sha256": "9f230ed7b88ea6a36f2101d72423b1fd13f940db1745d5712d6fb4ea351e2e58"
+    },
+    {
+      "document": "..\\MC2Game\\Localization\\INT\\MC2NpcTalk.int",
       "id": "coalesced:8938f72295ead3777682aa45d53037d2cac804d23dfbbed17329c419d860c526",
       "key": "01_108_00",
       "occurrence": 1,
@@ -4661,6 +4670,42 @@
       "section": "Ch01_0",
       "source_sha256": "a31c7697095c7e6943c2e96268dadec411a68bb5e58dc81819f3951da7177cb2",
       "translation_sha256": "1719747e57fb39c697a677df86e23e173d1d5f39c10594ccb4dbe57708a53a0d"
+    },
+    {
+      "document": "..\\MC2Game\\Localization\\INT\\MC2NpcTalk.int",
+      "id": "coalesced:590f5b6a2c2690d36801909b9845fc5b58792449bfd55eb7c8cb4ff32bb61bb7",
+      "key": "01_112_00",
+      "occurrence": 1,
+      "section": "Ch01_0",
+      "source_sha256": "76ee7ebf36331eb37d297bb8186c49c454410a2d3f964f5180a063ff179ca7ee",
+      "translation_sha256": "2c73309f5103ac08c9ac3ae43530585a2ff01f355c3f408d28eb5ed87e88d116"
+    },
+    {
+      "document": "..\\MC2Game\\Localization\\INT\\MC2NpcTalk.int",
+      "id": "coalesced:235b8bd0eb179c354f49a06f3a0dcac2f46613c451eefdcefdfc7d34ba890b7e",
+      "key": "01_112_01",
+      "occurrence": 1,
+      "section": "Ch01_0",
+      "source_sha256": "753e3506f49910ffcecd528373a5cd05720f0b17b9f8d31b75e269c33f8fb644",
+      "translation_sha256": "6d0389e33aeb556063bafcd501ed571f82b41552f773972dcd5b09a292db62a3"
+    },
+    {
+      "document": "..\\MC2Game\\Localization\\INT\\MC2NpcTalk.int",
+      "id": "coalesced:60fff25eb55f7fb420afe4d1546b397f73b86eb362b3e0804e7ca0f78a87ee07",
+      "key": "01_112_02",
+      "occurrence": 1,
+      "section": "Ch01_0",
+      "source_sha256": "e6bc28864a449638f02db890e01062a14f0b8cc3448eea57fc326d4f0e877bf4",
+      "translation_sha256": "2d167f98223542621b757bf335cf7eebff07d802d0fb7c3482484137c4490d5f"
+    },
+    {
+      "document": "..\\MC2Game\\Localization\\INT\\MC2NpcTalk.int",
+      "id": "coalesced:fee4527e82a4a62642f0e64656a3652fb0f9f6784b00b1f34465d45e9f056425",
+      "key": "01_112_1_00",
+      "occurrence": 1,
+      "section": "Ch01_0",
+      "source_sha256": "08143dce36b37b12421620be0e2c8931dea502a36367d032744397dae8fd7ad7",
+      "translation_sha256": "14ff28a74583c2ee30530e97e84fb7b18d93a60cef61fd3d92963d8a7fd61bd9"
     },
     {
       "document": "..\\MC2Game\\Localization\\INT\\MC2NpcTalk.int",
@@ -6471,9 +6516,14 @@
         "130_0",
         "130_1",
         "130_2",
-        "130_3"
+        "130_3",
+        "01_112_00",
+        "01_112_01",
+        "01_112_02",
+        "01_112_1_00",
+        "01_105_00"
       ],
-      "reason": "EarlyislandNPC/quest/context:preparation vsactualinvasion,hearsay/heroquestionsnotprovedidentity;fourflower/fivehornandallfunctionalquestcontrolsretained. Rescue/curegoalsnotautomaticsuccess;latefruitgriefnotnewtimermechanism. Explicitremainingkeys excludeoldIDs/unknownoriginals. SourceNPCduplicatekeyoccurrencesseparate. Phase161literal3/\u7b2c\u4e09recordwaswithheld;phase162repairnowobserved,oldexclusionretainedinhistoricalreport.",
+      "reason": "EarlyislandNPC/quest/context:preparation vsactualinvasion,hearsay/heroquestionsnotprovedidentity;fourflower/fivehornandallfunctionalquestcontrolsretained. Rescue/curegoalsnotautomaticsuccess;latefruitgriefnotnewtimermechanism. Explicitremainingkeys excludeoldIDs/unknownoriginals. SourceNPCduplicatekeyoccurrencesseparate. Phase161literal3/\u7b2c\u4e09recordwaswithheld;phase162repairnowobserved,oldexclusionretainedinhistoricalreport. | Phase166exactownershipmerge originalscope: Complete 01_112 node at this stage; civilians and wounded troops, escape uncertainty and refusal to abandon them retained. | Phase166exactownershipmerge originalscope: \u5b8c\u657401_105\u9632\u58c1\u5de5\u671f\u50ac\u4fc3\u8282\u70b9\u4e0e\u5de5\u5177\u59d4\u6258\u5173\u8054\u3002",
       "section": "Ch01_0"
     },
     {

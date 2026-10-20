@@ -4222,6 +4222,60 @@
       "translation_sha256": "0e811ee80e059f38fd2825ddbcfc8860b10f58216276610a84e4be77a47a15d4"
     },
     {
+      "document": "..\\MC2Game\\Localization\\INT\\MC2Skill.int",
+      "id": "coalesced:a7e9a3115c24b0dd63eaa1e93b75e28dd24863029da81984189d90da4a7d92a2",
+      "key": "Juto_Crocell_Renkai",
+      "occurrence": 1,
+      "section": "Renkai_Ougi",
+      "source_sha256": "98673f24c42a6edb15a37af21b2d31eefa8c2861e6c87eaec2356759d03c1f6f",
+      "translation_sha256": "d32e55cced32a0bfcce6acf491ae33f50021dd12dae43f9c5ef148d464cf2cb5"
+    },
+    {
+      "document": "..\\MC2Game\\Localization\\INT\\MC2Skill.int",
+      "id": "coalesced:50a9fae18deef82431f860fdba89293c3af1f0621f9d713e2c5a9cee82192243",
+      "key": "Skill_d_39",
+      "occurrence": 1,
+      "section": "Renkai_Ougi",
+      "source_sha256": "6b83e6b098be560dd6043c39feffda48002376b883cbedbbfe0be66920e2c27d",
+      "translation_sha256": "e2b935e946370ab5842a58184d143bbf4f10d986fac0c00b1072428b793360a2"
+    },
+    {
+      "document": "..\\MC2Game\\Localization\\INT\\MC2Skill.int",
+      "id": "coalesced:096318b25d0cef2b1c2f3716edec0d6e7f30673f29d006af690bc6c0eb094d5b",
+      "key": "Zephie_Rue_Renkai",
+      "occurrence": 1,
+      "section": "Renkai_Ougi",
+      "source_sha256": "c9d3301d7607710e6d69bfad65708f9a1f8e9bc96db83d42a8f99678d98f6c96",
+      "translation_sha256": "d0df2cefa32775aac96dc30954085f0b468fea5f737699cc9622f8f4c63b26eb"
+    },
+    {
+      "document": "..\\MC2Game\\Localization\\INT\\MC2Skill.int",
+      "id": "coalesced:d02cca0a45466b43635aa14caa97a7a936f0c90f0f5f0dbae180097f716d8183",
+      "key": "Skill_d_37",
+      "occurrence": 1,
+      "section": "Renkai_Ougi",
+      "source_sha256": "092189de54fd4e88eeed72e9e6724cb306120ee93279a537daa9d7876fb51d40",
+      "translation_sha256": "2a78c0bf378119fe9ea9aa78b1db74c8a9a72da7451b6a165c52ea3447953754"
+    },
+    {
+      "document": "..\\MC2Game\\Localization\\INT\\MC2Skill.int",
+      "id": "coalesced:fb07957f9ed536c4d0efbf82d19a1bf0b7959652526e6dcdaf5f43a85a8b5225",
+      "key": "Celestine_Rue_Renkai",
+      "occurrence": 1,
+      "section": "Renkai_Ougi",
+      "source_sha256": "a788642788e0e63d8fafce4850d4d4fe58edef7d661c2a373e4e4b2c90056fff",
+      "translation_sha256": "da304e330049a86c2e78f70f088fb9b3255eb3d84eda5d517623c795b7a06290"
+    },
+    {
+      "document": "..\\MC2Game\\Localization\\INT\\MC2Skill.int",
+      "id": "coalesced:dacc826ac97f366f530bdf7db67ae20723de9f871e311ff2351b8ea5bc160a68",
+      "key": "Skill_d_37",
+      "occurrence": 2,
+      "section": "Renkai_Ougi",
+      "source_sha256": "aebd919bd063cdb7e58ba4b276909b0bcfd0e9cd8219bac2bc37e110baf01f1b",
+      "translation_sha256": "cad049ee769883572574fe825b2d87e93dc6c0b8c34b207dd992f0da0b440e2e"
+    },
+    {
       "document": "..\\MC2Game\\Localization\\INT\\MC2UI_Field.int",
       "id": "coalesced:0d700f9eb697f3f503a8abd1628ccf456cd33006d4b50f6f4f78285d9f2613ea",
       "key": "LiveDrama_Top",
@@ -4458,9 +4512,14 @@
       "complete_section": false,
       "document": "..\\MC2Game\\Localization\\INT\\MC2Skill.int",
       "keys": [
-        "Skill_d_38"
+        "Skill_d_38",
+        "Juto_Crocell_Renkai",
+        "Skill_d_39",
+        "Celestine_Rue_Renkai",
+        "Zephie_Rue_Renkai",
+        "Skill_d_37"
       ],
-      "reason": "Linked ultimate38 description only; no inferred missing name field and no unrelated later ultimate or duplicate37 repair.",
+      "reason": "Linked ultimate38 description only; no inferred missing name field and no unrelated later ultimate or duplicate37 repair. | Phase166exactownershipmerge originalscope: Explicit2pairedcombinationnamesplusfire/sworddescription;duplicateSkill_d_37existingice/lightningdescriptionalreadyobserved,notrecounted ormerged. OtherArgo/JutoZephienamesoutsidecurrenttwochains. | Phase166exactownershipmerge originalscope: Linked Zephie/Rue ultimate name and two style descriptions;shared Renkai Skill_d_37 has TWO occurrence IDs with distinct wind/thunder versus ice/thunder descriptions. Retain both physical occurrences,do not merge or infer runtime name/description binding.",
       "section": "Renkai_Ougi"
     },
     {

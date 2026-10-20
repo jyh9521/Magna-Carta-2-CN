@@ -1,3 +1,10 @@
+## 第95批接续状态（2026-10-20）
+
+INT累计9,810条draft；本批Live1五场201条见[BATCH_095_LIVE1_STORY](BATCH_095_LIVE1_STORY.md)，453项共享候选保持。
+下一组先核读CSMB_Live2_001..007完整186条及场景关系，按150–300条完整组推进；Live3另保留，不把调试/占位凑作条目。
+当前工作区build/live1-story-batch095/workspace；NPC1443/1473、邮件128/235、44字幕315/315已提取cue、全部旧held保持，不合盘。
+8366条其余原值含工具/样本，不是确定玩家待译量；不刷新字库/TOC/入口，离线不代替游戏验收。
+
 ## 第94批接续状态（2026-10-20）
 
 INT累计9,609条draft；本批254条见[BATCH_094_QUEST_WORLD](BATCH_094_QUEST_WORLD.md)，共享candidate453项，旧440保持。

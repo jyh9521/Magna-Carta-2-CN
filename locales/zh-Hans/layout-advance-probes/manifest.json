@@ -1,0 +1,76 @@
+{
+  "schema_version": 1,
+  "kind": "undeployed-explicit-blank-advance-probes",
+  "prior_manifest": "locales/zh-Hans/drawable-demand-probes/manifest.json",
+  "prior_manifest_sha256": "6539950a1bb14e4b09ca75308a4bf119d65faba5e7a784256938a824e79c0538",
+  "fonts": [
+    {
+      "family": "font.general_15",
+      "font_object": "General_15",
+      "input_path": "build/phase-123-verification/font-0.xxx",
+      "input_sha256": "57455bed6383fba96f528898dc5e4db4c44071372af44601e381d359da99dacf",
+      "plan": "locales/zh-Hans/layout-advance-probes/glyphs-0.json",
+      "plan_sha256": "44446d0af63dfb1b23b22ef1823cb1482a5c7747555c072f40c3ada4b8a9a6cb",
+      "font_source_sha256": "2c76254f6fc379fddfce0a7e84fb5385bb135d3e399294f6eeb6680d0365b74b",
+      "candidate_output_sha256": "79a12b8b54efc2b8a52a74e2fed9b7d6ded05e2b7d73b332b4b61d90e3df3053",
+      "original_glyphs": 4997,
+      "candidate_glyphs": 4998,
+      "explicit_layout_glyphs": [
+        {
+          "codepoint": 12288,
+          "metric_width": 27,
+          "kind": "blank-advance",
+          "decoded_alpha_zero": true
+        }
+      ]
+    },
+    {
+      "family": "enginefonts.smallfont",
+      "font_object": "EngineFonts.SmallFont",
+      "input_path": "build/phase-123-verification/font-1.xxx",
+      "input_sha256": "3a049c62aa77f1cbf578f36e72b12f2924d73af09618f477926962055e3d5856",
+      "plan": "locales/zh-Hans/layout-advance-probes/glyphs-1.json",
+      "plan_sha256": "95c8d44de8b9818f2e4e7e309573ca08851e5e7037428026df7baebdb35e3693",
+      "font_source_sha256": "2c76254f6fc379fddfce0a7e84fb5385bb135d3e399294f6eeb6680d0365b74b",
+      "candidate_output_sha256": "4346986cc64a918e201af89ada4fc340187e43283bcfb031d6eb1093bcdced26",
+      "original_glyphs": 2644,
+      "candidate_glyphs": 2645,
+      "explicit_layout_glyphs": [
+        {
+          "codepoint": 12288,
+          "metric_width": 20,
+          "kind": "blank-advance",
+          "decoded_alpha_zero": true
+        }
+      ]
+    },
+    {
+      "family": "font.enginemedium_subtitle",
+      "font_object": "EngineMedium_Subtitle",
+      "input_path": "build/phase-123-verification/font-2.xxx",
+      "input_sha256": "d973998b721a34a1deec60a5253651a9c481884d29d736390467ca24dbed2a83",
+      "plan": "locales/zh-Hans/layout-advance-probes/glyphs-2.json",
+      "plan_sha256": "f767844b6cc25d1d6d4d64e011e078d4f10ed5e98d6cb09b60f088a0d95b0976",
+      "font_source_sha256": "2c76254f6fc379fddfce0a7e84fb5385bb135d3e399294f6eeb6680d0365b74b",
+      "candidate_output_sha256": "0947eda68e2c641e80a1b6c88feb9745266ea12bc38a3b132ce99a62290be751",
+      "original_glyphs": 3648,
+      "candidate_glyphs": 3649,
+      "explicit_layout_glyphs": [
+        {
+          "codepoint": 12288,
+          "metric_width": 32,
+          "kind": "blank-advance",
+          "decoded_alpha_zero": true
+        }
+      ]
+    }
+  ],
+  "codepoint": 12288,
+  "advance_policy": "explicit candidate font_size+5; not inferred renderer behavior",
+  "control_literal_unchanged": [
+    9
+  ],
+  "all_aliases_built": false,
+  "resource_refresh_performed": false,
+  "game_rendering_verified": false
+}

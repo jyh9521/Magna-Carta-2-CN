@@ -77,11 +77,18 @@ def validate_plan(plan):
             raise FormatError('invalid explicit metric height growth')
     seen = set()
     for glyph in glyphs:
-        if not isinstance(glyph, dict) or set(glyph)-{'metric_width'} != {"character", "texture_index", "x", "y", "width", "height"}:
+        if not isinstance(glyph, dict) or set(glyph)-{'metric_width', 'layout'} != {"character", "texture_index", "x", "y", "width", "height"}:
             raise FormatError("unsupported glyph plan fields")
         char = glyph["character"]
-        if not isinstance(char, str) or len(char) != 1 or not 0 < ord(char) <= 65535 or unicodedata.category(char).startswith("C") or char.isspace():
+        blank = glyph.get('layout') == 'blank-advance'
+        if 'layout' in glyph and not blank:
+            raise FormatError('unsupported explicit glyph layout')
+        if not isinstance(char, str) or len(char) != 1 or not 0 < ord(char) <= 65535 or unicodedata.category(char).startswith("C") or (char.isspace() and not blank):
             raise FormatError("glyph must be one printable BMP non-control character")
+        if blank and (unicodedata.category(char) != 'Zs' or 'metric_width' not in glyph):
+            raise FormatError('blank-advance requires a Zs separator and explicit metric_width')
+        if blank and ord(char) in replacements:
+            raise FormatError('blank-advance cannot replace an existing mapping')
         if char in seen:
             raise FormatError("duplicate planned codepoint")
         seen.add(char)
@@ -102,6 +109,7 @@ def validate_plan(plan):
 def rasterize_plan(font_file, expected_hash, plan):
     """Font cmap check plus shared-baseline raster; imports optional dependencies lazily."""
     glyphs = validate_plan(plan)
+    drawable = [g for g in glyphs if g.get('layout') != 'blank-advance']
     font_data = font_file.read_bytes()
     verify_hash(font_data, expected_hash, "font source")
     from PIL import Image, ImageDraw, ImageFont
@@ -109,26 +117,33 @@ def rasterize_plan(font_file, expected_hash, plan):
     import io
     with TTFont(io.BytesIO(font_data)) as source:
         cmap = source.getBestCmap()
-        if not cmap or any(cmap.get(ord(g["character"])) in (None, ".notdef") for g in glyphs):
+        if not cmap or any(cmap.get(ord(g["character"])) in (None, ".notdef") for g in drawable):
             raise FormatError("font cmap lacks requested glyph (tofu rejected)")
-        glyph_names = {g["character"]: cmap[ord(g["character"])] for g in glyphs}
+        glyph_names = {g["character"]: cmap[ord(g["character"])] for g in drawable}
     font = ImageFont.truetype(io.BytesIO(font_data), plan["font_size"])
-    boxes = {g["character"]: font.getbbox(g["character"], anchor="ls") for g in glyphs}
-    max_descent = max(max(0, box[3]) for box in boxes.values())
+    boxes = {g["character"]: font.getbbox(g["character"], anchor="ls") for g in drawable}
+    max_descent = max((max(0, box[3]) for box in boxes.values()), default=0)
     baseline = min(g["height"] for g in glyphs) - 1 - max_descent
     # Retain the historical baseline when it fits. A larger sample can need
     # the optional bottom margin for an ascender; never shrink or clip glyphs.
-    baseline = max(baseline, -min(box[1] for box in boxes.values()))
+    baseline = max(baseline, -min((box[1] for box in boxes.values()), default=0))
     metric_limit = min(plan.get('metric_height',g['height']) for g in glyphs)
     if baseline + max_descent > metric_limit:
         # BC3 cells are block-aligned; their padding is not visible metric space.
         # Move the whole baseline only when the complete union still fits.
         baseline = metric_limit - max_descent
-        if baseline + min(box[1] for box in boxes.values()) < 0:
+        if baseline + min((box[1] for box in boxes.values()), default=0) < 0:
             raise FormatError('glyph union exceeds metric height at shared baseline')
     alphas, report = {}, []
     for g in glyphs:
         char = g["character"]
+        if g.get('layout') == 'blank-advance':
+            alpha = bytes(g['width'] * g['height'])
+            alphas[ord(char)] = alpha
+            report.append(dict(codepoint=ord(char), raster_kind='explicit-blank-advance',
+                               source_glyph=None, source_bbox=None, cell_baseline=None,
+                               raster_bbox=None, alpha_sha256=sha256(alpha)))
+            continue
         box = boxes[char]
         x = (g["width"] - (box[2] - box[0])) // 2 - box[0]
         if x + box[0] < 0 or x + box[2] > g["width"] or baseline + box[1] < 0 or baseline + box[3] > g["height"]:
@@ -483,6 +498,8 @@ def supplement_package(data, expected_hash, font_object, plan, alphas, decoder, 
         cp = ord(g["character"])
         if cp not in alphas:
             raise FormatError("missing glyph coverage raster")
+        if g.get('layout') == 'blank-advance' and any(alphas[cp]):
+            raise FormatError('blank-advance requires all-zero alpha')
         metric_height = plan.get("metric_height", g["height"])
         growth = plan.get('metric_height_growth')
         if growth is not None and growth['original'] != old_max_height:
@@ -514,6 +531,11 @@ def supplement_package(data, expected_hash, font_object, plan, alphas, decoder, 
                 max_alpha_error = max(max_alpha_error, abs(new_rgba[pixel * 4 + 3] - alphas[ord(g["character"])][y * g["width"] + x]))
     if max_alpha_error > 18:
         raise FormatError("new glyph alpha quantization exceeds bound")
+    for g in glyphs:
+        if g.get('layout') == 'blank-advance' and any(
+                new_rgba[((g['y'] + y) * texture['width'] + g['x'] + x) * 4 + 3]
+                for y in range(g['height']) for x in range(g['width'])):
+            raise FormatError('blank-advance decoded cell must remain transparent')
     if any(old_rgba[i * 4:i * 4 + 4] != new_rgba[i * 4:i * 4 + 4] for i in range(texture["width"] * texture["height"]) if i not in selected_pixels):
         raise FormatError("original atlas surface outside cells changed")
     new_font = append_font_payload(old_font, tables["names"], additions,plan.get('remap_conversion'),replacements)
@@ -588,6 +610,11 @@ def supplement_package(data, expected_hash, font_object, plan, alphas, decoder, 
                     "new_font_offset": font_offset, "new_atlas_offset": new_atlas_offset,
                     "package_compression": compression_report, "runtime_rendering_verified": False,
                     "rasterization_quality_verified": False}
+    layout_glyphs = [dict(codepoint=ord(g['character']), metric_width=g['metric_width'],
+                         kind='blank-advance', decoded_alpha_zero=True)
+                     for g in glyphs if g.get('layout') == 'blank-advance']
+    if layout_glyphs:
+        report['explicit_layout_glyphs'] = layout_glyphs
     if 'remap_conversion' in plan:
         report['remap_conversion']=dict(profile='identity-256',original_mode=False,candidate_mode=True,identity_entries=256,
             old_glyph_metrics_preserved=True,runtime_equivalence_verified=False)

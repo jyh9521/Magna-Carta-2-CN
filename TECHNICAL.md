@@ -1,3 +1,7 @@
+## 显式blank-advance与源空白证据（2026-10-20）
+
+Verified / offline：glyph.layout=blank-advance仅接受Zs+正metric_width，生成零alpha且BC3解码整个cell严格透明，不借原SPACE/TAB remap，不替换已有映射。原普通空白/TAB/换行拒绝保持。三族U+3000候选27/20/32，原4997/2644/3648增4998/2645/3649，旧记录/像素保持。2451累计remap无缺、2448非布局字形均有ink，仅选定三族而非全部别名/游戏验收。源TAB矩形ink像素0/36/0、SPACE均0，不能推出运行TAB语义。SmallFont派生计划不得重复identity-256转换。源链/复现/门禁见PHASE_124_EXPLICIT_BLANK_ADVANCE。
+
 ## 显式新增字计数与累计drawable探针（2026-10-20）
 
 Verified / offline：glyph_limit显式上限4096，默认128；prepare与writer共用常量，原几何/控制/空白/重复/保护检查保持。三族2389/2388/2389 drawable重建通过，旧记录/像素/未选remap保持；透明修复分别1/0/5个remap有意转向新记录，不宣称全部旧remap不变。原glyph count2608/256/1259变4997/2644/3648，最大新alpha误差18、视觉质量及运行仍未验证。仅三族选定源，不是七别名/完整字库；U+3000未解决、U+0009保持，未刷新TOC或测试资源。计划/源/Noto/output身份见drawable-demand-probes/manifest.json，复现与边界测试见PHASE_123_DRAWABLE_FONT_DEMAND。

@@ -1,3 +1,9 @@
+## 第124阶段：显式空白advance离线探针（2026-10-20）
+
+新增glyph.layout=blank-advance，仅显式Zs空格分隔符、正整数metric_width和全零alpha；普通空白/TAB/换行门禁保持，禁止替换已有映射或别名借用。三族U+3000候选advance27/20/32，新增独立透明单元，旧记录/像素不变。
+选定三族均有2451累计remap及2448个非布局字形ink；U+0009仍保留原值，不把SmallFont原TAB矩形36个可见像素解释成运行行为。不是七别名路由或完整投放，测试包/TOC未刷新。
+见[PHASE_124_EXPLICIT_BLANK_ADVANCE](docs/PHASE_124_EXPLICIT_BLANK_ADVANCE.md)。14,082 draft、最后翻译批次116保持；验证清理推送后自动继续别名/路由与TOC预备。
+
 ## 第123阶段：累计可绘制字形离线生成（2026-10-20）
 
 显式glyph_limit上限2048→4096、默认128保持，prepare与writer共用同一上限；几何/布局/原资源保护检查不放宽。三族累计可绘制2389/2388/2389字形已在隔离2048x2048包生成并重解码，旧像素与未选remap保持，最大新alpha误差18。

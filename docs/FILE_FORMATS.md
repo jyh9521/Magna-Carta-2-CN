@@ -1,3 +1,7 @@
+## 显式blank-advance计划字段（2026-10-20）
+
+Verified / offline：supplement glyph可选layout="blank-advance"，限定BMP Zs separator且必须显式metric_width（1..cell width）。这是工具的候选元数据，不是新引擎字段；序列化仍append tagged/native/remap记录，在不重叠独立cell写透明BC3。完整cell解码alpha必须0。普通空白/控制仍拒绝，report单列explicit_layout_glyphs，不与ink字形混淆。详见PHASE_124_EXPLICIT_BLANK_ADVANCE。
+
 ## 显式宽度增长与BC3地址重排（2026-10-20）
 
 Verified / offline：supplement计划可显式atlas_width=128..2048二次幂，并须raw_atlas；不缩小/不无变化/不多mip。宽变化时复用既有UEViewer派生Xenos块地址函数搬移原16字节块（含对齐padding），不重编码旧BC3，更新SizeX/SizeY、native mip宽高和raw bulk长度后重解析。原解码矩形逐行按新stride裁回比较；宽未变仍走旧grow_atlas字节兼容路径。

@@ -1,0 +1,25 @@
+{
+  "font_size": 27,
+  "glyphs": [
+    {
+      "character": "　",
+      "texture_index": 3,
+      "x": 1312,
+      "y": 1248,
+      "width": 32,
+      "height": 32,
+      "layout": "blank-advance",
+      "metric_width": 32
+    }
+  ],
+  "in_game_verified": false,
+  "ink_padding": {
+    "left": 2,
+    "right": 3
+  },
+  "metric_height": 29,
+  "purpose": "Explicit blank-advance candidate: U+3000 width=font_size+5; not inferred runtime whitespace behavior; do not deploy",
+  "review_status": "technical-prototype",
+  "schema_version": 1,
+  "wide_letter_advance": 32
+}

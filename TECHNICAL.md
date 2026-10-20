@@ -1,3 +1,7 @@
+## 字面控制符保留证据与字体coverage分离（2026-10-20）
+
+Verified / offline：audit_control_retention以源SHA/完整计划canonical SHA、entry源/译文SHA、有序category-C列表及segment占用形状核查原样保留。四条实际尾TAB的sequence[9]/shape[true,false]在双盘均匹配；缺失/移动/重排/hash漂移拒绝。仅证明保留，不证明语义，原font_coverage/audit分支不改；真实14,082 INT/七字体coverage仍exit1且唯一未核U+0009。报告font_coverage_verified/unknown_control_syntax_resolved/game_rendering_verified=false，路由和字幕16上限未放宽。详见PHASE_126_LITERAL_CONTROL_RETENTION。
+
 ## 累计字体七别名合成与控制门禁（2026-10-20）
 
 Verified / offline：cumulative-font-route精确组合drawable+blank新增2390/2389/2390，绑定124完整候选semantic。既有raw route builder顺序编辑共享包后再核七字体；七字体2450非控制remap、2448非布局ink及U+3000 alpha0通过。十局部资源TOC逆变换、独立controls重放与rollback字节通过。TAB仍unverified，all_literal_coverage_verified=false；原262文本/四字幕路由不冒充14,082/315累计回填。当前测试目录/TOC未刷新，见PHASE_125_CUMULATIVE_FONT_ROUTE。

@@ -1,3 +1,9 @@
+## 第126阶段：源锁定字面控制符保留审计（2026-10-20）
+
+新增独立retention审计：完整源/14,082计划canonical hash、四项源/译文hash、TAB序列与尾部segment形状锁定，双盘4项逐项通过。它只证明原样保留，不证明TAB语义或字体覆盖。
+原七字体累计INT coverage仍exit1，唯一未核码点U+0009；未改mapped/control分支、未放宽路由或字幕16上限，44字幕合成留待下一阶段。
+见[PHASE_126_LITERAL_CONTROL_RETENTION](docs/PHASE_126_LITERAL_CONTROL_RETENTION.md)。译文14,082 draft/最后批次116保持，现有测试包/TOC未刷新；验证清理推送后自动接续显式合成合同。
+
 ## 第125阶段：累计字库七别名路由离线合成（2026-10-20）
 
 复用既有raw route builder，组合三族drawable+U+3000计划，并绑定124候选完整语义。七别名共享包顺序编辑后重核，10项局部资源/TOC逆变换与独立原始控制重放通过。

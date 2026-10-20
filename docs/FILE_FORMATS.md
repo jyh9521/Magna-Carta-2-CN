@@ -1,3 +1,7 @@
+## 源锁定字面控制保留ledger（2026-10-20）
+
+工具schema1 kind=source-locked-literal-control-retention：resource/input_sha256/changes_canonical_sha256与entries；每entry仅id/source_sha256/translation_sha256/control_sequence/segment_nonempty。canonical是原changes dict按sort_keys=True,separators=(',',':') JSON UTF8后SHA256。控制序列使用精确TOKEN之外的保守category-C，segment bool数量为sequence+1，用于保持头/尾/连续位置形状，不声明字符offset或运行语义。1..16384项、1..4096 scalar/序列，禁止重复/额外/缺失和漂移。它不是游戏二进制字段或coverage豁免，见PHASE_126_LITERAL_CONTROL_RETENTION。
+
 ## 显式blank-advance计划字段（2026-10-20）
 
 Verified / offline：supplement glyph可选layout="blank-advance"，限定BMP Zs separator且必须显式metric_width（1..cell width）。这是工具的候选元数据，不是新引擎字段；序列化仍append tagged/native/remap记录，在不重叠独立cell写透明BC3。完整cell解码alpha必须0。普通空白/控制仍拒绝，report单列explicit_layout_glyphs，不与ink字形混淆。详见PHASE_124_EXPLICIT_BLANK_ADVANCE。

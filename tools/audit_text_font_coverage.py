@@ -30,6 +30,77 @@ def literal_codepoints(text):
     return sorted({ord(c) for c in TOKEN.sub('', text)})
 
 
+def literal_control_shape(text):
+    """Conservative category-C inventory outside exact known TOKEN matches.
+
+    Segment occupancy retains leading/trailing/interior control placement without
+    pretending that translated words have the same offsets as source words.
+    """
+    sequence, segments = [], [False]
+    for char in TOKEN.sub('', text):
+        if unicodedata.category(char).startswith('C'):
+            sequence.append(ord(char)); segments.append(False)
+        else:
+            segments[-1] = True
+    return sequence, segments
+
+
+def audit_control_retention(original, changes, ledger):
+    """Verify exact source-locked retention only; never grant font/runtime coverage."""
+    canonical = digest(json.dumps(changes, sort_keys=True, separators=(',', ':')).encode())
+    if (not isinstance(ledger, dict) or type(ledger.get('schema_version')) is not int
+            or ledger['schema_version'] != 1
+            or ledger.get('kind') != 'source-locked-literal-control-retention'
+            or ledger.get('input_sha256') != digest(original)
+            or ledger.get('changes_canonical_sha256') != canonical):
+        raise FormatError('literal control ledger identity mismatch')
+    resolved = resolve_changes(original, changes)
+    if ledger.get('resource') != resolved['resource']:
+        raise FormatError('literal control ledger resource mismatch')
+    rows = ledger.get('entries')
+    if not isinstance(rows, list) or not 1 <= len(rows) <= 16384:
+        raise FormatError('literal control ledger entry count outside bound')
+    index = {}
+    fields = {'id', 'source_sha256', 'translation_sha256', 'control_sequence', 'segment_nonempty'}
+    for row in rows:
+        if not isinstance(row, dict) or set(row) != fields or not isinstance(row['id'], str):
+            raise FormatError('invalid literal control ledger entry')
+        seq, segments = row['control_sequence'], row['segment_nonempty']
+        if (not isinstance(seq, list) or not 1 <= len(seq) <= 4096
+                or any(type(cp) is not int or not 0 <= cp <= 0x10ffff or 0xd800 <= cp <= 0xdfff
+                       or not unicodedata.category(chr(cp)).startswith('C') for cp in seq)
+                or not isinstance(segments, list) or len(segments) != len(seq)+1
+                or any(type(v) is not bool for v in segments)):
+            raise FormatError('invalid literal control sequence or segment shape')
+        _hash(row['source_sha256']); _hash(row['translation_sha256'])
+        if row['id'] in index:
+            raise FormatError('duplicate literal control ledger ID')
+        index[row['id']] = row
+    seen, records = set(), []
+    for edit in resolved['entries']:
+        before, after = literal_control_shape(edit['source']), literal_control_shape(edit['translation'])
+        if not before[0] and not after[0]:
+            continue
+        if before != after:
+            raise FormatError('literal control sequence or segment placement changed')
+        expected = dict(id=edit['id'], source_sha256=digest(edit['source'].encode()),
+                        translation_sha256=digest(edit['translation'].encode()),
+                        control_sequence=before[0], segment_nonempty=before[1])
+        if index.get(edit['id']) != expected:
+            raise FormatError('literal control ledger missing or stale entry')
+        seen.add(edit['id']); records.append(expected)
+    if seen != set(index):
+        raise FormatError('literal control ledger has unrelated entries')
+    rebuild(original, changes)  # Keep the complete normal encoding/token/re-extraction checks.
+    return dict(schema_version=1, kind='literal-control-retention-audit', resource=resolved['resource'],
+                input_sha256=digest(original), changes_canonical_sha256=canonical,
+                entries=records, audited_translation_entries=len(resolved['entries']),
+                retained_literal_codepoints=sorted({cp for r in records for cp in r['control_sequence']}),
+                exact_control_sequences_and_segment_shapes_retained=True,
+                font_coverage_verified=False, unknown_control_syntax_resolved=False,
+                game_rendering_verified=False, deployment_performed=False)
+
+
 def font_coverage(font, codepoints):
     """Check explicit BMP remap entries and positive visible glyph dimensions.
 

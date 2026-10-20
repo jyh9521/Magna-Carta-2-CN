@@ -1,3 +1,7 @@
+## 第162阶段接续状态（2026-10-21）
+
+300新观察＝城市NPC229＋完整Ch02_251_0任务43＋Default名字27＋补回数字项1；累计7975/315，4087观察/1104上下文待审/5191运行待核，227分隔。readability-revised两处已修，不再持留数字项；最后INT批次116、14082INT/315cue draft与1104candidate不变。当前活动包/闭包切换build/phase-162-verification/disc1-comparison与current-packet-hash-preflight.json，旧160必要回滚保留。见[阶段162](PHASE_162_ABAZET_HOSTAGE_AND_CONSISTENCY.md)。下一批以完整34条抓蓬蓬角色家族及其规则/奖品/任务/UI合批，再接相关完整NPC任务，不把已审城市229或315字幕重计；两连字符原文未计划留待查，调查清单14。
+
 ## 第161阶段接续状态（2026-10-21）
 
 271新观察：NPC146、任务73、Compose27、名称20/材料3/便当2。累计7675/315，3914观察/1277上下文待审/5191运行待核，226分隔；零改译，最后INT批次116及160两处露代词修订保持。00_130_00字面3草稿第三被排除待修；与00_120_00穿刺蠕虫候选均精确定位readability-fix.json，不追加重叠批次。活动表build/phase-161-verification/current-packet-hash-preflight.json，1834项1822不变/12context源变化，玩家仍160。见[阶段161](PHASE_161_EARLY_ISLAND_NPC_QUESTS.md)。下一阶段优先原计划修两候选并走双盘/现有入口增量流程，补回所持1项后再接阿巴泽特完整NPC/关联；旧315cue与8早期NPC不重计。

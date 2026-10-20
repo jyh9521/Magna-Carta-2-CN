@@ -71,7 +71,7 @@ class AbazetBatchTests(unittest.TestCase):
         self.assertEqual(sum(e['translation']=='阿维斯族' for e in self.plan['entries']),2)
 
     def test_prior_batches_and_ids_are_preserved(self):
-        names=('readability-fix','batch-002','batch-003','batch-004','batch-005')
+        names=('readability-revised','batch-002','batch-003','batch-004','batch-005')
         workflow=load('locales/zh-Hans/translation-workflow.json')
         self.assertEqual([b['plan']['path'] for b in workflow['batches'][:5]],
             ['locales/zh-Hans/'+name+'.json' for name in names])

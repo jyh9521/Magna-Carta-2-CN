@@ -14,7 +14,7 @@ class IslandBatchTests(unittest.TestCase):
         self.review=load('locales/zh-Hans/batch-004.review.json')
 
     def test_exact_new_scope_and_disjoint_prior_ids(self):
-        previous={e['id'] for name in ('readability-fix','batch-002','batch-003')
+        previous={e['id'] for name in ('readability-revised','batch-002','batch-003')
                   for e in load('locales/zh-Hans/'+name+'.json')['entries']}
         ids={e['id'] for e in self.plan['entries']}
         self.assertEqual((len(ids),len(previous)),(308,533))
@@ -65,7 +65,7 @@ class IslandBatchTests(unittest.TestCase):
         workflow=load('locales/zh-Hans/translation-workflow.json')
         paths=[e['plan']['path'] for e in workflow['batches']]
         self.assertEqual(paths[:4],['locales/zh-Hans/'+n+'.json' for n in
-            ('readability-fix','batch-002','batch-003','batch-004')])
+            ('readability-revised','batch-002','batch-003','batch-004')])
         ids=[e['id'] for ref in workflow['batches'] for e in load(ref['plan']['path'])['entries']]
         self.assertEqual(len(ids),len(set(ids)))
         self.assertGreaterEqual(len(ids),841)

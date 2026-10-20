@@ -3971,6 +3971,42 @@
     },
     {
       "document": "..\\MC2Game\\Localization\\INT\\MC2Item.int",
+      "id": "coalesced:0b9e9c724ed1f4cbc927a49223b92227847b669044407356df3d6202fb527934",
+      "key": "secret_document",
+      "occurrence": 1,
+      "section": "Valuables",
+      "source_sha256": "5a3d7a3a56c8f42d428b71729febbfd470740f3f5ba8d64449837a42ea7f01b5",
+      "translation_sha256": "c92b3f3df2fde0da3f99cf7d621c524f1e5276edab806b096bcea93939abce6f"
+    },
+    {
+      "document": "..\\MC2Game\\Localization\\INT\\MC2Item.int",
+      "id": "coalesced:8e951b5c2e2fa48c5871673c18a42480659796c73cc767a06e1d5a1f51762471",
+      "key": "secret_document_D",
+      "occurrence": 1,
+      "section": "Valuables",
+      "source_sha256": "c31c2065e02ac056b60062916a3d08ff90124c729799cb1b7ca855c0aa10f6c5",
+      "translation_sha256": "9c387f2a2c8da2db0140506e12821db9bc7506de05b49133238120bfc9a44eb3"
+    },
+    {
+      "document": "..\\MC2Game\\Localization\\INT\\MC2Item.int",
+      "id": "coalesced:2497f062ecbf6c43eb30a0782c63a70fe671fe3ab66df3561c5dee2f8d364466",
+      "key": "Article",
+      "occurrence": 1,
+      "section": "Valuables",
+      "source_sha256": "37142a9b3ed93f6361d71b18cdca6634f1b39a5625a69be6b92ce178ed85545d",
+      "translation_sha256": "493a7b96196540e5e761f9ab1e73e3a9e8c92602fe309fddc41193bce5e14cd5"
+    },
+    {
+      "document": "..\\MC2Game\\Localization\\INT\\MC2Item.int",
+      "id": "coalesced:710ab04924361ac1dec316e856d659c185a0730888211f5e3346544210285cb9",
+      "key": "Article_D",
+      "occurrence": 1,
+      "section": "Valuables",
+      "source_sha256": "725bd395e8e34c06b9d6845564522424eeed448e3d8caa08af97ad15c58b998a",
+      "translation_sha256": "1431090eedca41342b33bcd0cfe2b957e3cfce4efbafb23856dd176898ca754b"
+    },
+    {
+      "document": "..\\MC2Game\\Localization\\INT\\MC2Item.int",
       "id": "coalesced:801d9d027eb3f6426e962ed2761182fde6a091d8d8465ad641f112038fd9e2e4",
       "key": "Avisticket",
       "occurrence": 1,
@@ -5134,7 +5170,7 @@
   "human_finalized": false,
   "input_sha256": "179e265cfc9e6d3e9f2586abe75b5da303b2af9b8484079851dab72f9f7edb8c",
   "kind": "source-locked-context-observations",
-  "plan_canonical_sha256": "5593792bbdd796dcc01dc6f739879bc7e5d924028327fe8bbfd24255065d44ad",
+  "plan_canonical_sha256": "5421b4c158928474abdc1d5edd6b06845915c41c8282e718d146b128523242b2",
   "protected_breaks": [
     {
       "id": "coalesced:8f012b4f4a5c56a1f08784d745724137df9f7d42e05c6db0bec2aa9fa3ce0d7d",
@@ -5286,9 +5322,13 @@
         "Sentinel_Key",
         "Sentinel_Key_D",
         "Simple_food",
-        "Simple_food_D"
+        "Simple_food_D",
+        "secret_document",
+        "secret_document_D",
+        "Article",
+        "Article_D"
       ],
-      "reason": "Same document/section explicit-key union; preserve all earlier selection boundaries, no completeness promotion. Original reasons: Full lifetime free Avis transport ticket name-description pair tied07_23; dangerous or war zones excluded by dialogue, not universal destination access. | Four full device/hide/ration/access-card name-description pairs; key/card wording source distinction and trailing space retained. | Phase161addcompleteSimple_food/Simple_food_Dpair;retaintrailingwhitespace.",
+      "reason": "Same document/section explicit-key union; preserve all earlier selection boundaries, no completeness promotion. Original reasons: Full lifetime free Avis transport ticket name-description pair tied07_23; dangerous or war zones excluded by dialogue, not universal destination access. | Four full device/hide/ration/access-card name-description pairs; key/card wording source distinction and trailing space retained. | Phase161addcompleteSimple_food/Simple_food_Dpair;retaintrailingwhitespace. | Exactscopeownershiptransfer;originalreason: Full secret-document item name/description linked to both remnant missions; original spy wording retained. | Exactscopeownershiptransfer;originalreason: Complete village-relic name/description pair; not Mare pendant, Crocell paternal relic or Vizen token; trailing source space preserved.",
       "section": "Valuables"
     },
     {
@@ -5446,7 +5486,7 @@
         "Chapter00_23",
         "Chapter00_24"
       ],
-      "reason": "EarlyislandNPC/quest/context:preparation vsactualinvasion,hearsay/heroquestionsnotprovedidentity;fourflower/fivehornandallfunctionalquestcontrolsretained. Rescue/curegoalsnotautomaticsuccess;latefruitgriefnotnewtimermechanism. Explicitremainingkeys excludeoldIDs/unknownoriginals. SourceNPCduplicatekeyoccurrencesseparate. Ch00_0/00_130_00literal3targetChinese\u7b2c\u4e09guardmismatch withheldpendingrepair,notcounted.",
+      "reason": "EarlyislandNPC/quest/context:preparation vsactualinvasion,hearsay/heroquestionsnotprovedidentity;fourflower/fivehornandallfunctionalquestcontrolsretained. Rescue/curegoalsnotautomaticsuccess;latefruitgriefnotnewtimermechanism. Explicitremainingkeys excludeoldIDs/unknownoriginals. SourceNPCduplicatekeyoccurrencesseparate. Phase161literal3/\u7b2c\u4e09recordwaswithheld;phase162repairnowobserved,oldexclusionretainedinhistoricalreport.",
       "section": "Chapter00"
     }
   ]

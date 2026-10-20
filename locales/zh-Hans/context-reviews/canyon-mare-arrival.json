@@ -3256,7 +3256,7 @@
       "occurrence": 1,
       "section": "Ch00_0",
       "source_sha256": "913609590579fb1281d57585e8ecd47bc5d51fcf93d9c4c16b9de0e3fbe37adf",
-      "translation_sha256": "69d3c08e6bd47551ef02af0fffe34a87b8cca72a7a4a961bd3f6bb0170b835c0"
+      "translation_sha256": "f77a587514863db945209586439584a7810c51e6f7d26bc15dd69f25f6111d50"
     },
     {
       "document": "..\\MC2Game\\Localization\\INT\\MC2NpcTalk.int",
@@ -3320,6 +3320,15 @@
       "section": "Ch00_0",
       "source_sha256": "d70db07ba6bfd91dbc8f2c986aa0db66983f7baad694f9c6189e547e4ebb7bba",
       "translation_sha256": "d51f735029d3c88a847e410fbf45464be9750c0355932933baeea3dad2d27c21"
+    },
+    {
+      "document": "..\\MC2Game\\Localization\\INT\\MC2NpcTalk.int",
+      "id": "coalesced:97cee44222d2dbfa70581cccc02656f6da6cb366b411c31a751e671ee7cb7642",
+      "key": "00_130_00",
+      "occurrence": 1,
+      "section": "Ch00_0",
+      "source_sha256": "718c3b3680beedbf95a49987357b588746608c322db206ed2cb9f0b6832cf3d6",
+      "translation_sha256": "1d2ee7b4d34c78e0f63b3aaa0a4a77c791d1011cd84dafdc226aab3c22d87032"
     },
     {
       "document": "..\\MC2Game\\Localization\\INT\\MC2NpcTalk.int",
@@ -3811,7 +3820,7 @@
   "human_finalized": false,
   "input_sha256": "179e265cfc9e6d3e9f2586abe75b5da303b2af9b8484079851dab72f9f7edb8c",
   "kind": "source-locked-context-observations",
-  "plan_canonical_sha256": "5593792bbdd796dcc01dc6f739879bc7e5d924028327fe8bbfd24255065d44ad",
+  "plan_canonical_sha256": "5421b4c158928474abdc1d5edd6b06845915c41c8282e718d146b128523242b2",
   "protected_breaks": [
     {
       "id": "coalesced:08b640fbdb7d3a04a3c178187be2bd317aa3e1d7c7faa5d1ff7dd7122737a517",
@@ -4216,9 +4225,10 @@
         "00_131_03",
         "00_131_04",
         "00_131_05",
-        "199_0"
+        "199_0",
+        "00_130_00"
       ],
-      "reason": "EarlyislandNPC/quest/context:preparation vsactualinvasion,hearsay/heroquestionsnotprovedidentity;fourflower/fivehornandallfunctionalquestcontrolsretained. Rescue/curegoalsnotautomaticsuccess;latefruitgriefnotnewtimermechanism. Explicitremainingkeys excludeoldIDs/unknownoriginals. SourceNPCduplicatekeyoccurrencesseparate. Ch00_0/00_130_00literal3targetChinese\u7b2c\u4e09guardmismatch withheldpendingrepair,notcounted.",
+      "reason": "EarlyislandNPC/quest/context:preparation vsactualinvasion,hearsay/heroquestionsnotprovedidentity;fourflower/fivehornandallfunctionalquestcontrolsretained. Rescue/curegoalsnotautomaticsuccess;latefruitgriefnotnewtimermechanism. Explicitremainingkeys excludeoldIDs/unknownoriginals. SourceNPCduplicatekeyoccurrencesseparate. Phase161literal3/\u7b2c\u4e09recordwaswithheld;phase162repairnowobserved,oldexclusionretainedinhistoricalreport.",
       "section": "Ch00_0"
     }
   ]

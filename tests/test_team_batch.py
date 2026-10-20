@@ -20,7 +20,7 @@ class TeamBatchTests(unittest.TestCase):
         self.assertEqual(self.review['status'],'draft')
 
     def test_incremental_and_unique_ids(self):
-        names=('readability-fix','batch-002','batch-003','batch-004','batch-005')
+        names=('readability-revised','batch-002','batch-003','batch-004','batch-005')
         before={e['id'] for n in names for e in load('locales/zh-Hans/'+n+'.json')['entries']}
         ids=[e['id'] for e in self.plan['entries']]
         self.assertEqual((len(before),len(ids),len(set(ids))),(1117,272,272))
@@ -58,7 +58,7 @@ class TeamBatchTests(unittest.TestCase):
     def test_workflow_keeps_previous_batches(self):
         paths=[e['plan']['path'] for e in load('locales/zh-Hans/translation-workflow.json')['batches']]
         self.assertEqual(paths[:6],['locales/zh-Hans/'+n+'.json' for n in
-            ('readability-fix','batch-002','batch-003','batch-004','batch-005','batch-006')])
+            ('readability-revised','batch-002','batch-003','batch-004','batch-005','batch-006')])
         ids=[e['id'] for p in paths for e in load(p)['entries']]
         self.assertEqual(len(ids),len(set(ids)));self.assertGreaterEqual(len(ids),1389)
 

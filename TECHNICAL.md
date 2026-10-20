@@ -1,3 +1,7 @@
+## 无新增字符的需求子集复用与原计划修订（阶段162）
+
+Verified / offline：两修订使完整INT字面字符2446→2445，仅U+5C16尖消失，无新增字符；不能套用160的字集完全相等断言。源回放保留旧字体组件/route字节，当前完整需求的覆盖、逆重建与控制账本单独复核，font-only历史readiness不重贴当前标签，仅重锁workflow身份。两个Valuables明确scope合入identity原scope，4旧成员迁移释放2scope供城市NPC及完整人质任务；旧7675身份/邻序/策略除1目标锁取代外保持，335理由注释显式取代，16/32/1000不变。见[阶段162](docs/PHASE_162_ABAZET_HOSTAGE_AND_CONSISTENCY.md)。
+
 ## 同section显式scope跨profile所有权重分配（阶段161）
 
 Verified / offline：12份profile的CharacterName/Default明确键组集中opening-layout一scope，50旧名字ID保留，38从11个donor迁移；源/译hash、occurrence、邻序、策略均不变，原scope/理由/所有者保存在Git686b403及隔离baseline。释放11scope用于5NPC/4任务/Compose/Ingredient；新名字20与便当2扩入既有同section明确键scope，不升格complete_section。60旧context理由注释单列取代，4份无关profile原字节保持；仍16×32、各≤1000，无工具/schema/上限变更。见[阶段161](docs/PHASE_161_EARLY_ISLAND_NPC_QUESTS.md)。

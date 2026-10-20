@@ -168,7 +168,7 @@ class PublicWorkflowTests(unittest.TestCase):
         ids=[e['id'] for p in batches for e in p['entries']]
         self.assertEqual(len(ids),len(set(ids)))
         self.assertGreaterEqual(len(ids),533)
-        self.assertEqual(batches[0],self.load('locales/zh-Hans/readability-fix.json'))
+        self.assertEqual(batches[0],self.load('locales/zh-Hans/readability-revised.json'))
         self.assertEqual(len(batches[1]['entries']),54)
         self.assertEqual(len(batches[2]['entries']),217)
         for p in batches:

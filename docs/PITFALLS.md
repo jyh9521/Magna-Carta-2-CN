@@ -1,3 +1,7 @@
+## NPC保守换行不能套用纯功能文本的等序断言（阶段162）
+
+从160短剧UI模板迁移的prepare首次把普通NPC也纳入功能TOKEN等序断言，已有重排对话因此拒绝。失败在首份profile写入前，源计划两标量与旧profile状态分别核hash，恢复从已验证baseline重建；普通NPC保留既有受控重排策略，仅相同TOKEN序列的任务功能段落纳入保护分隔，不改通用守卫。预检另发现两修订会移除最后一个尖字，字集相等断言错误；改为实证2445为旧2446严格子集，无新增字，历史字体readiness保留。首次修改后2个source-only测试另抓住历史262文本scope/hash漂移；保留原断言、恢复历史readability-fix字节，当前两标量版本readability-revised替换workflow原槽位，新增2回归而非弱化旧守卫。见[阶段162](PHASE_162_ABAZET_HOSTAGE_AND_CONSISTENCY.md)。
+
 ## 数字语义相同也不能悄悄绕过既有字面守卫（阶段161）
 
 NPC00_130_00源3年、draft第三年触发既有atom不一致。首次合批审计拒绝后保留报告/源，明确排除该1项并锁候选第3年；不把守卫改成接受任意中文数字，也不将被拒项计观察。272原选减1后271合批，四任务链完整。恢复脚本初次stdin多一个括号造成语法错误，执行前失败未写；最终从686b403的hash验证baseline重建12份scope并完整重跑。全部证明完成后，旧扩展模板的摘要字段extended_profiles不适用于重分配，摘要序列化KeyError；改用明确重分配计数，并重核所有命令日志/退出码、报告及1834当前hash，源码/玩家包未再改变。跨profile角色名迁移保留全部occurrence和原理由，不能用去重冒充省scope。见[阶段161](PHASE_161_EARLY_ISLAND_NPC_QUESTS.md)。
@@ -1086,3 +1090,7 @@ Verified / source：MC2Quest.int的11_303_0在yes_0/in_0/DES分别写4/3/5，且
 Verified / source：双盘锁定INT的MC2Skill.int/Renkai_Ougi中，Skill_d_37出现两次，不能以(section,key)字典去重。occurrence1是风/雷描述，ID为coalesced:d02cca0a45466b43635aa14caa97a7a936f0c90f0f5f0dbae180097f716d8183，源值UTF-8 hash为092189de54fd4e88eeed72e9e6724cb306120ee93279a537daa9d7876fb51d40；occurrence2是冰/雷描述，ID为coalesced:dacc826ac97f366f530bdf7db67ae20723de9f871e311ff2351b8ea5bc160a68，hash为aebd919bd063cdb7e58ba4b276909b0bcfd0e9cd8219bac2bc37e110baf01f1b。55批已译1，71批只新增2；旧译与原始两个occurrence均保持。
 Verified / source：同一INT的Juto_Crocell_Renkai源名노바 슬래시含内部空格，Compose12_38/39的노바슬래시无空格；精确短语搜索会漏掉前者。保留各自源ID/hash/拼写，仅在候选词库记录主词/alias，不预先规范化源文本。
 Unverified：实际技能触发、属性效果与提示调用尚无本批运行证据；源码邻接和描述不替代游戏验收。초빙결뇌진폭暂译超冰结雷震爆，原汉字与官方译名仍待核。
+
+### Phase 162 active workflow slot contracts
+
+The full modified suite exposed four legacy assertions pinning the active first workflow slot to readability-fix.json. The historical baseline stays byte-identical; these four current-workflow assertions now explicitly require readability-revised.json, not an arbitrary path. The dedicated revision regression still permits exactly two authorized scalar edits and preserves all IDs and draft metadata. The failing run is retained in modified-tests-before-current-slot-contracts.log.

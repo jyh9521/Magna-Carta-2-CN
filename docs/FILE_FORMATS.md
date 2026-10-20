@@ -1,3 +1,7 @@
+## 子集字符需求不等于相等需求（阶段162）
+
+demand-equivalence证据明确before2446/after2445、added=[]、removed=[23574]及旧字体需求为超集，不把文件名误读成字集相等。scope/route历史实验字段保留，workflow supersession说明当前修订；composition/comparison验证实际新计划和现有组件。旧目标锁取代只有已观察00_120_00一项，数字项此前未观察，本轮修复后作为新context；335理由注释与目标hash取代分开核。见[阶段162](PHASE_162_ABAZET_HOSTAGE_AND_CONSISTENCY.md)。
+
 ## scope所有权迁移仍使用原schema（阶段161）
 
 Default明确keys从donor移到recipient时，entries同步按原容器顺序重分配；按id验证跨profile不重叠，禁止把重复key的不同occurrence合并。保护分隔不随非相关名称迁移丢失。新报告60处reason变化与source/target/邻序/策略的相等投影分开核；无新增通配字段，complete_section=false保持，未计划原文与已计划待修字面数字分别列出。见[阶段161](PHASE_161_EARLY_ISLAND_NPC_QUESTS.md)。

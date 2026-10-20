@@ -1,3 +1,7 @@
+## 同key计划值与删除标记必须按物理occurrence分开（阶段167）
+
+06_Abajet源191/计划166；完整section审计被25未计划原文拒绝，精确key仍会带入2202_0/2244_0/2245_0的删除标记#2。两次预检均在profile写入前失败。使用新增可选occurrences只选三key的#1，未计划守卫与16×32/1000均不放宽。合成fixture默认draft0/1自身新增数字，初版正例也被数字守卫正确拒绝；修正fixture而非数字断言。原日志/源码/hash与工具独立恢复验证保留，见[阶段167](PHASE_167_RUHALT_MOBILIZATION_AND_OCCURRENCES.md)。
+
 ## NPC保守换行不能套用纯功能文本的等序断言（阶段162）
 
 从160短剧UI模板迁移的prepare首次把普通NPC也纳入功能TOKEN等序断言，已有重排对话因此拒绝。失败在首份profile写入前，源计划两标量与旧profile状态分别核hash，恢复从已验证baseline重建；普通NPC保留既有受控重排策略，仅相同TOKEN序列的任务功能段落纳入保护分隔，不改通用守卫。预检另发现两修订会移除最后一个尖字，字集相等断言错误；改为实证2445为旧2446严格子集，无新增字，历史字体readiness保留。首次修改后2个source-only测试另抓住历史262文本scope/hash漂移；保留原断言、恢复历史readability-fix字节，当前两标量版本readability-revised替换workflow原槽位，新增2回归而非弱化旧守卫。见[阶段162](PHASE_162_ABAZET_HOSTAGE_AND_CONSISTENCY.md)。

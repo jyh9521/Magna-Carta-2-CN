@@ -4340,6 +4340,33 @@
     },
     {
       "document": "..\\MC2Game\\Localization\\INT\\MC2UI_Field.int",
+      "id": "coalesced:099d850eb18689d723847589601f2a06c7ba6d77be12bdd7a80199774aebe84e",
+      "key": "Drama3_Name",
+      "occurrence": 1,
+      "section": "Live Drama",
+      "source_sha256": "775a7652146b30a640dbc7df7779a9d9fd477e0151aecd9cda83e62e488dfee5",
+      "translation_sha256": "6bc3db4cdb67f84ca5f078a408411c778057d0b84fa323d9c6a4a0a75cce82bc"
+    },
+    {
+      "document": "..\\MC2Game\\Localization\\INT\\MC2UI_Field.int",
+      "id": "coalesced:0737677f22e22421f9471121bca92fac3f8fc73781b8e5c14a8ecd67236825fa",
+      "key": "Drama3_Character",
+      "occurrence": 1,
+      "section": "Live Drama",
+      "source_sha256": "8a38eee787666efbb77b50df318e31840db92d1f3626de19fe26717253725381",
+      "translation_sha256": "f9fcb793162da4dafdbaa1480e72d5ace33293ba861a35648e5c925215085349"
+    },
+    {
+      "document": "..\\MC2Game\\Localization\\INT\\MC2UI_Field.int",
+      "id": "coalesced:76f1aee2e3fb25bc0ab4cd64867276069dd225431c51b2387aefcbda27927e66",
+      "key": "Drama3_Story",
+      "occurrence": 1,
+      "section": "Live Drama",
+      "source_sha256": "fe32d69af5685bfd62a9afc6a480912e0c51979219655671f6fc9f4a158ef323",
+      "translation_sha256": "88579962685f9bb5b6b4ea399ca5fb553a28e46e0c501a8b4173d1d19c70ed93"
+    },
+    {
+      "document": "..\\MC2Game\\Localization\\INT\\MC2UI_Field.int",
       "id": "coalesced:b479b2d24a9a5672938c11eec4136bfe96adbf296ccd1825e1c19e5659fab41a",
       "key": "Q_Skip",
       "occurrence": 1,
@@ -4396,6 +4423,10 @@
     {
       "id": "coalesced:3a20e0e96ffe4458cb59d89e4a5cce280d096895c558f4ca6093bb15f465dab3",
       "reason": "Retain complete functionalquestobjective/choice/item paragraphs andprotectedTOKENsequence;not ordinarydialoguereflow."
+    },
+    {
+      "id": "coalesced:76f1aee2e3fb25bc0ab4cd64867276069dd225431c51b2387aefcbda27927e66",
+      "reason": "Preserve Drama3 synopsis functionalparagraphs andleading whitespace."
     }
   ],
   "resource": "MC2Game/Localization/Coalesced.int",
@@ -4592,9 +4623,12 @@
         "Drama2_Name",
         "Drama2_Character",
         "Drama2_Story",
-        "Q_Skip"
+        "Q_Skip",
+        "Drama3_Name",
+        "Drama3_Character",
+        "Drama3_Story"
       ],
-      "reason": "Explicit8linkedUIkeys:selector/title/cast/synopsisforDrama1/2plusendingconfirmation;Drama3threefieldsnotyetobserved. Preservefunctionalparagraphs/controlsequence. UIprovesin-sourcepresentationnotDLCownership/runtimeunlock.",
+      "reason": "Explicit8linkedUIkeys:selector/title/cast/synopsisforDrama1/2plusendingconfirmation;Drama3threefieldsnotyetobserved. Preservefunctionalparagraphs/controlsequence. UIprovesin-sourcepresentationnotDLCownership/runtimeunlock. | Phase167exactownershipmerge originalscope: Only three Drama3 name/cast/synopsis keys;prior8UIkeysnotrecounted. Preserve leading space andfunctional paragraphs,notruntimeunlockproof.",
       "section": "Live Drama"
     },
     {

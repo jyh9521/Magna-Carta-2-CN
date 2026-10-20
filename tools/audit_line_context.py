@@ -35,12 +35,28 @@ def audit(data,plan,profile=None):
             if (not isinstance(scope.get('reason'),str) or not scope['reason'].strip()
                     or type(scope.get('complete_section')) is not bool):raise ValueError('invalid context scope')
             keys=scope.get('keys')
+            occurrences=scope.get('occurrences')
             if scope['complete_section']:
-                if keys is not None:raise ValueError('complete section cannot have filtered keys')
+                if keys is not None or 'occurrences' in scope:raise ValueError('complete section cannot have filtered keys or occurrences')
             elif not isinstance(keys,list) or not keys or len(set(keys))!=len(keys):raise ValueError('invalid context key set')
+            if 'occurrences' in scope:
+                if (not isinstance(occurrences,dict) or not occurrences
+                        or not set(occurrences).issubset(keys)):
+                    raise ValueError('invalid context occurrence filter')
+                for values in occurrences.values():
+                    if (not isinstance(values,list) or not values
+                            or any(type(n) is not int or n<1 for n in values)
+                            or len(set(values))!=len(values)):
+                        raise ValueError('invalid context occurrence set')
             hits=[r for r in rows if (r['embedded_path'],r['section'])==(scope['document'],scope['section'])
                   and (keys is None or r['key'] in keys)]
             if not hits or (keys is not None and set(keys)!={r['key'] for r in hits}):raise ValueError('empty or stale context scope')
+            if occurrences is not None:
+                for key,values in occurrences.items():
+                    available={r['occurrence'] for r in hits if r['key']==key}
+                    if not set(values).issubset(available):raise ValueError('stale context occurrence filter')
+                hits=[r for r in hits if r['key'] not in occurrences
+                      or r['occurrence'] in occurrences[r['key']]]
             for r in hits:
                 if r['id'] in selected:raise ValueError('overlapping context scopes')
                 if r['id'] not in changes:raise ValueError('context scope includes unplanned original value')

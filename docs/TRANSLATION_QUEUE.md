@@ -1,3 +1,11 @@
+## 第99批接续状态（2026-10-20）
+
+INT累计10,571条draft；新增200条见[BATCH_099_SYSTEM_TUTORIAL](BATCH_099_SYSTEM_TUTORIAL.md)，475项共享candidate，旧468保持。
+完整剩余教程64、Field104、晶柱13及系统19已回填；45条日志/升级/助词拼接held，SID/数字样本不计翻译。
+当前工作区build/batch-099-verification/verified-workspace；旧10371/历史held/邮件128/235/44字幕315cue保持。
+下批核读MC2Skill完整风格、属性增强和卡蒙德强化奖励，按150–300条完整功能组合批。源机制声明不是运行测试；不根据英文key改源属性。
+7605个其余原值含工具/样本，非确定玩家待译量；不合盘、不刷新字库/TOC/入口，离线非游戏验收。
+
 ## 第98批接续状态（2026-10-20）
 
 INT累计10,371条draft；新增189条见[BATCH_098_COMBAT_UI](BATCH_098_COMBAT_UI.md)，468项共享candidate，旧455保持。

@@ -472,7 +472,14 @@
 | mc2-combat-ui-466 | 기의 칸 | 气之KAN | system | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:b0035ac4f5c32928011b0207cede2fcceef326f9ffcf9b8065e1a088bc893cea |
 | mc2-combat-ui-467 | 고대령 | 古代灵 | role | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:88746b109145c223adf32b419e49e1a7f8c3e036cd5fe1b281ceb7d16a6911f0 |
 | mc2-combat-ui-468 | 주목모드 | 注视模式 | ui | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:cf3cbb98674b6e1da5aeeb125bffdf2483091a94d077ce0a26c40040a41fd786 |
+| mc2-system-tutorial-469 | 베리엘 | 贝里艾尔 | role | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:8abd344509b711ee8e015051c8e570fdc5acfc4810c43c09d31a0034347f0091 |
+| mc2-system-tutorial-470 | 카몬드보드 | 卡蒙德盘 | system | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:170326be65b89eb1454fb198302eb0336e43442db5b18b44d79daa703bfb574d |
+| mc2-system-tutorial-471 | 큐어러 | 疗愈术 | skill | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:e22c80712bb12be900e0bc2d2df08dffaa813f1b3e968a16ecd7b06f39e62442 |
+| mc2-system-tutorial-472 | 아이스봄 애로우 | 冰爆箭 | skill | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:a6fad9b50111cb6b3dfc1c5701b37af781d2cb3be5fac4b48a2d3b1b8388970c |
+| mc2-system-tutorial-473 | 프로즌 애로우 | 冰冻箭 | skill | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:a6fad9b50111cb6b3dfc1c5701b37af781d2cb3be5fac4b48a2d3b1b8388970c |
+| mc2-system-tutorial-474 | 구조요청 | 救援请求 | system | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:73efbc1e43956a9ec75b24f3227f9d85b82bf3ca12eda5740bfc56ee2e76f939 |
+| mc2-system-tutorial-475 | 연계요청 | 协同请求 | system | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:227fdd210d21d57dd7d38ede34b3625a282604cc5fbb35174e5ab5baeb86a569 |
 
-本作词条：468；已继承：0。
+本作词条：475；已继承：0。
 
 固定来源、统计、冲突与审核流程见 [系列术语参考](docs/SERIES_TERMS.md)。

@@ -1,3 +1,11 @@
+## 第100批接续状态（2026-10-20）
+
+INT累计10,735条draft；新增164条见[BATCH_100_STYLE_SKILLS](BATCH_100_STYLE_SKILLS.md)，526项共享candidate，旧475保持。
+朱特/阿尔戈/洁菲六风格未译名称/说明完整回填；StatStrong10属性拼接held。其余角色风格和卡蒙德按完整功能组继续。
+当前工作区build/batch-100-verification/verified-workspace；旧10571/全部held/邮件128/235/44字幕315cue不改。
+JPN只作已核技能名的有限字形依据，不当作剧情全局对齐；7441个其余原值含工具/样本，非确定玩家待译量。
+不合盘、不刷新字库/TOC/入口；离线非游戏验收。每批统一验证、清理、提交推送核对后直接接续。
+
 ## 第99批接续状态（2026-10-20）
 
 INT累计10,571条draft；新增200条见[BATCH_099_SYSTEM_TUTORIAL](BATCH_099_SYSTEM_TUTORIAL.md)，475项共享candidate，旧468保持。

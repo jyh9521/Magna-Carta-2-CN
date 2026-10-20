@@ -479,7 +479,58 @@
 | mc2-system-tutorial-473 | 프로즌 애로우 | 冰冻箭 | skill | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:a6fad9b50111cb6b3dfc1c5701b37af781d2cb3be5fac4b48a2d3b1b8388970c |
 | mc2-system-tutorial-474 | 구조요청 | 救援请求 | system | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:73efbc1e43956a9ec75b24f3227f9d85b82bf3ca12eda5740bfc56ee2e76f939 |
 | mc2-system-tutorial-475 | 연계요청 | 协同请求 | system | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:227fdd210d21d57dd7d38ede34b3625a282604cc5fbb35174e5ab5baeb86a569 |
+| mc2-style-skills-476 | 공진참 | 空进斩 | skill | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:fc1f85c9a9cfd355cafd8e50fe36a9aa785e32da74a841753e4851e47744ae03 |
+| mc2-style-skills-477 | 강철의 자세 | 钢铁架势 | skill | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:514f7cce3a2c859be8e78594e601432d0743afcc9bfa3492f626ace4f796e717 |
+| mc2-style-skills-478 | 공진연섬 | 空进连闪 | skill | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:3353d7b4969b25256006c26f96ffd3ea468c5b7abf7599dfcd77ac1f9e2f1574 |
+| mc2-style-skills-479 | 철일영 | 铁一影 | skill | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:f11c164941c3f7c2aa4eb89937d4f750827fa230b1c774298bde77ec0d744048 |
+| mc2-style-skills-480 | 환은섬 | 幻隐闪 | skill | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:093a42476634f9b0272d3acdda2eff0fbacfa0f6efe6fae984e14991584458f4 |
+| mc2-style-skills-481 | 열진연섬 | 裂进连闪 | skill | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:4b123fe4d59a20ecbcb28eebb522d98b269e4e2426355da1cdaf201acf51dc8c |
+| mc2-style-skills-482 | 공파열진섬 | 空破裂进闪 | skill | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:e4b0735ffb46a821502d4c651118e241e3fb8733f34c560a8ae292a5c97c537f |
+| mc2-style-skills-483 | 초절파천무 | 超绝破天舞 | skill | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:78d0cac2418a377ff51f4754b302f062e0d8421a96acd1c36089f40375fb68f2 |
+| mc2-style-skills-484 | 강진참 | 刚进斩 | skill | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:a0ed9121d0002fce322cb6b76a6bcae3a07137d3415c51f90401c89e7bfa6fd4 |
+| mc2-style-skills-485 | 초강진 | 超刚进 | skill | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:02a25db88a64ca898ed6566d2cf9ef72faddbc974fe0b2213a03818d0885b72b |
+| mc2-style-skills-486 | 필살의 자세 | 必杀架势 | skill | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:74158f91c6fd13495037c67621a2b908865cbf97ef034de11ed7394bb8bce29d |
+| mc2-style-skills-487 | 공진삼연참 | 空进三连斩 | skill | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:9c5cd228a2621c9fd701932017a7bf7bb998e059246b2f9b881c9ce2fea98fc3 |
+| mc2-style-skills-488 | 파쇄난섬 | 破锁乱闪 | skill | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:84a599ba917c34ebfe737d4c2838450927894d8dbc690281f77d71b423376226 |
+| mc2-style-skills-489 | 강진열참 | 刚进裂斩 | skill | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:5d83834741e5f4f8b1ce90c53cb70e3552270a6fbf61b4ecfef80b27f5b01257 |
+| mc2-style-skills-490 | 파열극섬 | 破裂极闪 | skill | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:4151a2929c31d0fafc725304013100736d8ac363225786643367d79fa9f370b5 |
+| mc2-style-skills-491 | 공파무쌍도 | 空破无双刀 | skill | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:c7f22ec76e2c2d6649b1687299c60093b2afc7ea342a4c1388a9274305e06c0d |
+| mc2-style-skills-492 | 해머 러시 | 连锤猛攻 | skill | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:6b56260ae288025adc23a7a1a6af7e90fd2709b28b9ab6c09a57226520271e08 |
+| mc2-style-skills-493 | 버스트 너클 | 爆裂拳 | skill | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:1216555d41b362f87338fd7e9682fc223b6a49865d1d44a9b19fa625e038a72f |
+| mc2-style-skills-494 | 해머 버스트 | 爆裂锤 | skill | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:74e98aa2c3e0ab7de3ded6c9151414c9d0dc7e2fc683db3a0c8a0128b9322c4d |
+| mc2-style-skills-495 | 해머 브레이크 | 破击锤 | skill | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:855b09817207898fccc4ee119a9a666b081eb1b43c8da64da1e219f7f7cb8fe1 |
+| mc2-style-skills-496 | 헤븐즈 해머 | 天降神锤 | skill | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:2cd8d3d8acb8fa22dbd4ddfc93fccb76cd1e62591d6391ba3bc1c72d6a1001e4 |
+| mc2-style-skills-497 | 스파이럴 해머 | 螺旋锤 | skill | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:97a3685e9d763a54fa31829d7ad813089690f3a317e53800c623c0d5cef89e3e |
+| mc2-style-skills-498 | 서몬 해머 | 召唤巨锤 | skill | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:6e13273eae42e6912bb1febdc48b9d362e38ed1cf49db5ee277b6636cbae1930 |
+| mc2-style-skills-499 | 휴즈 퀘이크 | 大地震 | skill | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:2d7409f937b4a40eddd38916076fb16f9c2f56a4d797d41ab93dfbd96bcb3532 |
+| mc2-style-skills-500 | 히트 액스 | 重斧打击 | skill | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:760ccf01b0a0f41fa1ebb67d75269068549e6573e526e573eabbd02cd2774dd8 |
+| mc2-style-skills-501 | 폴 엑스 | 长柄斧 | skill | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:197ad5ac7f0884ec2f8412d424a761b7529631ab059247a89fe5d31a60bc2d14 |
+| mc2-style-skills-502 | 트리플 엣지 | 三连刃 | skill | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:67063de230b59b12425a95359d4d51a9b9ac29ace800acff912663b2b4f37b2a |
+| mc2-style-skills-503 | 스턴 엣지 | 眩晕刃 | skill | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:cefed9103328c3fd7834bb54d25f80e25ca81023e49193c55b2315e3d7dcf8e8 |
+| mc2-style-skills-504 | 버서크 엣지 | 狂暴刃 | skill | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:631ea666f284405eef37f9a53b6603f7cc7577969f8014fa11d7f2acf1240c30 |
+| mc2-style-skills-505 | 파이브 엣지 | 五连刃 | skill | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:2897072de19a8bfc0ea47653904b005271ae708f03f29a85da79506c996ee5eb |
+| mc2-style-skills-506 | 스팅 엣지 | 穿刺刃 | skill | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:84f14f5fb478561ff75d2e7e1284214f2ed32d3fa93e927d7ee72cb2d41fe97d |
+| mc2-style-skills-507 | 홀리 웨이브 | 神圣波动 | skill | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:d4408c6b2992d42034051c3ac9713ffc77be0560ab0fb5d2740c7b689334f741 |
+| mc2-style-skills-508 | 응급처치 | 应急处理 | skill | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:36dd268c458c063c55adf8673928d6deae0c7ed36bd1a423f6e83d2c04b09f80 |
+| mc2-style-skills-509 | 홀리 리플 | 神圣涟漪 | skill | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:af78af6490c7974d6336a0f0553df73e058fa413c21cddd84c633688d6cf0545 |
+| mc2-style-skills-510 | 리저렉션 | 复苏术 | skill | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:7dbb9f1b2ab5132ec3d2c3303f9e0bbcd2a1246e93857c9d4711a2d28e4401cb |
+| mc2-style-skills-511 | 메디신 | 医疗术 | skill | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:1dff704771e4e2584953e446bf908d212de8cdc8cbdccd87a36cd749e5756628 |
+| mc2-style-skills-512 | 리커버리 | 复原术 | skill | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:d0cdb58e335c19f7d35704d70fdf2a032d606f267e897c2430e61519575c494e |
+| mc2-style-skills-513 | 리플레시 | 清新术 | skill | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:a5aca78de6b823c65414ab3c009a62e1540b955e86bcc1603f6dde745218dd17 |
+| mc2-style-skills-514 | 홀리 플래티너 | 神圣白金 | skill | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:8756d1639008aa4393b88c4828af3da197fec983ce89cc3565bbd04fcc1305ed |
+| mc2-style-skills-515 | 올 큐어러 | 全体疗愈术 | skill | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:6103a567013cc3d178fa5bf5b5143bccbca76dcc19efbe353b7a0b35cfd8c614 |
+| mc2-style-skills-516 | 퓨즈 페인 | 苦痛净化 | skill | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:b12c51f33123d5250f8375502790fca8f245cd62887c0998cf0327eb47391dd6 |
+| mc2-style-skills-517 | 디바인 플래티너 | 圣辉白金 | skill | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:b8518e881c243cd8a9d10213384933be99717560256004b517ec467cc3e9648a |
+| mc2-style-skills-518 | 더 라스트 프레이 | 最后的祈祷 | skill | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:e8559f64f3add3d8229d5a7263323809857f8c0adca8e3b6cf387b5e622b3d48 |
+| mc2-style-skills-519 | 윈드 웨이브 | 风之波动 | skill | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:eff7c97f24edca5bfd486162087bbeda13031c5d16375cddae322478ab8d37ea |
+| mc2-style-skills-520 | 윈드 커터 | 风刃斩 | skill | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:12ea9e16ab63d10c4c31bc1225d5c6ae3f89e928d5939566975da86ed7112879 |
+| mc2-style-skills-521 | 에어카시린 | 风之卡希林 | skill | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:3b75ccb0311bd6df401eebdc6c4206adbc0fe8280e782d28bbbf14e54011bbfa |
+| mc2-style-skills-522 | 윈드 블로우 | 风之吹息 | skill | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:816f56d425ba45ce27777bd86812f723df656438f5f9fb730c59feaee32a4bcf |
+| mc2-style-skills-523 | 윈드 엣지 | 风之箭刃 | skill | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:35b55b401c6addf450175479b02e7c848cb24cb5fef7d0f763b91b862a78a977 |
+| mc2-style-skills-524 | 에어로 베일 | 风之帷幕 | skill | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:be8a68ef93d49f48cd18fdfdac006df2cb143f9448b208df356c50776c35af08 |
+| mc2-style-skills-525 | 마이티 스톰 | 强力风暴 | skill | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:ecebf4d95946f9299170244267d7d00869fec0a14ca9f89d7524db9bacfa7483 |
+| mc2-style-skills-526 | 윈드 블레이드 | 风之圣剑 | skill | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:faef39eba7ebbc3af38c0deb91e4e7c8cf4847d684ab37695dc46faddbf81184 |
 
-本作词条：475；已继承：0。
+本作词条：526；已继承：0。
 
 固定来源、统计、冲突与审核流程见 [系列术语参考](docs/SERIES_TERMS.md)。

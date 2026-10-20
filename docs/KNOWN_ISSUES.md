@@ -1,3 +1,7 @@
+## 第151阶段：两条任务原值不能冒认完整任务已审
+
+11_302_0有18源/16计划字段，302_6/7仅存不完整样物理文本，不属于旧24held；已核对双盘原值、显式排除，不补缺文或判定运行不用。10_80_48源括注游戏中不出现，也只是源文本证据。累计5218 INT/254cue，2614策略观察、2577上下文待审；5191运行布局/TAB仍待核。当前依赖表为build/phase-151-verification/current-packet-hash-preflight.json，玩家包保持。见[阶段151](PHASE_151_RECOVERY_ARCHIVE_CONTEXT.md)。
+
 ## 第150阶段：精神形象与状态条件仍非运行验证
 
 累计4971 INT/234cue，2477策略观察、2714上下文待审；5191运行布局/TAB仍待核。共享Renkai_Ougi/Skill_d_37含风雷、冰雷两条不同occurrence，物理源已核对但运行取值未推定。10_kotamare恢复/梅莉莎/告别后续区块及10-65/70独立字幕留待对应阶段，不提前计完成。当前依赖表切换build/phase-150-verification/current-packet-hash-preflight.json，仅两context源hash有明确扩展、玩家资源保持。见[阶段150](PHASE_150_MENTAL_CONTACT_CONTEXT.md)。

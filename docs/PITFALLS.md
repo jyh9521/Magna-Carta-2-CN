@@ -1,3 +1,7 @@
+## 只列有draft字段会隐藏同section的未计划原文（阶段151）
+
+关联查询若先过滤planned，会将11_302_0误看成完整16字段；完整source枚举实为18，302_6/7仍有不完整样原始物理值。complete_section门禁实测拒绝，未发布玩家资源。纠正为显式16计划键，分别核对另外两条源/双盘候选原值；两条不在旧24held中，不能因未翻译而冒归旧清单，也不猜缺文或运行不可达。10_80同理为75/76，源括注“游戏中不出现”不是实际执行证明。保留失败及纠正记录，见[阶段151](PHASE_151_RECOVERY_ARCHIVE_CONTEXT.md)。
+
 ## INT草稿改译也会改变完整计划的控制保留身份（阶段149）
 
 一处不含TAB的措辞改译仍改变完整plan canonical SHA；旧literal-control-retention ledger因此实测拒绝composition（ERROR: literal control ledger identity mismatch），不是字体覆盖失败，且没有写玩家目录。分别以旧/新完整计划重放控制审计，确认每条TAB源译锁、序列及分段占用不变，仅全计划身份不同，再显式重锁ledger及双盘composition引用。所有旧context profile也须重锁，只有实际改译目标更新其目标hash并留supersession，其他旧观察投影不改；不能盲改hash、跳控制检查或伪造历史完成态。旧coverage/font-demand历史快照保留原workflow身份，需求集合等价另记新证据。见[阶段149](PHASE_149_PUBLIC_RESCUE_REVISION.md)。

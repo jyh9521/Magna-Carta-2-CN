@@ -530,7 +530,56 @@
 | mc2-style-skills-524 | 에어로 베일 | 风之帷幕 | skill | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:be8a68ef93d49f48cd18fdfdac006df2cb143f9448b208df356c50776c35af08 |
 | mc2-style-skills-525 | 마이티 스톰 | 强力风暴 | skill | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:ecebf4d95946f9299170244267d7d00869fec0a14ca9f89d7524db9bacfa7483 |
 | mc2-style-skills-526 | 윈드 블레이드 | 风之圣剑 | skill | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:faef39eba7ebbc3af38c0deb91e4e7c8cf4847d684ab37695dc46faddbf81184 |
+| mc2-remaining-skills-527 | 소서 에코 | 香器回响 | skill | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:6dd62a4c6aeac2e9f7142eba6052f7d7637a0f6f2f166395104f7bef27c7fd68 |
+| mc2-remaining-skills-528 | 소서 웨이브 | 香器波动 | skill | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:b82e9df6b7866ecc62c521981229c1dc46c7ce2e5fb3ddfb410e1e8fec717dcc |
+| mc2-remaining-skills-529 | 마일드 리스토어 | 温和恢复 | skill | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:8739a8289cdcfa6a504d4fba3ee81b3b86d531790e992ed92630fd13ba513437 |
+| mc2-remaining-skills-530 | 아로마 스트러글 | 战意之香 | skill | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:94f9343e2e310b8ac0f99aa25af1acc8e8527c87d9984ec95cc6bb3307e4edf8 |
+| mc2-remaining-skills-531 | 아로마 프레쉬 | 清新之香 | skill | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:a8812a24f1b23ba8d32f495ef7b78d286c052a5c7414d0caae902b7d9b3493b2 |
+| mc2-remaining-skills-532 | 포이즌 카오스 | 混沌毒雾 | skill | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:09c8272f89c0b1dcd6677f2531fd0dcaa9ec8492b4f8d9642ed9ebadc32a452a |
+| mc2-remaining-skills-533 | 페일 브로일러 | 苍白灼焰 | skill | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:9a9582503eeb28844baf8df2ff6cff4f8a839f979d76efbf65b47a5b40ae82b0 |
+| mc2-remaining-skills-534 | 슬립 헬 | 沉眠地狱 | skill | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:937e9eb2c7a2f431cd9f2b8eda9d8421602dd8dcc4592829e6231d3de236fb17 |
+| mc2-remaining-skills-535 | 베놈 테일 | 剧毒之尾 | skill | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:b32908fd4871cd5c3848c5347e85ac9ef8f79937b3dee29aa2fb550150e94bab |
+| mc2-remaining-skills-536 | 이터널 레스트 | 永恒安息 | skill | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:04e969cb2337e612f17983959eef0cdb52a570125fa21e206b03f95f5d115918 |
+| mc2-remaining-skills-537 | 아이스 핀 | 冰针 | skill | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:b2c1893edd4e0100bd9affafa6ccf4d22c78fe1516c76cc7260c81e7f63e19b4 |
+| mc2-remaining-skills-538 | 아이스 애로우 | 冰箭 | skill | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:67cedac48be08b5a9e4ad7d047798b4576903fe0f0aac475d1a48d9155ae80c1 |
+| mc2-remaining-skills-539 | 프로카시린 | 弗洛卡希林 | skill | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:b0ef98bc68497956a8382699fcc16ebbdf6d51885e811f7fa23db12f0db256af |
+| mc2-remaining-skills-540 | 프로스터 | 霜冻术 | skill | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:4b177ba5dcbdaa4b0b8cfb3ba8f9093b754eded11b10893d43a3728a699532ea |
+| mc2-remaining-skills-541 | 니들 샤워 | 冰针骤雨 | skill | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:05f9264631a841dda197608b67cbe67d0c17a1b5d3d8f1b51162c1ff68e4a0a3 |
+| mc2-remaining-skills-542 | 아이스 블래스트 | 冰爆冲击 | skill | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:778736121363fa47fa5c2215b72c19057072168010eecc8c67c65800aa37bcea |
+| mc2-remaining-skills-543 | 블리자드 팡 | 暴雪之牙 | skill | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:da80d7001bfa860a81447c5934dae3c1c2c4bbbd0135334f06b75352f0440c74 |
+| mc2-remaining-skills-544 | 음속베기 | 音速斩 | skill | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:fb9cdfb8d472651896a9064d61ff5c6d6ae2bc16886ff9a1e1d43c96ae22be41 |
+| mc2-remaining-skills-545 | 비연 | 飞燕 | skill | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:239b72836a1c9cd3ca2134283b7a9d371280c3833d81098f60084c965b212a65 |
+| mc2-remaining-skills-546 | 천지의 자세 | 天地架势 | skill | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:07e11d11fa52ffbabdb25f64cbac96c73afec6f51be2a13a0115d05a849c7409 |
+| mc2-remaining-skills-547 | 인법 : 잠은 | 忍法：潜隐 | skill | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:26db3ace6f275d5f455fb1aaf4750f775b3e2a17b695d345ba2e09182d75e66f |
+| mc2-remaining-skills-548 | 인법 : 은영 | 忍法：隐影 | skill | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:5601d443e4d6063fad4a6284787167f0ed490f21581ebe16a84db2a5bab30c0b |
+| mc2-remaining-skills-549 | 인법 : 자섬 | 忍法：刺闪 | skill | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:9c06ce7025264dac237403b016b4f82591243d30baae08b468e65a93a4afb810 |
+| mc2-remaining-skills-550 | 인법 : 폭룡 | 忍法：爆龙 | skill | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:74ee482342fb61b29096ccce1f0ce0d3c74e992a8c43b9175b1e6de108d2ab65 |
+| mc2-remaining-skills-551 | 참열베기 | 斩裂斩 | skill | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:bd1d232250479739a585d7a12703820bfd3b15b5ddcccaad46051373b2b7bc64 |
+| mc2-remaining-skills-552 | 부동진 | 不动阵 | skill | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:8e6c82cfa7cc53565d6f75e31ff7b69cbdbc105fa20fbaa0926109d5142e239e |
+| mc2-remaining-skills-553 | 쿠나이 5연 던지기 | 苦无5连投 | skill | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:16ee8a3d7524bba1bf63ab97a453a69276595700050df6a533aae548149053be |
+| mc2-remaining-skills-554 | 뇌격 던지기 | 雷击投掷 | skill | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:990a9051966deee132f33838423a34f31307f47d75bfab2f38832eb8085e3d17 |
+| mc2-remaining-skills-555 | 라이카시린 | 雷卡希林 | skill | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:10458e59b38d76f910ab09245253902fd27b7ff38a8e5f05594184dc5a6caee7 |
+| mc2-remaining-skills-556 | 대지의 자세 | 大地架势 | skill | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:654b32c8039923edac8448790ce650f0a3ffb624843fba93a04df1935a9d9155 |
+| mc2-remaining-skills-557 | 라이트라 | 雷光术 | skill | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:37163ecbdbd47bc723702dedbc8284853dd4bfa702a7ba069248dde1e587997d |
+| mc2-remaining-skills-558 | 인법 : 뇌격천 | 忍法：雷击天 | skill | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:95038df00bdafa1bbbf0fe53a7751c18fac8f8a4218a3d99b591d68a6d505e8d |
+| mc2-remaining-skills-559 | 썬더볼트 | 雷霆一击 | skill | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:45336c7d5e50f8f9b3dc867a61cb39e7a7c15770e1f5cede990dba879222e30a |
+| mc2-remaining-skills-560 | 인법 : 초뇌격천 | 忍法：超雷击天 | skill | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:420ed3b6cc952f27552c43f836813f28a070c5213783bc216446525aabb85878 |
+| mc2-remaining-skills-561 | 질풍화염격 | 疾风火炎击 | skill | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:add1ed33135d10b6ac82054e05c8fb620b656b88626094c399a071e4f6cdbac6 |
+| mc2-remaining-skills-562 | 질풍일격타 | 疾风一击打 | skill | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:ca76cf4ca2b55b6021807c30ae29db1a57eec4d3473952f98d496757f507ea79 |
+| mc2-remaining-skills-563 | 화격 | 火击 | skill | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:a71f24958ddc15854195a4ec855cc98cba0c046b6fb9732872c722c1a2e2d5db |
+| mc2-remaining-skills-564 | 폭쇄진 | 爆锁阵 | skill | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:550df7b400fb121bbf4b8e8729132d15d70a27a096fe467ff6b60ea19050c3cb |
+| mc2-remaining-skills-565 | 진염노호각 | 镇炎怒号脚 | skill | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:133cb5be6910a0f770ee6fb0d4c17df69ddc94afa5622f5e9e23c84ff114b4be |
+| mc2-remaining-skills-566 | 진염나선퇴 | 镇炎螺旋腿 | skill | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:44db4b05357cca2414e3f12a03f3e33fe327c91a63f26d15cf9c9fe58c8929a4 |
+| mc2-remaining-skills-567 | 폭쇄극진 | 爆锁极阵 | skill | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:06d71e896bae74dcea1feb703967cca6d1d0f36dbda7fa813b816013d31f1286 |
+| mc2-remaining-skills-568 | 연옥정마권 | 炼狱净魔拳 | skill | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:94bca7b0df7ad8b13b16a31267c347a3cc6d8b259fe52e81d0a7e78b8a1b2730 |
+| mc2-remaining-skills-569 | 옥염선풍 | 玉炎旋风 | skill | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:f8aff533caa3298e5c2dabb127087125e6bc2182e7ad843d87feff2f5233c4ff |
+| mc2-remaining-skills-570 | 블레이즈 스피어 | 烈焰枪 | skill | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:660477dc80ed9d22638d3897839c4e94074ce0226b5365cc4cbbb317cfb61b41 |
+| mc2-remaining-skills-571 | 프레카시린 | 弗雷卡希林 | skill | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:b13d9398023e4532d4a4487b4331b1b5019b5f95fc7ba01a9102e0df305467ef |
+| mc2-remaining-skills-572 | 프레이러 | 灼焰术 | skill | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:b2b35b5df8d9710c60e355408228a717b09c8ab4abdfb42b299d18770af33522 |
+| mc2-remaining-skills-573 | 엑스클러스터 | 爆炎群星 | skill | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:a916862fb778a03e03f853f86ba950175f68ed9b916ee9132a3968cbc6c9cde4 |
+| mc2-remaining-skills-574 | 노바 서클 | 新星之环 | skill | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:05aef48b4368b6b332dc0b9a6a12e2b1e7229e6556ffd0c62beaeba37e444a28 |
+| mc2-remaining-skills-575 | 세라피 레이즈 | 炽天使之焰 | skill | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:6ca0cc0e82cad8378feadc4f365bd89bd8ef8063c62da11e9ea56c3411355dda |
 
-本作词条：526；已继承：0。
+本作词条：575；已继承：0。
 
 固定来源、统计、冲突与审核流程见 [系列术语参考](docs/SERIES_TERMS.md)。

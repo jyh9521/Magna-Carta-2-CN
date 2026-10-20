@@ -1,3 +1,7 @@
+## 第165阶段：阿巴泽特主城与边境支线
+
+stolen_kamond与stolen_kamond_d为原始名/说明键，后缀小写_d保留，不按其他_D统一。Ch02/Ch04同document/section明确key所有权迁移保留所有occurrence及功能分隔，不按名称去重；500SID/Styles X/Y/QUEST%s/尾空格保持。见[阶段165](PHASE_165_ABAZET_CITY_AND_BORDER_QUESTS.md)。
+
 ## 第164阶段：马雷任务与职业标签落实
 
 Ch03_KotaMare_01/03_313_00有两次物理出现，保留独立ID/occurrence而不按key去重；taken_thing/Taken_Thing_D等成对key大小写原样，完整十二任务DES/QUEST/%s/功能分隔与尾空格保持。旧24held/15调查原值无变化。见[阶段164](PHASE_164_MARE_DELIVERY_AND_PROFESSION.md)。

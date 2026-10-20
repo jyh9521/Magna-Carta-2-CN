@@ -1,0 +1,106 @@
+{
+  "schema_version": 1,
+  "kind": "source-locked-font-expansion-readiness",
+  "source_sha256": "179e265cfc9e6d3e9f2586abe75b5da303b2af9b8484079851dab72f9f7edb8c",
+  "workflow_sha256": "af1f0d8c684a07aa2c559c347340fa03b1e277565b8bb2e310eee8a57dd40657",
+  "requested_codepoints": 2451,
+  "layout_mapping_required": [
+    12288
+  ],
+  "unverified_control_literal": 9,
+  "fonts": [
+    {
+      "font_plan": "locales/zh-Hans/readability-fonts/font-0.json",
+      "font_plan_sha256": "e6d5d483f4638c40048ae88649d353a7bae6c3ea3b01d41f776c00cc84f38bd6",
+      "canonical_font_path": "font.general_15",
+      "source": {
+        "font_object": "General_15",
+        "label": "font",
+        "path": "MC2Game/CookedXenon/font.xxx",
+        "sha256": "b9a476cc377fe54e04d574f66a2018f1a0b69138c9f25f696d46ef07b9b1a4e6"
+      },
+      "font_semantic_sha256": "f06656fc2f1364b438a924eb8115be604d45c307be4707b59692488590a05e0a",
+      "mapping_model": "explicit-remap",
+      "required_additions": 2390,
+      "drawable_count": 2389,
+      "layout_or_control_additions": [
+        12288
+      ],
+      "atlas": {
+        "width": 512,
+        "height": 64,
+        "cell_width": 28,
+        "cell_height": 28,
+        "tested_max_height": 2048
+      },
+      "allocation_at_max_height": "insufficient unused atlas cells for sample",
+      "glyph_limit": 2048,
+      "within_current_glyph_limit": false
+    },
+    {
+      "font_plan": "locales/zh-Hans/readability-fonts/font-1.json",
+      "font_plan_sha256": "c3daf3e70523dd3d2d5194708bd92558f2320088114ff329ff22fc20846b685f",
+      "canonical_font_path": "enginefonts.smallfont",
+      "source": {
+        "font_object": "EngineFonts.SmallFont",
+        "label": "Engine",
+        "path": "MC2Game/CookedXenon/Engine.xxx",
+        "sha256": "f71131de2a39176f48d5bf7ef6ed803513d5b38303f21915029c245442b8fe9a"
+      },
+      "font_semantic_sha256": "289ea3f9da29f70ae727b7ff886f003a7b87f3d9fa65d67618b9119ec22edf68",
+      "mapping_model": "256-glyph-identity-conversion",
+      "required_additions": 2389,
+      "drawable_count": 2388,
+      "layout_or_control_additions": [
+        12288
+      ],
+      "atlas": {
+        "width": 256,
+        "height": 256,
+        "cell_width": 20,
+        "cell_height": 20,
+        "tested_max_height": 2048
+      },
+      "allocation_at_max_height": "insufficient unused atlas cells for sample",
+      "glyph_limit": 2048,
+      "within_current_glyph_limit": false
+    },
+    {
+      "font_plan": "locales/zh-Hans/readability-fonts/font-2.json",
+      "font_plan_sha256": "05b6350688db957ab03e3da01aff5ca85b06719dde0b09e5e314e0c7ffc300d6",
+      "canonical_font_path": "font.enginemedium_subtitle",
+      "source": {
+        "font_object": "EngineMedium_Subtitle",
+        "label": "font",
+        "path": "MC2Game/CookedXenon/font.xxx",
+        "sha256": "b9a476cc377fe54e04d574f66a2018f1a0b69138c9f25f696d46ef07b9b1a4e6"
+      },
+      "font_semantic_sha256": "de7da13ee51cf7ae932822a34bc8dda96bd485e775e8090ab0d08c56f7deacff",
+      "mapping_model": "explicit-remap",
+      "required_additions": 2390,
+      "drawable_count": 2389,
+      "layout_or_control_additions": [
+        12288
+      ],
+      "atlas": {
+        "width": 512,
+        "height": 512,
+        "cell_width": 32,
+        "cell_height": 32,
+        "tested_max_height": 2048
+      },
+      "allocation_at_max_height": "insufficient unused atlas cells for sample",
+      "glyph_limit": 2048,
+      "within_current_glyph_limit": false
+    }
+  ],
+  "generation_performed": false,
+  "resource_refresh_performed": false,
+  "game_rendering_verified": false,
+  "notes": [
+    "Counts use original three-family baselines, not already supplemented current packet.",
+    "All demand retained; layout/control additions do not go to glyph rasterizer.",
+    "Existing single-atlas allocation and glyph-limit guards remain unchanged; no capacity bypass.",
+    "SmallFont uses existing direct256 identity conversion, not empty explicit remap semantics."
+  ]
+}

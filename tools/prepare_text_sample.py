@@ -24,6 +24,37 @@ from tools.ue3_package import LzxDecoder, parse_summary
 from tools.decompress_package import decompress_copy
 
 
+def classify_font_demand(font, codepoints, transparent=()):
+    """Separate drawable additions from layout/control policy; never drop demand.
+
+    The 256-entry non-remapped model is the existing supplement conversion
+    contract, not a claim about arbitrary non-remapped runtime fonts.
+    """
+    requested = list(codepoints)
+    if any(type(cp) is not int or not 0 <= cp <= 0x10ffff or 0xd800 <= cp <= 0xdfff
+           for cp in requested):
+        raise ValueError('font demand requires Unicode scalar integers')
+    wanted = set(requested)
+    if font['is_remapped']:
+        mapped = {r['codepoint'] for r in font['remap']}
+        model = 'explicit-remap'
+    else:
+        if len(font['characters']) != 256:
+            raise ValueError('non-remapped demand requires the existing 256-glyph conversion model')
+        mapped, model = set(range(256)), '256-glyph-identity-conversion'
+    blank = set(transparent)
+    if not blank <= wanted & mapped:
+        raise ValueError('transparent repairs must be requested and already mapped')
+    needed = (wanted - mapped) | blank
+    layout = {cp for cp in needed if chr(cp).isspace() or unicodedata.category(chr(cp)).startswith('C')}
+    outside = {cp for cp in needed if cp > 0xffff}
+    return dict(mapping_model=model, requested_codepoints=sorted(wanted),
+                missing_codepoints=sorted(wanted - mapped), transparent_repairs=sorted(blank),
+                required_additions=sorted(needed), layout_or_control_additions=sorted(layout),
+                outside_bmp_additions=sorted(outside),
+                drawable_additions=sorted(needed - layout - outside))
+
+
 def allocate(font, texture, characters, template):
     """Deterministic first-fit in block coordinates; never reuses old glyph cells."""
     index = template['texture_index']
@@ -104,13 +135,19 @@ def prepare(base_route, sample, game_root, project_root, font_file, output, deco
             raise ValueError('baseline font semantics mismatch')
         export = graph.export(*node); logical = ctx['logical']; names = ctx['tables']['names']
         font = parse_font_payload(logical[export['serial_offset']:export['serial_offset']+export['serial_size']], names)
-        mapped = {r['codepoint'] for r in font['remap']} if font['is_remapped'] else set(range(256))
-        missing = [chr(cp) for cp in wanted if cp not in mapped]
+        initial = classify_font_demand(font, wanted)
+        mapped = set(wanted) - set(initial['missing_codepoints'])
         blank=[]
         if repair_blank:
             from tools.font_ink import ink_records
             blank=[r['codepoint'] for r in ink_records(ctx,font,[cp for cp in wanted if cp in mapped],decoder) if r['status']=='transparent']
-            missing=sorted(set(missing)|{chr(cp) for cp in blank})
+        demand = classify_font_demand(font, wanted, blank)
+        if demand['layout_or_control_additions']:
+            labels = ', '.join(f'U+{cp:04X}' for cp in demand['layout_or_control_additions'])
+            raise ValueError('sample needs explicit layout/control mappings: ' + labels)
+        if demand['outside_bmp_additions']:
+            raise ValueError('sample needs explicit outside-BMP handling')
+        missing = [chr(cp) for cp in demand['drawable_additions']]
         if not 1 <= len(missing) <= glyph_limit:
             raise ValueError(f'sample must require 1..{glyph_limit} additional glyphs in each family')
         gp = copy.deepcopy(gp)

@@ -1,3 +1,8 @@
+## 源基线需求与普通字形生成布局门禁（2026-10-20）
+
+Verified / offline：累计2451码点以三族原始基线核算，可绘制新增2389/2388/2389；未映射U+3000单列布局需求，不删除或伪画。SmallFont空remap实际是受支持的256-glyph identity conversion，不能当零覆盖。透明字修复1/0/5纳入新增集合，不重复计数。
+通用prepare_text_sample.classify_font_demand提前区分可绘制/布局控制/BMP外；普通生成明确遇到U+3000即停止，无资源或计划目录输出。原glyph_limit2048和单atlas高度2048合同未放宽；三族当前宽度与模板在最大高度也分配失败，非引擎上限证明。详见PHASE_121_FONT_DEMAND_GATES。
+
 ## 跨容器同payload与补零尺寸反证（2026-10-20）
 
 Verified / 仓库工具静态字节：extraction-profile八份源hash均匹配。两盘INT/MC2Game.int和JPN/MC2Game.jpn的去终止符宽payload均390字节/hash e75793352fadefd4b3be757c7546e2d61a357e1fa51aac01e34769672e06e1b7，11候选相对偏移相同；JPN内容头偏移801126，INT895017。另四份INI/KOR零候选，不借JPN同key当修复原稿。

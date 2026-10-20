@@ -1,3 +1,11 @@
+## 第121阶段接续状态（2026-10-20）
+
+INT14,082 draft、1104 candidate、44字幕315cue不变，translation-workflow最后116。当前翻译工作区build/batch-116-verification/reviewed-workspace；旧测试包未刷新。见[PHASE_121_FONT_DEMAND_GATES](PHASE_121_FONT_DEMAND_GATES.md)。
+原始三族font/semantic/OTF hash核对：General_15与Subtitle各2390新增需求（含U+3000布局1）/可绘制2389，SmallFont按既有256-glyph identity conversion计算2389/可绘制2388，不把空remap表当全部缺字。透明已映射修复分别1/0/5，U+0009仍保留未核，不新增/删除控制字符。
+当前glyph_limit上限2048不够三族可绘制需求；用现有模板和原atlas宽度、最大高度2048做只读allocate，三族均insufficient unused atlas cells。基线atlas宽高512x64/256x256/512x512，格子28x28/20x20/32x32；不是引擎全局能力上限结论。
+prepare_text_sample新增classify_font_demand，区分显式remap与受支持的256直索引转换；布局/控制和BMP外需求单列保留。普通生成遇到未映射U+3000提前exit2，无计划目录或字体输出；不绕过计数/atlas上限，不栅格化空白或控制字符、不缩字。
+下一阶段继续通用容量工程与显式布局映射设计：先审supplement_font.grow_atlas/validate_plan/纹理tile与原像素保持合同，评估受保护的双轴扩展或多atlas方案及新增字上限。未有验证不随意提上限、画U+0009或猜U+3000运行规则；旧资源/配置/存档/runs/依赖/基线回滚研究保持，无ISO/整盘副本/模拟器。全套离线验证后才按原hash保护增量刷新，离线非游戏验收。
+
 ## 第120阶段接续状态（2026-10-20）
 
 最后翻译批次仍116；INT14,082 draft、1104 candidate、44字幕315cue保持。当前翻译工作区build/batch-116-verification/reviewed-workspace。见[PHASE_120_COVERAGE_READINESS](PHASE_120_COVERAGE_READINESS.md)。

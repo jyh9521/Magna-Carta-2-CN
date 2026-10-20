@@ -1,3 +1,7 @@
+## 第161阶段接续状态（2026-10-21）
+
+271新观察：NPC146、任务73、Compose27、名称20/材料3/便当2。累计7675/315，3914观察/1277上下文待审/5191运行待核，226分隔；零改译，最后INT批次116及160两处露代词修订保持。00_130_00字面3草稿第三被排除待修；与00_120_00穿刺蠕虫候选均精确定位readability-fix.json，不追加重叠批次。活动表build/phase-161-verification/current-packet-hash-preflight.json，1834项1822不变/12context源变化，玩家仍160。见[阶段161](PHASE_161_EARLY_ISLAND_NPC_QUESTS.md)。下一阶段优先原计划修两候选并走双盘/现有入口增量流程，补回所持1项后再接阿巴泽特完整NPC/关联；旧315cue与8早期NPC不重计。
+
 ## 第160阶段接续状态（2026-10-21）
 
 Live3六完整场景175＋Drama3三UI，共178新观察；累计7404/315，3772观察/1419上下文待审/5191运行待核，211分隔。两处露代词在batch096原位置修订，最后INT批次仍116，14082INT/315cue draft、1104candidate不变。七scope合并只并明确keys、82理由注释显式取代；16/32/1000不变。当前活动包与依赖表切换build/phase-160-verification/disc1-comparison及current-packet-hash-preflight.json，149旧包/回滚保留。见[阶段160](PHASE_160_PRONOUN_AND_ANIMAL_DRAMA.md)。下一步先核全CSMB计划覆盖及未知原文，再转剩余NPC/任务/关联系统；不重计旧315cue或已审短剧。

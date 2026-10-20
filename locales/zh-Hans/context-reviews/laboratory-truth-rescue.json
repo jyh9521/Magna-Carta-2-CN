@@ -1,15 +1,6 @@
 {
   "entries": [
     {
-      "document": "..\\MC2Game\\Localization\\INT\\MC2CharacterName.int",
-      "id": "coalesced:55e9a35c3d79bea3402805d17359a03984071bdb54872f5b0f7c034b1397204e",
-      "key": "Balfour",
-      "occurrence": 1,
-      "section": "Default",
-      "source_sha256": "0be8a10310e481bc2ee6f3f6cdf261702fc237d78f20f937712c5d31013d4952",
-      "translation_sha256": "69d6545a684ef22548a804632730d2a4c131e822002441229d14861105410adf"
-    },
-    {
       "document": "..\\MC2Game\\Localization\\INT\\MC2Compose.int",
       "id": "coalesced:3d03c72929fd9f58e2b84d8cd0e44cfca50bf586ce50be7a0a216f231f33a1dd",
       "key": "Chapter08_01",
@@ -2216,6 +2207,33 @@
     },
     {
       "document": "..\\MC2Game\\Localization\\INT\\MC2Item.int",
+      "id": "coalesced:6cda8b9abeffcda62f355e1388de4debb88d378f344bca3d98abedf8b0f96185",
+      "key": "hone_of_fierceworm",
+      "occurrence": 1,
+      "section": "Ingredient",
+      "source_sha256": "b8aa8bb883105df8d8a92774fbf2c00c91bce32bfb21466b6ccecedf2ad2fca0",
+      "translation_sha256": "283be3d3bbd43e92242ae0cd7378fa8262bf0157c38e909eb35cd264d453e557"
+    },
+    {
+      "document": "..\\MC2Game\\Localization\\INT\\MC2Item.int",
+      "id": "coalesced:2b5975e0d6b621080aad0b0c057b94250f3d0aa5e441a086946c3849a8a83414",
+      "key": "Power_plant",
+      "occurrence": 1,
+      "section": "Ingredient",
+      "source_sha256": "8ef370f5256f9bf8b64057c39d171b47f49de0ad3b00a4cc9c93bd9718a3a393",
+      "translation_sha256": "162659b89c97a9624562a9ad72d1da069a91c2a702d45f6dfa46855ba93e590a"
+    },
+    {
+      "document": "..\\MC2Game\\Localization\\INT\\MC2Item.int",
+      "id": "coalesced:a8160588a079ed87583a30d78ecebb87668bc90b81857c8a624135ab90885d87",
+      "key": "liandal",
+      "occurrence": 1,
+      "section": "Ingredient",
+      "source_sha256": "17d54f8becfefbda7125df9bc74f67846ddb419098dab9f7523d5466ad29bb9f",
+      "translation_sha256": "0f271849e4c24360f06ee140116bb621d2756cbd36aa8e9206b7a54e42aaeb5f"
+    },
+    {
+      "document": "..\\MC2Game\\Localization\\INT\\MC2Item.int",
       "id": "coalesced:5609c88f3d1efc9dfcb25713c0478b29529abfa569d101c59e5be999ed02d90e",
       "key": "Key_LabEngine",
       "occurrence": 1,
@@ -3483,15 +3501,6 @@
       "section": "Valuables"
     },
     {
-      "complete_section": false,
-      "document": "..\\MC2Game\\Localization\\INT\\MC2CharacterName.int",
-      "keys": [
-        "Balfour"
-      ],
-      "reason": "Balfour name linked to full wife rescue chain; prior Nicks/First/Second/Elga names or candidate references reused rather than recounted.",
-      "section": "Default"
-    },
-    {
       "complete_section": true,
       "document": "..\\MC2Game\\Localization\\INT\\MC2NpcTalk.int",
       "reason": "Complete linked town NPC catch-up:pre-speech attack/ceasefire rumors and preparations,hostile crowd accusations,andKotamare welcome/refuge with conditional ice-wall defense. Keep speakers beliefs and future threat separate;do not mix later recovery/Melissa/after-departure NPC sections into current stage.",
@@ -3572,6 +3581,17 @@
       "document": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
       "reason": "Complete source-order scene. Q11rescue distinguishes initialMarisguess fromlaterwitness/rescue;cooperationnotallpartyalreadyaware. Smilequest giftstory challengedbyRue,apologyandthanks precedesmile;notgeneralromanceconsent. Live1fall/personalitychange andpartyguesses notmedicalproof orhiddentruepersonality;threatsnotexecutedpunishments;secondimpactonlyproposal,nostatedrecovery. EndescortAbazet transition notresolvedpersonality. Sectionname notDLC/unused/reachabilityproof.",
       "section": "CSMBQ11_23"
+    },
+    {
+      "complete_section": false,
+      "document": "..\\MC2Game\\Localization\\INT\\MC2Item.int",
+      "keys": [
+        "hone_of_fierceworm",
+        "Power_plant",
+        "liandal"
+      ],
+      "reason": "EarlyislandNPC/quest/context:preparation vsactualinvasion,hearsay/heroquestionsnotprovedidentity;fourflower/fivehornandallfunctionalquestcontrolsretained. Rescue/curegoalsnotautomaticsuccess;latefruitgriefnotnewtimermechanism. Explicitremainingkeys excludeoldIDs/unknownoriginals. SourceNPCduplicatekeyoccurrencesseparate. Ch00_0/00_130_00literal3targetChinese\u7b2c\u4e09guardmismatch withheldpendingrepair,notcounted.",
+      "section": "Ingredient"
     }
   ]
 }

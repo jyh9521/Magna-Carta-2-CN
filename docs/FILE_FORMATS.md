@@ -1,3 +1,7 @@
+## scope所有权迁移仍使用原schema（阶段161）
+
+Default明确keys从donor移到recipient时，entries同步按原容器顺序重分配；按id验证跨profile不重叠，禁止把重复key的不同occurrence合并。保护分隔不随非相关名称迁移丢失。新报告60处reason变化与source/target/邻序/策略的相等投影分开核；无新增通配字段，complete_section=false保持，未计划原文与已计划待修字面数字分别列出。见[阶段161](PHASE_161_EARLY_ISLAND_NPC_QUESTS.md)。
+
 ## context scope整合不改变schema（阶段160）
 
 仍使用既有scopes[document,section,complete_section,keys,reason]，没有新增通配、范围或绕过字段。同profile同document/section明确keys取并集，complete_section保持false；原scope理由连接保留。报告context的reason因此可变，82项只注释取代与2项目标hash取代分表核对；其余身份/顺序/策略字段逐项比较。原始profile与计划由Git历史48a7214及阶段160隔离baseline恢复。见[阶段160](PHASE_160_PRONOUN_AND_ANIMAL_DRAMA.md)。

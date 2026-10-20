@@ -444,7 +444,20 @@
 | mc2-kamond-delivery-438 | 카몬드 파편 | 卡蒙德碎片 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:f85514ffdb284dc5208dca9c6ea1785334941c8396bff3c90fd2675061368465 |
 | mc2-kamond-delivery-439 | 카몬드 조각 | 卡蒙德碎片 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:6f8a07a0149545a3e2e9cad749f0e29a0b4281568d7204ed9bd9022d915660d2 |
 | mc2-kamond-delivery-440 | 카몬드 파편 꾸러미 | 卡蒙德碎片包裹 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:8028e4ad253a251af4ab2beb319307f02f5ae5dc2f054036395aa635e0ffb084 |
+| mc2-quest-world-441 | 파인 | 帕因 | character | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:8059dd2db924817ecdc0f7b8b4a4552809954e8981977db8ae357821e1ea7c88 |
+| mc2-quest-world-442 | 헤르가 | 赫尔加 | character | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:886dc20c720cb0e908c29f00caee33395a3f8a51b387a7099859a8280caf594c |
+| mc2-quest-world-443 | 번개의 영혼 | 雷之魂 | role | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:c31152e729e245f13739803a22c97c9889172cea3c5c3396e937e7d30f9d3d4d |
+| mc2-quest-world-444 | 바람의 영혼 | 风之魂 | role | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:0c8680ad08f5eb6fe0ae583a9a7074fd704c3c23987713b76a3f6610f422692d |
+| mc2-quest-world-445 | 폭풍의 석판 | 风暴石板 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:ab8747297691a0ff20d59d012b94c4ee87e260f11386ef727518183fe29ff81f |
+| mc2-quest-world-446 | 메레의 식물포자 | 梅雷的植物孢子 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:c955c46490560896c87aedf9891b18aa45fbfb991aba118f511833fd4dd9101d |
+| mc2-quest-world-447 | 원기회복제 | 元气恢复剂 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:0255ef6aef2d9b64e9c47877d9e42d0b050a9b057efe6c0930b2faabe0d90661 |
+| mc2-quest-world-448 | 왕가의 혼 | 王室之魂 | role | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:115b2b98a8cc18aac4bc909aa9efbaf7e9b694195e102afa0cbc7f8dceeea632 |
+| mc2-quest-world-449 | 고대의 혼 | 古代之魂 | role | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:63ab7b3483ecaf7508fa0d3dd9fb90ce0d5fe2240191b7915fbaa76e89d7d202 |
+| mc2-quest-world-450 | 심층계 | 深层界 | place | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:4feb2ce57ed9a07527a5772bb01dc4b71f505feaa9ad01ff9d6363997b8257db |
+| mc2-quest-world-451 | 크랩퍼스 | 克拉普斯 | creature | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:6d75c184152b8cdc49962acf20df0acd557777eb0ad1a2ef305bb7de9b54d7ca |
+| mc2-quest-world-452 | 정렬의 방 | 排列之室 | place | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:9873bb3d04b1e01d0743cd73d85f0caab39fd9631c52332f5c6f244e0cdde99a |
+| mc2-quest-world-453 | 야생의 숲 | 荒野森林 | place | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:eaca6292688b9dff523cdb52026b2f990fe3aade6bdde02e1f717a0e455bc784 |
 
-本作词条：440；已继承：0。
+本作词条：453；已继承：0。
 
 固定来源、统计、冲突与审核流程见 [系列术语参考](docs/SERIES_TERMS.md)。

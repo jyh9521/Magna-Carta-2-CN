@@ -1,3 +1,11 @@
+## 第94批接续状态（2026-10-20）
+
+INT累计9,609条draft；本批254条见[BATCH_094_QUEST_WORLD](BATCH_094_QUEST_WORLD.md)，共享candidate453项，旧440保持。
+03_397/09_zepi_3/10_zepi_4及Quest common补齐；CharacterName余问号Unknown保留，FieldName与UI information现有已知文本补齐，不代表运行验收。
+后续按150–300条完整组继续：先核UI战斗方式/AI说明/导航/帮助与剩余实际剧情Live*CSMB，不把样本/键位/占位符凑作待译量，不再几十条单独收尾。
+当前工作区build/quest-world-batch094/workspace；NPC1443/1473、邮件128/235、44字幕315/315已提取cue和旧held保持，不合盘。
+8567条其余原值含工具/样本，不是确定玩家待译量。无字库/TOC/入口刷新，离线非游戏验收。
+
 ## 第93批接续状态（2026-10-20）
 
 INT累计9,355条draft；本批36条见[BATCH_093_KAMOND_DELIVERY](BATCH_093_KAMOND_DELIVERY.md)。440项共享候选，旧437保持。

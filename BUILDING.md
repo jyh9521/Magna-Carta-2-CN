@@ -1,3 +1,7 @@
+## 第131阶段：独立受保护还原与中断审计（2026-10-20）
+
+新增restore_probe_refresh：显式root/backup/journal SHA审计，按before/after/conflict分态，冲突零写，只还原局部candidate与三项入口元数据；原刷新合同不变。真实26项committed与13/13混合中断局部副本经CLI恢复、旧10资源通过；实际玩家根只读审计，204依赖保持，未回退。见[PHASE_131_GUARDED_REFRESH_RECOVERY](docs/PHASE_131_GUARDED_REFRESH_RECOVERY.md)。验证清理推送后继续5191既有换行/场景上下文审计；无游戏启动或整盘复制。
+
 ## 第130阶段：显式登记并增量刷新第一盘（2026-10-20）
 
 新登记合同锁PREPARED/旧新manifest/盘别/17项原文SHA；默认同集合门禁保持。现有dist/MC2-display-repair-disc1已增量刷新26文件，累计14,082 INT、21字幕152cue、七字体，candidate/raw各27项匹配；raw零写、4034非写集metadata及配置/XEX/runs保持。26项备份隔离还原与旧10资源校验通过。TAB及5191旧换行仍待验收，未启动模拟器。见[PHASE_130_EXPLICIT_RESOURCE_ENROLLMENT](docs/PHASE_130_EXPLICIT_RESOURCE_ENROLLMENT.md)。验证清理推送后接续受保护还原/中断审计与上下文复核。

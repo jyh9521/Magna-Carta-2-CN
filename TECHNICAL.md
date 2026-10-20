@@ -1,3 +1,7 @@
+## 独立journal恢复与已知字节状态（2026-10-20）
+
+Verified / offline：journal SHA/root/原件/路径/数量/链接/source重叠守卫，逐文件before/after/conflict；明确restore只写after，异常逆回调用前状态，原journal和备份保持。两组真实26局部文件恢复26及13，旧10检查通过，当前204依赖保持。支持已完整落盘journal的混合状态，不声称断电/fsync/损坏恢复；TAB与5191存量换行仍未批准。见docs/PHASE_131_GUARDED_REFRESH_RECOVERY.md。
+
 ## 显式资源清单登记与写前日志（2026-10-20）
 
 Verified / local resource bytes：refresh可选hash锁定enrollment，严格new-old全量且仅新增原文文件；默认集合差异拒绝不变。26项candidate/元数据备份、prepared/committed journal、替换后异常也按写意图回滚、非写集/XEX复核。新增17字幕登记，raw零写，两phase27项匹配；4034非写集metadata不变，26真实文件隔离还原旧十项通过。进程内异常已测，不宣称断电恢复；运行验收/TAB/5191存量换行未批准。见docs/PHASE_130_EXPLICIT_RESOURCE_ENROLLMENT.md。

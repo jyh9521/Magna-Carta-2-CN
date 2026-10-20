@@ -1,3 +1,7 @@
+## refresh审计与还原凭据（2026-10-20）
+
+read-only-refresh-journal-audit列journal_status及每项目标before/after/conflict，严格3..35项、三个已装元数据和局部candidate许可路径；缺失/第三态为冲突。hash-guarded-refresh-restore-receipt记录源journal SHA、root/backup、restored_files/already_before/all_journal_targets_before；新输出在根外，原journal不改写。只支持已知散列字节的显式逆恢复，无自动前滚或断电耐久声明。见PHASE_131_GUARDED_REFRESH_RECOVERY.md。
+
 ## 显式enrollment与refresh journal（2026-10-20）
 
 enrollment schema1/kind=explicit-resource-enrollment，disc、prepared_sha256、old/new_packet_manifest_sha256及additions[path,original_sha256,original_size]全部锁定；game_rendering_verified=false。清单须严格等于new-old，32上限、不删除，新增raw与两live根皆原文。REFRESH.json含files[path,before,after]、root、status=prepared/committed/rolled-back、登记计划SHA和数量；原件相对路径备份，journal不等于自动断电恢复。见PHASE_130_EXPLICIT_RESOURCE_ENROLLMENT.md。

@@ -1,3 +1,7 @@
+## 独立恢复命令已验证，实际运行待验（2026-10-20）
+
+已具root/journal SHA及before/after守卫的只读审计/显式恢复CLI，真实committed26与混合13/13局部副本通过；玩家根仅审计并保留累计包，204依赖保持。未知第三态/坏备份拒写；未测实际断电、丢失/损坏journal或存储持久性。TAB与5191已有换行仍待上下文/游戏复核。见PHASE_131_GUARDED_REFRESH_RECOVERY.md。
+
 ## 累计第一盘字节刷新完成，游戏验收仍待（2026-10-20）
 
 同一测试目录已增量接入14,082 INT/152cue/七字体，显式登记17原文字幕，candidate/raw各27项通过；第二盘29资源/163cue保持离线独立。26项局部备份与隔离还原，配置/XEX/runs不变，无游戏启动。TAB coverage=false、SmallFont identity/atlas/存量5191换行的运行表现未验；进程内异常回滚已测，独立恢复CLI/断电journal接续仍需实现。见PHASE_130_EXPLICIT_RESOURCE_ENROLLMENT.md。

@@ -5,6 +5,16 @@ from .prepare_oneclick_probe import launcher,digest
 from .verify_resource_phase import inspect,confined,stable,file_state,sha,unique,hash_value,relative
 
 
+def audit_refresh_journal(root,backup,journal_sha256):
+    from .restore_probe_refresh import audit
+    return audit(root,backup,journal_sha256)[0]
+
+
+def restore_refresh_journal(root,backup,journal_sha256,receipt):
+    from .restore_probe_refresh import restore
+    return restore(root,backup,journal_sha256,receipt)
+
+
 def enroll_inventory(plan_path,plan_sha256,root,prepared_sha256,old,new_hash,packet,before,expected):
     """Authorize only an exact additive inventory, backed by original bytes.
 

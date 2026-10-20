@@ -1,3 +1,7 @@
+## 分盘字幕局部包与零自引用TOC（2026-10-20）
+
+Verified / offline：两原ISO完整hash及字幕inventory闭合后，第一盘21资源/152cue、第二盘23/163分别构建；原TOC hash各自锁定，不能盘一复用盘二。subtitle_text.rebuild_reversible逐cue逆重建原字节；新单盘bundle工具每盘1..64文本+TOC，22/24资源retained-original回滚与独立controls重放通过，旧route16上限不变。第一盘TOC size197989保持，第二盘199817→199816；两盘自引用首size0及未知字段保持，不猜补自身长度。无INT/字体/测试目录刷新或运行验收，详见PHASE_127_DISC_SUBTITLE_BUNDLES。
+
 ## 字面控制符保留证据与字体coverage分离（2026-10-20）
 
 Verified / offline：audit_control_retention以源SHA/完整计划canonical SHA、entry源/译文SHA、有序category-C列表及segment占用形状核查原样保留。四条实际尾TAB的sequence[9]/shape[true,false]在双盘均匹配；缺失/移动/重排/hash漂移拒绝。仅证明保留，不证明语义，原font_coverage/audit分支不改；真实14,082 INT/七字体coverage仍exit1且唯一未核U+0009。报告font_coverage_verified/unknown_control_syntax_resolved/game_rendering_verified=false，路由和字幕16上限未放宽。详见PHASE_126_LITERAL_CONTROL_RETENTION。

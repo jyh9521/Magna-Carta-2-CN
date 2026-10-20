@@ -30,3 +30,20 @@ def rebuild(data,plan):
     raw=b'\xff\xfe'+out.encode('utf-16-le');_,after=parse(raw)
     if [(m[1],m[5]) for m in cues]!=[(m[1],m[5]) for m in after]:raise ValueError('subtitle timing drift')
     return raw
+
+
+def rebuild_reversible(data, plan):
+    """Prove a cue-level inverse independently of retained-original backups."""
+    output = rebuild(data, plan)
+    _, before = parse(data)
+    originals = {int(m[2]):m[4] for m in before}
+    reverse = dict(schema_version=1, kind='timed-subtitle-text',
+                   input_sha256=digest(output), entries=[dict(start=e['start'], end=e['end'],
+                       source_sha256=digest(e['translation'].encode('utf8')),
+                       translation=originals[int(e['start'])]) for e in plan['entries']])
+    if rebuild(output, reverse) != data:
+        raise ValueError('subtitle inverse rebuild changed original bytes')
+    return output, dict(source_sha256=digest(data), candidate_sha256=digest(output),
+                        edited_cues=len(plan['entries']), total_cues=len(before),
+                        inverse_rebuild_byte_identical=True,
+                        timings_classes_and_clear_events_preserved=True)

@@ -1,3 +1,9 @@
+## 第127阶段：独立分盘字幕包与TOC逆验证（2026-10-20）
+
+两盘原ISO完整SHA/大小及字幕inventory闭合核对后，只读取21/23字幕与各自TOC，分别生成152/163句离线候选。字幕逐cue逆重建、BOM/时序/class/clear事件保持，22/24局部资源独立回滚和controls重放通过。
+新增有界单盘字幕bundle工具，不改变旧font route额外16上限；不将44字幕并入第一盘。两盘TOC hash不同，原TOC自引用首size为0，保持该字段与未知字段，不猜补自身尺寸。
+见[PHASE_127_DISC_SUBTITLE_BUNDLES](docs/PHASE_127_DISC_SUBTITLE_BUNDLES.md)。仍14,082 INT draft/315字幕draft，最后批次116；未包含累计INT/字体、未刷新现有入口。验证清理推送后继续分盘资源合成预检。
+
 ## 第126阶段：源锁定字面控制符保留审计（2026-10-20）
 
 新增独立retention审计：完整源/14,082计划canonical hash、四项源/译文hash、TAB序列与尾部segment形状锁定，双盘4项逐项通过。它只证明原样保留，不证明TAB语义或字体覆盖。

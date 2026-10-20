@@ -1,3 +1,7 @@
+## 独立单盘字幕bundle计划（2026-10-20）
+
+工具schema1 kind=offline-disc-subtitle-bundle，disc严格正整数、profile为path/SHA锁定ref、toc为path/SHA、game_rendering_verified=false。来源由profile.sources[disc].members闭合选取，禁止跨盘输入；每盘1..64字幕、每资源<=8MiB。候选只含字幕+本盘TOC，独立controls/candidate/rollback-check，manifest声明无INT/字体/投放。逐cue正逆重建及TOC逆size更新验证字节，不推断零自引用或未知TOC字段。见PHASE_127_DISC_SUBTITLE_BUNDLES。
+
 ## 源锁定字面控制保留ledger（2026-10-20）
 
 工具schema1 kind=source-locked-literal-control-retention：resource/input_sha256/changes_canonical_sha256与entries；每entry仅id/source_sha256/translation_sha256/control_sequence/segment_nonempty。canonical是原changes dict按sort_keys=True,separators=(',',':') JSON UTF8后SHA256。控制序列使用精确TOKEN之外的保守category-C，segment bool数量为sequence+1，用于保持头/尾/连续位置形状，不声明字符offset或运行语义。1..16384项、1..4096 scalar/序列，禁止重复/额外/缺失和漂移。它不是游戏二进制字段或coverage豁免，见PHASE_126_LITERAL_CONTROL_RETENTION。

@@ -3943,6 +3943,24 @@
       "translation_sha256": "45dfa0aad371dbe593d34e46fc4ad9569279dd7b746544e6b718c1870b5728bc"
     },
     {
+      "document": "..\\MC2Game\\Localization\\INT\\MC2FieldName.int",
+      "id": "coalesced:244da57d30ff22525d5b5d210a7974b873f3fc9eb7155f26c943f954d5c50e0d",
+      "key": "Wood",
+      "occurrence": 1,
+      "section": "ChinookIsland",
+      "source_sha256": "6b43e2485916c45c7a4bde60931279baa9bf5c231828fd9379972cccd5565523",
+      "translation_sha256": "a88ed132a4d7ec0d261064210808a31501b745abdf20d1f8313494c89527af45"
+    },
+    {
+      "document": "..\\MC2Game\\Localization\\INT\\MC2FieldName.int",
+      "id": "coalesced:fdf5f49e10cb2687e5b6c02045d923dde80cc0161e30c872cdf1b75e71c0638d",
+      "key": "Cave",
+      "occurrence": 1,
+      "section": "ChinookIsland",
+      "source_sha256": "7902a47639a98a9ac564eddbfee6c3587a1fb707c7f1808bb974ba55ff32e758",
+      "translation_sha256": "31289fac8943cf9f14948826449372264530f3614c952ccf4b2b9b765235cf79"
+    },
+    {
       "document": "..\\MC2Game\\Localization\\INT\\MC2NpcTalk.int",
       "id": "coalesced:98f40197aa0f295cec83ab308db4f7783cde637d053603e5c4a73c9df843f64f",
       "key": "05_101_0",
@@ -4819,7 +4837,7 @@
   "human_finalized": false,
   "input_sha256": "179e265cfc9e6d3e9f2586abe75b5da303b2af9b8484079851dab72f9f7edb8c",
   "kind": "source-locked-context-observations",
-  "plan_canonical_sha256": "5421b4c158928474abdc1d5edd6b06845915c41c8282e718d146b128523242b2",
+  "plan_canonical_sha256": "f7bdcc6f096b9515d0eb680c7854b7c8436ad6f829b900981d6690d4b9d88c54",
   "protected_breaks": [
     {
       "id": "coalesced:73d6aebb7800655f9c4b18178a57615d3bfb1ccab5f35a79b6a2ba1ac4110369",
@@ -4985,9 +5003,11 @@
       "keys": [
         "Town",
         "Loading",
-        "Beach"
+        "Beach",
+        "Wood",
+        "Cave"
       ],
-      "reason": "Three associated island/village/coast names; oldWood andCave names alreadyobserved and retained, not recounted.",
+      "reason": "Three associated island/village/coast names; oldWood andCave names alreadyobserved and retained, not recounted. | Phase164exactownershipmerge originalscope: Retreat to Qingling forest; do not equate inferred northeastern coast with whole island coast entry. | Phase164exactownershipmerge originalscope: \u98ce\u6b4c\u6d1e\u7a9f\u573a\u5730\u540d\u4e0e\u5f00\u7bc7\u4efb\u52a1\u4e00\u81f4\u3002",
       "section": "ChinookIsland"
     },
     {

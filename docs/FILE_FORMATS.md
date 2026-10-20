@@ -1,3 +1,7 @@
+## 第164阶段：马雷任务与职业标签落实
+
+Ch03_KotaMare_01/03_313_00有两次物理出现，保留独立ID/occurrence而不按key去重；taken_thing/Taken_Thing_D等成对key大小写原样，完整十二任务DES/QUEST/%s/功能分隔与尾空格保持。旧24held/15调查原值无变化。见[阶段164](PHASE_164_MARE_DELIVERY_AND_PROFESSION.md)。
+
 ## 第163阶段：抓蓬蓬与城镇支线闭环
 
 Ch02_296_00/pay物理源值为单ASCII空格(U+0020)，未计划，明确排除complete_section并作为第15项调查原值与旧24held分列；不据字段名猜金额/奖励拼接，也不译占位。两个重复物品key对应多occurrence仍独立源序锁定；所有权迁移连保护分隔一起移动。见[阶段163](PHASE_163_PONG_CITY_AND_OLD_FOX_QUESTS.md)。

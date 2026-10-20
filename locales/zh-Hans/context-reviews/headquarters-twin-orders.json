@@ -1919,6 +1919,15 @@
     },
     {
       "document": "..\\MC2Game\\Localization\\INT\\MC2FieldName.int",
+      "id": "coalesced:f37571138dae7b712ae568fd2866a0df01d062e3267d1b804d81cb133c213dd3",
+      "key": "Town",
+      "occurrence": 1,
+      "section": "Abazet",
+      "source_sha256": "ff87a321f6fd03c1c3470bd73d633b340c7e4ad2e1b19d8685b76c8060601da3",
+      "translation_sha256": "1ee22dbdb2bec829b235be5f46ce263e5367973cdce632b7011c15e81ce60c0a"
+    },
+    {
+      "document": "..\\MC2Game\\Localization\\INT\\MC2FieldName.int",
       "id": "coalesced:dbdf6af8ff5325063e0e6d98181714d742a1e12fd12c25f5f70fc1cbd70bcbcc",
       "key": "Port",
       "occurrence": 1,
@@ -3350,6 +3359,15 @@
     },
     {
       "document": "..\\MC2Game\\Localization\\INT\\MC2Skill.int",
+      "id": "coalesced:88067cee3c8b202351743dbd7eed971038dd290ada80a2cd03d69ab76c81466d",
+      "key": "Skill_d_38",
+      "occurrence": 1,
+      "section": "Juto_Style2",
+      "source_sha256": "c5d7cc1c2896a15b9e7fe6bf31554a61f6a97fccf0f2139a7920aa5848732fe7",
+      "translation_sha256": "0e811ee80e059f38fd2825ddbcfc8860b10f58216276610a84e4be77a47a15d4"
+    },
+    {
+      "document": "..\\MC2Game\\Localization\\INT\\MC2Skill.int",
       "id": "coalesced:b85a1cc77dc25904ecbcf6296b4d1bbe215a7d1524da215d890445d9a77bfb2f",
       "key": "Skill_d_39",
       "occurrence": 1,
@@ -3379,7 +3397,7 @@
   "human_finalized": false,
   "input_sha256": "179e265cfc9e6d3e9f2586abe75b5da303b2af9b8484079851dab72f9f7edb8c",
   "kind": "source-locked-context-observations",
-  "plan_canonical_sha256": "5421b4c158928474abdc1d5edd6b06845915c41c8282e718d146b128523242b2",
+  "plan_canonical_sha256": "f7bdcc6f096b9515d0eb680c7854b7c8436ad6f829b900981d6690d4b9d88c54",
   "protected_breaks": [
     {
       "id": "coalesced:6f9db302ddc81105673f818e5c5a5c8c9467a0efab23df721dff013e4d5093c7",
@@ -3510,9 +3528,10 @@
       "complete_section": false,
       "document": "..\\MC2Game\\Localization\\INT\\MC2FieldName.int",
       "keys": [
-        "Port"
+        "Port",
+        "Town"
       ],
-      "reason": "Associated Abazet port navigation destination, distinct from town entrance.",
+      "reason": "Associated Abazet port navigation destination, distinct from town entrance. | Phase164exactownershipmerge originalscope: \u963f\u5df4\u6cfd\u7279\u5730\u540d\u4e0e\u8fd0\u8239\u8bf7\u6c42\u5173\u8054\uff0c\u4e0d\u636e\u540e\u7eed\u5267\u60c5\u53d8\u66f4\u5019\u9009\u3002",
       "section": "Abazet"
     },
     {
@@ -3603,9 +3622,10 @@
       "complete_section": false,
       "document": "..\\MC2Game\\Localization\\INT\\MC2Skill.int",
       "keys": [
-        "Skill_d_39"
+        "Skill_d_39",
+        "Skill_d_38"
       ],
-      "reason": "Explicit pairedactor-descriptionkeys:fire/twohandedsword orice/lightning,1enemy preserved. Notwholeclassskillfamily norstat/runtimeunlockproof.",
+      "reason": "Explicit pairedactor-descriptionkeys:fire/twohandedsword orice/lightning,1enemy preserved. Notwholeclassskillfamily norstat/runtimeunlockproof. | Phase164exactownershipmerge originalscope: Linked ultimate38 description only; no inferred missing name field and no unrelated later ultimate or duplicate37 repair.",
       "section": "Juto_Style2"
     },
     {

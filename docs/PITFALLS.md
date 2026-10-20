@@ -1094,3 +1094,9 @@ Unverified：实际技能触发、属性效果与提示调用尚无本批运行�
 ### Phase 162 active workflow slot contracts
 
 The full modified suite exposed four legacy assertions pinning the active first workflow slot to readability-fix.json. The historical baseline stays byte-identical; these four current-workflow assertions now explicitly require readability-revised.json, not an arbitrary path. The dedicated revision regression still permits exactly two authorized scalar edits and preserves all IDs and draft metadata. The failing run is retained in modified-tests-before-current-slot-contracts.log.
+
+### 第164阶段本地批处理守卫恢复
+
+闭包中的集合增量赋值会引入局部绑定，迁移函数改用update。首轮在profile落盘前停止，已写batch/workflow/fullplan三项；逐项核25输入baseline与唯一标量差异、其余22输入旧hash后守卫续行，保留失败日志而非盲目重跑初始化。源校验、旧目标取代与容量守卫均不放宽。见[阶段164](PHASE_164_MARE_DELIVERY_AND_PROFESSION.md)。
+
+第164阶段完整验证复用两标量模板时，精确差异集合本已只有一项但计数仍为2，断言正确中止；按本轮唯一候选改为1且保留完整ID集合等式。因两个上下文输出已存在，先核8条日志和25实际回滚hash/旧套件，再守卫续行，不能盲目重复创建新输出。

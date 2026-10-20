@@ -3887,6 +3887,78 @@
       "section": "Renkai_Ougi",
       "source_sha256": "c5d7cc1c2896a15b9e7fe6bf31554a61f6a97fccf0f2139a7920aa5848732fe7",
       "translation_sha256": "0e811ee80e059f38fd2825ddbcfc8860b10f58216276610a84e4be77a47a15d4"
+    },
+    {
+      "document": "..\\MC2Game\\Localization\\INT\\MC2UI_Field.int",
+      "id": "coalesced:0d700f9eb697f3f503a8abd1628ccf456cd33006d4b50f6f4f78285d9f2613ea",
+      "key": "LiveDrama_Top",
+      "occurrence": 1,
+      "section": "Live Drama",
+      "source_sha256": "9949730fd4715d0452ccb1bc4a2b2bf86ea69c4d0a0c4e7769289a461ac14b84",
+      "translation_sha256": "e74404362e72098860a47ea224b36e1960e5a5d132b3cebe43c263dc8a939144"
+    },
+    {
+      "document": "..\\MC2Game\\Localization\\INT\\MC2UI_Field.int",
+      "id": "coalesced:356efa720b19a09bb2660e205c93854968e5e8f441bb949cdbb8d6f9c7f95e76",
+      "key": "Drama1_Name",
+      "occurrence": 1,
+      "section": "Live Drama",
+      "source_sha256": "f2704f29d33200a99d324815a93c4b084f813c9552aecd8d607b6cd53abbdd29",
+      "translation_sha256": "712a790f92f9afb6a5474c1bce591986e7cc3d7b64c4734c546b910001dea5b2"
+    },
+    {
+      "document": "..\\MC2Game\\Localization\\INT\\MC2UI_Field.int",
+      "id": "coalesced:c2485e76a42d917b2556215c805cdab1cf11f39627c7d3800a7d6c00526786cb",
+      "key": "Drama1_Character",
+      "occurrence": 1,
+      "section": "Live Drama",
+      "source_sha256": "ee3c637861911468a3c2924e7d1745d43829f331441fc5dc99646c16048d7ffc",
+      "translation_sha256": "d6b187797e84f27811b6a7c648ad6da80957e4cb7329d04787aadd2fc99a0cd8"
+    },
+    {
+      "document": "..\\MC2Game\\Localization\\INT\\MC2UI_Field.int",
+      "id": "coalesced:16439b2a38d1267ca686d73ef13e4b556cd1365b85a81ce4ac395c9a50940352",
+      "key": "Drama1_Story",
+      "occurrence": 1,
+      "section": "Live Drama",
+      "source_sha256": "46abf21fca098b7010d7c94c3cbe337aae126eb50f3c10a94f00cf2e1c978390",
+      "translation_sha256": "5da8e7fe08fed11d8fc25e32a35b960e41b865f2e65e446395797808b6c05733"
+    },
+    {
+      "document": "..\\MC2Game\\Localization\\INT\\MC2UI_Field.int",
+      "id": "coalesced:2c1574fce816a953022ce81a67cb8592c92e92566fbc61d11328502cf1ff2bfd",
+      "key": "Drama2_Name",
+      "occurrence": 1,
+      "section": "Live Drama",
+      "source_sha256": "4cd2b5fc382a0a8249e7115b5bb87f2642d27f850da659d0ddef9a575ccbf811",
+      "translation_sha256": "7f31c88abc8697f09591723bb611211fb7e030cc963028400f33262cc5cd02a7"
+    },
+    {
+      "document": "..\\MC2Game\\Localization\\INT\\MC2UI_Field.int",
+      "id": "coalesced:751e2b7b421c2597e25a5aa2b9d93c404340862d0ea5a5ca34d5d4e896167843",
+      "key": "Drama2_Character",
+      "occurrence": 1,
+      "section": "Live Drama",
+      "source_sha256": "16bbbc161a99e5c251340c0ffcb42ecb6a341e669e6a715d92557ad951b3764e",
+      "translation_sha256": "98968b15c57edbf9abcf0e0e3b46002d512ad28e085a8ab7fa88eaa45f44600c"
+    },
+    {
+      "document": "..\\MC2Game\\Localization\\INT\\MC2UI_Field.int",
+      "id": "coalesced:ecd409390b62315c330a530a9f8d3bcd0c2b825ddc66aa1225dab78a18f96c90",
+      "key": "Drama2_Story",
+      "occurrence": 1,
+      "section": "Live Drama",
+      "source_sha256": "c5f185df1e8ffdca0d49144ae6ced261ec35b130f56888c779ef8854cf52b05d",
+      "translation_sha256": "afed88cd6f0c8e1a68649966185b662abf8b954a5e02d07668a9e9da298b6b1a"
+    },
+    {
+      "document": "..\\MC2Game\\Localization\\INT\\MC2UI_Field.int",
+      "id": "coalesced:b479b2d24a9a5672938c11eec4136bfe96adbf296ccd1825e1c19e5659fab41a",
+      "key": "Q_Skip",
+      "occurrence": 1,
+      "section": "Live Drama",
+      "source_sha256": "476864bb8660899889c322182fe67f8dca3772fce67bf8cec0bae4325e12e5a2",
+      "translation_sha256": "f4ad84efcf15c2bffa9e4d9edc18e069df99b4f10f4ff7da68c43e6fb486dc22"
     }
   ],
   "human_finalized": false,
@@ -3913,6 +3985,14 @@
     {
       "id": "coalesced:9029e0ba6637c7bd09764875d60899fa0e05429475782c50c686e8a78233854a",
       "reason": "Preserve functional chapter material-handover/defense condition andquest objective paragraph TOKEN sequence alongside counters."
+    },
+    {
+      "id": "coalesced:16439b2a38d1267ca686d73ef13e4b556cd1365b85a81ce4ac395c9a50940352",
+      "reason": "Preserve functional quest objective/mail five-entry list andparagraph TOKEN sequence withoutblind dialogue reflowapproval."
+    },
+    {
+      "id": "coalesced:ecd409390b62315c330a530a9f8d3bcd0c2b825ddc66aa1225dab78a18f96c90",
+      "reason": "Preserve functional quest objective/mail five-entry list andparagraph TOKEN sequence withoutblind dialogue reflowapproval."
     }
   ],
   "resource": "MC2Game/Localization/Coalesced.int",
@@ -4142,6 +4222,22 @@
       ],
       "reason": "Allfour material name/description pairs:SpecialMetal,MerePollen,BlackPearl,BigKamond;source trailing spaces preserved. \uc601\uac81\uc758\uce74\ubaac\ub4dc name\u6c38\u52abdistinct fromquest generic\u5de8\u5927/\u5de8\u578bdescriptor andprevious\u8d85\u8d8aKamond;do not auto-unify names orassert executable itembinding.",
       "section": "Valuables"
+    },
+    {
+      "complete_section": false,
+      "document": "..\\MC2Game\\Localization\\INT\\MC2UI_Field.int",
+      "keys": [
+        "LiveDrama_Top",
+        "Drama1_Name",
+        "Drama1_Character",
+        "Drama1_Story",
+        "Drama2_Name",
+        "Drama2_Character",
+        "Drama2_Story",
+        "Q_Skip"
+      ],
+      "reason": "Explicit8linkedUIkeys:selector/title/cast/synopsisforDrama1/2plusendingconfirmation;Drama3threefieldsnotyetobserved. Preservefunctionalparagraphs/controlsequence. UIprovesin-sourcepresentationnotDLCownership/runtimeunlock.",
+      "section": "Live Drama"
     }
   ]
 }

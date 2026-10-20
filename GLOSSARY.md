@@ -959,7 +959,70 @@
 | mc2-juto-zephie-equipment-953 | 브론즈 건틀렛 | 青铜护手 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:af54d3a958ff2556a4ac7415c7066dcbf958b59e367c6257518c9c8b819d6a0a |
 | mc2-juto-zephie-equipment-954 | 다이아의견갑 | 钻石肩甲 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:7f648d3bd277ef37112f1cd02cc58ce4341cf05feee41019158da77acffc95e5 |
 | mc2-equipment-person-955 | 칼린츠 | 卡林兹 | character | short-name | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:9dda2da691b4ec14c4a84fb0e6e81e24f36a2db070a74c1d8628b26774631eec |
+| mc2-argo-crocell-equipment-956 | 전사의 도끼 | 战士之斧 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:345aaf6bec2a7b2be942e93c475fb0976caa00ea055f1d8bf1e64cadc0892476 |
+| mc2-argo-crocell-equipment-957 | 뇌명의 도끼 | 雷鸣之斧 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:0a6a745f6abe04ff777434280d473a34c1eb795dc4d72b132f2474da09c9fc57 |
+| mc2-argo-crocell-equipment-958 | 일격필살 | 一击必杀 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:988b224064c5e5547b2b9ff53c6cfaabd9e33390bde2ff32308f3055093de0cb |
+| mc2-argo-crocell-equipment-959 | 폭풍의 도끼 | 暴风之斧 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:e74ef86740961f8ab8ef4552e495a939406953c8d61d9ff07ec292e57cc83dd5 |
+| mc2-argo-crocell-equipment-960 | 초인의 도끼 | 超人之斧 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:f36866e93198736b9d70eeae80fc22ad43298987aadb9b01607e412095febc74 |
+| mc2-argo-crocell-equipment-961 | 참월 | 斩月 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:207d767628b84fc2a1776cc68cb8693816b382c1f05726a1443ac4e8f040f96f |
+| mc2-argo-crocell-equipment-962 | 어스퀘이커 | 撼地者 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:5fcb5c0cf4ca51c223ab0900ac66a2234e45d4d090ce4d543926894570961622 |
+| mc2-argo-crocell-equipment-963 | 영웅의 도끼 | 英雄之斧 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:f0132cd6c74134b6a538f0cd7e0254065e1ac2b4e9d697ce1a2eb880cd51f51a |
+| mc2-argo-crocell-equipment-964 | 致命撃 | 致命击 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:235f2736a13a00cf9b821dc4c11101555ce976a1a0c8b7de73d0ce39be515b45 |
+| mc2-argo-crocell-equipment-965 | 파천 | 破天 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:5b4346a916d8952e5e1b1f72934b61e67e8e443b6ca81a0f3a825a0a85938ca5 |
+| mc2-argo-crocell-equipment-966 | 적월부 | 赤月斧 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:2c1765cec4741e83ff3673b6f1e5c55a292c8acf4b7ab77b473321ac0f1274c6 |
+| mc2-argo-crocell-equipment-967 | 아이언 해머 | 铁锤 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:18d45718584c7e83539b29b595e3c8cc397cf6f3fdc7f05360d23dc56a50e81d |
+| mc2-argo-crocell-equipment-968 | 워 해머 | 战锤 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:27b674c1b44dbc18bd3a33bb3d852feda68376ffef38dfeee8cf5d4a26269867 |
+| mc2-argo-crocell-equipment-969 | 고대인의 망치 | 古人之锤 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:2b4f7a03fbda9fe14afafd4430c411c45169ca8b6efc6ef325cbbd37403e9523 |
+| mc2-argo-crocell-equipment-970 | 일류전 | 幻象 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:ab5d6b29ab5115f27a91f7d0af8a939c9cbd657f2ea27a120f274ce8e765c3be |
+| mc2-argo-crocell-equipment-971 | 타이탄 해머 | 泰坦之锤 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:a22fe24f7cff0e410a73eb46db37adbe18cbd22265aef1a76a0cb5baeb68975d |
+| mc2-argo-crocell-equipment-972 | 거인의 주먹 | 巨人之拳 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:78b800b6163ad9e7e428926b706293dc2b62e1a6c89c7447795b4de658e27c3d |
+| mc2-argo-crocell-equipment-973 | 미티어 | 陨星 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:61b0a62bc09d0ce5872a78a6255bf861774d814efe713322cc3de98ff1420399 |
+| mc2-argo-crocell-equipment-974 | 블러디 해머 | 血腥之锤 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:02d446b1c73ee452575c7c719eb05a178d1a09980cf46ffafd5033dc102acc3d |
+| mc2-argo-crocell-equipment-975 | 파탄 | 破灭 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:ca55746ab7743930127a45197a57d923bd40f88e05469f6fa85420fe5a95f989 |
+| mc2-argo-crocell-equipment-976 | 슈퍼노바 | 超新星 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:32b99d84f32515056e32996b6882c8b52d411be9b9ab78fd161f938574c9c2bf |
+| mc2-argo-crocell-equipment-977 | 1000톤망치 | 1000吨锤 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:22b41d3217f387a318e10a94d57ea70dcc221063969cc7aec0dc44fb5b384aec |
+| mc2-argo-crocell-equipment-978 | 적화 | 赤炎球 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:61d58360e499287590648453470c938546027a3e9047a745fb26df8fb7251bc6 |
+| mc2-argo-crocell-equipment-979 | 윌오더위스프 | 鬼火 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:1ee9203697137de2b26170b894d2cc4555e6d9610c4e1a59258bfa319de3b117 |
+| mc2-argo-crocell-equipment-980 | 화무 | 火舞 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:1297a95c542398791b88afdc521ae40a74fe006a6bbaeb40d915efc8db59c521 |
+| mc2-argo-crocell-equipment-981 | 슈팅스타 | 流星 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:f77cdfcab28265b44d287bafab82096f5e0373be3420bf388acf0dab7bc8935b |
+| mc2-argo-crocell-equipment-982 | 작열 | 灼热 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:ab278f32af46f85b7908d672574eedad3354199bc400026af95b33076ffaecb2 |
+| mc2-argo-crocell-equipment-983 | 드래곤 하트 | 龙之心 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:673e80193805bd02616eeaae14b299029b470c92ed4dfeeb476e7817bfa081ec |
+| mc2-argo-crocell-equipment-984 | 紅の鬼才 | 赤红鬼才 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:43afd34925a960810fa43ec0b43fe8fd9da93efc02fac8985a1e242ecd7dd152 |
+| mc2-argo-crocell-equipment-985 | 샐러맨더 | 火蜥蜴 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:0b584f05babb4b89f7164f57563e9a1b0083f1b5eaad00a7be1e27c0d8b58b38 |
+| mc2-argo-crocell-equipment-986 | 열혈로켓 | 热血火箭 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:9632ba71e57ce61bf9d9a0733a0ddd1c0a7d438287cd433b4adf0c163c12c121 |
+| mc2-argo-crocell-equipment-987 | 가죽 너클 | 皮革拳套 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:c4d13f6cd805c2aa39054bde95f0160c68eaf3d03f5d24c1c8fa96d8b4a848b9 |
+| mc2-argo-crocell-equipment-988 | 파워 너클 | 力量拳套 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:2689e44b110e24497023cdd488b6d12892c7a9b0075e03d68c39d4966dc358f3 |
+| mc2-argo-crocell-equipment-989 | 스칼렛 피스트 | 绯红之拳 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:ca34919d476a44b27ba9efa49ca3b0c9ac23515b7b0e99774887174d692bb6f1 |
+| mc2-argo-crocell-equipment-990 | 사신 | 死神 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:b9294aca3fd19685a0d17c5f42aa7b6fe6460e6649b42a968cd1cc7a80851ef9 |
+| mc2-argo-crocell-equipment-991 | 폭염 | 爆炎 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:dcf663edd8f0491dc8fa91772bda5b4943e2b580c07c4cd48278390e89670e70 |
+| mc2-argo-crocell-equipment-992 | 드래곤 너클 | 龙之拳套 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:80deeb691873bc89d13357fb8795beca2e684cdacecd891ca2f6921e346bb10e |
+| mc2-argo-crocell-equipment-993 | 철권 | 铁拳 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:8ff4ca571366fd0a72bc37fa27983ea32c53ced557e517dd716697dea66e7ef6 |
+| mc2-argo-crocell-equipment-994 | 아비스 너클 | 阿维斯拳套 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:374f0e69db8f1e39ce1dfad6d50acdf10c0d18d0541c4e62d3e53fcc4f459107 |
+| mc2-argo-crocell-equipment-995 | 브레이브 피스트 | 勇敢之拳 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:2d83f92471d1ab5f4b4ea6cd1e39b4a94bdb84d5f6d3801500482cf9b9c46662 |
+| mc2-argo-crocell-equipment-996 | 일루젼 피스트 | 幻影之拳 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:7e46aabb45831387721bd1515635a5b647dcb068f21f32ccebe948fa64f0e28e |
+| mc2-argo-crocell-equipment-997 | 필살펀치 | 必杀重拳 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:47b74982a74c48fca8907103fb06ab327b3ba63728fffba6ef535a064bef404b |
+| mc2-argo-crocell-equipment-998 | 가넷 | 石榴石 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:24d1483869918b50d595a5a072b703781d91f54a1d1e69588f13a0aade1a3023 |
+| mc2-argo-crocell-equipment-999 | 아메지스트 | 紫水晶 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:8a51b9c9db1abc428b351659fc623f3bddd42d202757755a361bd8b715830e67 |
+| mc2-argo-crocell-equipment-1000 | 루벨라이트 | 红碧玺 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:0383b5f4c14a2112adfbc040ca6ad650f1ba785c3235d9d7e354c4145a977ac7 |
+| mc2-argo-crocell-equipment-1001 | 펄 | 珍珠 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:7013ace909601cec16f7caaf72c9955ee2f67ee8d6c140ce1400fcae8a42485d |
+| mc2-argo-crocell-equipment-1002 | 오팔 | 欧泊 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:aad0ad0e5364b509f97366a59c816b88cc02d7105686e11d084c409a0e567701 |
+| mc2-argo-crocell-equipment-1003 | 토패즈 | 托帕石 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:792124165dc0bbb9fe9a36e7ae926801d540234a802867363f7a61130379b79e |
+| mc2-argo-crocell-equipment-1004 | 골드 | 黄金 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:8f704a32b66616250895f5c4db02c51812868823e1d3c4b3b8625dc35c379d58 |
+| mc2-argo-crocell-equipment-1005 | 다이아몬드 | 钻石 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:a44b69ed6602628f2c8e318b56fe9f9a284b07ba0b1c36d820d3b199207c0057 |
+| mc2-argo-crocell-equipment-1006 | 루비 | 红宝石 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:e0b7c6219c0e9ea04f61ec63a334c856f442ba045c96d84cc62e49498f6bfd5c |
+| mc2-argo-crocell-equipment-1007 | 썬 크리스탈 | 太阳水晶 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:cd3ae3f0ee1190bb34e4decaba6655e4273c1a2c78fc8d53f72b5c0527625de7 |
+| mc2-argo-crocell-equipment-1008 | 강철의 건틀렛 | 钢铁护手 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:120cde1aa3180c74c6f31a9f25a53f5d6690416885dab28e3d1f93c6ca41fbb0 |
+| mc2-argo-crocell-equipment-1009 | 바람의 건틀렛 | 风之护手 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:9d48860f32c79dd3e3a578d1709e620632d1c8964229b16591a582d3f7dd1385 |
+| mc2-argo-crocell-equipment-1010 | 반격의 건틀렛 | 反击护手 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:e8de46157de3e6c7123f8ba3e6b0a409025631454bb5842dd5c13500e63cc6e5 |
+| mc2-argo-crocell-equipment-1011 | 섬광의 건틀렛 | 闪光护手 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:7fa6b3b19e73ab37850ede013f7ba82a6299f5f416cec9c4fcf1db30940ca89b |
+| mc2-argo-crocell-equipment-1012 | 사신의 건틀렛 | 死神护手 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:7b2ec75b1d4c192f427a304301e8121411258ab11fba542fe7b89c98e42cb3b2 |
+| mc2-argo-crocell-equipment-1013 | 저주의 건틀렛 | 诅咒护手 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:2e99cec9e726fbba10bd8d757fdeae0c63788ac3c7137d635d13825f1d62717f |
+| mc2-argo-crocell-equipment-1014 | 칸의 건틀렛 | KAN护手 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:f00cd769b1a6dc4d2afd9fa9a3ed90c30c78158d5060b7f32400d9820b9d10c5 |
+| mc2-argo-crocell-equipment-1015 | 고대의 건틀렛 | 古代护手 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:c7a0a65e245214e850cbab06776026f2a5c8269cf603bba25bf9d8b04131fd86 |
+| mc2-argo-crocell-equipment-1016 | 다이아몬드 건틀렛 | 钻石护手 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:4fd138229ed5dbd0655d3ad17dfdbc75780145aadf342f9df2eb53ec8ec27867 |
+| mc2-argo-crocell-equipment-1017 | 竜人の건틀렛 | 龙人护手 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:7bb91da6ee08544a271ab007145f1b66617b3c2bcfcd56dc2b37de35202c1f4b |
+| mc2-argo-crocell-equipment-1018 | 완전무결 | 完美无缺 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:c6e7cae7066a4319a730839a2aab777db68b58187f75c96891251463bdcb689c |
 
-本作词条：955；已继承：0。
+本作词条：1018；已继承：0。
 
 固定来源、统计、冲突与审核流程见 [系列术语参考](docs/SERIES_TERMS.md)。

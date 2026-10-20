@@ -1,3 +1,13 @@
+## 第108批接续状态（2026-10-20）
+
+INT累计12,459条draft；第107批推送核对后接续194候选，新增184见[BATCH_108_ARGO_CROCELL_EQUIPMENT](BATCH_108_ARGO_CROCELL_EQUIPMENT.md)，1018项candidate，旧955保持。
+阿尔戈斧31/33、锤33/33、护手31/33；克罗塞尔火球29/33、拳套31/33、KAN充能器33/33为draft覆盖。8字段缺数值、424火球空白简述与无需字面变化的毒炎球名各独立held，不为凑数生成变化。
+当前工作区build/batch-108-verification/reviewed-workspace；旧12275/全部历史held/新held10/邮件128/235/44字幕315cue保持。
+下一阶段核读build/batch-108-verification/next-equipment-candidates.json的162字段：塞蕾丝汀弓30/香30/胸针27，露手里剑27/刀24/背包24；完整源见next-equipment-context.txt，结合旧字段补齐功能组，不重复翻译。按完整组处理，缺值/空白/未知格式held，不为凑数译占位。
+物品其余210原值另存next-item-candidates.json，含上述162、Valuables33及15个旧/新保留字段。全部5901减184为5717原值，含工具/样本，非确定玩家待译总量。
+323幻象有限核读JPNイリュージョン和INT幻觉说明；420赤炎球/423火舞仅参考实际JPN名，不推广数字key全表对齐，保留INT数值。309全述攻击+ 240/简述攻击+240；1000吨锤保留数字，不自动修齐。
+阶段统一验证清理提交推送核对后继续；保留原盘/配置/存档/runs/当前包/依赖/基线回滚研究。不合盘、不生成ISO/整盘副本、不启动模拟器；离线非游戏验收。
+
 ## 第107批接续状态（2026-10-20）
 
 INT累计12,275条draft；206候选中新增202见[BATCH_107_JUTO_ZEPHIE_EQUIPMENT](BATCH_107_JUTO_ZEPHIE_EQUIPMENT.md)，955项candidate，旧885保持。

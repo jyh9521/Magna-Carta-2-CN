@@ -1,3 +1,7 @@
+## 第153阶段接续状态（2026-10-21）
+
+最后翻译116、14082 INT/315cue draft、1104 candidate不变。十五源序剧情198＋告别NPC23＋Chapter12计划41＋完整爱情魔药任务18＋道具2，合282 INT，另11-50/60字幕16cue，共298新观察；累计5777/270。策略2894/2297待上下文/5191运行待核，183功能分隔；16有界profile不扩门禁。Chapter12_37作为第8项已调查未计划原文，与旧24held分开；源任务4/3/5分歧保留。活动依赖表build/phase-153-verification/current-packet-hash-preflight.json，玩家包仍149。见[阶段153](PHASE_153_DEFENSE_FAREWELL_CONTEXT.md)。提交推送后按12_030之后源序接续，关联未读支线与独立12-80字幕须结合后续剧情，预检不计完成。
+
 ## 第133阶段接续状态（2026-10-21）
 
 最后翻译116、14,082 INT/315cue draft、1104 candidate保持。新增12完整场景193+送工具20+关联19 INT，以及18字幕，共250项审读；累计476 INT/49cue，210策略观察/4981上下文待审/5191运行布局待核。旧244条精确保留，当前204依赖不变。见[PHASE_133_CAVE_DEFENSE_CONTEXT](PHASE_133_CAVE_DEFENSE_CONTEXT.md)。接续CSMB01_31/47/48及第2章完整场景，补关联任务/NPC/名称/字幕；当前32 scope须拆出有界新cohort并验证跨profile无重复汇总，不擅自提高上限。

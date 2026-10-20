@@ -889,7 +889,77 @@
 | mc2-special-accessory-883 | 고양이 방울 | 猫铃铛 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:3a916ac357739c42a02ae37c9aef9769bc031130665738391cc00d089b088ecb |
 | mc2-special-accessory-884 | 고양이 발톱 | 猫爪 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:42f91251e503a8d780cec12c6d86226100bf4ec5b3130c598cf23de19fbaf398 |
 | mc2-special-accessory-885 | 핏빛 귀걸이 | 血色耳环 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:4e641dfaae70e31cabf7d621b7b5d2af81d270387915b0266c343ca16c8069d3 |
+| mc2-juto-zephie-equipment-886 | 멜리사의 검 | 梅莉莎的剑 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:c0934cd502cdf50c2887d2f8b38ac4b8352b4f75ace863d89d0fc001a326ffb6 |
+| mc2-juto-zephie-equipment-887 | 카이토의 검 | 凯托的剑 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:fb69cdbee4352ef274cbdd41dcbb225d3ecb1f0570c393ec6e6889eedd432dfc |
+| mc2-juto-zephie-equipment-888 | 라이온하트 | 狮子之心 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:96eac3fa464c45661c801af394eec181525dc6327efc7f003c70664f2c25c092 |
+| mc2-juto-zephie-equipment-889 | 노을 | 晚霞 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:ca7010b6846cc55332d55e2d1926618339d643fcdcecbfa17b64d53739da1bff |
+| mc2-juto-zephie-equipment-890 | 버서커 | 狂战士 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:4f26d9485807c1aa9fbc2a1c3f7826450f33a4d0298369904154db72e27081a1 |
+| mc2-juto-zephie-equipment-891 | 스톰 블링거 | 风暴使者 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:73e24f3c341749fe896544b981632727e035cca94d7e69486ccfd75ddbc67af2 |
+| mc2-juto-zephie-equipment-892 | 브레이브 하트 | 勇敢之心 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:7a8348957f643625b35eab0206e4689dd8d500cf1f8729f51aa13912a971c30f |
+| mc2-juto-zephie-equipment-893 | 크림슨 블레이드 | 绯红之刃 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:265b2dac696ff2c67c57e6de9e032e07f037264a1f3ddb0214cc3723fc9d2ae5 |
+| mc2-juto-zephie-equipment-894 | 오버데스 | 超越死亡 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:2f458a267ff0c040d9b1f7b7a3d1cbe6197439de1ee7245d6425201e6d813106 |
+| mc2-juto-zephie-equipment-895 | 카르타 슬레이어 | 卡尔塔杀手 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:0317da97c137d0586de99c8dbc10f7295437322664a8ba0da3f4f52c71185b6e |
+| mc2-juto-zephie-equipment-896 | 리미트 브레이커 | 极限突破者 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:8ba5caaa8e07186a80f74711f0699dcce407d2e73dda058a9bd666631912c745 |
+| mc2-juto-zephie-equipment-897 | 覚醒 | 觉醒 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:335b1edaf104d997bd91334590331a0da05554aa256a84079a010e52e0114a6c |
+| mc2-juto-zephie-equipment-898 | 페이트 | 命运 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:2c5decede4ac8620efd4b5f8940ca366cb25d43543722e24f20d3de038bcf7f7 |
+| mc2-juto-zephie-equipment-899 | 칼린츠의 검 | 卡林兹的剑 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:f18774f7725a8fe826b3526f380235562cecead82f5411a37657fe984ed310b0 |
+| mc2-juto-zephie-equipment-900 | 플레임 소드 | 烈焰剑 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:cdf3ec52ceaa48f6bd3fdbca3e9b2bba1541650e4ecc9ae808f06ef2c0b9b4de |
+| mc2-juto-zephie-equipment-901 | 설화 | 雪华 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:c0fd6f44afd6a828449735f9e97bf5f218f3d6ba42653c9c5b78ef7d6fe37869 |
+| mc2-juto-zephie-equipment-902 | 무명전사의 대검 | 无名战士的巨剑 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:0a7bf392fda9d197d3e826c23a9045f1e1a0f9790efcd6175f2dd58fdf58efd8 |
+| mc2-juto-zephie-equipment-903 | 침묵의 검 | 沉默之剑 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:0a7b009f57736b3c03a0c33b3a1dc00af51dc80afa7b7cec292e384dcb4fd79d |
+| mc2-juto-zephie-equipment-904 | 클로 | 利爪 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:efeb06c1aefd8d1a3c8d03df26b1495b04aecfc69adede51e3a8e1546f5aa6e0 |
+| mc2-juto-zephie-equipment-905 | 버스터 | 破坏者 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:e41e91dc10fe23957212c8a858b43315fbcb1678a4d5f199c7c51c9d569151fe |
+| mc2-juto-zephie-equipment-906 | 울븐 하울 | 狼嚎 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:3c308f4a715e690ef5327b6746fa32f6a179039bd3561a72322f743c736c51c0 |
+| mc2-juto-zephie-equipment-907 | 달의 저주 | 月之诅咒 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:b721eb3c2581d81935b82c7f17ec7b18105a4f08a2e9def8269d0f47d415bff7 |
+| mc2-juto-zephie-equipment-908 | 심판자 | 审判者 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:a3395103aa48cf7af09ba04b2342e70a484400e0df02a79d9b458187cea1fa5f |
+| mc2-juto-zephie-equipment-909 | 暫魂剣 | 暂魂剑 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:0015d54659288a1cb5daad87ec77e6251c11c6de68f3fc0ad8db958d7ef17efc |
+| mc2-juto-zephie-equipment-910 | 백야 | 白夜 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:ca48450a0507a0d9330e75d65693e1c310e55b124d66a175a6d7325e9ba60f37 |
+| mc2-juto-zephie-equipment-911 | 개화 | 花开 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:c9735ee26aef8a46f02c04f491773ec517e0677b26cc207ac805a458b6e2e433 |
+| mc2-juto-zephie-equipment-912 | 벚꽃 | 樱花 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:efb90a68389adaf702d9f59bf9d7c0b5a95a2455f2de947459de1de43c5838e9 |
+| mc2-juto-zephie-equipment-913 | 수선 | 水仙 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:4abbd0ec2dfd77db2e238ecb05264394be04034c95bd7538483dadd4768e05a8 |
+| mc2-juto-zephie-equipment-914 | 장미 | 玫瑰 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:b33d165a5c7943d8a7b2899d53e75481bbc3523a1516327e409d6dd69b9800d4 |
+| mc2-juto-zephie-equipment-915 | 수국 | 绣球 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:abf7aee0e2153d2f9d3564eac3da2f1b7af366c64f0e24e8206542f4cef0f6ac |
+| mc2-juto-zephie-equipment-916 | 난초 | 兰花 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:f5b4c5d651d59d2b5c2202e36a358b2578ffbebe0ec9fc3af7a686f734a50f11 |
+| mc2-juto-zephie-equipment-917 | 매화 | 梅花 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:4d64bb06638cf6d9d6cdcba86763d8cb9f40101ab191c7974e8d055cbc0d2550 |
+| mc2-juto-zephie-equipment-918 | キク | 菊花 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:33bc326d2e4e5960cd227a060ffb875f0db57e16472f4fb77e70c4d7921e4556 |
+| mc2-juto-zephie-equipment-919 | スイレン | 睡莲 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:eb2c3a4db8301cab672130b6f4703924db9ccf7732155db4b40081d14b69653a |
+| mc2-juto-zephie-equipment-920 | 만개 | 盛放 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:d41daedd85403f4e3a6a7415585cb8ae7a7850a6a1c922b068a9db74235044eb |
+| mc2-juto-zephie-equipment-921 | 스윗캔디 | 甜蜜糖果 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:273489c05f224fd1ef0908405e74c84f3026d47f1b57da5b9648bf77af7a4800 |
+| mc2-juto-zephie-equipment-922 | 홀리 로드 | 神圣法杖 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:be65610ced6bdba1a8661594eb1e3c01aee4bf73f5ff759b2e36a1ea0d9262c0 |
+| mc2-juto-zephie-equipment-923 | 지혜의 눈 | 智慧之眼 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:89d2d4f1a9b69581cbced1843ebfd9479edf668a5476126f1ed709fcef44d488 |
+| mc2-juto-zephie-equipment-924 | 침묵의 홀 | 沉默权杖 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:6da4a1076c382323c6e259b44353170b208f1134095f2b93f00bfa68de241e97 |
+| mc2-juto-zephie-equipment-925 | 윈드 로드 | 风之法杖 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:400025332661b3d12258ad3888b86c26c18eb29389286dbe4fcf8d275aff7c7f |
+| mc2-juto-zephie-equipment-926 | 영광의 홀 | 荣耀权杖 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:f4516ded5bc7cee1c42fa70ead19e60456b623ce09b582b1a69f0466ab3ff0d6 |
+| mc2-juto-zephie-equipment-927 | 미스틱 로드 | 神秘法杖 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:652bb6ddd6f213ae7c20e3304917cb49b45f36431aa00e051521689fc4057411 |
+| mc2-juto-zephie-equipment-928 | 미라클 로드 | 奇迹法杖 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:54112b8ae68771926aaa5330dba4a7b0e7ac76ffabe669ef122160ed52bcbef9 |
+| mc2-juto-zephie-equipment-929 | 타이푼 로드 | 台风法杖 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:2f9a4d77705449432bc110ca9a384bd48e7d9690a51352c5e0f3c0443de6b386 |
+| mc2-juto-zephie-equipment-930 | 白霧の杖 | 白雾之杖 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:59858783331056f8a11b951ecdd2d401f3af00ab8599b22da7d7897eed633aae |
+| mc2-juto-zephie-equipment-931 | 윈드 마스터 | 风之大师 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:5933da4559871dde58c231c51baf9fee8e28493155e69afc08a08243fa1e04d5 |
+| mc2-juto-zephie-equipment-932 | 블루베리 | 蓝莓 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:ddf688b290c8f32a8abd39804f94a826be3383ef44ecd3c335bda2bda269d339 |
+| mc2-juto-zephie-equipment-933 | 가죽 팔찌 | 皮革手镯 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:4ec28862c56fe1667c0b55a7a517cb81ee52e186a14357cf49ce9123cd28c3a4 |
+| mc2-juto-zephie-equipment-934 | 태고의 팔찌 | 太古手镯 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:c5775515dde0f058b1cea2050c1aca5e579e90118acc9873a7cea3d3367195af |
+| mc2-juto-zephie-equipment-935 | 아쿠아마린 팔찌 | 海蓝宝石手镯 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:10be6042283c90167640f379d3138f9082014e3212cf0ee96c1de42026ff6cce |
+| mc2-juto-zephie-equipment-936 | 신록의 팔찌 | 新绿手镯 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:238de12f2aa33d2e6109f67de0571a9f4b9a9cdd3af1a1fd06009ab04d87c181 |
+| mc2-juto-zephie-equipment-937 | 치유의 팔찌 | 治愈手镯 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:5150658d1f3c6bcdd58d650f351a5284f505b6466c4281f49a64533c1ea11e9c |
+| mc2-juto-zephie-equipment-938 | 자수정 팔찌 | 紫水晶手镯 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:19028c97f4ef361722d44a48170fbd971e45637a99abbbad6c02023a2e7441d6 |
+| mc2-juto-zephie-equipment-939 | 혜성의 팔찌 | 彗星手镯 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:7790d017336d20693476d77de3db09110d44293c62d7549a70b32bd848511fca |
+| mc2-juto-zephie-equipment-940 | 바람의 팔찌 | 风之手镯 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:a783ca27622c283e92a57c171403e7a366d08bb73dd3fe96e054c21df090b8e7 |
+| mc2-juto-zephie-equipment-941 | 용린의 팔찌 | 龙鳞手镯 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:db825828adb894143724dbf608acd41819272af0eff01800dcbf423c6344cf10 |
+| mc2-juto-zephie-equipment-942 | 오로라 | 极光 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:4b930070e201bc72f63ac725b3b14464a1766243918064444b780e922e5bb6d0 |
+| mc2-juto-zephie-equipment-943 | 강철의 견갑 | 钢铁肩甲 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:176f81e30baf61b9b704da7da0172004a3d9cde3440abbf5ed5820d97159bca4 |
+| mc2-juto-zephie-equipment-944 | 바람의 견갑 | 风之肩甲 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:f1c9ddc6eb850b37848378e94dad2dcf3c647cdc27ec62a8603d29baef73c0a6 |
+| mc2-juto-zephie-equipment-945 | 용기의 견갑 | 勇气肩甲 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:92d70bf2e0f34ea682605c3100c0f719f6d3cd002a9d3719185d1f789bf4b8f7 |
+| mc2-juto-zephie-equipment-946 | 영령의 견갑 | 英灵肩甲 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:3a6ebea5d674ee5a1ae71dd2f86c534bdca69f49fa1b9affa505ca452eff71a9 |
+| mc2-juto-zephie-equipment-947 | 용의 견갑 | 龙之肩甲 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:3c96bdaa5412f4553354e28b864c6f1e904d75df089e12e40f0865fb35108050 |
+| mc2-juto-zephie-equipment-948 | 가디언의 뿔 | 守护者之角 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:e118bac8520a2da1710f9d850025b1dcbfec8f93e7908be2a201a6bcdf30ba45 |
+| mc2-juto-zephie-equipment-949 | 수호의 견갑 | 守护肩甲 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:219d2ecbd35485db33c3d60161520920f0d449dbfa00737b8df35814816db952 |
+| mc2-juto-zephie-equipment-950 | 영웅의 견갑 | 英雄肩甲 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:fe3c16ebfdbf523e400249892cd1fb87366ec34d72a17a3d427e6266bf296add |
+| mc2-juto-zephie-equipment-951 | 深淵の견갑 | 深渊肩甲 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:12c94e60d509886a88506869a215154f53ee99cfe270c5fbebdce7802f5ea67c |
+| mc2-juto-zephie-equipment-952 | 영원의 견갑 | 永恒肩甲 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:a6cf60ceea899c93f0ecfc7d91444d3cc9af3bc72ebd7bb8132b3a7afd75d091 |
+| mc2-juto-zephie-equipment-953 | 브론즈 건틀렛 | 青铜护手 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:af54d3a958ff2556a4ac7415c7066dcbf958b59e367c6257518c9c8b819d6a0a |
+| mc2-juto-zephie-equipment-954 | 다이아의견갑 | 钻石肩甲 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:7f648d3bd277ef37112f1cd02cc58ce4341cf05feee41019158da77acffc95e5 |
+| mc2-equipment-person-955 | 칼린츠 | 卡林兹 | character | short-name | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:9dda2da691b4ec14c4a84fb0e6e81e24f36a2db070a74c1d8628b26774631eec |
 
-本作词条：885；已继承：0。
+本作词条：955；已继承：0。
 
 固定来源、统计、冲突与审核流程见 [系列术语参考](docs/SERIES_TERMS.md)。

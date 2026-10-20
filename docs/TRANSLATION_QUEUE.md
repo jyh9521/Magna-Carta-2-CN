@@ -1,3 +1,13 @@
+## 第107批接续状态（2026-10-20）
+
+INT累计12,275条draft；206候选中新增202见[BATCH_107_JUTO_ZEPHIE_EQUIPMENT](BATCH_107_JUTO_ZEPHIE_EQUIPMENT.md)，955项candidate，旧885保持。
+朱特单手剑47/47、双手剑36/36、肩甲32/36；洁菲扇33/33、杖33/33、手镯30/30均draft覆盖。148/151肩甲D/S四字段防御+缺值held，不能称肩甲全字段完成。
+当前工作区build/batch-107-verification/final-workspace；旧12073/全部历史held/新held4/邮件128/235/44字幕315cue保持。
+下一阶段核读build/batch-107-verification/next-equipment-candidates.json的194字段：阿尔戈斧/锤/护手各33、克罗塞尔火球31/拳套33/KAN充能器31；完整源见next-equipment-context.txt，结合旧字段补齐功能组，不重复翻译。
+其余物品394原值另存next-item-candidates.json，含Recipe旧held与本批4held；逐组辨认缺数值/尾空行/单空格/占位，遇不完整值完整held，不为凑数改已知源或补属性。
+卡林兹复用固定系列候选，仅名字参考，不认定跨作同人；暫魂剣不猜改斬，150_pauldron源青铜护手/副装备不按key改肩甲。114/131南部军首任务装备限制、150_S末制表符和137功能换行保持。
+剩余5901原值含工具/样本，非确定玩家待译量；阶段验证清理提交推送核对后继续，保留原盘/配置/存档/runs/当前包/依赖/基线回滚研究。不合盘、不生成ISO/整盘副本、不启动模拟器；离线非游戏验收。
+
 ## 第106批接续状态（2026-10-20）
 
 INT累计12,073条draft；新增225见[BATCH_106_SPECIAL_ACCESSORIES](BATCH_106_SPECIAL_ACCESSORIES.md)，885项共享candidate，旧852保持。

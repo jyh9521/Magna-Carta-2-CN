@@ -436,7 +436,12 @@
 | mc2-relief-orders-430 | 작전지령서 | 作战指令书 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:37b569e3c46b2b7b93f250753c9003c21eb630c99484c6bb1f92e84bb04e0d99 |
 | mc2-relief-orders-431 | 북부군 전령 | 北部军传令兵 | role | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:8ee322364aefdbeef795323b34d4b58bfad34099efe2572a7a96a8f49b1e4e52 |
 | mc2-relief-orders-432 | 부상자 치료 | 伤员救治 | activity | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:5acbdca285bbe29c0f1e7d9275f16c59d9933590aeb49834e7143e51aef0242f |
+| mc2-merchant-camp-433 | 전스티 | 琼斯蒂 | character | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:f937595eb3947a3a5e46f635f457dca087582310f0994a3798232191e7097824 |
+| mc2-merchant-camp-434 | 아비스 상인 | 阿维斯商人 | role | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:2289e310ad976b64b0fdd38799b91592fdb3bc329ddb9dfa1a8bf1ab5cecd55e |
+| mc2-merchant-camp-435 | 가스트랩 | 气体陷阱 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:3a20e0e96ffe4458cb59d89e4a5cce280d096895c558f4ca6093bb15f465dab3 |
+| mc2-merchant-camp-436 | 빼앗긴 상품 | 被抢走的商品 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:10828f9155e725c42c8078da9767c4da6071565f8b9f16012a90877c2c1288a5 |
+| mc2-merchant-camp-437 | 야영지의 상자의 열쇠 | 营地箱子的钥匙 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:bc32544b3f1ce46a35ecabb5d05650544ee9b8424fe9c69ddfdff9505de9b66e |
 
-本作词条：432；已继承：0。
+本作词条：437；已继承：0。
 
 固定来源、统计、冲突与审核流程见 [系列术语参考](docs/SERIES_TERMS.md)。

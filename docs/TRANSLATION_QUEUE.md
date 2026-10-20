@@ -1,3 +1,10 @@
+## 第92批接续状态（2026-10-20）
+
+INT累计9,319条draft；新增38条见[BATCH_092_WETLAND_GHOST](BATCH_092_WETLAND_GHOST.md)。437项共享候选保持。
+03_352/360已补齐；下一轮核读03_363_0/1、03_397_0，再接09_zepi_3/10_zepi_4，关联药物strange_Drag须按实际语境确认。
+当前工作区build/batch-092-verification/final-workspace；NPC1443/1473、邮件128/235、44字幕315/315已提取cue保持，不合盘。
+8857条其余原值含工具/样本，不是确定玩家待译量；旧held和未知保持，无字库/TOC/入口刷新，离线非游戏验收。
+
 ## 第91批接续状态（2026-10-20）
 
 INT累计9,281条draft；本批89条见[BATCH_091_MERCHANT_CAMP](BATCH_091_MERCHANT_CAMP.md)。共享candidate437项，旧432项保持。

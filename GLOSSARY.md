@@ -1075,7 +1075,9 @@
 | mc2-celestin-rue-equipment-1069 | 밤하늘의 브로치 | 夜空胸针 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:1184d488b1aa39a9d8a2d1500db266590d3568238c92cddde366ec4bc51ddbf8 |
 | mc2-celestin-rue-equipment-1070 | 希望の브로치 | 希望胸针 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:62c9855924b5d8622f3bcbb2376ac69bd2c752e0cace3ba1156c625fb59f86a5 |
 | mc2-celestin-rue-equipment-1071 | 성천사의 브로치 | 圣天使胸针 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:3a8cc32b5e6db6ffcf3d05107bfac7e8a80786e34ef3e30b20ca5691708e1ffa |
+| mc2-opening-comments-1072 | 크로커 | 克罗克 | creature | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:57fbb6fe3462231c434d9780aa594d061a70b09ecc301f47295c500651084106 |
+| mc2-opening-comments-1073 | 폭탄상자 | 炸弹箱 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:16e9334cc6ce3f5e03876753430fd3c6e2c68b6fdd8456c387586e48142938b3 |
 
-本作词条：1071；已继承：0。
+本作词条：1073；已继承：0。
 
 固定来源、统计、冲突与审核流程见 [系列术语参考](docs/SERIES_TERMS.md)。

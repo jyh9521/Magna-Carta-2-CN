@@ -1,3 +1,14 @@
+## 第110批接续状态（2026-10-20）
+
+INT累计12,841条draft；新增227见[BATCH_110_OPENING_COMMENTS](BATCH_110_OPENING_COMMENTS.md)，1073项candidate，旧1071保持。
+Compose开篇至第三章Chapter00 28/28、Chapter01 28/29、Chapter02 55/55、Chapter03 71/71有draft；另各角色Ch00–03可选交谈新增38，纯省略号29原值held，露该阶段全为省略号，不制造对话。
+胡安信/炸弹箱/猫猫铃铛/黑猫猫钥匙/阿塞莉娜之泪/尤尼昂之角关联7字段补齐；Compose整体626/921、Item1582/1630有draft，不等于游戏验收或全资源翻译完成。
+当前工作区build/batch-110-verification/reviewed-workspace；旧12614/所有历史held/新held29/邮件128/235/44字幕315cue保持。
+下一阶段按第四章至结局可选场景/队员交谈的余下完整状态组及关联物品合批：next-late-comments-candidates.json共271候选（236含语言内容、35纯省略号保留待核，未见未知反斜线）；上下文见next-late-comments-context.txt。已排除全部历史held，PartyTalk六角色各31、Chapter10 53/Chapter12 6、Valuables26。
+其余Compose295原值与Item48原值分别见next-MC2Compose.int.json/next-MC2Item.int.json，包含全部历史held，不能直接当新可译量。优先核对各角色声口、阶段语境及源名/字段差异，未知格式完整保留。
+本批阿巴泽特按共享候选核正，仅新草稿修订，旧译/术语不改；死亡弩炮复用旧译，克罗克仅候选。4 / 3与5 / 3源进度、左右/相邻/两端/橙黑绿混色提示、Styles X/Y顺序与LT/A/B/X键保持，不推解谜答案。
+剩余5335原值含工具/样本，非确定玩家待译量；阶段验证清理提交推送核对后自动继续，保留原盘/配置/存档/runs/当前包/依赖/基线回滚研究。不合盘、不生成ISO/整盘副本、不启动模拟器；离线非游戏验收。
+
 ## 第109批接续状态（2026-10-20）
 
 INT累计12,614条draft；162装备候选中新增155见[BATCH_109_CELESTIN_RUE_EQUIPMENT](BATCH_109_CELESTIN_RUE_EQUIPMENT.md)，1071项candidate，旧1018保持。

@@ -1,3 +1,7 @@
+## 双指令关联闭合与旧cohort保留（2026-10-21）
+
+Verified / offline：新216成员/18 scopes汇总1169，旧953及三个profile字节保持；任务Des/两邮件Con功能分隔新增3，累计40。562策略仅上下文观察、4629待上下文、5191运行待核。原suite/TOKEN/门禁/生产计划不改，44字幕计划范围无新匹配资源，旧90不重算，当前204依赖保持。见docs/PHASE_136_HEADQUARTERS_ORDERS_CONTEXT.md。
+
 ## 小队教学多cohort与既有功能分隔（2026-10-21）
 
 Verified / offline：新增258项独立profile，经原suite汇总953项，旧695/profile字节保持；新增18项功能分隔，累计37。444策略仅上下文观察、4747待上下文、全部5191运行待核。旧32 scopes/1000成员与16 profiles门禁、TOKEN/数字/键位验证及生产计划不改；五字幕逆核/当前204依赖保持。见docs/PHASE_135_PARTY_WEREWOLF_CONTEXT.md。

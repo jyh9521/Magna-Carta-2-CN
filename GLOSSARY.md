@@ -1022,7 +1022,60 @@
 | mc2-argo-crocell-equipment-1016 | 다이아몬드 건틀렛 | 钻石护手 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:4fd138229ed5dbd0655d3ad17dfdbc75780145aadf342f9df2eb53ec8ec27867 |
 | mc2-argo-crocell-equipment-1017 | 竜人の건틀렛 | 龙人护手 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:7bb91da6ee08544a271ab007145f1b66617b3c2bcfcd56dc2b37de35202c1f4b |
 | mc2-argo-crocell-equipment-1018 | 완전무결 | 完美无缺 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:c6e7cae7066a4319a730839a2aab777db68b58187f75c96891251463bdcb689c |
+| mc2-celestin-rue-equipment-1019 | 마레의 활 | 马雷之弓 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:36057e32cff880123a43c0bf29b70819df7d1874af32191da34977f7e73e1116 |
+| mc2-celestin-rue-equipment-1020 | 질풍의 활 | 疾风之弓 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:6e9e7898f98c3cfc5544400fff464d525642552c8b50c30fac7459f77edebfa8 |
+| mc2-celestin-rue-equipment-1021 | 성궁 | 圣弓 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:597d6682c04b4122217fef2b06cdbd48d0ed5ab64e0a57d8c12d1b154ec8d958 |
+| mc2-celestin-rue-equipment-1022 | 침몰의 활 | 沉没之弓 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:76536afaceb1991b5ea5fe9a960180ec693ebdee02ba268b2d2176bfa46e9441 |
+| mc2-celestin-rue-equipment-1023 | 빙화 | 冰花 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:8fd5df521aa236001d53a84e172990fa78a1b3be032fd9746ed7c04f156998c9 |
+| mc2-celestin-rue-equipment-1024 | 섬광의 활 | 闪光之弓 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:24bcadcea4d47ba9f25aee556e5a434c7c2b03a5b8049ff42853f5576c5c3234 |
+| mc2-celestin-rue-equipment-1025 | 신의 활 | 神之弓 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:133e9fb9304ff90b85577bb4f90d8f891e88d9b77dcdd06b896838ad29dc3b8f |
+| mc2-celestin-rue-equipment-1026 | 名手の활 | 名手之弓 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:acb7a86bb49010a122412dc9ef3eb14c8af86626693d3db6f38537611fb58922 |
+| mc2-celestin-rue-equipment-1027 | 우사 | 雨师 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:50f30f572eb0f9ce5f04134d3f372c045fff73a821efcf1c433dcdea048cb982 |
+| mc2-celestin-rue-equipment-1028 | 래빗보우 | 兔兔弓 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:1e50d369c3d3970358bcbedd7837f5c986f1203c5929297b7bdcf222f6c6f64e |
+| mc2-celestin-rue-equipment-1029 | 아이리스 | 鸢尾 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:610c55fad30c076b36cf70895893afb6d71056c4ec3f1192c22ee1996b825791 |
+| mc2-celestin-rue-equipment-1030 | 로즈마리 | 迷迭香 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:77070819c5e16e44b6187bfb8c41e7e92fedc7011c7630081a10bd3d3f67e69a |
+| mc2-celestin-rue-equipment-1031 | 진저릴리 | 姜花 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:79c353768a4a4c974bce8f2fb4b63f9e5f649251a5a08d6cc7f87d390f49e47c |
+| mc2-celestin-rue-equipment-1032 | 만다린 | 柑橘 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:41c5517ed975de48d40febec5f08efeef5fe26b14c90d28be863c07e39890f33 |
+| mc2-celestin-rue-equipment-1033 | 샌달우드 | 檀香木 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:3991a89e09b1428aa3ad464613b4b80fbcc1e110ef733f93ceac5edf6e1f8556 |
+| mc2-celestin-rue-equipment-1034 | 캐모마일 | 洋甘菊 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:3eb1900b549d11a029104e323128014285c6d82672d22c6875c98faa229d0a7a |
+| mc2-celestin-rue-equipment-1035 | 티트리 | 茶树 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:1f7e289a96fdc9471e1ef6bda83be9ea90eb095a6232890df3e76f8aedd13cd4 |
+| mc2-celestin-rue-equipment-1036 | イランイラン | 依兰依兰 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:bc23c113d9b198d6cef557292c78c57963e95c870b10943c317a5e219c9c08f1 |
+| mc2-celestin-rue-equipment-1037 | 유칼립투스 | 桉树 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:7cedc6c016cbd50009781c2e630d130f29f5af8039796b6f3ba25cecb4a53eaa |
+| mc2-celestin-rue-equipment-1038 | 스윗바나나 | 甜蜜香蕉 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:8f9660ea4cf532bd8481ff8c58171ca9f78b7f813af14ef8f5f8d488163eb968 |
+| mc2-celestin-rue-equipment-1039 | 강철수리검 | 钢铁手里剑 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:2669a6e669ccc9eb04307e23dda7a11a4863808abe10229b328bac677c953eb8 |
+| mc2-celestin-rue-equipment-1040 | 질풍수리검 | 疾风手里剑 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:afcf2fee6df9b3724fafc5499c9089cbf659478d4dbc7cbde00161e9ab72afed |
+| mc2-celestin-rue-equipment-1041 | 월광수리검 | 月光手里剑 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:9a2bfd4cc3f5ea6590ca464d773a046b3d272d75f0b6298144e040eae4d961ed |
+| mc2-celestin-rue-equipment-1042 | 사성수리검 | 死星手里剑 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:b530da4c540ba565e146311dfe716dee41a7c152443186c1413a9f54d46b1291 |
+| mc2-celestin-rue-equipment-1043 | 雷電수리검 | 雷电手里剑 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:12e762e0ee37a0afb397b090fc3ff00654f1646337138766c7274deab8e86e80 |
+| mc2-celestin-rue-equipment-1044 | 血風수리검 | 血风手里剑 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:70e17349e260682d901594ca6058efab04b8cd5cbdf9dfdd8fd87e654a0a3dc3 |
+| mc2-celestin-rue-equipment-1045 | 유성수리검 | 流星手里剑 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:d0cd2654224c3347b9a4845b9ca4699faf7e38630707175c947fce9e0b799a26 |
+| mc2-celestin-rue-equipment-1046 | 홍화 | 红花 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:02ae31ef3141e354b3b7b3365481d17285e3980ab8724a2374600f004218512e |
+| mc2-celestin-rue-equipment-1047 | 암흑 | 暗黑 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:c108b92884b5236b9d7073727ee096330ed16e2eb3cb81fe5917f5f1ed52f1d6 |
+| mc2-celestin-rue-equipment-1048 | 흉성 | 凶星 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:709d96b2c824426289f244651b59b699133ed9a4a9d6acb33ac6ad0921cdde92 |
+| mc2-celestin-rue-equipment-1049 | 퇴마 | 退魔 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:97bb07f5f11430f7cccf1fd1a7a20c95d5f2cfbdfb1857016a947007e738a55a |
+| mc2-celestin-rue-equipment-1050 | 血涙刀 | 血泪刀 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:6db709c85bf2229e103c5b79817e996f9c9de2b1284b2429537acd890a6e7ee7 |
+| mc2-celestin-rue-equipment-1051 | 질풍 | 疾风 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:61d4a4c0c2aae5b2ed71b56cbb69e13438314e2645d765669140a95161960318 |
+| mc2-celestin-rue-equipment-1052 | 나찰 | 罗刹 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:03d29a29bb9db34652670b0cdfff2f40cddbcaa08f65b8a88d1334b784b73bc4 |
+| mc2-celestin-rue-equipment-1053 | 紅蓮刀 | 红莲刀 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:9d50855aa69b626e97b36344966654064726285dd79d40e02a370b39cad75f2f |
+| mc2-celestin-rue-equipment-1054 | 금강야차 | 金刚夜叉 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:3fb3ad2b1c4ad540259f8eaf816e81f279bc6907d6608351506bb1a1694a2624 |
+| mc2-celestin-rue-equipment-1055 | 목면 배낭 | 棉布背包 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:967df4005d0ad729645845c85bad7a6f0b81c88ed9e3560f777940be78922659 |
+| mc2-celestin-rue-equipment-1056 | 가죽 배낭 | 皮革背包 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:4c4bc93afd1853786ef3cb07b4da5ee35e12b2be58b141f1e5895f748b0e4aeb |
+| mc2-celestin-rue-equipment-1057 | 비단 배낭 | 丝绸背包 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:5a992f11c71993b4659c2cf0d28a7ac3031d3615218693e80d2ca1ab6adcf568 |
+| mc2-celestin-rue-equipment-1058 | 전격의 배낭 | 电击背包 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:6f3410957ce316540cf2a5eb1db59bda372d51dc8160c7b1ed38d09172863118 |
+| mc2-celestin-rue-equipment-1059 | 電撃の배낭 | 电击背包 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:193673ac5a7db8ff83e7657f17d18f70134834f736d343a0359c874ea4b3e3b3 |
+| mc2-celestin-rue-equipment-1060 | 은신의 배낭 | 潜行背包 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:410e3f96fc6e2b404457da1569b0fb9afb54d7955a3d2bb6b77ff2ad29e2060f |
+| mc2-celestin-rue-equipment-1061 | ロック배낭 | 锁扣背包 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:b1c0df65022fb2f56631dfabe4b45cce1a19578c5155c1992754c69afb5938cc |
+| mc2-celestin-rue-equipment-1062 | 만물의 배낭 | 万物背包 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:68ec6edf60a44ec06bbfaed35dc253894cb2810599cfb8f1d20c39f0071c3f66 |
+| mc2-celestin-rue-equipment-1063 | 물빛 브로치 | 水色胸针 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:7eeff92c50d93e17b87c668772a0577cc9f5c463eed128a0f2ccdec92cef46d4 |
+| mc2-celestin-rue-equipment-1064 | 사파이어 브로치 | 蓝宝石胸针 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:38ba3e787d6623886fa489a2258c42b4f2ce069d858f92688982996b0e37e3d2 |
+| mc2-celestin-rue-equipment-1065 | 가호의 브로치 | 庇佑胸针 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:c4652b263683db198c5a3c698a35b55ec429eecca7ddd53398be0ccc03321db5 |
+| mc2-celestin-rue-equipment-1066 | 생명의 브로치 | 生命胸针 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:7d3b674c4c85c4161fefe21d0ff8e271ff953497c4487bbd498faf452423f979 |
+| mc2-celestin-rue-equipment-1067 | 초승달 브로치 | 新月胸针 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:383799e885095cf3117080290cecc62aac3b3927a74e10cae3678c1aa203a7c0 |
+| mc2-celestin-rue-equipment-1068 | 마레의 브로치 | 马雷胸针 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:fbf616b2be97fbb23f4e244ef62d613ec4392c8f369cdc8a765f53798108c07e |
+| mc2-celestin-rue-equipment-1069 | 밤하늘의 브로치 | 夜空胸针 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:1184d488b1aa39a9d8a2d1500db266590d3568238c92cddde366ec4bc51ddbf8 |
+| mc2-celestin-rue-equipment-1070 | 希望の브로치 | 希望胸针 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:62c9855924b5d8622f3bcbb2376ac69bd2c752e0cace3ba1156c625fb59f86a5 |
+| mc2-celestin-rue-equipment-1071 | 성천사의 브로치 | 圣天使胸针 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:3a8cc32b5e6db6ffcf3d05107bfac7e8a80786e34ef3e30b20ca5691708e1ffa |
 
-本作词条：1018；已继承：0。
+本作词条：1071；已继承：0。
 
 固定来源、统计、冲突与审核流程见 [系列术语参考](docs/SERIES_TERMS.md)。

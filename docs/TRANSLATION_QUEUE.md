@@ -1,3 +1,13 @@
+## 第109批接续状态（2026-10-20）
+
+INT累计12,614条draft；162装备候选中新增155见[BATCH_109_CELESTIN_RUE_EQUIPMENT](BATCH_109_CELESTIN_RUE_EQUIPMENT.md)，1071项candidate，旧1018保持。
+塞蕾丝汀弓30/30、香器30/30、胸针25/27；露手里剑27/27、刀26/27、背包20/24有draft。547胸针/644及646背包D/S六字段缺防御值，606刀S仅刀与尾换行无需变化，合计7held，不填属性或添加空格凑已译。
+当前工作区build/batch-109-verification/reviewed-workspace；旧12459/全部历史held/新held7/邮件128/235/44字幕315cue保持。
+下一阶段回到按场景补齐开篇至第三章的可选场景感想与队员交谈：next-opening-candidates.json共249原值候选，220含语言内容、29纯省略号保留待核；完整上下文见next-opening-context.txt。Chapter00/01/02/03及PartyTalk各角色Ch00–03完整状态组一起审读，不只按说话者全章跳译。
+其余物品55原值见next-MC2Item.int.json，Valuables33待按关联场景核读、其余22为已知held；Compose其余515见next-MC2Compose.int.json，邮件107原值另存，不当作全为可译玩家文本。
+短刀/刀各依源，不按katana改太刀；604攻击180与605攻击140、643/644同译电击背包独立ID及529简述前导空格保持。香器复用既有候选，不擅改通用类型为香。
+剩余5562原值含工具/样本，非确定玩家待译量；每阶段验证清理提交推送核对后自动继续，保留原盘/配置/存档/runs/当前包/依赖/基线回滚研究。不合盘、不生成ISO/整盘副本、不启动模拟器；离线非游戏验收。
+
 ## 第108批接续状态（2026-10-20）
 
 INT累计12,459条draft；第107批推送核对后接续194候选，新增184见[BATCH_108_ARGO_CROCELL_EQUIPMENT](BATCH_108_ARGO_CROCELL_EQUIPMENT.md)，1018项candidate，旧955保持。

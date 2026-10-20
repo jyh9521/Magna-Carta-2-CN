@@ -1,3 +1,8 @@
+## 类别与功能尾换行也可能无需翻译变化（2026-10-20）
+
+Verified / source：606_katana_S为刀加功能尾换行，候选完全相同；格式检查拒绝unchanged source。保留原值并held，不加空格或改太刀绕过，不从邻近武器补属性。第109批162候选新增155，另六缺防御值字段也完整held。
+已知类别+空行的韩文源仍可按实际词面翻译并保留空行；中文兼容源仅未变化不计新增。两种情况分别核对，不按英文key把短刀/刀统一。初次失败计划与日志保留研究证据，见BATCH_109_CELESTIN_RUE_EQUIPMENT.md。
+
 ## 无需变化的装备源名不应伪造译文差异（2026-10-20）
 
 Verified / source：424_fireball源名毒炎球与中文候选字面相同，初次格式验证按既有规则拒绝unchanged source is not a translation；改为保留原值并独立held，不追加空格或换字凑已译量。其空白S也保留，D有意义则单独draft。

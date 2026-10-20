@@ -17,7 +17,7 @@ from tools.font_binding_audit import fingerprint
 from tools.ue3_ui_styles import StyleGraph
 from tools.ue3_fonts import parse_font_payload
 from tools.supplement_font import (parse_atlas_payload, block_rect,
-                                   rasterize_plan, supplement_package)
+                                   rasterize_plan, supplement_package, MAX_ADDITIONAL_GLYPHS)
 from tools.audit_text_font_coverage import literal_codepoints
 from tools.build_coalesced import rebuild, resolve_changes
 from tools.ue3_package import LzxDecoder, parse_summary
@@ -90,8 +90,8 @@ def prepare(base_route, sample, game_root, project_root, font_file, output, deco
             glyph_limit=128, metric_heights=None, repair_blank=False, fit_ink_widths=False, additional_plans=(),ink_padding=None,wide_letter_tracking=None):
     project_root, output = Path(project_root).resolve(), Path(output).resolve()
     game_root = Path(game_root).resolve()
-    if type(glyph_limit) is not int or not 1 <= glyph_limit <= 2048:
-        raise ValueError('glyph_limit must be within 1..2048')
+    if type(glyph_limit) is not int or not 1 <= glyph_limit <= MAX_ADDITIONAL_GLYPHS:
+        raise ValueError(f'glyph_limit must be within 1..{MAX_ADDITIONAL_GLYPHS}')
     metric_heights = metric_heights or {}
     if ink_padding is not None and not fit_ink_widths:raise ValueError('ink padding requires explicit fit-ink-widths')
     if wide_letter_tracking is not None and (ink_padding is None or type(wide_letter_tracking) is not int or not 0<=wide_letter_tracking<=16):

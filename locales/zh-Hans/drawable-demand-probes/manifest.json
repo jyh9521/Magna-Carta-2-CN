@@ -1,0 +1,95 @@
+{
+  "schema_version": 1,
+  "kind": "undeployed-drawable-font-demand-probes",
+  "workflow_sha256": "af1f0d8c684a07aa2c559c347340fa03b1e277565b8bb2e310eee8a57dd40657",
+  "subtitle_profile_sha256": "d4dfc88afdec23032dee1fea2bddc799410b8c6e48f47abb5a59089b7e5256c6",
+  "requested_codepoints": 2451,
+  "fonts": [
+    {
+      "family": "font.general_15",
+      "source": {
+        "font_object": "General_15",
+        "label": "font",
+        "path": "MC2Game/CookedXenon/font.xxx",
+        "sha256": "b9a476cc377fe54e04d574f66a2018f1a0b69138c9f25f696d46ef07b9b1a4e6"
+      },
+      "plan": "locales/zh-Hans/drawable-demand-probes/glyphs-0.json",
+      "plan_sha256": "8b95b15d5d0d637a68deb5d3fdf2ba322fd17501b2b98ac2ba2fed06b868e210",
+      "output_sha256": "57455bed6383fba96f528898dc5e4db4c44071372af44601e381d359da99dacf",
+      "drawable_additions": 2389,
+      "layout_excluded": [
+        12288
+      ],
+      "game_rendering_verified": false,
+      "original_glyphs": 2608,
+      "candidate_glyphs": 4997,
+      "replaced_blank_codepoints": [
+        183
+      ],
+      "maximum_new_glyph_alpha_error": 18,
+      "original_pixels_and_unselected_remap_preserved": true,
+      "plan_font_source_sha256": "2c76254f6fc379fddfce0a7e84fb5385bb135d3e399294f6eeb6680d0365b74b"
+    },
+    {
+      "family": "enginefonts.smallfont",
+      "source": {
+        "font_object": "EngineFonts.SmallFont",
+        "label": "Engine",
+        "path": "MC2Game/CookedXenon/Engine.xxx",
+        "sha256": "f71131de2a39176f48d5bf7ef6ed803513d5b38303f21915029c245442b8fe9a"
+      },
+      "plan": "locales/zh-Hans/drawable-demand-probes/glyphs-1.json",
+      "plan_sha256": "97bc7f3b4513938d52a223febbde356fdce4dd7583bb8e7f0d7cd1317cf2c633",
+      "output_sha256": "3a049c62aa77f1cbf578f36e72b12f2924d73af09618f477926962055e3d5856",
+      "drawable_additions": 2388,
+      "layout_excluded": [
+        12288
+      ],
+      "game_rendering_verified": false,
+      "original_glyphs": 256,
+      "candidate_glyphs": 2644,
+      "replaced_blank_codepoints": [],
+      "maximum_new_glyph_alpha_error": 18,
+      "original_pixels_and_unselected_remap_preserved": true,
+      "plan_font_source_sha256": "2c76254f6fc379fddfce0a7e84fb5385bb135d3e399294f6eeb6680d0365b74b"
+    },
+    {
+      "family": "font.enginemedium_subtitle",
+      "source": {
+        "font_object": "EngineMedium_Subtitle",
+        "label": "font",
+        "path": "MC2Game/CookedXenon/font.xxx",
+        "sha256": "b9a476cc377fe54e04d574f66a2018f1a0b69138c9f25f696d46ef07b9b1a4e6"
+      },
+      "plan": "locales/zh-Hans/drawable-demand-probes/glyphs-2.json",
+      "plan_sha256": "77c6e4c5b78b78746f5a0f621c055b918a2adf16fcc19f071f9e610c2ebc178a",
+      "output_sha256": "d973998b721a34a1deec60a5253651a9c481884d29d736390467ca24dbed2a83",
+      "drawable_additions": 2389,
+      "layout_excluded": [
+        12288
+      ],
+      "game_rendering_verified": false,
+      "original_glyphs": 1259,
+      "candidate_glyphs": 3648,
+      "replaced_blank_codepoints": [
+        183,
+        8212,
+        8230,
+        65311,
+        65324
+      ],
+      "maximum_new_glyph_alpha_error": 18,
+      "original_pixels_and_unselected_remap_preserved": true,
+      "plan_font_source_sha256": "2c76254f6fc379fddfce0a7e84fb5385bb135d3e399294f6eeb6680d0365b74b"
+    }
+  ],
+  "layout_unresolved": [
+    12288
+  ],
+  "control_literal_unchanged": [
+    9
+  ],
+  "all_aliases_built": false,
+  "resource_refresh_performed": false,
+  "game_rendering_verified": false
+}

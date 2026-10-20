@@ -43,7 +43,7 @@ class OpeningBatchTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError,'1..128'):s.validate_plan(p)
         p['glyph_limit']=1024
         self.assertEqual(len(s.validate_plan(p)),129)
-        for limit in [True,0,2049,'1024']:
+        for limit in [True,0,4097,'1024']:
             p['glyph_limit']=limit
             with self.assertRaisesRegex(ValueError,'glyph_limit'):s.validate_plan(p)
 

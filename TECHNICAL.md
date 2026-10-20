@@ -1,3 +1,7 @@
+## 显式新增字计数与累计drawable探针（2026-10-20）
+
+Verified / offline：glyph_limit显式上限4096，默认128；prepare与writer共用常量，原几何/控制/空白/重复/保护检查保持。三族2389/2388/2389 drawable重建通过，旧记录/像素/未选remap保持；透明修复分别1/0/5个remap有意转向新记录，不宣称全部旧remap不变。原glyph count2608/256/1259变4997/2644/3648，最大新alpha误差18、视觉质量及运行仍未验证。仅三族选定源，不是七别名/完整字库；U+3000未解决、U+0009保持，未刷新TOC或测试资源。计划/源/Noto/output身份见drawable-demand-probes/manifest.json，复现与边界测试见PHASE_123_DRAWABLE_FONT_DEMAND。
+
 ## 显式宽度增长与BC3地址重排（2026-10-20）
 
 Verified / offline：supplement计划可显式atlas_width=128..2048二次幂，并须raw_atlas；不缩小/不无变化/不多mip。宽变化时复用既有UEViewer派生Xenos块地址函数搬移原16字节块（含对齐padding），不重编码旧BC3，更新SizeX/SizeY、native mip宽高和raw bulk长度后重解析。原解码矩形逐行按新stride裁回比较；宽未变仍走旧grow_atlas字节兼容路径。

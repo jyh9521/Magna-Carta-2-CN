@@ -21,6 +21,9 @@ except ImportError:
     from lzx_stored import wrap_ue3_chunk
 
 METRIC_KEYS = ("StartU", "StartV", "USize", "VSize", "TextureIndex")
+# Explicit per-plan opt-in only; atlas placement, remap and ink checks still
+# decide whether a particular source can accept the requested additions.
+MAX_ADDITIONAL_GLYPHS = 4096
 
 
 def sha256(data):
@@ -61,8 +64,8 @@ def validate_plan(plan):
             or any(type(cp) is not int or not 1<=cp<=65535 for cp in replacements)):
         raise FormatError('invalid blank glyph replacement list')
     limit = plan.get('glyph_limit', 128)
-    if type(limit) is not int or not 1 <= limit <= 2048:
-        raise FormatError('glyph_limit must be within 1..2048')
+    if type(limit) is not int or not 1 <= limit <= MAX_ADDITIONAL_GLYPHS:
+        raise FormatError(f'glyph_limit must be within 1..{MAX_ADDITIONAL_GLYPHS}')
     if not isinstance(glyphs, list) or not 1 <= len(glyphs) <= limit:
         raise FormatError(f"prototype plan requires 1..{limit} glyphs")
     growth = plan.get('metric_height_growth')

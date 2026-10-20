@@ -1,3 +1,7 @@
+## 第150阶段：精神形象与状态条件仍非运行验证
+
+累计4971 INT/234cue，2477策略观察、2714上下文待审；5191运行布局/TAB仍待核。共享Renkai_Ougi/Skill_d_37含风雷、冰雷两条不同occurrence，物理源已核对但运行取值未推定。10_kotamare恢复/梅莉莎/告别后续区块及10-65/70独立字幕留待对应阶段，不提前计完成。当前依赖表切换build/phase-150-verification/current-packet-hash-preflight.json，仅两context源hash有明确扩展、玩家资源保持。见[阶段150](PHASE_150_MENTAL_CONTACT_CONTEXT.md)。
+
 ## 第149阶段：一处完成态歧义已离线修订
 
 0820_36资料销毁意图澄清已应用原batch047，draft不升级；双盘资源与TOC重建、现有入口仅5文件增量刷新并隔离还原旧27资源。累计4661 INT/234cue，2367策略观察、2824上下文待审；5191运行布局、TAB与游戏内验收仍未完成。09_20_06含감Ｒ/U+FF32原值未计划，当前68/69范围显式排除，正确读法与原因待查。当前依赖表改为build/phase-149-verification/current-packet-hash-preflight.json。见[阶段149](PHASE_149_PUBLIC_RESCUE_REVISION.md)。

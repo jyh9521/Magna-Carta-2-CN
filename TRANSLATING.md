@@ -1,3 +1,7 @@
+## 第148阶段：设定解释、救援计时与重复键
+
+286 INT＋9cue新观察，累计4376/203，零改译。保留任务2小时情节与3分钟操作限制、成功/失败分支、休息X/Y样式；key_laboratory及描述各两occurrence均保留，不去重。八个术语仍candidate/unverified。0820_36销毁资料措辞存在完成态歧义，已锁定澄清提案但未应用，不标人工定稿。见[阶段148](docs/PHASE_148_LABORATORY_TRUTH_CONTEXT.md)。
+
 ## 第147阶段：推测、区域限制与城市任务
 
 294 INT新上下文观察，零改译；累计4090 INT/194cue。完整三民生任务、41NPC、五组道具、八角色/六地名；保留中间石像及高贵女士身份推测、地下连环术例外、3张皮/10怪物等计数。wind_bottle与wind_Bottle_D大小写、nicks _heal键内空格及通行卡尾空格保护。最新profile有界扩至546成员/32 scopes，旧252不重算。见[阶段147](docs/PHASE_147_VELFORT_LAB_CONTEXT.md)。

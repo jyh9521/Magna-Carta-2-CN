@@ -1,3 +1,7 @@
+## 第155阶段接续状态（2026-10-21）
+
+最后INT翻译116、14082 INT/315cue draft、1104 candidate不变。113主线/尾声＋12关联队员状态＋44独立字幕，共169新观察；累计6171 INT/315cue，策略3132/2059待上下文/5191运行待核，194分隔。全部字幕315cue/44资源已建立观察，人工/实际渲染仍未批准；十项已调查原文与24held保持。活动依赖表build/phase-155-verification/current-packet-hash-preflight.json，玩家包仍149。见[阶段155](PHASE_155_ENDING_SUBTITLE_CONTEXT.md)。完成提交推送后接续Q06支线/完整关联任务与未审NPC/队员状态；不以主线尾声或字幕齐备为项目结束，不重复旧6046或六PartyTalk其余未审键。
+
 ## 第154阶段接续状态（2026-10-21）
 
 最后翻译116、14082 INT/315cue draft、1104 candidate保持。197剧情＋48NPC/23朱特任务/1地名，另12-80字幕1cue，共270新观察；累计6046 INT/271cue，策略3062/2129待上下文/5191运行待核，184分隔。两profile有界扩展，16份门禁不变；旧5777投影保持。两新查原文为空值/双横线，调查保留清单10项与旧24held分开。当前依赖表build/phase-154-verification/current-packet-hash-preflight.json，玩家包仍149。见[阶段154](PHASE_154_LASTRADA_TRIAL_CONTEXT.md)。提交推送后接续12_130之后真实源序，第13章/尾声字幕按剧情阅读；不重算Chapter12旧41字段，不提前宣布结局或全项目完成。

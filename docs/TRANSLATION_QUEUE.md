@@ -1,3 +1,10 @@
+## 第119阶段接续状态（2026-10-20）
+
+translation-workflow最后仍116；INT14,082 draft、1104 candidate、44字幕315cue保持。当前翻译工作区build/batch-116-verification/reviewed-workspace。见[PHASE_119_CONTEXT_VARIANTS](PHASE_119_CONTEXT_VARIANTS.md)。
+两组同文档/section/源hash但译文不同的候选已审读邻接上下文：CSMB02_25三次礼貌应答承接不同教程段，知道了/明白了语义相容，不推断不同说话人；04_405_0的name为任务标题讨伐，GoalDesc/kill为目标/进度击败，科洛瑟斯名称一致。两组保留原draft，不改已有译文、不升级人工定稿。
+locales/zh-Hans/variant-review.json以完整组ID及source/translation hash锁定context-variant-retained说明；tools.audit_translation_variants只报告、不自动合并。源、组成员或译文hash变化即拒绝旧说明，必须重审。应用说明前2待查，应用后0待查/2上下文变体；不是全游戏已审定。
+下一阶段只读核对当前测试包manifest/依赖hash与累计字形需求、已有remap覆盖；先复用现有覆盖审计，不直接刷新字库/TOC、不生成ISO/整盘副本或启动模拟器。原始边界异常/孤立笑声仍未获运行证据，所有历史held保持，不能据分类补译或伪造新批数。保留原盘/配置/存档/runs/当前包/依赖/基线回滚研究；推送核对后自动接续。
+
 ## 第118阶段接续状态（2026-10-20）
 
 无新增翻译batch；translation-workflow最后116，INT14,082 draft、1104 candidate、44字幕315cue保持。当前翻译工作区仍build/batch-116-verification/reviewed-workspace。见[PHASE_118_BOUNDARY_COMPARISON](PHASE_118_BOUNDARY_COMPARISON.md)。

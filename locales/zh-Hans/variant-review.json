@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "resource": "MC2Game/Localization/Coalesced.int",
+  "input_sha256": "179e265cfc9e6d3e9f2586abe75b5da303b2af9b8484079851dab72f9f7edb8c",
+  "groups": [
+    {
+      "embedded_path": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
+      "section": "CSMB02_25",
+      "source_sha256": "31ed163142377e5da9a129edb7c078710db5f96062f71485607a1f8aa0b9d91b",
+      "entries": [
+        {
+          "id": "coalesced:941e6f0467ceba1e897306a5c888606744212ddf483a4c48a2d65f83b1493e8a",
+          "translation_sha256": "e4751dd24b1cc01c018d0bfc5e41666107f225b47c76b137af696c4a8217995a"
+        },
+        {
+          "id": "coalesced:6b622d49a0475b78f9dd928770daeb543f024bdf0748671fb2c235d4b04cd4e2",
+          "translation_sha256": "cf5830c3d283f9391b8c0b27a59829ec46c886966c3d39416424de5def661cc0"
+        },
+        {
+          "id": "coalesced:f4e4704919061ea7964a05476138f6ab511a7b152bc355642dafdc5548298630",
+          "translation_sha256": "e4751dd24b1cc01c018d0bfc5e41666107f225b47c76b137af696c4a8217995a"
+        }
+      ],
+      "disposition": "context-variant-retained",
+      "reason": "同一教程场景的三次礼貌应答分别承接战斗菜单、连锁和AI设置讲解；两种中文应答语义相容，保留自然变体，不据此推断不同说话人。"
+    },
+    {
+      "embedded_path": "..\\MC2Game\\Localization\\INT\\MC2Quest.int",
+      "section": "04_405_0",
+      "source_sha256": "d974e1e16c99958231e83fe56e7e72ee857519a1642f73a24be70b40db788033",
+      "entries": [
+        {
+          "id": "coalesced:d64bf2df30ccf2be9fa2c81dd81552fe34c070dae0eee714f6f555c983e4b66a",
+          "translation_sha256": "93f8ef9ab9652870fe20d6ac2ee391bf03b3e0694216aec58ddb22b780ba0776"
+        },
+        {
+          "id": "coalesced:41d1410fd7f181ea5366977d4103120b48861ae77e96ee63860238285a564ec8",
+          "translation_sha256": "6af27d8d78d1aab905011fe8501d2a5ec9abcebfddb9621b7277bdc890cc6401"
+        }
+      ],
+      "disposition": "context-variant-retained",
+      "reason": "任务标题使用名词式讨伐，GoalDesc与kill进度使用动作式击败；同一科洛瑟斯名称保持，显示角色不同，不机械统一标题与目标。"
+    }
+  ],
+  "notes": [
+    "Only dispositions of current draft variants; not human-final or game acceptance.",
+    "Any source change, new group member or target hash change requires fresh context review."
+  ]
+}

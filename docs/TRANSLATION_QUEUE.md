@@ -1,3 +1,10 @@
+## 第122阶段接续状态（2026-10-20）
+
+INT14,082 draft、1104 candidate、44字幕315cue、workflow最后116不变；当前翻译工作区仍build/batch-116-verification/reviewed-workspace。见[PHASE_122_ATLAS_AXIS_GROWTH](PHASE_122_ATLAS_AXIS_GROWTH.md)。
+低层supplement_font新增显式atlas_width（128..2048二次幂、禁止缩小、须raw_atlas），高度旧路径逐字节兼容。宽变化重定位原BC3块及对齐padding，原解码像素矩形严格比较；报告不谎称宽变后tiled字节前缀不变。三族真实源各1字探针保留旧像素/字形/未选remap/其他export，未部署，7别名累计路由未验证。
+locales/zh-Hans/axis-growth-probes/glyphs-0/1/2.json是单字技术探针，不是完整字库。build/phase-122-verification/real-probe-summary.json记录新2048x2048几何分配2389/2388/2389位置成功；仅内存放置集合，不生成全部字形。
+下一阶段继续独立glyph_limit2048与U+3000显式布局方案：本阶段未提新增字上限、未绕过prepare布局门禁、未绘U+0009；当前真实新增需求仍大于现有上限。先证实数量/布局元数据/空白advance与原像素保持，再准备累计字库，所有覆盖/ink/TOC/回滚门禁通过后才增量刷新旧测试目录。64项旧资源/配置/存档/runs/原盘/依赖/基线回滚研究保持，无ISO/整盘副本/模拟器。离线非游戏验收。
+
 ## 第121阶段接续状态（2026-10-20）
 
 INT14,082 draft、1104 candidate、44字幕315cue不变，translation-workflow最后116。当前翻译工作区build/batch-116-verification/reviewed-workspace；旧测试包未刷新。见[PHASE_121_FONT_DEMAND_GATES](PHASE_121_FONT_DEMAND_GATES.md)。

@@ -52,6 +52,9 @@ def validate_plan(plan):
     if 'atlas_height' in plan and (type(plan['atlas_height']) is not int or
             not 128 <= plan['atlas_height'] <= 2048 or plan['atlas_height'] & (plan['atlas_height']-1)):
         raise FormatError('atlas_height must be a power of two within 128..2048')
+    if 'atlas_width' in plan and (type(plan['atlas_width']) is not int or
+            not 128 <= plan['atlas_width'] <= 2048 or plan['atlas_width'] & (plan['atlas_width']-1)):
+        raise FormatError('atlas_width must be a power of two within 128..2048')
     glyphs = plan.get("glyphs")
     replacements=plan.get('replace_blank_codepoints',[])
     if (not isinstance(replacements,list) or len(set(replacements))!=len(replacements)
@@ -368,6 +371,55 @@ def grow_atlas(atlas, names, serial_offset, texture, new_height, decoder):
     return bytes(out), parsed
 
 
+def grow_atlas_axes(atlas, names, serial_offset, texture, new_width, new_height, decoder):
+    """Explicit bounded growth; relocate BC3 blocks without recompressing them.
+
+    Width changes alter Xenos addresses. Preserve original block values including
+    alignment padding at their new addresses, then prove the original decoded
+    rectangle identical. The vertical-only implementation remains unchanged.
+    """
+    old_width, old_height = texture['width'], texture['height']
+    if (any(type(v) is not int or not (32 if v == old else 128) <= v <= 2048 or v & (v - 1)
+            for v, old in ((new_width, old_width), (new_height, old_height))) or new_width < old_width
+            or new_height < old_height or (new_width, new_height) == (old_width, old_height)
+            or len(texture['mips']) != 1):
+        raise FormatError('atlas axes require nonshrinking power-of-two growth within 128..2048')
+    if new_width == old_width:
+        return grow_atlas(atlas, names, serial_offset, texture, new_height, decoder)
+    old_tiles = atlas_tiles(atlas, texture, decoder)
+    old_aw, old_ah = (old_width + 127) & ~127, (old_height + 127) & ~127
+    new_aw, new_ah = (new_width + 127) & ~127, (new_height + 127) & ~127
+    if len(old_tiles) != old_aw * old_ah:
+        raise FormatError('original atlas tiled size mismatch')
+    tiles = bytearray(new_aw * new_ah)
+    used = set()
+    for y in range(old_ah // 4):
+        for x in range(old_aw // 4):
+            source = xbox_tiled_block_offset(x, y, old_aw // 4) * 16
+            target = xbox_tiled_block_offset(x, y, new_aw // 4) * 16
+            if source + 16 > len(old_tiles) or target + 16 > len(tiles) or target in used:
+                raise FormatError('atlas retile address outside buffer or duplicate')
+            used.add(target)
+            tiles[target:target + 16] = old_tiles[source:source + 16]
+    tiles = bytes(tiles)
+    old_rgba = decode_dxt5(untile_dxt5(old_tiles, old_width, old_height), old_width, old_height)
+    new_rgba = decode_dxt5(untile_dxt5(tiles, new_width, new_height), new_width, new_height)
+    crop = b''.join(new_rgba[y * new_width * 4:(y * new_width + old_width) * 4]
+                    for y in range(old_height))
+    if crop != old_rgba:
+        raise FormatError('atlas retile changed original decoded rectangle')
+    r = Reader(atlas); r.i32(); props = unique_properties(read_properties(r, names))
+    bulk = texture['mips'][0]['bulk']
+    out = bytearray(atlas[:bulk['payload_offset']] + tiles + word(new_width) + word(new_height))
+    for key, value in [('SizeX', new_width), ('SizeY', new_height)]:
+        struct.pack_into('>I', out, props[key]['value_offset'], value)
+    struct.pack_into('>III', out, bulk['header_offset'], 0, len(tiles), len(tiles))
+    parsed = parse_atlas_payload(bytes(out), names, serial_offset)
+    if (parsed['width'], parsed['height']) != (new_width, new_height) or atlas_tiles(bytes(out), parsed, decoder) != tiles:
+        raise FormatError('retiled atlas reparse mismatch')
+    return bytes(out), parsed
+
+
 def supplement_package(data, expected_hash, font_object, plan, alphas, decoder, raw_atlas=False):
     verify_hash(data, expected_hash, "package")
     glyphs = validate_plan(plan)
@@ -406,12 +458,16 @@ def supplement_package(data, expected_hash, font_object, plan, alphas, decoder, 
     texture = parse_atlas_payload(atlas, tables["names"], atlas_offset)
     if len(texture["mips"]) != 1:
         raise FormatError("prototype supports one-mip atlas only")
-    original_height = texture['height']
+    original_width, original_height = texture['width'], texture['height']
     original_bulk_flags = texture['mips'][0]['bulk']['flags']
-    if 'atlas_height' in plan:
+    if 'atlas_height' in plan or 'atlas_width' in plan:
         if not raw_atlas:
             raise FormatError('atlas growth requires explicit raw_atlas')
-        atlas, texture = grow_atlas(atlas, tables['names'], atlas_offset, texture, plan['atlas_height'], decoder)
+        if 'atlas_width' in plan:
+            atlas, texture = grow_atlas_axes(atlas, tables['names'], atlas_offset, texture,
+                plan['atlas_width'], plan.get('atlas_height', original_height), decoder)
+        else:
+            atlas, texture = grow_atlas(atlas, tables['names'], atlas_offset, texture, plan['atlas_height'], decoder)
     validate_placements(font, texture, glyphs)
     mip = texture["mips"][0]
     bulk = mip["bulk"]
@@ -532,7 +588,13 @@ def supplement_package(data, expected_hash, font_object, plan, alphas, decoder, 
     if 'remap_conversion' in plan:
         report['remap_conversion']=dict(profile='identity-256',original_mode=False,candidate_mode=True,identity_entries=256,
             old_glyph_metrics_preserved=True,runtime_equivalence_verified=False)
-    if 'atlas_height' in plan:
+    if 'atlas_width' in plan:
+        report['atlas_growth'] = dict(original_width=original_width, original_height=original_height,
+            candidate_width=texture['width'], candidate_height=texture['height'],
+            original_tiled_bytes_retained=texture['width'] == original_width,
+            original_block_values_relocated=texture['width'] != original_width,
+            original_decoded_rectangle_identical=True)
+    elif 'atlas_height' in plan:
         report['atlas_growth'] = dict(original_height=original_height, candidate_height=texture['height'],
             width=texture['width'], original_tiled_bytes_retained=True, original_decoded_rows_identical=True)
     return output,report

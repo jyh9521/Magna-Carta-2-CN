@@ -1,3 +1,8 @@
+## 显式宽度增长与BC3地址重排（2026-10-20）
+
+Verified / offline：supplement计划可显式atlas_width=128..2048二次幂，并须raw_atlas；不缩小/不无变化/不多mip。宽变化时复用既有UEViewer派生Xenos块地址函数搬移原16字节块（含对齐padding），不重编码旧BC3，更新SizeX/SizeY、native mip宽高和raw bulk长度后重解析。原解码矩形逐行按新stride裁回比较；宽未变仍走旧grow_atlas字节兼容路径。
+宽变报告original_tiled_bytes_retained=false及original_block_values_relocated=true，不混淆像素相同与物理前缀相同。原字形/未选remap与其余export保护不变；三族仅各1字真实包探针通过，非累计字库或运行验收。真实bulk offset必须绑定实际export serial_offset，合成测试传0应失败，不能放宽原offset检查。详见PHASE_122_ATLAS_AXIS_GROWTH。
+
 ## 源基线需求与普通字形生成布局门禁（2026-10-20）
 
 Verified / offline：累计2451码点以三族原始基线核算，可绘制新增2389/2388/2389；未映射U+3000单列布局需求，不删除或伪画。SmallFont空remap实际是受支持的256-glyph identity conversion，不能当零覆盖。透明字修复1/0/5纳入新增集合，不重复计数。

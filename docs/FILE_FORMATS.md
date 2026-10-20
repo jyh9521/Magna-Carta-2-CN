@@ -1,3 +1,8 @@
+## 显式宽度增长与BC3地址重排（2026-10-20）
+
+Verified / offline：supplement计划可显式atlas_width=128..2048二次幂，并须raw_atlas；不缩小/不无变化/不多mip。宽变化时复用既有UEViewer派生Xenos块地址函数搬移原16字节块（含对齐padding），不重编码旧BC3，更新SizeX/SizeY、native mip宽高和raw bulk长度后重解析。原解码矩形逐行按新stride裁回比较；宽未变仍走旧grow_atlas字节兼容路径。
+宽变报告original_tiled_bytes_retained=false及original_block_values_relocated=true，不混淆像素相同与物理前缀相同。原字形/未选remap与其余export保护不变；三族仅各1字真实包探针通过，非累计字库或运行验收。真实bulk offset必须绑定实际export serial_offset，合成测试传0应失败，不能放宽原offset检查。详见PHASE_122_ATLAS_AXIS_GROWTH。
+
 ## 跨容器同payload与补零尺寸反证（2026-10-20）
 
 Verified / 仓库工具静态字节：extraction-profile八份源hash均匹配。两盘INT/MC2Game.int和JPN/MC2Game.jpn的去终止符宽payload均390字节/hash e75793352fadefd4b3be757c7546e2d61a357e1fa51aac01e34769672e06e1b7，11候选相对偏移相同；JPN内容头偏移801126，INT895017。另四份INI/KOR零候选，不借JPN同key当修复原稿。

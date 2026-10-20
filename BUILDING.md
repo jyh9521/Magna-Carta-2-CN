@@ -1,3 +1,7 @@
+## 第146阶段：序章三处修订与身份揭示285项审读（2026-10-21）
+
+实际统一三处序章人名，关联锁定字体route及双盘bundle/composition/comparison实际重建；旧两字体模板也独立重放。既有入口仅增量刷新5文件，旧27资源隔离回滚，原204依赖199保持/5有备份。新增252 INT＋33cue观察，累计3796 INT/194cue；1904策略观察、3287上下文待审、5191运行待核，112分隔。三轮各1632通过。当前依赖表切换为build/phase-146-verification/current-packet-hash-preflight.json。见[阶段146](docs/PHASE_146_PROLOGUE_IDENTITY_REVISION.md)。推送后续下一源序完整场景组。
+
 ## 第145阶段：渡桥与连携奥义263项审读（2026-10-21）
 
 十四完整场景198＋38关联INT＋27独立字幕；累计3544 INT/161cue，1746策略已观察、3445上下文待审、5191运行待核、111功能分隔。字幕按盘别manifest匹配，第一盘序章18cue回补，第二盘新9cue；三处旧序章人名差异已锁定修订提案但未应用。旧十二profile/204依赖保持，三轮各1632通过。见[PHASE_145_RUHALT_BRIDGE_CONTEXT](docs/PHASE_145_RUHALT_BRIDGE_CONTEXT.md)。推送后优先显式修订、重锁重放与增量刷新，再续源序场景。

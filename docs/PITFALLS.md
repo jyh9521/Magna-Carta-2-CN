@@ -1,3 +1,7 @@
+## 序章修订必须遍历所有直接计划引用（阶段146）
+
+只更新subtitle-profile和当前cumulative route仍会遗留display-fonts/readability-fonts的旧hash；实测三个单元测试因此失败。保存失败日志，逐个补齐受影响模板并从锁定原文独立再生成语义/墨迹/TOC逆变换证明，不能盲改hash或放宽测试。当前composition还要求font_component的plan_canonical_sha256匹配route，故subtitle文本修订也可能要求重新生成字体组件，即便最终七字体字节不变。旧源/组件/回滚证据保留，详见[阶段146](PHASE_146_PROLOGUE_IDENTITY_REVISION.md)。
+
 ## 场景编号字典序不是容器/剧情顺序（2026-10-21）
 
 Verified：旧NEXT预检用section大于CSMB03_50过滤，漏掉实际位于03_90后的03_100/104/110，并提前列04_001/010；这些04字段未计入观察，当前补齐真实顺序。通用plan_scene_context只沿原document的row分组顺序扫描，整scene选择、未知原文deferred，测试90/100/104及不规则顺序，不改成另一个猜测数字排序。旧预检保留作失败证据。见PHASE_138_MARE_RESCUE_ORDER.md。

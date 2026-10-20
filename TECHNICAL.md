@@ -1,3 +1,7 @@
+## 分盘raw原文比较合同（2026-10-20）
+
+Verified / offline：offline-disc-locale-raw-comparison从128已独立重放的controls派生四原字体raw，三个LZX逻辑payload/表保持、一个原样；源派生字节再对125 raw字体逐项比较。INT/字幕原文保持，各盘原TOC合并三项size并精确逆验证；raw TOC盘一197991、盘二199819，保留零自引用/未知字段。56 raw回滚及重放通过。新只读kind有disc/provenance/raw行合同；旧刷新同集合门禁未改，入口未刷新。见docs/PHASE_129_DISC_RAW_COMPARISON.md。
+
 ## 累计资源分盘统一TOC合成（2026-10-20）
 
 Verified / offline：locale-compositions两盘分别编译14,082 INT、四包七字体和本盘21/23字幕，27/29资源、152/163cue，不带入局部组件TOC或旧262文本。原ISO/source/member/完整Font semantic与重解码ink/空格alpha、四尾TAB原glyph映射/metrics及源序列保持；literal coverage仍false。TOC从各盘原表统一25/28项size再逆重建，197989→197992、199817→199819，零自引用及未知字段保持；56资源回滚与独立controls重放通过。既有5191换行策略按原值继承，不宣称源换行数全同/人工批准。新kind/raw-controls/清单增量适配未做，当前玩家目录未刷新，见PHASE_128_DISC_LOCALE_COMPOSITION。

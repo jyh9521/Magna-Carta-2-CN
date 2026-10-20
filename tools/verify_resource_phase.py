@@ -72,8 +72,15 @@ def inspect(packet_root,manifest_sha256,resource_root,phase):
     if sha(raw)!=hash_value(manifest_sha256):raise ValueError('packet manifest SHA256 mismatch')
     m=json.loads(raw,object_pairs_hook=unique,parse_constant=lambda _:(_ for _ in ()).throw(ValueError('non-finite manifest JSON')))
     if (not isinstance(m,dict) or type(m.get('schema_version')) is not int or m['schema_version']!=1
-            or m.get('kind')!='offline-font-route-probe' or m.get('deployment_performed') is not False
+            or m.get('kind') not in ('offline-font-route-probe','offline-disc-locale-raw-comparison') or m.get('deployment_performed') is not False
             or m.get('game_rendering_verified') is not False):raise ValueError('unsupported packet manifest')
+    comparison=m['kind']=='offline-disc-locale-raw-comparison'
+    if comparison:
+        if (type(m.get('disc')) is not int or m['disc'] not in (1,2) or m.get('raw_package_outputs') is not True
+                or m.get('raw_control_method')!='source-derived-uncompressed-fonts-original-text-disc-toc'
+                or m.get('unknown_control_syntax_resolved') is not False):
+            raise ValueError('invalid disc comparison contract')
+        hash_value(m.get('composition_manifest_sha256'));hash_value(m.get('comparison_plan_canonical_sha256'))
     resources=m.get('resources');members=m.get('member_sha256')
     if not isinstance(resources,list) or not 1<=len(resources)<=32 or not isinstance(members,dict):raise ValueError('invalid packet resource inventory')
     if phase=='raw-controls' and m.get('raw_package_outputs') is not True:raise ValueError('packet has no declared raw control phase')
@@ -84,8 +91,8 @@ def inspect(packet_root,manifest_sha256,resource_root,phase):
         seen.add(fold);member=phase+'/'+name;expected_hash=hash_value(members[member]);source=confined(packet,member)
         expected=file_state(source)
         if expected is None or expected['sha256']!=expected_hash:raise ValueError('packet phase member SHA256 mismatch')
-        if phase in ('candidate','controls'):
-            key='candidate' if phase=='candidate' else 'original'
+        if phase in ('candidate','controls') or comparison:
+            key={'candidate':'candidate','controls':'original','raw-controls':'raw'}[phase]
             if hash_value(row[key+'_sha256'])!=expected_hash or type(row[key+'_size']) is not int or row[key+'_size']!=expected['size']:
                 raise ValueError('packet resource row/member contract mismatch')
         target=confined(game,name)

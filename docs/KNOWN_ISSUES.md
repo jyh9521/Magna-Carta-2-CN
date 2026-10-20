@@ -1,3 +1,7 @@
+## raw对照适配完成，扩展登记待续（2026-10-20）
+
+双盘27/29局部资源已有源派生raw-controls、独立重放/回滚和新kind只读检查；第一盘旧10 raw全部相同，新增17源字幕在现有两根匹配。旧refresh仍拒绝资源集合扩展，尚未登记或刷新玩家目录。TAB/SmallFont identity/2048 atlas/5191存量换行仍待游戏验收，不以离线字节检查替代。见PHASE_129_DISC_RAW_COMPARISON.md。
+
 ## 累计分盘组合尚未接入玩家入口（2026-10-20）
 
 离线候选已分别包含全14,082 INT、七字体及本盘152/163cue，27/29局部资源重放/回滚通过。现有入口仍旧262包，inspector新kind、raw-controls与17新增清单尚待有界适配；不直接调用旧同清单refresh。TAB保持未核语义，原coverage仍false；既有5191显式dialogue/narrative换行策略继承而未新增重排/人工批准。字体选择/SmallFont identity/新2048atlas/布局及游戏验收仍单列。见PHASE_128_DISC_LOCALE_COMPOSITION。

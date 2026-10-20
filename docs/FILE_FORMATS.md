@@ -1,3 +1,7 @@
+## 分盘raw comparison manifest（2026-10-20）
+
+schema1 kind=offline-disc-locale-raw-comparison；继承128的来源/coverage/控制/资源合同，另含composition_manifest_sha256、comparison_plan_canonical_sha256、raw_package_outputs=true、raw_control_method=source-derived-uncompressed-fonts-original-text-disc-toc；各行raw_sha256/raw_size锁定raw-controls。raw-rollback-check是实际保留原件恢复，不是压缩逆算。新kind受只读inspector显式检查，未适配composition kind仍拒绝；不声称运行成功。见PHASE_129_DISC_RAW_COMPARISON.md。
+
 ## 独立分盘locale资源合成计划（2026-10-20）
 
 工具schema1 kind=offline-disc-locale-composition，disc、game_rendering_verified=false及hash锁定font_route_plan/font_component/subtitle_plan/subtitle_component/text_plan，存在字面控制时须control_ledger。组件只选字体包与本盘字幕，不复制其INT/TOC；从本盘原TOC统一变化并逆验证。输出controls/candidate/rollback-check及字体像素、INT coverage、控制保留、组合TOC报告；all_noncontrol_literals_covered与all_literal_coverage_verified分开，未知TAB保持未核。此kind当前不是旧one-click packet，尚无raw-controls，不伪装成font-route或部署成功。见PHASE_128_DISC_LOCALE_COMPOSITION。

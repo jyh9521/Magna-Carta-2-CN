@@ -1,3 +1,7 @@
+## context observations profile（2026-10-20）
+
+schema1/kind=source-locked-context-observations，resource/input_sha256/plan_canonical_sha256，human_finalized/runtime_layout_approved=false；scopes精确document/section、complete_section或keys及reason，entries按源顺序锁id/document/section/key/occurrence/source/translation SHA；protected_breaks锁功能分隔对照。report区分context pending和runtime pending，观察不构成换行批准/改译。见PHASE_132_OPENING_CONTEXT_REVIEW.md。
+
 ## refresh审计与还原凭据（2026-10-20）
 
 read-only-refresh-journal-audit列journal_status及每项目标before/after/conflict，严格3..35项、三个已装元数据和局部candidate许可路径；缺失/第三态为冲突。hash-guarded-refresh-restore-receipt记录源journal SHA、root/backup、restored_files/already_before/all_journal_targets_before；新输出在根外，原journal不改写。只支持已知散列字节的显式逆恢复，无自动前滚或断电耐久声明。见PHASE_131_GUARDED_REFRESH_RECOVERY.md。

@@ -1,3 +1,7 @@
+## 第132阶段：开篇275项上下文审读（2026-10-20）
+
+五完整场景192项、完整42字段任务链与10关联INT、31独立字幕合批审读，当前draft保留，无译文修改。新源/计划/逐项hash锁定context审计：244 INT、121策略观察，5070上下文待审；全部5191运行布局仍未批准。三个功能换行对照、键位/数字/字幕时序保持；当前204入口依赖不改。见[PHASE_132_OPENING_CONTEXT_REVIEW](docs/PHASE_132_OPENING_CONTEXT_REVIEW.md)。验证清理推送后接续洞窟带路与加入请求。
+
 ## 第131阶段：独立受保护还原与中断审计（2026-10-20）
 
 新增restore_probe_refresh：显式root/backup/journal SHA审计，按before/after/conflict分态，冲突零写，只还原局部candidate与三项入口元数据；原刷新合同不变。真实26项committed与13/13混合中断局部副本经CLI恢复、旧10资源通过；实际玩家根只读审计，204依赖保持，未回退。见[PHASE_131_GUARDED_REFRESH_RECOVERY](docs/PHASE_131_GUARDED_REFRESH_RECOVERY.md)。验证清理推送后继续5191既有换行/场景上下文审计；无游戏启动或整盘复制。

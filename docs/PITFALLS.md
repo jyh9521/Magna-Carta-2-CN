@@ -1,3 +1,7 @@
+## 字面转义邻接按钮的观察误报（2026-10-20）
+
+Verified：朴素ASCII边界把字面换行后的A/X与转义n连作单词，误报Chapter00_13和CSMB00_15/0015_38。audit_line_context在已通过原TOKEN验证后，仅对临时观察字符串隔开已知TOKEN再识别按钮/数字；不修改source/translation，不绕过功能分隔保护。新增回归覆盖转义邻接、普通nX与Styles包裹键位。见PHASE_132_OPENING_CONTEXT_REVIEW.md。
+
 ## 显式宽度增长与BC3地址重排（2026-10-20）
 
 Verified / offline：supplement计划可显式atlas_width=128..2048二次幂，并须raw_atlas；不缩小/不无变化/不多mip。宽变化时复用既有UEViewer派生Xenos块地址函数搬移原16字节块（含对齐padding），不重编码旧BC3，更新SizeX/SizeY、native mip宽高和raw bulk长度后重解析。原解码矩形逐行按新stride裁回比较；宽未变仍走旧grow_atlas字节兼容路径。

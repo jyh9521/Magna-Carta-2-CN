@@ -1,3 +1,7 @@
+## 上下文观察不等于布局批准（2026-10-20）
+
+opening-layout profile记录244 INT上下文及121条已有换行策略的观察；31开篇独立字幕另按原source/plan逐cue核对。275项仍draft、零改译/零人工状态升级。完整场景闭合、源/译hash与顺序锁定，X/Y选项、任务说明及踢击提示功能换行保持；全部5191策略仍待运行布局复核。见docs/PHASE_132_OPENING_CONTEXT_REVIEW.md。
+
 ## 累计译文已进入第一盘现有测试根（2026-10-20）
 
 同一dist/MC2-display-repair-disc1入口已含14,082 INT draft及本盘152cue/七字体，第二盘163cue仍独立离线包。翻译批次仍116、1104术语candidate不变；TAB语义与5191既有换行策略未获新批准。原文raw保持，游戏未启动；详见docs/PHASE_130_EXPLICIT_RESOURCE_ENROLLMENT.md。

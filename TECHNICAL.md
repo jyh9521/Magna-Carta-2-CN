@@ -1,3 +1,7 @@
+## 源锁定上下文cohort与布局分离（2026-10-20）
+
+Verified / data audit：audit_line_context复用rebuild/resolve与原TOKEN检查；profile锁source、plan canonical、完整section或显式key、逐项身份/源译hash和顺序，观察不改变任何值。244 INT含121策略，pending context5070/runtime5191；三个功能分隔对照与按钮/数字序列保持。已知TOKEN先临时隔开后识别ASCII按钮，避免字面换行的n遮住紧邻A/X；原字节不动。31字幕按既有source/plan独立逆核。见docs/PHASE_132_OPENING_CONTEXT_REVIEW.md。
+
 ## 独立journal恢复与已知字节状态（2026-10-20）
 
 Verified / offline：journal SHA/root/原件/路径/数量/链接/source重叠守卫，逐文件before/after/conflict；明确restore只写after，异常逆回调用前状态，原journal和备份保持。两组真实26局部文件恢复26及13，旧10检查通过，当前204依赖保持。支持已完整落盘journal的混合状态，不声称断电/fsync/损坏恢复；TAB与5191存量换行仍未批准。见docs/PHASE_131_GUARDED_REFRESH_RECOVERY.md。

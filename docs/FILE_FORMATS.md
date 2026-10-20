@@ -1,3 +1,7 @@
+## 第172阶段：Compose章节控制与保护粒度
+
+五章物理/计划301、旧65/新236，5scope一profile；X/Y和Styles逐字保留。新增保护仅六选择字段与两学会技能/装备通知，按字段计；普通对话视觉折行不强制功能化。旧22份原字节不变，归档原门禁不改。见[阶段172](PHASE_172_CHAPTER_ROUTING_AND_PUZZLE_CONTEXT.md)。
+
 ## 第171阶段：QubeMail物理键与部分计划
 
 95有效section物理190/计划189，E02_016主题六点留原值；另Test/Test占位不观察。主题/正文和E02_002实际复用的E02_001键不按编号归一，保留大小写/occurrence/功能分隔及源译各自空白hash。32/32/31scope分三profile同批记录，门禁未改。见[阶段171](PHASE_171_QUBE_MAIL_AND_SCENE_CORRESPONDENCE.md)。

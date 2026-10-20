@@ -1,3 +1,7 @@
+## 第172阶段后的接续
+
+236五章新观察完成，旧65不重复计数；累计10222/315、5173/18/5191、400保护记录。接续PartyTalk_Juto/Argo/Zephi/Crocell/Rue/Celestin六完整角色未读206字段，先读朱特完整角色线；源序重复章节键不合并，旧成员明确排除，人物内心/猜测不当客观事实。见[阶段172](PHASE_172_CHAPTER_ROUTING_AND_PUZZLE_CONTEXT.md)。
+
 ## 第171阶段后的接续
 
 189邮件字段/95有效section完成语境合批，累计9986/315；5098/93/5191，392功能分隔，零改译。下一批MC2Compose第2/3/4/6/7章未读236字段；已读旧成员不重计，选择keys完整锁新成员，保留X/Y样式和区域/剧情条件。随后六角色PartyTalk206另按完整角色合批。见[阶段171](PHASE_171_QUBE_MAIL_AND_SCENE_CORRESPONDENCE.md)。

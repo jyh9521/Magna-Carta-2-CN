@@ -1,3 +1,9 @@
+## 第118阶段：跨源边界核对与补零反证（2026-10-20）
+
+译文仍14,082 draft、1104 candidate，最后翻译批次116不变；本阶段不新增猜测译文。
+八源hash核对：两盘INT/JPN的MC2Game宽payload逐字节同源，INI/KOR无该模式；统一补零假设会把390字节变401奇数，不能直接当UTF16修复。
+只读审计新增naive_nul_insertion尺寸诊断，见[PHASE_118_BOUNDARY_COMPARISON](docs/PHASE_118_BOUNDARY_COMPARISON.md)。验证清理推送核对后继续既有译文/held关联上下文审校；未刷新字库/TOC/入口。
+
 ## 第117阶段：剩余文本审计与宽字符串边界（2026-10-20）
 
 译文仍14,082条draft、1104项candidate，translation-workflow最后批次116不变；本阶段不凑翻译数量。

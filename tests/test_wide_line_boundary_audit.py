@@ -78,6 +78,30 @@ class WideLineBoundaryAuditTests(unittest.TestCase):
             self.assertRegex(e['source_sha256'], r'^[0-9a-f]{64}$')
             self.assertNotIn('source', e); self.assertNotIn('translation', e)
 
+    def test_single_insertion_would_break_wide_byte_length(self):
+        data = fixture('A\u0a0d\x00B')
+        doc = audit(data)['documents'][0]
+        probe = doc['naive_nul_insertion']
+        self.assertEqual(probe['inserted_bytes'], 1)
+        self.assertEqual(probe['candidate_payload_bytes'], doc['payload_bytes'] + 1)
+        self.assertFalse(probe['even_utf16_byte_length'])
+        self.assertEqual(serialize(parse(data)), data)
+
+    def test_even_counterfactual_does_not_authorize_repair(self):
+        doc = audit(fixture('A\u0a0d\x00B\u0d41\u000a'))['documents'][0]
+        self.assertTrue(doc['naive_nul_insertion']['even_utf16_byte_length'])
+        self.assertIn('not proof', doc['naive_nul_insertion']['policy'])
+        self.assertIn('preserve bytes', doc['policy'])
+
+    def test_size_probe_is_additive_metadata_not_replacement_text(self):
+        doc = audit(fixture('A\u0a0d\x00B'))['documents'][0]
+        self.assertEqual(doc['candidate_offsets'], [2])
+        self.assertEqual(doc['candidate_parity'], [0])
+        self.assertFalse({'text', 'replacement', 'repair', 'translation'} & doc.keys())
+        self.assertEqual(set(doc['naive_nul_insertion']),
+                         {'inserted_bytes', 'candidate_payload_bytes',
+                          'even_utf16_byte_length', 'policy'})
+
 
 if __name__ == '__main__':
     unittest.main()

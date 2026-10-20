@@ -1,3 +1,10 @@
+## 第118阶段接续状态（2026-10-20）
+
+无新增翻译batch；translation-workflow最后116，INT14,082 draft、1104 candidate、44字幕315cue保持。当前翻译工作区仍build/batch-116-verification/reviewed-workspace。见[PHASE_118_BOUNDARY_COMPARISON](PHASE_118_BOUNDARY_COMPARISON.md)。
+八份extraction-profile源已逐hash核对：两盘INT的MC2Game.int与JPN的MC2Game.jpn均390字节、payload hash相同，11候选相对偏移相同；不能借JPN修补INT。两个INI与两个KOR均零命中。payload同一不等于盘/locale或运行对象可合并。
+通用只读审计新增documents[].naive_nul_insertion尺寸反证：每候选加1零字节会使390+11=401奇数，不能直接解码为完整UTF16；偶数也不证明修复正确。没有生成或写回修复字节，旧字段/CLI输出保持。既有全部值/held/24分类原样；1463测试与干净源码通过。
+下一阶段不重复宽边界计数/不自动补零或翻端序，继续现有draft与held关联上下文/候选术语一致性审校，先读117/118研究文档及remainder-audit。孤立笑声的selected资源原名扫描只有容器自出现，不能据此认定无运行引用；压缩/未选中/较大资源未纳入，不作玩家用途断言。只读研究无需新ISO/整盘副本/模拟器；保留原盘/配置/存档/runs/当前包/依赖/基线回滚研究。推送核对后自动接续。
+
 ## 第117阶段接续状态（2026-10-20）
 
 本阶段为审计/研究，不新增翻译batch；translation-workflow最后仍116，14,082 INT draft、1104 candidate、44字幕315cue不变。见[PHASE_117_REMAINDER_AUDIT](PHASE_117_REMAINDER_AUDIT.md)。

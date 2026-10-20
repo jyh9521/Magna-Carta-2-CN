@@ -1,3 +1,9 @@
+## 跨容器同payload与补零尺寸反证（2026-10-20）
+
+Verified / 仓库工具静态字节：extraction-profile八份源hash均匹配。两盘INT/MC2Game.int和JPN/MC2Game.jpn的去终止符宽payload均390字节/hash e75793352fadefd4b3be757c7546e2d61a357e1fa51aac01e34769672e06e1b7，11候选相对偏移相同；JPN内容头偏移801126，INT895017。另四份INI/KOR零候选，不借JPN同key当修复原稿。
+给每个0D 0A 00候选增加一个零字节的统一假设导致390+11=401奇数；这不是完整UTF16字节长度。只读工具只报告尺寸，不生成修复字节；偶数也不代表语义/边界正确。统一UTF16BE虽能解码，所获四个键仍有乱码前缀、section均空，不能认定端序翻转修复。原生产提取ID/值和所有held不变。
+原名扫描仅覆盖selected中不大于32MiB的文件，发现两份INT容器自出现；不是压缩/完整包的引用分析，不证明孤立笑声不存在运行引用。详见PHASE_118_BOUNDARY_COMPARISON。
+
 ## MC2Game.int宽字符串边界只读观察（2026-10-20）
 
 Verified / bytes：源INT容器179e265cfc9e6d3e9f2586abe75b5da303b2af9b8484079851dab72f9f7edb8c双盘相同；MC2Game.int宽内容长度字段偏移895017，payload895021，去终止符390字节，hash e75793352fadefd4b3be757c7546e2d61a357e1fa51aac01e34769672e06e1b7。

@@ -3,7 +3,6 @@ from __future__ import annotations
 
 import argparse
 import hashlib
-import json
 from pathlib import Path
 
 from tools.coalesced import parse, serialize, write_json_atomic
@@ -32,6 +31,12 @@ def audit(data: bytes) -> dict:
             candidate_offsets=hits,
             candidate_parity=[i % 2 for i in hits],
             container_offsets=[file.content.offset + 4 + i for i in hits],
+            naive_nul_insertion=dict(
+                inserted_bytes=len(hits),
+                candidate_payload_bytes=len(raw) + len(hits),
+                even_utf16_byte_length=(len(raw) + len(hits)) % 2 == 0,
+                policy='counterfactual size only; even length is not proof of valid repair',
+            ),
             policy='observation-only; preserve bytes, identifiers and decoded values',
         ))
     return dict(schema_version=1, input_sha256=hashlib.sha256(data).hexdigest(),

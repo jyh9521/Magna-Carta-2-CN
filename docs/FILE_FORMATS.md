@@ -1,3 +1,7 @@
+## context suite report（2026-10-21）
+
+schema1/kind=read-only-line-context-suite-audit，继承单profile报告字段，增加profiles[profile_canonical_sha256,scope_count,context_entries]；显式1–16份，每份仍32 scopes/1000成员及源/计划/逐项hash合同。跨profile重复ID拒绝；context/protected_breaks按源序，policy全局唯一并重算pending，不累加每份全局计数。所有批准/运行字段仍false。见PHASE_134_BOUNDED_CONTEXT_SUITE.md。
+
 ## context observations profile（2026-10-20）
 
 schema1/kind=source-locked-context-observations，resource/input_sha256/plan_canonical_sha256，human_finalized/runtime_layout_approved=false；scopes精确document/section、complete_section或keys及reason，entries按源顺序锁id/document/section/key/occurrence/source/translation SHA；protected_breaks锁功能分隔对照。report区分context pending和runtime pending，观察不构成换行批准/改译。见PHASE_132_OPENING_CONTEXT_REVIEW.md。

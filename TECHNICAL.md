@@ -1,3 +1,7 @@
+## 有界多profile上下文汇总（2026-10-21）
+
+Verified / offline：独立audit_line_context_suite复用旧audit，单profile32 scopes/1000成员不变，总数1–16，跨profile重复ID报错，锁源/计划/源译hash。context/功能分隔源序排序、全局policy唯一集合重算；旧476 profile不动，新219汇总695/306观察，5191运行待核。36字幕独立逆核，当前204依赖保持。见docs/PHASE_134_BOUNDED_CONTEXT_SUITE.md。
+
 ## 有界上下文profile的累积保留（2026-10-21）
 
 Verified / data：opening-layout从244到476，原成员/摘要/顺序投影、scopes及三个对照保持；新增232锁定原source/plan，新增Des/CandyForNeck_S功能分隔对照。工具代码与原token验证不变；32 scopes仍受32上限，后续拆分cohort再做不重复汇总，不直接扩上限。18新字幕逆核/当前204依赖保持。见docs/PHASE_133_CAVE_DEFENSE_CONTEXT.md。

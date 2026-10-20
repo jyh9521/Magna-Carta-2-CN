@@ -1,3 +1,7 @@
+## 多cohort累计观察与运行待核（2026-10-21）
+
+新增255项既有草稿观察（219 INT+36cue），累计695 INT/85cue；306策略已观察、4885上下文待审，全部5191运行布局仍待核。旧32-scope profile不扩上限，新15-scope独立profile经有界suite无重叠汇总。当前204依赖保持，TAB literal coverage仍false，无模拟器启动。见PHASE_134_BOUNDED_CONTEXT_SUITE.md。
+
 ## 累计上下文观察不替代运行复核（2026-10-21）
 
 累计476 INT/49字幕cue有上下文记录，本轮新增232+18；210条策略已观察、4981待上下文，全部5191仍待运行布局。profile32 scope接近32门禁，下一阶段需有界新cohort与精确去重汇总。生产译文/当前204依赖不改，无模拟器启动。见PHASE_133_CAVE_DEFENSE_CONTEXT.md。

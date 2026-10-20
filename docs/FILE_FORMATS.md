@@ -1,3 +1,7 @@
+## 第173阶段：PartyTalk字面省略字段
+
+六家族物理300/计划218/旧12/新206，另82原值均为三个英文句点，保留原字符，不纳入新观察。第12/13章物理ID不去重；塞蕾丝汀两结尾文字不同。scope明确keys，原occurrence/大小写/尾空白hash保持，无格式假设扩张。见[阶段173](PHASE_173_PARTY_VOICES_AND_CONTEXT_POLICY_CLOSURE.md)。
+
 ## 第172阶段：Compose章节控制与保护粒度
 
 五章物理/计划301、旧65/新236，5scope一profile；X/Y和Styles逐字保留。新增保护仅六选择字段与两学会技能/装备通知，按字段计；普通对话视觉折行不强制功能化。旧22份原字节不变，归档原门禁不改。见[阶段172](PHASE_172_CHAPTER_ROUTING_AND_PUZZLE_CONTEXT.md)。

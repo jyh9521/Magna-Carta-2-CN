@@ -1,3 +1,7 @@
+## 第173阶段后的接续
+
+PartyTalk六完整角色206新字段完成，12旧结尾不重计，82原文句点保留。累计10428/315、5191/0/5191、400功能记录。下一批朱特MC2_communi_Juto152＋MC2_com_Juto71＋双风格技能49=272，15scope；先读过热24整段，再与角色技能合批，保留9空源原值不填。见[阶段173](PHASE_173_PARTY_VOICES_AND_CONTEXT_POLICY_CLOSURE.md)。
+
 ## 第172阶段后的接续
 
 236五章新观察完成，旧65不重复计数；累计10222/315、5173/18/5191、400保护记录。接续PartyTalk_Juto/Argo/Zephi/Crocell/Rue/Celestin六完整角色未读206字段，先读朱特完整角色线；源序重复章节键不合并，旧成员明确排除，人物内心/猜测不当客观事实。见[阶段172](PHASE_172_CHAPTER_ROUTING_AND_PUZZLE_CONTEXT.md)。

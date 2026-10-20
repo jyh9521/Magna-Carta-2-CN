@@ -1,3 +1,9 @@
+## 第一百一十五批朱特通信对白（2026-10-20）
+
+新增152条INT draft，累计13,826；MC2_communi_Juto九个完整动作/状态组，9空白不计，1104项candidate保持。
+韩文72种源值独立核读，保留初期敬语/后期熟悉与自信口吻，12尾空格保持；不从com/JPN按key搬译。
+见[BATCH_115_JUTO_COMMUNICATION](docs/BATCH_115_JUTO_COMMUNICATION.md)。验证清理提交推送核对后继续剩余通信256非空字段；未刷新字库/TOC/入口。
+
 ## 第一百一十四批阿尔戈通信对白（2026-10-20）
 
 新增152条INT draft，累计13,674；MC2_communi_Argo九个动作/状态组152非空字段，另9空白不计译文；1104项candidate不变。

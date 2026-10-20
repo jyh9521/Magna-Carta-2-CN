@@ -1,3 +1,10 @@
+## 第114批接续状态（2026-10-20）
+
+新增152条，INT累计13,674 draft；1104项candidate原样保持。见[BATCH_114_ARGO_COMMUNICATION](BATCH_114_ARGO_COMMUNICATION.md)。
+当前工作区build/batch-114-verification/lf-workspace；MC2_communi_Argo.int九个完整动作/状态组152/152非空字段有draft，另9空白保留原值且不计翻译。韩文源独立核读53种逐字相同值，152个稳定ID各自保留，18尾空格不裁剪；不从com日文按key搬译。
+下一批build/batch-114-verification/next-communi-juto-candidates.json与next-communi-juto-context.txt：朱特通信152非空字段，九动作/状态组，9空白仍原值；按初期敬语/后期关系/各对象实际源审读，不能按动作名补伤害或治疗机制。其余Crocell28/Zephi114/Zephie114非空双拼写表不合并。
+旧13522译文/全部历史held/44字幕315cue保持；com340/342、Compose836/921、Item1608/1630、邮件233/235不变；4502其余源值含编辑器/样本，不是玩家待译量。独立回滚只恢复隔离副本，主修改保留。仅清理隔离源码可再生成pyc，保留原盘/配置/存档/runs/当前包/依赖/基线回滚研究；无ISO/整盘副本/模拟器/字体/TOC/入口刷新。离线非游戏验收，推送核对后自动接续。
+
 ## 第113批接续状态（2026-10-20）
 
 289候选新增287条，INT累计13,522 draft，1104项candidate；旧13235译文/1096候选保持。见[BATCH_113_REMAINING_SUPPORT](BATCH_113_REMAINING_SUPPORT.md)。

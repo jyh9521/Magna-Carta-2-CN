@@ -1,3 +1,10 @@
+## 第113批支援源形态（2026-10-20）
+
+Verified：MC2_com_Celestin.int/Argo/Overheat_ch3_01实际有两个不同源值的occurrence，稳定ID分别以50cd57ee与f7b2b3b4开头；不能以document/section/key建字典覆盖，两个值独立回填。
+MC2_com_Zephi.int/Celestin/Abnormal_bad_ch3_01源含未知反斜线\じっと，整条held，不猜缺n；同表Rue/Abnormal_bad_ch3_01最后停在私がすぐに，未完句完整held，不由动作key补治疗承诺。
+长音ー/ぉ不自动变成全角～；只保留源已有63处～。四处U+3000、两处tab、485个字面\n及阿尔戈呼唤中ASCII空格按源保留。不同状态key下源相同仍保留独立ID，不按状态修台词。
+com/communi名称不能证明表之间对应关系；下一阶段communi_Argo实际韩文，Crocell混有日文/空白，Zephi与Zephie双表分别保留。运行触发/配音字幕用途与新术语官方身份均未验证。
+
 ## 早期邮件的叙述差异与支援对白源形态（2026-10-20）
 
 Verified / source：E02_002节的key实际仍E02_001_Sub/Con，不按节号修key；E02_016主题是六点省略号、正文含语言内容，前者held后者draft。Test더미为测试占位，不计翻译。邮件现233/235，不把占位或标点改动算译文。

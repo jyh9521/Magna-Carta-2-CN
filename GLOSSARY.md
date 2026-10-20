@@ -1100,7 +1100,15 @@
 | mc2-mail-support-1094 | 大地の民 | 大地之民 | race | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:50b929d89932be9c1ff89b78796ae1508c739e56820457191010c031236c3c64 |
 | mc2-mail-support-1095 | ゼフィ | 洁菲 | character | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:abf4a204b0987c79943092e455f568b207f4bc3d3e65ef3f561146ccc110d535 |
 | mc2-mail-support-1096 | セレスティン | 塞蕾丝汀 | character | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:21064456f8d1c9aaa4b3d07e3b2d4aa5e3f8e9febcc376fe9a7598a9749ea126 |
+| mc2-support-alias-1097 | ルウ | 露 | character | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:6e1033e2ed450c5aea126fd7aa373cba07fcd4715fc73c42b9a96a5f384d1d31 |
+| mc2-support-alias-1098 | ジュト | 朱特 | character | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:4cf6df67a7244c417922da2a435e02edc1315946297e11bdccbbf3f9dae973d0 |
+| mc2-support-alias-1099 | クロセル | 克罗塞尔 | character | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:e1bf9f25b14709fe8e4c613086c99abb53872fdb036c2b278c36d0d53a589d81 |
+| mc2-support-alias-1100 | アルゴ | 阿尔戈 | character | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:a0893174632d460384fa5d2888976b2e70f66bb5e92ca00120b2d792475984e8 |
+| mc2-support-alias-1101 | マレ | 马雷族 | race | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:d043c0abeba52d70e95d4d10ce9131777b05fabf8b36730d45599439641bfec1 |
+| mc2-support-alias-1102 | 大地のタミ | 大地之民 | race | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:4afe4a0e8e27d4df850af4779a61cd1e3fd523176d04de6978e6a4a209ccb479 |
+| mc2-support-alias-1103 | 水のタミ | 水之民 | race | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:4afe4a0e8e27d4df850af4779a61cd1e3fd523176d04de6978e6a4a209ccb479 |
+| mc2-support-alias-1104 | 対センティネル部隊 | 反哨兵部队 | organization | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:8ffa75b04a15b476c03fbf350c64a04c6bf1a7acc0cca27d19b84d83b7fbf60a |
 
-本作词条：1096；已继承：0。
+本作词条：1104；已继承：0。
 
 固定来源、统计、冲突与审核流程见 [系列术语参考](docs/SERIES_TERMS.md)。

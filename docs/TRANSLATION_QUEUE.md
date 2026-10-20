@@ -1,3 +1,12 @@
+## 第113批接续状态（2026-10-20）
+
+289候选新增287条，INT累计13,522 draft，1104项candidate；旧13235译文/1096候选保持。见[BATCH_113_REMAINING_SUPPORT](BATCH_113_REMAINING_SUPPORT.md)。
+当前工作区build/batch-113-verification/reviewed-workspace。四角色Juto71/71、Crocell68/68、Celestin88/88、Zephi60/62；合并既有Argo后com共340/342有draft。
+Zephi/Celestin/Abnormal_bad_ch3_01未知反斜线及Zephi/Rue同key未完句完整held，不补转义或句意。Celestin/Argo/Overheat_ch3_01两个不同源occurrence分别保存，不用三元key覆盖。
+485功能换行、63全角～、1全角１、2制表符、4全角空格及内部ASCII空格保持；源相同的不同状态ID仍独立。新别名/族称均candidate，不当跨表对象已验证。
+下一阶段核读build/batch-113-verification/next-communi-argo-candidates.json与next-communi-argo-context.txt：MC2_communi_Argo.int完整152非空字段，另9空白不凑数；九个动作/状态组，实际源为韩文，初审未见未知反斜线。不可拿com日文按key盲覆。其余communi Juto152/Crocell28/Zephi114/Zephie114非空，双拼写表分开，不当重复垃圾。
+Compose836/921、Item1608/1630、邮件233/235及44字幕315cue不变；4654其余原值含编辑器/样本，不是玩家待译总量。历史held保持，离线非游戏验收。不合盘、不生成ISO/整盘副本、不启动模拟器、不刷新字库/TOC/入口；只清理隔离源码可再生成pyc，保留原盘/配置/存档/runs/当前包/依赖/基线回滚研究。收尾核对后自动继续。
+
 ## 第112批接续状态（2026-10-20）
 
 INT累计13,235条draft；160候选新增158见[BATCH_112_MAIL_SUPPORT](BATCH_112_MAIL_SUPPORT.md)，1096项candidate，旧1084保持。

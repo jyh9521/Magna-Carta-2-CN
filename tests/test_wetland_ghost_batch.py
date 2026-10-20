@@ -11,7 +11,7 @@ class WetlandGhostTests(unittest.TestCase):
   old={e['id'] for b in L('locales/zh-Hans/translation-workflow.json')['batches'][:91] for e in L(b['plan']['path'])['entries']};ids={e['id'] for e in self.p['entries']};self.assertEqual(len(old),9281);self.assertEqual(len(ids),38);self.assertFalse(ids&old);self.assertEqual(ids,{e['id'] for e in self.r['entries']})
   for e in self.p['entries']:self.assertRegex(e['source_sha256'],r'^[0-9a-f]{64}$');self.assertNotIn('source',e);self.assertFalse(any(c in e['translation'] for c in '\r\n\0'))
  def test_shared_candidates_and_fields(self):
-  terms=L('locales/zh-Hans/terms.json')['terms'];self.assertEqual(len(terms),437)
+  terms=L('locales/zh-Hans/terms.json')['terms'];self.assertGreaterEqual(len(terms),437)
   for source,target in [('블레보러','布莱博拉'),('어둠의 은신처','暗影藏身处')]:self.assertTrue(any(e['source']==source and e['target']==target and e['review_status']=='candidate' and e['relation']=='unverified' for e in terms))
   for target in ['暗影藏身处','马雷的吊坠','被怪物杀死的马雷族留下的吊坠']:self.assertIn(target,self.ts)
  def test_functional_tokens_and_counts(self):

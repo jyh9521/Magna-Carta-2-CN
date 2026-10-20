@@ -1,3 +1,10 @@
+## 第93批接续状态（2026-10-20）
+
+INT累计9,355条draft；本批36条见[BATCH_093_KAMOND_DELIVERY](BATCH_093_KAMOND_DELIVERY.md)。440项共享候选，旧437保持。
+03_363_0/1收集/递送已补；下一轮03_397_0完整组及植物孢子/解毒剂/神奇蘑菇关联字段，再接09_zepi_3/10_zepi_4。药物strange_Drag仍须核真正语境，不凭商人字样绑定。
+当前工作区build/kamond-delivery-batch093/workspace；NPC1443/1473、邮件128/235、44字幕315/315已提取cue保持，不合盘。
+8821条其余原值含工具/样本，不是确定玩家待译量；旧held未知保持，无字库/TOC/入口刷新，离线非游戏验收。
+
 ## 第92批接续状态（2026-10-20）
 
 INT累计9,319条draft；新增38条见[BATCH_092_WETLAND_GHOST](BATCH_092_WETLAND_GHOST.md)。437项共享候选保持。

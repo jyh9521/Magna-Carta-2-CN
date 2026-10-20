@@ -441,7 +441,10 @@
 | mc2-merchant-camp-435 | 가스트랩 | 气体陷阱 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:3a20e0e96ffe4458cb59d89e4a5cce280d096895c558f4ca6093bb15f465dab3 |
 | mc2-merchant-camp-436 | 빼앗긴 상품 | 被抢走的商品 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:10828f9155e725c42c8078da9767c4da6071565f8b9f16012a90877c2c1288a5 |
 | mc2-merchant-camp-437 | 야영지의 상자의 열쇠 | 营地箱子的钥匙 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:bc32544b3f1ce46a35ecabb5d05650544ee9b8424fe9c69ddfdff9505de9b66e |
+| mc2-kamond-delivery-438 | 카몬드 파편 | 卡蒙德碎片 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:f85514ffdb284dc5208dca9c6ea1785334941c8396bff3c90fd2675061368465 |
+| mc2-kamond-delivery-439 | 카몬드 조각 | 卡蒙德碎片 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:6f8a07a0149545a3e2e9cad749f0e29a0b4281568d7204ed9bd9022d915660d2 |
+| mc2-kamond-delivery-440 | 카몬드 파편 꾸러미 | 卡蒙德碎片包裹 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:8028e4ad253a251af4ab2beb319307f02f5ae5dc2f054036395aa635e0ffb084 |
 
-本作词条：437；已继承：0。
+本作词条：440；已继承：0。
 
 固定来源、统计、冲突与审核流程见 [系列术语参考](docs/SERIES_TERMS.md)。

@@ -1,3 +1,14 @@
+## 第103批接续状态（2026-10-20）
+
+INT累计11,416条draft；新增296条见[BATCH_103_SPECIAL_RECOVER](BATCH_103_SPECIAL_RECOVER.md)，708项共享candidate，旧612保持。
+Karmond309/309、Recover207/207均draft；特殊卡蒙德102与恢复物品194完整补齐，旧名称/效果13字段不重算。
+当前工作区build/batch-103-verification/reviewed-workspace；全部历史held、旧11120、邮件128/235和44字幕315cue保持。
+下一阶段核读剩余FieldAction、Ingredient与Recipe等完整场景动作/制作功能组；取完整catalog核分母，不用韩文筛选数当总量。
+普通攻击成功率不改成命中率；FrozenRemedy冻伤名/冰冻描述、diarrhea天敌剂/虚弱、蜂蜜水/空蝉长袍/猫薄荷/黄花鱼干依源，不按英文key纠错。
+状态异名统一QA事项及恢复物品源差异列KNOWN_ISSUES；条件/一名全体/耐力恢复速度与直接恢复/喵语气保留，不静默改旧译。
+剩余6760个原值含工具/样本，非确定玩家待译量；每阶段验证清理提交推送核对后继续，保留原盘/配置/存档/runs/依赖/回滚研究。
+不合盘、不生成ISO/整盘副本，不刷新字库/TOC/入口；离线非游戏验收。
+
 ## 第102批接续状态（2026-10-20）
 
 INT累计11,120条draft；新增204条见[BATCH_102_KAMOND_FAMILIES](BATCH_102_KAMOND_FAMILIES.md)，612项共享candidate，旧575保持。

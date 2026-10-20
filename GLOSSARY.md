@@ -616,7 +616,103 @@
 | mc2-kamond-families-610 | 능력 카몬드 | 能力卡蒙德 | system | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:8a3d12ecf6f507fac2fec468b5d9af9b8dcb9d4bef08534acc9cff0fb9f322ca |
 | mc2-kamond-families-611 | 상태 카몬드 | 状态卡蒙德 | system | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:7663544e50393ccdfb9b29d2d046c2d48ec77fe7efdc70216b2fc2c2e8e66d52 |
 | mc2-kamond-families-612 | 특수 카몬드 | 特殊卡蒙德 | system | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:b3a918c4e907107dc7e2d2c5b4e2d640a8ffb72ce8682f7b42f20a292cec6222 |
+| mc2-special-recover-613 | 어지러움の一撃 | 眩晕一击 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:46e99fd5a7093c95728959e94820298a1e998bb987cad4182d473b0e1ea8ecbb |
+| mc2-special-recover-614 | 침묵の一撃 | 沉默一击 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:4a1f098325cf4a0f5863d6b9d7805cf36170a8cc16471dcb35b976041a23a055 |
+| mc2-special-recover-615 | 毒の一撃 | 中毒一击 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:98be52baa71155b3b6cdddeaf435470a460507cbef5ab39ee2eea2305ef9c530 |
+| mc2-special-recover-616 | 腹痛の一撃 | 腹痛一击 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:bd7c43e591a468479ae7dcfce4ec1150b451fb8a0b0f24342fe0905bf401cd02 |
+| mc2-special-recover-617 | スタンの一撃 | 眩晕一击 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:73ad763900b5b65b91490220bcfe2d4ab7d1941fcf32d32f8471c893bcee78d2 |
+| mc2-special-recover-618 | 睡眠の一撃 | 睡眠一击 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:acccf5228b8c786cf0baf5aba037174d526d58b9938c71d23f82f0c81d13cdce |
+| mc2-special-recover-619 | 열の一撃 | 炎热一击 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:f832c3bbbb9285cf206339fd871db7f08e46d35ad8d992037a01afd734481c40 |
+| mc2-special-recover-620 | 화상の一撃 | 烧伤一击 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:69be135790f91a57e9cd601559361444f6a9706b4644654458abf6ba67c4ffb4 |
+| mc2-special-recover-621 | 마비の一撃 | 麻痹一击 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:b251e6e242c5c7b2d9852b119d1fea7f25720d4084b6832c79dbcf93fb372a9d |
+| mc2-special-recover-622 | 混乱の一撃 | 混乱一击 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:5d70e37a89d96a90d233518a87b2b5e9e56b852bde7a5c2129459e8a1c49f479 |
+| mc2-special-recover-623 | 추위の一撃 | 寒冷一击 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:3071f3c962da3f0fd488d1f36a256bb30e81de8752b1cdca825a2d3278c5e2d2 |
+| mc2-special-recover-624 | 동상の一撃 | 冻伤一击 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:f5d6450a198749eb0668f5b85751291e1a2e1be4ccebb4d05de801bb2ab9d798 |
+| mc2-special-recover-625 | 칸의 제어 | KAN控制 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:9b1efc25ddcf42e5a006568e711712c31eb167dda2488eef0793d90d307316b7 |
+| mc2-special-recover-626 | 칸의 절약 | KAN节约 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:bdd2a9f0a2582f74ac79e290e1d74da6530e39b1f02ccd13f4a6c9881133a9f8 |
+| mc2-special-recover-627 | 칸의 절제 | KAN节制 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:e2e4dbc62eb97ee3e7fd481f0a6508fd66ee5dcf2fc2dc63311f8eaa6f489275 |
+| mc2-special-recover-628 | 칸의 축복 | KAN祝福 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:c1b1de5d3bbe404d7dff599f45e93b7caf3f2b22254730189160895f016beee1 |
+| mc2-special-recover-629 | 칸의 은혜 | KAN恩惠 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:303bc834bd280eb971eed05f814e5452574eb088c89dea9feae1db83bce52713 |
+| mc2-special-recover-630 | 칸의 기적 | KAN奇迹 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:c7c0642792251765bbc5fa54085de97f3f0b95b2e4e8988548f17c97bd16c659 |
+| mc2-special-recover-631 | 극복의 의지 | 克服之志 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:90f48eb59245be397740881ec9ece68b94e58b390e8bff722b69f5405c157495 |
+| mc2-special-recover-632 | 세 잎 클로버 | 三叶草 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:733a1765582b4a73255c9a75e89148fe030ad885b88147e0ff164bbc38e7aa28 |
+| mc2-special-recover-633 | 네 잎 클로버 | 四叶草 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:e2f65038fca02a6248158606ffed885c00b49662ba5ccbb409c11120df734537 |
+| mc2-special-recover-634 | 황금 클로버 | 黄金三叶草 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:172395280696e191c5f9c245afebb022ffbb85d7e7fc55a7fca23ccbb8d8862c |
+| mc2-special-recover-635 | 무한의 체력 | 无限体力 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:7be70f1da6d4a57e501c035f7d9170fcee7820b2bf8c3ddedfef0f2d0afb04d1 |
+| mc2-special-recover-636 | 실버 카몬드 | 白银卡蒙德 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:272747784f0476ed4ce7e09af15945ca510e7298eec50b53fd4349c3a43fc50d |
+| mc2-special-recover-637 | 골드 카몬드 | 黄金卡蒙德 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:1e132f02a8053d9203988a7dc32c85daed443f94c09a82203129ab68642dc818 |
+| mc2-special-recover-638 | 플라티나 카몬드 | 白金卡蒙德 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:5cff94e867953e227f55813f875ac647069e87f1c912c1a6930a73c9710d85e7 |
+| mc2-special-recover-639 | 투사의 전의 | 斗士战意 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:ad7cf8051444061b949d8fdfa06c75155fdd78c4190c35719c28772ed8dd07b9 |
+| mc2-special-recover-640 | 전사의 포효 | 战士咆哮 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:1c9ad52eb110c8c44b20e7e4af2edf6c435f9ad154967f9e4eabc55f2b51cc0f |
+| mc2-special-recover-641 | 鋭利な一撃 | 锐利一击 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:4a5a8f3a5da1933dd75f4f922dafa49c67ac743cdf210baef87cac0e1bb036a2 |
+| mc2-special-recover-642 | 매의 눈 | 鹰眼 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:d59bcfdbbb199c537cb2c884862dd7bdb9fa0a5dc78b7a16451a67533a94780a |
+| mc2-special-recover-643 | 빛의 눈 | 光之眼 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:9ff814571dd231ae85efb4ef0d8e9fcf7e17dc2655d94b8405a59b266368be39 |
+| mc2-special-recover-644 | 신의 눈 | 神之眼 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:59e84224fd1e66dfd7ff4e4cd4124f9b2e37182f05a1ab4987c5de3fb44dec50 |
+| mc2-special-recover-645 | 노력하는 자 | 努力者 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:4433e6e56875d4c0e6c39938e79124f164dde33e95ce76569336bb58e11b17a9 |
+| mc2-special-recover-646 | 鍛える者 | 锻炼者 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:0fd32ef434cf48fb4d1f6f840ff74c92560747ca8f87e0c8c5c7716570d0a681 |
+| mc2-special-recover-647 | 힐 캡슐 | 治愈胶囊 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:0f1e902fb0dc497e4812c5652e557339c8dacc666c6670d0e4f1250cbb5e1059 |
+| mc2-special-recover-648 | 힐 포션 | 治愈药水 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:5a414b541d50ca6595ec87aef55ad577833891dc0f8b40883be11d20711a92da |
+| mc2-special-recover-649 | 생명의 결정 | 生命结晶 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:018e63746425535cd73d1ab723cc600c48ff4524385fadd4f5f84054f010dabc |
+| mc2-special-recover-650 | 큐어 시드 | 疗愈种子 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:81281c6f4942a50ad11e27822d2b3e8b97668afb64f55c284212aca092fd4714 |
+| mc2-special-recover-651 | 큐어 캡슐 | 疗愈胶囊 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:7959890efe9b3db13a223e37bc41a2ee789447ee0aa6f08df628f54fc2dca3bf |
+| mc2-special-recover-652 | 큐어 포션 | 疗愈药水 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:e942b5b90b8c55393389524f4b48cf03f5e3418c4a2794a9aa7af8d21fa34c08 |
+| mc2-special-recover-653 | 치유의 결정 | 疗愈结晶 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:cc7d6c4ce6fc3c0cd042c9072bbd3337646ee71743c46f21f004d2a9e388e33d |
+| mc2-special-recover-654 | 리바이브 캡슐 | 复苏胶囊 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:b3b7009b94231470a97f270860cb674b6b365c75301a3a88f2eaae63d68e9e91 |
+| mc2-special-recover-655 | 리바이브 포션 | 复苏药水 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:d48d3cb82967f08b8c31f4b6e04f3158d95de6f1868a9f977d57d37ac3655fe1 |
+| mc2-special-recover-656 | 소생수 | 苏生水 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:f3d571128854c57907091f5ec8e865de8633391b4748fbdd5c960b612e0f5a1a |
+| mc2-special-recover-657 | 만능약 | 万能药 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:b1093f5908d3c46fc0dae48d9c2546fe4c0b8fd847896303ed2a38980fa4a969 |
+| mc2-special-recover-658 | 스태미너 시드 | 耐力种子 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:5bedd57993c9be08928f8372f37d407bbb9e5ad0ee8730df495d01944994be8f |
+| mc2-special-recover-659 | 스태미너リーフ | 耐力叶 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:03b89b3995e7b8c50522a8421b6cf264de5e8c4c1351193e48998387fc54bc10 |
+| mc2-special-recover-660 | 스태미너 캡슐 | 耐力胶囊 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:2fab10ac9925de27160154c2d90ae34b83c7519031939b883203d13cf77671c9 |
+| mc2-special-recover-661 | 스태미너ポション | 耐力药水 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:a37716d4441fab2501bc52288ce5e779f2d0f11750847e36e698f88631be929b |
+| mc2-special-recover-662 | 빙수 | 刨冰 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:93abea280593a244cae0f652b1d6200184e0bb6c681283ecae75eff795c1452f |
+| mc2-special-recover-663 | 火傷用軟膏 | 烧伤药膏 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:d73220cc0ccd7f6542796e02baa309eb21efdf0170c8d85621699f718b33689c |
+| mc2-special-recover-664 | 핫 코코아 | 热可可 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:c110dc65c45a7225092e5ea2fa36afd326ba30b9470a647bd7b4136d6e3054aa |
+| mc2-special-recover-665 | 凍傷用軟膏 | 冻伤药膏 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:025570cdcaa89e7f2f12733a409d55eef256d7184cedaf16ccc2522afe78282c |
+| mc2-special-recover-666 | 抗メマイ薬 | 抗眩晕药 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:5c956e89fe80d0bfc8095ddfb9fea4248e9cb08436d909e68cefce0d8dc13163 |
+| mc2-special-recover-667 | 鎮静剤 | 镇静剂 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:f6640b5f28445b373b7ffa98f0583c2e7ce6044eb0cd67089f97bdf07379bfdf |
+| mc2-special-recover-668 | 허브 | 草药 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:8f527e50ca91ac9d1fa6dc7654a18dee217c11252aa653cda90129c28fa95399 |
+| mc2-special-recover-669 | 후추 | 胡椒 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:9ce0aec9689125ee9b0d70a74f82157ed2dd9bc721c99166176eb5305a62c65c |
+| mc2-special-recover-670 | 꿀물 | 蜂蜜水 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:6e4c7e7c088456f793bb0dcd4927ff5cb45701bb1407aee5a94d3db85e83006b |
+| mc2-special-recover-671 | ウツセミのローブ | 空蝉长袍 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:5b7c531461b42b2cba5cd5f8eb2b2bc9d592b1e84ce9f17a03e736d593e3fbf6 |
+| mc2-special-recover-672 | 消化剤 | 消化剂 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:bde510723fac0a1fe9bb261be917ce2d440b64cc1e93974cc736246aa69288b6 |
+| mc2-special-recover-673 | 박하사탕 | 薄荷糖 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:45cbe6b3a54b834ee153695c45d7c68e63a4887d5392052ee74fa9e648f18553 |
+| mc2-special-recover-674 | 뜨거운 마음 | 炽热之心 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:fcecd3dfe1c5e317dbfc5c7168e8d7a3f5e395f7120c9fd5f16d7d0b69d6e887 |
+| mc2-special-recover-675 | 차가운 열정 | 冰冷热情 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:8af5dfa911a78443916636252dc79e06e27d95a27b923267c5d108b7e814393c |
+| mc2-special-recover-676 | 가벼운 깃털 | 轻盈羽毛 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:374187653332c094940115cfc1fcd2c283186c7d031ebacd9960cb837f587451 |
+| mc2-special-recover-677 | 짜릿한 기분 | 酥麻心情 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:da97807df64021f147ee388cdcfee967e6a9752d55ad04ac3cdc0bf8eb91ce0c |
+| mc2-special-recover-678 | 憤怒の反撃 | 愤怒反击 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:a74076110e35f6985a0a5e8fdd24213aa5c52ab7988e94ce5a9c825290917007 |
+| mc2-special-recover-679 | 순간적 각성 | 瞬间觉醒 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:4569cdc3a002e67186ee3cf8c3482152414b9c01fbf7f175fdf23f30d64f9670 |
+| mc2-special-recover-680 | 고도의 집중 | 高度集中 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:469c14d853c687d75cfffc0560f017bff2412eee5ac0b88254cb8585f2a977c9 |
+| mc2-special-recover-681 | 爽快정신 | 神清气爽 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:4c724506c0b791f7c0ab4c58252a70c1623198c59b848cbbb9e42cc634dfdbf3 |
+| mc2-special-recover-682 | 치유의 온기 | 治愈暖意 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:4e6d1bef4763f29ccc60bda35c1d39697aa7d36a296ccfd9c1e08e6087002469 |
+| mc2-special-recover-683 | 憤怒の공격 | 愤怒之攻 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:7a70a6a05e098f7a29897f0fc7e266b050ce1600f857ca069f89382519aea043 |
+| mc2-special-recover-684 | 鋼鉄の방어 | 钢铁之防 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:e648b05a53edd1371895a5cca1571a720e97a37efcf8985b5737f71b74a104c7 |
+| mc2-special-recover-685 | 刹那の回避 | 刹那回避 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:fa36ae88e8d311611207e38b1544ea7b55c9089299b80f487726bda36f8f9422 |
+| mc2-special-recover-686 | 奇跡の魔力 | 奇迹魔力 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:789c522b60935f9af82e8e24788adea98bbe415205ff669c7d10c2bb13623a12 |
+| mc2-special-recover-687 | 沈黙の저항 | 沉默之抗 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:351f0b9341807cbcca6c2337fa7a448e8bf7af9a38108fcb599a80c88d6a2e5e |
+| mc2-special-recover-688 | 불꽃의 파편 | 火焰碎片 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:de848f81457168f60d4d36c6ba7c029da153e4c5ff70f726dce8facc748990ad |
+| mc2-special-recover-689 | 얼음의 파편 | 冰之碎片 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:0b893ba835bf33397e472f3c4cdb3369c198b97e7a112856d7b4251092435141 |
+| mc2-special-recover-690 | 번개의 파편 | 雷之碎片 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:3e2e0d5f90ccfcdc9009cd39b282c9e77d150ef321e2fdfa4fab93446536e746 |
+| mc2-special-recover-691 | 바람의 파편 | 风之碎片 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:76fdff22b7226c89ff0bd4f0330ab278fd22522787aa4a0e43e3da7b779c8781 |
+| mc2-special-recover-692 | 発火剤 | 引火剂 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:1c3d22c9086a6d9e18120b79fa85516ee2a4d0b82fa74a4db7e8e7cd30763618 |
+| mc2-special-recover-693 | 氷結剤 | 冰结剂 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:1c4ffbf6cdfd73aa088665240968093c4c37b19c8ad404aaa929fc14847edab2 |
+| mc2-special-recover-694 | 黙々剤 | 缄默剂 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:de34cd7a4fd012aa02437608699c3ad568ece90d1bffd278d4858ccca30e6f09 |
+| mc2-special-recover-695 | 混乱剤 | 混乱剂 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:142924ae6966171c50fd7488341a80c1255c09234bed9f1717d31d4a2a778b2e |
+| mc2-special-recover-696 | ショック剤 | 冲击剂 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:5a99b2eb9caa6e92ab8ff237f3dabb6e7675b96e7e0419933856254a99a1830f |
+| mc2-special-recover-697 | 天敵剤 | 天敌剂 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:be7b35d23b293a750c2d96011a4b5db94e70d2089f81fbdd26ce3c3535a7138f |
+| mc2-special-recover-698 | 毒薬 | 毒药 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:207bc1c592318b3b378d04f872c15f1810c392ee5111d5ea53f522cb8aa6358f |
+| mc2-special-recover-699 | 腐った食べ物 | 腐败食物 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:4f63a9478592ef52c7243958242d0c4c05a6595c3720a80c855e5e66538260b7 |
+| mc2-special-recover-700 | 睡眠薬 | 睡眠药 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:53e91e45ae25567aa534d018c6edc81bf51de477766f49d6704fa254abec3c0f |
+| mc2-special-recover-701 | 힐 플라워 | 治愈花 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:79a9d326c08eb9f58b24fc8e2f599023fb2ebb6ee459cbd12767c63907cace06 |
+| mc2-special-recover-702 | 불의 엘리멘탈 | 火之元素体 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:e3a9889e2ae9db47861e887adf704452ec905b18ac050ff39ea3dc61e80ac40b |
+| mc2-special-recover-703 | 얼음의 엘리멘탈 | 冰之元素体 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:59d938a2319b1eab6184c6df6e04b866209979e627d67e39b7c0ee2df43415d8 |
+| mc2-special-recover-704 | 번개의 엘리멘탈 | 雷之元素体 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:a1a56fca4f20576bc1890fca98a7fec4327de2ecfbe5aabf401e35104f58e775 |
+| mc2-special-recover-705 | 바람의 엘리멘탈 | 风之元素体 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:28cafd0dc908494fbe8669c17e05981eff28aa99c2315b6e8e6d1942876b135c |
+| mc2-special-recover-706 | 굴비 | 黄花鱼干 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:817767f320da5cdf33601e3c143f606f4ebefa0a78ae5e8c4d51393ac5c2e5d2 |
+| mc2-special-recover-707 | 캣닢 | 猫薄荷 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:f418f1e1e6e90668fa9a0ec4ca7b8bb6bff94e70641840fab6b2135f92ec0a2a |
+| mc2-special-recover-708 | 최강의 약 | 最强药 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:9e855d377a8ab591d3a6fc31f35b386da2d9dea3588237d5962e1f2a15f68015 |
 
-本作词条：612；已继承：0。
+本作词条：708；已继承：0。
 
 固定来源、统计、冲突与审核流程见 [系列术语参考](docs/SERIES_TERMS.md)。

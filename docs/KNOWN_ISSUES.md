@@ -1,3 +1,11 @@
+## 恢复物品源名/说明与英文key的差异（2026-10-20）
+
+Verified / source：INT Recover/FrozenRemedy名称为凍傷用軟膏，但D/S说明为凍結，分别译冻伤药膏/冰冻状态；不自动修齐。
+diarrhea名称源为天敵剤、描述脱力，译天敌剂/虚弱，不补腹泻；脱力与旧탈진力竭的机制关系未核。
+EmergencyBandage源蜂蜜水，Firecracker源ウツセミのローブ（空蝉长袍），Matatabi源catnip，Katuobusi源굴비；译文依实际源，不按key改绷带/爆竹/木天蓼/木鱼。
+这些仅是实际资源字面差异，未验证其是否开发残留、实际显示或状态枚举关系；旧译不静默覆盖。Karmond普通攻击成功率与命中率亦分别保留。
+见[BATCH_103_SPECIAL_RECOVER](BATCH_103_SPECIAL_RECOVER.md)。仍为draft，字库/TOC/入口未刷新，离线不是游戏验收。
+
 ## 状态名异写与候选同译待统一QA（2026-10-20）
 
 Verified / source：INT MC2Kamond/Karmond的1640三字段为어지러움，1697三字段为스턴，独立ID不能按中文同名合并。

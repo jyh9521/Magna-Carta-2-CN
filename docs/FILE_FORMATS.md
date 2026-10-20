@@ -1,3 +1,7 @@
+## 第163阶段：抓蓬蓬与城镇支线闭环
+
+Ch02_296_00/pay物理源值为单ASCII空格(U+0020)，未计划，明确排除complete_section并作为第15项调查原值与旧24held分列；不据字段名猜金额/奖励拼接，也不译占位。两个重复物品key对应多occurrence仍独立源序锁定；所有权迁移连保护分隔一起移动。见[阶段163](PHASE_163_PONG_CITY_AND_OLD_FOX_QUESTS.md)。
+
 ## 子集字符需求不等于相等需求（阶段162）
 
 demand-equivalence证据明确before2446/after2445、added=[]、removed=[23574]及旧字体需求为超集，不把文件名误读成字集相等。scope/route历史实验字段保留，workflow supersession说明当前修订；composition/comparison验证实际新计划和现有组件。旧目标锁取代只有已观察00_120_00一项，数字项此前未观察，本轮修复后作为新context；335理由注释与目标hash取代分开核。见[阶段162](PHASE_162_ABAZET_HOSTAGE_AND_CONSISTENCY.md)。

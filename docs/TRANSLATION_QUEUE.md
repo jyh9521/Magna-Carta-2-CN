@@ -1,3 +1,7 @@
+## 第163阶段：抓蓬蓬与城镇支线闭环
+
+第163阶段298新INT观察完成：NPC73/任务184/教程3/邮件2/角色7/关联物品29；累计8273/315，4234已观察/957待上下文，250功能分隔；源工作流仍batch116/14082草稿，无重复batch117。下一阶段接马雷两NPC段及同阶段完整任务/名称，并带Newbi_tanner精确候选，未审项不计。活动phase162包、phase163依赖表2306。见[阶段163](PHASE_163_PONG_CITY_AND_OLD_FOX_QUESTS.md)。
+
 ## 第162阶段接续状态（2026-10-21）
 
 300新观察＝城市NPC229＋完整Ch02_251_0任务43＋Default名字27＋补回数字项1；累计7975/315，4087观察/1104上下文待审/5191运行待核，227分隔。readability-revised两处已修，不再持留数字项；最后INT批次116、14082INT/315cue draft与1104candidate不变。当前活动包/闭包切换build/phase-162-verification/disc1-comparison与current-packet-hash-preflight.json，旧160必要回滚保留。见[阶段162](PHASE_162_ABAZET_HOSTAGE_AND_CONSISTENCY.md)。下一批以完整34条抓蓬蓬角色家族及其规则/奖品/任务/UI合批，再接相关完整NPC任务，不把已审城市229或315字幕重计；两连字符原文未计划留待查，调查清单14。

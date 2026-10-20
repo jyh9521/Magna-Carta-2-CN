@@ -1,0 +1,32 @@
+{
+  "canonical_font_path": "font.enginemedium_subtitle",
+  "expected_namespace_guid": "48dc8cf544327a628eab7dad23b9607d",
+  "expected_semantic_sha256": "de7da13ee51cf7ae932822a34bc8dda96bd485e775e8090ab0d08c56f7deacff",
+  "expected_supplement_semantic_sha256": "ef36f8e07a3be5e673861b5d161f68291f0e32239b2916eba1196e883de07920",
+  "font_source_sha256": "2c76254f6fc379fddfce0a7e84fb5385bb135d3e399294f6eeb6680d0365b74b",
+  "game_rendering_verified": false,
+  "required_source_count": 2,
+  "schema_version": 1,
+  "sources": [
+    {
+      "font_object": "EngineMedium_Subtitle",
+      "label": "font",
+      "path": "MC2Game/CookedXenon/font.xxx",
+      "sha256": "b9a476cc377fe54e04d574f66a2018f1a0b69138c9f25f696d46ef07b9b1a4e6"
+    },
+    {
+      "font_object": "Font.EngineMedium_Subtitle",
+      "label": "Startup_int",
+      "path": "MC2Game/CookedXenon/Startup_int.xxx",
+      "sha256": "be264d1397e7fca36b5098e1f2b6ee4f8001f7a7216268bcf2c65edcd8de82c3"
+    }
+  ],
+  "supplement": {
+    "path": "locales/zh-Hans/cumulative-font-route/glyphs-2.json",
+    "sha256": "d0b928ed5b0f501f7bcd8840cdea8e0c8d3a0e232220edcf8ebfba77e434b88e"
+  },
+  "toc": {
+    "path": "MC2Game/Xbox360TOC.txt",
+    "sha256": "04f504dba0b7d74be0ffccbc0ce0d8ecf7f2dd1dc99af4273be5bb162ff8c9ab"
+  }
+}

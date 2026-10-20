@@ -1,0 +1,45 @@
+{
+  "additional_text_plans": [
+    {
+      "path": "locales/zh-Hans/display-subtitles/csm_prologue.txt.json",
+      "sha256": "69846a923529ee764058e4eb592c02c7eab98a9741d6944d2e43a281ccfceef4"
+    },
+    {
+      "path": "locales/zh-Hans/display-subtitles/csm00-10.txt.json",
+      "sha256": "3b74b07aa402c5b0c72039d1e503379498374a2311d7e67c4b0a25266a354ebb"
+    },
+    {
+      "path": "locales/zh-Hans/display-subtitles/csm00-12.txt.json",
+      "sha256": "ea0c78862ae4144362d296a42f1da7baf435f5fdf38d0abb35c70f2e7134a31a"
+    },
+    {
+      "path": "locales/zh-Hans/display-subtitles/csm00-20.txt.json",
+      "sha256": "3e6855c1429fd754d5182d7b7b1fb7455f66aa91dd60b4daf3c02c1718448679"
+    }
+  ],
+  "expected_text_sha256": "87ab5af48ffffdaa67d8288a05740bb54830c3c80424f433e3559271e751c0b4",
+  "font_plans": [
+    {
+      "path": "locales/zh-Hans/cumulative-font-route/font-0.json",
+      "sha256": "25c6b73c21ce1f4070cab10f7dd1f2c59accc3ae84d4be98377bd8dad9c6b4e4"
+    },
+    {
+      "path": "locales/zh-Hans/cumulative-font-route/font-1.json",
+      "sha256": "e8066d63a294ea7822add5f8c74cb478dfbef888058e3682536b214179946174"
+    },
+    {
+      "path": "locales/zh-Hans/cumulative-font-route/font-2.json",
+      "sha256": "d75170d3ff41c9647d9f866df540ded721e94adf9c588525fdb347a7a27b7bf1"
+    }
+  ],
+  "game_rendering_verified": false,
+  "kind": "offline-font-route-probe",
+  "raw_packages": true,
+  "schema_version": 1,
+  "text_plan": {
+    "path": "locales/zh-Hans/readability-fix.json",
+    "sha256": "52f7b01cbc119fabf1e04f6e454506fa1093bb5aebb80f92370b9ea85c17e0b5"
+  },
+  "text_resource": "MC2Game/Localization/Coalesced.int",
+  "verify_glyph_ink": true
+}

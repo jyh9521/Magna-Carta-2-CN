@@ -1,3 +1,7 @@
+## 累计字体七别名合成与控制门禁（2026-10-20）
+
+Verified / offline：cumulative-font-route精确组合drawable+blank新增2390/2389/2390，绑定124完整候选semantic。既有raw route builder顺序编辑共享包后再核七字体；七字体2450非控制remap、2448非布局ink及U+3000 alpha0通过。十局部资源TOC逆变换、独立controls重放与rollback字节通过。TAB仍unverified，all_literal_coverage_verified=false；原262文本/四字幕路由不冒充14,082/315累计回填。当前测试目录/TOC未刷新，见PHASE_125_CUMULATIVE_FONT_ROUTE。
+
 ## 显式blank-advance与源空白证据（2026-10-20）
 
 Verified / offline：glyph.layout=blank-advance仅接受Zs+正metric_width，生成零alpha且BC3解码整个cell严格透明，不借原SPACE/TAB remap，不替换已有映射。原普通空白/TAB/换行拒绝保持。三族U+3000候选27/20/32，原4997/2644/3648增4998/2645/3649，旧记录/像素保持。2451累计remap无缺、2448非布局字形均有ink，仅选定三族而非全部别名/游戏验收。源TAB矩形ink像素0/36/0、SPACE均0，不能推出运行TAB语义。SmallFont派生计划不得重复identity-256转换。源链/复现/门禁见PHASE_124_EXPLICIT_BLANK_ADVANCE。

@@ -1,3 +1,7 @@
+## 七别名字体完成不等于累计文本投放（2026-10-20）
+
+七别名累计字体/透明U+3000与十局部资源路由已离线核对、TOC逆变换及独立重放通过。当前候选路由仍原262条INT和四字幕；未将14,082条及全部315cue回填或刷新测试目录。TAB维持control-or-format-literal-unverified，额外字幕16计划上限未改；下一阶段需显式源保护和合成合同，不能自动忽略门禁。游戏选择/显示与SmallFont identity运行等价仍待验收。见PHASE_125_CUMULATIVE_FONT_ROUTE。
+
 ## 累计字体布局候选仍未投放（2026-10-20）
 
 三族选定字体候选已含2451累计remap，2448非布局字形ink与U+3000独立blank cell离线通过；不代表七别名/路由/TOC及完整资源包回滚完成。U+3000 advance27/20/32是显式候选、非游戏确认。TAB不改，SmallFont源TAB矩形可见36像素不可解释为运行语义。旧262条测试包与入口仍未刷新；普通prepare仍要求显式layout方案，不自动吸收探针。见PHASE_124_EXPLICIT_BLANK_ADVANCE。

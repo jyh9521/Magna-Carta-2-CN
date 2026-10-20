@@ -1,3 +1,10 @@
+## 第120阶段接续状态（2026-10-20）
+
+最后翻译批次仍116；INT14,082 draft、1104 candidate、44字幕315cue保持。当前翻译工作区build/batch-116-verification/reviewed-workspace。见[PHASE_120_COVERAGE_READINESS](PHASE_120_COVERAGE_READINESS.md)。
+当前dist/MC2-display-repair-disc1/PREPARED指向readability-spaced-disc1，manifest锁f3cf0551119094a3f1856a51443e508aadf8336c91546614564b228b3a500618。64项包/候选/对照依赖hash完整，配置及XEX匹配；candidate/raw各10资源只读校验通过。旧包的262条INT/717码点覆盖通过，不代表累计译文已装入测试包。
+复用tools.audit_text_font_coverage，对累计INT14,082条/2446码点、同七字体别名审计，门禁exit1：五别名各缺1612remap、字幕两别名各缺1611，另U+0009控制字面量未核。加315独立字幕后2451码点，缺口分别1616/1615。不是工具异常exit2，也不是游戏已验证缺字截图；正面积/显式remap不证明像素或运行选字。
+locales/zh-Hans/coverage-readiness.json存源/工作流/包hash与分范围计数。游戏资源/字体/TOC/入口/配置/存档/runs未刷新。下一阶段先核对源字体、既有生成器glyph_limit实际按新增字计数、三族补字/像素/度量方案及U+0009策略；不直接删tab或画成可见字，不凭2451总码点就断言超过新增字限制。满足全套离线门禁后再按既有增量刷新流程，不新造ISO/整盘副本或启动模拟器；未知格式/历史held继续保留。
+
 ## 第119阶段接续状态（2026-10-20）
 
 translation-workflow最后仍116；INT14,082 draft、1104 candidate、44字幕315cue保持。当前翻译工作区build/batch-116-verification/reviewed-workspace。见[PHASE_119_CONTEXT_VARIANTS](PHASE_119_CONTEXT_VARIANTS.md)。

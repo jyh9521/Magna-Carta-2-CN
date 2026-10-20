@@ -1,0 +1,120 @@
+{
+  "schema_version": 1,
+  "kind": "source-locked-coverage-readiness-snapshot",
+  "status": "offline-gap-confirmed-not-deployed",
+  "source_sha256": "179e265cfc9e6d3e9f2586abe75b5da303b2af9b8484079851dab72f9f7edb8c",
+  "workflow_sha256": "af1f0d8c684a07aa2c559c347340fa03b1e277565b8bb2e310eee8a57dd40657",
+  "packet": {
+    "prepared_sha256": "d747d3e8a1ac110a58bb6bc083c8fa5716e8bc64281d5cbbd29a1c43f9036102",
+    "manifest_sha256": "f3cf0551119094a3f1856a51443e508aadf8336c91546614564b228b3a500618",
+    "verified_hash_references": 64,
+    "resource_count": 10,
+    "existing_int_entries": 262,
+    "existing_literal_codepoints": 717
+  },
+  "demand": {
+    "int_entries": 14082,
+    "int_literal_codepoints": 2446,
+    "subtitle_entries": 315,
+    "combined_literal_codepoints": 2451,
+    "subtitle_only_codepoints": [
+      21009,
+      28382,
+      31713,
+      34615,
+      39278
+    ],
+    "unverified_control_codepoints": [
+      9
+    ]
+  },
+  "fonts": [
+    {
+      "label": "route0",
+      "font_object": "General_15",
+      "package_sha256": "cc95090066837e8da519e57826cd070fa6e41a796a713ec175f104e1fb654842",
+      "glyph_count": 3382,
+      "status_counts": {
+        "control-or-format-literal-unverified": 1,
+        "mapped": 834,
+        "missing-remap": 1616
+      }
+    },
+    {
+      "label": "route1",
+      "font_object": "Font.General_15",
+      "package_sha256": "105cdf254ca7c93165fde25cc5a9654441970a284e6bcfc03cd2f7ef939616d3",
+      "glyph_count": 3382,
+      "status_counts": {
+        "control-or-format-literal-unverified": 1,
+        "mapped": 834,
+        "missing-remap": 1616
+      }
+    },
+    {
+      "label": "route2",
+      "font_object": "Font.General_15",
+      "package_sha256": "e9dd3c4d4dd51a367174928cd8150157bdcd11ba53a7284bb51edab65f723add",
+      "glyph_count": 3382,
+      "status_counts": {
+        "control-or-format-literal-unverified": 1,
+        "mapped": 834,
+        "missing-remap": 1616
+      }
+    },
+    {
+      "label": "route3",
+      "font_object": "EngineFonts.SmallFont",
+      "package_sha256": "0279cca13e7f6e3545c1d9a89d0277eb30f27ae46b26ec88b4237e3bf6f7d853",
+      "glyph_count": 1029,
+      "status_counts": {
+        "control-or-format-literal-unverified": 1,
+        "mapped": 834,
+        "missing-remap": 1616
+      }
+    },
+    {
+      "label": "route4",
+      "font_object": "EngineFonts.SmallFont",
+      "package_sha256": "e9dd3c4d4dd51a367174928cd8150157bdcd11ba53a7284bb51edab65f723add",
+      "glyph_count": 1029,
+      "status_counts": {
+        "control-or-format-literal-unverified": 1,
+        "mapped": 834,
+        "missing-remap": 1616
+      }
+    },
+    {
+      "label": "route5",
+      "font_object": "EngineMedium_Subtitle",
+      "package_sha256": "cc95090066837e8da519e57826cd070fa6e41a796a713ec175f104e1fb654842",
+      "glyph_count": 2033,
+      "status_counts": {
+        "control-or-format-literal-unverified": 1,
+        "mapped": 835,
+        "missing-remap": 1615
+      }
+    },
+    {
+      "label": "route6",
+      "font_object": "Font.EngineMedium_Subtitle",
+      "package_sha256": "e9dd3c4d4dd51a367174928cd8150157bdcd11ba53a7284bb51edab65f723add",
+      "glyph_count": 2033,
+      "status_counts": {
+        "control-or-format-literal-unverified": 1,
+        "mapped": 835,
+        "missing-remap": 1615
+      }
+    }
+  ],
+  "full_glyph_coverage_ready": false,
+  "game_rendering_verified": false,
+  "resource_refresh_performed": false,
+  "notes": [
+    "Existing262-entry packet remains unchanged; do not publish cumulative text alone.",
+    "Missing remaps are confirmed; mapped dimensions do not prove ink, atlas bounds or runtime selection.",
+    "U+0009 is retained as an unverified layout/control literal, not automatically rasterized or deleted.",
+    "Seven alias probes do not prove runtime use by every string.",
+    "Use repository incremental-refresh process only after a cumulative font/ink/TOC/rollback build passes."
+  ]
+}

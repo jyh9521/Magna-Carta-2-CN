@@ -1,3 +1,8 @@
+## 累计译文字形覆盖缺口（2026-10-20）
+
+Verified / offline：当前262条测试包hash/资源依赖完整，但不含累计14,082条译文。累计INT需要2446码点、加315字幕共2451；当前七别名在联合范围五个各缺1616 remap、字幕两个各缺1615，另U+0009是未核控制字面量。显式remap正面积不等于像素/运行选字验收。
+既有覆盖工具累计范围返回exit1作为覆盖门禁，非解析异常exit2；未刷新资源，也不把未知tab删掉或绘成可见glyph。详见PHASE_120_COVERAGE_READINESS；补字/像素/TOC/独立回滚验证后方可按原hash保护增量流程继续。
+
 ## 跨容器同payload与补零尺寸反证（2026-10-20）
 
 Verified / 仓库工具静态字节：extraction-profile八份源hash均匹配。两盘INT/MC2Game.int和JPN/MC2Game.jpn的去终止符宽payload均390字节/hash e75793352fadefd4b3be757c7546e2d61a357e1fa51aac01e34769672e06e1b7，11候选相对偏移相同；JPN内容头偏移801126，INT895017。另四份INI/KOR零候选，不借JPN同key当修复原稿。

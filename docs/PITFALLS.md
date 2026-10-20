@@ -1,3 +1,7 @@
+## INT草稿改译也会改变完整计划的控制保留身份（阶段149）
+
+一处不含TAB的措辞改译仍改变完整plan canonical SHA；旧literal-control-retention ledger因此实测拒绝composition（ERROR: literal control ledger identity mismatch），不是字体覆盖失败，且没有写玩家目录。分别以旧/新完整计划重放控制审计，确认每条TAB源译锁、序列及分段占用不变，仅全计划身份不同，再显式重锁ledger及双盘composition引用。所有旧context profile也须重锁，只有实际改译目标更新其目标hash并留supersession，其他旧观察投影不改；不能盲改hash、跳控制检查或伪造历史完成态。旧coverage/font-demand历史快照保留原workflow身份，需求集合等价另记新证据。见[阶段149](PHASE_149_PUBLIC_RESCUE_REVISION.md)。
+
 ## 原字节身份与Git文本归一化不是同一个hash（阶段147）
 
 历史island-retreat-recruitment.json工作区CRLF、Git blob LF，文本相同而SHA不同。旧文件字节保留门禁应引用先前已验证的raw工作区hash，Git身份另列，不能用git show输出冒充raw基线，也不因断言失败重写原文件。本轮保留两种hash及首轮失败记录，详见[阶段147](PHASE_147_VELFORT_LAB_CONTEXT.md)。

@@ -1,14 +1,14 @@
 {
-  "schema_version": 1,
-  "kind": "offline-disc-locale-raw-comparison",
-  "disc": 1,
-  "game_rendering_verified": false,
+  "composition_manifest": {
+    "path": "build/phase-149-verification/disc1-composition/manifest.json",
+    "sha256": "f8a823de4e6d60ded02e7345779d4d1f65bc5a057fdadd08fdcc61de1211fe45"
+  },
   "composition_plan": {
     "path": "locales/zh-Hans/locale-compositions/disc1.json",
-    "sha256": "924de4d0cd9b4930de5a689e2d7cc322fd839a4ece5644dc2a041fdb0fbbf09b"
+    "sha256": "9eba6bbf07f9eaf0cdcf9d76ad5c68dd3c5a3c7310ca8a1ece441864493f6721"
   },
-  "composition_manifest": {
-    "path": "build/phase-146-verification/disc1-composition/manifest.json",
-    "sha256": "51d18be5004a006106c6e1ba41a1097d86805d2b39287decbef4a3b1413ae386"
-  }
+  "disc": 1,
+  "game_rendering_verified": false,
+  "kind": "offline-disc-locale-raw-comparison",
+  "schema_version": 1
 }

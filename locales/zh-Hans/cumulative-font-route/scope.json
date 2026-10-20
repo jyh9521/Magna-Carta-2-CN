@@ -1,22 +1,27 @@
 {
-  "schema_version": 1,
-  "kind": "cumulative-fonts-existing-text-probe",
-  "font_object_count": 7,
+  "control_literal_unchanged": [
+    9
+  ],
+  "cumulative_text_deployed": false,
+  "demand_scope": "all14082 INT drafts plus315 subtitle drafts codepoints",
   "font_additions": [
     2390,
     2389,
     2390
   ],
-  "int_text_entries": 262,
-  "subtitle_scope": "existing four display-subtitle plans only; not all315 cues",
-  "demand_scope": "all14082 INT drafts plus315 subtitle drafts codepoints",
-  "workflow_sha256": "af1f0d8c684a07aa2c559c347340fa03b1e277565b8bb2e310eee8a57dd40657",
-  "layout_manifest_sha256": "860a3d01523a54c2887acfc5c33a0b7f34e68c7fa7075952301151fbbaab53a3",
-  "cumulative_text_deployed": false,
-  "resource_refresh_performed": false,
+  "font_object_count": 7,
   "game_rendering_verified": false,
-  "control_literal_unchanged": [
-    9
-  ],
-  "notes": "TAB control gate remains in cumulative audit; do not treat old262 text plan as all14082 applied"
+  "int_text_entries": 262,
+  "kind": "cumulative-fonts-existing-text-probe",
+  "layout_manifest_sha256": "860a3d01523a54c2887acfc5c33a0b7f34e68c7fa7075952301151fbbaab53a3",
+  "notes": "TAB control gate remains in cumulative audit; do not treat old262 text plan as all14082 applied",
+  "resource_refresh_performed": false,
+  "schema_version": 1,
+  "subtitle_scope": "existing four display-subtitle plans only; not all315 cues",
+  "workflow_sha256": "cfabe446f2d270d64026deca9f1f6af1fdc39fd282fe7e6fda5a2dda3fa74a91",
+  "workflow_supersession": {
+    "evidence": "build/phase-149-verification/demand-equivalence.json",
+    "previous_sha256": "af1f0d8c684a07aa2c559c347340fa03b1e277565b8bb2e310eee8a57dd40657",
+    "reason": "Phase149 one draft intent wording clarification; complete INT literal demand replayed identical2446;315 subtitle plans unchanged;original font-only experiment scope and no-deployment flags retained"
+  }
 }

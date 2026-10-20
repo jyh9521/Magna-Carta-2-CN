@@ -1,57 +1,57 @@
 {
-  "schema_version": 1,
-  "kind": "source-locked-literal-control-retention",
-  "resource": "MC2Game/Localization/Coalesced.int",
-  "input_sha256": "179e265cfc9e6d3e9f2586abe75b5da303b2af9b8484079851dab72f9f7edb8c",
-  "changes_canonical_sha256": "cd8f24dd54ece56312e5135f7f4a72f3d9c33d31b97b61ba164fc13a49f64232",
+  "changes_canonical_sha256": "fcf3da1ca5dd397f25547715087e3d4ce73b9b0fe5eb1a9d9ae2031abf9bd04e",
   "entries": [
     {
+      "control_sequence": [
+        9
+      ],
       "id": "coalesced:a4789166a94d96221cb0b318d2fde1fad306da702f63484c24b0cc4ed071dde4",
+      "segment_nonempty": [
+        true,
+        false
+      ],
       "source_sha256": "cf1d23125384f72b5a61a0c644b6dad65ef753ed99d31eff72b40436f010986d",
-      "translation_sha256": "3be410e3df2f10565d0c83b453499a20e3eb74519ce7e2bb2495b05590bb7cbc",
+      "translation_sha256": "3be410e3df2f10565d0c83b453499a20e3eb74519ce7e2bb2495b05590bb7cbc"
+    },
+    {
       "control_sequence": [
         9
       ],
-      "segment_nonempty": [
-        true,
-        false
-      ]
-    },
-    {
       "id": "coalesced:4df551ef9264efe9cb42be2c3e860a7983122268bdd528e44e58a70087a691e7",
+      "segment_nonempty": [
+        true,
+        false
+      ],
       "source_sha256": "ac81fa2d93ae1904958a30324d08ef51afb450a4a77a9c3cf1847a4de5e1eaf3",
-      "translation_sha256": "6b1019a245f891763660222e392d39026f181195727155b5e08a06516134453f",
+      "translation_sha256": "6b1019a245f891763660222e392d39026f181195727155b5e08a06516134453f"
+    },
+    {
       "control_sequence": [
         9
       ],
-      "segment_nonempty": [
-        true,
-        false
-      ]
-    },
-    {
       "id": "coalesced:2ba433b4210cb5ae071af1beada3bc3c18f82f2d56dde75a6826036deaf73d43",
-      "source_sha256": "2ef97f212d12056cd5d2804e45043d28bc127eb276f1163b55b53b6df660fa67",
-      "translation_sha256": "b66b1eac0456d5addc65cdb7040def7bf8ee4af2d818da8c025f8d9b08bb8453",
-      "control_sequence": [
-        9
-      ],
       "segment_nonempty": [
         true,
         false
-      ]
+      ],
+      "source_sha256": "2ef97f212d12056cd5d2804e45043d28bc127eb276f1163b55b53b6df660fa67",
+      "translation_sha256": "b66b1eac0456d5addc65cdb7040def7bf8ee4af2d818da8c025f8d9b08bb8453"
     },
     {
-      "id": "coalesced:ef79b9114f3cf1c761be2f9ba5ff125136bdcff93248e806ea2870d4917375c0",
-      "source_sha256": "58e57df48f02312591b9ba01c36c2e32a361b0faf442d7063ffe2a1925e7d22b",
-      "translation_sha256": "dfe4c6d3d1cc3ab40b7afc8d6a3195f6cb624f7c298a360f9cb580b2b717fc36",
       "control_sequence": [
         9
       ],
+      "id": "coalesced:ef79b9114f3cf1c761be2f9ba5ff125136bdcff93248e806ea2870d4917375c0",
       "segment_nonempty": [
         true,
         false
-      ]
+      ],
+      "source_sha256": "58e57df48f02312591b9ba01c36c2e32a361b0faf442d7063ffe2a1925e7d22b",
+      "translation_sha256": "dfe4c6d3d1cc3ab40b7afc8d6a3195f6cb624f7c298a360f9cb580b2b717fc36"
     }
-  ]
+  ],
+  "input_sha256": "179e265cfc9e6d3e9f2586abe75b5da303b2af9b8484079851dab72f9f7edb8c",
+  "kind": "source-locked-literal-control-retention",
+  "resource": "MC2Game/Localization/Coalesced.int",
+  "schema_version": 1
 }

@@ -4913,12 +4913,39 @@
       "section": "07_702_0",
       "source_sha256": "519d9d6acaa36edec01d990791943863639a9cd4bd96006857bd474a2299dda4",
       "translation_sha256": "24eb95f34004f10df7792d1edb930d56398c4dfb9bfa180bb1a704678f4a3070"
+    },
+    {
+      "document": "..\\MC2Game\\Localization\\INT\\MC2UI_Field.int",
+      "id": "coalesced:099d850eb18689d723847589601f2a06c7ba6d77be12bdd7a80199774aebe84e",
+      "key": "Drama3_Name",
+      "occurrence": 1,
+      "section": "Live Drama",
+      "source_sha256": "775a7652146b30a640dbc7df7779a9d9fd477e0151aecd9cda83e62e488dfee5",
+      "translation_sha256": "6bc3db4cdb67f84ca5f078a408411c778057d0b84fa323d9c6a4a0a75cce82bc"
+    },
+    {
+      "document": "..\\MC2Game\\Localization\\INT\\MC2UI_Field.int",
+      "id": "coalesced:0737677f22e22421f9471121bca92fac3f8fc73781b8e5c14a8ecd67236825fa",
+      "key": "Drama3_Character",
+      "occurrence": 1,
+      "section": "Live Drama",
+      "source_sha256": "8a38eee787666efbb77b50df318e31840db92d1f3626de19fe26717253725381",
+      "translation_sha256": "f9fcb793162da4dafdbaa1480e72d5ace33293ba861a35648e5c925215085349"
+    },
+    {
+      "document": "..\\MC2Game\\Localization\\INT\\MC2UI_Field.int",
+      "id": "coalesced:76f1aee2e3fb25bc0ab4cd64867276069dd225431c51b2387aefcbda27927e66",
+      "key": "Drama3_Story",
+      "occurrence": 1,
+      "section": "Live Drama",
+      "source_sha256": "fe32d69af5685bfd62a9afc6a480912e0c51979219655671f6fc9f4a158ef323",
+      "translation_sha256": "88579962685f9bb5b6b4ea399ca5fb553a28e46e0c501a8b4173d1d19c70ed93"
     }
   ],
   "human_finalized": false,
   "input_sha256": "179e265cfc9e6d3e9f2586abe75b5da303b2af9b8484079851dab72f9f7edb8c",
   "kind": "source-locked-context-observations",
-  "plan_canonical_sha256": "fcf3da1ca5dd397f25547715087e3d4ce73b9b0fe5eb1a9d9ae2031abf9bd04e",
+  "plan_canonical_sha256": "5593792bbdd796dcc01dc6f739879bc7e5d924028327fe8bbfd24255065d44ad",
   "protected_breaks": [
     {
       "id": "coalesced:8f012b4f4a5c56a1f08784d745724137df9f7d42e05c6db0bec2aa9fa3ce0d7d",
@@ -4935,6 +4962,10 @@
     {
       "id": "coalesced:52c2cce8ebf5e07a613bb88b63d91541790d81b166a39068b7aa0da85068d907",
       "reason": "Preserve original complete functional quest goal separator TOKEN sequence."
+    },
+    {
+      "id": "coalesced:76f1aee2e3fb25bc0ab4cd64867276069dd225431c51b2387aefcbda27927e66",
+      "reason": "Preserve Drama3 synopsis functionalparagraphs andleading whitespace."
     }
   ],
   "resource": "MC2Game/Localization/Coalesced.int",
@@ -5012,9 +5043,17 @@
       "document": "..\\MC2Game\\Localization\\INT\\MC2Item.int",
       "keys": [
         "Avisticket",
-        "Avisticket_D"
+        "Avisticket_D",
+        "Pillar_hacking",
+        "Pillar_hacking_D",
+        "monster_leather",
+        "monster_leather_D",
+        "battle_food",
+        "battle_food_D",
+        "Sentinel_Key",
+        "Sentinel_Key_D"
       ],
-      "reason": "Full lifetime free Avis transport ticket name-description pair tied07_23; dangerous or war zones excluded by dialogue, not universal destination access.",
+      "reason": "Same document/section explicit-key union; preserve all earlier selection boundaries, no completeness promotion. Original reasons: Full lifetime free Avis transport ticket name-description pair tied07_23; dangerous or war zones excluded by dialogue, not universal destination access. | Four full device/hide/ration/access-card name-description pairs; key/card wording source distinction and trailing space retained.",
       "section": "Valuables"
     },
     {
@@ -5119,22 +5158,6 @@
     },
     {
       "complete_section": false,
-      "document": "..\\MC2Game\\Localization\\INT\\MC2Item.int",
-      "keys": [
-        "Pillar_hacking",
-        "Pillar_hacking_D",
-        "monster_leather",
-        "monster_leather_D",
-        "battle_food",
-        "battle_food_D",
-        "Sentinel_Key",
-        "Sentinel_Key_D"
-      ],
-      "reason": "Four full device/hide/ration/access-card name-description pairs; key/card wording source distinction and trailing space retained.",
-      "section": "Valuables"
-    },
-    {
-      "complete_section": false,
       "document": "..\\MC2Game\\Localization\\INT\\MC2CharacterName.int",
       "keys": [
         "AbazetAvis_01",
@@ -5160,6 +5183,17 @@
       "document": "..\\MC2Game\\Localization\\INT\\MC2FieldName.int",
       "reason": "Both lab and central institute source labels; dialogue central research room is different Korean string, no blind lexical replacement.",
       "section": "SentinelLab"
+    },
+    {
+      "complete_section": false,
+      "document": "..\\MC2Game\\Localization\\INT\\MC2UI_Field.int",
+      "keys": [
+        "Drama3_Name",
+        "Drama3_Character",
+        "Drama3_Story"
+      ],
+      "reason": "Only three Drama3 name/cast/synopsis keys;prior8UIkeysnotrecounted. Preserve leading space andfunctional paragraphs,notruntimeunlockproof.",
+      "section": "Live Drama"
     }
   ]
 }

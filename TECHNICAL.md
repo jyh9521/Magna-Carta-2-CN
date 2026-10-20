@@ -1,3 +1,7 @@
+## 同profile显式键scope的无扩限整合（阶段160）
+
+Verified / offline：同document/section、complete_section=false且键集合两两不交的七组scope合并为明确键并集，不扩大选择范围或升格complete_section。保留原理由文本，82条报告reason注释有显式前后映射；ID/源译hash/源序/previous-next/disposition、策略、保护分隔在整合步骤保持。Chapter11物理42、并集41，未计划Chapter11_27仍排除。释放7scope后加入Live3六scene与三UI键一scope；仍16profiles×32scopes、各≤1000。两目标修订另用明确取代，不混作注释变化。见[阶段160](docs/PHASE_160_PRONOUN_AND_ANIMAL_DRAMA.md)。
+
 ## 容器顺序scene队列（2026-10-21）
 
 Verified：旧预检的section字符串阈值跨90/100失效。plan_scene_context按document原row顺序分组、复用suite源/计划锁，整scene累积目标1–300；未计划原文deferred、部分计划观察拒绝，无排序/猜编号。新258项累计1687/817观察、4374待上下文、5191运行待核；原五profile和204依赖保持。见docs/PHASE_138_MARE_RESCUE_ORDER.md。

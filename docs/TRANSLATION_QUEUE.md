@@ -1,3 +1,7 @@
+## 第160阶段接续状态（2026-10-21）
+
+Live3六完整场景175＋Drama3三UI，共178新观察；累计7404/315，3772观察/1419上下文待审/5191运行待核，211分隔。两处露代词在batch096原位置修订，最后INT批次仍116，14082INT/315cue draft、1104candidate不变。七scope合并只并明确keys、82理由注释显式取代；16/32/1000不变。当前活动包与依赖表切换build/phase-160-verification/disc1-comparison及current-packet-hash-preflight.json，149旧包/回滚保留。见[阶段160](PHASE_160_PRONOUN_AND_ANIMAL_DRAMA.md)。下一步先核全CSMB计划覆盖及未知原文，再转剩余NPC/任务/关联系统；不重计旧315cue或已审短剧。
+
 ## 第159阶段接续状态（2026-10-21）
 
 最后INT翻译116与149既有措辞修订保持，14082 INT/315cue draft、1104 candidate不变。Live1_004/005共69、Live2_001–007共186、Live Drama明确8键，共263新观察；累计7226/315，3673观察/1518上下文待审/5191运行待核，210分隔。活动表build/phase-159-verification/current-packet-hash-preflight.json，玩家包仍149。见[阶段159](PHASE_159_MEMORY_AND_DRAMA_UI_CONTEXT.md)。下一阶段先修batch096的Live2004_09/24两处露代词候选，并检查16份profile内同document/section明确键集合无损合并机会，保持16/32/1000门禁；再接Live3完整六场景175及关联UI三字段。旧315cue不重计。

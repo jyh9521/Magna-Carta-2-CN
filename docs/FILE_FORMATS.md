@@ -1,3 +1,7 @@
+## context scope整合不改变schema（阶段160）
+
+仍使用既有scopes[document,section,complete_section,keys,reason]，没有新增通配、范围或绕过字段。同profile同document/section明确keys取并集，complete_section保持false；原scope理由连接保留。报告context的reason因此可变，82项只注释取代与2项目标hash取代分表核对；其余身份/顺序/策略字段逐项比较。原始profile与计划由Git历史48a7214及阶段160隔离baseline恢复。见[阶段160](PHASE_160_PRONOUN_AND_ANIMAL_DRAMA.md)。
+
 ## source-order scene queue（2026-10-21）
 
 schema1/kind=source-order-scene-context-queue，document、target_entries、source_order_sections[section,source_entries,planned_drafts,unplanned_original_ids]、scene_entries、planned_scene_entries和deferred_unplanned_sections；CLI另锁source/plan canonical、profiles与计划成员source/translation摘要。status仅preflight，translation_edits=0、人工/运行批准false。按实际rows顺序，不按section字符串排序。见PHASE_138_MARE_RESCUE_ORDER.md。

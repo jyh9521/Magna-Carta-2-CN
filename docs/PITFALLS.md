@@ -1,3 +1,7 @@
+## section容量满不能抬高旧suite上限或漏算旧页（阶段168）
+
+旧16份512不同section无重复可并，新增显式hash索引归档而非改MAX_PROFILES。旧suite仍拒绝17，全归档两页共17份的事实明确记录；全局16000成员预算保持，跨页ID重叠拒绝，pending从同一policy集合重算，不能将每页pending相加。旧16份原字节不变，旧命令仅代表第一页，不是全项目9480。新发现06_603_0/603_0与06_zepi_1/order_2的单反斜杠韩文格式，未计划保持原文，不改成\n。见[阶段168](PHASE_168_BOUNDED_ARCHIVE_AND_DUNAN_RELIEF.md)。
+
 ## 同key计划值与删除标记必须按物理occurrence分开（阶段167）
 
 06_Abajet源191/计划166；完整section审计被25未计划原文拒绝，精确key仍会带入2202_0/2244_0/2245_0的删除标记#2。两次预检均在profile写入前失败。使用新增可选occurrences只选三key的#1，未计划守卫与16×32/1000均不放宽。合成fixture默认draft0/1自身新增数字，初版正例也被数字守卫正确拒绝；修正fixture而非数字断言。原日志/源码/hash与工具独立恢复验证保留，见[阶段167](PHASE_167_RUHALT_MOBILIZATION_AND_OCCURRENCES.md)。

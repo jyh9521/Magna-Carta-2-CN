@@ -457,7 +457,9 @@
 | mc2-quest-world-451 | 크랩퍼스 | 克拉普斯 | creature | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:6d75c184152b8cdc49962acf20df0acd557777eb0ad1a2ef305bb7de9b54d7ca |
 | mc2-quest-world-452 | 정렬의 방 | 排列之室 | place | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:9873bb3d04b1e01d0743cd73d85f0caab39fd9631c52332f5c6f244e0cdde99a |
 | mc2-quest-world-453 | 야생의 숲 | 荒野森林 | place | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:eaca6292688b9dff523cdb52026b2f990fe3aade6bdde02e1f717a0e455bc784 |
+| mc2-live3-454 | 쳉 | 铖 | creature | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:79e1c4335dddfb2f5aa1ae3fb90bad98ed292aa2e6ccc2c861019e1d8d2d393c |
+| mc2-live3-455 | 라이브 드라마 | 短剧 | ui | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:b479b2d24a9a5672938c11eec4136bfe96adbf296ccd1825e1c19e5659fab41a |
 
-本作词条：453；已继承：0。
+本作词条：455；已继承：0。
 
 固定来源、统计、冲突与审核流程见 [系列术语参考](docs/SERIES_TERMS.md)。

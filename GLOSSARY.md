@@ -856,7 +856,40 @@
 | mc2-accessory-850 | 대자연의 반지 | 大自然戒指 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:798217602e46084261e56ab0433a76f8b7fe1dba067acca6a0c29896f4166bd2 |
 | mc2-accessory-851 | 忍耐の반지 | 忍耐戒指 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:bf60429ca56129a2375ceadf7d32946af7bb001f2e821ba1e8cc18e977346ca1 |
 | mc2-accessory-852 | 無欠の반지 | 无缺戒指 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:f67fbc44e6573b8b6fe08710f5d075ac37ee077ee16350450c87c9875595c034 |
+| mc2-special-accessory-853 | 재물의 귀걸이 | 财富耳环 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:36daea0cef58583c08feed8ed25a2ba804375d2442ddd12c4d23bea7738e7a12 |
+| mc2-special-accessory-854 | 재물의 목걸이 | 财富项链 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:3649d6cae6aa8f955b57b10f3d707910fc56cfa83f3cec81f2f243e022b821a8 |
+| mc2-special-accessory-855 | 生贄の반지 | 祭品戒指 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:9a2f2d9e793a433b4d5d54616c52426c4e3799b96489414edceef60dcbe7aa6a |
+| mc2-special-accessory-856 | 躍動の목걸이 | 跃动项链 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:95ed61cfba86b5c0b2af0d477ddaec1642f13abe3ad108950cb2517657578c1a |
+| mc2-special-accessory-857 | 躍動の반지 | 跃动戒指 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:1c60679e8b4910bc35569b65fb16977271244cd875294346b74ab3b9c0e2051b |
+| mc2-special-accessory-858 | 火の목걸이 | 火之项链 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:02640358f211e1b5c764c7154e24f225df77476d79b54195cde57c144d733b5d |
+| mc2-special-accessory-859 | 火の반지 | 火之戒指 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:0387272003ac6a8853ddf096bf2fd66ebeaeffddc394066f2520bd47f2d52a00 |
+| mc2-special-accessory-860 | 水の목걸이 | 水之项链 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:0dcb025993e6afa79ecbcf051c60c8b4660aa8f7c165e89433397f263936842e |
+| mc2-special-accessory-861 | 水の반지 | 水之戒指 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:e87a16e51f695dbd4e785e829c8e9914c680bd9edb595168b8834f4a794fd128 |
+| mc2-special-accessory-862 | 風の목걸이 | 风之项链 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:f80702fcd739a5b791f7c82e990b046f50f8fd1e748db95da6a1ef8b54be4c7f |
+| mc2-special-accessory-863 | 風の반지 | 风之戒指 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:55394db77c29562adddbb5435201ed1d6c9e5b5491ad006c981e575ed446ef5f |
+| mc2-special-accessory-864 | 雷の목걸이 | 雷之项链 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:da47f76ac9718a8c24c020ae215d7fc547bf4d08723e4d3fd977f6ce807470e9 |
+| mc2-special-accessory-865 | 雷の반지 | 雷之戒指 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:6d85a323e38185251b41d4d2e9901c9e1f63fa488ad900eece1a04439029a252 |
+| mc2-special-accessory-866 | 活力の목걸이 | 活力项链 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:fbf997e4eb6ccfc30e7d3413cafa7df7419a9e58c2b02ff3d359e32706e1e15f |
+| mc2-special-accessory-867 | 活力の반지 | 活力戒指 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:831c9ddf6573b8c1eb86e1072a05d5254858ba590389814f88982e9e9bf7ebb5 |
+| mc2-special-accessory-868 | 復活の귀걸이 | 复活耳环 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:5d3192561fe536d1fd1820a99e36bec705c623130a18a0e3d53bf9e6032b1e1c |
+| mc2-special-accessory-869 | 復活の목걸이 | 复活项链 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:15d26b13768027c11a96601095de8ea942b11507bc626eb3e4a4cdccee296fba |
+| mc2-special-accessory-870 | 復活の반지 | 复活戒指 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:04a40fd75e4007c580d99000577769564293ad53ce5472c5be8ada7a3839b233 |
+| mc2-special-accessory-871 | 力と魔力の벨트 | 力量与魔力腰带 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:ae36c3d062d66cae5ea7e65cc868fe0f5d84f84183ee18007c29414ded92be3f |
+| mc2-special-accessory-872 | 力と魔力の귀걸이 | 力量与魔力耳环 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:fc0adaf83cc2b09a77e4358434d256909e0d2d12615530f695e601116a5e9507 |
+| mc2-special-accessory-873 | 力と魔力の목걸이 | 力量与魔力项链 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:724369f3625592a6e00a72a5c7429a654f5a3dde70709580f5e86b248c3a011f |
+| mc2-special-accessory-874 | 力と魔力の반지 | 力量与魔力戒指 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:babd8dffcc7bb97b80bd4d4330af87de91692c05ef7d330da577e352bf68098b |
+| mc2-special-accessory-875 | 力と迅速の足輪 | 力量与迅捷脚环 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:ce6801dbaffc7b0bf30861e86d37fae86182e840262a92aa4897670fac180cbc |
+| mc2-special-accessory-876 | 力と迅速の벨트 | 力量与迅捷腰带 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:f624a5a452484efdd1568d63f0aa5823d0f22f6a2452ca3912666567d701d074 |
+| mc2-special-accessory-877 | 力と迅速の귀걸이 | 力量与迅捷耳环 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:39b2fcac9fb635555f897ff4cfac1b2396fa4871c69ae023591bffb307f3d760 |
+| mc2-special-accessory-878 | 力と迅速の목걸이 | 力量与迅捷项链 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:5816455a6075d08c532d11cdffcf69cd12dfc2252cd67f311c0c493bed66c577 |
+| mc2-special-accessory-879 | 진주 부적 | 珍珠护符 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:bb2b1c90a559c9c4a0219f163dd34a6417cf595870c3148c18a1b9a18d84787f |
+| mc2-special-accessory-880 | 힘의 부적 | 力量护符 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:1717006d609e83834416d38533fed781d0443d936f5cdfc41a5b38cca318bd2b |
+| mc2-special-accessory-881 | 수호의 부적 | 守护护符 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:6b9d0d074ebae2016a6fa8fc2645e120cfded54d1a4d4374ecff0bf855b0daa9 |
+| mc2-special-accessory-882 | 활력의 부적 | 活力护符 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:90ca3dde2bb89ece37d3583ec07b045888e44d31b4cfa625c23c63765a2deaef |
+| mc2-special-accessory-883 | 고양이 방울 | 猫铃铛 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:3a916ac357739c42a02ae37c9aef9769bc031130665738391cc00d089b088ecb |
+| mc2-special-accessory-884 | 고양이 발톱 | 猫爪 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:42f91251e503a8d780cec12c6d86226100bf4ec5b3130c598cf23de19fbaf398 |
+| mc2-special-accessory-885 | 핏빛 귀걸이 | 血色耳环 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:4e641dfaae70e31cabf7d621b7b5d2af81d270387915b0266c343ca16c8069d3 |
 
-本作词条：852；已继承：0。
+本作词条：885；已继承：0。
 
 固定来源、统计、冲突与审核流程见 [系列术语参考](docs/SERIES_TERMS.md)。

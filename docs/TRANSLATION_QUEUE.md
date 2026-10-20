@@ -1,3 +1,13 @@
+## 第106批接续状态（2026-10-20）
+
+INT累计12,073条draft；新增225见[BATCH_106_SPECIAL_ACCESSORIES](BATCH_106_SPECIAL_ACCESSORIES.md)，885项共享candidate，旧852保持。
+Accessory438/438字段已有draft，含全部75组剩余特殊/复合饰品名称/简述/全述；第105批推送核对后直接接续本批。
+当前工作区build/batch-106-verification/final-workspace；全部历史held、旧11848、邮件128/235和44字幕315cue保持。
+下一阶段核读build/batch-106-verification/next-equipment-candidates.json的206字段：朱特单手剑42/双手剑32/肩甲36、洁菲扇33/杖33/手镯30，补齐完整装备功能组。旧名/字段不重复翻译，遇未知格式独立held，不为凑数补占位。
+原MC2Item其余596字段见next-item-candidates.json，其中1为Recipe旧held；未断言其余均为可译玩家文本。装备全述/简述/名称各依实际源，不由英文key补属性。
+ＳＩＤ全角、1．5全角小数点、耐力消耗－、喵~和喵～分别保持；复活全述一次损坏条件不擅加简述，1290/1291/1292体力速度和1337旧式/常规差异不自动修齐。
+剩余6103原值包含工具/样本，非确定玩家待译量；阶段验证清理提交推送核对后自动接续。保留原盘/配置/存档/runs/当前包/依赖/基线回滚研究，不合盘、不生成ISO/整盘副本、不启动模拟器；离线非游戏验收。
+
 ## 第105批接续状态（2026-10-20）
 
 INT累计11,848条draft；新增212见[BATCH_105_ACCESSORIES](BATCH_105_ACCESSORIES.md)，852项共享candidate，旧787保持。

@@ -579,7 +579,44 @@
 | mc2-remaining-skills-573 | 엑스클러스터 | 爆炎群星 | skill | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:a916862fb778a03e03f853f86ba950175f68ed9b916ee9132a3968cbc6c9cde4 |
 | mc2-remaining-skills-574 | 노바 서클 | 新星之环 | skill | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:05aef48b4368b6b332dc0b9a6a12e2b1e7229e6556ffd0c62beaeba37e444a28 |
 | mc2-remaining-skills-575 | 세라피 레이즈 | 炽天使之焰 | skill | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:6ca0cc0e82cad8378feadc4f365bd89bd8ef8063c62da11e9ea56c3411355dda |
+| mc2-kamond-families-576 | 체력 | 体力 | stat | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:2ff7f7447478062921633aa15eadcb4b9a075c02d0e272c3bee95c8549a61b64 |
+| mc2-kamond-families-577 | 빠르기 | 速度 | stat | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:9eacd2b75a83534503e0c4f2c0c601ff925a1b0697c873ec4f37f00c57f7abde |
+| mc2-kamond-families-578 | 공격 | 攻击 | stat | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:48e31c725d211b066c40e620fe3fb7f27363cd86c1a9ccbb568bee990667aa40 |
+| mc2-kamond-families-579 | 방어 | 防御 | stat | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:76e3a738909833230986ed4dd4fcd6b32be22f9c5d69531097daf736dd475b5d |
+| mc2-kamond-families-580 | 저항 | 抗性 | stat | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:f1eb27233053d14cc90532736a18d0b020fe85943c04355b356e6ee94a207d02 |
+| mc2-kamond-families-581 | 정신 | 精神 | stat | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:5fafb40b32dbf47cfd144ff93d32bd6287c2df358add5af3b4d2a1f39c8cddc2 |
+| mc2-kamond-families-582 | 어지러움 방어 | 眩晕防护 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:2f89083a99518ba7ad5a3d95bec1189ef9a1ebdfaec46f07e1c4e540e1d42817 |
+| mc2-kamond-families-583 | 침묵방어 | 沉默防护 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:889ce9c912c5ab5f05cea3df6dc100eccaa2efb236d3ed867f519c459c568825 |
+| mc2-kamond-families-584 | 더위 방어 | 炎热防护 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:10065c677e035e4002be35e9931ec1508d12220b90580c531e9d157c6f8db61d |
+| mc2-kamond-families-585 | 화상방어 | 烧伤防护 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:5177e0de7d5def75d7c7ad0869d13d7d5d63ba9e8e8ae000e089cfc4a00b5e19 |
+| mc2-kamond-families-586 | 마비 방어 | 麻痹防护 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:527452821b7fe16b39e87eb0ff4a4ae1ff7d911b2798601b019ac0651a3c469c |
+| mc2-kamond-families-587 | 감전 방어 | 触电防护 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:490ba5bf137d642133103435ee4d5fc0780dd50424e1ff7661be1c1a1c10b6e6 |
+| mc2-kamond-families-588 | 추위 방어 | 寒冷防护 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:0871ef3e98ce8d7cd6859eca71bc7cbc0bf5314550c1c89d0333304347b27a77 |
+| mc2-kamond-families-589 | 동상 방어 | 冻伤防护 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:a5d0fb195436566b78e0448690a58b82414a850076fa6d5fdf2ef4843f90d398 |
+| mc2-kamond-families-590 | 중독 방어 | 中毒防护 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:03ea78fc7b8502a036d20e1be8e9e8aac458f8793ec6f0cb1bcce208b1db0da0 |
+| mc2-kamond-families-591 | 복통 방어 | 腹痛防护 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:43bdaeadb6a1e59ad5a3eddf0596357c90d489348a798686afb3fc16e6a99cfe |
+| mc2-kamond-families-592 | 수면 방어 | 睡眠防护 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:67e36132bd74bc80de5ef58bcbbc50e065972da52987bcafedaf5d95d5efbcfe |
+| mc2-kamond-families-593 | 탈진 방어 | 力竭防护 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:9e5beab0bfd0e74df5c963d3fd187dae08b1bbb0fa7aad3206468025a044e324 |
+| mc2-kamond-families-594 | 스턴 방어 | 眩晕防护 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:6b20506b9ab224133f623fea43f1822059b9821f300f5dd82847ae5124c3e6ef |
+| mc2-kamond-families-595 | 용기의 카몬드 | 勇气卡蒙德 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:d534370f51cd707445d7f64fc38c2ccc10e7420cac2ee0c88debce256d98dfed |
+| mc2-kamond-families-596 | 근성의 카몬드 | 毅力卡蒙德 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:eec6069c9ecb7a8e355fa3cf6171fe4eb45f4ce06cb905751bb26a33c8dd047a |
+| mc2-kamond-families-597 | 바람의 카몬드 | 风之卡蒙德 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:5bd71ae6c8d6fa1285b2d789fccf8a79258b6478be3667b9c45a7a1398813b71 |
+| mc2-kamond-families-598 | 신속의 카몬드 | 迅捷卡蒙德 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:23b1a8ea3855804a932b9ca9acfe51cd0a5a199b48a9fd30c93bc35b97821bd8 |
+| mc2-kamond-families-599 | 전사의 카몬드 | 战士卡蒙德 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:75d0abd610522e935613b6365410f5288c2e85f6135c084a5db0ae4c6ee3af97 |
+| mc2-kamond-families-600 | 강철의 카몬드 | 钢铁卡蒙德 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:d97534c7a964c08cb78acf8546a324080a2a89d56c0ab211843274071dd07045 |
+| mc2-kamond-families-601 | 금강의 카몬드 | 金刚卡蒙德 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:73bbada3edd3bbeaee5d11fdf08cc332196de0e22006842669d99b2c52ecaaf3 |
+| mc2-kamond-families-602 | 저항의 카몬드 | 抗性卡蒙德 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:88caffec56cbe807523b3adba19acc13710917bacb598f5223cf486121755f5a |
+| mc2-kamond-families-603 | 인내의 카몬드 | 坚忍卡蒙德 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:47e0b448e50003c87b57c16e55c8344c5e06da98e1ae5e0b1fce6a51965e5ad7 |
+| mc2-kamond-families-604 | 연환의 카몬드 | 连环卡蒙德 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:7731f1a84ef92b009ad3cbab602e2a24a0b0e4a48f8e422e6ce3dca8de50f7ea |
+| mc2-kamond-families-605 | 신비의 카몬드 | 神秘卡蒙德 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:1a7e3149a7a05ad2174011a8da84b508a2ba8e4e10fd4cb353c9493814883507 |
+| mc2-kamond-families-606 | 의지의 카몬드 | 意志卡蒙德 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:e617d716b58a454e6720c6b3c6dadc4f966fdedbd614f0dfc30f70fa0b13cbc3 |
+| mc2-kamond-families-607 | 정열의 카몬드 | 热情卡蒙德 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:ed2da54e1d6285e8cf0a7f596c4bc2375453b64314a5ae1c19ac1482db31bbd3 |
+| mc2-kamond-families-608 | 재생의 카몬드 | 再生卡蒙德 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:85625d0e694a113a56d594d47cc12852d085e33e2581e4036ff1442bf05aebd9 |
+| mc2-kamond-families-609 | 불굴의 카몬드 | 不屈卡蒙德 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:ad3043f0597878a3d456d3fcba2c864d62a0d1743d5db421655e8b77251cc349 |
+| mc2-kamond-families-610 | 능력 카몬드 | 能力卡蒙德 | system | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:8a3d12ecf6f507fac2fec468b5d9af9b8dcb9d4bef08534acc9cff0fb9f322ca |
+| mc2-kamond-families-611 | 상태 카몬드 | 状态卡蒙德 | system | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:7663544e50393ccdfb9b29d2d046c2d48ec77fe7efdc70216b2fc2c2e8e66d52 |
+| mc2-kamond-families-612 | 특수 카몬드 | 特殊卡蒙德 | system | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:b3a918c4e907107dc7e2d2c5b4e2d640a8ffb72ce8682f7b42f20a292cec6222 |
 
-本作词条：575；已继承：0。
+本作词条：612；已继承：0。
 
 固定来源、统计、冲突与审核流程见 [系列术语参考](docs/SERIES_TERMS.md)。

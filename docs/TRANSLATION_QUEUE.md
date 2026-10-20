@@ -1,3 +1,13 @@
+## 第102批接续状态（2026-10-20）
+
+INT累计11,120条draft；新增204条见[BATCH_102_KAMOND_FAMILIES](BATCH_102_KAMOND_FAMILIES.md)，612项共享candidate，旧575保持。
+Karmond完整309字段：207已有draft（含旧1705三条），1716之后102条混合语言特殊效果待读；不要把306未译或韩文293当完整总量。
+当前工作区build/batch-102-verification/reviewed-workspace；全部历史held、旧10916、邮件128/235和44字幕315cue保持。
+下一阶段核读剩余102条特殊卡蒙德及关联Recover/FieldAction物品，按完整功能组合批，保留日韩混合说明的源范围/数量/布局。
+어지러움/스턴同译眩晕及第100批分写差异列KNOWN_ISSUES待统一QA；源ID分别保留，未验证状态枚举关系，不静默重译旧值。
+剩余7056个原值含工具/样本，非确定玩家待译量。阶段验证、清理、提交推送核对后自动接续；原盘/配置/存档/runs/依赖/回滚研究保持。
+不合盘、不生成ISO/整盘副本，不刷新字库/TOC/入口；离线非游戏验收。
+
 ## 第101批接续状态（2026-10-20）
 
 INT累计10,916条draft；新增181条见[BATCH_101_REMAINING_SKILLS](BATCH_101_REMAINING_SKILLS.md)，575项共享candidate，旧526保持。

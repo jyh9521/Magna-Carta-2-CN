@@ -1077,7 +1077,18 @@
 | mc2-celestin-rue-equipment-1071 | 성천사의 브로치 | 圣天使胸针 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:3a8cc32b5e6db6ffcf3d05107bfac7e8a80786e34ef3e30b20ca5691708e1ffa |
 | mc2-opening-comments-1072 | 크로커 | 克罗克 | creature | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:57fbb6fe3462231c434d9780aa594d061a70b09ecc301f47295c500651084106 |
 | mc2-opening-comments-1073 | 폭탄상자 | 炸弹箱 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:16e9334cc6ce3f5e03876753430fd3c6e2c68b6fdd8456c387586e48142938b3 |
+| mc2-remaining-story-items-1074 | 이상한 약 | 奇怪的药 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:6e0ed8758e0f652e8ee0a0fb82499d37e20e0d740452572a1524c97f0c57e63c |
+| mc2-remaining-story-items-1075 | 마레행 배달물 | 送往马雷的货物 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:3f66ab9e0289523620c7cdbddefca45ffbf081b83d79a2ebe0cb11d47677a0b0 |
+| mc2-remaining-story-items-1076 | 중화제 | 中和剂 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:7d25faa136cd5296a078bf18204b9ccc32d99dc6d27eaa3f72a95345fa4894a2 |
+| mc2-remaining-story-items-1077 | 태양의 풀 | 太阳草 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:f487108791bfcbb9b0e774bcf10bcf4c25d78f194e9ec0156e9e05a0aecd3765 |
+| mc2-remaining-story-items-1078 | 남부군 총사령관의 서신 | 南部军总司令的信函 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:9e54387b635f0360f0fea390587d0c026bca1c20a7d243a438706d4bed226bde |
+| mc2-remaining-story-items-1079 | 북부군의 큐브 | 北部军的库布 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:9e0f28f6cd12c97c5f34e6dd4ceaa40269d92ecc9dacc3671dc36ffac9605d0a |
+| mc2-remaining-story-items-1080 | 어둠의 보석 | 黑暗宝石 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:8549b82cd5b1b272cb9d3a95ddc24a3a27f6a112ae0a2e091e835129af59b2e4 |
+| mc2-remaining-story-items-1081 | 홍련의 수정 | 红莲水晶 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:5f8db21bdc224f9e909afbd65c47774bc28df93442cbb1a7321ce9bfd915527c |
+| mc2-remaining-story-items-1082 | 파계의 두루마리 | 破戒卷轴 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:257fe90fd7d43ede656f03245ca2c4f65442d35444f31bf5a84f4cfe45f33273 |
+| mc2-remaining-story-items-1083 | 피뢰의 비녀 | 避雷发簪 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:b6c634906ac93d768f65c3fc106e3e09485576895ac3b68f1df2069cba237df4 |
+| mc2-remaining-story-items-1084 | 제어실 출입카드 | 控制室通行卡 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:058812d5461aafb3d5f5d1c50062d9f35d2520dbd20a4bdd891d0f320d6af837 |
 
-本作词条：1073；已继承：0。
+本作词条：1084；已继承：0。
 
 固定来源、统计、冲突与审核流程见 [系列术语参考](docs/SERIES_TERMS.md)。

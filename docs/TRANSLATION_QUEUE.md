@@ -1,3 +1,14 @@
+## 第111批接续状态（2026-10-20）
+
+INT累计13,077条draft；271候选新增236见[BATCH_111_LATE_COMMENTS](BATCH_111_LATE_COMMENTS.md)，1084项candidate，旧1073保持。
+第四章至结局余下PartyTalk151、第十章路线内心53、第十二章仪式6、关联Valuables26合批；35纯省略号完整held。Compose836/921、Item1608/1630，Valuables154/154有draft，不等于全部游戏或人工/游戏验收完成。
+Compose余85字段全部既有held：83纯标点，另Chapter11_27성쇄、Chapter12[왕의 영병]术语含义仍待核，不以JPN同key覆盖；Item余22也全部既有held（缺值/空白/无需变化/配方未知转义），保留原值/hash。
+当前工作区build/batch-111-verification/reviewed-workspace；旧12841/全部历史held/新held35/邮件128/235/44字幕315cue保持。
+下一阶段读next-mail-support-candidates.json与next-mail-support-context.txt：MC2QubeMail余107字段含53对标题/正文与Test占位1、Argo支援交谈53，合计160候选，预期159语言字段，Test더미保留不计译文；格式初审无未知反斜线，细节见next-mail-support-format-audit.json。
+邮件Q02/B02/E02完整任务链/书信及E09余项按各标题/正文核对语气、术语、段落空行/数字/键位；支援交谈INT源实际为日文，各角色/动作key仅辅助语境，不断言已验证配音/字幕显示或运行触发。不把不同com/communi表按key盲对齐。
+本批五角色Ch12/13逐字相同源才复用，塞蕾丝汀两状态不同分别译；第十章南北军/平民与高原路线依源。King_token_water源홍련暂译红莲水晶、说明水祭坛，fire名有限核读JPN破戒；不按key/效果改名字，JPN紅煉不当INT已核汉字。
+剩余5099原值含编辑器/样本，非确定玩家待译量；阶段验证清理提交推送核对后继续，保留原盘/配置/存档/runs/当前包/依赖/基线回滚研究。不合盘、不生成ISO/整盘副本、不启动模拟器；离线非游戏验收。
+
 ## 第110批接续状态（2026-10-20）
 
 INT累计12,841条draft；新增227见[BATCH_110_OPENING_COMMENTS](BATCH_110_OPENING_COMMENTS.md)，1073项candidate，旧1071保持。

@@ -459,7 +459,20 @@
 | mc2-quest-world-453 | 야생의 숲 | 荒野森林 | place | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:eaca6292688b9dff523cdb52026b2f990fe3aade6bdde02e1f717a0e455bc784 |
 | mc2-live3-454 | 쳉 | 铖 | creature | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:79e1c4335dddfb2f5aa1ae3fb90bad98ed292aa2e6ccc2c861019e1d8d2d393c |
 | mc2-live3-455 | 라이브 드라마 | 短剧 | ui | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:b479b2d24a9a5672938c11eec4136bfe96adbf296ccd1825e1c19e5659fab41a |
+| mc2-combat-ui-456 | 강타 | 重击 | skill | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:08423fc4647d985c85f101f6c712cfa92c2c26b1803ed4f37ebab68e765e80d8 |
+| mc2-combat-ui-457 | 사자후 | 狮子吼 | skill | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:2f90b0f3b9628a2846f32a29c841cf53b792249b933473ae06c24e5773ad5f98 |
+| mc2-combat-ui-458 | 방어구파괴 | 破甲 | skill | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:96a55afa694c4739544a80502eed1879311c2c7d60a974ce612e9d9bbdec1234 |
+| mc2-combat-ui-459 | 바람의 실드 | 风之盾 | skill | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:4b8dac2fe3b17052e4125a03b32281864f05a3c743ee112a96bb622a23a4a91e |
+| mc2-combat-ui-460 | 연환력증대 | 连环力增幅 | skill | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:1a1fb4a826bbf2a157b26b2d4179f4000ca16f9ac36bab27506580ab76ad5ccf |
+| mc2-combat-ui-461 | 연환폭발 | 连环爆发 | skill | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:749acaa75af82fe4b92a3829457c41a283fc6b0f6cf6631255b4341ec9091849 |
+| mc2-combat-ui-462 | 정기흡수 | 精气吸收 | skill | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:525d4e9eaa88e1abb418fec3bcd761672a82b18ae417145813331d547a0cdf95 |
+| mc2-combat-ui-463 | 연환반사 | 连环反射 | skill | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:2f9707f8ce86a5dc890ac752348efb1abab31ddcde7c655bf67e8b3d398841eb |
+| mc2-combat-ui-464 | 순살 | 瞬杀 | skill | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:c387a4891da42bc682c38f1a55018b1602f78a13e88dd413ed93d4569811075a |
+| mc2-combat-ui-465 | 뇌진파 | 雷震波 | skill | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:0a40afced373ef3da4077fdc6390c3fc5b1e7ff142174f66334bbb52d1f3c692 |
+| mc2-combat-ui-466 | 기의 칸 | 气之KAN | system | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:b0035ac4f5c32928011b0207cede2fcceef326f9ffcf9b8065e1a088bc893cea |
+| mc2-combat-ui-467 | 고대령 | 古代灵 | role | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:88746b109145c223adf32b419e49e1a7f8c3e036cd5fe1b281ceb7d16a6911f0 |
+| mc2-combat-ui-468 | 주목모드 | 注视模式 | ui | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:cf3cbb98674b6e1da5aeeb125bffdf2483091a94d077ce0a26c40040a41fd786 |
 
-本作词条：455；已继承：0。
+本作词条：468；已继承：0。
 
 固定来源、统计、冲突与审核流程见 [系列术语参考](docs/SERIES_TERMS.md)。

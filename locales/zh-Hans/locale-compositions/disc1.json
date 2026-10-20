@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "kind": "offline-disc-locale-composition",
+  "disc": 1,
+  "game_rendering_verified": false,
+  "font_route_plan": {
+    "path": "locales/zh-Hans/cumulative-font-route/route.json",
+    "sha256": "028ae7781865883d40dbd5f025e170d30639bb72522edc9ab627ba24ab8ef657"
+  },
+  "font_component": {
+    "path": "build/phase-125-verification/route-probe/manifest.json",
+    "sha256": "ac9a3547f81b11e086725b0bab6bd608b18b64aaa2bc195187f44bca957d8ba5"
+  },
+  "subtitle_plan": {
+    "path": "locales/zh-Hans/subtitle-bundles/disc1.json",
+    "sha256": "1a1cc777cfa862bff87dcec26f2e4dc8de9f6942eb2f47f6bb214ab42a89c492"
+  },
+  "subtitle_component": {
+    "path": "build/phase-127-verification/disc1-bundle/manifest.json",
+    "sha256": "c88490554c4db613229afb3554da56c0cf2a78372b23a9b37bf8e30d66c542aa"
+  },
+  "text_plan": {
+    "path": "build/cumulative-locale-workspace/plans/179e265cfc9e6d3e9f2586abe75b5da303b2af9b8484079851dab72f9f7edb8c.json",
+    "sha256": "11f0453ae13da2425e1d1c3a4fdb444e7d93a2a94f07c018e4d56d249939e91a"
+  },
+  "control_ledger": {
+    "path": "locales/zh-Hans/literal-control-retention.json",
+    "sha256": "d7a30e28224200d9c2fd574ab8bf11467521d93204b5e49b9fc0b7d9161d7a60"
+  }
+}

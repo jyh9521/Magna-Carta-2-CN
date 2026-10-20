@@ -88,6 +88,22 @@ def update_sizes(source, expected_sha256, changes):
     return b"".join(lines)
 
 
+def update_sizes_reversible(source, expected_sha256, changes):
+    """Compute one combined table from its original, then prove the exact inverse."""
+    if not isinstance(changes, list):
+        raise ValueError('TOC changes must be a list')
+    if (not isinstance(expected_sha256, str) or not re.fullmatch('[0-9a-fA-F]{64}',expected_sha256)
+            or hashlib.sha256(source).hexdigest() != expected_sha256.lower()):
+        raise ValueError('source TOC SHA256 mismatch')
+    source.decode('ascii')
+    output = update_sizes(source, expected_sha256, changes) if changes else source
+    reverse = [dict(path=c['path'],expected_size=c['new_size'],new_size=c['expected_size']) for c in changes]
+    if (update_sizes(output,hashlib.sha256(output).hexdigest(),reverse) if reverse else output) != source:
+        raise ValueError('combined TOC inverse mismatch')
+    return output, dict(changed_resources=len(changes),source_sha256=hashlib.sha256(source).hexdigest(),
+                        candidate_sha256=hashlib.sha256(output).hexdigest(),inverse_byte_identical=True)
+
+
 def write_updated(source_path, expected_sha256, changes, output_path):
     source_path, output_path = Path(source_path), Path(output_path)
     if source_path.resolve() == output_path.resolve():

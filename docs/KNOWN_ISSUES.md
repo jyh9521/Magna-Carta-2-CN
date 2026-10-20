@@ -1,3 +1,7 @@
+## 累计分盘组合尚未接入玩家入口（2026-10-20）
+
+离线候选已分别包含全14,082 INT、七字体及本盘152/163cue，27/29局部资源重放/回滚通过。现有入口仍旧262包，inspector新kind、raw-controls与17新增清单尚待有界适配；不直接调用旧同清单refresh。TAB保持未核语义，原coverage仍false；既有5191显式dialogue/narrative换行策略继承而未新增重排/人工批准。字体选择/SmallFont identity/新2048atlas/布局及游戏验收仍单列。见PHASE_128_DISC_LOCALE_COMPOSITION。
+
 ## 七别名字体完成不等于累计文本投放（2026-10-20）
 
 七别名累计字体/透明U+3000与十局部资源路由已离线核对、TOC逆变换及独立重放通过。当前候选路由仍原262条INT和四字幕；未将14,082条及全部315cue回填或刷新测试目录。TAB维持control-or-format-literal-unverified，额外字幕16计划上限未改；下一阶段需显式源保护和合成合同，不能自动忽略门禁。游戏选择/显示与SmallFont identity运行等价仍待验收。见PHASE_125_CUMULATIVE_FONT_ROUTE。

@@ -1,3 +1,7 @@
+## 独立分盘locale资源合成计划（2026-10-20）
+
+工具schema1 kind=offline-disc-locale-composition，disc、game_rendering_verified=false及hash锁定font_route_plan/font_component/subtitle_plan/subtitle_component/text_plan，存在字面控制时须control_ledger。组件只选字体包与本盘字幕，不复制其INT/TOC；从本盘原TOC统一变化并逆验证。输出controls/candidate/rollback-check及字体像素、INT coverage、控制保留、组合TOC报告；all_noncontrol_literals_covered与all_literal_coverage_verified分开，未知TAB保持未核。此kind当前不是旧one-click packet，尚无raw-controls，不伪装成font-route或部署成功。见PHASE_128_DISC_LOCALE_COMPOSITION。
+
 ## 独立单盘字幕bundle计划（2026-10-20）
 
 工具schema1 kind=offline-disc-subtitle-bundle，disc严格正整数、profile为path/SHA锁定ref、toc为path/SHA、game_rendering_verified=false。来源由profile.sources[disc].members闭合选取，禁止跨盘输入；每盘1..64字幕、每资源<=8MiB。候选只含字幕+本盘TOC，独立controls/candidate/rollback-check，manifest声明无INT/字体/投放。逐cue正逆重建及TOC逆size更新验证字节，不推断零自引用或未知TOC字段。见PHASE_127_DISC_SUBTITLE_BUNDLES。

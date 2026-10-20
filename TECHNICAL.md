@@ -1,3 +1,7 @@
+## 累计资源分盘统一TOC合成（2026-10-20）
+
+Verified / offline：locale-compositions两盘分别编译14,082 INT、四包七字体和本盘21/23字幕，27/29资源、152/163cue，不带入局部组件TOC或旧262文本。原ISO/source/member/完整Font semantic与重解码ink/空格alpha、四尾TAB原glyph映射/metrics及源序列保持；literal coverage仍false。TOC从各盘原表统一25/28项size再逆重建，197989→197992、199817→199819，零自引用及未知字段保持；56资源回滚与独立controls重放通过。既有5191换行策略按原值继承，不宣称源换行数全同/人工批准。新kind/raw-controls/清单增量适配未做，当前玩家目录未刷新，见PHASE_128_DISC_LOCALE_COMPOSITION。
+
 ## 分盘字幕局部包与零自引用TOC（2026-10-20）
 
 Verified / offline：两原ISO完整hash及字幕inventory闭合后，第一盘21资源/152cue、第二盘23/163分别构建；原TOC hash各自锁定，不能盘一复用盘二。subtitle_text.rebuild_reversible逐cue逆重建原字节；新单盘bundle工具每盘1..64文本+TOC，22/24资源retained-original回滚与独立controls重放通过，旧route16上限不变。第一盘TOC size197989保持，第二盘199817→199816；两盘自引用首size0及未知字段保持，不猜补自身长度。无INT/字体/测试目录刷新或运行验收，详见PHASE_127_DISC_SUBTITLE_BUNDLES。

@@ -1,3 +1,11 @@
+## 第116批接续状态（2026-10-20）
+
+INT累计14,082 draft，本批剩余通信256新增；1104项candidate不变。见[BATCH_116_REMAINING_COMMUNICATION](BATCH_116_REMAINING_COMMUNICATION.md)。
+当前工作区build/batch-116-verification/reviewed-workspace；communi五表累计560/560非空字段有draft，另246空白原值。此次Crocell28/Zephi114/Zephie114，228空白未计。双拼写114对source/hash相同但稳定ID/embedded_path不同，各自回填；这不证明运行冗余，不删除任一表。
+55字面\n、6半角~、2全角～、16尾空格保持；80精确源变体逐条核读，Crocell日文与Zephi/Zephie韩文分开，旧13826译文/全部历史held/1104候选/44字幕315cue保持。
+下一阶段先核读build/batch-116-verification/next-game-resource-audit.json，不再把4094原值当可译玩家文本：游戏表非空未归类24项含CSM样本/孤立笑声3、MC2Game异常混编3、NPC/Quest默认样本2、UI数字/标点/SID15、Shop SID1；其余游戏非空均已有held记录，另有空白。先分类样本/无需改值/异常编码与研究优先级，未知格式仍保留，不为150条凑数翻译编辑器或占位，不宣称全游戏完成。
+com340/342、Compose836/921、Item1608/1630、邮件233/235保持；离线非游戏验收。隔离回滚恢复旧译但主修改保持；仅清理隔离源码可再生成pyc，保留原盘/配置/存档/runs/当前包/依赖/基线回滚研究。不生成ISO/整盘副本，不启动模拟器，不刷新字体/TOC/入口。推送核对后自动接续研究/审校。
+
 ## 第115批接续状态（2026-10-20）
 
 INT累计13,826 draft，本批朱特通信152新增，1104项candidate不变。见[BATCH_115_JUTO_COMMUNICATION](BATCH_115_JUTO_COMMUNICATION.md)。

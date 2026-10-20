@@ -1,3 +1,9 @@
+## 第一百一十六批剩余通信对白（2026-10-20）
+
+新增256条INT draft，累计14,082；Crocell28、Zephi114、Zephie114完整合批，228空白不计，1104项candidate保持。
+双拼写表114对精确源/hash核对仍各自保留；55功能换行、6半角~、2全角～和16尾空格保持。
+见[BATCH_116_REMAINING_COMMUNICATION](docs/BATCH_116_REMAINING_COMMUNICATION.md)。验证清理推送核对后转入剩余游戏资源分类/未知格式研究，不为凑数翻译编辑器或占位；未刷新字库/TOC/入口。
+
 ## 第一百一十五批朱特通信对白（2026-10-20）
 
 新增152条INT draft，累计13,826；MC2_communi_Juto九个完整动作/状态组，9空白不计，1104项candidate保持。

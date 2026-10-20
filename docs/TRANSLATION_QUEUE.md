@@ -1,3 +1,10 @@
+## 第117阶段接续状态（2026-10-20）
+
+本阶段为审计/研究，不新增翻译batch；translation-workflow最后仍116，14,082 INT draft、1104 candidate、44字幕315cue不变。见[PHASE_117_REMAINDER_AUDIT](PHASE_117_REMAINDER_AUDIT.md)。
+当前翻译工作区仍build/batch-116-verification/reviewed-workspace。新locales/zh-Hans/remainder-audit.json以24个ID/sourcehash锁定分类：2明确测试样本、1孤立笑声上下文未核、3异常宽字符串结构待查、2默认编辑样本、16无需改写的数字/标点/SID；分类不等于运行用途已验，不生成假译文。
+通用只读tools.audit_wide_line_boundaries在双盘同源中发现1文档11候选边界，MC2Game.int内容头偏移895017、负长度宽字符串payload偏移895021；payload390字节。只报告实际0D 0A 00字节序列/奇偶位置，不能据此全局换端序、补零或重新解释section/键/控制码。
+研究证据build/phase-117-verification；164文件复现与旧全部值保持。下一阶段继续查孤立笑声CSM11_12/435引用与MC2Game边界来源/引擎读取语义，先读PHASE_117与remainder-audit，不重复翻译116，不把3异常值当新抽出的独立玩家台词；所有历史held保持。仅离线研究，不生成ISO/整盘副本，不启动模拟器，不刷新字库/TOC/入口；保留原盘/配置/存档/runs/当前包/依赖/基线回滚研究。推送核对后自动继续。
+
 ## 第116批接续状态（2026-10-20）
 
 INT累计14,082 draft，本批剩余通信256新增；1104项candidate不变。见[BATCH_116_REMAINING_COMMUNICATION](BATCH_116_REMAINING_COMMUNICATION.md)。

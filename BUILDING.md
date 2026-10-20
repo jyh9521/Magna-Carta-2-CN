@@ -1,3 +1,9 @@
+## 第117阶段：剩余文本审计与宽字符串边界（2026-10-20）
+
+译文仍14,082条draft、1104项candidate，translation-workflow最后批次116不变；本阶段不凑翻译数量。
+24项原值分类已源hash锁定，新增通用只读宽字符串字节边界审计；双盘发现同一MC2Game.int的11个候选边界，不自动修复或重解释ID。
+见[PHASE_117_REMAINDER_AUDIT](docs/PHASE_117_REMAINDER_AUDIT.md)。验证清理推送核对后继续未知格式/孤立笑声引用研究；未刷新字库/TOC/入口。
+
 ## 第一百一十六批剩余通信对白（2026-10-20）
 
 新增256条INT draft，累计14,082；Crocell28、Zephi114、Zephie114完整合批，228空白不计，1104项candidate保持。

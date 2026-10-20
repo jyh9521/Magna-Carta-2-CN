@@ -1,3 +1,7 @@
+## 显式资源清单登记与写前日志（2026-10-20）
+
+Verified / local resource bytes：refresh可选hash锁定enrollment，严格new-old全量且仅新增原文文件；默认集合差异拒绝不变。26项candidate/元数据备份、prepared/committed journal、替换后异常也按写意图回滚、非写集/XEX复核。新增17字幕登记，raw零写，两phase27项匹配；4034非写集metadata不变，26真实文件隔离还原旧十项通过。进程内异常已测，不宣称断电恢复；运行验收/TAB/5191存量换行未批准。见docs/PHASE_130_EXPLICIT_RESOURCE_ENROLLMENT.md。
+
 ## 分盘raw原文比较合同（2026-10-20）
 
 Verified / offline：offline-disc-locale-raw-comparison从128已独立重放的controls派生四原字体raw，三个LZX逻辑payload/表保持、一个原样；源派生字节再对125 raw字体逐项比较。INT/字幕原文保持，各盘原TOC合并三项size并精确逆验证；raw TOC盘一197991、盘二199819，保留零自引用/未知字段。56 raw回滚及重放通过。新只读kind有disc/provenance/raw行合同；旧刷新同集合门禁未改，入口未刷新。见docs/PHASE_129_DISC_RAW_COMPARISON.md。

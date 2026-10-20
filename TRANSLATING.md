@@ -1,3 +1,7 @@
+## 累计译文已进入第一盘现有测试根（2026-10-20）
+
+同一dist/MC2-display-repair-disc1入口已含14,082 INT draft及本盘152cue/七字体，第二盘163cue仍独立离线包。翻译批次仍116、1104术语candidate不变；TAB语义与5191既有换行策略未获新批准。原文raw保持，游戏未启动；详见docs/PHASE_130_EXPLICIT_RESOURCE_ENROLLMENT.md。
+
 ## 原文raw对照分盘保持（2026-10-20）
 
 新增27/29项原文raw局部对照，只有显式源字体解压及各盘原TOC尺寸改变；原文INT/字幕不带入译文。14,082 INT、315cue仍draft，TAB与5191旧换行策略未升级审核。未刷新玩家目录，见docs/PHASE_129_DISC_RAW_COMPARISON.md。

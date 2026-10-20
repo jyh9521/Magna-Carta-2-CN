@@ -1,3 +1,7 @@
+## 第130阶段：显式登记并增量刷新第一盘（2026-10-20）
+
+新登记合同锁PREPARED/旧新manifest/盘别/17项原文SHA；默认同集合门禁保持。现有dist/MC2-display-repair-disc1已增量刷新26文件，累计14,082 INT、21字幕152cue、七字体，candidate/raw各27项匹配；raw零写、4034非写集metadata及配置/XEX/runs保持。26项备份隔离还原与旧10资源校验通过。TAB及5191旧换行仍待验收，未启动模拟器。见[PHASE_130_EXPLICIT_RESOURCE_ENROLLMENT](docs/PHASE_130_EXPLICIT_RESOURCE_ENROLLMENT.md)。验证清理推送后接续受保护还原/中断审计与上下文复核。
+
 ## 第129阶段：分盘原文raw对照（2026-10-20）
 
 累计双盘27/29局部资源新增源派生raw-controls与56项隔离回滚；三包LZX解压/一包原样，INT和本盘字幕全保持原文，各盘原TOC只更新三项解压size并逆验证。只读检查器显式支持新comparison kind，旧kind及同清单refresh门禁保持。现有64入口依赖未改、未刷新；10→27显式登记事务为下一步。见[PHASE_129_DISC_RAW_COMPARISON](docs/PHASE_129_DISC_RAW_COMPARISON.md)。仍14,082 INT draft/最后批次116；验证清理推送后继续。

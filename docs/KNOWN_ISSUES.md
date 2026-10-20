@@ -1,3 +1,7 @@
+## 累计第一盘字节刷新完成，游戏验收仍待（2026-10-20）
+
+同一测试目录已增量接入14,082 INT/152cue/七字体，显式登记17原文字幕，candidate/raw各27项通过；第二盘29资源/163cue保持离线独立。26项局部备份与隔离还原，配置/XEX/runs不变，无游戏启动。TAB coverage=false、SmallFont identity/atlas/存量5191换行的运行表现未验；进程内异常回滚已测，独立恢复CLI/断电journal接续仍需实现。见PHASE_130_EXPLICIT_RESOURCE_ENROLLMENT.md。
+
 ## raw对照适配完成，扩展登记待续（2026-10-20）
 
 双盘27/29局部资源已有源派生raw-controls、独立重放/回滚和新kind只读检查；第一盘旧10 raw全部相同，新增17源字幕在现有两根匹配。旧refresh仍拒绝资源集合扩展，尚未登记或刷新玩家目录。TAB/SmallFont identity/2048 atlas/5191存量换行仍待游戏验收，不以离线字节检查替代。见PHASE_129_DISC_RAW_COMPARISON.md。

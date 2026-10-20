@@ -1,3 +1,7 @@
+## 显式enrollment与refresh journal（2026-10-20）
+
+enrollment schema1/kind=explicit-resource-enrollment，disc、prepared_sha256、old/new_packet_manifest_sha256及additions[path,original_sha256,original_size]全部锁定；game_rendering_verified=false。清单须严格等于new-old，32上限、不删除，新增raw与两live根皆原文。REFRESH.json含files[path,before,after]、root、status=prepared/committed/rolled-back、登记计划SHA和数量；原件相对路径备份，journal不等于自动断电恢复。见PHASE_130_EXPLICIT_RESOURCE_ENROLLMENT.md。
+
 ## 分盘raw comparison manifest（2026-10-20）
 
 schema1 kind=offline-disc-locale-raw-comparison；继承128的来源/coverage/控制/资源合同，另含composition_manifest_sha256、comparison_plan_canonical_sha256、raw_package_outputs=true、raw_control_method=source-derived-uncompressed-fonts-original-text-disc-toc；各行raw_sha256/raw_size锁定raw-controls。raw-rollback-check是实际保留原件恢复，不是压缩逆算。新kind受只读inspector显式检查，未适配composition kind仍拒绝；不声称运行成功。见PHASE_129_DISC_RAW_COMPARISON.md。

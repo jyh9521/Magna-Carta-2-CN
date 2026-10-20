@@ -431,7 +431,12 @@
 | mc2-island-preparation-425 | 단단한 뿔 | 坚硬的角 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:5b820bac11985e4b1b78107ddfe1370f13e3284f9365c592ee0077874728ef36 |
 | mc2-island-preparation-426 | 빌터의 상자 | 比尔特的箱子 | object | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:768f77c007ebf7a46425bf134c73865e11e1373b2c14c82402df7d83fca2d991 |
 | mc2-island-preparation-427 | 피어스웜 | 穿刺蠕虫 | creature | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:049bf6239c29f3a118a4a381bf99fb0dece75c7f983cee1ba22bfc8d8006cd33 |
+| mc2-relief-orders-428 | 누렌스 | 努伦斯 | character | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:7d52a08320b1791f6b3c6cc53e7bbb0737de2943ebb8468105eb20671bb9d58a |
+| mc2-relief-orders-429 | 작전 지령서 | 作战指令书 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:40010fec8bdb887063d27694e6533749f51dfe4875322749160d5f96ae82fe68 |
+| mc2-relief-orders-430 | 작전지령서 | 作战指令书 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:37b569e3c46b2b7b93f250753c9003c21eb630c99484c6bb1f92e84bb04e0d99 |
+| mc2-relief-orders-431 | 북부군 전령 | 北部军传令兵 | role | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:8ee322364aefdbeef795323b34d4b58bfad34099efe2572a7a96a8f49b1e4e52 |
+| mc2-relief-orders-432 | 부상자 치료 | 伤员救治 | activity | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:5acbdca285bbe29c0f1e7d9275f16c59d9933590aeb49834e7143e51aef0242f |
 
-本作词条：427；已继承：0。
+本作词条：432；已继承：0。
 
 固定来源、统计、冲突与审核流程见 [系列术语参考](docs/SERIES_TERMS.md)。

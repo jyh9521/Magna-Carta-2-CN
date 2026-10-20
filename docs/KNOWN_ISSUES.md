@@ -1,3 +1,7 @@
+## 教学候选词面与运行复核待办（2026-10-21）
+
+上下文累计953 INT/90cue，444策略已观察、4747待上下文，全部5191运行布局仍待核。剧情/教程/UI的“队长”与Compose“领队”、教程“编成”与部分提示“编队”对应同源功能，候选措辞待全库统一，本轮未改译或定稿。未知Help/Change与24held仍不编造；当前204依赖不改，TAB覆盖仍false。见PHASE_135_PARTY_WEREWOLF_CONTEXT.md。
+
 ## 多cohort累计观察与运行待核（2026-10-21）
 
 新增255项既有草稿观察（219 INT+36cue），累计695 INT/85cue；306策略已观察、4885上下文待审，全部5191运行布局仍待核。旧32-scope profile不扩上限，新15-scope独立profile经有界suite无重叠汇总。当前204依赖保持，TAB literal coverage仍false，无模拟器启动。见PHASE_134_BOUNDED_CONTEXT_SUITE.md。

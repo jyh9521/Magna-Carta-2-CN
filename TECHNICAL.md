@@ -1,3 +1,7 @@
+## 小队教学多cohort与既有功能分隔（2026-10-21）
+
+Verified / offline：新增258项独立profile，经原suite汇总953项，旧695/profile字节保持；新增18项功能分隔，累计37。444策略仅上下文观察、4747待上下文、全部5191运行待核。旧32 scopes/1000成员与16 profiles门禁、TOKEN/数字/键位验证及生产计划不改；五字幕逆核/当前204依赖保持。见docs/PHASE_135_PARTY_WEREWOLF_CONTEXT.md。
+
 ## 有界多profile上下文汇总（2026-10-21）
 
 Verified / offline：独立audit_line_context_suite复用旧audit，单profile32 scopes/1000成员不变，总数1–16，跨profile重复ID报错，锁源/计划/源译hash。context/功能分隔源序排序、全局policy唯一集合重算；旧476 profile不动，新219汇总695/306观察，5191运行待核。36字幕独立逆核，当前204依赖保持。见docs/PHASE_134_BOUNDED_CONTEXT_SUITE.md。

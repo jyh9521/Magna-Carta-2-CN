@@ -1,3 +1,9 @@
+## 配方反斜线不是可猜补的换行（2026-10-20）
+
+Verified / source：INT MC2Item/Recipe/1458_recipe_D包含`\공격`，没有已知的字面`\n`转义；稳定ID以bd69e92a开头，源SHA256为d5f4c0687af9e30bc270768e9d203eec9782e23a369a0d3e517a6a90131fa765。
+不因其他配方D字段分两行就补n，或借机把攻击/抗性材料改成简述的攻击/速度；原值保持，未知格式独立留待研究。
+第104批只给名称/简述有源依据的draft，D字段held不计已译；全角ＬＶ/（）及各字段数值/空白继续锁定。详见BATCH_104_CRAFTING.md。
+
 ## 研究所钥匙与通行卡同key的两个occurrence（2026-10-20）
 
 Verified / source：INT/MC2Item/Valuables的key_laboratory及key_laboratory_D各有两次。第一次是研究所钥匙名/描述（名末尾一空格），第二次是研究室通行卡/描述，不是同一词面。

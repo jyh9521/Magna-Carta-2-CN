@@ -1,3 +1,14 @@
+## 第104批接续状态（2026-10-20）
+
+INT累计11,636条draft；新增220条见[BATCH_104_CRAFTING](BATCH_104_CRAFTING.md)，787项共享candidate，旧708保持。
+Ingredient38/38、FieldAction56/56、Recipe158/159均draft；1458_recipe_D未知反斜线完整held，名字与简述不算整组三字段完成。
+当前工作区build/batch-104-verification/final-workspace；全部历史held、新held1、旧11416、邮件128/235和44字幕315cue保持。
+下一阶段从完整Accessory catalog核读名称与关联属性/状态说明；数字key与Recipe不对齐，不按排序推断身份。沿用配方已核基础名，不把配方前缀写入通用术语。
+保留全角ＬＶ/（）与半角括号/数量/加号/百分号/全角．、1417简20/全15差异、1434引号内空格；不把未知\공격改为\n，不修材料数量。
+雪水晶/清水之香仅有限JPN名参考；猫猫炸弹依INT与旧候选，JPN火晶爆弾另保留，不扩展为全局多语对齐。
+剩余6540个原值含工具/样本，非确定玩家待译量；每阶段验证清理提交推送核对后继续，保留原盘/配置/存档/runs/依赖/回滚研究。
+不合盘、不生成ISO/整盘副本，不刷新字库/TOC/入口；离线非游戏验收。
+
 ## 第103批接续状态（2026-10-20）
 
 INT累计11,416条draft；新增296条见[BATCH_103_SPECIAL_RECOVER](BATCH_103_SPECIAL_RECOVER.md)，708项共享candidate，旧612保持。

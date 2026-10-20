@@ -712,7 +712,86 @@
 | mc2-special-recover-706 | 굴비 | 黄花鱼干 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:817767f320da5cdf33601e3c143f606f4ebefa0a78ae5e8c4d51393ac5c2e5d2 |
 | mc2-special-recover-707 | 캣닢 | 猫薄荷 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:f418f1e1e6e90668fa9a0ec4ca7b8bb6bff94e70641840fab6b2135f92ec0a2a |
 | mc2-special-recover-708 | 최강의 약 | 最强药 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:9e855d377a8ab591d3a6fc31f35b386da2d9dea3588237d5962e1f2a15f68015 |
+| mc2-crafting-709 | 단단한 암석 | 坚硬岩石 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:f058a337b4e38e76a09219c75ce75012a0547b6a68e1385ba82e42d5ad7908d9 |
+| mc2-crafting-710 | 빈 병 | 空瓶 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:0c2a738fa6b98fceec4ed6c4812caf4ee3574c6bab67aff67cf6ecce917c93ae |
+| mc2-crafting-711 | 접착액체 | 黏合液 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:0bd4f7ff4784366d42df0af08ee683c80f1f5a009bafd7f82e03f73380062569 |
+| mc2-crafting-712 | 끈적한 체액 | 黏稠体液 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:76b59cb690567397d88580b0d43107b3b6ce13c4749dfc436cd4f20b5151be55 |
+| mc2-crafting-713 | 날카로운 발톱 | 锐利爪子 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:1c293e21719fb83f4ca0183973da25b17a4d7bc635b35abc651f4d7a0bf68763 |
+| mc2-crafting-714 | 진주 | 珍珠 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:afc4d1913901b8a122d4b46106d6e6cdfeb558496ab86ad2c4ca2a527c29060a |
+| mc2-crafting-715 | 빛을 잃은 카몬드 | 失去光芒的卡蒙德 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:c29afca5bad1673c4c9524efd4cba6ad8b51fadc1a8700c55fe936640934dc97 |
+| mc2-crafting-716 | 작은 카몬드 파편 | 卡蒙德小碎片 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:f27449d199f35e024e591b49341c13b949805824d3793046e47b6248a8b3fb17 |
+| mc2-crafting-717 | 철광석 | 铁矿石 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:412cc9fc7ceb66e70b612d60fa7b69bc322f96194ac2995756bb76030f26db8b |
+| mc2-crafting-718 | 하급 강화초 | 下级强化草 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:9201be99df27be6c19e589d0c6f989e2d1530655de4d79db2259121955b0deba |
+| mc2-crafting-719 | 하급 약화초 | 下级弱化草 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:4a4695c18361c0f8aee09f2b7a9e04fef1468cc032a306e57e11e0d0cc1c5028 |
+| mc2-crafting-720 | 생명의 꽃 | 生命之花 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:153f2da168d040948a6f6df2ac0a7afcfb38138d19a975b362a5d6c955a50f4e |
+| mc2-crafting-721 | 쇼크 담쟁이 | 电击藤 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:bb455bd572dbc4b7b77f717d251bda999081ee6557f3f7daf5fe90db55adfc60 |
+| mc2-crafting-722 | 빙결초 | 冰结草 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:84dc9fc8a124ceb43e73095bf08260ab681133027db8b9153bc110c0c6041940 |
+| mc2-crafting-723 | 신비한 씨앗 | 神秘种子 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:c60789650d989680654b6da76933446bc056a0fe81812e15ffbce4bbacd86bf9 |
+| mc2-crafting-724 | 투척용 돌 | 投掷石块 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:29e23f8e9ecd8a60bb39790f47fd17bd9cecb61f9f0526ad1424106272b4ebf3 |
+| mc2-crafting-725 | 얼음 폭탄 | 冰炸弹 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:a8ad8056b18064a59c27c5d46d98b51b1478156ce4f188067bddafdaa8d50ac5 |
+| mc2-crafting-726 | 마비덫 | 麻痹陷阱 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:6b107e8463eabbcad6e3b14ddaab570b3dc819b8010aa466e8aa03017160487c |
+| mc2-crafting-727 | 식물 씨앗 | 植物种子 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:24c08e7e58ae909bd5fdc6c2c156d176e685452eebc5344954d4047614e3bbde |
+| mc2-crafting-728 | 폭발함정 | 爆炸陷阱 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:77b19f6251f95c111ace56a1d0a205a32e299e82d4299c051f7c75c3fb1b7875 |
+| mc2-crafting-729 | 네코 폭탄 | 猫猫炸弹 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:a15775eabd9b1d52234eec9510ae090115595bbae1f82881ba81ffdaa1f2bd21 |
+| mc2-crafting-730 | 마레의 향 | 马雷之香 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:ea3ddba66ca210018ba7d6d21790ebac09a88970d824df168f1bfb548aaced3a |
+| mc2-crafting-731 | 심홍의 향 | 深红之香 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:941ff466a36c000d2ddd6171a76916e18b0a45078c22ed63a44d2907e1400743 |
+| mc2-crafting-732 | 청수의 향 | 清水之香 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:76b9270a77122f64c8d093ac0603ac190dc37f7004f711b4951db49be197d38c |
+| mc2-crafting-733 | 황금의 향 | 黄金之香 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:6f9dee9086bf13a6906e7958624e030466a1c8121ab271748c2678da5146922c |
+| mc2-crafting-734 | 미완성 폭탄 | 未完成的炸弹 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:9984c8d301cfb9d8611252e7a3fae512fd8e04af27810c9dcf61fa9409b1eaca |
+| mc2-crafting-735 | 라티 독약병 | 拉提毒药瓶 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:d88fd95b0254df7d793460c9ffac99f3a7f96abfa50b398c33b5311661e1f927 |
+| mc2-crafting-736 | 力と빠르기の반지 | 力量与速度戒指 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:4703d48bd6e1d751b6457a6e1a317b738a9c7b45f05d09a03a390359cc3b34c7 |
+| mc2-crafting-737 | 救援の벨트 | 救援腰带 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:9b5d8f7f6fe267e9b6418b36280d94c445e14548e1c9676048eb894bc5fb1289 |
+| mc2-crafting-738 | 朝の반지 | 清晨戒指 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:7e70d8be6082217450a9a767e3c3625f01a182d6eeeb2fd8f48b706e1e2294a0 |
+| mc2-crafting-739 | 命と隼の足輪 | 生命与隼脚环 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:bf07d6f254451da23beb04e6468c75cced0b63980683c83b64bdfc125815ce96 |
+| mc2-crafting-740 | 命と隼の벨트 | 生命与隼腰带 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:9e6bdf789ff3188b250b21df4d0c3c0bc0423c2203028015444edf585d76e518 |
+| mc2-crafting-741 | 命と隼の귀걸이 | 生命与隼耳环 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:08384ce4471a853cc6e2d13457f21587512b5f8016ae9ebdd05564669a0b06f6 |
+| mc2-crafting-742 | 命と隼の목걸이 | 生命与隼项链 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:a50c4a3c5236e0bc65efe81b8b7b52abd50c50e18c91ea1849b37d391f1407b1 |
+| mc2-crafting-743 | 命と隼の반지 | 生命与隼戒指 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:5b8e32b7030d0a1a3226dbe8edded15b96b4b15925a616e25ecb3e1bedf30a08 |
+| mc2-crafting-744 | 力と守護の足輪 | 力量与守护脚环 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:668e43472ac0deb905ea859f04ef4f36b26d1f484d717249c65b06105c908b0e |
+| mc2-crafting-745 | 力と守護の벨트 | 力量与守护腰带 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:85089b38b9fabeed4042ead799c51880b737d53df723214ee00ab811bf94ec66 |
+| mc2-crafting-746 | 力と守護の귀걸이 | 力量与守护耳环 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:cd30a1266b2497e48af9eab973d5cde08d2d6d76470ddf70a5bc7d0bfbba4e3e |
+| mc2-crafting-747 | 力と守護の목걸이 | 力量与守护项链 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:446e26d4ff123f3c11273b9ac07442743655d9277ee1a722e7e2faad6068ec77 |
+| mc2-crafting-748 | 力と守護の반지 | 力量与守护戒指 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:77ffa6549a145f0bf5ee513781a3c07cd7c0c95782517db447382e3ca7248744 |
+| mc2-crafting-749 | 魔力と勇気の足輪 | 魔力与勇气脚环 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:a31226e566d486df23e9e502b207ebcb0e16195bfe96627c2ea2e9ea881f792e |
+| mc2-crafting-750 | 魔力と勇気の벨트 | 魔力与勇气腰带 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:80bdd1826369f79a0791a9765d99477d53060ad4c2d9eb70d7955c4cd207d317 |
+| mc2-crafting-751 | 魔力と勇気の귀걸이 | 魔力与勇气耳环 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:5cf1b69a60ff8cbe6feb2f0196a8b5d2d0cc2b56fdcd36d55adad7bafaa7468e |
+| mc2-crafting-752 | 魔力と勇気の목걸이 | 魔力与勇气项链 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:9ad5f326561d60fb1ee1abc665367e9f62d70850293851fc1c9b6cab01554772 |
+| mc2-crafting-753 | 魔力と勇気の반지 | 魔力与勇气戒指 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:2e17405892e23a712864b25cea81d807254dfc4c85a77c184989c587e9df40fb |
+| mc2-crafting-754 | 눈의 수정 | 雪水晶 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:4212d0ca9a307b473b1522fbb2e68776213f9f2e50ec182efb26d1995d3c0527 |
+| mc2-crafting-755 | 연환술사의 펜던트 | 连环术师吊坠 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:f3d79c9a7c9296ce64abe25c61cc5b8ae19d43605a1c5cdf02d94c5bc1647bba |
+| mc2-crafting-756 | 전사의 증거 | 战士之证 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:e3409dc12908f08e13a3ebcea14ce23cc8e4c4ac2857016c578dd72cd99dd674 |
+| mc2-crafting-757 | 필살의 일격 | 必杀一击 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:ff959f890cbc2b16d6ed2ccbad5738fe1062b1cbf26a9446f7ee92c61c341bbc |
+| mc2-crafting-758 | 행동과 휴식의 반지 | 行动与休息戒指 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:3f717971644ddebab181147f9ac087f7e0b53d18362019a8a54919bcfe1484fd |
+| mc2-crafting-759 | 集中と機敏の足輪 | 专注与机敏脚环 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:f6f459bb55f56f307b247080d61b375556b98a6c8a6cb4c8159436a3fb9fc0dc |
+| mc2-crafting-760 | 集中と機敏の벨트 | 专注与机敏腰带 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:a3b6c7519867ea8960c8ea96297dc7f7876982131b360345ea91c94fab3755b6 |
+| mc2-crafting-761 | 集中と機敏の귀걸이 | 专注与机敏耳环 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:05438141c542e9fe40659493bcab4af72f4027a116e977a2a463c1376f7858da |
+| mc2-crafting-762 | 集中と機敏の목걸이 | 专注与机敏项链 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:3c2c1b97457cec3c89154688d3b964f9b1395b699964934f84247eaf26f5385d |
+| mc2-crafting-763 | 集中と機敏の반지 | 专注与机敏戒指 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:f7db526abee8640a794b248963360caba63e9c6eba1c382f94a3b9606a2d0bee |
+| mc2-crafting-764 | 魔力と守護の足輪 | 魔力与守护脚环 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:dcced8d0c89973422a266e1207cc3994dffa3fee82d8ad8955818a2a131cf202 |
+| mc2-crafting-765 | 철벽의 마음 | 铁壁之心 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:fe6a7c4e3e78aba6e67087657467767e0845696fb26e48ac20b0f042b98ae139 |
+| mc2-crafting-766 | 끈기와 의지 | 毅力与意志 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:062d5e4f9f24c21e53561ee9988a6e9f13bfc81fce9e9fd189e7ddcc37f8a26b |
+| mc2-crafting-767 | 완전무결의 반지 | 完美无缺之戒 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:f2a2ad03d99c89777ea65bad6aecb5154d270160e3851458d4ac4b7ca2cfd879 |
+| mc2-crafting-768 | 황금 두꺼비 | 黄金蟾蜍 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:34d335994553d6ef2facd3ae379d7945586ac69995748f740d4b14fb4165bb75 |
+| mc2-crafting-769 | 守護と勇気の足輪 | 守护与勇气脚环 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:02415b706abb9fce66544bc1fe73e4b7eed2b53bb03f75d5162d3938bd70dc92 |
+| mc2-crafting-770 | 守護と勇気の벨트 | 守护与勇气腰带 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:5dc1c28153b4859bd106ba25e898bd563c861256c3113c43800ce41a35fc4796 |
+| mc2-crafting-771 | 守護と勇気の귀걸이 | 守护与勇气耳环 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:132cdde95c16b9abb0447cc3820b0be89de74933c0b03d8cfe5ca36a17216a96 |
+| mc2-crafting-772 | 守護と勇気の목걸이 | 守护与勇气项链 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:530d188a55b5a2a54f7cb5553740718346a769f50f3ea1ebdb8b0446908270fc |
+| mc2-crafting-773 | 守護と勇気の반지 | 守护与勇气戒指 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:e7cd28e7cbf5c7e38d3aab9b7b775ca3111b2ddf16fcd0f63753ffc1c02ee924 |
+| mc2-crafting-774 | 命と守護の足輪 | 生命与守护脚环 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:9a9854a86c7a42bf486b38d96c2f66a8a35954d9c59ba5492f382d9d23b13029 |
+| mc2-crafting-775 | 命と守護の벨트 | 生命与守护腰带 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:d64231ab1682f9605b8d1d53ce7135079927119402d5da7af1f91d522f436d03 |
+| mc2-crafting-776 | 命と守護の귀걸이 | 生命与守护耳环 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:af1cfaa1467951e2bd408ae771aac420a06d61bd130147cb0ef93ccbe07746a7 |
+| mc2-crafting-777 | 命と守護の목걸이 | 生命与守护项链 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:471b79592a6bb5c008a66527f87675cd5ad6392814a6431d0c0537df75ef5003 |
+| mc2-crafting-778 | 命と守護の반지 | 生命与守护戒指 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:5b1da5345dc572ca6030bd7e1be00a82afb5551effe7aa7a8295bbfe36c0a718 |
+| mc2-crafting-779 | 命と勇気の足輪 | 生命与勇气脚环 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:6c4717d377c491f95bf0a707f579420b7155c4e692ad2272a3199f93424f6c5c |
+| mc2-crafting-780 | 命と勇気の벨트 | 生命与勇气腰带 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:09c2075a4ae552ed693a9dbc18d3bfb6ece86390691a9319f358546cf1bd8079 |
+| mc2-crafting-781 | 命と勇気の귀걸이 | 生命与勇气耳环 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:37a30b9d3d05ca5d9de381c269e75f56e4f66d7ab415aeb52d62225c9ea335e2 |
+| mc2-crafting-782 | 命と勇気の목걸이 | 生命与勇气项链 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:cafc660accfe9f10cdac5566b27c870618a6da91ad1e97eb2f28da2a20f2308b |
+| mc2-crafting-783 | 命と勇気の반지 | 生命与勇气戒指 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:56c344319ba37765a4b87757982bb926d55461d51098896fd76090a506c7c0f0 |
+| mc2-crafting-784 | 극복의 반지 | 克服之戒 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:ff187fd9646c49d2311ba4db10a38e09cddd033b3c070f51c02aefef131ede42 |
+| mc2-crafting-785 | 노력의 대가 | 努力的回报 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:91590d1c5aafe804274679ab20193e9a7e78bd106a33ea1f06005910cdc6ce2a |
+| mc2-crafting-786 | 용자의 문장 | 勇者纹章 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:3a54163cb8440ad5a472c59085b2ea41348b6f55771fb0b66b8a91ae231cad3b |
+| mc2-crafting-787 | 力と迅速の반지 | 力量与迅捷戒指 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:4aaddeea1d879276e35b588416ac6f3c8a75dfa551720df33457d95cd649f616 |
 
-本作词条：708；已继承：0。
+本作词条：787；已继承：0。
 
 固定来源、统计、冲突与审核流程见 [系列术语参考](docs/SERIES_TERMS.md)。

@@ -1,3 +1,7 @@
+## 峡谷至马雷cohort与未计划原文保留（2026-10-21）
+
+Verified / offline：新260成员/22 scopes，03_20显式keys排除未计划0320_50，不声明完整section；该特殊反斜杠原文不在既有24held中，独立记录并核双盘候选原值。原1169及四profile保持，汇总1429/706观察、4485待上下文、5191运行待核，55功能分隔。17字幕逆核，当前204依赖不改。见docs/PHASE_137_CANYON_MARE_CONTEXT.md。
+
 ## 双指令关联闭合与旧cohort保留（2026-10-21）
 
 Verified / offline：新216成员/18 scopes汇总1169，旧953及三个profile字节保持；任务Des/两邮件Con功能分隔新增3，累计40。562策略仅上下文观察、4629待上下文、5191运行待核。原suite/TOKEN/门禁/生产计划不改，44字幕计划范围无新匹配资源，旧90不重算，当前204依赖保持。见docs/PHASE_136_HEADQUARTERS_ORDERS_CONTEXT.md。

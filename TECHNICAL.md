@@ -1,3 +1,7 @@
+## 容器顺序scene队列（2026-10-21）
+
+Verified：旧预检的section字符串阈值跨90/100失效。plan_scene_context按document原row顺序分组、复用suite源/计划锁，整scene累积目标1–300；未计划原文deferred、部分计划观察拒绝，无排序/猜编号。新258项累计1687/817观察、4374待上下文、5191运行待核；原五profile和204依赖保持。见docs/PHASE_138_MARE_RESCUE_ORDER.md。
+
 ## 峡谷至马雷cohort与未计划原文保留（2026-10-21）
 
 Verified / offline：新260成员/22 scopes，03_20显式keys排除未计划0320_50，不声明完整section；该特殊反斜杠原文不在既有24held中，独立记录并核双盘候选原值。原1169及四profile保持，汇总1429/706观察、4485待上下文、5191运行待核，55功能分隔。17字幕逆核，当前204依赖不改。见docs/PHASE_137_CANYON_MARE_CONTEXT.md。

@@ -1,3 +1,7 @@
+## source-order scene queue（2026-10-21）
+
+schema1/kind=source-order-scene-context-queue，document、target_entries、source_order_sections[section,source_entries,planned_drafts,unplanned_original_ids]、scene_entries、planned_scene_entries和deferred_unplanned_sections；CLI另锁source/plan canonical、profiles与计划成员source/translation摘要。status仅preflight，translation_edits=0、人工/运行批准false。按实际rows顺序，不按section字符串排序。见PHASE_138_MARE_RESCUE_ORDER.md。
+
 ## context suite report（2026-10-21）
 
 schema1/kind=read-only-line-context-suite-audit，继承单profile报告字段，增加profiles[profile_canonical_sha256,scope_count,context_entries]；显式1–16份，每份仍32 scopes/1000成员及源/计划/逐项hash合同。跨profile重复ID拒绝；context/protected_breaks按源序，policy全局唯一并重算pending，不累加每份全局计数。所有批准/运行字段仍false。见PHASE_134_BOUNDED_CONTEXT_SUITE.md。

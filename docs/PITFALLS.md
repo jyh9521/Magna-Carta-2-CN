@@ -1,3 +1,7 @@
+## 场景编号字典序不是容器/剧情顺序（2026-10-21）
+
+Verified：旧NEXT预检用section大于CSMB03_50过滤，漏掉实际位于03_90后的03_100/104/110，并提前列04_001/010；这些04字段未计入观察，当前补齐真实顺序。通用plan_scene_context只沿原document的row分组顺序扫描，整scene选择、未知原文deferred，测试90/100/104及不规则顺序，不改成另一个猜测数字排序。旧预检保留作失败证据。见PHASE_138_MARE_RESCUE_ORDER.md。
+
 ## 字面转义邻接按钮的观察误报（2026-10-20）
 
 Verified：朴素ASCII边界把字面换行后的A/X与转义n连作单词，误报Chapter00_13和CSMB00_15/0015_38。audit_line_context在已通过原TOKEN验证后，仅对临时观察字符串隔开已知TOKEN再识别按钮/数字；不修改source/translation，不绕过功能分隔保护。新增回归覆盖转义邻接、普通nX与Styles包裹键位。见PHASE_132_OPENING_CONTEXT_REVIEW.md。

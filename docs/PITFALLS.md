@@ -1,3 +1,7 @@
+## 原字节身份与Git文本归一化不是同一个hash（阶段147）
+
+历史island-retreat-recruitment.json工作区CRLF、Git blob LF，文本相同而SHA不同。旧文件字节保留门禁应引用先前已验证的raw工作区hash，Git身份另列，不能用git show输出冒充raw基线，也不因断言失败重写原文件。本轮保留两种hash及首轮失败记录，详见[阶段147](PHASE_147_VELFORT_LAB_CONTEXT.md)。
+
 ## 序章修订必须遍历所有直接计划引用（阶段146）
 
 只更新subtitle-profile和当前cumulative route仍会遗留display-fonts/readability-fonts的旧hash；实测三个单元测试因此失败。保存失败日志，逐个补齐受影响模板并从锁定原文独立再生成语义/墨迹/TOC逆变换证明，不能盲改hash或放宽测试。当前composition还要求font_component的plan_canonical_sha256匹配route，故subtitle文本修订也可能要求重新生成字体组件，即便最终七字体字节不变。旧源/组件/回滚证据保留，详见[阶段146](PHASE_146_PROLOGUE_IDENTITY_REVISION.md)。

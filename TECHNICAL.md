@@ -1,3 +1,7 @@
+## 有界上下文profile的累积保留（2026-10-21）
+
+Verified / data：opening-layout从244到476，原成员/摘要/顺序投影、scopes及三个对照保持；新增232锁定原source/plan，新增Des/CandyForNeck_S功能分隔对照。工具代码与原token验证不变；32 scopes仍受32上限，后续拆分cohort再做不重复汇总，不直接扩上限。18新字幕逆核/当前204依赖保持。见docs/PHASE_133_CAVE_DEFENSE_CONTEXT.md。
+
 ## 源锁定上下文cohort与布局分离（2026-10-20）
 
 Verified / data audit：audit_line_context复用rebuild/resolve与原TOKEN检查；profile锁source、plan canonical、完整section或显式key、逐项身份/源译hash和顺序，观察不改变任何值。244 INT含121策略，pending context5070/runtime5191；三个功能分隔对照与按钮/数字序列保持。已知TOKEN先临时隔开后识别ASCII按钮，避免字面换行的n遮住紧邻A/X；原字节不动。31字幕按既有source/plan独立逆核。见docs/PHASE_132_OPENING_CONTEXT_REVIEW.md。

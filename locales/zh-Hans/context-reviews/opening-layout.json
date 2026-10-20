@@ -100,6 +100,159 @@
       "keys": [
         "00_12"
       ]
+    },
+    {
+      "document": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
+      "section": "CSMB00_21",
+      "reason": "救治伤兵与洞窟带路；洁菲本名/阿尔戈及特雷瓦族按源保留，平民仅带路承诺不改。",
+      "complete_section": true
+    },
+    {
+      "document": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
+      "section": "CSMB00_22",
+      "reason": "请求同行、木剑与真剑分歧、危险时返回的承诺完整保留；不把梅莉莎写成血缘关系。",
+      "complete_section": true
+    },
+    {
+      "document": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
+      "section": "CSMB00_25",
+      "reason": "伤兵回报与再次劝返，守备队长/梅莉莎关联及暂时返回的应答保持。",
+      "complete_section": true
+    },
+    {
+      "document": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
+      "section": "CSMB00_31",
+      "reason": "震动后坚持确认、守护者危险与不得离队条件；和此前承诺有意冲突，不机械统一。",
+      "complete_section": true
+    },
+    {
+      "document": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
+      "section": "CSMB00_50",
+      "reason": "敌方对精锐/守护者战况的间接回报与艾尔加出动，不把未指名者猜定为某角色。",
+      "complete_section": true
+    },
+    {
+      "document": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
+      "section": "CSMB01_05",
+      "reason": "三天昏迷、治愈术、木剑力量焦虑和运走守护者的请求；3天与阿巴泽特候选地名保持。",
+      "complete_section": true
+    },
+    {
+      "document": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
+      "section": "CSMB01_07",
+      "reason": "公主不在与稍等的完整两句过渡，不扩写等待原因。",
+      "complete_section": true
+    },
+    {
+      "document": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
+      "section": "CSMB01_11",
+      "reason": "力量焦虑/保护他人及无法自主控制的对照，条件语气保留，不把特殊力量定性为已证身份。",
+      "complete_section": true
+    },
+    {
+      "document": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
+      "section": "CSMB01_15",
+      "reason": "梅莉莎姐弟般家人关系、安慰语气与新木剑未打磨的交代保留，不强写血缘。",
+      "complete_section": true
+    },
+    {
+      "document": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
+      "section": "CSMB01_17",
+      "reason": "身体酸痛、去爷爷家休息的独白过渡保持。",
+      "complete_section": true
+    },
+    {
+      "document": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
+      "section": "CSMB01_21",
+      "reason": "再次入侵/防壁迎战与主动帮忙，先前守护者运出请求和此时战况区分。",
+      "complete_section": true
+    },
+    {
+      "document": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
+      "section": "CSMB01_25",
+      "reason": "运船受阻、风属性眩晕/沉默递进及润喉糖应对；概率而非必定、敏捷/回避与技能限制保持。",
+      "complete_section": true
+    },
+    {
+      "document": "..\\MC2Game\\Localization\\INT\\MC2Quest.int",
+      "section": "Ch01_105_0",
+      "reason": "完整20字段送工具/陷阱材料关联，钥匙与箱子指引、进度QUEST%s保持；源前面/旁边差异及01_113_close_0跨编号关联不擅自修齐。",
+      "complete_section": true
+    },
+    {
+      "document": "..\\MC2Game\\Localization\\INT\\MC2CharacterName.int",
+      "section": "Default",
+      "reason": "洁菲/阿尔戈/艾尔加/海因格尔及既有别名按独立ID保持，不升级候选。",
+      "complete_section": false,
+      "keys": [
+        "Argo",
+        "Zephi",
+        "Zephi1",
+        "Elga",
+        "Heingel",
+        "Elga2",
+        "Zephi_NPC"
+      ]
+    },
+    {
+      "document": "..\\MC2Game\\Localization\\INT\\MC2Item.int",
+      "section": "Ingredient",
+      "reason": "委托工具及说明与送工具任务一致。",
+      "complete_section": false,
+      "keys": [
+        "tool_box",
+        "tool_box_D"
+      ]
+    },
+    {
+      "document": "..\\MC2Game\\Localization\\INT\\MC2Item.int",
+      "section": "Valuables",
+      "reason": "比尔特钥匙与陷阱材料名称/说明逐项对应，尾空格与源位置差异保持。",
+      "complete_section": false,
+      "keys": [
+        "toolbox_key",
+        "toolbox_key_D",
+        "trap_material",
+        "trap_material_D"
+      ]
+    },
+    {
+      "document": "..\\MC2Game\\Localization\\INT\\MC2Item.int",
+      "section": "Recover",
+      "reason": "润喉糖全/短说明均解除1名成员的眩晕与沉默；短说明功能换行保留。",
+      "complete_section": false,
+      "keys": [
+        "CandyForNeck",
+        "CandyForNeck_D",
+        "CandyForNeck_S"
+      ]
+    },
+    {
+      "document": "..\\MC2Game\\Localization\\INT\\MC2NpcTalk.int",
+      "section": "Ch01_0",
+      "reason": "完整01_105防壁工期催促节点与工具委托关联。",
+      "complete_section": false,
+      "keys": [
+        "01_105_00"
+      ]
+    },
+    {
+      "document": "..\\MC2Game\\Localization\\INT\\MC2FieldName.int",
+      "section": "Abazet",
+      "reason": "阿巴泽特地名与运船请求关联，不据后续剧情变更候选。",
+      "complete_section": false,
+      "keys": [
+        "Town"
+      ]
+    },
+    {
+      "document": "..\\MC2Game\\Localization\\INT\\MC2UI.int",
+      "section": "information",
+      "keys": [
+        "villter_box"
+      ],
+      "complete_section": false,
+      "reason": "比尔特的箱子交互UI与本轮钥匙/工具任务对应；上一轮仅审读拉普斯壳UI，本项首次纳入锁定观察。"
     }
   ],
   "entries": [
@@ -111,6 +264,24 @@
       "occurrence": 1,
       "source_sha256": "34f3f3909bf452321efc4e130224af4470147095ad3f57325cb99512e81ee0d6",
       "translation_sha256": "336d5e2b09421b81740c86b5c046072ed9d17727ce252405aa2ed91056b977e3"
+    },
+    {
+      "id": "coalesced:be3787f32a4ae0999fff9d1ee32e8db8168de7d079232d86a00a34cd360b8e55",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2CharacterName.int",
+      "section": "Default",
+      "key": "Argo",
+      "occurrence": 1,
+      "source_sha256": "d6fc7342178ae6b16b0bd8553ced725405b58fbc2705b230b247f07e5859b000",
+      "translation_sha256": "217c031edeba60f4997a5f1b4930bec4145f3e2afe3bf20aec3a1fdc57383cec"
+    },
+    {
+      "id": "coalesced:d52c7f940ebaa7601f67d145df965537d0aa0c1b14a181bb83b9e0e2bb09d3d4",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2CharacterName.int",
+      "section": "Default",
+      "key": "Zephi",
+      "occurrence": 1,
+      "source_sha256": "98bf1ba76ced864a4445075f245f9ddc3d5259ad9379f6cb81a52b597977e2c0",
+      "translation_sha256": "87b2f3f693d46010a2010cd884e02a4a1cb011199cae3f870f455705f1b19edd"
     },
     {
       "id": "coalesced:7454c5c8449ba9d96de45d682d2d3894234d6fbd690cea1380259ee1dfe60a9a",
@@ -140,6 +311,24 @@
       "translation_sha256": "4ce2d9f36618f1476275e5483ce7adeaa1ee37d50b7245cca7a85c1e68bba3c5"
     },
     {
+      "id": "coalesced:8b5128e6c32705b01ed46c2b29310bc5a5e0d01fa9f8c6d869d8abe1e7d37452",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2CharacterName.int",
+      "section": "Default",
+      "key": "Zephi1",
+      "occurrence": 1,
+      "source_sha256": "98bf1ba76ced864a4445075f245f9ddc3d5259ad9379f6cb81a52b597977e2c0",
+      "translation_sha256": "87b2f3f693d46010a2010cd884e02a4a1cb011199cae3f870f455705f1b19edd"
+    },
+    {
+      "id": "coalesced:1b0de89908471eea1002b1fda2add9e70c16a803e4475f1821fd30549f4eae6f",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2CharacterName.int",
+      "section": "Default",
+      "key": "Elga",
+      "occurrence": 1,
+      "source_sha256": "b3e1c36d36cbb39eebcf0e1906d5f11a1b8846b7040cd11b85633b256aba8c7f",
+      "translation_sha256": "6dddc87bc7bb019aa8a741ad675ee3c23d114d200f746e9f5c360317324cff7e"
+    },
+    {
       "id": "coalesced:72bdad763638614ff00c852b1c65292f28384b0a8e2bcb699bc631c6d163893a",
       "document": "..\\MC2Game\\Localization\\INT\\MC2CharacterName.int",
       "section": "Default",
@@ -147,6 +336,33 @@
       "occurrence": 1,
       "source_sha256": "8043a9ce29ceb68209725fe4f46199ec3e16f8870df768547237afe4e580b364",
       "translation_sha256": "f780773b7956b96ab28a515711762201f3bd7a020b442fa9b784e713f3641c1d"
+    },
+    {
+      "id": "coalesced:5723ea3e742d1fb2a339f81b88b98cfc8eb8a8ac87f5a79e58e6540e27f1a132",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2CharacterName.int",
+      "section": "Default",
+      "key": "Heingel",
+      "occurrence": 1,
+      "source_sha256": "563ceeaa58cbe371e4ca24804822b4b983781a3eb82d6ae9cdb0eb70dee86da8",
+      "translation_sha256": "0dc96755e1d5191bd0a2728d780b0ad43c48dffaf36aab57fba387bb363b67c7"
+    },
+    {
+      "id": "coalesced:dcf03b83a3d23010541abfb5db095193b7f2bd5ce3b3ff039a7ee5619c154614",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2CharacterName.int",
+      "section": "Default",
+      "key": "Elga2",
+      "occurrence": 1,
+      "source_sha256": "b3e1c36d36cbb39eebcf0e1906d5f11a1b8846b7040cd11b85633b256aba8c7f",
+      "translation_sha256": "6dddc87bc7bb019aa8a741ad675ee3c23d114d200f746e9f5c360317324cff7e"
+    },
+    {
+      "id": "coalesced:ac7be7f1248d7fa784783c4a0299d7abf6b9fbcb58324287530cdeab24cc2bf0",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2CharacterName.int",
+      "section": "Default",
+      "key": "Zephi_NPC",
+      "occurrence": 1,
+      "source_sha256": "98bf1ba76ced864a4445075f245f9ddc3d5259ad9379f6cb81a52b597977e2c0",
+      "translation_sha256": "87b2f3f693d46010a2010cd884e02a4a1cb011199cae3f870f455705f1b19edd"
     },
     {
       "id": "coalesced:ac6fdf194719587c828e2b119bcd4a4b139205743a9e27c00c0da77d225e0304",
@@ -1886,6 +2102,1743 @@
       "translation_sha256": "6edf03c593d539f9adf2d2f6c8b63a7fba63f44f5d19a24074ed6b1290b699bb"
     },
     {
+      "id": "coalesced:409a9b8fc4cf55b4739fc623f3002f90ef3abce6c92b162d0dd77f16e7c6eec0",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
+      "section": "CSMB00_21",
+      "key": "voc_csmb_0021_00",
+      "occurrence": 1,
+      "source_sha256": "bfc2c8ec4d427e3ef62ab6b388e0e6c0a192e7b445ee6d25400010a4b4ac2278",
+      "translation_sha256": "98ba4365ca5462ce50ee2df26ea24f11af5cf2c01d8c3633e2ca7d7f8fba29df"
+    },
+    {
+      "id": "coalesced:11c69d69d0fc4cfad019a2b13ca3fb71873055295fde6d205e66dc62c0b9988b",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
+      "section": "CSMB00_21",
+      "key": "voc_csmb_0021_01",
+      "occurrence": 1,
+      "source_sha256": "ec4c989e5ef2d64f21ddae9d4c6dcdca4661ab7476827921748b50e7d32cf758",
+      "translation_sha256": "c26b57402e7fc126ba442e293db628fadabc65c8eb5b839764d34a2987f88cdf"
+    },
+    {
+      "id": "coalesced:c5651d98891da2c9ded4302578bb8d6369303fd4de0d04d705ffb2dbcabb21c9",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
+      "section": "CSMB00_21",
+      "key": "voc_csmb_0021_02",
+      "occurrence": 1,
+      "source_sha256": "5d76c5d81646f6680d38958b4a1f60603ed1631dfbaf52df8faaa1c7425b8e89",
+      "translation_sha256": "aacf596f5995c91bd4effae539a1bf57a1026bd995aeae23c3b7e1a0d71a38b5"
+    },
+    {
+      "id": "coalesced:60b8d528d9dfda384c6e2360439288b6bc8c50f37b7b1c4893881306126e37be",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
+      "section": "CSMB00_21",
+      "key": "voc_csmb_0021_03",
+      "occurrence": 1,
+      "source_sha256": "9c5748d7dcf2e0807829f7fb36e53b3826a801761806f959b0883e00ddfdc6bb",
+      "translation_sha256": "ff06056f6334b43a7c96a3e9c56131985d2336699d878b0b7bf52a20370c618f"
+    },
+    {
+      "id": "coalesced:b0289b82d56cd3c51be1e3fddba2400080767dcf2985eb4358c17f4406406d8a",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
+      "section": "CSMB00_21",
+      "key": "voc_csmb_0021_04",
+      "occurrence": 1,
+      "source_sha256": "2c8f135cb217846e455ee80390e6c0f4dda3beabd7cb1db95c48a6b50bc70dd0",
+      "translation_sha256": "64b4e22dbc6a675118a1b8113a60747731f0575217994836072f76a032d7ed83"
+    },
+    {
+      "id": "coalesced:b869106a61af6792a3aa7a0be4086e38f7131932b2d27bfedfd8dfbd8de5731a",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
+      "section": "CSMB00_21",
+      "key": "voc_csmb_0021_05",
+      "occurrence": 1,
+      "source_sha256": "e0a4d15dd77a863e8ac32ecab2fe08a7b1307808c00c7a52e260aa242c9471f0",
+      "translation_sha256": "8455d8bbe877a5ee3da6258d6f2d6931c1b9edefbad4d93a24989fadb647b301"
+    },
+    {
+      "id": "coalesced:13f7f30566bd949ea40cb5f9d600f57eaf5808dbd145e4c20a61c9d0800c573a",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
+      "section": "CSMB00_21",
+      "key": "voc_csmb_0021_06",
+      "occurrence": 1,
+      "source_sha256": "907f149762b4afa9038c25971b1f434c673b12b88687ad7921e321d8a7034a6a",
+      "translation_sha256": "85b84730f5e093d4ca464032e291ef4e2fbb2d1e4598fa0340f6958c61be0143"
+    },
+    {
+      "id": "coalesced:a15f702cb00ed19afe0bcb39a139e140c00abb4ac167323d015677490718e879",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
+      "section": "CSMB00_21",
+      "key": "voc_csmb_0021_07",
+      "occurrence": 1,
+      "source_sha256": "23fa64409b011e44f80de13c38bf8d242faf96d7a1c6dbf0477625da698042c6",
+      "translation_sha256": "dacabfc6a968b0609c4d8a92def97e082376bfa407e70e509ed67a8aed71e73e"
+    },
+    {
+      "id": "coalesced:144115ab0476a148a5ba2a697a1fc18adfae0e6456b603ad57a44d6ad7c720bd",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
+      "section": "CSMB00_21",
+      "key": "voc_csmb_0021_08",
+      "occurrence": 1,
+      "source_sha256": "d533ba438b6569996aa4b90fb637359e01b0d6ce39fd8e613542d8e9faeab940",
+      "translation_sha256": "fdc4722bb3314362221fe3971897339661b03ff2fd409e581f9e58537cc83cef"
+    },
+    {
+      "id": "coalesced:c7c1d59870f0425f963e5118dcd4dca68bd88644da0193337d023db7342628d3",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
+      "section": "CSMB00_21",
+      "key": "voc_csmb_0021_09",
+      "occurrence": 1,
+      "source_sha256": "c7b9836bc08e49fc700d12a664b3cf232e92a51f58dd19e7e582332eacce7402",
+      "translation_sha256": "9afc621c3e5ed7f338b57734a5132cbd17f720b3aed3ca5ee56763f1e6111200"
+    },
+    {
+      "id": "coalesced:d294325847ec7927479c4c8e0546775872d5c559daf76abe98b357fe2603de0d",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
+      "section": "CSMB00_21",
+      "key": "voc_csmb_0021_10",
+      "occurrence": 1,
+      "source_sha256": "f7985863e298f2d7773a8bce0f34e4808666eb25a406e4bb4cf19b6a7970b0b2",
+      "translation_sha256": "7d601a4524a16cfe35b70db37cd67fb49b890d7d9bc379d7e9c83e338cfc97ff"
+    },
+    {
+      "id": "coalesced:ccc04332d4b1ef16c5cf4126ff5a2eac79c4ff29ac5bdd7df208157cb9188b49",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
+      "section": "CSMB00_21",
+      "key": "voc_csmb_0021_11",
+      "occurrence": 1,
+      "source_sha256": "6aea286b03cecf70d0a22c60c07590bf8fff53b86cb77ca994e893e578e7872d",
+      "translation_sha256": "c6ddcb2b853aff757a612c3c4113baaebe5e6efdbfc42c6644925373521bd665"
+    },
+    {
+      "id": "coalesced:0cfc89e0f7291dc06e154a65a26da52886e8f00fcdbd00cc815aa38c7c33f53c",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
+      "section": "CSMB00_21",
+      "key": "voc_csmb_0021_12",
+      "occurrence": 1,
+      "source_sha256": "49d9bec33c1c9211e22805c089e378330d3f1a352cc645d12c0952d8b54f8196",
+      "translation_sha256": "1f5ba426f7f6c53bc4f8dbfce4c993a3d04f436091cdf64b11f947c36ab899ca"
+    },
+    {
+      "id": "coalesced:7be2c2e89552d68b2eeb734c8fe60188484a00877420a4e26d564e4612935f86",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
+      "section": "CSMB00_21",
+      "key": "voc_csmb_0021_13",
+      "occurrence": 1,
+      "source_sha256": "55eecd5c965396d5b4db0478a6fc5322da3afe2431f05d33776777cf4f2fe498",
+      "translation_sha256": "db97e9054e7230408b3f430217e14a97f070a4b3f40fdd4cb8fd95f30082172a"
+    },
+    {
+      "id": "coalesced:c016d45aa1fe6d4ab3c24af830889e53c0d27c0301e73448f6ffcc3cdf05be1c",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
+      "section": "CSMB00_21",
+      "key": "voc_csmb_0021_14",
+      "occurrence": 1,
+      "source_sha256": "dea83ed399a0a2b1f9f6a0fa4e7e99ab46206ed00f040338c1d8ee39c688000f",
+      "translation_sha256": "7dabe76102c255e52c34f0b34bde5a39fbd16d32f392eff0310b3d24ddbe4941"
+    },
+    {
+      "id": "coalesced:dbea599a1230373b371f5884add32e00fd0696ecaa78243fa12e56104d0ff1f3",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
+      "section": "CSMB00_21",
+      "key": "voc_csmb_0021_15",
+      "occurrence": 1,
+      "source_sha256": "4a8c32366b115d31a38a4bdee10bc094348f23686a136304f73f7ba25a395136",
+      "translation_sha256": "57615f2aa1d90bae84e82c2d0cba15c7859304d0f58ab75c56f8b5a2e2448fd4"
+    },
+    {
+      "id": "coalesced:3076389faf571d9d4fe00519d061055d18c1d320ba2c3f7fe79596754de2c8d0",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
+      "section": "CSMB00_21",
+      "key": "voc_csmb_0021_16",
+      "occurrence": 1,
+      "source_sha256": "f4f8450421d83eb4f07646f110e405ba39e65e46a8153ffcffc09bd93070b346",
+      "translation_sha256": "f5ba4b697d4c6755165c99a79b059fff745fb818aa661bca9749d3ee81a3cc25"
+    },
+    {
+      "id": "coalesced:2e280417cdb98ac91058f831f34c84fc3225cfc2d0fe94e2a1301455d22676bc",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
+      "section": "CSMB00_21",
+      "key": "voc_csmb_0021_17",
+      "occurrence": 1,
+      "source_sha256": "a8f5b1c799afb81c3fc98f9501c2942ab08836b76ab6b2b6079e5f05ef51c7c8",
+      "translation_sha256": "04efe85718073b20f2660ca3069d22856ac25dc0c06d2e74bed79335b31179b8"
+    },
+    {
+      "id": "coalesced:2259f0fa2dcb5cdb118f86c9afc1b8ecde7d05465e9cc69dcf92aa5d44d783af",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
+      "section": "CSMB00_21",
+      "key": "voc_csmb_0021_18",
+      "occurrence": 1,
+      "source_sha256": "eea077e5c9366cc0e6bba3d514f005efc818fc8de50e3f562d9a900d1b0b6d21",
+      "translation_sha256": "cc1c4c767e34c9c26343206ea33cb57296e2a7109d747a9d531796c8f93c4b55"
+    },
+    {
+      "id": "coalesced:765aa5bc71e85397d8196e7f17321966e0afcdd768130ff13cc85152e2d54fc7",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
+      "section": "CSMB00_21",
+      "key": "voc_csmb_0021_19",
+      "occurrence": 1,
+      "source_sha256": "0265480895c43b078ac8b5fa63a4cd1c60685184fcb7e8ff5d76434eb0f29631",
+      "translation_sha256": "84a8f19dca95305c5a023908519d7602954ee6d8055574f28e6e74ec967a1bdb"
+    },
+    {
+      "id": "coalesced:4b8e1a928859824a57657b5c50f6c6377ce7ae70b5dca42acd6ce5625882c4a1",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
+      "section": "CSMB00_21",
+      "key": "voc_csmb_0021_20",
+      "occurrence": 1,
+      "source_sha256": "e3bc2db714d77c92ea78aee9bf9ac879563fa3c0233135d609d402cd6cff6003",
+      "translation_sha256": "a06ea5016e9f9db046a808012d7cff3a52f6faf2c4db67d21eea568565ea3666"
+    },
+    {
+      "id": "coalesced:f4349c59e80ec7c0e32e4133585cd5f60870174700cb407de0ca9a3a40353293",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
+      "section": "CSMB00_22",
+      "key": "voc_csmb_0022_00",
+      "occurrence": 1,
+      "source_sha256": "86ded0295e0012781912284087a7c23ca14fa8f5b65812813d474de5e37f0e2c",
+      "translation_sha256": "7f20a1cd63f62de6bd44dd4b53030005cbafa928115b8b546a44ac1c4e58b703"
+    },
+    {
+      "id": "coalesced:cc295893057c0b01e8d6ca203e123df9c65041ac96335ae404b23f49560748d6",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
+      "section": "CSMB00_22",
+      "key": "voc_csmb_0022_01",
+      "occurrence": 1,
+      "source_sha256": "e90774397330b356f02b6151396edc31d5a7be718de0c4a01f9a2248aa98da3f",
+      "translation_sha256": "58fca124a3267a3a844cc6fcb2ac487727e4105108539c0546ffdedf637ea679"
+    },
+    {
+      "id": "coalesced:defb59263bed4a7da19bb6d29e0531d56bd36afbc189b2e7053f9376fa7e3a88",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
+      "section": "CSMB00_22",
+      "key": "voc_csmb_0022_02",
+      "occurrence": 1,
+      "source_sha256": "ef3023d681014d099ca7dec7f00929cdb1b237e8f5fc8ee5d042be381f7ded77",
+      "translation_sha256": "06a628b71eaabfaca9415494f08e89a5409e3538bbff396cb80eb546112aee26"
+    },
+    {
+      "id": "coalesced:14fe2b87c7320f9b0c75f6e501be3ba3604764a7bc95715e5b88d816b5efb686",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
+      "section": "CSMB00_22",
+      "key": "voc_csmb_0022_03",
+      "occurrence": 1,
+      "source_sha256": "2ad1b8fa056e058217217e0dbb44f965f28457320f63596895f9857ba0d9d143",
+      "translation_sha256": "531e5249742990724cc423f8f9a0abe9eecc7cfb4587d9f89e10e5779c6755c5"
+    },
+    {
+      "id": "coalesced:9052d88d36ad1d92435de379b65c4dfda164221af5a675b4cdae0b7a9ed8ec1c",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
+      "section": "CSMB00_22",
+      "key": "voc_csmb_0022_04",
+      "occurrence": 1,
+      "source_sha256": "c9f0ed38cfaebb0d523916af17c4baff639e2f876693fa5d09dded939aa1e84c",
+      "translation_sha256": "8b931cbbc5ff834d619d16792036706cc06f14cf1a2024230235d3263006af89"
+    },
+    {
+      "id": "coalesced:252518f7a7d800ef8071c912b8e1ff4f3713300352819fd27949154ba01f9029",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
+      "section": "CSMB00_22",
+      "key": "voc_csmb_0022_05",
+      "occurrence": 1,
+      "source_sha256": "d10300f94e24d2735c81a6d8e71b967d383656dc5cb45c0778f35d961a679a06",
+      "translation_sha256": "56858ebbfb93a745da837f23c5dc30972e138d07d2e6906aadd57abe18dfe1a5"
+    },
+    {
+      "id": "coalesced:5850f8761a40f65598217d71acc6c3c1e6366199159e236992d63190d7ddc1a5",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
+      "section": "CSMB00_22",
+      "key": "voc_csmb_0022_06",
+      "occurrence": 1,
+      "source_sha256": "879c30f27e10506102d491168b861f31551b828f9dc83ea8512629fb664ae177",
+      "translation_sha256": "3765d28f78a12d0ef2b8d7d33098b41085d49da1b22e564eef0aa60e1a4abbfd"
+    },
+    {
+      "id": "coalesced:44beaa40926c679bf3549587e858f33c22c05e32bc46a3e09083d80504110caf",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
+      "section": "CSMB00_22",
+      "key": "voc_csmb_0022_07",
+      "occurrence": 1,
+      "source_sha256": "635f8871c70ee7e3e48f03139a96207e5eb571e5c966f29389626ae30b155071",
+      "translation_sha256": "b5c3b64cb15e0d0556e93a42ffaaf607e87f241be1a7908ee382d4de164bfd59"
+    },
+    {
+      "id": "coalesced:1907f718252d2310dfaa4ee8dfaeee0aaae5fc8473ff43657b1516a36e563a94",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
+      "section": "CSMB00_22",
+      "key": "voc_csmb_0022_08",
+      "occurrence": 1,
+      "source_sha256": "33a3f6f07029fd87f79e6b67b6bb57f7547d7bb412cba945bc77117c46531d3e",
+      "translation_sha256": "145ab95be62ca6af73f94805489cc024d7678e79fcbb66855b1fe7128df87722"
+    },
+    {
+      "id": "coalesced:dbe96950736db6b7ac2c6bcf1f2d024cbbd0e16faf8f3aa376668ec59ae3de53",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
+      "section": "CSMB00_22",
+      "key": "voc_csmb_0022_09",
+      "occurrence": 1,
+      "source_sha256": "706f0c22cb6a974d6b3e7b4e190e6992107a0efd4ea434937828f560e95e2571",
+      "translation_sha256": "b1edaa7754b7eb98c6b9e8c0eb1f5ddb3e3d3f34cff61093852f4c7f2620b9a3"
+    },
+    {
+      "id": "coalesced:82f2f8cd87b29736542fd25d1256e9e71ad9a2ee312ad58255c5d88e3f4d8eb6",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
+      "section": "CSMB00_22",
+      "key": "voc_csmb_0022_10",
+      "occurrence": 1,
+      "source_sha256": "8b3e0b7e89175061f171013200cad8e9407f774473a25940d9e10367ee531277",
+      "translation_sha256": "b13cdd8fa2ed9ced110c352bd295d51ed5cb3b06ba90c7a6391ee9d0632804d0"
+    },
+    {
+      "id": "coalesced:8aee56f482ffc77c6c76ebc017140d69da71856755aa5c5e17f0a7c747564cbb",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
+      "section": "CSMB00_22",
+      "key": "voc_csmb_0022_11",
+      "occurrence": 1,
+      "source_sha256": "56bed247c29dc4d8fccda0cd63b453d219ec12085cff8bd63c1b0d9cb944d934",
+      "translation_sha256": "e4216afe326f2b660a8671df5f4334a7689b23d439853b7acafbfef8f02adb58"
+    },
+    {
+      "id": "coalesced:b4714fdaeeb5cca1661136a9cdc005f89049134f60b96f02238116b44624ea6b",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
+      "section": "CSMB00_22",
+      "key": "voc_csmb_0022_12",
+      "occurrence": 1,
+      "source_sha256": "26256f41a74910af6f6aabb71626ecd810e892cab01e220097e9d3f00fb4a5b2",
+      "translation_sha256": "dca7cdf7dd796942a8e461d9a617705c4d530e7bc4084114b3367d0ae3463d6d"
+    },
+    {
+      "id": "coalesced:d4ecc0fd062842747020a192caf4b5eb501ce7bfbaa2758b95c625d8f445dc60",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
+      "section": "CSMB00_22",
+      "key": "voc_csmb_0022_13",
+      "occurrence": 1,
+      "source_sha256": "d72b01713bcbea1b7f0dfec99be72c661d200378c6bba9ddbbfa763ae784dcea",
+      "translation_sha256": "3cae715c97e62d5031ff14c6aa36f633e90d50300d77d90d761af67dc948060f"
+    },
+    {
+      "id": "coalesced:49341ef225703db040431f50196efae9efbe56b1bca94aa593b90ffd19200aa4",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
+      "section": "CSMB00_22",
+      "key": "voc_csmb_0022_14",
+      "occurrence": 1,
+      "source_sha256": "ca61511944d0a8cf928006c5460f1128f570258fa92866dd9a1b10997509aed1",
+      "translation_sha256": "aa82220bfb42c37cc98c59973ec70a61b3c6c37bc5e7a08022455fc0288c689f"
+    },
+    {
+      "id": "coalesced:3ff7a9ee9671a6edc5b6ba0f03ea65f445280a226c2eabda90eb0b85a52c6567",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
+      "section": "CSMB00_22",
+      "key": "voc_csmb_0022_15",
+      "occurrence": 1,
+      "source_sha256": "ab7259c4bd63799bdd8b735a21ed63064ab5ef46b0ec80301f86b84b289ede68",
+      "translation_sha256": "94b86808977fab6a0d1d13a2d0d6fef8ae3703dfac67853e7f5ec3de390edabb"
+    },
+    {
+      "id": "coalesced:0a079d18165f10d2c7312e7a306566016f54b74064d27e70a528ee043df58a28",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
+      "section": "CSMB00_22",
+      "key": "voc_csmb_0022_16",
+      "occurrence": 1,
+      "source_sha256": "aee6f5683d39d73996d37d4498b446130ad18a45648346aa5b0af69755d209ea",
+      "translation_sha256": "4879daa5d672256204faff98aa9911890a066ed45ea568f98fbc387f2c397c71"
+    },
+    {
+      "id": "coalesced:fd1c904e9db8a8dea13d809d5951358b097b51f0e4bf255b431c64f0e51f0543",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
+      "section": "CSMB00_22",
+      "key": "voc_csmb_0022_17",
+      "occurrence": 1,
+      "source_sha256": "6710641880a6b577db2c036b49a47ff717ade8499b062db7a8850290332f2c98",
+      "translation_sha256": "630e1bc72b8c64f550e48b794919213ac8f355efa6fbdd7e3f60cf13e1674ef7"
+    },
+    {
+      "id": "coalesced:813832fd82eee4bee1cc6421db33208c478b5b1cf99f9ee883af49f286dac97d",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
+      "section": "CSMB00_22",
+      "key": "voc_csmb_0022_18",
+      "occurrence": 1,
+      "source_sha256": "31ed163142377e5da9a129edb7c078710db5f96062f71485607a1f8aa0b9d91b",
+      "translation_sha256": "e4751dd24b1cc01c018d0bfc5e41666107f225b47c76b137af696c4a8217995a"
+    },
+    {
+      "id": "coalesced:4047363026a249344c54eb2bceba36a073d0b3a226c95010c7237327936b07d2",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
+      "section": "CSMB00_25",
+      "key": "voc_csmb_0025_00",
+      "occurrence": 1,
+      "source_sha256": "745c23c633018cf34747af94d43d1ecf53c6c770340d7da6e63127d6ed92513b",
+      "translation_sha256": "33fac55e0cf6fcb58a44dc7d3067ea411c04668c110734edf0d01eae1432f612"
+    },
+    {
+      "id": "coalesced:30407a51aa7697a4754bbbb2f12f587a0b75c9729b6ae5db8fe606f485a29189",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
+      "section": "CSMB00_25",
+      "key": "voc_csmb_0025_01",
+      "occurrence": 1,
+      "source_sha256": "3576b6d9db371fb349e34db0aa1ecdb6ca8235c0fad6529e4e0ab32b79536ab3",
+      "translation_sha256": "86976419b8d4ed0bb9814c61ca95968546570ff37df237b25c660ceb4caff56e"
+    },
+    {
+      "id": "coalesced:21f368a6dd74738df73fdbd8cfd23943ff337df7dbb9977d39dc97ef00a7b450",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
+      "section": "CSMB00_25",
+      "key": "voc_csmb_0025_02",
+      "occurrence": 1,
+      "source_sha256": "36f0c233890b7d9bcd82e17890e17ba23df5fcf6434833e2767f1cce7ff6e3b7",
+      "translation_sha256": "a6e64d3aba0342f774f4bf4929529f339d2b9456bcf1f329f54ff8664a0f385a"
+    },
+    {
+      "id": "coalesced:20d77982752262ba118e32fdc238bfcf2b667efcef7ab386d72309e9b824491c",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
+      "section": "CSMB00_25",
+      "key": "voc_csmb_0025_03",
+      "occurrence": 1,
+      "source_sha256": "c842517c2bc01e033e15d0de538aebeab11d3a140c9ab37a213cafa9b24faaed",
+      "translation_sha256": "346400511f81a5fade076f23e508a8c8fde879929f85fd711bc193bff8867019"
+    },
+    {
+      "id": "coalesced:01168d78661d3cd10df4a4fa7885396bdb5ae32b8fd85a3cc7cb8d0f245ca4fb",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
+      "section": "CSMB00_25",
+      "key": "voc_csmb_0025_04",
+      "occurrence": 1,
+      "source_sha256": "ea91ff229b8319c172a08b419ceb3e9b3dfd0b49f1ae42d1630e837e9ac179c9",
+      "translation_sha256": "c39769692ddf77667ef381b1f88319b5c1f7c5c6e49618dd829a01b448ba2864"
+    },
+    {
+      "id": "coalesced:ce62750f5f54f5e3cdac6d561ef6dc52f92dcee2e0fe17adb0639c45d696aeca",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
+      "section": "CSMB00_25",
+      "key": "voc_csmb_0025_05",
+      "occurrence": 1,
+      "source_sha256": "4acb02114359f37bb075e7d069e99b4236e2000c15a9afdedc590e9b3effbab6",
+      "translation_sha256": "3d3893c6804ae3e5377df0022fba1763fc8b7deb6d78606f097df3c45bd47497"
+    },
+    {
+      "id": "coalesced:d7ce42cbfaa82f0956c7243a39e3b51f293f86d333017674847d361522c769d1",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
+      "section": "CSMB00_25",
+      "key": "voc_csmb_0025_06",
+      "occurrence": 1,
+      "source_sha256": "44ad41de2682960f8800b68ae2cf920718129083571af8e1cabb354d66411346",
+      "translation_sha256": "bf8105f83e03c70c1042ae0b0ab655975abf109265112d67392449141f5ab6d5"
+    },
+    {
+      "id": "coalesced:3b1d8679c38f395e5d6d9fc7c46d58c0bc51510f6a86b0fc046ec8110012170a",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
+      "section": "CSMB00_25",
+      "key": "voc_csmb_0025_07",
+      "occurrence": 1,
+      "source_sha256": "f4416a71fc719c8c06e0f25edb30693f1b51965ebf42b4b4518d2e230bd2eb1b",
+      "translation_sha256": "c418b2808baa4ef30cedfbbff236aebd1ca2dfaf217be7deae9ca91c652f29f0"
+    },
+    {
+      "id": "coalesced:3e0e10c22fbf1afe9cc8cfa7764f7cd904fb8dc14316f6ae0c4488c86a3f191c",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
+      "section": "CSMB00_25",
+      "key": "voc_csmb_0025_08",
+      "occurrence": 1,
+      "source_sha256": "607aa1b40168eedc4555e609a31e091b6dd6a488dbe8930da599bac6f1b5703f",
+      "translation_sha256": "138cf4d670f2de72ccafb651f37f7e4aa30620c08d1a9976c66cedc96b315b1c"
+    },
+    {
+      "id": "coalesced:98e31c48221c5cd3ae76ecc9bd94d2fb9c7bcb09c36b0546c1d1006f7cce0d8d",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
+      "section": "CSMB00_25",
+      "key": "voc_csmb_0025_09",
+      "occurrence": 1,
+      "source_sha256": "e100062533641fc46b33da2f324e06432d6d372d4252cb97600eb00455b437db",
+      "translation_sha256": "91696298bc33587454f1574c1b79b9b40a0cda7dccf93ccabe1e4e215310de96"
+    },
+    {
+      "id": "coalesced:0dea5e53092f772c545f55ed32281621acc8e8492109bc203d3dbdbe453172f6",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
+      "section": "CSMB00_25",
+      "key": "voc_csmb_0025_10",
+      "occurrence": 1,
+      "source_sha256": "8e58eafc56fb77752bcb523c510e9cb46071734ac052679bb8a0b831a3c54af0",
+      "translation_sha256": "80cade078164b41632c96c7d98167dc866376ee1b5d439bfeacc293d816b99e3"
+    },
+    {
+      "id": "coalesced:717745d40e5680dbedf40625cf9fee7b930a9cefa8255de3988a7cd06fed4857",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
+      "section": "CSMB00_25",
+      "key": "voc_csmb_0025_11",
+      "occurrence": 1,
+      "source_sha256": "cf3055d568b8edede8373029429d9d9f35426df5cc22321e630f87cb9d8323eb",
+      "translation_sha256": "d174d4dd438f89eb0e3bf17ed50288a1b016274e4f44ed51045498f2c665636f"
+    },
+    {
+      "id": "coalesced:3ff66d0743f71c4eacde70192bfae8688ce82f727f82e1daf79b6412de58181a",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
+      "section": "CSMB00_25",
+      "key": "voc_csmb_0025_12",
+      "occurrence": 1,
+      "source_sha256": "938ecf9c719fe6ab1391100442f1be15e99a1792c4e6d32cca4c6ffacad2c080",
+      "translation_sha256": "f6d044d87020bb24d8f80d597aa5627b91689061c2b9e3585cd7d6c06ef9c182"
+    },
+    {
+      "id": "coalesced:370abffa2ed950d2a1ad073d8daf55fd130722404cf947dd87762583cd246229",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
+      "section": "CSMB00_25",
+      "key": "voc_csmb_0025_13",
+      "occurrence": 1,
+      "source_sha256": "77c8c94fb792b411360a5fa12d0f72e0cfe2d5c954a78d2c634d14f00eb05cd9",
+      "translation_sha256": "89b5ac0e99e74cf0ef4ec711bbe91acaa6abbe5255bfb3a479fef9cbb0d3d138"
+    },
+    {
+      "id": "coalesced:60fe28106ef437e8031ebf399d38eb67dbcdb092595dadbfe2b687a3571bf9f8",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
+      "section": "CSMB00_31",
+      "key": "voc_csmb_0031_00",
+      "occurrence": 1,
+      "source_sha256": "86ded0295e0012781912284087a7c23ca14fa8f5b65812813d474de5e37f0e2c",
+      "translation_sha256": "7f20a1cd63f62de6bd44dd4b53030005cbafa928115b8b546a44ac1c4e58b703"
+    },
+    {
+      "id": "coalesced:56c992133342ba7d1677e8f063d9fb4d75b7ae01f593194a372dd0c67d9b2b61",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
+      "section": "CSMB00_31",
+      "key": "voc_csmb_0031_01",
+      "occurrence": 1,
+      "source_sha256": "da5a785362e04802a715e9ee23530a75f23bfbc3f1d52673f5e9f0e2bacf465e",
+      "translation_sha256": "94ff57a24eb8b6e4d1d8ba9336f3081e7c47cd2614f6eefb6dce935f89638994"
+    },
+    {
+      "id": "coalesced:8ba3f992e249effaf85eaa36ec6b7cb135dc8a8bedffa30340299d49e8e47edf",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
+      "section": "CSMB00_31",
+      "key": "voc_csmb_0031_02",
+      "occurrence": 1,
+      "source_sha256": "3c6912047edcff766811451b201ff0e9b77a74c9ca79954b30460f48e9b0fe1f",
+      "translation_sha256": "6151a058673767704f91f2a82ad879aa2808b321adf27ba5e7b7f16d308428d5"
+    },
+    {
+      "id": "coalesced:80b7de897cd82dbe6fa117f7b1395002a9c268d2482ebaaf2e8b7220679420bc",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
+      "section": "CSMB00_31",
+      "key": "voc_csmb_0031_03",
+      "occurrence": 1,
+      "source_sha256": "57d19d61e2b5b39114f4512ada78b347bcf72c3b2939b72dcc7abcfb867825ca",
+      "translation_sha256": "e1ec266ad2972a7232e76834c22c94df583237bc386a4f2a25f3782caf2c3f4b"
+    },
+    {
+      "id": "coalesced:facaf2e1b4a6a93583a241306a40bb75b9c58c8c5cd31565fedaf0577744603f",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
+      "section": "CSMB00_31",
+      "key": "voc_csmb_0031_04",
+      "occurrence": 1,
+      "source_sha256": "f6adbeb35a5b82df415d58be4dfa8096ab915edd50817951219c8adbe9b72362",
+      "translation_sha256": "290d1375eaf498656b801682f7a5faf1476043d58cc54c71f5b3f2fd41f1c7b0"
+    },
+    {
+      "id": "coalesced:d4e7a46919c3b6618c3fda1ddd73624baf2559641f04ac44c8fb85c5200946b6",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
+      "section": "CSMB00_31",
+      "key": "voc_csmb_0031_05",
+      "occurrence": 1,
+      "source_sha256": "f2f330290895a494dcf0f3035b8ce00715c74f48cfeb994d0637f5db34f2631f",
+      "translation_sha256": "aba27310efc97019d5b6f223cd20d8a2a06a581445b08facbb1b7f7d5b7cbccd"
+    },
+    {
+      "id": "coalesced:e70894371489527a752f20bd319b4c24b6b87b4a2620c35e3ac3f778470e0220",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
+      "section": "CSMB00_31",
+      "key": "voc_csmb_0031_06",
+      "occurrence": 1,
+      "source_sha256": "9fc7b6d0cdbfbc6140694d47154b210302ff2e8c694a33958adc412f4856cf9a",
+      "translation_sha256": "8764a8bf5804210c2948cc7f35bd25a4bbde6052f17b8f00513a18c59a4db8b5"
+    },
+    {
+      "id": "coalesced:1385f70c8bbe06149c6ea1037eed34c977dc378db6fb618560906f0b538dac6d",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
+      "section": "CSMB00_31",
+      "key": "voc_csmb_0031_07",
+      "occurrence": 1,
+      "source_sha256": "5e75f26c69fe5f09c82c1960ad60a24aea2c5e8c1c7399c08fd7fdbdaefa3f2a",
+      "translation_sha256": "a0ee3bbade251528cfd7ee040a6f8a056ad80c3dd795090aea6e39e7fee37471"
+    },
+    {
+      "id": "coalesced:d67f0980d796c89428c7a917f45441506c9b49635f02ad931edb47b0acc0e387",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
+      "section": "CSMB00_31",
+      "key": "voc_csmb_0031_08",
+      "occurrence": 1,
+      "source_sha256": "56112a708ca612c1282ff29c1d6287df5715a6a3f87b1cb3745307c023ac5cae",
+      "translation_sha256": "0afd6f8329b77568da9f3d052120aff5f9b99cddf0a51cfd56f6e8b49a42b8bd"
+    },
+    {
+      "id": "coalesced:5de5aad551c51bc69b808c1e5e4809e85f6dc693d3d20eaac2e60961a4bf3a00",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
+      "section": "CSMB00_31",
+      "key": "voc_csmb_0031_09",
+      "occurrence": 1,
+      "source_sha256": "80894cdd9a0c8920e6fdcd0fbeda6a708cc9b13ba584d07a83d03d794bc143ec",
+      "translation_sha256": "39fd14d61621ca8d137bf54b72c293530ef43066bb0038bb4401f685388169f1"
+    },
+    {
+      "id": "coalesced:a6408367c63c3767a9c46dced334360af9ef5cb8b3d3abaa4c35beb830b63645",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
+      "section": "CSMB00_31",
+      "key": "voc_csmb_0031_10",
+      "occurrence": 1,
+      "source_sha256": "895361ffbf88d5a8c40d47f8dd3d03df2042ca9360d08738bcbb4faa39495404",
+      "translation_sha256": "a7f878b8ced1a7957c560d573e30ddbbc1696e38c370513aacbbf4bff12e7f43"
+    },
+    {
+      "id": "coalesced:846e03866aa063e209f6b5afcb7a7b9336ff809d5233192fe67fea8dca9748c8",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
+      "section": "CSMB00_31",
+      "key": "voc_csmb_0031_11",
+      "occurrence": 1,
+      "source_sha256": "55965a7194f33c4e7910d09a37088f26a67f2c460c628e1de81fd38ed18f4a85",
+      "translation_sha256": "48f17258637b53eada0e684235955d6c110777bfd4cbb5d80935d91ea3243bd7"
+    },
+    {
+      "id": "coalesced:1c7649d3bc9b9cb401d1dba585a6a0c7ff8e4e7b4d2037d0747a28059c0cbbd3",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
+      "section": "CSMB00_31",
+      "key": "voc_csmb_0031_12",
+      "occurrence": 1,
+      "source_sha256": "e249385847cb0df618d028739990f9a4c57d72529fd805357a6c70d7d0c12aff",
+      "translation_sha256": "f3647c718b4e0957d2f07f96ab0ade9c763c3206d277400e02dc2ef1bd8a058c"
+    },
+    {
+      "id": "coalesced:0bc1f5c6403a73e14913be645f9b7c3f283892e71be91ef28db0f643f6d7dccb",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
+      "section": "CSMB00_31",
+      "key": "voc_csmb_0031_13",
+      "occurrence": 1,
+      "source_sha256": "15d61af57c949bb28c936c64afb7830f1a50be9e876afaab6367ff5b3f4693e3",
+      "translation_sha256": "e99b61e624dac4a9f1dc2c06cb48219fa101f6bc346fd5a33f192a527515ed5b"
+    },
+    {
+      "id": "coalesced:aad6e2c88a3138502dabe2eb4a5e392c0db8125195583cb31c4f2c0926b775ec",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
+      "section": "CSMB00_31",
+      "key": "voc_csmb_0031_14",
+      "occurrence": 1,
+      "source_sha256": "d4b02b43dda744d7c0d9072a8497c71e2d178aed60cea52cf5a31c66e0a1bc92",
+      "translation_sha256": "52c1743b838216f957d3056e8112f3dd8b15089fcfd0e26e4df719d36a32fe5d"
+    },
+    {
+      "id": "coalesced:32ea3d0a92361c1b6c3fa22a8e6dd5ae3bb39c46614dd1aec6c7db45de3465a2",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
+      "section": "CSMB00_31",
+      "key": "voc_csmb_0031_15",
+      "occurrence": 1,
+      "source_sha256": "eca2d34d6f6da598845e3fffd8cc3a5cb4cd04f16fbbb512e4641e39ad57c405",
+      "translation_sha256": "41207c560a15c7092b629dcf91785d08c7c3d6542a4a30d38e3e8696894cc902"
+    },
+    {
+      "id": "coalesced:5b642c049369ae6f437fc521d413eed20808f2101619ef4610042e8f4474d1e7",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
+      "section": "CSMB00_31",
+      "key": "voc_csmb_0031_16",
+      "occurrence": 1,
+      "source_sha256": "b36ea85856375a330fa0b4c975aa97c7ec15590e195f03af0ceabfb6942ee15c",
+      "translation_sha256": "0eedc6f414f674219c17aae919a331c81f49552c8fa27236a0cb15d416ef8bef"
+    },
+    {
+      "id": "coalesced:a8474f7fe8f733a60a17a5dad53c1bba31787410f9007b232e6aafcb364dc74b",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
+      "section": "CSMB00_50",
+      "key": "voc_csmb_0050_00",
+      "occurrence": 1,
+      "source_sha256": "5a7916262f32a2634c1cf7514e89a3d1ac812fe8d34c9147ef5ad688f715bb1a",
+      "translation_sha256": "0088b955649deccfe9bd1e48c8c64f1e417fc01a7bd227f40e42ce081c9f1a77"
+    },
+    {
+      "id": "coalesced:39c946e9fabdb5880d40684dc11b71b1ea3e19bca304a0c2eb643ad4cf05da0f",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
+      "section": "CSMB00_50",
+      "key": "voc_csmb_0050_01",
+      "occurrence": 1,
+      "source_sha256": "18842b000b4d8b3b24a5594a26c53c839a2bf6112474e4ac710e4f1497959629",
+      "translation_sha256": "7879ebbde11425aa5e11b33599c5569926e3f43a942f4603ef2c86a753425b5a"
+    },
+    {
+      "id": "coalesced:aca1c17905e2cc26ce3cf197bff7406b9213f09cddd8622fffc695e3e4931d38",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
+      "section": "CSMB00_50",
+      "key": "voc_csmb_0050_02",
+      "occurrence": 1,
+      "source_sha256": "b7bfc61496a5a1611195e6f527ea4910361b4fa46578061296a40f633ed14349",
+      "translation_sha256": "7a75ca3cb87a3365bee0e0ed046d807c94508fcc76546acc14a00e717f58eca9"
+    },
+    {
+      "id": "coalesced:6d324f8bcc34b584b283407697fa4bfc7c0f2eb09d2eb05a48908094ea30c80a",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
+      "section": "CSMB00_50",
+      "key": "voc_csmb_0050_03",
+      "occurrence": 1,
+      "source_sha256": "d07dd084366511934b7b1da57235ef1487cf903be1dc2fbc374010f92a95a391",
+      "translation_sha256": "a166c7c8b67e04124f430bc4988940f8fbfef5a7e14e207097b72ffc7681afba"
+    },
+    {
+      "id": "coalesced:b63b61195daa90caf7f685c2af6bd3c8db92d390870e1f7106a1b875a9af9fe8",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
+      "section": "CSMB00_50",
+      "key": "voc_csmb_0050_04",
+      "occurrence": 1,
+      "source_sha256": "a1081e96b8d7c1f0e74089417a807b8ddc8225b5131bbd146f6772ec740fd4da",
+      "translation_sha256": "264cfce71f693f5a835be111359be28d3b8ab55104fa066a09ae6693dcc55afa"
+    },
+    {
+      "id": "coalesced:286a3cea50ef6e1fbb1855b40b496da32df524c5c38385b8ffa59422d6d634da",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
+      "section": "CSMB00_50",
+      "key": "voc_csmb_0050_05",
+      "occurrence": 1,
+      "source_sha256": "f562988b532d42990dfb179591f00178c4649fcb8d04078fe4ef982f338dfc6e",
+      "translation_sha256": "8b9fc36223b7a82354ef35c8eea6b9941edbbc0ef4faf726e9079f2d7127b413"
+    },
+    {
+      "id": "coalesced:cd1da71d94ecd42c4777f51a8e4fae55f8b674c903c43bd9c910017e54eceeac",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
+      "section": "CSMB00_50",
+      "key": "voc_csmb_0050_06",
+      "occurrence": 1,
+      "source_sha256": "a5068a8d3fbb3c7af5a6e6e3600b36d778f13b699abf3704150ab648918c8529",
+      "translation_sha256": "e08f5de20020eb00b4c2dcc5a90c7cd99932fe4700291e5bc6cf023c6f5b0e68"
+    },
+    {
+      "id": "coalesced:cbd38791b8866dff8acaf06b51d42c3b8ef9fa9bd65fa64a30be99759426772f",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
+      "section": "CSMB00_50",
+      "key": "voc_csmb_0050_07",
+      "occurrence": 1,
+      "source_sha256": "895361ffbf88d5a8c40d47f8dd3d03df2042ca9360d08738bcbb4faa39495404",
+      "translation_sha256": "a7f878b8ced1a7957c560d573e30ddbbc1696e38c370513aacbbf4bff12e7f43"
+    },
+    {
+      "id": "coalesced:3eee93b8a497cfddd9723338b0ec5b3896bac34605d152aaec88700cbefda408",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
+      "section": "CSMB00_50",
+      "key": "voc_csmb_0050_08",
+      "occurrence": 1,
+      "source_sha256": "088a0baa0456d6247701f5a1b7d3f979a85253a3c3089aede40aff1a81c1462f",
+      "translation_sha256": "d9aab223730cc2c17d608a043e51a0d94f5bb0877c33d2404bd95e170be5b6b4"
+    },
+    {
+      "id": "coalesced:a01e999ccc09c6f717b09c76fc35db523b715d2c31a20c0fd410baf8377ea1bc",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
+      "section": "CSMB00_50",
+      "key": "voc_csmb_0050_09",
+      "occurrence": 1,
+      "source_sha256": "9364e40a99239611813ee36b45bcdb566a6acb572d602d35a3e7415a638f3dee",
+      "translation_sha256": "37f3ee50c27216a0267b02e5311929e5f0d69ecefad1ebd998690cc6d016ddec"
+    },
+    {
+      "id": "coalesced:3ec0639e26a939634f89ec3813d2b3d5c5412401c5cf12de0c183ba11b014382",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
+      "section": "CSMB00_50",
+      "key": "voc_csmb_0050_10",
+      "occurrence": 1,
+      "source_sha256": "78512f2e94835b41542f35f7e0d2b6a45e7f65893f9af88675e4aee688cbd6bd",
+      "translation_sha256": "bbccca85f058e7982fa407c9b21ad49d10f46f78cd350ee68ab04b7abed52c40"
+    },
+    {
+      "id": "coalesced:bf06d18605a586d613fc478a52cc9f2790c2bca6d6e3507bc0c377da67cc792a",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
+      "section": "CSMB00_50",
+      "key": "voc_csmb_0050_11",
+      "occurrence": 1,
+      "source_sha256": "5b8f41d46508d6e67a42d8151e2fd25c194acac121f2b78c9f482c1d14faeb4e",
+      "translation_sha256": "f8b0a5770252b26ea8c4f1b19c6eadeeef7eadb6cb649a17b33922b8b1ba754a"
+    },
+    {
+      "id": "coalesced:038e0c6f224a86cac276d109164c72dafb251bdf3dbb209f26acc7ed6a810452",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
+      "section": "CSMB00_50",
+      "key": "voc_csmb_0050_12",
+      "occurrence": 1,
+      "source_sha256": "209081e345cff1fbeb25a816e995536997123881dafe166a427420cbf186d42e",
+      "translation_sha256": "712fe19edf20525da98519c10601ba12db13eae1f6959cad7618fb48de69071c"
+    },
+    {
+      "id": "coalesced:175787c0ee184e42157a6b3d2326a80ef04ccd142c7259dc012c34d2db60a2a7",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
+      "section": "CSMB01_05",
+      "key": "voc_csmb_0105_00",
+      "occurrence": 1,
+      "source_sha256": "92dcefca5ffd909dfec23eceae7e600b079f361d6c2182b9721a3c678953ac65",
+      "translation_sha256": "eb91a97fc2fbc7d6b9d54e5765e6ce6aa4ede1c24eef6c2774a0a36a72fe7395"
+    },
+    {
+      "id": "coalesced:0427bb8f8dfcf069ca29afd43b4c1104f946d7c7decbbd0b67f8fbc1201f3aef",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
+      "section": "CSMB01_05",
+      "key": "voc_csmb_0105_01",
+      "occurrence": 1,
+      "source_sha256": "852b611ecf16199e15868803e213e290a0bfc722d16876243ccb7af498b31f10",
+      "translation_sha256": "e054aa5d9bb69dc2fcc4dbeb9755d43f1044f7ab2e4956c743853b5b0d15d9a2"
+    },
+    {
+      "id": "coalesced:7dbfc0bfcd60acf1735c781f9ec49a84e0ca081469546de99f774379530d4cbf",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
+      "section": "CSMB01_05",
+      "key": "voc_csmb_0105_02",
+      "occurrence": 1,
+      "source_sha256": "b36da3ddfa8f58c96fba2a0665562a2d151d5f5306c38922d8b326ea2f2e87fb",
+      "translation_sha256": "2c81f9bc0729f196e5f88680ceeea080095ff5d6054050daf195a987c6fa7d21"
+    },
+    {
+      "id": "coalesced:0630ca5cc69effafd92f6b238cc8a33958f076c99a06c112cba8bdbdfe2986a0",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
+      "section": "CSMB01_05",
+      "key": "voc_csmb_0105_03",
+      "occurrence": 1,
+      "source_sha256": "ae2d44ccb7df9affc9d049fb930da1e3450051d7cc2ea1baa4f47bd2f804bacd",
+      "translation_sha256": "8c23aac734ac0cb4b9ef1beebb855cadf5ad363cc10a111eafc9465f989d5fbf"
+    },
+    {
+      "id": "coalesced:07c255d4e3f3c2e002211b2a0b8fda18bd2c9af51fdde491933e75684aa7eac7",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
+      "section": "CSMB01_05",
+      "key": "voc_csmb_0105_04",
+      "occurrence": 1,
+      "source_sha256": "10b8331fab1c6c46f3bdc9a3aed3c8173a67df5dae126c5bed44d032d3ff560c",
+      "translation_sha256": "79cf5f16fae584b1cd8c045556b2b5ad8d7c0daa3775c938505bebef43ce7922"
+    },
+    {
+      "id": "coalesced:ee9c4547d5969ee6fcc90feb5de98f3857bfeed67ec67922199e512a8e422312",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
+      "section": "CSMB01_05",
+      "key": "voc_csmb_0105_05",
+      "occurrence": 1,
+      "source_sha256": "4077454375e5fe2a034d2d6c98ccdf66b31f06f949c9d4cb2cad02c7494e5056",
+      "translation_sha256": "28e09f2329e38f66fa5b42b1413b5acaedc94c974fb81397c7877316acebd386"
+    },
+    {
+      "id": "coalesced:9bb0321371cddbc26569dad83a6c314fc1b963eb8c6167887a865c0b8d0546bf",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
+      "section": "CSMB01_05",
+      "key": "voc_csmb_0105_06",
+      "occurrence": 1,
+      "source_sha256": "a8a2a95afa86e34f4298a113dd09b6c388869a4847b945d110c765d01e178191",
+      "translation_sha256": "6d62f3b42c38a178f25747a9c70b7741264d087d51414e7a3d8070751ea7c909"
+    },
+    {
+      "id": "coalesced:8fc57ecc8e675ab46dac2820d9c4d28690dd7c18f6f451d7f1b5f6ef7aca334c",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
+      "section": "CSMB01_05",
+      "key": "voc_csmb_0105_07",
+      "occurrence": 1,
+      "source_sha256": "209d9ac435c52c40ff7f6240ac597ae4ce1a5464f1129d67c87fd0e6ceb039e4",
+      "translation_sha256": "3407bfe28fefa17f4e3a3fbfcc60b26f03ac0d6c48b3a251e14a3780b6976d6d"
+    },
+    {
+      "id": "coalesced:7edf833f8609222077696fc8e593b057d8e6d3f4adb6ad13fda4e7255b1e7c97",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
+      "section": "CSMB01_05",
+      "key": "voc_csmb_0105_08",
+      "occurrence": 1,
+      "source_sha256": "2507fd63c3e2e30113d34884c3bd7de0b23acf1502f384238794cc61c48a4288",
+      "translation_sha256": "e1806ee733ffdbd73fa04d7a634bb72c8075c995dd603f050068b4c50ac4dc04"
+    },
+    {
+      "id": "coalesced:4e78601c16e92862d3e6d7e78f968bd46420c21239ad160af4e055c124dd0869",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
+      "section": "CSMB01_05",
+      "key": "voc_csmb_0105_09",
+      "occurrence": 1,
+      "source_sha256": "895361ffbf88d5a8c40d47f8dd3d03df2042ca9360d08738bcbb4faa39495404",
+      "translation_sha256": "a7f878b8ced1a7957c560d573e30ddbbc1696e38c370513aacbbf4bff12e7f43"
+    },
+    {
+      "id": "coalesced:cc9b06b0cdd6f7278bbd62054b4f7f51f1fa8ce55660a676b65790ca3215d719",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
+      "section": "CSMB01_05",
+      "key": "voc_csmb_0105_10",
+      "occurrence": 1,
+      "source_sha256": "44356a083a72e62961fe5718e91e66ec30924f2ae8390e3e4d5be24f15e54e0c",
+      "translation_sha256": "d67f43014e6abc6f179e7d32c9c4cad7890229fda85623c2a36c62c0c7fac955"
+    },
+    {
+      "id": "coalesced:b273020660fa91f5960cc889c698d25cdc2c47281cfe1cff91eadb8e977f73bc",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
+      "section": "CSMB01_05",
+      "key": "voc_csmb_0105_11",
+      "occurrence": 1,
+      "source_sha256": "d17341579c865c9a375e2fd380614cf337aa3243b4844fa5e97f3e9039ec4027",
+      "translation_sha256": "6dbf8b9bfec3651bb5ef37d34a4191a4f9a78bf5018ba7dc2e2ffc9dc9fd8bb3"
+    },
+    {
+      "id": "coalesced:3531a37ce38c96c1577f8b24586651357f9a447bed3be7b3e787f2987622c962",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
+      "section": "CSMB01_05",
+      "key": "voc_csmb_0105_12",
+      "occurrence": 1,
+      "source_sha256": "5519193afded8413fb7a06aa5aa9a9c840251d2fec1c390631fe0763f0d78c25",
+      "translation_sha256": "13bd5ee52ae4130389b7d5e843bb668d027a000fd687ff94e2c264b28971968f"
+    },
+    {
+      "id": "coalesced:2ffbd3503730a4f1daec78d8d7d146d2ba9dea2ab1a1fa2d6233c92debfb3989",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
+      "section": "CSMB01_05",
+      "key": "voc_csmb_0105_13",
+      "occurrence": 1,
+      "source_sha256": "3726fb0b8d7edf76fb14aa244a5c89180e330f486d41a496a890028a11a4776b",
+      "translation_sha256": "14dfc34485b0699a768fdd631065fc405bcf6a83e3aa4af1a99c0fe8835a4899"
+    },
+    {
+      "id": "coalesced:d8ff744e0d0a5fc4655790a2e241be9baab49f110b4f6285262a56c7d15fe8f7",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
+      "section": "CSMB01_05",
+      "key": "voc_csmb_0105_14",
+      "occurrence": 1,
+      "source_sha256": "e5ae2b2cc5b8c19157a1568013a3e2ae593d1cbb5396bf4bca81b4f116774c02",
+      "translation_sha256": "809a3006a60ee3691d5c45fe112b8d01303d6d4dd6f5a732104eb356d235f3f3"
+    },
+    {
+      "id": "coalesced:1a2a6027585acccfebb22b2bd115586245ecc31caa98c9878c3662c1b602c3c9",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
+      "section": "CSMB01_05",
+      "key": "voc_csmb_0105_15",
+      "occurrence": 1,
+      "source_sha256": "369640296ea9b0a38619a7ae5e68b35ffa7b2c2ad6ada41f8f6782cd20077420",
+      "translation_sha256": "3964624cd52cfe83258b2f9d61d6902feb5de93825a6771eae4cf8346af3e08e"
+    },
+    {
+      "id": "coalesced:a443050303da006aa640e9a37d2cc6807150320e91316dd6a29dabfc18a10cc0",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
+      "section": "CSMB01_05",
+      "key": "voc_csmb_0105_16",
+      "occurrence": 1,
+      "source_sha256": "895361ffbf88d5a8c40d47f8dd3d03df2042ca9360d08738bcbb4faa39495404",
+      "translation_sha256": "a7f878b8ced1a7957c560d573e30ddbbc1696e38c370513aacbbf4bff12e7f43"
+    },
+    {
+      "id": "coalesced:293db3b4ba6d6622ac6b864ab8b41fc8a90c2bf49282dd8b5b1b4568864999b5",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
+      "section": "CSMB01_05",
+      "key": "voc_csmb_0105_17",
+      "occurrence": 1,
+      "source_sha256": "d7b7046d8e5f0577ea501cf651dbedb81baad91bf5692737f817337a7180ea13",
+      "translation_sha256": "0a7829db916dad0822fbd04d6f66a2de9b5f10902c603a72f0bcf44ee7dab724"
+    },
+    {
+      "id": "coalesced:f00d38d034cdd39df2b78d0ba8a74cc902076fd474065e39b49a5d8f761880ac",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
+      "section": "CSMB01_05",
+      "key": "voc_csmb_0105_18",
+      "occurrence": 1,
+      "source_sha256": "bba3493d1e0d85ae0f457e9c0903ac97389fc2a10a59d3a576b6223b5041c77e",
+      "translation_sha256": "972a207b3546522baa90e827da100e1e4c095801e34822a5c4b95396332b3126"
+    },
+    {
+      "id": "coalesced:8cce40afcf709d5671a95800f6608cbd6b49f6889acfd315eed4cbd4775c88cd",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
+      "section": "CSMB01_05",
+      "key": "voc_csmb_0105_19",
+      "occurrence": 1,
+      "source_sha256": "6e85246445721652a4f1e5682ef30ddf7b6e017d4841a51f75759e9250fbeec6",
+      "translation_sha256": "acdaa4d38fde34e914e407686a024730e3e2a5033628cdd55de4098dba5620a9"
+    },
+    {
+      "id": "coalesced:4cdd5e8195ccea4619cce8a3890a5e0233284c9c54e084e1f143ce9538dc39b9",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
+      "section": "CSMB01_05",
+      "key": "voc_csmb_0105_20",
+      "occurrence": 1,
+      "source_sha256": "0cd7d6dd9b4973632e7fb4ade94a3178268b61652dc49d081a0c577c92486ec8",
+      "translation_sha256": "490645d08af6cb7c987e13c0a04e227e6a44b3d4d001fae2c1b862b052ad1049"
+    },
+    {
+      "id": "coalesced:2d1f511180d91f244519f92711941adb33daaac2769c636770efb69f7a76e41c",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
+      "section": "CSMB01_05",
+      "key": "voc_csmb_0105_21",
+      "occurrence": 1,
+      "source_sha256": "381144e7cf9615fdc17bcd8852e75d33c5e06298218245a7d0a599ac4bde62cb",
+      "translation_sha256": "43d9879355932133e2fde30c6b203ad3c1cd3959884191cb2a2a747534dcef1f"
+    },
+    {
+      "id": "coalesced:24ce95bf9f927f53797b8533fa8df2a2765d341c2237e6e9d28895f39892c465",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
+      "section": "CSMB01_05",
+      "key": "voc_csmb_0105_22",
+      "occurrence": 1,
+      "source_sha256": "fae9d62276dc3e4516c28b3f7db774bd88bfa2ca3d346925a86dce3249de2375",
+      "translation_sha256": "67f234aa657ae61e7eb51f6bc77e1de794636eacc4dd33ba37dba2a5544617be"
+    },
+    {
+      "id": "coalesced:fd96a0d1840b0030cb31b28792b2bf17e930422eef95335991e11a3f301a2d7c",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
+      "section": "CSMB01_05",
+      "key": "voc_csmb_0105_23",
+      "occurrence": 1,
+      "source_sha256": "34c412c75041e81eca6f5329341026f0901fcfaf6c394bf2e7e94d1cf6a92c19",
+      "translation_sha256": "3c88b281c44ba677f9c1886e7e35825cd8789ebbaa78067d29dd2be8bcc0d091"
+    },
+    {
+      "id": "coalesced:a9231f21bf1bb66b882d92be2fc45a7e464ae2465bba3d572c2fb27238ce7d06",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
+      "section": "CSMB01_05",
+      "key": "voc_csmb_0105_24",
+      "occurrence": 1,
+      "source_sha256": "c515bd6dbff6e7fd5337558ff5d6c45bac718ac0a251086822ed03a85cb60406",
+      "translation_sha256": "7868cf4352ff9980739234776aaab1f692d574a99e87691c3eb298521a79d40a"
+    },
+    {
+      "id": "coalesced:91212141e9ec5ee17c652d5b576a93ff17833f473ab8daaca3a438feb844f0dd",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
+      "section": "CSMB01_05",
+      "key": "voc_csmb_0105_25",
+      "occurrence": 1,
+      "source_sha256": "c3bfaacc697362b1ebf86b9a5319e9fefcce48aa530b6bd87f6cca47d03548e5",
+      "translation_sha256": "6099139ef4341e00dd3735be265fa4883740e4784c61ff4fcb1b64331d3fd889"
+    },
+    {
+      "id": "coalesced:84f6c3392f6c85a8e1658ca5975a07d9ccc3f2b402dee75053ba3c3435d10bfa",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
+      "section": "CSMB01_05",
+      "key": "voc_csmb_0105_26",
+      "occurrence": 1,
+      "source_sha256": "b27045dc03b825266d991682e293005a0802174c22d621afbc5a86025d89cb1e",
+      "translation_sha256": "5c7a9f97adb5bed9d4c6aca666dffd0e37fda970ebcfc2c8c0060523a483e295"
+    },
+    {
+      "id": "coalesced:96c6212a0d76a69f40e17dfc9789d8f9d22191f19422e2c01c3dbbbe23021d69",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
+      "section": "CSMB01_07",
+      "key": "voc_csmb_0107_00",
+      "occurrence": 1,
+      "source_sha256": "1e1e72903cfbc450448f521a9c95b813f44a4c08f206555c8761e39e98ea7400",
+      "translation_sha256": "64c3b00c46e07514f07d122d9f0f32b86b71a0e0baecaf8d8f7d3da28e88e047"
+    },
+    {
+      "id": "coalesced:1369f5d48cecc20772348a3c8ecf456020c2a1268ba44c5f0083f5c81187ca0c",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
+      "section": "CSMB01_07",
+      "key": "voc_csmb_0107_01",
+      "occurrence": 1,
+      "source_sha256": "e018cd80bd62c8959839c4fbbdacb9c0e094b3e8d762b4c0644be955e29515ee",
+      "translation_sha256": "f9237b270e041dd6b4a817f123de5df9e9d21d9b1367b4e5ea5b8e1222bdbb52"
+    },
+    {
+      "id": "coalesced:ba1806a911ce219fb677b11398042dc30565a0f43d1ff925d8dc78ac489a99a1",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
+      "section": "CSMB01_11",
+      "key": "voc_csmb_0111_00",
+      "occurrence": 1,
+      "source_sha256": "a4f0420bcdf5f1111a457eb7208079706fadb440265ff24b438f3a0f6bc691cf",
+      "translation_sha256": "660e8a77660f16c9e3400d620bbcafcff1f6b9b3ac1b3bf1af787ecccc736939"
+    },
+    {
+      "id": "coalesced:ee5d3676f5e48fd6e9d403a551447410750a16a4eaed103bf377a45e45ad7972",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
+      "section": "CSMB01_11",
+      "key": "voc_csmb_0111_01",
+      "occurrence": 1,
+      "source_sha256": "afe4809cf6f2b48e1c39e14f84f9bee52466917cdac979d9dcf8fc769842ad50",
+      "translation_sha256": "80b9e73ddbec4b9b8f3a8718b34a22388e6274efc16d372da38ad8652b6350df"
+    },
+    {
+      "id": "coalesced:340ef20e84677d9e010d74894c6ca37fefe43335a7506a6b24c3f1150bab7083",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
+      "section": "CSMB01_11",
+      "key": "voc_csmb_0111_02",
+      "occurrence": 1,
+      "source_sha256": "7c8918ec0af75f77a226e62136e02be766fc4dfab8cd3320ea6ad5c8f2161b36",
+      "translation_sha256": "753f87db65b75d2db8ccdd060ce80e8c6b6bc5b50536e1a839ce11e0961ad7a2"
+    },
+    {
+      "id": "coalesced:06a27558f85b3bd552d9b35b088b73a5535f014f85e2679060d1a5d58d2e1f82",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
+      "section": "CSMB01_11",
+      "key": "voc_csmb_0111_03",
+      "occurrence": 1,
+      "source_sha256": "0501bcfbc050309dd755acd081ac7eb9e959d814a3c56f9a8d11b3312e8dbed1",
+      "translation_sha256": "9d72b1b6091f3dbcf5552ff93b248d798cff66ebf87f14b50ce1f3bfd49f1561"
+    },
+    {
+      "id": "coalesced:78116b5a830e223dbf3522de62cd894525bd54ff602325865b90b88f4da2a3d7",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
+      "section": "CSMB01_11",
+      "key": "voc_csmb_0111_04",
+      "occurrence": 1,
+      "source_sha256": "fce7f141b92b0119eab51006e1ca955333af0f79da2eab0d2ec1bf3e9e99bf18",
+      "translation_sha256": "0c8b6b373bf73b68749b433e9bc39cd26d8d7600417882b21110f6a87dc5615a"
+    },
+    {
+      "id": "coalesced:b1584806d152e5d90c23890b77263102587575c2ffc38c53f9e28541b8ee0b7b",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
+      "section": "CSMB01_11",
+      "key": "voc_csmb_0111_05",
+      "occurrence": 1,
+      "source_sha256": "c585c9639137aa85a1e94ef1786daff89671fbc6c0d8bad90f5fbe5c76509d44",
+      "translation_sha256": "7b078f3c9d5bf9b72b592327f0bc68bd5bc6e620d9983bf09b2d2954d965586a"
+    },
+    {
+      "id": "coalesced:409cae591b36e5429f514eda9ff9ad8d082a68d8017e8096d71b47b1042bddfc",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
+      "section": "CSMB01_11",
+      "key": "voc_csmb_0111_06",
+      "occurrence": 1,
+      "source_sha256": "6ea40c116aea5928c4bd8ea3d9f81eb3dd9d35df31b8352f7cb316920a2531ae",
+      "translation_sha256": "f78c2d1230c6770e07ea1d6eb93e43d153f73af266e13cc676a9a20452fc4a71"
+    },
+    {
+      "id": "coalesced:2ff16cc5ee7c3c3f7670702d38592eeeefbd34c4156666a451f6d150b55ed4b4",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
+      "section": "CSMB01_11",
+      "key": "voc_csmb_0111_07",
+      "occurrence": 1,
+      "source_sha256": "fcfbc0ed60451468030e88445998a41e8d3d5f5e6c6c07fc5f61528070efed61",
+      "translation_sha256": "1370c6c965dbd676a736de1c081ca7498ae3d618932020c583ed2377af375807"
+    },
+    {
+      "id": "coalesced:7111dfcd08ac031e130f88328a7205f376c72e3e2c8756839385a3fe0da37a7b",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
+      "section": "CSMB01_11",
+      "key": "voc_csmb_0111_08",
+      "occurrence": 1,
+      "source_sha256": "91cb1f5b8d431b94fff30052838ebf37651fd825f2e1917788a20aeffbb539be",
+      "translation_sha256": "1cbbf6c53962399140b3df0d97a13c488700e07d4f74f75488b9233b7f5fe2d0"
+    },
+    {
+      "id": "coalesced:70cf02a8b5304c33b530333a8e8e73f96187406533e3ccf7dbbb0595c239bbfc",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
+      "section": "CSMB01_11",
+      "key": "voc_csmb_0111_09",
+      "occurrence": 1,
+      "source_sha256": "0a0a0b12d43e0d46d3e7a76ec84fb7afd6028cd9f758b6d6dee8538596a2ce72",
+      "translation_sha256": "1873ddfdefec4aa57de1fee465975ecc5075bafa06c125b2aee6076e11b43047"
+    },
+    {
+      "id": "coalesced:5420d990475fc7a4fc9e43057a97fef77b829624ba381b70f19f22eebf8edca0",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
+      "section": "CSMB01_11",
+      "key": "voc_csmb_0111_10",
+      "occurrence": 1,
+      "source_sha256": "233d07bef9876b1e01f66da62d58e74bf376ede0bb2c049695037c8259e62c83",
+      "translation_sha256": "61653fdb4e6b57ef57b97fd1ea361fbc3f95f0870badb3963afb71348690219d"
+    },
+    {
+      "id": "coalesced:e4d5aa089062cfda02699b01812ebe1ee5076314a766410e191398028e1b1542",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
+      "section": "CSMB01_11",
+      "key": "voc_csmb_0111_11",
+      "occurrence": 1,
+      "source_sha256": "2b954106493c2c380630e963f6525bf9fbdac54d9a1d0175dd1448ab76bfe4a4",
+      "translation_sha256": "a75b96ec7e5147e670a374e20937ead35bb398e6a83f495bf936ff8c182b8557"
+    },
+    {
+      "id": "coalesced:c8bfb570b2c4cb40ed8d4cb1a6a501ae46e7bba518f749faeb7718ac6d4de185",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
+      "section": "CSMB01_11",
+      "key": "voc_csmb_0111_12",
+      "occurrence": 1,
+      "source_sha256": "5fec47902a83c83eaa509a49aed7e042896bfcfa42df80794cf7b240cfc54826",
+      "translation_sha256": "c95ad138105060e18c8eabf8ce84919a5546d29a076388be7b4f11d7cb4a824c"
+    },
+    {
+      "id": "coalesced:43363509fd4f8da261042b0a385f87d2fa5d957e61b42ce8680d44f08da7a28a",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
+      "section": "CSMB01_11",
+      "key": "voc_csmb_0111_13",
+      "occurrence": 1,
+      "source_sha256": "efa4a6667e7449447e5888938609220b1147cae0362a8dfc853982fc98f2eb86",
+      "translation_sha256": "f1668164ad24c69a45808718da60647328cb4466c905d49cbd7fb2d7c6cb7d95"
+    },
+    {
+      "id": "coalesced:3c854e9e6aad3ebdb70c4f8c19c78fa59019bb093e3533a7d56b4ddc1ca174fc",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
+      "section": "CSMB01_11",
+      "key": "voc_csmb_0111_14",
+      "occurrence": 1,
+      "source_sha256": "d98f37c410f9855f9088cdde185cba42278051fe2bd341f1423dd5e61595217f",
+      "translation_sha256": "9c1d08be6a06ae1aada2bbd1d3cfdc0b5fde6ab66c663cabd600c4dba2ec03c1"
+    },
+    {
+      "id": "coalesced:0ef26b0703f862a30b5bde52c3604cb89652cc257c1c3527014cbdabeb1613e3",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
+      "section": "CSMB01_11",
+      "key": "voc_csmb_0111_15",
+      "occurrence": 1,
+      "source_sha256": "0c3a093a79b8b26c00803c1fa95b409eaee8b5d21c1eae2cc090809d17d9e20e",
+      "translation_sha256": "93dbfa0d579d7d7b16c2cf55dc2118e9c9ba5e5c1f64f39778ab5fa78cfa4b0e"
+    },
+    {
+      "id": "coalesced:c6c14b6aae105efa5ce996fae2817ec7429082b61ea218de5b0920a42ab40c6a",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
+      "section": "CSMB01_11",
+      "key": "voc_csmb_0111_16",
+      "occurrence": 1,
+      "source_sha256": "eed05f542ba3aa52a104c1a393a5371bfd344d7247adbb01d7edae987da32a63",
+      "translation_sha256": "b9c78323b6d957af0163aaef4ef21d11056cee95f85a797dbdd6234a641a87e7"
+    },
+    {
+      "id": "coalesced:cccf977153e583474e9e508c04ebe92167d165ea047e9d8abd3ef87af7455571",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
+      "section": "CSMB01_11",
+      "key": "voc_csmb_0111_17",
+      "occurrence": 1,
+      "source_sha256": "e0154738d4dc8c7f4b52f9ff814437155c0f4c99d67ecf1c1b669999c1680240",
+      "translation_sha256": "0f8f893d989860f7c6410b0c9a28c408852df7cd558d78aa510034fe33f20a4a"
+    },
+    {
+      "id": "coalesced:3a7c3c694789e84ba148adf453f9d3b96a34e41f757ad8ba48d2ce69cc1c82a7",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
+      "section": "CSMB01_11",
+      "key": "voc_csmb_0111_18",
+      "occurrence": 1,
+      "source_sha256": "f70d1d22c809f4fe87bfb89d769a42232f15becf3595801e5c54c6723a2090b7",
+      "translation_sha256": "4a6f0a48eb62dd816f7384c3c4448acd909b11bd4a004f718e0df1d4dccea6fb"
+    },
+    {
+      "id": "coalesced:2f552651397a70eb3be37b6ea989b35c6e0fe7baba67e2f53386d6360180193e",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
+      "section": "CSMB01_11",
+      "key": "voc_csmb_0111_19",
+      "occurrence": 1,
+      "source_sha256": "c0455b0ced518e708d1deace5f9f9edd9da06c10135be26221cd64916fab2aae",
+      "translation_sha256": "e28d6c668fcf9ae4f0b2c1d10233d9b65307ff16b3aebb31c422f94329f76671"
+    },
+    {
+      "id": "coalesced:9a39c65daeab48b9af9d36714d5cc46167d1cb0184c5d49a896738522c2a1133",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
+      "section": "CSMB01_11",
+      "key": "voc_csmb_0111_20",
+      "occurrence": 1,
+      "source_sha256": "e52c70a360bb99d72848013a19ebbf455cd2af363c60bf1d556206c1f51a4905",
+      "translation_sha256": "59285747e097e13f8403dc5d6be3d55dffdc4fb62e7e1dfe0bba6fd4c545bede"
+    },
+    {
+      "id": "coalesced:e99863be3fb39599e51c43e746f5fa85cc2018d8cb254a3cec3d3a4c4701cdcd",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
+      "section": "CSMB01_11",
+      "key": "voc_csmb_0111_21",
+      "occurrence": 1,
+      "source_sha256": "28e6c02dcf75e2b2fb15e92e0ab40f6c11320c6bfb56768b32e7b24022eb6128",
+      "translation_sha256": "846b76bf08b1c8cb4085f48cf7a125767030362bfac6d46dec82f0f59522f69a"
+    },
+    {
+      "id": "coalesced:505bbb486236c2e18df53f15ff1407c9df0c40f4da9a76077ca1158f82697dd4",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
+      "section": "CSMB01_11",
+      "key": "voc_csmb_0111_22",
+      "occurrence": 1,
+      "source_sha256": "f47440a96feb21d66ba8724a2d7bb2f436ba6ee576c0f37dd086cca53d1e1f17",
+      "translation_sha256": "1380eb0e518cf815172420dc384df37afd61889afcdd1626efcee6513abf8094"
+    },
+    {
+      "id": "coalesced:7d80e4f35197475eb6570a833755a6eef6f50f480e3d93baa9a2785fd5a6e143",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
+      "section": "CSMB01_15",
+      "key": "voc_csmb_0115_00",
+      "occurrence": 1,
+      "source_sha256": "fbf788278c631ecc5f70e7e88a07218eb0c5dbd9a8b0b662d776dc5121b225e9",
+      "translation_sha256": "2c7d7829628cf9f612138d71b39e85c8d8bd1921aa544811134643da00b4871b"
+    },
+    {
+      "id": "coalesced:079d94cd730c1719e6d9837f3897fa39122d7c6335eb61e520079bf5752b70bd",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
+      "section": "CSMB01_15",
+      "key": "voc_csmb_0115_01",
+      "occurrence": 1,
+      "source_sha256": "8025c713f26164a6787608a6cbce1b8ac0cfe963a42e1416578db60193e95224",
+      "translation_sha256": "5c7a9f97adb5bed9d4c6aca666dffd0e37fda970ebcfc2c8c0060523a483e295"
+    },
+    {
+      "id": "coalesced:def3ef68c4a4f677615fb0b36a5d0f302422010fd8ed1473a6356c14b0515a98",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
+      "section": "CSMB01_15",
+      "key": "voc_csmb_0115_02",
+      "occurrence": 1,
+      "source_sha256": "519a384961d16bc967cc5add358fd22bfd56a8046f9dd2ac690d1ea760c74a04",
+      "translation_sha256": "c3a47e22d25b7a708ee77f5636d5f8fdbd9e4ab0a7a12db948a45321fa77b996"
+    },
+    {
+      "id": "coalesced:6cdd5181eed45807a038872795deb5aab7b88b9cf336780c9611282c4997ab7c",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
+      "section": "CSMB01_15",
+      "key": "voc_csmb_0115_03",
+      "occurrence": 1,
+      "source_sha256": "eec32b1c6fdb6b20d65e26cdde5df1cffdf71d990cee8ec08e9bda9dc1eecf6a",
+      "translation_sha256": "2cbc846a3084a351dfe1c8ce6b69360da9706f07330edf76c5db01c3f66fccfd"
+    },
+    {
+      "id": "coalesced:c7777fd8dc8cf41448c5b1692e74c9c5d79c5300b2380e046a3f374eef9f8f73",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
+      "section": "CSMB01_15",
+      "key": "voc_csmb_0115_04",
+      "occurrence": 1,
+      "source_sha256": "b6d5568b9dca7a89db26a49a34fd9dd22e8174e0b0859504102d89742166863a",
+      "translation_sha256": "2ccbb16fce05cb7144b942ff66b604834a454d13f83f65530de18e23e03612cd"
+    },
+    {
+      "id": "coalesced:a688a57054a9360bed54045eb52d22b17cb5b1b1470aa6670d9806fd3623db05",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
+      "section": "CSMB01_15",
+      "key": "voc_csmb_0115_05",
+      "occurrence": 1,
+      "source_sha256": "8fcf328b839a4bf06ba40164624fbe9535f3767ebe68ca172f01a21c710f8df6",
+      "translation_sha256": "9ac851a4c063d25c349a2e00fbf8a8e915d333c563bd2aa64ce13ca2f89e14c3"
+    },
+    {
+      "id": "coalesced:59d76a1d90ecec05de798cb9ad999e0feac5750863e1c65a66a5174303cbef74",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
+      "section": "CSMB01_15",
+      "key": "voc_csmb_0115_06",
+      "occurrence": 1,
+      "source_sha256": "0ac85e403a419c990ebd61c6faebc2c8ae151425a09b07a2d97ab093c804ffff",
+      "translation_sha256": "e8b84b78568f9716dac3075554afe02af53cbeb91bf296afe881d0d6c1edf406"
+    },
+    {
+      "id": "coalesced:385be0ad8a7dc7cb47cf62f0659afe95bc6702bc40c11d5e9d7a93d171e71e98",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
+      "section": "CSMB01_15",
+      "key": "voc_csmb_0115_07",
+      "occurrence": 1,
+      "source_sha256": "5374eab6725adc563d368c2343d660c96f0118347ff81940897649dfb0754625",
+      "translation_sha256": "ccc3bfc7096ddc124fdb8e016d8e31a44c7ecbcde61f680db782c3978f00490e"
+    },
+    {
+      "id": "coalesced:73a4c366a45aa6ef44e7e1111d3dcd35ccde68b3e9dfd2c31c0be4a560fff8f3",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
+      "section": "CSMB01_15",
+      "key": "voc_csmb_0115_08",
+      "occurrence": 1,
+      "source_sha256": "aeb3829e9d7bbbb4513eefcec87295d27e9b0c6bb58648ba92e853df3fb7eed6",
+      "translation_sha256": "6f2156c059d26df5e29cd07606c5b0ac9aaaa7951994a75ca22c89512898019a"
+    },
+    {
+      "id": "coalesced:21945333202347920ea91007dadc02f3ec2d714b810248708bb13371e4f0aadb",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
+      "section": "CSMB01_15",
+      "key": "voc_csmb_0115_09",
+      "occurrence": 1,
+      "source_sha256": "a03bf60b3e4717b8689544d15e1887d755e992257feb259c94c675a6622cbfaa",
+      "translation_sha256": "8f95a0a0968b6f3625c6097be92d937f96ed60d54bfddb10d62780e18684fcac"
+    },
+    {
+      "id": "coalesced:dbfd840d1f735a2a647d8c610f2a2d957b6fbe5531035e34f8b0b90813161acf",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
+      "section": "CSMB01_15",
+      "key": "voc_csmb_0115_10",
+      "occurrence": 1,
+      "source_sha256": "99916dd43194c96eadaa0d2f777a3fd4e5cfa4e9a93bd82dc593d5f925ac1e3c",
+      "translation_sha256": "95f307b0cd78c0c7795b9deb9109126b3456e3268f7024c35edeea1aaf28bc2c"
+    },
+    {
+      "id": "coalesced:5f51857134510dfc0c905adc259f51a33283c7d7ab457393b200b9b3f988f655",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
+      "section": "CSMB01_15",
+      "key": "voc_csmb_0115_11",
+      "occurrence": 1,
+      "source_sha256": "10bb121c6bf91cb23d8eb2824d5694f5176845503681a24cbf2fea9533b4b940",
+      "translation_sha256": "fbe9b8a6562528c71dac2f35e4bb3503757fd80fd15a323c0f3842922f08e2da"
+    },
+    {
+      "id": "coalesced:c4fe92dbf2fb5cd594409d2b399b663c6fbc68598a62afd64f590993cff4e5b8",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
+      "section": "CSMB01_15",
+      "key": "voc_csmb_0115_12",
+      "occurrence": 1,
+      "source_sha256": "8a157b43dd0a2154a9f3484a8f82c27dbd66b377864b35a45087f67d9729dbee",
+      "translation_sha256": "aac09867bcdeee953a78fef573006b216b34688ac3f7fb346791bb859b82021e"
+    },
+    {
+      "id": "coalesced:a15cb08f0abbbc6dfc5488a42afc8582a6cd5e62fa18ce669fe299f71d3a4e7c",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
+      "section": "CSMB01_15",
+      "key": "voc_csmb_0115_13",
+      "occurrence": 1,
+      "source_sha256": "35d7f4da0445962cba79214dd9bc9341b8b213a6a6ac591fbe38a58ef6b5c32e",
+      "translation_sha256": "cd255d8bde02948a58e9d458577b36e7a450ab8dbb9ec36bdbd2784c4a5dfd66"
+    },
+    {
+      "id": "coalesced:641a325b2adcdae11b5fa98df626ff521e61115e33c85764be89f5283fa3e724",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
+      "section": "CSMB01_15",
+      "key": "voc_csmb_0115_14",
+      "occurrence": 1,
+      "source_sha256": "45c5f13358ef9f88f9e4ff6b425794c72c65517e36f34f4b0086ee1c1481f585",
+      "translation_sha256": "3bfa72799ace29ee5923db923e635513cff1755f3bc50f3cc4b6880260ccdc20"
+    },
+    {
+      "id": "coalesced:f7531d0e1c74a5f6ccfe6dc5f21745a808aa2bd5bb7c6f4017a95a9ad7cbd4eb",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
+      "section": "CSMB01_15",
+      "key": "voc_csmb_0115_15",
+      "occurrence": 1,
+      "source_sha256": "f5789fd2aa451a17637bf20da6d3854fea244b1fd52950971dc0288974971284",
+      "translation_sha256": "8797f5971f278ee9f653fa632f6f5b4c800d4cde3bbee384a2cb55deb5062bbd"
+    },
+    {
+      "id": "coalesced:1fdbc5e2918ce73041353f0d3f48a8f9d25bc79ff51417839d0e94637c0aa702",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
+      "section": "CSMB01_15",
+      "key": "voc_csmb_0115_16",
+      "occurrence": 1,
+      "source_sha256": "a23d21d5e914e8028ba9b0222bb67cadac27f13043bbb84f03d39fc80cfd62ff",
+      "translation_sha256": "2fb65799b8f6ebf10998f0923cf58a7efb78a98051fd97c6d3d87d17c372e592"
+    },
+    {
+      "id": "coalesced:52499664ddcff145cad8315178070d379b6ae180c41c297ae07de8f67b1741ee",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
+      "section": "CSMB01_15",
+      "key": "voc_csmb_0115_17",
+      "occurrence": 1,
+      "source_sha256": "efed29f22dfafcb894c7a119a02ef5d64fe54162454755ab3b99149b4e55dc4f",
+      "translation_sha256": "0811db696f8e5ad0f3a8f7efa9cb48273087c0d0ff89674efb152df4a4107847"
+    },
+    {
+      "id": "coalesced:ea20604ff41b1c5556b372840aa78c33e72e61c08eacd09dc21361f8bb8a4362",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
+      "section": "CSMB01_15",
+      "key": "voc_csmb_0115_18",
+      "occurrence": 1,
+      "source_sha256": "a8a3318f47e473d61757d72ad26e0bebb8b811c6378fe1b93b3e6319160d17e8",
+      "translation_sha256": "d7ab3f039db17eb212a605ba16126db394c4bc83e4304867383382ca9a6138d0"
+    },
+    {
+      "id": "coalesced:7b94b4a081b338b8aad30f284bfa251509c09366def975d5dcf9f628608b5f8f",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
+      "section": "CSMB01_15",
+      "key": "voc_csmb_0115_19",
+      "occurrence": 1,
+      "source_sha256": "8445a815ff94e70384be45e378ac13f7370b65c981adc901f04e5ef607cf67aa",
+      "translation_sha256": "b7ea2d3e23f11d8515f7473262743211a7935feade8bddd3a47eb6f45f7276bb"
+    },
+    {
+      "id": "coalesced:43bec9cd13fb9ce99e0fb91fa86830e1b9af287f4ad0b5f6426ac382af2c4b07",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
+      "section": "CSMB01_15",
+      "key": "voc_csmb_0115_20",
+      "occurrence": 1,
+      "source_sha256": "6eb7d797f3276b2537a96913a6b127173d07f41edfe0b4f5c934af5f0d34094d",
+      "translation_sha256": "41ea9d98e126d749a916701ecbe6cb34e8a9ae14abf6aaa4c5a8d377cedab048"
+    },
+    {
+      "id": "coalesced:a228d7ffeaf4ac98597fd1ebab5f264635e29e30c1bef267b543d3b135a63a0a",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
+      "section": "CSMB01_15",
+      "key": "voc_csmb_0115_21",
+      "occurrence": 1,
+      "source_sha256": "8adacf6afe029076f0fb0d280728015a42e792eb3e2d3392d750854ba988e3f4",
+      "translation_sha256": "e492c8e112d9e4eefbe3423ce3ce0e838f62ccf47e4c95337d2f5c1c45beb479"
+    },
+    {
+      "id": "coalesced:f543887aca09bafd079f1c314005071b75b3fee01d70f8c518c8741309f05452",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
+      "section": "CSMB01_17",
+      "key": "voc_csmb_0117_00",
+      "occurrence": 1,
+      "source_sha256": "496278437be963790242895a1e59dea6a55ae9a955a4eea6ac7332d711d2d724",
+      "translation_sha256": "6dc6a32e39d7da1cc5da9dbebf38e8fa65b63de1ed9950e40b378a6dd4d26f77"
+    },
+    {
+      "id": "coalesced:ec2276bf82e3f2d9e4c1baf6e4e263dcdbe4f9aebdbb107100f7736746c6da0a",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
+      "section": "CSMB01_21",
+      "key": "voc_csmb_0121_00",
+      "occurrence": 1,
+      "source_sha256": "6b9db0faa074693f8c62d57c3b3dfc8bf4bdbe2614642ea32cebd058e95755e8",
+      "translation_sha256": "bc68a5fa6441a95fc44ae5e24b5895679fc30f2d2a10f0379d099b6f35167745"
+    },
+    {
+      "id": "coalesced:6676c35b9d401528e08e73ec18360674b9290d1689c535127ebc1034680ff2cc",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
+      "section": "CSMB01_21",
+      "key": "voc_csmb_0121_01",
+      "occurrence": 1,
+      "source_sha256": "beff272c012f19fda9bba552a00123b01cd4c70ef8b0599c09e61335055c37ad",
+      "translation_sha256": "608698c95143519360e867a8baf798e9806352fad5571c0c9981ebc50e79ad7f"
+    },
+    {
+      "id": "coalesced:ca77b6771097b11ee5b8e3cb77761ddfa2d60c7a5217c78aa3818c10881f9dea",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
+      "section": "CSMB01_21",
+      "key": "voc_csmb_0121_02",
+      "occurrence": 1,
+      "source_sha256": "7bbf7b32de1ebdc242b86a5e0464a7d9c711caec88209ec0621b71b273451a62",
+      "translation_sha256": "25c967dade3a77e3321479b2294ef14e0113b03064c9485d1af6ca0d5f490d96"
+    },
+    {
+      "id": "coalesced:04f490bca57074eb55e2bd3d93e2268efc1fd326b7528a92a91ed54bf3a7da44",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
+      "section": "CSMB01_21",
+      "key": "voc_csmb_0121_03",
+      "occurrence": 1,
+      "source_sha256": "7c11942b041a3ef4bd09dbc0ce3a757a40a2470c5f47f4b1a9959e3d51c0c5e0",
+      "translation_sha256": "65cf55013f0ddea7a2a4e351307b26d81a969892295d32dfe9aa43b2545308d6"
+    },
+    {
+      "id": "coalesced:d713970bf85bc51ded298ee1f4ad3d3dae3db0aaf698e5a2f1a52e3b8347c499",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
+      "section": "CSMB01_21",
+      "key": "voc_csmb_0121_04",
+      "occurrence": 1,
+      "source_sha256": "06a361a99bb62c631c801ec8c394f53ae1c64790cfa70ced276de583c20f4393",
+      "translation_sha256": "75936269cd95473a4c06357cc733bd8e08a46b808170d583b2e2e1fe9cd04f10"
+    },
+    {
+      "id": "coalesced:2ab5a9fa0718f927e80710f7e0d463169281d7b5ba6019e30161d231af52bee6",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
+      "section": "CSMB01_21",
+      "key": "voc_csmb_0121_05",
+      "occurrence": 1,
+      "source_sha256": "7ed1b6787b08867986b20b48aea76339e72f0ab6bf3a324f11d98a3643c59890",
+      "translation_sha256": "ac84b96de0d11d44578b7b832926fb4056f886d141cd8a044854bb5d5dedc8a9"
+    },
+    {
+      "id": "coalesced:38bb79c6b730e0efda5a6405cb0744e16bd985a8c984a6f357155bd61a1c5fff",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
+      "section": "CSMB01_21",
+      "key": "voc_csmb_0121_06",
+      "occurrence": 1,
+      "source_sha256": "c54824f3acbf71c048492c782079c2a86b0f0d0e43ba8617fc058a9d4d53c34b",
+      "translation_sha256": "490d06f95b2e2c14861b6cf2f5d60ddb703253a54be759e9483f67f27ae7898b"
+    },
+    {
+      "id": "coalesced:e0c3f06220e283181c684c688ea634701f95385f6f62f7b4d270f122b3d3c711",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
+      "section": "CSMB01_21",
+      "key": "voc_csmb_0121_07",
+      "occurrence": 1,
+      "source_sha256": "8d5bcce1affc144f90d56cf679f29462b52d3a7b0b0e4a28e4f737026440a9d9",
+      "translation_sha256": "f6e3a6586cc11fce41c4ad1c481cfa253284fcbb1d6d3ee38e6624d172d66a6c"
+    },
+    {
+      "id": "coalesced:7e4f0056fbedb6a8b95df3f66069f15c581ece262d46a9dd1146caf9e9cefd71",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
+      "section": "CSMB01_21",
+      "key": "voc_csmb_0121_08",
+      "occurrence": 1,
+      "source_sha256": "507c363655f2f1d8b5f7c3aba676271ed198deea94a27080e916d5aca45e625a",
+      "translation_sha256": "a14571a1dcc6bdffc1efd2b92d91eef4c9233f5c9eb3f3064262b9b45ee69d93"
+    },
+    {
+      "id": "coalesced:ed443c78c089f0748a980b201e36063fe45238f433f2749bb36da32212a0ff01",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
+      "section": "CSMB01_21",
+      "key": "voc_csmb_0121_09",
+      "occurrence": 1,
+      "source_sha256": "61c2180713ab2bae3af272cb04e0b4334a5f0f7188af716fdf6d75b688057463",
+      "translation_sha256": "920c9c6ecd67c3190db546ca8bace9017ffb0d9e13236a2ed9addbd2dce4c0af"
+    },
+    {
+      "id": "coalesced:28d798e305a15b30b5d0d3bf1fb8d1a55ca8dc366516c54a5e6416e64be19f4f",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
+      "section": "CSMB01_21",
+      "key": "voc_csmb_0121_10",
+      "occurrence": 1,
+      "source_sha256": "193093080984efa37fb9cd3319a4d9f9714ef9fe6947d171676b59bc29ed497c",
+      "translation_sha256": "7232e4348aa92e68a3635079870994b7cb711f296378921ebcf2a037ec76cb8a"
+    },
+    {
+      "id": "coalesced:41c8d3928e5a2bc40153c88fabde3d851a51987439e7a26024de0e928c1ca1ac",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
+      "section": "CSMB01_21",
+      "key": "voc_csmb_0121_11",
+      "occurrence": 1,
+      "source_sha256": "44810e5eb66ced7e1b82e6f6156e76bd6be8e5508640707ff0cd3b4f680909eb",
+      "translation_sha256": "f6bb3e1286c441c70bc3adb29fec94abd74f74a93eece1b12acf43cd1fac489f"
+    },
+    {
+      "id": "coalesced:a46141dbf6f57dea483ab9ab9b78720f8f3170afd9d28514f0035c9f8c5c452c",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
+      "section": "CSMB01_21",
+      "key": "voc_csmb_0121_12",
+      "occurrence": 1,
+      "source_sha256": "d4b02b43dda744d7c0d9072a8497c71e2d178aed60cea52cf5a31c66e0a1bc92",
+      "translation_sha256": "468aa9fecfe83f999e22b3476532db8dbaef30fe7514d7bdbcc845490a21b905"
+    },
+    {
+      "id": "coalesced:25fb83a5be583d5a6b22150625a8af6552e113e5c47c3d7c14f2094e082a5fff",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
+      "section": "CSMB01_21",
+      "key": "voc_csmb_0121_13",
+      "occurrence": 1,
+      "source_sha256": "b1b6c03004f35befb980052babd6d837c083936849b808df1ceec5ba66ddca69",
+      "translation_sha256": "9fdaffb7cf8fa41f7a39b640a263998d3b453bfcc19f2574eb748dca338b18c1"
+    },
+    {
+      "id": "coalesced:8c7372653728b1191aa699bff96679c68b0ced64db1a11510c840ddeebc8115a",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
+      "section": "CSMB01_21",
+      "key": "voc_csmb_0121_14",
+      "occurrence": 1,
+      "source_sha256": "21fdafa0c8e6a863be8d8f0b92500d5d2b2f3351d444ecb07a01e04583edc7be",
+      "translation_sha256": "9d0695c6634eb5664289f207c2297bdb25a5d6db2dc2e47157a8131383272667"
+    },
+    {
+      "id": "coalesced:6fb8d770034a697f31f6dbe0088dc87bedb08522379dadea17f69144913e8ccd",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
+      "section": "CSMB01_21",
+      "key": "voc_csmb_0121_15",
+      "occurrence": 1,
+      "source_sha256": "47dd1707211c7354d813fcd6c66319369aef44dca3d28aedf2278035f5fb055c",
+      "translation_sha256": "061dc3a2e5c7e436c621c77aa82c3cb6759345d51a920b40239a336272405fc7"
+    },
+    {
+      "id": "coalesced:295a8db85a0220ecd3eacde26be1b0ffa41fa79081b33a3a7ee2572780c1df71",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
+      "section": "CSMB01_25",
+      "key": "voc_csmb_0125_00",
+      "occurrence": 1,
+      "source_sha256": "0b81154ba3f8ec75008bc0ae32b43c9d9e2139a7b57258e7e8b9015937227ac2",
+      "translation_sha256": "37028ab5454a9fe4882d69f7fb544112d979a74add46e00bd9de40543482770e"
+    },
+    {
+      "id": "coalesced:182c7e4651987004167490034c39a1912157fd0956397827716b4d3bf6b6a3cf",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
+      "section": "CSMB01_25",
+      "key": "voc_csmb_0125_01",
+      "occurrence": 1,
+      "source_sha256": "5f823be9aef660ce527a1fb0a86afa17172ab3785f325b2a95b88693dae05320",
+      "translation_sha256": "15cda2d1495e4aa1d4758d9578c3af2bd54f067dbffcad6522d7665e5a6f23f7"
+    },
+    {
+      "id": "coalesced:a2386149b0e8a7447d7ef2e63172769c82a6f64875b0131552a987483a7e865c",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
+      "section": "CSMB01_25",
+      "key": "voc_csmb_0125_02",
+      "occurrence": 1,
+      "source_sha256": "f975c0cb62e08a0637f2665a01e8aadedb3aff249df1eea66c545682763b35c9",
+      "translation_sha256": "13f979beff7945269494045de8807bb87c09048e3d2bd1f15c6376ccddcb790e"
+    },
+    {
+      "id": "coalesced:4e00a568fd7d1f49e2d7d1e38ee76ae417ee1c195cb339274048978dc156b9b6",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
+      "section": "CSMB01_25",
+      "key": "voc_csmb_0125_03",
+      "occurrence": 1,
+      "source_sha256": "5037c6a50035b2958b0c1da63ca488c1896834c7d191497211080040edc1774e",
+      "translation_sha256": "45d30f0374937fb03b46ef31b56fac152459aa0d8ebabb15f298dab94fd95dd3"
+    },
+    {
+      "id": "coalesced:0f034591c5b0a3ba4394c4ae7308efc32f5d24b99afe9da4754ae2e370eafc22",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
+      "section": "CSMB01_25",
+      "key": "voc_csmb_0125_04",
+      "occurrence": 1,
+      "source_sha256": "bd58db14b3fb0cc2e1210a9cef81275bf96c75cdc9a7d742733b3988f21bc62e",
+      "translation_sha256": "63e547b2403b23c26e3f84ed63f667ccc44728fefc06b09b8e80ca0d70879827"
+    },
+    {
+      "id": "coalesced:4ae8080f2071db4c08d3fd010b6d8b4e8150901b71ac20c30074aae786e3114f",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
+      "section": "CSMB01_25",
+      "key": "voc_csmb_0125_05",
+      "occurrence": 1,
+      "source_sha256": "81ed13ec092122ddd754b8897cb44749df262b94f96fe168643409f598e6cd70",
+      "translation_sha256": "8603d95b1609bb7008013e373fdae03cb60770bf672f2726dbda8bb50cfcaf3d"
+    },
+    {
+      "id": "coalesced:d0eec7273eede4c222c25b5bd9185b738887cad084f5b1efd7a357336d3faaac",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
+      "section": "CSMB01_25",
+      "key": "voc_csmb_0125_06",
+      "occurrence": 1,
+      "source_sha256": "d220f685303bbe54788eeeb2d5778afd16258e07a8ff23a3c5c6e3575565d741",
+      "translation_sha256": "516c537bcebe92e07b30d0ddb194cf4feca98584a25d752b493e564e6031b2e9"
+    },
+    {
+      "id": "coalesced:419e5f1cd1707f6be8df45760a9aa4d2926a452bf7dbb595dcc8dec66215930c",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
+      "section": "CSMB01_25",
+      "key": "voc_csmb_0125_07",
+      "occurrence": 1,
+      "source_sha256": "5e00166b2a07452e0635f46bea3ccb859df962fe56f21758fe19099cef067e3c",
+      "translation_sha256": "c613cdc9238a830adf3270eb31e163f4d1a72bdc10e9d4ec67717a1776c28860"
+    },
+    {
+      "id": "coalesced:0e2ba9549416473627866153951c0a75fd7f55d65ffdb12331e03a1fcea9e7f1",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
+      "section": "CSMB01_25",
+      "key": "voc_csmb_0125_08",
+      "occurrence": 1,
+      "source_sha256": "7887b5ac9bd8bb1255d8a8450999c510db11638a64fc513d8d6d6699551db0cc",
+      "translation_sha256": "36de8981336726b2adf853b60068192d0ed011431463149915cdb08011163041"
+    },
+    {
+      "id": "coalesced:3bcbb517d9039e362970d6c1e92437a1e7e54f47ad847907408c20b1e19fb537",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
+      "section": "CSMB01_25",
+      "key": "voc_csmb_0125_09",
+      "occurrence": 1,
+      "source_sha256": "67a12ae7003dcff99970ad19b6e0d9e27ed07dbaf421561f49eecedf6d679377",
+      "translation_sha256": "eef7c5ce20e4c1b0893b4ca447ed29c5222a9df36b32a07447bc696128a6e5e0"
+    },
+    {
+      "id": "coalesced:b18b44f4683ea74aacf390b69e5d297791cd9afaba52e01badce6729313804fd",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
+      "section": "CSMB01_25",
+      "key": "voc_csmb_0125_10",
+      "occurrence": 1,
+      "source_sha256": "e917777e3a92bb721fbf18f792bc3ef603b9dd07555cddb8bacc836b8e0c33e4",
+      "translation_sha256": "a865c65353531bc7d5ebd272952d511b12b4a905a5470a98cea5f59e6f69440d"
+    },
+    {
+      "id": "coalesced:aeb0ed12bc8e962ee72320539944635366c232dfa299cd72ae0ea599d5ca44aa",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
+      "section": "CSMB01_25",
+      "key": "voc_csmb_0125_11",
+      "occurrence": 1,
+      "source_sha256": "6e8c2127b63cb6b31c77e50c9dc9c95d193b4af6285ada6a4d5ad7ed9597bbcb",
+      "translation_sha256": "27f0df11062822cfff206bdd77861e6a7e20ff93aa47a7a4b320ed9037898556"
+    },
+    {
+      "id": "coalesced:51c984b0e63b036c1a501caa2109e16d9f62c82d92ee5bc358b4a5a34ef6aa6c",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
+      "section": "CSMB01_25",
+      "key": "voc_csmb_0125_12",
+      "occurrence": 1,
+      "source_sha256": "714bd7cc97ad7cd9743f2042050b2868baf9d296ad5f0f7daf51f90e43471d47",
+      "translation_sha256": "d84bae19d0438cc823198c8db668cac098e50a3a7777fcdc87173edfe06a346b"
+    },
+    {
+      "id": "coalesced:1b34710582d397658fcb5cbd0b9d138256f66831078d96d1cf67846188178189",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
+      "section": "CSMB01_25",
+      "key": "voc_csmb_0125_13",
+      "occurrence": 1,
+      "source_sha256": "1aef8dfc7b3fd11e8fe0082e9b9bd6c8e54feeee34d59b316c1d1429e2ff8670",
+      "translation_sha256": "96f208808217d7fe3a9a195154790d5c1d6bf7f403ccdf9e673923d7541321aa"
+    },
+    {
+      "id": "coalesced:73db2e84f58b860330bd7c0a0c6e484f8bf419dbc5dc606fd058775ec0d0257e",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
+      "section": "CSMB01_25",
+      "key": "voc_csmb_0125_14",
+      "occurrence": 1,
+      "source_sha256": "c755184357e670a6c17b2718729b4a460e2426399042728dcf52c697419fddf8",
+      "translation_sha256": "fdb10c4f5f859cd5db1d876c940e11de940177b331ad7325e76d3ec6ebb86697"
+    },
+    {
+      "id": "coalesced:72b3cf48f931fc0bb9b6bdc841848ad553e569fdeaddce985d419310b2fbd902",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
+      "section": "CSMB01_25",
+      "key": "voc_csmb_0125_15",
+      "occurrence": 1,
+      "source_sha256": "35640463217803b43a7b50c4ee80c263852939f244e045a751dc874643882a26",
+      "translation_sha256": "9d62220d8a78deeb1d1e4e321487419520bcb1840bf5537e0669acde46f6c528"
+    },
+    {
+      "id": "coalesced:bc4c1f9e901a6e6987ce8a3b0c85ea49ffb2bba4794363738306bad0fc42db66",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
+      "section": "CSMB01_25",
+      "key": "voc_csmb_0125_16",
+      "occurrence": 1,
+      "source_sha256": "9f5e992e696fa4d875b81255c73ceacf11255eeb9553576215fbea59f5b3c23f",
+      "translation_sha256": "eeb37ae2ab02549a5b29e721188919a0cc2ee18423611d8010e6813e8e4682a5"
+    },
+    {
+      "id": "coalesced:73dca96e942cc57c540cae388a61fa035a304598f346b5b2b3ec9058d4f6fc5c",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
+      "section": "CSMB01_25",
+      "key": "voc_csmb_0125_17",
+      "occurrence": 1,
+      "source_sha256": "6b1161bf7cc200a46d6fa7678d1b65904cfae3137e6e75eff4c508887e55a940",
+      "translation_sha256": "a92bb355388d03557b2bbbc4be683e6add96d6ca25180be8ad347851f48fed4f"
+    },
+    {
       "id": "coalesced:fdf5f49e10cb2687e5b6c02045d923dde80cc0161e30c872cdf1b75e71c0638d",
       "document": "..\\MC2Game\\Localization\\INT\\MC2FieldName.int",
       "section": "ChinookIsland",
@@ -1895,6 +3848,96 @@
       "translation_sha256": "31289fac8943cf9f14948826449372264530f3614c952ccf4b2b9b765235cf79"
     },
     {
+      "id": "coalesced:f37571138dae7b712ae568fd2866a0df01d062e3267d1b804d81cb133c213dd3",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2FieldName.int",
+      "section": "Abazet",
+      "key": "Town",
+      "occurrence": 1,
+      "source_sha256": "ff87a321f6fd03c1c3470bd73d633b340c7e4ad2e1b19d8685b76c8060601da3",
+      "translation_sha256": "1ee22dbdb2bec829b235be5f46ce263e5367973cdce632b7011c15e81ce60c0a"
+    },
+    {
+      "id": "coalesced:dad6b3542da033994247d2c7e2f01e7335a1c2c507880c2ae85db0d2d4968348",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2Item.int",
+      "section": "Ingredient",
+      "key": "tool_box",
+      "occurrence": 1,
+      "source_sha256": "4f313a93cfca436db916d447f61cde425feb412feb6372122e5e3bd79882d30b",
+      "translation_sha256": "5ca6730d441522017552bf309fcddbed161b77440dc3a11d9945788d802afdb3"
+    },
+    {
+      "id": "coalesced:5d992863623803f94140fc26a8266c95d9a5c6739e27a01caac0a3ebac90bbf5",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2Item.int",
+      "section": "Ingredient",
+      "key": "tool_box_D",
+      "occurrence": 1,
+      "source_sha256": "4f89c6d7f9407f54894a6849d9dd94175d33da282faf6d27a18013b1fb3484bb",
+      "translation_sha256": "7413d280136da01fd600732fb70274e4bff2466f043c27f34b75fdea93d05676"
+    },
+    {
+      "id": "coalesced:acbd5233c06800c8088bf88f5b31a33ef404db5201fa8ad22cc216cb13d4c33d",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2Item.int",
+      "section": "Recover",
+      "key": "CandyForNeck",
+      "occurrence": 1,
+      "source_sha256": "c32bec45be8c1707b4c3299408d52e35182e0baddaa1769a2f9ed80c84f42eb6",
+      "translation_sha256": "df6903e3961999a8c7f3734c1d7a79936a68405cdd4e91723ec54cb3124ac0a0"
+    },
+    {
+      "id": "coalesced:d23a8b94f20b44248c3968119d1c320e5d47f031d925862c2e3bd706693e9872",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2Item.int",
+      "section": "Recover",
+      "key": "CandyForNeck_D",
+      "occurrence": 1,
+      "source_sha256": "26af8d5a8382f60fc0cf70c761c3aaa23ba4cd7092f6881fae1a39d00c6ddacb",
+      "translation_sha256": "272897ef47d72a1ca46d21d56e850f3149adca5f6fda41831058cada1996eb68"
+    },
+    {
+      "id": "coalesced:14e8a17fb13fead6a17cd2da7c0bd75102312e04e3da1504cbffd53383f9a86e",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2Item.int",
+      "section": "Recover",
+      "key": "CandyForNeck_S",
+      "occurrence": 1,
+      "source_sha256": "cde9cfc0df8dc40b4f4b7101f54b1e7946a44e400a4905f0f594290678ac0b9e",
+      "translation_sha256": "69c5010f3aa9cfd06dcf8b412d147807b323b301927bd91500c55a88d90eedbd"
+    },
+    {
+      "id": "coalesced:f07ae6059ae15799b34a3a9eca47bc9e2e80189f1d243ad58c8c580b92b3c5d4",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2Item.int",
+      "section": "Valuables",
+      "key": "toolbox_key",
+      "occurrence": 1,
+      "source_sha256": "2f2f70f7a9104de477f34c0d38cfaab7dbe17e01b5b9ec5c2852dd636a7c6a76",
+      "translation_sha256": "01698efc97a095aef9a85180c85ba9f0fb0a4fbd63c1f9dabd20bb68194a1b45"
+    },
+    {
+      "id": "coalesced:1ff58195cb008a0ddd9007612b4988ac2d4c1af2a70cd623c2d4109aefd514da",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2Item.int",
+      "section": "Valuables",
+      "key": "toolbox_key_D",
+      "occurrence": 1,
+      "source_sha256": "076853732a75c5bb51af2d7298ccdabdd15d5bfdf2c373c0a05fdceac028a06e",
+      "translation_sha256": "a8235a126d6b640e0d5dcd0219253e366a5746971e056612d1ab4c2b9784bf89"
+    },
+    {
+      "id": "coalesced:2d863ebd6a27ce51ed5d8b873c975fd4a57dc2fbd03f6b8abc884cd96e151a57",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2Item.int",
+      "section": "Valuables",
+      "key": "trap_material",
+      "occurrence": 1,
+      "source_sha256": "fa3c31069e1e175808e372239edc5000243abd608b97234ded0374137f3efa33",
+      "translation_sha256": "c45505264b1bac608d3406acc07ac42afed0bf106510a00c358727b380d8b4f5"
+    },
+    {
+      "id": "coalesced:356a858e7bbc2fdc5c28dd5b3165daae972e84377f5bd7e73eae29b7d614b113",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2Item.int",
+      "section": "Valuables",
+      "key": "trap_material_D",
+      "occurrence": 1,
+      "source_sha256": "4532ad2e979cd4bbb08341202185ec6ced43e8ea1decd43070bdde721784ae51",
+      "translation_sha256": "4206c0fd1d420f93f3281694afbc5897aa7fa261c47f83f8495d973755c46167"
+    },
+    {
       "id": "coalesced:b4079bb17cec7310c97fe0b162b359f49a7c00e4aa6e3d5fbd1729932f916d68",
       "document": "..\\MC2Game\\Localization\\INT\\MC2NpcTalk.int",
       "section": "Ch00_2",
@@ -1902,6 +3945,15 @@
       "occurrence": 1,
       "source_sha256": "b8a798139f2744ddf1e57fd2782a70444d57334df9df609ed3a30be7ef1d2a9e",
       "translation_sha256": "58bf6f200ca0457747e4a9e1a77f7e4aeac9a63c099f7ccabde7221ed4b07ece"
+    },
+    {
+      "id": "coalesced:a746a588cda7a96b11f3d3d56f900c6d3616df25c1801bd6e7182c5e1b5aac70",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2NpcTalk.int",
+      "section": "Ch01_0",
+      "key": "01_105_00",
+      "occurrence": 1,
+      "source_sha256": "8ff5d017378235620ffe92c86f672cf2f6539eae7c7bed23ecc331ca4d7c9552",
+      "translation_sha256": "9f230ed7b88ea6a36f2101d72423b1fd13f940db1745d5712d6fb4ea351e2e58"
     },
     {
       "id": "coalesced:9a209fc0056ca9e509d7afd126dc16abd77dae1a9252ebb40fc449c189f8c357",
@@ -2282,6 +4334,195 @@
       "translation_sha256": "327fec8ccb0a6fa6bfdee09c533d4d88248654b67fe68411812643b83b1b27d7"
     },
     {
+      "id": "coalesced:8c0e86ef9aac86b2605d627614653a253021c98c16ca3f4502d87effd69bf5d2",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2Quest.int",
+      "section": "Ch01_105_0",
+      "key": "Name",
+      "occurrence": 1,
+      "source_sha256": "92f473bc82d13181f48773aa2037da68f40847761940bf388692be79b4b15794",
+      "translation_sha256": "6729e0dde63a2f2955dd9d7897864a8835cdbe6e22ec64f0baf7c9678296c8d5"
+    },
+    {
+      "id": "coalesced:dfdd0f30e8e1a0ffc2928413340ab6e2d0e6cf04f428230c56fda7aa76ea6a75",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2Quest.int",
+      "section": "Ch01_105_0",
+      "key": "01_105_00",
+      "occurrence": 1,
+      "source_sha256": "b2e00b47978bf5adfebbc80895d121410c32f8456827898da676f3ba17441cc3",
+      "translation_sha256": "893497c35627176001dc84efa04aafd19c083b8a810a06a2d0441b173266c343"
+    },
+    {
+      "id": "coalesced:df32020ae2aaebea6249b59c6742c8b2b9b7e78ebda909311cf4ad84fa0be88c",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2Quest.int",
+      "section": "Ch01_105_0",
+      "key": "01_105_01",
+      "occurrence": 1,
+      "source_sha256": "c734b0f2f82adfa662cd820332b4ff8efc0e656d3e0d11e46294c1b5661a4116",
+      "translation_sha256": "ff1e0846de7f5f23c6d6e8e4b87b818e8afdcdeeefd83dcc18017d2bacea3a19"
+    },
+    {
+      "id": "coalesced:a657a2f2a33bf88a47e22d5dbd66209cd73f365cb4578d1db0094895e8a49418",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2Quest.int",
+      "section": "Ch01_105_0",
+      "key": "01_105_02",
+      "occurrence": 1,
+      "source_sha256": "0e00f06aafb21d2fd35c609ac5df1f64f85563fcde93773dd885fda7dbc937c1",
+      "translation_sha256": "9e741484d16fefd3ebfd00ebddbd18fa0ace65644a274b573dc210da98a56a00"
+    },
+    {
+      "id": "coalesced:b8e62a4e516c14c9c2c3560254b5cea63772d281f23f6b05ddf5aa3ed516edb4",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2Quest.int",
+      "section": "Ch01_105_0",
+      "key": "01_105_03",
+      "occurrence": 1,
+      "source_sha256": "5091f25b235534fbd3cb054da933218905f25d17b961ea84d5035930e4a8256d",
+      "translation_sha256": "1e9f7b454a8d49157b13fcdc484e40496b4dfba75ef0d6a8181a36f6f691ee1b"
+    },
+    {
+      "id": "coalesced:6304f2ca465074202bdeaa6a8913547ae5c84d3a2baba2189c3e966a5ce6cab0",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2Quest.int",
+      "section": "Ch01_105_0",
+      "key": "01_105_04",
+      "occurrence": 1,
+      "source_sha256": "99ea006f5adb8ade93d2d2febd6340f282e21228ea7622032331809c912a8fc3",
+      "translation_sha256": "0c4caf4545980623c6f5132d36f6df2614ecb2c0b1ad9170a3c534bb34e03fde"
+    },
+    {
+      "id": "coalesced:200b408d70eaabbf0cead8b6db7bfa6aed64cf6ab0d2f4d10df87a77a703bcbf",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2Quest.int",
+      "section": "Ch01_105_0",
+      "key": "01_105_yes_00",
+      "occurrence": 1,
+      "source_sha256": "d9dbfcab7ea57b76dc0c83a94797a28390f2274703e8fc5aa4ed0539289b9c21",
+      "translation_sha256": "36fd969bee0c3c64dcad22bf731dede59072da3bcbcc2a83dd9b9f525e4b2846"
+    },
+    {
+      "id": "coalesced:0b9eb6aa3ab418d8e9d3e6eab3ea9730e79121d2d59bfd937b14f027bad66d8e",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2Quest.int",
+      "section": "Ch01_105_0",
+      "key": "01_105_no_00",
+      "occurrence": 1,
+      "source_sha256": "26bba2c1a28544e3e0cf2e88eed22cfcf9ea27cb9ced930dec3e435974143cee",
+      "translation_sha256": "89fb0c58c3afbaece694b4976d9d6b7dc08e81b9f5cf3f3e774774a912922359"
+    },
+    {
+      "id": "coalesced:aba85cfb0d60456126c95aab3c9b92953e5de1cee643348f3c920871dfefe589",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2Quest.int",
+      "section": "Ch01_105_0",
+      "key": "01_105_in_00",
+      "occurrence": 1,
+      "source_sha256": "26d146e32486eaa2c9978aba5c586b55a397a309e8e7bb618bd9d126cce4b09e",
+      "translation_sha256": "9535957374a87df7ff210e21170c40a8bfe6004d2c7a2ff8bd2502bfa99eb276"
+    },
+    {
+      "id": "coalesced:3d31bc3f175530275b0379e3c2bd53e709e299a62242561721a8a78516df4005",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2Quest.int",
+      "section": "Ch01_105_0",
+      "key": "01_105_finish_00",
+      "occurrence": 1,
+      "source_sha256": "8f1b5073ee9d849ed093252db657408583b811a663f73cb2649f4651803b1d59",
+      "translation_sha256": "a27ebec8669d9a97aea306ee91f96212e21f435d903c3e3962e76c8cd79c9b49"
+    },
+    {
+      "id": "coalesced:0e2d9c96f6e63c85a23295b99d320e030fa7bdd99bf19439edd405e7310db1fa",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2Quest.int",
+      "section": "Ch01_105_0",
+      "key": "01_105_finish_01",
+      "occurrence": 1,
+      "source_sha256": "77d8c8395a511b8e2887877c0d27e4e396b300b60656362e9497f8a5ff4971cc",
+      "translation_sha256": "c5b501505933052a5b5dfd5c19c69de6f564c86a85f9aed6f2e1d636c2902b78"
+    },
+    {
+      "id": "coalesced:bca0f456ae19aab45f07c4dec38e8a100c8b312ec09fb9adeac24394cd5ec6c5",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2Quest.int",
+      "section": "Ch01_105_0",
+      "key": "01_113_close_0",
+      "occurrence": 1,
+      "source_sha256": "8971a0f07e6dbe2b8f6b00681f45e5eb6643667b994e2833d5aa447cc9914972",
+      "translation_sha256": "714b9d09d827189f2ebf8975d30bc98f48bb2022181edd5737c170ee7e9b4374"
+    },
+    {
+      "id": "coalesced:768f77c007ebf7a46425bf134c73865e11e1373b2c14c82402df7d83fca2d991",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2Quest.int",
+      "section": "Ch01_105_0",
+      "key": "Des",
+      "occurrence": 1,
+      "source_sha256": "ae811be16ec393eb0e2afbfb6796ee3045ed110bf4df9ddf1405ff11148c2928",
+      "translation_sha256": "f4a164cd85b6cd142449b168cbd0a4336faa53b94095beac992c554415f86fb4"
+    },
+    {
+      "id": "coalesced:2243a689ebb755e98b6d21b7ee0afd14f1cc451912efc0af08cb34fb7b6e2681",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2Quest.int",
+      "section": "Ch01_105_0",
+      "key": "Get_Qitem",
+      "occurrence": 1,
+      "source_sha256": "2c6b5e3760b08d37fa28fbaff94468991e9b87f9816a69d88f2d1aeb9e8dda9f",
+      "translation_sha256": "aa97870567cee276b4b7646e97f5deb58f9256ef38b9acd1ece0cc1588425c34"
+    },
+    {
+      "id": "coalesced:a6fd06499fc780659fe3fdd3d79bc34950e6ec003e8916a29fe91d7023570d34",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2Quest.int",
+      "section": "Ch01_105_0",
+      "key": "get_item",
+      "occurrence": 1,
+      "source_sha256": "58d0ccc92269697f282e3e8f8f42f9a16bdcec419db03b95168de8df4575801f",
+      "translation_sha256": "0975eae50f1ae9c1f21679de252cc492d92b046f3dd7149ddc5e225ed9ea62b1"
+    },
+    {
+      "id": "coalesced:1d0b0e30a5e54407e01f2d70482ba57a5e1f7e245e4b39bdcd9457ee5baa3883",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2Quest.int",
+      "section": "Ch01_105_0",
+      "key": "get_item2",
+      "occurrence": 1,
+      "source_sha256": "bbb19ba054272beb971acee6d54ba31d708aff8f065be9ee67350053bcf97b81",
+      "translation_sha256": "bdff08cfc8030d0ac518af9e4a1bfe8910602695bffe9c83588bacb1efaf535d"
+    },
+    {
+      "id": "coalesced:73d29a87ba113841d2a1b887d1acaa6824af4202c59d944f12e1f6efb8878e8d",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2Quest.int",
+      "section": "Ch01_105_0",
+      "key": "start",
+      "occurrence": 1,
+      "source_sha256": "f48c531d9a6c69fecbb5a55248ed80119aa5a63892b63ad4a78888f2886a5126",
+      "translation_sha256": "e7b34bed4922ba6da22d38eecd5ec6bb028c19ad549a0a4ded1c84e2f9fec126"
+    },
+    {
+      "id": "coalesced:d0632182b0c3988e1f2e063dfc0aecf565ddc410e92808df7caefee97fb10bca",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2Quest.int",
+      "section": "Ch01_105_0",
+      "key": "end",
+      "occurrence": 1,
+      "source_sha256": "11304b5710393e3b6d888d7091f1549fe2c84ff32f7018f1bda905e4d802870f",
+      "translation_sha256": "23b876d106f1c93ce72fd434ea03b26ce661a1dfda7b302cf73fdd41f62d7565"
+    },
+    {
+      "id": "coalesced:6fb0df198c9416131fea4e01456d1d43cc80aac00131e6ba61a6362a522f1780",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2Quest.int",
+      "section": "Ch01_105_0",
+      "key": "goaldesc",
+      "occurrence": 1,
+      "source_sha256": "4f313a93cfca436db916d447f61cde425feb412feb6372122e5e3bd79882d30b",
+      "translation_sha256": "5ca6730d441522017552bf309fcddbed161b77440dc3a11d9945788d802afdb3"
+    },
+    {
+      "id": "coalesced:2a0cf4882440cbcf482c27f752ca7706e740aa755d3ac9ba2f31365f77845b72",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2Quest.int",
+      "section": "Ch01_105_0",
+      "key": "goaldesc1",
+      "occurrence": 1,
+      "source_sha256": "7eb5d1e694f0f08952706cf230f0659a587b8d4086e2103f7b89de17b478fea4",
+      "translation_sha256": "8ed2267d0add3b97c744a5520f3175736ce00c381f5fce1ce821e99b3d2d2e77"
+    },
+    {
+      "id": "coalesced:dd8629b51270ffa39d86addb0b592175af70b3d23bd5cf89874710fd5ac2c83c",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2UI.int",
+      "section": "information",
+      "key": "villter_box",
+      "occurrence": 1,
+      "source_sha256": "b1062084bcfe60fbcc63fd47ed8cab23a49ddcdfca386661ced4dbc8f6b0e6a3",
+      "translation_sha256": "4764b73214d345be6e3cf02362b185e4a668f7e85304d789fa51822cf49ed783"
+    },
+    {
       "id": "coalesced:964be5bd6077a8d63d55569e5fa3ca9dc6b4e2d925b2b9a5d3a84b192e5917d0",
       "document": "..\\MC2Game\\Localization\\INT\\MC2UI.int",
       "section": "information",
@@ -2312,6 +4553,14 @@
     {
       "id": "coalesced:76b26bb411643df1583a0b0b7bf0d10a732334c0acd4cb453c24734d49404fd7",
       "reason": "菜单选项分隔/任务说明/踢击提示的既有功能换行必须保持，不由对话布局策略推及。"
+    },
+    {
+      "id": "coalesced:14e8a17fb13fead6a17cd2da7c0bd75102312e04e3da1504cbffd53383f9a86e",
+      "reason": "工具任务说明或润喉糖短说明的既有功能换行保持，不按对白布局策略删减。"
+    },
+    {
+      "id": "coalesced:768f77c007ebf7a46425bf134c73865e11e1373b2c14c82402df7d83fca2d991",
+      "reason": "工具任务说明或润喉糖短说明的既有功能换行保持，不按对白布局策略删减。"
     }
   ]
 }

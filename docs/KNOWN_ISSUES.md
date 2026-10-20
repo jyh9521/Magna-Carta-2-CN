@@ -1,3 +1,7 @@
+## 第171阶段：邮件已读与实际传输分开
+
+计划CSMB/NPC/Quest/QubeMail语境已覆盖，累计9986/315、392分隔；仍93策略待上下文、5191运行布局待核。匿名信事实立场、试炼宝箱/运输提示未冒充游戏验证。调查原文45与24held分列，2236_2候选未应用。见[阶段171](PHASE_171_QUBE_MAIL_AND_SCENE_CORRESPONDENCE.md)。
+
 ## 第170阶段：任务语境完成不等于游戏验收
 
 全部计划CSMB/NPC/Quest已读；仍有库布信件等文本与93策略待上下文，5191运行布局待核。9797/315累计、零改译。旧省略句候选未应用，43调查原文与24held保留，candidate/unverified不升级。见[阶段170](PHASE_170_INFERNO_MOTH_AND_ELEMENT_LURES.md)。

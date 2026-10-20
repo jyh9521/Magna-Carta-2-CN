@@ -1,3 +1,7 @@
+## 第171阶段：QubeMail物理键与部分计划
+
+95有效section物理190/计划189，E02_016主题六点留原值；另Test/Test占位不观察。主题/正文和E02_002实际复用的E02_001键不按编号归一，保留大小写/occurrence/功能分隔及源译各自空白hash。32/32/31scope分三profile同批记录，门禁未改。见[阶段171](PHASE_171_QUBE_MAIL_AND_SCENE_CORRESPONDENCE.md)。
+
 ## 第170阶段：已知格式语境追加
 
 MC2Quest第十二章126＋common12、角色名2、物品22共162新观察；QUEST/%s/数值/功能换行与尾空格保持。两页19份profile，旧18份不变，原索引仅追加带hash引用；无新格式假设或界限扩张。见[阶段170](PHASE_170_INFERNO_MOTH_AND_ELEMENT_LURES.md)。

@@ -1088,7 +1088,19 @@
 | mc2-remaining-story-items-1082 | 파계의 두루마리 | 破戒卷轴 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:257fe90fd7d43ede656f03245ca2c4f65442d35444f31bf5a84f4cfe45f33273 |
 | mc2-remaining-story-items-1083 | 피뢰의 비녀 | 避雷发簪 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:b6c634906ac93d768f65c3fc106e3e09485576895ac3b68f1df2069cba237df4 |
 | mc2-remaining-story-items-1084 | 제어실 출입카드 | 控制室通行卡 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:058812d5461aafb3d5f5d1c50062d9f35d2520dbd20a4bdd891d0f320d6af837 |
+| mc2-mail-support-1085 | 발화 | 引燃 | field_action | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:331444f25fb8045e12f99e24cc217143219c5472513a24b93258f6ef265e63af |
+| mc2-mail-support-1086 | 팡 | 胖胖 | creature | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:6ff5228f0bec25d763882897fa21bdfba365db88302bc109a9c2be8774c82155 |
+| mc2-mail-support-1087 | 포퐁 | 波蓬 | creature | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:6ff5228f0bec25d763882897fa21bdfba365db88302bc109a9c2be8774c82155 |
+| mc2-mail-support-1088 | 이그니스족 | 伊格尼斯族 | race | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:3b844724a16b16ce28cba7096e39faca34794ae10b35710e2d66a342dfcec4da |
+| mc2-mail-support-1089 | 남부호국군 | 南部护国军 | organization | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:4676ebcb913a5c4c6cf0ed8d9e17752c7c08ce272bcf9f6e878c4499b6ede6e9 |
+| mc2-mail-support-1090 | 북부수호군 | 北部守护军 | organization | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:4676ebcb913a5c4c6cf0ed8d9e17752c7c08ce272bcf9f6e878c4499b6ede6e9 |
+| mc2-mail-support-1091 | 절망의 벽 | 绝望之壁 | object | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:4761d3710481abb23178133cb877da9e33848f268b345cc2d9fe2571a859b279 |
+| mc2-mail-support-1092 | 통곡의 벽 | 恸哭之壁 | object | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:4761d3710481abb23178133cb877da9e33848f268b345cc2d9fe2571a859b279 |
+| mc2-mail-support-1093 | 열혈 | 热血 | status | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:d8a95c888446cb32e981e545a6740167c3415b87321b55b015fa35244ac37f24 |
+| mc2-mail-support-1094 | 大地の民 | 大地之民 | race | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:50b929d89932be9c1ff89b78796ae1508c739e56820457191010c031236c3c64 |
+| mc2-mail-support-1095 | ゼフィ | 洁菲 | character | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:abf4a204b0987c79943092e455f568b207f4bc3d3e65ef3f561146ccc110d535 |
+| mc2-mail-support-1096 | セレスティン | 塞蕾丝汀 | character | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:21064456f8d1c9aaa4b3d07e3b2d4aa5e3f8e9febcc376fe9a7598a9749ea126 |
 
-本作词条：1084；已继承：0。
+本作词条：1096；已继承：0。
 
 固定来源、统计、冲突与审核流程见 [系列术语参考](docs/SERIES_TERMS.md)。

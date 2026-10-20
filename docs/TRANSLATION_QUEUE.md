@@ -1,3 +1,13 @@
+## 第112批接续状态（2026-10-20）
+
+INT累计13,235条draft；160候选新增158见[BATCH_112_MAIL_SUPPORT](BATCH_112_MAIL_SUPPORT.md)，1096项candidate，旧1084保持。
+邮件新增52主题/53正文，现233/235；Test/Test더미占位与E02_016_Sub纯六点主题完整held，正文独立draft，不称53封新增邮件全字段完成。MC2_com_Argo.int全部53字段已有draft，运行配音/字幕用途未验证。
+当前工作区build/batch-112-verification/terminology-workspace；旧13077/所有历史held/新held2/Compose836/921/Item1608/1630/44字幕315cue保持。
+下一阶段核读next-support-candidates.json的289字段：Juto71/Crocell68/Celestin88/Zephi62完整支援组；见next-support-context.txt和next-support-format-audit.json。预审1条Zephi/Celestin/Abnormal_bad_ch3_01源セレスティン后含未知反斜线\じっと，整条待查，不补n或当换行，其他仍须逐条核读，不盲对齐com/communi/JPN表。
+本批E02_002节的实际key仍E02_001_Sub/Con，按section/稳定ID分别保存；菜单초기화核对既有UI译名初始化，不新造重置；E09恸哭之壁与B02恸哭之门、爆裂拳与锤的源组合各保留。
+书信千年前/约1300年前、内战2年前/第3年、经验100%/70%/100%、热血火免疫与50%减伤依源，不当研究结论；AI/HP、全角１两处、功能段落和行边空白保持。新族称/怪物名及日文角色别名均candidate，不提升人工定稿。
+剩余4941原值包含编辑器/样本，非确定玩家待译量；阶段验证清理提交推送核对后自动继续，保留原盘/配置/存档/runs/当前包/依赖/基线回滚研究。不合盘、不生成ISO/整盘副本、不启动模拟器；离线非游戏验收。
+
 ## 第111批接续状态（2026-10-20）
 
 INT累计13,077条draft；271候选新增236见[BATCH_111_LATE_COMMENTS](BATCH_111_LATE_COMMENTS.md)，1084项candidate，旧1073保持。

@@ -1,3 +1,7 @@
+## 第156阶段接续状态（2026-10-21）
+
+最后INT翻译116、14082 INT/315cue draft、1104 candidate保持。117可选场景＋51NPC/79任务/23关联，270 INT新观察，累计6441/315，3297观察/1894上下文待审/5191运行待核，201分隔。主成人礼链76字段完整；寻父仅本章3字段节点，不冒称全跨章节链完成。两个profile扩展、16份门禁不变；当前依赖表build/phase-156-verification/current-packet-hash-preflight.json，玩家包仍149。见[阶段156](PHASE_156_COMING_OF_AGE_CONTEXT.md)。清理提交推送后接续Q07及完整关联任务；默认183预检中Q07/Q08未在本轮计数，下一批须先查完整源/任务链边界，315字幕不重算。
+
 ## 第155阶段接续状态（2026-10-21）
 
 最后INT翻译116、14082 INT/315cue draft、1104 candidate不变。113主线/尾声＋12关联队员状态＋44独立字幕，共169新观察；累计6171 INT/315cue，策略3132/2059待上下文/5191运行待核，194分隔。全部字幕315cue/44资源已建立观察，人工/实际渲染仍未批准；十项已调查原文与24held保持。活动依赖表build/phase-155-verification/current-packet-hash-preflight.json，玩家包仍149。见[阶段155](PHASE_155_ENDING_SUBTITLE_CONTEXT.md)。完成提交推送后接续Q06支线/完整关联任务与未审NPC/队员状态；不以主线尾声或字幕齐备为项目结束，不重复旧6046或六PartyTalk其余未审键。

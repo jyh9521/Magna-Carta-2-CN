@@ -707,7 +707,7 @@
     {
       "id": "coalesced:61308e6a88be659d1ce5928f7d9a42e690c80110fc6e00b804666811ff250291",
       "source_sha256": "642813159d966ae491b3c4363fe8d424f3ae4f7a444c914424d168ce35ca28ef",
-      "translation_sha256": "544bb90d269d16a06d8dc6954967098005b80e7f755752390319bdd60117becd"
+      "translation_sha256": "862883891b40f096f52fccc2dffeba3bd8883eb95146c7b612061d157d7bbbb3"
     },
     {
       "id": "coalesced:a87352747eb82bc6e8734258abf64393ae98f1c20d652db33fac37cde2a3db9d",
@@ -722,7 +722,7 @@
     {
       "id": "coalesced:2aa97204a14a3d563e71889fd62d3f96ebb7ae089d5094157c2fb655c1865c5b",
       "source_sha256": "642813159d966ae491b3c4363fe8d424f3ae4f7a444c914424d168ce35ca28ef",
-      "translation_sha256": "544bb90d269d16a06d8dc6954967098005b80e7f755752390319bdd60117becd"
+      "translation_sha256": "862883891b40f096f52fccc2dffeba3bd8883eb95146c7b612061d157d7bbbb3"
     },
     {
       "id": "coalesced:139e639f0cd62929e14ccec6533e4da46263272d12deadde74f98108687e8572",
@@ -737,7 +737,7 @@
     {
       "id": "coalesced:a34c974bb11e706d56c0e802098b1489393916809b7e6874ea758d014d33d9ba",
       "source_sha256": "642813159d966ae491b3c4363fe8d424f3ae4f7a444c914424d168ce35ca28ef",
-      "translation_sha256": "544bb90d269d16a06d8dc6954967098005b80e7f755752390319bdd60117becd"
+      "translation_sha256": "862883891b40f096f52fccc2dffeba3bd8883eb95146c7b612061d157d7bbbb3"
     },
     {
       "id": "coalesced:f1baab5de78a34515814c3b07ad77b650ad9efd28be51f3932f4617240bcc28a",
@@ -752,7 +752,7 @@
     {
       "id": "coalesced:14ac82b8e9b5ac596fae9e4561a05b0077152ac7ef2b26947d07bcaf868ab93e",
       "source_sha256": "642813159d966ae491b3c4363fe8d424f3ae4f7a444c914424d168ce35ca28ef",
-      "translation_sha256": "544bb90d269d16a06d8dc6954967098005b80e7f755752390319bdd60117becd"
+      "translation_sha256": "862883891b40f096f52fccc2dffeba3bd8883eb95146c7b612061d157d7bbbb3"
     },
     {
       "id": "coalesced:aea02904163a5ecb71d70ff755a8d28d4a08251f4392cff924fa531a99d1e66a",
@@ -1479,6 +1479,37 @@
     "洁菲good_abnormal/HP_30：自信涌出/什么都可做到自身鼓励、阿尔戈太强可怜敌军、露胜局已定与松口气，与自己尚不能倒下/还有事要做和伙伴该休息帮助的阶段区分。源猜测与一定、同伴名呼/自称不任意升格或抹去。",
     "洁菲communi_order/cancel/success/failure：先等后齐心结束战斗、下次别勉强/请配合，取消仍忧心是否真的没事与下次一定叫，成功及时/刚好/总算赶上和失败下次帮忙/对朱特道歉依次核对，不把取消与失败都译成协同成功。",
     "全部ch1/ch2/ch3和_01/_02键独立保留；各处句尾空格、韩文/中文省略号和已有上下文功能换行政策保持。零源译/上下文/玩家资源修改，全部人工/布局/游戏验收false；保留Compose2韩文未计划原值、Chapter01_19仅语法核验、克罗塞尔疏忽措辞/对象配对与邮件时态候选。",
-    "本批9项候选逐项核对：朱特/洁菲/克罗塞尔/阿尔戈/露/塞蕾丝汀名呼及反哨兵部队均对应；활활为旺盛燃烧而非弓，不套词库短子串。全部candidate/unverified。额外只读核验Zephi与Zephie161物理键对齐、161源值一致、114计划目标一致；身份/资源仍分别保留，Zephie114不计作本轮266复核或新增译文，留下一批关联核对。"
+    "本批9项候选逐项核对：朱特/洁菲/克罗塞尔/阿尔戈/露/塞蕾丝汀名呼及反哨兵部队均对应；활활为旺盛燃烧而非弓，不套词库短子串。全部candidate/unverified。额外只读核验Zephi与Zephie161物理键对齐、161源值一致、114计划目标一致；身份/资源仍分别保留，Zephie114不计作本轮266复核或新增译文，留下一批关联核对。",
+    "阶段260依源내 도움 같은 건修饰帮助而非人的类别，四条取消援助译文删除这种人；显式旧/新目标hash取代，primary数量266不变，仍非人审/运行定稿。"
+  ],
+  "target_supersessions": [
+    {
+      "id": "coalesced:61308e6a88be659d1ce5928f7d9a42e690c80110fc6e00b804666811ff250291",
+      "source_sha256": "642813159d966ae491b3c4363fe8d424f3ae4f7a444c914424d168ce35ca28ef",
+      "before_target_sha256": "544bb90d269d16a06d8dc6954967098005b80e7f755752390319bdd60117becd",
+      "after_target_sha256": "862883891b40f096f52fccc2dffeba3bd8883eb95146c7b612061d157d7bbbb3",
+      "phase": 260
+    },
+    {
+      "id": "coalesced:2aa97204a14a3d563e71889fd62d3f96ebb7ae089d5094157c2fb655c1865c5b",
+      "source_sha256": "642813159d966ae491b3c4363fe8d424f3ae4f7a444c914424d168ce35ca28ef",
+      "before_target_sha256": "544bb90d269d16a06d8dc6954967098005b80e7f755752390319bdd60117becd",
+      "after_target_sha256": "862883891b40f096f52fccc2dffeba3bd8883eb95146c7b612061d157d7bbbb3",
+      "phase": 260
+    },
+    {
+      "id": "coalesced:a34c974bb11e706d56c0e802098b1489393916809b7e6874ea758d014d33d9ba",
+      "source_sha256": "642813159d966ae491b3c4363fe8d424f3ae4f7a444c914424d168ce35ca28ef",
+      "before_target_sha256": "544bb90d269d16a06d8dc6954967098005b80e7f755752390319bdd60117becd",
+      "after_target_sha256": "862883891b40f096f52fccc2dffeba3bd8883eb95146c7b612061d157d7bbbb3",
+      "phase": 260
+    },
+    {
+      "id": "coalesced:14ac82b8e9b5ac596fae9e4561a05b0077152ac7ef2b26947d07bcaf868ab93e",
+      "source_sha256": "642813159d966ae491b3c4363fe8d424f3ae4f7a444c914424d168ce35ca28ef",
+      "before_target_sha256": "544bb90d269d16a06d8dc6954967098005b80e7f755752390319bdd60117becd",
+      "after_target_sha256": "862883891b40f096f52fccc2dffeba3bd8883eb95146c7b612061d157d7bbbb3",
+      "phase": 260
+    }
   ]
 }

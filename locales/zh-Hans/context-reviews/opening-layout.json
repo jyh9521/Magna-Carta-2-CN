@@ -7438,7 +7438,7 @@
   "human_finalized": false,
   "input_sha256": "179e265cfc9e6d3e9f2586abe75b5da303b2af9b8484079851dab72f9f7edb8c",
   "kind": "source-locked-context-observations",
-  "plan_canonical_sha256": "38266d01eabbf9e7b54151de06c97919dad73afa7a014af679defdecde85d890",
+  "plan_canonical_sha256": "690cb960290325815ed71673dd77cab8881d915604bc2ce712b70f8db05cae8f",
   "protected_breaks": [
     {
       "id": "coalesced:05c7f647209a224d5a7f3a72c1056dd72f84f0e6291c9606e86027089e6a5402",
@@ -7446,19 +7446,19 @@
     },
     {
       "id": "coalesced:14e8a17fb13fead6a17cd2da7c0bd75102312e04e3da1504cbffd53383f9a86e",
-      "reason": "\u5de5\u5177\u4efb\u52a1\u8bf4\u660e\u6216\u6da6\u5589\u7cd6\u77ed\u8bf4\u660e\u7684\u65e2\u6709\u529f\u80fd\u6362\u884c\u4fdd\u6301\uff0c\u4e0d\u6309\u5bf9\u767d\u5e03\u5c40\u7b56\u7565\u5220\u51cf\u3002"
+      "reason": "工具任务说明或润喉糖短说明的既有功能换行保持，不按对白布局策略删减。"
     },
     {
       "id": "coalesced:a98ce3f3704a31eda17ab85c51942cac2778a980aea08c5042b81adf72499a86",
-      "reason": "\u83dc\u5355\u9009\u9879\u5206\u9694/\u4efb\u52a1\u8bf4\u660e/\u8e22\u51fb\u63d0\u793a\u7684\u65e2\u6709\u529f\u80fd\u6362\u884c\u5fc5\u987b\u4fdd\u6301\uff0c\u4e0d\u7531\u5bf9\u8bdd\u5e03\u5c40\u7b56\u7565\u63a8\u53ca\u3002"
+      "reason": "菜单选项分隔/任务说明/踢击提示的既有功能换行必须保持，不由对话布局策略推及。"
     },
     {
       "id": "coalesced:76b26bb411643df1583a0b0b7bf0d10a732334c0acd4cb453c24734d49404fd7",
-      "reason": "\u83dc\u5355\u9009\u9879\u5206\u9694/\u4efb\u52a1\u8bf4\u660e/\u8e22\u51fb\u63d0\u793a\u7684\u65e2\u6709\u529f\u80fd\u6362\u884c\u5fc5\u987b\u4fdd\u6301\uff0c\u4e0d\u7531\u5bf9\u8bdd\u5e03\u5c40\u7b56\u7565\u63a8\u53ca\u3002"
+      "reason": "菜单选项分隔/任务说明/踢击提示的既有功能换行必须保持，不由对话布局策略推及。"
     },
     {
       "id": "coalesced:768f77c007ebf7a46425bf134c73865e11e1373b2c14c82402df7d83fca2d991",
-      "reason": "\u5de5\u5177\u4efb\u52a1\u8bf4\u660e\u6216\u6da6\u5589\u7cd6\u77ed\u8bf4\u660e\u7684\u65e2\u6709\u529f\u80fd\u6362\u884c\u4fdd\u6301\uff0c\u4e0d\u6309\u5bf9\u767d\u5e03\u5c40\u7b56\u7565\u5220\u51cf\u3002"
+      "reason": "工具任务说明或润喉糖短说明的既有功能换行保持，不按对白布局策略删减。"
     },
     {
       "id": "coalesced:7891151b06f0f293237a17ed6f57c50d90dd39a68cbacad504ad0c554d13de14",
@@ -7492,37 +7492,37 @@
     {
       "complete_section": true,
       "document": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
-      "reason": "\u5907\u6218/\u5b88\u62a4\u8005\u4e0e\u54e8\u5175\u80cc\u666f\uff0c\u77ad\u671b\u53f0\u6307\u793a\uff1b\u5bf9\u8bdd\u5206\u53e5\u5173\u8054\u4fdd\u7559\uff0c\u5e03\u5c40\u4ecd\u5f85\u8fd0\u884c\u590d\u6838\u3002",
+      "reason": "备战/守护者与哨兵背景，瞭望台指示；对话分句关联保留，布局仍待运行复核。",
       "section": "CSMB00_10"
     },
     {
       "complete_section": true,
       "document": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
-      "reason": "\u62c9\u00b7\u65af\u7279\u62c9\u8fbe/\u65af\u7279\u62c9\u65af\u4e0e\u5170\u5179\u6d77\u59c6\u80cc\u666f\uff0cKAN\u5019\u9009\u7528\u8bed\u4fdd\u6301\uff1b\u4e0d\u63a8\u65ad\u8bf4\u8bdd\u4eba\u6216\u8fd0\u884c\u6298\u884c\u3002",
+      "reason": "拉·斯特拉达/斯特拉斯与兰兹海姆背景，KAN候选用语保持；不推断说话人或运行折行。",
       "section": "CSMB00_13"
     },
     {
       "complete_section": true,
       "document": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
-      "reason": "\u62c9\u666e\u65af\u58f3\u73cd\u73e0\u53ca\u6676\u67f1\u6559\u5b66\uff0cA\u952e\u63d0\u793a\u4fdd\u6301\uff1b\u8349\u7a3f\u8bed\u4e49\u8fde\u7eed\uff0c\u5e03\u5c40\u4e0d\u6279\u51c6\u3002",
+      "reason": "拉普斯壳珍珠及晶柱教学，A键提示保持；草稿语义连续，布局不批准。",
       "section": "CSMB00_14"
     },
     {
       "complete_section": true,
       "document": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
-      "reason": "\u5b8c\u657480\u884c\u6218\u6597\u6559\u7a0b\u542bLT/A/X/B/RB/LB\u53ca3\u6b21\u8fde\u51fb\uff1b\u5148\u540e\u987a\u5e8f\u548c\u952e\u4f4d\u4fdd\u6301\uff0c\u4e0d\u6279\u51c6\u5220\u9664\u539f\u6298\u884c\u3002",
+      "reason": "完整80行战斗教程含LT/A/X/B/RB/LB及3次连击；先后顺序和键位保持，不批准删除原折行。",
       "section": "CSMB00_15"
     },
     {
       "complete_section": true,
       "document": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
-      "reason": "\u6731\u7279\u547d\u540d/\u6728\u5251\u4e0e\u771f\u5251\u3001\u6218\u4e8b\u731c\u6d4b\u53ca\u516c\u4e3b\u5230\u8bbf\u8fc7\u6e21\uff1b\u731c\u6d4b\u8bed\u6c14\u548c\u56de\u5fc6\u53d9\u8ff0\u4fdd\u7559\u3002",
+      "reason": "朱特命名/木剑与真剑、战事猜测及公主到访过渡；猜测语气和回忆叙述保留。",
       "section": "CSMB00_18"
     },
     {
       "complete_section": true,
       "document": "..\\MC2Game\\Localization\\INT\\MC2Quest.int",
-      "reason": "\u5b8c\u6574\u63a5\u53d7/\u62d2\u7edd/\u6559\u7a0b/\u8fdb\u884c/\u5b8c\u6210\u4e0e\u76ee\u6807\u94fe\uff1b\u514b\u6d1b\u666e\u65af\u4e0e\u62c9\u666e\u65af\u5206\u5f00\uff0c3\u53ea\u548cQUEST%s/\u9009\u9879\u987a\u5e8f\u4fdd\u6301\u3002",
+      "reason": "完整接受/拒绝/教程/进行/完成与目标链；克洛普斯与拉普斯分开，3只和QUEST%s/选项顺序保持。",
       "section": "Ch00_104_0"
     },
     {
@@ -7662,7 +7662,7 @@
         "South_Merchant",
         "acc_merchant"
       ],
-      "reason": "Cross-profile exact-key ownership consolidation;sourceIDs/occurrences andoriginal scopes retained. Original reasons: Associated named characters and arrival guard role; other late-stage/generic Mare names not added just for count. | Associated commander and NekoNeko role/name aliases; retain shared candidate terms without human-finalization. | Associated names/aliases for recruitment and northern intelligence; shared candidate terms retained, not human-finalized. | Three associated named identities; candidate spellings retained, not finalized. | Same document/section explicit-key union; preserve all earlier selection boundaries, no completeness promotion. Original reasons: Associated candidate names, Vizen/bizen aliases retained separately; no identity finalization. | Both directly associated quest-giver names Kiloti/Switin;existingNicks/Kaytin andpriorhero/archive candidate names reused,not repeated. | Same document/section explicit-key union; preserve all earlier selection boundaries, no completeness promotion. Original reasons: \u6731\u7279/\u6885\u8389\u838e/\u6bd4\u5c14\u7279\u53caMelissa/Mellisa/Mellisa1\u65e2\u6709\u522b\u540d\u9010ID\u4fdd\u7559\uff0c\u4e0d\u5347\u7ea7\u5019\u9009\u672f\u8bed\u3002 | \u6d01\u83f2/\u963f\u5c14\u6208/\u827e\u5c14\u52a0/\u6d77\u56e0\u683c\u5c14\u53ca\u65e2\u6709\u522b\u540d\u6309\u72ec\u7acbID\u4fdd\u6301\uff0c\u4e0d\u5347\u7ea7\u5019\u9009\u3002 | Same document/section explicit-key union; preserve all earlier selection boundaries, no completeness promotion. Original reasons: Associated ruler name; retain shared candidate spelling and do not promote character dialogue allegations to omniscient fact. | Threeunobservednamefields:South_Malacia/malacia aredistinctsourceIDswithsamecandidate;albedo retained. OldVizen/bizen andoldritualhosts not recounted ormerged. | Igton rescue and Firewine private-contract associated character names; do not infer earlier rumor status. | Two new candidate-namefieldsKenaros/Drago;oldzeroha/Malaciaforms/Bizenhosts notrecounted. Preserveexistingnameswithnocross-charactermerge. | Associated Maris name matches Crocell household scene; retain original Marice key and candidate spelling. | Four Avis followups plus Cooks/Zeroha/Nicks/two Nicks variants; preserve key nicks _heal whitespace, do not conflate two informants. | Balfour name linked to full wife rescue chain; prior Nicks/First/Second/Elga names or candidate references reused rather than recounted. | Phase161newearlyislandNPCnames/roles;duplicateSouthLightarmorkeysretainbothoccurrences,notdeduplicated. | Phase162addcompletecitygeneric14/residentroles4/guildnamed4/guildroles3/harbor-lodging2 explicitnamefields;notallDefault. | Phase163PongandAbazetoldfoxcompletechains:300vs1000SIDand15/20vs20/25/30prizesseparate;onceonlyrewards;windstunhuntnot hammergame;Huansfatherrequest/escort/letterstages;6blackNeco/5Crowbeast;RT/XYand3roads;key/chest/bell/bombconditional. SourceIDs/duplicateoccurrences/functionalparagraphsandtrailingwhitespaceretained. Rumor/planisnotverifiedruntime;draftnotfinal. | Phase164completeMareNPC/transition/support/intelligence/threeofficermessengerquests/fourmerchantdelivery-revengechains;old6and4NPCnotrecounted,duplicate03_313_00occurrencesseparate. Before/afterwelcomeandsuspicionnotuniformapproval;chiefno-firstattackandKilotiintentdifferent;10percent/3messengers/4mushrooms/functionalparagraphsretained;rewardsdraftnotfinal. Gastrapgameitemnotrealliferecipe;no extramechanism orruntimeQAclaim. | Phase165wholeCh04Abazet227remainingNPC/oldfox15/threecompletegate-scout-stolenKamondquests;15oldcitynotrecounted. Reports/propaganda/suspicionandactualeventsseparate;refugeesandprices/portstillclosed;unknownfemaleidentity/GuardianSentineloriginquestionsnotresolved;ZerglonefeelslikeShuenRegalnotresurrection. 500SID/XYchoicesand2ndcapital/functionallines/trailingwhitespacepreserved. Labelsnotruntimeactorbindingproof;draftnotfinal. | Phase166whole38/52Ch04AbazetfollowupNPC+completeChapter05sixquests101+associatedguard/root/swordfields6. Preparation/victory-stage viewpoints separate;enemywithdrawal/immortalityrumors not engineproof;guardgroupsforest/coast distinct;healing-before-liberation causalorder;rootresurrectionlegend not actualresurrection. All numeric/button/QUEST/case/trailing-space/functionallines preserved. 2236_2unfinishedsource/captivityinterpretation remains explicitly pending candidate,not approved. Context-observed nothumanfinalized/nor runtimeapproved. | Phase167whole166AbazetRuhaltmobilizationNPC+twoassociatedprofessionlabels+threeRatiqueenherb/maskfields;oldpoison_ratinameandcomplete06_225_0questrecheckednotrecounted. Rumor/propaganda/concern not enginefacts;landrouteopenandportresumed-then-stopped distinct;Schneiderangernotliteralexplosion;KANexhaustionhypothesisandveteranssilenceunresolved. Exactoccurrences/numeric/control/functionalbreaks/trailingwhitespacepreserved. 2236_2unfinishedpredicatecandidate remainssemanticpending,notapproved/applied. Draftnotfinal/nor runtimeverified.",
+      "reason": "Cross-profile exact-key ownership consolidation;sourceIDs/occurrences andoriginal scopes retained. Original reasons: Associated named characters and arrival guard role; other late-stage/generic Mare names not added just for count. | Associated commander and NekoNeko role/name aliases; retain shared candidate terms without human-finalization. | Associated names/aliases for recruitment and northern intelligence; shared candidate terms retained, not human-finalized. | Three associated named identities; candidate spellings retained, not finalized. | Same document/section explicit-key union; preserve all earlier selection boundaries, no completeness promotion. Original reasons: Associated candidate names, Vizen/bizen aliases retained separately; no identity finalization. | Both directly associated quest-giver names Kiloti/Switin;existingNicks/Kaytin andpriorhero/archive candidate names reused,not repeated. | Same document/section explicit-key union; preserve all earlier selection boundaries, no completeness promotion. Original reasons: 朱特/梅莉莎/比尔特及Melissa/Mellisa/Mellisa1既有别名逐ID保留，不升级候选术语。 | 洁菲/阿尔戈/艾尔加/海因格尔及既有别名按独立ID保持，不升级候选。 | Same document/section explicit-key union; preserve all earlier selection boundaries, no completeness promotion. Original reasons: Associated ruler name; retain shared candidate spelling and do not promote character dialogue allegations to omniscient fact. | Threeunobservednamefields:South_Malacia/malacia aredistinctsourceIDswithsamecandidate;albedo retained. OldVizen/bizen andoldritualhosts not recounted ormerged. | Igton rescue and Firewine private-contract associated character names; do not infer earlier rumor status. | Two new candidate-namefieldsKenaros/Drago;oldzeroha/Malaciaforms/Bizenhosts notrecounted. Preserveexistingnameswithnocross-charactermerge. | Associated Maris name matches Crocell household scene; retain original Marice key and candidate spelling. | Four Avis followups plus Cooks/Zeroha/Nicks/two Nicks variants; preserve key nicks _heal whitespace, do not conflate two informants. | Balfour name linked to full wife rescue chain; prior Nicks/First/Second/Elga names or candidate references reused rather than recounted. | Phase161newearlyislandNPCnames/roles;duplicateSouthLightarmorkeysretainbothoccurrences,notdeduplicated. | Phase162addcompletecitygeneric14/residentroles4/guildnamed4/guildroles3/harbor-lodging2 explicitnamefields;notallDefault. | Phase163PongandAbazetoldfoxcompletechains:300vs1000SIDand15/20vs20/25/30prizesseparate;onceonlyrewards;windstunhuntnot hammergame;Huansfatherrequest/escort/letterstages;6blackNeco/5Crowbeast;RT/XYand3roads;key/chest/bell/bombconditional. SourceIDs/duplicateoccurrences/functionalparagraphsandtrailingwhitespaceretained. Rumor/planisnotverifiedruntime;draftnotfinal. | Phase164completeMareNPC/transition/support/intelligence/threeofficermessengerquests/fourmerchantdelivery-revengechains;old6and4NPCnotrecounted,duplicate03_313_00occurrencesseparate. Before/afterwelcomeandsuspicionnotuniformapproval;chiefno-firstattackandKilotiintentdifferent;10percent/3messengers/4mushrooms/functionalparagraphsretained;rewardsdraftnotfinal. Gastrapgameitemnotrealliferecipe;no extramechanism orruntimeQAclaim. | Phase165wholeCh04Abazet227remainingNPC/oldfox15/threecompletegate-scout-stolenKamondquests;15oldcitynotrecounted. Reports/propaganda/suspicionandactualeventsseparate;refugeesandprices/portstillclosed;unknownfemaleidentity/GuardianSentineloriginquestionsnotresolved;ZerglonefeelslikeShuenRegalnotresurrection. 500SID/XYchoicesand2ndcapital/functionallines/trailingwhitespacepreserved. Labelsnotruntimeactorbindingproof;draftnotfinal. | Phase166whole38/52Ch04AbazetfollowupNPC+completeChapter05sixquests101+associatedguard/root/swordfields6. Preparation/victory-stage viewpoints separate;enemywithdrawal/immortalityrumors not engineproof;guardgroupsforest/coast distinct;healing-before-liberation causalorder;rootresurrectionlegend not actualresurrection. All numeric/button/QUEST/case/trailing-space/functionallines preserved. 2236_2unfinishedsource/captivityinterpretation remains explicitly pending candidate,not approved. Context-observed nothumanfinalized/nor runtimeapproved. | Phase167whole166AbazetRuhaltmobilizationNPC+twoassociatedprofessionlabels+threeRatiqueenherb/maskfields;oldpoison_ratinameandcomplete06_225_0questrecheckednotrecounted. Rumor/propaganda/concern not enginefacts;landrouteopenandportresumed-then-stopped distinct;Schneiderangernotliteralexplosion;KANexhaustionhypothesisandveteranssilenceunresolved. Exactoccurrences/numeric/control/functionalbreaks/trailingwhitespacepreserved. 2236_2unfinishedpredicatecandidate remainssemanticpending,notapproved/applied. Draftnotfinal/nor runtimeverified.",
       "section": "Default"
     },
     {
@@ -7673,7 +7673,7 @@
         "villter_box",
         "Savepoint"
       ],
-      "reason": "Same document/section explicit-key union; preserve all earlier selection boundaries, no completeness promotion. Original reasons: \u62c9\u666e\u65af\u58f3\u5173\u8054\u4ea4\u4e92\u540d\u79f0\uff0c\u4e0d\u4e0e\u514b\u6d1b\u666e\u65af\u602a\u7269\u6df7\u540c\u3002 | \u6bd4\u5c14\u7279\u7684\u7bb1\u5b50\u4ea4\u4e92UI\u4e0e\u672c\u8f6e\u94a5\u5319/\u5de5\u5177\u4efb\u52a1\u5bf9\u5e94\uff1b\u4e0a\u4e00\u8f6e\u4ec5\u5ba1\u8bfb\u62c9\u666e\u65af\u58f3UI\uff0c\u672c\u9879\u9996\u6b21\u7eb3\u5165\u9501\u5b9a\u89c2\u5bdf\u3002 | Phase166exactownershipmerge originalscope: Associated cube mail, leader selection and pillar UI labels; no translation of unknown Help/Change fragment, keep exact source identity.",
+      "reason": "Same document/section explicit-key union; preserve all earlier selection boundaries, no completeness promotion. Original reasons: 拉普斯壳关联交互名称，不与克洛普斯怪物混同。 | 比尔特的箱子交互UI与本轮钥匙/工具任务对应；上一轮仅审读拉普斯壳UI，本项首次纳入锁定观察。 | Phase166exactownershipmerge originalscope: Associated cube mail, leader selection and pillar UI labels; no translation of unknown Help/Change fragment, keep exact source identity.",
       "section": "information"
     },
     {
@@ -7682,85 +7682,85 @@
       "keys": [
         "00_12"
       ],
-      "reason": "\u77ad\u671b\u53f0\u6807\u9898\u53ca\u5c3e\u7a7a\u683c\u4fdd\u6301\uff0c\u4e0e\u6307\u8def\u53f0\u8bcd\u5173\u8054\u3002",
+      "reason": "瞭望台标题及尾空格保持，与指路台词关联。",
       "section": "Movie"
     },
     {
       "complete_section": true,
       "document": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
-      "reason": "\u6551\u6cbb\u4f24\u5175\u4e0e\u6d1e\u7a9f\u5e26\u8def\uff1b\u6d01\u83f2\u672c\u540d/\u963f\u5c14\u6208\u53ca\u7279\u96f7\u74e6\u65cf\u6309\u6e90\u4fdd\u7559\uff0c\u5e73\u6c11\u4ec5\u5e26\u8def\u627f\u8bfa\u4e0d\u6539\u3002",
+      "reason": "救治伤兵与洞窟带路；洁菲本名/阿尔戈及特雷瓦族按源保留，平民仅带路承诺不改。",
       "section": "CSMB00_21"
     },
     {
       "complete_section": true,
       "document": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
-      "reason": "\u8bf7\u6c42\u540c\u884c\u3001\u6728\u5251\u4e0e\u771f\u5251\u5206\u6b67\u3001\u5371\u9669\u65f6\u8fd4\u56de\u7684\u627f\u8bfa\u5b8c\u6574\u4fdd\u7559\uff1b\u4e0d\u628a\u6885\u8389\u838e\u5199\u6210\u8840\u7f18\u5173\u7cfb\u3002",
+      "reason": "请求同行、木剑与真剑分歧、危险时返回的承诺完整保留；不把梅莉莎写成血缘关系。",
       "section": "CSMB00_22"
     },
     {
       "complete_section": true,
       "document": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
-      "reason": "\u4f24\u5175\u56de\u62a5\u4e0e\u518d\u6b21\u529d\u8fd4\uff0c\u5b88\u5907\u961f\u957f/\u6885\u8389\u838e\u5173\u8054\u53ca\u6682\u65f6\u8fd4\u56de\u7684\u5e94\u7b54\u4fdd\u6301\u3002",
+      "reason": "伤兵回报与再次劝返，守备队长/梅莉莎关联及暂时返回的应答保持。",
       "section": "CSMB00_25"
     },
     {
       "complete_section": true,
       "document": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
-      "reason": "\u9707\u52a8\u540e\u575a\u6301\u786e\u8ba4\u3001\u5b88\u62a4\u8005\u5371\u9669\u4e0e\u4e0d\u5f97\u79bb\u961f\u6761\u4ef6\uff1b\u548c\u6b64\u524d\u627f\u8bfa\u6709\u610f\u51b2\u7a81\uff0c\u4e0d\u673a\u68b0\u7edf\u4e00\u3002",
+      "reason": "震动后坚持确认、守护者危险与不得离队条件；和此前承诺有意冲突，不机械统一。",
       "section": "CSMB00_31"
     },
     {
       "complete_section": true,
       "document": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
-      "reason": "\u654c\u65b9\u5bf9\u7cbe\u9510/\u5b88\u62a4\u8005\u6218\u51b5\u7684\u95f4\u63a5\u56de\u62a5\u4e0e\u827e\u5c14\u52a0\u51fa\u52a8\uff0c\u4e0d\u628a\u672a\u6307\u540d\u8005\u731c\u5b9a\u4e3a\u67d0\u89d2\u8272\u3002",
+      "reason": "敌方对精锐/守护者战况的间接回报与艾尔加出动，不把未指名者猜定为某角色。",
       "section": "CSMB00_50"
     },
     {
       "complete_section": true,
       "document": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
-      "reason": "\u4e09\u5929\u660f\u8ff7\u3001\u6cbb\u6108\u672f\u3001\u6728\u5251\u529b\u91cf\u7126\u8651\u548c\u8fd0\u8d70\u5b88\u62a4\u8005\u7684\u8bf7\u6c42\uff1b3\u5929\u4e0e\u963f\u5df4\u6cfd\u7279\u5019\u9009\u5730\u540d\u4fdd\u6301\u3002",
+      "reason": "三天昏迷、治愈术、木剑力量焦虑和运走守护者的请求；3天与阿巴泽特候选地名保持。",
       "section": "CSMB01_05"
     },
     {
       "complete_section": true,
       "document": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
-      "reason": "\u516c\u4e3b\u4e0d\u5728\u4e0e\u7a0d\u7b49\u7684\u5b8c\u6574\u4e24\u53e5\u8fc7\u6e21\uff0c\u4e0d\u6269\u5199\u7b49\u5f85\u539f\u56e0\u3002",
+      "reason": "公主不在与稍等的完整两句过渡，不扩写等待原因。",
       "section": "CSMB01_07"
     },
     {
       "complete_section": true,
       "document": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
-      "reason": "\u529b\u91cf\u7126\u8651/\u4fdd\u62a4\u4ed6\u4eba\u53ca\u65e0\u6cd5\u81ea\u4e3b\u63a7\u5236\u7684\u5bf9\u7167\uff0c\u6761\u4ef6\u8bed\u6c14\u4fdd\u7559\uff0c\u4e0d\u628a\u7279\u6b8a\u529b\u91cf\u5b9a\u6027\u4e3a\u5df2\u8bc1\u8eab\u4efd\u3002",
+      "reason": "力量焦虑/保护他人及无法自主控制的对照，条件语气保留，不把特殊力量定性为已证身份。",
       "section": "CSMB01_11"
     },
     {
       "complete_section": true,
       "document": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
-      "reason": "\u6885\u8389\u838e\u59d0\u5f1f\u822c\u5bb6\u4eba\u5173\u7cfb\u3001\u5b89\u6170\u8bed\u6c14\u4e0e\u65b0\u6728\u5251\u672a\u6253\u78e8\u7684\u4ea4\u4ee3\u4fdd\u7559\uff0c\u4e0d\u5f3a\u5199\u8840\u7f18\u3002",
+      "reason": "梅莉莎姐弟般家人关系、安慰语气与新木剑未打磨的交代保留，不强写血缘。",
       "section": "CSMB01_15"
     },
     {
       "complete_section": true,
       "document": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
-      "reason": "\u8eab\u4f53\u9178\u75db\u3001\u53bb\u7237\u7237\u5bb6\u4f11\u606f\u7684\u72ec\u767d\u8fc7\u6e21\u4fdd\u6301\u3002",
+      "reason": "身体酸痛、去爷爷家休息的独白过渡保持。",
       "section": "CSMB01_17"
     },
     {
       "complete_section": true,
       "document": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
-      "reason": "\u518d\u6b21\u5165\u4fb5/\u9632\u58c1\u8fce\u6218\u4e0e\u4e3b\u52a8\u5e2e\u5fd9\uff0c\u5148\u524d\u5b88\u62a4\u8005\u8fd0\u51fa\u8bf7\u6c42\u548c\u6b64\u65f6\u6218\u51b5\u533a\u5206\u3002",
+      "reason": "再次入侵/防壁迎战与主动帮忙，先前守护者运出请求和此时战况区分。",
       "section": "CSMB01_21"
     },
     {
       "complete_section": true,
       "document": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
-      "reason": "\u8fd0\u8239\u53d7\u963b\u3001\u98ce\u5c5e\u6027\u7729\u6655/\u6c89\u9ed8\u9012\u8fdb\u53ca\u6da6\u5589\u7cd6\u5e94\u5bf9\uff1b\u6982\u7387\u800c\u975e\u5fc5\u5b9a\u3001\u654f\u6377/\u56de\u907f\u4e0e\u6280\u80fd\u9650\u5236\u4fdd\u6301\u3002",
+      "reason": "运船受阻、风属性眩晕/沉默递进及润喉糖应对；概率而非必定、敏捷/回避与技能限制保持。",
       "section": "CSMB01_25"
     },
     {
       "complete_section": true,
       "document": "..\\MC2Game\\Localization\\INT\\MC2Quest.int",
-      "reason": "\u5b8c\u657420\u5b57\u6bb5\u9001\u5de5\u5177/\u9677\u9631\u6750\u6599\u5173\u8054\uff0c\u94a5\u5319\u4e0e\u7bb1\u5b50\u6307\u5f15\u3001\u8fdb\u5ea6QUEST%s\u4fdd\u6301\uff1b\u6e90\u524d\u9762/\u65c1\u8fb9\u5dee\u5f02\u53ca01_113_close_0\u8de8\u7f16\u53f7\u5173\u8054\u4e0d\u64c5\u81ea\u4fee\u9f50\u3002",
+      "reason": "完整20字段送工具/陷阱材料关联，钥匙与箱子指引、进度QUEST%s保持；源前面/旁边差异及01_113_close_0跨编号关联不擅自修齐。",
       "section": "Ch01_105_0"
     },
     {
@@ -7775,7 +7775,7 @@
         "Power_plant",
         "liandal"
       ],
-      "reason": "\u59d4\u6258\u5de5\u5177\u53ca\u8bf4\u660e\u4e0e\u9001\u5de5\u5177\u4efb\u52a1\u4e00\u81f4\u3002 | Phase164exactownershipmerge originalscope: Full associated item name/descriptions; Mere plant spores are not pollen, mushrooms2 are not earlier strange mushrooms4; numeric targets preserved. | Phase164exactownershipmerge originalscope: EarlyislandNPC/quest/context:preparation vsactualinvasion,hearsay/heroquestionsnotprovedidentity;fourflower/fivehornandallfunctionalquestcontrolsretained. Rescue/curegoalsnotautomaticsuccess;latefruitgriefnotnewtimermechanism. Explicitremainingkeys excludeoldIDs/unknownoriginals. SourceNPCduplicatekeyoccurrencesseparate. Phase161literal3/\u7b2c\u4e09recordwaswithheld;phase162repairnowobserved,oldexclusionretainedinhistoricalreport.",
+      "reason": "委托工具及说明与送工具任务一致。 | Phase164exactownershipmerge originalscope: Full associated item name/descriptions; Mere plant spores are not pollen, mushrooms2 are not earlier strange mushrooms4; numeric targets preserved. | Phase164exactownershipmerge originalscope: EarlyislandNPC/quest/context:preparation vsactualinvasion,hearsay/heroquestionsnotprovedidentity;fourflower/fivehornandallfunctionalquestcontrolsretained. Rescue/curegoalsnotautomaticsuccess;latefruitgriefnotnewtimermechanism. Explicitremainingkeys excludeoldIDs/unknownoriginals. SourceNPCduplicatekeyoccurrencesseparate. Phase161literal3/第三recordwaswithheld;phase162repairnowobserved,oldexclusionretainedinhistoricalreport.",
       "section": "Ingredient"
     },
     {
@@ -7804,7 +7804,7 @@
         "42_Detoxipotion_D",
         "42_Detoxipotion_S"
       ],
-      "reason": "\u6da6\u5589\u7cd6\u5168/\u77ed\u8bf4\u660e\u5747\u89e3\u96641\u540d\u6210\u5458\u7684\u7729\u6655\u4e0e\u6c89\u9ed8\uff1b\u77ed\u8bf4\u660e\u529f\u80fd\u6362\u884c\u4fdd\u7559\u3002 | Phase163PongandAbazetoldfoxcompletechains:300vs1000SIDand15/20vs20/25/30prizesseparate;onceonlyrewards;windstunhuntnot hammergame;Huansfatherrequest/escort/letterstages;6blackNeco/5Crowbeast;RT/XYand3roads;key/chest/bell/bombconditional. SourceIDs/duplicateoccurrences/functionalparagraphsandtrailingwhitespaceretained. Rumor/planisnotverifiedruntime;draftnotfinal. | Phase164exactownershipmerge originalscope: Full associated item name/descriptions; Mere plant spores are not pollen, mushrooms2 are not earlier strange mushrooms4; numeric targets preserved.",
+      "reason": "润喉糖全/短说明均解除1名成员的眩晕与沉默；短说明功能换行保留。 | Phase163PongandAbazetoldfoxcompletechains:300vs1000SIDand15/20vs20/25/30prizesseparate;onceonlyrewards;windstunhuntnot hammergame;Huansfatherrequest/escort/letterstages;6blackNeco/5Crowbeast;RT/XYand3roads;key/chest/bell/bombconditional. SourceIDs/duplicateoccurrences/functionalparagraphsandtrailingwhitespaceretained. Rumor/planisnotverifiedruntime;draftnotfinal. | Phase164exactownershipmerge originalscope: Full associated item name/descriptions; Mere plant spores are not pollen, mushrooms2 are not earlier strange mushrooms4; numeric targets preserved.",
       "section": "Recover"
     },
     {

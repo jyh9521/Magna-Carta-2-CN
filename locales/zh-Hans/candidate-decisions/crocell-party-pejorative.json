@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "kind": "source-grounded-candidate-adjudication",
+  "phase": 263,
+  "resource": "MC2Game/Localization/Coalesced.int",
+  "input_sha256": "179e265cfc9e6d3e9f2586abe75b5da303b2af9b8484079851dab72f9f7edb8c",
+  "plan_canonical_sha256": "0fa4e34323a90fa4c6f2301a5232b2adc197fd751afac6fa61c06932317dff93",
+  "context_fields": 218,
+  "source_physical": 300,
+  "known_originals_retained": 82,
+  "new_primary_consistency_fields": 0,
+  "new_translations": 0,
+  "new_context_entries": 0,
+  "translation_edits": 1,
+  "decisions": [
+    {
+      "id": "coalesced:3664b9521df5407c06669fc2a9e43fa116fe90afe06f62d295c1cb4af9ee7604",
+      "source_sha256": "1b61d85e8daa4997d830adcaa874155b6e940d6ebab5bbc1bb7fb04b8c5b484e",
+      "before_translation": "老狐峡谷的北部军杂种们。\\n给我等着！",
+      "translation": "老狐峡谷的北部军混蛋们。\\n给我等着！",
+      "translation_sha256": "1cdedd8786d9bc0a0d8ce03af82e2e026b5814c778249344fb67ae6cfdeaf094",
+      "reason": "놈들 conveys contempt toward enemy soldiers;混蛋 preserves hostile voice supported by same-character party dialogue without adding the birth-based slur杂种;one functional break retained",
+      "status": "source-grounded-draft-correction"
+    }
+  ],
+  "retained_related_pejoratives": [
+    {
+      "id": "coalesced:e491718fec9c981b0afb29a67db4966f7319e8cb0c9aabfeb56c4b1edbf5f012",
+      "source_sha256": "6f35b07b4637ad42b0142e7cc13c6b86d46b9f8eb27093e342d3d08813f788be",
+      "translation_sha256": "a2d64469a4b5ac46eae73b041917c22710ced520720f98f3e010d76027ffc987",
+      "source": "해저동굴로 가봐야지.\\n도대체 남부군이라 위세 떠는 놈들이\\n어떤 놈들인지 똑똑히 봐야겠어.",
+      "translation": "得去海底洞窟看看。\\n那些仗着南部军名头耀武扬威的家伙，\\n我倒要看清楚他们是什么货色。"
+    },
+    {
+      "id": "coalesced:5df3749f3200fe090220ac465c4219baf579bf46113961cf652db6e3d687394f",
+      "source_sha256": "c3ba82ac3189622123b6da50b40f8f3fda56e7ab699e57e7e96cee1ba99565e4",
+      "translation_sha256": "1797d7d9e7d3d01ebd1606817b4c4256f14f2a69f64937a292bdfe4b5e97b275",
+      "source": "북부군 자식들. 가는 곳마다 오는구만.\\n이번에야말로 뜨거운 맛을 보여줄 테다.",
+      "translation": "北部军这帮混蛋，走到哪儿都能碰上。\\n这次非得让他们尝尝厉害。"
+    },
+    {
+      "id": "coalesced:0218ee120d33659843901f2c2f24454392528051786b782067ceaface15fe94e",
+      "source_sha256": "4e698e4a4e72f1036070379fa140af06770a2884c8967d83587c95724b3a1550",
+      "translation_sha256": "74f13a5a498551bd88869464f9122a1f9efc8a6dc6ed7fa661393dabd19f442d",
+      "source": "상관없는 민간인들에게 그런 짓을 하다니.\\n북부군 놈들...가만 놔두지 않겠어.",
+      "translation": "竟然对无辜的平民做出这种事。\\n北部军那帮家伙……我绝不放过他们。"
+    },
+    {
+      "id": "coalesced:f3d580a255acdfb5b7b80fb36bacab197b5c21c1751c415d2aa7639db12ce01e",
+      "source_sha256": "08470578744080ffdd535b3652cfed44d26cf95599488d9807772b4752745e48",
+      "translation_sha256": "183b0a28bbf10e2f089092231e53d0b11ba121482f18905c561fd6c9584cce87",
+      "source": "다음 목적지는 루할트인가.\\n루할트 분지에 있는 북부군 놈들도\\n깨끗하게 처리해주지.",
+      "translation": "下一个目的地是鲁哈尔特啊。\\n鲁哈尔特盆地的北部军混蛋，\\n我也会收拾得干干净净。"
+    }
+  ],
+  "human_finalized": false,
+  "runtime_layout_approved": false,
+  "game_rendering_verified": false
+}

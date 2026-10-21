@@ -38,7 +38,7 @@ class AbazetReturnBatchTests(unittest.TestCase):
         self.assertIn('[猫猫炸弹]', description['translation'])
         self.assertTrue(all('line_break_policy' not in e for e in rows))
         rt = [e['translation'] for e in self.plan['entries'] if '[RT]' in e['translation']]
-        self.assertEqual(rt, ['请在移动模式下按[RT]，从场地行动列表中选择炸弹并使用。'])
+        self.assertEqual(rt, ['请在移动模式下按[RT]，从场景动作列表中选择炸弹并使用。'])
         self.assertIn('QUEST : 障碍物破坏完成', [e['translation'] for e in self.plan['entries']])
     def test_operation_semantics_and_queen(self):
         values = [e['translation'] for e in self.plan['entries']]

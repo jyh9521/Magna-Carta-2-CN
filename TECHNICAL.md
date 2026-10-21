@@ -1,3 +1,7 @@
+## 第174阶段：朱特15scope单次追加
+
+272新成员/15scope、旧2复读；旧24profile与10428完整context/400保护记录保持，索引一引用追加。现10700/315、5191/0/5191、410保护，25profile。原2790依赖2789保持，索引1变+1新profile=2791，资源/字体/TOC/入口仍164。见[阶段174](docs/PHASE_174_JUTO_BATTLE_RESPONSES_AND_SKILLS.md)。
+
 ## 第173阶段：最后18策略语境观察
 
 206新成员/6scope，旧23份10222完整context/400功能记录保持，索引一引用追加。现10428/315、5191已观察/0待上下文/5191待运行、24profile。原2789依赖2788保持，索引1变+1新profile=2790；所有译文/资源/字体/TOC/入口不变。见[阶段173](docs/PHASE_173_PARTY_VOICES_AND_CONTEXT_POLICY_CLOSURE.md)。

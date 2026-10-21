@@ -1,3 +1,7 @@
+## 第174阶段：INT混合语言与空变体
+
+朱特283物理/274计划/272新/2旧，9空原值为九事件Zephi_ch2_01；不以其他变体补空。communi韩文、com日文保留实际embedded_path。全角１、TAB、前导/尾空白及同文不同槽位保持；10显式_Battle换行字段保护，单行变体不强制拆行。见[阶段174](PHASE_174_JUTO_BATTLE_RESPONSES_AND_SKILLS.md)。
+
 ## 第173阶段：PartyTalk字面省略字段
 
 六家族物理300/计划218/旧12/新206，另82原值均为三个英文句点，保留原字符，不纳入新观察。第12/13章物理ID不去重；塞蕾丝汀两结尾文字不同。scope明确keys，原occurrence/大小写/尾空白hash保持，无格式假设扩张。见[阶段173](PHASE_173_PARTY_VOICES_AND_CONTEXT_POLICY_CLOSURE.md)。

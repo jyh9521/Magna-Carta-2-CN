@@ -21,4 +21,10 @@ class AbazetAftermathTests(unittest.TestCase):
  def test_subtitles_and_held_preserved(self):
   held={e['id'] for n in range(1,85) for e in L(f'locales/zh-Hans/batch-{n:03d}.review.json').get('held_entries',[])};self.assertFalse(held&{e['id'] for e in self.p['entries']});plans=L('locales/zh-Hans/subtitle-profile.json')['plans'][:44];self.assertEqual(sum(len(L(p['path'])['entries']) for p in plans),315)
   for p in plans:self.assertEqual(hashlib.sha256((R/p['path']).read_bytes()).hexdigest(),p['sha256'])
+ def test_missed_capture_is_past_counterfactual_not_future_or_accomplished(self):
+  entry=next(e for e in self.p['entries'] if e['id']=='coalesced:8103e09ed5a8cfa98593d018eb94bf5edc3f3494ba681d991d576d5853aa615b')
+  self.assertEqual(entry,{'id': 'coalesced:8103e09ed5a8cfa98593d018eb94bf5edc3f3494ba681d991d576d5853aa615b', 'source_sha256': 'ae4fbae87f48ab8cee6a4352771f1b184e2032b5436ced30206c27bc94cff044', 'translation': '要是真的，那可太可惜了。要是当时抓住了那家伙，战争就已经结束了。', 'line_break_policy': {'source_count': 2, 'target_count': 0}})
+  self.assertEqual(self.r['status'],'draft')
+  self.assertIn('要是真的',entry['translation']);self.assertIn('要是当时抓住了',entry['translation'])
+  self.assertIn('战争就已经结束了',entry['translation'])
 if __name__=='__main__':unittest.main()

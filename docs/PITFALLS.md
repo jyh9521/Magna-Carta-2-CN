@@ -1,3 +1,7 @@
+## 第261阶段：三处通信失败“疏忽”草稿裁决
+
+完整184上下文/134原值后，三处うっかり误加忘记改为一时疏忽；两处明确忘れる保持，不重复primary。batch113/116及42语境/旧复核3目标hash显式重锁；双盘重建与现有目录增量刷新261，不启动模拟器。基线/旧源1749，修改/干净源1750。见[阶段261](PHASE_261_COMMUNICATION_INADVERTENCE.md)。
+
 ## 第260阶段：主角援助语法四处草稿修订
 
 完整通信上下文223/原值9后，四条내 도움 같은 건删除额外“这种人”，不重复primary；燃尽双关仍待查。显式重锁batch115/workflow/42语境/旧复核4目标hash，字库需求等价；双盘重建与同目录hash增量刷新260，不启动游戏。基线/旧源1748，修改/干净源1749。见[阶段260](PHASE_260_JUTO_HELP_MODIFIER.md)。
@@ -1480,3 +1484,7 @@ The full modified suite exposed four legacy assertions pinning the active first 
 第164阶段完整验证复用两标量模板时，精确差异集合本已只有一项但计数仍为2，断言正确中止；按本轮唯一候选改为1且保留完整ID集合等式。因两个上下文输出已存在，先核8条日志和25实际回滚hash/旧套件，再守卫续行，不能盲目重复创建新输出。
 
 阶段244验证发现：整资源复核的物理分区必须从完整源资源枚举，不能仅从有译文计划的队列提取。Crocell两个纯空分区共33原值仍需保留身份/回填验证；它们不计新增译文。部分分区证据与全资源修正/重测分别留存。
+
+### 第261阶段验证辅助脚本编码修复
+
+首次完整资源核验在日文忘れ保留对照处失败：辅助脚本一次省略encoding的read_text在Windows默认代码页解码后将日文断言字面量变成乱码。修改源码1750和独立旧Git源码1749测试均已通过，双盘重放和同目录增量刷新已完成；失败没有修改译文或放宽断言。保留verify-phase.failed-encoding.py及verify_phase.failed-encoding.log，重新从260原脚本按UTF-8生成261验证脚本，仍断言同一忘れ来源与原目标hash；改用新的source-rollback-utf8和reproduced-workspace-full-resource-utf8隔离输出完整复验，不重复刷新/重建或删除旧证据。后续所有文本read_text/write_text须显式encoding=UTF-8。

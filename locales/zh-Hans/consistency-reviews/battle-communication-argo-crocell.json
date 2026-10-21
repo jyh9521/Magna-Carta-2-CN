@@ -1027,7 +1027,7 @@
     {
       "id": "coalesced:fa4b04a546a0eaae6bbf57e558c6038e14ccd726376deb42dbdf08cde77a31d6",
       "source_sha256": "3e3deaafdab9fe763b93b61539997e2f8ec3d857f39f69115d1b15b398361ec9",
-      "translation_sha256": "92942d6047d1e8c5a9d86cb2f61eb4f8047442178f6f47b8ef265cc969af2e78"
+      "translation_sha256": "296f99eae601cf17da3d5e5a0d2bb83a2fc4e4c1802bb21b9e3bf66602d34c75"
     },
     {
       "id": "coalesced:a7fa6e701be2db57ad687de0baa5aa12722081e9738e7de695c261283274eb06",
@@ -1051,6 +1051,17 @@
     "日文communi_failure/Juto_ch1_01的うっかりしちまった为一时疏忽，现译“一不留神就忘了”更具体。记下候选第三行“一时疏忽了。”等待正式译值/资源修订，不在仅复核元数据阶段自动采纳。角色/对象配对与此措辞候选均未人工定稿。",
     "180有效草稿一轮复核，零新增译文/上下文/玩家资源；ID、盘别、源语言、保护码/功能换行/末尾空格和所有人工/布局/游戏验收状态保持。Compose2韩文原值排除原因/术语仍待解、Chapter01_19语法已知但用途未验、邮件时态等待修订证据继续保留。",
     "本批3项候选逐项核对：제피→洁菲4处、세레스틴→塞蕾丝汀1处、日文ルウ→露2处，源/目标字面对应均存在；仍保留candidate/unverified而非人工定稿。韩/日姓名共享候选只用于核对，不改源语言、键/资源归属或已保留的空原值。",
-    "全资源复查发现Crocell的bad_abnormal15与good_abnormal18两个纯空分区不会被有译文键队列选中；现已按完整资源补入33空值/2分区的保留证明，计划180不变。全资源应为18复合分区323物理/143原值，不能把16有计划分区290物理称为完整资源。新发现全为空且均在既有调查清单内，不新增译文或改源值。"
+    "全资源复查发现Crocell的bad_abnormal15与good_abnormal18两个纯空分区不会被有译文键队列选中；现已按完整资源补入33空值/2分区的保留证明，计划180不变。全资源应为18复合分区323物理/143原值，不能把16有计划分区290物理称为完整资源。新发现全为空且均在既有调查清单内，不新增译文或改源值。",
+    "阶段261仅将うっかり误加的忘记改为一时疏忽，显式旧/新目标hash取代，原primary计数不增；明确忘れる的另两处保留，仍非人审/运行定稿。"
+  ],
+  "target_supersessions": [
+    {
+      "id": "coalesced:fa4b04a546a0eaae6bbf57e558c6038e14ccd726376deb42dbdf08cde77a31d6",
+      "source_sha256": "3e3deaafdab9fe763b93b61539997e2f8ec3d857f39f69115d1b15b398361ec9",
+      "before_target_sha256": "92942d6047d1e8c5a9d86cb2f61eb4f8047442178f6f47b8ef265cc969af2e78",
+      "after_target_sha256": "296f99eae601cf17da3d5e5a0d2bb83a2fc4e4c1802bb21b9e3bf66602d34c75",
+      "phase": 261,
+      "review": "locales/zh-Hans/consistency-reviews/battle-communication-argo-crocell.json"
+    }
   ]
 }

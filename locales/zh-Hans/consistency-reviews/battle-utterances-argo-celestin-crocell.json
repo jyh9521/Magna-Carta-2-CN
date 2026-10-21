@@ -738,7 +738,7 @@
     {
       "id": "coalesced:6a7ed2f402cb63b02357d97eae5702928f2aaddcac6b3c1c24869158bea66d71",
       "source_sha256": "cbf6c0392bf60fb0385429a27cb652cc31d38a63389b4f1c294d0263f069b6de",
-      "translation_sha256": "f26984be2b32e5c51bf7a01c50b0da41ae2942b560c3c50cebd38d33feb11829"
+      "translation_sha256": "e4cf898e3a14abeffaf7f2a913ad0dc90f90cc3e555795a2151c28661a5f7a31"
     },
     {
       "id": "coalesced:cd766205a4c27d030953fcf951129b360d5e6a1bdd0782d9060a8a28a0c8adc8",
@@ -1048,7 +1048,7 @@
     {
       "id": "coalesced:aad6c7a37ce4522c3142976d0e1d4ce8adc0ca3c598846e12bd32b4962a84ce4",
       "source_sha256": "3e3deaafdab9fe763b93b61539997e2f8ec3d857f39f69115d1b15b398361ec9",
-      "translation_sha256": "2799f8ed84772a255c9c48bdef5e425acaae0b09933c0b6cb5ecdb72a15f454a"
+      "translation_sha256": "da0677a03bdaf2af3fcd21db1437a34623827d97141b116330e33e34183d6a35"
     },
     {
       "id": "coalesced:18a4ed1626e19d494e57c8a33a247f4f3bbcdda24a2e4abe61d986d66c08fd6a",
@@ -1181,6 +1181,25 @@
     "克罗塞尔common52、Juto3、Zephi7、Celestin2、Rue1、自身3合68：俺様/炎的自夸、控制力量/休息/代替、异常治疗/别动、有利状态承认实力或担忧同伴、低HP援助、协同接受/取消不满/成功逞强及失败时机分别核对；火KAN充沛与火拳有效不增数值。",
     "克罗塞尔common/Communi_failure_01的戦いに熱中し過ぎて/うっかりしちまった现译战斗太投入/一不留神就忘了；记录一时疏忽了候选并关联上一批communi_Crocell证据，但两资源中文第二行不同，禁止整句盲拷。Juto及Celestin大块头相关句按源对象保留，运行配对未验证，不按体型调换。",
     "王女拯救世界也应休息、因露责备而关心王女、塞蕾丝汀经验不足、露强者也累以及自身放慢节奏/不服输等分别保留，前后期人称/称呼不跨资源归一。旧2日文/2韩文未计划原值、邮件时态、朱特燃尽/取消措辞及其他候选继续保留待查。",
-    "本批10项共享候选术语大地の民/大地のタミ、水のタミ、マレ及六名日文姓名逐项核对，所有字面目标均存在；仍candidate/unverified，不标人工定稿。"
+    "本批10项共享候选术语大地の民/大地のタミ、水のタミ、マレ及六名日文姓名逐项核对，所有字面目标均存在；仍candidate/unverified，不标人工定稿。",
+    "阶段261仅将うっかり误加的忘记改为一时疏忽，显式旧/新目标hash取代，原primary计数不增；明确忘れる的另两处保留，仍非人审/运行定稿。"
+  ],
+  "target_supersessions": [
+    {
+      "id": "coalesced:6a7ed2f402cb63b02357d97eae5702928f2aaddcac6b3c1c24869158bea66d71",
+      "source_sha256": "cbf6c0392bf60fb0385429a27cb652cc31d38a63389b4f1c294d0263f069b6de",
+      "before_target_sha256": "f26984be2b32e5c51bf7a01c50b0da41ae2942b560c3c50cebd38d33feb11829",
+      "after_target_sha256": "e4cf898e3a14abeffaf7f2a913ad0dc90f90cc3e555795a2151c28661a5f7a31",
+      "phase": 261,
+      "review": "locales/zh-Hans/consistency-reviews/battle-utterances-argo-celestin-crocell.json"
+    },
+    {
+      "id": "coalesced:aad6c7a37ce4522c3142976d0e1d4ce8adc0ca3c598846e12bd32b4962a84ce4",
+      "source_sha256": "3e3deaafdab9fe763b93b61539997e2f8ec3d857f39f69115d1b15b398361ec9",
+      "before_target_sha256": "2799f8ed84772a255c9c48bdef5e425acaae0b09933c0b6cb5ecdb72a15f454a",
+      "after_target_sha256": "da0677a03bdaf2af3fcd21db1437a34623827d97141b116330e33e34183d6a35",
+      "phase": 261,
+      "review": "locales/zh-Hans/consistency-reviews/battle-utterances-argo-celestin-crocell.json"
+    }
   ]
 }

@@ -15,10 +15,16 @@ class AbazetSiegeTests(unittest.TestCase):
   for t in ['反哨兵部队','希昂·雷格拉尔','泽格隆','拉提族','狼人','杜南丘陵','老狐峡谷','黑刃要塞','阿维斯族']:self.assertIn(t,ts)
   self.assertIn('一位新来的女战士',ts);self.assertNotIn('蕾洁菲尔妲守卫黑刃要塞',ts)
  def test_early_questions_not_future_exposition(self):
-  ts=[e['translation'] for e in self.p['entries']];self.assertTrue(any('盲目追随' in t and t.endswith('呢？') for t in ts));self.assertIn('怎么会落到，修恩扎伊特那种家伙手里……',ts);self.assertTrue(any('是不是在哪里，有工厂或研究所' in t for t in ts));self.assertFalse(any('工厂确实位于' in t or '北部军必须盲目服从' in t for t in ts))
+  ts=[e['translation'] for e in self.p['entries']];self.assertTrue(any('盲目追随' in t and t.endswith('呢？') for t in ts));self.assertIn('怎么会对修恩扎伊特那种家伙……',ts);self.assertTrue(any('是不是在哪里，有工厂或研究所' in t for t in ts));self.assertFalse(any('工厂确实位于' in t or '北部军必须盲目服从' in t for t in ts))
  def test_two_question_variants_and_joke_context(self):
   ts=[e['translation'] for e in self.p['entries']];self.assertIn('不过，到底是在哪里制造的呢？是不是在哪里，有工厂或研究所？',ts);self.assertIn('不过，到底是在哪里制造的呢？有工厂或研究所吗？',ts);self.assertIn('嘻嘻呵——其实，我是阿维斯族的王子。',ts);self.assertIn('我是来寻找，人类新娘的。',ts);self.assertIn('……',ts);self.assertIn('你该不会，真的信了吧？',ts)
  def test_subtitles_and_held_preserved(self):
   held={e['id'] for n in range(1,84) for e in L(f'locales/zh-Hans/batch-{n:03d}.review.json').get('held_entries',[])};self.assertFalse(held&{e['id'] for e in self.p['entries']});plans=L('locales/zh-Hans/subtitle-profile.json')['plans'][:44];self.assertEqual(sum(len(L(p['path'])['entries']) for p in plans),315)
   for p in plans:self.assertEqual(hashlib.sha256((R/p['path']).read_bytes()).hexdigest(),p['sha256'])
+ def test_ellipsis_keeps_source_lock_without_capture_predicate(self):
+  entry=next(e for e in self.p['entries'] if e['id']=='coalesced:a930b88dcc0601f96b720060e894344e8084703541b0bfe54079a544757f1c13')
+  self.assertEqual(entry,{'id': 'coalesced:a930b88dcc0601f96b720060e894344e8084703541b0bfe54079a544757f1c13', 'source_sha256': '7e8226bca8ff542656ce4775b48bc7e3b9109301a3cc9c7e71dcaea2195bff64', 'translation': '怎么会对修恩扎伊特那种家伙……'})
+  self.assertEqual(self.r['status'],'draft')
+  self.assertNotIn('落到',entry['translation']);self.assertNotIn('手里',entry['translation'])
+  self.assertTrue(entry['translation'].endswith('……'))
 if __name__=='__main__':unittest.main()

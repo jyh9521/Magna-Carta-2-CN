@@ -183,7 +183,7 @@
     {
       "id": "coalesced:4a52efdcf2cfcac36ebf7fa1304b2cf1c70b5bf03d9303f8fe89c888d874d2e7",
       "source_sha256": "cce42aee47905ef639bdb64b5c0e2373a5b1a634edc3622959632bf944a6cd05",
-      "translation_sha256": "c70ee40235d8b15e44bdc0495874efc228186b37cd99906423b735cfc79a0eb7"
+      "translation_sha256": "7e2f76900c4918a51fbe7302b53b5744ca2e247734cb2460d2c543c0d6e4ecd7"
     },
     {
       "id": "coalesced:c2adeb70b69af05b382cc626d551acd03c8a5c59c84d25709000c794d178e75f",
@@ -1182,7 +1182,8 @@
     "克罗塞尔common/Communi_failure_01的戦いに熱中し過ぎて/うっかりしちまった现译战斗太投入/一不留神就忘了；记录一时疏忽了候选并关联上一批communi_Crocell证据，但两资源中文第二行不同，禁止整句盲拷。Juto及Celestin大块头相关句按源对象保留，运行配对未验证，不按体型调换。",
     "王女拯救世界也应休息、因露责备而关心王女、塞蕾丝汀经验不足、露强者也累以及自身放慢节奏/不服输等分别保留，前后期人称/称呼不跨资源归一。旧2日文/2韩文未计划原值、邮件时态、朱特燃尽/取消措辞及其他候选继续保留待查。",
     "本批10项共享候选术语大地の民/大地のタミ、水のタミ、マレ及六名日文姓名逐项核对，所有字面目标均存在；仍candidate/unverified，不标人工定稿。",
-    "阶段261仅将うっかり误加的忘记改为一时疏忽，显式旧/新目标hash取代，原primary计数不增；明确忘れる的另两处保留，仍非人审/运行定稿。"
+    "阶段261仅将うっかり误加的忘记改为一时疏忽，显式旧/新目标hash取代，原primary计数不增；明确忘れる的另两处保留，仍非人审/运行定稿。",
+    "阶段262仅将戻るはずだ的预期语气补为应该会恢复正常，显式旧/新目标hash取代，原primary计数不增；相邻直接承诺及韩文独立来源保留，仍非人审/运行定稿。"
   ],
   "target_supersessions": [
     {
@@ -1199,6 +1200,14 @@
       "before_target_sha256": "2799f8ed84772a255c9c48bdef5e425acaae0b09933c0b6cb5ecdb72a15f454a",
       "after_target_sha256": "da0677a03bdaf2af3fcd21db1437a34623827d97141b116330e33e34183d6a35",
       "phase": 261,
+      "review": "locales/zh-Hans/consistency-reviews/battle-utterances-argo-celestin-crocell.json"
+    },
+    {
+      "id": "coalesced:4a52efdcf2cfcac36ebf7fa1304b2cf1c70b5bf03d9303f8fe89c888d874d2e7",
+      "source_sha256": "cce42aee47905ef639bdb64b5c0e2373a5b1a634edc3622959632bf944a6cd05",
+      "before_target_sha256": "c70ee40235d8b15e44bdc0495874efc228186b37cd99906423b735cfc79a0eb7",
+      "after_target_sha256": "7e2f76900c4918a51fbe7302b53b5744ca2e247734cb2460d2c543c0d6e4ecd7",
+      "phase": 262,
       "review": "locales/zh-Hans/consistency-reviews/battle-utterances-argo-celestin-crocell.json"
     }
   ]

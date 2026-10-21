@@ -1,0 +1,66 @@
+{
+  "schema_version": 1,
+  "kind": "source-grounded-candidate-adjudication",
+  "phase": 262,
+  "resource": "MC2Game/Localization/Coalesced.int",
+  "input_sha256": "179e265cfc9e6d3e9f2586abe75b5da303b2af9b8484079851dab72f9f7edb8c",
+  "plan_canonical_sha256": "c29f5d56e12557ff6c39703d3257c8a3c3256ac99724ff2a9f864ca81c2df64e",
+  "context_fields": 205,
+  "source_physical": 214,
+  "known_originals_retained": 9,
+  "new_primary_consistency_fields": 0,
+  "new_translations": 0,
+  "new_context_entries": 0,
+  "translation_edits": 1,
+  "decisions": [
+    {
+      "id": "coalesced:4a52efdcf2cfcac36ebf7fa1304b2cf1c70b5bf03d9303f8fe89c888d874d2e7",
+      "source_sha256": "cce42aee47905ef639bdb64b5c0e2373a5b1a634edc3622959632bf944a6cd05",
+      "before_translation": "冷静点，很快\\n就会恢复正常。\\n最好别动。",
+      "translation": "冷静点，很快\\n应该会恢复正常。\\n最好别动。",
+      "translation_sha256": "7e2f76900c4918a51fbe7302b53b5744ca2e247734cb2460d2c543c0d6e4ecd7",
+      "reason": "戻るはずだ expresses an expected recovery rather than a guaranteed outcome;retain two functional line breaks and direct promises in adjacent fields",
+      "status": "source-grounded-draft-correction"
+    }
+  ],
+  "retained_direct_promises": [
+    {
+      "id": "coalesced:303d3a39fd6c9d19e3aa866cea42368840f46a3f620074f542648b65624709bf",
+      "source_sha256": "b1a1a8f98db1d24e9f192a5b36ef70a75c7dfa6e616558d55f6b7ab62cd9bdf1",
+      "translation_sha256": "518b10d6705647b443ed513d020ab6489b8f55c2b984bf96e67f1f29f8e19e77",
+      "source": "진정해. 곧 괜찮아질 거다.",
+      "translation": "冷静点。很快就会没事的。"
+    },
+    {
+      "id": "coalesced:bcd2795bae7a37f25a0977b79eaa0f18401136667771a0198767bab42063f948",
+      "source_sha256": "b1a1a8f98db1d24e9f192a5b36ef70a75c7dfa6e616558d55f6b7ab62cd9bdf1",
+      "translation_sha256": "518b10d6705647b443ed513d020ab6489b8f55c2b984bf96e67f1f29f8e19e77",
+      "source": "진정해. 곧 괜찮아질 거다.",
+      "translation": "冷静点。很快就会没事的。"
+    },
+    {
+      "id": "coalesced:168dae35865ad43eeb55c4106effa6e37f25ca42c6c6cce5d1f46df7c39d82ec",
+      "source_sha256": "b1a1a8f98db1d24e9f192a5b36ef70a75c7dfa6e616558d55f6b7ab62cd9bdf1",
+      "translation_sha256": "518b10d6705647b443ed513d020ab6489b8f55c2b984bf96e67f1f29f8e19e77",
+      "source": "진정해. 곧 괜찮아질 거다.",
+      "translation": "冷静点。很快就会没事的。"
+    },
+    {
+      "id": "coalesced:4717fca42e9ecf2372073548483fb29083456808d70ef8a57ffc84238f7456a8",
+      "source_sha256": "30d079d42fed5ede3d69abb0973608afc245d1046d2485858274c9fb039aef3d",
+      "translation_sha256": "7fd79e2ed39a98911131bdfe2e6de283bb60721d4701c480b4ce3b90ccde0245",
+      "source": "すぐに治してやる\\nあまり動き回るな",
+      "translation": "我马上替你治好，\\n别到处乱动。"
+    },
+    {
+      "id": "coalesced:c2adeb70b69af05b382cc626d551acd03c8a5c59c84d25709000c794d178e75f",
+      "source_sha256": "2987fd1c2f208e55525ce45a98fdaabe63d40bfb31487a89a5e38203b40d95d0",
+      "translation_sha256": "ca9a0504965f8faf2b7c834a78e2fbf6d28baabca6a51685acdd6f5b50f61cad",
+      "source": "すぐに良くなる\\n落ち着いて\\n回復を待つんだ",
+      "translation": "很快就会好。\\n冷静下来，\\n等待恢复。"
+    }
+  ],
+  "human_finalized": false,
+  "runtime_layout_approved": false,
+  "game_rendering_verified": false
+}

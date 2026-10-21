@@ -31,4 +31,10 @@ class CraftingTests(unittest.TestCase):
   for e in load('locales/zh-Hans/translation-workflow.json')['batches'][103].values():self.assertEqual(hashlib.sha256((R/e['path']).read_bytes()).hexdigest(),e['sha256'])
   plans=load('locales/zh-Hans/subtitle-profile.json')['plans'];self.assertEqual(len(plans),44);self.assertEqual(sum(len(load(e['path'])['entries']) for e in plans),315)
   for e in plans:self.assertEqual(hashlib.sha256((R/e['path']).read_bytes()).hexdigest(),e['sha256'])
+ def test_odorless_material_description_keeps_source_lock_and_draft_status(self):
+  identity='coalesced:a236cf4d00f9d2e905f95c1ac1054ac1fb85fcf6f66e6dbaea6feacac3beb1a6'
+  entry=next(e for e in self.p['entries'] if e['id']==identity)
+  self.assertEqual(entry,{'id':identity,'source_sha256':'98faf56aaa6afa66f15a85e7d705689c620e6626610433991331c27cf08fb070','translation':'用作黏合剂原料的无气味液体'})
+  self.assertEqual(self.r['status'],'draft')
+  self.assertEqual(next(e for e in self.r['entries'] if e['id']==identity)['text_kind'],'item_description')
 if __name__=='__main__':unittest.main()

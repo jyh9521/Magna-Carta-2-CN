@@ -1,3 +1,7 @@
+## 第175阶段：同文不同战斗槽位
+
+阿尔戈258物理/249计划/248新/1旧，9空源Zephi_ch2_01保留。日文assist_01/02及cancel_03/success_01同文不去重，原键/occurrence/全角１/空白保持。新增11_Battle明确换行保护，二行/三行/单行按实际源值，不按后缀盲目重排。见[阶段175](PHASE_175_ARGO_BATTLE_RESPONSES_AND_SKILLS.md)。
+
 ## 第174阶段：INT混合语言与空变体
 
 朱特283物理/274计划/272新/2旧，9空原值为九事件Zephi_ch2_01；不以其他变体补空。communi韩文、com日文保留实际embedded_path。全角１、TAB、前导/尾空白及同文不同槽位保持；10显式_Battle换行字段保护，单行变体不强制拆行。见[阶段174](PHASE_174_JUTO_BATTLE_RESPONSES_AND_SKILLS.md)。

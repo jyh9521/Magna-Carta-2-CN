@@ -1,3 +1,7 @@
+## 第175阶段：阿尔戈15scope追加
+
+248新成员/15scope、旧1复读，旧25profile与10700完整context/410保护保持，索引仅一引用追加。现10948/315、5191/0/5191、421保护，26profile。原2791依赖2790不变，索引1变+1新profile=2792，资源/字体/TOC/入口仍164。见[阶段175](docs/PHASE_175_ARGO_BATTLE_RESPONSES_AND_SKILLS.md)。
+
 ## 第174阶段：朱特15scope单次追加
 
 272新成员/15scope、旧2复读；旧24profile与10428完整context/400保护记录保持，索引一引用追加。现10700/315、5191/0/5191、410保护，25profile。原2790依赖2789保持，索引1变+1新profile=2791，资源/字体/TOC/入口仍164。见[阶段174](docs/PHASE_174_JUTO_BATTLE_RESPONSES_AND_SKILLS.md)。

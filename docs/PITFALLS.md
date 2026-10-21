@@ -1,3 +1,7 @@
+## 第175阶段：同文槽位与别名不随意去重
+
+阿尔戈assist和cancel/success源文同文仍是不同事件槽；洁菲两个别名文档即使字段投影一致，也不得删除、重命名或合并来源。未知反斜杠序列/未完句保持原文，不据相似正常台词填补。见[阶段175](PHASE_175_ARGO_BATTLE_RESPONSES_AND_SKILLS.md)。
+
 ## 第174阶段：文件名INT不代表所有值同一源语言
 
 communi韩文与com日文均来自当前INT容器，不能跨文档替换/去重。九空Zephi_ch2_01不是漏译；同文HP与取消槽不自动纠正。全角１和字面TAB不归一；_Battle有单行也有多行，不能按后缀盲目插换行。见[阶段174](PHASE_174_JUTO_BATTLE_RESPONSES_AND_SKILLS.md)。

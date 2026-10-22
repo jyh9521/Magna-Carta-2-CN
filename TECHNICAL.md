@@ -1,3 +1,7 @@
+## 第289阶段：章节入口图片实际回填
+
+章节入口ch01_01_vill三别名实际替换为既有地名“风息岛村庄”；通用有界BC3文字层工具、显式font→texture hash链与双盘29/31资源包。区域外块/padding保持，Font与INT/字幕不变。仅一组图片，不宣称全图片完成；继续其他章节/BOSS/GameOver。见[实际纹理汉化与构建](docs/PHASE_289_TEXTURE_LOCALIZATION.md)。
+
 ## 第288阶段：11条真实回填与State函数所有权修复
 
 batch121累计14159：Huaren已证静态HP差量两片段、七个升级/队伍/共享主语片段、两未完任务句；不填缺失内容。通用读取器正式支持单层State→Class，保留严格头尾和参数检查。章节/战败图片真实缺口与像素别名已定位，下一步实际纹理汉化。见[本轮采用与接续](docs/PHASE_288_STATE_RECOVERY_AND_PARTY_ADOPTION.md)。

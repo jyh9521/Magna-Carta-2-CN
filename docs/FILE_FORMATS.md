@@ -1,3 +1,7 @@
+## 第289阶段
+
+图片文字工具保持单mip/raw或LZX bulk结构，追加导出并同时修正SourceArt与mip绝对指针；授权区域按BC3四像素块对齐。 见[纹理汉化](PHASE_289_TEXTURE_LOCALIZATION.md)。
+
 ## 第288阶段：11条真实回填与State函数所有权修复
 
 batch121累计14159：Huaren已证静态HP差量两片段、七个升级/队伍/共享主语片段、两未完任务句；不填缺失内容。通用读取器正式支持单层State→Class，保留严格头尾和参数检查。章节/战败图片真实缺口与像素别名已定位，下一步实际纹理汉化。见[本轮采用与接续](PHASE_288_STATE_RECOVERY_AND_PARTY_ADOPTION.md)。

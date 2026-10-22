@@ -1,3 +1,7 @@
+## 第289阶段
+
+压缩包追加chunk后logical头chunk-count会变化；完整回读比较须仅按实际重建表校正此字段，不能误拒有效输出。纹理必须叠加既有Font包，不能用原始MC2Game覆盖。 见[纹理汉化](PHASE_289_TEXTURE_LOCALIZATION.md)。
+
 ## 第288阶段：11条真实回填与State函数所有权修复
 
 batch121累计14159：Huaren已证静态HP差量两片段、七个升级/队伍/共享主语片段、两未完任务句；不填缺失内容。通用读取器正式支持单层State→Class，保留严格头尾和参数检查。章节/战败图片真实缺口与像素别名已定位，下一步实际纹理汉化。见[本轮采用与接续](PHASE_288_STATE_RECOVERY_AND_PARTY_ADOPTION.md)。

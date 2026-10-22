@@ -1,3 +1,7 @@
+## 第289阶段：章节入口图片实际回填
+
+章节入口ch01_01_vill三别名实际替换为既有地名“风息岛村庄”；通用有界BC3文字层工具、显式font→texture hash链与双盘29/31资源包。区域外块/padding保持，Font与INT/字幕不变。仅一组图片，不宣称全图片完成；继续其他章节/BOSS/GameOver。见[实际纹理汉化与构建](docs/PHASE_289_TEXTURE_LOCALIZATION.md)。
+
 # 《真名法典2》简体中文汉化
 
 Xbox 360 版《MagnaCarta II》（마그나카르타 2）的简体中文汉化与可重建本地化工具链。

@@ -1,3 +1,7 @@
+## 第289阶段：图片汉化实际推进
+
+ch01_01_vill三别名已采用“风息岛村庄”，双盘29/31资源；INT仍batch121/14159。下一其余章节/BOSS/GameOver图片，见[阶段289](PHASE_289_TEXTURE_LOCALIZATION.md)。
+
 ## 第288阶段：11条真实回填与State函数所有权修复
 
 batch121累计14159：Huaren已证静态HP差量两片段、七个升级/队伍/共享主语片段、两未完任务句；不填缺失内容。通用读取器正式支持单层State→Class，保留严格头尾和参数检查。章节/战败图片真实缺口与像素别名已定位，下一步实际纹理汉化。见[本轮采用与接续](PHASE_288_STATE_RECOVERY_AND_PARTY_ADOPTION.md)。

@@ -27,10 +27,13 @@ from tools.subtitle_text import parse as parse_subtitles
 from tools.update_resource_sizes import update_sizes_reversible
 
 
-def merge_resources(originals,font_updates,subtitle_updates,text_plan,ledger,toc_spec):
+def merge_resources(originals,font_updates,subtitle_updates,text_plan,ledger,toc_spec,texture_updates=None):
     """Pure byte composition; component identity/Font checks are performed by prepare."""
     text_path=text_plan['resource'];toc_path=toc_spec['path']
-    roles=list(font_updates)+list(subtitle_updates)+[text_path,toc_path]
+    texture_updates={} if texture_updates is None else texture_updates
+    if not isinstance(texture_updates,dict) or set(texture_updates)&(set(subtitle_updates)|{text_path,toc_path}):
+        raise ValueError('texture composition role conflict')
+    roles=list(font_updates)+list(subtitle_updates)+[p for p in texture_updates if p not in font_updates]+[text_path,toc_path]
     for path in roles:_relative(path)
     if len(set(p.casefold() for p in roles))!=len(roles) or set(originals)!=set(roles):
         raise ValueError('composition roles overlap or originals do not match this disc')
@@ -43,6 +46,11 @@ def merge_resources(originals,font_updates,subtitle_updates,text_plan,ledger,toc
         retention=dict(entries=[],retained_literal_codepoints=[],font_coverage_verified=False,
                        unknown_control_syntax_resolved=False,game_rendering_verified=False)
     current={**font_updates,**subtitle_updates,text_path:rebuild(originals[text_path],text_plan)}
+    for path,row in texture_updates.items():
+        base=current.get(path,originals[path])
+        if set(row)!={'base_sha256','data'} or digest(base)!=row['base_sha256'] or not isinstance(row['data'],bytes):
+            raise ValueError('texture composition base chain mismatch')
+        current[path]=row['data']
     changes=[dict(path=p,expected_size=len(originals[p]),new_size=len(b))
              for p,b in current.items() if len(b)!=len(originals[p])]
     current[toc_path],toc_report=update_sizes_reversible(originals[toc_path],toc_spec['sha256'],changes)
@@ -105,6 +113,14 @@ def prepare(plan,root,originals=None,decoder=None):
         return m,parent
     fonts,font_root=component(plan['font_component'],'offline-font-route-probe')
     subtitles,sub_root=component(plan['subtitle_component'],'offline-disc-subtitle-bundle')
+    textures=None;texture_root=None
+    if ('texture_component' in plan)!=('texture_plan' in plan):raise ValueError('texture component requires its locked plan')
+    if 'texture_component' in plan:
+        from .build_texture_overlay import verify as verify_textures
+        tp=locked(plan['texture_plan']);textures,texture_root=component(plan['texture_component'],'offline-texture-overlay-bundle')
+        if (textures['plan_canonical_sha256']!=digest(encoded(tp))
+                or encoded(verify_textures(tp,root,texture_root,decoder))!=encoded(textures)):
+            raise ValueError('texture component independent replay mismatch')
     if (fonts.get('raw_package_outputs') is not True or fonts['plan_canonical_sha256']!=digest(encoded(route))
             or subtitles['plan_canonical_sha256']!=digest(encoded(subplan))
             or subtitles['disc']!=plan['disc']):raise ValueError('component plan or disc mismatch')
@@ -129,6 +145,13 @@ def prepare(plan,root,originals=None,decoder=None):
     sub_paths={m['resource'] for m in source['members']}
     roles=list(font_paths)+list(sub_paths)+[text_path,toc['path']]
     if len({p.casefold() for p in roles})!=len(roles):raise ValueError('composition resource role conflict')
+    if textures is not None:
+        paths=[r['path'] for r in textures['resources']]
+        if (len(set(p.casefold() for p in paths))!=len(paths)
+                or set(paths)&(sub_paths|{text_path,toc['path']})):
+            raise ValueError('texture composition resource role conflict')
+        roles.extend(p for p in paths if p not in font_paths)
+        if len({p.casefold() for p in roles})!=len(roles):raise ValueError('texture resource case alias')
     for path in roles:_relative(path)
     image_guard=None
     if originals is None:
@@ -158,7 +181,16 @@ def prepare(plan,root,originals=None,decoder=None):
         if originals[path]!=confined_path(sub_root,'controls/'+path).read_bytes():raise ValueError('subtitle component source mismatch')
         subtitle_updates[path]=confined_path(sub_root,'candidate/'+path).read_bytes()
         if digest(subtitle_updates[path])!=subtitle_rows[path]['candidate_sha256']:raise ValueError('subtitle component candidate hash mismatch')
-    current,retention,toc_report,changes=merge_resources(originals,font_updates,subtitle_updates,text_plan,ledger,toc)
+    texture_updates={}
+    if textures is not None:
+        for row in textures['resources']:
+            path=row['path'];original(path,row['original_sha256'])
+            base=font_updates.get(path,originals[path])
+            candidate=confined_path(texture_root,'candidate/'+path).read_bytes()
+            if digest(base)!=row['base_sha256'] or digest(candidate)!=row['candidate_sha256']:
+                raise ValueError('texture original/font candidate chain mismatch')
+            texture_updates[path]=dict(base_sha256=row['base_sha256'],data=candidate)
+    current,retention,toc_report,changes=merge_resources(originals,font_updates,subtitle_updates,text_plan,ledger,toc,texture_updates)
     resolved=resolve_changes(originals[text_path],text_plan)
     wanted={cp for e in resolved['entries'] for cp in literal_codepoints(e['translation'])}
     for raw in subtitle_updates.values():
@@ -212,7 +244,8 @@ def prepare(plan,root,originals=None,decoder=None):
 
 
 def check_inputs(snapshots,image_guard=None):
-    if any(digest(p.read_bytes())!=h for p,h in snapshots):raise ValueError('composition input changed')
+    for p,h in snapshots:
+        if digest(p.read_bytes())!=h:raise ValueError('composition input changed: '+str(p))
     if image_guard:
         image,size,mtime=image_guard;now=image.stat()
         if (now.st_size,now.st_mtime_ns)!=(size,mtime):raise ValueError('composition ISO changed')

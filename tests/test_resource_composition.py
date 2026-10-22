@@ -97,3 +97,15 @@ class ResourceCompositionTests(unittest.TestCase):
     def test_bad_pixel_rectangle_rejected(self):
         raw,_=build_blank(blank());ctx,f=font_context(raw);f['characters'][-1]['StartU']=99999
         with self.assertRaisesRegex(ValueError,'outside atlas'):pixel_proof(ctx,f,{12288},stored_decoder)
+
+class TextureCompositionChainTests(unittest.TestCase):
+ def test_font_then_texture_exact_chain(self):
+  args=inputs();before=dict(args[0]);out,*_=merge_resources(*args,texture_updates={'Fonts/f.xxx':dict(base_sha256=digest(b'newfont'),data=b'font plus title')});self.assertEqual(out['Fonts/f.xxx'],b'font plus title');self.assertEqual(args[0],before)
+ def test_original_font_is_not_accepted_as_overlay_base(self):
+  with self.assertRaisesRegex(ValueError,'base chain'):merge_resources(*inputs(),texture_updates={'Fonts/f.xxx':dict(base_sha256=digest(b'font'),data=b'title')})
+ def test_new_texture_resource_and_unified_toc(self):
+  o,f,s,p,l,t=inputs();o['Title.xxx']=b'old';o[t['path']]+=b'3 7 8 ../Title.xxx 0\r\n';t['sha256']=digest(o[t['path']]);out,*_=merge_resources(o,f,s,p,l,t,{'Title.xxx':dict(base_sha256=digest(b'old'),data=b'new title')});self.assertEqual(out['Title.xxx'],b'new title');self.assertIn(b'9 7 8 ../Title.xxx',out[t['path']])
+ def test_texture_role_conflicts_remain_rejected(self):
+  args=inputs()
+  for path in ['Movies/d1.txt','synthetic','Game/TOC.txt','fonts/f.xxx']:
+   with self.subTest(path=path),self.assertRaises(ValueError):merge_resources(*args,texture_updates={path:dict(base_sha256=digest(b'x'),data=b'x')})

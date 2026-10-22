@@ -1,0 +1,97 @@
+{
+  "schema_version": 1,
+  "kind": "texture-text-overlay-plan",
+  "game_rendering_verified": false,
+  "font": {
+    "path": "build/font-source/NotoSansCJKsc-Regular.otf",
+    "sha256": "2c76254f6fc379fddfce0a7e84fb5385bb135d3e399294f6eeb6680d0365b74b"
+  },
+  "rasterizer_versions": {
+    "Pillow": "12.2.0",
+    "fonttools": "4.63.0"
+  },
+  "labels": [
+    {
+      "id": "village",
+      "text": "风息岛村庄",
+      "rect": [
+        116,
+        0,
+        276,
+        64
+      ],
+      "font_size": 36
+    }
+  ],
+  "sources": [
+    {
+      "path": "MC2Game/CookedXenon/MC2Game.xxx",
+      "original": {
+        "path": "build/poc-game/disc1/MC2Game/CookedXenon/MC2Game.xxx",
+        "sha256": "13f92622e2ae2920f6ce6dfc7b0edbbcbec7e83adeacbd56fed84a021739a641"
+      },
+      "base": {
+        "path": "build/phase-285-verification/route-probe/candidate/MC2Game/CookedXenon/MC2Game.xxx",
+        "sha256": "5595562dab1233cbbf7979fff1b9c9ca031707b40f10adf75eb97ec1e999d425"
+      },
+      "textures": [
+        {
+          "object": "UI_title.Chapter01.ch01_01_vill",
+          "label": "village",
+          "payload_sha256": "b5ecb835659cd1743245709510b65a21e8a500e6873b661e13b31500a9c0accf",
+          "tiled_sha256": "418937d6988ab9f586f7bce4e448e4ddba9cb85c66b9efe01a9857f3fc27c5d6",
+          "dimensions": [
+            512,
+            64
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/UI_Title.xxx",
+      "original": {
+        "path": "build/poc-game/disc1/MC2Game/CookedXenon/UI_Title.xxx",
+        "sha256": "b6826e68b5b6fc6401a4f0e2b738f8abbcff0897ddce234b3e0669336d2706b4"
+      },
+      "base": {
+        "path": "build/poc-game/disc1/MC2Game/CookedXenon/UI_Title.xxx",
+        "sha256": "b6826e68b5b6fc6401a4f0e2b738f8abbcff0897ddce234b3e0669336d2706b4"
+      },
+      "textures": [
+        {
+          "object": "Chapter01.ch01_01_vill",
+          "label": "village",
+          "payload_sha256": "ae76fa2590a1aa145bb05d4cf97805af50154d3557bfe2c80370502cc3314f4d",
+          "tiled_sha256": "418937d6988ab9f586f7bce4e448e4ddba9cb85c66b9efe01a9857f3fc27c5d6",
+          "dimensions": [
+            512,
+            64
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/UI_Title_Jpn.xxx",
+      "original": {
+        "path": "build/poc-game/disc1/MC2Game/CookedXenon/UI_Title_Jpn.xxx",
+        "sha256": "f9c1648d7a76cee8766140d3533d938fd7ef51a7eed06d37b291c7b1ec997595"
+      },
+      "base": {
+        "path": "build/poc-game/disc1/MC2Game/CookedXenon/UI_Title_Jpn.xxx",
+        "sha256": "f9c1648d7a76cee8766140d3533d938fd7ef51a7eed06d37b291c7b1ec997595"
+      },
+      "textures": [
+        {
+          "object": "Chapter01.ch01_01_vill",
+          "label": "village",
+          "payload_sha256": "11fedb77a19255fccd3135b4d1d57ea7c37256968e5638323ae531496dbf9095",
+          "tiled_sha256": "418937d6988ab9f586f7bce4e448e4ddba9cb85c66b9efe01a9857f3fc27c5d6",
+          "dimensions": [
+            512,
+            64
+          ]
+        }
+      ]
+    }
+  ]
+}

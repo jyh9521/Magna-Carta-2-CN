@@ -24,7 +24,7 @@ class CumulativeFontRouteTests(unittest.TestCase):
     def test_all_family_and_glyph_references_locked(self):
         route = load(BASE/'route.json')
         self.assertEqual(len(route['font_plans']), 3)
-        for ref,count in zip(route['font_plans'], [2390,2389,2390]):
+        for ref,count in zip(route['font_plans'], [2391,2390,2391]):
             self.assertEqual(len(validate_plan(locked(locked(ref)['supplement']))), count)
 
     def test_drawable_and_blank_records_reused_exactly(self):
@@ -32,7 +32,10 @@ class CumulativeFontRouteTests(unittest.TestCase):
             p = load(BASE/f'glyphs-{i}.json')
             old = load(ROOT/f'locales/zh-Hans/drawable-demand-probes/glyphs-{i}.json')
             blank = load(ROOT/f'locales/zh-Hans/layout-advance-probes/glyphs-{i}.json')
-            self.assertEqual(p['glyphs'], old['glyphs']+blank['glyphs'])
+            self.assertEqual(p['glyphs'][:-1], old['glyphs']+blank['glyphs'])
+            self.assertEqual(p['glyphs'][-1]['character'], '庙')
+            self.assertEqual(p['glyphs'][-1]['x'], p['glyphs'][-2]['x'] + p['glyphs'][-2]['width'])
+            self.assertEqual(p['glyphs'][-1]['y'], p['glyphs'][-2]['y'])
             for k in set(old)-{'glyphs','purpose'}:
                 self.assertEqual(p[k], old[k])
 
@@ -60,9 +63,9 @@ class CumulativeFontRouteTests(unittest.TestCase):
             p = load(BASE/f'glyphs-{i}.json')
             cps = [ord(g['character']) for g in p['glyphs']]
             self.assertNotIn(9, cps)
-            self.assertEqual(cps[-1], 12288)
-            self.assertEqual(p['glyphs'][-1]['layout'], 'blank-advance')
-            self.assertEqual(p['glyphs'][-1]['metric_width'], width)
+            self.assertEqual(cps[-2:], [12288, ord('庙')])
+            self.assertEqual(p['glyphs'][-2]['layout'], 'blank-advance')
+            self.assertEqual(p['glyphs'][-2]['metric_width'], width)
             self.assertNotIn(12288, p.get('replace_blank_codepoints', []))
 
     def test_candidate_semantics_are_explicit_not_original_or_old_probe(self):

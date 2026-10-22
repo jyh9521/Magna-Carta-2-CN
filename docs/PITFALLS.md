@@ -1,3 +1,7 @@
+## 第285阶段：目的地裁决不等于改正原拼写
+
+왕의 영병采用王之灵庙依赖四证明完整条件链、131局部+1句位和独立lastrada_sch标签，不把同键当同义，不把该裁决冒认为영병的字典释义。성쇄/성쇠及日文隆盛仍缺区分性证据，不能照相似字猜填。新增庙字在七Font实际缺remap，须三家庭追加字形并验证墨迹，文本能重建不等于字库已覆盖。见[阶段285](PHASE_285_CHAPTER_TERM_ADOPTION.md)。
+
 ## 原生模板换行与派生PE（阶段282）
 
 终端换行显示不证明CRLF：StatStrong UTF16BE模板实际只有LF，必须按字节验证。该XEX派生PE为PowerPCBE且是虚拟布局；REA报告unsupported PE architecture，不按普通PE原始偏移重映射。显式字解码探针见[模板证据](STAT_STRONG_NATIVE_TEMPLATES.md)。

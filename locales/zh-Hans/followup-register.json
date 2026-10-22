@@ -552,9 +552,10 @@
       ],
       "evidence": [],
       "latest_resolution": {
-        "phase": 280,
-        "decision": "locales/zh-Hans/candidate-decisions/chapter-exclusion-reasons.json",
-        "status": "historical reasons recovered;explicit 성쇄/왕의 영병 terminology evidence gates;not active retranslation without new evidence",
+        "phase": 285,
+        "decision": "locales/zh-Hans/candidate-decisions/chapter-term-adoption.json",
+        "status": "Chapter12_37 adopted as royal mausoleum by linked destination adjudication;Chapter11_27 remains unresolved,not unused",
+        "new_translations": 1,
         "translation_edits": 0,
         "human_finalized": false
       }
@@ -1046,9 +1047,7 @@
     }
   ],
   "next_actions": [
-    "Compare six remaining skill-name candidates against aligned local INT/JPNfull skill context;preserve ten unplanned fragments.",
-    "Read linked chapter/help context for Chapter11_27 and Chapter12_37 before considering adoption;do not infer unused.",
-    "Review thermal lexical aliases with full source-linked context without asserting shared engine status."
+    "Chapter11_27: obtain game-specific spoken/script/name evidence distinguishing성쇄 from성쇠;do not reopen resolved royal destination or adopted fragments."
   ],
   "human_finalized": false,
   "runtime_layout_approved": false,

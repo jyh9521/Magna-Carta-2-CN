@@ -1,0 +1,477 @@
+{
+  "schema_version": 1,
+  "phase": 285,
+  "kind": "source-linked-chapter-term-adoption",
+  "status": "draft",
+  "plan": "locales/zh-Hans/batch-118.json",
+  "plan_sha256": "a346540ccbabcc69bef110790f5959bef0b3f090253d90141eca6fbc5f95d797",
+  "review": "locales/zh-Hans/batch-118.review.json",
+  "review_sha256": "64917109944d7b73fcefdefdf79f261f168ab6789614bdda7184800cc8979e8e",
+  "new_translations": 1,
+  "entries": [
+    {
+      "id": "coalesced:a160f429712928d18b47c08c8f8290d97dcf87f61582afb923d1bd7cc3b65c5d",
+      "source_sha256": "75337444b55f6925cf1d0f59ebdda6e39a10368337c1a08c54870a4e6f008a9c",
+      "translation_sha256": "437a5ccb5a08d3e7b27f868ce67d92d449302aac282cae4892eb112ce6f842ac",
+      "term": "왕의 영병",
+      "translation_term": "王之灵庙",
+      "classification": "High-confidence deduction",
+      "basis": [
+        "INT instruction and dialogue share4 proofs,4 rooms,return to gate,and final center destination.",
+        "JPN parallel complete scene has one-line offset;INT07 aligns JPN08,not same key.",
+        "Independent information/lastrada_sch label identifies same center destination as王の霊廟;JPN continuation locates same final opponent.",
+        "No evidence of a royal spirit-soldier destination;do not substitute royal gate or silently repair Korean source."
+      ]
+    }
+  ],
+  "retained_originals": [
+    {
+      "id": "coalesced:53c21149e6042a65db33e839bdfbb97207a5fab20759ecc43cd6b622f03a5cb4",
+      "source_sha256": "8fcf504429b6addbc0e750a14667647d0573e28f4c35c4a0f2d4b7897d4f5c88",
+      "term": "성쇄",
+      "classification": "Unverified hypothesis",
+      "reason": "Dictionary 성쇠=盛衰 does not prove성쇄 typo;JPN隆盛 only supports rising/prosperity reading. Four directional inscriptions differ materially across locales. No game-specific primary source distinguishes a typo from a name;retain whole field,not a guessed mix."
+    }
+  ],
+  "source_containers": [
+    {
+      "path": "build/disc1-selected/MC2Game/Localization/Coalesced.int",
+      "sha256": "179e265cfc9e6d3e9f2586abe75b5da303b2af9b8484079851dab72f9f7edb8c",
+      "entries": 18176
+    },
+    {
+      "path": "build/disc1-selected/MC2Game/Localization/Coalesced.jpn",
+      "sha256": "fb99602a9ff5f081857efa7389d6d2b6ecfc6765946f0bba2fbde4cdbf962a90",
+      "entries": 17642
+    },
+    {
+      "path": "build/disc1-selected/MC2Game/Localization/Coalesced.kor",
+      "sha256": "fb51da8543516deb68c728c6da0509073fdebc791a18fa310fdcdf9f9ea9374a",
+      "entries": 83
+    },
+    {
+      "path": "build/disc2-selected/MC2Game/Localization/Coalesced.int",
+      "sha256": "179e265cfc9e6d3e9f2586abe75b5da303b2af9b8484079851dab72f9f7edb8c",
+      "entries": 18176
+    },
+    {
+      "path": "build/disc2-selected/MC2Game/Localization/Coalesced.jpn",
+      "sha256": "fb99602a9ff5f081857efa7389d6d2b6ecfc6765946f0bba2fbde4cdbf962a90",
+      "entries": 17642
+    },
+    {
+      "path": "build/disc2-selected/MC2Game/Localization/Coalesced.kor",
+      "sha256": "fb51da8543516deb68c728c6da0509073fdebc791a18fa310fdcdf9f9ea9374a",
+      "entries": 83
+    }
+  ],
+  "evidence": [
+    {
+      "disc": 1,
+      "locale": "int",
+      "id": "coalesced:53c21149e6042a65db33e839bdfbb97207a5fab20759ecc43cd6b622f03a5cb4",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2Compose.int",
+      "section": "Chapter11",
+      "key": "Chapter11_27",
+      "source": "패배자여, 어둠 속에 눈을 돌려라.\\n이윽고 성쇄의 영혼이 눈을 뜨며 남천의 별이 빛날 것이다...",
+      "source_sha256": "8fcf504429b6addbc0e750a14667647d0573e28f4c35c4a0f2d4b7897d4f5c88"
+    },
+    {
+      "disc": 1,
+      "locale": "int",
+      "id": "coalesced:a160f429712928d18b47c08c8f8290d97dcf87f61582afb923d1bd7cc3b65c5d",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2Compose.int",
+      "section": "Chapter12",
+      "key": "Chapter12_37",
+      "source": "[왕의 시련]\\n*왕의 증명을 갖지 못한 자는 각 방에서 시련을 받아야 한다.\\n*4개의 왕의 증명을 다 갖추면 [왕의 영병]으로의 길이 열린다.",
+      "source_sha256": "75337444b55f6925cf1d0f59ebdda6e39a10368337c1a08c54870a4e6f008a9c"
+    },
+    {
+      "disc": 1,
+      "locale": "int",
+      "id": "coalesced:5f5d19969513a96b8e676f579d84388ff354f5a0e617fc0c1920034c38aaf3e0",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
+      "section": "CSMB12_131",
+      "key": "voc_csmb_12131_05",
+      "source": "왕의 시련이란 이 왕의 관문에 있는\\n4개의 방을 돌며 증명을 입수하는 것이다.",
+      "source_sha256": "117a961f16d9bdefd9370e9d98dd8c5accf6ada22e5a90c69920edfbadb35f59"
+    },
+    {
+      "disc": 1,
+      "locale": "int",
+      "id": "coalesced:d9a9c58a54b81a91fa7759c6392df040ec9eb1253024c1881a9b46271d965a61",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
+      "section": "CSMB12_131",
+      "key": "voc_csmb_12131_06",
+      "source": "4개의 왕의 증명을 갖춘 뒤\\n다시 이 곳에 돌아오도록 하라.",
+      "source_sha256": "0181d68cf33b7b5aca7ceebdfbf72c3acf27c5a0773323a820f3f5f0cb89c83a"
+    },
+    {
+      "disc": 1,
+      "locale": "int",
+      "id": "coalesced:c7ab82cb447df6e2b225892d53c153c22fa4d28bb06f2901a4bad2be1ad9aae0",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
+      "section": "CSMB12_131",
+      "key": "voc_csmb_12131_07",
+      "source": "시련을 모두 이겨낸다면\\n마지막 관문을 통과해\\n라 스트라다의 중심으로 갈 수 있을 것이다.",
+      "source_sha256": "eb4b8b2a38091132c6ca763797df65eb6ea98114c69565778d69f4db57bf2311"
+    },
+    {
+      "disc": 1,
+      "locale": "int",
+      "id": "coalesced:87defe70a262699c0efb9e4f93d64080fae46563c3759f7a8da157cfdcb8e8c6",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
+      "section": "CSMB12_131",
+      "key": "voc_csmb_12131_08",
+      "source": "제피는 이미 증명을 받았으니\\n바로 통과할 수 있겠군.",
+      "source_sha256": "d55af5afddc3fb2ad9bfb66ce848f46064af3f5d3438a697659106230c7423ab"
+    },
+    {
+      "disc": 1,
+      "locale": "int",
+      "id": "coalesced:bd00fc1b51a5b3faaf5b8b938d781dbedae82aec514342d84fe701f41db8cdbd",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
+      "section": "CSMB12_131",
+      "key": "voc_csmb_12131_09",
+      "source": "라 스트라다의 중심...\\n드디어 마지막 싸움이 기다리고 있어.",
+      "source_sha256": "35ee2dbe01bbe37198e7f0700240ae7ed45ed73364ba331faf8bb61096660df2"
+    },
+    {
+      "disc": 1,
+      "locale": "int",
+      "id": "coalesced:f6ab5b450e4e97d7969b4cfc58f73e7941795300fc783637461e9e4b8d0d83b7",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
+      "section": "CSMB12_131",
+      "key": "voc_csmb_12131_13",
+      "source": "응.  왕의 관문을 넘으면 슈엔자이트가 있을 거야.",
+      "source_sha256": "5615e9c4824cc5c5aee61e19084dd5289d999834dc9c063c0ba12b196d69e421"
+    },
+    {
+      "disc": 1,
+      "locale": "int",
+      "id": "coalesced:398dc96175c1bfd9094d7245b02c6840ede389cebc6f8eface3199b65adee909",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
+      "section": "CSMB12_131",
+      "key": "voc_csmb_12131_14",
+      "source": "자, 가자.",
+      "source_sha256": "e577140e31a8e164e822ad8fcc8e605bc708b166e1e2f0b8797f95767ccbb820"
+    },
+    {
+      "disc": 1,
+      "locale": "int",
+      "id": "coalesced:220631de9af4dae945e89a8270801db13ec679adf2a6265c2380dca34abdd926",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2UI.int",
+      "section": "information",
+      "key": "lastrada_sch",
+      "source": "라 스트라다 최심부",
+      "source_sha256": "b0471e76f174d94aba78946b21be80b623786f13aca808acc495ffa833e61622"
+    },
+    {
+      "disc": 1,
+      "locale": "jpn",
+      "id": "coalesced:fd030c6b8405a55a59ecb7e4681b41a632d6fa6e33476b07ecf2589473788abc",
+      "document": "..\\MC2Game\\Localization\\JPN\\MC2Compose.jpn",
+      "section": "Chapter11",
+      "key": "Chapter11_27",
+      "source": "だが、絶望に打ちひしがれようとも\\n闇の中に目を向けよ・・・\\n隆盛の魂が輝き、南天の星が爛々と燃えている",
+      "source_sha256": "9049eca028941da3b3cf6dc4c0c99cc368ad82f33988cecf7203f40271fe6175"
+    },
+    {
+      "disc": 1,
+      "locale": "jpn",
+      "id": "coalesced:05cc2df179bb21a92c28321f0e0b8c0164e2047e6512ec5e70f8f45c0f57616e",
+      "document": "..\\MC2Game\\Localization\\JPN\\MC2Compose.jpn",
+      "section": "Chapter12",
+      "key": "Chapter12_37",
+      "source": "「王者の試練」\\n・王の証を持たぬ者は、各部屋で試練を受け「王の証」を入手せよ\\n・四つの王の証が揃えば「王の霊廟」への道が開かれる",
+      "source_sha256": "a2b9533c888e4a30a1b45751ba6b7e098c26d2b5afc77b0d86369810847dbafa"
+    },
+    {
+      "disc": 1,
+      "locale": "jpn",
+      "id": "coalesced:9a4a1efd76550fc844f58c61e1a7b695353717b6af9cb5ea480ef868f02e8ea9",
+      "document": "..\\MC2Game\\Localization\\JPN\\MC2CSMB.jpn",
+      "section": "CSMB12_131",
+      "key": "voc_csmb_12131_05",
+      "source": "だが、持たぬ者は\\nこの場で「王の試練」を受け\\n王の証を得るが良い。",
+      "source_sha256": "a9306ffd026d51acfdf1fbdf2846ea04e21ed51011c567eeb8cd28e51ac10b35"
+    },
+    {
+      "disc": 1,
+      "locale": "jpn",
+      "id": "coalesced:4abea58ae8588cc2f2087f84c47cb9c1628633495b0e5ee7169e561710409d39",
+      "document": "..\\MC2Game\\Localization\\JPN\\MC2CSMB.jpn",
+      "section": "CSMB12_131",
+      "key": "voc_csmb_12131_06",
+      "source": "王の試練とは\\nこの王の間にある、四つの部屋を巡り\\n証を手に入れることだ。",
+      "source_sha256": "3d7b4c99da2caaac867a9f84ba451e5680a23d3a04133d7929a0028f17634d59"
+    },
+    {
+      "disc": 1,
+      "locale": "jpn",
+      "id": "coalesced:fea24c56f31117ad9f3d24907c1138f41b2da2424c909bd7cf68bd8ecd1e8016",
+      "document": "..\\MC2Game\\Localization\\JPN\\MC2CSMB.jpn",
+      "section": "CSMB12_131",
+      "key": "voc_csmb_12131_07",
+      "source": "四つの王の証を揃えたのち\\n今一度、この場に立つが良い。",
+      "source_sha256": "6d6174a87b0394eabbad77167954e636db2d3567e84cdb6cde8f9a417944125f"
+    },
+    {
+      "disc": 1,
+      "locale": "jpn",
+      "id": "coalesced:9b5f44106b53af994d4b418ec0cbbb154e509c23b2c645bb08539cf9be11e563",
+      "document": "..\\MC2Game\\Localization\\JPN\\MC2CSMB.jpn",
+      "section": "CSMB12_131",
+      "key": "voc_csmb_12131_08",
+      "source": "さすれば、王の御霊が現れ\\n「王の霊廟」、ラ・ストラダの中心に\\n誘うであろう。",
+      "source_sha256": "8b708b07dfd9fdc09a6f8075aa8e2257dd3f76d493170964d6a1e3c6685c2e71"
+    },
+    {
+      "disc": 1,
+      "locale": "jpn",
+      "id": "coalesced:c2d74c74761c64212841f973a3ee2d9c1612e4f54e608c1cea722cd1e34813b7",
+      "document": "..\\MC2Game\\Localization\\JPN\\MC2CSMB.jpn",
+      "section": "CSMB12_131",
+      "key": "voc_csmb_12131_09",
+      "source": "ゼフィはすでに四つ持っている。\\nすぐに王の霊廟に行けるな。",
+      "source_sha256": "ee31d5e525151f277d3c928f198efbbc68690320c181e866d3f2d4593216d3af"
+    },
+    {
+      "disc": 1,
+      "locale": "jpn",
+      "id": "coalesced:9dddd06d81db0bae6b712120e5fae1a4015cf13f605036db4f42855f6080e06d",
+      "document": "..\\MC2Game\\Localization\\JPN\\MC2CSMB.jpn",
+      "section": "CSMB12_131",
+      "key": "voc_csmb_12131_13",
+      "source": "ふむ。王の証を全て手に入れれば\\n最後の戦いか。",
+      "source_sha256": "6a23fdc25558d2ae9e60d8b3bac52128a14886f44ac9d2dd717831c18bf0a1ae"
+    },
+    {
+      "disc": 1,
+      "locale": "jpn",
+      "id": "coalesced:3fb9c365ea874ed33f56fa8e5748b0eafac2c70cb4edc1e5b13e8bfbabd0d72e",
+      "document": "..\\MC2Game\\Localization\\JPN\\MC2CSMB.jpn",
+      "section": "CSMB12_131",
+      "key": "voc_csmb_12131_14",
+      "source": "そうね、王の霊廟には\\nシュエンザイトがいるはずだわ。",
+      "source_sha256": "2dc33e573fc557f7eb5e53934102f9a1d6cef3bdc452fd8e10b117441a8a118c"
+    },
+    {
+      "disc": 1,
+      "locale": "jpn",
+      "id": "coalesced:e79b2af09cd5ff2a6308ba1c926fa763b7540cdefaf67bfc3c980f8a842eb2ff",
+      "document": "..\\MC2Game\\Localization\\JPN\\MC2UI.jpn",
+      "section": "information",
+      "key": "lastrada_sch",
+      "source": "王の霊廟",
+      "source_sha256": "776700eee4f6b768ad1c2efbac7ee57674130496299f4f60615c74b3000420d5"
+    },
+    {
+      "disc": 2,
+      "locale": "int",
+      "id": "coalesced:53c21149e6042a65db33e839bdfbb97207a5fab20759ecc43cd6b622f03a5cb4",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2Compose.int",
+      "section": "Chapter11",
+      "key": "Chapter11_27",
+      "source": "패배자여, 어둠 속에 눈을 돌려라.\\n이윽고 성쇄의 영혼이 눈을 뜨며 남천의 별이 빛날 것이다...",
+      "source_sha256": "8fcf504429b6addbc0e750a14667647d0573e28f4c35c4a0f2d4b7897d4f5c88"
+    },
+    {
+      "disc": 2,
+      "locale": "int",
+      "id": "coalesced:a160f429712928d18b47c08c8f8290d97dcf87f61582afb923d1bd7cc3b65c5d",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2Compose.int",
+      "section": "Chapter12",
+      "key": "Chapter12_37",
+      "source": "[왕의 시련]\\n*왕의 증명을 갖지 못한 자는 각 방에서 시련을 받아야 한다.\\n*4개의 왕의 증명을 다 갖추면 [왕의 영병]으로의 길이 열린다.",
+      "source_sha256": "75337444b55f6925cf1d0f59ebdda6e39a10368337c1a08c54870a4e6f008a9c"
+    },
+    {
+      "disc": 2,
+      "locale": "int",
+      "id": "coalesced:5f5d19969513a96b8e676f579d84388ff354f5a0e617fc0c1920034c38aaf3e0",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
+      "section": "CSMB12_131",
+      "key": "voc_csmb_12131_05",
+      "source": "왕의 시련이란 이 왕의 관문에 있는\\n4개의 방을 돌며 증명을 입수하는 것이다.",
+      "source_sha256": "117a961f16d9bdefd9370e9d98dd8c5accf6ada22e5a90c69920edfbadb35f59"
+    },
+    {
+      "disc": 2,
+      "locale": "int",
+      "id": "coalesced:d9a9c58a54b81a91fa7759c6392df040ec9eb1253024c1881a9b46271d965a61",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
+      "section": "CSMB12_131",
+      "key": "voc_csmb_12131_06",
+      "source": "4개의 왕의 증명을 갖춘 뒤\\n다시 이 곳에 돌아오도록 하라.",
+      "source_sha256": "0181d68cf33b7b5aca7ceebdfbf72c3acf27c5a0773323a820f3f5f0cb89c83a"
+    },
+    {
+      "disc": 2,
+      "locale": "int",
+      "id": "coalesced:c7ab82cb447df6e2b225892d53c153c22fa4d28bb06f2901a4bad2be1ad9aae0",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
+      "section": "CSMB12_131",
+      "key": "voc_csmb_12131_07",
+      "source": "시련을 모두 이겨낸다면\\n마지막 관문을 통과해\\n라 스트라다의 중심으로 갈 수 있을 것이다.",
+      "source_sha256": "eb4b8b2a38091132c6ca763797df65eb6ea98114c69565778d69f4db57bf2311"
+    },
+    {
+      "disc": 2,
+      "locale": "int",
+      "id": "coalesced:87defe70a262699c0efb9e4f93d64080fae46563c3759f7a8da157cfdcb8e8c6",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
+      "section": "CSMB12_131",
+      "key": "voc_csmb_12131_08",
+      "source": "제피는 이미 증명을 받았으니\\n바로 통과할 수 있겠군.",
+      "source_sha256": "d55af5afddc3fb2ad9bfb66ce848f46064af3f5d3438a697659106230c7423ab"
+    },
+    {
+      "disc": 2,
+      "locale": "int",
+      "id": "coalesced:bd00fc1b51a5b3faaf5b8b938d781dbedae82aec514342d84fe701f41db8cdbd",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
+      "section": "CSMB12_131",
+      "key": "voc_csmb_12131_09",
+      "source": "라 스트라다의 중심...\\n드디어 마지막 싸움이 기다리고 있어.",
+      "source_sha256": "35ee2dbe01bbe37198e7f0700240ae7ed45ed73364ba331faf8bb61096660df2"
+    },
+    {
+      "disc": 2,
+      "locale": "int",
+      "id": "coalesced:f6ab5b450e4e97d7969b4cfc58f73e7941795300fc783637461e9e4b8d0d83b7",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
+      "section": "CSMB12_131",
+      "key": "voc_csmb_12131_13",
+      "source": "응.  왕의 관문을 넘으면 슈엔자이트가 있을 거야.",
+      "source_sha256": "5615e9c4824cc5c5aee61e19084dd5289d999834dc9c063c0ba12b196d69e421"
+    },
+    {
+      "disc": 2,
+      "locale": "int",
+      "id": "coalesced:398dc96175c1bfd9094d7245b02c6840ede389cebc6f8eface3199b65adee909",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
+      "section": "CSMB12_131",
+      "key": "voc_csmb_12131_14",
+      "source": "자, 가자.",
+      "source_sha256": "e577140e31a8e164e822ad8fcc8e605bc708b166e1e2f0b8797f95767ccbb820"
+    },
+    {
+      "disc": 2,
+      "locale": "int",
+      "id": "coalesced:220631de9af4dae945e89a8270801db13ec679adf2a6265c2380dca34abdd926",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2UI.int",
+      "section": "information",
+      "key": "lastrada_sch",
+      "source": "라 스트라다 최심부",
+      "source_sha256": "b0471e76f174d94aba78946b21be80b623786f13aca808acc495ffa833e61622"
+    },
+    {
+      "disc": 2,
+      "locale": "jpn",
+      "id": "coalesced:fd030c6b8405a55a59ecb7e4681b41a632d6fa6e33476b07ecf2589473788abc",
+      "document": "..\\MC2Game\\Localization\\JPN\\MC2Compose.jpn",
+      "section": "Chapter11",
+      "key": "Chapter11_27",
+      "source": "だが、絶望に打ちひしがれようとも\\n闇の中に目を向けよ・・・\\n隆盛の魂が輝き、南天の星が爛々と燃えている",
+      "source_sha256": "9049eca028941da3b3cf6dc4c0c99cc368ad82f33988cecf7203f40271fe6175"
+    },
+    {
+      "disc": 2,
+      "locale": "jpn",
+      "id": "coalesced:05cc2df179bb21a92c28321f0e0b8c0164e2047e6512ec5e70f8f45c0f57616e",
+      "document": "..\\MC2Game\\Localization\\JPN\\MC2Compose.jpn",
+      "section": "Chapter12",
+      "key": "Chapter12_37",
+      "source": "「王者の試練」\\n・王の証を持たぬ者は、各部屋で試練を受け「王の証」を入手せよ\\n・四つの王の証が揃えば「王の霊廟」への道が開かれる",
+      "source_sha256": "a2b9533c888e4a30a1b45751ba6b7e098c26d2b5afc77b0d86369810847dbafa"
+    },
+    {
+      "disc": 2,
+      "locale": "jpn",
+      "id": "coalesced:9a4a1efd76550fc844f58c61e1a7b695353717b6af9cb5ea480ef868f02e8ea9",
+      "document": "..\\MC2Game\\Localization\\JPN\\MC2CSMB.jpn",
+      "section": "CSMB12_131",
+      "key": "voc_csmb_12131_05",
+      "source": "だが、持たぬ者は\\nこの場で「王の試練」を受け\\n王の証を得るが良い。",
+      "source_sha256": "a9306ffd026d51acfdf1fbdf2846ea04e21ed51011c567eeb8cd28e51ac10b35"
+    },
+    {
+      "disc": 2,
+      "locale": "jpn",
+      "id": "coalesced:4abea58ae8588cc2f2087f84c47cb9c1628633495b0e5ee7169e561710409d39",
+      "document": "..\\MC2Game\\Localization\\JPN\\MC2CSMB.jpn",
+      "section": "CSMB12_131",
+      "key": "voc_csmb_12131_06",
+      "source": "王の試練とは\\nこの王の間にある、四つの部屋を巡り\\n証を手に入れることだ。",
+      "source_sha256": "3d7b4c99da2caaac867a9f84ba451e5680a23d3a04133d7929a0028f17634d59"
+    },
+    {
+      "disc": 2,
+      "locale": "jpn",
+      "id": "coalesced:fea24c56f31117ad9f3d24907c1138f41b2da2424c909bd7cf68bd8ecd1e8016",
+      "document": "..\\MC2Game\\Localization\\JPN\\MC2CSMB.jpn",
+      "section": "CSMB12_131",
+      "key": "voc_csmb_12131_07",
+      "source": "四つの王の証を揃えたのち\\n今一度、この場に立つが良い。",
+      "source_sha256": "6d6174a87b0394eabbad77167954e636db2d3567e84cdb6cde8f9a417944125f"
+    },
+    {
+      "disc": 2,
+      "locale": "jpn",
+      "id": "coalesced:9b5f44106b53af994d4b418ec0cbbb154e509c23b2c645bb08539cf9be11e563",
+      "document": "..\\MC2Game\\Localization\\JPN\\MC2CSMB.jpn",
+      "section": "CSMB12_131",
+      "key": "voc_csmb_12131_08",
+      "source": "さすれば、王の御霊が現れ\\n「王の霊廟」、ラ・ストラダの中心に\\n誘うであろう。",
+      "source_sha256": "8b708b07dfd9fdc09a6f8075aa8e2257dd3f76d493170964d6a1e3c6685c2e71"
+    },
+    {
+      "disc": 2,
+      "locale": "jpn",
+      "id": "coalesced:c2d74c74761c64212841f973a3ee2d9c1612e4f54e608c1cea722cd1e34813b7",
+      "document": "..\\MC2Game\\Localization\\JPN\\MC2CSMB.jpn",
+      "section": "CSMB12_131",
+      "key": "voc_csmb_12131_09",
+      "source": "ゼフィはすでに四つ持っている。\\nすぐに王の霊廟に行けるな。",
+      "source_sha256": "ee31d5e525151f277d3c928f198efbbc68690320c181e866d3f2d4593216d3af"
+    },
+    {
+      "disc": 2,
+      "locale": "jpn",
+      "id": "coalesced:9dddd06d81db0bae6b712120e5fae1a4015cf13f605036db4f42855f6080e06d",
+      "document": "..\\MC2Game\\Localization\\JPN\\MC2CSMB.jpn",
+      "section": "CSMB12_131",
+      "key": "voc_csmb_12131_13",
+      "source": "ふむ。王の証を全て手に入れれば\\n最後の戦いか。",
+      "source_sha256": "6a23fdc25558d2ae9e60d8b3bac52128a14886f44ac9d2dd717831c18bf0a1ae"
+    },
+    {
+      "disc": 2,
+      "locale": "jpn",
+      "id": "coalesced:3fb9c365ea874ed33f56fa8e5748b0eafac2c70cb4edc1e5b13e8bfbabd0d72e",
+      "document": "..\\MC2Game\\Localization\\JPN\\MC2CSMB.jpn",
+      "section": "CSMB12_131",
+      "key": "voc_csmb_12131_14",
+      "source": "そうね、王の霊廟には\\nシュエンザイトがいるはずだわ。",
+      "source_sha256": "2dc33e573fc557f7eb5e53934102f9a1d6cef3bdc452fd8e10b117441a8a118c"
+    },
+    {
+      "disc": 2,
+      "locale": "jpn",
+      "id": "coalesced:e79b2af09cd5ff2a6308ba1c926fa763b7540cdefaf67bfc3c980f8a842eb2ff",
+      "document": "..\\MC2Game\\Localization\\JPN\\MC2UI.jpn",
+      "section": "information",
+      "key": "lastrada_sch",
+      "source": "王の霊廟",
+      "source_sha256": "776700eee4f6b768ad1c2efbac7ee57674130496299f4f60615c74b3000420d5"
+    }
+  ],
+  "verified": [
+    "Two discs independently parsed and hashed;INT/JPN source relationships and exact source tokens observed."
+  ],
+  "spelling_correction_verified": false,
+  "runtime_trigger_verified": false,
+  "human_finalized": false,
+  "game_rendering_verified": false
+}

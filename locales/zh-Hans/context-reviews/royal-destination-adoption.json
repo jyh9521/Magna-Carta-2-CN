@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "kind": "source-locked-context-observations",
+  "resource": "MC2Game/Localization/Coalesced.int",
+  "input_sha256": "179e265cfc9e6d3e9f2586abe75b5da303b2af9b8484079851dab72f9f7edb8c",
+  "plan_canonical_sha256": "c8d3b22684dc42933e6c8f9929902824a65acd9e29a972b346aa2a1ce8cabea4",
+  "human_finalized": false,
+  "runtime_layout_approved": false,
+  "scopes": [
+    {
+      "document": "..\\MC2Game\\Localization\\INT\\MC2Compose.int",
+      "section": "Chapter12",
+      "complete_section": false,
+      "keys": [
+        "Chapter12_37"
+      ],
+      "reason": "Resolved held royal destination instruction with aligned complete scene and independent UI evidence;retain all instructions and protected tokens"
+    }
+  ],
+  "entries": [
+    {
+      "id": "coalesced:a160f429712928d18b47c08c8f8290d97dcf87f61582afb923d1bd7cc3b65c5d",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2Compose.int",
+      "section": "Chapter12",
+      "key": "Chapter12_37",
+      "occurrence": 1,
+      "source_sha256": "75337444b55f6925cf1d0f59ebdda6e39a10368337c1a08c54870a4e6f008a9c",
+      "translation_sha256": "437a5ccb5a08d3e7b27f868ce67d92d449302aac282cae4892eb112ce6f842ac"
+    }
+  ],
+  "protected_breaks": [
+    {
+      "id": "coalesced:a160f429712928d18b47c08c8f8290d97dcf87f61582afb923d1bd7cc3b65c5d",
+      "reason": "Two functional instruction breaks preserved"
+    }
+  ]
+}

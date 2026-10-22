@@ -2,7 +2,7 @@
 from pathlib import Path
 import argparse,json,os,sys,tempfile
 from .prepare_oneclick_probe import launcher,digest
-from .verify_resource_phase import inspect,confined,stable,file_state,sha,unique,hash_value,relative
+from .verify_resource_phase import inspect,confined,stable,file_state,sha,unique,hash_value,relative,MAX_PACKET_RESOURCES
 
 
 def audit_refresh_journal(root,backup,journal_sha256):
@@ -38,7 +38,7 @@ def enroll_inventory(plan_path,plan_sha256,root,prepared_sha256,old,new_hash,pac
             or plan['disc']!=m['disc']):raise ValueError('enrollment requires matching disc comparison packet')
     oldset={r['path'] for r in before['resources']};newset={r['path'] for r in expected['resources']}
     additions=newset-oldset;entries=plan.get('additions')
-    if not oldset<newset or not isinstance(entries,list) or not 1<=len(entries)<=32:
+    if not oldset<newset or not isinstance(entries,list) or not 1<=len(entries)<=MAX_PACKET_RESOURCES:
         raise ValueError('enrollment must be bounded and strictly additive')
     names=[relative(r['path']) for r in entries]
     if len(set(n.casefold() for n in names))!=len(names) or set(names)!=additions:

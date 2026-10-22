@@ -1,3 +1,7 @@
+## 第293阶段
+
+通用有界上限512源/1024层/每包512导出/512包成员，其他像素/保护/身份约束保持。label.align可为left/center/right，缺省仍旧居中公式；原图25px行距与4px授权块分开证明。 见[实际回填](PHASE_293_MONSTER_PARTY_ADOPTION.md)。
+
 ## 第291阶段
 
 纹理edit的旧label或新regions/image_id二选一；区域不重叠，protected_regions独立crop hash与块/Pixels双验证。64图片与65文字层分计，旧单层报告保持。 见[本轮回填](PHASE_291_BOSS_GAMEOVER_ADOPTION.md)。

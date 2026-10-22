@@ -1,3 +1,7 @@
+## 第293阶段
+
+同leaf可有不同namespace/图像，Boss_Ch11_Melissa实际普尔森；同RGBA原图却异读/异译必须拒绝，不能靠记录原串自证分组。花饰/翼饰和原左锚点须保留，171居中提示单独处理。 见[实际回填](PHASE_293_MONSTER_PARTY_ADOPTION.md)。
+
 ## 第292阶段
 
 主菜单与队伍纹理别名在TitleMap_MSPT、UI_Pillar各有resident副本；Guest24高不满足18号字ink余量，改完整32高，Disc无须扩展offset_y。透明RGB不作底色。 见[实际回填](PHASE_292_FRONT_PARTY_ADOPTION.md)。

@@ -14,6 +14,11 @@ from .supplement_font import (parse_atlas_payload, atlas_tiles, decode_logical,
 from .lzx_stored import wrap_ue3_chunk
 
 
+# Finite bounds cover the audited multi-package image families, not game-specific IDs.
+MAX_TEXTURE_SOURCES=512
+MAX_TEXT_LAYERS=1024
+MAX_TEXTURE_EDITS=512
+
 def digest(data):
     return hashlib.sha256(data).hexdigest()
 
@@ -157,6 +162,20 @@ def label_style(label):
     return result
 
 
+def text_position(width,height,box,align='center'):
+    """Place actual ink inside four-pixel margins; legacy centering is unchanged."""
+    if (type(width) is not int or type(height) is not int or min(width,height)<=0
+            or max(width,height)>2048 or not isinstance(box,(list,tuple)) or len(box)!=4
+            or any(type(v) is not int for v in box) or box[2]<=box[0] or box[3]<=box[1]):
+        raise FormatError('invalid text ink geometry')
+    if not isinstance(align,str) or align not in ('left','center','right'):
+        raise FormatError('invalid text alignment')
+    iw=box[2]-box[0];ih=box[3]-box[1]
+    if iw+8>width or ih+8>height:raise FormatError('text layer ink does not fit')
+    x={'left':4,'center':(width-iw)//2,'right':width-4-iw}[align]-box[0]
+    return x,(height-ih)//2-box[1]
+
+
 def render_label(font_bytes,label):
     """Render an owned text layer only; no original image is fed to the rasterizer."""
     from PIL import Image, ImageDraw, ImageFont, ImageFilter
@@ -174,8 +193,7 @@ def render_label(font_bytes,label):
     font=ImageFont.truetype(io.BytesIO(font_bytes),size)
     image=Image.new('RGBA',(w,h));draw=ImageDraw.Draw(image)
     box=draw.textbbox((0,0),text,font=font,stroke_width=1)
-    if box[2]-box[0]+8>w or box[3]-box[1]+8>h:raise FormatError('text layer ink does not fit')
-    pos=((w-(box[2]-box[0]))//2-box[0],(h-(box[3]-box[1]))//2-box[1])
+    pos=text_position(w,h,box,label.get('align','center'))
     shadow=Image.new('RGBA',(w,h));sd=ImageDraw.Draw(shadow)
     sd.text((pos[0]+1,pos[1]+2),text,font=font,fill=style['shadow_fill'],stroke_width=2,stroke_fill=style['shadow_fill'])
     image=Image.alpha_composite(image,shadow.filter(ImageFilter.GaussianBlur(1)))
@@ -186,7 +204,7 @@ def render_label(font_bytes,label):
 
 def patch_package(data,expected_hash,edits,layers,decoder,encoding_cache=None):
     if digest(data)!=expected_hash:raise FormatError('texture base SHA256 mismatch')
-    if not isinstance(edits,list) or not 1<=len(edits)<=128:raise FormatError('texture edit bound')
+    if not isinstance(edits,list) or not 1<=len(edits)<=MAX_TEXTURE_EDITS:raise FormatError('texture edit bound')
     summary=parse_summary(data,len(data));logical=decode_logical(data,summary,decoder)
     tables=parse_tables(logical,summary,len(logical));new=bytearray(logical);selected=set();records=[]
     for edit in edits:

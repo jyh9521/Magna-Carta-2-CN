@@ -6,7 +6,7 @@ are never restored. No game launch, new game tree or automatic forward replay.
 """
 from pathlib import Path
 import argparse,json
-from .verify_resource_phase import sha,hash_value,relative,confined,file_state,stable,unique
+from .verify_resource_phase import sha,hash_value,relative,confined,file_state,stable,unique,MAX_PACKET_RESOURCES
 from .refresh_oneclick_probe import atomic_write
 
 METADATA={'PREPARED.json','开始中文测试.cmd','开始原文对照.cmd'}
@@ -50,7 +50,7 @@ def audit(root,backup,journal_sha256):
             or m.get('raw_controls_unchanged') is not True or m.get('runs_and_saves_preserved') is not True
             or m.get('game_started') is not False):raise ValueError('unsupported refresh journal identity or state')
     rows=m.get('files')
-    if (not isinstance(rows,list) or not 3<=len(rows)<=35 or type(m.get('changed_files')) is not int
+    if (not isinstance(rows,list) or not 3<=len(rows)<=MAX_PACKET_RESOURCES+len(METADATA) or type(m.get('changed_files')) is not int
             or m['changed_files']!=len(rows)):raise ValueError('journal file inventory outside bound')
     seen=set();snapshots=[(journal,state)];operations=[];results=[]
     for r in rows:

@@ -46,7 +46,7 @@ class LocaleComparisonTests(unittest.TestCase):
             with self.subTest(path=path),self.assertRaises(ValueError):raw_phase(bad,fonts,toc,stored_decoder)
 
     def test_raw_inventory_bounded(self):
-        for o in [{},{str(i):b'x' for i in range(65)}]:
+        for o in [{},{str(i):b'x' for i in range(513)}]:
             with self.assertRaisesRegex(ValueError,'count'):raw_phase(o,[],'toc')
 
     def test_toc_source_size_mismatch_rejected(self):

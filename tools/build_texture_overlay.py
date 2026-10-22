@@ -9,7 +9,7 @@ from .build_font_supplement import context,restore_copy
 from .ue3_package import LzxDecoder
 from .supplement_font import parse_atlas_payload,atlas_tiles
 from .ue3_textures import decode_dxt5,untile_dxt5,png_rgba
-from .texture_overlay import digest,render_label,patch_package,image_id
+from .texture_overlay import digest,render_label,patch_package,image_id,MAX_TEXTURE_SOURCES,MAX_TEXT_LAYERS
 from .verify_locale_candidate import scan_tree
 
 KIND='offline-texture-overlay-bundle'
@@ -17,7 +17,7 @@ KIND='offline-texture-overlay-bundle'
 
 def select_sources(sources,disc=None):
     """Explicit per-disc inventory; absent declarations preserve legacy bundles."""
-    if not isinstance(sources,list) or not 1<=len(sources)<=32:raise ValueError('texture source bound')
+    if not isinstance(sources,list) or not 1<=len(sources)<=MAX_TEXTURE_SOURCES:raise ValueError('texture source bound')
     if disc is not None and (type(disc) is not int or disc not in (1,2)):raise ValueError('invalid texture disc')
     selected=[]
     for source in sources:
@@ -47,8 +47,8 @@ def prepare(plan,root,decoder,disc=None):
         if digest(b)!=ref['sha256']:raise ValueError('texture input hash mismatch')
         snapshots.append((p,ref['sha256']));return b
     labels=plan.get('labels');sources=plan.get('sources')
-    if (not isinstance(labels,list) or not 1<=len(labels)<=128 or not isinstance(sources,list)
-            or not 1<=len(sources)<=32):raise ValueError('texture label/source bound')
+    if (not isinstance(labels,list) or not 1<=len(labels)<=MAX_TEXT_LAYERS or not isinstance(sources,list)
+            or not 1<=len(sources)<=MAX_TEXTURE_SOURCES):raise ValueError('texture label/source bound')
     sources=select_sources(sources,disc)
     font=locked_bytes(plan['font']);layers={}
     if len(font)>64*1024*1024:raise ValueError('font size bound')

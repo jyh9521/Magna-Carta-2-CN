@@ -155,15 +155,15 @@ class ResourcePhaseTests(unittest.TestCase):
 if __name__=='__main__':unittest.main()
 
 class ExpandedResourceInventoryTests(unittest.TestCase):
-    def test_sixty_four_resources_and_sixty_fifth_rejection(self):
+    def test_five_hundred_twelve_resources_and_next_rejection(self):
         with tempfile.TemporaryDirectory() as d:
             f=Fixture(Path(d))
-            for i in range(62):
+            for i in range(510):
                 name=f'Extra/{i}.dat';data=str(i).encode();h=phase.sha(data)
                 for kind in phase.PHASES:
                     p=f.packet/kind/name;p.parent.mkdir(parents=True,exist_ok=True);p.write_bytes(data);f.manifest['member_sha256'][kind+'/'+name]=h
                 p=f.game/name;p.parent.mkdir(parents=True,exist_ok=True);p.write_bytes(data)
                 f.manifest['resources'].append(dict(path=name,original_size=len(data),original_sha256=h,candidate_size=len(data),candidate_sha256=h))
-            f.refresh();self.assertEqual(f.run()['matched_count'],64)
+            f.refresh();self.assertEqual(f.run()['matched_count'],512)
             f.manifest['resources'].append(dict(f.manifest['resources'][-1]));f.refresh()
             with self.assertRaisesRegex(ValueError,'inventory'):f.run()

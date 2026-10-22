@@ -11,7 +11,7 @@ import json
 from pathlib import Path
 import re
 
-MAX_PACKET_RESOURCES=64
+MAX_PACKET_RESOURCES=512
 MAX_FILE=512*1024*1024
 PHASES=('controls','raw-controls','candidate')
 

@@ -542,7 +542,14 @@
           "target_sha256_at_audit": null
         }
       ],
-      "evidence": []
+      "evidence": [],
+      "latest_resolution": {
+        "phase": 280,
+        "decision": "locales/zh-Hans/candidate-decisions/chapter-exclusion-reasons.json",
+        "status": "historical reasons recovered;explicit 성쇄/왕의 영병 terminology evidence gates;not active retranslation without new evidence",
+        "translation_edits": 0,
+        "human_finalized": false
+      }
     },
     {
       "record": "party-tone-followup.json",

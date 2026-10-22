@@ -15,14 +15,14 @@ from tools.ue3_package import parse_summary,LzxDecoder
 from tools.update_resource_sizes import update_sizes_reversible
 from tools.verify_locale_candidate import scan_tree
 from tools.build_font_supplement import restore_copy
-from tools.verify_resource_phase import relative
+from tools.verify_resource_phase import relative,MAX_PACKET_RESOURCES
 
 KIND='offline-disc-locale-raw-comparison'
 
 
 def raw_phase(originals,font_paths,toc_path,decoder=None):
     """Normalize only explicitly declared font packages; update original TOC once."""
-    if not isinstance(originals,dict) or not 1<=len(originals)<=32:raise ValueError('raw resource count outside bound')
+    if not isinstance(originals,dict) or not 1<=len(originals)<=MAX_PACKET_RESOURCES:raise ValueError('raw resource count outside bound')
     for p in originals:relative(p)
     if len({p.casefold() for p in originals})!=len(originals):raise ValueError('aliased raw resource paths')
     if not font_paths or len(font_paths)>8 or len(set(font_paths))!=len(font_paths):raise ValueError('invalid raw font set')

@@ -1,3 +1,7 @@
+## 第290阶段
+
+texture计划支持sources[].discs与显式--disc，同盘manifest/独立重放绑定；47标签共用语言数据，13/16源资源各盘筛选。阶段检查/raw comparison共享64资源上限，65仍拒绝。 见[全族回填](PHASE_290_COMPLETE_CHAPTER_TEXTURES.md)。
+
 ## 第289阶段
 
 图片文字工具保持单mip/raw或LZX bulk结构，追加导出并同时修正SourceArt与mip绝对指针；授权区域按BC3四像素块对齐。 见[纹理汉化](PHASE_289_TEXTURE_LOCALIZATION.md)。

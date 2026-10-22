@@ -1,3 +1,7 @@
+## 第290阶段：47张章节入口成套回填
+
+新增46图、累计47章节图，双盘273真实别名覆盖17纹理资源；地图resident含两种namespace，不只三大包。40既有字段/4句内词组/3新图像译文，INT仍batch121/14159。双盘39/44资源包、显式disc选择及64成员验证上限，迭代回滚恢复旧中文检查点。见[完整章节图片汉化](docs/PHASE_290_COMPLETE_CHAPTER_TEXTURES.md)。
+
 ## 第289阶段：章节入口图片实际回填
 
 章节入口ch01_01_vill三别名实际替换为既有地名“风息岛村庄”；通用有界BC3文字层工具、显式font→texture hash链与双盘29/31资源包。区域外块/padding保持，Font与INT/字幕不变。仅一组图片，不宣称全图片完成；继续其他章节/BOSS/GameOver。见[实际纹理汉化与构建](docs/PHASE_289_TEXTURE_LOCALIZATION.md)。

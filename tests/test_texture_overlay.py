@@ -1,5 +1,5 @@
 import unittest,struct
-from tools.texture_overlay import digest,encode_rgba_block,overlay_tiles,patch_package
+from tools.texture_overlay import digest,encode_rgba_block,overlay_tiles,patch_package,label_style
 from tools.ue3_package import FormatError,parse_summary,parse_tables
 from tools.supplement_font import decode_logical,parse_atlas_payload,atlas_tiles
 from tools.ue3_textures import decode_dxt5
@@ -41,4 +41,44 @@ class TextureOverlayTests(unittest.TestCase):
   raw=bytes(range(256))*64;out,p=overlay_tiles(raw,128,128,[8,8,8,8],bytes([250,250,250,255])*64)
   self.assertEqual(len(out),len(raw));self.assertEqual(sum(raw[i:i+16]!=out[i:i+16] for i in range(0,len(raw),16)),4);self.assertTrue(p['alignment_padding_preserved'])
 
+
+class TextureLabelStyleTests(unittest.TestCase):
+ def test_default_palette_retains_original_overlay(self):
+  self.assertEqual(label_style({}),dict(fill=(236,236,236,255),stroke_fill=(25,25,25,230),shadow_fill=(0,0,0,180)))
+ def test_partial_style_is_generic_and_does_not_mutate_input(self):
+  p={'style':{'fill':[252,215,160,255]}};self.assertEqual(label_style(p)['fill'],(252,215,160,255));self.assertEqual(p['style'],{'fill':[252,215,160,255]});self.assertEqual(label_style(p)['stroke_fill'],(25,25,25,230))
+ def test_unknown_palette_fields_rejected(self):
+  for style in [None,[],{'color':[1,2,3,4]}]:
+   with self.subTest(style=style),self.assertRaises(FormatError):label_style({'style':style})
+ def test_invalid_rgba_bytes_rejected(self):
+  for value in [[0,0,0],[-1,0,0,0],[256,0,0,0],[True,0,0,0],['0',0,0,0],None]:
+   with self.subTest(value=value),self.assertRaises(FormatError):label_style({'style':{'fill':value}})
+
 if __name__=='__main__':unittest.main()
+
+class TextureDiscSelectionTests(unittest.TestCase):
+ def test_legacy_sources_require_no_disc_and_keep_all(self):
+  from tools.build_texture_overlay import select_sources
+  sources=[{'path':'a'},{'path':'b'}];self.assertEqual(select_sources(sources),sources);self.assertEqual(select_sources(sources,2),sources)
+ def test_explicit_disc_inventory_selects_exact_subset(self):
+  from tools.build_texture_overlay import select_sources
+  a={'path':'a','discs':[1]};b={'path':'b','discs':[2]};c={'path':'c','discs':[1,2]}
+  self.assertEqual(select_sources([a,b,c],1),[a,c]);self.assertEqual(select_sources([a,b,c],2),[b,c]);self.assertEqual(a['discs'],[1])
+ def test_scoped_sources_reject_implicit_or_invalid_disc(self):
+  from tools.build_texture_overlay import select_sources
+  for disc in [None,True,0,3,'1']:
+   with self.subTest(disc=disc),self.assertRaises(ValueError):select_sources([{'discs':[1]}],disc)
+ def test_disc_declaration_bounds_and_empty_selection(self):
+  from tools.build_texture_overlay import select_sources
+  for discs in [[],[True],[1,1],[3],'1']:
+   with self.subTest(discs=discs),self.assertRaises(ValueError):select_sources([{'discs':discs}],1)
+  for sources in [[],[{}]*33,[{'discs':[2]}]]:
+   with self.subTest(sources=len(sources)),self.assertRaises(ValueError):select_sources(sources,1)
+
+class TextureEncodingCacheTests(unittest.TestCase):
+ def test_cache_keeps_encoded_output_and_block_proofs_identical(self):
+  tiles=bytes(range(256))*64;rgba=bytes([236,236,236,255])*64;cache={};a,p=overlay_tiles(tiles,128,128,[8,8,8,8],rgba);b,q=overlay_tiles(tiles,128,128,[8,8,8,8],rgba,cache);c,r=overlay_tiles(tiles,128,128,[8,8,8,8],rgba,cache)
+  self.assertEqual((a,p),(b,q));self.assertEqual((a,p),(c,r));self.assertEqual(len(cache),1)
+ def test_malformed_cached_bytes_rejected(self):
+  rgba=bytes(256)
+  with self.assertRaisesRegex(FormatError,'cached'):overlay_tiles(bytes(16384),128,128,[8,8,8,8],rgba,{(8,8,rgba):b'x'})

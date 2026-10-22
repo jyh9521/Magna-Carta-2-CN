@@ -1,3 +1,7 @@
+## 第290阶段
+
+47张章节入口图片族和已发现273同名别名已离线回填；BOSS/GameOver与其他UI/教程仍待汉化，111不支持导出和不同名/动态别名仍待覆盖，不宣称游戏验收完成。 见[全族回填](PHASE_290_COMPLETE_CHAPTER_TEXTURES.md)。
+
 ## 第289阶段
 
 仅ch01_01_vill入口三别名完成离线图片汉化，其他章节/BOSS/GameOver仍待实际回填；整游戏图片覆盖和运行验收尚未完成。 见[纹理汉化](PHASE_289_TEXTURE_LOCALIZATION.md)。

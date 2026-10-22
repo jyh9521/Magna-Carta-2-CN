@@ -12,7 +12,7 @@
   },
   "labels": [
     {
-      "id": "village",
+      "id": "ch01_01_vill",
       "text": "风息岛村庄",
       "rect": [
         116,
@@ -20,12 +20,1173 @@
         276,
         64
       ],
-      "font_size": 36
+      "font_size": 36,
+      "translation_basis": "exact-field-ignoring-whitespace",
+      "source_text_sha256": "3f3e92f639f1d98d12b9ea32a8bd81747c9568961efe4313e551623ccd5f9aab",
+      "source_ids": [
+        "coalesced:aaf3de80a0c70992b2c57285f156b61f7ce6bd78897c4bfc3de91ccf1bf3836a"
+      ],
+      "source_export": 25
+    },
+    {
+      "id": "ch01_02_beach",
+      "text": "风息岛海岸",
+      "rect": [
+        116,
+        0,
+        276,
+        64
+      ],
+      "font_size": 36,
+      "translation_basis": "exact-field-ignoring-whitespace",
+      "source_text_sha256": "c4d1bf9d91caea5cf8c050464168c5bd65b3ab0be771ad3c41e75bce730b3339",
+      "source_ids": [
+        "coalesced:4a5a9a64962137f9d2a5f7b76b4273f9b6397c36d2c5803fb3208d70b369c6f3"
+      ],
+      "source_export": 26
+    },
+    {
+      "id": "ch01_03_cave",
+      "text": "风歌洞窟",
+      "rect": [
+        140,
+        0,
+        224,
+        64
+      ],
+      "font_size": 36,
+      "translation_basis": "exact-field-ignoring-whitespace",
+      "source_text_sha256": "7902a47639a98a9ac564eddbfee6c3587a1fb707c7f1808bb974ba55ff32e758",
+      "source_ids": [
+        "coalesced:fdf5f49e10cb2687e5b6c02045d923dde80cc0161e30c872cdf1b75e71c0638d"
+      ],
+      "source_export": 27
+    },
+    {
+      "id": "ch01_04_wood",
+      "text": "青灵森林",
+      "rect": [
+        172,
+        0,
+        164,
+        64
+      ],
+      "font_size": 36,
+      "translation_basis": "exact-field-ignoring-whitespace",
+      "source_text_sha256": "6b43e2485916c45c7a4bde60931279baa9bf5c231828fd9379972cccd5565523",
+      "source_ids": [
+        "coalesced:244da57d30ff22525d5b5d210a7974b873f3fc9eb7155f26c943f954d5c50e0d"
+      ],
+      "source_export": 28
+    },
+    {
+      "id": "ch02_01_Abazet",
+      "text": "阿巴泽特",
+      "rect": [
+        184,
+        0,
+        144,
+        64
+      ],
+      "font_size": 33,
+      "translation_basis": "exact-field-ignoring-whitespace",
+      "source_text_sha256": "ff87a321f6fd03c1c3470bd73d633b340c7e4ad2e1b19d8685b76c8060601da3",
+      "source_ids": [
+        "coalesced:f37571138dae7b712ae568fd2866a0df01d062e3267d1b804d81cb133c213dd3"
+      ],
+      "source_export": 29
+    },
+    {
+      "id": "ch02_02_Abazet_port",
+      "text": "阿巴泽特港口",
+      "rect": [
+        156,
+        0,
+        196,
+        64
+      ],
+      "font_size": 31,
+      "translation_basis": "exact-field-ignoring-whitespace",
+      "source_text_sha256": "49e5d5699317ee50017ff12e4670d2a4269a9050250d24aa98c303f8c80c23cc",
+      "source_ids": [
+        "coalesced:dbdf6af8ff5325063e0e6d98181714d742a1e12fd12c25f5f70fc1cbd70bcbcc"
+      ],
+      "source_export": 30
+    },
+    {
+      "id": "ch02_03_Abazet_Field",
+      "text": "阿巴泽特草原",
+      "rect": [
+        160,
+        0,
+        192,
+        64
+      ],
+      "font_size": 30,
+      "translation_basis": "exact-field-ignoring-whitespace",
+      "source_text_sha256": "898670104a9a64db0fbbcc69ffc0f61d904a067c43716f55af564c2c19671fad",
+      "source_ids": [
+        "coalesced:0e87be90037abb832eede0c13d78629f0bfa737a41a8a3c80cb0915d4fdb95a3"
+      ],
+      "source_export": 31
+    },
+    {
+      "id": "ch02_04_Forest_of_wild",
+      "text": "荒野森林",
+      "rect": [
+        172,
+        0,
+        168,
+        64
+      ],
+      "font_size": 36,
+      "translation_basis": "exact-field-ignoring-whitespace",
+      "source_text_sha256": "7baba33ca1b1be013ef378b3ae65cbcbc8a5f5a1f697c03e3014dfd19f10c99f",
+      "source_ids": [
+        "coalesced:eaca6292688b9dff523cdb52026b2f990fe3aade6bdde02e1f717a0e455bc784"
+      ],
+      "source_export": 32
+    },
+    {
+      "id": "ch02_05_Hill_of_a_chief",
+      "text": "元首之丘",
+      "rect": [
+        160,
+        0,
+        192,
+        64
+      ],
+      "font_size": 36,
+      "translation_basis": "cross-locale-primary-disambiguation",
+      "source_text_sha256": "c5a6a78a171b813f4ed8b5519650c34ba8716c7a2113ff033bd656b557f75096",
+      "source_ids": [
+        "coalesced:b215b6ee2f4801d107b6716e40b80fc63c4235071b1d17ebacda74da5c79432a",
+        "coalesced:146e91054b81fc28df5b45f9aec22422f715b6962e4c38ce0a0af2966ffc1e63"
+      ],
+      "source_export": 33
+    },
+    {
+      "id": "ch02_06_Cave_of_Lati_Tribe",
+      "text": "拉提族洞窟",
+      "rect": [
+        152,
+        0,
+        204,
+        64
+      ],
+      "font_size": 36,
+      "translation_basis": "exact-field-ignoring-whitespace",
+      "source_text_sha256": "22c48025baa2cd09170466672b92892ccbd1111e6217bb0dd49be569c516ecbb",
+      "source_ids": [
+        "coalesced:8e7aab11669605cb2fa14790c800e77e7cdb7c39dc891d9b386b6795734f6a18"
+      ],
+      "source_export": 34
+    },
+    {
+      "id": "ch02_07_Base_of_Werewolves",
+      "text": "狼人据点",
+      "rect": [
+        108,
+        0,
+        296,
+        64
+      ],
+      "font_size": 36,
+      "translation_basis": "exact-field-ignoring-whitespace",
+      "source_text_sha256": "28c2f400d77b68542f761cca005c4dc386b380af500a8655efd4816aac09a02c",
+      "source_ids": [
+        "coalesced:dd58b4eebd457b0086c561ac1051841519fa2e7d3fb00775f00ac746d45c5c01"
+      ],
+      "source_export": 35
+    },
+    {
+      "id": "ch02_08_Headquarters",
+      "text": "南部军总司令部",
+      "rect": [
+        116,
+        0,
+        276,
+        64
+      ],
+      "font_size": 36,
+      "translation_basis": "adopted-phrase-extraction",
+      "source_text_sha256": "2e9ff81a8ddb4d95db04a8e91dc7412167a1c1cbc8f231a5ff0c187165f068f5",
+      "source_ids": [
+        "coalesced:c44ea22cee4e258ad8db0b7b4f8c26d76a09857d48b2c89bc8ebd8a651db4bfb"
+      ],
+      "source_export": 36
+    },
+    {
+      "id": "ch02_09_Old_fox_canyon",
+      "text": "老狐峡谷",
+      "rect": [
+        136,
+        0,
+        236,
+        64
+      ],
+      "font_size": 36,
+      "translation_basis": "exact-field-ignoring-whitespace",
+      "source_text_sha256": "8629d0dcecee5931163fc41bd7568b1ad2e584f2cba68a264045923b6fff0818",
+      "source_ids": [
+        "coalesced:220a6319bce74e8f0a8077a11231c815efa98011e9d9e35a798ef77c45d0e672"
+      ],
+      "source_export": 37
+    },
+    {
+      "id": "ch02_10_Temporary_base",
+      "text": "临时驻地",
+      "rect": [
+        160,
+        0,
+        188,
+        64
+      ],
+      "font_size": 36,
+      "translation_basis": "exact-field-ignoring-whitespace",
+      "source_text_sha256": "b967ac3f532b8efac9528cca7c70d35f05a12e603298f1b7b5faf3c262f1a06f",
+      "source_ids": [
+        "coalesced:602abd4ea248ba6cbabda58ad4ff1174e6ae91308c5af54b8db579b4ab2fc9ae"
+      ],
+      "source_export": 38
+    },
+    {
+      "id": "ch02_11_Desert_of_silence",
+      "text": "寂静荒野",
+      "rect": [
+        160,
+        0,
+        192,
+        64
+      ],
+      "font_size": 36,
+      "translation_basis": "exact-field-ignoring-whitespace",
+      "source_text_sha256": "0b8c889f10cb15a0dbf3242e76fda79e3336e17e7614021655dda61090886fbf",
+      "source_ids": [
+        "coalesced:0ccaf985aff709fb9e1e2e3296496a6958c61e15066e4ed0f8ce9e4889637b56"
+      ],
+      "source_export": 39
+    },
+    {
+      "id": "ch02_12_Wail_wall",
+      "text": "恸哭之门",
+      "rect": [
+        172,
+        0,
+        164,
+        64
+      ],
+      "font_size": 36,
+      "style": {
+        "fill": [
+          252,
+          215,
+          160,
+          255
+        ],
+        "stroke_fill": [
+          83,
+          16,
+          16,
+          230
+        ]
+      },
+      "translation_basis": "adopted-phrase-extraction",
+      "source_text_sha256": "90e170ebe3cc1e8149230236e8d4909f8f952ea4a89eed937d322395808044e4",
+      "source_ids": [
+        "coalesced:ab212b81136afafa85408135bcc9c13393e477cbccf4836c66a6f19e383bb14b"
+      ],
+      "source_export": 40
+    },
+    {
+      "id": "ch02_HeathOfSilence",
+      "text": "寂静荒野",
+      "rect": [
+        160,
+        0,
+        192,
+        64
+      ],
+      "font_size": 36,
+      "translation_basis": "exact-field-ignoring-whitespace",
+      "source_text_sha256": "0b8c889f10cb15a0dbf3242e76fda79e3336e17e7614021655dda61090886fbf",
+      "source_ids": [
+        "coalesced:0ccaf985aff709fb9e1e2e3296496a6958c61e15066e4ed0f8ce9e4889637b56"
+      ],
+      "source_export": 41
+    },
+    {
+      "id": "Ch02_Navyblue",
+      "text": "水色湿地",
+      "rect": [
+        164,
+        0,
+        184,
+        64
+      ],
+      "font_size": 36,
+      "translation_basis": "exact-field-ignoring-whitespace",
+      "source_text_sha256": "7809fd6bca4073a0e61e1a14ebb87a5a89be7f556e7f9dec0ed8c6f9eb8661b4",
+      "source_ids": [
+        "coalesced:72c267b54e3d3aee005a91a6e96185c742017f9fb51c155b4ff710c1b546f7ac"
+      ],
+      "source_export": 42
+    },
+    {
+      "id": "Ch02_NorthernCampsite",
+      "text": "北部军营地",
+      "rect": [
+        128,
+        0,
+        260,
+        64
+      ],
+      "font_size": 36,
+      "translation_basis": "exact-field-ignoring-whitespace",
+      "source_text_sha256": "1f01c4ff1862c3a96096838575b59c10eb6ed940a3d20697402627cd5aacc552",
+      "source_ids": [
+        "coalesced:221aea13930225c316e2a92854f169d578cb5e8d48f6f7ebadb569f1b54af130"
+      ],
+      "source_export": 43
+    },
+    {
+      "id": "Ch02_NorthernGarrison",
+      "text": "临时驻地",
+      "rect": [
+        164,
+        0,
+        188,
+        64
+      ],
+      "font_size": 36,
+      "translation_basis": "exact-field-ignoring-whitespace",
+      "source_text_sha256": "b967ac3f532b8efac9528cca7c70d35f05a12e603298f1b7b5faf3c262f1a06f",
+      "source_ids": [
+        "coalesced:602abd4ea248ba6cbabda58ad4ff1174e6ae91308c5af54b8db579b4ab2fc9ae"
+      ],
+      "source_export": 44
+    },
+    {
+      "id": "Ch02_NorthernOutpost",
+      "text": "老狐峡谷 : 北部军基地",
+      "rect": [
+        80,
+        0,
+        352,
+        64
+      ],
+      "font_size": 35,
+      "translation_basis": "exact-field-ignoring-whitespace",
+      "source_text_sha256": "146ab598cae920b44060c42f56dc282d924202fb402f1e1229d994b2f92c1188",
+      "source_ids": [
+        "coalesced:a470bbf14ed207841cb973135caa65e82631366eabcbf1db6055cb4eb8bc6a5b"
+      ],
+      "source_export": 45
+    },
+    {
+      "id": "Ch02_RefugeOfDarkness",
+      "text": "暗影藏身处",
+      "rect": [
+        144,
+        0,
+        224,
+        64
+      ],
+      "font_size": 36,
+      "translation_basis": "exact-field-ignoring-whitespace",
+      "source_text_sha256": "3bd185023e67667663395ca882966902b9c05f64325c4da8438140210c150986",
+      "source_ids": [
+        "coalesced:3762d79af2e616721a27af01c27d054fe217a1826f74b22f1fb4180ecac3a310"
+      ],
+      "source_export": 46
+    },
+    {
+      "id": "ch02_SouthGate",
+      "text": "南部关卡",
+      "rect": [
+        172,
+        0,
+        164,
+        64
+      ],
+      "font_size": 36,
+      "translation_basis": "adopted-phrase-extraction",
+      "source_text_sha256": "f5b6f4ea206b35bd34be03e5793049a7650880fccaf4d2aa0393ed31c036dd60",
+      "source_ids": [
+        "coalesced:128bda6385ac029e3d204366b1d0da0e07258388d59098c94e031f49d3fb848b"
+      ],
+      "source_export": 47
+    },
+    {
+      "id": "Ch03_Altar_Mare",
+      "text": "马雷族祭坛",
+      "rect": [
+        140,
+        0,
+        228,
+        64
+      ],
+      "font_size": 36,
+      "translation_basis": "exact-field-ignoring-whitespace",
+      "source_text_sha256": "07d0993fa63eaf5d4f0c9a4303d5217f8083daf8acb47d85f60a4a1eddcfc4b5",
+      "source_ids": [
+        "coalesced:f1f4317103249f8e17d12d8a70461bdc2849def393b6410adcdddabb651735e8"
+      ],
+      "source_export": 48
+    },
+    {
+      "id": "Ch03_Cotamare",
+      "text": "柯塔马雷",
+      "rect": [
+        176,
+        0,
+        156,
+        64
+      ],
+      "font_size": 36,
+      "translation_basis": "exact-field-ignoring-whitespace",
+      "source_text_sha256": "6ce862c28483b8308af455160d783a270b4bf230e2a4b4ee3425f3a62b1a725c",
+      "source_ids": [
+        "coalesced:acf63e073dcc0a556c8e48fba0b71782e571a8988907f007d07d0e4b5a36fd60"
+      ],
+      "source_export": 49
+    },
+    {
+      "id": "Ch03_Library",
+      "text": "马雷的隐藏书库",
+      "rect": [
+        100,
+        0,
+        308,
+        64
+      ],
+      "font_size": 36,
+      "translation_basis": "compositional-existing-terms-and-visual-source",
+      "source_text_sha256": "08745a63dc19ca0ddc304ebe5eb13bc98e7598acaf45018d9e72cffc33177484",
+      "source_ids": [
+        "coalesced:ec3c6621188800e009b8c5f61dd14339125cb2b6de251c153c1f91f52a87fe0a",
+        "coalesced:70873fc90fe4cfd8d7f3ac87a0ab6370e2a4edd70d7b8a88d8eb8f77f6db1e08"
+      ],
+      "source_export": 50
+    },
+    {
+      "id": "Ch03_MareSquare",
+      "text": "马雷广场",
+      "rect": [
+        172,
+        0,
+        164,
+        64
+      ],
+      "font_size": 36,
+      "translation_basis": "compositional-existing-terms-and-visual-source",
+      "source_text_sha256": "aed3c5283edc3230d98bf089ac61d52f1850973f66a06aaa111e5d0720a693f2",
+      "source_ids": [
+        "coalesced:f1f4317103249f8e17d12d8a70461bdc2849def393b6410adcdddabb651735e8",
+        "coalesced:ce1e07ce9d9fa2015995bf17548b53ae2a78b41c5ff68d295f4566dfcaf143b6"
+      ],
+      "source_export": 51
+    },
+    {
+      "id": "Ch03_Tomb",
+      "text": "斯特拉斯之墓",
+      "rect": [
+        140,
+        0,
+        228,
+        64
+      ],
+      "font_size": 36,
+      "translation_basis": "exact-field-ignoring-whitespace",
+      "source_text_sha256": "26cf1383b487e6d960f5c34a7429471c48d2d5cd38b1cea338ec62d074a0aabc",
+      "source_ids": [
+        "coalesced:6a54911dda017cf09b9cf7d15e41e32711ab039f85f09255bd546aa42235a78d"
+      ],
+      "source_export": 52
+    },
+    {
+      "id": "Ch03_Undersea",
+      "text": "海底洞窟",
+      "rect": [
+        176,
+        0,
+        160,
+        64
+      ],
+      "font_size": 36,
+      "translation_basis": "exact-field-ignoring-whitespace",
+      "source_text_sha256": "5cffdfbc93bb1e00a1db1c4baa727591a870dc454176fd950bc73658d0ba27f0",
+      "source_ids": [
+        "coalesced:d06f0b5a5a1f129206470eede236562027163c8a827bf6e76fa298b674674cd8"
+      ],
+      "source_export": 53
+    },
+    {
+      "id": "Ch04_1stCheckpoint",
+      "text": "杜南丘陵第1哨所",
+      "rect": [
+        124,
+        0,
+        264,
+        64
+      ],
+      "font_size": 33,
+      "translation_basis": "exact-field-ignoring-whitespace",
+      "source_text_sha256": "78b36567f9fb0c028127c8126795f2d3b792904fc08c319935caab0cc28521a9",
+      "source_ids": [
+        "coalesced:697a3dccb5efeb8efbbf3c107103f24f2058ef492650381e02cae4df5c0a0255"
+      ],
+      "source_export": 54
+    },
+    {
+      "id": "Ch04_2stCheckpoint",
+      "text": "杜南丘陵第2哨所",
+      "rect": [
+        124,
+        0,
+        264,
+        64
+      ],
+      "font_size": 33,
+      "translation_basis": "exact-field-ignoring-whitespace",
+      "source_text_sha256": "25751d0276907689e7d98a5ff8cb50ca7580b5c9e20f89209e338f8ef7747036",
+      "source_ids": [
+        "coalesced:2d38dad539d47f627e0e53cd4870b232d4bcd0b5a99af04d8a24bf190cf288e9"
+      ],
+      "source_export": 55
+    },
+    {
+      "id": "Ch04_Darkblade",
+      "text": "黑刃要塞",
+      "rect": [
+        136,
+        0,
+        240,
+        64
+      ],
+      "font_size": 36,
+      "translation_basis": "exact-field-ignoring-whitespace",
+      "source_text_sha256": "8a25af79d9fe43d9f1fb49ebf6f48f8cc6a7a42c1c918a2fc892f12806b09378",
+      "source_ids": [
+        "coalesced:5e963db4a6f762384aa79f9014d8df28c060fef384fed530e6f9f14ce9e186d8"
+      ],
+      "source_export": 56
+    },
+    {
+      "id": "Ch04_DunanHill",
+      "text": "杜南丘陵",
+      "rect": [
+        176,
+        0,
+        160,
+        64
+      ],
+      "font_size": 36,
+      "translation_basis": "exact-field-ignoring-whitespace",
+      "source_text_sha256": "8b8b70e373d671f8710a0e702f8710be8beec685ca1f32732ace937b915a8244",
+      "source_ids": [
+        "coalesced:c9cabd24f5d5a0dbaf5f55d02a674da8b64ebee6fc461dd512d6b51d8d2c9b9e"
+      ],
+      "source_export": 57
+    },
+    {
+      "id": "Ch04_DunanHillCheck",
+      "text": "杜南平原休息站",
+      "rect": [
+        128,
+        0,
+        256,
+        64
+      ],
+      "font_size": 35,
+      "translation_basis": "adopted-phrase-extraction",
+      "source_text_sha256": "c3d0eac8c137367b8bf3083fd1b1412e9955f1c9fa5fc16e26903c95375ba7ad",
+      "source_ids": [
+        "coalesced:5a24f3db8077c1e69867edbb7fda1778529f1ba558323b1926396d41d05db060"
+      ],
+      "source_export": 58
+    },
+    {
+      "id": "Ch06_Ancient",
+      "text": "古代墓穴",
+      "rect": [
+        160,
+        0,
+        188,
+        64
+      ],
+      "font_size": 36,
+      "translation_basis": "exact-field-ignoring-whitespace",
+      "source_text_sha256": "4bee51e355a18350e4851e7c634f7e74be83acf09143a90e13eaac44a1d7fbb1",
+      "source_ids": [
+        "coalesced:c907861266eb24213f41bf9ce12fd8bb6af35cf6e84bc27fd85625c2cb9352dc"
+      ],
+      "source_export": 59
+    },
+    {
+      "id": "Ch06_DunanField",
+      "text": "杜南平原",
+      "rect": [
+        176,
+        0,
+        160,
+        64
+      ],
+      "font_size": 36,
+      "translation_basis": "exact-field-ignoring-whitespace",
+      "source_text_sha256": "7e97978ceae3673d15a6b87e3705405c13665b62af7d9061dc113dc53b169d63",
+      "source_ids": [
+        "coalesced:543ee75abb3c9fe5fd503a9872a7cfd4ee9782339a138277920d909f53383f1b"
+      ],
+      "source_export": 60
+    },
+    {
+      "id": "Ch06_Lanoara",
+      "text": "拉诺阿拉湖",
+      "rect": [
+        140,
+        0,
+        232,
+        64
+      ],
+      "font_size": 36,
+      "translation_basis": "exact-field-ignoring-whitespace",
+      "source_text_sha256": "b83699b4a258ffe41bab77fe4b79c5e95e367c941b7333133b84e77da3dff992",
+      "source_ids": [
+        "coalesced:b5937bf02a6fcecf079f101659e1700a0f00841f96280b05103125ed028609f5"
+      ],
+      "source_export": 61
+    },
+    {
+      "id": "Ch06_Outlaws",
+      "text": "杜南盗贼窝点",
+      "rect": [
+        104,
+        0,
+        304,
+        64
+      ],
+      "font_size": 36,
+      "translation_basis": "exact-field-ignoring-whitespace",
+      "source_text_sha256": "0fd47f78004e6a663a443722d2a0d0b2449859a142c2ebf01ac7883a384e709d",
+      "source_ids": [
+        "coalesced:e3975c3a9283f2a89b97a39515cb1c92918b45827281f23f0727e3abe03fded9"
+      ],
+      "source_export": 62
+    },
+    {
+      "id": "Ch06_Reinpolt",
+      "text": "雷恩波尔特废墟",
+      "rect": [
+        144,
+        0,
+        220,
+        64
+      ],
+      "font_size": 30,
+      "translation_basis": "exact-field-ignoring-whitespace",
+      "source_text_sha256": "02b6c3a6c1f937f33f939520c1be22bee7a3590787c784b6451fecc16f1c189f",
+      "source_ids": [
+        "coalesced:86befcd0b2a0bfef46e6ec4ca8018956331a716e5863ab651ff7be8d31c6f47e"
+      ],
+      "source_export": 63
+    },
+    {
+      "id": "Ch06_Ruhalt",
+      "text": "鲁哈尔特盆地",
+      "rect": [
+        160,
+        0,
+        192,
+        64
+      ],
+      "font_size": 30,
+      "translation_basis": "exact-field-ignoring-whitespace",
+      "source_text_sha256": "6c59e8c3713ccd9ed974e332fd23e3e7f819f732170fb21368c55f623623a429",
+      "source_ids": [
+        "coalesced:5db82d47783ae27168627b7691fd151b0f0b49fe12f5c455f7affdd8a2daee72",
+        "coalesced:bf335f3bc36c04f58f0f2932be693ccfe05d30a514513b8309456ea3bf1d5c9b"
+      ],
+      "source_export": 64
+    },
+    {
+      "id": "Ch07_Belfort",
+      "text": "贝尔福特街区",
+      "rect": [
+        144,
+        0,
+        224,
+        64
+      ],
+      "font_size": 35,
+      "translation_basis": "exact-field-ignoring-whitespace",
+      "source_text_sha256": "88a5f5c830e7c91723cbdf2818e4438d3f59e391108a1a14cb0121385ef9eb38",
+      "source_ids": [
+        "coalesced:f88d65d77d95dd3af7456a577974b044573f9da830d209d58272408e3ba27597"
+      ],
+      "source_export": 65
+    },
+    {
+      "id": "Ch07_BelfortCastle",
+      "text": "贝尔福特王城",
+      "rect": [
+        156,
+        0,
+        196,
+        64
+      ],
+      "font_size": 31,
+      "translation_basis": "exact-field-ignoring-whitespace",
+      "source_text_sha256": "e0c6ebdd3eec0afe0648f70460fe3e78efdf47f729e467a1276908e5e54d42d3",
+      "source_ids": [
+        "coalesced:ea48e3b32a9cb391ac7fb3e30683dedfda79006f49ca09cf6fa035190882da69"
+      ],
+      "source_export": 66
+    },
+    {
+      "id": "Ch07_BelfortRuin",
+      "text": "贝尔福特街区",
+      "rect": [
+        144,
+        0,
+        224,
+        64
+      ],
+      "font_size": 35,
+      "translation_basis": "exact-field-ignoring-whitespace",
+      "source_text_sha256": "88a5f5c830e7c91723cbdf2818e4438d3f59e391108a1a14cb0121385ef9eb38",
+      "source_ids": [
+        "coalesced:f88d65d77d95dd3af7456a577974b044573f9da830d209d58272408e3ba27597"
+      ],
+      "source_export": 67
+    },
+    {
+      "id": "Ch07_BelfortSouthern",
+      "text": "贝尔福特南部军占领区",
+      "rect": [
+        84,
+        0,
+        340,
+        64
+      ],
+      "font_size": 33,
+      "translation_basis": "exact-field-ignoring-whitespace",
+      "source_text_sha256": "12720c8907b1c5d91c3645eb6673ea000b17718b9a138d7783e32222604c3479",
+      "source_ids": [
+        "coalesced:fcb2b15d9f4e52c6d2d5a2296e1822ede8b873d77c6d06ff11467a73646568e1"
+      ],
+      "source_export": 68
+    },
+    {
+      "id": "Ch07_StarlightField",
+      "text": "星光平原",
+      "rect": [
+        176,
+        0,
+        156,
+        64
+      ],
+      "font_size": 36,
+      "translation_basis": "exact-field-ignoring-whitespace",
+      "source_text_sha256": "14fa068288f4770885a6cf3096c58627ee5e5a7db5c705b29a94507e03091751",
+      "source_ids": [
+        "coalesced:7dd0e1eed546f85a048ead3e4a629385159f1a81570a7efa25f7f890efe1843a"
+      ],
+      "source_export": 69
+    },
+    {
+      "id": "Map_LaStrada",
+      "text": "拉·斯特拉达",
+      "rect": [
+        156,
+        0,
+        196,
+        64
+      ],
+      "font_size": 31,
+      "translation_basis": "exact-field-ignoring-whitespace",
+      "source_text_sha256": "ea7fa1e7026b81771a5c1ab3a2c08153775b73bd5a0075a0b28b755c378e8673",
+      "source_ids": [
+        "coalesced:78dc2621dfe750f12268d057759f3fe0034694dd83715654b626561a438cce90"
+      ],
+      "source_export": 70
+    },
+    {
+      "id": "Map_RuhaltP",
+      "text": "鲁哈尔特高原",
+      "rect": [
+        156,
+        0,
+        196,
+        64
+      ],
+      "font_size": 31,
+      "translation_basis": "exact-field-ignoring-whitespace",
+      "source_text_sha256": "4b4ad99dac2553df4725bd361d6249fd92cea6a87e05e4bcb25984622b0ad9ef",
+      "source_ids": [
+        "coalesced:6f424e7ff1f00963b201e3071df5029143e9dc0d6d10c28513c841315c7bd3cf"
+      ],
+      "source_export": 71
     }
   ],
   "sources": [
     {
+      "path": "MC2Game/CookedXenon/02_Village_Persistent.xxx",
+      "discs": [
+        1
+      ],
+      "original": {
+        "path": "build/poc-game/disc1/MC2Game/CookedXenon/02_Village_Persistent.xxx",
+        "sha256": "e690c8fb93f1cf1ec6ec0e833e0fab00ae84c4a68f71a84f28e3c6d42d0bc3c3"
+      },
+      "base": {
+        "path": "build/poc-game/disc1/MC2Game/CookedXenon/02_Village_Persistent.xxx",
+        "sha256": "e690c8fb93f1cf1ec6ec0e833e0fab00ae84c4a68f71a84f28e3c6d42d0bc3c3"
+      },
+      "textures": [
+        {
+          "object": "UI_title.Chapter01.ch01_02_beach",
+          "label": "ch01_02_beach",
+          "payload_sha256": "1fa2757cb9b4cba9ba366c86e21e477b31d3d053a7d2ae7138d820bb63eb9c09",
+          "tiled_sha256": "6fd81426e39c766c1a645ce09ffe2d68e556dcc1add17c27977c1f0f79d74c1c",
+          "dimensions": [
+            512,
+            64
+          ]
+        },
+        {
+          "object": "UI_title.Chapter01.ch01_03_cave",
+          "label": "ch01_03_cave",
+          "payload_sha256": "af819b694f940443b859cb0670f2b2558992845a958e24cac2ef226e9b1648ed",
+          "tiled_sha256": "2993c1e6198f14e22b5539a617c679e8a27db8a43fee444aae00ca1d4800cc88",
+          "dimensions": [
+            512,
+            64
+          ]
+        },
+        {
+          "object": "UI_title.Chapter01.ch01_04_wood",
+          "label": "ch01_04_wood",
+          "payload_sha256": "086b62d14d1c4fb0bc7f1f9a87ada641c135b9a332bf62b3f3b0a35aef23b2a0",
+          "tiled_sha256": "55ec90713af2406a7d377f3a37e2c6f4548f07a41f9ea8fe3b440656edaa52ed",
+          "dimensions": [
+            512,
+            64
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/Abazet_Comp02_01.xxx",
+      "discs": [
+        1,
+        2
+      ],
+      "original": {
+        "path": "build/poc-game/disc1/MC2Game/CookedXenon/Abazet_Comp02_01.xxx",
+        "sha256": "4f49e2b9a1b29f8ebbbba3825584b8714bd865bfca43c20e4a7025addf481bfc"
+      },
+      "base": {
+        "path": "build/poc-game/disc1/MC2Game/CookedXenon/Abazet_Comp02_01.xxx",
+        "sha256": "4f49e2b9a1b29f8ebbbba3825584b8714bd865bfca43c20e4a7025addf481bfc"
+      },
+      "textures": [
+        {
+          "object": "UI_Title_Jpn.Chapter02.ch02_03_Abazet_Field",
+          "label": "ch02_03_Abazet_Field",
+          "payload_sha256": "59bc3691dfe2319e3bb577cace01cabe3b8597e0a371ad2dace88f3dc1a31aa0",
+          "tiled_sha256": "7939dc17173bb673ef878201cd4c4020ca8cfab05176a74256d973c4476917cb",
+          "dimensions": [
+            512,
+            64
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/BG03_abazetfield_Persistent.xxx",
+      "discs": [
+        1,
+        2
+      ],
+      "original": {
+        "path": "build/poc-game/disc1/MC2Game/CookedXenon/BG03_abazetfield_Persistent.xxx",
+        "sha256": "e3c64f376a505f5af3c81347cc372a7d648bab28021974bb1ea5f56c91e1d44d"
+      },
+      "base": {
+        "path": "build/poc-game/disc1/MC2Game/CookedXenon/BG03_abazetfield_Persistent.xxx",
+        "sha256": "e3c64f376a505f5af3c81347cc372a7d648bab28021974bb1ea5f56c91e1d44d"
+      },
+      "textures": [
+        {
+          "object": "UI_title.Chapter02.ch02_02_Abazet_port",
+          "label": "ch02_02_Abazet_port",
+          "payload_sha256": "bc297e8b298092b3a0d4cd246958e2bf90758b0f3a734faac96d5e7236017107",
+          "tiled_sha256": "5cffdf9c8bba5e9213483dda695032b0954774278572889c36f9bd63d6f2c2f2",
+          "dimensions": [
+            512,
+            64
+          ]
+        },
+        {
+          "object": "UI_title.Chapter02.ch02_03_Abazet_Field",
+          "label": "ch02_03_Abazet_Field",
+          "payload_sha256": "4b55d18f701779a44ca798600e5ec3bd4e842018b499c8be541e1bdfc772c9c3",
+          "tiled_sha256": "7939dc17173bb673ef878201cd4c4020ca8cfab05176a74256d973c4476917cb",
+          "dimensions": [
+            512,
+            64
+          ]
+        },
+        {
+          "object": "UI_title.Chapter02.ch02_04_Forest_of_wild",
+          "label": "ch02_04_Forest_of_wild",
+          "payload_sha256": "04be7682b680eef11a2561548bf2f35c2f9979eb362f202fb8d41a5c2603c7b0",
+          "tiled_sha256": "8809ed181a5b5c6fb42f5f4847d3cfdf4dfc737e89800933e4c7ae337e95a3d8",
+          "dimensions": [
+            512,
+            64
+          ]
+        },
+        {
+          "object": "UI_title.Chapter02.ch02_06_Cave_of_Lati_Tribe",
+          "label": "ch02_06_Cave_of_Lati_Tribe",
+          "payload_sha256": "e1de754f56e5183b26cad3566cc126b78bff958966c8a318e6b6237fab441d9a",
+          "tiled_sha256": "3cd6b027f330284aed52de94725aba460e4d4ed99256cd0abc6bedf3071e9cc9",
+          "dimensions": [
+            512,
+            64
+          ]
+        },
+        {
+          "object": "UI_title.Chapter02.ch02_07_Base_of_Werewolves",
+          "label": "ch02_07_Base_of_Werewolves",
+          "payload_sha256": "34a5cde0f1dc816de50fcc29ea24ab9bfdf94943a43743b1bc97c2b06aec5070",
+          "tiled_sha256": "81fcdc4f8cd3576bd44cac83ef5f093bcc54f0468b29f5c7354e8145293fa247",
+          "dimensions": [
+            512,
+            64
+          ]
+        },
+        {
+          "object": "UI_title.Chapter02.ch02_HeathOfSilence",
+          "label": "ch02_HeathOfSilence",
+          "payload_sha256": "89221b1ce0559140f6094b7cdcf131c95298bcaf56c96bc99ab8a379780a868c",
+          "tiled_sha256": "d7b37b0c2a4aa1429e965d39bce109b694e427549bb05e601e9fccc1cdfde45c",
+          "dimensions": [
+            512,
+            64
+          ]
+        },
+        {
+          "object": "UI_Title_Jpn.Chapter02.ch02_01_Abazet",
+          "label": "ch02_01_Abazet",
+          "payload_sha256": "fb97c407319d9df2acec60d0bc5f54065b026715ad18eeb9cdd07e02eff3c230",
+          "tiled_sha256": "d32edeae70954cd5197eeb592fbd95987f643c9bad4aec97e7ad7d3625669fe6",
+          "dimensions": [
+            512,
+            64
+          ]
+        },
+        {
+          "object": "UI_Title_Jpn.Chapter02.ch02_02_Abazet_port",
+          "label": "ch02_02_Abazet_port",
+          "payload_sha256": "866c8b565313b6d0207ac5f6eea352d41be3c08bd0c6b805f3021772bf858678",
+          "tiled_sha256": "5cffdf9c8bba5e9213483dda695032b0954774278572889c36f9bd63d6f2c2f2",
+          "dimensions": [
+            512,
+            64
+          ]
+        },
+        {
+          "object": "UI_Title_Jpn.Chapter02.ch02_03_Abazet_Field",
+          "label": "ch02_03_Abazet_Field",
+          "payload_sha256": "a70eaa6eceba15eb5a301a5edb69d54e241fe2ee7ec1b3c0a425b347365427b1",
+          "tiled_sha256": "7939dc17173bb673ef878201cd4c4020ca8cfab05176a74256d973c4476917cb",
+          "dimensions": [
+            512,
+            64
+          ]
+        },
+        {
+          "object": "UI_Title_Jpn.Chapter02.ch02_04_Forest_of_wild",
+          "label": "ch02_04_Forest_of_wild",
+          "payload_sha256": "f8cee84203984ae05aa20ab41f2745ae034a70287cce92d571208c7f752118e6",
+          "tiled_sha256": "8809ed181a5b5c6fb42f5f4847d3cfdf4dfc737e89800933e4c7ae337e95a3d8",
+          "dimensions": [
+            512,
+            64
+          ]
+        },
+        {
+          "object": "UI_Title_Jpn.Chapter02.ch02_06_Cave_of_Lati_Tribe",
+          "label": "ch02_06_Cave_of_Lati_Tribe",
+          "payload_sha256": "84d89c0309623e628a11dff9d242eb0496c544c4a30f1430eff6b7e7e5226c1f",
+          "tiled_sha256": "3cd6b027f330284aed52de94725aba460e4d4ed99256cd0abc6bedf3071e9cc9",
+          "dimensions": [
+            512,
+            64
+          ]
+        },
+        {
+          "object": "UI_Title_Jpn.Chapter02.ch02_07_Base_of_Werewolves",
+          "label": "ch02_07_Base_of_Werewolves",
+          "payload_sha256": "9ac6849deba008782086ffe018acf9cfe2c389140573efee41e8e7a92e4cef51",
+          "tiled_sha256": "81fcdc4f8cd3576bd44cac83ef5f093bcc54f0468b29f5c7354e8145293fa247",
+          "dimensions": [
+            512,
+            64
+          ]
+        },
+        {
+          "object": "UI_Title_Jpn.Chapter02.ch02_11_Desert_of_silence",
+          "label": "ch02_11_Desert_of_silence",
+          "payload_sha256": "245864ccb89a33679541940fde4be38229412fc910118134350bd1bf03c33e08",
+          "tiled_sha256": "85b86a814224937f43b39c22987be7a955c2e983e5bcae0a4216c0495288b6d9",
+          "dimensions": [
+            512,
+            64
+          ]
+        },
+        {
+          "object": "UI_Title_Jpn.Chapter02.ch02_HeathOfSilence",
+          "label": "ch02_HeathOfSilence",
+          "payload_sha256": "0cf752a3044af573eaf56e58574a4a70c67d1c9104eb51f44145162fd07a070e",
+          "tiled_sha256": "d7b37b0c2a4aa1429e965d39bce109b694e427549bb05e601e9fccc1cdfde45c",
+          "dimensions": [
+            512,
+            64
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/BG05_KOTAMAREnFIELD_Persistant.xxx",
+      "discs": [
+        1,
+        2
+      ],
+      "original": {
+        "path": "build/poc-game/disc1/MC2Game/CookedXenon/BG05_KOTAMAREnFIELD_Persistant.xxx",
+        "sha256": "a3bfe76a45895a14f0734405740457a085275ceca36739494e07341d86c2f553"
+      },
+      "base": {
+        "path": "build/poc-game/disc1/MC2Game/CookedXenon/BG05_KOTAMAREnFIELD_Persistant.xxx",
+        "sha256": "a3bfe76a45895a14f0734405740457a085275ceca36739494e07341d86c2f553"
+      },
+      "textures": [
+        {
+          "object": "UI_title.Chapter02.Ch02_Navyblue",
+          "label": "Ch02_Navyblue",
+          "payload_sha256": "1ff6ee7270c2db4adab23405382d017c5d6b05ac14f6e12e5cba9368cafdc3e4",
+          "tiled_sha256": "5cc6ce89fc7f90acf5ae3da308cfd02411b2c70820dd3184022e53b93fa9fda9",
+          "dimensions": [
+            512,
+            64
+          ]
+        },
+        {
+          "object": "UI_title.Chapter03.Ch03_Cotamare",
+          "label": "Ch03_Cotamare",
+          "payload_sha256": "847f1c8ac03d96274c59207514d5bad594c663b34918a770dfcfebcf8810bf54",
+          "tiled_sha256": "bae03df55016b05ee975598aad9253a6f6edcf3d82528a962a4cf187e356724c",
+          "dimensions": [
+            512,
+            64
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/BG06_Ucave_P.xxx",
+      "discs": [
+        1,
+        2
+      ],
+      "original": {
+        "path": "build/poc-game/disc1/MC2Game/CookedXenon/BG06_Ucave_P.xxx",
+        "sha256": "c9fa8ade5ae2766236487e72d40b4da26222cfe6948e2a1c2af2794e84d1c0ec"
+      },
+      "base": {
+        "path": "build/poc-game/disc1/MC2Game/CookedXenon/BG06_Ucave_P.xxx",
+        "sha256": "c9fa8ade5ae2766236487e72d40b4da26222cfe6948e2a1c2af2794e84d1c0ec"
+      },
+      "textures": [
+        {
+          "object": "UI_title.Chapter03.Ch03_Altar_Mare",
+          "label": "Ch03_Altar_Mare",
+          "payload_sha256": "5b9e1082e842a8286c6129535208e425d0554fe91e0038f21dc54467f2d512de",
+          "tiled_sha256": "2dc79cce4c476ab9cc865ff110c74f4f8db35105e5046c09449fb97d77e47bd9",
+          "dimensions": [
+            512,
+            64
+          ]
+        },
+        {
+          "object": "UI_title.Chapter03.Ch03_Tomb",
+          "label": "Ch03_Tomb",
+          "payload_sha256": "5b5f10652ad07326f0e8ff79de37e001dc4d71ffaa85c32df01d0d1a7d8d9238",
+          "tiled_sha256": "65bcb1bac660efac59d44f10f59d350559d1d80eb3f81944dcba9b2cd7d320c6",
+          "dimensions": [
+            512,
+            64
+          ]
+        },
+        {
+          "object": "UI_title.Chapter03.Ch03_Undersea",
+          "label": "Ch03_Undersea",
+          "payload_sha256": "d0ffb28f67e1ae94d733dbf069dea5280d9a0bf1e0d77ee6432b146910668e27",
+          "tiled_sha256": "09c6105274c11d41e1ca251aa32f2f446c3d7f6ec7519d5cf0a27be62bbdb04b",
+          "dimensions": [
+            512,
+            64
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/Dunan_Comp04_01.xxx",
+      "discs": [
+        1,
+        2
+      ],
+      "original": {
+        "path": "build/poc-game/disc1/MC2Game/CookedXenon/Dunan_Comp04_01.xxx",
+        "sha256": "3ac22215d3e7906c69b3ef44614157efde668c4d92c767153562e263f50cb251"
+      },
+      "base": {
+        "path": "build/poc-game/disc1/MC2Game/CookedXenon/Dunan_Comp04_01.xxx",
+        "sha256": "3ac22215d3e7906c69b3ef44614157efde668c4d92c767153562e263f50cb251"
+      },
+      "textures": [
+        {
+          "object": "UI_Title_Jpn.Chapter04.Ch04_Darkblade",
+          "label": "Ch04_Darkblade",
+          "payload_sha256": "b076600b8654932b56eaeef6d2f41997d0131e29f7df2999fd92ab150b77f90f",
+          "tiled_sha256": "82f141f8d3440925a656b1f9c0afa4f40f67961ce857c14a5195878a5e4aadca",
+          "dimensions": [
+            512,
+            64
+          ]
+        },
+        {
+          "object": "UI_Title_Jpn.Chapter04.Ch04_DunanHill",
+          "label": "Ch04_DunanHill",
+          "payload_sha256": "55f10ffe2f26c0a1b9c299504935f6be5e5da744296ea09678ae7efcd447b45a",
+          "tiled_sha256": "4335c9c3b0a690127973a241174edcf1edcb063da6d6be4aa5b33b6376c32d69",
+          "dimensions": [
+            512,
+            64
+          ]
+        }
+      ]
+    },
+    {
       "path": "MC2Game/CookedXenon/MC2Game.xxx",
+      "discs": [
+        1,
+        2
+      ],
       "original": {
         "path": "build/poc-game/disc1/MC2Game/CookedXenon/MC2Game.xxx",
         "sha256": "13f92622e2ae2920f6ce6dfc7b0edbbcbec7e83adeacbd56fed84a021739a641"
@@ -37,7 +1198,7 @@
       "textures": [
         {
           "object": "UI_title.Chapter01.ch01_01_vill",
-          "label": "village",
+          "label": "ch01_01_vill",
           "payload_sha256": "b5ecb835659cd1743245709510b65a21e8a500e6873b661e13b31500a9c0accf",
           "tiled_sha256": "418937d6988ab9f586f7bce4e448e4ddba9cb85c66b9efe01a9857f3fc27c5d6",
           "dimensions": [
@@ -48,7 +1209,330 @@
       ]
     },
     {
+      "path": "MC2Game/CookedXenon/Map04_oldfox_Persistent.xxx",
+      "discs": [
+        1,
+        2
+      ],
+      "original": {
+        "path": "build/poc-game/disc1/MC2Game/CookedXenon/Map04_oldfox_Persistent.xxx",
+        "sha256": "adac8f90315f910e99324395aa0d4195d058d7ffca2fb14725c25400f28a0ee7"
+      },
+      "base": {
+        "path": "build/poc-game/disc1/MC2Game/CookedXenon/Map04_oldfox_Persistent.xxx",
+        "sha256": "adac8f90315f910e99324395aa0d4195d058d7ffca2fb14725c25400f28a0ee7"
+      },
+      "textures": [
+        {
+          "object": "UI_title.Chapter02.ch02_09_Old_fox_canyon",
+          "label": "ch02_09_Old_fox_canyon",
+          "payload_sha256": "bbef3080bf6b8ee9b61a1c9e5e65c3a079be9b6f0be725c2939b0307f64fd2cc",
+          "tiled_sha256": "cce9b67867200dcaca7d85513f91344414224abc2ee1ffeb8fd91f66485aae65",
+          "dimensions": [
+            512,
+            64
+          ]
+        },
+        {
+          "object": "UI_title.Chapter02.Ch02_NorthernGarrison",
+          "label": "Ch02_NorthernGarrison",
+          "payload_sha256": "f910081e6b2335f1eaaeb0129a66aedce926718a062a22b7c477d272d654e53d",
+          "tiled_sha256": "aa22595ab6b6e51e4592502e78568d13d512d745e412b6d1ade9dfe701e22167",
+          "dimensions": [
+            512,
+            64
+          ]
+        },
+        {
+          "object": "UI_title.Chapter02.Ch02_NorthernOutpost",
+          "label": "Ch02_NorthernOutpost",
+          "payload_sha256": "2877e7c52300d932ec89ba0c17b712d00d5c9c62734c8d1da04572082c41f338",
+          "tiled_sha256": "72270c7325b08ff4b69605b3f71025b47432a09e6d76dde5b32e694d38bb2dd5",
+          "dimensions": [
+            512,
+            64
+          ]
+        },
+        {
+          "object": "UI_Title_Jpn.Chapter02.ch02_09_Old_fox_canyon",
+          "label": "ch02_09_Old_fox_canyon",
+          "payload_sha256": "e33582f1b38373bdce99d718c1a4f06367aeea1664b8bb2ad7cfcc4c3392cb77",
+          "tiled_sha256": "cce9b67867200dcaca7d85513f91344414224abc2ee1ffeb8fd91f66485aae65",
+          "dimensions": [
+            512,
+            64
+          ]
+        },
+        {
+          "object": "UI_Title_Jpn.Chapter02.Ch02_NorthernGarrison",
+          "label": "Ch02_NorthernGarrison",
+          "payload_sha256": "8d81969634c0864b56acf5d12b860e42e2b9f7509c49fcb70077aa3cdc2fa859",
+          "tiled_sha256": "aa22595ab6b6e51e4592502e78568d13d512d745e412b6d1ade9dfe701e22167",
+          "dimensions": [
+            512,
+            64
+          ]
+        },
+        {
+          "object": "UI_Title_Jpn.Chapter02.Ch02_NorthernOutpost",
+          "label": "Ch02_NorthernOutpost",
+          "payload_sha256": "1e376bf615d6310e4f0acc07dbd8b3b293799c26b1bdf49a2a1beae2bfa47054",
+          "tiled_sha256": "72270c7325b08ff4b69605b3f71025b47432a09e6d76dde5b32e694d38bb2dd5",
+          "dimensions": [
+            512,
+            64
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/Map07_Dunan_Persistent.xxx",
+      "discs": [
+        1,
+        2
+      ],
+      "original": {
+        "path": "build/poc-game/disc1/MC2Game/CookedXenon/Map07_Dunan_Persistent.xxx",
+        "sha256": "1a6c0c95eb69e07924d789a27ff0bb54bda586864519dc34aa0113dacbdf44a7"
+      },
+      "base": {
+        "path": "build/poc-game/disc1/MC2Game/CookedXenon/Map07_Dunan_Persistent.xxx",
+        "sha256": "1a6c0c95eb69e07924d789a27ff0bb54bda586864519dc34aa0113dacbdf44a7"
+      },
+      "textures": [
+        {
+          "object": "UI_Title_Jpn.Chapter04.Ch04_1stCheckpoint",
+          "label": "Ch04_1stCheckpoint",
+          "payload_sha256": "a1e1ab837ee3f54ef66990276f35b79043fa2dd04c54eb1ad1534f925bd5ecae",
+          "tiled_sha256": "bdc510a075066167a532a6112e948453b7fd3680bb6ea5e2f1149ea9633fb85d",
+          "dimensions": [
+            512,
+            64
+          ]
+        },
+        {
+          "object": "UI_Title_Jpn.Chapter04.Ch04_2stCheckpoint",
+          "label": "Ch04_2stCheckpoint",
+          "payload_sha256": "32e9b6f09bfda02ce1219fce7e2ffa78ce3a13d954ebabe57f90ccb00ac61621",
+          "tiled_sha256": "c756f5c411c5dfac67e95bd985be53df1052055000fa9f4875a3364d350aa11a",
+          "dimensions": [
+            512,
+            64
+          ]
+        },
+        {
+          "object": "UI_Title_Jpn.Chapter04.Ch04_Darkblade",
+          "label": "Ch04_Darkblade",
+          "payload_sha256": "4ebea07b0e1cf33b9ae570025d905aaf2b003f6f5684fafd6a06d3e38256dc7a",
+          "tiled_sha256": "82f141f8d3440925a656b1f9c0afa4f40f67961ce857c14a5195878a5e4aadca",
+          "dimensions": [
+            512,
+            64
+          ]
+        },
+        {
+          "object": "UI_Title_Jpn.Chapter04.Ch04_DunanHill",
+          "label": "Ch04_DunanHill",
+          "payload_sha256": "991e9e4043f6dac6b71691a21ecaf1a1b39e583e9190eaf3309d53311e76697b",
+          "tiled_sha256": "4335c9c3b0a690127973a241174edcf1edcb063da6d6be4aa5b33b6376c32d69",
+          "dimensions": [
+            512,
+            64
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/Map07a_DField_P.xxx",
+      "discs": [
+        2
+      ],
+      "original": {
+        "path": "build/phase-290-verification/original-resources/disc2/MC2Game/CookedXenon/Map07a_DField_P.xxx",
+        "sha256": "8488e98ee72eddfe271af055b21cd4865252dbfef731d0c2c7a25b998f9c290e"
+      },
+      "base": {
+        "path": "build/phase-290-verification/original-resources/disc2/MC2Game/CookedXenon/Map07a_DField_P.xxx",
+        "sha256": "8488e98ee72eddfe271af055b21cd4865252dbfef731d0c2c7a25b998f9c290e"
+      },
+      "textures": [
+        {
+          "object": "UI_title.Chapter06.Ch06_Ancient",
+          "label": "Ch06_Ancient",
+          "payload_sha256": "e009590e1faf73ffd3b55e13b87fdd5596abeaa8de595cde0f460fade76b76c2",
+          "tiled_sha256": "f95c2c759218e6aafa84e66e9a40a927708b410a1dd46416b4f5c8c188f454bc",
+          "dimensions": [
+            512,
+            64
+          ]
+        },
+        {
+          "object": "UI_title.Chapter06.Ch06_DunanField",
+          "label": "Ch06_DunanField",
+          "payload_sha256": "5758c09ab81329758f92ba42f8b5881f79186eb39565821b321c0a6bb3d77ce7",
+          "tiled_sha256": "41090c90f4be5e8d7658bfd4e4290ec8e032e385e593c1a84b039cecedbad469",
+          "dimensions": [
+            512,
+            64
+          ]
+        },
+        {
+          "object": "UI_title.Chapter06.Ch06_Lanoara",
+          "label": "Ch06_Lanoara",
+          "payload_sha256": "1360a1fed558e5d44de7518479516c9c67c5899bde7bff98a6f10c9059bae4b0",
+          "tiled_sha256": "6d273db68898fd19e1a783ba1e9a4aa7b8afca8799fe1572ade13a32f682f70f",
+          "dimensions": [
+            512,
+            64
+          ]
+        },
+        {
+          "object": "UI_title.Chapter06.Ch06_Outlaws",
+          "label": "Ch06_Outlaws",
+          "payload_sha256": "a66f468c371b6eb1fe5d48a0bbbb995323d73059832c7c91dcce29d1bf3392af",
+          "tiled_sha256": "f37e5d31527c1b133f606868725f29897e2ece3498e8e421e4b5140acf780ef3",
+          "dimensions": [
+            512,
+            64
+          ]
+        },
+        {
+          "object": "UI_title.Chapter06.Ch06_Reinpolt",
+          "label": "Ch06_Reinpolt",
+          "payload_sha256": "dc8b7cdc71dda69f113c9478da5007ccf932d2f80bddc0ef3351f82f5924d006",
+          "tiled_sha256": "f3aa6d5bb54a2948a1ea71adc6bc47bf989042d0eeb528d4c3513a21bceba6e3",
+          "dimensions": [
+            512,
+            64
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/Map10_Velfort_MainMap_P.xxx",
+      "discs": [
+        2
+      ],
+      "original": {
+        "path": "build/phase-290-verification/original-resources/disc2/MC2Game/CookedXenon/Map10_Velfort_MainMap_P.xxx",
+        "sha256": "66ed9201f12d1ad241907f04070e9c74ca216522d96115f37267770250dceb69"
+      },
+      "base": {
+        "path": "build/phase-290-verification/original-resources/disc2/MC2Game/CookedXenon/Map10_Velfort_MainMap_P.xxx",
+        "sha256": "66ed9201f12d1ad241907f04070e9c74ca216522d96115f37267770250dceb69"
+      },
+      "textures": [
+        {
+          "object": "UI_title.Chapter07.Ch07_Belfort",
+          "label": "Ch07_Belfort",
+          "payload_sha256": "aa3c17cfaac0c8edde478fced6994c1a8c0f07d74a266f70649a481d747a0bf1",
+          "tiled_sha256": "134d3949ba6781dc7dbb377c4b5a70ac7be3403f5524114b896fe6db31ff2e3d",
+          "dimensions": [
+            512,
+            64
+          ]
+        },
+        {
+          "object": "UI_title.Chapter07.Ch07_BelfortCastle",
+          "label": "Ch07_BelfortCastle",
+          "payload_sha256": "4ab06c85715ef7780e5fd871871f3d36e7c91ab11bdba67371c7bda554d5c583",
+          "tiled_sha256": "c0485b12750c3afbb0fe0630754f534b69bc6aeef2ddcb49c9b0c5e7d24bdfc6",
+          "dimensions": [
+            512,
+            64
+          ]
+        },
+        {
+          "object": "UI_title.Chapter07.Ch07_BelfortSouthern",
+          "label": "Ch07_BelfortSouthern",
+          "payload_sha256": "37ebfbd1b680262f291d4eb0c3fda99cd49d83872751bdae4813e386f2b82819",
+          "tiled_sha256": "d5ca0be326161d4e8ade3e94c0afee567ec6276cfd5a0b562fe5bc0a36275307",
+          "dimensions": [
+            512,
+            64
+          ]
+        },
+        {
+          "object": "UI_title.Chapter07.Ch07_StarlightField",
+          "label": "Ch07_StarlightField",
+          "payload_sha256": "0d9ede9a79d540aa9d88686fe76c25de284beddfc4085a0b3ca3b0ef31bdba65",
+          "tiled_sha256": "b82994015425a6da5c9d23043a7c6775d1516a29caae18e5c2d141e22b4836b3",
+          "dimensions": [
+            512,
+            64
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/Oldfox_Comp02_01.xxx",
+      "discs": [
+        1,
+        2
+      ],
+      "original": {
+        "path": "build/poc-game/disc1/MC2Game/CookedXenon/Oldfox_Comp02_01.xxx",
+        "sha256": "67b8d86977f1aad454942b196e6444441b348eea22d0d9a1247f1f8277d360d3"
+      },
+      "base": {
+        "path": "build/poc-game/disc1/MC2Game/CookedXenon/Oldfox_Comp02_01.xxx",
+        "sha256": "67b8d86977f1aad454942b196e6444441b348eea22d0d9a1247f1f8277d360d3"
+      },
+      "textures": [
+        {
+          "object": "UI_title.Chapter02.ch02_09_Old_fox_canyon",
+          "label": "ch02_09_Old_fox_canyon",
+          "payload_sha256": "6e885011fcf83b658709f3667f4959e8bddfa3a57e9289bde663ea456753d734",
+          "tiled_sha256": "cce9b67867200dcaca7d85513f91344414224abc2ee1ffeb8fd91f66485aae65",
+          "dimensions": [
+            512,
+            64
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/Ruhalt_P.xxx",
+      "discs": [
+        2
+      ],
+      "original": {
+        "path": "build/phase-290-verification/original-resources/disc2/MC2Game/CookedXenon/Ruhalt_P.xxx",
+        "sha256": "b5db633a07724c70b6039868044c95d4665e51b539065a10e38beb494b943969"
+      },
+      "base": {
+        "path": "build/phase-290-verification/original-resources/disc2/MC2Game/CookedXenon/Ruhalt_P.xxx",
+        "sha256": "b5db633a07724c70b6039868044c95d4665e51b539065a10e38beb494b943969"
+      },
+      "textures": [
+        {
+          "object": "UI_title.Chapter06.Ch06_Ruhalt",
+          "label": "Ch06_Ruhalt",
+          "payload_sha256": "84f81bfea6a68294980c5f0fa0809f1d8c52c5bbc6684707cd30462d93fc8802",
+          "tiled_sha256": "b3ac1d9d878debfe502eb377b3871cb9f8dc6aac8aafcbcfe6958c2d6224b8fd",
+          "dimensions": [
+            512,
+            64
+          ]
+        },
+        {
+          "object": "UI_title.Chapter12.Map_RuhaltP",
+          "label": "Map_RuhaltP",
+          "payload_sha256": "c9ce632e4ed85f2b7d66dca67858da74b1454bc4b79641a4529e7fd6bd00dc68",
+          "tiled_sha256": "eb935c0043ab18776c281106446c932c3fe2b8d34cbaa44b81d3c04460f8af8b",
+          "dimensions": [
+            512,
+            64
+          ]
+        }
+      ]
+    },
+    {
       "path": "MC2Game/CookedXenon/UI_Title.xxx",
+      "discs": [
+        1,
+        2
+      ],
       "original": {
         "path": "build/poc-game/disc1/MC2Game/CookedXenon/UI_Title.xxx",
         "sha256": "b6826e68b5b6fc6401a4f0e2b738f8abbcff0897ddce234b3e0669336d2706b4"
@@ -60,9 +1544,469 @@
       "textures": [
         {
           "object": "Chapter01.ch01_01_vill",
-          "label": "village",
+          "label": "ch01_01_vill",
           "payload_sha256": "ae76fa2590a1aa145bb05d4cf97805af50154d3557bfe2c80370502cc3314f4d",
           "tiled_sha256": "418937d6988ab9f586f7bce4e448e4ddba9cb85c66b9efe01a9857f3fc27c5d6",
+          "dimensions": [
+            512,
+            64
+          ]
+        },
+        {
+          "object": "Chapter01.ch01_02_beach",
+          "label": "ch01_02_beach",
+          "payload_sha256": "de1ecf9ca5aa142e3e792b3d2fd7e165305f777052b9923c49d1c2015a72e6ab",
+          "tiled_sha256": "6fd81426e39c766c1a645ce09ffe2d68e556dcc1add17c27977c1f0f79d74c1c",
+          "dimensions": [
+            512,
+            64
+          ]
+        },
+        {
+          "object": "Chapter01.ch01_03_cave",
+          "label": "ch01_03_cave",
+          "payload_sha256": "7ada1e957cc7fd7e387d2bd79b28c05f1d4f998b5bddb322a71f5ef5801c10d4",
+          "tiled_sha256": "2993c1e6198f14e22b5539a617c679e8a27db8a43fee444aae00ca1d4800cc88",
+          "dimensions": [
+            512,
+            64
+          ]
+        },
+        {
+          "object": "Chapter01.ch01_04_wood",
+          "label": "ch01_04_wood",
+          "payload_sha256": "1f56291a38390efdfe8a95afcae89c1eea11201006b173f69a66aa216aa210f9",
+          "tiled_sha256": "55ec90713af2406a7d377f3a37e2c6f4548f07a41f9ea8fe3b440656edaa52ed",
+          "dimensions": [
+            512,
+            64
+          ]
+        },
+        {
+          "object": "Chapter02.ch02_01_Abazet",
+          "label": "ch02_01_Abazet",
+          "payload_sha256": "f5c554512706d952428f9fcb0fe790763a35d60b4f9a6177494a1a45078c814e",
+          "tiled_sha256": "d32edeae70954cd5197eeb592fbd95987f643c9bad4aec97e7ad7d3625669fe6",
+          "dimensions": [
+            512,
+            64
+          ]
+        },
+        {
+          "object": "Chapter02.ch02_02_Abazet_port",
+          "label": "ch02_02_Abazet_port",
+          "payload_sha256": "6839f51e09dc2e12771dd238cb71af43c4c4af1c025f7cc5c866bb9ead9d5278",
+          "tiled_sha256": "5cffdf9c8bba5e9213483dda695032b0954774278572889c36f9bd63d6f2c2f2",
+          "dimensions": [
+            512,
+            64
+          ]
+        },
+        {
+          "object": "Chapter02.ch02_03_Abazet_Field",
+          "label": "ch02_03_Abazet_Field",
+          "payload_sha256": "e197f707051de1b735c080cf0cf6079ccc715e49784f11c9d91b7ef85dd623ca",
+          "tiled_sha256": "7939dc17173bb673ef878201cd4c4020ca8cfab05176a74256d973c4476917cb",
+          "dimensions": [
+            512,
+            64
+          ]
+        },
+        {
+          "object": "Chapter02.ch02_04_Forest_of_wild",
+          "label": "ch02_04_Forest_of_wild",
+          "payload_sha256": "d519942f50ca896f68cbdff299778b7e5bc10e3358722bf5c37440ca5b1829e2",
+          "tiled_sha256": "8809ed181a5b5c6fb42f5f4847d3cfdf4dfc737e89800933e4c7ae337e95a3d8",
+          "dimensions": [
+            512,
+            64
+          ]
+        },
+        {
+          "object": "Chapter02.ch02_05_Hill_of_a_chief",
+          "label": "ch02_05_Hill_of_a_chief",
+          "payload_sha256": "6e984dcc4328be19c31cfbe60ecb18d521f506266bf5bb15b7fecf42357d1daf",
+          "tiled_sha256": "dffa96ff9770e16ecf8211ec1fe1782b254b44719557d3a09a8d6917464e96e1",
+          "dimensions": [
+            512,
+            64
+          ]
+        },
+        {
+          "object": "Chapter02.ch02_06_Cave_of_Lati_Tribe",
+          "label": "ch02_06_Cave_of_Lati_Tribe",
+          "payload_sha256": "5506aed5ba1f62e1ca3127aef3b84f0f143cd34f306a7c95d7748e1ace7290b0",
+          "tiled_sha256": "3cd6b027f330284aed52de94725aba460e4d4ed99256cd0abc6bedf3071e9cc9",
+          "dimensions": [
+            512,
+            64
+          ]
+        },
+        {
+          "object": "Chapter02.ch02_07_Base_of_Werewolves",
+          "label": "ch02_07_Base_of_Werewolves",
+          "payload_sha256": "0f4c446f395536c6dd97f551d844492f54e622768ebf721c44bd37c788271708",
+          "tiled_sha256": "81fcdc4f8cd3576bd44cac83ef5f093bcc54f0468b29f5c7354e8145293fa247",
+          "dimensions": [
+            512,
+            64
+          ]
+        },
+        {
+          "object": "Chapter02.ch02_08_Headquarters",
+          "label": "ch02_08_Headquarters",
+          "payload_sha256": "88ed5e410dc68915d5b52bf88ffe1480312885d0a58e0694e26c44632eba2fc1",
+          "tiled_sha256": "68137f497ea524ac354896519a938981c562bb41794180a15e7231cf363d2bdd",
+          "dimensions": [
+            512,
+            64
+          ]
+        },
+        {
+          "object": "Chapter02.ch02_09_Old_fox_canyon",
+          "label": "ch02_09_Old_fox_canyon",
+          "payload_sha256": "6c97f9834f680be9b1b05aebf43e9e94a95d67cb5d577022e2fca9abed3948ca",
+          "tiled_sha256": "cce9b67867200dcaca7d85513f91344414224abc2ee1ffeb8fd91f66485aae65",
+          "dimensions": [
+            512,
+            64
+          ]
+        },
+        {
+          "object": "Chapter02.ch02_10_Temporary_base",
+          "label": "ch02_10_Temporary_base",
+          "payload_sha256": "f89f1171b2c9b5740f878496886c9ccc9c2b579ea17238695b4469888d2c1729",
+          "tiled_sha256": "4b6993c6ba6b5824df50c109fa6089e6adbee7088c38b431663d91876b50fc06",
+          "dimensions": [
+            512,
+            64
+          ]
+        },
+        {
+          "object": "Chapter02.ch02_11_Desert_of_silence",
+          "label": "ch02_11_Desert_of_silence",
+          "payload_sha256": "96fc2d6de4753979f9873677479045b8f82a393e3cbc07b7c16125c9984f44f2",
+          "tiled_sha256": "85b86a814224937f43b39c22987be7a955c2e983e5bcae0a4216c0495288b6d9",
+          "dimensions": [
+            512,
+            64
+          ]
+        },
+        {
+          "object": "Chapter02.ch02_12_Wail_wall",
+          "label": "ch02_12_Wail_wall",
+          "payload_sha256": "4e8ec1dcddb3caf3a136819951711e7c3c697db6699e7eb6ca300943a1394be2",
+          "tiled_sha256": "263e345fd3d4455e032f938961c13ff918221f17b76ab798eb6185c91654df7a",
+          "dimensions": [
+            512,
+            64
+          ]
+        },
+        {
+          "object": "Chapter02.ch02_HeathOfSilence",
+          "label": "ch02_HeathOfSilence",
+          "payload_sha256": "6e399a8bab690cfb51fd059d72a927f8e50fe00619f373e5d875b09197689ef0",
+          "tiled_sha256": "d7b37b0c2a4aa1429e965d39bce109b694e427549bb05e601e9fccc1cdfde45c",
+          "dimensions": [
+            512,
+            64
+          ]
+        },
+        {
+          "object": "Chapter02.Ch02_Navyblue",
+          "label": "Ch02_Navyblue",
+          "payload_sha256": "26294cd48f525c7a94d7704cf7b7dbb85e32348d32d917960c4c151707a1deda",
+          "tiled_sha256": "5cc6ce89fc7f90acf5ae3da308cfd02411b2c70820dd3184022e53b93fa9fda9",
+          "dimensions": [
+            512,
+            64
+          ]
+        },
+        {
+          "object": "Chapter02.Ch02_NorthernCampsite",
+          "label": "Ch02_NorthernCampsite",
+          "payload_sha256": "64118507718c0a414fb9874ec34b22a54da9dd63dc403bd47c3cb1ebcadb4362",
+          "tiled_sha256": "036d6561f8810cc6e7822f50ee5d05c68d6f00250f51a398c68d531184e7602d",
+          "dimensions": [
+            512,
+            64
+          ]
+        },
+        {
+          "object": "Chapter02.Ch02_NorthernGarrison",
+          "label": "Ch02_NorthernGarrison",
+          "payload_sha256": "1e7e7af7cf5ef8b9b5add906e5930787de7b3e70b4721670ac0d64ef77b199b0",
+          "tiled_sha256": "aa22595ab6b6e51e4592502e78568d13d512d745e412b6d1ade9dfe701e22167",
+          "dimensions": [
+            512,
+            64
+          ]
+        },
+        {
+          "object": "Chapter02.Ch02_NorthernOutpost",
+          "label": "Ch02_NorthernOutpost",
+          "payload_sha256": "3513fe8399a4977199ed53b9beee74390c0c7c6092e5a22fd5d525659ed0ddb3",
+          "tiled_sha256": "72270c7325b08ff4b69605b3f71025b47432a09e6d76dde5b32e694d38bb2dd5",
+          "dimensions": [
+            512,
+            64
+          ]
+        },
+        {
+          "object": "Chapter02.Ch02_RefugeOfDarkness",
+          "label": "Ch02_RefugeOfDarkness",
+          "payload_sha256": "98ade762be76b1fe5d7b33b23567898d5e988dc3dbe0f948605d79fbaa323afd",
+          "tiled_sha256": "aaea0fc2c16ed7b4b48ad66275d58beb36bb1cba5d3fb9cce1070ae499cee8b1",
+          "dimensions": [
+            512,
+            64
+          ]
+        },
+        {
+          "object": "Chapter02.ch02_SouthGate",
+          "label": "ch02_SouthGate",
+          "payload_sha256": "1a0892b8f17597ecc0c9de01a664f3987c7cb2f70b8cf1c6ae58fbf0a3938f2b",
+          "tiled_sha256": "b4400a41952d9cd2b9ff680028119ac09da1966d99ae9900240e6a2ddd7172f6",
+          "dimensions": [
+            512,
+            64
+          ]
+        },
+        {
+          "object": "Chapter03.Ch03_Altar_Mare",
+          "label": "Ch03_Altar_Mare",
+          "payload_sha256": "99e4f47689f8dc512d875aacf6e2e5c0c51e075030713f971bac41af36cffc0d",
+          "tiled_sha256": "2dc79cce4c476ab9cc865ff110c74f4f8db35105e5046c09449fb97d77e47bd9",
+          "dimensions": [
+            512,
+            64
+          ]
+        },
+        {
+          "object": "Chapter03.Ch03_Cotamare",
+          "label": "Ch03_Cotamare",
+          "payload_sha256": "b02448672cb8c10a6baf4f5c9768bd7fc98f27e24e80863d28531e6dcf7d8b54",
+          "tiled_sha256": "bae03df55016b05ee975598aad9253a6f6edcf3d82528a962a4cf187e356724c",
+          "dimensions": [
+            512,
+            64
+          ]
+        },
+        {
+          "object": "Chapter03.Ch03_Library",
+          "label": "Ch03_Library",
+          "payload_sha256": "29fb6bdc13d22ef734d0bd8e87969e8a8cdbd32a357a839d6a392fa63b26643c",
+          "tiled_sha256": "4ffa0aedfc117ad79044e6d888d6ce981621103863b36255d9a7cc3ff13ad02f",
+          "dimensions": [
+            512,
+            64
+          ]
+        },
+        {
+          "object": "Chapter03.Ch03_MareSquare",
+          "label": "Ch03_MareSquare",
+          "payload_sha256": "05977a45b926572469d8fb9c07001814e62c37cdf8e70fb6577109350a5e50e6",
+          "tiled_sha256": "ef2e06cc467b447c5bc04d7e4f1ffc9a7285a0d00a5c5ab6e14a0e9c408656e0",
+          "dimensions": [
+            512,
+            64
+          ]
+        },
+        {
+          "object": "Chapter03.Ch03_Tomb",
+          "label": "Ch03_Tomb",
+          "payload_sha256": "8ea5326e07be9cc9e99715f5e8036e71f97db62b1bcd4c7ea9cb2d919f7148e5",
+          "tiled_sha256": "65bcb1bac660efac59d44f10f59d350559d1d80eb3f81944dcba9b2cd7d320c6",
+          "dimensions": [
+            512,
+            64
+          ]
+        },
+        {
+          "object": "Chapter03.Ch03_Undersea",
+          "label": "Ch03_Undersea",
+          "payload_sha256": "720b405d234ca0ab63c96ea55f5a596bb2be3e3c3df5faa846acbde7e11ddbe6",
+          "tiled_sha256": "09c6105274c11d41e1ca251aa32f2f446c3d7f6ec7519d5cf0a27be62bbdb04b",
+          "dimensions": [
+            512,
+            64
+          ]
+        },
+        {
+          "object": "Chapter04.Ch04_1stCheckpoint",
+          "label": "Ch04_1stCheckpoint",
+          "payload_sha256": "44b6d7a1af1aa201cf782868eaaf073582245ecdbddac1123092e7df2f4fe833",
+          "tiled_sha256": "bdc510a075066167a532a6112e948453b7fd3680bb6ea5e2f1149ea9633fb85d",
+          "dimensions": [
+            512,
+            64
+          ]
+        },
+        {
+          "object": "Chapter04.Ch04_2stCheckpoint",
+          "label": "Ch04_2stCheckpoint",
+          "payload_sha256": "40114adedba592b95a79eeb6c319b43030cdf53e78ff62a5dcab99e9067f9f81",
+          "tiled_sha256": "c756f5c411c5dfac67e95bd985be53df1052055000fa9f4875a3364d350aa11a",
+          "dimensions": [
+            512,
+            64
+          ]
+        },
+        {
+          "object": "Chapter04.Ch04_Darkblade",
+          "label": "Ch04_Darkblade",
+          "payload_sha256": "c61fe00c71babfc96f8d8727565d0fed678be26c6b77809dd7919918bf601c10",
+          "tiled_sha256": "82f141f8d3440925a656b1f9c0afa4f40f67961ce857c14a5195878a5e4aadca",
+          "dimensions": [
+            512,
+            64
+          ]
+        },
+        {
+          "object": "Chapter04.Ch04_DunanHill",
+          "label": "Ch04_DunanHill",
+          "payload_sha256": "1d3742111e4f783f4b28120d8fdb3d117cb45f4858a25bf3ec28e3c1f2c18add",
+          "tiled_sha256": "4335c9c3b0a690127973a241174edcf1edcb063da6d6be4aa5b33b6376c32d69",
+          "dimensions": [
+            512,
+            64
+          ]
+        },
+        {
+          "object": "Chapter04.Ch04_DunanHillCheck",
+          "label": "Ch04_DunanHillCheck",
+          "payload_sha256": "a3359956c364eff069fe29f65f2e14f50560f8e3fc5fed2ba7bb90e331d20929",
+          "tiled_sha256": "9a5ae179516f20aa7b9cf30353a3f45e823d2d507fb9ab6489b1103b18162243",
+          "dimensions": [
+            512,
+            64
+          ]
+        },
+        {
+          "object": "Chapter06.Ch06_Ancient",
+          "label": "Ch06_Ancient",
+          "payload_sha256": "f9e21531871a3d7dd9b8509121309f4f2fd4d1cf01de52c3deae376f37eeea2b",
+          "tiled_sha256": "f95c2c759218e6aafa84e66e9a40a927708b410a1dd46416b4f5c8c188f454bc",
+          "dimensions": [
+            512,
+            64
+          ]
+        },
+        {
+          "object": "Chapter06.Ch06_DunanField",
+          "label": "Ch06_DunanField",
+          "payload_sha256": "5506c755008ca551053cf9153dbe2c2e2e9aaa84cecd214eec1c3ecf56ff54bd",
+          "tiled_sha256": "41090c90f4be5e8d7658bfd4e4290ec8e032e385e593c1a84b039cecedbad469",
+          "dimensions": [
+            512,
+            64
+          ]
+        },
+        {
+          "object": "Chapter06.Ch06_Lanoara",
+          "label": "Ch06_Lanoara",
+          "payload_sha256": "dcce5d74598f7536f0a854d4161ce364eab9cdab08ede085e4a8537d1ca1fd1b",
+          "tiled_sha256": "6d273db68898fd19e1a783ba1e9a4aa7b8afca8799fe1572ade13a32f682f70f",
+          "dimensions": [
+            512,
+            64
+          ]
+        },
+        {
+          "object": "Chapter06.Ch06_Outlaws",
+          "label": "Ch06_Outlaws",
+          "payload_sha256": "96ee89ee5f771ad5682da127b9124be4f283b4366bc4e63c2324bed8e35da6f4",
+          "tiled_sha256": "f37e5d31527c1b133f606868725f29897e2ece3498e8e421e4b5140acf780ef3",
+          "dimensions": [
+            512,
+            64
+          ]
+        },
+        {
+          "object": "Chapter06.Ch06_Reinpolt",
+          "label": "Ch06_Reinpolt",
+          "payload_sha256": "220516c08abf3fa35c00b0e4fb3231e601f1e485d5b5b4ddf86650002dbff749",
+          "tiled_sha256": "f3aa6d5bb54a2948a1ea71adc6bc47bf989042d0eeb528d4c3513a21bceba6e3",
+          "dimensions": [
+            512,
+            64
+          ]
+        },
+        {
+          "object": "Chapter06.Ch06_Ruhalt",
+          "label": "Ch06_Ruhalt",
+          "payload_sha256": "8e97b042e8c9638a13cb4eb41724db54f1a555edb16a73cf82072d97c9a11bee",
+          "tiled_sha256": "b3ac1d9d878debfe502eb377b3871cb9f8dc6aac8aafcbcfe6958c2d6224b8fd",
+          "dimensions": [
+            512,
+            64
+          ]
+        },
+        {
+          "object": "Chapter07.Ch07_Belfort",
+          "label": "Ch07_Belfort",
+          "payload_sha256": "a959d5b03663b8dbf813a3c89631a5c5fd703d99714baa32f68101eed2240c43",
+          "tiled_sha256": "134d3949ba6781dc7dbb377c4b5a70ac7be3403f5524114b896fe6db31ff2e3d",
+          "dimensions": [
+            512,
+            64
+          ]
+        },
+        {
+          "object": "Chapter07.Ch07_BelfortCastle",
+          "label": "Ch07_BelfortCastle",
+          "payload_sha256": "767213b2620acd3e56f6917d6f1560de607b7f03aa47972ddcec5cff08951789",
+          "tiled_sha256": "c0485b12750c3afbb0fe0630754f534b69bc6aeef2ddcb49c9b0c5e7d24bdfc6",
+          "dimensions": [
+            512,
+            64
+          ]
+        },
+        {
+          "object": "Chapter07.Ch07_BelfortRuin",
+          "label": "Ch07_BelfortRuin",
+          "payload_sha256": "b7fa90a7d4c043184600381d17ed842f747e18de3ee217b9e17172409fea2d6a",
+          "tiled_sha256": "16c17b38cf334a3f21690d9f86d5c42426bf47fd8e5a7c2897c0b3da21799c4e",
+          "dimensions": [
+            512,
+            64
+          ]
+        },
+        {
+          "object": "Chapter07.Ch07_BelfortSouthern",
+          "label": "Ch07_BelfortSouthern",
+          "payload_sha256": "ecf37cad0bb88b603b3db763f97d4f42fabe08fc20d4631c9e3f0beb1407e396",
+          "tiled_sha256": "d5ca0be326161d4e8ade3e94c0afee567ec6276cfd5a0b562fe5bc0a36275307",
+          "dimensions": [
+            512,
+            64
+          ]
+        },
+        {
+          "object": "Chapter07.Ch07_StarlightField",
+          "label": "Ch07_StarlightField",
+          "payload_sha256": "e2ecbf141fe6de85289e7c5981741440f61b28ae143abfb5254ac8e69ab2a958",
+          "tiled_sha256": "b82994015425a6da5c9d23043a7c6775d1516a29caae18e5c2d141e22b4836b3",
+          "dimensions": [
+            512,
+            64
+          ]
+        },
+        {
+          "object": "Chapter12.Map_LaStrada",
+          "label": "Map_LaStrada",
+          "payload_sha256": "6e491e50b423dedfa493cbed31c75c3af557188a81c66dfb1cca526a825a0545",
+          "tiled_sha256": "dddf0ac5c9df926f8d62dcdb6666925502663b7bc0ac5d535230a41f507e8efb",
+          "dimensions": [
+            512,
+            64
+          ]
+        },
+        {
+          "object": "Chapter12.Map_RuhaltP",
+          "label": "Map_RuhaltP",
+          "payload_sha256": "1a1d8e2c8979631403bdea23277baa0a9610d95a6d8b19f0303317b102c50d9f",
+          "tiled_sha256": "eb935c0043ab18776c281106446c932c3fe2b8d34cbaa44b81d3c04460f8af8b",
           "dimensions": [
             512,
             64
@@ -72,6 +2016,10 @@
     },
     {
       "path": "MC2Game/CookedXenon/UI_Title_Jpn.xxx",
+      "discs": [
+        1,
+        2
+      ],
       "original": {
         "path": "build/poc-game/disc1/MC2Game/CookedXenon/UI_Title_Jpn.xxx",
         "sha256": "f9c1648d7a76cee8766140d3533d938fd7ef51a7eed06d37b291c7b1ec997595"
@@ -83,9 +2031,522 @@
       "textures": [
         {
           "object": "Chapter01.ch01_01_vill",
-          "label": "village",
+          "label": "ch01_01_vill",
           "payload_sha256": "11fedb77a19255fccd3135b4d1d57ea7c37256968e5638323ae531496dbf9095",
           "tiled_sha256": "418937d6988ab9f586f7bce4e448e4ddba9cb85c66b9efe01a9857f3fc27c5d6",
+          "dimensions": [
+            512,
+            64
+          ]
+        },
+        {
+          "object": "Chapter01.ch01_02_beach",
+          "label": "ch01_02_beach",
+          "payload_sha256": "f0b24d9b200e7f3a175b188a243f1375609e138224f5fb8629f3a32524f6b9ae",
+          "tiled_sha256": "6fd81426e39c766c1a645ce09ffe2d68e556dcc1add17c27977c1f0f79d74c1c",
+          "dimensions": [
+            512,
+            64
+          ]
+        },
+        {
+          "object": "Chapter01.ch01_03_cave",
+          "label": "ch01_03_cave",
+          "payload_sha256": "28241f7d0dd34709db0c332b25ca9ac367b397f19b2943dae79634698535df49",
+          "tiled_sha256": "2993c1e6198f14e22b5539a617c679e8a27db8a43fee444aae00ca1d4800cc88",
+          "dimensions": [
+            512,
+            64
+          ]
+        },
+        {
+          "object": "Chapter01.ch01_04_wood",
+          "label": "ch01_04_wood",
+          "payload_sha256": "f19c10cad41a21b5403bbd043c0f31d3581a377633a8adec40d67ad98287f074",
+          "tiled_sha256": "55ec90713af2406a7d377f3a37e2c6f4548f07a41f9ea8fe3b440656edaa52ed",
+          "dimensions": [
+            512,
+            64
+          ]
+        },
+        {
+          "object": "Chapter02.ch02_01_Abazet",
+          "label": "ch02_01_Abazet",
+          "payload_sha256": "1f31df54cab80c14546cb36c0de88a5c7736c8437d9934ca67b32978a67f477a",
+          "tiled_sha256": "d32edeae70954cd5197eeb592fbd95987f643c9bad4aec97e7ad7d3625669fe6",
+          "dimensions": [
+            512,
+            64
+          ]
+        },
+        {
+          "object": "Chapter02.ch02_02_Abazet_port",
+          "label": "ch02_02_Abazet_port",
+          "payload_sha256": "4c312d21bafb6dd5296fa96bcb620de3c3091411dad7b54f9b8ad7b747ae07f9",
+          "tiled_sha256": "5cffdf9c8bba5e9213483dda695032b0954774278572889c36f9bd63d6f2c2f2",
+          "dimensions": [
+            512,
+            64
+          ]
+        },
+        {
+          "object": "Chapter02.ch02_03_Abazet_Field",
+          "label": "ch02_03_Abazet_Field",
+          "payload_sha256": "da0052657ea60ccc9eabb534050aac9781db6c37e87fc0e5b369b75d2345f889",
+          "tiled_sha256": "7939dc17173bb673ef878201cd4c4020ca8cfab05176a74256d973c4476917cb",
+          "dimensions": [
+            512,
+            64
+          ]
+        },
+        {
+          "object": "Chapter02.ch02_04_Forest_of_wild",
+          "label": "ch02_04_Forest_of_wild",
+          "payload_sha256": "072e91f1144920b1c263d150f21b2c39bcad46eef7359fff6631eae36d264ab0",
+          "tiled_sha256": "8809ed181a5b5c6fb42f5f4847d3cfdf4dfc737e89800933e4c7ae337e95a3d8",
+          "dimensions": [
+            512,
+            64
+          ]
+        },
+        {
+          "object": "Chapter02.ch02_05_Hill_of_a_chief",
+          "label": "ch02_05_Hill_of_a_chief",
+          "payload_sha256": "a5ac7444b32b73525fbff279a18f0167819f1c2554200e1286aea09fe7b1a57a",
+          "tiled_sha256": "dffa96ff9770e16ecf8211ec1fe1782b254b44719557d3a09a8d6917464e96e1",
+          "dimensions": [
+            512,
+            64
+          ]
+        },
+        {
+          "object": "Chapter02.ch02_06_Cave_of_Lati_Tribe",
+          "label": "ch02_06_Cave_of_Lati_Tribe",
+          "payload_sha256": "7866247c0ee225024932fe9249705d3655c76685f6b668bd4029e89bed108d59",
+          "tiled_sha256": "3cd6b027f330284aed52de94725aba460e4d4ed99256cd0abc6bedf3071e9cc9",
+          "dimensions": [
+            512,
+            64
+          ]
+        },
+        {
+          "object": "Chapter02.ch02_07_Base_of_Werewolves",
+          "label": "ch02_07_Base_of_Werewolves",
+          "payload_sha256": "5b84b8e2b20c39cf67c497c431e54a67bbc4e3e8a1ec43688ba907115e7cce86",
+          "tiled_sha256": "81fcdc4f8cd3576bd44cac83ef5f093bcc54f0468b29f5c7354e8145293fa247",
+          "dimensions": [
+            512,
+            64
+          ]
+        },
+        {
+          "object": "Chapter02.ch02_08_Headquarters",
+          "label": "ch02_08_Headquarters",
+          "payload_sha256": "2455181f8151604ceaba4c4299c2fb84eb27850edd6c9e1c9ca2bcdd74241b14",
+          "tiled_sha256": "68137f497ea524ac354896519a938981c562bb41794180a15e7231cf363d2bdd",
+          "dimensions": [
+            512,
+            64
+          ]
+        },
+        {
+          "object": "Chapter02.ch02_09_Old_fox_canyon",
+          "label": "ch02_09_Old_fox_canyon",
+          "payload_sha256": "df5ff3c92af18262bff32268b904e07e947c00560e794a3e6d90e1f99ab62d11",
+          "tiled_sha256": "cce9b67867200dcaca7d85513f91344414224abc2ee1ffeb8fd91f66485aae65",
+          "dimensions": [
+            512,
+            64
+          ]
+        },
+        {
+          "object": "Chapter02.ch02_10_Temporary_base",
+          "label": "ch02_10_Temporary_base",
+          "payload_sha256": "a2c776f5c3225e5fb277431395ccfcd3c4ef4b5ba2fa0fb617dc854cf3907ab4",
+          "tiled_sha256": "4b6993c6ba6b5824df50c109fa6089e6adbee7088c38b431663d91876b50fc06",
+          "dimensions": [
+            512,
+            64
+          ]
+        },
+        {
+          "object": "Chapter02.ch02_11_Desert_of_silence",
+          "label": "ch02_11_Desert_of_silence",
+          "payload_sha256": "16d042ac1ff678b6621b235dbbe7d133f49eb7382feaff7de3e4aa41bd4e093f",
+          "tiled_sha256": "85b86a814224937f43b39c22987be7a955c2e983e5bcae0a4216c0495288b6d9",
+          "dimensions": [
+            512,
+            64
+          ]
+        },
+        {
+          "object": "Chapter02.ch02_12_Wail_wall",
+          "label": "ch02_12_Wail_wall",
+          "payload_sha256": "8a10707e1f020eb1762412ee83118f150e2480e48b5f1378c14a8953bb519755",
+          "tiled_sha256": "263e345fd3d4455e032f938961c13ff918221f17b76ab798eb6185c91654df7a",
+          "dimensions": [
+            512,
+            64
+          ]
+        },
+        {
+          "object": "Chapter02.ch02_HeathOfSilence",
+          "label": "ch02_HeathOfSilence",
+          "payload_sha256": "47567ab8a0c7d4fa887dcb5618d1bd891a45351312b2499e0f95918831889fb3",
+          "tiled_sha256": "d7b37b0c2a4aa1429e965d39bce109b694e427549bb05e601e9fccc1cdfde45c",
+          "dimensions": [
+            512,
+            64
+          ]
+        },
+        {
+          "object": "Chapter02.Ch02_Navyblue",
+          "label": "Ch02_Navyblue",
+          "payload_sha256": "4b9a61da8d61433766dacda026c2dda1a358d3fdbf99c8225bc1dd3ad7b09dbe",
+          "tiled_sha256": "5cc6ce89fc7f90acf5ae3da308cfd02411b2c70820dd3184022e53b93fa9fda9",
+          "dimensions": [
+            512,
+            64
+          ]
+        },
+        {
+          "object": "Chapter02.Ch02_NorthernCampsite",
+          "label": "Ch02_NorthernCampsite",
+          "payload_sha256": "d770ce5ee5ac5e9b78ab79d6f5e4c27f586638f8f37031cd70e16ba42e99d2ed",
+          "tiled_sha256": "036d6561f8810cc6e7822f50ee5d05c68d6f00250f51a398c68d531184e7602d",
+          "dimensions": [
+            512,
+            64
+          ]
+        },
+        {
+          "object": "Chapter02.Ch02_NorthernGarrison",
+          "label": "Ch02_NorthernGarrison",
+          "payload_sha256": "42c5fa6b76f801b3e9a018d1fdf4bee5ea21de52e10a3596ae89265a2a4ddded",
+          "tiled_sha256": "aa22595ab6b6e51e4592502e78568d13d512d745e412b6d1ade9dfe701e22167",
+          "dimensions": [
+            512,
+            64
+          ]
+        },
+        {
+          "object": "Chapter02.Ch02_NorthernOutpost",
+          "label": "Ch02_NorthernOutpost",
+          "payload_sha256": "5eacdce5076a504ac8d8b4064d3d34a02c1af2a0a68fb0771353a2aedd665c14",
+          "tiled_sha256": "72270c7325b08ff4b69605b3f71025b47432a09e6d76dde5b32e694d38bb2dd5",
+          "dimensions": [
+            512,
+            64
+          ]
+        },
+        {
+          "object": "Chapter02.Ch02_RefugeOfDarkness",
+          "label": "Ch02_RefugeOfDarkness",
+          "payload_sha256": "277722bcdc06c637dd5235890f49bffe035438978a70f6a94727ed0a08b2ec53",
+          "tiled_sha256": "aaea0fc2c16ed7b4b48ad66275d58beb36bb1cba5d3fb9cce1070ae499cee8b1",
+          "dimensions": [
+            512,
+            64
+          ]
+        },
+        {
+          "object": "Chapter02.ch02_SouthGate",
+          "label": "ch02_SouthGate",
+          "payload_sha256": "a9a646251fc507af8167a6df57677dc4592e7c8a60ffe53706000004a3c7ab5a",
+          "tiled_sha256": "b4400a41952d9cd2b9ff680028119ac09da1966d99ae9900240e6a2ddd7172f6",
+          "dimensions": [
+            512,
+            64
+          ]
+        },
+        {
+          "object": "Chapter03.Ch03_Altar_Mare",
+          "label": "Ch03_Altar_Mare",
+          "payload_sha256": "4ee50d08d3199c9863d0034e370978f8628561edb5af1098eee3d1e7391002f0",
+          "tiled_sha256": "2dc79cce4c476ab9cc865ff110c74f4f8db35105e5046c09449fb97d77e47bd9",
+          "dimensions": [
+            512,
+            64
+          ]
+        },
+        {
+          "object": "Chapter03.Ch03_Cotamare",
+          "label": "Ch03_Cotamare",
+          "payload_sha256": "23bfe4a66e7143eea7230e9841b6573ea96770f89918cabea25ee066c801287a",
+          "tiled_sha256": "bae03df55016b05ee975598aad9253a6f6edcf3d82528a962a4cf187e356724c",
+          "dimensions": [
+            512,
+            64
+          ]
+        },
+        {
+          "object": "Chapter03.Ch03_Library",
+          "label": "Ch03_Library",
+          "payload_sha256": "81d22d0744b83698d3b4eb359aaa3a10ae8d35907a9c4bb39a89eab43d20b3ba",
+          "tiled_sha256": "4ffa0aedfc117ad79044e6d888d6ce981621103863b36255d9a7cc3ff13ad02f",
+          "dimensions": [
+            512,
+            64
+          ]
+        },
+        {
+          "object": "Chapter03.Ch03_MareSquare",
+          "label": "Ch03_MareSquare",
+          "payload_sha256": "ca96c055aab1fe9a152547d85f7361cf38782b94d8e058f8ab6125903c1d78f3",
+          "tiled_sha256": "ef2e06cc467b447c5bc04d7e4f1ffc9a7285a0d00a5c5ab6e14a0e9c408656e0",
+          "dimensions": [
+            512,
+            64
+          ]
+        },
+        {
+          "object": "Chapter03.Ch03_Tomb",
+          "label": "Ch03_Tomb",
+          "payload_sha256": "d86025b6e8aacfee6626c8ae6f472d031da019a8aac1b54dbed88f942f46856f",
+          "tiled_sha256": "65bcb1bac660efac59d44f10f59d350559d1d80eb3f81944dcba9b2cd7d320c6",
+          "dimensions": [
+            512,
+            64
+          ]
+        },
+        {
+          "object": "Chapter03.Ch03_Undersea",
+          "label": "Ch03_Undersea",
+          "payload_sha256": "298f047b7bd3db419ecf75e47c3c3124345a62dee75db5dc6a4b7c2f8c912d22",
+          "tiled_sha256": "09c6105274c11d41e1ca251aa32f2f446c3d7f6ec7519d5cf0a27be62bbdb04b",
+          "dimensions": [
+            512,
+            64
+          ]
+        },
+        {
+          "object": "Chapter04.Ch04_1stCheckpoint",
+          "label": "Ch04_1stCheckpoint",
+          "payload_sha256": "752f4892584c675dec759cf958c6aa2d6315834b9b366bd94cddcf715f541567",
+          "tiled_sha256": "bdc510a075066167a532a6112e948453b7fd3680bb6ea5e2f1149ea9633fb85d",
+          "dimensions": [
+            512,
+            64
+          ]
+        },
+        {
+          "object": "Chapter04.Ch04_2stCheckpoint",
+          "label": "Ch04_2stCheckpoint",
+          "payload_sha256": "2b08dc575c5eb005b5f99346705143066d82324efc55112eafdb698072184c76",
+          "tiled_sha256": "c756f5c411c5dfac67e95bd985be53df1052055000fa9f4875a3364d350aa11a",
+          "dimensions": [
+            512,
+            64
+          ]
+        },
+        {
+          "object": "Chapter04.Ch04_Darkblade",
+          "label": "Ch04_Darkblade",
+          "payload_sha256": "9ef0ce1468a516729a8540ea0d0c36ee43b2fb61618e383e34767c0082887cef",
+          "tiled_sha256": "82f141f8d3440925a656b1f9c0afa4f40f67961ce857c14a5195878a5e4aadca",
+          "dimensions": [
+            512,
+            64
+          ]
+        },
+        {
+          "object": "Chapter04.Ch04_DunanHill",
+          "label": "Ch04_DunanHill",
+          "payload_sha256": "45d227bf928198ab6736baadcbdafdfa744ac4854769891f9f6a972395d74a01",
+          "tiled_sha256": "4335c9c3b0a690127973a241174edcf1edcb063da6d6be4aa5b33b6376c32d69",
+          "dimensions": [
+            512,
+            64
+          ]
+        },
+        {
+          "object": "Chapter04.Ch04_DunanHillCheck",
+          "label": "Ch04_DunanHillCheck",
+          "payload_sha256": "8a12ec1b97a1d21be3b4743f54b28a44f13741da8d043f20c0abcbbd4a0d02c2",
+          "tiled_sha256": "9a5ae179516f20aa7b9cf30353a3f45e823d2d507fb9ab6489b1103b18162243",
+          "dimensions": [
+            512,
+            64
+          ]
+        },
+        {
+          "object": "Chapter06.Ch06_Ancient",
+          "label": "Ch06_Ancient",
+          "payload_sha256": "2560558eee0a2909aa68ff76289bfc0e2c2c505d3c4e4395670419e2015c9d6b",
+          "tiled_sha256": "f95c2c759218e6aafa84e66e9a40a927708b410a1dd46416b4f5c8c188f454bc",
+          "dimensions": [
+            512,
+            64
+          ]
+        },
+        {
+          "object": "Chapter06.Ch06_DunanField",
+          "label": "Ch06_DunanField",
+          "payload_sha256": "81242cb053a2f13a9068ce0f5a10f6591d32137c888f47cec93373dd29bc6b8c",
+          "tiled_sha256": "41090c90f4be5e8d7658bfd4e4290ec8e032e385e593c1a84b039cecedbad469",
+          "dimensions": [
+            512,
+            64
+          ]
+        },
+        {
+          "object": "Chapter06.Ch06_Lanoara",
+          "label": "Ch06_Lanoara",
+          "payload_sha256": "0f89efce456461ed130eecb82105d374433465b219ef27b7f8d55adfb1d18852",
+          "tiled_sha256": "6d273db68898fd19e1a783ba1e9a4aa7b8afca8799fe1572ade13a32f682f70f",
+          "dimensions": [
+            512,
+            64
+          ]
+        },
+        {
+          "object": "Chapter06.Ch06_Outlaws",
+          "label": "Ch06_Outlaws",
+          "payload_sha256": "32f82f67bb265347a353d3d13bb336d31e97dd06124b25555b6013cd281e5ea5",
+          "tiled_sha256": "f37e5d31527c1b133f606868725f29897e2ece3498e8e421e4b5140acf780ef3",
+          "dimensions": [
+            512,
+            64
+          ]
+        },
+        {
+          "object": "Chapter06.Ch06_Reinpolt",
+          "label": "Ch06_Reinpolt",
+          "payload_sha256": "1b80c65c0857c7bf42595752d40c873a68f67bc5a8c0450e5f35ca9240a271dc",
+          "tiled_sha256": "f3aa6d5bb54a2948a1ea71adc6bc47bf989042d0eeb528d4c3513a21bceba6e3",
+          "dimensions": [
+            512,
+            64
+          ]
+        },
+        {
+          "object": "Chapter06.Ch06_Ruhalt",
+          "label": "Ch06_Ruhalt",
+          "payload_sha256": "23014474816c33b052cadb89eef35b570220f516561289e14489a0d8b2850640",
+          "tiled_sha256": "b3ac1d9d878debfe502eb377b3871cb9f8dc6aac8aafcbcfe6958c2d6224b8fd",
+          "dimensions": [
+            512,
+            64
+          ]
+        },
+        {
+          "object": "Chapter07.Ch07_Belfort",
+          "label": "Ch07_Belfort",
+          "payload_sha256": "cd0527901829906d5834e4cf1eca1164380fe56b2d955fecb12b55049a962ffd",
+          "tiled_sha256": "134d3949ba6781dc7dbb377c4b5a70ac7be3403f5524114b896fe6db31ff2e3d",
+          "dimensions": [
+            512,
+            64
+          ]
+        },
+        {
+          "object": "Chapter07.Ch07_BelfortCastle",
+          "label": "Ch07_BelfortCastle",
+          "payload_sha256": "aca8404e5851a5adb64a675261eb32f36e7d7cb2d3f410604fa336e6b26b52f0",
+          "tiled_sha256": "c0485b12750c3afbb0fe0630754f534b69bc6aeef2ddcb49c9b0c5e7d24bdfc6",
+          "dimensions": [
+            512,
+            64
+          ]
+        },
+        {
+          "object": "Chapter07.Ch07_BelfortRuin",
+          "label": "Ch07_BelfortRuin",
+          "payload_sha256": "d6b4257a30744ff3f2f4cf8cd4bdcc5851ac541641ee3623697998b2963876e0",
+          "tiled_sha256": "16c17b38cf334a3f21690d9f86d5c42426bf47fd8e5a7c2897c0b3da21799c4e",
+          "dimensions": [
+            512,
+            64
+          ]
+        },
+        {
+          "object": "Chapter07.Ch07_BelfortSouthern",
+          "label": "Ch07_BelfortSouthern",
+          "payload_sha256": "e4545f3bf010dabf3bdbd276fc38c542927f8cb65f6adf98d95412bea586cd0e",
+          "tiled_sha256": "d5ca0be326161d4e8ade3e94c0afee567ec6276cfd5a0b562fe5bc0a36275307",
+          "dimensions": [
+            512,
+            64
+          ]
+        },
+        {
+          "object": "Chapter07.Ch07_StarlightField",
+          "label": "Ch07_StarlightField",
+          "payload_sha256": "176691dc8a20a4c3979a069d340a8fc6b79010f8f0d37a12b247a7f773c8a0cc",
+          "tiled_sha256": "b82994015425a6da5c9d23043a7c6775d1516a29caae18e5c2d141e22b4836b3",
+          "dimensions": [
+            512,
+            64
+          ]
+        },
+        {
+          "object": "Chapter12.Map_LaStrada",
+          "label": "Map_LaStrada",
+          "payload_sha256": "4a2ba0f2638f7a074f171a441596aa9796f92996d77ce8ad7b73947763c7fae4",
+          "tiled_sha256": "dddf0ac5c9df926f8d62dcdb6666925502663b7bc0ac5d535230a41f507e8efb",
+          "dimensions": [
+            512,
+            64
+          ]
+        },
+        {
+          "object": "Chapter12.Map_RuhaltP",
+          "label": "Map_RuhaltP",
+          "payload_sha256": "7c563370ab26fb9d463c14a8ecb19ae1fbc4e117e89fa689d86355b2e9db0400",
+          "tiled_sha256": "eb935c0043ab18776c281106446c932c3fe2b8d34cbaa44b81d3c04460f8af8b",
+          "dimensions": [
+            512,
+            64
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/Ucave_Comp03_01.xxx",
+      "discs": [
+        1,
+        2
+      ],
+      "original": {
+        "path": "build/poc-game/disc1/MC2Game/CookedXenon/Ucave_Comp03_01.xxx",
+        "sha256": "d2a664cd9c817f647fbfa262a90d27ecc309038d80f6c1897a95e96b64d97118"
+      },
+      "base": {
+        "path": "build/poc-game/disc1/MC2Game/CookedXenon/Ucave_Comp03_01.xxx",
+        "sha256": "d2a664cd9c817f647fbfa262a90d27ecc309038d80f6c1897a95e96b64d97118"
+      },
+      "textures": [
+        {
+          "object": "UI_title.Chapter03.Ch03_Undersea",
+          "label": "Ch03_Undersea",
+          "payload_sha256": "f83607cd8819cdd2d330ffd941869cf2dced3b61217f41de643cea7df887ed30",
+          "tiled_sha256": "09c6105274c11d41e1ca251aa32f2f446c3d7f6ec7519d5cf0a27be62bbdb04b",
+          "dimensions": [
+            512,
+            64
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/Velfort_Inrush_Castle.xxx",
+      "discs": [
+        2
+      ],
+      "original": {
+        "path": "build/phase-290-verification/original-resources/disc2/MC2Game/CookedXenon/Velfort_Inrush_Castle.xxx",
+        "sha256": "28087c9895c19569bbf3b854f4b09f9f56b1f5631c65f7d12cec10ff38f376a8"
+      },
+      "base": {
+        "path": "build/phase-290-verification/original-resources/disc2/MC2Game/CookedXenon/Velfort_Inrush_Castle.xxx",
+        "sha256": "28087c9895c19569bbf3b854f4b09f9f56b1f5631c65f7d12cec10ff38f376a8"
+      },
+      "textures": [
+        {
+          "object": "UI_title.Chapter07.Ch07_BelfortCastle",
+          "label": "Ch07_BelfortCastle",
+          "payload_sha256": "c56771948e56345966be6b10fbd080ebc246ab12cf68ad9e61ec8f7bb16d29bc",
+          "tiled_sha256": "c0485b12750c3afbb0fe0630754f534b69bc6aeef2ddcb49c9b0c5e7d24bdfc6",
           "dimensions": [
             512,
             64

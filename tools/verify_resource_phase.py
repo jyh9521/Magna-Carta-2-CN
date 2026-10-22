@@ -11,6 +11,7 @@ import json
 from pathlib import Path
 import re
 
+MAX_PACKET_RESOURCES=64
 MAX_FILE=512*1024*1024
 PHASES=('controls','raw-controls','candidate')
 
@@ -82,7 +83,7 @@ def inspect(packet_root,manifest_sha256,resource_root,phase):
             raise ValueError('invalid disc comparison contract')
         hash_value(m.get('composition_manifest_sha256'));hash_value(m.get('comparison_plan_canonical_sha256'))
     resources=m.get('resources');members=m.get('member_sha256')
-    if not isinstance(resources,list) or not 1<=len(resources)<=32 or not isinstance(members,dict):raise ValueError('invalid packet resource inventory')
+    if not isinstance(resources,list) or not 1<=len(resources)<=MAX_PACKET_RESOURCES or not isinstance(members,dict):raise ValueError('invalid packet resource inventory')
     if phase=='raw-controls' and m.get('raw_package_outputs') is not True:raise ValueError('packet has no declared raw control phase')
     snapshots=[(manifest_path,dict(size=len(raw),sha256=sha(raw)))];seen=set();rows=[];aliases=set()
     for row in resources:

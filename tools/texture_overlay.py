@@ -40,7 +40,7 @@ def encode_rgba_block(rgba):
     return encode_white_bc3_block([p[3] for p in pixels])[:8]+struct.pack('<HHI',c0,c1,indices)
 
 
-def overlay_tiles(tiled,width,height,rect,rgba):
+def overlay_tiles(tiled,width,height,rect,rgba,encoding_cache=None):
     if (not isinstance(rect,list) or len(rect)!=4 or any(type(v) is not int for v in rect)
             or not isinstance(rgba,bytes)):
         raise FormatError('explicit integer rectangle and RGBA bytes required')
@@ -50,12 +50,18 @@ def overlay_tiles(tiled,width,height,rect,rgba):
             or min(x,y)<0 or x+w>width or y+h>height
             or min(w,h)<=0 or max(w,h)>8192 or len(rgba)!=w*h*4):
         raise FormatError('overlay dimensions or RGBA length mismatch')
-    linear = bytearray()
-    for by in range(h//4):
-        for bx in range(w//4):
-            block=b''.join(rgba[((by*4+iy)*w+bx*4)*4:((by*4+iy)*w+bx*4+4)*4] for iy in range(4))
-            linear.extend(encode_rgba_block(block))
-    output=scatter_linear_dxt5_cell(tiled,width,height,x,y,w,h,bytes(linear))
+    key=(w,h,rgba)
+    linear=None if encoding_cache is None else encoding_cache.get(key)
+    if linear is None:
+        encoded=bytearray()
+        for by in range(h//4):
+            for bx in range(w//4):
+                block=b''.join(rgba[((by*4+iy)*w+bx*4)*4:((by*4+iy)*w+bx*4+4)*4] for iy in range(4))
+                encoded.extend(encode_rgba_block(block))
+        linear=bytes(encoded)
+        if encoding_cache is not None:encoding_cache[key]=linear
+    if not isinstance(linear,bytes) or len(linear)!=w*h:raise FormatError('invalid cached BC3 region')
+    output=scatter_linear_dxt5_cell(tiled,width,height,x,y,w,h,linear)
     allowed={xbox_tiled_block_offset(x//4+bx,y//4+by,((width+127)&~127)//4)*16
              for by in range(h//4) for bx in range(w//4)}
     changed=[i for i in range(0,len(tiled),16) if tiled[i:i+16]!=output[i:i+16]]
@@ -65,11 +71,26 @@ def overlay_tiles(tiled,width,height,rect,rgba):
                        untouched_blocks_preserved=True,alignment_padding_preserved=True)
 
 
+def label_style(label):
+    """Locale-neutral RGBA palette; defaults retain the first overlay style."""
+    defaults=dict(fill=(236,236,236,255),stroke_fill=(25,25,25,230),shadow_fill=(0,0,0,180))
+    style=label.get('style',{})
+    if not isinstance(style,dict) or set(style)-set(defaults):raise FormatError('unknown text layer style')
+    result={}
+    for key,value in defaults.items():
+        rgba=style.get(key,value)
+        if (not isinstance(rgba,(list,tuple)) or len(rgba)!=4
+                or any(type(c) is not int or not 0<=c<=255 for c in rgba)):
+            raise FormatError('text layer style requires four RGBA byte integers')
+        result[key]=tuple(rgba)
+    return result
+
+
 def render_label(font_bytes,label):
     """Render an owned text layer only; no original image is fed to the rasterizer."""
     from PIL import Image, ImageDraw, ImageFont, ImageFilter
     from fontTools.ttLib import TTFont
-    text=label['text'];rect=label['rect'];size=label['font_size']
+    text=label['text'];rect=label['rect'];size=label['font_size'];style=label_style(label)
     if (not isinstance(text,str) or not text or len(text)>128 or any(ord(c)<32 for c in text)
             or type(size) is not int or not 1<=size<=128):
         raise FormatError('invalid text layer or font size')
@@ -85,14 +106,14 @@ def render_label(font_bytes,label):
     if box[2]-box[0]+8>w or box[3]-box[1]+8>h:raise FormatError('text layer ink does not fit')
     pos=((w-(box[2]-box[0]))//2-box[0],(h-(box[3]-box[1]))//2-box[1])
     shadow=Image.new('RGBA',(w,h));sd=ImageDraw.Draw(shadow)
-    sd.text((pos[0]+1,pos[1]+2),text,font=font,fill=(0,0,0,180),stroke_width=2,stroke_fill=(0,0,0,180))
+    sd.text((pos[0]+1,pos[1]+2),text,font=font,fill=style['shadow_fill'],stroke_width=2,stroke_fill=style['shadow_fill'])
     image=Image.alpha_composite(image,shadow.filter(ImageFilter.GaussianBlur(1)))
-    ImageDraw.Draw(image).text(pos,text,font=font,fill=(236,236,236,255),stroke_width=1,stroke_fill=(25,25,25,230))
+    ImageDraw.Draw(image).text(pos,text,font=font,fill=style['fill'],stroke_width=1,stroke_fill=style['stroke_fill'])
     if image.getbbox() is None:raise FormatError('empty text layer')
     return image.tobytes()
 
 
-def patch_package(data,expected_hash,edits,layers,decoder):
+def patch_package(data,expected_hash,edits,layers,decoder,encoding_cache=None):
     if digest(data)!=expected_hash:raise FormatError('texture base SHA256 mismatch')
     if not isinstance(edits,list) or not 1<=len(edits)<=128:raise FormatError('texture edit bound')
     summary=parse_summary(data,len(data));logical=decode_logical(data,summary,decoder)
@@ -107,7 +128,7 @@ def patch_package(data,expected_hash,edits,layers,decoder):
         texture=parse_atlas_payload(old,tables['names'],off);tiles=atlas_tiles(old,texture,decoder)
         if digest(tiles)!=edit['tiled_sha256']:raise FormatError('texture original tiles mismatch')
         if [texture['width'],texture['height']]!=edit['dimensions']:raise FormatError('texture dimensions mismatch')
-        label,rgba=layers[edit['label']];patched,proof=overlay_tiles(tiles,texture['width'],texture['height'],label['rect'],rgba)
+        label,rgba=layers[edit['label']];patched,proof=overlay_tiles(tiles,texture['width'],texture['height'],label['rect'],rgba,encoding_cache)
         if patched==tiles:raise FormatError('texture edit is a no-op')
         bulk=texture['mips'][0]['bulk'];stored=wrap_ue3_chunk(patched) if bulk['flags']==0x40 else patched
         payload=bytearray(old[:bulk['payload_offset']]+stored+old[bulk['payload_offset']+bulk['size_on_disk']:])

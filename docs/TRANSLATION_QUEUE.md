@@ -1,3 +1,7 @@
+## 第290阶段
+
+47章节图族本轮实际采用，新增46；下一实际BOSS15图、GameOver双图及完整别名，继而其他UI/教程和格式缺口；INT未知尾项只用新证据处理。 见[全族回填](PHASE_290_COMPLETE_CHAPTER_TEXTURES.md)。
+
 ## 第289阶段：图片汉化实际推进
 
 ch01_01_vill三别名已采用“风息岛村庄”，双盘29/31资源；INT仍batch121/14159。下一其余章节/BOSS/GameOver图片，见[阶段289](PHASE_289_TEXTURE_LOCALIZATION.md)。

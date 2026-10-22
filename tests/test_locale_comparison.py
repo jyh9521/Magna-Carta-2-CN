@@ -46,7 +46,7 @@ class LocaleComparisonTests(unittest.TestCase):
             with self.subTest(path=path),self.assertRaises(ValueError):raw_phase(bad,fonts,toc,stored_decoder)
 
     def test_raw_inventory_bounded(self):
-        for o in [{},{str(i):b'x' for i in range(33)}]:
+        for o in [{},{str(i):b'x' for i in range(65)}]:
             with self.assertRaisesRegex(ValueError,'count'):raw_phase(o,[],'toc')
 
     def test_toc_source_size_mismatch_rejected(self):
@@ -94,3 +94,10 @@ class LocaleComparisonTests(unittest.TestCase):
         with tempfile.TemporaryDirectory() as d:
             f=comparison(Fixture(Path(d)))
             with self.assertRaisesRegex(ValueError,'SHA256 mismatch'):phase.inspect(f.packet,'0'*64,f.game,'candidate')
+
+class ExpandedRawInventoryTests(unittest.TestCase):
+    def test_sixty_four_raw_members_retain_unrelated_bytes(self):
+        o,f,toc=inputs()
+        for i in range(59):o[f'Extra/{i}.bin']=b'unrelated'
+        raw,_=raw_phase(o,f,toc,stored_decoder);self.assertEqual(len(raw),64)
+        self.assertTrue(all(raw[f'Extra/{i}.bin']==b'unrelated' for i in range(59)))

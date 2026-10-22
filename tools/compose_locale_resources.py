@@ -118,8 +118,9 @@ def prepare(plan,root,originals=None,decoder=None):
     if 'texture_component' in plan:
         from .build_texture_overlay import verify as verify_textures
         tp=locked(plan['texture_plan']);textures,texture_root=component(plan['texture_component'],'offline-texture-overlay-bundle')
+        if textures.get('disc',plan['disc'])!=plan['disc']:raise ValueError('texture component disc mismatch')
         if (textures['plan_canonical_sha256']!=digest(encoded(tp))
-                or encoded(verify_textures(tp,root,texture_root,decoder))!=encoded(textures)):
+                or encoded(verify_textures(tp,root,texture_root,decoder,disc=textures.get('disc')))!=encoded(textures)):
             raise ValueError('texture component independent replay mismatch')
     if (fonts.get('raw_package_outputs') is not True or fonts['plan_canonical_sha256']!=digest(encoded(route))
             or subtitles['plan_canonical_sha256']!=digest(encoded(subplan))

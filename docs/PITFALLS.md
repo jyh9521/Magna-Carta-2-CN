@@ -1,3 +1,7 @@
+## 第290阶段
+
+章节图不可只patch MC2Game/Title/Jpn：真实地图resident额外别名273项已查明；物理包名不决定UI_title/Jpn namespace。bundle底包回滚不等于迭代旧中文检查点，必须单独锁定旧candidate。 见[全族回填](PHASE_290_COMPLETE_CHAPTER_TEXTURES.md)。
+
 ## 第289阶段
 
 压缩包追加chunk后logical头chunk-count会变化；完整回读比较须仅按实际重建表校正此字段，不能误拒有效输出。纹理必须叠加既有Font包，不能用原始MC2Game覆盖。 见[纹理汉化](PHASE_289_TEXTURE_LOCALIZATION.md)。

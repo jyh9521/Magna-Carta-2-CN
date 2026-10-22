@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "profile": "int-to-digit-markup-loop-v1",
+  "function": "MC2HUDUI.GetStringFromNumber",
+  "binding_names": {
+    "input": "nNum",
+    "result": "ReturnValue",
+    "text": "numStr",
+    "char": "divStr",
+    "markup": "synStr",
+    "length": "textLen",
+    "index": "I"
+  },
+  "digit_tag_prefix": "<Strings:MC2UI.Number.Num_",
+  "script_sha256": "74c28a85497311948924278959ffef3558d78fa6946ce6d99470ccd5c7b1c1ba"
+}

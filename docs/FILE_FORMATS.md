@@ -1,3 +1,7 @@
+## StatStrong数字标签链（阶段283）
+
+数字字符串由MC2HUDUI.GetStringFromNumber循环构造MC2UI.Number.Num_逐字符标签，不是裸数字；7类型绑定及5 Core声明显式验证。范围/复现/中文语序候选见[标签链证据](STAT_STRONG_DIGIT_MARKUP.md)。
+
 ## StatStrong原生模板（阶段282）
 
 8条宽字符串以Strings标签、两个%s及实际LF连接属性前/后缀；十片段空白与百分号按源保留。静态地址/指令窗口探针、未知边界和复现见[模板证据](STAT_STRONG_NATIVE_TEMPLATES.md)。

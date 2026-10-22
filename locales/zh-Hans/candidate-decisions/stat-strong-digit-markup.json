@@ -1,0 +1,132 @@
+{
+  "schema_version": 1,
+  "phase": 283,
+  "kind": "serialized-digit-tag-loop-and-fragment-scenarios",
+  "plan": "references/probes/stat-strong-digit-formatter.json",
+  "plan_sha256": "6ae0c85f893417e2a4ec60494a5692169ab300a321e0b9ce61de4f40adb76611",
+  "script_source_shape_verified": true,
+  "script_sha256": "74c28a85497311948924278959ffef3558d78fa6946ce6d99470ccd5c7b1c1ba",
+  "typed_bindings": 7,
+  "core_native_declarations": 5,
+  "digit_lookup_count": 10,
+  "digit_lookup_sources": [
+    {
+      "id": "coalesced:f84fe365fe78065e7f21d756f91a36ebd181e09eb0dd85a832518b41bcd0d639",
+      "key": "Num_0",
+      "source_sha256": "5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9",
+      "value": "0"
+    },
+    {
+      "id": "coalesced:9dd8f8a807f942c5d062590972722b0f89634eabbe6624a1b8fc11b29e2d0cd4",
+      "key": "Num_1",
+      "source_sha256": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b",
+      "value": "1"
+    },
+    {
+      "id": "coalesced:ebb300e4241c3b221aecf99d2c0f768441a445026131a3fb4d8e244a4d94a67f",
+      "key": "Num_2",
+      "source_sha256": "d4735e3a265e16eee03f59718b9b5d03019c07d8b6c51f90da3a666eec13ab35",
+      "value": "2"
+    },
+    {
+      "id": "coalesced:9304fbbaeb0420bca4e70b8638e5fbe3f7db3cba50ec200768b1d9e47fc8226b",
+      "key": "Num_3",
+      "source_sha256": "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce",
+      "value": "3"
+    },
+    {
+      "id": "coalesced:460d38587c031f0776f6aa22231fd46e92ed8b6a601436087042890bb0868139",
+      "key": "Num_4",
+      "source_sha256": "4b227777d4dd1fc61c6f884f48641d02b4d121d3fd328cb08b5531fcacdabf8a",
+      "value": "4"
+    },
+    {
+      "id": "coalesced:bbad8e54ae38e88f2bd7b06947a62b037bc07e037d6796d72680a0a4074e9bde",
+      "key": "Num_5",
+      "source_sha256": "ef2d127de37b942baad06145e54b0c619a1f22327b2ebbcfbec78f5564afe39d",
+      "value": "5"
+    },
+    {
+      "id": "coalesced:a0ac6737fc0a7c033aad46f39d44e1d9052f2834fc9c0ef9674a356ef16d2e3e",
+      "key": "Num_6",
+      "source_sha256": "e7f6c011776e8db7cd330b54174fd76f7d0216b612387a5ffcfb81e6f0919683",
+      "value": "6"
+    },
+    {
+      "id": "coalesced:62ce094870f7c372c22e1b3bb320b27d46db54c0428171e4c1426655d5a60edd",
+      "key": "Num_7",
+      "source_sha256": "7902699be42c8a8e46fbbb4501726517e86b22c56a189f7625a6da49081b2451",
+      "value": "7"
+    },
+    {
+      "id": "coalesced:ac6fb2180ca3a7d5a590367931b13ee3a0285b5124dc977c3acc7023acbb31fd",
+      "key": "Num_8",
+      "source_sha256": "2c624232cdd221771294dfbb310aca000a0df6ac8b66b696d90ef06fdefb64a3",
+      "value": "8"
+    },
+    {
+      "id": "coalesced:ab54da8505e3fce6f672722d4376732733da0bd606de4d1a1f9a4aa197d83cc0",
+      "key": "Num_9",
+      "source_sha256": "19581e27de7ced00ff1ce50b2047e7a567c76b1cbaebabe5ef03f7c3017bb5b7",
+      "value": "9"
+    }
+  ],
+  "scenario_count": 80,
+  "candidate_fragments": {
+    "HP": "角色的HP提高 ",
+    "STR": "角色的攻击力提高 ",
+    "DEF": "角色的防御力提高 ",
+    "ESP": "角色的精神提高 ",
+    "ESR": "角色的抗性提高 ",
+    "DEX": "角色的速度提高 ",
+    "STA": "角色的耐力提高 ",
+    "SRV": "角色的耐力恢复提高 ",
+    "PercentUP": "%  ",
+    "normalUP": " "
+  },
+  "canonical_translation_applied": false,
+  "translation_edits": 0,
+  "native_name_binding": {
+    "name": "GetStringFromNumber",
+    "address": 2181989968,
+    "FName_global": 2200329644,
+    "windows": [
+      {
+        "address": 2195928608,
+        "size": 88,
+        "sha256": "7fcfaab352aea4260bea25e3c9257287c07fd2c09247f49639eef8dc8e457172"
+      },
+      {
+        "address": 2184540072,
+        "size": 144,
+        "sha256": "ccada7c51a7987fcb5698c0db8a9d1292d49b182fce9a0ec3c9f8006a78b8e82"
+      },
+      {
+        "address": 2184334416,
+        "size": 48,
+        "sha256": "63e6dae5758f97dcffd0bf9c11c8448ab2b3e01bc9f43295a3820344fb566c6e"
+      },
+      {
+        "address": 2184765384,
+        "size": 216,
+        "sha256": "2efa19e229357b632983dea15bddd0f374dfa56a71786adad4da449f103c2173"
+      },
+      {
+        "address": 2189888376,
+        "size": 12,
+        "sha256": "c643991b818f15b121bb9d24d59d5bdd3f2ab7230922f19ca437b420a9e6b97d"
+      },
+      {
+        "address": 2189888072,
+        "size": 304,
+        "sha256": "99eb6f7978cf20678577ffe3e0b9309e1e5e0c34564ad45c810daca5f9c477de"
+      }
+    ]
+  },
+  "name_to_method_owner_binding": "high-confidence;matching name and int/string signature;runtime receiver class not observed",
+  "formatter_chain": "0x82324c50 -> 0x8238dfc8 -> 0x82870b78 -> 0x82870a48 -> 0x82872f18;full CRT interpretation not claimed",
+  "royal_destination_followup": "New linked JPN lastrada_sch=王の霊廟 aligns INT UI label 라 스트라다 최심부 and CSMB12_131 center destination;INT/JPN scene key offset+1,not direct same-key substitution. Exact 왕의 영병 spelling remains unproven.",
+  "runtime_concatenation_verified": false,
+  "human_finalized": false,
+  "game_rendering_verified": false
+}

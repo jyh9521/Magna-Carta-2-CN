@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "kind": "source-grounded-candidate-adjudication",
+  "phase": 268,
+  "resource": "MC2Game/Localization/Coalesced.int",
+  "input_sha256": "179e265cfc9e6d3e9f2586abe75b5da303b2af9b8484079851dab72f9f7edb8c",
+  "context_fields": 223,
+  "source_physical": 232,
+  "known_originals_retained": 9,
+  "new_primary_consistency_fields": 0,
+  "new_translations": 0,
+  "new_context_entries": 0,
+  "translation_edits": 2,
+  "decisions": [
+    {
+      "id": "coalesced:c1bb7063ead159617ad4a8633affd49a575df43cf47f73eea6f5a27fb94b9d27",
+      "source": "ハハッ！\\n燃え尽きたかよ！\\n後は俺に任せな",
+      "source_sha256": "9391236db55ebc616b9a85e79f969fe5747bd2e24c34affc40c82eab97ae50e3",
+      "before_translation": "哈哈！\\n烧光了吗！\\n接下来交给我。",
+      "translation": "哈哈！\\n燃尽了吗！\\n接下来交给我。",
+      "translation_sha256": "aa024cb40bb73bcbc7ab66123fd956565d3dc486ae1a05b616c7f1ac86e10806",
+      "reason": "Japanese燃え尽きた addresses a burnt-out companion followed by handover;燃尽 retains fire metaphor without inventing an object burned away or runtime condition. Separate HP30/cancel keys retained;no trigger mapping assertion.",
+      "status": "source-grounded-draft-correction"
+    },
+    {
+      "id": "coalesced:4385d219c738abd5a74f7144388e69bd4663fa205ce3063cd8eb4f012c1e4fbd",
+      "source": "ハハッ！\\n燃え尽きたかよ！\\n後は俺に任せな",
+      "source_sha256": "9391236db55ebc616b9a85e79f969fe5747bd2e24c34affc40c82eab97ae50e3",
+      "before_translation": "哈哈！\\n烧光了吗！\\n接下来交给我。",
+      "translation": "哈哈！\\n燃尽了吗！\\n接下来交给我。",
+      "translation_sha256": "aa024cb40bb73bcbc7ab66123fd956565d3dc486ae1a05b616c7f1ac86e10806",
+      "reason": "Japanese燃え尽きた addresses a burnt-out companion followed by handover;燃尽 retains fire metaphor without inventing an object burned away or runtime condition. Separate HP30/cancel keys retained;no trigger mapping assertion.",
+      "status": "source-grounded-draft-correction"
+    }
+  ],
+  "retained_family_controls": [
+    {
+      "id": "coalesced:c87ebb576fe2aa8e6942f9a015963d192e1c2193669721f520edd8bbbe2f479c",
+      "source": "へとへとなんだろ？\\n疲れたんなら\\n俺が代わるよ！",
+      "translation": "累坏了吧？\\n要是累了，\\n就换我来吧！",
+      "translation_sha256": "b8a56d14674f1ea5d24de8e015a58c049085f0d34a97fa1acba9d12e53b131b0"
+    },
+    {
+      "id": "coalesced:f77e41752008f7fe31d80d13e569977781fa49bf6dc313c7b7ef2e5d6c23a8b8",
+      "source": "これ以上は無理だな\\n後は俺に任せて\\n下がっていてくれ",
+      "translation": "再这样下去不行。\\n接下来交给我，\\n你先退下。",
+      "translation_sha256": "82e2e8bfba7f73c9f29b039b810b570eaee2292e2155ff6d5d0b9a409dfc4c76"
+    },
+    {
+      "id": "coalesced:999b4b056de3ba12cd24a1b0dbe1065bad85b73b1be382b6629f91f28e9c64ef",
+      "source": "危なくなったら\\nいつでも呼んで\\nくれよ！",
+      "translation": "遇到危险，\\n随时\\n叫我吧！",
+      "translation_sha256": "80c34839f5043914b68c7a65f59b9c8b592c5f8100cb7a78acc3feb131e62824"
+    },
+    {
+      "id": "coalesced:f1d5b70dc06358f5a8b53dccabd9ca86df6da821bbc8e469faa5601a57cc0a30",
+      "source": "どうしたんだ？\\nいつも偉そうに\\nしてたくせにな～",
+      "translation": "怎么了？\\n你平时不是\\n挺神气的吗～",
+      "translation_sha256": "9dfb2e8bcc7a711886c602b50194ea551c5b898f830894356f13b4e1889182b7"
+    },
+    {
+      "id": "coalesced:b142295eaa52b3fbd728e347340a83e10fe6640bf6389d3c66fde3c7d5cf7c70",
+      "source": "俺が治してやるよ\\nお前の顔を見ると\\n腹立つ時はあるけどな",
+      "translation": "我来替你治好。\\n虽然看见你的脸，\\n有时也挺让人来气。",
+      "translation_sha256": "bd594322fe257ef1ec62f334a808a8807a5538b3f5a70c51eac6ce4c23315d4e"
+    },
+    {
+      "id": "coalesced:e5d31ae2f1fc811ac21c6082896275f0ff3baa3ab92c8b4e4c3e5f81ac595c8b",
+      "source": "どうだ、見たか\\n俺の実力もなかなかの\\nもんだろ？",
+      "translation": "怎么样，看到了吧？\\n我的实力\\n也很不错吧？",
+      "translation_sha256": "6eff4048b81992a7f168a7b7deee5b68d24b4ee7f5b76745bcf98f33ac51d5eb"
+    }
+  ],
+  "human_finalized": false,
+  "runtime_layout_approved": false,
+  "game_rendering_verified": false
+}

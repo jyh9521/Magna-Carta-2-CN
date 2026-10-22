@@ -1051,12 +1051,12 @@
     {
       "id": "coalesced:c1bb7063ead159617ad4a8633affd49a575df43cf47f73eea6f5a27fb94b9d27",
       "source_sha256": "9391236db55ebc616b9a85e79f969fe5747bd2e24c34affc40c82eab97ae50e3",
-      "translation_sha256": "c00bab488d49acbf045b6c90b7a73dd748ef9ec6f7b880f60b4cabcb0926282c"
+      "translation_sha256": "aa024cb40bb73bcbc7ab66123fd956565d3dc486ae1a05b616c7f1ac86e10806"
     },
     {
       "id": "coalesced:4385d219c738abd5a74f7144388e69bd4663fa205ce3063cd8eb4f012c1e4fbd",
       "source_sha256": "9391236db55ebc616b9a85e79f969fe5747bd2e24c34affc40c82eab97ae50e3",
-      "translation_sha256": "c00bab488d49acbf045b6c90b7a73dd748ef9ec6f7b880f60b4cabcb0926282c"
+      "translation_sha256": "aa024cb40bb73bcbc7ab66123fd956565d3dc486ae1a05b616c7f1ac86e10806"
     },
     {
       "id": "coalesced:e5d31ae2f1fc811ac21c6082896275f0ff3baa3ab92c8b4e4c3e5f81ac595c8b",
@@ -1389,6 +1389,25 @@
     "洁菲对象特有21计划条：朱特别为了自己逞强/一定活着回来/找救世方法，阿尔戈冷静但仍勿勉强，克罗塞尔挑衅适可而止/治疗掩护，塞蕾丝汀/露名呼及非孤身一人的安抚、自己不能倒下或放弃按源保留；剩余自身2条HP喊声共计对象特有23计划，与common37合60，不把未计划两条混作已译。",
     "MC2_com_Zephi Celestin/Abnormal_bad_ch3_01源含姓名后单反斜杠接じっと而非标准\\n；Rue同键源以私がすぐに结束，句子未完。既有调查证明两条未入计划且无上下文观察；保留精确原值/源hash，不猜补换行或句尾、不称无用途或填充。47空原值也原样保留。",
     "245条有效草稿与49原值分开核对；零源译/上下文/玩家资源更改，原盘来源/别名资源/ID/键位/控制码/功能换行/数值与所有人工/布局/游戏验收false保持。保留朱特取消我这种人、克罗塞尔疏忽措辞/对象配对、Compose2韩文原值及邮件时态后续修订证据。",
-    "本批14项候选逐项核对：韩文朱特/克罗塞尔/阿尔戈/露/塞蕾丝汀和哨兵/反哨兵部队，日文ゼフィ/セレスティン/ルウ/ジュト/クロセル/アルゴ/対センティネル部隊均与现译对应，无缺失字面命中；仍为candidate/unverified，韩日姓名共用译库不等于可合并资源或已通过人审。"
+    "本批14项候选逐项核对：韩文朱特/克罗塞尔/阿尔戈/露/塞蕾丝汀和哨兵/反哨兵部队，日文ゼフィ/セレスティン/ルウ/ジュト/クロセル/アルゴ/対センティネル部隊均与现译对应，无缺失字面命中；仍为candidate/unverified，韩日姓名共用译库不等于可合并资源或已通过人审。",
+    "阶段268按完整223通信上下文，两独立键烧光了吗改为燃尽了吗；保留伙伴耗竭的火焰比喻，不添外部燃烧对象或运行状态。笑声、两次功能换行及接手保持，显式取代hash，不增primary，非人审或运行定稿。"
+  ],
+  "target_supersessions": [
+    {
+      "id": "coalesced:c1bb7063ead159617ad4a8633affd49a575df43cf47f73eea6f5a27fb94b9d27",
+      "source_sha256": "9391236db55ebc616b9a85e79f969fe5747bd2e24c34affc40c82eab97ae50e3",
+      "before_target_sha256": "c00bab488d49acbf045b6c90b7a73dd748ef9ec6f7b880f60b4cabcb0926282c",
+      "after_target_sha256": "aa024cb40bb73bcbc7ab66123fd956565d3dc486ae1a05b616c7f1ac86e10806",
+      "phase": 268,
+      "review": "locales/zh-Hans/consistency-reviews/battle-utterances-zephie-juto-zephi.json"
+    },
+    {
+      "id": "coalesced:4385d219c738abd5a74f7144388e69bd4663fa205ce3063cd8eb4f012c1e4fbd",
+      "source_sha256": "9391236db55ebc616b9a85e79f969fe5747bd2e24c34affc40c82eab97ae50e3",
+      "before_target_sha256": "c00bab488d49acbf045b6c90b7a73dd748ef9ec6f7b880f60b4cabcb0926282c",
+      "after_target_sha256": "aa024cb40bb73bcbc7ab66123fd956565d3dc486ae1a05b616c7f1ac86e10806",
+      "phase": 268,
+      "review": "locales/zh-Hans/consistency-reviews/battle-utterances-zephie-juto-zephi.json"
+    }
   ]
 }

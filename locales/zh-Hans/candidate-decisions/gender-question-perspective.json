@@ -1,0 +1,73 @@
+{
+  "schema_version": 1,
+  "kind": "source-grounded-candidate-adjudication",
+  "phase": 272,
+  "resource": "MC2Game/Localization/Coalesced.int",
+  "input_sha256": "179e265cfc9e6d3e9f2586abe75b5da303b2af9b8484079851dab72f9f7edb8c",
+  "context_fields": 155,
+  "source_physical": 155,
+  "known_originals_retained": 0,
+  "new_primary_consistency_fields": 0,
+  "new_translations": 0,
+  "new_context_entries": 0,
+  "translation_edits": 1,
+  "decisions": [
+    {
+      "id": "coalesced:c112e934cd2953a9571e226003a5cb756704dc8301eac5bb7dcc3f74accdf0bb",
+      "source": "어떤 사람이야? 남자? 여자?",
+      "source_sha256": "c0dd2cf8109cc38e88937204c1569cf66b95ce03db228745748bb0dd31e8ab16",
+      "before_translation": "她是个什么样的人？男的？女的？",
+      "translation": "是个什么样的人？男的？女的？",
+      "translation_sha256": "ccee120466dff08f99d73b125923f2373ac06b9ece0ce2b1b196e32313c8f3a8",
+      "reason": "The single Korean sentence explicitly asks male or female and has no female presupposition;remove only added她 in this question. Preserve knowledgeable introducer,subsequent姑娘/姐姐 references and seven controls;no speaker identification or global pronoun rule asserted.",
+      "status": "source-grounded-draft-correction"
+    }
+  ],
+  "retained_family_controls": [
+    {
+      "id": "coalesced:de7b1058aad200e6607df9429880a1f9d46e9bc14b51d37f2f1b550b7895cbe3",
+      "source": "오늘은 벨포트에 가있던 우리 동료가\\n돌아오는 날이야. 그래서 다 같이\\n아바젯 입구로 마중을 나갔으면 하거든.",
+      "translation": "今天，我们前往贝尔福特的同伴要回来了。我想大家一起去阿巴泽特入口迎接她。",
+      "translation_sha256": "adc0d51706f812a09871e07b010f162ff490b0d5aeefaf4836026553c2cf850b"
+    },
+    {
+      "id": "coalesced:27bebbb78b9b37fb58e95e86f11c440cb988e19bbef292438a6be8e31dbd9203",
+      "source": "이름은 '루'라고 해.",
+      "translation": "她叫“露”。",
+      "translation_sha256": "b3cfb3be6108c513ef1a62ba8b239451b3cbb189f63813feef871455f98cbeb5"
+    },
+    {
+      "id": "coalesced:4fc298fcd02521f174577c75aa8a89aa6c7768a36ece1f2ce5b76116abf12d70",
+      "source": "귀여운 아가씨야.",
+      "translation": "是个可爱的姑娘。",
+      "translation_sha256": "f83a27538aef4e9db35177830f8e82de4ceb908ccb50fb946b621fa45f5de93b"
+    },
+    {
+      "id": "coalesced:7c98f6e5be7ddb8808131dfd98c75820a8e3cd8a52cca3290135ff05d554fad2",
+      "source": "어디가 귀엽단 거지...?",
+      "translation": "她哪里可爱了……？",
+      "translation_sha256": "d22d67a55274b7a45680df25e395354da994f040d7c5b2a4657c720b6f4f56e4"
+    },
+    {
+      "id": "coalesced:331e3bd1852273082b30f7d12ce1d034e7af068ed12d77aa31d30392ba0ab7fc",
+      "source": "와, 정말 멋있는 언니다.\\n나보다 키도 작은데 정말 대단해!",
+      "translation": "哇，真是位帅气的姐姐。明明个子比我还矮，却这么厉害！",
+      "translation_sha256": "6936a06f250be8be1aedcb0d6219fb79fbdc14a5cfb5bf68c7b885a5ad137b94"
+    },
+    {
+      "id": "coalesced:7e6652998bd279d013ccb8b8a60cbb0a48223b3f695b9b4e38dc84617aa62cb5",
+      "source": "그리고 세레스틴, 이 쪽은 루.\\n같은 대센티넬 부대원이고\\n내 호위도 맡고 있어.",
+      "translation": "塞蕾丝汀，这位是露。同样是反哨兵部队的队员，也负责担任我的护卫。",
+      "translation_sha256": "adbb6c38e5ecf266be965e862fa9e19ab2b80818ede694786ad8290e3568cc3e"
+    },
+    {
+      "id": "coalesced:ede7b75e96549e83d7c28c256434639c9f37846d066e0a5c5695c728d95fefc7",
+      "source": "만나서 반가워, 루 언니.",
+      "translation": "很高兴认识你，露姐姐。",
+      "translation_sha256": "ff96516e93ed23852192a0c95e2617007c7a08f805f238eeb9ed20670925df57"
+    }
+  ],
+  "human_finalized": false,
+  "runtime_layout_approved": false,
+  "game_rendering_verified": false
+}

@@ -1,0 +1,3327 @@
+{
+  "schema_version": 1,
+  "kind": "source-grounded-skill-name-retention",
+  "phase": 279,
+  "context_fields": 324,
+  "source_physical": 334,
+  "retained_original_count": 10,
+  "translation_edits": 0,
+  "new_primary_consistency_fields": 0,
+  "new_translations": 0,
+  "retained_entries": [
+    {
+      "id": "coalesced:909a8050e475fa8af5ea4b83ff9ebd1c76f232dd7b7581d7c15af478319f5004",
+      "section": "Common",
+      "key": "Attack",
+      "source": "공격",
+      "translation": "攻击",
+      "source_sha256": "ff1b59466ae65927bbbbb1f8059e9a9817bcd636add2727708406237db906b74",
+      "translation_sha256": "8226ca02ff365b0793dc16f871b206dd15f7aed081c2f82a37ab950fd1409a33"
+    },
+    {
+      "id": "coalesced:487815cec16e4ba859927c99080f8d01a93589d6b54cb1cd58e04a70b839d23e",
+      "section": "Common",
+      "key": "Need_SP",
+      "source": "필요SP :",
+      "translation": "所需SP：",
+      "source_sha256": "a703626dd99619ca4bcb8735540c8cf7b0b9535210efba3ee550904e78d67bd5",
+      "translation_sha256": "71c798ddad9cbe7c277be43d165e7e7aaed2c3fe1b399ee69b6dce98c2756183"
+    },
+    {
+      "id": "coalesced:1c56f89e6c0504085afe9aa8dc233a6468c05468b05e809e6f25551f2b53bcf4",
+      "section": "Common",
+      "key": "Upgrade_SP",
+      "source": "강화필요SP : ",
+      "translation": "强化所需SP： ",
+      "source_sha256": "2a0e8d3df18af6b24185116d4f2500f48db66eb7f5667e98bede280ab6b5c954",
+      "translation_sha256": "d5d2ce13e8f890af49314c85155a8bba18ba03f58abbcb5dd9932c8ba91b82c6"
+    },
+    {
+      "id": "coalesced:6e59291169ae4278ef77ae53f2c126de3bdb04d4a13f3d510cf2d5e6980c6949",
+      "section": "Common",
+      "key": "Upgrade_Complete",
+      "source": "강화완료",
+      "translation": "强化完成",
+      "source_sha256": "ad782e0176c5f18eee4cdf87c71d952811dfb4b575ec0fa85d551c077b8c2c56",
+      "translation_sha256": "6fda72263eccf8a60cd38376e5819e4c7bb8094c49cc2df340a5716a644aea9d"
+    },
+    {
+      "id": "coalesced:f5db3654b342120d6809c3d191d265c7cc252d4dfc70892638eec0e16b19c556",
+      "section": "Common",
+      "key": "Quest_Skill",
+      "source": "퀘스트에서 습득",
+      "translation": "通过任务习得",
+      "source_sha256": "3ca8a1a744844f792900dd227287db322b418902e87fa3db2f3c542927e12ee6",
+      "translation_sha256": "b006e42241c160cfefc858e1732a6a1bc1a118705124e6cfcf3925f3d4fb3543"
+    },
+    {
+      "id": "coalesced:f7d5aa6c159283e377066ec116da449f0d90e510e433181d7d3cf8f1a3b26394",
+      "section": "Common",
+      "key": "Change_Chracter",
+      "source": "캐릭터 변경",
+      "translation": "更换角色",
+      "source_sha256": "560a286d1969c27800f010b8e50a1038e6aefc66fe99de315ed21625925a7a50",
+      "translation_sha256": "04ade1879dda1916b7335919b366bb5f5dbdb19197e83e21de46b35dd8653ec8"
+    },
+    {
+      "id": "coalesced:7e0eadb89d77fb70c6b458fd8deff87b88d37aac068d87b9f72932e9df87d9d2",
+      "section": "Common",
+      "key": "Use_Kan",
+      "source": "기본사용칸 : ",
+      "translation": "基本KAN消耗： ",
+      "source_sha256": "fc48a566a8c65d6ce4c141ab7e0b5806029acef4db49147da1ba36c0f2fbf1dd",
+      "translation_sha256": "c50b48273410d19d10251e7aa66f9334853f0460c0a20422e3b9611c3fb820fc"
+    },
+    {
+      "id": "coalesced:e5679edad1b175cc8b9b20a6307cc980e6d573c9be6c2684ee142ffcc0b8e2f1",
+      "section": "Common",
+      "key": "RenkaiOugi_Hidden",
+      "source": "이벤트나 퀘스트를 통해서 배울 수 있는 스킬입니다.",
+      "translation": "可通过事件或任务习得的技能",
+      "source_sha256": "2b9eff33dfa15849b3a16164c70ed5a197306a77696ce6914a529467c93e7e3b",
+      "translation_sha256": "49d06a464f3f7fde33a226d8d3f9430000330c13359c9c97a182a12f75a857c2"
+    },
+    {
+      "id": "coalesced:0e51550692264ab9b802462283ce4fab90d2cd90ec01003ddb173843a40c0a55",
+      "section": "Common",
+      "key": "HyperSkill_Hidden",
+      "source": "궁극오의는 아직 습득할 수 없습니다.",
+      "translation": "尚不能习得究极奥义",
+      "source_sha256": "79fbb8f350eb02aed8b7b1bee27842d0549681eb3ddf7b58510fd4f22399f9bf",
+      "translation_sha256": "3aba2e9c6424776f80930efee36cac6c1b9a9937411c644ce7dc44835edb1c7a"
+    },
+    {
+      "id": "coalesced:184e09d3ab6af1cdd4247e3f00ef52cbd0227312408aa8d686647bceffd75d4f",
+      "section": "StatUP",
+      "key": "DamageUP",
+      "source": "스킬의 공격력이 20% 증가합니다.",
+      "translation": "技能攻击力提高20%",
+      "source_sha256": "0c9e802bc2b194e2ee23bdf8099161fbaebc4dfdee16ea83d3e8f10dec54815f",
+      "translation_sha256": "554e6f4d0821d98b7ea27a16065f223814b083706f00589410bb384f60b25350"
+    },
+    {
+      "id": "coalesced:9d83c14d4648d6ddfeaa8850f0d45bb7453cf22addcf94c35e8af48555803eb2",
+      "section": "StatUP",
+      "key": "StaminaDOWN",
+      "source": "스킬 사용시의 스테미너양이 15% 줄어듭니다.",
+      "translation": "使用技能时的耐力消耗减少15%",
+      "source_sha256": "aa6df16e7253efada9e76b16f172bf9affa8bc27764f380c8bf2b75bc3143a9d",
+      "translation_sha256": "300dc45cdce12af9c455a63d534f88246438b5bd5b189f6b8c7ed950558ebb7d"
+    },
+    {
+      "id": "coalesced:412fa4d0f0f8757fc492d288615a45af8ffd8e8ef02dc365ed8676701edae803",
+      "section": "StatUP",
+      "key": "KanMinus",
+      "source": "스킬 사용시의 칸 소모량이 1 줄어듭니다.",
+      "translation": "使用技能时，KAN消耗量减少1",
+      "source_sha256": "6d0b81f8a5dc7cfc1d01d45b51729c8bc999e7abf424640dba3a5bdc74ef0991",
+      "translation_sha256": "ce2644f542fdbfb73542689cd30261dc2df0e0dbde2af68513a06dcf1e7aab7e"
+    },
+    {
+      "id": "coalesced:fc1f85c9a9cfd355cafd8e50fe36a9aa785e32da74a841753e4851e47744ae03",
+      "section": "Juto_Style1",
+      "key": "Juto_Normal",
+      "source": "공진참",
+      "translation": "空进斩",
+      "source_sha256": "c242efa4c1f912e1fee0d8234bd1acbed1e9e7d8cd9a55e631073fa947f99a9f",
+      "translation_sha256": "c19f92df7a1bdc9a90e696a3dd0285e163fbcc30b9e1cc64c431181c487ce54d"
+    },
+    {
+      "id": "coalesced:9d136d71a2bdbd671ab28cb2b93cbbc93b2fa2922c3234cd11f68d6e7a702787",
+      "section": "Juto_Style1",
+      "key": "Juto_inherent",
+      "source": "카운터",
+      "translation": "反击",
+      "source_sha256": "57031b795728b1f4834991013969d0aaaa41d6c44d29fb98788b9aa3f33da73a",
+      "translation_sha256": "a61c524a55adc032ad93a80b486853fa6d45abe41f0f04d84c6bcdfbb6036957"
+    },
+    {
+      "id": "coalesced:a0d8d808919753b1baabb3dfa671c652711b8dee2fe89b8b0a70ee954429582a",
+      "section": "Juto_Style1",
+      "key": "Juto_Skill00",
+      "source": "이공진퇴",
+      "translation": "凌空震踢",
+      "source_sha256": "f3bc478925037e5d819986d2a306685ff754f33e55da69d769d64e977b8a08fa",
+      "translation_sha256": "e9a69bd14c0d0f7119e2a8831a20bf768a34fb8388bacb27717a0a9946beda63"
+    },
+    {
+      "id": "coalesced:ec9a7b01d09e2cb73f7937ec8eead73d5180521c5f0a118939251c7f0b942718",
+      "section": "Juto_Style1",
+      "key": "Skill_d_9",
+      "source": "강력한 돌려차기로 적을 날려버린다.",
+      "translation": "以强力回旋踢将敌人踢飞",
+      "source_sha256": "2a0b7983d1801ae59594aab7b1726da3cf4840557e77808a689c6beeb35867d7",
+      "translation_sha256": "1fd506d313948bbc6004ce5760e01e69b8ce80d79f1f1c3cb827a6bb667c10ef"
+    },
+    {
+      "id": "coalesced:81bd256eb2824130b1922092b5081fb2b7700718354bcea5687aad229729fbfa",
+      "section": "Juto_Style1",
+      "key": "Skill_d_9_Battle",
+      "source": "강력한 돌려차기로\\n적을 날려버린다.",
+      "translation": "以强力回旋踢\\n将敌人踢飞",
+      "source_sha256": "b261354723d985bbc36b91086ed67bf3f1b90f8e3299d728d58ff089fa789ae5",
+      "translation_sha256": "baedfa8239dede2cd41354c6d3cbb2ec61b0d8206a4efa8467f70612334d767f"
+    },
+    {
+      "id": "coalesced:514f7cce3a2c859be8e78594e601432d0743afcc9bfa3492f626ace4f796e717",
+      "section": "Juto_Style1",
+      "key": "Juto_Skill01",
+      "source": "강철의 자세",
+      "translation": "钢铁架势",
+      "source_sha256": "f35fe1e15f448b7bc7140dfda3653b0ce51decd6bc07963e0fa2a0cfe2c841c3",
+      "translation_sha256": "9c00d98d57fb0c1eb5cdb3b0a6432b0cad2e0578c4912670b1c75ef4e4d6b3ec"
+    },
+    {
+      "id": "coalesced:de3afbe3c772ac9864dfe350835bbe46f29a904bdb3e3488a7a3f15ec6871054",
+      "section": "Juto_Style1",
+      "key": "Skill_d_18",
+      "source": "일정 시간 자신의 방어력을 상승시킨다.",
+      "translation": "在一定时间内提高自身防御力",
+      "source_sha256": "4a4d2056be2362dabca881cb6c4cd70ff52f53cb3345ea73d3a0180a5b7e3a5c",
+      "translation_sha256": "c728968a6d3358d19941b4fe4f4f6fa807d73679bc640d146ea9622160df9a7e"
+    },
+    {
+      "id": "coalesced:f95ace3d6b658d38682c2c0101bbc3c8dd97c6b30b53a947a59d810ce68c68ed",
+      "section": "Juto_Style1",
+      "key": "Skill_d_18_Battle",
+      "source": "일정 시간 자신의\\n방어력을 상승시킨다.",
+      "translation": "在一定时间内\\n提高自身防御力",
+      "source_sha256": "bf73ac931bb0aa2db91be3014dd41ae107eecaf800ea42283bc0b82308cf6b3c",
+      "translation_sha256": "8d0ca9176cdb0550ab62179e90421af78ab1a08cc284e4c810cc682ab13264a9"
+    },
+    {
+      "id": "coalesced:3353d7b4969b25256006c26f96ffd3ea468c5b7abf7599dfcd77ac1f9e2f1574",
+      "section": "Juto_Style1",
+      "key": "Juto_Skill02",
+      "source": "공진연섬",
+      "translation": "空进连闪",
+      "source_sha256": "3b16889cf2fbaac4e679c79fcfb4fa7769036c6740688349c5cd5aa1a81413c6",
+      "translation_sha256": "000184c8bcdf3ea0c808a383776834232fd6664d0378f82ffbf4e872606541af"
+    },
+    {
+      "id": "coalesced:7a1c17bd59fdcf6f864ea846c5a97d4120f38be0779e9dc8d508b2e3524e1070",
+      "section": "Juto_Style1",
+      "key": "Skill_d_11",
+      "source": "적 하나에게 강력한 연속공격을 한다.",
+      "translation": "对一名敌人发动强力连续攻击",
+      "source_sha256": "6fa08c295f287f19d563e43b839a34ce5fff7cb438745e48a200072004305a37",
+      "translation_sha256": "7cefbd3d3e13f261ddb55b2597daad8dd429f66483d086c71e5cefa80e9fa986"
+    },
+    {
+      "id": "coalesced:52c013df8b96d6903901a3540baf438b2959b90602116eb572f530dd78eb828a",
+      "section": "Juto_Style1",
+      "key": "Skill_d_11_Battle",
+      "source": "적 하나에게 강력한\\n연속공격을 한다.",
+      "translation": "对一名敌人发动\\n强力连续攻击",
+      "source_sha256": "ebc520cfb49e6073f7bc68b096a20133aad7a923f5bc534abe597d23f2459a51",
+      "translation_sha256": "8c7096096779e5002c8f81dcb64e95634d218550e9f7ccde27f92d54813c21ea"
+    },
+    {
+      "id": "coalesced:f11c164941c3f7c2aa4eb89937d4f750827fa230b1c774298bde77ec0d744048",
+      "section": "Juto_Style1",
+      "key": "Juto_Skill03",
+      "source": "철일영",
+      "translation": "铁一影",
+      "source_sha256": "9390ea43de920429e4854e8faf2d24999e0e275c33f388f9e9f1a1073cd27529",
+      "translation_sha256": "b68f7ce2905de9b49d284bb0704ce66a83e0527c35761c0c5cf24a999673930b"
+    },
+    {
+      "id": "coalesced:55f7607fc56e30bf39153d2b63dbac19a8d3c110909607dc51f315ab8b62105e",
+      "section": "Juto_Style1",
+      "key": "Skill_d_12",
+      "source": "적에게 도발을 걸어, 공격을 유도한다.",
+      "translation": "挑衅敌人，引诱其攻击",
+      "source_sha256": "8d687c17346683ea7c0fa24f38fadc920f1e8bce4f73c78a7e9d05cf1bb016f5",
+      "translation_sha256": "f0b959ff0c0a28ebc3b02fb81b641d5b4046a415d85f0c5282f5530b8018dd6e"
+    },
+    {
+      "id": "coalesced:e9a2721180ad7a1e09a5cf9d40f8ddb6c525f3ea3878c756c838f99da263f296",
+      "section": "Juto_Style1",
+      "key": "Skill_d_12_Battle",
+      "source": "적에게 도발을 걸어,\\n공격을 유도한다.",
+      "translation": "挑衅敌人，\\n引诱其攻击",
+      "source_sha256": "c77a173623ca94a4038e77b8b5fa8762035ed4c398e63b0b7974c3ce6ccc2116",
+      "translation_sha256": "4cf4aa17d8a779c9d7ed877e7fe306d26fd2b97933c50ee53cd9253bd4a51da3"
+    },
+    {
+      "id": "coalesced:093a42476634f9b0272d3acdda2eff0fbacfa0f6efe6fae984e14991584458f4",
+      "section": "Juto_Style1",
+      "key": "Juto_Skill04",
+      "source": "환은섬",
+      "translation": "幻隐闪",
+      "source_sha256": "7e9f9562df5c665cb8886ea17a8a17b5955fd8f5ea10b38080e60156b05105fa",
+      "translation_sha256": "76f0cbf2566a7463347c07ebc0ccfff36c11e6e273712207d78ed18b9a1ac6b6"
+    },
+    {
+      "id": "coalesced:9e49a246798d54a94e7a919e1522ed42cf753199317a5950101d6f445a7ab766",
+      "section": "Juto_Style1",
+      "key": "Skill_d_14",
+      "source": "적을 향해서 강력한 대쉬 공격을 한다.",
+      "translation": "向敌人发动强力冲刺攻击",
+      "source_sha256": "0549034d215890f078e90dc60b2eb5984abc5ff19455fb941aef4f3255d5c69f",
+      "translation_sha256": "1d2f425764dbcbc3b84535d3e0d60d4338a565c9f9278fbd729bb581a60c988c"
+    },
+    {
+      "id": "coalesced:6a5216e0a76104bfbcca3087a1ba8cfd39fddfc55eb18dd738d8e169eee63eaa",
+      "section": "Juto_Style1",
+      "key": "Skill_d_14_Battle",
+      "source": "적을 향해서 강력한\\n대쉬 공격을 한다.",
+      "translation": "向敌人发动\\n强力冲刺攻击",
+      "source_sha256": "fab1eac19a80d6518a6a9a1aed742f8b636c464ee08353287e935b84f829ec7d",
+      "translation_sha256": "e147707ebac02cfea78219b086a9a21e210bf52f9290dd0348455d817243e786"
+    },
+    {
+      "id": "coalesced:4b123fe4d59a20ecbcb28eebb522d98b269e4e2426355da1cdaf201acf51dc8c",
+      "section": "Juto_Style1",
+      "key": "Juto_Skill05",
+      "source": "열진연섬",
+      "translation": "裂进连闪",
+      "source_sha256": "efe52cf89ae859bfa47c87d2a7cc5f87942a4a8e08c47559554682a3e6975fc7",
+      "translation_sha256": "929373ec609dc967f21d9c20eb5cc873132e4d8da7f40cdc28d0043286da2224"
+    },
+    {
+      "id": "coalesced:3c82eaf9e66c06bc7b83cc5addb55696814fc8cc1fc4c814a2c7ddcac9fb6581",
+      "section": "Juto_Style1",
+      "key": "Skill_d_15",
+      "source": "검에 강력한 힘을 실어 적을 연속공격한다.",
+      "translation": "将强大力量注入剑中，对敌人发动连续攻击",
+      "source_sha256": "21c2b951fd26a7dfaabb167d444a17b962f78ba92d77efbef8da8264bd083222",
+      "translation_sha256": "bfb18aa6909280a506552ca156aa6a75fd6a07bb37e5664bb27d7762f3d9e803"
+    },
+    {
+      "id": "coalesced:681df354c70d7ce03b87d39002e5bedf40b665bb03b47e2c42b82ec347761d6e",
+      "section": "Juto_Style1",
+      "key": "Skill_d_15_Battle",
+      "source": "검에 강력한 힘을 실어\\n적을 연속공격한다.",
+      "translation": "将强大力量注入剑中，\\n对敌人发动连续攻击",
+      "source_sha256": "59ca1b49c6efc2d6242c223eda82acb8560364c5b740d7b6c07121143ca41261",
+      "translation_sha256": "e33915100d5caa77e0a6cc86237a936cd66d4187fc85fc8ecbed1bd7856b0e2a"
+    },
+    {
+      "id": "coalesced:e4b0735ffb46a821502d4c651118e241e3fb8733f34c560a8ae292a5c97c537f",
+      "section": "Juto_Style1",
+      "key": "Juto_Skill06",
+      "source": "공파열진섬",
+      "translation": "空破裂进闪",
+      "source_sha256": "5483c2090faf3e8214a3cb0b9b9bc16fdfe75861dc2e6f6b57e23ebfea63b2c9",
+      "translation_sha256": "cf21bbc2c2df152941f27e3dc89d8e9411f5f5e2b085a5291cca7bb550b48240"
+    },
+    {
+      "id": "coalesced:3c2f94f9e03483f71878e19c11a130424b167d327c51af2ccdf850e489480bea",
+      "section": "Juto_Style1",
+      "key": "Skill_d_19",
+      "source": "칸을 대폭발시켜 거대한 늑대를 소환, 적을 공격한다.",
+      "translation": "引爆KAN，召唤巨狼攻击敌人",
+      "source_sha256": "5d5532d40d4c26f9d982d9f1e10841a23ad25fed883e8d61c47f79ef453526bd",
+      "translation_sha256": "dbba7f5efc8d5821401f8c2fc60cf5cab9e16322238d59837d7e52fa3294e3de"
+    },
+    {
+      "id": "coalesced:2495484fbcc24b3e29512bd98ce4bc9d16bb38ae2a078f755d577b593a05929d",
+      "section": "Juto_Style1",
+      "key": "Skill_d_19_Battle",
+      "source": " 칸을 대폭발시켜 거대한\\n늑대를 소환, 적을 공격한다.",
+      "translation": " 引爆KAN，召唤巨狼\\n攻击敌人",
+      "source_sha256": "bd76f3bb521287d075fbe2095c7e9d566f84fd4e5275303d43b1cf5405349811",
+      "translation_sha256": "cfbfd69352fd79e5fc966ebcb949318a77565624e51bed15d2d28ec39bd2e5b0"
+    },
+    {
+      "id": "coalesced:78d0cac2418a377ff51f4754b302f062e0d8421a96acd1c36089f40375fb68f2",
+      "section": "Juto_Style1",
+      "key": "Juto_Skill07",
+      "source": "초절파천무",
+      "translation": "超绝破天舞",
+      "source_sha256": "11354e979af7000982654ae40030dcfdeaeb6470a36f02e8a01bbf344ab9e544",
+      "translation_sha256": "74cd3bda0059de5462d1cb5a4a3d0d82e83bdcfd8f1a56c652e69ff3d2681a3a"
+    },
+    {
+      "id": "coalesced:bd6fbda4bff5e8ea63eb8994e00f6e4cf086b348d842f840d9f9e5954bb1b06e",
+      "section": "Juto_Style1",
+      "key": "Skill_d_20",
+      "source": "극한까지 힘을 모아 충격파를 일으킨 후 검으로 적에게 강력한 공격을 한다.",
+      "translation": "将力量积蓄至极限，释放冲击波后，用剑对敌人发动强力攻击",
+      "source_sha256": "a71bc47e7191036f573c0d8433d2308e5804687998be5743a918eb618c6401ff",
+      "translation_sha256": "3a7dc8e54efa48625962e2700ebb1f1a15b0592ecb81f12b5cd4eac30fa131c0"
+    },
+    {
+      "id": "coalesced:defa4ee897ad4df0fce9ec3ae5a2acc6d766aba1183908e289f6ac44a8aff412",
+      "section": "Juto_Style1",
+      "key": "Skill_d_20_Battle",
+      "source": "극한까지 힘을 모아 충격파를 일으킨 후 검으로 적에게 강력한 공격을 한다.",
+      "translation": "将力量积蓄至极限，释放冲击波后，用剑对敌人发动强力攻击",
+      "source_sha256": "a71bc47e7191036f573c0d8433d2308e5804687998be5743a918eb618c6401ff",
+      "translation_sha256": "3a7dc8e54efa48625962e2700ebb1f1a15b0592ecb81f12b5cd4eac30fa131c0"
+    },
+    {
+      "id": "coalesced:a0ed9121d0002fce322cb6b76a6bcae3a07137d3415c51f90401c89e7bfa6fd4",
+      "section": "Juto_Style2",
+      "key": "Juto_Normal",
+      "source": "강진참",
+      "translation": "刚进斩",
+      "source_sha256": "060acd5383c8ef43a5bfb9b98871a6417da1f3dfde56b70d0d9e8e113bd7ac06",
+      "translation_sha256": "e042e9d6431758bbd35d851408006280b01556830cf40680dfb42d02af77a3ea"
+    },
+    {
+      "id": "coalesced:fb9e00a0021f6dacd6316876cdc35441cc0e27fca4f1210a40c179ae645892f1",
+      "section": "Juto_Style2",
+      "key": "Juto_inherent",
+      "source": "강타",
+      "translation": "重击",
+      "source_sha256": "e8397215c513eeb90351cd260e4c7848805e3870dab54f636fc112601b688ecf",
+      "translation_sha256": "39c847f2e04fc2c076a426fda80cb870cb5e93f364665ff0ae23d44902201d3f"
+    },
+    {
+      "id": "coalesced:02a25db88a64ca898ed6566d2cf9ef72faddbc974fe0b2213a03818d0885b72b",
+      "section": "Juto_Style2",
+      "key": "Juto_Skill00",
+      "source": "초강진",
+      "translation": "超刚进",
+      "source_sha256": "4eb40d2cdd6954fe25d82ae508c2f661283d40034afc9ded0053fdab3d92ab08",
+      "translation_sha256": "c31c138523f601aff045638f4833c87978dffd0be7cb2aaeed568ed1b13a9f67"
+    },
+    {
+      "id": "coalesced:5712012c7fca2c1852c568dbcfaf88a3a97ea910802f56b1d289f9d2157c12f4",
+      "section": "Juto_Style2",
+      "key": "Skill_d_27",
+      "source": "강력한 내려베기로 적을 갈라버린다.",
+      "translation": "以强力下劈斩开敌人",
+      "source_sha256": "291261cda24e48f87c4005f6282304951d0bc5e6e07333e42ccbcca327e1ac27",
+      "translation_sha256": "f7470309ae982f1d3b6089de2eea6d522a58feed201d49ea0a1ba51b22985ec0"
+    },
+    {
+      "id": "coalesced:eaf734edf88da7cd59cfb9e99b54d83437cf1d5f1e8cb08d329c2b06eb7281f2",
+      "section": "Juto_Style2",
+      "key": "Skill_d_27_Battle",
+      "source": "강력한 내려베기로\\n적을 갈라버린다.",
+      "translation": "以强力下劈\\n斩开敌人",
+      "source_sha256": "1b6be26b1465248ce3ac65000c4324bc222102cdb89ee680cfcee0d726377919",
+      "translation_sha256": "f294e796bcc2baabc12a703341d93f1b1b10150a36854ede29ee4a5d58c5287b"
+    },
+    {
+      "id": "coalesced:74158f91c6fd13495037c67621a2b908865cbf97ef034de11ed7394bb8bce29d",
+      "section": "Juto_Style2",
+      "key": "Juto_Skill01",
+      "source": "필살의 자세",
+      "translation": "必杀架势",
+      "source_sha256": "6b42f26f50fda2f19993bb2afe1630a6b8fb6932a01e9308041df4a76bb8c1ec",
+      "translation_sha256": "b61e43a7ef78f5018535d07bce854d3d1de95d53cf7ed2b06c78dc0ccd880efd"
+    },
+    {
+      "id": "coalesced:53c62464df58246c92f38427ea64a7b713c92a399e772c026a577ea76e9d4fa9",
+      "section": "Juto_Style2",
+      "key": "Skill_d_32",
+      "source": "일정 시간 자신의 공격력을 상승시킨다.",
+      "translation": "在一定时间内提高自身攻击力",
+      "source_sha256": "ebc9a48ce43aa540b0b52b7211bf0a963bae909029b869f2ff494a9019cfe981",
+      "translation_sha256": "bb59189cdb1a503e88df6d625ed92bbb989d0e45513e637992a3dd211cea00ef"
+    },
+    {
+      "id": "coalesced:665377b09be404c36af98deb67a05d3ceafa1816ff73931bacf4c6c6410569a4",
+      "section": "Juto_Style2",
+      "key": "Skill_d_32_Battle",
+      "source": "일정 시간 자신의\\n공격력을 상승시킨다.",
+      "translation": "在一定时间内\\n提高自身攻击力",
+      "source_sha256": "96de534bec18bfcd84b26db0a129399349574ed1657e6bbe27e541eae1540439",
+      "translation_sha256": "0bd450a6d4d651cdf2083208f3cc5d0129081f2ed253718345ffe2acc33f9f8d"
+    },
+    {
+      "id": "coalesced:9c5cd228a2621c9fd701932017a7bf7bb998e059246b2f9b881c9ce2fea98fc3",
+      "section": "Juto_Style2",
+      "key": "Juto_Skill02",
+      "source": "공진삼연참",
+      "translation": "空进三连斩",
+      "source_sha256": "2f6f1acbeeea06c85c1d87801fdd50409c274510b908f6e05ee027e38841fc5a",
+      "translation_sha256": "568dad1c59e0729b7d38dffce562ebd8990d9e1763c024494bff21f0facad986"
+    },
+    {
+      "id": "coalesced:fe933da5e21c3890acecfae5ef596973963b4f34746a1c6a95e8df3c00f60845",
+      "section": "Juto_Style2",
+      "key": "Skill_d_29",
+      "source": "칸을 검에 모아서 적에게 3번의 연속공격을 한다. ",
+      "translation": "将KAN聚于剑上，对敌人发动3次连续攻击 ",
+      "source_sha256": "664b4b355f9ab2778ff8eb538f1e9ffafc7171734ac3c81c86ed2ce21610be0e",
+      "translation_sha256": "f682ca239ef8d09db69d0bef3576e86b7b4d59fbc11b6e3d78279bf8c3aa90b1"
+    },
+    {
+      "id": "coalesced:4884031b1569df0112f2a67da648af437f50ac65c6bc747b49b74fec6fcf28dc",
+      "section": "Juto_Style2",
+      "key": "Skill_d_29_Battle",
+      "source": " 칸을 검에 모아서 적에게\\n3번의 연속공격을 한다.",
+      "translation": " 将KAN聚于剑上，\\n对敌人发动3次连续攻击",
+      "source_sha256": "033cf1ef17fb201a80ff1e073751d9cbf20b1324f2e5f9b182fc86873cf72d7c",
+      "translation_sha256": "a4270e9b3628a031291899622ec74e62c6fa22aed0b5d492ab52a3cf03be2f19"
+    },
+    {
+      "id": "coalesced:84a599ba917c34ebfe737d4c2838450927894d8dbc690281f77d71b423376226",
+      "section": "Juto_Style2",
+      "key": "Juto_Skill03",
+      "source": "파쇄난섬",
+      "translation": "破锁乱闪",
+      "source_sha256": "144791eebac662378b40f3b03e70eaa22aa3f84b8707e74866ea137d27785391",
+      "translation_sha256": "d75e5c6fd5aab11593a7fbe02050e75c3a23421f2f581f61fc5010f9f07618c2"
+    },
+    {
+      "id": "coalesced:7c20d7bf81cdb608f1e7874f6b8f8bdeb7364e8633bdbd7040a9f447f902991a",
+      "section": "Juto_Style2",
+      "key": "Skill_d_30",
+      "source": "적을 베어버린 후, 칸의 파편을 터트려서 공격한다.",
+      "translation": "斩击敌人后，引爆KAN碎片发动攻击",
+      "source_sha256": "fddec98d9cbc7a7ad4a70436c8cd52c1d177c28234eaff08394a80f7b7ac6370",
+      "translation_sha256": "e39594ada0b05f1b72f037ed8ab69418457a19ed5d07aec2627c6dbf8ea92e08"
+    },
+    {
+      "id": "coalesced:f7b97dcff25b1737bfa19f520037d1a71f1e5e0ea9073db11c17dec4d1970940",
+      "section": "Juto_Style2",
+      "key": "Skill_d_30_Battle",
+      "source": "적을 베어버린 후, 칸의 파편을 터트려서 공격한다.",
+      "translation": "斩击敌人后，引爆KAN碎片发动攻击",
+      "source_sha256": "fddec98d9cbc7a7ad4a70436c8cd52c1d177c28234eaff08394a80f7b7ac6370",
+      "translation_sha256": "e39594ada0b05f1b72f037ed8ab69418457a19ed5d07aec2627c6dbf8ea92e08"
+    },
+    {
+      "id": "coalesced:5d83834741e5f4f8b1ce90c53cb70e3552270a6fbf61b4ecfef80b27f5b01257",
+      "section": "Juto_Style2",
+      "key": "Juto_Skill04",
+      "source": "강진열참",
+      "translation": "刚进裂斩",
+      "source_sha256": "b1a3496383ff0ac0808d97480671c75c56af52bddc63e92a7e8b8d8bda7d84b6",
+      "translation_sha256": "d310e3236ac3b09a89c4b28904dae062e9af722902a7479c25b7cb5e6f909cb7"
+    },
+    {
+      "id": "coalesced:76023c23e87b806ad54f15e0b4f705424147bff85469925e02125b6befd629d6",
+      "section": "Juto_Style2",
+      "key": "Skill_d_31",
+      "source": "적에게 강력한 연속공격을 하고 마지막엔 주변의 적에게도 대미지를 입힌다.",
+      "translation": "对敌人发动强力连续攻击，最后还会对周围敌人造成伤害",
+      "source_sha256": "e5abc108402603bf67b821eea83ad055fb8253f4afc0db881c94caeaaf69fb14",
+      "translation_sha256": "0d16be8b60f10d563d69acc80a4745f0730a9edbcb76e499591af3c0f8d92b94"
+    },
+    {
+      "id": "coalesced:9320b3864ca1b778a850f631925530813f3fbd52d8ae6d3acdd1864a5806e070",
+      "section": "Juto_Style2",
+      "key": "Skill_d_31_Battle",
+      "source": "적에게 강력한 연속공격을 하고 마지막엔 주변의 적에게도 대미지를 입힌다.",
+      "translation": "对敌人发动强力连续攻击，最后还会对周围敌人造成伤害",
+      "source_sha256": "e5abc108402603bf67b821eea83ad055fb8253f4afc0db881c94caeaaf69fb14",
+      "translation_sha256": "0d16be8b60f10d563d69acc80a4745f0730a9edbcb76e499591af3c0f8d92b94"
+    },
+    {
+      "id": "coalesced:4151a2929c31d0fafc725304013100736d8ac363225786643367d79fa9f370b5",
+      "section": "Juto_Style2",
+      "key": "Juto_Skill05",
+      "source": "파열극섬",
+      "translation": "破裂极闪",
+      "source_sha256": "0a8a75437eeb030d9138087473f20b34694e732605417620a95697f8062b08dd",
+      "translation_sha256": "d24e0f130973f0c361669bbc1521b1e853733e4e2f49a5df3fd4b040a99ae294"
+    },
+    {
+      "id": "coalesced:0f34f5818f7252039fcccd1b2a5e5f426edff86c4901a4a3378a9d8ff3b24c8c",
+      "section": "Juto_Style2",
+      "key": "Skill_d_36",
+      "source": "칼을 지면에 내리 꽂아 거대한 칼날을 소환하여 적을 공격한다.",
+      "translation": "将剑插入地面，召唤巨大剑刃攻击敌人",
+      "source_sha256": "f44c1a10d7a74e052bd61db1320cb81d994f1d443bd31bd029652186ac11e9dc",
+      "translation_sha256": "3c5c5e6ac02bb6caa70f72d90d7d6e70bf43dd30dfeac3a9b60d99b58ca4bddb"
+    },
+    {
+      "id": "coalesced:b5b1bffb9c1b339962747600068d7b5c00cc086230bee8ab1b36a829ffa9608e",
+      "section": "Juto_Style2",
+      "key": "Skill_d_36_Battle",
+      "source": "칼을 지면에 내리 꽂아 거대한 칼날을 소환하여 적을 공격한다.",
+      "translation": "将剑插入地面，召唤巨大剑刃攻击敌人",
+      "source_sha256": "f44c1a10d7a74e052bd61db1320cb81d994f1d443bd31bd029652186ac11e9dc",
+      "translation_sha256": "3c5c5e6ac02bb6caa70f72d90d7d6e70bf43dd30dfeac3a9b60d99b58ca4bddb"
+    },
+    {
+      "id": "coalesced:c7f22ec76e2c2d6649b1687299c60093b2afc7ea342a4c1388a9274305e06c0d",
+      "section": "Juto_Style2",
+      "key": "Juto_Skill06",
+      "source": "공파무쌍도",
+      "translation": "空破无双刀",
+      "source_sha256": "9c0aad8d89b5dc36510a26977c59bed82385d6c512960f001e69fb4350a16b9e",
+      "translation_sha256": "becdca328d56fff6e9ea198542fb1d8a66ccdbab0bdee3227dd394c44ecf4fea"
+    },
+    {
+      "id": "coalesced:b13a95f437dee86fbc758c4b83fe9b66f55187b18abee63fe044c49ec27e7fe1",
+      "section": "Juto_Style2",
+      "key": "Skill_d_37",
+      "source": "빛의 속도로 적을 사방에서 연속공격한다.",
+      "translation": "以光速从四面八方对敌人发动连续攻击",
+      "source_sha256": "0975b439d9f62e00cf68e4ab3d261b5180d90d56ae1477ee0170b9d9918529b5",
+      "translation_sha256": "cb132430ed97d12587808a5c5301c0e6d33f76e041faa0050521707d82a45ceb"
+    },
+    {
+      "id": "coalesced:822d55a4a6442b89765421464ec6fa1b5ae660b032e37d1b5494fa5f8025027f",
+      "section": "Juto_Style2",
+      "key": "Skill_d_37_Battle",
+      "source": "빛의 속도로 적을 사방에서 연속공격한다.",
+      "translation": "以光速从四面八方对敌人发动连续攻击",
+      "source_sha256": "0975b439d9f62e00cf68e4ab3d261b5180d90d56ae1477ee0170b9d9918529b5",
+      "translation_sha256": "cb132430ed97d12587808a5c5301c0e6d33f76e041faa0050521707d82a45ceb"
+    },
+    {
+      "id": "coalesced:88067cee3c8b202351743dbd7eed971038dd290ada80a2cd03d69ab76c81466d",
+      "section": "Juto_Style2",
+      "key": "Skill_d_38",
+      "source": "바람의 연환술과 양손검의 연계오의로 적 1명에게 강력한 대미지를 입힌다.",
+      "translation": "以风之连环术与双手剑施展连携奥义，对1名敌人造成强大伤害",
+      "source_sha256": "c5d7cc1c2896a15b9e7fe6bf31554a61f6a97fccf0f2139a7920aa5848732fe7",
+      "translation_sha256": "0e811ee80e059f38fd2825ddbcfc8860b10f58216276610a84e4be77a47a15d4"
+    },
+    {
+      "id": "coalesced:b85a1cc77dc25904ecbcf6296b4d1bbe215a7d1524da215d890445d9a77bfb2f",
+      "section": "Juto_Style2",
+      "key": "Skill_d_39",
+      "source": "불의 연환술과 양손검의 연계오의로 적 1명에게 강력한 대미지를 입힌다.",
+      "translation": "以火之连环术与双手剑施展连携奥义，对1名敌人造成强大伤害",
+      "source_sha256": "6b83e6b098be560dd6043c39feffda48002376b883cbedbbfe0be66920e2c27d",
+      "translation_sha256": "e2b935e946370ab5842a58184d143bbf4f10d986fac0c00b1072428b793360a2"
+    },
+    {
+      "id": "coalesced:6b56260ae288025adc23a7a1a6af7e90fd2709b28b9ab6c09a57226520271e08",
+      "section": "Argo_Style1",
+      "key": "Argo_Normal",
+      "source": "해머 러시",
+      "translation": "连锤猛攻",
+      "source_sha256": "508a3ca3a06d0ac64ee3556002100538f8517903db9ab7a5d6b6adbccd4987a3",
+      "translation_sha256": "1256dd977134925a1d24f27f88d417c2506153f4bae8e84238e2f2a4699dbea2"
+    },
+    {
+      "id": "coalesced:e79efb72e744f59ece8fc0850b1e23560fd0ceb58e68bb61fb8af0550f35eeba",
+      "section": "Argo_Style1",
+      "key": "Argo_inherent",
+      "source": "사자후",
+      "translation": "狮子吼",
+      "source_sha256": "c02ab4a5a234d23380df98d256480050cee737a32de01ff1b268e22b4e76697f",
+      "translation_sha256": "d4f2624164db98ba0fcc4415db645431e744c3d4853691b96b3f2a38857ff26b"
+    },
+    {
+      "id": "coalesced:1216555d41b362f87338fd7e9682fc223b6a49865d1d44a9b19fa625e038a72f",
+      "section": "Argo_Style1",
+      "key": "Argo_Skill00",
+      "source": "버스트 너클",
+      "translation": "爆裂拳",
+      "source_sha256": "3c38b288d05f8ce01cbc61ce8c4295df0252ae3923df01b23a731d3ec7e7edea",
+      "translation_sha256": "f3699a477f4f8a1b1ec658dafd3fecea39a0ca02f362ac6e07f5338dc12c7683"
+    },
+    {
+      "id": "coalesced:d4829129e9a26ea620f51d29850864a51de71d071ba0b4dd343b637c05be1c77",
+      "section": "Argo_Style1",
+      "key": "Skill_d_108",
+      "source": "주먹으로 지면을 쳐서 그 충격파로 적을 공격한다.",
+      "translation": "以拳击地，用冲击波攻击敌人",
+      "source_sha256": "6e47151f0e6b1efe3087df027ff3dde8d61bd83734ddcdbd4faccca3192299a4",
+      "translation_sha256": "051ac39874359d5502941e6949aeb52a1102106ce93182ee23bc826c31fc050d"
+    },
+    {
+      "id": "coalesced:a36186232d4d0709a231752f35c5673b15b94a7d246e98512192e1b974ed68db",
+      "section": "Argo_Style1",
+      "key": "Skill_d_108_Battle",
+      "source": "주먹으로 지면을 쳐서\\n그 충격파로 적을 공격한다.",
+      "translation": "以拳击地，\\n用冲击波攻击敌人",
+      "source_sha256": "3157401f6f1e137b9feedeb4a69fb41913607ed1e269c4ec1caf230b696a9aff",
+      "translation_sha256": "817eb5021e24304e4f57f8a5d8631aef5e2cc680508ff56fda088b853e3143a5"
+    },
+    {
+      "id": "coalesced:74e98aa2c3e0ab7de3ded6c9151414c9d0dc7e2fc683db3a0c8a0128b9322c4d",
+      "section": "Argo_Style1",
+      "key": "Argo_Skill01",
+      "source": "해머 버스트",
+      "translation": "爆裂锤",
+      "source_sha256": "320b172139f8e09e80252ba6119d4a433e5b720503f9fbd283e2860bc0d11278",
+      "translation_sha256": "f62a2565285b657edf2d65ca91df016bef9b43b0165c02bd84ea121d1946b01b"
+    },
+    {
+      "id": "coalesced:3d65770e84853da8001f075879d3f7ea1a464ea18e84d1d6fa9e8b2ccbd416eb",
+      "section": "Argo_Style1",
+      "key": "Skill_d_110",
+      "source": "해머를 휘둘러서 강력한 연속공격을 한다.",
+      "translation": "挥动锤子发动强力连续攻击",
+      "source_sha256": "60b593039221f162f81cc61927be624e974c26eff83c2a8902407f50e19d776c",
+      "translation_sha256": "1eba9bac1b140301ecd47b12f0838e785f24a4d11f5ed96f00a90f8c90f5d646"
+    },
+    {
+      "id": "coalesced:5b8e28c063819f159cdb2e525b52297e0491b703feac31b6055e72a83f8bed6b",
+      "section": "Argo_Style1",
+      "key": "Skill_d_110_Battle",
+      "source": "해머를 휘둘러서\\n강력한 연속공격을 한다.",
+      "translation": "挥动锤子\\n发动强力连续攻击",
+      "source_sha256": "59483043098a45a666599d37e5a10e8b0fc923a70b1be1ac2439da86feabde53",
+      "translation_sha256": "656644fb54f07f93a66631fed698616f788496777e89c4e23d84e102f7e54cc4"
+    },
+    {
+      "id": "coalesced:855b09817207898fccc4ee119a9a666b081eb1b43c8da64da1e219f7f7cb8fe1",
+      "section": "Argo_Style1",
+      "key": "Argo_Skill02",
+      "source": "해머 브레이크",
+      "translation": "破击锤",
+      "source_sha256": "c2cadf5f90fcc16985b3f2c538260899647667c6967a0a2fc43eefd402a95df9",
+      "translation_sha256": "923a510aa05940f0bda1a3f947421c3d5bd9ddbcb3d389c8ddea17c343e967bf"
+    },
+    {
+      "id": "coalesced:bd0c51b8d71b570a584be7e0b3b5f989a232cde96bb49e341fdc701e96d5ea75",
+      "section": "Argo_Style1",
+      "key": "Skill_d_111",
+      "source": "해머로 지면을 내려쳐서 충격파를 일으켜, 주변의 적을 공격한다.",
+      "translation": "用锤子猛击地面，释放冲击波攻击周围敌人",
+      "source_sha256": "ce57fdf245acb7a97bbd9e4348f1ec6a7ef657d85a47da9d66f4cd07218426e7",
+      "translation_sha256": "1cd0a368cef254b809271afea2b853b52a72d7613767173a38ac90e4c8565f2a"
+    },
+    {
+      "id": "coalesced:ab90c3c97e22e4ad52acf97c36d6aa1b6ff9654be73a919dd694680976caa7af",
+      "section": "Argo_Style1",
+      "key": "Skill_d_111_Battle",
+      "source": "해머로 지면을 내려쳐서\\n충격파를 일으켜,\\n주변의 적을 공격한다.",
+      "translation": "用锤子猛击地面，\\n释放冲击波，\\n攻击周围敌人",
+      "source_sha256": "7ea0be7370829b826d881a885972f960a84d978377a5dee3ca8d8a1568a61293",
+      "translation_sha256": "15a50f9a2cf4bf8255489c49c98bbbc6a0e78bfaf4be73d8091922f3a8411d2a"
+    },
+    {
+      "id": "coalesced:2cd8d3d8acb8fa22dbd4ddfc93fccb76cd1e62591d6391ba3bc1c72d6a1001e4",
+      "section": "Argo_Style1",
+      "key": "Argo_Skill03",
+      "source": "헤븐즈 해머",
+      "translation": "天降神锤",
+      "source_sha256": "9a16e3983db12744763951d759e5cc2c5188ee98212e96079d55237a82407785",
+      "translation_sha256": "7eb455ad58f96cde6adee8bbff26f11f4c4a9b1c41f6f876a1e9e22bf007f8cc"
+    },
+    {
+      "id": "coalesced:874a8d5397f1fe955a4f02098e2e54cbd9c149ce9c496d846580fb553c37a854",
+      "section": "Argo_Style1",
+      "key": "Skill_d_112",
+      "source": "공중에 모인 칸을 내려쳐서 적을 공격한다.",
+      "translation": "击落聚于空中的KAN，攻击敌人",
+      "source_sha256": "c137f0231a21aabb92e4c8b32abfed14b55ccf41bd7aa8978c325b2a2cfa2524",
+      "translation_sha256": "3481fda49973be99a75b2a55a7ed012c0c86ea37fddbacda785839105af074ee"
+    },
+    {
+      "id": "coalesced:db3759804c953299c51bd23a107703f83181d1ae0b2a8c222b2dc9bf35754b52",
+      "section": "Argo_Style1",
+      "key": "Skill_d_112_Battle",
+      "source": "공중에 모인 칸을 내려쳐서\\n적을 공격한다.",
+      "translation": "击落聚于空中的KAN，\\n攻击敌人",
+      "source_sha256": "c939a2cdacba3f18df4bcdf0fb6c14493a523266b59cccd6e4964b897db2fa79",
+      "translation_sha256": "50533d03697439aa9df87035062c81d0e5e9880669e20ded7320358cfb1604ae"
+    },
+    {
+      "id": "coalesced:97a3685e9d763a54fa31829d7ad813089690f3a317e53800c623c0d5cef89e3e",
+      "section": "Argo_Style1",
+      "key": "Argo_Skill04",
+      "source": "스파이럴 해머",
+      "translation": "螺旋锤",
+      "source_sha256": "d2415f72910c9074f35adba29d558a51f4529e34b39d4e807f85446c223d538f",
+      "translation_sha256": "6bd58e6538eefdcb01e1fd94751d0d1e822072fe0e905f0325f151eab91be20b"
+    },
+    {
+      "id": "coalesced:0d30fc58572351f473b50761cedbfff9ae4ad98516459b3d3dd66b099a3daf15",
+      "section": "Argo_Style1",
+      "key": "Skill_d_113",
+      "source": "해머를 크게 휘둘러 다수의 적을 공격한다.",
+      "translation": "大幅挥锤，攻击多名敌人",
+      "source_sha256": "d359927fcf68e552a4f759735dc93d90f2d86e7466ccf752b40752d860277a3a",
+      "translation_sha256": "c8222f4f6a42aea1945cb891ef7760fa6183e545b6519e6d82ee0e73badc3b3a"
+    },
+    {
+      "id": "coalesced:60906ce3ac33ebb70799df04be3009ab2c82094288ac0f8e029aaccfd1dd845b",
+      "section": "Argo_Style1",
+      "key": "Skill_d_113_Battle",
+      "source": "해머를 크게 휘둘러\\n다수의 적을 공격한다.",
+      "translation": "大幅挥锤，\\n攻击多名敌人",
+      "source_sha256": "48089793e0076e1a956ab2d137f201d9ae96cf2c641feb636f92c81a3251c7fb",
+      "translation_sha256": "c17cb92cd3b0681178c242aab92af8356e104dd0993e0b15717e9df6f7337177"
+    },
+    {
+      "id": "coalesced:6e13273eae42e6912bb1febdc48b9d362e38ed1cf49db5ee277b6636cbae1930",
+      "section": "Argo_Style1",
+      "key": "Argo_Skill05",
+      "source": "서몬 해머",
+      "translation": "召唤巨锤",
+      "source_sha256": "76811eb9ed9631fd218507bf4b50a144ac993c3cdf61416340fdb54bc4f99d2d",
+      "translation_sha256": "27e880932094db28d492e523fdabf9f978f9a6f51fc8e773ad0ce55c3ea1e641"
+    },
+    {
+      "id": "coalesced:8cfd9720cb2cc57db95fe63561fa5a5dfbcbfb375715b5f16957de199204b9fc",
+      "section": "Argo_Style1",
+      "key": "Skill_d_116",
+      "source": "거대한 망치를 소환, 적에게 큰 대미지를 입히는 스킬.",
+      "translation": "召唤巨锤，对敌人造成巨大伤害的技能",
+      "source_sha256": "f06103431532349660b8c0a7cdfd0c9eeed76d4d6d5a92cfc6bbb7d7af1154c4",
+      "translation_sha256": "c3c8165203713bfab819daaacffa39cb4fd548bbd915f2491d5867361bdbda72"
+    },
+    {
+      "id": "coalesced:3d4e8b6ab0631b7aea13cbb823c0721a4bf60dca59afb7e4bbed0444d83148a1",
+      "section": "Argo_Style1",
+      "key": "Skill_d_116_Battle",
+      "source": "거대한 망치를 소환,\\n적에게 큰 대미지를 입히는 스킬.",
+      "translation": "召唤巨锤，\\n对敌人造成巨大伤害的技能",
+      "source_sha256": "eb885097480378188a5edaffb0fabfadd35d38d1d8e0f87663a4ea2ef5ccd17f",
+      "translation_sha256": "4acb00fe6568ce210895f0405136375493b846fe29f81bf9ebf6c25c40c87b92"
+    },
+    {
+      "id": "coalesced:2d7409f937b4a40eddd38916076fb16f9c2f56a4d797d41ab93dfbd96bcb3532",
+      "section": "Argo_Style1",
+      "key": "Argo_Skill06",
+      "source": "휴즈 퀘이크",
+      "translation": "大地震",
+      "source_sha256": "c53a31b4dad6a43a7ec55c0417c0c6398aee776150f25c7e68eef2efc67444fe",
+      "translation_sha256": "427560d68a06e59fb7d6dae96e9598053e8632f310ca0963c52a1868d14da081"
+    },
+    {
+      "id": "coalesced:7c88f56a3e96b483a19b6cccc6913774a45d7fe710bb4948d67522a0fc634307",
+      "section": "Argo_Style1",
+      "key": "Skill_d_117",
+      "source": "대지의 용을 소환하여 용아일체가 되어 적을 공격한다.",
+      "translation": "召唤大地之龙，与龙合为一体攻击敌人",
+      "source_sha256": "0935e171efb3b8c96fa66a20b0eb8e5f6e651f90a919e16f97060578007da430",
+      "translation_sha256": "4a5d87aacfb2f0c672ae63e952c9e315ff487994209b31e4cd6ff168ec773c09"
+    },
+    {
+      "id": "coalesced:e1e243bfeb4082f21855ac94b91a05fcd4806c017fcf14a98f381e7a46ba2723",
+      "section": "Argo_Style1",
+      "key": "Skill_d_117_Battle",
+      "source": "대지의 용을 소환하여 용아일체가 되어 적을 공격한다.",
+      "translation": "召唤大地之龙，与龙合为一体攻击敌人",
+      "source_sha256": "0935e171efb3b8c96fa66a20b0eb8e5f6e651f90a919e16f97060578007da430",
+      "translation_sha256": "4a5d87aacfb2f0c672ae63e952c9e315ff487994209b31e4cd6ff168ec773c09"
+    },
+    {
+      "id": "coalesced:760ccf01b0a0f41fa1ebb67d75269068549e6573e526e573eabbd02cd2774dd8",
+      "section": "Argo_Style2",
+      "key": "Argo_Normal",
+      "source": "히트 액스",
+      "translation": "重斧打击",
+      "source_sha256": "945999c38e822b7ae9e3b3df838eb5a312f671836bb77af3576d7dbc7f01076a",
+      "translation_sha256": "6656aa8c0485bd622e53204901a1d8da459157123a4a109db3e36cb7c5d7ace8"
+    },
+    {
+      "id": "coalesced:fb3460df7878195f5e5e2db169242ed843784509ef6cedf71fd7f8c4588a1a6e",
+      "section": "Argo_Style2",
+      "key": "Argo_inherent",
+      "source": "방어구 파괴",
+      "translation": "破甲",
+      "source_sha256": "31c448319884acd85a7a528a0e61fa9c37699bfbd53f88d796c73a64e6e9faff",
+      "translation_sha256": "26cdc4a97086a988737c96bedee46ef27f8304d8c5d51781718f8da55546c614"
+    },
+    {
+      "id": "coalesced:197ad5ac7f0884ec2f8412d424a761b7529631ab059247a89fe5d31a60bc2d14",
+      "section": "Argo_Style2",
+      "key": "Argo_Skill00",
+      "source": "폴 엑스",
+      "translation": "长柄斧",
+      "source_sha256": "4f0643e3c2481ee1184424eaec7bf3e3cc1e528d895be28778a95c9f510c63cd",
+      "translation_sha256": "95aebbf9ff1ebb5acac6f7c2ee7994fa866d70a04ca64a420491f5748aa4aa51"
+    },
+    {
+      "id": "coalesced:ea0f06da3aaa6cbbb73a1dd2c12379c9f535b4f9cf72f056d90d3e1c1597e2f7",
+      "section": "Argo_Style2",
+      "key": "Skill_d_123",
+      "source": "도끼로 적을 내려찍어 공격한다. ",
+      "translation": "用斧头劈击敌人 ",
+      "source_sha256": "e34ae86d3cfbf746e668322be5b46bda9c01c02938ddc9ce4c545c16ff89e0c9",
+      "translation_sha256": "5bbf5d3f1da81b72f7711a68b85c59cfe2ef28ff46af272fc198c1ad104f3b7b"
+    },
+    {
+      "id": "coalesced:a4bc242078f302bb16b58dbc2f8879b44f8c946013978c7bf3bc2338ecdc732e",
+      "section": "Argo_Style2",
+      "key": "Skill_d_123_Battle",
+      "source": " 도끼로 적을 내려찍어 공격한다.",
+      "translation": " 用斧头劈击敌人",
+      "source_sha256": "f621548a59bc1c2a846ef529ad38ab64954806e0b6c1fe997ca7ef36607407b9",
+      "translation_sha256": "374ff1657c5efd5f539d21c83fbf78982f628104394d0405a247d6372485b305"
+    },
+    {
+      "id": "coalesced:67063de230b59b12425a95359d4d51a9b9ac29ace800acff912663b2b4f37b2a",
+      "section": "Argo_Style2",
+      "key": "Argo_Skill01",
+      "source": "트리플 엣지",
+      "translation": "三连刃",
+      "source_sha256": "2c6e51afb7523be6cf947539f433ba5333f9a059619fc336032d094dc27ce269",
+      "translation_sha256": "9e932c48488d28c8a0057c7319e76773c44952fd9b0251383a45877940778cb2"
+    },
+    {
+      "id": "coalesced:69713b8b09096d22a52a566d08160fe102800fcbdd5cb3c16f58492393938d60",
+      "section": "Argo_Style2",
+      "key": "Skill_d_125",
+      "source": "도끼로 적에게 강력한 3연속 공격을 한다.",
+      "translation": "用斧头对敌人发动强力3连击",
+      "source_sha256": "53a68919a8143ab35a06b90cf97bc962a8458cbec7523f7c4aeb18f52fccb3c8",
+      "translation_sha256": "04562fa0aad2083a5e890fc535e4d292b37ac683dcf34cc3a9e7a57423e2d661"
+    },
+    {
+      "id": "coalesced:4802cf6d7584e414b12dcaf7e6d8d7f7bda8ffaad8e32d4a601220629681b653",
+      "section": "Argo_Style2",
+      "key": "Skill_d_125_Battle",
+      "source": "도끼로 적에게 강력한\\n3연속 공격을 한다.",
+      "translation": "用斧头对敌人发动\\n强力3连击",
+      "source_sha256": "2b9e0b296c585592902801f9698a04f29a870e60a771748c4127875babf87e0e",
+      "translation_sha256": "f2e416e7385be2d551c6d1167f2f63ef5237b3245b026bb02e34663f9d0f35eb"
+    },
+    {
+      "id": "coalesced:cefed9103328c3fd7834bb54d25f80e25ca81023e49193c55b2315e3d7dcf8e8",
+      "section": "Argo_Style2",
+      "key": "Argo_Skill02",
+      "source": "스턴 엣지",
+      "translation": "眩晕刃",
+      "source_sha256": "36e2f2084b37cb7a806adf9c4087e8886e25af5451f21fc312269ed8745f02d7",
+      "translation_sha256": "75f5f174af93bcd6da430f86304f770e4477d682efbc4901bc52907ac4e5d0b9"
+    },
+    {
+      "id": "coalesced:464903f869cee5435dfff6b00a828e153799cf783f76016bf1e947b66f8bcd2b",
+      "section": "Argo_Style2",
+      "key": "Skill_d_126",
+      "source": "도끼로 적을 후려쳐서 적을 기절시키는 스킬. ",
+      "translation": "用斧头猛击敌人，使其眩晕的技能 ",
+      "source_sha256": "cafedc4ed4f32ea49f83ddd0dc0a001a8d839d3d4b5099a02f85bd145bf1e51f",
+      "translation_sha256": "d031fb43929fd56614785ceb6bc4167f87cf058521da46c78b378eaea294a57a"
+    },
+    {
+      "id": "coalesced:ee5f68a4e1183fdfc29c53c69b3f988c75528e7b0cab0dc16d05da0e373b42d3",
+      "section": "Argo_Style2",
+      "key": "Skill_d_126_Battle",
+      "source": "도끼로 적을 후려쳐서\\n적을 기절시키는 스킬.",
+      "translation": "用斧头猛击敌人，\\n使其眩晕的技能",
+      "source_sha256": "369489c832a65868275db36e22168bc9bb50aff6c577328295865bad3b78d0e1",
+      "translation_sha256": "9a78c7f047d72ae86e62e0fe397e1231642ada77d0b6b3132741b8ad6ce2d2ee"
+    },
+    {
+      "id": "coalesced:631ea666f284405eef37f9a53b6603f7cc7577969f8014fa11d7f2acf1240c30",
+      "section": "Argo_Style2",
+      "key": "Argo_Skill03",
+      "source": "버서크 엣지",
+      "translation": "狂暴刃",
+      "source_sha256": "a0a023e11a01a9e2e09af6a2c2f6f558b61c5366cfbb1b950d33b16edb14ee68",
+      "translation_sha256": "53da16d2672ad933a7e032e89e5210dc41538b2d442624adf87a28c0722946db"
+    },
+    {
+      "id": "coalesced:cc901786c82b32a11a3738585ba74a38673d4aca65f18dcdf258c3144b46b0bb",
+      "section": "Argo_Style2",
+      "key": "Skill_d_127",
+      "source": "도끼에 칸을 모아, 적을 날려버리는 스킬.",
+      "translation": "将KAN聚于斧头，将敌人击飞的技能",
+      "source_sha256": "8414221fff4719612f4b5f0007df1fff13c90f3543fef8b60dbb2b752f8ccd35",
+      "translation_sha256": "a721f819b586f4f43681c8d60f6bfff13f499aaaf73d80c4ec6906ed94f521aa"
+    },
+    {
+      "id": "coalesced:2661191783d4ad16c749ddb244da48e4e994a1158fff32a9ef467d57dd2679fa",
+      "section": "Argo_Style2",
+      "key": "Skill_d_127_Battle",
+      "source": "도끼에 칸을 모아,\\n적을 날려버리는 스킬.",
+      "translation": "将KAN聚于斧头，\\n将敌人击飞的技能",
+      "source_sha256": "84223af268efce0e9fd573bc72269c42a31496dbb71ae5ff5fbb70da7b03f2f6",
+      "translation_sha256": "07ca1c5a7f4f3eebf8edf58ea8997b41ead7e93c78469204e5baf201851e154c"
+    },
+    {
+      "id": "coalesced:2897072de19a8bfc0ea47653904b005271ae708f03f29a85da79506c996ee5eb",
+      "section": "Argo_Style2",
+      "key": "Argo_Skill04",
+      "source": "파이브 엣지",
+      "translation": "五连刃",
+      "source_sha256": "e71fdf1ec4337e6a647bb9ff5767e33a5ad0d3e223688be00810f62d9a657b99",
+      "translation_sha256": "716fc0686f1c287be7938caf3b7e1fef23cbbed409c900af226b684d66b848b0"
+    },
+    {
+      "id": "coalesced:738de3ef0d778096e0bea7c500f5c4bfcb8104250fd96fdc89500d9f949a55e8",
+      "section": "Argo_Style2",
+      "key": "Skill_d_129",
+      "source": "도끼로 적에게 강력한 5연속 공격을 한다.",
+      "translation": "用斧头对敌人发动强力5连击",
+      "source_sha256": "4273b91a91f7b944c44e4029e891bd270fb80dbc8af5d9fbaceeae2927270ac4",
+      "translation_sha256": "7d5d3240ab03a1fa8411c3ea4673b66a449234fefd013841773a3d9924c3a5f7"
+    },
+    {
+      "id": "coalesced:fca87fbfe2af476f13ad53c91b7a619ac1ee634b42a09a8b9f576dc5abf0908c",
+      "section": "Argo_Style2",
+      "key": "Skill_d_129_Battle",
+      "source": "도끼로 적에게 강력한\\n5연속 공격을 한다.",
+      "translation": "用斧头对敌人发动\\n强力5连击",
+      "source_sha256": "4a5c1d6fd0314f24c946e5f428c807c2c1e2cd38350cdd201c20af9df2eb21ad",
+      "translation_sha256": "604d75f9cd677bc1579a84f9e5a4865d3cf8d411014843d65c7a82ab60a368ac"
+    },
+    {
+      "id": "coalesced:84f14f5fb478561ff75d2e7e1284214f2ed32d3fa93e927d7ee72cb2d41fe97d",
+      "section": "Argo_Style2",
+      "key": "Argo_Skill05",
+      "source": "스팅 엣지",
+      "translation": "穿刺刃",
+      "source_sha256": "9622bfdc4482a846bba88a67e541de5c43aa1812e837c1239a68fce1e3039238",
+      "translation_sha256": "772be45dc33d764dbe41519e4523f45938dff607fdd91bd65c2b4dbdb0b08010"
+    },
+    {
+      "id": "coalesced:34819914cb179d3dca621becb3a40c4864408c3a2e5b0c519f61bc801776a1f3",
+      "section": "Argo_Style2",
+      "key": "Skill_d_130",
+      "source": "용의 분노가 깃든 도끼로 적을 공격하여 강력한 대미지를 입힌다.",
+      "translation": "用蕴含龙之怒的斧头攻击敌人，造成强大伤害",
+      "source_sha256": "5e83acddf682bc7a106f6d44cce874f92adb69276558655dade0301427cdd843",
+      "translation_sha256": "e95be6ca45366440b84122de7fa02cae6a8c7ef7f9d10d4540c7d9b2220cd11a"
+    },
+    {
+      "id": "coalesced:460a42cde7dc8941295b38670f9c3658262eb692c18a01782a22e7b0496eb631",
+      "section": "Argo_Style2",
+      "key": "Skill_d_130_Battle",
+      "source": "용의 분노가 깃든 도끼로\\n적을 공격하여 강력한\\n대미지를 입힌다.",
+      "translation": "用蕴含龙之怒的斧头\\n攻击敌人，造成强大\\n伤害",
+      "source_sha256": "995ff930d53e6853bc294657087f15ce966d395344e2d5388f91c03195130728",
+      "translation_sha256": "cde8a4d1b434e3c6fed5c69da037d9990f92390b1be5d154b8bb68505904e036"
+    },
+    {
+      "id": "coalesced:76c392d717e198a74f68a8e056ed32b5b55245d020e86f37200ff9d9608bff27",
+      "section": "Argo_Style2",
+      "key": "Skill_d_132",
+      "source": "얼음의 연환술과 도끼의 연계오의로 적 1명에게 강력한 대미지를 입힌다.",
+      "translation": "以冰之连环术与斧施展连携奥义，对1名敌人造成强大伤害",
+      "source_sha256": "6a312f6005e5d58bf82f218afff9b7cb7adc411f1a8114787fdd918a43187c77",
+      "translation_sha256": "528d2d1eeea66cd2e2eb3879a6de3ce1556931c42d23a8ff50fbb894578c638b"
+    },
+    {
+      "id": "coalesced:d4408c6b2992d42034051c3ac9713ffc77be0560ab0fb5d2740c7b689334f741",
+      "section": "Zephie_Style1",
+      "key": "Zephie_Normal",
+      "source": "홀리 웨이브",
+      "translation": "神圣波动",
+      "source_sha256": "5dc4f3da8bb20bed1eb19a07db6a7964670b634ae3e395f014818b6143facfaa",
+      "translation_sha256": "06504479c440727bf07403bd165d03567d2229c9fba245496422f86703dedc4c"
+    },
+    {
+      "id": "coalesced:36dd268c458c063c55adf8673928d6deae0c7ed36bd1a423f6e83d2c04b09f80",
+      "section": "Zephie_Style1",
+      "key": "Zephie_inherent",
+      "source": "응급처치",
+      "translation": "应急处理",
+      "source_sha256": "6c8d745f86e0967e0cf5b6710aa6f40256bc6a2511909642db0d95fc36486918",
+      "translation_sha256": "8d085ea5bf509f2ed7a26d60f0a282dc15b6ccbc6c171a76da42e55b81c1669f"
+    },
+    {
+      "id": "coalesced:041be878d7357912a0ae96511edcb1d4f92c972024e360fc3708baadfbe3beee",
+      "section": "Zephie_Style1",
+      "key": "Zephie_inherent1",
+      "source": "정수추출",
+      "translation": "精华提取",
+      "source_sha256": "8942fa6157e0ff3775cb85b24c02ab897a596735c88c94f68e7266bb832066b0",
+      "translation_sha256": "73df74b2d97167659848205764ea54227c8653954eaa2ced8f723ee8e7507471"
+    },
+    {
+      "id": "coalesced:af78af6490c7974d6336a0f0553df73e058fa413c21cddd84c633688d6cf0545",
+      "section": "Zephie_Style1",
+      "key": "Zephie_Skill00",
+      "source": "홀리 리플",
+      "translation": "神圣涟漪",
+      "source_sha256": "c27d3dc5a2e6e1a2884241ad49b498d93638896dc5802211bf64c84d57a0f2d8",
+      "translation_sha256": "691398a73b51886aaf2a6f53730304241b99d83fd855f5d2a15bd81687d32f82"
+    },
+    {
+      "id": "coalesced:c44909295f412fbd88e597fb9e9839a44cd6c33924ad839b5a44960001816475",
+      "section": "Zephie_Style1",
+      "key": "Skill_d_209",
+      "source": "자신의 주변에 파동을 일으켜서 적을 날려버린다.",
+      "translation": "在自身周围释放波动，将敌人击飞",
+      "source_sha256": "5b3ef4d230ac705d66d433d7e681167ffdc071f7bf92cb8c7346414fdd36bffc",
+      "translation_sha256": "55d41cf2f37f308d2686dbf2e1ab568883a36831c0e2692067c3049719120531"
+    },
+    {
+      "id": "coalesced:b830f86a5355d4814d1872816de9d3fabc5eaaf4a4fbed87b11025b66636ba67",
+      "section": "Zephie_Style1",
+      "key": "Skill_d_209_Battle",
+      "source": "자신의 주변에 파동을 일으켜서\\n적을 날려버린다.",
+      "translation": "在自身周围释放波动，\\n将敌人击飞",
+      "source_sha256": "2fee7b27a551b5800c3316f17b8b09931d59c28b6bfdc038471e52320d513ee6",
+      "translation_sha256": "4c5cde1669e5f15b8c96663d5becf5249f7d2a7d1e674e1e12398c52e2aaa796"
+    },
+    {
+      "id": "coalesced:956e01daa737f21f076de2f745793d7b4aefc7e7d344bc4062ef6ad1324d44f2",
+      "section": "Zephie_Style1",
+      "key": "Zephie_Skill01",
+      "source": "큐어러",
+      "translation": "疗愈术",
+      "source_sha256": "34f66cdd84b2900e381906b5d57ff626fb6e0d3cef7fd341cee51508ae5fcd94",
+      "translation_sha256": "22bce0d57997b6c455014701577ad201feb38b6437438fd3ff11f6cb63da6c02"
+    },
+    {
+      "id": "coalesced:12647dcdea63ddea833e69fce3140deb2cfdbba8047b696574a73f190a12a7d2",
+      "section": "Zephie_Style1",
+      "key": "Skill_d_212",
+      "source": "아군 하나의 HP를 일정량 회복하는 연환술.",
+      "translation": "为一名友军恢复一定量HP的连环术",
+      "source_sha256": "15aaf4dd08e56cebb43f269cf359dd2202c0584a7f55c421e0602610084cff63",
+      "translation_sha256": "652ffc6bcd5af42e1fb9c6954ec13c13f2401c4a1ec0831ba6ad8b2ce13fd987"
+    },
+    {
+      "id": "coalesced:62d6f3d9c8e8bdde2dddc0f0b5efcfdf03e7a44969e245fd77e770f9b5e4e6ca",
+      "section": "Zephie_Style1",
+      "key": "Skill_d_212_Battle",
+      "source": "아군 하나의 HP를 일정량 회복하는 연환술.",
+      "translation": "为一名友军恢复一定量HP的连环术",
+      "source_sha256": "15aaf4dd08e56cebb43f269cf359dd2202c0584a7f55c421e0602610084cff63",
+      "translation_sha256": "652ffc6bcd5af42e1fb9c6954ec13c13f2401c4a1ec0831ba6ad8b2ce13fd987"
+    },
+    {
+      "id": "coalesced:7dbb9f1b2ab5132ec3d2c3303f9e0bbcd2a1246e93857c9d4711a2d28e4401cb",
+      "section": "Zephie_Style1",
+      "key": "Zephie_Skill02",
+      "source": "리저렉션",
+      "translation": "复苏术",
+      "source_sha256": "7e73a5131f9ff1866910df0be20ab1994bc0f58ffb01e06cac7ce5a58a56c599",
+      "translation_sha256": "0c0a34264fc8832e514831a04577f7ec5bcefed38a85cabada10d80e4323cc3f"
+    },
+    {
+      "id": "coalesced:f2307b2af4cebecca5d75a5dc7a55f2cedd7876f157da4b8a00e2df7b21bbe9c",
+      "section": "Zephie_Style1",
+      "key": "Skill_d_214",
+      "source": "전투불능이 된 아군 하나를 되살리는 연환술.",
+      "translation": "使一名失去战斗能力的友军复苏的连环术",
+      "source_sha256": "c41326642d82a40afa682352d9ad41b6197fe075155230cbb0c0fef291b40cf5",
+      "translation_sha256": "7862924d5f7873994e7ddaea8fa9dac7040888bb858b788ded5fd9e5dc85f606"
+    },
+    {
+      "id": "coalesced:55685f071be338f2715e03204e763be068b7092457bbd391f7ec3075ae3c6ae5",
+      "section": "Zephie_Style1",
+      "key": "Skill_d_214_Battle",
+      "source": "전투불능이 된 아군 하나를 되살리는 연환술.",
+      "translation": "使一名失去战斗能力的友军复苏的连环术",
+      "source_sha256": "c41326642d82a40afa682352d9ad41b6197fe075155230cbb0c0fef291b40cf5",
+      "translation_sha256": "7862924d5f7873994e7ddaea8fa9dac7040888bb858b788ded5fd9e5dc85f606"
+    },
+    {
+      "id": "coalesced:1dff704771e4e2584953e446bf908d212de8cdc8cbdccd87a36cd749e5756628",
+      "section": "Zephie_Style1",
+      "key": "Zephie_Skill03",
+      "source": "메디신",
+      "translation": "医疗术",
+      "source_sha256": "cf6423c71fca28bc6d4112988f773ec7112caf3a51676437e340e2bf778f4a43",
+      "translation_sha256": "a0828c57dcc0de55bfc041c39960824c97184195a0335b0c8d17bee3644861f4"
+    },
+    {
+      "id": "coalesced:70ce0f6bb7bb0bb0c3a3076bd0f7f13b06f6359a72bff2b76ec67b077a3fd63c",
+      "section": "Zephie_Style1",
+      "key": "Skill_d_215",
+      "source": "중독, 수면, 스턴 상태를 회복시키는 연환술.",
+      "translation": "解除中毒、睡眠、眩晕状态的连环术",
+      "source_sha256": "0a811e6331c4c5c5c8539a926205b4df1719759b43bfd831b8cecb506be43dee",
+      "translation_sha256": "f83c2a90bcbf94ffed1372705e0d8d7d08c2a2816fff04db14eebb48f10c363f"
+    },
+    {
+      "id": "coalesced:86f17d79f86da1026757bea18c22e47c17210ffd2b403f027070177f4b043608",
+      "section": "Zephie_Style1",
+      "key": "Skill_d_215_Battle",
+      "source": "중독, 수면, 스턴 상태를\\n회복시키는 연환술.",
+      "translation": "解除中毒、睡眠、眩晕\\n状态的连环术",
+      "source_sha256": "cecfc12208242e20ba268371f1c503ac9e1b551b7e4c97089b2fe0b0ec88b6d1",
+      "translation_sha256": "2a11596cb15988f31677b52a81e5f3cc3a0caa086ca41eacbb7720becd782506"
+    },
+    {
+      "id": "coalesced:d0cdb58e335c19f7d35704d70fdf2a032d606f267e897c2430e61519575c494e",
+      "section": "Zephie_Style1",
+      "key": "Zephie_Skill04",
+      "source": "리커버리",
+      "translation": "复原术",
+      "source_sha256": "ffacd298b28dac3a9f72e1804579f1282bd6fc5c99ab26171b316d36395c9dd7",
+      "translation_sha256": "575b32b1c92ac908efde3e6b964b173b2989cd5014d9bf6889f390bd977b1a37"
+    },
+    {
+      "id": "coalesced:3e28908cabc377b1d0db9de25f67a7aa2e707cc06555d61a1598e5b7da6f21de",
+      "section": "Zephie_Style1",
+      "key": "Skill_d_216",
+      "source": "더위, 화상, 추위, 동빙 상태를 회복시키는 연환술.",
+      "translation": "解除炎热、烧伤、寒冷、冰冻状态的连环术",
+      "source_sha256": "d4c68c60fdedb3d45ce8c335ee27a22737b32ddfe9813aadf90f0e4a4807e9fd",
+      "translation_sha256": "89b428db0165dbfa23fd5aff14d6209bd4379817453dc0fdaada111b1eaa6d65"
+    },
+    {
+      "id": "coalesced:0054540e8522d1bb07b0155fb32c14f35f57d05b673bb6b469da4cf63b459353",
+      "section": "Zephie_Style1",
+      "key": "Skill_d_216_Battle",
+      "source": "더위, 화상, 추위, 동빙 상태를\\n회복시키는 연환술.",
+      "translation": "解除炎热、烧伤、寒冷、冰冻\\n状态的连环术",
+      "source_sha256": "9a7098f39569f2e04b1d72a3d7a74846e41aaa470d4e0514cbdc28e1cf504486",
+      "translation_sha256": "ca7138509a2ad55418a3d295b08deac8c8345e1560a5b657ec6d54a21b455028"
+    },
+    {
+      "id": "coalesced:a5aca78de6b823c65414ab3c009a62e1540b955e86bcc1603f6dde745218dd17",
+      "section": "Zephie_Style1",
+      "key": "Zephie_Skill05",
+      "source": "리플레시",
+      "translation": "清新术",
+      "source_sha256": "791b3f045f5a479c19b24324be1c84b061d33ec1a0a0fa23a696257004621ee3",
+      "translation_sha256": "1b1a385662143f7dba7ae8999fef52897ea2379c733f179c0fbcc980c420b5fd"
+    },
+    {
+      "id": "coalesced:bb09fc2fd0fb7c312237f6c32295d7d0749847d2dd3a3358352f43c768a9f200",
+      "section": "Zephie_Style1",
+      "key": "Skill_d_217",
+      "source": "마비, 감전, 어지러움, 침묵 상태를 회복시켜주는 연환술.",
+      "translation": "解除麻痹、触电、晕眩、沉默状态的连环术",
+      "source_sha256": "bf2ee09390b8414158102b6a8397b24b5f109c87e0cb52aadc8f45a110d8e131",
+      "translation_sha256": "d5df6f5ec132daf6b7f0561628f1d0f3df75cd243ee07c17bb469009fc405ac7"
+    },
+    {
+      "id": "coalesced:1f5e1df553dc49709275a6b6045e8affde97d87635c8c92dd98b5b938e4c4b36",
+      "section": "Zephie_Style1",
+      "key": "Skill_d_217_Battle",
+      "source": "마비, 감전, 어지러움, 침묵 상태를 회복시켜주는 연환술.",
+      "translation": "解除麻痹、触电、晕眩、沉默状态的连环术",
+      "source_sha256": "bf2ee09390b8414158102b6a8397b24b5f109c87e0cb52aadc8f45a110d8e131",
+      "translation_sha256": "d5df6f5ec132daf6b7f0561628f1d0f3df75cd243ee07c17bb469009fc405ac7"
+    },
+    {
+      "id": "coalesced:8756d1639008aa4393b88c4828af3da197fec983ce89cc3565bbd04fcc1305ed",
+      "section": "Zephie_Style1",
+      "key": "Zephie_Skill06",
+      "source": "홀리 플래티너",
+      "translation": "神圣白金",
+      "source_sha256": "ee9fb3612bebb086ae4d3e9160f6679d2ee17531cc4233407a10bebc436af85e",
+      "translation_sha256": "1e009c1c5ec134e90e821481d135d702641a7e98ed65646d88740157a33d962a"
+    },
+    {
+      "id": "coalesced:dccb483f7d86cad23251e639accb64b3ab9eca87c52e28401f5fcf5cef1e7841",
+      "section": "Zephie_Style1",
+      "key": "Skill_d_213",
+      "source": "빛의 탄을 적에게 4번 쏘아버리는 연환술. ",
+      "translation": "向敌人发射4次光弹的连环术 ",
+      "source_sha256": "11ad122f768acbc74ea1a18a352976711822bbbc3a111847c70b0e45a521668b",
+      "translation_sha256": "3c1f02aa414168c54eb37e21c0efdcd5b73f9e7d2784616910b2618c2e1d3458"
+    },
+    {
+      "id": "coalesced:39fcafe93adbc692c70ea8d85c5ee13f27e682624f1fd420bc11251e52e6cc53",
+      "section": "Zephie_Style1",
+      "key": "Skill_d_213_Battle",
+      "source": "빛의 탄을 적에게 4번 쏘아버리는 연환술. ",
+      "translation": "向敌人发射4次光弹的连环术 ",
+      "source_sha256": "11ad122f768acbc74ea1a18a352976711822bbbc3a111847c70b0e45a521668b",
+      "translation_sha256": "3c1f02aa414168c54eb37e21c0efdcd5b73f9e7d2784616910b2618c2e1d3458"
+    },
+    {
+      "id": "coalesced:6103a567013cc3d178fa5bf5b5143bccbca76dcc19efbe353b7a0b35cfd8c614",
+      "section": "Zephie_Style1",
+      "key": "Zephie_Skill07",
+      "source": "올 큐어러",
+      "translation": "全体疗愈术",
+      "source_sha256": "66a0bfe0195287de62dd552e1c8e58039c8e32a8707872132beb2c4eaa4ad1ec",
+      "translation_sha256": "812bb44888cea77a1d312593a26a50550f227cd1caf7a739b7d88fe6e58d7e19"
+    },
+    {
+      "id": "coalesced:9546b1c98f1c09324d2afedd64fd16531a55643e601489348f82b2908c33aab2",
+      "section": "Zephie_Style1",
+      "key": "Skill_d_218",
+      "source": "아군 전부의 HP를 일정량 회복시키는 연환술.",
+      "translation": "为全体友军恢复一定量HP的连环术",
+      "source_sha256": "b4107ab59b011db9b06152e204b3fcf2d8d4bc3e83f1af28a39a3edd13064481",
+      "translation_sha256": "3b2830f9ad629fba464d3ebc334b1158e78602146b69ebd067db66a19f639cc8"
+    },
+    {
+      "id": "coalesced:df5fff83e486ebe01d6d69648d66fb95faf21014458f3ab76fd63a22f579d86f",
+      "section": "Zephie_Style1",
+      "key": "Skill_d_218_Battle",
+      "source": "아군 전부의 HP를 일정량 회복시키는 연환술.",
+      "translation": "为全体友军恢复一定量HP的连环术",
+      "source_sha256": "b4107ab59b011db9b06152e204b3fcf2d8d4bc3e83f1af28a39a3edd13064481",
+      "translation_sha256": "3b2830f9ad629fba464d3ebc334b1158e78602146b69ebd067db66a19f639cc8"
+    },
+    {
+      "id": "coalesced:b12c51f33123d5250f8375502790fca8f245cd62887c0998cf0327eb47391dd6",
+      "section": "Zephie_Style1",
+      "key": "Zephie_Skill08",
+      "source": "퓨즈 페인",
+      "translation": "苦痛净化",
+      "source_sha256": "014a7b6c4c65f84d0866a41d8647d1c0e02dfefb8d49f8a92adacd86402849de",
+      "translation_sha256": "d714edb3ccb83971e4b9526238482f4e41871bbad3974bb13a2dac6d223b9c41"
+    },
+    {
+      "id": "coalesced:be7e23ecc0cb52d1d3e3ea3c77f1e8e8cd0658cebf59932a74a6e4283e9d7926",
+      "section": "Zephie_Style1",
+      "key": "Skill_d_220",
+      "source": "아군 하나의 모든 상태이상을 회복시켜주는 연환술.",
+      "translation": "解除一名友军所有异常状态的连环术",
+      "source_sha256": "8be575cfd4ae4da9e71c17593723171389dd9152213c8fc1c88fc516b1a1f675",
+      "translation_sha256": "005b6c1d785dd8daf8df9eb3b037b1c0a8447dde6c5ee12d51a2ba2aec2a0905"
+    },
+    {
+      "id": "coalesced:368541e762e8bafa09f02bf2771e94272b9d791bd7aca5957b456550f037234f",
+      "section": "Zephie_Style1",
+      "key": "Skill_d_220_Battle",
+      "source": "아군 하나의 모든 상태이상을\\n회복시켜주는 연환술.",
+      "translation": "解除一名友军所有\\n异常状态的连环术",
+      "source_sha256": "fa681d6999fd4f01bd57596578ff343f04fa32bacfd7326afb23c64c7729d162",
+      "translation_sha256": "df23b8e85ec3603416df825832da3bcf87613454abb81eb397e5c08c151ce25e"
+    },
+    {
+      "id": "coalesced:b8518e881c243cd8a9d10213384933be99717560256004b517ec467cc3e9648a",
+      "section": "Zephie_Style1",
+      "key": "Zephie_Skill09",
+      "source": "디바인 플래티너",
+      "translation": "圣辉白金",
+      "source_sha256": "4080aa8a955edccc1212f725621788a7a8b96dc8e65c8caede4862d20d2983a8",
+      "translation_sha256": "66931de4394d38b23efdaa5f4b1f342a2677e950c4db3a3e7b7eddba7654cedf"
+    },
+    {
+      "id": "coalesced:ca1dda3c0dbc904007137b3b6325a1b814013c83731cf64eae8eaecf19a04aa5",
+      "section": "Zephie_Style1",
+      "key": "Skill_d_224",
+      "source": "성스러운 바람의 수호자를 소환하여 강력한 파동포로 적을 공격한다.",
+      "translation": "召唤神圣的风之守护者，以强力波动炮攻击敌人",
+      "source_sha256": "1a03df9b7dd265bc2950630ba02d1a32faa6606e1f5d7981ca7d5cecad878d34",
+      "translation_sha256": "5192cd9c27c7bd5c9e03a90dc244ff517980eb82876f4e4080fa1de877f2289e"
+    },
+    {
+      "id": "coalesced:8acf51158005be3d059adfd0dec281a327684f6fe81df3acc05af8fe661e0020",
+      "section": "Zephie_Style1",
+      "key": "Skill_d_224_Battle",
+      "source": "성스러운 바람의 수호자를\\n소환하여 강력한 파동포로\\n적을 공격한다.",
+      "translation": "召唤神圣的风之守护者，\\n以强力波动炮\\n攻击敌人",
+      "source_sha256": "53e8037f0a8a5bcbc211d0b8e3c2899e480f171e1301a0cc1adff94d245d5ebc",
+      "translation_sha256": "bb4d0a1cdff56fcd5fb49ad814d82017228ffe9913c1ef7c22c529e36f0df8a8"
+    },
+    {
+      "id": "coalesced:e8559f64f3add3d8229d5a7263323809857f8c0adca8e3b6cf387b5e622b3d48",
+      "section": "Zephie_Style1",
+      "key": "Zephie_Skill10",
+      "source": "더 라스트 프레이",
+      "translation": "最后的祈祷",
+      "source_sha256": "cca52a12ca033b47a0312c46429d8cb780f0263b2395ac713b8e6997797f446d",
+      "translation_sha256": "22353af5dfddac162c3452c71dd5e4118bca317d3c5a4b3f3e1f286d65253e31"
+    },
+    {
+      "id": "coalesced:3fcf9350d28929225f099031249684c9a51bf9be3aa25a798f805313eb2d1249",
+      "section": "Zephie_Style1",
+      "key": "Skill_d_225",
+      "source": "태초의 성스러운 파동과 일체화 하여 적에게 돌진하고 큰 대미지를 입힌다.",
+      "translation": "与太初的神圣波动融为一体，冲向敌人并造成巨大伤害",
+      "source_sha256": "6b73a9ba12918edcdaa29f2aae66695531d6653f3f821b96a9f43e788a5032a8",
+      "translation_sha256": "172732cf1951998ac0e950977790a2ae163eb3b59b949ea2152c75d3d43139cf"
+    },
+    {
+      "id": "coalesced:a99617e9bb8607d54a06d8b9fbd1d14a6fa62341cfddc6e6def40f87c8c75629",
+      "section": "Zephie_Style1",
+      "key": "Skill_d_225_Battle",
+      "source": "태초의 성스러운 파동과\\n일체화하여 적에게 돌진하고\\n큰 대미지를 입힌다.",
+      "translation": "与太初的神圣波动\\n融为一体，冲向敌人，\\n造成巨大伤害",
+      "source_sha256": "d59ed97083110e626fa9e044a9ca450eac0819c2320e7a91d7098f68273a9fd0",
+      "translation_sha256": "566f4be9bdb25a4fc5d57b704c02d7abc69e90917d02c48696a35ba00c70a15e"
+    },
+    {
+      "id": "coalesced:eff7c97f24edca5bfd486162087bbeda13031c5d16375cddae322478ab8d37ea",
+      "section": "Zephie_Style2",
+      "key": "Zephie_Normal",
+      "source": "윈드 웨이브",
+      "translation": "风之波动",
+      "source_sha256": "0c82da3fcbe0a51477ce1709bd01d97b902c9b73da75e7db4b2fbdc780dc232c",
+      "translation_sha256": "0e9fc1912de6ed634563187fd485cb7397e0ff7e77b2bb0a3473c0e5c662399e"
+    },
+    {
+      "id": "coalesced:f46de10505af563b876466ed228c48b2b9d14f0f663d18b68f002fef9d96023c",
+      "section": "Zephie_Style2",
+      "key": "Zephie_inherent",
+      "source": "바람의 실드",
+      "translation": "风之盾",
+      "source_sha256": "2edfbbb23ca786dca3155dee33b67631da378d9905c2b123d723ee12a28f28cb",
+      "translation_sha256": "a45355ea2e2b3910f3e30b8620430cc77eb6f52886281b52e381aa0e29cbd7c4"
+    },
+    {
+      "id": "coalesced:12ea9e16ab63d10c4c31bc1225d5c6ae3f89e928d5939566975da86ed7112879",
+      "section": "Zephie_Style2",
+      "key": "Zephie_Skill00",
+      "source": "윈드 커터",
+      "translation": "风刃斩",
+      "source_sha256": "6358151ff7f12eefef7064298b3a78d04adf438327513866d01da56331ca2a99",
+      "translation_sha256": "918f0346a6eea7850e6696f0866c5fc5ebc776215bde94695ac957e70a4c2d04"
+    },
+    {
+      "id": "coalesced:6ec1e7aed796535b7a3aa7d0371dad13df13de7db2c45d380cbafbc053cd29c5",
+      "section": "Zephie_Style2",
+      "key": "Skill_d_234",
+      "source": "바람의 칼날로 적을 공격한다.",
+      "translation": "以风之刃攻击敌人",
+      "source_sha256": "6adacc7d277d59defd7b654876aa2dd8d56d5a1e12e902b9545cff3965877061",
+      "translation_sha256": "c0c2bf40dba3493a00bf02c34add02915bdfdb44884ca2a892aebca603496410"
+    },
+    {
+      "id": "coalesced:1af1018d2d8798ed848b1c338e6b116fee0c9477fa880c3ad262bd6fec8bf9ed",
+      "section": "Zephie_Style2",
+      "key": "Skill_d_234_Battle",
+      "source": "바람의 칼날로 적을 공격한다.",
+      "translation": "以风之刃攻击敌人",
+      "source_sha256": "6adacc7d277d59defd7b654876aa2dd8d56d5a1e12e902b9545cff3965877061",
+      "translation_sha256": "c0c2bf40dba3493a00bf02c34add02915bdfdb44884ca2a892aebca603496410"
+    },
+    {
+      "id": "coalesced:3b75ccb0311bd6df401eebdc6c4206adbc0fe8280e782d28bbbf14e54011bbfa",
+      "section": "Zephie_Style2",
+      "key": "Zephie_Skill01",
+      "source": "에어카시린",
+      "translation": "风之卡希林",
+      "source_sha256": "24db376fefb1dd15682ef36e4ad54820a022b94858d579caabc82c62dc4c7c97",
+      "translation_sha256": "f98746b16d6765bde562c086d4e4ccfab95c77e9b25c4267eaeb155ecdac0c5e"
+    },
+    {
+      "id": "coalesced:0696bc638448f749f88a575e781e4ede0ef9c854374116bb8dbd5a8bb1795853",
+      "section": "Zephie_Style2",
+      "key": "Skill_d_237",
+      "source": "바람의 칸을 빨아들여서 엘리멘탈을 만드는 연환술. ",
+      "translation": "吸收风之KAN，制造元素体的连环术 ",
+      "source_sha256": "8897d1df06fb168c1aefd07b12da5abbc38098851f8757806b1ba9618185fdf6",
+      "translation_sha256": "eb2e111e9f3ac539c68ca16d4e1141b378c2fc8fcfc8d7d9bfb87b218001d802"
+    },
+    {
+      "id": "coalesced:8fe376830ad0f73384c7fe455313a074883b3706595102a4019d647a8fd63358",
+      "section": "Zephie_Style2",
+      "key": "Skill_d_237_Battle",
+      "source": "바람의 칸을 빨아들여서 엘리멘탈을 만드는 연환술. ",
+      "translation": "吸收风之KAN，制造元素体的连环术 ",
+      "source_sha256": "8897d1df06fb168c1aefd07b12da5abbc38098851f8757806b1ba9618185fdf6",
+      "translation_sha256": "eb2e111e9f3ac539c68ca16d4e1141b378c2fc8fcfc8d7d9bfb87b218001d802"
+    },
+    {
+      "id": "coalesced:816f56d425ba45ce27777bd86812f723df656438f5f9fb730c59feaee32a4bcf",
+      "section": "Zephie_Style2",
+      "key": "Zephie_Skill02",
+      "source": "윈드 블로우",
+      "translation": "风之吹息",
+      "source_sha256": "5e30a9ae059f90da570b06385c433172304aa81449525d6e9b70d5b1884fb8b6",
+      "translation_sha256": "c3293f408acba25822d12a707630d2ddd1972979d15815c5560aa8194d8ec84b"
+    },
+    {
+      "id": "coalesced:f7bf6f817045563f024828060f220a9f861fe5dde45cfc766ae165e1ad930d0d",
+      "section": "Zephie_Style2",
+      "key": "Skill_d_236",
+      "source": "작은 바람을 일으켜서 적을 공격한다. ",
+      "translation": "掀起小股风攻击敌人 ",
+      "source_sha256": "07c48c1e0b9dabe9f07366f62c878155d60cbf1b06c83dd3a3fc3e09d95c5190",
+      "translation_sha256": "61201832bf48e4592d94450e60d67c09fe3add24ce92e56a2b1f78030721f96c"
+    },
+    {
+      "id": "coalesced:40b7e26cbb30fe6174883c24afb597bf6321c87f5ca544088b00d6d1c83a24d4",
+      "section": "Zephie_Style2",
+      "key": "Skill_d_236_Battle",
+      "source": "작은 바람을 일으켜서\\n적을 공격한다. ",
+      "translation": "掀起小股风\\n攻击敌人 ",
+      "source_sha256": "860c0d0f1f6c6d89bb3b91ca3b95f4ae659aea5dd5bab2d57929f73b721007c2",
+      "translation_sha256": "987989e8398a738c21680b7e6a6d2d4a05dc03d706d0b75c1e0267e15b6ba16a"
+    },
+    {
+      "id": "coalesced:35b55b401c6addf450175479b02e7c848cb24cb5fef7d0f763b91b862a78a977",
+      "section": "Zephie_Style2",
+      "key": "Zephie_Skill03",
+      "source": "윈드 엣지",
+      "translation": "风之箭刃",
+      "source_sha256": "086ae6323b282aa12e237e368b5854fa6bdc5f6688dc765042457290d22c5351",
+      "translation_sha256": "ed128be959d89677c1b4c8109d8693b51b6b3191c04822511afb4eafc7b026c5"
+    },
+    {
+      "id": "coalesced:d2f338061cdfd4cea0bcf3d53eda52f27e8d25024227a569c2b912ff04e15f04",
+      "section": "Zephie_Style2",
+      "key": "Skill_d_238",
+      "source": "바람의 화살을 연사해서 적을 공격한다.",
+      "translation": "连续发射风箭攻击敌人",
+      "source_sha256": "bba46c0bc650706f99ae533fc55c1b026ac115533d91c391e37b6c36e4187a6b",
+      "translation_sha256": "b047949618896fb42728986e29a56090e9ecf8af3db3189cf609c020e260189e"
+    },
+    {
+      "id": "coalesced:915b798958970ed7cfc4164e49f0c0e8aae5feaf60f080ca349148da3c010110",
+      "section": "Zephie_Style2",
+      "key": "Skill_d_238_Battle",
+      "source": " 바람의 화살을 연사해서\\n적을 공격한다.",
+      "translation": " 连续发射风箭，\\n攻击敌人",
+      "source_sha256": "78f948305704dd5bab7496dc18a2639ee3f3cc3efa0fb9b45ba0d046d30c1676",
+      "translation_sha256": "9b8e1a25492dc66f7d504cfa796415c9258d0cffe469446de2be0339ee2ed736"
+    },
+    {
+      "id": "coalesced:be8a68ef93d49f48cd18fdfdac006df2cb143f9448b208df356c50776c35af08",
+      "section": "Zephie_Style2",
+      "key": "Zephie_Skill04",
+      "source": "에어로 베일",
+      "translation": "风之帷幕",
+      "source_sha256": "1e51417f1c30ca92afd7a331e25a43fbdedd4c831bc89a30a0e8158e59c756f3",
+      "translation_sha256": "d374ecb82fbc10da354fe519ad6220d2a0957671d24b44150b8f86d443ea236d"
+    },
+    {
+      "id": "coalesced:349bbae3ef8c77c73b1b467e8810c2b969e122e5f6ccd3a4578ba014fcdcda24",
+      "section": "Zephie_Style2",
+      "key": "Skill_d_240",
+      "source": "아군 하나에게 바람의 방어막을 씌운다.",
+      "translation": "为一名友军施加风之屏障",
+      "source_sha256": "4795a76410d10ea49086f50215cc4e613fc3dac960c168c45ba9a2de6b4a402f",
+      "translation_sha256": "c9880d4a07530873894b7aab4930002ea13e0ffe146a658bc664dffd8cc86682"
+    },
+    {
+      "id": "coalesced:236f82a6cad19d66622bc9df0b1c91464e3ac45f18dfc2869eb8afcdb1561bad",
+      "section": "Zephie_Style2",
+      "key": "Skill_d_240_Battle",
+      "source": "아군 하나에게\\n바람의 방어막을 씌운다.",
+      "translation": "为一名友军\\n施加风之屏障",
+      "source_sha256": "46ef25c9815ae80b134fb2cd87c86b7cc9f7447ae51437cf41cd013c58f565d0",
+      "translation_sha256": "9756d43c24376d25af7be7c00d3b9324d9bf4dadd4a9eabb43cc041ddd727c80"
+    },
+    {
+      "id": "coalesced:ecebf4d95946f9299170244267d7d00869fec0a14ca9f89d7524db9bacfa7483",
+      "section": "Zephie_Style2",
+      "key": "Zephie_Skill05",
+      "source": "마이티 스톰",
+      "translation": "强力风暴",
+      "source_sha256": "20a8acb0662f7b9e65267b6b2a695e244055467149467d3c021ee9c2500ea846",
+      "translation_sha256": "c9b640b988254ecc1b13c1bcfcd7362f8e0a342f0e70c772d2caf7ab9ad41da6"
+    },
+    {
+      "id": "coalesced:d81560a92a8e91e04475862e1cf8b77c8a40fb8af377c707c9b4241c15d318fd",
+      "section": "Zephie_Style2",
+      "key": "Skill_d_241",
+      "source": "거대한 바람을 일으켜서 적을 공격한다. ",
+      "translation": "掀起巨风攻击敌人 ",
+      "source_sha256": "10cb48b8f54cc31a5a451b68165a26e7c4eb92f6331c1a7d296f6745150e469f",
+      "translation_sha256": "5bff569efc5a4495b5e8c691ec44b0b2b12a8646b8fb7972bf8725d28caf8847"
+    },
+    {
+      "id": "coalesced:fd0cb9405ebfef9cf1ae415256e1020daf35d7da121c3c5a5832929b2e2a79e0",
+      "section": "Zephie_Style2",
+      "key": "Skill_d_241_Battle",
+      "source": "거대한 바람을 일으켜서\\n적을 공격한다. ",
+      "translation": "掀起巨风\\n攻击敌人 ",
+      "source_sha256": "367136455987516a1ac266c5689e88ff1dbd69bcef9bb569ead5fbae294279fb",
+      "translation_sha256": "e01c3c33a8fad3d6a593a5e69bea95f7f196b4c2aab821639ab3c6206dcd28dd"
+    },
+    {
+      "id": "coalesced:faef39eba7ebbc3af38c0deb91e4e7c8cf4847d684ab37695dc46faddbf81184",
+      "section": "Zephie_Style2",
+      "key": "Zephie_Skill06",
+      "source": "윈드 블레이드",
+      "translation": "风之圣剑",
+      "source_sha256": "04596cfd157c89d3b994d10c0f4eef0ece01aa444576b95dd39d98ac936309ad",
+      "translation_sha256": "ab7c1a5698cb9c0ca1429a27caa0be985c2818e12504a28f4237e41f748efb2c"
+    },
+    {
+      "id": "coalesced:d92312d3227d59cb723b8d0caa43d15f5ea33618acc981a3b927925ea6f68400",
+      "section": "Zephie_Style2",
+      "key": "Skill_d_242",
+      "source": "전설의 성검을 소환하여 분노의 힘이 깃든 바람의 칼날로 적을 공격한다.",
+      "translation": "召唤传说中的圣剑，以蕴含愤怒之力的风刃攻击敌人",
+      "source_sha256": "e7b41a8c3892357172895000738cbbd24c058a1ed080e63f0e20cca46ac4503e",
+      "translation_sha256": "e728ce5741ec2092eb0bfdfb1e40d72900f382f72757f4f69efc53616cc35414"
+    },
+    {
+      "id": "coalesced:d045e2e823943ce16d7aa752c0e159dad7313903b7b91d4446db3f569c1b7a59",
+      "section": "Zephie_Style2",
+      "key": "Skill_d_242_Battle",
+      "source": "전설의 성검을 소환하여\\n분노의 힘이 깃든 바람의 칼날로\\n적을 공격한다.",
+      "translation": "召唤传说中的圣剑，\\n以蕴含愤怒之力的风刃\\n攻击敌人",
+      "source_sha256": "3a35252195c2b0a4f2242f507afac988ed3e213b061dcf70001eec3c7d07824a",
+      "translation_sha256": "dfb130870391c18aea220c5fe2f0b2d04cb484d33f16327a7185a3cfaa98575b"
+    },
+    {
+      "id": "coalesced:5af5cb111352b21b39a8b540901bf961f79e2c1b4dfacfe54429626718cffe32",
+      "section": "Zephie_Style2",
+      "key": "Skill_d_38",
+      "source": "바람의 연환술과 양손검의 연계오의로 적 1명에게 강력한 대미지를 입힌다.",
+      "translation": "以风之连环术与双手剑施展连携奥义，对1名敌人造成强大伤害",
+      "source_sha256": "c5d7cc1c2896a15b9e7fe6bf31554a61f6a97fccf0f2139a7920aa5848732fe7",
+      "translation_sha256": "0e811ee80e059f38fd2825ddbcfc8860b10f58216276610a84e4be77a47a15d4"
+    },
+    {
+      "id": "coalesced:ece34601e1beadd663d3d8cccb5c744a2bcc1c8cdaaff15424a037e853712e50",
+      "section": "Zephie_Style2",
+      "key": "Skill_d_243",
+      "source": "바람과 번개의 연환술의 연계오의로 적 1명에게 강력한 대미지를 입힌다.",
+      "translation": "以风与雷的连环术施展连携奥义，对1名敌人造成强大伤害",
+      "source_sha256": "092189de54fd4e88eeed72e9e6724cb306120ee93279a537daa9d7876fb51d40",
+      "translation_sha256": "2a78c0bf378119fe9ea9aa78b1db74c8a9a72da7451b6a165c52ea3447953754"
+    },
+    {
+      "id": "coalesced:6dd62a4c6aeac2e9f7142eba6052f7d7637a0f6f2f166395104f7bef27c7fd68",
+      "section": "Celestine_style1",
+      "key": "Celestine_Normal",
+      "source": "소서 에코",
+      "translation": "香器回响",
+      "source_sha256": "c8f9fe29e6b538e802588d3086266025b0c1ed7010e3fe66188267411184f8a2",
+      "translation_sha256": "ccc3f22691657dcc8d67c54731b56e426f0ac9a60fa94a8076d63496c65038f0"
+    },
+    {
+      "id": "coalesced:9c4184b7a3e35244a1f55c08e4c14633143ec1c8aa211af5aab459509e50286c",
+      "section": "Celestine_style1",
+      "key": "Celestine_inherent",
+      "source": "정기흡수",
+      "translation": "精气吸收",
+      "source_sha256": "8a096b847cf0c5e812c7c9088db1955db92e9cedd6d68cddb5cc8ae950a104e6",
+      "translation_sha256": "af47b9a3f4751f4f33df77807e29cce92602bc492477129bfb4aada8047363d8"
+    },
+    {
+      "id": "coalesced:b82e9df6b7866ecc62c521981229c1dc46c7ce2e5fb3ddfb410e1e8fec717dcc",
+      "section": "Celestine_style1",
+      "key": "Celestine_Skill00",
+      "source": "소서 웨이브",
+      "translation": "香器波动",
+      "source_sha256": "457585a9a9540fb777fa23b822458f44b6c7bb111c03536e9ac93a47a0bf7e39",
+      "translation_sha256": "7b5ed6dcf11b47c6f76171d3eaba173896b7851590876be5d3cf54537d1065a5"
+    },
+    {
+      "id": "coalesced:673d4b3388e0e9a17ce5c32b55855749555a44b8eb9a478a4c6fcc6be60f5030",
+      "section": "Celestine_style1",
+      "key": "Skill_d_310",
+      "source": "칸을 모아서 얼음의 파동을 적에게 날린다.",
+      "translation": "聚集KAN，向敌人释放冰之波动",
+      "source_sha256": "8a6e1775ef18c3e514bf21464ca397f205b08eed696a327b25cdfb3c9055af84",
+      "translation_sha256": "6cd56dcffeaf913ffe119d231e7cb25e930671195787fb128bde63625d4b0013"
+    },
+    {
+      "id": "coalesced:7dee4b4dd5f63277acef1dbea46bfdc336ac5953bf54d5cc1558b49831d5ec5e",
+      "section": "Celestine_style1",
+      "key": "Skill_d_310_Battle",
+      "source": "칸을 모아서 얼음의 파동을 적에게 날린다.",
+      "translation": "聚集KAN，向敌人释放冰之波动",
+      "source_sha256": "8a6e1775ef18c3e514bf21464ca397f205b08eed696a327b25cdfb3c9055af84",
+      "translation_sha256": "6cd56dcffeaf913ffe119d231e7cb25e930671195787fb128bde63625d4b0013"
+    },
+    {
+      "id": "coalesced:8739a8289cdcfa6a504d4fba3ee81b3b86d531790e992ed92630fd13ba513437",
+      "section": "Celestine_style1",
+      "key": "Celestine_Skill01",
+      "source": "마일드 리스토어",
+      "translation": "温和恢复",
+      "source_sha256": "36b40522b2332191e5318af94009a1a17882c31944f5b7406353d483001a57c8",
+      "translation_sha256": "f37a2e99ad4321acd7a187b1c9c6fc231ada9a47268e27e8e9473bde955cb6fd"
+    },
+    {
+      "id": "coalesced:a9de9fddefa8cece4fe6dba3ce89a6bcd9db6a128f77005188fe947946a7bbe8",
+      "section": "Celestine_style1",
+      "key": "Skill_d_311",
+      "source": "아군 하나의 HP를 서서히 회복시킨다.",
+      "translation": "逐渐恢复一名友军的HP",
+      "source_sha256": "c3500427755caf7c0a5db676b545dd8771173505081f72b554e34552f0d68f55",
+      "translation_sha256": "14781b5455cbfa6e98ead086271fe9316eade2a21a9fa9e7b31ec14185752c19"
+    },
+    {
+      "id": "coalesced:a53044abad61de00379a7dc116e79926979b1cb4c521d1094b843422e91622ab",
+      "section": "Celestine_style1",
+      "key": "Skill_d_311_Battle",
+      "source": "아군 하나의 HP를\\n서서히 회복시킨다.",
+      "translation": "逐渐恢复一名友军的\\nHP",
+      "source_sha256": "bb7aefd3dc1e595fba4d77ef69108bf8abeadf58f3bd03b6ec1a5403c6baf93f",
+      "translation_sha256": "be47aecdf489e4d62977e4c60507019405567bfac155ce08fa885730667a6da5"
+    },
+    {
+      "id": "coalesced:94f9343e2e310b8ac0f99aa25af1acc8e8527c87d9984ec95cc6bb3307e4edf8",
+      "section": "Celestine_style1",
+      "key": "Celestine_Skill02",
+      "source": "아로마 스트러글",
+      "translation": "战意之香",
+      "source_sha256": "899bb613707c315b664e701fc6d86c44ec130b8da9573791e39d55abee56ad40",
+      "translation_sha256": "5821cc0eb0caebbd4774f30f509766da868a8d74dda78f02fb3ff83b7da9ace6"
+    },
+    {
+      "id": "coalesced:a0478d4283cddd4af3c6b0c894f1fb2cda3af5c9bfef0f478b78bfd410f4a5b8",
+      "section": "Celestine_style1",
+      "key": "Skill_d_316",
+      "source": "아군 하나의 공격, 정신을 일정시간 증가시키는 연환술.",
+      "translation": "在一定时间内提高一名友军攻击与精神的连环术",
+      "source_sha256": "8196534019ded218291ae6e1b8955d96f3df745205109fbe2f13ee55a397d0d4",
+      "translation_sha256": "224af0a4817e09db8e36a53c152fd9316bed05199678605b65ae313a1a9e2e9c"
+    },
+    {
+      "id": "coalesced:a12847808b76a9633a718a16b03b465783083013ae0af48793fdcd0dd6b2bae3",
+      "section": "Celestine_style1",
+      "key": "Skill_d_316_Battle",
+      "source": " 아군 하나의 공격, 정신을 일정시간 증가시키는 연환술. ",
+      "translation": " 在一定时间内提高一名友军攻击与精神的连环术 ",
+      "source_sha256": "0a44bf33c767bff05a1699858d7cc71fe0e473d0ac5bc6317984e31c2f800ee2",
+      "translation_sha256": "0f7062491b83800c8d60f439032c74bf79f84393dbc65c985a086661ddb5b388"
+    },
+    {
+      "id": "coalesced:a8812a24f1b23ba8d32f495ef7b78d286c052a5c7414d0caae902b7d9b3493b2",
+      "section": "Celestine_style1",
+      "key": "Celestine_Skill03",
+      "source": "아로마 프레쉬",
+      "translation": "清新之香",
+      "source_sha256": "5eb90cfa109a3559e4e6dc068e03e36573c58a0f8a3a8413b296bc3e19a63183",
+      "translation_sha256": "efd79eb2d2db846a52175f293f23b6b0de4f358b0ac293a74e51defd4c21bff2"
+    },
+    {
+      "id": "coalesced:1f19ef45df8af4ba7bba290d2b488bff75a23d974f0a8293a8ff3259e09c0730",
+      "section": "Celestine_style1",
+      "key": "Skill_d_317",
+      "source": "아군 하나의 방어, 저항을 일정시간 증가시키는 연환술.",
+      "translation": "在一定时间内提高一名友军防御与抗性的连环术",
+      "source_sha256": "741382c60bac3776cd615e1dada385e25ba7cc0b0b1f1d09161d2cd0f18d5844",
+      "translation_sha256": "cc7b813448a1f1678eb9154fc350f50995b0fe2983141240b0218938f200dbb9"
+    },
+    {
+      "id": "coalesced:84ebfa6e51992e76b0359046e1d2495a4af83dae06bf4ebfad7fca31f407b73f",
+      "section": "Celestine_style1",
+      "key": "Skill_d_317_Battle",
+      "source": "아군 하나의 방어, 저항을 일정시간 증가시키는 연환술.",
+      "translation": "在一定时间内提高一名友军防御与抗性的连环术",
+      "source_sha256": "741382c60bac3776cd615e1dada385e25ba7cc0b0b1f1d09161d2cd0f18d5844",
+      "translation_sha256": "cc7b813448a1f1678eb9154fc350f50995b0fe2983141240b0218938f200dbb9"
+    },
+    {
+      "id": "coalesced:09c8272f89c0b1dcd6677f2531fd0dcaa9ec8492b4f8d9642ed9ebadc32a452a",
+      "section": "Celestine_style1",
+      "key": "Celestine_Skill04",
+      "source": "포이즌 카오스",
+      "translation": "混沌毒雾",
+      "source_sha256": "6eacc4080a4b8203f2d9feb94ed5dce3111c9d142741c97af8e1c52e03d1c154",
+      "translation_sha256": "37bb1999e932e0fc52c83f2c26859c5c4b1f6d2978f4dcfa5354be5651c07d70"
+    },
+    {
+      "id": "coalesced:546ee9cc086dbec0e898770315aa95f290cf5f8bff62c6187ccaf7543653333c",
+      "section": "Celestine_style1",
+      "key": "Skill_d_313",
+      "source": "적 하나에게 대미지를 입히고 중독 상태로 만든다.",
+      "translation": "对一名敌人造成伤害，并使其中毒",
+      "source_sha256": "5c319796c3509e6bc93c5856e6a3243adca4d5741d698fc719478c2a4b8626a4",
+      "translation_sha256": "881ea144fc2a4692f36341e8f590b3235094e9eb7d4f199e015a8450b6937c4c"
+    },
+    {
+      "id": "coalesced:270c37c9f6f710ec5d391157836e56fb8aa55a58a3e7150dca3060c5a6cde5d5",
+      "section": "Celestine_style1",
+      "key": "Skill_d_313_Battle",
+      "source": "적 하나에게 대미지를 입히고 중독 상태로 만든다.",
+      "translation": "对一名敌人造成伤害，并使其中毒",
+      "source_sha256": "5c319796c3509e6bc93c5856e6a3243adca4d5741d698fc719478c2a4b8626a4",
+      "translation_sha256": "881ea144fc2a4692f36341e8f590b3235094e9eb7d4f199e015a8450b6937c4c"
+    },
+    {
+      "id": "coalesced:9a9582503eeb28844baf8df2ff6cff4f8a839f979d76efbf65b47a5b40ae82b0",
+      "section": "Celestine_style1",
+      "key": "Celestine_Skill05",
+      "source": "페일 브로일러",
+      "translation": "苍白灼焰",
+      "source_sha256": "7506b4317311acbe9ac86ff46bbd13337b07ae95d85e6585ab0d7494b3048292",
+      "translation_sha256": "163918ccbc4e58b29ab58d966c07c95a06cfaa4e7834d573b9e2556f65af0c4d"
+    },
+    {
+      "id": "coalesced:2acfe157c53bae1180e63b66161a2153d32f7dcb88ed645a32859d10c29825c6",
+      "section": "Celestine_style1",
+      "key": "Skill_d_314",
+      "source": "적 하나에게 대미지를 입히고 침묵 상태로 만든다.",
+      "translation": "对一名敌人造成伤害，并使其沉默",
+      "source_sha256": "d2d32c6459547b010d0e3a9541ca7461bd3dffd39186271467e026543042843d",
+      "translation_sha256": "f314b0013080406c69fbc0bcbfab63dacadd5ed2b95f7959d786f338a45a6912"
+    },
+    {
+      "id": "coalesced:ac9200aa523206910a5fe5791f1406c5df5c1ad9e584cbfdd21ecda02fc1adae",
+      "section": "Celestine_style1",
+      "key": "Skill_d_314_Battle",
+      "source": "적 하나에게 대미지를 입히고 침묵 상태로 만든다.",
+      "translation": "对一名敌人造成伤害，并使其沉默",
+      "source_sha256": "d2d32c6459547b010d0e3a9541ca7461bd3dffd39186271467e026543042843d",
+      "translation_sha256": "f314b0013080406c69fbc0bcbfab63dacadd5ed2b95f7959d786f338a45a6912"
+    },
+    {
+      "id": "coalesced:937e9eb2c7a2f431cd9f2b8eda9d8421602dd8dcc4592829e6231d3de236fb17",
+      "section": "Celestine_style1",
+      "key": "Celestine_Skill06",
+      "source": "슬립 헬",
+      "translation": "沉眠地狱",
+      "source_sha256": "561f3ea19ec788f66f57f7ec9fce9a61baa9b3198360a828631004b857958514",
+      "translation_sha256": "f526f10f7552e221c8863b2f69d80b33446c59192a6a793fcb77c44da66b5b44"
+    },
+    {
+      "id": "coalesced:2e6dc4f5467cc9f68200d7c9855da6a046f731294749c16828635046d172c728",
+      "section": "Celestine_style1",
+      "key": "Skill_d_315",
+      "source": "적 하나에게 대미지를 입히고 수면 상태로 만든다.",
+      "translation": "对一名敌人造成伤害，并使其睡眠",
+      "source_sha256": "cb9274dae8bcbaea133c2a8098b93ab655a512b5406e57df87641986aa91555c",
+      "translation_sha256": "3ea9e2e39d9b5e9320c2aafec43e7454554d4c294cb6697ce31c4290b6df307e"
+    },
+    {
+      "id": "coalesced:40fc56a9bb9b5e03cbf53ac31e2af71df386dd9700028e12e616dd845905d56d",
+      "section": "Celestine_style1",
+      "key": "Skill_d_315_Battle",
+      "source": "적 하나에게 대미지를 입히고 수면 상태로 만든다.",
+      "translation": "对一名敌人造成伤害，并使其睡眠",
+      "source_sha256": "cb9274dae8bcbaea133c2a8098b93ab655a512b5406e57df87641986aa91555c",
+      "translation_sha256": "3ea9e2e39d9b5e9320c2aafec43e7454554d4c294cb6697ce31c4290b6df307e"
+    },
+    {
+      "id": "coalesced:b32908fd4871cd5c3848c5347e85ac9ef8f79937b3dee29aa2fb550150e94bab",
+      "section": "Celestine_style1",
+      "key": "Celestine_Skill07",
+      "source": "베놈 테일",
+      "translation": "剧毒之尾",
+      "source_sha256": "5fc4d2fa8ef00501a3644ff218f00d7f6f8d8094e597d68c980c469c09e59d52",
+      "translation_sha256": "fcb33bca1902b2bb8452224b32ae22e76c3718a2155d9beae1ed2f68aea49eed"
+    },
+    {
+      "id": "coalesced:82f7fa3c3d01a07a413be0d8c45e644b6fb5f5a53df06351717750791fabf9d1",
+      "section": "Celestine_style1",
+      "key": "Skill_d_312",
+      "source": "거대한 독줄기를 소환하여 적에게 독공격을 하고 큰 대미지를 입힌다.",
+      "translation": "召唤巨大的毒藤，对敌人发动毒攻击并造成巨大伤害",
+      "source_sha256": "c95448e34d9fa85b7d5ba566c8a1e40855c576c10de0c821f8208946dd582fbb",
+      "translation_sha256": "cc17d10894e0ebd27dcd67daa2241833f46a93e3f2096d0a5efcb0e5f4602b7d"
+    },
+    {
+      "id": "coalesced:79fe9f0db1ffe9f86623d711d4ed58a4939c5072c114de64a19e17e2cbecc72f",
+      "section": "Celestine_style1",
+      "key": "Skill_d_312_Battle",
+      "source": "거대한 독줄기를 소환하여 적에게 독공격을 하고 큰 대미지를 입힌다.",
+      "translation": "召唤巨大的毒藤，对敌人发动毒攻击并造成巨大伤害",
+      "source_sha256": "c95448e34d9fa85b7d5ba566c8a1e40855c576c10de0c821f8208946dd582fbb",
+      "translation_sha256": "cc17d10894e0ebd27dcd67daa2241833f46a93e3f2096d0a5efcb0e5f4602b7d"
+    },
+    {
+      "id": "coalesced:04e969cb2337e612f17983959eef0cdb52a570125fa21e206b03f95f5d115918",
+      "section": "Celestine_style1",
+      "key": "Celestine_Skill08",
+      "source": "이터널 레스트",
+      "translation": "永恒安息",
+      "source_sha256": "3ef7f7fa66f29d28ae25ec21b32bf80eea3d45382ca9a893a8d678ae26941357",
+      "translation_sha256": "0d7940312c1d348d12da7d7c482b7284abc0a59964e7ad3e9ca1cf4aca525a8f"
+    },
+    {
+      "id": "coalesced:15e51284d0fa9b5b82e58eb82a2d06dd006f96fb2c427b75c03fde8a186835bc",
+      "section": "Celestine_style1",
+      "key": "Skill_d_318",
+      "source": "폭탄포자를 소환하여 마레족의 향으로 발아시켜 적한테 집중포화를 퍼붓는다.",
+      "translation": "召唤炸弹孢子，以马雷族的香使其萌发，向敌人倾泻集中火力",
+      "source_sha256": "48e368ac7d76a6c68be4957dbd52fa95b1a6fab18acf96e11ce5ee81efa9015c",
+      "translation_sha256": "c31d678b30e6bcc7225b9925602dfddcf25249da0682882d1d79c1c51892eed1"
+    },
+    {
+      "id": "coalesced:306db10d611f4afeff18e354f4e24155654f1ecaf1b8ae37ffa6ede1de9ecdb5",
+      "section": "Celestine_style1",
+      "key": "Skill_d_318_Battle",
+      "source": "폭탄포자를 소환하여 마레족의 향으로 발아시켜 적한테 집중포화를 퍼붓는다.",
+      "translation": "召唤炸弹孢子，以马雷族的香使其萌发，向敌人倾泻集中火力",
+      "source_sha256": "48e368ac7d76a6c68be4957dbd52fa95b1a6fab18acf96e11ce5ee81efa9015c",
+      "translation_sha256": "c31d678b30e6bcc7225b9925602dfddcf25249da0682882d1d79c1c51892eed1"
+    },
+    {
+      "id": "coalesced:b2c1893edd4e0100bd9affafa6ccf4d22c78fe1516c76cc7260c81e7f63e19b4",
+      "section": "Celestine_style2",
+      "key": "Celestine_Normal",
+      "source": "아이스 핀",
+      "translation": "冰针",
+      "source_sha256": "5fc9f043b5f4a8a64507535298b297db653d9149934c3f92beab8d5cd616858d",
+      "translation_sha256": "ef3d9580252286728d124ed280321f0c56b439761f2a8f0df1359b5a9ea1e3cc"
+    },
+    {
+      "id": "coalesced:aab7f21f38dcc40388c09dff83df2167c1b16aea7b0d1045a1f62830287bb21f",
+      "section": "Celestine_style2",
+      "key": "Celestine_inherent",
+      "source": "연환반사",
+      "translation": "连环反射",
+      "source_sha256": "c9531800a94ab2c1e950f5214ce2017f86ec66aafed0ff0585bffd42c3faf04a",
+      "translation_sha256": "b5b8f4c3807de69af07373759d0d6b909b6409cdf5da9215d9fa727db545a5d2"
+    },
+    {
+      "id": "coalesced:67cedac48be08b5a9e4ad7d047798b4576903fe0f0aac475d1a48d9155ae80c1",
+      "section": "Celestine_style2",
+      "key": "Celestine_Skill00",
+      "source": "아이스 애로우",
+      "translation": "冰箭",
+      "source_sha256": "df4cc1db93280effc6ccf4a808498d5a9c8f46d6cb433be3302a70a65b766d95",
+      "translation_sha256": "bf6e8302cf4b0863205782f15fdc493ebefa9c8f047f8bdd8d622500d80c5415"
+    },
+    {
+      "id": "coalesced:808e513b07d1a23b8962ca0eb59343a170c819f8b4ad5b2522e9fb700354563b",
+      "section": "Celestine_style2",
+      "key": "Skill_d_328",
+      "source": "얼음 화살로 적 하나에게 대미지를 입힌다.",
+      "translation": "以冰箭对一名敌人造成伤害",
+      "source_sha256": "e092440f308edc940d51f1b089153e6b40205cf147a76fbf35d1c46d55a36cb5",
+      "translation_sha256": "997d82c4ff0883b829de86b9715f6ade40aa8fbee73b3b3ae49af0dac2edf587"
+    },
+    {
+      "id": "coalesced:3272a7e3d078aa8c17fd9db91eb2b5191d2c6c2b035643e65700d7d922d340ac",
+      "section": "Celestine_style2",
+      "key": "Skill_d_328_Battle",
+      "source": "얼음 화살로 적 하나에게 대미지를 입힌다.",
+      "translation": "以冰箭对一名敌人造成伤害",
+      "source_sha256": "e092440f308edc940d51f1b089153e6b40205cf147a76fbf35d1c46d55a36cb5",
+      "translation_sha256": "997d82c4ff0883b829de86b9715f6ade40aa8fbee73b3b3ae49af0dac2edf587"
+    },
+    {
+      "id": "coalesced:b0ef98bc68497956a8382699fcc16ebbdf6d51885e811f7fa23db12f0db256af",
+      "section": "Celestine_style2",
+      "key": "Celestine_Skill01",
+      "source": "프로카시린",
+      "translation": "弗洛卡希林",
+      "source_sha256": "a195cdcd0aaef20273db1059e59e322fc5f5aaabbeef8f3e92da19d5d7539b5f",
+      "translation_sha256": "b0e30b7c91b63b6c05689189ccf0bc0710c8093ed6f224c81b5aab9f7b79a5d7"
+    },
+    {
+      "id": "coalesced:18981bb1605e52ef543e9668d47424a10b60d239320eeffa311ef2fbab948eb5",
+      "section": "Celestine_style2",
+      "key": "Skill_d_330",
+      "source": "물의 칸을 빨아들여서 엘리멘탈을 만드는 연환술. ",
+      "translation": "吸收水之KAN，制造元素体的连环术 ",
+      "source_sha256": "39942e7d9d0360fa3a90efbfb5f0147fdde1d7f579416eb1fa0daf872d932ee6",
+      "translation_sha256": "e823cd39d7a2cf01ba8c502c69fc9bb87548959ca5f92aed08af1615d1d0aa37"
+    },
+    {
+      "id": "coalesced:d122cacc507348da32669ad337fd490c1e1377d612db32e4ab47394c40c5664f",
+      "section": "Celestine_style2",
+      "key": "Skill_d_330_Battle",
+      "source": "물의 칸을 빨아들여서 엘리멘탈을 만드는 연환술. ",
+      "translation": "吸收水之KAN，制造元素体的连环术 ",
+      "source_sha256": "39942e7d9d0360fa3a90efbfb5f0147fdde1d7f579416eb1fa0daf872d932ee6",
+      "translation_sha256": "e823cd39d7a2cf01ba8c502c69fc9bb87548959ca5f92aed08af1615d1d0aa37"
+    },
+    {
+      "id": "coalesced:4b177ba5dcbdaa4b0b8cfb3ba8f9093b754eded11b10893d43a3728a699532ea",
+      "section": "Celestine_style2",
+      "key": "Celestine_Skill02",
+      "source": "프로스터",
+      "translation": "霜冻术",
+      "source_sha256": "39063113011c55c9b34f2c26d9c34087117f891963b7c3e0b9e61930ffef2f8a",
+      "translation_sha256": "24d0421c4dd36d4f5f402123503dfc2f5e1a295c61313b1688c0d36d08274cd2"
+    },
+    {
+      "id": "coalesced:ab970ce2d138a9aab0e97084b15520d22f05742f64ac2da2e12b7dbd16ec215d",
+      "section": "Celestine_style2",
+      "key": "Skill_d_329",
+      "source": "날카로운 얼음 조각을 적에게 날려 공격하는 연환술.",
+      "translation": "向敌人发射锋利冰片进行攻击的连环术",
+      "source_sha256": "3493844e3e8206253aab6b7174a6706a2ccfd42be4f43e0990b15faac0896150",
+      "translation_sha256": "e328817e8baa39c353873defc4640ce84662ca00779598a55df808d58c7424b1"
+    },
+    {
+      "id": "coalesced:cc89ce254150305d6d12c6b459f2ed13550c33a3f17cbc411d43a5a636d7cd04",
+      "section": "Celestine_style2",
+      "key": "Skill_d_329_Battle",
+      "source": " 날카로운 얼음 조각을\\n적에게 날려 공격하는 연환술.",
+      "translation": " 向敌人发射锋利冰片，\\n进行攻击的连环术",
+      "source_sha256": "93adb97b0125ec07c44e9b6625cf9adb291b96571ede056b96dc7cc1195218f6",
+      "translation_sha256": "5b5c23c8f78a5e952a136e3d544085ca809cc604e7f4ac5026b38e0d875f60d6"
+    },
+    {
+      "id": "coalesced:05f9264631a841dda197608b67cbe67d0c17a1b5d3d8f1b51162c1ff68e4a0a3",
+      "section": "Celestine_style2",
+      "key": "Celestine_Skill03",
+      "source": "니들 샤워",
+      "translation": "冰针骤雨",
+      "source_sha256": "4635bf8a08c90dcd4cf3f6ab690aa5e35a5a978b795ec3f5e19b30ee7971c298",
+      "translation_sha256": "84eca2419e79484db61bdc36e7b9d35c7de1538d2e52bd6f53b096c1dd58e915"
+    },
+    {
+      "id": "coalesced:136472d4f4a219320470455d8dc6baf82ed263431ef2cbb8dbcca8e66eecb196",
+      "section": "Celestine_style2",
+      "key": "Skill_d_334",
+      "source": "날카롭고 긴 얼음화살을 상공에서 떨어뜨려 적에게 뿌리는 연환술.",
+      "translation": "从高空降下细长锋利的冰箭，洒向敌人的连环术",
+      "source_sha256": "ab56b6b9e488948eab92d913e08475f015b344edd46ecc17e6e2bf32697398d4",
+      "translation_sha256": "3cb5f55d46a3fdbe3b667c9456a84d3331256f4fa16db3f9e00e21c3fc3d1400"
+    },
+    {
+      "id": "coalesced:0cdf8b6ccda53ce3da452c90ca9cf1a14ba074f9107bbb509a0a4626a8addf53",
+      "section": "Celestine_style2",
+      "key": "Skill_d_334_Battle",
+      "source": " 날카롭고 긴 얼음화살을 상공에서 떨어뜨려 적에게 뿌리는 연환술.",
+      "translation": " 从高空降下细长锋利的冰箭，洒向敌人的连环术",
+      "source_sha256": "d9d84943757de9aaca7ccb82619db5cf01006fd27a5b5e7fc80c2bfbfe35ddca",
+      "translation_sha256": "c9e4c28cca3bcf41846106021951cf99b5041047bbf98cae0ecf622a07252a04"
+    },
+    {
+      "id": "coalesced:778736121363fa47fa5c2215b72c19057072168010eecc8c67c65800aa37bcea",
+      "section": "Celestine_style2",
+      "key": "Celestine_Skill04",
+      "source": "아이스 블래스트",
+      "translation": "冰爆冲击",
+      "source_sha256": "60ed214c5f642a681d9891349d96e99d812d92247a734509fdba9ddc16c1ef5e",
+      "translation_sha256": "d99de06306a7299cb3b19bed08f0ea4ea0d02e60895f4d2b3350022cc743ba30"
+    },
+    {
+      "id": "coalesced:a4bf653649eb4857dd2665713e4af056cee095cc20992d2b3c26e7a9dba42209",
+      "section": "Celestine_style2",
+      "key": "Skill_d_331",
+      "source": "물의 힘을 응축시킨 화살을 쏘아 주변에 있는 적에게 큰 대미지를 입힌다.",
+      "translation": "射出凝聚水之力的箭矢，对周围敌人造成巨大伤害",
+      "source_sha256": "b9ccf222db2fbffd1a4956e82e76a67fabeda04ccd7c937ddf1f59ad6dc2e03c",
+      "translation_sha256": "64196fbac2902e43069bfdc869a69beb7aa971b4733e7e044d3726e76fad62bc"
+    },
+    {
+      "id": "coalesced:a11bfff4822fd21d62140bf9c25c5f4e71a424ca133bafac7a81c7463169db14",
+      "section": "Celestine_style2",
+      "key": "Skill_d_331_Battle",
+      "source": "물의 힘을 응축시킨 화살을\\n쏘아 주변에 있는 적에게\\n큰 대미지를 입힌다.",
+      "translation": "射出凝聚水之力的箭矢，\\n对周围敌人\\n造成巨大伤害",
+      "source_sha256": "8233b80222af6e6302b23bc2e678b2ca3bcb726959edc121e8958378ddc43248",
+      "translation_sha256": "fb28dcea736ad00815b9af42685453611098ff4e97dfefe28af42dfef5b6648b"
+    },
+    {
+      "id": "coalesced:da80d7001bfa860a81447c5934dae3c1c2c4bbbd0135334f06b75352f0440c74",
+      "section": "Celestine_style2",
+      "key": "Celestine_Skill05",
+      "source": "블리자드 팡",
+      "translation": "暴雪之牙",
+      "source_sha256": "a3c1aee528b18b77cf9e2d024a647703e7cb67669de45803d8abb72976a6cb17",
+      "translation_sha256": "49084ce021e83d8a5fe95d8cf5e622f342ef32af9781128409e23ac279cfdfcf"
+    },
+    {
+      "id": "coalesced:3b10fae0368b2347807d86e275bb9df6bc0e24cdda4b3fc9fb6c81f812e98bc2",
+      "section": "Celestine_style2",
+      "key": "Skill_d_335",
+      "source": "고대혼을 빙의하고 얼음의 힘을 폭발시켜 적에게 큰 대미지를 입힌다.",
+      "translation": "让古代之魂附身，引爆冰之力，对敌人造成巨大伤害",
+      "source_sha256": "944c9b8ce07da6179e63f36d86c67b326c14b082d67b8e80c9aa02cdec71efa8",
+      "translation_sha256": "eaa5c2c6415b276b5f9c25b01295cf5002e6bd48ac148ba073f5dd35ecbcf3d8"
+    },
+    {
+      "id": "coalesced:d3b32df507ba488fc5982db01c037bf6f94cc816aa5b3f739c40d3bce1fa87af",
+      "section": "Celestine_style2",
+      "key": "Skill_d_335_Battle",
+      "source": "고대혼을 빙의하고\\n얼음의 힘을 폭발시켜\\n적에게 큰 대미지를 입힌다.",
+      "translation": "让古代之魂附身，\\n引爆冰之力，\\n对敌人造成巨大伤害",
+      "source_sha256": "5bc3e25b2eeeb3cf9c594db3de5f13dbe9e0a89e413bebfc759f145c4dc14c58",
+      "translation_sha256": "fae0e749232846a742deb6ac66cdfcf1341544c3baa95594ca5219ea5bc1ef94"
+    },
+    {
+      "id": "coalesced:f168e9f8e69d590d2ceecc5cfbceac814cdaea61609300f259e6a032971db298",
+      "section": "Celestine_style2",
+      "key": "Skill_d_132",
+      "source": "얼음의 연환술과 도끼의 연계오의로 적 1명에게 강력한 대미지를 입힌다.",
+      "translation": "以冰之连环术与斧施展连携奥义，对1名敌人造成强大伤害",
+      "source_sha256": "6a312f6005e5d58bf82f218afff9b7cb7adc411f1a8114787fdd918a43187c77",
+      "translation_sha256": "528d2d1eeea66cd2e2eb3879a6de3ce1556931c42d23a8ff50fbb894578c638b"
+    },
+    {
+      "id": "coalesced:899c941b81239c2618bbad0351170ec81fc0cf7374b6e95f199945822777a71c",
+      "section": "Celestine_style2",
+      "key": "Skill_d_336",
+      "source": "얼음과 번개의 연환술의 연계오의로 적 1명에게 강력한 대미지를 입힌다.",
+      "translation": "以冰与雷的连环术施展连携奥义，对1名敌人造成强大伤害",
+      "source_sha256": "aebd919bd063cdb7e58ba4b276909b0bcfd0e9cd8219bac2bc37e110baf01f1b",
+      "translation_sha256": "cad049ee769883572574fe825b2d87e93dc6c0b8c34b207dd992f0da0b440e2e"
+    },
+    {
+      "id": "coalesced:fb9cdfb8d472651896a9064d61ff5c6d6ae2bc16886ff9a1e1d43c96ae22be41",
+      "section": "Rue_Style1",
+      "key": "Rue_Normal",
+      "source": "음속베기",
+      "translation": "音速斩",
+      "source_sha256": "cfe8d2628f74d1ed0fcecfb6c297b8bad941d3b0267393bd9b33ca32026d4daa",
+      "translation_sha256": "ef02b198599ce52442765ac04252115ccec8966d83c792529d26d252494af0c7"
+    },
+    {
+      "id": "coalesced:4db6965ae376cffaf833d2365f5d7ba07e71eb68cd57061225426708af9e2ffd",
+      "section": "Rue_Style1",
+      "key": "Rue_inherent",
+      "source": "순살",
+      "translation": "瞬杀",
+      "source_sha256": "cd95917deccf1ef949afbb01541199dcdb32aa8ec32856d6b24c1bf6ad1a6896",
+      "translation_sha256": "50bcaddb4d5baeaf8449db45920882958b3bad30569e81320d8d37fad6fc9e4e"
+    },
+    {
+      "id": "coalesced:239b72836a1c9cd3ca2134283b7a9d371280c3833d81098f60084c965b212a65",
+      "section": "Rue_Style1",
+      "key": "Rue_Skill00",
+      "source": "비연",
+      "translation": "飞燕",
+      "source_sha256": "0149ff31f45bd7ddff07efc4d454f92df171aa59e789a664eda68c97bb8653c8",
+      "translation_sha256": "1f92870a8775f69027f96986013ede78f12730eda0fdb565eedda97da9d1b98c"
+    },
+    {
+      "id": "coalesced:485b0edaa4eca5248f634532b052ea35b22f1a251e64b2333aba9757b9fa1a98",
+      "section": "Rue_Style1",
+      "key": "Skill_d_409",
+      "source": "적 하나에게 빠르게 연속공격을 한다. ",
+      "translation": "对一名敌人发动快速连续攻击 ",
+      "source_sha256": "3ca324f237a76dce212f9581b9af536fe7bb64783231fee1ee72a41673ace23d",
+      "translation_sha256": "b50be535e6837b64ebb608b2518689f39925f85d9ef8b2dc49058248ca95d069"
+    },
+    {
+      "id": "coalesced:6a4f9498fbaa7411d38bf4dd78aeec27a81f9d47c51483fb0ef7d3617e569ea0",
+      "section": "Rue_Style1",
+      "key": "Skill_d_409_Battle",
+      "source": "적 하나에게 빠르게\\n연속공격을 한다.",
+      "translation": "对一名敌人发动快速\\n连续攻击",
+      "source_sha256": "1815f9398e94260116d5f4a6a188d4fb5a1cbb6edf287914962c35deacfbb04f",
+      "translation_sha256": "64fb34732340e480344b3a233568082b4c8c9e8caeacee312cc48a008d453c7f"
+    },
+    {
+      "id": "coalesced:07e11d11fa52ffbabdb25f64cbac96c73afec6f51be2a13a0115d05a849c7409",
+      "section": "Rue_Style1",
+      "key": "Rue_Skill01",
+      "source": "천지의 자세",
+      "translation": "天地架势",
+      "source_sha256": "0f049065608538a065bb994f93636f1f701d3d18d7b50a771d0c5365edf0e46c",
+      "translation_sha256": "be69f9931dc7a52d74b2884c457149c1fe31e67f7abb932b708e24472d02759c"
+    },
+    {
+      "id": "coalesced:97a09f26eef54e0f84984bdca8b90843982517d2b8aad049f05e6da504d22c8d",
+      "section": "Rue_Style1",
+      "key": "Skill_d_410",
+      "source": " 일정 시간 자신의 방어력을 상승시킨다.",
+      "translation": " 在一定时间内提高自身防御力",
+      "source_sha256": "d0c290e0fa172c08bbe554f2b6c12a4e0946b5aa539b28b0357cdc5d944ce7b8",
+      "translation_sha256": "3fceede48d0038dbd691a262caac31896a53186c0cb9dea8a20a47e70772968a"
+    },
+    {
+      "id": "coalesced:e89e5b21354c8c4d18125e52bb5673ef29a699d7be7c36624e20e1447e1e092e",
+      "section": "Rue_Style1",
+      "key": "Skill_d_410_Battle",
+      "source": " 일정 시간 자신의\\n방어력을 상승시킨다.",
+      "translation": " 在一定时间内\\n提高自身防御力",
+      "source_sha256": "b3d5695be40d60ddabf9d514fef12c197e524a2b10d7b90969ac23065f546d91",
+      "translation_sha256": "dfc8803da9fbef47f7dfc0ff6d2f91c97d2a4138d784e2707e37bcfe0ff6bdbb"
+    },
+    {
+      "id": "coalesced:26db3ace6f275d5f455fb1aaf4750f775b3e2a17b695d345ba2e09182d75e66f",
+      "section": "Rue_Style1",
+      "key": "Rue_Skill02",
+      "source": "인법 : 잠은",
+      "translation": "忍法：潜隐",
+      "source_sha256": "167a957c0eccd88290e5d57cbc752260d14741682c2e5242401a1de7de22247f",
+      "translation_sha256": "b537488eb294759ddcb9446b214475d0b7914fc343546b5b403ec895a0e9338c"
+    },
+    {
+      "id": "coalesced:8858eb942f550e3ee74d46fbcb8c9122dd9df6df87c39c74e397f057b837d12d",
+      "section": "Rue_Style1",
+      "key": "Skill_d_411",
+      "source": "일정 시간 그림자가 되어, 적의 공격을 받지 않는다.",
+      "translation": "在一定时间内化为影子，不受敌人攻击",
+      "source_sha256": "c78c39faaabbdac5ae9e63222aaa14db9126e8b30fd8dc6b04937e25caf9760f",
+      "translation_sha256": "0cf05599c070aad413b99b4790b43aef0a138ad9c6183f368ac74cf78a1530f0"
+    },
+    {
+      "id": "coalesced:b2a115a713471ca5c393183a7c72a029f72bd25e8b41ce3ca88bf9e9d15dbdb1",
+      "section": "Rue_Style1",
+      "key": "Skill_d_411_Battle",
+      "source": " 일정 시간 그림자가 되어,\\n적의 공격을 받지 않는다.",
+      "translation": " 在一定时间内化为影子，\\n不受敌人攻击",
+      "source_sha256": "7530644bf6740c956b31009bdf4badc078f63134a1fe0c0731f91898d04ed010",
+      "translation_sha256": "87282c59ac6bbca7dde25835cdf8fcfb492ec34d3bf00925da5010c583224462"
+    },
+    {
+      "id": "coalesced:5601d443e4d6063fad4a6284787167f0ed490f21581ebe16a84db2a5bab30c0b",
+      "section": "Rue_Style1",
+      "key": "Rue_Skill03",
+      "source": "인법 : 은영",
+      "translation": "忍法：隐影",
+      "source_sha256": "f0804ac056eb8dec4aa94998c0652356cb5061da0520b2dbe3501913fbd14d71",
+      "translation_sha256": "02bf6a76564a74f2cb13fd3491e8bd73b6467608a3a4a6a2504b382d9c8e75cb"
+    },
+    {
+      "id": "coalesced:8153af6bc11d57b6098fee901fd25048432fe8fcf0c8c09fa46d3e3c946be9ad",
+      "section": "Rue_Style1",
+      "key": "Skill_d_412",
+      "source": "잠은 상태에서만 사용가능하며, 순살의 발동률을 상승시킨다.",
+      "translation": "仅可在潜隐状态下使用，提高瞬杀的发动率",
+      "source_sha256": "e6c3ad505464209873ae83155647d8bc42a882260896c3ec6a0c653d90358410",
+      "translation_sha256": "8f6574cd55d1ff0c80dbb3e19e25e5ce76cbe5b55b50e7037fef5e007da6e1cd"
+    },
+    {
+      "id": "coalesced:9424020ae8d998dbc40201ebe34544712c72f223a1eb455bcf5eac63e8ae3ef8",
+      "section": "Rue_Style1",
+      "key": "Skill_d_412_Battle",
+      "source": "잠은 상태에서만 사용가능하며, 순살의 발동률을 상승시킨다.",
+      "translation": "仅可在潜隐状态下使用，提高瞬杀的发动率",
+      "source_sha256": "e6c3ad505464209873ae83155647d8bc42a882260896c3ec6a0c653d90358410",
+      "translation_sha256": "8f6574cd55d1ff0c80dbb3e19e25e5ce76cbe5b55b50e7037fef5e007da6e1cd"
+    },
+    {
+      "id": "coalesced:9c06ce7025264dac237403b016b4f82591243d30baae08b468e65a93a4afb810",
+      "section": "Rue_Style1",
+      "key": "Rue_Skill04",
+      "source": "인법 : 자섬",
+      "translation": "忍法：刺闪",
+      "source_sha256": "d525026f267f1aa3eb53ae9b5bdf25eaf22307a0dedfd20b6da31afa39c50d37",
+      "translation_sha256": "811d35564dc2e029c2e59080e1d8c89272cd9b04363e8e412e7ebf6f1048294b"
+    },
+    {
+      "id": "coalesced:6de7890592f30e05246bf90555d0ee0caf05c6a2dfc431ca45c4038882c75b00",
+      "section": "Rue_Style1",
+      "key": "Skill_d_413",
+      "source": "잠은 상태에서만 사용가능하며, 적에게 강력한 독 공격을 한다.",
+      "translation": "仅可在潜隐状态下使用，对敌人发动强力毒攻击",
+      "source_sha256": "94eb5771d408264271900abd80c936e3ac5cb559dd5e2bf0e47d181357d10607",
+      "translation_sha256": "ccd1edee35d36ba7bf9f3b2e08462bd9dd4b6ec7e251c43a73ab2a8145b37ecb"
+    },
+    {
+      "id": "coalesced:bf49db864d9aa22cc5f5bb97851b48ce1096ec6bafbe1f59274e15619cb7431b",
+      "section": "Rue_Style1",
+      "key": "Skill_d_413_Battle",
+      "source": " 잠은 상태에서만 사용가능하며, 적에게 강력한 독 공격을 한다.",
+      "translation": " 仅可在潜隐状态下使用，对敌人发动强力毒攻击",
+      "source_sha256": "90191732cfc4afb4685eab3d05b3429bdd1ffbb776d771c373f2eb33a9560c49",
+      "translation_sha256": "de510c895d14e57d9fa8cb0e79e78d5a98a6603edb8f408bbeb8822fa37c0adb"
+    },
+    {
+      "id": "coalesced:74ee482342fb61b29096ccce1f0ce0d3c74e992a8c43b9175b1e6de108d2ab65",
+      "section": "Rue_Style1",
+      "key": "Rue_Skill05",
+      "source": "인법 : 폭룡",
+      "translation": "忍法：爆龙",
+      "source_sha256": "6a5030801608b0a1379e59b8d4f88bbca6967da717efbfb73b8ff28cf9cd7526",
+      "translation_sha256": "98a63dea34b1dd1537875dc6163536f070c6002d2ff9afa5029741024911689b"
+    },
+    {
+      "id": "coalesced:13285545f4f3a6445a415a7ac911b64e6a82ed8568f4810b813c94720f285475",
+      "section": "Rue_Style1",
+      "key": "Skill_d_414",
+      "source": "잠은 상태에서만 사용가능하며, 분신을 만들어서 적에게 대미지를 입힌다. ",
+      "translation": "仅可在潜隐状态下使用，制造分身对敌人造成伤害 ",
+      "source_sha256": "1acad4bc35a6aa956e96381cb004667970b43aef04a40029e5f2f6fc77b226d4",
+      "translation_sha256": "0ab9734c992d056f559e3d53944efd04121621f80f04907ef50b0817b738ccb8"
+    },
+    {
+      "id": "coalesced:63af2dfcb106b2c02a751317dba7a526842cb3422431e21c9862b9064bd5ccaf",
+      "section": "Rue_Style1",
+      "key": "Skill_d_414_Battle",
+      "source": "잠은 상태에서만 사용가능하며, 분신을 만들어서 적에게 대미지를 입힌다.",
+      "translation": "仅可在潜隐状态下使用，制造分身对敌人造成伤害",
+      "source_sha256": "d1ba8a786b36c6d5ae96e3e1b619129fde800bc9c116ce33c9ac32f6ea153ff2",
+      "translation_sha256": "bf7efc3c41cdd2ceccb63e535a46ec9d4d3844cca48d8d13721ed3834be3edfa"
+    },
+    {
+      "id": "coalesced:bd1d232250479739a585d7a12703820bfd3b15b5ddcccaad46051373b2b7bc64",
+      "section": "Rue_Style1",
+      "key": "Rue_Skill06",
+      "source": "참열베기",
+      "translation": "斩裂斩",
+      "source_sha256": "60c3dea626a78707fce59ed620fa6f7efb699fc77631e4406d0e6fc7a6dc773a",
+      "translation_sha256": "e5bf5e57a3e55b60421df07ea5e419238c49e013312baf3c7e4cabe10417b7d6"
+    },
+    {
+      "id": "coalesced:0eeab14cfc5cb9cc08af068db474c2a71506d08c787db729dedbf46f1df0db69",
+      "section": "Rue_Style1",
+      "key": "Skill_d_415",
+      "source": "섬광의 속도로 적을 연속공격, 큰 대미지를 입힌다.",
+      "translation": "以闪光般的速度连续攻击敌人，造成巨大伤害",
+      "source_sha256": "068dcbc15f6d4aa746145e4bd596830497408ed33351d9f29b1675753197f67a",
+      "translation_sha256": "1dab04b33cc4f912cfe2feda94db5120a2033e4f73e85f586d0cd1db830b7518"
+    },
+    {
+      "id": "coalesced:a0f1ddd2fc326069bc482fb9fb24de2ad38ff42e050ea98f251114d87dcca099",
+      "section": "Rue_Style1",
+      "key": "Skill_d_415_Battle",
+      "source": "섬광의 속도로 적을 연속공격,\\n큰 대미지를 입힌다.",
+      "translation": "以闪光般的速度连续攻击敌人，\\n造成巨大伤害",
+      "source_sha256": "2049e0646f11e403aa06c503a8aa60754c1e9f66ec231bdd1f90838589124fe0",
+      "translation_sha256": "b38f195c78cf0daed439864df2d24f1c59c87906b702534dbda902d0a426fcf1"
+    },
+    {
+      "id": "coalesced:8e6c82cfa7cc53565d6f75e31ff7b69cbdbc105fa20fbaa0926109d5142e239e",
+      "section": "Rue_Style1",
+      "key": "Rue_Skill07",
+      "source": "부동진",
+      "translation": "不动阵",
+      "source_sha256": "e04cf3cf3a61e3f5819ea07067bfd86f9051f5ab2aef06cc52094152378f7438",
+      "translation_sha256": "122d54bf837d34c2dc1433105e4f4e7be5d7dad752851a1b2ad3c1c0d8fb1775"
+    },
+    {
+      "id": "coalesced:9ca8dde00e0a2994495230edcbf370717e382e8126d808ee85b68951700adc5b",
+      "section": "Rue_Style1",
+      "key": "Skill_d_416",
+      "source": "칼에 칸을 모아 분신을 만들어 강력한 연속공격을 실시한다.",
+      "translation": "将KAN聚于刀上，制造分身发动强力连续攻击",
+      "source_sha256": "96b1d5964ca60eeab046f180ab18f5d26225c87a15ed20a947a8dea333a6a19f",
+      "translation_sha256": "89eadfec1c6989cb73218f366dd6a78fc0108124bcd15bf799b975071360349f"
+    },
+    {
+      "id": "coalesced:fd3a4179f30b054faf013f94dfe67d76af40b714ee52b22ee85b0dac0aebd417",
+      "section": "Rue_Style1",
+      "key": "Skill_d_416_Battle",
+      "source": "칼에 칸을 모아 분신을 만들어 강력한 연속공격을 실시한다.",
+      "translation": "将KAN聚于刀上，制造分身发动强力连续攻击",
+      "source_sha256": "96b1d5964ca60eeab046f180ab18f5d26225c87a15ed20a947a8dea333a6a19f",
+      "translation_sha256": "89eadfec1c6989cb73218f366dd6a78fc0108124bcd15bf799b975071360349f"
+    },
+    {
+      "id": "coalesced:16ee8a3d7524bba1bf63ab97a453a69276595700050df6a533aae548149053be",
+      "section": "Rue_Style2",
+      "key": "Rue_Normal",
+      "source": "쿠나이 5연 던지기",
+      "translation": "苦无5连投",
+      "source_sha256": "ceedeae435f6202122f2a6db41ce514e342382cb12b76509ea6d730c2815e2fd",
+      "translation_sha256": "b8437f52cbf5582b1866dcddaea91482875cccf9bad480ae4f0ee0b6acb13ddd"
+    },
+    {
+      "id": "coalesced:0e144bdabdeca3071ade258c32e5aa7916f21d732bb3fcdcbc1bd65738b22866",
+      "section": "Rue_Style2",
+      "key": "Rue_inherent",
+      "source": "뇌진파",
+      "translation": "雷震波",
+      "source_sha256": "507bd0b9dc8210111088a49db797bd985903e01189f0ca5a73005c8c51f51c91",
+      "translation_sha256": "eb230ccbf3ffdd8ffe7738764f4f952d13e2334bb593996a37c4deefaef4b467"
+    },
+    {
+      "id": "coalesced:990a9051966deee132f33838423a34f31307f47d75bfab2f38832eb8085e3d17",
+      "section": "Rue_Style2",
+      "key": "Rue_Skill00",
+      "source": "뇌격 던지기",
+      "translation": "雷击投掷",
+      "source_sha256": "ac7b8976c72f200cee7278f4a2d4cd611b270dcc3d82f98ff78c3b4bd09b6352",
+      "translation_sha256": "eb6ed3def4027b84d33782e9b280231da4e691a6865e8345f84caa6a78bc97b6"
+    },
+    {
+      "id": "coalesced:2ef1eb50e45eef978c259517a45c10f87ce1e3b146733101f4ccd9dde2ef6aa9",
+      "section": "Rue_Style2",
+      "key": "Skill_d_423",
+      "source": "적 하나에게 번개를 머금은 수리검을 던진다.",
+      "translation": "向一名敌人投掷蕴含雷电的手里剑",
+      "source_sha256": "a5fe146b69d060999a07f66b971faf1b2508f4cec1b8c386693f232b00abf9cd",
+      "translation_sha256": "876bbe3a31184476f7a9f6112abb1af5a65495715bb255fa020374d01a72603f"
+    },
+    {
+      "id": "coalesced:f762c1226bf085d52ac7431833e1310b58936f20f0b045efe1d16708fb39ae08",
+      "section": "Rue_Style2",
+      "key": "Skill_d_423_Battle",
+      "source": " 적 하나에게 번개를 머금은 수리검을 던진다.",
+      "translation": " 向一名敌人投掷蕴含雷电的手里剑",
+      "source_sha256": "4d53bb18a3c48bcfc4dbe32683b2b21127b5dac3c983dc2f65b01fe5396e3c72",
+      "translation_sha256": "f82c892987abee05f2f44af69290fdb0a3fa8b619a2364388698ff0c47189da9"
+    },
+    {
+      "id": "coalesced:10458e59b38d76f910ab09245253902fd27b7ff38a8e5f05594184dc5a6caee7",
+      "section": "Rue_Style2",
+      "key": "Rue_Skill01",
+      "source": "라이카시린",
+      "translation": "雷卡希林",
+      "source_sha256": "8d9b5d36bbbe6aec32350baab0d715e6f89f05e2acb27668fb7d3e74385924f1",
+      "translation_sha256": "0cb01e0965c4d1dd05251871b497ef98ce6e0cf261ba87449bb79b806739b1e0"
+    },
+    {
+      "id": "coalesced:0ac8a245d6dda768a5a6e9d79d02c80ecea591ef54c517f33323830132264737",
+      "section": "Rue_Style2",
+      "key": "Skill_d_424",
+      "source": "번개의 칸을 빨아들여서 엘리멘탈을 만드는 연환술.",
+      "translation": "吸收雷之KAN，制造元素体的连环术",
+      "source_sha256": "c51c5466e59a79ecc2a7365e9ce2b483a6614e1c481e899d3e7329ead7fb86bf",
+      "translation_sha256": "95e34b5a667c0b6f13c342713d056f0818aa56ebc8c8629d09cc86b55bfeffb1"
+    },
+    {
+      "id": "coalesced:7c3ef0840d62ce2000a8ff11fa1aaccd580a9c028ecc0171b39dbc3fabf3b77a",
+      "section": "Rue_Style2",
+      "key": "Skill_d_424_Battle",
+      "source": "번개의 칸을 빨아들여서 엘리멘탈을 만드는 연환술.",
+      "translation": "吸收雷之KAN，制造元素体的连环术",
+      "source_sha256": "c51c5466e59a79ecc2a7365e9ce2b483a6614e1c481e899d3e7329ead7fb86bf",
+      "translation_sha256": "95e34b5a667c0b6f13c342713d056f0818aa56ebc8c8629d09cc86b55bfeffb1"
+    },
+    {
+      "id": "coalesced:654b32c8039923edac8448790ce650f0a3ffb624843fba93a04df1935a9d9155",
+      "section": "Rue_Style2",
+      "key": "Rue_Skill02",
+      "source": "대지의 자세",
+      "translation": "大地架势",
+      "source_sha256": "ea203f6f21d696d3cf3eedfce183479107a82f2a4458c4cec1f75723adf5b5ac",
+      "translation_sha256": "17ab61d4903ddac1c6a5ed840d81aee0b59c380e668dbcfdb7599f2f0188d736"
+    },
+    {
+      "id": "coalesced:752acb3017f82e6942e016e87ef0304c4f68a736648d2a0b259cbcb87d036014",
+      "section": "Rue_Style2",
+      "key": "Skill_d_425",
+      "source": " 일정 시간 자신의 공격력을 상승시킨다.",
+      "translation": " 在一定时间内提高自身攻击力",
+      "source_sha256": "b094bb0ee4599c6fc2905760f4ab53e18c4fa8ef5afb3dec926bfd6336c89f06",
+      "translation_sha256": "c786c73ce4db35c0b1b325349f751fb56a3e559f4ce7bfb616c5af828e50db3e"
+    },
+    {
+      "id": "coalesced:3697a13cb6e71f38174cc1da17caee19fa953a0616ba0e47e471a0cb86860106",
+      "section": "Rue_Style2",
+      "key": "Skill_d_425_Battle",
+      "source": " 일정 시간 자신의\\n공격력을 상승시킨다.",
+      "translation": " 在一定时间内\\n提高自身攻击力",
+      "source_sha256": "74de1c61c86a8cc98e2101d6f14d32e7c452f5e8ddc689028c8b85025ebbc5ed",
+      "translation_sha256": "ed4f3d342cf4d5980f0e0841f7c51a59a644028e43d1eab8d86fabe29fb6a605"
+    },
+    {
+      "id": "coalesced:37163ecbdbd47bc723702dedbc8284853dd4bfa702a7ba069248dde1e587997d",
+      "section": "Rue_Style2",
+      "key": "Rue_Skill03",
+      "source": "라이트라",
+      "translation": "雷光术",
+      "source_sha256": "8402c8b099cf9065a35c1c4e27f30e822a5a045db6f05b05900d2c6f610b187a",
+      "translation_sha256": "ecb5534445b89bd26fac39ae85ac17410cd071bdb1ec5a7ba01b75f6a5c9ac30"
+    },
+    {
+      "id": "coalesced:aedbeed29de75179034f5d319638bb9341abded6857dfd22c4c961b603dfaa19",
+      "section": "Rue_Style2",
+      "key": "Skill_d_426",
+      "source": "수리검에 번개의 칸을 모아 하늘에서 번개를 일으킨다.",
+      "translation": "将雷之KAN聚于手里剑，从天际引发雷电",
+      "source_sha256": "8dbba6a187e83bf2c33f6f659406ad81a97d534cde38b4199187c39e881d854c",
+      "translation_sha256": "5aed49fb24d075c86de83f514adb48b41833cb8498861476c1fafc473c3f2262"
+    },
+    {
+      "id": "coalesced:c84398380c5992b70488246f11262e3c76d50328823fcb1d3182e28eb469f25d",
+      "section": "Rue_Style2",
+      "key": "Skill_d_426_Battle",
+      "source": "수리검에 번개의 칸을 모아 하늘에서 번개를 일으킨다.",
+      "translation": "将雷之KAN聚于手里剑，从天际引发雷电",
+      "source_sha256": "8dbba6a187e83bf2c33f6f659406ad81a97d534cde38b4199187c39e881d854c",
+      "translation_sha256": "5aed49fb24d075c86de83f514adb48b41833cb8498861476c1fafc473c3f2262"
+    },
+    {
+      "id": "coalesced:95038df00bdafa1bbbf0fe53a7751c18fac8f8a4218a3d99b591d68a6d505e8d",
+      "section": "Rue_Style2",
+      "key": "Rue_Skill04",
+      "source": "인법 : 뇌격천",
+      "translation": "忍法：雷击天",
+      "source_sha256": "2bcdc284163095d354e0a551ff3fec7b2387d386f246766a864f7c5ad59a8b3b",
+      "translation_sha256": "1c8cf59a061439e865a6854b3e0f33f9c6484b1542e0b585a7c8eda2bdebdcb8"
+    },
+    {
+      "id": "coalesced:2eeae15658549c26305f880e5f3642953902e7f135e6596ef50a8beaab7cf682",
+      "section": "Rue_Style2",
+      "key": "Skill_d_427",
+      "source": "번개의 칸을 수리검처럼 주변에 뿌려서 일정범위 내의 적을 공격한다.",
+      "translation": "将雷之KAN如手里剑般撒向周围，攻击一定范围内的敌人",
+      "source_sha256": "7774af095b2f3d83209f6d4678ddf13438bbaca39d4feabe81356c311e9d4bc2",
+      "translation_sha256": "eb3da157b5a60305c39517a9f2e789bdd1c6fdd1df0f0be85ea959c7a0cbf566"
+    },
+    {
+      "id": "coalesced:82a9b07ec407695509f51253c49ae42db007ad8f90a1332a99d7f1818b129841",
+      "section": "Rue_Style2",
+      "key": "Skill_d_427_Battle",
+      "source": "번개의 칸을 수리검처럼\\n주변에 뿌려서 일정범위 내의\\n적을 공격한다.",
+      "translation": "将雷之KAN如手里剑般\\n撒向周围，攻击一定范围内的\\n敌人",
+      "source_sha256": "e99f6d5d6c10241232d837c3cad9b2c40f4f82eee676c8f7a1fae84cb4aed139",
+      "translation_sha256": "2193b33d3d2638450a31fc8108d86b580a37ba5180448cc24bc2ea5bbc2d705a"
+    },
+    {
+      "id": "coalesced:45336c7d5e50f8f9b3dc867a61cb39e7a7c15770e1f5cede990dba879222e30a",
+      "section": "Rue_Style2",
+      "key": "Rue_Skill05",
+      "source": "썬더볼트",
+      "translation": "雷霆一击",
+      "source_sha256": "89fa1a28fbd8eeff0da47ed06ea1ab1866d1a8bf216a861d0ca8f15cb405649e",
+      "translation_sha256": "344d1ee348ef10ac52e6634bafaea73c98fde92dd6bf213179a5c15123f4aaaa"
+    },
+    {
+      "id": "coalesced:1996a113352e4ba3637509242a15465ee07cb1062544219d0e7ff42bf514389a",
+      "section": "Rue_Style2",
+      "key": "Skill_d_428",
+      "source": "거대한 번개를 소환하여 적을 감전시키고 일정범위내 적에게 대미지를 입힌다.",
+      "translation": "召唤巨大雷电，使敌人触电，并对一定范围内的敌人造成伤害",
+      "source_sha256": "330312555ace44db87fd994d23583a9f943047ee232c1d012fd2db97efdf4286",
+      "translation_sha256": "dffb47715cde87ae8c581c477dced601adf6a31937c8c38c483732343b832276"
+    },
+    {
+      "id": "coalesced:c10f4105f5b42b5cc474698a26fa02e7b502b4d988fab59cfb68c76b067c9ece",
+      "section": "Rue_Style2",
+      "key": "Skill_d_428_Battle",
+      "source": "거대한 번개를 소환하여 적을 감전시키고 일정범위내 적에게 대미지를 입힌다.",
+      "translation": "召唤巨大雷电，使敌人触电，并对一定范围内的敌人造成伤害",
+      "source_sha256": "330312555ace44db87fd994d23583a9f943047ee232c1d012fd2db97efdf4286",
+      "translation_sha256": "dffb47715cde87ae8c581c477dced601adf6a31937c8c38c483732343b832276"
+    },
+    {
+      "id": "coalesced:420ed3b6cc952f27552c43f836813f28a070c5213783bc216446525aabb85878",
+      "section": "Rue_Style2",
+      "key": "Rue_Skill06",
+      "source": "인법 : 초뇌격천",
+      "translation": "忍法：超雷击天",
+      "source_sha256": "75606312fef324f1767185e7ba78d3c5007568fb7402bb2b09fc58a5971bdc89",
+      "translation_sha256": "0d30e57f4673cdc284bee0548d8b48ec04ce8e4b0c1eb7ddbade47be3bb85aec"
+    },
+    {
+      "id": "coalesced:3e2822ed762eaf98f4cbd8e908bb0e05c4ca5df51f0140aaa2f65bae0ae547d4",
+      "section": "Rue_Style2",
+      "key": "Skill_d_429",
+      "source": "거대한 수리검을 소환하여 번개의 칸을 모아 적을 공격한다.",
+      "translation": "召唤巨大的手里剑，聚集雷之KAN攻击敌人",
+      "source_sha256": "196ee5fad4149e4720534db5ab6e68cb79712b4496903962e61d87e9ca16d101",
+      "translation_sha256": "51a312e656529cc1764d5f96fe48eb64befd0d07f5352bd78dccaa9edb599daf"
+    },
+    {
+      "id": "coalesced:913d085a5eca3349a907b5b0b25bb0e70332198d6db7e99a391429d452f6e454",
+      "section": "Rue_Style2",
+      "key": "Skill_d_429_Battle",
+      "source": "거대한 수리검을 소환하여 번개의 칸을 모아 적을 공격한다.",
+      "translation": "召唤巨大的手里剑，聚集雷之KAN攻击敌人",
+      "source_sha256": "196ee5fad4149e4720534db5ab6e68cb79712b4496903962e61d87e9ca16d101",
+      "translation_sha256": "51a312e656529cc1764d5f96fe48eb64befd0d07f5352bd78dccaa9edb599daf"
+    },
+    {
+      "id": "coalesced:4e38ca182c70cc927bba683cbd9093a7f5592b9c4b7ee90a47c56c74453e8fc6",
+      "section": "Rue_Style2",
+      "key": "Skill_d_243",
+      "source": "바람과 번개의 연환술의 연계오의로 적 1명에게 강력한 대미지를 입힌다.",
+      "translation": "以风与雷的连环术施展连携奥义，对1名敌人造成强大伤害",
+      "source_sha256": "092189de54fd4e88eeed72e9e6724cb306120ee93279a537daa9d7876fb51d40",
+      "translation_sha256": "2a78c0bf378119fe9ea9aa78b1db74c8a9a72da7451b6a165c52ea3447953754"
+    },
+    {
+      "id": "coalesced:ae240d39e9cba5b2821f04951ae22e4a40ecd949c447d27d65c43c978b47972a",
+      "section": "Rue_Style2",
+      "key": "Skill_d_336",
+      "source": "얼음과 번개의 연환술의 연계오의로 적 1명에게 강력한 대미지를 입힌다.",
+      "translation": "以冰与雷的连环术施展连携奥义，对1名敌人造成强大伤害",
+      "source_sha256": "aebd919bd063cdb7e58ba4b276909b0bcfd0e9cd8219bac2bc37e110baf01f1b",
+      "translation_sha256": "cad049ee769883572574fe825b2d87e93dc6c0b8c34b207dd992f0da0b440e2e"
+    },
+    {
+      "id": "coalesced:add1ed33135d10b6ac82054e05c8fb620b656b88626094c399a071e4f6cdbac6",
+      "section": "Crocell_Style1",
+      "key": "Crocell_Normal",
+      "source": "질풍화염격",
+      "translation": "疾风火炎击",
+      "source_sha256": "0ad2bf1c2048e3508a17711c1b554f99df9bfaac7474ef4910b503f0bf86131e",
+      "translation_sha256": "5c2c66469c3b6a619b2a6729ad87511e4fdc4a4953a550b1451580e0fa1fdbe8"
+    },
+    {
+      "id": "coalesced:0a31ac7c898a550cf99e7fdcfdc77738e8cd34b0e1a1596ebac3a50c9c9f31f8",
+      "section": "Crocell_Style1",
+      "key": "Crocell_inherent",
+      "source": "연환폭발",
+      "translation": "连环爆发",
+      "source_sha256": "ad6132db914a0831ae8141a7cb4fd3fdc6f1f39f62066f632eb56778b05a4cab",
+      "translation_sha256": "50dd21ff114bc806b2dbd8c14856cc78933a2e590d676eea844da527027379c6"
+    },
+    {
+      "id": "coalesced:ca76cf4ca2b55b6021807c30ae29db1a57eec4d3473952f98d496757f507ea79",
+      "section": "Crocell_Style1",
+      "key": "Crocell_Skill00",
+      "source": "질풍일격타",
+      "translation": "疾风一击打",
+      "source_sha256": "eca7dcd05be3d80662a9dc2cf43dad3f9c7a393cf8882aa654caea387e120f31",
+      "translation_sha256": "4e3dc07b47a4773049c7191cf83997763a21450e90d5d7d7d37fd8f280ef57e9"
+    },
+    {
+      "id": "coalesced:4313f627dab0c97b8b9dd9be8d1d2130b16833db70220d0a822af5017002121f",
+      "section": "Crocell_Style1",
+      "key": "Skill_d_510",
+      "source": "적에게 강력한 찌르기를 한다.",
+      "translation": "对敌人发动强力突刺",
+      "source_sha256": "646c8b2002c0482798db01b483d41f46291be02c5f0a7acb625eb62cc2255234",
+      "translation_sha256": "1f7b14733aa79fcd013891ee653f5b60d1e5df014b6a4be8ee6abd4827b4b041"
+    },
+    {
+      "id": "coalesced:af2c2e59b296c8bfb10a3c1bc8b78eab46b55f813ff104ebbfee71b5ba1d0c7d",
+      "section": "Crocell_Style1",
+      "key": "Skill_d_510_Battle",
+      "source": "적에게 강력한 찌르기를 한다.",
+      "translation": "对敌人发动强力突刺",
+      "source_sha256": "646c8b2002c0482798db01b483d41f46291be02c5f0a7acb625eb62cc2255234",
+      "translation_sha256": "1f7b14733aa79fcd013891ee653f5b60d1e5df014b6a4be8ee6abd4827b4b041"
+    },
+    {
+      "id": "coalesced:a71f24958ddc15854195a4ec855cc98cba0c046b6fb9732872c722c1a2e2d5db",
+      "section": "Crocell_Style1",
+      "key": "Crocell_Skill01",
+      "source": "화격",
+      "translation": "火击",
+      "source_sha256": "ef1d5d69fb81a1006bd944c2e04e2cde330ebcba98f3d4e14c39092e73540974",
+      "translation_sha256": "3ad25969d7cfcc63774ac3296cf47624b1e055e4ba502fe8e17d39ca32472d85"
+    },
+    {
+      "id": "coalesced:49acb2af5413a2d637062006417cfe4730f1f8df6fd0a0c88a2d2c90683154ab",
+      "section": "Crocell_Style1",
+      "key": "Skill_d_511",
+      "source": "주먹에 불꽃의 기운을 담아서 적을 쳐올린다.",
+      "translation": "将火焰之力注入拳头，向上击飞敌人",
+      "source_sha256": "28caa133b4b0ea5561ae2c1afbfb299729355d30d9954247aa8f8f85fb4b8443",
+      "translation_sha256": "4b1ae94aa3a0cfc1d6c68753a5584ea8fdc5d5d9747343510474fa0501242256"
+    },
+    {
+      "id": "coalesced:8d06ed028c222965dcb7a14a88e810b5598a5ff1b3e5053efcdbd88d5be6f2ae",
+      "section": "Crocell_Style1",
+      "key": "Skill_d_511_Battle",
+      "source": "주먹에 불꽃의 기운을 담아서 적을 쳐올린다.",
+      "translation": "将火焰之力注入拳头，向上击飞敌人",
+      "source_sha256": "28caa133b4b0ea5561ae2c1afbfb299729355d30d9954247aa8f8f85fb4b8443",
+      "translation_sha256": "4b1ae94aa3a0cfc1d6c68753a5584ea8fdc5d5d9747343510474fa0501242256"
+    },
+    {
+      "id": "coalesced:550df7b400fb121bbf4b8e8729132d15d70a27a096fe467ff6b60ea19050c3cb",
+      "section": "Crocell_Style1",
+      "key": "Crocell_Skill02",
+      "source": "폭쇄진",
+      "translation": "爆锁阵",
+      "source_sha256": "9528a5b96ed4f7cb92c7c9b314f74af674201c6fa61607dd89efb12605076fa5",
+      "translation_sha256": "58938ee50e7d45310505f695fcb73d5f3ba9a63de975ed04ffaf17b590d58e72"
+    },
+    {
+      "id": "coalesced:276cfac39350337509ba8d6b526f37044f0323cf5f3ba73f323efac04fb023ea",
+      "section": "Crocell_Style1",
+      "key": "Skill_d_513",
+      "source": "자신의 주변에 불꽃의 진을 만들어 적을 공격한다.",
+      "translation": "在自身周围布下火焰阵，攻击敌人",
+      "source_sha256": "2676b3abe459b26d0d23efd40707f79ffee943f0ac6ceaff1d8bff6255c14eaf",
+      "translation_sha256": "8d88f4903057a8113b6009702c79e51e3572ec28033965d6aba01f930e6948b4"
+    },
+    {
+      "id": "coalesced:c0eef9adb08f619d4016dfa2b3033c51d066c1f5fe70f1ca3884bb899272b9ac",
+      "section": "Crocell_Style1",
+      "key": "Skill_d_513_Battle",
+      "source": "자신의 주변에 불꽃의 진을 만들어 적을 공격한다.",
+      "translation": "在自身周围布下火焰阵，攻击敌人",
+      "source_sha256": "2676b3abe459b26d0d23efd40707f79ffee943f0ac6ceaff1d8bff6255c14eaf",
+      "translation_sha256": "8d88f4903057a8113b6009702c79e51e3572ec28033965d6aba01f930e6948b4"
+    },
+    {
+      "id": "coalesced:133cb5be6910a0f770ee6fb0d4c17df69ddc94afa5622f5e9e23c84ff114b4be",
+      "section": "Crocell_Style1",
+      "key": "Crocell_Skill03",
+      "source": "진염노호각",
+      "translation": "镇炎怒号脚",
+      "source_sha256": "964610d96605e0bb145f5247c9c0dff9f37dc662163742d32a0ffb3f5f25e69d",
+      "translation_sha256": "effe9556173df94a3eaa362ad0c7e0e159508715de31a7d64e53643d1ae2ca35"
+    },
+    {
+      "id": "coalesced:6f019e423a6768c9bef844b169a2a2ccb80eb5826c8194dcbcdad2cadf2385de",
+      "section": "Crocell_Style1",
+      "key": "Skill_d_515",
+      "source": "화려한 발 기술로 적 하나에게 큰 대미지를 입힌다.",
+      "translation": "以华丽腿法对一名敌人造成巨大伤害",
+      "source_sha256": "5a8c6de38d2a3ad230246fbcbd20d5d5c7750491c72acee8646547d004f3f02e",
+      "translation_sha256": "f6fa635b1a5be1a2dbf774184395c0c5bec47736792f7d3977d845a9325bb403"
+    },
+    {
+      "id": "coalesced:14587f5317e7d06fe427a1b6d654908bba2d661c9ef2b418a15e3a3657bb08e2",
+      "section": "Crocell_Style1",
+      "key": "Skill_d_515_Battle",
+      "source": "화려한 발 기술로 적 하나에게 큰 대미지를 입힌다.",
+      "translation": "以华丽腿法对一名敌人造成巨大伤害",
+      "source_sha256": "5a8c6de38d2a3ad230246fbcbd20d5d5c7750491c72acee8646547d004f3f02e",
+      "translation_sha256": "f6fa635b1a5be1a2dbf774184395c0c5bec47736792f7d3977d845a9325bb403"
+    },
+    {
+      "id": "coalesced:44db4b05357cca2414e3f12a03f3e33fe327c91a63f26d15cf9c9fe58c8929a4",
+      "section": "Crocell_Style1",
+      "key": "Crocell_Skill04",
+      "source": "진염나선퇴",
+      "translation": "镇炎螺旋腿",
+      "source_sha256": "9fa4c28e2a284e8f0f6abcf04a4f1721313c58063307991970e5947712c70d64",
+      "translation_sha256": "f792de8518493736805fef2b4c2cac59ecc1cabf09e45b01e2e364667fed8c1c"
+    },
+    {
+      "id": "coalesced:b4038dd690896c9d0be767b522f25df1afbb9808246c599a63d8e34b3db4704b",
+      "section": "Crocell_Style1",
+      "key": "Skill_d_517",
+      "source": "발에 불의 칸을 모아 적에게 연속으로 돌려차기를 한다.",
+      "translation": "将火之KAN聚于脚上，对敌人连续施展回旋踢",
+      "source_sha256": "dc53233b0f42a9e6103860c80cd66d838bea2941450f9e0cf0127ca0e7211cfa",
+      "translation_sha256": "7f821fc2e1c40396129747a8e6437abd78b2bd43293361a531c70897b5d195c8"
+    },
+    {
+      "id": "coalesced:2435db4d9ec06c2a926e07a37e126114b7daf6659d6a3e7fe13bccd39a1320ce",
+      "section": "Crocell_Style1",
+      "key": "Skill_d_517_Battle",
+      "source": "발에 불의 칸을 모아 적에게 연속으로 돌려차기를 한다",
+      "translation": "将火之KAN聚于脚上，对敌人连续施展回旋踢",
+      "source_sha256": "17184df5e6473a4ebd2cf449215827dc6035f220f78d38b9f9f32950741298c5",
+      "translation_sha256": "7f821fc2e1c40396129747a8e6437abd78b2bd43293361a531c70897b5d195c8"
+    },
+    {
+      "id": "coalesced:06d71e896bae74dcea1feb703967cca6d1d0f36dbda7fa813b816013d31f1286",
+      "section": "Crocell_Style1",
+      "key": "Crocell_Skill05",
+      "source": "폭쇄극진",
+      "translation": "爆锁极阵",
+      "source_sha256": "5a82d7aa59b84894a43f9eb1f95cae61869b7abd46fb965db83199bedd0e71a7",
+      "translation_sha256": "8a17e817c0b4494033cab26af0d393715268794d631e9c37fdea263b59d1f172"
+    },
+    {
+      "id": "coalesced:4d41d0d2c85800c5822a3773b6c8ee3689f269450bc5a0415188020c3eb9d907",
+      "section": "Crocell_Style1",
+      "key": "Skill_d_516",
+      "source": "지옥의 화염을 모아 한번에 방출하여 적에게 큰 대미지를 입힌다.",
+      "translation": "聚集地狱之火，一口气释放，对敌人造成巨大伤害",
+      "source_sha256": "36144724d4e12f4a81315efb2f7f4931229eec2423efc95a266ae64a146c9af4",
+      "translation_sha256": "73a8128d65e15687f6d3c6d6cd837eeb4d7dca33d21d8dbe5fb99ba0900f0327"
+    },
+    {
+      "id": "coalesced:648dda55034a36008b2080855c3ffc89c9df041bf30275dab83f9dccd29ebce8",
+      "section": "Crocell_Style1",
+      "key": "Skill_d_516_Battle",
+      "source": "지옥의 화염을 모아\\n한번에 방출하여 적에게\\n큰 대미지를 입힌다.",
+      "translation": "聚集地狱之火，\\n一口气释放，对敌人\\n造成巨大伤害",
+      "source_sha256": "3a3eabfd04e37512ae4122abb3ba60c2441501281056639dba2586fe8a9da16f",
+      "translation_sha256": "69f2275ab03c4860b8a5eb1482218e0ebb9dbe6eee24d0a69fe8d98bdc932ac7"
+    },
+    {
+      "id": "coalesced:94bca7b0df7ad8b13b16a31267c347a3cc6d8b259fe52e81d0a7e78b8a1b2730",
+      "section": "Crocell_Style1",
+      "key": "Crocell_Skill06",
+      "source": "연옥정마권",
+      "translation": "炼狱净魔拳",
+      "source_sha256": "42021a680c7278275fcddfd55648dd72db2ba1a9441ecd208cabcf9b865eca8d",
+      "translation_sha256": "f2e7b56cd036525bc5e24087321656e43b0bacd9ebe46e43fb7f6f9b70265a1a"
+    },
+    {
+      "id": "coalesced:3f67ee3bc0014a309a71f9baf5c8936f0c294d4a5b903bd248f4e4388a56c9fe",
+      "section": "Crocell_Style1",
+      "key": "Skill_d_519",
+      "source": "연옥의 지배자의 손을 소환하여 마를 정화하는 불꽃을 내뿜어 적을 공격한다.",
+      "translation": "召唤炼狱支配者之手，喷吐净魔火焰攻击敌人",
+      "source_sha256": "3f2577d587cc5e86f461b17cd585b30a3d49a849fd0bfb5375b9c58241ac87f5",
+      "translation_sha256": "75895649391c67213fd64ccfb47e0ca1801a79b0cadca78afaa0c5c13ff8c0ad"
+    },
+    {
+      "id": "coalesced:541a85445c30700166da01c43e91deee0ef1b6cf09ca739d1eed07c450b2c2d3",
+      "section": "Crocell_Style1",
+      "key": "Skill_d_519_Battle",
+      "source": "연옥의 지배자의 손을 소환하여 마를 정화하는 불꽃을 내뿜어 적을 공격한다. ",
+      "translation": "召唤炼狱支配者之手，喷吐净魔火焰攻击敌人 ",
+      "source_sha256": "340f9eb29ab321c729caf98f9e3c1dc8f71e6fd4e7302579a978c23f30da3d2b",
+      "translation_sha256": "6995c0ee7d090362fdd5cb5d1f37368d5089fe9fd749fec92255511e47cd65e4"
+    },
+    {
+      "id": "coalesced:f8aff533caa3298e5c2dabb127087125e6bc2182e7ad843d87feff2f5233c4ff",
+      "section": "Crocell_Style2",
+      "key": "Crocell_Normal",
+      "source": "옥염선풍",
+      "translation": "玉炎旋风",
+      "source_sha256": "bfa67590e8d301b2b30fb9ace958f13f8ab956c8be296ed01d1664bf5b027912",
+      "translation_sha256": "f22a0dfd7a689ec2c59fae7f99f6ac6ded29895064bb65c3cc7cb57457e8a136"
+    },
+    {
+      "id": "coalesced:a7ce2d2e9893e319a9178a81ea78c56dd0b1e46d1b8837cd6d8594424efa9d3f",
+      "section": "Crocell_Style2",
+      "key": "Crocell_inherent",
+      "source": "연환력증대",
+      "translation": "连环力增幅",
+      "source_sha256": "d935ea1f99254339c75839c6b4171b070eb4e4c39af5674d9d7b564734784cf1",
+      "translation_sha256": "654b4dc33f38eca1806df74a1609393dc5fe363458cb02e510e6a1da3a77256e"
+    },
+    {
+      "id": "coalesced:660477dc80ed9d22638d3897839c4e94074ce0226b5365cc4cbbb317cfb61b41",
+      "section": "Crocell_Style2",
+      "key": "Crocell_Skill00",
+      "source": "블레이즈 스피어",
+      "translation": "烈焰枪",
+      "source_sha256": "7f7b01d0e26749db3005984eada15cf1a32bb12531c63e1353e6b4f33b27e19b",
+      "translation_sha256": "fbb822584c7476864b15f3c94cfee19178c5eb3465707b931707d6a91639994f"
+    },
+    {
+      "id": "coalesced:9d9a0a83e73e9a1be0049c00b255dcf1446de0aeda0a16d34d4b4631da5376dd",
+      "section": "Crocell_Style2",
+      "key": "Skill_d_526",
+      "source": "화염구를 발로 차서 적을 공격하는 연환술.",
+      "translation": "以脚踢火球攻击敌人的连环术",
+      "source_sha256": "fd39f8cb568fb3a85a4e8ed627b6468d05e0cd51b9169f5a65e3560c06238090",
+      "translation_sha256": "92faf7c1ee2f699692c72c678c366a6ada40019204130173b95d6a7401a6c001"
+    },
+    {
+      "id": "coalesced:c1660145131f1045c5c8aebdb3ff1efdd991b641c193ccdcab90bea95a3e42d9",
+      "section": "Crocell_Style2",
+      "key": "Skill_d_526_Battle",
+      "source": "화염구를 발로 차서\\n적을 공격하는 연환술.",
+      "translation": "以脚踢火球，\\n攻击敌人的连环术",
+      "source_sha256": "cdabae15147512c42183e22373c3bcfbca29af3aa569baface04b3878d545c81",
+      "translation_sha256": "cb6357cb06554d6d477cb0600d288ad786ea388d0291fbba1fd87083b88f7887"
+    },
+    {
+      "id": "coalesced:b13d9398023e4532d4a4487b4331b1b5019b5f95fc7ba01a9102e0df305467ef",
+      "section": "Crocell_Style2",
+      "key": "Crocell_Skill01",
+      "source": "프레카시린",
+      "translation": "弗雷卡希林",
+      "source_sha256": "f497a91b4d35ae36b8f70a6d20863fbe2cff486f39afeb7517d59cdc24ac7224",
+      "translation_sha256": "108b6ca019dcc106738800f0cc69c203e655cdd36e07e0fda77029b9551b69bb"
+    },
+    {
+      "id": "coalesced:7f064babcdfc89ed306b86d925a7ff4ff5cbae998cf6c4407dcfce7efc65dffa",
+      "section": "Crocell_Style2",
+      "key": "Skill_d_530",
+      "source": "불의 칸을 빨아들여서 엘리멘탈을 만드는 연환술.",
+      "translation": "吸收火之KAN，制造元素体的连环术",
+      "source_sha256": "356ae5284589720bbe5e0530266e3a2c0e4c3b477cc7f059c8471d48f1f97327",
+      "translation_sha256": "bc07bdf5fdb17257cc3982cb449c8b1d42f4b431c5b215ae5f04a67df237721f"
+    },
+    {
+      "id": "coalesced:c579ab83c708ee3e35d4bada802f3d36d719d2562575a43128ac922bd70e6650",
+      "section": "Crocell_Style2",
+      "key": "Skill_d_530_Battle",
+      "source": "불의 칸을 빨아들여서 엘리멘탈을 만드는 연환술.",
+      "translation": "吸收火之KAN，制造元素体的连环术",
+      "source_sha256": "356ae5284589720bbe5e0530266e3a2c0e4c3b477cc7f059c8471d48f1f97327",
+      "translation_sha256": "bc07bdf5fdb17257cc3982cb449c8b1d42f4b431c5b215ae5f04a67df237721f"
+    },
+    {
+      "id": "coalesced:b2b35b5df8d9710c60e355408228a717b09c8ab4abdfb42b299d18770af33522",
+      "section": "Crocell_Style2",
+      "key": "Crocell_Skill02",
+      "source": "프레이러",
+      "translation": "灼焰术",
+      "source_sha256": "78db16f2d34bd940b717d450431f57e85b81d4d9527b78d5610cd5400f111b45",
+      "translation_sha256": "1fd76ee3d17854689d108d149a401c7c6ba719d7af07ec6ac39540d58f944759"
+    },
+    {
+      "id": "coalesced:9ddcbd78a8f08b38123380472257ebfac8d79cf2512f6b67ebaafc61e2185b7b",
+      "section": "Crocell_Style2",
+      "key": "Skill_d_532",
+      "source": "작열의 화염 덩어리를 적에게 쏴버리는 연환술.",
+      "translation": "向敌人发射炽热火团的连环术",
+      "source_sha256": "f60531146dd0672e2b246bd46aed70d75711b77bd5318788c7c5fb68e3d4ea01",
+      "translation_sha256": "471173bab43333a2893b60659a8a7d4a1919b3db547795d7754cdc2c919710f3"
+    },
+    {
+      "id": "coalesced:24c0b67c3e5d4cf0968d67258367ff3d5987e75dfa36db5adcb7e41d43ba8c26",
+      "section": "Crocell_Style2",
+      "key": "Skill_d_532_Battle",
+      "source": " 작열의 화염 덩어리를\\n적에게 쏴버리는 연환술.",
+      "translation": " 向敌人发射炽热火团的\\n连环术",
+      "source_sha256": "142bc8af6895d71360aa6a6f0d6e3678c18eeed02ac41d2bd29b145a6318d635",
+      "translation_sha256": "fbba1867b2b855b2df149c00d081619a4a23adca957af40f1e06537ae38e86eb"
+    },
+    {
+      "id": "coalesced:a916862fb778a03e03f853f86ba950175f68ed9b916ee9132a3968cbc6c9cde4",
+      "section": "Crocell_Style2",
+      "key": "Crocell_Skill03",
+      "source": "엑스클러스터",
+      "translation": "爆炎群星",
+      "source_sha256": "35e4a5a71a6e570d0fe34736512a26551abb21bba75d0d9d175be026c4fcb96c",
+      "translation_sha256": "f2e1af84318f151bd74207f0d0c3d7ae05a20df095f5131e415f8c26b2706363"
+    },
+    {
+      "id": "coalesced:86634e5933d02142f7fd2f60723c2f04c6fc97469ff3b9b8f31413c16948963f",
+      "section": "Crocell_Style2",
+      "key": "Skill_d_533",
+      "source": "불의 칸을 손에 모아, 하늘에서 불덩어리를 떨어뜨려 다수의 적을 공격한다.",
+      "translation": "将火之KAN聚于手中，从天际降下火球攻击多名敌人",
+      "source_sha256": "b1c462235ba63a0d7e86d9a73ffbc1ae9bc298ad1878780f18248a5a6f24ee81",
+      "translation_sha256": "b1ed185a976cc9cc69589170e162e68bba98daf7c1295b844745356acd358ba3"
+    },
+    {
+      "id": "coalesced:67d1115a663df5b2b02b6cb8cbd1bd4d9b2b75f420d1a9f4b7255fed7764b043",
+      "section": "Crocell_Style2",
+      "key": "Skill_d_533_Battle",
+      "source": "불의 칸을 손에 모아,\\n하늘에서 불덩어리를 떨어뜨려\\n다수의 적을 공격한다.",
+      "translation": "将火之KAN聚于手中，\\n从天际降下火球，\\n攻击多名敌人",
+      "source_sha256": "95d6c26049d70dccdf96132ee9f1702084d57891cf197b82df0624cd687c371a",
+      "translation_sha256": "ee82cc32ab9cfd6d01c010c12fc55963c36374ee7d7d0e35908c503ba576818c"
+    },
+    {
+      "id": "coalesced:05aef48b4368b6b332dc0b9a6a12e2b1e7229e6556ffd0c62beaeba37e444a28",
+      "section": "Crocell_Style2",
+      "key": "Crocell_Skill04",
+      "source": "노바 서클",
+      "translation": "新星之环",
+      "source_sha256": "3e68da61c60f2f62c187c3d332cae653b353a7771090409826041cde400650ab",
+      "translation_sha256": "8760d9d3d341de5190286ba1ea58e6695011eb332e97f192e568302beba61635"
+    },
+    {
+      "id": "coalesced:ea54eeb6860580a34f3cc93f531121bbdb96056ad8e7438d1cee0c0a8190d29f",
+      "section": "Crocell_Style2",
+      "key": "Skill_d_536",
+      "source": "불의 칸을 모아 샐러맨더를 소환하여 일정범위내의 적을 공격한다.",
+      "translation": "聚集火之KAN，召唤火蜥蜴，攻击一定范围内的敌人",
+      "source_sha256": "57d30078ca5ad6aec91a3ae743e7d8d9863166a9d3fc98bac25638297ce838d8",
+      "translation_sha256": "015710b7621e01d79ec9de2b66107c067e4b3184eafbbd4de341f4420f2158c0"
+    },
+    {
+      "id": "coalesced:93ac283f1b56ff2c1c267fa150cad5cbf24b1527df6aee6c68a3542e6669e186",
+      "section": "Crocell_Style2",
+      "key": "Skill_d_536_Battle",
+      "source": "불의 칸을 모아 샐러맨더를 소환하여 일정범위내의\\n적을 공격한다.",
+      "translation": "聚集火之KAN，召唤火蜥蜴，攻击一定范围内的\\n敌人",
+      "source_sha256": "fea80cd666150a3b1fda9d9434cba4cc0bcf94305ad7775c1d477c60aa9e6f67",
+      "translation_sha256": "80d903df301220b000582f20323f86a7d19f9326c871d5478374c9cd5d5e0fde"
+    },
+    {
+      "id": "coalesced:6ca0cc0e82cad8378feadc4f365bd89bd8ef8063c62da11e9ea56c3411355dda",
+      "section": "Crocell_Style2",
+      "key": "Crocell_Skill05",
+      "source": "세라피 레이즈",
+      "translation": "炽天使之焰",
+      "source_sha256": "3960d4b7f0615f2f612948504e5c04820185fbd1f57869cc09dc43302661121b",
+      "translation_sha256": "e3d7b2df5e12b5d960eb0f8711d84de176466ccb91af3f359f63b625b2f4ad9e"
+    },
+    {
+      "id": "coalesced:f608788ee5854c91f602106cf28204b54f6bf4e79cb79addb1c7598d073512b5",
+      "section": "Crocell_Style2",
+      "key": "Skill_d_535",
+      "source": "연옥의 화염을 적에게 방출, 대폭발을 일으켜 적을 공격한다.",
+      "translation": "向敌人释放炼狱之火，引发大爆炸攻击敌人",
+      "source_sha256": "d9d2011a9fc7d6cf85f832c8e64eb191d1e5de0afb4fb58307a31209994f979f",
+      "translation_sha256": "35940de5b16a5e4eca35b998995dcc8cf04bd5a52ee99717e6efe15cf7c89c8e"
+    },
+    {
+      "id": "coalesced:fbc4edca1b75d4082f9e0fc7eea2e1bbfba988f48c41a76fea7f5d0c9d94041d",
+      "section": "Crocell_Style2",
+      "key": "Skill_d_535_Battle",
+      "source": "연옥의 화염을 적에게 방출, 대폭발을 일으켜 적을 공격한다.",
+      "translation": "向敌人释放炼狱之火，引发大爆炸攻击敌人",
+      "source_sha256": "d9d2011a9fc7d6cf85f832c8e64eb191d1e5de0afb4fb58307a31209994f979f",
+      "translation_sha256": "35940de5b16a5e4eca35b998995dcc8cf04bd5a52ee99717e6efe15cf7c89c8e"
+    },
+    {
+      "id": "coalesced:8e922e2ca7d0429b6db41d5a615dc8af30a3d32372c7b8e26657c1985b382d68",
+      "section": "Crocell_Style2",
+      "key": "Skill_d_39",
+      "source": "불의 연환술과 양손검의 연계오의로 적 1명에게 강력한 대미지를 입힌다.",
+      "translation": "以火之连环术与双手剑施展连携奥义，对1名敌人造成强大伤害",
+      "source_sha256": "6b83e6b098be560dd6043c39feffda48002376b883cbedbbfe0be66920e2c27d",
+      "translation_sha256": "e2b935e946370ab5842a58184d143bbf4f10d986fac0c00b1072428b793360a2"
+    },
+    {
+      "id": "coalesced:ab64af0b75f1ff8c64d38d3f81ee4680b5ca7542c26cdf09856084f6beac86f9",
+      "section": "Renkai_Ougi",
+      "key": "Juto_Zephie_Renkai",
+      "source": "천풍일격섬",
+      "translation": "天风一击闪",
+      "source_sha256": "7480a0888eee0d4d157c171f5947a667861bd97b72299cb88303599cbd3d79bc",
+      "translation_sha256": "c02184e5f130da2349227f552be6067a4f0232882ac16a3d51c8641e5f348481"
+    },
+    {
+      "id": "coalesced:e373bd39bd46fa0990f85c571bae61efc4bade9bc9164dfba3fd68da4c94f1f0",
+      "section": "Renkai_Ougi",
+      "key": "Skill_d_38",
+      "source": "바람의 연환술과 양손검의 연계오의로 적 1명에게 강력한 대미지를 입힌다.",
+      "translation": "以风之连环术与双手剑施展连携奥义，对1名敌人造成强大伤害",
+      "source_sha256": "c5d7cc1c2896a15b9e7fe6bf31554a61f6a97fccf0f2139a7920aa5848732fe7",
+      "translation_sha256": "0e811ee80e059f38fd2825ddbcfc8860b10f58216276610a84e4be77a47a15d4"
+    },
+    {
+      "id": "coalesced:a7e9a3115c24b0dd63eaa1e93b75e28dd24863029da81984189d90da4a7d92a2",
+      "section": "Renkai_Ougi",
+      "key": "Juto_Crocell_Renkai",
+      "source": "노바 슬래시",
+      "translation": "新星斩",
+      "source_sha256": "98673f24c42a6edb15a37af21b2d31eefa8c2861e6c87eaec2356759d03c1f6f",
+      "translation_sha256": "d32e55cced32a0bfcce6acf491ae33f50021dd12dae43f9c5ef148d464cf2cb5"
+    },
+    {
+      "id": "coalesced:50a9fae18deef82431f860fdba89293c3af1f0621f9d713e2c5a9cee82192243",
+      "section": "Renkai_Ougi",
+      "key": "Skill_d_39",
+      "source": "불의 연환술과 양손검의 연계오의로 적 1명에게 강력한 대미지를 입힌다.",
+      "translation": "以火之连环术与双手剑施展连携奥义，对1名敌人造成强大伤害",
+      "source_sha256": "6b83e6b098be560dd6043c39feffda48002376b883cbedbbfe0be66920e2c27d",
+      "translation_sha256": "e2b935e946370ab5842a58184d143bbf4f10d986fac0c00b1072428b793360a2"
+    },
+    {
+      "id": "coalesced:db5fc8595629174a01a32e48dad0f6f33c0abe4424082019a4b57d556b8d98fb",
+      "section": "Renkai_Ougi",
+      "key": "Argo_Celestine_Renkai",
+      "source": "블리자드엣지",
+      "translation": "暴雪之刃",
+      "source_sha256": "7da5d0f7362012f6d240a31b913ebbec9bd4ea15ccfb8cc92c07e12685c882c8",
+      "translation_sha256": "0e17859a67f2c69537881b73fdb21a251bbe8924020c27ec288b4e83fa8dc332"
+    },
+    {
+      "id": "coalesced:94ae3762566e45300c3f57829fc6f577ab8fc07ce4261586f491224e70bef606",
+      "section": "Renkai_Ougi",
+      "key": "Skill_d_132",
+      "source": "얼음의 연환술과 도끼의 연계오의로 적 1명에게 강력한 대미지를 입힌다.",
+      "translation": "以冰之连环术与斧头施展连携奥义，对1名敌人造成强大伤害",
+      "source_sha256": "6a312f6005e5d58bf82f218afff9b7cb7adc411f1a8114787fdd918a43187c77",
+      "translation_sha256": "723f3c6fa57658af6f1a59b86858fea91d4683e39f8ecefbd38c4b2e18bda707"
+    },
+    {
+      "id": "coalesced:096318b25d0cef2b1c2f3716edec0d6e7f30673f29d006af690bc6c0eb094d5b",
+      "section": "Renkai_Ougi",
+      "key": "Zephie_Rue_Renkai",
+      "source": "천뇌천풍인",
+      "translation": "天雷天风印",
+      "source_sha256": "c9d3301d7607710e6d69bfad65708f9a1f8e9bc96db83d42a8f99678d98f6c96",
+      "translation_sha256": "d0df2cefa32775aac96dc30954085f0b468fea5f737699cc9622f8f4c63b26eb"
+    },
+    {
+      "id": "coalesced:d02cca0a45466b43635aa14caa97a7a936f0c90f0f5f0dbae180097f716d8183",
+      "section": "Renkai_Ougi",
+      "key": "Skill_d_37",
+      "source": "바람과 번개의 연환술의 연계오의로 적 1명에게 강력한 대미지를 입힌다.",
+      "translation": "以风与雷的连环术施展连携奥义，对1名敌人造成强大伤害",
+      "source_sha256": "092189de54fd4e88eeed72e9e6724cb306120ee93279a537daa9d7876fb51d40",
+      "translation_sha256": "2a78c0bf378119fe9ea9aa78b1db74c8a9a72da7451b6a165c52ea3447953754"
+    },
+    {
+      "id": "coalesced:fb07957f9ed536c4d0efbf82d19a1bf0b7959652526e6dcdaf5f43a85a8b5225",
+      "section": "Renkai_Ougi",
+      "key": "Celestine_Rue_Renkai",
+      "source": "초빙결뇌진폭",
+      "translation": "超冰结雷震爆",
+      "source_sha256": "a788642788e0e63d8fafce4850d4d4fe58edef7d661c2a373e4e4b2c90056fff",
+      "translation_sha256": "da304e330049a86c2e78f70f088fb9b3255eb3d84eda5d517623c795b7a06290"
+    },
+    {
+      "id": "coalesced:dacc826ac97f366f530bdf7db67ae20723de9f871e311ff2351b8ea5bc160a68",
+      "section": "Renkai_Ougi",
+      "key": "Skill_d_37",
+      "source": "얼음과 번개의 연환술의 연계오의로 적 1명에게 강력한 대미지를 입힌다.",
+      "translation": "以冰与雷的连环术施展连携奥义，对1名敌人造成强大伤害",
+      "source_sha256": "aebd919bd063cdb7e58ba4b276909b0bcfd0e9cd8219bac2bc37e110baf01f1b",
+      "translation_sha256": "cad049ee769883572574fe825b2d87e93dc6c0b8c34b207dd992f0da0b440e2e"
+    }
+  ],
+  "retained_originals": [
+    {
+      "id": "coalesced:ee88d4690240bbb9e7243dfecc14335c3c7c66a8a4f94fd1827892d4e7d9fd50",
+      "section": "StatStrong",
+      "key": "HP",
+      "source_sha256": "a21788822be4dfd2650f310e07e21538fe2afbc06b0a346d54aae5a2e364bac2"
+    },
+    {
+      "id": "coalesced:fe961247aa119570dd603f918c082406d5bdb29466d742fc715fd00037323430",
+      "section": "StatStrong",
+      "key": "STR",
+      "source_sha256": "fbfb93e64f249fb0a1d4a3d3c96ab2d910d4bb03bed6bd905a216ab467cf452e"
+    },
+    {
+      "id": "coalesced:b24b147523329f3c3d3849f035c86e4c63ef3f2e8055e326956978d2c4770ad0",
+      "section": "StatStrong",
+      "key": "DEF",
+      "source_sha256": "71bd17a9ca0fa42b325bd6cc39ae4cce380760eaa7610e87aa8a790900a79be9"
+    },
+    {
+      "id": "coalesced:129be4ee9522b4db2cf69161db2a1038792a1e596d3ce3bb567d87442c92cbdb",
+      "section": "StatStrong",
+      "key": "ESP",
+      "source_sha256": "f86dd1474e14bc8ae94afe14dba9c9ac3a04a330656e4983596f3f8b4f3af09e"
+    },
+    {
+      "id": "coalesced:326e050ec090e2598d855e5afb7da7873583d27d1aaa484e328d6d2f8d4bd30f",
+      "section": "StatStrong",
+      "key": "ESR",
+      "source_sha256": "25283be3c77e2e1fcd2a03ec5265bb46b7ab05c9cf7577380be3635b6e69d2a7"
+    },
+    {
+      "id": "coalesced:4d2cc0c48055b55bea66cd1ac61c91f27ff2a0a7499e069362487b77eac5cada",
+      "section": "StatStrong",
+      "key": "DEX",
+      "source_sha256": "0f261c35575d057a530be8e42f7328f86640cbed12385132b01b60d9b6e688f4"
+    },
+    {
+      "id": "coalesced:7e2f92a080c4fca32ac4914af6b6edd71b35f6a9dbc84c43808de037eab2dba0",
+      "section": "StatStrong",
+      "key": "STA",
+      "source_sha256": "4cb5d89eda66ab110893663c6324e9a0f46364568f2a5f0f5712601fe32ed4d1"
+    },
+    {
+      "id": "coalesced:207d204efd64ce09e867718ad62eaf8ff0d3a83480e802c92c77da97aa793b1d",
+      "section": "StatStrong",
+      "key": "SRV",
+      "source_sha256": "0a77cbe345b995ca9422df12b67564bdf4a44c68ab757694599ab1572ed9b4d2"
+    },
+    {
+      "id": "coalesced:5579741fcdca8c68bd4c5cce0dc25d2122f4d7d111aad961e31e3ce77a88b335",
+      "section": "StatStrong",
+      "key": "PercentUP",
+      "source_sha256": "8b55a6ffb22c3514102789b8b756024c19c5f910e8f33cc31d31e216334b2a32"
+    },
+    {
+      "id": "coalesced:34eef98fe7bd705190da89a19d6ea9a1f9c838995e91c8c745c9193bc722a010",
+      "section": "StatStrong",
+      "key": "normalUP",
+      "source_sha256": "d5b9f970c9b8926d78338e08a685e91769a52ff12fd74703a4708f5b4491b136"
+    }
+  ],
+  "parallel_locale_sources": [
+    {
+      "disc": 1,
+      "container": "build/disc1-selected/MC2Game/Localization/Coalesced.jpn",
+      "container_sha256": "fb99602a9ff5f081857efa7389d6d2b6ecfc6765946f0bba2fbde4cdbf962a90",
+      "section": "Juto_Style2",
+      "key": "Juto_Skill03",
+      "source": "破鎖乱閃",
+      "source_sha256": "e6ebaa5cc7ea94dc8a6e6c4ff68ae4d7465538d6ad6941cda99d5fdc29117fcb"
+    },
+    {
+      "disc": 1,
+      "container": "build/disc1-selected/MC2Game/Localization/Coalesced.jpn",
+      "container_sha256": "fb99602a9ff5f081857efa7389d6d2b6ecfc6765946f0bba2fbde4cdbf962a90",
+      "section": "Juto_Style2",
+      "key": "Skill_d_30",
+      "source": "敵を斬り払い、カンの欠片を爆発させて敵１体を攻撃する",
+      "source_sha256": "b2db8d7624005130e5ad52bdeaa584ed027f5b946aae4dd0d85c0dc9ff69c9af"
+    },
+    {
+      "disc": 1,
+      "container": "build/disc1-selected/MC2Game/Localization/Coalesced.jpn",
+      "container_sha256": "fb99602a9ff5f081857efa7389d6d2b6ecfc6765946f0bba2fbde4cdbf962a90",
+      "section": "Juto_Style2",
+      "key": "Skill_d_30_Battle",
+      "source": "敵を斬り払い\\nカンの欠片を爆発させて\\n敵１体を攻撃する",
+      "source_sha256": "87107c576b5c353a32928d385d5bf46dbbf6703e54651f12bb3ab95e925a4317"
+    },
+    {
+      "disc": 1,
+      "container": "build/disc1-selected/MC2Game/Localization/Coalesced.jpn",
+      "container_sha256": "fb99602a9ff5f081857efa7389d6d2b6ecfc6765946f0bba2fbde4cdbf962a90",
+      "section": "Crocell_Style1",
+      "key": "Crocell_Skill02",
+      "source": "爆鎖陣",
+      "source_sha256": "946722daaef795ea169a0ccd5263a2216f9dcf23f517f91adca1db7e226541e8"
+    },
+    {
+      "disc": 1,
+      "container": "build/disc1-selected/MC2Game/Localization/Coalesced.jpn",
+      "container_sha256": "fb99602a9ff5f081857efa7389d6d2b6ecfc6765946f0bba2fbde4cdbf962a90",
+      "section": "Crocell_Style1",
+      "key": "Skill_d_513",
+      "source": "自身の周辺に炎の円陣を作り、周辺の敵を攻撃する",
+      "source_sha256": "8ec6bd64c2d2a67ba7ba82a64639eedb440c70192151d0a6cdf49d9e118a0159"
+    },
+    {
+      "disc": 1,
+      "container": "build/disc1-selected/MC2Game/Localization/Coalesced.jpn",
+      "container_sha256": "fb99602a9ff5f081857efa7389d6d2b6ecfc6765946f0bba2fbde4cdbf962a90",
+      "section": "Crocell_Style1",
+      "key": "Crocell_Skill03",
+      "source": "鎮炎怒号脚",
+      "source_sha256": "015122da94e8fb52a828763af3da6cd1fb16c9825d0f416df4a1385bc22dfde3"
+    },
+    {
+      "disc": 1,
+      "container": "build/disc1-selected/MC2Game/Localization/Coalesced.jpn",
+      "container_sha256": "fb99602a9ff5f081857efa7389d6d2b6ecfc6765946f0bba2fbde4cdbf962a90",
+      "section": "Crocell_Style1",
+      "key": "Skill_d_515",
+      "source": "火のカンを溜めた足で一気に敵を蹴り上げ、敵１体に大ダメージ",
+      "source_sha256": "412a31d0f98ac2ffda50a2284450cbc3128a238486d5aea29777fc5906d89db5"
+    },
+    {
+      "disc": 1,
+      "container": "build/disc1-selected/MC2Game/Localization/Coalesced.jpn",
+      "container_sha256": "fb99602a9ff5f081857efa7389d6d2b6ecfc6765946f0bba2fbde4cdbf962a90",
+      "section": "Crocell_Style1",
+      "key": "Crocell_Skill04",
+      "source": "鎮炎螺旋槌",
+      "source_sha256": "390a5f5707835fc27559a6c66ff6b31bd5640ec093260fd2f9d7f9e1ce082a14"
+    },
+    {
+      "disc": 1,
+      "container": "build/disc1-selected/MC2Game/Localization/Coalesced.jpn",
+      "container_sha256": "fb99602a9ff5f081857efa7389d6d2b6ecfc6765946f0bba2fbde4cdbf962a90",
+      "section": "Crocell_Style1",
+      "key": "Skill_d_517",
+      "source": "火のカンを溜めた足で連続回し蹴りをし、敵１体に大ダメージ",
+      "source_sha256": "01d6f857c94370b4733041989bacf532b7ad99715dea091d080336196b4f030c"
+    },
+    {
+      "disc": 1,
+      "container": "build/disc1-selected/MC2Game/Localization/Coalesced.jpn",
+      "container_sha256": "fb99602a9ff5f081857efa7389d6d2b6ecfc6765946f0bba2fbde4cdbf962a90",
+      "section": "Crocell_Style1",
+      "key": "Crocell_Skill05",
+      "source": "爆鎖極陣",
+      "source_sha256": "9f66825ca1b11e84b8fbccb0943b966bf3aea3d0b674e0ec9fd503d07154e525"
+    },
+    {
+      "disc": 1,
+      "container": "build/disc1-selected/MC2Game/Localization/Coalesced.jpn",
+      "container_sha256": "fb99602a9ff5f081857efa7389d6d2b6ecfc6765946f0bba2fbde4cdbf962a90",
+      "section": "Crocell_Style1",
+      "key": "Skill_d_516",
+      "source": "地獄の火炎を集めて一気に解き放ち、敵１体に大ダメージ",
+      "source_sha256": "ec6d69b7c6023ddaddf52e176aadc5740dbd48f7ef1aa4ef37ca0d7a405dda50"
+    },
+    {
+      "disc": 1,
+      "container": "build/disc1-selected/MC2Game/Localization/Coalesced.jpn",
+      "container_sha256": "fb99602a9ff5f081857efa7389d6d2b6ecfc6765946f0bba2fbde4cdbf962a90",
+      "section": "Crocell_Style2",
+      "key": "Crocell_Normal",
+      "source": "玉炎旋風",
+      "source_sha256": "1ca7f0236a015b907987f77f789ab48f0a734d2ec5ac57d6dde4cdba6033e585"
+    },
+    {
+      "disc": 1,
+      "container": "build/disc1-selected/MC2Game/Localization/Coalesced.jpn",
+      "container_sha256": "fb99602a9ff5f081857efa7389d6d2b6ecfc6765946f0bba2fbde4cdbf962a90",
+      "section": "Crocell_Style2",
+      "key": "Crocell_inherent",
+      "source": "錬換力増大",
+      "source_sha256": "ea4a821848d6722cf200a2b4761c5313d8cfe4afd3dcf5a818436f6246178690"
+    },
+    {
+      "disc": 1,
+      "container": "build/disc1-selected/MC2Game/Localization/Coalesced.jpn",
+      "container_sha256": "fb99602a9ff5f081857efa7389d6d2b6ecfc6765946f0bba2fbde4cdbf962a90",
+      "section": "Crocell_Style2",
+      "key": "Crocell_Skill00",
+      "source": "ブレイズスピア",
+      "source_sha256": "9aa100330fbc2214e6f5f6ff207230253f1125fd6d4f21909c37914356b35ad0"
+    },
+    {
+      "disc": 1,
+      "container": "build/disc1-selected/MC2Game/Localization/Coalesced.jpn",
+      "container_sha256": "fb99602a9ff5f081857efa7389d6d2b6ecfc6765946f0bba2fbde4cdbf962a90",
+      "section": "Crocell_Style2",
+      "key": "Skill_d_526",
+      "source": "火炎を集めて足で蹴り、敵１体を攻撃する",
+      "source_sha256": "233dd9997e0dc0a6c865e5ff94aa1fd03c06b944611511dfcc77305543f1e91a"
+    },
+    {
+      "disc": 2,
+      "container": "build/disc2-selected/MC2Game/Localization/Coalesced.jpn",
+      "container_sha256": "fb99602a9ff5f081857efa7389d6d2b6ecfc6765946f0bba2fbde4cdbf962a90",
+      "section": "Juto_Style2",
+      "key": "Juto_Skill03",
+      "source": "破鎖乱閃",
+      "source_sha256": "e6ebaa5cc7ea94dc8a6e6c4ff68ae4d7465538d6ad6941cda99d5fdc29117fcb"
+    },
+    {
+      "disc": 2,
+      "container": "build/disc2-selected/MC2Game/Localization/Coalesced.jpn",
+      "container_sha256": "fb99602a9ff5f081857efa7389d6d2b6ecfc6765946f0bba2fbde4cdbf962a90",
+      "section": "Juto_Style2",
+      "key": "Skill_d_30",
+      "source": "敵を斬り払い、カンの欠片を爆発させて敵１体を攻撃する",
+      "source_sha256": "b2db8d7624005130e5ad52bdeaa584ed027f5b946aae4dd0d85c0dc9ff69c9af"
+    },
+    {
+      "disc": 2,
+      "container": "build/disc2-selected/MC2Game/Localization/Coalesced.jpn",
+      "container_sha256": "fb99602a9ff5f081857efa7389d6d2b6ecfc6765946f0bba2fbde4cdbf962a90",
+      "section": "Juto_Style2",
+      "key": "Skill_d_30_Battle",
+      "source": "敵を斬り払い\\nカンの欠片を爆発させて\\n敵１体を攻撃する",
+      "source_sha256": "87107c576b5c353a32928d385d5bf46dbbf6703e54651f12bb3ab95e925a4317"
+    },
+    {
+      "disc": 2,
+      "container": "build/disc2-selected/MC2Game/Localization/Coalesced.jpn",
+      "container_sha256": "fb99602a9ff5f081857efa7389d6d2b6ecfc6765946f0bba2fbde4cdbf962a90",
+      "section": "Crocell_Style1",
+      "key": "Crocell_Skill02",
+      "source": "爆鎖陣",
+      "source_sha256": "946722daaef795ea169a0ccd5263a2216f9dcf23f517f91adca1db7e226541e8"
+    },
+    {
+      "disc": 2,
+      "container": "build/disc2-selected/MC2Game/Localization/Coalesced.jpn",
+      "container_sha256": "fb99602a9ff5f081857efa7389d6d2b6ecfc6765946f0bba2fbde4cdbf962a90",
+      "section": "Crocell_Style1",
+      "key": "Skill_d_513",
+      "source": "自身の周辺に炎の円陣を作り、周辺の敵を攻撃する",
+      "source_sha256": "8ec6bd64c2d2a67ba7ba82a64639eedb440c70192151d0a6cdf49d9e118a0159"
+    },
+    {
+      "disc": 2,
+      "container": "build/disc2-selected/MC2Game/Localization/Coalesced.jpn",
+      "container_sha256": "fb99602a9ff5f081857efa7389d6d2b6ecfc6765946f0bba2fbde4cdbf962a90",
+      "section": "Crocell_Style1",
+      "key": "Crocell_Skill03",
+      "source": "鎮炎怒号脚",
+      "source_sha256": "015122da94e8fb52a828763af3da6cd1fb16c9825d0f416df4a1385bc22dfde3"
+    },
+    {
+      "disc": 2,
+      "container": "build/disc2-selected/MC2Game/Localization/Coalesced.jpn",
+      "container_sha256": "fb99602a9ff5f081857efa7389d6d2b6ecfc6765946f0bba2fbde4cdbf962a90",
+      "section": "Crocell_Style1",
+      "key": "Skill_d_515",
+      "source": "火のカンを溜めた足で一気に敵を蹴り上げ、敵１体に大ダメージ",
+      "source_sha256": "412a31d0f98ac2ffda50a2284450cbc3128a238486d5aea29777fc5906d89db5"
+    },
+    {
+      "disc": 2,
+      "container": "build/disc2-selected/MC2Game/Localization/Coalesced.jpn",
+      "container_sha256": "fb99602a9ff5f081857efa7389d6d2b6ecfc6765946f0bba2fbde4cdbf962a90",
+      "section": "Crocell_Style1",
+      "key": "Crocell_Skill04",
+      "source": "鎮炎螺旋槌",
+      "source_sha256": "390a5f5707835fc27559a6c66ff6b31bd5640ec093260fd2f9d7f9e1ce082a14"
+    },
+    {
+      "disc": 2,
+      "container": "build/disc2-selected/MC2Game/Localization/Coalesced.jpn",
+      "container_sha256": "fb99602a9ff5f081857efa7389d6d2b6ecfc6765946f0bba2fbde4cdbf962a90",
+      "section": "Crocell_Style1",
+      "key": "Skill_d_517",
+      "source": "火のカンを溜めた足で連続回し蹴りをし、敵１体に大ダメージ",
+      "source_sha256": "01d6f857c94370b4733041989bacf532b7ad99715dea091d080336196b4f030c"
+    },
+    {
+      "disc": 2,
+      "container": "build/disc2-selected/MC2Game/Localization/Coalesced.jpn",
+      "container_sha256": "fb99602a9ff5f081857efa7389d6d2b6ecfc6765946f0bba2fbde4cdbf962a90",
+      "section": "Crocell_Style1",
+      "key": "Crocell_Skill05",
+      "source": "爆鎖極陣",
+      "source_sha256": "9f66825ca1b11e84b8fbccb0943b966bf3aea3d0b674e0ec9fd503d07154e525"
+    },
+    {
+      "disc": 2,
+      "container": "build/disc2-selected/MC2Game/Localization/Coalesced.jpn",
+      "container_sha256": "fb99602a9ff5f081857efa7389d6d2b6ecfc6765946f0bba2fbde4cdbf962a90",
+      "section": "Crocell_Style1",
+      "key": "Skill_d_516",
+      "source": "地獄の火炎を集めて一気に解き放ち、敵１体に大ダメージ",
+      "source_sha256": "ec6d69b7c6023ddaddf52e176aadc5740dbd48f7ef1aa4ef37ca0d7a405dda50"
+    },
+    {
+      "disc": 2,
+      "container": "build/disc2-selected/MC2Game/Localization/Coalesced.jpn",
+      "container_sha256": "fb99602a9ff5f081857efa7389d6d2b6ecfc6765946f0bba2fbde4cdbf962a90",
+      "section": "Crocell_Style2",
+      "key": "Crocell_Normal",
+      "source": "玉炎旋風",
+      "source_sha256": "1ca7f0236a015b907987f77f789ab48f0a734d2ec5ac57d6dde4cdba6033e585"
+    },
+    {
+      "disc": 2,
+      "container": "build/disc2-selected/MC2Game/Localization/Coalesced.jpn",
+      "container_sha256": "fb99602a9ff5f081857efa7389d6d2b6ecfc6765946f0bba2fbde4cdbf962a90",
+      "section": "Crocell_Style2",
+      "key": "Crocell_inherent",
+      "source": "錬換力増大",
+      "source_sha256": "ea4a821848d6722cf200a2b4761c5313d8cfe4afd3dcf5a818436f6246178690"
+    },
+    {
+      "disc": 2,
+      "container": "build/disc2-selected/MC2Game/Localization/Coalesced.jpn",
+      "container_sha256": "fb99602a9ff5f081857efa7389d6d2b6ecfc6765946f0bba2fbde4cdbf962a90",
+      "section": "Crocell_Style2",
+      "key": "Crocell_Skill00",
+      "source": "ブレイズスピア",
+      "source_sha256": "9aa100330fbc2214e6f5f6ff207230253f1125fd6d4f21909c37914356b35ad0"
+    },
+    {
+      "disc": 2,
+      "container": "build/disc2-selected/MC2Game/Localization/Coalesced.jpn",
+      "container_sha256": "fb99602a9ff5f081857efa7389d6d2b6ecfc6765946f0bba2fbde4cdbf962a90",
+      "section": "Crocell_Style2",
+      "key": "Skill_d_526",
+      "source": "火炎を集めて足で蹴り、敵１体を攻撃する",
+      "source_sha256": "233dd9997e0dc0a6c865e5ff94aa1fd03c06b944611511dfcc77305543f1e91a"
+    }
+  ],
+  "name_controls": [
+    {
+      "id": "coalesced:84a599ba917c34ebfe737d4c2838450927894d8dbc690281f77d71b423376226",
+      "section": "Juto_Style2",
+      "key": "Juto_Skill03",
+      "source": "파쇄난섬",
+      "translation": "破锁乱闪",
+      "source_sha256": "144791eebac662378b40f3b03e70eaa22aa3f84b8707e74866ea137d27785391",
+      "translation_sha256": "d75e5c6fd5aab11593a7fbe02050e75c3a23421f2f581f61fc5010f9f07618c2"
+    },
+    {
+      "id": "coalesced:550df7b400fb121bbf4b8e8729132d15d70a27a096fe467ff6b60ea19050c3cb",
+      "section": "Crocell_Style1",
+      "key": "Crocell_Skill02",
+      "source": "폭쇄진",
+      "translation": "爆锁阵",
+      "source_sha256": "9528a5b96ed4f7cb92c7c9b314f74af674201c6fa61607dd89efb12605076fa5",
+      "translation_sha256": "58938ee50e7d45310505f695fcb73d5f3ba9a63de975ed04ffaf17b590d58e72"
+    },
+    {
+      "id": "coalesced:133cb5be6910a0f770ee6fb0d4c17df69ddc94afa5622f5e9e23c84ff114b4be",
+      "section": "Crocell_Style1",
+      "key": "Crocell_Skill03",
+      "source": "진염노호각",
+      "translation": "镇炎怒号脚",
+      "source_sha256": "964610d96605e0bb145f5247c9c0dff9f37dc662163742d32a0ffb3f5f25e69d",
+      "translation_sha256": "effe9556173df94a3eaa362ad0c7e0e159508715de31a7d64e53643d1ae2ca35"
+    },
+    {
+      "id": "coalesced:44db4b05357cca2414e3f12a03f3e33fe327c91a63f26d15cf9c9fe58c8929a4",
+      "section": "Crocell_Style1",
+      "key": "Crocell_Skill04",
+      "source": "진염나선퇴",
+      "translation": "镇炎螺旋腿",
+      "source_sha256": "9fa4c28e2a284e8f0f6abcf04a4f1721313c58063307991970e5947712c70d64",
+      "translation_sha256": "f792de8518493736805fef2b4c2cac59ecc1cabf09e45b01e2e364667fed8c1c"
+    },
+    {
+      "id": "coalesced:06d71e896bae74dcea1feb703967cca6d1d0f36dbda7fa813b816013d31f1286",
+      "section": "Crocell_Style1",
+      "key": "Crocell_Skill05",
+      "source": "폭쇄극진",
+      "translation": "爆锁极阵",
+      "source_sha256": "5a82d7aa59b84894a43f9eb1f95cae61869b7abd46fb965db83199bedd0e71a7",
+      "translation_sha256": "8a17e817c0b4494033cab26af0d393715268794d631e9c37fdea263b59d1f172"
+    },
+    {
+      "id": "coalesced:f8aff533caa3298e5c2dabb127087125e6bc2182e7ad843d87feff2f5233c4ff",
+      "section": "Crocell_Style2",
+      "key": "Crocell_Normal",
+      "source": "옥염선풍",
+      "translation": "玉炎旋风",
+      "source_sha256": "bfa67590e8d301b2b30fb9ace958f13f8ab956c8be296ed01d1664bf5b027912",
+      "translation_sha256": "f22a0dfd7a689ec2c59fae7f99f6ac6ded29895064bb65c3cc7cb57457e8a136"
+    }
+  ],
+  "decisions": [
+    "Five spellings破锁乱闪/爆锁阵/镇炎怒号脚/爆锁极阵/玉炎旋风 have aligned local JPNname evidence;do not replace鎖 with砕,鎮 with真 or玉 with獄 by Korean homophone guess.",
+    "Korean진염나선퇴 explicitly retains leg/퇴;JPN鎮炎螺旋槌 uses槌 while corresponding description uses feet/roundhouse kicks. Preserve Koreanprimary镇炎螺旋腿 and record locale difference,not a global typo repair.",
+    "Descriptions/normal-vs-battle values and functional breaks preserved;do not import JPN-onlytarget-counts or timings. Ten StatStrongfragments remain originals;264dizziness unchanged."
+  ],
+  "human_finalized": false,
+  "runtime_layout_approved": false,
+  "game_rendering_verified": false
+}

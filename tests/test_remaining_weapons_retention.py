@@ -31,7 +31,13 @@ class RemainingWeaponsRetentionTests(unittest.TestCase):
             self.assertEqual(decision['target'], by_key[decision['key']]['translation'])
         self.assertEqual(len(d['retained_originals']), 7)
         for e in d['retained_originals']:
-            self.assertNotIn(e['id'], entries)
+            adopted = {a['id']: a for a in load('locales/zh-Hans/candidate-decisions/preserved-partials-adoption.json')['entries']}
+            if e['id'] in entries:
+                self.assertIn(e['id'], adopted)
+                self.assertEqual(entries[e['id']]['source_sha256'], e['source_sha256'])
+                self.assertEqual(digest(entries[e['id']]['translation']), adopted[e['id']]['translation_sha256'])
+            else:
+                self.assertNotIn(e['id'], adopted)
         self.assertEqual(len(d['parallel_locale_sources']), 6)
         for disc in [1, 2]:
             rows = [e for e in d['parallel_locale_sources'] if e['disc'] == disc]

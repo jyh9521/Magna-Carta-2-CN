@@ -1,0 +1,673 @@
+{
+  "schema_version": 1,
+  "phase": 286,
+  "kind": "source-faithful-partial-fields-and-typed-ui-adoption",
+  "plan": "locales/zh-Hans/batch-119.json",
+  "plan_sha256": "08cf2d89a1359b8b8e6f846cbc7c599892a527eaac48f9e16f16a09006855137",
+  "review": "locales/zh-Hans/batch-119.review.json",
+  "review_sha256": "02acb51d06c016abe6b0fcf5bb53b8d54a4926a9a65663128312b4d31941b482",
+  "status": "draft",
+  "new_translations": 40,
+  "equipment_fields": 18,
+  "combo_suffixes": 9,
+  "experience_suffixes": 1,
+  "hp_pairs": 6,
+  "entries": [
+    {
+      "id": "coalesced:6bc43ca87553cea6cadd3f21584a89f5de7e68a15ddda0fc92aafeeb276e16b8",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2Item.int",
+      "section": "Weapon_Ax_argo",
+      "key": "308_ax_D",
+      "source_sha256": "42a4fb6815387b97679dd53796348da8260346675fe915f37e6d8cb0b3c73065",
+      "translation_sha256": "fd8382225018f2d4a602040ef768feb92cf528e3b444237e7bb51f7baa328e5b",
+      "reason": "known language translated;missing numeric value and all format markers preserved",
+      "source_shape": {
+        "numeric_literals": [],
+        "functional_break_count": 1,
+        "plus_count": 1,
+        "trailing_horizontal_space": " "
+      }
+    },
+    {
+      "id": "coalesced:50be14d45b57f11e72df4e309976908c4e5b0c02c259678ed397b9eed03782e7",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2Item.int",
+      "section": "Weapon_Ax_argo",
+      "key": "308_ax_S",
+      "source_sha256": "1541cb095ca6664e84762f6adc7755a58ac98767043024b3a07c8d5209af7f60",
+      "translation_sha256": "adb210b51872e7114bff7ef2b7d7478270a342fe3ba7e77df6be9542250fa4f3",
+      "reason": "known language translated;missing numeric value and all format markers preserved",
+      "source_shape": {
+        "numeric_literals": [],
+        "functional_break_count": 1,
+        "plus_count": 1,
+        "trailing_horizontal_space": ""
+      }
+    },
+    {
+      "id": "coalesced:3fa3c42dd25dc248a5c296348b89d2e980580e5b88d6d89f6de182c63fc80121",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2Item.int",
+      "section": "Weapon_fireball_crocell",
+      "key": "428_fireball_D",
+      "source_sha256": "4edfe627e7996e48967a80e8e0445164f9a4823a17daff4a8e1c204c0a2ef3cf",
+      "translation_sha256": "6be9fc6bb3f2693c3c32c875dd0cff6e2134139cbbd1fdd4e533e6272b83c3d5",
+      "reason": "known language translated;missing numeric value and all format markers preserved",
+      "source_shape": {
+        "numeric_literals": [],
+        "functional_break_count": 1,
+        "plus_count": 1,
+        "trailing_horizontal_space": ""
+      }
+    },
+    {
+      "id": "coalesced:45b6832869646ba35fe07b2ddf9b881577fb74800031bd8ba0956a64850a10d0",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2Item.int",
+      "section": "Weapon_fireball_crocell",
+      "key": "428_fireball_S",
+      "source_sha256": "43848c65d4377e6d2dec7c90f17bfd316f381a332ca94e976ca89c86c6fbd4ce",
+      "translation_sha256": "7a499cdf8f1b78974f7c52e9b4346ec2273fd5ae0a71cef9ce29c4bbd0b06fb4",
+      "reason": "known language translated;missing numeric value and all format markers preserved",
+      "source_shape": {
+        "numeric_literals": [],
+        "functional_break_count": 1,
+        "plus_count": 1,
+        "trailing_horizontal_space": ""
+      }
+    },
+    {
+      "id": "coalesced:353750a6cd4fd2b8e2798a7e2becaa2f6b19b19a3411a8c52dd3acd9edc37533",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2Item.int",
+      "section": "Weapon_knuckle_crocell",
+      "key": "407_knuckle_D",
+      "source_sha256": "3c09ca0b83c60fae00de71120e13a5d3e424ef1ee6dfbd472a279d34696e08aa",
+      "translation_sha256": "8d7f701a0128087f53ef8df85a34bec051252c19f9e37149f695d6f36d3a19f8",
+      "reason": "known language translated;missing numeric value and all format markers preserved",
+      "source_shape": {
+        "numeric_literals": [],
+        "functional_break_count": 1,
+        "plus_count": 1,
+        "trailing_horizontal_space": ""
+      }
+    },
+    {
+      "id": "coalesced:a9c6a80fff879613ea3fea1785ccbb6e16fd1fc45275baac3f53fb45b85c58fc",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2Item.int",
+      "section": "Weapon_knuckle_crocell",
+      "key": "407_knuckle_S",
+      "source_sha256": "80dd0b7c0b2e8797bb3ea559898381f9b5cbd3315778d7e92758309e58b08f7c",
+      "translation_sha256": "79e7eb766a38b5dc2615ed5b741f09fa852a992fcdb014dff89c060d01c0bc16",
+      "reason": "known language translated;missing numeric value and all format markers preserved",
+      "source_shape": {
+        "numeric_literals": [],
+        "functional_break_count": 1,
+        "plus_count": 1,
+        "trailing_horizontal_space": ""
+      }
+    },
+    {
+      "id": "coalesced:eeed08543c5b7642ded59a82485dc108ca7095d74c46fc12f5237c418f339268",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2Item.int",
+      "section": "armor_backpack_rue",
+      "key": "644_backpak_D",
+      "source_sha256": "ce958b4c2bf72c9562bc1f98f60312f6ca6afe1199e981d20de890478a6127dd",
+      "translation_sha256": "470f2f8f714050b76a858bf60022460c45274c51d8c9f06729db404d2bc0ad39",
+      "reason": "known language translated;missing numeric value and all format markers preserved",
+      "source_shape": {
+        "numeric_literals": [],
+        "functional_break_count": 1,
+        "plus_count": 1,
+        "trailing_horizontal_space": ""
+      }
+    },
+    {
+      "id": "coalesced:4a4ce071324eec9f82afaa47fbae51b81eb65bec77151e86dd5eb3aa6a452236",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2Item.int",
+      "section": "armor_backpack_rue",
+      "key": "644_backpak_S",
+      "source_sha256": "831794cac54ff48dd282b7926492b8525baca398182903e59f61be9c2dd6bd7b",
+      "translation_sha256": "c7705b09b9d4c652ddeca50418f74dfa0a6e9102fd9bc8166642f2c71b902cf4",
+      "reason": "known language translated;missing numeric value and all format markers preserved",
+      "source_shape": {
+        "numeric_literals": [],
+        "functional_break_count": 1,
+        "plus_count": 1,
+        "trailing_horizontal_space": ""
+      }
+    },
+    {
+      "id": "coalesced:2fefb5c30e8d06cd343458de739b96ed072a71a2d9648dc2ce321537acdfbb8f",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2Item.int",
+      "section": "armor_backpack_rue",
+      "key": "646_backpak_D",
+      "source_sha256": "674934f23fd7b714c191a1565a6ad2ae7e30e946090b283b7706478038674007",
+      "translation_sha256": "618c68b452b59f4c5fd816998d84ce8559b5937cc4e7ea55924cc8389134f01c",
+      "reason": "known language translated;missing numeric value and all format markers preserved",
+      "source_shape": {
+        "numeric_literals": [],
+        "functional_break_count": 1,
+        "plus_count": 1,
+        "trailing_horizontal_space": ""
+      }
+    },
+    {
+      "id": "coalesced:2e170407cef919c03cdd1c952f047de9d1941c037e7bd794c4360c10109fb7e9",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2Item.int",
+      "section": "armor_backpack_rue",
+      "key": "646_backpak_S",
+      "source_sha256": "831794cac54ff48dd282b7926492b8525baca398182903e59f61be9c2dd6bd7b",
+      "translation_sha256": "c7705b09b9d4c652ddeca50418f74dfa0a6e9102fd9bc8166642f2c71b902cf4",
+      "reason": "known language translated;missing numeric value and all format markers preserved",
+      "source_shape": {
+        "numeric_literals": [],
+        "functional_break_count": 1,
+        "plus_count": 1,
+        "trailing_horizontal_space": ""
+      }
+    },
+    {
+      "id": "coalesced:a3f573d75cf287324dbf6f59f3bb7ffd8d92b1e06603bf95419c9ff87c19b275",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2Item.int",
+      "section": "armor_brooch_celestin",
+      "key": "547_brooch_D",
+      "source_sha256": "5fcf449e1af011701c1868d303970bec2e75fbc8859922587b65a0041990e73a",
+      "translation_sha256": "36a91609e8a53dfab0f6fe907659d0e4b14146ed53cffb632b680e675b3d70da",
+      "reason": "known language translated;missing numeric value and all format markers preserved",
+      "source_shape": {
+        "numeric_literals": [],
+        "functional_break_count": 1,
+        "plus_count": 1,
+        "trailing_horizontal_space": ""
+      }
+    },
+    {
+      "id": "coalesced:d42679fc3a33ee59a9300dead30ec2f2a2439aade30199b63059cf1b8bf51eb0",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2Item.int",
+      "section": "armor_brooch_celestin",
+      "key": "547_brooch_S",
+      "source_sha256": "8663907c67747e41bcc690c2e45ac226a59e8753427af5a346812cd3531a703e",
+      "translation_sha256": "84e3fb1d83aa7bd01e480d395bee33b3bd4f3ecb339ec001181b796ae705273d",
+      "reason": "known language translated;missing numeric value and all format markers preserved",
+      "source_shape": {
+        "numeric_literals": [],
+        "functional_break_count": 1,
+        "plus_count": 1,
+        "trailing_horizontal_space": ""
+      }
+    },
+    {
+      "id": "coalesced:33628fb00022f73f22eefba60fd10022df94f42ca553e5d3b4b8f7fd7322656f",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2Item.int",
+      "section": "armor_guantlet_argo",
+      "key": "349_guantlet_D",
+      "source_sha256": "5c5b697d4757277281a8d8ab9e3ee818a253d5f660bb372ef2c9e302bb00055a",
+      "translation_sha256": "bcdfe770f802f0d81fcc9bf56e80f21ecd543d703423885aab629f7977642170",
+      "reason": "known language translated;missing numeric value and all format markers preserved",
+      "source_shape": {
+        "numeric_literals": [],
+        "functional_break_count": 1,
+        "plus_count": 1,
+        "trailing_horizontal_space": ""
+      }
+    },
+    {
+      "id": "coalesced:fb92f81f0fca945f69dbf8031f641862dd8847cc19328d464888af2aab889711",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2Item.int",
+      "section": "armor_guantlet_argo",
+      "key": "349_guantlet_S",
+      "source_sha256": "00267a072af9152824b5db23a29b3008900a3a97fc29f55e06927c914db7ffe8",
+      "translation_sha256": "687838096a0187ce0c4063df2b5e38342a9b1b785379e894c583af64c2c929ca",
+      "reason": "known language translated;missing numeric value and all format markers preserved",
+      "source_shape": {
+        "numeric_literals": [],
+        "functional_break_count": 1,
+        "plus_count": 1,
+        "trailing_horizontal_space": ""
+      }
+    },
+    {
+      "id": "coalesced:0b2fed137ee42a23db64a2b1436bc55f5954941d3f24b2144611bfcade44ead0",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2Item.int",
+      "section": "armor_pauldron_juto",
+      "key": "148_pauldron_D",
+      "source_sha256": "f94b92002325ce2bb3728ecefac58e53e0ed2c45f20dc63955b5bd55289b4565",
+      "translation_sha256": "300bc2db0e54ded28b60eb39b099e4c9814dd43644371ff3a6708bc3431593a0",
+      "reason": "known language translated;missing numeric value and all format markers preserved",
+      "source_shape": {
+        "numeric_literals": [],
+        "functional_break_count": 1,
+        "plus_count": 1,
+        "trailing_horizontal_space": ""
+      }
+    },
+    {
+      "id": "coalesced:c3e87c38d0e08b359639f6eb3c3dc3231d04aba62d3d7f1d2b5e404eb95cf19e",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2Item.int",
+      "section": "armor_pauldron_juto",
+      "key": "148_pauldron_S",
+      "source_sha256": "f231f0e77789c6c7d80934b9d1d39b976637a865d7738a7716239edc5985a648",
+      "translation_sha256": "3f54e90034b9d0dc7982c31502e0302b52bfb220d8d95b1f83f60f13bd294739",
+      "reason": "known language translated;missing numeric value and all format markers preserved",
+      "source_shape": {
+        "numeric_literals": [],
+        "functional_break_count": 1,
+        "plus_count": 1,
+        "trailing_horizontal_space": ""
+      }
+    },
+    {
+      "id": "coalesced:1a27de65f91a9ba1858c84a4122639c508bdbb0f42fcb92d4567bac01fb688a7",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2Item.int",
+      "section": "armor_pauldron_juto",
+      "key": "151_pauldron_D",
+      "source_sha256": "f7421b52a340fd2375fcfa5ca0ca4fd58737cad5306b8553ac9aacc331c87287",
+      "translation_sha256": "e1e86f5074e51a2822272de694c4af8a50fc3fb77fccbeb684407de3f842ca69",
+      "reason": "known language translated;missing numeric value and all format markers preserved",
+      "source_shape": {
+        "numeric_literals": [],
+        "functional_break_count": 1,
+        "plus_count": 1,
+        "trailing_horizontal_space": ""
+      }
+    },
+    {
+      "id": "coalesced:5fed2bcefe11b408d60af066be447e6158f9554c0feb4dbc89f9471957b849cc",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2Item.int",
+      "section": "armor_pauldron_juto",
+      "key": "151_pauldron_S",
+      "source_sha256": "f231f0e77789c6c7d80934b9d1d39b976637a865d7738a7716239edc5985a648",
+      "translation_sha256": "3f54e90034b9d0dc7982c31502e0302b52bfb220d8d95b1f83f60f13bd294739",
+      "reason": "known language translated;missing numeric value and all format markers preserved",
+      "source_shape": {
+        "numeric_literals": [],
+        "functional_break_count": 1,
+        "plus_count": 1,
+        "trailing_horizontal_space": ""
+      }
+    },
+    {
+      "id": "coalesced:695cfb4b1d61ccb465debc1f8eb088ee876a37273a52c6cdcc79a6aa9a88eaee",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2UI.int",
+      "section": "Battle_Log",
+      "key": "GetEXP",
+      "source_sha256": "019b20263de2d618bd00f85525ad2857e3deb67228f891204923ba083a525f8f",
+      "translation_sha256": "8e2a0da5a29e4ff8d2740d1f6a48f53f9f32a0cfc45cfe01b9b584a247bd25c9",
+      "reason": "exact typed script assembly consumer established",
+      "source_shape": {
+        "numeric_literals": [],
+        "functional_break_count": 0,
+        "plus_count": 0,
+        "trailing_horizontal_space": ""
+      }
+    },
+    {
+      "id": "coalesced:e66f42d564e6a6a8fe73e7f141686d8075a859fa8b3c25688b867779819e5706",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2UI.int",
+      "section": "Battle_Log",
+      "key": "AstarotRecover_1",
+      "source_sha256": "fbc45ca87f723b034295d449192a90022169e436d3139cd1f740fc1aacd60319",
+      "translation_sha256": "9b80a3b8ab911e82bd38a394251da816504a44a3411e5320c0691f8b383a64e6",
+      "reason": "exact typed script assembly consumer established",
+      "source_shape": {
+        "numeric_literals": [],
+        "functional_break_count": 0,
+        "plus_count": 0,
+        "trailing_horizontal_space": ""
+      }
+    },
+    {
+      "id": "coalesced:ededca277fc2ef765d8536282f221769d2528c43cc93bbe5e2dad7429cc2554f",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2UI.int",
+      "section": "Battle_Log",
+      "key": "AstarotRecover_2",
+      "source_sha256": "7f2e97d8d00f843166e16e84698eef3f80e35918bc15e38171c1de1d5ea71d10",
+      "translation_sha256": "8c6352643d2113e11bcceeb0a0e03df9c7989e864d7f35a49df5ca0d6013a673",
+      "reason": "exact typed script assembly consumer established",
+      "source_shape": {
+        "numeric_literals": [],
+        "functional_break_count": 0,
+        "plus_count": 0,
+        "trailing_horizontal_space": ""
+      }
+    },
+    {
+      "id": "coalesced:e11484533f914510e5ccfd44888b8ef1414ac59339eda8a86614cc8b4554939e",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2UI.int",
+      "section": "Battle_Log",
+      "key": "LeviathanRecover_1",
+      "source_sha256": "4a7f745440f49850a5525f447109320eb18526c0a7ceff0b8771089798d04dc3",
+      "translation_sha256": "709decfb66d19c18ba713c6c8c888e48cc8627a96928207e5668fbf561e5e255",
+      "reason": "exact typed script assembly consumer established",
+      "source_shape": {
+        "numeric_literals": [],
+        "functional_break_count": 0,
+        "plus_count": 0,
+        "trailing_horizontal_space": ""
+      }
+    },
+    {
+      "id": "coalesced:e1870d2676cffc5b960a7621c4eb50805215bab7ab1d1e83816c86814085d49b",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2UI.int",
+      "section": "Battle_Log",
+      "key": "LeviathanRecover_2",
+      "source_sha256": "7f2e97d8d00f843166e16e84698eef3f80e35918bc15e38171c1de1d5ea71d10",
+      "translation_sha256": "8c6352643d2113e11bcceeb0a0e03df9c7989e864d7f35a49df5ca0d6013a673",
+      "reason": "exact typed script assembly consumer established",
+      "source_shape": {
+        "numeric_literals": [],
+        "functional_break_count": 0,
+        "plus_count": 0,
+        "trailing_horizontal_space": ""
+      }
+    },
+    {
+      "id": "coalesced:532aa3295bef1540db9ff69a4934b04af6f1926cdbd49392c94fa6c980453b26",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2UI.int",
+      "section": "Battle_Log",
+      "key": "BelielRecover_1",
+      "source_sha256": "d92730809da15a11743e598d12157eb1e333886aa9f2228fe407cec8adcb9738",
+      "translation_sha256": "833ff0b76ed59c38f14b579632168fa5c30f6a662f81ba0a13c3e22869de6b61",
+      "reason": "exact typed script assembly consumer established",
+      "source_shape": {
+        "numeric_literals": [],
+        "functional_break_count": 0,
+        "plus_count": 0,
+        "trailing_horizontal_space": ""
+      }
+    },
+    {
+      "id": "coalesced:7e508faacd5b530d7567461d458e9a9513bbfc2de6a8c2faade6fe4eaaf49fa3",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2UI.int",
+      "section": "Battle_Log",
+      "key": "BelielRecover_2",
+      "source_sha256": "7f2e97d8d00f843166e16e84698eef3f80e35918bc15e38171c1de1d5ea71d10",
+      "translation_sha256": "8c6352643d2113e11bcceeb0a0e03df9c7989e864d7f35a49df5ca0d6013a673",
+      "reason": "exact typed script assembly consumer established",
+      "source_shape": {
+        "numeric_literals": [],
+        "functional_break_count": 0,
+        "plus_count": 0,
+        "trailing_horizontal_space": ""
+      }
+    },
+    {
+      "id": "coalesced:b1eab66371e65d3451f9fdc355cef5fbd7c9b06fa2660d65fc9fee46ce1af71b",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2UI.int",
+      "section": "Battle_Log",
+      "key": "beeljebubRecover_1",
+      "source_sha256": "623e6d13eae735aef9a3a5f51819e8899a55434b75fbb2938db333fe3ad7ffa7",
+      "translation_sha256": "733c9b8561d88087a361c19239c85b3f1265359df88fad1075267cf027c934d9",
+      "reason": "exact typed script assembly consumer established",
+      "source_shape": {
+        "numeric_literals": [],
+        "functional_break_count": 0,
+        "plus_count": 0,
+        "trailing_horizontal_space": ""
+      }
+    },
+    {
+      "id": "coalesced:40f8af87e27cbd67faa8ad0f64386e4e61a12303c6690f37e5fcbc448ee6760a",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2UI.int",
+      "section": "Battle_Log",
+      "key": "beeljebubRecover_2",
+      "source_sha256": "7f2e97d8d00f843166e16e84698eef3f80e35918bc15e38171c1de1d5ea71d10",
+      "translation_sha256": "8c6352643d2113e11bcceeb0a0e03df9c7989e864d7f35a49df5ca0d6013a673",
+      "reason": "exact typed script assembly consumer established",
+      "source_shape": {
+        "numeric_literals": [],
+        "functional_break_count": 0,
+        "plus_count": 0,
+        "trailing_horizontal_space": ""
+      }
+    },
+    {
+      "id": "coalesced:f3a7953e22c97a492f9ddd2009174d073fdc3b2246b2fc1f9c65b36c25a9be25",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2UI.int",
+      "section": "Battle_Log",
+      "key": "PursonRecover_1",
+      "source_sha256": "85d662d269e3c0289998dc4dbf943460f43e691b958f9ffe781fca87546f490b",
+      "translation_sha256": "9fef911b385dee7603f20d5284f00427abef07212f9eb823c5687eb3615d2e3b",
+      "reason": "exact typed script assembly consumer established",
+      "source_shape": {
+        "numeric_literals": [],
+        "functional_break_count": 0,
+        "plus_count": 0,
+        "trailing_horizontal_space": ""
+      }
+    },
+    {
+      "id": "coalesced:20344cab3489baf4ec2c2d480d4eb2b153a231179cd26c73c155b6be5ae16304",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2UI.int",
+      "section": "Battle_Log",
+      "key": "PursonRecover_2",
+      "source_sha256": "7f2e97d8d00f843166e16e84698eef3f80e35918bc15e38171c1de1d5ea71d10",
+      "translation_sha256": "8c6352643d2113e11bcceeb0a0e03df9c7989e864d7f35a49df5ca0d6013a673",
+      "reason": "exact typed script assembly consumer established",
+      "source_shape": {
+        "numeric_literals": [],
+        "functional_break_count": 0,
+        "plus_count": 0,
+        "trailing_horizontal_space": ""
+      }
+    },
+    {
+      "id": "coalesced:708ac5a790a017b002054dfbea9a157c07ea3945fda1b7da9a81343ccf4a99ad",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2UI.int",
+      "section": "Battle_Log",
+      "key": "StrasRecover_1",
+      "source_sha256": "2187064b051841845ef8580b0b1537b3e9f4e537a1fc118575d6a3e4e8d98799",
+      "translation_sha256": "fcefae6e70944449711b999ee1539268d155f2bcaebd2bc6b0b55969d725bac5",
+      "reason": "exact typed script assembly consumer established",
+      "source_shape": {
+        "numeric_literals": [],
+        "functional_break_count": 0,
+        "plus_count": 0,
+        "trailing_horizontal_space": ""
+      }
+    },
+    {
+      "id": "coalesced:4f38f101a6ebebf06fabe92a179e581ce6953e1a53155890e90bfff63343c425",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2UI.int",
+      "section": "Battle_Log",
+      "key": "StrasRecover_2",
+      "source_sha256": "7f2e97d8d00f843166e16e84698eef3f80e35918bc15e38171c1de1d5ea71d10",
+      "translation_sha256": "8c6352643d2113e11bcceeb0a0e03df9c7989e864d7f35a49df5ca0d6013a673",
+      "reason": "exact typed script assembly consumer established",
+      "source_shape": {
+        "numeric_literals": [],
+        "functional_break_count": 0,
+        "plus_count": 0,
+        "trailing_horizontal_space": ""
+      }
+    },
+    {
+      "id": "coalesced:3387890cdd43611672a8500321845dbe1658280704d81c2f4abe583aa68db2cd",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2UI.int",
+      "section": "Level_Up",
+      "key": "Combo_1",
+      "source_sha256": "c4fe4c6c6364e9ad25414778071a30f965af923584f9347ef4b335481afdf4f3",
+      "translation_sha256": "8285f0fc1b92771972baf285d655465f2e7d81d84e8205182276f30edeac2d00",
+      "reason": "exact typed script assembly consumer established",
+      "source_shape": {
+        "numeric_literals": [
+          "2",
+          "0",
+          "1"
+        ],
+        "functional_break_count": 0,
+        "plus_count": 0,
+        "trailing_horizontal_space": ""
+      }
+    },
+    {
+      "id": "coalesced:e4bd53aac426f128c462a88951fbb29153c192768232806f18d7d9d12e3358f9",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2UI.int",
+      "section": "Level_Up",
+      "key": "Combo_2",
+      "source_sha256": "413314023bb26b2e924030c1f9c51cb833b8476b1f485f4b6f5a7659b9eb5876",
+      "translation_sha256": "7982abac2eaaa0471c7600d547f5e7dac774e34a819fbea32ee85c7552d61f9e",
+      "reason": "exact typed script assembly consumer established",
+      "source_shape": {
+        "numeric_literals": [
+          "2",
+          "0",
+          "2"
+        ],
+        "functional_break_count": 0,
+        "plus_count": 0,
+        "trailing_horizontal_space": ""
+      }
+    },
+    {
+      "id": "coalesced:708f189f96abcc18081c3ce96e063d192d8db449e0f92d0cdadec25ea0e8d592",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2UI.int",
+      "section": "Level_Up",
+      "key": "Combo_3",
+      "source_sha256": "eaf1dea41695a39edd2ccce0015494428b48e184e72e5d71f2a55ea37d5886e9",
+      "translation_sha256": "721ee7a983087a967ec89a238653b21eafa85cad51fd5f2839a3d8c9c6a23c62",
+      "reason": "exact typed script assembly consumer established",
+      "source_shape": {
+        "numeric_literals": [
+          "2",
+          "0",
+          "3"
+        ],
+        "functional_break_count": 0,
+        "plus_count": 0,
+        "trailing_horizontal_space": ""
+      }
+    },
+    {
+      "id": "coalesced:f35bb80d0bd2813e992248941c15c2ece8285bf1cab6998b663b3350e333c9c1",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2UI.int",
+      "section": "Level_Up",
+      "key": "Combo_4",
+      "source_sha256": "1f967c098bf69d2f19d22a88e6b4e3a468a97dd7552eaa60138a2af4e5fe7ec6",
+      "translation_sha256": "4a302fd08585800460e8b33aa8af062cfcf9976c0af724b7154d462d1a22d94f",
+      "reason": "exact typed script assembly consumer established",
+      "source_shape": {
+        "numeric_literals": [
+          "2",
+          "0",
+          "4"
+        ],
+        "functional_break_count": 0,
+        "plus_count": 0,
+        "trailing_horizontal_space": ""
+      }
+    },
+    {
+      "id": "coalesced:1d99aeefcd1d53c4da1993639f0eefa05646fd4257babc9deec450e66217e39c",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2UI.int",
+      "section": "Level_Up",
+      "key": "Combo_5",
+      "source_sha256": "6b1e6c7c04f145c1bb147f24f4d5b183f6b6850f64d1cb78a9ce1b08ced6100a",
+      "translation_sha256": "2052ec79c612aa453b915755015a7c06fe5209f02c377e91f7ceda424eeff07d",
+      "reason": "exact typed script assembly consumer established",
+      "source_shape": {
+        "numeric_literals": [
+          "2",
+          "0",
+          "5"
+        ],
+        "functional_break_count": 0,
+        "plus_count": 0,
+        "trailing_horizontal_space": ""
+      }
+    },
+    {
+      "id": "coalesced:67ce63500f763412336efe5480a6564f7f1ca991dddd41c33d4bcddcefefc043",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2UI.int",
+      "section": "Level_Up",
+      "key": "Combo_6",
+      "source_sha256": "1a935c82645f5f013e039d704697a9f6f73b90d6cdf83a976bb4efb9092af155",
+      "translation_sha256": "2bc5e44ef0278b172ab9956172e9f175fe09e1823246ec34b3c7904e97e6fa18",
+      "reason": "exact typed script assembly consumer established",
+      "source_shape": {
+        "numeric_literals": [
+          "2",
+          "0",
+          "6"
+        ],
+        "functional_break_count": 0,
+        "plus_count": 0,
+        "trailing_horizontal_space": ""
+      }
+    },
+    {
+      "id": "coalesced:e214af79a5c3fe4e1579e3b4bc7723cfd5fc8692b134def168f40fca6c960928",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2UI.int",
+      "section": "Level_Up",
+      "key": "Combo_7",
+      "source_sha256": "2f0e58408aa91f3610ae4402b6fc5c324210d775cf532e4566ffe310005b2120",
+      "translation_sha256": "976d007561638ea88b97bcf41e4144d82a7fcea5b4fc2036a941bf6d605ae12c",
+      "reason": "exact typed script assembly consumer established",
+      "source_shape": {
+        "numeric_literals": [
+          "2",
+          "0",
+          "7"
+        ],
+        "functional_break_count": 0,
+        "plus_count": 0,
+        "trailing_horizontal_space": ""
+      }
+    },
+    {
+      "id": "coalesced:6323babd1a11ba113319701f4ff0fc89f0c4fa1573885f55e5924b1df4bf1240",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2UI.int",
+      "section": "Level_Up",
+      "key": "Combo_8",
+      "source_sha256": "d6a2b9b483480970528d52588c561d3339b2c332207c3d1956bdb40b579109d7",
+      "translation_sha256": "bc18992a97c25b3b2c973d30c5f112edeb29b59679463d918bea6f396489a106",
+      "reason": "exact typed script assembly consumer established",
+      "source_shape": {
+        "numeric_literals": [
+          "2",
+          "0",
+          "8"
+        ],
+        "functional_break_count": 0,
+        "plus_count": 0,
+        "trailing_horizontal_space": ""
+      }
+    },
+    {
+      "id": "coalesced:99efdcc8ff8384c1f20d3ee369d2adef1aabcf4e366d253a32133742688a6861",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2UI.int",
+      "section": "Level_Up",
+      "key": "Combo_9",
+      "source_sha256": "1dd4f8bdba16c214f3eea4b78377b5488e5498072827a130b1a1fb4d6e58b550",
+      "translation_sha256": "6908df3cfd0e9b95ed1cda1983feb1c910498b3c1a1e8b52ed98c93c4d491045",
+      "reason": "exact typed script assembly consumer established",
+      "source_shape": {
+        "numeric_literals": [
+          "2",
+          "0",
+          "9"
+        ],
+        "functional_break_count": 0,
+        "plus_count": 0,
+        "trailing_horizontal_space": ""
+      }
+    }
+  ],
+  "evidence": {
+    "path": "locales/zh-Hans/candidate-decisions/ui-string-assembly-evidence.json",
+    "sha256": "07d9492860e4ba308a83fabb87c811c24b05432f15926833295995638a76e97c"
+  },
+  "name_proposals": [
+    {
+      "source": "아스타로스",
+      "target": "阿斯塔罗斯",
+      "status": "candidate",
+      "official_name_verified": false
+    },
+    {
+      "source": "푸르손",
+      "target": "普尔森",
+      "status": "candidate",
+      "official_name_verified": false
+    }
+  ],
+  "human_finalized": false,
+  "game_rendering_verified": false
+}

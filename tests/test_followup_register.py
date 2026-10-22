@@ -10,7 +10,7 @@ class FollowupRegisterTests(unittest.TestCase):
    for e in r['entries']:
     if e['planned']:self.assertEqual(entries[e['id']]['source_sha256'],e['source_sha256'])
     else:
-     adopted={a['id']:a for name in ['held-original-adoptions','chapter-term-adoption'] for a in L('locales/zh-Hans/candidate-decisions/'+name+'.json')['entries']}
+     adopted={a['id']:a for name in ['held-original-adoptions','chapter-term-adoption','preserved-partials-adoption'] for a in L('locales/zh-Hans/candidate-decisions/'+name+'.json')['entries']}
      if e['id'] in entries:
       self.assertIn(e['id'],adopted);self.assertEqual(adopted[e['id']]['source_sha256'],e['source_sha256']);self.assertEqual(entries[e['id']]['source_sha256'],e['source_sha256'])
      else:self.assertNotIn(e['id'],adopted)

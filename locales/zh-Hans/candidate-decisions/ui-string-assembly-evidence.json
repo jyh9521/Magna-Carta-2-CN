@@ -1,0 +1,1141 @@
+{
+  "schema_version": 1,
+  "phase": 286,
+  "kind": "typed-script-string-assembly-evidence",
+  "combo": {
+    "schema_version": 1,
+    "kind": "level-up-combo-source-bound-consumer",
+    "inputs": {
+      "build/phase-282-verification/MC2Game-logical.bin": "e2a49cdd67c2b49f9b91fb517a49de33262ada4f3ec5a65c776a7d3126d1ecf4",
+      "build/phase-282-verification/package-tables.json": "0ea25716085840912c0d658d4daf8e9283f1a5604e77856a1210a9d22b5c4699",
+      "build/phase-283-verification/Core-logical.bin": "5ac2c9745bdf6220ddb3dbe898ef88b1c8ac84c882b06816e8257ad5b4c6e2a9",
+      "build/phase-283-verification/Core-tables.json": "3cd1cd977e7552b202ae88ee2f10db74d3056d4770a7ddbed7de8ead26434c0b",
+      "build/disc1-selected/MC2Game/Localization/Coalesced.int": "179e265cfc9e6d3e9f2586abe75b5da303b2af9b8484079851dab72f9f7edb8c"
+    },
+    "concat_declaration": {
+      "function": "Object.Concat_StrStr",
+      "export_ref": 745,
+      "native_token": 112,
+      "parameters": [
+        "StrProperty",
+        "StrProperty"
+      ],
+      "returns": "StrProperty"
+    },
+    "function": {
+      "path": "MC2UIScene_LevelUp.SetLevelUpDescription",
+      "export_ref": 11567,
+      "absolute_script_offset": 7782208,
+      "script_sha256": "5405bb771797dede031b379b5055acd805ac192e6c1d4f711260a5a2f141ad7a",
+      "bindings": [
+        {
+          "name": "nLine",
+          "kind": "IntProperty",
+          "object_ref": 11566,
+          "logical_offset": 7782120,
+          "size": 44
+        },
+        {
+          "name": "a_PawnData",
+          "kind": "ObjectProperty",
+          "object_ref": 11565,
+          "logical_offset": 7782072,
+          "size": 48
+        },
+        {
+          "name": "nYupa",
+          "kind": "IntProperty",
+          "object_ref": 11564,
+          "logical_offset": 7782028,
+          "size": 44
+        },
+        {
+          "name": "nComboNum",
+          "kind": "IntProperty",
+          "object_ref": 11563,
+          "logical_offset": 7781984,
+          "size": 44
+        },
+        {
+          "name": "tempString",
+          "kind": "StrProperty",
+          "object_ref": 11562,
+          "logical_offset": 7781940,
+          "size": 44
+        }
+      ],
+      "four_assignment_windows": [
+        {
+          "branch": "Juto_Village_Yupa",
+          "script_offset": 56,
+          "logical_offset": 7782264,
+          "size": 141,
+          "sha256": "08bddc638b9fc8d1ac5a41db779141a64e41b687b6fce44f85cfa4dddbb94f94",
+          "hex": "0f0000002d2a70707070701f3c5374796c65733a4d43325549546578745374796c655f303e001f3c537472696e67733a4d433255492e4c6576656c5f55702e4a75746f5f56696c6c6167655f597570613e00161f3c5374796c65733a2f3e00161f3c537472696e67733a4d433255492e4c6576656c5f55702e436f6d626f5f001638530000002d2b161f3e0016"
+        },
+        {
+          "branch": "GetStyleName",
+          "script_offset": 200,
+          "logical_offset": 7782408,
+          "size": 126,
+          "sha256": "c46be751ef9a033975083952f00ef4bdc7bd345ef905e6495d945d0004004bcd",
+          "hex": "0f0000002d2a70707070701f3c5374796c65733a4d43325549546578745374796c655f303e001b0000228100000000190000002d2d0005000100003f100000002d2c16161f3c5374796c65733a2f3e00161f3c537472696e67733a4d433255492e4c6576656c5f55702e436f6d626f5f001638530000002d2b161f3e0016"
+        },
+        {
+          "branch": "GetStyleName",
+          "script_offset": 329,
+          "logical_offset": 7782537,
+          "size": 126,
+          "sha256": "c46be751ef9a033975083952f00ef4bdc7bd345ef905e6495d945d0004004bcd",
+          "hex": "0f0000002d2a70707070701f3c5374796c65733a4d43325549546578745374796c655f303e001b0000228100000000190000002d2d0005000100003f100000002d2c16161f3c5374796c65733a2f3e00161f3c537472696e67733a4d433255492e4c6576656c5f55702e436f6d626f5f001638530000002d2b161f3e0016"
+        },
+        {
+          "branch": "GetStyleName",
+          "script_offset": 458,
+          "logical_offset": 7782666,
+          "size": 126,
+          "sha256": "c46be751ef9a033975083952f00ef4bdc7bd345ef905e6495d945d0004004bcd",
+          "hex": "0f0000002d2a70707070701f3c5374796c65733a4d43325549546578745374796c655f303e001b0000228100000000190000002d2d0005000100003f100000002d2c16161f3c5374796c65733a2f3e00161f3c537472696e67733a4d433255492e4c6576656c5f55702e436f6d626f5f001638530000002d2b161f3e0016"
+        }
+      ],
+      "concat_ast": [
+        "Styles open",
+        "battle-style lookup or Juto_Village_Yupa",
+        "Styles close",
+        "Combo_",
+        "int-to-string(nComboNum)",
+        ">"
+      ],
+      "virtual_call": {
+        "opcode": "0x1b VirtualFunction",
+        "name_index": 8833,
+        "name_number": 0,
+        "name": "GetStyleName",
+        "arguments": [
+          "a_PawnData.PlayerName",
+          "nYupa"
+        ],
+        "dispatch_target_runtime_verified": false
+      }
+    },
+    "getter": {
+      "path": "MC2UIScene_LevelUp.GetStyleName",
+      "export_ref": 11571,
+      "absolute_script_offset": 7783039,
+      "script_sha256": "e054d89951661800f27676df1bc7bdfaa956a1b13d8b97b9c41b7cdd2eb7f3ce",
+      "bindings": [
+        {
+          "name": "PlayerName",
+          "kind": "StrProperty",
+          "object_ref": 11570,
+          "logical_offset": 7782951,
+          "size": 44
+        },
+        {
+          "name": "nYupaNum",
+          "kind": "IntProperty",
+          "object_ref": 11569,
+          "logical_offset": 7782907,
+          "size": 44
+        },
+        {
+          "name": "ReturnValue",
+          "kind": "StrProperty",
+          "object_ref": 11568,
+          "logical_offset": 7782863,
+          "size": 44
+        }
+      ],
+      "branches": [
+        {
+          "player_name": "Juto",
+          "zero_condition": "nYupaNum == 0",
+          "zero_return": "<Strings:MC2UI.Battle_Style.Juto_Style_0>",
+          "other_return": "<Strings:MC2UI.Battle_Style.Juto_Style_1>",
+          "script_offset": 0,
+          "size": 118,
+          "sha256": "cf8e4f616ae55196a3c87fb26e95037b23c00e35f489a86527d2fd7a560e549e",
+          "false_target": 118,
+          "nonzero_target": 71,
+          "end_jump": 728
+        },
+        {
+          "player_name": "Argo",
+          "zero_condition": "nYupaNum == 0",
+          "zero_return": "<Strings:MC2UI.Battle_Style.Argo_Style_0>",
+          "other_return": "<Strings:MC2UI.Battle_Style.Argo_Style_1>",
+          "script_offset": 118,
+          "size": 118,
+          "sha256": "66ee1d90109e7eddb842e27a8a9582cd9ea64b2f237abb0de591f744a1202e98",
+          "false_target": 236,
+          "nonzero_target": 189,
+          "end_jump": 728
+        },
+        {
+          "player_name": "Zephi",
+          "zero_condition": "nYupaNum == 0",
+          "zero_return": "<Strings:MC2UI.Battle_Style.Zephi_Style_0>",
+          "other_return": "<Strings:MC2UI.Battle_Style.Zephi_Style_1>",
+          "script_offset": 236,
+          "size": 121,
+          "sha256": "053cca301df2166908b738ae71084808a88d42914a8bfb8590cabbff6b8edb7e",
+          "false_target": 357,
+          "nonzero_target": 309,
+          "end_jump": 728
+        },
+        {
+          "player_name": "Crocell",
+          "zero_condition": "nYupaNum == 0",
+          "zero_return": "<Strings:MC2UI.Battle_Style.Crocell_Style_0>",
+          "other_return": "<Strings:MC2UI.Battle_Style.Crocell_Style_1>",
+          "script_offset": 357,
+          "size": 127,
+          "sha256": "a56cc58b7b2e124d08327fe324cf660f7b2da1e9deda25ed9d377f4f1c429415",
+          "false_target": 484,
+          "nonzero_target": 434,
+          "end_jump": 728
+        },
+        {
+          "player_name": "Celestin",
+          "zero_condition": "nYupaNum == 0",
+          "zero_return": "<Strings:MC2UI.Battle_Style.Celestine_Style_0>",
+          "other_return": "<Strings:MC2UI.Battle_Style.Celestine_Style_1>",
+          "script_offset": 484,
+          "size": 132,
+          "sha256": "2ccd19b5b588140e2ad5b687e3981364bd3e66de74d0699a8f82b511cd31209e",
+          "false_target": 616,
+          "nonzero_target": 564,
+          "end_jump": 728
+        },
+        {
+          "player_name": "Rue",
+          "zero_condition": "nYupaNum == 0",
+          "zero_return": "<Strings:MC2UI.Battle_Style.Rue_Style_0>",
+          "other_return": "<Strings:MC2UI.Battle_Style.Rue_Style_1>",
+          "script_offset": 616,
+          "size": 112,
+          "sha256": "f0d19f6d1d5a28fa816c36a9c9ac24b14ba82dd4f17003cb7f859800d22e001f",
+          "false_target": 728,
+          "nonzero_target": 685,
+          "end_jump": 728
+        }
+      ],
+      "comparison_tokens": {
+        "EqualEqual_StrStr": 122,
+        "EqualEqual_IntInt": 154
+      }
+    },
+    "candidates": [
+      {
+        "id": "coalesced:3387890cdd43611672a8500321845dbe1658280704d81c2f4abe583aa68db2cd",
+        "source_sha256": "c4fe4c6c6364e9ad25414778071a30f965af923584f9347ef4b335481afdf4f3",
+        "section": "Level_Up",
+        "key": "Combo_1",
+        "translation": "的普通攻击<Styles:MC2UITextStyle_0>第1击<Styles:/>已可使用",
+        "evidence": "combo-concat-proof.json;style-name-getter.json;core-concat-declaration.json"
+      },
+      {
+        "id": "coalesced:e4bd53aac426f128c462a88951fbb29153c192768232806f18d7d9d12e3358f9",
+        "source_sha256": "413314023bb26b2e924030c1f9c51cb833b8476b1f485f4b6f5a7659b9eb5876",
+        "section": "Level_Up",
+        "key": "Combo_2",
+        "translation": "的普通攻击<Styles:MC2UITextStyle_0>第2击<Styles:/>已可使用",
+        "evidence": "combo-concat-proof.json;style-name-getter.json;core-concat-declaration.json"
+      },
+      {
+        "id": "coalesced:708f189f96abcc18081c3ce96e063d192d8db449e0f92d0cdadec25ea0e8d592",
+        "source_sha256": "eaf1dea41695a39edd2ccce0015494428b48e184e72e5d71f2a55ea37d5886e9",
+        "section": "Level_Up",
+        "key": "Combo_3",
+        "translation": "的普通攻击<Styles:MC2UITextStyle_0>第3击<Styles:/>已可使用",
+        "evidence": "combo-concat-proof.json;style-name-getter.json;core-concat-declaration.json"
+      },
+      {
+        "id": "coalesced:f35bb80d0bd2813e992248941c15c2ece8285bf1cab6998b663b3350e333c9c1",
+        "source_sha256": "1f967c098bf69d2f19d22a88e6b4e3a468a97dd7552eaa60138a2af4e5fe7ec6",
+        "section": "Level_Up",
+        "key": "Combo_4",
+        "translation": "的普通攻击<Styles:MC2UITextStyle_0>第4击<Styles:/>已可使用",
+        "evidence": "combo-concat-proof.json;style-name-getter.json;core-concat-declaration.json"
+      },
+      {
+        "id": "coalesced:1d99aeefcd1d53c4da1993639f0eefa05646fd4257babc9deec450e66217e39c",
+        "source_sha256": "6b1e6c7c04f145c1bb147f24f4d5b183f6b6850f64d1cb78a9ce1b08ced6100a",
+        "section": "Level_Up",
+        "key": "Combo_5",
+        "translation": "的普通攻击<Styles:MC2UITextStyle_0>第5击<Styles:/>已可使用",
+        "evidence": "combo-concat-proof.json;style-name-getter.json;core-concat-declaration.json"
+      },
+      {
+        "id": "coalesced:67ce63500f763412336efe5480a6564f7f1ca991dddd41c33d4bcddcefefc043",
+        "source_sha256": "1a935c82645f5f013e039d704697a9f6f73b90d6cdf83a976bb4efb9092af155",
+        "section": "Level_Up",
+        "key": "Combo_6",
+        "translation": "的普通攻击<Styles:MC2UITextStyle_0>第6击<Styles:/>已可使用",
+        "evidence": "combo-concat-proof.json;style-name-getter.json;core-concat-declaration.json"
+      },
+      {
+        "id": "coalesced:e214af79a5c3fe4e1579e3b4bc7723cfd5fc8692b134def168f40fca6c960928",
+        "source_sha256": "2f0e58408aa91f3610ae4402b6fc5c324210d775cf532e4566ffe310005b2120",
+        "section": "Level_Up",
+        "key": "Combo_7",
+        "translation": "的普通攻击<Styles:MC2UITextStyle_0>第7击<Styles:/>已可使用",
+        "evidence": "combo-concat-proof.json;style-name-getter.json;core-concat-declaration.json"
+      },
+      {
+        "id": "coalesced:6323babd1a11ba113319701f4ff0fc89f0c4fa1573885f55e5924b1df4bf1240",
+        "source_sha256": "d6a2b9b483480970528d52588c561d3339b2c332207c3d1956bdb40b579109d7",
+        "section": "Level_Up",
+        "key": "Combo_8",
+        "translation": "的普通攻击<Styles:MC2UITextStyle_0>第8击<Styles:/>已可使用",
+        "evidence": "combo-concat-proof.json;style-name-getter.json;core-concat-declaration.json"
+      },
+      {
+        "id": "coalesced:99efdcc8ff8384c1f20d3ee369d2adef1aabcf4e366d253a32133742688a6861",
+        "source_sha256": "1dd4f8bdba16c214f3eea4b78377b5488e5498072827a130b1a1fb4d6e58b550",
+        "section": "Level_Up",
+        "key": "Combo_9",
+        "translation": "的普通攻击<Styles:MC2UITextStyle_0>第9击<Styles:/>已可使用",
+        "evidence": "combo-concat-proof.json;style-name-getter.json;core-concat-declaration.json"
+      }
+    ],
+    "game_executed": false
+  },
+  "experience": {
+    "functions": [
+      {
+        "function": "MC2PawnInterfaceBattle.GetFullExp",
+        "script_sha256": "2de1cd97df7e8a695e35df7fe32d85df3de302774b61cbc82aee6a261cdcb3b8",
+        "assignment_offset": 154,
+        "logical_offset": 8394831,
+        "assignment_sha256": "120545da5b21c1b9a263d8ebb65c94c55befaa239b8cf6449db1ebd09a65dc24",
+        "assignment_hex": "0f00000046a07000000046a11f3c537472696e67733a4d433255492e426174746c655f4c6f672e4765744558503e0016",
+        "expression": [
+          "ExpNum:StrProperty",
+          "<Strings:MC2UI.Battle_Log.GetEXP>"
+        ]
+      },
+      {
+        "function": "MC2PawnInterfaceBattle.GetExp",
+        "script_sha256": "cfe89e4957dba70ffd11e3b8036bbc5948911f8ea697d8911fcfc39785a9d62c",
+        "assignment_offset": 461,
+        "logical_offset": 8395819,
+        "assignment_sha256": "24e985eb87472bf4a7a6e81df17d29ffa68a463b9cc89a9391c617bf6179366a",
+        "assignment_hex": "0f00000046a87000000046a91f3c537472696e67733a4d433255492e426174746c655f4c6f672e4765744558503e0016",
+        "expression": [
+          "ExpNum:StrProperty",
+          "<Strings:MC2UI.Battle_Log.GetEXP>"
+        ]
+      }
+    ],
+    "translation_candidate": "点经验值已获得。",
+    "executed": false
+  },
+  "recovery": {
+    "functions": [
+      {
+        "function": "MC2PawnInterfaceBattle_Astarot.AddHealthPercent",
+        "export": 19799,
+        "script_sha256": "d2b25a4622b9c2d49b7af7eecc6682c533fd30ec379c16a6dae153d77bc4538a",
+        "script_size": 259,
+        "assignment_offset": 90,
+        "logical_offset": 8579660,
+        "assignment_sha256": "25fe3ca3cfe5e03c944345f96fb89d51c8adbbeaca8493968d957fe040410d9f",
+        "assignment_hex": "0f0000004d5070701f3c537472696e67733a4d433255492e426174746c655f4c6f672e41737461726f745265636f7665725f313e000000004d51161f3c537472696e67733a4d433255492e426174746c655f4c6f672e41737461726f745265636f7665725f323e0016",
+        "prefix": "<Strings:MC2UI.Battle_Log.AstarotRecover_1>",
+        "suffix": "<Strings:MC2UI.Battle_Log.AstarotRecover_2>",
+        "numeric_input": "nAddHP:IntProperty -> PrimitiveCast0x53 -> strHP:StrProperty"
+      },
+      {
+        "function": "MC2PawnInterfaceBattle_Bariel.AddHealthPercent",
+        "export": 19857,
+        "script_sha256": "33fc473395d653c275e31dd4ab9a0445dab852bd716988e573feac84b52b86da",
+        "script_size": 257,
+        "assignment_offset": 90,
+        "logical_offset": 8585121,
+        "assignment_sha256": "27e15b90de009b006f0d46347166ab0dd2172a80e97d71fb50175bd79e851ab0",
+        "assignment_hex": "0f0000004d8a70701f3c537472696e67733a4d433255492e426174746c655f4c6f672e42656c69656c5265636f7665725f313e000000004d8b161f3c537472696e67733a4d433255492e426174746c655f4c6f672e42656c69656c5265636f7665725f323e0016",
+        "prefix": "<Strings:MC2UI.Battle_Log.BelielRecover_1>",
+        "suffix": "<Strings:MC2UI.Battle_Log.BelielRecover_2>",
+        "numeric_input": "nAddHP:IntProperty -> PrimitiveCast0x53 -> strHP:StrProperty"
+      },
+      {
+        "function": "MC2PawnInterfaceBattle_Beelzebub_Duel.AddHealthPercent",
+        "export": 19935,
+        "script_sha256": "4a97be387d055c42e5fc8adbcf926f23884ec73b007a1356a028c143e4c2304a",
+        "script_size": 263,
+        "assignment_offset": 90,
+        "logical_offset": 8591417,
+        "assignment_sha256": "65c86ac3962432685ff90815ac9e4f730f8f868467cd7d17bf08c0d5cc304793",
+        "assignment_hex": "0f0000004dd870701f3c537472696e67733a4d433255492e426174746c655f4c6f672e6265656c6a656275625265636f7665725f313e000000004dd9161f3c537472696e67733a4d433255492e426174746c655f4c6f672e6265656c6a656275625265636f7665725f323e0016",
+        "prefix": "<Strings:MC2UI.Battle_Log.beeljebubRecover_1>",
+        "suffix": "<Strings:MC2UI.Battle_Log.beeljebubRecover_2>",
+        "numeric_input": "nAddHP:IntProperty -> PrimitiveCast0x53 -> strHP:StrProperty"
+      },
+      {
+        "function": "MC2PawnInterfaceBattle_Beelzebub_Solo.AddHealthPercent",
+        "export": 19966,
+        "script_sha256": "4960a92f577d1ea924820e52a629e1566f5b057c801dccfc03de12ea509255c1",
+        "script_size": 263,
+        "assignment_offset": 90,
+        "logical_offset": 8593849,
+        "assignment_sha256": "95a7ee1c4ed99c46898171f2fdb240e5f48f5d9ffec2843a52e4c025b1441d2d",
+        "assignment_hex": "0f0000004df770701f3c537472696e67733a4d433255492e426174746c655f4c6f672e6265656c6a656275625265636f7665725f313e000000004df8161f3c537472696e67733a4d433255492e426174746c655f4c6f672e6265656c6a656275625265636f7665725f323e0016",
+        "prefix": "<Strings:MC2UI.Battle_Log.beeljebubRecover_1>",
+        "suffix": "<Strings:MC2UI.Battle_Log.beeljebubRecover_2>",
+        "numeric_input": "nAddHP:IntProperty -> PrimitiveCast0x53 -> strHP:StrProperty"
+      },
+      {
+        "function": "MC2PawnInterfaceBattle_Leviathan.AddHealthPercent",
+        "export": 20771,
+        "script_sha256": "ef6325096c9402e49c5f6fd3bdc1c9512db04079b930cf688d2b6c34afe3f1fc",
+        "script_size": 263,
+        "assignment_offset": 90,
+        "logical_offset": 8665987,
+        "assignment_sha256": "2b77d3c7be6465c5235b43fda5f9e1bef8b47b505da80cf8b357f96264d3c629",
+        "assignment_hex": "0f000000511c70701f3c537472696e67733a4d433255492e426174746c655f4c6f672e4c657669617468616e5265636f7665725f313e00000000511d161f3c537472696e67733a4d433255492e426174746c655f4c6f672e4c657669617468616e5265636f7665725f323e0016",
+        "prefix": "<Strings:MC2UI.Battle_Log.LeviathanRecover_1>",
+        "suffix": "<Strings:MC2UI.Battle_Log.LeviathanRecover_2>",
+        "numeric_input": "nAddHP:IntProperty -> PrimitiveCast0x53 -> strHP:StrProperty"
+      },
+      {
+        "function": "MC2PawnInterfaceBattle_MelisaSentinel.AddHealthPercent",
+        "export": 21177,
+        "script_sha256": "6b8d324b26a8a8add4f1e1eaeb0fed1207eac23c72e359cf625eb587aadd0e62",
+        "script_size": 257,
+        "assignment_offset": 90,
+        "logical_offset": 8696668,
+        "assignment_sha256": "095330ea240a30c8dddccbd5b01fee25f835bf1f982c769da43c62ea4237f749",
+        "assignment_hex": "0f00000052b270701f3c537472696e67733a4d433255492e426174746c655f4c6f672e507572736f6e5265636f7665725f313e0000000052b3161f3c537472696e67733a4d433255492e426174746c655f4c6f672e507572736f6e5265636f7665725f323e0016",
+        "prefix": "<Strings:MC2UI.Battle_Log.PursonRecover_1>",
+        "suffix": "<Strings:MC2UI.Battle_Log.PursonRecover_2>",
+        "numeric_input": "nAddHP:IntProperty -> PrimitiveCast0x53 -> strHP:StrProperty"
+      },
+      {
+        "function": "MC2PawnInterfaceBattle_SchauenzeitSentinel.AddHealthPercent",
+        "export": 22058,
+        "script_sha256": "6b74afe3fc0f44419d60e96e23527471d1a854d00c5f3a0c95fcd7a243eba70b",
+        "script_size": 255,
+        "assignment_offset": 90,
+        "logical_offset": 8770145,
+        "assignment_sha256": "ebef2dc5184d18904500b8e7dd35807d9f92e1edf081991a4b5169ec8e90d96f",
+        "assignment_hex": "0f000000562370701f3c537472696e67733a4d433255492e426174746c655f4c6f672e53747261735265636f7665725f313e000000005624161f3c537472696e67733a4d433255492e426174746c655f4c6f672e53747261735265636f7665725f323e0016",
+        "prefix": "<Strings:MC2UI.Battle_Log.StrasRecover_1>",
+        "suffix": "<Strings:MC2UI.Battle_Log.StrasRecover_2>",
+        "numeric_input": "nAddHP:IntProperty -> PrimitiveCast0x53 -> strHP:StrProperty"
+      }
+    ],
+    "executed": false
+  },
+  "recovery_reference_coverage": {
+    "image_sha256": "d18d49fb2960426715ba17d61d069cce42b1eadac153af13c9395cd42b1773e9",
+    "logical_sha256": "e2a49cdd67c2b49f9b91fb517a49de33262ada4f3ec5a65c776a7d3126d1ecf4",
+    "direct_tag_searches": [
+      {
+        "tag": "<Strings:MC2UI.Battle_Log.AstarotRecover_1>",
+        "searches": [
+          {
+            "source": "MC2Game-logical",
+            "encoding": "ascii",
+            "offsets": [
+              8579669
+            ]
+          },
+          {
+            "source": "MC2Game-logical",
+            "encoding": "utf-16-be",
+            "offsets": []
+          },
+          {
+            "source": "native",
+            "encoding": "ascii",
+            "offsets": []
+          },
+          {
+            "source": "native",
+            "encoding": "utf-16-be",
+            "offsets": []
+          }
+        ],
+        "all_direct_references_covered": true
+      },
+      {
+        "tag": "<Strings:MC2UI.Battle_Log.AstarotRecover_2>",
+        "searches": [
+          {
+            "source": "MC2Game-logical",
+            "encoding": "ascii",
+            "offsets": [
+              8579720
+            ]
+          },
+          {
+            "source": "MC2Game-logical",
+            "encoding": "utf-16-be",
+            "offsets": []
+          },
+          {
+            "source": "native",
+            "encoding": "ascii",
+            "offsets": []
+          },
+          {
+            "source": "native",
+            "encoding": "utf-16-be",
+            "offsets": []
+          }
+        ],
+        "all_direct_references_covered": true
+      },
+      {
+        "tag": "<Strings:MC2UI.Battle_Log.BelielRecover_1>",
+        "searches": [
+          {
+            "source": "MC2Game-logical",
+            "encoding": "ascii",
+            "offsets": [
+              8585130
+            ]
+          },
+          {
+            "source": "MC2Game-logical",
+            "encoding": "utf-16-be",
+            "offsets": []
+          },
+          {
+            "source": "native",
+            "encoding": "ascii",
+            "offsets": []
+          },
+          {
+            "source": "native",
+            "encoding": "utf-16-be",
+            "offsets": []
+          }
+        ],
+        "all_direct_references_covered": true
+      },
+      {
+        "tag": "<Strings:MC2UI.Battle_Log.BelielRecover_2>",
+        "searches": [
+          {
+            "source": "MC2Game-logical",
+            "encoding": "ascii",
+            "offsets": [
+              8585180
+            ]
+          },
+          {
+            "source": "MC2Game-logical",
+            "encoding": "utf-16-be",
+            "offsets": []
+          },
+          {
+            "source": "native",
+            "encoding": "ascii",
+            "offsets": []
+          },
+          {
+            "source": "native",
+            "encoding": "utf-16-be",
+            "offsets": []
+          }
+        ],
+        "all_direct_references_covered": true
+      },
+      {
+        "tag": "<Strings:MC2UI.Battle_Log.LeviathanRecover_1>",
+        "searches": [
+          {
+            "source": "MC2Game-logical",
+            "encoding": "ascii",
+            "offsets": [
+              8665996
+            ]
+          },
+          {
+            "source": "MC2Game-logical",
+            "encoding": "utf-16-be",
+            "offsets": []
+          },
+          {
+            "source": "native",
+            "encoding": "ascii",
+            "offsets": []
+          },
+          {
+            "source": "native",
+            "encoding": "utf-16-be",
+            "offsets": []
+          }
+        ],
+        "all_direct_references_covered": true
+      },
+      {
+        "tag": "<Strings:MC2UI.Battle_Log.LeviathanRecover_2>",
+        "searches": [
+          {
+            "source": "MC2Game-logical",
+            "encoding": "ascii",
+            "offsets": [
+              8666049
+            ]
+          },
+          {
+            "source": "MC2Game-logical",
+            "encoding": "utf-16-be",
+            "offsets": []
+          },
+          {
+            "source": "native",
+            "encoding": "ascii",
+            "offsets": []
+          },
+          {
+            "source": "native",
+            "encoding": "utf-16-be",
+            "offsets": []
+          }
+        ],
+        "all_direct_references_covered": true
+      },
+      {
+        "tag": "<Strings:MC2UI.Battle_Log.PursonRecover_1>",
+        "searches": [
+          {
+            "source": "MC2Game-logical",
+            "encoding": "ascii",
+            "offsets": [
+              8696677
+            ]
+          },
+          {
+            "source": "MC2Game-logical",
+            "encoding": "utf-16-be",
+            "offsets": []
+          },
+          {
+            "source": "native",
+            "encoding": "ascii",
+            "offsets": []
+          },
+          {
+            "source": "native",
+            "encoding": "utf-16-be",
+            "offsets": []
+          }
+        ],
+        "all_direct_references_covered": true
+      },
+      {
+        "tag": "<Strings:MC2UI.Battle_Log.PursonRecover_2>",
+        "searches": [
+          {
+            "source": "MC2Game-logical",
+            "encoding": "ascii",
+            "offsets": [
+              8696727
+            ]
+          },
+          {
+            "source": "MC2Game-logical",
+            "encoding": "utf-16-be",
+            "offsets": []
+          },
+          {
+            "source": "native",
+            "encoding": "ascii",
+            "offsets": []
+          },
+          {
+            "source": "native",
+            "encoding": "utf-16-be",
+            "offsets": []
+          }
+        ],
+        "all_direct_references_covered": true
+      },
+      {
+        "tag": "<Strings:MC2UI.Battle_Log.StrasRecover_1>",
+        "searches": [
+          {
+            "source": "MC2Game-logical",
+            "encoding": "ascii",
+            "offsets": [
+              8770154
+            ]
+          },
+          {
+            "source": "MC2Game-logical",
+            "encoding": "utf-16-be",
+            "offsets": []
+          },
+          {
+            "source": "native",
+            "encoding": "ascii",
+            "offsets": []
+          },
+          {
+            "source": "native",
+            "encoding": "utf-16-be",
+            "offsets": []
+          }
+        ],
+        "all_direct_references_covered": true
+      },
+      {
+        "tag": "<Strings:MC2UI.Battle_Log.StrasRecover_2>",
+        "searches": [
+          {
+            "source": "MC2Game-logical",
+            "encoding": "ascii",
+            "offsets": [
+              8770203
+            ]
+          },
+          {
+            "source": "MC2Game-logical",
+            "encoding": "utf-16-be",
+            "offsets": []
+          },
+          {
+            "source": "native",
+            "encoding": "ascii",
+            "offsets": []
+          },
+          {
+            "source": "native",
+            "encoding": "utf-16-be",
+            "offsets": []
+          }
+        ],
+        "all_direct_references_covered": true
+      },
+      {
+        "tag": "<Strings:MC2UI.Battle_Log.beeljebubRecover_1>",
+        "searches": [
+          {
+            "source": "MC2Game-logical",
+            "encoding": "ascii",
+            "offsets": [
+              8591426,
+              8593858
+            ]
+          },
+          {
+            "source": "MC2Game-logical",
+            "encoding": "utf-16-be",
+            "offsets": []
+          },
+          {
+            "source": "native",
+            "encoding": "ascii",
+            "offsets": []
+          },
+          {
+            "source": "native",
+            "encoding": "utf-16-be",
+            "offsets": []
+          }
+        ],
+        "all_direct_references_covered": true
+      },
+      {
+        "tag": "<Strings:MC2UI.Battle_Log.beeljebubRecover_2>",
+        "searches": [
+          {
+            "source": "MC2Game-logical",
+            "encoding": "ascii",
+            "offsets": [
+              8591479,
+              8593911
+            ]
+          },
+          {
+            "source": "MC2Game-logical",
+            "encoding": "utf-16-be",
+            "offsets": []
+          },
+          {
+            "source": "native",
+            "encoding": "ascii",
+            "offsets": []
+          },
+          {
+            "source": "native",
+            "encoding": "utf-16-be",
+            "offsets": []
+          }
+        ],
+        "all_direct_references_covered": true
+      }
+    ],
+    "stem_searches": [
+      {
+        "stem": "AstarotRecover",
+        "source": "MC2Game-logical",
+        "encoding": "ascii",
+        "offsets": [
+          8579695,
+          8579746
+        ]
+      },
+      {
+        "stem": "AstarotRecover",
+        "source": "MC2Game-logical",
+        "encoding": "utf-16-be",
+        "offsets": []
+      },
+      {
+        "stem": "AstarotRecover",
+        "source": "native",
+        "encoding": "ascii",
+        "offsets": []
+      },
+      {
+        "stem": "AstarotRecover",
+        "source": "native",
+        "encoding": "utf-16-be",
+        "offsets": []
+      },
+      {
+        "stem": "BelielRecover",
+        "source": "MC2Game-logical",
+        "encoding": "ascii",
+        "offsets": [
+          8585156,
+          8585206
+        ]
+      },
+      {
+        "stem": "BelielRecover",
+        "source": "MC2Game-logical",
+        "encoding": "utf-16-be",
+        "offsets": []
+      },
+      {
+        "stem": "BelielRecover",
+        "source": "native",
+        "encoding": "ascii",
+        "offsets": []
+      },
+      {
+        "stem": "BelielRecover",
+        "source": "native",
+        "encoding": "utf-16-be",
+        "offsets": []
+      },
+      {
+        "stem": "beeljebubRecover",
+        "source": "MC2Game-logical",
+        "encoding": "ascii",
+        "offsets": [
+          8591452,
+          8591505,
+          8593884,
+          8593937
+        ]
+      },
+      {
+        "stem": "beeljebubRecover",
+        "source": "MC2Game-logical",
+        "encoding": "utf-16-be",
+        "offsets": []
+      },
+      {
+        "stem": "beeljebubRecover",
+        "source": "native",
+        "encoding": "ascii",
+        "offsets": []
+      },
+      {
+        "stem": "beeljebubRecover",
+        "source": "native",
+        "encoding": "utf-16-be",
+        "offsets": []
+      },
+      {
+        "stem": "LeviathanRecover",
+        "source": "MC2Game-logical",
+        "encoding": "ascii",
+        "offsets": [
+          8666022,
+          8666075
+        ]
+      },
+      {
+        "stem": "LeviathanRecover",
+        "source": "MC2Game-logical",
+        "encoding": "utf-16-be",
+        "offsets": []
+      },
+      {
+        "stem": "LeviathanRecover",
+        "source": "native",
+        "encoding": "ascii",
+        "offsets": []
+      },
+      {
+        "stem": "LeviathanRecover",
+        "source": "native",
+        "encoding": "utf-16-be",
+        "offsets": []
+      },
+      {
+        "stem": "PursonRecover",
+        "source": "MC2Game-logical",
+        "encoding": "ascii",
+        "offsets": [
+          8696703,
+          8696753
+        ]
+      },
+      {
+        "stem": "PursonRecover",
+        "source": "MC2Game-logical",
+        "encoding": "utf-16-be",
+        "offsets": []
+      },
+      {
+        "stem": "PursonRecover",
+        "source": "native",
+        "encoding": "ascii",
+        "offsets": []
+      },
+      {
+        "stem": "PursonRecover",
+        "source": "native",
+        "encoding": "utf-16-be",
+        "offsets": []
+      },
+      {
+        "stem": "StrasRecover",
+        "source": "MC2Game-logical",
+        "encoding": "ascii",
+        "offsets": [
+          8770180,
+          8770229
+        ]
+      },
+      {
+        "stem": "StrasRecover",
+        "source": "MC2Game-logical",
+        "encoding": "utf-16-be",
+        "offsets": []
+      },
+      {
+        "stem": "StrasRecover",
+        "source": "native",
+        "encoding": "ascii",
+        "offsets": []
+      },
+      {
+        "stem": "StrasRecover",
+        "source": "native",
+        "encoding": "utf-16-be",
+        "offsets": []
+      }
+    ],
+    "functions": [
+      {
+        "function": "MC2PawnInterfaceBattle_Astarot.AddHealthPercent",
+        "export": 19799,
+        "script_sha256": "d2b25a4622b9c2d49b7af7eecc6682c533fd30ec379c16a6dae153d77bc4538a",
+        "script_size": 259,
+        "assignment_offset": 90,
+        "logical_offset": 8579660,
+        "assignment_sha256": "25fe3ca3cfe5e03c944345f96fb89d51c8adbbeaca8493968d957fe040410d9f",
+        "assignment_hex": "0f0000004d5070701f3c537472696e67733a4d433255492e426174746c655f4c6f672e41737461726f745265636f7665725f313e000000004d51161f3c537472696e67733a4d433255492e426174746c655f4c6f672e41737461726f745265636f7665725f323e0016",
+        "prefix": "<Strings:MC2UI.Battle_Log.AstarotRecover_1>",
+        "suffix": "<Strings:MC2UI.Battle_Log.AstarotRecover_2>",
+        "numeric_input": "nAddHP:IntProperty -> PrimitiveCast0x53 -> strHP:StrProperty"
+      },
+      {
+        "function": "MC2PawnInterfaceBattle_Bariel.AddHealthPercent",
+        "export": 19857,
+        "script_sha256": "33fc473395d653c275e31dd4ab9a0445dab852bd716988e573feac84b52b86da",
+        "script_size": 257,
+        "assignment_offset": 90,
+        "logical_offset": 8585121,
+        "assignment_sha256": "27e15b90de009b006f0d46347166ab0dd2172a80e97d71fb50175bd79e851ab0",
+        "assignment_hex": "0f0000004d8a70701f3c537472696e67733a4d433255492e426174746c655f4c6f672e42656c69656c5265636f7665725f313e000000004d8b161f3c537472696e67733a4d433255492e426174746c655f4c6f672e42656c69656c5265636f7665725f323e0016",
+        "prefix": "<Strings:MC2UI.Battle_Log.BelielRecover_1>",
+        "suffix": "<Strings:MC2UI.Battle_Log.BelielRecover_2>",
+        "numeric_input": "nAddHP:IntProperty -> PrimitiveCast0x53 -> strHP:StrProperty"
+      },
+      {
+        "function": "MC2PawnInterfaceBattle_Beelzebub_Duel.AddHealthPercent",
+        "export": 19935,
+        "script_sha256": "4a97be387d055c42e5fc8adbcf926f23884ec73b007a1356a028c143e4c2304a",
+        "script_size": 263,
+        "assignment_offset": 90,
+        "logical_offset": 8591417,
+        "assignment_sha256": "65c86ac3962432685ff90815ac9e4f730f8f868467cd7d17bf08c0d5cc304793",
+        "assignment_hex": "0f0000004dd870701f3c537472696e67733a4d433255492e426174746c655f4c6f672e6265656c6a656275625265636f7665725f313e000000004dd9161f3c537472696e67733a4d433255492e426174746c655f4c6f672e6265656c6a656275625265636f7665725f323e0016",
+        "prefix": "<Strings:MC2UI.Battle_Log.beeljebubRecover_1>",
+        "suffix": "<Strings:MC2UI.Battle_Log.beeljebubRecover_2>",
+        "numeric_input": "nAddHP:IntProperty -> PrimitiveCast0x53 -> strHP:StrProperty"
+      },
+      {
+        "function": "MC2PawnInterfaceBattle_Beelzebub_Solo.AddHealthPercent",
+        "export": 19966,
+        "script_sha256": "4960a92f577d1ea924820e52a629e1566f5b057c801dccfc03de12ea509255c1",
+        "script_size": 263,
+        "assignment_offset": 90,
+        "logical_offset": 8593849,
+        "assignment_sha256": "95a7ee1c4ed99c46898171f2fdb240e5f48f5d9ffec2843a52e4c025b1441d2d",
+        "assignment_hex": "0f0000004df770701f3c537472696e67733a4d433255492e426174746c655f4c6f672e6265656c6a656275625265636f7665725f313e000000004df8161f3c537472696e67733a4d433255492e426174746c655f4c6f672e6265656c6a656275625265636f7665725f323e0016",
+        "prefix": "<Strings:MC2UI.Battle_Log.beeljebubRecover_1>",
+        "suffix": "<Strings:MC2UI.Battle_Log.beeljebubRecover_2>",
+        "numeric_input": "nAddHP:IntProperty -> PrimitiveCast0x53 -> strHP:StrProperty"
+      },
+      {
+        "function": "MC2PawnInterfaceBattle_Leviathan.AddHealthPercent",
+        "export": 20771,
+        "script_sha256": "ef6325096c9402e49c5f6fd3bdc1c9512db04079b930cf688d2b6c34afe3f1fc",
+        "script_size": 263,
+        "assignment_offset": 90,
+        "logical_offset": 8665987,
+        "assignment_sha256": "2b77d3c7be6465c5235b43fda5f9e1bef8b47b505da80cf8b357f96264d3c629",
+        "assignment_hex": "0f000000511c70701f3c537472696e67733a4d433255492e426174746c655f4c6f672e4c657669617468616e5265636f7665725f313e00000000511d161f3c537472696e67733a4d433255492e426174746c655f4c6f672e4c657669617468616e5265636f7665725f323e0016",
+        "prefix": "<Strings:MC2UI.Battle_Log.LeviathanRecover_1>",
+        "suffix": "<Strings:MC2UI.Battle_Log.LeviathanRecover_2>",
+        "numeric_input": "nAddHP:IntProperty -> PrimitiveCast0x53 -> strHP:StrProperty"
+      },
+      {
+        "function": "MC2PawnInterfaceBattle_MelisaSentinel.AddHealthPercent",
+        "export": 21177,
+        "script_sha256": "6b8d324b26a8a8add4f1e1eaeb0fed1207eac23c72e359cf625eb587aadd0e62",
+        "script_size": 257,
+        "assignment_offset": 90,
+        "logical_offset": 8696668,
+        "assignment_sha256": "095330ea240a30c8dddccbd5b01fee25f835bf1f982c769da43c62ea4237f749",
+        "assignment_hex": "0f00000052b270701f3c537472696e67733a4d433255492e426174746c655f4c6f672e507572736f6e5265636f7665725f313e0000000052b3161f3c537472696e67733a4d433255492e426174746c655f4c6f672e507572736f6e5265636f7665725f323e0016",
+        "prefix": "<Strings:MC2UI.Battle_Log.PursonRecover_1>",
+        "suffix": "<Strings:MC2UI.Battle_Log.PursonRecover_2>",
+        "numeric_input": "nAddHP:IntProperty -> PrimitiveCast0x53 -> strHP:StrProperty"
+      },
+      {
+        "function": "MC2PawnInterfaceBattle_SchauenzeitSentinel.AddHealthPercent",
+        "export": 22058,
+        "script_sha256": "6b74afe3fc0f44419d60e96e23527471d1a854d00c5f3a0c95fcd7a243eba70b",
+        "script_size": 255,
+        "assignment_offset": 90,
+        "logical_offset": 8770145,
+        "assignment_sha256": "ebef2dc5184d18904500b8e7dd35807d9f92e1edf081991a4b5169ec8e90d96f",
+        "assignment_hex": "0f000000562370701f3c537472696e67733a4d433255492e426174746c655f4c6f672e53747261735265636f7665725f313e000000005624161f3c537472696e67733a4d433255492e426174746c655f4c6f672e53747261735265636f7665725f323e0016",
+        "prefix": "<Strings:MC2UI.Battle_Log.StrasRecover_1>",
+        "suffix": "<Strings:MC2UI.Battle_Log.StrasRecover_2>",
+        "numeric_input": "nAddHP:IntProperty -> PrimitiveCast0x53 -> strHP:StrProperty"
+      }
+    ],
+    "scope": "Entire hash-locked MC2Game logical bytes and entire reconstructed native image,ASCII and UTF16BE;not other packages or dynamic constructed keys",
+    "dynamic_constructed_keys_excluded": false
+  },
+  "executed": false,
+  "game_rendering_verified": false,
+  "experience_numeric_origin": {
+    "schema_version": 1,
+    "kind": "exp-string-typed-primitive-cast-origin",
+    "inputs": {
+      "build/phase-282-verification/MC2Game-logical.bin": "e2a49cdd67c2b49f9b91fb517a49de33262ada4f3ec5a65c776a7d3126d1ecf4",
+      "build/phase-282-verification/package-tables.json": "0ea25716085840912c0d658d4daf8e9283f1a5604e77856a1210a9d22b5c4699"
+    },
+    "upstream_cast_definition": {
+      "project": "Unreal-Library",
+      "author": "Eliot van Uytfanghe",
+      "commit": "8236c39b79e30887a487ecf9b018204e430a5ebc",
+      "license": "MIT",
+      "url": "https://raw.githubusercontent.com/EliotVU/Unreal-Library/8236c39b79e30887a487ecf9b018204e430a5ebc/src/UnrealTokens.cs",
+      "sha256": "5f4ff4c33cf580596199dfb13353e9eae18f8361b3b8611b919bace0776c3165",
+      "tokens": {
+        "0x44": "FloatToInt",
+        "0x53": "IntToString"
+      }
+    },
+    "functions": [
+      {
+        "function": "MC2PawnInterfaceBattle.GetFullExp",
+        "export_ref": 18084,
+        "script_sha256": "2de1cd97df7e8a695e35df7fe32d85df3de302774b61cbc82aee6a261cdcb3b8",
+        "logical_script_offset": 8394677,
+        "source_binding": {
+          "name": "fExp",
+          "kind": "FloatProperty",
+          "object_ref": 18083,
+          "logical_offset": 8394589,
+          "size": 44
+        },
+        "source_role": "parameter",
+        "destination_binding": {
+          "name": "ExpNum",
+          "kind": "StrProperty",
+          "object_ref": 18081,
+          "logical_offset": 8394501,
+          "size": 44
+        },
+        "assignment_script_offset": 139,
+        "assignment_logical_offset": 8394816,
+        "assignment_size": 15,
+        "assignment_hex": "0f00000046a13853384400000046a3",
+        "assignment_sha256": "b4c69aad26739b534f2c83e07a1e4854c727069544fe0dadfa6104499d14540a",
+        "assignment_AST": {
+          "Let": {
+            "destination": "ExpNum:StrProperty",
+            "value": {
+              "PrimitiveCast_0x53_IntToString": {
+                "PrimitiveCast_0x44_FloatToInt": "fExp:FloatProperty"
+              }
+            }
+          }
+        },
+        "ExpNum_assignment_count": 1,
+        "calls_GetStringFromNumber": false,
+        "tag_constructor_in_assignment": false
+      },
+      {
+        "function": "MC2PawnInterfaceBattle.GetExp",
+        "export_ref": 18093,
+        "script_sha256": "cfe89e4957dba70ffd11e3b8036bbc5948911f8ea697d8911fcfc39785a9d62c",
+        "logical_script_offset": 8395358,
+        "source_binding": {
+          "name": "fExp",
+          "kind": "FloatProperty",
+          "object_ref": 18090,
+          "logical_offset": 8395178,
+          "size": 44
+        },
+        "source_role": "local",
+        "destination_binding": {
+          "name": "ExpNum",
+          "kind": "StrProperty",
+          "object_ref": 18089,
+          "logical_offset": 8395134,
+          "size": 44
+        },
+        "assignment_script_offset": 446,
+        "assignment_logical_offset": 8395804,
+        "assignment_size": 15,
+        "assignment_hex": "0f00000046a93853384400000046aa",
+        "assignment_sha256": "59e8e608f6b9865055de4ab82bea7f4c47a79a3c4f4585f1402aae6f0a9d090f",
+        "assignment_AST": {
+          "Let": {
+            "destination": "ExpNum:StrProperty",
+            "value": {
+              "PrimitiveCast_0x53_IntToString": {
+                "PrimitiveCast_0x44_FloatToInt": "fExp:FloatProperty"
+              }
+            }
+          }
+        },
+        "ExpNum_assignment_count": 1,
+        "calls_GetStringFromNumber": false,
+        "tag_constructor_in_assignment": false
+      }
+    ],
+    "conclusion": "Both ExpNum locals receive exactly IntToString(FloatToInt(fExp));not GetStringFromNumber and not per-digit Strings tags.",
+    "suffix": "点经验值已获得",
+    "game_executed": false,
+    "numeric_edge_cases_executed": false
+  }
+}

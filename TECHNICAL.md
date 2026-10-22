@@ -1,3 +1,7 @@
+## 第286阶段：typed脚本拼接与实际40字段采用
+
+完整Concat_StrStr赋值、GetStyleName12返回、EXP两处Float→Int→String唯一赋值及恢复七函数Int→String链支持22条UI实际采用；18装备说明同时保留缺数值回填语言。必要短窗口/hash/属性类型持久保存在ui-string-assembly-evidence.json；其他包和动态键不作全覆盖宣称。见[阶段286](docs/PHASE_286_PARTIALS_AND_UI_ADOPTION.md)。
+
 ## 第285阶段：章节目的地交叉绑定
 
 双盘INT/JPN完整131场景存在局部+1键错位，四证明/中心目的地与独立UI lastrada_sch形成关联，支持Chapter12_37王之灵庙草稿；这不是韩文영병本义/拼写修复的证明。KOR83字段未含对应章节；성쇄仍待一手释义。庙字U+5E99在七Font均无remap，三家庭固定字形计划各追加一格后重建四字体包，原有映射/度量逐项保持。见[阶段285](docs/PHASE_285_CHAPTER_TERM_ADOPTION.md)。

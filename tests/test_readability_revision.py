@@ -80,7 +80,7 @@ class ReadabilityRevisionTests(unittest.TestCase):
                 before_entry = old[entry['id']] if path == CURRENT else entry
                 before.update(literal_codepoints(before_entry['translation']))
                 after.update(literal_codepoints(entry['translation']))
-        self.assertEqual(len(seen), 14095)
+        self.assertEqual(len(seen), 14135)
         self.assertEqual(len(before), 2448)
         self.assertEqual(len(after), 2447)
         self.assertEqual(before-after, {ord('尖')})

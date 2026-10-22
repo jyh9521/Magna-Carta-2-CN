@@ -1,0 +1,3284 @@
+{
+  "schema_version": 1,
+  "kind": "thermal-status-story-injury-and-weapon-name-distinction",
+  "phase": 281,
+  "context_fields": 357,
+  "core_context_fields": 269,
+  "supplementary_physical": 89,
+  "source_physical": 358,
+  "retained_original_count": 1,
+  "translation_edits": 0,
+  "new_translations": 0,
+  "new_primary_consistency_fields": 0,
+  "retained_entries": [
+    {
+      "id": "coalesced:32d3480b41b4a9ca8e83996a60f0072f32112a863efd5b48bbb0453bbd4f55bb",
+      "section": "Recover",
+      "key": "HealingSeed",
+      "source": "힐 시드",
+      "translation": "治愈种子",
+      "source_sha256": "a198a9cc07949e096a061698b12e447138d8b16f6d7434f70a54bccee3ccfc52",
+      "translation_sha256": "a080cb5dca3e27bd92cbc4b030664eea3115eaf9b88ebe4a7bd8071502a8c14f"
+    },
+    {
+      "id": "coalesced:5e6a7e9c2d469907eb3fe5c35a1ec47951809f46162deae6ada34fd06e4aa662",
+      "section": "Recover",
+      "key": "HealingSeed_D",
+      "source": "아군 1명의 체력을 200 회복한다. ",
+      "translation": "恢复1名我方成员200点体力 ",
+      "source_sha256": "cdcb9767a2fc20d7b86a83a1cdc3bda965e2a82cfd583d77a74fb94f1a425de6",
+      "translation_sha256": "6ccf819082b6d6ed6e1d05202618da2b9e7315b02d3d15625a0323fd85a38033"
+    },
+    {
+      "id": "coalesced:6e5b152e13614edd030035ae8e8283b95044a73f121cd55b17517666f40cfe64",
+      "section": "Recover",
+      "key": "HealingSeed_S",
+      "source": "아군 1명의 체력을 200 회복. ",
+      "translation": "恢复1名我方成员200点体力 ",
+      "source_sha256": "b0112332a516abd74032cb628062473f48fb79a5d152858837a9cfc57a963ff4",
+      "translation_sha256": "6ccf819082b6d6ed6e1d05202618da2b9e7315b02d3d15625a0323fd85a38033"
+    },
+    {
+      "id": "coalesced:2545b1aa3fd5e22ef8a1d74502418dfdc047182d50fecae5f935a8b4916c9090",
+      "section": "Recover",
+      "key": "HealingLeaf",
+      "source": "힐 리프",
+      "translation": "治愈叶",
+      "source_sha256": "211b1540c0de28159b76e3426bf28f0e641a26f51837979ee3f50671375ef9df",
+      "translation_sha256": "93a92be22d89a26f364b963e7d1d194cd429ddd09aabd5f2c38e287a551c8848"
+    },
+    {
+      "id": "coalesced:98b93a950bff2c61632abe0a97e03f93f92fa0960582fbf4a5ce4bba4b5327bb",
+      "section": "Recover",
+      "key": "HealingLeaf_D",
+      "source": "아군 1명의 체력을 700 회복한다. ",
+      "translation": "恢复1名我方成员700点体力 ",
+      "source_sha256": "9dc5eb999062d27a7036c080dc6b92891d429c0deaa6783c3b77cb5633b3dc92",
+      "translation_sha256": "e82310bfa1e06f6e4289585ed1eab9ed846ced71df513781e05d4d89aace7257"
+    },
+    {
+      "id": "coalesced:ee76f211ee1657a80d293e7f70a75471e6f2402f2e849aaa157779947a5d2838",
+      "section": "Recover",
+      "key": "HealingLeaf_S",
+      "source": "아군 1명의 체력을 700 회복. ",
+      "translation": "恢复1名我方成员700点体力 ",
+      "source_sha256": "ea4e8f034ab019421abafb8cc1d14c70de771556f9ee0ab9f8e1af5d8b3a9696",
+      "translation_sha256": "e82310bfa1e06f6e4289585ed1eab9ed846ced71df513781e05d4d89aace7257"
+    },
+    {
+      "id": "coalesced:0f1e902fb0dc497e4812c5652e557339c8dacc666c6670d0e4f1250cbb5e1059",
+      "section": "Recover",
+      "key": "HealingCapsule",
+      "source": "힐 캡슐",
+      "translation": "治愈胶囊",
+      "source_sha256": "21b410cc2f641d1793f7f18b5c4920fae948183626f0c3d92764580412209b5c",
+      "translation_sha256": "99d161d097873ba1131b2ebc6be02321887e68503bb2b5c389730d205158dd86"
+    },
+    {
+      "id": "coalesced:3e2ae36c0d270246f7b320f7ba6bb631df96959b07771eb8e16fdcfff80df0cf",
+      "section": "Recover",
+      "key": "HealingCapsule_D",
+      "source": "아군 1명의 체력을 3600 회복한다. ",
+      "translation": "恢复1名我方成员3600点体力 ",
+      "source_sha256": "1a6b97ff280e3ee9131c25512474ec017fe970e5df04351e2ed49db68611ec79",
+      "translation_sha256": "77083131c60b70e9e56efe83870446e93b647ac6c94c09ef00638b310e9ef686"
+    },
+    {
+      "id": "coalesced:750842cf55003bd60541fc5b9ab06973a6c945db6470834d6679f6ece6c275b6",
+      "section": "Recover",
+      "key": "HealingCapsule_S",
+      "source": "아군 1명의 체력을 3600 회복. ",
+      "translation": "恢复1名我方成员3600点体力 ",
+      "source_sha256": "cc75a6a3d67665c3def1393d51f089d770e8541451c19848aba286e907cf6778",
+      "translation_sha256": "77083131c60b70e9e56efe83870446e93b647ac6c94c09ef00638b310e9ef686"
+    },
+    {
+      "id": "coalesced:5a414b541d50ca6595ec87aef55ad577833891dc0f8b40883be11d20711a92da",
+      "section": "Recover",
+      "key": "HealingPotion",
+      "source": "힐 포션",
+      "translation": "治愈药水",
+      "source_sha256": "89301bc5ae42361e52a277621649e0cff3fc947eb4cd81ad0f65c8d5699e1be5",
+      "translation_sha256": "e096c6158c0b5e4954870788d94259360ed8be9b13eeba066377f6c94df7125d"
+    },
+    {
+      "id": "coalesced:dd20a936ff6546af7ead215a0ff0ffdf725f608a1c59531371cd5693e30778c3",
+      "section": "Recover",
+      "key": "HealingPotion_D",
+      "source": "아군 1명의 체력을 5500 회복한다. ",
+      "translation": "恢复1名我方成员5500点体力 ",
+      "source_sha256": "fbd9cfe1d7d92659695c0ebf99d82c22c433984b26dc204dd40d3ebae2ef42be",
+      "translation_sha256": "0b7c9d43113e9afe4ff9be303c8e6e24ea0644d5f9a8c21a7d42c50c6885c3ae"
+    },
+    {
+      "id": "coalesced:4875eaad8343b44074d7d464854bd881a519b5799c69ee732f57226387fba105",
+      "section": "Recover",
+      "key": "HealingPotion_S",
+      "source": "아군 1명의체력을 5500 회복. ",
+      "translation": "恢复1名我方成员5500点体力 ",
+      "source_sha256": "0a097e2da267b56ad04bbcce1631bb6dae02372acf007f709f78998c54335140",
+      "translation_sha256": "0b7c9d43113e9afe4ff9be303c8e6e24ea0644d5f9a8c21a7d42c50c6885c3ae"
+    },
+    {
+      "id": "coalesced:018e63746425535cd73d1ab723cc600c48ff4524385fadd4f5f84054f010dabc",
+      "section": "Recover",
+      "key": "CrystalOfLife",
+      "source": "생명의 결정 ",
+      "translation": "生命结晶 ",
+      "source_sha256": "ff048023c2545993a6be05908cfd75c9385617561e2e810afa60b00ffd1b538d",
+      "translation_sha256": "baa2e1310ff2d560626aee2d71897e8bd59ebf7b043167ef8c1838f71b80ec6e"
+    },
+    {
+      "id": "coalesced:4ec021bde44b9a56c7adc8b077bc6c380dd24dda6c7be1c4d1cba1f342ee0a6b",
+      "section": "Recover",
+      "key": "CrystalOfLife_D",
+      "source": "아군 1명의 체력을 완전 회복한다. ",
+      "translation": "完全恢复1名我方成员的体力 ",
+      "source_sha256": "031bac356eba7b70a77b8171d2d69faa6f3c8c58a188adb4500b98d37465dc1c",
+      "translation_sha256": "fd320e8bfc5a85ece6662f47805639f08043dc16954fe5973e1ec70fdb280952"
+    },
+    {
+      "id": "coalesced:55f1cfd2c2933b5c5852414685a6d61dc9dced57900daa58efbf61f13c1cebd8",
+      "section": "Recover",
+      "key": "CrystalOfLife_S",
+      "source": "아군 1명의 체력을 완전 회복. ",
+      "translation": "完全恢复1名我方成员的体力 ",
+      "source_sha256": "148704322a882fec702342c64a53aff652632561ed292d22c84ab1fc427f8d91",
+      "translation_sha256": "fd320e8bfc5a85ece6662f47805639f08043dc16954fe5973e1ec70fdb280952"
+    },
+    {
+      "id": "coalesced:81281c6f4942a50ad11e27822d2b3e8b97668afb64f55c284212aca092fd4714",
+      "section": "Recover",
+      "key": "CureSeed",
+      "source": "큐어 시드",
+      "translation": "疗愈种子",
+      "source_sha256": "a9659f8b8d6103d8566c48865df15d5a64591816445faf1067ba358234363aff",
+      "translation_sha256": "c595ad3e5e0db892511602e8a92bd0105891fb47cdf4393d47dbd581eef77179"
+    },
+    {
+      "id": "coalesced:e347b039391629b3b9c6d41e87d20fef564bf067ec01f2be427934da154f485d",
+      "section": "Recover",
+      "key": "CureSeed_D",
+      "source": "아군 전원의 체력을 200 회복한다. ",
+      "translation": "恢复全体我方成员200点体力 ",
+      "source_sha256": "bbce439b90d533130922b95400344840263089165502c97ea478f471dc88468e",
+      "translation_sha256": "8de0b3081367a77b9250a66827d9ec601b612227aa1665a5b6ebd8e87ee385a7"
+    },
+    {
+      "id": "coalesced:4d3e6582745976b8f68fba94a5e507c5e38ab6cab6b779a7b769327374f6722e",
+      "section": "Recover",
+      "key": "CureSeed_S",
+      "source": "아군 전원의 체력을 200 회복. ",
+      "translation": "恢复全体我方成员200点体力 ",
+      "source_sha256": "f9d7a4850b5cc252624fb79555c47cfe7e01784ed40f644de39cece1a8552979",
+      "translation_sha256": "8de0b3081367a77b9250a66827d9ec601b612227aa1665a5b6ebd8e87ee385a7"
+    },
+    {
+      "id": "coalesced:ca2a11ec33e7dac3bdbf0ed1bafd98f78180f04b8f8c6cc060579e218aefd990",
+      "section": "Recover",
+      "key": "CureLeaf",
+      "source": "큐어 리프",
+      "translation": "疗愈叶",
+      "source_sha256": "d31d57b8044971803a3079374f558eca3b2276b7ebe395d86a9e38fed37fe832",
+      "translation_sha256": "28e79a290b45cc0214a61dacd1076fb96b91ebe4faefd07d167bb95f494eb0ac"
+    },
+    {
+      "id": "coalesced:cf2658fef19d9fc3c2fd0d58d2ad2f4e6dac4f4c47fdfe4486189b0c362272f0",
+      "section": "Recover",
+      "key": "CureLeaf_D",
+      "source": "아군 전원의 체력을 900 회복한다.",
+      "translation": "恢复全体我方成员900点体力",
+      "source_sha256": "d1e8484d48be5a5e2df6e5f9b5989e5bdb658d97cf2b663c1cd68557e4fb0cd2",
+      "translation_sha256": "05c428a726416d5ef74eaeb87387748724bdb315d440f01c6fe0625b6968b040"
+    },
+    {
+      "id": "coalesced:f5acd89ca17a0c7469bfb4abba06b300c6a91688c823e1ccc7a083391531d9e2",
+      "section": "Recover",
+      "key": "CureLeaf_S",
+      "source": "아군 전원의 체력을 900 회복. ",
+      "translation": "恢复全体我方成员900点体力 ",
+      "source_sha256": "45700790bedb6765bfaa613044867fff867563878b7fdc9f2ceca4f26c12b87f",
+      "translation_sha256": "7e80164938d67ec610501eac2da955deb58922f41780393f12c06957de3cc19b"
+    },
+    {
+      "id": "coalesced:7959890efe9b3db13a223e37bc41a2ee789447ee0aa6f08df628f54fc2dca3bf",
+      "section": "Recover",
+      "key": "CureCapsule",
+      "source": "큐어 캡슐",
+      "translation": "疗愈胶囊",
+      "source_sha256": "4e15dbe6c4c5e89235c8811a9debdeba771700d83bf0411b8c188f234765b367",
+      "translation_sha256": "32d1e888139525dd495b5c7980f10cf765d5adefc799a3da249906f21f06857c"
+    },
+    {
+      "id": "coalesced:55b87fa0604c27eaa5527d4dcf8338c5a7a09afeec23d06a42ed05bb1e27c5d9",
+      "section": "Recover",
+      "key": "CureCapsule_D",
+      "source": "아군 전원의 체력을 3000 회복한다. ",
+      "translation": "恢复全体我方成员3000点体力 ",
+      "source_sha256": "658be66300b534306929ce75d98fdc3da0ab252a15e8dbd7ee52a15e77b8129e",
+      "translation_sha256": "c0487ddd062b2d4204b49b1d4ec9dab37ec454cde3bfaea4bad1a0c3a5bec805"
+    },
+    {
+      "id": "coalesced:4c86432391de25a3794cbaeb41bafea52e19164e63ee61e179d4af949767b69c",
+      "section": "Recover",
+      "key": "CureCapsule_S",
+      "source": "아군 전원의 체력을 3000 회복. ",
+      "translation": "恢复全体我方成员3000点体力 ",
+      "source_sha256": "72d0b5d33c2d2f2969a6a93763823d988cc4c221c6e5a5f1ae4375d301b43c3a",
+      "translation_sha256": "c0487ddd062b2d4204b49b1d4ec9dab37ec454cde3bfaea4bad1a0c3a5bec805"
+    },
+    {
+      "id": "coalesced:e942b5b90b8c55393389524f4b48cf03f5e3418c4a2794a9aa7af8d21fa34c08",
+      "section": "Recover",
+      "key": "CurePotion",
+      "source": "큐어 포션",
+      "translation": "疗愈药水",
+      "source_sha256": "58bf4b7b6ed844f532c24fb330ec5d4c986784ca92597e152c17f2d610330668",
+      "translation_sha256": "e3a9b6a84d3e0560ea6fcb328958564ca9b93daeb6434f3de1af11b2546d8be4"
+    },
+    {
+      "id": "coalesced:bddb69e9b4f714c45a0031caa84aa1ca99afb5c7eeb1ecac79fb08d91847a3f1",
+      "section": "Recover",
+      "key": "CurePotion_D",
+      "source": "아군 전원의 체력을 4500 회복한다. ",
+      "translation": "恢复全体我方成员4500点体力 ",
+      "source_sha256": "653520f78858a1b78d828301fdb54485842dcb457bc8732d3fa35b017e33677f",
+      "translation_sha256": "4526288660b4aa0b35757dcb955212b3760c0549512e24fae864a29759485277"
+    },
+    {
+      "id": "coalesced:3067874f2ba926f3f6d3c4f8af207c4aad8068011b0071e8e4ac8f8749f83782",
+      "section": "Recover",
+      "key": "CurePotion_S",
+      "source": "아군 전원의 체력을 4500 회복. ",
+      "translation": "恢复全体我方成员4500点体力 ",
+      "source_sha256": "98adfa8ced5478d1cc071832222c014afccb150049e7a42abcd8eba24b9fca79",
+      "translation_sha256": "4526288660b4aa0b35757dcb955212b3760c0549512e24fae864a29759485277"
+    },
+    {
+      "id": "coalesced:cc7d6c4ce6fc3c0cd042c9072bbd3337646ee71743c46f21f004d2a9e388e33d",
+      "section": "Recover",
+      "key": "CrystalOfCure",
+      "source": "치유의 결정 ",
+      "translation": "疗愈结晶 ",
+      "source_sha256": "18643431ef247bccc5b4b8ee9e6355c9068bf72252326cadde5fb64f6f48f347",
+      "translation_sha256": "93c30d90c31bcde2eb82423f4b4d97c9b78304bfb69e2e2d3a8863b2af1226a7"
+    },
+    {
+      "id": "coalesced:d02b59e486e5211cc09f4de07373cebdb0360c4fed83faed531231bcb4de90cf",
+      "section": "Recover",
+      "key": "CrystalOfCure_D",
+      "source": "아군 전원의 체력을 완전 회복한다. ",
+      "translation": "完全恢复全体我方成员的体力 ",
+      "source_sha256": "af6604f976e206d123366a4a1138f4a722486db515d0ac9b31852bac8bd75d33",
+      "translation_sha256": "4792de7923cfb259e7f6dd79251b36c0c4b75beb00922d45ea5657c8006ae1c4"
+    },
+    {
+      "id": "coalesced:8724da645de394f2d6218a51e3b57a33b07994101a1d386e9301f8dfd4f68c62",
+      "section": "Recover",
+      "key": "CrystalOfCure_S",
+      "source": "아군 전원의 체력을 완전 회복. ",
+      "translation": "完全恢复全体我方成员的体力 ",
+      "source_sha256": "beeea85698d4391e19d148cc2b26ff4d3b669a768e495192bf765d9bd440d6f9",
+      "translation_sha256": "4792de7923cfb259e7f6dd79251b36c0c4b75beb00922d45ea5657c8006ae1c4"
+    },
+    {
+      "id": "coalesced:b3b7009b94231470a97f270860cb674b6b365c75301a3a88f2eaae63d68e9e91",
+      "section": "Recover",
+      "key": "ReviveCapsule",
+      "source": "리바이브 캡슐",
+      "translation": "复苏胶囊",
+      "source_sha256": "0db1e37d2031ca1deb2a127964b97cc14f2f3cfeabd975588d317e93078764fc",
+      "translation_sha256": "7ab02ee00cf53de5cb4036e5bd7e11a7ccd077f807f977cb7a7ec5a8e37353db"
+    },
+    {
+      "id": "coalesced:014e1a552ac30f383ebe47e0ad17255044d22868b9839d5765c59aad7954a5f2",
+      "section": "Recover",
+      "key": "ReviveCapsule_D",
+      "source": "전투불능인 아군 1명을 체력 30% 상태로 소생시킨다. ",
+      "translation": "使1名无法战斗的我方成员以30%体力复苏 ",
+      "source_sha256": "727a50d44de74ab944bc4d57355c04705b75b5fc1d6c9a23556264dc478db35c",
+      "translation_sha256": "2327afae24c3c52133ce6b7ab18db83e43c25dbf009ecc37a4572a648ca0edd3"
+    },
+    {
+      "id": "coalesced:f2aa5688d35098e649cf56127c96cccbd59a60b83be69b536f7e7a03d1a751a9",
+      "section": "Recover",
+      "key": "ReviveCapsule_S",
+      "source": "전투불능인 아군 1명을\\n체력 30% 상태로 소생. ",
+      "translation": "使1名无法战斗的我方成员\\n以30%体力复苏 ",
+      "source_sha256": "d597feb20322bfb1b872eeee33b4a76de6f489774d11174621cc86e6d5564fcb",
+      "translation_sha256": "f1926c3ca37ddf4085391d48f11c71c2bfa10669c3005f37851ee61064d3bce1"
+    },
+    {
+      "id": "coalesced:d48d3cb82967f08b8c31f4b6e04f3158d95de6f1868a9f977d57d37ac3655fe1",
+      "section": "Recover",
+      "key": "RevivePotion",
+      "source": "리바이브 포션",
+      "translation": "复苏药水",
+      "source_sha256": "a4a9e751b1c8bbc299e47d1988d9fc0e62cb1a85b16f92578e78c3b0ed2b9b35",
+      "translation_sha256": "1d73728fa4782c87fd087db43595883ee3bf32c600b6d13e778644207a09a696"
+    },
+    {
+      "id": "coalesced:0392d59cf67b3b78d51f29a05877f20acad8a24ce94c1a692c8bfe3502efb39a",
+      "section": "Recover",
+      "key": "RevivePotion_D",
+      "source": "전투불능인 아군 1명을 체력 100% 상태로 소생시킨다. ",
+      "translation": "使1名无法战斗的我方成员以100%体力复苏 ",
+      "source_sha256": "95060ed1618f7509d5919bc1e45622d62cae3c055420d2f24e9f6780b42e674a",
+      "translation_sha256": "bec750c0e32a1ac52cdfab5423dc3588b7a5b1f8715c90f0cb18d309dbf3ac89"
+    },
+    {
+      "id": "coalesced:82da35e78d3889853a36f674864a487e7a558c36ce539688145cf80e440227b5",
+      "section": "Recover",
+      "key": "RevivePotion_S",
+      "source": "전투불능인 아군 1명을\\n체력 100% 상태로 소생. ",
+      "translation": "使1名无法战斗的我方成员\\n以100%体力复苏 ",
+      "source_sha256": "8ff87e8af843105606898a397c1d3aa34598bcdb95f1ac1cd9470361f6e4470d",
+      "translation_sha256": "fe117edf6ae37a9d01292843cf8af6c846634e47438733e67b7d91fcab57b338"
+    },
+    {
+      "id": "coalesced:7cfe814e22af36c7b322ee9d2282ff7484b07f3116fdd0598b5b4249c17a41ce",
+      "section": "Recover",
+      "key": "Sosanghwan",
+      "source": "소생환",
+      "translation": "苏生丸",
+      "source_sha256": "c23e7df020e293e58e790ac4272f01387e8a001324579357ccfec29969ad01ea",
+      "translation_sha256": "0c88e0693ba32b46d354516ab114fed36a8ff27b76c5045f5dbbf745e8eadc65"
+    },
+    {
+      "id": "coalesced:599277ead55552a0a975797104a3fe84452cf8e5a46f57fe3b4b7057556edce0",
+      "section": "Recover",
+      "key": "Sosanghwan_D",
+      "source": "전투불능인 아군 전원을 체력 20% 상태로 소생시킨다. ",
+      "translation": "使全体无法战斗的我方成员以20%体力复苏 ",
+      "source_sha256": "ea3fb2a764aaf8b284a4b8d533aa65f648c57388be5af342ed56f06ced24c305",
+      "translation_sha256": "495cfa2536f483ceaa53af43676c458c3fc7821129f592214f7d4909ff10313d"
+    },
+    {
+      "id": "coalesced:05c7f647209a224d5a7f3a72c1056dd72f84f0e6291c9606e86027089e6a5402",
+      "section": "Recover",
+      "key": "Sosanghwan_S",
+      "source": "전투불능인 아군 전원을\\n체력 20% 상태로 소생. ",
+      "translation": "使全体无法战斗的我方成员\\n以20%体力复苏 ",
+      "source_sha256": "6745a2aca0d5c56d190afeb4d76ef92f01eae28c476fd04eadf7b7db37ebc281",
+      "translation_sha256": "26601bb8bdc3b454089234b3b89c71f833ad9c1b5653a888af2f81170e9ffd61"
+    },
+    {
+      "id": "coalesced:f3d571128854c57907091f5ec8e865de8633391b4748fbdd5c960b612e0f5a1a",
+      "section": "Recover",
+      "key": "Sosangsu",
+      "source": "소생수",
+      "translation": "苏生水",
+      "source_sha256": "c7d0c5186c109306fb5bd31ace5af0d0f0ac3d9f1ae643d1e9008101225f6c1d",
+      "translation_sha256": "2c435864d1519cb79b3a49c7e5080ded38ab8f47c37ff61dcc31a372278cae2e"
+    },
+    {
+      "id": "coalesced:cc06cdaea981def038abd1e9e50ca82823f85cd59dabca0e7919654f32653355",
+      "section": "Recover",
+      "key": "Sosangsu_D",
+      "source": "전투불능인 아군 전원을\\n체력 완전 회복 상태로 소생시킨다. ",
+      "translation": "使全体无法战斗的我方成员\\n以体力全满状态复苏 ",
+      "source_sha256": "c14031789a9b168a5d56900dd02bda5ffbaf4b525e9d44fc19b25ca5c4025d7f",
+      "translation_sha256": "12119dfbf540cf0c45b52194c2680c64f8e4507e0aba0b3163d5d4afedf208a8"
+    },
+    {
+      "id": "coalesced:96e4ef488f993f6a3b0c5b2fdd1380fe778d6fe60b8a8d53793159f86e132ae7",
+      "section": "Recover",
+      "key": "Sosangsu_S",
+      "source": "전투불능인 아군 전원을\\n체력 완전 회복 상태로 소생. ",
+      "translation": "使全体无法战斗的我方成员\\n以体力全满状态复苏 ",
+      "source_sha256": "e6489c4487b72cb3868e3f51f09d2aa7c2f40986488841bb4aa39a4127923178",
+      "translation_sha256": "12119dfbf540cf0c45b52194c2680c64f8e4507e0aba0b3163d5d4afedf208a8"
+    },
+    {
+      "id": "coalesced:b1093f5908d3c46fc0dae48d9c2546fe4c0b8fd847896303ed2a38980fa4a969",
+      "section": "Recover",
+      "key": "Cureall",
+      "source": "만능약",
+      "translation": "万能药",
+      "source_sha256": "61f657b164e622efba70eeb2d3da04941a24b740e3ab46c7fb1268a625e4136c",
+      "translation_sha256": "fec2de773634fb2773e5dc1e72966c10c7511117e275334f8b0c351b5e1fc4ab"
+    },
+    {
+      "id": "coalesced:17f730ec8b4217046af9df3d098771644b178e2771f50143f8c077cda21b252a",
+      "section": "Recover",
+      "key": "Cureall_D",
+      "source": "아군 1명의 모든 상태이상을 회복한다. ",
+      "translation": "解除1名我方成员的所有异常状态 ",
+      "source_sha256": "973dbd4b10997c52b04082311baca1026ba05b0ed6292fc4241e092a0e18809c",
+      "translation_sha256": "65be5d1cd8c4c1f3529210414e1342aa0a1d719d73cc495d03ed41d9c8efbcde"
+    },
+    {
+      "id": "coalesced:341b411d69716a69d13590135bd5a5c1085d13cedf71355b6902b16fc8503827",
+      "section": "Recover",
+      "key": "Cureall_S",
+      "source": "아군 1명의\\n모든 상태이상을 회복. ",
+      "translation": "解除1名我方成员的\\n所有异常状态 ",
+      "source_sha256": "016f7971c6c1b5a38014744177bd1c6ffa371e14732aec543091f27055cad236",
+      "translation_sha256": "76eddaec1023736bbf1c787cdb2e8c26740b966bf80e7688ed60bd743bd77ad2"
+    },
+    {
+      "id": "coalesced:6d765a21866b26410a94bf583c81a993a655a62135cf740d287a8e50b43596b3",
+      "section": "Recover",
+      "key": "42_Detoxipotion",
+      "source": "해독제",
+      "translation": "解毒剂",
+      "source_sha256": "b5235d572886a83a709125a0b7f0cd2150117be5addfb84e9ac671b7e5e2fe95",
+      "translation_sha256": "16134e5146ba15572e0b3a93f623c960d83221208808e599ea3f1a9b492a369d"
+    },
+    {
+      "id": "coalesced:572eb37f4541796825a6fed6728a61c056a231910b0c19e69895d6284d5299c6",
+      "section": "Recover",
+      "key": "42_Detoxipotion_D",
+      "source": "아군 1명의 중독 상태를 회복한다. ",
+      "translation": "解除1名我方成员的中毒状态 ",
+      "source_sha256": "3143fec8319264c8d6f349ec769e94b3d2a107b17a1432977786d253b771ef76",
+      "translation_sha256": "5143e0d049e9f4d50956a0a06fcadd113309b86030e3acd89a23c986c3ff26dc"
+    },
+    {
+      "id": "coalesced:d29bf365225bcc4311bc5884cf8314aeabeb21ef4d444c3cc7072c32227593ca",
+      "section": "Recover",
+      "key": "42_Detoxipotion_S",
+      "source": "아군 1명의 중독을 회복. ",
+      "translation": "解除1名我方成员的中毒 ",
+      "source_sha256": "3496f317cc9179c83ca93c469e034be6c7e6076804b15819c722fb948221ff2a",
+      "translation_sha256": "7640d05f1263ca5359c6186434df2bbc5bb5635910c1909d86863f27cb8adc75"
+    },
+    {
+      "id": "coalesced:5bedd57993c9be08928f8372f37d407bbb9e5ad0ee8730df495d01944994be8f",
+      "section": "Recover",
+      "key": "staminaSeed",
+      "source": "스태미너 시드",
+      "translation": "耐力种子",
+      "source_sha256": "0e1e77e5f3e69257bc3292fdbec26c47bf58e4dbb3ef3c6cc42767ad11c94d19",
+      "translation_sha256": "3d761c1e066bbb8787a6785972a296881b49ff0d1e916c1bd6e829f5d71e5ee4"
+    },
+    {
+      "id": "coalesced:f0845cbccab97a017db41dad2f75bfde2c52eb1dbfe94074cb9cacff14c5df58",
+      "section": "Recover",
+      "key": "staminaSeed_D",
+      "source": "일정 시간 아군 1명의\\n스태미너회복 속도를 상승시킨다.",
+      "translation": "在一定时间内提高1名我方成员的\\n耐力恢复速度",
+      "source_sha256": "5dc46dad08dea2e85e8a98aeae04c8b3c3e67146e61aaf2c27c7d7de1665b718",
+      "translation_sha256": "117dc68cfb2618a89e221485e5d9dd8ce5df8215e796330ed3fa43d2b931de10"
+    },
+    {
+      "id": "coalesced:021e19f39df67dae3503fdfe68b54d3203b53a309b801b6555720b1ab6125263",
+      "section": "Recover",
+      "key": "staminaSeed_S",
+      "source": "일정 시간 아군 1명의\\n스태미너회복 속도 상승. ",
+      "translation": "在一定时间内提高1名我方成员的\\n耐力恢复速度 ",
+      "source_sha256": "e0f1909ae268fae83e893caf38067efb166dcd8bffe86ee7139417251babc528",
+      "translation_sha256": "fd5c611d467156a53b59ac50f47c62c7e57bd3add5bb2a384449333ba101f7a3"
+    },
+    {
+      "id": "coalesced:03b89b3995e7b8c50522a8421b6cf264de5e8c4c1351193e48998387fc54bc10",
+      "section": "Recover",
+      "key": "staminaLeaf",
+      "source": "스태미너リーフ",
+      "translation": "耐力叶",
+      "source_sha256": "6484d9939c2fc5e97078a76da7a108deeb2546f9113697b385295129cbc7bd9a",
+      "translation_sha256": "fcd54adae62765e607ed36b9bfd57ec5e04bd9e60700f3d23611350c65792bec"
+    },
+    {
+      "id": "coalesced:06d0df79597ee097cd4a81b97630a1378d8d71025492c488cbb94c3f859fd957",
+      "section": "Recover",
+      "key": "staminaLeaf_D",
+      "source": "一定時間아군全員の\\n스태미너회복の速度アップ ",
+      "translation": "在一定时间内提高全体我方成员的\\n耐力恢复速度 ",
+      "source_sha256": "4111fa9dc2693f553c3ee719776b1ba32e39b89634b31c1293417490c4a33b45",
+      "translation_sha256": "36bdec60219509831bf5524635202a6518bdb5c2427ebdda07ce2bca096e87dc"
+    },
+    {
+      "id": "coalesced:7e2cdf988ef78235b6afca31c24813d39f666a3a5f64ced6cfce4f8e20dc65fb",
+      "section": "Recover",
+      "key": "staminaLeaf_S",
+      "source": "一定時間아군全員の\\n스태미너회복の速度アップ",
+      "translation": "在一定时间内提高全体我方成员的\\n耐力恢复速度",
+      "source_sha256": "25c20ea6a48fe93f105820e3752021256b690cee16c6b03434de396986a79bd5",
+      "translation_sha256": "770c7d389da00626a1342b8eeef81fcbf89f60bb204d354bbb9f9964a465fc1b"
+    },
+    {
+      "id": "coalesced:2fab10ac9925de27160154c2d90ae34b83c7519031939b883203d13cf77671c9",
+      "section": "Recover",
+      "key": "staminaCapsule",
+      "source": "스태미너 캡슐",
+      "translation": "耐力胶囊",
+      "source_sha256": "ffb14b18c5d48312a662a20e8d9c82ac9dabd4204d72d759fc4397df713d4661",
+      "translation_sha256": "276e72983f2cc495ac816878eaf2ef36944a336b0c9280ca4dc2262e2ad524e6"
+    },
+    {
+      "id": "coalesced:080aec088edd2b98c921511a6203e5649157e3ef7010b8a40a299b76d48b24ec",
+      "section": "Recover",
+      "key": "staminaCapsule_D",
+      "source": "아군 전원의 스태미너를 50% 회복한다. ",
+      "translation": "恢复全体我方成员50%的耐力 ",
+      "source_sha256": "41859cd7c192abaea52dfab0d6b7a0a883f74a2f641d51761bdf5d66c50b2c28",
+      "translation_sha256": "d502e36b0fbf85c70785a79a1d5f2e1c97fea5b8eed641fa6145931ab549552c"
+    },
+    {
+      "id": "coalesced:b805a977c9091a8374ded28c1da4bc4a9df5677146cc4524bc3f3fece08b638d",
+      "section": "Recover",
+      "key": "staminaCapsule_S",
+      "source": "아군 전원의 스태미너를\\n50% 회복. ",
+      "translation": "恢复全体我方成员\\n50%的耐力 ",
+      "source_sha256": "c45b23642a1fd3d3f6c0b03321a5e07bcafb9477093fe5c60da2fb1988a599f7",
+      "translation_sha256": "6e09c6cc10ac541b16278c40cddc4a627a165e3b432e99a086e8a759e5e00a93"
+    },
+    {
+      "id": "coalesced:a37716d4441fab2501bc52288ce5e779f2d0f11750847e36e698f88631be929b",
+      "section": "Recover",
+      "key": "staminaPotion",
+      "source": "스태미너ポション",
+      "translation": "耐力药水",
+      "source_sha256": "915fbdd110bcef1a74bacbd9bf284dd815ecacae926f7e398a17b9e887f35e40",
+      "translation_sha256": "ea219f5a6a5f2a06dc9ac24748270baf3ce024c1ffa4a4c1bc8233dbb80b377f"
+    },
+    {
+      "id": "coalesced:ca8b9bd6fa9b715878bfb6dc98d8cc376177349b78f6737627d01e6b2f012d95",
+      "section": "Recover",
+      "key": "staminaPotion_D",
+      "source": "아군全員の스태미너を100%回復する",
+      "translation": "恢复全体我方成员100%的耐力",
+      "source_sha256": "b0d9909d6461869678d3c267985dfeb9379c969ecf230641c57ca8d4bc667d08",
+      "translation_sha256": "77da17a324f1a62940eb3a5162e57f17e0ea8f2d664d7f18ebf250240aeb4341"
+    },
+    {
+      "id": "coalesced:6ca8fd64709428d0f331e1ddfbf714da14746329e2bb9e7dc6dba0f51f85c997",
+      "section": "Recover",
+      "key": "staminaPotion_S",
+      "source": "아군全員の스태미너を\\n100%回復",
+      "translation": "恢复全体我方成员\\n100%的耐力",
+      "source_sha256": "99d63257057a41e25e05fe53d42427f62a68205ccda1a35536ea7d604f7a9508",
+      "translation_sha256": "f1304c2cdb2485cef10edd7c6023ffacb4682b1b2c8668da4046e5f26e93db1b"
+    },
+    {
+      "id": "coalesced:93abea280593a244cae0f652b1d6200184e0bb6c681283ecae75eff795c1452f",
+      "section": "Recover",
+      "key": "IceBingsu",
+      "source": "빙수 ",
+      "translation": "刨冰 ",
+      "source_sha256": "e4fadf54a08bfe8f460bb87f07219bca6b881a8cae1378232faf13fb06d1fdbf",
+      "translation_sha256": "027740c2437c4951438bf2c99f3da64ccb0f8ab9400ef95e4ded4c0e4e1a0cf3"
+    },
+    {
+      "id": "coalesced:02326be12656d5bae096d9a90664dbd5c02a9d93fb907b8e3254d92d177ea46d",
+      "section": "Recover",
+      "key": "IceBingsu_D",
+      "source": "아군 1명의 더위와 화상 상태를 회복한다. ",
+      "translation": "解除1名我方成员的炎热与烧伤状态 ",
+      "source_sha256": "a728d4e3681a492530032285265b1c6b6280365d5e84696e39d64a98e56cb081",
+      "translation_sha256": "0c4be24518712319026d0b59e94ab78f14f136b127dd8a8783d36dce6ad94904"
+    },
+    {
+      "id": "coalesced:484c69c54bd996105a0874f697b0ab65ebd5370e28165c620438735c18f53224",
+      "section": "Recover",
+      "key": "IceBingsu_S",
+      "source": "아군 1명의 더위와 화상 회복. ",
+      "translation": "解除1名我方成员的炎热与烧伤 ",
+      "source_sha256": "30828792733f8a083c4546143bb129dbd3aca0c1fc06b7f6a93bae19fcac19ee",
+      "translation_sha256": "3c8a1f366b5c3757a7b25ac21179ce85a3e55133c1cc8071801b24f94b31b9d1"
+    },
+    {
+      "id": "coalesced:d73220cc0ccd7f6542796e02baa309eb21efdf0170c8d85621699f718b33689c",
+      "section": "Recover",
+      "key": "FireRemedy",
+      "source": "火傷用軟膏",
+      "translation": "烧伤药膏",
+      "source_sha256": "ca5a095bc15749e76ccf7f49c66711484b738137c28dc25544ffb08d1618c48f",
+      "translation_sha256": "95ed00242417bf326d93fcba180ef3ce5ef96c0add0fd9a87f75a10ff9fa4739"
+    },
+    {
+      "id": "coalesced:527eb4b1810cb27b28682328dc9c0c3c8fdd2208b4f29dd7ae6d32303a4a8ab3",
+      "section": "Recover",
+      "key": "FireRemedy_D",
+      "source": "아군1명の火傷状態を回復する",
+      "translation": "解除1名我方成员的烧伤状态",
+      "source_sha256": "d54f370a78225130bea8ffe9f6b9bbb6b4a3ff515ad31364f9aadb61bea022c1",
+      "translation_sha256": "5148b217a9a1d3f81d192249eafeb673dc1ec82e9c404040c6e54d8fe1650a54"
+    },
+    {
+      "id": "coalesced:e0b5d9425ed749b4d361886358df5e9d0a0e54ade69d548a0db3aa6291731691",
+      "section": "Recover",
+      "key": "FireRemedy_S",
+      "source": "아군1명の火傷を回復",
+      "translation": "解除1名我方成员的烧伤",
+      "source_sha256": "2f0f8fbe9154a9c6c1971047e19351705509fa7c424a9f89cc31e65cd2af38e0",
+      "translation_sha256": "675f1e80adc6e1006f5a02117017b09be532c923c21f17b64b41d8a4b8abdf76"
+    },
+    {
+      "id": "coalesced:c110dc65c45a7225092e5ea2fa36afd326ba30b9470a647bd7b4136d6e3054aa",
+      "section": "Recover",
+      "key": "HotCocoa",
+      "source": "핫 코코아",
+      "translation": "热可可",
+      "source_sha256": "7c00ba1e5dd8c15401bbd629c1340d848a7078aa706e2ab42c8dc0fef991bc32",
+      "translation_sha256": "647d2c502d390a042f6292b56df23083ea99bfdcea7d1b7461cb696868c3bfa2"
+    },
+    {
+      "id": "coalesced:416ef062e120ebd286bb43a359f68d0e0e436e8dafdb58fc436053b746f89db7",
+      "section": "Recover",
+      "key": "HotCocoa_D",
+      "source": "아군 1명의 추위와 동상 상태를 회복한다. ",
+      "translation": "解除1名我方成员的寒冷与冻伤状态 ",
+      "source_sha256": "0cd4ae5fd884a3dc333e9135cfaa0d8320a3eb22033a1740887963ed372cc978",
+      "translation_sha256": "4f38cbdbfe29d7a6b54fe9219995dc2eb0b214dbf0aaa8a7f0edd1d8bf0ab7ba"
+    },
+    {
+      "id": "coalesced:9b5f07f822555800c8e8800c5cd7aa374b20d0852d8a40c8c312b473b1aeced4",
+      "section": "Recover",
+      "key": "HotCocoa_S",
+      "source": "아군 1명의\\n추위와 동상 회복. ",
+      "translation": "解除1名我方成员的\\n寒冷与冻伤 ",
+      "source_sha256": "cf6df7abbbf18419568335bdc8ccf0390277a24b318f50899c1041fdb0ed441f",
+      "translation_sha256": "94844f4308ac320dec64764a58c6efe0f7e3b05ab3303f92f81b44ba010d9bc7"
+    },
+    {
+      "id": "coalesced:025570cdcaa89e7f2f12733a409d55eef256d7184cedaf16ccc2522afe78282c",
+      "section": "Recover",
+      "key": "FrozenRemedy",
+      "source": "凍傷用軟膏",
+      "translation": "冻伤药膏",
+      "source_sha256": "4156a16959705700be5f68304b9e83642b90e48d14807b52b25642a6d5944abc",
+      "translation_sha256": "325cd12c2e2dc19e0adc6b2e7b94dc1573b7d833def341fc73c8f76323edd42f"
+    },
+    {
+      "id": "coalesced:4d3f4d7e8ff60508725037b493702e8be39b01436d32b28313c45a747768978f",
+      "section": "Recover",
+      "key": "FrozenRemedy_D",
+      "source": "아군1명の凍結状態を回復する",
+      "translation": "解除1名我方成员的冰冻状态",
+      "source_sha256": "148987830a783127b171e661f3fddff793db78c605060395d39f8372d7761256",
+      "translation_sha256": "2b1f4af34231b5c8024ec4d079e602075b987d2c7349a5c32cde309f8256e3bf"
+    },
+    {
+      "id": "coalesced:4ee191e00fdc35a72aac9b62a8678c312b1f924d5ecfc03a0951608119c6db35",
+      "section": "Recover",
+      "key": "FrozenRemedy_S",
+      "source": "아군1명の凍結を回復",
+      "translation": "解除1名我方成员的冰冻",
+      "source_sha256": "74628e9eda407d2ae8643c2b13d2f1d97e67797367a9604afbda2b9827f2ca95",
+      "translation_sha256": "ee05a7ec02574ea58363b3bf86882fff564e03d794cf51a4d5374b29dc6b8bba"
+    },
+    {
+      "id": "coalesced:5c956e89fe80d0bfc8095ddfb9fea4248e9cb08436d909e68cefce0d8dc13163",
+      "section": "Recover",
+      "key": "MedicionOfAntiseasickness",
+      "source": "抗メマイ薬",
+      "translation": "抗眩晕药",
+      "source_sha256": "54f175a48d03481b5e1eb1e4dfe497703d533f8eba0ac416c9c86ef3e4754d53",
+      "translation_sha256": "0b9e589c6848ba236294b4fdeda41edea3b3054f634c31f9994439417f3353ad"
+    },
+    {
+      "id": "coalesced:b1fe1266308e4c2841ca9db95a9c176167764515ea238ac4e179fa8177fe9ee2",
+      "section": "Recover",
+      "key": "MedicionOfAntiseasickness_D",
+      "source": "아군1명のメマイ状態を回復する",
+      "translation": "解除1名我方成员的眩晕状态",
+      "source_sha256": "33a4401ab89ef0408eabe2595c6081f23d6fe637054050fcb56111f51ff7b424",
+      "translation_sha256": "f83504592a6ed0619461a933f2fbcb179d8081c7f85a12618fc19da74be70857"
+    },
+    {
+      "id": "coalesced:bbdc116796755b0cf421e9c8a16863f1be9a3614d18bab390ed6f6eb91a95963",
+      "section": "Recover",
+      "key": "MedicionOfAntiseasickness_S",
+      "source": "아군1명のメマイを回復",
+      "translation": "解除1名我方成员的眩晕",
+      "source_sha256": "ec8ea0bd06afda7a8d76171f6d16028b162479113b194d0273c41614cdf357b1",
+      "translation_sha256": "08e5d0c5a5be7dcbce991d5f4107ce7dd157855bf900357f5b5d2fd5dfe2674c"
+    },
+    {
+      "id": "coalesced:acbd5233c06800c8088bf88f5b31a33ef404db5201fa8ad22cc216cb13d4c33d",
+      "section": "Recover",
+      "key": "CandyForNeck",
+      "source": "목캔디",
+      "translation": "润喉糖",
+      "source_sha256": "c32bec45be8c1707b4c3299408d52e35182e0baddaa1769a2f9ed80c84f42eb6",
+      "translation_sha256": "df6903e3961999a8c7f3734c1d7a79936a68405cdd4e91723ec54cb3124ac0a0"
+    },
+    {
+      "id": "coalesced:d23a8b94f20b44248c3968119d1c320e5d47f031d925862c2e3bd706693e9872",
+      "section": "Recover",
+      "key": "CandyForNeck_D",
+      "source": "아군 1명의 어지러움과 침묵 상태를 회복한다. ",
+      "translation": "解除1名我方成员的晕眩与沉默状态 ",
+      "source_sha256": "26af8d5a8382f60fc0cf70c761c3aaa23ba4cd7092f6881fae1a39d00c6ddacb",
+      "translation_sha256": "94dcd187fc1b270dbd3bcdea64efa9e4c92c20d78522cef89e14d9bd716d746d"
+    },
+    {
+      "id": "coalesced:14e8a17fb13fead6a17cd2da7c0bd75102312e04e3da1504cbffd53383f9a86e",
+      "section": "Recover",
+      "key": "CandyForNeck_S",
+      "source": "아군 1명의\\n어지러움과 침묵을 회복. ",
+      "translation": "解除1名我方成员的\\n晕眩与沉默 ",
+      "source_sha256": "cde9cfc0df8dc40b4f4b7101f54b1e7946a44e400a4905f0f594290678ac0b9e",
+      "translation_sha256": "71bafc64f661a23cdb00bd3e29ec71d9f3a847e049e516092735532f2ee85986"
+    },
+    {
+      "id": "coalesced:f6640b5f28445b373b7ffa98f0583c2e7ce6044eb0cd67089f97bdf07379bfdf",
+      "section": "Recover",
+      "key": "Calmative",
+      "source": "鎮静剤",
+      "translation": "镇静剂",
+      "source_sha256": "7cc01e07643dbec8f7784550351be1851f5ab1983c7eda28e9db8b0fed27d087",
+      "translation_sha256": "b6745b13c7f9c756a24bfbc910706da2f5191cf5b0272041484baaa088fd8659"
+    },
+    {
+      "id": "coalesced:4d0543d91ac7d4a8a3d3c0265c9a7869a9749f3d99949aeef0e3c9e40e9317cd",
+      "section": "Recover",
+      "key": "Calmative_D",
+      "source": "아군1명のマヒ状態を回復する",
+      "translation": "解除1名我方成员的麻痹状态",
+      "source_sha256": "2710a334da393b380ce8a361a9e5b072ccffad04fed0aa22f1c02dbdac2235fe",
+      "translation_sha256": "8badb7917629ef26e6cc54482e5a53e7e351857f3819dfeaeb966ad7ae1cbc42"
+    },
+    {
+      "id": "coalesced:1002e7c54c5b8fd4bb24eb5283846cf2cf9966be681755bae4368e8024484080",
+      "section": "Recover",
+      "key": "Calmative_S",
+      "source": "아군1명のマヒを回復",
+      "translation": "解除1名我方成员的麻痹",
+      "source_sha256": "602a51c906d17f5858926c0514b4baf67730eabc214bfb5f7f5305e225a94b33",
+      "translation_sha256": "fe63510020c4d4a0510e096d88de313f2d98b9785cca01cf69d90d2c1ba7889c"
+    },
+    {
+      "id": "coalesced:8f527e50ca91ac9d1fa6dc7654a18dee217c11252aa653cda90129c28fa95399",
+      "section": "Recover",
+      "key": "Stimulant",
+      "source": "허브",
+      "translation": "草药",
+      "source_sha256": "1609c80a8fddd4e4266592b424023d36c22ef96004086c581fda9c1262cfa434",
+      "translation_sha256": "426c665f00a27464aca7c3ecc7bdab22faa7052221ccb3d6f17125504e032f8b"
+    },
+    {
+      "id": "coalesced:ed5ffd2964f1dd763ce30d991d43043a1284b9cc2c4b0356bb8611294b367739",
+      "section": "Recover",
+      "key": "Stimulant_D",
+      "source": "아군 1명의 마비와 감전 상태를 회복한다. ",
+      "translation": "解除1名我方成员的麻痹与触电状态 ",
+      "source_sha256": "49bbdecaf06012930ef1fa45e9039665388e12e0190eeaa1eb14f9a48cf241cd",
+      "translation_sha256": "c6856bde1f90d6989b41d7c08066668536a0dd88d35ea87537992803d0063d92"
+    },
+    {
+      "id": "coalesced:3297c633c2c0f257cb36edbd1ccc769b7e18cd95d3e960fbbdd821e81d86863b",
+      "section": "Recover",
+      "key": "Stimulant_S",
+      "source": "아군 1명의\\n마비와 감전 회복. ",
+      "translation": "解除1名我方成员的\\n麻痹与触电 ",
+      "source_sha256": "e11d8f2f42dee33ff9a718380c0a2aacc8c9f3fe084722512b5474bcf1ca5792",
+      "translation_sha256": "2099665e4a9b7d5ef77f6e33f9aeb7eaf638306d89b8d7d4e85ada0bcd4cf8b8"
+    },
+    {
+      "id": "coalesced:9ce0aec9689125ee9b0d70a74f82157ed2dd9bc721c99166176eb5305a62c65c",
+      "section": "Recover",
+      "key": "Pepper",
+      "source": "후추",
+      "translation": "胡椒",
+      "source_sha256": "b2354107cd3b1f4a80b977dba8c09dfb105449aa50685c898d6c4d8a55250d50",
+      "translation_sha256": "a7d91150c3f46be85da96831b85a674ad46f121770d3eac470657d1fdd74cc84"
+    },
+    {
+      "id": "coalesced:cb4c87715570892ec6b1695b9e97244770a62651c70423c78b0e517b37954057",
+      "section": "Recover",
+      "key": "Pepper_D",
+      "source": "아군 1명의 스턴 상태를 회복한다. ",
+      "translation": "解除1名我方成员的眩晕状态 ",
+      "source_sha256": "d96ffbe1b3cdc51bc35621aaa50e101db87f2f2fe90ab125a4d3885b23edf653",
+      "translation_sha256": "8fe02e294226084b0f8788f0ca19d75ae49815b5895be54bbe12d84c4ad168c3"
+    },
+    {
+      "id": "coalesced:60d19280dcb4938ae38ce5966e481062df188660233a77d2235c3590f4c043b3",
+      "section": "Recover",
+      "key": "Pepper_S",
+      "source": "아군 1명의 스턴 회복. ",
+      "translation": "解除1名我方成员的眩晕 ",
+      "source_sha256": "47e1802f28ab2884cf19b2fe8af7c9e8ef725f240a10c4b8b7f67178be07cdf6",
+      "translation_sha256": "b6ef31650174213db91d2c4c3ca17d43bf4ba808a3ba714655dfd78a08fadb5a"
+    },
+    {
+      "id": "coalesced:6e4c7e7c088456f793bb0dcd4927ff5cb45701bb1407aee5a94d3db85e83006b",
+      "section": "Recover",
+      "key": "EmergencyBandage",
+      "source": "꿀물",
+      "translation": "蜂蜜水",
+      "source_sha256": "7b560b419a814739ecbca9d4f40e3a378bcaef9155cc38c24679414f70d87af3",
+      "translation_sha256": "8311a49d88b65ad5c2958888264b9b320d69c7d26183472ab077ea82e95c49e3"
+    },
+    {
+      "id": "coalesced:8fae2f298ab3069a48b7199df5bbc60245b077aa2eb264c8f82d0a22439d4a09",
+      "section": "Recover",
+      "key": "EmergencyBandage_D",
+      "source": "아군 1명의 탈진 상태를 회복한다. ",
+      "translation": "解除1名我方成员的力竭状态 ",
+      "source_sha256": "59e9ad4e118ee4d4b5ae0910f2aeb4af83be7873055931984667df6212efda2e",
+      "translation_sha256": "f51642e5ad9417fc2a538b34713610e8cc79082dc9277c10c5131780d533f2eb"
+    },
+    {
+      "id": "coalesced:5e94a2d799b68fb57033639f3d422abb4a33acebdf0a7fe2be7842363d21109a",
+      "section": "Recover",
+      "key": "EmergencyBandage_S",
+      "source": "아군 1명의 탈진 회복. ",
+      "translation": "解除1名我方成员的力竭 ",
+      "source_sha256": "961444f33f017d72d80bab86df6d44347bcf9a186ac10e35ff8d0cbc7d005ba3",
+      "translation_sha256": "02635ee9ad474b04f16d4f9f90138161f60ddf17d177bc77fb22964a15fa5077"
+    },
+    {
+      "id": "coalesced:5b7c531461b42b2cba5cd5f8eb2b2bc9d592b1e84ce9f17a03e736d593e3fbf6",
+      "section": "Recover",
+      "key": "Firecracker",
+      "source": "ウツセミのローブ",
+      "translation": "空蝉长袍",
+      "source_sha256": "2bf1855feb6586db7e28f43e66d5d96e2327d596ef22cd6db920ef528c0ff9d3",
+      "translation_sha256": "5ec702ba315ab7a224c8f29782b318c69cfaef3f49a1566fda135df611d89e8f"
+    },
+    {
+      "id": "coalesced:79ac0bd5e0dbd1c509852b5b95156a8d7b3983827d896d401ff281bcdb149e89",
+      "section": "Recover",
+      "key": "Firecracker_D",
+      "source": "아군1명の挑発状態を回復する",
+      "translation": "解除1名我方成员的挑衅状态",
+      "source_sha256": "6bb4802430dec9934895233dfd24f344831ea7399771f3715c7d4cd8e908a63e",
+      "translation_sha256": "20051c865dbdbc4e8d61b5a061001f8031388677eb67825068696fba149e0d2e"
+    },
+    {
+      "id": "coalesced:d2d4b5c01cd44a06b9ed60dd554693b8454d6ec181c13efae5d5649de7f09435",
+      "section": "Recover",
+      "key": "Firecracker_S",
+      "source": "아군1명の挑発状態を回復 ",
+      "translation": "解除1名我方成员的挑衅状态 ",
+      "source_sha256": "e61e068468519a316e79941e86003881ec0b8c8d12f9540fe5468ca06470a401",
+      "translation_sha256": "5c2f2e2101966dcb91e33318299679a0eadf3c20187413bbc2ebbb41cf672f74"
+    },
+    {
+      "id": "coalesced:bde510723fac0a1fe9bb261be917ce2d440b64cc1e93974cc736246aa69288b6",
+      "section": "Recover",
+      "key": "Digestive",
+      "source": "消化剤",
+      "translation": "消化剂",
+      "source_sha256": "90b163f48e72b3bc07a1b70eddf8dae646a51c1c888ff3900af5469fe6162ce2",
+      "translation_sha256": "646781e316aa51627151cc06549b0df87329b246cf4570362962a36c6219b18b"
+    },
+    {
+      "id": "coalesced:c2703ae41bfd0a4f69b94b562b81ea69cc2170b5a7cdb893c61351b81f34bc09",
+      "section": "Recover",
+      "key": "Digestive_D",
+      "source": "아군1명の腹痛状態を回復する",
+      "translation": "解除1名我方成员的腹痛状态",
+      "source_sha256": "1e6ce48635fa15f00402a41a056a8fdb15f84be42ab95ab9ef3af6e12f601b8b",
+      "translation_sha256": "3595f3c30d319148a60e8f4a5b7f8b5bc0bf26598a9bc939f78a3320d97045af"
+    },
+    {
+      "id": "coalesced:2e1694d6d29b5f9bfe42a6e4bedd1ccceea15339de520a9de94093e1176b89ce",
+      "section": "Recover",
+      "key": "Digestive_S",
+      "source": "아군1명の腹痛を回復",
+      "translation": "解除1名我方成员的腹痛",
+      "source_sha256": "45fccf5f07ddbe235fe35c579cf37e25068238d639c481821ede375f3efd1240",
+      "translation_sha256": "41376e4b2c04cef0cd18eaa3d07ef266632b1e42b854fd62651fd1b7791be8ff"
+    },
+    {
+      "id": "coalesced:45cbe6b3a54b834ee153695c45d7c68e63a4887d5392052ee74fa9e648f18553",
+      "section": "Recover",
+      "key": "PeppermintCandy",
+      "source": "박하사탕",
+      "translation": "薄荷糖",
+      "source_sha256": "71686572eebc0b699cf173a8021c07e9086a9551c5fda255adb28ea3c9b99bd7",
+      "translation_sha256": "80c1a125aea1d7ac701964aab2bbce29a1b9d6b059449cede7a47d5270a3e025"
+    },
+    {
+      "id": "coalesced:3a125f7b9ddfba7bc59544044d421771391050aa0d1cd4b4103ae83949feb13e",
+      "section": "Recover",
+      "key": "PeppermintCandy_D",
+      "source": "아군 1명의 수면 상태를 회복한다. ",
+      "translation": "解除1名我方成员的睡眠状态 ",
+      "source_sha256": "4d778d858bc821eae572e1f863336c5e9a7d4eae6797bccfaba0717738319d70",
+      "translation_sha256": "757ef432bfb74231652b5bfd3a39237e2c988eb48a4bda6cbe3ea8b23a330a11"
+    },
+    {
+      "id": "coalesced:0795ea03b0a806935441bccb8d697df1d3be4a092eb0623b8134cad4ab7b1f34",
+      "section": "Recover",
+      "key": "PeppermintCandy_S",
+      "source": "아군 1명의 수면 회복. ",
+      "translation": "解除1名我方成员的睡眠 ",
+      "source_sha256": "28fc7d317c6f4a4c4cbceb500751dcd65df07cbde0d149596bb2190c9c23b693",
+      "translation_sha256": "991601061e9b5b4c275909269ffc9fa89d7554f3f34dbd72c2381adebab2c97d"
+    },
+    {
+      "id": "coalesced:fcecd3dfe1c5e317dbfc5c7168e8d7a3f5e395f7120c9fd5f16d7d0b69d6e887",
+      "section": "Recover",
+      "key": "HeartOfHot",
+      "source": "뜨거운 마음",
+      "translation": "炽热之心",
+      "source_sha256": "394689ddd239a317257dd500a67607084a4e9a771085af0b336975d5ff2f8ed1",
+      "translation_sha256": "ba33f22ba3b813a7c23a6013efe03e6b5f5dc9665ed9f6e7c8797aae39d6d6c7"
+    },
+    {
+      "id": "coalesced:6ec1b70956025e301a74126540e71fd0a1bd46e7299fc20053bd3ae8b45caa02",
+      "section": "Recover",
+      "key": "HeartOfHot_D",
+      "source": "아군 1명을 열혈 상태로 만든다.\\n더위, 화상 면역. ",
+      "translation": "使1名我方成员进入热血状态\\n免疫炎热、烧伤 ",
+      "source_sha256": "b3336b57bd9cc5ef7d2aa93a67b7f168f41f4419a0ab8d082a6ce906f0ee8c5c",
+      "translation_sha256": "42498da1ce71922a8164c25a80dbcf89f0640ae7643cab4178efdfb9f5ad0e90"
+    },
+    {
+      "id": "coalesced:8e250fec81433333745b9e647f4cce17120c6bf09b309b55bf80bf935c49434c",
+      "section": "Recover",
+      "key": "HeartOfHot_S",
+      "source": "아군 1명을 열혈 상태로 만든다.\\n더위, 화상 면역. ",
+      "translation": "使1名我方成员进入热血状态\\n免疫炎热、烧伤 ",
+      "source_sha256": "b3336b57bd9cc5ef7d2aa93a67b7f168f41f4419a0ab8d082a6ce906f0ee8c5c",
+      "translation_sha256": "42498da1ce71922a8164c25a80dbcf89f0640ae7643cab4178efdfb9f5ad0e90"
+    },
+    {
+      "id": "coalesced:8af5dfa911a78443916636252dc79e06e27d95a27b923267c5d108b7e814393c",
+      "section": "Recover",
+      "key": "PassionOfFrozen",
+      "source": "차가운 열정",
+      "translation": "冰冷热情",
+      "source_sha256": "4b5c7da77b2c63bfb885cab571d72bfba728e1f1139c9a1dad85fbe92a25c92f",
+      "translation_sha256": "dcc18d418d1d374b73d3353c5addb216ed8bab2dc40b9545f0c9daebae540697"
+    },
+    {
+      "id": "coalesced:e65900e9ae57f58e391a66ac25e52b38f0a0c4622f0b8f76801b515eeddd3542",
+      "section": "Recover",
+      "key": "PassionOfFrozen_D",
+      "source": "아군 1명을 동장군 상태로 만든다.\\n추위, 동상 면역. ",
+      "translation": "使1名我方成员进入冬将军状态\\n免疫寒冷、冻伤 ",
+      "source_sha256": "eb2f0b05931f9125b1d91cad14fd9bca0dc66245acd8c1c5eb5ae024ad5beb62",
+      "translation_sha256": "d567911d140dd1131628e9a1f9bf41ab8d64a90a97bc8c9cfb76eb895223439c"
+    },
+    {
+      "id": "coalesced:f14474db3f4ec7af1f8593e24ebf6194e64f2d16ec8f7ee28d2591714e9e37b6",
+      "section": "Recover",
+      "key": "PassionOfFrozen_S",
+      "source": "아군 1명을 동장군 상태로 만든다.\\n추위, 동상 면역. ",
+      "translation": "使1名我方成员进入冬将军状态\\n免疫寒冷、冻伤 ",
+      "source_sha256": "eb2f0b05931f9125b1d91cad14fd9bca0dc66245acd8c1c5eb5ae024ad5beb62",
+      "translation_sha256": "d567911d140dd1131628e9a1f9bf41ab8d64a90a97bc8c9cfb76eb895223439c"
+    },
+    {
+      "id": "coalesced:374187653332c094940115cfc1fcd2c283186c7d031ebacd9960cb837f587451",
+      "section": "Recover",
+      "key": "LightFeathers",
+      "source": "가벼운 깃털",
+      "translation": "轻盈羽毛",
+      "source_sha256": "fb578382054b30d7bf932ba18ad4b910e25268dfc70f13cbe787f29d2c90423f",
+      "translation_sha256": "393ebc933dc3c1db31b38196161731424609b08686ffa571ab145dd15466185b"
+    },
+    {
+      "id": "coalesced:1c0c7bbb682c9b04ddd110b72b66e7dd222e76acddb132fa9abb76d35470ec51",
+      "section": "Recover",
+      "key": "LightFeathers_D",
+      "source": "아군 1명을 가벼움 상태로 만든다.\\n어지러움, 침묵 면역. ",
+      "translation": "使1名我方成员进入轻盈状态\\n免疫晕眩、沉默 ",
+      "source_sha256": "0b843f31431c138cab9a61af78161173c986e592cc94f01469b0372df3feb89a",
+      "translation_sha256": "29c5f92c25c810e37cda354cb9e5bee0f140d9bcc38a403e3271551bb1e61d52"
+    },
+    {
+      "id": "coalesced:7b2ddac5c53092e06e9d8ff2950d9b40c17ef3d87a58f2fc817ffe389eb7e6f3",
+      "section": "Recover",
+      "key": "LightFeathers_S",
+      "source": "아군 1명을 가벼움 상태로 만든다.\\n어지러움, 침묵 면역. ",
+      "translation": "使1名我方成员进入轻盈状态\\n免疫晕眩、沉默 ",
+      "source_sha256": "0b843f31431c138cab9a61af78161173c986e592cc94f01469b0372df3feb89a",
+      "translation_sha256": "29c5f92c25c810e37cda354cb9e5bee0f140d9bcc38a403e3271551bb1e61d52"
+    },
+    {
+      "id": "coalesced:da97807df64021f147ee388cdcfee967e6a9752d55ad04ac3cdc0bf8eb91ce0c",
+      "section": "Recover",
+      "key": "LightMove",
+      "source": "짜릿한 기분",
+      "translation": "酥麻心情",
+      "source_sha256": "6504d32047dbb0263e09cde40f978f044bbe0f36745dbc79c0404aa6d447f361",
+      "translation_sha256": "c6320defd3b8fe7409ed7a58f129ce1310d2c126ada246d64741892102958673"
+    },
+    {
+      "id": "coalesced:53e5c08634989ab7b2791e82c97762bb47c1304f03dabea933f74112fe2f6320",
+      "section": "Recover",
+      "key": "LightMove_D",
+      "source": "아군 1명을 짜릿함 상태로 만든다.\\n마비, 감전 면역. ",
+      "translation": "使1名我方成员进入酥麻状态\\n免疫麻痹、触电 ",
+      "source_sha256": "1e399f388c0be8a33c2f88d96dd8c59b77ebd3a5fa07dc71d7faa7a0f4160abc",
+      "translation_sha256": "212fb36f672a76c5944ba4a7600f821b62ac1a7c76729250f39daf98e8707e07"
+    },
+    {
+      "id": "coalesced:f74b05b0cfb852b81aef41e30f4c8dec3a3446d8e60da56e6b3c6c54fca0e30a",
+      "section": "Recover",
+      "key": "LightMove_S",
+      "source": "아군 1명을 짜릿함 상태로 만든다.\\n마비, 감전 면역.",
+      "translation": "使1名我方成员进入酥麻状态\\n免疫麻痹、触电",
+      "source_sha256": "95acdc68d310fb442aeb79a7ed608681ee662a5b473e0428907b29de694ce12f",
+      "translation_sha256": "a33a820bb4af53fcfe269f62de74bd63216e81626ad147a72644c394e862fa59"
+    },
+    {
+      "id": "coalesced:a74076110e35f6985a0a5e8fdd24213aa5c52ab7988e94ce5a9c825290917007",
+      "section": "Recover",
+      "key": "CounterattackOfAnger",
+      "source": "憤怒の反撃",
+      "translation": "愤怒反击",
+      "source_sha256": "92834e30bd069dd280d2525621a1fb7524a32a4d814eec99abc589f1928851d4",
+      "translation_sha256": "e9f88a9201ef1ea709541ce3e15af9d72f8f634faf5394616a2b7a26c0c1e8ac"
+    },
+    {
+      "id": "coalesced:33f13b6f1a4c78207568c9c74eaeed9473fbd2791b5df688626476ad84d4c5cb",
+      "section": "Recover",
+      "key": "CounterattackOfAnger_D",
+      "source": "아군1명をカウンター状態にする",
+      "translation": "使1名我方成员进入反击状态",
+      "source_sha256": "479fd3eefe03f40099e3a98a9f243c75f8ca2405180f8d9cd48adf2b61bf5002",
+      "translation_sha256": "795d5908efba5979a2cad6dd6e0d52daa241f96679af800ab875adcdb1938a66"
+    },
+    {
+      "id": "coalesced:d3b227d560292ff504c507083fc83ad09719106c5943069d7b55baa227e1c3dc",
+      "section": "Recover",
+      "key": "CounterattackOfAnger_S",
+      "source": "아군1명を\\nカウンター状態にする",
+      "translation": "使1名我方成员\\n进入反击状态",
+      "source_sha256": "677647da0351174d376bf3dec5fa6c97b217c8cf84df229caaa00d7839979360",
+      "translation_sha256": "1c6232e761d6311c39327729964de28bb349ba1ec89a24c2bd449ed52f8cc6a3"
+    },
+    {
+      "id": "coalesced:4569cdc3a002e67186ee3cf8c3482152414b9c01fbf7f175fdf23f30d64f9670",
+      "section": "Recover",
+      "key": "MomentaryAwakening",
+      "source": "순간적 각성 ",
+      "translation": "瞬间觉醒 ",
+      "source_sha256": "9f8b1332bd811354c7f45a61eaded66088087549a5e63c3364ad325f62f90621",
+      "translation_sha256": "9862b71c894103ef9bce0228224ede0a926b0708e84b2d08d95596ec0b21999a"
+    },
+    {
+      "id": "coalesced:7286861cd6b9684916811766c6bdb08d6455737f55f59aeaf0706c82cb99e548",
+      "section": "Recover",
+      "key": "MomentaryAwakening_D",
+      "source": "아군 1명을 분발 상태로 만든다.\\n스턴, 탈진 면역. ",
+      "translation": "使1名我方成员进入奋发状态\\n免疫眩晕、力竭 ",
+      "source_sha256": "acf3d1ac1ce94fe8731fcdb67faa5eb1a953a60f4487b5ea244665c1e2835c1c",
+      "translation_sha256": "07b0f8ca1b13d6b738e0d06805d54ff9fcd044d15ce6ec9ad4cd7d3dd490dce2"
+    },
+    {
+      "id": "coalesced:823ca8c9e23fd74d7cf17ba10b99764f47f8be71e605dba83597ac7a100bc94f",
+      "section": "Recover",
+      "key": "MomentaryAwakening_S",
+      "source": "아군 1명을 분발 상태로 만든다.\\n스턴, 탈진 면역. ",
+      "translation": "使1名我方成员进入奋发状态\\n免疫眩晕、力竭 ",
+      "source_sha256": "acf3d1ac1ce94fe8731fcdb67faa5eb1a953a60f4487b5ea244665c1e2835c1c",
+      "translation_sha256": "07b0f8ca1b13d6b738e0d06805d54ff9fcd044d15ce6ec9ad4cd7d3dd490dce2"
+    },
+    {
+      "id": "coalesced:469c14d853c687d75cfffc0560f017bff2412eee5ac0b88254cb8585f2a977c9",
+      "section": "Recover",
+      "key": "1039_Focus",
+      "source": "고도의 집중",
+      "translation": "高度集中",
+      "source_sha256": "18d952f6ffd4ac7036265ed0de3f43b7a2906e01d27862351eb99a3197183899",
+      "translation_sha256": "d760482ef64b46c7dbc96f1823a6f61092ae3ab3a9fe10ce43ebc2ecdd9bbc77"
+    },
+    {
+      "id": "coalesced:fb1edb3661d356f0eca069e18d6a2d717e95f7e868ced820472c8c06c01010c5",
+      "section": "Recover",
+      "key": "1039_Focus_D",
+      "source": "아군 1명을 집중 상태로 만든다.\\n수면 면역.",
+      "translation": "使1名我方成员进入集中状态\\n免疫睡眠",
+      "source_sha256": "79be004eafd517c2f27366ec8a73beaf1e63051aff27ae472c56eb697c915332",
+      "translation_sha256": "0ffbf5687a696a53642d6380fe859f9c23f78b2ac9b90afead1e498da0342d34"
+    },
+    {
+      "id": "coalesced:10191358677fbec0ccccf78e7e0b9d991488792d3be3a691feb3f76c71e7c389",
+      "section": "Recover",
+      "key": "1039_Focus_S",
+      "source": "아군 1명을 집중 상태로 만든다.\\n수면 면역.",
+      "translation": "使1名我方成员进入集中状态\\n免疫睡眠",
+      "source_sha256": "79be004eafd517c2f27366ec8a73beaf1e63051aff27ae472c56eb697c915332",
+      "translation_sha256": "0ffbf5687a696a53642d6380fe859f9c23f78b2ac9b90afead1e498da0342d34"
+    },
+    {
+      "id": "coalesced:4c724506c0b791f7c0ab4c58252a70c1623198c59b848cbbb9e42cc634dfdbf3",
+      "section": "Recover",
+      "key": "1040_refresh",
+      "source": "爽快정신",
+      "translation": "神清气爽",
+      "source_sha256": "aa523de18d093f86fb8afcd2e500f4caca554f09e7305b6e388a80fb7d1210d6",
+      "translation_sha256": "a4bcde283d513c892e326bc6c95acdde398a928b7e766b33d629ae4e763decd5"
+    },
+    {
+      "id": "coalesced:52b13ce6c9c028e528bf8b8b8725db6f65770bd202db7b38e78562a9a9b85216",
+      "section": "Recover",
+      "key": "1040_refresh_D",
+      "source": "아군1명を爽快状態にする ",
+      "translation": "使1名我方成员进入爽快状态 ",
+      "source_sha256": "75d62a45d5543246813906b298f759643f9cb6eea4d6f721538c4a1aa128eaba",
+      "translation_sha256": "4edc76b051d4943e653129068ddbb3a006ad241a3cab9df52366c3b05b534994"
+    },
+    {
+      "id": "coalesced:0b021b8b4c455270e1882c605614e9e87b94af09a10708cc21f899c739eb1d81",
+      "section": "Recover",
+      "key": "1040_refresh_S",
+      "source": "아군1명を爽快状態にする ",
+      "translation": "使1名我方成员进入爽快状态 ",
+      "source_sha256": "75d62a45d5543246813906b298f759643f9cb6eea4d6f721538c4a1aa128eaba",
+      "translation_sha256": "4edc76b051d4943e653129068ddbb3a006ad241a3cab9df52366c3b05b534994"
+    },
+    {
+      "id": "coalesced:4e6d1bef4763f29ccc60bda35c1d39697aa7d36a296ccfd9c1e08e6087002469",
+      "section": "Recover",
+      "key": "1041_Recover",
+      "source": "치유의 온기 ",
+      "translation": "治愈暖意 ",
+      "source_sha256": "b108f22014d405032694b8a4f148de21b18f36ae8f78d7f57e9f1cebe9f10272",
+      "translation_sha256": "a10416f209c23a077b615e4913c26dee9ea85c22151fefecf30600afb022369d"
+    },
+    {
+      "id": "coalesced:948096096146819a67841a0701a0ec9870f7b574d30e5eb559a861a34d8dfd6b",
+      "section": "Recover",
+      "key": "1041_Recover_D",
+      "source": "아군 1명을 치유 상태로 만든다.\\n중독 면역. ",
+      "translation": "使1名我方成员进入治愈状态\\n免疫中毒 ",
+      "source_sha256": "e80a8aea4614232f25c40c5542eb6184f58b16f79655068c6452d077c1e19193",
+      "translation_sha256": "1b26b2f4a037cc394991734b5394f27d06c2b5acb6399a3daacde111221c1501"
+    },
+    {
+      "id": "coalesced:5a10dc8194fe835f81062a7d62461867a843594d0b005e1f29177eb93299d0f4",
+      "section": "Recover",
+      "key": "1041_Recover_S",
+      "source": "아군 1명을 치유 상태로 만든다.\\n중독 면역.",
+      "translation": "使1名我方成员进入治愈状态\\n免疫中毒",
+      "source_sha256": "10c4d7eafb62f69e0e2dfb5dde1cd151bc03a5412b1d564607a8159523233d54",
+      "translation_sha256": "89ed3fc8495b5d5e231fe96cd3cb3414ad13d46e7cfc6f6d517a4dff358702a2"
+    },
+    {
+      "id": "coalesced:7a70a6a05e098f7a29897f0fc7e266b050ce1600f857ca069f89382519aea043",
+      "section": "Recover",
+      "key": "AttackOfAnger",
+      "source": "憤怒の공격",
+      "translation": "愤怒之攻",
+      "source_sha256": "089853b6640aa421ec35b57d8c96d4805aeb4019115de2324c9525b8a2a782ab",
+      "translation_sha256": "6f5ed74f8eaa6a14cbe0104a7c15a9b0c9cfc285d5a5195fb63cc65f77d6c95a"
+    },
+    {
+      "id": "coalesced:f3d4212a7fd199d46f86b184fa91ff40c631f43fc144c7f73911adb95d3d3fbc",
+      "section": "Recover",
+      "key": "AttackOfAnger_D",
+      "source": "一定時間아군全員の공격アップ",
+      "translation": "在一定时间内提高全体我方成员的攻击",
+      "source_sha256": "4898696f050e0baa1915a08867622956a28b50183257d5fb0af772ec346b8805",
+      "translation_sha256": "3ff407281607b3c384b6ff3cbac0c70f7002e2e1737d156c34cd34d4d58eb749"
+    },
+    {
+      "id": "coalesced:1a50e760cb8d2d7a888eec9e04346c638eea1dd51873ce0ac20290bc65584c5e",
+      "section": "Recover",
+      "key": "AttackOfAnger_S",
+      "source": "一定時間아군全員の\\n공격アップ",
+      "translation": "在一定时间内提高全体我方成员的\\n攻击",
+      "source_sha256": "6d1676d6e1dcd66c0d888031e81b313c1177e2a6185848ce971ef751230b0668",
+      "translation_sha256": "cb4790eb10fde4961219d59bd3b2a73d03ba68bd0064a485709729b3e449ce2b"
+    },
+    {
+      "id": "coalesced:e648b05a53edd1371895a5cca1571a720e97a37efcf8985b5737f71b74a104c7",
+      "section": "Recover",
+      "key": "defenceOfSteel",
+      "source": "鋼鉄の방어",
+      "translation": "钢铁之防",
+      "source_sha256": "7c8c0cb3597719e921efa00f82dd5e9f08c4c860d71f8c51b6841668b75f70c1",
+      "translation_sha256": "9b81742851b9279539f76c7d8e86777b40ea52c90648ccca377bc44384085a26"
+    },
+    {
+      "id": "coalesced:21f2dd128c60db478b26b3ee6789c85a42df2a191d5880ae04a197a4c4dfc7c5",
+      "section": "Recover",
+      "key": "defenceOfSteel_D",
+      "source": "一定時間아군全員の방어アップ",
+      "translation": "在一定时间内提高全体我方成员的防御",
+      "source_sha256": "5c79074d3c796af7832610314a0d15c54e94e07e9beb1a4388c597ffe214e935",
+      "translation_sha256": "b060e5dba954e056a8647473ea3e9ff5a4d9ffc70d979ab0299d154fdcd28167"
+    },
+    {
+      "id": "coalesced:139f9fb17f2a8d795498dfe73b1ba8918afc1a451734558e545fdc099f4f46c4",
+      "section": "Recover",
+      "key": "defenceOfSteel_S",
+      "source": "一定時間아군全員の\\n방어アップ",
+      "translation": "在一定时间内提高全体我方成员的\\n防御",
+      "source_sha256": "f3da375dc0dde3aa49fe1608bd08c117937b67317528952b84ffb6a111b0eeb9",
+      "translation_sha256": "fb914891183f4842ef2cba8926cce8b136f177736e98716fa11546537cab1967"
+    },
+    {
+      "id": "coalesced:fa36ae88e8d311611207e38b1544ea7b55c9089299b80f487726bda36f8f9422",
+      "section": "Recover",
+      "key": "AvoidOfMoment",
+      "source": "刹那の回避",
+      "translation": "刹那回避",
+      "source_sha256": "654f9b5c5a4a2d820c85a9e239bce7abe5e77e25305240a315f105b3435789a1",
+      "translation_sha256": "7e8ce1b7f5183bd6d6bfdd58933f4f9df6f4cd5ff1c5b59e0e8734370ba84a19"
+    },
+    {
+      "id": "coalesced:a3e79d65b0534c407a5eac4212877f6714dfbaa3ef64745f54e7ff1250c05a43",
+      "section": "Recover",
+      "key": "AvoidOfMoment_D",
+      "source": "一定時間아군全員の回避アップ",
+      "translation": "在一定时间内提高全体我方成员的回避",
+      "source_sha256": "d9404947640c6196818d47cfdbcfdc87d1907d16656c9083ff0719cfd78acd9a",
+      "translation_sha256": "447d22f2c83838ec3d437e17e4c267041880e860243f2f4a900144345c5656f7"
+    },
+    {
+      "id": "coalesced:2486c9895bf3aea40c4f0f5dd0acb7870e5656fb3030380a4fecb130138d5462",
+      "section": "Recover",
+      "key": "AvoidOfMoment_S",
+      "source": "一定時間아군全員の\\n回避アップ",
+      "translation": "在一定时间内提高全体我方成员的\\n回避",
+      "source_sha256": "375d09b3444907ac5fc47db3bad4b63ed26178efe6342d050d176f663fa751be",
+      "translation_sha256": "597bea85b769d6c081ba6619159abf273eb52e5eaa438530770978cb4f4efcf3"
+    },
+    {
+      "id": "coalesced:789c522b60935f9af82e8e24788adea98bbe415205ff669c7d10c2bb13623a12",
+      "section": "Recover",
+      "key": "MiracleMagicpower",
+      "source": "奇跡の魔力",
+      "translation": "奇迹魔力",
+      "source_sha256": "ab2d4de5c4af671904ec8db56515a2a7a793cb67e45e5ce1b5b7321390ec01cf",
+      "translation_sha256": "83a24740491ff463596ffabbdca1185b02cbe13250e56d4041f1e106255b6e5f"
+    },
+    {
+      "id": "coalesced:3b27dddd89cfb350c7eb83be440bc7848ca09642bd89ddee960ae5d1eb618761",
+      "section": "Recover",
+      "key": "MiracleMagicpower_D",
+      "source": "一定時間아군全員の정신アップ",
+      "translation": "在一定时间内提高全体我方成员的精神",
+      "source_sha256": "d064951d9c246be3a68963907bb02ecefbd1101658774895daf899cddd26c5dd",
+      "translation_sha256": "21d132628cd60f380ec2dfcf05cc23757169dba2da2633c5cdb0061a45e0c961"
+    },
+    {
+      "id": "coalesced:c944f730e62c5b4d91a6fee5b5ea6af62ae7e1e270c29a04adb315dd672d4ed5",
+      "section": "Recover",
+      "key": "MiracleMagicpower_S",
+      "source": "一定時間아군全員の\\n정신アップ",
+      "translation": "在一定时间内提高全体我方成员的\\n精神",
+      "source_sha256": "3972abead603c67ee5784672e672258b835020687602b1f79f57e1af803741dd",
+      "translation_sha256": "e5f90ca1f4aaedbd89bbca329165fb1fb604bec42c9fde1cd4d1edddb7885956"
+    },
+    {
+      "id": "coalesced:351f0b9341807cbcca6c2337fa7a448e8bf7af9a38108fcb599a80c88d6a2e5e",
+      "section": "Recover",
+      "key": "ResistanceOfSilence",
+      "source": "沈黙の저항",
+      "translation": "沉默之抗",
+      "source_sha256": "4729642b1430f4b93bb6a206d470fe62ced9945a49c92be2a72ff1cacd240bdc",
+      "translation_sha256": "3811dea01c366032a21156016e1e3dc0e072a3a4ad5df7a8b6fed924a4b2b131"
+    },
+    {
+      "id": "coalesced:05c65056124d7879fea2e7c00452c12e1c1edbe3e13a7af1c8a07219cbba26dc",
+      "section": "Recover",
+      "key": "ResistanceOfSilence_D",
+      "source": "一定時間아군全員の저항アップ",
+      "translation": "在一定时间内提高全体我方成员的抗性",
+      "source_sha256": "f3af6cb907aa4c6a0341842f0917a04f0b87b7c472e906617dfd619cd454eade",
+      "translation_sha256": "d732bc892154a34f161568247b1104c96126eb9cf329efb3e2591bbb3e459288"
+    },
+    {
+      "id": "coalesced:0be39412944b639e4cf3c6fae3f4a80fff9726268db409a91761b8029876a1bc",
+      "section": "Recover",
+      "key": "ResistanceOfSilence_S",
+      "source": "一定時間아군全員の\\n저항アップ",
+      "translation": "在一定时间内提高全体我方成员的\\n抗性",
+      "source_sha256": "d17db37f61adc78cf281170e351d950b2a0f185e6bda4ec013bd9a8015012344",
+      "translation_sha256": "07e40520d458fcb147d1263f4c0646e368213f47c0e7387f4d0dc310602d1e82"
+    },
+    {
+      "id": "coalesced:de848f81457168f60d4d36c6ba7c029da153e4c5ff70f726dce8facc748990ad",
+      "section": "Recover",
+      "key": "PaticleOfFire",
+      "source": "불꽃의 파편 ",
+      "translation": "火焰碎片 ",
+      "source_sha256": "92e88dfcd2e26e3ac6a539134954050fd9c9bcc3c4d43cc84eb8a3dd09db05e4",
+      "translation_sha256": "da912a6cbd53607a9b18c3dd47bd01106f24941fa798db8ca4329181845bf807"
+    },
+    {
+      "id": "coalesced:ad6e8d8c2a4beb3007904fbe0421c251a97e090158afdbf3ebab3acd71e84a65",
+      "section": "Recover",
+      "key": "PaticleOfFire_D",
+      "source": "일정영역에 지면효과를 일으켜\\n불에 의한 대미지를 준다. ",
+      "translation": "在一定区域产生地面效果，\\n造成火属性伤害 ",
+      "source_sha256": "0b429513f885c2cf39246af2995fcb94a227c4441301126df12316b33c817651",
+      "translation_sha256": "0e06be8a3b42f48d6601260be6823bd4532c88e57ee49c42dce9d6b64bc2f834"
+    },
+    {
+      "id": "coalesced:15eafbcbbfaac1ca00dc3de1f9b0632d35e8ed305bcb8d37997d54fd7b903e6b",
+      "section": "Recover",
+      "key": "PaticleOfFire_S",
+      "source": "일정영역에 불에 의한\\n대미지를 준다.",
+      "translation": "在一定区域内造成\\n火属性伤害",
+      "source_sha256": "3cd820ec9b69f55ecb35834054b7a33e55821aeb0ba0e8e458887478ecba8b67",
+      "translation_sha256": "2149dd7a38050a4da98707cb2812c220ed2f516fa33c117d1488a7907fb0cb47"
+    },
+    {
+      "id": "coalesced:0b893ba835bf33397e472f3c4cdb3369c198b97e7a112856d7b4251092435141",
+      "section": "Recover",
+      "key": "PaticleOfIce",
+      "source": "얼음의 파편 ",
+      "translation": "冰之碎片 ",
+      "source_sha256": "b5c171f126ad01d757d30375e77665c9ea277fadc8d4bff80f8b053fcfb6a72f",
+      "translation_sha256": "229502fc847235139b6796bbb4c9b2ea19593787747fea5606a4760b671d997f"
+    },
+    {
+      "id": "coalesced:517e49f08d40cca0c86af32d00a81e8ff2f2c77d1adcf1a5cafe473c6e6b9046",
+      "section": "Recover",
+      "key": "PaticleOfIce_D",
+      "source": "일정영역에 지면효과를 일으켜\\n얼음에 의한 대미지를 준다. ",
+      "translation": "在一定区域产生地面效果，\\n造成冰属性伤害 ",
+      "source_sha256": "30132745bf5a88e6b8eec5c908f3e26e87289a2835b8077ffd441cf86fc2efe5",
+      "translation_sha256": "51dc3a0db9b82e541d54d29bb8dd6e36159bd2fe6acd88a99fdcfc0aab2b17d4"
+    },
+    {
+      "id": "coalesced:4e2296608263c46c3fee8dd1bdf886c0f4c32808e18a23bb5a76e4f0c9c523b4",
+      "section": "Recover",
+      "key": "PaticleOfIce_S",
+      "source": "일정영역에 얼음에 의한\\n대미지를 준다.",
+      "translation": "在一定区域内造成\\n冰属性伤害",
+      "source_sha256": "1cdfcfd8df33589b429510ee3ee404587dab4bf94084638220f021e0e1319ca5",
+      "translation_sha256": "36ab30cc8a0713ff73e95a0a04127de38adff28b69522dbf382e21ff57e7626c"
+    },
+    {
+      "id": "coalesced:3e2e0d5f90ccfcdc9009cd39b282c9e77d150ef321e2fdfa4fab93446536e746",
+      "section": "Recover",
+      "key": "PaticleOfLightning",
+      "source": "번개의 파편 ",
+      "translation": "雷之碎片 ",
+      "source_sha256": "897c55547e5379858ac60534b489d438e1cc13b407310454f4ef493c3fb57640",
+      "translation_sha256": "8cfb4736fcf870bf4629b0ad4f3351e09de3e7e637889c28dac79b609ef69b72"
+    },
+    {
+      "id": "coalesced:c979b1725b0b1aaefd771d44d3c495eda9d911b23936d2724281c7b5da80e39e",
+      "section": "Recover",
+      "key": "PaticleOfLightning_D",
+      "source": "일정영역에 지면효과를 일으켜\\n번개에 의한 대미지를 준다. ",
+      "translation": "在一定区域产生地面效果，\\n造成雷属性伤害 ",
+      "source_sha256": "919cfec9d6c241b763ec023ccde0deed6360378f57d6c01331044e209ae37b44",
+      "translation_sha256": "e3e99eb147afefe81cbb3e28a2e40481b483fe36cdf69ad4ad42286b758b7c6a"
+    },
+    {
+      "id": "coalesced:5ab69a3cc9a2f3d3b6de7eb43b556064cd4ccf585cfb406ac6197eb17c3256da",
+      "section": "Recover",
+      "key": "PaticleOfLightning_S",
+      "source": "일정영역에 번개에 의한\\n대미지를 준다.",
+      "translation": "在一定区域内造成\\n雷属性伤害",
+      "source_sha256": "bdb0699da3c5518431f9e689ec6c28e81a2745347fbc69def45a8145dca40335",
+      "translation_sha256": "e62f45dd8e2bda66f36e87bb74e3ae08d0fb5259c74b1928c1337e225a107904"
+    },
+    {
+      "id": "coalesced:76fdff22b7226c89ff0bd4f0330ab278fd22522787aa4a0e43e3da7b779c8781",
+      "section": "Recover",
+      "key": "PaticleOfWind",
+      "source": "바람의 파편 ",
+      "translation": "风之碎片 ",
+      "source_sha256": "3f84af0f3092232550691660bcb673cb11e1271504cbc4c10ea3e58a5cca1bcb",
+      "translation_sha256": "9e3e93e753bab6581550faa8eb902c92c33473d68489ea586a0408d39ebdd2db"
+    },
+    {
+      "id": "coalesced:e28fe55626ff840a9d8aa04b36bdb530a0443da57452b60ffded74947df5222f",
+      "section": "Recover",
+      "key": "PaticleOfWind_D",
+      "source": "일정영역에 지면효과를 일으켜\\n바람에 의한 대미지를 준다. ",
+      "translation": "在一定区域产生地面效果，\\n造成风属性伤害 ",
+      "source_sha256": "96ab38e7909e4b933ed50d971d1df2a6e02192e4d8e2267ae090421199d722fe",
+      "translation_sha256": "a2205bc59910282c104392289394d14bfa1c4b09ec74fabd39cb34ca5ec4d2ec"
+    },
+    {
+      "id": "coalesced:f145549dfe09168c18fd05aa6b667a27025833facc025c4ea1131cb7d5658da9",
+      "section": "Recover",
+      "key": "PaticleOfWind_S",
+      "source": "일정영역에 바람에 의한\\n대미지를 준다.",
+      "translation": "在一定区域内造成\\n风属性伤害",
+      "source_sha256": "c41c5946a1edb4763303604df7cc24a99cef231353fce9799e74332bd0d1a04a",
+      "translation_sha256": "17903c2d6b158078748dc6f3d480a2768d51b6e2951724091b70b35e8b648739"
+    },
+    {
+      "id": "coalesced:1c3d22c9086a6d9e18120b79fa85516ee2a4d0b82fa74a4db7e8e7cd30763618",
+      "section": "Recover",
+      "key": "FiringChemicals",
+      "source": "発火剤",
+      "translation": "引火剂",
+      "source_sha256": "802857e3fffb918e73a43be6303c1195ef0706774ec3a7919d148b2ed0a7eee5",
+      "translation_sha256": "db2379cd7544864b2c4c657cfdc8a2c21e00f90fffd1e6564414f951fa29c2d2"
+    },
+    {
+      "id": "coalesced:53164aa3934ebd1a350555ec7ea2f6f4118e07920ca0467683e11a75fec66a61",
+      "section": "Recover",
+      "key": "FiringChemicals_D",
+      "source": "敵1体を火傷状態にする",
+      "translation": "使1名敌人陷入烧伤状态",
+      "source_sha256": "ffdcc149ef33049a3c6ad068757cbe586629e0b2a6187e673eaab1ad498f5539",
+      "translation_sha256": "7cb073979a47c2aebfbe04036a6c4d89c507c197c3fd06d2956793fe3978b807"
+    },
+    {
+      "id": "coalesced:6c96ddb2f49ba9b1463b3fa924c5937fb33fdb39cc3503a84b894b99d1ec961e",
+      "section": "Recover",
+      "key": "FiringChemicals_S",
+      "source": "敵1体を火傷状態にする",
+      "translation": "使1名敌人陷入烧伤状态",
+      "source_sha256": "ffdcc149ef33049a3c6ad068757cbe586629e0b2a6187e673eaab1ad498f5539",
+      "translation_sha256": "7cb073979a47c2aebfbe04036a6c4d89c507c197c3fd06d2956793fe3978b807"
+    },
+    {
+      "id": "coalesced:1c4ffbf6cdfd73aa088665240968093c4c37b19c8ad404aaa929fc14847edab2",
+      "section": "Recover",
+      "key": "IcingChemicals",
+      "source": "氷結剤",
+      "translation": "冰结剂",
+      "source_sha256": "b704f3fb7e82b9739fddde867929a97912e366fb58f52407392f5dc93cf544ba",
+      "translation_sha256": "a8d9bdef8b577f69e01cb86ea70a972cdc31f1f322202c366783f28c80092904"
+    },
+    {
+      "id": "coalesced:40600561c71dfa274a6381ec2ecaa1c280f6b27fc8e8e669314c19f42c0da72e",
+      "section": "Recover",
+      "key": "IcingChemicals_D",
+      "source": "敵1体を凍結状態にする",
+      "translation": "使1名敌人陷入冰冻状态",
+      "source_sha256": "8f30326e36620384e36e4dbd2af53ea7db818c9f7d33479380d70c23944cc185",
+      "translation_sha256": "512053b28e871d14e942b1894757ed78e438fb3ca9549060e0d3975b9e20f63b"
+    },
+    {
+      "id": "coalesced:af8e8528b1dbf900512d614464a9b6eaba599ce44d708904cce19b5779cada4c",
+      "section": "Recover",
+      "key": "IcingChemicals_S",
+      "source": "敵1体を凍結状態にする",
+      "translation": "使1名敌人陷入冰冻状态",
+      "source_sha256": "8f30326e36620384e36e4dbd2af53ea7db818c9f7d33479380d70c23944cc185",
+      "translation_sha256": "512053b28e871d14e942b1894757ed78e438fb3ca9549060e0d3975b9e20f63b"
+    },
+    {
+      "id": "coalesced:de34cd7a4fd012aa02437608699c3ad568ece90d1bffd278d4858ccca30e6f09",
+      "section": "Recover",
+      "key": "SilenceCandy",
+      "source": "黙々剤",
+      "translation": "缄默剂",
+      "source_sha256": "5970df5393b87fd375193f0c54e53b8ee3b355ad2044745c40053c337633e165",
+      "translation_sha256": "7ce840cdc2a3cac7234aa994857ae8811333f4b9a582f389f1327a25c24ea010"
+    },
+    {
+      "id": "coalesced:f5c43872d00af33f03435e291055a32ebb2608c30f4631504c2780fd7d31944a",
+      "section": "Recover",
+      "key": "SilenceCandy_D",
+      "source": "敵1体を沈黙状態にする",
+      "translation": "使1名敌人陷入沉默状态",
+      "source_sha256": "64a9c0316cf9f1f3ed9e4430feaa4cfc8747293c95ccffd72910982c55e88b6e",
+      "translation_sha256": "60f6dfd12ddf3ef7319e9b08b3258651d19952e918447aa51d24cc3567739969"
+    },
+    {
+      "id": "coalesced:0555c001fec0faa4be5e306e45b7de6689546a8877aef079c35eff3a41e6fb47",
+      "section": "Recover",
+      "key": "SilenceCandy_S",
+      "source": "敵1体を沈黙状態にする",
+      "translation": "使1名敌人陷入沉默状态",
+      "source_sha256": "64a9c0316cf9f1f3ed9e4430feaa4cfc8747293c95ccffd72910982c55e88b6e",
+      "translation_sha256": "60f6dfd12ddf3ef7319e9b08b3258651d19952e918447aa51d24cc3567739969"
+    },
+    {
+      "id": "coalesced:142924ae6966171c50fd7488341a80c1255c09234bed9f1717d31d4a2a778b2e",
+      "section": "Recover",
+      "key": "Hallucinogen",
+      "source": "混乱剤",
+      "translation": "混乱剂",
+      "source_sha256": "aab26a7d8be2dadd38e7eeda7e666f0920a6dd5f96184f8520f3c7c77a81c366",
+      "translation_sha256": "f1bcfc20f64b5097c0d7121406ade7b03625ad878ba4da6d75c2eb1ef44c9597"
+    },
+    {
+      "id": "coalesced:2becee6c1f908e427f05d93765b672e2e9889e4dc524194115d898db52548f2c",
+      "section": "Recover",
+      "key": "Hallucinogen_D",
+      "source": "敵1体を混乱状態にする",
+      "translation": "使1名敌人陷入混乱状态",
+      "source_sha256": "f69fadb51c23e9e998105f5cf644e4bc39b4595cda885194f156c6b442d9207a",
+      "translation_sha256": "88c40bfbb93dfb3be1eb4a7769398de3bbd7b693b3e75c513ca2ca4b333a99f8"
+    },
+    {
+      "id": "coalesced:653d376c889e06ec67609f1b730310ad1d1457500324d3d94dc08697812087ed",
+      "section": "Recover",
+      "key": "Hallucinogen_S",
+      "source": "敵1体を混乱状態にする",
+      "translation": "使1名敌人陷入混乱状态",
+      "source_sha256": "f69fadb51c23e9e998105f5cf644e4bc39b4595cda885194f156c6b442d9207a",
+      "translation_sha256": "88c40bfbb93dfb3be1eb4a7769398de3bbd7b693b3e75c513ca2ca4b333a99f8"
+    },
+    {
+      "id": "coalesced:5a99b2eb9caa6e92ab8ff237f3dabb6e7675b96e7e0419933856254a99a1830f",
+      "section": "Recover",
+      "key": "ShockChemicals",
+      "source": "ショック剤",
+      "translation": "冲击剂",
+      "source_sha256": "8ca1cdf1e4d0d3e62a94a91fb34d10728cd15ef179705357d89512f124081845",
+      "translation_sha256": "42b2821b16b866c7ab63bfe8716e161e28a4b8408aa5181c0521f25fa124c641"
+    },
+    {
+      "id": "coalesced:d95823e7257b9e840e1c78c180f71dd695936f6a3f376a54066ef42291209bd7",
+      "section": "Recover",
+      "key": "ShockChemicals_D",
+      "source": "敵1体をスタン状態にする",
+      "translation": "使1名敌人陷入眩晕状态",
+      "source_sha256": "a7935680ade433af107b96376cee7f9d67b4b0b7da32cd915b91baa07c061f99",
+      "translation_sha256": "c3c9e16fc24eaad8354dcd55b0aa5ca9ad595bb186172756540216bbef34afce"
+    },
+    {
+      "id": "coalesced:c8c9cb008e8652c13ed5bc3baf9199b363d7acd895063abf00af4f661d7d45be",
+      "section": "Recover",
+      "key": "ShockChemicals_S",
+      "source": "敵1体をスタン状態にする",
+      "translation": "使1名敌人陷入眩晕状态",
+      "source_sha256": "a7935680ade433af107b96376cee7f9d67b4b0b7da32cd915b91baa07c061f99",
+      "translation_sha256": "c3c9e16fc24eaad8354dcd55b0aa5ca9ad595bb186172756540216bbef34afce"
+    },
+    {
+      "id": "coalesced:be7b35d23b293a750c2d96011a4b5db94e70d2089f81fbdd26ce3c3535a7138f",
+      "section": "Recover",
+      "key": "diarrhea",
+      "source": "天敵剤",
+      "translation": "天敌剂",
+      "source_sha256": "33df43028fea8684131f76f2296626ae4cb969ac91659839796cd33283876d2a",
+      "translation_sha256": "b6768c7a5659d4375e8d12c76f28d73b9c7d334b9dca62060311537d08d0accd"
+    },
+    {
+      "id": "coalesced:fbd1cbd599b52094c5dce120efb93226f9ec497507d60df7bca358b4c6a29471",
+      "section": "Recover",
+      "key": "diarrhea_D",
+      "source": "敵1体を脱力状態にする",
+      "translation": "使1名敌人陷入虚弱状态",
+      "source_sha256": "3d78dff87433f18cc2f633a1d01bbb954b6356a1e973dcaaba531b290a699c63",
+      "translation_sha256": "13ab024a5365f32bab73080b8990e7be455afe3e3b9368b66911294b92c500be"
+    },
+    {
+      "id": "coalesced:cba7f86c99ca2ba1a0c36c73fd83ee25388f7c2b688ffeb4a26418689574f6f5",
+      "section": "Recover",
+      "key": "diarrhea_S",
+      "source": "敵1体を脱力状態にする",
+      "translation": "使1名敌人陷入虚弱状态",
+      "source_sha256": "3d78dff87433f18cc2f633a1d01bbb954b6356a1e973dcaaba531b290a699c63",
+      "translation_sha256": "13ab024a5365f32bab73080b8990e7be455afe3e3b9368b66911294b92c500be"
+    },
+    {
+      "id": "coalesced:207bc1c592318b3b378d04f872c15f1810c392ee5111d5ea53f522cb8aa6358f",
+      "section": "Recover",
+      "key": "PoisonDrug",
+      "source": "毒薬",
+      "translation": "毒药",
+      "source_sha256": "9b2c0efc46a2744cb9b1ef8ce6bda9a2285c8dcf32e61d954211a364785a5dc3",
+      "translation_sha256": "a4ee2c650443d28b55561bbd6de60c0931c4a55116bf26281e55e8ba6a2a5daa"
+    },
+    {
+      "id": "coalesced:be08b9d911b6a0c8270e637057ce09a1c2ccaace23557698c3d654368bdc7932",
+      "section": "Recover",
+      "key": "PoisonDrug_D",
+      "source": "敵1体を中毒状態にする",
+      "translation": "使1名敌人陷入中毒状态",
+      "source_sha256": "85e3d2354f24e9c08ad3fefaa825dba211faf2fa8a16e97f31a3a38477db9a8b",
+      "translation_sha256": "34f1a7ee87d7389ff29889474f58cdf68bb40b32068957f1c9420caf4ed33f47"
+    },
+    {
+      "id": "coalesced:1f379899097bd91f4d853b33ae065c65d24cb87fbca284e7329079dea8dd614b",
+      "section": "Recover",
+      "key": "PoisonDrug_S",
+      "source": "敵1体を中毒状態にする",
+      "translation": "使1名敌人陷入中毒状态",
+      "source_sha256": "85e3d2354f24e9c08ad3fefaa825dba211faf2fa8a16e97f31a3a38477db9a8b",
+      "translation_sha256": "34f1a7ee87d7389ff29889474f58cdf68bb40b32068957f1c9420caf4ed33f47"
+    },
+    {
+      "id": "coalesced:4f63a9478592ef52c7243958242d0c4c05a6595c3720a80c855e5e66538260b7",
+      "section": "Recover",
+      "key": "BadFood",
+      "source": "腐った食べ物",
+      "translation": "腐败食物",
+      "source_sha256": "c823037c0774ae098aa202dd1ef5471425846a893d0c6a75ccc8116e887de70f",
+      "translation_sha256": "8010d11907a51fbf6ea4b708257209755ec45d5d2b7a2d108f23b265a3484c94"
+    },
+    {
+      "id": "coalesced:9f0aef35c395307baabbe25fe23d3492ecd9b062d3fee985acde8ba623c77e07",
+      "section": "Recover",
+      "key": "BadFood_D",
+      "source": "敵1体を腹痛状態にする",
+      "translation": "使1名敌人陷入腹痛状态",
+      "source_sha256": "4e2620c8b2e93a834ade9600ce0b35f752c2cad6d14f20201b7c1eceb5ec3f85",
+      "translation_sha256": "328e4ab01d71bca2f2b0c19a44576ce1052809864f7b23963a9f94a9436efc42"
+    },
+    {
+      "id": "coalesced:48361d682a498f64b6af136dc682cee4ac5b7d096d8610303a073c5eae3d56f0",
+      "section": "Recover",
+      "key": "BadFood_S",
+      "source": "敵1体を腹痛状態にする",
+      "translation": "使1名敌人陷入腹痛状态",
+      "source_sha256": "4e2620c8b2e93a834ade9600ce0b35f752c2cad6d14f20201b7c1eceb5ec3f85",
+      "translation_sha256": "328e4ab01d71bca2f2b0c19a44576ce1052809864f7b23963a9f94a9436efc42"
+    },
+    {
+      "id": "coalesced:53e91e45ae25567aa534d018c6edc81bf51de477766f49d6704fa254abec3c0f",
+      "section": "Recover",
+      "key": "SleepingDrug",
+      "source": "睡眠薬",
+      "translation": "睡眠药",
+      "source_sha256": "b2d7db29571c9697351b1055f0b99fec3c7ef34afa0976e3cc55fff70eb95763",
+      "translation_sha256": "11bf041880f6b04051e056a4c19af2661bef663cf0374047c8aa2485ad143385"
+    },
+    {
+      "id": "coalesced:2ad11d45b97dc63ab1c5fc65ae56bf3ca836c5d1fb73ceeade3bee21ce9634c4",
+      "section": "Recover",
+      "key": "SleepingDrug_D",
+      "source": "敵1体を睡眠状態にする",
+      "translation": "使1名敌人陷入睡眠状态",
+      "source_sha256": "8f18c8c19759b0cc75c6c352bed25bbc08d478163452b731c8f80699c7c9b270",
+      "translation_sha256": "d2768049f96ec88799ffe711f76dc370fdef5d27582164053b4da39ad2c6d975"
+    },
+    {
+      "id": "coalesced:f28fee72dfa3e5caef0363dfa698b7828ea1c36dc87120112c07d3b70df8e4b8",
+      "section": "Recover",
+      "key": "SleepingDrug_S",
+      "source": "敵1体を睡眠状態にする",
+      "translation": "使1名敌人陷入睡眠状态",
+      "source_sha256": "8f18c8c19759b0cc75c6c352bed25bbc08d478163452b731c8f80699c7c9b270",
+      "translation_sha256": "d2768049f96ec88799ffe711f76dc370fdef5d27582164053b4da39ad2c6d975"
+    },
+    {
+      "id": "coalesced:79a9d326c08eb9f58b24fc8e2f599023fb2ebb6ee459cbd12767c63907cace06",
+      "section": "Recover",
+      "key": "1063_healing_flower",
+      "source": "힐 플라워",
+      "translation": "治愈花",
+      "source_sha256": "013dc6fcccfe86506c5de87d70b624f604d573b396d81793f4aa8908723270db",
+      "translation_sha256": "83b60b42a4d40a35a13010b4c25f0de6a5c45895a713d362672c221ff5cd2335"
+    },
+    {
+      "id": "coalesced:27266171d82dcedcdc09649bae9b1e172bd65cf8645ccbb6e01b2af17fda04fd",
+      "section": "Recover",
+      "key": "1063_healing_flower_D",
+      "source": "아군 1명의 체력을 1200 회복한다. ",
+      "translation": "恢复1名我方成员1200点体力 ",
+      "source_sha256": "e47e8fbbf16c241f3545b19fc35461397505680c134fa96b9438a8c5d3d1fc7e",
+      "translation_sha256": "d2a346274b145d326a8ace7da18529f72ac009103f475a5722e3a2b7e32292a7"
+    },
+    {
+      "id": "coalesced:fc44ec690afc5c5bd6f139eed1522f722dc7d5dfbba54ef68a505704eac81367",
+      "section": "Recover",
+      "key": "1063_healing_flower_S",
+      "source": "아군 1명의 체력을 1200 회복. ",
+      "translation": "恢复1名我方成员1200点体力 ",
+      "source_sha256": "c75ea2ee585a18eac2ba9a22554eefe7ced59341611119acf322aa37f679bb05",
+      "translation_sha256": "d2a346274b145d326a8ace7da18529f72ac009103f475a5722e3a2b7e32292a7"
+    },
+    {
+      "id": "coalesced:5f129f4b43f088eed93616b15330d6d310aad1612bd18ea824a23343f11e98e1",
+      "section": "Recover",
+      "key": "1064_cure_flower",
+      "source": "큐어 플라워",
+      "translation": "疗愈花",
+      "source_sha256": "e73dbe18079e97dbead9ec5c7e63cc215b5116412bf9f33f2118a050973aa18e",
+      "translation_sha256": "6fdc3be572ac34e0578485e5f5c207b15deee75ed520b302aa615a81ea790f34"
+    },
+    {
+      "id": "coalesced:7b155df853409fcc43492d02df783b40fa3e351c59b52c5fcc5d49724746427e",
+      "section": "Recover",
+      "key": "1064_cure_flower_D",
+      "source": "아군 전원의 체력을 1500 회복한다. ",
+      "translation": "恢复全体我方成员1500点体力 ",
+      "source_sha256": "116ee3c6c01b1b3a92630bb4bd658be48fae4a63ab58e07cd041d0380b0cabdb",
+      "translation_sha256": "48851788efd1babc1636a0b45fc8c50bc0b35e835273616af8b50c126238a8d1"
+    },
+    {
+      "id": "coalesced:b66c4e1b5965cb1fe6984bb57f303a70a06c50f267e6b556196f0d421afb7e40",
+      "section": "Recover",
+      "key": "1064_cure_flower_S",
+      "source": "아군 전원의 체력을 1500 회복. ",
+      "translation": "恢复全体我方成员1500点体力 ",
+      "source_sha256": "4f89f355d323b59840aa8bfeb0c6c311a8702b4e8310eaef541356e1e128c078",
+      "translation_sha256": "48851788efd1babc1636a0b45fc8c50bc0b35e835273616af8b50c126238a8d1"
+    },
+    {
+      "id": "coalesced:e3a9889e2ae9db47861e887adf704452ec905b18ac050ff39ea3dc61e80ac40b",
+      "section": "Recover",
+      "key": "1059_fire_elemental",
+      "source": "불의 엘리멘탈 ",
+      "translation": "火之元素体 ",
+      "source_sha256": "b030d0e8af5296163ee40f58ce1280dcc9a2bd7b65591311d6de2e9ab9a4f052",
+      "translation_sha256": "c57b829101774d1a79ecf20e0063e34251954b4b6157fc1b0bf9198e53f8e8b4"
+    },
+    {
+      "id": "coalesced:6432cf59bcce626d777a476d1a42b6a365ffdfcd9d6d9b4106fac2f527dd7a71",
+      "section": "Recover",
+      "key": "1059_fire_elemental_D",
+      "source": "필드 위에 불의 칸을 생성한다. ",
+      "translation": "在场景中生成火之KAN ",
+      "source_sha256": "447bc09346c19f5d611b8eaa3f11fa6308b50d7cc0a67f2bd2dc449f9faf1a00",
+      "translation_sha256": "d553220f72b951f5223dd6f9f94fd54d7171379c0a48fb7443d85cbdc27b82ee"
+    },
+    {
+      "id": "coalesced:0c6a57dee894a3799cd7a19f926e315eaa83fb7b396f17afd07fdeb8b9a92544",
+      "section": "Recover",
+      "key": "1059_fire_elemental_S",
+      "source": "필드 위에\\n불의 칸을 생성. ",
+      "translation": "在场景中\\n生成火之KAN ",
+      "source_sha256": "0f3ea3975d37717b173a862d6f44c62cd5d286c29b0b90ee352ac7855adc26d8",
+      "translation_sha256": "9d51ecb1b7b97b6b1434af2366d937640765a7e791f35e4500d05a6d946f8055"
+    },
+    {
+      "id": "coalesced:59d938a2319b1eab6184c6df6e04b866209979e627d67e39b7c0ee2df43415d8",
+      "section": "Recover",
+      "key": "1060_water_elemental",
+      "source": "얼음의 엘리멘탈 ",
+      "translation": "冰之元素体 ",
+      "source_sha256": "032383ac4efa32ddbb69bb939ef28dfbf18517ded34ebe7ca1c8957300fd674e",
+      "translation_sha256": "5a0d986420f3aa14eb3e6276c5e723966de7dd0c303ce8da3165f2a0b36fa75f"
+    },
+    {
+      "id": "coalesced:79c6c6006be5bd57e65c95bc32f839ad0e632b4fdaf6931925e898cb83b9ed29",
+      "section": "Recover",
+      "key": "1060_water_elemental_D",
+      "source": "필드 위에 얼음의 칸을 생성한다. ",
+      "translation": "在场景中生成冰之KAN ",
+      "source_sha256": "21aeb3a4e2a775d46c127d3e1cba4f23e76eadf5b3477519ccd85c254a1056f1",
+      "translation_sha256": "08973eb4bd22c8eca9ad9c4d329a325bcc4e488e6a55e1aa3bc4d9dbf6c14b03"
+    },
+    {
+      "id": "coalesced:447105056b5626b5a62b308f5e9f4d8434b61fbb6bd5a7a3f8cf1c8c7fa8734b",
+      "section": "Recover",
+      "key": "1060_water_elemental_S",
+      "source": "필드 위에\\n얼음의 칸을 생성. ",
+      "translation": "在场景中\\n生成冰之KAN ",
+      "source_sha256": "db149ac7f01d671592bb1ac1ea92e675ec404a449e93a9e316e1d76559c038ff",
+      "translation_sha256": "a1299c5958110fe91d7fb60df1bdf154b269fe78d36047f33920ff622f4ace9a"
+    },
+    {
+      "id": "coalesced:a1a56fca4f20576bc1890fca98a7fec4327de2ecfbe5aabf401e35104f58e775",
+      "section": "Recover",
+      "key": "1061_lightning_elemental",
+      "source": "번개의 엘리멘탈 ",
+      "translation": "雷之元素体 ",
+      "source_sha256": "85b42225e7f321bba4a35789f22c920e64dd5b73eacf446d2e7d7cd91970c043",
+      "translation_sha256": "75d232604d4539746f2b4fabec75dd328d497adbe1942c32b8c35868871cf91d"
+    },
+    {
+      "id": "coalesced:6102a1378a9a7d434c4454a0df67697e1e65e12927d94b6799c3cf81178dc2f9",
+      "section": "Recover",
+      "key": "1061_lightning_elemental_D",
+      "source": "필드 위에 번개의 칸을 생성한다. ",
+      "translation": "在场景中生成雷之KAN ",
+      "source_sha256": "a1819cbc75dd12cedf2ac61a404f499ccd5d17914c10cd8cf1ec4496f6c5461f",
+      "translation_sha256": "703c4e7362043d7d5010efb519ab9cfff1c6b3c798d440696545ea387937e006"
+    },
+    {
+      "id": "coalesced:b0ca268c45138f66bcc992ca1dc192cf62d8f7bf1a17625e475b1e946bc1fb91",
+      "section": "Recover",
+      "key": "1061_lightning_elemental_S",
+      "source": "필드 위에\\n번개의 칸을 생성. ",
+      "translation": "在场景中\\n生成雷之KAN ",
+      "source_sha256": "690c5f606b0f1553f69c36f80828eeb4e9f7a7d05cfde12707bced25d15d7315",
+      "translation_sha256": "6cb7402f3c17e322b0901919c7c3e51c4e9f3088b621ae7ad479afc5a1f10153"
+    },
+    {
+      "id": "coalesced:28cafd0dc908494fbe8669c17e05981eff28aa99c2315b6e8e6d1942876b135c",
+      "section": "Recover",
+      "key": "1062_wind_elemental",
+      "source": "바람의 엘리멘탈 ",
+      "translation": "风之元素体 ",
+      "source_sha256": "a83efa64f2302662d5aa34e6899c6d15f764b46e61396c0934f110d21cad099b",
+      "translation_sha256": "41378ff180e763634ac02f434ed65fd03d4e07be2408f5a3ca1ba2e672bbb509"
+    },
+    {
+      "id": "coalesced:b8281730e63799a22ab372fbfd428f5126377fcdce9dc62557757e2bb90ae0a8",
+      "section": "Recover",
+      "key": "1062_wind_elemental_D",
+      "source": "필드 위에 바람의 칸을 생성한다. ",
+      "translation": "在场景中生成风之KAN ",
+      "source_sha256": "ed873c20d14135f7ecbe324e524b96c7bfeb978199aca09e15d981b8fbc6c2a6",
+      "translation_sha256": "913543e488e9aa545e9f107680e8b67463c2314615c6b84f90e59e94c8d8d99b"
+    },
+    {
+      "id": "coalesced:fb5ebf2d85ecfeb11d2ebbe5650a159234925bc43432f51b2713c915ae3c7b3a",
+      "section": "Recover",
+      "key": "1062_wind_elemental_S",
+      "source": "필드 위에\\n바람의 칸을 생성. ",
+      "translation": "在场景中\\n生成风之KAN ",
+      "source_sha256": "aea7b68cb7ae00be3fd6ef6ebf2f538c17f89b40817bb8485d924c83deeba8be",
+      "translation_sha256": "18c2cb76168c250ec725d10a74c52e3314caf34150b1696896b2be1b2ec76472"
+    },
+    {
+      "id": "coalesced:817767f320da5cdf33601e3c143f606f4ebefa0a78ae5e8c4d51393ac5c2e5d2",
+      "section": "Recover",
+      "key": "1063_Katuobusi",
+      "source": "굴비",
+      "translation": "黄花鱼干",
+      "source_sha256": "f96695ee73b1fa5f7bf6a3342d5006e5d16c42503822de65f163c903e55fb084",
+      "translation_sha256": "1ae3e54e67c6c97c282335792f1737f994cd864e1ca926a1036f5f29bb837389"
+    },
+    {
+      "id": "coalesced:c5e57db4e9ed1c7e81d7b8939cb9500fd4a54d832eb3df580c4fb51e807f59b1",
+      "section": "Recover",
+      "key": "1063_Katuobusi_S",
+      "source": "아군 1명만 체력을\\n20% 회복해준다냥~",
+      "translation": "只为1名我方成员恢复\\n20%的体力喵~",
+      "source_sha256": "ca243c36103aaabd02b6d029ae83f8338b1eec7174bf4d48f6f12c2c7988cb3b",
+      "translation_sha256": "d9d7e42e3226ce00978a2e233503dbe5589633d1b114caa2c73307fad90ecd1e"
+    },
+    {
+      "id": "coalesced:09760030e6cacd5b168ceb4b656f61fa7a9c999cd4251bce57b056f05f518003",
+      "section": "Recover",
+      "key": "1063_Katuobusi_D",
+      "source": "아군 1명만 체력을 20% 회복해준다냥~",
+      "translation": "只为1名我方成员恢复20%的体力喵~",
+      "source_sha256": "ae2197176b2197c45089bc6cf5c7c839da31111020f9c70ced12171b19a656cd",
+      "translation_sha256": "7946c8ea1311cc3b268e7bcf127128b2415a5bb962ecf3cd79abc19aa621f366"
+    },
+    {
+      "id": "coalesced:f418f1e1e6e90668fa9a0ec4ca7b8bb6bff94e70641840fab6b2135f92ec0a2a",
+      "section": "Recover",
+      "key": "Matatabi",
+      "source": "캣닢",
+      "translation": "猫薄荷",
+      "source_sha256": "d328997ad037750db1923a0cd69ab1a8cd741aba4961e922678e4b21dc6864d3",
+      "translation_sha256": "fc73a59eff818085f24da6f1c497e5c4c5ddc8e720f14a8916441dcabd7ca225"
+    },
+    {
+      "id": "coalesced:52fe6760ea5d5c06c8b67a355be1254ab32b88b9031450c4336931df3e9307a2",
+      "section": "Recover",
+      "key": "Matatabi_D",
+      "source": "아군 1명을 짜릿함 상태로 만들어, 마비와 감전에 면역이다냥~",
+      "translation": "使1名我方成员进入酥麻状态，免疫麻痹与触电喵~",
+      "source_sha256": "90d74651542b92d0416cdc7452e068f19efa8b24d24a6ba8ee081ce92a81adff",
+      "translation_sha256": "b8e21c4d052c199646a7ed15c7d658ac8d764eb3ad56bae8817d412fa203a5f1"
+    },
+    {
+      "id": "coalesced:a64741196bc20db3fc9e542a23bf24f514533c4dc42fea05c25a86289b392cb2",
+      "section": "Recover",
+      "key": "Matatabi_S",
+      "source": "아군1명을 짜릿함 상태로 만들어\\n마비, 감전에 면역이다냥~",
+      "translation": "使1名我方成员进入酥麻状态\\n免疫麻痹、触电喵~",
+      "source_sha256": "796b85302675f8479c954054a06fc1971b11b2733fc420e591a7722d651579d1",
+      "translation_sha256": "1c414b3272ad6b5ae3cc1580553c32f1bfce5af340b61593704ea0addc47dbf6"
+    },
+    {
+      "id": "coalesced:9e855d377a8ab591d3a6fc31f35b386da2d9dea3588237d5962e1f2a15f68015",
+      "section": "Recover",
+      "key": "1065_Item",
+      "source": "최강의 약 ",
+      "translation": "最强药 ",
+      "source_sha256": "2735b35595c6bc3d8b082e21c0f76b3161a55ee0bdf942d77015e4dd24698036",
+      "translation_sha256": "0c5c13f071fa15db21e17d2574e9686c4c375b76e03959f343a6671181fe0d49"
+    },
+    {
+      "id": "coalesced:47de991cf05fc4bb2f1b176d6abd177ea521f5ae85ff97e615f63fc1ae69fe26",
+      "section": "Recover",
+      "key": "1065_Item_D",
+      "source": "아군 전원의 상태이상과 체력을 완전히 회복한다. ",
+      "translation": "完全恢复全体我方成员的体力，并解除所有异常状态 ",
+      "source_sha256": "dec08654a1a06f83c5a59eefca425fdf6c4760a61d236f693b0ae918f09f32a5",
+      "translation_sha256": "d0a6a1926d0053eeb603e297bb68b714cbb338a09d436de36135103711fef4e8"
+    },
+    {
+      "id": "coalesced:879f829d0c33b1800d409d7cfdf603037eb546569e676b940de5e646d3536280",
+      "section": "Recover",
+      "key": "1065_Item_S",
+      "source": "아군 전원의 상태이상과\\n체력을 완전히 회복한다. ",
+      "translation": "解除全体我方成员的异常状态，\\n并完全恢复体力 ",
+      "source_sha256": "9e7a48a4f91bf3ccc5cc6fa91134852d816fe57613cd228ec8f39cb8a3fc228f",
+      "translation_sha256": "1291e0b3af31469f96b5dfc6a1dfeee626c8de6a997381f41f0f56622a4e4fef"
+    },
+    {
+      "id": "coalesced:eafcc1b6478d61b26fd52e683f63042a6ee49b684427946528ed895e7090b3dc",
+      "section": "Accessory",
+      "key": "1238_acc",
+      "source": "朱雀の목걸이",
+      "translation": "朱雀项链",
+      "source_sha256": "4852d9fa6e8a79e86b89ed116ee7b5f1013e2688d9b362a5da106a84079044ff",
+      "translation_sha256": "df74213708e76482a457115dfbd50129d8c62dc6499364b62c7e641a0ae6e197"
+    },
+    {
+      "id": "coalesced:0d992448a5e9a635eebe7ad33fb5d833442691d684ebc745b99230edaf232eca",
+      "section": "Accessory",
+      "key": "1238_acc_D",
+      "source": "장신구\\n状態異常「火傷」に50%免疫",
+      "translation": "饰品\\n对「烧伤」异常状态50%免疫",
+      "source_sha256": "bcf97604d7ad143e5fe3d9c0fd3e4f0ba9e564f94d2c2b5a926778d003d290d3",
+      "translation_sha256": "ed3ae253788f0f60081a93b0537f177e4891906b218c212e726e817731d63edc"
+    },
+    {
+      "id": "coalesced:6f032f349eef9779db74cecda5b867c37a23b06090ed0ebfe4038341df74e7e7",
+      "section": "Accessory",
+      "key": "1238_acc_S",
+      "source": "장신구\\n状態異常「火傷」に50%免疫 ",
+      "translation": "饰品\\n对「烧伤」异常状态50%免疫 ",
+      "source_sha256": "634cb73fac92eadf512f317dbe32f3f060c768138624ad0417faa77175c06628",
+      "translation_sha256": "2858b882a8a7499e7f22a33d0eab75a76fd261adee9dea0f66819d8c31929dbc"
+    },
+    {
+      "id": "coalesced:4939836330a5d9563fee537138f67738be653c1bbfd502c3034d050ac1c18295",
+      "section": "Accessory",
+      "key": "1239_acc",
+      "source": "주작의 반지",
+      "translation": "朱雀戒指",
+      "source_sha256": "54d11a25b0ef8f011a0e23f58d5a4ee71e793ae08b63dbc76ea1b0fc25a007e4",
+      "translation_sha256": "7d64be604736a815e0ab00b1f12f2a04b5b9c6a913f7abc7fa10c6d67f3c1796"
+    },
+    {
+      "id": "coalesced:f3c6e786f55db0445974d8d3e3b6e0beeafe344747a35a78d395610ae1aa701b",
+      "section": "Accessory",
+      "key": "1239_acc_D",
+      "source": "장신구\\n상태이상 더위, 화상 면역. ",
+      "translation": "饰品\\n免疫炎热、烧伤异常状态 ",
+      "source_sha256": "41b0dffd3970e8d4458ec50cecc6e1f608eadb09b4a9b02881e1971c6815cdcd",
+      "translation_sha256": "7598fd0aa7205f824f3d51890332153db6daaea1cff96d614a9a3a0186c66e0f"
+    },
+    {
+      "id": "coalesced:9917841fbb82feab267326380db9edd6f94bc2bcc653434397c40512bcf24424",
+      "section": "Accessory",
+      "key": "1239_acc_S",
+      "source": "장신구\\n상태이상 더위, 화상 면역.",
+      "translation": "饰品\\n免疫炎热、烧伤异常状态",
+      "source_sha256": "8a802cb12f261ec08889c753a3d605fa55f1591f2f4a781f68255dbde42502b8",
+      "translation_sha256": "25f18576210004cf94546f2659a3d0bad94d8e23c98f8e79f9fc1a13d7a767ca"
+    },
+    {
+      "id": "coalesced:798217602e46084261e56ab0433a76f8b7fe1dba067acca6a0c29896f4166bd2",
+      "section": "Accessory",
+      "key": "1265_acc",
+      "source": "대자연의 반지",
+      "translation": "大自然戒指",
+      "source_sha256": "feb20b71064ff5229c195399cd22bffa1a7fe46581ced9915d41f343f526172f",
+      "translation_sha256": "38413287410b8745f8f5d66ca202e19e8b1438fb856d2c6848f2530b145cccc0"
+    },
+    {
+      "id": "coalesced:f0f317d46789b79fb29c35cd892db7d1973d6eced8546543b8c1dfabb01bc578",
+      "section": "Accessory",
+      "key": "1265_acc_D",
+      "source": "장신구\\n상태이상 화상, 동빙, 침묵, 감전 면역. ",
+      "translation": "饰品\\n免疫烧伤、冰冻、沉默、触电异常状态 ",
+      "source_sha256": "737043a0346ae786653f7773dfb49ab31c82e2c9ec983db28e1485bc1d6d3385",
+      "translation_sha256": "3cf9b5782b9e9806c1173f7158cc1603a7ae28151feb706efa9f29c85bd4c844"
+    },
+    {
+      "id": "coalesced:63d9c5664e1f20a2a06a35e75bb58f99e813d23a5537e6663a35bfbe52df8b7c",
+      "section": "Accessory",
+      "key": "1265_acc_S",
+      "source": "장신구\\n상태이상 화상, 동빙, 침묵, 감전 면역. ",
+      "translation": "饰品\\n免疫烧伤、冰冻、沉默、触电异常状态 ",
+      "source_sha256": "737043a0346ae786653f7773dfb49ab31c82e2c9ec983db28e1485bc1d6d3385",
+      "translation_sha256": "3cf9b5782b9e9806c1173f7158cc1603a7ae28151feb706efa9f29c85bd4c844"
+    },
+    {
+      "id": "coalesced:887ab36b5d2bc7d3931b6479c09b6a59b9783a7a2add5449b7ba703003c4474a",
+      "section": "Kamond_EquipBonus",
+      "key": "AncientHammer",
+      "source": "더위 면역 ",
+      "translation": "炎热免疫 ",
+      "source_sha256": "9412dfb7a6f38913931f235bf2e3d7ac583144c6fb869f9c1d16531ada09b28e",
+      "translation_sha256": "8b89f072329979d9d0b5355ab6e7d8dafac908876aa2c6c241e9858f03ce5dfd"
+    },
+    {
+      "id": "coalesced:10065c677e035e4002be35e9931ec1508d12220b90580c531e9d157c6f8db61d",
+      "section": "Karmond",
+      "key": "1642_Karmond",
+      "source": "더위 방어",
+      "translation": "炎热防护",
+      "source_sha256": "898a7837249dea391a3fcb5f054548756dbf7ab53929a906a17a5c0cdf31f995",
+      "translation_sha256": "b63a6cf4789bb4210e6933a8f6dee25880dd1db6601b432c2822db8daffa3a9f"
+    },
+    {
+      "id": "coalesced:9cdf951465bf6d8eaa79f841cb85bb3b6c44d8d594fbdfc143a0a9830d4cd8ca",
+      "section": "Karmond",
+      "key": "1642_Karmond_S",
+      "source": "더위 면역",
+      "translation": "炎热免疫",
+      "source_sha256": "fa60d259882df1d47cb6f47569c3545dc8745e4de57c42f85dff2ab8bf531a84",
+      "translation_sha256": "627760ceed4998f8524a4280cc43cc219db63ea57ec2937258c759614e4ea928"
+    },
+    {
+      "id": "coalesced:0471f0a2888898baee0e172d7f239bcf29cb704c1b9cc32731661c076acc8d25",
+      "section": "Karmond",
+      "key": "1642_Karmond_D",
+      "source": "상태 카몬드\\n더위 면역 ",
+      "translation": "状态卡蒙德\\n炎热免疫 ",
+      "source_sha256": "d7660ac04047162ddcc7e9409f0c80584422847c53b40d3524f17eb37bd4da04",
+      "translation_sha256": "14fff9fb2f71b23ce53a7c59790562e872296d7be28db10aa9ae38986c83f5f0"
+    },
+    {
+      "id": "coalesced:5177e0de7d5def75d7c7ad0869d13d7d5d63ba9e8e8ae000e089cfc4a00b5e19",
+      "section": "Karmond",
+      "key": "1643_Karmond",
+      "source": "화상방어",
+      "translation": "烧伤防护",
+      "source_sha256": "79af31d51668b43e8889090ef85b19b36664ddcc069e97ab805b8ea335da0531",
+      "translation_sha256": "13f105e6d6b370fa59151d1f571606c6aba2263b39e63cb1746e7c9d076f09a8"
+    },
+    {
+      "id": "coalesced:0580fdb4f90d879ced5612c009e11511e0f5c1cf76dfc9f953101d5d232abb40",
+      "section": "Karmond",
+      "key": "1643_Karmond_S",
+      "source": "더위, 화상면역",
+      "translation": "炎热、烧伤免疫",
+      "source_sha256": "3559e72e879286d609e12a5f13a424e6d286cd9b668b599171ec7b0ae737bcb2",
+      "translation_sha256": "5b8015eda522b3133c0fdee33a216a1c5acd368cdd2cfd75401057a36ecd3bf4"
+    },
+    {
+      "id": "coalesced:999ad5276cd96dc0f009a67238117b67193155de534fdecebe1b7dcf40878e3c",
+      "section": "Karmond",
+      "key": "1643_Karmond_D",
+      "source": "상태 카몬드\\n더위, 화상면역 ",
+      "translation": "状态卡蒙德\\n炎热、烧伤免疫 ",
+      "source_sha256": "7ad84b98e9ec586cbfd3068c3dcffb2af33ef3ea76603eb620dee94339a189cf",
+      "translation_sha256": "3d15a8b16f7d284c291f3f7a5b953815a8aac9f92d6c3671628473a42bd9c4c6"
+    },
+    {
+      "id": "coalesced:f832c3bbbb9285cf206339fd871db7f08e46d35ad8d992037a01afd734481c40",
+      "section": "Karmond",
+      "key": "1722_Karmond",
+      "source": "열の一撃",
+      "translation": "炎热一击",
+      "source_sha256": "beaab9c5e808380c5b7bcd659ddf3bb84fdb4a8ab7a5b10556338c299f286805",
+      "translation_sha256": "be85ae4dc28ae8a3374a2f4f929f3db6532b795b26101bdc297ac7674804b3e6"
+    },
+    {
+      "id": "coalesced:2c4314378632550e3de9347a19ee995bf0c0f8cf6408da354b716af5d0a6caa6",
+      "section": "Karmond",
+      "key": "1722_Karmond_S",
+      "source": "一定確率で\\n敵を열状態にする",
+      "translation": "以一定概率\\n使敌人陷入炎热状态",
+      "source_sha256": "2b7c2fb224f8191cd8cc63f9313813c57a12ea2d3699cc36ea6460afe3ccbd44",
+      "translation_sha256": "5497da7938bac02f6ee0bbdb75602b047e7d21697e40ce774c2d223a1541b080"
+    },
+    {
+      "id": "coalesced:dcc93a53706f114026d4ab2709f4fdc0ae35f964275eb15b47bd9e2af0857e72",
+      "section": "Karmond",
+      "key": "1722_Karmond_D",
+      "source": "특수 카몬드\\n一定確率で敵に「열」の状態異常を与える",
+      "translation": "特殊卡蒙德\\n以一定概率使敌人陷入「炎热」异常状态",
+      "source_sha256": "01803471e33755a9307fc2f5c7c67ef3aaa9b9fa21ed86d12eea285e20774ad5",
+      "translation_sha256": "9a074d884a84e83092529abae192c3d8b6ddd9660f73e49b9ef45966057fa6f4"
+    },
+    {
+      "id": "coalesced:69be135790f91a57e9cd601559361444f6a9706b4644654458abf6ba67c4ffb4",
+      "section": "Karmond",
+      "key": "1723_Karmond",
+      "source": "화상の一撃",
+      "translation": "烧伤一击",
+      "source_sha256": "3912c8ce1e7c43f328206654111c81836ceaa9ef4aeb74ddc400f587f1ec10ee",
+      "translation_sha256": "1ba183bcc540aaebc17f10778913cd59f7c0de4076041d1dfd8767f856ee9692"
+    },
+    {
+      "id": "coalesced:ecd95ea01d4658afe5e68e1d5b8dfaeed749e3b6f3b8e905cc0909b3903e14c4",
+      "section": "Karmond",
+      "key": "1723_Karmond_S",
+      "source": "一定確率で\\n敵を화상状態にする",
+      "translation": "以一定概率\\n使敌人陷入烧伤状态",
+      "source_sha256": "6ec738ecc41c4b2083d5a1f200cae032aab24d8ae4913ddb5a41a9ad09633492",
+      "translation_sha256": "34694ff87fb4c59318352da80311e5b849f6b9e9c2f8de54c71e824d90d6ad27"
+    },
+    {
+      "id": "coalesced:42ba28e377d62fd195e8a1b0c630b24915c736aedc04b4778277f835b7a54454",
+      "section": "Karmond",
+      "key": "1723_Karmond_D",
+      "source": "특수 카몬드\\n一定確率で敵に「화상」の状態異常を与える",
+      "translation": "特殊卡蒙德\\n以一定概率使敌人陷入「烧伤」异常状态",
+      "source_sha256": "3fcc2f43b4274728c6083a052332626878668736d4abd9a7dcbe9dddc56f8eed",
+      "translation_sha256": "0d85170acbf9740fae93c7334867156582901d9d97e512526a9377d5623830b9"
+    },
+    {
+      "id": "coalesced:fd2ad18ccbb041ac3ae5343e6b5fd51f06eb427648f73fbae9d764d24d8c6f1e",
+      "section": "B02_012",
+      "key": "B02_012_Sub",
+      "source": "더위 상태 이상에 대해서",
+      "translation": "关于炎热异常状态",
+      "source_sha256": "ec8ce92b7b25ef604ad82c9f1e53f181452bcc7151030a0d8e13e35c5b810f82",
+      "translation_sha256": "b314a355dbc41018ea7aa9e8665f0f730865e5e5df300e5ec9bb2c32aaa2edd2"
+    },
+    {
+      "id": "coalesced:2ad4593d7f3a3f51b1065c072cb3b27159b297add42a6280afbeccef47c0b964",
+      "section": "B02_012",
+      "key": "B02_012_Con",
+      "source": "늙은 여우 협곡에는 현재 많은 수의 북부군의 불의 연환술사와\\n공성병기가 배치되어 있습니다.\\n불의 연환술사나 공성병기의 공격을 받게 되면 일정 확률로\\n[더위]라는 상태이상에 걸리게 됩니다.\\n\\n이 상태이상에 걸리게 되면 일정시간 동안, 계속 HP가\\n감소하게 됩니다.\\n같은 속성의 연환술을 사용하는 크로셀은 [더위]상태이상에\\n걸리지 않습니다.\\n다른 연환술사들도 자신의 속성에 해당하는 상태이상은 걸리지 않습니다.",
+      "translation": "老狐峡谷目前部署着大量北部军的火之连环术师和\\n攻城兵器。\\n遭到火之连环术师或攻城兵器攻击时，有一定概率\\n陷入[炎热]异常状态。\\n\\n陷入这种状态后，在一定时间内，HP会\\n持续减少。\\n使用相同属性连环术的克罗塞尔，不会陷入[炎热]\\n异常状态。\\n其他连环术师也不会陷入对应自身属性的异常状态。",
+      "source_sha256": "ef67df28d90d5972a8731ff047fdb004da68aec921b7aeee99fa90bd885181e7",
+      "translation_sha256": "05fc7103954c2c63a55cc55bb1c99c91859e4c65d1d7f0d699a7dbbe7b8b9013"
+    },
+    {
+      "id": "coalesced:9bb6f6c74d4732b35d228de8c2b5d8363a8dbd2f0a9ab5c800233aa5d27b45b4",
+      "section": "B04_004",
+      "key": "B04_004_Sub",
+      "source": "저글론",
+      "translation": "泽格隆",
+      "source_sha256": "d51d8ee20f5c499a2e5f4412683f65572e6dfdcda705fdf5ebae8e9cb37c7e73",
+      "translation_sha256": "f9608630da4ee6def030baf0a230d4b4f5cef2b6df118a1c443105c4696de6cf"
+    },
+    {
+      "id": "coalesced:7955cad990ae8de5cf520c6f5f4cdc4fe9b4a41408cce9fc808bb21f747daa39",
+      "section": "B04_004",
+      "key": "B04_004_Con",
+      "source": "저글론의 주변에는 불을 사용하는 연환술사들이 있습니다.\\n그들은 지면에 불을 지르고 화상을 입게 만드는 공격을 합니다.\\n\\n지면에 불이 붙어 [지면효과]를 일으키면, 불 속성의\\n상태이상에 걸리기 쉬워집니다.\\n특히 [화상]을 입게 되면 지속적으로 피해를 입게 되니\\n주의하셔야 할 것입니다.\\n그럼 무운을 빕니다.　",
+      "translation": "泽格隆身边有使用火焰的连环术师。\\n他们会点燃地面，并使人陷入烧伤状态。\\n\\n地面燃起火焰，产生[地面效果]后，就更容易陷入火属性的\\n异常状态。\\n尤其陷入[烧伤]状态后，会持续受到伤害，\\n还请多加小心。\\n祝武运昌隆。　",
+      "source_sha256": "32047d054fb0f5557a348bb23ff0228c99fab622218f6768239680fd07b756ea",
+      "translation_sha256": "ad58cc3c3d23a7ae340935a72477d609392735bf07183024c49e8b49f265bb99"
+    },
+    {
+      "id": "coalesced:d4408c6b2992d42034051c3ac9713ffc77be0560ab0fb5d2740c7b689334f741",
+      "section": "Zephie_Style1",
+      "key": "Zephie_Normal",
+      "source": "홀리 웨이브",
+      "translation": "神圣波动",
+      "source_sha256": "5dc4f3da8bb20bed1eb19a07db6a7964670b634ae3e395f014818b6143facfaa",
+      "translation_sha256": "06504479c440727bf07403bd165d03567d2229c9fba245496422f86703dedc4c"
+    },
+    {
+      "id": "coalesced:36dd268c458c063c55adf8673928d6deae0c7ed36bd1a423f6e83d2c04b09f80",
+      "section": "Zephie_Style1",
+      "key": "Zephie_inherent",
+      "source": "응급처치",
+      "translation": "应急处理",
+      "source_sha256": "6c8d745f86e0967e0cf5b6710aa6f40256bc6a2511909642db0d95fc36486918",
+      "translation_sha256": "8d085ea5bf509f2ed7a26d60f0a282dc15b6ccbc6c171a76da42e55b81c1669f"
+    },
+    {
+      "id": "coalesced:041be878d7357912a0ae96511edcb1d4f92c972024e360fc3708baadfbe3beee",
+      "section": "Zephie_Style1",
+      "key": "Zephie_inherent1",
+      "source": "정수추출",
+      "translation": "精华提取",
+      "source_sha256": "8942fa6157e0ff3775cb85b24c02ab897a596735c88c94f68e7266bb832066b0",
+      "translation_sha256": "73df74b2d97167659848205764ea54227c8653954eaa2ced8f723ee8e7507471"
+    },
+    {
+      "id": "coalesced:af78af6490c7974d6336a0f0553df73e058fa413c21cddd84c633688d6cf0545",
+      "section": "Zephie_Style1",
+      "key": "Zephie_Skill00",
+      "source": "홀리 리플",
+      "translation": "神圣涟漪",
+      "source_sha256": "c27d3dc5a2e6e1a2884241ad49b498d93638896dc5802211bf64c84d57a0f2d8",
+      "translation_sha256": "691398a73b51886aaf2a6f53730304241b99d83fd855f5d2a15bd81687d32f82"
+    },
+    {
+      "id": "coalesced:c44909295f412fbd88e597fb9e9839a44cd6c33924ad839b5a44960001816475",
+      "section": "Zephie_Style1",
+      "key": "Skill_d_209",
+      "source": "자신의 주변에 파동을 일으켜서 적을 날려버린다.",
+      "translation": "在自身周围释放波动，将敌人击飞",
+      "source_sha256": "5b3ef4d230ac705d66d433d7e681167ffdc071f7bf92cb8c7346414fdd36bffc",
+      "translation_sha256": "55d41cf2f37f308d2686dbf2e1ab568883a36831c0e2692067c3049719120531"
+    },
+    {
+      "id": "coalesced:b830f86a5355d4814d1872816de9d3fabc5eaaf4a4fbed87b11025b66636ba67",
+      "section": "Zephie_Style1",
+      "key": "Skill_d_209_Battle",
+      "source": "자신의 주변에 파동을 일으켜서\\n적을 날려버린다.",
+      "translation": "在自身周围释放波动，\\n将敌人击飞",
+      "source_sha256": "2fee7b27a551b5800c3316f17b8b09931d59c28b6bfdc038471e52320d513ee6",
+      "translation_sha256": "4c5cde1669e5f15b8c96663d5becf5249f7d2a7d1e674e1e12398c52e2aaa796"
+    },
+    {
+      "id": "coalesced:956e01daa737f21f076de2f745793d7b4aefc7e7d344bc4062ef6ad1324d44f2",
+      "section": "Zephie_Style1",
+      "key": "Zephie_Skill01",
+      "source": "큐어러",
+      "translation": "疗愈术",
+      "source_sha256": "34f66cdd84b2900e381906b5d57ff626fb6e0d3cef7fd341cee51508ae5fcd94",
+      "translation_sha256": "22bce0d57997b6c455014701577ad201feb38b6437438fd3ff11f6cb63da6c02"
+    },
+    {
+      "id": "coalesced:12647dcdea63ddea833e69fce3140deb2cfdbba8047b696574a73f190a12a7d2",
+      "section": "Zephie_Style1",
+      "key": "Skill_d_212",
+      "source": "아군 하나의 HP를 일정량 회복하는 연환술.",
+      "translation": "为一名友军恢复一定量HP的连环术",
+      "source_sha256": "15aaf4dd08e56cebb43f269cf359dd2202c0584a7f55c421e0602610084cff63",
+      "translation_sha256": "652ffc6bcd5af42e1fb9c6954ec13c13f2401c4a1ec0831ba6ad8b2ce13fd987"
+    },
+    {
+      "id": "coalesced:62d6f3d9c8e8bdde2dddc0f0b5efcfdf03e7a44969e245fd77e770f9b5e4e6ca",
+      "section": "Zephie_Style1",
+      "key": "Skill_d_212_Battle",
+      "source": "아군 하나의 HP를 일정량 회복하는 연환술.",
+      "translation": "为一名友军恢复一定量HP的连环术",
+      "source_sha256": "15aaf4dd08e56cebb43f269cf359dd2202c0584a7f55c421e0602610084cff63",
+      "translation_sha256": "652ffc6bcd5af42e1fb9c6954ec13c13f2401c4a1ec0831ba6ad8b2ce13fd987"
+    },
+    {
+      "id": "coalesced:7dbb9f1b2ab5132ec3d2c3303f9e0bbcd2a1246e93857c9d4711a2d28e4401cb",
+      "section": "Zephie_Style1",
+      "key": "Zephie_Skill02",
+      "source": "리저렉션",
+      "translation": "复苏术",
+      "source_sha256": "7e73a5131f9ff1866910df0be20ab1994bc0f58ffb01e06cac7ce5a58a56c599",
+      "translation_sha256": "0c0a34264fc8832e514831a04577f7ec5bcefed38a85cabada10d80e4323cc3f"
+    },
+    {
+      "id": "coalesced:f2307b2af4cebecca5d75a5dc7a55f2cedd7876f157da4b8a00e2df7b21bbe9c",
+      "section": "Zephie_Style1",
+      "key": "Skill_d_214",
+      "source": "전투불능이 된 아군 하나를 되살리는 연환술.",
+      "translation": "使一名失去战斗能力的友军复苏的连环术",
+      "source_sha256": "c41326642d82a40afa682352d9ad41b6197fe075155230cbb0c0fef291b40cf5",
+      "translation_sha256": "7862924d5f7873994e7ddaea8fa9dac7040888bb858b788ded5fd9e5dc85f606"
+    },
+    {
+      "id": "coalesced:55685f071be338f2715e03204e763be068b7092457bbd391f7ec3075ae3c6ae5",
+      "section": "Zephie_Style1",
+      "key": "Skill_d_214_Battle",
+      "source": "전투불능이 된 아군 하나를 되살리는 연환술.",
+      "translation": "使一名失去战斗能力的友军复苏的连环术",
+      "source_sha256": "c41326642d82a40afa682352d9ad41b6197fe075155230cbb0c0fef291b40cf5",
+      "translation_sha256": "7862924d5f7873994e7ddaea8fa9dac7040888bb858b788ded5fd9e5dc85f606"
+    },
+    {
+      "id": "coalesced:1dff704771e4e2584953e446bf908d212de8cdc8cbdccd87a36cd749e5756628",
+      "section": "Zephie_Style1",
+      "key": "Zephie_Skill03",
+      "source": "메디신",
+      "translation": "医疗术",
+      "source_sha256": "cf6423c71fca28bc6d4112988f773ec7112caf3a51676437e340e2bf778f4a43",
+      "translation_sha256": "a0828c57dcc0de55bfc041c39960824c97184195a0335b0c8d17bee3644861f4"
+    },
+    {
+      "id": "coalesced:70ce0f6bb7bb0bb0c3a3076bd0f7f13b06f6359a72bff2b76ec67b077a3fd63c",
+      "section": "Zephie_Style1",
+      "key": "Skill_d_215",
+      "source": "중독, 수면, 스턴 상태를 회복시키는 연환술.",
+      "translation": "解除中毒、睡眠、眩晕状态的连环术",
+      "source_sha256": "0a811e6331c4c5c5c8539a926205b4df1719759b43bfd831b8cecb506be43dee",
+      "translation_sha256": "f83c2a90bcbf94ffed1372705e0d8d7d08c2a2816fff04db14eebb48f10c363f"
+    },
+    {
+      "id": "coalesced:86f17d79f86da1026757bea18c22e47c17210ffd2b403f027070177f4b043608",
+      "section": "Zephie_Style1",
+      "key": "Skill_d_215_Battle",
+      "source": "중독, 수면, 스턴 상태를\\n회복시키는 연환술.",
+      "translation": "解除中毒、睡眠、眩晕\\n状态的连环术",
+      "source_sha256": "cecfc12208242e20ba268371f1c503ac9e1b551b7e4c97089b2fe0b0ec88b6d1",
+      "translation_sha256": "2a11596cb15988f31677b52a81e5f3cc3a0caa086ca41eacbb7720becd782506"
+    },
+    {
+      "id": "coalesced:d0cdb58e335c19f7d35704d70fdf2a032d606f267e897c2430e61519575c494e",
+      "section": "Zephie_Style1",
+      "key": "Zephie_Skill04",
+      "source": "리커버리",
+      "translation": "复原术",
+      "source_sha256": "ffacd298b28dac3a9f72e1804579f1282bd6fc5c99ab26171b316d36395c9dd7",
+      "translation_sha256": "575b32b1c92ac908efde3e6b964b173b2989cd5014d9bf6889f390bd977b1a37"
+    },
+    {
+      "id": "coalesced:3e28908cabc377b1d0db9de25f67a7aa2e707cc06555d61a1598e5b7da6f21de",
+      "section": "Zephie_Style1",
+      "key": "Skill_d_216",
+      "source": "더위, 화상, 추위, 동빙 상태를 회복시키는 연환술.",
+      "translation": "解除炎热、烧伤、寒冷、冰冻状态的连环术",
+      "source_sha256": "d4c68c60fdedb3d45ce8c335ee27a22737b32ddfe9813aadf90f0e4a4807e9fd",
+      "translation_sha256": "89b428db0165dbfa23fd5aff14d6209bd4379817453dc0fdaada111b1eaa6d65"
+    },
+    {
+      "id": "coalesced:0054540e8522d1bb07b0155fb32c14f35f57d05b673bb6b469da4cf63b459353",
+      "section": "Zephie_Style1",
+      "key": "Skill_d_216_Battle",
+      "source": "더위, 화상, 추위, 동빙 상태를\\n회복시키는 연환술.",
+      "translation": "解除炎热、烧伤、寒冷、冰冻\\n状态的连环术",
+      "source_sha256": "9a7098f39569f2e04b1d72a3d7a74846e41aaa470d4e0514cbdc28e1cf504486",
+      "translation_sha256": "ca7138509a2ad55418a3d295b08deac8c8345e1560a5b657ec6d54a21b455028"
+    },
+    {
+      "id": "coalesced:a5aca78de6b823c65414ab3c009a62e1540b955e86bcc1603f6dde745218dd17",
+      "section": "Zephie_Style1",
+      "key": "Zephie_Skill05",
+      "source": "리플레시",
+      "translation": "清新术",
+      "source_sha256": "791b3f045f5a479c19b24324be1c84b061d33ec1a0a0fa23a696257004621ee3",
+      "translation_sha256": "1b1a385662143f7dba7ae8999fef52897ea2379c733f179c0fbcc980c420b5fd"
+    },
+    {
+      "id": "coalesced:bb09fc2fd0fb7c312237f6c32295d7d0749847d2dd3a3358352f43c768a9f200",
+      "section": "Zephie_Style1",
+      "key": "Skill_d_217",
+      "source": "마비, 감전, 어지러움, 침묵 상태를 회복시켜주는 연환술.",
+      "translation": "解除麻痹、触电、晕眩、沉默状态的连环术",
+      "source_sha256": "bf2ee09390b8414158102b6a8397b24b5f109c87e0cb52aadc8f45a110d8e131",
+      "translation_sha256": "d5df6f5ec132daf6b7f0561628f1d0f3df75cd243ee07c17bb469009fc405ac7"
+    },
+    {
+      "id": "coalesced:1f5e1df553dc49709275a6b6045e8affde97d87635c8c92dd98b5b938e4c4b36",
+      "section": "Zephie_Style1",
+      "key": "Skill_d_217_Battle",
+      "source": "마비, 감전, 어지러움, 침묵 상태를 회복시켜주는 연환술.",
+      "translation": "解除麻痹、触电、晕眩、沉默状态的连环术",
+      "source_sha256": "bf2ee09390b8414158102b6a8397b24b5f109c87e0cb52aadc8f45a110d8e131",
+      "translation_sha256": "d5df6f5ec132daf6b7f0561628f1d0f3df75cd243ee07c17bb469009fc405ac7"
+    },
+    {
+      "id": "coalesced:8756d1639008aa4393b88c4828af3da197fec983ce89cc3565bbd04fcc1305ed",
+      "section": "Zephie_Style1",
+      "key": "Zephie_Skill06",
+      "source": "홀리 플래티너",
+      "translation": "神圣白金",
+      "source_sha256": "ee9fb3612bebb086ae4d3e9160f6679d2ee17531cc4233407a10bebc436af85e",
+      "translation_sha256": "1e009c1c5ec134e90e821481d135d702641a7e98ed65646d88740157a33d962a"
+    },
+    {
+      "id": "coalesced:dccb483f7d86cad23251e639accb64b3ab9eca87c52e28401f5fcf5cef1e7841",
+      "section": "Zephie_Style1",
+      "key": "Skill_d_213",
+      "source": "빛의 탄을 적에게 4번 쏘아버리는 연환술. ",
+      "translation": "向敌人发射4次光弹的连环术 ",
+      "source_sha256": "11ad122f768acbc74ea1a18a352976711822bbbc3a111847c70b0e45a521668b",
+      "translation_sha256": "3c1f02aa414168c54eb37e21c0efdcd5b73f9e7d2784616910b2618c2e1d3458"
+    },
+    {
+      "id": "coalesced:39fcafe93adbc692c70ea8d85c5ee13f27e682624f1fd420bc11251e52e6cc53",
+      "section": "Zephie_Style1",
+      "key": "Skill_d_213_Battle",
+      "source": "빛의 탄을 적에게 4번 쏘아버리는 연환술. ",
+      "translation": "向敌人发射4次光弹的连环术 ",
+      "source_sha256": "11ad122f768acbc74ea1a18a352976711822bbbc3a111847c70b0e45a521668b",
+      "translation_sha256": "3c1f02aa414168c54eb37e21c0efdcd5b73f9e7d2784616910b2618c2e1d3458"
+    },
+    {
+      "id": "coalesced:6103a567013cc3d178fa5bf5b5143bccbca76dcc19efbe353b7a0b35cfd8c614",
+      "section": "Zephie_Style1",
+      "key": "Zephie_Skill07",
+      "source": "올 큐어러",
+      "translation": "全体疗愈术",
+      "source_sha256": "66a0bfe0195287de62dd552e1c8e58039c8e32a8707872132beb2c4eaa4ad1ec",
+      "translation_sha256": "812bb44888cea77a1d312593a26a50550f227cd1caf7a739b7d88fe6e58d7e19"
+    },
+    {
+      "id": "coalesced:9546b1c98f1c09324d2afedd64fd16531a55643e601489348f82b2908c33aab2",
+      "section": "Zephie_Style1",
+      "key": "Skill_d_218",
+      "source": "아군 전부의 HP를 일정량 회복시키는 연환술.",
+      "translation": "为全体友军恢复一定量HP的连环术",
+      "source_sha256": "b4107ab59b011db9b06152e204b3fcf2d8d4bc3e83f1af28a39a3edd13064481",
+      "translation_sha256": "3b2830f9ad629fba464d3ebc334b1158e78602146b69ebd067db66a19f639cc8"
+    },
+    {
+      "id": "coalesced:df5fff83e486ebe01d6d69648d66fb95faf21014458f3ab76fd63a22f579d86f",
+      "section": "Zephie_Style1",
+      "key": "Skill_d_218_Battle",
+      "source": "아군 전부의 HP를 일정량 회복시키는 연환술.",
+      "translation": "为全体友军恢复一定量HP的连环术",
+      "source_sha256": "b4107ab59b011db9b06152e204b3fcf2d8d4bc3e83f1af28a39a3edd13064481",
+      "translation_sha256": "3b2830f9ad629fba464d3ebc334b1158e78602146b69ebd067db66a19f639cc8"
+    },
+    {
+      "id": "coalesced:b12c51f33123d5250f8375502790fca8f245cd62887c0998cf0327eb47391dd6",
+      "section": "Zephie_Style1",
+      "key": "Zephie_Skill08",
+      "source": "퓨즈 페인",
+      "translation": "苦痛净化",
+      "source_sha256": "014a7b6c4c65f84d0866a41d8647d1c0e02dfefb8d49f8a92adacd86402849de",
+      "translation_sha256": "d714edb3ccb83971e4b9526238482f4e41871bbad3974bb13a2dac6d223b9c41"
+    },
+    {
+      "id": "coalesced:be7e23ecc0cb52d1d3e3ea3c77f1e8e8cd0658cebf59932a74a6e4283e9d7926",
+      "section": "Zephie_Style1",
+      "key": "Skill_d_220",
+      "source": "아군 하나의 모든 상태이상을 회복시켜주는 연환술.",
+      "translation": "解除一名友军所有异常状态的连环术",
+      "source_sha256": "8be575cfd4ae4da9e71c17593723171389dd9152213c8fc1c88fc516b1a1f675",
+      "translation_sha256": "005b6c1d785dd8daf8df9eb3b037b1c0a8447dde6c5ee12d51a2ba2aec2a0905"
+    },
+    {
+      "id": "coalesced:368541e762e8bafa09f02bf2771e94272b9d791bd7aca5957b456550f037234f",
+      "section": "Zephie_Style1",
+      "key": "Skill_d_220_Battle",
+      "source": "아군 하나의 모든 상태이상을\\n회복시켜주는 연환술.",
+      "translation": "解除一名友军所有\\n异常状态的连环术",
+      "source_sha256": "fa681d6999fd4f01bd57596578ff343f04fa32bacfd7326afb23c64c7729d162",
+      "translation_sha256": "df23b8e85ec3603416df825832da3bcf87613454abb81eb397e5c08c151ce25e"
+    },
+    {
+      "id": "coalesced:b8518e881c243cd8a9d10213384933be99717560256004b517ec467cc3e9648a",
+      "section": "Zephie_Style1",
+      "key": "Zephie_Skill09",
+      "source": "디바인 플래티너",
+      "translation": "圣辉白金",
+      "source_sha256": "4080aa8a955edccc1212f725621788a7a8b96dc8e65c8caede4862d20d2983a8",
+      "translation_sha256": "66931de4394d38b23efdaa5f4b1f342a2677e950c4db3a3e7b7eddba7654cedf"
+    },
+    {
+      "id": "coalesced:ca1dda3c0dbc904007137b3b6325a1b814013c83731cf64eae8eaecf19a04aa5",
+      "section": "Zephie_Style1",
+      "key": "Skill_d_224",
+      "source": "성스러운 바람의 수호자를 소환하여 강력한 파동포로 적을 공격한다.",
+      "translation": "召唤神圣的风之守护者，以强力波动炮攻击敌人",
+      "source_sha256": "1a03df9b7dd265bc2950630ba02d1a32faa6606e1f5d7981ca7d5cecad878d34",
+      "translation_sha256": "5192cd9c27c7bd5c9e03a90dc244ff517980eb82876f4e4080fa1de877f2289e"
+    },
+    {
+      "id": "coalesced:8acf51158005be3d059adfd0dec281a327684f6fe81df3acc05af8fe661e0020",
+      "section": "Zephie_Style1",
+      "key": "Skill_d_224_Battle",
+      "source": "성스러운 바람의 수호자를\\n소환하여 강력한 파동포로\\n적을 공격한다.",
+      "translation": "召唤神圣的风之守护者，\\n以强力波动炮\\n攻击敌人",
+      "source_sha256": "53e8037f0a8a5bcbc211d0b8e3c2899e480f171e1301a0cc1adff94d245d5ebc",
+      "translation_sha256": "bb4d0a1cdff56fcd5fb49ad814d82017228ffe9913c1ef7c22c529e36f0df8a8"
+    },
+    {
+      "id": "coalesced:e8559f64f3add3d8229d5a7263323809857f8c0adca8e3b6cf387b5e622b3d48",
+      "section": "Zephie_Style1",
+      "key": "Zephie_Skill10",
+      "source": "더 라스트 프레이",
+      "translation": "最后的祈祷",
+      "source_sha256": "cca52a12ca033b47a0312c46429d8cb780f0263b2395ac713b8e6997797f446d",
+      "translation_sha256": "22353af5dfddac162c3452c71dd5e4118bca317d3c5a4b3f3e1f286d65253e31"
+    },
+    {
+      "id": "coalesced:3fcf9350d28929225f099031249684c9a51bf9be3aa25a798f805313eb2d1249",
+      "section": "Zephie_Style1",
+      "key": "Skill_d_225",
+      "source": "태초의 성스러운 파동과 일체화 하여 적에게 돌진하고 큰 대미지를 입힌다.",
+      "translation": "与太初的神圣波动融为一体，冲向敌人并造成巨大伤害",
+      "source_sha256": "6b73a9ba12918edcdaa29f2aae66695531d6653f3f821b96a9f43e788a5032a8",
+      "translation_sha256": "172732cf1951998ac0e950977790a2ae163eb3b59b949ea2152c75d3d43139cf"
+    },
+    {
+      "id": "coalesced:a99617e9bb8607d54a06d8b9fbd1d14a6fa62341cfddc6e6def40f87c8c75629",
+      "section": "Zephie_Style1",
+      "key": "Skill_d_225_Battle",
+      "source": "태초의 성스러운 파동과\\n일체화하여 적에게 돌진하고\\n큰 대미지를 입힌다.",
+      "translation": "与太初的神圣波动\\n融为一体，冲向敌人，\\n造成巨大伤害",
+      "source_sha256": "d59ed97083110e626fa9e044a9ca450eac0819c2320e7a91d7098f68273a9fd0",
+      "translation_sha256": "566f4be9bdb25a4fc5d57b704c02d7abc69e90917d02c48696a35ba00c70a15e"
+    },
+    {
+      "id": "coalesced:c9240b42e411211a9c0f312e339f66331ad24d564b792fa72ebfb951301ce4c0",
+      "section": "CSMB10_20",
+      "key": "voc_csmb_1020_00",
+      "source": "이게 어찌된 일인가?",
+      "translation": "这是怎么回事？",
+      "source_sha256": "b05ec78bda5a4f2fe524f3daa347184e99e53d45294cb15e0f5664052bf0609d",
+      "translation_sha256": "08e545989257e136c6ce8c9aca520fb1c8d22601567692bb4ad22800388f425d"
+    },
+    {
+      "id": "coalesced:fe4f876fdf7a43280d1fdf8d992f808b4973822a35fedf1e43ff657d0938c57d",
+      "section": "CSMB10_20",
+      "key": "voc_csmb_1020_01",
+      "source": "설명하자면 길어요, 족장님.\\n어쨌든 주토 오빠가 큰일이니까\\n빨리 치료부터 해야 돼요.",
+      "translation": "说来话长，族长。总之，朱特哥哥的情况很危险，得赶快先为他治疗。",
+      "source_sha256": "b5052375e4d960b201d109cc90e5a4ed91b12de19b606cc6b591a2c63230f363",
+      "translation_sha256": "2a37ff6e7560f2acfe1ea590c9e3e2498bc802aa02db0200eb4a8fe4fa0e8ede"
+    },
+    {
+      "id": "coalesced:02dc3d310e2ea4c94824adb8c6adda05bad974d7d29a36a38601073de2b43ada",
+      "section": "CSMB10_20",
+      "key": "voc_csmb_1020_02",
+      "source": "엘가...아니, 주토!\\n어쩌다 이렇게 다친 거죠?\\n대체 무슨 일이...",
+      "translation": "艾尔加……不，朱特！怎么会伤成这样？到底发生了什么……",
+      "source_sha256": "8343e6f4af71923c12e09ec0570aca88d42f1e6025511170dde967e03d77238c",
+      "translation_sha256": "b13616ad2041269292b8bb585ca7fb834cde9b18614dd8821e0ff0be1b94c5f1"
+    },
+    {
+      "id": "coalesced:036a9d883201a0e21f04a27e451376ce6b4b97f2cedf03623cb7e33a2e1a3c20",
+      "section": "CSMB10_20",
+      "key": "voc_csmb_1020_03",
+      "source": "어? 아저씨, 우리 마을에 와 있었네?",
+      "translation": "咦？大叔，你已经来我们村子了啊？",
+      "source_sha256": "db96af0cbf563c3deb63fac50e2f0c2f4433f1f1aa7ffe3540783455808f896a",
+      "translation_sha256": "f70a7f9730eefe80010ef00bee1ad40739127642eef99fae31728e9f84f1f554"
+    },
+    {
+      "id": "coalesced:fe38040a1e9175734e44b6a3f0c058714031e8d2af1c4ef53d2c6481b08b2a29",
+      "section": "CSMB10_20",
+      "key": "voc_csmb_1020_04",
+      "source": "무사했군요.",
+      "translation": "你平安无事啊。",
+      "source_sha256": "9ffc28bda68505849dff64ea0a286795d8b7489fea545516abfcb5ddda6da495",
+      "translation_sha256": "940f9279994588824e005c66ab616bf1409e3c60dee67c3810906156e38607da"
+    },
+    {
+      "id": "coalesced:d514fb5b60e16a4be1d39ebba48e0fbffa6e66e8b4f5ceb26a18cdf78bb80d92",
+      "section": "CSMB10_20",
+      "key": "voc_csmb_1020_05",
+      "source": "네, 여러분 덕분에 다행히 코타마레까지 왔습니다.\\n어, 그나저나 주토는 어떻게 된 거죠?",
+      "translation": "是的，多亏各位，我才平安来到了柯塔马雷。不过，朱特这是怎么了？",
+      "source_sha256": "4be0c1a6cfe39c7eb107673fca9c7d95912a90ed0eb871a265c018abc5efce16",
+      "translation_sha256": "b9e2b6b898375ebf19e4842c18bd2c388614dcb48e70cfc64773bc47090df6c9"
+    },
+    {
+      "id": "coalesced:e57565ac59105acc84cb4a1c4b0d511dac683346e3e266d938ed09993047b2bc",
+      "section": "CSMB10_20",
+      "key": "voc_csmb_1020_06",
+      "source": "설마 이 상처...\\n슈엔자이트의 명령을 거역한 겁니까?",
+      "translation": "难道这伤……是因为违抗了修恩扎伊特的命令？",
+      "source_sha256": "2e0e4f601cecdfc7f08a1500dbc945ea71dcbfeba82dac2fee824372acd349a6",
+      "translation_sha256": "1c45d24471a0dc190336feb992bfca5968878af3be726510cef316e8cee675b7"
+    },
+    {
+      "id": "coalesced:c1a7c3e66eee04b2606bd787daaa2673ed2b96dc874de0de3c8fb33dc0f39c75",
+      "section": "CSMB10_20",
+      "key": "voc_csmb_1020_07",
+      "source": "당신이 그걸, 어떻게 아는 거죠?",
+      "translation": "你怎么会知道？",
+      "source_sha256": "419a5a4dcf6967458c33c92d1393ade5dfa70f354d9f89529c5f2766e1ee0020",
+      "translation_sha256": "749e94de1efd67762e400ce5503b38e6f137673520744bd6c086320339164f07"
+    },
+    {
+      "id": "coalesced:a52d6254a973cc578d3aea22987a58c4e62459461385397d0785007f752c2a94",
+      "section": "CSMB10_20",
+      "key": "voc_csmb_1020_08",
+      "source": "마스터의 명령을 어기면...\\n화상을 입게 돼 있으니까요.",
+      "translation": "因为违抗主人的命令……就会被灼伤。",
+      "source_sha256": "7eae05c17230aa8a684ce677db6569897c7899451f51800200a99511b2bdd112",
+      "translation_sha256": "a91edced559107c8422b1a29aa4ea66a6f9fb983342d2561aeba3f30514d790c"
+    },
+    {
+      "id": "coalesced:f35df0c46102f47142cb8a20f9c39422aca6da3412a75b1ff5142100a9dcf0ea",
+      "section": "CSMB10_20",
+      "key": "voc_csmb_1020_09",
+      "source": "일단 제가 좀 살펴보도록 하죠.",
+      "translation": "先让我看看他的情况吧。",
+      "source_sha256": "fa1f94d47c40e0aab5132fc27ac431f357a3a91aee9f9a0d7461330f2b1f66ce",
+      "translation_sha256": "ec8eba9e0f594265ec6b343f37b00f7c05417def73a8e1267b8d46993f4800c8"
+    },
+    {
+      "id": "coalesced:227b1f30aeaa3c4ed7ef8eadae3cd1bc413071fbbadc10305f66304764178674",
+      "section": "CSMB10_80",
+      "key": "voc_csmb_1080_00",
+      "source": "으응...",
+      "translation": "唔……",
+      "source_sha256": "3b0d9826e4237e54d8df9853c1c3951be03135aa45e5e5a7181f7090ba9eda9a",
+      "translation_sha256": "57a4e1df408b325e7498dd0dbd16dfa65e96cd654a4bab6bba7b78f0a47f36a6"
+    },
+    {
+      "id": "coalesced:7b3d5bee6d16cc311b60ed2197725f340afab67d6e2bdc28d27ec76de72841d3",
+      "section": "CSMB10_80",
+      "key": "voc_csmb_1080_01",
+      "source": "자식, 참 빨리도 일어난다.",
+      "translation": "你这家伙，醒得还真“早”啊。",
+      "source_sha256": "da4a3cc45adb51c01c8e5113527e57c51f2942bdbc27c532d76d7d1978899ae3",
+      "translation_sha256": "a069f9dfe3fa4c067367d77243d89ee3ad2bfe014065061974a17db80d05cbc2"
+    },
+    {
+      "id": "coalesced:3a43ad138fa5576bf615cbfd5ffcf0a5e62916fab40473f17f5ea74723836f3f",
+      "section": "CSMB10_80",
+      "key": "voc_csmb_1080_02",
+      "source": "여긴...?",
+      "translation": "这里是……？",
+      "source_sha256": "671153f0bb5ceb0df1339b3f53a62ba110859e5cacde55f8db8fa8d0de575b9b",
+      "translation_sha256": "1ef67d2448e46c703b7ee203a67ff07d728fde066e285bb58cfcd229c10aecb6"
+    },
+    {
+      "id": "coalesced:34cbf9051bc00eae18cda65545d890f91b571a5374350f38bf898cc855e61ad8",
+      "section": "CSMB10_80",
+      "key": "voc_csmb_1080_03",
+      "source": "코타마레야.\\n무사해서 정말 다행이야, 오빠.",
+      "translation": "柯塔马雷。哥哥，你能平安无事，真是太好了。",
+      "source_sha256": "a8802022076ef89b4c4a632097f0caa26eac00b8391a603b50d67c0e706828b2",
+      "translation_sha256": "62a9642f8ccd5319bdc77481c371c52f445b241447deb02b9f298cec90f47eb2"
+    },
+    {
+      "id": "coalesced:b27c806645adba837a0311e03fe440df5375cdc3ec44ed4cab24c0592359eaf3",
+      "section": "CSMB10_80",
+      "key": "voc_csmb_1080_04",
+      "source": "그나저나...너 머리색 한 번 끝내준다.",
+      "translation": "不过……你这头发的颜色，还真够厉害的。",
+      "source_sha256": "60d475661e6e9c21b3b3854a6c9c91d5b83d3f2c7a47161f15df71364cf7ae4d",
+      "translation_sha256": "ca130e8ea7be5bd81f1b2ee5d55b7ca8dc8b3a06efb8466f13da5e5a61c4e664"
+    },
+    {
+      "id": "coalesced:95bd7dbee7dbf4560c71ade17dbc2d1fa225efcd951c66795740d00f14a41aa6",
+      "section": "CSMB10_80",
+      "key": "voc_csmb_1080_05",
+      "source": "뭐...내 머리가 어쨌는데?",
+      "translation": "什么……我的头发怎么了？",
+      "source_sha256": "d5b95af8d31b45257294393a90c24e2449d6c7c7e4285b0b47f1a7c1a1fec0d5",
+      "translation_sha256": "c10297030354a94206b290090f786b372fce2c4acbeb8a1bb014dcb5f87e1fbd"
+    },
+    {
+      "id": "coalesced:0167da29a0ebe39618358ede789af9dc6f9a635b3c3c48219a0b8d99cae0ac2c",
+      "section": "CSMB10_80",
+      "key": "voc_csmb_1080_06",
+      "source": "과거를 넘어 죽음을 극복했다는 증거 같군.",
+      "translation": "看来，这是跨越过去、战胜死亡的证明。",
+      "source_sha256": "c1fc82e71687ddb55436aeff2905c5fd9f937f1c0548fe087576d51961bb9d28",
+      "translation_sha256": "9a45d16b89e0f24460dea7a020b097408804f5778af81a0d68ca1e24ee6707b2"
+    },
+    {
+      "id": "coalesced:252bbcd95993cc0833e16622522b21554e720a71edebbba8234cc5edc73791d9",
+      "section": "CSMB10_80",
+      "key": "voc_csmb_1080_07",
+      "source": "멋있어, 오빠.\\n머리가 새하얘.",
+      "translation": "很帅哦，哥哥。头发变得雪白了。",
+      "source_sha256": "0a7a952ced81f84f34dd0c181596fb137e048c691a12c208563ef9d86ef84d8b",
+      "translation_sha256": "50fe706a3ab565b763dad3bf39722c22e2233a2a21a664cbe3cb88d6b1aa65e7"
+    },
+    {
+      "id": "coalesced:2bc2fc8e24cd6843fc2dfe47e978297e555a15ca0a2d1d3f2a2937f44e8230d1",
+      "section": "CSMB10_80",
+      "key": "voc_csmb_1080_08",
+      "source": "꼭 영감 같구만.",
+      "translation": "简直像个老头。",
+      "source_sha256": "c841f15e10eadb08b1224421b47467148bec73481933a0c513db98b3cc164dd2",
+      "translation_sha256": "a4fb6e3ca9779ef6fcd46c760d8b08d4257eea7471530fb3a9b8ddf4294367e8"
+    },
+    {
+      "id": "coalesced:f4bde07dfbf6a5bd806f16122fc9141d9cb9a49894226ffd3b60b02cab2f06c5",
+      "section": "CSMB10_80",
+      "key": "voc_csmb_1080_09",
+      "source": "하, 흰 머리라...",
+      "translation": "哈，白头发啊……",
+      "source_sha256": "9b234662488847296e08c426c60988ef5400117f03bd5e82b8eeda15841e33fb",
+      "translation_sha256": "ee21dc9fdbf96638ac13675bf1a2ac5e73fa7875cfd61848e53706fce477e12a"
+    },
+    {
+      "id": "coalesced:98bf1304178882886ed9d69138f02a4380d0007afbf2b68bbfd1b209f8a9953b",
+      "section": "CSMB10_80",
+      "key": "voc_csmb_1080_10",
+      "source": "몸은 이제 괜찮으세요?\\n움직일 수 있나요?",
+      "translation": "现在身体没事了吗？能活动吗？",
+      "source_sha256": "91c5cf55affce57857e27749cdb20a4cac6349616a5bccbbffc36d6a7851fd70",
+      "translation_sha256": "e5eed794882a70d9543ce816b29eb08dbfb57815ceabb31020dbce55ec8beb0c"
+    },
+    {
+      "id": "coalesced:194e140d0f313f66cccc23354ee2ba351f52d3d33b0bd1aa658858e86694da80",
+      "section": "CSMB10_80",
+      "key": "voc_csmb_1080_11",
+      "source": "어, 괜찮은 것 같아.\\n...닉스도 무사했네?",
+      "translation": "嗯，应该没事了。……尼克斯，你也没事啊？",
+      "source_sha256": "684b1dfabece3463bf787863672e941aabeb606c889a34c4280ba7b067a24ab9",
+      "translation_sha256": "b9afc1d47d26cb4b2c5e4d6614a06aa5b3be2a0ab55f1576dcff8be34796f8a7"
+    },
+    {
+      "id": "coalesced:7d51c227dc200cb462493debf17997573775920a5c0fc0c3067f6fb2ad2e8ecb",
+      "section": "CSMB10_80",
+      "key": "voc_csmb_1080_12",
+      "source": "네. 여러분 덕분입니다.",
+      "translation": "是的。多亏各位。",
+      "source_sha256": "e59f910b9fa6e839024af230246271649ecfd5c04d0c880fe55934327f78ebe0",
+      "translation_sha256": "d8e9c9e7b2c65206978bf5850e840fbf59420e6f2073886913543999161b68d8"
+    },
+    {
+      "id": "coalesced:8db033f44b31226a85ac8c02f5514bd28c59bc9a0f9de93e82f6ced13473587e",
+      "section": "CSMB10_80",
+      "key": "voc_csmb_1080_13",
+      "source": "왠지...오랫동안 자다가 깬 듯한 기분이 들어.",
+      "translation": "总觉得……像是睡了很久，才终于醒来。",
+      "source_sha256": "18a6b767ed45687dcf92f0da7d0f3eea9cfa4f73c39687c414afd97c981020db",
+      "translation_sha256": "4bac434e6165b8c2637d9a83fb709676dfc37761308b844cd48bc4eb977ddeaf"
+    },
+    {
+      "id": "coalesced:9286e2cd27e6ec73e8123724579d4e0229418599fad68c4190ea52d8517d21a2",
+      "section": "CSMB10_80",
+      "key": "voc_csmb_1080_14",
+      "source": "열심히 주무시긴 하더군요.",
+      "translation": "您的确睡得很沉呢。",
+      "source_sha256": "19672e1c44612348eee58b1d2fa811742f8613e56890826b0d74be71f7b94e35",
+      "translation_sha256": "6c9e4abff066243d3a1174fd96550729b8f9a2c57e9971307d1a3479cc9cdada"
+    },
+    {
+      "id": "coalesced:4aad592d8d42b67f0d030fed6c5393dee424391e950173141206a4ee1f4381a7",
+      "section": "CSMB10_80",
+      "key": "voc_csmb_1080_15",
+      "source": "......",
+      "translation": "……",
+      "source_sha256": "895361ffbf88d5a8c40d47f8dd3d03df2042ca9360d08738bcbb4faa39495404",
+      "translation_sha256": "a7f878b8ced1a7957c560d573e30ddbbc1696e38c370513aacbbf4bff12e7f43"
+    },
+    {
+      "id": "coalesced:a7b8b0156f30d6b82b78f3fa784dd1ca0fa0abe9563424b7422c67af87b9ef2b",
+      "section": "CSMB10_80",
+      "key": "voc_csmb_1080_16",
+      "source": "하여간...걱정만 잔뜩 끼치고,\\n모처럼 구하러 갔는데 억지나 부리고...정말 너다워.",
+      "translation": "真是的……让人担心得要命，好不容易去救你，你还那么任性……真像你的作风。",
+      "source_sha256": "8194459091322223024e794cafcbfa14c1044be700c74c237d033a92c52302ce",
+      "translation_sha256": "02c4a1f0d93573a111b39f8d0aa6f57ccfc84d341da1eee2f011b1b73352104a"
+    },
+    {
+      "id": "coalesced:f56185320c576d5a48fc452f6b48af30ba3b26919ef10f79f5ca6ec3de43177e",
+      "section": "CSMB10_80",
+      "key": "voc_csmb_1080_17",
+      "source": "하지만 안 그랬으면\\n네가 또 슈엔자이트한테 가버렸을지도 모르잖아?",
+      "translation": "可我要是不那么做，你说不定又会去找修恩扎伊特了吧？",
+      "source_sha256": "1f879ad9494711c719cbf6920a2f824d49e6465ff607021b5e7b0c0bde74f08f",
+      "translation_sha256": "bfa8db83f35c0ca68230f6d8b78a985547943c5dbdefdb3ec087f6b29aaf9288"
+    },
+    {
+      "id": "coalesced:2433c8aa8d34d0bae2141254440805640bab18edfd2cf202d4e255b99567b3c6",
+      "section": "CSMB10_80",
+      "key": "voc_csmb_1080_18",
+      "source": "됐으니까 변명은 그만 둬.\\n명령이야.",
+      "translation": "好了，别再解释了。这是命令。",
+      "source_sha256": "88150550bd0dc28f5dfebdfa8f4e47038fb0582f30f2f5a0d933785e021a7d02",
+      "translation_sha256": "13275cac20ed496f2a2a166176e9e3a7671cbdf494fb14ca7716131c22cf8061"
+    },
+    {
+      "id": "coalesced:d8ddb5e5ef51798af8d04340719347179d7e18730728a8bfbe93d08c8da0625c",
+      "section": "CSMB10_80",
+      "key": "voc_csmb_1080_19",
+      "source": "뭐야, 내가 그렇게 말 안 했으면\\n너는 또...읏!",
+      "translation": "什么啊，我要是不那么说，你又会……唔！",
+      "source_sha256": "5dcb8e5d0779e6620d401183d3db80dd7d0d4a3532bd069ab9a17ff317a3190f",
+      "translation_sha256": "3c8a4a4de401518b6de9fc8f68cac8e9233c850ef9c0d6f718f22c9a34dc16d2"
+    },
+    {
+      "id": "coalesced:8b307386dda7d954a533f3e24c585669cb9e53b620744ae06289262cc33eb450",
+      "section": "CSMB10_80",
+      "key": "voc_csmb_1080_20",
+      "source": "주토!?",
+      "translation": "朱特！？",
+      "source_sha256": "37c1660339123d1e743c5cd49a36851311770fcf04b4a940d317823c0f76906d",
+      "translation_sha256": "7816cb34a3e3f4fc014e1c46ece2d2bf04a1b88ed06a4163402872b9b1c58c1f"
+    },
+    {
+      "id": "coalesced:e3a5f3373d7ecec3088343a3df2103b448d8665b378aaad43a8920cd58f893da",
+      "section": "CSMB10_80",
+      "key": "voc_csmb_1080_21",
+      "source": "뭐지? 지금 주토 오빠 손등이\\n파랗게 빛났어!",
+      "translation": "怎么回事？刚才，朱特哥哥的手背发出蓝光了！",
+      "source_sha256": "ea9afeb2a658388b4d7c23e41853cce75dd62dae5ad34fe1417f4a5eb8c28f6c",
+      "translation_sha256": "0ffdf9660e9ca73637359b88024c035c8953aa74dfb41724ea6231583a2f28e5"
+    },
+    {
+      "id": "coalesced:d7f82f64c41e0c1698f08b0606f6f097f8f9cc5e885486dc100766888a58b0aa",
+      "section": "CSMB10_80",
+      "key": "voc_csmb_1080_22",
+      "source": "아, 저, 그건...\\n이제 공주님이 주토의 마스터라 그렇습니다.",
+      "translation": "啊，那个……是因为，如今公主已经是朱特的主人了。",
+      "source_sha256": "a298b82775d90ae5d503dd9aa3cb167d588fb6598163d3d761254140117f16f0",
+      "translation_sha256": "591377de6b8f9d90be9f52aa4c22089fe9cb75584d6dd04d573e7f436fc31ce9"
+    },
+    {
+      "id": "coalesced:9d1415f321013714a762547f8ff1f9da08eedaf54ef03f9b985ebf0eaf28156a",
+      "section": "CSMB10_80",
+      "key": "voc_csmb_1080_23",
+      "source": "그게...그게 무슨 소리야?",
+      "translation": "那……那是什么意思？",
+      "source_sha256": "892b43ae331decb43ebd611d91e7748fc9e0bf713254a2bf1cbaea694050da77",
+      "translation_sha256": "90e481bfb97c2d3dba5479b20af2345fd479ef119ffb9aeb91dab520be6ea794"
+    },
+    {
+      "id": "coalesced:5550ba5bec044f5a25ffb4a6c2a67823694e343f96f509871aa55a1e4a7544df",
+      "section": "CSMB10_80",
+      "key": "voc_csmb_1080_24",
+      "source": "당신의 마스터는 슈엔자이트에서\\n공주님으로 바뀌었습니다.",
+      "translation": "你的主人，已经从修恩扎伊特变成了公主。",
+      "source_sha256": "d27bc6d993b755054b5846d796325cd9d6303838284e8749d62b356bcf9a1504",
+      "translation_sha256": "1b3af11c220d23b19067eb927d7fbf6a687ba6323d0925aa69db1af424693ee7"
+    },
+    {
+      "id": "coalesced:2fb4d0e76499b35c7c71b8e39c9d9016cca91370b57c036e0fe727df6c3b932b",
+      "section": "CSMB10_80",
+      "key": "voc_csmb_1080_25",
+      "source": "공주님이 당신을 구해준 덕분에\\n그렇게 된 거죠.",
+      "translation": "因为公主救了你，才会变成这样。",
+      "source_sha256": "5d692c11715999370835845bdc529bf154496e42852432619099c6883273645c",
+      "translation_sha256": "169f6dfde6e7b86056a9685d6b07df0c27198b07f81ec46741d8611fa76a1b45"
+    },
+    {
+      "id": "coalesced:3a18a69815ae802ccd9961aa5186d29e8456cabce4e0e1b5f7117ecac5c6dc00",
+      "section": "CSMB10_80",
+      "key": "voc_csmb_1080_26",
+      "source": "그러니 앞으로 공주님의 명령을 거역하면 안 됩니다.\\n잊지 마세요.",
+      "translation": "所以，今后不能违抗公主的命令。请务必记住。",
+      "source_sha256": "a2073db78f03cd1bf3748a8b3af6157f133e4998e7df32cdf9de8ba2cd48a50a",
+      "translation_sha256": "205d7745574092f9a10d937e7683cc8aaf132f64cb0f134b57cfeb289d0a743b"
+    },
+    {
+      "id": "coalesced:b09690b72ec19624a1469a15ebf3b12ed8985cdd947e726e8f3b1df935400b9e",
+      "section": "CSMB10_80",
+      "key": "voc_csmb_1080_27",
+      "source": "그랬다간 슈엔자이트 때와 똑같이\\n몸에 화상을 입게 되거든요.",
+      "translation": "不然，就会像修恩扎伊特那时候一样，遭到灼伤。",
+      "source_sha256": "37d02dca08bbb54965dc26e4f430e68b8a13d980bac7365664a619809eaeebf5",
+      "translation_sha256": "11a1380c6c01f043f902f43bc3a9db2530e9aa798e900b54e29f0c16bed83621"
+    },
+    {
+      "id": "coalesced:eb4714d4e47f9c01b9ee42951a2915412d5fae5e716d8b3c2639090e9be14490",
+      "section": "CSMB10_80",
+      "key": "voc_csmb_1080_28",
+      "source": "뭐라고!?",
+      "translation": "你说什么！？",
+      "source_sha256": "5306a58302dbc4812fbe574bf43e4802a2a5a58cda67e1343f7848b844613285",
+      "translation_sha256": "d23594e12b8f02dea3cc8a6d2816bbde0eb12931fb1a8b09f1838c16d432bb88"
+    },
+    {
+      "id": "coalesced:5a82e4dd78feaa5c9eea136a2ff05faaf185efd2e0afc69dac96db8ff8699bbb",
+      "section": "CSMB10_80",
+      "key": "voc_csmb_1080_29",
+      "source": "미안하지만 그렇게 됐어.\\n다 널 살리기 위해서야.\\n어쩔 수 없었어.",
+      "translation": "对不起，事情就是这样。都是为了救活你，实在没有别的办法。",
+      "source_sha256": "2e6f96ade9ff683619b02dddbce07a7f488e7aee4b92d0b7383922fb91cfc8d4",
+      "translation_sha256": "7df62e82b94441b9764a9944a65d9ea10206c13681bd200bacd26f62e4a2511f"
+    },
+    {
+      "id": "coalesced:cbb57a399936cef2bc5b6abbf7373f2d0ccbb1c291dc18eed730c0518f3d4161",
+      "section": "CSMB10_80",
+      "key": "voc_csmb_1080_30",
+      "source": "하지만, 그래도 이건 좀...",
+      "translation": "可是，这也太……",
+      "source_sha256": "b52378c31deeb7f2b211673aa3519190b6ed12fa4213a62de1f5d4832b446a5c",
+      "translation_sha256": "b8feccd7b28477776e8bb77df99a70d5d81d187d2879639ab2809d14adf4479b"
+    },
+    {
+      "id": "coalesced:e4764e33164eb69d2436b501d72722902afb336a6de787841552f86ac2aa6717",
+      "section": "CSMB10_80",
+      "key": "voc_csmb_1080_31",
+      "source": "공주님, 이 참에 이 녀석 버르장머리를 고쳐놓는 건 어때?\\n이제 시키는 대로 다 할 거 아니야?",
+      "translation": "公主，不如趁这个机会，好好改改这家伙的坏毛病？现在叫他做什么，他都会照办了吧？",
+      "source_sha256": "7cf6c1476aa36d2f91ce6e7a999fa3b706c89d8853b4a2e7c9ce3cda5a1cb0ba",
+      "translation_sha256": "bfe9a60126fac8aa7e5de171a85000e0ebf9a22012fc97435f410de3d7b9610f"
+    },
+    {
+      "id": "coalesced:52bd99c21be890c304aecfdb48bb4fd22f7971ac25210202fef9a4102607a092",
+      "section": "CSMB10_80",
+      "key": "voc_csmb_1080_32",
+      "source": "하긴 그동안 저지른 잘못을 생각하면\\n평생 종으로 부려먹어도 시원찮을 판이죠.",
+      "translation": "确实。想想他过去犯下的过错，就算让他当一辈子仆人，都还不够。",
+      "source_sha256": "223da1afe6aeecb36d8c96442f98e63a549b903c5bbaa5917b00e23fb21a703f",
+      "translation_sha256": "afcd83e740635ce4575be54668bbf5e51517723ad0b09654dee7a8887e5aeb95"
+    },
+    {
+      "id": "coalesced:54ab6c0d36b6956b5e4e8c4f574c69a1af4fa3ecccb4b2dd909a8de98beaeb6b",
+      "section": "CSMB10_80",
+      "key": "voc_csmb_1080_33",
+      "source": "루, 너까지 그러기야...",
+      "translation": "露，连你也这么说……",
+      "source_sha256": "c72e7908fc488298351ddfbceb96d3a6ab507e640f1160459d11aba3bb0c9fbd",
+      "translation_sha256": "d30d10127a6b65ea70b9b9f010bdc88b5c7831769aaf3e996e05c6255f695664"
+    },
+    {
+      "id": "coalesced:b529443bb00ef0d2c7423a919455c6c984d214acd54c7a36556a3935cd97e68d",
+      "section": "CSMB10_80",
+      "key": "voc_csmb_1080_34",
+      "source": "하하하!\\n오빠, 하얗게 질렸네.",
+      "translation": "哈哈哈！哥哥，你脸都白了。",
+      "source_sha256": "8089b0ccbba489e53964dd9191eca6c034416651433e0db8555638c545d91f77",
+      "translation_sha256": "e07fa6a0964fbaa8eb62bb2a66b3aa7f6ffaf49f22a54fcf7cc941deb67c5da6"
+    },
+    {
+      "id": "coalesced:59456485f9a9caa096d056cff9e338eaae45c60df7204fba4f5ff4106c120aa8",
+      "section": "CSMB10_80",
+      "key": "voc_csmb_1080_35",
+      "source": "그럼, 명령을 내리겠어.",
+      "translation": "那么，我要下命令了。",
+      "source_sha256": "a45295dbda0b90594c0eed303de85f396437057b576fafccbb76447feeeae542",
+      "translation_sha256": "84e63050a69afe04715d5e300381e660e4a5a79e838c2fefff21f6c9cdc55405"
+    },
+    {
+      "id": "coalesced:bd6b2ab29494a49a102ffb1fab97c2c6626754d7cb3c861e8a59591359c46092",
+      "section": "CSMB10_80",
+      "key": "voc_csmb_1080_36",
+      "source": "뭐, 진짜!?",
+      "translation": "什么，真的！？",
+      "source_sha256": "8cf2f529c2a6e3a2a2c3c5846e9c6c7b5c9dd9672199de30480a25d75ded30ae",
+      "translation_sha256": "6c65550dd6bc3770bb2ff17b3148e9ee68c73257e00bde307fe3ae884913dd93"
+    },
+    {
+      "id": "coalesced:c347223e8fabae1adee54f3c677256cec50981873aedc5f3008668fed9aad702",
+      "section": "CSMB10_80",
+      "key": "voc_csmb_1080_37",
+      "source": "일단...환자니까 꼼짝 말고 푹 쉴 것.",
+      "translation": "首先……既然是伤员，就不准乱动，好好休息。",
+      "source_sha256": "48cc097e6fa0ebb77a596bff8dc1293bbfca16701085351c4ddf95f4d67c09b6",
+      "translation_sha256": "948e41526fd110b54c834acd7a598ea2b4cd63521b1f3dc88d8f27b51f91b42a"
+    },
+    {
+      "id": "coalesced:01ebb668cc0b6e9e53c4c987655b1e34d6d06dd706c829cf21fe682cb6308395",
+      "section": "CSMB10_80",
+      "key": "voc_csmb_1080_38",
+      "source": "휴우...",
+      "translation": "呼……",
+      "source_sha256": "c64afca3b32a5956616aab6ecda0a2c002bf3aaab1797ed5e803c009dadbbec6",
+      "translation_sha256": "859051e831aa125febaf30affc00b2a41c40ac4b8d2ac6c3e681bad9b0d37a18"
+    },
+    {
+      "id": "coalesced:ca068c418a75d09e18b17377ac4528f0df6afb81d671d87938317901ed5fe831",
+      "section": "CSMB10_80",
+      "key": "voc_csmb_1080_39",
+      "source": "에게~ 그게 무슨 명령이야?",
+      "translation": "哎～这算什么命令嘛？",
+      "source_sha256": "1655a0de406d0ab3f44e7134aab4d5200e5a120bba55100a6d292deafa011e22",
+      "translation_sha256": "772a4207ed0e388e171ba64ce0799819d7b0f542a32482130de1ed1a2bb03696"
+    },
+    {
+      "id": "coalesced:a5bf64dc0a2883c1b2fc7082a03f1e76a3009a9662ce760f3fd5e072edcd7514",
+      "section": "CSMB10_80",
+      "key": "voc_csmb_1080_40",
+      "source": "쉬라니까 일단은 쉬겠지만...\\n혹시 그 사이에 벨포트로 가버리는 건 아니겠지?",
+      "translation": "既然让我休息，那我就先休息……不过，你不会趁这段时间，自己跑去贝尔福特吧？",
+      "source_sha256": "54b9c398dae86a1e3ce0bfda95be16d8103e8296bfb410e64e33a10040b38b92",
+      "translation_sha256": "d6a38cdb9dbc2738c7e1d0f38310800b6f465f29944e3c4376e007b8a2b18450"
+    },
+    {
+      "id": "coalesced:8c1ff28fe98920509298678ac221cd4187d0062b6e23900b5511bc5f2096541e",
+      "section": "CSMB10_80",
+      "key": "voc_csmb_1080_41",
+      "source": "그건 제가 막을 겁니다.",
+      "translation": "我会阻止公主那么做的。",
+      "source_sha256": "b5eec1f3ee1bedcbe2df5f5830a88cdcaac941050bc7c9ac07cb37d5495bbdfe",
+      "translation_sha256": "c63b7ba1d85177176aff3756a4ff02540faffcb6718cf60bbe1028130e21d3a2"
+    },
+    {
+      "id": "coalesced:e76c087874859c4d25963c2626b2c17a5737459f793ab8fa226850f365512686",
+      "section": "CSMB10_80",
+      "key": "voc_csmb_1080_42",
+      "source": "주토 너하고도 약속한 게 있으니까.\\n일단은 그동안 발생했던 전쟁들에 대해\\n조사해볼까 해.",
+      "translation": "毕竟，我也和朱特约好了。所以，我想先调查一下过去发生过的战争。",
+      "source_sha256": "d20170cb98b906462829857987222831b3811140b0afc5b5a438edc23c773d7f",
+      "translation_sha256": "d881fe20ffb5085e09a0508268fa5259af1c04a17bce0ba4c42ebaa3b6246570"
+    },
+    {
+      "id": "coalesced:a9ca05315e9e6c1bd6d5ba24ba923cc7e7a7fdb85b8cc4c41c0379b08e3de6f6",
+      "section": "CSMB10_80",
+      "key": "voc_csmb_1080_43",
+      "source": "뭔가 연관성을 찾아보려는 거야?",
+      "translation": "想找出其中的关联吗？",
+      "source_sha256": "f7a7717df5fc4aa696836932724a9a63df9083c9a5155963a6c8bacf06ec9b0f",
+      "translation_sha256": "4c15a00615bc26d6c776e5e101b5f79df658c96b745abeebc2fd12b522058f6e"
+    },
+    {
+      "id": "coalesced:cf378cccd165e0fa2d2c054a7d6fd20ebb20318ac041a3af15721424f4de5e3c",
+      "section": "CSMB10_80",
+      "key": "voc_csmb_1080_44",
+      "source": "응. 과거에도 재화종이 내린 적이 있으니까\\n옛날 기록들을 조사하다 보면\\n뭔가 정보를 얻을 수 있을지도 몰라.",
+      "translation": "嗯。过去也降下过灾祸种，调查古代记录，说不定能得到什么信息。",
+      "source_sha256": "a049bdc44487d09be6ace92df156e6037823175afc0cbb55061ca9abbcdbf634",
+      "translation_sha256": "b78bf95f3fce206d994853182d3aedd7dddda3392064babbae18cd617fc95c42"
+    },
+    {
+      "id": "coalesced:16ce2fd6cff6be7db93b114389af118ede795d25deac21bfdefc1bd92f374624",
+      "section": "CSMB10_80",
+      "key": "voc_csmb_1080_45",
+      "source": "게다가 코타마레는\\n스트라스 님의 반려였던 아셀리나 님이 사셨던 곳이야.",
+      "translation": "而且，柯塔马雷是斯特拉斯大人的伴侣，阿塞莉娜大人曾经生活过的地方。",
+      "source_sha256": "de3116889a8756f6d8bc1ac6accc8e6eb5dc3fa9f03df18a55e750c912acfb87",
+      "translation_sha256": "4aba5766614374db89df9afa56f69b4dc34ac0e68345fc53aa4a7d68ff3b754b"
+    },
+    {
+      "id": "coalesced:b5608832aa7b5c4e4fd58197504f2c3ff1ffe76299c4117ff069072b8798feff",
+      "section": "CSMB10_80",
+      "key": "voc_csmb_1080_46",
+      "source": "덕분에 카르타대전 때의 기록도\\n어느 정도 남아 있는 모양이야.",
+      "translation": "因此，似乎还留有一些卡尔塔大战时期的记录。",
+      "source_sha256": "d9e0c236db89b8007d3a9f14ce5796b877bb70468dc461d658ca38edfd593891",
+      "translation_sha256": "7c083e9cf192b39be0867487486afc9bad7e7057ca9c5096bf2d0e0ff34120ae"
+    },
+    {
+      "id": "coalesced:f0b7877a2bf042e04723294e6c7ede55a9c12812c930aa9d592ce165cafc1f03",
+      "section": "CSMB10_80",
+      "key": "voc_csmb_1080_47",
+      "source": "그 밖에 마레들이 기록한 자료도\\n있다고 하니까 도움이 될 것 같아.",
+      "translation": "另外，听说马雷族自己也留下了资料，应该能帮上忙。",
+      "source_sha256": "570da2f2fa3d2dc876de1faefaeda63b72e218abb43f91068b4eae34b12833a2",
+      "translation_sha256": "d51f37b2c77e0906ac028ff4396be814c64bb64f82962bb59799fb2066d6cf8c"
+    },
+    {
+      "id": "coalesced:50d4f2a3ab92731b86faaa6fff882ad9aa3d4164f3bac18e871c0d9bd2e8d775",
+      "section": "CSMB10_80",
+      "key": "voc_csmb_1080_49",
+      "source": "그래. 꼭 다른 방법을 찾아보자.\\n절대 이대로 끝낼 순 없어.",
+      "translation": "嗯。一定要找到别的办法。绝不能就这样结束。",
+      "source_sha256": "d74a30cbfe6017f4d8a7eb01462d5771ccc13e857e1bf64c012c01486f9fb891",
+      "translation_sha256": "f2b0bf9e9f59dc1cbc3942263147a2deb122b5f1cb0e2de1dd69b01fa43993e2"
+    },
+    {
+      "id": "coalesced:5297d9c94ace2a9978ab37b3272a27cfe68aa5aa06473e15749de586cd84c036",
+      "section": "CSMB10_80",
+      "key": "voc_csmb_1080_50",
+      "source": "그럼 내일 족장님 댁에 가보자.\\n자료들이 어디 보관돼 있는지 아는 건\\n족장님뿐이거든.",
+      "translation": "那明天去族长家吧。只有族长知道，资料都放在哪里。",
+      "source_sha256": "1655d672cc64c4e9bb9a5b12d453b5ca3ec89454c2d14a4bce824e670bb45520",
+      "translation_sha256": "ab99193979ca9610337797669242ca88dec62344e24233a0a1a472e56f1fd4e8"
+    },
+    {
+      "id": "coalesced:b5d545a4b6bd1334f464f56374e48392d58839338362906c13b7e762bb15d9a5",
+      "section": "CSMB10_80",
+      "key": "voc_csmb_1080_51",
+      "source": "내가 엘가란 걸 알았을 때\\n많이 놀랐지?",
+      "translation": "知道我就是艾尔加时，你很吃惊吧？",
+      "source_sha256": "3dfa858be5466905c4874b5bc92b2d2368dda7787b54bd35037a5b9d4e512dab",
+      "translation_sha256": "cd45cd90276560cf5315d733be0d6eccb77ab876ac4c7296aa9139b073cb80c8"
+    },
+    {
+      "id": "coalesced:a1f99e0f7a96087be6cc8a3d56b1354dc139e767a3d7796111aee1c6950df53f",
+      "section": "CSMB10_80",
+      "key": "voc_csmb_1080_52",
+      "source": "응.",
+      "translation": "嗯。",
+      "source_sha256": "8025c713f26164a6787608a6cbce1b8ac0cfe963a42e1416578db60193e95224",
+      "translation_sha256": "5c7a9f97adb5bed9d4c6aca666dffd0e37fda970ebcfc2c8c0060523a483e295"
+    },
+    {
+      "id": "coalesced:9d214d17502996e86f2780ea003e6bf078bcd4e9d41193b3890428f11263549f",
+      "section": "CSMB10_80",
+      "key": "voc_csmb_1080_53",
+      "source": "두 번 다시 네가 날 보지 않을 거라 생각했어.\\n그래도 할 수 없다고 생각했고.",
+      "translation": "我原以为，你再也不会见我了。也觉得，那是没办法的事。",
+      "source_sha256": "ccc4f8eb1595896be7ddb96813fe170cf16f222ae76aba1eab077bcbd3785ba5",
+      "translation_sha256": "0f994168fee532e0b5f4fcd1985f748155d3716667aae16c4a9a80337f979969"
+    },
+    {
+      "id": "coalesced:6f56984e90bb303f8e4240088c9504bd791a33b8f9fbd5100162c505906496f0",
+      "section": "CSMB10_80",
+      "key": "voc_csmb_1080_54",
+      "source": "어째서?",
+      "translation": "为什么？",
+      "source_sha256": "bd720b382a23178f5c6df21de4ac7f7f28e56a8efbb4dd06c78d6a7fa3d06dea",
+      "translation_sha256": "ee2173408f9f3044b3996b0f491f0a70b47af8fe6cce559c323310bfdbe996bd"
+    },
+    {
+      "id": "coalesced:c1375e742f7af913da5e4735ede9d4c4e72f8decd0f65cfc55cc4d98fc58e435",
+      "section": "CSMB10_80",
+      "key": "voc_csmb_1080_55",
+      "source": "너무 많은 죄를 저질렀으니까.\\n모르고 저지른 일이라고 해서\\n용서 받을 수 있는 건 아니잖아.",
+      "translation": "因为我犯下了太多罪。就算是在不知情时做的，也不能因此得到原谅吧。",
+      "source_sha256": "f39e9f2857f1bb2d0951da9e8006b8ea6595bdf07c4ac405c3b7b1cb9c40242e",
+      "translation_sha256": "8a7cc09d1cd4cd0d31a5263e0d8dd6a529b8622ca64f25ddd16a2739d29d5504"
+    },
+    {
+      "id": "coalesced:98a2ee72ba52919318d5a3a10f427ce8b254c46259b4181a72a32744c34a1a93",
+      "section": "CSMB10_80",
+      "key": "voc_csmb_1080_56",
+      "source": "하지만...\\n앞으로는 계속 속죄하면서 살고 싶어.",
+      "translation": "可是……今后，我想一直赎罪，继续活下去。",
+      "source_sha256": "3a7d0b8eca87ccec19759f73ff276175dbc075aacc345ae8a0f2483a897082e3",
+      "translation_sha256": "7d4e2b3fc20adfc364bcc24beb50f83889cdb8006e71f9289d86b836cd71c9c7"
+    },
+    {
+      "id": "coalesced:9c174ca1c1af1101a46bc19f4a5a5eb6837f1e61f23db029f446f207fb27105e",
+      "section": "CSMB10_80",
+      "key": "voc_csmb_1080_57",
+      "source": "날 받아 들여줘서...고마워.",
+      "translation": "谢谢你……接纳了我。",
+      "source_sha256": "ee96491a74dfe0564435ad228c5bca78fdb58bc2f8a5bd71abaddaf5fe5d4cea",
+      "translation_sha256": "26936887196a4159983a5167c450cb564acf971dd35621da5f0520009e48b558"
+    },
+    {
+      "id": "coalesced:a8e73eaec8b980b6aeba47d02d03a6cd851e5c5beea197345ef11a75f4732ebd",
+      "section": "CSMB10_80",
+      "key": "voc_csmb_1080_58",
+      "source": "믿어주겠다고 했으니까.",
+      "translation": "因为我说过，会相信你。",
+      "source_sha256": "867ece0f128af8bb15cf4c043922cf75d92a97f6f0eb80a35268e0baa678c139",
+      "translation_sha256": "7514362e6781bff3f2acf93a0e222ca6211d12649d4cadbe464cc404df5cee7d"
+    },
+    {
+      "id": "coalesced:d808765df2f37edffa512d026fa2bf29d103d0cb5e2e7dce278a4d008de2e09d",
+      "section": "CSMB10_80",
+      "key": "voc_csmb_1080_59",
+      "source": "제피...",
+      "translation": "洁菲……",
+      "source_sha256": "74ab1214f3b0a9ec9ea9bc815533f9c8cf820f6ae6df5e9c3b99f8c467915790",
+      "translation_sha256": "d4aef5b4d90086f998d64d0d1f103c0177f1e0c81064ed8772c96c6399342490"
+    },
+    {
+      "id": "coalesced:10d08c2c4a6f2ecc4a39a729ba977c268e50f79a41d0c11d2598f82c9b5505cc",
+      "section": "CSMB10_80",
+      "key": "voc_csmb_1080_60",
+      "source": "게다가...고마운 건 오히려 내 쪽이야.",
+      "translation": "而且……该说谢谢的人，其实是我。",
+      "source_sha256": "3cdbc289068a36f2710d6cc20d5287acfc4238ede6fc6799ee125c370f5981a4",
+      "translation_sha256": "d098d3edba0e59fef52368eb685a6a6b375e1df9e958143aee951be9807624b2"
+    },
+    {
+      "id": "coalesced:15238187f611411aaf95b694722c5d3f25ffe1ebe9e4939e96beb2bb47781409",
+      "section": "CSMB10_80",
+      "key": "voc_csmb_1080_61",
+      "source": "나...사실은 죽고 싶지 않았어.\\n아무리 희생이 공주로서의 사명이라 해도.",
+      "translation": "我……其实不想死。即使牺牲自己，是身为公主的使命。",
+      "source_sha256": "35be98cc53614060694a006fbcb81b1d7efda7b55e7149ee1e1098a1a816a211",
+      "translation_sha256": "8356f68a1ce0b456d9c32c02b74e196413213a684b3c00e3da0ecd24f3a5cf0e"
+    },
+    {
+      "id": "coalesced:0f8c96d1602e176f1bafc17131d4df5d20d525dad177dbb1cb89ca1c2eb71269",
+      "section": "CSMB10_80",
+      "key": "voc_csmb_1080_62",
+      "source": "그래서 네가 다른 방법을 찾자고 했을 때\\n구원받은 기분이었어.",
+      "translation": "所以，当你说要寻找其他办法时，我觉得自己得救了。",
+      "source_sha256": "ca31e8b1d2a5caf39793f5a9c5099e29b353ce681652767c06d7dffd066f9af2",
+      "translation_sha256": "860896d95f198fbee29d89662c7ebf0c6a7d523a4b0b860d93399698c2cba0b4"
+    },
+    {
+      "id": "coalesced:02061233490381de5c9223b477ff49ff2f02537df03fe03eb7e08e9891757b49",
+      "section": "CSMB10_80",
+      "key": "voc_csmb_1080_63",
+      "source": "나, 이제 망설이지 않아.\\n이대로 포기하지 않을 거야.",
+      "translation": "我已经不再犹豫了。我不会就这样放弃。",
+      "source_sha256": "7889837acd25665ad9dc7e0b66c518f77ee8a11c157ca6389f2fb25964a3848e",
+      "translation_sha256": "c946679af5f09c7f9060ab02257290321db2356a340a95519c1735541807e9a0"
+    },
+    {
+      "id": "coalesced:0ac6648b457433cc8bc7e698bf113de99af80f25326639743271ce73bcc2c9f8",
+      "section": "CSMB10_80",
+      "key": "voc_csmb_1080_64",
+      "source": "그래.\\n꼭 찾아내자, 세계를 구할 방법.",
+      "translation": "嗯。一定要找到拯救世界的方法。",
+      "source_sha256": "e0463f9ba957fb53776fba271f675e3c9b2f0e977dff1fb6729d10308175278e",
+      "translation_sha256": "66e5fa4bb498205b8dababe76302b0c5affca193614b962ecd3eebae826a4517"
+    },
+    {
+      "id": "coalesced:307246ced70b6503e3fe85e0481ae57c8c84d51b20e6dc425be60f5d1a71b9e4",
+      "section": "CSMB10_80",
+      "key": "voc_csmb_1080_65",
+      "source": "타인의 희생으로 유지되는 세계 같은 거\\n난 인정할 수 없으니까.",
+      "translation": "因为，我无法认可一个必须靠他人的牺牲，才能维系下去的世界。",
+      "source_sha256": "2df678a10df478786867baa18092457685117fcbcbe24b2ec5342def5630d493",
+      "translation_sha256": "85ed956cdedf802809e0031228fd4c048400e6dcee060b5824f17abe605593e8"
+    },
+    {
+      "id": "coalesced:772d0f52455c51fa128abb51fb153b22c9a5a6d80b3ada62704f8cedd2b4c05e",
+      "section": "CSMB10_80",
+      "key": "voc_csmb_1080_66",
+      "source": "그래.",
+      "translation": "嗯。",
+      "source_sha256": "47dd1707211c7354d813fcd6c66319369aef44dca3d28aedf2278035f5fb055c",
+      "translation_sha256": "5c7a9f97adb5bed9d4c6aca666dffd0e37fda970ebcfc2c8c0060523a483e295"
+    },
+    {
+      "id": "coalesced:498a810c62b35285c7c1f7ff5ebd0d95d2b0efb16804d594540cef4934690768",
+      "section": "CSMB10_80",
+      "key": "voc_csmb_1080_67",
+      "source": "어쨌든 이제 그만 쉬어. 피곤할 텐데.",
+      "translation": "总之，先好好休息吧。你应该很累了。",
+      "source_sha256": "e75c57ac5a16399b3efa3408ad6683b56cdbfedb36bf83479fa497bde2d2a677",
+      "translation_sha256": "735cb07eb00fa6e4763c6b169fca19e1c31d5642d307d9eedeec9c0cb622acd8"
+    },
+    {
+      "id": "coalesced:f1492ffa7369a57f3b36bf32731f1a9d55c72cfa192d3df8b43089748fcecd06",
+      "section": "CSMB10_80",
+      "key": "voc_csmb_1080_68",
+      "source": "마스터의 명령을 받았으니\\n푹 쉬어야지.",
+      "translation": "既然接到了主人的命令，那就好好休息吧。",
+      "source_sha256": "dd721a0afe55d0aeec39a94d65cd7efa4fa1c2f71d2589a31ec01a2fcef200cb",
+      "translation_sha256": "b12e97f6cf3e54327e0b452f099f64a630ca2b361471d9ef9445013351a51c67"
+    },
+    {
+      "id": "coalesced:f91f038dd611ae82fbbd072853424cf70de4ddc94c6688ec96a502f1958c14d9",
+      "section": "CSMB10_80",
+      "key": "voc_csmb_1080_69",
+      "source": "후후후, 앞으로 멋대로 행동 못 하겠네?\\n그거 하나만은 확실히 안심인걸.",
+      "translation": "呵呵呵，以后，你就不能再擅自行动了吧？至少这一点，确实让人放心。",
+      "source_sha256": "aa2be8bf39a92f3af4dfc2e29520fd5c74ab18b8e5b03f2e202f64dca3bdd871",
+      "translation_sha256": "c257741a2d1d916302619484300aa0e6f20dd4e854c57dec209e9534360f63ab"
+    },
+    {
+      "id": "coalesced:acde9237c3c7642d5ef3764452d3d721761d82e956a1a6412d32c164bc0b920b",
+      "section": "CSMB10_80",
+      "key": "voc_csmb_1080_70",
+      "source": "하아, 내 앞날도 이제 끝장이네.",
+      "translation": "唉，我的未来算是完了。",
+      "source_sha256": "fad7cc4f4c533821435352368a89457268cdd7b5a7081884959780352b84051e",
+      "translation_sha256": "cfa34ebfdc3b04644f0ab09da9d7520c95a1a211f2e6e327b838a26b10a34cf8"
+    },
+    {
+      "id": "coalesced:3507cfd2a46acb33e150619884c8e862cd072a131f6a16c1d7424f68c3efbf98",
+      "section": "CSMB10_80",
+      "key": "voc_csmb_1080_71",
+      "source": "왜? 내가 이상한 명령이라도\\n내릴까 봐 그래?",
+      "translation": "为什么？怕我下什么奇怪的命令吗？",
+      "source_sha256": "a582916707786cd96809b0054f21bd28a9f1e1dd92c30331fdc5249dc6667875",
+      "translation_sha256": "cf478184847043b60d999eb085452c0cd830529f1eea31bea833411079841307"
+    },
+    {
+      "id": "coalesced:4f427011fdc4883d464a99340164329268d48edb041531b29381419e115953b1",
+      "section": "CSMB10_80",
+      "key": "voc_csmb_1080_72",
+      "source": "아니, 뭐 그냥...말이 그렇다는 거지.",
+      "translation": "不，就是……随口说说而已。",
+      "source_sha256": "1384c09c2ec4e323b807022057882980c3572ee50cf1356bda0bf0d98129c1f0",
+      "translation_sha256": "6e99076a766cfd2020039721c726441e481d9e7f4a0ce8906f1ee45e04879bcd"
+    },
+    {
+      "id": "coalesced:66834f9e43438bfab9d06231eb8dd470b7fca100278324f482c79a57b539f848",
+      "section": "CSMB10_80",
+      "key": "voc_csmb_1080_73",
+      "source": "이 또한 운명인지도 모른다.",
+      "translation": "这或许也是命运。",
+      "source_sha256": "7e3e647c78be1c47b70ae2bec526bb1824a7ab55d0c1ad4021714565b8b14bd4",
+      "translation_sha256": "ea6cb5261bb8c0210abe214e853327733cfb87d7e8513e8f12382228350c58bc"
+    },
+    {
+      "id": "coalesced:7f488441d3b5859e647a61171eb9ec42ffc049556b1a9fa670974d61bc16aaeb",
+      "section": "CSMB10_80",
+      "key": "voc_csmb_1080_74",
+      "source": "제피가 나의 마스터가 되다니...\\n묘한 기분이었다.",
+      "translation": "洁菲竟然成了我的主人……心情有些微妙。",
+      "source_sha256": "a95e51248988ebef69627e2e4643cae3cd263f318266ffcba08fba25bc8ea4db",
+      "translation_sha256": "176d93bf21abc532729629bb102335b20325526e6827259662dcf5d55750dd9d"
+    },
+    {
+      "id": "coalesced:86c50551ab1597588eb3a3c4ac4c4b811eb1d19270116b09e54b2fe5087c9d2c",
+      "section": "CSMB10_80",
+      "key": "voc_csmb_1080_75",
+      "source": "하지만 그 때는 이 관계가 우리한테\\n뜻밖의 선택을 강요하게 될 줄 몰랐다.",
+      "translation": "然而，那时我还不知道，这段关系会迫使我们做出意想不到的选择。",
+      "source_sha256": "5410791c9b1c3a2326ebb2785676e410f6e5b7e52a41d26015f1e0e14176e20b",
+      "translation_sha256": "1f521ae824321eafbe508ae0bbe4d1b89ac67953b1b748b38114c577ad731ee3"
+    },
+    {
+      "id": "coalesced:ab278f32af46f85b7908d672574eedad3354199bc400026af95b33076ffaecb2",
+      "section": "Weapon_fireball_crocell",
+      "key": "426_fireball",
+      "source": "작열",
+      "translation": "灼热",
+      "source_sha256": "173ac03e2d1abda4ee57696960db4122c9a953205badb1a4a66300dc79e21870",
+      "translation_sha256": "0415a3cc9dcec8b9e8cb8296f5e6904c65a8a5f43a2209d2b20c9fe8e4a8d6fa"
+    },
+    {
+      "id": "coalesced:0af73c1febac00568ce7f95702c5cdeaab51b4a7a1f7ad2bba9fb30d4d08d55e",
+      "section": "Weapon_fireball_crocell",
+      "key": "426_fireball_D",
+      "source": "모든 걸 녹여버릴 듯한 열기를 가진 화염구.\\n정신+140",
+      "translation": "蕴含仿佛能熔化一切的热量的火球\\n精神+140",
+      "source_sha256": "9e99c010a4708e88d4e4869d7e3b304157a2c7014d03d59d9855be9a692b845c",
+      "translation_sha256": "92d531fd7dae34d21f93ef12a53876cd0431dc5bfb9c5f3c5184f13fabe3eac7"
+    },
+    {
+      "id": "coalesced:622d8d760df2cbaf3ed2f72744a57e979796d22aafbc91f2a04f20f3024bb3e1",
+      "section": "Weapon_fireball_crocell",
+      "key": "426_fireball_S",
+      "source": "화염구\\n정신+140",
+      "translation": "火球\\n精神+140",
+      "source_sha256": "9d7853913008dcdd8f3874aa8b9e9243f3c4b04bf2dadd6958d4d4d1a8ac98c4",
+      "translation_sha256": "2352976ccf4e9296a7893bac3f11d54c9ea3891e4d6e42f8666f6b048a807981"
+    }
+  ],
+  "retained_originals": [
+    {
+      "id": "coalesced:121bb7680380874103448062ad92cd808fec0c1cc2e3664ef7f51dd53591c25e",
+      "section": "CSMB10_80",
+      "key": "voc_csmb_1080_48",
+      "source": "전부터 마레의 자료들을 직접 눈으로 보고 싶었어요. (게임에 안 나오는 대사)",
+      "source_sha256": "7ed3c6bfe1bde799bfacaa9f5b5376e5228513a37321850caedb7cbd0b2c79e7",
+      "reason": "Explicit source annotation 게임에 안 나오는 대사;retain original existing exclusion,not a new unused-code inference."
+    }
+  ],
+  "scope_reason": "269 complete core resource contexts plus two complete linked story scenes86 and complete426weapon family3;expanded beyond usual300 to avoid clipping linked scenes,not new translations.",
+  "decisions": [
+    {
+      "domain": "status-label",
+      "finding": "더위 and mixed 열 status references consistently 炎热;화상/火傷 status references consistently 烧伤. Retain source single-label/dual-immunity differences."
+    },
+    {
+      "domain": "story-injury",
+      "keys": [
+        "voc_csmb_1020_08",
+        "voc_csmb_1080_27"
+      ],
+      "finding": "灼伤 describes bodily injury after disobeying a master;full scenes connect wound treatment and bodily harm,not a named battle-state alias. Keep natural story wording."
+    },
+    {
+      "domain": "weapon-name",
+      "keys": [
+        "426_fireball",
+        "426_fireball_D",
+        "426_fireball_S"
+      ],
+      "finding": "작열 is proper weapon name 灼热;linked descriptions name a fireball and 精神+140,not a renamed 炎热 status."
+    },
+    {
+      "domain": "source-mismatch",
+      "finding": "凍傷用軟膏 name and 凍結 description remain distinct source wording;no engine-equivalence or speculative name correction."
+    }
+  ],
+  "canonical_alias_search": {
+    "scope": "all canonical translation-workflow INT drafts",
+    "query": [
+      "灼热",
+      "灼伤"
+    ],
+    "hit_count": 3,
+    "ids": [
+      "coalesced:a52d6254a973cc578d3aea22987a58c4e62459461385397d0785007f752c2a94",
+      "coalesced:b09690b72ec19624a1469a15ebf3b12ed8985cdd947e726e8f3b1df935400b9e",
+      "coalesced:ab278f32af46f85b7908d672574eedad3354199bc400026af95b33076ffaecb2"
+    ],
+    "finding": "Two story injury values and one weapon proper name;historical ability/status-category classification disproved for these canonical hits."
+  },
+  "runtime_status_identity_verified": false,
+  "human_finalized": false,
+  "runtime_layout_approved": false,
+  "game_rendering_verified": false
+}

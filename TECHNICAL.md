@@ -1,3 +1,7 @@
+## 第287阶段：13条有证尾项与未知分隔符保护
+
+batch120累计14148：七UI日志片段成套语序、五裸反斜杠原样保留的语言、一个损坏源的双语共同主句。通用校验保护未知分隔符而不丢可见字形需求，原生Localize完整绑定新增静态证据；坏MC2Game文档保持。见[实际回填与接续](docs/PHASE_287_REMAINING_UI_AND_SEPARATORS.md)。
+
 ## 第286阶段：typed脚本拼接与实际40字段采用
 
 完整Concat_StrStr赋值、GetStyleName12返回、EXP两处Float→Int→String唯一赋值及恢复七函数Int→String链支持22条UI实际采用；18装备说明同时保留缺数值回填语言。必要短窗口/hash/属性类型持久保存在ui-string-assembly-evidence.json；其他包和动态键不作全覆盖宣称。见[阶段286](docs/PHASE_286_PARTIALS_AND_UI_ADOPTION.md)。

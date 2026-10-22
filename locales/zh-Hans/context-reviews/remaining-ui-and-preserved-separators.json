@@ -1,0 +1,229 @@
+{
+  "schema_version": 1,
+  "kind": "source-locked-context-observations",
+  "resource": "MC2Game/Localization/Coalesced.int",
+  "input_sha256": "179e265cfc9e6d3e9f2586abe75b5da303b2af9b8484079851dab72f9f7edb8c",
+  "plan_canonical_sha256": "e5b8dc66d63cc4de0d752a83c7af8666985c44e7536e543b7285c1c3ce3adbc6",
+  "human_finalized": false,
+  "runtime_layout_approved": false,
+  "scopes": [
+    {
+      "document": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
+      "section": "CSMB03_20",
+      "complete_section": false,
+      "keys": [
+        "voc_csmb_0320_50"
+      ],
+      "reason": "Only explicitly adopted evidence-backed tail fields;full source sections/typed consumers inspected"
+    },
+    {
+      "document": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
+      "section": "CSMB09_20",
+      "complete_section": false,
+      "keys": [
+        "voc_csmb_0920_06"
+      ],
+      "reason": "Only explicitly adopted evidence-backed tail fields;full source sections/typed consumers inspected"
+    },
+    {
+      "document": "..\\MC2Game\\Localization\\INT\\MC2Item.int",
+      "section": "Recipe",
+      "complete_section": false,
+      "keys": [
+        "1458_recipe_D"
+      ],
+      "reason": "Only explicitly adopted evidence-backed tail fields;full source sections/typed consumers inspected"
+    },
+    {
+      "document": "..\\MC2Game\\Localization\\INT\\MC2NpcTalk.int",
+      "section": "Ch00_1",
+      "complete_section": false,
+      "keys": [
+        "00_101_00"
+      ],
+      "reason": "Only explicitly adopted evidence-backed tail fields;full source sections/typed consumers inspected"
+    },
+    {
+      "document": "..\\MC2Game\\Localization\\INT\\MC2Quest.int",
+      "section": "06_603_0",
+      "complete_section": false,
+      "keys": [
+        "603_0"
+      ],
+      "reason": "Only explicitly adopted evidence-backed tail fields;full source sections/typed consumers inspected"
+    },
+    {
+      "document": "..\\MC2Game\\Localization\\INT\\MC2Quest.int",
+      "section": "06_zepi_1",
+      "complete_section": false,
+      "keys": [
+        "order_2"
+      ],
+      "reason": "Only explicitly adopted evidence-backed tail fields;full source sections/typed consumers inspected"
+    },
+    {
+      "document": "..\\MC2Game\\Localization\\INT\\MC2UI.int",
+      "section": "Battle_Log",
+      "complete_section": false,
+      "keys": [
+        "GetITEM"
+      ],
+      "reason": "Only explicitly adopted evidence-backed tail fields;full source sections/typed consumers inspected"
+    },
+    {
+      "document": "..\\MC2Game\\Localization\\INT\\MC2UI.int",
+      "section": "System_Log",
+      "complete_section": false,
+      "keys": [
+        "GetItem3",
+        "GetWeapon",
+        "SkillSubject",
+        "GetSkill"
+      ],
+      "reason": "Only explicitly adopted evidence-backed tail fields;full source sections/typed consumers inspected"
+    },
+    {
+      "document": "..\\MC2Game\\Localization\\INT\\MC2UI.int",
+      "section": "diction",
+      "complete_section": false,
+      "keys": [
+        "Objective_0",
+        "Objective_1"
+      ],
+      "reason": "Only explicitly adopted evidence-backed tail fields;full source sections/typed consumers inspected"
+    }
+  ],
+  "entries": [
+    {
+      "id": "coalesced:90f34741fe5fca276f66dde5e47eb2f8a20f937d7bc0a56bad705724ab163d49",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
+      "section": "CSMB03_20",
+      "key": "voc_csmb_0320_50",
+      "occurrence": 1,
+      "source_sha256": "7b0bc473f4777cb222e7578effbbe29276113ebe2ff0ea536030beff1e0ebdfb",
+      "translation_sha256": "8d5d4354268d35b9186b29621c34db4ea48acf2416b43b4fa0e31eeb56a6a657"
+    },
+    {
+      "id": "coalesced:851544b42b76237932ecb3a7596181fed5aa4c07e654a778cf5327b46def9111",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
+      "section": "CSMB09_20",
+      "key": "voc_csmb_0920_06",
+      "occurrence": 1,
+      "source_sha256": "5250f92813e1bd1f6660d4980af88948e952bd0155de0c5c5ad18da89dfae8f5",
+      "translation_sha256": "183a5537cf6a01dbcd03fe2d579d9b8dd768b7bfa2b36c6607de321a0ce0ff65"
+    },
+    {
+      "id": "coalesced:bd69e92a84f9e995da63138b4dd2ff6945381c90c3de1f46be73f14c7cf0ed81",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2Item.int",
+      "section": "Recipe",
+      "key": "1458_recipe_D",
+      "occurrence": 1,
+      "source_sha256": "d5f4c0687af9e30bc270768e9d203eec9782e23a369a0d3e517a6a90131fa765",
+      "translation_sha256": "3468e9bc84fdcf072b82fad014f9317c776040fbf7e120eb011586a65fd4711a"
+    },
+    {
+      "id": "coalesced:d54363002b60b55fde08d42ad11cb0d09a1560fb9a87d1d124f150be337ff1b3",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2NpcTalk.int",
+      "section": "Ch00_1",
+      "key": "00_101_00",
+      "occurrence": 1,
+      "source_sha256": "cf461e4cbc05ed72bdcd4e72e9557edb74edd776b9bd94ebed299986f236b962",
+      "translation_sha256": "63eb2f1c9123ac45d14ff8308787c891d595f2541e4ac92eb937aab38072c545"
+    },
+    {
+      "id": "coalesced:57b54dd0eba6c8daeb04541decdd7526d45272db6cd7155eb53f6395ed7496c2",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2Quest.int",
+      "section": "06_603_0",
+      "key": "603_0",
+      "occurrence": 1,
+      "source_sha256": "8d7bc4b77ef6884bdf46281afdf82a24a6423f9b5abd0cfebfecd965c3b50a3e",
+      "translation_sha256": "76fcef0b6a1b4f3f259f91c9cd734da4598a24b7bb1b091a14567a39219f577b"
+    },
+    {
+      "id": "coalesced:de0ca5167ff71da3cbeb6dc2e97d303979d83b9d2f737f37b876b34421ca5fa5",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2Quest.int",
+      "section": "06_zepi_1",
+      "key": "order_2",
+      "occurrence": 1,
+      "source_sha256": "0c1130910a48be304380611163a519e67fc02efcf260e8c44782be81815f4e0a",
+      "translation_sha256": "4b53671d217eb737788240266da5d04d727c7452084e4c4569005a6754786202"
+    },
+    {
+      "id": "coalesced:020dcbf6d07ad182e5101fb85993e034732f21e9dcad8f1192228d2dccfcb5de",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2UI.int",
+      "section": "Battle_Log",
+      "key": "GetITEM",
+      "occurrence": 1,
+      "source_sha256": "7f2182f775a7f2a6d845d7f09c432d8527e3cd30aa7cdf783811f5db6fe62a0d",
+      "translation_sha256": "614b43059f310b31d06de5baea61a2ba411a2ab7fea16e62842dda62527bb4c1"
+    },
+    {
+      "id": "coalesced:741430301b76d216e415700b0738ea42e9b68cad38a947dac723d87eb51ed2d1",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2UI.int",
+      "section": "System_Log",
+      "key": "GetItem3",
+      "occurrence": 1,
+      "source_sha256": "e85d6988f088223e97435734f37e6dc2bb99b84bbe08cc434f4da528ce252bd4",
+      "translation_sha256": "614b43059f310b31d06de5baea61a2ba411a2ab7fea16e62842dda62527bb4c1"
+    },
+    {
+      "id": "coalesced:dbc81cdea455c62566dd104e2fdddf102be753ae509fff7511a69457dd0c39ec",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2UI.int",
+      "section": "System_Log",
+      "key": "GetWeapon",
+      "occurrence": 1,
+      "source_sha256": "e85d6988f088223e97435734f37e6dc2bb99b84bbe08cc434f4da528ce252bd4",
+      "translation_sha256": "614b43059f310b31d06de5baea61a2ba411a2ab7fea16e62842dda62527bb4c1"
+    },
+    {
+      "id": "coalesced:b285d7709181bf47a5734e68aab2988f5dcbbf9d81359bb94021c4a2e93261fb",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2UI.int",
+      "section": "System_Log",
+      "key": "SkillSubject",
+      "occurrence": 1,
+      "source_sha256": "64ee5293d31bc58b72d76ae9a86a902e90442428e29f24f4ecb257ba841cdd36",
+      "translation_sha256": "8af2350cfd65805bd50b6813ab70f85f1d71d94ad39f9d8915176d7a33168f8b"
+    },
+    {
+      "id": "coalesced:6dbee1ef082bcfc240981c73ae0fd9b2f28a71cc78201427ebe0a77cb1c41634",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2UI.int",
+      "section": "System_Log",
+      "key": "GetSkill",
+      "occurrence": 1,
+      "source_sha256": "dc341c693e81961f9978fed46e579f0ef424d41007c4c5113c680e667bbe7e5b",
+      "translation_sha256": "ee2acc927d3c6c54af352d1c2af3d9e529fe94bd9452576db9a35c54cbb550c4"
+    },
+    {
+      "id": "coalesced:429901cd21471de8f781b88d6525e760165f20b55901ca423b1d8d0b7a0999b5",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2UI.int",
+      "section": "diction",
+      "key": "Objective_0",
+      "occurrence": 1,
+      "source_sha256": "20ffc2b0a0e1b6f8464e0cbec0946beeb29deae6328e70fcea670b7200bd8b2d",
+      "translation_sha256": "a3b445efc48f2835e22eb9bce2f20f28d155b9dbded526a8f265535a76ec8f73"
+    },
+    {
+      "id": "coalesced:a99b31ccf961b320dd760de3c719ad00c4533e5ed85d0044cc02cdf20182559e",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2UI.int",
+      "section": "diction",
+      "key": "Objective_1",
+      "occurrence": 1,
+      "source_sha256": "375745740097d3a93d69492d5320fe116f8b45ed2cfa4cf40412ba931d4d6cae",
+      "translation_sha256": "a3b445efc48f2835e22eb9bce2f20f28d155b9dbded526a8f265535a76ec8f73"
+    }
+  ],
+  "protected_breaks": [
+    {
+      "id": "coalesced:90f34741fe5fca276f66dde5e47eb2f8a20f937d7bc0a56bad705724ab163d49",
+      "reason": "Preserve exact existing functional break and unknown separator independently"
+    },
+    {
+      "id": "coalesced:851544b42b76237932ecb3a7596181fed5aa4c07e654a778cf5327b46def9111",
+      "reason": "Preserve exact existing functional break and unknown separator independently"
+    },
+    {
+      "id": "coalesced:57b54dd0eba6c8daeb04541decdd7526d45272db6cd7155eb53f6395ed7496c2",
+      "reason": "Preserve exact existing functional break and unknown separator independently"
+    }
+  ]
+}

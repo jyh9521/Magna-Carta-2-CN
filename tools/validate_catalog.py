@@ -6,12 +6,18 @@ from pathlib import Path
 import re
 
 TOKEN = re.compile(r"\{[A-Za-z_0-9]+(?:![rsa])?(?::[^{}]*)?\}|%(?:\d+\$)?[-+ #0]*(?:\d+|\*)?(?:\.\d+)?[sdifuoxXeEgGc]|\$n|\\[nrt0]|\^[0-9A-Fa-f]{2}|</?[^>]+>")
+# TOKEN is also used to remove known markup for glyph-demand collection.
+# Retaining unknown separators must not silently make their glyphs invisible.
+RETENTION_TOKEN = re.compile(TOKEN.pattern + r"|\\")
 FIELDS = ("id", "resource", "context", "source_locale", "source", "translation", "status", "reviewer")
 
 
 def token_errors(source, target, policy=None):
-    """Only explicit, count-locked layout breaks may differ; all other tokens retain order."""
-    a, b = TOKEN.findall(source), TOKEN.findall(target)
+    """Only explicit, count-locked layout breaks may differ; all other tokens retain order.
+
+    A lone backslash is protected as itself, not together with its next locale-
+    specific character. This retains unknown separators without inventing escapes."""
+    a, b = RETENTION_TOKEN.findall(source), RETENTION_TOKEN.findall(target)
     if policy is not None:
         if (not isinstance(policy, dict) or set(policy) != {'source_count','target_count'}
                 or any(type(v) is not int or not 0 <= v <= 1024 for v in policy.values())

@@ -1,0 +1,5382 @@
+{
+  "schema_version": 1,
+  "phase": 287,
+  "kind": "remaining-ui-and-preserved-separator-evidence",
+  "ui": {
+    "schema_version": 1,
+    "status": "verified-offline-source-assembly",
+    "input_hashes": {
+      "build/phase-282-verification/MC2Game-logical.bin": "e2a49cdd67c2b49f9b91fb517a49de33262ada4f3ec5a65c776a7d3126d1ecf4",
+      "build/phase-282-verification/package-tables.json": "0ea25716085840912c0d658d4daf8e9283f1a5604e77856a1210a9d22b5c4699",
+      "build/xex-native-verification/final/disc1-pycryptodome.bin": "d18d49fb2960426715ba17d61d069cce42b1eadac153af13c9395cd42b1773e9",
+      "build/disc1-selected/MC2Game/Localization/Coalesced.int": "179e265cfc9e6d3e9f2586abe75b5da303b2af9b8484079851dab72f9f7edb8c",
+      "build/phase-283-verification/Core-logical.bin": "5ac2c9745bdf6220ddb3dbe898ef88b1c8ac84c882b06816e8257ad5b4c6e2a9",
+      "build/phase-283-verification/Core-tables.json": "3cd1cd977e7552b202ae88ee2f10db74d3056d4770a7ddbed7de8ead26434c0b"
+    },
+    "adopted_count": 7,
+    "typed_function_count": 14,
+    "core_string_operators": [
+      {
+        "owner": {
+          "package": "core",
+          "object_index": 745,
+          "path": "Object.Concat_StrStr",
+          "class_path": "Core.Function",
+          "object_flags": "0007000400000000",
+          "export_flags": 0,
+          "source_sha256": "5ac2c9745bdf6220ddb3dbe898ef88b1c8ac84c882b06816e8257ad5b4c6e2a9",
+          "logical_serial_offset": 142806,
+          "serial_size": 71
+        },
+        "native_token": 112,
+        "parameters": [
+          {
+            "owner": {
+              "package": "core",
+              "object_index": 744,
+              "path": "Object.Concat_StrStr.A",
+              "class_path": "Core.StrProperty",
+              "object_flags": "0007000400000000",
+              "export_flags": 0,
+              "source_sha256": "5ac2c9745bdf6220ddb3dbe898ef88b1c8ac84c882b06816e8257ad5b4c6e2a9",
+              "logical_serial_offset": 142762,
+              "serial_size": 44
+            },
+            "name": "A",
+            "kind": "StrProperty",
+            "net_index": 743,
+            "next_reference": 743,
+            "array_dim": 1,
+            "flags_hex": "0000000000400880",
+            "category": {
+              "name": "None",
+              "number": 0
+            },
+            "array_enum": null,
+            "target": null,
+            "meta_class": null,
+            "enum_catalog": null,
+            "array_enum_catalog": null,
+            "parameter_flags": {
+              "optional": false,
+              "out": false,
+              "returns": false
+            }
+          },
+          {
+            "owner": {
+              "package": "core",
+              "object_index": 743,
+              "path": "Object.Concat_StrStr.B",
+              "class_path": "Core.StrProperty",
+              "object_flags": "0007000400000000",
+              "export_flags": 0,
+              "source_sha256": "5ac2c9745bdf6220ddb3dbe898ef88b1c8ac84c882b06816e8257ad5b4c6e2a9",
+              "logical_serial_offset": 142718,
+              "serial_size": 44
+            },
+            "name": "B",
+            "kind": "StrProperty",
+            "net_index": 742,
+            "next_reference": 742,
+            "array_dim": 1,
+            "flags_hex": "0000000000400880",
+            "category": {
+              "name": "None",
+              "number": 0
+            },
+            "array_enum": null,
+            "target": null,
+            "meta_class": null,
+            "enum_catalog": null,
+            "array_enum_catalog": null,
+            "parameter_flags": {
+              "optional": false,
+              "out": false,
+              "returns": false
+            }
+          }
+        ],
+        "return_declaration": {
+          "owner": {
+            "package": "core",
+            "object_index": 742,
+            "path": "Object.Concat_StrStr.ReturnValue",
+            "class_path": "Core.StrProperty",
+            "object_flags": "0007000400000000",
+            "export_flags": 0,
+            "source_sha256": "5ac2c9745bdf6220ddb3dbe898ef88b1c8ac84c882b06816e8257ad5b4c6e2a9",
+            "logical_serial_offset": 142674,
+            "serial_size": 44
+          },
+          "name": "ReturnValue",
+          "kind": "StrProperty",
+          "net_index": 741,
+          "next_reference": 0,
+          "array_dim": 1,
+          "flags_hex": "0000000000400580",
+          "category": {
+            "name": "None",
+            "number": 0
+          },
+          "array_enum": null,
+          "target": null,
+          "meta_class": null,
+          "enum_catalog": null,
+          "array_enum_catalog": null,
+          "parameter_flags": {
+            "optional": false,
+            "out": true,
+            "returns": true
+          }
+        },
+        "native_implementation_verified": false
+      },
+      {
+        "owner": {
+          "package": "core",
+          "object_index": 781,
+          "path": "Object.ConcatEqual_StrStr",
+          "class_path": "Core.Function",
+          "object_flags": "0007000400000000",
+          "export_flags": 0,
+          "source_sha256": "5ac2c9745bdf6220ddb3dbe898ef88b1c8ac84c882b06816e8257ad5b4c6e2a9",
+          "logical_serial_offset": 144633,
+          "serial_size": 71
+        },
+        "native_token": 322,
+        "parameters": [
+          {
+            "owner": {
+              "package": "core",
+              "object_index": 780,
+              "path": "Object.ConcatEqual_StrStr.A",
+              "class_path": "Core.StrProperty",
+              "object_flags": "0007000400000000",
+              "export_flags": 0,
+              "source_sha256": "5ac2c9745bdf6220ddb3dbe898ef88b1c8ac84c882b06816e8257ad5b4c6e2a9",
+              "logical_serial_offset": 144589,
+              "serial_size": 44
+            },
+            "name": "A",
+            "kind": "StrProperty",
+            "net_index": 779,
+            "next_reference": 779,
+            "array_dim": 1,
+            "flags_hex": "0000000000400180",
+            "category": {
+              "name": "None",
+              "number": 0
+            },
+            "array_enum": null,
+            "target": null,
+            "meta_class": null,
+            "enum_catalog": null,
+            "array_enum_catalog": null,
+            "parameter_flags": {
+              "optional": false,
+              "out": true,
+              "returns": false
+            }
+          },
+          {
+            "owner": {
+              "package": "core",
+              "object_index": 779,
+              "path": "Object.ConcatEqual_StrStr.B",
+              "class_path": "Core.StrProperty",
+              "object_flags": "0007000400000000",
+              "export_flags": 0,
+              "source_sha256": "5ac2c9745bdf6220ddb3dbe898ef88b1c8ac84c882b06816e8257ad5b4c6e2a9",
+              "logical_serial_offset": 144545,
+              "serial_size": 44
+            },
+            "name": "B",
+            "kind": "StrProperty",
+            "net_index": 778,
+            "next_reference": 778,
+            "array_dim": 1,
+            "flags_hex": "0000000000400880",
+            "category": {
+              "name": "None",
+              "number": 0
+            },
+            "array_enum": null,
+            "target": null,
+            "meta_class": null,
+            "enum_catalog": null,
+            "array_enum_catalog": null,
+            "parameter_flags": {
+              "optional": false,
+              "out": false,
+              "returns": false
+            }
+          }
+        ],
+        "return_declaration": {
+          "owner": {
+            "package": "core",
+            "object_index": 778,
+            "path": "Object.ConcatEqual_StrStr.ReturnValue",
+            "class_path": "Core.StrProperty",
+            "object_flags": "0007000400000000",
+            "export_flags": 0,
+            "source_sha256": "5ac2c9745bdf6220ddb3dbe898ef88b1c8ac84c882b06816e8257ad5b4c6e2a9",
+            "logical_serial_offset": 144501,
+            "serial_size": 44
+          },
+          "name": "ReturnValue",
+          "kind": "StrProperty",
+          "net_index": 777,
+          "next_reference": 0,
+          "array_dim": 1,
+          "flags_hex": "0000000000400580",
+          "category": {
+            "name": "None",
+            "number": 0
+          },
+          "array_enum": null,
+          "target": null,
+          "meta_class": null,
+          "enum_catalog": null,
+          "array_enum_catalog": null,
+          "parameter_flags": {
+            "optional": false,
+            "out": true,
+            "returns": true
+          }
+        },
+        "native_implementation_verified": false
+      }
+    ],
+    "typed_assignments": [
+      {
+        "export": 2716,
+        "function": "MC2BattleYupa.LearnSkill",
+        "script_sha256": "a0fede067c55b421e8db7144ea798bd8bf5895415e1b9a4aa51279a2ef0e194e",
+        "script_size": 1678,
+        "windows": [
+          {
+            "offset": 486,
+            "logical_offset": 7005075,
+            "sha256": "ff3703d7815f4221c72550e327013c6d84e7d4ad1a3aa99d5f4b87a046a1cb50",
+            "target": {
+              "op": "local",
+              "ref": 2708,
+              "path": "MC2BattleYupa.LearnSkill.NewStr",
+              "kind": "StrProperty",
+              "start": 487,
+              "end": 492
+            },
+            "value": {
+              "op": "concat",
+              "args": [
+                {
+                  "op": "concat",
+                  "args": [
+                    {
+                      "op": "concat",
+                      "args": [
+                        {
+                          "op": "literal",
+                          "text": "<Strings:MC2CharacterName.Default.",
+                          "kind": "StrProperty",
+                          "start": 495,
+                          "end": 531
+                        },
+                        {
+                          "op": "context",
+                          "object": {
+                            "op": "instance",
+                            "ref": 2604,
+                            "path": "MC2BattleYupa.ParentPawn",
+                            "kind": "ObjectProperty",
+                            "start": 532,
+                            "end": 537
+                          },
+                          "value": {
+                            "op": "instance",
+                            "ref": 4711,
+                            "path": "MC2Pawn.PlayerName",
+                            "kind": "StrProperty",
+                            "start": 540,
+                            "end": 545
+                          },
+                          "kind": "StrProperty",
+                          "start": 531,
+                          "end": 545,
+                          "raw_skip": 5,
+                          "property_type": 0
+                        }
+                      ],
+                      "kind": "StrProperty",
+                      "start": 494,
+                      "end": 546
+                    },
+                    {
+                      "op": "literal",
+                      "text": "><Strings:MC2UI.System_Log.SkillSubject>",
+                      "kind": "StrProperty",
+                      "start": 546,
+                      "end": 588
+                    }
+                  ],
+                  "kind": "StrProperty",
+                  "start": 493,
+                  "end": 589
+                },
+                {
+                  "op": "context",
+                  "object": {
+                    "op": "virtual-call",
+                    "name": "GetSkillData",
+                    "arguments": [
+                      {
+                        "op": "local",
+                        "ref": 2707,
+                        "path": "MC2BattleYupa.LearnSkill.nNewSkill",
+                        "kind": "IntProperty",
+                        "start": 599,
+                        "end": 604
+                      }
+                    ],
+                    "kind": "ObjectProperty",
+                    "declaration_candidates": [
+                      {
+                        "export": 2332,
+                        "path": "MC2BattleSkillSeq.GetSkillData",
+                        "return_kind": "ObjectProperty"
+                      },
+                      {
+                        "export": 2805,
+                        "path": "MC2BattleYupa.GetSkillData",
+                        "return_kind": "ObjectProperty"
+                      },
+                      {
+                        "export": 2920,
+                        "path": "MC2BattleYupaManager.GetSkillData",
+                        "return_kind": "ObjectProperty"
+                      }
+                    ],
+                    "owner_dispatch_verified": false,
+                    "start": 590,
+                    "end": 605
+                  },
+                  "value": {
+                    "op": "instance",
+                    "ref": 30724,
+                    "path": "MC2SkillData.SkillNameText",
+                    "kind": "StrProperty",
+                    "start": 608,
+                    "end": 613
+                  },
+                  "kind": "StrProperty",
+                  "start": 589,
+                  "end": 613,
+                  "raw_skip": 5,
+                  "property_type": 0
+                }
+              ],
+              "kind": "StrProperty",
+              "start": 492,
+              "end": 614
+            },
+            "size": 128
+          },
+          {
+            "offset": 660,
+            "logical_offset": 7005249,
+            "sha256": "0d4ad5b175902e1e6269c4b5fd1e35360f87fdc6215eb97db5e11db68fe80db8",
+            "target": {
+              "op": "local",
+              "ref": 2708,
+              "path": "MC2BattleYupa.LearnSkill.NewStr",
+              "kind": "StrProperty",
+              "start": 661,
+              "end": 666
+            },
+            "value": {
+              "op": "concat",
+              "args": [
+                {
+                  "op": "local",
+                  "ref": 2708,
+                  "path": "MC2BattleYupa.LearnSkill.NewStr",
+                  "kind": "StrProperty",
+                  "start": 667,
+                  "end": 672
+                },
+                {
+                  "op": "literal",
+                  "text": "<Strings:MC2UI.diction.Objective_1> ",
+                  "kind": "StrProperty",
+                  "start": 672,
+                  "end": 710
+                }
+              ],
+              "kind": "StrProperty",
+              "start": 666,
+              "end": 711
+            },
+            "size": 51
+          },
+          {
+            "offset": 714,
+            "logical_offset": 7005303,
+            "sha256": "07c4a4b88cd47eb7d1d4fb002cee2833af31bc9965a89a21a1c444bcf7e2c02a",
+            "target": {
+              "op": "local",
+              "ref": 2708,
+              "path": "MC2BattleYupa.LearnSkill.NewStr",
+              "kind": "StrProperty",
+              "start": 715,
+              "end": 720
+            },
+            "value": {
+              "op": "concat",
+              "args": [
+                {
+                  "op": "local",
+                  "ref": 2708,
+                  "path": "MC2BattleYupa.LearnSkill.NewStr",
+                  "kind": "StrProperty",
+                  "start": 721,
+                  "end": 726
+                },
+                {
+                  "op": "literal",
+                  "text": "<Strings:MC2UI.diction.Objective_0> ",
+                  "kind": "StrProperty",
+                  "start": 726,
+                  "end": 764
+                }
+              ],
+              "kind": "StrProperty",
+              "start": 720,
+              "end": 765
+            },
+            "size": 51
+          },
+          {
+            "offset": 765,
+            "logical_offset": 7005354,
+            "sha256": "8e8bc20cf5513fc376fc47d9e7818d4621dc27dfa6be8823e1b73de137e01c8e",
+            "target": {
+              "op": "local",
+              "ref": 2708,
+              "path": "MC2BattleYupa.LearnSkill.NewStr",
+              "kind": "StrProperty",
+              "start": 766,
+              "end": 771
+            },
+            "value": {
+              "op": "concat",
+              "args": [
+                {
+                  "op": "local",
+                  "ref": 2708,
+                  "path": "MC2BattleYupa.LearnSkill.NewStr",
+                  "kind": "StrProperty",
+                  "start": 772,
+                  "end": 777
+                },
+                {
+                  "op": "literal",
+                  "text": "<Strings:MC2UI.System_Log.GetSkill>",
+                  "kind": "StrProperty",
+                  "start": 777,
+                  "end": 814
+                }
+              ],
+              "kind": "StrProperty",
+              "start": 771,
+              "end": 815
+            },
+            "size": 50
+          },
+          {
+            "offset": 1245,
+            "logical_offset": 7005834,
+            "sha256": "2bff272613da287a37d37b3990214e7a63328a9400f3519300c2147a91fe4c83",
+            "target": {
+              "op": "local",
+              "ref": 2708,
+              "path": "MC2BattleYupa.LearnSkill.NewStr",
+              "kind": "StrProperty",
+              "start": 1246,
+              "end": 1251
+            },
+            "value": {
+              "op": "concat",
+              "args": [
+                {
+                  "op": "concat",
+                  "args": [
+                    {
+                      "op": "concat",
+                      "args": [
+                        {
+                          "op": "literal",
+                          "text": "<Strings:MC2CharacterName.Default.",
+                          "kind": "StrProperty",
+                          "start": 1254,
+                          "end": 1290
+                        },
+                        {
+                          "op": "context",
+                          "object": {
+                            "op": "instance",
+                            "ref": 2604,
+                            "path": "MC2BattleYupa.ParentPawn",
+                            "kind": "ObjectProperty",
+                            "start": 1291,
+                            "end": 1296
+                          },
+                          "value": {
+                            "op": "instance",
+                            "ref": 4711,
+                            "path": "MC2Pawn.PlayerName",
+                            "kind": "StrProperty",
+                            "start": 1299,
+                            "end": 1304
+                          },
+                          "kind": "StrProperty",
+                          "start": 1290,
+                          "end": 1304,
+                          "raw_skip": 5,
+                          "property_type": 0
+                        }
+                      ],
+                      "kind": "StrProperty",
+                      "start": 1253,
+                      "end": 1305
+                    },
+                    {
+                      "op": "literal",
+                      "text": "><Strings:MC2UI.System_Log.SkillSubject>",
+                      "kind": "StrProperty",
+                      "start": 1305,
+                      "end": 1347
+                    }
+                  ],
+                  "kind": "StrProperty",
+                  "start": 1252,
+                  "end": 1348
+                },
+                {
+                  "op": "context",
+                  "object": {
+                    "op": "context",
+                    "object": {
+                      "op": "struct-member",
+                      "value": {
+                        "op": "dynamic-array-element",
+                        "index": {
+                          "op": "local",
+                          "ref": 2711,
+                          "path": "MC2BattleYupa.LearnSkill.I",
+                          "kind": "IntProperty",
+                          "start": 1362,
+                          "end": 1367
+                        },
+                        "array": {
+                          "op": "instance",
+                          "ref": 2594,
+                          "path": "MC2BattleYupa.AttackLinkedSuperSkill",
+                          "kind": "ArrayProperty",
+                          "start": 1367,
+                          "end": 1372
+                        },
+                        "kind": "StructProperty",
+                        "start": 1361,
+                        "end": 1372
+                      },
+                      "ref": 2613,
+                      "path": "MC2BattleYupa.AttackStruct.SeqData",
+                      "kind": "ObjectProperty",
+                      "start": 1350,
+                      "end": 1372,
+                      "struct_ref": 2618,
+                      "copy": 0,
+                      "modification": 0
+                    },
+                    "value": {
+                      "op": "virtual-call",
+                      "name": "GetSkillData",
+                      "arguments": [],
+                      "kind": "ObjectProperty",
+                      "declaration_candidates": [
+                        {
+                          "export": 2332,
+                          "path": "MC2BattleSkillSeq.GetSkillData",
+                          "return_kind": "ObjectProperty"
+                        },
+                        {
+                          "export": 2805,
+                          "path": "MC2BattleYupa.GetSkillData",
+                          "return_kind": "ObjectProperty"
+                        },
+                        {
+                          "export": 2920,
+                          "path": "MC2BattleYupaManager.GetSkillData",
+                          "return_kind": "ObjectProperty"
+                        }
+                      ],
+                      "owner_dispatch_verified": false,
+                      "start": 1375,
+                      "end": 1385
+                    },
+                    "kind": "ObjectProperty",
+                    "start": 1349,
+                    "end": 1385,
+                    "raw_skip": 10,
+                    "property_type": 4
+                  },
+                  "value": {
+                    "op": "instance",
+                    "ref": 30724,
+                    "path": "MC2SkillData.SkillNameText",
+                    "kind": "StrProperty",
+                    "start": 1388,
+                    "end": 1393
+                  },
+                  "kind": "StrProperty",
+                  "start": 1348,
+                  "end": 1393,
+                  "raw_skip": 5,
+                  "property_type": 0
+                }
+              ],
+              "kind": "StrProperty",
+              "start": 1251,
+              "end": 1394
+            },
+            "size": 149
+          },
+          {
+            "offset": 1440,
+            "logical_offset": 7006029,
+            "sha256": "0d4ad5b175902e1e6269c4b5fd1e35360f87fdc6215eb97db5e11db68fe80db8",
+            "target": {
+              "op": "local",
+              "ref": 2708,
+              "path": "MC2BattleYupa.LearnSkill.NewStr",
+              "kind": "StrProperty",
+              "start": 1441,
+              "end": 1446
+            },
+            "value": {
+              "op": "concat",
+              "args": [
+                {
+                  "op": "local",
+                  "ref": 2708,
+                  "path": "MC2BattleYupa.LearnSkill.NewStr",
+                  "kind": "StrProperty",
+                  "start": 1447,
+                  "end": 1452
+                },
+                {
+                  "op": "literal",
+                  "text": "<Strings:MC2UI.diction.Objective_1> ",
+                  "kind": "StrProperty",
+                  "start": 1452,
+                  "end": 1490
+                }
+              ],
+              "kind": "StrProperty",
+              "start": 1446,
+              "end": 1491
+            },
+            "size": 51
+          },
+          {
+            "offset": 1494,
+            "logical_offset": 7006083,
+            "sha256": "07c4a4b88cd47eb7d1d4fb002cee2833af31bc9965a89a21a1c444bcf7e2c02a",
+            "target": {
+              "op": "local",
+              "ref": 2708,
+              "path": "MC2BattleYupa.LearnSkill.NewStr",
+              "kind": "StrProperty",
+              "start": 1495,
+              "end": 1500
+            },
+            "value": {
+              "op": "concat",
+              "args": [
+                {
+                  "op": "local",
+                  "ref": 2708,
+                  "path": "MC2BattleYupa.LearnSkill.NewStr",
+                  "kind": "StrProperty",
+                  "start": 1501,
+                  "end": 1506
+                },
+                {
+                  "op": "literal",
+                  "text": "<Strings:MC2UI.diction.Objective_0> ",
+                  "kind": "StrProperty",
+                  "start": 1506,
+                  "end": 1544
+                }
+              ],
+              "kind": "StrProperty",
+              "start": 1500,
+              "end": 1545
+            },
+            "size": 51
+          },
+          {
+            "offset": 1545,
+            "logical_offset": 7006134,
+            "sha256": "8e8bc20cf5513fc376fc47d9e7818d4621dc27dfa6be8823e1b73de137e01c8e",
+            "target": {
+              "op": "local",
+              "ref": 2708,
+              "path": "MC2BattleYupa.LearnSkill.NewStr",
+              "kind": "StrProperty",
+              "start": 1546,
+              "end": 1551
+            },
+            "value": {
+              "op": "concat",
+              "args": [
+                {
+                  "op": "local",
+                  "ref": 2708,
+                  "path": "MC2BattleYupa.LearnSkill.NewStr",
+                  "kind": "StrProperty",
+                  "start": 1552,
+                  "end": 1557
+                },
+                {
+                  "op": "literal",
+                  "text": "<Strings:MC2UI.System_Log.GetSkill>",
+                  "kind": "StrProperty",
+                  "start": 1557,
+                  "end": 1594
+                }
+              ],
+              "kind": "StrProperty",
+              "start": 1551,
+              "end": 1595
+            },
+            "size": 50
+          }
+        ]
+      },
+      {
+        "export": 7624,
+        "function": "MC2DropItemActor.AddItemManager",
+        "script_sha256": "4b165264c40b36243c0600bdd4419f59ed2946057393a6bbb940e8058fc2635e",
+        "script_size": 1005,
+        "windows": [
+          {
+            "offset": 238,
+            "logical_offset": 7426830,
+            "sha256": "ba5e14502e79b25da4ba06f2e900ed4dbbcd2dcd25e8640403cc016c102e0d55",
+            "target": {
+              "op": "local",
+              "ref": 7622,
+              "path": "MC2DropItemActor.AddItemManager.strItem",
+              "kind": "StrProperty",
+              "start": 245,
+              "end": 250
+            },
+            "value": {
+              "op": "concat",
+              "args": [
+                {
+                  "op": "local",
+                  "ref": 7622,
+                  "path": "MC2DropItemActor.AddItemManager.strItem",
+                  "kind": "StrProperty",
+                  "start": 245,
+                  "end": 250
+                },
+                {
+                  "op": "struct-member",
+                  "value": {
+                    "op": "dynamic-array-element",
+                    "index": {
+                      "op": "local",
+                      "ref": 7623,
+                      "path": "MC2DropItemActor.AddItemManager.I",
+                      "kind": "IntProperty",
+                      "start": 262,
+                      "end": 267
+                    },
+                    "array": {
+                      "op": "instance",
+                      "ref": 7592,
+                      "path": "MC2DropItemActor.SearchItemList",
+                      "kind": "ArrayProperty",
+                      "start": 267,
+                      "end": 272
+                    },
+                    "kind": "StructProperty",
+                    "start": 261,
+                    "end": 272
+                  },
+                  "ref": 7597,
+                  "path": "MC2DropItemActor.sItemExt.ItemName",
+                  "kind": "StrProperty",
+                  "start": 250,
+                  "end": 272,
+                  "struct_ref": 7598,
+                  "copy": 0,
+                  "modification": 0
+                }
+              ],
+              "kind": "StrProperty"
+            },
+            "size": 35
+          },
+          {
+            "offset": 276,
+            "logical_offset": 7426868,
+            "sha256": "5519056b1c401c3e9776e7159b9804b2d6faa2fe71ae5efbac892dd818179bb7",
+            "target": {
+              "op": "local",
+              "ref": 7622,
+              "path": "MC2DropItemActor.AddItemManager.strItem",
+              "kind": "StrProperty",
+              "start": 283,
+              "end": 288
+            },
+            "value": {
+              "op": "concat",
+              "args": [
+                {
+                  "op": "local",
+                  "ref": 7622,
+                  "path": "MC2DropItemActor.AddItemManager.strItem",
+                  "kind": "StrProperty",
+                  "start": 283,
+                  "end": 288
+                },
+                {
+                  "op": "concat",
+                  "args": [
+                    {
+                      "op": "concat",
+                      "args": [
+                        {
+                          "op": "concat",
+                          "args": [
+                            {
+                              "op": "struct-member",
+                              "value": {
+                                "op": "dynamic-array-element",
+                                "index": {
+                                  "op": "local",
+                                  "ref": 7623,
+                                  "path": "MC2DropItemActor.AddItemManager.I",
+                                  "kind": "IntProperty",
+                                  "start": 303,
+                                  "end": 308
+                                },
+                                "array": {
+                                  "op": "instance",
+                                  "ref": 7592,
+                                  "path": "MC2DropItemActor.SearchItemList",
+                                  "kind": "ArrayProperty",
+                                  "start": 308,
+                                  "end": 313
+                                },
+                                "kind": "StructProperty",
+                                "start": 302,
+                                "end": 313
+                              },
+                              "ref": 7597,
+                              "path": "MC2DropItemActor.sItemExt.ItemName",
+                              "kind": "StrProperty",
+                              "start": 291,
+                              "end": 313,
+                              "struct_ref": 7598,
+                              "copy": 0,
+                              "modification": 0
+                            },
+                            {
+                              "op": "literal",
+                              "text": "<Strings:MC2UI.Punctuation.BracketL>",
+                              "kind": "StrProperty",
+                              "start": 313,
+                              "end": 351
+                            }
+                          ],
+                          "kind": "StrProperty",
+                          "start": 290,
+                          "end": 352
+                        },
+                        {
+                          "op": "int-to-string",
+                          "value": {
+                            "op": "struct-member",
+                            "value": {
+                              "op": "dynamic-array-element",
+                              "index": {
+                                "op": "local",
+                                "ref": 7623,
+                                "path": "MC2DropItemActor.AddItemManager.I",
+                                "kind": "IntProperty",
+                                "start": 366,
+                                "end": 371
+                              },
+                              "array": {
+                                "op": "instance",
+                                "ref": 7592,
+                                "path": "MC2DropItemActor.SearchItemList",
+                                "kind": "ArrayProperty",
+                                "start": 371,
+                                "end": 376
+                              },
+                              "kind": "StructProperty",
+                              "start": 365,
+                              "end": 376
+                            },
+                            "ref": 7596,
+                            "path": "MC2DropItemActor.sItemExt.nCount",
+                            "kind": "IntProperty",
+                            "start": 354,
+                            "end": 376,
+                            "struct_ref": 7598,
+                            "copy": 0,
+                            "modification": 0
+                          },
+                          "kind": "StrProperty",
+                          "start": 352,
+                          "end": 376
+                        }
+                      ],
+                      "kind": "StrProperty",
+                      "start": 289,
+                      "end": 377
+                    },
+                    {
+                      "op": "literal",
+                      "text": "<Strings:MC2UI.Punctuation.BreaketR>",
+                      "kind": "StrProperty",
+                      "start": 377,
+                      "end": 415
+                    }
+                  ],
+                  "kind": "StrProperty",
+                  "start": 288,
+                  "end": 416
+                }
+              ],
+              "kind": "StrProperty"
+            },
+            "size": 141
+          },
+          {
+            "offset": 417,
+            "logical_offset": 7427009,
+            "sha256": "f1ceab2dce7ba7b6b7313c28b0a07a463d3b1fad1da7482ce114839fa753119d",
+            "target": {
+              "op": "local",
+              "ref": 7621,
+              "path": "MC2DropItemActor.AddItemManager.tempStr",
+              "kind": "StrProperty",
+              "start": 418,
+              "end": 423
+            },
+            "value": {
+              "op": "struct-member",
+              "value": {
+                "op": "dynamic-array-element",
+                "index": {
+                  "op": "local",
+                  "ref": 7623,
+                  "path": "MC2DropItemActor.AddItemManager.I",
+                  "kind": "IntProperty",
+                  "start": 435,
+                  "end": 440
+                },
+                "array": {
+                  "op": "instance",
+                  "ref": 7592,
+                  "path": "MC2DropItemActor.SearchItemList",
+                  "kind": "ArrayProperty",
+                  "start": 440,
+                  "end": 445
+                },
+                "kind": "StructProperty",
+                "start": 434,
+                "end": 445
+              },
+              "ref": 7597,
+              "path": "MC2DropItemActor.sItemExt.ItemName",
+              "kind": "StrProperty",
+              "start": 423,
+              "end": 445,
+              "struct_ref": 7598,
+              "copy": 0,
+              "modification": 0
+            },
+            "size": 28
+          },
+          {
+            "offset": 464,
+            "logical_offset": 7427056,
+            "sha256": "71258f6cd3327869567b22ae1219a83543c55fe3bd29a02a89a8af7ee8847bf6",
+            "target": {
+              "op": "local",
+              "ref": 7622,
+              "path": "MC2DropItemActor.AddItemManager.strItem",
+              "kind": "StrProperty",
+              "start": 471,
+              "end": 476
+            },
+            "value": {
+              "op": "concat",
+              "args": [
+                {
+                  "op": "local",
+                  "ref": 7622,
+                  "path": "MC2DropItemActor.AddItemManager.strItem",
+                  "kind": "StrProperty",
+                  "start": 471,
+                  "end": 476
+                },
+                {
+                  "op": "literal",
+                  "text": "<Strings:MC2UI.Punctuation.Comma>",
+                  "kind": "StrProperty",
+                  "start": 476,
+                  "end": 511
+                }
+              ],
+              "kind": "StrProperty"
+            },
+            "size": 48
+          },
+          {
+            "offset": 572,
+            "logical_offset": 7427164,
+            "sha256": "dc7ad29988c9d70144d47254bacd70ce8bd0c969d1ebc8c29a3870d1ecf8f132",
+            "target": {
+              "op": "local",
+              "ref": 7622,
+              "path": "MC2DropItemActor.AddItemManager.strItem",
+              "kind": "StrProperty",
+              "start": 579,
+              "end": 584
+            },
+            "value": {
+              "op": "concat",
+              "args": [
+                {
+                  "op": "local",
+                  "ref": 7622,
+                  "path": "MC2DropItemActor.AddItemManager.strItem",
+                  "kind": "StrProperty",
+                  "start": 579,
+                  "end": 584
+                },
+                {
+                  "op": "concat",
+                  "args": [
+                    {
+                      "op": "int-to-string",
+                      "value": {
+                        "op": "instance",
+                        "ref": 7591,
+                        "path": "MC2DropItemActor.nMoney",
+                        "kind": "IntProperty",
+                        "start": 587,
+                        "end": 592
+                      },
+                      "kind": "StrProperty",
+                      "start": 585,
+                      "end": 592
+                    },
+                    {
+                      "op": "literal",
+                      "text": "<Strings:MC2UI.System_Log.Sid>",
+                      "kind": "StrProperty",
+                      "start": 592,
+                      "end": 624
+                    }
+                  ],
+                  "kind": "StrProperty",
+                  "start": 584,
+                  "end": 625
+                }
+              ],
+              "kind": "StrProperty"
+            },
+            "size": 54
+          },
+          {
+            "offset": 626,
+            "logical_offset": 7427218,
+            "sha256": "3452c20f239633a8933c2073bd4bb925c91a781c79abdffd92fc443f5255738e",
+            "target": {
+              "op": "local",
+              "ref": 7621,
+              "path": "MC2DropItemActor.AddItemManager.tempStr",
+              "kind": "StrProperty",
+              "start": 627,
+              "end": 632
+            },
+            "value": {
+              "op": "local",
+              "ref": 7622,
+              "path": "MC2DropItemActor.AddItemManager.strItem",
+              "kind": "StrProperty",
+              "start": 632,
+              "end": 637
+            },
+            "size": 11
+          },
+          {
+            "offset": 740,
+            "logical_offset": 7427332,
+            "sha256": "ecf3f22b23f51da1b5f6861484a3f54f15b4d0b612f527ade8d64d8ad29ccf97",
+            "target": {
+              "op": "local",
+              "ref": 7622,
+              "path": "MC2DropItemActor.AddItemManager.strItem",
+              "kind": "StrProperty",
+              "start": 741,
+              "end": 746
+            },
+            "value": {
+              "op": "concat",
+              "args": [
+                {
+                  "op": "local",
+                  "ref": 7622,
+                  "path": "MC2DropItemActor.AddItemManager.strItem",
+                  "kind": "StrProperty",
+                  "start": 747,
+                  "end": 752
+                },
+                {
+                  "op": "literal",
+                  "text": "<Strings:MC2UI.diction.Objective_1> ",
+                  "kind": "StrProperty",
+                  "start": 752,
+                  "end": 790
+                }
+              ],
+              "kind": "StrProperty",
+              "start": 746,
+              "end": 791
+            },
+            "size": 51
+          },
+          {
+            "offset": 794,
+            "logical_offset": 7427386,
+            "sha256": "4b6c4eeae1311ef42a159021a6bb08d426e4fc8dabfa73a30941f88c60255b9c",
+            "target": {
+              "op": "local",
+              "ref": 7622,
+              "path": "MC2DropItemActor.AddItemManager.strItem",
+              "kind": "StrProperty",
+              "start": 795,
+              "end": 800
+            },
+            "value": {
+              "op": "concat",
+              "args": [
+                {
+                  "op": "local",
+                  "ref": 7622,
+                  "path": "MC2DropItemActor.AddItemManager.strItem",
+                  "kind": "StrProperty",
+                  "start": 801,
+                  "end": 806
+                },
+                {
+                  "op": "literal",
+                  "text": "<Strings:MC2UI.diction.Objective_0> ",
+                  "kind": "StrProperty",
+                  "start": 806,
+                  "end": 844
+                }
+              ],
+              "kind": "StrProperty",
+              "start": 800,
+              "end": 845
+            },
+            "size": 51
+          },
+          {
+            "offset": 845,
+            "logical_offset": 7427437,
+            "sha256": "e197f3658f58c0ff43bb1e20c3fea7577bf6defc9776b19e1b4bca790b5380f2",
+            "target": {
+              "op": "local",
+              "ref": 7622,
+              "path": "MC2DropItemActor.AddItemManager.strItem",
+              "kind": "StrProperty",
+              "start": 846,
+              "end": 851
+            },
+            "value": {
+              "op": "concat",
+              "args": [
+                {
+                  "op": "local",
+                  "ref": 7622,
+                  "path": "MC2DropItemActor.AddItemManager.strItem",
+                  "kind": "StrProperty",
+                  "start": 852,
+                  "end": 857
+                },
+                {
+                  "op": "literal",
+                  "text": "<Strings:MC2UI.Battle_Log.GetITEM>",
+                  "kind": "StrProperty",
+                  "start": 857,
+                  "end": 893
+                }
+              ],
+              "kind": "StrProperty",
+              "start": 851,
+              "end": 894
+            },
+            "size": 49
+          }
+        ]
+      },
+      {
+        "export": 7670,
+        "function": "MC2DropItemPlaceableActor.AddItemManager",
+        "script_sha256": "30387805566cd4051bad762ca239ca973d63792cca4b15b6cabad075ebe10094",
+        "script_size": 1035,
+        "windows": [
+          {
+            "offset": 268,
+            "logical_offset": 7431500,
+            "sha256": "25273f3c6291ab220b785f24b0fdd39fa48be5d5babb35f41221c5d873a38100",
+            "target": {
+              "op": "local",
+              "ref": 7668,
+              "path": "MC2DropItemPlaceableActor.AddItemManager.strItem",
+              "kind": "StrProperty",
+              "start": 275,
+              "end": 280
+            },
+            "value": {
+              "op": "concat",
+              "args": [
+                {
+                  "op": "local",
+                  "ref": 7668,
+                  "path": "MC2DropItemPlaceableActor.AddItemManager.strItem",
+                  "kind": "StrProperty",
+                  "start": 275,
+                  "end": 280
+                },
+                {
+                  "op": "struct-member",
+                  "value": {
+                    "op": "dynamic-array-element",
+                    "index": {
+                      "op": "local",
+                      "ref": 7669,
+                      "path": "MC2DropItemPlaceableActor.AddItemManager.I",
+                      "kind": "IntProperty",
+                      "start": 292,
+                      "end": 297
+                    },
+                    "array": {
+                      "op": "instance",
+                      "ref": 7644,
+                      "path": "MC2DropItemPlaceableActor.SearchItemList",
+                      "kind": "ArrayProperty",
+                      "start": 297,
+                      "end": 302
+                    },
+                    "kind": "StructProperty",
+                    "start": 291,
+                    "end": 302
+                  },
+                  "ref": 7647,
+                  "path": "MC2DropItemPlaceableActor.sItemExt.ItemName",
+                  "kind": "StrProperty",
+                  "start": 280,
+                  "end": 302,
+                  "struct_ref": 7648,
+                  "copy": 0,
+                  "modification": 0
+                }
+              ],
+              "kind": "StrProperty"
+            },
+            "size": 35
+          },
+          {
+            "offset": 306,
+            "logical_offset": 7431538,
+            "sha256": "a50f58d251cc54818af75945322a3fab106fabfc8f8553abe51b2f49418c4c9d",
+            "target": {
+              "op": "local",
+              "ref": 7668,
+              "path": "MC2DropItemPlaceableActor.AddItemManager.strItem",
+              "kind": "StrProperty",
+              "start": 313,
+              "end": 318
+            },
+            "value": {
+              "op": "concat",
+              "args": [
+                {
+                  "op": "local",
+                  "ref": 7668,
+                  "path": "MC2DropItemPlaceableActor.AddItemManager.strItem",
+                  "kind": "StrProperty",
+                  "start": 313,
+                  "end": 318
+                },
+                {
+                  "op": "concat",
+                  "args": [
+                    {
+                      "op": "concat",
+                      "args": [
+                        {
+                          "op": "concat",
+                          "args": [
+                            {
+                              "op": "struct-member",
+                              "value": {
+                                "op": "dynamic-array-element",
+                                "index": {
+                                  "op": "local",
+                                  "ref": 7669,
+                                  "path": "MC2DropItemPlaceableActor.AddItemManager.I",
+                                  "kind": "IntProperty",
+                                  "start": 333,
+                                  "end": 338
+                                },
+                                "array": {
+                                  "op": "instance",
+                                  "ref": 7644,
+                                  "path": "MC2DropItemPlaceableActor.SearchItemList",
+                                  "kind": "ArrayProperty",
+                                  "start": 338,
+                                  "end": 343
+                                },
+                                "kind": "StructProperty",
+                                "start": 332,
+                                "end": 343
+                              },
+                              "ref": 7647,
+                              "path": "MC2DropItemPlaceableActor.sItemExt.ItemName",
+                              "kind": "StrProperty",
+                              "start": 321,
+                              "end": 343,
+                              "struct_ref": 7648,
+                              "copy": 0,
+                              "modification": 0
+                            },
+                            {
+                              "op": "literal",
+                              "text": "<Strings:MC2UI.Punctuation.BracketL>",
+                              "kind": "StrProperty",
+                              "start": 343,
+                              "end": 381
+                            }
+                          ],
+                          "kind": "StrProperty",
+                          "start": 320,
+                          "end": 382
+                        },
+                        {
+                          "op": "int-to-string",
+                          "value": {
+                            "op": "struct-member",
+                            "value": {
+                              "op": "dynamic-array-element",
+                              "index": {
+                                "op": "local",
+                                "ref": 7669,
+                                "path": "MC2DropItemPlaceableActor.AddItemManager.I",
+                                "kind": "IntProperty",
+                                "start": 396,
+                                "end": 401
+                              },
+                              "array": {
+                                "op": "instance",
+                                "ref": 7644,
+                                "path": "MC2DropItemPlaceableActor.SearchItemList",
+                                "kind": "ArrayProperty",
+                                "start": 401,
+                                "end": 406
+                              },
+                              "kind": "StructProperty",
+                              "start": 395,
+                              "end": 406
+                            },
+                            "ref": 7646,
+                            "path": "MC2DropItemPlaceableActor.sItemExt.nCount",
+                            "kind": "IntProperty",
+                            "start": 384,
+                            "end": 406,
+                            "struct_ref": 7648,
+                            "copy": 0,
+                            "modification": 0
+                          },
+                          "kind": "StrProperty",
+                          "start": 382,
+                          "end": 406
+                        }
+                      ],
+                      "kind": "StrProperty",
+                      "start": 319,
+                      "end": 407
+                    },
+                    {
+                      "op": "literal",
+                      "text": "<Strings:MC2UI.Punctuation.BreaketR>",
+                      "kind": "StrProperty",
+                      "start": 407,
+                      "end": 445
+                    }
+                  ],
+                  "kind": "StrProperty",
+                  "start": 318,
+                  "end": 446
+                }
+              ],
+              "kind": "StrProperty"
+            },
+            "size": 141
+          },
+          {
+            "offset": 447,
+            "logical_offset": 7431679,
+            "sha256": "8090f1d508adf80f97e28185b509719c170bc5750b2ab2f90502b84a7a893139",
+            "target": {
+              "op": "local",
+              "ref": 7667,
+              "path": "MC2DropItemPlaceableActor.AddItemManager.tempStr",
+              "kind": "StrProperty",
+              "start": 448,
+              "end": 453
+            },
+            "value": {
+              "op": "struct-member",
+              "value": {
+                "op": "dynamic-array-element",
+                "index": {
+                  "op": "local",
+                  "ref": 7669,
+                  "path": "MC2DropItemPlaceableActor.AddItemManager.I",
+                  "kind": "IntProperty",
+                  "start": 465,
+                  "end": 470
+                },
+                "array": {
+                  "op": "instance",
+                  "ref": 7644,
+                  "path": "MC2DropItemPlaceableActor.SearchItemList",
+                  "kind": "ArrayProperty",
+                  "start": 470,
+                  "end": 475
+                },
+                "kind": "StructProperty",
+                "start": 464,
+                "end": 475
+              },
+              "ref": 7647,
+              "path": "MC2DropItemPlaceableActor.sItemExt.ItemName",
+              "kind": "StrProperty",
+              "start": 453,
+              "end": 475,
+              "struct_ref": 7648,
+              "copy": 0,
+              "modification": 0
+            },
+            "size": 28
+          },
+          {
+            "offset": 494,
+            "logical_offset": 7431726,
+            "sha256": "c79d51f7d53c7b1761c52cd8af1634e7ab8997c3e31272ee772f70416cdb4ff3",
+            "target": {
+              "op": "local",
+              "ref": 7668,
+              "path": "MC2DropItemPlaceableActor.AddItemManager.strItem",
+              "kind": "StrProperty",
+              "start": 501,
+              "end": 506
+            },
+            "value": {
+              "op": "concat",
+              "args": [
+                {
+                  "op": "local",
+                  "ref": 7668,
+                  "path": "MC2DropItemPlaceableActor.AddItemManager.strItem",
+                  "kind": "StrProperty",
+                  "start": 501,
+                  "end": 506
+                },
+                {
+                  "op": "literal",
+                  "text": "<Strings:MC2UI.Punctuation.Comma>",
+                  "kind": "StrProperty",
+                  "start": 506,
+                  "end": 541
+                }
+              ],
+              "kind": "StrProperty"
+            },
+            "size": 48
+          },
+          {
+            "offset": 602,
+            "logical_offset": 7431834,
+            "sha256": "982e930fb29f98c1092de25f0c4def2fc74336dcfd7d590c1d2582a80f80c2f0",
+            "target": {
+              "op": "local",
+              "ref": 7668,
+              "path": "MC2DropItemPlaceableActor.AddItemManager.strItem",
+              "kind": "StrProperty",
+              "start": 609,
+              "end": 614
+            },
+            "value": {
+              "op": "concat",
+              "args": [
+                {
+                  "op": "local",
+                  "ref": 7668,
+                  "path": "MC2DropItemPlaceableActor.AddItemManager.strItem",
+                  "kind": "StrProperty",
+                  "start": 609,
+                  "end": 614
+                },
+                {
+                  "op": "concat",
+                  "args": [
+                    {
+                      "op": "int-to-string",
+                      "value": {
+                        "op": "instance",
+                        "ref": 7642,
+                        "path": "MC2DropItemPlaceableActor.nMoney",
+                        "kind": "IntProperty",
+                        "start": 617,
+                        "end": 622
+                      },
+                      "kind": "StrProperty",
+                      "start": 615,
+                      "end": 622
+                    },
+                    {
+                      "op": "literal",
+                      "text": "<Strings:MC2UI.System_Log.Sid>",
+                      "kind": "StrProperty",
+                      "start": 622,
+                      "end": 654
+                    }
+                  ],
+                  "kind": "StrProperty",
+                  "start": 614,
+                  "end": 655
+                }
+              ],
+              "kind": "StrProperty"
+            },
+            "size": 54
+          },
+          {
+            "offset": 656,
+            "logical_offset": 7431888,
+            "sha256": "c31fdac2e586aaafa7ea46e7360443f51a9e87da75421f56f2265fc308560b8a",
+            "target": {
+              "op": "local",
+              "ref": 7667,
+              "path": "MC2DropItemPlaceableActor.AddItemManager.tempStr",
+              "kind": "StrProperty",
+              "start": 657,
+              "end": 662
+            },
+            "value": {
+              "op": "local",
+              "ref": 7668,
+              "path": "MC2DropItemPlaceableActor.AddItemManager.strItem",
+              "kind": "StrProperty",
+              "start": 662,
+              "end": 667
+            },
+            "size": 11
+          },
+          {
+            "offset": 770,
+            "logical_offset": 7432002,
+            "sha256": "e61d2a168c50b92456d9df9aabe866245dc18d801f466c29d7b25d257b0a7ec9",
+            "target": {
+              "op": "local",
+              "ref": 7668,
+              "path": "MC2DropItemPlaceableActor.AddItemManager.strItem",
+              "kind": "StrProperty",
+              "start": 771,
+              "end": 776
+            },
+            "value": {
+              "op": "concat",
+              "args": [
+                {
+                  "op": "local",
+                  "ref": 7668,
+                  "path": "MC2DropItemPlaceableActor.AddItemManager.strItem",
+                  "kind": "StrProperty",
+                  "start": 777,
+                  "end": 782
+                },
+                {
+                  "op": "literal",
+                  "text": "<Strings:MC2UI.diction.Objective_1> ",
+                  "kind": "StrProperty",
+                  "start": 782,
+                  "end": 820
+                }
+              ],
+              "kind": "StrProperty",
+              "start": 776,
+              "end": 821
+            },
+            "size": 51
+          },
+          {
+            "offset": 824,
+            "logical_offset": 7432056,
+            "sha256": "67969d8549462fd30a6b0537c27791f682781545c11a93d900a00d0a7b005576",
+            "target": {
+              "op": "local",
+              "ref": 7668,
+              "path": "MC2DropItemPlaceableActor.AddItemManager.strItem",
+              "kind": "StrProperty",
+              "start": 825,
+              "end": 830
+            },
+            "value": {
+              "op": "concat",
+              "args": [
+                {
+                  "op": "local",
+                  "ref": 7668,
+                  "path": "MC2DropItemPlaceableActor.AddItemManager.strItem",
+                  "kind": "StrProperty",
+                  "start": 831,
+                  "end": 836
+                },
+                {
+                  "op": "literal",
+                  "text": "<Strings:MC2UI.diction.Objective_0> ",
+                  "kind": "StrProperty",
+                  "start": 836,
+                  "end": 874
+                }
+              ],
+              "kind": "StrProperty",
+              "start": 830,
+              "end": 875
+            },
+            "size": 51
+          },
+          {
+            "offset": 875,
+            "logical_offset": 7432107,
+            "sha256": "084760402544e15d46253c7075ff910198a805d2f6c747d7a430691337dadf62",
+            "target": {
+              "op": "local",
+              "ref": 7668,
+              "path": "MC2DropItemPlaceableActor.AddItemManager.strItem",
+              "kind": "StrProperty",
+              "start": 876,
+              "end": 881
+            },
+            "value": {
+              "op": "concat",
+              "args": [
+                {
+                  "op": "local",
+                  "ref": 7668,
+                  "path": "MC2DropItemPlaceableActor.AddItemManager.strItem",
+                  "kind": "StrProperty",
+                  "start": 882,
+                  "end": 887
+                },
+                {
+                  "op": "literal",
+                  "text": "<Strings:MC2UI.Battle_Log.GetITEM>",
+                  "kind": "StrProperty",
+                  "start": 887,
+                  "end": 923
+                }
+              ],
+              "kind": "StrProperty",
+              "start": 881,
+              "end": 924
+            },
+            "size": 49
+          }
+        ]
+      },
+      {
+        "export": 8846,
+        "function": "MC2FieldObj_IncompletionBomb.AddInvenItem",
+        "script_sha256": "c908c788f782a1d16fe5fde20127c1c90e9b523f6cb062fd7bb5a7ddeeddd9d2",
+        "script_size": 487,
+        "windows": [
+          {
+            "offset": 101,
+            "logical_offset": 7532546,
+            "sha256": "4d63083588f16c17652fa4554b1dccc872cc1a502e3d50adc45b4512af10b870",
+            "target": {
+              "op": "local",
+              "ref": 8842,
+              "path": "MC2FieldObj_IncompletionBomb.AddInvenItem.strItem",
+              "kind": "StrProperty",
+              "start": 108,
+              "end": 113
+            },
+            "value": {
+              "op": "concat",
+              "args": [
+                {
+                  "op": "local",
+                  "ref": 8842,
+                  "path": "MC2FieldObj_IncompletionBomb.AddInvenItem.strItem",
+                  "kind": "StrProperty",
+                  "start": 108,
+                  "end": 113
+                },
+                {
+                  "op": "context",
+                  "object": {
+                    "op": "local",
+                    "ref": 8843,
+                    "path": "MC2FieldObj_IncompletionBomb.AddInvenItem.Item",
+                    "kind": "ObjectProperty",
+                    "start": 114,
+                    "end": 119
+                  },
+                  "value": {
+                    "op": "instance",
+                    "ref": 12761,
+                    "path": "MC2Item.ItemName",
+                    "kind": "StrProperty",
+                    "start": 122,
+                    "end": 127
+                  },
+                  "kind": "StrProperty",
+                  "start": 113,
+                  "end": 127,
+                  "raw_skip": 5,
+                  "property_type": 0
+                }
+              ],
+              "kind": "StrProperty"
+            },
+            "size": 27
+          },
+          {
+            "offset": 222,
+            "logical_offset": 7532667,
+            "sha256": "6a4ab0dd8a2e111d8561cb21802711596ebac2363fbe5d7dbc8eda99116f8961",
+            "target": {
+              "op": "local",
+              "ref": 8842,
+              "path": "MC2FieldObj_IncompletionBomb.AddInvenItem.strItem",
+              "kind": "StrProperty",
+              "start": 223,
+              "end": 228
+            },
+            "value": {
+              "op": "concat",
+              "args": [
+                {
+                  "op": "local",
+                  "ref": 8842,
+                  "path": "MC2FieldObj_IncompletionBomb.AddInvenItem.strItem",
+                  "kind": "StrProperty",
+                  "start": 229,
+                  "end": 234
+                },
+                {
+                  "op": "literal",
+                  "text": "<Strings:MC2UI.diction.Objective_1> ",
+                  "kind": "StrProperty",
+                  "start": 234,
+                  "end": 272
+                }
+              ],
+              "kind": "StrProperty",
+              "start": 228,
+              "end": 273
+            },
+            "size": 51
+          },
+          {
+            "offset": 276,
+            "logical_offset": 7532721,
+            "sha256": "23593762c36078be088ff20f339296988e35e5abd3b2d5c17f646390fbd02f46",
+            "target": {
+              "op": "local",
+              "ref": 8842,
+              "path": "MC2FieldObj_IncompletionBomb.AddInvenItem.strItem",
+              "kind": "StrProperty",
+              "start": 277,
+              "end": 282
+            },
+            "value": {
+              "op": "concat",
+              "args": [
+                {
+                  "op": "local",
+                  "ref": 8842,
+                  "path": "MC2FieldObj_IncompletionBomb.AddInvenItem.strItem",
+                  "kind": "StrProperty",
+                  "start": 283,
+                  "end": 288
+                },
+                {
+                  "op": "literal",
+                  "text": "<Strings:MC2UI.diction.Objective_0> ",
+                  "kind": "StrProperty",
+                  "start": 288,
+                  "end": 326
+                }
+              ],
+              "kind": "StrProperty",
+              "start": 282,
+              "end": 327
+            },
+            "size": 51
+          },
+          {
+            "offset": 327,
+            "logical_offset": 7532772,
+            "sha256": "5aba4e9168c4e1ef5ed15f0058e6ccb0138b395ccd2ab5d66afdf40c60109f20",
+            "target": {
+              "op": "local",
+              "ref": 8842,
+              "path": "MC2FieldObj_IncompletionBomb.AddInvenItem.strItem",
+              "kind": "StrProperty",
+              "start": 328,
+              "end": 333
+            },
+            "value": {
+              "op": "concat",
+              "args": [
+                {
+                  "op": "local",
+                  "ref": 8842,
+                  "path": "MC2FieldObj_IncompletionBomb.AddInvenItem.strItem",
+                  "kind": "StrProperty",
+                  "start": 334,
+                  "end": 339
+                },
+                {
+                  "op": "literal",
+                  "text": "<Strings:MC2UI.Battle_Log.GetITEM>",
+                  "kind": "StrProperty",
+                  "start": 339,
+                  "end": 375
+                }
+              ],
+              "kind": "StrProperty",
+              "start": 333,
+              "end": 376
+            },
+            "size": 49
+          }
+        ]
+      },
+      {
+        "export": 8982,
+        "function": "MC2FieldObj_SelectTypeIncomBomb.AddInvenItem",
+        "script_sha256": "68e40335f81b92177f57766ae3dddbccc4b00247a5acd66f4ee80410fe6f5129",
+        "script_size": 487,
+        "windows": [
+          {
+            "offset": 101,
+            "logical_offset": 7546113,
+            "sha256": "158f26af04db01e75106de4bd50b8d024201bb11827bfd083c959c18aff72098",
+            "target": {
+              "op": "local",
+              "ref": 8978,
+              "path": "MC2FieldObj_SelectTypeIncomBomb.AddInvenItem.strItem",
+              "kind": "StrProperty",
+              "start": 108,
+              "end": 113
+            },
+            "value": {
+              "op": "concat",
+              "args": [
+                {
+                  "op": "local",
+                  "ref": 8978,
+                  "path": "MC2FieldObj_SelectTypeIncomBomb.AddInvenItem.strItem",
+                  "kind": "StrProperty",
+                  "start": 108,
+                  "end": 113
+                },
+                {
+                  "op": "context",
+                  "object": {
+                    "op": "local",
+                    "ref": 8979,
+                    "path": "MC2FieldObj_SelectTypeIncomBomb.AddInvenItem.Item",
+                    "kind": "ObjectProperty",
+                    "start": 114,
+                    "end": 119
+                  },
+                  "value": {
+                    "op": "instance",
+                    "ref": 12761,
+                    "path": "MC2Item.ItemName",
+                    "kind": "StrProperty",
+                    "start": 122,
+                    "end": 127
+                  },
+                  "kind": "StrProperty",
+                  "start": 113,
+                  "end": 127,
+                  "raw_skip": 5,
+                  "property_type": 0
+                }
+              ],
+              "kind": "StrProperty"
+            },
+            "size": 27
+          },
+          {
+            "offset": 222,
+            "logical_offset": 7546234,
+            "sha256": "7ffe908538d53f6b5f773a7074c34c87800169089e7ad885ea0dcc05d4c4d3df",
+            "target": {
+              "op": "local",
+              "ref": 8978,
+              "path": "MC2FieldObj_SelectTypeIncomBomb.AddInvenItem.strItem",
+              "kind": "StrProperty",
+              "start": 223,
+              "end": 228
+            },
+            "value": {
+              "op": "concat",
+              "args": [
+                {
+                  "op": "local",
+                  "ref": 8978,
+                  "path": "MC2FieldObj_SelectTypeIncomBomb.AddInvenItem.strItem",
+                  "kind": "StrProperty",
+                  "start": 229,
+                  "end": 234
+                },
+                {
+                  "op": "literal",
+                  "text": "<Strings:MC2UI.diction.Objective_1> ",
+                  "kind": "StrProperty",
+                  "start": 234,
+                  "end": 272
+                }
+              ],
+              "kind": "StrProperty",
+              "start": 228,
+              "end": 273
+            },
+            "size": 51
+          },
+          {
+            "offset": 276,
+            "logical_offset": 7546288,
+            "sha256": "21a0ffe4aca6a705d00507944fb786ea2574eb96dec4c96c0640d2fe6fc67f1c",
+            "target": {
+              "op": "local",
+              "ref": 8978,
+              "path": "MC2FieldObj_SelectTypeIncomBomb.AddInvenItem.strItem",
+              "kind": "StrProperty",
+              "start": 277,
+              "end": 282
+            },
+            "value": {
+              "op": "concat",
+              "args": [
+                {
+                  "op": "local",
+                  "ref": 8978,
+                  "path": "MC2FieldObj_SelectTypeIncomBomb.AddInvenItem.strItem",
+                  "kind": "StrProperty",
+                  "start": 283,
+                  "end": 288
+                },
+                {
+                  "op": "literal",
+                  "text": "<Strings:MC2UI.diction.Objective_0> ",
+                  "kind": "StrProperty",
+                  "start": 288,
+                  "end": 326
+                }
+              ],
+              "kind": "StrProperty",
+              "start": 282,
+              "end": 327
+            },
+            "size": 51
+          },
+          {
+            "offset": 327,
+            "logical_offset": 7546339,
+            "sha256": "89ac897140827f18000eb946b5a2bb6b82a514b8ecc948d877116e7769cb0608",
+            "target": {
+              "op": "local",
+              "ref": 8978,
+              "path": "MC2FieldObj_SelectTypeIncomBomb.AddInvenItem.strItem",
+              "kind": "StrProperty",
+              "start": 328,
+              "end": 333
+            },
+            "value": {
+              "op": "concat",
+              "args": [
+                {
+                  "op": "local",
+                  "ref": 8978,
+                  "path": "MC2FieldObj_SelectTypeIncomBomb.AddInvenItem.strItem",
+                  "kind": "StrProperty",
+                  "start": 334,
+                  "end": 339
+                },
+                {
+                  "op": "literal",
+                  "text": "<Strings:MC2UI.Battle_Log.GetITEM>",
+                  "kind": "StrProperty",
+                  "start": 339,
+                  "end": 375
+                }
+              ],
+              "kind": "StrProperty",
+              "start": 333,
+              "end": 376
+            },
+            "size": 49
+          }
+        ]
+      },
+      {
+        "export": 9299,
+        "function": "MC2FieldObjMgr.GiveCollectPlantItem",
+        "script_sha256": "6f3254ee07671c01f787ddad290f5b7ee6a2ad366c754b4bf10e27d379896307",
+        "script_size": 386,
+        "windows": [
+          {
+            "offset": 64,
+            "logical_offset": 7570953,
+            "sha256": "f4e001a09daf37d6983bd8743749c259805f71ca58a6d16b3a23f4c9970040a1",
+            "target": {
+              "op": "local",
+              "ref": 9298,
+              "path": "MC2FieldObjMgr.GiveCollectPlantItem.strItem",
+              "kind": "StrProperty",
+              "start": 65,
+              "end": 70
+            },
+            "value": {
+              "op": "context",
+              "object": {
+                "op": "local",
+                "ref": 9297,
+                "path": "MC2FieldObjMgr.GiveCollectPlantItem.Item",
+                "kind": "ObjectProperty",
+                "start": 71,
+                "end": 76
+              },
+              "value": {
+                "op": "instance",
+                "ref": 12761,
+                "path": "MC2Item.ItemName",
+                "kind": "StrProperty",
+                "start": 79,
+                "end": 84
+              },
+              "kind": "StrProperty",
+              "start": 70,
+              "end": 84,
+              "raw_skip": 5,
+              "property_type": 0
+            },
+            "size": 20
+          },
+          {
+            "offset": 121,
+            "logical_offset": 7571010,
+            "sha256": "0d36f2685ac7a72fc3bca83b77c50f01f7562bebcf48998bf9071a43380e2bef",
+            "target": {
+              "op": "local",
+              "ref": 9298,
+              "path": "MC2FieldObjMgr.GiveCollectPlantItem.strItem",
+              "kind": "StrProperty",
+              "start": 122,
+              "end": 127
+            },
+            "value": {
+              "op": "concat",
+              "args": [
+                {
+                  "op": "local",
+                  "ref": 9298,
+                  "path": "MC2FieldObjMgr.GiveCollectPlantItem.strItem",
+                  "kind": "StrProperty",
+                  "start": 128,
+                  "end": 133
+                },
+                {
+                  "op": "literal",
+                  "text": "<Strings:MC2UI.diction.Objective_1> ",
+                  "kind": "StrProperty",
+                  "start": 133,
+                  "end": 171
+                }
+              ],
+              "kind": "StrProperty",
+              "start": 127,
+              "end": 172
+            },
+            "size": 51
+          },
+          {
+            "offset": 175,
+            "logical_offset": 7571064,
+            "sha256": "bc8203b1ca5eb32ad55cfabf47c9dc0b321fb791cd4f7d98ada37a9a67e88128",
+            "target": {
+              "op": "local",
+              "ref": 9298,
+              "path": "MC2FieldObjMgr.GiveCollectPlantItem.strItem",
+              "kind": "StrProperty",
+              "start": 176,
+              "end": 181
+            },
+            "value": {
+              "op": "concat",
+              "args": [
+                {
+                  "op": "local",
+                  "ref": 9298,
+                  "path": "MC2FieldObjMgr.GiveCollectPlantItem.strItem",
+                  "kind": "StrProperty",
+                  "start": 182,
+                  "end": 187
+                },
+                {
+                  "op": "literal",
+                  "text": "<Strings:MC2UI.diction.Objective_0> ",
+                  "kind": "StrProperty",
+                  "start": 187,
+                  "end": 225
+                }
+              ],
+              "kind": "StrProperty",
+              "start": 181,
+              "end": 226
+            },
+            "size": 51
+          },
+          {
+            "offset": 226,
+            "logical_offset": 7571115,
+            "sha256": "4bb1634133bbb71ed924dc716047c66df0ad2ded34b83ca6f9c1817763c5554e",
+            "target": {
+              "op": "local",
+              "ref": 9298,
+              "path": "MC2FieldObjMgr.GiveCollectPlantItem.strItem",
+              "kind": "StrProperty",
+              "start": 227,
+              "end": 232
+            },
+            "value": {
+              "op": "concat",
+              "args": [
+                {
+                  "op": "local",
+                  "ref": 9298,
+                  "path": "MC2FieldObjMgr.GiveCollectPlantItem.strItem",
+                  "kind": "StrProperty",
+                  "start": 233,
+                  "end": 238
+                },
+                {
+                  "op": "literal",
+                  "text": "<Strings:MC2UI.Battle_Log.GetITEM>",
+                  "kind": "StrProperty",
+                  "start": 238,
+                  "end": 274
+                }
+              ],
+              "kind": "StrProperty",
+              "start": 232,
+              "end": 275
+            },
+            "size": 49
+          }
+        ]
+      },
+      {
+        "export": 11146,
+        "function": "MC2UIScene_AlarmWindow.SetAlarmTextsIcon",
+        "script_sha256": "d2fd25116e1dc9395aa8a4d219d3695d5788e00c483b9876c4bb5968d27b6df8",
+        "script_size": 638,
+        "windows": [
+          {
+            "offset": 66,
+            "logical_offset": 7739364,
+            "sha256": "61dc25d4c3c72c7e9796f168c49c6874033a25c87557a1ad63df7a8283abd687",
+            "target": {
+              "op": "local",
+              "ref": 11141,
+              "path": "MC2UIScene_AlarmWindow.SetAlarmTextsIcon.NewStr",
+              "kind": "StrProperty",
+              "start": 67,
+              "end": 72
+            },
+            "value": {
+              "op": "concat",
+              "args": [
+                {
+                  "op": "virtual-call",
+                  "name": "GetIconString",
+                  "arguments": [
+                    {
+                      "op": "dynamic-cast",
+                      "class_ref": 12784,
+                      "value": {
+                        "op": "dynamic-array-element",
+                        "index": {
+                          "op": "local",
+                          "ref": 11143,
+                          "path": "MC2UIScene_AlarmWindow.SetAlarmTextsIcon.idx",
+                          "kind": "IntProperty",
+                          "start": 88,
+                          "end": 93
+                        },
+                        "array": {
+                          "op": "local",
+                          "ref": 11145,
+                          "path": "MC2UIScene_AlarmWindow.SetAlarmTextsIcon.Item",
+                          "kind": "ArrayProperty",
+                          "start": 93,
+                          "end": 98
+                        },
+                        "kind": "ObjectProperty",
+                        "start": 87,
+                        "end": 98
+                      },
+                      "kind": "ObjectProperty",
+                      "start": 82,
+                      "end": 98
+                    }
+                  ],
+                  "kind": "StrProperty",
+                  "declaration_candidates": [
+                    {
+                      "export": 10592,
+                      "path": "MC2UIScene.GetIconString",
+                      "return_kind": "StrProperty"
+                    }
+                  ],
+                  "owner_dispatch_verified": false,
+                  "start": 73,
+                  "end": 99
+                },
+                {
+                  "op": "context",
+                  "object": {
+                    "op": "dynamic-cast",
+                    "class_ref": 12784,
+                    "value": {
+                      "op": "dynamic-array-element",
+                      "index": {
+                        "op": "local",
+                        "ref": 11143,
+                        "path": "MC2UIScene_AlarmWindow.SetAlarmTextsIcon.idx",
+                        "kind": "IntProperty",
+                        "start": 106,
+                        "end": 111
+                      },
+                      "array": {
+                        "op": "local",
+                        "ref": 11145,
+                        "path": "MC2UIScene_AlarmWindow.SetAlarmTextsIcon.Item",
+                        "kind": "ArrayProperty",
+                        "start": 111,
+                        "end": 116
+                      },
+                      "kind": "ObjectProperty",
+                      "start": 105,
+                      "end": 116
+                    },
+                    "kind": "ObjectProperty",
+                    "start": 100,
+                    "end": 116
+                  },
+                  "value": {
+                    "op": "instance",
+                    "ref": 12761,
+                    "path": "MC2Item.ItemName",
+                    "kind": "StrProperty",
+                    "start": 119,
+                    "end": 124
+                  },
+                  "kind": "StrProperty",
+                  "start": 99,
+                  "end": 124,
+                  "raw_skip": 5,
+                  "property_type": 0
+                }
+              ],
+              "kind": "StrProperty",
+              "start": 72,
+              "end": 125
+            },
+            "size": 59
+          },
+          {
+            "offset": 125,
+            "logical_offset": 7739423,
+            "sha256": "f8e44a6d6cbf8ce68c44020855f9ea0c198789b00ce1a89e1756447e7b096fcf",
+            "target": {
+              "op": "local",
+              "ref": 11140,
+              "path": "MC2UIScene_AlarmWindow.SetAlarmTextsIcon.tempStr",
+              "kind": "StrProperty",
+              "start": 126,
+              "end": 131
+            },
+            "value": {
+              "op": "literal",
+              "text": "",
+              "kind": "StrProperty",
+              "start": 131,
+              "end": 133
+            },
+            "size": 8
+          },
+          {
+            "offset": 175,
+            "logical_offset": 7739473,
+            "sha256": "5cbd52358fea13e5871bf8bef6858d49957e875d2720aaed77c13aebb130f147",
+            "target": {
+              "op": "local",
+              "ref": 11140,
+              "path": "MC2UIScene_AlarmWindow.SetAlarmTextsIcon.tempStr",
+              "kind": "StrProperty",
+              "start": 176,
+              "end": 181
+            },
+            "value": {
+              "op": "literal",
+              "text": "<Strings:MC2UI.diction.Objective_1>",
+              "kind": "StrProperty",
+              "start": 181,
+              "end": 218
+            },
+            "size": 43
+          },
+          {
+            "offset": 221,
+            "logical_offset": 7739519,
+            "sha256": "fc8ab69f3e5f456c63047437c33e1c426ff39304bda0e44d4ff7703283747e92",
+            "target": {
+              "op": "local",
+              "ref": 11140,
+              "path": "MC2UIScene_AlarmWindow.SetAlarmTextsIcon.tempStr",
+              "kind": "StrProperty",
+              "start": 222,
+              "end": 227
+            },
+            "value": {
+              "op": "literal",
+              "text": "<Strings:MC2UI.diction.Objective_0>",
+              "kind": "StrProperty",
+              "start": 227,
+              "end": 264
+            },
+            "size": 43
+          },
+          {
+            "offset": 275,
+            "logical_offset": 7739573,
+            "sha256": "78d5a8a74ff177c3c0877679058ebad9d5e6f44c3a26e23d4d96747e3de1f3ce",
+            "target": {
+              "op": "local",
+              "ref": 11141,
+              "path": "MC2UIScene_AlarmWindow.SetAlarmTextsIcon.NewStr",
+              "kind": "StrProperty",
+              "start": 276,
+              "end": 281
+            },
+            "value": {
+              "op": "concat",
+              "args": [
+                {
+                  "op": "concat",
+                  "args": [
+                    {
+                      "op": "local",
+                      "ref": 11141,
+                      "path": "MC2UIScene_AlarmWindow.SetAlarmTextsIcon.NewStr",
+                      "kind": "StrProperty",
+                      "start": 283,
+                      "end": 288
+                    },
+                    {
+                      "op": "local",
+                      "ref": 11140,
+                      "path": "MC2UIScene_AlarmWindow.SetAlarmTextsIcon.tempStr",
+                      "kind": "StrProperty",
+                      "start": 288,
+                      "end": 293
+                    }
+                  ],
+                  "kind": "StrProperty",
+                  "start": 282,
+                  "end": 294
+                },
+                {
+                  "op": "literal",
+                  "text": " <Strings:MC2UI.System_Log.GetItem3>",
+                  "kind": "StrProperty",
+                  "start": 294,
+                  "end": 332
+                }
+              ],
+              "kind": "StrProperty",
+              "start": 281,
+              "end": 333
+            },
+            "size": 58
+          },
+          {
+            "offset": 336,
+            "logical_offset": 7739634,
+            "sha256": "4ac851bf6f39ff363a5bcd4f90ee13f70347d0ca4bcbf64f9edd07f7cacb4e23",
+            "target": {
+              "op": "local",
+              "ref": 11141,
+              "path": "MC2UIScene_AlarmWindow.SetAlarmTextsIcon.NewStr",
+              "kind": "StrProperty",
+              "start": 337,
+              "end": 342
+            },
+            "value": {
+              "op": "concat",
+              "args": [
+                {
+                  "op": "concat",
+                  "args": [
+                    {
+                      "op": "concat",
+                      "args": [
+                        {
+                          "op": "concat",
+                          "args": [
+                            {
+                              "op": "concat",
+                              "args": [
+                                {
+                                  "op": "local",
+                                  "ref": 11141,
+                                  "path": "MC2UIScene_AlarmWindow.SetAlarmTextsIcon.NewStr",
+                                  "kind": "StrProperty",
+                                  "start": 347,
+                                  "end": 352
+                                },
+                                {
+                                  "op": "literal",
+                                  "text": "<Strings:MC2UI.Punctuation.BracketL>",
+                                  "kind": "StrProperty",
+                                  "start": 352,
+                                  "end": 390
+                                }
+                              ],
+                              "kind": "StrProperty",
+                              "start": 346,
+                              "end": 391
+                            },
+                            {
+                              "op": "int-to-string",
+                              "value": {
+                                "op": "local",
+                                "ref": 11142,
+                                "path": "MC2UIScene_AlarmWindow.SetAlarmTextsIcon.N",
+                                "kind": "IntProperty",
+                                "start": 393,
+                                "end": 398
+                              },
+                              "kind": "StrProperty",
+                              "start": 391,
+                              "end": 398
+                            }
+                          ],
+                          "kind": "StrProperty",
+                          "start": 345,
+                          "end": 399
+                        },
+                        {
+                          "op": "literal",
+                          "text": "<Strings:MC2UI.Punctuation.BreaketR>",
+                          "kind": "StrProperty",
+                          "start": 399,
+                          "end": 437
+                        }
+                      ],
+                      "kind": "StrProperty",
+                      "start": 344,
+                      "end": 438
+                    },
+                    {
+                      "op": "local",
+                      "ref": 11140,
+                      "path": "MC2UIScene_AlarmWindow.SetAlarmTextsIcon.tempStr",
+                      "kind": "StrProperty",
+                      "start": 438,
+                      "end": 443
+                    }
+                  ],
+                  "kind": "StrProperty",
+                  "start": 343,
+                  "end": 444
+                },
+                {
+                  "op": "literal",
+                  "text": " <Strings:MC2UI.System_Log.GetItem3>",
+                  "kind": "StrProperty",
+                  "start": 444,
+                  "end": 482
+                }
+              ],
+              "kind": "StrProperty",
+              "start": 342,
+              "end": 483
+            },
+            "size": 147
+          },
+          {
+            "offset": 523,
+            "logical_offset": 7739821,
+            "sha256": "401b31f0f893c3666d88eb4861d476d59864fa9c6d558e2e6e696004a0b271c8",
+            "target": {
+              "op": "local",
+              "ref": 11141,
+              "path": "MC2UIScene_AlarmWindow.SetAlarmTextsIcon.NewStr",
+              "kind": "StrProperty",
+              "start": 524,
+              "end": 529
+            },
+            "value": {
+              "op": "dynamic-array-element",
+              "index": {
+                "op": "int",
+                "value": 0,
+                "kind": "IntProperty",
+                "start": 530,
+                "end": 531
+              },
+              "array": {
+                "op": "local",
+                "ref": 11139,
+                "path": "MC2UIScene_AlarmWindow.SetAlarmTextsIcon.StrList",
+                "kind": "ArrayProperty",
+                "start": 531,
+                "end": 536
+              },
+              "kind": "StrProperty",
+              "start": 529,
+              "end": 536
+            },
+            "size": 13
+          },
+          {
+            "offset": 559,
+            "logical_offset": 7739857,
+            "sha256": "f0d25f48c41c37670bbb71127129ce95f1c9872bae1631d13b940d913dfdfd91",
+            "target": {
+              "op": "local",
+              "ref": 11141,
+              "path": "MC2UIScene_AlarmWindow.SetAlarmTextsIcon.NewStr",
+              "kind": "StrProperty",
+              "start": 560,
+              "end": 565
+            },
+            "value": {
+              "op": "concat",
+              "args": [
+                {
+                  "op": "concat",
+                  "args": [
+                    {
+                      "op": "local",
+                      "ref": 11141,
+                      "path": "MC2UIScene_AlarmWindow.SetAlarmTextsIcon.NewStr",
+                      "kind": "StrProperty",
+                      "start": 567,
+                      "end": 572
+                    },
+                    {
+                      "op": "literal",
+                      "text": "\n",
+                      "kind": "StrProperty",
+                      "start": 572,
+                      "end": 575
+                    }
+                  ],
+                  "kind": "StrProperty",
+                  "start": 566,
+                  "end": 576
+                },
+                {
+                  "op": "dynamic-array-element",
+                  "index": {
+                    "op": "local",
+                    "ref": 11143,
+                    "path": "MC2UIScene_AlarmWindow.SetAlarmTextsIcon.idx",
+                    "kind": "IntProperty",
+                    "start": 577,
+                    "end": 582
+                  },
+                  "array": {
+                    "op": "local",
+                    "ref": 11139,
+                    "path": "MC2UIScene_AlarmWindow.SetAlarmTextsIcon.StrList",
+                    "kind": "ArrayProperty",
+                    "start": 582,
+                    "end": 587
+                  },
+                  "kind": "StrProperty",
+                  "start": 576,
+                  "end": 587
+                }
+              ],
+              "kind": "StrProperty",
+              "start": 565,
+              "end": 588
+            },
+            "size": 29
+          },
+          {
+            "offset": 598,
+            "logical_offset": 7739896,
+            "sha256": "cc0299f7fd1b937b8f149738e58fcff007f1e716b48cd9eca7cdb49f98c2fd85",
+            "target": {
+              "op": "local",
+              "ref": 11141,
+              "path": "MC2UIScene_AlarmWindow.SetAlarmTextsIcon.NewStr",
+              "kind": "StrProperty",
+              "start": 599,
+              "end": 604
+            },
+            "value": {
+              "op": "concat",
+              "args": [
+                {
+                  "op": "local",
+                  "ref": 11141,
+                  "path": "MC2UIScene_AlarmWindow.SetAlarmTextsIcon.NewStr",
+                  "kind": "StrProperty",
+                  "start": 605,
+                  "end": 610
+                },
+                {
+                  "op": "literal",
+                  "text": "\n",
+                  "kind": "StrProperty",
+                  "start": 610,
+                  "end": 613
+                }
+              ],
+              "kind": "StrProperty",
+              "start": 604,
+              "end": 614
+            },
+            "size": 16
+          }
+        ]
+      },
+      {
+        "export": 12844,
+        "function": "MC2ItemDropTable.GiveInvestItemToPlayer",
+        "script_sha256": "f71b22453346bc5930311c9b5bfab8dfcf510b281e22a9886c43c1d949e8026b",
+        "script_size": 454,
+        "windows": [
+          {
+            "offset": 87,
+            "logical_offset": 7895159,
+            "sha256": "b8c3ab0ddc4e6fe23714e2c6d868499ecb81473912918c88676dc46429e2c71d",
+            "target": {
+              "op": "local",
+              "ref": 12842,
+              "path": "MC2ItemDropTable.GiveInvestItemToPlayer.strItem",
+              "kind": "StrProperty",
+              "start": 88,
+              "end": 93
+            },
+            "value": {
+              "op": "context",
+              "object": {
+                "op": "dynamic-cast",
+                "class_ref": 12784,
+                "value": {
+                  "op": "struct-member",
+                  "value": {
+                    "op": "dynamic-array-element",
+                    "index": {
+                      "op": "int",
+                      "value": 0,
+                      "kind": "IntProperty",
+                      "start": 111,
+                      "end": 112
+                    },
+                    "array": {
+                      "op": "instance",
+                      "ref": 12826,
+                      "path": "MC2ItemDropTable.InvestigateItem",
+                      "kind": "ArrayProperty",
+                      "start": 112,
+                      "end": 117
+                    },
+                    "kind": "StructProperty",
+                    "start": 110,
+                    "end": 117
+                  },
+                  "ref": 12816,
+                  "path": "MC2ItemDropTable.SExtractDropItem.Item",
+                  "kind": "ObjectProperty",
+                  "start": 99,
+                  "end": 117,
+                  "struct_ref": 12817,
+                  "copy": 0,
+                  "modification": 0
+                },
+                "kind": "ObjectProperty",
+                "start": 94,
+                "end": 117
+              },
+              "value": {
+                "op": "instance",
+                "ref": 12761,
+                "path": "MC2Item.ItemName",
+                "kind": "StrProperty",
+                "start": 120,
+                "end": 125
+              },
+              "kind": "StrProperty",
+              "start": 93,
+              "end": 125,
+              "raw_skip": 5,
+              "property_type": 0
+            },
+            "size": 38
+          },
+          {
+            "offset": 171,
+            "logical_offset": 7895243,
+            "sha256": "dd74af536b821c01530907768f5a2cba9bbd716ff7af4872ef85dcb4501c035f",
+            "target": {
+              "op": "local",
+              "ref": 12842,
+              "path": "MC2ItemDropTable.GiveInvestItemToPlayer.strItem",
+              "kind": "StrProperty",
+              "start": 172,
+              "end": 177
+            },
+            "value": {
+              "op": "concat",
+              "args": [
+                {
+                  "op": "local",
+                  "ref": 12842,
+                  "path": "MC2ItemDropTable.GiveInvestItemToPlayer.strItem",
+                  "kind": "StrProperty",
+                  "start": 178,
+                  "end": 183
+                },
+                {
+                  "op": "literal",
+                  "text": "<Strings:MC2UI.diction.Objective_1> ",
+                  "kind": "StrProperty",
+                  "start": 183,
+                  "end": 221
+                }
+              ],
+              "kind": "StrProperty",
+              "start": 177,
+              "end": 222
+            },
+            "size": 51
+          },
+          {
+            "offset": 225,
+            "logical_offset": 7895297,
+            "sha256": "6f82c04ec88808c592baa69d14451678e988dec2f33a1a2a9133b1218a40f6cd",
+            "target": {
+              "op": "local",
+              "ref": 12842,
+              "path": "MC2ItemDropTable.GiveInvestItemToPlayer.strItem",
+              "kind": "StrProperty",
+              "start": 226,
+              "end": 231
+            },
+            "value": {
+              "op": "concat",
+              "args": [
+                {
+                  "op": "local",
+                  "ref": 12842,
+                  "path": "MC2ItemDropTable.GiveInvestItemToPlayer.strItem",
+                  "kind": "StrProperty",
+                  "start": 232,
+                  "end": 237
+                },
+                {
+                  "op": "literal",
+                  "text": "<Strings:MC2UI.diction.Objective_0> ",
+                  "kind": "StrProperty",
+                  "start": 237,
+                  "end": 275
+                }
+              ],
+              "kind": "StrProperty",
+              "start": 231,
+              "end": 276
+            },
+            "size": 51
+          },
+          {
+            "offset": 276,
+            "logical_offset": 7895348,
+            "sha256": "6591bbdd1525c4bc07cab4e001b6c5af38a54ebcb6bde0140d8d81b19f91c707",
+            "target": {
+              "op": "local",
+              "ref": 12842,
+              "path": "MC2ItemDropTable.GiveInvestItemToPlayer.strItem",
+              "kind": "StrProperty",
+              "start": 277,
+              "end": 282
+            },
+            "value": {
+              "op": "concat",
+              "args": [
+                {
+                  "op": "local",
+                  "ref": 12842,
+                  "path": "MC2ItemDropTable.GiveInvestItemToPlayer.strItem",
+                  "kind": "StrProperty",
+                  "start": 283,
+                  "end": 288
+                },
+                {
+                  "op": "literal",
+                  "text": "<Strings:MC2UI.Battle_Log.GetITEM>",
+                  "kind": "StrProperty",
+                  "start": 288,
+                  "end": 324
+                }
+              ],
+              "kind": "StrProperty",
+              "start": 282,
+              "end": 325
+            },
+            "size": 49
+          }
+        ]
+      },
+      {
+        "export": 18173,
+        "function": "MC2PawnInterfaceBattle.ExtractKamond",
+        "script_sha256": "e71bfbfb6e73ef3a5bf697d77b369f4e5cf5a529c0e807aea05399d02f7f954d",
+        "script_size": 449,
+        "windows": [
+          {
+            "offset": 109,
+            "logical_offset": 8403644,
+            "sha256": "07e4924e58b8b84a6679632baadae048b02a3b74531d0e6d8050650580542821",
+            "target": {
+              "op": "local",
+              "ref": 18169,
+              "path": "MC2PawnInterfaceBattle.ExtractKamond.tempStr",
+              "kind": "StrProperty",
+              "start": 110,
+              "end": 115
+            },
+            "value": {
+              "op": "context",
+              "object": {
+                "op": "local",
+                "ref": 18170,
+                "path": "MC2PawnInterfaceBattle.ExtractKamond.TempItem",
+                "kind": "ObjectProperty",
+                "start": 116,
+                "end": 121
+              },
+              "value": {
+                "op": "instance",
+                "ref": 12761,
+                "path": "MC2Item.ItemName",
+                "kind": "StrProperty",
+                "start": 124,
+                "end": 129
+              },
+              "kind": "StrProperty",
+              "start": 115,
+              "end": 129,
+              "raw_skip": 5,
+              "property_type": 0
+            },
+            "size": 20
+          },
+          {
+            "offset": 166,
+            "logical_offset": 8403701,
+            "sha256": "32c9deaf8ba50dca869ae110b3e3cbf48191b7f66fdecdc23b63a9d1bac4a673",
+            "target": {
+              "op": "local",
+              "ref": 18169,
+              "path": "MC2PawnInterfaceBattle.ExtractKamond.tempStr",
+              "kind": "StrProperty",
+              "start": 167,
+              "end": 172
+            },
+            "value": {
+              "op": "concat",
+              "args": [
+                {
+                  "op": "local",
+                  "ref": 18169,
+                  "path": "MC2PawnInterfaceBattle.ExtractKamond.tempStr",
+                  "kind": "StrProperty",
+                  "start": 173,
+                  "end": 178
+                },
+                {
+                  "op": "literal",
+                  "text": "<Strings:MC2UI.diction.Objective_1> ",
+                  "kind": "StrProperty",
+                  "start": 178,
+                  "end": 216
+                }
+              ],
+              "kind": "StrProperty",
+              "start": 172,
+              "end": 217
+            },
+            "size": 51
+          },
+          {
+            "offset": 220,
+            "logical_offset": 8403755,
+            "sha256": "ea53329847aa8b7c855704f3935a57133ab9d0262dc8fa6d825c8317fecec738",
+            "target": {
+              "op": "local",
+              "ref": 18169,
+              "path": "MC2PawnInterfaceBattle.ExtractKamond.tempStr",
+              "kind": "StrProperty",
+              "start": 221,
+              "end": 226
+            },
+            "value": {
+              "op": "concat",
+              "args": [
+                {
+                  "op": "local",
+                  "ref": 18169,
+                  "path": "MC2PawnInterfaceBattle.ExtractKamond.tempStr",
+                  "kind": "StrProperty",
+                  "start": 227,
+                  "end": 232
+                },
+                {
+                  "op": "literal",
+                  "text": "<Strings:MC2UI.diction.Objective_0> ",
+                  "kind": "StrProperty",
+                  "start": 232,
+                  "end": 270
+                }
+              ],
+              "kind": "StrProperty",
+              "start": 226,
+              "end": 271
+            },
+            "size": 51
+          },
+          {
+            "offset": 271,
+            "logical_offset": 8403806,
+            "sha256": "361a16e96b310e3d36ea1f81502426e2fd0296c0cec77443f531efd508fbf1e2",
+            "target": {
+              "op": "local",
+              "ref": 18169,
+              "path": "MC2PawnInterfaceBattle.ExtractKamond.tempStr",
+              "kind": "StrProperty",
+              "start": 272,
+              "end": 277
+            },
+            "value": {
+              "op": "concat",
+              "args": [
+                {
+                  "op": "local",
+                  "ref": 18169,
+                  "path": "MC2PawnInterfaceBattle.ExtractKamond.tempStr",
+                  "kind": "StrProperty",
+                  "start": 278,
+                  "end": 283
+                },
+                {
+                  "op": "literal",
+                  "text": "<Strings:MC2UI.Battle_Log.GetITEM>",
+                  "kind": "StrProperty",
+                  "start": 283,
+                  "end": 319
+                }
+              ],
+              "kind": "StrProperty",
+              "start": 277,
+              "end": 320
+            },
+            "size": 49
+          }
+        ]
+      },
+      {
+        "export": 27916,
+        "function": "MC2SeqAct_ChangeSubEquipData.InitSubEquipData",
+        "script_sha256": "011371f96f6e68c6c8069cc38f61b0f1ca3b9b5e03f33d18cc5e1296d34f50e7",
+        "script_size": 989,
+        "windows": [
+          {
+            "offset": 710,
+            "logical_offset": 9358112,
+            "sha256": "038ffd97852570d3d4db36046ce0771da6b86b504c92f6432d81d6f7da9f881a",
+            "target": {
+              "op": "local",
+              "ref": 27914,
+              "path": "MC2SeqAct_ChangeSubEquipData.InitSubEquipData.strItem",
+              "kind": "StrProperty",
+              "start": 711,
+              "end": 716
+            },
+            "value": {
+              "op": "context",
+              "object": {
+                "op": "local",
+                "ref": 27915,
+                "path": "MC2SeqAct_ChangeSubEquipData.InitSubEquipData.Item",
+                "kind": "ObjectProperty",
+                "start": 717,
+                "end": 722
+              },
+              "value": {
+                "op": "instance",
+                "ref": 12761,
+                "path": "MC2Item.ItemName",
+                "kind": "StrProperty",
+                "start": 725,
+                "end": 730
+              },
+              "kind": "StrProperty",
+              "start": 716,
+              "end": 730,
+              "raw_skip": 5,
+              "property_type": 0
+            },
+            "size": 20
+          },
+          {
+            "offset": 768,
+            "logical_offset": 9358170,
+            "sha256": "882a9614137df799dd90c82bb82808c529040bb2abaf16bfb3204196ca0bdf59",
+            "target": {
+              "op": "local",
+              "ref": 27914,
+              "path": "MC2SeqAct_ChangeSubEquipData.InitSubEquipData.strItem",
+              "kind": "StrProperty",
+              "start": 769,
+              "end": 774
+            },
+            "value": {
+              "op": "concat",
+              "args": [
+                {
+                  "op": "local",
+                  "ref": 27914,
+                  "path": "MC2SeqAct_ChangeSubEquipData.InitSubEquipData.strItem",
+                  "kind": "StrProperty",
+                  "start": 775,
+                  "end": 780
+                },
+                {
+                  "op": "literal",
+                  "text": "<Strings:MC2UI.diction.Objective_1> ",
+                  "kind": "StrProperty",
+                  "start": 780,
+                  "end": 818
+                }
+              ],
+              "kind": "StrProperty",
+              "start": 774,
+              "end": 819
+            },
+            "size": 51
+          },
+          {
+            "offset": 822,
+            "logical_offset": 9358224,
+            "sha256": "f80e66e5f2c65dfdd3d3abb7a9cb5135d1b7ce03f50c06d2c558b65802f12604",
+            "target": {
+              "op": "local",
+              "ref": 27914,
+              "path": "MC2SeqAct_ChangeSubEquipData.InitSubEquipData.strItem",
+              "kind": "StrProperty",
+              "start": 823,
+              "end": 828
+            },
+            "value": {
+              "op": "concat",
+              "args": [
+                {
+                  "op": "local",
+                  "ref": 27914,
+                  "path": "MC2SeqAct_ChangeSubEquipData.InitSubEquipData.strItem",
+                  "kind": "StrProperty",
+                  "start": 829,
+                  "end": 834
+                },
+                {
+                  "op": "literal",
+                  "text": "<Strings:MC2UI.diction.Objective_0> ",
+                  "kind": "StrProperty",
+                  "start": 834,
+                  "end": 872
+                }
+              ],
+              "kind": "StrProperty",
+              "start": 828,
+              "end": 873
+            },
+            "size": 51
+          },
+          {
+            "offset": 873,
+            "logical_offset": 9358275,
+            "sha256": "a1a30efd433ab7ef4addda7f6dea729783853d4574c616df31687ad861a7816b",
+            "target": {
+              "op": "local",
+              "ref": 27914,
+              "path": "MC2SeqAct_ChangeSubEquipData.InitSubEquipData.strItem",
+              "kind": "StrProperty",
+              "start": 874,
+              "end": 879
+            },
+            "value": {
+              "op": "concat",
+              "args": [
+                {
+                  "op": "local",
+                  "ref": 27914,
+                  "path": "MC2SeqAct_ChangeSubEquipData.InitSubEquipData.strItem",
+                  "kind": "StrProperty",
+                  "start": 880,
+                  "end": 885
+                },
+                {
+                  "op": "literal",
+                  "text": "<Strings:MC2UI.System_Log.GetWeapon>",
+                  "kind": "StrProperty",
+                  "start": 885,
+                  "end": 923
+                }
+              ],
+              "kind": "StrProperty",
+              "start": 879,
+              "end": 924
+            },
+            "size": 51
+          }
+        ]
+      },
+      {
+        "export": 27934,
+        "function": "MC2SeqAct_ChangeWeaponData.InitWeaponData",
+        "script_sha256": "f66eaffc48f76ea30fd986fab6e5595a74ea15fc25cc7b12edc693c2f3c7781b",
+        "script_size": 998,
+        "windows": [
+          {
+            "offset": 719,
+            "logical_offset": 9360468,
+            "sha256": "ff1038ba9e2e784b2db911e79d01f5cc8ca56b8aef66ed4b85381ce9d288cecb",
+            "target": {
+              "op": "local",
+              "ref": 27932,
+              "path": "MC2SeqAct_ChangeWeaponData.InitWeaponData.strItem",
+              "kind": "StrProperty",
+              "start": 720,
+              "end": 725
+            },
+            "value": {
+              "op": "context",
+              "object": {
+                "op": "local",
+                "ref": 27933,
+                "path": "MC2SeqAct_ChangeWeaponData.InitWeaponData.Item",
+                "kind": "ObjectProperty",
+                "start": 726,
+                "end": 731
+              },
+              "value": {
+                "op": "instance",
+                "ref": 12761,
+                "path": "MC2Item.ItemName",
+                "kind": "StrProperty",
+                "start": 734,
+                "end": 739
+              },
+              "kind": "StrProperty",
+              "start": 725,
+              "end": 739,
+              "raw_skip": 5,
+              "property_type": 0
+            },
+            "size": 20
+          },
+          {
+            "offset": 777,
+            "logical_offset": 9360526,
+            "sha256": "b9f5f101da17526fd73822f1f46c07e2ad2b97d174ba4082b30b9af11e0e82bf",
+            "target": {
+              "op": "local",
+              "ref": 27932,
+              "path": "MC2SeqAct_ChangeWeaponData.InitWeaponData.strItem",
+              "kind": "StrProperty",
+              "start": 778,
+              "end": 783
+            },
+            "value": {
+              "op": "concat",
+              "args": [
+                {
+                  "op": "local",
+                  "ref": 27932,
+                  "path": "MC2SeqAct_ChangeWeaponData.InitWeaponData.strItem",
+                  "kind": "StrProperty",
+                  "start": 784,
+                  "end": 789
+                },
+                {
+                  "op": "literal",
+                  "text": "<Strings:MC2UI.diction.Objective_1> ",
+                  "kind": "StrProperty",
+                  "start": 789,
+                  "end": 827
+                }
+              ],
+              "kind": "StrProperty",
+              "start": 783,
+              "end": 828
+            },
+            "size": 51
+          },
+          {
+            "offset": 831,
+            "logical_offset": 9360580,
+            "sha256": "d8967579ddf39a68d9998eba444544a274deb9739b9c37d3024e71f1d9ae37fa",
+            "target": {
+              "op": "local",
+              "ref": 27932,
+              "path": "MC2SeqAct_ChangeWeaponData.InitWeaponData.strItem",
+              "kind": "StrProperty",
+              "start": 832,
+              "end": 837
+            },
+            "value": {
+              "op": "concat",
+              "args": [
+                {
+                  "op": "local",
+                  "ref": 27932,
+                  "path": "MC2SeqAct_ChangeWeaponData.InitWeaponData.strItem",
+                  "kind": "StrProperty",
+                  "start": 838,
+                  "end": 843
+                },
+                {
+                  "op": "literal",
+                  "text": "<Strings:MC2UI.diction.Objective_0> ",
+                  "kind": "StrProperty",
+                  "start": 843,
+                  "end": 881
+                }
+              ],
+              "kind": "StrProperty",
+              "start": 837,
+              "end": 882
+            },
+            "size": 51
+          },
+          {
+            "offset": 882,
+            "logical_offset": 9360631,
+            "sha256": "6c4d5363ec82f945c811f46026b7bce8190e7989810482269a077810fb4e0698",
+            "target": {
+              "op": "local",
+              "ref": 27932,
+              "path": "MC2SeqAct_ChangeWeaponData.InitWeaponData.strItem",
+              "kind": "StrProperty",
+              "start": 883,
+              "end": 888
+            },
+            "value": {
+              "op": "concat",
+              "args": [
+                {
+                  "op": "local",
+                  "ref": 27932,
+                  "path": "MC2SeqAct_ChangeWeaponData.InitWeaponData.strItem",
+                  "kind": "StrProperty",
+                  "start": 889,
+                  "end": 894
+                },
+                {
+                  "op": "literal",
+                  "text": "<Strings:MC2UI.System_Log.GetWeapon>",
+                  "kind": "StrProperty",
+                  "start": 894,
+                  "end": 932
+                }
+              ],
+              "kind": "StrProperty",
+              "start": 888,
+              "end": 933
+            },
+            "size": 51
+          }
+        ]
+      },
+      {
+        "export": 28515,
+        "function": "MC2SeqAct_GiveItemToPlayer.Activated",
+        "script_sha256": "8ad472e59779e199674924bbf300fcec82f146f5cfc636002f6d85927ab872d7",
+        "script_size": 840,
+        "windows": [
+          {
+            "offset": 152,
+            "logical_offset": 9436637,
+            "sha256": "43590d069283af7ef7c78874706cc167b997a69412cd7de1cf72c07473ef3e75",
+            "target": {
+              "op": "local",
+              "ref": 28512,
+              "path": "MC2SeqAct_GiveItemToPlayer.Activated.strItem",
+              "kind": "StrProperty",
+              "start": 159,
+              "end": 164
+            },
+            "value": {
+              "op": "concat",
+              "args": [
+                {
+                  "op": "local",
+                  "ref": 28512,
+                  "path": "MC2SeqAct_GiveItemToPlayer.Activated.strItem",
+                  "kind": "StrProperty",
+                  "start": 159,
+                  "end": 164
+                },
+                {
+                  "op": "concat",
+                  "args": [
+                    {
+                      "op": "int-to-string",
+                      "value": {
+                        "op": "instance",
+                        "ref": 28507,
+                        "path": "MC2SeqAct_GiveItemToPlayer.Money",
+                        "kind": "IntProperty",
+                        "start": 167,
+                        "end": 172
+                      },
+                      "kind": "StrProperty",
+                      "start": 165,
+                      "end": 172
+                    },
+                    {
+                      "op": "literal",
+                      "text": "<Strings:MC2UI.System_Log.Sid><Strings:MC2UI.diction.Objective_0> ",
+                      "kind": "StrProperty",
+                      "start": 172,
+                      "end": 240
+                    }
+                  ],
+                  "kind": "StrProperty",
+                  "start": 164,
+                  "end": 241
+                }
+              ],
+              "kind": "StrProperty"
+            },
+            "size": 90
+          },
+          {
+            "offset": 242,
+            "logical_offset": 9436727,
+            "sha256": "d1c6f886202854bfc4a94af8915750ba193f45ce109b7428fd5045e1b67f3d05",
+            "target": {
+              "op": "local",
+              "ref": 28512,
+              "path": "MC2SeqAct_GiveItemToPlayer.Activated.strItem",
+              "kind": "StrProperty",
+              "start": 243,
+              "end": 248
+            },
+            "value": {
+              "op": "concat",
+              "args": [
+                {
+                  "op": "local",
+                  "ref": 28512,
+                  "path": "MC2SeqAct_GiveItemToPlayer.Activated.strItem",
+                  "kind": "StrProperty",
+                  "start": 249,
+                  "end": 254
+                },
+                {
+                  "op": "literal",
+                  "text": "<Strings:MC2UI.Battle_Log.GetITEM>",
+                  "kind": "StrProperty",
+                  "start": 254,
+                  "end": 290
+                }
+              ],
+              "kind": "StrProperty",
+              "start": 248,
+              "end": 291
+            },
+            "size": 49
+          }
+        ]
+      },
+      {
+        "export": 28666,
+        "function": "MC2SeqAct_MakeKamond.Activated",
+        "script_sha256": "80b2ad01f926ab4633a6f4215731f44a5bd15df2b13b27dccb5d00a90481b9d0",
+        "script_size": 430,
+        "windows": [
+          {
+            "offset": 94,
+            "logical_offset": 9458711,
+            "sha256": "d17b42ac96e14eedc53064b076eeab1cdcac0278311be5c6fbfb70a802c975c9",
+            "target": {
+              "op": "local",
+              "ref": 28664,
+              "path": "MC2SeqAct_MakeKamond.Activated.strItem",
+              "kind": "StrProperty",
+              "start": 95,
+              "end": 100
+            },
+            "value": {
+              "op": "context",
+              "object": {
+                "op": "dynamic-cast",
+                "class_ref": 12784,
+                "value": {
+                  "op": "dynamic-array-element",
+                  "index": {
+                    "op": "local",
+                    "ref": 28665,
+                    "path": "MC2SeqAct_MakeKamond.Activated.nRand",
+                    "kind": "IntProperty",
+                    "start": 107,
+                    "end": 112
+                  },
+                  "array": {
+                    "op": "instance",
+                    "ref": 28663,
+                    "path": "MC2SeqAct_MakeKamond.ItemList",
+                    "kind": "ArrayProperty",
+                    "start": 112,
+                    "end": 117
+                  },
+                  "kind": "ObjectProperty",
+                  "start": 106,
+                  "end": 117
+                },
+                "kind": "ObjectProperty",
+                "start": 101,
+                "end": 117
+              },
+              "value": {
+                "op": "instance",
+                "ref": 12761,
+                "path": "MC2Item.ItemName",
+                "kind": "StrProperty",
+                "start": 120,
+                "end": 125
+              },
+              "kind": "StrProperty",
+              "start": 100,
+              "end": 125,
+              "raw_skip": 5,
+              "property_type": 0
+            },
+            "size": 31
+          },
+          {
+            "offset": 163,
+            "logical_offset": 9458780,
+            "sha256": "7d36fee06707ce3faa5b16d1decfbf70a4454c6bc242b18232edda89ea3fe879",
+            "target": {
+              "op": "local",
+              "ref": 28664,
+              "path": "MC2SeqAct_MakeKamond.Activated.strItem",
+              "kind": "StrProperty",
+              "start": 164,
+              "end": 169
+            },
+            "value": {
+              "op": "concat",
+              "args": [
+                {
+                  "op": "local",
+                  "ref": 28664,
+                  "path": "MC2SeqAct_MakeKamond.Activated.strItem",
+                  "kind": "StrProperty",
+                  "start": 170,
+                  "end": 175
+                },
+                {
+                  "op": "literal",
+                  "text": "<Strings:MC2UI.diction.Objective_1> ",
+                  "kind": "StrProperty",
+                  "start": 175,
+                  "end": 213
+                }
+              ],
+              "kind": "StrProperty",
+              "start": 169,
+              "end": 214
+            },
+            "size": 51
+          },
+          {
+            "offset": 217,
+            "logical_offset": 9458834,
+            "sha256": "d2f57f6e64fde34521e4b596db551fbe1ae85485e802c70b1777f116b5144277",
+            "target": {
+              "op": "local",
+              "ref": 28664,
+              "path": "MC2SeqAct_MakeKamond.Activated.strItem",
+              "kind": "StrProperty",
+              "start": 218,
+              "end": 223
+            },
+            "value": {
+              "op": "concat",
+              "args": [
+                {
+                  "op": "local",
+                  "ref": 28664,
+                  "path": "MC2SeqAct_MakeKamond.Activated.strItem",
+                  "kind": "StrProperty",
+                  "start": 224,
+                  "end": 229
+                },
+                {
+                  "op": "literal",
+                  "text": "<Strings:MC2UI.diction.Objective_0> ",
+                  "kind": "StrProperty",
+                  "start": 229,
+                  "end": 267
+                }
+              ],
+              "kind": "StrProperty",
+              "start": 223,
+              "end": 268
+            },
+            "size": 51
+          },
+          {
+            "offset": 268,
+            "logical_offset": 9458885,
+            "sha256": "fde25e6a32c14b732486f4c20f393b14657885564349090f725a84f9597bea3a",
+            "target": {
+              "op": "local",
+              "ref": 28664,
+              "path": "MC2SeqAct_MakeKamond.Activated.strItem",
+              "kind": "StrProperty",
+              "start": 269,
+              "end": 274
+            },
+            "value": {
+              "op": "concat",
+              "args": [
+                {
+                  "op": "local",
+                  "ref": 28664,
+                  "path": "MC2SeqAct_MakeKamond.Activated.strItem",
+                  "kind": "StrProperty",
+                  "start": 275,
+                  "end": 280
+                },
+                {
+                  "op": "literal",
+                  "text": "<Strings:MC2UI.Battle_Log.GetITEM>",
+                  "kind": "StrProperty",
+                  "start": 280,
+                  "end": 316
+                }
+              ],
+              "kind": "StrProperty",
+              "start": 274,
+              "end": 317
+            },
+            "size": 49
+          }
+        ]
+      },
+      {
+        "export": 31608,
+        "function": "MC2TriggerInact_TreasureBox.OpenItemBox",
+        "script_sha256": "231bcd52078a86a1232b1c8b0fbe5da50225573088c0f8f84c938679b21b4ee6",
+        "script_size": 952,
+        "windows": [
+          {
+            "offset": 66,
+            "logical_offset": 9792732,
+            "sha256": "ba1e56213571bacab8f6917e57500641f2087d1e316e11e9658b9e4f525f3a32",
+            "target": {
+              "op": "local",
+              "ref": 31606,
+              "path": "MC2TriggerInact_TreasureBox.OpenItemBox.strItem",
+              "kind": "StrProperty",
+              "start": 73,
+              "end": 78
+            },
+            "value": {
+              "op": "concat",
+              "args": [
+                {
+                  "op": "local",
+                  "ref": 31606,
+                  "path": "MC2TriggerInact_TreasureBox.OpenItemBox.strItem",
+                  "kind": "StrProperty",
+                  "start": 73,
+                  "end": 78
+                },
+                {
+                  "op": "concat",
+                  "args": [
+                    {
+                      "op": "int-to-string",
+                      "value": {
+                        "op": "instance",
+                        "ref": 31564,
+                        "path": "MC2TriggerInact_TreasureBox.nMoney",
+                        "kind": "IntProperty",
+                        "start": 81,
+                        "end": 86
+                      },
+                      "kind": "StrProperty",
+                      "start": 79,
+                      "end": 86
+                    },
+                    {
+                      "op": "literal",
+                      "text": "<Strings:MC2UI.System_Log.Sid>",
+                      "kind": "StrProperty",
+                      "start": 86,
+                      "end": 118
+                    }
+                  ],
+                  "kind": "StrProperty",
+                  "start": 78,
+                  "end": 119
+                }
+              ],
+              "kind": "StrProperty"
+            },
+            "size": 54
+          },
+          {
+            "offset": 120,
+            "logical_offset": 9792786,
+            "sha256": "627e27c18a2cbce9142ff2b094d3897933e445d746996b6a389fd399f7f33610",
+            "target": {
+              "op": "local",
+              "ref": 31605,
+              "path": "MC2TriggerInact_TreasureBox.OpenItemBox.tempStr",
+              "kind": "StrProperty",
+              "start": 121,
+              "end": 126
+            },
+            "value": {
+              "op": "local",
+              "ref": 31606,
+              "path": "MC2TriggerInact_TreasureBox.OpenItemBox.strItem",
+              "kind": "StrProperty",
+              "start": 126,
+              "end": 131
+            },
+            "size": 11
+          },
+          {
+            "offset": 325,
+            "logical_offset": 9792991,
+            "sha256": "551fc969b142016fdf5d9c106eba0e6d65fcd7d9b0dc56285f6eb0c7a9bc8c37",
+            "target": {
+              "op": "local",
+              "ref": 31606,
+              "path": "MC2TriggerInact_TreasureBox.OpenItemBox.strItem",
+              "kind": "StrProperty",
+              "start": 332,
+              "end": 337
+            },
+            "value": {
+              "op": "concat",
+              "args": [
+                {
+                  "op": "local",
+                  "ref": 31606,
+                  "path": "MC2TriggerInact_TreasureBox.OpenItemBox.strItem",
+                  "kind": "StrProperty",
+                  "start": 332,
+                  "end": 337
+                },
+                {
+                  "op": "concat",
+                  "args": [
+                    {
+                      "op": "concat",
+                      "args": [
+                        {
+                          "op": "concat",
+                          "args": [
+                            {
+                              "op": "context",
+                              "object": {
+                                "op": "dynamic-cast",
+                                "class_ref": 12784,
+                                "value": {
+                                  "op": "struct-member",
+                                  "value": {
+                                    "op": "dynamic-array-element",
+                                    "index": {
+                                      "op": "local",
+                                      "ref": 31607,
+                                      "path": "MC2TriggerInact_TreasureBox.OpenItemBox.I",
+                                      "kind": "IntProperty",
+                                      "start": 358,
+                                      "end": 363
+                                    },
+                                    "array": {
+                                      "op": "instance",
+                                      "ref": 31565,
+                                      "path": "MC2TriggerInact_TreasureBox.DropItemList",
+                                      "kind": "ArrayProperty",
+                                      "start": 363,
+                                      "end": 368
+                                    },
+                                    "kind": "StructProperty",
+                                    "start": 357,
+                                    "end": 368
+                                  },
+                                  "ref": 422,
+                                  "path": "MC2Definition.sItemData.ItemData",
+                                  "kind": "ObjectProperty",
+                                  "start": 346,
+                                  "end": 368,
+                                  "struct_ref": 423,
+                                  "copy": 0,
+                                  "modification": 0
+                                },
+                                "kind": "ObjectProperty",
+                                "start": 341,
+                                "end": 368
+                              },
+                              "value": {
+                                "op": "instance",
+                                "ref": 12761,
+                                "path": "MC2Item.ItemName",
+                                "kind": "StrProperty",
+                                "start": 371,
+                                "end": 376
+                              },
+                              "kind": "StrProperty",
+                              "start": 340,
+                              "end": 376,
+                              "raw_skip": 5,
+                              "property_type": 0
+                            },
+                            {
+                              "op": "literal",
+                              "text": "(",
+                              "kind": "StrProperty",
+                              "start": 376,
+                              "end": 379
+                            }
+                          ],
+                          "kind": "StrProperty",
+                          "start": 339,
+                          "end": 380
+                        },
+                        {
+                          "op": "int-to-string",
+                          "value": {
+                            "op": "struct-member",
+                            "value": {
+                              "op": "dynamic-array-element",
+                              "index": {
+                                "op": "local",
+                                "ref": 31607,
+                                "path": "MC2TriggerInact_TreasureBox.OpenItemBox.I",
+                                "kind": "IntProperty",
+                                "start": 394,
+                                "end": 399
+                              },
+                              "array": {
+                                "op": "instance",
+                                "ref": 31565,
+                                "path": "MC2TriggerInact_TreasureBox.DropItemList",
+                                "kind": "ArrayProperty",
+                                "start": 399,
+                                "end": 404
+                              },
+                              "kind": "StructProperty",
+                              "start": 393,
+                              "end": 404
+                            },
+                            "ref": 421,
+                            "path": "MC2Definition.sItemData.ItemCount",
+                            "kind": "IntProperty",
+                            "start": 382,
+                            "end": 404,
+                            "struct_ref": 423,
+                            "copy": 0,
+                            "modification": 0
+                          },
+                          "kind": "StrProperty",
+                          "start": 380,
+                          "end": 404
+                        }
+                      ],
+                      "kind": "StrProperty",
+                      "start": 338,
+                      "end": 405
+                    },
+                    {
+                      "op": "literal",
+                      "text": ")",
+                      "kind": "StrProperty",
+                      "start": 405,
+                      "end": 408
+                    }
+                  ],
+                  "kind": "StrProperty",
+                  "start": 337,
+                  "end": 409
+                }
+              ],
+              "kind": "StrProperty"
+            },
+            "size": 85
+          },
+          {
+            "offset": 410,
+            "logical_offset": 9793076,
+            "sha256": "287903149e3278081a3a165cb7554969149839156ee0c5d6e99a7fa335a7018b",
+            "target": {
+              "op": "local",
+              "ref": 31605,
+              "path": "MC2TriggerInact_TreasureBox.OpenItemBox.tempStr",
+              "kind": "StrProperty",
+              "start": 411,
+              "end": 416
+            },
+            "value": {
+              "op": "context",
+              "object": {
+                "op": "dynamic-cast",
+                "class_ref": 12784,
+                "value": {
+                  "op": "struct-member",
+                  "value": {
+                    "op": "dynamic-array-element",
+                    "index": {
+                      "op": "local",
+                      "ref": 31607,
+                      "path": "MC2TriggerInact_TreasureBox.OpenItemBox.I",
+                      "kind": "IntProperty",
+                      "start": 434,
+                      "end": 439
+                    },
+                    "array": {
+                      "op": "instance",
+                      "ref": 31565,
+                      "path": "MC2TriggerInact_TreasureBox.DropItemList",
+                      "kind": "ArrayProperty",
+                      "start": 439,
+                      "end": 444
+                    },
+                    "kind": "StructProperty",
+                    "start": 433,
+                    "end": 444
+                  },
+                  "ref": 422,
+                  "path": "MC2Definition.sItemData.ItemData",
+                  "kind": "ObjectProperty",
+                  "start": 422,
+                  "end": 444,
+                  "struct_ref": 423,
+                  "copy": 0,
+                  "modification": 0
+                },
+                "kind": "ObjectProperty",
+                "start": 417,
+                "end": 444
+              },
+              "value": {
+                "op": "instance",
+                "ref": 12761,
+                "path": "MC2Item.ItemName",
+                "kind": "StrProperty",
+                "start": 447,
+                "end": 452
+              },
+              "kind": "StrProperty",
+              "start": 416,
+              "end": 452,
+              "raw_skip": 5,
+              "property_type": 0
+            },
+            "size": 42
+          },
+          {
+            "offset": 471,
+            "logical_offset": 9793137,
+            "sha256": "0bf2d9a03b9e0256c3443e60bbbe5ee5953c272d55010df8c9cc0504fba4d589",
+            "target": {
+              "op": "local",
+              "ref": 31606,
+              "path": "MC2TriggerInact_TreasureBox.OpenItemBox.strItem",
+              "kind": "StrProperty",
+              "start": 478,
+              "end": 483
+            },
+            "value": {
+              "op": "concat",
+              "args": [
+                {
+                  "op": "local",
+                  "ref": 31606,
+                  "path": "MC2TriggerInact_TreasureBox.OpenItemBox.strItem",
+                  "kind": "StrProperty",
+                  "start": 478,
+                  "end": 483
+                },
+                {
+                  "op": "literal",
+                  "text": "<Strings:MC2UI.Punctuation.Comma>",
+                  "kind": "StrProperty",
+                  "start": 483,
+                  "end": 518
+                }
+              ],
+              "kind": "StrProperty"
+            },
+            "size": 48
+          },
+          {
+            "offset": 687,
+            "logical_offset": 9793353,
+            "sha256": "8866055fc505ee1fd34e609ae086ce23cfe9d38deb7da2454e24bc6a5744c0cb",
+            "target": {
+              "op": "local",
+              "ref": 31606,
+              "path": "MC2TriggerInact_TreasureBox.OpenItemBox.strItem",
+              "kind": "StrProperty",
+              "start": 688,
+              "end": 693
+            },
+            "value": {
+              "op": "concat",
+              "args": [
+                {
+                  "op": "local",
+                  "ref": 31606,
+                  "path": "MC2TriggerInact_TreasureBox.OpenItemBox.strItem",
+                  "kind": "StrProperty",
+                  "start": 694,
+                  "end": 699
+                },
+                {
+                  "op": "literal",
+                  "text": "<Strings:MC2UI.diction.Objective_1> ",
+                  "kind": "StrProperty",
+                  "start": 699,
+                  "end": 737
+                }
+              ],
+              "kind": "StrProperty",
+              "start": 693,
+              "end": 738
+            },
+            "size": 51
+          },
+          {
+            "offset": 741,
+            "logical_offset": 9793407,
+            "sha256": "825658d2d1bc504860ff59987f05f8d9c7e12dcf2d01c76eb3b6ee9a8f5943db",
+            "target": {
+              "op": "local",
+              "ref": 31606,
+              "path": "MC2TriggerInact_TreasureBox.OpenItemBox.strItem",
+              "kind": "StrProperty",
+              "start": 742,
+              "end": 747
+            },
+            "value": {
+              "op": "concat",
+              "args": [
+                {
+                  "op": "local",
+                  "ref": 31606,
+                  "path": "MC2TriggerInact_TreasureBox.OpenItemBox.strItem",
+                  "kind": "StrProperty",
+                  "start": 748,
+                  "end": 753
+                },
+                {
+                  "op": "literal",
+                  "text": "<Strings:MC2UI.diction.Objective_0> ",
+                  "kind": "StrProperty",
+                  "start": 753,
+                  "end": 791
+                }
+              ],
+              "kind": "StrProperty",
+              "start": 747,
+              "end": 792
+            },
+            "size": 51
+          },
+          {
+            "offset": 792,
+            "logical_offset": 9793458,
+            "sha256": "9055b2f3036287956d452794f7b89251b08053677e0bbe869bc7e69d8064929d",
+            "target": {
+              "op": "local",
+              "ref": 31606,
+              "path": "MC2TriggerInact_TreasureBox.OpenItemBox.strItem",
+              "kind": "StrProperty",
+              "start": 793,
+              "end": 798
+            },
+            "value": {
+              "op": "concat",
+              "args": [
+                {
+                  "op": "local",
+                  "ref": 31606,
+                  "path": "MC2TriggerInact_TreasureBox.OpenItemBox.strItem",
+                  "kind": "StrProperty",
+                  "start": 799,
+                  "end": 804
+                },
+                {
+                  "op": "literal",
+                  "text": "<Strings:MC2UI.Battle_Log.GetITEM>",
+                  "kind": "StrProperty",
+                  "start": 804,
+                  "end": 840
+                }
+              ],
+              "kind": "StrProperty",
+              "start": 798,
+              "end": 841
+            },
+            "size": 49
+          }
+        ]
+      }
+    ],
+    "direct_reference_coverage": {
+      "records": [
+        {
+          "tag": "<Strings:MC2UI.diction.Objective_0>",
+          "hits": [
+            {
+              "input": "MC2Game",
+              "encoding": "ascii",
+              "offset": 7005316,
+              "assignment_owners": [
+                {
+                  "function": "MC2BattleYupa.LearnSkill",
+                  "export": 2716,
+                  "assignment_offset": 714,
+                  "assignment_sha256": "07c4a4b88cd47eb7d1d4fb002cee2833af31bc9965a89a21a1c444bcf7e2c02a"
+                }
+              ]
+            },
+            {
+              "input": "MC2Game",
+              "encoding": "ascii",
+              "offset": 7006096,
+              "assignment_owners": [
+                {
+                  "function": "MC2BattleYupa.LearnSkill",
+                  "export": 2716,
+                  "assignment_offset": 1494,
+                  "assignment_sha256": "07c4a4b88cd47eb7d1d4fb002cee2833af31bc9965a89a21a1c444bcf7e2c02a"
+                }
+              ]
+            },
+            {
+              "input": "MC2Game",
+              "encoding": "ascii",
+              "offset": 7427399,
+              "assignment_owners": [
+                {
+                  "function": "MC2DropItemActor.AddItemManager",
+                  "export": 7624,
+                  "assignment_offset": 794,
+                  "assignment_sha256": "4b6c4eeae1311ef42a159021a6bb08d426e4fc8dabfa73a30941f88c60255b9c"
+                }
+              ]
+            },
+            {
+              "input": "MC2Game",
+              "encoding": "ascii",
+              "offset": 7432069,
+              "assignment_owners": [
+                {
+                  "function": "MC2DropItemPlaceableActor.AddItemManager",
+                  "export": 7670,
+                  "assignment_offset": 824,
+                  "assignment_sha256": "67969d8549462fd30a6b0537c27791f682781545c11a93d900a00d0a7b005576"
+                }
+              ]
+            },
+            {
+              "input": "MC2Game",
+              "encoding": "ascii",
+              "offset": 7532734,
+              "assignment_owners": [
+                {
+                  "function": "MC2FieldObj_IncompletionBomb.AddInvenItem",
+                  "export": 8846,
+                  "assignment_offset": 276,
+                  "assignment_sha256": "23593762c36078be088ff20f339296988e35e5abd3b2d5c17f646390fbd02f46"
+                }
+              ]
+            },
+            {
+              "input": "MC2Game",
+              "encoding": "ascii",
+              "offset": 7546301,
+              "assignment_owners": [
+                {
+                  "function": "MC2FieldObj_SelectTypeIncomBomb.AddInvenItem",
+                  "export": 8982,
+                  "assignment_offset": 276,
+                  "assignment_sha256": "21a0ffe4aca6a705d00507944fb786ea2574eb96dec4c96c0640d2fe6fc67f1c"
+                }
+              ]
+            },
+            {
+              "input": "MC2Game",
+              "encoding": "ascii",
+              "offset": 7571077,
+              "assignment_owners": [
+                {
+                  "function": "MC2FieldObjMgr.GiveCollectPlantItem",
+                  "export": 9299,
+                  "assignment_offset": 175,
+                  "assignment_sha256": "bc8203b1ca5eb32ad55cfabf47c9dc0b321fb791cd4f7d98ada37a9a67e88128"
+                }
+              ]
+            },
+            {
+              "input": "MC2Game",
+              "encoding": "ascii",
+              "offset": 7739526,
+              "assignment_owners": [
+                {
+                  "function": "MC2UIScene_AlarmWindow.SetAlarmTextsIcon",
+                  "export": 11146,
+                  "assignment_offset": 221,
+                  "assignment_sha256": "fc8ab69f3e5f456c63047437c33e1c426ff39304bda0e44d4ff7703283747e92"
+                }
+              ]
+            },
+            {
+              "input": "MC2Game",
+              "encoding": "ascii",
+              "offset": 7895310,
+              "assignment_owners": [
+                {
+                  "function": "MC2ItemDropTable.GiveInvestItemToPlayer",
+                  "export": 12844,
+                  "assignment_offset": 225,
+                  "assignment_sha256": "6f82c04ec88808c592baa69d14451678e988dec2f33a1a2a9133b1218a40f6cd"
+                }
+              ]
+            },
+            {
+              "input": "MC2Game",
+              "encoding": "ascii",
+              "offset": 8403768,
+              "assignment_owners": [
+                {
+                  "function": "MC2PawnInterfaceBattle.ExtractKamond",
+                  "export": 18173,
+                  "assignment_offset": 220,
+                  "assignment_sha256": "ea53329847aa8b7c855704f3935a57133ab9d0262dc8fa6d825c8317fecec738"
+                }
+              ]
+            },
+            {
+              "input": "MC2Game",
+              "encoding": "ascii",
+              "offset": 9358237,
+              "assignment_owners": [
+                {
+                  "function": "MC2SeqAct_ChangeSubEquipData.InitSubEquipData",
+                  "export": 27916,
+                  "assignment_offset": 822,
+                  "assignment_sha256": "f80e66e5f2c65dfdd3d3abb7a9cb5135d1b7ce03f50c06d2c558b65802f12604"
+                }
+              ]
+            },
+            {
+              "input": "MC2Game",
+              "encoding": "ascii",
+              "offset": 9360593,
+              "assignment_owners": [
+                {
+                  "function": "MC2SeqAct_ChangeWeaponData.InitWeaponData",
+                  "export": 27934,
+                  "assignment_offset": 831,
+                  "assignment_sha256": "d8967579ddf39a68d9998eba444544a274deb9739b9c37d3024e71f1d9ae37fa"
+                }
+              ]
+            },
+            {
+              "input": "MC2Game",
+              "encoding": "ascii",
+              "offset": 9436688,
+              "assignment_owners": [
+                {
+                  "function": "MC2SeqAct_GiveItemToPlayer.Activated",
+                  "export": 28515,
+                  "assignment_offset": 152,
+                  "assignment_sha256": "43590d069283af7ef7c78874706cc167b997a69412cd7de1cf72c07473ef3e75"
+                }
+              ]
+            },
+            {
+              "input": "MC2Game",
+              "encoding": "ascii",
+              "offset": 9458847,
+              "assignment_owners": [
+                {
+                  "function": "MC2SeqAct_MakeKamond.Activated",
+                  "export": 28666,
+                  "assignment_offset": 217,
+                  "assignment_sha256": "d2f57f6e64fde34521e4b596db551fbe1ae85485e802c70b1777f116b5144277"
+                }
+              ]
+            },
+            {
+              "input": "MC2Game",
+              "encoding": "ascii",
+              "offset": 9793420,
+              "assignment_owners": [
+                {
+                  "function": "MC2TriggerInact_TreasureBox.OpenItemBox",
+                  "export": 31608,
+                  "assignment_offset": 741,
+                  "assignment_sha256": "825658d2d1bc504860ff59987f05f8d9c7e12dcf2d01c76eb3b6ee9a8f5943db"
+                }
+              ]
+            }
+          ],
+          "all_direct_hits_in_proven_assignments": true
+        },
+        {
+          "tag": "<Strings:MC2UI.diction.Objective_1>",
+          "hits": [
+            {
+              "input": "MC2Game",
+              "encoding": "ascii",
+              "offset": 7005262,
+              "assignment_owners": [
+                {
+                  "function": "MC2BattleYupa.LearnSkill",
+                  "export": 2716,
+                  "assignment_offset": 660,
+                  "assignment_sha256": "0d4ad5b175902e1e6269c4b5fd1e35360f87fdc6215eb97db5e11db68fe80db8"
+                }
+              ]
+            },
+            {
+              "input": "MC2Game",
+              "encoding": "ascii",
+              "offset": 7006042,
+              "assignment_owners": [
+                {
+                  "function": "MC2BattleYupa.LearnSkill",
+                  "export": 2716,
+                  "assignment_offset": 1440,
+                  "assignment_sha256": "0d4ad5b175902e1e6269c4b5fd1e35360f87fdc6215eb97db5e11db68fe80db8"
+                }
+              ]
+            },
+            {
+              "input": "MC2Game",
+              "encoding": "ascii",
+              "offset": 7427345,
+              "assignment_owners": [
+                {
+                  "function": "MC2DropItemActor.AddItemManager",
+                  "export": 7624,
+                  "assignment_offset": 740,
+                  "assignment_sha256": "ecf3f22b23f51da1b5f6861484a3f54f15b4d0b612f527ade8d64d8ad29ccf97"
+                }
+              ]
+            },
+            {
+              "input": "MC2Game",
+              "encoding": "ascii",
+              "offset": 7432015,
+              "assignment_owners": [
+                {
+                  "function": "MC2DropItemPlaceableActor.AddItemManager",
+                  "export": 7670,
+                  "assignment_offset": 770,
+                  "assignment_sha256": "e61d2a168c50b92456d9df9aabe866245dc18d801f466c29d7b25d257b0a7ec9"
+                }
+              ]
+            },
+            {
+              "input": "MC2Game",
+              "encoding": "ascii",
+              "offset": 7532680,
+              "assignment_owners": [
+                {
+                  "function": "MC2FieldObj_IncompletionBomb.AddInvenItem",
+                  "export": 8846,
+                  "assignment_offset": 222,
+                  "assignment_sha256": "6a4ab0dd8a2e111d8561cb21802711596ebac2363fbe5d7dbc8eda99116f8961"
+                }
+              ]
+            },
+            {
+              "input": "MC2Game",
+              "encoding": "ascii",
+              "offset": 7546247,
+              "assignment_owners": [
+                {
+                  "function": "MC2FieldObj_SelectTypeIncomBomb.AddInvenItem",
+                  "export": 8982,
+                  "assignment_offset": 222,
+                  "assignment_sha256": "7ffe908538d53f6b5f773a7074c34c87800169089e7ad885ea0dcc05d4c4d3df"
+                }
+              ]
+            },
+            {
+              "input": "MC2Game",
+              "encoding": "ascii",
+              "offset": 7571023,
+              "assignment_owners": [
+                {
+                  "function": "MC2FieldObjMgr.GiveCollectPlantItem",
+                  "export": 9299,
+                  "assignment_offset": 121,
+                  "assignment_sha256": "0d36f2685ac7a72fc3bca83b77c50f01f7562bebcf48998bf9071a43380e2bef"
+                }
+              ]
+            },
+            {
+              "input": "MC2Game",
+              "encoding": "ascii",
+              "offset": 7739480,
+              "assignment_owners": [
+                {
+                  "function": "MC2UIScene_AlarmWindow.SetAlarmTextsIcon",
+                  "export": 11146,
+                  "assignment_offset": 175,
+                  "assignment_sha256": "5cbd52358fea13e5871bf8bef6858d49957e875d2720aaed77c13aebb130f147"
+                }
+              ]
+            },
+            {
+              "input": "MC2Game",
+              "encoding": "ascii",
+              "offset": 7895256,
+              "assignment_owners": [
+                {
+                  "function": "MC2ItemDropTable.GiveInvestItemToPlayer",
+                  "export": 12844,
+                  "assignment_offset": 171,
+                  "assignment_sha256": "dd74af536b821c01530907768f5a2cba9bbd716ff7af4872ef85dcb4501c035f"
+                }
+              ]
+            },
+            {
+              "input": "MC2Game",
+              "encoding": "ascii",
+              "offset": 8403714,
+              "assignment_owners": [
+                {
+                  "function": "MC2PawnInterfaceBattle.ExtractKamond",
+                  "export": 18173,
+                  "assignment_offset": 166,
+                  "assignment_sha256": "32c9deaf8ba50dca869ae110b3e3cbf48191b7f66fdecdc23b63a9d1bac4a673"
+                }
+              ]
+            },
+            {
+              "input": "MC2Game",
+              "encoding": "ascii",
+              "offset": 9358183,
+              "assignment_owners": [
+                {
+                  "function": "MC2SeqAct_ChangeSubEquipData.InitSubEquipData",
+                  "export": 27916,
+                  "assignment_offset": 768,
+                  "assignment_sha256": "882a9614137df799dd90c82bb82808c529040bb2abaf16bfb3204196ca0bdf59"
+                }
+              ]
+            },
+            {
+              "input": "MC2Game",
+              "encoding": "ascii",
+              "offset": 9360539,
+              "assignment_owners": [
+                {
+                  "function": "MC2SeqAct_ChangeWeaponData.InitWeaponData",
+                  "export": 27934,
+                  "assignment_offset": 777,
+                  "assignment_sha256": "b9f5f101da17526fd73822f1f46c07e2ad2b97d174ba4082b30b9af11e0e82bf"
+                }
+              ]
+            },
+            {
+              "input": "MC2Game",
+              "encoding": "ascii",
+              "offset": 9458793,
+              "assignment_owners": [
+                {
+                  "function": "MC2SeqAct_MakeKamond.Activated",
+                  "export": 28666,
+                  "assignment_offset": 163,
+                  "assignment_sha256": "7d36fee06707ce3faa5b16d1decfbf70a4454c6bc242b18232edda89ea3fe879"
+                }
+              ]
+            },
+            {
+              "input": "MC2Game",
+              "encoding": "ascii",
+              "offset": 9793366,
+              "assignment_owners": [
+                {
+                  "function": "MC2TriggerInact_TreasureBox.OpenItemBox",
+                  "export": 31608,
+                  "assignment_offset": 687,
+                  "assignment_sha256": "8866055fc505ee1fd34e609ae086ce23cfe9d38deb7da2454e24bc6a5744c0cb"
+                }
+              ]
+            }
+          ],
+          "all_direct_hits_in_proven_assignments": true
+        },
+        {
+          "tag": "<Strings:MC2UI.Battle_Log.GetITEM>",
+          "hits": [
+            {
+              "input": "MC2Game",
+              "encoding": "ascii",
+              "offset": 7427450,
+              "assignment_owners": [
+                {
+                  "function": "MC2DropItemActor.AddItemManager",
+                  "export": 7624,
+                  "assignment_offset": 845,
+                  "assignment_sha256": "e197f3658f58c0ff43bb1e20c3fea7577bf6defc9776b19e1b4bca790b5380f2"
+                }
+              ]
+            },
+            {
+              "input": "MC2Game",
+              "encoding": "ascii",
+              "offset": 7432120,
+              "assignment_owners": [
+                {
+                  "function": "MC2DropItemPlaceableActor.AddItemManager",
+                  "export": 7670,
+                  "assignment_offset": 875,
+                  "assignment_sha256": "084760402544e15d46253c7075ff910198a805d2f6c747d7a430691337dadf62"
+                }
+              ]
+            },
+            {
+              "input": "MC2Game",
+              "encoding": "ascii",
+              "offset": 7532785,
+              "assignment_owners": [
+                {
+                  "function": "MC2FieldObj_IncompletionBomb.AddInvenItem",
+                  "export": 8846,
+                  "assignment_offset": 327,
+                  "assignment_sha256": "5aba4e9168c4e1ef5ed15f0058e6ccb0138b395ccd2ab5d66afdf40c60109f20"
+                }
+              ]
+            },
+            {
+              "input": "MC2Game",
+              "encoding": "ascii",
+              "offset": 7546352,
+              "assignment_owners": [
+                {
+                  "function": "MC2FieldObj_SelectTypeIncomBomb.AddInvenItem",
+                  "export": 8982,
+                  "assignment_offset": 327,
+                  "assignment_sha256": "89ac897140827f18000eb946b5a2bb6b82a514b8ecc948d877116e7769cb0608"
+                }
+              ]
+            },
+            {
+              "input": "MC2Game",
+              "encoding": "ascii",
+              "offset": 7571128,
+              "assignment_owners": [
+                {
+                  "function": "MC2FieldObjMgr.GiveCollectPlantItem",
+                  "export": 9299,
+                  "assignment_offset": 226,
+                  "assignment_sha256": "4bb1634133bbb71ed924dc716047c66df0ad2ded34b83ca6f9c1817763c5554e"
+                }
+              ]
+            },
+            {
+              "input": "MC2Game",
+              "encoding": "ascii",
+              "offset": 7895361,
+              "assignment_owners": [
+                {
+                  "function": "MC2ItemDropTable.GiveInvestItemToPlayer",
+                  "export": 12844,
+                  "assignment_offset": 276,
+                  "assignment_sha256": "6591bbdd1525c4bc07cab4e001b6c5af38a54ebcb6bde0140d8d81b19f91c707"
+                }
+              ]
+            },
+            {
+              "input": "MC2Game",
+              "encoding": "ascii",
+              "offset": 8403819,
+              "assignment_owners": [
+                {
+                  "function": "MC2PawnInterfaceBattle.ExtractKamond",
+                  "export": 18173,
+                  "assignment_offset": 271,
+                  "assignment_sha256": "361a16e96b310e3d36ea1f81502426e2fd0296c0cec77443f531efd508fbf1e2"
+                }
+              ]
+            },
+            {
+              "input": "MC2Game",
+              "encoding": "ascii",
+              "offset": 9436740,
+              "assignment_owners": [
+                {
+                  "function": "MC2SeqAct_GiveItemToPlayer.Activated",
+                  "export": 28515,
+                  "assignment_offset": 242,
+                  "assignment_sha256": "d1c6f886202854bfc4a94af8915750ba193f45ce109b7428fd5045e1b67f3d05"
+                }
+              ]
+            },
+            {
+              "input": "MC2Game",
+              "encoding": "ascii",
+              "offset": 9458898,
+              "assignment_owners": [
+                {
+                  "function": "MC2SeqAct_MakeKamond.Activated",
+                  "export": 28666,
+                  "assignment_offset": 268,
+                  "assignment_sha256": "fde25e6a32c14b732486f4c20f393b14657885564349090f725a84f9597bea3a"
+                }
+              ]
+            },
+            {
+              "input": "MC2Game",
+              "encoding": "ascii",
+              "offset": 9793471,
+              "assignment_owners": [
+                {
+                  "function": "MC2TriggerInact_TreasureBox.OpenItemBox",
+                  "export": 31608,
+                  "assignment_offset": 792,
+                  "assignment_sha256": "9055b2f3036287956d452794f7b89251b08053677e0bbe869bc7e69d8064929d"
+                }
+              ]
+            }
+          ],
+          "all_direct_hits_in_proven_assignments": true
+        },
+        {
+          "tag": "<Strings:MC2UI.System_Log.GetWeapon>",
+          "hits": [
+            {
+              "input": "MC2Game",
+              "encoding": "ascii",
+              "offset": 9358288,
+              "assignment_owners": [
+                {
+                  "function": "MC2SeqAct_ChangeSubEquipData.InitSubEquipData",
+                  "export": 27916,
+                  "assignment_offset": 873,
+                  "assignment_sha256": "a1a30efd433ab7ef4addda7f6dea729783853d4574c616df31687ad861a7816b"
+                }
+              ]
+            },
+            {
+              "input": "MC2Game",
+              "encoding": "ascii",
+              "offset": 9360644,
+              "assignment_owners": [
+                {
+                  "function": "MC2SeqAct_ChangeWeaponData.InitWeaponData",
+                  "export": 27934,
+                  "assignment_offset": 882,
+                  "assignment_sha256": "6c4d5363ec82f945c811f46026b7bce8190e7989810482269a077810fb4e0698"
+                }
+              ]
+            }
+          ],
+          "all_direct_hits_in_proven_assignments": true
+        },
+        {
+          "tag": "<Strings:MC2UI.System_Log.GetItem3>",
+          "hits": [
+            {
+              "input": "MC2Game",
+              "encoding": "ascii",
+              "offset": 7739594,
+              "assignment_owners": [
+                {
+                  "function": "MC2UIScene_AlarmWindow.SetAlarmTextsIcon",
+                  "export": 11146,
+                  "assignment_offset": 275,
+                  "assignment_sha256": "78d5a8a74ff177c3c0877679058ebad9d5e6f44c3a26e23d4d96747e3de1f3ce"
+                }
+              ]
+            },
+            {
+              "input": "MC2Game",
+              "encoding": "ascii",
+              "offset": 7739744,
+              "assignment_owners": [
+                {
+                  "function": "MC2UIScene_AlarmWindow.SetAlarmTextsIcon",
+                  "export": 11146,
+                  "assignment_offset": 336,
+                  "assignment_sha256": "4ac851bf6f39ff363a5bcd4f90ee13f70347d0ca4bcbf64f9edd07f7cacb4e23"
+                }
+              ]
+            }
+          ],
+          "all_direct_hits_in_proven_assignments": true
+        },
+        {
+          "tag": "<Strings:MC2UI.System_Log.SkillSubject>",
+          "hits": [
+            {
+              "input": "MC2Game",
+              "encoding": "ascii",
+              "offset": 7005137,
+              "assignment_owners": [
+                {
+                  "function": "MC2BattleYupa.LearnSkill",
+                  "export": 2716,
+                  "assignment_offset": 486,
+                  "assignment_sha256": "ff3703d7815f4221c72550e327013c6d84e7d4ad1a3aa99d5f4b87a046a1cb50"
+                }
+              ]
+            },
+            {
+              "input": "MC2Game",
+              "encoding": "ascii",
+              "offset": 7005896,
+              "assignment_owners": [
+                {
+                  "function": "MC2BattleYupa.LearnSkill",
+                  "export": 2716,
+                  "assignment_offset": 1245,
+                  "assignment_sha256": "2bff272613da287a37d37b3990214e7a63328a9400f3519300c2147a91fe4c83"
+                }
+              ]
+            }
+          ],
+          "all_direct_hits_in_proven_assignments": true
+        },
+        {
+          "tag": "<Strings:MC2UI.System_Log.GetSkill>",
+          "hits": [
+            {
+              "input": "MC2Game",
+              "encoding": "ascii",
+              "offset": 7005367,
+              "assignment_owners": [
+                {
+                  "function": "MC2BattleYupa.LearnSkill",
+                  "export": 2716,
+                  "assignment_offset": 765,
+                  "assignment_sha256": "8e8bc20cf5513fc376fc47d9e7818d4621dc27dfa6be8823e1b73de137e01c8e"
+                }
+              ]
+            },
+            {
+              "input": "MC2Game",
+              "encoding": "ascii",
+              "offset": 7006147,
+              "assignment_owners": [
+                {
+                  "function": "MC2BattleYupa.LearnSkill",
+                  "export": 2716,
+                  "assignment_offset": 1545,
+                  "assignment_sha256": "8e8bc20cf5513fc376fc47d9e7818d4621dc27dfa6be8823e1b73de137e01c8e"
+                }
+              ]
+            }
+          ],
+          "all_direct_hits_in_proven_assignments": true
+        }
+      ],
+      "case_insensitive": true,
+      "search_scope": [
+        "entire locked MC2Game logical package",
+        "entire locked original native image"
+      ],
+      "other_packages_excluded": false,
+      "dynamically_constructed_keys_excluded": false,
+      "executed": false
+    },
+    "grammar": {
+      "objective": "已",
+      "acquisition_suffix": "获得",
+      "skill_subject": "的",
+      "skill_suffix": "习得",
+      "examples": [
+        "道具名已 获得",
+        "100席德已 获得",
+        "图标道具名（3）已 获得",
+        "人物名的技能名已 习得"
+      ],
+      "script_embedded_ascii_spaces_retained": true,
+      "unknown_runtime_slots_not_filled": true
+    },
+    "scope_limits": [
+      "Exact recognized assignment windows, not a complete VM/decompiler or whole-function control-flow proof.",
+      "VirtualFunction FName/serialized declaration return kinds are recorded; dynamic invocation dispatch/runtime result is not claimed.",
+      "Other packages and dynamically constructed localization keys are not excluded.",
+      "Unknown untyped UI consumers remain original; no runtime or layout acceptance."
+    ],
+    "held": [
+      {
+        "id": "coalesced:2012dce0b2426ac1eb8910eda6dba4b98a096abce2d1c045ad67fbc42e61d3b8",
+        "section": "Battle_Log",
+        "key": "GetSP",
+        "reason": "no closed complete typed consumer in this adoption group"
+      },
+      {
+        "id": "coalesced:99b79fcaa2e8712a5d2354b711f9f4cb1a8145ecfec49e883957f3f2aba42e77",
+        "section": "Battle_Log",
+        "key": "ReceiveCommunication",
+        "reason": "no closed complete typed consumer in this adoption group"
+      },
+      {
+        "id": "coalesced:d252cbc61a5c55a59d41b9fed3a46d6dd52978badbf467deb89685d379b27b53",
+        "section": "Battle_Log",
+        "key": "AcceptCommunication",
+        "reason": "no closed complete typed consumer in this adoption group"
+      },
+      {
+        "id": "coalesced:1ac05a4c65808c31f1a9147c0c9f66377d68e2d6424c03da1aaab7dd761b3398",
+        "section": "Battle_Log",
+        "key": "AskCommunication",
+        "reason": "no closed complete typed consumer in this adoption group"
+      },
+      {
+        "id": "coalesced:b75683d011dedf79e4cbc3ca6ac276ae86a172a83de0e3b8ba4b4d08e8ee6075",
+        "section": "Battle_Log",
+        "key": "GetItem2",
+        "reason": "no closed complete typed consumer in this adoption group"
+      },
+      {
+        "id": "coalesced:b18113043a461e7a87994fd713a571cdfcde4a5174692bbc6cba8fee1bee04b5",
+        "section": "Battle_Log",
+        "key": "LevelUp",
+        "reason": "no closed complete typed consumer in this adoption group"
+      },
+      {
+        "id": "coalesced:9a3279fab8122241d571a25bbe4fcb8de6500cf4d848dfd5f3b5a1563507df1b",
+        "section": "Battle_Log",
+        "key": "HuarenRecover_1",
+        "reason": "no closed complete typed consumer in this adoption group"
+      },
+      {
+        "id": "coalesced:f80bff38fe789ff55b971481adf6588651ecc9d01806614890399b75d5d12a36",
+        "section": "Battle_Log",
+        "key": "HuarenRecover_2",
+        "reason": "no closed complete typed consumer in this adoption group"
+      },
+      {
+        "id": "coalesced:71b9437467b6a8e7be2021f92a0929c533721ebfa28bef9b2cacda9ca46530ab",
+        "section": "System_Log",
+        "key": "JoinParty",
+        "reason": "no closed complete typed consumer in this adoption group"
+      },
+      {
+        "id": "coalesced:59248bd995cc1a0fe7b15466eb593e39b0a8e64d28f080974e9784f958a5db10",
+        "section": "System_Log",
+        "key": "LeaveParty",
+        "reason": "no closed complete typed consumer in this adoption group"
+      },
+      {
+        "id": "coalesced:db95194c94542c75f7b5c59473348e8cdadcdff008fa1e01be6ac0bb90c67f9f",
+        "section": "System_Log",
+        "key": "JoinGuest",
+        "reason": "no closed complete typed consumer in this adoption group"
+      },
+      {
+        "id": "coalesced:73c5781cbafd77e137224236adae2137d1306af7a203a4e3c7224916f6f3713f",
+        "section": "System_Log",
+        "key": "LeaveGuest",
+        "reason": "no closed complete typed consumer in this adoption group"
+      },
+      {
+        "id": "coalesced:fe81ea693331bb8f77c9b8514a62d27cfe2880a91565561279458fa66427a573",
+        "section": "Help",
+        "key": "Left_Request_particle",
+        "reason": "no closed complete typed consumer in this adoption group"
+      },
+      {
+        "id": "coalesced:e14f7f8ff4b2158c6884fe9ce29a8ecbbf26b87617a4b4d0e68e183d9a85625c",
+        "section": "Help",
+        "key": "Change",
+        "reason": "no closed complete typed consumer in this adoption group"
+      },
+      {
+        "id": "coalesced:95cb938af75b1172dc93f3a5dd533161477435bc96187ee428e9bb094fb736b5",
+        "section": "Change_Guidence_Massage",
+        "key": "Guidence_Massage",
+        "reason": "no closed complete typed consumer in this adoption group"
+      },
+      {
+        "id": "coalesced:cf1e11b2f0cbec5b285591a9b72bcb637ee8663accceeb6baaa50911c899356f",
+        "section": "diction",
+        "key": "Subjective_0",
+        "reason": "no closed complete typed consumer in this adoption group"
+      },
+      {
+        "id": "coalesced:815adc17d9a6bc34581fefa84dc396edba26c99aea6ccb6772e451d5b727db4e",
+        "section": "diction",
+        "key": "Subjective_1",
+        "reason": "no closed complete typed consumer in this adoption group"
+      },
+      {
+        "id": "coalesced:dc0b674a5a67daf9ad0968f9b9e3bf804e477dc3a9b67cba06b2364860069f13",
+        "section": "diction",
+        "key": "Subjective_2",
+        "reason": "no closed complete typed consumer in this adoption group"
+      },
+      {
+        "id": "coalesced:f5d99754626a372c4ed135bfe18e305c608eb0cb3987da9007d29f3d71b22a28",
+        "section": "diction",
+        "key": "Subjective_3",
+        "reason": "no closed complete typed consumer in this adoption group"
+      }
+    ],
+    "executed": false
+  },
+  "escape": {
+    "schema_version": 1,
+    "inputs": {
+      "build/xex-native-verification/final/disc1-pycryptodome.bin": "d18d49fb2960426715ba17d61d069cce42b1eadac153af13c9395cd42b1773e9",
+      "build/phase-283-verification/Core-logical.bin": "5ac2c9745bdf6220ddb3dbe898ef88b1c8ac84c882b06816e8257ad5b4c6e2a9",
+      "build/phase-283-verification/Core-tables.json": "3cd1cd977e7552b202ae88ee2f10db74d3056d4770a7ddbed7de8ead26434c0b",
+      "build/disc1-selected/MC2Game/Localization/Coalesced.int": "179e265cfc9e6d3e9f2586abe75b5da303b2af9b8484079851dab72f9f7edb8c"
+    },
+    "kind": "source-locked-Localize-and-post-lookup-control-flow",
+    "functions": [
+      {
+        "start": 2184779240,
+        "end": 2184780396,
+        "sha256": "dd18e65a3675b8ae390de651137c600bac2fe90267b681563c2a620b0815a7e3",
+        "pdata": {
+          "index": 6047,
+          "start": 2184779240,
+          "end": 2184780396,
+          "length_words": 289,
+          "prologue_words": 4,
+          "prologue_end": 2184779256,
+          "packed_word": "c0012104",
+          "thirty_two_bit": 1,
+          "exception_flag": 1
+        },
+        "disassembly": "C:\\Users\\noway\\Downloads\\Magna-Carta-2-CN\\build\\phase-287-escape-research\\function-823915e8.txt"
+      },
+      {
+        "start": 2186378008,
+        "end": 2186378404,
+        "sha256": "b7dba3b0f37193364fa4329e1f19146e135e998a42ca675afc0766acd6503c31",
+        "pdata": {
+          "index": 12987,
+          "start": 2186378008,
+          "end": 2186378404,
+          "length_words": 99,
+          "prologue_words": 4,
+          "prologue_end": 2186378024,
+          "packed_word": "c0006304",
+          "thirty_two_bit": 1,
+          "exception_flag": 1
+        },
+        "disassembly": "C:\\Users\\noway\\Downloads\\Magna-Carta-2-CN\\build\\phase-287-escape-research\\function-82517b18.txt"
+      },
+      {
+        "start": 2184763736,
+        "end": 2184764024,
+        "sha256": "c482f20eb07df02bdc26f8103eda8f35e7142615c9e88ccb941ce055bebe7e99",
+        "pdata": {
+          "index": 5991,
+          "start": 2184763736,
+          "end": 2184764024,
+          "length_words": 72,
+          "prologue_words": 4,
+          "prologue_end": 2184763752,
+          "packed_word": "c0004804",
+          "thirty_two_bit": 1,
+          "exception_flag": 1
+        },
+        "disassembly": "C:\\Users\\noway\\Downloads\\Magna-Carta-2-CN\\build\\phase-287-escape-research\\function-8238d958.txt"
+      },
+      {
+        "start": 2184809216,
+        "end": 2184809456,
+        "sha256": "0b73e0ad55756593b46a801cca1708e559a6fbc695e909a0a797a2d3a17475ab",
+        "pdata": {
+          "index": 6253,
+          "start": 2184809216,
+          "end": 2184809456,
+          "length_words": 60,
+          "prologue_words": 4,
+          "prologue_end": 2184809232,
+          "packed_word": "c0003c04",
+          "thirty_two_bit": 1,
+          "exception_flag": 1
+        },
+        "disassembly": "C:\\Users\\noway\\Downloads\\Magna-Carta-2-CN\\build\\phase-287-escape-research\\function-82398b00.txt"
+      },
+      {
+        "start": 2188077816,
+        "end": 2188078172,
+        "sha256": "56805bb49ac022cdde89496478a24b2ab2cade4419647024da2bc1dccfee888a",
+        "pdata": {
+          "index": 21365,
+          "start": 2188077816,
+          "end": 2188078172,
+          "length_words": 89,
+          "prologue_words": 4,
+          "prologue_end": 2188077832,
+          "packed_word": "c0005904",
+          "thirty_two_bit": 1,
+          "exception_flag": 1
+        },
+        "disassembly": "C:\\Users\\noway\\Downloads\\Magna-Carta-2-CN\\build\\phase-287-escape-research\\function-826b6af8.txt"
+      }
+    ],
+    "initialized_native_row": {
+      "address": 2199973112,
+      "name_address": 2182452700,
+      "name": "intUObjectexecLocalize",
+      "code": 2186378008,
+      "raw_hex": "821595dc82517b18"
+    },
+    "core_declaration": {
+      "export_ref": 981,
+      "path": "Object.Localize",
+      "flags": 140288,
+      "params": [
+        {
+          "name": "SectionName",
+          "kind": "StrProperty",
+          "export_ref": 980
+        },
+        {
+          "name": "KeyName",
+          "kind": "StrProperty",
+          "export_ref": 979
+        },
+        {
+          "name": "PackageName",
+          "kind": "StrProperty",
+          "export_ref": 978
+        }
+      ],
+      "return_kind": "StrProperty",
+      "script_hex": "29000003d429000003d329000003d20b53"
+    },
+    "wrapper": {
+      "call": 2186378348,
+      "target": 2184779240,
+      "argument_order": {
+        "r4": "SectionName",
+        "r5": "KeyName",
+        "r6": "PackageName"
+      },
+      "result_copy": 2186378360,
+      "game_executed": false
+    },
+    "post_lookup": {
+      "start": 2184779940,
+      "explicit_replace_patterns": [
+        "\\n",
+        "\\t"
+      ],
+      "explicit_replacements": [
+        "\n",
+        "\t"
+      ],
+      "delimiter": "###",
+      "single_backslash_generic_parser_present": false,
+      "scope": "complete selected function and complete replacement/delimiter helpers; not entire engine",
+      "config_getter_vtable_offset": 24,
+      "config_getter_concrete_target_bound": false
+    },
+    "five_source_cases": [
+      {
+        "id": "coalesced:90f34741fe5fca276f66dde5e47eb2f8a20f937d7bc0a56bad705724ab163d49",
+        "section": "CSMB03_20",
+        "key": "voc_csmb_0320_50",
+        "source_sha256": "7b0bc473f4777cb222e7578effbbe29276113ebe2ff0ea536030beff1e0ebdfb",
+        "post_lookup_model": "하지만 그 녀석들,\\우리가 군인인 걸 알면\n일절 상대도 안 할 것 같은데.",
+        "bare_slash_remaining": 1,
+        "executed_in_game": false
+      },
+      {
+        "id": "coalesced:bd69e92a84f9e995da63138b4dd2ff6945381c90c3de1f46be73f14c7cf0ed81",
+        "section": "Recipe",
+        "key": "1458_recipe_D",
+        "source_sha256": "d5f4c0687af9e30bc270768e9d203eec9782e23a369a0d3e517a6a90131fa765",
+        "post_lookup_model": "「力と迅速の반지」を細工するための레시피\\공격ＬＶ5(3개)+저항ＬＶ1(2개)",
+        "bare_slash_remaining": 1,
+        "executed_in_game": false
+      },
+      {
+        "id": "coalesced:d54363002b60b55fde08d42ad11cb0d09a1560fb9a87d1d124f150be337ff1b3",
+        "section": "Ch00_1",
+        "key": "00_101_00",
+        "source_sha256": "cf461e4cbc05ed72bdcd4e72e9557edb74edd776b9bd94ebed299986f236b962",
+        "post_lookup_model": "공주님께 실례되지 않도록\\항상 조심하거라.",
+        "bare_slash_remaining": 1,
+        "executed_in_game": false
+      },
+      {
+        "id": "coalesced:57b54dd0eba6c8daeb04541decdd7526d45272db6cd7155eb53f6395ed7496c2",
+        "section": "06_603_0",
+        "key": "603_0",
+        "source_sha256": "8d7bc4b77ef6884bdf46281afdf82a24a6423f9b5abd0cfebfecd965c3b50a3e",
+        "post_lookup_model": "라노아라 호수에 출몰한 몬스터를\\처치해 줄 사람이 필요해서\n듀난 언덕으로 가는 중이었어요.",
+        "bare_slash_remaining": 1,
+        "executed_in_game": false
+      },
+      {
+        "id": "coalesced:de0ca5167ff71da3cbeb6dc2e97d303979d83b9d2f737f37b876b34421ca5fa5",
+        "section": "06_zepi_1",
+        "key": "order_2",
+        "source_sha256": "0c1130910a48be304380611163a519e67fc02efcf260e8c44782be81815f4e0a",
+        "post_lookup_model": "바로 시련에 들어가도록 하겠다.\\물의 시련과 싸워, 이겨야 한다.",
+        "bare_slash_remaining": 1,
+        "executed_in_game": false
+      }
+    ],
+    "other_dot_triplet_reader": {
+      "start": 2188077816,
+      "call": 2188078052,
+      "target": 2184779240,
+      "concrete_class_bound": false,
+      "Strings_tag_entry_bound": false
+    },
+    "limitations": [
+      "No proof of config reader before post-lookup preserving every escape.",
+      "Strings tag entry and later text-render paths are not fully bound.",
+      "Post-lookup model is not VM/native execution or in-game acceptance.",
+      "No normalization or repair of unknown separators is supported."
+    ],
+    "negative_hash_mutation_rejected": true
+  },
+  "damaged_line": {
+    "schema_version": 1,
+    "classification": "Verified source bytes and aligned common main clause; damaged modifier remains unresolved",
+    "adoptable_count": 1,
+    "inputs": [
+      {
+        "disc": 1,
+        "locale": "int",
+        "resource": "build/disc1-selected/MC2Game/Localization/Coalesced.int",
+        "resource_sha256": "179e265cfc9e6d3e9f2586abe75b5da303b2af9b8484079851dab72f9f7edb8c",
+        "document": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
+        "document_payload_sha256": "12b3a3f5849d41be53c6fdb10b5f5b9889365bb39cf8ac54dac052044282b87a",
+        "section": "CSMB09_20",
+        "key": "voc_csmb_0920_06",
+        "id": "coalesced:851544b42b76237932ecb3a7596181fed5aa4c07e654a778cf5327b46def9111",
+        "source_sha256": "5250f92813e1bd1f6660d4980af88948e952bd0155de0c5c5ad18da89dfae8f5",
+        "source": "우릴 괴롭히는 이 모든 재앙은\\n이 세계를 감Ｒ 칸의 순환에 심각한 문제가 생겼기 때문이오.",
+        "source_container_offset": 681096,
+        "source_utf16le_sha256": "3ba0cbf1927df189eb80e87776497891f094eb1ba0953595da1181df05941cfb",
+        "source_utf16le_hex": "b0c6b4b9200034ad6db888d794b2200074c72000a8bae0b42000acc759c540c75c006e0074c7200038c1c4ac7cb9200010ac32ff200078ce58c720001cc258d6d0c52000ecc201ac5cd5200038bb1cc800ac2000ddc0bcac30ae20004cb538bb74c724c62e00",
+        "source_encoding": "utf-16-le",
+        "roundtrip_identical": true,
+        "anomaly": {
+          "text": "감Ｒ",
+          "codepoints": [
+            "U+AC10",
+            "U+FF32"
+          ],
+          "container_offset": 681144,
+          "utf16le_hex": "10ac32ff"
+        }
+      },
+      {
+        "disc": 1,
+        "locale": "jpn",
+        "resource": "build/disc1-selected/MC2Game/Localization/Coalesced.jpn",
+        "resource_sha256": "fb99602a9ff5f081857efa7389d6d2b6ecfc6765946f0bba2fbde4cdbf962a90",
+        "document": "..\\MC2Game\\Localization\\JPN\\MC2CSMB.jpn",
+        "document_payload_sha256": "52617ea58d390dacb7025807d3522021e2d876e2f807b32f400db012e228f269",
+        "section": "CSMB09_20",
+        "key": "voc_csmb_0920_07",
+        "id": "coalesced:a253681df96a2fcfe0808c37e5354467bb1df8122e9b73ed1d2024b16096c62e",
+        "source_sha256": "63c4b4fc235e78e78e9565f4895da67d23b7bebc1c20446fdbc6eadf42d0ca99",
+        "source": "なぜならば、世界の力の源であるカンの循環に\\n問題が生じてしまったためだ。",
+        "source_container_offset": 593035,
+        "source_utf16le_sha256": "e9f635ca756f4069b1d1b21af8846b210596a81935d2514a0dc1c79692c7c2c6",
+        "source_utf16le_hex": "6a305c306a30893070300130164e4c756e309b526e30906e673042308b30ab30f3306e30aa5fb0746b305c006e004f554c984c301f755830663057307e3063305f305f30813060300230",
+        "source_encoding": "utf-16-le",
+        "roundtrip_identical": true
+      },
+      {
+        "disc": 2,
+        "locale": "int",
+        "resource": "build/disc2-selected/MC2Game/Localization/Coalesced.int",
+        "resource_sha256": "179e265cfc9e6d3e9f2586abe75b5da303b2af9b8484079851dab72f9f7edb8c",
+        "document": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
+        "document_payload_sha256": "12b3a3f5849d41be53c6fdb10b5f5b9889365bb39cf8ac54dac052044282b87a",
+        "section": "CSMB09_20",
+        "key": "voc_csmb_0920_06",
+        "id": "coalesced:851544b42b76237932ecb3a7596181fed5aa4c07e654a778cf5327b46def9111",
+        "source_sha256": "5250f92813e1bd1f6660d4980af88948e952bd0155de0c5c5ad18da89dfae8f5",
+        "source": "우릴 괴롭히는 이 모든 재앙은\\n이 세계를 감Ｒ 칸의 순환에 심각한 문제가 생겼기 때문이오.",
+        "source_container_offset": 681096,
+        "source_utf16le_sha256": "3ba0cbf1927df189eb80e87776497891f094eb1ba0953595da1181df05941cfb",
+        "source_utf16le_hex": "b0c6b4b9200034ad6db888d794b2200074c72000a8bae0b42000acc759c540c75c006e0074c7200038c1c4ac7cb9200010ac32ff200078ce58c720001cc258d6d0c52000ecc201ac5cd5200038bb1cc800ac2000ddc0bcac30ae20004cb538bb74c724c62e00",
+        "source_encoding": "utf-16-le",
+        "roundtrip_identical": true,
+        "anomaly": {
+          "text": "감Ｒ",
+          "codepoints": [
+            "U+AC10",
+            "U+FF32"
+          ],
+          "container_offset": 681144,
+          "utf16le_hex": "10ac32ff"
+        }
+      },
+      {
+        "disc": 2,
+        "locale": "jpn",
+        "resource": "build/disc2-selected/MC2Game/Localization/Coalesced.jpn",
+        "resource_sha256": "fb99602a9ff5f081857efa7389d6d2b6ecfc6765946f0bba2fbde4cdbf962a90",
+        "document": "..\\MC2Game\\Localization\\JPN\\MC2CSMB.jpn",
+        "document_payload_sha256": "52617ea58d390dacb7025807d3522021e2d876e2f807b32f400db012e228f269",
+        "section": "CSMB09_20",
+        "key": "voc_csmb_0920_07",
+        "id": "coalesced:a253681df96a2fcfe0808c37e5354467bb1df8122e9b73ed1d2024b16096c62e",
+        "source_sha256": "63c4b4fc235e78e78e9565f4895da67d23b7bebc1c20446fdbc6eadf42d0ca99",
+        "source": "なぜならば、世界の力の源であるカンの循環に\\n問題が生じてしまったためだ。",
+        "source_container_offset": 593035,
+        "source_utf16le_sha256": "e9f635ca756f4069b1d1b21af8846b210596a81935d2514a0dc1c79692c7c2c6",
+        "source_utf16le_hex": "6a305c306a30893070300130164e4c756e309b526e30906e673042308b30ab30f3306e30aa5fb0746b305c006e004f554c984c301f755830663057307e3063305f305f30813060300230",
+        "source_encoding": "utf-16-le",
+        "roundtrip_identical": true
+      }
+    ],
+    "alignment_window": [
+      {
+        "source_ordinal": 0,
+        "int_key": "voc_csmb_0920_00",
+        "int_source_sha256": "2678d382c74a56dd42f80445edb6f2048c90bb7313110bbda556f5a801cb8504",
+        "int_source": "전쟁 중이던 우리 양군의 수장이\\n함께 있는 걸 보고 다들 크게 놀랐을 거라 생각하오.",
+        "jpn_key": "voc_csmb_0920_01",
+        "jpn_source_sha256": "6619e3ace7f69d790ed9a900271b6ccbdad041bd8060e48cb969a209a98f40d6",
+        "jpn_source": "敵対する両軍のトップが一堂に会する光景を見て\\n皆さんは驚かれただろう。",
+        "alignment": "local source-order scene correspondence; not a universal key mapping"
+      },
+      {
+        "source_ordinal": 1,
+        "int_key": "voc_csmb_0920_01",
+        "int_source_sha256": "b3f55baa6ac3cb063694166ae1cdc869c4addfc0b7d5f7505493c9dc26936589",
+        "int_source": "남부군의 총사령관 알렉스 백작과 나, 슈엔자이트는\\n이번 내전을 끝내기 위해 휴전을 맺었음을\\n이 자리에서 밝히는 바이오.",
+        "jpn_key": "voc_csmb_0920_02",
+        "jpn_source_sha256": "8e4b16e372d99b60be834414be5e60c57934ae808c894ca83b09d9f68655901b",
+        "jpn_source": "南部軍の総司令官である\\nアレックス伯爵と私、シュエンザイトは\\n内戦の終結に関する共同の声明を、これより発表する。",
+        "alignment": "local source-order scene correspondence; not a universal key mapping"
+      },
+      {
+        "source_ordinal": 2,
+        "int_key": "voc_csmb_0920_02",
+        "int_source_sha256": "2d608b18f25d3c8f5d6318733e6708609f0f816e95e9723f5610d535df3f3d77",
+        "int_source": "뭐......?",
+        "jpn_key": "voc_csmb_0920_03",
+        "jpn_source_sha256": "7e5635cb9d05602c1f2bbe30ddafeaeb1e12329879ff9677739fdb075fe4bdb0",
+        "jpn_source": "な！",
+        "alignment": "local source-order scene correspondence; not a universal key mapping"
+      },
+      {
+        "source_ordinal": 3,
+        "int_key": "voc_csmb_0920_03",
+        "int_source_sha256": "66deef2b9dc08010a2457b251338b9522ffc8750f0644e06409e7579ce4196b0",
+        "int_source": "아, 저, 정말...전쟁이 끝나는 건가!",
+        "jpn_key": "voc_csmb_0920_04",
+        "jpn_source_sha256": "cb3ccfd7b3fb6a53d53ad2cd67dc7d97d4495f8ad81b939f9005629d07db4181",
+        "jpn_source": "ほ、本当に・・・戦争が終わるのか！",
+        "alignment": "local source-order scene correspondence; not a universal key mapping"
+      },
+      {
+        "source_ordinal": 4,
+        "int_key": "voc_csmb_0920_04",
+        "int_source_sha256": "ef6b04a7ee7eb3e4a6aeccbed6682830471cd526a8ea05966807b09cf991aa8c",
+        "int_source": "카르타대전 이후, 라 스트라다의 수호 아래\\n우린 천 년이 넘도록 풍요로운 환경 속에서\\n지내왔소.",
+        "jpn_key": "voc_csmb_0920_05",
+        "jpn_source_sha256": "130d5c8291270d8274f30e5561ed1b45745479d76b46799d849854789927745d",
+        "jpn_source": "我々は、凄惨を極めたカルタ大戦の後\\nラ・ストラダの守護の下、その恩恵を受け\\n豊穣の地で千年もの繁栄を、謳歌してきた。",
+        "alignment": "local source-order scene correspondence; not a universal key mapping"
+      },
+      {
+        "source_ordinal": 5,
+        "int_key": "voc_csmb_0920_05",
+        "int_source_sha256": "5066a929572fba420f4d84334f5266ae0f95891b9f8280c6cb16749a473f267d",
+        "int_source": "그러나 지금 또 다시 재화종이 내리고 있소.\\n우리의 낙원이 사라지려 하고 있는 것이오.",
+        "jpn_key": "voc_csmb_0920_06",
+        "jpn_source_sha256": "223da267bcf7765a8dad79b9205d63e151a03ed483bd780d6df4ffc6e69ec219",
+        "jpn_source": "だが、それが今\\n全て儚い夢物語になろうとしている。\\n災禍が再臨しようとしているのだ！！",
+        "alignment": "local source-order scene correspondence; not a universal key mapping"
+      },
+      {
+        "source_ordinal": 6,
+        "int_key": "voc_csmb_0920_06",
+        "int_source_sha256": "5250f92813e1bd1f6660d4980af88948e952bd0155de0c5c5ad18da89dfae8f5",
+        "int_source": "우릴 괴롭히는 이 모든 재앙은\\n이 세계를 감Ｒ 칸의 순환에 심각한 문제가 생겼기 때문이오.",
+        "jpn_key": "voc_csmb_0920_07",
+        "jpn_source_sha256": "63c4b4fc235e78e78e9565f4895da67d23b7bebc1c20446fdbc6eadf42d0ca99",
+        "jpn_source": "なぜならば、世界の力の源であるカンの循環に\\n問題が生じてしまったためだ。",
+        "alignment": "local source-order scene correspondence; not a universal key mapping"
+      },
+      {
+        "source_ordinal": 7,
+        "int_key": "voc_csmb_0920_07",
+        "int_source_sha256": "277fe0be08e2bf9afda0e4455fb6873d4abf6e637bd0bba415c8dc6b1da53bd4",
+        "int_source": "재화종이 앞으로도 계속된다면\\n우리는 머지않아 멸망의 위기를 맞게 될 거요.",
+        "jpn_key": "voc_csmb_0920_08",
+        "jpn_source_sha256": "5a077685466d79647abda658992ce117629d140bb721de888c23c4e0c703f0eb",
+        "jpn_source": "それは、あの忌々しい災いの種として降り注ぐ\\n「災禍種」だ！！",
+        "alignment": "local source-order scene correspondence; not a universal key mapping"
+      },
+      {
+        "source_ordinal": 8,
+        "int_key": "voc_csmb_0920_08",
+        "int_source_sha256": "db2e26c5c28052d382be5dad812e855985e93f62af37384ea68f930191cf0aac",
+        "int_source": "하지만 우린 재화종을 멈출 방법을 알고 있소.",
+        "jpn_key": "voc_csmb_0920_09",
+        "jpn_source_sha256": "12e3e6efbd95fc4ceed9dc6db10d497195c34873ea72bca892d1a6be5baa6878",
+        "jpn_source": "だが我々は、その災いを退ける方法を知っている。",
+        "alignment": "local source-order scene correspondence; not a universal key mapping"
+      },
+      {
+        "source_ordinal": 9,
+        "int_key": "voc_csmb_0920_09",
+        "int_source_sha256": "5d53ae437c98b9c7d7e1ba7e9c92a8d144e1d369aff7e4ceea7226c6af6e4f18",
+        "int_source": "바로 마그나카르타요.\\n마그나카르타의 기적만이 우릴 구원해 줄 수 있소.",
+        "jpn_key": "voc_csmb_0920_10",
+        "jpn_source_sha256": "6f9f6d9173ff78e3de17a3348eafc0ecac41e0291ddaecc8513fe5a4e69b71fa",
+        "jpn_source": "それこそは、「マグナカルタ」の奇跡！\\nこれぞ災いを浄化する、唯一の光。",
+        "alignment": "local source-order scene correspondence; not a universal key mapping"
+      },
+      {
+        "source_ordinal": 10,
+        "int_key": "voc_csmb_0920_10",
+        "int_source_sha256": "7586c369fed9cc368edb4f9161af4d108ce77d998d5873cad847d5e1cc171ad2",
+        "int_source": "그럼 지금 그 마그나카르타는 어디 있는가.\\n나는 그를 찾기 위해 무던히도 애썼고\\n마침내 찾아냈소",
+        "jpn_key": "voc_csmb_0920_11",
+        "jpn_source_sha256": "2a2c48de531757410bcce244a3be4419d1167992d1f33bfa52294d2a9e2fdd3a",
+        "jpn_source": "そして、唯一の光を探し求め\\n血の滲むような努力の末\\nついに見つけたのだ！",
+        "alignment": "local source-order scene correspondence; not a universal key mapping"
+      },
+      {
+        "source_ordinal": 11,
+        "int_key": "voc_csmb_0920_11",
+        "int_source_sha256": "371aae6f10a349242adb68a0ec9bcb80e25cc7fca550da3d608fe52851ce8af0",
+        "int_source": "바로 르제필다 공주.\\n여기 계신 이 분이 유일무이한 마그나카르타요.",
+        "jpn_key": "voc_csmb_0920_12",
+        "jpn_source_sha256": "7946cb2fcd39572c54b14f60f17be8fefbb9829a616da4fa698ffee8bea2ee04",
+        "jpn_source": "世界を救うマグナカルタとは\\nここにいる、「ルゼフィルダ王女」ご自身！",
+        "alignment": "local source-order scene correspondence; not a universal key mapping"
+      }
+    ],
+    "complete_scene_source_crosswalk": "source-crosswalk.json",
+    "complete_scene_fields_per_locale_per_disc": 69,
+    "target_translation": "困扰我们的这一切灾难，\\n都是因为这个世界的KAN循环出现了严重问题。",
+    "target_translation_sha256": "183a5537cf6a01dbcd03fe2d579d9b8dd768b7bfa2b36c6607de321a0ce0ff65",
+    "known_int_main_clause": [
+      "우릴 괴롭히는 이 모든 재앙은",
+      "칸의 순환에 심각한 문제가 생겼기 때문이오."
+    ],
+    "known_world_relation_fragment": "이 세계를",
+    "unrestored_modifier": "감Ｒ",
+    "unknowns": [
+      "The exact original Korean modifier and cause of U+FF32 are unknown",
+      "The Japanese force-source phrase is not inserted into the translation",
+      "Local ordinal alignment is not asserted for other scenes or globally",
+      "Package/native bounded search does not prove all asset consumers or game display"
+    ],
+    "protections": {
+      "source_bytes_unchanged": true,
+      "source_catalog_value_unchanged": true,
+      "source_repair": false,
+      "translation_only": true,
+      "literal_functional_breaks": 1,
+      "terminology_reused": "KAN",
+      "human_finalized": false,
+      "runtime_accepted": false
+    },
+    "held_documents": [
+      "MC2Game.int",
+      "MC2Game.jpn"
+    ],
+    "gameplay_executed": false
+  },
+  "executed": false,
+  "game_rendering_verified": false
+}

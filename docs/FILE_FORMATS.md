@@ -1,3 +1,7 @@
+## 第287阶段：13条有证尾项与未知分隔符保护
+
+batch120累计14148：七UI日志片段成套语序、五裸反斜杠原样保留的语言、一个损坏源的双语共同主句。通用校验保护未知分隔符而不丢可见字形需求，原生Localize完整绑定新增静态证据；坏MC2Game文档保持。见[实际回填与接续](PHASE_287_REMAINING_UI_AND_SEPARATORS.md)。
+
 ## StatStrong数字标签链（阶段283）
 
 数字字符串由MC2HUDUI.GetStringFromNumber循环构造MC2UI.Number.Num_逐字符标签，不是裸数字；7类型绑定及5 Core声明显式验证。范围/复现/中文语序候选见[标签链证据](STAT_STRONG_DIGIT_MARKUP.md)。

@@ -704,7 +704,7 @@
     {
       "id": "coalesced:ce65490c379cff9bc6e13e8aca39504bd8748a6254c6f093645f12fbe4fdb8ac",
       "source_sha256": "d4793eb84248a9f654add1f299a48ee49add68f2590b10895110028393c03b7d",
-      "translation_sha256": "05631a41a14b8bd584d815ae1f7bf43522b3dfcfaa7d7b7fd6f263609d1aebcf"
+      "translation_sha256": "697ad327a5707cb525f9330951d93be682e3882f6b49cfb996d029a8abc86361"
     },
     {
       "id": "coalesced:87dba12884d1d50548feadadd1b49cb1e217fff77446f153678cd3f541e94e79",
@@ -1177,6 +1177,17 @@
     "03_360吞吃自己的怪物与死后幽灵在源中明示，项链/吊坠依源用词，取得后交凯汀；族长此前认为孩子外出过得好，与得知死讯后的反应分清。Quest%s大小写不与其他QUEST%s强制合并。",
     "03_363碎片8个从周边怪物收集，碎片包裹送阿巴泽特港猫猫村为后续任务；商人不见和以往委托分别保留，不擅联结货物遭抢的已确定时序；喵口吻和功能边空格保持。",
     "03_397材料三种：植物孢子/解毒剂各1、神奇蘑菇2朵；与复仇4个奇怪蘑菇区分。Styles X已齐/Y尚未、全部QUEST%s与%s计数、括号和功能换行严格保持。",
-    "215现有源目标摘要锁不计入context-archive，未采用改译、不增加profile，候选术语均保持candidate/unverified；离线校验不等于游戏排版或实机验收。"
+    "215现有源目标摘要锁不计入context-archive，未采用改译、不增加profile，候选术语均保持candidate/unverified；离线校验不等于游戏排版或实机验收。",
+    "阶段275完整13任务链215及关联内斯汀名称1字段源译后，获知意外后的反应真是的改为哎呀，保留事故陈述及省略号；七对照保留明确抱怨与收货感谢问候，不全局替换저런。显式目标hash取代，不增primary，非人工或运行定稿。"
+  ],
+  "target_supersessions": [
+    {
+      "id": "coalesced:ce65490c379cff9bc6e13e8aca39504bd8748a6254c6f093645f12fbe4fdb8ac",
+      "source_sha256": "d4793eb84248a9f654add1f299a48ee49add68f2590b10895110028393c03b7d",
+      "before_target_sha256": "05631a41a14b8bd584d815ae1f7bf43522b3dfcfaa7d7b7fd6f263609d1aebcf",
+      "after_target_sha256": "697ad327a5707cb525f9330951d93be682e3882f6b49cfb996d029a8abc86361",
+      "phase": 275,
+      "review": "locales/zh-Hans/consistency-reviews/quest-ch03.json"
+    }
   ]
 }

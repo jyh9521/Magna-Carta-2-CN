@@ -1,0 +1,73 @@
+{
+  "schema_version": 1,
+  "kind": "source-grounded-candidate-adjudication",
+  "phase": 275,
+  "resource": "MC2Game/Localization/Coalesced.int",
+  "input_sha256": "179e265cfc9e6d3e9f2586abe75b5da303b2af9b8484079851dab72f9f7edb8c",
+  "context_fields": 216,
+  "source_physical": 216,
+  "known_originals_retained": 0,
+  "new_primary_consistency_fields": 0,
+  "new_translations": 0,
+  "new_context_entries": 0,
+  "translation_edits": 1,
+  "decisions": [
+    {
+      "id": "coalesced:ce65490c379cff9bc6e13e8aca39504bd8748a6254c6f093645f12fbe4fdb8ac",
+      "source": "아, 사고를 당하셨다구요...\\n저런...",
+      "source_sha256": "d4793eb84248a9f654add1f299a48ee49add68f2590b10895110028393c03b7d",
+      "before_translation": "啊，是遭遇了意外啊……真是的……",
+      "translation": "啊，是遭遇了意外啊……哎呀……",
+      "translation_sha256": "697ad327a5707cb525f9330951d93be682e3882f6b49cfb996d029a8abc86361",
+      "reason": "Accident news followed by thanks and regards supports a sympathetic reaction;replace only complaint-like真是的 with哎呀. Preserve accident statement,ellipses and seven controls including explicit complaint,recipient conversation and linked name. Do not assert injury/death or perform global저런 replacement.",
+      "status": "source-grounded-draft-correction"
+    }
+  ],
+  "retained_family_controls": [
+    {
+      "id": "coalesced:e69368b3ee172b68421da78869705c3dd140607d603fb1abe50fedaef8ffc891",
+      "source": "보나마나 빨리 돌아오라고 이야기했겠죠?\\n아아... 정말이지.\\n도대체 뭐가 위험하다고.",
+      "translation": "不用想也知道，肯定又是让我快点回去吧？啊……真是的，到底有什么危险嘛。",
+      "translation_sha256": "a75b56a5bcc4d8c79ca3691bd96e312028e73470fa91bd3415966dc3d1ead588"
+    },
+    {
+      "id": "coalesced:bf5afb17f0d3798708bb79fa3ee7910099911563935882918ca662ae167c47cf",
+      "source": "글쎄, 이 놈들이 절 협박하면서\\n물건들을 다 빼앗아 가 버렸지 뭡니까.\\n이게 말이나 되냔 말이지요.",
+      "translation": "那些家伙，威胁我，把货物全抢走了。您说，这像话吗？",
+      "translation_sha256": "69e4a05924169595a2ca8ec955957aaa2cd21a2f66b82b8dc79a200cda1440cd"
+    },
+    {
+      "id": "coalesced:e102a2de5ccb4954ff92e4985c6d92e24de3c0cab7ce0e00b3b88859782a31a8",
+      "source": "하지만, 지금 마차가 고장 난 상태라\\n당장 갈 수가 없습니다. 유감이지요.",
+      "translation": "可是，现在马车坏了，暂时没法过去。真是遗憾。",
+      "translation_sha256": "095137f1c30b92c153be3c0d6af3afd69a2ebe259443b80105f588e5ef436694"
+    },
+    {
+      "id": "coalesced:bd054278ed6e0ffe839f6f2ea91397b636d58ad0f7c2eca926bfe235f936f6cf",
+      "source": "어머, 드디어 왔군요.",
+      "translation": "哎呀，终于来了。",
+      "translation_sha256": "0e17b52c4d7476ab0a2c5d248cd49f4ca4f57a3d6ca138611cfed73cc88df6e6"
+    },
+    {
+      "id": "coalesced:96cb33566b11aad87e1ec62b44812aabfa3ca3d301ac3beaa5bb84cd402b4deb",
+      "source": "근데 평소에 오던 그 분이 아니군요.\\n어째서 아비스 대신에 인간이...",
+      "translation": "不过，您不是平时来的那位。怎么会是人类，代替阿维斯……",
+      "translation_sha256": "b46daa73d7b19aef3d15c2eb59bb43edcda2173247871947d5f830779049657b"
+    },
+    {
+      "id": "coalesced:87dba12884d1d50548feadadd1b49cb1e217fff77446f153678cd3f541e94e79",
+      "source": "대신 가져다 주셔서 감사합니다.\\n그 분께는 안부 전해 주세요.",
+      "translation": "谢谢您，代他送过来。请替我，向他问好。",
+      "translation_sha256": "525b9586e701354ad4f3877e6fc03916c75f1973fd382766907c0335769d08f2"
+    },
+    {
+      "id": "coalesced:27f3c6cc4fc7e8187bab1820c638c5eaf02e2393c14580fd971c5128a9a9a1d2",
+      "source": "네스틴",
+      "translation": "内斯汀",
+      "translation_sha256": "b21da9d24f3f9721434cb6b059781488c170f05ae4ed7f61095638e96515ef16"
+    }
+  ],
+  "human_finalized": false,
+  "runtime_layout_approved": false,
+  "game_rendering_verified": false
+}

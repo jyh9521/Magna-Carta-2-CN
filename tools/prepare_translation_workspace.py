@@ -57,6 +57,7 @@ def prepare(root, workflow, output):
             raise ValueError('output contains input')
         snapshots[read_path] = read_path.read_bytes()
     plans = {}
+    whitespace_allowed = {}
     for batch in workflow['batches']:
         plan = read_locked(root, batch['plan'], snapshots)
         review = read_locked(root, batch['review'], snapshots)
@@ -66,12 +67,20 @@ def prepare(root, workflow, output):
         kinds = {e['id']: e['text_kind'] for e in kind_rows}
         if len(kinds) != len(kind_rows) or set(kinds) != {e['id'] for e in plan['entries']}:
             raise ValueError('review IDs must exactly match plan IDs')
+        try:
+            from .translation_fragments import whitespace_suffixes
+        except ImportError:
+            from translation_fragments import whitespace_suffixes
+        permitted = whitespace_suffixes(plan, review)
+        for group in review.get('fragment_groups', []):
+            for evidence in group['evidence']:read_locked(root, evidence, snapshots)
         identity = (plan['resource'], plan['input_sha256'])
+        whitespace_allowed.setdefault(identity,set()).update(permitted)
         edits = plans.setdefault(identity, {})
         for edit in plan['entries']:
             if edit['id'] in edits:
                 raise ValueError('overlapping batches require explicit resolution')
-            if not edit['translation'].strip() or kinds[edit['id']] == 'unclassified':
+            if (not edit['translation'].strip() and edit['id'] not in permitted) or kinds[edit['id']] == 'unclassified':
                 raise ValueError('translated entry needs nonempty translation and classification')
             edits[edit['id']] = (edit, kinds[edit['id']])
     primary = workflow['primary_resource']
@@ -134,7 +143,7 @@ def prepare(root, workflow, output):
             if merged:
                 selected_catalog = dict(schema_version=1, kind='selected-coalesced-catalog',
                     resource=group['resource'], input_sha256=group['sha256'], entries=selected)
-                plan = import_plan(source_index[identity].read_bytes(), selected_catalog, rules)
+                plan = import_plan(source_index[identity].read_bytes(), selected_catalog, rules, whitespace_allowed.get(identity,()))
                 # import_plan rechecks source/selector/markers and rebuilds.
                 plan_path = 'plans/' + group['sha256'] + '.json'
                 write_json(stage / plan_path, plan)

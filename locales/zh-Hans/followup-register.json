@@ -248,7 +248,15 @@
           "target_sha256_at_audit": null
         }
       ],
-      "evidence": []
+      "evidence": [],
+      "latest_resolution": {
+        "phase": 284,
+        "decision": "locales/zh-Hans/candidate-decisions/held-original-adoptions.json",
+        "status": "adopted into batch117;historical original status superseded explicitly;source formatting preserved",
+        "translation_edits": 0,
+        "new_translations": 2,
+        "human_finalized": false
+      }
     },
     {
       "record": "juto-burnout-followup.json",
@@ -854,10 +862,11 @@
       ],
       "evidence": [],
       "latest_resolution": {
-        "phase": 283,
-        "decision": "locales/zh-Hans/candidate-decisions/stat-strong-digit-markup.json",
-        "status": "Static order282 plus int-input/digit-tag script283 verified;80 Chinese paired-fragment scenarios modeled. Next audit remaining consumers/target adoption and slash parser;gameplay separate.",
+        "phase": 284,
+        "decision": "locales/zh-Hans/candidate-decisions/held-original-adoptions.json",
+        "status": "adopted into batch117;historical original status superseded explicitly;source formatting preserved",
         "translation_edits": 0,
+        "new_translations": 10,
         "human_finalized": false
       }
     },

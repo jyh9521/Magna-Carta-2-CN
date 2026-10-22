@@ -1,0 +1,155 @@
+{
+  "schema_version": 1,
+  "kind": "source-locked-context-observations",
+  "resource": "MC2Game/Localization/Coalesced.int",
+  "input_sha256": "179e265cfc9e6d3e9f2586abe75b5da303b2af9b8484079851dab72f9f7edb8c",
+  "plan_canonical_sha256": "156242cf28ad6acc43e19e3a5fd6c5894bff8e9a50a44db810c8ba5c36bbcac4",
+  "human_finalized": false,
+  "runtime_layout_approved": false,
+  "scopes": [
+    {
+      "document": "..\\MC2Game\\Localization\\INT\\MC2Skill.int",
+      "section": "StatStrong",
+      "complete_section": true,
+      "reason": "Atomic10fragment adoption with native eight templates/digit-tag loop proof;all code and percent/spacing retained"
+    },
+    {
+      "document": "..\\MC2Game\\Localization\\INT\\MC2_com_Zephi.int",
+      "section": "Celestin",
+      "complete_section": false,
+      "keys": [
+        "Abnormal_bad_ch3_01"
+      ],
+      "reason": "Translate literal fragment while retaining lone slash,all functional breaks,and unfinished clause;no source typo repair"
+    },
+    {
+      "document": "..\\MC2Game\\Localization\\INT\\MC2_com_Zephi.int",
+      "section": "Rue",
+      "complete_section": false,
+      "keys": [
+        "Abnormal_bad_ch3_01"
+      ],
+      "reason": "Translate literal fragment while retaining lone slash,all functional breaks,and unfinished clause;no source typo repair"
+    }
+  ],
+  "entries": [
+    {
+      "id": "coalesced:ee88d4690240bbb9e7243dfecc14335c3c7c66a8a4f94fd1827892d4e7d9fd50",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2Skill.int",
+      "section": "StatStrong",
+      "key": "HP",
+      "occurrence": 1,
+      "source_sha256": "a21788822be4dfd2650f310e07e21538fe2afbc06b0a346d54aae5a2e364bac2",
+      "translation_sha256": "8346fba2e402076b75a94650c6c8e6926abebd65a73d9103de4301e905b79752"
+    },
+    {
+      "id": "coalesced:fe961247aa119570dd603f918c082406d5bdb29466d742fc715fd00037323430",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2Skill.int",
+      "section": "StatStrong",
+      "key": "STR",
+      "occurrence": 1,
+      "source_sha256": "fbfb93e64f249fb0a1d4a3d3c96ab2d910d4bb03bed6bd905a216ab467cf452e",
+      "translation_sha256": "7cede8d6c6bd462ca4e1f7fbf19509333db5f90b54012173652c9493b9900d76"
+    },
+    {
+      "id": "coalesced:b24b147523329f3c3d3849f035c86e4c63ef3f2e8055e326956978d2c4770ad0",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2Skill.int",
+      "section": "StatStrong",
+      "key": "DEF",
+      "occurrence": 1,
+      "source_sha256": "71bd17a9ca0fa42b325bd6cc39ae4cce380760eaa7610e87aa8a790900a79be9",
+      "translation_sha256": "9be0d0215074edf789c07bf47d2e60d7299775cb81c87e64f10ffb005a1cc2dc"
+    },
+    {
+      "id": "coalesced:129be4ee9522b4db2cf69161db2a1038792a1e596d3ce3bb567d87442c92cbdb",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2Skill.int",
+      "section": "StatStrong",
+      "key": "ESP",
+      "occurrence": 1,
+      "source_sha256": "f86dd1474e14bc8ae94afe14dba9c9ac3a04a330656e4983596f3f8b4f3af09e",
+      "translation_sha256": "69da204e3a55179b9ed5acfe1784bcf05209fb97b7da121dffcc74f9e740da2d"
+    },
+    {
+      "id": "coalesced:326e050ec090e2598d855e5afb7da7873583d27d1aaa484e328d6d2f8d4bd30f",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2Skill.int",
+      "section": "StatStrong",
+      "key": "ESR",
+      "occurrence": 1,
+      "source_sha256": "25283be3c77e2e1fcd2a03ec5265bb46b7ab05c9cf7577380be3635b6e69d2a7",
+      "translation_sha256": "12f0a6b646c8bc0ffeec0486ddc8d082327b67032930995c9d7245b80f51e00b"
+    },
+    {
+      "id": "coalesced:4d2cc0c48055b55bea66cd1ac61c91f27ff2a0a7499e069362487b77eac5cada",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2Skill.int",
+      "section": "StatStrong",
+      "key": "DEX",
+      "occurrence": 1,
+      "source_sha256": "0f261c35575d057a530be8e42f7328f86640cbed12385132b01b60d9b6e688f4",
+      "translation_sha256": "407631e18f76cbbe08750bf5b93cffa46ac05a26db69f9da774f6b412d79fee1"
+    },
+    {
+      "id": "coalesced:7e2f92a080c4fca32ac4914af6b6edd71b35f6a9dbc84c43808de037eab2dba0",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2Skill.int",
+      "section": "StatStrong",
+      "key": "STA",
+      "occurrence": 1,
+      "source_sha256": "4cb5d89eda66ab110893663c6324e9a0f46364568f2a5f0f5712601fe32ed4d1",
+      "translation_sha256": "5218812ffec80a030d577066ebf42591c9496c56b8d988e57f98af97d705a0b0"
+    },
+    {
+      "id": "coalesced:207d204efd64ce09e867718ad62eaf8ff0d3a83480e802c92c77da97aa793b1d",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2Skill.int",
+      "section": "StatStrong",
+      "key": "SRV",
+      "occurrence": 1,
+      "source_sha256": "0a77cbe345b995ca9422df12b67564bdf4a44c68ab757694599ab1572ed9b4d2",
+      "translation_sha256": "882f9f8d1eea21417177c5dc4b08757605ad93b6390ba6d18aa0c6cd1e1c0837"
+    },
+    {
+      "id": "coalesced:5579741fcdca8c68bd4c5cce0dc25d2122f4d7d111aad961e31e3ce77a88b335",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2Skill.int",
+      "section": "StatStrong",
+      "key": "PercentUP",
+      "occurrence": 1,
+      "source_sha256": "8b55a6ffb22c3514102789b8b756024c19c5f910e8f33cc31d31e216334b2a32",
+      "translation_sha256": "514402052fbd0be135dcb86fc8a36e149c61d259f0f88ac6295c74462c3ced8d"
+    },
+    {
+      "id": "coalesced:34eef98fe7bd705190da89a19d6ea9a1f9c838995e91c8c745c9193bc722a010",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2Skill.int",
+      "section": "StatStrong",
+      "key": "normalUP",
+      "occurrence": 1,
+      "source_sha256": "d5b9f970c9b8926d78338e08a685e91769a52ff12fd74703a4708f5b4491b136",
+      "translation_sha256": "36a9e7f1c95b82ffb99743e0c5c4ce95d83c9a430aac59f84ef3cbfab6145068"
+    },
+    {
+      "id": "coalesced:7352790d84bf0386bdab6c36da81e5cc7fb25f226c3987903dbdc13036c8706e",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2_com_Zephi.int",
+      "section": "Celestin",
+      "key": "Abnormal_bad_ch3_01",
+      "occurrence": 1,
+      "source_sha256": "59004d1c7395f780086536aefd0a7d09197d0dd2360af66306bf8f6a16681667",
+      "translation_sha256": "1d7b9f5c698db96a4fb63543fd570346e2d34c6e792593ebc8bca93408acb4ba"
+    },
+    {
+      "id": "coalesced:c841224214a4939c304baf2a52f0dcb7301c58fe9f536e73fc28116ecf8b8828",
+      "document": "..\\MC2Game\\Localization\\INT\\MC2_com_Zephi.int",
+      "section": "Rue",
+      "key": "Abnormal_bad_ch3_01",
+      "occurrence": 1,
+      "source_sha256": "3396648b66ca119c785984c774c93aa5ad4e9f1364a0f3019657f8a5a713370a",
+      "translation_sha256": "898770c119b3356c54f2179c9207b121e7dffe3e6eeddd174b70bd8602d54ec1"
+    }
+  ],
+  "protected_breaks": [
+    {
+      "id": "coalesced:7352790d84bf0386bdab6c36da81e5cc7fb25f226c3987903dbdc13036c8706e",
+      "reason": "All source functional line boundaries retained exactly"
+    },
+    {
+      "id": "coalesced:c841224214a4939c304baf2a52f0dcb7301c58fe9f536e73fc28116ecf8b8828",
+      "reason": "All source functional line boundaries retained exactly"
+    }
+  ]
+}

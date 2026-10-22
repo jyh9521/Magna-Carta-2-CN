@@ -9,7 +9,11 @@ class FollowupRegisterTests(unittest.TestCase):
   for r in d['records']:
    for e in r['entries']:
     if e['planned']:self.assertEqual(entries[e['id']]['source_sha256'],e['source_sha256'])
-    else:self.assertNotIn(e['id'],entries)
+    else:
+     adopted={a['id']:a for a in L('locales/zh-Hans/candidate-decisions/held-original-adoptions.json')['entries']}
+     if e['id'] in entries:
+      self.assertIn(e['id'],adopted);self.assertEqual(adopted[e['id']]['source_sha256'],e['source_sha256']);self.assertEqual(entries[e['id']]['source_sha256'],e['source_sha256'])
+     else:self.assertNotIn(e['id'],adopted)
    for p in r['evidence']:self.assertTrue((R/p).is_file())
   by={r['record']:r for r in d['records']};self.assertEqual(by['candidate-revision-followups.json']['classification'],'resolved-revision');self.assertIn('merchant-accident-sympathy.json',str(by['candidate-revision-followups.json']['evidence']));self.assertEqual(by['skill-status-naming-followup.json']['classification'],'skill-name-source-review-next');self.assertEqual(by['original-exclusion-followup.json']['classification'],'source-context-review-next');self.assertEqual(by['skill-original-fragments-followup.json']['classification'],'concatenation-evidence-gate')
   for f in ['human_finalized','runtime_layout_approved','game_rendering_verified']:self.assertFalse(d[f])

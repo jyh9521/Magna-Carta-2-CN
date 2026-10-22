@@ -37,7 +37,7 @@ def export_catalog(data, plan):
                 input_sha256=sha256(data), resource=plan['resource'], entries=selected)
 
 
-def import_plan(data, catalog, style_rules=None):
+def import_plan(data, catalog, style_rules=None, whitespace_fragments=()):
     if (catalog.get('kind') != 'selected-coalesced-catalog'
             or type(catalog.get('schema_version')) is not int
             or catalog.get('input_sha256') != sha256(data)):
@@ -56,7 +56,7 @@ def import_plan(data, catalog, style_rules=None):
                 or any(type(entry.get(k)) is not type(row[k]) or entry[k] != row[k] for k in SELECTOR)
                 or entry.get('source_sha256') != sha256(row['source'].encode('utf8'))):
             raise ValueError('catalog ID, selector or source mismatch')
-        if not entry['translation'].strip():
+        if not entry['translation'].strip() and not (entry['id'] in whitespace_fragments and entry['translation']==' '):
             raise ValueError('unexpected empty translation')
         edit=dict(id=entry['id'], source_sha256=entry['source_sha256'], translation=entry['translation'])
         if 'line_break_policy' in entry:edit['line_break_policy']=entry['line_break_policy']

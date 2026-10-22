@@ -8,7 +8,9 @@ class SkillHanjaSourceRetentionTests(unittest.TestCase):
   self.assertEqual(len(d['retained_entries']),324)
   for e in d['retained_entries']:
    self.assertEqual(H(e['source']),e['source_sha256']);self.assertEqual(entries[e['id']]['source_sha256'],e['source_sha256']);self.assertEqual(entries[e['id']]['translation'],e['translation']);self.assertEqual(H(e['translation']),e['translation_sha256'])
-  for e in d['retained_originals']:self.assertNotIn(e['id'],entries)
+  adopted={a['id']:a for a in L('locales/zh-Hans/candidate-decisions/held-original-adoptions.json')['entries']}
+  for e in d['retained_originals']:
+   self.assertIn(e['id'],adopted);self.assertEqual(entries[e['id']]['source_sha256'],e['source_sha256']);self.assertEqual(H(entries[e['id']]['translation']),adopted[e['id']]['translation_sha256'])
   self.assertEqual(len(d['name_controls']),6);self.assertEqual(len(d['parallel_locale_sources']),30)
   by={(e['section'],e['key']):e for e in d['name_controls']};self.assertEqual(by['Crocell_Style1','Crocell_Skill04']['translation'],'镇炎螺旋腿');self.assertIn('퇴',by['Crocell_Style1','Crocell_Skill04']['source'])
   for disc in [1,2]:

@@ -13,11 +13,11 @@ class ProfessionLabelRevisionTests(unittest.TestCase):
   self.assertEqual(e,dict(id=IDENTITY,source_sha256=SOURCE,translation='新手鞣皮匠'))
   self.assertEqual(load('locales/zh-Hans/batch-094.review.json')['status'],'draft')
  def test_single_source_plan_and_matching_quest_profession(self):
-  w=load('locales/zh-Hans/translation-workflow.json');self.assertEqual(len(w['batches']),116)
+  w=load('locales/zh-Hans/translation-workflow.json');self.assertEqual(len(w['batches']),117)
   refs=[b['plan'] for b in w['batches']];r=next(r for r in refs if r['path']=='locales/zh-Hans/batch-094.json')
   self.assertEqual(r['sha256'],hashlib.sha256((ROOT/r['path']).read_bytes()).hexdigest())
   entries=[e for r in refs for e in load(r['path'])['entries']];ids=[e['id'] for e in entries]
-  self.assertEqual(len(ids),14082);self.assertEqual(len(ids),len(set(ids)))
+  self.assertEqual(len(ids),14094);self.assertEqual(len(ids),len(set(ids)))
   matches=[e for e in entries if e['source_sha256']==SOURCE]
   self.assertEqual(len(matches),2);self.assertEqual({e['translation'] for e in matches},{'新手鞣皮匠'})
 if __name__=='__main__':unittest.main()

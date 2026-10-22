@@ -1,0 +1,1729 @@
+{
+  "schema_version": 1,
+  "phase": 288,
+  "kind": "state-recovery-party-and-unfinished-clause-evidence",
+  "huaren": {
+    "schema": 1,
+    "kind": "state-owned-self-heal-complete-static-assembly",
+    "input_locks": {
+      "build/phase-282-verification/MC2Game-logical.bin": "e2a49cdd67c2b49f9b91fb517a49de33262ada4f3ec5a65c776a7d3126d1ecf4",
+      "build/phase-282-verification/package-tables.json": "0ea25716085840912c0d658d4daf8e9283f1a5604e77856a1210a9d22b5c4699",
+      "build/xex-native-verification/final/disc1-pycryptodome.bin": "d18d49fb2960426715ba17d61d069cce42b1eadac153af13c9395cd42b1773e9",
+      "build/disc1-selected/MC2Game/Localization/Coalesced.int": "179e265cfc9e6d3e9f2586abe75b5da303b2af9b8484079851dab72f9f7edb8c",
+      "build/phase-283-verification/Core-logical.bin": "5ac2c9745bdf6220ddb3dbe898ef88b1c8ac84c882b06816e8257ad5b4c6e2a9",
+      "build/phase-283-verification/Core-tables.json": "3cd1cd977e7552b202ae88ee2f10db74d3056d4770a7ddbed7de8ead26434c0b"
+    },
+    "function": {
+      "export": 20544,
+      "path": "MC2PawnInterfaceBattle_Huaren.Huaren_Wait_SummonMonsters.HuarenSelfHeal",
+      "serial_offset": 8648328,
+      "script_logical_offset": 8648372,
+      "script_sha256": "78ea15f71cb252f9a0d0536579073f147940d30f761ed557ae6e0fbd26cd5f54",
+      "script_size": 249,
+      "header": {
+        "super": 0,
+        "next": 20539,
+        "script_text": 0,
+        "children": 20543,
+        "cpp_text": 0,
+        "line": 696,
+        "text_pos": 18198,
+        "script_size": 249
+      },
+      "friendly": {
+        "name": "HuarenSelfHeal",
+        "number": 0
+      },
+      "flags": 131074,
+      "owner_chain": [
+        {
+          "export": 20571,
+          "path": "MC2PawnInterfaceBattle_Huaren.Huaren_Wait_SummonMonsters",
+          "class_path": "Core.State",
+          "outer": 20572,
+          "super": 0
+        },
+        {
+          "export": 20572,
+          "path": "MC2PawnInterfaceBattle_Huaren",
+          "class_path": "Class",
+          "outer": 0,
+          "super": 19298
+        },
+        {
+          "export": 19298,
+          "path": "MC2PawnInterfaceBattle",
+          "class_path": "Class",
+          "outer": 0,
+          "super": 17092
+        },
+        {
+          "export": 17092,
+          "path": "MC2PawnInterface",
+          "class_path": "Class",
+          "outer": 0,
+          "super": -188
+        }
+      ],
+      "locals": [
+        {
+          "ref": 20543,
+          "path": "MC2PawnInterfaceBattle_Huaren.Huaren_Wait_SummonMonsters.HuarenSelfHeal.nOldHP",
+          "kind": "IntProperty"
+        },
+        {
+          "ref": 20542,
+          "path": "MC2PawnInterfaceBattle_Huaren.Huaren_Wait_SummonMonsters.HuarenSelfHeal.nAddedHP",
+          "kind": "IntProperty"
+        },
+        {
+          "ref": 20541,
+          "path": "MC2PawnInterfaceBattle_Huaren.Huaren_Wait_SummonMonsters.HuarenSelfHeal.strHP",
+          "kind": "StrProperty"
+        },
+        {
+          "ref": 20540,
+          "path": "MC2PawnInterfaceBattle_Huaren.Huaren_Wait_SummonMonsters.HuarenSelfHeal.tempStr",
+          "kind": "StrProperty"
+        }
+      ],
+      "statements": [
+        {
+          "op": "let",
+          "target": {
+            "op": "local",
+            "ref": 20543,
+            "path": "MC2PawnInterfaceBattle_Huaren.Huaren_Wait_SummonMonsters.HuarenSelfHeal.nOldHP",
+            "kind": "IntProperty",
+            "start": 1,
+            "end": 6
+          },
+          "value": {
+            "op": "virtual-call",
+            "name": "GetCurrentHealth",
+            "arguments": [
+              {
+                "op": "int",
+                "value": 0,
+                "kind": "IntProperty",
+                "start": 15,
+                "end": 16
+              }
+            ],
+            "kind": "IntProperty",
+            "owner_dispatch_verified": false,
+            "start": 6,
+            "end": 17
+          },
+          "offset": 0,
+          "size": 17,
+          "logical_offset": 8648372,
+          "hex": "0f000000503f1b000020e9000000002516",
+          "sha256": "2db2e93e28913748e6f2482d3b000b01a52aaa48b64789b75d2e1a2604210e2f"
+        },
+        {
+          "op": "expression",
+          "value": {
+            "op": "virtual-call",
+            "name": "AddHealthPercent",
+            "arguments": [
+              {
+                "op": "int",
+                "value": 0,
+                "kind": "IntProperty",
+                "start": 26,
+                "end": 27
+              },
+              {
+                "op": "float",
+                "value": 10.0,
+                "kind": "FloatProperty",
+                "start": 27,
+                "end": 32
+              },
+              {
+                "op": "empty-param",
+                "kind": "Empty",
+                "start": 32,
+                "end": 33
+              }
+            ],
+            "kind": "Void",
+            "owner_dispatch_verified": false,
+            "start": 17,
+            "end": 34
+          },
+          "offset": 17,
+          "size": 17,
+          "logical_offset": 8648389,
+          "hex": "1b000001c200000000251e412000004a16",
+          "sha256": "6ec9c96bf15737fc6bb936db3925113687023028eb3d4b6d1337ec746f8900c3"
+        },
+        {
+          "op": "let",
+          "target": {
+            "op": "local",
+            "ref": 20542,
+            "path": "MC2PawnInterfaceBattle_Huaren.Huaren_Wait_SummonMonsters.HuarenSelfHeal.nAddedHP",
+            "kind": "IntProperty",
+            "start": 35,
+            "end": 40
+          },
+          "value": {
+            "op": "subtract-int",
+            "args": [
+              {
+                "op": "virtual-call",
+                "name": "GetCurrentHealth",
+                "arguments": [
+                  {
+                    "op": "int",
+                    "value": 0,
+                    "kind": "IntProperty",
+                    "start": 50,
+                    "end": 51
+                  }
+                ],
+                "kind": "IntProperty",
+                "owner_dispatch_verified": false,
+                "start": 41,
+                "end": 52
+              },
+              {
+                "op": "local",
+                "ref": 20543,
+                "path": "MC2PawnInterfaceBattle_Huaren.Huaren_Wait_SummonMonsters.HuarenSelfHeal.nOldHP",
+                "kind": "IntProperty",
+                "start": 52,
+                "end": 57
+              }
+            ],
+            "kind": "IntProperty",
+            "start": 40,
+            "end": 58
+          },
+          "offset": 34,
+          "size": 24,
+          "logical_offset": 8648406,
+          "hex": "0f000000503e931b000020e9000000002516000000503f16",
+          "sha256": "a0d218c03d0a01ee9c37080846ec95011a8f8914707ad3a049addb13326a7451"
+        },
+        {
+          "op": "jump-if-not",
+          "bytecode_memory_destination": 246,
+          "condition": {
+            "op": "greater-int",
+            "args": [
+              {
+                "op": "local",
+                "ref": 20542,
+                "path": "MC2PawnInterfaceBattle_Huaren.Huaren_Wait_SummonMonsters.HuarenSelfHeal.nAddedHP",
+                "kind": "IntProperty",
+                "start": 62,
+                "end": 67
+              },
+              {
+                "op": "int",
+                "value": 0,
+                "kind": "IntProperty",
+                "start": 67,
+                "end": 68
+              }
+            ],
+            "kind": "BoolProperty",
+            "start": 61,
+            "end": 69
+          },
+          "offset": 58,
+          "size": 11,
+          "logical_offset": 8648430,
+          "hex": "0700f697000000503e2516",
+          "sha256": "f565309d3e0c8599885e279b3167844af6e695b98c3cd52781f18ddba322970a"
+        },
+        {
+          "op": "let",
+          "target": {
+            "op": "local",
+            "ref": 20541,
+            "path": "MC2PawnInterfaceBattle_Huaren.Huaren_Wait_SummonMonsters.HuarenSelfHeal.strHP",
+            "kind": "StrProperty",
+            "start": 70,
+            "end": 75
+          },
+          "value": {
+            "op": "int-to-string",
+            "value": {
+              "op": "local",
+              "ref": 20542,
+              "path": "MC2PawnInterfaceBattle_Huaren.Huaren_Wait_SummonMonsters.HuarenSelfHeal.nAddedHP",
+              "kind": "IntProperty",
+              "start": 77,
+              "end": 82
+            },
+            "kind": "StrProperty",
+            "start": 75,
+            "end": 82
+          },
+          "offset": 69,
+          "size": 13,
+          "logical_offset": 8648441,
+          "hex": "0f000000503d3853000000503e",
+          "sha256": "528b7d476e91330a9ffd919177eeea69d1a4cec27aa0c951660d027b5a8999f8"
+        },
+        {
+          "op": "let",
+          "target": {
+            "op": "local",
+            "ref": 20540,
+            "path": "MC2PawnInterfaceBattle_Huaren.Huaren_Wait_SummonMonsters.HuarenSelfHeal.tempStr",
+            "kind": "StrProperty",
+            "start": 83,
+            "end": 88
+          },
+          "value": {
+            "op": "concat",
+            "args": [
+              {
+                "op": "concat",
+                "args": [
+                  {
+                    "op": "literal",
+                    "text": "<Strings:MC2UI.Battle_Log.HuarenRecover_1>",
+                    "kind": "StrProperty",
+                    "start": 90,
+                    "end": 134
+                  },
+                  {
+                    "op": "local",
+                    "ref": 20541,
+                    "path": "MC2PawnInterfaceBattle_Huaren.Huaren_Wait_SummonMonsters.HuarenSelfHeal.strHP",
+                    "kind": "StrProperty",
+                    "start": 134,
+                    "end": 139
+                  }
+                ],
+                "kind": "StrProperty",
+                "start": 89,
+                "end": 140
+              },
+              {
+                "op": "literal",
+                "text": "<Strings:MC2UI.Battle_Log.HuarenRecover_2>",
+                "kind": "StrProperty",
+                "start": 140,
+                "end": 184
+              }
+            ],
+            "kind": "StrProperty",
+            "start": 88,
+            "end": 185
+          },
+          "offset": 82,
+          "size": 103,
+          "logical_offset": 8648454,
+          "hex": "0f000000503c70701f3c537472696e67733a4d433255492e426174746c655f4c6f672e48756172656e5265636f7665725f313e00000000503d161f3c537472696e67733a4d433255492e426174746c655f4c6f672e48756172656e5265636f7665725f323e0016",
+          "sha256": "d2a6333a1dbd30e99afd221cbbd66b2522285f7d0fe459c2cd84b988415b4c4f"
+        },
+        {
+          "op": "expression",
+          "value": {
+            "op": "context",
+            "object": {
+              "op": "dynamic-cast",
+              "class_ref": 12548,
+              "value": {
+                "op": "context",
+                "object": {
+                  "op": "context",
+                  "object": {
+                    "op": "dynamic-cast",
+                    "class_ref": 10346,
+                    "value": {
+                      "op": "context",
+                      "object": {
+                        "op": "instance",
+                        "ref": -1091,
+                        "path": "Engine.Actor.WorldInfo",
+                        "kind": "ObjectProperty",
+                        "start": 199,
+                        "end": 204
+                      },
+                      "value": {
+                        "op": "instance",
+                        "ref": -1152,
+                        "path": "Engine.WorldInfo.Game",
+                        "kind": "ObjectProperty",
+                        "start": 207,
+                        "end": 212
+                      },
+                      "kind": "ObjectProperty",
+                      "start": 198,
+                      "end": 212,
+                      "raw_skip": 5,
+                      "property_type": 4
+                    },
+                    "kind": "ObjectProperty",
+                    "start": 193,
+                    "end": 212
+                  },
+                  "value": {
+                    "op": "instance",
+                    "ref": 9724,
+                    "path": "MC2GameInfo.MainPlayerController",
+                    "kind": "ObjectProperty",
+                    "start": 215,
+                    "end": 220
+                  },
+                  "kind": "ObjectProperty",
+                  "start": 192,
+                  "end": 220,
+                  "raw_skip": 5,
+                  "property_type": 4
+                },
+                "value": {
+                  "op": "instance",
+                  "ref": -1122,
+                  "path": "Engine.PlayerController.myHUD",
+                  "kind": "ObjectProperty",
+                  "start": 223,
+                  "end": 228
+                },
+                "kind": "ObjectProperty",
+                "start": 191,
+                "end": 228,
+                "raw_skip": 5,
+                "property_type": 4
+              },
+              "kind": "ObjectProperty",
+              "start": 186,
+              "end": 228
+            },
+            "value": {
+              "op": "virtual-call",
+              "name": "NotifyShowLog",
+              "arguments": [
+                {
+                  "op": "local",
+                  "ref": 20540,
+                  "path": "MC2PawnInterfaceBattle_Huaren.Huaren_Wait_SummonMonsters.HuarenSelfHeal.tempStr",
+                  "kind": "StrProperty",
+                  "start": 240,
+                  "end": 245
+                }
+              ],
+              "kind": "Void",
+              "owner_dispatch_verified": false,
+              "start": 231,
+              "end": 246
+            },
+            "kind": "Void",
+            "start": 185,
+            "end": 246,
+            "raw_skip": 15,
+            "property_type": 0
+          },
+          "offset": 185,
+          "size": 61,
+          "logical_offset": 8648557,
+          "hex": "192e0000310419192e0000286a1901fffffbbd00050401fffffb8000050401000025fc00050401fffffb9e000f001b000035d100000000000000503c16",
+          "sha256": "fb1bab51bbe14e50eceb04b684c823eb3831e58f25fb72e98d1fccfebee560f2"
+        },
+        {
+          "op": "return-nothing-end",
+          "offset": 246,
+          "size": 3,
+          "logical_offset": 8648618,
+          "hex": "040b53",
+          "sha256": "10941dedc1b7fd60933ac0dba3e874553eabd6afa293a147e89244bcd2f966f1"
+        }
+      ]
+    },
+    "call_declarations": [
+      {
+        "export": 17391,
+        "path": "MC2PawnInterfaceBattle.GetCurrentHealth",
+        "parameters": [
+          {
+            "name": "nPartNum",
+            "kind": "IntProperty",
+            "flags": {
+              "optional": false,
+              "out": false,
+              "returns": false
+            }
+          }
+        ],
+        "returns": [
+          "IntProperty"
+        ],
+        "script_sha256": "5e692d14595ac8a3bf4234ec01b70ed7e201edca2dd19bb7d99544599ae24f1d"
+      },
+      {
+        "export": 18354,
+        "path": "MC2PawnInterfaceBattle.AddHealthPercent",
+        "parameters": [
+          {
+            "name": "nPartNum",
+            "kind": "IntProperty",
+            "flags": {
+              "optional": false,
+              "out": false,
+              "returns": false
+            }
+          },
+          {
+            "name": "fPercent",
+            "kind": "FloatProperty",
+            "flags": {
+              "optional": false,
+              "out": false,
+              "returns": false
+            }
+          },
+          {
+            "name": "bShowDamage",
+            "kind": "BoolProperty",
+            "flags": {
+              "optional": true,
+              "out": false,
+              "returns": false
+            }
+          }
+        ],
+        "returns": [],
+        "script_sha256": "4e204ed4c64925709556e4648fd8b87c502e697505ce2f156dc166fbd2f93f42"
+      },
+      {
+        "export": 12427,
+        "path": "MC2HUDUI.NotifyShowLog",
+        "parameters": [
+          {
+            "name": "a_LogText",
+            "kind": "StrProperty",
+            "flags": {
+              "optional": false,
+              "out": false,
+              "returns": false
+            }
+          }
+        ],
+        "returns": [],
+        "script_sha256": "58c9005b68b2fec7b3231a4ea6865136c8c338180e632619a01c1c9ec0e4002b"
+      }
+    ],
+    "core_operators": [
+      {
+        "token": 112,
+        "path": "Object.Concat_StrStr",
+        "parameters": [
+          "StrProperty",
+          "StrProperty"
+        ],
+        "returns": "StrProperty"
+      },
+      {
+        "token": 147,
+        "path": "Object.Subtract_IntInt",
+        "parameters": [
+          "IntProperty",
+          "IntProperty"
+        ],
+        "returns": "IntProperty"
+      },
+      {
+        "token": 151,
+        "path": "Object.Greater_IntInt",
+        "parameters": [
+          "IntProperty",
+          "IntProperty"
+        ],
+        "returns": "BoolProperty"
+      }
+    ],
+    "direct_coverage": [
+      {
+        "tag": "<Strings:MC2UI.Battle_Log.HuarenRecover_1>",
+        "expected_logical_offset": 8648463,
+        "all_direct_hits_in_proven_assignment": true,
+        "scans": [
+          {
+            "input": "MC2Game-logical",
+            "encoding": "ascii",
+            "offsets": [
+              8648463
+            ]
+          },
+          {
+            "input": "MC2Game-logical",
+            "encoding": "utf-16-be",
+            "offsets": []
+          },
+          {
+            "input": "native-image",
+            "encoding": "ascii",
+            "offsets": []
+          },
+          {
+            "input": "native-image",
+            "encoding": "utf-16-be",
+            "offsets": []
+          }
+        ]
+      },
+      {
+        "tag": "<Strings:MC2UI.Battle_Log.HuarenRecover_2>",
+        "expected_logical_offset": 8648513,
+        "all_direct_hits_in_proven_assignment": true,
+        "scans": [
+          {
+            "input": "MC2Game-logical",
+            "encoding": "ascii",
+            "offsets": [
+              8648513
+            ]
+          },
+          {
+            "input": "MC2Game-logical",
+            "encoding": "utf-16-be",
+            "offsets": []
+          },
+          {
+            "input": "native-image",
+            "encoding": "ascii",
+            "offsets": []
+          },
+          {
+            "input": "native-image",
+            "encoding": "utf-16-be",
+            "offsets": []
+          }
+        ]
+      }
+    ],
+    "direct_scope": "Entire hash-locked MC2Game logical bytes and native image; ASCII and UTF16BE; not other packages or dynamic constructed keys",
+    "dynamic_constructed_keys_excluded": false,
+    "existing_name": {
+      "term_id": "mc2-canyon-142",
+      "source": "휴아렌",
+      "target": "修亚伦",
+      "review_status": "candidate",
+      "official_or_cross_game_identity_verified": false
+    },
+    "executed": false,
+    "runtime_acceptance": false,
+    "translation": [
+      {
+        "id": "coalesced:9a3279fab8122241d571a25bbe4fcb8de6500cf4d848dfd5f3b5a1563507df1b",
+        "source_sha256": "a6cd6b752ee220a92c3c0f78b3681ba1d62abece2e8e8bd8f24399f01ca9c40e",
+        "translation": "修亚伦恢复了",
+        "section": "Battle_Log",
+        "key": "HuarenRecover_1",
+        "source": "휴아렌이"
+      },
+      {
+        "id": "coalesced:f80bff38fe789ff55b971481adf6588651ecc9d01806614890399b75d5d12a36",
+        "source_sha256": "7f2e97d8d00f843166e16e84698eef3f80e35918bc15e38171c1de1d5ea71d10",
+        "translation": "点HP",
+        "section": "Battle_Log",
+        "key": "HuarenRecover_2",
+        "source": "의 HP를 회복했습니다."
+      }
+    ]
+  },
+  "party": {
+    "schema_version": 1,
+    "input_hashes": {
+      "build/phase-282-verification/MC2Game-logical.bin": "e2a49cdd67c2b49f9b91fb517a49de33262ada4f3ec5a65c776a7d3126d1ecf4",
+      "build/phase-282-verification/package-tables.json": "0ea25716085840912c0d658d4daf8e9283f1a5604e77856a1210a9d22b5c4699",
+      "build/xex-native-verification/final/disc1-pycryptodome.bin": "d18d49fb2960426715ba17d61d069cce42b1eadac153af13c9395cd42b1773e9",
+      "build/disc1-selected/MC2Game/Localization/Coalesced.int": "179e265cfc9e6d3e9f2586abe75b5da303b2af9b8484079851dab72f9f7edb8c",
+      "build/phase-283-verification/Core-logical.bin": "5ac2c9745bdf6220ddb3dbe898ef88b1c8ac84c882b06816e8257ad5b4c6e2a9",
+      "build/phase-283-verification/Core-tables.json": "3cd1cd977e7552b202ae88ee2f10db74d3056d4770a7ddbed7de8ead26434c0b"
+    },
+    "status": "verified-offline-typed-and-native-string-assembly",
+    "executed": false,
+    "functions": [
+      {
+        "start": "0x82d43300",
+        "end": "0x82d43508",
+        "sha256": "465cf9e074e134ab5e0ffd4c0613af751626f92a8129b97b1a409d73472fafc7",
+        "pdata": {
+          "index": 39927,
+          "start": 2194944768,
+          "end": 2194945288,
+          "length_words": 130,
+          "prologue_words": 4,
+          "prologue_end": 2194944784,
+          "packed_word": "c0008204",
+          "thirty_two_bit": 1,
+          "exception_flag": 1
+        },
+        "instructions": 130
+      },
+      {
+        "start": "0x82d87fa0",
+        "end": "0x82d88570",
+        "sha256": "3273a3e53177e2731fc1bf495de27a0ffdde752e363ef92c4a558e9569c91f69",
+        "pdata": {
+          "index": 41411,
+          "start": 2195226528,
+          "end": 2195228016,
+          "length_words": 372,
+          "prologue_words": 4,
+          "prologue_end": 2195226544,
+          "packed_word": "c0017404",
+          "thirty_two_bit": 1,
+          "exception_flag": 1
+        },
+        "instructions": 372
+      },
+      {
+        "start": "0x82d97220",
+        "end": "0x82d97a5c",
+        "sha256": "cbfb08331231f3742861b2d9dd8ecc159770df436e05b45dc405327bd78f795f",
+        "pdata": {
+          "index": 41579,
+          "start": 2195288608,
+          "end": 2195290716,
+          "length_words": 527,
+          "prologue_words": 4,
+          "prologue_end": 2195288624,
+          "packed_word": "c0020f04",
+          "thirty_two_bit": 1,
+          "exception_flag": 1
+        },
+        "instructions": 527
+      },
+      {
+        "start": "0x822d04b0",
+        "end": "0x822d0544",
+        "sha256": "80e190621ccf6b1a7ac806585f699bd00757a1639b79670b4cebaee83f6c0a1a",
+        "pdata": {
+          "index": 10,
+          "start": 2183988400,
+          "end": 2183988548,
+          "length_words": 37,
+          "prologue_words": 5,
+          "prologue_end": 2183988420,
+          "packed_word": "40002505",
+          "thirty_two_bit": 1,
+          "exception_flag": 0
+        },
+        "instructions": 37
+      },
+      {
+        "start": "0x822d0548",
+        "end": "0x822d05d4",
+        "sha256": "f8e7238ce3fcf002f18903e04ce6983f5bf7bffae9b7580107e3632b4710a432",
+        "pdata": {
+          "index": 11,
+          "start": 2183988552,
+          "end": 2183988692,
+          "length_words": 35,
+          "prologue_words": 5,
+          "prologue_end": 2183988572,
+          "packed_word": "40002305",
+          "thirty_two_bit": 1,
+          "exception_flag": 0
+        },
+        "instructions": 35
+      },
+      {
+        "start": "0x822d0438",
+        "end": "0x822d04ac",
+        "sha256": "0651f61fa295a845069378e0d67855e4c06c810822e5e8bb7c21e9525bbc6218",
+        "pdata": {
+          "index": 9,
+          "start": 2183988280,
+          "end": 2183988396,
+          "length_words": 29,
+          "prologue_words": 5,
+          "prologue_end": 2183988300,
+          "packed_word": "40001d05",
+          "thirty_two_bit": 1,
+          "exception_flag": 0
+        },
+        "instructions": 29
+      },
+      {
+        "start": "0x822d0690",
+        "end": "0x822d0724",
+        "sha256": "4f35513da6b5ceb9417822198ee369bc4d1e986d0fc0287ebee137123e047979",
+        "pdata": {
+          "index": 14,
+          "start": 2183988880,
+          "end": 2183989028,
+          "length_words": 37,
+          "prologue_words": 3,
+          "prologue_end": 2183988892,
+          "packed_word": "40002503",
+          "thirty_two_bit": 1,
+          "exception_flag": 0
+        },
+        "instructions": 37
+      },
+      {
+        "start": "0x822d0730",
+        "end": "0x822d078c",
+        "sha256": "afd1db7955cd8373bc2edc4863690dc4e52375d8a3d3d67a2e2993daaea42d0b",
+        "pdata": {
+          "index": 15,
+          "start": 2183989040,
+          "end": 2183989132,
+          "length_words": 23,
+          "prologue_words": 4,
+          "prologue_end": 2183989056,
+          "packed_word": "c0001704",
+          "thirty_two_bit": 1,
+          "exception_flag": 1
+        },
+        "instructions": 23
+      },
+      {
+        "start": "0x822d07f8",
+        "end": "0x822d0848",
+        "sha256": "be005a1cc250888afbb86304a8a86bcc187289c01f145d8a88cc3a68e2ccf1b3",
+        "pdata": {
+          "index": 18,
+          "start": 2183989240,
+          "end": 2183989320,
+          "length_words": 20,
+          "prologue_words": 4,
+          "prologue_end": 2183989256,
+          "packed_word": "40001404",
+          "thirty_two_bit": 1,
+          "exception_flag": 0
+        },
+        "instructions": 20
+      },
+      {
+        "start": "0x822df3f8",
+        "end": "0x822df490",
+        "sha256": "096c42c632cc7033bc3e64f47ea9e32e339c75269a78928376e00c29d681b556",
+        "pdata": {
+          "index": 542,
+          "start": 2184049656,
+          "end": 2184049808,
+          "length_words": 38,
+          "prologue_words": 5,
+          "prologue_end": 2184049676,
+          "packed_word": "40002605",
+          "thirty_two_bit": 1,
+          "exception_flag": 0
+        },
+        "instructions": 38
+      },
+      {
+        "start": "0x82324c50",
+        "end": "0x82324c80",
+        "sha256": "63e6dae5758f97dcffd0bf9c11c8448ab2b3e01bc9f43295a3820344fb566c6e",
+        "pdata": {
+          "index": 2571,
+          "start": 2184334416,
+          "end": 2184334464,
+          "length_words": 12,
+          "prologue_words": 4,
+          "prologue_end": 2184334432,
+          "packed_word": "40000c04",
+          "thirty_two_bit": 1,
+          "exception_flag": 0
+        },
+        "instructions": 12
+      },
+      {
+        "start": "0x8238dfc8",
+        "end": "0x8238e0a0",
+        "sha256": "2efa19e229357b632983dea15bddd0f374dfa56a71786adad4da449f103c2173",
+        "pdata": {
+          "index": 6001,
+          "start": 2184765384,
+          "end": 2184765600,
+          "length_words": 54,
+          "prologue_words": 10,
+          "prologue_end": 2184765424,
+          "packed_word": "c000360a",
+          "thirty_two_bit": 1,
+          "exception_flag": 1
+        },
+        "instructions": 54
+      },
+      {
+        "start": "0x82ded2c8",
+        "end": "0x82ded3dc",
+        "sha256": "fe3d0fd5c3f2d200a0ee14ae3e7cde28210b489847d58e37d353940404e1357a",
+        "pdata": {
+          "index": 42773,
+          "start": 2195641032,
+          "end": 2195641308,
+          "length_words": 69,
+          "prologue_words": 4,
+          "prologue_end": 2195641048,
+          "packed_word": "c0004504",
+          "thirty_two_bit": 1,
+          "exception_flag": 1
+        },
+        "instructions": 69
+      },
+      {
+        "start": "0x82872f18",
+        "end": "0x82873988",
+        "sha256": "0767de54e0559274d90da5d84fff69fca3f359538634934f9fd9e4b7f54a2a90",
+        "pdata": {
+          "index": 29155,
+          "start": 2189897496,
+          "end": 2189900168,
+          "length_words": 668,
+          "prologue_words": 3,
+          "prologue_end": 2189897508,
+          "packed_word": "40029c03",
+          "thirty_two_bit": 1,
+          "exception_flag": 0
+        },
+        "instructions": 668
+      },
+      {
+        "start": "0x82872e78",
+        "end": "0x82872f14",
+        "sha256": "83ce02f8397b15366bd3002c713741f3df8c20aabfc8fe5cb3305bdb5f14ae0d",
+        "pdata": {
+          "index": 29154,
+          "start": 2189897336,
+          "end": 2189897492,
+          "length_words": 39,
+          "prologue_words": 3,
+          "prologue_end": 2189897348,
+          "packed_word": "40002703",
+          "thirty_two_bit": 1,
+          "exception_flag": 0
+        },
+        "instructions": 39
+      },
+      {
+        "start": "0x82872e10",
+        "end": "0x82872e74",
+        "sha256": "f7837ade9f5919e82e4f324691e5098f606e9852a499d1e3328f33f96d4499b5",
+        "pdata": {
+          "index": 29153,
+          "start": 2189897232,
+          "end": 2189897332,
+          "length_words": 25,
+          "prologue_words": 4,
+          "prologue_end": 2189897248,
+          "packed_word": "40001904",
+          "thirty_two_bit": 1,
+          "exception_flag": 0
+        },
+        "instructions": 25
+      }
+    ],
+    "helper_leafs": [
+      {
+        "start": "0x8286e0e0",
+        "size": 36,
+        "sha256": "112d123456fb6311e799bcad0450ee59f14828ec893bd4dd2eb2142a30b53378",
+        "instructions": [
+          "mr r11, r3",
+          "lhz r10, 0(r11)",
+          "addi r11, r11, 2",
+          "cmplwi r10, 0",
+          "bne 0x8286e0e4",
+          "subf r11, r3, r11",
+          "srawi r11, r11, 1",
+          "addi r3, r11, -1",
+          "blr "
+        ]
+      },
+      {
+        "start": "0x8286e6a0",
+        "size": 28,
+        "sha256": "b96610ff11a22f0ccf74197ccc3e747957a4d17290f4cdd9f849ef3e6b0dff1d",
+        "instructions": [
+          "addi r10, r3, -2",
+          "addi r11, r4, -2",
+          "lhzu r9, 2(r11)",
+          "cmplwi r9, 0",
+          "sthu r9, 2(r10)",
+          "bne 0x8286e6a8",
+          "blr "
+        ]
+      }
+    ],
+    "exact_instruction_windows": [
+      {
+        "start": "0x82d43478",
+        "size": 16,
+        "sha256": "5d29773b8238ba24336fdfbbe40decc8b2a65053817df094a6ce1d4f7aab403a",
+        "instructions": [
+          "lis r5, -0x7deb",
+          "addi r3, r31, 0x58",
+          "addi r4, r5, 0x1fec",
+          "bl 0x822d04b0"
+        ]
+      },
+      {
+        "start": "0x82d434b0",
+        "size": 32,
+        "sha256": "116e7e6321d79e0c9241ef7b5bc04206b4ed43c6d88f840b9ffb2281522f70f1",
+        "instructions": [
+          "addi r3, r31, 0x58",
+          "beq cr6, 0x82d434c4",
+          "lis r11, -0x7ded",
+          "addi r4, r11, -0x1d78",
+          "b 0x82d434cc",
+          "lis r11, -0x7ded",
+          "addi r4, r11, -0x1cb8",
+          "bl 0x822df3f8"
+        ]
+      },
+      {
+        "start": "0x822d0750",
+        "size": 32,
+        "sha256": "9a2f86f851f071ee72931d545bda1834a7dc2521d6e0403f486c273d9f71ff02",
+        "instructions": [
+          "addi r3, r31, 0x58",
+          "mr r29, r5",
+          "bl 0x822d0438",
+          "mr r4, r29",
+          "bl 0x822d0690",
+          "mr r4, r3",
+          "mr r3, r30",
+          "bl 0x822d0438"
+        ]
+      },
+      {
+        "start": "0x822d06d8",
+        "size": 20,
+        "sha256": "81a676c4c993fc40df5ee2fc1fe3c2b873532a56bdc0a53e8dccc2506f8f7fcf",
+        "instructions": [
+          "lwz r11, 0(r31)",
+          "slwi r10, r29, 1",
+          "mr r4, r30",
+          "add r3, r10, r11",
+          "bl 0x8286e6a0"
+        ]
+      },
+      {
+        "start": "0x82d8812c",
+        "size": 12,
+        "sha256": "8356654a51e96d0a89bfc2a756a8b298c9f2759bfa275775a21a336d52eca16d",
+        "instructions": [
+          "mr r4, r30",
+          "addi r3, r31, 0x68",
+          "bl 0x822d0548"
+        ]
+      },
+      {
+        "start": "0x82d88174",
+        "size": 24,
+        "sha256": "2e1b579398ee2a4b5e9b3b806670cae3b33a0b7fa3015b6de67f6dfe3f515678",
+        "instructions": [
+          "mr r4, r22",
+          "addi r3, r31, 0x78",
+          "bl 0x82324c50",
+          "mr r4, r3",
+          "addi r3, r31, 0x58",
+          "bl 0x822d0548"
+        ]
+      },
+      {
+        "start": "0x82d88194",
+        "size": 28,
+        "sha256": "3f88ab7f144f3b3494b4e378f17654ad38625661f959877aa7ed7e2646ab99b3",
+        "instructions": [
+          "mr r5, r21",
+          "addi r4, r31, 0x58",
+          "addi r3, r31, 0x88",
+          "bl 0x822d0730",
+          "mr r4, r3",
+          "addi r3, r31, 0x58",
+          "bl 0x822d0548"
+        ]
+      },
+      {
+        "start": "0x82d881d0",
+        "size": 40,
+        "sha256": "85c60431dd120b9cebeec3434d78295c0a0f3a0d42d57541f9d716868449c639",
+        "instructions": [
+          "mr r4, r22",
+          "addi r3, r31, 0xa8",
+          "bl 0x82324c50",
+          "mr r5, r3",
+          "addi r4, r31, 0x58",
+          "addi r3, r31, 0x98",
+          "bl 0x822d07f8",
+          "mr r4, r3",
+          "addi r3, r31, 0x58",
+          "bl 0x822d0548"
+        ]
+      },
+      {
+        "start": "0x82d97818",
+        "size": 24,
+        "sha256": "4903b8401b5f30fe00c9ed16032b49d126a5e0400ab40918a7d672efee9cc3a2",
+        "instructions": [
+          "mr r4, r15",
+          "addi r3, r31, 0x130",
+          "bl 0x82324c50",
+          "mr r4, r3",
+          "mr r3, r19",
+          "bl 0x822d0548"
+        ]
+      },
+      {
+        "start": "0x82d97838",
+        "size": 28,
+        "sha256": "1f051879cbdc8955937d3b12449d5a59a0debcce0986cda030d5f36bef525257",
+        "instructions": [
+          "mr r4, r19",
+          "lwz r5, 0x9c(r31)",
+          "addi r3, r31, 0x150",
+          "bl 0x822d0730",
+          "mr r4, r3",
+          "mr r3, r19",
+          "bl 0x822d0548"
+        ]
+      },
+      {
+        "start": "0x82d97874",
+        "size": 40,
+        "sha256": "943ac23bb77b8a67f315fe21d05e7df65b4f94279edfb9a15f0511d839c7368a",
+        "instructions": [
+          "mr r4, r15",
+          "addi r3, r31, 0x90",
+          "bl 0x82324c50",
+          "mr r5, r3",
+          "mr r4, r19",
+          "addi r3, r31, 0x140",
+          "bl 0x822d07f8",
+          "mr r4, r3",
+          "mr r3, r19",
+          "bl 0x822d0548"
+        ]
+      },
+      {
+        "start": "0x82d8843c",
+        "size": 28,
+        "sha256": "1d80c86d37a1d1cd840eb1b4bb1eac301f3dfcb41631af7cf6eda32555b7c4da",
+        "instructions": [
+          "lis r11, -0x7def",
+          "addi r5, r11, 0xbc8",
+          "bl 0x822d0730",
+          "mr r4, r3",
+          "addi r3, r31, 0x58",
+          "bl 0x822d0548",
+          "addi r3, r31, 0xe8"
+        ]
+      },
+      {
+        "start": "0x82d8845c",
+        "size": 28,
+        "sha256": "c702bbcf52330f9309172471c976f444a8448f84755fe5a63e2ae6a57131f538",
+        "instructions": [
+          "lis r11, -0x7def",
+          "addi r5, r11, 0xc18",
+          "bl 0x822d0730",
+          "mr r4, r3",
+          "addi r3, r31, 0x58",
+          "bl 0x822d0548",
+          "addi r3, r31, 0xe8"
+        ]
+      },
+      {
+        "start": "0x82d884c0",
+        "size": 28,
+        "sha256": "1fcf9736f2e7731e6cca523804cc61622445142b8ae948bcf5e03d62ef6863f2",
+        "instructions": [
+          "lis r11, -0x7def",
+          "addi r5, r11, 0xd88",
+          "bl 0x822d0730",
+          "mr r4, r3",
+          "addi r3, r31, 0x58",
+          "bl 0x822d0548",
+          "addi r3, r31, 0xe8"
+        ]
+      },
+      {
+        "start": "0x82d884e0",
+        "size": 28,
+        "sha256": "0880d606ccbdf9ec23c4e431b72f9b4df4c64e39c9bf35fe64068b3d88411568",
+        "instructions": [
+          "lis r11, -0x7def",
+          "addi r5, r11, 0xdd8",
+          "bl 0x822d0730",
+          "mr r4, r3",
+          "addi r3, r31, 0x58",
+          "bl 0x822d0548",
+          "addi r3, r31, 0xe8"
+        ]
+      },
+      {
+        "start": "0x82d97944",
+        "size": 28,
+        "sha256": "38b4b2f4e390a5b983e0bf614abe68d8eb0d202b30935f4147ef96442e2a6852",
+        "instructions": [
+          "lis r11, -0x7def",
+          "addi r5, r11, 0xbc8",
+          "bl 0x822d0730",
+          "mr r4, r3",
+          "mr r3, r19",
+          "bl 0x822d0548",
+          "addi r3, r31, 0x90"
+        ]
+      },
+      {
+        "start": "0x82d97964",
+        "size": 28,
+        "sha256": "395c19fb397ac0820c600e1814839577afec70bd5a6a121a2a323e133363666d",
+        "instructions": [
+          "lis r11, -0x7def",
+          "addi r5, r11, 0xc18",
+          "bl 0x822d0730",
+          "mr r4, r3",
+          "mr r3, r19",
+          "bl 0x822d0548",
+          "addi r3, r31, 0x90"
+        ]
+      },
+      {
+        "start": "0x82d979d4",
+        "size": 28,
+        "sha256": "1634cd41a972de62ceb4e08d718177831dcee167c0a1736a233b4a6228e9533f",
+        "instructions": [
+          "lis r11, -0x7def",
+          "addi r5, r11, 0xc68",
+          "bl 0x822d0730",
+          "mr r4, r3",
+          "mr r3, r19",
+          "bl 0x822d0548",
+          "addi r3, r31, 0x90"
+        ]
+      },
+      {
+        "start": "0x82d979f4",
+        "size": 28,
+        "sha256": "a17a7f5fc83da824a9690336d21f55529cd2b4eb488787fa910895a146769f75",
+        "instructions": [
+          "lis r11, -0x7def",
+          "addi r5, r11, 0xcb8",
+          "bl 0x822d0730",
+          "mr r4, r3",
+          "mr r3, r19",
+          "bl 0x822d0548",
+          "addi r3, r31, 0x90"
+        ]
+      }
+    ],
+    "literals": [
+      {
+        "address": "0x82110b30",
+        "text": "<Strings:MC2CharacterName.Default.%s>",
+        "sha256": "32d6787e46aaeaa95c528420aaf16edb668e73f0bc7a9744efe9e6760f7a9da0"
+      },
+      {
+        "address": "0x82110b80",
+        "text": "<Strings:MC2UI.Punctuation.Comma> ",
+        "sha256": "e07d33074b63fb9ef49de75411f32beb4e7ec814056ac8d0cfccec5d26721306"
+      },
+      {
+        "address": "0x82110bc8",
+        "text": "<Strings:MC2UI.diction.Subjective_1> ",
+        "sha256": "48b6567feac00fda8ecd8399e91056e895c3b14c7438084a29136c8aae857ff3"
+      },
+      {
+        "address": "0x82110c18",
+        "text": "<Strings:MC2UI.diction.Subjective_0> ",
+        "sha256": "7a14fedb1c92f32237f856ee1c64d8c5c6277f05fd952899db5b9dbbfdafa33c"
+      },
+      {
+        "address": "0x82110c68",
+        "text": "<Strings:MC2UI.System_Log.JoinGuest>",
+        "sha256": "c9f16e0679ddd506cf1602cb713e28a42fa653f32fb9d4f01949d4e2e238192d"
+      },
+      {
+        "address": "0x82110cb8",
+        "text": "<Strings:MC2UI.System_Log.JoinParty>",
+        "sha256": "d51a9a3a1681c311e46a12657ea4346679e2d1b94f611f4e16e32b4e0b71d162"
+      },
+      {
+        "address": "0x82110d88",
+        "text": "<Strings:MC2UI.System_Log.LeaveGuest>",
+        "sha256": "e80f02a11b798ca516b2d38d4bbaa756d4f8cd0609142388369f7090cb7f0f29"
+      },
+      {
+        "address": "0x82110dd8",
+        "text": "<Strings:MC2UI.System_Log.Leaveparty>",
+        "sha256": "dc2a80a7bc364a79cc81093a31645b339c33421209da2dd18e16eeb7c40d4cd0"
+      },
+      {
+        "address": "0x8212e288",
+        "text": "<Strings:MC2UI.diction.Subjective_1> <Strings:MC2UI_Shop.Kamond shop Menu_Description.work_E>",
+        "sha256": "c373d0da2b2becc35ae32124fd18ea3a3ec3bfe99994c740011afce94de9f411"
+      },
+      {
+        "address": "0x8212e348",
+        "text": "<Strings:MC2UI.diction.Subjective_0> <Strings:MC2UI_Shop.Kamond shop Menu_Description.work_E>",
+        "sha256": "3647eab38f00611b4571c00465671bd50ea1cfcb2a245197b6a074b62b20d04a"
+      },
+      {
+        "address": "0x820ac758",
+        "text": "NONE",
+        "sha256": "4fed5796241f78fd7a1137b0c0700c573779a5d78b243b882ed474cfda07e090"
+      },
+      {
+        "address": "0x820ae044",
+        "text": "",
+        "sha256": "96a296d224f285c67bee93c30f8a309157f0daa35dc5b87e410b78630a09cfc7"
+      },
+      {
+        "address": "0x82151fec",
+        "text": "",
+        "sha256": "96a296d224f285c67bee93c30f8a309157f0daa35dc5b87e410b78630a09cfc7"
+      }
+    ],
+    "typed_levelup": {
+      "export": 16276,
+      "function": "MC2Pawn_GameDatas.NotifyLevelUP",
+      "script_sha256": "09acf4a86dddfe2ff522403924dcd2b66af8656e6bf309eaa0fd886c647498a7",
+      "assignments": [
+        {
+          "offset": 65,
+          "size": 54,
+          "sha256": "4f2d04744e1cf1438789eb554e5290ab1e1acbdb89ef8dab84903038a0d347a8",
+          "target": {
+            "op": "local",
+            "ref": 16275,
+            "path": "MC2Pawn_GameDatas.NotifyLevelUP.tempStr",
+            "kind": "StrProperty",
+            "start": 66,
+            "end": 71
+          },
+          "value": {
+            "op": "concat",
+            "args": [
+              {
+                "op": "concat",
+                "args": [
+                  {
+                    "op": "literal",
+                    "text": "<Strings:MC2CharacterName.Default.",
+                    "kind": "StrProperty",
+                    "start": 73,
+                    "end": 109
+                  },
+                  {
+                    "op": "instance",
+                    "ref": 16144,
+                    "path": "MC2Pawn_GameDatas.PlayerName",
+                    "kind": "StrProperty",
+                    "start": 109,
+                    "end": 114
+                  }
+                ],
+                "kind": "StrProperty",
+                "start": 72,
+                "end": 115
+              },
+              {
+                "op": "literal",
+                "text": ">",
+                "kind": "StrProperty",
+                "start": 115,
+                "end": 118
+              }
+            ],
+            "kind": "StrProperty",
+            "start": 71,
+            "end": 119
+          }
+        },
+        {
+          "offset": 165,
+          "size": 52,
+          "sha256": "80c370e6f23f0dba1b9e65781c9005a2f867e108826f316a53e6a24f42b2c9a7",
+          "target": {
+            "op": "local",
+            "ref": 16275,
+            "path": "MC2Pawn_GameDatas.NotifyLevelUP.tempStr",
+            "kind": "StrProperty",
+            "start": 166,
+            "end": 171
+          },
+          "value": {
+            "op": "concat",
+            "args": [
+              {
+                "op": "local",
+                "ref": 16275,
+                "path": "MC2Pawn_GameDatas.NotifyLevelUP.tempStr",
+                "kind": "StrProperty",
+                "start": 172,
+                "end": 177
+              },
+              {
+                "op": "literal",
+                "text": "<Strings:MC2UI.diction.Subjective_1> ",
+                "kind": "StrProperty",
+                "start": 177,
+                "end": 216
+              }
+            ],
+            "kind": "StrProperty",
+            "start": 171,
+            "end": 217
+          }
+        },
+        {
+          "offset": 220,
+          "size": 52,
+          "sha256": "7c23f6689f26e5bfdb79a4897bc64a32e8345ecae050c087cfe60016f26f97d7",
+          "target": {
+            "op": "local",
+            "ref": 16275,
+            "path": "MC2Pawn_GameDatas.NotifyLevelUP.tempStr",
+            "kind": "StrProperty",
+            "start": 221,
+            "end": 226
+          },
+          "value": {
+            "op": "concat",
+            "args": [
+              {
+                "op": "local",
+                "ref": 16275,
+                "path": "MC2Pawn_GameDatas.NotifyLevelUP.tempStr",
+                "kind": "StrProperty",
+                "start": 227,
+                "end": 232
+              },
+              {
+                "op": "literal",
+                "text": "<Strings:MC2UI.diction.Subjective_0> ",
+                "kind": "StrProperty",
+                "start": 232,
+                "end": 271
+              }
+            ],
+            "kind": "StrProperty",
+            "start": 226,
+            "end": 272
+          }
+        },
+        {
+          "offset": 272,
+          "size": 49,
+          "sha256": "2cb351e9d8e00d21e1f2643b496bd49137ad5a017daee3438e1ff8cd7dc770ef",
+          "target": {
+            "op": "local",
+            "ref": 16275,
+            "path": "MC2Pawn_GameDatas.NotifyLevelUP.tempStr",
+            "kind": "StrProperty",
+            "start": 273,
+            "end": 278
+          },
+          "value": {
+            "op": "concat",
+            "args": [
+              {
+                "op": "local",
+                "ref": 16275,
+                "path": "MC2Pawn_GameDatas.NotifyLevelUP.tempStr",
+                "kind": "StrProperty",
+                "start": 279,
+                "end": 284
+              },
+              {
+                "op": "literal",
+                "text": "<Strings:MC2UI.Battle_Log.LevelUp>",
+                "kind": "StrProperty",
+                "start": 284,
+                "end": 320
+              }
+            ],
+            "kind": "StrProperty",
+            "start": 278,
+            "end": 321
+          }
+        }
+      ]
+    },
+    "existing_shop_dependency": {
+      "id": "coalesced:a78a4ab2a1baf24eade780be3f52a1e5350b07db15d1662aaff9e1013a8186f6",
+      "source_sha256": "10649876ccd2b7bb2b01c33cdffa098a64c92299ce49ee9b6433d5b2f9a6ac3c",
+      "translation": "制作完成！",
+      "translation_sha256": "74f5bd56bbb446e658c1133abf7c03d08d1321d42b0fa674a8d19e9794cc274c",
+      "status": "existing-unchanged-dependency",
+      "existing_batch": "locales/zh-Hans/batch-002.json"
+    },
+    "dependent_existing_targets": [
+      {
+        "id": "coalesced:a78a4ab2a1baf24eade780be3f52a1e5350b07db15d1662aaff9e1013a8186f6",
+        "source_sha256": "10649876ccd2b7bb2b01c33cdffa098a64c92299ce49ee9b6433d5b2f9a6ac3c",
+        "translation": "制作完成！",
+        "translation_sha256": "74f5bd56bbb446e658c1133abf7c03d08d1321d42b0fa674a8d19e9794cc274c",
+        "status": "existing-unchanged-dependency",
+        "existing_batch": "locales/zh-Hans/batch-002.json"
+      }
+    ],
+    "format_percent_s": {
+      "table_address": "0x82001c88",
+      "table_sha256": "1cf3304c36773908a234d1ead57db10a98087b782d414489767afb710b53437d",
+      "state_transitions": [
+        {
+          "char": "%",
+          "state": 0,
+          "character_class": 1,
+          "next_state": 1
+        },
+        {
+          "char": "s",
+          "state": 1,
+          "character_class": 8,
+          "next_state": 7
+        }
+      ],
+      "jump_table_address": "0x82001ac8",
+      "jump_halfword": 268,
+      "target": "0x82873380",
+      "argument": "r24 advances 8-byte aligned vararg;lwz r27,+4 obtains first pointer",
+      "plain_s_default": "r25=0 reset by percent,so flag0x20 absent;take UTF16 branch 0x82873408",
+      "length": "lhz loop at0x82873420;delta/2 yields count;precision absent uses0x7fffffff",
+      "output": "r20=1,passes r27 pointer and r26 code-unit count to0x82872e78 at0x828738b4;lhzu loop emits units",
+      "all_other_specifiers_unclaimed": true
+    },
+    "direct_literal_storage": [
+      {
+        "tag": "<Strings:MC2UI.diction.Subjective_0>",
+        "hits": [
+          {
+            "input": "MC2Game",
+            "encoding": "ascii",
+            "offset": 8250853,
+            "address": null,
+            "literal_storage_not_code_reference": true
+          },
+          {
+            "input": "native",
+            "encoding": "utf-16-be",
+            "offset": 1117208,
+            "address": "0x82110c18",
+            "literal_storage_not_code_reference": true
+          },
+          {
+            "input": "native",
+            "encoding": "utf-16-be",
+            "offset": 1237832,
+            "address": "0x8212e348",
+            "literal_storage_not_code_reference": true
+          }
+        ]
+      },
+      {
+        "tag": "<Strings:MC2UI.diction.Subjective_1>",
+        "hits": [
+          {
+            "input": "MC2Game",
+            "encoding": "ascii",
+            "offset": 8250798,
+            "address": null,
+            "literal_storage_not_code_reference": true
+          },
+          {
+            "input": "native",
+            "encoding": "utf-16-be",
+            "offset": 1117128,
+            "address": "0x82110bc8",
+            "literal_storage_not_code_reference": true
+          },
+          {
+            "input": "native",
+            "encoding": "utf-16-be",
+            "offset": 1237640,
+            "address": "0x8212e288",
+            "literal_storage_not_code_reference": true
+          }
+        ]
+      },
+      {
+        "tag": "<Strings:MC2UI.Battle_Log.LevelUp>",
+        "hits": [
+          {
+            "input": "MC2Game",
+            "encoding": "ascii",
+            "offset": 8250905,
+            "address": null,
+            "literal_storage_not_code_reference": true
+          }
+        ]
+      },
+      {
+        "tag": "<Strings:MC2UI.System_Log.JoinParty>",
+        "hits": [
+          {
+            "input": "native",
+            "encoding": "utf-16-be",
+            "offset": 1117368,
+            "address": "0x82110cb8",
+            "literal_storage_not_code_reference": true
+          }
+        ]
+      },
+      {
+        "tag": "<Strings:MC2UI.System_Log.LeaveParty>",
+        "hits": [
+          {
+            "input": "native",
+            "encoding": "utf-16-be",
+            "offset": 1117656,
+            "address": "0x82110dd8",
+            "literal_storage_not_code_reference": true
+          }
+        ]
+      },
+      {
+        "tag": "<Strings:MC2UI.System_Log.JoinGuest>",
+        "hits": [
+          {
+            "input": "native",
+            "encoding": "utf-16-be",
+            "offset": 1117288,
+            "address": "0x82110c68",
+            "literal_storage_not_code_reference": true
+          }
+        ]
+      },
+      {
+        "tag": "<Strings:MC2UI.System_Log.LeaveGuest>",
+        "hits": [
+          {
+            "input": "native",
+            "encoding": "utf-16-be",
+            "offset": 1117576,
+            "address": "0x82110d88",
+            "literal_storage_not_code_reference": true
+          }
+        ]
+      }
+    ],
+    "semantics": {
+      "0x822d04b0": "construct FString from UTF16 TCHAR pointer;count=len+terminator;copy count*2 bytes",
+      "0x822d0548": "FString assignment (not append);copy count and exact count*2 bytes;self assignment no-op",
+      "0x822d0438": "FString copy constructor",
+      "0x822d0690": "append TCHAR string at existing count-1 UTF16 position;empty right no-op;empty left copy",
+      "0x822d0730": "copy left FString to temp;append right TCHAR;copy result to out;returns out",
+      "0x822d07f8": "right FString data pointer or empty constant,then 0x822d0730",
+      "0x82324c50": "variadic formatting wrapper 0x8238dfc8;fixed name tag format in r4,name identifier TCHAR in r5",
+      "0x82ded2c8": "resolve/trim string;last Korean syllable modulo28 selects Subjective branch;both candidates same Chinese 已"
+    },
+    "native_assembly": [
+      {
+        "function": "0x82d87fa0",
+        "initial": "NONE sentinel",
+        "list": "per matching input, MC2CharacterName.Default.%s from nonempty member +0x3a8 or alternate +0x44;first assignment,subsequent Comma then formatted name",
+        "subject": "after loop append Subjective_1 or _0 through 0x822d0730,assign back",
+        "suffix": "append LeaveGuest if flag r16 else Leaveparty;only displayed if original control flags permit and list != NONE",
+        "all_front_branches_read": true
+      },
+      {
+        "function": "0x82d97220",
+        "initial": "NONE sentinel at this+0x100",
+        "list": "after load/find/spawn object,nonempty +0x3a8 string;first formatted name assignment,otherwise Comma then formatted name",
+        "subject": "after loop append Subjective_1 or _0 through 0x822d0730,assign back",
+        "suffix": "append JoinGuest if flag bit else JoinParty;only displayed if original control flags permit and list != NONE",
+        "all_front_branches_read": true
+      },
+      {
+        "function": "0x82d43300",
+        "name": "assign resolved item +0x1bc to this+0x320,send to separate UI field",
+        "message": "construct empty local FString; assign entire Subjective_1/0 + space + work_E literal to local;send separate UI field",
+        "not_single_concatenated_name": true
+      }
+    ],
+    "grammar": {
+      "examples": [
+        "人物名已 升级",
+        "人物甲、 人物乙已 \\n加入队伍",
+        "人物名已 \\n离开队伍",
+        "人物名已 \\n作为临时同伴加入队伍",
+        "人物名已 \\n不再作为临时同伴同行",
+        "已 制作完成！"
+      ],
+      "preserved_ascii_space": true,
+      "preserved_leading_literal_backslash_n": true,
+      "none_sentinel_unchanged": true,
+      "guest_is_contextual_role_translation_not_official_name": true
+    },
+    "scope_limits": [
+      "No runtime execution/layout/real game acceptance.",
+      "Exact literal storage search is not a complete xref or indirect/dynamic-key proof.",
+      "Complete three native functions and listed helper bodies read;unrelated native/control logic not rewritten.",
+      "Selected plain percent-s conversion is table/branch verified;other format specifiers and error runtime paths not claimed.",
+      "Other packages and dynamic tag construction remain unexcluded."
+    ]
+  },
+  "unfinished_quest": {
+    "schema_version": 1,
+    "kind": "literal-unfinished-clause-adoption",
+    "source_locks": [
+      {
+        "disc": 1,
+        "locale": "int",
+        "path": "C:\\Users\\noway\\Downloads\\Magna-Carta-2-CN\\build\\disc1-selected\\MC2Game\\Localization\\Coalesced.int",
+        "source_sha256": "179e265cfc9e6d3e9f2586abe75b5da303b2af9b8484079851dab72f9f7edb8c",
+        "fields": 18
+      },
+      {
+        "disc": 1,
+        "locale": "jpn",
+        "path": "C:\\Users\\noway\\Downloads\\Magna-Carta-2-CN\\build\\disc1-selected\\MC2Game\\Localization\\Coalesced.jpn",
+        "source_sha256": "fb99602a9ff5f081857efa7389d6d2b6ecfc6765946f0bba2fbde4cdbf962a90",
+        "fields": 19
+      },
+      {
+        "disc": 2,
+        "locale": "int",
+        "path": "C:\\Users\\noway\\Downloads\\Magna-Carta-2-CN\\build\\disc2-selected\\MC2Game\\Localization\\Coalesced.int",
+        "source_sha256": "179e265cfc9e6d3e9f2586abe75b5da303b2af9b8484079851dab72f9f7edb8c",
+        "fields": 18
+      },
+      {
+        "disc": 2,
+        "locale": "jpn",
+        "path": "C:\\Users\\noway\\Downloads\\Magna-Carta-2-CN\\build\\disc2-selected\\MC2Game\\Localization\\Coalesced.jpn",
+        "source_sha256": "fb99602a9ff5f081857efa7389d6d2b6ecfc6765946f0bba2fbde4cdbf962a90",
+        "fields": 19
+      }
+    ],
+    "entries": [
+      {
+        "id": "coalesced:de529edb3463aa5980e61af8360aff9ac87d44035c9c72b458c4706b3bfc70f2",
+        "key": "302_6",
+        "source": "지금은 제가 처리할 ",
+        "source_sha256": "143db87d8b6df168fa1636e865b1630ac9219b1cadd79ec3095da190e250feb0",
+        "target": "现在由我处理的 ",
+        "translation_sha256": "bc6a23bfaef583600785c8c320607a8fec750ea63bfdaaae23df91df5d821afd",
+        "trailing_ascii_space": true
+      },
+      {
+        "id": "coalesced:958ec8d14bbdb8e3f250f42854bdbda18fb68f8cad29b763ea766a4dfe788438",
+        "key": "302_7",
+        "source": "그러니 직접 해저 ",
+        "source_sha256": "654bd34bda4ba118caf227eb14498f940558297ad4a41485974f334f166e3d43",
+        "target": "所以，请亲自到海底的 ",
+        "translation_sha256": "12f3643835555fcb141e8e891f5e1e1c64fc98f4230f112672e011b2d9083131",
+        "trailing_ascii_space": true
+      }
+    ],
+    "jpn_parallel_values_empty": true,
+    "full_context_field_counts": [
+      18,
+      19,
+      18,
+      19
+    ],
+    "missing_continuations_not_reconstructed": true,
+    "explicit_final_space_preserved": true,
+    "game_rendering_verified": false
+  },
+  "executed": false,
+  "game_rendering_verified": false
+}

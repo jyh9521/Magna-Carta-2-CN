@@ -9,11 +9,11 @@ import struct
 try:
     from .ue3_package import Reader, FormatError
     from .ue3_struct_defaults import property_declaration
-    from .ue3_function_metadata import function_header, function_signature, parse_function_metadata
+    from .ue3_function_metadata import function_header, function_signature, parse_function_metadata, function_owner_scope
 except ImportError:
     from ue3_package import Reader, FormatError
     from ue3_struct_defaults import property_declaration
-    from ue3_function_metadata import function_header, function_signature, parse_function_metadata
+    from ue3_function_metadata import function_header, function_signature, parse_function_metadata, function_owner_scope
 
 
 def ancestry(graph,node,kind):
@@ -48,7 +48,7 @@ def native_operator(graph,index):
 
 def decode_script(graph,node,raw,parameters,returns,locals_):
     r=Reader(raw);tokens=[];statements=[];jumps=[];defaults=[]
-    package=node[0];class_node=graph.reference(package,graph.export(*node)['outer'])
+    package=node[0];_,class_node=function_owner_scope(graph,node)
     classes=ancestry(graph,class_node,'Class')
     members={m['owner']['object_index']:m for m in parameters+returns+locals_}
     optional=[p for p in parameters if p['parameter_flags']['optional']]

@@ -1,0 +1,183 @@
+{
+  "schema_version": 1,
+  "status": "draft",
+  "entries": [
+    {
+      "id": "coalesced:de529edb3463aa5980e61af8360aff9ac87d44035c9c72b458c4706b3bfc70f2",
+      "text_kind": "fragment"
+    },
+    {
+      "id": "coalesced:958ec8d14bbdb8e3f250f42854bdbda18fb68f8cad29b763ea766a4dfe788438",
+      "text_kind": "fragment"
+    },
+    {
+      "id": "coalesced:b18113043a461e7a87994fd713a571cdfcde4a5174692bbc6cba8fee1bee04b5",
+      "text_kind": "fragment"
+    },
+    {
+      "id": "coalesced:9a3279fab8122241d571a25bbe4fcb8de6500cf4d848dfd5f3b5a1563507df1b",
+      "text_kind": "fragment"
+    },
+    {
+      "id": "coalesced:f80bff38fe789ff55b971481adf6588651ecc9d01806614890399b75d5d12a36",
+      "text_kind": "fragment"
+    },
+    {
+      "id": "coalesced:71b9437467b6a8e7be2021f92a0929c533721ebfa28bef9b2cacda9ca46530ab",
+      "text_kind": "fragment"
+    },
+    {
+      "id": "coalesced:59248bd995cc1a0fe7b15466eb593e39b0a8e64d28f080974e9784f958a5db10",
+      "text_kind": "fragment"
+    },
+    {
+      "id": "coalesced:db95194c94542c75f7b5c59473348e8cdadcdff008fa1e01be6ac0bb90c67f9f",
+      "text_kind": "fragment"
+    },
+    {
+      "id": "coalesced:73c5781cbafd77e137224236adae2137d1306af7a203a4e3c7224916f6f3713f",
+      "text_kind": "fragment"
+    },
+    {
+      "id": "coalesced:cf1e11b2f0cbec5b285591a9b72bcb637ee8663accceeb6baaa50911c899356f",
+      "text_kind": "fragment"
+    },
+    {
+      "id": "coalesced:815adc17d9a6bc34581fefa84dc396edba26c99aea6ccb6772e451d5b727db4e",
+      "text_kind": "fragment"
+    }
+  ],
+  "fragment_groups": [
+    {
+      "kind": "source-locked-atomic-fragments",
+      "reason": "Complete State-owned 249-byte self-heal script and typed nAddedHP delta conversion prove name+number+HP suffix;adopt the two fragments together.",
+      "members": [
+        {
+          "id": "coalesced:9a3279fab8122241d571a25bbe4fcb8de6500cf4d848dfd5f3b5a1563507df1b",
+          "source_sha256": "a6cd6b752ee220a92c3c0f78b3681ba1d62abece2e8e8bd8f24399f01ca9c40e",
+          "translation_sha256": "3b4c42666cc327365e0591594532750a66bf4303bfc0c05e7e4168b1dd3ed812",
+          "role": "prefix"
+        },
+        {
+          "id": "coalesced:f80bff38fe789ff55b971481adf6588651ecc9d01806614890399b75d5d12a36",
+          "source_sha256": "7f2e97d8d00f843166e16e84698eef3f80e35918bc15e38171c1de1d5ea71d10",
+          "translation_sha256": "8c6352643d2113e11bcceeb0a0e03df9c7989e864d7f35a49df5ca0d6013a673",
+          "role": "suffix"
+        }
+      ],
+      "joins": [
+        {
+          "prefix": "coalesced:9a3279fab8122241d571a25bbe4fcb8de6500cf4d848dfd5f3b5a1563507df1b",
+          "suffix": "coalesced:f80bff38fe789ff55b971481adf6588651ecc9d01806614890399b75d5d12a36"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "locales/zh-Hans/candidate-decisions/recovery-party-assembly-evidence.json",
+          "sha256": "b95f8a0c468d20205d84b1d1cd372b9ecc920847a70af914238d085b369268c1"
+        }
+      ]
+    },
+    {
+      "kind": "source-locked-atomic-fragments",
+      "reason": "Shared subject particles cover typed levelup,native party/guest lists and separate shop completion suffix;all adopt as 已 plus natural verb phrases;no empty/space-only translations.",
+      "members": [
+        {
+          "id": "coalesced:cf1e11b2f0cbec5b285591a9b72bcb637ee8663accceeb6baaa50911c899356f",
+          "source_sha256": "64ee5293d31bc58b72d76ae9a86a902e90442428e29f24f4ecb257ba841cdd36",
+          "translation_sha256": "a3b445efc48f2835e22eb9bce2f20f28d155b9dbded526a8f265535a76ec8f73",
+          "role": "prefix"
+        },
+        {
+          "id": "coalesced:815adc17d9a6bc34581fefa84dc396edba26c99aea6ccb6772e451d5b727db4e",
+          "source_sha256": "8bafb6b7d17ead4985bfd429412da3a6276b40529b508f7f57f9b3a25bd5c727",
+          "translation_sha256": "a3b445efc48f2835e22eb9bce2f20f28d155b9dbded526a8f265535a76ec8f73",
+          "role": "prefix"
+        },
+        {
+          "id": "coalesced:b18113043a461e7a87994fd713a571cdfcde4a5174692bbc6cba8fee1bee04b5",
+          "source_sha256": "a402319e2bd9b2e696b4dda98fb31a7d6e3f664540ce677c6b35e204ef550f16",
+          "translation_sha256": "94996ca6223321c156e83152ae72de3f3daa7ccc49a1f68aaedb14d835917eb6",
+          "role": "suffix"
+        },
+        {
+          "id": "coalesced:71b9437467b6a8e7be2021f92a0929c533721ebfa28bef9b2cacda9ca46530ab",
+          "source_sha256": "0183561fc37b68c748c9d4f01ad85e3a32049d2f4924a7d2e1ec22ef3ac170cb",
+          "translation_sha256": "dfdda31628c88ded7d46758722dd3c4debdf5c07202cffbd3c7f26d94a988d4a",
+          "role": "suffix"
+        },
+        {
+          "id": "coalesced:59248bd995cc1a0fe7b15466eb593e39b0a8e64d28f080974e9784f958a5db10",
+          "source_sha256": "b19b6a829d63a42d9c6cda20aacce0d74b1c98c94cc4d4d934450af050cf5cde",
+          "translation_sha256": "907c71bb26387d2387244cca98a3b46c265b82c3cceb1198f37a16c740e6ece6",
+          "role": "suffix"
+        },
+        {
+          "id": "coalesced:db95194c94542c75f7b5c59473348e8cdadcdff008fa1e01be6ac0bb90c67f9f",
+          "source_sha256": "05c1cee093c08c24a8a0cfbabef2795843edc87386dec34b62f9aeb02291fad0",
+          "translation_sha256": "a34d26154afb3da536cfed529cc882a6c8f9f1454ac34b053b48a4fdee5cf9f3",
+          "role": "suffix"
+        },
+        {
+          "id": "coalesced:73c5781cbafd77e137224236adae2137d1306af7a203a4e3c7224916f6f3713f",
+          "source_sha256": "f71d2895075fc1f0c9f97d32158e962909d25c754ecd3fe4615f64b5372d6f5a",
+          "translation_sha256": "e5d64d5ab45677f4dd57f2bf3822b1b6b556de598fd5eaef42e0df33e70befca",
+          "role": "suffix"
+        }
+      ],
+      "joins": [
+        {
+          "prefix": "coalesced:cf1e11b2f0cbec5b285591a9b72bcb637ee8663accceeb6baaa50911c899356f",
+          "suffix": "coalesced:b18113043a461e7a87994fd713a571cdfcde4a5174692bbc6cba8fee1bee04b5"
+        },
+        {
+          "prefix": "coalesced:cf1e11b2f0cbec5b285591a9b72bcb637ee8663accceeb6baaa50911c899356f",
+          "suffix": "coalesced:71b9437467b6a8e7be2021f92a0929c533721ebfa28bef9b2cacda9ca46530ab"
+        },
+        {
+          "prefix": "coalesced:cf1e11b2f0cbec5b285591a9b72bcb637ee8663accceeb6baaa50911c899356f",
+          "suffix": "coalesced:59248bd995cc1a0fe7b15466eb593e39b0a8e64d28f080974e9784f958a5db10"
+        },
+        {
+          "prefix": "coalesced:cf1e11b2f0cbec5b285591a9b72bcb637ee8663accceeb6baaa50911c899356f",
+          "suffix": "coalesced:db95194c94542c75f7b5c59473348e8cdadcdff008fa1e01be6ac0bb90c67f9f"
+        },
+        {
+          "prefix": "coalesced:cf1e11b2f0cbec5b285591a9b72bcb637ee8663accceeb6baaa50911c899356f",
+          "suffix": "coalesced:73c5781cbafd77e137224236adae2137d1306af7a203a4e3c7224916f6f3713f"
+        },
+        {
+          "prefix": "coalesced:815adc17d9a6bc34581fefa84dc396edba26c99aea6ccb6772e451d5b727db4e",
+          "suffix": "coalesced:b18113043a461e7a87994fd713a571cdfcde4a5174692bbc6cba8fee1bee04b5"
+        },
+        {
+          "prefix": "coalesced:815adc17d9a6bc34581fefa84dc396edba26c99aea6ccb6772e451d5b727db4e",
+          "suffix": "coalesced:71b9437467b6a8e7be2021f92a0929c533721ebfa28bef9b2cacda9ca46530ab"
+        },
+        {
+          "prefix": "coalesced:815adc17d9a6bc34581fefa84dc396edba26c99aea6ccb6772e451d5b727db4e",
+          "suffix": "coalesced:59248bd995cc1a0fe7b15466eb593e39b0a8e64d28f080974e9784f958a5db10"
+        },
+        {
+          "prefix": "coalesced:815adc17d9a6bc34581fefa84dc396edba26c99aea6ccb6772e451d5b727db4e",
+          "suffix": "coalesced:db95194c94542c75f7b5c59473348e8cdadcdff008fa1e01be6ac0bb90c67f9f"
+        },
+        {
+          "prefix": "coalesced:815adc17d9a6bc34581fefa84dc396edba26c99aea6ccb6772e451d5b727db4e",
+          "suffix": "coalesced:73c5781cbafd77e137224236adae2137d1306af7a203a4e3c7224916f6f3713f"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "locales/zh-Hans/candidate-decisions/recovery-party-assembly-evidence.json",
+          "sha256": "b95f8a0c468d20205d84b1d1cd372b9ecc920847a70af914238d085b369268c1"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "Eleven evidence-backed tail fields,not padding150. Huaren numeric slot is actual HP difference;State-owned Function has fully verified header/tail and property chain.",
+    "Party/guest/levelup and shared subject forms adopted atomically;existingwork_E remains locked and unchanged. All4 literal leading breaks preserved.",
+    "Two quest clauses keep final ASCII space and remain unfinished;do not infer missing object or ending from empty Japanese fields. Static evidence is not game acceptance."
+  ]
+}

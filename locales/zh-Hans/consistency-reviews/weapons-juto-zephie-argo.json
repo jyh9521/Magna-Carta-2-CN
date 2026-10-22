@@ -343,7 +343,7 @@
     {
       "id": "coalesced:6acf2dc5e35db3b6c5342fba279948c37f6bdce076906f3b31a6a2dbd8a6b387",
       "source_sha256": "d6df64f7ae29ce8074aaa1775c5cdd29a84dea9c253299deb83220a2f8c0d18a",
-      "translation_sha256": "09450ab285853b334c7c90e9da683c8bff6d7260d1e563b71a0e8c14bf509392"
+      "translation_sha256": "8b63ab3f72d015aa9e5c11033a8522f984890ff791831cfde400feed99ccae33"
     },
     {
       "id": "coalesced:71422b1b526ea7bf12b4fce3bd2213591f376c5fcf3d3512a4a962d8552cbcca",
@@ -673,7 +673,7 @@
     {
       "id": "coalesced:7f6e6f12bf447a210a89a28b3b2e4ccd4c8639b038b972a8872751975017b89f",
       "source_sha256": "6cf22e7d0021caebb0d1881139e53f31a0e3fdea644a8331364d047d1501bd33",
-      "translation_sha256": "fcc682e33866b10138857aa45d03113125dd046c87981daf6252780077a93516"
+      "translation_sha256": "643be677529f6786f7059e0f9d825abc8ea77508305c30e0d73e58f0e2ca2761"
     },
     {
       "id": "coalesced:886466c504ee40715c21cd7bc7f4bcd798f709555b9acdcdfcfd67dfda972805",
@@ -1130,7 +1130,8 @@
     "阿尔戈斧31有效草稿：战士/雷鸣/一击必杀/暴风/超人/斩月/撼地者/英雄/致命击/破天/赤月斧；攻击28/42/60/78/95/116/155/190/240/290按项保持，破天长说明攻击+ 240有空格而短说明攻击+240无空格，不能归一。致命击的308_ax_D/S未入计划，混合日韩长说明和攻击+无值短说明继续原样保留，不补攻击数。",
     "阿尔戈锤33：铁锤/战锤/古人之锤/幻象/泰坦/巨人之拳/陨星/血腥/破灭/超新星/1000吨锤，各攻击与抗性组合20、33/5、45/8、60/10、82/14、102/17、125/20、150/25、175/30、215/35、260/40分别核对，名称1000不改实际攻击。일류전现幻象与幻觉描述一致但源音译字形待核；不擅改源或候选。特雷瓦族独用泰坦的说明与普通战士偏好分开。",
     "213计划包含308_ax致命击名称，两条原值描述不计译文。多语源、空统计尾行、单引号、首尾空格、功能换行及名称/长短说明中的数量均保持；剑/扇/杖/斧/锤术语复用，现有名字人审/布局/游戏验收均false。前批技能334/324/10原值和额外11条原值证明及其他语气/名称候选保持。",
-    "100项共享候选逐项核对，4项字面缺失为上下文/子串：대시命中증대시켜增强而非冲刺，루命中블루베리蓝莓而非人物露，홀在홀리为神圣且单独在武器名为权杖而非插孔，마스터为风之大师/精通而非称谓主人。不做子串自动替换；100项仍candidate/unverified，名字一致不等于人审定稿。"
+    "100项共享候选逐项核对，4项字面缺失为上下文/子串：대시命中증대시켜增强而非冲刺，루命中블루베리蓝莓而非人物露，홀在홀리为神圣且单独在武器名为权杖而非插孔，마스터为风之大师/精通而非称谓主人。不做子串自动替换；100项仍candidate/unverified，名字一致不等于人审定稿。",
+    "阶段266按完整武器上下文及并列JPN源佐证，将两处倒下改为中性压制；不新增睡眠/沉默/击倒机制，保留韩文原数值与一击有无。显式目标hash取代，不增primary，仍非人审或运行定稿。"
   ],
   "retained_originals": [
     {
@@ -1182,6 +1183,24 @@
       ],
       "runtime_role_verified": false,
       "human_finalized": false
+    }
+  ],
+  "target_supersessions": [
+    {
+      "id": "coalesced:6acf2dc5e35db3b6c5342fba279948c37f6bdce076906f3b31a6a2dbd8a6b387",
+      "source_sha256": "d6df64f7ae29ce8074aaa1775c5cdd29a84dea9c253299deb83220a2f8c0d18a",
+      "before_target_sha256": "09450ab285853b334c7c90e9da683c8bff6d7260d1e563b71a0e8c14bf509392",
+      "after_target_sha256": "8b63ab3f72d015aa9e5c11033a8522f984890ff791831cfde400feed99ccae33",
+      "phase": 266,
+      "review": "locales/zh-Hans/consistency-reviews/weapons-juto-zephie-argo.json"
+    },
+    {
+      "id": "coalesced:7f6e6f12bf447a210a89a28b3b2e4ccd4c8639b038b972a8872751975017b89f",
+      "source_sha256": "6cf22e7d0021caebb0d1881139e53f31a0e3fdea644a8331364d047d1501bd33",
+      "before_target_sha256": "fcc682e33866b10138857aa45d03113125dd046c87981daf6252780077a93516",
+      "after_target_sha256": "643be677529f6786f7059e0f9d825abc8ea77508305c30e0d73e58f0e2ca2761",
+      "phase": 266,
+      "review": "locales/zh-Hans/consistency-reviews/weapons-juto-zephie-argo.json"
     }
   ]
 }

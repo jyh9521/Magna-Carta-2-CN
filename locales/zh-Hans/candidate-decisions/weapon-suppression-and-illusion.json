@@ -1,0 +1,165 @@
+{
+  "schema_version": 1,
+  "kind": "source-grounded-candidate-adjudication",
+  "phase": 266,
+  "resource": "MC2Game/Localization/Coalesced.int",
+  "input_sha256": "179e265cfc9e6d3e9f2586abe75b5da303b2af9b8484079851dab72f9f7edb8c",
+  "context_fields": 213,
+  "source_physical": 215,
+  "known_originals_retained": 2,
+  "new_primary_consistency_fields": 0,
+  "new_translations": 0,
+  "new_context_entries": 0,
+  "translation_edits": 2,
+  "decisions": [
+    {
+      "id": "coalesced:6acf2dc5e35db3b6c5342fba279948c37f6bdce076906f3b31a6a2dbd8a6b387",
+      "source": "일격으로 적을 잠재울만한 강력한 양손검.\\n공격+82",
+      "source_sha256": "d6df64f7ae29ce8074aaa1775c5cdd29a84dea9c253299deb83220a2f8c0d18a",
+      "before_translation": "强大到能一击让敌人倒下的双手剑\\n攻击+82",
+      "translation": "强大到足以一击压制敌人的双手剑\\n攻击+82",
+      "translation_sha256": "8b63ab3f72d015aa9e5c11033a8522f984890ff791831cfde400feed99ccae33",
+      "reason": "Neutral压制 for Korean잠재우다;parallel JPN黙らせる/沈黙させる supports suppression wording,not a verified sleep/silence/knockdown mechanic;do not import JPN-only一撃 into Korean rod",
+      "status": "source-grounded-draft-correction"
+    },
+    {
+      "id": "coalesced:7f6e6f12bf447a210a89a28b3b2e4ccd4c8639b038b972a8872751975017b89f",
+      "source": "강력한 힘으로 적을 잠재우는 강력한 로드.\\n정신+35 스태미너회복+5",
+      "source_sha256": "6cf22e7d0021caebb0d1881139e53f31a0e3fdea644a8331364d047d1501bd33",
+      "before_translation": "以强大力量让敌人倒下的强力法杖\\n精神+35 耐力恢复+5",
+      "translation": "以强大力量压制敌人的强力法杖\\n精神+35 耐力恢复+5",
+      "translation_sha256": "643be677529f6786f7059e0f9d825abc8ea77508305c30e0d73e58f0e2ca2761",
+      "reason": "Neutral压制 for Korean잠재우다;parallel JPN黙らせる/沈黙させる supports suppression wording,not a verified sleep/silence/knockdown mechanic;do not import JPN-only一撃 into Korean rod",
+      "status": "source-grounded-draft-correction"
+    }
+  ],
+  "retained_family_controls": [
+    {
+      "id": "coalesced:0a7b009f57736b3c03a0c33b3a1dc00af51dc80afa7b7cec292e384dcb4fd79d",
+      "source_sha256": "ebdc67ee514d0d9e313fec1bfbdd27203a1aa6ff92777cb260f2642aaecf5bc2",
+      "translation_sha256": "046b01a7269b90cbb1b6393bb4d757fd758d0beb7acdb04616eef8e3e6a37bcf",
+      "source": "침묵의 검",
+      "translation": "沉默之剑"
+    },
+    {
+      "id": "coalesced:71422b1b526ea7bf12b4fce3bd2213591f376c5fcf3d3512a4a962d8552cbcca",
+      "source_sha256": "8464d2ebae94d98523e60e427fac2325f803eeec695b3eed7c3211430f8666b7",
+      "translation_sha256": "691f3717366d434c12f4d2c592971aefd3e955dac58d56a037fc4d82227f924d",
+      "source": "양손검\\n공격+82",
+      "translation": "双手剑\\n攻击+82"
+    },
+    {
+      "id": "coalesced:6da4a1076c382323c6e259b44353170b208f1134095f2b93f00bfa68de241e97",
+      "source_sha256": "62e6c021be9ca352d577e8352a9e1801cc7f059b5f3ac16924b0a31cc70c4845",
+      "translation_sha256": "671326117b2bcde6ee42ad81d99f74c98bcb7c56d422faa1ce74f9a822b22109",
+      "source": "침묵의 홀",
+      "translation": "沉默权杖"
+    },
+    {
+      "id": "coalesced:886466c504ee40715c21cd7bc7f4bcd798f709555b9acdcdfcfd67dfda972805",
+      "source_sha256": "389ffe97375c8dee27f2814d50dc3f2533fff362dd56a352026f4bd64b52337f",
+      "translation_sha256": "1536063ca4dc39b9d0be058cd3f7344056f1c79d7aadcc01da410c8bfcad0083",
+      "source": "로드\\n정신+35 스태미너회복+5",
+      "translation": "法杖\\n精神+35 耐力恢复+5"
+    },
+    {
+      "id": "coalesced:ab5d6b29ab5115f27a91f7d0af8a939c9cbd657f2ea27a120f274ce8e765c3be",
+      "source_sha256": "dbe28ada483a6ead317208f21d900328e021be549d7e816d206547d856cb7786",
+      "translation_sha256": "02e97ed2958b8dc0a9fea2b93c297ac4b6d2f6ca3a96cb65a4d70010dc3091db",
+      "source": "일류전",
+      "translation": "幻象"
+    },
+    {
+      "id": "coalesced:d3a1f59c9a06ac1bb8ccc91f17f7ef89677b05e49317c8c432937e5d065e494b",
+      "source_sha256": "efd976b0e789cf8eb6bb3c99d9ca46b512f52d8ab3ea93ee918f44f02161ded5",
+      "translation_sha256": "4618785d5501ecd232c2f5862e00674223fe65e14515319c08e42ac8bb7d7f2f",
+      "source": "적에게 환각을 보여준다는 신비한 망치.\\n공격+60 저항+10",
+      "translation": "据说能让敌人看见幻觉的神秘锤\\n攻击+60 抗性+10"
+    },
+    {
+      "id": "coalesced:838d0c24702d050425323dca1d02c99f24dc680648a04701315e42754b408c3f",
+      "source_sha256": "bc555c8696a3cbf7a4193918936d2d11168282d80f12254cbd6d32a826c31ba2",
+      "translation_sha256": "3d7d7106a41cbbbac8a3aa8841c18ddff4633d8fd4a7db3fdf5a391c65ebfb9f",
+      "source": "망치\\n공격+60 저항+10",
+      "translation": "锤\\n攻击+60 抗性+10"
+    }
+  ],
+  "parallel_locale_sources": [
+    {
+      "disc": 1,
+      "container": "build/disc1-selected/MC2Game/Localization/Coalesced.jpn",
+      "container_sha256": "fb99602a9ff5f081857efa7389d6d2b6ecfc6765946f0bba2fbde4cdbf962a90",
+      "section": "Weapon_twohanded sword_juto",
+      "key": "123_sword_D",
+      "source": "一撃で敵を黙らせると言われる強力な両手剣\\n攻撃＋８２",
+      "source_sha256": "86160245918c300d02b4721d2e6e0a230074f335c37787ace57678dcb2b6310f"
+    },
+    {
+      "disc": 1,
+      "container": "build/disc1-selected/MC2Game/Localization/Coalesced.jpn",
+      "container_sha256": "fb99602a9ff5f081857efa7389d6d2b6ecfc6765946f0bba2fbde4cdbf962a90",
+      "section": "Weapon_rod_zephie",
+      "key": "222_rod_D",
+      "source": "一撃で敵を沈黙させる強力なロッド\\n精神＋３５ スタミナ回復＋５",
+      "source_sha256": "5fe720defa97d68baa1b17990ec0bd8f204e5def6d29ffbd8adf89564b5e13c1"
+    },
+    {
+      "disc": 1,
+      "container": "build/disc1-selected/MC2Game/Localization/Coalesced.jpn",
+      "container_sha256": "fb99602a9ff5f081857efa7389d6d2b6ecfc6765946f0bba2fbde4cdbf962a90",
+      "section": "Weapon_hammer_argo",
+      "key": "323_ham",
+      "source": "イリュージョン",
+      "source_sha256": "894546ccfd295f11a81bee475c876c0174a41dd7b36fc54f3d4e8a083f2cdab6"
+    },
+    {
+      "disc": 1,
+      "container": "build/disc1-selected/MC2Game/Localization/Coalesced.jpn",
+      "container_sha256": "fb99602a9ff5f081857efa7389d6d2b6ecfc6765946f0bba2fbde4cdbf962a90",
+      "section": "Weapon_hammer_argo",
+      "key": "323_ham_D",
+      "source": "敵に幻覚を与える神秘のハンマー\\n攻撃＋６０　抵抗＋１０",
+      "source_sha256": "3d55a31ba02b766c0f81af7b75d583e98cc00c555379d58f7ba950d834a74b81"
+    },
+    {
+      "disc": 2,
+      "container": "build/disc2-selected/MC2Game/Localization/Coalesced.jpn",
+      "container_sha256": "fb99602a9ff5f081857efa7389d6d2b6ecfc6765946f0bba2fbde4cdbf962a90",
+      "section": "Weapon_twohanded sword_juto",
+      "key": "123_sword_D",
+      "source": "一撃で敵を黙らせると言われる強力な両手剣\\n攻撃＋８２",
+      "source_sha256": "86160245918c300d02b4721d2e6e0a230074f335c37787ace57678dcb2b6310f"
+    },
+    {
+      "disc": 2,
+      "container": "build/disc2-selected/MC2Game/Localization/Coalesced.jpn",
+      "container_sha256": "fb99602a9ff5f081857efa7389d6d2b6ecfc6765946f0bba2fbde4cdbf962a90",
+      "section": "Weapon_rod_zephie",
+      "key": "222_rod_D",
+      "source": "一撃で敵を沈黙させる強力なロッド\\n精神＋３５ スタミナ回復＋５",
+      "source_sha256": "5fe720defa97d68baa1b17990ec0bd8f204e5def6d29ffbd8adf89564b5e13c1"
+    },
+    {
+      "disc": 2,
+      "container": "build/disc2-selected/MC2Game/Localization/Coalesced.jpn",
+      "container_sha256": "fb99602a9ff5f081857efa7389d6d2b6ecfc6765946f0bba2fbde4cdbf962a90",
+      "section": "Weapon_hammer_argo",
+      "key": "323_ham",
+      "source": "イリュージョン",
+      "source_sha256": "894546ccfd295f11a81bee475c876c0174a41dd7b36fc54f3d4e8a083f2cdab6"
+    },
+    {
+      "disc": 2,
+      "container": "build/disc2-selected/MC2Game/Localization/Coalesced.jpn",
+      "container_sha256": "fb99602a9ff5f081857efa7389d6d2b6ecfc6765946f0bba2fbde4cdbf962a90",
+      "section": "Weapon_hammer_argo",
+      "key": "323_ham_D",
+      "source": "敵に幻覚を与える神秘のハンマー\\n攻撃＋６０　抵抗＋１０",
+      "source_sha256": "3d55a31ba02b766c0f81af7b75d583e98cc00c555379d58f7ba950d834a74b81"
+    }
+  ],
+  "retained_name_reason": "JPN323_hamイリュージョン and its幻覚 description support existing幻象 draft;no claim of human finalization or runtime effect",
+  "human_finalized": false,
+  "runtime_layout_approved": false,
+  "game_rendering_verified": false
+}

@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "kind": "source-grounded-candidate-adjudication",
+  "phase": 270,
+  "resource": "MC2Game/Localization/Coalesced.int",
+  "input_sha256": "179e265cfc9e6d3e9f2586abe75b5da303b2af9b8484079851dab72f9f7edb8c",
+  "context_fields": 178,
+  "source_physical": 178,
+  "known_originals_retained": 0,
+  "new_primary_consistency_fields": 0,
+  "new_translations": 0,
+  "new_context_entries": 0,
+  "translation_edits": 2,
+  "decisions": [
+    {
+      "id": "coalesced:7aea2c1ed11d4fc04940e79476ef03468de34091e3efc33a9a00e64695dd156b",
+      "source": "엘가라면...\\n그 학살자 엘가를 말하는 거야?",
+      "source_sha256": "09e73c7c18952566de7767c0aac340a977950ff6ca8de0aae8c7d11232374ce7",
+      "before_translation": "艾尔加……是说那个屠夫艾尔加？",
+      "translation": "艾尔加……是说那个屠杀者艾尔加？",
+      "translation_sha256": "2a60628b61c48f53614a4a10b71bf6958db9a7ed3763ab05e8163211d0d3808c",
+      "reason": "Same Korean fixed title학살자 엘가 in two story scenes reuses existing shared candidate屠杀者艾尔加 and complete NPC/mail controls;no official-name or human-final claim. Preserve each scene viewpoint and attempted-killing semantics.",
+      "status": "source-grounded-draft-correction"
+    },
+    {
+      "id": "coalesced:f3c788a633e0713fc3cac65ff0d7f250e7959ab6c5d92b720760a9aa20baabb5",
+      "source": "하지만 난 너희들 생각대로\\n제피를 죽일 뻔했던 학살자 엘가가 맞아.\\n...그것만은 틀림 없어.",
+      "source_sha256": "daaa300d79cd07fb2de579d5fb01d1d7ccdca201fad2f21eb198181223256791",
+      "before_translation": "但就像你们想的，我的确是那个差点杀死洁菲的屠夫艾尔加。……唯独这一点，不会有错。",
+      "translation": "但就像你们想的，我的确是那个差点杀死洁菲的屠杀者艾尔加。……唯独这一点，不会有错。",
+      "translation_sha256": "451712308f4c844626b702ef04de596e76f580c769d9385bae6bd2f88c088bff",
+      "reason": "Same Korean fixed title학살자 엘가 in two story scenes reuses existing shared candidate屠杀者艾尔加 and complete NPC/mail controls;no official-name or human-final claim. Preserve each scene viewpoint and attempted-killing semantics.",
+      "status": "source-grounded-draft-correction"
+    }
+  ],
+  "retained_family_controls": [
+    {
+      "id": "coalesced:45a9aedd5dbd8e8b80972223be0381939ae7894c5dddcfacde087644a5833967",
+      "source": "북부군 적장 중에 가면을 쓴 놈이 있다.\\n그 놈에게는 정말 많은 사람이 희생됐어.",
+      "translation": "北部军的将领里，有个戴面具的家伙。他手上沾了太多人的血。",
+      "translation_sha256": "b0b96302361a2c937469fb17cf0efb7c1a8aec4d7f9514545002231c8afd94e6"
+    },
+    {
+      "id": "coalesced:0519ae7c99287e762b595099ed52c07e4bfcc1b621c44a936b8700327106c1e0",
+      "source": "남부군 사이에선 [학살자 엘가]라고\\n불리고 있지.",
+      "translation": "在南部军中，人们称他为[屠杀者艾尔加]。",
+      "translation_sha256": "c04188473586d93a948cc44a2a0b2eb4e4ee1db4dad2da1687b556e852b656d2"
+    },
+    {
+      "id": "coalesced:51d3ad01ffa50a7f8b6a1b327081c77753b0ddbda7d84961c62c30823ff35bde",
+      "source": "남부군의 일반상식 (3)",
+      "translation": "南部军常识 (3)",
+      "translation_sha256": "a4f328336a8afe08f9f99e0d81c6dae5707c8e93f106afe2196743edff24ac14"
+    },
+    {
+      "id": "coalesced:987cae1c0e5bc824c8df0549b3c203c56ef5f824afdb0b4e16d2b8c61dfc4513",
+      "source": "북부수호군, 통칭 북부군을 이끄는 건\\n란츠하임의 옛 재상인 슈엔자이트지.\\n그는 북부 귀족들과 동맹을 맺어 군을 결성했다고 해.\\n그리고 슈엔자이트 밑으론 그의 친위대이면서\\n북부군의 일원으로 활약하는 자들이 있는데,\\n하나가 센티넬 개발을 담당하는 휴아렌,\\n이 녀석은 아주 괴물 같이 생겼다고 소문이 자자하지.\\n두 번째는 슈엔자이트의 숨겨진 연인이 아닌가 하는\\n소문이 도는 미모의 클레어. 그리고 마지막으로\\n남부군의 공포의 대상인 학살자, 엘가가 있지.",
+      "translation": "北部守护军，通称北部军，其统帅是\\n兰兹海姆的前宰相修恩扎伊特。\\n听说，他与北部贵族结盟，组建了这支军队。\\n在修恩扎伊特麾下，还有几名亲卫，\\n也作为北部军的一员活跃着。\\n其中之一，是负责开发哨兵的修亚伦。\\n关于他的传闻很多，据说长得像个怪物。\\n第二位，是貌美的克蕾尔，据传，\\n她可能是修恩扎伊特的秘密恋人。最后，\\n还有令南部军闻风丧胆的屠杀者艾尔加。",
+      "translation_sha256": "0eb0dfe3e035b00258a724241d4387641c1c45fffa8e224d94619ec1e77c8aa5"
+    },
+    {
+      "id": "coalesced:970a9bca2d783fa8407f3b4d258559bbd875100881757fa88455951a8dc859fd",
+      "source": "엘가의 손에 죽어간 이들의 수는\\n헤아릴 수 없습니다.",
+      "translation": "死在艾尔加手里的人，不计其数。",
+      "translation_sha256": "099a76cfbda31b0da2f6c77fdd8e85094c809d13f87a06b19433742db43fd78c"
+    },
+    {
+      "id": "coalesced:8637bc0289ceefd300ca397d8ef8b8921da26dfb875f0aa68e1c3d67be30f124",
+      "source": "주토. 그 날 일, 기억하고 있습니까?\\n당신이 저와 공주님을\\n죽일 뻔 했던 때 말입니다.",
+      "translation": "朱特，你还记得那天的事吗？就是你差点杀了我和公主殿下的时候。",
+      "translation_sha256": "e2c898933840373bf027e541d01d2a0bfb34fe564240ebab509acf6f47f1d4e5"
+    }
+  ],
+  "shared_title_candidate": {
+    "id": "mc2-island-075",
+    "source": "학살자 엘가",
+    "target": "屠杀者艾尔加",
+    "category": "character",
+    "form": "title",
+    "resource": "MC2Game/Localization/Coalesced.int",
+    "source_string_id": "coalesced:0519ae7c99287e762b595099ed52c07e4bfcc1b621c44a936b8700327106c1e0",
+    "review_status": "candidate",
+    "relation": "unverified",
+    "basis": "本作公主到访、守护者与海岸防卫连续场景及关联字段；批内统一候选，不代表官方或跨作同一性。",
+    "series_references": []
+  },
+  "human_finalized": false,
+  "runtime_layout_approved": false,
+  "game_rendering_verified": false
+}

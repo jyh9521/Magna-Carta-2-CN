@@ -1,0 +1,181 @@
+{
+  "schema_version": 1,
+  "kind": "source-grounded-candidate-adjudication",
+  "phase": 265,
+  "resource": "MC2Game/Localization/Coalesced.int",
+  "input_sha256": "179e265cfc9e6d3e9f2586abe75b5da303b2af9b8484079851dab72f9f7edb8c",
+  "context_fields": 212,
+  "primary_reused_fields": 192,
+  "linked_context_fields": 20,
+  "new_primary_consistency_fields": 0,
+  "new_translations": 0,
+  "new_context_entries": 0,
+  "translation_edits": 2,
+  "decisions": [
+    {
+      "id": "coalesced:5d992863623803f94140fc26a8266c95d9a5c6739e27a01caac0a3ebac90bbf5",
+      "source": "빌터 아저씨가 부탁한 공구.",
+      "source_sha256": "4f89c6d7f9407f54894a6849d9dd94175d33da282faf6d27a18013b1fb3484bb",
+      "before_translation": "比尔特大叔托人拿来的工具",
+      "translation": "比尔特大叔要的工具",
+      "translation_sha256": "f2d3b363896fb0ea0db8d29d6e80339089e17ae4c489e4c74f0a83acc1b9a381",
+      "reason": "Full delivery quest identifies Bill as requester/recipient;item description should not imply a completed bringing event",
+      "status": "source-grounded-draft-correction"
+    },
+    {
+      "id": "coalesced:ef6adf22b88f2d3d124160a6f6fb26706cf57f593bba8d520b893008bda21e50",
+      "source": "가죽을 가진 몬스터에게서 얻을 수 있다.",
+      "source_sha256": "706abef340a60e001b2c8c07887fc862b8ff9d7fdece9f84e17ea28d0d69026c",
+      "before_translation": "可从长有皮革的怪物身上取得",
+      "translation": "可从有皮的怪物身上取得",
+      "translation_sha256": "099e65ce57b86725ec5bd79bd17b922bca99d0ba182326fdb0018ed5678fb6f1",
+      "reason": "Creature has skin/hide;avoid implying processed leather grows on it;no fur,species or drop-rate added",
+      "status": "source-grounded-draft-correction"
+    }
+  ],
+  "retained_delivery_quest": [
+    {
+      "id": "coalesced:8c0e86ef9aac86b2605d627614653a253021c98c16ca3f4502d87effd69bf5d2",
+      "source_sha256": "92f473bc82d13181f48773aa2037da68f40847761940bf388692be79b4b15794",
+      "translation_sha256": "6729e0dde63a2f2955dd9d7897864a8835cdbe6e22ec64f0baf7c9678296c8d5",
+      "source": "공구 배달",
+      "translation": "送工具"
+    },
+    {
+      "id": "coalesced:dfdd0f30e8e1a0ffc2928413340ab6e2d0e6cf04f428230c56fda7aa76ea6a75",
+      "source_sha256": "b2e00b47978bf5adfebbc80895d121410c32f8456827898da676f3ba17441cc3",
+      "translation_sha256": "893497c35627176001dc84efa04aafd19c083b8a810a06a2d0441b173266c343",
+      "source": "아까 빌터 아저씨에게\\n공구를 가져다 달라고\\n부탁 받았는데,",
+      "translation": "刚才，比尔特大叔，托我帮他拿些工具，"
+    },
+    {
+      "id": "coalesced:df32020ae2aaebea6249b59c6742c8b2b9b7e78ebda909311cf4ad84fa0be88c",
+      "source_sha256": "c734b0f2f82adfa662cd820332b4ff8efc0e656d3e0d11e46294c1b5661a4116",
+      "translation_sha256": "ff1e0846de7f5f23c6d6e8e4b87b818e8afdcdeeefd83dcc18017d2bacea3a19",
+      "source": "도저히 시간이 나지 않아서 말이야.",
+      "translation": "可我实在抽不出时间。"
+    },
+    {
+      "id": "coalesced:a657a2f2a33bf88a47e22d5dbd66209cd73f365cb4578d1db0094895e8a49418",
+      "source_sha256": "0e00f06aafb21d2fd35c609ac5df1f64f85563fcde93773dd885fda7dbc937c1",
+      "translation_sha256": "9e741484d16fefd3ebfd00ebddbd18fa0ace65644a274b573dc210da98a56a00",
+      "source": "빌터 아저씨에게 받은 열쇠를 줄게.\\n이걸로 촌장님 댁 앞에 있는\\n상자를 열 수 있을 거야.",
+      "translation": "我把比尔特大叔给的钥匙，交给你。用它，应该就能打开村长家前面的箱子。"
+    },
+    {
+      "id": "coalesced:b8e62a4e516c14c9c2c3560254b5cea63772d281f23f6b05ddf5aa3ed516edb4",
+      "source_sha256": "5091f25b235534fbd3cb054da933218905f25d17b961ea84d5035930e4a8256d",
+      "translation_sha256": "1e9f7b454a8d49157b13fcdc484e40496b4dfba75ef0d6a8181a36f6f691ee1b",
+      "source": "그 안에서 공구를 꺼내서 해안에 계신\\n빌터 아저씨에게 가져다 줘.",
+      "translation": "从里面取出工具，送给海边的比尔特大叔吧。"
+    },
+    {
+      "id": "coalesced:6304f2ca465074202bdeaa6a8913547ae5c84d3a2baba2189c3e966a5ce6cab0",
+      "source_sha256": "99ea006f5adb8ade93d2d2febd6340f282e21228ea7622032331809c912a8fc3",
+      "translation_sha256": "0c4caf4545980623c6f5132d36f6df2614ecb2c0b1ad9170a3c534bb34e03fde",
+      "source": "부탁해.\\n난 아무래도 시간이 나지 않아서 말이야.",
+      "translation": "拜托了。我实在抽不开身。"
+    },
+    {
+      "id": "coalesced:200b408d70eaabbf0cead8b6db7bfa6aed64cf6ab0d2f4d10df87a77a703bcbf",
+      "source_sha256": "d9dbfcab7ea57b76dc0c83a94797a28390f2274703e8fc5aa4ed0539289b9c21",
+      "translation_sha256": "36fd969bee0c3c64dcad22bf731dede59072da3bcbcc2a83dd9b9f525e4b2846",
+      "source": "그래. 꼭 좀 부탁해.\\n고맙다 주토.",
+      "translation": "好，拜托你了。谢谢，朱特。"
+    },
+    {
+      "id": "coalesced:0b9eb6aa3ab418d8e9d3e6eab3ea9730e79121d2d59bfd937b14f027bad66d8e",
+      "source_sha256": "26bba2c1a28544e3e0cf2e88eed22cfcf9ea27cb9ced930dec3e435974143cee",
+      "translation_sha256": "89fb0c58c3afbaece694b4976d9d6b7dc08e81b9f5cf3f3e774774a912922359",
+      "source": "너도 바쁘냐?\\n이거 큰일이네...",
+      "translation": "你也忙吗？这下麻烦了……"
+    },
+    {
+      "id": "coalesced:aba85cfb0d60456126c95aab3c9b92953e5de1cee643348f3c920871dfefe589",
+      "source_sha256": "26d146e32486eaa2c9978aba5c586b55a397a309e8e7bb618bd9d126cce4b09e",
+      "translation_sha256": "9535957374a87df7ff210e21170c40a8bfe6004d2c7a2ff8bd2502bfa99eb276",
+      "source": "촌장님의 집 옆에 있는 상자에서\\n공구를 꺼내서 해안에 계신\\n빌터 아저씨께 가져다 줘.",
+      "translation": "从村长家旁边的箱子里，取出工具，送给海边的比尔特大叔吧。"
+    },
+    {
+      "id": "coalesced:3d31bc3f175530275b0379e3c2bd53e709e299a62242561721a8a78516df4005",
+      "source_sha256": "8f1b5073ee9d849ed093252db657408583b811a663f73cb2649f4651803b1d59",
+      "translation_sha256": "a27ebec8669d9a97aea306ee91f96212e21f435d903c3e3962e76c8cd79c9b49",
+      "source": "오, 주토냐? 헤인겔에게 시켰더니,\\n그 녀석이 너한테 떠넘긴 모양이군.\\n어쨌든 잘 가져왔다.",
+      "translation": "哦，是朱特啊？我托海因格尔去拿，看来，那小子把事情推给你了。总之，辛苦你送来了。"
+    },
+    {
+      "id": "coalesced:0e2d9c96f6e63c85a23295b99d320e030fa7bdd99bf19439edd405e7310db1fa",
+      "source_sha256": "77d8c8395a511b8e2887877c0d27e4e396b300b60656362e9497f8a5ff4971cc",
+      "translation_sha256": "c5b501505933052a5b5dfd5c19c69de6f564c86a85f9aed6f2e1d636c2902b78",
+      "source": "빨리 만들어야겠군.\\n왠지 예감이 안 좋아.",
+      "translation": "得赶快做好才行。总觉得，有种不好的预感。"
+    },
+    {
+      "id": "coalesced:bca0f456ae19aab45f07c4dec38e8a100c8b312ec09fb9adeac24394cd5ec6c5",
+      "source_sha256": "8971a0f07e6dbe2b8f6b00681f45e5eb6643667b994e2833d5aa447cc9914972",
+      "translation_sha256": "714b9d09d827189f2ebf8975d30bc98f48bb2022181edd5737c170ee7e9b4374",
+      "source": "어이 주토!\\n잠깐 나 좀 도와줘.",
+      "translation": "喂，朱特！过来帮我一下。"
+    },
+    {
+      "id": "coalesced:768f77c007ebf7a46425bf134c73865e11e1373b2c14c82402df7d83fca2d991",
+      "source_sha256": "ae811be16ec393eb0e2afbfb6796ee3045ed110bf4df9ddf1405ff11148c2928",
+      "translation_sha256": "f4a164cd85b6cd142449b168cbd0a4336faa53b94095beac992c554415f86fb4",
+      "source": "해안가에 있는 빌터에게 [공구]를 전달해주세요.\\n공구는 촌장의 집 앞에 있는 [빌터의 상자]안에 있습니다. ",
+      "translation": "请将[工具]送给海边的比尔特\\n工具在村长家前的[比尔特的箱子]里 "
+    },
+    {
+      "id": "coalesced:2243a689ebb755e98b6d21b7ee0afd14f1cc451912efc0af08cb34fb7b6e2681",
+      "source_sha256": "2c6b5e3760b08d37fa28fbaff94468991e9b87f9816a69d88f2d1aeb9e8dda9f",
+      "translation_sha256": "aa97870567cee276b4b7646e97f5deb58f9256ef38b9acd1ece0cc1588425c34",
+      "source": "QUEST%s: 빌터의 열쇠 획득.",
+      "translation": "QUEST%s: 获得比尔特的钥匙"
+    },
+    {
+      "id": "coalesced:a6fd06499fc780659fe3fdd3d79bc34950e6ec003e8916a29fe91d7023570d34",
+      "source_sha256": "58d0ccc92269697f282e3e8f8f42f9a16bdcec419db03b95168de8df4575801f",
+      "translation_sha256": "0975eae50f1ae9c1f21679de252cc492d92b046f3dd7149ddc5e225ed9ea62b1",
+      "source": "QUEST%s: 공구 획득 (%s / %s)",
+      "translation": "QUEST%s: 获得工具 (%s / %s)"
+    },
+    {
+      "id": "coalesced:1d0b0e30a5e54407e01f2d70482ba57a5e1f7e245e4b39bdcd9457ee5baa3883",
+      "source_sha256": "bbb19ba054272beb971acee6d54ba31d708aff8f065be9ee67350053bcf97b81",
+      "translation_sha256": "bdff08cfc8030d0ac518af9e4a1bfe8910602695bffe9c83588bacb1efaf535d",
+      "source": "QUEST%s: 덫의 재료 획득 (%s / %s)",
+      "translation": "QUEST%s: 获得陷阱材料 (%s / %s)"
+    },
+    {
+      "id": "coalesced:73d29a87ba113841d2a1b887d1acaa6824af4202c59d944f12e1f6efb8878e8d",
+      "source_sha256": "f48c531d9a6c69fecbb5a55248ed80119aa5a63892b63ad4a78888f2886a5126",
+      "translation_sha256": "e7b34bed4922ba6da22d38eecd5ec6bb028c19ad549a0a4ded1c84e2f9fec126",
+      "source": "QUEST: %s 시작",
+      "translation": "QUEST: %s 开始"
+    },
+    {
+      "id": "coalesced:d0632182b0c3988e1f2e063dfc0aecf565ddc410e92808df7caefee97fb10bca",
+      "source_sha256": "11304b5710393e3b6d888d7091f1549fe2c84ff32f7018f1bda905e4d802870f",
+      "translation_sha256": "23b876d106f1c93ce72fd434ea03b26ce661a1dfda7b302cf73fdd41f62d7565",
+      "source": "QUEST: %s 완료",
+      "translation": "QUEST: %s 完成"
+    },
+    {
+      "id": "coalesced:6fb0df198c9416131fea4e01456d1d43cc80aac00131e6ba61a6362a522f1780",
+      "source_sha256": "4f313a93cfca436db916d447f61cde425feb412feb6372122e5e3bd79882d30b",
+      "translation_sha256": "5ca6730d441522017552bf309fcddbed161b77440dc3a11d9945788d802afdb3",
+      "source": "공구",
+      "translation": "工具"
+    },
+    {
+      "id": "coalesced:2a0cf4882440cbcf482c27f752ca7706e740aa755d3ac9ba2f31365f77845b72",
+      "source_sha256": "7eb5d1e694f0f08952706cf230f0659a587b8d4086e2103f7b89de17b478fea4",
+      "translation_sha256": "8ed2267d0add3b97c744a5520f3175736ce00c381f5fce1ce821e99b3d2d2e77",
+      "source": "덫의 재료",
+      "translation": "陷阱材料"
+    }
+  ],
+  "human_finalized": false,
+  "runtime_layout_approved": false,
+  "game_rendering_verified": false
+}

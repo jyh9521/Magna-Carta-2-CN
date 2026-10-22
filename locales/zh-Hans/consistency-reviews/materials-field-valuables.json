@@ -202,7 +202,7 @@
     {
       "id": "coalesced:5d992863623803f94140fc26a8266c95d9a5c6739e27a01caac0a3ebac90bbf5",
       "source_sha256": "4f89c6d7f9407f54894a6849d9dd94175d33da282faf6d27a18013b1fb3484bb",
-      "translation_sha256": "7413d280136da01fd600732fb70274e4bff2466f043c27f34b75fdea93d05676"
+      "translation_sha256": "f2d3b363896fb0ea0db8d29d6e80339089e17ae4c489e4c74f0a83acc1b9a381"
     },
     {
       "id": "coalesced:a8160588a079ed87583a30d78ecebb87668bc90b81857c8a624135ab90885d87",
@@ -922,7 +922,7 @@
     {
       "id": "coalesced:ef6adf22b88f2d3d124160a6f6fb26706cf57f593bba8d520b893008bda21e50",
       "source_sha256": "706abef340a60e001b2c8c07887fc862b8ff9d7fdece9f84e17ea28d0d69026c",
-      "translation_sha256": "5b1a238e5e15533781e2bb347c58cc57b71a24f5d9f6c057171bfc7a8619aa58"
+      "translation_sha256": "099e65ce57b86725ec5bd79bd17b922bca99d0ba182326fdb0018ed5678fb6f1"
     },
     {
       "id": "coalesced:e7e63706d9749c3fc1c93f017754912e6788bcfed152c37b649a7ecbecdc0d49",
@@ -1285,7 +1285,26 @@
     "重复key_laboratory两名称及两_D分别是研究所钥匙与哨兵研究所小研究室通行卡，occurrence和ID独立，不按键去重。制造室/尼克斯保管箱/哨兵研究所/控制室/北军保管箱各自解锁对象，运输终身免费券、族长印章成人信物、北军库布、利登家主近似遗嘱信、晶柱控制装置及超越/永劫卡蒙德、梅雷花粉等按源，不将传说复活当运行效果验收。",
     "后段青月剑/镜/宝玉三仪式器物依显示源（Bluemoon_staff键实际剑不改杖），软体动物体液/海底洞窟香料/马雷印章、五封印钥匙分别绑定杜南平原、雷恩波尔特废墟、杜南盗贼窝点、古代墓穴、拉诺阿拉湖。帕玛/凯玛/尤尔玛/尹玛/帕克玛现音译候选的汉字来源未核实，不擅换成推测汉字。红莲水晶对应水祭坛、破戒卷轴对应火祭坛、避雷发簪雷祭坛、风暴石板风祭坛按源，不因颜色/名称猜调换。",
     "四属性精气、布雷兹之尾/因费尔诺诱饵/反费尔诺烟雾弹、KAN之眼可见平常不可见精气、爱情魔药传说、营地货物箱钥匙、拜泽恩给塞蕾丝汀的遗物等按源对象保持。monster_leather_D现长有皮革的怪物措辞偏硬，记录可从有皮的怪物身上取得候选未采纳。名称普通尾空格在部分既有目标曾省略，本轮源/目标分别锁定不再归一；功能换行和4数字保持，不宣称每项源目标普通空白全等。人审/布局/游戏验收false，旧11额外原值和所有候选保持。",
-    "179项共享候选逐项核对，7组字面缺失分别保留语境：총在总司令而非枪；루在组成/花粉/卷轴词内非人物露；村民留下的遗物、利登家主、卡蒙德小碎片、马雷族香气仪式、奇怪药物是完整句法或修饰结构，不机械强塞短语字面。所有术语仍candidate/unverified，任务关联名字一致不等于人审定稿。"
+    "179项共享候选逐项核对，7组字面缺失分别保留语境：총在总司令而非枪；루在组成/花粉/卷轴词内非人物露；村民留下的遗物、利登家主、卡蒙德小碎片、马雷族香气仪式、奇怪药物是完整句法或修饰结构，不机械强塞短语字面。所有术语仍candidate/unverified，任务关联名字一致不等于人审定稿。",
+    "阶段265按完整材料及送工具任务语境修订两项物品说明，保留任务阶段/方向和生物材料含义；显式旧新目标hash取代，不增加primary，仍非人审或运行定稿。"
   ],
-  "retained_originals": []
+  "retained_originals": [],
+  "target_supersessions": [
+    {
+      "id": "coalesced:5d992863623803f94140fc26a8266c95d9a5c6739e27a01caac0a3ebac90bbf5",
+      "source_sha256": "4f89c6d7f9407f54894a6849d9dd94175d33da282faf6d27a18013b1fb3484bb",
+      "before_target_sha256": "7413d280136da01fd600732fb70274e4bff2466f043c27f34b75fdea93d05676",
+      "after_target_sha256": "f2d3b363896fb0ea0db8d29d6e80339089e17ae4c489e4c74f0a83acc1b9a381",
+      "phase": 265,
+      "review": "locales/zh-Hans/consistency-reviews/materials-field-valuables.json"
+    },
+    {
+      "id": "coalesced:ef6adf22b88f2d3d124160a6f6fb26706cf57f593bba8d520b893008bda21e50",
+      "source_sha256": "706abef340a60e001b2c8c07887fc862b8ff9d7fdece9f84e17ea28d0d69026c",
+      "before_target_sha256": "5b1a238e5e15533781e2bb347c58cc57b71a24f5d9f6c057171bfc7a8619aa58",
+      "after_target_sha256": "099e65ce57b86725ec5bd79bd17b922bca99d0ba182326fdb0018ed5678fb6f1",
+      "phase": 265,
+      "review": "locales/zh-Hans/consistency-reviews/materials-field-valuables.json"
+    }
+  ]
 }

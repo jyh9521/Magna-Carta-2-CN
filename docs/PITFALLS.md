@@ -1,3 +1,7 @@
+## 第292阶段
+
+主菜单与队伍纹理别名在TitleMap_MSPT、UI_Pillar各有resident副本；Guest24高不满足18号字ink余量，改完整32高，Disc无须扩展offset_y。透明RGB不作底色。 见[实际回填](PHASE_292_FRONT_PARTY_ADOPTION.md)。
+
 ## 第291阶段
 
 Notice透明RGB可为橙色但alpha为0，不能误作不透明背景；按钮A须保留原BC3块。多个侧字须单次同导出复合写入，不能重复对象补丁。 见[本轮回填](PHASE_291_BOSS_GAMEOVER_ADOPTION.md)。

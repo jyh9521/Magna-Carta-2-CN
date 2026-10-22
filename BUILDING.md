@@ -1724,3 +1724,7 @@ publishes the two user-click CMD files only after validation. Preparation never
 launches a game and never changes original resources/configuration. Exact
 arguments, space needs and local-path dependency behavior are in
 docs/WARNING_FONT_ROUTE_PROBE.md.
+
+## 第292阶段：主菜单及队伍图片
+
+累计ui-labels.json为78图/92层/400双盘别名，28源并集，纹理D1/D2为24/22资源，独立对照包各50资源。按START键保留START，版权行与盘形上部hash保护；阿尔戈/塞蕾丝汀/朱特/洁菲沿用既有INT，临时对应临时同伴，游戏名/语音剧按最终display-fix。无新增游戏专属工具代码。复现、保护范围、隔离旧中文检查点回滚和剩余缺口见[阶段292](docs/PHASE_292_FRONT_PARTY_ADOPTION.md)。

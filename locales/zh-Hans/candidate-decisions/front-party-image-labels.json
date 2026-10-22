@@ -1,0 +1,3987 @@
+{
+  "schema_version": 1,
+  "phase": 292,
+  "kind": "source-linked-front-party-image-adoption",
+  "status": "draft",
+  "plan": {
+    "path": "locales/zh-Hans/texture-overlays/ui-labels.json",
+    "sha256": "b955433c65ab1bbd5302c26cc87638258eab5736480b8c76a22ab1afdf2cce39"
+  },
+  "image_groups": 14,
+  "new_image_groups": 14,
+  "INT_drafts_added": 0,
+  "aliases": 52,
+  "entries": [
+    {
+      "package": "UI_GameStart",
+      "export": 14,
+      "alias": {
+        "package": "UI_GameStart",
+        "resource": "MC2Game/CookedXenon/UI_GameStart.xxx",
+        "original_sha256": "2884c9e3f5520d6df7390aabcb754ed0644194eb7341ae6e0f25e9594df938b1",
+        "export": 14,
+        "object": "Textures.Menu_tex",
+        "dimensions": [
+          256,
+          256
+        ],
+        "payload_sha256": "8993dba89b3845bd79bb722a47298f042e29b7283bb6e32d672f394861ed87e6",
+        "rgba_sha256": "40bd431d2b7000a97cc6a89fd7c4a64d387bd6582bb4dcf14db49ea6f6d09161",
+        "png": {
+          "path": "build/phase-288-asset-research/UI_GameStart/14-mip0.png",
+          "sha256": "0dff54043fe033d84f874466dc2e7bf92e516e2d4094f38626e9c1a2024d72b0"
+        }
+      },
+      "labels": [
+        {
+          "visual_reading": "New Game",
+          "translation": "新游戏",
+          "normal_rect": [
+            0,
+            0,
+            120,
+            28
+          ],
+          "hover_rect": [
+            124,
+            0,
+            120,
+            28
+          ],
+          "basis": "direct-visual-translation",
+          "evidence": []
+        },
+        {
+          "visual_reading": "Load Game",
+          "translation": "读取游戏",
+          "normal_rect": [
+            0,
+            28,
+            120,
+            32
+          ],
+          "hover_rect": [
+            124,
+            28,
+            120,
+            32
+          ],
+          "basis": "direct-visual-translation",
+          "evidence": []
+        },
+        {
+          "visual_reading": "Option",
+          "translation": "选项",
+          "normal_rect": [
+            0,
+            112,
+            120,
+            32
+          ],
+          "hover_rect": [
+            124,
+            112,
+            120,
+            32
+          ],
+          "basis": "direct-visual-translation",
+          "evidence": []
+        },
+        {
+          "visual_reading": "Extra",
+          "translation": "附加内容",
+          "normal_rect": [
+            0,
+            144,
+            120,
+            28
+          ],
+          "hover_rect": [
+            124,
+            144,
+            120,
+            28
+          ],
+          "basis": "adopted-semantic-reuse",
+          "evidence": [
+            {
+              "stable_id": "coalesced:2693289e1f5d6fb085435e2c81092523b6de91c7caca4ee8ed10577ec016d01d",
+              "source": "다운로드 콘텐츠의 라이브 드라마가 있습니다. Extra 메뉴에서 나온 후 다시 들어가면 라이브 드라마를 감상하실 수 있습니다.",
+              "source_sha256": "118477bbb5f842a3fbcd44a95322146c18484236eb9291694a3cdce11bd032ff",
+              "adopted_translation": "发现下载内容中的短剧。退出附加内容菜单后重新进入，即可欣赏短剧。",
+              "embedded_path": "..\\MC2Game\\Localization\\INT\\MC2UI_TCR.int",
+              "section": "GameStart",
+              "key": "NewDLCLiveDramaMsg",
+              "batches": [
+                {
+                  "path": "locales/zh-Hans/readability-revised.json",
+                  "sha256": "1a623ff47a6d49a441a50729a49e54830f64d5a13ee93b8c96498efae62f3a7f"
+                }
+              ],
+              "japanese_primary": [
+                {
+                  "source": "ダウンロード コンテンツのライブドラマがあります。Extraメニューから出てもう一度入りますとライブドラマを視聴することができます。",
+                  "source_sha256": "e9d89c877bdbc1b95eda7d6979f1308566a8cfc65cbcba1db3076154556199c9",
+                  "resource": "build/disc1-selected/MC2Game/Localization/Coalesced.jpn",
+                  "resource_sha256": "fb99602a9ff5f081857efa7389d6d2b6ecfc6765946f0bba2fbde4cdbf962a90",
+                  "stable_id": "coalesced:39d28b6b080f3ed8c931e3bbc9116cafce658037d25151cc378468310c8fef06"
+                }
+              ],
+              "final_display_override": {
+                "path": "locales/zh-Hans/display-fix.json",
+                "sha256": "528cceb20bec1ae1604f9758dada9452f34a7a8de060a176e069db2dd299639e",
+                "translation": "发现下载内容中的语音剧。退出附加内容菜单后重新进入，即可欣赏语音剧。"
+              }
+            }
+          ]
+        },
+        {
+          "visual_reading": "Movie",
+          "translation": "影片",
+          "normal_rect": [
+            0,
+            172,
+            120,
+            32
+          ],
+          "hover_rect": [
+            124,
+            172,
+            120,
+            32
+          ],
+          "basis": "adopted-semantic-reuse",
+          "evidence": [
+            {
+              "stable_id": "coalesced:0ae46bc6646a61cc38d28f7519fd007ce5f2a43f56d8a50ecff0179cda989615",
+              "source": "마그나카르타2를 클리어 하면\\n무비를 감상하실 수 있습니다.",
+              "source_sha256": "4ad37fd8b2db83cd6231bfe91c65fa8d7adb6ee786b0c4d05d1b92058aa6d0a6",
+              "adopted_translation": "通关《玛格纳卡尔塔2》后，\\n即可欣赏影片。",
+              "embedded_path": "..\\MC2Game\\Localization\\INT\\MC2UI_TCR.int",
+              "section": "GameStart",
+              "key": "NotReadyForMovie",
+              "batches": [
+                {
+                  "path": "locales/zh-Hans/readability-revised.json",
+                  "sha256": "1a623ff47a6d49a441a50729a49e54830f64d5a13ee93b8c96498efae62f3a7f"
+                }
+              ],
+              "japanese_primary": [
+                {
+                  "source": "マグナカルタ２をクリアすれば\\nムービーを鑑賞することができます",
+                  "source_sha256": "01b7594f0ff4b44e0e67947b08348d97b02e4b35dd4248cd4b318dc2560e68e6",
+                  "resource": "build/disc1-selected/MC2Game/Localization/Coalesced.jpn",
+                  "resource_sha256": "fb99602a9ff5f081857efa7389d6d2b6ecfc6765946f0bba2fbde4cdbf962a90",
+                  "stable_id": "coalesced:641f52b167f09c0c942305f85f7c5d7188045832058c639156e64b103da658c3"
+                }
+              ],
+              "final_display_override": {
+                "path": "locales/zh-Hans/display-fix.json",
+                "sha256": "528cceb20bec1ae1604f9758dada9452f34a7a8de060a176e069db2dd299639e",
+                "translation": "通关《真名法典2》后，\\n即可欣赏影片。"
+              }
+            }
+          ]
+        },
+        {
+          "visual_reading": "Live Drama",
+          "translation": "语音剧",
+          "normal_rect": [
+            0,
+            204,
+            120,
+            32
+          ],
+          "hover_rect": [
+            124,
+            204,
+            120,
+            32
+          ],
+          "basis": "adopted-semantic-reuse",
+          "evidence": [
+            {
+              "stable_id": "coalesced:fc1f38914f271bc1f9f9f8f32c81445f1333170a267b4282f0b1029999742cae",
+              "source": "전용 다운로드 콘텐츠가 있으면\\n라이브 드라마를 감상하실 수 있습니다.",
+              "source_sha256": "54353bb032bf22a48dc2c497b9743d8badc14886b6a87ac92edb526a19f4be49",
+              "adopted_translation": "拥有对应的下载内容后，\\n即可欣赏短剧。",
+              "embedded_path": "..\\MC2Game\\Localization\\INT\\MC2UI_TCR.int",
+              "section": "GameStart",
+              "key": "NotReadyForDrama",
+              "batches": [
+                {
+                  "path": "locales/zh-Hans/readability-revised.json",
+                  "sha256": "1a623ff47a6d49a441a50729a49e54830f64d5a13ee93b8c96498efae62f3a7f"
+                }
+              ],
+              "japanese_primary": [
+                {
+                  "source": "専用のダウンロード コンテンツがあれば\\nライブドラマを\\n鑑賞することができます",
+                  "source_sha256": "4a42ffeebe79111f5d9ba9426a61c069e895da3539fd13b9aff3005844614c20",
+                  "resource": "build/disc1-selected/MC2Game/Localization/Coalesced.jpn",
+                  "resource_sha256": "fb99602a9ff5f081857efa7389d6d2b6ecfc6765946f0bba2fbde4cdbf962a90",
+                  "stable_id": "coalesced:07ab0932db1c0e0c21b0986c550d96e4f03899b90d450eb8c0219e3597617ee4"
+                }
+              ],
+              "final_display_override": {
+                "path": "locales/zh-Hans/display-fix.json",
+                "sha256": "528cceb20bec1ae1604f9758dada9452f34a7a8de060a176e069db2dd299639e",
+                "translation": "拥有对应的下载内容后，\\n即可欣赏语音剧。"
+              }
+            },
+            {
+              "stable_id": "coalesced:0d700f9eb697f3f503a8abd1628ccf456cd33006d4b50f6f4f78285d9f2613ea",
+              "source": "보고 싶은 드라마를 선택해주세요",
+              "source_sha256": "9949730fd4715d0452ccb1bc4a2b2bf86ea69c4d0a0c4e7769289a461ac14b84",
+              "adopted_translation": "请选择想观看的短剧",
+              "embedded_path": "..\\MC2Game\\Localization\\INT\\MC2UI_Field.int",
+              "section": "Live Drama",
+              "key": "LiveDrama_Top",
+              "batches": [
+                {
+                  "path": "locales/zh-Hans/batch-097.json",
+                  "sha256": "d89921cf2eeb47b4acaf25d735e8df842d8e8db31d4de0d40b967d1586069760"
+                }
+              ],
+              "japanese_primary": [
+                {
+                  "source": "視聴したいドラマを選択してください",
+                  "source_sha256": "baa118e9063adc6999c592a9ebb533f249fd62911e096aab107d5aec91f4bb1b",
+                  "resource": "build/disc1-selected/MC2Game/Localization/Coalesced.jpn",
+                  "resource_sha256": "fb99602a9ff5f081857efa7389d6d2b6ecfc6765946f0bba2fbde4cdbf962a90",
+                  "stable_id": "coalesced:56bbcacd8240bc85e35824aaa124c72167d6cc75355b15a49eebb02bb65d84ce"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "title": {
+        "visual_reading": "마그나카르타2",
+        "translation": "真名法典2",
+        "rect": [
+          0,
+          60,
+          124,
+          32
+        ],
+        "basis": "repository-established-game-title",
+        "repository_primary": "README.md:13; locales/zh-Hans/display-fix.json GameStart.CrashedSaveFile"
+      },
+      "protected_rects": [
+        [
+          0,
+          92,
+          256,
+          20
+        ]
+      ],
+      "copyright_literal": "© SOFTMAX CO., LTD. © 2009 NBGI",
+      "notes": "Adjacent title/copyright have very weak filtering near y91. Protection guarantee is exact 4-pixel blocks y92..111; title rectangle ends at exclusive y92. Do not claim arbitrary larger copyrighted-logo mask or all decorative separator pixels preserved."
+    },
+    {
+      "package": "UI_GameStart",
+      "export": 15,
+      "alias": {
+        "package": "UI_GameStart",
+        "resource": "MC2Game/CookedXenon/UI_GameStart.xxx",
+        "original_sha256": "2884c9e3f5520d6df7390aabcb754ed0644194eb7341ae6e0f25e9594df938b1",
+        "export": 15,
+        "object": "Textures.Menu_tex_Back",
+        "dimensions": [
+          256,
+          32
+        ],
+        "payload_sha256": "8b48e026bc2d59d31b322844373b5a46f4254dab32eb882caece5390244fd7fd",
+        "rgba_sha256": "648bbbef50a3940b838de988919c9c7a5a386b78919291925c433ddb65e3bdbf",
+        "png": {
+          "path": "build/phase-288-asset-research/UI_GameStart/15-mip0.png",
+          "sha256": "fd6af6fd68e86df7fda94ff33020341c08c477b0d9e06f682d2dbe0972e7cf38"
+        }
+      },
+      "labels": [
+        {
+          "visual_reading": "Back",
+          "translation": "返回",
+          "normal_rect": [
+            0,
+            0,
+            120,
+            32
+          ],
+          "hover_rect": [
+            124,
+            0,
+            120,
+            32
+          ],
+          "basis": "direct-visual-translation"
+        }
+      ]
+    },
+    {
+      "package": "UI_GameStart",
+      "export": 16,
+      "alias": {
+        "package": "UI_GameStart",
+        "resource": "MC2Game/CookedXenon/UI_GameStart.xxx",
+        "original_sha256": "2884c9e3f5520d6df7390aabcb754ed0644194eb7341ae6e0f25e9594df938b1",
+        "export": 16,
+        "object": "Textures.Press_Start_1",
+        "dimensions": [
+          256,
+          32
+        ],
+        "payload_sha256": "183967b25ff9f45e6a8beb04368362f09886f13336799e99efda419940ea50db",
+        "rgba_sha256": "b5054b2ce4895b560076403fd33985d456d3bdaecbe193441aa75388e452a2bd",
+        "png": {
+          "path": "build/phase-288-asset-research/UI_GameStart/16-mip0.png",
+          "sha256": "73a4ee85b2579ac347cd7fa947d9c05cd77e9dccc1ea97e87ea0f744b86c5ace"
+        }
+      },
+      "labels": [
+        {
+          "visual_reading": "Press START Button",
+          "translation": "按START键",
+          "rect": [
+            0,
+            0,
+            256,
+            32
+          ],
+          "basis": "direct-visual-translation; controller START identifier retained"
+        }
+      ]
+    },
+    {
+      "package": "UI_Battle_08_Jp",
+      "export": 27,
+      "alias": {
+        "package": "UI_Battle_08_Jp",
+        "resource": "MC2Game/CookedXenon/UI_Battle_08_Jp.xxx",
+        "original_sha256": "36cacc49ee8b0ec199735ecdd8e1f4c0748971d3c0eaf03015522132b1b18b73",
+        "export": 27,
+        "object": "Tex.Character_Name_Argo",
+        "dimensions": [
+          128,
+          32
+        ],
+        "payload_sha256": "8ebe90cba9c3e5e70b199b6c6124f6405d63f064dbfea04ef46572d3fb4e7805",
+        "rgba_sha256": "78c2b14229b883970e02964ab153746eff9281c0f1c51d6f8d2858e07eb3aa4b",
+        "png": {
+          "path": "build/phase-288-asset-research/UI_Battle_08_Jp/27-mip0.png",
+          "sha256": "74c4b490dc4191300f5cd46eb6271870e060e160b7607a73b81c99a2424871f6"
+        }
+      },
+      "visual_reading": "アルゴ",
+      "translation": "阿尔戈",
+      "rect": [
+        0,
+        0,
+        128,
+        32
+      ],
+      "state": "normal",
+      "evidence": [
+        {
+          "stable_id": "coalesced:be3787f32a4ae0999fff9d1ee32e8db8168de7d079232d86a00a34cd360b8e55",
+          "source": "아르고",
+          "source_sha256": "d6fc7342178ae6b16b0bd8553ced725405b58fbc2705b230b247f07e5859b000",
+          "adopted_translation": "阿尔戈",
+          "embedded_path": "..\\MC2Game\\Localization\\INT\\MC2CharacterName.int",
+          "section": "Default",
+          "key": "Argo",
+          "batches": [
+            {
+              "path": "locales/zh-Hans/display-fix.json",
+              "sha256": "528cceb20bec1ae1604f9758dada9452f34a7a8de060a176e069db2dd299639e"
+            },
+            {
+              "path": "locales/zh-Hans/opening-batch.json",
+              "sha256": "60038b495783b9c1f62dd816eb213f5883e021f7aa64d4ecacc8ee0ca809d343"
+            },
+            {
+              "path": "locales/zh-Hans/readability-fix.json",
+              "sha256": "52f7b01cbc119fabf1e04f6e454506fa1093bb5aebb80f92370b9ea85c17e0b5"
+            },
+            {
+              "path": "locales/zh-Hans/readability-revised.json",
+              "sha256": "1a623ff47a6d49a441a50729a49e54830f64d5a13ee93b8c96498efae62f3a7f"
+            }
+          ],
+          "japanese_primary": [
+            {
+              "source": "アルゴ",
+              "source_sha256": "40eb9c95049467643ef22b46adb2b85f0c756a9ef98b9d39ae30e5d74116efc0",
+              "resource": "build/disc1-selected/MC2Game/Localization/Coalesced.jpn",
+              "resource_sha256": "fb99602a9ff5f081857efa7389d6d2b6ecfc6765946f0bba2fbde4cdbf962a90",
+              "stable_id": "coalesced:4525d86c7f3e44791a6b797f72ea375f0945be4bc2ff7e6f3fddceba4d556c24"
+            }
+          ],
+          "final_display_override": {
+            "path": "locales/zh-Hans/display-fix.json",
+            "sha256": "528cceb20bec1ae1604f9758dada9452f34a7a8de060a176e069db2dd299639e",
+            "translation": "阿尔戈"
+          }
+        }
+      ]
+    },
+    {
+      "package": "UI_Battle_08_Jp",
+      "export": 28,
+      "alias": {
+        "package": "UI_Battle_08_Jp",
+        "resource": "MC2Game/CookedXenon/UI_Battle_08_Jp.xxx",
+        "original_sha256": "36cacc49ee8b0ec199735ecdd8e1f4c0748971d3c0eaf03015522132b1b18b73",
+        "export": 28,
+        "object": "Tex.Character_Name_Argo_Red",
+        "dimensions": [
+          128,
+          32
+        ],
+        "payload_sha256": "720235eda78878aa7f37f74a926232fb6a39502d273de00fd2dc68fa17b4ce6f",
+        "rgba_sha256": "f14004af309526d850f68617d83acff57ffd33a52789267338f661a48f466ab0",
+        "png": {
+          "path": "build/phase-288-asset-research/UI_Battle_08_Jp/28-mip0.png",
+          "sha256": "538282076a1d7142bbcf8a0487ce7e592b25ce4a5d5971ed64d5862e2c01c912"
+        }
+      },
+      "visual_reading": "アルゴ",
+      "translation": "阿尔戈",
+      "rect": [
+        0,
+        0,
+        128,
+        32
+      ],
+      "state": "red",
+      "evidence": [
+        {
+          "stable_id": "coalesced:be3787f32a4ae0999fff9d1ee32e8db8168de7d079232d86a00a34cd360b8e55",
+          "source": "아르고",
+          "source_sha256": "d6fc7342178ae6b16b0bd8553ced725405b58fbc2705b230b247f07e5859b000",
+          "adopted_translation": "阿尔戈",
+          "embedded_path": "..\\MC2Game\\Localization\\INT\\MC2CharacterName.int",
+          "section": "Default",
+          "key": "Argo",
+          "batches": [
+            {
+              "path": "locales/zh-Hans/display-fix.json",
+              "sha256": "528cceb20bec1ae1604f9758dada9452f34a7a8de060a176e069db2dd299639e"
+            },
+            {
+              "path": "locales/zh-Hans/opening-batch.json",
+              "sha256": "60038b495783b9c1f62dd816eb213f5883e021f7aa64d4ecacc8ee0ca809d343"
+            },
+            {
+              "path": "locales/zh-Hans/readability-fix.json",
+              "sha256": "52f7b01cbc119fabf1e04f6e454506fa1093bb5aebb80f92370b9ea85c17e0b5"
+            },
+            {
+              "path": "locales/zh-Hans/readability-revised.json",
+              "sha256": "1a623ff47a6d49a441a50729a49e54830f64d5a13ee93b8c96498efae62f3a7f"
+            }
+          ],
+          "japanese_primary": [
+            {
+              "source": "アルゴ",
+              "source_sha256": "40eb9c95049467643ef22b46adb2b85f0c756a9ef98b9d39ae30e5d74116efc0",
+              "resource": "build/disc1-selected/MC2Game/Localization/Coalesced.jpn",
+              "resource_sha256": "fb99602a9ff5f081857efa7389d6d2b6ecfc6765946f0bba2fbde4cdbf962a90",
+              "stable_id": "coalesced:4525d86c7f3e44791a6b797f72ea375f0945be4bc2ff7e6f3fddceba4d556c24"
+            }
+          ],
+          "final_display_override": {
+            "path": "locales/zh-Hans/display-fix.json",
+            "sha256": "528cceb20bec1ae1604f9758dada9452f34a7a8de060a176e069db2dd299639e",
+            "translation": "阿尔戈"
+          }
+        }
+      ]
+    },
+    {
+      "package": "UI_Battle_08_Jp",
+      "export": 30,
+      "alias": {
+        "package": "UI_Battle_08_Jp",
+        "resource": "MC2Game/CookedXenon/UI_Battle_08_Jp.xxx",
+        "original_sha256": "36cacc49ee8b0ec199735ecdd8e1f4c0748971d3c0eaf03015522132b1b18b73",
+        "export": 30,
+        "object": "Tex.Character_Name_Celestin",
+        "dimensions": [
+          128,
+          32
+        ],
+        "payload_sha256": "07a4170ccf109eb8c226c8fc05ba7ec93dd0415be39cd9fb0c3a8adff9539632",
+        "rgba_sha256": "3c8e052e304bc18f4453a01c7856b4d7420b981b8f80457862c7a494658fee68",
+        "png": {
+          "path": "build/phase-288-asset-research/UI_Battle_08_Jp/30-mip0.png",
+          "sha256": "dfeffd2546500d5ef8b7bba9949216c1588a08d556d07d987eedd201e3386a3d"
+        }
+      },
+      "visual_reading": "セレスティン",
+      "translation": "塞蕾丝汀",
+      "rect": [
+        0,
+        0,
+        128,
+        32
+      ],
+      "state": "normal",
+      "evidence": [
+        {
+          "stable_id": "coalesced:b48b36466c6e9b643cdaef3abf5f25e9690479a06ffaee6edd863da8ff4230eb",
+          "source": "세레스틴",
+          "source_sha256": "d584520a5aa63cb0b20300558050d99b13b42e2d26a39fde2ca1193efecd7a59",
+          "adopted_translation": "塞蕾丝汀",
+          "embedded_path": "..\\MC2Game\\Localization\\INT\\MC2CharacterName.int",
+          "section": "Default",
+          "key": "Celestin",
+          "batches": [
+            {
+              "path": "locales/zh-Hans/batch-011.json",
+              "sha256": "8db99b4ab8f393b8606687711806629535b06d5256d47975473522c190e9ddd7"
+            }
+          ],
+          "japanese_primary": [
+            {
+              "source": "セレスティン",
+              "source_sha256": "6f766e59be5e5268bc460b670dfb40692abfc84a0c581382d5b11a4bfd180fa6",
+              "resource": "build/disc1-selected/MC2Game/Localization/Coalesced.jpn",
+              "resource_sha256": "fb99602a9ff5f081857efa7389d6d2b6ecfc6765946f0bba2fbde4cdbf962a90",
+              "stable_id": "coalesced:edc3b6126215ee2fd23cfaaca253f57a8e4041b1b8379444c73dda2fdcbf52a8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": "UI_Battle_08_Jp",
+      "export": 31,
+      "alias": {
+        "package": "UI_Battle_08_Jp",
+        "resource": "MC2Game/CookedXenon/UI_Battle_08_Jp.xxx",
+        "original_sha256": "36cacc49ee8b0ec199735ecdd8e1f4c0748971d3c0eaf03015522132b1b18b73",
+        "export": 31,
+        "object": "Tex.Character_Name_Celestin_Red",
+        "dimensions": [
+          128,
+          32
+        ],
+        "payload_sha256": "ae7c22b5862d237b566dec7ad8a2af97a622fd9b4e1e2a225c0f9e22e06ff2e4",
+        "rgba_sha256": "53ced0eaab3c4fbfc2aa8b4d5e0e91d40c890862ffe90d0413cb9a8ced72fd0d",
+        "png": {
+          "path": "build/phase-288-asset-research/UI_Battle_08_Jp/31-mip0.png",
+          "sha256": "c2f011836875bbda91d13b2f2b77383dd34ca5a5fa7f26974623d8c710e8b37d"
+        }
+      },
+      "visual_reading": "セレスティン",
+      "translation": "塞蕾丝汀",
+      "rect": [
+        0,
+        0,
+        128,
+        32
+      ],
+      "state": "red",
+      "evidence": [
+        {
+          "stable_id": "coalesced:b48b36466c6e9b643cdaef3abf5f25e9690479a06ffaee6edd863da8ff4230eb",
+          "source": "세레스틴",
+          "source_sha256": "d584520a5aa63cb0b20300558050d99b13b42e2d26a39fde2ca1193efecd7a59",
+          "adopted_translation": "塞蕾丝汀",
+          "embedded_path": "..\\MC2Game\\Localization\\INT\\MC2CharacterName.int",
+          "section": "Default",
+          "key": "Celestin",
+          "batches": [
+            {
+              "path": "locales/zh-Hans/batch-011.json",
+              "sha256": "8db99b4ab8f393b8606687711806629535b06d5256d47975473522c190e9ddd7"
+            }
+          ],
+          "japanese_primary": [
+            {
+              "source": "セレスティン",
+              "source_sha256": "6f766e59be5e5268bc460b670dfb40692abfc84a0c581382d5b11a4bfd180fa6",
+              "resource": "build/disc1-selected/MC2Game/Localization/Coalesced.jpn",
+              "resource_sha256": "fb99602a9ff5f081857efa7389d6d2b6ecfc6765946f0bba2fbde4cdbf962a90",
+              "stable_id": "coalesced:edc3b6126215ee2fd23cfaaca253f57a8e4041b1b8379444c73dda2fdcbf52a8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": "UI_Battle_08_Jp",
+      "export": 33,
+      "alias": {
+        "package": "UI_Battle_08_Jp",
+        "resource": "MC2Game/CookedXenon/UI_Battle_08_Jp.xxx",
+        "original_sha256": "36cacc49ee8b0ec199735ecdd8e1f4c0748971d3c0eaf03015522132b1b18b73",
+        "export": 33,
+        "object": "Tex.Character_Name_Juto",
+        "dimensions": [
+          128,
+          32
+        ],
+        "payload_sha256": "d35bb531635d5f4c20ab74d9fe6358b86ff8a3175f8f06a0961737b852a6b126",
+        "rgba_sha256": "73fa3b5e167d7e75d67b65e73dbcb6aeeec2548ef42a1b937eafea7e0f0b8112",
+        "png": {
+          "path": "build/phase-288-asset-research/UI_Battle_08_Jp/33-mip0.png",
+          "sha256": "3486552bb6921dfd3f4e94fb1faa8068f044943b25cb26cd66b760f3bbb23f75"
+        }
+      },
+      "visual_reading": "ジュト",
+      "translation": "朱特",
+      "rect": [
+        0,
+        0,
+        128,
+        32
+      ],
+      "state": "normal",
+      "evidence": [
+        {
+          "stable_id": "coalesced:59cabc4c9b2030d4a3367e82c7dd979be74e94ab69eb7a01845bdf6c89e06a81",
+          "source": "주토",
+          "source_sha256": "34f3f3909bf452321efc4e130224af4470147095ad3f57325cb99512e81ee0d6",
+          "adopted_translation": "朱特",
+          "embedded_path": "..\\MC2Game\\Localization\\INT\\MC2CharacterName.int",
+          "section": "Default",
+          "key": "Juto",
+          "batches": [
+            {
+              "path": "locales/zh-Hans/display-fix.json",
+              "sha256": "528cceb20bec1ae1604f9758dada9452f34a7a8de060a176e069db2dd299639e"
+            },
+            {
+              "path": "locales/zh-Hans/opening-batch.json",
+              "sha256": "60038b495783b9c1f62dd816eb213f5883e021f7aa64d4ecacc8ee0ca809d343"
+            },
+            {
+              "path": "locales/zh-Hans/readability-fix.json",
+              "sha256": "52f7b01cbc119fabf1e04f6e454506fa1093bb5aebb80f92370b9ea85c17e0b5"
+            },
+            {
+              "path": "locales/zh-Hans/readability-revised.json",
+              "sha256": "1a623ff47a6d49a441a50729a49e54830f64d5a13ee93b8c96498efae62f3a7f"
+            }
+          ],
+          "japanese_primary": [
+            {
+              "source": "ジュト",
+              "source_sha256": "c618aa5a76d215f2be5de495808a0b32aa50c826152ffef5453c0cf5c1cd9d7a",
+              "resource": "build/disc1-selected/MC2Game/Localization/Coalesced.jpn",
+              "resource_sha256": "fb99602a9ff5f081857efa7389d6d2b6ecfc6765946f0bba2fbde4cdbf962a90",
+              "stable_id": "coalesced:0f212da28921b3c0070737cc262e8ffcaf4895cbb43f5f480c0a71bf3cb4d37c"
+            }
+          ],
+          "final_display_override": {
+            "path": "locales/zh-Hans/display-fix.json",
+            "sha256": "528cceb20bec1ae1604f9758dada9452f34a7a8de060a176e069db2dd299639e",
+            "translation": "朱特"
+          }
+        }
+      ]
+    },
+    {
+      "package": "UI_Battle_08_Jp",
+      "export": 34,
+      "alias": {
+        "package": "UI_Battle_08_Jp",
+        "resource": "MC2Game/CookedXenon/UI_Battle_08_Jp.xxx",
+        "original_sha256": "36cacc49ee8b0ec199735ecdd8e1f4c0748971d3c0eaf03015522132b1b18b73",
+        "export": 34,
+        "object": "Tex.Character_Name_Juto_Red",
+        "dimensions": [
+          128,
+          32
+        ],
+        "payload_sha256": "e3190dfef2a5b927dab9e2601add91d46bbb5451e338f08b65d8c2c01c157c94",
+        "rgba_sha256": "8b05279fe9eb5e89d5d37f1fd701ef025a54f12984f89aab77f706f43a8a17fc",
+        "png": {
+          "path": "build/phase-288-asset-research/UI_Battle_08_Jp/34-mip0.png",
+          "sha256": "4caee1357bec3e65e805eac11cec7e63c8bf7ad53513fa6464980fb6e81c7bdc"
+        }
+      },
+      "visual_reading": "ジュト",
+      "translation": "朱特",
+      "rect": [
+        0,
+        0,
+        128,
+        32
+      ],
+      "state": "red",
+      "evidence": [
+        {
+          "stable_id": "coalesced:59cabc4c9b2030d4a3367e82c7dd979be74e94ab69eb7a01845bdf6c89e06a81",
+          "source": "주토",
+          "source_sha256": "34f3f3909bf452321efc4e130224af4470147095ad3f57325cb99512e81ee0d6",
+          "adopted_translation": "朱特",
+          "embedded_path": "..\\MC2Game\\Localization\\INT\\MC2CharacterName.int",
+          "section": "Default",
+          "key": "Juto",
+          "batches": [
+            {
+              "path": "locales/zh-Hans/display-fix.json",
+              "sha256": "528cceb20bec1ae1604f9758dada9452f34a7a8de060a176e069db2dd299639e"
+            },
+            {
+              "path": "locales/zh-Hans/opening-batch.json",
+              "sha256": "60038b495783b9c1f62dd816eb213f5883e021f7aa64d4ecacc8ee0ca809d343"
+            },
+            {
+              "path": "locales/zh-Hans/readability-fix.json",
+              "sha256": "52f7b01cbc119fabf1e04f6e454506fa1093bb5aebb80f92370b9ea85c17e0b5"
+            },
+            {
+              "path": "locales/zh-Hans/readability-revised.json",
+              "sha256": "1a623ff47a6d49a441a50729a49e54830f64d5a13ee93b8c96498efae62f3a7f"
+            }
+          ],
+          "japanese_primary": [
+            {
+              "source": "ジュト",
+              "source_sha256": "c618aa5a76d215f2be5de495808a0b32aa50c826152ffef5453c0cf5c1cd9d7a",
+              "resource": "build/disc1-selected/MC2Game/Localization/Coalesced.jpn",
+              "resource_sha256": "fb99602a9ff5f081857efa7389d6d2b6ecfc6765946f0bba2fbde4cdbf962a90",
+              "stable_id": "coalesced:0f212da28921b3c0070737cc262e8ffcaf4895cbb43f5f480c0a71bf3cb4d37c"
+            }
+          ],
+          "final_display_override": {
+            "path": "locales/zh-Hans/display-fix.json",
+            "sha256": "528cceb20bec1ae1604f9758dada9452f34a7a8de060a176e069db2dd299639e",
+            "translation": "朱特"
+          }
+        }
+      ]
+    },
+    {
+      "package": "UI_Battle_08_Jp",
+      "export": 35,
+      "alias": {
+        "package": "UI_Battle_08_Jp",
+        "resource": "MC2Game/CookedXenon/UI_Battle_08_Jp.xxx",
+        "original_sha256": "36cacc49ee8b0ec199735ecdd8e1f4c0748971d3c0eaf03015522132b1b18b73",
+        "export": 35,
+        "object": "Tex.Character_Name_Zephi",
+        "dimensions": [
+          128,
+          32
+        ],
+        "payload_sha256": "25694079e98c13e48103f7fcae61bbdce47e1d0af02352e177a3e4f516cccf14",
+        "rgba_sha256": "d0ca26d8dbe8a0d1fe80b4a085d3a551aa94d6ec982e5cd16bf0dcc2d49f3ab9",
+        "png": {
+          "path": "build/phase-288-asset-research/UI_Battle_08_Jp/35-mip0.png",
+          "sha256": "575ad851b1231df910ac5e9c858ab92ec6c7422ddce1f14754acfa24e9e64b75"
+        }
+      },
+      "visual_reading": "ゼフィ",
+      "translation": "洁菲",
+      "rect": [
+        0,
+        0,
+        128,
+        32
+      ],
+      "state": "normal",
+      "evidence": [
+        {
+          "stable_id": "coalesced:d52c7f940ebaa7601f67d145df965537d0aa0c1b14a181bb83b9e0e2bb09d3d4",
+          "source": "제피",
+          "source_sha256": "98bf1ba76ced864a4445075f245f9ddc3d5259ad9379f6cb81a52b597977e2c0",
+          "adopted_translation": "洁菲",
+          "embedded_path": "..\\MC2Game\\Localization\\INT\\MC2CharacterName.int",
+          "section": "Default",
+          "key": "Zephi",
+          "batches": [
+            {
+              "path": "locales/zh-Hans/display-fix.json",
+              "sha256": "528cceb20bec1ae1604f9758dada9452f34a7a8de060a176e069db2dd299639e"
+            },
+            {
+              "path": "locales/zh-Hans/opening-batch.json",
+              "sha256": "60038b495783b9c1f62dd816eb213f5883e021f7aa64d4ecacc8ee0ca809d343"
+            },
+            {
+              "path": "locales/zh-Hans/readability-fix.json",
+              "sha256": "52f7b01cbc119fabf1e04f6e454506fa1093bb5aebb80f92370b9ea85c17e0b5"
+            },
+            {
+              "path": "locales/zh-Hans/readability-revised.json",
+              "sha256": "1a623ff47a6d49a441a50729a49e54830f64d5a13ee93b8c96498efae62f3a7f"
+            }
+          ],
+          "japanese_primary": [
+            {
+              "source": "ゼフィ",
+              "source_sha256": "f5203da4e997fc4d565cff9e90201a00d14d2570fb6ea785534f6f6c95b27397",
+              "resource": "build/disc1-selected/MC2Game/Localization/Coalesced.jpn",
+              "resource_sha256": "fb99602a9ff5f081857efa7389d6d2b6ecfc6765946f0bba2fbde4cdbf962a90",
+              "stable_id": "coalesced:06b217c15fcfe1f1045067150543cd5408ff64cc5784de3cf0f6259ad33461d3"
+            }
+          ],
+          "final_display_override": {
+            "path": "locales/zh-Hans/display-fix.json",
+            "sha256": "528cceb20bec1ae1604f9758dada9452f34a7a8de060a176e069db2dd299639e",
+            "translation": "洁菲"
+          }
+        }
+      ]
+    },
+    {
+      "package": "UI_Battle_08_Jp",
+      "export": 36,
+      "alias": {
+        "package": "UI_Battle_08_Jp",
+        "resource": "MC2Game/CookedXenon/UI_Battle_08_Jp.xxx",
+        "original_sha256": "36cacc49ee8b0ec199735ecdd8e1f4c0748971d3c0eaf03015522132b1b18b73",
+        "export": 36,
+        "object": "Tex.Character_Name_Zephi_Red",
+        "dimensions": [
+          128,
+          32
+        ],
+        "payload_sha256": "bca12ca545ff0a8ec40ce1e9197f9133295fd3986ae1928d17abc50da5f6a441",
+        "rgba_sha256": "ec68b58c73dfdf5f15e8970c3a27e0741734a720fe6d71c77106021f36543226",
+        "png": {
+          "path": "build/phase-288-asset-research/UI_Battle_08_Jp/36-mip0.png",
+          "sha256": "543efd3dcbd731cd18f6007df742c2f9e3bca199b4ef147500212e9a70f42eee"
+        }
+      },
+      "visual_reading": "ゼフィ",
+      "translation": "洁菲",
+      "rect": [
+        0,
+        0,
+        128,
+        32
+      ],
+      "state": "red",
+      "evidence": [
+        {
+          "stable_id": "coalesced:d52c7f940ebaa7601f67d145df965537d0aa0c1b14a181bb83b9e0e2bb09d3d4",
+          "source": "제피",
+          "source_sha256": "98bf1ba76ced864a4445075f245f9ddc3d5259ad9379f6cb81a52b597977e2c0",
+          "adopted_translation": "洁菲",
+          "embedded_path": "..\\MC2Game\\Localization\\INT\\MC2CharacterName.int",
+          "section": "Default",
+          "key": "Zephi",
+          "batches": [
+            {
+              "path": "locales/zh-Hans/display-fix.json",
+              "sha256": "528cceb20bec1ae1604f9758dada9452f34a7a8de060a176e069db2dd299639e"
+            },
+            {
+              "path": "locales/zh-Hans/opening-batch.json",
+              "sha256": "60038b495783b9c1f62dd816eb213f5883e021f7aa64d4ecacc8ee0ca809d343"
+            },
+            {
+              "path": "locales/zh-Hans/readability-fix.json",
+              "sha256": "52f7b01cbc119fabf1e04f6e454506fa1093bb5aebb80f92370b9ea85c17e0b5"
+            },
+            {
+              "path": "locales/zh-Hans/readability-revised.json",
+              "sha256": "1a623ff47a6d49a441a50729a49e54830f64d5a13ee93b8c96498efae62f3a7f"
+            }
+          ],
+          "japanese_primary": [
+            {
+              "source": "ゼフィ",
+              "source_sha256": "f5203da4e997fc4d565cff9e90201a00d14d2570fb6ea785534f6f6c95b27397",
+              "resource": "build/disc1-selected/MC2Game/Localization/Coalesced.jpn",
+              "resource_sha256": "fb99602a9ff5f081857efa7389d6d2b6ecfc6765946f0bba2fbde4cdbf962a90",
+              "stable_id": "coalesced:06b217c15fcfe1f1045067150543cd5408ff64cc5784de3cf0f6259ad33461d3"
+            }
+          ],
+          "final_display_override": {
+            "path": "locales/zh-Hans/display-fix.json",
+            "sha256": "528cceb20bec1ae1604f9758dada9452f34a7a8de060a176e069db2dd299639e",
+            "translation": "洁菲"
+          }
+        }
+      ]
+    },
+    {
+      "package": "UI_Pillar_Title",
+      "export": 4,
+      "alias": {
+        "package": "UI_Pillar_Title",
+        "resource": "MC2Game/CookedXenon/UI_Pillar_Title.xxx",
+        "original_sha256": "0bbc44c9cdeba6c3e8b2e5dbf664480632d968cdb6d74b4c9da6f2da9479033d",
+        "export": 4,
+        "object": "Tex.Guest_Icon",
+        "dimensions": [
+          64,
+          32
+        ],
+        "payload_sha256": "ee3c12c0bd92a220cf2129ce8b8c111d961a203c4724f8538df0fb535014de33",
+        "rgba_sha256": "603b654961b9515655864d0c2631bba03f7b6bd5cfc3bafdf6a689ce0858262a",
+        "png": {
+          "path": "build/phase-288-asset-research/UI_Pillar_Title/4-mip0.png",
+          "sha256": "415cb7f7b233cf38727a6e81770507070bc38f512bc299d4a8ed2b665951935e"
+        }
+      },
+      "visual_reading": "GUEST",
+      "translation": "临时",
+      "expanded_meaning": "临时同伴",
+      "rect": [
+        0,
+        0,
+        64,
+        24
+      ],
+      "evidence": [
+        {
+          "stable_id": "coalesced:db95194c94542c75f7b5c59473348e8cdadcdff008fa1e01be6ac0bb90c67f9f",
+          "source": "\\n게스트로 참가 했습니다.",
+          "source_sha256": "05c1cee093c08c24a8a0cfbabef2795843edc87386dec34b62f9aeb02291fad0",
+          "adopted_translation": "\\n作为临时同伴加入队伍",
+          "embedded_path": "..\\MC2Game\\Localization\\INT\\MC2UI.int",
+          "section": "System_Log",
+          "key": "JoinGuest",
+          "batches": [
+            {
+              "path": "locales/zh-Hans/batch-121.json",
+              "sha256": "af7502e6b9c78db10ad937c50ed5a6f633b4042ba8ef96c42c8d6521ef225270"
+            }
+          ],
+          "japanese_primary": [
+            {
+              "source": "が\\nゲストとして加わりました",
+              "source_sha256": "0c9f6ff8b442e033e533a12438ac06a8df5ca9d217cd34a3bbdbd1d72b8b63e5",
+              "resource": "build/disc1-selected/MC2Game/Localization/Coalesced.jpn",
+              "resource_sha256": "fb99602a9ff5f081857efa7389d6d2b6ecfc6765946f0bba2fbde4cdbf962a90",
+              "stable_id": "coalesced:3cc2a958318fb0b9c0f062cb091641e51ce27e487332b28c8252c865a6e6173c"
+            }
+          ]
+        },
+        {
+          "stable_id": "coalesced:73c5781cbafd77e137224236adae2137d1306af7a203a4e3c7224916f6f3713f",
+          "source": "\\n게스트에서 제외 되었습니다.",
+          "source_sha256": "f71d2895075fc1f0c9f97d32158e962909d25c754ecd3fe4615f64b5372d6f5a",
+          "adopted_translation": "\\n不再作为临时同伴同行",
+          "embedded_path": "..\\MC2Game\\Localization\\INT\\MC2UI.int",
+          "section": "System_Log",
+          "key": "LeaveGuest",
+          "batches": [
+            {
+              "path": "locales/zh-Hans/batch-121.json",
+              "sha256": "af7502e6b9c78db10ad937c50ed5a6f633b4042ba8ef96c42c8d6521ef225270"
+            }
+          ],
+          "japanese_primary": [
+            {
+              "source": "が\\nパーティから外れました",
+              "source_sha256": "68546fb29cf0fc87009caf6e19c1db4e8b2b785b2d373f1769a4a9b691d9592c",
+              "resource": "build/disc1-selected/MC2Game/Localization/Coalesced.jpn",
+              "resource_sha256": "fb99602a9ff5f081857efa7389d6d2b6ecfc6765946f0bba2fbde4cdbf962a90",
+              "stable_id": "coalesced:39c127fad1dfec3f0f4298ec60e68511f4933cb0b8ebbf3b242f44c18a156870"
+            }
+          ]
+        },
+        {
+          "stable_id": "coalesced:1f8ccc923cfb01f332b7fd0059a11016afea0804f39d195106b587a68cd6f218",
+          "source": "게스트멤버(GUEST)의 참가",
+          "source_sha256": "b211d852be5bc67dcb17984848c69dc80166e2984a947d9059ed1ac71b055ef1",
+          "adopted_translation": "临时同伴（GUEST）参战",
+          "embedded_path": "..\\MC2Game\\Localization\\INT\\MC2Tutorial.int",
+          "section": "Tutorial_Scene_12",
+          "key": "Name",
+          "batches": [
+            {
+              "path": "locales/zh-Hans/display-fix.json",
+              "sha256": "528cceb20bec1ae1604f9758dada9452f34a7a8de060a176e069db2dd299639e"
+            },
+            {
+              "path": "locales/zh-Hans/opening-batch.json",
+              "sha256": "60038b495783b9c1f62dd816eb213f5883e021f7aa64d4ecacc8ee0ca809d343"
+            },
+            {
+              "path": "locales/zh-Hans/readability-fix.json",
+              "sha256": "52f7b01cbc119fabf1e04f6e454506fa1093bb5aebb80f92370b9ea85c17e0b5"
+            },
+            {
+              "path": "locales/zh-Hans/readability-revised.json",
+              "sha256": "1a623ff47a6d49a441a50729a49e54830f64d5a13ee93b8c96498efae62f3a7f"
+            }
+          ],
+          "japanese_primary": [
+            {
+              "source": "ゲストメンバー（GUEST）の戦闘参加",
+              "source_sha256": "210340ef61c520b05b48a107a2e31cb453b721c9353d567e575e5592db2c9333",
+              "resource": "build/disc1-selected/MC2Game/Localization/Coalesced.jpn",
+              "resource_sha256": "fb99602a9ff5f081857efa7389d6d2b6ecfc6765946f0bba2fbde4cdbf962a90",
+              "stable_id": "coalesced:e2b45d58d949c0f2eb03d764ec802d97d54003320bf55cae0bdce68126746b89"
+            }
+          ],
+          "final_display_override": {
+            "path": "locales/zh-Hans/display-fix.json",
+            "sha256": "528cceb20bec1ae1604f9758dada9452f34a7a8de060a176e069db2dd299639e",
+            "translation": "临时同伴（GUEST）参战"
+          }
+        },
+        {
+          "stable_id": "coalesced:aa85f0326333de2e1b7b9ed1e1ce2530a88079a08120d03fbbb856425244cbbc",
+          "source": "게스트는 일반 파티 멤버와 달리 주변에 적이 있으면\\n스스로 공격합니다.\\n\\n그리고 파티 멤버일 때 사용할 수 있는\\n일부 기능을 사용할 수 없습니다.",
+          "source_sha256": "d62c70dd270fbc783fda687005a9bf4317851e8e35046af74f366e9d11e365b2",
+          "adopted_translation": "临时同伴与普通队员不同，附近有敌人时\\n会自行攻击。\\n\\n此外，普通队员可以使用的\\n部分功能对临时同伴并不适用。",
+          "embedded_path": "..\\MC2Game\\Localization\\INT\\MC2Tutorial.int",
+          "section": "Tutorial_Scene_12",
+          "key": "Text_0",
+          "batches": [
+            {
+              "path": "locales/zh-Hans/display-fix.json",
+              "sha256": "528cceb20bec1ae1604f9758dada9452f34a7a8de060a176e069db2dd299639e"
+            },
+            {
+              "path": "locales/zh-Hans/opening-batch.json",
+              "sha256": "60038b495783b9c1f62dd816eb213f5883e021f7aa64d4ecacc8ee0ca809d343"
+            },
+            {
+              "path": "locales/zh-Hans/readability-fix.json",
+              "sha256": "52f7b01cbc119fabf1e04f6e454506fa1093bb5aebb80f92370b9ea85c17e0b5"
+            },
+            {
+              "path": "locales/zh-Hans/readability-revised.json",
+              "sha256": "1a623ff47a6d49a441a50729a49e54830f64d5a13ee93b8c96498efae62f3a7f"
+            }
+          ],
+          "japanese_primary": [
+            {
+              "source": "ゲストメンバーは通常メンバーとは異なり\\n自らの判断で戦闘行動を行います。\\nゲストメンバーに対して指示を与えたり\\nゲストメンバーをリーダーに変更し\\n直接操作することはできません。",
+              "source_sha256": "0ebd4b7fed29695f2183649d273dd78cd6592391625199a04dc728b97f0efd06",
+              "resource": "build/disc1-selected/MC2Game/Localization/Coalesced.jpn",
+              "resource_sha256": "fb99602a9ff5f081857efa7389d6d2b6ecfc6765946f0bba2fbde4cdbf962a90",
+              "stable_id": "coalesced:ce121280f7cea0186ff3f5474221f008cfe8939f8849ce2acd65728d63c9fccf"
+            }
+          ],
+          "final_display_override": {
+            "path": "locales/zh-Hans/display-fix.json",
+            "sha256": "528cceb20bec1ae1604f9758dada9452f34a7a8de060a176e069db2dd299639e",
+            "translation": "临时同伴与普通队员不同，附近有敌人时\\n会自行攻击。\\n\\n此外，普通队员可以使用的\\n部分功能对临时同伴并不适用。"
+          }
+        }
+      ],
+      "confidence": "high-confidence semantic selection; exact texture consumer not yet identified",
+      "notes": "Game source has MC2UIDefinition.PartyCharacter.bGuest and pawn/party guest fields; System_Log explicitly joins/leaves party as guest. This is not platform login guest. 64x24 short label retains meaning in party context, not standalone visitor."
+    },
+    {
+      "package": "UI_Pillar_Title",
+      "export": 2,
+      "alias": {
+        "package": "UI_Pillar_Title",
+        "resource": "MC2Game/CookedXenon/UI_Pillar_Title.xxx",
+        "original_sha256": "0bbc44c9cdeba6c3e8b2e5dbf664480632d968cdb6d74b4c9da6f2da9479033d",
+        "export": 2,
+        "object": "Tex.Disc_01",
+        "dimensions": [
+          64,
+          64
+        ],
+        "payload_sha256": "d84b7189de09460c4c5793fc6ec0834ddbb22653a6c9e16117b2a5b4a0334574",
+        "rgba_sha256": "5b8fafe721802190c433af265f7c5fa4623a21df9b85439874c028dae9e3466d",
+        "png": {
+          "path": "build/phase-288-asset-research/UI_Pillar_Title/2-mip0.png",
+          "sha256": "0671d33ff62537aec4ae2ce9dbe20cde7731802eb81a9eb2448e8c0f43357678"
+        }
+      },
+      "visual_reading": "DISC 1",
+      "translation": "第1盘",
+      "rect": [
+        0,
+        36,
+        64,
+        28
+      ],
+      "protected_rects": [
+        [
+          0,
+          0,
+          64,
+          36
+        ]
+      ],
+      "font_size": 16,
+      "offset_y": -3,
+      "notes": "Only upper y0..35 disc silhouette is exact preserved. Lower disc/image overlap is inside replacement; do not claim full disc illustration unchanged. Need preview check to fit Chinese label before adoption."
+    },
+    {
+      "package": "UI_Pillar_Title",
+      "export": 3,
+      "alias": {
+        "package": "UI_Pillar_Title",
+        "resource": "MC2Game/CookedXenon/UI_Pillar_Title.xxx",
+        "original_sha256": "0bbc44c9cdeba6c3e8b2e5dbf664480632d968cdb6d74b4c9da6f2da9479033d",
+        "export": 3,
+        "object": "Tex.Disc_02",
+        "dimensions": [
+          64,
+          64
+        ],
+        "payload_sha256": "57f56240d838f86a0ce859f46c25bf55183551141488cac3fa6d01f933cb0a1b",
+        "rgba_sha256": "df46fd28a008c1c457b5d5f407a16034954566bab7a7c329c4cdcc9f8bc6e503",
+        "png": {
+          "path": "build/phase-288-asset-research/UI_Pillar_Title/3-mip0.png",
+          "sha256": "6fa7bdcc80663acb40fde49112bd81492b0c4b6b4bca3262ac324b085d45547c"
+        }
+      },
+      "visual_reading": "DISC 2",
+      "translation": "第2盘",
+      "rect": [
+        0,
+        36,
+        64,
+        28
+      ],
+      "protected_rects": [
+        [
+          0,
+          0,
+          64,
+          36
+        ]
+      ],
+      "font_size": 16,
+      "offset_y": -3,
+      "notes": "Only upper y0..35 disc silhouette is exact preserved. Lower disc/image overlap is inside replacement; do not claim full disc illustration unchanged. Need preview check to fit Chinese label before adoption."
+    }
+  ],
+  "source_aliases": [
+    {
+      "disc": 1,
+      "resource_path": "MC2Game/CookedXenon/TitleMap_MSPT.xxx",
+      "source_sha256": "e094df8399beac753e07a1ee388d5192b8f0a721fa854d786104de7439e98395",
+      "export": 1662,
+      "path": "UI_GameStart.Textures.Menu_tex",
+      "leaf": "Menu_tex",
+      "class_path": "Engine.Texture2D",
+      "serial_offset": 8660056,
+      "serial_size": 65905,
+      "package_guid": "71a96c994fc7d287985bf4bc2d19d6dc",
+      "payload_sha256": "8c67c1780f2e27d82e991df9cbb9ebfb642af0afc74ad445c1840e0ad7ff7106",
+      "width": 256,
+      "height": 256,
+      "format_raw": "07",
+      "source_art": {
+        "header_offset": 325,
+        "flags": 0,
+        "element_count": 0,
+        "size_on_disk": 0,
+        "data_offset": 8660397,
+        "size_on_disk_field_offset": 333,
+        "data_offset_field_offset": 337,
+        "payload_offset": 341
+      },
+      "mip_count": 1,
+      "first_bulk": {
+        "header_offset": 345,
+        "flags": 0,
+        "element_count": 65536,
+        "size_on_disk": 65536,
+        "data_offset": 8660417,
+        "size_on_disk_field_offset": 353,
+        "data_offset_field_offset": 357,
+        "payload_offset": 361
+      },
+      "identity": {
+        "canonical_path": "ui_gamestart.textures.menu_tex",
+        "class_path": "engine.texture2d",
+        "forced_export": true,
+        "namespace_guid": "e4bd88ab4c3d22d9091402ba2ed7054d",
+        "namespace_root": {
+          "package": "titlemap_mspt",
+          "object_index": 1299,
+          "path": "UI_GameStart",
+          "class_path": "Core.Package",
+          "object_flags": "0007000400000000",
+          "export_flags": 1,
+          "source_sha256": "e094df8399beac753e07a1ee388d5192b8f0a721fa854d786104de7439e98395",
+          "logical_serial_offset": 1906645,
+          "serial_size": 12
+        },
+        "runtime_instance_selected": false
+      },
+      "atlas_supported": true,
+      "tiled_sha256": "1aa5ad2cdec7379bba923ae8052dcbf96a51282e2fb3148c3db26b9d9e9118ea",
+      "linear_dxt5_sha256": "1251898cbbee4e067a788827ce71d0ef073f015ebad109dd088e1861be15fca8",
+      "rgba_sha256": "40bd431d2b7000a97cc6a89fd7c4a64d387bd6582bb4dcf14db49ea6f6d09161",
+      "preview": "build\\phase-292-texture-aliases\\titlemap_mspt-e094df83-1662.png",
+      "bulk_flags": 0
+    },
+    {
+      "disc": 1,
+      "resource_path": "MC2Game/CookedXenon/TitleMap_MSPT.xxx",
+      "source_sha256": "e094df8399beac753e07a1ee388d5192b8f0a721fa854d786104de7439e98395",
+      "export": 1663,
+      "path": "UI_GameStart.Textures.Menu_tex_Back",
+      "leaf": "Menu_tex_Back",
+      "class_path": "Engine.Texture2D",
+      "serial_offset": 8725961,
+      "serial_size": 33142,
+      "package_guid": "71a96c994fc7d287985bf4bc2d19d6dc",
+      "payload_sha256": "5b35e93720d9f8fb332ab0314d9866f025d189304491cb8bb0e6753a16ad474f",
+      "width": 256,
+      "height": 32,
+      "format_raw": "07",
+      "source_art": {
+        "header_offset": 330,
+        "flags": 0,
+        "element_count": 0,
+        "size_on_disk": 0,
+        "data_offset": 8726307,
+        "size_on_disk_field_offset": 338,
+        "data_offset_field_offset": 342,
+        "payload_offset": 346
+      },
+      "mip_count": 1,
+      "first_bulk": {
+        "header_offset": 350,
+        "flags": 0,
+        "element_count": 32768,
+        "size_on_disk": 32768,
+        "data_offset": 8726327,
+        "size_on_disk_field_offset": 358,
+        "data_offset_field_offset": 362,
+        "payload_offset": 366
+      },
+      "identity": {
+        "canonical_path": "ui_gamestart.textures.menu_tex_back",
+        "class_path": "engine.texture2d",
+        "forced_export": true,
+        "namespace_guid": "e4bd88ab4c3d22d9091402ba2ed7054d",
+        "namespace_root": {
+          "package": "titlemap_mspt",
+          "object_index": 1299,
+          "path": "UI_GameStart",
+          "class_path": "Core.Package",
+          "object_flags": "0007000400000000",
+          "export_flags": 1,
+          "source_sha256": "e094df8399beac753e07a1ee388d5192b8f0a721fa854d786104de7439e98395",
+          "logical_serial_offset": 1906645,
+          "serial_size": 12
+        },
+        "runtime_instance_selected": false
+      },
+      "atlas_supported": true,
+      "tiled_sha256": "8083b2e825d496079b9b7041fac5f14cdcf1f1ce64999d5e8515e6eee61cc101",
+      "linear_dxt5_sha256": "79ddadea6a99afb01913607a7571878251e4ea0ae8c0cd3c02f21d6daa0e9e6c",
+      "rgba_sha256": "648bbbef50a3940b838de988919c9c7a5a386b78919291925c433ddb65e3bdbf",
+      "preview": "build\\phase-292-texture-aliases\\titlemap_mspt-e094df83-1663.png",
+      "bulk_flags": 0
+    },
+    {
+      "disc": 1,
+      "resource_path": "MC2Game/CookedXenon/TitleMap_MSPT.xxx",
+      "source_sha256": "e094df8399beac753e07a1ee388d5192b8f0a721fa854d786104de7439e98395",
+      "export": 1664,
+      "path": "UI_GameStart.Textures.Press_Start_1",
+      "leaf": "Press_Start_1",
+      "class_path": "Engine.Texture2D",
+      "serial_offset": 8759103,
+      "serial_size": 33192,
+      "package_guid": "71a96c994fc7d287985bf4bc2d19d6dc",
+      "payload_sha256": "769c51319861521e9f04c02a8de741e6be0ded427bb6df87aa97cf067eada55e",
+      "width": 256,
+      "height": 32,
+      "format_raw": "07",
+      "source_art": {
+        "header_offset": 380,
+        "flags": 0,
+        "element_count": 0,
+        "size_on_disk": 0,
+        "data_offset": 8759499,
+        "size_on_disk_field_offset": 388,
+        "data_offset_field_offset": 392,
+        "payload_offset": 396
+      },
+      "mip_count": 1,
+      "first_bulk": {
+        "header_offset": 400,
+        "flags": 0,
+        "element_count": 32768,
+        "size_on_disk": 32768,
+        "data_offset": 8759519,
+        "size_on_disk_field_offset": 408,
+        "data_offset_field_offset": 412,
+        "payload_offset": 416
+      },
+      "identity": {
+        "canonical_path": "ui_gamestart.textures.press_start_1",
+        "class_path": "engine.texture2d",
+        "forced_export": true,
+        "namespace_guid": "e4bd88ab4c3d22d9091402ba2ed7054d",
+        "namespace_root": {
+          "package": "titlemap_mspt",
+          "object_index": 1299,
+          "path": "UI_GameStart",
+          "class_path": "Core.Package",
+          "object_flags": "0007000400000000",
+          "export_flags": 1,
+          "source_sha256": "e094df8399beac753e07a1ee388d5192b8f0a721fa854d786104de7439e98395",
+          "logical_serial_offset": 1906645,
+          "serial_size": 12
+        },
+        "runtime_instance_selected": false
+      },
+      "atlas_supported": true,
+      "tiled_sha256": "6f7aeac80c1ee2c0f95a965cc45a5f2372f507a18dcdb2d2e46cec97dbbe0592",
+      "linear_dxt5_sha256": "e202d4f82cfeb2bacf0958e06bc6200f1c299233ad52bf3087194a98c25dac87",
+      "rgba_sha256": "b5054b2ce4895b560076403fd33985d456d3bdaecbe193441aa75388e452a2bd",
+      "preview": "build\\phase-292-texture-aliases\\titlemap_mspt-e094df83-1664.png",
+      "bulk_flags": 0
+    },
+    {
+      "disc": 1,
+      "resource_path": "MC2Game/CookedXenon/TitleMap_MSPT.xxx",
+      "source_sha256": "e094df8399beac753e07a1ee388d5192b8f0a721fa854d786104de7439e98395",
+      "export": 1670,
+      "path": "UI_Pillar_Title.Tex.Disc_01",
+      "leaf": "Disc_01",
+      "class_path": "Engine.Texture2D",
+      "serial_offset": 8990738,
+      "serial_size": 16745,
+      "package_guid": "71a96c994fc7d287985bf4bc2d19d6dc",
+      "payload_sha256": "653ca3c9f80d8a2dde19a96a468fcb8df80687b7ebe3470f8db7f30af892486c",
+      "width": 64,
+      "height": 64,
+      "format_raw": "07",
+      "source_art": {
+        "header_offset": 317,
+        "flags": 0,
+        "element_count": 0,
+        "size_on_disk": 0,
+        "data_offset": 8991071,
+        "size_on_disk_field_offset": 325,
+        "data_offset_field_offset": 329,
+        "payload_offset": 333
+      },
+      "mip_count": 1,
+      "first_bulk": {
+        "header_offset": 337,
+        "flags": 0,
+        "element_count": 16384,
+        "size_on_disk": 16384,
+        "data_offset": 8991091,
+        "size_on_disk_field_offset": 345,
+        "data_offset_field_offset": 349,
+        "payload_offset": 353
+      },
+      "identity": {
+        "canonical_path": "ui_pillar_title.tex.disc_01",
+        "class_path": "engine.texture2d",
+        "forced_export": true,
+        "namespace_guid": "60482c3a49aa0da206bf15804c38718e",
+        "namespace_root": {
+          "package": "titlemap_mspt",
+          "object_index": 1306,
+          "path": "UI_Pillar_Title",
+          "class_path": "Core.Package",
+          "object_flags": "0007000400000000",
+          "export_flags": 1,
+          "source_sha256": "e094df8399beac753e07a1ee388d5192b8f0a721fa854d786104de7439e98395",
+          "logical_serial_offset": 1906729,
+          "serial_size": 12
+        },
+        "runtime_instance_selected": false
+      },
+      "atlas_supported": true,
+      "tiled_sha256": "f9393c2b47f57029b671b78516c8a72dddcc03b40f1636a33abf0decdc04821b",
+      "linear_dxt5_sha256": "a57e0c0f1275773bfe618f9b73f6f3b9282ef3514c263da4824b9953b9227962",
+      "rgba_sha256": "5b8fafe721802190c433af265f7c5fa4623a21df9b85439874c028dae9e3466d",
+      "preview": "build\\phase-292-texture-aliases\\titlemap_mspt-e094df83-1670.png",
+      "bulk_flags": 0
+    },
+    {
+      "disc": 1,
+      "resource_path": "MC2Game/CookedXenon/TitleMap_MSPT.xxx",
+      "source_sha256": "e094df8399beac753e07a1ee388d5192b8f0a721fa854d786104de7439e98395",
+      "export": 1671,
+      "path": "UI_Pillar_Title.Tex.Disc_02",
+      "leaf": "Disc_02",
+      "class_path": "Engine.Texture2D",
+      "serial_offset": 9007483,
+      "serial_size": 16745,
+      "package_guid": "71a96c994fc7d287985bf4bc2d19d6dc",
+      "payload_sha256": "69b63d7b3c39cba41359e839b86ada86501f468e0249b600936ddf10f10685cb",
+      "width": 64,
+      "height": 64,
+      "format_raw": "07",
+      "source_art": {
+        "header_offset": 317,
+        "flags": 0,
+        "element_count": 0,
+        "size_on_disk": 0,
+        "data_offset": 9007816,
+        "size_on_disk_field_offset": 325,
+        "data_offset_field_offset": 329,
+        "payload_offset": 333
+      },
+      "mip_count": 1,
+      "first_bulk": {
+        "header_offset": 337,
+        "flags": 0,
+        "element_count": 16384,
+        "size_on_disk": 16384,
+        "data_offset": 9007836,
+        "size_on_disk_field_offset": 345,
+        "data_offset_field_offset": 349,
+        "payload_offset": 353
+      },
+      "identity": {
+        "canonical_path": "ui_pillar_title.tex.disc_02",
+        "class_path": "engine.texture2d",
+        "forced_export": true,
+        "namespace_guid": "60482c3a49aa0da206bf15804c38718e",
+        "namespace_root": {
+          "package": "titlemap_mspt",
+          "object_index": 1306,
+          "path": "UI_Pillar_Title",
+          "class_path": "Core.Package",
+          "object_flags": "0007000400000000",
+          "export_flags": 1,
+          "source_sha256": "e094df8399beac753e07a1ee388d5192b8f0a721fa854d786104de7439e98395",
+          "logical_serial_offset": 1906729,
+          "serial_size": 12
+        },
+        "runtime_instance_selected": false
+      },
+      "atlas_supported": true,
+      "tiled_sha256": "4355d1f232187fea858a750b8c11233034e2d56b4861b97c8c1b64f164a5fdb3",
+      "linear_dxt5_sha256": "3f629dfdd1b500f7b49cb4e3900219eeb62cda8d3273ef2113a75d5c56277e77",
+      "rgba_sha256": "df46fd28a008c1c457b5d5f407a16034954566bab7a7c329c4cdcc9f8bc6e503",
+      "preview": "build\\phase-292-texture-aliases\\titlemap_mspt-e094df83-1671.png",
+      "bulk_flags": 0
+    },
+    {
+      "disc": 1,
+      "resource_path": "MC2Game/CookedXenon/TitleMap_MSPT.xxx",
+      "source_sha256": "e094df8399beac753e07a1ee388d5192b8f0a721fa854d786104de7439e98395",
+      "export": 1672,
+      "path": "UI_Pillar_Title.Tex.Guest_Icon",
+      "leaf": "Guest_Icon",
+      "class_path": "Engine.Texture2D",
+      "serial_offset": 9024228,
+      "serial_size": 16748,
+      "package_guid": "71a96c994fc7d287985bf4bc2d19d6dc",
+      "payload_sha256": "6a63326faaf7395d1ffaca4e77491462b8a27d2ff5fe8290a773034e339a40c7",
+      "width": 64,
+      "height": 32,
+      "format_raw": "07",
+      "source_art": {
+        "header_offset": 320,
+        "flags": 0,
+        "element_count": 0,
+        "size_on_disk": 0,
+        "data_offset": 9024564,
+        "size_on_disk_field_offset": 328,
+        "data_offset_field_offset": 332,
+        "payload_offset": 336
+      },
+      "mip_count": 1,
+      "first_bulk": {
+        "header_offset": 340,
+        "flags": 0,
+        "element_count": 16384,
+        "size_on_disk": 16384,
+        "data_offset": 9024584,
+        "size_on_disk_field_offset": 348,
+        "data_offset_field_offset": 352,
+        "payload_offset": 356
+      },
+      "identity": {
+        "canonical_path": "ui_pillar_title.tex.guest_icon",
+        "class_path": "engine.texture2d",
+        "forced_export": true,
+        "namespace_guid": "60482c3a49aa0da206bf15804c38718e",
+        "namespace_root": {
+          "package": "titlemap_mspt",
+          "object_index": 1306,
+          "path": "UI_Pillar_Title",
+          "class_path": "Core.Package",
+          "object_flags": "0007000400000000",
+          "export_flags": 1,
+          "source_sha256": "e094df8399beac753e07a1ee388d5192b8f0a721fa854d786104de7439e98395",
+          "logical_serial_offset": 1906729,
+          "serial_size": 12
+        },
+        "runtime_instance_selected": false
+      },
+      "atlas_supported": true,
+      "tiled_sha256": "68929063870e2106a042735551d8236c91f9f4465639e957fd2d8c520a82ed65",
+      "linear_dxt5_sha256": "74cf769852e64c5237669b80d102db85d9370f108f1c97ee1d7a8ee9ca958bed",
+      "rgba_sha256": "603b654961b9515655864d0c2631bba03f7b6bd5cfc3bafdf6a689ce0858262a",
+      "preview": "build\\phase-292-texture-aliases\\titlemap_mspt-e094df83-1672.png",
+      "bulk_flags": 0
+    },
+    {
+      "disc": 1,
+      "resource_path": "MC2Game/CookedXenon/UI_Battle_08_Jp.xxx",
+      "source_sha256": "36cacc49ee8b0ec199735ecdd8e1f4c0748971d3c0eaf03015522132b1b18b73",
+      "export": 27,
+      "path": "Tex.Character_Name_Argo",
+      "leaf": "Character_Name_Argo",
+      "class_path": "Engine.Texture2D",
+      "serial_offset": 98296,
+      "serial_size": 1682,
+      "package_guid": "27bc6ef04d931f48368f6ea6c58523eb",
+      "payload_sha256": "8ebe90cba9c3e5e70b199b6c6124f6405d63f064dbfea04ef46572d3fb4e7805",
+      "width": 128,
+      "height": 32,
+      "format_raw": "07",
+      "source_art": {
+        "header_offset": 448,
+        "flags": 0,
+        "element_count": 0,
+        "size_on_disk": 0,
+        "data_offset": 98760,
+        "size_on_disk_field_offset": 456,
+        "data_offset_field_offset": 460,
+        "payload_offset": 464
+      },
+      "mip_count": 1,
+      "first_bulk": {
+        "header_offset": 468,
+        "flags": 64,
+        "element_count": 16384,
+        "size_on_disk": 1190,
+        "data_offset": 98780,
+        "size_on_disk_field_offset": 476,
+        "data_offset_field_offset": 480,
+        "payload_offset": 484
+      },
+      "identity": {
+        "canonical_path": "ui_battle_08_jp.tex.character_name_argo",
+        "class_path": "engine.texture2d",
+        "forced_export": false,
+        "namespace_guid": "27bc6ef04d931f48368f6ea6c58523eb",
+        "namespace_root": null,
+        "runtime_instance_selected": false
+      },
+      "atlas_supported": true,
+      "tiled_sha256": "6fff6002c9b580034dec312649bee61973a6e3d6d8739515e5a086652afe3a67",
+      "linear_dxt5_sha256": "0f09d87bb9638abd3ef161309489bd4eeab5209a63abc3707ba1449707bd2c89",
+      "rgba_sha256": "78c2b14229b883970e02964ab153746eff9281c0f1c51d6f8d2858e07eb3aa4b",
+      "preview": "build\\phase-292-texture-aliases\\ui_battle_08_jp-36cacc49-27.png",
+      "bulk_flags": 64
+    },
+    {
+      "disc": 1,
+      "resource_path": "MC2Game/CookedXenon/UI_Battle_08_Jp.xxx",
+      "source_sha256": "36cacc49ee8b0ec199735ecdd8e1f4c0748971d3c0eaf03015522132b1b18b73",
+      "export": 28,
+      "path": "Tex.Character_Name_Argo_Red",
+      "leaf": "Character_Name_Argo_Red",
+      "class_path": "Engine.Texture2D",
+      "serial_offset": 99978,
+      "serial_size": 1684,
+      "package_guid": "27bc6ef04d931f48368f6ea6c58523eb",
+      "payload_sha256": "720235eda78878aa7f37f74a926232fb6a39502d273de00fd2dc68fa17b4ce6f",
+      "width": 128,
+      "height": 32,
+      "format_raw": "07",
+      "source_art": {
+        "header_offset": 456,
+        "flags": 0,
+        "element_count": 0,
+        "size_on_disk": 0,
+        "data_offset": 100450,
+        "size_on_disk_field_offset": 464,
+        "data_offset_field_offset": 468,
+        "payload_offset": 472
+      },
+      "mip_count": 1,
+      "first_bulk": {
+        "header_offset": 476,
+        "flags": 64,
+        "element_count": 16384,
+        "size_on_disk": 1184,
+        "data_offset": 100470,
+        "size_on_disk_field_offset": 484,
+        "data_offset_field_offset": 488,
+        "payload_offset": 492
+      },
+      "identity": {
+        "canonical_path": "ui_battle_08_jp.tex.character_name_argo_red",
+        "class_path": "engine.texture2d",
+        "forced_export": false,
+        "namespace_guid": "27bc6ef04d931f48368f6ea6c58523eb",
+        "namespace_root": null,
+        "runtime_instance_selected": false
+      },
+      "atlas_supported": true,
+      "tiled_sha256": "844779a41e942d179aade1f26fc68087326dcdcac4632f8b398bed611bce4e6c",
+      "linear_dxt5_sha256": "31769eafe510b4980ac36d3f3d791b878b42e02d3da1d15658e6eacb2b884636",
+      "rgba_sha256": "f14004af309526d850f68617d83acff57ffd33a52789267338f661a48f466ab0",
+      "preview": "build\\phase-292-texture-aliases\\ui_battle_08_jp-36cacc49-28.png",
+      "bulk_flags": 64
+    },
+    {
+      "disc": 1,
+      "resource_path": "MC2Game/CookedXenon/UI_Battle_08_Jp.xxx",
+      "source_sha256": "36cacc49ee8b0ec199735ecdd8e1f4c0748971d3c0eaf03015522132b1b18b73",
+      "export": 30,
+      "path": "Tex.Character_Name_Celestin",
+      "leaf": "Character_Name_Celestin",
+      "class_path": "Engine.Texture2D",
+      "serial_offset": 103946,
+      "serial_size": 2370,
+      "package_guid": "27bc6ef04d931f48368f6ea6c58523eb",
+      "payload_sha256": "07a4170ccf109eb8c226c8fc05ba7ec93dd0415be39cd9fb0c3a8adff9539632",
+      "width": 128,
+      "height": 32,
+      "format_raw": "07",
+      "source_art": {
+        "header_offset": 456,
+        "flags": 0,
+        "element_count": 0,
+        "size_on_disk": 0,
+        "data_offset": 104418,
+        "size_on_disk_field_offset": 464,
+        "data_offset_field_offset": 468,
+        "payload_offset": 472
+      },
+      "mip_count": 1,
+      "first_bulk": {
+        "header_offset": 476,
+        "flags": 64,
+        "element_count": 16384,
+        "size_on_disk": 1870,
+        "data_offset": 104438,
+        "size_on_disk_field_offset": 484,
+        "data_offset_field_offset": 488,
+        "payload_offset": 492
+      },
+      "identity": {
+        "canonical_path": "ui_battle_08_jp.tex.character_name_celestin",
+        "class_path": "engine.texture2d",
+        "forced_export": false,
+        "namespace_guid": "27bc6ef04d931f48368f6ea6c58523eb",
+        "namespace_root": null,
+        "runtime_instance_selected": false
+      },
+      "atlas_supported": true,
+      "tiled_sha256": "a74bbc31c23c86206e9f14357450385d9dc1ef2d2ec0d98d0367a4f84ff763db",
+      "linear_dxt5_sha256": "1ceb0001df4c96b308e7a45426ab0b77e59b42aafa8d334981141144b0b41726",
+      "rgba_sha256": "3c8e052e304bc18f4453a01c7856b4d7420b981b8f80457862c7a494658fee68",
+      "preview": "build\\phase-292-texture-aliases\\ui_battle_08_jp-36cacc49-30.png",
+      "bulk_flags": 64
+    },
+    {
+      "disc": 1,
+      "resource_path": "MC2Game/CookedXenon/UI_Battle_08_Jp.xxx",
+      "source_sha256": "36cacc49ee8b0ec199735ecdd8e1f4c0748971d3c0eaf03015522132b1b18b73",
+      "export": 31,
+      "path": "Tex.Character_Name_Celestin_Red",
+      "leaf": "Character_Name_Celestin_Red",
+      "class_path": "Engine.Texture2D",
+      "serial_offset": 106316,
+      "serial_size": 2384,
+      "package_guid": "27bc6ef04d931f48368f6ea6c58523eb",
+      "payload_sha256": "ae7c22b5862d237b566dec7ad8a2af97a622fd9b4e1e2a225c0f9e22e06ff2e4",
+      "width": 128,
+      "height": 32,
+      "format_raw": "07",
+      "source_art": {
+        "header_offset": 464,
+        "flags": 0,
+        "element_count": 0,
+        "size_on_disk": 0,
+        "data_offset": 106796,
+        "size_on_disk_field_offset": 472,
+        "data_offset_field_offset": 476,
+        "payload_offset": 480
+      },
+      "mip_count": 1,
+      "first_bulk": {
+        "header_offset": 484,
+        "flags": 64,
+        "element_count": 16384,
+        "size_on_disk": 1876,
+        "data_offset": 106816,
+        "size_on_disk_field_offset": 492,
+        "data_offset_field_offset": 496,
+        "payload_offset": 500
+      },
+      "identity": {
+        "canonical_path": "ui_battle_08_jp.tex.character_name_celestin_red",
+        "class_path": "engine.texture2d",
+        "forced_export": false,
+        "namespace_guid": "27bc6ef04d931f48368f6ea6c58523eb",
+        "namespace_root": null,
+        "runtime_instance_selected": false
+      },
+      "atlas_supported": true,
+      "tiled_sha256": "5aa3bb66cca8a798f1d239a4d22c3b394493f6bef99343eed3d144418fa8db4e",
+      "linear_dxt5_sha256": "a2e0120b091810ff21a7658ca4a49763624c738213c517f12ee98e7d353e1be9",
+      "rgba_sha256": "53ced0eaab3c4fbfc2aa8b4d5e0e91d40c890862ffe90d0413cb9a8ced72fd0d",
+      "preview": "build\\phase-292-texture-aliases\\ui_battle_08_jp-36cacc49-31.png",
+      "bulk_flags": 64
+    },
+    {
+      "disc": 1,
+      "resource_path": "MC2Game/CookedXenon/UI_Battle_08_Jp.xxx",
+      "source_sha256": "36cacc49ee8b0ec199735ecdd8e1f4c0748971d3c0eaf03015522132b1b18b73",
+      "export": 33,
+      "path": "Tex.Character_Name_Juto",
+      "leaf": "Character_Name_Juto",
+      "class_path": "Engine.Texture2D",
+      "serial_offset": 113538,
+      "serial_size": 1586,
+      "package_guid": "27bc6ef04d931f48368f6ea6c58523eb",
+      "payload_sha256": "d35bb531635d5f4c20ab74d9fe6358b86ff8a3175f8f06a0961737b852a6b126",
+      "width": 128,
+      "height": 32,
+      "format_raw": "07",
+      "source_art": {
+        "header_offset": 448,
+        "flags": 0,
+        "element_count": 0,
+        "size_on_disk": 0,
+        "data_offset": 114002,
+        "size_on_disk_field_offset": 456,
+        "data_offset_field_offset": 460,
+        "payload_offset": 464
+      },
+      "mip_count": 1,
+      "first_bulk": {
+        "header_offset": 468,
+        "flags": 64,
+        "element_count": 16384,
+        "size_on_disk": 1094,
+        "data_offset": 114022,
+        "size_on_disk_field_offset": 476,
+        "data_offset_field_offset": 480,
+        "payload_offset": 484
+      },
+      "identity": {
+        "canonical_path": "ui_battle_08_jp.tex.character_name_juto",
+        "class_path": "engine.texture2d",
+        "forced_export": false,
+        "namespace_guid": "27bc6ef04d931f48368f6ea6c58523eb",
+        "namespace_root": null,
+        "runtime_instance_selected": false
+      },
+      "atlas_supported": true,
+      "tiled_sha256": "2d2e3e8c6dd33a7523bd9b244d06435a44633a574778d17cd3483535d25005c8",
+      "linear_dxt5_sha256": "e3e6811661b8f72835d85e5a13dcd281ce88ea2e8c60812e48d8989aa5dff3f0",
+      "rgba_sha256": "73fa3b5e167d7e75d67b65e73dbcb6aeeec2548ef42a1b937eafea7e0f0b8112",
+      "preview": "build\\phase-292-texture-aliases\\ui_battle_08_jp-36cacc49-33.png",
+      "bulk_flags": 64
+    },
+    {
+      "disc": 1,
+      "resource_path": "MC2Game/CookedXenon/UI_Battle_08_Jp.xxx",
+      "source_sha256": "36cacc49ee8b0ec199735ecdd8e1f4c0748971d3c0eaf03015522132b1b18b73",
+      "export": 34,
+      "path": "Tex.Character_Name_Juto_Red",
+      "leaf": "Character_Name_Juto_Red",
+      "class_path": "Engine.Texture2D",
+      "serial_offset": 115124,
+      "serial_size": 1586,
+      "package_guid": "27bc6ef04d931f48368f6ea6c58523eb",
+      "payload_sha256": "e3190dfef2a5b927dab9e2601add91d46bbb5451e338f08b65d8c2c01c157c94",
+      "width": 128,
+      "height": 32,
+      "format_raw": "07",
+      "source_art": {
+        "header_offset": 456,
+        "flags": 0,
+        "element_count": 0,
+        "size_on_disk": 0,
+        "data_offset": 115596,
+        "size_on_disk_field_offset": 464,
+        "data_offset_field_offset": 468,
+        "payload_offset": 472
+      },
+      "mip_count": 1,
+      "first_bulk": {
+        "header_offset": 476,
+        "flags": 64,
+        "element_count": 16384,
+        "size_on_disk": 1086,
+        "data_offset": 115616,
+        "size_on_disk_field_offset": 484,
+        "data_offset_field_offset": 488,
+        "payload_offset": 492
+      },
+      "identity": {
+        "canonical_path": "ui_battle_08_jp.tex.character_name_juto_red",
+        "class_path": "engine.texture2d",
+        "forced_export": false,
+        "namespace_guid": "27bc6ef04d931f48368f6ea6c58523eb",
+        "namespace_root": null,
+        "runtime_instance_selected": false
+      },
+      "atlas_supported": true,
+      "tiled_sha256": "bc0fa6a20a12c0da1ca7361db194f83583240437cb4fec4b32723800f818974d",
+      "linear_dxt5_sha256": "a0805f7dbc776dc7a21855f4c8d9d785b09ee77bf20fc3f1c5e7092bc0f170f6",
+      "rgba_sha256": "8b05279fe9eb5e89d5d37f1fd701ef025a54f12984f89aab77f706f43a8a17fc",
+      "preview": "build\\phase-292-texture-aliases\\ui_battle_08_jp-36cacc49-34.png",
+      "bulk_flags": 64
+    },
+    {
+      "disc": 1,
+      "resource_path": "MC2Game/CookedXenon/UI_Battle_08_Jp.xxx",
+      "source_sha256": "36cacc49ee8b0ec199735ecdd8e1f4c0748971d3c0eaf03015522132b1b18b73",
+      "export": 35,
+      "path": "Tex.Character_Name_Zephi",
+      "leaf": "Character_Name_Zephi",
+      "class_path": "Engine.Texture2D",
+      "serial_offset": 116710,
+      "serial_size": 1630,
+      "package_guid": "27bc6ef04d931f48368f6ea6c58523eb",
+      "payload_sha256": "25694079e98c13e48103f7fcae61bbdce47e1d0af02352e177a3e4f516cccf14",
+      "width": 128,
+      "height": 32,
+      "format_raw": "07",
+      "source_art": {
+        "header_offset": 450,
+        "flags": 0,
+        "element_count": 0,
+        "size_on_disk": 0,
+        "data_offset": 117176,
+        "size_on_disk_field_offset": 458,
+        "data_offset_field_offset": 462,
+        "payload_offset": 466
+      },
+      "mip_count": 1,
+      "first_bulk": {
+        "header_offset": 470,
+        "flags": 64,
+        "element_count": 16384,
+        "size_on_disk": 1136,
+        "data_offset": 117196,
+        "size_on_disk_field_offset": 478,
+        "data_offset_field_offset": 482,
+        "payload_offset": 486
+      },
+      "identity": {
+        "canonical_path": "ui_battle_08_jp.tex.character_name_zephi",
+        "class_path": "engine.texture2d",
+        "forced_export": false,
+        "namespace_guid": "27bc6ef04d931f48368f6ea6c58523eb",
+        "namespace_root": null,
+        "runtime_instance_selected": false
+      },
+      "atlas_supported": true,
+      "tiled_sha256": "2425722eeacb707957b888881204698f9a4cfab720e846a03428178baea806f7",
+      "linear_dxt5_sha256": "9f9d008ec0b7bf715d3464ca2d0f75cbf28355ff69079a7ad04d4a622266f009",
+      "rgba_sha256": "d0ca26d8dbe8a0d1fe80b4a085d3a551aa94d6ec982e5cd16bf0dcc2d49f3ab9",
+      "preview": "build\\phase-292-texture-aliases\\ui_battle_08_jp-36cacc49-35.png",
+      "bulk_flags": 64
+    },
+    {
+      "disc": 1,
+      "resource_path": "MC2Game/CookedXenon/UI_Battle_08_Jp.xxx",
+      "source_sha256": "36cacc49ee8b0ec199735ecdd8e1f4c0748971d3c0eaf03015522132b1b18b73",
+      "export": 36,
+      "path": "Tex.Character_Name_Zephi_Red",
+      "leaf": "Character_Name_Zephi_Red",
+      "class_path": "Engine.Texture2D",
+      "serial_offset": 118340,
+      "serial_size": 1650,
+      "package_guid": "27bc6ef04d931f48368f6ea6c58523eb",
+      "payload_sha256": "bca12ca545ff0a8ec40ce1e9197f9133295fd3986ae1928d17abc50da5f6a441",
+      "width": 128,
+      "height": 32,
+      "format_raw": "07",
+      "source_art": {
+        "header_offset": 458,
+        "flags": 0,
+        "element_count": 0,
+        "size_on_disk": 0,
+        "data_offset": 118814,
+        "size_on_disk_field_offset": 466,
+        "data_offset_field_offset": 470,
+        "payload_offset": 474
+      },
+      "mip_count": 1,
+      "first_bulk": {
+        "header_offset": 478,
+        "flags": 64,
+        "element_count": 16384,
+        "size_on_disk": 1148,
+        "data_offset": 118834,
+        "size_on_disk_field_offset": 486,
+        "data_offset_field_offset": 490,
+        "payload_offset": 494
+      },
+      "identity": {
+        "canonical_path": "ui_battle_08_jp.tex.character_name_zephi_red",
+        "class_path": "engine.texture2d",
+        "forced_export": false,
+        "namespace_guid": "27bc6ef04d931f48368f6ea6c58523eb",
+        "namespace_root": null,
+        "runtime_instance_selected": false
+      },
+      "atlas_supported": true,
+      "tiled_sha256": "c59fc2ca514bf24c8c3ea3dca2d78999ea320f5815d7726bc5b19d5d59971954",
+      "linear_dxt5_sha256": "64d628e1e0b8a337782b832089fac7c0e49b2173a246c77a248147134b7d6f46",
+      "rgba_sha256": "ec68b58c73dfdf5f15e8970c3a27e0741734a720fe6d71c77106021f36543226",
+      "preview": "build\\phase-292-texture-aliases\\ui_battle_08_jp-36cacc49-36.png",
+      "bulk_flags": 64
+    },
+    {
+      "disc": 1,
+      "resource_path": "MC2Game/CookedXenon/UI_GameStart.xxx",
+      "source_sha256": "2884c9e3f5520d6df7390aabcb754ed0644194eb7341ae6e0f25e9594df938b1",
+      "export": 14,
+      "path": "Textures.Menu_tex",
+      "leaf": "Menu_tex",
+      "class_path": "Engine.Texture2D",
+      "serial_offset": 488082,
+      "serial_size": 23865,
+      "package_guid": "e4bd88ab4c3d22d9091402ba2ed7054d",
+      "payload_sha256": "8993dba89b3845bd79bb722a47298f042e29b7283bb6e32d672f394861ed87e6",
+      "width": 256,
+      "height": 256,
+      "format_raw": "07",
+      "source_art": {
+        "header_offset": 325,
+        "flags": 0,
+        "element_count": 0,
+        "size_on_disk": 0,
+        "data_offset": 488423,
+        "size_on_disk_field_offset": 333,
+        "data_offset_field_offset": 337,
+        "payload_offset": 341
+      },
+      "mip_count": 1,
+      "first_bulk": {
+        "header_offset": 345,
+        "flags": 64,
+        "element_count": 65536,
+        "size_on_disk": 23496,
+        "data_offset": 488443,
+        "size_on_disk_field_offset": 353,
+        "data_offset_field_offset": 357,
+        "payload_offset": 361
+      },
+      "identity": {
+        "canonical_path": "ui_gamestart.textures.menu_tex",
+        "class_path": "engine.texture2d",
+        "forced_export": false,
+        "namespace_guid": "e4bd88ab4c3d22d9091402ba2ed7054d",
+        "namespace_root": null,
+        "runtime_instance_selected": false
+      },
+      "atlas_supported": true,
+      "tiled_sha256": "1aa5ad2cdec7379bba923ae8052dcbf96a51282e2fb3148c3db26b9d9e9118ea",
+      "linear_dxt5_sha256": "1251898cbbee4e067a788827ce71d0ef073f015ebad109dd088e1861be15fca8",
+      "rgba_sha256": "40bd431d2b7000a97cc6a89fd7c4a64d387bd6582bb4dcf14db49ea6f6d09161",
+      "preview": "build\\phase-292-texture-aliases\\ui_gamestart-2884c9e3-14.png",
+      "bulk_flags": 64
+    },
+    {
+      "disc": 1,
+      "resource_path": "MC2Game/CookedXenon/UI_GameStart.xxx",
+      "source_sha256": "2884c9e3f5520d6df7390aabcb754ed0644194eb7341ae6e0f25e9594df938b1",
+      "export": 15,
+      "path": "Textures.Menu_tex_Back",
+      "leaf": "Menu_tex_Back",
+      "class_path": "Engine.Texture2D",
+      "serial_offset": 511947,
+      "serial_size": 2852,
+      "package_guid": "e4bd88ab4c3d22d9091402ba2ed7054d",
+      "payload_sha256": "8b48e026bc2d59d31b322844373b5a46f4254dab32eb882caece5390244fd7fd",
+      "width": 256,
+      "height": 32,
+      "format_raw": "07",
+      "source_art": {
+        "header_offset": 330,
+        "flags": 0,
+        "element_count": 0,
+        "size_on_disk": 0,
+        "data_offset": 512293,
+        "size_on_disk_field_offset": 338,
+        "data_offset_field_offset": 342,
+        "payload_offset": 346
+      },
+      "mip_count": 1,
+      "first_bulk": {
+        "header_offset": 350,
+        "flags": 64,
+        "element_count": 32768,
+        "size_on_disk": 2478,
+        "data_offset": 512313,
+        "size_on_disk_field_offset": 358,
+        "data_offset_field_offset": 362,
+        "payload_offset": 366
+      },
+      "identity": {
+        "canonical_path": "ui_gamestart.textures.menu_tex_back",
+        "class_path": "engine.texture2d",
+        "forced_export": false,
+        "namespace_guid": "e4bd88ab4c3d22d9091402ba2ed7054d",
+        "namespace_root": null,
+        "runtime_instance_selected": false
+      },
+      "atlas_supported": true,
+      "tiled_sha256": "8083b2e825d496079b9b7041fac5f14cdcf1f1ce64999d5e8515e6eee61cc101",
+      "linear_dxt5_sha256": "79ddadea6a99afb01913607a7571878251e4ea0ae8c0cd3c02f21d6daa0e9e6c",
+      "rgba_sha256": "648bbbef50a3940b838de988919c9c7a5a386b78919291925c433ddb65e3bdbf",
+      "preview": "build\\phase-292-texture-aliases\\ui_gamestart-2884c9e3-15.png",
+      "bulk_flags": 64
+    },
+    {
+      "disc": 1,
+      "resource_path": "MC2Game/CookedXenon/UI_GameStart.xxx",
+      "source_sha256": "2884c9e3f5520d6df7390aabcb754ed0644194eb7341ae6e0f25e9594df938b1",
+      "export": 16,
+      "path": "Textures.Press_Start_1",
+      "leaf": "Press_Start_1",
+      "class_path": "Engine.Texture2D",
+      "serial_offset": 514799,
+      "serial_size": 4924,
+      "package_guid": "e4bd88ab4c3d22d9091402ba2ed7054d",
+      "payload_sha256": "183967b25ff9f45e6a8beb04368362f09886f13336799e99efda419940ea50db",
+      "width": 256,
+      "height": 32,
+      "format_raw": "07",
+      "source_art": {
+        "header_offset": 380,
+        "flags": 0,
+        "element_count": 0,
+        "size_on_disk": 0,
+        "data_offset": 515195,
+        "size_on_disk_field_offset": 388,
+        "data_offset_field_offset": 392,
+        "payload_offset": 396
+      },
+      "mip_count": 1,
+      "first_bulk": {
+        "header_offset": 400,
+        "flags": 64,
+        "element_count": 32768,
+        "size_on_disk": 4500,
+        "data_offset": 515215,
+        "size_on_disk_field_offset": 408,
+        "data_offset_field_offset": 412,
+        "payload_offset": 416
+      },
+      "identity": {
+        "canonical_path": "ui_gamestart.textures.press_start_1",
+        "class_path": "engine.texture2d",
+        "forced_export": false,
+        "namespace_guid": "e4bd88ab4c3d22d9091402ba2ed7054d",
+        "namespace_root": null,
+        "runtime_instance_selected": false
+      },
+      "atlas_supported": true,
+      "tiled_sha256": "6f7aeac80c1ee2c0f95a965cc45a5f2372f507a18dcdb2d2e46cec97dbbe0592",
+      "linear_dxt5_sha256": "e202d4f82cfeb2bacf0958e06bc6200f1c299233ad52bf3087194a98c25dac87",
+      "rgba_sha256": "b5054b2ce4895b560076403fd33985d456d3bdaecbe193441aa75388e452a2bd",
+      "preview": "build\\phase-292-texture-aliases\\ui_gamestart-2884c9e3-16.png",
+      "bulk_flags": 64
+    },
+    {
+      "disc": 1,
+      "resource_path": "MC2Game/CookedXenon/UI_Pillar.xxx",
+      "source_sha256": "441ac75a96bb6746bb6b71fbd78bdc75280100c20c77616ea58d67aab0c625dd",
+      "export": 611,
+      "path": "Tex.Disc_01",
+      "leaf": "Disc_01",
+      "class_path": "Engine.Texture2D",
+      "serial_offset": 1065729,
+      "serial_size": 16745,
+      "package_guid": "fe0b3d074cda68a96ded118c4c2a061b",
+      "payload_sha256": "2ab47b03c59953ba46f16aa28c1437f713912cd594f3a685a19dd6b79cdee31a",
+      "width": 64,
+      "height": 64,
+      "format_raw": "07",
+      "source_art": {
+        "header_offset": 317,
+        "flags": 0,
+        "element_count": 0,
+        "size_on_disk": 0,
+        "data_offset": 1066062,
+        "size_on_disk_field_offset": 325,
+        "data_offset_field_offset": 329,
+        "payload_offset": 333
+      },
+      "mip_count": 1,
+      "first_bulk": {
+        "header_offset": 337,
+        "flags": 0,
+        "element_count": 16384,
+        "size_on_disk": 16384,
+        "data_offset": 1066082,
+        "size_on_disk_field_offset": 345,
+        "data_offset_field_offset": 349,
+        "payload_offset": 353
+      },
+      "identity": {
+        "canonical_path": "ui_pillar.tex.disc_01",
+        "class_path": "engine.texture2d",
+        "forced_export": false,
+        "namespace_guid": "fe0b3d074cda68a96ded118c4c2a061b",
+        "namespace_root": null,
+        "runtime_instance_selected": false
+      },
+      "atlas_supported": true,
+      "tiled_sha256": "f9393c2b47f57029b671b78516c8a72dddcc03b40f1636a33abf0decdc04821b",
+      "linear_dxt5_sha256": "a57e0c0f1275773bfe618f9b73f6f3b9282ef3514c263da4824b9953b9227962",
+      "rgba_sha256": "5b8fafe721802190c433af265f7c5fa4623a21df9b85439874c028dae9e3466d",
+      "preview": "build\\phase-292-texture-aliases\\ui_pillar-441ac75a-611.png",
+      "bulk_flags": 0
+    },
+    {
+      "disc": 1,
+      "resource_path": "MC2Game/CookedXenon/UI_Pillar.xxx",
+      "source_sha256": "441ac75a96bb6746bb6b71fbd78bdc75280100c20c77616ea58d67aab0c625dd",
+      "export": 612,
+      "path": "Tex.Disc_02",
+      "leaf": "Disc_02",
+      "class_path": "Engine.Texture2D",
+      "serial_offset": 1082474,
+      "serial_size": 16745,
+      "package_guid": "fe0b3d074cda68a96ded118c4c2a061b",
+      "payload_sha256": "9bf7abbba2fa0327e27a2d027095dd5701484aef6a83e398e34faeab6706e65c",
+      "width": 64,
+      "height": 64,
+      "format_raw": "07",
+      "source_art": {
+        "header_offset": 317,
+        "flags": 0,
+        "element_count": 0,
+        "size_on_disk": 0,
+        "data_offset": 1082807,
+        "size_on_disk_field_offset": 325,
+        "data_offset_field_offset": 329,
+        "payload_offset": 333
+      },
+      "mip_count": 1,
+      "first_bulk": {
+        "header_offset": 337,
+        "flags": 0,
+        "element_count": 16384,
+        "size_on_disk": 16384,
+        "data_offset": 1082827,
+        "size_on_disk_field_offset": 345,
+        "data_offset_field_offset": 349,
+        "payload_offset": 353
+      },
+      "identity": {
+        "canonical_path": "ui_pillar.tex.disc_02",
+        "class_path": "engine.texture2d",
+        "forced_export": false,
+        "namespace_guid": "fe0b3d074cda68a96ded118c4c2a061b",
+        "namespace_root": null,
+        "runtime_instance_selected": false
+      },
+      "atlas_supported": true,
+      "tiled_sha256": "4355d1f232187fea858a750b8c11233034e2d56b4861b97c8c1b64f164a5fdb3",
+      "linear_dxt5_sha256": "3f629dfdd1b500f7b49cb4e3900219eeb62cda8d3273ef2113a75d5c56277e77",
+      "rgba_sha256": "df46fd28a008c1c457b5d5f407a16034954566bab7a7c329c4cdcc9f8bc6e503",
+      "preview": "build\\phase-292-texture-aliases\\ui_pillar-441ac75a-612.png",
+      "bulk_flags": 0
+    },
+    {
+      "disc": 1,
+      "resource_path": "MC2Game/CookedXenon/UI_Pillar.xxx",
+      "source_sha256": "441ac75a96bb6746bb6b71fbd78bdc75280100c20c77616ea58d67aab0c625dd",
+      "export": 613,
+      "path": "Tex.Guest_Icon",
+      "leaf": "Guest_Icon",
+      "class_path": "Engine.Texture2D",
+      "serial_offset": 1099219,
+      "serial_size": 16748,
+      "package_guid": "fe0b3d074cda68a96ded118c4c2a061b",
+      "payload_sha256": "8cd49072fab785836b0633aba2c32609cb0f93e73caa1e020d14c8957dfbd59c",
+      "width": 64,
+      "height": 32,
+      "format_raw": "07",
+      "source_art": {
+        "header_offset": 320,
+        "flags": 0,
+        "element_count": 0,
+        "size_on_disk": 0,
+        "data_offset": 1099555,
+        "size_on_disk_field_offset": 328,
+        "data_offset_field_offset": 332,
+        "payload_offset": 336
+      },
+      "mip_count": 1,
+      "first_bulk": {
+        "header_offset": 340,
+        "flags": 0,
+        "element_count": 16384,
+        "size_on_disk": 16384,
+        "data_offset": 1099575,
+        "size_on_disk_field_offset": 348,
+        "data_offset_field_offset": 352,
+        "payload_offset": 356
+      },
+      "identity": {
+        "canonical_path": "ui_pillar.tex.guest_icon",
+        "class_path": "engine.texture2d",
+        "forced_export": false,
+        "namespace_guid": "fe0b3d074cda68a96ded118c4c2a061b",
+        "namespace_root": null,
+        "runtime_instance_selected": false
+      },
+      "atlas_supported": true,
+      "tiled_sha256": "68929063870e2106a042735551d8236c91f9f4465639e957fd2d8c520a82ed65",
+      "linear_dxt5_sha256": "74cf769852e64c5237669b80d102db85d9370f108f1c97ee1d7a8ee9ca958bed",
+      "rgba_sha256": "603b654961b9515655864d0c2631bba03f7b6bd5cfc3bafdf6a689ce0858262a",
+      "preview": "build\\phase-292-texture-aliases\\ui_pillar-441ac75a-613.png",
+      "bulk_flags": 0
+    },
+    {
+      "disc": 1,
+      "resource_path": "MC2Game/CookedXenon/UI_Pillar.xxx",
+      "source_sha256": "441ac75a96bb6746bb6b71fbd78bdc75280100c20c77616ea58d67aab0c625dd",
+      "export": 615,
+      "path": "UI_Pillar_Title.Tex.Disc_01",
+      "leaf": "Disc_01",
+      "class_path": "Engine.Texture2D",
+      "serial_offset": 1149104,
+      "serial_size": 16745,
+      "package_guid": "fe0b3d074cda68a96ded118c4c2a061b",
+      "payload_sha256": "fa7ee637347c07640ad10c1728f01e6fec4d939f0e03a34a8701d54d9d9d7259",
+      "width": 64,
+      "height": 64,
+      "format_raw": "07",
+      "source_art": {
+        "header_offset": 317,
+        "flags": 0,
+        "element_count": 0,
+        "size_on_disk": 0,
+        "data_offset": 1149437,
+        "size_on_disk_field_offset": 325,
+        "data_offset_field_offset": 329,
+        "payload_offset": 333
+      },
+      "mip_count": 1,
+      "first_bulk": {
+        "header_offset": 337,
+        "flags": 0,
+        "element_count": 16384,
+        "size_on_disk": 16384,
+        "data_offset": 1149457,
+        "size_on_disk_field_offset": 345,
+        "data_offset_field_offset": 349,
+        "payload_offset": 353
+      },
+      "identity": {
+        "canonical_path": "ui_pillar_title.tex.disc_01",
+        "class_path": "engine.texture2d",
+        "forced_export": true,
+        "namespace_guid": "60482c3a49aa0da206bf15804c38718e",
+        "namespace_root": {
+          "package": "ui_pillar",
+          "object_index": 523,
+          "path": "UI_Pillar_Title",
+          "class_path": "Core.Package",
+          "object_flags": "0007000400000000",
+          "export_flags": 1,
+          "source_sha256": "441ac75a96bb6746bb6b71fbd78bdc75280100c20c77616ea58d67aab0c625dd",
+          "logical_serial_offset": 812111,
+          "serial_size": 12
+        },
+        "runtime_instance_selected": false
+      },
+      "atlas_supported": true,
+      "tiled_sha256": "f9393c2b47f57029b671b78516c8a72dddcc03b40f1636a33abf0decdc04821b",
+      "linear_dxt5_sha256": "a57e0c0f1275773bfe618f9b73f6f3b9282ef3514c263da4824b9953b9227962",
+      "rgba_sha256": "5b8fafe721802190c433af265f7c5fa4623a21df9b85439874c028dae9e3466d",
+      "preview": "build\\phase-292-texture-aliases\\ui_pillar-441ac75a-615.png",
+      "bulk_flags": 0
+    },
+    {
+      "disc": 1,
+      "resource_path": "MC2Game/CookedXenon/UI_Pillar.xxx",
+      "source_sha256": "441ac75a96bb6746bb6b71fbd78bdc75280100c20c77616ea58d67aab0c625dd",
+      "export": 616,
+      "path": "UI_Pillar_Title.Tex.Disc_02",
+      "leaf": "Disc_02",
+      "class_path": "Engine.Texture2D",
+      "serial_offset": 1165849,
+      "serial_size": 16745,
+      "package_guid": "fe0b3d074cda68a96ded118c4c2a061b",
+      "payload_sha256": "5a42a2613b3ad85f51f428c5b16b0f5d2625aa18fe4cb784fd365ffe3cc171ac",
+      "width": 64,
+      "height": 64,
+      "format_raw": "07",
+      "source_art": {
+        "header_offset": 317,
+        "flags": 0,
+        "element_count": 0,
+        "size_on_disk": 0,
+        "data_offset": 1166182,
+        "size_on_disk_field_offset": 325,
+        "data_offset_field_offset": 329,
+        "payload_offset": 333
+      },
+      "mip_count": 1,
+      "first_bulk": {
+        "header_offset": 337,
+        "flags": 0,
+        "element_count": 16384,
+        "size_on_disk": 16384,
+        "data_offset": 1166202,
+        "size_on_disk_field_offset": 345,
+        "data_offset_field_offset": 349,
+        "payload_offset": 353
+      },
+      "identity": {
+        "canonical_path": "ui_pillar_title.tex.disc_02",
+        "class_path": "engine.texture2d",
+        "forced_export": true,
+        "namespace_guid": "60482c3a49aa0da206bf15804c38718e",
+        "namespace_root": {
+          "package": "ui_pillar",
+          "object_index": 523,
+          "path": "UI_Pillar_Title",
+          "class_path": "Core.Package",
+          "object_flags": "0007000400000000",
+          "export_flags": 1,
+          "source_sha256": "441ac75a96bb6746bb6b71fbd78bdc75280100c20c77616ea58d67aab0c625dd",
+          "logical_serial_offset": 812111,
+          "serial_size": 12
+        },
+        "runtime_instance_selected": false
+      },
+      "atlas_supported": true,
+      "tiled_sha256": "4355d1f232187fea858a750b8c11233034e2d56b4861b97c8c1b64f164a5fdb3",
+      "linear_dxt5_sha256": "3f629dfdd1b500f7b49cb4e3900219eeb62cda8d3273ef2113a75d5c56277e77",
+      "rgba_sha256": "df46fd28a008c1c457b5d5f407a16034954566bab7a7c329c4cdcc9f8bc6e503",
+      "preview": "build\\phase-292-texture-aliases\\ui_pillar-441ac75a-616.png",
+      "bulk_flags": 0
+    },
+    {
+      "disc": 1,
+      "resource_path": "MC2Game/CookedXenon/UI_Pillar.xxx",
+      "source_sha256": "441ac75a96bb6746bb6b71fbd78bdc75280100c20c77616ea58d67aab0c625dd",
+      "export": 617,
+      "path": "UI_Pillar_Title.Tex.Guest_Icon",
+      "leaf": "Guest_Icon",
+      "class_path": "Engine.Texture2D",
+      "serial_offset": 1182594,
+      "serial_size": 16748,
+      "package_guid": "fe0b3d074cda68a96ded118c4c2a061b",
+      "payload_sha256": "7806b69d84e0fcc0e5b9efd3d55a1e44482e76ff895357dca5ad00915cdba6f3",
+      "width": 64,
+      "height": 32,
+      "format_raw": "07",
+      "source_art": {
+        "header_offset": 320,
+        "flags": 0,
+        "element_count": 0,
+        "size_on_disk": 0,
+        "data_offset": 1182930,
+        "size_on_disk_field_offset": 328,
+        "data_offset_field_offset": 332,
+        "payload_offset": 336
+      },
+      "mip_count": 1,
+      "first_bulk": {
+        "header_offset": 340,
+        "flags": 0,
+        "element_count": 16384,
+        "size_on_disk": 16384,
+        "data_offset": 1182950,
+        "size_on_disk_field_offset": 348,
+        "data_offset_field_offset": 352,
+        "payload_offset": 356
+      },
+      "identity": {
+        "canonical_path": "ui_pillar_title.tex.guest_icon",
+        "class_path": "engine.texture2d",
+        "forced_export": true,
+        "namespace_guid": "60482c3a49aa0da206bf15804c38718e",
+        "namespace_root": {
+          "package": "ui_pillar",
+          "object_index": 523,
+          "path": "UI_Pillar_Title",
+          "class_path": "Core.Package",
+          "object_flags": "0007000400000000",
+          "export_flags": 1,
+          "source_sha256": "441ac75a96bb6746bb6b71fbd78bdc75280100c20c77616ea58d67aab0c625dd",
+          "logical_serial_offset": 812111,
+          "serial_size": 12
+        },
+        "runtime_instance_selected": false
+      },
+      "atlas_supported": true,
+      "tiled_sha256": "68929063870e2106a042735551d8236c91f9f4465639e957fd2d8c520a82ed65",
+      "linear_dxt5_sha256": "74cf769852e64c5237669b80d102db85d9370f108f1c97ee1d7a8ee9ca958bed",
+      "rgba_sha256": "603b654961b9515655864d0c2631bba03f7b6bd5cfc3bafdf6a689ce0858262a",
+      "preview": "build\\phase-292-texture-aliases\\ui_pillar-441ac75a-617.png",
+      "bulk_flags": 0
+    },
+    {
+      "disc": 1,
+      "resource_path": "MC2Game/CookedXenon/UI_Pillar_Title.xxx",
+      "source_sha256": "0bbc44c9cdeba6c3e8b2e5dbf664480632d968cdb6d74b4c9da6f2da9479033d",
+      "export": 2,
+      "path": "Tex.Disc_01",
+      "leaf": "Disc_01",
+      "class_path": "Engine.Texture2D",
+      "serial_offset": 1050,
+      "serial_size": 2081,
+      "package_guid": "60482c3a49aa0da206bf15804c38718e",
+      "payload_sha256": "d84b7189de09460c4c5793fc6ec0834ddbb22653a6c9e16117b2a5b4a0334574",
+      "width": 64,
+      "height": 64,
+      "format_raw": "07",
+      "source_art": {
+        "header_offset": 317,
+        "flags": 0,
+        "element_count": 0,
+        "size_on_disk": 0,
+        "data_offset": 1383,
+        "size_on_disk_field_offset": 325,
+        "data_offset_field_offset": 329,
+        "payload_offset": 333
+      },
+      "mip_count": 1,
+      "first_bulk": {
+        "header_offset": 337,
+        "flags": 64,
+        "element_count": 16384,
+        "size_on_disk": 1720,
+        "data_offset": 1403,
+        "size_on_disk_field_offset": 345,
+        "data_offset_field_offset": 349,
+        "payload_offset": 353
+      },
+      "identity": {
+        "canonical_path": "ui_pillar_title.tex.disc_01",
+        "class_path": "engine.texture2d",
+        "forced_export": false,
+        "namespace_guid": "60482c3a49aa0da206bf15804c38718e",
+        "namespace_root": null,
+        "runtime_instance_selected": false
+      },
+      "atlas_supported": true,
+      "tiled_sha256": "f9393c2b47f57029b671b78516c8a72dddcc03b40f1636a33abf0decdc04821b",
+      "linear_dxt5_sha256": "a57e0c0f1275773bfe618f9b73f6f3b9282ef3514c263da4824b9953b9227962",
+      "rgba_sha256": "5b8fafe721802190c433af265f7c5fa4623a21df9b85439874c028dae9e3466d",
+      "preview": "build\\phase-292-texture-aliases\\ui_pillar_title-0bbc44c9-2.png",
+      "bulk_flags": 64
+    },
+    {
+      "disc": 1,
+      "resource_path": "MC2Game/CookedXenon/UI_Pillar_Title.xxx",
+      "source_sha256": "0bbc44c9cdeba6c3e8b2e5dbf664480632d968cdb6d74b4c9da6f2da9479033d",
+      "export": 3,
+      "path": "Tex.Disc_02",
+      "leaf": "Disc_02",
+      "class_path": "Engine.Texture2D",
+      "serial_offset": 3131,
+      "serial_size": 2107,
+      "package_guid": "60482c3a49aa0da206bf15804c38718e",
+      "payload_sha256": "57f56240d838f86a0ce859f46c25bf55183551141488cac3fa6d01f933cb0a1b",
+      "width": 64,
+      "height": 64,
+      "format_raw": "07",
+      "source_art": {
+        "header_offset": 317,
+        "flags": 0,
+        "element_count": 0,
+        "size_on_disk": 0,
+        "data_offset": 3464,
+        "size_on_disk_field_offset": 325,
+        "data_offset_field_offset": 329,
+        "payload_offset": 333
+      },
+      "mip_count": 1,
+      "first_bulk": {
+        "header_offset": 337,
+        "flags": 64,
+        "element_count": 16384,
+        "size_on_disk": 1746,
+        "data_offset": 3484,
+        "size_on_disk_field_offset": 345,
+        "data_offset_field_offset": 349,
+        "payload_offset": 353
+      },
+      "identity": {
+        "canonical_path": "ui_pillar_title.tex.disc_02",
+        "class_path": "engine.texture2d",
+        "forced_export": false,
+        "namespace_guid": "60482c3a49aa0da206bf15804c38718e",
+        "namespace_root": null,
+        "runtime_instance_selected": false
+      },
+      "atlas_supported": true,
+      "tiled_sha256": "4355d1f232187fea858a750b8c11233034e2d56b4861b97c8c1b64f164a5fdb3",
+      "linear_dxt5_sha256": "3f629dfdd1b500f7b49cb4e3900219eeb62cda8d3273ef2113a75d5c56277e77",
+      "rgba_sha256": "df46fd28a008c1c457b5d5f407a16034954566bab7a7c329c4cdcc9f8bc6e503",
+      "preview": "build\\phase-292-texture-aliases\\ui_pillar_title-0bbc44c9-3.png",
+      "bulk_flags": 64
+    },
+    {
+      "disc": 1,
+      "resource_path": "MC2Game/CookedXenon/UI_Pillar_Title.xxx",
+      "source_sha256": "0bbc44c9cdeba6c3e8b2e5dbf664480632d968cdb6d74b4c9da6f2da9479033d",
+      "export": 4,
+      "path": "Tex.Guest_Icon",
+      "leaf": "Guest_Icon",
+      "class_path": "Engine.Texture2D",
+      "serial_offset": 5238,
+      "serial_size": 1504,
+      "package_guid": "60482c3a49aa0da206bf15804c38718e",
+      "payload_sha256": "ee3c12c0bd92a220cf2129ce8b8c111d961a203c4724f8538df0fb535014de33",
+      "width": 64,
+      "height": 32,
+      "format_raw": "07",
+      "source_art": {
+        "header_offset": 320,
+        "flags": 0,
+        "element_count": 0,
+        "size_on_disk": 0,
+        "data_offset": 5574,
+        "size_on_disk_field_offset": 328,
+        "data_offset_field_offset": 332,
+        "payload_offset": 336
+      },
+      "mip_count": 1,
+      "first_bulk": {
+        "header_offset": 340,
+        "flags": 64,
+        "element_count": 16384,
+        "size_on_disk": 1140,
+        "data_offset": 5594,
+        "size_on_disk_field_offset": 348,
+        "data_offset_field_offset": 352,
+        "payload_offset": 356
+      },
+      "identity": {
+        "canonical_path": "ui_pillar_title.tex.guest_icon",
+        "class_path": "engine.texture2d",
+        "forced_export": false,
+        "namespace_guid": "60482c3a49aa0da206bf15804c38718e",
+        "namespace_root": null,
+        "runtime_instance_selected": false
+      },
+      "atlas_supported": true,
+      "tiled_sha256": "68929063870e2106a042735551d8236c91f9f4465639e957fd2d8c520a82ed65",
+      "linear_dxt5_sha256": "74cf769852e64c5237669b80d102db85d9370f108f1c97ee1d7a8ee9ca958bed",
+      "rgba_sha256": "603b654961b9515655864d0c2631bba03f7b6bd5cfc3bafdf6a689ce0858262a",
+      "preview": "build\\phase-292-texture-aliases\\ui_pillar_title-0bbc44c9-4.png",
+      "bulk_flags": 64
+    },
+    {
+      "disc": 2,
+      "resource_path": "MC2Game/CookedXenon/TitleMap_MSPT.xxx",
+      "source_sha256": "e094df8399beac753e07a1ee388d5192b8f0a721fa854d786104de7439e98395",
+      "export": 1662,
+      "path": "UI_GameStart.Textures.Menu_tex",
+      "leaf": "Menu_tex",
+      "class_path": "Engine.Texture2D",
+      "serial_offset": 8660056,
+      "serial_size": 65905,
+      "package_guid": "71a96c994fc7d287985bf4bc2d19d6dc",
+      "payload_sha256": "8c67c1780f2e27d82e991df9cbb9ebfb642af0afc74ad445c1840e0ad7ff7106",
+      "width": 256,
+      "height": 256,
+      "format_raw": "07",
+      "source_art": {
+        "header_offset": 325,
+        "flags": 0,
+        "element_count": 0,
+        "size_on_disk": 0,
+        "data_offset": 8660397,
+        "size_on_disk_field_offset": 333,
+        "data_offset_field_offset": 337,
+        "payload_offset": 341
+      },
+      "mip_count": 1,
+      "first_bulk": {
+        "header_offset": 345,
+        "flags": 0,
+        "element_count": 65536,
+        "size_on_disk": 65536,
+        "data_offset": 8660417,
+        "size_on_disk_field_offset": 353,
+        "data_offset_field_offset": 357,
+        "payload_offset": 361
+      },
+      "identity": {
+        "canonical_path": "ui_gamestart.textures.menu_tex",
+        "class_path": "engine.texture2d",
+        "forced_export": true,
+        "namespace_guid": "e4bd88ab4c3d22d9091402ba2ed7054d",
+        "namespace_root": {
+          "package": "titlemap_mspt",
+          "object_index": 1299,
+          "path": "UI_GameStart",
+          "class_path": "Core.Package",
+          "object_flags": "0007000400000000",
+          "export_flags": 1,
+          "source_sha256": "e094df8399beac753e07a1ee388d5192b8f0a721fa854d786104de7439e98395",
+          "logical_serial_offset": 1906645,
+          "serial_size": 12
+        },
+        "runtime_instance_selected": false
+      },
+      "atlas_supported": true,
+      "tiled_sha256": "1aa5ad2cdec7379bba923ae8052dcbf96a51282e2fb3148c3db26b9d9e9118ea",
+      "linear_dxt5_sha256": "1251898cbbee4e067a788827ce71d0ef073f015ebad109dd088e1861be15fca8",
+      "rgba_sha256": "40bd431d2b7000a97cc6a89fd7c4a64d387bd6582bb4dcf14db49ea6f6d09161",
+      "preview": "build\\phase-292-texture-aliases\\titlemap_mspt-e094df83-1662.png",
+      "bulk_flags": 0
+    },
+    {
+      "disc": 2,
+      "resource_path": "MC2Game/CookedXenon/TitleMap_MSPT.xxx",
+      "source_sha256": "e094df8399beac753e07a1ee388d5192b8f0a721fa854d786104de7439e98395",
+      "export": 1663,
+      "path": "UI_GameStart.Textures.Menu_tex_Back",
+      "leaf": "Menu_tex_Back",
+      "class_path": "Engine.Texture2D",
+      "serial_offset": 8725961,
+      "serial_size": 33142,
+      "package_guid": "71a96c994fc7d287985bf4bc2d19d6dc",
+      "payload_sha256": "5b35e93720d9f8fb332ab0314d9866f025d189304491cb8bb0e6753a16ad474f",
+      "width": 256,
+      "height": 32,
+      "format_raw": "07",
+      "source_art": {
+        "header_offset": 330,
+        "flags": 0,
+        "element_count": 0,
+        "size_on_disk": 0,
+        "data_offset": 8726307,
+        "size_on_disk_field_offset": 338,
+        "data_offset_field_offset": 342,
+        "payload_offset": 346
+      },
+      "mip_count": 1,
+      "first_bulk": {
+        "header_offset": 350,
+        "flags": 0,
+        "element_count": 32768,
+        "size_on_disk": 32768,
+        "data_offset": 8726327,
+        "size_on_disk_field_offset": 358,
+        "data_offset_field_offset": 362,
+        "payload_offset": 366
+      },
+      "identity": {
+        "canonical_path": "ui_gamestart.textures.menu_tex_back",
+        "class_path": "engine.texture2d",
+        "forced_export": true,
+        "namespace_guid": "e4bd88ab4c3d22d9091402ba2ed7054d",
+        "namespace_root": {
+          "package": "titlemap_mspt",
+          "object_index": 1299,
+          "path": "UI_GameStart",
+          "class_path": "Core.Package",
+          "object_flags": "0007000400000000",
+          "export_flags": 1,
+          "source_sha256": "e094df8399beac753e07a1ee388d5192b8f0a721fa854d786104de7439e98395",
+          "logical_serial_offset": 1906645,
+          "serial_size": 12
+        },
+        "runtime_instance_selected": false
+      },
+      "atlas_supported": true,
+      "tiled_sha256": "8083b2e825d496079b9b7041fac5f14cdcf1f1ce64999d5e8515e6eee61cc101",
+      "linear_dxt5_sha256": "79ddadea6a99afb01913607a7571878251e4ea0ae8c0cd3c02f21d6daa0e9e6c",
+      "rgba_sha256": "648bbbef50a3940b838de988919c9c7a5a386b78919291925c433ddb65e3bdbf",
+      "preview": "build\\phase-292-texture-aliases\\titlemap_mspt-e094df83-1663.png",
+      "bulk_flags": 0
+    },
+    {
+      "disc": 2,
+      "resource_path": "MC2Game/CookedXenon/TitleMap_MSPT.xxx",
+      "source_sha256": "e094df8399beac753e07a1ee388d5192b8f0a721fa854d786104de7439e98395",
+      "export": 1664,
+      "path": "UI_GameStart.Textures.Press_Start_1",
+      "leaf": "Press_Start_1",
+      "class_path": "Engine.Texture2D",
+      "serial_offset": 8759103,
+      "serial_size": 33192,
+      "package_guid": "71a96c994fc7d287985bf4bc2d19d6dc",
+      "payload_sha256": "769c51319861521e9f04c02a8de741e6be0ded427bb6df87aa97cf067eada55e",
+      "width": 256,
+      "height": 32,
+      "format_raw": "07",
+      "source_art": {
+        "header_offset": 380,
+        "flags": 0,
+        "element_count": 0,
+        "size_on_disk": 0,
+        "data_offset": 8759499,
+        "size_on_disk_field_offset": 388,
+        "data_offset_field_offset": 392,
+        "payload_offset": 396
+      },
+      "mip_count": 1,
+      "first_bulk": {
+        "header_offset": 400,
+        "flags": 0,
+        "element_count": 32768,
+        "size_on_disk": 32768,
+        "data_offset": 8759519,
+        "size_on_disk_field_offset": 408,
+        "data_offset_field_offset": 412,
+        "payload_offset": 416
+      },
+      "identity": {
+        "canonical_path": "ui_gamestart.textures.press_start_1",
+        "class_path": "engine.texture2d",
+        "forced_export": true,
+        "namespace_guid": "e4bd88ab4c3d22d9091402ba2ed7054d",
+        "namespace_root": {
+          "package": "titlemap_mspt",
+          "object_index": 1299,
+          "path": "UI_GameStart",
+          "class_path": "Core.Package",
+          "object_flags": "0007000400000000",
+          "export_flags": 1,
+          "source_sha256": "e094df8399beac753e07a1ee388d5192b8f0a721fa854d786104de7439e98395",
+          "logical_serial_offset": 1906645,
+          "serial_size": 12
+        },
+        "runtime_instance_selected": false
+      },
+      "atlas_supported": true,
+      "tiled_sha256": "6f7aeac80c1ee2c0f95a965cc45a5f2372f507a18dcdb2d2e46cec97dbbe0592",
+      "linear_dxt5_sha256": "e202d4f82cfeb2bacf0958e06bc6200f1c299233ad52bf3087194a98c25dac87",
+      "rgba_sha256": "b5054b2ce4895b560076403fd33985d456d3bdaecbe193441aa75388e452a2bd",
+      "preview": "build\\phase-292-texture-aliases\\titlemap_mspt-e094df83-1664.png",
+      "bulk_flags": 0
+    },
+    {
+      "disc": 2,
+      "resource_path": "MC2Game/CookedXenon/TitleMap_MSPT.xxx",
+      "source_sha256": "e094df8399beac753e07a1ee388d5192b8f0a721fa854d786104de7439e98395",
+      "export": 1670,
+      "path": "UI_Pillar_Title.Tex.Disc_01",
+      "leaf": "Disc_01",
+      "class_path": "Engine.Texture2D",
+      "serial_offset": 8990738,
+      "serial_size": 16745,
+      "package_guid": "71a96c994fc7d287985bf4bc2d19d6dc",
+      "payload_sha256": "653ca3c9f80d8a2dde19a96a468fcb8df80687b7ebe3470f8db7f30af892486c",
+      "width": 64,
+      "height": 64,
+      "format_raw": "07",
+      "source_art": {
+        "header_offset": 317,
+        "flags": 0,
+        "element_count": 0,
+        "size_on_disk": 0,
+        "data_offset": 8991071,
+        "size_on_disk_field_offset": 325,
+        "data_offset_field_offset": 329,
+        "payload_offset": 333
+      },
+      "mip_count": 1,
+      "first_bulk": {
+        "header_offset": 337,
+        "flags": 0,
+        "element_count": 16384,
+        "size_on_disk": 16384,
+        "data_offset": 8991091,
+        "size_on_disk_field_offset": 345,
+        "data_offset_field_offset": 349,
+        "payload_offset": 353
+      },
+      "identity": {
+        "canonical_path": "ui_pillar_title.tex.disc_01",
+        "class_path": "engine.texture2d",
+        "forced_export": true,
+        "namespace_guid": "60482c3a49aa0da206bf15804c38718e",
+        "namespace_root": {
+          "package": "titlemap_mspt",
+          "object_index": 1306,
+          "path": "UI_Pillar_Title",
+          "class_path": "Core.Package",
+          "object_flags": "0007000400000000",
+          "export_flags": 1,
+          "source_sha256": "e094df8399beac753e07a1ee388d5192b8f0a721fa854d786104de7439e98395",
+          "logical_serial_offset": 1906729,
+          "serial_size": 12
+        },
+        "runtime_instance_selected": false
+      },
+      "atlas_supported": true,
+      "tiled_sha256": "f9393c2b47f57029b671b78516c8a72dddcc03b40f1636a33abf0decdc04821b",
+      "linear_dxt5_sha256": "a57e0c0f1275773bfe618f9b73f6f3b9282ef3514c263da4824b9953b9227962",
+      "rgba_sha256": "5b8fafe721802190c433af265f7c5fa4623a21df9b85439874c028dae9e3466d",
+      "preview": "build\\phase-292-texture-aliases\\titlemap_mspt-e094df83-1670.png",
+      "bulk_flags": 0
+    },
+    {
+      "disc": 2,
+      "resource_path": "MC2Game/CookedXenon/TitleMap_MSPT.xxx",
+      "source_sha256": "e094df8399beac753e07a1ee388d5192b8f0a721fa854d786104de7439e98395",
+      "export": 1671,
+      "path": "UI_Pillar_Title.Tex.Disc_02",
+      "leaf": "Disc_02",
+      "class_path": "Engine.Texture2D",
+      "serial_offset": 9007483,
+      "serial_size": 16745,
+      "package_guid": "71a96c994fc7d287985bf4bc2d19d6dc",
+      "payload_sha256": "69b63d7b3c39cba41359e839b86ada86501f468e0249b600936ddf10f10685cb",
+      "width": 64,
+      "height": 64,
+      "format_raw": "07",
+      "source_art": {
+        "header_offset": 317,
+        "flags": 0,
+        "element_count": 0,
+        "size_on_disk": 0,
+        "data_offset": 9007816,
+        "size_on_disk_field_offset": 325,
+        "data_offset_field_offset": 329,
+        "payload_offset": 333
+      },
+      "mip_count": 1,
+      "first_bulk": {
+        "header_offset": 337,
+        "flags": 0,
+        "element_count": 16384,
+        "size_on_disk": 16384,
+        "data_offset": 9007836,
+        "size_on_disk_field_offset": 345,
+        "data_offset_field_offset": 349,
+        "payload_offset": 353
+      },
+      "identity": {
+        "canonical_path": "ui_pillar_title.tex.disc_02",
+        "class_path": "engine.texture2d",
+        "forced_export": true,
+        "namespace_guid": "60482c3a49aa0da206bf15804c38718e",
+        "namespace_root": {
+          "package": "titlemap_mspt",
+          "object_index": 1306,
+          "path": "UI_Pillar_Title",
+          "class_path": "Core.Package",
+          "object_flags": "0007000400000000",
+          "export_flags": 1,
+          "source_sha256": "e094df8399beac753e07a1ee388d5192b8f0a721fa854d786104de7439e98395",
+          "logical_serial_offset": 1906729,
+          "serial_size": 12
+        },
+        "runtime_instance_selected": false
+      },
+      "atlas_supported": true,
+      "tiled_sha256": "4355d1f232187fea858a750b8c11233034e2d56b4861b97c8c1b64f164a5fdb3",
+      "linear_dxt5_sha256": "3f629dfdd1b500f7b49cb4e3900219eeb62cda8d3273ef2113a75d5c56277e77",
+      "rgba_sha256": "df46fd28a008c1c457b5d5f407a16034954566bab7a7c329c4cdcc9f8bc6e503",
+      "preview": "build\\phase-292-texture-aliases\\titlemap_mspt-e094df83-1671.png",
+      "bulk_flags": 0
+    },
+    {
+      "disc": 2,
+      "resource_path": "MC2Game/CookedXenon/TitleMap_MSPT.xxx",
+      "source_sha256": "e094df8399beac753e07a1ee388d5192b8f0a721fa854d786104de7439e98395",
+      "export": 1672,
+      "path": "UI_Pillar_Title.Tex.Guest_Icon",
+      "leaf": "Guest_Icon",
+      "class_path": "Engine.Texture2D",
+      "serial_offset": 9024228,
+      "serial_size": 16748,
+      "package_guid": "71a96c994fc7d287985bf4bc2d19d6dc",
+      "payload_sha256": "6a63326faaf7395d1ffaca4e77491462b8a27d2ff5fe8290a773034e339a40c7",
+      "width": 64,
+      "height": 32,
+      "format_raw": "07",
+      "source_art": {
+        "header_offset": 320,
+        "flags": 0,
+        "element_count": 0,
+        "size_on_disk": 0,
+        "data_offset": 9024564,
+        "size_on_disk_field_offset": 328,
+        "data_offset_field_offset": 332,
+        "payload_offset": 336
+      },
+      "mip_count": 1,
+      "first_bulk": {
+        "header_offset": 340,
+        "flags": 0,
+        "element_count": 16384,
+        "size_on_disk": 16384,
+        "data_offset": 9024584,
+        "size_on_disk_field_offset": 348,
+        "data_offset_field_offset": 352,
+        "payload_offset": 356
+      },
+      "identity": {
+        "canonical_path": "ui_pillar_title.tex.guest_icon",
+        "class_path": "engine.texture2d",
+        "forced_export": true,
+        "namespace_guid": "60482c3a49aa0da206bf15804c38718e",
+        "namespace_root": {
+          "package": "titlemap_mspt",
+          "object_index": 1306,
+          "path": "UI_Pillar_Title",
+          "class_path": "Core.Package",
+          "object_flags": "0007000400000000",
+          "export_flags": 1,
+          "source_sha256": "e094df8399beac753e07a1ee388d5192b8f0a721fa854d786104de7439e98395",
+          "logical_serial_offset": 1906729,
+          "serial_size": 12
+        },
+        "runtime_instance_selected": false
+      },
+      "atlas_supported": true,
+      "tiled_sha256": "68929063870e2106a042735551d8236c91f9f4465639e957fd2d8c520a82ed65",
+      "linear_dxt5_sha256": "74cf769852e64c5237669b80d102db85d9370f108f1c97ee1d7a8ee9ca958bed",
+      "rgba_sha256": "603b654961b9515655864d0c2631bba03f7b6bd5cfc3bafdf6a689ce0858262a",
+      "preview": "build\\phase-292-texture-aliases\\titlemap_mspt-e094df83-1672.png",
+      "bulk_flags": 0
+    },
+    {
+      "disc": 2,
+      "resource_path": "MC2Game/CookedXenon/UI_Battle_08_Jp.xxx",
+      "source_sha256": "36cacc49ee8b0ec199735ecdd8e1f4c0748971d3c0eaf03015522132b1b18b73",
+      "export": 27,
+      "path": "Tex.Character_Name_Argo",
+      "leaf": "Character_Name_Argo",
+      "class_path": "Engine.Texture2D",
+      "serial_offset": 98296,
+      "serial_size": 1682,
+      "package_guid": "27bc6ef04d931f48368f6ea6c58523eb",
+      "payload_sha256": "8ebe90cba9c3e5e70b199b6c6124f6405d63f064dbfea04ef46572d3fb4e7805",
+      "width": 128,
+      "height": 32,
+      "format_raw": "07",
+      "source_art": {
+        "header_offset": 448,
+        "flags": 0,
+        "element_count": 0,
+        "size_on_disk": 0,
+        "data_offset": 98760,
+        "size_on_disk_field_offset": 456,
+        "data_offset_field_offset": 460,
+        "payload_offset": 464
+      },
+      "mip_count": 1,
+      "first_bulk": {
+        "header_offset": 468,
+        "flags": 64,
+        "element_count": 16384,
+        "size_on_disk": 1190,
+        "data_offset": 98780,
+        "size_on_disk_field_offset": 476,
+        "data_offset_field_offset": 480,
+        "payload_offset": 484
+      },
+      "identity": {
+        "canonical_path": "ui_battle_08_jp.tex.character_name_argo",
+        "class_path": "engine.texture2d",
+        "forced_export": false,
+        "namespace_guid": "27bc6ef04d931f48368f6ea6c58523eb",
+        "namespace_root": null,
+        "runtime_instance_selected": false
+      },
+      "atlas_supported": true,
+      "tiled_sha256": "6fff6002c9b580034dec312649bee61973a6e3d6d8739515e5a086652afe3a67",
+      "linear_dxt5_sha256": "0f09d87bb9638abd3ef161309489bd4eeab5209a63abc3707ba1449707bd2c89",
+      "rgba_sha256": "78c2b14229b883970e02964ab153746eff9281c0f1c51d6f8d2858e07eb3aa4b",
+      "preview": "build\\phase-292-texture-aliases\\ui_battle_08_jp-36cacc49-27.png",
+      "bulk_flags": 64
+    },
+    {
+      "disc": 2,
+      "resource_path": "MC2Game/CookedXenon/UI_Battle_08_Jp.xxx",
+      "source_sha256": "36cacc49ee8b0ec199735ecdd8e1f4c0748971d3c0eaf03015522132b1b18b73",
+      "export": 28,
+      "path": "Tex.Character_Name_Argo_Red",
+      "leaf": "Character_Name_Argo_Red",
+      "class_path": "Engine.Texture2D",
+      "serial_offset": 99978,
+      "serial_size": 1684,
+      "package_guid": "27bc6ef04d931f48368f6ea6c58523eb",
+      "payload_sha256": "720235eda78878aa7f37f74a926232fb6a39502d273de00fd2dc68fa17b4ce6f",
+      "width": 128,
+      "height": 32,
+      "format_raw": "07",
+      "source_art": {
+        "header_offset": 456,
+        "flags": 0,
+        "element_count": 0,
+        "size_on_disk": 0,
+        "data_offset": 100450,
+        "size_on_disk_field_offset": 464,
+        "data_offset_field_offset": 468,
+        "payload_offset": 472
+      },
+      "mip_count": 1,
+      "first_bulk": {
+        "header_offset": 476,
+        "flags": 64,
+        "element_count": 16384,
+        "size_on_disk": 1184,
+        "data_offset": 100470,
+        "size_on_disk_field_offset": 484,
+        "data_offset_field_offset": 488,
+        "payload_offset": 492
+      },
+      "identity": {
+        "canonical_path": "ui_battle_08_jp.tex.character_name_argo_red",
+        "class_path": "engine.texture2d",
+        "forced_export": false,
+        "namespace_guid": "27bc6ef04d931f48368f6ea6c58523eb",
+        "namespace_root": null,
+        "runtime_instance_selected": false
+      },
+      "atlas_supported": true,
+      "tiled_sha256": "844779a41e942d179aade1f26fc68087326dcdcac4632f8b398bed611bce4e6c",
+      "linear_dxt5_sha256": "31769eafe510b4980ac36d3f3d791b878b42e02d3da1d15658e6eacb2b884636",
+      "rgba_sha256": "f14004af309526d850f68617d83acff57ffd33a52789267338f661a48f466ab0",
+      "preview": "build\\phase-292-texture-aliases\\ui_battle_08_jp-36cacc49-28.png",
+      "bulk_flags": 64
+    },
+    {
+      "disc": 2,
+      "resource_path": "MC2Game/CookedXenon/UI_Battle_08_Jp.xxx",
+      "source_sha256": "36cacc49ee8b0ec199735ecdd8e1f4c0748971d3c0eaf03015522132b1b18b73",
+      "export": 30,
+      "path": "Tex.Character_Name_Celestin",
+      "leaf": "Character_Name_Celestin",
+      "class_path": "Engine.Texture2D",
+      "serial_offset": 103946,
+      "serial_size": 2370,
+      "package_guid": "27bc6ef04d931f48368f6ea6c58523eb",
+      "payload_sha256": "07a4170ccf109eb8c226c8fc05ba7ec93dd0415be39cd9fb0c3a8adff9539632",
+      "width": 128,
+      "height": 32,
+      "format_raw": "07",
+      "source_art": {
+        "header_offset": 456,
+        "flags": 0,
+        "element_count": 0,
+        "size_on_disk": 0,
+        "data_offset": 104418,
+        "size_on_disk_field_offset": 464,
+        "data_offset_field_offset": 468,
+        "payload_offset": 472
+      },
+      "mip_count": 1,
+      "first_bulk": {
+        "header_offset": 476,
+        "flags": 64,
+        "element_count": 16384,
+        "size_on_disk": 1870,
+        "data_offset": 104438,
+        "size_on_disk_field_offset": 484,
+        "data_offset_field_offset": 488,
+        "payload_offset": 492
+      },
+      "identity": {
+        "canonical_path": "ui_battle_08_jp.tex.character_name_celestin",
+        "class_path": "engine.texture2d",
+        "forced_export": false,
+        "namespace_guid": "27bc6ef04d931f48368f6ea6c58523eb",
+        "namespace_root": null,
+        "runtime_instance_selected": false
+      },
+      "atlas_supported": true,
+      "tiled_sha256": "a74bbc31c23c86206e9f14357450385d9dc1ef2d2ec0d98d0367a4f84ff763db",
+      "linear_dxt5_sha256": "1ceb0001df4c96b308e7a45426ab0b77e59b42aafa8d334981141144b0b41726",
+      "rgba_sha256": "3c8e052e304bc18f4453a01c7856b4d7420b981b8f80457862c7a494658fee68",
+      "preview": "build\\phase-292-texture-aliases\\ui_battle_08_jp-36cacc49-30.png",
+      "bulk_flags": 64
+    },
+    {
+      "disc": 2,
+      "resource_path": "MC2Game/CookedXenon/UI_Battle_08_Jp.xxx",
+      "source_sha256": "36cacc49ee8b0ec199735ecdd8e1f4c0748971d3c0eaf03015522132b1b18b73",
+      "export": 31,
+      "path": "Tex.Character_Name_Celestin_Red",
+      "leaf": "Character_Name_Celestin_Red",
+      "class_path": "Engine.Texture2D",
+      "serial_offset": 106316,
+      "serial_size": 2384,
+      "package_guid": "27bc6ef04d931f48368f6ea6c58523eb",
+      "payload_sha256": "ae7c22b5862d237b566dec7ad8a2af97a622fd9b4e1e2a225c0f9e22e06ff2e4",
+      "width": 128,
+      "height": 32,
+      "format_raw": "07",
+      "source_art": {
+        "header_offset": 464,
+        "flags": 0,
+        "element_count": 0,
+        "size_on_disk": 0,
+        "data_offset": 106796,
+        "size_on_disk_field_offset": 472,
+        "data_offset_field_offset": 476,
+        "payload_offset": 480
+      },
+      "mip_count": 1,
+      "first_bulk": {
+        "header_offset": 484,
+        "flags": 64,
+        "element_count": 16384,
+        "size_on_disk": 1876,
+        "data_offset": 106816,
+        "size_on_disk_field_offset": 492,
+        "data_offset_field_offset": 496,
+        "payload_offset": 500
+      },
+      "identity": {
+        "canonical_path": "ui_battle_08_jp.tex.character_name_celestin_red",
+        "class_path": "engine.texture2d",
+        "forced_export": false,
+        "namespace_guid": "27bc6ef04d931f48368f6ea6c58523eb",
+        "namespace_root": null,
+        "runtime_instance_selected": false
+      },
+      "atlas_supported": true,
+      "tiled_sha256": "5aa3bb66cca8a798f1d239a4d22c3b394493f6bef99343eed3d144418fa8db4e",
+      "linear_dxt5_sha256": "a2e0120b091810ff21a7658ca4a49763624c738213c517f12ee98e7d353e1be9",
+      "rgba_sha256": "53ced0eaab3c4fbfc2aa8b4d5e0e91d40c890862ffe90d0413cb9a8ced72fd0d",
+      "preview": "build\\phase-292-texture-aliases\\ui_battle_08_jp-36cacc49-31.png",
+      "bulk_flags": 64
+    },
+    {
+      "disc": 2,
+      "resource_path": "MC2Game/CookedXenon/UI_Battle_08_Jp.xxx",
+      "source_sha256": "36cacc49ee8b0ec199735ecdd8e1f4c0748971d3c0eaf03015522132b1b18b73",
+      "export": 33,
+      "path": "Tex.Character_Name_Juto",
+      "leaf": "Character_Name_Juto",
+      "class_path": "Engine.Texture2D",
+      "serial_offset": 113538,
+      "serial_size": 1586,
+      "package_guid": "27bc6ef04d931f48368f6ea6c58523eb",
+      "payload_sha256": "d35bb531635d5f4c20ab74d9fe6358b86ff8a3175f8f06a0961737b852a6b126",
+      "width": 128,
+      "height": 32,
+      "format_raw": "07",
+      "source_art": {
+        "header_offset": 448,
+        "flags": 0,
+        "element_count": 0,
+        "size_on_disk": 0,
+        "data_offset": 114002,
+        "size_on_disk_field_offset": 456,
+        "data_offset_field_offset": 460,
+        "payload_offset": 464
+      },
+      "mip_count": 1,
+      "first_bulk": {
+        "header_offset": 468,
+        "flags": 64,
+        "element_count": 16384,
+        "size_on_disk": 1094,
+        "data_offset": 114022,
+        "size_on_disk_field_offset": 476,
+        "data_offset_field_offset": 480,
+        "payload_offset": 484
+      },
+      "identity": {
+        "canonical_path": "ui_battle_08_jp.tex.character_name_juto",
+        "class_path": "engine.texture2d",
+        "forced_export": false,
+        "namespace_guid": "27bc6ef04d931f48368f6ea6c58523eb",
+        "namespace_root": null,
+        "runtime_instance_selected": false
+      },
+      "atlas_supported": true,
+      "tiled_sha256": "2d2e3e8c6dd33a7523bd9b244d06435a44633a574778d17cd3483535d25005c8",
+      "linear_dxt5_sha256": "e3e6811661b8f72835d85e5a13dcd281ce88ea2e8c60812e48d8989aa5dff3f0",
+      "rgba_sha256": "73fa3b5e167d7e75d67b65e73dbcb6aeeec2548ef42a1b937eafea7e0f0b8112",
+      "preview": "build\\phase-292-texture-aliases\\ui_battle_08_jp-36cacc49-33.png",
+      "bulk_flags": 64
+    },
+    {
+      "disc": 2,
+      "resource_path": "MC2Game/CookedXenon/UI_Battle_08_Jp.xxx",
+      "source_sha256": "36cacc49ee8b0ec199735ecdd8e1f4c0748971d3c0eaf03015522132b1b18b73",
+      "export": 34,
+      "path": "Tex.Character_Name_Juto_Red",
+      "leaf": "Character_Name_Juto_Red",
+      "class_path": "Engine.Texture2D",
+      "serial_offset": 115124,
+      "serial_size": 1586,
+      "package_guid": "27bc6ef04d931f48368f6ea6c58523eb",
+      "payload_sha256": "e3190dfef2a5b927dab9e2601add91d46bbb5451e338f08b65d8c2c01c157c94",
+      "width": 128,
+      "height": 32,
+      "format_raw": "07",
+      "source_art": {
+        "header_offset": 456,
+        "flags": 0,
+        "element_count": 0,
+        "size_on_disk": 0,
+        "data_offset": 115596,
+        "size_on_disk_field_offset": 464,
+        "data_offset_field_offset": 468,
+        "payload_offset": 472
+      },
+      "mip_count": 1,
+      "first_bulk": {
+        "header_offset": 476,
+        "flags": 64,
+        "element_count": 16384,
+        "size_on_disk": 1086,
+        "data_offset": 115616,
+        "size_on_disk_field_offset": 484,
+        "data_offset_field_offset": 488,
+        "payload_offset": 492
+      },
+      "identity": {
+        "canonical_path": "ui_battle_08_jp.tex.character_name_juto_red",
+        "class_path": "engine.texture2d",
+        "forced_export": false,
+        "namespace_guid": "27bc6ef04d931f48368f6ea6c58523eb",
+        "namespace_root": null,
+        "runtime_instance_selected": false
+      },
+      "atlas_supported": true,
+      "tiled_sha256": "bc0fa6a20a12c0da1ca7361db194f83583240437cb4fec4b32723800f818974d",
+      "linear_dxt5_sha256": "a0805f7dbc776dc7a21855f4c8d9d785b09ee77bf20fc3f1c5e7092bc0f170f6",
+      "rgba_sha256": "8b05279fe9eb5e89d5d37f1fd701ef025a54f12984f89aab77f706f43a8a17fc",
+      "preview": "build\\phase-292-texture-aliases\\ui_battle_08_jp-36cacc49-34.png",
+      "bulk_flags": 64
+    },
+    {
+      "disc": 2,
+      "resource_path": "MC2Game/CookedXenon/UI_Battle_08_Jp.xxx",
+      "source_sha256": "36cacc49ee8b0ec199735ecdd8e1f4c0748971d3c0eaf03015522132b1b18b73",
+      "export": 35,
+      "path": "Tex.Character_Name_Zephi",
+      "leaf": "Character_Name_Zephi",
+      "class_path": "Engine.Texture2D",
+      "serial_offset": 116710,
+      "serial_size": 1630,
+      "package_guid": "27bc6ef04d931f48368f6ea6c58523eb",
+      "payload_sha256": "25694079e98c13e48103f7fcae61bbdce47e1d0af02352e177a3e4f516cccf14",
+      "width": 128,
+      "height": 32,
+      "format_raw": "07",
+      "source_art": {
+        "header_offset": 450,
+        "flags": 0,
+        "element_count": 0,
+        "size_on_disk": 0,
+        "data_offset": 117176,
+        "size_on_disk_field_offset": 458,
+        "data_offset_field_offset": 462,
+        "payload_offset": 466
+      },
+      "mip_count": 1,
+      "first_bulk": {
+        "header_offset": 470,
+        "flags": 64,
+        "element_count": 16384,
+        "size_on_disk": 1136,
+        "data_offset": 117196,
+        "size_on_disk_field_offset": 478,
+        "data_offset_field_offset": 482,
+        "payload_offset": 486
+      },
+      "identity": {
+        "canonical_path": "ui_battle_08_jp.tex.character_name_zephi",
+        "class_path": "engine.texture2d",
+        "forced_export": false,
+        "namespace_guid": "27bc6ef04d931f48368f6ea6c58523eb",
+        "namespace_root": null,
+        "runtime_instance_selected": false
+      },
+      "atlas_supported": true,
+      "tiled_sha256": "2425722eeacb707957b888881204698f9a4cfab720e846a03428178baea806f7",
+      "linear_dxt5_sha256": "9f9d008ec0b7bf715d3464ca2d0f75cbf28355ff69079a7ad04d4a622266f009",
+      "rgba_sha256": "d0ca26d8dbe8a0d1fe80b4a085d3a551aa94d6ec982e5cd16bf0dcc2d49f3ab9",
+      "preview": "build\\phase-292-texture-aliases\\ui_battle_08_jp-36cacc49-35.png",
+      "bulk_flags": 64
+    },
+    {
+      "disc": 2,
+      "resource_path": "MC2Game/CookedXenon/UI_Battle_08_Jp.xxx",
+      "source_sha256": "36cacc49ee8b0ec199735ecdd8e1f4c0748971d3c0eaf03015522132b1b18b73",
+      "export": 36,
+      "path": "Tex.Character_Name_Zephi_Red",
+      "leaf": "Character_Name_Zephi_Red",
+      "class_path": "Engine.Texture2D",
+      "serial_offset": 118340,
+      "serial_size": 1650,
+      "package_guid": "27bc6ef04d931f48368f6ea6c58523eb",
+      "payload_sha256": "bca12ca545ff0a8ec40ce1e9197f9133295fd3986ae1928d17abc50da5f6a441",
+      "width": 128,
+      "height": 32,
+      "format_raw": "07",
+      "source_art": {
+        "header_offset": 458,
+        "flags": 0,
+        "element_count": 0,
+        "size_on_disk": 0,
+        "data_offset": 118814,
+        "size_on_disk_field_offset": 466,
+        "data_offset_field_offset": 470,
+        "payload_offset": 474
+      },
+      "mip_count": 1,
+      "first_bulk": {
+        "header_offset": 478,
+        "flags": 64,
+        "element_count": 16384,
+        "size_on_disk": 1148,
+        "data_offset": 118834,
+        "size_on_disk_field_offset": 486,
+        "data_offset_field_offset": 490,
+        "payload_offset": 494
+      },
+      "identity": {
+        "canonical_path": "ui_battle_08_jp.tex.character_name_zephi_red",
+        "class_path": "engine.texture2d",
+        "forced_export": false,
+        "namespace_guid": "27bc6ef04d931f48368f6ea6c58523eb",
+        "namespace_root": null,
+        "runtime_instance_selected": false
+      },
+      "atlas_supported": true,
+      "tiled_sha256": "c59fc2ca514bf24c8c3ea3dca2d78999ea320f5815d7726bc5b19d5d59971954",
+      "linear_dxt5_sha256": "64d628e1e0b8a337782b832089fac7c0e49b2173a246c77a248147134b7d6f46",
+      "rgba_sha256": "ec68b58c73dfdf5f15e8970c3a27e0741734a720fe6d71c77106021f36543226",
+      "preview": "build\\phase-292-texture-aliases\\ui_battle_08_jp-36cacc49-36.png",
+      "bulk_flags": 64
+    },
+    {
+      "disc": 2,
+      "resource_path": "MC2Game/CookedXenon/UI_GameStart.xxx",
+      "source_sha256": "2884c9e3f5520d6df7390aabcb754ed0644194eb7341ae6e0f25e9594df938b1",
+      "export": 14,
+      "path": "Textures.Menu_tex",
+      "leaf": "Menu_tex",
+      "class_path": "Engine.Texture2D",
+      "serial_offset": 488082,
+      "serial_size": 23865,
+      "package_guid": "e4bd88ab4c3d22d9091402ba2ed7054d",
+      "payload_sha256": "8993dba89b3845bd79bb722a47298f042e29b7283bb6e32d672f394861ed87e6",
+      "width": 256,
+      "height": 256,
+      "format_raw": "07",
+      "source_art": {
+        "header_offset": 325,
+        "flags": 0,
+        "element_count": 0,
+        "size_on_disk": 0,
+        "data_offset": 488423,
+        "size_on_disk_field_offset": 333,
+        "data_offset_field_offset": 337,
+        "payload_offset": 341
+      },
+      "mip_count": 1,
+      "first_bulk": {
+        "header_offset": 345,
+        "flags": 64,
+        "element_count": 65536,
+        "size_on_disk": 23496,
+        "data_offset": 488443,
+        "size_on_disk_field_offset": 353,
+        "data_offset_field_offset": 357,
+        "payload_offset": 361
+      },
+      "identity": {
+        "canonical_path": "ui_gamestart.textures.menu_tex",
+        "class_path": "engine.texture2d",
+        "forced_export": false,
+        "namespace_guid": "e4bd88ab4c3d22d9091402ba2ed7054d",
+        "namespace_root": null,
+        "runtime_instance_selected": false
+      },
+      "atlas_supported": true,
+      "tiled_sha256": "1aa5ad2cdec7379bba923ae8052dcbf96a51282e2fb3148c3db26b9d9e9118ea",
+      "linear_dxt5_sha256": "1251898cbbee4e067a788827ce71d0ef073f015ebad109dd088e1861be15fca8",
+      "rgba_sha256": "40bd431d2b7000a97cc6a89fd7c4a64d387bd6582bb4dcf14db49ea6f6d09161",
+      "preview": "build\\phase-292-texture-aliases\\ui_gamestart-2884c9e3-14.png",
+      "bulk_flags": 64
+    },
+    {
+      "disc": 2,
+      "resource_path": "MC2Game/CookedXenon/UI_GameStart.xxx",
+      "source_sha256": "2884c9e3f5520d6df7390aabcb754ed0644194eb7341ae6e0f25e9594df938b1",
+      "export": 15,
+      "path": "Textures.Menu_tex_Back",
+      "leaf": "Menu_tex_Back",
+      "class_path": "Engine.Texture2D",
+      "serial_offset": 511947,
+      "serial_size": 2852,
+      "package_guid": "e4bd88ab4c3d22d9091402ba2ed7054d",
+      "payload_sha256": "8b48e026bc2d59d31b322844373b5a46f4254dab32eb882caece5390244fd7fd",
+      "width": 256,
+      "height": 32,
+      "format_raw": "07",
+      "source_art": {
+        "header_offset": 330,
+        "flags": 0,
+        "element_count": 0,
+        "size_on_disk": 0,
+        "data_offset": 512293,
+        "size_on_disk_field_offset": 338,
+        "data_offset_field_offset": 342,
+        "payload_offset": 346
+      },
+      "mip_count": 1,
+      "first_bulk": {
+        "header_offset": 350,
+        "flags": 64,
+        "element_count": 32768,
+        "size_on_disk": 2478,
+        "data_offset": 512313,
+        "size_on_disk_field_offset": 358,
+        "data_offset_field_offset": 362,
+        "payload_offset": 366
+      },
+      "identity": {
+        "canonical_path": "ui_gamestart.textures.menu_tex_back",
+        "class_path": "engine.texture2d",
+        "forced_export": false,
+        "namespace_guid": "e4bd88ab4c3d22d9091402ba2ed7054d",
+        "namespace_root": null,
+        "runtime_instance_selected": false
+      },
+      "atlas_supported": true,
+      "tiled_sha256": "8083b2e825d496079b9b7041fac5f14cdcf1f1ce64999d5e8515e6eee61cc101",
+      "linear_dxt5_sha256": "79ddadea6a99afb01913607a7571878251e4ea0ae8c0cd3c02f21d6daa0e9e6c",
+      "rgba_sha256": "648bbbef50a3940b838de988919c9c7a5a386b78919291925c433ddb65e3bdbf",
+      "preview": "build\\phase-292-texture-aliases\\ui_gamestart-2884c9e3-15.png",
+      "bulk_flags": 64
+    },
+    {
+      "disc": 2,
+      "resource_path": "MC2Game/CookedXenon/UI_GameStart.xxx",
+      "source_sha256": "2884c9e3f5520d6df7390aabcb754ed0644194eb7341ae6e0f25e9594df938b1",
+      "export": 16,
+      "path": "Textures.Press_Start_1",
+      "leaf": "Press_Start_1",
+      "class_path": "Engine.Texture2D",
+      "serial_offset": 514799,
+      "serial_size": 4924,
+      "package_guid": "e4bd88ab4c3d22d9091402ba2ed7054d",
+      "payload_sha256": "183967b25ff9f45e6a8beb04368362f09886f13336799e99efda419940ea50db",
+      "width": 256,
+      "height": 32,
+      "format_raw": "07",
+      "source_art": {
+        "header_offset": 380,
+        "flags": 0,
+        "element_count": 0,
+        "size_on_disk": 0,
+        "data_offset": 515195,
+        "size_on_disk_field_offset": 388,
+        "data_offset_field_offset": 392,
+        "payload_offset": 396
+      },
+      "mip_count": 1,
+      "first_bulk": {
+        "header_offset": 400,
+        "flags": 64,
+        "element_count": 32768,
+        "size_on_disk": 4500,
+        "data_offset": 515215,
+        "size_on_disk_field_offset": 408,
+        "data_offset_field_offset": 412,
+        "payload_offset": 416
+      },
+      "identity": {
+        "canonical_path": "ui_gamestart.textures.press_start_1",
+        "class_path": "engine.texture2d",
+        "forced_export": false,
+        "namespace_guid": "e4bd88ab4c3d22d9091402ba2ed7054d",
+        "namespace_root": null,
+        "runtime_instance_selected": false
+      },
+      "atlas_supported": true,
+      "tiled_sha256": "6f7aeac80c1ee2c0f95a965cc45a5f2372f507a18dcdb2d2e46cec97dbbe0592",
+      "linear_dxt5_sha256": "e202d4f82cfeb2bacf0958e06bc6200f1c299233ad52bf3087194a98c25dac87",
+      "rgba_sha256": "b5054b2ce4895b560076403fd33985d456d3bdaecbe193441aa75388e452a2bd",
+      "preview": "build\\phase-292-texture-aliases\\ui_gamestart-2884c9e3-16.png",
+      "bulk_flags": 64
+    },
+    {
+      "disc": 2,
+      "resource_path": "MC2Game/CookedXenon/UI_Pillar.xxx",
+      "source_sha256": "441ac75a96bb6746bb6b71fbd78bdc75280100c20c77616ea58d67aab0c625dd",
+      "export": 611,
+      "path": "Tex.Disc_01",
+      "leaf": "Disc_01",
+      "class_path": "Engine.Texture2D",
+      "serial_offset": 1065729,
+      "serial_size": 16745,
+      "package_guid": "fe0b3d074cda68a96ded118c4c2a061b",
+      "payload_sha256": "2ab47b03c59953ba46f16aa28c1437f713912cd594f3a685a19dd6b79cdee31a",
+      "width": 64,
+      "height": 64,
+      "format_raw": "07",
+      "source_art": {
+        "header_offset": 317,
+        "flags": 0,
+        "element_count": 0,
+        "size_on_disk": 0,
+        "data_offset": 1066062,
+        "size_on_disk_field_offset": 325,
+        "data_offset_field_offset": 329,
+        "payload_offset": 333
+      },
+      "mip_count": 1,
+      "first_bulk": {
+        "header_offset": 337,
+        "flags": 0,
+        "element_count": 16384,
+        "size_on_disk": 16384,
+        "data_offset": 1066082,
+        "size_on_disk_field_offset": 345,
+        "data_offset_field_offset": 349,
+        "payload_offset": 353
+      },
+      "identity": {
+        "canonical_path": "ui_pillar.tex.disc_01",
+        "class_path": "engine.texture2d",
+        "forced_export": false,
+        "namespace_guid": "fe0b3d074cda68a96ded118c4c2a061b",
+        "namespace_root": null,
+        "runtime_instance_selected": false
+      },
+      "atlas_supported": true,
+      "tiled_sha256": "f9393c2b47f57029b671b78516c8a72dddcc03b40f1636a33abf0decdc04821b",
+      "linear_dxt5_sha256": "a57e0c0f1275773bfe618f9b73f6f3b9282ef3514c263da4824b9953b9227962",
+      "rgba_sha256": "5b8fafe721802190c433af265f7c5fa4623a21df9b85439874c028dae9e3466d",
+      "preview": "build\\phase-292-texture-aliases\\ui_pillar-441ac75a-611.png",
+      "bulk_flags": 0
+    },
+    {
+      "disc": 2,
+      "resource_path": "MC2Game/CookedXenon/UI_Pillar.xxx",
+      "source_sha256": "441ac75a96bb6746bb6b71fbd78bdc75280100c20c77616ea58d67aab0c625dd",
+      "export": 612,
+      "path": "Tex.Disc_02",
+      "leaf": "Disc_02",
+      "class_path": "Engine.Texture2D",
+      "serial_offset": 1082474,
+      "serial_size": 16745,
+      "package_guid": "fe0b3d074cda68a96ded118c4c2a061b",
+      "payload_sha256": "9bf7abbba2fa0327e27a2d027095dd5701484aef6a83e398e34faeab6706e65c",
+      "width": 64,
+      "height": 64,
+      "format_raw": "07",
+      "source_art": {
+        "header_offset": 317,
+        "flags": 0,
+        "element_count": 0,
+        "size_on_disk": 0,
+        "data_offset": 1082807,
+        "size_on_disk_field_offset": 325,
+        "data_offset_field_offset": 329,
+        "payload_offset": 333
+      },
+      "mip_count": 1,
+      "first_bulk": {
+        "header_offset": 337,
+        "flags": 0,
+        "element_count": 16384,
+        "size_on_disk": 16384,
+        "data_offset": 1082827,
+        "size_on_disk_field_offset": 345,
+        "data_offset_field_offset": 349,
+        "payload_offset": 353
+      },
+      "identity": {
+        "canonical_path": "ui_pillar.tex.disc_02",
+        "class_path": "engine.texture2d",
+        "forced_export": false,
+        "namespace_guid": "fe0b3d074cda68a96ded118c4c2a061b",
+        "namespace_root": null,
+        "runtime_instance_selected": false
+      },
+      "atlas_supported": true,
+      "tiled_sha256": "4355d1f232187fea858a750b8c11233034e2d56b4861b97c8c1b64f164a5fdb3",
+      "linear_dxt5_sha256": "3f629dfdd1b500f7b49cb4e3900219eeb62cda8d3273ef2113a75d5c56277e77",
+      "rgba_sha256": "df46fd28a008c1c457b5d5f407a16034954566bab7a7c329c4cdcc9f8bc6e503",
+      "preview": "build\\phase-292-texture-aliases\\ui_pillar-441ac75a-612.png",
+      "bulk_flags": 0
+    },
+    {
+      "disc": 2,
+      "resource_path": "MC2Game/CookedXenon/UI_Pillar.xxx",
+      "source_sha256": "441ac75a96bb6746bb6b71fbd78bdc75280100c20c77616ea58d67aab0c625dd",
+      "export": 613,
+      "path": "Tex.Guest_Icon",
+      "leaf": "Guest_Icon",
+      "class_path": "Engine.Texture2D",
+      "serial_offset": 1099219,
+      "serial_size": 16748,
+      "package_guid": "fe0b3d074cda68a96ded118c4c2a061b",
+      "payload_sha256": "8cd49072fab785836b0633aba2c32609cb0f93e73caa1e020d14c8957dfbd59c",
+      "width": 64,
+      "height": 32,
+      "format_raw": "07",
+      "source_art": {
+        "header_offset": 320,
+        "flags": 0,
+        "element_count": 0,
+        "size_on_disk": 0,
+        "data_offset": 1099555,
+        "size_on_disk_field_offset": 328,
+        "data_offset_field_offset": 332,
+        "payload_offset": 336
+      },
+      "mip_count": 1,
+      "first_bulk": {
+        "header_offset": 340,
+        "flags": 0,
+        "element_count": 16384,
+        "size_on_disk": 16384,
+        "data_offset": 1099575,
+        "size_on_disk_field_offset": 348,
+        "data_offset_field_offset": 352,
+        "payload_offset": 356
+      },
+      "identity": {
+        "canonical_path": "ui_pillar.tex.guest_icon",
+        "class_path": "engine.texture2d",
+        "forced_export": false,
+        "namespace_guid": "fe0b3d074cda68a96ded118c4c2a061b",
+        "namespace_root": null,
+        "runtime_instance_selected": false
+      },
+      "atlas_supported": true,
+      "tiled_sha256": "68929063870e2106a042735551d8236c91f9f4465639e957fd2d8c520a82ed65",
+      "linear_dxt5_sha256": "74cf769852e64c5237669b80d102db85d9370f108f1c97ee1d7a8ee9ca958bed",
+      "rgba_sha256": "603b654961b9515655864d0c2631bba03f7b6bd5cfc3bafdf6a689ce0858262a",
+      "preview": "build\\phase-292-texture-aliases\\ui_pillar-441ac75a-613.png",
+      "bulk_flags": 0
+    },
+    {
+      "disc": 2,
+      "resource_path": "MC2Game/CookedXenon/UI_Pillar.xxx",
+      "source_sha256": "441ac75a96bb6746bb6b71fbd78bdc75280100c20c77616ea58d67aab0c625dd",
+      "export": 615,
+      "path": "UI_Pillar_Title.Tex.Disc_01",
+      "leaf": "Disc_01",
+      "class_path": "Engine.Texture2D",
+      "serial_offset": 1149104,
+      "serial_size": 16745,
+      "package_guid": "fe0b3d074cda68a96ded118c4c2a061b",
+      "payload_sha256": "fa7ee637347c07640ad10c1728f01e6fec4d939f0e03a34a8701d54d9d9d7259",
+      "width": 64,
+      "height": 64,
+      "format_raw": "07",
+      "source_art": {
+        "header_offset": 317,
+        "flags": 0,
+        "element_count": 0,
+        "size_on_disk": 0,
+        "data_offset": 1149437,
+        "size_on_disk_field_offset": 325,
+        "data_offset_field_offset": 329,
+        "payload_offset": 333
+      },
+      "mip_count": 1,
+      "first_bulk": {
+        "header_offset": 337,
+        "flags": 0,
+        "element_count": 16384,
+        "size_on_disk": 16384,
+        "data_offset": 1149457,
+        "size_on_disk_field_offset": 345,
+        "data_offset_field_offset": 349,
+        "payload_offset": 353
+      },
+      "identity": {
+        "canonical_path": "ui_pillar_title.tex.disc_01",
+        "class_path": "engine.texture2d",
+        "forced_export": true,
+        "namespace_guid": "60482c3a49aa0da206bf15804c38718e",
+        "namespace_root": {
+          "package": "ui_pillar",
+          "object_index": 523,
+          "path": "UI_Pillar_Title",
+          "class_path": "Core.Package",
+          "object_flags": "0007000400000000",
+          "export_flags": 1,
+          "source_sha256": "441ac75a96bb6746bb6b71fbd78bdc75280100c20c77616ea58d67aab0c625dd",
+          "logical_serial_offset": 812111,
+          "serial_size": 12
+        },
+        "runtime_instance_selected": false
+      },
+      "atlas_supported": true,
+      "tiled_sha256": "f9393c2b47f57029b671b78516c8a72dddcc03b40f1636a33abf0decdc04821b",
+      "linear_dxt5_sha256": "a57e0c0f1275773bfe618f9b73f6f3b9282ef3514c263da4824b9953b9227962",
+      "rgba_sha256": "5b8fafe721802190c433af265f7c5fa4623a21df9b85439874c028dae9e3466d",
+      "preview": "build\\phase-292-texture-aliases\\ui_pillar-441ac75a-615.png",
+      "bulk_flags": 0
+    },
+    {
+      "disc": 2,
+      "resource_path": "MC2Game/CookedXenon/UI_Pillar.xxx",
+      "source_sha256": "441ac75a96bb6746bb6b71fbd78bdc75280100c20c77616ea58d67aab0c625dd",
+      "export": 616,
+      "path": "UI_Pillar_Title.Tex.Disc_02",
+      "leaf": "Disc_02",
+      "class_path": "Engine.Texture2D",
+      "serial_offset": 1165849,
+      "serial_size": 16745,
+      "package_guid": "fe0b3d074cda68a96ded118c4c2a061b",
+      "payload_sha256": "5a42a2613b3ad85f51f428c5b16b0f5d2625aa18fe4cb784fd365ffe3cc171ac",
+      "width": 64,
+      "height": 64,
+      "format_raw": "07",
+      "source_art": {
+        "header_offset": 317,
+        "flags": 0,
+        "element_count": 0,
+        "size_on_disk": 0,
+        "data_offset": 1166182,
+        "size_on_disk_field_offset": 325,
+        "data_offset_field_offset": 329,
+        "payload_offset": 333
+      },
+      "mip_count": 1,
+      "first_bulk": {
+        "header_offset": 337,
+        "flags": 0,
+        "element_count": 16384,
+        "size_on_disk": 16384,
+        "data_offset": 1166202,
+        "size_on_disk_field_offset": 345,
+        "data_offset_field_offset": 349,
+        "payload_offset": 353
+      },
+      "identity": {
+        "canonical_path": "ui_pillar_title.tex.disc_02",
+        "class_path": "engine.texture2d",
+        "forced_export": true,
+        "namespace_guid": "60482c3a49aa0da206bf15804c38718e",
+        "namespace_root": {
+          "package": "ui_pillar",
+          "object_index": 523,
+          "path": "UI_Pillar_Title",
+          "class_path": "Core.Package",
+          "object_flags": "0007000400000000",
+          "export_flags": 1,
+          "source_sha256": "441ac75a96bb6746bb6b71fbd78bdc75280100c20c77616ea58d67aab0c625dd",
+          "logical_serial_offset": 812111,
+          "serial_size": 12
+        },
+        "runtime_instance_selected": false
+      },
+      "atlas_supported": true,
+      "tiled_sha256": "4355d1f232187fea858a750b8c11233034e2d56b4861b97c8c1b64f164a5fdb3",
+      "linear_dxt5_sha256": "3f629dfdd1b500f7b49cb4e3900219eeb62cda8d3273ef2113a75d5c56277e77",
+      "rgba_sha256": "df46fd28a008c1c457b5d5f407a16034954566bab7a7c329c4cdcc9f8bc6e503",
+      "preview": "build\\phase-292-texture-aliases\\ui_pillar-441ac75a-616.png",
+      "bulk_flags": 0
+    },
+    {
+      "disc": 2,
+      "resource_path": "MC2Game/CookedXenon/UI_Pillar.xxx",
+      "source_sha256": "441ac75a96bb6746bb6b71fbd78bdc75280100c20c77616ea58d67aab0c625dd",
+      "export": 617,
+      "path": "UI_Pillar_Title.Tex.Guest_Icon",
+      "leaf": "Guest_Icon",
+      "class_path": "Engine.Texture2D",
+      "serial_offset": 1182594,
+      "serial_size": 16748,
+      "package_guid": "fe0b3d074cda68a96ded118c4c2a061b",
+      "payload_sha256": "7806b69d84e0fcc0e5b9efd3d55a1e44482e76ff895357dca5ad00915cdba6f3",
+      "width": 64,
+      "height": 32,
+      "format_raw": "07",
+      "source_art": {
+        "header_offset": 320,
+        "flags": 0,
+        "element_count": 0,
+        "size_on_disk": 0,
+        "data_offset": 1182930,
+        "size_on_disk_field_offset": 328,
+        "data_offset_field_offset": 332,
+        "payload_offset": 336
+      },
+      "mip_count": 1,
+      "first_bulk": {
+        "header_offset": 340,
+        "flags": 0,
+        "element_count": 16384,
+        "size_on_disk": 16384,
+        "data_offset": 1182950,
+        "size_on_disk_field_offset": 348,
+        "data_offset_field_offset": 352,
+        "payload_offset": 356
+      },
+      "identity": {
+        "canonical_path": "ui_pillar_title.tex.guest_icon",
+        "class_path": "engine.texture2d",
+        "forced_export": true,
+        "namespace_guid": "60482c3a49aa0da206bf15804c38718e",
+        "namespace_root": {
+          "package": "ui_pillar",
+          "object_index": 523,
+          "path": "UI_Pillar_Title",
+          "class_path": "Core.Package",
+          "object_flags": "0007000400000000",
+          "export_flags": 1,
+          "source_sha256": "441ac75a96bb6746bb6b71fbd78bdc75280100c20c77616ea58d67aab0c625dd",
+          "logical_serial_offset": 812111,
+          "serial_size": 12
+        },
+        "runtime_instance_selected": false
+      },
+      "atlas_supported": true,
+      "tiled_sha256": "68929063870e2106a042735551d8236c91f9f4465639e957fd2d8c520a82ed65",
+      "linear_dxt5_sha256": "74cf769852e64c5237669b80d102db85d9370f108f1c97ee1d7a8ee9ca958bed",
+      "rgba_sha256": "603b654961b9515655864d0c2631bba03f7b6bd5cfc3bafdf6a689ce0858262a",
+      "preview": "build\\phase-292-texture-aliases\\ui_pillar-441ac75a-617.png",
+      "bulk_flags": 0
+    },
+    {
+      "disc": 2,
+      "resource_path": "MC2Game/CookedXenon/UI_Pillar_Title.xxx",
+      "source_sha256": "0bbc44c9cdeba6c3e8b2e5dbf664480632d968cdb6d74b4c9da6f2da9479033d",
+      "export": 2,
+      "path": "Tex.Disc_01",
+      "leaf": "Disc_01",
+      "class_path": "Engine.Texture2D",
+      "serial_offset": 1050,
+      "serial_size": 2081,
+      "package_guid": "60482c3a49aa0da206bf15804c38718e",
+      "payload_sha256": "d84b7189de09460c4c5793fc6ec0834ddbb22653a6c9e16117b2a5b4a0334574",
+      "width": 64,
+      "height": 64,
+      "format_raw": "07",
+      "source_art": {
+        "header_offset": 317,
+        "flags": 0,
+        "element_count": 0,
+        "size_on_disk": 0,
+        "data_offset": 1383,
+        "size_on_disk_field_offset": 325,
+        "data_offset_field_offset": 329,
+        "payload_offset": 333
+      },
+      "mip_count": 1,
+      "first_bulk": {
+        "header_offset": 337,
+        "flags": 64,
+        "element_count": 16384,
+        "size_on_disk": 1720,
+        "data_offset": 1403,
+        "size_on_disk_field_offset": 345,
+        "data_offset_field_offset": 349,
+        "payload_offset": 353
+      },
+      "identity": {
+        "canonical_path": "ui_pillar_title.tex.disc_01",
+        "class_path": "engine.texture2d",
+        "forced_export": false,
+        "namespace_guid": "60482c3a49aa0da206bf15804c38718e",
+        "namespace_root": null,
+        "runtime_instance_selected": false
+      },
+      "atlas_supported": true,
+      "tiled_sha256": "f9393c2b47f57029b671b78516c8a72dddcc03b40f1636a33abf0decdc04821b",
+      "linear_dxt5_sha256": "a57e0c0f1275773bfe618f9b73f6f3b9282ef3514c263da4824b9953b9227962",
+      "rgba_sha256": "5b8fafe721802190c433af265f7c5fa4623a21df9b85439874c028dae9e3466d",
+      "preview": "build\\phase-292-texture-aliases\\ui_pillar_title-0bbc44c9-2.png",
+      "bulk_flags": 64
+    },
+    {
+      "disc": 2,
+      "resource_path": "MC2Game/CookedXenon/UI_Pillar_Title.xxx",
+      "source_sha256": "0bbc44c9cdeba6c3e8b2e5dbf664480632d968cdb6d74b4c9da6f2da9479033d",
+      "export": 3,
+      "path": "Tex.Disc_02",
+      "leaf": "Disc_02",
+      "class_path": "Engine.Texture2D",
+      "serial_offset": 3131,
+      "serial_size": 2107,
+      "package_guid": "60482c3a49aa0da206bf15804c38718e",
+      "payload_sha256": "57f56240d838f86a0ce859f46c25bf55183551141488cac3fa6d01f933cb0a1b",
+      "width": 64,
+      "height": 64,
+      "format_raw": "07",
+      "source_art": {
+        "header_offset": 317,
+        "flags": 0,
+        "element_count": 0,
+        "size_on_disk": 0,
+        "data_offset": 3464,
+        "size_on_disk_field_offset": 325,
+        "data_offset_field_offset": 329,
+        "payload_offset": 333
+      },
+      "mip_count": 1,
+      "first_bulk": {
+        "header_offset": 337,
+        "flags": 64,
+        "element_count": 16384,
+        "size_on_disk": 1746,
+        "data_offset": 3484,
+        "size_on_disk_field_offset": 345,
+        "data_offset_field_offset": 349,
+        "payload_offset": 353
+      },
+      "identity": {
+        "canonical_path": "ui_pillar_title.tex.disc_02",
+        "class_path": "engine.texture2d",
+        "forced_export": false,
+        "namespace_guid": "60482c3a49aa0da206bf15804c38718e",
+        "namespace_root": null,
+        "runtime_instance_selected": false
+      },
+      "atlas_supported": true,
+      "tiled_sha256": "4355d1f232187fea858a750b8c11233034e2d56b4861b97c8c1b64f164a5fdb3",
+      "linear_dxt5_sha256": "3f629dfdd1b500f7b49cb4e3900219eeb62cda8d3273ef2113a75d5c56277e77",
+      "rgba_sha256": "df46fd28a008c1c457b5d5f407a16034954566bab7a7c329c4cdcc9f8bc6e503",
+      "preview": "build\\phase-292-texture-aliases\\ui_pillar_title-0bbc44c9-3.png",
+      "bulk_flags": 64
+    },
+    {
+      "disc": 2,
+      "resource_path": "MC2Game/CookedXenon/UI_Pillar_Title.xxx",
+      "source_sha256": "0bbc44c9cdeba6c3e8b2e5dbf664480632d968cdb6d74b4c9da6f2da9479033d",
+      "export": 4,
+      "path": "Tex.Guest_Icon",
+      "leaf": "Guest_Icon",
+      "class_path": "Engine.Texture2D",
+      "serial_offset": 5238,
+      "serial_size": 1504,
+      "package_guid": "60482c3a49aa0da206bf15804c38718e",
+      "payload_sha256": "ee3c12c0bd92a220cf2129ce8b8c111d961a203c4724f8538df0fb535014de33",
+      "width": 64,
+      "height": 32,
+      "format_raw": "07",
+      "source_art": {
+        "header_offset": 320,
+        "flags": 0,
+        "element_count": 0,
+        "size_on_disk": 0,
+        "data_offset": 5574,
+        "size_on_disk_field_offset": 328,
+        "data_offset_field_offset": 332,
+        "payload_offset": 336
+      },
+      "mip_count": 1,
+      "first_bulk": {
+        "header_offset": 340,
+        "flags": 64,
+        "element_count": 16384,
+        "size_on_disk": 1140,
+        "data_offset": 5594,
+        "size_on_disk_field_offset": 348,
+        "data_offset_field_offset": 352,
+        "payload_offset": 356
+      },
+      "identity": {
+        "canonical_path": "ui_pillar_title.tex.guest_icon",
+        "class_path": "engine.texture2d",
+        "forced_export": false,
+        "namespace_guid": "60482c3a49aa0da206bf15804c38718e",
+        "namespace_root": null,
+        "runtime_instance_selected": false
+      },
+      "atlas_supported": true,
+      "tiled_sha256": "68929063870e2106a042735551d8236c91f9f4465639e957fd2d8c520a82ed65",
+      "linear_dxt5_sha256": "74cf769852e64c5237669b80d102db85d9370f108f1c97ee1d7a8ee9ca958bed",
+      "rgba_sha256": "603b654961b9515655864d0c2631bba03f7b6bd5cfc3bafdf6a689ce0858262a",
+      "preview": "build\\phase-292-texture-aliases\\ui_pillar_title-0bbc44c9-4.png",
+      "bulk_flags": 64
+    }
+  ],
+  "game_rendering_verified": false,
+  "notes": "No menu actions or IDs changed. START remains the controller identifier. Existing final display title and voice-drama terminology reused. Copyright block y92..111 preserved; disc upper y0..35 preserved, lower overlapping art replaced. Guest full64x32 chosen after fit validation; disc centered label fits without offset_y or generic code changes."
+}

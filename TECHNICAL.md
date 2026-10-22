@@ -1545,3 +1545,7 @@ remain separate confidence levels. Existing parser/coverage rules are unchanged.
 用户截图已确认 Disc1 标题警告中两字探针实际可见；未区分两种同时补字的字体路线。
 扩展样本与通用显式单 mip 字图增高的字节/像素保护见 docs/TEXT_LAYOUT_PROBE.md。
 布局、扩图运行兼容与自动断行仍等待扩展样本的用户游戏验收，不从静态指纹推断。
+
+## 第292阶段：主菜单及队伍图片
+
+累计ui-labels.json为78图/92层/400双盘别名，28源并集，纹理D1/D2为24/22资源，独立对照包各50资源。按START键保留START，版权行与盘形上部hash保护；阿尔戈/塞蕾丝汀/朱特/洁菲沿用既有INT，临时对应临时同伴，游戏名/语音剧按最终display-fix。无新增游戏专属工具代码。复现、保护范围、隔离旧中文检查点回滚和剩余缺口见[阶段292](docs/PHASE_292_FRONT_PARTY_ADOPTION.md)。

@@ -23,8 +23,8 @@ class KamondFamiliesTests(unittest.TestCase):
   for e in self.p['entries']:
    self.assertRegex(e['source_sha256'],r'^[0-9a-f]{64}$');self.assertNotIn('source',e);self.assertFalse(any(c in e['translation'] for c in '\r\n\0'))
  def test_status_scope_and_duplicate_labels_do_not_merge(self):
-  self.assertEqual(sum(t.strip()=='眩晕防护' for t in self.ts),2)
-  for t in ['眩晕、沉默免疫','炎热、烧伤免疫','麻痹、触电免疫 ','寒冷、冻伤免疫','力竭免疫']:
+  self.assertEqual(sum(t.strip()=='眩晕防护' for t in self.ts),1);self.assertEqual(sum(t.strip()=='晕眩防护' for t in self.ts),1)
+  for t in ['晕眩、沉默免疫','炎热、烧伤免疫','麻痹、触电免疫 ','寒冷、冻伤免疫','力竭免疫']:
    self.assertIn(t,self.ts)
   self.assertFalse(any('冰冻' in t or '火属性' in t for t in self.ts));self.assertNotIn('英雄卡蒙德',self.ts)
  def test_prior_translations_holds_and_candidates(self):

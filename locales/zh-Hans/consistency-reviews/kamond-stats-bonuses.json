@@ -1015,17 +1015,17 @@
     {
       "id": "coalesced:2f89083a99518ba7ad5a3d95bec1189ef9a1ebdfaec46f07e1c4e540e1d42817",
       "source_sha256": "8c4b47e3d8540c1261ecb9f0107817f3f4b4e0101e6090dec5dd0d621f1ad2e4",
-      "translation_sha256": "c4425b4053ee0cf13381f376a5c4788e2c6b44a604e5caea87e979a943212047"
+      "translation_sha256": "35f15edec3eb65c537e43320ba49948bda4961e69dd5fc2dc38ebede2dd7b82d"
     },
     {
       "id": "coalesced:090f3203202d13bc37ac7237b724f4dd0554dd156594e35a7c00cef9ca6a68e2",
       "source_sha256": "758b2d33ae0d96f9b55ff08d7d2cb22198c20db7ca7658b52cf2f22b9847647f",
-      "translation_sha256": "4150fe59ac01414fe863f30cf2b2508269431bc8930e07f8911dfd82616e0fbd"
+      "translation_sha256": "32f1ba4b66b4f9a828f589b89137e5225afadbc04e72bc9e268dab0d6541ab6e"
     },
     {
       "id": "coalesced:7663544e50393ccdfb9b29d2d046c2d48ec77fe7efdc70216b2fc2c2e8e66d52",
       "source_sha256": "b82e33f178f17bf9b194d189c22b1fe8cb4d11fd7bb43dca201a0b29ded4e783",
-      "translation_sha256": "0db7020704814432c0e78039e358832d38d5264e80031f6c7d88cad99ba7aadc"
+      "translation_sha256": "249afbfabd7a37af9bd5c9fb1f6350625016171505f705093ecdd2d195f933e0"
     },
     {
       "id": "coalesced:889ce9c912c5ab5f05cea3df6dc100eccaa2efb236d3ed867f519c459c568825",
@@ -1035,12 +1035,12 @@
     {
       "id": "coalesced:7bcd3a8991c13f4989a796e4c0f521200d6664b038f8f5e993962205ee2a980b",
       "source_sha256": "10860e007d227ae60aea5fae2f71821a025eaa41da764263b0f92959f4cb94c0",
-      "translation_sha256": "a62aace3e628ecc58f9cde2b1b02d04114f3d371cd24b195bd2191bc2cb12196"
+      "translation_sha256": "804d6f2e6a251b4ac7396ec615c7ff7a20f8a7e92fbac6838d5c3a40f6352ab6"
     },
     {
       "id": "coalesced:c0ebf98f9f7e9b79441a5d3f679eda655326de1a86d530aa4c5d522c945faf88",
       "source_sha256": "0ea6b3c0958940ce86194a66eb31fc346071940e8e8a6390a7f876ab59b65e78",
-      "translation_sha256": "0c1f8f4c898676136627ca5265465f634d7452568b9561de7e2a903b43f1bbab"
+      "translation_sha256": "66d4e4496617d2eb50a3d8b1cc003073a9c521251d4f8cde471664e465373e69"
     },
     {
       "id": "coalesced:10065c677e035e4002be35e9931ec1508d12220b90580c531e9d157c6f8db61d",
@@ -1140,7 +1140,50 @@
     "1600–1639八类LV1–5依次为体力、速度、攻击、防御、抗性、精神、耐力、耐力恢复；各等级2/4/6/8/10，只有体力带百分号，其余固定值，不由等级推导省略重复字段。名称保留LV字样及等级，长说明保留能力卡蒙德类别与功能换行，短说明只有效果按源不补类别。耐力与耐力恢复不混淆，精神不改魔力。",
     "1640眩晕防护免疫어지러움；1641名称仅沉默防护但短长含眩晕+沉默，保留双状态不按名称删眩晕。1642炎热免疫，1643烧伤防护说明炎热+烧伤，1644麻痹免疫，1645触电防护说明麻痹+触电，1646寒冷免疫，1647冻伤防护说明寒冷+冻伤；名称与效果粒度不同依源。源尾空格、逗号分隔及独立字段按目标hash锁定，不把状态叠加当源错误。",
     "어지러움眩晕与既有技能晕眩候选、더위本资源炎热与日文熱等不同源词、추위/동상寒冷/冻伤及既有冻疮/冰冻映射仍待术语与运行证据，说明免疫文字不证明运行触发机制。保留所有先前状态/材料/配方差异候选，不作人审定稿；未译/未知原值不纳入本批。",
-    "23项命中共享候选已逐项核对，8条방어单字防御字面缺失发生于状态防护名称，而整名眩晕/沉默/炎热/烧伤/麻痹/触电/寒冷/冻伤防护均匹配，属于名称功能与数值防御语境差异，不机械统一为防御。더위在本资源与饰品1237/1239既有韩文说明均译炎热，已核对一致；与日文熱等不同源词的机械映射仍未验证。所有23项保持candidate/unverified，零采用/人工定稿。"
+    "23项命中共享候选已逐项核对，8条방어单字防御字面缺失发生于状态防护名称，而整名眩晕/沉默/炎热/烧伤/麻痹/触电/寒冷/冻伤防护均匹配，属于名称功能与数值防御语境差异，不机械统一为防御。더위在本资源与饰品1237/1239既有韩文说明均译炎热，已核对一致；与日文熱等不同源词的机械映射仍未验证。所有23项保持candidate/unverified，零采用/人工定稿。",
+    "阶段264按风状态教学及既有技能用词，将26处어지러움统一为晕眩；スタン/스턴保留眩晕。显式旧新hash取代，不增加primary，仍非人审或运行定稿。"
   ],
-  "retained_originals": []
+  "retained_originals": [],
+  "target_supersessions": [
+    {
+      "id": "coalesced:2f89083a99518ba7ad5a3d95bec1189ef9a1ebdfaec46f07e1c4e540e1d42817",
+      "source_sha256": "8c4b47e3d8540c1261ecb9f0107817f3f4b4e0101e6090dec5dd0d621f1ad2e4",
+      "before_target_sha256": "c4425b4053ee0cf13381f376a5c4788e2c6b44a604e5caea87e979a943212047",
+      "after_target_sha256": "35f15edec3eb65c537e43320ba49948bda4961e69dd5fc2dc38ebede2dd7b82d",
+      "phase": 264,
+      "review": "locales/zh-Hans/consistency-reviews/kamond-stats-bonuses.json"
+    },
+    {
+      "id": "coalesced:090f3203202d13bc37ac7237b724f4dd0554dd156594e35a7c00cef9ca6a68e2",
+      "source_sha256": "758b2d33ae0d96f9b55ff08d7d2cb22198c20db7ca7658b52cf2f22b9847647f",
+      "before_target_sha256": "4150fe59ac01414fe863f30cf2b2508269431bc8930e07f8911dfd82616e0fbd",
+      "after_target_sha256": "32f1ba4b66b4f9a828f589b89137e5225afadbc04e72bc9e268dab0d6541ab6e",
+      "phase": 264,
+      "review": "locales/zh-Hans/consistency-reviews/kamond-stats-bonuses.json"
+    },
+    {
+      "id": "coalesced:7663544e50393ccdfb9b29d2d046c2d48ec77fe7efdc70216b2fc2c2e8e66d52",
+      "source_sha256": "b82e33f178f17bf9b194d189c22b1fe8cb4d11fd7bb43dca201a0b29ded4e783",
+      "before_target_sha256": "0db7020704814432c0e78039e358832d38d5264e80031f6c7d88cad99ba7aadc",
+      "after_target_sha256": "249afbfabd7a37af9bd5c9fb1f6350625016171505f705093ecdd2d195f933e0",
+      "phase": 264,
+      "review": "locales/zh-Hans/consistency-reviews/kamond-stats-bonuses.json"
+    },
+    {
+      "id": "coalesced:7bcd3a8991c13f4989a796e4c0f521200d6664b038f8f5e993962205ee2a980b",
+      "source_sha256": "10860e007d227ae60aea5fae2f71821a025eaa41da764263b0f92959f4cb94c0",
+      "before_target_sha256": "a62aace3e628ecc58f9cde2b1b02d04114f3d371cd24b195bd2191bc2cb12196",
+      "after_target_sha256": "804d6f2e6a251b4ac7396ec615c7ff7a20f8a7e92fbac6838d5c3a40f6352ab6",
+      "phase": 264,
+      "review": "locales/zh-Hans/consistency-reviews/kamond-stats-bonuses.json"
+    },
+    {
+      "id": "coalesced:c0ebf98f9f7e9b79441a5d3f679eda655326de1a86d530aa4c5d522c945faf88",
+      "source_sha256": "0ea6b3c0958940ce86194a66eb31fc346071940e8e8a6390a7f876ab59b65e78",
+      "before_target_sha256": "0c1f8f4c898676136627ca5265465f634d7452568b9561de7e2a903b43f1bbab",
+      "after_target_sha256": "66d4e4496617d2eb50a3d8b1cc003073a9c521251d4f8cde471664e465373e69",
+      "phase": 264,
+      "review": "locales/zh-Hans/consistency-reviews/kamond-stats-bonuses.json"
+    }
+  ]
 }

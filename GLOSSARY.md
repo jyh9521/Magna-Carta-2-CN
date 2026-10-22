@@ -71,7 +71,7 @@
 | mc2-island-065 | 피어스 웜 | 穿刺蠕虫 | creature | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:fd4c9fbb784fdcdc215b1209221bc1f2b4b4118e6f3057c946f083eb19667e19 |
 | mc2-island-066 | 속성칸 | 属性KAN | combat | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:00fa8959508d633ade678883b094e58e29d7a97855245a5ad825be403326ee08 |
 | mc2-island-067 | 연환술사 | 连环术师 | role | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:d0eec7273eede4c222c25b5bd9185b738887cad084f5b1efd7a357336d3faaac |
-| mc2-island-068 | 어지러움 | 眩晕 | status | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:3bcbb517d9039e362970d6c1e92437a1e7e54f47ad847907408c20b1e19fb537 |
+| mc2-island-068 | 어지러움 | 晕眩 | status | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:3bcbb517d9039e362970d6c1e92437a1e7e54f47ad847907408c20b1e19fb537 |
 | mc2-island-069 | 침묵 | 沉默 | status | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:3bcbb517d9039e362970d6c1e92437a1e7e54f47ad847907408c20b1e19fb537 |
 | mc2-island-070 | 목캔디 | 润喉糖 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:acbd5233c06800c8088bf88f5b31a33ef404db5201fa8ad22cc216cb13d4c33d |
 | mc2-island-071 | 붕대 | 绷带 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:871a324efa000809ed9121116d40f3f671dd203b5b205109d91cada4cc38a4a5 |
@@ -585,7 +585,7 @@
 | mc2-kamond-families-579 | 방어 | 防御 | stat | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:76e3a738909833230986ed4dd4fcd6b32be22f9c5d69531097daf736dd475b5d |
 | mc2-kamond-families-580 | 저항 | 抗性 | stat | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:f1eb27233053d14cc90532736a18d0b020fe85943c04355b356e6ee94a207d02 |
 | mc2-kamond-families-581 | 정신 | 精神 | stat | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:5fafb40b32dbf47cfd144ff93d32bd6287c2df358add5af3b4d2a1f39c8cddc2 |
-| mc2-kamond-families-582 | 어지러움 방어 | 眩晕防护 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:2f89083a99518ba7ad5a3d95bec1189ef9a1ebdfaec46f07e1c4e540e1d42817 |
+| mc2-kamond-families-582 | 어지러움 방어 | 晕眩防护 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:2f89083a99518ba7ad5a3d95bec1189ef9a1ebdfaec46f07e1c4e540e1d42817 |
 | mc2-kamond-families-583 | 침묵방어 | 沉默防护 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:889ce9c912c5ab5f05cea3df6dc100eccaa2efb236d3ed867f519c459c568825 |
 | mc2-kamond-families-584 | 더위 방어 | 炎热防护 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:10065c677e035e4002be35e9931ec1508d12220b90580c531e9d157c6f8db61d |
 | mc2-kamond-families-585 | 화상방어 | 烧伤防护 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:5177e0de7d5def75d7c7ad0869d13d7d5d63ba9e8e8ae000e089cfc4a00b5e19 |
@@ -616,7 +616,7 @@
 | mc2-kamond-families-610 | 능력 카몬드 | 能力卡蒙德 | system | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:8a3d12ecf6f507fac2fec468b5d9af9b8dcb9d4bef08534acc9cff0fb9f322ca |
 | mc2-kamond-families-611 | 상태 카몬드 | 状态卡蒙德 | system | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:7663544e50393ccdfb9b29d2d046c2d48ec77fe7efdc70216b2fc2c2e8e66d52 |
 | mc2-kamond-families-612 | 특수 카몬드 | 特殊卡蒙德 | system | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:b3a918c4e907107dc7e2d2c5b4e2d640a8ffb72ce8682f7b42f20a292cec6222 |
-| mc2-special-recover-613 | 어지러움の一撃 | 眩晕一击 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:46e99fd5a7093c95728959e94820298a1e998bb987cad4182d473b0e1ea8ecbb |
+| mc2-special-recover-613 | 어지러움の一撃 | 晕眩一击 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:46e99fd5a7093c95728959e94820298a1e998bb987cad4182d473b0e1ea8ecbb |
 | mc2-special-recover-614 | 침묵の一撃 | 沉默一击 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:4a1f098325cf4a0f5863d6b9d7805cf36170a8cc16471dcb35b976041a23a055 |
 | mc2-special-recover-615 | 毒の一撃 | 中毒一击 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:98be52baa71155b3b6cdddeaf435470a460507cbef5ab39ee2eea2305ef9c530 |
 | mc2-special-recover-616 | 腹痛の一撃 | 腹痛一击 | item | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:bd7c43e591a468479ae7dcfce4ec1150b451fb8a0b0f24342fe0905bf401cd02 |

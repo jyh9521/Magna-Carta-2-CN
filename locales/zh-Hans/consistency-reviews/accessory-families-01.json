@@ -1052,12 +1052,12 @@
     {
       "id": "coalesced:9e856d1c1e18dc7ddb9dd196c0a24cc0df2f89e18be5da3fc5d3bd577c3ea0a6",
       "source_sha256": "4070a7079661673b412fda022c4be7eb6e6f6d03657eed6325e71814c48ea468",
-      "translation_sha256": "20a796ce26029ffecf5fdcb830bfd30ad736396bb508a5722967eb487c693c03"
+      "translation_sha256": "db4422f6fff16085eee7b09741651e36ddd5112f95d35ef02ea59573df14f2e4"
     },
     {
       "id": "coalesced:b8a8df13470b3b49ddbcdb35f2f2037a7eaf5a862d6b75bc5795d114b0424c52",
       "source_sha256": "d74eaf8464940099bf2e16cbd705de7fbfd9bf7aaa9d2c6d4f87edc4d0828914",
-      "translation_sha256": "01c13ed4e4bec2257323aca99f2965793a0aec7564630f801f4fa7abdd0617c1"
+      "translation_sha256": "3b200412720ecc9d36e4fd6dcd97a333fe04d5ee955adda6b0bd3e42a3825c1e"
     },
     {
       "id": "coalesced:3f03570ff9bed1be2110825d6245326686002887d18d9d548efaf13fb6cf7205",
@@ -1082,12 +1082,12 @@
     {
       "id": "coalesced:722b0b90d9472ed21008aa3b570778f9e7bac24acbb79d60dd6f1b6a4ae18a6f",
       "source_sha256": "775098deccd1b01917335d7dbdc61946751a9d28aa432645bf853e1ca16439e7",
-      "translation_sha256": "34562428f29c734fe320ef031243107a99f4c7b6ebb0d00ba71c09b9ea94d36b"
+      "translation_sha256": "4b577b91fd1a880ff93af3051dbfe39f302f88a106c7a8b0a33a9d9e40989066"
     },
     {
       "id": "coalesced:e767a5049240905206ee6bae9950e375740113a4f7090c6ad8c5f8e281ce142a",
       "source_sha256": "55e7a2a13223d8c2fd2d914275756ae4c7739209bfce6a1617a0594c895149cf",
-      "translation_sha256": "24686a612fc14f5eddcf536931a6f50b9738dd1e47a464e4d5628cf81eccd762"
+      "translation_sha256": "772124348e1f8551b0b556c03b94c1dd9550b621646211d3ebf5c4f8ce15283e"
     },
     {
       "id": "coalesced:020926e476b6480d82ef91b0780974e5d6ca754643c83f8a351fd998cbbb0ada",
@@ -1428,7 +1428,42 @@
     "觉醒腰带スタン50%；1253韩文与1254日文元气戒指均stun完全但独立ID/引号/换行保持；1255觉醒戒指탈진力竭完全，不由名称推断同stun。어지러움当前眩晕与技能晕眩候选及스턴译眩晕的状态机制仍待查，不因中文同字合并。",
     "解毒中毒、无病腹痛、清晨睡眠均项链50%和戒指完全分别保持。自然戒指四大属性异常50%、大自然四项烧伤/冰冻/沉默/触电完全；忍耐长说明四大属性以外与短说明其他状态异常粒度不同依源；克服中毒/睡眠/力竭/眩晕完全；无缺全部异常50%与完美无缺全部完全不同。财富耳环SID额外10%、项链SID额外20%，不改为经验。",
     "源引号、半全角百分比、功能性换行、数字及尾空格依逐项源译保持。最后1271_acc财富项链为本批末家庭；来源146家庭的另外73套仍未计本批复核。保留所有既有候选与异常源证明；离线文本复核不证明游戏状态/材料/显示正确。",
-    "87项命中共享术语已逐项核对，目标字面均存在；同名元气戒指不同源ID、黎明/清晨以及魔力名称/精神属性分别保持。状态翻译术语候选与机制映射仍未验证，87项均candidate/unverified，零采用/人审定稿。"
+    "87项命中共享术语已逐项核对，目标字面均存在；同名元气戒指不同源ID、黎明/清晨以及魔力名称/精神属性分别保持。状态翻译术语候选与机制映射仍未验证，87项均candidate/unverified，零采用/人审定稿。",
+    "阶段264按风状态教学及既有技能用词，将26处어지러움统一为晕眩；スタン/스턴保留眩晕。显式旧新hash取代，不增加primary，仍非人审或运行定稿。"
   ],
-  "retained_originals": []
+  "retained_originals": [],
+  "target_supersessions": [
+    {
+      "id": "coalesced:9e856d1c1e18dc7ddb9dd196c0a24cc0df2f89e18be5da3fc5d3bd577c3ea0a6",
+      "source_sha256": "4070a7079661673b412fda022c4be7eb6e6f6d03657eed6325e71814c48ea468",
+      "before_target_sha256": "20a796ce26029ffecf5fdcb830bfd30ad736396bb508a5722967eb487c693c03",
+      "after_target_sha256": "db4422f6fff16085eee7b09741651e36ddd5112f95d35ef02ea59573df14f2e4",
+      "phase": 264,
+      "review": "locales/zh-Hans/consistency-reviews/accessory-families-01.json"
+    },
+    {
+      "id": "coalesced:b8a8df13470b3b49ddbcdb35f2f2037a7eaf5a862d6b75bc5795d114b0424c52",
+      "source_sha256": "d74eaf8464940099bf2e16cbd705de7fbfd9bf7aaa9d2c6d4f87edc4d0828914",
+      "before_target_sha256": "01c13ed4e4bec2257323aca99f2965793a0aec7564630f801f4fa7abdd0617c1",
+      "after_target_sha256": "3b200412720ecc9d36e4fd6dcd97a333fe04d5ee955adda6b0bd3e42a3825c1e",
+      "phase": 264,
+      "review": "locales/zh-Hans/consistency-reviews/accessory-families-01.json"
+    },
+    {
+      "id": "coalesced:722b0b90d9472ed21008aa3b570778f9e7bac24acbb79d60dd6f1b6a4ae18a6f",
+      "source_sha256": "775098deccd1b01917335d7dbdc61946751a9d28aa432645bf853e1ca16439e7",
+      "before_target_sha256": "34562428f29c734fe320ef031243107a99f4c7b6ebb0d00ba71c09b9ea94d36b",
+      "after_target_sha256": "4b577b91fd1a880ff93af3051dbfe39f302f88a106c7a8b0a33a9d9e40989066",
+      "phase": 264,
+      "review": "locales/zh-Hans/consistency-reviews/accessory-families-01.json"
+    },
+    {
+      "id": "coalesced:e767a5049240905206ee6bae9950e375740113a4f7090c6ad8c5f8e281ce142a",
+      "source_sha256": "55e7a2a13223d8c2fd2d914275756ae4c7739209bfce6a1617a0594c895149cf",
+      "before_target_sha256": "24686a612fc14f5eddcf536931a6f50b9738dd1e47a464e4d5628cf81eccd762",
+      "after_target_sha256": "772124348e1f8551b0b556c03b94c1dd9550b621646211d3ebf5c4f8ce15283e",
+      "phase": 264,
+      "review": "locales/zh-Hans/consistency-reviews/accessory-families-01.json"
+    }
+  ]
 }

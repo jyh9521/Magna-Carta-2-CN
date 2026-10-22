@@ -570,17 +570,17 @@
     {
       "id": "coalesced:46e99fd5a7093c95728959e94820298a1e998bb987cad4182d473b0e1ea8ecbb",
       "source_sha256": "0c3763e773eb08a281d3d51d86aed1b7230a28466c33aba8650e74c732bf26db",
-      "translation_sha256": "bdcbe8c3717ace3a1fefe457621d0601a95b28894bb7fe395b5f54c79a31de84"
+      "translation_sha256": "2b477091f9e118abaa41b76401c86dc619972169082d79ef8d63eda2e58e773e"
     },
     {
       "id": "coalesced:1178758db3a42cd04124fa95f8fd675729fd411bc94f006a36bddedcab945b7e",
       "source_sha256": "8d6ab8b289e683f51f6c36b0812cde8552b9e9a889b5761fe81f7b54d7aa62e2",
-      "translation_sha256": "f0e3cadbc2256e0d10034200b308dc4dd56484f721596505cf6224ba83457c35"
+      "translation_sha256": "f7721b064ba68b3e3836cf73e1f511aca40639d94e0786235e5b925bb311890f"
     },
     {
       "id": "coalesced:a39aa6ad8a036bbe9ce8ada762036c0fc5e30305526465f1753d8c50ea5885de",
       "source_sha256": "08873b6846361971cc11e59602fce510e0705fb7a12dd8908dd7ea5d7bb5d506",
-      "translation_sha256": "efcc278c4e5282c1151ee1a32016d8e5e92c4170bfd485de8765450fc6d09c61"
+      "translation_sha256": "7288a8d0191836a3d633515a4132d6c8f874fbc7b2579cdaa3b4a93b813cc0a3"
     },
     {
       "id": "coalesced:4a1f098325cf4a0f5863d6b9d7805cf36170a8cc16471dcb35b976041a23a055",
@@ -1087,7 +1087,34 @@
     "1736三叶草/1737四叶草/1738黄金三叶草经验+10/20/30%，原황금 클로버只黄金clover未写三叶，黄金三叶草命名粒度候选待术语/道具形象资料，不自动定稿或与四叶混用。1739最大体力50%；1740白银/1741黄金/1742白金SID15/30/50%，长限定战斗中短省略条件依源；1743斗士战意/1744战士咆哮暴击伤害10/20%，不改暴击率。",
     "1745锐利一击通常技成功率提高，当前普通攻击成功率译法保留候选，原未给数值不补百分比；1746鹰眼源매一般指隼/鹰类，现译鹰眼为候选不据ID认定物种，1747光之眼命中20%/1748神之眼30%，1746命中10%。1752_Kamond努力者技能点30%、1753_Kamond锻炼者50%，不补别处技能吊坠升级时条件，Karmond/末两项Kamond键别保留。",
     "本批保留先前语气、指代、源配方差异、未知原值与运行候选；零译文/上下文/玩家资源更改。快照无缺口后下一阶段转向明确未决候选的源语义裁决，选主角两份完整战斗通信资源223字段作为上下文，不重复累计已复核primary数量，不把候选/原值/游戏验收算已完成。",
-    "73项共享候选逐项核对；방어→防御缺失5条是状态防护名称，整名候选一致，不把防护机械换防御。클로→利爪子串误命中클로버（三叶/四叶/黄金clover）3条，不是漏译。黄金三叶草源未给叶数、通常技/普通攻击、매/鹰眼及不同眩晕源仍保留语义候选，所有candidate/unverified，不以术语库命中当人审定稿。"
+    "73项共享候选逐项核对；방어→防御缺失5条是状态防护名称，整名候选一致，不把防护机械换防御。클로→利爪子串误命中클로버（三叶/四叶/黄金clover）3条，不是漏译。黄金三叶草源未给叶数、通常技/普通攻击、매/鹰眼及不同眩晕源仍保留语义候选，所有candidate/unverified，不以术语库命中当人审定稿。",
+    "阶段264按风状态教学及既有技能用词，将26处어지러움统一为晕眩；スタン/스턴保留眩晕。显式旧新hash取代，不增加primary，仍非人审或运行定稿。"
   ],
-  "retained_originals": []
+  "retained_originals": [],
+  "target_supersessions": [
+    {
+      "id": "coalesced:46e99fd5a7093c95728959e94820298a1e998bb987cad4182d473b0e1ea8ecbb",
+      "source_sha256": "0c3763e773eb08a281d3d51d86aed1b7230a28466c33aba8650e74c732bf26db",
+      "before_target_sha256": "bdcbe8c3717ace3a1fefe457621d0601a95b28894bb7fe395b5f54c79a31de84",
+      "after_target_sha256": "2b477091f9e118abaa41b76401c86dc619972169082d79ef8d63eda2e58e773e",
+      "phase": 264,
+      "review": "locales/zh-Hans/consistency-reviews/kamond-remaining-specials.json"
+    },
+    {
+      "id": "coalesced:1178758db3a42cd04124fa95f8fd675729fd411bc94f006a36bddedcab945b7e",
+      "source_sha256": "8d6ab8b289e683f51f6c36b0812cde8552b9e9a889b5761fe81f7b54d7aa62e2",
+      "before_target_sha256": "f0e3cadbc2256e0d10034200b308dc4dd56484f721596505cf6224ba83457c35",
+      "after_target_sha256": "f7721b064ba68b3e3836cf73e1f511aca40639d94e0786235e5b925bb311890f",
+      "phase": 264,
+      "review": "locales/zh-Hans/consistency-reviews/kamond-remaining-specials.json"
+    },
+    {
+      "id": "coalesced:a39aa6ad8a036bbe9ce8ada762036c0fc5e30305526465f1753d8c50ea5885de",
+      "source_sha256": "08873b6846361971cc11e59602fce510e0705fb7a12dd8908dd7ea5d7bb5d506",
+      "before_target_sha256": "efcc278c4e5282c1151ee1a32016d8e5e92c4170bfd485de8765450fc6d09c61",
+      "after_target_sha256": "7288a8d0191836a3d633515a4132d6c8f874fbc7b2579cdaa3b4a93b813cc0a3",
+      "phase": 264,
+      "review": "locales/zh-Hans/consistency-reviews/kamond-remaining-specials.json"
+    }
+  ]
 }

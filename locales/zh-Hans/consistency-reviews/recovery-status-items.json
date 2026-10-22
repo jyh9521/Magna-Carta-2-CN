@@ -403,12 +403,12 @@
     {
       "id": "coalesced:d23a8b94f20b44248c3968119d1c320e5d47f031d925862c2e3bd706693e9872",
       "source_sha256": "26af8d5a8382f60fc0cf70c761c3aaa23ba4cd7092f6881fae1a39d00c6ddacb",
-      "translation_sha256": "272897ef47d72a1ca46d21d56e850f3149adca5f6fda41831058cada1996eb68"
+      "translation_sha256": "94dcd187fc1b270dbd3bcdea64efa9e4c92c20d78522cef89e14d9bd716d746d"
     },
     {
       "id": "coalesced:14e8a17fb13fead6a17cd2da7c0bd75102312e04e3da1504cbffd53383f9a86e",
       "source_sha256": "cde9cfc0df8dc40b4f4b7101f54b1e7946a44e400a4905f0f594290678ac0b9e",
-      "translation_sha256": "69c5010f3aa9cfd06dcf8b412d147807b323b301927bd91500c55a88d90eedbd"
+      "translation_sha256": "71bafc64f661a23cdb00bd3e29ec71d9f3a847e049e516092735532f2ee85986"
     },
     {
       "id": "coalesced:f6640b5f28445b373b7ffa98f0583c2e7ce6044eb0cd67089f97bdf07379bfdf",
@@ -553,12 +553,12 @@
     {
       "id": "coalesced:1c0c7bbb682c9b04ddd110b72b66e7dd222e76acddb132fa9abb76d35470ec51",
       "source_sha256": "0b843f31431c138cab9a61af78161173c986e592cc94f01469b0372df3feb89a",
-      "translation_sha256": "ed7b4f0d4977849117b6a43ac912196d60f57856227b59b7118e302b85030193"
+      "translation_sha256": "29c5f92c25c810e37cda354cb9e5bee0f140d9bcc38a403e3271551bb1e61d52"
     },
     {
       "id": "coalesced:7b2ddac5c53092e06e9d8ff2950d9b40c17ef3d87a58f2fc817ffe389eb7e6f3",
       "source_sha256": "0b843f31431c138cab9a61af78161173c986e592cc94f01469b0372df3feb89a",
-      "translation_sha256": "ed7b4f0d4977849117b6a43ac912196d60f57856227b59b7118e302b85030193"
+      "translation_sha256": "29c5f92c25c810e37cda354cb9e5bee0f140d9bcc38a403e3271551bb1e61d52"
     },
     {
       "id": "coalesced:da97807df64021f147ee388cdcfee967e6a9752d55ad04ac3cdc0bf8eb91ce0c",
@@ -1065,7 +1065,42 @@
     "群体能力道具攻/防/回避/精神/抗性均一定时间提高全体；四属性碎片是一定区域地面效果伤害，短说明省去地面效果字样源如此，不改为全敌人。日文异常剂单敌施烧伤/冰冻/沉默/混乱/眩晕/虚弱/中毒/腹痛/睡眠依源，不将diarrhea键强改成腹痛名；Firecracker键对应空蝉长袍也不改源键或自配名称。",
     "火/冰/雷/风元素体在场景生成对应KAN，1060_water_elemental键water但源얼음冰，按源维持冰之元素体/冰之KAN，不用键位或其他技能水KAN来覆盖。1063_Katuobusi源굴비现黄花鱼干、Matatabi源캣닢现猫薄荷，按显示源而非英文/日文内部键名改译；鱼干仅单体20%体力，猫薄荷单体酥麻并免麻痹/触电，保留喵~口吻和功能分行。",
     "日韩混合源、源短说明少空格/尾空格、功能换行、1/200/700/900/1200/1500/3000/3600/4500/5500及20%/30%/50%/100%严格保持；未改旧译/其他原值。跨资源眩晕/晕眩、冻伤/冰冻及命名/源键映射保留待查，不把语义复核称游戏效果验证或人审定稿。",
-    "86项共享候选逐项核对，4项字面缺失为标题措辞：공격/방어/저항分别在愤怒之攻/钢铁之防/沉默之抗缩略，정신在神清气爽的整名意译；对应长短说明的攻击/防御/抗性/精神保持且不省效果对象。整名候选均对应，所有candidate/unverified仍未人工定稿。"
+    "86项共享候选逐项核对，4项字面缺失为标题措辞：공격/방어/저항分别在愤怒之攻/钢铁之防/沉默之抗缩略，정신在神清气爽的整名意译；对应长短说明的攻击/防御/抗性/精神保持且不省效果对象。整名候选均对应，所有candidate/unverified仍未人工定稿。",
+    "阶段264按风状态教学及既有技能用词，将26处어지러움统一为晕眩；スタン/스턴保留眩晕。显式旧新hash取代，不增加primary，仍非人审或运行定稿。"
   ],
-  "retained_originals": []
+  "retained_originals": [],
+  "target_supersessions": [
+    {
+      "id": "coalesced:d23a8b94f20b44248c3968119d1c320e5d47f031d925862c2e3bd706693e9872",
+      "source_sha256": "26af8d5a8382f60fc0cf70c761c3aaa23ba4cd7092f6881fae1a39d00c6ddacb",
+      "before_target_sha256": "272897ef47d72a1ca46d21d56e850f3149adca5f6fda41831058cada1996eb68",
+      "after_target_sha256": "94dcd187fc1b270dbd3bcdea64efa9e4c92c20d78522cef89e14d9bd716d746d",
+      "phase": 264,
+      "review": "locales/zh-Hans/consistency-reviews/recovery-status-items.json"
+    },
+    {
+      "id": "coalesced:14e8a17fb13fead6a17cd2da7c0bd75102312e04e3da1504cbffd53383f9a86e",
+      "source_sha256": "cde9cfc0df8dc40b4f4b7101f54b1e7946a44e400a4905f0f594290678ac0b9e",
+      "before_target_sha256": "69c5010f3aa9cfd06dcf8b412d147807b323b301927bd91500c55a88d90eedbd",
+      "after_target_sha256": "71bafc64f661a23cdb00bd3e29ec71d9f3a847e049e516092735532f2ee85986",
+      "phase": 264,
+      "review": "locales/zh-Hans/consistency-reviews/recovery-status-items.json"
+    },
+    {
+      "id": "coalesced:1c0c7bbb682c9b04ddd110b72b66e7dd222e76acddb132fa9abb76d35470ec51",
+      "source_sha256": "0b843f31431c138cab9a61af78161173c986e592cc94f01469b0372df3feb89a",
+      "before_target_sha256": "ed7b4f0d4977849117b6a43ac912196d60f57856227b59b7118e302b85030193",
+      "after_target_sha256": "29c5f92c25c810e37cda354cb9e5bee0f140d9bcc38a403e3271551bb1e61d52",
+      "phase": 264,
+      "review": "locales/zh-Hans/consistency-reviews/recovery-status-items.json"
+    },
+    {
+      "id": "coalesced:7b2ddac5c53092e06e9d8ff2950d9b40c17ef3d87a58f2fc817ffe389eb7e6f3",
+      "source_sha256": "0b843f31431c138cab9a61af78161173c986e592cc94f01469b0372df3feb89a",
+      "before_target_sha256": "ed7b4f0d4977849117b6a43ac912196d60f57856227b59b7118e302b85030193",
+      "after_target_sha256": "29c5f92c25c810e37cda354cb9e5bee0f140d9bcc38a403e3271551bb1e61d52",
+      "phase": 264,
+      "review": "locales/zh-Hans/consistency-reviews/recovery-status-items.json"
+    }
+  ]
 }

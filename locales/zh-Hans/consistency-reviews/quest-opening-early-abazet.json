@@ -1101,7 +1101,7 @@
     {
       "id": "coalesced:8a45eff083762ebe22731ae1f8e6f14e8ad1613d6deb88e52c239e632d9b2e83",
       "source_sha256": "093a4ce966285fa86be0b7ab4ce06c573871c7e1cb7ff38c23faff7334c1403f",
-      "translation_sha256": "5c4dfc65878a53ea1a7f42f087f44d5d4cdebf08f8fc9d84912321c5cd1a5ee1"
+      "translation_sha256": "bcf22ebd4ce81ee7c8915826135a6a5a4be72f225c4680b3d6ceb4076dd94bfd"
     },
     {
       "id": "coalesced:a4dc619ba17638a92cc0e4cb264b60dd854e61beea94dad5190c23afa99f31b2",
@@ -1116,7 +1116,7 @@
     {
       "id": "coalesced:384df46e7a588797961322a61088768d137e4c10ab2993610102ef92d42c1e3e",
       "source_sha256": "8f7fe87c71b792db04a7e0b3cfc3b7e8858d69aca5043d39531919f4c0c6b26a",
-      "translation_sha256": "5c5319f5c15a3a903de8e28ed3cb4f4b18e0b5402a025528356f6478d6e69c23"
+      "translation_sha256": "6feccd75bfb77283cbf2c86068c8f009fa58332bf16f5eeb288740896bb13254"
     },
     {
       "id": "coalesced:f16ae163e39a3c564248c3008f1513f644e6b389f0384a5257bbacb82ea3b812",
@@ -1131,7 +1131,7 @@
     {
       "id": "coalesced:4942c3688b2c58519924e10def6f1b7500af751c432a2b46f4b3e775fc219cb6",
       "source_sha256": "8f7fe87c71b792db04a7e0b3cfc3b7e8858d69aca5043d39531919f4c0c6b26a",
-      "translation_sha256": "5c5319f5c15a3a903de8e28ed3cb4f4b18e0b5402a025528356f6478d6e69c23"
+      "translation_sha256": "6feccd75bfb77283cbf2c86068c8f009fa58332bf16f5eeb288740896bb13254"
     },
     {
       "id": "coalesced:e5d86da5cc18066030e9bd9defcb0c58b15be97a0c1f6aceeac0276d19779262",
@@ -1156,7 +1156,7 @@
     {
       "id": "coalesced:d06cff54191da125e724ec9cc56eb58c705fe6b97cc954c9d6e7fa9a0271f37b",
       "source_sha256": "173f0dba851081081727386dc0d8f1102da287721c5be3b1f55d7df97846336f",
-      "translation_sha256": "c454503af9f1d86acf8fd60085beb398fb669c60f3cf7aa10c702d2d8c1217a8"
+      "translation_sha256": "470aa335cade874b7139b21d61e19487b0a16c8cf6db798934e8e6e0a1b22f85"
     },
     {
       "id": "coalesced:a28279429a30b04b2b886b9fa3fcd975102e0adfae08b5d01f7d835aa221d4bf",
@@ -1183,6 +1183,41 @@
     "阿巴泽特毒蠕虫3只，中毒掉体力与过时自行恢复两说明并存，解毒剂/治疗别名分别按原文；不写成只有一种解除方式。胡安父亲忧虑与胡安本人获救回话分开，父亲近况仍为疑问。",
     "伊姆的公会联盟护送到卡蒙德采掘场，途中怪物/盗匪袭击与携药救伤者保持目的；ready_yesno的X出发/Y稍等与启程条件不倒置。",
     "蓬蓬3只、叶遮本体、风属性连环术造成眩晕后合力攻击保持；眩晕/晕眩候选别名不在本轮全局合并，送库布信件为未来有需要时。",
-    "既有译文及全部数字/键位/占位符/功能换行严格保持，未采用改译；人工定稿与运行排版/游戏验收批准均不提升。"
+    "既有译文及全部数字/键位/占位符/功能换行严格保持，未采用改译；人工定稿与运行排版/游戏验收批准均不提升。",
+    "阶段264按风状态教学及既有技能用词，将26处어지러움统一为晕眩；スタン/스턴保留眩晕。显式旧新hash取代，不增加primary，仍非人审或运行定稿。"
+  ],
+  "target_supersessions": [
+    {
+      "id": "coalesced:8a45eff083762ebe22731ae1f8e6f14e8ad1613d6deb88e52c239e632d9b2e83",
+      "source_sha256": "093a4ce966285fa86be0b7ab4ce06c573871c7e1cb7ff38c23faff7334c1403f",
+      "before_target_sha256": "5c4dfc65878a53ea1a7f42f087f44d5d4cdebf08f8fc9d84912321c5cd1a5ee1",
+      "after_target_sha256": "bcf22ebd4ce81ee7c8915826135a6a5a4be72f225c4680b3d6ceb4076dd94bfd",
+      "phase": 264,
+      "review": "locales/zh-Hans/consistency-reviews/quest-opening-early-abazet.json"
+    },
+    {
+      "id": "coalesced:384df46e7a588797961322a61088768d137e4c10ab2993610102ef92d42c1e3e",
+      "source_sha256": "8f7fe87c71b792db04a7e0b3cfc3b7e8858d69aca5043d39531919f4c0c6b26a",
+      "before_target_sha256": "5c5319f5c15a3a903de8e28ed3cb4f4b18e0b5402a025528356f6478d6e69c23",
+      "after_target_sha256": "6feccd75bfb77283cbf2c86068c8f009fa58332bf16f5eeb288740896bb13254",
+      "phase": 264,
+      "review": "locales/zh-Hans/consistency-reviews/quest-opening-early-abazet.json"
+    },
+    {
+      "id": "coalesced:4942c3688b2c58519924e10def6f1b7500af751c432a2b46f4b3e775fc219cb6",
+      "source_sha256": "8f7fe87c71b792db04a7e0b3cfc3b7e8858d69aca5043d39531919f4c0c6b26a",
+      "before_target_sha256": "5c5319f5c15a3a903de8e28ed3cb4f4b18e0b5402a025528356f6478d6e69c23",
+      "after_target_sha256": "6feccd75bfb77283cbf2c86068c8f009fa58332bf16f5eeb288740896bb13254",
+      "phase": 264,
+      "review": "locales/zh-Hans/consistency-reviews/quest-opening-early-abazet.json"
+    },
+    {
+      "id": "coalesced:d06cff54191da125e724ec9cc56eb58c705fe6b97cc954c9d6e7fa9a0271f37b",
+      "source_sha256": "173f0dba851081081727386dc0d8f1102da287721c5be3b1f55d7df97846336f",
+      "before_target_sha256": "c454503af9f1d86acf8fd60085beb398fb669c60f3cf7aa10c702d2d8c1217a8",
+      "after_target_sha256": "470aa335cade874b7139b21d61e19487b0a16c8cf6db798934e8e6e0a1b22f85",
+      "phase": 264,
+      "review": "locales/zh-Hans/consistency-reviews/quest-opening-early-abazet.json"
+    }
   ]
 }

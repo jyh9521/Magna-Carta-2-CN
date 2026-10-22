@@ -71,6 +71,77 @@ def overlay_tiles(tiled,width,height,rect,rgba,encoding_cache=None):
                        untouched_blocks_preserved=True,alignment_padding_preserved=True)
 
 
+def layer_ids(edit):
+    """One legacy label or explicit ordered, disjoint labels for one image."""
+    if ('label' in edit)==('regions' in edit):raise FormatError('exactly one label or region list required')
+    ids=[edit['label']] if 'label' in edit else edit['regions']
+    if (not isinstance(ids,list) or not 1<=len(ids)<=16
+            or any(not isinstance(v,str) or not v or len(v)>128 for v in ids)
+            or len(set(ids))!=len(ids)):raise FormatError('invalid texture region labels')
+    if 'regions' in edit and (not isinstance(edit.get('image_id'),str) or not edit['image_id'] or len(edit['image_id'])>128):
+        raise FormatError('multi-region image requires explicit image_id')
+    return ids
+
+
+def image_id(edit):
+    ids=layer_ids(edit)
+    return edit['image_id'] if 'regions' in edit else ids[0]
+
+
+def region_offsets(width,height,rect):
+    if (not isinstance(rect,list) or len(rect)!=4 or any(type(v) is not int for v in rect)
+            or any(type(v) is not int for v in (width,height))):raise FormatError('invalid region rectangle')
+    x,y,w,h=rect
+    if (min(width,height)<32 or max(width,height)>8192 or any(v%4 for v in (width,height,x,y,w,h))
+            or min(x,y)<0 or min(w,h)<=0 or x+w>width or y+h>height):raise FormatError('region rectangle outside texture')
+    return {xbox_tiled_block_offset(x//4+bx,y//4+by,((width+127)&~127)//4)*16
+            for by in range(h//4) for bx in range(w//4)}
+
+
+def rgba_crop(rgba,width,rect):
+    x,y,w,h=rect
+    return b''.join(rgba[((y+dy)*width+x)*4:((y+dy)*width+x+w)*4] for dy in range(h))
+
+
+def overlay_regions(tiles,width,height,edit,layers,encoding_cache=None):
+    ids=layer_ids(edit);protected=edit.get('protected_regions',[])
+    if not isinstance(protected,list) or len(protected)>16:raise FormatError('protected region bound')
+    allowed=set();resolved=[]
+    for name in ids:
+        if name not in layers:raise FormatError('texture region label missing')
+        label,rgba=layers[name];blocks=region_offsets(width,height,label['rect'])
+        if blocks & allowed:raise FormatError('texture regions overlap')
+        allowed.update(blocks);resolved.append((label,rgba))
+    protected_blocks=set();protected_ids=set()
+    for row in protected:
+        if (not isinstance(row,dict) or set(row)!={'id','rect','rgba_sha256'}
+                or not isinstance(row['id'],str) or not row['id'] or len(row['id'])>128
+                or row['id'] in protected_ids):raise FormatError('invalid protected region')
+        protected_ids.add(row['id']);blocks=region_offsets(width,height,row['rect'])
+        if blocks & (allowed|protected_blocks):raise FormatError('protected region overlaps edit or another protection')
+        protected_blocks.update(blocks)
+    patched=tiles;proofs=[]
+    for label,rgba in resolved:
+        patched,proof=overlay_tiles(patched,width,height,label['rect'],rgba,encoding_cache);proofs.append(proof)
+    # Keep legacy manifest/report bytes exactly stable when no new features apply.
+    if 'label' in edit and not protected:return patched,proofs[0]
+    changed={i for i in range(0,len(tiles),16) if tiles[i:i+16]!=patched[i:i+16]}
+    if not changed<=allowed:raise FormatError('composite edit escaped authorized region union')
+    result=dict(regions=proofs,changed_blocks=len(changed),authorized_blocks=len(allowed),
+                untouched_blocks_preserved=True,alignment_padding_preserved=True)
+    if protected:
+        before=decode_dxt5(untile_dxt5(tiles,width,height),width,height)
+        after=decode_dxt5(untile_dxt5(patched,width,height),width,height);checks=[]
+        for row in protected:
+            blocks=region_offsets(width,height,row['rect']);a=rgba_crop(before,width,row['rect']);b=rgba_crop(after,width,row['rect'])
+            if (digest(a)!=row['rgba_sha256'] or a!=b
+                    or any(tiles[i:i+16]!=patched[i:i+16] for i in blocks)):
+                raise FormatError('protected region block/pixel hash mismatch')
+            checks.append(dict(id=row['id'],rect=row['rect'],before_rgba_sha256=digest(a),after_rgba_sha256=digest(b),blocks_preserved=True))
+        result['protected_regions']=checks
+    return patched,result
+
+
 def label_style(label):
     """Locale-neutral RGBA palette; defaults retain the first overlay style."""
     defaults=dict(fill=(236,236,236,255),stroke_fill=(25,25,25,230),shadow_fill=(0,0,0,180))
@@ -128,7 +199,7 @@ def patch_package(data,expected_hash,edits,layers,decoder,encoding_cache=None):
         texture=parse_atlas_payload(old,tables['names'],off);tiles=atlas_tiles(old,texture,decoder)
         if digest(tiles)!=edit['tiled_sha256']:raise FormatError('texture original tiles mismatch')
         if [texture['width'],texture['height']]!=edit['dimensions']:raise FormatError('texture dimensions mismatch')
-        label,rgba=layers[edit['label']];patched,proof=overlay_tiles(tiles,texture['width'],texture['height'],label['rect'],rgba,encoding_cache)
+        patched,proof=overlay_regions(tiles,texture['width'],texture['height'],edit,layers,encoding_cache)
         if patched==tiles:raise FormatError('texture edit is a no-op')
         bulk=texture['mips'][0]['bulk'];stored=wrap_ue3_chunk(patched) if bulk['flags']==0x40 else patched
         payload=bytearray(old[:bulk['payload_offset']]+stored+old[bulk['payload_offset']+bulk['size_on_disk']:])

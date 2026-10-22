@@ -1,0 +1,578 @@
+{
+  "schema_version": 1,
+  "phase": 291,
+  "kind": "source-linked-boss-gameover-image-adoption",
+  "status": "draft",
+  "plan": {
+    "path": "locales/zh-Hans/texture-overlays/ui-labels.json",
+    "sha256": "1426da56f80a75dd93d6ffd63008a46386dd8207ea6e963d8b5935da5dd7ebb5"
+  },
+  "image_groups": 17,
+  "new_image_groups": 17,
+  "INT_drafts_added": 0,
+  "entries": [
+    {
+      "package": "UI_Title",
+      "export": 10,
+      "translation": "艾尔加",
+      "basis": "adopted-name",
+      "visual_source_sha256": "2a30ffa7007441880451252e0cdd7570848d33646351b9984a46e66a0cb560ea",
+      "status": "draft-image-adopted-offline",
+      "classification": "Verified source mapping / draft image translation",
+      "evidence": [
+        {
+          "id": "coalesced:1b0de89908471eea1002b1fda2add9e70c16a803e4475f1821fd30549f4eae6f",
+          "source_sha256": "b3e1c36d36cbb39eebcf0e1906d5f11a1b8846b7040cd11b85633b256aba8c7f",
+          "adopted_translation": "艾尔加",
+          "embedded_path": "..\\MC2Game\\Localization\\INT\\MC2CharacterName.int",
+          "section": "Default",
+          "key": "Elga",
+          "batches": [
+            {
+              "path": "locales/zh-Hans/batch-004.json",
+              "sha256": "6ae57f837f0604746ffdd34cf962902583f09537b3dc6c649acf191723fb0fe9"
+            }
+          ],
+          "japanese_primary": [
+            {
+              "source_sha256": "a8741a418ae60b0d1e3dc450e88287397af7802e4a7364b2430ffb437fac46ea",
+              "resource": "build/disc1-selected/MC2Game/Localization/Coalesced.jpn",
+              "resource_sha256": "fb99602a9ff5f081857efa7389d6d2b6ecfc6765946f0bba2fbde4cdbf962a90",
+              "stable_id": "coalesced:19d459e4938ad71c552b807a540a9a0ecb4c7edf0e6ae38591b2b31d205e1ffa"
+            }
+          ]
+        }
+      ],
+      "preservation": null,
+      "subtitle_policy": "Chinese full title replaces visual title and duplicate Latin subtitle"
+    },
+    {
+      "package": "UI_Title",
+      "export": 11,
+      "translation": "守护者阿蒙",
+      "basis": "new-image-translation-reusing-adopted-name",
+      "visual_source_sha256": "762817556ce44e3c316fbe43e32ecf2bf238e299eadbf5b38e0453ce9c26333a",
+      "status": "draft-image-adopted-offline",
+      "classification": "Verified source mapping / draft image translation",
+      "evidence": [
+        {
+          "id": "coalesced:1d0d61693623741e1d0ab34111b6d0990bf555b92380a359c75b4e4442428a56",
+          "source_sha256": "5c540350ab635c3680fb5f59c5c663451ae95af91a36f31c837b8eb68f91c9ea",
+          "adopted_translation": "洞窟里的守护者尸体已经回收了。\\n军船一到，就会运往\\n阿巴泽特。",
+          "embedded_path": "..\\MC2Game\\Localization\\INT\\MC2Compose.int",
+          "section": "Chapter01",
+          "key": "Chapter01_28",
+          "batches": [
+            {
+              "path": "locales/zh-Hans/batch-110.json",
+              "sha256": "43094220906def438b293f2f02fcc9459a37af94d929d8d2854b3a14db1c119b"
+            }
+          ],
+          "japanese_primary": [
+            {
+              "source_sha256": "bbc7e6dff7c796805cc12c62fe97d4a6f93f2ee4ed6e653463996d9ec5077abc",
+              "resource": "build/disc1-selected/MC2Game/Localization/Coalesced.jpn",
+              "resource_sha256": "fb99602a9ff5f081857efa7389d6d2b6ecfc6765946f0bba2fbde4cdbf962a90",
+              "stable_id": "coalesced:10476c0272ea370bb2af94358cd49120bb4703408909fcfefdea7035baf2b1ab"
+            }
+          ]
+        }
+      ],
+      "preservation": null,
+      "subtitle_policy": "Chinese full title replaces visual title and duplicate Latin subtitle"
+    },
+    {
+      "package": "UI_Title",
+      "export": 12,
+      "translation": "阿斯塔罗斯",
+      "basis": "adopted-name",
+      "visual_source_sha256": "a01dddd8705a2a894e25e6d47b3ac7b44118c994f65c08b22feaa85636f9227b",
+      "status": "draft-image-adopted-offline",
+      "classification": "Verified source mapping / draft image translation",
+      "evidence": [
+        {
+          "id": "coalesced:e66f42d564e6a6a8fe73e7f141686d8075a859fa8b3c25688b867779819e5706",
+          "source_sha256": "fbc45ca87f723b034295d449192a90022169e436d3139cd1f740fc1aacd60319",
+          "adopted_translation": "阿斯塔罗斯恢复了",
+          "embedded_path": "..\\MC2Game\\Localization\\INT\\MC2UI.int",
+          "section": "Battle_Log",
+          "key": "AstarotRecover_1",
+          "batches": [
+            {
+              "path": "locales/zh-Hans/batch-119.json",
+              "sha256": "08cf2d89a1359b8b8e6f846cbc7c599892a527eaac48f9e16f16a09006855137"
+            }
+          ],
+          "japanese_primary": [
+            {
+              "source_sha256": "ad8012d194ace5f97694e4af7e1267f4c3c383cb8da4a98c33b4e2659f79c682",
+              "resource": "build/disc1-selected/MC2Game/Localization/Coalesced.jpn",
+              "resource_sha256": "fb99602a9ff5f081857efa7389d6d2b6ecfc6765946f0bba2fbde4cdbf962a90",
+              "stable_id": "coalesced:8ed82ce33f590d4813baf141cca97163aa5139b984d83111c8bf650419642e44"
+            }
+          ]
+        }
+      ],
+      "preservation": null,
+      "subtitle_policy": "Chinese full title replaces visual title and duplicate Latin subtitle"
+    },
+    {
+      "package": "UI_Title",
+      "export": 13,
+      "translation": "利维坦",
+      "basis": "adopted-name",
+      "visual_source_sha256": "3ff2313570a35de2779c1c26ecd871943c51a71c68cb267330ec68547828df62",
+      "status": "draft-image-adopted-offline",
+      "classification": "Verified source mapping / draft image translation",
+      "evidence": [
+        {
+          "id": "coalesced:13602819568bcd4ca21f522191956af518ca6def66febf2f15188a9575fd3bd5",
+          "source_sha256": "76219d4e59ab0dc3a81783a3b8fe1df750a23499cb70e5bbde236528767eeecc",
+          "adopted_translation": "利维坦",
+          "embedded_path": "..\\MC2Game\\Localization\\INT\\MC2QubeMail.int",
+          "section": "B04_002",
+          "key": "B04_002_Sub",
+          "batches": [
+            {
+              "path": "locales/zh-Hans/batch-024.json",
+              "sha256": "c3e1ea0ecc2cb3d0c82c49c9040c7f2efd0deed7a0420bbe7ae2abb1e32d3d8b"
+            }
+          ],
+          "japanese_primary": [
+            {
+              "source_sha256": "420c02ef48045f7969f84325713d07fd2f57b3869c36f29a647ae12522c6e9e3",
+              "resource": "build/disc1-selected/MC2Game/Localization/Coalesced.jpn",
+              "resource_sha256": "fb99602a9ff5f081857efa7389d6d2b6ecfc6765946f0bba2fbde4cdbf962a90",
+              "stable_id": "coalesced:a69b0f7b3314ed9c479712f4b84d2a47e9817528afe9216beae0d61f6f9b353c"
+            }
+          ]
+        }
+      ],
+      "preservation": null,
+      "subtitle_policy": "Chinese full title replaces visual title and duplicate Latin subtitle"
+    },
+    {
+      "package": "UI_Title",
+      "export": 14,
+      "translation": "梅莉莎·蒂丝",
+      "basis": "new-image-translation-reusing-adopted-name",
+      "visual_source_sha256": "19fa9054b6ce2a8dd59229c870b4aee222678a7f77b47601b316328864852c56",
+      "status": "draft-image-adopted-offline",
+      "classification": "Verified source mapping / draft image translation",
+      "evidence": [
+        {
+          "id": "coalesced:7454c5c8449ba9d96de45d682d2d3894234d6fbd690cea1380259ee1dfe60a9a",
+          "source_sha256": "5bceec993838f179eba8d049b9617b2f2efd3f26980dc867a03728bea7afa6e5",
+          "adopted_translation": "梅莉莎",
+          "embedded_path": "..\\MC2Game\\Localization\\INT\\MC2CharacterName.int",
+          "section": "Default",
+          "key": "Melissa",
+          "batches": [
+            {
+              "path": "locales/zh-Hans/display-fix.json",
+              "sha256": "528cceb20bec1ae1604f9758dada9452f34a7a8de060a176e069db2dd299639e"
+            },
+            {
+              "path": "locales/zh-Hans/opening-batch.json",
+              "sha256": "60038b495783b9c1f62dd816eb213f5883e021f7aa64d4ecacc8ee0ca809d343"
+            },
+            {
+              "path": "locales/zh-Hans/readability-fix.json",
+              "sha256": "52f7b01cbc119fabf1e04f6e454506fa1093bb5aebb80f92370b9ea85c17e0b5"
+            },
+            {
+              "path": "locales/zh-Hans/readability-revised.json",
+              "sha256": "1a623ff47a6d49a441a50729a49e54830f64d5a13ee93b8c96498efae62f3a7f"
+            }
+          ],
+          "japanese_primary": [
+            {
+              "source_sha256": "1730cd19a396010846c8f2b9332f4da96610cbe9990f0f423f18a79b97b72525",
+              "resource": "build/disc1-selected/MC2Game/Localization/Coalesced.jpn",
+              "resource_sha256": "fb99602a9ff5f081857efa7389d6d2b6ecfc6765946f0bba2fbde4cdbf962a90",
+              "stable_id": "coalesced:d5c7d8a4282e875243e0dfeca0da43603d39b80de58cca1ad232c4a24eda2750"
+            }
+          ]
+        }
+      ],
+      "preservation": null,
+      "subtitle_policy": "Chinese full title replaces visual title and duplicate Latin subtitle"
+    },
+    {
+      "package": "UI_Title",
+      "export": 15,
+      "translation": "修恩扎伊特·巴伦",
+      "basis": "new-image-translation-reusing-adopted-name",
+      "visual_source_sha256": "a9c8f5cb918215427876421c1ecd38e9e0c8b480320ce47a819d989db2e6488c",
+      "status": "draft-image-adopted-offline",
+      "classification": "Verified source mapping / draft image translation",
+      "evidence": [
+        {
+          "id": "coalesced:cb193c45203708ee5f3dbb876dd54e26bbbcbc10809bcb027e36980e4425e2e0",
+          "source_sha256": "6b31a46aa1b4a861efbc15a143494c9817e21cf856adc8da8b0397cef7e55f67",
+          "adopted_translation": "修恩扎伊特",
+          "embedded_path": "..\\MC2Game\\Localization\\INT\\MC2CharacterName.int",
+          "section": "Default",
+          "key": "Schauenzeit",
+          "batches": [
+            {
+              "path": "locales/zh-Hans/batch-004.json",
+              "sha256": "6ae57f837f0604746ffdd34cf962902583f09537b3dc6c649acf191723fb0fe9"
+            }
+          ],
+          "japanese_primary": [
+            {
+              "source_sha256": "ac07b655a0b386d4827b4805f5cd370480f270563ed587abf8e7508f2cdfebb7",
+              "resource": "build/disc1-selected/MC2Game/Localization/Coalesced.jpn",
+              "resource_sha256": "fb99602a9ff5f081857efa7389d6d2b6ecfc6765946f0bba2fbde4cdbf962a90",
+              "stable_id": "coalesced:1d07e5c6ef00e7c687d26e37e1dd0b0966c36c8d8e243d9d8f5f17f47b37ffa7"
+            }
+          ]
+        }
+      ],
+      "preservation": null,
+      "subtitle_policy": "Chinese full title replaces visual title and duplicate Latin subtitle"
+    },
+    {
+      "package": "UI_Title",
+      "export": 16,
+      "translation": "贝卡斯",
+      "basis": "adopted-name",
+      "visual_source_sha256": "36144fdc90c24171218f1ebd265048509f30a1096267f19aa44faa5d2ea8bb5a",
+      "status": "draft-image-adopted-offline",
+      "classification": "Verified source mapping / draft image translation",
+      "evidence": [
+        {
+          "id": "coalesced:1139969c1b4b55f2b947cedcf3b057d621cb6385630991423eb44eefddc70ceb",
+          "source_sha256": "36144fdc90c24171218f1ebd265048509f30a1096267f19aa44faa5d2ea8bb5a",
+          "adopted_translation": "贝卡斯",
+          "embedded_path": "..\\MC2Game\\Localization\\INT\\MC2QubeMail.int",
+          "section": "B04_001",
+          "key": "B04_001_Sub",
+          "batches": [
+            {
+              "path": "locales/zh-Hans/batch-024.json",
+              "sha256": "c3e1ea0ecc2cb3d0c82c49c9040c7f2efd0deed7a0420bbe7ae2abb1e32d3d8b"
+            }
+          ],
+          "japanese_primary": [
+            {
+              "source_sha256": "eb8c6e3c5e10abd561f647d611c31f2d28de9a1a39213fdef13ab9a41c77ed18",
+              "resource": "build/disc1-selected/MC2Game/Localization/Coalesced.jpn",
+              "resource_sha256": "fb99602a9ff5f081857efa7389d6d2b6ecfc6765946f0bba2fbde4cdbf962a90",
+              "stable_id": "coalesced:5afec025c5ba11e978f3ab4bbd1068f12566104d849f71d08e62950c84feb011"
+            }
+          ]
+        }
+      ],
+      "preservation": null,
+      "subtitle_policy": "Chinese full title replaces visual title and duplicate Latin subtitle"
+    },
+    {
+      "package": "UI_Title",
+      "export": 17,
+      "translation": "贝里艾尔",
+      "basis": "adopted-name",
+      "visual_source_sha256": "1a2e229f6de3d3cb5f7f4c3adcedff2cb2e54c4f97c6b44a838c8606fcee8965",
+      "status": "draft-image-adopted-offline",
+      "classification": "Verified source mapping / draft image translation",
+      "evidence": [
+        {
+          "id": "coalesced:532aa3295bef1540db9ff69a4934b04af6f1926cdbd49392c94fa6c980453b26",
+          "source_sha256": "d92730809da15a11743e598d12157eb1e333886aa9f2228fe407cec8adcb9738",
+          "adopted_translation": "贝里艾尔恢复了",
+          "embedded_path": "..\\MC2Game\\Localization\\INT\\MC2UI.int",
+          "section": "Battle_Log",
+          "key": "BelielRecover_1",
+          "batches": [
+            {
+              "path": "locales/zh-Hans/batch-119.json",
+              "sha256": "08cf2d89a1359b8b8e6f846cbc7c599892a527eaac48f9e16f16a09006855137"
+            }
+          ],
+          "japanese_primary": [
+            {
+              "source_sha256": "bd1347b90e6b2f6143bb8e33badc4fe308704c96f06a2c948d6dcef05dd62eb1",
+              "resource": "build/disc1-selected/MC2Game/Localization/Coalesced.jpn",
+              "resource_sha256": "fb99602a9ff5f081857efa7389d6d2b6ecfc6765946f0bba2fbde4cdbf962a90",
+              "stable_id": "coalesced:19129c418735bbc65e49408f70507270e5156cb63f192b0b5017b77486a2fd5d"
+            }
+          ]
+        }
+      ],
+      "preservation": null,
+      "subtitle_policy": "Chinese full title replaces visual title and duplicate Latin subtitle"
+    },
+    {
+      "package": "UI_Title",
+      "export": 18,
+      "translation": "杰巴萨",
+      "basis": "adopted-name",
+      "visual_source_sha256": "8548ade8afe13d1b8da4ee2e1cd88f1fa562d2653ced9e1be3b8e3779f8965d0",
+      "status": "draft-image-adopted-offline",
+      "classification": "Verified source mapping / draft image translation",
+      "evidence": [
+        {
+          "id": "coalesced:4625d8114843d3ee54d01a9e326f9162f63416b53994ee57d4836312a699a63f",
+          "source_sha256": "4fab9f8b6fcaf1a12ea37ed11cc121e0e14b6f3e54f6f48928ca491a2a64fbfb",
+          "adopted_translation": "击败杰巴萨",
+          "embedded_path": "..\\MC2Game\\Localization\\INT\\MC2Quest.int",
+          "section": "05_136_0",
+          "key": "goaldesc",
+          "batches": [
+            {
+              "path": "locales/zh-Hans/batch-030.json",
+              "sha256": "d72d798485851e8c407454cf47dcbd767241c18a7e73c48bd62310d7377651c3"
+            }
+          ],
+          "japanese_primary": []
+        }
+      ],
+      "preservation": null,
+      "subtitle_policy": "Chinese full title replaces visual title and duplicate Latin subtitle"
+    },
+    {
+      "package": "UI_Title",
+      "export": 19,
+      "translation": "克蕾尔·塞蒂安",
+      "basis": "new-image-translation-reusing-adopted-name",
+      "visual_source_sha256": "6ff05805ac29415b2762a5aeb3414b1c6e6497eceecf2cd514d463c0f4f9f2de",
+      "status": "draft-image-adopted-offline",
+      "classification": "Verified source mapping / draft image translation",
+      "evidence": [
+        {
+          "id": "coalesced:5afcb5c9e296971e253b232e5e0a5eecf830d51ada15c9072ea4c39f72e080c6",
+          "source_sha256": "c1308fcb43ef6eedc017a1d46e4f8ab081402ce51157440b08242f4f2198299c",
+          "adopted_translation": "克蕾尔",
+          "embedded_path": "..\\MC2Game\\Localization\\INT\\MC2CharacterName.int",
+          "section": "Default",
+          "key": "Clare",
+          "batches": [
+            {
+              "path": "locales/zh-Hans/batch-009.json",
+              "sha256": "6afa33b0b4139cfa90ff5996fb5a11d73f17bf8814c10ef4debc0f70d8d03843"
+            }
+          ],
+          "japanese_primary": [
+            {
+              "source_sha256": "468e0701947f5619195cc2fdc4824ae454cabb859bc505d67b488f9662b7c3f8",
+              "resource": "build/disc1-selected/MC2Game/Localization/Coalesced.jpn",
+              "resource_sha256": "fb99602a9ff5f081857efa7389d6d2b6ecfc6765946f0bba2fbde4cdbf962a90",
+              "stable_id": "coalesced:658b7cba7716a9238b1948025f522f7ce31cfb604feb36beee03f748846eaaf8"
+            }
+          ]
+        }
+      ],
+      "preservation": null,
+      "subtitle_policy": "Chinese full title replaces visual title and duplicate Latin subtitle"
+    },
+    {
+      "package": "UI_Title",
+      "export": 20,
+      "translation": "巨型安格勒",
+      "basis": "new-image-translation-from-visual",
+      "visual_source_sha256": "dc9826803c602a1248f4f123179569d99202d2077263d2683cad13693dfd905a",
+      "status": "draft-image-adopted-offline",
+      "classification": "Verified source mapping / draft image translation",
+      "evidence": [],
+      "preservation": null,
+      "subtitle_policy": "Chinese full title replaces visual title and duplicate Latin subtitle"
+    },
+    {
+      "package": "UI_Title",
+      "export": 21,
+      "translation": "修亚伦·贾斯",
+      "basis": "new-image-translation-reusing-adopted-name",
+      "visual_source_sha256": "ea313fd23f7694e232a960fbffded725f79aec4316d86df2c793eda1cb7bc287",
+      "status": "draft-image-adopted-offline",
+      "classification": "Verified source mapping / draft image translation",
+      "evidence": [
+        {
+          "id": "coalesced:e78332d97bb940187fed4ebd3053d2e816e0a912ed299d8f61151c553c95ad79",
+          "source_sha256": "9d69f26f7676b68ef47bbc153ae708ce5b9a612da85b6523455e033fe92e025f",
+          "adopted_translation": "修亚伦",
+          "embedded_path": "..\\MC2Game\\Localization\\INT\\MC2CharacterName.int",
+          "section": "Default",
+          "key": "Huaren",
+          "batches": [
+            {
+              "path": "locales/zh-Hans/batch-009.json",
+              "sha256": "6afa33b0b4139cfa90ff5996fb5a11d73f17bf8814c10ef4debc0f70d8d03843"
+            }
+          ],
+          "japanese_primary": [
+            {
+              "source_sha256": "e69e97719f51ff06a78bbb19cb5b1273b0201c7253605a5d0734d7c6d6cf5072",
+              "resource": "build/disc1-selected/MC2Game/Localization/Coalesced.jpn",
+              "resource_sha256": "fb99602a9ff5f081857efa7389d6d2b6ecfc6765946f0bba2fbde4cdbf962a90",
+              "stable_id": "coalesced:09122c8b21d866f996cf5ac7cbcdd23eb886cf8eaede0654b995b4032cdab74c"
+            }
+          ]
+        }
+      ],
+      "preservation": null,
+      "subtitle_policy": "Chinese full title replaces visual title and duplicate Latin subtitle"
+    },
+    {
+      "package": "UI_Title",
+      "export": 22,
+      "translation": "鲁坦·罗伊德",
+      "basis": "new-image-translation-reusing-adopted-name",
+      "visual_source_sha256": "c45740218a447daba82b421685b85748b634dfb04e9acc5d08d35391f7115ece",
+      "status": "draft-image-adopted-offline",
+      "classification": "Verified source mapping / draft image translation",
+      "evidence": [
+        {
+          "id": "coalesced:325ca9b1ce65009c134ae6b749972c9df795304ac673b07c59a7b78ae94da7ff",
+          "source_sha256": "0df037a143a403842dba76318d002a9226d79dcc66f0ec023467aab01c75f122",
+          "adopted_translation": "鲁坦",
+          "embedded_path": "..\\MC2Game\\Localization\\INT\\MC2CharacterName.int",
+          "section": "Default",
+          "key": "Rutan",
+          "batches": [
+            {
+              "path": "locales/zh-Hans/batch-012.json",
+              "sha256": "569a77b7301d758b787b6275b8bb38c36bbc88cb9c47e87deb3b59559847923e"
+            }
+          ],
+          "japanese_primary": [
+            {
+              "source_sha256": "e18438eed558724bd2e44d368864a04118bd56535907ddd8fe44267584dd890a",
+              "resource": "build/disc1-selected/MC2Game/Localization/Coalesced.jpn",
+              "resource_sha256": "fb99602a9ff5f081857efa7389d6d2b6ecfc6765946f0bba2fbde4cdbf962a90",
+              "stable_id": "coalesced:8c959891a900f37c740fbc2c2f5fe99130836f846a7be9b1ef5b0476b2b6490a"
+            }
+          ]
+        }
+      ],
+      "preservation": null,
+      "subtitle_policy": "Chinese full title replaces visual title and duplicate Latin subtitle"
+    },
+    {
+      "package": "UI_Title",
+      "export": 23,
+      "translation": "希昂·雷格拉尔",
+      "basis": "adopted-name",
+      "visual_source_sha256": "fc3511c5ada3eb3c83487822d98582e61666ecef0524341106f8dee924060dfb",
+      "status": "draft-image-adopted-offline",
+      "classification": "Verified source mapping / draft image translation",
+      "evidence": [
+        {
+          "id": "coalesced:808f9378d023ec66c698c20e97492fb57dc0c5567493179dfabeafc722171111",
+          "source_sha256": "fc3511c5ada3eb3c83487822d98582e61666ecef0524341106f8dee924060dfb",
+          "adopted_translation": "希昂·雷格拉尔",
+          "embedded_path": "..\\MC2Game\\Localization\\INT\\MC2QubeMail.int",
+          "section": "B02_004",
+          "key": "B02_004_Sub",
+          "batches": [
+            {
+              "path": "locales/zh-Hans/batch-112.json",
+              "sha256": "5899c9aaf169e00d613bb15506fbfb383e66a93b83efc18df1462c1c5e552c85"
+            }
+          ],
+          "japanese_primary": [
+            {
+              "source_sha256": "4f2e7e2b8da6fd5bc78b0f296a4995e96e601491689e112886c5e029e4eb9949",
+              "resource": "build/disc1-selected/MC2Game/Localization/Coalesced.jpn",
+              "resource_sha256": "fb99602a9ff5f081857efa7389d6d2b6ecfc6765946f0bba2fbde4cdbf962a90",
+              "stable_id": "coalesced:fa30588bdc4b440709077e0599597cf6dc321b0a1eb8045e66c0ab668f5654c5"
+            }
+          ]
+        }
+      ],
+      "preservation": null,
+      "subtitle_policy": "Chinese full title replaces visual title and duplicate Latin subtitle"
+    },
+    {
+      "package": "UI_Title",
+      "export": 24,
+      "translation": "攻略目标：恸哭之门",
+      "basis": "new-image-translation-reusing-adopted-name",
+      "visual_source_sha256": "3de736bd139d15bf3e29826d15b469c23fb715b55574e1a7cbbf38c1302b706b",
+      "status": "draft-image-adopted-offline",
+      "classification": "Verified source mapping / draft image translation",
+      "evidence": [
+        {
+          "id": "coalesced:ab212b81136afafa85408135bcc9c13393e477cbccf4836c66a6f19e383bb14b",
+          "source_sha256": "76c7b76b4b7e47a5f50d985d0dfd031bd82b26ffcb97b746df0e4062156c2c7d",
+          "adopted_translation": "请务必攻破恸哭之门。",
+          "embedded_path": "..\\MC2Game\\Localization\\INT\\MC2Compose.int",
+          "section": "Chapter02",
+          "key": "Chapter02_08",
+          "batches": [
+            {
+              "path": "locales/zh-Hans/batch-110.json",
+              "sha256": "43094220906def438b293f2f02fcc9459a37af94d929d8d2854b3a14db1c119b"
+            }
+          ],
+          "japanese_primary": [
+            {
+              "source_sha256": "304bf3fd8f247e77893730f4da7e9f9217e424e2ee2bf80d44ee9a362f35018b",
+              "resource": "build/disc1-selected/MC2Game/Localization/Coalesced.jpn",
+              "resource_sha256": "fb99602a9ff5f081857efa7389d6d2b6ecfc6765946f0bba2fbde4cdbf962a90",
+              "stable_id": "coalesced:09e2ca9a1daf89bca3c0d85294aaab95bc4990c78678c12b7eb9ddca75afa134"
+            }
+          ]
+        }
+      ],
+      "preservation": null,
+      "subtitle_policy": "Chinese full title replaces visual title and duplicate Latin subtitle"
+    },
+    {
+      "package": "UI_GameOver",
+      "export": 3,
+      "translation": "游戏结束",
+      "basis": "new-image-translation-from-visual",
+      "visual_source_sha256": "71f10eb014cbdf8bd8d800a3e244226b92197ed0137371cddf77f5e18224b1d1",
+      "status": "draft-image-adopted-offline",
+      "classification": "Verified source mapping / draft image translation",
+      "evidence": [],
+      "preservation": null,
+      "subtitle_policy": "Button graphic stays original;only surrounding language changes"
+    },
+    {
+      "package": "UI_GameOver",
+      "export": 6,
+      "translation": "按 A 键",
+      "basis": "new-image-translation-from-visual",
+      "visual_source_sha256": "f97d445d5c9d221d18e5493faa2d96dc27ca6f53b7ad712a14d0baa63aa45933",
+      "status": "draft-image-adopted-offline",
+      "classification": "Verified source mapping / draft image translation",
+      "evidence": [],
+      "preservation": {
+        "button_green_bbox_xyxy": [
+          112,
+          18,
+          138,
+          43
+        ],
+        "button_protected_block_rect": [
+          108,
+          12,
+          36,
+          36
+        ],
+        "left_text_suggested_rect": [
+          40,
+          12,
+          68,
+          40
+        ],
+        "right_text_suggested_rect": [
+          144,
+          12,
+          80,
+          40
+        ],
+        "rendered_text_layers": [
+          "按",
+          "键"
+        ],
+        "literal_A_must_not_be_redrawn": true,
+        "notes": "Protection is block-aligned larger than green-pixel bbox, retains antialias/shadow margin. No image changes performed by this research."
+      },
+      "subtitle_policy": "Button graphic stays original;only surrounding language changes"
+    }
+  ],
+  "game_rendering_verified": false
+}

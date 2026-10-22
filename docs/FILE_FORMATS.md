@@ -1,3 +1,7 @@
+## 第291阶段
+
+纹理edit的旧label或新regions/image_id二选一；区域不重叠，protected_regions独立crop hash与块/Pixels双验证。64图片与65文字层分计，旧单层报告保持。 见[本轮回填](PHASE_291_BOSS_GAMEOVER_ADOPTION.md)。
+
 ## 第290阶段
 
 texture计划支持sources[].discs与显式--disc，同盘manifest/独立重放绑定；47标签共用语言数据，13/16源资源各盘筛选。阶段检查/raw comparison共享64资源上限，65仍拒绝。 见[全族回填](PHASE_290_COMPLETE_CHAPTER_TEXTURES.md)。

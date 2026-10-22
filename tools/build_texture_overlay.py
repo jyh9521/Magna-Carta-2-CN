@@ -9,7 +9,7 @@ from .build_font_supplement import context,restore_copy
 from .ue3_package import LzxDecoder
 from .supplement_font import parse_atlas_payload,atlas_tiles
 from .ue3_textures import decode_dxt5,untile_dxt5,png_rgba
-from .texture_overlay import digest,render_label,patch_package
+from .texture_overlay import digest,render_label,patch_package,image_id
 from .verify_locale_candidate import scan_tree
 
 KIND='offline-texture-overlay-bundle'
@@ -75,7 +75,7 @@ def prepare(plan,root,decoder,disc=None):
                 t=parse_atlas_payload(payload,ctx['tables']['names'],e['serial_offset'])
                 rgba=decode_dxt5(untile_dxt5(atlas_tiles(payload,t,decoder),t['width'],t['height']),t['width'],t['height'])
                 files[f'previews/{phase}-{len(rows):02d}-{index:02d}.png']=png_rgba(rgba,t['width'],t['height'])
-                key=(phase,edit['label']);h=digest(rgba)
+                key=(phase,image_id(edit));h=digest(rgba)
                 if key in alias_pixels and alias_pixels[key]!=h:raise ValueError('selected alias decoded pixels differ')
                 alias_pixels[key]=h
     files['reports/texture-proofs.json']=encoded(reports)
@@ -83,6 +83,8 @@ def prepare(plan,root,decoder,disc=None):
                   plan_canonical_sha256=digest(encoded(plan)),resources=rows,labels=len(layers),
                   alias_rgba_sha256={a+':'+b:h for (a,b),h in alias_pixels.items()},
                   member_sha256={p:digest(b) for p,b in files.items()})
+    if any('regions' in edit for source in sources for edit in source['textures']):
+        manifest['image_groups']=len({image_id(e) for source in sources for e in source['textures']})
     if disc is not None:manifest['disc']=disc
     files['manifest.json']=encoded(manifest)
     for p,h in snapshots:
@@ -124,7 +126,9 @@ def main(argv=None):
         b=a.plan.read_bytes();plan=parse_json_object(b);decoder=LzxDecoder(a.lzx_library)
         m=build(plan,a.project_root,a.output_dir,decoder,a.disc) if a.output_dir else verify(plan,a.project_root,a.verify_root,decoder,a.disc)
         if a.plan.read_bytes()!=b:raise ValueError('texture plan changed')
-        print(json.dumps(dict(resources=len(m['resources']),labels=m['labels'],verified=bool(a.verify_root),game_rendering_verified=False)));return 0
+        result=dict(resources=len(m['resources']),labels=m['labels'],verified=bool(a.verify_root),game_rendering_verified=False)
+        if 'image_groups' in m:result['image_groups']=m['image_groups']
+        print(json.dumps(result));return 0
     except (OSError,ValueError,KeyError,TypeError,ImportError) as e:
         print('ERROR: '+str(e));return 2
 

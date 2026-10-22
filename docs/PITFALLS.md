@@ -1,3 +1,7 @@
+## 第291阶段
+
+Notice透明RGB可为橙色但alpha为0，不能误作不透明背景；按钮A须保留原BC3块。多个侧字须单次同导出复合写入，不能重复对象补丁。 见[本轮回填](PHASE_291_BOSS_GAMEOVER_ADOPTION.md)。
+
 ## 第290阶段
 
 章节图不可只patch MC2Game/Title/Jpn：真实地图resident额外别名273项已查明；物理包名不决定UI_title/Jpn namespace。bundle底包回滚不等于迭代旧中文检查点，必须单独锁定旧candidate。 见[全族回填](PHASE_290_COMPLETE_CHAPTER_TEXTURES.md)。

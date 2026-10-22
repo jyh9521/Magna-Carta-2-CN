@@ -1,3 +1,7 @@
+## 第291阶段
+
+Boss15+GameOver2已离线回填，累计64图/348别名；其他UI/教程、111格式缺口、不同名/动态别名和运行验收仍未完成。 见[本轮回填](PHASE_291_BOSS_GAMEOVER_ADOPTION.md)。
+
 ## 第290阶段
 
 47张章节入口图片族和已发现273同名别名已离线回填；BOSS/GameOver与其他UI/教程仍待汉化，111不支持导出和不同名/动态别名仍待覆盖，不宣称游戏验收完成。 见[全族回填](PHASE_290_COMPLETE_CHAPTER_TEXTURES.md)。

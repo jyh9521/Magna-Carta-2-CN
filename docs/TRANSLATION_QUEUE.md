@@ -1,3 +1,7 @@
+## 第291阶段
+
+15Boss+2战败本轮采用，下一其他UI/角色/怪物名/游戏开始/教程图片及111格式缺口；47章图+本轮17不重复排队。 见[本轮回填](PHASE_291_BOSS_GAMEOVER_ADOPTION.md)。
+
 ## 第290阶段
 
 47章节图族本轮实际采用，新增46；下一实际BOSS15图、GameOver双图及完整别名，继而其他UI/教程和格式缺口；INT未知尾项只用新证据处理。 见[全族回填](PHASE_290_COMPLETE_CHAPTER_TEXTURES.md)。

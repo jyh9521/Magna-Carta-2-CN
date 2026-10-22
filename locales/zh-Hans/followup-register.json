@@ -1,0 +1,1019 @@
+{
+  "schema_version": 1,
+  "phase": 278,
+  "kind": "historical-followup-reconciliation",
+  "inventory_records": 27,
+  "translation_edits": 0,
+  "new_translations": 0,
+  "new_primary_consistency_fields": 0,
+  "translation_context_fields": 0,
+  "target_hashes_are_dated_snapshots_not_future_freeze": true,
+  "historical_paths_required_for_clean_checkout": false,
+  "records": [
+    {
+      "record": "accessory-recipe-source-followup.json",
+      "historical_path_informational_only": "build/phase-267-verification/accessory-recipe-source-followup.json",
+      "historical_sha256": "fde28f773fa6b72e9a4379593288a6cc5ae99aed4cc9bd58c7ad4520d78416c5",
+      "classification": "source-difference-runtime-gate",
+      "assessment": "Keep accessory/recipe source numeric differences;no speculative correction.",
+      "entries": [
+        {
+          "id": "coalesced:0e0a4c73a5befa73ab2de5cbbac0567dfe9c684111418add72ef36dae9c01d99",
+          "section": "Recipe",
+          "key": "1412_recipe_D",
+          "source_sha256": "d419adc35c4d25fdd8d696cb37fac4975b48fff9fc26fb651a699088e681af6f",
+          "planned": true,
+          "target_sha256_at_audit": "fd631b29d69163b21de737c049f9e73c954d5440abebed86c49c412778dae5ac"
+        },
+        {
+          "id": "coalesced:241b4318d7449a06e34d6128fffbf972cee8e450b31624d250c6c77dd7cffe42",
+          "section": "Accessory",
+          "key": "1337_acc_S",
+          "source_sha256": "0cafbdd772ba85ecdd3cdaf1fa472d84f334483ea016fa6bbc1afa78e915b21a",
+          "planned": true,
+          "target_sha256_at_audit": "10d94ca4c47b9acb8c4aa33189c5524e573a1d4e4436f390b0e575a134e98fef"
+        },
+        {
+          "id": "coalesced:26df78c2d0a599790457df40d3545d08b59924ffc6a8240e44bbc28ffb727d6e",
+          "section": "Accessory",
+          "key": "1290_acc_S",
+          "source_sha256": "553d32520a6cd33c2b4a30013072d7310985154ef8debffcdb2e939ac5dca9d7",
+          "planned": true,
+          "target_sha256_at_audit": "1491c10acd21f3d761b21a7eda5260a23ea0f05632d0ad16edb7c7c690d9a0ca"
+        },
+        {
+          "id": "coalesced:299eadaae8faf72e86b6b21db5515fe7793be617b11e4734856e858a8b28f15b",
+          "section": "Accessory",
+          "key": "1291_acc_S",
+          "source_sha256": "7bb34ffa7e0b58b6cfbe1ab91c4d9ceb2fbb5ddab2508d6571ea5f0224fb58e2",
+          "planned": true,
+          "target_sha256_at_audit": "e7e61774075f7aa2a1d8316622d8dbeae1c53a5187925072204f7d917c405732"
+        },
+        {
+          "id": "coalesced:34fb3f5dd7bceccc5594f3b1dfec4ff33d43b2c686d4a51eee43fc293df15ac2",
+          "section": "Recipe",
+          "key": "1411_recipe_S",
+          "source_sha256": "e91ee25b20db1e91cbccc975b224c6244518c93479c32a6dd8e5405d8c17f62b",
+          "planned": true,
+          "target_sha256_at_audit": "d69ca0fe0980a860db5e0608bb37557b2d5cc7772e62ac24d81c3b14ae733233"
+        },
+        {
+          "id": "coalesced:4828ece8c9a2284ecf8ef690b63807cac6f62a253621fc9fdca26512666cb57b",
+          "section": "Recipe",
+          "key": "1411_recipe_D",
+          "source_sha256": "42da38d2d6e0510a999e0e6bec758cb5f5fe4e845288c6674c04cc6d6532a88b",
+          "planned": true,
+          "target_sha256_at_audit": "00643f4b76bc6c8891cb5d55c0f80634975b66484edb6cedff9e1d9971be040e"
+        },
+        {
+          "id": "coalesced:50f3e3ca49f96351047fe4ca035cabf1b8f1039c6aeed12aa7eb7d2725cc1601",
+          "section": "Recipe",
+          "key": "1412_recipe_S",
+          "source_sha256": "5e49a34c735dd5bf7f12d4a22c6741deec01f07b04a4fe0aec99da51c53f8051",
+          "planned": true,
+          "target_sha256_at_audit": "fe65b30cc5e8d07c6360ce144f7d0e13b423f2158d4c9ecd4ab80c655bf6c61f"
+        },
+        {
+          "id": "coalesced:89252da9acb58ea69e56c97a69a3e5f5666fffdef1da13f60e58f3217c20a36f",
+          "section": "Accessory",
+          "key": "1291_acc_D",
+          "source_sha256": "7bb34ffa7e0b58b6cfbe1ab91c4d9ceb2fbb5ddab2508d6571ea5f0224fb58e2",
+          "planned": true,
+          "target_sha256_at_audit": "e7e61774075f7aa2a1d8316622d8dbeae1c53a5187925072204f7d917c405732"
+        },
+        {
+          "id": "coalesced:cdd4f734546d06c8817c42ff920bca69d3352ae043feaaa10d987a6bb3a99d0b",
+          "section": "Accessory",
+          "key": "1337_acc_D",
+          "source_sha256": "0cafbdd772ba85ecdd3cdaf1fa472d84f334483ea016fa6bbc1afa78e915b21a",
+          "planned": true,
+          "target_sha256_at_audit": "10d94ca4c47b9acb8c4aa33189c5524e573a1d4e4436f390b0e575a134e98fef"
+        },
+        {
+          "id": "coalesced:cdfaeb1f5ed0d5dbdd585ab2da6c377df8d588149636d84e0f63864509ec83e8",
+          "section": "Accessory",
+          "key": "1290_acc_D",
+          "source_sha256": "553d32520a6cd33c2b4a30013072d7310985154ef8debffcdb2e939ac5dca9d7",
+          "planned": true,
+          "target_sha256_at_audit": "1491c10acd21f3d761b21a7eda5260a23ea0f05632d0ad16edb7c7c690d9a0ca"
+        }
+      ],
+      "evidence": []
+    },
+    {
+      "record": "armor-category-followup.json",
+      "historical_path_informational_only": "build/phase-267-verification/armor-category-followup.json",
+      "historical_sha256": "93d8845fa4c19f3f7643622d8c597ef5092b1c60e4af20594c42d2624eee2fda",
+      "classification": "runtime-equipment-gate",
+      "assessment": "Gauntlet in pauldron source section is not proof of wrong runtime slot;retain literal tab.",
+      "entries": [
+        {
+          "id": "coalesced:201987a21a0b4f19d5955cedd5bc584d5ce5d89f61f13416765d2c070f37e609",
+          "section": "armor_pauldron_juto",
+          "key": "150_pauldron_D",
+          "source_sha256": "b714e1cb7b74cc8fd5d4f82a2eb0ecdbf7a5e22749725fdf2ecb19a6e20d4e5a",
+          "planned": true,
+          "target_sha256_at_audit": "28005b5f774fb7e430b44c6ad916f2a918267a1bfabba8e0349d0e919b4ef4a0"
+        },
+        {
+          "id": "coalesced:a4789166a94d96221cb0b318d2fde1fad306da702f63484c24b0cc4ed071dde4",
+          "section": "armor_pauldron_juto",
+          "key": "150_pauldron_S",
+          "source_sha256": "cf1d23125384f72b5a61a0c644b6dad65ef753ed99d31eff72b40436f010986d",
+          "planned": true,
+          "target_sha256_at_audit": "3be410e3df2f10565d0c83b453499a20e3eb74519ce7e2bb2495b05590bb7cbc"
+        },
+        {
+          "id": "coalesced:af54d3a958ff2556a4ac7415c7066dcbf958b59e367c6257518c9c8b819d6a0a",
+          "section": "armor_pauldron_juto",
+          "key": "150_pauldron",
+          "source_sha256": "b6478ba8bd1b5cb7ab085887c47314926455c2a53ace60a21ecd1bdafba11f18",
+          "planned": true,
+          "target_sha256_at_audit": "f5faf4bfe5fa941d31b7755401a210338e887e5163d736b354d66bd7fdabdcf4"
+        }
+      ],
+      "evidence": []
+    },
+    {
+      "record": "battle-communication-followup.json",
+      "historical_path_informational_only": "build/phase-267-verification/battle-communication-followup.json",
+      "historical_sha256": "ffb2f1303713e6e2c14b05ea16f03e6dfec812ecab5a033fb43b47004b14a0f2",
+      "classification": "resolved-wording-plus-runtime-role-gate",
+      "assessment": "Inadvertence wording fixed261;role-key assignment still runtime-unverified.",
+      "entries": [],
+      "evidence": [
+        "locales/zh-Hans/candidate-decisions/communication-inadvertence.json"
+      ]
+    },
+    {
+      "record": "candidate-revision-followups.json",
+      "historical_path_informational_only": "build/phase-267-verification/candidate-revision-followups.json",
+      "historical_sha256": "354fb1944750b64131c394e878f606299b6b4fc562ac2525a1ca8ef22e98096d",
+      "classification": "resolved-revision",
+      "assessment": "Historical真是的 snapshot superseded275;canonical哎呀.",
+      "entries": [
+        {
+          "id": "coalesced:ce65490c379cff9bc6e13e8aca39504bd8748a6254c6f093645f12fbe4fdb8ac",
+          "section": "03_350_03",
+          "key": "03_304_com_02",
+          "source_sha256": "d4793eb84248a9f654add1f299a48ee49add68f2590b10895110028393c03b7d",
+          "planned": true,
+          "target_sha256_at_audit": "697ad327a5707cb525f9330951d93be682e3882f6b49cfb996d029a8abc86361"
+        }
+      ],
+      "evidence": [
+        "locales/zh-Hans/candidate-decisions/merchant-accident-sympathy.json"
+      ]
+    },
+    {
+      "record": "current-scene-semantic-followup.json",
+      "historical_path_informational_only": "build/phase-267-verification/current-scene-semantic-followup.json",
+      "historical_sha256": "de1037bab70878d953c8ede7c7e6bc1f1c20a4c8dec4854a253736a68373ac59",
+      "classification": "resolved-retention",
+      "assessment": "Guardian antecedent/bowing topic retained274,not pending lexical edit.",
+      "entries": [],
+      "evidence": [
+        "locales/zh-Hans/candidate-decisions/guardian-bowing-retention.json"
+      ]
+    },
+    {
+      "record": "elga-title-variant-followup.json",
+      "historical_path_informational_only": "build/phase-267-verification/elga-title-variant-followup.json",
+      "historical_sha256": "6f532d8bbc2a244e6d2b3dda6929659909d1ca54f6f4c5b4ab613af301eb0bb5",
+      "classification": "resolved-revision",
+      "assessment": "Alias unified270;no official/human approval claimed.",
+      "entries": [
+        {
+          "id": "coalesced:7aea2c1ed11d4fc04940e79476ef03468de34091e3efc33a9a00e64695dd156b",
+          "section": "CSMB03_200",
+          "key": "voc_csmb_03200_11",
+          "source_sha256": "09e73c7c18952566de7767c0aac340a977950ff6ca8de0aae8c7d11232374ce7",
+          "planned": true,
+          "target_sha256_at_audit": "2a60628b61c48f53614a4a10b71bf6958db9a7ed3763ab05e8163211d0d3808c"
+        },
+        {
+          "id": "coalesced:f3c788a633e0713fc3cac65ff0d7f250e7959ab6c5d92b720760a9aa20baabb5",
+          "section": "CSMB07_20",
+          "key": "voc_csmb_0720_06",
+          "source_sha256": "daaa300d79cd07fb2de579d5fb01d1d7ccdca201fad2f21eb198181223256791",
+          "planned": true,
+          "target_sha256_at_audit": "451712308f4c844626b702ef04de596e76f580c769d9385bae6bd2f88c088bff"
+        }
+      ],
+      "evidence": [
+        "locales/zh-Hans/candidate-decisions/elga-title-consistency.json"
+      ]
+    },
+    {
+      "record": "escort-speech-followup.json",
+      "historical_path_informational_only": "build/phase-267-verification/escort-speech-followup.json",
+      "historical_sha256": "0b246dfa3db8a48cb7b42033fd5272c1e408855d1fe500aeaccfdae4ceafb5c5",
+      "classification": "resolved-retention",
+      "assessment": "Escort context retained277;do not add I/we.",
+      "entries": [
+        {
+          "id": "coalesced:b2d85b1220453f0e72bcaf591dfd93e73ff3c0692bf59bc5130eed83d64701be",
+          "section": "CSMB03_126",
+          "key": "voc_csmb_03126_04",
+          "source_sha256": "8151011eee28681aa2bda01ba68aad6c6e3c247ba325154f87be75cca4bcc195",
+          "planned": true,
+          "target_sha256_at_audit": "60a14e3e54c597fb09824c598ac7dc4303f538c57b358668e1a1c613085e3279"
+        }
+      ],
+      "evidence": [
+        "locales/zh-Hans/candidate-decisions/escort-speech-retention.json"
+      ]
+    },
+    {
+      "record": "japanese-original-followup.json",
+      "historical_path_informational_only": "build/phase-267-verification/japanese-original-followup.json",
+      "historical_sha256": "feb6a113b97f50a5b2659d262af5a8d579167216706894d6f4c8d226ade0d9df",
+      "classification": "unknown-format-gate",
+      "assessment": "Literal backslash/unfinished Japanese originals retained.",
+      "entries": [
+        {
+          "id": "coalesced:7352790d84bf0386bdab6c36da81e5cc7fb25f226c3987903dbdc13036c8706e",
+          "section": "Celestin",
+          "key": "Abnormal_bad_ch3_01",
+          "source_sha256": "59004d1c7395f780086536aefd0a7d09197d0dd2360af66306bf8f6a16681667",
+          "planned": false,
+          "target_sha256_at_audit": null
+        },
+        {
+          "id": "coalesced:c841224214a4939c304baf2a52f0dcb7301c58fe9f536e73fc28116ecf8b8828",
+          "section": "Rue",
+          "key": "Abnormal_bad_ch3_01",
+          "source_sha256": "3396648b66ca119c785984c774c93aa5ad4e9f1364a0f3019657f8a5a713370a",
+          "planned": false,
+          "target_sha256_at_audit": null
+        }
+      ],
+      "evidence": []
+    },
+    {
+      "record": "juto-burnout-followup.json",
+      "historical_path_informational_only": "build/phase-267-verification/juto-burnout-followup.json",
+      "historical_sha256": "a81e15e5505836b6b95f245233dc5ab756bd83538f285e4885854f4b53c90a84",
+      "classification": "resolved-revision",
+      "assessment": "Burnout corrected268;source trigger mapping still not proved.",
+      "entries": [],
+      "evidence": [
+        "locales/zh-Hans/candidate-decisions/juto-burnout-metaphor.json"
+      ]
+    },
+    {
+      "record": "juto-cancel-wording-followup.json",
+      "historical_path_informational_only": "build/phase-267-verification/juto-cancel-wording-followup.json",
+      "historical_sha256": "c2624e3c2654eb51ad6ab5a37d4cc292d7bc9cd79789bb3b4fcd7d756fc23951",
+      "classification": "resolved-revision",
+      "assessment": "Assistance modifier corrected260.",
+      "entries": [],
+      "evidence": [
+        "locales/zh-Hans/candidate-decisions/juto-help-modifier.json"
+      ]
+    },
+    {
+      "record": "kamond-special-wording-followup.json",
+      "historical_path_informational_only": "build/phase-267-verification/kamond-special-wording-followup.json",
+      "historical_sha256": "c1a5daa237f89c4754d5b7e2b100f8ceeb5dc8de2e94ae11b0bb0d525eb1050f",
+      "classification": "resolved-retention-plus-runtime-gate",
+      "assessment": "Special names retained273;dizziness corrected264;normal-technique effect remains runtime gate.",
+      "entries": [
+        {
+          "id": "coalesced:172395280696e191c5f9c245afebb022ffbb85d7e7fc55a7fca23ccbb8d8862c",
+          "section": "Karmond",
+          "key": "1738_Karmond",
+          "source_sha256": "6fdf8e7c81169d5565b8154406cb132d05060791d39d16325983922405eec377",
+          "planned": true,
+          "target_sha256_at_audit": "86f0829aceaf91998ceeaa6416992cde74c2d5e96fa3288b1073eb127e32d8be"
+        },
+        {
+          "id": "coalesced:46e99fd5a7093c95728959e94820298a1e998bb987cad4182d473b0e1ea8ecbb",
+          "section": "Karmond",
+          "key": "1716_Karmond",
+          "source_sha256": "0c3763e773eb08a281d3d51d86aed1b7230a28466c33aba8650e74c732bf26db",
+          "planned": true,
+          "target_sha256_at_audit": "2b477091f9e118abaa41b76401c86dc619972169082d79ef8d63eda2e58e773e"
+        },
+        {
+          "id": "coalesced:5645e30df15e49334bcabc6d20d90d9a8bcc90992d27934dfa569d5b571f6a09",
+          "section": "Karmond",
+          "key": "1745_Karmond_S",
+          "source_sha256": "5b9a55bb32405c1564c954188ed4043d95823465056e46d4ef5a8f1a7266f332",
+          "planned": true,
+          "target_sha256_at_audit": "43cf9493fd99a447e67b738c5be3ccfee0abffecda8d9e3684fdb79fae5bfb69"
+        },
+        {
+          "id": "coalesced:73ad763900b5b65b91490220bcfe2d4ab7d1941fcf32d32f8471c893bcee78d2",
+          "section": "Karmond",
+          "key": "1720_Karmond",
+          "source_sha256": "381e6eef9611e125159c29f45fd126a793e94537108a64f8a6eb0fb04d4f5d36",
+          "planned": true,
+          "target_sha256_at_audit": "bdcbe8c3717ace3a1fefe457621d0601a95b28894bb7fe395b5f54c79a31de84"
+        },
+        {
+          "id": "coalesced:b69d3e6e91e5fcb16118ea7e756a9f9a587c1b549fba180b2eef12b8890969b4",
+          "section": "Karmond",
+          "key": "1745_Karmond_D",
+          "source_sha256": "c34bdc8f3dd6c088c325fb2325ef21c73c8205bfdfb6a607cd77a560531a7b5d",
+          "planned": true,
+          "target_sha256_at_audit": "d6f332787cb8735a2341c8c2d04a24b03139f8db1fef821708e1231a524c9b5e"
+        },
+        {
+          "id": "coalesced:d59bcfdbbb199c537cb2c884862dd7bdb9fa0a5dc78b7a16451a67533a94780a",
+          "section": "Karmond",
+          "key": "1746_Karmond",
+          "source_sha256": "0f85b91d3d201a0f05998c54fc426b23a52400a4081842c6cb58be15cda08913",
+          "planned": true,
+          "target_sha256_at_audit": "9eb644d753ae1f98aefc5d07522f78d6d52adb6aecb38a6127c1830ceb5ed51d"
+        }
+      ],
+      "evidence": [
+        "locales/zh-Hans/candidate-decisions/kamond-special-retention.json",
+        "locales/zh-Hans/candidate-decisions/dizziness-stun-distinction.json"
+      ]
+    },
+    {
+      "record": "kamond-state-granularity-followup.json",
+      "historical_path_informational_only": "build/phase-267-verification/kamond-state-granularity-followup.json",
+      "historical_sha256": "0812aabf218bcfd79d0945b345f2662bf0a42ae8bed0d8e63837e20765c33b41",
+      "classification": "resolved-status-plus-source-granularity",
+      "assessment": "Single display label versus dual-immunity descriptions follows source;dizziness264 applied.",
+      "entries": [
+        {
+          "id": "coalesced:0580fdb4f90d879ced5612c009e11511e0f5c1cf76dfc9f953101d5d232abb40",
+          "section": "Karmond",
+          "key": "1643_Karmond_S",
+          "source_sha256": "3559e72e879286d609e12a5f13a424e6d286cd9b668b599171ec7b0ae737bcb2",
+          "planned": true,
+          "target_sha256_at_audit": "5b8015eda522b3133c0fdee33a216a1c5acd368cdd2cfd75401057a36ecd3bf4"
+        },
+        {
+          "id": "coalesced:4287839a7981323691c0f9236e1c9bb0dce6a0299af5a4229c4c6a69fb0a270f",
+          "section": "Karmond",
+          "key": "1645_Karmond_S",
+          "source_sha256": "c32cde09e507a59948484a28efd7b022834666cbc6ef84f3f8f96ab569e5c68d",
+          "planned": true,
+          "target_sha256_at_audit": "34f00471b397f09b653c397c87b432873d5eeb2cd72b0c20bdfd60afc76c885e"
+        },
+        {
+          "id": "coalesced:490ba5bf137d642133103435ee4d5fc0780dd50424e1ff7661be1c1a1c10b6e6",
+          "section": "Karmond",
+          "key": "1645_Karmond",
+          "source_sha256": "fff737b00da77582fff7b702d8489765a2c873396bb104966338a19a93a7f054",
+          "planned": true,
+          "target_sha256_at_audit": "45bb46eb2ecf3f33dde56aa689d87a386ccec48e8b8995b1ec5aedf4328944a8"
+        },
+        {
+          "id": "coalesced:5177e0de7d5def75d7c7ad0869d13d7d5d63ba9e8e8ae000e089cfc4a00b5e19",
+          "section": "Karmond",
+          "key": "1643_Karmond",
+          "source_sha256": "79af31d51668b43e8889090ef85b19b36664ddcc069e97ab805b8ea335da0531",
+          "planned": true,
+          "target_sha256_at_audit": "13f105e6d6b370fa59151d1f571606c6aba2263b39e63cb1746e7c9d076f09a8"
+        },
+        {
+          "id": "coalesced:5ef6e594117a3f0895317a0ed70a83483bf2833bce408e0080175e23c780c362",
+          "section": "Karmond",
+          "key": "1647_Karmond_D",
+          "source_sha256": "19dadf1efa6631e24b4724e916bf4830ae8f315c8db4bccccfe7516910596d40",
+          "planned": true,
+          "target_sha256_at_audit": "64af10eae63a9ae72b94939428aaa48a2480aea37c628291b350e05db4a7f5a0"
+        },
+        {
+          "id": "coalesced:605957e6db2520d0f9ba6d1388adf437ff8c6ef8da7c3bcb525d27ce71ede358",
+          "section": "Karmond",
+          "key": "1647_Karmond_S",
+          "source_sha256": "c277bff85a1fbd2746751adcdb85c93031ad0d7fcd548d9caa7e90a1932e8e6c",
+          "planned": true,
+          "target_sha256_at_audit": "c2ef8cc8afcef68d9eb085ad4f263b0c90b22ad4a262b2f41929cf46d19bba94"
+        },
+        {
+          "id": "coalesced:7bcd3a8991c13f4989a796e4c0f521200d6664b038f8f5e993962205ee2a980b",
+          "section": "Karmond",
+          "key": "1641_Karmond_S",
+          "source_sha256": "10860e007d227ae60aea5fae2f71821a025eaa41da764263b0f92959f4cb94c0",
+          "planned": true,
+          "target_sha256_at_audit": "804d6f2e6a251b4ac7396ec615c7ff7a20f8a7e92fbac6838d5c3a40f6352ab6"
+        },
+        {
+          "id": "coalesced:889ce9c912c5ab5f05cea3df6dc100eccaa2efb236d3ed867f519c459c568825",
+          "section": "Karmond",
+          "key": "1641_Karmond",
+          "source_sha256": "6a9f1f74dfab5b80a71613bb3ac7b25d83c05d5304ca3f121a136b2fb26f7f03",
+          "planned": true,
+          "target_sha256_at_audit": "38097b7ed424ac18138c27d31ceaa07ce9979d75beb93eb702ba4a4996916ebf"
+        },
+        {
+          "id": "coalesced:999ad5276cd96dc0f009a67238117b67193155de534fdecebe1b7dcf40878e3c",
+          "section": "Karmond",
+          "key": "1643_Karmond_D",
+          "source_sha256": "7ad84b98e9ec586cbfd3068c3dcffb2af33ef3ea76603eb620dee94339a189cf",
+          "planned": true,
+          "target_sha256_at_audit": "3d15a8b16f7d284c291f3f7a5b953815a8aac9f92d6c3671628473a42bd9c4c6"
+        },
+        {
+          "id": "coalesced:a157649d2e54fc410f410f6affd4430f3cd63a68597b62cf08733a1a7f78cdca",
+          "section": "Karmond",
+          "key": "1645_Karmond_D",
+          "source_sha256": "28c2600e84192e258a7e733a256a5eb348da4dbce6efbab271b1f96d9409e851",
+          "planned": true,
+          "target_sha256_at_audit": "ac07910cd2cec3bf602726a51c1a357ab1309d086d967331bb2ca78385cad72f"
+        },
+        {
+          "id": "coalesced:a5d0fb195436566b78e0448690a58b82414a850076fa6d5fdf2ef4843f90d398",
+          "section": "Karmond",
+          "key": "1647_Karmond",
+          "source_sha256": "9eb1d05da9d9908cc5bbd6aef3a7f886880d072e41b11dedb8759a3fada71b67",
+          "planned": true,
+          "target_sha256_at_audit": "7775c8458182126642494b4dd5de263f1e674fee08d967bc8604aef0579720cf"
+        },
+        {
+          "id": "coalesced:c0ebf98f9f7e9b79441a5d3f679eda655326de1a86d530aa4c5d522c945faf88",
+          "section": "Karmond",
+          "key": "1641_Karmond_D",
+          "source_sha256": "0ea6b3c0958940ce86194a66eb31fc346071940e8e8a6390a7f876ab59b65e78",
+          "planned": true,
+          "target_sha256_at_audit": "66d4e4496617d2eb50a3d8b1cc003073a9c521251d4f8cde471664e465373e69"
+        }
+      ],
+      "evidence": [
+        "locales/zh-Hans/candidate-decisions/dizziness-stun-distinction.json"
+      ]
+    },
+    {
+      "record": "mail-temporal-followup.json",
+      "historical_path_informational_only": "build/phase-267-verification/mail-temporal-followup.json",
+      "historical_sha256": "03dfaa25d9a9ec2ebfe398ebf58df1655e7bbe486cfed1e3b9c07fb413a74f54",
+      "classification": "resolved-revision",
+      "assessment": "Preparation completed state fixed271.",
+      "entries": [],
+      "evidence": [
+        "locales/zh-Hans/candidate-decisions/mail-preparation-completed.json"
+      ]
+    },
+    {
+      "record": "material-quest-wording-followup.json",
+      "historical_path_informational_only": "build/phase-267-verification/material-quest-wording-followup.json",
+      "historical_sha256": "c54868ba10e6940922c2001e5273476a8da333f2ed53931e36b7b8efb5470036",
+      "classification": "resolved-revision",
+      "assessment": "Material request/hide corrected265.",
+      "entries": [
+        {
+          "id": "coalesced:5d992863623803f94140fc26a8266c95d9a5c6739e27a01caac0a3ebac90bbf5",
+          "section": "Ingredient",
+          "key": "tool_box_D",
+          "source_sha256": "4f89c6d7f9407f54894a6849d9dd94175d33da282faf6d27a18013b1fb3484bb",
+          "planned": true,
+          "target_sha256_at_audit": "f2d3b363896fb0ea0db8d29d6e80339089e17ae4c489e4c74f0a83acc1b9a381"
+        },
+        {
+          "id": "coalesced:ef6adf22b88f2d3d124160a6f6fb26706cf57f593bba8d520b893008bda21e50",
+          "section": "Valuables",
+          "key": "monster_leather_D",
+          "source_sha256": "706abef340a60e001b2c8c07887fc862b8ff9d7fdece9f84e17ea28d0d69026c",
+          "planned": true,
+          "target_sha256_at_audit": "099e65ce57b86725ec5bd79bd17b922bca99d0ba182326fdb0018ed5678fb6f1"
+        }
+      ],
+      "evidence": [
+        "locales/zh-Hans/candidate-decisions/material-request-and-hide.json"
+      ]
+    },
+    {
+      "record": "mother-inference-followup.json",
+      "historical_path_informational_only": "build/phase-267-verification/mother-inference-followup.json",
+      "historical_sha256": "51c1019d3875c0b329322ac0204dfeff152dd3333b0db243b6f5f8ad4179778d",
+      "classification": "resolved-retention",
+      "assessment": "Past inference retained269;no JPN-onlykilling imported.",
+      "entries": [],
+      "evidence": [
+        "locales/zh-Hans/candidate-decisions/mother-inference-locale-alignment.json"
+      ]
+    },
+    {
+      "record": "new-original-followup.json",
+      "historical_path_informational_only": "build/phase-267-verification/new-original-followup.json",
+      "historical_sha256": "f6b911ccb63aba3c13cf71a6a28a740a812fadaa1c345d8ad0458fcdf6192584",
+      "classification": "retained-ellipsis-original",
+      "assessment": "Chapter01_19ellipsis retained241;not guessed unused or translated.",
+      "entries": [
+        {
+          "id": "coalesced:9557c709bd2efd239f5ba427f6bc94be8928ca63a3685ff073e57d641ecfde7a",
+          "section": "Chapter01",
+          "key": "Chapter01_19",
+          "source_sha256": "895361ffbf88d5a8c40d47f8dd3d03df2042ca9360d08738bcbb4faa39495404",
+          "planned": false,
+          "target_sha256_at_audit": null
+        }
+      ],
+      "evidence": []
+    },
+    {
+      "record": "opening-laugh-followup.json",
+      "historical_path_informational_only": "build/phase-267-verification/opening-laugh-followup.json",
+      "historical_sha256": "342d36a4c415ddbb845e2fda7d25cb3b4d012e4b817ad969b4a21ca1f4a4e44d",
+      "classification": "voice-evidence-gate",
+      "assessment": "Laugh spelling needs voice evidence;no demonstrated source-text error.",
+      "entries": [],
+      "evidence": []
+    },
+    {
+      "record": "original-exclusion-followup.json",
+      "historical_path_informational_only": "build/phase-267-verification/original-exclusion-followup.json",
+      "historical_sha256": "6bb0ef65d3c70cd6a9078c96f6f3a013700e2df9332dce3e3f6a584bf53b5852",
+      "classification": "source-context-review-next",
+      "assessment": "Two syntactically known source-present exclusions need linked chapter/help context;earlier exclusion reason unknown,not automatically unused or translatable.",
+      "entries": [
+        {
+          "id": "coalesced:53c21149e6042a65db33e839bdfbb97207a5fab20759ecc43cd6b622f03a5cb4",
+          "section": "Chapter11",
+          "key": "Chapter11_27",
+          "source_sha256": "8fcf504429b6addbc0e750a14667647d0573e28f4c35c4a0f2d4b7897d4f5c88",
+          "planned": false,
+          "target_sha256_at_audit": null
+        },
+        {
+          "id": "coalesced:a160f429712928d18b47c08c8f8290d97dcf87f61582afb923d1bd7cc3b65c5d",
+          "section": "Chapter12",
+          "key": "Chapter12_37",
+          "source_sha256": "75337444b55f6925cf1d0f59ebdda6e39a10368337c1a08c54870a4e6f008a9c",
+          "planned": false,
+          "target_sha256_at_audit": null
+        }
+      ],
+      "evidence": []
+    },
+    {
+      "record": "party-tone-followup.json",
+      "historical_path_informational_only": "build/phase-267-verification/party-tone-followup.json",
+      "historical_sha256": "3e197931425b1e501450290bf2b362c1fa685dc084e7de6b6030bc04c0cbc868",
+      "classification": "resolved-revision",
+      "assessment": "Pejorative corrected263 to混蛋们,not necessarily oldproposed家伙们.",
+      "entries": [],
+      "evidence": [
+        "locales/zh-Hans/candidate-decisions/crocell-party-pejorative.json"
+      ]
+    },
+    {
+      "record": "recipe-source-inconsistency-followup.json",
+      "historical_path_informational_only": "build/phase-267-verification/recipe-source-inconsistency-followup.json",
+      "historical_sha256": "78e5265192f5e1e82f55abb7c0468089159baaf7368b917fc8eceac937d83eaa",
+      "classification": "source-difference-runtime-gate",
+      "assessment": "Recipe material/output/percentage inconsistencies preserved as source differences.",
+      "entries": [
+        {
+          "id": "coalesced:082e01fc7d901cb7778d648ebc22073b2615385ecbe21b630c07e029ad49b71e",
+          "section": "Recipe",
+          "key": "1417_recipe_D",
+          "source_sha256": "2529be46d07379f341dd330ba6370cdeb1f50fee04c41d3bc5211a07e65dd799",
+          "planned": true,
+          "target_sha256_at_audit": "cec19cd546455ac8e8725a66bf20f3a0806744bac3467c26bc6bac41a55e67eb"
+        },
+        {
+          "id": "coalesced:1693f288d74cb1d35c0ceb1bcc257e835cabf35f83cfaab58d5e26fe5f250a47",
+          "section": "Recipe",
+          "key": "1458_recipe_S",
+          "source_sha256": "82d1d8f2bc95488ed0e99abb28aed5ee426dd2fa978f2a286e2bd7440c8c99ae",
+          "planned": true,
+          "target_sha256_at_audit": "046ded11e0b2ef0532daf21942e06fa2b7862fc6727a0581eb6e0e1d62a191aa"
+        },
+        {
+          "id": "coalesced:1f6a37015696573d708a9343c7e5a819495cef87370fe7eaf6df99c0f4a158be",
+          "section": "Recipe",
+          "key": "1407_recipe_S",
+          "source_sha256": "d36ee36f48df9578fd34bac75a2d7101f0d3e2dd261216d4f2f374a4fda93f5c",
+          "planned": true,
+          "target_sha256_at_audit": "6423db90d2fe686ed54c18249cfd49e86de8349893fd89c10790c0f6237589fd"
+        },
+        {
+          "id": "coalesced:30fd2424d356342c83bece7062a46e3797fb8be4f5ec811e4c1425f65765f03d",
+          "section": "Accessory",
+          "key": "1233_Accessory_S",
+          "source_sha256": "08abed273d93c2ccf82dc2a8b79bbd6f011efd4121e655a7c3ec8dedd0a73b09",
+          "planned": true,
+          "target_sha256_at_audit": "127087e603c21058463164beb5b1aaec0b9f013c59f63b8b5218e052a2d35e04"
+        },
+        {
+          "id": "coalesced:3b2b849a5d272ba54abf0701dafcfb2605e6af55f6bcb5f4a18251bcdade932f",
+          "section": "Recipe",
+          "key": "1431_recipe_D",
+          "source_sha256": "de067e5aaba5a406914f0010424e86c0e72ef03bef8f164e20c4b39671914ab7",
+          "planned": true,
+          "target_sha256_at_audit": "7c31bf583b658542326d68d37561d843e9609bc4467ab468443c357fb0dc9b16"
+        },
+        {
+          "id": "coalesced:a441f254a57241805b002e43a276a3496d5f5510885d0057a9430a5cc4a54d69",
+          "section": "Recipe",
+          "key": "1417_recipe_S",
+          "source_sha256": "fe4a05ad70c86048de0c15773b2c0246ecfa3a8adad6d25e052ce3e1de0cf2de",
+          "planned": true,
+          "target_sha256_at_audit": "c4eb68a149e1696822d6792bfe63397bdb0ceeb5fdf5d7cd295ef3af02c2d01d"
+        },
+        {
+          "id": "coalesced:b23036e57990d51630966bf1892a08dcbbf74f94c3100808436e07c30f95b126",
+          "section": "Recipe",
+          "key": "1407_recipe_D",
+          "source_sha256": "7bbd16e120c41a525a34d96f0ee0f30161b89a4c75b8ccbb8dd0c85d06720dff",
+          "planned": true,
+          "target_sha256_at_audit": "edf86110afa7ea66a09dfb39150960cca27668f2eb66857de26dfa59cfcfac0f"
+        },
+        {
+          "id": "coalesced:bd163ea5450bfadb4723b8519ad6eeacf0d657960ed67dc6ab8fb1ad383da89d",
+          "section": "Accessory",
+          "key": "1233_Accessory_D",
+          "source_sha256": "08abed273d93c2ccf82dc2a8b79bbd6f011efd4121e655a7c3ec8dedd0a73b09",
+          "planned": true,
+          "target_sha256_at_audit": "127087e603c21058463164beb5b1aaec0b9f013c59f63b8b5218e052a2d35e04"
+        }
+      ],
+      "evidence": []
+    },
+    {
+      "record": "recovery-status-followup.json",
+      "historical_path_informational_only": "build/phase-267-verification/recovery-status-followup.json",
+      "historical_sha256": "577c0dee5a97418ec3e9a727ee287e27f25eeb61811d436e9452551fcb877b77",
+      "classification": "resolved-status-plus-source-mismatch",
+      "assessment": "Dizziness264 applied;HotCocoa/FrozenRemedy/IceElemental source names/description differences not runtime proof.",
+      "entries": [
+        {
+          "id": "coalesced:025570cdcaa89e7f2f12733a409d55eef256d7184cedaf16ccc2522afe78282c",
+          "section": "Recover",
+          "key": "FrozenRemedy",
+          "source_sha256": "4156a16959705700be5f68304b9e83642b90e48d14807b52b25642a6d5944abc",
+          "planned": true,
+          "target_sha256_at_audit": "325cd12c2e2dc19e0adc6b2e7b94dc1573b7d833def341fc73c8f76323edd42f"
+        },
+        {
+          "id": "coalesced:14e8a17fb13fead6a17cd2da7c0bd75102312e04e3da1504cbffd53383f9a86e",
+          "section": "Recover",
+          "key": "CandyForNeck_S",
+          "source_sha256": "cde9cfc0df8dc40b4f4b7101f54b1e7946a44e400a4905f0f594290678ac0b9e",
+          "planned": true,
+          "target_sha256_at_audit": "71bafc64f661a23cdb00bd3e29ec71d9f3a847e049e516092735532f2ee85986"
+        },
+        {
+          "id": "coalesced:1c0c7bbb682c9b04ddd110b72b66e7dd222e76acddb132fa9abb76d35470ec51",
+          "section": "Recover",
+          "key": "LightFeathers_D",
+          "source_sha256": "0b843f31431c138cab9a61af78161173c986e592cc94f01469b0372df3feb89a",
+          "planned": true,
+          "target_sha256_at_audit": "29c5f92c25c810e37cda354cb9e5bee0f140d9bcc38a403e3271551bb1e61d52"
+        },
+        {
+          "id": "coalesced:416ef062e120ebd286bb43a359f68d0e0e436e8dafdb58fc436053b746f89db7",
+          "section": "Recover",
+          "key": "HotCocoa_D",
+          "source_sha256": "0cd4ae5fd884a3dc333e9135cfaa0d8320a3eb22033a1740887963ed372cc978",
+          "planned": true,
+          "target_sha256_at_audit": "4f38cbdbfe29d7a6b54fe9219995dc2eb0b214dbf0aaa8a7f0edd1d8bf0ab7ba"
+        },
+        {
+          "id": "coalesced:447105056b5626b5a62b308f5e9f4d8434b61fbb6bd5a7a3f8cf1c8c7fa8734b",
+          "section": "Recover",
+          "key": "1060_water_elemental_S",
+          "source_sha256": "db149ac7f01d671592bb1ac1ea92e675ec404a449e93a9e316e1d76559c038ff",
+          "planned": true,
+          "target_sha256_at_audit": "a1299c5958110fe91d7fb60df1bdf154b269fe78d36047f33920ff622f4ace9a"
+        },
+        {
+          "id": "coalesced:4d3f4d7e8ff60508725037b493702e8be39b01436d32b28313c45a747768978f",
+          "section": "Recover",
+          "key": "FrozenRemedy_D",
+          "source_sha256": "148987830a783127b171e661f3fddff793db78c605060395d39f8372d7761256",
+          "planned": true,
+          "target_sha256_at_audit": "2b1f4af34231b5c8024ec4d079e602075b987d2c7349a5c32cde309f8256e3bf"
+        },
+        {
+          "id": "coalesced:4ee191e00fdc35a72aac9b62a8678c312b1f924d5ecfc03a0951608119c6db35",
+          "section": "Recover",
+          "key": "FrozenRemedy_S",
+          "source_sha256": "74628e9eda407d2ae8643c2b13d2f1d97e67797367a9604afbda2b9827f2ca95",
+          "planned": true,
+          "target_sha256_at_audit": "ee05a7ec02574ea58363b3bf86882fff564e03d794cf51a4d5374b29dc6b8bba"
+        },
+        {
+          "id": "coalesced:59d938a2319b1eab6184c6df6e04b866209979e627d67e39b7c0ee2df43415d8",
+          "section": "Recover",
+          "key": "1060_water_elemental",
+          "source_sha256": "032383ac4efa32ddbb69bb939ef28dfbf18517ded34ebe7ca1c8957300fd674e",
+          "planned": true,
+          "target_sha256_at_audit": "5a0d986420f3aa14eb3e6276c5e723966de7dd0c303ce8da3165f2a0b36fa75f"
+        },
+        {
+          "id": "coalesced:79c6c6006be5bd57e65c95bc32f839ad0e632b4fdaf6931925e898cb83b9ed29",
+          "section": "Recover",
+          "key": "1060_water_elemental_D",
+          "source_sha256": "21aeb3a4e2a775d46c127d3e1cba4f23e76eadf5b3477519ccd85c254a1056f1",
+          "planned": true,
+          "target_sha256_at_audit": "08973eb4bd22c8eca9ad9c4d329a325bcc4e488e6a55e1aa3bc4d9dbf6c14b03"
+        },
+        {
+          "id": "coalesced:7b2ddac5c53092e06e9d8ff2950d9b40c17ef3d87a58f2fc817ffe389eb7e6f3",
+          "section": "Recover",
+          "key": "LightFeathers_S",
+          "source_sha256": "0b843f31431c138cab9a61af78161173c986e592cc94f01469b0372df3feb89a",
+          "planned": true,
+          "target_sha256_at_audit": "29c5f92c25c810e37cda354cb9e5bee0f140d9bcc38a403e3271551bb1e61d52"
+        },
+        {
+          "id": "coalesced:9b5f07f822555800c8e8800c5cd7aa374b20d0852d8a40c8c312b473b1aeced4",
+          "section": "Recover",
+          "key": "HotCocoa_S",
+          "source_sha256": "cf6df7abbbf18419568335bdc8ccf0390277a24b318f50899c1041fdb0ed441f",
+          "planned": true,
+          "target_sha256_at_audit": "94844f4308ac320dec64764a58c6efe0f7e3b05ab3303f92f81b44ba010d9bc7"
+        },
+        {
+          "id": "coalesced:d23a8b94f20b44248c3968119d1c320e5d47f031d925862c2e3bd706693e9872",
+          "section": "Recover",
+          "key": "CandyForNeck_D",
+          "source_sha256": "26af8d5a8382f60fc0cf70c761c3aaa23ba4cd7092f6881fae1a39d00c6ddacb",
+          "planned": true,
+          "target_sha256_at_audit": "94dcd187fc1b270dbd3bcdea64efa9e4c92c20d78522cef89e14d9bd716d746d"
+        }
+      ],
+      "evidence": [
+        "locales/zh-Hans/candidate-decisions/dizziness-stun-distinction.json"
+      ]
+    },
+    {
+      "record": "scene-semantic-followups.json",
+      "historical_path_informational_only": "build/phase-267-verification/scene-semantic-followups.json",
+      "historical_sha256": "a35193a243c4641663c925cc5e237be2e06c29adabab932051c67f9896cc2219",
+      "classification": "resolved-revision",
+      "assessment": "Husband revenge ellipsis corrected276.",
+      "entries": [
+        {
+          "id": "coalesced:3b48305b2be8b23f317880d537cef1df922359e5f41e33dff7425af5017256c4",
+          "section": "Ch04_Abazet",
+          "key": "04_202_00",
+          "source_sha256": "27c2f7c5f1aea15ad872ca350fa19f2b838f77d0d42a34c8b7c772d45559900c",
+          "planned": true,
+          "target_sha256_at_audit": "bb3a0893e33f75643b897b3a561847820d20a6c424018b710519d2f99017558e"
+        }
+      ],
+      "evidence": [
+        "locales/zh-Hans/candidate-decisions/husband-revenge-ellipsis.json"
+      ]
+    },
+    {
+      "record": "skill-original-fragments-followup.json",
+      "historical_path_informational_only": "build/phase-267-verification/skill-original-fragments-followup.json",
+      "historical_sha256": "a1e5b662befa1b3117c9ae296fd5e2f61c81d162e0f647f87d7b4ad55042326d",
+      "classification": "concatenation-evidence-gate",
+      "assessment": "Ten skill fragments retained249;runtime concatenation order/grammar unverified.",
+      "entries": [
+        {
+          "id": "coalesced:129be4ee9522b4db2cf69161db2a1038792a1e596d3ce3bb567d87442c92cbdb",
+          "section": "StatStrong",
+          "key": "ESP",
+          "source_sha256": "f86dd1474e14bc8ae94afe14dba9c9ac3a04a330656e4983596f3f8b4f3af09e",
+          "planned": false,
+          "target_sha256_at_audit": null
+        },
+        {
+          "id": "coalesced:207d204efd64ce09e867718ad62eaf8ff0d3a83480e802c92c77da97aa793b1d",
+          "section": "StatStrong",
+          "key": "SRV",
+          "source_sha256": "0a77cbe345b995ca9422df12b67564bdf4a44c68ab757694599ab1572ed9b4d2",
+          "planned": false,
+          "target_sha256_at_audit": null
+        },
+        {
+          "id": "coalesced:326e050ec090e2598d855e5afb7da7873583d27d1aaa484e328d6d2f8d4bd30f",
+          "section": "StatStrong",
+          "key": "ESR",
+          "source_sha256": "25283be3c77e2e1fcd2a03ec5265bb46b7ab05c9cf7577380be3635b6e69d2a7",
+          "planned": false,
+          "target_sha256_at_audit": null
+        },
+        {
+          "id": "coalesced:34eef98fe7bd705190da89a19d6ea9a1f9c838995e91c8c745c9193bc722a010",
+          "section": "StatStrong",
+          "key": "normalUP",
+          "source_sha256": "d5b9f970c9b8926d78338e08a685e91769a52ff12fd74703a4708f5b4491b136",
+          "planned": false,
+          "target_sha256_at_audit": null
+        },
+        {
+          "id": "coalesced:4d2cc0c48055b55bea66cd1ac61c91f27ff2a0a7499e069362487b77eac5cada",
+          "section": "StatStrong",
+          "key": "DEX",
+          "source_sha256": "0f261c35575d057a530be8e42f7328f86640cbed12385132b01b60d9b6e688f4",
+          "planned": false,
+          "target_sha256_at_audit": null
+        },
+        {
+          "id": "coalesced:5579741fcdca8c68bd4c5cce0dc25d2122f4d7d111aad961e31e3ce77a88b335",
+          "section": "StatStrong",
+          "key": "PercentUP",
+          "source_sha256": "8b55a6ffb22c3514102789b8b756024c19c5f910e8f33cc31d31e216334b2a32",
+          "planned": false,
+          "target_sha256_at_audit": null
+        },
+        {
+          "id": "coalesced:7e2f92a080c4fca32ac4914af6b6edd71b35f6a9dbc84c43808de037eab2dba0",
+          "section": "StatStrong",
+          "key": "STA",
+          "source_sha256": "4cb5d89eda66ab110893663c6324e9a0f46364568f2a5f0f5712601fe32ed4d1",
+          "planned": false,
+          "target_sha256_at_audit": null
+        },
+        {
+          "id": "coalesced:b24b147523329f3c3d3849f035c86e4c63ef3f2e8055e326956978d2c4770ad0",
+          "section": "StatStrong",
+          "key": "DEF",
+          "source_sha256": "71bd17a9ca0fa42b325bd6cc39ae4cce380760eaa7610e87aa8a790900a79be9",
+          "planned": false,
+          "target_sha256_at_audit": null
+        },
+        {
+          "id": "coalesced:ee88d4690240bbb9e7243dfecc14335c3c7c66a8a4f94fd1827892d4e7d9fd50",
+          "section": "StatStrong",
+          "key": "HP",
+          "source_sha256": "a21788822be4dfd2650f310e07e21538fe2afbc06b0a346d54aae5a2e364bac2",
+          "planned": false,
+          "target_sha256_at_audit": null
+        },
+        {
+          "id": "coalesced:fe961247aa119570dd603f918c082406d5bdb29466d742fc715fd00037323430",
+          "section": "StatStrong",
+          "key": "STR",
+          "source_sha256": "fbfb93e64f249fb0a1d4a3d3c96ab2d910d4bb03bed6bd905a216ab467cf452e",
+          "planned": false,
+          "target_sha256_at_audit": null
+        }
+      ],
+      "evidence": []
+    },
+    {
+      "record": "skill-status-naming-followup.json",
+      "historical_path_informational_only": "build/phase-267-verification/skill-status-naming-followup.json",
+      "historical_sha256": "a9e45b7359eb01d3ccfdd8c2d126ba721ab17f1de5cbf629f327f0d6c04446ab",
+      "classification": "skill-name-source-review-next",
+      "assessment": "Dizziness264 applied;remaining six hanja skill-name spellings have actionable local INT/JPNsource comparison,not automatic adoption.",
+      "entries": [
+        {
+          "id": "coalesced:06d71e896bae74dcea1feb703967cca6d1d0f36dbda7fa813b816013d31f1286",
+          "section": "Crocell_Style1",
+          "key": "Crocell_Skill05",
+          "source_sha256": "5a82d7aa59b84894a43f9eb1f95cae61869b7abd46fb965db83199bedd0e71a7",
+          "planned": true,
+          "target_sha256_at_audit": "8a17e817c0b4494033cab26af0d393715268794d631e9c37fdea263b59d1f172"
+        },
+        {
+          "id": "coalesced:133cb5be6910a0f770ee6fb0d4c17df69ddc94afa5622f5e9e23c84ff114b4be",
+          "section": "Crocell_Style1",
+          "key": "Crocell_Skill03",
+          "source_sha256": "964610d96605e0bb145f5247c9c0dff9f37dc662163742d32a0ffb3f5f25e69d",
+          "planned": true,
+          "target_sha256_at_audit": "effe9556173df94a3eaa362ad0c7e0e159508715de31a7d64e53643d1ae2ca35"
+        },
+        {
+          "id": "coalesced:1f5e1df553dc49709275a6b6045e8affde97d87635c8c92dd98b5b938e4c4b36",
+          "section": "Zephie_Style1",
+          "key": "Skill_d_217_Battle",
+          "source_sha256": "bf2ee09390b8414158102b6a8397b24b5f109c87e0cb52aadc8f45a110d8e131",
+          "planned": true,
+          "target_sha256_at_audit": "d5df6f5ec132daf6b7f0561628f1d0f3df75cd243ee07c17bb469009fc405ac7"
+        },
+        {
+          "id": "coalesced:44db4b05357cca2414e3f12a03f3e33fe327c91a63f26d15cf9c9fe58c8929a4",
+          "section": "Crocell_Style1",
+          "key": "Crocell_Skill04",
+          "source_sha256": "9fa4c28e2a284e8f0f6abcf04a4f1721313c58063307991970e5947712c70d64",
+          "planned": true,
+          "target_sha256_at_audit": "f792de8518493736805fef2b4c2cac59ecc1cabf09e45b01e2e364667fed8c1c"
+        },
+        {
+          "id": "coalesced:550df7b400fb121bbf4b8e8729132d15d70a27a096fe467ff6b60ea19050c3cb",
+          "section": "Crocell_Style1",
+          "key": "Crocell_Skill02",
+          "source_sha256": "9528a5b96ed4f7cb92c7c9b314f74af674201c6fa61607dd89efb12605076fa5",
+          "planned": true,
+          "target_sha256_at_audit": "58938ee50e7d45310505f695fcb73d5f3ba9a63de975ed04ffaf17b590d58e72"
+        },
+        {
+          "id": "coalesced:84a599ba917c34ebfe737d4c2838450927894d8dbc690281f77d71b423376226",
+          "section": "Juto_Style2",
+          "key": "Juto_Skill03",
+          "source_sha256": "144791eebac662378b40f3b03e70eaa22aa3f84b8707e74866ea137d27785391",
+          "planned": true,
+          "target_sha256_at_audit": "d75e5c6fd5aab11593a7fbe02050e75c3a23421f2f581f61fc5010f9f07618c2"
+        },
+        {
+          "id": "coalesced:bb09fc2fd0fb7c312237f6c32295d7d0749847d2dd3a3358352f43c768a9f200",
+          "section": "Zephie_Style1",
+          "key": "Skill_d_217",
+          "source_sha256": "bf2ee09390b8414158102b6a8397b24b5f109c87e0cb52aadc8f45a110d8e131",
+          "planned": true,
+          "target_sha256_at_audit": "d5df6f5ec132daf6b7f0561628f1d0f3df75cd243ee07c17bb469009fc405ac7"
+        },
+        {
+          "id": "coalesced:f8aff533caa3298e5c2dabb127087125e6bc2182e7ad843d87feff2f5233c4ff",
+          "section": "Crocell_Style2",
+          "key": "Crocell_Normal",
+          "source_sha256": "bfa67590e8d301b2b30fb9ace958f13f8ab956c8be296ed01d1664bf5b027912",
+          "planned": true,
+          "target_sha256_at_audit": "f22a0dfd7a689ec2c59fae7f99f6ac6ded29895064bb65c3cc7cb57457e8a136"
+        }
+      ],
+      "evidence": [
+        "locales/zh-Hans/candidate-decisions/dizziness-stun-distinction.json"
+      ]
+    },
+    {
+      "record": "speaker-gender-followup.json",
+      "historical_path_informational_only": "build/phase-267-verification/speaker-gender-followup.json",
+      "historical_sha256": "3e0eff315c9dd451077c293276c8f53f9a2fce3a983d4df74e8df275bb17cc4b",
+      "classification": "resolved-revision",
+      "assessment": "Premature female prefix removed272.",
+      "entries": [
+        {
+          "id": "coalesced:c112e934cd2953a9571e226003a5cb756704dc8301eac5bb7dcc3f74accdf0bb",
+          "section": "CSMB05_001",
+          "key": "voc_csmb_05001_07",
+          "source_sha256": "c0dd2cf8109cc38e88937204c1569cf66b95ce03db228745748bb0dd31e8ab16",
+          "planned": true,
+          "target_sha256_at_audit": "ccee120466dff08f99d73b125923f2373ac06b9ece0ce2b1b196e32313c8f3a8"
+        }
+      ],
+      "evidence": [
+        "locales/zh-Hans/candidate-decisions/gender-question-perspective.json"
+      ]
+    },
+    {
+      "record": "status-terminology-followups.json",
+      "historical_path_informational_only": "build/phase-267-verification/status-terminology-followups.json",
+      "historical_sha256": "8c35cecdc87c774e52f01b72982cdaaee765d71ca87780da92ecca7dc7d1ceed",
+      "classification": "resolved-status-plus-thermal-alias-review",
+      "assessment": "Dizziness264 resolved;thermal alias semantics still require source-linked review,not mechanical status merge.",
+      "entries": [],
+      "evidence": [
+        "locales/zh-Hans/candidate-decisions/dizziness-stun-distinction.json"
+      ]
+    },
+    {
+      "record": "weapon-wording-followup.json",
+      "historical_path_informational_only": "build/phase-267-verification/weapon-wording-followup.json",
+      "historical_sha256": "391ecb10180eb55cd3ca3c3601d0ed3470c8cd1a1281b6cd59be06693b7b40e8",
+      "classification": "resolved-revision-and-retention",
+      "assessment": "Suppression/illusion266 and remaining weapon retention267 resolved.",
+      "entries": [
+        {
+          "id": "coalesced:6acf2dc5e35db3b6c5342fba279948c37f6bdce076906f3b31a6a2dbd8a6b387",
+          "section": "Weapon_twohanded sword_juto",
+          "key": "123_sword_D",
+          "source_sha256": "d6df64f7ae29ce8074aaa1775c5cdd29a84dea9c253299deb83220a2f8c0d18a",
+          "planned": true,
+          "target_sha256_at_audit": "8b63ab3f72d015aa9e5c11033a8522f984890ff791831cfde400feed99ccae33"
+        },
+        {
+          "id": "coalesced:7e46aabb45831387721bd1515635a5b647dcb068f21f32ccebe948fa64f0e28e",
+          "section": "Weapon_knuckle_crocell",
+          "key": "409_knuckle",
+          "source_sha256": "db075e7ec3cbf80687221a8d6a79790deb3d17b5ec434b343eb525df2e0067db",
+          "planned": true,
+          "target_sha256_at_audit": "297e34dcac4f280eba71722675172366b5d12f045477c7990b529d8bd46d633f"
+        },
+        {
+          "id": "coalesced:7f6e6f12bf447a210a89a28b3b2e4ccd4c8639b038b972a8872751975017b89f",
+          "section": "Weapon_rod_zephie",
+          "key": "222_rod_D",
+          "source_sha256": "6cf22e7d0021caebb0d1881139e53f31a0e3fdea644a8331364d047d1501bd33",
+          "planned": true,
+          "target_sha256_at_audit": "643be677529f6786f7059e0f9d825abc8ea77508305c30e0d73e58f0e2ca2761"
+        },
+        {
+          "id": "coalesced:ab5d6b29ab5115f27a91f7d0af8a939c9cbd657f2ea27a120f274ce8e765c3be",
+          "section": "Weapon_hammer_argo",
+          "key": "323_ham",
+          "source_sha256": "dbe28ada483a6ead317208f21d900328e021be549d7e816d206547d856cb7786",
+          "planned": true,
+          "target_sha256_at_audit": "02e97ed2958b8dc0a9fea2b93c297ac4b6d2f6ca3a96cb65a4d70010dc3091db"
+        },
+        {
+          "id": "coalesced:f34b6c3ff00646ca1d59194ea7e5aabc929f355086bd7ffe5c79f48ddbd51de1",
+          "section": "Weapon_katana_rue",
+          "key": "608_katana_D",
+          "source_sha256": "06b61805cd49acc0037753dcff593ef25feeeff0237a23cc1637a00c950f2bb5",
+          "planned": true,
+          "target_sha256_at_audit": "0f2473d6da8a14bcb3ff47b091b2ea9f46c9625513aad08bb3918cb0533656ac"
+        }
+      ],
+      "evidence": [
+        "locales/zh-Hans/candidate-decisions/weapon-suppression-and-illusion.json",
+        "locales/zh-Hans/candidate-decisions/remaining-weapons-retention.json"
+      ]
+    }
+  ],
+  "next_actions": [
+    "Compare six remaining skill-name candidates against aligned local INT/JPNfull skill context;preserve ten unplanned fragments.",
+    "Read linked chapter/help context for Chapter11_27 and Chapter12_37 before considering adoption;do not infer unused.",
+    "Review thermal lexical aliases with full source-linked context without asserting shared engine status."
+  ],
+  "human_finalized": false,
+  "runtime_layout_approved": false,
+  "game_rendering_verified": false
+}

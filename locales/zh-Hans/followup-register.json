@@ -852,7 +852,14 @@
           "target_sha256_at_audit": null
         }
       ],
-      "evidence": []
+      "evidence": [],
+      "latest_resolution": {
+        "phase": 282,
+        "decision": "locales/zh-Hans/candidate-decisions/stat-strong-native-template-order.json",
+        "status": "Eight native prefix/value/suffix/LF/detail templates and PPCcall references verified;static order no longer unknown. Continue Chinese fragment assembly and formatter/parser inspection offline;runtime acceptance separate.",
+        "translation_edits": 0,
+        "human_finalized": false
+      }
     },
     {
       "record": "skill-status-naming-followup.json",

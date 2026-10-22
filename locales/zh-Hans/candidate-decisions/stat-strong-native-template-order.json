@@ -1,0 +1,246 @@
+{
+  "schema_version": 1,
+  "phase": 282,
+  "kind": "static-native-template-order",
+  "translation_edits": 0,
+  "source_fragment_count": 10,
+  "templates": [
+    {
+      "prefix": "MC2Skill.StatStrong.HP",
+      "suffix": "MC2Skill.StatStrong.PercentUP",
+      "address": 2182281360,
+      "call_setup": 2194903172,
+      "code_sha256": "6c212d09ae15ed77e9110255fc10189cf036cbf5430ae11ff8f374451a220744",
+      "template_sha256": "31f2716daf25037b5a47cfe59f41aef17ba4781b779b00b3ae550bcbed12c5cb",
+      "format_call_target": 2184334416,
+      "sequence": [
+        "localized-prefix",
+        "string-argument-1",
+        "localized-suffix",
+        "LF",
+        "string-argument-2"
+      ],
+      "argument_slots": 2
+    },
+    {
+      "prefix": "MC2Skill.StatStrong.STR",
+      "suffix": "MC2Skill.StatStrong.normalUP",
+      "address": 2182281520,
+      "call_setup": 2194903276,
+      "code_sha256": "ceb77a8e348b3c686fa901ef1fff8c63cd53307d1debc929e3affa4d3703a1e8",
+      "template_sha256": "6cd37066b73b31fe32661efb0c72656ee815a212efd9568b2a1ab55f7d3476c7",
+      "format_call_target": 2184334416,
+      "sequence": [
+        "localized-prefix",
+        "string-argument-1",
+        "localized-suffix",
+        "LF",
+        "string-argument-2"
+      ],
+      "argument_slots": 2
+    },
+    {
+      "prefix": "MC2Skill.StatStrong.DEF",
+      "suffix": "MC2Skill.StatStrong.normalUP",
+      "address": 2182281680,
+      "call_setup": 2194903380,
+      "code_sha256": "66d7c3babef181335a3e6d9c27276b70e93fc729e1c0b9712e91cdab69b3913e",
+      "template_sha256": "18c2ad37403d0f45ddefbcee87f0cece17766f76aba92c6e6e719582d4808708",
+      "format_call_target": 2184334416,
+      "sequence": [
+        "localized-prefix",
+        "string-argument-1",
+        "localized-suffix",
+        "LF",
+        "string-argument-2"
+      ],
+      "argument_slots": 2
+    },
+    {
+      "prefix": "MC2Skill.StatStrong.ESP",
+      "suffix": "MC2Skill.StatStrong.normalUP",
+      "address": 2182281840,
+      "call_setup": 2194903484,
+      "code_sha256": "16d3a0b4f14b5a2cf8524b95bd85d0fb2863110118e20600df8378a7dbe5dd71",
+      "template_sha256": "aeb44e7183868ce986a19ae1a51ee0de8cfd43c5deb6508b14d7a755cd5a092c",
+      "format_call_target": 2184334416,
+      "sequence": [
+        "localized-prefix",
+        "string-argument-1",
+        "localized-suffix",
+        "LF",
+        "string-argument-2"
+      ],
+      "argument_slots": 2
+    },
+    {
+      "prefix": "MC2Skill.StatStrong.ESR",
+      "suffix": "MC2Skill.StatStrong.normalUP",
+      "address": 2182282000,
+      "call_setup": 2194903588,
+      "code_sha256": "bd21b742839d2cc8461bc74265df91677d0584d21854ae87c27ff92ee3c0028c",
+      "template_sha256": "d21aaf04bab94996e688ddaff175dc1646d04d3afa39d4e08aa5a493f47ba068",
+      "format_call_target": 2184334416,
+      "sequence": [
+        "localized-prefix",
+        "string-argument-1",
+        "localized-suffix",
+        "LF",
+        "string-argument-2"
+      ],
+      "argument_slots": 2
+    },
+    {
+      "prefix": "MC2Skill.StatStrong.DEX",
+      "suffix": "MC2Skill.StatStrong.normalUP",
+      "address": 2182282160,
+      "call_setup": 2194903692,
+      "code_sha256": "0e887dfbad4713630edc9279fe15907980f8c2875503a528e3f2b2edb005f170",
+      "template_sha256": "51b15052aa160259d31061c42a885b12a5c02b536bccbe9515624545f5c16877",
+      "format_call_target": 2184334416,
+      "sequence": [
+        "localized-prefix",
+        "string-argument-1",
+        "localized-suffix",
+        "LF",
+        "string-argument-2"
+      ],
+      "argument_slots": 2
+    },
+    {
+      "prefix": "MC2Skill.StatStrong.STA",
+      "suffix": "MC2Skill.StatStrong.normalUP",
+      "address": 2182282320,
+      "call_setup": 2194903796,
+      "code_sha256": "176af8f8597ff7053f5a4e8424f906006a256f8ad060d63e8d905f181ecddb3d",
+      "template_sha256": "2a07cef4127e3ad607ed73e03a742a02915893ddda59f6b4cef5c8c50d8baa40",
+      "format_call_target": 2184334416,
+      "sequence": [
+        "localized-prefix",
+        "string-argument-1",
+        "localized-suffix",
+        "LF",
+        "string-argument-2"
+      ],
+      "argument_slots": 2
+    },
+    {
+      "prefix": "MC2Skill.StatStrong.SRV",
+      "suffix": "MC2Skill.StatStrong.normalUP",
+      "address": 2182282480,
+      "call_setup": 2194903900,
+      "code_sha256": "d7b871ee8e039640fa3af9178fde5c3a2b287c9d86f54f8ee2f1a980a49eacfb",
+      "template_sha256": "318c16c7de585d9149b65de24e5b19f70f88b010705d38a88952b868b953d9eb",
+      "format_call_target": 2184334416,
+      "sequence": [
+        "localized-prefix",
+        "string-argument-1",
+        "localized-suffix",
+        "LF",
+        "string-argument-2"
+      ],
+      "argument_slots": 2
+    }
+  ],
+  "source_fragments": [
+    {
+      "id": "coalesced:ee88d4690240bbb9e7243dfecc14335c3c7c66a8a4f94fd1827892d4e7d9fd50",
+      "key": "HP",
+      "source_sha256": "a21788822be4dfd2650f310e07e21538fe2afbc06b0a346d54aae5a2e364bac2",
+      "disc_sources": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": "coalesced:fe961247aa119570dd603f918c082406d5bdb29466d742fc715fd00037323430",
+      "key": "STR",
+      "source_sha256": "fbfb93e64f249fb0a1d4a3d3c96ab2d910d4bb03bed6bd905a216ab467cf452e",
+      "disc_sources": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": "coalesced:b24b147523329f3c3d3849f035c86e4c63ef3f2e8055e326956978d2c4770ad0",
+      "key": "DEF",
+      "source_sha256": "71bd17a9ca0fa42b325bd6cc39ae4cce380760eaa7610e87aa8a790900a79be9",
+      "disc_sources": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": "coalesced:129be4ee9522b4db2cf69161db2a1038792a1e596d3ce3bb567d87442c92cbdb",
+      "key": "ESP",
+      "source_sha256": "f86dd1474e14bc8ae94afe14dba9c9ac3a04a330656e4983596f3f8b4f3af09e",
+      "disc_sources": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": "coalesced:326e050ec090e2598d855e5afb7da7873583d27d1aaa484e328d6d2f8d4bd30f",
+      "key": "ESR",
+      "source_sha256": "25283be3c77e2e1fcd2a03ec5265bb46b7ab05c9cf7577380be3635b6e69d2a7",
+      "disc_sources": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": "coalesced:4d2cc0c48055b55bea66cd1ac61c91f27ff2a0a7499e069362487b77eac5cada",
+      "key": "DEX",
+      "source_sha256": "0f261c35575d057a530be8e42f7328f86640cbed12385132b01b60d9b6e688f4",
+      "disc_sources": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": "coalesced:7e2f92a080c4fca32ac4914af6b6edd71b35f6a9dbc84c43808de037eab2dba0",
+      "key": "STA",
+      "source_sha256": "4cb5d89eda66ab110893663c6324e9a0f46364568f2a5f0f5712601fe32ed4d1",
+      "disc_sources": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": "coalesced:207d204efd64ce09e867718ad62eaf8ff0d3a83480e802c92c77da97aa793b1d",
+      "key": "SRV",
+      "source_sha256": "0a77cbe345b995ca9422df12b67564bdf4a44c68ab757694599ab1572ed9b4d2",
+      "disc_sources": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": "coalesced:5579741fcdca8c68bd4c5cce0dc25d2122f4d7d111aad961e31e3ce77a88b335",
+      "key": "PercentUP",
+      "source_sha256": "8b55a6ffb22c3514102789b8b756024c19c5f910e8f33cc31d31e216334b2a32",
+      "disc_sources": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": "coalesced:34eef98fe7bd705190da89a19d6ea9a1f9c838995e91c8c745c9193bc722a010",
+      "key": "normalUP",
+      "source_sha256": "d5b9f970c9b8926d78338e08a685e91769a52ff12fd74703a4708f5b4491b136",
+      "disc_sources": [
+        1,
+        2
+      ]
+    }
+  ],
+  "plan": "references/probes/stat-strong-localized-templates.json",
+  "plan_sha256": "3eb094a694f920c60b0b3d42e815d7f07e35c4fb2c1d2a70497b9c98d2063b48",
+  "image_sha256": "d18d49fb2960426715ba17d61d069cce42b1eadac153af13c9395cd42b1773e9",
+  "static_template_order_verified": true,
+  "runtime_concatenation_verified": false,
+  "formatter_implementation_verified": false,
+  "human_finalized": false,
+  "game_rendering_verified": false,
+  "next_action": "Adjudicate Chinese prefix/value/suffix sentence layouts with exact source spacing and percent marker;trace formatter/parser and other consumers before adopting ten held fragments,not wait for user gameplay."
+}

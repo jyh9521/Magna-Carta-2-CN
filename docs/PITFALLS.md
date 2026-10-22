@@ -1,3 +1,7 @@
+## 原生模板换行与派生PE（阶段282）
+
+终端换行显示不证明CRLF：StatStrong UTF16BE模板实际只有LF，必须按字节验证。该XEX派生PE为PowerPCBE且是虚拟布局；REA报告unsupported PE architecture，不按普通PE原始偏移重映射。显式字解码探针见[模板证据](STAT_STRONG_NATIVE_TEMPLATES.md)。
+
 ## 第269阶段：母亲推测保留与跨语种键错位
 
 完整157剧情源译及双盘12条JPN来源核对：母亲反对/死亡句在INT为1130_46/47，JPN为1130_47/48；同键不是等义保证，局部偏移不推广。保留过去反对及死亡推测，不采用会反对或导入被杀。零译文/资源修改，复用268包；见[阶段269](PHASE_269_MOTHER_INFERENCE_LOCALE_ALIGNMENT.md)。

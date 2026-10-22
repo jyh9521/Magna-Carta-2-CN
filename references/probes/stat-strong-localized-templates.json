@@ -1,0 +1,66 @@
+{
+  "schema_version": 1,
+  "profile": "ppc-localized-wide-template-v1",
+  "image_base": 2181038080,
+  "image_size": 20119552,
+  "image_sha256": "d18d49fb2960426715ba17d61d069cce42b1eadac153af13c9395cd42b1773e9",
+  "format_call_target": 2184334416,
+  "templates": [
+    {
+      "prefix": "MC2Skill.StatStrong.HP",
+      "suffix": "MC2Skill.StatStrong.PercentUP",
+      "address": 2182281360,
+      "call_setup": 2194903172,
+      "code_sha256": "6c212d09ae15ed77e9110255fc10189cf036cbf5430ae11ff8f374451a220744"
+    },
+    {
+      "prefix": "MC2Skill.StatStrong.STR",
+      "suffix": "MC2Skill.StatStrong.normalUP",
+      "address": 2182281520,
+      "call_setup": 2194903276,
+      "code_sha256": "ceb77a8e348b3c686fa901ef1fff8c63cd53307d1debc929e3affa4d3703a1e8"
+    },
+    {
+      "prefix": "MC2Skill.StatStrong.DEF",
+      "suffix": "MC2Skill.StatStrong.normalUP",
+      "address": 2182281680,
+      "call_setup": 2194903380,
+      "code_sha256": "66d7c3babef181335a3e6d9c27276b70e93fc729e1c0b9712e91cdab69b3913e"
+    },
+    {
+      "prefix": "MC2Skill.StatStrong.ESP",
+      "suffix": "MC2Skill.StatStrong.normalUP",
+      "address": 2182281840,
+      "call_setup": 2194903484,
+      "code_sha256": "16d3a0b4f14b5a2cf8524b95bd85d0fb2863110118e20600df8378a7dbe5dd71"
+    },
+    {
+      "prefix": "MC2Skill.StatStrong.ESR",
+      "suffix": "MC2Skill.StatStrong.normalUP",
+      "address": 2182282000,
+      "call_setup": 2194903588,
+      "code_sha256": "bd21b742839d2cc8461bc74265df91677d0584d21854ae87c27ff92ee3c0028c"
+    },
+    {
+      "prefix": "MC2Skill.StatStrong.DEX",
+      "suffix": "MC2Skill.StatStrong.normalUP",
+      "address": 2182282160,
+      "call_setup": 2194903692,
+      "code_sha256": "0e887dfbad4713630edc9279fe15907980f8c2875503a528e3f2b2edb005f170"
+    },
+    {
+      "prefix": "MC2Skill.StatStrong.STA",
+      "suffix": "MC2Skill.StatStrong.normalUP",
+      "address": 2182282320,
+      "call_setup": 2194903796,
+      "code_sha256": "176af8f8597ff7053f5a4e8424f906006a256f8ad060d63e8d905f181ecddb3d"
+    },
+    {
+      "prefix": "MC2Skill.StatStrong.SRV",
+      "suffix": "MC2Skill.StatStrong.normalUP",
+      "address": 2182282480,
+      "call_setup": 2194903900,
+      "code_sha256": "d7b871ee8e039640fa3af9178fde5c3a2b287c9d86f54f8ee2f1a980a49eacfb"
+    }
+  ]
+}

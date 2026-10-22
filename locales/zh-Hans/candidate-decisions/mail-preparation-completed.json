@@ -1,0 +1,73 @@
+{
+  "schema_version": 1,
+  "kind": "source-grounded-candidate-adjudication",
+  "phase": 271,
+  "resource": "MC2Game/Localization/Coalesced.int",
+  "input_sha256": "179e265cfc9e6d3e9f2586abe75b5da303b2af9b8484079851dab72f9f7edb8c",
+  "context_fields": 237,
+  "source_physical": 239,
+  "known_originals_retained": 2,
+  "new_primary_consistency_fields": 0,
+  "new_translations": 0,
+  "new_context_entries": 0,
+  "translation_edits": 1,
+  "decisions": [
+    {
+      "id": "coalesced:0edf10ea101dfeabcaab16a30d2a952bdb55178a6a8425dee36d8d9b9c23d5a2",
+      "source": "이번에 너의 성인식이 있으니, 하던 일을 보류하고\\n일단 코타마레로 돌아오거라.\\n\\n모든 준비를 해 놓고 기다리고 있단다.",
+      "source_sha256": "9e187232f19f2412d4674a1b3909ff1272ead4914369bb43ebf3da543dd9dca5",
+      "before_translation": "你的成人礼就要到了，先放下手头的事，\\n回柯塔马雷一趟吧。\\n\\n我会做好一切准备，等你回来。",
+      "translation": "你的成人礼就要到了，先放下手头的事，\\n回柯塔马雷一趟吧。\\n\\n我已经做好一切准备，正等你回来。",
+      "translation_sha256": "40ad9fab5296f3f9274afb7f8f8b1af29cbe60427a00434f37b2878cdb29c44d",
+      "reason": "Korean preparation 해 놓고 plus present-progressive 기다리고 있단다 says already prepared and currently waiting;preserve prior return request and full mail breaks,not future preparation. Ceremony quest and seven contrast controls retained.",
+      "status": "source-grounded-draft-correction"
+    }
+  ],
+  "retained_family_controls": [
+    {
+      "id": "coalesced:fde5558cf77d7caed343c8dee406154a25307672241668e3745f028951e30786",
+      "source": "성인식",
+      "translation": "成人礼",
+      "translation_sha256": "93a4b9f55a039d1e794e530f789cd4b55194ec9793d226a85b7eb5c53600e94d"
+    },
+    {
+      "id": "coalesced:0f754b5c6b7ef76e5d5397b0ce083f79a67074bdfb4bce02c5b05b975c29c0ae",
+      "source": "남부군 제군들.\\n\\n라티 족에게 유효한 독약의 개발이 완료되었네.\\n자네들이 구절초를 주해다 준 덕택에 생각보다 빨리 완성했지.\\n\\n사용법에 대해서 설명을 들어야 할 걸세.\\n시간이 나는 대로 약을 받으러 우리 집에 들르게나.",
+      "translation": "南部军的各位。\\n\\n对拉提族有效的毒药已经研制完成了。\\n多亏你们帮忙找来了九节草，才比预想的更早完成。\\n\\n关于使用方法，还需要向你们说明一下。\\n有空就来我家取药吧。",
+      "translation_sha256": "fe4a668c8bb8e3d733331a4b89485c70ec2da6e0ed501f8d3f8bd6f2e5f7e2fd"
+    },
+    {
+      "id": "coalesced:97b1798fcbcd2f43f5b8ddc04ad75ccd98c77d7775b9b8a8836646d9511b47ed",
+      "source": "안녕하십니까. 전 [호그톤]이라고 합니다.\\n여러분이 잘 아시는 이그톤은 제 친척이랍니다.\\n\\n다름이 아니라 이그톤한테서 여러분이 해저 동굴에 나온다는\\n조파를 처치하셨다는 얘기를 들었습니다.\\n제게 큰 건수가 하나 있는데, 제 힘으로는 힘든 일이라\\n도와주실 분을 찾고 있었습니다. \\n혹시 시간이 되신다면 저를 찾아주세요! \\n\\n저는 늙은 여우 협곡 아비스 수송대 옆에서 기다리고 있겠습니다.",
+      "translation": "各位好。我叫[霍格顿]。\\n各位熟悉的伊格顿，是我的亲戚。\\n\\n我从伊格顿那里，听说各位已经打倒了\\n据说出没于海底洞窟的佐帕。\\n我有一笔大生意，可单凭我的力量，很难办成，\\n所以一直在找人帮忙。 \\n若各位有空，请来找我吧！ \\n\\n我会在老狐峡谷的阿维斯运输队旁边等候。",
+      "translation_sha256": "8e205b478414582825da0b3d41aad9194841d0d4f0c38a930d60148211c83c5f"
+    },
+    {
+      "id": "coalesced:87cd31f3dd8b7cf3b73473df3606fa35a3ac4168b163f4d93cac216dab260e52",
+      "source": "어서 오너라, 세레스틴.\\n기다리고 있었단다.",
+      "translation": "来吧，塞蕾丝汀。我一直在等你。",
+      "translation_sha256": "44671525032f75bea36d84d9e28a9a42092007b458be4fb6ff673a85b7e028ec"
+    },
+    {
+      "id": "coalesced:ba8c653e14700f54724a61529fdd8fea405c5fc3dc9b6c1bd68c5dac343b6d65",
+      "source": "코타마레의 케이틴을 찾아가서\\n세레스틴의 성인식에 대한 이야기를 들어야 합니다.",
+      "translation": "前往柯塔马雷寻找凯汀，\\n听他讲述塞蕾丝汀成人礼的事。",
+      "translation_sha256": "bf56ff151c88616795eeef61552ff88668077ff67de56dcb0197a77bc26d6724"
+    },
+    {
+      "id": "coalesced:4d3d6a98141f978590c98d335d3b7bfe069229c99107d4bb4c223228e5b85049",
+      "source": "케이틴의 편지",
+      "translation": "凯汀的信",
+      "translation_sha256": "6cfc0c4bedac6060acf4caaf8758d2d4ccfafaba8f89c4a469332c849f9dd26c"
+    },
+    {
+      "id": "coalesced:133fb2f8185859e74d97f1b15b7bfacac33d95cb76a24cf7f9836c3984a39ccf",
+      "source": "내가 성인식을 위해 부른 건\\n세레스틴일세.",
+      "translation": "我为了成人礼而叫来的人，是塞蕾丝汀。",
+      "translation_sha256": "76b06ddde7a650a8dcd81730e8320ff38e7ab429ad299763637c862f7a35ddca"
+    }
+  ],
+  "human_finalized": false,
+  "runtime_layout_approved": false,
+  "game_rendering_verified": false
+}

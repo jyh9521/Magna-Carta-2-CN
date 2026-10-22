@@ -1842,7 +1842,7 @@
     {
       "id": "coalesced:0edf10ea101dfeabcaab16a30d2a952bdb55178a6a8425dee36d8d9b9c23d5a2",
       "source_sha256": "9e187232f19f2412d4674a1b3909ff1272ead4914369bb43ebf3da543dd9dca5",
-      "translation_sha256": "2dd45a6ddb7547f914c657eb9f59a1b3d8b0dd368bf0c2cdb911e4312c97360e"
+      "translation_sha256": "40ad9fab5296f3f9274afb7f8f8b1af29cbe60427a00434f37b2878cdb29c44d"
     },
     {
       "id": "coalesced:28155f9c315c3df8112477fea180ebbfc6ec25d6f6d8a16d8115f8d3d8bfd4fc",
@@ -2016,7 +2016,8 @@
     "E07以后运输与救援邮件：乘车券/晶柱旁阿维斯、鲁哈尔特盆地开线、封锁阿巴泽特草原/临时营地/黑刃要塞与盆地站迁移、新增星光平原/贝尔福特/王城按通知时点不混成同时有效。绑架保密/限时救人及三地区布阵、重造杰巴萨雷卡斯先处置、绝望之壁目的属推测，原文恸哭之壁不私改成门，宝箱仅试炼期间可见。",
     "235物理/233计划/118复合分区为完整邮件资源，Test=더미及E02_016_Sub=......两调查原值保留，正文换行/空白行/方括号/数值键位严格保持；零新增翻译/上下文/资源，所有候选/语义待改和人工/布局/游戏验收标志保持未定稿。",
     "147项候选术语逐项核对：너클在爆裂拳完整技能名中非武器拳套；활在활용/생활/활성/활약为利用/驻扎/激活/表现，총在总司令部，루在鲁哈尔特，홀在神圣涟漪，均按完整词义不生硬替换。리더沿用领队；용기있는译勇敢/KAN的循环/打中/破甲为语境变体。炎热与烧伤不自动并名；屠杀者/屠夫艾尔加等跨场候选仍待查，全部unverified不升级。",
-    "阶段264按风状态教学及既有技能用词，将26处어지러움统一为晕眩；スタン/스턴保留眩晕。显式旧新hash取代，不增加primary，仍非人审或运行定稿。"
+    "阶段264按风状态教学及既有技能用词，将26处어지러움统一为晕眩；スタン/스턴保留眩晕。显式旧新hash取代，不增加primary，仍非人审或运行定稿。",
+    "阶段271完整233邮件及成人礼任务4字段合批237，成人礼来信一正文末句改为已经做好准备、正等归来；保留返回请求/三次功能换行/七对照及两个原值，显式目标hash取代，不增primary，非人工或运行定稿。"
   ],
   "target_supersessions": [
     {
@@ -2025,6 +2026,14 @@
       "before_target_sha256": "3584db83d04165737f387d9df3d78657df3f9423af1dc6eea5d8944f42f7cb0d",
       "after_target_sha256": "be18fed5550dc5b883ebe81891eb698f5cf12bc1620f5bbe5126642481a7c864",
       "phase": 264,
+      "review": "locales/zh-Hans/consistency-reviews/mail-qube.json"
+    },
+    {
+      "id": "coalesced:0edf10ea101dfeabcaab16a30d2a952bdb55178a6a8425dee36d8d9b9c23d5a2",
+      "source_sha256": "9e187232f19f2412d4674a1b3909ff1272ead4914369bb43ebf3da543dd9dca5",
+      "before_target_sha256": "2dd45a6ddb7547f914c657eb9f59a1b3d8b0dd368bf0c2cdb911e4312c97360e",
+      "after_target_sha256": "40ad9fab5296f3f9274afb7f8f8b1af29cbe60427a00434f37b2878cdb29c44d",
+      "phase": 271,
       "review": "locales/zh-Hans/consistency-reviews/mail-qube.json"
     }
   ]

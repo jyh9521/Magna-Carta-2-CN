@@ -126,7 +126,7 @@
     {
       "id": "coalesced:3b48305b2be8b23f317880d537cef1df922359e5f41e33dff7425af5017256c4",
       "source_sha256": "27c2f7c5f1aea15ad872ca350fa19f2b838f77d0d42a34c8b7c772d45559900c",
-      "translation_sha256": "14cf8ac8c490122426b6863d58500ecb723c6d0523cb94c1be484baf7ab9d6cb"
+      "translation_sha256": "bb3a0893e33f75643b897b3a561847820d20a6c424018b710519d2f99017558e"
     },
     {
       "id": "coalesced:35ac93e2d58965a8cca1e91253b85af138ded64ff8200c8bbcd7b3261dd35359",
@@ -3505,7 +3505,8 @@
     }
   ],
   "notes": [
-    "既有191/192/193审读680按当前源目标归并，非新阅读/翻译/语境。已核省略、过去反事实、商人口癖修订保持；Default原值纳入完整物理覆盖。"
+    "既有191/192/193审读680按当前源目标归并，非新阅读/翻译/语境。已核省略、过去反事实、商人口癖修订保持；Default原值纳入完整物理覆盖。",
+    "阶段276完整Ch04_Abazet242源译及双盘4条JPN来源后，丈夫复仇宾语省略句删去额外补出的杀害者名词短语，保留为我丈夫的仇及省略号；七对照保留明确杀害、家属安危未知及独立夫妻争吵。不导入日文明确报仇承诺，不猜说话者/凶手身份。显式目标hash取代，不增primary，非人工或运行定稿。"
   ],
   "historical_provenance": [
     {
@@ -3524,5 +3525,15 @@
       "fields": 217
     }
   ],
-  "historical_consolidation": true
+  "historical_consolidation": true,
+  "target_supersessions": [
+    {
+      "id": "coalesced:3b48305b2be8b23f317880d537cef1df922359e5f41e33dff7425af5017256c4",
+      "source_sha256": "27c2f7c5f1aea15ad872ca350fa19f2b838f77d0d42a34c8b7c772d45559900c",
+      "before_target_sha256": "14cf8ac8c490122426b6863d58500ecb723c6d0523cb94c1be484baf7ab9d6cb",
+      "after_target_sha256": "bb3a0893e33f75643b897b3a561847820d20a6c424018b710519d2f99017558e",
+      "phase": 276,
+      "review": "locales/zh-Hans/consistency-reviews/npc-legacy-scenes.json"
+    }
+  ]
 }

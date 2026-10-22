@@ -1,0 +1,111 @@
+{
+  "schema_version": 1,
+  "kind": "source-grounded-candidate-adjudication",
+  "phase": 276,
+  "resource": "MC2Game/Localization/Coalesced.int",
+  "input_sha256": "179e265cfc9e6d3e9f2586abe75b5da303b2af9b8484079851dab72f9f7edb8c",
+  "context_fields": 242,
+  "source_physical": 242,
+  "known_originals_retained": 0,
+  "new_primary_consistency_fields": 0,
+  "new_translations": 0,
+  "new_context_entries": 0,
+  "translation_edits": 1,
+  "decisions": [
+    {
+      "id": "coalesced:3b48305b2be8b23f317880d537cef1df922359e5f41e33dff7425af5017256c4",
+      "source": "전 라티 족을 도저히 용서할 수 없어요.\\n제 남편의 원수를...",
+      "source_sha256": "27c2f7c5f1aea15ad872ca350fa19f2b838f77d0d42a34c8b7c772d45559900c",
+      "before_translation": "我实在没法原谅拉提族。杀害我丈夫的仇人……",
+      "translation": "我实在没法原谅拉提族。我丈夫的仇……",
+      "translation_sha256": "bb3a0893e33f75643b897b3a561847820d20a6c424018b710519d2f99017558e",
+      "reason": "Korean제남편의원수를 leaves the revenge object and predicate unfinished,not a completed killer noun phrase. Retain husband revenge ellipsis as我丈夫的仇 without adding a verb or murderer identity. Parallel JPN夫の仇を討ちます supports revenge topic but its explicit vow must not overwrite INTellipsis. Seven controls preserve explicit killing,unconfirmed relatives and separate spouse quarrel.",
+      "status": "source-grounded-draft-correction"
+    }
+  ],
+  "retained_family_controls": [
+    {
+      "id": "coalesced:be60f8b56bf6b78134fbdcc81d4328d82df60cc9d89242dcbf46ba1cd2c2e46c",
+      "source": "하여간 이게 다 슈엔자이트 그 자가\\n여왕 폐하를 시해했기 때문이지.",
+      "translation": "说到底，全都是因为修恩扎伊特那家伙杀害了女王陛下。",
+      "translation_sha256": "58a0b102d821403938082cbc18e00832fae2f4adf4b2435b8336039daad2f782"
+    },
+    {
+      "id": "coalesced:66f23d7b6531e2a09cf6bd472f2e131c501de10540e530b2dd6b9d3713aaccd0",
+      "source": "라티 족에게 빼앗기지만 않았어도...\\n지금 이 채굴장은 그다지 생산량이\\n많지 않아 걱정이야.",
+      "translation": "要是没被拉提族夺走就好了……现在这个采掘场的产量不高，真让人担心。",
+      "translation_sha256": "0e3e7038b8bfe12545c6a9303043657d5de8228970d9ca43b552585625fc1448"
+    },
+    {
+      "id": "coalesced:f05fd4b5ce715bb185e9c1f3b142795c70266d1b0390fc46f7dfb980b5cbcf54",
+      "source": "높새바람 섬이 북부군에게 점령당했다는\\n소문을 들었는데...",
+      "translation": "我听说，风息岛被北部军占领了……",
+      "translation_sha256": "27703f91db3c4d95385d17b955e067573e1445bd4d7ccc9b0c4a3d082defde04"
+    },
+    {
+      "id": "coalesced:19f61be028fff9faf5770c7485cb315b3b3e30df4d1fc325364a43f5a09846cf",
+      "source": "그곳에 있는 내 아내와 딸은\\n어떻게 되었을까...",
+      "translation": "我在那里的妻子和女儿，不知道怎么样了……",
+      "translation_sha256": "3e8fb1d87b201a88d3380c9b7983c867f79edce8b151a60fc40adeae4615f5fb"
+    },
+    {
+      "id": "coalesced:f23acf79a26c176a1a44fb3c50c8fecccd8ea335f59d0d9a19631bfbfeb76718",
+      "source": "꼭 무사히 살아 돌아와야 해.\\n죽지마. 흑흑...",
+      "translation": "一定要平安回来。别死啊，呜呜……",
+      "translation_sha256": "43b8e34da0c9a083ec3b21db8e0c10f48d51e95d319f771353ba9df0c77b40b1"
+    },
+    {
+      "id": "coalesced:59475c6a5039d77c56918cc7ef5427ba27198e5da6728a5041b85d97751b6b67",
+      "source": "정말 못살겠어요.\\n남편이 왜 이렇게 무능한지...",
+      "translation": "这日子真没法过了。我丈夫怎么这么没用……",
+      "translation_sha256": "d4943c6b83119d2ec59fb8ff910d9ab2765b81d8f24dc52cab974689aaec5404"
+    },
+    {
+      "id": "coalesced:93d6d893b0b20a027ac642f45be42389dd89e537dcf8c0877127d173360583f3",
+      "source": "정말 죽겠군.\\n왜 이렇게 바가지를 긁어대는지 원.",
+      "translation": "真是受不了了。怎么就这么爱唠叨呢。",
+      "translation_sha256": "9f6d1f1a7e9c5997048caa0bbd789a8876781fb38a223f305dc07a6821cb1ec4"
+    }
+  ],
+  "parallel_locale_sources": [
+    {
+      "disc": 1,
+      "container": "build/disc1-selected/MC2Game/Localization/Coalesced.jpn",
+      "container_sha256": "fb99602a9ff5f081857efa7389d6d2b6ecfc6765946f0bba2fbde4cdbf962a90",
+      "section": "Ch04_Abazet",
+      "key": "04_201_00",
+      "source": "ここアバジェットは\\n商いがとても盛んなのよ！\\n商人組合には、もう行ってみた？",
+      "source_sha256": "4106a548e5997e102c651f91a0cee09e38a01bfd3aea98847901e584892760a0"
+    },
+    {
+      "disc": 1,
+      "container": "build/disc1-selected/MC2Game/Localization/Coalesced.jpn",
+      "container_sha256": "fb99602a9ff5f081857efa7389d6d2b6ecfc6765946f0bba2fbde4cdbf962a90",
+      "section": "Ch04_Abazet",
+      "key": "04_202_00",
+      "source": "うっうっ・・・私は・・・\\nラティ族を絶対に許せません。\\n夫の仇を討ちます。",
+      "source_sha256": "a86bd3b6771957be0f2afe875c99111b4d7107e44d2d500bbffd085225998036"
+    },
+    {
+      "disc": 2,
+      "container": "build/disc2-selected/MC2Game/Localization/Coalesced.jpn",
+      "container_sha256": "fb99602a9ff5f081857efa7389d6d2b6ecfc6765946f0bba2fbde4cdbf962a90",
+      "section": "Ch04_Abazet",
+      "key": "04_201_00",
+      "source": "ここアバジェットは\\n商いがとても盛んなのよ！\\n商人組合には、もう行ってみた？",
+      "source_sha256": "4106a548e5997e102c651f91a0cee09e38a01bfd3aea98847901e584892760a0"
+    },
+    {
+      "disc": 2,
+      "container": "build/disc2-selected/MC2Game/Localization/Coalesced.jpn",
+      "container_sha256": "fb99602a9ff5f081857efa7389d6d2b6ecfc6765946f0bba2fbde4cdbf962a90",
+      "section": "Ch04_Abazet",
+      "key": "04_202_00",
+      "source": "うっうっ・・・私は・・・\\nラティ族を絶対に許せません。\\n夫の仇を討ちます。",
+      "source_sha256": "a86bd3b6771957be0f2afe875c99111b4d7107e44d2d500bbffd085225998036"
+    }
+  ],
+  "human_finalized": false,
+  "runtime_layout_approved": false,
+  "game_rendering_verified": false
+}

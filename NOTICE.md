@@ -71,3 +71,5 @@ lookup, module-hash matching and executable-page mapping were read to validate
 the independent runtime bundle/launcher implementation. Exact source identities
 are in references/runtime-patch-research.lock.json; no upstream implementation or
 emulator binary is committed. The existing Xenia BSD license is retained.
+
+Xbox packed BC texture origin adaptation: Copyright 2022 Ben Vanik / Xenia, BSD-3-Clause, commit28b69c21becd785364bb7c13dfe5b4dd757a8bb3, texture_util.cc GetPackedMipOffset. Source identities in references/texture-layout-research.lock.json; full license in licenses/Xenia-BSD-3-Clause.txt. Existing attributed UEViewer tiled addressing/BC3 codec reused; UEViewer EPixelFormat/DXT1 research corroborates Format5. Only bounded inline single-mip BC1/BC3 production profile integrated; multi-mip/Format2 fixture research is not enabled for patching. No emulator or game asset integrated.

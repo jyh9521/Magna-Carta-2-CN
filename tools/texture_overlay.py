@@ -3,6 +3,7 @@
 Uses the existing attributed Xbox layout and BC3 decoder. RGB compression is
 deterministic and lossy; previews always decode the encoded output, not the draw.
 """
+from functools import lru_cache
 import hashlib
 import io
 import struct
@@ -163,7 +164,7 @@ def label_style(label):
     return result
 
 
-def text_position(width,height,box,align='center'):
+def text_position(width,height,box,align='center',padding=None):
     """Place actual ink inside four-pixel margins; legacy centering is unchanged."""
     if (type(width) is not int or type(height) is not int or min(width,height)<=0
             or max(width,height)>2048 or not isinstance(box,(list,tuple)) or len(box)!=4
@@ -172,15 +173,31 @@ def text_position(width,height,box,align='center'):
     if not isinstance(align,str) or align not in ('left','center','right'):
         raise FormatError('invalid text alignment')
     iw=box[2]-box[0];ih=box[3]-box[1]
-    if iw+8>width or ih+8>height:raise FormatError('text layer ink does not fit')
-    x={'left':4,'center':(width-iw)//2,'right':width-4-iw}[align]-box[0]
+    if padding is None:px=py=4
+    else:
+        if (not isinstance(padding,dict) or set(padding)!={'x','y'}
+                or any(type(v) is not int or not 0<=v<=16 for v in padding.values())):
+            raise FormatError('invalid explicit text ink padding')
+        px,py=padding['x'],padding['y']
+    if iw+2*px>width or ih+2*py>height:raise FormatError('text layer ink does not fit')
+    x={'left':px,'center':(width-iw)//2,'right':width-px-iw}[align]-box[0]
     return x,(height-ih)//2-box[1]
+
+
+@lru_cache(maxsize=1)
+def font_codepoints(font_bytes):
+    """Keep one immutable cmap, not repeated live TTFont/CFF graphs per label."""
+    from fontTools.ttLib import TTFont
+    if not isinstance(font_bytes,bytes) or not 0<len(font_bytes)<=64*1024*1024:
+        raise FormatError('text layer font bytes bound')
+    ft=TTFont(io.BytesIO(font_bytes))
+    try:return frozenset(ft.getBestCmap())
+    finally:ft.close()
 
 
 def render_label(font_bytes,label):
     """Render an owned text layer only; no original image is fed to the rasterizer."""
     from PIL import Image, ImageDraw, ImageFont, ImageFilter
-    from fontTools.ttLib import TTFont
     text=label['text'];rect=label['rect'];size=label['font_size'];style=label_style(label)
     if (not isinstance(text,str) or not text or len(text)>128 or any(ord(c)<32 for c in text)
             or type(size) is not int or not 1<=size<=128):
@@ -189,18 +206,76 @@ def render_label(font_bytes,label):
         raise FormatError('invalid text layer rectangle')
     _,_,w,h=rect
     if min(w,h)<=0 or max(w,h)>2048:raise FormatError('text layer bound')
-    ft=TTFont(io.BytesIO(font_bytes));cmap=ft.getBestCmap();missing=[ord(c) for c in text if ord(c) not in cmap];ft.close()
+    cmap=font_codepoints(font_bytes);missing=[ord(c) for c in text if ord(c) not in cmap]
     if missing:raise FormatError('text layer font has missing glyphs')
     font=ImageFont.truetype(io.BytesIO(font_bytes),size)
     image=Image.new('RGBA',(w,h));draw=ImageDraw.Draw(image)
     box=draw.textbbox((0,0),text,font=font,stroke_width=1)
-    pos=text_position(w,h,box,label.get('align','center'))
+    if 'ink_padding' in label and label['ink_padding'] is None:raise FormatError('invalid explicit text ink padding')
+    pos=text_position(w,h,box,label.get('align','center'),label.get('ink_padding'))
     shadow=Image.new('RGBA',(w,h));sd=ImageDraw.Draw(shadow)
     sd.text((pos[0]+1,pos[1]+2),text,font=font,fill=style['shadow_fill'],stroke_width=2,stroke_fill=style['shadow_fill'])
     image=Image.alpha_composite(image,shadow.filter(ImageFilter.GaussianBlur(1)))
     ImageDraw.Draw(image).text(pos,text,font=font,fill=style['fill'],stroke_width=1,stroke_fill=style['stroke_fill'])
     if image.getbbox() is None:raise FormatError('empty text layer')
     return image.tobytes()
+
+
+def edit_pixels(payload,names,offset,edit,decoder):
+    """One explicit image profile, shared by candidate and preview paths."""
+    if 'profile' in edit:
+        from .texture_layout import read_texture,decode_texture
+        texture=read_texture(payload,names,offset,edit['profile'],decoder)
+        return texture['width'],texture['height'],decode_texture(texture)
+    if 'channel_mode' in edit:raise FormatError('texture channel mode requires explicit profile')
+    texture=parse_atlas_payload(payload,names,offset)
+    w,h=texture['width'],texture['height']
+    return w,h,decode_dxt5(untile_dxt5(atlas_tiles(payload,texture,decoder),w,h),w,h)
+
+
+def overlay_profile_regions(texture,edit,layers,encoding_cache=None):
+    from .texture_layout import rect_units,overlay_rect,decode_texture
+    ids=layer_ids(edit);protected=edit.get('protected_regions',[])
+    if not isinstance(protected,list) or len(protected)>16:raise FormatError('protected region bound')
+    fmt=texture['format'];mode=edit.get('channel_mode','rgba')
+    if (fmt==7 and mode!='rgba') or (fmt==5 and mode!='opaque-luma'):
+        raise FormatError('explicit supported texture channel mode required')
+    before=decode_texture(texture)
+    if fmt==5 and any(a!=255 for a in before[3::4]):raise FormatError('opaque BC1 source has transparent pixels')
+    layout=texture['layout'];w=texture['width'];resolved=[];allowed=set()
+    for name in ids:
+        if name not in layers:raise FormatError('texture region label missing')
+        label,rgba=layers[name];units=set(rect_units(layout,label['rect']))
+        if units & allowed:raise FormatError('texture regions overlap')
+        allowed|=units
+        if mode=='opaque-luma':rgba=b''.join(bytes([a,a,a,255]) for a in rgba[3::4])
+        resolved.append((label,rgba))
+    protected_units=set();seen=set()
+    for row in protected:
+        if (not isinstance(row,dict) or set(row)!={'id','rect','rgba_sha256'}
+                or not isinstance(row['id'],str) or not row['id'] or len(row['id'])>128 or row['id'] in seen):
+            raise FormatError('invalid protected region')
+        seen.add(row['id']);units=set(rect_units(layout,row['rect']))
+        if units & (allowed|protected_units):raise FormatError('protected region overlaps edit or another protection')
+        protected_units|=units
+    tiles=texture['tiles'];patched=tiles;proofs=[]
+    for label,rgba in resolved:
+        patched,proof=overlay_rect(patched,layout,label['rect'],rgba,encoding_cache);proofs.append(proof)
+    bs=layout['unit_bytes'];changed={i for i in range(0,len(tiles),bs) if tiles[i:i+bs]!=patched[i:i+bs]}
+    if not changed<=allowed:raise FormatError('composite edit escaped authorized region union')
+    result=dict(regions=proofs,changed_blocks=len(changed),authorized_blocks=len(allowed),
+                untouched_blocks_preserved=True,alignment_padding_preserved=True,
+                profile=edit['profile'],storage_origin_blocks=layout['origin_blocks'],channel_mode=mode)
+    if protected:
+        after=decode_texture(texture,patched);checks=[]
+        for row in protected:
+            units=rect_units(layout,row['rect']);a=rgba_crop(before,w,row['rect']);b=rgba_crop(after,w,row['rect'])
+            if (digest(a)!=row['rgba_sha256'] or a!=b
+                    or any(tiles[i:i+bs]!=patched[i:i+bs] for i in units)):
+                raise FormatError('protected region block/pixel hash mismatch')
+            checks.append(dict(id=row['id'],rect=row['rect'],before_rgba_sha256=digest(a),after_rgba_sha256=digest(b),blocks_preserved=True))
+        result['protected_regions']=checks
+    return patched,result
 
 
 def patch_package(data,expected_hash,edits,layers,decoder,encoding_cache=None):
@@ -215,22 +290,35 @@ def patch_package(data,expected_hash,edits,layers,decoder,encoding_cache=None):
         if ex['table_offset'] in selected:raise FormatError('duplicate texture object')
         selected.add(ex['table_offset']);off=ex['serial_offset'];old=logical[off:off+ex['serial_size']]
         if digest(old)!=edit['payload_sha256']:raise FormatError('texture export payload mismatch')
-        texture=parse_atlas_payload(old,tables['names'],off);tiles=atlas_tiles(old,texture,decoder)
-        if digest(tiles)!=edit['tiled_sha256']:raise FormatError('texture original tiles mismatch')
-        if [texture['width'],texture['height']]!=edit['dimensions']:raise FormatError('texture dimensions mismatch')
-        patched,proof=overlay_regions(tiles,texture['width'],texture['height'],edit,layers,encoding_cache)
-        if patched==tiles:raise FormatError('texture edit is a no-op')
-        bulk=texture['mips'][0]['bulk'];stored=wrap_ue3_chunk(patched) if bulk['flags']==0x40 else patched
-        payload=bytearray(old[:bulk['payload_offset']]+stored+old[bulk['payload_offset']+bulk['size_on_disk']:])
-        target=(len(new)+3)&~3
-        struct.pack_into('>I',payload,bulk['size_on_disk_field_offset'],len(stored))
-        for header in [texture['source_art'],bulk]:
-            struct.pack_into('>I',payload,header['data_offset_field_offset'],target+header['payload_offset'])
-        check=parse_atlas_payload(bytes(payload),tables['names'],target)
-        if atlas_tiles(bytes(payload),check,decoder)!=patched:raise FormatError('texture bulk roundtrip failed')
+        if 'profile' in edit:
+            from .texture_layout import read_texture,rebuild_payload,decode_texture
+            texture=read_texture(old,tables['names'],off,edit['profile'],decoder);tiles=texture['tiles']
+            if digest(tiles)!=edit['tiled_sha256']:raise FormatError('texture original tiles mismatch')
+            if [texture['width'],texture['height']]!=edit['dimensions']:raise FormatError('texture dimensions mismatch')
+            patched,proof=overlay_profile_regions(texture,edit,layers,encoding_cache)
+            if patched==tiles:raise FormatError('texture edit is a no-op')
+            target=(len(new)+3)&~3;payload=rebuild_payload(old,texture,patched,target)
+            check=read_texture(payload,tables['names'],target,edit['profile'],decoder)
+            if check['tiles']!=patched:raise FormatError('texture bulk roundtrip failed')
+            pixels=decode_texture(check)
+        else:
+            if 'channel_mode' in edit:raise FormatError('texture channel mode requires explicit profile')
+            texture=parse_atlas_payload(old,tables['names'],off);tiles=atlas_tiles(old,texture,decoder)
+            if digest(tiles)!=edit['tiled_sha256']:raise FormatError('texture original tiles mismatch')
+            if [texture['width'],texture['height']]!=edit['dimensions']:raise FormatError('texture dimensions mismatch')
+            patched,proof=overlay_regions(tiles,texture['width'],texture['height'],edit,layers,encoding_cache)
+            if patched==tiles:raise FormatError('texture edit is a no-op')
+            bulk=texture['mips'][0]['bulk'];stored=wrap_ue3_chunk(patched) if bulk['flags']==0x40 else patched
+            payload=bytearray(old[:bulk['payload_offset']]+stored+old[bulk['payload_offset']+bulk['size_on_disk']:])
+            target=(len(new)+3)&~3
+            struct.pack_into('>I',payload,bulk['size_on_disk_field_offset'],len(stored))
+            for header in [texture['source_art'],bulk]:
+                struct.pack_into('>I',payload,header['data_offset_field_offset'],target+header['payload_offset'])
+            check=parse_atlas_payload(bytes(payload),tables['names'],target)
+            if atlas_tiles(bytes(payload),check,decoder)!=patched:raise FormatError('texture bulk roundtrip failed')
+            pixels=decode_dxt5(untile_dxt5(patched,texture['width'],texture['height']),texture['width'],texture['height'])
         new.extend(bytes(target-len(new))+payload)
         struct.pack_into('>II',new,ex['table_offset']+32,len(payload),target)
-        pixels=decode_dxt5(untile_dxt5(patched,texture['width'],texture['height']),texture['width'],texture['height'])
         records.append(dict(object=ex['path'],old_serial_offset=off,new_serial_offset=target,
                             before_tiled_sha256=digest(tiles),after_tiled_sha256=digest(patched),
                             decoded_rgba_sha256=digest(pixels),**proof))

@@ -1,3 +1,8 @@
+## 第295阶段实际采用与验收边界
+
+当前507组已离线回填；109灰度BC1与108颜色图成对修改、START区域保护。shader消费者/游戏UV及动态布局仍未实测。多mip/Format2、credits与其余资产仍继续，不把111项格式研究视为全量图片汉化完成；不启动游戏。详见PHASE_295_BATTLE_TUTORIAL_ADOPTION.md。
+
+
 ## 第294阶段
 
 UI_Name全部184图已离线实际采用，累计461图/2004别名。UI_Battle、两张教程文字、packed-mip/BC1/Format02读写、未知UI/성쇄及游戏验收仍待推进。 见[实际回填](PHASE_294_COMPLETE_UI_NAME_ADOPTION.md)。

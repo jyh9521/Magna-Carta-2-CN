@@ -1536,3 +1536,9 @@ The full modified suite exposed four legacy assertions pinning the active first 
 ### 第261阶段验证辅助脚本编码修复
 
 首次完整资源核验在日文忘れ保留对照处失败：辅助脚本一次省略encoding的read_text在Windows默认代码页解码后将日文断言字面量变成乱码。修改源码1750和独立旧Git源码1749测试均已通过，双盘重放和同目录增量刷新已完成；失败没有修改译文或放宽断言。保留verify-phase.failed-encoding.py及verify_phase.failed-encoding.log，重新从260原脚本按UTF-8生成261验证脚本，仍断言同一忘れ来源与原目标hash；改用新的source-rollback-utf8和reproduced-workspace-full-resource-utf8隔离输出完整复验，不重复刷新/重建或删除旧证据。后续所有文本read_text/write_text须显式encoding=UTF-8。
+
+## 字图同排与同key不是相同源句
+
+UI_Battle160特效末行为氷の媒質破壊，而156普通末行为足蹴り；同排复制会译错，已独立纠正源hash/译文。任せて!同key曾匹配到无关长篇；Tutorial同RGBA不同namespace/GUID不能合并。小字默认8px总余量会过度缩字，显式小padding仍需实际编码/重开、保护块验证和源图审看。见PHASE_295_BATTLE_TUTORIAL_ADOPTION.md。
+
+完整字体cmap逐层重新加载会反复建立TTFont/CFF对象图；三个冷重放并发及随后未缓存的单独重试曾触发Windows MemoryError，均在输出发布前失败。失败日志保留，先串行复测，缓存修复后按实测内存余量最多并行两条冷重放，并将glyph检查的不可变码点集按完整字体bytes有界缓存1份；字体变化必重验，仍不缓存绘制结果。三项缓存测试、847层真实渲染（1次cmap解析/846次命中，139新增层hash保持）及旧461组实际重放检查语义/字节保持。

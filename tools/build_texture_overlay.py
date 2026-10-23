@@ -9,7 +9,7 @@ from .build_font_supplement import context,restore_copy
 from .ue3_package import LzxDecoder
 from .supplement_font import parse_atlas_payload,atlas_tiles
 from .ue3_textures import decode_dxt5,untile_dxt5,png_rgba
-from .texture_overlay import digest,render_label,patch_package,image_id,MAX_TEXTURE_SOURCES,MAX_TEXT_LAYERS
+from .texture_overlay import digest,render_label,patch_package,image_id,edit_pixels,MAX_TEXTURE_SOURCES,MAX_TEXT_LAYERS
 from .verify_locale_candidate import scan_tree
 
 KIND='offline-texture-overlay-bundle'
@@ -72,9 +72,8 @@ def prepare(plan,root,decoder,disc=None):
                 matches=[e for e in ctx['tables']['exports'] if e['path'].casefold()==edit['object'].casefold()]
                 if len(matches)!=1:raise ValueError('texture preview object mismatch')
                 e=matches[0];payload=ctx['logical'][e['serial_offset']:e['serial_offset']+e['serial_size']]
-                t=parse_atlas_payload(payload,ctx['tables']['names'],e['serial_offset'])
-                rgba=decode_dxt5(untile_dxt5(atlas_tiles(payload,t,decoder),t['width'],t['height']),t['width'],t['height'])
-                files[f'previews/{phase}-{len(rows):02d}-{index:02d}.png']=png_rgba(rgba,t['width'],t['height'])
+                width,height,rgba=edit_pixels(payload,ctx['tables']['names'],e['serial_offset'],edit,decoder)
+                files[f'previews/{phase}-{len(rows):02d}-{index:02d}.png']=png_rgba(rgba,width,height)
                 key=(phase,image_id(edit));h=digest(rgba)
                 if key in alias_pixels and alias_pixels[key]!=h:raise ValueError('selected alias decoded pixels differ')
                 alias_pixels[key]=h

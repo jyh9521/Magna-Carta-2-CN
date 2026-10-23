@@ -1,3 +1,8 @@
+## 第295阶段：战斗与教程图片
+
+累计507图片组/847层/2096双盘别名；新增46组139层含1个BC1派生mask，三个Tutorial命名空间独立保留。采用显式packed单mip BC3/opaque-luma BC1与有界ink_padding，修正160特效图末行和窄句排版；保留START、MAX惯例与既有Font底包链。纹理176/233、对照201/260资源；INT14159、七Font、315字幕未增加。复现、隔离回滚、来源和未验收边界见[阶段295](docs/PHASE_295_BATTLE_TUTORIAL_ADOPTION.md)。
+
+
 ## 第294阶段：UI_Name菜单与技能完整采用
 
 新增56图/274层/204别名，UI_Name全部184原图已进入实际纹理计划；累计461图/708层/2004别名，双盘纹理173/230与对照198/257资源。32px行距、灰色普通状态、邮件短标签和新增Startup_int字体底包链均核对；INT仍14159/batch121。见[本轮实际回填](docs/PHASE_294_COMPLETE_UI_NAME_ADOPTION.md)。

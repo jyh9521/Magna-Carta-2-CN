@@ -1577,3 +1577,7 @@ Launcher optional bundle/hash arguments are paired and explicit. Files are copie
 into a new run's storage/patches, checked before launch, and never installed globally.
 Module hash matching follows the pinned Xenia version; expected-byte validation
 occurs at build time and source-XEX SHA is checked before each launch. See WRAP_WIDTH_FIX.md.
+
+## 显式单mip packed BC profile
+
+Verified: xbox-inline-bc-v1只接受格式5/7、空inline SourceArt和单mip，绝对指针、分配和全部块范围均校验。最短边≤16首层原点为沿短轴16px；opaque-luma保持BC1 alpha255。多mip/Format2研究不等于生产支持。具体字段/来源见PHASE_295_BATTLE_TUTORIAL_ADOPTION.md。

@@ -1,3 +1,7 @@
+## 第294阶段
+
+研究font-fit的6px纵余量不等于实际8px守卫；保持实际界限收字号。卡蒙德分类是32px行距，28px会漏原字；alpha0删字不计文字。窄TO./FROM.用致/来自，不缩到6px。 见[实际回填](PHASE_294_COMPLETE_UI_NAME_ADOPTION.md)。
+
 ## 第293阶段
 
 同leaf可有不同namespace/图像，Boss_Ch11_Melissa实际普尔森；同RGBA原图却异读/异译必须拒绝，不能靠记录原串自证分组。花饰/翼饰和原左锚点须保留，171居中提示单独处理。 见[实际回填](PHASE_293_MONSTER_PARTY_ADOPTION.md)。

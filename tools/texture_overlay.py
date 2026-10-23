@@ -18,6 +18,7 @@ from .lzx_stored import wrap_ue3_chunk
 MAX_TEXTURE_SOURCES=512
 MAX_TEXT_LAYERS=1024
 MAX_TEXTURE_EDITS=512
+MAX_TEXTURE_REGIONS=32
 
 def digest(data):
     return hashlib.sha256(data).hexdigest()
@@ -80,7 +81,7 @@ def layer_ids(edit):
     """One legacy label or explicit ordered, disjoint labels for one image."""
     if ('label' in edit)==('regions' in edit):raise FormatError('exactly one label or region list required')
     ids=[edit['label']] if 'label' in edit else edit['regions']
-    if (not isinstance(ids,list) or not 1<=len(ids)<=16
+    if (not isinstance(ids,list) or not 1<=len(ids)<=MAX_TEXTURE_REGIONS
             or any(not isinstance(v,str) or not v or len(v)>128 for v in ids)
             or len(set(ids))!=len(ids)):raise FormatError('invalid texture region labels')
     if 'regions' in edit and (not isinstance(edit.get('image_id'),str) or not edit['image_id'] or len(edit['image_id'])>128):

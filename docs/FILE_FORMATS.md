@@ -1,3 +1,7 @@
+## 第294阶段
+
+单图可编辑区域16有界扩至32以容纳真实17层店铺图，33仍拒绝，保护区仍16；其他上限与默认旧图字节不变。Startup_int纹理叠加Font base，组件资源数不可直接加总。 见[实际回填](PHASE_294_COMPLETE_UI_NAME_ADOPTION.md)。
+
 ## 第293阶段
 
 通用有界上限512源/1024层/每包512导出/512包成员，其他像素/保护/身份约束保持。label.align可为left/center/right，缺省仍旧居中公式；原图25px行距与4px授权块分开证明。 见[实际回填](PHASE_293_MONSTER_PARTY_ADOPTION.md)。

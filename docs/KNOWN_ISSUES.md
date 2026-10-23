@@ -1,3 +1,7 @@
+## 第294阶段
+
+UI_Name全部184图已离线实际采用，累计461图/2004别名。UI_Battle、两张教程文字、packed-mip/BC1/Format02读写、未知UI/성쇄及游戏验收仍待推进。 见[实际回填](PHASE_294_COMPLETE_UI_NAME_ADOPTION.md)。
+
 ## 第293阶段
 
 名称族新增327图已实际离线采用，累计405图/1800别名。其他UI_Name多cell菜单/技能、教程、原扫描111项覆盖缺口及游戏验收尚未结束，未知UI/성쇄仍待新证据。 见[实际回填](PHASE_293_MONSTER_PARTY_ADOPTION.md)。

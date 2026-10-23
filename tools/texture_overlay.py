@@ -195,6 +195,32 @@ def font_codepoints(font_bytes):
     finally:ft.close()
 
 
+def render_geometry(label):
+    """An explicit crop may span linked images without resizing their texels."""
+    rect=label['rect']
+    if not isinstance(rect,list) or len(rect)!=4 or any(type(v) is not int for v in rect):
+        raise FormatError('invalid text layer rectangle')
+    _,_,w,h=rect
+    if min(w,h)<=0 or max(w,h)>2048:raise FormatError('text layer bound')
+    if 'render_window' not in label:return w,h,None
+    view=label['render_window']
+    if not isinstance(view,dict) or set(view)!={'canvas','crop'}:raise FormatError('invalid explicit render window')
+    canvas,crop=view['canvas'],view['crop']
+    if (not isinstance(canvas,list) or len(canvas)!=2 or any(type(v) is not int for v in canvas)
+            or min(canvas)<=0 or max(canvas)>2048 or not isinstance(crop,list) or len(crop)!=4
+            or any(type(v) is not int for v in crop)):
+        raise FormatError('invalid explicit render window')
+    x,y,cw,ch=crop
+    if min(x,y)<0 or [cw,ch]!=[w,h] or x+cw>canvas[0] or y+ch>canvas[1]:
+        raise FormatError('render window outside canvas or rectangle mismatch')
+    return canvas[0],canvas[1],crop
+
+
+def render_area(label):
+    w,h,_=render_geometry(label)
+    return w*h
+
+
 def render_label(font_bytes,label):
     """Render an owned text layer only; no original image is fed to the rasterizer."""
     from PIL import Image, ImageDraw, ImageFont, ImageFilter
@@ -202,10 +228,7 @@ def render_label(font_bytes,label):
     if (not isinstance(text,str) or not text or len(text)>128 or any(ord(c)<32 for c in text)
             or type(size) is not int or not 1<=size<=128):
         raise FormatError('invalid text layer or font size')
-    if not isinstance(rect,list) or len(rect)!=4 or any(type(v) is not int for v in rect):
-        raise FormatError('invalid text layer rectangle')
-    _,_,w,h=rect
-    if min(w,h)<=0 or max(w,h)>2048:raise FormatError('text layer bound')
+    w,h,crop=render_geometry(label)
     cmap=font_codepoints(font_bytes);missing=[ord(c) for c in text if ord(c) not in cmap]
     if missing:raise FormatError('text layer font has missing glyphs')
     font=ImageFont.truetype(io.BytesIO(font_bytes),size)
@@ -218,6 +241,8 @@ def render_label(font_bytes,label):
     image=Image.alpha_composite(image,shadow.filter(ImageFilter.GaussianBlur(1)))
     ImageDraw.Draw(image).text(pos,text,font=font,fill=style['fill'],stroke_width=1,stroke_fill=style['stroke_fill'])
     if image.getbbox() is None:raise FormatError('empty text layer')
+    if crop is not None:
+        x,y,cw,ch=crop;image=image.crop((x,y,x+cw,y+ch))
     return image.tobytes()
 
 
@@ -238,17 +263,19 @@ def overlay_profile_regions(texture,edit,layers,encoding_cache=None):
     ids=layer_ids(edit);protected=edit.get('protected_regions',[])
     if not isinstance(protected,list) or len(protected)>16:raise FormatError('protected region bound')
     fmt=texture['format'];mode=edit.get('channel_mode','rgba')
-    if (fmt==7 and mode!='rgba') or (fmt==5 and mode!='opaque-luma'):
+    if (fmt==7 and mode!='rgba') or (fmt==5 and mode not in ('opaque-luma','opaque-rgb')):
         raise FormatError('explicit supported texture channel mode required')
     before=decode_texture(texture)
-    if fmt==5 and any(a!=255 for a in before[3::4]):raise FormatError('opaque BC1 source has transparent pixels')
+    if fmt==5 and mode=='opaque-luma' and any(a!=255 for a in before[3::4]):raise FormatError('opaque BC1 source has transparent pixels')
     layout=texture['layout'];w=texture['width'];resolved=[];allowed=set()
     for name in ids:
         if name not in layers:raise FormatError('texture region label missing')
         label,rgba=layers[name];units=set(rect_units(layout,label['rect']))
+        if not isinstance(rgba,bytes) or len(rgba)!=label['rect'][2]*label['rect'][3]*4:raise FormatError('Xbox BC RGBA region length mismatch')
         if units & allowed:raise FormatError('texture regions overlap')
         allowed|=units
         if mode=='opaque-luma':rgba=b''.join(bytes([a,a,a,255]) for a in rgba[3::4])
+        elif mode=='opaque-rgb':rgba=b''.join(bytes([(r*a+127)//255,(g*a+127)//255,(b*a+127)//255,255]) for r,g,b,a in zip(rgba[::4],rgba[1::4],rgba[2::4],rgba[3::4]))
         resolved.append((label,rgba))
     protected_units=set();seen=set()
     for row in protected:
@@ -266,6 +293,7 @@ def overlay_profile_regions(texture,edit,layers,encoding_cache=None):
     result=dict(regions=proofs,changed_blocks=len(changed),authorized_blocks=len(allowed),
                 untouched_blocks_preserved=True,alignment_padding_preserved=True,
                 profile=edit['profile'],storage_origin_blocks=layout['origin_blocks'],channel_mode=mode)
+    if mode=='opaque-rgb':result.update(rgb_matte=[0,0,0],source_transparent_pixels=sum(a==0 for a in before[3::4]),opaque_alpha_inside_authorized_regions=True)
     if protected:
         after=decode_texture(texture,patched);checks=[]
         for row in protected:

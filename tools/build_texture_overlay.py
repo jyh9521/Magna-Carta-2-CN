@@ -9,7 +9,7 @@ from .build_font_supplement import context,restore_copy
 from .ue3_package import LzxDecoder
 from .supplement_font import parse_atlas_payload,atlas_tiles
 from .ue3_textures import decode_dxt5,untile_dxt5,png_rgba
-from .texture_overlay import digest,render_label,patch_package,image_id,edit_pixels,MAX_TEXTURE_SOURCES,MAX_TEXT_LAYERS
+from .texture_overlay import digest,render_label,patch_package,image_id,edit_pixels,render_area,MAX_TEXTURE_SOURCES,MAX_TEXT_LAYERS
 from .verify_locale_candidate import scan_tree
 
 KIND='offline-texture-overlay-bundle'
@@ -52,7 +52,7 @@ def prepare(plan,root,decoder,disc=None):
     sources=select_sources(sources,disc)
     font=locked_bytes(plan['font']);layers={}
     if len(font)>64*1024*1024:raise ValueError('font size bound')
-    if sum(l['rect'][2]*l['rect'][3] for l in labels)>16*1024*1024:raise ValueError('text layer total bound')
+    if sum(render_area(l) for l in labels)>16*1024*1024:raise ValueError('text layer total bound')
     for label in labels:
         if not isinstance(label['id'],str) or not label['id'] or label['id'] in layers:raise ValueError('duplicate/invalid text layer id')
         layers[label['id']]=(label,render_label(font,label))

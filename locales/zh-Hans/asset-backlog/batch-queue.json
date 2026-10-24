@@ -2,7 +2,7 @@
   "schema_version": 1,
   "inventory": {
     "path": "locales/zh-Hans/asset-backlog/ui-tutorial-audit.json",
-    "sha256": "7ad3e26086c2bdcb75d31a0c611ec561daf6ddc6ec0a4846d995e56de03329a5"
+    "sha256": "0d574ff6463dbde05ef132be3e9e240b58b91578332c87d744cef5dcfb0f864e"
   },
   "batch_policy": "Process all27 ready-review UI objects together;do not publish one tiny caption per stage. Translation evidence and complete glyph/shadow coverage still required;Boss original.",
   "batches": [
@@ -154,7 +154,8 @@
         420,
         421
       ],
-      "execution": "embedded_screenshot_cohorts"
+      "execution": "16native_objects51captions_adopted_pending_validation;10no_language_retained;74native_reviews_remaining;3cropped_fragments_held",
+      "adoption_phase": 307
     },
     {
       "id": "held_terms",

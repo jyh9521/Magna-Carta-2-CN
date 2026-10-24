@@ -8,7 +8,7 @@ class MenuMinigameBatchTests(unittest.TestCase):
  def test_whole27_objects_are_one_coherent_adopted_batch(self):
   d=self.d;self.assertEqual((d['reviewed_standalone_objects'],d['new_image_groups'],d['new_text_layers'],d['new_aliases']),(27,26,75,83));self.assertEqual(len(set(d['selected_object_ids'])),27);self.assertFalse(d['game_rendering_verified']);self.assertFalse(d['all_game_image_text_translated']);self.assertEqual(hashlib.sha256((R/d['plan']['path']).read_bytes()).hexdigest(),d['plan']['sha256'])
  def test_prior1137_layers_are_exact_and_new75_unique(self):
-  raw=json.dumps(self.plan['labels'][:1137],ensure_ascii=False,sort_keys=True,separators=(',',':')).encode();self.assertEqual(hashlib.sha256(raw).hexdigest(),'90d9fee33c6ed3ce4c8793c1607ebf447351169dfeac7b9e083e75914b589330');self.assertEqual(len(self.plan['labels']),1212);labels=[l for g in self.d['groups']for l in g['labels']];self.assertEqual(len(labels),75);self.assertEqual(len({l['id']for l in labels}),75);self.assertEqual(self.plan['labels'][1137:],labels)
+  raw=json.dumps(self.plan['labels'][:1137],ensure_ascii=False,sort_keys=True,separators=(',',':')).encode();self.assertEqual(hashlib.sha256(raw).hexdigest(),'90d9fee33c6ed3ce4c8793c1607ebf447351169dfeac7b9e083e75914b589330');self.assertGreaterEqual(len(self.plan['labels']),1212);labels=[l for g in self.d['groups']for l in g['labels']];self.assertEqual(len(labels),75);self.assertEqual(len({l['id']for l in labels}),75);self.assertEqual(self.plan['labels'][1137:1212],labels)
  def test_sparse_repair_material_is_hash_locked_and_confined(self):
   for g in self.d['groups']:
    self.assertTrue(g['manually_reviewed_native_output'])

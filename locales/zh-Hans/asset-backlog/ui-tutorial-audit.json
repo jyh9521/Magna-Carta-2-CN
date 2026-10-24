@@ -7,12 +7,12 @@
   "scope": "242 UI_/Tutorial_ packages per disc;1860 resource-object-payload slots after dual-disc collapse;not628 localization image-groups",
   "summary": {
     "status_counts": {
-      "retain_reviewed": 195,
+      "retain_reviewed": 205,
       "adopted_pending_or_published_validation": 721,
-      "pending_embedded_language_audit": 100,
+      "pending_embedded_language_audit": 74,
       "retain_nonlanguage_or_conventional": 776,
+      "adopted_pending_validation": 43,
       "retain_existing_cjk_elements": 2,
-      "adopted_pending_validation": 27,
       "retain_original_Boss": 1,
       "retain_verified_effect": 8,
       "held_semantics": 3,
@@ -22,16 +22,16 @@
     "physical_disc_instances": 3720,
     "no_whole_project_completion_claim": true,
     "batch_counts": {
-      "retained": 982,
-      "already_adopted": 748,
-      "tutorial_screenshots": 100,
+      "retained": 992,
+      "already_adopted": 764,
+      "tutorial_screenshots": 74,
       "held_terms": 3,
       "internal_test_dialogue": 27
     },
     "ui_tutorial_classification_complete": true,
     "global_all_packages_visual_audit_complete": false
   },
-  "plan_sha256": "4b30ab65fb986a9c2671bdda4a0e873afd283dc11eb740e55d7d0e76dbaea646",
+  "plan_sha256": "cf878916bc26af1abe36bad620f8623ceef16c85eca4b17b8f28ecb70282f217",
   "reviewed_unique_previews": 648,
   "contact_sheet_count": 14,
   "source_payloads_or_full_images_included": false,
@@ -1880,11 +1880,12 @@
         }
       ],
       "id": 59,
-      "status": "pending_embedded_language_audit",
+      "status": "adopted_pending_validation",
       "family": "Tutorial_06",
-      "batch": "tutorial_screenshots",
+      "batch": "already_adopted",
       "review_id": 16,
-      "review_method": "visually reviewed locked native-preview contact sheet;classification only,not alias proof"
+      "review_method": "visually reviewed locked native-preview contact sheet;classification only,not alias proof",
+      "adoption_phase": 307
     },
     {
       "resource": "MC2Game/CookedXenon/Tutorial_06.xxx",
@@ -1911,11 +1912,12 @@
         }
       ],
       "id": 60,
-      "status": "pending_embedded_language_audit",
+      "status": "adopted_pending_validation",
       "family": "Tutorial_06",
-      "batch": "tutorial_screenshots",
+      "batch": "already_adopted",
       "review_id": 17,
-      "review_method": "visually reviewed locked native-preview contact sheet;classification only,not alias proof"
+      "review_method": "visually reviewed locked native-preview contact sheet;classification only,not alias proof",
+      "adoption_phase": 307
     },
     {
       "resource": "MC2Game/CookedXenon/Tutorial_07.xxx",
@@ -2126,11 +2128,13 @@
         }
       ],
       "id": 67,
-      "status": "pending_embedded_language_audit",
+      "status": "retain_reviewed",
       "family": "Tutorial_07",
-      "batch": "tutorial_screenshots",
+      "batch": "retained",
       "review_id": 18,
-      "review_method": "visually reviewed locked native-preview contact sheet;classification only,not alias proof"
+      "review_method": "visually reviewed locked native-preview contact sheet;classification only,not alias proof",
+      "native_language_review_phase": 307,
+      "review_note": "full native preview confirms no readable language;unchanged;no canonical alias adoption"
     },
     {
       "resource": "MC2Game/CookedXenon/Tutorial_07.xxx",
@@ -2157,11 +2161,12 @@
         }
       ],
       "id": 68,
-      "status": "pending_embedded_language_audit",
+      "status": "adopted_pending_validation",
       "family": "Tutorial_07",
-      "batch": "tutorial_screenshots",
+      "batch": "already_adopted",
       "review_id": 19,
-      "review_method": "visually reviewed locked native-preview contact sheet;classification only,not alias proof"
+      "review_method": "visually reviewed locked native-preview contact sheet;classification only,not alias proof",
+      "adoption_phase": 307
     },
     {
       "resource": "MC2Game/CookedXenon/Tutorial_08.xxx",
@@ -2372,11 +2377,12 @@
         }
       ],
       "id": 75,
-      "status": "pending_embedded_language_audit",
+      "status": "adopted_pending_validation",
       "family": "Tutorial_08",
-      "batch": "tutorial_screenshots",
+      "batch": "already_adopted",
       "review_id": 20,
-      "review_method": "visually reviewed locked native-preview contact sheet;classification only,not alias proof"
+      "review_method": "visually reviewed locked native-preview contact sheet;classification only,not alias proof",
+      "adoption_phase": 307
     },
     {
       "resource": "MC2Game/CookedXenon/Tutorial_09.xxx",
@@ -3662,11 +3668,12 @@
         }
       ],
       "id": 117,
-      "status": "pending_embedded_language_audit",
+      "status": "adopted_pending_validation",
       "family": "Tutorial_13",
-      "batch": "tutorial_screenshots",
+      "batch": "already_adopted",
       "review_id": 32,
-      "review_method": "visually reviewed locked native-preview contact sheet;classification only,not alias proof"
+      "review_method": "visually reviewed locked native-preview contact sheet;classification only,not alias proof",
+      "adoption_phase": 307
     },
     {
       "resource": "MC2Game/CookedXenon/Tutorial_13.xxx",
@@ -3693,11 +3700,12 @@
         }
       ],
       "id": 118,
-      "status": "pending_embedded_language_audit",
+      "status": "adopted_pending_validation",
       "family": "Tutorial_13",
-      "batch": "tutorial_screenshots",
+      "batch": "already_adopted",
       "review_id": 33,
-      "review_method": "visually reviewed locked native-preview contact sheet;classification only,not alias proof"
+      "review_method": "visually reviewed locked native-preview contact sheet;classification only,not alias proof",
+      "adoption_phase": 307
     },
     {
       "resource": "MC2Game/CookedXenon/Tutorial_13.xxx",
@@ -8640,11 +8648,12 @@
         }
       ],
       "id": 279,
-      "status": "pending_embedded_language_audit",
+      "status": "adopted_pending_validation",
       "family": "Tutorial_20_4",
-      "batch": "tutorial_screenshots",
+      "batch": "already_adopted",
       "review_id": 72,
-      "review_method": "visually reviewed locked native-preview contact sheet;classification only,not alias proof"
+      "review_method": "visually reviewed locked native-preview contact sheet;classification only,not alias proof",
+      "adoption_phase": 307
     },
     {
       "resource": "MC2Game/CookedXenon/Tutorial_20_4.xxx",
@@ -9192,11 +9201,13 @@
         }
       ],
       "id": 297,
-      "status": "pending_embedded_language_audit",
+      "status": "retain_reviewed",
       "family": "Tutorial_21",
-      "batch": "tutorial_screenshots",
+      "batch": "retained",
       "review_id": 75,
-      "review_method": "visually reviewed locked native-preview contact sheet;classification only,not alias proof"
+      "review_method": "visually reviewed locked native-preview contact sheet;classification only,not alias proof",
+      "native_language_review_phase": 307,
+      "review_note": "full native preview confirms no readable language;unchanged;no canonical alias adoption"
     },
     {
       "resource": "MC2Game/CookedXenon/Tutorial_21.xxx",
@@ -9223,11 +9234,12 @@
         }
       ],
       "id": 298,
-      "status": "pending_embedded_language_audit",
+      "status": "adopted_pending_validation",
       "family": "Tutorial_21",
-      "batch": "tutorial_screenshots",
+      "batch": "already_adopted",
       "review_id": 76,
-      "review_method": "visually reviewed locked native-preview contact sheet;classification only,not alias proof"
+      "review_method": "visually reviewed locked native-preview contact sheet;classification only,not alias proof",
+      "adoption_phase": 307
     },
     {
       "resource": "MC2Game/CookedXenon/Tutorial_21.xxx",
@@ -9254,11 +9266,13 @@
         }
       ],
       "id": 299,
-      "status": "pending_embedded_language_audit",
+      "status": "retain_reviewed",
       "family": "Tutorial_21",
-      "batch": "tutorial_screenshots",
+      "batch": "retained",
       "review_id": 77,
-      "review_method": "visually reviewed locked native-preview contact sheet;classification only,not alias proof"
+      "review_method": "visually reviewed locked native-preview contact sheet;classification only,not alias proof",
+      "native_language_review_phase": 307,
+      "review_note": "full native preview confirms no readable language;unchanged;no canonical alias adoption"
     },
     {
       "resource": "MC2Game/CookedXenon/Tutorial_21.xxx",
@@ -9469,11 +9483,13 @@
         }
       ],
       "id": 306,
-      "status": "pending_embedded_language_audit",
+      "status": "retain_reviewed",
       "family": "Tutorial_22_0",
-      "batch": "tutorial_screenshots",
+      "batch": "retained",
       "review_id": 78,
-      "review_method": "visually reviewed locked native-preview contact sheet;classification only,not alias proof"
+      "review_method": "visually reviewed locked native-preview contact sheet;classification only,not alias proof",
+      "native_language_review_phase": 307,
+      "review_note": "full native preview confirms no readable language;unchanged;no canonical alias adoption"
     },
     {
       "resource": "MC2Game/CookedXenon/Tutorial_22_0.xxx",
@@ -9500,11 +9516,13 @@
         }
       ],
       "id": 307,
-      "status": "pending_embedded_language_audit",
+      "status": "retain_reviewed",
       "family": "Tutorial_22_0",
-      "batch": "tutorial_screenshots",
+      "batch": "retained",
       "review_id": 79,
-      "review_method": "visually reviewed locked native-preview contact sheet;classification only,not alias proof"
+      "review_method": "visually reviewed locked native-preview contact sheet;classification only,not alias proof",
+      "native_language_review_phase": 307,
+      "review_note": "full native preview confirms no readable language;unchanged;no canonical alias adoption"
     },
     {
       "resource": "MC2Game/CookedXenon/Tutorial_22_0.xxx",
@@ -10054,11 +10072,13 @@
         }
       ],
       "id": 325,
-      "status": "pending_embedded_language_audit",
+      "status": "retain_reviewed",
       "family": "Tutorial_23_0",
-      "batch": "tutorial_screenshots",
+      "batch": "retained",
       "review_id": 82,
-      "review_method": "visually reviewed locked native-preview contact sheet;classification only,not alias proof"
+      "review_method": "visually reviewed locked native-preview contact sheet;classification only,not alias proof",
+      "native_language_review_phase": 307,
+      "review_note": "full native preview confirms no readable language;unchanged;no canonical alias adoption"
     },
     {
       "resource": "MC2Game/CookedXenon/Tutorial_23_0.xxx",
@@ -10085,11 +10105,12 @@
         }
       ],
       "id": 326,
-      "status": "pending_embedded_language_audit",
+      "status": "adopted_pending_validation",
       "family": "Tutorial_23_0",
-      "batch": "tutorial_screenshots",
+      "batch": "already_adopted",
       "review_id": 83,
-      "review_method": "visually reviewed locked native-preview contact sheet;classification only,not alias proof"
+      "review_method": "visually reviewed locked native-preview contact sheet;classification only,not alias proof",
+      "adoption_phase": 307
     },
     {
       "resource": "MC2Game/CookedXenon/Tutorial_23_0.xxx",
@@ -10116,11 +10137,13 @@
         }
       ],
       "id": 327,
-      "status": "pending_embedded_language_audit",
+      "status": "retain_reviewed",
       "family": "Tutorial_23_0",
-      "batch": "tutorial_screenshots",
+      "batch": "retained",
       "review_id": 84,
-      "review_method": "visually reviewed locked native-preview contact sheet;classification only,not alias proof"
+      "review_method": "visually reviewed locked native-preview contact sheet;classification only,not alias proof",
+      "native_language_review_phase": 307,
+      "review_note": "full native preview confirms no readable language;unchanged;no canonical alias adoption"
     },
     {
       "resource": "MC2Game/CookedXenon/Tutorial_23_1.xxx",
@@ -10331,11 +10354,12 @@
         }
       ],
       "id": 334,
-      "status": "pending_embedded_language_audit",
+      "status": "adopted_pending_validation",
       "family": "Tutorial_23_1",
-      "batch": "tutorial_screenshots",
+      "batch": "already_adopted",
       "review_id": 83,
-      "review_method": "visually reviewed locked native-preview contact sheet;classification only,not alias proof"
+      "review_method": "visually reviewed locked native-preview contact sheet;classification only,not alias proof",
+      "adoption_phase": 307
     },
     {
       "resource": "MC2Game/CookedXenon/Tutorial_23_1.xxx",
@@ -10362,11 +10386,12 @@
         }
       ],
       "id": 335,
-      "status": "pending_embedded_language_audit",
+      "status": "adopted_pending_validation",
       "family": "Tutorial_23_1",
-      "batch": "tutorial_screenshots",
+      "batch": "already_adopted",
       "review_id": 85,
-      "review_method": "visually reviewed locked native-preview contact sheet;classification only,not alias proof"
+      "review_method": "visually reviewed locked native-preview contact sheet;classification only,not alias proof",
+      "adoption_phase": 307
     },
     {
       "resource": "MC2Game/CookedXenon/Tutorial_23_1.xxx",
@@ -10393,11 +10418,13 @@
         }
       ],
       "id": 336,
-      "status": "pending_embedded_language_audit",
+      "status": "retain_reviewed",
       "family": "Tutorial_23_1",
-      "batch": "tutorial_screenshots",
+      "batch": "retained",
       "review_id": 86,
-      "review_method": "visually reviewed locked native-preview contact sheet;classification only,not alias proof"
+      "review_method": "visually reviewed locked native-preview contact sheet;classification only,not alias proof",
+      "native_language_review_phase": 307,
+      "review_note": "full native preview confirms no readable language;unchanged;no canonical alias adoption"
     },
     {
       "resource": "MC2Game/CookedXenon/Tutorial_28_0.xxx",
@@ -10608,11 +10635,12 @@
         }
       ],
       "id": 343,
-      "status": "pending_embedded_language_audit",
+      "status": "adopted_pending_validation",
       "family": "Tutorial_28_0",
-      "batch": "tutorial_screenshots",
+      "batch": "already_adopted",
       "review_id": 87,
-      "review_method": "visually reviewed locked native-preview contact sheet;classification only,not alias proof"
+      "review_method": "visually reviewed locked native-preview contact sheet;classification only,not alias proof",
+      "adoption_phase": 307
     },
     {
       "resource": "MC2Game/CookedXenon/Tutorial_28_0.xxx",
@@ -10639,11 +10667,12 @@
         }
       ],
       "id": 344,
-      "status": "pending_embedded_language_audit",
+      "status": "adopted_pending_validation",
       "family": "Tutorial_28_0",
-      "batch": "tutorial_screenshots",
+      "batch": "already_adopted",
       "review_id": 88,
-      "review_method": "visually reviewed locked native-preview contact sheet;classification only,not alias proof"
+      "review_method": "visually reviewed locked native-preview contact sheet;classification only,not alias proof",
+      "adoption_phase": 307
     },
     {
       "resource": "MC2Game/CookedXenon/Tutorial_28_0.xxx",
@@ -10670,11 +10699,13 @@
         }
       ],
       "id": 345,
-      "status": "pending_embedded_language_audit",
+      "status": "retain_reviewed",
       "family": "Tutorial_28_0",
-      "batch": "tutorial_screenshots",
+      "batch": "retained",
       "review_id": 89,
-      "review_method": "visually reviewed locked native-preview contact sheet;classification only,not alias proof"
+      "review_method": "visually reviewed locked native-preview contact sheet;classification only,not alias proof",
+      "native_language_review_phase": 307,
+      "review_note": "full native preview confirms no readable language;unchanged;no canonical alias adoption"
     },
     {
       "resource": "MC2Game/CookedXenon/Tutorial_28_1.xxx",
@@ -10916,11 +10947,12 @@
         }
       ],
       "id": 353,
-      "status": "pending_embedded_language_audit",
+      "status": "adopted_pending_validation",
       "family": "Tutorial_28_1",
-      "batch": "tutorial_screenshots",
+      "batch": "already_adopted",
       "review_id": 90,
-      "review_method": "visually reviewed locked native-preview contact sheet;classification only,not alias proof"
+      "review_method": "visually reviewed locked native-preview contact sheet;classification only,not alias proof",
+      "adoption_phase": 307
     },
     {
       "resource": "MC2Game/CookedXenon/Tutorial_28_1.xxx",
@@ -10947,11 +10979,13 @@
         }
       ],
       "id": 354,
-      "status": "pending_embedded_language_audit",
+      "status": "retain_reviewed",
       "family": "Tutorial_28_1",
-      "batch": "tutorial_screenshots",
+      "batch": "retained",
       "review_id": 91,
-      "review_method": "visually reviewed locked native-preview contact sheet;classification only,not alias proof"
+      "review_method": "visually reviewed locked native-preview contact sheet;classification only,not alias proof",
+      "native_language_review_phase": 307,
+      "review_note": "full native preview confirms no readable language;unchanged;no canonical alias adoption"
     },
     {
       "resource": "MC2Game/CookedXenon/Tutorial_31_0.xxx",
@@ -12175,11 +12209,12 @@
         }
       ],
       "id": 394,
-      "status": "pending_embedded_language_audit",
+      "status": "adopted_pending_validation",
       "family": "Tutorial_33_0",
-      "batch": "tutorial_screenshots",
+      "batch": "already_adopted",
       "review_id": 100,
-      "review_method": "visually reviewed locked native-preview contact sheet;classification only,not alias proof"
+      "review_method": "visually reviewed locked native-preview contact sheet;classification only,not alias proof",
+      "adoption_phase": 307
     },
     {
       "resource": "MC2Game/CookedXenon/Tutorial_33_0.xxx",
@@ -12237,11 +12272,12 @@
         }
       ],
       "id": 396,
-      "status": "pending_embedded_language_audit",
+      "status": "adopted_pending_validation",
       "family": "Tutorial_33_0",
-      "batch": "tutorial_screenshots",
+      "batch": "already_adopted",
       "review_id": 102,
-      "review_method": "visually reviewed locked native-preview contact sheet;classification only,not alias proof"
+      "review_method": "visually reviewed locked native-preview contact sheet;classification only,not alias proof",
+      "adoption_phase": 307
     },
     {
       "resource": "MC2Game/CookedXenon/Tutorial_33_0.xxx",

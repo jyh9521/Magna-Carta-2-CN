@@ -1,0 +1,3710 @@
+{
+  "schema_version": 1,
+  "phase": 308,
+  "kind": "tutorial_menu_control_skill_captions",
+  "plan": {
+    "path": "locales/zh-Hans/texture-overlays/ui-labels.json",
+    "sha256": "1b30413d91769d59ec0ce31ec44bb5dbbc0e7a1577a6f0f294acb37bebe3c8df"
+  },
+  "previous_plan_sha256": "cf878916bc26af1abe36bad620f8623ceef16c85eca4b17b8f28ecb70282f217",
+  "new_image_groups": 8,
+  "new_text_layers": 41,
+  "new_aliases": 16,
+  "reviewed_standalone_objects": 8,
+  "counts": {
+    "groups": 678,
+    "layers": 1304,
+    "aliases": 2587,
+    "source_paths": 342
+  },
+  "selected_object_ids": [
+    138,
+    388,
+    257,
+    266,
+    258,
+    273,
+    291,
+    405
+  ],
+  "groups": [
+    {
+      "reference_id": 138,
+      "input_objects": [
+        138
+      ],
+      "canonical_path": "tutorial_14_1.tutorial_14_img2",
+      "namespace_guid": "c84cf1ce4bbf43eec9d4c894073ea623",
+      "layers": 10,
+      "labels": [
+        {
+          "id": "tutorial_ui_138_item0",
+          "text": "道具",
+          "rect": [
+            16,
+            8,
+            72,
+            28
+          ],
+          "font_size": 16,
+          "font": {
+            "path": "build/font-source/NotoSansCJKsc-Regular.otf",
+            "sha256": "2c76254f6fc379fddfce0a7e84fb5385bb135d3e399294f6eeb6680d0365b74b"
+          },
+          "align": "center",
+          "ink_padding": {
+            "x": 1,
+            "y": 0
+          },
+          "style": {
+            "fill": [
+              240,
+              240,
+              240,
+              255
+            ],
+            "stroke_fill": [
+              20,
+              20,
+              20,
+              230
+            ],
+            "shadow_fill": [
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          "restoration": {
+            "source_rgba_sha256": "c9422cfa0208808919bc9fc8696bed5a56a04e587ecf4f6f460f0cf585c004a9",
+            "mask": {
+              "path": "locales/zh-Hans/texture-overlays/restorations/tutorial_ui_138_item0.mask.png",
+              "sha256": "65149bd9a41c0e9b7c0e5e7ba5d1e568d11a832c8c158bed723c2d60837480bd"
+            },
+            "patch": {
+              "path": "locales/zh-Hans/texture-overlays/restorations/tutorial_ui_138_item0.patch.png",
+              "sha256": "c31c837a0f3a055b68ef7af1365bfb3ddb5ecd55417afe34a6e5c8b98e456fd8"
+            }
+          }
+        },
+        {
+          "id": "tutorial_ui_138_leader0",
+          "text": "队长",
+          "rect": [
+            92,
+            8,
+            72,
+            28
+          ],
+          "font_size": 16,
+          "font": {
+            "path": "build/font-source/NotoSansCJKsc-Regular.otf",
+            "sha256": "2c76254f6fc379fddfce0a7e84fb5385bb135d3e399294f6eeb6680d0365b74b"
+          },
+          "align": "center",
+          "ink_padding": {
+            "x": 1,
+            "y": 0
+          },
+          "style": {
+            "fill": [
+              240,
+              240,
+              240,
+              255
+            ],
+            "stroke_fill": [
+              20,
+              20,
+              20,
+              230
+            ],
+            "shadow_fill": [
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          "restoration": {
+            "source_rgba_sha256": "a4db518a54a26d54924fde02cb0603e2edccd03823ec1f00d355efe58ba668d6",
+            "mask": {
+              "path": "locales/zh-Hans/texture-overlays/restorations/tutorial_ui_138_leader0.mask.png",
+              "sha256": "c674409bfb4fd583df3be4e04e69cde48537e92f1230d1f862fa3332527ef867"
+            },
+            "patch": {
+              "path": "locales/zh-Hans/texture-overlays/restorations/tutorial_ui_138_leader0.patch.png",
+              "sha256": "1820948d5fc40bf0900b54dbbd2d59ae021abdb9b7d85f46f866f0af6e962e7c"
+            }
+          }
+        },
+        {
+          "id": "tutorial_ui_138_AI0",
+          "text": "AI设置",
+          "rect": [
+            168,
+            8,
+            72,
+            28
+          ],
+          "font_size": 16,
+          "font": {
+            "path": "build/font-source/NotoSansCJKsc-Regular.otf",
+            "sha256": "2c76254f6fc379fddfce0a7e84fb5385bb135d3e399294f6eeb6680d0365b74b"
+          },
+          "align": "center",
+          "ink_padding": {
+            "x": 1,
+            "y": 0
+          },
+          "style": {
+            "fill": [
+              240,
+              240,
+              240,
+              255
+            ],
+            "stroke_fill": [
+              20,
+              20,
+              20,
+              230
+            ],
+            "shadow_fill": [
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          "restoration": {
+            "source_rgba_sha256": "df5eb9e28fd0ae742ef92c993c99f67e8500e29326bbe431c4ed4e72bd41cdcd",
+            "mask": {
+              "path": "locales/zh-Hans/texture-overlays/restorations/tutorial_ui_138_AI0.mask.png",
+              "sha256": "f1993888d6b0c0deb78bdd6cd5e2e2d3910b29d417165412a7fd1edc11516c2d"
+            },
+            "patch": {
+              "path": "locales/zh-Hans/texture-overlays/restorations/tutorial_ui_138_AI0.patch.png",
+              "sha256": "38812afa2dce72aded065df7338df63720cac6a841d4109223b15ab283e5d713"
+            }
+          }
+        },
+        {
+          "id": "tutorial_ui_138_description0",
+          "text": "请选择队长角色",
+          "rect": [
+            4,
+            208,
+            204,
+            32
+          ],
+          "font_size": 16,
+          "font": {
+            "path": "build/font-source/NotoSansCJKsc-Regular.otf",
+            "sha256": "2c76254f6fc379fddfce0a7e84fb5385bb135d3e399294f6eeb6680d0365b74b"
+          },
+          "align": "left",
+          "ink_padding": {
+            "x": 1,
+            "y": 0
+          },
+          "style": {
+            "fill": [
+              240,
+              240,
+              240,
+              255
+            ],
+            "stroke_fill": [
+              20,
+              20,
+              20,
+              230
+            ],
+            "shadow_fill": [
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          "restoration": {
+            "source_rgba_sha256": "939f313db708780e0359b771e1d8df1d23b021eb1290e8741a7707fcdf4ff46c",
+            "mask": {
+              "path": "locales/zh-Hans/texture-overlays/restorations/tutorial_ui_138_description0.mask.png",
+              "sha256": "f8e3e9126eefb9435b8b1d45c75fe347f7b1eda68a4c1a11e1f373b8981938e0"
+            },
+            "patch": {
+              "path": "locales/zh-Hans/texture-overlays/restorations/tutorial_ui_138_description0.patch.png",
+              "sha256": "d3eca4d5bb649e7e1610d8f508322b0aac7bef5785ed48420bc1b2979817cfee"
+            }
+          }
+        },
+        {
+          "id": "tutorial_ui_138_item256",
+          "text": "道具",
+          "rect": [
+            272,
+            8,
+            72,
+            28
+          ],
+          "font_size": 16,
+          "font": {
+            "path": "build/font-source/NotoSansCJKsc-Regular.otf",
+            "sha256": "2c76254f6fc379fddfce0a7e84fb5385bb135d3e399294f6eeb6680d0365b74b"
+          },
+          "align": "center",
+          "ink_padding": {
+            "x": 1,
+            "y": 0
+          },
+          "style": {
+            "fill": [
+              240,
+              240,
+              240,
+              255
+            ],
+            "stroke_fill": [
+              20,
+              20,
+              20,
+              230
+            ],
+            "shadow_fill": [
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          "restoration": {
+            "source_rgba_sha256": "e5feed3b620b8aa1a761920afb2f22a2c925437ef4bcfba6f3d52972d63e54b1",
+            "mask": {
+              "path": "locales/zh-Hans/texture-overlays/restorations/tutorial_ui_138_item256.mask.png",
+              "sha256": "5a464d4713c1009a51f7882a9ed058c397877efc20c7306400e8a48fc80cde5c"
+            },
+            "patch": {
+              "path": "locales/zh-Hans/texture-overlays/restorations/tutorial_ui_138_item256.patch.png",
+              "sha256": "59b972bb47ccf6fd4f2e042fbf8c0dc9e8b90d4efff9982d87315deb6fdbc3c2"
+            }
+          }
+        },
+        {
+          "id": "tutorial_ui_138_leader256",
+          "text": "队长",
+          "rect": [
+            348,
+            8,
+            72,
+            28
+          ],
+          "font_size": 16,
+          "font": {
+            "path": "build/font-source/NotoSansCJKsc-Regular.otf",
+            "sha256": "2c76254f6fc379fddfce0a7e84fb5385bb135d3e399294f6eeb6680d0365b74b"
+          },
+          "align": "center",
+          "ink_padding": {
+            "x": 1,
+            "y": 0
+          },
+          "style": {
+            "fill": [
+              240,
+              240,
+              240,
+              255
+            ],
+            "stroke_fill": [
+              20,
+              20,
+              20,
+              230
+            ],
+            "shadow_fill": [
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          "restoration": {
+            "source_rgba_sha256": "90664b806ae632551aa11953436c645d187b1a0ef703975ad00e9f54ae92e42e",
+            "mask": {
+              "path": "locales/zh-Hans/texture-overlays/restorations/tutorial_ui_138_leader256.mask.png",
+              "sha256": "d899b7343feb95754db770d3dc93aecf02ea100225bf26db1f98b4a8f326609c"
+            },
+            "patch": {
+              "path": "locales/zh-Hans/texture-overlays/restorations/tutorial_ui_138_leader256.patch.png",
+              "sha256": "0a33684c4fb19784020634e4ffc9cff6b9ab6e620c6e78d8e388a7ab61dee734"
+            }
+          }
+        },
+        {
+          "id": "tutorial_ui_138_AI256",
+          "text": "AI设置",
+          "rect": [
+            424,
+            8,
+            72,
+            28
+          ],
+          "font_size": 16,
+          "font": {
+            "path": "build/font-source/NotoSansCJKsc-Regular.otf",
+            "sha256": "2c76254f6fc379fddfce0a7e84fb5385bb135d3e399294f6eeb6680d0365b74b"
+          },
+          "align": "center",
+          "ink_padding": {
+            "x": 1,
+            "y": 0
+          },
+          "style": {
+            "fill": [
+              240,
+              240,
+              240,
+              255
+            ],
+            "stroke_fill": [
+              20,
+              20,
+              20,
+              230
+            ],
+            "shadow_fill": [
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          "restoration": {
+            "source_rgba_sha256": "17f013597d5637bfde88095857f25281b6d16c10b84649c65759ef6f9d6c91b6",
+            "mask": {
+              "path": "locales/zh-Hans/texture-overlays/restorations/tutorial_ui_138_AI256.mask.png",
+              "sha256": "d7bac0db2d48eadd7ed98e54622ec8508e9d6f8724da50ee905bc50330784147"
+            },
+            "patch": {
+              "path": "locales/zh-Hans/texture-overlays/restorations/tutorial_ui_138_AI256.patch.png",
+              "sha256": "745f018a6d8346b06a3c290ef8e1aef6696c65c5ce187b60a016ed30bd8e9e18"
+            }
+          }
+        },
+        {
+          "id": "tutorial_ui_138_description256",
+          "text": "请选择队长角色",
+          "rect": [
+            260,
+            208,
+            204,
+            32
+          ],
+          "font_size": 16,
+          "font": {
+            "path": "build/font-source/NotoSansCJKsc-Regular.otf",
+            "sha256": "2c76254f6fc379fddfce0a7e84fb5385bb135d3e399294f6eeb6680d0365b74b"
+          },
+          "align": "left",
+          "ink_padding": {
+            "x": 1,
+            "y": 0
+          },
+          "style": {
+            "fill": [
+              240,
+              240,
+              240,
+              255
+            ],
+            "stroke_fill": [
+              20,
+              20,
+              20,
+              230
+            ],
+            "shadow_fill": [
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          "restoration": {
+            "source_rgba_sha256": "e326428227c7e7147a923d73c6ddc71cc64f6728300386853ed5f38d08d0ad20",
+            "mask": {
+              "path": "locales/zh-Hans/texture-overlays/restorations/tutorial_ui_138_description256.mask.png",
+              "sha256": "1207fb5501a642f37136b5fa13b81e8fb982bae7aa5a2afefc3db0716032e05a"
+            },
+            "patch": {
+              "path": "locales/zh-Hans/texture-overlays/restorations/tutorial_ui_138_description256.patch.png",
+              "sha256": "5de51423b9173f559ac49b46092d29c8f538f886bfb1ddf28b9eb1a3b0fc7ad7"
+            }
+          }
+        },
+        {
+          "id": "tutorial_ui_138_leader_left",
+          "text": "队长",
+          "rect": [
+            20,
+            48,
+            72,
+            20
+          ],
+          "font_size": 14,
+          "font": {
+            "path": "build/font-source/NotoSansCJKsc-Regular.otf",
+            "sha256": "2c76254f6fc379fddfce0a7e84fb5385bb135d3e399294f6eeb6680d0365b74b"
+          },
+          "align": "center",
+          "ink_padding": {
+            "x": 1,
+            "y": 0
+          },
+          "style": {
+            "fill": [
+              240,
+              240,
+              240,
+              255
+            ],
+            "stroke_fill": [
+              20,
+              20,
+              20,
+              230
+            ],
+            "shadow_fill": [
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          "restoration": {
+            "source_rgba_sha256": "6893c83657e5cf29c46796c3c3ce2f7943185456dbe240e8bef2a16f74238f96",
+            "mask": {
+              "path": "locales/zh-Hans/texture-overlays/restorations/tutorial_ui_138_leader_left.mask.png",
+              "sha256": "6d23f703b02510c01f6ed3f0e6fa587823cd4aa0af7bf54ffb408799acf5ffdd"
+            },
+            "patch": {
+              "path": "locales/zh-Hans/texture-overlays/restorations/tutorial_ui_138_leader_left.patch.png",
+              "sha256": "7a3015cb051d90f7ccc344418ef2ff4fd695b5036c7002d36e906cb0c9b03900"
+            }
+          }
+        },
+        {
+          "id": "tutorial_ui_138_leader_right",
+          "text": "队长",
+          "rect": [
+            352,
+            48,
+            80,
+            20
+          ],
+          "font_size": 14,
+          "font": {
+            "path": "build/font-source/NotoSansCJKsc-Regular.otf",
+            "sha256": "2c76254f6fc379fddfce0a7e84fb5385bb135d3e399294f6eeb6680d0365b74b"
+          },
+          "align": "center",
+          "ink_padding": {
+            "x": 1,
+            "y": 0
+          },
+          "style": {
+            "fill": [
+              240,
+              240,
+              240,
+              255
+            ],
+            "stroke_fill": [
+              20,
+              20,
+              20,
+              230
+            ],
+            "shadow_fill": [
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          "restoration": {
+            "source_rgba_sha256": "1dbd6a661600917695f14fef0df8d3e59d6cc065c3b101a5f79cd740b9a79ef5",
+            "mask": {
+              "path": "locales/zh-Hans/texture-overlays/restorations/tutorial_ui_138_leader_right.mask.png",
+              "sha256": "0b03568bcfa0ec1f8cde5c4be90501e5c5468c792e0ab5855b3bdaf481b1f874"
+            },
+            "patch": {
+              "path": "locales/zh-Hans/texture-overlays/restorations/tutorial_ui_138_leader_right.patch.png",
+              "sha256": "9ef422849f3a9a1438642829b99864948d81adc94b45e6685285fdb81e4aef66"
+            }
+          }
+        }
+      ],
+      "original_rgba_sha256": "994dadd0acfec6cba79944601950f176994cc2288a86074d68cab7b07bb7e6dd",
+      "actual_native_after_rgba_sha256": "2313771e7511b247b0f58ea4378da92f7a8d55fb1c76e9ead3b2f9d5b2496a0c",
+      "native_encoded_proof": {
+        "regions": [
+          {
+            "rect": [
+              16,
+              8,
+              72,
+              28
+            ],
+            "changed_blocks": 61,
+            "authorized_blocks": 126,
+            "untouched_blocks_preserved": true,
+            "alignment_padding_preserved": true,
+            "unchanged_region_blocks_preserved": 63
+          },
+          {
+            "rect": [
+              92,
+              8,
+              72,
+              28
+            ],
+            "changed_blocks": 50,
+            "authorized_blocks": 126,
+            "untouched_blocks_preserved": true,
+            "alignment_padding_preserved": true,
+            "unchanged_region_blocks_preserved": 76
+          },
+          {
+            "rect": [
+              168,
+              8,
+              72,
+              28
+            ],
+            "changed_blocks": 63,
+            "authorized_blocks": 126,
+            "untouched_blocks_preserved": true,
+            "alignment_padding_preserved": true,
+            "unchanged_region_blocks_preserved": 62
+          },
+          {
+            "rect": [
+              4,
+              208,
+              204,
+              32
+            ],
+            "changed_blocks": 253,
+            "authorized_blocks": 408,
+            "untouched_blocks_preserved": true,
+            "alignment_padding_preserved": true,
+            "unchanged_region_blocks_preserved": 155
+          },
+          {
+            "rect": [
+              272,
+              8,
+              72,
+              28
+            ],
+            "changed_blocks": 59,
+            "authorized_blocks": 126,
+            "untouched_blocks_preserved": true,
+            "alignment_padding_preserved": true,
+            "unchanged_region_blocks_preserved": 66
+          },
+          {
+            "rect": [
+              348,
+              8,
+              72,
+              28
+            ],
+            "changed_blocks": 48,
+            "authorized_blocks": 126,
+            "untouched_blocks_preserved": true,
+            "alignment_padding_preserved": true,
+            "unchanged_region_blocks_preserved": 76
+          },
+          {
+            "rect": [
+              424,
+              8,
+              72,
+              28
+            ],
+            "changed_blocks": 63,
+            "authorized_blocks": 126,
+            "untouched_blocks_preserved": true,
+            "alignment_padding_preserved": true,
+            "unchanged_region_blocks_preserved": 63
+          },
+          {
+            "rect": [
+              260,
+              208,
+              204,
+              32
+            ],
+            "changed_blocks": 259,
+            "authorized_blocks": 408,
+            "untouched_blocks_preserved": true,
+            "alignment_padding_preserved": true,
+            "unchanged_region_blocks_preserved": 149
+          },
+          {
+            "rect": [
+              20,
+              48,
+              72,
+              20
+            ],
+            "changed_blocks": 60,
+            "authorized_blocks": 90,
+            "untouched_blocks_preserved": true,
+            "alignment_padding_preserved": true,
+            "unchanged_region_blocks_preserved": 30
+          },
+          {
+            "rect": [
+              352,
+              48,
+              80,
+              20
+            ],
+            "changed_blocks": 61,
+            "authorized_blocks": 100,
+            "untouched_blocks_preserved": true,
+            "alignment_padding_preserved": true,
+            "unchanged_region_blocks_preserved": 39
+          }
+        ],
+        "changed_blocks": 977,
+        "authorized_blocks": 1762,
+        "untouched_blocks_preserved": true,
+        "alignment_padding_preserved": true,
+        "profile": {
+          "kind": "xbox-inline-bc-v1",
+          "format": 7
+        },
+        "storage_origin_blocks": [
+          0,
+          0
+        ],
+        "channel_mode": "rgba",
+        "unchanged_region_blocks_preserved": 779,
+        "alpha_encoding": "adaptive-range",
+        "protected_regions": [
+          {
+            "id": "all_portraits_and_exchange_arrows",
+            "rect": [
+              0,
+              68,
+              512,
+              132
+            ],
+            "before_rgba_sha256": "6b912573ed03f913262c62a3e32b39b3c5b23bfe315ed17103d16b07dff8986f",
+            "after_rgba_sha256": "6b912573ed03f913262c62a3e32b39b3c5b23bfe315ed17103d16b07dff8986f",
+            "blocks_preserved": true
+          }
+        ]
+      },
+      "manually_reviewed_native_output": true
+    },
+    {
+      "reference_id": 388,
+      "input_objects": [
+        388
+      ],
+      "canonical_path": "tutorial_32_2.tutorial_32_2_1",
+      "namespace_guid": "6db7757c41ae6f9d0ee15ca71b76ba0f",
+      "layers": 7,
+      "labels": [
+        {
+          "id": "tutorial_ui_388_item",
+          "text": "道具",
+          "rect": [
+            32,
+            24,
+            64,
+            24
+          ],
+          "font_size": 12,
+          "font": {
+            "path": "build/font-source/NotoSansCJKsc-Regular.otf",
+            "sha256": "2c76254f6fc379fddfce0a7e84fb5385bb135d3e399294f6eeb6680d0365b74b"
+          },
+          "align": "center",
+          "ink_padding": {
+            "x": 1,
+            "y": 0
+          },
+          "style": {
+            "fill": [
+              240,
+              240,
+              240,
+              255
+            ],
+            "stroke_fill": [
+              20,
+              20,
+              20,
+              230
+            ],
+            "shadow_fill": [
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          "restoration": {
+            "source_rgba_sha256": "32abf7047a95fcf322bb5585efe8765519d5a5d82e8fcfebc48a46127d3b3396",
+            "mask": {
+              "path": "locales/zh-Hans/texture-overlays/restorations/tutorial_ui_388_item.mask.png",
+              "sha256": "f801a7436a0ddcf47542d711caf3b1e00a1cf1b76f6942527f73ab9aebb57b1c"
+            },
+            "patch": {
+              "path": "locales/zh-Hans/texture-overlays/restorations/tutorial_ui_388_item.patch.png",
+              "sha256": "ce97ac0d1296b4b36aad2d64f5398ebe0de84a683f7a7efe4c57400b47f9f758"
+            }
+          }
+        },
+        {
+          "id": "tutorial_ui_388_leader",
+          "text": "队长",
+          "rect": [
+            100,
+            24,
+            64,
+            24
+          ],
+          "font_size": 12,
+          "font": {
+            "path": "build/font-source/NotoSansCJKsc-Regular.otf",
+            "sha256": "2c76254f6fc379fddfce0a7e84fb5385bb135d3e399294f6eeb6680d0365b74b"
+          },
+          "align": "center",
+          "ink_padding": {
+            "x": 1,
+            "y": 0
+          },
+          "style": {
+            "fill": [
+              240,
+              240,
+              240,
+              255
+            ],
+            "stroke_fill": [
+              20,
+              20,
+              20,
+              230
+            ],
+            "shadow_fill": [
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          "restoration": {
+            "source_rgba_sha256": "9f9f8b3faffafcee2c62dcf604f6466a5299fbf5d726a4c62842229f05a5f889",
+            "mask": {
+              "path": "locales/zh-Hans/texture-overlays/restorations/tutorial_ui_388_leader.mask.png",
+              "sha256": "a2fda08870d2bc6102d5899e2f191e121b85e9eff9f2b1394b596f37922b2264"
+            },
+            "patch": {
+              "path": "locales/zh-Hans/texture-overlays/restorations/tutorial_ui_388_leader.patch.png",
+              "sha256": "9e2a4841dedf47a4e207e4c31600326eb58ff421830880f668deb01a44aa1c5b"
+            }
+          }
+        },
+        {
+          "id": "tutorial_ui_388_AI",
+          "text": "AI设置",
+          "rect": [
+            164,
+            24,
+            64,
+            24
+          ],
+          "font_size": 12,
+          "font": {
+            "path": "build/font-source/NotoSansCJKsc-Regular.otf",
+            "sha256": "2c76254f6fc379fddfce0a7e84fb5385bb135d3e399294f6eeb6680d0365b74b"
+          },
+          "align": "center",
+          "ink_padding": {
+            "x": 1,
+            "y": 0
+          },
+          "style": {
+            "fill": [
+              240,
+              240,
+              240,
+              255
+            ],
+            "stroke_fill": [
+              20,
+              20,
+              20,
+              230
+            ],
+            "shadow_fill": [
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          "restoration": {
+            "source_rgba_sha256": "fa487ea813af27d55929e32f0097c2203c9b64796a0b534c9fb4e5a5908ad389",
+            "mask": {
+              "path": "locales/zh-Hans/texture-overlays/restorations/tutorial_ui_388_AI.mask.png",
+              "sha256": "891311075fd409f49bec50ddd0b0aad0651c4f6fc10499a4e11c6a7a96db787f"
+            },
+            "patch": {
+              "path": "locales/zh-Hans/texture-overlays/restorations/tutorial_ui_388_AI.patch.png",
+              "sha256": "e2f0835ea7f26c0480011ad5c6a87e13b9019a556e267333cdf92e124832e157"
+            }
+          }
+        },
+        {
+          "id": "tutorial_ui_388_type0",
+          "text": "类型",
+          "rect": [
+            140,
+            64,
+            36,
+            20
+          ],
+          "font_size": 12,
+          "font": {
+            "path": "build/font-source/NotoSansCJKsc-Regular.otf",
+            "sha256": "2c76254f6fc379fddfce0a7e84fb5385bb135d3e399294f6eeb6680d0365b74b"
+          },
+          "align": "center",
+          "ink_padding": {
+            "x": 1,
+            "y": 0
+          },
+          "style": {
+            "fill": [
+              240,
+              240,
+              240,
+              255
+            ],
+            "stroke_fill": [
+              20,
+              20,
+              20,
+              230
+            ],
+            "shadow_fill": [
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          "restoration": {
+            "source_rgba_sha256": "3adf6bae44d295e5f6e161eff5386d576a453d74a15e8e4c77364ba15764ccb2",
+            "mask": {
+              "path": "locales/zh-Hans/texture-overlays/restorations/tutorial_ui_388_type0.mask.png",
+              "sha256": "26950d396155b87f792ab730a9522aa2fcf302d723cfe5321586d8fa84e55ee6"
+            },
+            "patch": {
+              "path": "locales/zh-Hans/texture-overlays/restorations/tutorial_ui_388_type0.patch.png",
+              "sha256": "29f56c12b9eb5afa4912776e8d0fcf7f053132cbac717f783f24e8a3b892d3d2"
+            }
+          }
+        },
+        {
+          "id": "tutorial_ui_388_type1",
+          "text": "类型",
+          "rect": [
+            140,
+            112,
+            36,
+            20
+          ],
+          "font_size": 12,
+          "font": {
+            "path": "build/font-source/NotoSansCJKsc-Regular.otf",
+            "sha256": "2c76254f6fc379fddfce0a7e84fb5385bb135d3e399294f6eeb6680d0365b74b"
+          },
+          "align": "center",
+          "ink_padding": {
+            "x": 1,
+            "y": 0
+          },
+          "style": {
+            "fill": [
+              240,
+              240,
+              240,
+              255
+            ],
+            "stroke_fill": [
+              20,
+              20,
+              20,
+              230
+            ],
+            "shadow_fill": [
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          "restoration": {
+            "source_rgba_sha256": "ad89b2e5fe1e67c26410a2ab81c7f380c1462a858dc871cd912e0497576d158d",
+            "mask": {
+              "path": "locales/zh-Hans/texture-overlays/restorations/tutorial_ui_388_type1.mask.png",
+              "sha256": "e7881ccf6539ea22ddc16f4fdf87e7c670501056cb9bb4b79e1720d73c20c08d"
+            },
+            "patch": {
+              "path": "locales/zh-Hans/texture-overlays/restorations/tutorial_ui_388_type1.patch.png",
+              "sha256": "c319adf181e3591fd45c79ee11dd8855cce454f73bed435f5a0c9185bf431194"
+            }
+          }
+        },
+        {
+          "id": "tutorial_ui_388_type2",
+          "text": "类型",
+          "rect": [
+            140,
+            156,
+            36,
+            16
+          ],
+          "font_size": 12,
+          "font": {
+            "path": "build/font-source/NotoSansCJKsc-Regular.otf",
+            "sha256": "2c76254f6fc379fddfce0a7e84fb5385bb135d3e399294f6eeb6680d0365b74b"
+          },
+          "align": "center",
+          "ink_padding": {
+            "x": 1,
+            "y": 0
+          },
+          "style": {
+            "fill": [
+              240,
+              240,
+              240,
+              255
+            ],
+            "stroke_fill": [
+              20,
+              20,
+              20,
+              230
+            ],
+            "shadow_fill": [
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          "restoration": {
+            "source_rgba_sha256": "860e1916dde70d2e96f899a8f979ffc3f41195600d1f2cf6bcd84dd08510d710",
+            "mask": {
+              "path": "locales/zh-Hans/texture-overlays/restorations/tutorial_ui_388_type2.mask.png",
+              "sha256": "0c387f79a4c3543f4297db86f1dca81a87af0d49f8806d4621b984a1e8bc6c1b"
+            },
+            "patch": {
+              "path": "locales/zh-Hans/texture-overlays/restorations/tutorial_ui_388_type2.patch.png",
+              "sha256": "c1b577b25eed53949547393133bcf61121f41adfa3242d577db105e121f433a8"
+            }
+          }
+        },
+        {
+          "id": "tutorial_ui_388_description",
+          "text": "积极使用技能",
+          "rect": [
+            16,
+            200,
+            164,
+            28
+          ],
+          "font_size": 15,
+          "font": {
+            "path": "build/font-source/NotoSansCJKsc-Regular.otf",
+            "sha256": "2c76254f6fc379fddfce0a7e84fb5385bb135d3e399294f6eeb6680d0365b74b"
+          },
+          "align": "left",
+          "ink_padding": {
+            "x": 1,
+            "y": 0
+          },
+          "style": {
+            "fill": [
+              240,
+              240,
+              240,
+              255
+            ],
+            "stroke_fill": [
+              20,
+              20,
+              20,
+              230
+            ],
+            "shadow_fill": [
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          "restoration": {
+            "source_rgba_sha256": "0f38d2ea38a4f54d677149d27f21f2fc549b8ff9294ced31c8881c4b74dcf2a4",
+            "mask": {
+              "path": "locales/zh-Hans/texture-overlays/restorations/tutorial_ui_388_description.mask.png",
+              "sha256": "b9888f52d6ad4d32798f90373f1dfa336251731c6ec4d7e51d6a9a4c48e5e36e"
+            },
+            "patch": {
+              "path": "locales/zh-Hans/texture-overlays/restorations/tutorial_ui_388_description.patch.png",
+              "sha256": "7f53dabf819d7bf2538de935aa6ef0055d86d20be3bf7a8b1037fc9215c71563"
+            }
+          }
+        }
+      ],
+      "original_rgba_sha256": "1b1fe8097b76061f0b8baa016c1e1ec61d628bc4ed9cedc82333127f6ba95eb9",
+      "actual_native_after_rgba_sha256": "a111b0fec2a4184df613443925e781a0217dbaed124c72f823f5dd4f233d5a29",
+      "native_encoded_proof": {
+        "regions": [
+          {
+            "rect": [
+              32,
+              24,
+              64,
+              24
+            ],
+            "changed_blocks": 41,
+            "authorized_blocks": 96,
+            "untouched_blocks_preserved": true,
+            "alignment_padding_preserved": true,
+            "unchanged_region_blocks_preserved": 52
+          },
+          {
+            "rect": [
+              100,
+              24,
+              64,
+              24
+            ],
+            "changed_blocks": 37,
+            "authorized_blocks": 96,
+            "untouched_blocks_preserved": true,
+            "alignment_padding_preserved": true,
+            "unchanged_region_blocks_preserved": 57
+          },
+          {
+            "rect": [
+              164,
+              24,
+              64,
+              24
+            ],
+            "changed_blocks": 43,
+            "authorized_blocks": 96,
+            "untouched_blocks_preserved": true,
+            "alignment_padding_preserved": true,
+            "unchanged_region_blocks_preserved": 52
+          },
+          {
+            "rect": [
+              140,
+              64,
+              36,
+              20
+            ],
+            "changed_blocks": 37,
+            "authorized_blocks": 45,
+            "untouched_blocks_preserved": true,
+            "alignment_padding_preserved": true,
+            "unchanged_region_blocks_preserved": 8
+          },
+          {
+            "rect": [
+              140,
+              112,
+              36,
+              20
+            ],
+            "changed_blocks": 35,
+            "authorized_blocks": 45,
+            "untouched_blocks_preserved": true,
+            "alignment_padding_preserved": true,
+            "unchanged_region_blocks_preserved": 8
+          },
+          {
+            "rect": [
+              140,
+              156,
+              36,
+              16
+            ],
+            "changed_blocks": 32,
+            "authorized_blocks": 36,
+            "untouched_blocks_preserved": true,
+            "alignment_padding_preserved": true,
+            "unchanged_region_blocks_preserved": 4
+          },
+          {
+            "rect": [
+              16,
+              200,
+              164,
+              28
+            ],
+            "changed_blocks": 171,
+            "authorized_blocks": 287,
+            "untouched_blocks_preserved": true,
+            "alignment_padding_preserved": true,
+            "unchanged_region_blocks_preserved": 116
+          }
+        ],
+        "changed_blocks": 396,
+        "authorized_blocks": 701,
+        "untouched_blocks_preserved": true,
+        "alignment_padding_preserved": true,
+        "profile": {
+          "kind": "xbox-inline-bc-v1",
+          "format": 7
+        },
+        "storage_origin_blocks": [
+          0,
+          0
+        ],
+        "channel_mode": "rgba",
+        "unchanged_region_blocks_preserved": 297,
+        "alpha_encoding": "adaptive-range",
+        "protected_regions": [
+          {
+            "id": "portraits",
+            "rect": [
+              24,
+              52,
+              64,
+              136
+            ],
+            "before_rgba_sha256": "7f452a7f4878f8e9c7143527624d58c43f8ab5b2be05d50adf33449c77bc49d5",
+            "after_rgba_sha256": "7f452a7f4878f8e9c7143527624d58c43f8ab5b2be05d50adf33449c77bc49d5",
+            "blocks_preserved": true
+          },
+          {
+            "id": "type_number1",
+            "rect": [
+              176,
+              64,
+              20,
+              20
+            ],
+            "before_rgba_sha256": "2e5d12bef56c385f7bc17d13dfe04466a9f38dad232bf721ce98e0e1f7baf625",
+            "after_rgba_sha256": "2e5d12bef56c385f7bc17d13dfe04466a9f38dad232bf721ce98e0e1f7baf625",
+            "blocks_preserved": true
+          },
+          {
+            "id": "type_number2",
+            "rect": [
+              176,
+              112,
+              20,
+              20
+            ],
+            "before_rgba_sha256": "947087a1606d1e675e9deb7ce4e010de352321a59f0cc49d3f0d849b347ca3c3",
+            "after_rgba_sha256": "947087a1606d1e675e9deb7ce4e010de352321a59f0cc49d3f0d849b347ca3c3",
+            "blocks_preserved": true
+          },
+          {
+            "id": "type_number3",
+            "rect": [
+              176,
+              156,
+              20,
+              16
+            ],
+            "before_rgba_sha256": "0be21361324cada3d1c78b1322276a627b7936e8c320c32d451b0ebc0abd4916",
+            "after_rgba_sha256": "0be21361324cada3d1c78b1322276a627b7936e8c320c32d451b0ebc0abd4916",
+            "blocks_preserved": true
+          },
+          {
+            "id": "original_sliders_and_arrows",
+            "rect": [
+              120,
+              172,
+              116,
+              16
+            ],
+            "before_rgba_sha256": "2c8b95438a339f1d816818a45fe410d0e6d215f0fb60bd0ae09bb5cc14419dd7",
+            "after_rgba_sha256": "2c8b95438a339f1d816818a45fe410d0e6d215f0fb60bd0ae09bb5cc14419dd7",
+            "blocks_preserved": true
+          }
+        ]
+      },
+      "manually_reviewed_native_output": true
+    },
+    {
+      "reference_id": 257,
+      "input_objects": [
+        257
+      ],
+      "canonical_path": "tutorial_20_1.tutorial_20_img2",
+      "namespace_guid": "d1b25c9043ace3b2b722d8bc86c46525",
+      "layers": 4,
+      "labels": [
+        {
+          "id": "tutorial_ui_257_style_list",
+          "text": "风格列表",
+          "rect": [
+            8,
+            0,
+            124,
+            20
+          ],
+          "font_size": 12,
+          "font": {
+            "path": "build/font-source/NotoSansCJKsc-Regular.otf",
+            "sha256": "2c76254f6fc379fddfce0a7e84fb5385bb135d3e399294f6eeb6680d0365b74b"
+          },
+          "align": "left",
+          "ink_padding": {
+            "x": 1,
+            "y": 0
+          },
+          "style": {
+            "fill": [
+              240,
+              240,
+              240,
+              255
+            ],
+            "stroke_fill": [
+              20,
+              20,
+              20,
+              230
+            ],
+            "shadow_fill": [
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          "restoration": {
+            "source_rgba_sha256": "5b3c0cc5884bb130ed2e56d4a680e67cee1c8ebf1cb07043733f904b03a7ce53",
+            "mask": {
+              "path": "locales/zh-Hans/texture-overlays/restorations/tutorial_ui_257_style_list.mask.png",
+              "sha256": "1c102f176f6153c5e9e8bc98d4967f263656e9df66e16b189503c29aace8c754"
+            },
+            "patch": {
+              "path": "locales/zh-Hans/texture-overlays/restorations/tutorial_ui_257_style_list.patch.png",
+              "sha256": "1bca6c6c4357c19f4a9c0393cf6a17e125096a3a0541bf75b8096c9e28065931"
+            }
+          }
+        },
+        {
+          "id": "tutorial_ui_257_single_sword",
+          "text": "单手剑",
+          "rect": [
+            20,
+            20,
+            132,
+            24
+          ],
+          "font_size": 18,
+          "font": {
+            "path": "build/font-source/NotoSansCJKsc-Regular.otf",
+            "sha256": "2c76254f6fc379fddfce0a7e84fb5385bb135d3e399294f6eeb6680d0365b74b"
+          },
+          "align": "left",
+          "ink_padding": {
+            "x": 1,
+            "y": 0
+          },
+          "style": {
+            "fill": [
+              240,
+              240,
+              240,
+              255
+            ],
+            "stroke_fill": [
+              20,
+              20,
+              20,
+              230
+            ],
+            "shadow_fill": [
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          "restoration": {
+            "source_rgba_sha256": "1d59ab7b033e712fa870e2dbd86802eb1b41b7b1510090c802f0839c264a9d1c",
+            "mask": {
+              "path": "locales/zh-Hans/texture-overlays/restorations/tutorial_ui_257_single_sword.mask.png",
+              "sha256": "af382312edf80353e410926f80f7a886073366a38b24198caebd5bb130bf8c85"
+            },
+            "patch": {
+              "path": "locales/zh-Hans/texture-overlays/restorations/tutorial_ui_257_single_sword.patch.png",
+              "sha256": "1aabca2474cd76c792db1890e16ac03a010ba291e7c9b626038cadb34d697220"
+            }
+          }
+        },
+        {
+          "id": "tutorial_ui_257_double_sword",
+          "text": "双手剑",
+          "rect": [
+            20,
+            48,
+            132,
+            24
+          ],
+          "font_size": 18,
+          "font": {
+            "path": "build/font-source/NotoSansCJKsc-Regular.otf",
+            "sha256": "2c76254f6fc379fddfce0a7e84fb5385bb135d3e399294f6eeb6680d0365b74b"
+          },
+          "align": "left",
+          "ink_padding": {
+            "x": 1,
+            "y": 0
+          },
+          "style": {
+            "fill": [
+              240,
+              240,
+              240,
+              255
+            ],
+            "stroke_fill": [
+              20,
+              20,
+              20,
+              230
+            ],
+            "shadow_fill": [
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          "restoration": {
+            "source_rgba_sha256": "1cc5c70ac287a69ef2404312025fad6db2f85c5a306cc26cde0d1c0568fd67af",
+            "mask": {
+              "path": "locales/zh-Hans/texture-overlays/restorations/tutorial_ui_257_double_sword.mask.png",
+              "sha256": "a324a9541d745f6d4f846259963171cabe684c7a91b8e785c6413f2201dfbfc4"
+            },
+            "patch": {
+              "path": "locales/zh-Hans/texture-overlays/restorations/tutorial_ui_257_double_sword.patch.png",
+              "sha256": "a187da5620b946fe92de02d673e3968d00d6fcf8205169023d75e91815682f39"
+            }
+          }
+        },
+        {
+          "id": "tutorial_ui_257_remaining_SP",
+          "text": "剩余技能点",
+          "rect": [
+            8,
+            80,
+            116,
+            28
+          ],
+          "font_size": 16,
+          "font": {
+            "path": "build/font-source/NotoSansCJKsc-Regular.otf",
+            "sha256": "2c76254f6fc379fddfce0a7e84fb5385bb135d3e399294f6eeb6680d0365b74b"
+          },
+          "align": "left",
+          "ink_padding": {
+            "x": 1,
+            "y": 0
+          },
+          "style": {
+            "fill": [
+              240,
+              240,
+              240,
+              255
+            ],
+            "stroke_fill": [
+              20,
+              20,
+              20,
+              230
+            ],
+            "shadow_fill": [
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          "restoration": {
+            "source_rgba_sha256": "97b937b0cb09e2bef11120406bdee768bec2e8ec6a60718d4f90d56fdeea307c",
+            "mask": {
+              "path": "locales/zh-Hans/texture-overlays/restorations/tutorial_ui_257_remaining_SP.mask.png",
+              "sha256": "ffd7db6b0f73d93aa74935272657322981e0e6c1e36bb68df14e576bbc9de621"
+            },
+            "patch": {
+              "path": "locales/zh-Hans/texture-overlays/restorations/tutorial_ui_257_remaining_SP.patch.png",
+              "sha256": "215f4d5063fa7ebcf72c95bb52f3ccf58a9aabf01eca505e8c4ea68ae62f4f5b"
+            }
+          }
+        }
+      ],
+      "original_rgba_sha256": "c62fafb26b229b5846ed7486df1b259e39c91e9979f2f5daa6d69b1a0f8f628b",
+      "actual_native_after_rgba_sha256": "c7ebb578c41ec40d6ca9408babf3e9f9633df3bc8f719165c0d75f36d666aa23",
+      "native_encoded_proof": {
+        "regions": [
+          {
+            "rect": [
+              8,
+              0,
+              124,
+              20
+            ],
+            "changed_blocks": 91,
+            "authorized_blocks": 155,
+            "untouched_blocks_preserved": true,
+            "alignment_padding_preserved": true,
+            "unchanged_region_blocks_preserved": 64
+          },
+          {
+            "rect": [
+              20,
+              20,
+              132,
+              24
+            ],
+            "changed_blocks": 82,
+            "authorized_blocks": 198,
+            "untouched_blocks_preserved": true,
+            "alignment_padding_preserved": true,
+            "unchanged_region_blocks_preserved": 116
+          },
+          {
+            "rect": [
+              20,
+              48,
+              132,
+              24
+            ],
+            "changed_blocks": 83,
+            "authorized_blocks": 198,
+            "untouched_blocks_preserved": true,
+            "alignment_padding_preserved": true,
+            "unchanged_region_blocks_preserved": 115
+          },
+          {
+            "rect": [
+              8,
+              80,
+              116,
+              28
+            ],
+            "changed_blocks": 145,
+            "authorized_blocks": 203,
+            "untouched_blocks_preserved": true,
+            "alignment_padding_preserved": true,
+            "unchanged_region_blocks_preserved": 58
+          }
+        ],
+        "changed_blocks": 401,
+        "authorized_blocks": 754,
+        "untouched_blocks_preserved": true,
+        "alignment_padding_preserved": true,
+        "profile": {
+          "kind": "xbox-inline-bc-v1",
+          "format": 7
+        },
+        "storage_origin_blocks": [
+          0,
+          0
+        ],
+        "channel_mode": "rgba",
+        "unchanged_region_blocks_preserved": 353,
+        "alpha_encoding": "adaptive-range",
+        "protected_regions": [
+          {
+            "id": "original_SP_acronym",
+            "rect": [
+              124,
+              80,
+              32,
+              32
+            ],
+            "before_rgba_sha256": "7694d975ee12d0e85eab629864d28a27007cfa758d565c65855dbcbe623bd662",
+            "after_rgba_sha256": "7694d975ee12d0e85eab629864d28a27007cfa758d565c65855dbcbe623bd662",
+            "blocks_preserved": true
+          },
+          {
+            "id": "original77_and_ring",
+            "rect": [
+              228,
+              72,
+              48,
+              48
+            ],
+            "before_rgba_sha256": "a6b3fc2bff2ccc02951f9d506c4d1d92a7325f751c4ba46e136fc66f401578ca",
+            "after_rgba_sha256": "a6b3fc2bff2ccc02951f9d506c4d1d92a7325f751c4ba46e136fc66f401578ca",
+            "blocks_preserved": true
+          }
+        ]
+      },
+      "manually_reviewed_native_output": true
+    },
+    {
+      "reference_id": 266,
+      "input_objects": [
+        266
+      ],
+      "canonical_path": "tutorial_20_2.tutorial_20_img2",
+      "namespace_guid": "c8b0d7c84aec4dd82c528298ab0f7e6e",
+      "layers": 4,
+      "labels": [
+        {
+          "id": "tutorial_ui_266_style_list",
+          "text": "风格列表",
+          "rect": [
+            8,
+            0,
+            124,
+            20
+          ],
+          "font_size": 12,
+          "font": {
+            "path": "build/font-source/NotoSansCJKsc-Regular.otf",
+            "sha256": "2c76254f6fc379fddfce0a7e84fb5385bb135d3e399294f6eeb6680d0365b74b"
+          },
+          "align": "left",
+          "ink_padding": {
+            "x": 1,
+            "y": 0
+          },
+          "style": {
+            "fill": [
+              240,
+              240,
+              240,
+              255
+            ],
+            "stroke_fill": [
+              20,
+              20,
+              20,
+              230
+            ],
+            "shadow_fill": [
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          "restoration": {
+            "source_rgba_sha256": "5b3c0cc5884bb130ed2e56d4a680e67cee1c8ebf1cb07043733f904b03a7ce53",
+            "mask": {
+              "path": "locales/zh-Hans/texture-overlays/restorations/tutorial_ui_266_style_list.mask.png",
+              "sha256": "1c102f176f6153c5e9e8bc98d4967f263656e9df66e16b189503c29aace8c754"
+            },
+            "patch": {
+              "path": "locales/zh-Hans/texture-overlays/restorations/tutorial_ui_266_style_list.patch.png",
+              "sha256": "1bca6c6c4357c19f4a9c0393cf6a17e125096a3a0541bf75b8096c9e28065931"
+            }
+          }
+        },
+        {
+          "id": "tutorial_ui_266_single_sword",
+          "text": "单手剑",
+          "rect": [
+            20,
+            20,
+            132,
+            24
+          ],
+          "font_size": 18,
+          "font": {
+            "path": "build/font-source/NotoSansCJKsc-Regular.otf",
+            "sha256": "2c76254f6fc379fddfce0a7e84fb5385bb135d3e399294f6eeb6680d0365b74b"
+          },
+          "align": "left",
+          "ink_padding": {
+            "x": 1,
+            "y": 0
+          },
+          "style": {
+            "fill": [
+              240,
+              240,
+              240,
+              255
+            ],
+            "stroke_fill": [
+              20,
+              20,
+              20,
+              230
+            ],
+            "shadow_fill": [
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          "restoration": {
+            "source_rgba_sha256": "1d59ab7b033e712fa870e2dbd86802eb1b41b7b1510090c802f0839c264a9d1c",
+            "mask": {
+              "path": "locales/zh-Hans/texture-overlays/restorations/tutorial_ui_266_single_sword.mask.png",
+              "sha256": "af382312edf80353e410926f80f7a886073366a38b24198caebd5bb130bf8c85"
+            },
+            "patch": {
+              "path": "locales/zh-Hans/texture-overlays/restorations/tutorial_ui_266_single_sword.patch.png",
+              "sha256": "1aabca2474cd76c792db1890e16ac03a010ba291e7c9b626038cadb34d697220"
+            }
+          }
+        },
+        {
+          "id": "tutorial_ui_266_double_sword",
+          "text": "双手剑",
+          "rect": [
+            20,
+            48,
+            132,
+            24
+          ],
+          "font_size": 18,
+          "font": {
+            "path": "build/font-source/NotoSansCJKsc-Regular.otf",
+            "sha256": "2c76254f6fc379fddfce0a7e84fb5385bb135d3e399294f6eeb6680d0365b74b"
+          },
+          "align": "left",
+          "ink_padding": {
+            "x": 1,
+            "y": 0
+          },
+          "style": {
+            "fill": [
+              240,
+              240,
+              240,
+              255
+            ],
+            "stroke_fill": [
+              20,
+              20,
+              20,
+              230
+            ],
+            "shadow_fill": [
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          "restoration": {
+            "source_rgba_sha256": "1cc5c70ac287a69ef2404312025fad6db2f85c5a306cc26cde0d1c0568fd67af",
+            "mask": {
+              "path": "locales/zh-Hans/texture-overlays/restorations/tutorial_ui_266_double_sword.mask.png",
+              "sha256": "a324a9541d745f6d4f846259963171cabe684c7a91b8e785c6413f2201dfbfc4"
+            },
+            "patch": {
+              "path": "locales/zh-Hans/texture-overlays/restorations/tutorial_ui_266_double_sword.patch.png",
+              "sha256": "a187da5620b946fe92de02d673e3968d00d6fcf8205169023d75e91815682f39"
+            }
+          }
+        },
+        {
+          "id": "tutorial_ui_266_remaining_SP",
+          "text": "剩余技能点",
+          "rect": [
+            8,
+            80,
+            116,
+            28
+          ],
+          "font_size": 16,
+          "font": {
+            "path": "build/font-source/NotoSansCJKsc-Regular.otf",
+            "sha256": "2c76254f6fc379fddfce0a7e84fb5385bb135d3e399294f6eeb6680d0365b74b"
+          },
+          "align": "left",
+          "ink_padding": {
+            "x": 1,
+            "y": 0
+          },
+          "style": {
+            "fill": [
+              240,
+              240,
+              240,
+              255
+            ],
+            "stroke_fill": [
+              20,
+              20,
+              20,
+              230
+            ],
+            "shadow_fill": [
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          "restoration": {
+            "source_rgba_sha256": "97b937b0cb09e2bef11120406bdee768bec2e8ec6a60718d4f90d56fdeea307c",
+            "mask": {
+              "path": "locales/zh-Hans/texture-overlays/restorations/tutorial_ui_266_remaining_SP.mask.png",
+              "sha256": "ffd7db6b0f73d93aa74935272657322981e0e6c1e36bb68df14e576bbc9de621"
+            },
+            "patch": {
+              "path": "locales/zh-Hans/texture-overlays/restorations/tutorial_ui_266_remaining_SP.patch.png",
+              "sha256": "215f4d5063fa7ebcf72c95bb52f3ccf58a9aabf01eca505e8c4ea68ae62f4f5b"
+            }
+          }
+        }
+      ],
+      "original_rgba_sha256": "c62fafb26b229b5846ed7486df1b259e39c91e9979f2f5daa6d69b1a0f8f628b",
+      "actual_native_after_rgba_sha256": "c7ebb578c41ec40d6ca9408babf3e9f9633df3bc8f719165c0d75f36d666aa23",
+      "native_encoded_proof": {
+        "regions": [
+          {
+            "rect": [
+              8,
+              0,
+              124,
+              20
+            ],
+            "changed_blocks": 91,
+            "authorized_blocks": 155,
+            "untouched_blocks_preserved": true,
+            "alignment_padding_preserved": true,
+            "unchanged_region_blocks_preserved": 64
+          },
+          {
+            "rect": [
+              20,
+              20,
+              132,
+              24
+            ],
+            "changed_blocks": 82,
+            "authorized_blocks": 198,
+            "untouched_blocks_preserved": true,
+            "alignment_padding_preserved": true,
+            "unchanged_region_blocks_preserved": 116
+          },
+          {
+            "rect": [
+              20,
+              48,
+              132,
+              24
+            ],
+            "changed_blocks": 83,
+            "authorized_blocks": 198,
+            "untouched_blocks_preserved": true,
+            "alignment_padding_preserved": true,
+            "unchanged_region_blocks_preserved": 115
+          },
+          {
+            "rect": [
+              8,
+              80,
+              116,
+              28
+            ],
+            "changed_blocks": 145,
+            "authorized_blocks": 203,
+            "untouched_blocks_preserved": true,
+            "alignment_padding_preserved": true,
+            "unchanged_region_blocks_preserved": 58
+          }
+        ],
+        "changed_blocks": 401,
+        "authorized_blocks": 754,
+        "untouched_blocks_preserved": true,
+        "alignment_padding_preserved": true,
+        "profile": {
+          "kind": "xbox-inline-bc-v1",
+          "format": 7
+        },
+        "storage_origin_blocks": [
+          0,
+          0
+        ],
+        "channel_mode": "rgba",
+        "unchanged_region_blocks_preserved": 353,
+        "alpha_encoding": "adaptive-range",
+        "protected_regions": [
+          {
+            "id": "original_SP_acronym",
+            "rect": [
+              124,
+              80,
+              32,
+              32
+            ],
+            "before_rgba_sha256": "7694d975ee12d0e85eab629864d28a27007cfa758d565c65855dbcbe623bd662",
+            "after_rgba_sha256": "7694d975ee12d0e85eab629864d28a27007cfa758d565c65855dbcbe623bd662",
+            "blocks_preserved": true
+          },
+          {
+            "id": "original77_and_ring",
+            "rect": [
+              228,
+              72,
+              48,
+              48
+            ],
+            "before_rgba_sha256": "a6b3fc2bff2ccc02951f9d506c4d1d92a7325f751c4ba46e136fc66f401578ca",
+            "after_rgba_sha256": "a6b3fc2bff2ccc02951f9d506c4d1d92a7325f751c4ba46e136fc66f401578ca",
+            "blocks_preserved": true
+          }
+        ]
+      },
+      "manually_reviewed_native_output": true
+    },
+    {
+      "reference_id": 258,
+      "input_objects": [
+        258
+      ],
+      "canonical_path": "tutorial_20_1.tutorial_20_img3",
+      "namespace_guid": "d1b25c9043ace3b2b722d8bc86c46525",
+      "layers": 5,
+      "labels": [
+        {
+          "id": "tutorial_ui_258_kick_top",
+          "text": "凌空震踢",
+          "rect": [
+            184,
+            24,
+            128,
+            28
+          ],
+          "font_size": 20,
+          "font": {
+            "path": "build/font-source/NotoSansCJKsc-Regular.otf",
+            "sha256": "2c76254f6fc379fddfce0a7e84fb5385bb135d3e399294f6eeb6680d0365b74b"
+          },
+          "align": "center",
+          "ink_padding": {
+            "x": 1,
+            "y": 0
+          },
+          "style": {
+            "fill": [
+              240,
+              240,
+              240,
+              255
+            ],
+            "stroke_fill": [
+              20,
+              20,
+              20,
+              230
+            ],
+            "shadow_fill": [
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          "restoration": {
+            "source_rgba_sha256": "0f3ac10238af58ce36b776bcad5e960a346366a9690bb1e1b17bd667068092e9",
+            "mask": {
+              "path": "locales/zh-Hans/texture-overlays/restorations/tutorial_ui_258_kick_top.mask.png",
+              "sha256": "87cead2f386de1a2ed45b1dd06a69f21d6ea6980703afa1004b0dfde4b371222"
+            },
+            "patch": {
+              "path": "locales/zh-Hans/texture-overlays/restorations/tutorial_ui_258_kick_top.patch.png",
+              "sha256": "3419be593041977ab21e3e9fb408a39f27a2bc46e985d0444a8392d6f94fc900"
+            }
+          }
+        },
+        {
+          "id": "tutorial_ui_258_kick_bottom",
+          "text": "凌空震踢",
+          "rect": [
+            144,
+            160,
+            136,
+            28
+          ],
+          "font_size": 20,
+          "font": {
+            "path": "build/font-source/NotoSansCJKsc-Regular.otf",
+            "sha256": "2c76254f6fc379fddfce0a7e84fb5385bb135d3e399294f6eeb6680d0365b74b"
+          },
+          "align": "center",
+          "ink_padding": {
+            "x": 1,
+            "y": 0
+          },
+          "style": {
+            "fill": [
+              240,
+              240,
+              240,
+              255
+            ],
+            "stroke_fill": [
+              20,
+              20,
+              20,
+              230
+            ],
+            "shadow_fill": [
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          "restoration": {
+            "source_rgba_sha256": "c9aa23671215fb7319d1387905af52dd44456a9edb28a2cb1ad537bb10b21095",
+            "mask": {
+              "path": "locales/zh-Hans/texture-overlays/restorations/tutorial_ui_258_kick_bottom.mask.png",
+              "sha256": "bbbee0a97a7e11202264cacf5cf4c6993ab28af0528ca52e71d42c3821753728"
+            },
+            "patch": {
+              "path": "locales/zh-Hans/texture-overlays/restorations/tutorial_ui_258_kick_bottom.patch.png",
+              "sha256": "dd5b0958e01d33845f06f93c29169d760cb28976db7093d5e53f09e3510d387a"
+            }
+          }
+        },
+        {
+          "id": "tutorial_ui_258_damage",
+          "text": "伤害",
+          "rect": [
+            196,
+            64,
+            100,
+            32
+          ],
+          "font_size": 22,
+          "font": {
+            "path": "build/font-source/NotoSansCJKsc-Regular.otf",
+            "sha256": "2c76254f6fc379fddfce0a7e84fb5385bb135d3e399294f6eeb6680d0365b74b"
+          },
+          "align": "left",
+          "ink_padding": {
+            "x": 1,
+            "y": 0
+          },
+          "style": {
+            "fill": [
+              240,
+              240,
+              240,
+              255
+            ],
+            "stroke_fill": [
+              20,
+              20,
+              20,
+              230
+            ],
+            "shadow_fill": [
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          "restoration": {
+            "source_rgba_sha256": "37e26cea9e7eeb4bedbfa4b2ef7bc3614c3f8bbc58dd84b4c657d31dd591cf15",
+            "mask": {
+              "path": "locales/zh-Hans/texture-overlays/restorations/tutorial_ui_258_damage.mask.png",
+              "sha256": "26d83789c46793ea42b21d3616103a715aaa17b16ec56c6034c7a04faced80d9"
+            },
+            "patch": {
+              "path": "locales/zh-Hans/texture-overlays/restorations/tutorial_ui_258_damage.patch.png",
+              "sha256": "c56f5af4cd641beb221b3308c9053aa5f76b7443af51340cc7419d9170f936ec"
+            }
+          }
+        },
+        {
+          "id": "tutorial_ui_258_stamina_cost",
+          "text": "耐力消耗",
+          "rect": [
+            196,
+            96,
+            128,
+            32
+          ],
+          "font_size": 20,
+          "font": {
+            "path": "build/font-source/NotoSansCJKsc-Regular.otf",
+            "sha256": "2c76254f6fc379fddfce0a7e84fb5385bb135d3e399294f6eeb6680d0365b74b"
+          },
+          "align": "left",
+          "ink_padding": {
+            "x": 1,
+            "y": 0
+          },
+          "style": {
+            "fill": [
+              82,
+              82,
+              82,
+              255
+            ],
+            "stroke_fill": [
+              20,
+              20,
+              20,
+              230
+            ],
+            "shadow_fill": [
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          "restoration": {
+            "source_rgba_sha256": "20e3fe35b553165a6c6da66a4349d3a6f0ea3d671a4dabfa3dedaa435affb967",
+            "mask": {
+              "path": "locales/zh-Hans/texture-overlays/restorations/tutorial_ui_258_stamina_cost.mask.png",
+              "sha256": "fc0aacd325455ee6b0ea1225a29a2b825f68d073f5e0628bb5fecb6ee393c7b5"
+            },
+            "patch": {
+              "path": "locales/zh-Hans/texture-overlays/restorations/tutorial_ui_258_stamina_cost.patch.png",
+              "sha256": "b24991efdfd4d39fb6a7c3947a8dbf41c3438af4795f7c76fc47ae8dff7324d5"
+            }
+          }
+        },
+        {
+          "id": "tutorial_ui_258_defence",
+          "text": "防御",
+          "rect": [
+            308,
+            160,
+            64,
+            28
+          ],
+          "font_size": 16,
+          "font": {
+            "path": "build/font-source/NotoSansCJKsc-Regular.otf",
+            "sha256": "2c76254f6fc379fddfce0a7e84fb5385bb135d3e399294f6eeb6680d0365b74b"
+          },
+          "align": "center",
+          "ink_padding": {
+            "x": 1,
+            "y": 0
+          },
+          "style": {
+            "fill": [
+              230,
+              235,
+              245,
+              255
+            ],
+            "stroke_fill": [
+              20,
+              20,
+              20,
+              230
+            ],
+            "shadow_fill": [
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          "restoration": {
+            "source_rgba_sha256": "406520e5ae96d90d8ca9f9259203a1b6793ae4c07b30367440bcacf1f8a1dd3a",
+            "mask": {
+              "path": "locales/zh-Hans/texture-overlays/restorations/tutorial_ui_258_defence.mask.png",
+              "sha256": "7a3f04d79c25ae61955ef599b8225d214d32562639d46527217d18e9f8f0dc5e"
+            },
+            "patch": {
+              "path": "locales/zh-Hans/texture-overlays/restorations/tutorial_ui_258_defence.patch.png",
+              "sha256": "bf21fd5f68eb9603b5b1c10f370f8b9c0f8160e012c6e129f0b2909c80d3fcb9"
+            }
+          }
+        }
+      ],
+      "original_rgba_sha256": "601acb21d5944856404068e40131a73518579107402b1b7df50e292088c04d2b",
+      "actual_native_after_rgba_sha256": "9bfd2047e22f261543290320f815b5c6513a96609c9ee63cc7b00c256dddedfe",
+      "native_encoded_proof": {
+        "regions": [
+          {
+            "rect": [
+              184,
+              24,
+              128,
+              28
+            ],
+            "changed_blocks": 193,
+            "authorized_blocks": 224,
+            "untouched_blocks_preserved": true,
+            "alignment_padding_preserved": true,
+            "unchanged_region_blocks_preserved": 31
+          },
+          {
+            "rect": [
+              144,
+              160,
+              136,
+              28
+            ],
+            "changed_blocks": 169,
+            "authorized_blocks": 238,
+            "untouched_blocks_preserved": true,
+            "alignment_padding_preserved": true,
+            "unchanged_region_blocks_preserved": 67
+          },
+          {
+            "rect": [
+              196,
+              64,
+              100,
+              32
+            ],
+            "changed_blocks": 120,
+            "authorized_blocks": 200,
+            "untouched_blocks_preserved": true,
+            "alignment_padding_preserved": true,
+            "unchanged_region_blocks_preserved": 80
+          },
+          {
+            "rect": [
+              196,
+              96,
+              128,
+              32
+            ],
+            "changed_blocks": 183,
+            "authorized_blocks": 256,
+            "untouched_blocks_preserved": true,
+            "alignment_padding_preserved": true,
+            "unchanged_region_blocks_preserved": 73
+          },
+          {
+            "rect": [
+              308,
+              160,
+              64,
+              28
+            ],
+            "changed_blocks": 54,
+            "authorized_blocks": 112,
+            "untouched_blocks_preserved": true,
+            "alignment_padding_preserved": true,
+            "unchanged_region_blocks_preserved": 58
+          }
+        ],
+        "changed_blocks": 719,
+        "authorized_blocks": 1030,
+        "untouched_blocks_preserved": true,
+        "alignment_padding_preserved": true,
+        "profile": {
+          "kind": "xbox-inline-bc-v1",
+          "format": 7
+        },
+        "storage_origin_blocks": [
+          0,
+          0
+        ],
+        "channel_mode": "rgba",
+        "unchanged_region_blocks_preserved": 309,
+        "alpha_encoding": "adaptive-range",
+        "protected_regions": [
+          {
+            "id": "original_plus20percent",
+            "rect": [
+              296,
+              64,
+              60,
+              32
+            ],
+            "before_rgba_sha256": "b1ee56a68699fb4e7f79695e6021d92ae540275f851c4d377a6079d791aea3a0",
+            "after_rgba_sha256": "b1ee56a68699fb4e7f79695e6021d92ae540275f851c4d377a6079d791aea3a0",
+            "blocks_preserved": true
+          },
+          {
+            "id": "original_minus15percent",
+            "rect": [
+              324,
+              96,
+              56,
+              32
+            ],
+            "before_rgba_sha256": "7987485ae7cde4f3055c817aa0c18fd0aa9f2d0c1e59ac26b2c413e08553e4b2",
+            "after_rgba_sha256": "7987485ae7cde4f3055c817aa0c18fd0aa9f2d0c1e59ac26b2c413e08553e4b2",
+            "blocks_preserved": true
+          },
+          {
+            "id": "original_plus5",
+            "rect": [
+              372,
+              164,
+              36,
+              24
+            ],
+            "before_rgba_sha256": "9d8eeda563f8c16023177c36bc4d674df4352626d0421971165fc216b35a8821",
+            "after_rgba_sha256": "9d8eeda563f8c16023177c36bc4d674df4352626d0421971165fc216b35a8821",
+            "blocks_preserved": true
+          },
+          {
+            "id": "unbound_cropped_faded_background_label",
+            "rect": [
+              104,
+              76,
+              72,
+              32
+            ],
+            "before_rgba_sha256": "c018f76012e935772eea809cba69614a135cf80d9418b2ff5d864272d2ee05c7",
+            "after_rgba_sha256": "c018f76012e935772eea809cba69614a135cf80d9418b2ff5d864272d2ee05c7",
+            "blocks_preserved": true
+          }
+        ]
+      },
+      "manually_reviewed_native_output": true
+    },
+    {
+      "reference_id": 273,
+      "input_objects": [
+        273
+      ],
+      "canonical_path": "tutorial_20_3.tutorial_20_img3",
+      "namespace_guid": "34d2a05e44e356970edc6c8773e71799",
+      "layers": 5,
+      "labels": [
+        {
+          "id": "tutorial_ui_273_kick_top",
+          "text": "凌空震踢",
+          "rect": [
+            184,
+            24,
+            128,
+            28
+          ],
+          "font_size": 20,
+          "font": {
+            "path": "build/font-source/NotoSansCJKsc-Regular.otf",
+            "sha256": "2c76254f6fc379fddfce0a7e84fb5385bb135d3e399294f6eeb6680d0365b74b"
+          },
+          "align": "center",
+          "ink_padding": {
+            "x": 1,
+            "y": 0
+          },
+          "style": {
+            "fill": [
+              240,
+              240,
+              240,
+              255
+            ],
+            "stroke_fill": [
+              20,
+              20,
+              20,
+              230
+            ],
+            "shadow_fill": [
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          "restoration": {
+            "source_rgba_sha256": "0f3ac10238af58ce36b776bcad5e960a346366a9690bb1e1b17bd667068092e9",
+            "mask": {
+              "path": "locales/zh-Hans/texture-overlays/restorations/tutorial_ui_273_kick_top.mask.png",
+              "sha256": "87cead2f386de1a2ed45b1dd06a69f21d6ea6980703afa1004b0dfde4b371222"
+            },
+            "patch": {
+              "path": "locales/zh-Hans/texture-overlays/restorations/tutorial_ui_273_kick_top.patch.png",
+              "sha256": "3419be593041977ab21e3e9fb408a39f27a2bc46e985d0444a8392d6f94fc900"
+            }
+          }
+        },
+        {
+          "id": "tutorial_ui_273_kick_bottom",
+          "text": "凌空震踢",
+          "rect": [
+            144,
+            160,
+            136,
+            28
+          ],
+          "font_size": 20,
+          "font": {
+            "path": "build/font-source/NotoSansCJKsc-Regular.otf",
+            "sha256": "2c76254f6fc379fddfce0a7e84fb5385bb135d3e399294f6eeb6680d0365b74b"
+          },
+          "align": "center",
+          "ink_padding": {
+            "x": 1,
+            "y": 0
+          },
+          "style": {
+            "fill": [
+              240,
+              240,
+              240,
+              255
+            ],
+            "stroke_fill": [
+              20,
+              20,
+              20,
+              230
+            ],
+            "shadow_fill": [
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          "restoration": {
+            "source_rgba_sha256": "c9aa23671215fb7319d1387905af52dd44456a9edb28a2cb1ad537bb10b21095",
+            "mask": {
+              "path": "locales/zh-Hans/texture-overlays/restorations/tutorial_ui_273_kick_bottom.mask.png",
+              "sha256": "bbbee0a97a7e11202264cacf5cf4c6993ab28af0528ca52e71d42c3821753728"
+            },
+            "patch": {
+              "path": "locales/zh-Hans/texture-overlays/restorations/tutorial_ui_273_kick_bottom.patch.png",
+              "sha256": "dd5b0958e01d33845f06f93c29169d760cb28976db7093d5e53f09e3510d387a"
+            }
+          }
+        },
+        {
+          "id": "tutorial_ui_273_damage",
+          "text": "伤害",
+          "rect": [
+            196,
+            64,
+            100,
+            32
+          ],
+          "font_size": 22,
+          "font": {
+            "path": "build/font-source/NotoSansCJKsc-Regular.otf",
+            "sha256": "2c76254f6fc379fddfce0a7e84fb5385bb135d3e399294f6eeb6680d0365b74b"
+          },
+          "align": "left",
+          "ink_padding": {
+            "x": 1,
+            "y": 0
+          },
+          "style": {
+            "fill": [
+              240,
+              240,
+              240,
+              255
+            ],
+            "stroke_fill": [
+              20,
+              20,
+              20,
+              230
+            ],
+            "shadow_fill": [
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          "restoration": {
+            "source_rgba_sha256": "37e26cea9e7eeb4bedbfa4b2ef7bc3614c3f8bbc58dd84b4c657d31dd591cf15",
+            "mask": {
+              "path": "locales/zh-Hans/texture-overlays/restorations/tutorial_ui_273_damage.mask.png",
+              "sha256": "26d83789c46793ea42b21d3616103a715aaa17b16ec56c6034c7a04faced80d9"
+            },
+            "patch": {
+              "path": "locales/zh-Hans/texture-overlays/restorations/tutorial_ui_273_damage.patch.png",
+              "sha256": "c56f5af4cd641beb221b3308c9053aa5f76b7443af51340cc7419d9170f936ec"
+            }
+          }
+        },
+        {
+          "id": "tutorial_ui_273_stamina_cost",
+          "text": "耐力消耗",
+          "rect": [
+            196,
+            96,
+            128,
+            32
+          ],
+          "font_size": 20,
+          "font": {
+            "path": "build/font-source/NotoSansCJKsc-Regular.otf",
+            "sha256": "2c76254f6fc379fddfce0a7e84fb5385bb135d3e399294f6eeb6680d0365b74b"
+          },
+          "align": "left",
+          "ink_padding": {
+            "x": 1,
+            "y": 0
+          },
+          "style": {
+            "fill": [
+              82,
+              82,
+              82,
+              255
+            ],
+            "stroke_fill": [
+              20,
+              20,
+              20,
+              230
+            ],
+            "shadow_fill": [
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          "restoration": {
+            "source_rgba_sha256": "20e3fe35b553165a6c6da66a4349d3a6f0ea3d671a4dabfa3dedaa435affb967",
+            "mask": {
+              "path": "locales/zh-Hans/texture-overlays/restorations/tutorial_ui_273_stamina_cost.mask.png",
+              "sha256": "fc0aacd325455ee6b0ea1225a29a2b825f68d073f5e0628bb5fecb6ee393c7b5"
+            },
+            "patch": {
+              "path": "locales/zh-Hans/texture-overlays/restorations/tutorial_ui_273_stamina_cost.patch.png",
+              "sha256": "b24991efdfd4d39fb6a7c3947a8dbf41c3438af4795f7c76fc47ae8dff7324d5"
+            }
+          }
+        },
+        {
+          "id": "tutorial_ui_273_defence",
+          "text": "防御",
+          "rect": [
+            308,
+            160,
+            64,
+            28
+          ],
+          "font_size": 16,
+          "font": {
+            "path": "build/font-source/NotoSansCJKsc-Regular.otf",
+            "sha256": "2c76254f6fc379fddfce0a7e84fb5385bb135d3e399294f6eeb6680d0365b74b"
+          },
+          "align": "center",
+          "ink_padding": {
+            "x": 1,
+            "y": 0
+          },
+          "style": {
+            "fill": [
+              230,
+              235,
+              245,
+              255
+            ],
+            "stroke_fill": [
+              20,
+              20,
+              20,
+              230
+            ],
+            "shadow_fill": [
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          "restoration": {
+            "source_rgba_sha256": "406520e5ae96d90d8ca9f9259203a1b6793ae4c07b30367440bcacf1f8a1dd3a",
+            "mask": {
+              "path": "locales/zh-Hans/texture-overlays/restorations/tutorial_ui_273_defence.mask.png",
+              "sha256": "7a3f04d79c25ae61955ef599b8225d214d32562639d46527217d18e9f8f0dc5e"
+            },
+            "patch": {
+              "path": "locales/zh-Hans/texture-overlays/restorations/tutorial_ui_273_defence.patch.png",
+              "sha256": "bf21fd5f68eb9603b5b1c10f370f8b9c0f8160e012c6e129f0b2909c80d3fcb9"
+            }
+          }
+        }
+      ],
+      "original_rgba_sha256": "601acb21d5944856404068e40131a73518579107402b1b7df50e292088c04d2b",
+      "actual_native_after_rgba_sha256": "9bfd2047e22f261543290320f815b5c6513a96609c9ee63cc7b00c256dddedfe",
+      "native_encoded_proof": {
+        "regions": [
+          {
+            "rect": [
+              184,
+              24,
+              128,
+              28
+            ],
+            "changed_blocks": 193,
+            "authorized_blocks": 224,
+            "untouched_blocks_preserved": true,
+            "alignment_padding_preserved": true,
+            "unchanged_region_blocks_preserved": 31
+          },
+          {
+            "rect": [
+              144,
+              160,
+              136,
+              28
+            ],
+            "changed_blocks": 169,
+            "authorized_blocks": 238,
+            "untouched_blocks_preserved": true,
+            "alignment_padding_preserved": true,
+            "unchanged_region_blocks_preserved": 67
+          },
+          {
+            "rect": [
+              196,
+              64,
+              100,
+              32
+            ],
+            "changed_blocks": 120,
+            "authorized_blocks": 200,
+            "untouched_blocks_preserved": true,
+            "alignment_padding_preserved": true,
+            "unchanged_region_blocks_preserved": 80
+          },
+          {
+            "rect": [
+              196,
+              96,
+              128,
+              32
+            ],
+            "changed_blocks": 183,
+            "authorized_blocks": 256,
+            "untouched_blocks_preserved": true,
+            "alignment_padding_preserved": true,
+            "unchanged_region_blocks_preserved": 73
+          },
+          {
+            "rect": [
+              308,
+              160,
+              64,
+              28
+            ],
+            "changed_blocks": 54,
+            "authorized_blocks": 112,
+            "untouched_blocks_preserved": true,
+            "alignment_padding_preserved": true,
+            "unchanged_region_blocks_preserved": 58
+          }
+        ],
+        "changed_blocks": 719,
+        "authorized_blocks": 1030,
+        "untouched_blocks_preserved": true,
+        "alignment_padding_preserved": true,
+        "profile": {
+          "kind": "xbox-inline-bc-v1",
+          "format": 7
+        },
+        "storage_origin_blocks": [
+          0,
+          0
+        ],
+        "channel_mode": "rgba",
+        "unchanged_region_blocks_preserved": 309,
+        "alpha_encoding": "adaptive-range",
+        "protected_regions": [
+          {
+            "id": "original_plus20percent",
+            "rect": [
+              296,
+              64,
+              60,
+              32
+            ],
+            "before_rgba_sha256": "b1ee56a68699fb4e7f79695e6021d92ae540275f851c4d377a6079d791aea3a0",
+            "after_rgba_sha256": "b1ee56a68699fb4e7f79695e6021d92ae540275f851c4d377a6079d791aea3a0",
+            "blocks_preserved": true
+          },
+          {
+            "id": "original_minus15percent",
+            "rect": [
+              324,
+              96,
+              56,
+              32
+            ],
+            "before_rgba_sha256": "7987485ae7cde4f3055c817aa0c18fd0aa9f2d0c1e59ac26b2c413e08553e4b2",
+            "after_rgba_sha256": "7987485ae7cde4f3055c817aa0c18fd0aa9f2d0c1e59ac26b2c413e08553e4b2",
+            "blocks_preserved": true
+          },
+          {
+            "id": "original_plus5",
+            "rect": [
+              372,
+              164,
+              36,
+              24
+            ],
+            "before_rgba_sha256": "9d8eeda563f8c16023177c36bc4d674df4352626d0421971165fc216b35a8821",
+            "after_rgba_sha256": "9d8eeda563f8c16023177c36bc4d674df4352626d0421971165fc216b35a8821",
+            "blocks_preserved": true
+          },
+          {
+            "id": "unbound_cropped_faded_background_label",
+            "rect": [
+              104,
+              76,
+              72,
+              32
+            ],
+            "before_rgba_sha256": "c018f76012e935772eea809cba69614a135cf80d9418b2ff5d864272d2ee05c7",
+            "after_rgba_sha256": "c018f76012e935772eea809cba69614a135cf80d9418b2ff5d864272d2ee05c7",
+            "blocks_preserved": true
+          }
+        ]
+      },
+      "manually_reviewed_native_output": true
+    },
+    {
+      "reference_id": 291,
+      "input_objects": [
+        291
+      ],
+      "canonical_path": "tutorial_20_6.tutorial_20_img6",
+      "namespace_guid": "0ed47e0541f3088552c237ae5cd56c6f",
+      "layers": 2,
+      "labels": [
+        {
+          "id": "tutorial_ui_291_cure",
+          "text": "疗愈术",
+          "rect": [
+            112,
+            196,
+            76,
+            40
+          ],
+          "font_size": 20,
+          "font": {
+            "path": "build/font-source/NotoSansCJKsc-Regular.otf",
+            "sha256": "2c76254f6fc379fddfce0a7e84fb5385bb135d3e399294f6eeb6680d0365b74b"
+          },
+          "align": "center",
+          "ink_padding": {
+            "x": 1,
+            "y": 0
+          },
+          "style": {
+            "fill": [
+              240,
+              240,
+              240,
+              255
+            ],
+            "stroke_fill": [
+              20,
+              20,
+              20,
+              230
+            ],
+            "shadow_fill": [
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          "restoration": {
+            "source_rgba_sha256": "73c8831cd9b934c5fe0f3b45560865fc600f1c6c84992f883ae94a122e3a357b",
+            "mask": {
+              "path": "locales/zh-Hans/texture-overlays/restorations/tutorial_ui_291_cure.mask.png",
+              "sha256": "736b3afbd182af3006d2a074ee7fd99f416a9160120d4e4b4a6899fc3af981ec"
+            },
+            "patch": {
+              "path": "locales/zh-Hans/texture-overlays/restorations/tutorial_ui_291_cure.patch.png",
+              "sha256": "6de27dcae7c05a8e67ce910713ccea8edc3aba1f20205227dccf4ef4c3b1fe09"
+            }
+          }
+        },
+        {
+          "id": "tutorial_ui_291_wind_cutter",
+          "text": "风刃斩",
+          "rect": [
+            348,
+            196,
+            100,
+            40
+          ],
+          "font_size": 20,
+          "font": {
+            "path": "build/font-source/NotoSansCJKsc-Regular.otf",
+            "sha256": "2c76254f6fc379fddfce0a7e84fb5385bb135d3e399294f6eeb6680d0365b74b"
+          },
+          "align": "center",
+          "ink_padding": {
+            "x": 1,
+            "y": 0
+          },
+          "style": {
+            "fill": [
+              240,
+              240,
+              240,
+              255
+            ],
+            "stroke_fill": [
+              20,
+              20,
+              20,
+              230
+            ],
+            "shadow_fill": [
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          "restoration": {
+            "source_rgba_sha256": "9e66c32b2fa086bee9bc6b4ec161c3f26871629f93a452f09dc1cb24c585d6bc",
+            "mask": {
+              "path": "locales/zh-Hans/texture-overlays/restorations/tutorial_ui_291_wind_cutter.mask.png",
+              "sha256": "b3060bf49cdd937764b9370e440ec5c55113fdfd2d82fcc3c1a022a820f9a2be"
+            },
+            "patch": {
+              "path": "locales/zh-Hans/texture-overlays/restorations/tutorial_ui_291_wind_cutter.patch.png",
+              "sha256": "c489bc73d7df1cab45320e60a7ffee26810003fd150d8acdf1619b49e8d12b20"
+            }
+          }
+        }
+      ],
+      "original_rgba_sha256": "ef50880dd990c3ddbe918631df392c976dfd827568e08676c27e98c57177a189",
+      "actual_native_after_rgba_sha256": "0c0308a9a9a222351405d90844cba35165cf15cda60735df0267c3b3e96e3a1c",
+      "native_encoded_proof": {
+        "regions": [
+          {
+            "rect": [
+              112,
+              196,
+              76,
+              40
+            ],
+            "changed_blocks": 115,
+            "authorized_blocks": 190,
+            "untouched_blocks_preserved": true,
+            "alignment_padding_preserved": true,
+            "unchanged_region_blocks_preserved": 74
+          },
+          {
+            "rect": [
+              348,
+              196,
+              100,
+              40
+            ],
+            "changed_blocks": 145,
+            "authorized_blocks": 250,
+            "untouched_blocks_preserved": true,
+            "alignment_padding_preserved": true,
+            "unchanged_region_blocks_preserved": 105
+          }
+        ],
+        "changed_blocks": 260,
+        "authorized_blocks": 440,
+        "untouched_blocks_preserved": true,
+        "alignment_padding_preserved": true,
+        "profile": {
+          "kind": "xbox-inline-bc-v1",
+          "format": 7
+        },
+        "storage_origin_blocks": [
+          0,
+          0
+        ],
+        "channel_mode": "rgba",
+        "unchanged_region_blocks_preserved": 179,
+        "alpha_encoding": "adaptive-range",
+        "protected_regions": [
+          {
+            "id": "left_action_art",
+            "rect": [
+              12,
+              24,
+              224,
+              168
+            ],
+            "before_rgba_sha256": "516071f101686b0eff072a5dd3db321290cd51c89414cfd4374f0815510c93c8",
+            "after_rgba_sha256": "516071f101686b0eff072a5dd3db321290cd51c89414cfd4374f0815510c93c8",
+            "blocks_preserved": true
+          },
+          {
+            "id": "right_action_art",
+            "rect": [
+              276,
+              24,
+              224,
+              168
+            ],
+            "before_rgba_sha256": "0988fcbb9ced5d36e523d7e4f4a2da9b68ae662293198b795571635b54f4f4ff",
+            "after_rgba_sha256": "0988fcbb9ced5d36e523d7e4f4a2da9b68ae662293198b795571635b54f4f4ff",
+            "blocks_preserved": true
+          },
+          {
+            "id": "left_original2_X",
+            "rect": [
+              188,
+              200,
+              52,
+              36
+            ],
+            "before_rgba_sha256": "95570dc3a383ff65bff56d03838b37be459518067cb77d89db4bde88597bafa0",
+            "after_rgba_sha256": "95570dc3a383ff65bff56d03838b37be459518067cb77d89db4bde88597bafa0",
+            "blocks_preserved": true
+          },
+          {
+            "id": "right_original2_X",
+            "rect": [
+              448,
+              200,
+              52,
+              36
+            ],
+            "before_rgba_sha256": "3fe096d28b2c3b1b24a8d0070716c2c26157e0682891b01bd786d77bce6eaa03",
+            "after_rgba_sha256": "3fe096d28b2c3b1b24a8d0070716c2c26157e0682891b01bd786d77bce6eaa03",
+            "blocks_preserved": true
+          }
+        ]
+      },
+      "manually_reviewed_native_output": true
+    },
+    {
+      "reference_id": 405,
+      "input_objects": [
+        405
+      ],
+      "canonical_path": "tutorial_33_1.tutorial_33_img0",
+      "namespace_guid": "5c871ccd4b2e2e60b67007a4a4c9af0d",
+      "layers": 4,
+      "labels": [
+        {
+          "id": "tutorial_ui_405_fire",
+          "text": "火",
+          "rect": [
+            40,
+            104,
+            56,
+            32
+          ],
+          "font_size": 20,
+          "font": {
+            "path": "build/font-source/NotoSansCJKsc-Regular.otf",
+            "sha256": "2c76254f6fc379fddfce0a7e84fb5385bb135d3e399294f6eeb6680d0365b74b"
+          },
+          "align": "center",
+          "ink_padding": {
+            "x": 1,
+            "y": 0
+          },
+          "style": {
+            "fill": [
+              240,
+              240,
+              240,
+              255
+            ],
+            "stroke_fill": [
+              20,
+              20,
+              20,
+              230
+            ],
+            "shadow_fill": [
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          "restoration": {
+            "source_rgba_sha256": "5f9e805c6dd4ffe36294b5fecd013e5ebfd1c3ead1d1914546fe932603ba7374",
+            "mask": {
+              "path": "locales/zh-Hans/texture-overlays/restorations/tutorial_ui_405_fire.mask.png",
+              "sha256": "4cc8ea690396d3017953380e2293697d0de9534b23d59dede83c2fbceaa48899"
+            },
+            "patch": {
+              "path": "locales/zh-Hans/texture-overlays/restorations/tutorial_ui_405_fire.patch.png",
+              "sha256": "dc526c680b053bf2ad2c3fd0e17c91a309f9acb4d64de3ccbfbacf766fe577c0"
+            }
+          }
+        },
+        {
+          "id": "tutorial_ui_405_water",
+          "text": "水",
+          "rect": [
+            168,
+            104,
+            56,
+            32
+          ],
+          "font_size": 20,
+          "font": {
+            "path": "build/font-source/NotoSansCJKsc-Regular.otf",
+            "sha256": "2c76254f6fc379fddfce0a7e84fb5385bb135d3e399294f6eeb6680d0365b74b"
+          },
+          "align": "center",
+          "ink_padding": {
+            "x": 1,
+            "y": 0
+          },
+          "style": {
+            "fill": [
+              240,
+              240,
+              240,
+              255
+            ],
+            "stroke_fill": [
+              20,
+              20,
+              20,
+              230
+            ],
+            "shadow_fill": [
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          "restoration": {
+            "source_rgba_sha256": "1d3e138f3a0140ad414144c1a01e658dbbfd70f615002d8a7ba58b092c12a01d",
+            "mask": {
+              "path": "locales/zh-Hans/texture-overlays/restorations/tutorial_ui_405_water.mask.png",
+              "sha256": "3102cfaead0b8ec8b51b442ed226644d7d777806b642dbf9a13d8d60cb4d46d4"
+            },
+            "patch": {
+              "path": "locales/zh-Hans/texture-overlays/restorations/tutorial_ui_405_water.patch.png",
+              "sha256": "52ef29a18be421a7f05d02253d0b7ff544f5f113162834e393c6124e5a447020"
+            }
+          }
+        },
+        {
+          "id": "tutorial_ui_405_lightning",
+          "text": "雷",
+          "rect": [
+            32,
+            224,
+            72,
+            32
+          ],
+          "font_size": 20,
+          "font": {
+            "path": "build/font-source/NotoSansCJKsc-Regular.otf",
+            "sha256": "2c76254f6fc379fddfce0a7e84fb5385bb135d3e399294f6eeb6680d0365b74b"
+          },
+          "align": "center",
+          "ink_padding": {
+            "x": 1,
+            "y": 0
+          },
+          "style": {
+            "fill": [
+              240,
+              240,
+              240,
+              255
+            ],
+            "stroke_fill": [
+              20,
+              20,
+              20,
+              230
+            ],
+            "shadow_fill": [
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          "restoration": {
+            "source_rgba_sha256": "d9ffff0afc4eafbf144c48ca86a5b1f379c41833cef00d05b2081f725af0a964",
+            "mask": {
+              "path": "locales/zh-Hans/texture-overlays/restorations/tutorial_ui_405_lightning.mask.png",
+              "sha256": "b6bbb03f2b5ce88691329b987f146ac91af2dc084943450ae2dab24cc3d3e47c"
+            },
+            "patch": {
+              "path": "locales/zh-Hans/texture-overlays/restorations/tutorial_ui_405_lightning.patch.png",
+              "sha256": "f1b3532b748b355b9782a77e8a33682084a3d41354438644ff931f693d685414"
+            }
+          }
+        },
+        {
+          "id": "tutorial_ui_405_wind",
+          "text": "风",
+          "rect": [
+            160,
+            224,
+            80,
+            32
+          ],
+          "font_size": 20,
+          "font": {
+            "path": "build/font-source/NotoSansCJKsc-Regular.otf",
+            "sha256": "2c76254f6fc379fddfce0a7e84fb5385bb135d3e399294f6eeb6680d0365b74b"
+          },
+          "align": "center",
+          "ink_padding": {
+            "x": 1,
+            "y": 0
+          },
+          "style": {
+            "fill": [
+              240,
+              240,
+              240,
+              255
+            ],
+            "stroke_fill": [
+              20,
+              20,
+              20,
+              230
+            ],
+            "shadow_fill": [
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          "restoration": {
+            "source_rgba_sha256": "d19f4e69c312a8d55c2e14275ab45183915ad536ae75d075d980ea8c36988c65",
+            "mask": {
+              "path": "locales/zh-Hans/texture-overlays/restorations/tutorial_ui_405_wind.mask.png",
+              "sha256": "4bbaa8a66913990b6c7faa308ef9436998f3c9b5c616dc2fab2e3c7b0e482196"
+            },
+            "patch": {
+              "path": "locales/zh-Hans/texture-overlays/restorations/tutorial_ui_405_wind.patch.png",
+              "sha256": "f4d21c246e1289714bea78daa7511da45da871dd9df91c1f1bb8b7366c47c30d"
+            }
+          }
+        }
+      ],
+      "original_rgba_sha256": "ef8c46a3d11acf695b08d1f02920986ad2006324227c2f2b33af4707798f6585",
+      "actual_native_after_rgba_sha256": "81d7b0f91789bd390eca9264ec8c0abe14f466431a201a25be7672d1e2489270",
+      "native_encoded_proof": {
+        "regions": [
+          {
+            "rect": [
+              40,
+              104,
+              56,
+              32
+            ],
+            "changed_blocks": 36,
+            "authorized_blocks": 112,
+            "untouched_blocks_preserved": true,
+            "alignment_padding_preserved": true,
+            "unchanged_region_blocks_preserved": 75
+          },
+          {
+            "rect": [
+              168,
+              104,
+              56,
+              32
+            ],
+            "changed_blocks": 46,
+            "authorized_blocks": 112,
+            "untouched_blocks_preserved": true,
+            "alignment_padding_preserved": true,
+            "unchanged_region_blocks_preserved": 65
+          },
+          {
+            "rect": [
+              32,
+              224,
+              72,
+              32
+            ],
+            "changed_blocks": 69,
+            "authorized_blocks": 144,
+            "untouched_blocks_preserved": true,
+            "alignment_padding_preserved": true,
+            "unchanged_region_blocks_preserved": 74
+          },
+          {
+            "rect": [
+              160,
+              224,
+              80,
+              32
+            ],
+            "changed_blocks": 63,
+            "authorized_blocks": 160,
+            "untouched_blocks_preserved": true,
+            "alignment_padding_preserved": true,
+            "unchanged_region_blocks_preserved": 97
+          }
+        ],
+        "changed_blocks": 214,
+        "authorized_blocks": 528,
+        "untouched_blocks_preserved": true,
+        "alignment_padding_preserved": true,
+        "profile": {
+          "kind": "xbox-inline-bc-v1",
+          "format": 7
+        },
+        "storage_origin_blocks": [
+          0,
+          0
+        ],
+        "channel_mode": "rgba",
+        "unchanged_region_blocks_preserved": 311,
+        "alpha_encoding": "adaptive-range",
+        "protected_regions": [
+          {
+            "id": "upper_element_illustrations",
+            "rect": [
+              0,
+              0,
+              256,
+              104
+            ],
+            "before_rgba_sha256": "15413f327f9afc5ebc408fe08fdb2d45748ee5fba650bba3015cbf72e99f7c2f",
+            "after_rgba_sha256": "15413f327f9afc5ebc408fe08fdb2d45748ee5fba650bba3015cbf72e99f7c2f",
+            "blocks_preserved": true
+          },
+          {
+            "id": "lower_element_illustrations",
+            "rect": [
+              0,
+              136,
+              256,
+              88
+            ],
+            "before_rgba_sha256": "1086e53b1c02886128e64f0264c869bb4a67ada3ba4a4b647a46b65fd89f121b",
+            "after_rgba_sha256": "1086e53b1c02886128e64f0264c869bb4a67ada3ba4a4b647a46b65fd89f121b",
+            "blocks_preserved": true
+          }
+        ]
+      },
+      "manually_reviewed_native_output": true
+    }
+  ],
+  "aliases": [
+    {
+      "disc": 1,
+      "path": "MC2Game/CookedXenon/Tutorial_14_1.xxx",
+      "source_sha256": "9274e165555e15e685c17bc3693532f6068258fa04d21d18f78485191053baa6",
+      "export": 28,
+      "object": "Tutorial_14_img2",
+      "canonical_identity": {
+        "canonical_path": "tutorial_14_1.tutorial_14_img2",
+        "class_path": "engine.texture2d",
+        "forced_export": false,
+        "namespace_guid": "c84cf1ce4bbf43eec9d4c894073ea623",
+        "namespace_root": null,
+        "runtime_instance_selected": false
+      },
+      "selected_ids": [
+        138
+      ],
+      "payload_sha256": "f688e96ea978f458d54f0b94e3b61e51119441dde14ffcb83a74059a0855bd40",
+      "tiled_sha256": "ae772b8d10f5afd00cb36f41d04fcc6ae5d1db3c1cd5cbee10a6674ffb34f651",
+      "rgba_sha256": "994dadd0acfec6cba79944601950f176994cc2288a86074d68cab7b07bb7e6dd",
+      "width": 512,
+      "height": 256,
+      "group_reference_id": 138,
+      "source_rehashed": true
+    },
+    {
+      "disc": 1,
+      "path": "MC2Game/CookedXenon/Tutorial_20_1.xxx",
+      "source_sha256": "4c62c7d872d9de628229121381024ba6384d25ca570d01e75676b7abe9c29997",
+      "export": 24,
+      "object": "Tutorial_20_img2",
+      "canonical_identity": {
+        "canonical_path": "tutorial_20_1.tutorial_20_img2",
+        "class_path": "engine.texture2d",
+        "forced_export": false,
+        "namespace_guid": "d1b25c9043ace3b2b722d8bc86c46525",
+        "namespace_root": null,
+        "runtime_instance_selected": false
+      },
+      "selected_ids": [
+        257
+      ],
+      "payload_sha256": "7b4a15f67e56f1bd934c7c0991afce2bada611b8aea38ece2429e9f70bc65b52",
+      "tiled_sha256": "f66a312715548f4b0ecd4eb97d93085fe7b9ab4b83d084decd3358d4e649828e",
+      "rgba_sha256": "c62fafb26b229b5846ed7486df1b259e39c91e9979f2f5daa6d69b1a0f8f628b",
+      "width": 512,
+      "height": 128,
+      "group_reference_id": 257,
+      "source_rehashed": true
+    },
+    {
+      "disc": 1,
+      "path": "MC2Game/CookedXenon/Tutorial_20_1.xxx",
+      "source_sha256": "4c62c7d872d9de628229121381024ba6384d25ca570d01e75676b7abe9c29997",
+      "export": 25,
+      "object": "Tutorial_20_img3",
+      "canonical_identity": {
+        "canonical_path": "tutorial_20_1.tutorial_20_img3",
+        "class_path": "engine.texture2d",
+        "forced_export": false,
+        "namespace_guid": "d1b25c9043ace3b2b722d8bc86c46525",
+        "namespace_root": null,
+        "runtime_instance_selected": false
+      },
+      "selected_ids": [
+        258
+      ],
+      "payload_sha256": "9772fd43d1ed4619bff16d1df28c8a6370a67cea3d71056911dbfc3c917470e5",
+      "tiled_sha256": "604b23792f97ba3da3ba001a381ac9e97e399a7dac8ba5d32a38f087b00d760e",
+      "rgba_sha256": "601acb21d5944856404068e40131a73518579107402b1b7df50e292088c04d2b",
+      "width": 512,
+      "height": 256,
+      "group_reference_id": 258,
+      "source_rehashed": true
+    },
+    {
+      "disc": 1,
+      "path": "MC2Game/CookedXenon/Tutorial_20_2.xxx",
+      "source_sha256": "c2a2471847e94863c73897148f1acff94343378c40da78b97c5d6430e96d69cf",
+      "export": 23,
+      "object": "Tutorial_20_img2",
+      "canonical_identity": {
+        "canonical_path": "tutorial_20_2.tutorial_20_img2",
+        "class_path": "engine.texture2d",
+        "forced_export": false,
+        "namespace_guid": "c8b0d7c84aec4dd82c528298ab0f7e6e",
+        "namespace_root": null,
+        "runtime_instance_selected": false
+      },
+      "selected_ids": [
+        266
+      ],
+      "payload_sha256": "db2ac36682f4e2e7bfa17115e5b052d4d90c0df006c71a45f43bf2e917afe74a",
+      "tiled_sha256": "f66a312715548f4b0ecd4eb97d93085fe7b9ab4b83d084decd3358d4e649828e",
+      "rgba_sha256": "c62fafb26b229b5846ed7486df1b259e39c91e9979f2f5daa6d69b1a0f8f628b",
+      "width": 512,
+      "height": 128,
+      "group_reference_id": 266,
+      "source_rehashed": true
+    },
+    {
+      "disc": 1,
+      "path": "MC2Game/CookedXenon/Tutorial_20_3.xxx",
+      "source_sha256": "43bed5d52ae7ffa8e3802e844935564cd554ade0dbef7a474793a6cf0111ac38",
+      "export": 22,
+      "object": "Tutorial_20_img3",
+      "canonical_identity": {
+        "canonical_path": "tutorial_20_3.tutorial_20_img3",
+        "class_path": "engine.texture2d",
+        "forced_export": false,
+        "namespace_guid": "34d2a05e44e356970edc6c8773e71799",
+        "namespace_root": null,
+        "runtime_instance_selected": false
+      },
+      "selected_ids": [
+        273
+      ],
+      "payload_sha256": "97c44d04163d32a4dd3ab5ed7c14c34e166136e68c1735ac3bc8a40d5596f446",
+      "tiled_sha256": "604b23792f97ba3da3ba001a381ac9e97e399a7dac8ba5d32a38f087b00d760e",
+      "rgba_sha256": "601acb21d5944856404068e40131a73518579107402b1b7df50e292088c04d2b",
+      "width": 512,
+      "height": 256,
+      "group_reference_id": 273,
+      "source_rehashed": true
+    },
+    {
+      "disc": 1,
+      "path": "MC2Game/CookedXenon/Tutorial_20_6.xxx",
+      "source_sha256": "35d8046d7bd548aabf3817f24b7cc9ba4b323322d7141138d81189035ecb3c96",
+      "export": 22,
+      "object": "Tutorial_20_img6",
+      "canonical_identity": {
+        "canonical_path": "tutorial_20_6.tutorial_20_img6",
+        "class_path": "engine.texture2d",
+        "forced_export": false,
+        "namespace_guid": "0ed47e0541f3088552c237ae5cd56c6f",
+        "namespace_root": null,
+        "runtime_instance_selected": false
+      },
+      "selected_ids": [
+        291
+      ],
+      "payload_sha256": "44e182b1051f235045ad24db56e12dfbefcdd21abbdbc78c7d861d90630d1165",
+      "tiled_sha256": "ec15103a7b5f0580af83a021f5becf733b02fb493a2f3073e783b0790c2c5db4",
+      "rgba_sha256": "ef50880dd990c3ddbe918631df392c976dfd827568e08676c27e98c57177a189",
+      "width": 512,
+      "height": 256,
+      "group_reference_id": 291,
+      "source_rehashed": true
+    },
+    {
+      "disc": 1,
+      "path": "MC2Game/CookedXenon/Tutorial_32_2.xxx",
+      "source_sha256": "36fde7182fbc6b3adffc7ca4d885616f3d2d4cb582322f1de8edfbcd8677e929",
+      "export": 23,
+      "object": "Tutorial_32_2_1",
+      "canonical_identity": {
+        "canonical_path": "tutorial_32_2.tutorial_32_2_1",
+        "class_path": "engine.texture2d",
+        "forced_export": false,
+        "namespace_guid": "6db7757c41ae6f9d0ee15ca71b76ba0f",
+        "namespace_root": null,
+        "runtime_instance_selected": false
+      },
+      "selected_ids": [
+        388
+      ],
+      "payload_sha256": "0027b5b89402a25604f3d8cc8a75389f781ef68cd710b78b72c08c07a466efa4",
+      "tiled_sha256": "6f2c8794aeb807b34bb8278f855fccc1b58cf166a4c135ec722945b70cbbe58b",
+      "rgba_sha256": "1b1fe8097b76061f0b8baa016c1e1ec61d628bc4ed9cedc82333127f6ba95eb9",
+      "width": 256,
+      "height": 256,
+      "group_reference_id": 388,
+      "source_rehashed": true
+    },
+    {
+      "disc": 1,
+      "path": "MC2Game/CookedXenon/Tutorial_33_1.xxx",
+      "source_sha256": "286731e7ea274994c5d3c336f8a84f638b5b1a14ffd77d3f78898bf82c20bc7a",
+      "export": 28,
+      "object": "Tutorial_33_img0",
+      "canonical_identity": {
+        "canonical_path": "tutorial_33_1.tutorial_33_img0",
+        "class_path": "engine.texture2d",
+        "forced_export": false,
+        "namespace_guid": "5c871ccd4b2e2e60b67007a4a4c9af0d",
+        "namespace_root": null,
+        "runtime_instance_selected": false
+      },
+      "selected_ids": [
+        405
+      ],
+      "payload_sha256": "0579347acb38d1184ec7fcba202e1f7b1a92368b1ae664ddfd6cf76ed37288c3",
+      "tiled_sha256": "ca82a079f62ee11c93499fb188fa0b570c020eec5008b53d5305d04914bb9359",
+      "rgba_sha256": "ef8c46a3d11acf695b08d1f02920986ad2006324227c2f2b33af4707798f6585",
+      "width": 256,
+      "height": 256,
+      "group_reference_id": 405,
+      "source_rehashed": true
+    },
+    {
+      "disc": 2,
+      "path": "MC2Game/CookedXenon/Tutorial_14_1.xxx",
+      "source_sha256": "9274e165555e15e685c17bc3693532f6068258fa04d21d18f78485191053baa6",
+      "export": 28,
+      "object": "Tutorial_14_img2",
+      "canonical_identity": {
+        "canonical_path": "tutorial_14_1.tutorial_14_img2",
+        "class_path": "engine.texture2d",
+        "forced_export": false,
+        "namespace_guid": "c84cf1ce4bbf43eec9d4c894073ea623",
+        "namespace_root": null,
+        "runtime_instance_selected": false
+      },
+      "selected_ids": [
+        138
+      ],
+      "payload_sha256": "f688e96ea978f458d54f0b94e3b61e51119441dde14ffcb83a74059a0855bd40",
+      "tiled_sha256": "ae772b8d10f5afd00cb36f41d04fcc6ae5d1db3c1cd5cbee10a6674ffb34f651",
+      "rgba_sha256": "994dadd0acfec6cba79944601950f176994cc2288a86074d68cab7b07bb7e6dd",
+      "width": 512,
+      "height": 256,
+      "group_reference_id": 138,
+      "source_rehashed": true
+    },
+    {
+      "disc": 2,
+      "path": "MC2Game/CookedXenon/Tutorial_20_1.xxx",
+      "source_sha256": "4c62c7d872d9de628229121381024ba6384d25ca570d01e75676b7abe9c29997",
+      "export": 24,
+      "object": "Tutorial_20_img2",
+      "canonical_identity": {
+        "canonical_path": "tutorial_20_1.tutorial_20_img2",
+        "class_path": "engine.texture2d",
+        "forced_export": false,
+        "namespace_guid": "d1b25c9043ace3b2b722d8bc86c46525",
+        "namespace_root": null,
+        "runtime_instance_selected": false
+      },
+      "selected_ids": [
+        257
+      ],
+      "payload_sha256": "7b4a15f67e56f1bd934c7c0991afce2bada611b8aea38ece2429e9f70bc65b52",
+      "tiled_sha256": "f66a312715548f4b0ecd4eb97d93085fe7b9ab4b83d084decd3358d4e649828e",
+      "rgba_sha256": "c62fafb26b229b5846ed7486df1b259e39c91e9979f2f5daa6d69b1a0f8f628b",
+      "width": 512,
+      "height": 128,
+      "group_reference_id": 257,
+      "source_rehashed": true
+    },
+    {
+      "disc": 2,
+      "path": "MC2Game/CookedXenon/Tutorial_20_1.xxx",
+      "source_sha256": "4c62c7d872d9de628229121381024ba6384d25ca570d01e75676b7abe9c29997",
+      "export": 25,
+      "object": "Tutorial_20_img3",
+      "canonical_identity": {
+        "canonical_path": "tutorial_20_1.tutorial_20_img3",
+        "class_path": "engine.texture2d",
+        "forced_export": false,
+        "namespace_guid": "d1b25c9043ace3b2b722d8bc86c46525",
+        "namespace_root": null,
+        "runtime_instance_selected": false
+      },
+      "selected_ids": [
+        258
+      ],
+      "payload_sha256": "9772fd43d1ed4619bff16d1df28c8a6370a67cea3d71056911dbfc3c917470e5",
+      "tiled_sha256": "604b23792f97ba3da3ba001a381ac9e97e399a7dac8ba5d32a38f087b00d760e",
+      "rgba_sha256": "601acb21d5944856404068e40131a73518579107402b1b7df50e292088c04d2b",
+      "width": 512,
+      "height": 256,
+      "group_reference_id": 258,
+      "source_rehashed": true
+    },
+    {
+      "disc": 2,
+      "path": "MC2Game/CookedXenon/Tutorial_20_2.xxx",
+      "source_sha256": "c2a2471847e94863c73897148f1acff94343378c40da78b97c5d6430e96d69cf",
+      "export": 23,
+      "object": "Tutorial_20_img2",
+      "canonical_identity": {
+        "canonical_path": "tutorial_20_2.tutorial_20_img2",
+        "class_path": "engine.texture2d",
+        "forced_export": false,
+        "namespace_guid": "c8b0d7c84aec4dd82c528298ab0f7e6e",
+        "namespace_root": null,
+        "runtime_instance_selected": false
+      },
+      "selected_ids": [
+        266
+      ],
+      "payload_sha256": "db2ac36682f4e2e7bfa17115e5b052d4d90c0df006c71a45f43bf2e917afe74a",
+      "tiled_sha256": "f66a312715548f4b0ecd4eb97d93085fe7b9ab4b83d084decd3358d4e649828e",
+      "rgba_sha256": "c62fafb26b229b5846ed7486df1b259e39c91e9979f2f5daa6d69b1a0f8f628b",
+      "width": 512,
+      "height": 128,
+      "group_reference_id": 266,
+      "source_rehashed": true
+    },
+    {
+      "disc": 2,
+      "path": "MC2Game/CookedXenon/Tutorial_20_3.xxx",
+      "source_sha256": "43bed5d52ae7ffa8e3802e844935564cd554ade0dbef7a474793a6cf0111ac38",
+      "export": 22,
+      "object": "Tutorial_20_img3",
+      "canonical_identity": {
+        "canonical_path": "tutorial_20_3.tutorial_20_img3",
+        "class_path": "engine.texture2d",
+        "forced_export": false,
+        "namespace_guid": "34d2a05e44e356970edc6c8773e71799",
+        "namespace_root": null,
+        "runtime_instance_selected": false
+      },
+      "selected_ids": [
+        273
+      ],
+      "payload_sha256": "97c44d04163d32a4dd3ab5ed7c14c34e166136e68c1735ac3bc8a40d5596f446",
+      "tiled_sha256": "604b23792f97ba3da3ba001a381ac9e97e399a7dac8ba5d32a38f087b00d760e",
+      "rgba_sha256": "601acb21d5944856404068e40131a73518579107402b1b7df50e292088c04d2b",
+      "width": 512,
+      "height": 256,
+      "group_reference_id": 273,
+      "source_rehashed": true
+    },
+    {
+      "disc": 2,
+      "path": "MC2Game/CookedXenon/Tutorial_20_6.xxx",
+      "source_sha256": "35d8046d7bd548aabf3817f24b7cc9ba4b323322d7141138d81189035ecb3c96",
+      "export": 22,
+      "object": "Tutorial_20_img6",
+      "canonical_identity": {
+        "canonical_path": "tutorial_20_6.tutorial_20_img6",
+        "class_path": "engine.texture2d",
+        "forced_export": false,
+        "namespace_guid": "0ed47e0541f3088552c237ae5cd56c6f",
+        "namespace_root": null,
+        "runtime_instance_selected": false
+      },
+      "selected_ids": [
+        291
+      ],
+      "payload_sha256": "44e182b1051f235045ad24db56e12dfbefcdd21abbdbc78c7d861d90630d1165",
+      "tiled_sha256": "ec15103a7b5f0580af83a021f5becf733b02fb493a2f3073e783b0790c2c5db4",
+      "rgba_sha256": "ef50880dd990c3ddbe918631df392c976dfd827568e08676c27e98c57177a189",
+      "width": 512,
+      "height": 256,
+      "group_reference_id": 291,
+      "source_rehashed": true
+    },
+    {
+      "disc": 2,
+      "path": "MC2Game/CookedXenon/Tutorial_32_2.xxx",
+      "source_sha256": "36fde7182fbc6b3adffc7ca4d885616f3d2d4cb582322f1de8edfbcd8677e929",
+      "export": 23,
+      "object": "Tutorial_32_2_1",
+      "canonical_identity": {
+        "canonical_path": "tutorial_32_2.tutorial_32_2_1",
+        "class_path": "engine.texture2d",
+        "forced_export": false,
+        "namespace_guid": "6db7757c41ae6f9d0ee15ca71b76ba0f",
+        "namespace_root": null,
+        "runtime_instance_selected": false
+      },
+      "selected_ids": [
+        388
+      ],
+      "payload_sha256": "0027b5b89402a25604f3d8cc8a75389f781ef68cd710b78b72c08c07a466efa4",
+      "tiled_sha256": "6f2c8794aeb807b34bb8278f855fccc1b58cf166a4c135ec722945b70cbbe58b",
+      "rgba_sha256": "1b1fe8097b76061f0b8baa016c1e1ec61d628bc4ed9cedc82333127f6ba95eb9",
+      "width": 256,
+      "height": 256,
+      "group_reference_id": 388,
+      "source_rehashed": true
+    },
+    {
+      "disc": 2,
+      "path": "MC2Game/CookedXenon/Tutorial_33_1.xxx",
+      "source_sha256": "286731e7ea274994c5d3c336f8a84f638b5b1a14ffd77d3f78898bf82c20bc7a",
+      "export": 28,
+      "object": "Tutorial_33_img0",
+      "canonical_identity": {
+        "canonical_path": "tutorial_33_1.tutorial_33_img0",
+        "class_path": "engine.texture2d",
+        "forced_export": false,
+        "namespace_guid": "5c871ccd4b2e2e60b67007a4a4c9af0d",
+        "namespace_root": null,
+        "runtime_instance_selected": false
+      },
+      "selected_ids": [
+        405
+      ],
+      "payload_sha256": "0579347acb38d1184ec7fcba202e1f7b1a92368b1ae664ddfd6cf76ed37288c3",
+      "tiled_sha256": "ca82a079f62ee11c93499fb188fa0b570c020eec5008b53d5305d04914bb9359",
+      "rgba_sha256": "ef8c46a3d11acf695b08d1f02920986ad2006324227c2f2b33af4707798f6585",
+      "width": 256,
+      "height": 256,
+      "group_reference_id": 405,
+      "source_rehashed": true
+    }
+  ],
+  "held_cropped_background_fields": [
+    {
+      "object": 258,
+      "rect": [
+        104,
+        76,
+        72,
+        32
+      ],
+      "status": "unbound_faded_background_label;original_pixels_and_blocks_preserved"
+    },
+    {
+      "object": 273,
+      "rect": [
+        104,
+        76,
+        72,
+        32
+      ],
+      "status": "unbound_faded_background_label;original_pixels_and_blocks_preserved"
+    }
+  ],
+  "original_three_cropped_footer_fragments_still_held": true,
+  "game_rendering_verified": false,
+  "all_game_image_text_translated": false,
+  "active_text_anchors": [
+    {
+      "id": "coalesced:e1d9b5efbc25fa97b07c2be36898e5f6d6564aeffc99e5268ca985f6cfad0537",
+      "source": "타입 1",
+      "translation": "类型 1",
+      "context": "..\\MC2Game\\Localization\\INT\\MC2UI.int [Quick_AIOption] Attack #1",
+      "source_sha256": "d1665a6f452f08a63fa84a7336c09e66513cd5ecc727cf39a59f146fe2a10d4f"
+    },
+    {
+      "id": "coalesced:21a7828643d0a93338c6a35657f08cb4b2371e5854c401de662400622d6ec5dd",
+      "source": "타입 3",
+      "translation": "类型 3",
+      "context": "..\\MC2Game\\Localization\\INT\\MC2UI.int [Quick_AIOption] Balance #1",
+      "source_sha256": "5df747d90ddca12d828c5c3e418c729c6c35191f02d686eb7a8794c30d8100ea"
+    },
+    {
+      "id": "coalesced:7e332a60085a319a3bc2758dc4a8bb91cbb08676a067ffb18f619a3fab05357c",
+      "source": "리더 캐릭터를 선택해주세요.",
+      "translation": "请选择队长角色",
+      "context": "..\\MC2Game\\Localization\\INT\\MC2UI.int [Quick_Description] Descrip_Leader #1",
+      "source_sha256": "04b566a644bf4c33d8689fdfee1a65028a6649204c4fd199db0fbf45004edc6b"
+    },
+    {
+      "id": "coalesced:a0d8d808919753b1baabb3dfa671c652711b8dee2fe89b8b0a70ee954429582a",
+      "source": "이공진퇴",
+      "translation": "凌空震踢",
+      "context": "..\\MC2Game\\Localization\\INT\\MC2Skill.int [Juto_Style1] Juto_Skill00 #1",
+      "source_sha256": "f3bc478925037e5d819986d2a306685ff754f33e55da69d769d64e977b8a08fa"
+    },
+    {
+      "source": "스킬을 적극적으로 사용",
+      "translation": "积极使用技能",
+      "context": "..\\MC2Game\\Localization\\INT\\MC2UI.int [AISetting_Description] Juto_st1_type3_D #1",
+      "id": "coalesced:8f746f35da9778a5bc7775a15df3bf7a8d56cd00160c2a89095902a77d005d64",
+      "source_sha256": "36f1a30c553a84b8938f87cb4f276223e20469830e527193c31f6aac8cb7cdf6"
+    },
+    {
+      "source": "큐어러",
+      "translation": "疗愈术",
+      "context": "..\\MC2Game\\Localization\\INT\\MC2Skill.int [Zephie_Style1] Zephie_Skill01 #1",
+      "id": "coalesced:956e01daa737f21f076de2f745793d7b4aefc7e7d344bc4062ef6ad1324d44f2",
+      "source_sha256": "34f66cdd84b2900e381906b5d57ff626fb6e0d3cef7fd341cee51508ae5fcd94"
+    },
+    {
+      "source": "윈드 커터",
+      "translation": "风刃斩",
+      "id": "coalesced:12ea9e16ab63d10c4c31bc1225d5c6ae3f89e928d5939566975da86ed7112879",
+      "source_sha256": "6358151ff7f12eefef7064298b3a78d04adf438327513866d01da56331ca2a99",
+      "context": "..\\MC2Game\\Localization\\INT\\MC2Skill.int [Zephie_Style2] Zephie_Skill00 #1"
+    }
+  ],
+  "atlas_label_anchors": [
+    "img_ui_name_jpn_183_0",
+    "img_ui_name_jpn_183_1",
+    "img_ui_name_jpn_183_2",
+    "field_menu_style_list",
+    "hud_complete_12_00",
+    "img_ui_name_jpn_157_8"
+  ]
+}

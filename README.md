@@ -1,3 +1,5 @@
+> 阶段308：8个教程菜单/编队/技能图组、41处文字已回填，累计678组/1304层；实际验证及发布见 docs/PHASE_308_TUTORIAL_MENU_CAPTIONS.md。
+
 > 阶段307：16个教程截图对象、51处完整文字已整批回填，累计670组/1263层；实际验证/发布状态见 docs/PHASE_307_TUTORIAL_NATIVE_CAPTIONS.md。
 
 > 阶段305：27个菜单/小游戏对象整批回填（26组/75层/83别名），累计654组/1212层；验证及发布状态见 docs/PHASE_305_MENU_MINIGAME_ADOPTION.md。

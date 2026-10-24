@@ -23,7 +23,8 @@ class HudCaptionPlanTests(unittest.TestCase):
    l=g['labels'][0];self.assertFalse(g['plaque_authored']);self.assertTrue(g['original_art_reconstructed']);self.assertFalse(g['reconstruction_exact_original']);self.assertIn('restoration',l);self.assertIn('font',l);self.assertNotIn('background_fill',l.get('style',{}));self.assertTrue(g['aliases'][0]['complement_regions'])
  def test_sparse_restoration_assets_are_hash_locked_and_masked(self):
   from PIL import Image
-  restored=[l for l in self.p['labels'] if 'restoration' in l];self.assertEqual(len(restored),17)
+  # This frozen cohort owns17 restorations; later cohorts may add their own.
+  restored=[self.labels[l['id']] for g in self.d['entries'] for l in g['labels'] if 'restoration' in l];self.assertEqual(len(restored),17)
   for l in restored:
    r=l['restoration'];images={}
    for key,mode in [('patch','RGBA'),('mask','L')]:

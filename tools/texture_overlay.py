@@ -398,15 +398,23 @@ def overlay_profile_regions(texture,edit,layers,encoding_cache=None):
     return patched,result
 
 
+def select_texture_export(tables,object_path):
+    # Package and texture exports can share a full path. Class is part of
+    # selection, not a tie-breaker between two texture exports.
+    matches=[e for e in tables['exports']
+             if e['path'].casefold()==object_path.casefold()
+             and e['class_path']=='Engine.Texture2D']
+    if len(matches)!=1:raise FormatError('texture object missing/ambiguous/wrong class')
+    return matches[0]
+
+
 def patch_package(data,expected_hash,edits,layers,decoder,encoding_cache=None):
     if digest(data)!=expected_hash:raise FormatError('texture base SHA256 mismatch')
     if not isinstance(edits,list) or not 1<=len(edits)<=MAX_TEXTURE_EDITS:raise FormatError('texture edit bound')
     summary=parse_summary(data,len(data));logical=decode_logical(data,summary,decoder)
     tables=parse_tables(logical,summary,len(logical));new=bytearray(logical);selected=set();records=[]
     for edit in edits:
-        matches=[e for e in tables['exports'] if e['path'].casefold()==edit['object'].casefold()]
-        if len(matches)!=1 or matches[0]['class_path']!='Engine.Texture2D':raise FormatError('texture object missing/ambiguous/wrong class')
-        ex=matches[0]
+        ex=select_texture_export(tables,edit['object'])
         if ex['table_offset'] in selected:raise FormatError('duplicate texture object')
         selected.add(ex['table_offset']);off=ex['serial_offset'];old=logical[off:off+ex['serial_size']]
         if digest(old)!=edit['payload_sha256']:raise FormatError('texture export payload mismatch')

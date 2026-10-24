@@ -1633,3 +1633,9 @@ Verified / source+native：姓名修复行和HP数值首行共用一个4×4块�
 Verified / 原生BC3解码复审：模糊韩文字仅用高亮阈值会漏掉灰色边缘；沿行从未完全清除的笔画插值会生成横纹和字形残影。阶段308拒绝并保留首轮候选，降低字形种子阈值、约束字形/阴影窗口并在足迹内用原图邻域做二维填补；不覆盖整块背景。白底蓝字必须按蓝墨分离，否则白色背景会被错认成文字而旧蓝字残留。数值、SP、图标及原画仍用独立的原生像素/块保护，不能仅靠绘制稿目视判断。
 
 Verified / 词条绑定：教程技能截图291的第二项是윈드 커터（当前实际INT字段Zephie_Skill00：风刃斩），不是广域疗愈；必须读完整原字并连接已采用字段，拒绝凭相邻疗愈画面猜译。
+
+## Phase309: class collisions and gauge-sharing repair blocks
+
+A full object path is not necessarily unique across export classes: an actual package export may share a texture path. Require the intended unique class and keep byte/GUID guards; never select the first path hit or accept duplicate textures. For overlapping CHAIN BREAK/actor captions, the high-caption trial exposed a flat source-palette band and was rejected/archived. render_window crop0 overlapped protected gauge pixels; crop1 exceeded the fixed source-palette color guard. Final crop2 passed at the unchanged RGB-error32 limit, retaining both meanings in an explicit compound caption. Do not widen the palette tolerance or erase gauge rows to make a trial pass.
+
+Phase309 follow-up: the package writer class fix alone was insufficient: before/after preview extraction still selected path without class and rejected the actual collision. Both now call the same strict select_texture_export routine; tests assert the shared selector identity. The failed unpublished build left no output directory and its log/records are retained. No prior successful phase is rebuilt.

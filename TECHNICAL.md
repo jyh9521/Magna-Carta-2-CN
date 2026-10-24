@@ -1,3 +1,5 @@
+> 阶段309：12个教程HUD/连锁/卡蒙德图组新增35层、覆盖36个原文字段；验证/发布见 docs/PHASE_309_TUTORIAL_HUD_CHAIN_KAMOND.md。
+
 > 阶段308：8个教程菜单/编队/技能图组、41处文字已回填，累计678组/1304层；实际验证及发布见 docs/PHASE_308_TUTORIAL_MENU_CAPTIONS.md。
 
 > 阶段307：16个教程截图对象、51处完整文字已整批回填，累计670组/1263层；实际验证/发布状态见 docs/PHASE_307_TUTORIAL_NATIVE_CAPTIONS.md。

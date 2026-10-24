@@ -28,6 +28,13 @@ class TextureOverlayTests(unittest.TestCase):
      for header in [tex['source_art'],tex['mips'][0]['bulk']]:self.assertEqual(struct.unpack_from('>I',p,header['data_offset_field_offset'])[0],e['serial_offset']+header['payload_offset'])
      self.assertEqual(raw,package_fixture(c,t))
  def test_identity_and_selection_guards(self):
+  from tools.texture_overlay import select_texture_export
+  from tools.build_texture_overlay import select_texture_export as preview_selector
+  self.assertIs(preview_selector,select_texture_export)
+  tex=dict(path='Fixture',class_path='Engine.Texture2D');pkg=dict(path='Fixture',class_path='Core.Package')
+  self.assertIs(select_texture_export(dict(exports=[pkg,tex]),'fixture'),tex)
+  for exports in [[pkg],[tex,dict(tex)],[]]:
+   with self.subTest(exports=exports),self.assertRaises(FormatError):select_texture_export(dict(exports=exports),'Fixture')
   raw,_,_,edit,layers=self.fixture()
   with self.assertRaisesRegex(FormatError,'base SHA'):patch_package(raw,'0'*64,[edit],layers,stored_decoder)
   for key,value in [('object','Other'),('payload_sha256','0'*64),('tiled_sha256','0'*64),('dimensions',[64,128])]:

@@ -1628,3 +1628,7 @@ UI包和MC2Game驻留强制导出可能共享规范GUID，但各自payload哈希
 ### 非整块对齐的显式数值像素保护
 
 `protected_pixel_regions`为非空且最多16项的`id/rect/rgba_sha256`数组，矩形可不对齐4像素边界，总面积上限1048576。只允许显式BC3/RGBA、已验证修复材料及未变化块保留策略；不启用时旧字节与报告不变。共享编辑/数值块必须源和目标全不透明；先拒绝目标字形或修复改到受保护像素，再保留源alpha、RGB端点以及未变化像素索引，仅为其余变化像素选择原调色板最近项。每通道误差超过32则拒绝，禁止静默丢失不可表示的新颜色。保护区域输出逐像素回验；这是像素保护而非共享块所有字节不变，原有整块保护规则不放宽。缓存仍保存普通编码结果，保护策略在副本上后处理，不污染默认缓存。
+
+## Verified: same-path export classes (phase309)
+
+The source-locked Tutorial_32_1 package contains Core.Package export15 and Engine.Texture2D export22 with the same full path. Texture selection must require both path and the unique Engine.Texture2D class, not take the first path match. Multiple matching textures still fail; package SHA, selected payload SHA, native tile/pixel locks and nonselected-export preservation remain mandatory. The original selector and its ambiguity rejection are restored and tested on an isolated source copy.

@@ -1596,3 +1596,7 @@ remain separate confidence levels. Existing parser/coverage rules are unchanged.
 ## 第295阶段：战斗与教程图片
 
 累计507图片组/847层/2096双盘别名；新增46组139层含1个BC1派生mask，三个Tutorial命名空间独立保留。采用显式packed单mip BC3/opaque-luma BC1与有界ink_padding，修正160特效图末行和窄句排版；保留START、MAX惯例与既有Font底包链。纹理176/233、对照201/260资源；INT14159、七Font、315字幕未增加。复现、隔离回滚、来源和未验收边界见[阶段295](docs/PHASE_295_BATTLE_TUTORIAL_ADOPTION.md)。
+
+## BC3共享块数值保护（源码能力）
+
+显式像素守护支持字形修复与数字同块的情况，保持受保护像素的源端点和索引；限制、失配拒绝及误差界见 docs/FILE_FORMATS.md。10项新回归与两张真实原生HUD验证此路径；缺省路径14张真实图的字节和报告保持。该源码变更不刷新游戏文件，不计作新增汉化图片。

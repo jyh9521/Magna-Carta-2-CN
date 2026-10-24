@@ -140,6 +140,7 @@ def compose_restored_region(label,rgba,before,width):
 
 
 def overlay_regions(tiles,width,height,edit,layers,encoding_cache=None):
+    if 'protected_pixel_regions' in edit:raise FormatError('pixel guard requires explicit profile')
     if 'alpha_encoding' in edit:raise FormatError('alpha encoding requires explicit profile')
     ids=layer_ids(edit);protected=edit.get('protected_regions',[])
     if not isinstance(protected,list) or len(protected)>16:raise FormatError('protected region bound')
@@ -323,6 +324,7 @@ def overlay_profile_regions(texture,edit,layers,encoding_cache=None):
     alpha_encoding=edit.get('alpha_encoding')
     if 'alpha_encoding' in edit and (alpha_encoding!='adaptive-range' or fmt!=7 or mode!='rgba' or not preserve):
         raise FormatError('adaptive alpha requires restored BC3 RGBA with unchanged-block preservation')
+    if 'protected_pixel_regions' in edit and (fmt!=7 or mode!='rgba' or not preserve):raise FormatError('pixel guard requires restored BC3 RGBA and unchanged-block preservation')
     before=decode_texture(texture)
     if fmt==5 and mode=='opaque-luma' and any(a!=255 for a in before[3::4]):raise FormatError('opaque BC1 source has transparent pixels')
     layout=texture['layout'];w=texture['width'];resolved=[];allowed=set()
@@ -370,6 +372,11 @@ def overlay_profile_regions(texture,edit,layers,encoding_cache=None):
             patched=bytes(out);preserved+=kept
             proof=dict(proof,changed_blocks=sum(tiles[o:o+layout['unit_bytes']]!=patched[o:o+layout['unit_bytes']] for o in units),unchanged_region_blocks_preserved=kept)
         proofs.append(proof)
+    pixel_checks=None
+    if 'protected_pixel_regions' in edit:
+        from .bc_palette_guard import apply_pixel_guards
+        patched,pixel_checks=apply_pixel_guards(texture,before,patched,resolved,edit['protected_pixel_regions'])
+        proofs=[dict(proof,changed_blocks=sum(tiles[o:o+layout['unit_bytes']]!=patched[o:o+layout['unit_bytes']] for o in rect_units(layout,label['rect']))) for (label,_),proof in zip(resolved,proofs)]
     bs=layout['unit_bytes'];changed={i for i in range(0,len(tiles),bs) if tiles[i:i+bs]!=patched[i:i+bs]}
     if not changed<=allowed:raise FormatError('composite edit escaped authorized region union')
     result=dict(regions=proofs,changed_blocks=len(changed),authorized_blocks=len(allowed),
@@ -378,6 +385,7 @@ def overlay_profile_regions(texture,edit,layers,encoding_cache=None):
     if mode=='opaque-rgb':result.update(rgb_matte=[0,0,0],source_transparent_pixels=sum(a==0 for a in before[3::4]),opaque_alpha_inside_authorized_regions=True)
     if preserve:result['unchanged_region_blocks_preserved']=preserved
     if alpha_encoding is not None:result['alpha_encoding']=alpha_encoding
+    if pixel_checks is not None:result['protected_pixel_regions']=pixel_checks
     if protected:
         after=decode_texture(texture,patched);checks=[]
         for row in protected:

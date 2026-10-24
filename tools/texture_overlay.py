@@ -283,6 +283,9 @@ def overlay_profile_regions(texture,edit,layers,encoding_cache=None):
     ids=layer_ids(edit);protected=edit.get('protected_regions',[])
     if not isinstance(protected,list) or len(protected)>16:raise FormatError('protected region bound')
     fmt=texture['format'];mode=edit.get('channel_mode','rgba')
+    preserve=edit.get('preserve_unchanged_blocks',False)
+    if type(preserve) is not bool:raise FormatError('preserve unchanged blocks requires boolean')
+    if preserve and (fmt!=5 or mode!='opaque-rgb'):raise FormatError('preserve unchanged blocks requires restored opaque RGB')
     if (fmt==7 and mode!='rgba') or (fmt==5 and mode not in ('opaque-luma','opaque-rgb')):
         raise FormatError('explicit supported texture channel mode required')
     before=decode_texture(texture)
@@ -294,7 +297,16 @@ def overlay_profile_regions(texture,edit,layers,encoding_cache=None):
         if not isinstance(rgba,bytes) or len(rgba)!=label['rect'][2]*label['rect'][3]*4:raise FormatError('Xbox BC RGBA region length mismatch')
         if units & allowed:raise FormatError('texture regions overlap')
         allowed|=units
-        if 'restoration' in label and mode!='rgba':raise FormatError('restoration requires RGBA profile')
+        restored='restoration' in label
+        if preserve and not restored:raise FormatError('preserve unchanged blocks requires restoration')
+        if restored and mode not in ('rgba','opaque-rgb'):raise FormatError('restoration requires RGBA or opaque RGB profile')
+        if restored and mode=='opaque-rgb':
+            source=rgba_crop(before,w,label['rect']);mask=label.get('_repair_mask');pixels=label.get('_repair_pixels')
+            if (any(a!=255 for a in source[3::4]) or not isinstance(mask,bytes)
+                    or not isinstance(pixels,bytes) or len(pixels)!=len(source)
+                    or len(mask)!=len(source)//4
+                    or any(pixels[i*4+3]!=255 for i,v in enumerate(mask) if v)):
+                raise FormatError('opaque restoration requires opaque source crop and masked patch pixels')
         rgba=compose_restored_region(label,rgba,before,w)
         if mode=='opaque-luma':rgba=b''.join(bytes([a,a,a,255]) for a in rgba[3::4])
         elif mode=='opaque-rgb':rgba=b''.join(bytes([(r*a+127)//255,(g*a+127)//255,(b*a+127)//255,255]) for r,g,b,a in zip(rgba[::4],rgba[1::4],rgba[2::4],rgba[3::4]))
@@ -307,15 +319,29 @@ def overlay_profile_regions(texture,edit,layers,encoding_cache=None):
         seen.add(row['id']);units=set(rect_units(layout,row['rect']))
         if units & (allowed|protected_units):raise FormatError('protected region overlaps edit or another protection')
         protected_units|=units
-    tiles=texture['tiles'];patched=tiles;proofs=[]
+    tiles=texture['tiles'];patched=tiles;proofs=[];preserved=0
     for label,rgba in resolved:
-        patched,proof=overlay_rect(patched,layout,label['rect'],rgba,encoding_cache);proofs.append(proof)
+        patched,proof=overlay_rect(patched,layout,label['rect'],rgba,encoding_cache)
+        if preserve:
+            # Decoded equality is checked before compression. Retain the exact
+            # original BC1 bytes instead of re-quantizing untouched map art.
+            rect=label['rect'];rw,rh=rect[2:];source=rgba_crop(before,w,rect)
+            units=rect_units(layout,rect);out=bytearray(patched);kept=0
+            for j in range(rh//4):
+                for i in range(rw//4):
+                    block=[((j*4+k)*rw+i*4)*4 for k in range(4)]
+                    if all(source[a:a+16]==rgba[a:a+16] for a in block):
+                        o=units[j*(rw//4)+i];out[o:o+layout['unit_bytes']]=tiles[o:o+layout['unit_bytes']];kept+=1
+            patched=bytes(out);preserved+=kept
+            proof=dict(proof,changed_blocks=sum(tiles[o:o+layout['unit_bytes']]!=patched[o:o+layout['unit_bytes']] for o in units),unchanged_region_blocks_preserved=kept)
+        proofs.append(proof)
     bs=layout['unit_bytes'];changed={i for i in range(0,len(tiles),bs) if tiles[i:i+bs]!=patched[i:i+bs]}
     if not changed<=allowed:raise FormatError('composite edit escaped authorized region union')
     result=dict(regions=proofs,changed_blocks=len(changed),authorized_blocks=len(allowed),
                 untouched_blocks_preserved=True,alignment_padding_preserved=True,
                 profile=edit['profile'],storage_origin_blocks=layout['origin_blocks'],channel_mode=mode)
     if mode=='opaque-rgb':result.update(rgb_matte=[0,0,0],source_transparent_pixels=sum(a==0 for a in before[3::4]),opaque_alpha_inside_authorized_regions=True)
+    if preserve:result['unchanged_region_blocks_preserved']=preserved
     if protected:
         after=decode_texture(texture,patched);checks=[]
         for row in protected:

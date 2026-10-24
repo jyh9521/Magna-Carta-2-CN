@@ -38417,6 +38417,59 @@
         },
         "source_rgba_sha256": "c365cbd73d06abf218f7e738eb58cfe0071145f3f961884d473c25879576dc8c"
       }
+    },
+    {
+      "id": "world_map_lanzheim",
+      "text": "兰兹海姆",
+      "rect": [
+        176,
+        640,
+        640,
+        160
+      ],
+      "font_size": 112,
+      "align": "center",
+      "ink_padding": {
+        "x": 8,
+        "y": 8
+      },
+      "font": {
+        "path": "build/font-source/NotoSerifCJKsc-SemiBold.otf",
+        "sha256": "d627b53dbcde61e07de1498d2623a8b287f78585ffbc90cc0618d0caaa2ed6b0"
+      },
+      "style": {
+        "fill": [
+          155,
+          68,
+          28,
+          255
+        ],
+        "stroke_fill": [
+          237,
+          204,
+          116,
+          255
+        ],
+        "shadow_fill": [
+          20,
+          16,
+          8,
+          240
+        ]
+      },
+      "source_text_sha256": "b70d1b0ab3d609215951c0cfb7da703e6a570188936d22dcdd94a1115f001b44",
+      "translation_basis": "existing-reviewed-term-mc2-opening-047",
+      "restoration": {
+        "mask": {
+          "path": "locales/zh-Hans/texture-overlays/restorations/world_map_lanzheim.mask.png",
+          "sha256": "aa70bb83fb40f71be2539b8734f1cd1e38431e650ac2aab78a16b7d44e71f1ff"
+        },
+        "patch": {
+          "path": "locales/zh-Hans/texture-overlays/restorations/world_map_lanzheim.patch.png",
+          "sha256": "4fb7526968649abd301537278dc2bc6170d735608c4bc1adee7a5f725b7353c1"
+        },
+        "source_rgba_sha256": "70085eb87874d1f1ecc0e9ed8f6449da428f9e41d1c1ca826588840ed7e31393"
+      }
     }
   ],
   "sources": [
@@ -57019,6 +57072,25 @@
               "rgba_sha256": "2dcfa8a7cd78b11f749ff4008b3ea7100e27ad2bea4f7b9d47f509ad1eab2e77"
             }
           ]
+        },
+        {
+          "object": "Textures.WorldMap_Whole",
+          "payload_sha256": "533dbcb1fea219914672d7f1193b2d3131e3bf18fa37d45466c6e30735fd38bc",
+          "tiled_sha256": "e70c2428ad55e9dbcdcf90c6a270c0d88e564294732f8d451a4e296d670942c5",
+          "dimensions": [
+            4096,
+            2048
+          ],
+          "regions": [
+            "world_map_lanzheim"
+          ],
+          "image_id": "img_world_map_whole",
+          "profile": {
+            "kind": "xbox-inline-bc-v1",
+            "format": 5
+          },
+          "channel_mode": "opaque-rgb",
+          "preserve_unchanged_blocks": true
         }
       ]
     },

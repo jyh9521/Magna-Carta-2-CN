@@ -1,0 +1,210 @@
+{
+  "schema_version": 1,
+  "phase": 300,
+  "kind": "bounded-world-map-caption-adoption",
+  "plan": {
+    "path": "locales/zh-Hans/texture-overlays/ui-labels.json",
+    "sha256": "d8def5d94611fefc794b15f09af7b148206e8f8c8162f59fb5da928bf6e431c1"
+  },
+  "image_groups": 1,
+  "text_layers": 1,
+  "complete_map_captions": 32,
+  "adopted_map_captions": 1,
+  "remaining_map_captions": 31,
+  "full_map_labels_translated": false,
+  "game_rendering_verified": false,
+  "INT_drafts_added": 0,
+  "term_id": "mc2-opening-047",
+  "visible_source": "Lanzheim",
+  "translation": "兰兹海姆",
+  "label": {
+    "id": "world_map_lanzheim",
+    "text": "兰兹海姆",
+    "rect": [
+      176,
+      640,
+      640,
+      160
+    ],
+    "font_size": 112,
+    "align": "center",
+    "ink_padding": {
+      "x": 8,
+      "y": 8
+    },
+    "font": {
+      "path": "build/font-source/NotoSerifCJKsc-SemiBold.otf",
+      "sha256": "d627b53dbcde61e07de1498d2623a8b287f78585ffbc90cc0618d0caaa2ed6b0"
+    },
+    "style": {
+      "fill": [
+        155,
+        68,
+        28,
+        255
+      ],
+      "stroke_fill": [
+        237,
+        204,
+        116,
+        255
+      ],
+      "shadow_fill": [
+        20,
+        16,
+        8,
+        240
+      ]
+    },
+    "source_text_sha256": "b70d1b0ab3d609215951c0cfb7da703e6a570188936d22dcdd94a1115f001b44",
+    "translation_basis": "existing-reviewed-term-mc2-opening-047",
+    "restoration": {
+      "mask": {
+        "path": "locales/zh-Hans/texture-overlays/restorations/world_map_lanzheim.mask.png",
+        "sha256": "aa70bb83fb40f71be2539b8734f1cd1e38431e650ac2aab78a16b7d44e71f1ff"
+      },
+      "patch": {
+        "path": "locales/zh-Hans/texture-overlays/restorations/world_map_lanzheim.patch.png",
+        "sha256": "4fb7526968649abd301537278dc2bc6170d735608c4bc1adee7a5f725b7353c1"
+      },
+      "source_rgba_sha256": "70085eb87874d1f1ecc0e9ed8f6449da428f9e41d1c1ca826588840ed7e31393"
+    }
+  },
+  "native_encoded_proof": {
+    "regions": [
+      {
+        "rect": [
+          176,
+          640,
+          640,
+          160
+        ],
+        "changed_blocks": 4428,
+        "authorized_blocks": 6400,
+        "untouched_blocks_preserved": true,
+        "alignment_padding_preserved": true,
+        "unchanged_region_blocks_preserved": 1959
+      }
+    ],
+    "changed_blocks": 4428,
+    "authorized_blocks": 6400,
+    "untouched_blocks_preserved": true,
+    "alignment_padding_preserved": true,
+    "profile": {
+      "kind": "xbox-inline-bc-v1",
+      "format": 5
+    },
+    "storage_origin_blocks": [
+      0,
+      0
+    ],
+    "channel_mode": "opaque-rgb",
+    "rgb_matte": [
+      0,
+      0,
+      0
+    ],
+    "source_transparent_pixels": 0,
+    "opaque_alpha_inside_authorized_regions": true,
+    "unchanged_region_blocks_preserved": 1959
+  },
+  "source_rgba_sha256": "e9f149dbfbe5e46c22b7cb2b55f57429a2af89a6af8eddf3db059a57b1a7468c",
+  "candidate_rgba_sha256": "1911774a5153158beedd6347c9c4e4f7565f3e86d499f30737d451c3a6593303",
+  "all_source_aliases": [
+    {
+      "source_identity": {
+        "resource": "UI_WorldMap",
+        "export": 284,
+        "path": "Textures.WorldMap_Whole",
+        "leaf": "WorldMap_Whole",
+        "disposition": "candidate",
+        "source_rgba_sha256": "e9f149dbfbe5e46c22b7cb2b55f57429a2af89a6af8eddf3db059a57b1a7468c"
+      },
+      "disc": 1,
+      "resource_path": "MC2Game/CookedXenon/UI_WorldMap.xxx",
+      "source_sha256": "a2aaa7370be80ad14102a47cb0cf41ed5094a103cdc9726179b33bce45b5d046",
+      "export": 284,
+      "path": "Textures.WorldMap_Whole",
+      "leaf": "WorldMap_Whole",
+      "class_path": "Engine.Texture2D",
+      "serial_offset": 907166,
+      "serial_size": 4194728,
+      "package_guid": "691ce2094f773f6239f5c7ba44a430d3",
+      "identity": {
+        "canonical_path": "ui_worldmap.textures.worldmap_whole",
+        "class_path": "engine.texture2d",
+        "forced_export": false,
+        "namespace_guid": "691ce2094f773f6239f5c7ba44a430d3",
+        "namespace_root": null,
+        "runtime_instance_selected": false
+      },
+      "width": 4096,
+      "height": 2048,
+      "format_raw": "05",
+      "mip_count": 1,
+      "payload_sha256": "533dbcb1fea219914672d7f1193b2d3131e3bf18fa37d45466c6e30735fd38bc",
+      "atlas_supported": false,
+      "profile_verified_for_current_patcher": true,
+      "tiled_sha256": "e70c2428ad55e9dbcdcf90c6a270c0d88e564294732f8d451a4e296d670942c5",
+      "rgba_sha256": "e9f149dbfbe5e46c22b7cb2b55f57429a2af89a6af8eddf3db059a57b1a7468c",
+      "candidate_rgba_sha256": "e9f149dbfbe5e46c22b7cb2b55f57429a2af89a6af8eddf3db059a57b1a7468c",
+      "bulk_flags": 0,
+      "storage_origin_blocks": [
+        0,
+        0
+      ],
+      "all_alpha_opaque": true,
+      "preview": "build\\phase-300-aliases\\ui_worldmap-a2aaa737-284.png",
+      "preview_sha256": "f9eea97688ae65aa89b483eabfd9e5af7231ac8c24cbed829f9ea8ffcbbd319d"
+    },
+    {
+      "source_identity": {
+        "resource": "UI_WorldMap",
+        "export": 284,
+        "path": "Textures.WorldMap_Whole",
+        "leaf": "WorldMap_Whole",
+        "disposition": "candidate",
+        "source_rgba_sha256": "e9f149dbfbe5e46c22b7cb2b55f57429a2af89a6af8eddf3db059a57b1a7468c"
+      },
+      "disc": 2,
+      "resource_path": "MC2Game/CookedXenon/UI_WorldMap.xxx",
+      "source_sha256": "a2aaa7370be80ad14102a47cb0cf41ed5094a103cdc9726179b33bce45b5d046",
+      "export": 284,
+      "path": "Textures.WorldMap_Whole",
+      "leaf": "WorldMap_Whole",
+      "class_path": "Engine.Texture2D",
+      "serial_offset": 907166,
+      "serial_size": 4194728,
+      "package_guid": "691ce2094f773f6239f5c7ba44a430d3",
+      "identity": {
+        "canonical_path": "ui_worldmap.textures.worldmap_whole",
+        "class_path": "engine.texture2d",
+        "forced_export": false,
+        "namespace_guid": "691ce2094f773f6239f5c7ba44a430d3",
+        "namespace_root": null,
+        "runtime_instance_selected": false
+      },
+      "width": 4096,
+      "height": 2048,
+      "format_raw": "05",
+      "mip_count": 1,
+      "payload_sha256": "533dbcb1fea219914672d7f1193b2d3131e3bf18fa37d45466c6e30735fd38bc",
+      "atlas_supported": false,
+      "profile_verified_for_current_patcher": true,
+      "tiled_sha256": "e70c2428ad55e9dbcdcf90c6a270c0d88e564294732f8d451a4e296d670942c5",
+      "rgba_sha256": "e9f149dbfbe5e46c22b7cb2b55f57429a2af89a6af8eddf3db059a57b1a7468c",
+      "candidate_rgba_sha256": "e9f149dbfbe5e46c22b7cb2b55f57429a2af89a6af8eddf3db059a57b1a7468c",
+      "bulk_flags": 0,
+      "storage_origin_blocks": [
+        0,
+        0
+      ],
+      "all_alpha_opaque": true,
+      "preview": "build\\phase-300-aliases\\ui_worldmap-a2aaa737-284.png",
+      "preview_sha256": "f9eea97688ae65aa89b483eabfd9e5af7231ac8c24cbed829f9ea8ffcbbd319d"
+    }
+  ],
+  "all_4145_headers_rechecked": true,
+  "manual_review": true,
+  "restoration_method": "31px binary dilation captures complete outline/shadow; harmonic donor boundary-color matching; exact original BC1 units retained where pre-encoder RGBA unchanged; no whole-map redraw or flat panel"
+}

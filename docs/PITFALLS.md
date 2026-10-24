@@ -1554,3 +1554,10 @@ The full modified suite exposed four legacy assertions pinning the active first 
 UI_Battle160特效末行为氷の媒質破壊，而156普通末行为足蹴り；同排复制会译错，已独立纠正源hash/译文。任せて!同key曾匹配到无关长篇；Tutorial同RGBA不同namespace/GUID不能合并。小字默认8px总余量会过度缩字，显式小padding仍需实际编码/重开、保护块验证和源图审看。见PHASE_295_BATTLE_TUTORIAL_ADOPTION.md。
 
 完整字体cmap逐层重新加载会反复建立TTFont/CFF对象图；三个冷重放并发及随后未缓存的单独重试曾触发Windows MemoryError，均在输出发布前失败。失败日志保留，先串行复测，缓存修复后按实测内存余量最多并行两条冷重放，并将glyph检查的不可变码点集按完整字体bytes有界缓存1份；字体变化必重验，仍不缓存绘制结果。三项缓存测试、847层真实渲染（1次cmap解析/846次命中，139新增层hash保持）及旧461组实际重放检查语义/字节保持。
+# CI: 本地通过不代表干净 runner 已安装依赖
+
+Verified: 2026-10-24 的 Actions run 40049833052 四组任务均在 unittest 阶段失败；日志报告
+`ModuleNotFoundError: No module named 'PIL'` / `fontTools`，Ubuntu 3.12 共28个错误。
+旧 workflow 只安装 Python，没有安装已锁定的 `requirements-font.txt`；本地已有这些库，掩盖了遗漏。
+修复在测试之前安装固定依赖并执行 pip check，统一 UTF-8 输出；保留原四组矩阵和正常失败传播。
+回归测试约束安装顺序与矩阵，独立 venv 重现缺库，再安装依赖执行完整测试。

@@ -241,6 +241,18 @@ def render_area(label):
     return w*h
 
 
+def render_text(label):
+    """Optional bounded visual lines; the source language text stays untouched."""
+    text=label['text']
+    if 'line_breaks' not in label:return text
+    breaks=label['line_breaks']
+    if (not isinstance(breaks,list) or not 1<=len(breaks)<=3
+            or any(type(i) is not int or not 0<i<len(text) for i in breaks)
+            or breaks!=sorted(set(breaks))):raise FormatError('invalid explicit line breaks')
+    points=[0]+breaks+[len(text)]
+    return '\n'.join(text[a:b] for a,b in zip(points,points[1:]))
+
+
 def render_label(font_bytes,label):
     """Render an owned text layer only; no original image is fed to the rasterizer."""
     from PIL import Image, ImageDraw, ImageFont, ImageFilter
@@ -248,18 +260,26 @@ def render_label(font_bytes,label):
     if (not isinstance(text,str) or not text or len(text)>128 or any(ord(c)<32 for c in text)
             or type(size) is not int or not 1<=size<=128):
         raise FormatError('invalid text layer or font size')
+    visual=render_text(label);multiline='line_breaks' in label
     w,h,crop=render_geometry(label)
     cmap=font_codepoints(font_bytes);missing=[ord(c) for c in text if ord(c) not in cmap]
     if missing:raise FormatError('text layer font has missing glyphs')
     font=ImageFont.truetype(io.BytesIO(font_bytes),size)
     image=Image.new('RGBA',(w,h));draw=ImageDraw.Draw(image)
-    box=draw.textbbox((0,0),text,font=font,stroke_width=1)
+    box=(draw.multiline_textbbox((0,0),visual,font=font,stroke_width=1,spacing=0,align=label.get('align','center'))
+         if multiline else draw.textbbox((0,0),text,font=font,stroke_width=1))
+    if multiline:
+        import math
+        box=tuple(math.floor(v) if i<2 else math.ceil(v) for i,v in enumerate(box))
     if 'ink_padding' in label and label['ink_padding'] is None:raise FormatError('invalid explicit text ink padding')
     pos=text_position(w,h,box,label.get('align','center'),label.get('ink_padding'))
     shadow=Image.new('RGBA',(w,h));sd=ImageDraw.Draw(shadow)
-    sd.text((pos[0]+1,pos[1]+2),text,font=font,fill=style['shadow_fill'],stroke_width=2,stroke_fill=style['shadow_fill'])
+    if multiline:sd.multiline_text((pos[0]+1,pos[1]+2),visual,font=font,fill=style['shadow_fill'],stroke_width=2,stroke_fill=style['shadow_fill'],spacing=0,align=label.get('align','center'))
+    else:sd.text((pos[0]+1,pos[1]+2),text,font=font,fill=style['shadow_fill'],stroke_width=2,stroke_fill=style['shadow_fill'])
     image=Image.alpha_composite(image,shadow.filter(ImageFilter.GaussianBlur(1)))
-    ImageDraw.Draw(image).text(pos,text,font=font,fill=style['fill'],stroke_width=1,stroke_fill=style['stroke_fill'])
+    target=ImageDraw.Draw(image)
+    if multiline:target.multiline_text(pos,visual,font=font,fill=style['fill'],stroke_width=1,stroke_fill=style['stroke_fill'],spacing=0,align=label.get('align','center'))
+    else:target.text(pos,text,font=font,fill=style['fill'],stroke_width=1,stroke_fill=style['stroke_fill'])
     if image.getbbox() is None:raise FormatError('empty text layer')
     if crop is not None:
         x,y,cw,ch=crop;image=image.crop((x,y,x+cw,y+ch))

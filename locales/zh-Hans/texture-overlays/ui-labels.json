@@ -38470,6 +38470,539 @@
         },
         "source_rgba_sha256": "70085eb87874d1f1ecc0e9ed8f6449da428f9e41d1c1ca826588840ed7e31393"
       }
+    },
+    {
+      "id": "world_map_belfort_castle",
+      "text": "贝尔福特王城",
+      "rect": [
+        1476,
+        412,
+        152,
+        36
+      ],
+      "font_size": 20,
+      "align": "center",
+      "ink_padding": {
+        "x": 2,
+        "y": 1
+      },
+      "font": {
+        "path": "build/font-source/NotoSerifCJKsc-SemiBold.otf",
+        "sha256": "d627b53dbcde61e07de1498d2623a8b287f78585ffbc90cc0618d0caaa2ed6b0"
+      },
+      "style": {
+        "fill": [
+          235,
+          226,
+          197,
+          255
+        ],
+        "stroke_fill": [
+          45,
+          30,
+          10,
+          255
+        ],
+        "shadow_fill": [
+          25,
+          17,
+          9,
+          220
+        ]
+      },
+      "source_text_sha256": "00ad6f34d098926568ce788948126bcf8ca8cd4bd61199b2521a293e4631707f",
+      "translation_basis": "existing-current-geography-or-visible-English-literal;not-runtime-binding",
+      "restoration": {
+        "mask": {
+          "path": "locales/zh-Hans/texture-overlays/restorations/world_map_belfort_castle.mask.png",
+          "sha256": "bf7e6f3e7965d09d51b2c3eed2627e0096fc9ed13e5364ce897a5a74416d0b25"
+        },
+        "patch": {
+          "path": "locales/zh-Hans/texture-overlays/restorations/world_map_belfort_castle.patch.png",
+          "sha256": "38abad1a04ff0614c680f0e9b9ffe610c851b6288c5ae3f4a74f16cae7eba4ef"
+        },
+        "source_rgba_sha256": "a3453740c76ccdbc594de4cf42d8f99b7561c271eb331c6a85e53a733fe30e6a"
+      }
+    },
+    {
+      "id": "world_map_belfort_region",
+      "text": "贝尔福特",
+      "rect": [
+        1872,
+        416,
+        144,
+        56
+      ],
+      "font_size": 32,
+      "align": "center",
+      "ink_padding": {
+        "x": 2,
+        "y": 1
+      },
+      "font": {
+        "path": "build/font-source/NotoSerifCJKsc-SemiBold.otf",
+        "sha256": "d627b53dbcde61e07de1498d2623a8b287f78585ffbc90cc0618d0caaa2ed6b0"
+      },
+      "style": {
+        "fill": [
+          230,
+          194,
+          102,
+          255
+        ],
+        "stroke_fill": [
+          45,
+          30,
+          10,
+          255
+        ],
+        "shadow_fill": [
+          25,
+          17,
+          9,
+          220
+        ]
+      },
+      "source_text_sha256": "6361bad7b4d130d62bf0310ad36633dcff045009b4a0144abdabb758bbf57d2e",
+      "translation_basis": "existing-current-geography-or-visible-English-literal;not-runtime-binding",
+      "restoration": {
+        "mask": {
+          "path": "locales/zh-Hans/texture-overlays/restorations/world_map_belfort_region.mask.png",
+          "sha256": "68e3292d163556347f3caa536170802024d2737d7794f0c6e86932fdc321d601"
+        },
+        "patch": {
+          "path": "locales/zh-Hans/texture-overlays/restorations/world_map_belfort_region.patch.png",
+          "sha256": "39731b4e3d8095a9369a96acd80741579691fe7ee27ef436c66b768eeeff6789"
+        },
+        "source_rgba_sha256": "c1747d4c249438a0ab6e00a65fd2de8e88d8f2c3d09c1aaf609d7349db4277da"
+      }
+    },
+    {
+      "id": "world_map_belfort_ruins",
+      "text": "贝尔福特街区",
+      "rect": [
+        1644,
+        524,
+        144,
+        36
+      ],
+      "font_size": 20,
+      "align": "center",
+      "ink_padding": {
+        "x": 2,
+        "y": 1
+      },
+      "font": {
+        "path": "build/font-source/NotoSerifCJKsc-SemiBold.otf",
+        "sha256": "d627b53dbcde61e07de1498d2623a8b287f78585ffbc90cc0618d0caaa2ed6b0"
+      },
+      "style": {
+        "fill": [
+          235,
+          226,
+          197,
+          255
+        ],
+        "stroke_fill": [
+          45,
+          30,
+          10,
+          255
+        ],
+        "shadow_fill": [
+          25,
+          17,
+          9,
+          220
+        ]
+      },
+      "source_text_sha256": "a7bbcc039f3e87df569e9e084168d1b513ceeeb31ccfa70e487d055e733a36a1",
+      "translation_basis": "existing-current-geography-or-visible-English-literal;not-runtime-binding",
+      "restoration": {
+        "mask": {
+          "path": "locales/zh-Hans/texture-overlays/restorations/world_map_belfort_ruins.mask.png",
+          "sha256": "c1a573e83dc40fdb262fb1892663552a8a80f334c9fb3018140593057a356957"
+        },
+        "patch": {
+          "path": "locales/zh-Hans/texture-overlays/restorations/world_map_belfort_ruins.patch.png",
+          "sha256": "e134a1a4adfabce518ccd82f36e62f0be934a1273ddbee77a54b28ee238dbe48"
+        },
+        "source_rgba_sha256": "3c2dae33b59acf88a434b96e8255f5bbfa7c5cd5f5b0d27cdb5e933f63cb80ef"
+      }
+    },
+    {
+      "id": "world_map_starlight_field",
+      "text": "星光平原",
+      "rect": [
+        1556,
+        616,
+        156,
+        36
+      ],
+      "font_size": 20,
+      "align": "center",
+      "ink_padding": {
+        "x": 2,
+        "y": 1
+      },
+      "font": {
+        "path": "build/font-source/NotoSerifCJKsc-SemiBold.otf",
+        "sha256": "d627b53dbcde61e07de1498d2623a8b287f78585ffbc90cc0618d0caaa2ed6b0"
+      },
+      "style": {
+        "fill": [
+          235,
+          226,
+          197,
+          255
+        ],
+        "stroke_fill": [
+          45,
+          30,
+          10,
+          255
+        ],
+        "shadow_fill": [
+          25,
+          17,
+          9,
+          220
+        ]
+      },
+      "source_text_sha256": "2dc8674920df2060ca71d3db0971319e3a2a815a4bb5c1ad7ea0372f0ec55c9c",
+      "translation_basis": "existing-current-geography-or-visible-English-literal;not-runtime-binding",
+      "restoration": {
+        "mask": {
+          "path": "locales/zh-Hans/texture-overlays/restorations/world_map_starlight_field.mask.png",
+          "sha256": "dfb7f984c519189d495836538975aa3c5cd224c071158a7d7f634b329ff24f5c"
+        },
+        "patch": {
+          "path": "locales/zh-Hans/texture-overlays/restorations/world_map_starlight_field.patch.png",
+          "sha256": "829bacbab7f6a81a579205f57cdce1dae41cc4ed7fe473bf9ebb4c2b417e556f"
+        },
+        "source_rgba_sha256": "1f96bcad09de001feaa9adcf56719b034f262380af5dab8cc6f01b99b97b53f8"
+      }
+    },
+    {
+      "id": "world_map_ruhalt_plateau",
+      "text": "鲁哈尔特高原",
+      "rect": [
+        2068,
+        692,
+        156,
+        36
+      ],
+      "font_size": 20,
+      "align": "center",
+      "ink_padding": {
+        "x": 2,
+        "y": 1
+      },
+      "font": {
+        "path": "build/font-source/NotoSerifCJKsc-SemiBold.otf",
+        "sha256": "d627b53dbcde61e07de1498d2623a8b287f78585ffbc90cc0618d0caaa2ed6b0"
+      },
+      "style": {
+        "fill": [
+          235,
+          226,
+          197,
+          255
+        ],
+        "stroke_fill": [
+          45,
+          30,
+          10,
+          255
+        ],
+        "shadow_fill": [
+          25,
+          17,
+          9,
+          220
+        ]
+      },
+      "source_text_sha256": "0b1b5cef4f2aef10b3fbc14cdf2a4893ba1f21a3a159be1e556cbd1e0d1f9953",
+      "translation_basis": "existing-current-geography-or-visible-English-literal;not-runtime-binding",
+      "restoration": {
+        "mask": {
+          "path": "locales/zh-Hans/texture-overlays/restorations/world_map_ruhalt_plateau.mask.png",
+          "sha256": "687ad26cdba2dc2be2125b3400bb0509d5bbc3a88ec6f233d3969b3a20661427"
+        },
+        "patch": {
+          "path": "locales/zh-Hans/texture-overlays/restorations/world_map_ruhalt_plateau.patch.png",
+          "sha256": "3719e594e808e60be3e06bd7ea9daf0217390a76b2165fb69b869f353144193b"
+        },
+        "source_rgba_sha256": "1562ec8f6ea5b7f82690cdb51cd72e438ae9d4858a7b6cec08d206f14775a104"
+      }
+    },
+    {
+      "id": "world_map_bluemoon_trewa_base",
+      "text": "青月特雷瓦基地",
+      "rect": [
+        2168,
+        780,
+        232,
+        36
+      ],
+      "font_size": 20,
+      "align": "center",
+      "ink_padding": {
+        "x": 2,
+        "y": 1
+      },
+      "font": {
+        "path": "build/font-source/NotoSerifCJKsc-SemiBold.otf",
+        "sha256": "d627b53dbcde61e07de1498d2623a8b287f78585ffbc90cc0618d0caaa2ed6b0"
+      },
+      "style": {
+        "fill": [
+          235,
+          226,
+          197,
+          255
+        ],
+        "stroke_fill": [
+          45,
+          30,
+          10,
+          255
+        ],
+        "shadow_fill": [
+          25,
+          17,
+          9,
+          220
+        ]
+      },
+      "source_text_sha256": "7668bf4e2c8f2261e51f39e9a585e4d9d9ee1d59f8fc0285eef5e9e07ac06a54",
+      "translation_basis": "existing-current-geography-or-visible-English-literal;not-runtime-binding",
+      "restoration": {
+        "mask": {
+          "path": "locales/zh-Hans/texture-overlays/restorations/world_map_bluemoon_trewa_base.mask.png",
+          "sha256": "13fc4a35d6b5b7592277a8f65e7bc2d19d25078abf47a624f7247752d187c83b"
+        },
+        "patch": {
+          "path": "locales/zh-Hans/texture-overlays/restorations/world_map_bluemoon_trewa_base.patch.png",
+          "sha256": "d5643d3d38935856fb9cb319d3bf56e19dde1a0da22b94d5e180d92d50e565e1"
+        },
+        "source_rgba_sha256": "f746fa4f32bb6edf9fea8f35ce2140cd96f15d383d19040bd15b4652e01c456c"
+      }
+    },
+    {
+      "id": "world_map_ruhalt_region",
+      "text": "鲁哈尔特盆地",
+      "rect": [
+        1768,
+        696,
+        244,
+        64
+      ],
+      "font_size": 36,
+      "align": "center",
+      "ink_padding": {
+        "x": 2,
+        "y": 1
+      },
+      "font": {
+        "path": "build/font-source/NotoSerifCJKsc-SemiBold.otf",
+        "sha256": "d627b53dbcde61e07de1498d2623a8b287f78585ffbc90cc0618d0caaa2ed6b0"
+      },
+      "style": {
+        "fill": [
+          230,
+          194,
+          102,
+          255
+        ],
+        "stroke_fill": [
+          45,
+          30,
+          10,
+          255
+        ],
+        "shadow_fill": [
+          25,
+          17,
+          9,
+          220
+        ]
+      },
+      "source_text_sha256": "bfa366a655c146a6a3ff7189d8e781e6be10806048bba8845b87a88362a71a24",
+      "translation_basis": "existing-current-geography-or-visible-English-literal;not-runtime-binding",
+      "restoration": {
+        "mask": {
+          "path": "locales/zh-Hans/texture-overlays/restorations/world_map_ruhalt_region.mask.png",
+          "sha256": "f1c0e4bd50a378de3323807b416680f8cca35e309e4263ec32dbe1981b2e51c2"
+        },
+        "patch": {
+          "path": "locales/zh-Hans/texture-overlays/restorations/world_map_ruhalt_region.patch.png",
+          "sha256": "f57737a5cd5491b18e41b6b8626fb255846fe9033ed9d1654bf484626d9f25ea"
+        },
+        "source_rgba_sha256": "abebeb5cb64ed41c6dde8fc2ca95e1e968a6ba90448996117abef3c74ccdb25a"
+      }
+    },
+    {
+      "id": "world_map_ruhalt_point",
+      "text": "鲁哈尔特盆地",
+      "rect": [
+        1728,
+        860,
+        140,
+        36
+      ],
+      "font_size": 20,
+      "align": "center",
+      "ink_padding": {
+        "x": 2,
+        "y": 1
+      },
+      "font": {
+        "path": "build/font-source/NotoSerifCJKsc-SemiBold.otf",
+        "sha256": "d627b53dbcde61e07de1498d2623a8b287f78585ffbc90cc0618d0caaa2ed6b0"
+      },
+      "style": {
+        "fill": [
+          235,
+          226,
+          197,
+          255
+        ],
+        "stroke_fill": [
+          45,
+          30,
+          10,
+          255
+        ],
+        "shadow_fill": [
+          25,
+          17,
+          9,
+          220
+        ]
+      },
+      "source_text_sha256": "bfa366a655c146a6a3ff7189d8e781e6be10806048bba8845b87a88362a71a24",
+      "translation_basis": "existing-current-geography-or-visible-English-literal;not-runtime-binding",
+      "restoration": {
+        "mask": {
+          "path": "locales/zh-Hans/texture-overlays/restorations/world_map_ruhalt_point.mask.png",
+          "sha256": "da7f951a59ae68627e28473036649f6ed08cdd0545239e1038896a556b755b65"
+        },
+        "patch": {
+          "path": "locales/zh-Hans/texture-overlays/restorations/world_map_ruhalt_point.patch.png",
+          "sha256": "3d9405a6c805c65151b8873757eba9473589f0fd3d1f5786e938e2aa3d988a44"
+        },
+        "source_rgba_sha256": "38483bd59f9dc88dca23dce7eab4fae3c391ec50fd5dc5b8b42adacdf583c092"
+      }
+    },
+    {
+      "id": "world_map_ruhalt_garrison",
+      "text": "鲁哈尔特盆地南部军驻地",
+      "rect": [
+        1792,
+        792,
+        192,
+        44
+      ],
+      "font_size": 17,
+      "align": "center",
+      "ink_padding": {
+        "x": 2,
+        "y": 1
+      },
+      "font": {
+        "path": "build/font-source/NotoSerifCJKsc-SemiBold.otf",
+        "sha256": "d627b53dbcde61e07de1498d2623a8b287f78585ffbc90cc0618d0caaa2ed6b0"
+      },
+      "style": {
+        "fill": [
+          235,
+          226,
+          197,
+          255
+        ],
+        "stroke_fill": [
+          45,
+          30,
+          10,
+          255
+        ],
+        "shadow_fill": [
+          25,
+          17,
+          9,
+          220
+        ]
+      },
+      "source_text_sha256": "1647ea026d74780ad24bd8057473923e1c2bcdc075cd4563fd4f2da106c5409a",
+      "translation_basis": "existing-current-geography-or-visible-English-literal;not-runtime-binding",
+      "line_breaks": [
+        6
+      ],
+      "restoration": {
+        "mask": {
+          "path": "locales/zh-Hans/texture-overlays/restorations/world_map_ruhalt_garrison.mask.png",
+          "sha256": "438dbbefa7342d29d6f00a66233644e9f01032ae9a52159c24c0d70db8729a5c"
+        },
+        "patch": {
+          "path": "locales/zh-Hans/texture-overlays/restorations/world_map_ruhalt_garrison.patch.png",
+          "sha256": "bf842e59af06ab1e2251ec7ca5d526a0f63d876c6c4b3ae4dd9b801fa7ae0310"
+        },
+        "source_rgba_sha256": "9deda0ffffc703b10aa249b8157e757f3e2ab1446027baede6db08d59641e3b6"
+      }
+    },
+    {
+      "id": "world_map_dunan_hill_region",
+      "text": "杜南丘陵",
+      "rect": [
+        1752,
+        944,
+        220,
+        64
+      ],
+      "font_size": 36,
+      "align": "center",
+      "ink_padding": {
+        "x": 2,
+        "y": 1
+      },
+      "font": {
+        "path": "build/font-source/NotoSerifCJKsc-SemiBold.otf",
+        "sha256": "d627b53dbcde61e07de1498d2623a8b287f78585ffbc90cc0618d0caaa2ed6b0"
+      },
+      "style": {
+        "fill": [
+          230,
+          194,
+          102,
+          255
+        ],
+        "stroke_fill": [
+          45,
+          30,
+          10,
+          255
+        ],
+        "shadow_fill": [
+          25,
+          17,
+          9,
+          220
+        ]
+      },
+      "source_text_sha256": "e1d736b77e05731c324d9bc3a54af5583a084ee22086f2eb2f2546e44609e823",
+      "translation_basis": "existing-current-geography-or-visible-English-literal;not-runtime-binding",
+      "restoration": {
+        "mask": {
+          "path": "locales/zh-Hans/texture-overlays/restorations/world_map_dunan_hill_region.mask.png",
+          "sha256": "7381bfdfbe0392f844492c18482b7efd08456c9c2c932f3bf12cf654ee6a1b6e"
+        },
+        "patch": {
+          "path": "locales/zh-Hans/texture-overlays/restorations/world_map_dunan_hill_region.patch.png",
+          "sha256": "6d2be4f1490d1d688dea7287bc6607aa87d0e2f2c5f3181c14c044920d86b937"
+        },
+        "source_rgba_sha256": "69564058ed9ae0b4407f633c553fa3ac55d9f7b9272540cbe2982d13ef974b72"
+      }
     }
   ],
   "sources": [
@@ -57082,7 +57615,17 @@
             2048
           ],
           "regions": [
-            "world_map_lanzheim"
+            "world_map_lanzheim",
+            "world_map_belfort_castle",
+            "world_map_belfort_region",
+            "world_map_belfort_ruins",
+            "world_map_starlight_field",
+            "world_map_ruhalt_plateau",
+            "world_map_bluemoon_trewa_base",
+            "world_map_ruhalt_region",
+            "world_map_ruhalt_point",
+            "world_map_ruhalt_garrison",
+            "world_map_dunan_hill_region"
           ],
           "image_id": "img_world_map_whole",
           "profile": {
@@ -57090,7 +57633,89 @@
             "format": 5
           },
           "channel_mode": "opaque-rgb",
-          "preserve_unchanged_blocks": true
+          "preserve_unchanged_blocks": true,
+          "protected_regions": [
+            {
+              "id": "castle_point",
+              "rect": [
+                1540,
+                388,
+                24,
+                24
+              ],
+              "rgba_sha256": "3307c0464027db5658305c996d83dd4f5a9d0da7538bd8c7d743ad38b49a5148"
+            },
+            {
+              "id": "ruins_point",
+              "rect": [
+                1616,
+                528,
+                24,
+                24
+              ],
+              "rgba_sha256": "7e14980ac72ddc789ff658e958cfafb8da7eb2109d779f3865a3912f54bf5865"
+            },
+            {
+              "id": "starlight_point",
+              "rect": [
+                1624,
+                584,
+                24,
+                24
+              ],
+              "rgba_sha256": "9ad7f9c67738e1f08a377fafd8aabc4587ce70a2f2976e727811ef3d6a23c110"
+            },
+            {
+              "id": "plateau_point",
+              "rect": [
+                2136,
+                664,
+                24,
+                24
+              ],
+              "rgba_sha256": "6a4152d24abea38aff4e1cdd3657e854a3ffc9f00c8ca0e486d48086c287fbd0"
+            },
+            {
+              "id": "garrison_point",
+              "rect": [
+                1876,
+                764,
+                24,
+                24
+              ],
+              "rgba_sha256": "0539be94f5b56d414d33633d9fdb92be188e7bc754cfa7dccea0ad7582eb6e24"
+            },
+            {
+              "id": "basin_point",
+              "rect": [
+                1784,
+                836,
+                28,
+                24
+              ],
+              "rgba_sha256": "3f6c0b74ea741e51deae3a128627f23c1ae341b8e979bb2e96fb4383e8354645"
+            },
+            {
+              "id": "hill_point",
+              "rect": [
+                1736,
+                1008,
+                28,
+                28
+              ],
+              "rgba_sha256": "3d30a74972b189afe1ac9c206dcd7934fb47de9d416b431fe4d44a9a4612150f"
+            },
+            {
+              "id": "trewa_tower",
+              "rect": [
+                2228,
+                656,
+                112,
+                124
+              ],
+              "rgba_sha256": "36a120fd205dd495a7d84bffcd98b2ec5bdbb58a8898a6879744c3c226414e06"
+            }
+          ]
         }
       ]
     },

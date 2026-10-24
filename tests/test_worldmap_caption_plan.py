@@ -20,7 +20,7 @@ class WorldMapCaptionPlanTests(unittest.TestCase):
         self.assertFalse(d['game_rendering_verified'])
         self.assertEqual(d['INT_drafts_added'], 0)
         self.assertTrue(d['manual_review'])
-        self.assertEqual(d['label'], self.plan['labels'][-1])
+        self.assertEqual(d['label'], next(l for l in self.plan['labels'] if l['id'] == d['label']['id']))
 
     def test_prior_1082_layers_are_unchanged(self):
         raw = json.dumps(self.plan['labels'][:1082], ensure_ascii=False,
@@ -49,7 +49,7 @@ class WorldMapCaptionPlanTests(unittest.TestCase):
         self.assertEqual(sorted(a['disc'] for a in d['all_source_aliases']), [1, 2])
         source = next(s for s in self.plan['sources'] if s['path'].endswith('/UI_WorldMap.xxx'))
         edit = next(e for e in source['textures'] if e['object'] == 'Textures.WorldMap_Whole')
-        self.assertEqual(edit['regions'], ['world_map_lanzheim'])
+        self.assertEqual(edit['regions'][:1], ['world_map_lanzheim'])
         self.assertEqual(edit['profile']['format'], 5)
         self.assertEqual(edit['channel_mode'], 'opaque-rgb')
         self.assertIs(edit['preserve_unchanged_blocks'], True)

@@ -1,3 +1,7 @@
+## 第302阶段：地图32处图中文字全部回填
+
+新增其余21处地名，地图32/32处进入实际纹理计划；625图组、1114文字层、2446双盘别名、333源路径。19个标记区域逐像素核对，旧11处与其他624组图片继续保护；不是整个游戏图片覆盖完成，也不代替游戏验收。见[阶段302](docs/PHASE_302_COMPLETE_MAP_ADOPTION.md)。
+
 ## 第301阶段：东北区域10处地图文字
 
 贝尔福特、鲁哈尔特盆地及杜南丘陵区域新增10处图中文字，地图累计11/32处，余21处；仍为625图组，1093文字层、2446双盘别名及333源路径。南部军驻地保留一块物理区域、分两行排版，未扩大32区域上限。旧1083层及Boss规则不变；不是全图完成或游戏验收。见[阶段301](docs/PHASE_301_NORTHEAST_MAP_ADOPTION.md)。
@@ -1787,3 +1791,30 @@ python tools/prepare_translation_workspace.py --source-root . --workflow locales
 ```
 
 47语境profile已按新计划逐个校验（不放宽suite16上限），功能换行与四条literal-control记录保持；新需求字形为空，沿用七Font与315字幕。
+
+
+## 派生输出空间门禁与去重（2026-10-24）
+
+每次大型纹理、合成、对照构建及独立重放开始前，先执行：
+
+```powershell
+python -m tools.compact_outputs --root build --check-space-only
+```
+
+可用空间不足16 GiB即停止生产，先压缩已完成且不再写入的派生输出。
+每个阶段发布有效清单后立即去重，不再连续保留多套独立的相同资源。
+必须同时列入前轮保留成果与本轮新成果的完整清单，不能只在单轮内部去重。
+显式列出待比较的完整清单；例如：
+
+```powershell
+python -m tools.compact_outputs --root build --manifest build/phase-302-verification/disc1-texture-bundle-final/manifest.json --manifest build/phase-302-verification/disc1-composition-final/manifest.json --manifest build/phase-302-verification/disc1-comparison-final/manifest.json --output-dir build/storage-compaction-new
+```
+
+输出目录必须全新。工具先核对整个候选集合的清单SHA256，再通过同卷硬链接
+合并完全相同的candidate/controls/raw-controls成员，保留全部资源路径和字节。
+操作日志和结束报告必须留存；原盘、运行目录、配置、存档、回滚及研究材料
+不属于候选范围。未发布或失败的目录没有完整清单，不参与自动去重。
+硬链接后的派生文件是只读意义上的不可变成果：任何原地修改前必须先复制
+到独立临时文件、核对SHA256并原子替换；不要向共享inode直接写入。
+该工具不等于删除目录，也不等于游戏内验收。每轮仍使用现有测试副本增量刷新，
+不生成新ISO或完整游戏副本。

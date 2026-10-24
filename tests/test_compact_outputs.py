@@ -100,6 +100,38 @@ class CompactOutputsTests(unittest.TestCase):
         with patch("tools.compact_outputs.shutil.disk_usage", return_value=usage):
             self.assertEqual(require_disk_space(self.root), 16 * 2**30)
 
+    def alias_resolution(self):
+        # Model Windows 8.3 names resolving to their long-name counterpart.
+        alias = self.root.with_name(self.root.name + "-short")
+        original = Path.resolve
+
+        def resolve(path, *args, **kwargs):
+            if path.is_relative_to(alias):
+                path = self.root / path.relative_to(alias)
+            return original(path, *args, **kwargs)
+
+        return alias, resolve
+
+    def test_short_and_long_path_spellings_share_one_allowed_root(self):
+        alias, resolve = self.alias_resolution()
+        with patch.object(Path, "resolve", resolve):
+            report = compact_outputs([alias / "packet/manifest.json"], self.root,
+                                     self.root / "report", minimum_size=1)
+        self.assertEqual(report["linked_files"], 1)
+        self.assertEqual(self.b.read_bytes(), self.data)
+
+    def test_resolving_alias_does_not_hide_a_reparse_point(self):
+        alias, resolve = self.alias_resolution()
+        original = Path.is_junction
+
+        def junction(path):
+            return path == alias or original(path)
+
+        with patch.object(Path, "resolve", resolve), patch.object(Path, "is_junction", junction):
+            with self.assertRaisesRegex(ValueError, "Reparse points"):
+                compact_outputs([alias / "packet/manifest.json"], self.root,
+                                self.root / "report", minimum_size=1)
+
 
 if __name__ == "__main__":
     unittest.main()

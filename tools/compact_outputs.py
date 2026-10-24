@@ -26,14 +26,18 @@ def require_disk_space(root: Path, minimum_bytes: int = 16 * 2**30) -> int:
 
 def _checked(path: Path, root: Path) -> Path:
     path = path.absolute()
-    if ".." in path.parts or not path.is_relative_to(root):
+    if ".." in path.parts:
+        raise ValueError(f"Output escaped allowed root: {path}")
+    # Resolve both sides for Windows 8.3/long-name equivalence, but retain the
+    # original spelling while inspecting every component for reparse points.
+    resolved = path.resolve(strict=True)
+    if not resolved.is_relative_to(root):
         raise ValueError(f"Output escaped allowed root: {path}")
     for component in (path, *path.parents):
         if component.is_symlink() or component.is_junction():
             raise ValueError(f"Reparse points are not eligible: {component}")
-        if component == root:
+        if component.resolve(strict=True) == root:
             break
-    resolved = path.resolve(strict=True)
     if not resolved.is_relative_to(root) or not resolved.is_file():
         raise ValueError(f"Not a regular build output: {path}")
     return resolved

@@ -132,6 +132,49 @@ class CompactOutputsTests(unittest.TestCase):
                 compact_outputs([alias / "packet/manifest.json"], self.root,
                                 self.root / "report", minimum_size=1)
 
+    def backup_pair(self):
+        paths = [self.root / "packet/rollback-check/r.bin",
+                 self.root / "packet/raw-rollback-check/s.bin"]
+        for path in paths:
+            path.parent.mkdir(exist_ok=True)
+            path.write_bytes(self.data)
+            self.members[path.relative_to(self.manifest.parent).as_posix()] = self.members["candidate/a.bin"]
+        self.save()
+        return paths
+
+    def test_backup_pool_keeps_an_independent_copy_from_candidates(self):
+        r, s = self.backup_pair()
+        report = compact_outputs([self.manifest], self.root, self.root / "report",
+                                 minimum_size=1, rollback_only=True)
+        self.assertEqual(report["linked_files"], 1)
+        self.assertTrue(os.path.samefile(r, s))
+        self.assertFalse(os.path.samefile(self.a, r))
+        self.assertEqual(r.read_bytes(), self.data)
+
+    def test_backup_pool_excludes_inodes_with_unlisted_links(self):
+        r, s = self.backup_pair()
+        r.unlink()
+        os.link(self.a, r)
+        report = compact_outputs([self.manifest], self.root, self.root / "report",
+                                 minimum_size=1, rollback_only=True)
+        self.assertEqual(report["skipped_external_links"], 1)
+        self.assertEqual(report["linked_files"], 0)
+        self.assertFalse(os.path.samefile(r, s))
+
+    def test_existing_backup_pool_can_merge_new_copies_without_external_sharing(self):
+        r, s = self.backup_pair()
+        compact_outputs([self.manifest], self.root, self.root / "report",
+                        minimum_size=1, rollback_only=True)
+        t = s.with_name("t.bin")
+        t.write_bytes(self.data)
+        self.members["raw-rollback-check/t.bin"] = self.members["candidate/a.bin"]
+        self.save()
+        report = compact_outputs([self.manifest], self.root, self.root / "report2",
+                                 minimum_size=1, rollback_only=True)
+        self.assertEqual(report["linked_files"], 1)
+        self.assertTrue(os.path.samefile(r, t))
+        self.assertFalse(os.path.samefile(self.a, t))
+
 
 if __name__ == "__main__":
     unittest.main()

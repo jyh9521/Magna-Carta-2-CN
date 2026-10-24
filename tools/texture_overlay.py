@@ -305,7 +305,7 @@ def overlay_profile_regions(texture,edit,layers,encoding_cache=None):
     fmt=texture['format'];mode=edit.get('channel_mode','rgba')
     preserve=edit.get('preserve_unchanged_blocks',False)
     if type(preserve) is not bool:raise FormatError('preserve unchanged blocks requires boolean')
-    if preserve and (fmt!=5 or mode!='opaque-rgb'):raise FormatError('preserve unchanged blocks requires restored opaque RGB')
+    if preserve and (fmt,mode) not in ((5,'opaque-rgb'),(7,'rgba')):raise FormatError('preserve unchanged blocks requires restored BC1 RGB or BC3 RGBA')
     if (fmt==7 and mode!='rgba') or (fmt==5 and mode not in ('opaque-luma','opaque-rgb')):
         raise FormatError('explicit supported texture channel mode required')
     before=decode_texture(texture)
@@ -344,7 +344,7 @@ def overlay_profile_regions(texture,edit,layers,encoding_cache=None):
         patched,proof=overlay_rect(patched,layout,label['rect'],rgba,encoding_cache)
         if preserve:
             # Decoded equality is checked before compression. Retain the exact
-            # original BC1 bytes instead of re-quantizing untouched map art.
+            # original BC bytes instead of re-quantizing untouched artwork.
             rect=label['rect'];rw,rh=rect[2:];source=rgba_crop(before,w,rect)
             units=rect_units(layout,rect);out=bytearray(patched);kept=0
             for j in range(rh//4):

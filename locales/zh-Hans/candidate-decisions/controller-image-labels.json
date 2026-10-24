@@ -1,0 +1,1466 @@
+{
+  "schema_version": 1,
+  "phase": 303,
+  "kind": "controller-legend-and-title-adoption",
+  "plan": {
+    "path": "locales/zh-Hans/texture-overlays/ui-labels.json",
+    "sha256": "17d47e9c71f08937e6778ba23a40cb475f0d1367bad2d1d1a7a43851bdb630d2"
+  },
+  "new_image_groups": 2,
+  "new_text_layers": 14,
+  "new_aliases": 8,
+  "current_image_groups": 627,
+  "current_text_layers": 1128,
+  "current_aliases": 2454,
+  "current_source_paths": 334,
+  "game_rendering_verified": false,
+  "all_game_image_text_translated": false,
+  "INT_drafts_added": 0,
+  "entries": [
+    {
+      "name": "move_mode",
+      "visible_source": "이동 / 전투모드 전환",
+      "label": {
+        "id": "controller_move_mode",
+        "text": "切换移动／战斗模式",
+        "rect": [
+          164,
+          28,
+          184,
+          32
+        ],
+        "font_size": 18,
+        "align": "center",
+        "ink_padding": {
+          "x": 2,
+          "y": 1
+        },
+        "font": {
+          "path": "build/font-source/NotoSansCJKsc-Regular.otf",
+          "sha256": "2c76254f6fc379fddfce0a7e84fb5385bb135d3e399294f6eeb6680d0365b74b"
+        },
+        "style": {
+          "fill": [
+            245,
+            245,
+            245,
+            255
+          ],
+          "stroke_fill": [
+            0,
+            0,
+            0,
+            240
+          ],
+          "shadow_fill": [
+            0,
+            0,
+            0,
+            150
+          ]
+        },
+        "restoration": {
+          "source_rgba_sha256": "b4e6ceef1b58dd2f77672c1f6fd7a27a1fe51c647a170cbd90c6fb48abad0cae",
+          "mask": {
+            "path": "locales/zh-Hans/texture-overlays/restorations/controller_move_mode.mask.png",
+            "sha256": "3aa026a86de92f9c7f0b4378b5653cf0673fbc00b01216c142c4693b14d701f6"
+          },
+          "patch": {
+            "path": "locales/zh-Hans/texture-overlays/restorations/controller_move_mode.patch.png",
+            "sha256": "d4d46a83e2ce9ca3c49367bcd7c6c04907bee18d66927855946cf5f11cb0d200"
+          }
+        }
+      },
+      "manual_review": true
+    },
+    {
+      "name": "world_map",
+      "visible_source": "전체지도 표시",
+      "label": {
+        "id": "controller_world_map",
+        "text": "显示世界地图",
+        "rect": [
+          372,
+          48,
+          120,
+          32
+        ],
+        "font_size": 18,
+        "align": "center",
+        "ink_padding": {
+          "x": 2,
+          "y": 1
+        },
+        "font": {
+          "path": "build/font-source/NotoSansCJKsc-Regular.otf",
+          "sha256": "2c76254f6fc379fddfce0a7e84fb5385bb135d3e399294f6eeb6680d0365b74b"
+        },
+        "style": {
+          "fill": [
+            245,
+            245,
+            245,
+            255
+          ],
+          "stroke_fill": [
+            0,
+            0,
+            0,
+            240
+          ],
+          "shadow_fill": [
+            0,
+            0,
+            0,
+            150
+          ]
+        },
+        "restoration": {
+          "source_rgba_sha256": "369cd366feab8b68cc56529f9c561c2163c3a7b1eed99b99cf5e58f27b8fe28e",
+          "mask": {
+            "path": "locales/zh-Hans/texture-overlays/restorations/controller_world_map.mask.png",
+            "sha256": "959193e2d0bc6fb097dd5db92b360e03810e9edaf08ecaa51460c911e606f0e4"
+          },
+          "patch": {
+            "path": "locales/zh-Hans/texture-overlays/restorations/controller_world_map.patch.png",
+            "sha256": "2d1f6882a5b8a367461ef7238a16e5460645491cd8e89a72d2e0a679269522f9"
+          }
+        }
+      },
+      "manual_review": true
+    },
+    {
+      "name": "action_list",
+      "visible_source": "스킬 / 액션 아이템리스트 확인",
+      "label": {
+        "id": "controller_action_list",
+        "text": "查看技能／场景动作物品列表",
+        "rect": [
+          612,
+          36,
+          272,
+          40
+        ],
+        "font_size": 18,
+        "align": "center",
+        "ink_padding": {
+          "x": 2,
+          "y": 1
+        },
+        "font": {
+          "path": "build/font-source/NotoSansCJKsc-Regular.otf",
+          "sha256": "2c76254f6fc379fddfce0a7e84fb5385bb135d3e399294f6eeb6680d0365b74b"
+        },
+        "style": {
+          "fill": [
+            245,
+            245,
+            245,
+            255
+          ],
+          "stroke_fill": [
+            0,
+            0,
+            0,
+            240
+          ],
+          "shadow_fill": [
+            0,
+            0,
+            0,
+            150
+          ]
+        },
+        "restoration": {
+          "source_rgba_sha256": "eca920d4b62b29d849df57db92db8da06552e958475d831423f1489c73e86440",
+          "mask": {
+            "path": "locales/zh-Hans/texture-overlays/restorations/controller_action_list.mask.png",
+            "sha256": "8fc308edc09c19383ba3a57fbe72185827e46e00c3dde915af6b0616166ac6ec"
+          },
+          "patch": {
+            "path": "locales/zh-Hans/texture-overlays/restorations/controller_action_list.patch.png",
+            "sha256": "38d1ca61a68fb0e47230ae0fa6b2acab22e4b38d0048fa934e292b1e5605903f"
+          }
+        }
+      },
+      "manual_review": true
+    },
+    {
+      "name": "target_left",
+      "visible_source": "타겟 변경",
+      "label": {
+        "id": "controller_target_left",
+        "text": "切换目标",
+        "rect": [
+          176,
+          100,
+          104,
+          36
+        ],
+        "font_size": 18,
+        "align": "center",
+        "ink_padding": {
+          "x": 2,
+          "y": 1
+        },
+        "font": {
+          "path": "build/font-source/NotoSansCJKsc-Regular.otf",
+          "sha256": "2c76254f6fc379fddfce0a7e84fb5385bb135d3e399294f6eeb6680d0365b74b"
+        },
+        "style": {
+          "fill": [
+            245,
+            245,
+            245,
+            255
+          ],
+          "stroke_fill": [
+            0,
+            0,
+            0,
+            240
+          ],
+          "shadow_fill": [
+            0,
+            0,
+            0,
+            150
+          ]
+        },
+        "restoration": {
+          "source_rgba_sha256": "2e5a6e143e7d4ac0f0aff40c509c31b3566f873cd53f10ff092b6fc363db6281",
+          "mask": {
+            "path": "locales/zh-Hans/texture-overlays/restorations/controller_target_left.mask.png",
+            "sha256": "8cec02c1db9da7ff01460b1844e60364d177ec6c76a6e202124fb14a2365b3ee"
+          },
+          "patch": {
+            "path": "locales/zh-Hans/texture-overlays/restorations/controller_target_left.patch.png",
+            "sha256": "39c79f7f13f7baa317d5a9c2b4b1ab250b43eff3dd2699993f16b937b83c90e8"
+          }
+        }
+      },
+      "manual_review": true
+    },
+    {
+      "name": "target_right",
+      "visible_source": "타겟 변경",
+      "label": {
+        "id": "controller_target_right",
+        "text": "切换目标",
+        "rect": [
+          756,
+          108,
+          100,
+          40
+        ],
+        "font_size": 18,
+        "align": "center",
+        "ink_padding": {
+          "x": 2,
+          "y": 1
+        },
+        "font": {
+          "path": "build/font-source/NotoSansCJKsc-Regular.otf",
+          "sha256": "2c76254f6fc379fddfce0a7e84fb5385bb135d3e399294f6eeb6680d0365b74b"
+        },
+        "style": {
+          "fill": [
+            245,
+            245,
+            245,
+            255
+          ],
+          "stroke_fill": [
+            0,
+            0,
+            0,
+            240
+          ],
+          "shadow_fill": [
+            0,
+            0,
+            0,
+            150
+          ]
+        },
+        "restoration": {
+          "source_rgba_sha256": "2ae711b06aaf7951435a17ffce382fe20d799dc093c6fa3f755270f75c5b5d49",
+          "mask": {
+            "path": "locales/zh-Hans/texture-overlays/restorations/controller_target_right.mask.png",
+            "sha256": "6a219ea97d46aa6c7d0285dd618df8dce717bdc810332dad90ff7f346a6b5bc1"
+          },
+          "patch": {
+            "path": "locales/zh-Hans/texture-overlays/restorations/controller_target_right.patch.png",
+            "sha256": "98928020763ad42e1da41e8c71f02d1f4b725fd618c022a890d3f0ba3fc12a33"
+          }
+        }
+      },
+      "manual_review": true
+    },
+    {
+      "name": "use_skill",
+      "visible_source": "스킬/아이템 사용",
+      "label": {
+        "id": "controller_use_skill",
+        "text": "使用技能／物品",
+        "rect": [
+          488,
+          84,
+          160,
+          36
+        ],
+        "font_size": 18,
+        "align": "center",
+        "ink_padding": {
+          "x": 2,
+          "y": 1
+        },
+        "font": {
+          "path": "build/font-source/NotoSansCJKsc-Regular.otf",
+          "sha256": "2c76254f6fc379fddfce0a7e84fb5385bb135d3e399294f6eeb6680d0365b74b"
+        },
+        "style": {
+          "fill": [
+            245,
+            245,
+            245,
+            255
+          ],
+          "stroke_fill": [
+            0,
+            0,
+            0,
+            240
+          ],
+          "shadow_fill": [
+            0,
+            0,
+            0,
+            150
+          ]
+        },
+        "restoration": {
+          "source_rgba_sha256": "0938ed54d8c66417014320be58dce0f0b660ddc091197e1c74183945481f6996",
+          "mask": {
+            "path": "locales/zh-Hans/texture-overlays/restorations/controller_use_skill.mask.png",
+            "sha256": "d6f9991757e503c9fa94bfe31de24495011015d3a8168b27bb27f650cf1355f2"
+          },
+          "patch": {
+            "path": "locales/zh-Hans/texture-overlays/restorations/controller_use_skill.patch.png",
+            "sha256": "8bfb9e1a7f882f9028a5af1a0c51fbd35d031d5abcb6d85be2e2b3b5cbe50104"
+          }
+        }
+      },
+      "manual_review": true
+    },
+    {
+      "name": "battle_menu",
+      "visible_source": "배틀메뉴 표시",
+      "label": {
+        "id": "controller_battle_menu",
+        "text": "显示战斗菜单",
+        "rect": [
+          756,
+          204,
+          132,
+          36
+        ],
+        "font_size": 18,
+        "align": "center",
+        "ink_padding": {
+          "x": 2,
+          "y": 1
+        },
+        "font": {
+          "path": "build/font-source/NotoSansCJKsc-Regular.otf",
+          "sha256": "2c76254f6fc379fddfce0a7e84fb5385bb135d3e399294f6eeb6680d0365b74b"
+        },
+        "style": {
+          "fill": [
+            245,
+            245,
+            245,
+            255
+          ],
+          "stroke_fill": [
+            0,
+            0,
+            0,
+            240
+          ],
+          "shadow_fill": [
+            0,
+            0,
+            0,
+            150
+          ]
+        },
+        "restoration": {
+          "source_rgba_sha256": "0d11ee58e44505ab961b93cb3b93b8c90b31a6783a88cd4866a4e6aa1242d107",
+          "mask": {
+            "path": "locales/zh-Hans/texture-overlays/restorations/controller_battle_menu.mask.png",
+            "sha256": "5fa762bfc184ece3dd45c892d0edf3bdb2f4d8b0a27c99fbfefe669caac8364a"
+          },
+          "patch": {
+            "path": "locales/zh-Hans/texture-overlays/restorations/controller_battle_menu.patch.png",
+            "sha256": "5c946f385cfae3162102a4f9e624ff06d1bda255783f826e9d8e15303d47917f"
+          }
+        }
+      },
+      "manual_review": true
+    },
+    {
+      "name": "cancel_unique",
+      "visible_source": "취소 / 고유기 사용",
+      "label": {
+        "id": "controller_cancel_unique",
+        "text": "取消／使用固有技",
+        "rect": [
+          780,
+          260,
+          176,
+          40
+        ],
+        "font_size": 18,
+        "align": "center",
+        "ink_padding": {
+          "x": 2,
+          "y": 1
+        },
+        "font": {
+          "path": "build/font-source/NotoSansCJKsc-Regular.otf",
+          "sha256": "2c76254f6fc379fddfce0a7e84fb5385bb135d3e399294f6eeb6680d0365b74b"
+        },
+        "style": {
+          "fill": [
+            245,
+            245,
+            245,
+            255
+          ],
+          "stroke_fill": [
+            0,
+            0,
+            0,
+            240
+          ],
+          "shadow_fill": [
+            0,
+            0,
+            0,
+            150
+          ]
+        },
+        "restoration": {
+          "source_rgba_sha256": "9fc8eaa0d26f120d01c2ba2805be05d5c09f6cdc8d10a6a2868a729f5512d110",
+          "mask": {
+            "path": "locales/zh-Hans/texture-overlays/restorations/controller_cancel_unique.mask.png",
+            "sha256": "54babb6576cc44a9e36f5e0f0be2580e9f05da80e3162b6bc9be9488284ad0ce"
+          },
+          "patch": {
+            "path": "locales/zh-Hans/texture-overlays/restorations/controller_cancel_unique.patch.png",
+            "sha256": "942bb5588bb142efaf52290d920ffeaff1ef7f88569566fa8a9aa852fd56987f"
+          }
+        }
+      },
+      "manual_review": true
+    },
+    {
+      "name": "confirm_attack",
+      "visible_source": "결정 / 통상기 사용",
+      "label": {
+        "id": "controller_confirm_attack",
+        "text": "确认／使用普通攻击",
+        "rect": [
+          772,
+          320,
+          176,
+          40
+        ],
+        "font_size": 18,
+        "align": "center",
+        "ink_padding": {
+          "x": 2,
+          "y": 1
+        },
+        "font": {
+          "path": "build/font-source/NotoSansCJKsc-Regular.otf",
+          "sha256": "2c76254f6fc379fddfce0a7e84fb5385bb135d3e399294f6eeb6680d0365b74b"
+        },
+        "style": {
+          "fill": [
+            245,
+            245,
+            245,
+            255
+          ],
+          "stroke_fill": [
+            0,
+            0,
+            0,
+            240
+          ],
+          "shadow_fill": [
+            0,
+            0,
+            0,
+            150
+          ]
+        },
+        "restoration": {
+          "source_rgba_sha256": "a4e0501a1a5ca9f2a8a9e140846e639717d17315594b10968c9af630ee6c6c79",
+          "mask": {
+            "path": "locales/zh-Hans/texture-overlays/restorations/controller_confirm_attack.mask.png",
+            "sha256": "79009facfc37e3c0b9bc084b26162b6533748f1470e3b6cf8c30343f98dfe63a"
+          },
+          "patch": {
+            "path": "locales/zh-Hans/texture-overlays/restorations/controller_confirm_attack.patch.png",
+            "sha256": "a279988f00f1203c27d50c08c4cf4d21413ff13f0b3514552aee5ba90c83ca5d"
+          }
+        }
+      },
+      "manual_review": true
+    },
+    {
+      "name": "move_dash",
+      "visible_source": "캐릭터 이동 (눌렀을 때)댓쉬",
+      "label": {
+        "id": "controller_move_dash",
+        "text": "移动角色按下：冲刺",
+        "rect": [
+          140,
+          224,
+          128,
+          60
+        ],
+        "font_size": 18,
+        "align": "center",
+        "ink_padding": {
+          "x": 2,
+          "y": 1
+        },
+        "font": {
+          "path": "build/font-source/NotoSansCJKsc-Regular.otf",
+          "sha256": "2c76254f6fc379fddfce0a7e84fb5385bb135d3e399294f6eeb6680d0365b74b"
+        },
+        "style": {
+          "fill": [
+            245,
+            245,
+            245,
+            255
+          ],
+          "stroke_fill": [
+            0,
+            0,
+            0,
+            240
+          ],
+          "shadow_fill": [
+            0,
+            0,
+            0,
+            150
+          ]
+        },
+        "restoration": {
+          "source_rgba_sha256": "251b52dba2e8c6d905350f17126696a0b0cf66990887e6cf666ec265a5906eb0",
+          "mask": {
+            "path": "locales/zh-Hans/texture-overlays/restorations/controller_move_dash.mask.png",
+            "sha256": "5d94c01a2256a7a7d7b8e6550c269610e57821d3e8b0aca08d60bfb66c766acd"
+          },
+          "patch": {
+            "path": "locales/zh-Hans/texture-overlays/restorations/controller_move_dash.patch.png",
+            "sha256": "ee7caea2489e139609922306f3b1120ca26695f5b505cbce7e3f1243bf255ce5"
+          }
+        },
+        "line_breaks": [
+          4
+        ]
+      },
+      "manual_review": true
+    },
+    {
+      "name": "leader_renkai",
+      "visible_source": "리더 변경 / 연계오의사용",
+      "label": {
+        "id": "controller_leader_renkai",
+        "text": "切换队长发动连携奥义",
+        "rect": [
+          136,
+          332,
+          136,
+          56
+        ],
+        "font_size": 18,
+        "align": "center",
+        "ink_padding": {
+          "x": 2,
+          "y": 1
+        },
+        "font": {
+          "path": "build/font-source/NotoSansCJKsc-Regular.otf",
+          "sha256": "2c76254f6fc379fddfce0a7e84fb5385bb135d3e399294f6eeb6680d0365b74b"
+        },
+        "style": {
+          "fill": [
+            245,
+            245,
+            245,
+            255
+          ],
+          "stroke_fill": [
+            0,
+            0,
+            0,
+            240
+          ],
+          "shadow_fill": [
+            0,
+            0,
+            0,
+            150
+          ]
+        },
+        "restoration": {
+          "source_rgba_sha256": "050a9409ebb97a3faca0b6add8e14e3d058f540bf7ea2708aba38d61a6741aa7",
+          "mask": {
+            "path": "locales/zh-Hans/texture-overlays/restorations/controller_leader_renkai.mask.png",
+            "sha256": "e57dd8a79456769d941f801adc08c8cee1c461119d0064cdda5c07a7adbf70c7"
+          },
+          "patch": {
+            "path": "locales/zh-Hans/texture-overlays/restorations/controller_leader_renkai.patch.png",
+            "sha256": "7b635a6a9416b46f2c5a46ba80f5afb3a1c12adbfec459a082cc8bc39fe84208"
+          }
+        },
+        "line_breaks": [
+          4
+        ]
+      },
+      "manual_review": true
+    },
+    {
+      "name": "main_menu",
+      "visible_source": "메인메뉴 표시",
+      "label": {
+        "id": "controller_main_menu",
+        "text": "显示主菜单",
+        "rect": [
+          416,
+          440,
+          136,
+          40
+        ],
+        "font_size": 18,
+        "align": "center",
+        "ink_padding": {
+          "x": 2,
+          "y": 1
+        },
+        "font": {
+          "path": "build/font-source/NotoSansCJKsc-Regular.otf",
+          "sha256": "2c76254f6fc379fddfce0a7e84fb5385bb135d3e399294f6eeb6680d0365b74b"
+        },
+        "style": {
+          "fill": [
+            245,
+            245,
+            245,
+            255
+          ],
+          "stroke_fill": [
+            0,
+            0,
+            0,
+            240
+          ],
+          "shadow_fill": [
+            0,
+            0,
+            0,
+            150
+          ]
+        },
+        "restoration": {
+          "source_rgba_sha256": "ca105d781bd723e0d9e3f4ed46872b556e4f7e1de53d99764d712e2562227c2b",
+          "mask": {
+            "path": "locales/zh-Hans/texture-overlays/restorations/controller_main_menu.mask.png",
+            "sha256": "b8d104dbf8cfa7b44323473423d962751ae50dd2a54983d3019cd088001f5445"
+          },
+          "patch": {
+            "path": "locales/zh-Hans/texture-overlays/restorations/controller_main_menu.patch.png",
+            "sha256": "ff5a5f1ebe85a034c5cecee2753375ca10aafd2edaaadf632061b4127ad5615e"
+          }
+        }
+      },
+      "manual_review": true
+    },
+    {
+      "name": "camera",
+      "visible_source": "카메라 이동 (눌렀을때) 카메라 리셋",
+      "label": {
+        "id": "controller_camera",
+        "text": "移动镜头按下：重置镜头",
+        "rect": [
+          568,
+          420,
+          120,
+          80
+        ],
+        "font_size": 18,
+        "align": "center",
+        "ink_padding": {
+          "x": 2,
+          "y": 1
+        },
+        "font": {
+          "path": "build/font-source/NotoSansCJKsc-Regular.otf",
+          "sha256": "2c76254f6fc379fddfce0a7e84fb5385bb135d3e399294f6eeb6680d0365b74b"
+        },
+        "style": {
+          "fill": [
+            245,
+            245,
+            245,
+            255
+          ],
+          "stroke_fill": [
+            0,
+            0,
+            0,
+            240
+          ],
+          "shadow_fill": [
+            0,
+            0,
+            0,
+            150
+          ]
+        },
+        "restoration": {
+          "source_rgba_sha256": "1eefce9aa4c60d37103867c3111daf78837b45f23d324e84c0b57913d164ad78",
+          "mask": {
+            "path": "locales/zh-Hans/texture-overlays/restorations/controller_camera.mask.png",
+            "sha256": "1e9031fb5f82810b57d4c2160453eb7614768c796ece950564a7d7ab50cc55f5"
+          },
+          "patch": {
+            "path": "locales/zh-Hans/texture-overlays/restorations/controller_camera.patch.png",
+            "sha256": "9344680986d5a680ad62582758cb57eccd57e66923f30689c00f14904020d531"
+          }
+        },
+        "line_breaks": [
+          4,
+          7
+        ]
+      },
+      "manual_review": true
+    },
+    {
+      "name": "title",
+      "visible_source": "버튼 설정 확인",
+      "label": {
+        "id": "controller_title",
+        "text": "按键设置一览",
+        "rect": [
+          0,
+          8,
+          208,
+          48
+        ],
+        "font_size": 28,
+        "align": "left",
+        "ink_padding": {
+          "x": 10,
+          "y": 2
+        },
+        "font": {
+          "path": "build/font-source/NotoSerifCJKsc-SemiBold.otf",
+          "sha256": "d627b53dbcde61e07de1498d2623a8b287f78585ffbc90cc0618d0caaa2ed6b0"
+        },
+        "style": {
+          "fill": [
+            245,
+            224,
+            146,
+            255
+          ],
+          "stroke_fill": [
+            40,
+            30,
+            12,
+            255
+          ],
+          "shadow_fill": [
+            0,
+            0,
+            0,
+            200
+          ]
+        },
+        "restoration": {
+          "source_rgba_sha256": "d0781397808506d4a02489063f04aa497eddf91142876539f04d7614b41a4be5",
+          "mask": {
+            "path": "locales/zh-Hans/texture-overlays/restorations/controller_title.mask.png",
+            "sha256": "6ebee5bacb3184ca89808349735d761be08ef018f533e4fb3413d87fddffd359"
+          },
+          "patch": {
+            "path": "locales/zh-Hans/texture-overlays/restorations/controller_title.patch.png",
+            "sha256": "c15139f4098eab93a0a159db3da5cfbdac695f37e227fc17a02b33225539d956"
+          }
+        }
+      },
+      "manual_review": true
+    }
+  ],
+  "all_source_aliases": [
+    {
+      "source_identity": {
+        "resource": "UI_Field_Option_Control",
+        "export": 2,
+        "path": "Img_Cont",
+        "leaf": "Img_Cont",
+        "disposition": "candidate",
+        "source_rgba_sha256": "a0f631f675f821d5c76c658fb5c6f71a2888b36e4cd3b62728ba57826aa5c9cc"
+      },
+      "disc": 1,
+      "resource_path": "MC2Game/CookedXenon/MC2Game.xxx",
+      "source_sha256": "13f92622e2ae2920f6ce6dfc7b0edbbcbec7e83adeacbd56fed84a021739a641",
+      "export": 55653,
+      "path": "UI_Field_Option_Control.Img_Cont",
+      "leaf": "Img_Cont",
+      "class_path": "Engine.Texture2D",
+      "serial_offset": 48466563,
+      "serial_size": 524668,
+      "package_guid": "e462ff14460a4970338fe386f5450240",
+      "identity": {
+        "canonical_path": "ui_field_option_control.img_cont",
+        "class_path": "engine.texture2d",
+        "forced_export": true,
+        "namespace_guid": "8087f24d4e623cf94f67059825ea14c4",
+        "namespace_root": {
+          "package": "mc2game",
+          "object_index": 45458,
+          "path": "UI_Field_Option_Control",
+          "class_path": "Core.Package",
+          "object_flags": "0007000400000000",
+          "export_flags": 1,
+          "source_sha256": "13f92622e2ae2920f6ce6dfc7b0edbbcbec7e83adeacbd56fed84a021739a641",
+          "logical_serial_offset": 19775519,
+          "serial_size": 12
+        },
+        "runtime_instance_selected": false
+      },
+      "width": 1024,
+      "height": 512,
+      "format_raw": "07",
+      "mip_count": 1,
+      "payload_sha256": "701e075965e1f225f15d9f3d4e1e913b9c808b285181e26d9ca7e484694aba28",
+      "atlas_supported": false,
+      "profile_verified_for_current_patcher": true,
+      "tiled_sha256": "f975a8dcc84cf1cf5a786e30b3dfc467c2fbae660f47e4a66bbe920b35795ad7",
+      "rgba_sha256": "a0f631f675f821d5c76c658fb5c6f71a2888b36e4cd3b62728ba57826aa5c9cc",
+      "candidate_rgba_sha256": "a0f631f675f821d5c76c658fb5c6f71a2888b36e4cd3b62728ba57826aa5c9cc",
+      "bulk_flags": 0,
+      "storage_origin_blocks": [
+        0,
+        0
+      ],
+      "all_alpha_opaque": false,
+      "preview": "build\\phase-303-controller-aliases\\mc2game-13f92622-55653.png",
+      "preview_sha256": "489b377c923b048456cf19c5c0731ad336697e7939d5e1213e6b2d6ee7063cab"
+    },
+    {
+      "source_identity": {
+        "resource": "UI_Field_Option_Control",
+        "export": 2,
+        "path": "Img_Cont",
+        "leaf": "Img_Cont",
+        "disposition": "candidate",
+        "source_rgba_sha256": "a0f631f675f821d5c76c658fb5c6f71a2888b36e4cd3b62728ba57826aa5c9cc"
+      },
+      "disc": 1,
+      "resource_path": "MC2Game/CookedXenon/UI_Field_Option_Control.xxx",
+      "source_sha256": "149191478e44bf8ebea59413ebe96a20fcf126fe64d18fbd7c59ea88c7e9a3d8",
+      "export": 2,
+      "path": "Img_Cont",
+      "leaf": "Img_Cont",
+      "class_path": "Engine.Texture2D",
+      "serial_offset": 1359,
+      "serial_size": 169622,
+      "package_guid": "8087f24d4e623cf94f67059825ea14c4",
+      "identity": {
+        "canonical_path": "ui_field_option_control.img_cont",
+        "class_path": "engine.texture2d",
+        "forced_export": false,
+        "namespace_guid": "8087f24d4e623cf94f67059825ea14c4",
+        "namespace_root": null,
+        "runtime_instance_selected": false
+      },
+      "width": 1024,
+      "height": 512,
+      "format_raw": "07",
+      "mip_count": 1,
+      "payload_sha256": "97269b9f013491a421f5f348ce1e4de0d4b5c2441a718bbc72e14e2057bf8899",
+      "atlas_supported": false,
+      "profile_verified_for_current_patcher": true,
+      "tiled_sha256": "f975a8dcc84cf1cf5a786e30b3dfc467c2fbae660f47e4a66bbe920b35795ad7",
+      "rgba_sha256": "a0f631f675f821d5c76c658fb5c6f71a2888b36e4cd3b62728ba57826aa5c9cc",
+      "candidate_rgba_sha256": "a0f631f675f821d5c76c658fb5c6f71a2888b36e4cd3b62728ba57826aa5c9cc",
+      "bulk_flags": 64,
+      "storage_origin_blocks": [
+        0,
+        0
+      ],
+      "all_alpha_opaque": false,
+      "preview": "build\\phase-303-controller-aliases\\ui_field_option_control-14919147-2.png",
+      "preview_sha256": "489b377c923b048456cf19c5c0731ad336697e7939d5e1213e6b2d6ee7063cab"
+    },
+    {
+      "source_identity": {
+        "resource": "UI_Field_Option_Control",
+        "export": 2,
+        "path": "Img_Cont",
+        "leaf": "Img_Cont",
+        "disposition": "candidate",
+        "source_rgba_sha256": "a0f631f675f821d5c76c658fb5c6f71a2888b36e4cd3b62728ba57826aa5c9cc"
+      },
+      "disc": 2,
+      "resource_path": "MC2Game/CookedXenon/MC2Game.xxx",
+      "source_sha256": "13f92622e2ae2920f6ce6dfc7b0edbbcbec7e83adeacbd56fed84a021739a641",
+      "export": 55653,
+      "path": "UI_Field_Option_Control.Img_Cont",
+      "leaf": "Img_Cont",
+      "class_path": "Engine.Texture2D",
+      "serial_offset": 48466563,
+      "serial_size": 524668,
+      "package_guid": "e462ff14460a4970338fe386f5450240",
+      "identity": {
+        "canonical_path": "ui_field_option_control.img_cont",
+        "class_path": "engine.texture2d",
+        "forced_export": true,
+        "namespace_guid": "8087f24d4e623cf94f67059825ea14c4",
+        "namespace_root": {
+          "package": "mc2game",
+          "object_index": 45458,
+          "path": "UI_Field_Option_Control",
+          "class_path": "Core.Package",
+          "object_flags": "0007000400000000",
+          "export_flags": 1,
+          "source_sha256": "13f92622e2ae2920f6ce6dfc7b0edbbcbec7e83adeacbd56fed84a021739a641",
+          "logical_serial_offset": 19775519,
+          "serial_size": 12
+        },
+        "runtime_instance_selected": false
+      },
+      "width": 1024,
+      "height": 512,
+      "format_raw": "07",
+      "mip_count": 1,
+      "payload_sha256": "701e075965e1f225f15d9f3d4e1e913b9c808b285181e26d9ca7e484694aba28",
+      "atlas_supported": false,
+      "profile_verified_for_current_patcher": true,
+      "tiled_sha256": "f975a8dcc84cf1cf5a786e30b3dfc467c2fbae660f47e4a66bbe920b35795ad7",
+      "rgba_sha256": "a0f631f675f821d5c76c658fb5c6f71a2888b36e4cd3b62728ba57826aa5c9cc",
+      "candidate_rgba_sha256": "a0f631f675f821d5c76c658fb5c6f71a2888b36e4cd3b62728ba57826aa5c9cc",
+      "bulk_flags": 0,
+      "storage_origin_blocks": [
+        0,
+        0
+      ],
+      "all_alpha_opaque": false,
+      "preview": "build\\phase-303-controller-aliases\\mc2game-13f92622-55653.png",
+      "preview_sha256": "489b377c923b048456cf19c5c0731ad336697e7939d5e1213e6b2d6ee7063cab"
+    },
+    {
+      "source_identity": {
+        "resource": "UI_Field_Option_Control",
+        "export": 2,
+        "path": "Img_Cont",
+        "leaf": "Img_Cont",
+        "disposition": "candidate",
+        "source_rgba_sha256": "a0f631f675f821d5c76c658fb5c6f71a2888b36e4cd3b62728ba57826aa5c9cc"
+      },
+      "disc": 2,
+      "resource_path": "MC2Game/CookedXenon/UI_Field_Option_Control.xxx",
+      "source_sha256": "149191478e44bf8ebea59413ebe96a20fcf126fe64d18fbd7c59ea88c7e9a3d8",
+      "export": 2,
+      "path": "Img_Cont",
+      "leaf": "Img_Cont",
+      "class_path": "Engine.Texture2D",
+      "serial_offset": 1359,
+      "serial_size": 169622,
+      "package_guid": "8087f24d4e623cf94f67059825ea14c4",
+      "identity": {
+        "canonical_path": "ui_field_option_control.img_cont",
+        "class_path": "engine.texture2d",
+        "forced_export": false,
+        "namespace_guid": "8087f24d4e623cf94f67059825ea14c4",
+        "namespace_root": null,
+        "runtime_instance_selected": false
+      },
+      "width": 1024,
+      "height": 512,
+      "format_raw": "07",
+      "mip_count": 1,
+      "payload_sha256": "97269b9f013491a421f5f348ce1e4de0d4b5c2441a718bbc72e14e2057bf8899",
+      "atlas_supported": false,
+      "profile_verified_for_current_patcher": true,
+      "tiled_sha256": "f975a8dcc84cf1cf5a786e30b3dfc467c2fbae660f47e4a66bbe920b35795ad7",
+      "rgba_sha256": "a0f631f675f821d5c76c658fb5c6f71a2888b36e4cd3b62728ba57826aa5c9cc",
+      "candidate_rgba_sha256": "a0f631f675f821d5c76c658fb5c6f71a2888b36e4cd3b62728ba57826aa5c9cc",
+      "bulk_flags": 64,
+      "storage_origin_blocks": [
+        0,
+        0
+      ],
+      "all_alpha_opaque": false,
+      "preview": "build\\phase-303-controller-aliases\\ui_field_option_control-14919147-2.png",
+      "preview_sha256": "489b377c923b048456cf19c5c0731ad336697e7939d5e1213e6b2d6ee7063cab"
+    },
+    {
+      "source_identity": {
+        "resource": "UI_Field_Option_Control",
+        "export": 3,
+        "path": "Img_Cont_Titel",
+        "leaf": "Img_Cont_Titel",
+        "disposition": "candidate",
+        "source_rgba_sha256": "7b55d8d09b093463287ebd9b3a8f6c140736b44f8f3f884c3a21ff3f3cdbbde3"
+      },
+      "disc": 1,
+      "resource_path": "MC2Game/CookedXenon/MC2Game.xxx",
+      "source_sha256": "13f92622e2ae2920f6ce6dfc7b0edbbcbec7e83adeacbd56fed84a021739a641",
+      "export": 55654,
+      "path": "UI_Field_Option_Control.Img_Cont_Titel",
+      "leaf": "Img_Cont_Titel",
+      "class_path": "Engine.Texture2D",
+      "serial_offset": 48991231,
+      "serial_size": 33154,
+      "package_guid": "e462ff14460a4970338fe386f5450240",
+      "identity": {
+        "canonical_path": "ui_field_option_control.img_cont_titel",
+        "class_path": "engine.texture2d",
+        "forced_export": true,
+        "namespace_guid": "8087f24d4e623cf94f67059825ea14c4",
+        "namespace_root": {
+          "package": "mc2game",
+          "object_index": 45458,
+          "path": "UI_Field_Option_Control",
+          "class_path": "Core.Package",
+          "object_flags": "0007000400000000",
+          "export_flags": 1,
+          "source_sha256": "13f92622e2ae2920f6ce6dfc7b0edbbcbec7e83adeacbd56fed84a021739a641",
+          "logical_serial_offset": 19775519,
+          "serial_size": 12
+        },
+        "runtime_instance_selected": false
+      },
+      "width": 256,
+      "height": 64,
+      "format_raw": "07",
+      "mip_count": 1,
+      "payload_sha256": "644713284bbd8ea53ab58b22fafd25fb737aac016f6187503d50c49fcfedbe6b",
+      "atlas_supported": false,
+      "profile_verified_for_current_patcher": true,
+      "tiled_sha256": "a7ace2bd3a7a96732510b84aec5cfc590e9095842a376b1cdc34468808f8ca65",
+      "rgba_sha256": "7b55d8d09b093463287ebd9b3a8f6c140736b44f8f3f884c3a21ff3f3cdbbde3",
+      "candidate_rgba_sha256": "7b55d8d09b093463287ebd9b3a8f6c140736b44f8f3f884c3a21ff3f3cdbbde3",
+      "bulk_flags": 0,
+      "storage_origin_blocks": [
+        0,
+        0
+      ],
+      "all_alpha_opaque": false,
+      "preview": "build\\phase-303-controller-aliases\\mc2game-13f92622-55654.png",
+      "preview_sha256": "a1e55e3d8075f2a47c5db9833511412f3a0583d3e631f492b2a9a21c95abc3ae"
+    },
+    {
+      "source_identity": {
+        "resource": "UI_Field_Option_Control",
+        "export": 3,
+        "path": "Img_Cont_Titel",
+        "leaf": "Img_Cont_Titel",
+        "disposition": "candidate",
+        "source_rgba_sha256": "7b55d8d09b093463287ebd9b3a8f6c140736b44f8f3f884c3a21ff3f3cdbbde3"
+      },
+      "disc": 1,
+      "resource_path": "MC2Game/CookedXenon/UI_Field_Option_Control.xxx",
+      "source_sha256": "149191478e44bf8ebea59413ebe96a20fcf126fe64d18fbd7c59ea88c7e9a3d8",
+      "export": 3,
+      "path": "Img_Cont_Titel",
+      "leaf": "Img_Cont_Titel",
+      "class_path": "Engine.Texture2D",
+      "serial_offset": 170981,
+      "serial_size": 4318,
+      "package_guid": "8087f24d4e623cf94f67059825ea14c4",
+      "identity": {
+        "canonical_path": "ui_field_option_control.img_cont_titel",
+        "class_path": "engine.texture2d",
+        "forced_export": false,
+        "namespace_guid": "8087f24d4e623cf94f67059825ea14c4",
+        "namespace_root": null,
+        "runtime_instance_selected": false
+      },
+      "width": 256,
+      "height": 64,
+      "format_raw": "07",
+      "mip_count": 1,
+      "payload_sha256": "2a66cc80180cb1ca90275ce76f9aa7bc65655d1f19437e22219b7b47f981b378",
+      "atlas_supported": false,
+      "profile_verified_for_current_patcher": true,
+      "tiled_sha256": "a7ace2bd3a7a96732510b84aec5cfc590e9095842a376b1cdc34468808f8ca65",
+      "rgba_sha256": "7b55d8d09b093463287ebd9b3a8f6c140736b44f8f3f884c3a21ff3f3cdbbde3",
+      "candidate_rgba_sha256": "7b55d8d09b093463287ebd9b3a8f6c140736b44f8f3f884c3a21ff3f3cdbbde3",
+      "bulk_flags": 64,
+      "storage_origin_blocks": [
+        0,
+        0
+      ],
+      "all_alpha_opaque": false,
+      "preview": "build\\phase-303-controller-aliases\\ui_field_option_control-14919147-3.png",
+      "preview_sha256": "a1e55e3d8075f2a47c5db9833511412f3a0583d3e631f492b2a9a21c95abc3ae"
+    },
+    {
+      "source_identity": {
+        "resource": "UI_Field_Option_Control",
+        "export": 3,
+        "path": "Img_Cont_Titel",
+        "leaf": "Img_Cont_Titel",
+        "disposition": "candidate",
+        "source_rgba_sha256": "7b55d8d09b093463287ebd9b3a8f6c140736b44f8f3f884c3a21ff3f3cdbbde3"
+      },
+      "disc": 2,
+      "resource_path": "MC2Game/CookedXenon/MC2Game.xxx",
+      "source_sha256": "13f92622e2ae2920f6ce6dfc7b0edbbcbec7e83adeacbd56fed84a021739a641",
+      "export": 55654,
+      "path": "UI_Field_Option_Control.Img_Cont_Titel",
+      "leaf": "Img_Cont_Titel",
+      "class_path": "Engine.Texture2D",
+      "serial_offset": 48991231,
+      "serial_size": 33154,
+      "package_guid": "e462ff14460a4970338fe386f5450240",
+      "identity": {
+        "canonical_path": "ui_field_option_control.img_cont_titel",
+        "class_path": "engine.texture2d",
+        "forced_export": true,
+        "namespace_guid": "8087f24d4e623cf94f67059825ea14c4",
+        "namespace_root": {
+          "package": "mc2game",
+          "object_index": 45458,
+          "path": "UI_Field_Option_Control",
+          "class_path": "Core.Package",
+          "object_flags": "0007000400000000",
+          "export_flags": 1,
+          "source_sha256": "13f92622e2ae2920f6ce6dfc7b0edbbcbec7e83adeacbd56fed84a021739a641",
+          "logical_serial_offset": 19775519,
+          "serial_size": 12
+        },
+        "runtime_instance_selected": false
+      },
+      "width": 256,
+      "height": 64,
+      "format_raw": "07",
+      "mip_count": 1,
+      "payload_sha256": "644713284bbd8ea53ab58b22fafd25fb737aac016f6187503d50c49fcfedbe6b",
+      "atlas_supported": false,
+      "profile_verified_for_current_patcher": true,
+      "tiled_sha256": "a7ace2bd3a7a96732510b84aec5cfc590e9095842a376b1cdc34468808f8ca65",
+      "rgba_sha256": "7b55d8d09b093463287ebd9b3a8f6c140736b44f8f3f884c3a21ff3f3cdbbde3",
+      "candidate_rgba_sha256": "7b55d8d09b093463287ebd9b3a8f6c140736b44f8f3f884c3a21ff3f3cdbbde3",
+      "bulk_flags": 0,
+      "storage_origin_blocks": [
+        0,
+        0
+      ],
+      "all_alpha_opaque": false,
+      "preview": "build\\phase-303-controller-aliases\\mc2game-13f92622-55654.png",
+      "preview_sha256": "a1e55e3d8075f2a47c5db9833511412f3a0583d3e631f492b2a9a21c95abc3ae"
+    },
+    {
+      "source_identity": {
+        "resource": "UI_Field_Option_Control",
+        "export": 3,
+        "path": "Img_Cont_Titel",
+        "leaf": "Img_Cont_Titel",
+        "disposition": "candidate",
+        "source_rgba_sha256": "7b55d8d09b093463287ebd9b3a8f6c140736b44f8f3f884c3a21ff3f3cdbbde3"
+      },
+      "disc": 2,
+      "resource_path": "MC2Game/CookedXenon/UI_Field_Option_Control.xxx",
+      "source_sha256": "149191478e44bf8ebea59413ebe96a20fcf126fe64d18fbd7c59ea88c7e9a3d8",
+      "export": 3,
+      "path": "Img_Cont_Titel",
+      "leaf": "Img_Cont_Titel",
+      "class_path": "Engine.Texture2D",
+      "serial_offset": 170981,
+      "serial_size": 4318,
+      "package_guid": "8087f24d4e623cf94f67059825ea14c4",
+      "identity": {
+        "canonical_path": "ui_field_option_control.img_cont_titel",
+        "class_path": "engine.texture2d",
+        "forced_export": false,
+        "namespace_guid": "8087f24d4e623cf94f67059825ea14c4",
+        "namespace_root": null,
+        "runtime_instance_selected": false
+      },
+      "width": 256,
+      "height": 64,
+      "format_raw": "07",
+      "mip_count": 1,
+      "payload_sha256": "2a66cc80180cb1ca90275ce76f9aa7bc65655d1f19437e22219b7b47f981b378",
+      "atlas_supported": false,
+      "profile_verified_for_current_patcher": true,
+      "tiled_sha256": "a7ace2bd3a7a96732510b84aec5cfc590e9095842a376b1cdc34468808f8ca65",
+      "rgba_sha256": "7b55d8d09b093463287ebd9b3a8f6c140736b44f8f3f884c3a21ff3f3cdbbde3",
+      "candidate_rgba_sha256": "7b55d8d09b093463287ebd9b3a8f6c140736b44f8f3f884c3a21ff3f3cdbbde3",
+      "bulk_flags": 64,
+      "storage_origin_blocks": [
+        0,
+        0
+      ],
+      "all_alpha_opaque": false,
+      "preview": "build\\phase-303-controller-aliases\\ui_field_option_control-14919147-3.png",
+      "preview_sha256": "a1e55e3d8075f2a47c5db9833511412f3a0583d3e631f492b2a9a21c95abc3ae"
+    }
+  ],
+  "all_4145_headers_rechecked": true,
+  "all_4145_resources_rehashed": false,
+  "all_selected_alias_resources_rehashed": true,
+  "controller_body_and_buttons_preserved": true,
+  "imagegen_donor_pixels_used": false,
+  "background_method": "glyph-traced harmonic RGBA restoration;title glyphs restored to transparency;untouched compressed BC3 units retained",
+  "native_draft_proofs": [
+    {
+      "regions": [
+        {
+          "rect": [
+            164,
+            28,
+            184,
+            32
+          ],
+          "changed_blocks": 343,
+          "authorized_blocks": 368,
+          "untouched_blocks_preserved": true,
+          "alignment_padding_preserved": true,
+          "unchanged_region_blocks_preserved": 25
+        },
+        {
+          "rect": [
+            372,
+            48,
+            120,
+            32
+          ],
+          "changed_blocks": 231,
+          "authorized_blocks": 240,
+          "untouched_blocks_preserved": true,
+          "alignment_padding_preserved": true,
+          "unchanged_region_blocks_preserved": 9
+        },
+        {
+          "rect": [
+            612,
+            36,
+            272,
+            40
+          ],
+          "changed_blocks": 538,
+          "authorized_blocks": 680,
+          "untouched_blocks_preserved": true,
+          "alignment_padding_preserved": true,
+          "unchanged_region_blocks_preserved": 142
+        },
+        {
+          "rect": [
+            176,
+            100,
+            104,
+            36
+          ],
+          "changed_blocks": 190,
+          "authorized_blocks": 234,
+          "untouched_blocks_preserved": true,
+          "alignment_padding_preserved": true,
+          "unchanged_region_blocks_preserved": 44
+        },
+        {
+          "rect": [
+            756,
+            108,
+            100,
+            40
+          ],
+          "changed_blocks": 186,
+          "authorized_blocks": 250,
+          "untouched_blocks_preserved": true,
+          "alignment_padding_preserved": true,
+          "unchanged_region_blocks_preserved": 64
+        },
+        {
+          "rect": [
+            488,
+            84,
+            160,
+            36
+          ],
+          "changed_blocks": 283,
+          "authorized_blocks": 360,
+          "untouched_blocks_preserved": true,
+          "alignment_padding_preserved": true,
+          "unchanged_region_blocks_preserved": 77
+        },
+        {
+          "rect": [
+            756,
+            204,
+            132,
+            36
+          ],
+          "changed_blocks": 263,
+          "authorized_blocks": 297,
+          "untouched_blocks_preserved": true,
+          "alignment_padding_preserved": true,
+          "unchanged_region_blocks_preserved": 34
+        },
+        {
+          "rect": [
+            780,
+            260,
+            176,
+            40
+          ],
+          "changed_blocks": 350,
+          "authorized_blocks": 440,
+          "untouched_blocks_preserved": true,
+          "alignment_padding_preserved": true,
+          "unchanged_region_blocks_preserved": 90
+        },
+        {
+          "rect": [
+            772,
+            320,
+            176,
+            40
+          ],
+          "changed_blocks": 356,
+          "authorized_blocks": 440,
+          "untouched_blocks_preserved": true,
+          "alignment_padding_preserved": true,
+          "unchanged_region_blocks_preserved": 84
+        },
+        {
+          "rect": [
+            140,
+            224,
+            128,
+            60
+          ],
+          "changed_blocks": 379,
+          "authorized_blocks": 480,
+          "untouched_blocks_preserved": true,
+          "alignment_padding_preserved": true,
+          "unchanged_region_blocks_preserved": 101
+        },
+        {
+          "rect": [
+            136,
+            332,
+            136,
+            56
+          ],
+          "changed_blocks": 395,
+          "authorized_blocks": 476,
+          "untouched_blocks_preserved": true,
+          "alignment_padding_preserved": true,
+          "unchanged_region_blocks_preserved": 81
+        },
+        {
+          "rect": [
+            416,
+            440,
+            136,
+            40
+          ],
+          "changed_blocks": 245,
+          "authorized_blocks": 340,
+          "untouched_blocks_preserved": true,
+          "alignment_padding_preserved": true,
+          "unchanged_region_blocks_preserved": 95
+        },
+        {
+          "rect": [
+            568,
+            420,
+            120,
+            80
+          ],
+          "changed_blocks": 468,
+          "authorized_blocks": 600,
+          "untouched_blocks_preserved": true,
+          "alignment_padding_preserved": true,
+          "unchanged_region_blocks_preserved": 132
+        }
+      ],
+      "changed_blocks": 4227,
+      "authorized_blocks": 5205,
+      "untouched_blocks_preserved": true,
+      "alignment_padding_preserved": true,
+      "profile": {
+        "kind": "xbox-inline-bc-v1",
+        "format": 7
+      },
+      "storage_origin_blocks": [
+        0,
+        0
+      ],
+      "channel_mode": "rgba",
+      "unchanged_region_blocks_preserved": 978,
+      "protected_regions": [
+        {
+          "id": "original_controller_body_and_buttons",
+          "rect": [
+            280,
+            120,
+            476,
+            296
+          ],
+          "before_rgba_sha256": "34df7bdf1293f0a865f6f18955ba38e3dbb05c1ef85043c564364a7e994b7a99",
+          "after_rgba_sha256": "34df7bdf1293f0a865f6f18955ba38e3dbb05c1ef85043c564364a7e994b7a99",
+          "blocks_preserved": true
+        }
+      ]
+    },
+    {
+      "regions": [
+        {
+          "rect": [
+            0,
+            8,
+            208,
+            48
+          ],
+          "changed_blocks": 435,
+          "authorized_blocks": 624,
+          "untouched_blocks_preserved": true,
+          "alignment_padding_preserved": true,
+          "unchanged_region_blocks_preserved": 189
+        }
+      ],
+      "changed_blocks": 435,
+      "authorized_blocks": 624,
+      "untouched_blocks_preserved": true,
+      "alignment_padding_preserved": true,
+      "profile": {
+        "kind": "xbox-inline-bc-v1",
+        "format": 7
+      },
+      "storage_origin_blocks": [
+        0,
+        0
+      ],
+      "channel_mode": "rgba",
+      "unchanged_region_blocks_preserved": 189
+    }
+  ],
+  "review_scope": "offline native image review;not in-game acceptance"
+}

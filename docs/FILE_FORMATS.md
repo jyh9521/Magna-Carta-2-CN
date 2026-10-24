@@ -1601,3 +1601,16 @@ occurs at build time and source-XEX SHA is checked before each launch. See WRAP_
 ## 显式单mip packed BC profile
 
 Verified: xbox-inline-bc-v1只接受格式5/7、空inline SourceArt和单mip，绝对指针、分配和全部块范围均校验。最短边≤16首层原点为沿短轴16px；opaque-luma保持BC1 alpha255。多mip/Format2研究不等于生产支持。具体字段/来源见PHASE_295_BATTLE_TUTORIAL_ADOPTION.md。
+
+
+### 恢复区域的BC3透明单元保留
+
+显式preserve_unchanged_blocks仅对有源裁剪SHA256与二值蒙版/稀疏patch的
+BC1 opaque-rgb或BC3 rgba区域开放。编码前逐4×4比较源与合成RGBA，
+完全相同的块保留原压缩字节；未授权区域与布局填充仍保持原样。BC3
+不转黑底、不抹平alpha；默认不开启，原有重编码行为不变。独立原生
+UI包和MC2Game驻留强制导出可能共享规范GUID，但各自payload哈希要
+分别验证。控制图不允许以整幅生成材料替换原手柄。
+
+变化单元仍使用既有有损BC3编码器：中间alpha量化误差最多18/255，
+不宣称被重编码单元逐像素无损；未变化单元与手柄保护区保持源字节。

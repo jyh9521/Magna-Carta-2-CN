@@ -67,9 +67,9 @@ class _Hashes:
 
 
 def compact_outputs(manifests: list[Path], root: Path, output: Path,
-                    minimum_size: int = 65536) -> dict:
-    """Only candidate/controls/raw-controls members of explicit manifests qualify."""
-    if minimum_size < 0 or not manifests:
+                    minimum_size: int = 65536, rollback_only: bool = False) -> dict:
+    """Compact immutable outputs, or a separately inventoried backup-only pool."""
+    if minimum_size < 0 or not manifests or type(rollback_only) is not bool:
         raise ValueError("Supply manifests and a nonnegative minimum_size")
     root = root.absolute()
     if root.is_symlink() or root.is_junction():
@@ -80,6 +80,7 @@ def compact_outputs(manifests: list[Path], root: Path, output: Path,
     rows: dict[Path, str] = {}
     manifest_hashes: dict[Path, str] = {}
     excluded = {".sav", ".save", ".xex", ".exe", ".dll", ".toml"}
+    prefixes = {"rollback-check", "raw-rollback-check"} if rollback_only else {"candidate", "controls", "raw-controls"}
     for manifest in manifests:
         manifest = _checked(manifest, root)
         manifest_hashes[manifest] = hashes(manifest)
@@ -90,7 +91,7 @@ def compact_outputs(manifests: list[Path], root: Path, output: Path,
             member = Path(relative)
             if member.is_absolute() or ".." in member.parts or not member.parts:
                 raise ValueError(f"Invalid manifest member: {relative}")
-            if member.parts[0] not in {"candidate", "controls", "raw-controls"}:
+            if member.parts[0] not in prefixes:
                 continue
             path = _checked(manifest.parent / member, root)
             if path.suffix.lower() in excluded or path.stat().st_size < minimum_size:
@@ -100,6 +101,19 @@ def compact_outputs(manifests: list[Path], root: Path, output: Path,
             if path in rows and rows[path] != expected:
                 raise ValueError(f"Conflicting manifest hashes: {path}")
             rows[path] = expected
+    skipped_external_links = 0
+    if rollback_only:
+        # A separate backup-only pool must never share an inode with candidate,
+        # live, or any other unlisted path. Account for every existing hardlink.
+        groups: dict[tuple[int, int], list[Path]] = {}
+        for path in rows:
+            stat = path.stat()
+            groups.setdefault((stat.st_dev, stat.st_ino), []).append(path)
+        for paths in groups.values():
+            if paths[0].stat().st_nlink != len(paths):
+                skipped_external_links += len(paths)
+                for path in paths:
+                    del rows[path]
     # Verify the entire selected set before replacing even one directory entry.
     for path, expected in rows.items():
         if hashes(path) != expected:
@@ -107,6 +121,10 @@ def compact_outputs(manifests: list[Path], root: Path, output: Path,
     before = shutil.disk_usage(root).free
     canonical: dict[tuple[int, str], Path] = {}
     operations = []
+    link_counts: dict[tuple[int, int], int] = {}
+    for path in rows:
+        stat = path.stat()
+        link_counts[(stat.st_dev, stat.st_ino)] = stat.st_nlink
     with (output / "operations.jsonl").open("x", encoding="utf-8", newline="\n") as log:
         for path in sorted(rows, key=lambda p: -p.stat().st_size):
             stat = path.stat()
@@ -119,6 +137,12 @@ def compact_outputs(manifests: list[Path], root: Path, output: Path,
                 raise ValueError(f"Output changed before compaction: {path}")
             _checked(source, root)
             _checked(path, root)
+            source_stat = source.stat()
+            source_inode = source_stat.st_dev, source_stat.st_ino
+            target_inode = stat.st_dev, stat.st_ino
+            if rollback_only and (source_stat.st_nlink != link_counts[source_inode]
+                                  or stat.st_nlink != link_counts[target_inode]):
+                raise ValueError("Rollback pool link inventory changed")
             temporary = path.with_name(".dedup-" + uuid.uuid4().hex)
             row = dict(source=str(source), target=str(path), sha256=expected,
                        reclaimable_bytes=stat.st_size if stat.st_nlink == 1 else 0)
@@ -129,6 +153,8 @@ def compact_outputs(manifests: list[Path], root: Path, output: Path,
                 if hashes(temporary) != expected or _Hashes.identity(path.stat()) != _Hashes.identity(stat):
                     raise ValueError(f"Output changed during compaction: {path}")
                 os.replace(temporary, path)
+                link_counts[source_inode] += 1
+                link_counts[target_inode] -= 1
             finally:
                 if temporary.exists():
                     temporary.unlink()
@@ -137,10 +163,23 @@ def compact_outputs(manifests: list[Path], root: Path, output: Path,
             operations.append(row)
             log.write(json.dumps(dict(state="after", **row)) + "\n")
             log.flush()
+    if rollback_only:
+        current_counts: dict[tuple[int, int], int] = {}
+        for path in rows:
+            stat = path.stat()
+            inode = stat.st_dev, stat.st_ino
+            current_counts[inode] = current_counts.get(inode, 0) + 1
+        for path in rows:
+            stat = path.stat()
+            if stat.st_nlink != current_counts[(stat.st_dev, stat.st_ino)]:
+                raise ValueError("Rollback pool acquired an unlisted hardlink")
     for path, expected in {**rows, **manifest_hashes}.items():
         if hashes(path) != expected:
             raise ValueError(f"Post-compaction SHA256 mismatch: {path}")
     report = dict(verified_files=len(rows), verified_manifests=len(manifest_hashes),
+                  mode="independent-rollback-pool" if rollback_only else "immutable-output-pool",
+                  rollback_pool_independence_verified=rollback_only,
+                  skipped_external_links=skipped_external_links,
                   linked_files=len(operations), all_hashes_unchanged=True,
                   reclaimable_bytes=sum(row["reclaimable_bytes"] for row in operations),
                   free_before=before, free_after=shutil.disk_usage(root).free)
@@ -155,6 +194,8 @@ def main() -> int:
     group.add_argument("--check-space-only", action="store_true")
     group.add_argument("--manifest", action="append", type=Path)
     parser.add_argument("--output-dir", type=Path)
+    parser.add_argument("--rollback-only", action="store_true",
+                        help="Separate backup-only pool; never merge with candidate/control/live inodes")
     args = parser.parse_args()
     try:
         if args.check_space_only:
@@ -162,7 +203,8 @@ def main() -> int:
         else:
             if args.output_dir is None:
                 raise ValueError("Compaction requires a new --output-dir")
-            print(json.dumps(compact_outputs(args.manifest, args.root, args.output_dir)))
+            print(json.dumps(compact_outputs(args.manifest, args.root, args.output_dir,
+                                             rollback_only=args.rollback_only)))
     except (ValueError, OSError) as error:
         parser.exit(2, f"ERROR: {error}\n")
     return 0

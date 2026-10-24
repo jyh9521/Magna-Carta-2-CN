@@ -14431,6 +14431,19 @@
       "relation": "unverified",
       "basis": "INT日文支援对白实际词面与定向角色语境，复用既有中文候选但保持源别名独立；族称与表间实体关系不自动确认，非官方/游戏定稿。",
       "series_references": []
+    },
+    {
+      "id": "mc2-combat-boss-label",
+      "source": "보스",
+      "target": "Boss",
+      "category": "combat",
+      "form": "term",
+      "resource": "MC2Game/Localization/Coalesced.int",
+      "source_string_id": "coalesced:24de89d1c0630c042bda12275bbf17ca0b5e965fa7364a740879a717775e6899",
+      "review_status": "reviewed",
+      "relation": "unverified",
+      "basis": "2026-10-24用户明确要求所有Boss类别词保留Boss；英文图片保留原字与原像素，韩文同概念借词使用Boss；不是角色姓名，也不替换普通剧情首领。",
+      "series_references": []
     }
   ]
 }

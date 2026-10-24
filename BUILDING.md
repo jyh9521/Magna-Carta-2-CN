@@ -1,3 +1,7 @@
+## 第298阶段：战斗HUD与升级姓名成套采用
+
+新增38图/55层/140别名，累计586图组、1043层、2364双盘别名；旧色块姓名铭牌方案已按用户反馈废弃；16张肖像逐字形蒙版去字并重建局部衣饰，GUEST恢复原渐变后透明合成中文，不宣称隐藏原像素精确恢复。通用层上限有界扩至2048，旧988层默认输出保持；INT/七Font/315字幕不增。完整构建与推送状态见[本轮实际采用与证据](docs/PHASE_298_HUD_ADOPTION.md)。仍继续其他UI、世界地图与原生/待证单元，不代表游戏验收完成。
+
 ## 第297阶段：完整教程标题族实际采用
 
 新增28图/28层/102别名，累计548图组、988层、2224双盘别名；51个教程资源的54个语言标题导出每盘均已有采用记录，两个纯数字导出保留。其余教程插图与UI图文仍继续处理；不代表全游戏完成或游戏验收通过。见[阶段297](docs/PHASE_297_TUTORIAL_TITLE_ADOPTION.md)。
@@ -1748,3 +1752,17 @@ docs/WARNING_FONT_ROUTE_PROBE.md.
 ## 第295阶段：战斗与教程图片
 
 累计507图片组/847层/2096双盘别名；新增46组139层含1个BC1派生mask，三个Tutorial命名空间独立保留。采用显式packed单mip BC3/opaque-luma BC1与有界ink_padding，修正160特效图末行和窄句排版；保留START、MAX惯例与既有Font底包链。纹理176/233、对照201/260资源；INT14159、七Font、315字幕未增加。复现、隔离回滚、来源和未验收边界见[阶段295](docs/PHASE_295_BATTLE_TUTORIAL_ADOPTION.md)。
+
+### 肖像修补字体重建依赖
+
+`portrait-font-source.json`固定Serif上游提交与SHA。重建前从其`font_url`下载到`font_path`，校验`size`和`sha256`；许可从`license_url`下载并核对`license_sha256`。这些原件只放build，不进入Git。17个小尺寸稀疏PNG修复块/二值蒙版是语言数据；构建仍读取用户原图并强制匹配原crop SHA。历史退役输入须从cleanup归档按原路径/SHA恢复，不能用缺失路径跳过验证。
+
+### Boss保留修订的工作区
+
+2026-10-24按用户规则保留原Boss标签及4个双盘导出别名；batch098仅修订Tutorial_4.Text_1的同概念借词，14159草稿不增加，Boss角色姓名保持。重建新INT计划：
+
+```powershell
+python tools/prepare_translation_workspace.py --source-root . --workflow locales/zh-Hans/translation-workflow.json --output build/phase-298-boss-retention/workspace
+```
+
+47语境profile已按新计划逐个校验（不放宽suite16上限），功能换行与四条literal-control记录保持；新需求字形为空，沿用七Font与315字幕。

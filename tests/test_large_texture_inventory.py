@@ -6,7 +6,7 @@ import test_texture_overlay as fixtures
 from test_supplement_font import stored_decoder
 class LargeTextureInventoryTests(unittest.TestCase):
  def test_finite_caps_cover_audited_union(self):
-  self.assertEqual((overlay.MAX_TEXTURE_SOURCES,overlay.MAX_TEXT_LAYERS,overlay.MAX_TEXTURE_EDITS,phase.MAX_PACKET_RESOURCES),(512,1024,512,512))
+  self.assertEqual((overlay.MAX_TEXTURE_SOURCES,overlay.MAX_TEXT_LAYERS,overlay.MAX_TEXTURE_EDITS,phase.MAX_PACKET_RESOURCES),(512,2048,512,512))
  def test_sources_512_accepted_and_513_rejected(self):
   rows=[dict(path=f'{i}.xxx',discs=[1,2]) for i in range(512)];self.assertEqual(builder.select_sources(rows,2),rows)
   with self.assertRaisesRegex(ValueError,'source bound'):builder.select_sources(rows+[rows[0]],2)
@@ -25,8 +25,8 @@ class LargeTextureInventoryTests(unittest.TestCase):
    with patch.object(builder.importlib.metadata,'version',return_value='locked'),patch.object(builder,'render_label',return_value=rgba):
     files,m,_=builder.prepare(p,r,stored_decoder)
    self.assertEqual(m['labels'],1024);self.assertIn('candidate/Game/Atlas.xxx',files)
- def test_1025_layers_rejected_before_inputs(self):
-  p=dict(schema_version=1,kind='texture-text-overlay-plan',game_rendering_verified=False,rasterizer_versions=dict(Pillow='locked',fonttools='locked'),labels=[{}]*1025,sources=[{}])
+ def test_2049_layers_rejected_before_inputs(self):
+  p=dict(schema_version=1,kind='texture-text-overlay-plan',game_rendering_verified=False,rasterizer_versions=dict(Pillow='locked',fonttools='locked'),labels=[{}]*2049,sources=[{}])
   with patch.object(builder.importlib.metadata,'version',return_value='locked'),self.assertRaisesRegex(ValueError,'label/source bound'):builder.prepare(p,Path('.'),None)
  def test_512_raw_members_preserve_unrelated_bytes(self):
   from test_locale_comparison import inputs,raw_phase

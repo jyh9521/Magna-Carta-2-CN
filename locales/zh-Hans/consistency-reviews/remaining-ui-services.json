@@ -1,164 +1,4 @@
 {
-  "schema_version": 1,
-  "kind": "existing-draft-consistency-review",
-  "phase": 239,
-  "resource": "MC2Game/Localization/Coalesced.int",
-  "input_sha256": "179e265cfc9e6d3e9f2586abe75b5da303b2af9b8484079851dab72f9f7edb8c",
-  "plan_canonical_sha256": "38266d01eabbf9e7b54151de06c97919dad73afa7a014af679defdecde85d890",
-  "new_translations": 0,
-  "new_context_entries": 0,
-  "human_finalized": false,
-  "runtime_layout_approved": false,
-  "game_rendering_verified": false,
-  "scopes": [
-    {
-      "embedded_path": "..\\MC2Game\\Localization\\INT\\MC2UI.int",
-      "section": "Tutorial_2",
-      "physical": 3,
-      "planned": 3,
-      "original_retained": 0
-    },
-    {
-      "embedded_path": "..\\MC2Game\\Localization\\INT\\MC2UI.int",
-      "section": "Tutorial_3",
-      "physical": 3,
-      "planned": 3,
-      "original_retained": 0
-    },
-    {
-      "embedded_path": "..\\MC2Game\\Localization\\INT\\MC2UI.int",
-      "section": "Tutorial_4",
-      "physical": 3,
-      "planned": 3,
-      "original_retained": 0
-    },
-    {
-      "embedded_path": "..\\MC2Game\\Localization\\INT\\MC2UI.int",
-      "section": "Tutorial_5",
-      "physical": 3,
-      "planned": 3,
-      "original_retained": 0
-    },
-    {
-      "embedded_path": "..\\MC2Game\\Localization\\INT\\MC2UI.int",
-      "section": "Tutorial_6",
-      "physical": 3,
-      "planned": 3,
-      "original_retained": 0
-    },
-    {
-      "embedded_path": "..\\MC2Game\\Localization\\INT\\MC2UI.int",
-      "section": "cant_get_Item",
-      "physical": 6,
-      "planned": 6,
-      "original_retained": 0
-    },
-    {
-      "embedded_path": "..\\MC2Game\\Localization\\INT\\MC2UI.int",
-      "section": "Common",
-      "physical": 26,
-      "planned": 26,
-      "original_retained": 0
-    },
-    {
-      "embedded_path": "..\\MC2Game\\Localization\\INT\\MC2UI.int",
-      "section": "Quest_Category",
-      "physical": 2,
-      "planned": 2,
-      "original_retained": 0
-    },
-    {
-      "embedded_path": "..\\MC2Game\\Localization\\INT\\MC2UI.int",
-      "section": "CubeMail_Category",
-      "physical": 4,
-      "planned": 4,
-      "original_retained": 0
-    },
-    {
-      "embedded_path": "..\\MC2Game\\Localization\\INT\\MC2UI.int",
-      "section": "Level_Up",
-      "physical": 10,
-      "planned": 1,
-      "original_retained": 9
-    },
-    {
-      "embedded_path": "..\\MC2Game\\Localization\\INT\\MC2UI.int",
-      "section": "information",
-      "physical": 71,
-      "planned": 71,
-      "original_retained": 0
-    },
-    {
-      "embedded_path": "..\\MC2Game\\Localization\\INT\\MC2UI.int",
-      "section": "Navigation",
-      "physical": 31,
-      "planned": 31,
-      "original_retained": 0
-    },
-    {
-      "embedded_path": "..\\MC2Game\\Localization\\INT\\MC2UI.int",
-      "section": "LiveMsg",
-      "physical": 12,
-      "planned": 12,
-      "original_retained": 0
-    },
-    {
-      "embedded_path": "..\\MC2Game\\Localization\\INT\\MC2UI_Pillar.int",
-      "section": "Menu_Description",
-      "physical": 19,
-      "planned": 19,
-      "original_retained": 0
-    },
-    {
-      "embedded_path": "..\\MC2Game\\Localization\\INT\\MC2UI_Pillar.int",
-      "section": "Destination",
-      "physical": 10,
-      "planned": 10,
-      "original_retained": 0
-    },
-    {
-      "embedded_path": "..\\MC2Game\\Localization\\INT\\MC2UI_Shop.int",
-      "section": "Common",
-      "physical": 10,
-      "planned": 9,
-      "original_retained": 1
-    },
-    {
-      "embedded_path": "..\\MC2Game\\Localization\\INT\\MC2UI_Shop.int",
-      "section": "Item Shop Menu_Description",
-      "physical": 5,
-      "planned": 5,
-      "original_retained": 0
-    },
-    {
-      "embedded_path": "..\\MC2Game\\Localization\\INT\\MC2UI_Shop.int",
-      "section": "Kamond shop Menu_Description",
-      "physical": 13,
-      "planned": 13,
-      "original_retained": 0
-    },
-    {
-      "embedded_path": "..\\MC2Game\\Localization\\INT\\MC2UI_Shop.int",
-      "section": "Trade Shop Menu_Description",
-      "physical": 3,
-      "planned": 3,
-      "original_retained": 0
-    },
-    {
-      "embedded_path": "..\\MC2Game\\Localization\\INT\\MC2UI_TCR.int",
-      "section": "GameStart",
-      "physical": 28,
-      "planned": 28,
-      "original_retained": 0
-    },
-    {
-      "embedded_path": "..\\MC2Game\\Localization\\INT\\MC2UI_TCR.int",
-      "section": "Disc",
-      "physical": 3,
-      "planned": 3,
-      "original_retained": 0
-    }
-  ],
   "entries": [
     {
       "id": "coalesced:06124cacbdedc844afce4bc4cfde31d34992f7729367851ffe87818ce03b3406",
@@ -198,7 +38,7 @@
     {
       "id": "coalesced:24de89d1c0630c042bda12275bbf17ca0b5e965fa7364a740879a717775e6899",
       "source_sha256": "e83aaf1f9c667b0ccbb742cb7dd1c40caa4cab4a0968b1307af12b80b498c15c",
-      "translation_sha256": "c7ec2a2c25698bfeb46177ebb4122eb74a058839f172bd38b1e42703d4523815"
+      "translation_sha256": "40c41118d185f1cea0e334bb0cdff0f9c4e406ddf27d9986e7116eddc386e29c"
     },
     {
       "id": "coalesced:8bdab2619d8e7d9e86db13cb21317c50dd74a77c03873bf6297c0bc7c001b46b",
@@ -1451,6 +1291,12 @@
       "translation_sha256": "b29d7f4278d5cf8821f3b50a0bc6c282b8a96d6f71bb9c90bed34279f0cf3a27"
     }
   ],
+  "game_rendering_verified": false,
+  "human_finalized": false,
+  "input_sha256": "179e265cfc9e6d3e9f2586abe75b5da303b2af9b8484079851dab72f9f7edb8c",
+  "kind": "existing-draft-consistency-review",
+  "new_context_entries": 0,
+  "new_translations": 0,
   "notes": [
     "Tutorial_2至6共15条完整源译对照：固有技条件/B限时/不耗耐力、X消耗所需KAN、气之KAN使用招式前保留、普通怪蓄力后首领释放、场景物品X灰变蓝、按住L/U选择松开L设置保持。Styles L/U/A/B/X和功能换行均不改。",
     "Common26、cant_get_Item6、任务类别2和邮件类别4：决定/选择/接受/确认/拒绝按源语境区分，自动强化/解除强化/卸装/拆解不是同一操作；采集失败中毒与炸弹制作失败、先读新信、必做/可选任务和PRIVATE/BATTLE/TUTORIAL分类均逐项核对。",
@@ -1461,5 +1307,160 @@
     "商店完整30条：Common9/ItemShop5/KamondShop13/TradeShop3；最大持有99、金币不足/购买上限、一次仅购1卡蒙德、加工选配方和完成、用于强化的卡蒙德先从武器卸下再出售、交换与买卖分别保留。源세공现译加工，锻造/强化等候选不强行混用。",
     "Level_Up计划仅朱特村庄单手剑1条；其余9条Combo_1至9带所有格拼接及Styles第N击片段已有调查保留原值，不为凑数擅译未知组合显示。TCR的SID功能原值另属全局保留。21完整复合分区268物理/258计划/10原值，源译资源零改，草稿/人工/布局/游戏验收状态不升级，邮件准备时态等候选继续待正式修订回填。",
     "84候选项逐项核对：로드在下载다운로드/数据读取中不是法杖；활在激活/失效中不是弓，총在总司令部/总司令中不是枪，대시보드是Xbox主界面而非冲刺。침묵의 황야专名寂静荒野不替为状态沉默；세공在卡蒙德店现译加工，不加源无“饰品”；근접 공격在近战中表达攻击语义。全部候选保持candidate/unverified，不据字面子串批量替换。"
+  ],
+  "phase": 239,
+  "plan_canonical_sha256": "38266d01eabbf9e7b54151de06c97919dad73afa7a014af679defdecde85d890",
+  "resource": "MC2Game/Localization/Coalesced.int",
+  "revision_note": "2026-10-24 explicit user Boss retention;one existing tutorial wording revised,no new entries/context/runtime approval",
+  "runtime_layout_approved": false,
+  "schema_version": 1,
+  "scopes": [
+    {
+      "embedded_path": "..\\MC2Game\\Localization\\INT\\MC2UI.int",
+      "original_retained": 0,
+      "physical": 3,
+      "planned": 3,
+      "section": "Tutorial_2"
+    },
+    {
+      "embedded_path": "..\\MC2Game\\Localization\\INT\\MC2UI.int",
+      "original_retained": 0,
+      "physical": 3,
+      "planned": 3,
+      "section": "Tutorial_3"
+    },
+    {
+      "embedded_path": "..\\MC2Game\\Localization\\INT\\MC2UI.int",
+      "original_retained": 0,
+      "physical": 3,
+      "planned": 3,
+      "section": "Tutorial_4"
+    },
+    {
+      "embedded_path": "..\\MC2Game\\Localization\\INT\\MC2UI.int",
+      "original_retained": 0,
+      "physical": 3,
+      "planned": 3,
+      "section": "Tutorial_5"
+    },
+    {
+      "embedded_path": "..\\MC2Game\\Localization\\INT\\MC2UI.int",
+      "original_retained": 0,
+      "physical": 3,
+      "planned": 3,
+      "section": "Tutorial_6"
+    },
+    {
+      "embedded_path": "..\\MC2Game\\Localization\\INT\\MC2UI.int",
+      "original_retained": 0,
+      "physical": 6,
+      "planned": 6,
+      "section": "cant_get_Item"
+    },
+    {
+      "embedded_path": "..\\MC2Game\\Localization\\INT\\MC2UI.int",
+      "original_retained": 0,
+      "physical": 26,
+      "planned": 26,
+      "section": "Common"
+    },
+    {
+      "embedded_path": "..\\MC2Game\\Localization\\INT\\MC2UI.int",
+      "original_retained": 0,
+      "physical": 2,
+      "planned": 2,
+      "section": "Quest_Category"
+    },
+    {
+      "embedded_path": "..\\MC2Game\\Localization\\INT\\MC2UI.int",
+      "original_retained": 0,
+      "physical": 4,
+      "planned": 4,
+      "section": "CubeMail_Category"
+    },
+    {
+      "embedded_path": "..\\MC2Game\\Localization\\INT\\MC2UI.int",
+      "original_retained": 9,
+      "physical": 10,
+      "planned": 1,
+      "section": "Level_Up"
+    },
+    {
+      "embedded_path": "..\\MC2Game\\Localization\\INT\\MC2UI.int",
+      "original_retained": 0,
+      "physical": 71,
+      "planned": 71,
+      "section": "information"
+    },
+    {
+      "embedded_path": "..\\MC2Game\\Localization\\INT\\MC2UI.int",
+      "original_retained": 0,
+      "physical": 31,
+      "planned": 31,
+      "section": "Navigation"
+    },
+    {
+      "embedded_path": "..\\MC2Game\\Localization\\INT\\MC2UI.int",
+      "original_retained": 0,
+      "physical": 12,
+      "planned": 12,
+      "section": "LiveMsg"
+    },
+    {
+      "embedded_path": "..\\MC2Game\\Localization\\INT\\MC2UI_Pillar.int",
+      "original_retained": 0,
+      "physical": 19,
+      "planned": 19,
+      "section": "Menu_Description"
+    },
+    {
+      "embedded_path": "..\\MC2Game\\Localization\\INT\\MC2UI_Pillar.int",
+      "original_retained": 0,
+      "physical": 10,
+      "planned": 10,
+      "section": "Destination"
+    },
+    {
+      "embedded_path": "..\\MC2Game\\Localization\\INT\\MC2UI_Shop.int",
+      "original_retained": 1,
+      "physical": 10,
+      "planned": 9,
+      "section": "Common"
+    },
+    {
+      "embedded_path": "..\\MC2Game\\Localization\\INT\\MC2UI_Shop.int",
+      "original_retained": 0,
+      "physical": 5,
+      "planned": 5,
+      "section": "Item Shop Menu_Description"
+    },
+    {
+      "embedded_path": "..\\MC2Game\\Localization\\INT\\MC2UI_Shop.int",
+      "original_retained": 0,
+      "physical": 13,
+      "planned": 13,
+      "section": "Kamond shop Menu_Description"
+    },
+    {
+      "embedded_path": "..\\MC2Game\\Localization\\INT\\MC2UI_Shop.int",
+      "original_retained": 0,
+      "physical": 3,
+      "planned": 3,
+      "section": "Trade Shop Menu_Description"
+    },
+    {
+      "embedded_path": "..\\MC2Game\\Localization\\INT\\MC2UI_TCR.int",
+      "original_retained": 0,
+      "physical": 28,
+      "planned": 28,
+      "section": "GameStart"
+    },
+    {
+      "embedded_path": "..\\MC2Game\\Localization\\INT\\MC2UI_TCR.int",
+      "original_retained": 0,
+      "physical": 3,
+      "planned": 3,
+      "section": "Disc"
+    }
   ]
 }

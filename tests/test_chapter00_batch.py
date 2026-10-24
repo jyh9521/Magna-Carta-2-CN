@@ -57,7 +57,8 @@ class Chapter00BatchTests(unittest.TestCase):
         terms=load('locales/zh-Hans/terms.json')['terms']
         by_source={t['source']:t for t in terms}
         self.assertGreaterEqual(len(terms),59)
-        self.assertTrue(all(t['review_status']=='candidate' for t in terms))
+        # Preserve every prior candidate; only the explicitly user-reviewed Boss rule is promoted.
+        self.assertEqual({t['id']:t['review_status'] for t in terms if t['review_status']!='candidate'}, {'mc2-combat-boss-label':'reviewed'})
         edits={e['id']:e['translation'] for e in self.plan['entries']}
         for source,target in [('라 스트라다','拉·斯特拉达'),('바람노래동굴','风歌洞窟'),
                               ('빌터','比尔特'),('이공진퇴','凌空震踢')]:

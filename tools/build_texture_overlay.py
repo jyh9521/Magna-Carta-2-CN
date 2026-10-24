@@ -55,7 +55,23 @@ def prepare(plan,root,decoder,disc=None):
     if sum(render_area(l) for l in labels)>16*1024*1024:raise ValueError('text layer total bound')
     for label in labels:
         if not isinstance(label['id'],str) or not label['id'] or label['id'] in layers:raise ValueError('duplicate/invalid text layer id')
-        layers[label['id']]=(label,render_label(font,label))
+        effective=dict(label)
+        if any(k.startswith('_repair_') for k in label):raise ValueError('private restoration fields in plan')
+        if 'restoration' in label:
+            from PIL import Image
+            import io
+            r=label['restoration']
+            if not isinstance(r,dict) or set(r)!={'patch','mask','source_rgba_sha256'}:raise ValueError('invalid restoration contract')
+            _hash(r['source_rgba_sha256'])
+            for key,mode,target in [('patch','RGBA','_repair_pixels'),('mask','L','_repair_mask')]:
+                raw=locked_bytes(r[key])
+                if len(raw)>1024*1024:raise ValueError('restoration PNG size bound')
+                im=Image.open(io.BytesIO(raw))
+                if im.format!='PNG' or im.mode!=mode or list(im.size)!=label['rect'][2:]:raise ValueError('restoration PNG geometry/mode mismatch')
+                effective[target]=im.tobytes()
+        label_font=locked_bytes(label['font']) if 'font' in label else font
+        if len(label_font)>64*1024*1024:raise ValueError('font size bound')
+        layers[label['id']]=(effective,render_label(label_font,label))
     files={};rows=[];seen=set();reports=[];alias_pixels={};encoding_cache={}
     for source in sources:
         path=_relative(source['path'])

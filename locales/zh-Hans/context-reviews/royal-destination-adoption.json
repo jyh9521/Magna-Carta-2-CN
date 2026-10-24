@@ -1,37 +1,37 @@
 {
-  "schema_version": 1,
-  "kind": "source-locked-context-observations",
-  "resource": "MC2Game/Localization/Coalesced.int",
-  "input_sha256": "179e265cfc9e6d3e9f2586abe75b5da303b2af9b8484079851dab72f9f7edb8c",
-  "plan_canonical_sha256": "8c0417cd26ef98d8a29e840b536732333c3cbbd35cd20489ff159f726c3f83e1",
-  "human_finalized": false,
-  "runtime_layout_approved": false,
-  "scopes": [
-    {
-      "document": "..\\MC2Game\\Localization\\INT\\MC2Compose.int",
-      "section": "Chapter12",
-      "complete_section": false,
-      "keys": [
-        "Chapter12_37"
-      ],
-      "reason": "Resolved held royal destination instruction with aligned complete scene and independent UI evidence;retain all instructions and protected tokens"
-    }
-  ],
   "entries": [
     {
-      "id": "coalesced:a160f429712928d18b47c08c8f8290d97dcf87f61582afb923d1bd7cc3b65c5d",
       "document": "..\\MC2Game\\Localization\\INT\\MC2Compose.int",
-      "section": "Chapter12",
+      "id": "coalesced:a160f429712928d18b47c08c8f8290d97dcf87f61582afb923d1bd7cc3b65c5d",
       "key": "Chapter12_37",
       "occurrence": 1,
+      "section": "Chapter12",
       "source_sha256": "75337444b55f6925cf1d0f59ebdda6e39a10368337c1a08c54870a4e6f008a9c",
       "translation_sha256": "437a5ccb5a08d3e7b27f868ce67d92d449302aac282cae4892eb112ce6f842ac"
     }
   ],
+  "human_finalized": false,
+  "input_sha256": "179e265cfc9e6d3e9f2586abe75b5da303b2af9b8484079851dab72f9f7edb8c",
+  "kind": "source-locked-context-observations",
+  "plan_canonical_sha256": "b64d39f343f99db4f672e8409ad74875e76e410da47bc48177b6e39589c90c5d",
   "protected_breaks": [
     {
       "id": "coalesced:a160f429712928d18b47c08c8f8290d97dcf87f61582afb923d1bd7cc3b65c5d",
       "reason": "Two functional instruction breaks preserved"
+    }
+  ],
+  "resource": "MC2Game/Localization/Coalesced.int",
+  "runtime_layout_approved": false,
+  "schema_version": 1,
+  "scopes": [
+    {
+      "complete_section": false,
+      "document": "..\\MC2Game\\Localization\\INT\\MC2Compose.int",
+      "keys": [
+        "Chapter12_37"
+      ],
+      "reason": "Resolved held royal destination instruction with aligned complete scene and independent UI evidence;retain all instructions and protected tokens",
+      "section": "Chapter12"
     }
   ]
 }

@@ -1,157 +1,109 @@
 {
-  "schema_version": 1,
-  "kind": "source-locked-context-observations",
-  "resource": "MC2Game/Localization/Coalesced.int",
-  "input_sha256": "179e265cfc9e6d3e9f2586abe75b5da303b2af9b8484079851dab72f9f7edb8c",
-  "plan_canonical_sha256": "8c0417cd26ef98d8a29e840b536732333c3cbbd35cd20489ff159f726c3f83e1",
-  "human_finalized": false,
-  "runtime_layout_approved": false,
-  "scopes": [
-    {
-      "document": "..\\MC2Game\\Localization\\INT\\MC2Quest.int",
-      "section": "11_302_0",
-      "complete_section": false,
-      "keys": [
-        "302_6",
-        "302_7"
-      ],
-      "reason": "Only explicitly adopted evidence-backed tail fields;full source sections/typed consumers inspected"
-    },
-    {
-      "document": "..\\MC2Game\\Localization\\INT\\MC2UI.int",
-      "section": "Battle_Log",
-      "complete_section": false,
-      "keys": [
-        "LevelUp",
-        "HuarenRecover_1",
-        "HuarenRecover_2"
-      ],
-      "reason": "Only explicitly adopted evidence-backed tail fields;full source sections/typed consumers inspected"
-    },
-    {
-      "document": "..\\MC2Game\\Localization\\INT\\MC2UI.int",
-      "section": "System_Log",
-      "complete_section": false,
-      "keys": [
-        "JoinParty",
-        "LeaveParty",
-        "JoinGuest",
-        "LeaveGuest"
-      ],
-      "reason": "Only explicitly adopted evidence-backed tail fields;full source sections/typed consumers inspected"
-    },
-    {
-      "document": "..\\MC2Game\\Localization\\INT\\MC2UI.int",
-      "section": "diction",
-      "complete_section": false,
-      "keys": [
-        "Subjective_0",
-        "Subjective_1"
-      ],
-      "reason": "Only explicitly adopted evidence-backed tail fields;full source sections/typed consumers inspected"
-    }
-  ],
   "entries": [
     {
-      "id": "coalesced:de529edb3463aa5980e61af8360aff9ac87d44035c9c72b458c4706b3bfc70f2",
       "document": "..\\MC2Game\\Localization\\INT\\MC2Quest.int",
-      "section": "11_302_0",
+      "id": "coalesced:de529edb3463aa5980e61af8360aff9ac87d44035c9c72b458c4706b3bfc70f2",
       "key": "302_6",
       "occurrence": 1,
+      "section": "11_302_0",
       "source_sha256": "143db87d8b6df168fa1636e865b1630ac9219b1cadd79ec3095da190e250feb0",
       "translation_sha256": "bc6a23bfaef583600785c8c320607a8fec750ea63bfdaaae23df91df5d821afd"
     },
     {
-      "id": "coalesced:958ec8d14bbdb8e3f250f42854bdbda18fb68f8cad29b763ea766a4dfe788438",
       "document": "..\\MC2Game\\Localization\\INT\\MC2Quest.int",
-      "section": "11_302_0",
+      "id": "coalesced:958ec8d14bbdb8e3f250f42854bdbda18fb68f8cad29b763ea766a4dfe788438",
       "key": "302_7",
       "occurrence": 1,
+      "section": "11_302_0",
       "source_sha256": "654bd34bda4ba118caf227eb14498f940558297ad4a41485974f334f166e3d43",
       "translation_sha256": "12f3643835555fcb141e8e891f5e1e1c64fc98f4230f112672e011b2d9083131"
     },
     {
-      "id": "coalesced:b18113043a461e7a87994fd713a571cdfcde4a5174692bbc6cba8fee1bee04b5",
       "document": "..\\MC2Game\\Localization\\INT\\MC2UI.int",
-      "section": "Battle_Log",
+      "id": "coalesced:b18113043a461e7a87994fd713a571cdfcde4a5174692bbc6cba8fee1bee04b5",
       "key": "LevelUp",
       "occurrence": 1,
+      "section": "Battle_Log",
       "source_sha256": "a402319e2bd9b2e696b4dda98fb31a7d6e3f664540ce677c6b35e204ef550f16",
       "translation_sha256": "94996ca6223321c156e83152ae72de3f3daa7ccc49a1f68aaedb14d835917eb6"
     },
     {
-      "id": "coalesced:9a3279fab8122241d571a25bbe4fcb8de6500cf4d848dfd5f3b5a1563507df1b",
       "document": "..\\MC2Game\\Localization\\INT\\MC2UI.int",
-      "section": "Battle_Log",
+      "id": "coalesced:9a3279fab8122241d571a25bbe4fcb8de6500cf4d848dfd5f3b5a1563507df1b",
       "key": "HuarenRecover_1",
       "occurrence": 1,
+      "section": "Battle_Log",
       "source_sha256": "a6cd6b752ee220a92c3c0f78b3681ba1d62abece2e8e8bd8f24399f01ca9c40e",
       "translation_sha256": "3b4c42666cc327365e0591594532750a66bf4303bfc0c05e7e4168b1dd3ed812"
     },
     {
-      "id": "coalesced:f80bff38fe789ff55b971481adf6588651ecc9d01806614890399b75d5d12a36",
       "document": "..\\MC2Game\\Localization\\INT\\MC2UI.int",
-      "section": "Battle_Log",
+      "id": "coalesced:f80bff38fe789ff55b971481adf6588651ecc9d01806614890399b75d5d12a36",
       "key": "HuarenRecover_2",
       "occurrence": 1,
+      "section": "Battle_Log",
       "source_sha256": "7f2e97d8d00f843166e16e84698eef3f80e35918bc15e38171c1de1d5ea71d10",
       "translation_sha256": "8c6352643d2113e11bcceeb0a0e03df9c7989e864d7f35a49df5ca0d6013a673"
     },
     {
-      "id": "coalesced:71b9437467b6a8e7be2021f92a0929c533721ebfa28bef9b2cacda9ca46530ab",
       "document": "..\\MC2Game\\Localization\\INT\\MC2UI.int",
-      "section": "System_Log",
+      "id": "coalesced:71b9437467b6a8e7be2021f92a0929c533721ebfa28bef9b2cacda9ca46530ab",
       "key": "JoinParty",
       "occurrence": 1,
+      "section": "System_Log",
       "source_sha256": "0183561fc37b68c748c9d4f01ad85e3a32049d2f4924a7d2e1ec22ef3ac170cb",
       "translation_sha256": "dfdda31628c88ded7d46758722dd3c4debdf5c07202cffbd3c7f26d94a988d4a"
     },
     {
-      "id": "coalesced:59248bd995cc1a0fe7b15466eb593e39b0a8e64d28f080974e9784f958a5db10",
       "document": "..\\MC2Game\\Localization\\INT\\MC2UI.int",
-      "section": "System_Log",
+      "id": "coalesced:59248bd995cc1a0fe7b15466eb593e39b0a8e64d28f080974e9784f958a5db10",
       "key": "LeaveParty",
       "occurrence": 1,
+      "section": "System_Log",
       "source_sha256": "b19b6a829d63a42d9c6cda20aacce0d74b1c98c94cc4d4d934450af050cf5cde",
       "translation_sha256": "907c71bb26387d2387244cca98a3b46c265b82c3cceb1198f37a16c740e6ece6"
     },
     {
-      "id": "coalesced:db95194c94542c75f7b5c59473348e8cdadcdff008fa1e01be6ac0bb90c67f9f",
       "document": "..\\MC2Game\\Localization\\INT\\MC2UI.int",
-      "section": "System_Log",
+      "id": "coalesced:db95194c94542c75f7b5c59473348e8cdadcdff008fa1e01be6ac0bb90c67f9f",
       "key": "JoinGuest",
       "occurrence": 1,
+      "section": "System_Log",
       "source_sha256": "05c1cee093c08c24a8a0cfbabef2795843edc87386dec34b62f9aeb02291fad0",
       "translation_sha256": "a34d26154afb3da536cfed529cc882a6c8f9f1454ac34b053b48a4fdee5cf9f3"
     },
     {
-      "id": "coalesced:73c5781cbafd77e137224236adae2137d1306af7a203a4e3c7224916f6f3713f",
       "document": "..\\MC2Game\\Localization\\INT\\MC2UI.int",
-      "section": "System_Log",
+      "id": "coalesced:73c5781cbafd77e137224236adae2137d1306af7a203a4e3c7224916f6f3713f",
       "key": "LeaveGuest",
       "occurrence": 1,
+      "section": "System_Log",
       "source_sha256": "f71d2895075fc1f0c9f97d32158e962909d25c754ecd3fe4615f64b5372d6f5a",
       "translation_sha256": "e5d64d5ab45677f4dd57f2bf3822b1b6b556de598fd5eaef42e0df33e70befca"
     },
     {
-      "id": "coalesced:cf1e11b2f0cbec5b285591a9b72bcb637ee8663accceeb6baaa50911c899356f",
       "document": "..\\MC2Game\\Localization\\INT\\MC2UI.int",
-      "section": "diction",
+      "id": "coalesced:cf1e11b2f0cbec5b285591a9b72bcb637ee8663accceeb6baaa50911c899356f",
       "key": "Subjective_0",
       "occurrence": 1,
+      "section": "diction",
       "source_sha256": "64ee5293d31bc58b72d76ae9a86a902e90442428e29f24f4ecb257ba841cdd36",
       "translation_sha256": "a3b445efc48f2835e22eb9bce2f20f28d155b9dbded526a8f265535a76ec8f73"
     },
     {
-      "id": "coalesced:815adc17d9a6bc34581fefa84dc396edba26c99aea6ccb6772e451d5b727db4e",
       "document": "..\\MC2Game\\Localization\\INT\\MC2UI.int",
-      "section": "diction",
+      "id": "coalesced:815adc17d9a6bc34581fefa84dc396edba26c99aea6ccb6772e451d5b727db4e",
       "key": "Subjective_1",
       "occurrence": 1,
+      "section": "diction",
       "source_sha256": "8bafb6b7d17ead4985bfd429412da3a6276b40529b508f7f57f9b3a25bd5c727",
       "translation_sha256": "a3b445efc48f2835e22eb9bce2f20f28d155b9dbded526a8f265535a76ec8f73"
     }
   ],
+  "human_finalized": false,
+  "input_sha256": "179e265cfc9e6d3e9f2586abe75b5da303b2af9b8484079851dab72f9f7edb8c",
+  "kind": "source-locked-context-observations",
+  "plan_canonical_sha256": "b64d39f343f99db4f672e8409ad74875e76e410da47bc48177b6e39589c90c5d",
   "protected_breaks": [
     {
       "id": "coalesced:71b9437467b6a8e7be2021f92a0929c533721ebfa28bef9b2cacda9ca46530ab",
@@ -168,6 +120,54 @@
     {
       "id": "coalesced:73c5781cbafd77e137224236adae2137d1306af7a203a4e3c7224916f6f3713f",
       "reason": "Preserve exact existing functional break and unknown separator independently"
+    }
+  ],
+  "resource": "MC2Game/Localization/Coalesced.int",
+  "runtime_layout_approved": false,
+  "schema_version": 1,
+  "scopes": [
+    {
+      "complete_section": false,
+      "document": "..\\MC2Game\\Localization\\INT\\MC2Quest.int",
+      "keys": [
+        "302_6",
+        "302_7"
+      ],
+      "reason": "Only explicitly adopted evidence-backed tail fields;full source sections/typed consumers inspected",
+      "section": "11_302_0"
+    },
+    {
+      "complete_section": false,
+      "document": "..\\MC2Game\\Localization\\INT\\MC2UI.int",
+      "keys": [
+        "LevelUp",
+        "HuarenRecover_1",
+        "HuarenRecover_2"
+      ],
+      "reason": "Only explicitly adopted evidence-backed tail fields;full source sections/typed consumers inspected",
+      "section": "Battle_Log"
+    },
+    {
+      "complete_section": false,
+      "document": "..\\MC2Game\\Localization\\INT\\MC2UI.int",
+      "keys": [
+        "JoinParty",
+        "LeaveParty",
+        "JoinGuest",
+        "LeaveGuest"
+      ],
+      "reason": "Only explicitly adopted evidence-backed tail fields;full source sections/typed consumers inspected",
+      "section": "System_Log"
+    },
+    {
+      "complete_section": false,
+      "document": "..\\MC2Game\\Localization\\INT\\MC2UI.int",
+      "keys": [
+        "Subjective_0",
+        "Subjective_1"
+      ],
+      "reason": "Only explicitly adopted evidence-backed tail fields;full source sections/typed consumers inspected",
+      "section": "diction"
     }
   ]
 }

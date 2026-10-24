@@ -17,7 +17,7 @@ from .lzx_stored import wrap_ue3_chunk
 
 # Finite bounds cover the audited multi-package image families, not game-specific IDs.
 MAX_TEXTURE_SOURCES=512
-MAX_TEXT_LAYERS=1024
+MAX_TEXT_LAYERS=2048
 MAX_TEXTURE_EDITS=512
 MAX_TEXTURE_REGIONS=32
 
@@ -110,6 +110,24 @@ def rgba_crop(rgba,width,rect):
     return b''.join(rgba[((y+dy)*width+x)*4:((y+dy)*width+x+w)*4] for dy in range(h))
 
 
+def compose_restored_region(label,rgba,before,width):
+    """Restore only traced glyph pixels, then composite text over the actual art."""
+    if 'restoration' not in label:return rgba
+    from PIL import Image
+    source=rgba_crop(before,width,label['rect']);w,h=label['rect'][2:]
+    if digest(source)!=label['restoration']['source_rgba_sha256']:raise FormatError('restoration source crop hash mismatch')
+    pixels=label.get('_repair_pixels');mask=label.get('_repair_mask')
+    if (not isinstance(pixels,bytes) or len(pixels)!=len(source) or not isinstance(mask,bytes)
+            or len(mask)!=w*h or set(mask)-{0,255} or not any(mask)):
+        raise FormatError('invalid or unresolved restoration pixels/mask')
+    if any(pixels[i*4:i*4+4]!=bytes(4) for i,v in enumerate(mask) if not v):
+        raise FormatError('restoration patch escaped traced mask')
+    background=bytearray(source)
+    for i,v in enumerate(mask):
+        if v:background[i*4:i*4+4]=pixels[i*4:i*4+4]
+    return Image.alpha_composite(Image.frombytes('RGBA',(w,h),bytes(background)),Image.frombytes('RGBA',(w,h),rgba)).tobytes()
+
+
 def overlay_regions(tiles,width,height,edit,layers,encoding_cache=None):
     ids=layer_ids(edit);protected=edit.get('protected_regions',[])
     if not isinstance(protected,list) or len(protected)>16:raise FormatError('protected region bound')
@@ -127,8 +145,10 @@ def overlay_regions(tiles,width,height,edit,layers,encoding_cache=None):
         protected_ids.add(row['id']);blocks=region_offsets(width,height,row['rect'])
         if blocks & (allowed|protected_blocks):raise FormatError('protected region overlaps edit or another protection')
         protected_blocks.update(blocks)
+    before=decode_dxt5(untile_dxt5(tiles,width,height),width,height) if any('restoration' in l for l,_ in resolved) else None
     patched=tiles;proofs=[]
     for label,rgba in resolved:
+        rgba=compose_restored_region(label,rgba,before,width)
         patched,proof=overlay_tiles(patched,width,height,label['rect'],rgba,encoding_cache);proofs.append(proof)
     # Keep legacy manifest/report bytes exactly stable when no new features apply.
     if 'label' in edit and not protected:return patched,proofs[0]
@@ -274,6 +294,8 @@ def overlay_profile_regions(texture,edit,layers,encoding_cache=None):
         if not isinstance(rgba,bytes) or len(rgba)!=label['rect'][2]*label['rect'][3]*4:raise FormatError('Xbox BC RGBA region length mismatch')
         if units & allowed:raise FormatError('texture regions overlap')
         allowed|=units
+        if 'restoration' in label and mode!='rgba':raise FormatError('restoration requires RGBA profile')
+        rgba=compose_restored_region(label,rgba,before,w)
         if mode=='opaque-luma':rgba=b''.join(bytes([a,a,a,255]) for a in rgba[3::4])
         elif mode=='opaque-rgb':rgba=b''.join(bytes([(r*a+127)//255,(g*a+127)//255,(b*a+127)//255,255]) for r,g,b,a in zip(rgba[::4],rgba[1::4],rgba[2::4],rgba[3::4]))
         resolved.append((label,rgba))

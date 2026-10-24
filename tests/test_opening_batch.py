@@ -85,7 +85,8 @@ class OpeningBatchTests(unittest.TestCase):
             self.assertEqual(ref['commit'],pinned[ref['reference']])
         self.assertFalse(validate_terms(terms,declared))
         self.assertGreaterEqual(len(terms['terms']),20)
-        self.assertTrue(all(t['review_status']=='candidate' for t in terms['terms']))
+        # Preserve every prior candidate; only the explicitly user-reviewed Boss rule is promoted.
+        self.assertEqual({t['id']:t['review_status'] for t in terms['terms'] if t['review_status']!='candidate'}, {'mc2-combat-boss-label':'reviewed'})
         # Terms grow beyond the historical opening sample. Check the explicitly
         # selected current batches rather than requiring all future terms to
         # belong to that frozen sample.

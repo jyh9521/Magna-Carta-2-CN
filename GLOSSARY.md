@@ -1108,7 +1108,8 @@
 | mc2-support-alias-1102 | 大地のタミ | 大地之民 | race | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:4afe4a0e8e27d4df850af4779a61cd1e3fd523176d04de6978e6a4a209ccb479 |
 | mc2-support-alias-1103 | 水のタミ | 水之民 | race | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:4afe4a0e8e27d4df850af4779a61cd1e3fd523176d04de6978e6a4a209ccb479 |
 | mc2-support-alias-1104 | 対センティネル部隊 | 反哨兵部队 | organization | term | candidate | unverified | MC2Game/Localization/Coalesced.int / coalesced:8ffa75b04a15b476c03fbf350c64a04c6bf1a7acc0cca27d19b84d83b7fbf60a |
+| mc2-combat-boss-label | 보스 | Boss | combat | term | reviewed | unverified | MC2Game/Localization/Coalesced.int / coalesced:24de89d1c0630c042bda12275bbf17ca0b5e965fa7364a740879a717775e6899 |
 
-本作词条：1104；已继承：0。
+本作词条：1105；已继承：0。
 
 固定来源、统计、冲突与审核流程见 [系列术语参考](docs/SERIES_TERMS.md)。

@@ -93,12 +93,15 @@ def rect_units(layout,rect):
         raise FormatError('Xbox BC rectangle outside logical image')
     return [layout['offsets'][(y//4+j)*(tw//4)+x//4+i] for j in range(h//4) for i in range(w//4)]
 
-def overlay_rect(raw,layout,rect,rgba,cache=None):
-    from .texture_overlay import encode_rgba_block
+def overlay_rect(raw,layout,rect,rgba,cache=None,alpha_encoding=None):
+    from .texture_overlay import encode_rgba_block,encode_alpha_range
+    if alpha_encoding is not None and (alpha_encoding!='adaptive-range' or layout['format']!=7):
+        raise FormatError('unsupported BC alpha encoding')
     offsets=rect_units(layout,rect);w,h=rect[2:]
     if not isinstance(rgba,bytes) or len(rgba)!=w*h*4:raise FormatError('Xbox BC RGBA region length mismatch')
     if len(raw)!=layout['storage_bytes']:raise FormatError('Xbox BC original allocation mismatch')
     fmt=layout['format'];bs=layout['unit_bytes'];key=('xbox-bc',fmt,w,h,rgba)
+    if alpha_encoding is not None:key=key+(alpha_encoding,)
     linear=None if cache is None else cache.get(key)
     if linear is None:
         out=bytearray()
@@ -107,6 +110,7 @@ def overlay_rect(raw,layout,rect,rgba,cache=None):
                 cell=b''.join(rgba[((j*4+k)*w+i*4)*4:((j*4+k)*w+i*4+4)*4] for k in range(4))
                 if fmt==5 and any(v!=255 for v in cell[3::4]):raise FormatError('opaque BC1 writing requires opaque pixels')
                 block=encode_rgba_block(cell)
+                if alpha_encoding is not None:block=encode_alpha_range(list(cell[3::4]))+block[8:]
                 if fmt==5:
                     block=block[8:];c0,c1=struct.unpack('<HH',block[:4])
                     if c0<c1:raise FormatError('opaque BC1 endpoint order')

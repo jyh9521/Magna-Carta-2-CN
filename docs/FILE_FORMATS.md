@@ -1614,3 +1614,13 @@ UI包和MC2Game驻留强制导出可能共享规范GUID，但各自payload哈希
 
 变化单元仍使用既有有损BC3编码器：中间alpha量化误差最多18/255，
 不宣称被重编码单元逐像素无损；未变化单元与手柄保护区保持源字节。
+
+
+### 显式BC3 adaptive-range透明端点
+
+仅在profile format7、channel_mode rgba、preserve_unchanged_blocks true
+且每个区域有源SHA及修复蒙版时，允许alpha_encoding=adaptive-range。
+每4×4块用最大/最小alpha及6个插值值编码，恒定背景端点精确保留；
+不改变RGB压缩。默认不启用，缓存键包含非默认编码模式，旧缓存及
+无此字段的输出字节保持。固定0/255端点下204变218的暗带须使用
+实际原生解码结果检查，不能只看绘制稿。

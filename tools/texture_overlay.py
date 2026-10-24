@@ -47,6 +47,17 @@ def encode_rgba_block(rgba):
     return encode_white_bc3_block([p[3] for p in pixels])[:8]+struct.pack('<HHI',c0,c1,indices)
 
 
+def encode_alpha_range(alpha):
+    """Explicit BC3 alpha endpoints retain constant translucent backgrounds."""
+    if len(alpha)!=16 or any(type(a) is not int or not 0<=a<=255 for a in alpha):
+        raise FormatError('BC3 alpha requires sixteen byte samples')
+    high,low=max(alpha),min(alpha)
+    if high==low:return bytes([high,low])+bytes(6)
+    palette=[high,low]+[((7-i)*high+i*low)//7 for i in range(1,7)]
+    indices=sum(min(range(8),key=lambda j:abs(a-palette[j]))<<(3*i) for i,a in enumerate(alpha))
+    return bytes([high,low])+indices.to_bytes(6,'little')
+
+
 def overlay_tiles(tiled,width,height,rect,rgba,encoding_cache=None):
     if (not isinstance(rect,list) or len(rect)!=4 or any(type(v) is not int for v in rect)
             or not isinstance(rgba,bytes)):
@@ -129,6 +140,7 @@ def compose_restored_region(label,rgba,before,width):
 
 
 def overlay_regions(tiles,width,height,edit,layers,encoding_cache=None):
+    if 'alpha_encoding' in edit:raise FormatError('alpha encoding requires explicit profile')
     ids=layer_ids(edit);protected=edit.get('protected_regions',[])
     if not isinstance(protected,list) or len(protected)>16:raise FormatError('protected region bound')
     allowed=set();resolved=[]
@@ -308,6 +320,9 @@ def overlay_profile_regions(texture,edit,layers,encoding_cache=None):
     if preserve and (fmt,mode) not in ((5,'opaque-rgb'),(7,'rgba')):raise FormatError('preserve unchanged blocks requires restored BC1 RGB or BC3 RGBA')
     if (fmt==7 and mode!='rgba') or (fmt==5 and mode not in ('opaque-luma','opaque-rgb')):
         raise FormatError('explicit supported texture channel mode required')
+    alpha_encoding=edit.get('alpha_encoding')
+    if 'alpha_encoding' in edit and (alpha_encoding!='adaptive-range' or fmt!=7 or mode!='rgba' or not preserve):
+        raise FormatError('adaptive alpha requires restored BC3 RGBA with unchanged-block preservation')
     before=decode_texture(texture)
     if fmt==5 and mode=='opaque-luma' and any(a!=255 for a in before[3::4]):raise FormatError('opaque BC1 source has transparent pixels')
     layout=texture['layout'];w=texture['width'];resolved=[];allowed=set()
@@ -341,7 +356,7 @@ def overlay_profile_regions(texture,edit,layers,encoding_cache=None):
         protected_units|=units
     tiles=texture['tiles'];patched=tiles;proofs=[];preserved=0
     for label,rgba in resolved:
-        patched,proof=overlay_rect(patched,layout,label['rect'],rgba,encoding_cache)
+        patched,proof=overlay_rect(patched,layout,label['rect'],rgba,encoding_cache,alpha_encoding=alpha_encoding)
         if preserve:
             # Decoded equality is checked before compression. Retain the exact
             # original BC bytes instead of re-quantizing untouched artwork.
@@ -362,6 +377,7 @@ def overlay_profile_regions(texture,edit,layers,encoding_cache=None):
                 profile=edit['profile'],storage_origin_blocks=layout['origin_blocks'],channel_mode=mode)
     if mode=='opaque-rgb':result.update(rgb_matte=[0,0,0],source_transparent_pixels=sum(a==0 for a in before[3::4]),opaque_alpha_inside_authorized_regions=True)
     if preserve:result['unchanged_region_blocks_preserved']=preserved
+    if alpha_encoding is not None:result['alpha_encoding']=alpha_encoding
     if protected:
         after=decode_texture(texture,patched);checks=[]
         for row in protected:

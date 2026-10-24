@@ -1,0 +1,833 @@
+{
+  "schema_version": 1,
+  "phase": 304,
+  "kind": "field-mainmenu-atlas-caption-adoption",
+  "plan": {
+    "path": "locales/zh-Hans/texture-overlays/ui-labels.json",
+    "sha256": "4b30ab65fb986a9c2671bdda4a0e873afd283dc11eb740e55d7d0e76dbaea646"
+  },
+  "new_image_groups": 1,
+  "new_text_layers": 9,
+  "new_aliases": 2,
+  "current_image_groups": 628,
+  "current_text_layers": 1137,
+  "current_aliases": 2456,
+  "current_source_paths": 335,
+  "entries": [
+    {
+      "visible_source": "GUEST",
+      "label": {
+        "id": "field_menu_guest",
+        "text": "临时同伴",
+        "rect": [
+          148,
+          44,
+          192,
+          52
+        ],
+        "font_size": 24,
+        "align": "center",
+        "ink_padding": {
+          "x": 1,
+          "y": 0
+        },
+        "font": {
+          "path": "build/font-source/NotoSansCJKsc-Regular.otf",
+          "sha256": "2c76254f6fc379fddfce0a7e84fb5385bb135d3e399294f6eeb6680d0365b74b"
+        },
+        "style": {
+          "fill": [
+            235,
+            255,
+            255,
+            255
+          ],
+          "stroke_fill": [
+            0,
+            110,
+            130,
+            210
+          ],
+          "shadow_fill": [
+            0,
+            150,
+            170,
+            140
+          ]
+        },
+        "restoration": {
+          "source_rgba_sha256": "d934acdd0fe994b2fb909c02e8cb86a4207a34763f0f9788888ee2fe6ee636fa",
+          "mask": {
+            "path": "locales/zh-Hans/texture-overlays/restorations/field_menu_guest.mask.png",
+            "sha256": "508757ac6318218e9d6ffc58472e164c34c4214da2ff86d759b98f8259c6007d"
+          },
+          "patch": {
+            "path": "locales/zh-Hans/texture-overlays/restorations/field_menu_guest.patch.png",
+            "sha256": "a14a7a24e1bf92fb87d09e469dba799cda9234f202933b193a320772a11beba4"
+          }
+        }
+      },
+      "manual_review": true
+    },
+    {
+      "visible_source": "LOCATION",
+      "label": {
+        "id": "field_menu_location",
+        "text": "位置",
+        "rect": [
+          424,
+          0,
+          80,
+          16
+        ],
+        "font_size": 12,
+        "align": "center",
+        "ink_padding": {
+          "x": 1,
+          "y": 0
+        },
+        "font": {
+          "path": "build/font-source/NotoSansCJKsc-Regular.otf",
+          "sha256": "2c76254f6fc379fddfce0a7e84fb5385bb135d3e399294f6eeb6680d0365b74b"
+        },
+        "style": {
+          "fill": [
+            245,
+            224,
+            146,
+            255
+          ],
+          "stroke_fill": [
+            25,
+            18,
+            6,
+            220
+          ],
+          "shadow_fill": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "restoration": {
+          "source_rgba_sha256": "294afd2edfb30108a8bfa69c5895b3a56d02a4928c105daf7039f5b6f65ac53a",
+          "mask": {
+            "path": "locales/zh-Hans/texture-overlays/restorations/field_menu_location.mask.png",
+            "sha256": "3c1b3f9c0533e38f6b1dcf2da5313e13d818153ea6cd879825230ea33896fcb2"
+          },
+          "patch": {
+            "path": "locales/zh-Hans/texture-overlays/restorations/field_menu_location.patch.png",
+            "sha256": "f58ba10518164f05cd05ea87f446bd13b1a9e0fc7becaed777133cec6d949224"
+          }
+        }
+      },
+      "manual_review": true
+    },
+    {
+      "visible_source": "PLAY TIME",
+      "label": {
+        "id": "field_menu_play_time",
+        "text": "游戏时间",
+        "rect": [
+          424,
+          16,
+          80,
+          16
+        ],
+        "font_size": 12,
+        "align": "center",
+        "ink_padding": {
+          "x": 1,
+          "y": 0
+        },
+        "font": {
+          "path": "build/font-source/NotoSansCJKsc-Regular.otf",
+          "sha256": "2c76254f6fc379fddfce0a7e84fb5385bb135d3e399294f6eeb6680d0365b74b"
+        },
+        "style": {
+          "fill": [
+            245,
+            224,
+            146,
+            255
+          ],
+          "stroke_fill": [
+            25,
+            18,
+            6,
+            220
+          ],
+          "shadow_fill": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "restoration": {
+          "source_rgba_sha256": "1fd7ec88b800a69910326d481ed74092e718bf5868fd8d552377b6b4c090289f",
+          "mask": {
+            "path": "locales/zh-Hans/texture-overlays/restorations/field_menu_play_time.mask.png",
+            "sha256": "7175eb4bf5477df5bebbb30d8fdf87bab0fca77895db57952f41c95a2ead250a"
+          },
+          "patch": {
+            "path": "locales/zh-Hans/texture-overlays/restorations/field_menu_play_time.patch.png",
+            "sha256": "f58ba10518164f05cd05ea87f446bd13b1a9e0fc7becaed777133cec6d949224"
+          }
+        }
+      },
+      "manual_review": true
+    },
+    {
+      "visible_source": "WEAPON LIST",
+      "label": {
+        "id": "field_menu_weapon_list",
+        "text": "武器列表",
+        "rect": [
+          284,
+          176,
+          92,
+          20
+        ],
+        "font_size": 12,
+        "align": "center",
+        "ink_padding": {
+          "x": 1,
+          "y": 0
+        },
+        "font": {
+          "path": "build/font-source/NotoSansCJKsc-Regular.otf",
+          "sha256": "2c76254f6fc379fddfce0a7e84fb5385bb135d3e399294f6eeb6680d0365b74b"
+        },
+        "style": {
+          "fill": [
+            245,
+            224,
+            146,
+            255
+          ],
+          "stroke_fill": [
+            25,
+            18,
+            6,
+            220
+          ],
+          "shadow_fill": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "restoration": {
+          "source_rgba_sha256": "329ef4a845736e0ad86969fdbfbf26e82a1f439641bcc850f8ed86f8deb612dc",
+          "mask": {
+            "path": "locales/zh-Hans/texture-overlays/restorations/field_menu_weapon_list.mask.png",
+            "sha256": "ce2dc12f17440dc6ef67b12cea83a4bd1bdfa99044683f7552551b73c9a109de"
+          },
+          "patch": {
+            "path": "locales/zh-Hans/texture-overlays/restorations/field_menu_weapon_list.patch.png",
+            "sha256": "c1f5a81b2372a2ae3b3545cf4d562b723c95ba44f6dd8ff7b2ffcd6f99ee06d5"
+          }
+        }
+      },
+      "manual_review": true
+    },
+    {
+      "visible_source": "STYLE LIST",
+      "label": {
+        "id": "field_menu_style_list",
+        "text": "风格列表",
+        "rect": [
+          376,
+          176,
+          80,
+          20
+        ],
+        "font_size": 12,
+        "align": "center",
+        "ink_padding": {
+          "x": 1,
+          "y": 0
+        },
+        "font": {
+          "path": "build/font-source/NotoSansCJKsc-Regular.otf",
+          "sha256": "2c76254f6fc379fddfce0a7e84fb5385bb135d3e399294f6eeb6680d0365b74b"
+        },
+        "style": {
+          "fill": [
+            245,
+            224,
+            146,
+            255
+          ],
+          "stroke_fill": [
+            25,
+            18,
+            6,
+            220
+          ],
+          "shadow_fill": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "restoration": {
+          "source_rgba_sha256": "82c8bf064852a09cfc2bbde5d5190b76c14fb6f4c89a685ee7438cfda86cd565",
+          "mask": {
+            "path": "locales/zh-Hans/texture-overlays/restorations/field_menu_style_list.mask.png",
+            "sha256": "c54dd8c103ef2d7f3008090b77e5f281c8168c172145645a1fc3bb5c9366942e"
+          },
+          "patch": {
+            "path": "locales/zh-Hans/texture-overlays/restorations/field_menu_style_list.patch.png",
+            "sha256": "3bc88a5d50c0292d19ee1e5645a0cb010a166081d7ee6a5e68f0ed1cc9f35544"
+          }
+        }
+      },
+      "manual_review": true
+    },
+    {
+      "visible_source": "INFORMATION",
+      "label": {
+        "id": "field_menu_information",
+        "text": "信息",
+        "rect": [
+          284,
+          196,
+          128,
+          16
+        ],
+        "font_size": 12,
+        "align": "center",
+        "ink_padding": {
+          "x": 1,
+          "y": 0
+        },
+        "font": {
+          "path": "build/font-source/NotoSansCJKsc-Regular.otf",
+          "sha256": "2c76254f6fc379fddfce0a7e84fb5385bb135d3e399294f6eeb6680d0365b74b"
+        },
+        "style": {
+          "fill": [
+            245,
+            224,
+            146,
+            255
+          ],
+          "stroke_fill": [
+            25,
+            18,
+            6,
+            220
+          ],
+          "shadow_fill": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "restoration": {
+          "source_rgba_sha256": "11a517761c93c22cb0381154d8fe4308a6f1656ef8b099b38b25e33cfe0ab37d",
+          "mask": {
+            "path": "locales/zh-Hans/texture-overlays/restorations/field_menu_information.mask.png",
+            "sha256": "80ef1d9786bf3eedb8df5b321de64d3faa3756e3b048a15458065ca9b842ed60"
+          },
+          "patch": {
+            "path": "locales/zh-Hans/texture-overlays/restorations/field_menu_information.patch.png",
+            "sha256": "1f0d9942b197496ad93cfe45e5db4298a3af9510420ca5706adca5c3fb5e17b9"
+          }
+        }
+      },
+      "manual_review": true
+    },
+    {
+      "visible_source": "CURRENT KAMOND",
+      "label": {
+        "id": "field_menu_current_kamond",
+        "text": "当前卡蒙德",
+        "rect": [
+          284,
+          212,
+          128,
+          20
+        ],
+        "font_size": 12,
+        "align": "center",
+        "ink_padding": {
+          "x": 1,
+          "y": 0
+        },
+        "font": {
+          "path": "build/font-source/NotoSansCJKsc-Regular.otf",
+          "sha256": "2c76254f6fc379fddfce0a7e84fb5385bb135d3e399294f6eeb6680d0365b74b"
+        },
+        "style": {
+          "fill": [
+            245,
+            224,
+            146,
+            255
+          ],
+          "stroke_fill": [
+            25,
+            18,
+            6,
+            220
+          ],
+          "shadow_fill": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "restoration": {
+          "source_rgba_sha256": "49c93786d47928e978a7fadff8a2e12270460f642f71015811a8cb481b768df9",
+          "mask": {
+            "path": "locales/zh-Hans/texture-overlays/restorations/field_menu_current_kamond.mask.png",
+            "sha256": "861a54ad2c2d9c2df7c03e8f233d1948460aaae798e21ae8d6837a58ad89609a"
+          },
+          "patch": {
+            "path": "locales/zh-Hans/texture-overlays/restorations/field_menu_current_kamond.patch.png",
+            "sha256": "bcb69b46bc427550f553d7533ebe67d610d7b3ac610038eb6094ac48c8f95cd9"
+          }
+        }
+      },
+      "manual_review": true
+    },
+    {
+      "visible_source": "KAMOND BOARD",
+      "label": {
+        "id": "field_menu_kamond_board",
+        "text": "卡蒙德盘",
+        "rect": [
+          284,
+          232,
+          128,
+          16
+        ],
+        "font_size": 12,
+        "align": "center",
+        "ink_padding": {
+          "x": 1,
+          "y": 0
+        },
+        "font": {
+          "path": "build/font-source/NotoSansCJKsc-Regular.otf",
+          "sha256": "2c76254f6fc379fddfce0a7e84fb5385bb135d3e399294f6eeb6680d0365b74b"
+        },
+        "style": {
+          "fill": [
+            245,
+            224,
+            146,
+            255
+          ],
+          "stroke_fill": [
+            25,
+            18,
+            6,
+            220
+          ],
+          "shadow_fill": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "restoration": {
+          "source_rgba_sha256": "fa8e87ba0ce7c5f5b931bbf3435cf06ffe6f43d13f0a9221f508a3b2cd236775",
+          "mask": {
+            "path": "locales/zh-Hans/texture-overlays/restorations/field_menu_kamond_board.mask.png",
+            "sha256": "900078a3bf941f1967ae4af893241ba1730ec0c24668e07867b5c79a154b5236"
+          },
+          "patch": {
+            "path": "locales/zh-Hans/texture-overlays/restorations/field_menu_kamond_board.patch.png",
+            "sha256": "1f0d9942b197496ad93cfe45e5db4298a3af9510420ca5706adca5c3fb5e17b9"
+          }
+        }
+      },
+      "manual_review": true
+    },
+    {
+      "visible_source": "EQUIP LIST",
+      "label": {
+        "id": "field_menu_equip_list",
+        "text": "装备列表",
+        "rect": [
+          284,
+          248,
+          128,
+          20
+        ],
+        "font_size": 12,
+        "align": "center",
+        "ink_padding": {
+          "x": 1,
+          "y": 0
+        },
+        "font": {
+          "path": "build/font-source/NotoSansCJKsc-Regular.otf",
+          "sha256": "2c76254f6fc379fddfce0a7e84fb5385bb135d3e399294f6eeb6680d0365b74b"
+        },
+        "style": {
+          "fill": [
+            245,
+            224,
+            146,
+            255
+          ],
+          "stroke_fill": [
+            25,
+            18,
+            6,
+            220
+          ],
+          "shadow_fill": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "restoration": {
+          "source_rgba_sha256": "beb4f315df8c82ff996697b9521e5f3344b9d66ad6e2d7cb3a93f54dbd320827",
+          "mask": {
+            "path": "locales/zh-Hans/texture-overlays/restorations/field_menu_equip_list.mask.png",
+            "sha256": "906145ad49f4949897e544d6c0715006e874b0d04a04e9b623ae478b0387f32b"
+          },
+          "patch": {
+            "path": "locales/zh-Hans/texture-overlays/restorations/field_menu_equip_list.patch.png",
+            "sha256": "bcb69b46bc427550f553d7533ebe67d610d7b3ac610038eb6094ac48c8f95cd9"
+          }
+        }
+      },
+      "manual_review": true
+    }
+  ],
+  "all_source_aliases": [
+    {
+      "source_identity": {
+        "resource": "UI_Field",
+        "export": 40,
+        "path": "Textures.Field_MainMenu_Tex01",
+        "leaf": "Field_MainMenu_Tex01",
+        "disposition": "candidate",
+        "source_rgba_sha256": "38c853193dbc2780f149a9fc7189d5b07f36a6cd8aceffff7289cb9a8c267872"
+      },
+      "disc": 1,
+      "resource_path": "MC2Game/CookedXenon/UI_Field.xxx",
+      "source_sha256": "34cee17b049c0c6eacb0fb945504cb246ec2aa260d4f33e0d954b239cf8644c8",
+      "export": 40,
+      "path": "Textures.Field_MainMenu_Tex01",
+      "leaf": "Field_MainMenu_Tex01",
+      "class_path": "Engine.Texture2D",
+      "serial_offset": 224634,
+      "serial_size": 30680,
+      "package_guid": "452341a2419cb1e6e667f5bb5a0b4658",
+      "identity": {
+        "canonical_path": "ui_field.textures.field_mainmenu_tex01",
+        "class_path": "engine.texture2d",
+        "forced_export": false,
+        "namespace_guid": "452341a2419cb1e6e667f5bb5a0b4658",
+        "namespace_root": null,
+        "runtime_instance_selected": false
+      },
+      "width": 512,
+      "height": 512,
+      "format_raw": "07",
+      "mip_count": 1,
+      "payload_sha256": "21c8e65f844b6cd3bbff67155c625741290bf6ef8341110559ac35319523e20f",
+      "atlas_supported": false,
+      "profile_verified_for_current_patcher": true,
+      "tiled_sha256": "2c356bbcd253638f802d149beb3e7c05e58b76bed2e16912086c8681f4eb6327",
+      "rgba_sha256": "38c853193dbc2780f149a9fc7189d5b07f36a6cd8aceffff7289cb9a8c267872",
+      "candidate_rgba_sha256": "38c853193dbc2780f149a9fc7189d5b07f36a6cd8aceffff7289cb9a8c267872",
+      "bulk_flags": 64,
+      "storage_origin_blocks": [
+        0,
+        0
+      ],
+      "all_alpha_opaque": false,
+      "preview": "build\\phase-304-field-aliases\\ui_field-34cee17b-40.png",
+      "preview_sha256": "237eb5464d13a9bcf3bfe26cd9cf7b8c95a3572a23ba35039117a6ee025a2513"
+    },
+    {
+      "source_identity": {
+        "resource": "UI_Field",
+        "export": 40,
+        "path": "Textures.Field_MainMenu_Tex01",
+        "leaf": "Field_MainMenu_Tex01",
+        "disposition": "candidate",
+        "source_rgba_sha256": "38c853193dbc2780f149a9fc7189d5b07f36a6cd8aceffff7289cb9a8c267872"
+      },
+      "disc": 2,
+      "resource_path": "MC2Game/CookedXenon/UI_Field.xxx",
+      "source_sha256": "34cee17b049c0c6eacb0fb945504cb246ec2aa260d4f33e0d954b239cf8644c8",
+      "export": 40,
+      "path": "Textures.Field_MainMenu_Tex01",
+      "leaf": "Field_MainMenu_Tex01",
+      "class_path": "Engine.Texture2D",
+      "serial_offset": 224634,
+      "serial_size": 30680,
+      "package_guid": "452341a2419cb1e6e667f5bb5a0b4658",
+      "identity": {
+        "canonical_path": "ui_field.textures.field_mainmenu_tex01",
+        "class_path": "engine.texture2d",
+        "forced_export": false,
+        "namespace_guid": "452341a2419cb1e6e667f5bb5a0b4658",
+        "namespace_root": null,
+        "runtime_instance_selected": false
+      },
+      "width": 512,
+      "height": 512,
+      "format_raw": "07",
+      "mip_count": 1,
+      "payload_sha256": "21c8e65f844b6cd3bbff67155c625741290bf6ef8341110559ac35319523e20f",
+      "atlas_supported": false,
+      "profile_verified_for_current_patcher": true,
+      "tiled_sha256": "2c356bbcd253638f802d149beb3e7c05e58b76bed2e16912086c8681f4eb6327",
+      "rgba_sha256": "38c853193dbc2780f149a9fc7189d5b07f36a6cd8aceffff7289cb9a8c267872",
+      "candidate_rgba_sha256": "38c853193dbc2780f149a9fc7189d5b07f36a6cd8aceffff7289cb9a8c267872",
+      "bulk_flags": 64,
+      "storage_origin_blocks": [
+        0,
+        0
+      ],
+      "all_alpha_opaque": false,
+      "preview": "build\\phase-304-field-aliases\\ui_field-34cee17b-40.png",
+      "preview_sha256": "237eb5464d13a9bcf3bfe26cd9cf7b8c95a3572a23ba35039117a6ee025a2513"
+    }
+  ],
+  "native_encoded_proof": {
+    "regions": [
+      {
+        "rect": [
+          148,
+          44,
+          192,
+          52
+        ],
+        "changed_blocks": 478,
+        "authorized_blocks": 624,
+        "untouched_blocks_preserved": true,
+        "alignment_padding_preserved": true,
+        "unchanged_region_blocks_preserved": 146
+      },
+      {
+        "rect": [
+          424,
+          0,
+          80,
+          16
+        ],
+        "changed_blocks": 80,
+        "authorized_blocks": 80,
+        "untouched_blocks_preserved": true,
+        "alignment_padding_preserved": true,
+        "unchanged_region_blocks_preserved": 0
+      },
+      {
+        "rect": [
+          424,
+          16,
+          80,
+          16
+        ],
+        "changed_blocks": 80,
+        "authorized_blocks": 80,
+        "untouched_blocks_preserved": true,
+        "alignment_padding_preserved": true,
+        "unchanged_region_blocks_preserved": 0
+      },
+      {
+        "rect": [
+          284,
+          176,
+          92,
+          20
+        ],
+        "changed_blocks": 115,
+        "authorized_blocks": 115,
+        "untouched_blocks_preserved": true,
+        "alignment_padding_preserved": true,
+        "unchanged_region_blocks_preserved": 0
+      },
+      {
+        "rect": [
+          376,
+          176,
+          80,
+          20
+        ],
+        "changed_blocks": 97,
+        "authorized_blocks": 100,
+        "untouched_blocks_preserved": true,
+        "alignment_padding_preserved": true,
+        "unchanged_region_blocks_preserved": 3
+      },
+      {
+        "rect": [
+          284,
+          196,
+          128,
+          16
+        ],
+        "changed_blocks": 94,
+        "authorized_blocks": 128,
+        "untouched_blocks_preserved": true,
+        "alignment_padding_preserved": true,
+        "unchanged_region_blocks_preserved": 34
+      },
+      {
+        "rect": [
+          284,
+          212,
+          128,
+          20
+        ],
+        "changed_blocks": 154,
+        "authorized_blocks": 160,
+        "untouched_blocks_preserved": true,
+        "alignment_padding_preserved": true,
+        "unchanged_region_blocks_preserved": 6
+      },
+      {
+        "rect": [
+          284,
+          232,
+          128,
+          16
+        ],
+        "changed_blocks": 111,
+        "authorized_blocks": 128,
+        "untouched_blocks_preserved": true,
+        "alignment_padding_preserved": true,
+        "unchanged_region_blocks_preserved": 17
+      },
+      {
+        "rect": [
+          284,
+          248,
+          128,
+          20
+        ],
+        "changed_blocks": 97,
+        "authorized_blocks": 160,
+        "untouched_blocks_preserved": true,
+        "alignment_padding_preserved": true,
+        "unchanged_region_blocks_preserved": 63
+      }
+    ],
+    "changed_blocks": 1306,
+    "authorized_blocks": 1575,
+    "untouched_blocks_preserved": true,
+    "alignment_padding_preserved": true,
+    "profile": {
+      "kind": "xbox-inline-bc-v1",
+      "format": 7
+    },
+    "storage_origin_blocks": [
+      0,
+      0
+    ],
+    "channel_mode": "rgba",
+    "unchanged_region_blocks_preserved": 269,
+    "alpha_encoding": "adaptive-range",
+    "protected_regions": [
+      {
+        "id": "master_held",
+        "rect": [
+          404,
+          52,
+          60,
+          20
+        ],
+        "before_rgba_sha256": "d9a61cbbb0f44c1ff1c841ee4f3d81f7bca1a1a202a05e5e042992a0be5f6a2b",
+        "after_rgba_sha256": "d9a61cbbb0f44c1ff1c841ee4f3d81f7bca1a1a202a05e5e042992a0be5f6a2b",
+        "blocks_preserved": true
+      },
+      {
+        "id": "sid_and_arrow",
+        "rect": [
+          404,
+          32,
+          64,
+          16
+        ],
+        "before_rgba_sha256": "e4c05f47f508704804d4793d8fbb0db8995f96db91b3fca1240240f0ee370dca",
+        "after_rgba_sha256": "e4c05f47f508704804d4793d8fbb0db8995f96db91b3fca1240240f0ee370dca",
+        "blocks_preserved": true
+      },
+      {
+        "id": "hp_exp_lv_panel",
+        "rect": [
+          0,
+          136,
+          280,
+          128
+        ],
+        "before_rgba_sha256": "72ff94a26c8234255ed0e52134a4877df4496985a114ff87ceef3fa813035924",
+        "after_rgba_sha256": "72ff94a26c8234255ed0e52134a4877df4496985a114ff87ceef3fa813035924",
+        "blocks_preserved": true
+      },
+      {
+        "id": "blue_panel_art",
+        "rect": [
+          280,
+          136,
+          136,
+          40
+        ],
+        "before_rgba_sha256": "f86bf6ee5ce7cd8f36c7cbde04c88311e27f2d2e65a72d0903c2491c2056e3dc",
+        "after_rgba_sha256": "f86bf6ee5ce7cd8f36c7cbde04c88311e27f2d2e65a72d0903c2491c2056e3dc",
+        "blocks_preserved": true
+      },
+      {
+        "id": "menu_left_gutter",
+        "rect": [
+          280,
+          176,
+          4,
+          92
+        ],
+        "before_rgba_sha256": "ecbd83ab68b92fd6b8a666b83679ac5d595488c1093045bd9c5757a0163dc13e",
+        "after_rgba_sha256": "ecbd83ab68b92fd6b8a666b83679ac5d595488c1093045bd9c5757a0163dc13e",
+        "blocks_preserved": true
+      }
+    ]
+  },
+  "before_rgba_sha256": "38c853193dbc2780f149a9fc7189d5b07f36a6cd8aceffff7289cb9a8c267872",
+  "after_rgba_sha256": "119587b8f2d8f46ec39c3898e03cd665ec65af609f8c17b0cff1a27f92821b74",
+  "retained": [
+    "MASTER pending UI consumer semantics",
+    "SID",
+    "HP",
+    "EXP",
+    "LV",
+    "arrows and panel art"
+  ],
+  "game_rendering_verified": false,
+  "all_game_image_text_translated": false,
+  "background_method": "Guest traced glow/shape RGBA harmonic reconstruction;standalone text cells clear original nonzero-alpha glyphs;no flat rectangular panels",
+  "alpha_encoding": "adaptive-range",
+  "terminology_anchors": [
+    {
+      "id": "coalesced:edbe097a1161877f94836ad26cd31be9e5287fa19f331d0a1ae64ded2b23d82c",
+      "section": "Tutorial_Scene_19",
+      "key": "Text_1",
+      "source": "메인메뉴의 강화 항목을 열면 무기 리스트가 나오는데, 무기에는 카몬드를 꽂을 수 있는 [카몬드보드]가 있습니다.\\n\\n[LB]또는 [RB]로 캐릭터를 선택하여\\n[방향 패드]로 무기를 선택해서 [A단추]를 누르면\\n카몬드보드에서 커서를 이동할 수 있습니다. \\n\\n단 카몬드보드가 없는 무기에는, \\n카몬드를 장착할 수 없습니다. ",
+      "source_sha256": "19507b145b56173fe2de3eb03c6629e9914394eb7773a4de94118efe5cd5ea90",
+      "translation": "打开主菜单的强化项目后，会显示武器列表，武器上有可嵌入卡蒙德的[卡蒙德盘]。\\n\\n用[LB]或[RB]选择角色，\\n用[方向键]选择武器后按[A键]，\\n即可在卡蒙德盘上移动光标。 \\n\\n但没有卡蒙德盘的武器， \\n不能嵌入卡蒙德。 "
+    }
+  ],
+  "source_rgba_sha256": "38c853193dbc2780f149a9fc7189d5b07f36a6cd8aceffff7289cb9a8c267872",
+  "footprint_revision": 2,
+  "previous_native_candidate_rejected": true,
+  "non_glyph_alpha_residuals": 0
+}

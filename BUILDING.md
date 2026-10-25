@@ -1,5 +1,9 @@
 > 阶段312：风格菜单 MASTER 的实际消费者已绑定并正式回填“精通”；教程小图继续原样。外前缀补漏发现106张有真实技能字段绑定的图片，接续整批处理。见 docs/PHASE_312_STYLE_MASTERY_AND_WORLD_AUDIT.md。
 
+## 阶段313：技能名称图片的原始输入补集
+
+新增正常技能名称图使用结构化原始输入描述符 `locales/zh-Hans/source-resources/runtime-skill-display.json`，通过通用 `tools.materialize_resource_sources` 从已核对的双盘清单按哈希补齐133个源路径，不生成ISO或整套游戏副本。原始输入已存在时只核对，不重复拷贝。具体命令见 `docs/PHASE_313_RUNTIME_SKILL_DISPLAY.md`。此次资源集合增加，测试副本刷新必须使用现有刷新工具的显式原始资源登记计划，逐项核对新增 candidate/raw-controls 原始字节后再增量更新；不得沿用上一轮“无新增资源、仅6文件”的假设。教程小图保持原样。
+
 > 用户最新决定（阶段311）：教程内嵌示意小图全部保持原图；撤回已采用36组/127层/72双盘别名，阶段310全部候选作废。教程正文、独立标题和真实游戏UI的汉化保留。不要再安排43个教程小图的翻译；旧307-310记录仅为历史，不代表当前部署。恢复方案及验证见 docs/PHASE_311_ORIGINAL_TUTORIAL_ILLUSTRATIONS.md。
 
 > 阶段309：12个教程HUD/连锁/卡蒙德图组新增35层、覆盖36个原文字段；验证/发布见 docs/PHASE_309_TUTORIAL_HUD_CHAIN_KAMOND.md。

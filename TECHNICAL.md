@@ -1,5 +1,9 @@
 > 阶段312：风格菜单 MASTER 的实际消费者已绑定并正式回填“精通”；教程小图继续原样。外前缀补漏发现106张有真实技能字段绑定的图片，接续整批处理。见 docs/PHASE_312_STYLE_MASTERY_AND_WORLD_AUDIT.md。
 
+## 阶段313：正常战斗技能图片的实际字段配对
+
+Verified：原盘 Data_Skill 的620个 MC2SkillData 对象中，117处 SkillNameText、116处 SkillNameDisplayTexture 对应108种图片，其中106种来自 SkillName_Jpn，另外2种既有 UI_SkillName 已处理。以同一实例内的两字段绑定当前采用的 INT 译文，不按文件名推测语言，不按像素合并GUID。106图组的1143个物理别名逐一核对规范路径、命名空间GUID、整包、负载、原生块及RGBA。15个无当前消费者的原始技能图片保持原样。完整证据结构见 `docs/PHASE_313_RUNTIME_SKILL_DISPLAY.md`；所有教程图片保持原样。
+
 > 用户最新决定（阶段311）：教程内嵌示意小图全部保持原图；撤回已采用36组/127层/72双盘别名，阶段310全部候选作废。教程正文、独立标题和真实游戏UI的汉化保留。不要再安排43个教程小图的翻译；旧307-310记录仅为历史，不代表当前部署。恢复方案及验证见 docs/PHASE_311_ORIGINAL_TUTORIAL_ILLUSTRATIONS.md。
 
 > 阶段309：12个教程HUD/连锁/卡蒙德图组新增35层、覆盖36个原文字段；验证/发布见 docs/PHASE_309_TUTORIAL_HUD_CHAIN_KAMOND.md。

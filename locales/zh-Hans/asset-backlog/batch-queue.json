@@ -2,7 +2,7 @@
   "schema_version": 1,
   "inventory": {
     "path": "locales/zh-Hans/asset-backlog/ui-tutorial-audit.json",
-    "sha256": "b10c4bcad46dbcf6cda94ca74fe14e6dee19ca5badab9a44ef46c490dbf3910c"
+    "sha256": "d35d23e81d8f52f60d166990e004e565240bed9a635752328f34c5953a0fb8d2"
   },
   "batch_policy": "Process all27 ready-review UI objects together;do not publish one tiny caption per stage. Translation evidence and complete glyph/shadow coverage still required;Boss original.",
   "batches": [
@@ -218,5 +218,11 @@
     "physical_packages": 3661,
     "status": "all4145_headers_inventoried_75978_texture_exports;unplanned_world_art_visual_audit_pending",
     "visual_completion": false
+  },
+  "normal_runtime_skill_display": {
+    "objects": 106,
+    "physical_aliases": 1143,
+    "status": "whole_batch_formally_adopted_validation_running",
+    "phase": 313
   }
 }

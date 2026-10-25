@@ -1,10 +1,11 @@
+# Historical withdrawn captions only;active original-image policy is tested separately.
 import hashlib,json,unittest
 from pathlib import Path
 from PIL import Image
 R=Path(__file__).resolve().parents[1]
 class TutorialNativeCohortTests(unittest.TestCase):
  def setUp(self):
-  self.p=json.loads((R/'locales/zh-Hans/texture-overlays/ui-labels.json').read_bytes());self.d=json.loads((R/'locales/zh-Hans/candidate-decisions/tutorial-native-captions.json').read_bytes())
+  self.d=json.loads((R/'locales/zh-Hans/candidate-decisions/tutorial-native-captions.json').read_bytes());self.p=json.loads((R/self.d['plan']['path']).read_bytes());self.assertFalse(self.d['applied'])
  def test_all16_objects_51captions_32aliases_adopted(self):
   d=self.d;self.assertEqual((d['reviewed_standalone_objects'],d['new_image_groups'],d['new_text_layers'],d['new_aliases']),(16,16,51,32));self.assertFalse(d['game_rendering_verified']);self.assertFalse(d['all_game_image_text_translated']);self.assertEqual(hashlib.sha256((R/d['plan']['path']).read_bytes()).hexdigest(),d['plan']['sha256'])
  def test_old1212_layers_unchanged_and_new51_are_complete(self):

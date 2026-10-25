@@ -1,9 +1,10 @@
+# Historical withdrawn captions only;active original-image policy is tested separately.
 import hashlib,json,unittest
 from pathlib import Path
 from PIL import Image
 R=Path(__file__).resolve().parents[1]
 class TutorialHUDChainKamondTests(unittest.TestCase):
- def setUp(self):self.p=json.loads((R/'locales/zh-Hans/texture-overlays/ui-labels.json').read_bytes());self.d=json.loads((R/'locales/zh-Hans/candidate-decisions/tutorial-hud-chain-kamond-captions.json').read_bytes())
+ def setUp(self):self.d=json.loads((R/'locales/zh-Hans/candidate-decisions/tutorial-hud-chain-kamond-captions.json').read_bytes());self.p=json.loads((R/self.d['plan']['path']).read_bytes());self.assertFalse(self.d['applied'])
  def test_coherent35layer36source_caption_batch(self):
   d=self.d;self.assertEqual((d['new_image_groups'],d['new_text_layers'],d['new_source_caption_fields'],d['new_aliases']),(12,35,36,24));self.assertEqual(d['fully_localized_selected_objects'],11);self.assertEqual(d['partially_localized_selected_objects'],[200]);self.assertFalse(d['game_rendering_verified']);self.assertFalse(d['all_game_image_text_translated']);self.assertEqual(hashlib.sha256((R/d['plan']['path']).read_bytes()).hexdigest(),d['plan']['sha256'])
  def test_old1304_layers_exact_new35_structured(self):

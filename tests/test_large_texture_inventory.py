@@ -6,10 +6,18 @@ import test_texture_overlay as fixtures
 from test_supplement_font import stored_decoder
 class LargeTextureInventoryTests(unittest.TestCase):
  def test_finite_caps_cover_audited_union(self):
-  self.assertEqual((overlay.MAX_TEXTURE_SOURCES,overlay.MAX_TEXT_LAYERS,overlay.MAX_TEXTURE_EDITS,phase.MAX_PACKET_RESOURCES),(512,2048,512,512))
- def test_sources_512_accepted_and_513_rejected(self):
-  rows=[dict(path=f'{i}.xxx',discs=[1,2]) for i in range(512)];self.assertEqual(builder.select_sources(rows,2),rows)
+  self.assertEqual((overlay.MAX_TEXTURE_SOURCES,overlay.MAX_TEXT_LAYERS,overlay.MAX_TEXTURE_EDITS,phase.MAX_PACKET_RESOURCES),(1024,2048,512,512))
+ def test_sources_1024_accepted_and_1025_rejected(self):
+  rows=[dict(path=f'{i}.xxx',discs=[1,2]) for i in range(1024)];self.assertEqual(builder.select_sources(rows,2),rows)
   with self.assertRaisesRegex(ValueError,'source bound'):builder.select_sources(rows+[rows[0]],2)
+ def test_518_source_union_preserves_disc_order_and_selection(self):
+  rows=[dict(path=f'{i}.xxx',discs=[1] if i%3==0 else [2] if i%3==1 else [1,2]) for i in range(518)]
+  for disc in [1,2]:
+   with self.subTest(disc=disc):self.assertEqual(builder.select_sources(rows,disc),[r for r in rows if disc in r['discs']])
+  with self.assertRaisesRegex(ValueError,'explicit disc'):builder.select_sources(rows)
+ def test_1025_sources_prepare_rejected_before_inputs(self):
+  p=dict(schema_version=1,kind='texture-text-overlay-plan',game_rendering_verified=False,rasterizer_versions=dict(Pillow='locked',fonttools='locked'),labels=[{}],sources=[{}]*1025)
+  with patch.object(builder.importlib.metadata,'version',return_value='locked'),self.assertRaisesRegex(ValueError,'label/source bound'):builder.prepare(p,Path('.'),None)
  def test_129_edits_reach_duplicate_guard_not_old_bound(self):
   raw,_,_,e,l=fixtures.TextureOverlayTests().fixture()
   for n in [129,512]:

@@ -1,5 +1,9 @@
 > 阶段312：风格菜单 MASTER 的实际消费者已绑定并正式回填“精通”；教程小图继续原样。外前缀补漏发现106张有真实技能字段绑定的图片，接续整批处理。见 docs/PHASE_312_STYLE_MASTERY_AND_WORLD_AUDIT.md。
 
+## 当前接续：正常流派树与地图图组（阶段314–316）
+
+最终计划包括阶段314流派树残影修复、阶段315的27个地图标题图组以及阶段316的地形文字/研究室文字。地形与引线受逐像素保护，旧字与阴影只在授权遮罩内处理。名称只有原盘文本/消费者锚点支持时才采用；`원수의 언덕` 仍待证。完整验证链路见 `docs/PHASE_316_NORMAL_MAP_TERRAIN_CAPTIONS.md`。
+
 ## 阶段313：正常战斗技能图片的实际字段配对
 
 Verified：原盘 Data_Skill 的620个 MC2SkillData 对象中，117处 SkillNameText、116处 SkillNameDisplayTexture 对应108种图片，其中106种来自 SkillName_Jpn，另外2种既有 UI_SkillName 已处理。以同一实例内的两字段绑定当前采用的 INT 译文，不按文件名推测语言，不按像素合并GUID。106图组的1143个物理别名逐一核对规范路径、命名空间GUID、整包、负载、原生块及RGBA。15个无当前消费者的原始技能图片保持原样。完整证据结构见 `docs/PHASE_313_RUNTIME_SKILL_DISPLAY.md`；所有教程图片保持原样。

@@ -16,7 +16,7 @@ from .lzx_stored import wrap_ue3_chunk
 
 
 # Finite bounds cover the audited multi-package image families, not game-specific IDs.
-MAX_TEXTURE_SOURCES=512
+MAX_TEXTURE_SOURCES=1024
 MAX_TEXT_LAYERS=2048
 MAX_TEXTURE_EDITS=512
 MAX_TEXTURE_REGIONS=32

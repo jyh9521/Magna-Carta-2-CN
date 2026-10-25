@@ -1,5 +1,9 @@
 > 阶段312：风格菜单 MASTER 的实际消费者已绑定并正式回填“精通”；教程小图继续原样。外前缀补漏发现106张有真实技能字段绑定的图片，接续整批处理。见 docs/PHASE_312_STYLE_MASTERY_AND_WORLD_AUDIT.md。
 
+## 当前接续：正常流派树与地图图组（阶段314–316）
+
+阶段314流派树21组/102层在最终残影审计后收尾；阶段315核实27组地图标题；阶段316核实地形图文与研究室文字，并保留地形和引线。待证名称 `원수의 언덕` 仍原样。最终统一验证/测试副本增量刷新记录见 `docs/PHASE_316_NORMAL_MAP_TERRAIN_CAPTIONS.md`；不会每轮重建ISO或完整游戏副本。
+
 ## 阶段313：技能名称图片的原始输入补集
 
 新增正常技能名称图使用结构化原始输入描述符 `locales/zh-Hans/source-resources/runtime-skill-display.json`，通过通用 `tools.materialize_resource_sources` 从已核对的双盘清单按哈希补齐133个源路径，不生成ISO或整套游戏副本。原始输入已存在时只核对，不重复拷贝。具体命令见 `docs/PHASE_313_RUNTIME_SKILL_DISPLAY.md`。此次资源集合增加，测试副本刷新必须使用现有刷新工具的显式原始资源登记计划，逐项核对新增 candidate/raw-controls 原始字节后再增量更新；不得沿用上一轮“无新增资源、仅6文件”的假设。教程小图保持原样。

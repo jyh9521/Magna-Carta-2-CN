@@ -78,7 +78,7 @@ class TextureDiscSelectionTests(unittest.TestCase):
   from tools.build_texture_overlay import select_sources
   for discs in [[],[True],[1,1],[3],'1']:
    with self.subTest(discs=discs),self.assertRaises(ValueError):select_sources([{'discs':discs}],1)
-  for sources in [[],[{}]*513,[{'discs':[2]}]]:
+  for sources in [[],[{}]*1025,[{'discs':[2]}]]:
    with self.subTest(sources=len(sources)),self.assertRaises(ValueError):select_sources(sources,1)
 
 class TextureEncodingCacheTests(unittest.TestCase):

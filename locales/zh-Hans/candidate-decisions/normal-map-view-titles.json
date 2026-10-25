@@ -1,0 +1,4416 @@
+{
+  "schema_version": 1,
+  "kind": "actual-normal-map-view-titles",
+  "applied": true,
+  "game_rendering_verified": false,
+  "phase": 315,
+  "baseline_plan_sha256": "dca7e3cee4bccb147399eebe38914d2d0df3e602ecab47fa996ca89e9c1606e2",
+  "plan": {
+    "path": "locales/zh-Hans/texture-overlays/ui-labels.json",
+    "sha256": "8cdd1231908281d3663c461ddc98a43b799f363f51dc6d5c6faad840d5ebbb49"
+  },
+  "new_groups": 27,
+  "new_layers": 36,
+  "new_aliases": 28,
+  "total_groups_at_close": 810,
+  "total_layers_at_close": 1461,
+  "total_aliases_at_close": 3802,
+  "total_sources_at_close": 496,
+  "groups": [
+    {
+      "image_id": "normal_map_title_000",
+      "canonical_source": "MC2Game/CookedXenon/Map_View_DunanHill.xxx",
+      "canonical_object": "Map_View_DunanHill_Title",
+      "namespace_guid": "a1cc26aa4f4bed7a6a2a9a832cbd60f1",
+      "original_native": "05647754425a5cf03b082db8fb529a967e358c6151cb0a6ac327df43d5475fde",
+      "modified_native": "658d340a9613a7d354506e7edc51a077a307c5be22f20115f0e994e85327f637",
+      "actual_map_consumer": {
+        "disc": 2,
+        "scene": "Scene.Map_View_DunanHill",
+        "scene_source": "MC2Game/CookedXenon/Map_View_DunanHill.xxx",
+        "consumer": "Scene.Map_View_DunanHill.Base.DunanHill_Title.ImageComponentTemplate.UITexture_0",
+        "target": "Map_View_DunanHill_Title",
+        "resource": "MC2Game/CookedXenon/Map_View_DunanHill.xxx",
+        "source_sha256": "ee97fd7b2b943e3ad9405e94af5aa3eb840c433e86cd036c3f622ca110eccbfd",
+        "package_guid": "a1cc26aa4f4bed7a6a2a9a832cbd60f1",
+        "export": 66,
+        "object": "Map_View_DunanHill_Title",
+        "coordinate_override_fields": [],
+        "preview": "build/phase-314-style-map-audit/full-native-map-graphics/013.png",
+        "preview_sha256": "d1f402623033c9f55d24707f5e0ca07ecd8f1edccf2d9417cee9edbdcf257c97",
+        "rgba_sha256": "05647754425a5cf03b082db8fb529a967e358c6151cb0a6ac327df43d5475fde",
+        "width": 256,
+        "height": 64,
+        "selected_mip": 0,
+        "format": 7,
+        "payload_sha256": "37dd83f1b62a0edf0a565ceeca74887820892d41884f2e5922f4d5ba48d3ca30",
+        "streamed_mip_bindings": [],
+        "original_native_not_thumbnail": true
+      },
+      "native_encoded_proof": {
+        "regions": [
+          {
+            "rect": [
+              0,
+              0,
+              256,
+              48
+            ],
+            "changed_blocks": 484,
+            "authorized_blocks": 768,
+            "untouched_blocks_preserved": true,
+            "alignment_padding_preserved": true,
+            "unchanged_region_blocks_preserved": 284
+          }
+        ],
+        "changed_blocks": 484,
+        "authorized_blocks": 768,
+        "untouched_blocks_preserved": true,
+        "alignment_padding_preserved": true,
+        "profile": {
+          "kind": "xbox-inline-bc-v1",
+          "format": 7
+        },
+        "storage_origin_blocks": [
+          0,
+          0
+        ],
+        "channel_mode": "rgba",
+        "unchanged_region_blocks_preserved": 284,
+        "alpha_encoding": "adaptive-range",
+        "protected_regions": [
+          {
+            "id": "original_English_subline_and_room_numerals",
+            "rect": [
+              0,
+              48,
+              256,
+              16
+            ],
+            "before_rgba_sha256": "fd21dfe6f8675c902973163e7625b61d558f957950915d35e63de8f7377a3766",
+            "after_rgba_sha256": "fd21dfe6f8675c902973163e7625b61d558f957950915d35e63de8f7377a3766",
+            "blocks_preserved": true
+          }
+        ]
+      },
+      "cells": [
+        {
+          "label_id": "normal_map_title_000_0",
+          "text": "杜南丘陵",
+          "native_reading": "듀난 언덕",
+          "anchors": [
+            {
+              "source": {
+                "id": "coalesced:c9cabd24f5d5a0dbaf5f55d02a674da8b64ebee6fc461dd512d6b51d8d2c9b9e",
+                "resource": "MC2Game/Localization/Coalesced.int",
+                "embedded_path": "..\\MC2Game\\Localization\\INT\\MC2FieldName.int",
+                "section": "Dunan_Hill",
+                "key": "Dunan_Hill",
+                "occurrence": 1,
+                "line": 31,
+                "context": "..\\MC2Game\\Localization\\INT\\MC2FieldName.int [Dunan_Hill] Dunan_Hill #1",
+                "source_locale": "und",
+                "source": "듀난 언덕",
+                "translation": "",
+                "status": "untranslated",
+                "reviewer": "",
+                "syntax_status": "physical-line-value",
+                "source_sha256": "8b8b70e373d671f8710a0e702f8710be8beec685ca1f32732ace937b915a8244",
+                "domain_hint": "names",
+                "text_kind": "unclassified"
+              },
+              "adopted": {
+                "id": "coalesced:c9cabd24f5d5a0dbaf5f55d02a674da8b64ebee6fc461dd512d6b51d8d2c9b9e",
+                "source_sha256": "8b8b70e373d671f8710a0e702f8710be8beec685ca1f32732ace937b915a8244",
+                "translation": "杜南丘陵"
+              }
+            }
+          ],
+          "grammar": null
+        }
+      ],
+      "assistant_visual_native_review": true,
+      "terrain_never_touched": true,
+      "original_English_and_numerals_exact": true,
+      "original_latin_pixel_guard": {
+        "rect": [
+          12,
+          44,
+          88,
+          20
+        ],
+        "rgba_sha256": "28a4a453711c63cce747789c612d49d8738f9ec3268ce1fe234108542a637ac4",
+        "after_sha256": "28a4a453711c63cce747789c612d49d8738f9ec3268ce1fe234108542a637ac4",
+        "exact": true
+      }
+    },
+    {
+      "image_id": "normal_map_title_001",
+      "canonical_source": "MC2Game/CookedXenon/Map_View_Lastrada_00.xxx",
+      "canonical_object": "Map_View_Lastrada_Title",
+      "namespace_guid": "79d8c18e4f84bc827b8edfbb868ed6fd",
+      "original_native": "d73838ef7ec318fa12397e655782461fc492cf3c6c573543bff68e051b841898",
+      "modified_native": "03f471c0da60d1ffe302e004e33c180aed675005cf206d0e58be709859f79b90",
+      "actual_map_consumer": {
+        "disc": 2,
+        "scene": "Scene.Map_View_Lastrada_00",
+        "scene_source": "MC2Game/CookedXenon/Map_View_Lastrada_00.xxx",
+        "consumer": "Scene.Map_View_Lastrada_00.Base.Titel.ImageComponentTemplate.UITexture_0",
+        "target": "Map_View_Lastrada_Title",
+        "resource": "MC2Game/CookedXenon/Map_View_Lastrada_00.xxx",
+        "source_sha256": "0014121abf6c2315575f218b857330a9cbd5c7734568fe429468806aad31fecc",
+        "package_guid": "79d8c18e4f84bc827b8edfbb868ed6fd",
+        "export": 63,
+        "object": "Map_View_Lastrada_Title",
+        "coordinate_override_fields": [],
+        "preview": "build/phase-314-style-map-audit/full-native-map-graphics/092.png",
+        "preview_sha256": "3a91a9ad175229af14abfbe9b0aae4191d9fe3f0d104d9906b80c654df8e0f52",
+        "rgba_sha256": "d73838ef7ec318fa12397e655782461fc492cf3c6c573543bff68e051b841898",
+        "width": 256,
+        "height": 64,
+        "selected_mip": 0,
+        "format": 7,
+        "payload_sha256": "cb8b8c6ee03cd52cd22510bdc233e3acf8510863655c82fd00188109d5209a74",
+        "streamed_mip_bindings": [],
+        "original_native_not_thumbnail": true
+      },
+      "native_encoded_proof": {
+        "regions": [
+          {
+            "rect": [
+              0,
+              0,
+              256,
+              48
+            ],
+            "changed_blocks": 457,
+            "authorized_blocks": 768,
+            "untouched_blocks_preserved": true,
+            "alignment_padding_preserved": true,
+            "unchanged_region_blocks_preserved": 311
+          }
+        ],
+        "changed_blocks": 457,
+        "authorized_blocks": 768,
+        "untouched_blocks_preserved": true,
+        "alignment_padding_preserved": true,
+        "profile": {
+          "kind": "xbox-inline-bc-v1",
+          "format": 7
+        },
+        "storage_origin_blocks": [
+          0,
+          0
+        ],
+        "channel_mode": "rgba",
+        "unchanged_region_blocks_preserved": 311,
+        "alpha_encoding": "adaptive-range",
+        "protected_regions": [
+          {
+            "id": "original_English_subline_and_room_numerals",
+            "rect": [
+              0,
+              48,
+              256,
+              16
+            ],
+            "before_rgba_sha256": "aee86b491d8cff3e81eebd95c811190a98f045e73b77de9d95f1b8ba91640257",
+            "after_rgba_sha256": "aee86b491d8cff3e81eebd95c811190a98f045e73b77de9d95f1b8ba91640257",
+            "blocks_preserved": true
+          }
+        ]
+      },
+      "cells": [
+        {
+          "label_id": "normal_map_title_001_0",
+          "text": "拉·斯特拉达",
+          "native_reading": "라 스트라다",
+          "anchors": [
+            {
+              "source": {
+                "id": "coalesced:78dc2621dfe750f12268d057759f3fe0034694dd83715654b626561a438cce90",
+                "resource": "MC2Game/Localization/Coalesced.int",
+                "embedded_path": "..\\MC2Game\\Localization\\INT\\MC2FieldName.int",
+                "section": "Lastrada",
+                "key": "Lastrada",
+                "occurrence": 1,
+                "line": 55,
+                "context": "..\\MC2Game\\Localization\\INT\\MC2FieldName.int [Lastrada] Lastrada #1",
+                "source_locale": "und",
+                "source": "라 스트라다",
+                "translation": "",
+                "status": "untranslated",
+                "reviewer": "",
+                "syntax_status": "physical-line-value",
+                "source_sha256": "ea7fa1e7026b81771a5c1ab3a2c08153775b73bd5a0075a0b28b755c378e8673",
+                "domain_hint": "names",
+                "text_kind": "unclassified"
+              },
+              "adopted": {
+                "id": "coalesced:78dc2621dfe750f12268d057759f3fe0034694dd83715654b626561a438cce90",
+                "source_sha256": "ea7fa1e7026b81771a5c1ab3a2c08153775b73bd5a0075a0b28b755c378e8673",
+                "translation": "拉·斯特拉达"
+              }
+            }
+          ],
+          "grammar": null
+        }
+      ],
+      "assistant_visual_native_review": true,
+      "terrain_never_touched": true,
+      "original_English_and_numerals_exact": true,
+      "original_latin_pixel_guard": {
+        "rect": [
+          92,
+          44,
+          84,
+          20
+        ],
+        "rgba_sha256": "2b201235d66bc2a73906af227265d074ae8b657a3092d065f184de0ad094f2a2",
+        "after_sha256": "2b201235d66bc2a73906af227265d074ae8b657a3092d065f184de0ad094f2a2",
+        "exact": true
+      }
+    },
+    {
+      "image_id": "normal_map_title_002",
+      "canonical_source": "MC2Game/CookedXenon/Map_View_Lastrada_01.xxx",
+      "canonical_object": "Map_View_Lastrada_01_Title",
+      "namespace_guid": "def194fe475715a906ef4e85a3187055",
+      "original_native": "e8f0119483825fc034bdd632e791461eb9bc30797be200d9de8e577415d5900b",
+      "modified_native": "ba95aca7f2bdb049bb56f49ed96ec90f66ff2025b1b5449a97cd9a52d0d4b223",
+      "actual_map_consumer": {
+        "disc": 2,
+        "scene": "Scene.Map_View_Lastrada_01",
+        "scene_source": "MC2Game/CookedXenon/Map_View_Lastrada_01.xxx",
+        "consumer": "Scene.Map_View_Lastrada_01.Base.Map_Title.ImageComponentTemplate.UITexture_0",
+        "target": "Map_View_Lastrada_01_Title",
+        "resource": "MC2Game/CookedXenon/Map_View_Lastrada_01.xxx",
+        "source_sha256": "aa6535968883f546679961c759c9bd3d327a9ae75c976b994ab454103fae71f1",
+        "package_guid": "def194fe475715a906ef4e85a3187055",
+        "export": 63,
+        "object": "Map_View_Lastrada_01_Title",
+        "coordinate_override_fields": [],
+        "preview": "build/phase-314-style-map-audit/full-native-map-graphics/095.png",
+        "preview_sha256": "8f1ee5742dd2dcbb57049bd3918b018118ab5f2efe75525eee0b7cf47f030171",
+        "rgba_sha256": "e8f0119483825fc034bdd632e791461eb9bc30797be200d9de8e577415d5900b",
+        "width": 256,
+        "height": 64,
+        "selected_mip": 0,
+        "format": 7,
+        "payload_sha256": "649c0ba0d2204665cc4d16a802cf3fb6c826fee6001497d1eec69cbddc6dc356",
+        "streamed_mip_bindings": [],
+        "original_native_not_thumbnail": true
+      },
+      "native_encoded_proof": {
+        "regions": [
+          {
+            "rect": [
+              0,
+              0,
+              256,
+              64
+            ],
+            "changed_blocks": 424,
+            "authorized_blocks": 1024,
+            "untouched_blocks_preserved": true,
+            "alignment_padding_preserved": true,
+            "unchanged_region_blocks_preserved": 600
+          }
+        ],
+        "changed_blocks": 424,
+        "authorized_blocks": 1024,
+        "untouched_blocks_preserved": true,
+        "alignment_padding_preserved": true,
+        "profile": {
+          "kind": "xbox-inline-bc-v1",
+          "format": 7
+        },
+        "storage_origin_blocks": [
+          0,
+          0
+        ],
+        "channel_mode": "rgba",
+        "unchanged_region_blocks_preserved": 600,
+        "alpha_encoding": "adaptive-range"
+      },
+      "cells": [
+        {
+          "label_id": "normal_map_title_002_0",
+          "text": "明智之试炼",
+          "native_reading": "명석의 시련",
+          "anchors": [
+            {
+              "terms": [
+                "명석"
+              ],
+              "source": {
+                "id": "coalesced:a6572ea7e5c49b832b1e0e2132777747c43080241c3fe3d3a6304d5597871fc5",
+                "resource": "MC2Game/Localization/Coalesced.int",
+                "embedded_path": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
+                "section": "CSMB12_091",
+                "key": "voc_csmb_12091_03",
+                "occurrence": 1,
+                "line": 4590,
+                "context": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int [CSMB12_091] voc_csmb_12091_03 #1",
+                "source_locale": "und",
+                "source": "여긴 첫 번째 관문.\\n여길 지나고 싶다면 '명석의 시련'에 도전하라.",
+                "translation": "",
+                "status": "untranslated",
+                "reviewer": "",
+                "syntax_status": "physical-line-value",
+                "source_sha256": "6e19f3fe2a28ad0b0e4cbfb9e8101257355455bf1a4c86bdfe442d40ae0222fc",
+                "domain_hint": "dialogue",
+                "text_kind": "unclassified"
+              },
+              "adopted": {
+                "id": "coalesced:a6572ea7e5c49b832b1e0e2132777747c43080241c3fe3d3a6304d5597871fc5",
+                "source_sha256": "6e19f3fe2a28ad0b0e4cbfb9e8101257355455bf1a4c86bdfe442d40ae0222fc",
+                "translation": "这里是第一道关卡。想要通过此处，就挑战“明智之试炼”吧。",
+                "line_break_policy": {
+                  "source_count": 1,
+                  "target_count": 0
+                }
+              }
+            }
+          ],
+          "grammar": null
+        }
+      ],
+      "assistant_visual_native_review": true,
+      "terrain_never_touched": true,
+      "original_English_and_numerals_exact": true
+    },
+    {
+      "image_id": "normal_map_title_003",
+      "canonical_source": "MC2Game/CookedXenon/Map_View_Lastrada_01.xxx",
+      "canonical_object": "Map_View_Lastrada_Title",
+      "namespace_guid": "def194fe475715a906ef4e85a3187055",
+      "original_native": "d73838ef7ec318fa12397e655782461fc492cf3c6c573543bff68e051b841898",
+      "modified_native": "03f471c0da60d1ffe302e004e33c180aed675005cf206d0e58be709859f79b90",
+      "actual_map_consumer": {
+        "disc": 2,
+        "scene": "Scene.Map_View_Lastrada_01",
+        "scene_source": "MC2Game/CookedXenon/Map_View_Lastrada_01.xxx",
+        "consumer": "Scene.Map_View_Lastrada_01.Base.Titel.ImageComponentTemplate.UITexture_0",
+        "target": "Map_View_Lastrada_Title",
+        "resource": "MC2Game/CookedXenon/Map_View_Lastrada_01.xxx",
+        "source_sha256": "aa6535968883f546679961c759c9bd3d327a9ae75c976b994ab454103fae71f1",
+        "package_guid": "def194fe475715a906ef4e85a3187055",
+        "export": 64,
+        "object": "Map_View_Lastrada_Title",
+        "coordinate_override_fields": [],
+        "preview": "build/phase-314-style-map-audit/full-native-map-graphics/096.png",
+        "preview_sha256": "3a91a9ad175229af14abfbe9b0aae4191d9fe3f0d104d9906b80c654df8e0f52",
+        "rgba_sha256": "d73838ef7ec318fa12397e655782461fc492cf3c6c573543bff68e051b841898",
+        "width": 256,
+        "height": 64,
+        "selected_mip": 0,
+        "format": 7,
+        "payload_sha256": "0a916555aa13b977b8cad357b24c0f22db3a836e7f439b0c76974cb73454eed1",
+        "streamed_mip_bindings": [],
+        "original_native_not_thumbnail": true
+      },
+      "native_encoded_proof": {
+        "regions": [
+          {
+            "rect": [
+              0,
+              0,
+              256,
+              48
+            ],
+            "changed_blocks": 457,
+            "authorized_blocks": 768,
+            "untouched_blocks_preserved": true,
+            "alignment_padding_preserved": true,
+            "unchanged_region_blocks_preserved": 311
+          }
+        ],
+        "changed_blocks": 457,
+        "authorized_blocks": 768,
+        "untouched_blocks_preserved": true,
+        "alignment_padding_preserved": true,
+        "profile": {
+          "kind": "xbox-inline-bc-v1",
+          "format": 7
+        },
+        "storage_origin_blocks": [
+          0,
+          0
+        ],
+        "channel_mode": "rgba",
+        "unchanged_region_blocks_preserved": 311,
+        "alpha_encoding": "adaptive-range",
+        "protected_regions": [
+          {
+            "id": "original_English_subline_and_room_numerals",
+            "rect": [
+              0,
+              48,
+              256,
+              16
+            ],
+            "before_rgba_sha256": "aee86b491d8cff3e81eebd95c811190a98f045e73b77de9d95f1b8ba91640257",
+            "after_rgba_sha256": "aee86b491d8cff3e81eebd95c811190a98f045e73b77de9d95f1b8ba91640257",
+            "blocks_preserved": true
+          }
+        ]
+      },
+      "cells": [
+        {
+          "label_id": "normal_map_title_003_0",
+          "text": "拉·斯特拉达",
+          "native_reading": "라 스트라다",
+          "anchors": [
+            {
+              "source": {
+                "id": "coalesced:78dc2621dfe750f12268d057759f3fe0034694dd83715654b626561a438cce90",
+                "resource": "MC2Game/Localization/Coalesced.int",
+                "embedded_path": "..\\MC2Game\\Localization\\INT\\MC2FieldName.int",
+                "section": "Lastrada",
+                "key": "Lastrada",
+                "occurrence": 1,
+                "line": 55,
+                "context": "..\\MC2Game\\Localization\\INT\\MC2FieldName.int [Lastrada] Lastrada #1",
+                "source_locale": "und",
+                "source": "라 스트라다",
+                "translation": "",
+                "status": "untranslated",
+                "reviewer": "",
+                "syntax_status": "physical-line-value",
+                "source_sha256": "ea7fa1e7026b81771a5c1ab3a2c08153775b73bd5a0075a0b28b755c378e8673",
+                "domain_hint": "names",
+                "text_kind": "unclassified"
+              },
+              "adopted": {
+                "id": "coalesced:78dc2621dfe750f12268d057759f3fe0034694dd83715654b626561a438cce90",
+                "source_sha256": "ea7fa1e7026b81771a5c1ab3a2c08153775b73bd5a0075a0b28b755c378e8673",
+                "translation": "拉·斯特拉达"
+              }
+            }
+          ],
+          "grammar": null
+        }
+      ],
+      "assistant_visual_native_review": true,
+      "terrain_never_touched": true,
+      "original_English_and_numerals_exact": true,
+      "original_latin_pixel_guard": {
+        "rect": [
+          92,
+          44,
+          84,
+          20
+        ],
+        "rgba_sha256": "2b201235d66bc2a73906af227265d074ae8b657a3092d065f184de0ad094f2a2",
+        "after_sha256": "2b201235d66bc2a73906af227265d074ae8b657a3092d065f184de0ad094f2a2",
+        "exact": true
+      }
+    },
+    {
+      "image_id": "normal_map_title_004",
+      "canonical_source": "MC2Game/CookedXenon/Map_View_Lastrada_02.xxx",
+      "canonical_object": "Map_View_Lastrada_01_Title",
+      "namespace_guid": "a612881d4b9db2ef8e0702a425ffd366",
+      "original_native": "e8f0119483825fc034bdd632e791461eb9bc30797be200d9de8e577415d5900b",
+      "modified_native": "ba95aca7f2bdb049bb56f49ed96ec90f66ff2025b1b5449a97cd9a52d0d4b223",
+      "actual_map_consumer": {
+        "disc": 2,
+        "scene": "Scene.Map_View_Lastrada_02",
+        "scene_source": "MC2Game/CookedXenon/Map_View_Lastrada_02.xxx",
+        "consumer": "Scene.Map_View_Lastrada_02.Base.Map_Title.ImageComponentTemplate.UITexture_0",
+        "target": "Map_View_Lastrada_01_Title",
+        "resource": "MC2Game/CookedXenon/Map_View_Lastrada_02.xxx",
+        "source_sha256": "6a3b5ba480199301407979ca91fe458c23d2a8d774ac046fbf929240085f9adb",
+        "package_guid": "a612881d4b9db2ef8e0702a425ffd366",
+        "export": 63,
+        "object": "Map_View_Lastrada_01_Title",
+        "coordinate_override_fields": [],
+        "preview": "build/phase-314-style-map-audit/full-native-map-graphics/099.png",
+        "preview_sha256": "8f1ee5742dd2dcbb57049bd3918b018118ab5f2efe75525eee0b7cf47f030171",
+        "rgba_sha256": "e8f0119483825fc034bdd632e791461eb9bc30797be200d9de8e577415d5900b",
+        "width": 256,
+        "height": 64,
+        "selected_mip": 0,
+        "format": 7,
+        "payload_sha256": "7ea7c163ddddd61ee7775101a5e8b685865aa449b444d51453a084764764d8f2",
+        "streamed_mip_bindings": [],
+        "original_native_not_thumbnail": true
+      },
+      "native_encoded_proof": {
+        "regions": [
+          {
+            "rect": [
+              0,
+              0,
+              256,
+              64
+            ],
+            "changed_blocks": 424,
+            "authorized_blocks": 1024,
+            "untouched_blocks_preserved": true,
+            "alignment_padding_preserved": true,
+            "unchanged_region_blocks_preserved": 600
+          }
+        ],
+        "changed_blocks": 424,
+        "authorized_blocks": 1024,
+        "untouched_blocks_preserved": true,
+        "alignment_padding_preserved": true,
+        "profile": {
+          "kind": "xbox-inline-bc-v1",
+          "format": 7
+        },
+        "storage_origin_blocks": [
+          0,
+          0
+        ],
+        "channel_mode": "rgba",
+        "unchanged_region_blocks_preserved": 600,
+        "alpha_encoding": "adaptive-range"
+      },
+      "cells": [
+        {
+          "label_id": "normal_map_title_004_0",
+          "text": "明智之试炼",
+          "native_reading": "명석의 시련",
+          "anchors": [
+            {
+              "terms": [
+                "명석"
+              ],
+              "source": {
+                "id": "coalesced:a6572ea7e5c49b832b1e0e2132777747c43080241c3fe3d3a6304d5597871fc5",
+                "resource": "MC2Game/Localization/Coalesced.int",
+                "embedded_path": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
+                "section": "CSMB12_091",
+                "key": "voc_csmb_12091_03",
+                "occurrence": 1,
+                "line": 4590,
+                "context": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int [CSMB12_091] voc_csmb_12091_03 #1",
+                "source_locale": "und",
+                "source": "여긴 첫 번째 관문.\\n여길 지나고 싶다면 '명석의 시련'에 도전하라.",
+                "translation": "",
+                "status": "untranslated",
+                "reviewer": "",
+                "syntax_status": "physical-line-value",
+                "source_sha256": "6e19f3fe2a28ad0b0e4cbfb9e8101257355455bf1a4c86bdfe442d40ae0222fc",
+                "domain_hint": "dialogue",
+                "text_kind": "unclassified"
+              },
+              "adopted": {
+                "id": "coalesced:a6572ea7e5c49b832b1e0e2132777747c43080241c3fe3d3a6304d5597871fc5",
+                "source_sha256": "6e19f3fe2a28ad0b0e4cbfb9e8101257355455bf1a4c86bdfe442d40ae0222fc",
+                "translation": "这里是第一道关卡。想要通过此处，就挑战“明智之试炼”吧。",
+                "line_break_policy": {
+                  "source_count": 1,
+                  "target_count": 0
+                }
+              }
+            }
+          ],
+          "grammar": null
+        }
+      ],
+      "assistant_visual_native_review": true,
+      "terrain_never_touched": true,
+      "original_English_and_numerals_exact": true
+    },
+    {
+      "image_id": "normal_map_title_005",
+      "canonical_source": "MC2Game/CookedXenon/Map_View_Lastrada_02.xxx",
+      "canonical_object": "Map_View_Lastrada_Title",
+      "namespace_guid": "a612881d4b9db2ef8e0702a425ffd366",
+      "original_native": "d73838ef7ec318fa12397e655782461fc492cf3c6c573543bff68e051b841898",
+      "modified_native": "03f471c0da60d1ffe302e004e33c180aed675005cf206d0e58be709859f79b90",
+      "actual_map_consumer": {
+        "disc": 2,
+        "scene": "Scene.Map_View_Lastrada_02",
+        "scene_source": "MC2Game/CookedXenon/Map_View_Lastrada_02.xxx",
+        "consumer": "Scene.Map_View_Lastrada_02.Base.Titel.ImageComponentTemplate.UITexture_0",
+        "target": "Map_View_Lastrada_Title",
+        "resource": "MC2Game/CookedXenon/Map_View_Lastrada_02.xxx",
+        "source_sha256": "6a3b5ba480199301407979ca91fe458c23d2a8d774ac046fbf929240085f9adb",
+        "package_guid": "a612881d4b9db2ef8e0702a425ffd366",
+        "export": 64,
+        "object": "Map_View_Lastrada_Title",
+        "coordinate_override_fields": [],
+        "preview": "build/phase-314-style-map-audit/full-native-map-graphics/100.png",
+        "preview_sha256": "3a91a9ad175229af14abfbe9b0aae4191d9fe3f0d104d9906b80c654df8e0f52",
+        "rgba_sha256": "d73838ef7ec318fa12397e655782461fc492cf3c6c573543bff68e051b841898",
+        "width": 256,
+        "height": 64,
+        "selected_mip": 0,
+        "format": 7,
+        "payload_sha256": "f7aa3cb289b4af9a30356925d597ce3016acce47e70ecc78d2b9c0c55fb37754",
+        "streamed_mip_bindings": [],
+        "original_native_not_thumbnail": true
+      },
+      "native_encoded_proof": {
+        "regions": [
+          {
+            "rect": [
+              0,
+              0,
+              256,
+              48
+            ],
+            "changed_blocks": 457,
+            "authorized_blocks": 768,
+            "untouched_blocks_preserved": true,
+            "alignment_padding_preserved": true,
+            "unchanged_region_blocks_preserved": 311
+          }
+        ],
+        "changed_blocks": 457,
+        "authorized_blocks": 768,
+        "untouched_blocks_preserved": true,
+        "alignment_padding_preserved": true,
+        "profile": {
+          "kind": "xbox-inline-bc-v1",
+          "format": 7
+        },
+        "storage_origin_blocks": [
+          0,
+          0
+        ],
+        "channel_mode": "rgba",
+        "unchanged_region_blocks_preserved": 311,
+        "alpha_encoding": "adaptive-range",
+        "protected_regions": [
+          {
+            "id": "original_English_subline_and_room_numerals",
+            "rect": [
+              0,
+              48,
+              256,
+              16
+            ],
+            "before_rgba_sha256": "aee86b491d8cff3e81eebd95c811190a98f045e73b77de9d95f1b8ba91640257",
+            "after_rgba_sha256": "aee86b491d8cff3e81eebd95c811190a98f045e73b77de9d95f1b8ba91640257",
+            "blocks_preserved": true
+          }
+        ]
+      },
+      "cells": [
+        {
+          "label_id": "normal_map_title_005_0",
+          "text": "拉·斯特拉达",
+          "native_reading": "라 스트라다",
+          "anchors": [
+            {
+              "source": {
+                "id": "coalesced:78dc2621dfe750f12268d057759f3fe0034694dd83715654b626561a438cce90",
+                "resource": "MC2Game/Localization/Coalesced.int",
+                "embedded_path": "..\\MC2Game\\Localization\\INT\\MC2FieldName.int",
+                "section": "Lastrada",
+                "key": "Lastrada",
+                "occurrence": 1,
+                "line": 55,
+                "context": "..\\MC2Game\\Localization\\INT\\MC2FieldName.int [Lastrada] Lastrada #1",
+                "source_locale": "und",
+                "source": "라 스트라다",
+                "translation": "",
+                "status": "untranslated",
+                "reviewer": "",
+                "syntax_status": "physical-line-value",
+                "source_sha256": "ea7fa1e7026b81771a5c1ab3a2c08153775b73bd5a0075a0b28b755c378e8673",
+                "domain_hint": "names",
+                "text_kind": "unclassified"
+              },
+              "adopted": {
+                "id": "coalesced:78dc2621dfe750f12268d057759f3fe0034694dd83715654b626561a438cce90",
+                "source_sha256": "ea7fa1e7026b81771a5c1ab3a2c08153775b73bd5a0075a0b28b755c378e8673",
+                "translation": "拉·斯特拉达"
+              }
+            }
+          ],
+          "grammar": null
+        }
+      ],
+      "assistant_visual_native_review": true,
+      "terrain_never_touched": true,
+      "original_English_and_numerals_exact": true,
+      "original_latin_pixel_guard": {
+        "rect": [
+          92,
+          44,
+          84,
+          20
+        ],
+        "rgba_sha256": "2b201235d66bc2a73906af227265d074ae8b657a3092d065f184de0ad094f2a2",
+        "after_sha256": "2b201235d66bc2a73906af227265d074ae8b657a3092d065f184de0ad094f2a2",
+        "exact": true
+      }
+    },
+    {
+      "image_id": "normal_map_title_006",
+      "canonical_source": "MC2Game/CookedXenon/Map_View_Lastrada_03.xxx",
+      "canonical_object": "Map_View_Lastrada_01_Title",
+      "namespace_guid": "b1106beb4ebe86dd4a50ca928ee497c1",
+      "original_native": "e8f0119483825fc034bdd632e791461eb9bc30797be200d9de8e577415d5900b",
+      "modified_native": "ba95aca7f2bdb049bb56f49ed96ec90f66ff2025b1b5449a97cd9a52d0d4b223",
+      "actual_map_consumer": {
+        "disc": 2,
+        "scene": "Scene.Map_View_Lastrada_03",
+        "scene_source": "MC2Game/CookedXenon/Map_View_Lastrada_03.xxx",
+        "consumer": "Scene.Map_View_Lastrada_03.Base.Map_Title.ImageComponentTemplate.UITexture_0",
+        "target": "Map_View_Lastrada_01_Title",
+        "resource": "MC2Game/CookedXenon/Map_View_Lastrada_03.xxx",
+        "source_sha256": "424c384fee8565f2227d3f396fc929c191a344c6c61b2a5bb0fa670db5db6c13",
+        "package_guid": "b1106beb4ebe86dd4a50ca928ee497c1",
+        "export": 63,
+        "object": "Map_View_Lastrada_01_Title",
+        "coordinate_override_fields": [],
+        "preview": "build/phase-314-style-map-audit/full-native-map-graphics/103.png",
+        "preview_sha256": "8f1ee5742dd2dcbb57049bd3918b018118ab5f2efe75525eee0b7cf47f030171",
+        "rgba_sha256": "e8f0119483825fc034bdd632e791461eb9bc30797be200d9de8e577415d5900b",
+        "width": 256,
+        "height": 64,
+        "selected_mip": 0,
+        "format": 7,
+        "payload_sha256": "7ea7c163ddddd61ee7775101a5e8b685865aa449b444d51453a084764764d8f2",
+        "streamed_mip_bindings": [],
+        "original_native_not_thumbnail": true
+      },
+      "native_encoded_proof": {
+        "regions": [
+          {
+            "rect": [
+              0,
+              0,
+              256,
+              64
+            ],
+            "changed_blocks": 424,
+            "authorized_blocks": 1024,
+            "untouched_blocks_preserved": true,
+            "alignment_padding_preserved": true,
+            "unchanged_region_blocks_preserved": 600
+          }
+        ],
+        "changed_blocks": 424,
+        "authorized_blocks": 1024,
+        "untouched_blocks_preserved": true,
+        "alignment_padding_preserved": true,
+        "profile": {
+          "kind": "xbox-inline-bc-v1",
+          "format": 7
+        },
+        "storage_origin_blocks": [
+          0,
+          0
+        ],
+        "channel_mode": "rgba",
+        "unchanged_region_blocks_preserved": 600,
+        "alpha_encoding": "adaptive-range"
+      },
+      "cells": [
+        {
+          "label_id": "normal_map_title_006_0",
+          "text": "明智之试炼",
+          "native_reading": "명석의 시련",
+          "anchors": [
+            {
+              "terms": [
+                "명석"
+              ],
+              "source": {
+                "id": "coalesced:a6572ea7e5c49b832b1e0e2132777747c43080241c3fe3d3a6304d5597871fc5",
+                "resource": "MC2Game/Localization/Coalesced.int",
+                "embedded_path": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
+                "section": "CSMB12_091",
+                "key": "voc_csmb_12091_03",
+                "occurrence": 1,
+                "line": 4590,
+                "context": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int [CSMB12_091] voc_csmb_12091_03 #1",
+                "source_locale": "und",
+                "source": "여긴 첫 번째 관문.\\n여길 지나고 싶다면 '명석의 시련'에 도전하라.",
+                "translation": "",
+                "status": "untranslated",
+                "reviewer": "",
+                "syntax_status": "physical-line-value",
+                "source_sha256": "6e19f3fe2a28ad0b0e4cbfb9e8101257355455bf1a4c86bdfe442d40ae0222fc",
+                "domain_hint": "dialogue",
+                "text_kind": "unclassified"
+              },
+              "adopted": {
+                "id": "coalesced:a6572ea7e5c49b832b1e0e2132777747c43080241c3fe3d3a6304d5597871fc5",
+                "source_sha256": "6e19f3fe2a28ad0b0e4cbfb9e8101257355455bf1a4c86bdfe442d40ae0222fc",
+                "translation": "这里是第一道关卡。想要通过此处，就挑战“明智之试炼”吧。",
+                "line_break_policy": {
+                  "source_count": 1,
+                  "target_count": 0
+                }
+              }
+            }
+          ],
+          "grammar": null
+        }
+      ],
+      "assistant_visual_native_review": true,
+      "terrain_never_touched": true,
+      "original_English_and_numerals_exact": true
+    },
+    {
+      "image_id": "normal_map_title_007",
+      "canonical_source": "MC2Game/CookedXenon/Map_View_Lastrada_03.xxx",
+      "canonical_object": "Map_View_Lastrada_Title",
+      "namespace_guid": "b1106beb4ebe86dd4a50ca928ee497c1",
+      "original_native": "d73838ef7ec318fa12397e655782461fc492cf3c6c573543bff68e051b841898",
+      "modified_native": "03f471c0da60d1ffe302e004e33c180aed675005cf206d0e58be709859f79b90",
+      "actual_map_consumer": {
+        "disc": 2,
+        "scene": "Scene.Map_View_Lastrada_03",
+        "scene_source": "MC2Game/CookedXenon/Map_View_Lastrada_03.xxx",
+        "consumer": "Scene.Map_View_Lastrada_03.Base.Titel.ImageComponentTemplate.UITexture_0",
+        "target": "Map_View_Lastrada_Title",
+        "resource": "MC2Game/CookedXenon/Map_View_Lastrada_03.xxx",
+        "source_sha256": "424c384fee8565f2227d3f396fc929c191a344c6c61b2a5bb0fa670db5db6c13",
+        "package_guid": "b1106beb4ebe86dd4a50ca928ee497c1",
+        "export": 64,
+        "object": "Map_View_Lastrada_Title",
+        "coordinate_override_fields": [],
+        "preview": "build/phase-314-style-map-audit/full-native-map-graphics/104.png",
+        "preview_sha256": "3a91a9ad175229af14abfbe9b0aae4191d9fe3f0d104d9906b80c654df8e0f52",
+        "rgba_sha256": "d73838ef7ec318fa12397e655782461fc492cf3c6c573543bff68e051b841898",
+        "width": 256,
+        "height": 64,
+        "selected_mip": 0,
+        "format": 7,
+        "payload_sha256": "f7aa3cb289b4af9a30356925d597ce3016acce47e70ecc78d2b9c0c55fb37754",
+        "streamed_mip_bindings": [],
+        "original_native_not_thumbnail": true
+      },
+      "native_encoded_proof": {
+        "regions": [
+          {
+            "rect": [
+              0,
+              0,
+              256,
+              48
+            ],
+            "changed_blocks": 457,
+            "authorized_blocks": 768,
+            "untouched_blocks_preserved": true,
+            "alignment_padding_preserved": true,
+            "unchanged_region_blocks_preserved": 311
+          }
+        ],
+        "changed_blocks": 457,
+        "authorized_blocks": 768,
+        "untouched_blocks_preserved": true,
+        "alignment_padding_preserved": true,
+        "profile": {
+          "kind": "xbox-inline-bc-v1",
+          "format": 7
+        },
+        "storage_origin_blocks": [
+          0,
+          0
+        ],
+        "channel_mode": "rgba",
+        "unchanged_region_blocks_preserved": 311,
+        "alpha_encoding": "adaptive-range",
+        "protected_regions": [
+          {
+            "id": "original_English_subline_and_room_numerals",
+            "rect": [
+              0,
+              48,
+              256,
+              16
+            ],
+            "before_rgba_sha256": "aee86b491d8cff3e81eebd95c811190a98f045e73b77de9d95f1b8ba91640257",
+            "after_rgba_sha256": "aee86b491d8cff3e81eebd95c811190a98f045e73b77de9d95f1b8ba91640257",
+            "blocks_preserved": true
+          }
+        ]
+      },
+      "cells": [
+        {
+          "label_id": "normal_map_title_007_0",
+          "text": "拉·斯特拉达",
+          "native_reading": "라 스트라다",
+          "anchors": [
+            {
+              "source": {
+                "id": "coalesced:78dc2621dfe750f12268d057759f3fe0034694dd83715654b626561a438cce90",
+                "resource": "MC2Game/Localization/Coalesced.int",
+                "embedded_path": "..\\MC2Game\\Localization\\INT\\MC2FieldName.int",
+                "section": "Lastrada",
+                "key": "Lastrada",
+                "occurrence": 1,
+                "line": 55,
+                "context": "..\\MC2Game\\Localization\\INT\\MC2FieldName.int [Lastrada] Lastrada #1",
+                "source_locale": "und",
+                "source": "라 스트라다",
+                "translation": "",
+                "status": "untranslated",
+                "reviewer": "",
+                "syntax_status": "physical-line-value",
+                "source_sha256": "ea7fa1e7026b81771a5c1ab3a2c08153775b73bd5a0075a0b28b755c378e8673",
+                "domain_hint": "names",
+                "text_kind": "unclassified"
+              },
+              "adopted": {
+                "id": "coalesced:78dc2621dfe750f12268d057759f3fe0034694dd83715654b626561a438cce90",
+                "source_sha256": "ea7fa1e7026b81771a5c1ab3a2c08153775b73bd5a0075a0b28b755c378e8673",
+                "translation": "拉·斯特拉达"
+              }
+            }
+          ],
+          "grammar": null
+        }
+      ],
+      "assistant_visual_native_review": true,
+      "terrain_never_touched": true,
+      "original_English_and_numerals_exact": true,
+      "original_latin_pixel_guard": {
+        "rect": [
+          92,
+          44,
+          84,
+          20
+        ],
+        "rgba_sha256": "2b201235d66bc2a73906af227265d074ae8b657a3092d065f184de0ad094f2a2",
+        "after_sha256": "2b201235d66bc2a73906af227265d074ae8b657a3092d065f184de0ad094f2a2",
+        "exact": true
+      }
+    },
+    {
+      "image_id": "normal_map_title_008",
+      "canonical_source": "MC2Game/CookedXenon/Map_View_Lastrada_04.xxx",
+      "canonical_object": "Map_View_Lastrada_Title",
+      "namespace_guid": "f0d2c23c4a094e74a9a13db65c6e27dd",
+      "original_native": "d73838ef7ec318fa12397e655782461fc492cf3c6c573543bff68e051b841898",
+      "modified_native": "03f471c0da60d1ffe302e004e33c180aed675005cf206d0e58be709859f79b90",
+      "actual_map_consumer": {
+        "disc": 2,
+        "scene": "Scene.Map_View_Lastrada_04",
+        "scene_source": "MC2Game/CookedXenon/Map_View_Lastrada_04.xxx",
+        "consumer": "Scene.Map_View_Lastrada_04.Base.Titel.ImageComponentTemplate.UITexture_0",
+        "target": "Map_View_Lastrada_Title",
+        "resource": "MC2Game/CookedXenon/Map_View_Lastrada_04.xxx",
+        "source_sha256": "23886e94e678fe35374410de11954d0be051cd16fd4c09afa44f59da4a6f8d83",
+        "package_guid": "f0d2c23c4a094e74a9a13db65c6e27dd",
+        "export": 64,
+        "object": "Map_View_Lastrada_Title",
+        "coordinate_override_fields": [],
+        "preview": "build/phase-314-style-map-audit/full-native-map-graphics/108.png",
+        "preview_sha256": "3a91a9ad175229af14abfbe9b0aae4191d9fe3f0d104d9906b80c654df8e0f52",
+        "rgba_sha256": "d73838ef7ec318fa12397e655782461fc492cf3c6c573543bff68e051b841898",
+        "width": 256,
+        "height": 64,
+        "selected_mip": 0,
+        "format": 7,
+        "payload_sha256": "93f64cf23bd6046b34ee1d0d685c5afa1a7b9dbb8b2f010006db4fb6c5fe4ab4",
+        "streamed_mip_bindings": [],
+        "original_native_not_thumbnail": true
+      },
+      "native_encoded_proof": {
+        "regions": [
+          {
+            "rect": [
+              0,
+              0,
+              256,
+              48
+            ],
+            "changed_blocks": 457,
+            "authorized_blocks": 768,
+            "untouched_blocks_preserved": true,
+            "alignment_padding_preserved": true,
+            "unchanged_region_blocks_preserved": 311
+          }
+        ],
+        "changed_blocks": 457,
+        "authorized_blocks": 768,
+        "untouched_blocks_preserved": true,
+        "alignment_padding_preserved": true,
+        "profile": {
+          "kind": "xbox-inline-bc-v1",
+          "format": 7
+        },
+        "storage_origin_blocks": [
+          0,
+          0
+        ],
+        "channel_mode": "rgba",
+        "unchanged_region_blocks_preserved": 311,
+        "alpha_encoding": "adaptive-range",
+        "protected_regions": [
+          {
+            "id": "original_English_subline_and_room_numerals",
+            "rect": [
+              0,
+              48,
+              256,
+              16
+            ],
+            "before_rgba_sha256": "aee86b491d8cff3e81eebd95c811190a98f045e73b77de9d95f1b8ba91640257",
+            "after_rgba_sha256": "aee86b491d8cff3e81eebd95c811190a98f045e73b77de9d95f1b8ba91640257",
+            "blocks_preserved": true
+          }
+        ]
+      },
+      "cells": [
+        {
+          "label_id": "normal_map_title_008_0",
+          "text": "拉·斯特拉达",
+          "native_reading": "라 스트라다",
+          "anchors": [
+            {
+              "source": {
+                "id": "coalesced:78dc2621dfe750f12268d057759f3fe0034694dd83715654b626561a438cce90",
+                "resource": "MC2Game/Localization/Coalesced.int",
+                "embedded_path": "..\\MC2Game\\Localization\\INT\\MC2FieldName.int",
+                "section": "Lastrada",
+                "key": "Lastrada",
+                "occurrence": 1,
+                "line": 55,
+                "context": "..\\MC2Game\\Localization\\INT\\MC2FieldName.int [Lastrada] Lastrada #1",
+                "source_locale": "und",
+                "source": "라 스트라다",
+                "translation": "",
+                "status": "untranslated",
+                "reviewer": "",
+                "syntax_status": "physical-line-value",
+                "source_sha256": "ea7fa1e7026b81771a5c1ab3a2c08153775b73bd5a0075a0b28b755c378e8673",
+                "domain_hint": "names",
+                "text_kind": "unclassified"
+              },
+              "adopted": {
+                "id": "coalesced:78dc2621dfe750f12268d057759f3fe0034694dd83715654b626561a438cce90",
+                "source_sha256": "ea7fa1e7026b81771a5c1ab3a2c08153775b73bd5a0075a0b28b755c378e8673",
+                "translation": "拉·斯特拉达"
+              }
+            }
+          ],
+          "grammar": null
+        }
+      ],
+      "assistant_visual_native_review": true,
+      "terrain_never_touched": true,
+      "original_English_and_numerals_exact": true,
+      "original_latin_pixel_guard": {
+        "rect": [
+          92,
+          44,
+          84,
+          20
+        ],
+        "rgba_sha256": "2b201235d66bc2a73906af227265d074ae8b657a3092d065f184de0ad094f2a2",
+        "after_sha256": "2b201235d66bc2a73906af227265d074ae8b657a3092d065f184de0ad094f2a2",
+        "exact": true
+      }
+    },
+    {
+      "image_id": "normal_map_title_009",
+      "canonical_source": "MC2Game/CookedXenon/Map_View_Lastrada_05.xxx",
+      "canonical_object": "Map_View_Lastrada_Title",
+      "namespace_guid": "72f293fe459c0b39438f57957ed41f6b",
+      "original_native": "d73838ef7ec318fa12397e655782461fc492cf3c6c573543bff68e051b841898",
+      "modified_native": "03f471c0da60d1ffe302e004e33c180aed675005cf206d0e58be709859f79b90",
+      "actual_map_consumer": {
+        "disc": 2,
+        "scene": "Scene.Map_View_Lastrada_05",
+        "scene_source": "MC2Game/CookedXenon/Map_View_Lastrada_05.xxx",
+        "consumer": "Scene.Map_View_Lastrada_05.Base.Titel.ImageComponentTemplate.UITexture_0",
+        "target": "Map_View_Lastrada_Title",
+        "resource": "MC2Game/CookedXenon/Map_View_Lastrada_05.xxx",
+        "source_sha256": "c775059a5e169d18a43f66d9bc046e3abf80f67e5267db2dfaa804633824e4ec",
+        "package_guid": "72f293fe459c0b39438f57957ed41f6b",
+        "export": 64,
+        "object": "Map_View_Lastrada_Title",
+        "coordinate_override_fields": [],
+        "preview": "build/phase-314-style-map-audit/full-native-map-graphics/112.png",
+        "preview_sha256": "3a91a9ad175229af14abfbe9b0aae4191d9fe3f0d104d9906b80c654df8e0f52",
+        "rgba_sha256": "d73838ef7ec318fa12397e655782461fc492cf3c6c573543bff68e051b841898",
+        "width": 256,
+        "height": 64,
+        "selected_mip": 0,
+        "format": 7,
+        "payload_sha256": "93f64cf23bd6046b34ee1d0d685c5afa1a7b9dbb8b2f010006db4fb6c5fe4ab4",
+        "streamed_mip_bindings": [],
+        "original_native_not_thumbnail": true
+      },
+      "native_encoded_proof": {
+        "regions": [
+          {
+            "rect": [
+              0,
+              0,
+              256,
+              48
+            ],
+            "changed_blocks": 457,
+            "authorized_blocks": 768,
+            "untouched_blocks_preserved": true,
+            "alignment_padding_preserved": true,
+            "unchanged_region_blocks_preserved": 311
+          }
+        ],
+        "changed_blocks": 457,
+        "authorized_blocks": 768,
+        "untouched_blocks_preserved": true,
+        "alignment_padding_preserved": true,
+        "profile": {
+          "kind": "xbox-inline-bc-v1",
+          "format": 7
+        },
+        "storage_origin_blocks": [
+          0,
+          0
+        ],
+        "channel_mode": "rgba",
+        "unchanged_region_blocks_preserved": 311,
+        "alpha_encoding": "adaptive-range",
+        "protected_regions": [
+          {
+            "id": "original_English_subline_and_room_numerals",
+            "rect": [
+              0,
+              48,
+              256,
+              16
+            ],
+            "before_rgba_sha256": "aee86b491d8cff3e81eebd95c811190a98f045e73b77de9d95f1b8ba91640257",
+            "after_rgba_sha256": "aee86b491d8cff3e81eebd95c811190a98f045e73b77de9d95f1b8ba91640257",
+            "blocks_preserved": true
+          }
+        ]
+      },
+      "cells": [
+        {
+          "label_id": "normal_map_title_009_0",
+          "text": "拉·斯特拉达",
+          "native_reading": "라 스트라다",
+          "anchors": [
+            {
+              "source": {
+                "id": "coalesced:78dc2621dfe750f12268d057759f3fe0034694dd83715654b626561a438cce90",
+                "resource": "MC2Game/Localization/Coalesced.int",
+                "embedded_path": "..\\MC2Game\\Localization\\INT\\MC2FieldName.int",
+                "section": "Lastrada",
+                "key": "Lastrada",
+                "occurrence": 1,
+                "line": 55,
+                "context": "..\\MC2Game\\Localization\\INT\\MC2FieldName.int [Lastrada] Lastrada #1",
+                "source_locale": "und",
+                "source": "라 스트라다",
+                "translation": "",
+                "status": "untranslated",
+                "reviewer": "",
+                "syntax_status": "physical-line-value",
+                "source_sha256": "ea7fa1e7026b81771a5c1ab3a2c08153775b73bd5a0075a0b28b755c378e8673",
+                "domain_hint": "names",
+                "text_kind": "unclassified"
+              },
+              "adopted": {
+                "id": "coalesced:78dc2621dfe750f12268d057759f3fe0034694dd83715654b626561a438cce90",
+                "source_sha256": "ea7fa1e7026b81771a5c1ab3a2c08153775b73bd5a0075a0b28b755c378e8673",
+                "translation": "拉·斯特拉达"
+              }
+            }
+          ],
+          "grammar": null
+        }
+      ],
+      "assistant_visual_native_review": true,
+      "terrain_never_touched": true,
+      "original_English_and_numerals_exact": true,
+      "original_latin_pixel_guard": {
+        "rect": [
+          92,
+          44,
+          84,
+          20
+        ],
+        "rgba_sha256": "2b201235d66bc2a73906af227265d074ae8b657a3092d065f184de0ad094f2a2",
+        "after_sha256": "2b201235d66bc2a73906af227265d074ae8b657a3092d065f184de0ad094f2a2",
+        "exact": true
+      }
+    },
+    {
+      "image_id": "normal_map_title_010",
+      "canonical_source": "MC2Game/CookedXenon/Map_View_Lastrada_06.xxx",
+      "canonical_object": "Map_View_Lastrada_Title",
+      "namespace_guid": "9a308cc5445e5a4fe3ff10be3e8cb865",
+      "original_native": "d73838ef7ec318fa12397e655782461fc492cf3c6c573543bff68e051b841898",
+      "modified_native": "03f471c0da60d1ffe302e004e33c180aed675005cf206d0e58be709859f79b90",
+      "actual_map_consumer": {
+        "disc": 2,
+        "scene": "Scene.Map_View_Lastrada_06",
+        "scene_source": "MC2Game/CookedXenon/Map_View_Lastrada_06.xxx",
+        "consumer": "Scene.Map_View_Lastrada_06.Base.Titel.ImageComponentTemplate.UITexture_0",
+        "target": "Map_View_Lastrada_Title",
+        "resource": "MC2Game/CookedXenon/Map_View_Lastrada_06.xxx",
+        "source_sha256": "1828936b9e0ec3e6a1146597cb269c3e8a4f23d51d0b294d695f489348ba7d24",
+        "package_guid": "9a308cc5445e5a4fe3ff10be3e8cb865",
+        "export": 64,
+        "object": "Map_View_Lastrada_Title",
+        "coordinate_override_fields": [],
+        "preview": "build/phase-314-style-map-audit/full-native-map-graphics/116.png",
+        "preview_sha256": "3a91a9ad175229af14abfbe9b0aae4191d9fe3f0d104d9906b80c654df8e0f52",
+        "rgba_sha256": "d73838ef7ec318fa12397e655782461fc492cf3c6c573543bff68e051b841898",
+        "width": 256,
+        "height": 64,
+        "selected_mip": 0,
+        "format": 7,
+        "payload_sha256": "93f64cf23bd6046b34ee1d0d685c5afa1a7b9dbb8b2f010006db4fb6c5fe4ab4",
+        "streamed_mip_bindings": [],
+        "original_native_not_thumbnail": true
+      },
+      "native_encoded_proof": {
+        "regions": [
+          {
+            "rect": [
+              0,
+              0,
+              256,
+              48
+            ],
+            "changed_blocks": 457,
+            "authorized_blocks": 768,
+            "untouched_blocks_preserved": true,
+            "alignment_padding_preserved": true,
+            "unchanged_region_blocks_preserved": 311
+          }
+        ],
+        "changed_blocks": 457,
+        "authorized_blocks": 768,
+        "untouched_blocks_preserved": true,
+        "alignment_padding_preserved": true,
+        "profile": {
+          "kind": "xbox-inline-bc-v1",
+          "format": 7
+        },
+        "storage_origin_blocks": [
+          0,
+          0
+        ],
+        "channel_mode": "rgba",
+        "unchanged_region_blocks_preserved": 311,
+        "alpha_encoding": "adaptive-range",
+        "protected_regions": [
+          {
+            "id": "original_English_subline_and_room_numerals",
+            "rect": [
+              0,
+              48,
+              256,
+              16
+            ],
+            "before_rgba_sha256": "aee86b491d8cff3e81eebd95c811190a98f045e73b77de9d95f1b8ba91640257",
+            "after_rgba_sha256": "aee86b491d8cff3e81eebd95c811190a98f045e73b77de9d95f1b8ba91640257",
+            "blocks_preserved": true
+          }
+        ]
+      },
+      "cells": [
+        {
+          "label_id": "normal_map_title_010_0",
+          "text": "拉·斯特拉达",
+          "native_reading": "라 스트라다",
+          "anchors": [
+            {
+              "source": {
+                "id": "coalesced:78dc2621dfe750f12268d057759f3fe0034694dd83715654b626561a438cce90",
+                "resource": "MC2Game/Localization/Coalesced.int",
+                "embedded_path": "..\\MC2Game\\Localization\\INT\\MC2FieldName.int",
+                "section": "Lastrada",
+                "key": "Lastrada",
+                "occurrence": 1,
+                "line": 55,
+                "context": "..\\MC2Game\\Localization\\INT\\MC2FieldName.int [Lastrada] Lastrada #1",
+                "source_locale": "und",
+                "source": "라 스트라다",
+                "translation": "",
+                "status": "untranslated",
+                "reviewer": "",
+                "syntax_status": "physical-line-value",
+                "source_sha256": "ea7fa1e7026b81771a5c1ab3a2c08153775b73bd5a0075a0b28b755c378e8673",
+                "domain_hint": "names",
+                "text_kind": "unclassified"
+              },
+              "adopted": {
+                "id": "coalesced:78dc2621dfe750f12268d057759f3fe0034694dd83715654b626561a438cce90",
+                "source_sha256": "ea7fa1e7026b81771a5c1ab3a2c08153775b73bd5a0075a0b28b755c378e8673",
+                "translation": "拉·斯特拉达"
+              }
+            }
+          ],
+          "grammar": null
+        }
+      ],
+      "assistant_visual_native_review": true,
+      "terrain_never_touched": true,
+      "original_English_and_numerals_exact": true,
+      "original_latin_pixel_guard": {
+        "rect": [
+          92,
+          44,
+          84,
+          20
+        ],
+        "rgba_sha256": "2b201235d66bc2a73906af227265d074ae8b657a3092d065f184de0ad094f2a2",
+        "after_sha256": "2b201235d66bc2a73906af227265d074ae8b657a3092d065f184de0ad094f2a2",
+        "exact": true
+      }
+    },
+    {
+      "image_id": "normal_map_title_011",
+      "canonical_source": "MC2Game/CookedXenon/Map_View_Lastrada_07.xxx",
+      "canonical_object": "Map_View_Lastrada_03_Text0",
+      "namespace_guid": "3990e2d64e09f8894ba823bc80b1d959",
+      "original_native": "ac3a020f659bc05b6c5f020cbff23829b177dc25228364b777c6188f44d0104e",
+      "modified_native": "3ea369e6bd42d702cfbb306c4ab244adb648aab5d691e7a288f1d68d03e681e7",
+      "actual_map_consumer": {
+        "disc": 2,
+        "scene": "Scene.Map_View_Lastrada_07",
+        "scene_source": "MC2Game/CookedXenon/Map_View_Lastrada_07.xxx",
+        "consumer": "Scene.Map_View_Lastrada_07.Base.Tex_3.ImageComponentTemplate.UITexture_4",
+        "target": "Map_View_Lastrada_03_Text0",
+        "resource": "MC2Game/CookedXenon/Map_View_Lastrada_07.xxx",
+        "source_sha256": "940ffeeb7710a12562e961556d2d61b085d0733de6c00b526daee1d70e001f78",
+        "package_guid": "3990e2d64e09f8894ba823bc80b1d959",
+        "export": 66,
+        "object": "Map_View_Lastrada_03_Text0",
+        "coordinate_override_fields": [
+          {
+            "V": 101.0,
+            "UL": 256.0,
+            "VL": 27.0
+          }
+        ],
+        "preview": "build/phase-314-style-map-audit/full-native-map-graphics/119.png",
+        "preview_sha256": "1b174b08c6b1cbde08cca75e38964c776e35ce94e3a5ffe8cd86ccc6bcfc8f56",
+        "rgba_sha256": "ac3a020f659bc05b6c5f020cbff23829b177dc25228364b777c6188f44d0104e",
+        "width": 256,
+        "height": 128,
+        "selected_mip": 0,
+        "format": 7,
+        "payload_sha256": "45eaf9cbcb8ec135774f5700abc9c4159455ed59e61b01736ac85828dc98acc3",
+        "streamed_mip_bindings": [],
+        "original_native_not_thumbnail": true
+      },
+      "native_encoded_proof": {
+        "regions": [
+          {
+            "rect": [
+              0,
+              0,
+              256,
+              44
+            ],
+            "changed_blocks": 407,
+            "authorized_blocks": 704,
+            "untouched_blocks_preserved": true,
+            "alignment_padding_preserved": true,
+            "unchanged_region_blocks_preserved": 297
+          },
+          {
+            "rect": [
+              0,
+              44,
+              256,
+              28
+            ],
+            "changed_blocks": 163,
+            "authorized_blocks": 448,
+            "untouched_blocks_preserved": true,
+            "alignment_padding_preserved": true,
+            "unchanged_region_blocks_preserved": 285
+          },
+          {
+            "rect": [
+              0,
+              72,
+              256,
+              28
+            ],
+            "changed_blocks": 164,
+            "authorized_blocks": 448,
+            "untouched_blocks_preserved": true,
+            "alignment_padding_preserved": true,
+            "unchanged_region_blocks_preserved": 284
+          },
+          {
+            "rect": [
+              0,
+              100,
+              256,
+              28
+            ],
+            "changed_blocks": 162,
+            "authorized_blocks": 448,
+            "untouched_blocks_preserved": true,
+            "alignment_padding_preserved": true,
+            "unchanged_region_blocks_preserved": 286
+          }
+        ],
+        "changed_blocks": 896,
+        "authorized_blocks": 2048,
+        "untouched_blocks_preserved": true,
+        "alignment_padding_preserved": true,
+        "profile": {
+          "kind": "xbox-inline-bc-v1",
+          "format": 7
+        },
+        "storage_origin_blocks": [
+          0,
+          0
+        ],
+        "channel_mode": "rgba",
+        "unchanged_region_blocks_preserved": 1152,
+        "alpha_encoding": "adaptive-range"
+      },
+      "cells": [
+        {
+          "label_id": "normal_map_title_011_0",
+          "text": "祭品之试炼",
+          "native_reading": "제물의 시련",
+          "anchors": [
+            {
+              "terms": [
+                "제물의 시련"
+              ],
+              "source": {
+                "id": "coalesced:e2cedf34718af2d0ea8c1941cf870d050021e2aafa091ca29c86dd70f6cfe6ed",
+                "resource": "MC2Game/Localization/Coalesced.int",
+                "embedded_path": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
+                "section": "CSMB12_111",
+                "key": "voc_csmb_12111_03",
+                "occurrence": 1,
+                "line": 4609,
+                "context": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int [CSMB12_111] voc_csmb_12111_03 #1",
+                "source_locale": "und",
+                "source": "여긴 두 번째 관문. 여길 지나고 싶다면\\n'제물의 시련'에 도전하라.",
+                "translation": "",
+                "status": "untranslated",
+                "reviewer": "",
+                "syntax_status": "physical-line-value",
+                "source_sha256": "ef1a9a698c0b6a59a6327fb6b3d3a17f8f7570a39553d03ffa3ecf0c332057aa",
+                "domain_hint": "dialogue",
+                "text_kind": "unclassified"
+              },
+              "adopted": {
+                "id": "coalesced:e2cedf34718af2d0ea8c1941cf870d050021e2aafa091ca29c86dd70f6cfe6ed",
+                "source_sha256": "ef1a9a698c0b6a59a6327fb6b3d3a17f8f7570a39553d03ffa3ecf0c332057aa",
+                "translation": "这里是第二道关卡。想要通过此处，就挑战“祭品之试炼”吧。",
+                "line_break_policy": {
+                  "source_count": 1,
+                  "target_count": 0
+                }
+              }
+            }
+          ],
+          "grammar": null
+        },
+        {
+          "label_id": "normal_map_title_011_1",
+          "text": "勇气之区",
+          "native_reading": "용기의 구역",
+          "anchors": [
+            {
+              "source": {
+                "id": "coalesced:48fbea4cd727793f3c3f1308d4d97c60bd90a32ecc60137a9683043d99bfdc68",
+                "resource": "MC2Game/Localization/Coalesced.int",
+                "embedded_path": "..\\MC2Game\\Localization\\INT\\MC2UI.int",
+                "section": "information",
+                "key": "lastrada_warp7",
+                "occurrence": 1,
+                "line": 376,
+                "context": "..\\MC2Game\\Localization\\INT\\MC2UI.int [information] lastrada_warp7 #1",
+                "source_locale": "und",
+                "source": "용기의 구역",
+                "translation": "",
+                "status": "untranslated",
+                "reviewer": "",
+                "syntax_status": "physical-line-value",
+                "source_sha256": "7e03154ed59a4d9e4b7e58f6e82ef557563f9092f921d3a341900168604e6e7a",
+                "domain_hint": "ui",
+                "text_kind": "unclassified"
+              },
+              "adopted": {
+                "id": "coalesced:48fbea4cd727793f3c3f1308d4d97c60bd90a32ecc60137a9683043d99bfdc68",
+                "source_sha256": "7e03154ed59a4d9e4b7e58f6e82ef557563f9092f921d3a341900168604e6e7a",
+                "translation": "勇气之区"
+              },
+              "catalog": "C:\\Users\\noway\\Downloads\\Magna-Carta-2-CN\\build\\cumulative-locale-workspace\\source\\179e265cfc9e6d3e9f2586abe75b5da303b2af9b8484079851dab72f9f7edb8c\\791344e1fbc4a311.json"
+            }
+          ],
+          "grammar": null
+        },
+        {
+          "label_id": "normal_map_title_011_2",
+          "text": "勇猛之区",
+          "native_reading": "용맹의 구역",
+          "anchors": [
+            {
+              "source": {
+                "id": "coalesced:e559ed3e2353f040d9413bc7ed4988b50c8e11378d27d5953d770f3b0fbcc4ea",
+                "resource": "MC2Game/Localization/Coalesced.int",
+                "embedded_path": "..\\MC2Game\\Localization\\INT\\MC2UI.int",
+                "section": "information",
+                "key": "lastrada_warp8",
+                "occurrence": 1,
+                "line": 377,
+                "context": "..\\MC2Game\\Localization\\INT\\MC2UI.int [information] lastrada_warp8 #1",
+                "source_locale": "und",
+                "source": "용맹의 구역",
+                "translation": "",
+                "status": "untranslated",
+                "reviewer": "",
+                "syntax_status": "physical-line-value",
+                "source_sha256": "985643b355a8427c947977767759106caa5b83c90b4c074ae164f66ca98cfb6f",
+                "domain_hint": "ui",
+                "text_kind": "unclassified"
+              },
+              "adopted": {
+                "id": "coalesced:e559ed3e2353f040d9413bc7ed4988b50c8e11378d27d5953d770f3b0fbcc4ea",
+                "source_sha256": "985643b355a8427c947977767759106caa5b83c90b4c074ae164f66ca98cfb6f",
+                "translation": "勇猛之区"
+              },
+              "catalog": "C:\\Users\\noway\\Downloads\\Magna-Carta-2-CN\\build\\cumulative-locale-workspace\\source\\179e265cfc9e6d3e9f2586abe75b5da303b2af9b8484079851dab72f9f7edb8c\\791344e1fbc4a311.json"
+            }
+          ],
+          "grammar": null
+        },
+        {
+          "label_id": "normal_map_title_011_3",
+          "text": "真勇之区",
+          "native_reading": "진용의 구역",
+          "anchors": [
+            {
+              "source": {
+                "id": "coalesced:7bb2abeaf0498e3a1f98a7c1ae1ae748b9d306a6459a08e2ed79a5321210350c",
+                "resource": "MC2Game/Localization/Coalesced.int",
+                "embedded_path": "..\\MC2Game\\Localization\\INT\\MC2UI.int",
+                "section": "information",
+                "key": "lastrada_warp9",
+                "occurrence": 1,
+                "line": 378,
+                "context": "..\\MC2Game\\Localization\\INT\\MC2UI.int [information] lastrada_warp9 #1",
+                "source_locale": "und",
+                "source": "진용의 구역",
+                "translation": "",
+                "status": "untranslated",
+                "reviewer": "",
+                "syntax_status": "physical-line-value",
+                "source_sha256": "ed4387d72e57f9e8718a12012402b1c42e39a14b5314a9118c6538466f757cd3",
+                "domain_hint": "ui",
+                "text_kind": "unclassified"
+              },
+              "adopted": {
+                "id": "coalesced:7bb2abeaf0498e3a1f98a7c1ae1ae748b9d306a6459a08e2ed79a5321210350c",
+                "source_sha256": "ed4387d72e57f9e8718a12012402b1c42e39a14b5314a9118c6538466f757cd3",
+                "translation": "真勇之区"
+              },
+              "catalog": "C:\\Users\\noway\\Downloads\\Magna-Carta-2-CN\\build\\cumulative-locale-workspace\\source\\179e265cfc9e6d3e9f2586abe75b5da303b2af9b8484079851dab72f9f7edb8c\\791344e1fbc4a311.json"
+            }
+          ],
+          "grammar": null
+        }
+      ],
+      "assistant_visual_native_review": true,
+      "terrain_never_touched": true,
+      "original_English_and_numerals_exact": true
+    },
+    {
+      "image_id": "normal_map_title_012",
+      "canonical_source": "MC2Game/CookedXenon/Map_View_Lastrada_07.xxx",
+      "canonical_object": "Map_View_Lastrada_Title",
+      "namespace_guid": "3990e2d64e09f8894ba823bc80b1d959",
+      "original_native": "d73838ef7ec318fa12397e655782461fc492cf3c6c573543bff68e051b841898",
+      "modified_native": "03f471c0da60d1ffe302e004e33c180aed675005cf206d0e58be709859f79b90",
+      "actual_map_consumer": {
+        "disc": 2,
+        "scene": "Scene.Map_View_Lastrada_07",
+        "scene_source": "MC2Game/CookedXenon/Map_View_Lastrada_07.xxx",
+        "consumer": "Scene.Map_View_Lastrada_07.Base.Titel.ImageComponentTemplate.UITexture_0",
+        "target": "Map_View_Lastrada_Title",
+        "resource": "MC2Game/CookedXenon/Map_View_Lastrada_07.xxx",
+        "source_sha256": "940ffeeb7710a12562e961556d2d61b085d0733de6c00b526daee1d70e001f78",
+        "package_guid": "3990e2d64e09f8894ba823bc80b1d959",
+        "export": 68,
+        "object": "Map_View_Lastrada_Title",
+        "coordinate_override_fields": [],
+        "preview": "build/phase-314-style-map-audit/full-native-map-graphics/120.png",
+        "preview_sha256": "3a91a9ad175229af14abfbe9b0aae4191d9fe3f0d104d9906b80c654df8e0f52",
+        "rgba_sha256": "d73838ef7ec318fa12397e655782461fc492cf3c6c573543bff68e051b841898",
+        "width": 256,
+        "height": 64,
+        "selected_mip": 0,
+        "format": 7,
+        "payload_sha256": "2bba9c6b4156ca23ae2078f5ffdf3c10e79939ea76a1e6dd72f56eef23eab48c",
+        "streamed_mip_bindings": [],
+        "original_native_not_thumbnail": true
+      },
+      "native_encoded_proof": {
+        "regions": [
+          {
+            "rect": [
+              0,
+              0,
+              256,
+              48
+            ],
+            "changed_blocks": 457,
+            "authorized_blocks": 768,
+            "untouched_blocks_preserved": true,
+            "alignment_padding_preserved": true,
+            "unchanged_region_blocks_preserved": 311
+          }
+        ],
+        "changed_blocks": 457,
+        "authorized_blocks": 768,
+        "untouched_blocks_preserved": true,
+        "alignment_padding_preserved": true,
+        "profile": {
+          "kind": "xbox-inline-bc-v1",
+          "format": 7
+        },
+        "storage_origin_blocks": [
+          0,
+          0
+        ],
+        "channel_mode": "rgba",
+        "unchanged_region_blocks_preserved": 311,
+        "alpha_encoding": "adaptive-range",
+        "protected_regions": [
+          {
+            "id": "original_English_subline_and_room_numerals",
+            "rect": [
+              0,
+              48,
+              256,
+              16
+            ],
+            "before_rgba_sha256": "aee86b491d8cff3e81eebd95c811190a98f045e73b77de9d95f1b8ba91640257",
+            "after_rgba_sha256": "aee86b491d8cff3e81eebd95c811190a98f045e73b77de9d95f1b8ba91640257",
+            "blocks_preserved": true
+          }
+        ]
+      },
+      "cells": [
+        {
+          "label_id": "normal_map_title_012_0",
+          "text": "拉·斯特拉达",
+          "native_reading": "라 스트라다",
+          "anchors": [
+            {
+              "source": {
+                "id": "coalesced:78dc2621dfe750f12268d057759f3fe0034694dd83715654b626561a438cce90",
+                "resource": "MC2Game/Localization/Coalesced.int",
+                "embedded_path": "..\\MC2Game\\Localization\\INT\\MC2FieldName.int",
+                "section": "Lastrada",
+                "key": "Lastrada",
+                "occurrence": 1,
+                "line": 55,
+                "context": "..\\MC2Game\\Localization\\INT\\MC2FieldName.int [Lastrada] Lastrada #1",
+                "source_locale": "und",
+                "source": "라 스트라다",
+                "translation": "",
+                "status": "untranslated",
+                "reviewer": "",
+                "syntax_status": "physical-line-value",
+                "source_sha256": "ea7fa1e7026b81771a5c1ab3a2c08153775b73bd5a0075a0b28b755c378e8673",
+                "domain_hint": "names",
+                "text_kind": "unclassified"
+              },
+              "adopted": {
+                "id": "coalesced:78dc2621dfe750f12268d057759f3fe0034694dd83715654b626561a438cce90",
+                "source_sha256": "ea7fa1e7026b81771a5c1ab3a2c08153775b73bd5a0075a0b28b755c378e8673",
+                "translation": "拉·斯特拉达"
+              }
+            }
+          ],
+          "grammar": null
+        }
+      ],
+      "assistant_visual_native_review": true,
+      "terrain_never_touched": true,
+      "original_English_and_numerals_exact": true,
+      "original_latin_pixel_guard": {
+        "rect": [
+          92,
+          44,
+          84,
+          20
+        ],
+        "rgba_sha256": "2b201235d66bc2a73906af227265d074ae8b657a3092d065f184de0ad094f2a2",
+        "after_sha256": "2b201235d66bc2a73906af227265d074ae8b657a3092d065f184de0ad094f2a2",
+        "exact": true
+      }
+    },
+    {
+      "image_id": "normal_map_title_013",
+      "canonical_source": "MC2Game/CookedXenon/Map_View_Lastrada_08.xxx",
+      "canonical_object": "Map_View_Lastrada_03_Text0",
+      "namespace_guid": "bab70c3e4b146333257fd193bcee5661",
+      "original_native": "ac3a020f659bc05b6c5f020cbff23829b177dc25228364b777c6188f44d0104e",
+      "modified_native": "3ea369e6bd42d702cfbb306c4ab244adb648aab5d691e7a288f1d68d03e681e7",
+      "actual_map_consumer": {
+        "disc": 2,
+        "scene": "Scene.Map_View_Lastrada_08",
+        "scene_source": "MC2Game/CookedXenon/Map_View_Lastrada_08.xxx",
+        "consumer": "Scene.Map_View_Lastrada_08.Base.Tex_3.ImageComponentTemplate.UITexture_4",
+        "target": "Map_View_Lastrada_03_Text0",
+        "resource": "MC2Game/CookedXenon/Map_View_Lastrada_08.xxx",
+        "source_sha256": "75e61c5dc58cc0256b46329f08a30fe3f16205ca124742ce4e65550cf34e3e4a",
+        "package_guid": "bab70c3e4b146333257fd193bcee5661",
+        "export": 66,
+        "object": "Map_View_Lastrada_03_Text0",
+        "coordinate_override_fields": [
+          {
+            "V": 101.0,
+            "UL": 256.0,
+            "VL": 27.0
+          }
+        ],
+        "preview": "build/phase-314-style-map-audit/full-native-map-graphics/123.png",
+        "preview_sha256": "1b174b08c6b1cbde08cca75e38964c776e35ce94e3a5ffe8cd86ccc6bcfc8f56",
+        "rgba_sha256": "ac3a020f659bc05b6c5f020cbff23829b177dc25228364b777c6188f44d0104e",
+        "width": 256,
+        "height": 128,
+        "selected_mip": 0,
+        "format": 7,
+        "payload_sha256": "45eaf9cbcb8ec135774f5700abc9c4159455ed59e61b01736ac85828dc98acc3",
+        "streamed_mip_bindings": [],
+        "original_native_not_thumbnail": true
+      },
+      "native_encoded_proof": {
+        "regions": [
+          {
+            "rect": [
+              0,
+              0,
+              256,
+              44
+            ],
+            "changed_blocks": 407,
+            "authorized_blocks": 704,
+            "untouched_blocks_preserved": true,
+            "alignment_padding_preserved": true,
+            "unchanged_region_blocks_preserved": 297
+          },
+          {
+            "rect": [
+              0,
+              44,
+              256,
+              28
+            ],
+            "changed_blocks": 163,
+            "authorized_blocks": 448,
+            "untouched_blocks_preserved": true,
+            "alignment_padding_preserved": true,
+            "unchanged_region_blocks_preserved": 285
+          },
+          {
+            "rect": [
+              0,
+              72,
+              256,
+              28
+            ],
+            "changed_blocks": 164,
+            "authorized_blocks": 448,
+            "untouched_blocks_preserved": true,
+            "alignment_padding_preserved": true,
+            "unchanged_region_blocks_preserved": 284
+          },
+          {
+            "rect": [
+              0,
+              100,
+              256,
+              28
+            ],
+            "changed_blocks": 162,
+            "authorized_blocks": 448,
+            "untouched_blocks_preserved": true,
+            "alignment_padding_preserved": true,
+            "unchanged_region_blocks_preserved": 286
+          }
+        ],
+        "changed_blocks": 896,
+        "authorized_blocks": 2048,
+        "untouched_blocks_preserved": true,
+        "alignment_padding_preserved": true,
+        "profile": {
+          "kind": "xbox-inline-bc-v1",
+          "format": 7
+        },
+        "storage_origin_blocks": [
+          0,
+          0
+        ],
+        "channel_mode": "rgba",
+        "unchanged_region_blocks_preserved": 1152,
+        "alpha_encoding": "adaptive-range"
+      },
+      "cells": [
+        {
+          "label_id": "normal_map_title_013_0",
+          "text": "祭品之试炼",
+          "native_reading": "제물의 시련",
+          "anchors": [
+            {
+              "terms": [
+                "제물의 시련"
+              ],
+              "source": {
+                "id": "coalesced:e2cedf34718af2d0ea8c1941cf870d050021e2aafa091ca29c86dd70f6cfe6ed",
+                "resource": "MC2Game/Localization/Coalesced.int",
+                "embedded_path": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
+                "section": "CSMB12_111",
+                "key": "voc_csmb_12111_03",
+                "occurrence": 1,
+                "line": 4609,
+                "context": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int [CSMB12_111] voc_csmb_12111_03 #1",
+                "source_locale": "und",
+                "source": "여긴 두 번째 관문. 여길 지나고 싶다면\\n'제물의 시련'에 도전하라.",
+                "translation": "",
+                "status": "untranslated",
+                "reviewer": "",
+                "syntax_status": "physical-line-value",
+                "source_sha256": "ef1a9a698c0b6a59a6327fb6b3d3a17f8f7570a39553d03ffa3ecf0c332057aa",
+                "domain_hint": "dialogue",
+                "text_kind": "unclassified"
+              },
+              "adopted": {
+                "id": "coalesced:e2cedf34718af2d0ea8c1941cf870d050021e2aafa091ca29c86dd70f6cfe6ed",
+                "source_sha256": "ef1a9a698c0b6a59a6327fb6b3d3a17f8f7570a39553d03ffa3ecf0c332057aa",
+                "translation": "这里是第二道关卡。想要通过此处，就挑战“祭品之试炼”吧。",
+                "line_break_policy": {
+                  "source_count": 1,
+                  "target_count": 0
+                }
+              }
+            }
+          ],
+          "grammar": null
+        },
+        {
+          "label_id": "normal_map_title_013_1",
+          "text": "勇气之区",
+          "native_reading": "용기의 구역",
+          "anchors": [
+            {
+              "source": {
+                "id": "coalesced:48fbea4cd727793f3c3f1308d4d97c60bd90a32ecc60137a9683043d99bfdc68",
+                "resource": "MC2Game/Localization/Coalesced.int",
+                "embedded_path": "..\\MC2Game\\Localization\\INT\\MC2UI.int",
+                "section": "information",
+                "key": "lastrada_warp7",
+                "occurrence": 1,
+                "line": 376,
+                "context": "..\\MC2Game\\Localization\\INT\\MC2UI.int [information] lastrada_warp7 #1",
+                "source_locale": "und",
+                "source": "용기의 구역",
+                "translation": "",
+                "status": "untranslated",
+                "reviewer": "",
+                "syntax_status": "physical-line-value",
+                "source_sha256": "7e03154ed59a4d9e4b7e58f6e82ef557563f9092f921d3a341900168604e6e7a",
+                "domain_hint": "ui",
+                "text_kind": "unclassified"
+              },
+              "adopted": {
+                "id": "coalesced:48fbea4cd727793f3c3f1308d4d97c60bd90a32ecc60137a9683043d99bfdc68",
+                "source_sha256": "7e03154ed59a4d9e4b7e58f6e82ef557563f9092f921d3a341900168604e6e7a",
+                "translation": "勇气之区"
+              },
+              "catalog": "C:\\Users\\noway\\Downloads\\Magna-Carta-2-CN\\build\\cumulative-locale-workspace\\source\\179e265cfc9e6d3e9f2586abe75b5da303b2af9b8484079851dab72f9f7edb8c\\791344e1fbc4a311.json"
+            }
+          ],
+          "grammar": null
+        },
+        {
+          "label_id": "normal_map_title_013_2",
+          "text": "勇猛之区",
+          "native_reading": "용맹의 구역",
+          "anchors": [
+            {
+              "source": {
+                "id": "coalesced:e559ed3e2353f040d9413bc7ed4988b50c8e11378d27d5953d770f3b0fbcc4ea",
+                "resource": "MC2Game/Localization/Coalesced.int",
+                "embedded_path": "..\\MC2Game\\Localization\\INT\\MC2UI.int",
+                "section": "information",
+                "key": "lastrada_warp8",
+                "occurrence": 1,
+                "line": 377,
+                "context": "..\\MC2Game\\Localization\\INT\\MC2UI.int [information] lastrada_warp8 #1",
+                "source_locale": "und",
+                "source": "용맹의 구역",
+                "translation": "",
+                "status": "untranslated",
+                "reviewer": "",
+                "syntax_status": "physical-line-value",
+                "source_sha256": "985643b355a8427c947977767759106caa5b83c90b4c074ae164f66ca98cfb6f",
+                "domain_hint": "ui",
+                "text_kind": "unclassified"
+              },
+              "adopted": {
+                "id": "coalesced:e559ed3e2353f040d9413bc7ed4988b50c8e11378d27d5953d770f3b0fbcc4ea",
+                "source_sha256": "985643b355a8427c947977767759106caa5b83c90b4c074ae164f66ca98cfb6f",
+                "translation": "勇猛之区"
+              },
+              "catalog": "C:\\Users\\noway\\Downloads\\Magna-Carta-2-CN\\build\\cumulative-locale-workspace\\source\\179e265cfc9e6d3e9f2586abe75b5da303b2af9b8484079851dab72f9f7edb8c\\791344e1fbc4a311.json"
+            }
+          ],
+          "grammar": null
+        },
+        {
+          "label_id": "normal_map_title_013_3",
+          "text": "真勇之区",
+          "native_reading": "진용의 구역",
+          "anchors": [
+            {
+              "source": {
+                "id": "coalesced:7bb2abeaf0498e3a1f98a7c1ae1ae748b9d306a6459a08e2ed79a5321210350c",
+                "resource": "MC2Game/Localization/Coalesced.int",
+                "embedded_path": "..\\MC2Game\\Localization\\INT\\MC2UI.int",
+                "section": "information",
+                "key": "lastrada_warp9",
+                "occurrence": 1,
+                "line": 378,
+                "context": "..\\MC2Game\\Localization\\INT\\MC2UI.int [information] lastrada_warp9 #1",
+                "source_locale": "und",
+                "source": "진용의 구역",
+                "translation": "",
+                "status": "untranslated",
+                "reviewer": "",
+                "syntax_status": "physical-line-value",
+                "source_sha256": "ed4387d72e57f9e8718a12012402b1c42e39a14b5314a9118c6538466f757cd3",
+                "domain_hint": "ui",
+                "text_kind": "unclassified"
+              },
+              "adopted": {
+                "id": "coalesced:7bb2abeaf0498e3a1f98a7c1ae1ae748b9d306a6459a08e2ed79a5321210350c",
+                "source_sha256": "ed4387d72e57f9e8718a12012402b1c42e39a14b5314a9118c6538466f757cd3",
+                "translation": "真勇之区"
+              },
+              "catalog": "C:\\Users\\noway\\Downloads\\Magna-Carta-2-CN\\build\\cumulative-locale-workspace\\source\\179e265cfc9e6d3e9f2586abe75b5da303b2af9b8484079851dab72f9f7edb8c\\791344e1fbc4a311.json"
+            }
+          ],
+          "grammar": null
+        }
+      ],
+      "assistant_visual_native_review": true,
+      "terrain_never_touched": true,
+      "original_English_and_numerals_exact": true
+    },
+    {
+      "image_id": "normal_map_title_014",
+      "canonical_source": "MC2Game/CookedXenon/Map_View_Lastrada_08.xxx",
+      "canonical_object": "Map_View_Lastrada_Title",
+      "namespace_guid": "bab70c3e4b146333257fd193bcee5661",
+      "original_native": "d73838ef7ec318fa12397e655782461fc492cf3c6c573543bff68e051b841898",
+      "modified_native": "03f471c0da60d1ffe302e004e33c180aed675005cf206d0e58be709859f79b90",
+      "actual_map_consumer": {
+        "disc": 2,
+        "scene": "Scene.Map_View_Lastrada_08",
+        "scene_source": "MC2Game/CookedXenon/Map_View_Lastrada_08.xxx",
+        "consumer": "Scene.Map_View_Lastrada_08.Base.Titel.ImageComponentTemplate.UITexture_0",
+        "target": "Map_View_Lastrada_Title",
+        "resource": "MC2Game/CookedXenon/Map_View_Lastrada_08.xxx",
+        "source_sha256": "75e61c5dc58cc0256b46329f08a30fe3f16205ca124742ce4e65550cf34e3e4a",
+        "package_guid": "bab70c3e4b146333257fd193bcee5661",
+        "export": 68,
+        "object": "Map_View_Lastrada_Title",
+        "coordinate_override_fields": [],
+        "preview": "build/phase-314-style-map-audit/full-native-map-graphics/124.png",
+        "preview_sha256": "3a91a9ad175229af14abfbe9b0aae4191d9fe3f0d104d9906b80c654df8e0f52",
+        "rgba_sha256": "d73838ef7ec318fa12397e655782461fc492cf3c6c573543bff68e051b841898",
+        "width": 256,
+        "height": 64,
+        "selected_mip": 0,
+        "format": 7,
+        "payload_sha256": "2bba9c6b4156ca23ae2078f5ffdf3c10e79939ea76a1e6dd72f56eef23eab48c",
+        "streamed_mip_bindings": [],
+        "original_native_not_thumbnail": true
+      },
+      "native_encoded_proof": {
+        "regions": [
+          {
+            "rect": [
+              0,
+              0,
+              256,
+              48
+            ],
+            "changed_blocks": 457,
+            "authorized_blocks": 768,
+            "untouched_blocks_preserved": true,
+            "alignment_padding_preserved": true,
+            "unchanged_region_blocks_preserved": 311
+          }
+        ],
+        "changed_blocks": 457,
+        "authorized_blocks": 768,
+        "untouched_blocks_preserved": true,
+        "alignment_padding_preserved": true,
+        "profile": {
+          "kind": "xbox-inline-bc-v1",
+          "format": 7
+        },
+        "storage_origin_blocks": [
+          0,
+          0
+        ],
+        "channel_mode": "rgba",
+        "unchanged_region_blocks_preserved": 311,
+        "alpha_encoding": "adaptive-range",
+        "protected_regions": [
+          {
+            "id": "original_English_subline_and_room_numerals",
+            "rect": [
+              0,
+              48,
+              256,
+              16
+            ],
+            "before_rgba_sha256": "aee86b491d8cff3e81eebd95c811190a98f045e73b77de9d95f1b8ba91640257",
+            "after_rgba_sha256": "aee86b491d8cff3e81eebd95c811190a98f045e73b77de9d95f1b8ba91640257",
+            "blocks_preserved": true
+          }
+        ]
+      },
+      "cells": [
+        {
+          "label_id": "normal_map_title_014_0",
+          "text": "拉·斯特拉达",
+          "native_reading": "라 스트라다",
+          "anchors": [
+            {
+              "source": {
+                "id": "coalesced:78dc2621dfe750f12268d057759f3fe0034694dd83715654b626561a438cce90",
+                "resource": "MC2Game/Localization/Coalesced.int",
+                "embedded_path": "..\\MC2Game\\Localization\\INT\\MC2FieldName.int",
+                "section": "Lastrada",
+                "key": "Lastrada",
+                "occurrence": 1,
+                "line": 55,
+                "context": "..\\MC2Game\\Localization\\INT\\MC2FieldName.int [Lastrada] Lastrada #1",
+                "source_locale": "und",
+                "source": "라 스트라다",
+                "translation": "",
+                "status": "untranslated",
+                "reviewer": "",
+                "syntax_status": "physical-line-value",
+                "source_sha256": "ea7fa1e7026b81771a5c1ab3a2c08153775b73bd5a0075a0b28b755c378e8673",
+                "domain_hint": "names",
+                "text_kind": "unclassified"
+              },
+              "adopted": {
+                "id": "coalesced:78dc2621dfe750f12268d057759f3fe0034694dd83715654b626561a438cce90",
+                "source_sha256": "ea7fa1e7026b81771a5c1ab3a2c08153775b73bd5a0075a0b28b755c378e8673",
+                "translation": "拉·斯特拉达"
+              }
+            }
+          ],
+          "grammar": null
+        }
+      ],
+      "assistant_visual_native_review": true,
+      "terrain_never_touched": true,
+      "original_English_and_numerals_exact": true,
+      "original_latin_pixel_guard": {
+        "rect": [
+          92,
+          44,
+          84,
+          20
+        ],
+        "rgba_sha256": "2b201235d66bc2a73906af227265d074ae8b657a3092d065f184de0ad094f2a2",
+        "after_sha256": "2b201235d66bc2a73906af227265d074ae8b657a3092d065f184de0ad094f2a2",
+        "exact": true
+      }
+    },
+    {
+      "image_id": "normal_map_title_015",
+      "canonical_source": "MC2Game/CookedXenon/Map_View_Lastrada_09.xxx",
+      "canonical_object": "Map_View_Lastrada_03_Text0",
+      "namespace_guid": "08801b564d2f0ad37390438f1446f4b5",
+      "original_native": "ac3a020f659bc05b6c5f020cbff23829b177dc25228364b777c6188f44d0104e",
+      "modified_native": "3ea369e6bd42d702cfbb306c4ab244adb648aab5d691e7a288f1d68d03e681e7",
+      "actual_map_consumer": {
+        "disc": 2,
+        "scene": "Scene.Map_View_Lastrada_09",
+        "scene_source": "MC2Game/CookedXenon/Map_View_Lastrada_09.xxx",
+        "consumer": "Scene.Map_View_Lastrada_09.Base.Tex_3.ImageComponentTemplate.UITexture_4",
+        "target": "Map_View_Lastrada_03_Text0",
+        "resource": "MC2Game/CookedXenon/Map_View_Lastrada_09.xxx",
+        "source_sha256": "34658595c8fed3db00e7a5774b26edcb5c155aad6973eb6cbf35585a4dd06b4e",
+        "package_guid": "08801b564d2f0ad37390438f1446f4b5",
+        "export": 66,
+        "object": "Map_View_Lastrada_03_Text0",
+        "coordinate_override_fields": [
+          {
+            "V": 101.0,
+            "UL": 256.0,
+            "VL": 27.0
+          }
+        ],
+        "preview": "build/phase-314-style-map-audit/full-native-map-graphics/127.png",
+        "preview_sha256": "1b174b08c6b1cbde08cca75e38964c776e35ce94e3a5ffe8cd86ccc6bcfc8f56",
+        "rgba_sha256": "ac3a020f659bc05b6c5f020cbff23829b177dc25228364b777c6188f44d0104e",
+        "width": 256,
+        "height": 128,
+        "selected_mip": 0,
+        "format": 7,
+        "payload_sha256": "45eaf9cbcb8ec135774f5700abc9c4159455ed59e61b01736ac85828dc98acc3",
+        "streamed_mip_bindings": [],
+        "original_native_not_thumbnail": true
+      },
+      "native_encoded_proof": {
+        "regions": [
+          {
+            "rect": [
+              0,
+              0,
+              256,
+              44
+            ],
+            "changed_blocks": 407,
+            "authorized_blocks": 704,
+            "untouched_blocks_preserved": true,
+            "alignment_padding_preserved": true,
+            "unchanged_region_blocks_preserved": 297
+          },
+          {
+            "rect": [
+              0,
+              44,
+              256,
+              28
+            ],
+            "changed_blocks": 163,
+            "authorized_blocks": 448,
+            "untouched_blocks_preserved": true,
+            "alignment_padding_preserved": true,
+            "unchanged_region_blocks_preserved": 285
+          },
+          {
+            "rect": [
+              0,
+              72,
+              256,
+              28
+            ],
+            "changed_blocks": 164,
+            "authorized_blocks": 448,
+            "untouched_blocks_preserved": true,
+            "alignment_padding_preserved": true,
+            "unchanged_region_blocks_preserved": 284
+          },
+          {
+            "rect": [
+              0,
+              100,
+              256,
+              28
+            ],
+            "changed_blocks": 162,
+            "authorized_blocks": 448,
+            "untouched_blocks_preserved": true,
+            "alignment_padding_preserved": true,
+            "unchanged_region_blocks_preserved": 286
+          }
+        ],
+        "changed_blocks": 896,
+        "authorized_blocks": 2048,
+        "untouched_blocks_preserved": true,
+        "alignment_padding_preserved": true,
+        "profile": {
+          "kind": "xbox-inline-bc-v1",
+          "format": 7
+        },
+        "storage_origin_blocks": [
+          0,
+          0
+        ],
+        "channel_mode": "rgba",
+        "unchanged_region_blocks_preserved": 1152,
+        "alpha_encoding": "adaptive-range"
+      },
+      "cells": [
+        {
+          "label_id": "normal_map_title_015_0",
+          "text": "祭品之试炼",
+          "native_reading": "제물의 시련",
+          "anchors": [
+            {
+              "terms": [
+                "제물의 시련"
+              ],
+              "source": {
+                "id": "coalesced:e2cedf34718af2d0ea8c1941cf870d050021e2aafa091ca29c86dd70f6cfe6ed",
+                "resource": "MC2Game/Localization/Coalesced.int",
+                "embedded_path": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
+                "section": "CSMB12_111",
+                "key": "voc_csmb_12111_03",
+                "occurrence": 1,
+                "line": 4609,
+                "context": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int [CSMB12_111] voc_csmb_12111_03 #1",
+                "source_locale": "und",
+                "source": "여긴 두 번째 관문. 여길 지나고 싶다면\\n'제물의 시련'에 도전하라.",
+                "translation": "",
+                "status": "untranslated",
+                "reviewer": "",
+                "syntax_status": "physical-line-value",
+                "source_sha256": "ef1a9a698c0b6a59a6327fb6b3d3a17f8f7570a39553d03ffa3ecf0c332057aa",
+                "domain_hint": "dialogue",
+                "text_kind": "unclassified"
+              },
+              "adopted": {
+                "id": "coalesced:e2cedf34718af2d0ea8c1941cf870d050021e2aafa091ca29c86dd70f6cfe6ed",
+                "source_sha256": "ef1a9a698c0b6a59a6327fb6b3d3a17f8f7570a39553d03ffa3ecf0c332057aa",
+                "translation": "这里是第二道关卡。想要通过此处，就挑战“祭品之试炼”吧。",
+                "line_break_policy": {
+                  "source_count": 1,
+                  "target_count": 0
+                }
+              }
+            }
+          ],
+          "grammar": null
+        },
+        {
+          "label_id": "normal_map_title_015_1",
+          "text": "勇气之区",
+          "native_reading": "용기의 구역",
+          "anchors": [
+            {
+              "source": {
+                "id": "coalesced:48fbea4cd727793f3c3f1308d4d97c60bd90a32ecc60137a9683043d99bfdc68",
+                "resource": "MC2Game/Localization/Coalesced.int",
+                "embedded_path": "..\\MC2Game\\Localization\\INT\\MC2UI.int",
+                "section": "information",
+                "key": "lastrada_warp7",
+                "occurrence": 1,
+                "line": 376,
+                "context": "..\\MC2Game\\Localization\\INT\\MC2UI.int [information] lastrada_warp7 #1",
+                "source_locale": "und",
+                "source": "용기의 구역",
+                "translation": "",
+                "status": "untranslated",
+                "reviewer": "",
+                "syntax_status": "physical-line-value",
+                "source_sha256": "7e03154ed59a4d9e4b7e58f6e82ef557563f9092f921d3a341900168604e6e7a",
+                "domain_hint": "ui",
+                "text_kind": "unclassified"
+              },
+              "adopted": {
+                "id": "coalesced:48fbea4cd727793f3c3f1308d4d97c60bd90a32ecc60137a9683043d99bfdc68",
+                "source_sha256": "7e03154ed59a4d9e4b7e58f6e82ef557563f9092f921d3a341900168604e6e7a",
+                "translation": "勇气之区"
+              },
+              "catalog": "C:\\Users\\noway\\Downloads\\Magna-Carta-2-CN\\build\\cumulative-locale-workspace\\source\\179e265cfc9e6d3e9f2586abe75b5da303b2af9b8484079851dab72f9f7edb8c\\791344e1fbc4a311.json"
+            }
+          ],
+          "grammar": null
+        },
+        {
+          "label_id": "normal_map_title_015_2",
+          "text": "勇猛之区",
+          "native_reading": "용맹의 구역",
+          "anchors": [
+            {
+              "source": {
+                "id": "coalesced:e559ed3e2353f040d9413bc7ed4988b50c8e11378d27d5953d770f3b0fbcc4ea",
+                "resource": "MC2Game/Localization/Coalesced.int",
+                "embedded_path": "..\\MC2Game\\Localization\\INT\\MC2UI.int",
+                "section": "information",
+                "key": "lastrada_warp8",
+                "occurrence": 1,
+                "line": 377,
+                "context": "..\\MC2Game\\Localization\\INT\\MC2UI.int [information] lastrada_warp8 #1",
+                "source_locale": "und",
+                "source": "용맹의 구역",
+                "translation": "",
+                "status": "untranslated",
+                "reviewer": "",
+                "syntax_status": "physical-line-value",
+                "source_sha256": "985643b355a8427c947977767759106caa5b83c90b4c074ae164f66ca98cfb6f",
+                "domain_hint": "ui",
+                "text_kind": "unclassified"
+              },
+              "adopted": {
+                "id": "coalesced:e559ed3e2353f040d9413bc7ed4988b50c8e11378d27d5953d770f3b0fbcc4ea",
+                "source_sha256": "985643b355a8427c947977767759106caa5b83c90b4c074ae164f66ca98cfb6f",
+                "translation": "勇猛之区"
+              },
+              "catalog": "C:\\Users\\noway\\Downloads\\Magna-Carta-2-CN\\build\\cumulative-locale-workspace\\source\\179e265cfc9e6d3e9f2586abe75b5da303b2af9b8484079851dab72f9f7edb8c\\791344e1fbc4a311.json"
+            }
+          ],
+          "grammar": null
+        },
+        {
+          "label_id": "normal_map_title_015_3",
+          "text": "真勇之区",
+          "native_reading": "진용의 구역",
+          "anchors": [
+            {
+              "source": {
+                "id": "coalesced:7bb2abeaf0498e3a1f98a7c1ae1ae748b9d306a6459a08e2ed79a5321210350c",
+                "resource": "MC2Game/Localization/Coalesced.int",
+                "embedded_path": "..\\MC2Game\\Localization\\INT\\MC2UI.int",
+                "section": "information",
+                "key": "lastrada_warp9",
+                "occurrence": 1,
+                "line": 378,
+                "context": "..\\MC2Game\\Localization\\INT\\MC2UI.int [information] lastrada_warp9 #1",
+                "source_locale": "und",
+                "source": "진용의 구역",
+                "translation": "",
+                "status": "untranslated",
+                "reviewer": "",
+                "syntax_status": "physical-line-value",
+                "source_sha256": "ed4387d72e57f9e8718a12012402b1c42e39a14b5314a9118c6538466f757cd3",
+                "domain_hint": "ui",
+                "text_kind": "unclassified"
+              },
+              "adopted": {
+                "id": "coalesced:7bb2abeaf0498e3a1f98a7c1ae1ae748b9d306a6459a08e2ed79a5321210350c",
+                "source_sha256": "ed4387d72e57f9e8718a12012402b1c42e39a14b5314a9118c6538466f757cd3",
+                "translation": "真勇之区"
+              },
+              "catalog": "C:\\Users\\noway\\Downloads\\Magna-Carta-2-CN\\build\\cumulative-locale-workspace\\source\\179e265cfc9e6d3e9f2586abe75b5da303b2af9b8484079851dab72f9f7edb8c\\791344e1fbc4a311.json"
+            }
+          ],
+          "grammar": null
+        }
+      ],
+      "assistant_visual_native_review": true,
+      "terrain_never_touched": true,
+      "original_English_and_numerals_exact": true
+    },
+    {
+      "image_id": "normal_map_title_016",
+      "canonical_source": "MC2Game/CookedXenon/Map_View_Lastrada_09.xxx",
+      "canonical_object": "Map_View_Lastrada_Title",
+      "namespace_guid": "08801b564d2f0ad37390438f1446f4b5",
+      "original_native": "d73838ef7ec318fa12397e655782461fc492cf3c6c573543bff68e051b841898",
+      "modified_native": "03f471c0da60d1ffe302e004e33c180aed675005cf206d0e58be709859f79b90",
+      "actual_map_consumer": {
+        "disc": 2,
+        "scene": "Scene.Map_View_Lastrada_09",
+        "scene_source": "MC2Game/CookedXenon/Map_View_Lastrada_09.xxx",
+        "consumer": "Scene.Map_View_Lastrada_09.Base.Titel.ImageComponentTemplate.UITexture_0",
+        "target": "Map_View_Lastrada_Title",
+        "resource": "MC2Game/CookedXenon/Map_View_Lastrada_09.xxx",
+        "source_sha256": "34658595c8fed3db00e7a5774b26edcb5c155aad6973eb6cbf35585a4dd06b4e",
+        "package_guid": "08801b564d2f0ad37390438f1446f4b5",
+        "export": 68,
+        "object": "Map_View_Lastrada_Title",
+        "coordinate_override_fields": [],
+        "preview": "build/phase-314-style-map-audit/full-native-map-graphics/128.png",
+        "preview_sha256": "3a91a9ad175229af14abfbe9b0aae4191d9fe3f0d104d9906b80c654df8e0f52",
+        "rgba_sha256": "d73838ef7ec318fa12397e655782461fc492cf3c6c573543bff68e051b841898",
+        "width": 256,
+        "height": 64,
+        "selected_mip": 0,
+        "format": 7,
+        "payload_sha256": "2bba9c6b4156ca23ae2078f5ffdf3c10e79939ea76a1e6dd72f56eef23eab48c",
+        "streamed_mip_bindings": [],
+        "original_native_not_thumbnail": true
+      },
+      "native_encoded_proof": {
+        "regions": [
+          {
+            "rect": [
+              0,
+              0,
+              256,
+              48
+            ],
+            "changed_blocks": 457,
+            "authorized_blocks": 768,
+            "untouched_blocks_preserved": true,
+            "alignment_padding_preserved": true,
+            "unchanged_region_blocks_preserved": 311
+          }
+        ],
+        "changed_blocks": 457,
+        "authorized_blocks": 768,
+        "untouched_blocks_preserved": true,
+        "alignment_padding_preserved": true,
+        "profile": {
+          "kind": "xbox-inline-bc-v1",
+          "format": 7
+        },
+        "storage_origin_blocks": [
+          0,
+          0
+        ],
+        "channel_mode": "rgba",
+        "unchanged_region_blocks_preserved": 311,
+        "alpha_encoding": "adaptive-range",
+        "protected_regions": [
+          {
+            "id": "original_English_subline_and_room_numerals",
+            "rect": [
+              0,
+              48,
+              256,
+              16
+            ],
+            "before_rgba_sha256": "aee86b491d8cff3e81eebd95c811190a98f045e73b77de9d95f1b8ba91640257",
+            "after_rgba_sha256": "aee86b491d8cff3e81eebd95c811190a98f045e73b77de9d95f1b8ba91640257",
+            "blocks_preserved": true
+          }
+        ]
+      },
+      "cells": [
+        {
+          "label_id": "normal_map_title_016_0",
+          "text": "拉·斯特拉达",
+          "native_reading": "라 스트라다",
+          "anchors": [
+            {
+              "source": {
+                "id": "coalesced:78dc2621dfe750f12268d057759f3fe0034694dd83715654b626561a438cce90",
+                "resource": "MC2Game/Localization/Coalesced.int",
+                "embedded_path": "..\\MC2Game\\Localization\\INT\\MC2FieldName.int",
+                "section": "Lastrada",
+                "key": "Lastrada",
+                "occurrence": 1,
+                "line": 55,
+                "context": "..\\MC2Game\\Localization\\INT\\MC2FieldName.int [Lastrada] Lastrada #1",
+                "source_locale": "und",
+                "source": "라 스트라다",
+                "translation": "",
+                "status": "untranslated",
+                "reviewer": "",
+                "syntax_status": "physical-line-value",
+                "source_sha256": "ea7fa1e7026b81771a5c1ab3a2c08153775b73bd5a0075a0b28b755c378e8673",
+                "domain_hint": "names",
+                "text_kind": "unclassified"
+              },
+              "adopted": {
+                "id": "coalesced:78dc2621dfe750f12268d057759f3fe0034694dd83715654b626561a438cce90",
+                "source_sha256": "ea7fa1e7026b81771a5c1ab3a2c08153775b73bd5a0075a0b28b755c378e8673",
+                "translation": "拉·斯特拉达"
+              }
+            }
+          ],
+          "grammar": null
+        }
+      ],
+      "assistant_visual_native_review": true,
+      "terrain_never_touched": true,
+      "original_English_and_numerals_exact": true,
+      "original_latin_pixel_guard": {
+        "rect": [
+          92,
+          44,
+          84,
+          20
+        ],
+        "rgba_sha256": "2b201235d66bc2a73906af227265d074ae8b657a3092d065f184de0ad094f2a2",
+        "after_sha256": "2b201235d66bc2a73906af227265d074ae8b657a3092d065f184de0ad094f2a2",
+        "exact": true
+      }
+    },
+    {
+      "image_id": "normal_map_title_017",
+      "canonical_source": "MC2Game/CookedXenon/Map_View_Lastrada_10.xxx",
+      "canonical_object": "Map_View_Lastrada_Title",
+      "namespace_guid": "ab5a3f8746dada3a724e43ad91ccdcc5",
+      "original_native": "d73838ef7ec318fa12397e655782461fc492cf3c6c573543bff68e051b841898",
+      "modified_native": "03f471c0da60d1ffe302e004e33c180aed675005cf206d0e58be709859f79b90",
+      "actual_map_consumer": {
+        "disc": 2,
+        "scene": "Scene.Map_View_Lastrada_10",
+        "scene_source": "MC2Game/CookedXenon/Map_View_Lastrada_10.xxx",
+        "consumer": "Scene.Map_View_Lastrada_10.Base.Titel.ImageComponentTemplate.UITexture_0",
+        "target": "Map_View_Lastrada_Title",
+        "resource": "MC2Game/CookedXenon/Map_View_Lastrada_10.xxx",
+        "source_sha256": "98a7a7e033aefc13db38ade037e590ab748226f05244113c92456a1dd0f3cd62",
+        "package_guid": "ab5a3f8746dada3a724e43ad91ccdcc5",
+        "export": 62,
+        "object": "Map_View_Lastrada_Title",
+        "coordinate_override_fields": [],
+        "preview": "build/phase-314-style-map-audit/full-native-map-graphics/131.png",
+        "preview_sha256": "3a91a9ad175229af14abfbe9b0aae4191d9fe3f0d104d9906b80c654df8e0f52",
+        "rgba_sha256": "d73838ef7ec318fa12397e655782461fc492cf3c6c573543bff68e051b841898",
+        "width": 256,
+        "height": 64,
+        "selected_mip": 0,
+        "format": 7,
+        "payload_sha256": "556e104c7253ae3e709d5d8bfe503fd42ead85279dd139035cb17f78013b3e7d",
+        "streamed_mip_bindings": [],
+        "original_native_not_thumbnail": true
+      },
+      "native_encoded_proof": {
+        "regions": [
+          {
+            "rect": [
+              0,
+              0,
+              256,
+              48
+            ],
+            "changed_blocks": 457,
+            "authorized_blocks": 768,
+            "untouched_blocks_preserved": true,
+            "alignment_padding_preserved": true,
+            "unchanged_region_blocks_preserved": 311
+          }
+        ],
+        "changed_blocks": 457,
+        "authorized_blocks": 768,
+        "untouched_blocks_preserved": true,
+        "alignment_padding_preserved": true,
+        "profile": {
+          "kind": "xbox-inline-bc-v1",
+          "format": 7
+        },
+        "storage_origin_blocks": [
+          0,
+          0
+        ],
+        "channel_mode": "rgba",
+        "unchanged_region_blocks_preserved": 311,
+        "alpha_encoding": "adaptive-range",
+        "protected_regions": [
+          {
+            "id": "original_English_subline_and_room_numerals",
+            "rect": [
+              0,
+              48,
+              256,
+              16
+            ],
+            "before_rgba_sha256": "aee86b491d8cff3e81eebd95c811190a98f045e73b77de9d95f1b8ba91640257",
+            "after_rgba_sha256": "aee86b491d8cff3e81eebd95c811190a98f045e73b77de9d95f1b8ba91640257",
+            "blocks_preserved": true
+          }
+        ]
+      },
+      "cells": [
+        {
+          "label_id": "normal_map_title_017_0",
+          "text": "拉·斯特拉达",
+          "native_reading": "라 스트라다",
+          "anchors": [
+            {
+              "source": {
+                "id": "coalesced:78dc2621dfe750f12268d057759f3fe0034694dd83715654b626561a438cce90",
+                "resource": "MC2Game/Localization/Coalesced.int",
+                "embedded_path": "..\\MC2Game\\Localization\\INT\\MC2FieldName.int",
+                "section": "Lastrada",
+                "key": "Lastrada",
+                "occurrence": 1,
+                "line": 55,
+                "context": "..\\MC2Game\\Localization\\INT\\MC2FieldName.int [Lastrada] Lastrada #1",
+                "source_locale": "und",
+                "source": "라 스트라다",
+                "translation": "",
+                "status": "untranslated",
+                "reviewer": "",
+                "syntax_status": "physical-line-value",
+                "source_sha256": "ea7fa1e7026b81771a5c1ab3a2c08153775b73bd5a0075a0b28b755c378e8673",
+                "domain_hint": "names",
+                "text_kind": "unclassified"
+              },
+              "adopted": {
+                "id": "coalesced:78dc2621dfe750f12268d057759f3fe0034694dd83715654b626561a438cce90",
+                "source_sha256": "ea7fa1e7026b81771a5c1ab3a2c08153775b73bd5a0075a0b28b755c378e8673",
+                "translation": "拉·斯特拉达"
+              }
+            }
+          ],
+          "grammar": null
+        }
+      ],
+      "assistant_visual_native_review": true,
+      "terrain_never_touched": true,
+      "original_English_and_numerals_exact": true,
+      "original_latin_pixel_guard": {
+        "rect": [
+          92,
+          44,
+          84,
+          20
+        ],
+        "rgba_sha256": "2b201235d66bc2a73906af227265d074ae8b657a3092d065f184de0ad094f2a2",
+        "after_sha256": "2b201235d66bc2a73906af227265d074ae8b657a3092d065f184de0ad094f2a2",
+        "exact": true
+      }
+    },
+    {
+      "image_id": "normal_map_title_018",
+      "canonical_source": "MC2Game/CookedXenon/Map_View_Lastrada_11.xxx",
+      "canonical_object": "Map_View_Lastrada_Title",
+      "namespace_guid": "a717743a4854fb433422aaaa761cfa17",
+      "original_native": "d73838ef7ec318fa12397e655782461fc492cf3c6c573543bff68e051b841898",
+      "modified_native": "03f471c0da60d1ffe302e004e33c180aed675005cf206d0e58be709859f79b90",
+      "actual_map_consumer": {
+        "disc": 2,
+        "scene": "Scene.Map_View_Lastrada_11",
+        "scene_source": "MC2Game/CookedXenon/Map_View_Lastrada_11.xxx",
+        "consumer": "Scene.Map_View_Lastrada_11.Base.Titel.ImageComponentTemplate.UITexture_0",
+        "target": "Map_View_Lastrada_Title",
+        "resource": "MC2Game/CookedXenon/Map_View_Lastrada_11.xxx",
+        "source_sha256": "76f00854b974077ead07f9fdf03f622243b2cc2b922912bed14edb0a221b5924",
+        "package_guid": "a717743a4854fb433422aaaa761cfa17",
+        "export": 63,
+        "object": "Map_View_Lastrada_Title",
+        "coordinate_override_fields": [],
+        "preview": "build/phase-314-style-map-audit/full-native-map-graphics/135.png",
+        "preview_sha256": "3a91a9ad175229af14abfbe9b0aae4191d9fe3f0d104d9906b80c654df8e0f52",
+        "rgba_sha256": "d73838ef7ec318fa12397e655782461fc492cf3c6c573543bff68e051b841898",
+        "width": 256,
+        "height": 64,
+        "selected_mip": 0,
+        "format": 7,
+        "payload_sha256": "33d8a4f8df65a8c490bbdb39b2e7fb466a32fd787fc2d86e7885374aaafae868",
+        "streamed_mip_bindings": [],
+        "original_native_not_thumbnail": true
+      },
+      "native_encoded_proof": {
+        "regions": [
+          {
+            "rect": [
+              0,
+              0,
+              256,
+              48
+            ],
+            "changed_blocks": 457,
+            "authorized_blocks": 768,
+            "untouched_blocks_preserved": true,
+            "alignment_padding_preserved": true,
+            "unchanged_region_blocks_preserved": 311
+          }
+        ],
+        "changed_blocks": 457,
+        "authorized_blocks": 768,
+        "untouched_blocks_preserved": true,
+        "alignment_padding_preserved": true,
+        "profile": {
+          "kind": "xbox-inline-bc-v1",
+          "format": 7
+        },
+        "storage_origin_blocks": [
+          0,
+          0
+        ],
+        "channel_mode": "rgba",
+        "unchanged_region_blocks_preserved": 311,
+        "alpha_encoding": "adaptive-range",
+        "protected_regions": [
+          {
+            "id": "original_English_subline_and_room_numerals",
+            "rect": [
+              0,
+              48,
+              256,
+              16
+            ],
+            "before_rgba_sha256": "aee86b491d8cff3e81eebd95c811190a98f045e73b77de9d95f1b8ba91640257",
+            "after_rgba_sha256": "aee86b491d8cff3e81eebd95c811190a98f045e73b77de9d95f1b8ba91640257",
+            "blocks_preserved": true
+          }
+        ]
+      },
+      "cells": [
+        {
+          "label_id": "normal_map_title_018_0",
+          "text": "拉·斯特拉达",
+          "native_reading": "라 스트라다",
+          "anchors": [
+            {
+              "source": {
+                "id": "coalesced:78dc2621dfe750f12268d057759f3fe0034694dd83715654b626561a438cce90",
+                "resource": "MC2Game/Localization/Coalesced.int",
+                "embedded_path": "..\\MC2Game\\Localization\\INT\\MC2FieldName.int",
+                "section": "Lastrada",
+                "key": "Lastrada",
+                "occurrence": 1,
+                "line": 55,
+                "context": "..\\MC2Game\\Localization\\INT\\MC2FieldName.int [Lastrada] Lastrada #1",
+                "source_locale": "und",
+                "source": "라 스트라다",
+                "translation": "",
+                "status": "untranslated",
+                "reviewer": "",
+                "syntax_status": "physical-line-value",
+                "source_sha256": "ea7fa1e7026b81771a5c1ab3a2c08153775b73bd5a0075a0b28b755c378e8673",
+                "domain_hint": "names",
+                "text_kind": "unclassified"
+              },
+              "adopted": {
+                "id": "coalesced:78dc2621dfe750f12268d057759f3fe0034694dd83715654b626561a438cce90",
+                "source_sha256": "ea7fa1e7026b81771a5c1ab3a2c08153775b73bd5a0075a0b28b755c378e8673",
+                "translation": "拉·斯特拉达"
+              }
+            }
+          ],
+          "grammar": null
+        }
+      ],
+      "assistant_visual_native_review": true,
+      "terrain_never_touched": true,
+      "original_English_and_numerals_exact": true,
+      "original_latin_pixel_guard": {
+        "rect": [
+          92,
+          44,
+          84,
+          20
+        ],
+        "rgba_sha256": "2b201235d66bc2a73906af227265d074ae8b657a3092d065f184de0ad094f2a2",
+        "after_sha256": "2b201235d66bc2a73906af227265d074ae8b657a3092d065f184de0ad094f2a2",
+        "exact": true
+      }
+    },
+    {
+      "image_id": "normal_map_title_019",
+      "canonical_source": "MC2Game/CookedXenon/Map_View_Lastrada_12.xxx",
+      "canonical_object": "Map_View_Lastrada_Title",
+      "namespace_guid": "80129b7547a07cb43044a581d1e8dfe9",
+      "original_native": "d73838ef7ec318fa12397e655782461fc492cf3c6c573543bff68e051b841898",
+      "modified_native": "03f471c0da60d1ffe302e004e33c180aed675005cf206d0e58be709859f79b90",
+      "actual_map_consumer": {
+        "disc": 2,
+        "scene": "Scene.Map_View_Lastrada_12",
+        "scene_source": "MC2Game/CookedXenon/Map_View_Lastrada_12.xxx",
+        "consumer": "Scene.Map_View_Lastrada_12.Base.Titel.ImageComponentTemplate.UITexture_0",
+        "target": "Map_View_Lastrada_Title",
+        "resource": "MC2Game/CookedXenon/Map_View_Lastrada_12.xxx",
+        "source_sha256": "68a5eadd0ae450bcda179f220351f1dedeaa204ec33fd0e1704981ba631e842a",
+        "package_guid": "80129b7547a07cb43044a581d1e8dfe9",
+        "export": 63,
+        "object": "Map_View_Lastrada_Title",
+        "coordinate_override_fields": [],
+        "preview": "build/phase-314-style-map-audit/full-native-map-graphics/139.png",
+        "preview_sha256": "3a91a9ad175229af14abfbe9b0aae4191d9fe3f0d104d9906b80c654df8e0f52",
+        "rgba_sha256": "d73838ef7ec318fa12397e655782461fc492cf3c6c573543bff68e051b841898",
+        "width": 256,
+        "height": 64,
+        "selected_mip": 0,
+        "format": 7,
+        "payload_sha256": "33d8a4f8df65a8c490bbdb39b2e7fb466a32fd787fc2d86e7885374aaafae868",
+        "streamed_mip_bindings": [],
+        "original_native_not_thumbnail": true
+      },
+      "native_encoded_proof": {
+        "regions": [
+          {
+            "rect": [
+              0,
+              0,
+              256,
+              48
+            ],
+            "changed_blocks": 457,
+            "authorized_blocks": 768,
+            "untouched_blocks_preserved": true,
+            "alignment_padding_preserved": true,
+            "unchanged_region_blocks_preserved": 311
+          }
+        ],
+        "changed_blocks": 457,
+        "authorized_blocks": 768,
+        "untouched_blocks_preserved": true,
+        "alignment_padding_preserved": true,
+        "profile": {
+          "kind": "xbox-inline-bc-v1",
+          "format": 7
+        },
+        "storage_origin_blocks": [
+          0,
+          0
+        ],
+        "channel_mode": "rgba",
+        "unchanged_region_blocks_preserved": 311,
+        "alpha_encoding": "adaptive-range",
+        "protected_regions": [
+          {
+            "id": "original_English_subline_and_room_numerals",
+            "rect": [
+              0,
+              48,
+              256,
+              16
+            ],
+            "before_rgba_sha256": "aee86b491d8cff3e81eebd95c811190a98f045e73b77de9d95f1b8ba91640257",
+            "after_rgba_sha256": "aee86b491d8cff3e81eebd95c811190a98f045e73b77de9d95f1b8ba91640257",
+            "blocks_preserved": true
+          }
+        ]
+      },
+      "cells": [
+        {
+          "label_id": "normal_map_title_019_0",
+          "text": "拉·斯特拉达",
+          "native_reading": "라 스트라다",
+          "anchors": [
+            {
+              "source": {
+                "id": "coalesced:78dc2621dfe750f12268d057759f3fe0034694dd83715654b626561a438cce90",
+                "resource": "MC2Game/Localization/Coalesced.int",
+                "embedded_path": "..\\MC2Game\\Localization\\INT\\MC2FieldName.int",
+                "section": "Lastrada",
+                "key": "Lastrada",
+                "occurrence": 1,
+                "line": 55,
+                "context": "..\\MC2Game\\Localization\\INT\\MC2FieldName.int [Lastrada] Lastrada #1",
+                "source_locale": "und",
+                "source": "라 스트라다",
+                "translation": "",
+                "status": "untranslated",
+                "reviewer": "",
+                "syntax_status": "physical-line-value",
+                "source_sha256": "ea7fa1e7026b81771a5c1ab3a2c08153775b73bd5a0075a0b28b755c378e8673",
+                "domain_hint": "names",
+                "text_kind": "unclassified"
+              },
+              "adopted": {
+                "id": "coalesced:78dc2621dfe750f12268d057759f3fe0034694dd83715654b626561a438cce90",
+                "source_sha256": "ea7fa1e7026b81771a5c1ab3a2c08153775b73bd5a0075a0b28b755c378e8673",
+                "translation": "拉·斯特拉达"
+              }
+            }
+          ],
+          "grammar": null
+        }
+      ],
+      "assistant_visual_native_review": true,
+      "terrain_never_touched": true,
+      "original_English_and_numerals_exact": true,
+      "original_latin_pixel_guard": {
+        "rect": [
+          92,
+          44,
+          84,
+          20
+        ],
+        "rgba_sha256": "2b201235d66bc2a73906af227265d074ae8b657a3092d065f184de0ad094f2a2",
+        "after_sha256": "2b201235d66bc2a73906af227265d074ae8b657a3092d065f184de0ad094f2a2",
+        "exact": true
+      }
+    },
+    {
+      "image_id": "normal_map_title_020",
+      "canonical_source": "MC2Game/CookedXenon/Map_View_Lastrada_13.xxx",
+      "canonical_object": "Map_View_Lastrada_Title",
+      "namespace_guid": "73e15a6c4f323ca74a3a8988385e2769",
+      "original_native": "d73838ef7ec318fa12397e655782461fc492cf3c6c573543bff68e051b841898",
+      "modified_native": "03f471c0da60d1ffe302e004e33c180aed675005cf206d0e58be709859f79b90",
+      "actual_map_consumer": {
+        "disc": 2,
+        "scene": "Scene.Map_View_Lastrada_13",
+        "scene_source": "MC2Game/CookedXenon/Map_View_Lastrada_13.xxx",
+        "consumer": "Scene.Map_View_Lastrada_13.Base.Titel.ImageComponentTemplate.UITexture_0",
+        "target": "Map_View_Lastrada_Title",
+        "resource": "MC2Game/CookedXenon/Map_View_Lastrada_13.xxx",
+        "source_sha256": "fb139c9e32bdbdf567024e10e0c7b011b542d1471431a7a7b3dc9b0d692dff5a",
+        "package_guid": "73e15a6c4f323ca74a3a8988385e2769",
+        "export": 63,
+        "object": "Map_View_Lastrada_Title",
+        "coordinate_override_fields": [],
+        "preview": "build/phase-314-style-map-audit/full-native-map-graphics/143.png",
+        "preview_sha256": "3a91a9ad175229af14abfbe9b0aae4191d9fe3f0d104d9906b80c654df8e0f52",
+        "rgba_sha256": "d73838ef7ec318fa12397e655782461fc492cf3c6c573543bff68e051b841898",
+        "width": 256,
+        "height": 64,
+        "selected_mip": 0,
+        "format": 7,
+        "payload_sha256": "4e44aa4e619c3bdfba8091bc9419224ae6fe433156c61a7b2369ae9a4def9c3f",
+        "streamed_mip_bindings": [],
+        "original_native_not_thumbnail": true
+      },
+      "native_encoded_proof": {
+        "regions": [
+          {
+            "rect": [
+              0,
+              0,
+              256,
+              48
+            ],
+            "changed_blocks": 457,
+            "authorized_blocks": 768,
+            "untouched_blocks_preserved": true,
+            "alignment_padding_preserved": true,
+            "unchanged_region_blocks_preserved": 311
+          }
+        ],
+        "changed_blocks": 457,
+        "authorized_blocks": 768,
+        "untouched_blocks_preserved": true,
+        "alignment_padding_preserved": true,
+        "profile": {
+          "kind": "xbox-inline-bc-v1",
+          "format": 7
+        },
+        "storage_origin_blocks": [
+          0,
+          0
+        ],
+        "channel_mode": "rgba",
+        "unchanged_region_blocks_preserved": 311,
+        "alpha_encoding": "adaptive-range",
+        "protected_regions": [
+          {
+            "id": "original_English_subline_and_room_numerals",
+            "rect": [
+              0,
+              48,
+              256,
+              16
+            ],
+            "before_rgba_sha256": "aee86b491d8cff3e81eebd95c811190a98f045e73b77de9d95f1b8ba91640257",
+            "after_rgba_sha256": "aee86b491d8cff3e81eebd95c811190a98f045e73b77de9d95f1b8ba91640257",
+            "blocks_preserved": true
+          }
+        ]
+      },
+      "cells": [
+        {
+          "label_id": "normal_map_title_020_0",
+          "text": "拉·斯特拉达",
+          "native_reading": "라 스트라다",
+          "anchors": [
+            {
+              "source": {
+                "id": "coalesced:78dc2621dfe750f12268d057759f3fe0034694dd83715654b626561a438cce90",
+                "resource": "MC2Game/Localization/Coalesced.int",
+                "embedded_path": "..\\MC2Game\\Localization\\INT\\MC2FieldName.int",
+                "section": "Lastrada",
+                "key": "Lastrada",
+                "occurrence": 1,
+                "line": 55,
+                "context": "..\\MC2Game\\Localization\\INT\\MC2FieldName.int [Lastrada] Lastrada #1",
+                "source_locale": "und",
+                "source": "라 스트라다",
+                "translation": "",
+                "status": "untranslated",
+                "reviewer": "",
+                "syntax_status": "physical-line-value",
+                "source_sha256": "ea7fa1e7026b81771a5c1ab3a2c08153775b73bd5a0075a0b28b755c378e8673",
+                "domain_hint": "names",
+                "text_kind": "unclassified"
+              },
+              "adopted": {
+                "id": "coalesced:78dc2621dfe750f12268d057759f3fe0034694dd83715654b626561a438cce90",
+                "source_sha256": "ea7fa1e7026b81771a5c1ab3a2c08153775b73bd5a0075a0b28b755c378e8673",
+                "translation": "拉·斯特拉达"
+              }
+            }
+          ],
+          "grammar": null
+        }
+      ],
+      "assistant_visual_native_review": true,
+      "terrain_never_touched": true,
+      "original_English_and_numerals_exact": true,
+      "original_latin_pixel_guard": {
+        "rect": [
+          92,
+          44,
+          84,
+          20
+        ],
+        "rgba_sha256": "2b201235d66bc2a73906af227265d074ae8b657a3092d065f184de0ad094f2a2",
+        "after_sha256": "2b201235d66bc2a73906af227265d074ae8b657a3092d065f184de0ad094f2a2",
+        "exact": true
+      }
+    },
+    {
+      "image_id": "normal_map_title_021",
+      "canonical_source": "MC2Game/CookedXenon/Map_View_Lastrada_14.xxx",
+      "canonical_object": "Map_View_Lastrada_Title",
+      "namespace_guid": "b200f42f4d9f7f6bf77900bf36882ade",
+      "original_native": "d73838ef7ec318fa12397e655782461fc492cf3c6c573543bff68e051b841898",
+      "modified_native": "03f471c0da60d1ffe302e004e33c180aed675005cf206d0e58be709859f79b90",
+      "actual_map_consumer": {
+        "disc": 2,
+        "scene": "Scene.Map_View_Lastrada_14",
+        "scene_source": "MC2Game/CookedXenon/Map_View_Lastrada_14.xxx",
+        "consumer": "Scene.Map_View_Lastrada_14.Base.Titel.ImageComponentTemplate.UITexture_0",
+        "target": "Map_View_Lastrada_Title",
+        "resource": "MC2Game/CookedXenon/Map_View_Lastrada_14.xxx",
+        "source_sha256": "cf3666abda7812a4fb853b2aca11820545d2f566476a1c13db76d386a9a70c3d",
+        "package_guid": "b200f42f4d9f7f6bf77900bf36882ade",
+        "export": 63,
+        "object": "Map_View_Lastrada_Title",
+        "coordinate_override_fields": [],
+        "preview": "build/phase-314-style-map-audit/full-native-map-graphics/147.png",
+        "preview_sha256": "3a91a9ad175229af14abfbe9b0aae4191d9fe3f0d104d9906b80c654df8e0f52",
+        "rgba_sha256": "d73838ef7ec318fa12397e655782461fc492cf3c6c573543bff68e051b841898",
+        "width": 256,
+        "height": 64,
+        "selected_mip": 0,
+        "format": 7,
+        "payload_sha256": "4e44aa4e619c3bdfba8091bc9419224ae6fe433156c61a7b2369ae9a4def9c3f",
+        "streamed_mip_bindings": [],
+        "original_native_not_thumbnail": true
+      },
+      "native_encoded_proof": {
+        "regions": [
+          {
+            "rect": [
+              0,
+              0,
+              256,
+              48
+            ],
+            "changed_blocks": 457,
+            "authorized_blocks": 768,
+            "untouched_blocks_preserved": true,
+            "alignment_padding_preserved": true,
+            "unchanged_region_blocks_preserved": 311
+          }
+        ],
+        "changed_blocks": 457,
+        "authorized_blocks": 768,
+        "untouched_blocks_preserved": true,
+        "alignment_padding_preserved": true,
+        "profile": {
+          "kind": "xbox-inline-bc-v1",
+          "format": 7
+        },
+        "storage_origin_blocks": [
+          0,
+          0
+        ],
+        "channel_mode": "rgba",
+        "unchanged_region_blocks_preserved": 311,
+        "alpha_encoding": "adaptive-range",
+        "protected_regions": [
+          {
+            "id": "original_English_subline_and_room_numerals",
+            "rect": [
+              0,
+              48,
+              256,
+              16
+            ],
+            "before_rgba_sha256": "aee86b491d8cff3e81eebd95c811190a98f045e73b77de9d95f1b8ba91640257",
+            "after_rgba_sha256": "aee86b491d8cff3e81eebd95c811190a98f045e73b77de9d95f1b8ba91640257",
+            "blocks_preserved": true
+          }
+        ]
+      },
+      "cells": [
+        {
+          "label_id": "normal_map_title_021_0",
+          "text": "拉·斯特拉达",
+          "native_reading": "라 스트라다",
+          "anchors": [
+            {
+              "source": {
+                "id": "coalesced:78dc2621dfe750f12268d057759f3fe0034694dd83715654b626561a438cce90",
+                "resource": "MC2Game/Localization/Coalesced.int",
+                "embedded_path": "..\\MC2Game\\Localization\\INT\\MC2FieldName.int",
+                "section": "Lastrada",
+                "key": "Lastrada",
+                "occurrence": 1,
+                "line": 55,
+                "context": "..\\MC2Game\\Localization\\INT\\MC2FieldName.int [Lastrada] Lastrada #1",
+                "source_locale": "und",
+                "source": "라 스트라다",
+                "translation": "",
+                "status": "untranslated",
+                "reviewer": "",
+                "syntax_status": "physical-line-value",
+                "source_sha256": "ea7fa1e7026b81771a5c1ab3a2c08153775b73bd5a0075a0b28b755c378e8673",
+                "domain_hint": "names",
+                "text_kind": "unclassified"
+              },
+              "adopted": {
+                "id": "coalesced:78dc2621dfe750f12268d057759f3fe0034694dd83715654b626561a438cce90",
+                "source_sha256": "ea7fa1e7026b81771a5c1ab3a2c08153775b73bd5a0075a0b28b755c378e8673",
+                "translation": "拉·斯特拉达"
+              }
+            }
+          ],
+          "grammar": null
+        }
+      ],
+      "assistant_visual_native_review": true,
+      "terrain_never_touched": true,
+      "original_English_and_numerals_exact": true,
+      "original_latin_pixel_guard": {
+        "rect": [
+          92,
+          44,
+          84,
+          20
+        ],
+        "rgba_sha256": "2b201235d66bc2a73906af227265d074ae8b657a3092d065f184de0ad094f2a2",
+        "after_sha256": "2b201235d66bc2a73906af227265d074ae8b657a3092d065f184de0ad094f2a2",
+        "exact": true
+      }
+    },
+    {
+      "image_id": "normal_map_title_022",
+      "canonical_source": "MC2Game/CookedXenon/Map_View_Lastrada_15.xxx",
+      "canonical_object": "Map_View_Lastrada_Title",
+      "namespace_guid": "72a049694df2811562f5668111d3ce13",
+      "original_native": "d73838ef7ec318fa12397e655782461fc492cf3c6c573543bff68e051b841898",
+      "modified_native": "03f471c0da60d1ffe302e004e33c180aed675005cf206d0e58be709859f79b90",
+      "actual_map_consumer": {
+        "disc": 2,
+        "scene": "Scene.Map_View_Lastrada_15",
+        "scene_source": "MC2Game/CookedXenon/Map_View_Lastrada_15.xxx",
+        "consumer": "Scene.Map_View_Lastrada_15.Base.Titel.ImageComponentTemplate.UITexture_0",
+        "target": "Map_View_Lastrada_Title",
+        "resource": "MC2Game/CookedXenon/Map_View_Lastrada_15.xxx",
+        "source_sha256": "b38a23b28d44e20ead256c8d889e582f112bcb193c4c91f46f6e38a11e8955fc",
+        "package_guid": "72a049694df2811562f5668111d3ce13",
+        "export": 63,
+        "object": "Map_View_Lastrada_Title",
+        "coordinate_override_fields": [],
+        "preview": "build/phase-314-style-map-audit/full-native-map-graphics/151.png",
+        "preview_sha256": "3a91a9ad175229af14abfbe9b0aae4191d9fe3f0d104d9906b80c654df8e0f52",
+        "rgba_sha256": "d73838ef7ec318fa12397e655782461fc492cf3c6c573543bff68e051b841898",
+        "width": 256,
+        "height": 64,
+        "selected_mip": 0,
+        "format": 7,
+        "payload_sha256": "4e44aa4e619c3bdfba8091bc9419224ae6fe433156c61a7b2369ae9a4def9c3f",
+        "streamed_mip_bindings": [],
+        "original_native_not_thumbnail": true
+      },
+      "native_encoded_proof": {
+        "regions": [
+          {
+            "rect": [
+              0,
+              0,
+              256,
+              48
+            ],
+            "changed_blocks": 457,
+            "authorized_blocks": 768,
+            "untouched_blocks_preserved": true,
+            "alignment_padding_preserved": true,
+            "unchanged_region_blocks_preserved": 311
+          }
+        ],
+        "changed_blocks": 457,
+        "authorized_blocks": 768,
+        "untouched_blocks_preserved": true,
+        "alignment_padding_preserved": true,
+        "profile": {
+          "kind": "xbox-inline-bc-v1",
+          "format": 7
+        },
+        "storage_origin_blocks": [
+          0,
+          0
+        ],
+        "channel_mode": "rgba",
+        "unchanged_region_blocks_preserved": 311,
+        "alpha_encoding": "adaptive-range",
+        "protected_regions": [
+          {
+            "id": "original_English_subline_and_room_numerals",
+            "rect": [
+              0,
+              48,
+              256,
+              16
+            ],
+            "before_rgba_sha256": "aee86b491d8cff3e81eebd95c811190a98f045e73b77de9d95f1b8ba91640257",
+            "after_rgba_sha256": "aee86b491d8cff3e81eebd95c811190a98f045e73b77de9d95f1b8ba91640257",
+            "blocks_preserved": true
+          }
+        ]
+      },
+      "cells": [
+        {
+          "label_id": "normal_map_title_022_0",
+          "text": "拉·斯特拉达",
+          "native_reading": "라 스트라다",
+          "anchors": [
+            {
+              "source": {
+                "id": "coalesced:78dc2621dfe750f12268d057759f3fe0034694dd83715654b626561a438cce90",
+                "resource": "MC2Game/Localization/Coalesced.int",
+                "embedded_path": "..\\MC2Game\\Localization\\INT\\MC2FieldName.int",
+                "section": "Lastrada",
+                "key": "Lastrada",
+                "occurrence": 1,
+                "line": 55,
+                "context": "..\\MC2Game\\Localization\\INT\\MC2FieldName.int [Lastrada] Lastrada #1",
+                "source_locale": "und",
+                "source": "라 스트라다",
+                "translation": "",
+                "status": "untranslated",
+                "reviewer": "",
+                "syntax_status": "physical-line-value",
+                "source_sha256": "ea7fa1e7026b81771a5c1ab3a2c08153775b73bd5a0075a0b28b755c378e8673",
+                "domain_hint": "names",
+                "text_kind": "unclassified"
+              },
+              "adopted": {
+                "id": "coalesced:78dc2621dfe750f12268d057759f3fe0034694dd83715654b626561a438cce90",
+                "source_sha256": "ea7fa1e7026b81771a5c1ab3a2c08153775b73bd5a0075a0b28b755c378e8673",
+                "translation": "拉·斯特拉达"
+              }
+            }
+          ],
+          "grammar": null
+        }
+      ],
+      "assistant_visual_native_review": true,
+      "terrain_never_touched": true,
+      "original_English_and_numerals_exact": true,
+      "original_latin_pixel_guard": {
+        "rect": [
+          92,
+          44,
+          84,
+          20
+        ],
+        "rgba_sha256": "2b201235d66bc2a73906af227265d074ae8b657a3092d065f184de0ad094f2a2",
+        "after_sha256": "2b201235d66bc2a73906af227265d074ae8b657a3092d065f184de0ad094f2a2",
+        "exact": true
+      }
+    },
+    {
+      "image_id": "normal_map_title_023",
+      "canonical_source": "MC2Game/CookedXenon/Map_View_Lastrada_16.xxx",
+      "canonical_object": "Map_View_Lastrada_Title",
+      "namespace_guid": "dbccc82f489ad5051ff66994af884e75",
+      "original_native": "d73838ef7ec318fa12397e655782461fc492cf3c6c573543bff68e051b841898",
+      "modified_native": "03f471c0da60d1ffe302e004e33c180aed675005cf206d0e58be709859f79b90",
+      "actual_map_consumer": {
+        "disc": 2,
+        "scene": "Scene.Map_View_Lastrada_16",
+        "scene_source": "MC2Game/CookedXenon/Map_View_Lastrada_16.xxx",
+        "consumer": "Scene.Map_View_Lastrada_16.Base.Titel.ImageComponentTemplate.UITexture_0",
+        "target": "Map_View_Lastrada_Title",
+        "resource": "MC2Game/CookedXenon/Map_View_Lastrada_16.xxx",
+        "source_sha256": "0d408f455e5d3e69754a69f8a395e1358a4c407f9e8aa3dc386144142105f190",
+        "package_guid": "dbccc82f489ad5051ff66994af884e75",
+        "export": 63,
+        "object": "Map_View_Lastrada_Title",
+        "coordinate_override_fields": [],
+        "preview": "build/phase-314-style-map-audit/full-native-map-graphics/155.png",
+        "preview_sha256": "3a91a9ad175229af14abfbe9b0aae4191d9fe3f0d104d9906b80c654df8e0f52",
+        "rgba_sha256": "d73838ef7ec318fa12397e655782461fc492cf3c6c573543bff68e051b841898",
+        "width": 256,
+        "height": 64,
+        "selected_mip": 0,
+        "format": 7,
+        "payload_sha256": "4e44aa4e619c3bdfba8091bc9419224ae6fe433156c61a7b2369ae9a4def9c3f",
+        "streamed_mip_bindings": [],
+        "original_native_not_thumbnail": true
+      },
+      "native_encoded_proof": {
+        "regions": [
+          {
+            "rect": [
+              0,
+              0,
+              256,
+              48
+            ],
+            "changed_blocks": 457,
+            "authorized_blocks": 768,
+            "untouched_blocks_preserved": true,
+            "alignment_padding_preserved": true,
+            "unchanged_region_blocks_preserved": 311
+          }
+        ],
+        "changed_blocks": 457,
+        "authorized_blocks": 768,
+        "untouched_blocks_preserved": true,
+        "alignment_padding_preserved": true,
+        "profile": {
+          "kind": "xbox-inline-bc-v1",
+          "format": 7
+        },
+        "storage_origin_blocks": [
+          0,
+          0
+        ],
+        "channel_mode": "rgba",
+        "unchanged_region_blocks_preserved": 311,
+        "alpha_encoding": "adaptive-range",
+        "protected_regions": [
+          {
+            "id": "original_English_subline_and_room_numerals",
+            "rect": [
+              0,
+              48,
+              256,
+              16
+            ],
+            "before_rgba_sha256": "aee86b491d8cff3e81eebd95c811190a98f045e73b77de9d95f1b8ba91640257",
+            "after_rgba_sha256": "aee86b491d8cff3e81eebd95c811190a98f045e73b77de9d95f1b8ba91640257",
+            "blocks_preserved": true
+          }
+        ]
+      },
+      "cells": [
+        {
+          "label_id": "normal_map_title_023_0",
+          "text": "拉·斯特拉达",
+          "native_reading": "라 스트라다",
+          "anchors": [
+            {
+              "source": {
+                "id": "coalesced:78dc2621dfe750f12268d057759f3fe0034694dd83715654b626561a438cce90",
+                "resource": "MC2Game/Localization/Coalesced.int",
+                "embedded_path": "..\\MC2Game\\Localization\\INT\\MC2FieldName.int",
+                "section": "Lastrada",
+                "key": "Lastrada",
+                "occurrence": 1,
+                "line": 55,
+                "context": "..\\MC2Game\\Localization\\INT\\MC2FieldName.int [Lastrada] Lastrada #1",
+                "source_locale": "und",
+                "source": "라 스트라다",
+                "translation": "",
+                "status": "untranslated",
+                "reviewer": "",
+                "syntax_status": "physical-line-value",
+                "source_sha256": "ea7fa1e7026b81771a5c1ab3a2c08153775b73bd5a0075a0b28b755c378e8673",
+                "domain_hint": "names",
+                "text_kind": "unclassified"
+              },
+              "adopted": {
+                "id": "coalesced:78dc2621dfe750f12268d057759f3fe0034694dd83715654b626561a438cce90",
+                "source_sha256": "ea7fa1e7026b81771a5c1ab3a2c08153775b73bd5a0075a0b28b755c378e8673",
+                "translation": "拉·斯特拉达"
+              }
+            }
+          ],
+          "grammar": null
+        }
+      ],
+      "assistant_visual_native_review": true,
+      "terrain_never_touched": true,
+      "original_English_and_numerals_exact": true,
+      "original_latin_pixel_guard": {
+        "rect": [
+          92,
+          44,
+          84,
+          20
+        ],
+        "rgba_sha256": "2b201235d66bc2a73906af227265d074ae8b657a3092d065f184de0ad094f2a2",
+        "after_sha256": "2b201235d66bc2a73906af227265d074ae8b657a3092d065f184de0ad094f2a2",
+        "exact": true
+      }
+    },
+    {
+      "image_id": "normal_map_title_024",
+      "canonical_source": "MC2Game/CookedXenon/Map_View_Lastrada_17.xxx",
+      "canonical_object": "Map_View_Lastrada_Title",
+      "namespace_guid": "be4efc9b4dd3f1541e34629f70790ba8",
+      "original_native": "d73838ef7ec318fa12397e655782461fc492cf3c6c573543bff68e051b841898",
+      "modified_native": "03f471c0da60d1ffe302e004e33c180aed675005cf206d0e58be709859f79b90",
+      "actual_map_consumer": {
+        "disc": 2,
+        "scene": "Scene.Map_View_Lastrada_17",
+        "scene_source": "MC2Game/CookedXenon/Map_View_Lastrada_17.xxx",
+        "consumer": "Scene.Map_View_Lastrada_17.Base.Titel.ImageComponentTemplate.UITexture_0",
+        "target": "Map_View_Lastrada_Title",
+        "resource": "MC2Game/CookedXenon/Map_View_Lastrada_17.xxx",
+        "source_sha256": "1f8ae24aff8dae230c29fc64457e3d6891eb61691adb7d360d565255fcf6f264",
+        "package_guid": "be4efc9b4dd3f1541e34629f70790ba8",
+        "export": 63,
+        "object": "Map_View_Lastrada_Title",
+        "coordinate_override_fields": [],
+        "preview": "build/phase-314-style-map-audit/full-native-map-graphics/159.png",
+        "preview_sha256": "3a91a9ad175229af14abfbe9b0aae4191d9fe3f0d104d9906b80c654df8e0f52",
+        "rgba_sha256": "d73838ef7ec318fa12397e655782461fc492cf3c6c573543bff68e051b841898",
+        "width": 256,
+        "height": 64,
+        "selected_mip": 0,
+        "format": 7,
+        "payload_sha256": "4e44aa4e619c3bdfba8091bc9419224ae6fe433156c61a7b2369ae9a4def9c3f",
+        "streamed_mip_bindings": [],
+        "original_native_not_thumbnail": true
+      },
+      "native_encoded_proof": {
+        "regions": [
+          {
+            "rect": [
+              0,
+              0,
+              256,
+              48
+            ],
+            "changed_blocks": 457,
+            "authorized_blocks": 768,
+            "untouched_blocks_preserved": true,
+            "alignment_padding_preserved": true,
+            "unchanged_region_blocks_preserved": 311
+          }
+        ],
+        "changed_blocks": 457,
+        "authorized_blocks": 768,
+        "untouched_blocks_preserved": true,
+        "alignment_padding_preserved": true,
+        "profile": {
+          "kind": "xbox-inline-bc-v1",
+          "format": 7
+        },
+        "storage_origin_blocks": [
+          0,
+          0
+        ],
+        "channel_mode": "rgba",
+        "unchanged_region_blocks_preserved": 311,
+        "alpha_encoding": "adaptive-range",
+        "protected_regions": [
+          {
+            "id": "original_English_subline_and_room_numerals",
+            "rect": [
+              0,
+              48,
+              256,
+              16
+            ],
+            "before_rgba_sha256": "aee86b491d8cff3e81eebd95c811190a98f045e73b77de9d95f1b8ba91640257",
+            "after_rgba_sha256": "aee86b491d8cff3e81eebd95c811190a98f045e73b77de9d95f1b8ba91640257",
+            "blocks_preserved": true
+          }
+        ]
+      },
+      "cells": [
+        {
+          "label_id": "normal_map_title_024_0",
+          "text": "拉·斯特拉达",
+          "native_reading": "라 스트라다",
+          "anchors": [
+            {
+              "source": {
+                "id": "coalesced:78dc2621dfe750f12268d057759f3fe0034694dd83715654b626561a438cce90",
+                "resource": "MC2Game/Localization/Coalesced.int",
+                "embedded_path": "..\\MC2Game\\Localization\\INT\\MC2FieldName.int",
+                "section": "Lastrada",
+                "key": "Lastrada",
+                "occurrence": 1,
+                "line": 55,
+                "context": "..\\MC2Game\\Localization\\INT\\MC2FieldName.int [Lastrada] Lastrada #1",
+                "source_locale": "und",
+                "source": "라 스트라다",
+                "translation": "",
+                "status": "untranslated",
+                "reviewer": "",
+                "syntax_status": "physical-line-value",
+                "source_sha256": "ea7fa1e7026b81771a5c1ab3a2c08153775b73bd5a0075a0b28b755c378e8673",
+                "domain_hint": "names",
+                "text_kind": "unclassified"
+              },
+              "adopted": {
+                "id": "coalesced:78dc2621dfe750f12268d057759f3fe0034694dd83715654b626561a438cce90",
+                "source_sha256": "ea7fa1e7026b81771a5c1ab3a2c08153775b73bd5a0075a0b28b755c378e8673",
+                "translation": "拉·斯特拉达"
+              }
+            }
+          ],
+          "grammar": null
+        }
+      ],
+      "assistant_visual_native_review": true,
+      "terrain_never_touched": true,
+      "original_English_and_numerals_exact": true,
+      "original_latin_pixel_guard": {
+        "rect": [
+          92,
+          44,
+          84,
+          20
+        ],
+        "rgba_sha256": "2b201235d66bc2a73906af227265d074ae8b657a3092d065f184de0ad094f2a2",
+        "after_sha256": "2b201235d66bc2a73906af227265d074ae8b657a3092d065f184de0ad094f2a2",
+        "exact": true
+      }
+    },
+    {
+      "image_id": "normal_map_title_025",
+      "canonical_source": "MC2Game/CookedXenon/Map_View_SentinelLab.xxx",
+      "canonical_object": "Map_View_Senti_Title",
+      "namespace_guid": "a1a4d91b4713c25501e30ea4cdf37121",
+      "original_native": "9137eb6651c50afaa042d9993150d3e6c664edecde54fffafb50354a0d32b18b",
+      "modified_native": "a2bbcf2198f5c047b5205202531f6771f02dd10044a75194107103806a27c329",
+      "actual_map_consumer": {
+        "disc": 2,
+        "scene": "Scene.Map_View_SentinelLab",
+        "scene_source": "MC2Game/CookedXenon/Map_View_SentinelLab.xxx",
+        "consumer": "Scene.Map_View_SentinelLab.Base.SentinelLab_Title.ImageComponentTemplate.UITexture_0",
+        "target": "Map_View_Senti_Title",
+        "resource": "MC2Game/CookedXenon/Map_View_SentinelLab.xxx",
+        "source_sha256": "a706a2120dff6b10196e793d3d5ebd95aaf5f27bece301e3fc5a1a2406c91686",
+        "package_guid": "a1a4d91b4713c25501e30ea4cdf37121",
+        "export": 67,
+        "object": "Map_View_Senti_Title",
+        "coordinate_override_fields": [
+          {
+            "UL": 212.0,
+            "VL": 101.0
+          }
+        ],
+        "preview": "build/phase-314-style-map-audit/full-native-map-graphics/163.png",
+        "preview_sha256": "47e40173f66851365c341f7e9effa608d130c8e190f0ea8e9499076f1f1efe07",
+        "rgba_sha256": "9137eb6651c50afaa042d9993150d3e6c664edecde54fffafb50354a0d32b18b",
+        "width": 256,
+        "height": 128,
+        "selected_mip": 0,
+        "format": 7,
+        "payload_sha256": "3238bcdcd45888c5b4fd3903fd6ec9f869899be8029367638a52cb5b9239f922",
+        "streamed_mip_bindings": [],
+        "original_native_not_thumbnail": true
+      },
+      "native_encoded_proof": {
+        "regions": [
+          {
+            "rect": [
+              0,
+              8,
+              256,
+              48
+            ],
+            "changed_blocks": 496,
+            "authorized_blocks": 768,
+            "untouched_blocks_preserved": true,
+            "alignment_padding_preserved": true,
+            "unchanged_region_blocks_preserved": 272
+          }
+        ],
+        "changed_blocks": 496,
+        "authorized_blocks": 768,
+        "untouched_blocks_preserved": true,
+        "alignment_padding_preserved": true,
+        "profile": {
+          "kind": "xbox-inline-bc-v1",
+          "format": 7
+        },
+        "storage_origin_blocks": [
+          0,
+          0
+        ],
+        "channel_mode": "rgba",
+        "unchanged_region_blocks_preserved": 272,
+        "alpha_encoding": "adaptive-range",
+        "protected_regions": [
+          {
+            "id": "original_English_subline_and_room_numerals",
+            "rect": [
+              0,
+              56,
+              256,
+              72
+            ],
+            "before_rgba_sha256": "e1c5481a00fef21deab28e7ef5dbbd0300348ebd2cc14476b7e566151ced8b7d",
+            "after_rgba_sha256": "e1c5481a00fef21deab28e7ef5dbbd0300348ebd2cc14476b7e566151ced8b7d",
+            "blocks_preserved": true
+          }
+        ]
+      },
+      "cells": [
+        {
+          "label_id": "normal_map_title_025_0",
+          "text": "哨兵研究所",
+          "native_reading": "센티넬 연구소",
+          "anchors": [
+            {
+              "source": {
+                "id": "coalesced:c2cd35af1da7008ed5c83e14b8cc15990f08a5e0ba369ee3bf64fbfa850041f4",
+                "resource": "MC2Game/Localization/Coalesced.int",
+                "embedded_path": "..\\MC2Game\\Localization\\INT\\MC2FieldName.int",
+                "section": "SentinelLab",
+                "key": "SentinelLab",
+                "occurrence": 1,
+                "line": 52,
+                "context": "..\\MC2Game\\Localization\\INT\\MC2FieldName.int [SentinelLab] SentinelLab #1",
+                "source_locale": "und",
+                "source": "센티넬 연구소",
+                "translation": "",
+                "status": "untranslated",
+                "reviewer": "",
+                "syntax_status": "physical-line-value",
+                "source_sha256": "3ddf8d923e8d28a3eee12eff0507ed24a2c49b8b781c1422a729ba9d6f25580d",
+                "domain_hint": "names",
+                "text_kind": "unclassified"
+              },
+              "adopted": {
+                "id": "coalesced:c2cd35af1da7008ed5c83e14b8cc15990f08a5e0ba369ee3bf64fbfa850041f4",
+                "source_sha256": "3ddf8d923e8d28a3eee12eff0507ed24a2c49b8b781c1422a729ba9d6f25580d",
+                "translation": "哨兵研究所"
+              }
+            }
+          ],
+          "grammar": null
+        }
+      ],
+      "assistant_visual_native_review": true,
+      "terrain_never_touched": true,
+      "original_English_and_numerals_exact": true
+    },
+    {
+      "image_id": "normal_map_title_026",
+      "canonical_source": "MC2Game/CookedXenon/Map_View_SentinelLab.xxx",
+      "canonical_object": "Map_View_Senti_Title2",
+      "namespace_guid": "a1a4d91b4713c25501e30ea4cdf37121",
+      "original_native": "9ba2d8b83b14689aac1e877f199524fa095b7c7acf17a230cbeb9427202292ad",
+      "modified_native": "d568611756466854894b235cb69b54c8103e7d5e33fcd9ca69518df07086fdad",
+      "actual_map_consumer": {
+        "disc": 2,
+        "scene": "Scene.Map_View_SentinelLab",
+        "scene_source": "MC2Game/CookedXenon/Map_View_SentinelLab.xxx",
+        "consumer": "Scene.Map_View_SentinelLab.Base.SentinelLab_Map3.ImageComponentTemplate.UITexture_0",
+        "target": "Map_View_Senti_Title2",
+        "resource": "MC2Game/CookedXenon/Map_View_SentinelLab.xxx",
+        "source_sha256": "a706a2120dff6b10196e793d3d5ebd95aaf5f27bece301e3fc5a1a2406c91686",
+        "package_guid": "a1a4d91b4713c25501e30ea4cdf37121",
+        "export": 68,
+        "object": "Map_View_Senti_Title2",
+        "coordinate_override_fields": [],
+        "preview": "build/phase-314-style-map-audit/full-native-map-graphics/164.png",
+        "preview_sha256": "e8b209028b510af3a42bb2db5e5a254e49e5277fc4d710c2fd7d1eb4c0ee4a59",
+        "rgba_sha256": "9ba2d8b83b14689aac1e877f199524fa095b7c7acf17a230cbeb9427202292ad",
+        "width": 128,
+        "height": 32,
+        "selected_mip": 0,
+        "format": 7,
+        "payload_sha256": "5dcf1bfaa52e2016263b8ff7c10fbd36f4ff8cc4d282b4052a76668e6b21e742",
+        "streamed_mip_bindings": [],
+        "original_native_not_thumbnail": true
+      },
+      "native_encoded_proof": {
+        "regions": [
+          {
+            "rect": [
+              0,
+              0,
+              128,
+              32
+            ],
+            "changed_blocks": 162,
+            "authorized_blocks": 256,
+            "untouched_blocks_preserved": true,
+            "alignment_padding_preserved": true,
+            "unchanged_region_blocks_preserved": 94
+          }
+        ],
+        "changed_blocks": 162,
+        "authorized_blocks": 256,
+        "untouched_blocks_preserved": true,
+        "alignment_padding_preserved": true,
+        "profile": {
+          "kind": "xbox-inline-bc-v1",
+          "format": 7
+        },
+        "storage_origin_blocks": [
+          0,
+          0
+        ],
+        "channel_mode": "rgba",
+        "unchanged_region_blocks_preserved": 94,
+        "alpha_encoding": "adaptive-range"
+      },
+      "cells": [
+        {
+          "label_id": "normal_map_title_026_0",
+          "text": "前往贝尔福特王城",
+          "native_reading": "벨포트왕성으로",
+          "anchors": [
+            {
+              "source": {
+                "id": "coalesced:ea48e3b32a9cb391ac7fb3e30683dedfda79006f49ca09cf6fa035190882da69",
+                "resource": "MC2Game/Localization/Coalesced.int",
+                "embedded_path": "..\\MC2Game\\Localization\\INT\\MC2FieldName.int",
+                "section": "Velfort",
+                "key": "BelfortCastle",
+                "occurrence": 1,
+                "line": 50,
+                "context": "..\\MC2Game\\Localization\\INT\\MC2FieldName.int [Velfort] BelfortCastle #1",
+                "source_locale": "und",
+                "source": "벨포트 왕성",
+                "translation": "",
+                "status": "untranslated",
+                "reviewer": "",
+                "syntax_status": "physical-line-value",
+                "source_sha256": "e0c6ebdd3eec0afe0648f70460fe3e78efdf47f729e467a1276908e5e54d42d3",
+                "domain_hint": "names",
+                "text_kind": "unclassified"
+              },
+              "adopted": {
+                "id": "coalesced:ea48e3b32a9cb391ac7fb3e30683dedfda79006f49ca09cf6fa035190882da69",
+                "source_sha256": "e0c6ebdd3eec0afe0648f70460fe3e78efdf47f729e467a1276908e5e54d42d3",
+                "translation": "贝尔福特王城"
+              }
+            }
+          ],
+          "grammar": "original으로 destination suffix;explicit前往 connector,basepropernameexact"
+        }
+      ],
+      "assistant_visual_native_review": true,
+      "terrain_never_touched": true,
+      "original_English_and_numerals_exact": true
+    }
+  ],
+  "aliases": [
+    {
+      "disc": 1,
+      "path": "MC2Game/CookedXenon/Map_View_DunanHill.xxx",
+      "source_sha256": "ee97fd7b2b943e3ad9405e94af5aa3eb840c433e86cd036c3f622ca110eccbfd",
+      "package_guid": "a1cc26aa4f4bed7a6a2a9a832cbd60f1",
+      "header_sha256": "40c94cb193bbabbf95f24d710c95b4b1f1b724ba2cdc36eb69f31f9b2df9d52b",
+      "export": 66,
+      "object": "Map_View_DunanHill_Title",
+      "canonical": "Map_View_DunanHill.Map_View_DunanHill_Title",
+      "canonical_source": "MC2Game/CookedXenon/Map_View_DunanHill.xxx",
+      "canonical_object": "Map_View_DunanHill_Title",
+      "canonical_namespace_guid": "a1cc26aa4f4bed7a6a2a9a832cbd60f1",
+      "expected_rgba_sha256": "05647754425a5cf03b082db8fb529a967e358c6151cb0a6ac327df43d5475fde",
+      "payload_sha256": "37dd83f1b62a0edf0a565ceeca74887820892d41884f2e5922f4d5ba48d3ca30",
+      "tiled_sha256": "e898f11c99931eab6c4a7d1837ffab51c5a63bf4b477e2c5b5b0d2693ceba086",
+      "rgba_sha256": "05647754425a5cf03b082db8fb529a967e358c6151cb0a6ac327df43d5475fde",
+      "dimensions": [
+        256,
+        64
+      ],
+      "namespace_exact": true,
+      "image_id": "normal_map_title_000"
+    },
+    {
+      "disc": 2,
+      "path": "MC2Game/CookedXenon/Map_View_DunanHill.xxx",
+      "source_sha256": "ee97fd7b2b943e3ad9405e94af5aa3eb840c433e86cd036c3f622ca110eccbfd",
+      "package_guid": "a1cc26aa4f4bed7a6a2a9a832cbd60f1",
+      "header_sha256": "40c94cb193bbabbf95f24d710c95b4b1f1b724ba2cdc36eb69f31f9b2df9d52b",
+      "export": 66,
+      "object": "Map_View_DunanHill_Title",
+      "canonical": "Map_View_DunanHill.Map_View_DunanHill_Title",
+      "canonical_source": "MC2Game/CookedXenon/Map_View_DunanHill.xxx",
+      "canonical_object": "Map_View_DunanHill_Title",
+      "canonical_namespace_guid": "a1cc26aa4f4bed7a6a2a9a832cbd60f1",
+      "expected_rgba_sha256": "05647754425a5cf03b082db8fb529a967e358c6151cb0a6ac327df43d5475fde",
+      "payload_sha256": "37dd83f1b62a0edf0a565ceeca74887820892d41884f2e5922f4d5ba48d3ca30",
+      "tiled_sha256": "e898f11c99931eab6c4a7d1837ffab51c5a63bf4b477e2c5b5b0d2693ceba086",
+      "rgba_sha256": "05647754425a5cf03b082db8fb529a967e358c6151cb0a6ac327df43d5475fde",
+      "dimensions": [
+        256,
+        64
+      ],
+      "namespace_exact": true,
+      "image_id": "normal_map_title_000"
+    },
+    {
+      "disc": 2,
+      "path": "MC2Game/CookedXenon/Map_View_Lastrada_00.xxx",
+      "source_sha256": "0014121abf6c2315575f218b857330a9cbd5c7734568fe429468806aad31fecc",
+      "package_guid": "79d8c18e4f84bc827b8edfbb868ed6fd",
+      "header_sha256": "25542724d949aea94489950e25c237d9eb64373bddd0f0e9818044ae8b6df3cc",
+      "export": 63,
+      "object": "Map_View_Lastrada_Title",
+      "canonical": "Map_View_Lastrada_00.Map_View_Lastrada_Title",
+      "canonical_source": "MC2Game/CookedXenon/Map_View_Lastrada_00.xxx",
+      "canonical_object": "Map_View_Lastrada_Title",
+      "canonical_namespace_guid": "79d8c18e4f84bc827b8edfbb868ed6fd",
+      "expected_rgba_sha256": "d73838ef7ec318fa12397e655782461fc492cf3c6c573543bff68e051b841898",
+      "payload_sha256": "cb8b8c6ee03cd52cd22510bdc233e3acf8510863655c82fd00188109d5209a74",
+      "tiled_sha256": "5cb40d5d2d42fa50e4f2ec80be89adf6377fba8aac61ae1e6076ccb21c5169e8",
+      "rgba_sha256": "d73838ef7ec318fa12397e655782461fc492cf3c6c573543bff68e051b841898",
+      "dimensions": [
+        256,
+        64
+      ],
+      "namespace_exact": true,
+      "image_id": "normal_map_title_001"
+    },
+    {
+      "disc": 2,
+      "path": "MC2Game/CookedXenon/Map_View_Lastrada_01.xxx",
+      "source_sha256": "aa6535968883f546679961c759c9bd3d327a9ae75c976b994ab454103fae71f1",
+      "package_guid": "def194fe475715a906ef4e85a3187055",
+      "header_sha256": "7c61af9728ef647a622eaed352404c775a86eca26aeafc06508bb492657e1afc",
+      "export": 63,
+      "object": "Map_View_Lastrada_01_Title",
+      "canonical": "Map_View_Lastrada_01.Map_View_Lastrada_01_Title",
+      "canonical_source": "MC2Game/CookedXenon/Map_View_Lastrada_01.xxx",
+      "canonical_object": "Map_View_Lastrada_01_Title",
+      "canonical_namespace_guid": "def194fe475715a906ef4e85a3187055",
+      "expected_rgba_sha256": "e8f0119483825fc034bdd632e791461eb9bc30797be200d9de8e577415d5900b",
+      "payload_sha256": "649c0ba0d2204665cc4d16a802cf3fb6c826fee6001497d1eec69cbddc6dc356",
+      "tiled_sha256": "6614e869dfe5600fb1ceb6a40dfc8bd23c2516f2c3ebb1b590ef6c956eeb9bc1",
+      "rgba_sha256": "e8f0119483825fc034bdd632e791461eb9bc30797be200d9de8e577415d5900b",
+      "dimensions": [
+        256,
+        64
+      ],
+      "namespace_exact": true,
+      "image_id": "normal_map_title_002"
+    },
+    {
+      "disc": 2,
+      "path": "MC2Game/CookedXenon/Map_View_Lastrada_01.xxx",
+      "source_sha256": "aa6535968883f546679961c759c9bd3d327a9ae75c976b994ab454103fae71f1",
+      "package_guid": "def194fe475715a906ef4e85a3187055",
+      "header_sha256": "7c61af9728ef647a622eaed352404c775a86eca26aeafc06508bb492657e1afc",
+      "export": 64,
+      "object": "Map_View_Lastrada_Title",
+      "canonical": "Map_View_Lastrada_01.Map_View_Lastrada_Title",
+      "canonical_source": "MC2Game/CookedXenon/Map_View_Lastrada_01.xxx",
+      "canonical_object": "Map_View_Lastrada_Title",
+      "canonical_namespace_guid": "def194fe475715a906ef4e85a3187055",
+      "expected_rgba_sha256": "d73838ef7ec318fa12397e655782461fc492cf3c6c573543bff68e051b841898",
+      "payload_sha256": "0a916555aa13b977b8cad357b24c0f22db3a836e7f439b0c76974cb73454eed1",
+      "tiled_sha256": "5cb40d5d2d42fa50e4f2ec80be89adf6377fba8aac61ae1e6076ccb21c5169e8",
+      "rgba_sha256": "d73838ef7ec318fa12397e655782461fc492cf3c6c573543bff68e051b841898",
+      "dimensions": [
+        256,
+        64
+      ],
+      "namespace_exact": true,
+      "image_id": "normal_map_title_003"
+    },
+    {
+      "disc": 2,
+      "path": "MC2Game/CookedXenon/Map_View_Lastrada_02.xxx",
+      "source_sha256": "6a3b5ba480199301407979ca91fe458c23d2a8d774ac046fbf929240085f9adb",
+      "package_guid": "a612881d4b9db2ef8e0702a425ffd366",
+      "header_sha256": "7a7c91a545e4d39cca6d00cd1086cdfab2b510f6dffa9b43faf864106f3742c1",
+      "export": 63,
+      "object": "Map_View_Lastrada_01_Title",
+      "canonical": "Map_View_Lastrada_02.Map_View_Lastrada_01_Title",
+      "canonical_source": "MC2Game/CookedXenon/Map_View_Lastrada_02.xxx",
+      "canonical_object": "Map_View_Lastrada_01_Title",
+      "canonical_namespace_guid": "a612881d4b9db2ef8e0702a425ffd366",
+      "expected_rgba_sha256": "e8f0119483825fc034bdd632e791461eb9bc30797be200d9de8e577415d5900b",
+      "payload_sha256": "7ea7c163ddddd61ee7775101a5e8b685865aa449b444d51453a084764764d8f2",
+      "tiled_sha256": "6614e869dfe5600fb1ceb6a40dfc8bd23c2516f2c3ebb1b590ef6c956eeb9bc1",
+      "rgba_sha256": "e8f0119483825fc034bdd632e791461eb9bc30797be200d9de8e577415d5900b",
+      "dimensions": [
+        256,
+        64
+      ],
+      "namespace_exact": true,
+      "image_id": "normal_map_title_004"
+    },
+    {
+      "disc": 2,
+      "path": "MC2Game/CookedXenon/Map_View_Lastrada_02.xxx",
+      "source_sha256": "6a3b5ba480199301407979ca91fe458c23d2a8d774ac046fbf929240085f9adb",
+      "package_guid": "a612881d4b9db2ef8e0702a425ffd366",
+      "header_sha256": "7a7c91a545e4d39cca6d00cd1086cdfab2b510f6dffa9b43faf864106f3742c1",
+      "export": 64,
+      "object": "Map_View_Lastrada_Title",
+      "canonical": "Map_View_Lastrada_02.Map_View_Lastrada_Title",
+      "canonical_source": "MC2Game/CookedXenon/Map_View_Lastrada_02.xxx",
+      "canonical_object": "Map_View_Lastrada_Title",
+      "canonical_namespace_guid": "a612881d4b9db2ef8e0702a425ffd366",
+      "expected_rgba_sha256": "d73838ef7ec318fa12397e655782461fc492cf3c6c573543bff68e051b841898",
+      "payload_sha256": "f7aa3cb289b4af9a30356925d597ce3016acce47e70ecc78d2b9c0c55fb37754",
+      "tiled_sha256": "5cb40d5d2d42fa50e4f2ec80be89adf6377fba8aac61ae1e6076ccb21c5169e8",
+      "rgba_sha256": "d73838ef7ec318fa12397e655782461fc492cf3c6c573543bff68e051b841898",
+      "dimensions": [
+        256,
+        64
+      ],
+      "namespace_exact": true,
+      "image_id": "normal_map_title_005"
+    },
+    {
+      "disc": 2,
+      "path": "MC2Game/CookedXenon/Map_View_Lastrada_03.xxx",
+      "source_sha256": "424c384fee8565f2227d3f396fc929c191a344c6c61b2a5bb0fa670db5db6c13",
+      "package_guid": "b1106beb4ebe86dd4a50ca928ee497c1",
+      "header_sha256": "12773cee9349905633c83d33ea57a1905476b8170766cb2b2967fb45147e38dd",
+      "export": 63,
+      "object": "Map_View_Lastrada_01_Title",
+      "canonical": "Map_View_Lastrada_03.Map_View_Lastrada_01_Title",
+      "canonical_source": "MC2Game/CookedXenon/Map_View_Lastrada_03.xxx",
+      "canonical_object": "Map_View_Lastrada_01_Title",
+      "canonical_namespace_guid": "b1106beb4ebe86dd4a50ca928ee497c1",
+      "expected_rgba_sha256": "e8f0119483825fc034bdd632e791461eb9bc30797be200d9de8e577415d5900b",
+      "payload_sha256": "7ea7c163ddddd61ee7775101a5e8b685865aa449b444d51453a084764764d8f2",
+      "tiled_sha256": "6614e869dfe5600fb1ceb6a40dfc8bd23c2516f2c3ebb1b590ef6c956eeb9bc1",
+      "rgba_sha256": "e8f0119483825fc034bdd632e791461eb9bc30797be200d9de8e577415d5900b",
+      "dimensions": [
+        256,
+        64
+      ],
+      "namespace_exact": true,
+      "image_id": "normal_map_title_006"
+    },
+    {
+      "disc": 2,
+      "path": "MC2Game/CookedXenon/Map_View_Lastrada_03.xxx",
+      "source_sha256": "424c384fee8565f2227d3f396fc929c191a344c6c61b2a5bb0fa670db5db6c13",
+      "package_guid": "b1106beb4ebe86dd4a50ca928ee497c1",
+      "header_sha256": "12773cee9349905633c83d33ea57a1905476b8170766cb2b2967fb45147e38dd",
+      "export": 64,
+      "object": "Map_View_Lastrada_Title",
+      "canonical": "Map_View_Lastrada_03.Map_View_Lastrada_Title",
+      "canonical_source": "MC2Game/CookedXenon/Map_View_Lastrada_03.xxx",
+      "canonical_object": "Map_View_Lastrada_Title",
+      "canonical_namespace_guid": "b1106beb4ebe86dd4a50ca928ee497c1",
+      "expected_rgba_sha256": "d73838ef7ec318fa12397e655782461fc492cf3c6c573543bff68e051b841898",
+      "payload_sha256": "f7aa3cb289b4af9a30356925d597ce3016acce47e70ecc78d2b9c0c55fb37754",
+      "tiled_sha256": "5cb40d5d2d42fa50e4f2ec80be89adf6377fba8aac61ae1e6076ccb21c5169e8",
+      "rgba_sha256": "d73838ef7ec318fa12397e655782461fc492cf3c6c573543bff68e051b841898",
+      "dimensions": [
+        256,
+        64
+      ],
+      "namespace_exact": true,
+      "image_id": "normal_map_title_007"
+    },
+    {
+      "disc": 2,
+      "path": "MC2Game/CookedXenon/Map_View_Lastrada_04.xxx",
+      "source_sha256": "23886e94e678fe35374410de11954d0be051cd16fd4c09afa44f59da4a6f8d83",
+      "package_guid": "f0d2c23c4a094e74a9a13db65c6e27dd",
+      "header_sha256": "b8cb3e428166fa035cc7bfe31f4a86cf908a8c0cc4d0b74f3fa992707f3d5fd9",
+      "export": 64,
+      "object": "Map_View_Lastrada_Title",
+      "canonical": "Map_View_Lastrada_04.Map_View_Lastrada_Title",
+      "canonical_source": "MC2Game/CookedXenon/Map_View_Lastrada_04.xxx",
+      "canonical_object": "Map_View_Lastrada_Title",
+      "canonical_namespace_guid": "f0d2c23c4a094e74a9a13db65c6e27dd",
+      "expected_rgba_sha256": "d73838ef7ec318fa12397e655782461fc492cf3c6c573543bff68e051b841898",
+      "payload_sha256": "93f64cf23bd6046b34ee1d0d685c5afa1a7b9dbb8b2f010006db4fb6c5fe4ab4",
+      "tiled_sha256": "5cb40d5d2d42fa50e4f2ec80be89adf6377fba8aac61ae1e6076ccb21c5169e8",
+      "rgba_sha256": "d73838ef7ec318fa12397e655782461fc492cf3c6c573543bff68e051b841898",
+      "dimensions": [
+        256,
+        64
+      ],
+      "namespace_exact": true,
+      "image_id": "normal_map_title_008"
+    },
+    {
+      "disc": 2,
+      "path": "MC2Game/CookedXenon/Map_View_Lastrada_05.xxx",
+      "source_sha256": "c775059a5e169d18a43f66d9bc046e3abf80f67e5267db2dfaa804633824e4ec",
+      "package_guid": "72f293fe459c0b39438f57957ed41f6b",
+      "header_sha256": "e962e8a745963fa798cf4a324b4a68e60b4172ad595784cc7bb3d2bb620be271",
+      "export": 64,
+      "object": "Map_View_Lastrada_Title",
+      "canonical": "Map_View_Lastrada_05.Map_View_Lastrada_Title",
+      "canonical_source": "MC2Game/CookedXenon/Map_View_Lastrada_05.xxx",
+      "canonical_object": "Map_View_Lastrada_Title",
+      "canonical_namespace_guid": "72f293fe459c0b39438f57957ed41f6b",
+      "expected_rgba_sha256": "d73838ef7ec318fa12397e655782461fc492cf3c6c573543bff68e051b841898",
+      "payload_sha256": "93f64cf23bd6046b34ee1d0d685c5afa1a7b9dbb8b2f010006db4fb6c5fe4ab4",
+      "tiled_sha256": "5cb40d5d2d42fa50e4f2ec80be89adf6377fba8aac61ae1e6076ccb21c5169e8",
+      "rgba_sha256": "d73838ef7ec318fa12397e655782461fc492cf3c6c573543bff68e051b841898",
+      "dimensions": [
+        256,
+        64
+      ],
+      "namespace_exact": true,
+      "image_id": "normal_map_title_009"
+    },
+    {
+      "disc": 2,
+      "path": "MC2Game/CookedXenon/Map_View_Lastrada_06.xxx",
+      "source_sha256": "1828936b9e0ec3e6a1146597cb269c3e8a4f23d51d0b294d695f489348ba7d24",
+      "package_guid": "9a308cc5445e5a4fe3ff10be3e8cb865",
+      "header_sha256": "e64da088152db8e245c6e94fd5fad93495767b6e51ab9c57a75324c26c859db7",
+      "export": 64,
+      "object": "Map_View_Lastrada_Title",
+      "canonical": "Map_View_Lastrada_06.Map_View_Lastrada_Title",
+      "canonical_source": "MC2Game/CookedXenon/Map_View_Lastrada_06.xxx",
+      "canonical_object": "Map_View_Lastrada_Title",
+      "canonical_namespace_guid": "9a308cc5445e5a4fe3ff10be3e8cb865",
+      "expected_rgba_sha256": "d73838ef7ec318fa12397e655782461fc492cf3c6c573543bff68e051b841898",
+      "payload_sha256": "93f64cf23bd6046b34ee1d0d685c5afa1a7b9dbb8b2f010006db4fb6c5fe4ab4",
+      "tiled_sha256": "5cb40d5d2d42fa50e4f2ec80be89adf6377fba8aac61ae1e6076ccb21c5169e8",
+      "rgba_sha256": "d73838ef7ec318fa12397e655782461fc492cf3c6c573543bff68e051b841898",
+      "dimensions": [
+        256,
+        64
+      ],
+      "namespace_exact": true,
+      "image_id": "normal_map_title_010"
+    },
+    {
+      "disc": 2,
+      "path": "MC2Game/CookedXenon/Map_View_Lastrada_07.xxx",
+      "source_sha256": "940ffeeb7710a12562e961556d2d61b085d0733de6c00b526daee1d70e001f78",
+      "package_guid": "3990e2d64e09f8894ba823bc80b1d959",
+      "header_sha256": "5f1a2de881b6d404831aeaa0141a38d5bab1ec8e1dba5db8bc3bc73ffba3b0a5",
+      "export": 66,
+      "object": "Map_View_Lastrada_03_Text0",
+      "canonical": "Map_View_Lastrada_07.Map_View_Lastrada_03_Text0",
+      "canonical_source": "MC2Game/CookedXenon/Map_View_Lastrada_07.xxx",
+      "canonical_object": "Map_View_Lastrada_03_Text0",
+      "canonical_namespace_guid": "3990e2d64e09f8894ba823bc80b1d959",
+      "expected_rgba_sha256": "ac3a020f659bc05b6c5f020cbff23829b177dc25228364b777c6188f44d0104e",
+      "payload_sha256": "45eaf9cbcb8ec135774f5700abc9c4159455ed59e61b01736ac85828dc98acc3",
+      "tiled_sha256": "ce8094112caeaa1557df3c4b809d15bb6df3aad720c3f977bccb9fa91ebb397c",
+      "rgba_sha256": "ac3a020f659bc05b6c5f020cbff23829b177dc25228364b777c6188f44d0104e",
+      "dimensions": [
+        256,
+        128
+      ],
+      "namespace_exact": true,
+      "image_id": "normal_map_title_011"
+    },
+    {
+      "disc": 2,
+      "path": "MC2Game/CookedXenon/Map_View_Lastrada_07.xxx",
+      "source_sha256": "940ffeeb7710a12562e961556d2d61b085d0733de6c00b526daee1d70e001f78",
+      "package_guid": "3990e2d64e09f8894ba823bc80b1d959",
+      "header_sha256": "5f1a2de881b6d404831aeaa0141a38d5bab1ec8e1dba5db8bc3bc73ffba3b0a5",
+      "export": 68,
+      "object": "Map_View_Lastrada_Title",
+      "canonical": "Map_View_Lastrada_07.Map_View_Lastrada_Title",
+      "canonical_source": "MC2Game/CookedXenon/Map_View_Lastrada_07.xxx",
+      "canonical_object": "Map_View_Lastrada_Title",
+      "canonical_namespace_guid": "3990e2d64e09f8894ba823bc80b1d959",
+      "expected_rgba_sha256": "d73838ef7ec318fa12397e655782461fc492cf3c6c573543bff68e051b841898",
+      "payload_sha256": "2bba9c6b4156ca23ae2078f5ffdf3c10e79939ea76a1e6dd72f56eef23eab48c",
+      "tiled_sha256": "5cb40d5d2d42fa50e4f2ec80be89adf6377fba8aac61ae1e6076ccb21c5169e8",
+      "rgba_sha256": "d73838ef7ec318fa12397e655782461fc492cf3c6c573543bff68e051b841898",
+      "dimensions": [
+        256,
+        64
+      ],
+      "namespace_exact": true,
+      "image_id": "normal_map_title_012"
+    },
+    {
+      "disc": 2,
+      "path": "MC2Game/CookedXenon/Map_View_Lastrada_08.xxx",
+      "source_sha256": "75e61c5dc58cc0256b46329f08a30fe3f16205ca124742ce4e65550cf34e3e4a",
+      "package_guid": "bab70c3e4b146333257fd193bcee5661",
+      "header_sha256": "d6c1ad207c9a89e38b51e75707d4a84d4ac1af13a92a3d6a84d02bef405f39fb",
+      "export": 66,
+      "object": "Map_View_Lastrada_03_Text0",
+      "canonical": "Map_View_Lastrada_08.Map_View_Lastrada_03_Text0",
+      "canonical_source": "MC2Game/CookedXenon/Map_View_Lastrada_08.xxx",
+      "canonical_object": "Map_View_Lastrada_03_Text0",
+      "canonical_namespace_guid": "bab70c3e4b146333257fd193bcee5661",
+      "expected_rgba_sha256": "ac3a020f659bc05b6c5f020cbff23829b177dc25228364b777c6188f44d0104e",
+      "payload_sha256": "45eaf9cbcb8ec135774f5700abc9c4159455ed59e61b01736ac85828dc98acc3",
+      "tiled_sha256": "ce8094112caeaa1557df3c4b809d15bb6df3aad720c3f977bccb9fa91ebb397c",
+      "rgba_sha256": "ac3a020f659bc05b6c5f020cbff23829b177dc25228364b777c6188f44d0104e",
+      "dimensions": [
+        256,
+        128
+      ],
+      "namespace_exact": true,
+      "image_id": "normal_map_title_013"
+    },
+    {
+      "disc": 2,
+      "path": "MC2Game/CookedXenon/Map_View_Lastrada_08.xxx",
+      "source_sha256": "75e61c5dc58cc0256b46329f08a30fe3f16205ca124742ce4e65550cf34e3e4a",
+      "package_guid": "bab70c3e4b146333257fd193bcee5661",
+      "header_sha256": "d6c1ad207c9a89e38b51e75707d4a84d4ac1af13a92a3d6a84d02bef405f39fb",
+      "export": 68,
+      "object": "Map_View_Lastrada_Title",
+      "canonical": "Map_View_Lastrada_08.Map_View_Lastrada_Title",
+      "canonical_source": "MC2Game/CookedXenon/Map_View_Lastrada_08.xxx",
+      "canonical_object": "Map_View_Lastrada_Title",
+      "canonical_namespace_guid": "bab70c3e4b146333257fd193bcee5661",
+      "expected_rgba_sha256": "d73838ef7ec318fa12397e655782461fc492cf3c6c573543bff68e051b841898",
+      "payload_sha256": "2bba9c6b4156ca23ae2078f5ffdf3c10e79939ea76a1e6dd72f56eef23eab48c",
+      "tiled_sha256": "5cb40d5d2d42fa50e4f2ec80be89adf6377fba8aac61ae1e6076ccb21c5169e8",
+      "rgba_sha256": "d73838ef7ec318fa12397e655782461fc492cf3c6c573543bff68e051b841898",
+      "dimensions": [
+        256,
+        64
+      ],
+      "namespace_exact": true,
+      "image_id": "normal_map_title_014"
+    },
+    {
+      "disc": 2,
+      "path": "MC2Game/CookedXenon/Map_View_Lastrada_09.xxx",
+      "source_sha256": "34658595c8fed3db00e7a5774b26edcb5c155aad6973eb6cbf35585a4dd06b4e",
+      "package_guid": "08801b564d2f0ad37390438f1446f4b5",
+      "header_sha256": "e8f60fd3a2c3db2e322459406531cd6ffaccaa6cf6e5b482027934bcdba07afc",
+      "export": 66,
+      "object": "Map_View_Lastrada_03_Text0",
+      "canonical": "Map_View_Lastrada_09.Map_View_Lastrada_03_Text0",
+      "canonical_source": "MC2Game/CookedXenon/Map_View_Lastrada_09.xxx",
+      "canonical_object": "Map_View_Lastrada_03_Text0",
+      "canonical_namespace_guid": "08801b564d2f0ad37390438f1446f4b5",
+      "expected_rgba_sha256": "ac3a020f659bc05b6c5f020cbff23829b177dc25228364b777c6188f44d0104e",
+      "payload_sha256": "45eaf9cbcb8ec135774f5700abc9c4159455ed59e61b01736ac85828dc98acc3",
+      "tiled_sha256": "ce8094112caeaa1557df3c4b809d15bb6df3aad720c3f977bccb9fa91ebb397c",
+      "rgba_sha256": "ac3a020f659bc05b6c5f020cbff23829b177dc25228364b777c6188f44d0104e",
+      "dimensions": [
+        256,
+        128
+      ],
+      "namespace_exact": true,
+      "image_id": "normal_map_title_015"
+    },
+    {
+      "disc": 2,
+      "path": "MC2Game/CookedXenon/Map_View_Lastrada_09.xxx",
+      "source_sha256": "34658595c8fed3db00e7a5774b26edcb5c155aad6973eb6cbf35585a4dd06b4e",
+      "package_guid": "08801b564d2f0ad37390438f1446f4b5",
+      "header_sha256": "e8f60fd3a2c3db2e322459406531cd6ffaccaa6cf6e5b482027934bcdba07afc",
+      "export": 68,
+      "object": "Map_View_Lastrada_Title",
+      "canonical": "Map_View_Lastrada_09.Map_View_Lastrada_Title",
+      "canonical_source": "MC2Game/CookedXenon/Map_View_Lastrada_09.xxx",
+      "canonical_object": "Map_View_Lastrada_Title",
+      "canonical_namespace_guid": "08801b564d2f0ad37390438f1446f4b5",
+      "expected_rgba_sha256": "d73838ef7ec318fa12397e655782461fc492cf3c6c573543bff68e051b841898",
+      "payload_sha256": "2bba9c6b4156ca23ae2078f5ffdf3c10e79939ea76a1e6dd72f56eef23eab48c",
+      "tiled_sha256": "5cb40d5d2d42fa50e4f2ec80be89adf6377fba8aac61ae1e6076ccb21c5169e8",
+      "rgba_sha256": "d73838ef7ec318fa12397e655782461fc492cf3c6c573543bff68e051b841898",
+      "dimensions": [
+        256,
+        64
+      ],
+      "namespace_exact": true,
+      "image_id": "normal_map_title_016"
+    },
+    {
+      "disc": 2,
+      "path": "MC2Game/CookedXenon/Map_View_Lastrada_10.xxx",
+      "source_sha256": "98a7a7e033aefc13db38ade037e590ab748226f05244113c92456a1dd0f3cd62",
+      "package_guid": "ab5a3f8746dada3a724e43ad91ccdcc5",
+      "header_sha256": "1559ca2f0be30768244e6c82add3e8256b93fe322506c45df7fa1680644b211c",
+      "export": 62,
+      "object": "Map_View_Lastrada_Title",
+      "canonical": "Map_View_Lastrada_10.Map_View_Lastrada_Title",
+      "canonical_source": "MC2Game/CookedXenon/Map_View_Lastrada_10.xxx",
+      "canonical_object": "Map_View_Lastrada_Title",
+      "canonical_namespace_guid": "ab5a3f8746dada3a724e43ad91ccdcc5",
+      "expected_rgba_sha256": "d73838ef7ec318fa12397e655782461fc492cf3c6c573543bff68e051b841898",
+      "payload_sha256": "556e104c7253ae3e709d5d8bfe503fd42ead85279dd139035cb17f78013b3e7d",
+      "tiled_sha256": "5cb40d5d2d42fa50e4f2ec80be89adf6377fba8aac61ae1e6076ccb21c5169e8",
+      "rgba_sha256": "d73838ef7ec318fa12397e655782461fc492cf3c6c573543bff68e051b841898",
+      "dimensions": [
+        256,
+        64
+      ],
+      "namespace_exact": true,
+      "image_id": "normal_map_title_017"
+    },
+    {
+      "disc": 2,
+      "path": "MC2Game/CookedXenon/Map_View_Lastrada_11.xxx",
+      "source_sha256": "76f00854b974077ead07f9fdf03f622243b2cc2b922912bed14edb0a221b5924",
+      "package_guid": "a717743a4854fb433422aaaa761cfa17",
+      "header_sha256": "ae7c00c8b6059e4c29e225ac34402ca5532534fb48601824602a50987cdb8078",
+      "export": 63,
+      "object": "Map_View_Lastrada_Title",
+      "canonical": "Map_View_Lastrada_11.Map_View_Lastrada_Title",
+      "canonical_source": "MC2Game/CookedXenon/Map_View_Lastrada_11.xxx",
+      "canonical_object": "Map_View_Lastrada_Title",
+      "canonical_namespace_guid": "a717743a4854fb433422aaaa761cfa17",
+      "expected_rgba_sha256": "d73838ef7ec318fa12397e655782461fc492cf3c6c573543bff68e051b841898",
+      "payload_sha256": "33d8a4f8df65a8c490bbdb39b2e7fb466a32fd787fc2d86e7885374aaafae868",
+      "tiled_sha256": "5cb40d5d2d42fa50e4f2ec80be89adf6377fba8aac61ae1e6076ccb21c5169e8",
+      "rgba_sha256": "d73838ef7ec318fa12397e655782461fc492cf3c6c573543bff68e051b841898",
+      "dimensions": [
+        256,
+        64
+      ],
+      "namespace_exact": true,
+      "image_id": "normal_map_title_018"
+    },
+    {
+      "disc": 2,
+      "path": "MC2Game/CookedXenon/Map_View_Lastrada_12.xxx",
+      "source_sha256": "68a5eadd0ae450bcda179f220351f1dedeaa204ec33fd0e1704981ba631e842a",
+      "package_guid": "80129b7547a07cb43044a581d1e8dfe9",
+      "header_sha256": "74066646be55735fe514add76f380217b3d368e3f75411d7ac0d8ea53dd75abc",
+      "export": 63,
+      "object": "Map_View_Lastrada_Title",
+      "canonical": "Map_View_Lastrada_12.Map_View_Lastrada_Title",
+      "canonical_source": "MC2Game/CookedXenon/Map_View_Lastrada_12.xxx",
+      "canonical_object": "Map_View_Lastrada_Title",
+      "canonical_namespace_guid": "80129b7547a07cb43044a581d1e8dfe9",
+      "expected_rgba_sha256": "d73838ef7ec318fa12397e655782461fc492cf3c6c573543bff68e051b841898",
+      "payload_sha256": "33d8a4f8df65a8c490bbdb39b2e7fb466a32fd787fc2d86e7885374aaafae868",
+      "tiled_sha256": "5cb40d5d2d42fa50e4f2ec80be89adf6377fba8aac61ae1e6076ccb21c5169e8",
+      "rgba_sha256": "d73838ef7ec318fa12397e655782461fc492cf3c6c573543bff68e051b841898",
+      "dimensions": [
+        256,
+        64
+      ],
+      "namespace_exact": true,
+      "image_id": "normal_map_title_019"
+    },
+    {
+      "disc": 2,
+      "path": "MC2Game/CookedXenon/Map_View_Lastrada_13.xxx",
+      "source_sha256": "fb139c9e32bdbdf567024e10e0c7b011b542d1471431a7a7b3dc9b0d692dff5a",
+      "package_guid": "73e15a6c4f323ca74a3a8988385e2769",
+      "header_sha256": "3e317d7edfc0197309a720053fc564adcaba7390d75cf826399b800bf7d52278",
+      "export": 63,
+      "object": "Map_View_Lastrada_Title",
+      "canonical": "Map_View_Lastrada_13.Map_View_Lastrada_Title",
+      "canonical_source": "MC2Game/CookedXenon/Map_View_Lastrada_13.xxx",
+      "canonical_object": "Map_View_Lastrada_Title",
+      "canonical_namespace_guid": "73e15a6c4f323ca74a3a8988385e2769",
+      "expected_rgba_sha256": "d73838ef7ec318fa12397e655782461fc492cf3c6c573543bff68e051b841898",
+      "payload_sha256": "4e44aa4e619c3bdfba8091bc9419224ae6fe433156c61a7b2369ae9a4def9c3f",
+      "tiled_sha256": "5cb40d5d2d42fa50e4f2ec80be89adf6377fba8aac61ae1e6076ccb21c5169e8",
+      "rgba_sha256": "d73838ef7ec318fa12397e655782461fc492cf3c6c573543bff68e051b841898",
+      "dimensions": [
+        256,
+        64
+      ],
+      "namespace_exact": true,
+      "image_id": "normal_map_title_020"
+    },
+    {
+      "disc": 2,
+      "path": "MC2Game/CookedXenon/Map_View_Lastrada_14.xxx",
+      "source_sha256": "cf3666abda7812a4fb853b2aca11820545d2f566476a1c13db76d386a9a70c3d",
+      "package_guid": "b200f42f4d9f7f6bf77900bf36882ade",
+      "header_sha256": "a79b63cd46b02ea71f42fed115829f7174543ba0f613ef7c242e7957cfc7c53b",
+      "export": 63,
+      "object": "Map_View_Lastrada_Title",
+      "canonical": "Map_View_Lastrada_14.Map_View_Lastrada_Title",
+      "canonical_source": "MC2Game/CookedXenon/Map_View_Lastrada_14.xxx",
+      "canonical_object": "Map_View_Lastrada_Title",
+      "canonical_namespace_guid": "b200f42f4d9f7f6bf77900bf36882ade",
+      "expected_rgba_sha256": "d73838ef7ec318fa12397e655782461fc492cf3c6c573543bff68e051b841898",
+      "payload_sha256": "4e44aa4e619c3bdfba8091bc9419224ae6fe433156c61a7b2369ae9a4def9c3f",
+      "tiled_sha256": "5cb40d5d2d42fa50e4f2ec80be89adf6377fba8aac61ae1e6076ccb21c5169e8",
+      "rgba_sha256": "d73838ef7ec318fa12397e655782461fc492cf3c6c573543bff68e051b841898",
+      "dimensions": [
+        256,
+        64
+      ],
+      "namespace_exact": true,
+      "image_id": "normal_map_title_021"
+    },
+    {
+      "disc": 2,
+      "path": "MC2Game/CookedXenon/Map_View_Lastrada_15.xxx",
+      "source_sha256": "b38a23b28d44e20ead256c8d889e582f112bcb193c4c91f46f6e38a11e8955fc",
+      "package_guid": "72a049694df2811562f5668111d3ce13",
+      "header_sha256": "d585b8fa68300aa2ffa7f680f3a2a7bd5b933444820772ec1bc4ddce0eb2616c",
+      "export": 63,
+      "object": "Map_View_Lastrada_Title",
+      "canonical": "Map_View_Lastrada_15.Map_View_Lastrada_Title",
+      "canonical_source": "MC2Game/CookedXenon/Map_View_Lastrada_15.xxx",
+      "canonical_object": "Map_View_Lastrada_Title",
+      "canonical_namespace_guid": "72a049694df2811562f5668111d3ce13",
+      "expected_rgba_sha256": "d73838ef7ec318fa12397e655782461fc492cf3c6c573543bff68e051b841898",
+      "payload_sha256": "4e44aa4e619c3bdfba8091bc9419224ae6fe433156c61a7b2369ae9a4def9c3f",
+      "tiled_sha256": "5cb40d5d2d42fa50e4f2ec80be89adf6377fba8aac61ae1e6076ccb21c5169e8",
+      "rgba_sha256": "d73838ef7ec318fa12397e655782461fc492cf3c6c573543bff68e051b841898",
+      "dimensions": [
+        256,
+        64
+      ],
+      "namespace_exact": true,
+      "image_id": "normal_map_title_022"
+    },
+    {
+      "disc": 2,
+      "path": "MC2Game/CookedXenon/Map_View_Lastrada_16.xxx",
+      "source_sha256": "0d408f455e5d3e69754a69f8a395e1358a4c407f9e8aa3dc386144142105f190",
+      "package_guid": "dbccc82f489ad5051ff66994af884e75",
+      "header_sha256": "73bf317adc91f3125e3b86f9ca75e1445baad5fe87f170b21f5e739b609f3a01",
+      "export": 63,
+      "object": "Map_View_Lastrada_Title",
+      "canonical": "Map_View_Lastrada_16.Map_View_Lastrada_Title",
+      "canonical_source": "MC2Game/CookedXenon/Map_View_Lastrada_16.xxx",
+      "canonical_object": "Map_View_Lastrada_Title",
+      "canonical_namespace_guid": "dbccc82f489ad5051ff66994af884e75",
+      "expected_rgba_sha256": "d73838ef7ec318fa12397e655782461fc492cf3c6c573543bff68e051b841898",
+      "payload_sha256": "4e44aa4e619c3bdfba8091bc9419224ae6fe433156c61a7b2369ae9a4def9c3f",
+      "tiled_sha256": "5cb40d5d2d42fa50e4f2ec80be89adf6377fba8aac61ae1e6076ccb21c5169e8",
+      "rgba_sha256": "d73838ef7ec318fa12397e655782461fc492cf3c6c573543bff68e051b841898",
+      "dimensions": [
+        256,
+        64
+      ],
+      "namespace_exact": true,
+      "image_id": "normal_map_title_023"
+    },
+    {
+      "disc": 2,
+      "path": "MC2Game/CookedXenon/Map_View_Lastrada_17.xxx",
+      "source_sha256": "1f8ae24aff8dae230c29fc64457e3d6891eb61691adb7d360d565255fcf6f264",
+      "package_guid": "be4efc9b4dd3f1541e34629f70790ba8",
+      "header_sha256": "5bc6bb3fad2e92829bf5253e13ddf3d91924d7fc72d0b5fb1682318e72f2e1c9",
+      "export": 63,
+      "object": "Map_View_Lastrada_Title",
+      "canonical": "Map_View_Lastrada_17.Map_View_Lastrada_Title",
+      "canonical_source": "MC2Game/CookedXenon/Map_View_Lastrada_17.xxx",
+      "canonical_object": "Map_View_Lastrada_Title",
+      "canonical_namespace_guid": "be4efc9b4dd3f1541e34629f70790ba8",
+      "expected_rgba_sha256": "d73838ef7ec318fa12397e655782461fc492cf3c6c573543bff68e051b841898",
+      "payload_sha256": "4e44aa4e619c3bdfba8091bc9419224ae6fe433156c61a7b2369ae9a4def9c3f",
+      "tiled_sha256": "5cb40d5d2d42fa50e4f2ec80be89adf6377fba8aac61ae1e6076ccb21c5169e8",
+      "rgba_sha256": "d73838ef7ec318fa12397e655782461fc492cf3c6c573543bff68e051b841898",
+      "dimensions": [
+        256,
+        64
+      ],
+      "namespace_exact": true,
+      "image_id": "normal_map_title_024"
+    },
+    {
+      "disc": 2,
+      "path": "MC2Game/CookedXenon/Map_View_SentinelLab.xxx",
+      "source_sha256": "a706a2120dff6b10196e793d3d5ebd95aaf5f27bece301e3fc5a1a2406c91686",
+      "package_guid": "a1a4d91b4713c25501e30ea4cdf37121",
+      "header_sha256": "f0ea004b0acb15093a39d4f6ded8d283f40ffa47fdfc09baa98bff21673c21be",
+      "export": 67,
+      "object": "Map_View_Senti_Title",
+      "canonical": "Map_View_SentinelLab.Map_View_Senti_Title",
+      "canonical_source": "MC2Game/CookedXenon/Map_View_SentinelLab.xxx",
+      "canonical_object": "Map_View_Senti_Title",
+      "canonical_namespace_guid": "a1a4d91b4713c25501e30ea4cdf37121",
+      "expected_rgba_sha256": "9137eb6651c50afaa042d9993150d3e6c664edecde54fffafb50354a0d32b18b",
+      "payload_sha256": "3238bcdcd45888c5b4fd3903fd6ec9f869899be8029367638a52cb5b9239f922",
+      "tiled_sha256": "920219479dbae7b60dcde71102137f267d8be38ee7e87f44df7f5624a68894af",
+      "rgba_sha256": "9137eb6651c50afaa042d9993150d3e6c664edecde54fffafb50354a0d32b18b",
+      "dimensions": [
+        256,
+        128
+      ],
+      "namespace_exact": true,
+      "image_id": "normal_map_title_025"
+    },
+    {
+      "disc": 2,
+      "path": "MC2Game/CookedXenon/Map_View_SentinelLab.xxx",
+      "source_sha256": "a706a2120dff6b10196e793d3d5ebd95aaf5f27bece301e3fc5a1a2406c91686",
+      "package_guid": "a1a4d91b4713c25501e30ea4cdf37121",
+      "header_sha256": "f0ea004b0acb15093a39d4f6ded8d283f40ffa47fdfc09baa98bff21673c21be",
+      "export": 68,
+      "object": "Map_View_Senti_Title2",
+      "canonical": "Map_View_SentinelLab.Map_View_Senti_Title2",
+      "canonical_source": "MC2Game/CookedXenon/Map_View_SentinelLab.xxx",
+      "canonical_object": "Map_View_Senti_Title2",
+      "canonical_namespace_guid": "a1a4d91b4713c25501e30ea4cdf37121",
+      "expected_rgba_sha256": "9ba2d8b83b14689aac1e877f199524fa095b7c7acf17a230cbeb9427202292ad",
+      "payload_sha256": "5dcf1bfaa52e2016263b8ff7c10fbd36f4ff8cc4d282b4052a76668e6b21e742",
+      "tiled_sha256": "16c9a0526a5bde6f6929ab64cf12682268c3432635957f530b45b9837a25b665",
+      "rgba_sha256": "9ba2d8b83b14689aac1e877f199524fa095b7c7acf17a230cbeb9427202292ad",
+      "dimensions": [
+        128,
+        32
+      ],
+      "namespace_exact": true,
+      "image_id": "normal_map_title_026"
+    }
+  ],
+  "source_materialization": "locales/zh-Hans/source-resources/normal-map-view-titles.json",
+  "prior1425_layers_canonical_sha256": "00dd1055772eb6ba22cfc329279e4796530f50e25be1d84037d7ded0a00b1838",
+  "remaining_map_namespace_groups": 57,
+  "semantic_holds": [
+    "원수의언덕"
+  ],
+  "terrain_reconstruction_hypothesis_adopted": false,
+  "tutorial_illustrations_all_original": true,
+  "preserved": "native title assets; original terrain, Latin proper-name sublines and Senti 1/2 numerals exact; all prior labels retained"
+}

@@ -15,8 +15,9 @@
       "adopted_pending_validation": 27,
       "retain_original_Boss": 1,
       "retain_verified_effect": 8,
-      "held_semantics": 3,
-      "held_runtime_binding": 27
+      "adopted_actual_style_menu_mastery": 2,
+      "retain_original_no_normal_ui_reference": 27,
+      "retain_original_no_current_skill_binding": 1
     },
     "unique_resource_object_payloads": 1860,
     "physical_disc_instances": 3720,
@@ -30,7 +31,7 @@
     "ui_tutorial_classification_complete": true,
     "global_all_packages_visual_audit_complete": false
   },
-  "plan_sha256": "4b30ab65fb986a9c2671bdda4a0e873afd283dc11eb740e55d7d0e76dbaea646",
+  "plan_sha256": "3bad1c139fd5a77aeef0ee60602f2929cee0b77175f80f8850fc7527a9e285cf",
   "reviewed_unique_previews": 648,
   "contact_sheet_count": 14,
   "source_payloads_or_full_images_included": false,
@@ -27880,11 +27881,14 @@
         }
       ],
       "id": 897,
-      "status": "held_semantics",
+      "status": "adopted_actual_style_menu_mastery",
       "family": "UI_Field",
       "batch": "held_terms",
       "review_id": 334,
-      "review_method": "visually reviewed locked native-preview contact sheet;classification only,not alias proof"
+      "review_method": "visually reviewed locked native-preview contact sheet;classification only,not alias proof",
+      "translation_required": false,
+      "adoption_phase": 312,
+      "evidence": "locales/zh-Hans/candidate-decisions/style-mastery-captions.json"
     },
     {
       "resource": "MC2Game/CookedXenon/UI_Field.xxx",
@@ -27975,11 +27979,14 @@
         }
       ],
       "id": 900,
-      "status": "held_semantics",
+      "status": "adopted_actual_style_menu_mastery",
       "family": "UI_Field",
       "batch": "held_terms",
       "review_id": 337,
-      "review_method": "visually reviewed locked native-preview contact sheet;classification only,not alias proof"
+      "review_method": "visually reviewed locked native-preview contact sheet;classification only,not alias proof",
+      "translation_required": false,
+      "adoption_phase": 312,
+      "evidence": "locales/zh-Hans/candidate-decisions/style-mastery-captions.json"
     },
     {
       "resource": "MC2Game/CookedXenon/UI_Field.xxx",
@@ -31157,11 +31164,14 @@
         }
       ],
       "id": 1003,
-      "status": "held_runtime_binding",
+      "status": "retain_original_no_normal_ui_reference",
       "family": "UI_InternalTest",
       "batch": "internal_test_dialogue",
       "review_id": 408,
-      "review_method": "visually reviewed locked native-preview contact sheet;classification only,not alias proof"
+      "review_method": "visually reviewed locked native-preview contact sheet;classification only,not alias proof",
+      "translation_required": false,
+      "evidence": "locales/zh-Hans/candidate-decisions/original-only-legacy-ui-assets.json",
+      "decision_phase": 312
     },
     {
       "resource": "MC2Game/CookedXenon/UI_InternalTest.xxx",
@@ -31188,11 +31198,14 @@
         }
       ],
       "id": 1004,
-      "status": "held_runtime_binding",
+      "status": "retain_original_no_normal_ui_reference",
       "family": "UI_InternalTest",
       "batch": "internal_test_dialogue",
       "review_id": 409,
-      "review_method": "visually reviewed locked native-preview contact sheet;classification only,not alias proof"
+      "review_method": "visually reviewed locked native-preview contact sheet;classification only,not alias proof",
+      "translation_required": false,
+      "evidence": "locales/zh-Hans/candidate-decisions/original-only-legacy-ui-assets.json",
+      "decision_phase": 312
     },
     {
       "resource": "MC2Game/CookedXenon/UI_InternalTest.xxx",
@@ -31219,11 +31232,14 @@
         }
       ],
       "id": 1005,
-      "status": "held_runtime_binding",
+      "status": "retain_original_no_normal_ui_reference",
       "family": "UI_InternalTest",
       "batch": "internal_test_dialogue",
       "review_id": 410,
-      "review_method": "visually reviewed locked native-preview contact sheet;classification only,not alias proof"
+      "review_method": "visually reviewed locked native-preview contact sheet;classification only,not alias proof",
+      "translation_required": false,
+      "evidence": "locales/zh-Hans/candidate-decisions/original-only-legacy-ui-assets.json",
+      "decision_phase": 312
     },
     {
       "resource": "MC2Game/CookedXenon/UI_InternalTest.xxx",
@@ -31250,11 +31266,14 @@
         }
       ],
       "id": 1006,
-      "status": "held_runtime_binding",
+      "status": "retain_original_no_normal_ui_reference",
       "family": "UI_InternalTest",
       "batch": "internal_test_dialogue",
       "review_id": 411,
-      "review_method": "visually reviewed locked native-preview contact sheet;classification only,not alias proof"
+      "review_method": "visually reviewed locked native-preview contact sheet;classification only,not alias proof",
+      "translation_required": false,
+      "evidence": "locales/zh-Hans/candidate-decisions/original-only-legacy-ui-assets.json",
+      "decision_phase": 312
     },
     {
       "resource": "MC2Game/CookedXenon/UI_InternalTest.xxx",
@@ -31281,11 +31300,14 @@
         }
       ],
       "id": 1007,
-      "status": "held_runtime_binding",
+      "status": "retain_original_no_normal_ui_reference",
       "family": "UI_InternalTest",
       "batch": "internal_test_dialogue",
       "review_id": 412,
-      "review_method": "visually reviewed locked native-preview contact sheet;classification only,not alias proof"
+      "review_method": "visually reviewed locked native-preview contact sheet;classification only,not alias proof",
+      "translation_required": false,
+      "evidence": "locales/zh-Hans/candidate-decisions/original-only-legacy-ui-assets.json",
+      "decision_phase": 312
     },
     {
       "resource": "MC2Game/CookedXenon/UI_InternalTest.xxx",
@@ -31312,11 +31334,14 @@
         }
       ],
       "id": 1008,
-      "status": "held_runtime_binding",
+      "status": "retain_original_no_normal_ui_reference",
       "family": "UI_InternalTest",
       "batch": "internal_test_dialogue",
       "review_id": 413,
-      "review_method": "visually reviewed locked native-preview contact sheet;classification only,not alias proof"
+      "review_method": "visually reviewed locked native-preview contact sheet;classification only,not alias proof",
+      "translation_required": false,
+      "evidence": "locales/zh-Hans/candidate-decisions/original-only-legacy-ui-assets.json",
+      "decision_phase": 312
     },
     {
       "resource": "MC2Game/CookedXenon/UI_InternalTest.xxx",
@@ -31343,11 +31368,14 @@
         }
       ],
       "id": 1009,
-      "status": "held_runtime_binding",
+      "status": "retain_original_no_normal_ui_reference",
       "family": "UI_InternalTest",
       "batch": "internal_test_dialogue",
       "review_id": 414,
-      "review_method": "visually reviewed locked native-preview contact sheet;classification only,not alias proof"
+      "review_method": "visually reviewed locked native-preview contact sheet;classification only,not alias proof",
+      "translation_required": false,
+      "evidence": "locales/zh-Hans/candidate-decisions/original-only-legacy-ui-assets.json",
+      "decision_phase": 312
     },
     {
       "resource": "MC2Game/CookedXenon/UI_InternalTest.xxx",
@@ -31374,11 +31402,14 @@
         }
       ],
       "id": 1010,
-      "status": "held_runtime_binding",
+      "status": "retain_original_no_normal_ui_reference",
       "family": "UI_InternalTest",
       "batch": "internal_test_dialogue",
       "review_id": 415,
-      "review_method": "visually reviewed locked native-preview contact sheet;classification only,not alias proof"
+      "review_method": "visually reviewed locked native-preview contact sheet;classification only,not alias proof",
+      "translation_required": false,
+      "evidence": "locales/zh-Hans/candidate-decisions/original-only-legacy-ui-assets.json",
+      "decision_phase": 312
     },
     {
       "resource": "MC2Game/CookedXenon/UI_InternalTest.xxx",
@@ -31405,11 +31436,14 @@
         }
       ],
       "id": 1011,
-      "status": "held_runtime_binding",
+      "status": "retain_original_no_normal_ui_reference",
       "family": "UI_InternalTest",
       "batch": "internal_test_dialogue",
       "review_id": 416,
-      "review_method": "visually reviewed locked native-preview contact sheet;classification only,not alias proof"
+      "review_method": "visually reviewed locked native-preview contact sheet;classification only,not alias proof",
+      "translation_required": false,
+      "evidence": "locales/zh-Hans/candidate-decisions/original-only-legacy-ui-assets.json",
+      "decision_phase": 312
     },
     {
       "resource": "MC2Game/CookedXenon/UI_InternalTest.xxx",
@@ -31436,11 +31470,14 @@
         }
       ],
       "id": 1012,
-      "status": "held_runtime_binding",
+      "status": "retain_original_no_normal_ui_reference",
       "family": "UI_InternalTest",
       "batch": "internal_test_dialogue",
       "review_id": 417,
-      "review_method": "visually reviewed locked native-preview contact sheet;classification only,not alias proof"
+      "review_method": "visually reviewed locked native-preview contact sheet;classification only,not alias proof",
+      "translation_required": false,
+      "evidence": "locales/zh-Hans/candidate-decisions/original-only-legacy-ui-assets.json",
+      "decision_phase": 312
     },
     {
       "resource": "MC2Game/CookedXenon/UI_InternalTest.xxx",
@@ -31467,11 +31504,14 @@
         }
       ],
       "id": 1013,
-      "status": "held_runtime_binding",
+      "status": "retain_original_no_normal_ui_reference",
       "family": "UI_InternalTest",
       "batch": "internal_test_dialogue",
       "review_id": 418,
-      "review_method": "visually reviewed locked native-preview contact sheet;classification only,not alias proof"
+      "review_method": "visually reviewed locked native-preview contact sheet;classification only,not alias proof",
+      "translation_required": false,
+      "evidence": "locales/zh-Hans/candidate-decisions/original-only-legacy-ui-assets.json",
+      "decision_phase": 312
     },
     {
       "resource": "MC2Game/CookedXenon/UI_InternalTest.xxx",
@@ -31498,11 +31538,14 @@
         }
       ],
       "id": 1014,
-      "status": "held_runtime_binding",
+      "status": "retain_original_no_normal_ui_reference",
       "family": "UI_InternalTest",
       "batch": "internal_test_dialogue",
       "review_id": 419,
-      "review_method": "visually reviewed locked native-preview contact sheet;classification only,not alias proof"
+      "review_method": "visually reviewed locked native-preview contact sheet;classification only,not alias proof",
+      "translation_required": false,
+      "evidence": "locales/zh-Hans/candidate-decisions/original-only-legacy-ui-assets.json",
+      "decision_phase": 312
     },
     {
       "resource": "MC2Game/CookedXenon/UI_InternalTest.xxx",
@@ -31529,11 +31572,14 @@
         }
       ],
       "id": 1015,
-      "status": "held_runtime_binding",
+      "status": "retain_original_no_normal_ui_reference",
       "family": "UI_InternalTest",
       "batch": "internal_test_dialogue",
       "review_id": 420,
-      "review_method": "visually reviewed locked native-preview contact sheet;classification only,not alias proof"
+      "review_method": "visually reviewed locked native-preview contact sheet;classification only,not alias proof",
+      "translation_required": false,
+      "evidence": "locales/zh-Hans/candidate-decisions/original-only-legacy-ui-assets.json",
+      "decision_phase": 312
     },
     {
       "resource": "MC2Game/CookedXenon/UI_InternalTest.xxx",
@@ -31560,11 +31606,14 @@
         }
       ],
       "id": 1016,
-      "status": "held_runtime_binding",
+      "status": "retain_original_no_normal_ui_reference",
       "family": "UI_InternalTest",
       "batch": "internal_test_dialogue",
       "review_id": 421,
-      "review_method": "visually reviewed locked native-preview contact sheet;classification only,not alias proof"
+      "review_method": "visually reviewed locked native-preview contact sheet;classification only,not alias proof",
+      "translation_required": false,
+      "evidence": "locales/zh-Hans/candidate-decisions/original-only-legacy-ui-assets.json",
+      "decision_phase": 312
     },
     {
       "resource": "MC2Game/CookedXenon/UI_InternalTest.xxx",
@@ -31591,11 +31640,14 @@
         }
       ],
       "id": 1017,
-      "status": "held_runtime_binding",
+      "status": "retain_original_no_normal_ui_reference",
       "family": "UI_InternalTest",
       "batch": "internal_test_dialogue",
       "review_id": 422,
-      "review_method": "visually reviewed locked native-preview contact sheet;classification only,not alias proof"
+      "review_method": "visually reviewed locked native-preview contact sheet;classification only,not alias proof",
+      "translation_required": false,
+      "evidence": "locales/zh-Hans/candidate-decisions/original-only-legacy-ui-assets.json",
+      "decision_phase": 312
     },
     {
       "resource": "MC2Game/CookedXenon/UI_InternalTest.xxx",
@@ -31622,11 +31674,14 @@
         }
       ],
       "id": 1018,
-      "status": "held_runtime_binding",
+      "status": "retain_original_no_normal_ui_reference",
       "family": "UI_InternalTest",
       "batch": "internal_test_dialogue",
       "review_id": 423,
-      "review_method": "visually reviewed locked native-preview contact sheet;classification only,not alias proof"
+      "review_method": "visually reviewed locked native-preview contact sheet;classification only,not alias proof",
+      "translation_required": false,
+      "evidence": "locales/zh-Hans/candidate-decisions/original-only-legacy-ui-assets.json",
+      "decision_phase": 312
     },
     {
       "resource": "MC2Game/CookedXenon/UI_InternalTest.xxx",
@@ -31653,11 +31708,14 @@
         }
       ],
       "id": 1019,
-      "status": "held_runtime_binding",
+      "status": "retain_original_no_normal_ui_reference",
       "family": "UI_InternalTest",
       "batch": "internal_test_dialogue",
       "review_id": 424,
-      "review_method": "visually reviewed locked native-preview contact sheet;classification only,not alias proof"
+      "review_method": "visually reviewed locked native-preview contact sheet;classification only,not alias proof",
+      "translation_required": false,
+      "evidence": "locales/zh-Hans/candidate-decisions/original-only-legacy-ui-assets.json",
+      "decision_phase": 312
     },
     {
       "resource": "MC2Game/CookedXenon/UI_InternalTest.xxx",
@@ -31684,11 +31742,14 @@
         }
       ],
       "id": 1020,
-      "status": "held_runtime_binding",
+      "status": "retain_original_no_normal_ui_reference",
       "family": "UI_InternalTest",
       "batch": "internal_test_dialogue",
       "review_id": 425,
-      "review_method": "visually reviewed locked native-preview contact sheet;classification only,not alias proof"
+      "review_method": "visually reviewed locked native-preview contact sheet;classification only,not alias proof",
+      "translation_required": false,
+      "evidence": "locales/zh-Hans/candidate-decisions/original-only-legacy-ui-assets.json",
+      "decision_phase": 312
     },
     {
       "resource": "MC2Game/CookedXenon/UI_InternalTest.xxx",
@@ -31715,11 +31776,14 @@
         }
       ],
       "id": 1021,
-      "status": "held_runtime_binding",
+      "status": "retain_original_no_normal_ui_reference",
       "family": "UI_InternalTest",
       "batch": "internal_test_dialogue",
       "review_id": 426,
-      "review_method": "visually reviewed locked native-preview contact sheet;classification only,not alias proof"
+      "review_method": "visually reviewed locked native-preview contact sheet;classification only,not alias proof",
+      "translation_required": false,
+      "evidence": "locales/zh-Hans/candidate-decisions/original-only-legacy-ui-assets.json",
+      "decision_phase": 312
     },
     {
       "resource": "MC2Game/CookedXenon/UI_InternalTest.xxx",
@@ -31746,11 +31810,14 @@
         }
       ],
       "id": 1022,
-      "status": "held_runtime_binding",
+      "status": "retain_original_no_normal_ui_reference",
       "family": "UI_InternalTest",
       "batch": "internal_test_dialogue",
       "review_id": 427,
-      "review_method": "visually reviewed locked native-preview contact sheet;classification only,not alias proof"
+      "review_method": "visually reviewed locked native-preview contact sheet;classification only,not alias proof",
+      "translation_required": false,
+      "evidence": "locales/zh-Hans/candidate-decisions/original-only-legacy-ui-assets.json",
+      "decision_phase": 312
     },
     {
       "resource": "MC2Game/CookedXenon/UI_InternalTest.xxx",
@@ -31777,11 +31844,14 @@
         }
       ],
       "id": 1023,
-      "status": "held_runtime_binding",
+      "status": "retain_original_no_normal_ui_reference",
       "family": "UI_InternalTest",
       "batch": "internal_test_dialogue",
       "review_id": 428,
-      "review_method": "visually reviewed locked native-preview contact sheet;classification only,not alias proof"
+      "review_method": "visually reviewed locked native-preview contact sheet;classification only,not alias proof",
+      "translation_required": false,
+      "evidence": "locales/zh-Hans/candidate-decisions/original-only-legacy-ui-assets.json",
+      "decision_phase": 312
     },
     {
       "resource": "MC2Game/CookedXenon/UI_InternalTest.xxx",
@@ -31808,11 +31878,14 @@
         }
       ],
       "id": 1024,
-      "status": "held_runtime_binding",
+      "status": "retain_original_no_normal_ui_reference",
       "family": "UI_InternalTest",
       "batch": "internal_test_dialogue",
       "review_id": 429,
-      "review_method": "visually reviewed locked native-preview contact sheet;classification only,not alias proof"
+      "review_method": "visually reviewed locked native-preview contact sheet;classification only,not alias proof",
+      "translation_required": false,
+      "evidence": "locales/zh-Hans/candidate-decisions/original-only-legacy-ui-assets.json",
+      "decision_phase": 312
     },
     {
       "resource": "MC2Game/CookedXenon/UI_InternalTest.xxx",
@@ -31839,11 +31912,14 @@
         }
       ],
       "id": 1025,
-      "status": "held_runtime_binding",
+      "status": "retain_original_no_normal_ui_reference",
       "family": "UI_InternalTest",
       "batch": "internal_test_dialogue",
       "review_id": 430,
-      "review_method": "visually reviewed locked native-preview contact sheet;classification only,not alias proof"
+      "review_method": "visually reviewed locked native-preview contact sheet;classification only,not alias proof",
+      "translation_required": false,
+      "evidence": "locales/zh-Hans/candidate-decisions/original-only-legacy-ui-assets.json",
+      "decision_phase": 312
     },
     {
       "resource": "MC2Game/CookedXenon/UI_InternalTest.xxx",
@@ -31870,11 +31946,14 @@
         }
       ],
       "id": 1026,
-      "status": "held_runtime_binding",
+      "status": "retain_original_no_normal_ui_reference",
       "family": "UI_InternalTest",
       "batch": "internal_test_dialogue",
       "review_id": 431,
-      "review_method": "visually reviewed locked native-preview contact sheet;classification only,not alias proof"
+      "review_method": "visually reviewed locked native-preview contact sheet;classification only,not alias proof",
+      "translation_required": false,
+      "evidence": "locales/zh-Hans/candidate-decisions/original-only-legacy-ui-assets.json",
+      "decision_phase": 312
     },
     {
       "resource": "MC2Game/CookedXenon/UI_InternalTest.xxx",
@@ -31901,11 +31980,14 @@
         }
       ],
       "id": 1027,
-      "status": "held_runtime_binding",
+      "status": "retain_original_no_normal_ui_reference",
       "family": "UI_InternalTest",
       "batch": "internal_test_dialogue",
       "review_id": 432,
-      "review_method": "visually reviewed locked native-preview contact sheet;classification only,not alias proof"
+      "review_method": "visually reviewed locked native-preview contact sheet;classification only,not alias proof",
+      "translation_required": false,
+      "evidence": "locales/zh-Hans/candidate-decisions/original-only-legacy-ui-assets.json",
+      "decision_phase": 312
     },
     {
       "resource": "MC2Game/CookedXenon/UI_InternalTest.xxx",
@@ -31932,11 +32014,14 @@
         }
       ],
       "id": 1028,
-      "status": "held_runtime_binding",
+      "status": "retain_original_no_normal_ui_reference",
       "family": "UI_InternalTest",
       "batch": "internal_test_dialogue",
       "review_id": 433,
-      "review_method": "visually reviewed locked native-preview contact sheet;classification only,not alias proof"
+      "review_method": "visually reviewed locked native-preview contact sheet;classification only,not alias proof",
+      "translation_required": false,
+      "evidence": "locales/zh-Hans/candidate-decisions/original-only-legacy-ui-assets.json",
+      "decision_phase": 312
     },
     {
       "resource": "MC2Game/CookedXenon/UI_InternalTest.xxx",
@@ -31963,11 +32048,14 @@
         }
       ],
       "id": 1029,
-      "status": "held_runtime_binding",
+      "status": "retain_original_no_normal_ui_reference",
       "family": "UI_InternalTest",
       "batch": "internal_test_dialogue",
       "review_id": 434,
-      "review_method": "visually reviewed locked native-preview contact sheet;classification only,not alias proof"
+      "review_method": "visually reviewed locked native-preview contact sheet;classification only,not alias proof",
+      "translation_required": false,
+      "evidence": "locales/zh-Hans/candidate-decisions/original-only-legacy-ui-assets.json",
+      "decision_phase": 312
     },
     {
       "resource": "MC2Game/CookedXenon/UI_InternalTest.xxx",
@@ -47032,11 +47120,14 @@
         }
       ],
       "id": 1543,
-      "status": "held_semantics",
+      "status": "retain_original_no_current_skill_binding",
       "family": "UI_SkillName",
       "batch": "held_terms",
       "review_id": 499,
-      "review_method": "visually reviewed locked native-preview contact sheet;classification only,not alias proof"
+      "review_method": "visually reviewed locked native-preview contact sheet;classification only,not alias proof",
+      "translation_required": false,
+      "evidence": "locales/zh-Hans/candidate-decisions/original-only-legacy-ui-assets.json",
+      "decision_phase": 312
     },
     {
       "resource": "MC2Game/CookedXenon/UI_Store.xxx",

@@ -1632,3 +1632,7 @@ UI包和MC2Game驻留强制导出可能共享规范GUID，但各自payload哈希
 ## Verified: same-path export classes (phase309)
 
 The source-locked Tutorial_32_1 package contains Core.Package export15 and Engine.Texture2D export22 with the same full path. Texture selection must require both path and the unique Engine.Texture2D class, not take the first path match. Multiple matching textures still fail; package SHA, selected payload SHA, native tile/pixel locks and nonselected-export preservation remain mandatory. The original selector and its ambiguity rejection are restored and tested on an isolated source copy.
+
+## 阶段312：场景纹理只读轮廓（已验证）
+
+实际原盘存在索引 UnpackMin 属性和BC最小4×4尾级，不适用旧UI单级纹理轮廓。0x41流式mip可由同盘规范xxx包定位：必须同时核对强制导出命名空间、源GUID、唯一Texture2D路径和完整mip的尺寸/计数/长度/偏移，只有外部标志位不同；不是凭名字找任意文件或TFC。NPOT较大非尾级以实际单位跨度进行只读解块，检查偏移边界、坐标不重叠及身份scatter。未验证的小尾级、缺少规范源及未知SourceArt继续记录，不放宽正式写入器。

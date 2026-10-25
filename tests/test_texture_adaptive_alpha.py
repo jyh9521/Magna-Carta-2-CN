@@ -44,8 +44,8 @@ class FieldMenuPlanTests(unittest.TestCase):
   self.assertEqual(self.d['footprint_revision'],2);self.assertTrue(self.d['previous_native_candidate_rejected']);self.assertEqual(self.d['non_glyph_alpha_residuals'],0)
  def test_prior1128_layers_unchanged(self):
   raw=json.dumps(self.plan['labels'][:1128],ensure_ascii=False,sort_keys=True,separators=(',',':')).encode();self.assertEqual(hashlib.sha256(raw).hexdigest(),'122843d5aaf0d8ff000cdd7abdc4d7f268d360d08e0535c87a863934f160c253')
- def test_original_badges_and_art_explicitly_protected(self):
-  edits=[e for s in self.plan['sources']for e in s['textures']if e.get('image_id')=='field_mainmenu_atlas'];self.assertEqual(len(edits),1);e=edits[0];self.assertEqual(e['alpha_encoding'],'adaptive-range');self.assertTrue(e['preserve_unchanged_blocks']);self.assertEqual({p['id']for p in e['protected_regions']},{'master_held','sid_and_arrow','hp_exp_lv_panel','blue_panel_art','menu_left_gutter'});self.assertTrue(all(x['blocks_preserved']for x in self.d['native_encoded_proof']['protected_regions']));self.assertTrue(any('卡蒙德盘'in a['translation']for a in self.d['terminology_anchors']))
+ def test_original_ui_numbers_and_art_explicitly_protected(self):
+  edits=[e for s in self.plan['sources']for e in s['textures']if e.get('image_id')=='field_mainmenu_atlas'];self.assertEqual(len(edits),1);e=edits[0];self.assertEqual(e['alpha_encoding'],'adaptive-range');self.assertTrue(e['preserve_unchanged_blocks']);self.assertEqual({p['id']for p in e['protected_regions']},{'sid_and_arrow','hp_exp_lv_panel','blue_panel_art','menu_left_gutter'});self.assertIn('field_menu_master',e['regions']);self.assertTrue(all(x['blocks_preserved']for x in self.d['native_encoded_proof']['protected_regions']));self.assertTrue(any('卡蒙德盘'in a['translation']for a in self.d['terminology_anchors']))
   for row in self.d['entries']:
    for ref in row['label']['restoration'].values():
     if isinstance(ref,dict):self.assertEqual(hashlib.sha256((ROOT/ref['path']).read_bytes()).hexdigest(),ref['sha256'])

@@ -2,7 +2,7 @@
   "schema_version": 1,
   "inventory": {
     "path": "locales/zh-Hans/asset-backlog/ui-tutorial-audit.json",
-    "sha256": "a4f5c2b5481b86de6657bf67cb7f5a06315f644892fb609dd48b862d66899c42"
+    "sha256": "b10c4bcad46dbcf6cda94ca74fe14e6dee19ca5badab9a44ef46c490dbf3910c"
   },
   "batch_policy": "Process all27 ready-review UI objects together;do not publish one tiny caption per stage. Translation evidence and complete glyph/shadow coverage still required;Boss original.",
   "batches": [
@@ -167,7 +167,15 @@
         900,
         1543
       ],
-      "execution": "held_for_evidence"
+      "execution": "normal scope resolved:2MASTER objects adopted;old skill picture original without current data binding;no guessed translation",
+      "completed_items": [
+        897,
+        900
+      ],
+      "pending_items": [],
+      "retained_original_items": [
+        1543
+      ]
     },
     {
       "id": "internal_test_dialogue",
@@ -201,7 +209,9 @@
         1028,
         1029
       ],
-      "execution": "held_for_evidence"
+      "execution": "original retained:27text pictures absent from compiled normal UI reference tables;normal question dialogue frames preserved;not a global native-unreachability claim",
+      "translation_required": false,
+      "decision_phase": 312
     }
   ],
   "outside_prefix": {

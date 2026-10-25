@@ -16,6 +16,11 @@ import struct
 import zlib
 
 try:
+    from .pure_bytes_cache import bounded_bytes_cache
+except ImportError:
+    from pure_bytes_cache import bounded_bytes_cache
+
+try:
     from .ue3_package import Reader, FormatError, LzxDecoder, parse_summary, parse_tables
     from .ue3_fonts import read_properties, unique_properties, int_property
 except ImportError:
@@ -223,7 +228,7 @@ def supplement_white_dxt5_cell(tiled, width, height, x, y, cell_width, cell_heig
     return scatter_linear_dxt5_cell(tiled, width, height, x, y, cell_width, cell_height, linear)
 
 
-def decode_dxt5(data, width, height):
+def _decode_dxt5_reference(data, width, height):
     """Decode standard linear little-endian BC3 blocks to RGBA, without dependencies."""
     if width <= 0 or height <= 0 or width % 4 or height % 4 or len(data) != width * height:
         raise FormatError("invalid linear DXT5 buffer or dimensions")
@@ -253,6 +258,36 @@ def decode_dxt5(data, width, height):
                 target = ((by * 4 + pixel // 4) * width + bx * 4 + pixel % 4) * 4
                 out[target:target + 4] = bytes((*color, opacity))
     return bytes(out)
+
+
+def _decode_dxt5_pillow(data, width, height):
+    """Optional existing Pillow DDS codec; absence retains the Python oracle."""
+    try:
+        from PIL import Image
+    except ImportError:
+        return None
+    import io
+    header = bytearray(128)
+    header[:4] = b'DDS '
+    struct.pack_into('<7I', header, 4, 124, 0x81007, height, width, len(data), 0, 1)
+    struct.pack_into('<II4s', header, 76, 32, 4, b'DXT5')
+    struct.pack_into('<I', header, 108, 0x1000)
+    with Image.open(io.BytesIO(bytes(header) + data), formats=['DDS']) as image:
+        result = image.convert('RGBA').tobytes()
+    if len(result) != width * height * 4:
+        raise FormatError('accelerated BC3 decoded size mismatch')
+    return result
+
+
+@bounded_bytes_cache(64 * 1024 * 1024)
+def decode_dxt5(data, width, height):
+    """Bit-exact BC3 decoding with optional acceleration and bounded byte reuse."""
+    if type(data) is not bytes or type(width) is not int or type(height) is not int:
+        return _decode_dxt5_reference(data, width, height)
+    if width <= 0 or height <= 0 or width % 4 or height % 4 or len(data) != width * height:
+        raise FormatError('invalid linear DXT5 buffer or dimensions')
+    result = _decode_dxt5_pillow(data, width, height)
+    return _decode_dxt5_reference(data, width, height) if result is None else result
 
 
 def png_rgba(pixels, width, height):

@@ -1639,3 +1639,7 @@ Verified / 词条绑定：教程技能截图291的第二项是윈드 커터（�
 A full object path is not necessarily unique across export classes: an actual package export may share a texture path. Require the intended unique class and keep byte/GUID guards; never select the first path hit or accept duplicate textures. For overlapping CHAIN BREAK/actor captions, the high-caption trial exposed a flat source-palette band and was rejected/archived. render_window crop0 overlapped protected gauge pixels; crop1 exceeded the fixed source-palette color guard. Final crop2 passed at the unchanged RGB-error32 limit, retaining both meanings in an explicit compound caption. Do not widen the palette tolerance or erase gauge rows to make a trial pass.
 
 Phase309 follow-up: the package writer class fix alone was insufficient: before/after preview extraction still selected path without class and rejected the actual collision. Both now call the same strict select_texture_export routine; tests assert the shared selector identity. The failed unpublished build left no output directory and its log/records are retained. No prior successful phase is rebuilt.
+
+## 阶段312补漏
+
+UI_前缀不是全部正常游戏UI；Data_Skill.SkillNameDisplayTexture指向SkillName_Jpn等外前缀资源。以整个原生数据对象中的纹理引用和Strings字段配对，可避免从旧日文图片猜当前技能。UI_InternalTest含正常对话场景/框架，不能把整包都当调试资源。旧单级UI轮廓拒绝场景索引属性和外部mip，不意味着资源损坏或无文字。纯解码复用必须按完整不可变数据/尺寸并限制字节和项数，不缓存文件哈希结果或合并GUID命名空间。Windows写JSON使用write_bytes固定LF，再建立散列引用，避免Git规范化后干净源码哈希失配。

@@ -1,0 +1,1062 @@
+{
+  "schema_version": 1,
+  "kind": "style-mastery-caption-adoption",
+  "applied": true,
+  "game_rendering_verified": false,
+  "translation": "精通",
+  "new_layers": 5,
+  "new_groups": 2,
+  "old_groups": 654,
+  "old_layers": 1212,
+  "total_groups": 656,
+  "total_layers": 1217,
+  "total_physical_aliases": 2547,
+  "plan": {
+    "path": "locales/zh-Hans/texture-overlays/ui-labels.json",
+    "sha256": "3bad1c139fd5a77aeef0ee60602f2929cee0b77175f80f8850fc7527a9e285cf"
+  },
+  "new_labels": [
+    "field_menu_master",
+    "style_info_location",
+    "style_info_play_time",
+    "style_info_master",
+    "style_master_badge"
+  ],
+  "evidence": {
+    "source_sha256": "13f92622e2ae2920f6ce6dfc7b0edbbcbec7e83adeacbd56fed84a021739a641",
+    "links": [
+      {
+        "owner": "UI_Field.Mat.Master_Mat",
+        "property": "ReferencedTextures",
+        "target": "UI_Field.Textures.Field_MainMenu_Master"
+      },
+      {
+        "owner": "UI_Field_2.Scenes.StyleMenu.StyleCategoryPanel.Style_List.MainPanel.Master_Main",
+        "property": "ImageComponent",
+        "target": "UI_Field_2.Scenes.StyleMenu.StyleCategoryPanel.Style_List.MainPanel.Master_Main.ImageComponentTemplate"
+      },
+      {
+        "owner": "UI_Field_2.Scenes.StyleMenu.StyleCategoryPanel.Style_List.SubPanel.Master_Sub",
+        "property": "ImageComponent",
+        "target": "UI_Field_2.Scenes.StyleMenu.StyleCategoryPanel.Style_List.SubPanel.Master_Sub.ImageComponentTemplate"
+      },
+      {
+        "owner": "UI_Field_2.Scenes.StyleMenu.Base.Style_Box.Style_Master_Text_Box.MasterDescription",
+        "property": "StringRenderComponent",
+        "target": "UI_Field_2.Scenes.StyleMenu.Base.Style_Box.Style_Master_Text_Box.MasterDescription.LabelStringRenderer"
+      },
+      {
+        "owner": "UI_Field_2.Scenes.StyleMenu.StyleCategoryPanel.Style_List.MainPanel.Master_Main.ImageComponentTemplate",
+        "property": "ImageRef",
+        "target": "UI_Field_2.Scenes.StyleMenu.StyleCategoryPanel.Style_List.MainPanel.Master_Main.ImageComponentTemplate.UITexture_0"
+      },
+      {
+        "owner": "UI_Field_2.Scenes.StyleMenu.StyleCategoryPanel.Style_List.SubPanel.Master_Sub.ImageComponentTemplate",
+        "property": "ImageRef",
+        "target": "UI_Field_2.Scenes.StyleMenu.StyleCategoryPanel.Style_List.SubPanel.Master_Sub.ImageComponentTemplate.UITexture_0"
+      },
+      {
+        "owner": "UI_Field_2.Scenes.StyleMenu.StyleCategoryPanel.Style_List.MainPanel.Master_Main.ImageComponentTemplate.UITexture_0",
+        "property": "ImageTexture",
+        "target": "UI_Field.Textures.Field_MainMenu_Master"
+      },
+      {
+        "owner": "UI_Field_2.Scenes.StyleMenu.StyleCategoryPanel.Style_List.SubPanel.Master_Sub.ImageComponentTemplate.UITexture_0",
+        "property": "ImageTexture",
+        "target": "UI_Field.Textures.Field_MainMenu_Master"
+      }
+    ],
+    "nodes": [
+      {
+        "index": 34818,
+        "path": "UI_Field.Mat.Master_Mat",
+        "class_path": "Engine.Material",
+        "depth": 0,
+        "fields": [
+          {
+            "property_path": [
+              {
+                "name": "EmissiveColor",
+                "array_index": 0
+              }
+            ],
+            "type": "StructProperty",
+            "logical_package_offset": 11221238,
+            "struct": "ColorMaterialInput"
+          },
+          {
+            "property_path": [
+              {
+                "name": "Opacity",
+                "array_index": 0
+              }
+            ],
+            "type": "StructProperty",
+            "logical_package_offset": 11221418,
+            "struct": "ScalarMaterialInput"
+          },
+          {
+            "property_path": [
+              {
+                "name": "BlendMode",
+                "array_index": 0
+              }
+            ],
+            "type": "ByteProperty",
+            "logical_package_offset": 11221478,
+            "value": 2,
+            "value_encoding": "u8"
+          },
+          {
+            "property_path": [
+              {
+                "name": "LightingModel",
+                "array_index": 0
+              }
+            ],
+            "type": "ByteProperty",
+            "logical_package_offset": 11221503,
+            "value": 2,
+            "value_encoding": "u8"
+          },
+          {
+            "property_path": [
+              {
+                "name": "Expressions",
+                "array_index": 0
+              }
+            ],
+            "type": "ArrayProperty",
+            "logical_package_offset": 11221528
+          },
+          {
+            "property_path": [
+              {
+                "name": "ReferencedTextures",
+                "array_index": 0
+              }
+            ],
+            "type": "ArrayProperty",
+            "logical_package_offset": 11221580
+          }
+        ],
+        "opaque": [
+          {
+            "property_path": [
+              {
+                "name": "EmissiveColor",
+                "array_index": 0
+              }
+            ],
+            "type": "StructProperty",
+            "logical_package_offset": 11221238,
+            "struct": "ColorMaterialInput",
+            "size": 148
+          },
+          {
+            "property_path": [
+              {
+                "name": "Opacity",
+                "array_index": 0
+              }
+            ],
+            "type": "StructProperty",
+            "logical_package_offset": 11221418,
+            "struct": "ScalarMaterialInput",
+            "size": 36
+          }
+        ]
+      },
+      {
+        "index": 43321,
+        "path": "UI_Field_2.Scenes.StyleMenu.StyleCategoryPanel.Style_List.MainPanel.Master_Main",
+        "class_path": "MC2UIImage",
+        "depth": 0,
+        "fields": [
+          {
+            "property_path": [
+              {
+                "name": "ImageComponent",
+                "array_index": 0
+              }
+            ],
+            "type": "ObjectProperty",
+            "logical_package_offset": 18377994,
+            "reference": 58990
+          },
+          {
+            "property_path": [
+              {
+                "name": "WidgetID",
+                "array_index": 0
+              }
+            ],
+            "type": "StructProperty",
+            "logical_package_offset": 18378030,
+            "struct": "WIDGET_ID"
+          },
+          {
+            "property_path": [
+              {
+                "name": "WidgetTag",
+                "array_index": 0
+              }
+            ],
+            "type": "NameProperty",
+            "logical_package_offset": 18378174,
+            "value": {
+              "name": "Master_Main",
+              "number": 0
+            }
+          },
+          {
+            "property_path": [
+              {
+                "name": "Owner",
+                "array_index": 0
+              }
+            ],
+            "type": "ObjectProperty",
+            "logical_package_offset": 18378206,
+            "reference": 65702
+          },
+          {
+            "property_path": [
+              {
+                "name": "OwnerScene",
+                "array_index": 0
+              }
+            ],
+            "type": "ObjectProperty",
+            "logical_package_offset": 18378234,
+            "reference": 44976
+          },
+          {
+            "property_path": [
+              {
+                "name": "DockTargets",
+                "array_index": 0
+              }
+            ],
+            "type": "StructProperty",
+            "logical_package_offset": 18378270,
+            "struct": "UIDockingSet"
+          },
+          {
+            "property_path": [
+              {
+                "name": "Position",
+                "array_index": 0
+              }
+            ],
+            "type": "StructProperty",
+            "logical_package_offset": 18378338,
+            "struct": "UIScreenValue_Bounds"
+          },
+          {
+            "property_path": [
+              {
+                "name": "InactiveStates",
+                "array_index": 0
+              }
+            ],
+            "type": "ArrayProperty",
+            "logical_package_offset": 18378482
+          },
+          {
+            "property_path": [
+              {
+                "name": "EventProvider",
+                "array_index": 0
+              }
+            ],
+            "type": "ObjectProperty",
+            "logical_package_offset": 18378522,
+            "reference": 64233
+          }
+        ],
+        "opaque": [
+          {
+            "property_path": [
+              {
+                "name": "WidgetID",
+                "array_index": 0
+              }
+            ],
+            "type": "StructProperty",
+            "logical_package_offset": 18378030,
+            "struct": "WIDGET_ID",
+            "size": 120
+          },
+          {
+            "property_path": [
+              {
+                "name": "DockTargets",
+                "array_index": 0
+              }
+            ],
+            "type": "StructProperty",
+            "logical_package_offset": 18378270,
+            "struct": "UIDockingSet",
+            "size": 36
+          },
+          {
+            "property_path": [
+              {
+                "name": "Position",
+                "array_index": 0
+              }
+            ],
+            "type": "StructProperty",
+            "logical_package_offset": 18378338,
+            "struct": "UIScreenValue_Bounds",
+            "size": 120
+          }
+        ]
+      },
+      {
+        "index": 43325,
+        "path": "UI_Field_2.Scenes.StyleMenu.StyleCategoryPanel.Style_List.SubPanel.Master_Sub",
+        "class_path": "MC2UIImage",
+        "depth": 0,
+        "fields": [
+          {
+            "property_path": [
+              {
+                "name": "ImageComponent",
+                "array_index": 0
+              }
+            ],
+            "type": "ObjectProperty",
+            "logical_package_offset": 18380404,
+            "reference": 58996
+          },
+          {
+            "property_path": [
+              {
+                "name": "WidgetID",
+                "array_index": 0
+              }
+            ],
+            "type": "StructProperty",
+            "logical_package_offset": 18380440,
+            "struct": "WIDGET_ID"
+          },
+          {
+            "property_path": [
+              {
+                "name": "WidgetTag",
+                "array_index": 0
+              }
+            ],
+            "type": "NameProperty",
+            "logical_package_offset": 18380584,
+            "value": {
+              "name": "Master_Sub",
+              "number": 0
+            }
+          },
+          {
+            "property_path": [
+              {
+                "name": "Owner",
+                "array_index": 0
+              }
+            ],
+            "type": "ObjectProperty",
+            "logical_package_offset": 18380616,
+            "reference": 65703
+          },
+          {
+            "property_path": [
+              {
+                "name": "OwnerScene",
+                "array_index": 0
+              }
+            ],
+            "type": "ObjectProperty",
+            "logical_package_offset": 18380644,
+            "reference": 44976
+          },
+          {
+            "property_path": [
+              {
+                "name": "DockTargets",
+                "array_index": 0
+              }
+            ],
+            "type": "StructProperty",
+            "logical_package_offset": 18380680,
+            "struct": "UIDockingSet"
+          },
+          {
+            "property_path": [
+              {
+                "name": "Position",
+                "array_index": 0
+              }
+            ],
+            "type": "StructProperty",
+            "logical_package_offset": 18380748,
+            "struct": "UIScreenValue_Bounds"
+          },
+          {
+            "property_path": [
+              {
+                "name": "InactiveStates",
+                "array_index": 0
+              }
+            ],
+            "type": "ArrayProperty",
+            "logical_package_offset": 18380892
+          },
+          {
+            "property_path": [
+              {
+                "name": "EventProvider",
+                "array_index": 0
+              }
+            ],
+            "type": "ObjectProperty",
+            "logical_package_offset": 18380932,
+            "reference": 64240
+          }
+        ],
+        "opaque": [
+          {
+            "property_path": [
+              {
+                "name": "WidgetID",
+                "array_index": 0
+              }
+            ],
+            "type": "StructProperty",
+            "logical_package_offset": 18380440,
+            "struct": "WIDGET_ID",
+            "size": 120
+          },
+          {
+            "property_path": [
+              {
+                "name": "DockTargets",
+                "array_index": 0
+              }
+            ],
+            "type": "StructProperty",
+            "logical_package_offset": 18380680,
+            "struct": "UIDockingSet",
+            "size": 36
+          },
+          {
+            "property_path": [
+              {
+                "name": "Position",
+                "array_index": 0
+              }
+            ],
+            "type": "StructProperty",
+            "logical_package_offset": 18380748,
+            "struct": "UIScreenValue_Bounds",
+            "size": 120
+          }
+        ]
+      },
+      {
+        "index": 44407,
+        "path": "UI_Field_2.Scenes.StyleMenu.Base.Style_Box.Style_Master_Text_Box.MasterDescription",
+        "class_path": "MC2UILabel",
+        "depth": 0,
+        "fields": [
+          {
+            "property_path": [
+              {
+                "name": "StringRenderComponent",
+                "array_index": 0
+              }
+            ],
+            "type": "ObjectProperty",
+            "logical_package_offset": 19131429,
+            "reference": 60274
+          },
+          {
+            "property_path": [
+              {
+                "name": "WidgetID",
+                "array_index": 0
+              }
+            ],
+            "type": "StructProperty",
+            "logical_package_offset": 19131465,
+            "struct": "WIDGET_ID"
+          },
+          {
+            "property_path": [
+              {
+                "name": "WidgetTag",
+                "array_index": 0
+              }
+            ],
+            "type": "NameProperty",
+            "logical_package_offset": 19131609,
+            "value": {
+              "name": "MasterDescription",
+              "number": 0
+            }
+          },
+          {
+            "property_path": [
+              {
+                "name": "Owner",
+                "array_index": 0
+              }
+            ],
+            "type": "ObjectProperty",
+            "logical_package_offset": 19131641,
+            "reference": 43295
+          },
+          {
+            "property_path": [
+              {
+                "name": "OwnerScene",
+                "array_index": 0
+              }
+            ],
+            "type": "ObjectProperty",
+            "logical_package_offset": 19131669,
+            "reference": 44976
+          },
+          {
+            "property_path": [
+              {
+                "name": "DockTargets",
+                "array_index": 0
+              }
+            ],
+            "type": "StructProperty",
+            "logical_package_offset": 19131705,
+            "struct": "UIDockingSet"
+          },
+          {
+            "property_path": [
+              {
+                "name": "Rotation",
+                "array_index": 0
+              }
+            ],
+            "type": "StructProperty",
+            "logical_package_offset": 19131773,
+            "struct": "UIRotation"
+          },
+          {
+            "property_path": [
+              {
+                "name": "Position",
+                "array_index": 0
+              }
+            ],
+            "type": "StructProperty",
+            "logical_package_offset": 19131903,
+            "struct": "UIScreenValue_Bounds"
+          },
+          {
+            "property_path": [
+              {
+                "name": "InactiveStates",
+                "array_index": 0
+              }
+            ],
+            "type": "ArrayProperty",
+            "logical_package_offset": 19132019
+          },
+          {
+            "property_path": [
+              {
+                "name": "EventProvider",
+                "array_index": 0
+              }
+            ],
+            "type": "ObjectProperty",
+            "logical_package_offset": 19132055,
+            "reference": 64203
+          }
+        ],
+        "opaque": [
+          {
+            "property_path": [
+              {
+                "name": "WidgetID",
+                "array_index": 0
+              }
+            ],
+            "type": "StructProperty",
+            "logical_package_offset": 19131465,
+            "struct": "WIDGET_ID",
+            "size": 120
+          },
+          {
+            "property_path": [
+              {
+                "name": "DockTargets",
+                "array_index": 0
+              }
+            ],
+            "type": "StructProperty",
+            "logical_package_offset": 19131705,
+            "struct": "UIDockingSet",
+            "size": 36
+          },
+          {
+            "property_path": [
+              {
+                "name": "Rotation",
+                "array_index": 0
+              }
+            ],
+            "type": "StructProperty",
+            "logical_package_offset": 19131773,
+            "struct": "UIRotation",
+            "size": 98
+          },
+          {
+            "property_path": [
+              {
+                "name": "Position",
+                "array_index": 0
+              }
+            ],
+            "type": "StructProperty",
+            "logical_package_offset": 19131903,
+            "struct": "UIScreenValue_Bounds",
+            "size": 92
+          }
+        ]
+      },
+      {
+        "index": 55618,
+        "path": "UI_Field.Textures.Field_MainMenu_Master",
+        "class_path": "Engine.Texture2D",
+        "depth": 1,
+        "fields": [
+          {
+            "property_path": [
+              {
+                "name": "SizeX",
+                "array_index": 0
+              }
+            ],
+            "type": "IntProperty",
+            "logical_package_offset": 47114089,
+            "value": 64
+          },
+          {
+            "property_path": [
+              {
+                "name": "SizeY",
+                "array_index": 0
+              }
+            ],
+            "type": "IntProperty",
+            "logical_package_offset": 47114117,
+            "value": 32
+          },
+          {
+            "property_path": [
+              {
+                "name": "Format",
+                "array_index": 0
+              }
+            ],
+            "type": "ByteProperty",
+            "logical_package_offset": 47114145,
+            "value": 7,
+            "value_encoding": "u8"
+          },
+          {
+            "property_path": [
+              {
+                "name": "AddressX",
+                "array_index": 0
+              }
+            ],
+            "type": "ByteProperty",
+            "logical_package_offset": 47114170,
+            "value": 1,
+            "value_encoding": "u8"
+          },
+          {
+            "property_path": [
+              {
+                "name": "AddressY",
+                "array_index": 0
+              }
+            ],
+            "type": "ByteProperty",
+            "logical_package_offset": 47114195,
+            "value": 1,
+            "value_encoding": "u8"
+          },
+          {
+            "property_path": [
+              {
+                "name": "MipTailBaseIdx",
+                "array_index": 0
+              }
+            ],
+            "type": "IntProperty",
+            "logical_package_offset": 47114220,
+            "value": 1
+          },
+          {
+            "property_path": [
+              {
+                "name": "NeverStream",
+                "array_index": 0
+              }
+            ],
+            "type": "BoolProperty",
+            "logical_package_offset": 47114248,
+            "value": 1,
+            "value_storage": "tag-header",
+            "logical_payload_offset": 47114252
+          },
+          {
+            "property_path": [
+              {
+                "name": "LODGroup",
+                "array_index": 0
+              }
+            ],
+            "type": "ByteProperty",
+            "logical_package_offset": 47114276,
+            "value": 14,
+            "value_encoding": "u8"
+          },
+          {
+            "property_path": [
+              {
+                "name": "SourceFilePath",
+                "array_index": 0
+              }
+            ],
+            "type": "StrProperty",
+            "logical_package_offset": 47114301,
+            "value": "D:\\_WORK\\_UI upk\\Flied\\Field_MainMenu_Master.tga"
+          },
+          {
+            "property_path": [
+              {
+                "name": "SourceFileTimestamp",
+                "array_index": 0
+              }
+            ],
+            "type": "StrProperty",
+            "logical_package_offset": 47114378,
+            "value": "2009-04-14 06:48:07"
+          }
+        ],
+        "opaque": []
+      },
+      {
+        "index": 58990,
+        "path": "UI_Field_2.Scenes.StyleMenu.StyleCategoryPanel.Style_List.MainPanel.Master_Main.ImageComponentTemplate",
+        "class_path": "Engine.UIComp_DrawImage",
+        "depth": 1,
+        "fields": [
+          {
+            "property_path": [
+              {
+                "name": "ImageRef",
+                "array_index": 0
+              }
+            ],
+            "type": "ObjectProperty",
+            "logical_package_offset": 56142474,
+            "reference": 82681
+          }
+        ],
+        "opaque": []
+      },
+      {
+        "index": 58996,
+        "path": "UI_Field_2.Scenes.StyleMenu.StyleCategoryPanel.Style_List.SubPanel.Master_Sub.ImageComponentTemplate",
+        "class_path": "Engine.UIComp_DrawImage",
+        "depth": 1,
+        "fields": [
+          {
+            "property_path": [
+              {
+                "name": "ImageRef",
+                "array_index": 0
+              }
+            ],
+            "type": "ObjectProperty",
+            "logical_package_offset": 56143698,
+            "reference": 82687
+          }
+        ],
+        "opaque": []
+      },
+      {
+        "index": 60274,
+        "path": "UI_Field_2.Scenes.StyleMenu.Base.Style_Box.Style_Master_Text_Box.MasterDescription.LabelStringRenderer",
+        "class_path": "Engine.UIComp_DrawString",
+        "depth": 1,
+        "fields": [
+          {
+            "property_path": [
+              {
+                "name": "StringStyle",
+                "array_index": 0
+              }
+            ],
+            "type": "StructProperty",
+            "logical_package_offset": 56478056,
+            "struct": "UIStyleReference"
+          },
+          {
+            "property_path": [
+              {
+                "name": "StringStyle",
+                "array_index": 0
+              },
+              {
+                "name": "AssignedStyleID",
+                "array_index": 0
+              }
+            ],
+            "type": "StructProperty",
+            "logical_package_offset": 56478088,
+            "struct": "STYLE_ID",
+            "style_id": "9fe5e7d1-481e0c9d-c03b5f9f-40f3726d"
+          },
+          {
+            "property_path": [
+              {
+                "name": "StringStyle",
+                "array_index": 0
+              },
+              {
+                "name": "AssignedStyleID",
+                "array_index": 0
+              },
+              {
+                "name": "A",
+                "array_index": 0
+              }
+            ],
+            "type": "IntProperty",
+            "logical_package_offset": 56478112,
+            "value": -1612322863
+          },
+          {
+            "property_path": [
+              {
+                "name": "StringStyle",
+                "array_index": 0
+              },
+              {
+                "name": "AssignedStyleID",
+                "array_index": 0
+              },
+              {
+                "name": "B",
+                "array_index": 0
+              }
+            ],
+            "type": "IntProperty",
+            "logical_package_offset": 56478140,
+            "value": 1209928861
+          },
+          {
+            "property_path": [
+              {
+                "name": "StringStyle",
+                "array_index": 0
+              },
+              {
+                "name": "AssignedStyleID",
+                "array_index": 0
+              },
+              {
+                "name": "C",
+                "array_index": 0
+              }
+            ],
+            "type": "IntProperty",
+            "logical_package_offset": 56478168,
+            "value": -1069850721
+          },
+          {
+            "property_path": [
+              {
+                "name": "StringStyle",
+                "array_index": 0
+              },
+              {
+                "name": "AssignedStyleID",
+                "array_index": 0
+              },
+              {
+                "name": "D",
+                "array_index": 0
+              }
+            ],
+            "type": "IntProperty",
+            "logical_package_offset": 56478196,
+            "value": 1089696365
+          }
+        ],
+        "opaque": []
+      },
+      {
+        "index": 82681,
+        "path": "UI_Field_2.Scenes.StyleMenu.StyleCategoryPanel.Style_List.MainPanel.Master_Main.ImageComponentTemplate.UITexture_0",
+        "class_path": "Engine.UITexture",
+        "depth": 2,
+        "fields": [
+          {
+            "property_path": [
+              {
+                "name": "ImageTexture",
+                "array_index": 0
+              }
+            ],
+            "type": "ObjectProperty",
+            "logical_package_offset": 58005755,
+            "reference": 55618
+          }
+        ],
+        "opaque": []
+      },
+      {
+        "index": 82687,
+        "path": "UI_Field_2.Scenes.StyleMenu.StyleCategoryPanel.Style_List.SubPanel.Master_Sub.ImageComponentTemplate.UITexture_0",
+        "class_path": "Engine.UITexture",
+        "depth": 2,
+        "fields": [
+          {
+            "property_path": [
+              {
+                "name": "ImageTexture",
+                "array_index": 0
+              }
+            ],
+            "type": "ObjectProperty",
+            "logical_package_offset": 58005883,
+            "reference": 55618
+          }
+        ],
+        "opaque": []
+      }
+    ]
+  },
+  "classification": {
+    "verified": "Serialized main/sub StyleMenu image components reference the exact native MASTER badge; atlas captions use the same UI_Field MASTER term.",
+    "high_confidence_deduction": "Weapon/style mastery status is 精通, not story 主人 or item-name 大师.",
+    "unverified": "Exact native mastery condition and in-game presentation require game QA."
+  },
+  "native_bindings": [
+    {
+      "resource": "MC2Game/CookedXenon/MC2Game.xxx",
+      "discs": [
+        1,
+        2
+      ],
+      "base": {
+        "path": "build/phase-285-verification/route-probe/candidate/MC2Game/CookedXenon/MC2Game.xxx",
+        "sha256": "5595562dab1233cbbf7979fff1b9c9ca031707b40f10adf75eb97ec1e999d425"
+      },
+      "original": {
+        "path": "build/poc-game/disc1/MC2Game/CookedXenon/MC2Game.xxx",
+        "sha256": "13f92622e2ae2920f6ce6dfc7b0edbbcbec7e83adeacbd56fed84a021739a641"
+      },
+      "object": "UI_Field.Textures.Field_MainMenu_Info_Tex04",
+      "export": 55615,
+      "package_guid": "e462ff14460a4970338fe386f5450240",
+      "payload_sha256": "2356be61d9150160c97807ed6501dfc8dfadf793dac1fc7b6b31e7b6f8074c76",
+      "tiled_sha256": "68f2d82ba5031d05b92587c2860be942cef742d32ed88c1ef471734d1c3829c7",
+      "rgba_sha256": "b19e969a90149021103d5455eeb0a8f6997df7f83587aa671abae30c0dd9d2ac",
+      "dimensions": [
+        256,
+        64
+      ]
+    },
+    {
+      "resource": "MC2Game/CookedXenon/MC2Game.xxx",
+      "discs": [
+        1,
+        2
+      ],
+      "base": {
+        "path": "build/phase-285-verification/route-probe/candidate/MC2Game/CookedXenon/MC2Game.xxx",
+        "sha256": "5595562dab1233cbbf7979fff1b9c9ca031707b40f10adf75eb97ec1e999d425"
+      },
+      "original": {
+        "path": "build/poc-game/disc1/MC2Game/CookedXenon/MC2Game.xxx",
+        "sha256": "13f92622e2ae2920f6ce6dfc7b0edbbcbec7e83adeacbd56fed84a021739a641"
+      },
+      "object": "UI_Field.Textures.Field_MainMenu_Master",
+      "export": 55618,
+      "package_guid": "e462ff14460a4970338fe386f5450240",
+      "payload_sha256": "0c878b018851c6f21c2002f74cae8207e5dc4b01d4958e78e80255f5bfcc7020",
+      "tiled_sha256": "be830313d899c89dc3e2a9e1832ca57fc83f4794d1bfa8323097bfb5363aae36",
+      "rgba_sha256": "fe0d33ee7bcda1f4b053d50fe498016b3b5c0135695f45498cdfc34c36b22590",
+      "dimensions": [
+        64,
+        32
+      ]
+    },
+    {
+      "resource": "MC2Game/CookedXenon/UI_Field.xxx",
+      "discs": [
+        1,
+        2
+      ],
+      "base": {
+        "path": "build/poc-game/common/MC2Game/CookedXenon/UI_Field.xxx",
+        "sha256": "34cee17b049c0c6eacb0fb945504cb246ec2aa260d4f33e0d954b239cf8644c8"
+      },
+      "original": {
+        "path": "build/poc-game/common/MC2Game/CookedXenon/UI_Field.xxx",
+        "sha256": "34cee17b049c0c6eacb0fb945504cb246ec2aa260d4f33e0d954b239cf8644c8"
+      },
+      "object": "Textures.Field_MainMenu_Info_Tex04",
+      "export": 27,
+      "package_guid": "452341a2419cb1e6e667f5bb5a0b4658",
+      "payload_sha256": "96126f23e29e5b7fe69c680aaa59f8059917880c427592cfc260c846eb4aa54c",
+      "tiled_sha256": "68f2d82ba5031d05b92587c2860be942cef742d32ed88c1ef471734d1c3829c7",
+      "rgba_sha256": "b19e969a90149021103d5455eeb0a8f6997df7f83587aa671abae30c0dd9d2ac",
+      "dimensions": [
+        256,
+        64
+      ]
+    },
+    {
+      "resource": "MC2Game/CookedXenon/UI_Field.xxx",
+      "discs": [
+        1,
+        2
+      ],
+      "base": {
+        "path": "build/poc-game/common/MC2Game/CookedXenon/UI_Field.xxx",
+        "sha256": "34cee17b049c0c6eacb0fb945504cb246ec2aa260d4f33e0d954b239cf8644c8"
+      },
+      "original": {
+        "path": "build/poc-game/common/MC2Game/CookedXenon/UI_Field.xxx",
+        "sha256": "34cee17b049c0c6eacb0fb945504cb246ec2aa260d4f33e0d954b239cf8644c8"
+      },
+      "object": "Textures.Field_MainMenu_Master",
+      "export": 30,
+      "package_guid": "452341a2419cb1e6e667f5bb5a0b4658",
+      "payload_sha256": "7ecb468ea57a7d3081ed3799eeeccaf90d216f43be07df854adfd9b19a8c7118",
+      "tiled_sha256": "be830313d899c89dc3e2a9e1832ca57fc83f4794d1bfa8323097bfb5363aae36",
+      "rgba_sha256": "fe0d33ee7bcda1f4b053d50fe498016b3b5c0135695f45498cdfc34c36b22590",
+      "dimensions": [
+        64,
+        32
+      ]
+    }
+  ],
+  "protected": "SID,LV,HP,EXP,arrows,frames,other1212layers;Boss;all108tutorial illustrations original",
+  "remaining_held": "Skill_Zephi.Skill_Zephi_8 remains original without guessed current field binding"
+}

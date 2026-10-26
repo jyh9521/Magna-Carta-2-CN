@@ -1,3 +1,5 @@
+> 阶段318图片反馈返工：当前复审计划为 `locales/zh-Hans/texture-overlays/ui-labels-reviewed.json`；历史 `ui-labels.json` 保留为316/317检查点。757条非空反馈逐ID修订，75张无反馈图保持；审查页左右键在输入框内也只翻页并自动聚焦。当前构建、渐变/光晕/背景与一处待证地图名见 [阶段318](docs/PHASE_318_IMAGE_STYLE_REVISIONS.md)。
+
 > 阶段312：风格菜单 MASTER 的实际消费者已绑定并正式回填“精通”；教程小图继续原样。外前缀补漏发现106张有真实技能字段绑定的图片，接续整批处理。见 docs/PHASE_312_STYLE_MASTERY_AND_WORLD_AUDIT.md。
 
 ## 当前接续：正常流派树与地图图组（阶段314–316）

@@ -1618,3 +1618,7 @@ remain separate confidence levels. Existing parser/coverage rules are unchanged.
 ## BC3共享块数值保护（源码能力）
 
 显式像素守护支持字形修复与数字同块的情况，保持受保护像素的源端点和索引；限制、失配拒绝及误差界见 docs/FILE_FORMATS.md。10项新回归与两张真实原生HUD验证此路径；缺省路径14张真实图的字节和报告保持。该源码变更不刷新游戏文件，不计作新增汉化图片。
+
+## 显式图片样式与原图保留层（阶段318）
+
+`source-style-v1` 以有界逐行RGBA渐变、原生墨迹框、斜切/字距、缩小字段和独立光晕重建文字，不更改旧层默认输出。`preserve-source-v1` 只有在原生tiles完全不变时保留原导出，普通no-op仍拒绝。地图稀疏mask、BC块和原按钮/箭头守卫仍强制执行。实现、复审原生PNG来源及复现见 [阶段318](docs/PHASE_318_IMAGE_STYLE_REVISIONS.md)。

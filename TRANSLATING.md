@@ -2287,3 +2287,7 @@ flags remain false; no story translation gate changes.
 ## 第295阶段：战斗与教程图片
 
 累计507图片组/847层/2096双盘别名；新增46组139层含1个BC1派生mask，三个Tutorial命名空间独立保留。采用显式packed单mip BC3/opaque-luma BC1与有界ink_padding，修正160特效图末行和窄句排版；保留START、MAX惯例与既有Font底包链。纹理176/233、对照201/260资源；INT14159、七Font、315字幕未增加。复现、隔离回滚、来源和未验收边界见[阶段295](docs/PHASE_295_BATTLE_TUTORIAL_ADOPTION.md)。
+
+## 图片返工复审（2026-10-26）
+
+当前图片采用计划为 `locales/zh-Hans/texture-overlays/ui-labels-reviewed.json`，原计划保留为历史检查点。逐图反馈、源图渐变/光晕/斜体及正文措辞修正见 [阶段318](docs/PHASE_318_IMAGE_STYLE_REVISIONS.md)。不要将跨片文字的一半独立更换字体；不要把非空反馈自动标为人工通过。一处 `원수의 언덕` 仍待原始名称绑定，不猜译。

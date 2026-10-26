@@ -1636,3 +1636,7 @@ The source-locked Tutorial_32_1 package contains Core.Package export15 and Engin
 ## 阶段312：场景纹理只读轮廓（已验证）
 
 实际原盘存在索引 UnpackMin 属性和BC最小4×4尾级，不适用旧UI单级纹理轮廓。0x41流式mip可由同盘规范xxx包定位：必须同时核对强制导出命名空间、源GUID、唯一Texture2D路径和完整mip的尺寸/计数/长度/偏移，只有外部标志位不同；不是凭名字找任意文件或TFC。NPOT较大非尾级以实际单位跨度进行只读解块，检查偏移边界、坐标不重叠及身份scatter。未验证的小尾级、缺少规范源及未知SourceArt继续记录，不放宽正式写入器。
+
+## 显式文字appearance扩展（阶段318）
+
+`appearance.kind=source-style-v1` 使用0..1000严格升序渐变stop（首0末1000，2..256项）、RGBA字节、画布内墨迹框和有界效果参数；不接受未知字段。可选spans声明原文索引[start,end)及缩放，不插入或删除机器控制符。`preserve-source-v1` 为空绘制层，由原生补丁路径验证tiles未变并保留原导出。无appearance的历史格式和默认光栅输出不变。完整语义见 PHASE_318_IMAGE_STYLE_REVISIONS.md。

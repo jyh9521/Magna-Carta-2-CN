@@ -268,6 +268,9 @@ def render_text(label):
 
 def render_label(font_bytes,label):
     """Render an owned text layer only; no original image is fed to the rasterizer."""
+    if 'appearance' in label:
+        from .texture_appearance import render
+        return render(font_bytes,label)
     from PIL import Image, ImageDraw, ImageFont, ImageFilter
     text=label['text'];rect=label['rect'];size=label['font_size'];style=label_style(label)
     if (not isinstance(text,str) or not text or len(text)>128 or any(ord(c)<32 for c in text)
@@ -424,6 +427,14 @@ def patch_package(data,expected_hash,edits,layers,decoder,encoding_cache=None):
             if digest(tiles)!=edit['tiled_sha256']:raise FormatError('texture original tiles mismatch')
             if [texture['width'],texture['height']]!=edit['dimensions']:raise FormatError('texture dimensions mismatch')
             patched,proof=overlay_profile_regions(texture,edit,layers,encoding_cache)
+            preserve_source=all(layers[lid][0].get('appearance')=={'kind':'preserve-source-v1'} for lid in layer_ids(edit))
+            if preserve_source:
+                if patched!=tiles:raise FormatError('source-preservation layer changed native texture')
+                pixels=decode_texture(texture)
+                records.append(dict(object=ex['path'],old_serial_offset=off,new_serial_offset=off,
+                    before_tiled_sha256=digest(tiles),after_tiled_sha256=digest(tiles),
+                    decoded_rgba_sha256=digest(pixels),original_pixels_preserved=True,**proof))
+                continue
             if patched==tiles:raise FormatError('texture edit is a no-op')
             target=(len(new)+3)&~3;payload=rebuild_payload(old,texture,patched,target)
             check=read_texture(payload,tables['names'],target,edit['profile'],decoder)
@@ -456,7 +467,9 @@ def patch_package(data,expected_hash,edits,layers,decoder,encoding_cache=None):
             raise FormatError('nonselected export changed')
     allowed={p+i for p in selected for i in range(32,40)}
     if any(a!=b and i not in allowed for i,(a,b) in enumerate(zip(logical,new))):raise FormatError('original logical prefix changed')
-    output,packing=repack_append_only(data,summary,logical,bytes(new))
+    if bytes(new)==logical:
+        output,packing=data,dict(kind='source-preservation',unchanged_package=True)
+    else:output,packing=repack_append_only(data,summary,logical,bytes(new))
     output_summary=parse_summary(output,len(output))
     check=decode_logical(output,output_summary,decoder)
     expected=bytearray(new)

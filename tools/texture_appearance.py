@@ -14,8 +14,8 @@ def validate(appearance, width, height):
     if appearance=={'kind':'preserve-source-v1'}:return
     keys={'kind','ink_box','align','gradient','outline','outline_width','glow',
           'glow_radius','shadow','shadow_offset','shadow_radius','italic',
-          'tracking','weight','motion','spans','blur'}
-    required=keys-{'spans','blur'}
+          'tracking','weight','motion','spans','blur','width_scale'}
+    required=keys-{'spans','blur','width_scale'}
     if set(appearance)-keys or not required<=set(appearance) or appearance['kind']!='source-style-v1':
         raise FormatError('unknown or missing text appearance fields')
     def number(v,lo,hi):return type(v) in (int,float) and math.isfinite(v) and lo<=v<=hi
@@ -35,6 +35,7 @@ def validate(appearance, width, height):
                     ('italic',-0.5,0.5),('tracking',-2,32),('weight',0,2),('motion',0,16)]:
         if not number(appearance[k],lo,hi):raise FormatError('appearance numeric bound: '+k)
     if 'blur' in appearance and not number(appearance['blur'],0,3):raise FormatError('appearance blur bound')
+    if 'width_scale' in appearance and not number(appearance['width_scale'],.5,3):raise FormatError('appearance width scale bound')
     shift=appearance['shadow_offset']
     if not isinstance(shift,list) or len(shift)!=2 or any(not number(v,-8,8) for v in shift):
         raise FormatError('appearance shadow offset')
@@ -80,6 +81,16 @@ def render(font_bytes,label):
     box=mask.getbbox()
     if box is None:raise FormatError('empty text layer')
     mask=mask.crop(box)
+    if 'glyph_mask' in label:
+        # Authored lettering replaces only the glyph silhouette, never source
+        # art. The builder resolves and hashes the bounded PNG before rendering.
+        size=label.get('_glyph_size');pixels=label.get('_glyph_pixels')
+        if (not isinstance(size,list) or len(size)!=2 or any(type(v) is not int or not 1<=v<=4096 for v in size)
+                or size[0]*size[1]>4*1024*1024 or not isinstance(pixels,bytes) or len(pixels)!=size[0]*size[1]):
+            raise FormatError('invalid or unresolved glyph mask')
+        mask=Image.frombytes('L',tuple(size),pixels);box=mask.getbbox()
+        if box is None:raise FormatError('empty glyph mask')
+        mask=mask.crop(box)
     bx,by,bw,bh=a['ink_box'];inkheight=bh
     mask=mask.resize((max(1,round(mask.width*inkheight/mask.height*scale)),inkheight*scale),Image.Resampling.LANCZOS)
     if a['weight']:
@@ -91,7 +102,7 @@ def render(font_bytes,label):
             (1,a['italic'], -shift if a['italic']>0 else 0,0,1,0),Image.Resampling.BICUBIC)
     ow=a['outline_width'];margin=max(0,math.ceil(ow))
     limit=max(1,bw-2*margin)
-    iw=min(limit,max(1,round(mask.width/scale)));ih=inkheight
+    iw=min(limit,max(1,round(mask.width/scale*a.get('width_scale',1))));ih=inkheight
     mask=mask.resize((iw,ih),Image.Resampling.LANCZOS)
     x=bx+margin if a['align']=='left' else bx+bw-iw-margin if a['align']=='right' else bx+(bw-iw)//2
     mask_full=Image.new('L',(w,h));mask_full.paste(mask,(x,by))

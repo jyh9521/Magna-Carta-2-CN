@@ -4,7 +4,7 @@ const assert = require('node:assert/strict');
 const path = require('node:path');
 const reviewRound = process.env.REVIEW_ROUND || '2';
 const elements = new Map(), events = new Map(), stored = new Map();
-let focused = '', capture = false;
+let focused = '', capture = false, exportedBlob, exportedLink;
 function element(id) {
   if (!elements.has(id)) elements.set(id, {
     value: '', textContent: '', disabled: false, handlers: {},
@@ -22,9 +22,9 @@ element('review-data').textContent = JSON.stringify(items);
 const context = {
   document: { body:{dataset:{revision:'unit-test', round:reviewRound}},getElementById:element,
     addEventListener(name,fn,options) { events.set(name,fn);capture=options.capture; },
-    createElement() { return {click(){}}; } },
+    createElement() { return exportedLink = {click(){this.clicked=true;}}; } },
   localStorage: {getItem:k=>stored.get(k),setItem:(k,v)=>stored.set(k,v)},
-  URL:{createObjectURL(){return 'blob:test';},revokeObjectURL(){}},Blob,setTimeout,
+  URL:{createObjectURL(blob){exportedBlob=blob;return 'blob:test';},revokeObjectURL(){}},Blob,setTimeout,
 };
 vm.createContext(context);
 vm.runInContext(fs.readFileSync(path.join(__dirname,'../tools/review_page/review.js'),'utf8'),context);
@@ -54,3 +54,16 @@ key('ArrowRight');assert.match(element('meta').textContent,/image-1/);
 element('all').onclick();element('jump').value='3';element('go').onclick();
 assert.match(element('meta').textContent,/image-3/);assert.equal(focused,'comment');
 console.log('PASS: arrows capture every input, prevent caret motion, wrap/filter/jump refocus, feedback persists');
+element('download').onclick();
+assert.equal(exportedLink.clicked,true);
+assert.equal(exportedLink.download,`image-review-feedback-v${reviewRound}.csv`);
+assert.equal(exportedBlob.type,'text/csv;charset=utf-8');
+exportedBlob.arrayBuffer().then(buffer => {
+  const bytes=Buffer.from(buffer);
+  assert.deepEqual([...bytes.subarray(0,3)],[0xef,0xbb,0xbf]);
+  const csv=bytes.toString('utf8');
+  assert.equal(csv,'\uFEFF"number","image_id","feedback"\r\n'+
+    '"1","image-1","保留引号 ""和,逗号""\n第二行"\r\n'+
+    '"2","image-2",""\r\n"3","image-3",""');
+  console.log(`PASS: round ${reviewRound} CSV export preserves BOM, quotes, commas, multiline feedback and blank rows`);
+});

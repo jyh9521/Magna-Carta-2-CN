@@ -1644,3 +1644,16 @@ The source-locked Tutorial_32_1 package contains Core.Package export15 and Engin
 `review_round` 为严格整数2..99，缺省2；它只影响网页标题、反馈命名空间和导出名。
 
 `appearance.kind=source-style-v1` 使用0..1000严格升序渐变stop（首0末1000，2..256项）、RGBA字节、画布内墨迹框和有界效果参数；不接受未知字段。可选spans声明原文索引[start,end)及缩放，不插入或删除机器控制符。`preserve-source-v1` 为空绘制层，由原生补丁路径验证tiles未变并保留原导出。无appearance的历史格式和默认光栅输出不变。完整语义见 PHASE_318_IMAGE_STYLE_REVISIONS.md。
+
+
+## 显式艺术字alpha输入（阶段320）
+
+`glyph_mask` 是label级别的 `path`/`sha256` PNG引用。构建器与其他输入一样
+执行路径约束、SHA256及读后重核。仅接受L或RGBA PNG，文件不超过16MiB，
+边长不超过4096、像素数不超过4194304，空alpha拒绝；RGBA只读取alpha，
+不把生成图的底色或RGB混入游戏底图。私有 `_glyph_*` 字段不接受于计划。
+
+`source-style-v1` 在字形入口使用该轮廓，之后仍应用显式排版、渐变、描边、
+阴影、恢复蒙版和原生块保护。`appearance.width_scale` 是可选的0.5..3宽度
+比例，默认1，受原ink_box宽度约束；无此字段或艺术字输入时原路线不变。
+艺术字PNG与制作者提示词是可复现输入，随机重新生成不是相同字节的复现。

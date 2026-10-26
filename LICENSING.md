@@ -481,3 +481,11 @@ contributors / XenonRecomp (MIT), pinned in references/pdata-research.lock.json;
 the upstream license is retained in licenses/XenonRecomp-MIT.md. The Python
 reader is independent; no recompiler, SDK, runtime or complete game bytes are
 redistributed. Local static instruction/metadata reports remain ignored.
+
+
+## 2026-10-26 图片复审艺术字部件
+
+`locales/zh-Hans/texture-overlays/artwork/review-v4/`保存三份本轮新生成的中文
+艺术字透明部件与制作提示词，仅alpha字形供构建使用，不包含原游戏UI底图、
+图标或完整源纹理。原图用作风格参照，不把整幅原图或生成整图放入仓库。
+稀疏背景修复仍遵守既有游戏派生材料边界，不宣称被覆盖的原像素由项目拥有。

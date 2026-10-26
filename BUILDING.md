@@ -1,3 +1,5 @@
+> 阶段320：第三轮102条图片反馈采用源底图保留方案，当前计划为 `locales/zh-Hans/texture-overlays/ui-labels-reviewed-v4.json`，730张未点名图保持上一轮身份。背景缺块根因、原生英文保护、艺术字部件和复现流程见 [阶段320](docs/PHASE_320_SOURCE_PRESERVING_IMAGE_REVIEW.md)。下列阶段319及更早的“当前”描述均为历史检查点。
+
 > 阶段319第二轮图片反馈：当前候选为 `locales/zh-Hans/texture-overlays/ui-labels-reviewed-v3.json`，按433条非空意见修订，399张未点名图保持。上一轮 `ui-labels-reviewed.json` 和316/317检查点独立保留。字体依赖、原生构建、第三轮审查与实际收尾证据见 [阶段319](docs/PHASE_319_SECOND_IMAGE_FEEDBACK.md)；上一轮见 [阶段318](docs/PHASE_318_IMAGE_STYLE_REVISIONS.md)。
 
 > 阶段312：风格菜单 MASTER 的实际消费者已绑定并正式回填“精通”；教程小图继续原样。外前缀补漏发现106张有真实技能字段绑定的图片，接续整批处理。见 docs/PHASE_312_STYLE_MASTERY_AND_WORLD_AUDIT.md。

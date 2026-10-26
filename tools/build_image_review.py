@@ -55,6 +55,10 @@ def build(project, inventory, revision, plan, bundles, output):
                     native_review_focus_note=note.get('native_review_focus',''))
         if decisions.get('retained_semantic_hold',{}).get('image_id')==key:
             item['retained_note']='待证地图名 원수의 언덕 仍保留原文，未把酋长之丘当作确认译名。'
+        adoption=decisions.get('semantic_adoption',{})
+        if adoption.get('image_id')==key:
+            item.pop('retained_note',None)
+            item['review_note']='本轮译名裁决：'+adoption['source']+' → '+adoption['translation']+'。这是用户委托的译名选择，不代表新增原盘消费者绑定。'
         items.append(item)
     templates=Path(__file__).parent/'review_page';payload=json.dumps(items,ensure_ascii=False).replace('<','\\u003c')
     revision_id=decisions['review_plan_sha256'];html=(templates/'review.html').read_text('utf-8')

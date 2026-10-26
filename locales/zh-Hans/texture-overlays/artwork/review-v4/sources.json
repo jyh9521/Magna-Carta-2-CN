@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "kind": "authored-lettering-source",
+  "mode": "built-in-image_gen",
+  "use": "alpha silhouette only; original native texture backgrounds never generated",
+  "rasterizer": "source-style-v1",
+  "assets": [
+    {
+      "path": "locales/zh-Hans/texture-overlays/artwork/review-v4/gameover.png",
+      "sha256": "3526bb27cb7804a1820b240d269cbd9253b601221fff3c17f00898b1eab61abd",
+      "text": "游戏结束",
+      "reference_image_id": "ui_gameover_tex",
+      "reusable_prompt": "Use case: text-localization. Isolated replacement lettering component, source image is STYLE REFERENCE ONLY. Render exactly '游戏结束' in one horizontal row. Red-white narrow fantasy lettering with fine tapered razor serif spurs and sweeping calligraphic terminals; uneven organic strokes; delicate cream upper highlights and salmon red lower strokes; do not typeset a standard bold Songti font. True transparent background, no panel, no opaque rectangle, no other text, no ornaments. Generous padding; do not clip strokes. Import as glyph component only."
+    },
+    {
+      "path": "locales/zh-Hans/texture-overlays/artwork/review-v4/overdrive.png",
+      "sha256": "801e0104825e38ff59679cff77f7cd59fdc6e9628590d0e1e8de6dab4cfb7294",
+      "text": "超限",
+      "reference_image_id": "img_hud_complete_00",
+      "reusable_prompt": "Use case: text-localization. Isolated replacement lettering component, source image is STYLE REFERENCE ONLY. Render exactly '超限' in one horizontal row. Use only the OVER DRIVE brush lettering at the upper right of the original atlas. Aggressive rough flat brush, torn edges, angular hand-painted strokes and forward motion; not standard Songti or clean sans serif. True transparent background, no panel, no opaque rectangle, no other text, no ornaments. Generous padding; do not clip strokes. Import as glyph component only."
+    },
+    {
+      "path": "locales/zh-Hans/texture-overlays/artwork/review-v4/overheat.png",
+      "sha256": "0242030c285a2789c14f8134ffe5dc0b421c2fbfa6cbe0a8bfb9f0d1fb3aa9a3",
+      "text": "过热！！",
+      "reference_image_id": "img_hud_complete_00",
+      "reusable_prompt": "Use case: text-localization. Isolated replacement lettering component, source image is STYLE REFERENCE ONLY. Render exactly '过热！！' in one horizontal row. Use only the OVER HEAT !! brush lettering at the upper right of the original atlas. Rough flat brush, torn edges, angular hand-painted strokes and cream-white/pale-yellow highlights; not a standard font. True transparent background, no panel, no opaque rectangle, no other text, no ornaments. Generous padding; do not clip strokes. Import as glyph component only."
+    }
+  ]
+}

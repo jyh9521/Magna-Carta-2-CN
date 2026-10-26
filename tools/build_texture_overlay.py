@@ -56,7 +56,20 @@ def prepare(plan,root,decoder,disc=None):
     for label in labels:
         if not isinstance(label['id'],str) or not label['id'] or label['id'] in layers:raise ValueError('duplicate/invalid text layer id')
         effective=dict(label)
-        if any(k.startswith('_repair_') for k in label):raise ValueError('private restoration fields in plan')
+        if any(k.startswith(('_repair_','_glyph_')) for k in label):raise ValueError('private restoration/glyph fields in plan')
+        if 'glyph_mask' in label:
+            from PIL import Image
+            import io
+            ref=label['glyph_mask']
+            if not isinstance(ref,dict) or set(ref)!={'path','sha256'}:raise ValueError('invalid glyph mask reference')
+            raw=locked_bytes(ref)
+            if len(raw)>16*1024*1024:raise ValueError('glyph PNG size bound')
+            with Image.open(io.BytesIO(raw)) as im:
+                if im.format!='PNG' or im.mode not in ('L','RGBA') or min(im.size)<1 or max(im.size)>4096 or im.width*im.height>4*1024*1024:
+                    raise ValueError('glyph PNG geometry/mode mismatch')
+                mask=im if im.mode=='L' else im.getchannel('A')
+                if mask.getbbox() is None:raise ValueError('empty glyph mask')
+                effective['_glyph_pixels']=mask.tobytes();effective['_glyph_size']=list(mask.size)
         if 'restoration' in label:
             from PIL import Image
             import io
@@ -71,7 +84,7 @@ def prepare(plan,root,decoder,disc=None):
                 effective[target]=im.tobytes()
         label_font=locked_bytes(label['font']) if 'font' in label else font
         if len(label_font)>64*1024*1024:raise ValueError('font size bound')
-        layers[label['id']]=(effective,render_label(label_font,label))
+        layers[label['id']]=(effective,render_label(label_font,effective))
     files={};rows=[];seen=set();reports=[];alias_pixels={};encoding_cache={}
     for source in sources:
         path=_relative(source['path'])

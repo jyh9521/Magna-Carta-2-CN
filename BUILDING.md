@@ -1,3 +1,5 @@
+> 阶段322：第五轮反馈收尾，仅调整海岸地名右对齐和两张小游戏图的奖品字高；第六版候选3图变动、829图保持。复现、增量构建及验证见 [阶段322](docs/PHASE_322_FIFTH_IMAGE_FEEDBACK.md)。此前“当前”均为历史检查点。
+
 > 阶段321：第四轮88条图片反馈进入 `ui-labels-reviewed-v5.json`，744张未点名图保持。背景单独重排、字体配对、地图行距及原生保护区修复见 [阶段321](docs/PHASE_321_FOURTH_IMAGE_FEEDBACK.md)；此前各阶段的“当前”均是历史检查点。
 
 > 阶段320：第三轮102条图片反馈采用源底图保留方案，当前计划为 `locales/zh-Hans/texture-overlays/ui-labels-reviewed-v4.json`，730张未点名图保持上一轮身份。背景缺块根因、原生英文保护、艺术字部件和复现流程见 [阶段320](docs/PHASE_320_SOURCE_PRESERVING_IMAGE_REVIEW.md)。下列阶段319及更早的“当前”描述均为历史检查点。

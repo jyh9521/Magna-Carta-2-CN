@@ -33,7 +33,7 @@ function render(focus = true) {
   $('meta').textContent = `${current.id} · ${current.width}×${current.height} · ${current.alias_count} 个别名`;
   $('previous').textContent = current.previous_feedback || '上轮未填写反馈，本轮保持原版汉化图';
   if (current.retained_note) $('previous').textContent += '\n\n本轮待证项：' + current.retained_note;
-  $('action').textContent = current.action === 'restore-original' ? '已按反馈恢复原图' : current.action === 'unchanged' ? '上轮无反馈：未改动' : '本轮修订：请重新审阅';
+  $('action').textContent = current.action === 'restore-original' ? '已按反馈恢复原图' : current.action === 'unchanged' ? '本轮未改动：保留上轮版本' : '本轮修订：请重新审阅';
   $('quality').textContent = current.native_review_focus_note || '';
   $('comment').value = comments.get(current.id) || '';
   $('saved').textContent = storageAvailable ? '本轮反馈独立保存，不覆盖上轮 CSV' : '请下载 CSV 留存';
@@ -66,7 +66,7 @@ function filter() {
   save(); const q = $('filter').value.toLowerCase();
   order = items.flatMap((item, i) => {
     const haystack = item.id + ' ' + item.aliases.map(a => a.object + ' ' + a.resource).join(' ');
-    return (!onlyRevised || item.action !== 'unchanged') && haystack.toLowerCase().includes(q) ? [i] : [];
+    return (!onlyRevised || Boolean((item.previous_feedback || '').trim())) && haystack.toLowerCase().includes(q) ? [i] : [];
   });
   pos = 0; render(false);
 }

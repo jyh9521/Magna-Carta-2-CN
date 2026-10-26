@@ -16,7 +16,7 @@ function element(id) {
 }
 const items = [1,2,3].map(n => ({ number:n,id:'image-'+n,width:64,height:32,alias_count:1,
   aliases:[{object:'Object'+n,resource:'resource'+n}],original_image:'original'+n,
-  chinese_image:'revised'+n,previous_image:'previous'+n,previous_feedback:'old, "note"\n'+n,
+  chinese_image:'revised'+n,previous_image:'previous'+n,previous_feedback:n===2?'':'old, "note"\n'+n,
   action:n===3?'unchanged':'revise-source-style' }));
 element('review-data').textContent = JSON.stringify(items);
 const context = {
@@ -49,11 +49,14 @@ element('filter').value='no-match';element('filter').handlers.input();
 assert.equal(element('comment').disabled,true);key('ArrowRight');
 element('filter').value='';element('filter').handlers.input();
 assert.match(element('meta').textContent,/image-1/);assert.equal(element('comment').disabled,false);
-element('revised').onclick();key('ArrowLeft');assert.match(element('meta').textContent,/image-2/);
+element('revised').onclick();key('ArrowLeft');assert.match(element('meta').textContent,/image-3/);
+assert.equal(element('action').textContent,'本轮未改动：保留上轮版本');
+assert.match(element('previous').textContent,/old, "note"/);
 key('ArrowRight');assert.match(element('meta').textContent,/image-1/);
 element('all').onclick();element('jump').value='3';element('go').onclick();
 assert.match(element('meta').textContent,/image-3/);assert.equal(focused,'comment');
 console.log('PASS: arrows capture every input, prevent caret motion, wrap/filter/jump refocus, feedback persists');
+console.log('PASS: feedback filter includes unchanged notes and excludes blank feedback');
 element('download').onclick();
 assert.equal(exportedLink.clicked,true);
 assert.equal(exportedLink.download,`image-review-feedback-v${reviewRound}.csv`);

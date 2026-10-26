@@ -1,3 +1,5 @@
+> 阶段321：第四轮88条图片反馈进入 `ui-labels-reviewed-v5.json`，744张未点名图保持。背景单独重排、字体配对、地图行距及原生保护区修复见 [阶段321](docs/PHASE_321_FOURTH_IMAGE_FEEDBACK.md)；此前各阶段的“当前”均是历史检查点。
+
 > 阶段320：第三轮102条图片反馈采用源底图保留方案，当前计划为 `locales/zh-Hans/texture-overlays/ui-labels-reviewed-v4.json`，730张未点名图保持上一轮身份。背景缺块根因、原生英文保护、艺术字部件和复现流程见 [阶段320](docs/PHASE_320_SOURCE_PRESERVING_IMAGE_REVIEW.md)。下列阶段319及更早的“当前”描述均为历史检查点。
 
 > 阶段319第二轮图片反馈：当前候选为 `locales/zh-Hans/texture-overlays/ui-labels-reviewed-v3.json`，按433条非空意见修订，399张未点名图保持。上一轮 `ui-labels-reviewed.json` 和316/317检查点独立保留。字体依赖、原生构建、第三轮审查与实际收尾证据见 [阶段319](docs/PHASE_319_SECOND_IMAGE_FEEDBACK.md)；上一轮见 [阶段318](docs/PHASE_318_IMAGE_STYLE_REVISIONS.md)。

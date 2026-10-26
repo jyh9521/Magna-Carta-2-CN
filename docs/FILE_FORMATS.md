@@ -1657,3 +1657,8 @@ The source-locked Tutorial_32_1 package contains Core.Package export15 and Engin
 阴影、恢复蒙版和原生块保护。`appearance.width_scale` 是可选的0.5..3宽度
 比例，默认1，受原ink_box宽度约束；无此字段或艺术字输入时原路线不变。
 艺术字PNG与制作者提示词是可复现输入，随机重新生成不是相同字节的复现。
+
+
+## 阶段321：既有图层契约的复用
+
+本轮没有新增二进制格式或JSON schema。仍使用source-style-v1、render_window、restoration与protected_regions：文字和背景分离，拉提族洞窟共用108×32光栅画布再按原crop分片，小游戏的白点和两根黑条成为显式原生矩形守卫。review_round=5表示第五版审查页，对应第四轮CSV反馈；不应把文件版本与反馈轮数混为一谈。

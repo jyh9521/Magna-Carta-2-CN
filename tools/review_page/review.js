@@ -1,7 +1,8 @@
 /* Local, offline review. Arrow keys are navigation even inside an input. */
 const items = JSON.parse(document.getElementById('review-data').textContent);
 const $ = id => document.getElementById(id);
-const namespace = 'image-review-v2-' + document.body.dataset.revision + '-';
+const reviewRound = Number(document.body.dataset.round || 2);
+const namespace = 'image-review-v' + reviewRound + '-' + document.body.dataset.revision + '-';
 const comments = new Map();
 let storageAvailable = true, order = items.map((_, i) => i), pos = 0, current = null;
 for (const item of items) {
@@ -78,7 +79,7 @@ $('download').onclick = () => {
   const csv = rows.map(row => row.map(v => '"' + String(v).replaceAll('"', '""') + '"').join(',')).join('\r\n');
   const link = document.createElement('a');
   const url = URL.createObjectURL(new Blob(['\uFEFF' + csv], { type: 'text/csv;charset=utf-8' }));
-  link.href = url; link.download = 'image-review-feedback-v2.csv'; link.click();
+  link.href = url; link.download = `image-review-feedback-v${reviewRound}.csv`; link.click();
   setTimeout(() => URL.revokeObjectURL(url), 1000);
 };
 render(true);

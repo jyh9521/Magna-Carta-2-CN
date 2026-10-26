@@ -40,6 +40,17 @@ class AppearanceTests(unittest.TestCase):
         label['appearance']['italic']=0.24
         self.assertTrue(a!=render_label(self.font,label))
 
+    def test_explicit_soft_variant_preserves_default_and_rejects_bad_radius(self):
+        import copy
+        label=self.label();before=render_label(self.font,label)
+        label['appearance']['blur']=0
+        self.assertEqual(before,render_label(self.font,label))
+        label['appearance']['blur']=.45
+        self.assertNotEqual(before,render_label(self.font,label))
+        for bad in [True,-1,3.1,float('nan')]:
+            label['appearance']['blur']=bad
+            with self.assertRaises(FormatError):render_label(self.font,label)
+
     def test_preserve_source_layer_is_empty(self):
         label=self.label();label['appearance']={'kind':'preserve-source-v1'}
         self.assertEqual(set(render_label(self.font,label)),{0})

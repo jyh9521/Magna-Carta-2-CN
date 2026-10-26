@@ -2,6 +2,7 @@ const fs = require('node:fs');
 const vm = require('node:vm');
 const assert = require('node:assert/strict');
 const path = require('node:path');
+const reviewRound = process.env.REVIEW_ROUND || '2';
 const elements = new Map(), events = new Map(), stored = new Map();
 let focused = '', capture = false;
 function element(id) {
@@ -19,7 +20,7 @@ const items = [1,2,3].map(n => ({ number:n,id:'image-'+n,width:64,height:32,alia
   action:n===3?'unchanged':'revise-source-style' }));
 element('review-data').textContent = JSON.stringify(items);
 const context = {
-  document: { body:{dataset:{revision:'unit-test'}},getElementById:element,
+  document: { body:{dataset:{revision:'unit-test', round:reviewRound}},getElementById:element,
     addEventListener(name,fn,options) { events.set(name,fn);capture=options.capture; },
     createElement() { return {click(){}}; } },
   localStorage: {getItem:k=>stored.get(k),setItem:(k,v)=>stored.set(k,v)},
@@ -40,7 +41,7 @@ for (const target of ['comment','filter','jump','prev']) {
 }
 key('ArrowLeft');assert.match(element('meta').textContent,/image-3/);key('ArrowRight');
 assert.equal(element('comment').value,'保留引号 "和,逗号"\n第二行');
-assert.equal(stored.get('image-review-v2-unit-test-image-1'),element('comment').value);
+assert.equal(stored.get(`image-review-v${reviewRound}-unit-test-image-1`),element('comment').value);
 key('ArrowUp');assert.equal(prevented,false);assert.equal(stopped,false);
 events.get('keydown')({key:'Process',code:'ArrowRight',isComposing:true,target:element('comment'),preventDefault(){},stopImmediatePropagation(){}});
 assert.match(element('meta').textContent,/image-2/);assert.equal(focused,'comment');key('ArrowLeft');

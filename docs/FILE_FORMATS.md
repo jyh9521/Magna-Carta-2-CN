@@ -1639,4 +1639,8 @@ The source-locked Tutorial_32_1 package contains Core.Package export15 and Engin
 
 ## 显式文字appearance扩展（阶段318）
 
+阶段319可选 `blur` 是有限数值0..3，拒绝bool、NaN和越界；在已定位字形mask上
+执行Gaussian柔化后再绘制效果。缺省/0不改变历史字节。审查描述符的可选
+`review_round` 为严格整数2..99，缺省2；它只影响网页标题、反馈命名空间和导出名。
+
 `appearance.kind=source-style-v1` 使用0..1000严格升序渐变stop（首0末1000，2..256项）、RGBA字节、画布内墨迹框和有界效果参数；不接受未知字段。可选spans声明原文索引[start,end)及缩放，不插入或删除机器控制符。`preserve-source-v1` 为空绘制层，由原生补丁路径验证tiles未变并保留原导出。无appearance的历史格式和默认光栅输出不变。完整语义见 PHASE_318_IMAGE_STYLE_REVISIONS.md。

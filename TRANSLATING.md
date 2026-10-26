@@ -2290,4 +2290,9 @@ flags remain false; no story translation gate changes.
 
 ## 图片返工复审（2026-10-26）
 
+第二轮反馈仅修订非空的433图，其余399图不变，不把空白当作艺术认可。
+相似图统一样式而不合并不同源字段；腿/核心及不同技能名称仍保留各自含义。
+新增图集重复行只采用已绑定的“忍法：超雷击天”，不增加运行消费者断言。
+第三轮新计划、字体来源、背景/描边和验证入口见 PHASE_319_SECOND_IMAGE_FEEDBACK.md。
+
 当前图片采用计划为 `locales/zh-Hans/texture-overlays/ui-labels-reviewed.json`，原计划保留为历史检查点。逐图反馈、源图渐变/光晕/斜体及正文措辞修正见 [阶段318](docs/PHASE_318_IMAGE_STYLE_REVISIONS.md)。不要将跨片文字的一半独立更换字体；不要把非空反馈自动标为人工通过。一处 `원수의 언덕` 仍待原始名称绑定，不猜译。

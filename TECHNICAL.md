@@ -1621,4 +1621,8 @@ remain separate confidence levels. Existing parser/coverage rules are unchanged.
 
 ## 显式图片样式与原图保留层（阶段318）
 
+阶段319保持历史默认光栅字节，新增有界可选 `appearance.blur`（0..3像素）仅用于
+显式柔化状态；缺省/0行为与原先相同。新一轮计划独立保存399张未点名图，
+描边/阴影、共享状态几何、英文保护区及光学字形框见 PHASE_319_SECOND_IMAGE_FEEDBACK.md。
+
 `source-style-v1` 以有界逐行RGBA渐变、原生墨迹框、斜切/字距、缩小字段和独立光晕重建文字，不更改旧层默认输出。`preserve-source-v1` 只有在原生tiles完全不变时保留原导出，普通no-op仍拒绝。地图稀疏mask、BC块和原按钮/箭头守卫仍强制执行。实现、复审原生PNG来源及复现见 [阶段318](docs/PHASE_318_IMAGE_STYLE_REVISIONS.md)。

@@ -16,6 +16,8 @@ def build(project, inventory, revision, plan, bundles, output):
     if output.exists() or not output.is_relative_to(project):raise ValueError('review output must be new and inside project')
     source=json.loads(inventory.read_bytes());decisions=json.loads(Path(revision).read_bytes());p=json.loads(Path(plan).read_bytes())
     if decisions['review_plan_sha256']!=digest(Path(plan).read_bytes()):raise ValueError('review plan identity mismatch')
+    review_round=decisions.get('review_round',2)
+    if type(review_round) is not int or not 2<=review_round<=99:raise ValueError('invalid review round')
     notes={x['image_id']:x for x in decisions['entries']};mapping={};snapshots=[]
     for root in bundles:
         root=Path(root).resolve();manifest_bytes=(root/'manifest.json').read_bytes();manifest=json.loads(manifest_bytes)
@@ -56,7 +58,7 @@ def build(project, inventory, revision, plan, bundles, output):
         items.append(item)
     templates=Path(__file__).parent/'review_page';payload=json.dumps(items,ensure_ascii=False).replace('<','\\u003c')
     revision_id=decisions['review_plan_sha256'];html=(templates/'review.html').read_text('utf-8')
-    html=html.replace('__REVISION__',revision_id).replace('__SCRIPT__',(templates/'review.js').read_text('utf-8')).replace('__ITEMS__',payload)
+    html=html.replace('__REVISION__',revision_id).replace('__ROUND__',str(review_round)).replace('__SCRIPT__',(templates/'review.js').read_text('utf-8')).replace('__ITEMS__',payload)
     (output/'index.html').write_bytes(html.encode())
     manifest=dict(schema_version=2,count=len(items),revision=revision_id,native_decoded=True,items=items,
                   bundle_manifests=[dict(path=str(f),sha256=h) for f,h in snapshots])

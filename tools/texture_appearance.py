@@ -14,8 +14,8 @@ def validate(appearance, width, height):
     if appearance=={'kind':'preserve-source-v1'}:return
     keys={'kind','ink_box','align','gradient','outline','outline_width','glow',
           'glow_radius','shadow','shadow_offset','shadow_radius','italic',
-          'tracking','weight','motion','spans'}
-    required=keys-{'spans'}
+          'tracking','weight','motion','spans','blur'}
+    required=keys-{'spans','blur'}
     if set(appearance)-keys or not required<=set(appearance) or appearance['kind']!='source-style-v1':
         raise FormatError('unknown or missing text appearance fields')
     def number(v,lo,hi):return type(v) in (int,float) and math.isfinite(v) and lo<=v<=hi
@@ -34,6 +34,7 @@ def validate(appearance, width, height):
     for k,lo,hi in [('outline_width',0,4),('glow_radius',0,12),('shadow_radius',0,8),
                     ('italic',-0.5,0.5),('tracking',-2,32),('weight',0,2),('motion',0,16)]:
         if not number(appearance[k],lo,hi):raise FormatError('appearance numeric bound: '+k)
+    if 'blur' in appearance and not number(appearance['blur'],0,3):raise FormatError('appearance blur bound')
     shift=appearance['shadow_offset']
     if not isinstance(shift,list) or len(shift)!=2 or any(not number(v,-8,8) for v in shift):
         raise FormatError('appearance shadow offset')
@@ -94,6 +95,7 @@ def render(font_bytes,label):
     mask=mask.resize((iw,ih),Image.Resampling.LANCZOS)
     x=bx+margin if a['align']=='left' else bx+bw-iw-margin if a['align']=='right' else bx+(bw-iw)//2
     mask_full=Image.new('L',(w,h));mask_full.paste(mask,(x,by))
+    if a.get('blur',0):mask_full=mask_full.filter(ImageFilter.GaussianBlur(a['blur']))
     if ow:
         hi=mask_full.resize((w*scale,h*scale),Image.Resampling.LANCZOS)
         outline=hi.filter(ImageFilter.MaxFilter(round(ow*scale)*2+1)).resize((w,h),Image.Resampling.LANCZOS)

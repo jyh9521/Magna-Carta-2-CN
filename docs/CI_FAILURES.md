@@ -1,3 +1,45 @@
+# GitHub Actions 路径别名回归（2026-10-27）
+
+## 已验证的根因
+
+[失败运行40372071810](https://github.com/jyh9521/Magna-Carta-2-CN/actions/runs/40372071810)
+对应提交 `75015c701073a1db75d605e4a850c224e603ef64`。Ubuntu 的 Python
+3.12/3.14 均通过；Windows 两组均在 2206 项测试中出现同一处断言失败：
+`AuthoredGlyphBuilderTests.test_builder_resolves_and_snapshots_glyph_bytes`。
+
+临时目录返回 `C:/Users/RUNNER~1/.../glyph.png`，而真实构建器
+`build_texture_overlay.prepare()` 经 `Path.resolve()` 和 `confined_path()`
+记录 `C:/Users/runneradmin/.../glyph.png`。两个路径指向同一文件，SHA256
+均为 `5d83d313422584700dab9a54b26d268a3422b08845bd27cb93287b09c7478495`，
+但原测试把未解析的路径直接放入预期元组，造成路径拼写不等的误报。
+这不是图片损坏、依赖安装失败或 Python 版本特有的生产构建错误。
+
+本地用真实 Windows `GetShortPathNameW` 路径复现：同一解释器、依赖和
+合成输入下，完整路径通过，8.3 短路径失败。跨平台的 `spelling/..` 输入
+也复现相同断言；两种输入均先验证 `samefile` 和解析后的身份。
+
+## 修复与防回归
+
+- 原 fixture 只将预期快照路径改为 `file.resolve()`，仍精确核对路径与
+  文件 SHA256；不修改生产构建器、纹理计划、译文或已生成游戏资源。
+- `test_ci_portability.py` 新增路径别名回归，实际调用原 glyph fixture
+  和构建器。用真实存在的 `spelling/..` 目录拼写制造未规范路径，不模拟
+  `Path.resolve()` 或构建器，也不依赖 Windows 短文件名功能或符号链接权限。
+- 新回归在修复前已失败；错误哈希、越界路径、私有字段注入及不支持的
+  图像尺寸/模式仍由原测试覆盖。四组 CI 和失败通知保持原样。
+
+```powershell
+python -m unittest discover -s tests -p test_ci_portability.py -v
+python -m unittest discover -s tests -p test_image_review_v4.py -v
+python -m unittest discover -s tests -v
+python tools/check_repository.py
+```
+
+三态命令、原始散列、真实短路径复现、隔离回滚和远端运行记录位于
+`build/ci-path-alias-20261027/VERIFICATION.txt`。回滚只在独立源码副本演练，
+恢复旧测试后应再次出现路径别名失败；工作区保留修复。此轮不生成 ISO、
+完整游戏副本或重新编码图片；现有测试包、配置、存档和运行记录保持。
+
 # GitHub Actions 持续失败修复（2026-10-19）
 
 ## 已验证的根因

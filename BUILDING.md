@@ -53,6 +53,11 @@
 `python -m pip install -r requirements-font.txt`，随后执行 `python -m pip check`。
 这不是只在开发者电脑上可选的测试依赖；新建虚拟环境和 hosted runner 都须安装。
 CI 保留 Ubuntu/Windows × Python 3.12/3.14 四组测试及失败通知，不跳过图像测试来掩盖依赖缺失。
+
+临时目录路径可能使用 Windows 8.3 别名（如 `RUNNER~1`）。与构建器的
+resolved 快照核对时，预期路径也须 `Path.resolve()`，同时保留文件 SHA256
+断言；仅本机长路径通过不代表 CI 路径兼容。跨平台别名回归和真实短路径
+复现见 [CI_FAILURES](docs/CI_FAILURES.md) 的 2026-10-27 记录。
 本项仅修复源码验证环境，不修改译文、游戏资源或现有测试目录。
 
 ## 第298阶段：战斗HUD与升级姓名成套采用

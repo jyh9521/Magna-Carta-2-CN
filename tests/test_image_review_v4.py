@@ -162,7 +162,10 @@ class AuthoredGlyphBuilderTests(unittest.TestCase):
                     with self.assertRaisesRegex(ValueError,error):b.prepare(plan,root,stored_decoder)
                 else:
                     _,_,snapshots=b.prepare(plan,root,stored_decoder)
-                    self.assertTrue(seen);self.assertIn((file,sha(file.read_bytes())),snapshots)
+                    self.assertTrue(seen)
+                    # prepare() records resolved paths, including expanded Windows
+                    # 8.3 TEMP aliases; compare the same path identity and hash.
+                    self.assertIn((file.resolve(),sha(file.read_bytes())),snapshots)
 
     def test_builder_resolves_and_snapshots_glyph_bytes(self):self.run_case()
     def test_builder_rejects_wrong_glyph_hash(self):

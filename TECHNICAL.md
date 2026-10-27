@@ -1,3 +1,5 @@
+> 阶段324：现场 PC 0x82488884 读取违例与历史 stored-LZX 无改动对照相同；这支持包装路径嫌疑，尚非完整动态因果证明。已加入 exact-generated 流归一化、TOC sector/size 独立核对及可中断恢复的增量 ISO 事务，见 [阶段324](docs/PHASE_324_STARTUP_CRASH.md)。
+
 > 阶段323：通用 XDVDFS 测试镜像构建器保留原盘前缀，扇区对齐追加各盘候选资源，只重定向目录项的 sector/size；全文件哈希、原前缀逆变换及隔离整盘回滚分别验证。未运行游戏，Xenia 读取契约的源代码依据与运行验收区别见 [阶段323](docs/PHASE_323_TEST_ISOS.md)。
 
 > 阶段322：海岸标题改用原图右侧锚点；小游戏奖品实际字高由appearance.ink_box控制，15改为22。仅修改3个文字层的排版参数，恢复材料与原生保护区不变。见 [阶段322](docs/PHASE_322_FIFTH_IMAGE_FEEDBACK.md)。

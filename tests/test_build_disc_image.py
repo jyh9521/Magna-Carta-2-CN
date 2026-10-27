@@ -17,7 +17,8 @@ def sha(data):
 
 
 class Fixture:
-    def __init__(self, root, payload=b'localized payload'*200, base=0):
+    def __init__(self, root, payload=b'localized payload'*200, base=0,
+                 toc=False, source_sector=41, candidate_sector=41):
         self.root=root; self.image=root/'original.iso'; self.packet=root/'packet'
         self.output=root/'candidate.iso'; self.report=root/'image.json'
         data=bytearray(base+44*SECTOR)
@@ -30,10 +31,20 @@ class Fixture:
             data[start+14:start+14+len(name)]=name
         record(36,0,b'MC2Game',37,SECTOR,0x10,right=8)
         record(36,32,b'default.xex',40,3,0x80)
-        record(37,0,b'CookedXenon',38,SECTOR,0x10)
+        record(37,0,b'CookedXenon',38,SECTOR,0x10,right=8 if toc else 0)
         record(38,0,b'sample.xxx',41,3,0x80)
         data[base+40*SECTOR:base+40*SECTOR+3]=b'xex'
         data[base+41*SECTOR:base+41*SECTOR+3]=b'abc'
+        self.toc_name='MC2Game/Xbox360TOC.txt'
+        if toc:
+            self.original_toc=(f'3 7 {source_sector} ..\\MC2Game\\CookedXenon\\sample.xxx 9\r\n'
+                               '0 0 42 ..\\MC2Game\\Xbox360TOC.txt 0\r\n'
+                               '13 0 99 ..\\OtherDisc\\absent.xxx 0\r\n').encode()
+            self.candidate_toc=(f'{len(payload)} 7 {candidate_sector} ..\\MC2Game\\CookedXenon\\sample.xxx 9\r\n'
+                                '0 0 42 ..\\MC2Game\\Xbox360TOC.txt 0\r\n'
+                                '13 0 99 ..\\OtherDisc\\absent.xxx 0\r\n').encode()
+            record(37,32,b'Xbox360TOC.txt',42,len(self.original_toc),0x80)
+            data[base+42*SECTOR:base+42*SECTOR+len(self.original_toc)]=self.original_toc
         self.image.write_bytes(data); self.hash=sha(data)
         self.name='MC2Game/CookedXenon/sample.xxx'
         p=self.packet/'candidate'/self.name;p.parent.mkdir(parents=True);p.write_bytes(payload)
@@ -45,6 +56,18 @@ class Fixture:
             resources=[dict(path=self.name,original_size=3,original_sha256=sha(b'abc'),
                             candidate_size=len(payload),candidate_sha256=sha(payload))],
             member_sha256={'candidate/'+self.name:sha(payload)})
+        if toc:
+            (self.packet/'candidate'/self.toc_name).write_bytes(self.candidate_toc)
+            self.manifest['resources'].append(dict(path=self.toc_name,
+                original_size=len(self.original_toc),original_sha256=sha(self.original_toc),
+                candidate_size=len(self.candidate_toc),candidate_sha256=sha(self.candidate_toc)))
+            self.manifest['member_sha256']['candidate/'+self.toc_name]=sha(self.candidate_toc)
+        self.refresh()
+
+    def replace_candidate_toc(self, raw):
+        (self.packet/'candidate'/self.toc_name).write_bytes(raw)
+        self.manifest['resources'][-1].update(candidate_size=len(raw),candidate_sha256=sha(raw))
+        self.manifest['member_sha256']['candidate/'+self.toc_name]=sha(raw)
         self.refresh()
 
     def refresh(self):
@@ -56,6 +79,30 @@ class Fixture:
 
     def build(self):
         return iso.build(*self.args(),self.report)
+
+
+def legacy_image(f):
+    """Recreate the old writer, including its missing TOC-sector adjustment."""
+    disc=Disc(f.image); inventory=disc.inventory()
+    entries={r['path']:r for r in inventory}; locations=iso.entry_offsets(disc,inventory)
+    data=bytearray(f.image.read_bytes()); changes=[]
+    for resource in sorted(f.manifest['resources'],key=lambda r:r['path'].casefold()):
+        old=entries[resource['path']]
+        payload=(f.packet/'candidate'/resource['path']).read_bytes()
+        if sha(payload)==resource['original_sha256'] and len(payload)==old['size']:
+            continue
+        offset=len(data); sector=(offset-disc.base)//SECTOR; field=locations[resource['path']]+4
+        before=bytes(data[field:field+8]); after=struct.pack('<II',sector,len(payload))
+        changes.append(dict(path=resource['path'],field_offset=field,before_hex=before.hex(),
+            after_hex=after.hex(),sector=sector,offset=offset,size=len(payload),sha256=sha(payload)))
+        data.extend(payload); data.extend(bytes((-len(payload))%SECTOR)); data[field:field+8]=after
+    f.output.write_bytes(data)
+    report=dict(schema_version=1,kind=iso.KIND,disc=1,
+        source=dict(path=str(f.image),size=disc.size,sha256=f.hash,partition_base=disc.base),
+        packet=dict(path=str(f.packet),manifest_sha256=f.packet_hash),
+        output=dict(path=str(f.output),size=len(data),sha256=sha(data)),changes=changes)
+    f.report.write_bytes(iso.encoded(report))
+    return report
 
 
 class DiscImageTests(unittest.TestCase):
@@ -200,6 +247,134 @@ class DiscImageTests(unittest.TestCase):
                 '--packet',str(f.packet),'--packet-sha256',f.packet_hash,'--disc','1',
                 '--output',str(f.output),'--report',str(f.report)])
         self.assertEqual(code,2);self.assertIn('original image SHA256 mismatch',out.getvalue())
+
+    def test_toc_sectors_follow_payload_and_self_without_other_edits(self):
+        f=Fixture(self.root,toc=True); report=f.build()
+        disc=Disc(f.output); entries={r['path']:r for r in disc.inventory()}
+        toc=entries[f.toc_name]; actual=disc.read(toc['offset'],toc['size'])
+        expected=f.candidate_toc.replace(b'7 41 ',f'7 {entries[f.name]["sector"]} '.encode())
+        expected=expected.replace(b'0 0 42 ',f'0 0 {toc["sector"]} '.encode())
+        self.assertEqual(actual,expected)
+        self.assertTrue(actual.splitlines()[1].startswith(b'0 0 '))
+        self.assertEqual((f.packet/'candidate'/f.toc_name).read_bytes(),f.candidate_toc)
+        self.assertEqual(report['schema_version'],2)
+        self.assertTrue(report['toc_relocations'][0]['inverse_byte_identical'])
+        self.assertEqual(report['toc_relocations'][0]['candidate_sha256'],sha(f.candidate_toc))
+        proof=iso.verify(*f.args(),report=report)
+        self.assertEqual(proof['toc_rows_checked'],2)
+        restored=self.root/'restored.iso'
+        iso.restore(f.output,f.report,sha256_file(f.report),restored)
+        self.assertEqual(restored.read_bytes(),f.image.read_bytes())
+
+    def test_toc_original_sector_mismatch_rejected_before_output(self):
+        f=Fixture(self.root,toc=True,source_sector=40)
+        with self.assertRaisesRegex(ValueError,'original TOC sector mismatch'):f.build()
+        self.assertFalse(f.output.exists())
+
+    def test_toc_candidate_sector_mismatch_rejected_before_output(self):
+        f=Fixture(self.root,toc=True,candidate_sector=40)
+        with self.assertRaisesRegex(ValueError,'candidate TOC sector mismatch'):f.build()
+        self.assertFalse(f.output.exists())
+
+    def test_toc_candidate_size_mismatch_rejected_before_output(self):
+        f=Fixture(self.root,toc=True)
+        f.replace_candidate_toc(f.candidate_toc.replace(b'3400 7 ',b'3399 7 '))
+        with self.assertRaisesRegex(ValueError,'TOC size mismatch'):f.build()
+        self.assertFalse(f.output.exists())
+
+    def test_toc_duplicate_path_rejected_before_output(self):
+        f=Fixture(self.root,toc=True)
+        f.replace_candidate_toc(f.candidate_toc+f.candidate_toc.splitlines(keepends=True)[0])
+        with self.assertRaisesRegex(ValueError,'duplicate or case-ambiguous TOC'):f.build()
+        self.assertFalse(f.output.exists())
+
+    def test_toc_legacy_mismatch_fails_verification_but_restores(self):
+        f=Fixture(self.root,toc=True); report=legacy_image(f)
+        with self.assertRaisesRegex(ValueError,'TOC sector mismatch'):
+            iso.verify(*f.args(),report=report)
+        restored=self.root/'legacy-restored.iso'
+        iso.restore(f.output,f.report,sha256_file(f.report),restored)
+        self.assertEqual(restored.read_bytes(),f.image.read_bytes())
+
+    def test_legacy_without_toc_still_verifies_and_restores(self):
+        f=Fixture(self.root); report=legacy_image(f)
+        self.assertEqual(iso.verify(*f.args(),report=report)['status'],'PASS')
+        restored=self.root/'legacy-restored.iso'
+        iso.restore(f.output,f.report,sha256_file(f.report),restored)
+        self.assertEqual(restored.read_bytes(),f.image.read_bytes())
+
+    def test_toc_missing_self_row_is_rejected(self):
+        f=Fixture(self.root,toc=True)
+        f.replace_candidate_toc(b''.join(f.candidate_toc.splitlines(keepends=True)[::2]))
+        with self.assertRaisesRegex(ValueError,'TOC path set mismatch'):f.build()
+        self.assertFalse(f.output.exists())
+
+    def test_identical_toc_packet_preserves_complete_image(self):
+        f=Fixture(self.root,payload=b'abc',toc=True); report=f.build()
+        self.assertEqual(report['changes'],[])
+        self.assertEqual(report['toc_relocations'],[])
+        self.assertEqual(f.output.read_bytes(),f.image.read_bytes())
+        self.assertEqual(iso.verify(*f.args(),report=report)['toc_rows_checked'],2)
+
+    def test_source_only_toc_is_relocated_for_equal_size_replacement(self):
+        f=Fixture(self.root,payload=b'xyz',toc=True)
+        f.manifest['resources'].pop()
+        del f.manifest['member_sha256']['candidate/'+f.toc_name]
+        (f.packet/'candidate'/f.toc_name).unlink(); f.refresh()
+        report=f.build()
+        self.assertEqual({r['path'] for r in report['changes']},{f.name,f.toc_name})
+        self.assertEqual(iso.verify(*f.args(),report=report)['toc_rows_checked'],2)
+
+    def test_source_only_toc_rejects_stale_sizes(self):
+        f=Fixture(self.root,toc=True)
+        f.manifest['resources'].pop()
+        del f.manifest['member_sha256']['candidate/'+f.toc_name]
+        (f.packet/'candidate'/f.toc_name).unlink(); f.refresh()
+        with self.assertRaisesRegex(ValueError,'TOC size mismatch'):f.build()
+        self.assertFalse(f.output.exists())
+
+    def test_toc_zero_self_size_is_enforced(self):
+        f=Fixture(self.root,toc=True)
+        f.replace_candidate_toc(f.candidate_toc.replace(b'0 0 42 ',b'130 0 42 '))
+        with self.assertRaisesRegex(ValueError,'TOC size mismatch'):f.build()
+        self.assertFalse(f.output.exists())
+
+    def test_toc_relocation_report_tampering_is_detected(self):
+        f=Fixture(self.root,toc=True); report=f.build()
+        report['toc_relocations'][0]['inverse_byte_identical']=False
+        with self.assertRaisesRegex(ValueError,'TOC relocation report mismatch'):
+            iso.verify(*f.args(),report=report)
+
+    def test_relocation_helper_preserves_spelling_and_reverses_growing_spans(self):
+        name='G/sample.xxx'; toc_path='G/Xbox360TOC.txt'
+        raw=(b'0003 7 0041 ..\\G\\sample.xxx 9\r\n'
+             b'0 0 42 ..\\G\\Xbox360TOC.txt 0\n'
+             b'13 0 99 ..\\Other\\absent.xxx 0')
+        old={name:dict(sector=41,size=3),toc_path:dict(sector=42,size=len(raw))}
+        target={name:dict(sector=123456,size=10000),toc_path:dict(sector=123999,size=0)}
+        saved=copy.deepcopy((old,target))
+        output,proof=iso.relocate_toc(raw,old,target,toc_path)
+        expected=raw.replace(b'0003 7 0041',b'10000 7 123456').replace(b'0 0 42 ',b'0 0 123999 ')
+        self.assertEqual(output,expected)
+        self.assertEqual((old,target),saved)
+        inverse=bytearray(output)
+        for edit in sorted(proof['edits'],key=lambda r:r['output_byte_offset'],reverse=True):
+            start=edit['output_byte_offset']; before=bytes.fromhex(edit['before_hex'])
+            after=bytes.fromhex(edit['after_hex'])
+            self.assertEqual(inverse[start:start+len(after)],after)
+            inverse[start:start+len(after)]=before
+        self.assertEqual(inverse,raw)
+        self.assertEqual({r['field'] for r in proof['edits']},{'size','sector'})
+
+    def test_toc_helper_rejects_wrong_expected_sector_and_uint32_target(self):
+        f=Fixture(self.root,toc=True)
+        entries={r['path']:r for r in Disc(f.image).inventory()}
+        bad=copy.deepcopy(entries); bad[f.name]['sector']+=1
+        with self.assertRaisesRegex(ValueError,'TOC sector mismatch'):
+            iso.relocate_toc(f.original_toc,bad,entries,f.toc_name)
+        bad=copy.deepcopy(entries); bad[f.name]['sector']=2**32
+        with self.assertRaisesRegex(ValueError,'exceeds uint32'):
+            iso.relocate_toc(f.original_toc,entries,bad,f.toc_name)
 
 
 if __name__=='__main__':

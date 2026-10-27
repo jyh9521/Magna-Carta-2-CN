@@ -1,3 +1,7 @@
+## 首屏冻结不是加载成功，解码往返不等于游戏兼容（阶段324）
+
+历史原包仅重编码首块的 stored-LZX 对照曾在 PC 0x82488884 崩溃，当前纹理管线仍重新引入该路径。必须在交付前审计 exact-generated 外包与纹理 bulk；raw 外包同时清除 package bit 0x02000000、compression_flags 和 chunk count，纹理 native tiles 保持。ISO 重定位还需更新并独立核对 TOC 第三列，不能只核 XDVDFS 和包大小。详见 [阶段324](PHASE_324_STARTUP_CRASH.md)。
+
 ## Windows TEMP 短路径与规范快照不是不同文件（2026-10-27）
 
 GitHub Windows runner 的 `TemporaryDirectory()` 可返回 `RUNNER~1`，而

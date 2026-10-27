@@ -1,3 +1,7 @@
+## XDVDFS 与 Xbox360TOC 联动（阶段324）
+
+已验证双盘 TOC 第三列对应原始 XDVDFS sector。schema2 镜像报告记录每个 TOC size/sector 数字跨度及精确逆向，TOC 自身 first-size=0 保留。增量修复保留所有旧载荷，仅追加新资源并替换目录8字节；恢复以完整旧前缀逆向 SHA256 为准。generated stored-LZX 归一化的字段与不变量见 [阶段324](PHASE_324_STARTUP_CRASH.md)。
+
 ## XDVDFS 追加式测试镜像（阶段323，离线验证）
 
 目录项 `+4` 为小端 `u32 sector`，`+8` 为小端 `u32 size`；绝对文件位置仍是

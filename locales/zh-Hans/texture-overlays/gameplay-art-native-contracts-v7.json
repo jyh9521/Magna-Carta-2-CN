@@ -1,0 +1,465 @@
+{
+  "schema_version": 1,
+  "kind": "native-texture-region-repair-contracts",
+  "game_rendering_verified": false,
+  "cases": [
+    {
+      "id": "map-up",
+      "source": {
+        "path": "MC2Game/CookedXenon/Map_View_Highwind.xxx",
+        "discs": [
+          1,
+          2
+        ],
+        "original": {
+          "path": "build/poc-game/common/MC2Game/CookedXenon/Map_View_Highwind.xxx",
+          "sha256": "e18ce754c02bf8814228861a655cd501964115960439463e00a963925f4ef835"
+        },
+        "base": {
+          "path": "build/poc-game/common/MC2Game/CookedXenon/Map_View_Highwind.xxx",
+          "sha256": "e18ce754c02bf8814228861a655cd501964115960439463e00a963925f4ef835"
+        }
+      },
+      "texture": {
+        "object": "Map_Highwind_Up",
+        "image_id": "normal_map_terrain_map_highwind_up",
+        "regions": [
+          "normal_map_terrain_map_highwind_up_00",
+          "normal_map_terrain_map_highwind_up_01",
+          "normal_map_terrain_map_highwind_up_02",
+          "normal_map_terrain_map_highwind_up_03"
+        ],
+        "profile": {
+          "kind": "xbox-inline-bc-v1",
+          "format": 7
+        },
+        "channel_mode": "rgba",
+        "preserve_unchanged_blocks": true,
+        "alpha_encoding": "adaptive-range",
+        "payload_sha256": "eb93eb0412390b9ce27bb00014264b61c91b226ee6da38fe9b1c453f59b6c8f6",
+        "tiled_sha256": "a66a2c5b45e983975455b3473974586405387a5850c3e21d5077371df070e17c",
+        "dimensions": [
+          512,
+          512
+        ],
+        "protected_regions": []
+      },
+      "required_label": "normal_map_terrain_map_highwind_up_03",
+      "required_text": "风息岛",
+      "allowed_change_rects": [
+        [
+          320,
+          484,
+          192,
+          28
+        ]
+      ],
+      "empty_alpha_rects": [
+        [
+          320,
+          484,
+          40,
+          28
+        ],
+        [
+          476,
+          484,
+          36,
+          28
+        ]
+      ],
+      "protected_rects": [],
+      "alias_group": "Map_Highwind_Up"
+    },
+    {
+      "id": "map-down",
+      "source": {
+        "path": "MC2Game/CookedXenon/Map_View_Highwind.xxx",
+        "discs": [
+          1,
+          2
+        ],
+        "original": {
+          "path": "build/poc-game/common/MC2Game/CookedXenon/Map_View_Highwind.xxx",
+          "sha256": "e18ce754c02bf8814228861a655cd501964115960439463e00a963925f4ef835"
+        },
+        "base": {
+          "path": "build/poc-game/common/MC2Game/CookedXenon/Map_View_Highwind.xxx",
+          "sha256": "e18ce754c02bf8814228861a655cd501964115960439463e00a963925f4ef835"
+        }
+      },
+      "texture": {
+        "object": "Map_Highwind_Down",
+        "image_id": "normal_map_terrain_map_highwind_down",
+        "regions": [
+          "normal_map_terrain_map_highwind_down_00",
+          "normal_map_terrain_map_highwind_down_01"
+        ],
+        "profile": {
+          "kind": "xbox-inline-bc-v1",
+          "format": 7
+        },
+        "channel_mode": "rgba",
+        "preserve_unchanged_blocks": true,
+        "alpha_encoding": "adaptive-range",
+        "payload_sha256": "c5cdde29d9c070499978c9db76cfc509697edcc71826c68fa56fefcc332bb6c6",
+        "tiled_sha256": "b58afef1bae09d74b9a30a8db655e8e8edebf0b3ccf6b7b9750ce38463d28400",
+        "dimensions": [
+          512,
+          64
+        ],
+        "protected_regions": []
+      },
+      "required_label": "normal_map_terrain_map_highwind_down_01",
+      "required_text": "风息岛",
+      "allowed_change_rects": [
+        [
+          320,
+          0,
+          192,
+          20
+        ]
+      ],
+      "empty_alpha_rects": [
+        [
+          320,
+          0,
+          40,
+          20
+        ],
+        [
+          476,
+          0,
+          36,
+          16
+        ]
+      ],
+      "protected_rects": [
+        [
+          372,
+          16,
+          140,
+          40
+        ]
+      ],
+      "alias_group": "Map_Highwind_Down"
+    },
+    {
+      "id": "map-cave",
+      "source": {
+        "path": "MC2Game/CookedXenon/Map_View_Highwind_2.xxx",
+        "discs": [
+          1
+        ],
+        "original": {
+          "path": "build/poc-game/disc1/MC2Game/CookedXenon/Map_View_Highwind_2.xxx",
+          "sha256": "9a451fee4f6d302266945ee0728ed31d5026477d44f7c9167500690c882a84e0"
+        },
+        "base": {
+          "path": "build/poc-game/disc1/MC2Game/CookedXenon/Map_View_Highwind_2.xxx",
+          "sha256": "9a451fee4f6d302266945ee0728ed31d5026477d44f7c9167500690c882a84e0"
+        }
+      },
+      "texture": {
+        "object": "Map_Highwind_Up_Cave",
+        "image_id": "normal_map_terrain_map_highwind_up_cave",
+        "regions": [
+          "normal_map_terrain_map_highwind_up_cave_00",
+          "normal_map_terrain_map_highwind_up_cave_01",
+          "normal_map_terrain_map_highwind_up_cave_02",
+          "normal_map_terrain_map_highwind_up_cave_03"
+        ],
+        "profile": {
+          "kind": "xbox-inline-bc-v1",
+          "format": 7
+        },
+        "channel_mode": "rgba",
+        "preserve_unchanged_blocks": true,
+        "alpha_encoding": "adaptive-range",
+        "payload_sha256": "f3ae1e45ae98a5d825946ab83904ba959e3dbdcaa5fa9655264091247d0dc8c6",
+        "tiled_sha256": "4e958093421728b9de38ed7a03e72b59aec2ecec10bbc376a222b922edd162aa",
+        "dimensions": [
+          512,
+          512
+        ],
+        "protected_regions": []
+      },
+      "required_label": "normal_map_terrain_map_highwind_up_cave_03",
+      "required_text": "风息岛",
+      "allowed_change_rects": [
+        [
+          320,
+          484,
+          192,
+          28
+        ]
+      ],
+      "empty_alpha_rects": [
+        [
+          320,
+          484,
+          40,
+          28
+        ],
+        [
+          476,
+          484,
+          36,
+          28
+        ]
+      ],
+      "protected_rects": [],
+      "alias_group": "Map_Highwind_Up_Cave"
+    },
+    {
+      "id": "map-down-second",
+      "source": {
+        "path": "MC2Game/CookedXenon/Map_View_Highwind_2.xxx",
+        "discs": [
+          1
+        ],
+        "original": {
+          "path": "build/poc-game/disc1/MC2Game/CookedXenon/Map_View_Highwind_2.xxx",
+          "sha256": "9a451fee4f6d302266945ee0728ed31d5026477d44f7c9167500690c882a84e0"
+        },
+        "base": {
+          "path": "build/poc-game/disc1/MC2Game/CookedXenon/Map_View_Highwind_2.xxx",
+          "sha256": "9a451fee4f6d302266945ee0728ed31d5026477d44f7c9167500690c882a84e0"
+        }
+      },
+      "texture": {
+        "object": "Map_Highwind_Down",
+        "image_id": "normal_map_terrain_map_highwind_down",
+        "regions": [
+          "normal_map_terrain_map_highwind_down_00",
+          "normal_map_terrain_map_highwind_down_01"
+        ],
+        "profile": {
+          "kind": "xbox-inline-bc-v1",
+          "format": 7
+        },
+        "channel_mode": "rgba",
+        "preserve_unchanged_blocks": true,
+        "alpha_encoding": "adaptive-range",
+        "payload_sha256": "4b96b68b6d0aa27eee0b31b4e7313195eceb53311a6746d8d111cc8f76973bb2",
+        "tiled_sha256": "b58afef1bae09d74b9a30a8db655e8e8edebf0b3ccf6b7b9750ce38463d28400",
+        "dimensions": [
+          512,
+          64
+        ],
+        "protected_regions": []
+      },
+      "required_label": "normal_map_terrain_map_highwind_down_01",
+      "required_text": "风息岛",
+      "allowed_change_rects": [
+        [
+          320,
+          0,
+          192,
+          20
+        ]
+      ],
+      "empty_alpha_rects": [
+        [
+          320,
+          0,
+          40,
+          20
+        ],
+        [
+          476,
+          0,
+          36,
+          16
+        ]
+      ],
+      "protected_rects": [
+        [
+          372,
+          16,
+          140,
+          40
+        ]
+      ],
+      "alias_group": "Map_Highwind_Down"
+    },
+    {
+      "id": "juto-resident",
+      "source": {
+        "path": "MC2Game/CookedXenon/MC2Game.xxx",
+        "discs": [
+          1,
+          2
+        ],
+        "original": {
+          "path": "build/poc-game/disc1/MC2Game/CookedXenon/MC2Game.xxx",
+          "sha256": "13f92622e2ae2920f6ce6dfc7b0edbbcbec7e83adeacbd56fed84a021739a641"
+        },
+        "base": {
+          "path": "build/phase-285-verification/route-probe/candidate/MC2Game/CookedXenon/MC2Game.xxx",
+          "sha256": "5595562dab1233cbbf7979fff1b9c9ca031707b40f10adf75eb97ec1e999d425"
+        }
+      },
+      "texture": {
+        "object": "Style_CountryJuto.Style_CountryJuto",
+        "label": "gameplay_style_country_juto_name",
+        "payload_sha256": "e24c5c3025113c427639c2fb207726b8d35db58ec83fa9f47a06ec68c84580e0",
+        "tiled_sha256": "238f50c3e01cafc02f285d67a2a563ea086705a12682305f2e0c45262b5e3ae7",
+        "dimensions": [
+          512,
+          512
+        ],
+        "profile": {
+          "kind": "xbox-inline-bc-v1",
+          "format": 7
+        },
+        "channel_mode": "rgba",
+        "preserve_unchanged_blocks": true,
+        "alpha_encoding": "adaptive-range"
+      },
+      "required_label": "gameplay_style_country_juto_name",
+      "required_text": "朱特",
+      "allowed_change_rects": [
+        [
+          316,
+          300,
+          80,
+          52
+        ]
+      ],
+      "required_change_rect": [
+        316,
+        300,
+        80,
+        52
+      ],
+      "alias_group": "Style_CountryJuto",
+      "preserve_source_alpha": {
+        "rect": [
+          316,
+          300,
+          80,
+          52
+        ],
+        "mask": {
+          "path": "locales/zh-Hans/texture-overlays/restorations/gameplay-art-v7-20261027/gameplay_style_country_juto_name-mask.png",
+          "sha256": "a079545e5d016f45354fa0be78b242282a8dc376f6cbe9277595aeb5813fbc9a"
+        }
+      }
+    },
+    {
+      "id": "juto-standalone",
+      "source": {
+        "path": "MC2Game/CookedXenon/Style_CountryJuto.xxx",
+        "discs": [
+          1,
+          2
+        ],
+        "original": {
+          "path": "build/poc-game/disc1/MC2Game/CookedXenon/Style_CountryJuto.xxx",
+          "sha256": "a5acf7da956d0d3f4181e3b536bc7499c6b52600c6663fd61b55b3c8d68096ff"
+        },
+        "base": {
+          "path": "build/poc-game/disc1/MC2Game/CookedXenon/Style_CountryJuto.xxx",
+          "sha256": "a5acf7da956d0d3f4181e3b536bc7499c6b52600c6663fd61b55b3c8d68096ff"
+        }
+      },
+      "texture": {
+        "object": "Style_CountryJuto",
+        "label": "gameplay_style_country_juto_name",
+        "payload_sha256": "658f0ca846beeeb4f033003f4272d20aaa7b81098d00b5151973cd3cbbbfa5b4",
+        "tiled_sha256": "238f50c3e01cafc02f285d67a2a563ea086705a12682305f2e0c45262b5e3ae7",
+        "dimensions": [
+          512,
+          512
+        ],
+        "profile": {
+          "kind": "xbox-inline-bc-v1",
+          "format": 7
+        },
+        "channel_mode": "rgba",
+        "preserve_unchanged_blocks": true,
+        "alpha_encoding": "adaptive-range"
+      },
+      "required_label": "gameplay_style_country_juto_name",
+      "required_text": "朱特",
+      "allowed_change_rects": [
+        [
+          316,
+          300,
+          80,
+          52
+        ]
+      ],
+      "required_change_rect": [
+        316,
+        300,
+        80,
+        52
+      ],
+      "alias_group": "Style_CountryJuto",
+      "preserve_source_alpha": {
+        "rect": [
+          316,
+          300,
+          80,
+          52
+        ],
+        "mask": {
+          "path": "locales/zh-Hans/texture-overlays/restorations/gameplay-art-v7-20261027/gameplay_style_country_juto_name-mask.png",
+          "sha256": "a079545e5d016f45354fa0be78b242282a8dc376f6cbe9277595aeb5813fbc9a"
+        }
+      }
+    }
+  ],
+  "consumer_evidence": [
+    {
+      "export": 44932,
+      "object": "UI_Field_2.Scenes.Equip",
+      "property": "CountryJuto_Style",
+      "struct": "CharacterStyleImage",
+      "source_package_sha256": "13f92622e2ae2920f6ce6dfc7b0edbbcbec7e83adeacbd56fed84a021739a641",
+      "payload_sha256": "8d3866bded8d934b37af1713390dd998d31df54ef71c4fd307a1a62f0984102e",
+      "fields": [
+        {
+          "name": "MainStyle",
+          "type": "ObjectProperty",
+          "reference": 55395,
+          "target": "Style_CountryJuto.Style_CountryJuto",
+          "logical_offset": 19541518
+        },
+        {
+          "name": "SubStyle",
+          "type": "ObjectProperty",
+          "reference": 55395,
+          "target": "Style_CountryJuto.Style_CountryJuto",
+          "logical_offset": 19541546
+        }
+      ]
+    },
+    {
+      "export": 44976,
+      "object": "UI_Field_2.Scenes.StyleMenu",
+      "property": "CountryJuto_Style",
+      "struct": "CharacterStyleImage",
+      "source_package_sha256": "13f92622e2ae2920f6ce6dfc7b0edbbcbec7e83adeacbd56fed84a021739a641",
+      "payload_sha256": "0810f3b311e514614c25b55dd8ca38b59b084ad8ca88cc4a14ee2b50644bbab5",
+      "fields": [
+        {
+          "name": "MainStyle",
+          "type": "ObjectProperty",
+          "reference": 55395,
+          "target": "Style_CountryJuto.Style_CountryJuto",
+          "logical_offset": 19597010
+        },
+        {
+          "name": "SubStyle",
+          "type": "ObjectProperty",
+          "reference": 55395,
+          "target": "Style_CountryJuto.Style_CountryJuto",
+          "logical_offset": 19597038
+        }
+      ]
+    }
+  ]
+}

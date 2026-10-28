@@ -121,6 +121,8 @@ def compact_outputs(manifests: list[Path], root: Path, output: Path,
     before = shutil.disk_usage(root).free
     canonical: dict[tuple[int, str], Path] = {}
     operations = []
+    skipped_read_only = 0
+    skipped_permission_denied = 0
     link_counts: dict[tuple[int, int], int] = {}
     for path in rows:
         stat = path.stat()
@@ -128,6 +130,12 @@ def compact_outputs(manifests: list[Path], root: Path, output: Path,
     with (output / "operations.jsonl").open("x", encoding="utf-8", newline="\n") as log:
         for path in sorted(rows, key=lambda p: -p.stat().st_size):
             stat = path.stat()
+            # Do not remove read-only protection merely to save space. On
+            # Windows a hardlink shares this attribute with its source, so
+            # read-only members are not used as canonical link sources either.
+            if getattr(stat, 'st_file_attributes', 0) & 1:
+                skipped_read_only += 1
+                continue
             expected = rows[path]
             key = stat.st_size, expected
             source = canonical.setdefault(key, path)
@@ -152,7 +160,17 @@ def compact_outputs(manifests: list[Path], root: Path, output: Path,
             try:
                 if hashes(temporary) != expected or _Hashes.identity(path.stat()) != _Hashes.identity(stat):
                     raise ValueError(f"Output changed during compaction: {path}")
-                os.replace(temporary, path)
+                try:
+                    os.replace(temporary, path)
+                except PermissionError:
+                    # A live handle/ACL may protect an otherwise immutable
+                    # target. Leave it in place; never chmod or retry it.
+                    if hashes(path) != expected or _Hashes.identity(path.stat()) != _Hashes.identity(stat):
+                        raise ValueError(f"Denied target changed during compaction: {path}")
+                    skipped_permission_denied += 1
+                    log.write(json.dumps(dict(state="skipped-permission-denied", **row)) + "\n")
+                    log.flush()
+                    continue
                 link_counts[source_inode] += 1
                 link_counts[target_inode] -= 1
             finally:
@@ -180,6 +198,8 @@ def compact_outputs(manifests: list[Path], root: Path, output: Path,
                   mode="independent-rollback-pool" if rollback_only else "immutable-output-pool",
                   rollback_pool_independence_verified=rollback_only,
                   skipped_external_links=skipped_external_links,
+                  skipped_read_only=skipped_read_only,
+                  skipped_permission_denied=skipped_permission_denied,
                   linked_files=len(operations), all_hashes_unchanged=True,
                   reclaimable_bytes=sum(row["reclaimable_bytes"] for row in operations),
                   free_before=before, free_after=shutil.disk_usage(root).free)

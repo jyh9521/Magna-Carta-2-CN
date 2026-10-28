@@ -56,6 +56,15 @@ class CompactOutputsTests(unittest.TestCase):
             self.run_compaction()
         self.assertFalse(os.path.samefile(self.a, self.b))
 
+    def test_permission_denial_preserves_target_and_continues(self):
+        with patch('tools.compact_outputs.os.replace', side_effect=PermissionError('fixture locked')):
+            report = self.run_compaction()
+        self.assertEqual(report['skipped_permission_denied'], 1)
+        self.assertEqual(report['linked_files'], 0)
+        self.assertFalse(os.path.samefile(self.a, self.b))
+        self.assertEqual(self.b.read_bytes(), self.data)
+        self.assertEqual(list(self.root.rglob('.dedup-*')), [])
+
     def test_parent_traversal_rejected(self):
         self.members["../original.bin"] = "0" * 64
         self.save()

@@ -1,0 +1,228 @@
+{
+  "schema_version": 1,
+  "kind": "bounded-text-consumer-replay",
+  "ui_sha256": "952d659948ea529f216bd446bcde1a4cc1e460d8d7fa66be5636edd11ad9392c",
+  "native_sha256": "d18d49fb2960426715ba17d61d069cce42b1eadac153af13c9395cd42b1773e9",
+  "native_base": 2181038080,
+  "native_windows": [
+    {
+      "address": 2185359168,
+      "size": 40,
+      "sha256": "46d97cb97201bc05e01c8a9c7fe9979f3ff5e49be847b4445f42d4589f0b47b5",
+      "role": "config SubTitleCharGap -> Engine+0x42c"
+    },
+    {
+      "address": 2187575632,
+      "size": 1016,
+      "sha256": "f04633f164edea9bf396270531fe8e8a016b21b875f1ca57e6a7e1be58900636",
+      "role": "subtitle glyph mapping and one white tint pass per glyph"
+    },
+    {
+      "address": 2187572136,
+      "size": 536,
+      "sha256": "2809fb2e31c6986abaacd0f61c76a5244205023172a7763ca02cf6a87016bbd1",
+      "role": "quad transports color UV and texture into batch"
+    },
+    {
+      "address": 2186844672,
+      "size": 744,
+      "sha256": "a97a8ef254b61e5bec0e6306176f6a48b87314e917a44ba5f390d7adef5410e0",
+      "role": "subtitle caller uses MediumFont and configured character gap"
+    },
+    {
+      "address": 2188151868,
+      "size": 28,
+      "sha256": "56b013a1cbc54d488d11589764eac6e0008e40c3a864ffec29c4607801e5c7ce",
+      "role": "UI wrap accumulates native glyph metrics"
+    },
+    {
+      "address": 2200009932,
+      "size": 32,
+      "sha256": "a7566e3f750c414666520f0c31ed8ea41b2ff5ba5c321362ff3de35ffe43ec15",
+      "role": "white tint and black shadow constants"
+    }
+  ],
+  "ui_fields": [
+    {
+      "id": "cursor_x",
+      "object": "UI_Core.Scenes.QuickMenu.PosPannel.Bt_LbRb.Bt_Cursor",
+      "prefix": 4,
+      "field": [
+        [
+          "Position",
+          0
+        ],
+        [
+          "Value",
+          0
+        ]
+      ],
+      "expected": 135.0,
+      "payload_sha256": "88bf1c1657fbd0d7f933a361224f44e43040433f19e0bd58c3972eb98fa56fdb"
+    },
+    {
+      "id": "accept_x",
+      "object": "UI_Core.Scenes.QuickMenu.PosPannel.Bt_LbRb.Bt_A",
+      "prefix": 4,
+      "field": [
+        [
+          "Position",
+          0
+        ],
+        [
+          "Value",
+          0
+        ]
+      ],
+      "expected": 254.0,
+      "payload_sha256": "d43a70fbf6c6a4ada93a1dd507fdbdc4a4009497e2849e69f1d8539bc2981f43"
+    },
+    {
+      "id": "tab_markup",
+      "object": "UI_Core.Scenes.QuickMenu.PosPannel.Bt_LbRb",
+      "prefix": 4,
+      "field": [
+        [
+          "DataSource",
+          0
+        ],
+        [
+          "MarkupString",
+          0
+        ]
+      ],
+      "expected": "<Styles:MC2_StyleFont_0>l<Styles:/><Styles:MC2_StyleFont_0>r<Styles:/><Strings:MC2UI.Common.ChangeTab>",
+      "payload_sha256": "699b37cc5ec3ed17dce7a3dfbba6af5c182dedd91f96aa096a53d63938fe5a53"
+    },
+    {
+      "id": "cursor_markup",
+      "object": "UI_Core.Scenes.QuickMenu.PosPannel.Bt_LbRb.Bt_Cursor",
+      "prefix": 4,
+      "field": [
+        [
+          "DataSource",
+          0
+        ],
+        [
+          "MarkupString",
+          0
+        ]
+      ],
+      "expected": "<Styles:MC2_StyleFont_0>U<Styles:/><Strings:MC2UI.Common.Cursor>",
+      "payload_sha256": "88bf1c1657fbd0d7f933a361224f44e43040433f19e0bd58c3972eb98fa56fdb"
+    },
+    {
+      "id": "balloon_max_width",
+      "object": "UI_Core.Scenes.Scene_Balloon_10.Balloon_Base.Dialogue.LabelStringRenderer",
+      "prefix": 8,
+      "field": [
+        [
+          "AutoSizeParameters",
+          0
+        ],
+        [
+          "Extent",
+          0
+        ],
+        [
+          "Value",
+          1
+        ]
+      ],
+      "expected": 452.0,
+      "payload_sha256": "536979e7b225090da6db3aeec00a861426233354c5487f5c7bad44ceab55231d"
+    }
+  ],
+  "fonts": {
+    "general": {
+      "resource": "MC2Game/CookedXenon/font.xxx",
+      "object": "General_15"
+    },
+    "subtitle": {
+      "resource": "MC2Game/CookedXenon/font.xxx",
+      "object": "EngineMedium_Subtitle"
+    },
+    "resident_subtitle": {
+      "resource": "MC2Game/CookedXenon/Startup_int.xxx",
+      "object": "Font.EngineMedium_Subtitle"
+    },
+    "icons": {
+      "resource": "MC2Game/CookedXenon/Startup_int.xxx",
+      "object": "font_ui.MC2StyleFont_0"
+    }
+  },
+  "text_resource": "MC2Game/Localization/Coalesced.int",
+  "cases": [
+    {
+      "id": "feedback-04-tabs",
+      "kind": "menu-slots",
+      "entry_id": "coalesced:79953af8b1b70d525f3bc5b1c18e41cd368e1854ff45f4235ad35e644f775504",
+      "font": "general",
+      "icon_font": "icons",
+      "icon_text": "lr",
+      "right_field": "cursor_x"
+    },
+    {
+      "id": "feedback-04-cursor",
+      "kind": "menu-slots",
+      "entry_id": "coalesced:8e51ac49f387717bc5fd7cc1682519010962f7d586f1558aadf47a5cbc435cf3",
+      "font": "general",
+      "icon_font": "icons",
+      "icon_text": "U",
+      "left_field": "cursor_x",
+      "right_field": "accept_x"
+    },
+    {
+      "id": "feedback-10-general",
+      "kind": "explicit-lines",
+      "entry_id": "coalesced:11c76ad11d93e5e66a39733c38e7c9218d120aa151cb4afe1bcb51aa4cc85fd2",
+      "font": "general",
+      "limit_field": "balloon_max_width",
+      "line_count": 3
+    },
+    {
+      "id": "feedback-12-general",
+      "kind": "explicit-lines",
+      "entry_id": "coalesced:41ee13042c4dc5822bd04a9e3a37a1a8f39c7ada856a38363de318d168771fda",
+      "font": "general",
+      "limit": 1078,
+      "line_count": 2,
+      "limit_basis": "controlled safe width = native 1280 frame minus two native 101 margins; not a sampled live rectangle"
+    },
+    {
+      "id": "feedback-10-subtitle",
+      "kind": "explicit-lines",
+      "entry_id": "coalesced:11c76ad11d93e5e66a39733c38e7c9218d120aa151cb4afe1bcb51aa4cc85fd2",
+      "font": "subtitle",
+      "limit_field": "balloon_max_width",
+      "line_count": 3
+    },
+    {
+      "id": "feedback-12-subtitle",
+      "kind": "explicit-lines",
+      "entry_id": "coalesced:41ee13042c4dc5822bd04a9e3a37a1a8f39c7ada856a38363de318d168771fda",
+      "font": "subtitle",
+      "limit": 1078,
+      "line_count": 2,
+      "limit_basis": "controlled safe width = native 1280 frame minus two native 101 margins; not a sampled live rectangle"
+    }
+  ],
+  "shadows": [
+    {
+      "id": "feedback-03-subtitle",
+      "font": "subtitle",
+      "text": "请就这样往上吊。"
+    },
+    {
+      "id": "feedback-03-resident_subtitle",
+      "font": "resident_subtitle",
+      "text": "请就这样往上吊。"
+    }
+  ],
+  "not_proven": [
+    "active widget/skin/font selection",
+    "complete native tokenizer",
+    "final texture sample pixel shader",
+    "in-game visual acceptance"
+  ]
+}

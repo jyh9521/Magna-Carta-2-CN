@@ -1,0 +1,345 @@
+{
+  "schema_version": 1,
+  "kind": "texture-region-repair-delta",
+  "game_rendering_verified": false,
+  "labels": [
+    {
+      "expected_label_sha256": "24dabe201ccf52c62ebb2fa22154282d6d286b923e3e2e06c5b08edac42b550c",
+      "label": {
+        "id": "normal_map_terrain_map_highwind_down_01",
+        "text": "风息岛",
+        "rect": [
+          320,
+          0,
+          192,
+          20
+        ],
+        "font_size": 32,
+        "font": {
+          "path": "build/font-source/NotoSansCJKsc-Regular.otf",
+          "sha256": "2c76254f6fc379fddfce0a7e84fb5385bb135d3e399294f6eeb6680d0365b74b"
+        },
+        "align": "center",
+        "ink_padding": {
+          "x": 1,
+          "y": 0
+        },
+        "style": {
+          "fill": [
+            219,
+            255,
+            131,
+            255
+          ],
+          "stroke_fill": [
+            16,
+            16,
+            16,
+            220
+          ],
+          "shadow_fill": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "restoration": {
+          "source_rgba_sha256": "5e8704aeadbde786cbb862285709d41eaa9998b8a2fc25664456c1f72b2ea251",
+          "mask": {
+            "path": "locales/zh-Hans/texture-overlays/restorations/gameplay-art-v7-20261027/normal_map_terrain_map_highwind_down_01-tail-mask.png",
+            "sha256": "a7c43a442014ee624bf6dbd12be80198e4f83e127cdcb994fbd37091d6b4a572"
+          },
+          "patch": {
+            "path": "locales/zh-Hans/texture-overlays/restorations/gameplay-art-v7-20261027/normal_map_terrain_map_highwind_down_01-tail-patch.png",
+            "sha256": "d15dee717944c2545e9eb4688f0fccbc0bacb38ff9c4f98396a6bc1e27e5105f"
+          }
+        },
+        "render_window": {
+          "canvas": [
+            192,
+            48
+          ],
+          "crop": [
+            0,
+            28,
+            192,
+            20
+          ]
+        },
+        "source_ids": [
+          "coalesced:27b8b7a72de121f4a93037b5cdb85f3a5240e57a317888b43e4c39c3fedcfec0"
+        ],
+        "translation_basis": "reuse-current-INT",
+        "appearance": {
+          "kind": "source-style-v1",
+          "ink_box": [
+            1,
+            6,
+            190,
+            32
+          ],
+          "align": "center",
+          "gradient": [
+            [
+              0,
+              [
+                249,
+                252,
+                249,
+                255
+              ]
+            ],
+            [
+              45,
+              [
+                251,
+                253,
+                251,
+                255
+              ]
+            ],
+            [
+              91,
+              [
+                255,
+                255,
+                255,
+                255
+              ]
+            ],
+            [
+              136,
+              [
+                255,
+                255,
+                255,
+                255
+              ]
+            ],
+            [
+              182,
+              [
+                255,
+                255,
+                255,
+                255
+              ]
+            ],
+            [
+              227,
+              [
+                255,
+                255,
+                255,
+                255
+              ]
+            ],
+            [
+              273,
+              [
+                255,
+                255,
+                255,
+                255
+              ]
+            ],
+            [
+              318,
+              [
+                255,
+                255,
+                247,
+                255
+              ]
+            ],
+            [
+              364,
+              [
+                255,
+                255,
+                247,
+                255
+              ]
+            ],
+            [
+              409,
+              [
+                255,
+                255,
+                247,
+                255
+              ]
+            ],
+            [
+              455,
+              [
+                255,
+                255,
+                247,
+                255
+              ]
+            ],
+            [
+              500,
+              [
+                247,
+                255,
+                214,
+                255
+              ]
+            ],
+            [
+              545,
+              [
+                247,
+                255,
+                214,
+                255
+              ]
+            ],
+            [
+              591,
+              [
+                247,
+                255,
+                214,
+                255
+              ]
+            ],
+            [
+              636,
+              [
+                247,
+                255,
+                214,
+                255
+              ]
+            ],
+            [
+              682,
+              [
+                231,
+                251,
+                173,
+                255
+              ]
+            ],
+            [
+              727,
+              [
+                231,
+                251,
+                173,
+                255
+              ]
+            ],
+            [
+              773,
+              [
+                231,
+                251,
+                173,
+                255
+              ]
+            ],
+            [
+              818,
+              [
+                231,
+                251,
+                165,
+                255
+              ]
+            ],
+            [
+              864,
+              [
+                222,
+                251,
+                132,
+                255
+              ]
+            ],
+            [
+              909,
+              [
+                222,
+                251,
+                132,
+                255
+              ]
+            ],
+            [
+              955,
+              [
+                222,
+                251,
+                132,
+                255
+              ]
+            ],
+            [
+              1000,
+              [
+                222,
+                251,
+                132,
+                255
+              ]
+            ]
+          ],
+          "outline": [
+            8,
+            8,
+            10,
+            245
+          ],
+          "outline_width": 1.2,
+          "glow": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "glow_radius": 0,
+          "shadow": [
+            0,
+            0,
+            0,
+            230
+          ],
+          "shadow_offset": [
+            1,
+            1
+          ],
+          "shadow_radius": 0.65,
+          "italic": 0,
+          "tracking": 0,
+          "weight": 0,
+          "motion": 0
+        }
+      }
+    }
+  ],
+  "source_additions": [],
+  "restoration_recipes": [
+    {
+      "label_id": "normal_map_terrain_map_highwind_down_01",
+      "case_id": "map-down",
+      "kind": "transparent-alpha-support",
+      "seed": null,
+      "selected_pixels": 2589,
+      "source_rgba_sha256": "5e8704aeadbde786cbb862285709d41eaa9998b8a2fc25664456c1f72b2ea251",
+      "native_rgba_sha256": "22edcf4f6e792eedb1ac8cd43ac69de3ab20a6a97fca1a41950295ef4c2914bf",
+      "preserve_rects": [
+        [
+          52,
+          16,
+          140,
+          4
+        ]
+      ]
+    }
+  ]
+}

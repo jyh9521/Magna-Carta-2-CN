@@ -1,0 +1,1331 @@
+{
+  "schema_version": 1,
+  "kind": "texture-region-repair-delta",
+  "game_rendering_verified": false,
+  "labels": [
+    {
+      "expected_label_sha256": "12b13041f8ced4b5c451c4298a2c4b747d581301d8b82be55260ae9c1bc82bfd",
+      "label": {
+        "id": "normal_map_terrain_map_highwind_up_03",
+        "text": "风息岛",
+        "rect": [
+          320,
+          484,
+          192,
+          28
+        ],
+        "font_size": 32,
+        "font": {
+          "path": "build/font-source/NotoSansCJKsc-Regular.otf",
+          "sha256": "2c76254f6fc379fddfce0a7e84fb5385bb135d3e399294f6eeb6680d0365b74b"
+        },
+        "align": "center",
+        "ink_padding": {
+          "x": 1,
+          "y": 0
+        },
+        "style": {
+          "fill": [
+            219,
+            255,
+            131,
+            255
+          ],
+          "stroke_fill": [
+            16,
+            16,
+            16,
+            220
+          ],
+          "shadow_fill": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "restoration": {
+          "source_rgba_sha256": "95294498de44437800760e8cebee778451330a6b4c7d8baad97a555fc7a73207",
+          "mask": {
+            "path": "locales/zh-Hans/texture-overlays/restorations/gameplay-art-v7-20261027/normal_map_terrain_map_highwind_up_03-mask.png",
+            "sha256": "6edca8e41c27a7d56834939ca0308f63cbe066f05a9766c4ff0a216157285634"
+          },
+          "patch": {
+            "path": "locales/zh-Hans/texture-overlays/restorations/gameplay-art-v7-20261027/normal_map_terrain_map_highwind_up_03-patch.png",
+            "sha256": "cfcc579b2661fa36d2b79845a506a4c616c87376bc684f1850e2bd538140c0a9"
+          }
+        },
+        "render_window": {
+          "canvas": [
+            192,
+            44
+          ],
+          "crop": [
+            0,
+            0,
+            192,
+            28
+          ]
+        },
+        "source_ids": [
+          "coalesced:27b8b7a72de121f4a93037b5cdb85f3a5240e57a317888b43e4c39c3fedcfec0"
+        ],
+        "translation_basis": "reuse-current-INT",
+        "appearance": {
+          "kind": "source-style-v1",
+          "ink_box": [
+            1,
+            6,
+            190,
+            32
+          ],
+          "align": "center",
+          "gradient": [
+            [
+              0,
+              [
+                249,
+                252,
+                249,
+                255
+              ]
+            ],
+            [
+              45,
+              [
+                251,
+                253,
+                251,
+                255
+              ]
+            ],
+            [
+              91,
+              [
+                255,
+                255,
+                255,
+                255
+              ]
+            ],
+            [
+              136,
+              [
+                255,
+                255,
+                255,
+                255
+              ]
+            ],
+            [
+              182,
+              [
+                255,
+                255,
+                255,
+                255
+              ]
+            ],
+            [
+              227,
+              [
+                255,
+                255,
+                255,
+                255
+              ]
+            ],
+            [
+              273,
+              [
+                255,
+                255,
+                255,
+                255
+              ]
+            ],
+            [
+              318,
+              [
+                255,
+                255,
+                247,
+                255
+              ]
+            ],
+            [
+              364,
+              [
+                255,
+                255,
+                247,
+                255
+              ]
+            ],
+            [
+              409,
+              [
+                255,
+                255,
+                247,
+                255
+              ]
+            ],
+            [
+              455,
+              [
+                255,
+                255,
+                247,
+                255
+              ]
+            ],
+            [
+              500,
+              [
+                247,
+                255,
+                214,
+                255
+              ]
+            ],
+            [
+              545,
+              [
+                247,
+                255,
+                214,
+                255
+              ]
+            ],
+            [
+              591,
+              [
+                247,
+                255,
+                214,
+                255
+              ]
+            ],
+            [
+              636,
+              [
+                247,
+                255,
+                214,
+                255
+              ]
+            ],
+            [
+              682,
+              [
+                231,
+                251,
+                173,
+                255
+              ]
+            ],
+            [
+              727,
+              [
+                231,
+                251,
+                173,
+                255
+              ]
+            ],
+            [
+              773,
+              [
+                231,
+                251,
+                173,
+                255
+              ]
+            ],
+            [
+              818,
+              [
+                231,
+                251,
+                165,
+                255
+              ]
+            ],
+            [
+              864,
+              [
+                222,
+                251,
+                132,
+                255
+              ]
+            ],
+            [
+              909,
+              [
+                222,
+                251,
+                132,
+                255
+              ]
+            ],
+            [
+              955,
+              [
+                222,
+                251,
+                132,
+                255
+              ]
+            ],
+            [
+              1000,
+              [
+                222,
+                251,
+                132,
+                255
+              ]
+            ]
+          ],
+          "outline": [
+            8,
+            8,
+            10,
+            245
+          ],
+          "outline_width": 1.2,
+          "glow": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "glow_radius": 0,
+          "shadow": [
+            0,
+            0,
+            0,
+            230
+          ],
+          "shadow_offset": [
+            1,
+            1
+          ],
+          "shadow_radius": 0.65,
+          "italic": 0,
+          "tracking": 0,
+          "weight": 0,
+          "motion": 0
+        }
+      }
+    },
+    {
+      "expected_label_sha256": "b0c0c73f6c2896b08637c45358af087cfd182547b4e41852f67177d9d883a9a8",
+      "label": {
+        "id": "normal_map_terrain_map_highwind_down_01",
+        "text": "风息岛",
+        "rect": [
+          320,
+          0,
+          192,
+          20
+        ],
+        "font_size": 32,
+        "font": {
+          "path": "build/font-source/NotoSansCJKsc-Regular.otf",
+          "sha256": "2c76254f6fc379fddfce0a7e84fb5385bb135d3e399294f6eeb6680d0365b74b"
+        },
+        "align": "center",
+        "ink_padding": {
+          "x": 1,
+          "y": 0
+        },
+        "style": {
+          "fill": [
+            219,
+            255,
+            131,
+            255
+          ],
+          "stroke_fill": [
+            16,
+            16,
+            16,
+            220
+          ],
+          "shadow_fill": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "restoration": {
+          "source_rgba_sha256": "5e8704aeadbde786cbb862285709d41eaa9998b8a2fc25664456c1f72b2ea251",
+          "mask": {
+            "path": "locales/zh-Hans/texture-overlays/restorations/gameplay-art-v7-20261027/normal_map_terrain_map_highwind_down_01-tail-mask.png",
+            "sha256": "a7c43a442014ee624bf6dbd12be80198e4f83e127cdcb994fbd37091d6b4a572"
+          },
+          "patch": {
+            "path": "locales/zh-Hans/texture-overlays/restorations/gameplay-art-v7-20261027/normal_map_terrain_map_highwind_down_01-tail-patch.png",
+            "sha256": "d15dee717944c2545e9eb4688f0fccbc0bacb38ff9c4f98396a6bc1e27e5105f"
+          }
+        },
+        "render_window": {
+          "canvas": [
+            192,
+            48
+          ],
+          "crop": [
+            0,
+            28,
+            192,
+            20
+          ]
+        },
+        "source_ids": [
+          "coalesced:27b8b7a72de121f4a93037b5cdb85f3a5240e57a317888b43e4c39c3fedcfec0"
+        ],
+        "translation_basis": "reuse-current-INT",
+        "appearance": {
+          "kind": "source-style-v1",
+          "ink_box": [
+            1,
+            6,
+            190,
+            32
+          ],
+          "align": "center",
+          "gradient": [
+            [
+              0,
+              [
+                249,
+                252,
+                249,
+                255
+              ]
+            ],
+            [
+              45,
+              [
+                251,
+                253,
+                251,
+                255
+              ]
+            ],
+            [
+              91,
+              [
+                255,
+                255,
+                255,
+                255
+              ]
+            ],
+            [
+              136,
+              [
+                255,
+                255,
+                255,
+                255
+              ]
+            ],
+            [
+              182,
+              [
+                255,
+                255,
+                255,
+                255
+              ]
+            ],
+            [
+              227,
+              [
+                255,
+                255,
+                255,
+                255
+              ]
+            ],
+            [
+              273,
+              [
+                255,
+                255,
+                255,
+                255
+              ]
+            ],
+            [
+              318,
+              [
+                255,
+                255,
+                247,
+                255
+              ]
+            ],
+            [
+              364,
+              [
+                255,
+                255,
+                247,
+                255
+              ]
+            ],
+            [
+              409,
+              [
+                255,
+                255,
+                247,
+                255
+              ]
+            ],
+            [
+              455,
+              [
+                255,
+                255,
+                247,
+                255
+              ]
+            ],
+            [
+              500,
+              [
+                247,
+                255,
+                214,
+                255
+              ]
+            ],
+            [
+              545,
+              [
+                247,
+                255,
+                214,
+                255
+              ]
+            ],
+            [
+              591,
+              [
+                247,
+                255,
+                214,
+                255
+              ]
+            ],
+            [
+              636,
+              [
+                247,
+                255,
+                214,
+                255
+              ]
+            ],
+            [
+              682,
+              [
+                231,
+                251,
+                173,
+                255
+              ]
+            ],
+            [
+              727,
+              [
+                231,
+                251,
+                173,
+                255
+              ]
+            ],
+            [
+              773,
+              [
+                231,
+                251,
+                173,
+                255
+              ]
+            ],
+            [
+              818,
+              [
+                231,
+                251,
+                165,
+                255
+              ]
+            ],
+            [
+              864,
+              [
+                222,
+                251,
+                132,
+                255
+              ]
+            ],
+            [
+              909,
+              [
+                222,
+                251,
+                132,
+                255
+              ]
+            ],
+            [
+              955,
+              [
+                222,
+                251,
+                132,
+                255
+              ]
+            ],
+            [
+              1000,
+              [
+                222,
+                251,
+                132,
+                255
+              ]
+            ]
+          ],
+          "outline": [
+            8,
+            8,
+            10,
+            245
+          ],
+          "outline_width": 1.2,
+          "glow": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "glow_radius": 0,
+          "shadow": [
+            0,
+            0,
+            0,
+            230
+          ],
+          "shadow_offset": [
+            1,
+            1
+          ],
+          "shadow_radius": 0.65,
+          "italic": 0,
+          "tracking": 0,
+          "weight": 0,
+          "motion": 0
+        }
+      }
+    },
+    {
+      "expected_label_sha256": "b7eff977e40aefe4c620e329b0cadeaa45be95fe9c1e3b05427a34f59fb41b3d",
+      "label": {
+        "id": "normal_map_terrain_map_highwind_up_cave_03",
+        "text": "风息岛",
+        "rect": [
+          320,
+          484,
+          192,
+          28
+        ],
+        "font_size": 32,
+        "font": {
+          "path": "build/font-source/NotoSansCJKsc-Regular.otf",
+          "sha256": "2c76254f6fc379fddfce0a7e84fb5385bb135d3e399294f6eeb6680d0365b74b"
+        },
+        "align": "center",
+        "ink_padding": {
+          "x": 1,
+          "y": 0
+        },
+        "style": {
+          "fill": [
+            219,
+            255,
+            131,
+            255
+          ],
+          "stroke_fill": [
+            16,
+            16,
+            16,
+            220
+          ],
+          "shadow_fill": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "restoration": {
+          "source_rgba_sha256": "95294498de44437800760e8cebee778451330a6b4c7d8baad97a555fc7a73207",
+          "mask": {
+            "path": "locales/zh-Hans/texture-overlays/restorations/gameplay-art-v7-20261027/normal_map_terrain_map_highwind_up_cave_03-mask.png",
+            "sha256": "6edca8e41c27a7d56834939ca0308f63cbe066f05a9766c4ff0a216157285634"
+          },
+          "patch": {
+            "path": "locales/zh-Hans/texture-overlays/restorations/gameplay-art-v7-20261027/normal_map_terrain_map_highwind_up_cave_03-patch.png",
+            "sha256": "cfcc579b2661fa36d2b79845a506a4c616c87376bc684f1850e2bd538140c0a9"
+          }
+        },
+        "render_window": {
+          "canvas": [
+            192,
+            44
+          ],
+          "crop": [
+            0,
+            0,
+            192,
+            28
+          ]
+        },
+        "source_ids": [
+          "coalesced:27b8b7a72de121f4a93037b5cdb85f3a5240e57a317888b43e4c39c3fedcfec0"
+        ],
+        "translation_basis": "reuse-current-INT",
+        "appearance": {
+          "kind": "source-style-v1",
+          "ink_box": [
+            1,
+            6,
+            190,
+            32
+          ],
+          "align": "center",
+          "gradient": [
+            [
+              0,
+              [
+                249,
+                252,
+                249,
+                255
+              ]
+            ],
+            [
+              45,
+              [
+                251,
+                253,
+                251,
+                255
+              ]
+            ],
+            [
+              91,
+              [
+                255,
+                255,
+                255,
+                255
+              ]
+            ],
+            [
+              136,
+              [
+                255,
+                255,
+                255,
+                255
+              ]
+            ],
+            [
+              182,
+              [
+                255,
+                255,
+                255,
+                255
+              ]
+            ],
+            [
+              227,
+              [
+                255,
+                255,
+                255,
+                255
+              ]
+            ],
+            [
+              273,
+              [
+                255,
+                255,
+                255,
+                255
+              ]
+            ],
+            [
+              318,
+              [
+                255,
+                255,
+                247,
+                255
+              ]
+            ],
+            [
+              364,
+              [
+                255,
+                255,
+                247,
+                255
+              ]
+            ],
+            [
+              409,
+              [
+                255,
+                255,
+                247,
+                255
+              ]
+            ],
+            [
+              455,
+              [
+                255,
+                255,
+                247,
+                255
+              ]
+            ],
+            [
+              500,
+              [
+                247,
+                255,
+                214,
+                255
+              ]
+            ],
+            [
+              545,
+              [
+                247,
+                255,
+                214,
+                255
+              ]
+            ],
+            [
+              591,
+              [
+                247,
+                255,
+                214,
+                255
+              ]
+            ],
+            [
+              636,
+              [
+                247,
+                255,
+                214,
+                255
+              ]
+            ],
+            [
+              682,
+              [
+                231,
+                251,
+                173,
+                255
+              ]
+            ],
+            [
+              727,
+              [
+                231,
+                251,
+                173,
+                255
+              ]
+            ],
+            [
+              773,
+              [
+                231,
+                251,
+                173,
+                255
+              ]
+            ],
+            [
+              818,
+              [
+                231,
+                251,
+                165,
+                255
+              ]
+            ],
+            [
+              864,
+              [
+                222,
+                251,
+                132,
+                255
+              ]
+            ],
+            [
+              909,
+              [
+                222,
+                251,
+                132,
+                255
+              ]
+            ],
+            [
+              955,
+              [
+                222,
+                251,
+                132,
+                255
+              ]
+            ],
+            [
+              1000,
+              [
+                222,
+                251,
+                132,
+                255
+              ]
+            ]
+          ],
+          "outline": [
+            8,
+            8,
+            10,
+            245
+          ],
+          "outline_width": 1.2,
+          "glow": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "glow_radius": 0,
+          "shadow": [
+            0,
+            0,
+            0,
+            230
+          ],
+          "shadow_offset": [
+            1,
+            1
+          ],
+          "shadow_radius": 0.65,
+          "italic": 0,
+          "tracking": 0,
+          "weight": 0,
+          "motion": 0
+        }
+      }
+    },
+    {
+      "expected_label_sha256": null,
+      "label": {
+        "id": "gameplay_style_country_juto_name",
+        "text": "朱特",
+        "rect": [
+          316,
+          300,
+          80,
+          52
+        ],
+        "font_size": 32,
+        "style": {
+          "fill": [
+            245,
+            245,
+            245,
+            255
+          ]
+        },
+        "translation_basis": "native-consumer-and-current-name-term",
+        "source_text_sha256": "8e0bf020605f6b182e873a119ee6286aac335910ba9d20706d27bc350d9db602",
+        "source_ids": [
+          "coalesced:59cabc4c9b2030d4a3367e82c7dd979be74e94ab69eb7a01845bdf6c89e06a81"
+        ],
+        "font": {
+          "path": "build/font-source/NotoSerifCJKsc-SemiBold.otf",
+          "sha256": "d627b53dbcde61e07de1498d2623a8b287f78585ffbc90cc0618d0caaa2ed6b0"
+        },
+        "appearance": {
+          "kind": "source-style-v1",
+          "ink_box": [
+            4,
+            10,
+            72,
+            32
+          ],
+          "align": "center",
+          "gradient": [
+            [
+              0,
+              [
+                228,
+                226,
+                228,
+                255
+              ]
+            ],
+            [
+              59,
+              [
+                247,
+                243,
+                247,
+                255
+              ]
+            ],
+            [
+              118,
+              [
+                247,
+                243,
+                247,
+                255
+              ]
+            ],
+            [
+              176,
+              [
+                255,
+                255,
+                255,
+                255
+              ]
+            ],
+            [
+              235,
+              [
+                255,
+                255,
+                255,
+                255
+              ]
+            ],
+            [
+              294,
+              [
+                255,
+                255,
+                255,
+                255
+              ]
+            ],
+            [
+              353,
+              [
+                255,
+                255,
+                255,
+                255
+              ]
+            ],
+            [
+              412,
+              [
+                255,
+                255,
+                255,
+                255
+              ]
+            ],
+            [
+              471,
+              [
+                255,
+                255,
+                255,
+                255
+              ]
+            ],
+            [
+              529,
+              [
+                255,
+                255,
+                255,
+                255
+              ]
+            ],
+            [
+              588,
+              [
+                255,
+                255,
+                255,
+                255
+              ]
+            ],
+            [
+              647,
+              [
+                247,
+                251,
+                247,
+                255
+              ]
+            ],
+            [
+              706,
+              [
+                247,
+                251,
+                247,
+                255
+              ]
+            ],
+            [
+              765,
+              [
+                247,
+                251,
+                247,
+                255
+              ]
+            ],
+            [
+              824,
+              [
+                247,
+                247,
+                247,
+                255
+              ]
+            ],
+            [
+              882,
+              [
+                247,
+                247,
+                247,
+                255
+              ]
+            ],
+            [
+              941,
+              [
+                247,
+                247,
+                247,
+                255
+              ]
+            ],
+            [
+              1000,
+              [
+                230,
+                228,
+                230,
+                255
+              ]
+            ]
+          ],
+          "outline": [
+            8,
+            8,
+            10,
+            245
+          ],
+          "outline_width": 1.3,
+          "glow": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "glow_radius": 0,
+          "shadow": [
+            0,
+            0,
+            0,
+            230
+          ],
+          "shadow_offset": [
+            1,
+            2
+          ],
+          "shadow_radius": 0.65,
+          "italic": 0.12,
+          "tracking": 0,
+          "weight": 0,
+          "motion": 0
+        },
+        "restoration": {
+          "source_rgba_sha256": "cfbcfa77618240b55d8e77653791d096fd8a277f365fcb6ac4207b40e2fc66b1",
+          "mask": {
+            "path": "locales/zh-Hans/texture-overlays/restorations/gameplay-art-v7-20261027/gameplay_style_country_juto_name-mask.png",
+            "sha256": "a079545e5d016f45354fa0be78b242282a8dc376f6cbe9277595aeb5813fbc9a"
+          },
+          "patch": {
+            "path": "locales/zh-Hans/texture-overlays/restorations/gameplay-art-v7-20261027/gameplay_style_country_juto_name-patch.png",
+            "sha256": "4ed5521ce744b401e983aac10899551bca440491326db287f32cafb237389a4f"
+          }
+        }
+      }
+    }
+  ],
+  "source_additions": [
+    {
+      "expected_header_sha256": "c86e7d811e1a0dc2318d58656af1cf916455aa2d7baba5a27dd8a927a55baf6f",
+      "source": {
+        "path": "MC2Game/CookedXenon/MC2Game.xxx",
+        "discs": [
+          1,
+          2
+        ],
+        "original": {
+          "path": "build/poc-game/disc1/MC2Game/CookedXenon/MC2Game.xxx",
+          "sha256": "13f92622e2ae2920f6ce6dfc7b0edbbcbec7e83adeacbd56fed84a021739a641"
+        },
+        "base": {
+          "path": "build/phase-285-verification/route-probe/candidate/MC2Game/CookedXenon/MC2Game.xxx",
+          "sha256": "5595562dab1233cbbf7979fff1b9c9ca031707b40f10adf75eb97ec1e999d425"
+        }
+      },
+      "textures": [
+        {
+          "object": "Style_CountryJuto.Style_CountryJuto",
+          "label": "gameplay_style_country_juto_name",
+          "payload_sha256": "e24c5c3025113c427639c2fb207726b8d35db58ec83fa9f47a06ec68c84580e0",
+          "tiled_sha256": "238f50c3e01cafc02f285d67a2a563ea086705a12682305f2e0c45262b5e3ae7",
+          "dimensions": [
+            512,
+            512
+          ],
+          "profile": {
+            "kind": "xbox-inline-bc-v1",
+            "format": 7
+          },
+          "channel_mode": "rgba",
+          "preserve_unchanged_blocks": true,
+          "alpha_encoding": "adaptive-range"
+        }
+      ]
+    },
+    {
+      "expected_header_sha256": null,
+      "source": {
+        "path": "MC2Game/CookedXenon/Style_CountryJuto.xxx",
+        "discs": [
+          1,
+          2
+        ],
+        "original": {
+          "path": "build/poc-game/disc1/MC2Game/CookedXenon/Style_CountryJuto.xxx",
+          "sha256": "a5acf7da956d0d3f4181e3b536bc7499c6b52600c6663fd61b55b3c8d68096ff"
+        },
+        "base": {
+          "path": "build/poc-game/disc1/MC2Game/CookedXenon/Style_CountryJuto.xxx",
+          "sha256": "a5acf7da956d0d3f4181e3b536bc7499c6b52600c6663fd61b55b3c8d68096ff"
+        }
+      },
+      "textures": [
+        {
+          "object": "Style_CountryJuto",
+          "label": "gameplay_style_country_juto_name",
+          "payload_sha256": "658f0ca846beeeb4f033003f4272d20aaa7b81098d00b5151973cd3cbbbfa5b4",
+          "tiled_sha256": "238f50c3e01cafc02f285d67a2a563ea086705a12682305f2e0c45262b5e3ae7",
+          "dimensions": [
+            512,
+            512
+          ],
+          "profile": {
+            "kind": "xbox-inline-bc-v1",
+            "format": 7
+          },
+          "channel_mode": "rgba",
+          "preserve_unchanged_blocks": true,
+          "alpha_encoding": "adaptive-range"
+        }
+      ]
+    }
+  ],
+  "restoration_recipes": [
+    {
+      "label_id": "normal_map_terrain_map_highwind_up_03",
+      "case_id": "map-up",
+      "kind": "transparent-alpha-support",
+      "seed": null,
+      "selected_pixels": 4584,
+      "source_rgba_sha256": "95294498de44437800760e8cebee778451330a6b4c7d8baad97a555fc7a73207",
+      "native_rgba_sha256": "70a38201a0b2ee3c9cf925df2b42db53bb6c7b69288d241ef607ca68e0d4cac0"
+    },
+    {
+      "label_id": "normal_map_terrain_map_highwind_down_01",
+      "case_id": "map-down",
+      "kind": "transparent-alpha-support",
+      "seed": null,
+      "selected_pixels": 2589,
+      "source_rgba_sha256": "5e8704aeadbde786cbb862285709d41eaa9998b8a2fc25664456c1f72b2ea251",
+      "native_rgba_sha256": "22edcf4f6e792eedb1ac8cd43ac69de3ab20a6a97fca1a41950295ef4c2914bf",
+      "preserve_rects": [
+        [
+          52,
+          16,
+          140,
+          4
+        ]
+      ]
+    },
+    {
+      "label_id": "normal_map_terrain_map_highwind_up_cave_03",
+      "case_id": "map-cave",
+      "kind": "transparent-alpha-support",
+      "seed": null,
+      "selected_pixels": 4584,
+      "source_rgba_sha256": "95294498de44437800760e8cebee778451330a6b4c7d8baad97a555fc7a73207",
+      "native_rgba_sha256": "dffc5864c462a139fb85298c1d2d7914b410c7b0210835cb265f56fb21adad31"
+    },
+    {
+      "label_id": "gameplay_style_country_juto_name",
+      "case_id": "juto-resident",
+      "kind": "transparent-alpha-support",
+      "seed": [
+        20,
+        25
+      ],
+      "selected_pixels": 2524,
+      "source_rgba_sha256": "cfbcfa77618240b55d8e77653791d096fd8a277f365fcb6ac4207b40e2fc66b1",
+      "native_rgba_sha256": "ba18ff7d53d0264ae4efbc8e9d5935a9558f750585a56a36f348c800df531b5c"
+    }
+  ]
+}

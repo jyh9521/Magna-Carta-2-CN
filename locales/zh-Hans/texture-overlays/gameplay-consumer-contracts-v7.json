@@ -1,0 +1,1744 @@
+{
+  "schema_version": 1,
+  "kind": "texture-consumer-probe-contracts",
+  "game_rendering_verified": false,
+  "source_profile": "UE3 446/25",
+  "source_packages": [
+    {
+      "package": "Engine",
+      "path": "build\\poc-game\\disc1\\MC2Game\\CookedXenon\\Engine.xxx",
+      "sha256": "f71131de2a39176f48d5bf7ef6ed803513d5b38303f21915029c245442b8fe9a",
+      "size": 2195456
+    },
+    {
+      "package": "MC2Game",
+      "path": "build\\poc-game\\common\\MC2Game\\CookedXenon\\MC2Game.xxx",
+      "sha256": "13f92622e2ae2920f6ce6dfc7b0edbbcbec7e83adeacbd56fed84a021739a641",
+      "size": 11632640
+    },
+    {
+      "package": "Startup_int",
+      "path": "build\\poc-game\\common\\MC2Game\\CookedXenon\\Startup_int.xxx",
+      "sha256": "be264d1397e7fca36b5098e1f2b6ee4f8001f7a7216268bcf2c65edcd8de82c3",
+      "size": 1769472
+    },
+    {
+      "package": "TitleMap_MSPT",
+      "path": "build\\poc-game\\common\\MC2Game\\CookedXenon\\TitleMap_MSPT.xxx",
+      "sha256": "e094df8399beac753e07a1ee388d5192b8f0a721fa854d786104de7439e98395",
+      "size": 3604480
+    }
+  ],
+  "coordinate_defaults": {
+    "object": "Engine.UIRoot.TextureCoordinates",
+    "U": 0,
+    "V": 0,
+    "UL": 0,
+    "VL": 0,
+    "complete_property_chain": true,
+    "missing_default_slots": [],
+    "missing_values_assumed_zero": false
+  },
+  "cases": [
+    {
+      "name": "img_ui_name_jpn_161_0: consumer center",
+      "mode": "glyph-bounds",
+      "evidence": {
+        "package": "MC2Game",
+        "object": "UI_Field_Core.FieldMenu.MenuPanelBundle.MenuPanel_0.Organize.Menu_0.BackgroundImageTemplate",
+        "field": "StyleCustomization.Coordinates",
+        "classification": "Verified serialized UV"
+      },
+      "sample": {
+        "label": "img_ui_name_jpn_161_0",
+        "window": [
+          0,
+          0,
+          116,
+          28
+        ]
+      },
+      "center": [
+        58,
+        14.5
+      ],
+      "tolerance": 1
+    },
+    {
+      "name": "img_ui_name_jpn_161_1: consumer center",
+      "mode": "glyph-bounds",
+      "evidence": {
+        "package": "MC2Game",
+        "object": "UI_Field_Core.FieldMenu.MenuPanelBundle.MenuPanel_1.Item.Menu_1.BackgroundImageTemplate",
+        "field": "StyleCustomization.Coordinates",
+        "classification": "Verified serialized UV"
+      },
+      "sample": {
+        "label": "img_ui_name_jpn_161_1",
+        "window": [
+          118,
+          0,
+          116,
+          28
+        ]
+      },
+      "center": [
+        58,
+        14.5
+      ],
+      "tolerance": 1
+    },
+    {
+      "name": "img_ui_name_jpn_161_2: consumer center",
+      "mode": "glyph-bounds",
+      "evidence": {
+        "package": "MC2Game",
+        "object": "UI_Field_Core.FieldMenu.MenuPanelBundle.MenuPanel_2.Style.Menu_2.BackgroundImageTemplate",
+        "field": "StyleCustomization.Coordinates",
+        "classification": "Verified serialized UV"
+      },
+      "sample": {
+        "label": "img_ui_name_jpn_161_2",
+        "window": [
+          0,
+          30,
+          116,
+          28
+        ]
+      },
+      "center": [
+        58,
+        14.5
+      ],
+      "tolerance": 1
+    },
+    {
+      "name": "img_ui_name_jpn_161_3: consumer center",
+      "mode": "glyph-bounds",
+      "evidence": {
+        "package": "MC2Game",
+        "object": "UI_Field_Core.FieldMenu.MenuPanelBundle.MenuPanel_5.Info.Menu_5.BackgroundImageTemplate",
+        "field": "StyleCustomization.Coordinates",
+        "classification": "Verified serialized UV"
+      },
+      "sample": {
+        "label": "img_ui_name_jpn_161_3",
+        "window": [
+          118,
+          30,
+          116,
+          28
+        ]
+      },
+      "center": [
+        58,
+        14.5
+      ],
+      "tolerance": 1
+    },
+    {
+      "name": "img_ui_name_jpn_161_4: consumer center",
+      "mode": "glyph-bounds",
+      "evidence": {
+        "package": "MC2Game",
+        "object": "UI_Field_Core.FieldMenu.MenuPanelBundle.MenuPanel_3.Equip.Menu_3.BackgroundImageTemplate",
+        "field": "StyleCustomization.Coordinates",
+        "classification": "Verified serialized UV"
+      },
+      "sample": {
+        "label": "img_ui_name_jpn_161_4",
+        "window": [
+          0,
+          60,
+          116,
+          28
+        ]
+      },
+      "center": [
+        58,
+        14.5
+      ],
+      "tolerance": 1
+    },
+    {
+      "name": "img_ui_name_jpn_161_5: consumer center",
+      "mode": "glyph-bounds",
+      "evidence": {
+        "package": "MC2Game",
+        "object": "UI_Field_Core.FieldMenu.MenuPanelBundle.MenuPanel_6.Config.Menu_6.BackgroundImageTemplate",
+        "field": "StyleCustomization.Coordinates",
+        "classification": "Verified serialized UV"
+      },
+      "sample": {
+        "label": "img_ui_name_jpn_161_5",
+        "window": [
+          118,
+          60,
+          116,
+          28
+        ]
+      },
+      "center": [
+        58,
+        14.5
+      ],
+      "tolerance": 1
+    },
+    {
+      "name": "img_ui_name_jpn_161_6: consumer center",
+      "mode": "glyph-bounds",
+      "evidence": {
+        "package": "MC2Game",
+        "object": "UI_Field_Core.FieldMenu.MenuPanelBundle.MenuPanel_4.Upgrade.Menu_4.BackgroundImageTemplate",
+        "field": "StyleCustomization.Coordinates",
+        "classification": "Verified serialized UV"
+      },
+      "sample": {
+        "label": "img_ui_name_jpn_161_6",
+        "window": [
+          0,
+          90,
+          116,
+          28
+        ]
+      },
+      "center": [
+        58,
+        14.5
+      ],
+      "tolerance": 1
+    },
+    {
+      "name": "img_ui_name_jpn_162_0: consumer center",
+      "mode": "glyph-bounds",
+      "evidence": {
+        "package": "MC2Game",
+        "object": "UI_Field_Core.FieldMenu.MenuPanelBundle.MenuPanel_0.Organize.Menu_0.BackgroundImageTemplate",
+        "field": "StyleCustomization.Coordinates",
+        "classification": "Verified serialized UV"
+      },
+      "sample": {
+        "label": "img_ui_name_jpn_162_0",
+        "window": [
+          0,
+          0,
+          116,
+          28
+        ]
+      },
+      "center": [
+        58,
+        14.5
+      ],
+      "tolerance": 1
+    },
+    {
+      "name": "img_ui_name_jpn_162_1: consumer center",
+      "mode": "glyph-bounds",
+      "evidence": {
+        "package": "MC2Game",
+        "object": "UI_Field_Core.FieldMenu.MenuPanelBundle.MenuPanel_1.Item.Menu_1.BackgroundImageTemplate",
+        "field": "StyleCustomization.Coordinates",
+        "classification": "Verified serialized UV"
+      },
+      "sample": {
+        "label": "img_ui_name_jpn_162_1",
+        "window": [
+          118,
+          0,
+          116,
+          28
+        ]
+      },
+      "center": [
+        58,
+        14.5
+      ],
+      "tolerance": 1
+    },
+    {
+      "name": "img_ui_name_jpn_162_2: consumer center",
+      "mode": "glyph-bounds",
+      "evidence": {
+        "package": "MC2Game",
+        "object": "UI_Field_Core.FieldMenu.MenuPanelBundle.MenuPanel_2.Style.Menu_2.BackgroundImageTemplate",
+        "field": "StyleCustomization.Coordinates",
+        "classification": "Verified serialized UV"
+      },
+      "sample": {
+        "label": "img_ui_name_jpn_162_2",
+        "window": [
+          0,
+          30,
+          116,
+          28
+        ]
+      },
+      "center": [
+        58,
+        14.5
+      ],
+      "tolerance": 1
+    },
+    {
+      "name": "img_ui_name_jpn_162_3: consumer center",
+      "mode": "glyph-bounds",
+      "evidence": {
+        "package": "MC2Game",
+        "object": "UI_Field_Core.FieldMenu.MenuPanelBundle.MenuPanel_5.Info.Menu_5.BackgroundImageTemplate",
+        "field": "StyleCustomization.Coordinates",
+        "classification": "Verified serialized UV"
+      },
+      "sample": {
+        "label": "img_ui_name_jpn_162_3",
+        "window": [
+          118,
+          30,
+          116,
+          28
+        ]
+      },
+      "center": [
+        58,
+        14.5
+      ],
+      "tolerance": 1
+    },
+    {
+      "name": "img_ui_name_jpn_162_4: consumer center",
+      "mode": "glyph-bounds",
+      "evidence": {
+        "package": "MC2Game",
+        "object": "UI_Field_Core.FieldMenu.MenuPanelBundle.MenuPanel_3.Equip.Menu_3.BackgroundImageTemplate",
+        "field": "StyleCustomization.Coordinates",
+        "classification": "Verified serialized UV"
+      },
+      "sample": {
+        "label": "img_ui_name_jpn_162_4",
+        "window": [
+          0,
+          60,
+          116,
+          28
+        ]
+      },
+      "center": [
+        58,
+        14.5
+      ],
+      "tolerance": 1
+    },
+    {
+      "name": "img_ui_name_jpn_162_5: consumer center",
+      "mode": "glyph-bounds",
+      "evidence": {
+        "package": "MC2Game",
+        "object": "UI_Field_Core.FieldMenu.MenuPanelBundle.MenuPanel_6.Config.Menu_6.BackgroundImageTemplate",
+        "field": "StyleCustomization.Coordinates",
+        "classification": "Verified serialized UV"
+      },
+      "sample": {
+        "label": "img_ui_name_jpn_162_5",
+        "window": [
+          118,
+          60,
+          116,
+          28
+        ]
+      },
+      "center": [
+        58,
+        14.5
+      ],
+      "tolerance": 1
+    },
+    {
+      "name": "img_ui_name_jpn_162_6: consumer center",
+      "mode": "glyph-bounds",
+      "evidence": {
+        "package": "MC2Game",
+        "object": "UI_Field_Core.FieldMenu.MenuPanelBundle.MenuPanel_4.Upgrade.Menu_4.BackgroundImageTemplate",
+        "field": "StyleCustomization.Coordinates",
+        "classification": "Verified serialized UV"
+      },
+      "sample": {
+        "label": "img_ui_name_jpn_162_6",
+        "window": [
+          0,
+          90,
+          116,
+          28
+        ]
+      },
+      "center": [
+        58,
+        14.5
+      ],
+      "tolerance": 1
+    },
+    {
+      "name": "img_ui_name_jpn_166_0: destination sampling",
+      "mode": "glyph-bounds",
+      "evidence": {
+        "package": "MC2Game",
+        "object": "UI_Field_2.Scenes.Item.ItemListPannel.CategoryBundle.CategoryBox_0.Category_0",
+        "field": "Position.Value[2:4], ImageComponentTemplate.StyleCustomization.Coordinates",
+        "serialized_destination": [
+          88,
+          29
+        ],
+        "serialized_uv": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "classification": "Verified serialized destination and V; destination-sized no-adjustment sampling is a high-confidence deduction corroborated by original native glyph extents and user capture"
+      },
+      "sample": {
+        "label": "img_ui_name_jpn_166_0",
+        "window": [
+          0,
+          0,
+          88,
+          29
+        ]
+      },
+      "center": [
+        44,
+        14
+      ],
+      "tolerance": 1,
+      "min_left": 2,
+      "max_right": 86
+    },
+    {
+      "name": "img_ui_name_jpn_166_1: destination sampling",
+      "mode": "glyph-bounds",
+      "evidence": {
+        "package": "MC2Game",
+        "object": "UI_Field_2.Scenes.Item.ItemListPannel.CategoryBundle.CategoryBox_1.Category_1",
+        "field": "Position.Value[2:4], ImageComponentTemplate.StyleCustomization.Coordinates",
+        "serialized_destination": [
+          88,
+          29
+        ],
+        "serialized_uv": [
+          0,
+          30,
+          0,
+          0
+        ],
+        "classification": "Verified serialized destination and V; destination-sized no-adjustment sampling is a high-confidence deduction corroborated by original native glyph extents and user capture"
+      },
+      "sample": {
+        "label": "img_ui_name_jpn_166_1",
+        "window": [
+          0,
+          30,
+          88,
+          29
+        ]
+      },
+      "center": [
+        44,
+        14
+      ],
+      "tolerance": 1,
+      "min_left": 2,
+      "max_right": 86
+    },
+    {
+      "name": "img_ui_name_jpn_166_2: destination sampling",
+      "mode": "glyph-bounds",
+      "evidence": {
+        "package": "MC2Game",
+        "object": "UI_Field_2.Scenes.Item.ItemListPannel.CategoryBundle.CategoryBox_2.Category_2",
+        "field": "Position.Value[2:4], ImageComponentTemplate.StyleCustomization.Coordinates",
+        "serialized_destination": [
+          88,
+          29
+        ],
+        "serialized_uv": [
+          0,
+          60,
+          0,
+          0
+        ],
+        "classification": "Verified serialized destination and V; destination-sized no-adjustment sampling is a high-confidence deduction corroborated by original native glyph extents and user capture"
+      },
+      "sample": {
+        "label": "img_ui_name_jpn_166_2",
+        "window": [
+          0,
+          60,
+          88,
+          29
+        ]
+      },
+      "center": [
+        44,
+        14
+      ],
+      "tolerance": 1,
+      "min_left": 2,
+      "max_right": 86
+    },
+    {
+      "name": "img_ui_name_jpn_166_3: destination sampling",
+      "mode": "glyph-bounds",
+      "evidence": {
+        "package": "MC2Game",
+        "object": "UI_Field_2.Scenes.Item.ItemListPannel.CategoryBundle.CategoryBox_3.Category_3",
+        "field": "Position.Value[2:4], ImageComponentTemplate.StyleCustomization.Coordinates",
+        "serialized_destination": [
+          88,
+          29
+        ],
+        "serialized_uv": [
+          0,
+          90,
+          0,
+          0
+        ],
+        "classification": "Verified serialized destination and V; destination-sized no-adjustment sampling is a high-confidence deduction corroborated by original native glyph extents and user capture"
+      },
+      "sample": {
+        "label": "img_ui_name_jpn_166_3",
+        "window": [
+          0,
+          90,
+          88,
+          29
+        ]
+      },
+      "center": [
+        44,
+        14
+      ],
+      "tolerance": 1,
+      "min_left": 2,
+      "max_right": 86
+    },
+    {
+      "name": "img_ui_name_jpn_166_4: destination sampling",
+      "mode": "glyph-bounds",
+      "evidence": {
+        "package": "MC2Game",
+        "object": "UI_Field_2.Scenes.Item.ItemListPannel.CategoryBundle.CategoryBox_4.Category_4",
+        "field": "Position.Value[2:4], ImageComponentTemplate.StyleCustomization.Coordinates",
+        "serialized_destination": [
+          88,
+          29
+        ],
+        "serialized_uv": [
+          0,
+          120,
+          0,
+          0
+        ],
+        "classification": "Verified serialized destination and V; destination-sized no-adjustment sampling is a high-confidence deduction corroborated by original native glyph extents and user capture"
+      },
+      "sample": {
+        "label": "img_ui_name_jpn_166_4",
+        "window": [
+          0,
+          120,
+          88,
+          29
+        ]
+      },
+      "center": [
+        44,
+        14
+      ],
+      "tolerance": 1,
+      "min_left": 2,
+      "max_right": 86
+    },
+    {
+      "name": "img_ui_name_jpn_166_5: destination sampling",
+      "mode": "glyph-bounds",
+      "evidence": {
+        "package": "MC2Game",
+        "object": "UI_Field_2.Scenes.Item.ItemListPannel.CategoryBundle.CategoryBox_5.Category_5",
+        "field": "Position.Value[2:4], ImageComponentTemplate.StyleCustomization.Coordinates",
+        "serialized_destination": [
+          88,
+          29
+        ],
+        "serialized_uv": [
+          0,
+          150,
+          0,
+          0
+        ],
+        "classification": "Verified serialized destination and V; destination-sized no-adjustment sampling is a high-confidence deduction corroborated by original native glyph extents and user capture"
+      },
+      "sample": {
+        "label": "img_ui_name_jpn_166_5",
+        "window": [
+          0,
+          150,
+          88,
+          29
+        ]
+      },
+      "center": [
+        44,
+        14
+      ],
+      "tolerance": 1,
+      "min_left": 2,
+      "max_right": 86
+    },
+    {
+      "name": "img_ui_name_jpn_166_6: destination sampling",
+      "mode": "glyph-bounds",
+      "evidence": {
+        "package": "MC2Game",
+        "object": "UI_Field_2.Scenes.Item.ItemListPannel.CategoryBundle.CategoryBox_6.Category_6",
+        "field": "Position.Value[2:4], ImageComponentTemplate.StyleCustomization.Coordinates",
+        "serialized_destination": [
+          88,
+          29
+        ],
+        "serialized_uv": [
+          0,
+          180,
+          0,
+          0
+        ],
+        "classification": "Verified serialized destination and V; destination-sized no-adjustment sampling is a high-confidence deduction corroborated by original native glyph extents and user capture"
+      },
+      "sample": {
+        "label": "img_ui_name_jpn_166_6",
+        "window": [
+          0,
+          180,
+          88,
+          29
+        ]
+      },
+      "center": [
+        44,
+        14
+      ],
+      "tolerance": 1,
+      "min_left": 2,
+      "max_right": 86
+    },
+    {
+      "name": "img_ui_name_jpn_167_0: destination sampling",
+      "mode": "glyph-bounds",
+      "evidence": {
+        "package": "MC2Game",
+        "object": "UI_Field_2.Scenes.Item.ItemListPannel.CategoryBundle.CategoryBox_0.Category_0",
+        "field": "Position.Value[2:4], ImageComponentTemplate.StyleCustomization.Coordinates",
+        "serialized_destination": [
+          88,
+          29
+        ],
+        "serialized_uv": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "classification": "Verified serialized destination and V; destination-sized no-adjustment sampling is a high-confidence deduction corroborated by original native glyph extents and user capture"
+      },
+      "sample": {
+        "label": "img_ui_name_jpn_167_0",
+        "window": [
+          0,
+          0,
+          88,
+          29
+        ]
+      },
+      "center": [
+        44,
+        14
+      ],
+      "tolerance": 1,
+      "min_left": 2,
+      "max_right": 86
+    },
+    {
+      "name": "img_ui_name_jpn_167_1: destination sampling",
+      "mode": "glyph-bounds",
+      "evidence": {
+        "package": "MC2Game",
+        "object": "UI_Field_2.Scenes.Item.ItemListPannel.CategoryBundle.CategoryBox_1.Category_1",
+        "field": "Position.Value[2:4], ImageComponentTemplate.StyleCustomization.Coordinates",
+        "serialized_destination": [
+          88,
+          29
+        ],
+        "serialized_uv": [
+          0,
+          30,
+          0,
+          0
+        ],
+        "classification": "Verified serialized destination and V; destination-sized no-adjustment sampling is a high-confidence deduction corroborated by original native glyph extents and user capture"
+      },
+      "sample": {
+        "label": "img_ui_name_jpn_167_1",
+        "window": [
+          0,
+          30,
+          88,
+          29
+        ]
+      },
+      "center": [
+        44,
+        14
+      ],
+      "tolerance": 1,
+      "min_left": 2,
+      "max_right": 86
+    },
+    {
+      "name": "img_ui_name_jpn_167_2: destination sampling",
+      "mode": "glyph-bounds",
+      "evidence": {
+        "package": "MC2Game",
+        "object": "UI_Field_2.Scenes.Item.ItemListPannel.CategoryBundle.CategoryBox_2.Category_2",
+        "field": "Position.Value[2:4], ImageComponentTemplate.StyleCustomization.Coordinates",
+        "serialized_destination": [
+          88,
+          29
+        ],
+        "serialized_uv": [
+          0,
+          60,
+          0,
+          0
+        ],
+        "classification": "Verified serialized destination and V; destination-sized no-adjustment sampling is a high-confidence deduction corroborated by original native glyph extents and user capture"
+      },
+      "sample": {
+        "label": "img_ui_name_jpn_167_2",
+        "window": [
+          0,
+          60,
+          88,
+          29
+        ]
+      },
+      "center": [
+        44,
+        14
+      ],
+      "tolerance": 1,
+      "min_left": 2,
+      "max_right": 86
+    },
+    {
+      "name": "img_ui_name_jpn_167_3: destination sampling",
+      "mode": "glyph-bounds",
+      "evidence": {
+        "package": "MC2Game",
+        "object": "UI_Field_2.Scenes.Item.ItemListPannel.CategoryBundle.CategoryBox_3.Category_3",
+        "field": "Position.Value[2:4], ImageComponentTemplate.StyleCustomization.Coordinates",
+        "serialized_destination": [
+          88,
+          29
+        ],
+        "serialized_uv": [
+          0,
+          90,
+          0,
+          0
+        ],
+        "classification": "Verified serialized destination and V; destination-sized no-adjustment sampling is a high-confidence deduction corroborated by original native glyph extents and user capture"
+      },
+      "sample": {
+        "label": "img_ui_name_jpn_167_3",
+        "window": [
+          0,
+          90,
+          88,
+          29
+        ]
+      },
+      "center": [
+        44,
+        14
+      ],
+      "tolerance": 1,
+      "min_left": 2,
+      "max_right": 86
+    },
+    {
+      "name": "img_ui_name_jpn_167_4: destination sampling",
+      "mode": "glyph-bounds",
+      "evidence": {
+        "package": "MC2Game",
+        "object": "UI_Field_2.Scenes.Item.ItemListPannel.CategoryBundle.CategoryBox_4.Category_4",
+        "field": "Position.Value[2:4], ImageComponentTemplate.StyleCustomization.Coordinates",
+        "serialized_destination": [
+          88,
+          29
+        ],
+        "serialized_uv": [
+          0,
+          120,
+          0,
+          0
+        ],
+        "classification": "Verified serialized destination and V; destination-sized no-adjustment sampling is a high-confidence deduction corroborated by original native glyph extents and user capture"
+      },
+      "sample": {
+        "label": "img_ui_name_jpn_167_4",
+        "window": [
+          0,
+          120,
+          88,
+          29
+        ]
+      },
+      "center": [
+        44,
+        14
+      ],
+      "tolerance": 1,
+      "min_left": 2,
+      "max_right": 86
+    },
+    {
+      "name": "img_ui_name_jpn_167_5: destination sampling",
+      "mode": "glyph-bounds",
+      "evidence": {
+        "package": "MC2Game",
+        "object": "UI_Field_2.Scenes.Item.ItemListPannel.CategoryBundle.CategoryBox_5.Category_5",
+        "field": "Position.Value[2:4], ImageComponentTemplate.StyleCustomization.Coordinates",
+        "serialized_destination": [
+          88,
+          29
+        ],
+        "serialized_uv": [
+          0,
+          150,
+          0,
+          0
+        ],
+        "classification": "Verified serialized destination and V; destination-sized no-adjustment sampling is a high-confidence deduction corroborated by original native glyph extents and user capture"
+      },
+      "sample": {
+        "label": "img_ui_name_jpn_167_5",
+        "window": [
+          0,
+          150,
+          88,
+          29
+        ]
+      },
+      "center": [
+        44,
+        14
+      ],
+      "tolerance": 1,
+      "min_left": 2,
+      "max_right": 86
+    },
+    {
+      "name": "img_ui_name_jpn_167_6: destination sampling",
+      "mode": "glyph-bounds",
+      "evidence": {
+        "package": "MC2Game",
+        "object": "UI_Field_2.Scenes.Item.ItemListPannel.CategoryBundle.CategoryBox_6.Category_6",
+        "field": "Position.Value[2:4], ImageComponentTemplate.StyleCustomization.Coordinates",
+        "serialized_destination": [
+          88,
+          29
+        ],
+        "serialized_uv": [
+          0,
+          180,
+          0,
+          0
+        ],
+        "classification": "Verified serialized destination and V; destination-sized no-adjustment sampling is a high-confidence deduction corroborated by original native glyph extents and user capture"
+      },
+      "sample": {
+        "label": "img_ui_name_jpn_167_6",
+        "window": [
+          0,
+          180,
+          88,
+          29
+        ]
+      },
+      "center": [
+        44,
+        14
+      ],
+      "tolerance": 1,
+      "min_left": 2,
+      "max_right": 86
+    },
+    {
+      "name": "title 0: pulse registration",
+      "mode": "registration",
+      "evidence": {
+        "package": "TitleMap_MSPT",
+        "object": "UI_GameStart.Scenes.Scene_GameStart.BundlePanel.Base.NewGame_normal",
+        "selected_child": "NewGame_over",
+        "field": "ImageComponentTemplate.StyleCustomization.Coordinates",
+        "classification": "Verified original paired UV and child Position"
+      },
+      "samples": [
+        {
+          "label": "ui_menu_tex_0_normal",
+          "window": [
+            0,
+            0,
+            121,
+            26
+          ]
+        },
+        {
+          "label": "ui_menu_tex_0_hover",
+          "window": [
+            122,
+            0,
+            121,
+            26
+          ]
+        }
+      ],
+      "center_x": 60,
+      "tolerance": 1
+    },
+    {
+      "name": "title 0: shadow registration",
+      "mode": "same-field",
+      "evidence": {
+        "package": "TitleMap_MSPT",
+        "object": "UI_GameStart.Scenes.Scene_GameStart.BundlePanel.Base.NewGame_normal",
+        "selected_child": "NewGame_over",
+        "field": "ImageComponentTemplate.StyleCustomization.Coordinates",
+        "classification": "Verified original paired UV and child Position"
+      },
+      "labels": [
+        "ui_menu_tex_0_normal",
+        "ui_menu_tex_0_hover"
+      ],
+      "field": [
+        "appearance",
+        "shadow_offset"
+      ]
+    },
+    {
+      "name": "title 1: pulse registration",
+      "mode": "registration",
+      "evidence": {
+        "package": "TitleMap_MSPT",
+        "object": "UI_GameStart.Scenes.Scene_GameStart.BundlePanel.Base.LoadGame_normal",
+        "selected_child": "LoadGame_over",
+        "field": "ImageComponentTemplate.StyleCustomization.Coordinates",
+        "classification": "Verified original paired UV and child Position"
+      },
+      "samples": [
+        {
+          "label": "ui_menu_tex_1_normal",
+          "window": [
+            0,
+            27,
+            121,
+            26
+          ]
+        },
+        {
+          "label": "ui_menu_tex_1_hover",
+          "window": [
+            122,
+            27,
+            121,
+            26
+          ]
+        }
+      ],
+      "center_x": 60,
+      "tolerance": 1
+    },
+    {
+      "name": "title 1: shadow registration",
+      "mode": "same-field",
+      "evidence": {
+        "package": "TitleMap_MSPT",
+        "object": "UI_GameStart.Scenes.Scene_GameStart.BundlePanel.Base.LoadGame_normal",
+        "selected_child": "LoadGame_over",
+        "field": "ImageComponentTemplate.StyleCustomization.Coordinates",
+        "classification": "Verified original paired UV and child Position"
+      },
+      "labels": [
+        "ui_menu_tex_1_normal",
+        "ui_menu_tex_1_hover"
+      ],
+      "field": [
+        "appearance",
+        "shadow_offset"
+      ]
+    },
+    {
+      "name": "title 2: pulse registration",
+      "mode": "registration",
+      "evidence": {
+        "package": "TitleMap_MSPT",
+        "object": "UI_GameStart.Scenes.Scene_GameStart.BundlePanel.Base.Option_normal",
+        "selected_child": "Option_over",
+        "field": "ImageComponentTemplate.StyleCustomization.Coordinates",
+        "classification": "Verified original paired UV and child Position"
+      },
+      "samples": [
+        {
+          "label": "ui_menu_tex_2_normal",
+          "window": [
+            0,
+            111,
+            121,
+            30
+          ]
+        },
+        {
+          "label": "ui_menu_tex_2_hover",
+          "window": [
+            122,
+            111,
+            121,
+            30
+          ]
+        }
+      ],
+      "center_x": 60,
+      "tolerance": 1
+    },
+    {
+      "name": "title 2: shadow registration",
+      "mode": "same-field",
+      "evidence": {
+        "package": "TitleMap_MSPT",
+        "object": "UI_GameStart.Scenes.Scene_GameStart.BundlePanel.Base.Option_normal",
+        "selected_child": "Option_over",
+        "field": "ImageComponentTemplate.StyleCustomization.Coordinates",
+        "classification": "Verified original paired UV and child Position"
+      },
+      "labels": [
+        "ui_menu_tex_2_normal",
+        "ui_menu_tex_2_hover"
+      ],
+      "field": [
+        "appearance",
+        "shadow_offset"
+      ]
+    },
+    {
+      "name": "title 3: pulse registration",
+      "mode": "registration",
+      "evidence": {
+        "package": "TitleMap_MSPT",
+        "object": "UI_GameStart.Scenes.Scene_GameStart.BundlePanel.Base.Extra_normal",
+        "selected_child": "Extra_over",
+        "field": "ImageComponentTemplate.StyleCustomization.Coordinates",
+        "classification": "Verified original paired UV and child Position"
+      },
+      "samples": [
+        {
+          "label": "ui_menu_tex_3_normal",
+          "window": [
+            0,
+            142,
+            121,
+            30
+          ]
+        },
+        {
+          "label": "ui_menu_tex_3_hover",
+          "window": [
+            122,
+            142,
+            121,
+            30
+          ]
+        }
+      ],
+      "center_x": 60,
+      "tolerance": 1
+    },
+    {
+      "name": "title 3: shadow registration",
+      "mode": "same-field",
+      "evidence": {
+        "package": "TitleMap_MSPT",
+        "object": "UI_GameStart.Scenes.Scene_GameStart.BundlePanel.Base.Extra_normal",
+        "selected_child": "Extra_over",
+        "field": "ImageComponentTemplate.StyleCustomization.Coordinates",
+        "classification": "Verified original paired UV and child Position"
+      },
+      "labels": [
+        "ui_menu_tex_3_normal",
+        "ui_menu_tex_3_hover"
+      ],
+      "field": [
+        "appearance",
+        "shadow_offset"
+      ]
+    },
+    {
+      "name": "title 4: pulse registration",
+      "mode": "registration",
+      "evidence": {
+        "package": "TitleMap_MSPT",
+        "object": "UI_GameStart.Scenes.Scene_GameStart.BundlePanel.Base.Movie_normal",
+        "selected_child": "Movie_over",
+        "field": "ImageComponentTemplate.StyleCustomization.Coordinates",
+        "classification": "Verified original paired UV and child Position"
+      },
+      "samples": [
+        {
+          "label": "ui_menu_tex_4_normal",
+          "window": [
+            0,
+            173,
+            121,
+            30
+          ]
+        },
+        {
+          "label": "ui_menu_tex_4_hover",
+          "window": [
+            122,
+            173,
+            121,
+            30
+          ]
+        }
+      ],
+      "center_x": 60,
+      "tolerance": 1
+    },
+    {
+      "name": "title 4: shadow registration",
+      "mode": "same-field",
+      "evidence": {
+        "package": "TitleMap_MSPT",
+        "object": "UI_GameStart.Scenes.Scene_GameStart.BundlePanel.Base.Movie_normal",
+        "selected_child": "Movie_over",
+        "field": "ImageComponentTemplate.StyleCustomization.Coordinates",
+        "classification": "Verified original paired UV and child Position"
+      },
+      "labels": [
+        "ui_menu_tex_4_normal",
+        "ui_menu_tex_4_hover"
+      ],
+      "field": [
+        "appearance",
+        "shadow_offset"
+      ]
+    },
+    {
+      "name": "title 5: pulse registration",
+      "mode": "registration",
+      "evidence": {
+        "package": "TitleMap_MSPT",
+        "object": "UI_GameStart.Scenes.Scene_GameStart.BundlePanel.Base.Drama_normal",
+        "selected_child": "Drama_over",
+        "field": "ImageComponentTemplate.StyleCustomization.Coordinates",
+        "classification": "Verified original paired UV and child Position"
+      },
+      "samples": [
+        {
+          "label": "ui_menu_tex_5_normal",
+          "window": [
+            0,
+            204,
+            121,
+            30
+          ]
+        },
+        {
+          "label": "ui_menu_tex_5_hover",
+          "window": [
+            122,
+            204,
+            121,
+            30
+          ]
+        }
+      ],
+      "center_x": 60,
+      "tolerance": 1
+    },
+    {
+      "name": "title 5: shadow registration",
+      "mode": "same-field",
+      "evidence": {
+        "package": "TitleMap_MSPT",
+        "object": "UI_GameStart.Scenes.Scene_GameStart.BundlePanel.Base.Drama_normal",
+        "selected_child": "Drama_over",
+        "field": "ImageComponentTemplate.StyleCustomization.Coordinates",
+        "classification": "Verified original paired UV and child Position"
+      },
+      "labels": [
+        "ui_menu_tex_5_normal",
+        "ui_menu_tex_5_hover"
+      ],
+      "field": [
+        "appearance",
+        "shadow_offset"
+      ]
+    },
+    {
+      "name": "option paired typeface",
+      "mode": "same-field",
+      "evidence": {
+        "package": "MC2Game",
+        "object": "UI_Field.Scenes.Config.ConfigBundlePanel",
+        "field": "ConfigPanel_0.Config_0.Box_0 On/Off and ConfigPanel_1/2 Normal/Reverse Position and ImageComponentTemplate.StyleCustomization.Coordinates",
+        "classification": "Verified serialized UV/destination; original grey vs white/red art is retained"
+      },
+      "labels": [
+        "img_ui_name_jpn_178_0",
+        "img_ui_name_jpn_178_1",
+        "img_ui_name_jpn_178_2",
+        "img_ui_name_jpn_179_0",
+        "img_ui_name_jpn_179_1",
+        "img_ui_name_jpn_179_2",
+        "img_ui_name_jpn_176_0",
+        "img_ui_name_jpn_177_0"
+      ],
+      "field": [
+        "font",
+        "sha256"
+      ]
+    },
+    {
+      "name": "vibration caption",
+      "mode": "field-equals",
+      "evidence": {
+        "classification": "User requested terminology"
+      },
+      "label": "img_ui_name_jpn_169_0",
+      "field": [
+        "text"
+      ],
+      "value": "手柄振动"
+    },
+    {
+      "name": "option row 0: paired glyph shape",
+      "mode": "equal-core",
+      "evidence": {
+        "package": "MC2Game",
+        "object": "UI_Field.Scenes.Config.ConfigBundlePanel",
+        "field": "ConfigPanel_0.Config_0.Box_0 On/Off and ConfigPanel_1/2 Normal/Reverse Position and ImageComponentTemplate.StyleCustomization.Coordinates",
+        "classification": "Verified serialized UV/destination; original grey vs white/red art is retained"
+      },
+      "labels": [
+        "img_ui_name_jpn_178_0",
+        "img_ui_name_jpn_179_0"
+      ]
+    },
+    {
+      "name": "option row 1: paired glyph shape",
+      "mode": "equal-core",
+      "evidence": {
+        "package": "MC2Game",
+        "object": "UI_Field.Scenes.Config.ConfigBundlePanel",
+        "field": "ConfigPanel_0.Config_0.Box_0 On/Off and ConfigPanel_1/2 Normal/Reverse Position and ImageComponentTemplate.StyleCustomization.Coordinates",
+        "classification": "Verified serialized UV/destination; original grey vs white/red art is retained"
+      },
+      "labels": [
+        "img_ui_name_jpn_178_1",
+        "img_ui_name_jpn_179_1"
+      ]
+    },
+    {
+      "name": "option row 2: paired glyph shape",
+      "mode": "equal-core",
+      "evidence": {
+        "package": "MC2Game",
+        "object": "UI_Field.Scenes.Config.ConfigBundlePanel",
+        "field": "ConfigPanel_0.Config_0.Box_0 On/Off and ConfigPanel_1/2 Normal/Reverse Position and ImageComponentTemplate.StyleCustomization.Coordinates",
+        "classification": "Verified serialized UV/destination; original grey vs white/red art is retained"
+      },
+      "labels": [
+        "img_ui_name_jpn_178_2",
+        "img_ui_name_jpn_179_2"
+      ]
+    },
+    {
+      "name": "On/Off original widget baseline",
+      "mode": "baseline",
+      "evidence": {
+        "package": "MC2Game",
+        "object": "UI_Field.Scenes.Config.ConfigBundlePanel",
+        "field": "ConfigPanel_0.Config_0.Box_0 On/Off and ConfigPanel_1/2 Normal/Reverse Position and ImageComponentTemplate.StyleCustomization.Coordinates",
+        "classification": "Verified serialized UV/destination; original grey vs white/red art is retained"
+      },
+      "samples": [
+        {
+          "label": "img_ui_name_jpn_178_0",
+          "window": [
+            0,
+            0,
+            200,
+            40
+          ],
+          "origin_y": 3
+        },
+        {
+          "label": "img_ui_name_jpn_178_2",
+          "window": [
+            0,
+            82,
+            200,
+            40
+          ],
+          "origin_y": -1.874969482421875
+        }
+      ],
+      "tolerance": 1
+    },
+    {
+      "name": "Normal/Reverse original widget baseline",
+      "mode": "baseline",
+      "evidence": {
+        "package": "MC2Game",
+        "object": "UI_Field.Scenes.Config.ConfigBundlePanel",
+        "field": "ConfigPanel_0.Config_0.Box_0 On/Off and ConfigPanel_1/2 Normal/Reverse Position and ImageComponentTemplate.StyleCustomization.Coordinates",
+        "classification": "Verified serialized UV/destination; original grey vs white/red art is retained"
+      },
+      "samples": [
+        {
+          "label": "img_ui_name_jpn_178_1",
+          "window": [
+            0,
+            41,
+            200,
+            40
+          ],
+          "origin_y": -1
+        },
+        {
+          "label": "img_ui_name_jpn_176_0",
+          "window": [
+            0,
+            0,
+            200,
+            40
+          ],
+          "origin_y": 1
+        },
+        {
+          "label": "img_ui_name_jpn_176_0",
+          "window": [
+            0,
+            0,
+            200,
+            40
+          ],
+          "origin_y": 0
+        }
+      ],
+      "tolerance": 1
+    },
+    {
+      "name": "current-member previous-row shadow exclusion",
+      "mode": "alpha-after",
+      "evidence": {
+        "package": "MC2Game",
+        "object": "UI_Field_Core.FieldMenu.Base.MainMemberTitle.ImageComponentTemplate",
+        "field": "StyleCustomization.Coordinates",
+        "classification": "Verified V203, UL145, VL27"
+      },
+      "label": "img_ui_name_jpn_188_9",
+      "atlas_y": 203,
+      "max_alpha": 15
+    },
+    {
+      "name": "current-member sampling baseline",
+      "mode": "glyph-bounds",
+      "evidence": {
+        "package": "MC2Game",
+        "object": "UI_Field_Core.FieldMenu.Base.MainMemberTitle.ImageComponentTemplate",
+        "field": "StyleCustomization.Coordinates",
+        "classification": "Verified V203, UL145, VL27"
+      },
+      "sample": {
+        "label": "img_ui_name_jpn_188_10",
+        "window": [
+          0,
+          203,
+          145,
+          27
+        ]
+      },
+      "min_top": 2,
+      "max_bottom": 25
+    },
+    {
+      "name": "accessory native numeral baseline",
+      "mode": "glyph-bounds",
+      "evidence": {
+        "package": "MC2Game",
+        "object": "UI_Field_2.Scenes.Equip.EquipCategoryPanel.Equip_List_Box.Title_Acces01/02",
+        "field": "ImageComponentTemplate.StyleCustomization.Coordinates",
+        "classification": "Verified accessory [177,43,62,26], numerals [148/171,203,18,26]; original native digit bright core bottom=21"
+      },
+      "sample": {
+        "label": "img_ui_name_jpn_188_3",
+        "window": [
+          177,
+          43,
+          62,
+          26
+        ]
+      },
+      "bottom": 21,
+      "tolerance": 0.5
+    },
+    {
+      "name": "info location: restored legibility",
+      "mode": "glyph-bounds",
+      "evidence": {
+        "package": "MC2Game",
+        "object": "UI_Field_Core.FieldMenu.Base.Info.Location_Title.ImageComponentTemplate",
+        "field": "StyleCustomization.Coordinates",
+        "classification": "Verified original UV"
+      },
+      "sample": {
+        "label": "style_info_location",
+        "window": [
+          134,
+          0,
+          96,
+          16
+        ]
+      },
+      "min_height": 13,
+      "min_top": 0,
+      "max_bottom": 16
+    },
+    {
+      "name": "info play_time: restored legibility",
+      "mode": "glyph-bounds",
+      "evidence": {
+        "package": "MC2Game",
+        "object": "UI_Field_Core.FieldMenu.Base.Info.PlayTime_Title.ImageComponentTemplate",
+        "field": "StyleCustomization.Coordinates",
+        "classification": "Verified original UV"
+      },
+      "sample": {
+        "label": "style_info_play_time",
+        "window": [
+          134,
+          17,
+          96,
+          16
+        ]
+      },
+      "min_height": 13,
+      "min_top": 0,
+      "max_bottom": 16
+    },
+    {
+      "name": "info sid: restored legibility",
+      "mode": "glyph-bounds",
+      "evidence": {
+        "package": "MC2Game",
+        "object": "UI_Field_Core.FieldMenu.Base.Info.SID_Title.ImageComponentTemplate",
+        "field": "StyleCustomization.Coordinates",
+        "classification": "Verified original UV"
+      },
+      "sample": {
+        "label": "style_info_sid",
+        "window": [
+          134,
+          34,
+          47,
+          16
+        ]
+      },
+      "min_height": 13,
+      "min_top": 0,
+      "max_bottom": 16
+    },
+    {
+      "name": "stat 0: counter/upper-stroke contrast",
+      "mode": "field-limits",
+      "evidence": {
+        "classification": "Art contrast regression; original repaired background alpha was verified zero, not a source-text remnant"
+      },
+      "label": "img_ui_name_jpn_157_0",
+      "limits": [
+        {
+          "field": [
+            "appearance",
+            "outline_width"
+          ],
+          "maximum": 0.7
+        },
+        {
+          "field": [
+            "appearance",
+            "gradient",
+            0,
+            1
+          ],
+          "minimum_rgb": 220
+        }
+      ]
+    },
+    {
+      "name": "stat 1: counter/upper-stroke contrast",
+      "mode": "field-limits",
+      "evidence": {
+        "classification": "Art contrast regression; original repaired background alpha was verified zero, not a source-text remnant"
+      },
+      "label": "img_ui_name_jpn_157_1",
+      "limits": [
+        {
+          "field": [
+            "appearance",
+            "outline_width"
+          ],
+          "maximum": 0.7
+        },
+        {
+          "field": [
+            "appearance",
+            "gradient",
+            0,
+            1
+          ],
+          "minimum_rgb": 220
+        }
+      ]
+    },
+    {
+      "name": "stat 4: counter/upper-stroke contrast",
+      "mode": "field-limits",
+      "evidence": {
+        "classification": "Art contrast regression; original repaired background alpha was verified zero, not a source-text remnant"
+      },
+      "label": "img_ui_name_jpn_157_4",
+      "limits": [
+        {
+          "field": [
+            "appearance",
+            "outline_width"
+          ],
+          "maximum": 0.7
+        },
+        {
+          "field": [
+            "appearance",
+            "gradient",
+            0,
+            1
+          ],
+          "minimum_rgb": 220
+        }
+      ]
+    },
+    {
+      "name": "stat 5: counter/upper-stroke contrast",
+      "mode": "field-limits",
+      "evidence": {
+        "classification": "Art contrast regression; original repaired background alpha was verified zero, not a source-text remnant"
+      },
+      "label": "img_ui_name_jpn_157_5",
+      "limits": [
+        {
+          "field": [
+            "appearance",
+            "outline_width"
+          ],
+          "maximum": 0.7
+        },
+        {
+          "field": [
+            "appearance",
+            "gradient",
+            0,
+            1
+          ],
+          "minimum_rgb": 220
+        }
+      ]
+    },
+    {
+      "name": "stat 7: counter/upper-stroke contrast",
+      "mode": "field-limits",
+      "evidence": {
+        "classification": "Art contrast regression; original repaired background alpha was verified zero, not a source-text remnant"
+      },
+      "label": "img_ui_name_jpn_157_7",
+      "limits": [
+        {
+          "field": [
+            "appearance",
+            "outline_width"
+          ],
+          "maximum": 0.7
+        },
+        {
+          "field": [
+            "appearance",
+            "gradient",
+            0,
+            1
+          ],
+          "minimum_rgb": 220
+        }
+      ]
+    },
+    {
+      "name": "stat 8: counter/upper-stroke contrast",
+      "mode": "field-limits",
+      "evidence": {
+        "classification": "Art contrast regression; original repaired background alpha was verified zero, not a source-text remnant"
+      },
+      "label": "img_ui_name_jpn_157_8",
+      "limits": [
+        {
+          "field": [
+            "appearance",
+            "outline_width"
+          ],
+          "maximum": 0.7
+        },
+        {
+          "field": [
+            "appearance",
+            "gradient",
+            0,
+            1
+          ],
+          "minimum_rgb": 220
+        }
+      ]
+    },
+    {
+      "name": "stat 10: counter/upper-stroke contrast",
+      "mode": "field-limits",
+      "evidence": {
+        "classification": "Art contrast regression; original repaired background alpha was verified zero, not a source-text remnant"
+      },
+      "label": "img_ui_name_jpn_157_10",
+      "limits": [
+        {
+          "field": [
+            "appearance",
+            "outline_width"
+          ],
+          "maximum": 0.7
+        },
+        {
+          "field": [
+            "appearance",
+            "gradient",
+            0,
+            1
+          ],
+          "minimum_rgb": 220
+        }
+      ]
+    },
+    {
+      "name": "stat 11: counter/upper-stroke contrast",
+      "mode": "field-limits",
+      "evidence": {
+        "classification": "Art contrast regression; original repaired background alpha was verified zero, not a source-text remnant"
+      },
+      "label": "img_ui_name_jpn_157_11",
+      "limits": [
+        {
+          "field": [
+            "appearance",
+            "outline_width"
+          ],
+          "maximum": 0.7
+        },
+        {
+          "field": [
+            "appearance",
+            "gradient",
+            0,
+            1
+          ],
+          "minimum_rgb": 220
+        }
+      ]
+    },
+    {
+      "name": "back title: pulse registration",
+      "mode": "registration",
+      "evidence": {
+        "package": "TitleMap_MSPT",
+        "object": "UI_GameStart.Scenes.Scene_GameStart.BundlePanel.Base.Back_normal",
+        "selected_child": "Back_over",
+        "field": "ImageComponentTemplate.StyleCustomization.Coordinates",
+        "classification": "Verified serialized normal U0 / selected U122, UL121 VL30; no package rebuild in this continuation"
+      },
+      "samples": [
+        {
+          "label": "ui_menu_tex_back_0_normal",
+          "window": [
+            0,
+            0,
+            121,
+            30
+          ]
+        },
+        {
+          "label": "ui_menu_tex_back_0_hover",
+          "window": [
+            122,
+            0,
+            121,
+            30
+          ]
+        }
+      ],
+      "center_x": 60,
+      "tolerance": 1
+    },
+    {
+      "name": "back title: shadow registration",
+      "mode": "same-field",
+      "evidence": {
+        "package": "TitleMap_MSPT",
+        "object": "UI_GameStart.Scenes.Scene_GameStart.BundlePanel.Base.Back_normal",
+        "selected_child": "Back_over",
+        "field": "ImageComponentTemplate.StyleCustomization.Coordinates",
+        "classification": "Verified serialized normal U0 / selected U122, UL121 VL30; no package rebuild in this continuation"
+      },
+      "labels": [
+        "ui_menu_tex_back_0_normal",
+        "ui_menu_tex_back_0_hover"
+      ],
+      "field": [
+        "appearance",
+        "shadow_offset"
+      ]
+    },
+    {
+      "name": "Reverse: paired glyph shape",
+      "mode": "equal-core",
+      "evidence": {
+        "package": "MC2Game",
+        "object": "UI_Field.Scenes.Config.ConfigBundlePanel.ConfigPanel_1/2 Reverse",
+        "classification": "Existing shared 200x40 UV and hash-locked font"
+      },
+      "labels": [
+        "img_ui_name_jpn_176_0",
+        "img_ui_name_jpn_177_0"
+      ]
+    }
+  ]
+}

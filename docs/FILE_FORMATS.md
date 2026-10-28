@@ -1,3 +1,5 @@
+> 阶段325的静音BIKi载入子集：44字节固定字段后是frames+1个32位偏移（最低bit另有标志）；验证总长度、重复帧数、最大帧长、顺序、尺寸及无音轨/alpha。源90帧、1280×720、fps=10000000/333333。原时间基只在全部帧数与内容尺寸验证后恢复，不能用篡改frame count掩盖编码丢帧。格式守卫/逐帧重放见 `tools/video_caption.py`、`tools/build_video_captions.py` 与[阶段325](PHASE_325_GAMEPLAY_FEEDBACK.md)。
+
 ## XDVDFS 与 Xbox360TOC 联动（阶段324）
 
 已验证双盘 TOC 第三列对应原始 XDVDFS sector。schema2 镜像报告记录每个 TOC size/sector 数字跨度及精确逆向，TOC 自身 first-size=0 保留。增量修复保留所有旧载荷，仅追加新资源并替换目录8字节；恢复以完整旧前缀逆向 SHA256 为准。generated stored-LZX 归一化的字段与不变量见 [阶段324](PHASE_324_STARTUP_CRASH.md)。

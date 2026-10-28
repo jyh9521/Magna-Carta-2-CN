@@ -17,7 +17,7 @@ from . import build_disc_image as iso
 from .disc_inventory import Disc, SECTOR, sha256_file
 from .runtime_package import normalize_package
 from .ue3_package import LzxDecoder
-from .verify_resource_phase import relative, confined, hash_value, unique
+from .verify_resource_phase import relative, confined, hash_value, unique, file_state
 
 KIND = 'incremental-runtime-image-repair'
 PLAN_LIMIT = 16 * 1024 * 1024
@@ -204,11 +204,143 @@ def read_plan(plan_path, expected_sha256, check_payloads=False):
     return p, root
 
 
+def prepare_refresh(image, previous_plan, previous_plan_sha256, replacement_manifest,
+                    replacement_manifest_sha256, output_dir, decoder):
+    """Refresh selected resources on a previously repaired test image.
+
+    The replacement manifest locks BOTH the current member and replacement bytes.
+    Every package crosses the runtime normalization boundary again. The existing
+    transaction, recovery and inverse verifier are reused without copying an ISO.
+    """
+    image = Path(image).resolve()
+    previous_plan = Path(previous_plan).resolve()
+    previous, _ = read_plan(previous_plan, previous_plan_sha256)
+    if image != Path(previous['input']['path']).resolve():
+        raise ValueError('refresh must use the predecessor test image')
+    verify(image, previous_plan, previous_plan_sha256)
+    manifest_path = Path(replacement_manifest).resolve()
+    m = load_plan(manifest_path, replacement_manifest_sha256)
+    if (m.get('schema_version') != 1 or m.get('kind') != 'disc-resource-refresh'
+            or type(m.get('disc')) is not int or m['disc'] != previous['disc']):
+        raise ValueError('unsupported replacement manifest or wrong disc')
+    rows = m.get('resources')
+    if not isinstance(rows, list) or not 1 <= len(rows) <= 512:
+        raise ValueError('replacement count outside bounded profile')
+    root = Path(output_dir).absolute()
+    if root.exists() or root.is_symlink() or root.parent.resolve() != root.parent:
+        raise ValueError('refresh output directory must be new and canonical')
+    disc = Disc(image); inventory = disc.inventory()
+    entries = {r['path']: r for r in inventory}
+    offsets = iso.entry_offsets(disc, inventory)
+    tocs = [r for r in inventory if not r['directory']
+            and Path(r['path']).name.casefold() == 'xbox360toc.txt']
+    if len(tocs) != 1:
+        raise ValueError('expected one explicit Xbox360TOC profile')
+    names = set(); sources = []
+    # Validate the full selection before producing staged files.
+    for row in rows:
+        name = relative(row['path']); key = name.casefold()
+        if (key in names or name not in entries or entries[name]['directory']
+                or key.endswith('.xex') or name == tocs[0]['path']):
+            raise ValueError('duplicate, unknown, directory, TOC or executable replacement')
+        names.add(key)
+        if disc.resource_hash(entries[name]) != hash_value(row['before_sha256']):
+            raise ValueError('replacement before hash mismatch: '+name)
+        path = confined(manifest_path.parent, row['file'])
+        expected = dict(size=row['size'], sha256=hash_value(row['sha256']))
+        if (type(row['size']) is not int or row['size'] <= 0
+                or path != manifest_path.parent/relative(row['file'])
+                or file_state(path) != expected):
+            raise ValueError('replacement source identity mismatch: '+name)
+        sources.append((row, path, expected))
+    root.mkdir()
+    changes = []; proofs = []; cursor = (disc.size+SECTOR-1)//SECTOR*SECTOR
+    targets = {k: dict(v) for k, v in entries.items()}
+
+    def stage(name, payload, proof):
+        nonlocal cursor
+        path = root/'resources'/relative(name)
+        path.parent.mkdir(parents=True, exist_ok=True)
+        with path.open('xb') as f: f.write(payload)
+        h = hashlib.sha256(payload).hexdigest()
+        if sha256_file(path) != h:
+            raise ValueError('staged resource reopening mismatch')
+        sector = (cursor-disc.base)//SECTOR
+        if (cursor < disc.base or (cursor-disc.base) % SECTOR
+                or sector > 0xffffffff or len(payload) > 0xffffffff):
+            raise ValueError('append extent exceeds XDVDFS profile')
+        field = offsets[name]+4
+        changes.append(dict(path=name, file=path.relative_to(root).as_posix(),
+            field_offset=field, before_hex=disc.read(field, 8).hex(),
+            after_hex=struct.pack('<II', sector, len(payload)).hex(),
+            offset=cursor, sector=sector, size=len(payload), sha256=h))
+        targets[name].update(sector=sector, offset=cursor, size=len(payload))
+        proofs.append(dict(proof, path=name))
+        cursor += (len(payload)+SECTOR-1)//SECTOR*SECTOR
+
+    for row, path, expected in sorted(sources, key=lambda item: item[0]['path'].casefold()):
+        payload = path.read_bytes()
+        if len(payload) != expected['size'] or hashlib.sha256(payload).hexdigest() != expected['sha256']:
+            raise ValueError('replacement changed during preparation')
+        proof = dict(kind='hash-locked-resource-refresh', before_sha256=row['before_sha256'],
+                     supplied_sha256=row['sha256'])
+        if row['path'].lower().endswith('.xxx'):
+            payload, normalization = normalize_package(payload, row['sha256'], decoder)
+            proof.update(normalization)
+        if hashlib.sha256(payload).hexdigest() != row['before_sha256']:
+            stage(row['path'], payload, proof)
+    if not changes:
+        raise ValueError('refresh contains no changed resources')
+    toc = tocs[0]; name = toc['path']
+    raw = disc.read(toc['offset'], toc['size'])
+    targets[name]['sector'] = (cursor-disc.base)//SECTOR
+    rewritten, toc_proof = iso.relocate_toc(raw, entries, targets, name)
+    stage(name, rewritten, dict(kind='toc-size-and-sector-update', **toc_proof))
+    file_inventory = [dict(path=e['path'], size=e['size'], sha256=disc.resource_hash(e))
+                      for e in inventory if not e['directory']]
+    plan = dict(schema_version=1, kind=KIND, disc=previous['disc'],
+        previous_report=dict(path=str(previous_plan), sha256=previous_plan_sha256),
+        replacement_manifest=dict(path=str(manifest_path), sha256=replacement_manifest_sha256),
+        input=dict(path=str(image), size=disc.size, sha256=previous['output']['sha256']),
+        output=dict(size=cursor, sha256=projected_hash(image, disc.size, changes, root)),
+        partition_base=disc.base, changes=changes, file_inventory=file_inventory,
+        resource_proofs=proofs, game_started=False, game_rendering_verified=False)
+    for _, path, expected in sources:
+        if file_state(path) != expected: raise ValueError('replacement source changed')
+    if sha256_file(manifest_path) != replacement_manifest_sha256:
+        raise ValueError('replacement manifest changed')
+    identity(image, plan['input'])
+    (root/'plan.json').write_bytes(iso.encoded(plan))
+    if load_plan(root/'plan.json', sha256_file(root/'plan.json')) != plan:
+        raise ValueError('plan reopening mismatch')
+    return plan
+
+
+def directory_targets(disc, inventory, plan, state):
+    """Bind claimed patch offsets to independently parsed directory records.
+
+    A matching plan hash and projected output hash identify bytes, not their
+    meaning. Recheck the path/field association before writing, and again during
+    independent verification, so a misbuilt plan cannot target an old payload.
+    """
+    entries = {r['path']: r for r in inventory}
+    offsets = iso.entry_offsets(disc, inventory)
+    if disc.base != plan['partition_base']:
+        raise ValueError('plan directory target partition mismatch')
+    for row in plan['changes']:
+        name = row['path']; entry = entries.get(name)
+        if (entry is None or entry['directory'] or name.casefold().endswith('.xex')
+                or row['field_offset'] != offsets[name]+4
+                or row[state+'_hex'] != struct.pack('<II', entry['sector'], entry['size']).hex()):
+            raise ValueError('plan directory target mismatch: '+name)
+
+
 def preflight(image, plan_path, plan_sha256):
     p, root = read_plan(plan_path, plan_sha256, True)
     if Path(image).resolve() != Path(p['input']['path']).resolve():
         raise ValueError('preflight requires the prepared image')
     identity(image, p['input'])
+    d = Disc(image); directory_targets(d, d.inventory(), p, 'before')
     if projected_hash(image, p['input']['size'], p['changes'], root) != p['output']['sha256']:
         raise ValueError('projected output hash mismatch')
     return dict(status='PREPARED', changed_resources=len(p['changes']),
@@ -221,6 +353,7 @@ def apply(image, plan_path, plan_sha256):
     if image != Path(p['input']['path']).resolve():
         raise ValueError('apply requires the explicitly prepared test image')
     identity(image, p['input'])
+    d = Disc(image); directory_targets(d, d.inventory(), p, 'before')
     with image.open('r+b') as f:
         for row in p['changes']:
             f.seek(row['field_offset'])
@@ -247,6 +380,7 @@ def verify(image, plan_path, plan_sha256):
     p, _ = read_plan(plan_path, plan_sha256)
     identity(image, p['output'])
     d = Disc(image); inventory = d.inventory(); entries = {r['path']:r for r in inventory}
+    directory_targets(d, inventory, p, 'after')
     expected = {r['path']:r for r in p['file_inventory']}
     expected.update({r['path']:r for r in p['changes']})
     if set(expected) != {r['path'] for r in inventory if not r['directory']}:
@@ -342,6 +476,14 @@ def main(argv=None):
     p.add_argument('--previous-report-sha256', required=True)
     p.add_argument('--output-dir', type=Path, required=True)
     p.add_argument('--lzx-library', type=Path, required=True)
+    p = sub.add_parser('prepare-refresh')
+    p.add_argument('--image', type=Path, required=True)
+    p.add_argument('--previous-plan', type=Path, required=True)
+    p.add_argument('--previous-plan-sha256', required=True)
+    p.add_argument('--replacement-manifest', type=Path, required=True)
+    p.add_argument('--replacement-manifest-sha256', required=True)
+    p.add_argument('--output-dir', type=Path, required=True)
+    p.add_argument('--lzx-library', type=Path, required=True)
     for command in ('apply','verify','restore','recover','preflight'):
         p = sub.add_parser(command)
         p.add_argument('--image', type=Path, required=True)
@@ -352,6 +494,12 @@ def main(argv=None):
     try:
         if a.action == 'prepare':
             p = prepare(a.image, a.previous_report, a.previous_report_sha256, a.output_dir, LzxDecoder(a.lzx_library))
+            result = dict(status='PREPARED', changed_resources=len(p['changes']),
+                plan_sha256=sha256_file(a.output_dir/'plan.json'), output=p['output'], game_started=False)
+        elif a.action == 'prepare-refresh':
+            p = prepare_refresh(a.image, a.previous_plan, a.previous_plan_sha256,
+                a.replacement_manifest, a.replacement_manifest_sha256, a.output_dir,
+                LzxDecoder(a.lzx_library))
             result = dict(status='PREPARED', changed_resources=len(p['changes']),
                 plan_sha256=sha256_file(a.output_dir/'plan.json'), output=p['output'], game_started=False)
         elif a.action == 'restore': result = restore(a.image, a.plan, a.plan_sha256, a.output)

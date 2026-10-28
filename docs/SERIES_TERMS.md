@@ -170,6 +170,9 @@ lookup 只支持完整原词和显式 `--variant`，不忽略大小写或空白�
 ## 本项目结构化数据
 
 唯一维护源：`locales/zh-Hans/terms.json`。根 GLOSSARY 由 render 生成。
+修改词条后先运行 `python tools/series_terms.py render`，再运行
+`python tools/series_terms.py render --check`；结构源和 `GLOSSARY.md` 一起提交。
+默认单元测试也检查两者一致性，只检查、不自动重写生成物。
 
 每项必填：
 

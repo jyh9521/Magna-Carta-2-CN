@@ -1,5 +1,7 @@
-"""Synthetic tests; no game files or upstream network required."""
+"""Synthetic and repository-source tests; no game files or network required."""
+import contextlib
 import copy
+import io
 import json
 from pathlib import Path
 import tempfile
@@ -132,6 +134,19 @@ class SeriesTermsTests(unittest.TestCase):
         text = st.glossary(self.database())
         self.assertIn("本作词条：0；已继承：0", text)
         self.assertEqual(text, st.glossary(self.database()))
+
+
+class RepositoryGlossaryTests(unittest.TestCase):
+    def test_committed_glossary_matches_current_terms(self):
+        output, errors = io.StringIO(), io.StringIO()
+        with contextlib.redirect_stdout(output), contextlib.redirect_stderr(errors):
+            status = st.main(["render", "--check"])
+        self.assertEqual(
+            status, 0,
+            errors.getvalue() + "Run python tools/series_terms.py render and commit "
+            "GLOSSARY.md together with locales/zh-Hans/terms.json.",
+        )
+        self.assertEqual(json.loads(output.getvalue()), {"glossary": "current"})
 
 
 if __name__ == "__main__":

@@ -1,3 +1,36 @@
+# GitHub Actions 生成术语表不同步（2026-10-28）
+
+## 已验证的根因
+
+[失败运行 40704616373](https://github.com/jyh9521/Magna-Carta-2-CN/actions/runs/40704616373)
+对应提交 `8f3b2eac59cdef04ea7a5953f07bedcacefe77e0`。Ubuntu / Windows、Python
+3.12 / 3.14 四组均在最后的 `series_terms.py render --check` 失败；此前的单元测试、
+依赖、仓库卫生和固定来源术语检查均通过。
+
+`locales/zh-Hans/terms.json` 中 `mc2-calamity-144` 已改为“真名法典”，但未同步生成
+`GLOSSARY.md`。本地同命令重现 `error: generated glossary out of date`（exit 2）。
+连续两次生成内容完全相同，与旧表只差这一条译名；不是换行符或平台差异。
+
+## 修复与防回归
+
+- 使用 `python tools/series_terms.py render` 重建术语表，不手工绕过生成器或 CI 校验。
+- 在 `test_series_terms.py` 增加仓库源文件一致性测试，直接调用与 CI 相同的
+  `render --check` 入口；不取网络参考、不读游戏文件，也不自动改写过期文件。
+  该测试在生成前失败，生成后通过，使默认单元测试也能及时发现漏提交生成物。
+- 修改术语后，结构源与生成表必须一起提交；原四组 CI 和全部失败检查保持。
+- README 只保留简介、状态和文档入口；第 289–316 阶段文字移至
+  [历史阶段记录](README_HISTORY.md)，后续工作记录不再堆在首页。
+
+```powershell
+python -m unittest discover -s tests -p test_series_terms.py -v
+python tools/series_terms.py render --check
+```
+
+三态命令、源文件散列及隔离回滚证据保存在
+`build/ci-glossary-readme-20261028/VERIFICATION.txt`。独立副本恢复旧术语表后，
+检查应重新报告过期；工作区保留同步后的术语表。本轮不改游戏资源、测试 ISO 或图片。
+云端结果以修复提交对应的四组 Actions 为准，不以本地通过替代。
+
 # GitHub Actions 路径别名回归（2026-10-27）
 
 ## 已验证的根因

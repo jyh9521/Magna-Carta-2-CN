@@ -1728,3 +1728,11 @@ Verified：field_mainmenu_atlas的4px左边带不是空白面板装饰，而是�
 ## 阶段322：排版框决定最终字高与对齐
 
 Verified：source-style-v1先绘制字形，再缩放到appearance.ink_box的高度。仅增大font_size不能保证最终文字变大。短译文继续沿用left时会远离原文右侧锚点；本轮海岸地名只改right及ink_box宽度，两张奖品只改字芯高度，避免破坏已修复的背景与相邻原生标记。见PHASE_322_FIFTH_IMAGE_FEEDBACK.md。
+
+## 阶段327：轻度加粗应在字形轮廓端处理
+
+离线预览中，将原抗锯齿alpha与3×3膨胀位图按比例混合，会扩大半透明边缘，
+本次朱雀仿宋初稿呈现灰色虚边而非干净的笔画加粗。最终改用浮点半径的FreeType
+轮廓stroke，再执行原有BC3/字幕阴影流程；保留基线、advance与可见格，单独检查增长越界。
+本地Regular字体只有400字重且无fvar；500只是明确标注的合成预览目标，
+不改OS/2标签冒充上游Medium字形。参数和证据见ZHUQUE_MEDIUM_PREVIEW.md。

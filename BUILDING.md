@@ -1881,3 +1881,7 @@ candidate、controls、raw-controls或live合并，结束时再次核验独立�
 `tools.render_font_comparison` 只在新建build子目录输出PNG和核验清单，
 不部署字体、不刷新资源或ISO。用户指定臻楷采用Slab GB版本；
 原有绘制素材保持不动，字体选择和游戏内验收是后续独立步骤。
+
+朱雀仿宋轻度加粗的后续对照使用 `font-preview-zhuque-medium.json`，见
+[ZHUQUE_MEDIUM_PREVIEW](docs/ZHUQUE_MEDIUM_PREVIEW.md)。它显式标为合成500观感，
+保持原版Regular输入与所有字形度量；未指定加粗参数的预览像素不变。

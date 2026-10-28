@@ -154,6 +154,79 @@ class FontComparisonTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, 'cmap'):
             preview.raster_font(self.font, self.face, spec, '未')
 
+    def test_opt_in_weight_strokes_outlines_but_preserves_metrics(self):
+        spec = preview.role_specs(self.root, self.roles)[1]
+        original, before = preview.raster_font(self.font, self.face, spec, 'A B')
+        face = dict(self.face, embolden=dict(target_weight=500, stroke_em=0.006))
+        bold, after = preview.raster_font(self.font, face, spec, 'A B')
+        self.assertEqual(before['glyph_plan'], after['glyph_plan'])
+        self.assertEqual(before['raster_records'], after['raster_records'])
+        self.assertEqual([g.size for g in original.values()], [g.size for g in bold.values()])
+        self.assertEqual(after['source_weight_class'], 400)
+        self.assertEqual(after['requested_weight'], 500)
+        self.assertTrue(after['synthetic_weight'])
+        self.assertEqual(after['weight_method'], 'freetype-fractional-outline-stroke-v1')
+        self.assertGreater(after['alpha_sum_after'], after['alpha_sum_before'])
+        self.assertNotEqual(before['rgba_sha256'], after['rgba_sha256'])
+        self.assertIsNone(bold[' '].getbbox())
+        self.assertEqual(preview.sha(self.font.read_bytes()), self.face['sha256'])
+
+    def test_weight_none_keeps_regular_pixels_identical(self):
+        spec = preview.role_specs(self.root, self.roles)[2]
+        _, before = preview.raster_font(self.font, self.face, spec, 'AB')
+        _, after = preview.raster_font(self.font, dict(self.face, embolden=None), spec, 'AB')
+        self.assertEqual(before['rgba_sha256'], after['rgba_sha256'])
+        self.assertFalse(after['synthetic_weight'])
+        self.assertEqual(after['source_weight_class'], after['requested_weight'])
+
+    def test_synthetic_weight_requires_explicit_bounded_parameters(self):
+        spec = preview.role_specs(self.root, self.roles)[0]
+        for settings in ({}, {'target_weight': 500}, {'target_weight': 400, 'stroke_em': 0.006},
+                         {'target_weight': 500, 'stroke_em': True},
+                         {'target_weight': 500, 'stroke_em': 0},
+                         {'target_weight': 500, 'stroke_em': float('nan')},
+                         {'target_weight': 500, 'stroke_em': 0.03},
+                         {'target_weight': 500, 'stroke_em': 0.006, 'blur': True}):
+            with self.subTest(settings=settings), self.assertRaisesRegex(ValueError, 'synthetic weight'):
+                preview.raster_font(self.font, dict(self.face, embolden=settings), spec, 'A')
+
+    def test_outline_stroke_preserves_original_alpha_and_cell_bounds(self):
+        spec = preview.role_specs(self.root, self.roles)[2]
+        plan = preview.make_glyph_plan(self.font, spec, 'A')
+        alphas, records = preview.rasterize_plan(self.font, self.face['sha256'], plan)
+        font = preview.ImageFont.truetype(str(self.font), spec['font_size'])
+        cell = plan['glyphs'][0]
+        original = alphas[ord('A')]
+        changed, report = preview.embolden_glyph(font, cell, records[0], original, spec['metric_height'], 0.006)
+        self.assertEqual(len(changed), len(original))
+        self.assertTrue(all(a <= b for a, b in zip(original, changed)))
+        self.assertEqual(sum(changed)-sum(original), report['added_alpha'])
+        for y in range(cell['height']):
+            for x in range(cell['width']):
+                if x >= cell['metric_width'] or y >= spec['metric_height']:
+                    self.assertEqual(changed[y*cell['width']+x], original[y*cell['width']+x])
+
+    def test_zero_outline_stroke_is_exact_identity(self):
+        alpha = bytes(range(16))
+        output, record = preview.embolden_glyph(None, {}, {'raster_bbox': None}, alpha, 4, 0)
+        self.assertEqual(output, alpha)
+        self.assertEqual(record, {'added_alpha': 0, 'boundary_samples': 0})
+
+    def test_outline_stroke_invalid_amounts_rejected(self):
+        for strength in (-1, True, float('nan'), float('inf'), 0.03, '0.006'):
+            with self.subTest(strength=strength), self.assertRaises(ValueError):
+                preview.embolden_glyph(None, {}, {}, bytes(16), 4, strength)
+
+    def test_zhuque_profile_labels_synthetic_weight_without_replacing_font(self):
+        root = Path(__file__).resolve().parents[1]
+        profile = json.loads((root/'locales/zh-Hans/font-preview-zhuque-medium.json').read_bytes())
+        regular, medium = profile['fonts']
+        for key in ('path', 'sha256', 'postscript_name'):
+            self.assertEqual(regular[key], medium[key])
+        self.assertNotIn('embolden', regular)
+        self.assertEqual(medium['embolden'], {'target_weight': 500, 'stroke_em': 0.006})
+        self.assertIn('合成', medium['label'])
+
     def test_plan_never_implicitly_in_game_verified(self):
         spec = preview.role_specs(self.root, self.roles)[0]
         plan = preview.make_glyph_plan(self.font, spec, 'AB')

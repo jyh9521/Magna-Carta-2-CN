@@ -96,3 +96,7 @@ python -B -X utf8 -m unittest discover -s tests -p test_render_font_comparison.p
 忽略的build目录。删除了逐像素相同的重复PNG和用户未选用的无后缀臻楷字体，
 保留早期元数据作为研究记录。原有5,901个受保护文件（包含两张测试ISO、运行字库、
 Coalesced、素材源、配置及准备记录）在本轮前后逐项大小和SHA-256一致。
+
+后续朱雀仿宋Regular与轻度合成500的独立预览见
+[ZHUQUE_MEDIUM_PREVIEW](ZHUQUE_MEDIUM_PREVIEW.md)。加粗是新配置中的显式选项，
+不影响本页五款原版预览，也不替换游戏内字库。

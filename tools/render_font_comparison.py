@@ -187,20 +187,76 @@ def bc3_rgba(rgba, width, height):
     return decode_dxt5(bytes(blocks), width, height)
 
 
+def embolden_glyph(font, cell, record, alpha, metric_height, stroke_em):
+    """Fractional FreeType outline stroke, not a designer's weight master.
+
+    Render the font outline again, never blur or expand an antialiased bitmap.
+    Keep the original baseline/advance and all original alpha. Growth is bounded
+    to the existing visible metric rectangle, with excluded samples reported.
+    """
+    if (isinstance(stroke_em, bool) or not isinstance(stroke_em, (int, float))
+            or not math.isfinite(stroke_em) or not 0 <= stroke_em <= 0.02):
+        raise ValueError('Invalid bounded preview outline stroke')
+    if not stroke_em or record['raster_bbox'] is None:
+        return alpha, dict(added_alpha=0, boundary_samples=0)
+    width, height = cell['width'], cell['height']
+    mask, offset = font.getmask2(cell['character'], mode='L', anchor='ls')
+    ink = mask.getbbox()
+    if ink is None:
+        raise ValueError('Unexpected empty outline during emboldening')
+    anchor_x = record['raster_bbox'][0] - offset[0] - ink[0]
+    pad = 3
+    canvas = Image.new('L', (width+2*pad, height+2*pad))
+    ImageDraw.Draw(canvas).text((anchor_x+pad, record['cell_baseline']+pad),
+                               cell['character'], font=font, anchor='ls', fill=255,
+                               stroke_width=font.size*stroke_em, stroke_fill=255)
+    pixels = canvas.tobytes()
+    result = bytearray(alpha)
+    added = boundary = 0
+    for y in range(-pad, height+pad):
+        for x in range(-pad, width+pad):
+            source = alpha[y*width+x] if 0 <= x < width and 0 <= y < height else 0
+            delta = max(0, pixels[(y+pad)*(width+2*pad)+x+pad]-source)
+            if 0 <= x < cell['metric_width'] and 0 <= y < metric_height:
+                result[y*width+x] += delta
+                added += delta
+            elif delta:
+                boundary += 1
+    return bytes(result), dict(added_alpha=added, boundary_samples=boundary)
+
+
 def raster_font(font_file, font_spec, role, text):
     raw = font_file.read_bytes()
     with TTFont(io.BytesIO(raw)) as font:
         names = {n.toUnicode() for n in font['name'].names if n.nameID == 6}
         if font_spec['postscript_name'] not in names:
             raise ValueError('Wrong font face: ' + font_spec['id'])
+        source_weight = font['OS/2'].usWeightClass
+    weight = font_spec.get('embolden')
+    if weight is not None:
+        if (not isinstance(weight, dict) or set(weight) != {'target_weight', 'stroke_em'}
+                or type(weight['target_weight']) is not int
+                or not source_weight < weight['target_weight'] <= 900
+                or isinstance(weight['stroke_em'], bool)
+                or not isinstance(weight['stroke_em'], (int, float))
+                or not math.isfinite(weight['stroke_em']) or not 0 < weight['stroke_em'] <= 0.02):
+            raise ValueError('Invalid explicit synthetic weight preview')
     plan = make_glyph_plan(font_file, role, text)
     alphas, records = rasterize_plan(font_file, font_spec['sha256'], plan)
     glyphs = {}
     shadows = 0
     clipped = 0
-    for cell in plan['glyphs']:
+    alpha_before = alpha_after = boundary = 0
+    outline_font = ImageFont.truetype(str(font_file), role['font_size']) if weight else None
+    for cell, record in zip(plan['glyphs'], records):
         w, h = cell['width'], cell['height']
-        pixels = bc3_white(alphas[ord(cell['character'])], w, h)
+        alpha = alphas[ord(cell['character'])]
+        alpha_before += sum(alpha)
+        if weight:
+            alpha, growth = embolden_glyph(outline_font, cell, record, alpha, role['metric_height'], weight['stroke_em'])
+            boundary += growth['boundary_samples']
+        alpha_after += sum(alpha)
+        pixels = bc3_white(alpha, w, h)
         if role['shadow']:
             changed, added, lost = shadow_pixels(pixels, w, h, cell['metric_width'], role['metric_height'], 1, 1)
             pixels = bc3_rgba(changed, w, h)
@@ -214,6 +270,10 @@ def raster_font(font_file, font_spec, role, text):
     return glyphs, dict(font=font_spec['id'], size=role['font_size'], metric_height=role['metric_height'],
                         glyphs=len(glyphs), glyph_plan=plan, raster_records=records,
                         missing_glyphs=0, foreground_clipping=False, added_shadow_pixels=shadows, clipped_shadow_samples=clipped,
+                        source_weight_class=source_weight, requested_weight=weight['target_weight'] if weight else source_weight,
+                        synthetic_weight=weight is not None, stroke_em=weight['stroke_em'] if weight else 0, stroke_px=role['font_size']*weight['stroke_em'] if weight else 0,
+                        weight_method='freetype-fractional-outline-stroke-v1' if weight else 'original',
+                        alpha_sum_before=alpha_before, alpha_sum_after=alpha_after, bounded_growth_samples=boundary,
                         rgba_sha256={char:sha(image.tobytes()) for char,image in glyphs.items()})
 
 

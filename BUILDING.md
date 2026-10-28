@@ -1873,3 +1873,11 @@ candidate、controls、raw-controls或live合并，结束时再次核验独立�
 因此每个版本仍保有独立于修改候选的物理备份。路径、内容、清单和回滚
 操作证据保留；实际live-backup、isolated-rollback、原盘、存档、配置及
 研究材料不纳入此模式。共享派生备份同样不可原地写入。
+
+## 动态文字字体预览（2026-10-28）
+
+五款候选字库、同一段实际对白及15/22/27 px三档对照的重建方法见
+[FONT_COMPARISON_PREVIEW](docs/FONT_COMPARISON_PREVIEW.md)。
+`tools.render_font_comparison` 只在新建build子目录输出PNG和核验清单，
+不部署字体、不刷新资源或ISO。用户指定臻楷采用Slab GB版本；
+原有绘制素材保持不动，字体选择和游戏内验收是后续独立步骤。

@@ -1677,3 +1677,11 @@ The source-locked Tutorial_32_1 package contains Core.Package export15 and Engin
 ## 阶段321：既有图层契约的复用
 
 本轮没有新增二进制格式或JSON schema。仍使用source-style-v1、render_window、restoration与protected_regions：文字和背景分离，拉提族洞窟共用108×32光栅画布再按原crop分片，小游戏的白点和两根黑条成为显式原生矩形守卫。review_round=5表示第五版审查页，对应第四轮CSV反馈；不应把文件版本与反馈轮数混为一谈。
+
+## FontCharacter双表示与重排验证补充
+
+本作cooked Font的tagged和native记录都含StartU、StartV、USize、VSize、TextureIndex。
+重排已映射字形必须同步两者；仅改表或仅改像素会造成采样错位。
+保留所有未选字形占用的4×4块，显式更新所选atlas记录，remap不改。
+Xbox BC3块地址由tiled布局给出，每个16位word与线性BC3字节序相反。
+写后须按新度量从native块独立采样并与预期RGBA摘要比对，不能只验证内存中的线性源。

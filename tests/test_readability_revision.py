@@ -56,7 +56,7 @@ class ReadabilityRevisionTests(unittest.TestCase):
             self.assertEqual({k:v for k,v in old[identity].items() if k!='translation'},
                              {k:v for k,v in current[identity].items() if k!='translation'})
         anchors = {t['source']:t for t in load('locales/zh-Hans/terms.json')['terms']}
-        for source, target in [('마그나카르타', '玛格纳卡尔塔'), ('라이브 드라마', '短剧')]:
+        for source, target in [('마그나카르타', '真名法典'), ('라이브 드라마', '短剧')]:
             self.assertEqual(anchors[source]['target'], target)
             self.assertEqual(anchors[source]['review_status'], 'candidate')
             self.assertEqual(anchors[source]['relation'], 'unverified')

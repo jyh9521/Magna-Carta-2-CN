@@ -1736,3 +1736,15 @@ Verified：source-style-v1先绘制字形，再缩放到appearance.ink_box的高
 轮廓stroke，再执行原有BC3/字幕阴影流程；保留基线、advance与可见格，单独检查增长越界。
 本地Regular字体只有400字重且无fvar；500只是明确标注的合成预览目标，
 不改OS/2标签冒充上游Medium字形。参数和证据见ZHUQUE_MEDIUM_PREVIEW.md。
+
+## 动态换字体与存储形态（阶段328）
+
+不能直接把线性BC3的16字节块复制到Xbox tiled atlas。初版缺少16位字节交换，
+新增原生回读测试先复现失败，再修复；错误候选未部署。只看Pillow预览不足以发现。
+也不能直接沿用37字样本的高度：全量朱雀字幕中文需30px前景+阴影余量，
+Latin重音字另用显式光学字号。每个字形同时验证前景、扩粗和阴影边界。
+
+旧文件夹和ISO中的控制图包曾分别存储为generated LZX和规范化raw，
+虽然解码图相同，before SHA不同。分别锁定输入，最终再规范化；
+别用文件夹SHA替代ISO前驱哈希，也别把中间包摘要当最终交付摘要。
+Windows旧JSON证明文件可能CRLF；独立字体回放仅对JSON行尾归一，二进制逐字节比对。

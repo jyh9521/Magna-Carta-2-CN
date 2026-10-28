@@ -20,7 +20,7 @@ class SquareSpeechTests(unittest.TestCase):
   self.assertEqual(len(self.r['held_entries']),1);h=self.r['held_entries'][0];self.assertEqual((h['document'],h['section'],h['key']),('MC2CSMB.int','CSMB09_20','voc_csmb_0920_06'));self.assertNotIn(h['id'],{e['id'] for e in self.p['entries']});self.assertRegex(h['source_sha256'],r'^[0-9a-f]{64}$');self.assertIn('감Ｒ',h['reason']);self.assertEqual(sum('line_break_policy' in e for e in self.p['entries']),64);self.assertFalse(self.r['preserved_functional_break_ids'])
  def test_existing_candidates_and_distinct_speakers(self):
   ts={e['source']:e for e in load('locales/zh-Hans/terms.json')['terms']}
-  for s,t in [('라 스트라다','拉·斯特拉达'),('스트라스','斯特拉斯'),('마그나카르타','玛格纳卡尔塔')]:
+  for s,t in [('라 스트라다','拉·斯特拉达'),('스트라스','斯特拉斯'),('마그나카르타','真名法典')]:
    self.assertEqual(ts[s]['target'],t);self.assertEqual(ts[s]['review_status'],'candidate')
   values=[e['translation'] for e in self.p['entries']];self.assertTrue(any('谎言' in t for t in values));self.assertTrue(any('诬为叛徒' in t for t in values));self.assertTrue(any('不能在这里闹事' in t for t in values))
  def test_subtitle_prefix_and_opening(self):

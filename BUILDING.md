@@ -1885,3 +1885,12 @@ candidate、controls、raw-controls或live合并，结束时再次核验独立�
 朱雀仿宋轻度加粗的后续对照使用 `font-preview-zhuque-medium.json`，见
 [ZHUQUE_MEDIUM_PREVIEW](docs/ZHUQUE_MEDIUM_PREVIEW.md)。它显式标为合成500观感，
 保持原版Regular输入与所有字形度量；未指定加粗参数的预览像素不变。
+
+## 阶段328动态文字与测试ISO更新
+
+当前动态字体采用 `dynamic-font-zhuque-500.json`（朱雀仿宋合成500），
+运行文本覆盖采用 `gameplay-text-v8.json` 及独立字幕术语计划。
+统一入口为 `python -m tools.build_gameplay_revision`；完整输入、复现命令、
+哈希保护增量ISO/文件夹测试入口与隔离回滚见
+[PHASE_328_DYNAMIC_FONT_AND_TEXT](docs/PHASE_328_DYNAMIC_FONT_AND_TEXT.md)。
+本轮按用户明确要求刷新已有v6两张ISO，不增加完整镜像副本。

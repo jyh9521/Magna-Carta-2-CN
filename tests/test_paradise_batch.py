@@ -24,5 +24,5 @@ class ParadiseTests(unittest.TestCase):
   ts=[e['translation'] for e in self.p['entries']];self.assertEqual(sum('800年' in t for t in ts),1);self.assertEqual(sum('150年' in t for t in ts),2);self.assertTrue(any('去世吧' in t for t in ts));self.assertTrue(any('看来' in t and '北部军' in t for t in ts));self.assertTrue(any('不敢保证' in t for t in ts));self.assertTrue(any('据' not in t and '听说' in t and 'KAN流' in t for t in ts))
  def test_candidates_reused_not_approved(self):
   ts={t['source']:t for t in load('locales/zh-Hans/terms.json')['terms']}
-  for source,target in [('필러','晶柱'),('이그톤','伊格顿'),('마그나카르타','玛格纳卡尔塔'),('스트라스','斯特拉斯')]:self.assertEqual(ts[source]['target'],target);self.assertEqual(ts[source]['review_status'],'candidate')
+  for source,target in [('필러','晶柱'),('이그톤','伊格顿'),('마그나카르타','真名法典'),('스트라스','斯特拉斯')]:self.assertEqual(ts[source]['target'],target);self.assertEqual(ts[source]['review_status'],'candidate')
 if __name__=='__main__':unittest.main()

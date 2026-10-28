@@ -57,7 +57,7 @@ class CalamityBatchTests(unittest.TestCase):
     def test_candidates_and_full_name_consistency(self):
         terms = {e['source']: e for e in load('locales/zh-Hans/terms.json')['terms']}
         self.assertGreaterEqual(len(terms), 146)
-        for source, target in [('마그나카르타', '玛格纳卡尔塔'), ('루할트 내전', '鲁哈尔特内战'),
+        for source, target in [('마그나카르타', '真名法典'), ('루할트 내전', '鲁哈尔特内战'),
                                ('악몽의 마녀', '梦魇魔女')]:
             self.assertEqual(terms[source]['target'], target)
             self.assertEqual(terms[source]['review_status'], 'candidate')

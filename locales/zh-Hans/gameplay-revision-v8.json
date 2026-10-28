@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "kind": "gameplay-resource-revision",
+  "font_profile": "locales/zh-Hans/dynamic-font-zhuque-500.json",
+  "text_plan": "locales/zh-Hans/gameplay-text-v8.json",
+  "subtitle_plans": [
+    "locales/zh-Hans/subtitles/terminology-v8-csm09-40.txt.json"
+  ],
+  "texture_plan": "locales/zh-Hans/texture-overlays/controller-feedback-v8.json",
+  "texture_donor": {
+    "path": "MC2Game/CookedXenon/UI_Field_Option_Control.xxx",
+    "object": "Img_Cont"
+  },
+  "texture_targets": [
+    {
+      "path": "MC2Game/CookedXenon/MC2Game.xxx",
+      "object": "UI_Field_Option_Control.Img_Cont",
+      "before_sha256": "0d822cc2075c77523aa7d37cf519d28a8648a1a6584970693bb5711e39540058"
+    },
+    {
+      "path": "MC2Game/CookedXenon/UI_Field_Option_Control.xxx",
+      "object": "Img_Cont",
+      "before_sha256": "183bc82c6241a13b29816e2bfa4ac93baec152c834d492b273b3be1bd06c77aa"
+    }
+  ],
+  "texture_rects": [
+    [
+      176,
+      100,
+      104,
+      36
+    ],
+    [
+      696,
+      64,
+      12,
+      12
+    ]
+  ]
+}

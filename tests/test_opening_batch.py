@@ -93,6 +93,9 @@ class OpeningBatchTests(unittest.TestCase):
         workflow=load('locales/zh-Hans/translation-workflow.json')
         index={e['id']:e['translation'] for batch in workflow['batches']
                for e in load(batch['plan']['path'])['entries']}
+        # Post-composition user revision supersedes historical draft wording.
+        index.update({e['id']:e['translation'] for e in
+                      load('locales/zh-Hans/gameplay-text-v8.json')['entries']})
         for term in terms['terms']:
             self.assertIn(term['target'],index[term['source_string_id']])
 

@@ -1,0 +1,4146 @@
+{
+  "schema_version": 1,
+  "kind": "texture-text-overlay-plan",
+  "game_rendering_verified": false,
+  "font": {
+    "path": "build/font-source/NotoSansCJKsc-Regular.otf",
+    "sha256": "2c76254f6fc379fddfce0a7e84fb5385bb135d3e399294f6eeb6680d0365b74b"
+  },
+  "rasterizer_versions": {
+    "Pillow": "12.2.0",
+    "fonttools": "4.63.0"
+  },
+  "labels": [
+    {
+      "id": "controller_move_mode",
+      "text": "切换移动／战斗模式",
+      "rect": [
+        164,
+        28,
+        184,
+        32
+      ],
+      "font_size": 18,
+      "align": "center",
+      "ink_padding": {
+        "x": 2,
+        "y": 1
+      },
+      "font": {
+        "path": "build/font-source/NotoSansCJKsc-Regular.otf",
+        "sha256": "2c76254f6fc379fddfce0a7e84fb5385bb135d3e399294f6eeb6680d0365b74b"
+      },
+      "style": {
+        "fill": [
+          245,
+          245,
+          245,
+          255
+        ],
+        "stroke_fill": [
+          0,
+          0,
+          0,
+          240
+        ],
+        "shadow_fill": [
+          0,
+          0,
+          0,
+          150
+        ]
+      },
+      "restoration": {
+        "source_rgba_sha256": "b4e6ceef1b58dd2f77672c1f6fd7a27a1fe51c647a170cbd90c6fb48abad0cae",
+        "mask": {
+          "path": "locales/zh-Hans/texture-overlays/restorations/controller_move_mode.mask.png",
+          "sha256": "3aa026a86de92f9c7f0b4378b5653cf0673fbc00b01216c142c4693b14d701f6"
+        },
+        "patch": {
+          "path": "locales/zh-Hans/texture-overlays/restorations/controller_move_mode.patch.png",
+          "sha256": "d4d46a83e2ce9ca3c49367bcd7c6c04907bee18d66927855946cf5f11cb0d200"
+        }
+      },
+      "appearance": {
+        "kind": "source-style-v1",
+        "ink_box": [
+          0,
+          5,
+          182,
+          19
+        ],
+        "align": "center",
+        "gradient": [
+          [
+            0,
+            [
+              214,
+              214,
+              214,
+              255
+            ]
+          ],
+          [
+            56,
+            [
+              218,
+              217,
+              218,
+              255
+            ]
+          ],
+          [
+            111,
+            [
+              255,
+              255,
+              255,
+              255
+            ]
+          ],
+          [
+            167,
+            [
+              251,
+              249,
+              251,
+              255
+            ]
+          ],
+          [
+            222,
+            [
+              255,
+              255,
+              255,
+              255
+            ]
+          ],
+          [
+            278,
+            [
+              255,
+              255,
+              255,
+              255
+            ]
+          ],
+          [
+            333,
+            [
+              255,
+              255,
+              255,
+              255
+            ]
+          ],
+          [
+            389,
+            [
+              255,
+              251,
+              255,
+              255
+            ]
+          ],
+          [
+            444,
+            [
+              255,
+              251,
+              255,
+              255
+            ]
+          ],
+          [
+            500,
+            [
+              222,
+              223,
+              222,
+              255
+            ]
+          ],
+          [
+            556,
+            [
+              206,
+              211,
+              206,
+              255
+            ]
+          ],
+          [
+            611,
+            [
+              198,
+              203,
+              198,
+              255
+            ]
+          ],
+          [
+            667,
+            [
+              198,
+              203,
+              198,
+              255
+            ]
+          ],
+          [
+            722,
+            [
+              198,
+              203,
+              198,
+              255
+            ]
+          ],
+          [
+            778,
+            [
+              189,
+              190,
+              189,
+              255
+            ]
+          ],
+          [
+            833,
+            [
+              173,
+              174,
+              173,
+              255
+            ]
+          ],
+          [
+            889,
+            [
+              156,
+              158,
+              156,
+              255
+            ]
+          ],
+          [
+            944,
+            [
+              156,
+              154,
+              156,
+              255
+            ]
+          ],
+          [
+            1000,
+            [
+              148,
+              148,
+              148,
+              255
+            ]
+          ]
+        ],
+        "outline": [
+          12,
+          12,
+          12,
+          170
+        ],
+        "outline_width": 0.2,
+        "glow": [
+          220,
+          220,
+          220,
+          70
+        ],
+        "glow_radius": 0.5,
+        "shadow": [
+          0,
+          0,
+          0,
+          80
+        ],
+        "shadow_offset": [
+          1,
+          1
+        ],
+        "shadow_radius": 0.7,
+        "italic": 0,
+        "tracking": 0,
+        "weight": 0,
+        "motion": 0
+      }
+    },
+    {
+      "id": "controller_world_map",
+      "text": "显示世界地图",
+      "rect": [
+        372,
+        48,
+        120,
+        32
+      ],
+      "font_size": 18,
+      "align": "center",
+      "ink_padding": {
+        "x": 2,
+        "y": 1
+      },
+      "font": {
+        "path": "build/font-source/NotoSansCJKsc-Regular.otf",
+        "sha256": "2c76254f6fc379fddfce0a7e84fb5385bb135d3e399294f6eeb6680d0365b74b"
+      },
+      "style": {
+        "fill": [
+          245,
+          245,
+          245,
+          255
+        ],
+        "stroke_fill": [
+          0,
+          0,
+          0,
+          240
+        ],
+        "shadow_fill": [
+          0,
+          0,
+          0,
+          150
+        ]
+      },
+      "restoration": {
+        "source_rgba_sha256": "369cd366feab8b68cc56529f9c561c2163c3a7b1eed99b99cf5e58f27b8fe28e",
+        "mask": {
+          "path": "locales/zh-Hans/texture-overlays/restorations/controller_world_map.mask.png",
+          "sha256": "959193e2d0bc6fb097dd5db92b360e03810e9edaf08ecaa51460c911e606f0e4"
+        },
+        "patch": {
+          "path": "locales/zh-Hans/texture-overlays/restorations/controller_world_map.patch.png",
+          "sha256": "2d1f6882a5b8a367461ef7238a16e5460645491cd8e89a72d2e0a679269522f9"
+        }
+      },
+      "appearance": {
+        "kind": "source-style-v1",
+        "ink_box": [
+          0,
+          4,
+          118,
+          19
+        ],
+        "align": "center",
+        "gradient": [
+          [
+            0,
+            [
+              208,
+              211,
+              208,
+              255
+            ]
+          ],
+          [
+            56,
+            [
+              247,
+              251,
+              247,
+              255
+            ]
+          ],
+          [
+            111,
+            [
+              247,
+              251,
+              247,
+              255
+            ]
+          ],
+          [
+            167,
+            [
+              255,
+              255,
+              255,
+              255
+            ]
+          ],
+          [
+            222,
+            [
+              255,
+              255,
+              255,
+              255
+            ]
+          ],
+          [
+            278,
+            [
+              255,
+              255,
+              255,
+              255
+            ]
+          ],
+          [
+            333,
+            [
+              255,
+              255,
+              255,
+              255
+            ]
+          ],
+          [
+            389,
+            [
+              255,
+              255,
+              255,
+              255
+            ]
+          ],
+          [
+            444,
+            [
+              239,
+              239,
+              239,
+              255
+            ]
+          ],
+          [
+            500,
+            [
+              239,
+              237,
+              239,
+              255
+            ]
+          ],
+          [
+            556,
+            [
+              239,
+              235,
+              239,
+              255
+            ]
+          ],
+          [
+            611,
+            [
+              239,
+              235,
+              239,
+              255
+            ]
+          ],
+          [
+            667,
+            [
+              185,
+              184,
+              185,
+              255
+            ]
+          ],
+          [
+            722,
+            [
+              181,
+              182,
+              181,
+              255
+            ]
+          ],
+          [
+            778,
+            [
+              181,
+              182,
+              181,
+              255
+            ]
+          ],
+          [
+            833,
+            [
+              160,
+              158,
+              160,
+              255
+            ]
+          ],
+          [
+            889,
+            [
+              148,
+              150,
+              148,
+              255
+            ]
+          ],
+          [
+            944,
+            [
+              148,
+              146,
+              148,
+              255
+            ]
+          ],
+          [
+            1000,
+            [
+              140,
+              140,
+              140,
+              255
+            ]
+          ]
+        ],
+        "outline": [
+          12,
+          12,
+          12,
+          170
+        ],
+        "outline_width": 0.2,
+        "glow": [
+          220,
+          220,
+          220,
+          70
+        ],
+        "glow_radius": 0.5,
+        "shadow": [
+          0,
+          0,
+          0,
+          80
+        ],
+        "shadow_offset": [
+          1,
+          1
+        ],
+        "shadow_radius": 0.7,
+        "italic": 0,
+        "tracking": 0,
+        "weight": 0,
+        "motion": 0
+      }
+    },
+    {
+      "id": "controller_action_list",
+      "text": "查看技能／场景动作物品列表",
+      "rect": [
+        612,
+        36,
+        272,
+        40
+      ],
+      "font_size": 18,
+      "align": "center",
+      "ink_padding": {
+        "x": 2,
+        "y": 1
+      },
+      "font": {
+        "path": "build/font-source/NotoSansCJKsc-Regular.otf",
+        "sha256": "2c76254f6fc379fddfce0a7e84fb5385bb135d3e399294f6eeb6680d0365b74b"
+      },
+      "style": {
+        "fill": [
+          245,
+          245,
+          245,
+          255
+        ],
+        "stroke_fill": [
+          0,
+          0,
+          0,
+          240
+        ],
+        "shadow_fill": [
+          0,
+          0,
+          0,
+          150
+        ]
+      },
+      "restoration": {
+        "source_rgba_sha256": "eca920d4b62b29d849df57db92db8da06552e958475d831423f1489c73e86440",
+        "mask": {
+          "path": "locales/zh-Hans/texture-overlays/restorations/controller_action_list-v8.mask.png",
+          "sha256": "3a02da05143db4183bf771e61c6106d7c4b14eeefc41e00e980042a04aa6ee9a"
+        },
+        "patch": {
+          "path": "locales/zh-Hans/texture-overlays/restorations/controller_action_list-v8.patch.png",
+          "sha256": "91e98a607e8edabcf4e719652d9bfd412c65c156fedd490ea8f69261d86c4872"
+        }
+      },
+      "appearance": {
+        "kind": "source-style-v1",
+        "ink_box": [
+          0,
+          6,
+          270,
+          19
+        ],
+        "align": "center",
+        "gradient": [
+          [
+            0,
+            [
+              197,
+              197,
+              197,
+              255
+            ]
+          ],
+          [
+            56,
+            [
+              222,
+              223,
+              222,
+              255
+            ]
+          ],
+          [
+            111,
+            [
+              255,
+              255,
+              255,
+              255
+            ]
+          ],
+          [
+            167,
+            [
+              255,
+              255,
+              255,
+              255
+            ]
+          ],
+          [
+            222,
+            [
+              255,
+              255,
+              255,
+              255
+            ]
+          ],
+          [
+            278,
+            [
+              255,
+              255,
+              255,
+              255
+            ]
+          ],
+          [
+            333,
+            [
+              255,
+              251,
+              255,
+              255
+            ]
+          ],
+          [
+            389,
+            [
+              255,
+              251,
+              255,
+              255
+            ]
+          ],
+          [
+            444,
+            [
+              247,
+              251,
+              247,
+              255
+            ]
+          ],
+          [
+            500,
+            [
+              247,
+              243,
+              247,
+              255
+            ]
+          ],
+          [
+            556,
+            [
+              222,
+              219,
+              222,
+              255
+            ]
+          ],
+          [
+            611,
+            [
+              222,
+              219,
+              222,
+              255
+            ]
+          ],
+          [
+            667,
+            [
+              206,
+              211,
+              206,
+              255
+            ]
+          ],
+          [
+            722,
+            [
+              194,
+              192,
+              194,
+              255
+            ]
+          ],
+          [
+            778,
+            [
+              165,
+              166,
+              165,
+              255
+            ]
+          ],
+          [
+            833,
+            [
+              165,
+              166,
+              165,
+              255
+            ]
+          ],
+          [
+            889,
+            [
+              165,
+              166,
+              165,
+              255
+            ]
+          ],
+          [
+            944,
+            [
+              165,
+              166,
+              165,
+              255
+            ]
+          ],
+          [
+            1000,
+            [
+              156,
+              158,
+              156,
+              255
+            ]
+          ]
+        ],
+        "outline": [
+          12,
+          12,
+          12,
+          170
+        ],
+        "outline_width": 0.2,
+        "glow": [
+          220,
+          220,
+          220,
+          70
+        ],
+        "glow_radius": 0.5,
+        "shadow": [
+          0,
+          0,
+          0,
+          80
+        ],
+        "shadow_offset": [
+          1,
+          1
+        ],
+        "shadow_radius": 0.7,
+        "italic": 0,
+        "tracking": 0,
+        "weight": 0,
+        "motion": 0
+      }
+    },
+    {
+      "id": "controller_target_left",
+      "text": "切换目标",
+      "rect": [
+        176,
+        100,
+        104,
+        36
+      ],
+      "font_size": 18,
+      "align": "center",
+      "ink_padding": {
+        "x": 2,
+        "y": 1
+      },
+      "font": {
+        "path": "build/font-source/NotoSansCJKsc-Regular.otf",
+        "sha256": "2c76254f6fc379fddfce0a7e84fb5385bb135d3e399294f6eeb6680d0365b74b"
+      },
+      "style": {
+        "fill": [
+          245,
+          245,
+          245,
+          255
+        ],
+        "stroke_fill": [
+          0,
+          0,
+          0,
+          240
+        ],
+        "shadow_fill": [
+          0,
+          0,
+          0,
+          150
+        ]
+      },
+      "restoration": {
+        "source_rgba_sha256": "2e5a6e143e7d4ac0f0aff40c509c31b3566f873cd53f10ff092b6fc363db6281",
+        "mask": {
+          "path": "locales/zh-Hans/texture-overlays/restorations/controller_target_left.mask.png",
+          "sha256": "8cec02c1db9da7ff01460b1844e60364d177ec6c76a6e202124fb14a2365b3ee"
+        },
+        "patch": {
+          "path": "locales/zh-Hans/texture-overlays/restorations/controller_target_left.patch.png",
+          "sha256": "39c79f7f13f7baa317d5a9c2b4b1ab250b43eff3dd2699993f16b937b83c90e8"
+        }
+      },
+      "appearance": {
+        "kind": "source-style-v1",
+        "ink_box": [
+          2,
+          9,
+          98,
+          19
+        ],
+        "align": "center",
+        "gradient": [
+          [
+            0,
+            [
+              222,
+              223,
+              222,
+              255
+            ]
+          ],
+          [
+            56,
+            [
+              222,
+              223,
+              222,
+              255
+            ]
+          ],
+          [
+            111,
+            [
+              255,
+              255,
+              255,
+              255
+            ]
+          ],
+          [
+            167,
+            [
+              255,
+              255,
+              255,
+              255
+            ]
+          ],
+          [
+            222,
+            [
+              255,
+              255,
+              255,
+              255
+            ]
+          ],
+          [
+            278,
+            [
+              255,
+              255,
+              255,
+              255
+            ]
+          ],
+          [
+            333,
+            [
+              255,
+              251,
+              255,
+              255
+            ]
+          ],
+          [
+            389,
+            [
+              255,
+              251,
+              255,
+              255
+            ]
+          ],
+          [
+            444,
+            [
+              255,
+              251,
+              255,
+              255
+            ]
+          ],
+          [
+            500,
+            [
+              247,
+              251,
+              247,
+              255
+            ]
+          ],
+          [
+            556,
+            [
+              231,
+              231,
+              231,
+              255
+            ]
+          ],
+          [
+            611,
+            [
+              214,
+              215,
+              214,
+              255
+            ]
+          ],
+          [
+            667,
+            [
+              206,
+              205,
+              206,
+              255
+            ]
+          ],
+          [
+            722,
+            [
+              206,
+              203,
+              206,
+              255
+            ]
+          ],
+          [
+            778,
+            [
+              173,
+              174,
+              173,
+              255
+            ]
+          ],
+          [
+            833,
+            [
+              173,
+              174,
+              173,
+              255
+            ]
+          ],
+          [
+            889,
+            [
+              165,
+              170,
+              165,
+              255
+            ]
+          ],
+          [
+            944,
+            [
+              156,
+              158,
+              156,
+              255
+            ]
+          ],
+          [
+            1000,
+            [
+              152,
+              154,
+              152,
+              255
+            ]
+          ]
+        ],
+        "outline": [
+          12,
+          12,
+          12,
+          170
+        ],
+        "outline_width": 0.2,
+        "glow": [
+          220,
+          220,
+          220,
+          70
+        ],
+        "glow_radius": 0.5,
+        "shadow": [
+          0,
+          0,
+          0,
+          80
+        ],
+        "shadow_offset": [
+          1,
+          1
+        ],
+        "shadow_radius": 0.7,
+        "italic": 0,
+        "tracking": 0,
+        "weight": 0,
+        "motion": 0
+      }
+    },
+    {
+      "id": "controller_target_right",
+      "text": "切换目标",
+      "rect": [
+        756,
+        108,
+        100,
+        40
+      ],
+      "font_size": 18,
+      "align": "center",
+      "ink_padding": {
+        "x": 2,
+        "y": 1
+      },
+      "font": {
+        "path": "build/font-source/NotoSansCJKsc-Regular.otf",
+        "sha256": "2c76254f6fc379fddfce0a7e84fb5385bb135d3e399294f6eeb6680d0365b74b"
+      },
+      "style": {
+        "fill": [
+          245,
+          245,
+          245,
+          255
+        ],
+        "stroke_fill": [
+          0,
+          0,
+          0,
+          240
+        ],
+        "shadow_fill": [
+          0,
+          0,
+          0,
+          150
+        ]
+      },
+      "restoration": {
+        "source_rgba_sha256": "2ae711b06aaf7951435a17ffce382fe20d799dc093c6fa3f755270f75c5b5d49",
+        "mask": {
+          "path": "locales/zh-Hans/texture-overlays/restorations/controller_target_right.mask.png",
+          "sha256": "6a219ea97d46aa6c7d0285dd618df8dce717bdc810332dad90ff7f346a6b5bc1"
+        },
+        "patch": {
+          "path": "locales/zh-Hans/texture-overlays/restorations/controller_target_right.patch.png",
+          "sha256": "98928020763ad42e1da41e8c71f02d1f4b725fd618c022a890d3f0ba3fc12a33"
+        }
+      },
+      "appearance": {
+        "kind": "source-style-v1",
+        "ink_box": [
+          0,
+          6,
+          98,
+          19
+        ],
+        "align": "center",
+        "gradient": [
+          [
+            0,
+            [
+              222,
+              223,
+              222,
+              255
+            ]
+          ],
+          [
+            56,
+            [
+              222,
+              223,
+              222,
+              255
+            ]
+          ],
+          [
+            111,
+            [
+              255,
+              255,
+              255,
+              255
+            ]
+          ],
+          [
+            167,
+            [
+              255,
+              255,
+              255,
+              255
+            ]
+          ],
+          [
+            222,
+            [
+              255,
+              255,
+              255,
+              255
+            ]
+          ],
+          [
+            278,
+            [
+              255,
+              255,
+              255,
+              255
+            ]
+          ],
+          [
+            333,
+            [
+              255,
+              251,
+              255,
+              255
+            ]
+          ],
+          [
+            389,
+            [
+              255,
+              251,
+              255,
+              255
+            ]
+          ],
+          [
+            444,
+            [
+              255,
+              251,
+              255,
+              255
+            ]
+          ],
+          [
+            500,
+            [
+              247,
+              251,
+              247,
+              255
+            ]
+          ],
+          [
+            556,
+            [
+              231,
+              231,
+              231,
+              255
+            ]
+          ],
+          [
+            611,
+            [
+              214,
+              215,
+              214,
+              255
+            ]
+          ],
+          [
+            667,
+            [
+              206,
+              205,
+              206,
+              255
+            ]
+          ],
+          [
+            722,
+            [
+              206,
+              203,
+              206,
+              255
+            ]
+          ],
+          [
+            778,
+            [
+              173,
+              174,
+              173,
+              255
+            ]
+          ],
+          [
+            833,
+            [
+              173,
+              174,
+              173,
+              255
+            ]
+          ],
+          [
+            889,
+            [
+              165,
+              170,
+              165,
+              255
+            ]
+          ],
+          [
+            944,
+            [
+              156,
+              158,
+              156,
+              255
+            ]
+          ],
+          [
+            1000,
+            [
+              152,
+              154,
+              152,
+              255
+            ]
+          ]
+        ],
+        "outline": [
+          12,
+          12,
+          12,
+          170
+        ],
+        "outline_width": 0.2,
+        "glow": [
+          220,
+          220,
+          220,
+          70
+        ],
+        "glow_radius": 0.5,
+        "shadow": [
+          0,
+          0,
+          0,
+          80
+        ],
+        "shadow_offset": [
+          1,
+          1
+        ],
+        "shadow_radius": 0.7,
+        "italic": 0,
+        "tracking": 0,
+        "weight": 0,
+        "motion": 0
+      }
+    },
+    {
+      "id": "controller_use_skill",
+      "text": "使用技能／物品",
+      "rect": [
+        488,
+        84,
+        160,
+        36
+      ],
+      "font_size": 18,
+      "align": "center",
+      "ink_padding": {
+        "x": 2,
+        "y": 1
+      },
+      "font": {
+        "path": "build/font-source/NotoSansCJKsc-Regular.otf",
+        "sha256": "2c76254f6fc379fddfce0a7e84fb5385bb135d3e399294f6eeb6680d0365b74b"
+      },
+      "style": {
+        "fill": [
+          245,
+          245,
+          245,
+          255
+        ],
+        "stroke_fill": [
+          0,
+          0,
+          0,
+          240
+        ],
+        "shadow_fill": [
+          0,
+          0,
+          0,
+          150
+        ]
+      },
+      "restoration": {
+        "source_rgba_sha256": "0938ed54d8c66417014320be58dce0f0b660ddc091197e1c74183945481f6996",
+        "mask": {
+          "path": "locales/zh-Hans/texture-overlays/restorations/controller_use_skill.mask.png",
+          "sha256": "d6f9991757e503c9fa94bfe31de24495011015d3a8168b27bb27f650cf1355f2"
+        },
+        "patch": {
+          "path": "locales/zh-Hans/texture-overlays/restorations/controller_use_skill.patch.png",
+          "sha256": "8bfb9e1a7f882f9028a5af1a0c51fbd35d031d5abcb6d85be2e2b3b5cbe50104"
+        }
+      },
+      "appearance": {
+        "kind": "source-style-v1",
+        "ink_box": [
+          0,
+          6,
+          158,
+          19
+        ],
+        "align": "center",
+        "gradient": [
+          [
+            0,
+            [
+              212,
+              213,
+              212,
+              255
+            ]
+          ],
+          [
+            56,
+            [
+              255,
+              255,
+              255,
+              255
+            ]
+          ],
+          [
+            111,
+            [
+              255,
+              255,
+              255,
+              255
+            ]
+          ],
+          [
+            167,
+            [
+              255,
+              255,
+              255,
+              255
+            ]
+          ],
+          [
+            222,
+            [
+              255,
+              255,
+              255,
+              255
+            ]
+          ],
+          [
+            278,
+            [
+              255,
+              255,
+              255,
+              255
+            ]
+          ],
+          [
+            333,
+            [
+              255,
+              251,
+              255,
+              255
+            ]
+          ],
+          [
+            389,
+            [
+              255,
+              251,
+              255,
+              255
+            ]
+          ],
+          [
+            444,
+            [
+              255,
+              251,
+              255,
+              255
+            ]
+          ],
+          [
+            500,
+            [
+              255,
+              251,
+              255,
+              255
+            ]
+          ],
+          [
+            556,
+            [
+              231,
+              227,
+              231,
+              255
+            ]
+          ],
+          [
+            611,
+            [
+              222,
+              223,
+              222,
+              255
+            ]
+          ],
+          [
+            667,
+            [
+              222,
+              219,
+              222,
+              255
+            ]
+          ],
+          [
+            722,
+            [
+              206,
+              207,
+              206,
+              255
+            ]
+          ],
+          [
+            778,
+            [
+              165,
+              166,
+              165,
+              255
+            ]
+          ],
+          [
+            833,
+            [
+              165,
+              166,
+              165,
+              255
+            ]
+          ],
+          [
+            889,
+            [
+              173,
+              174,
+              173,
+              255
+            ]
+          ],
+          [
+            944,
+            [
+              173,
+              174,
+              173,
+              255
+            ]
+          ],
+          [
+            1000,
+            [
+              160,
+              162,
+              160,
+              255
+            ]
+          ]
+        ],
+        "outline": [
+          12,
+          12,
+          12,
+          170
+        ],
+        "outline_width": 0.2,
+        "glow": [
+          220,
+          220,
+          220,
+          70
+        ],
+        "glow_radius": 0.5,
+        "shadow": [
+          0,
+          0,
+          0,
+          80
+        ],
+        "shadow_offset": [
+          1,
+          1
+        ],
+        "shadow_radius": 0.7,
+        "italic": 0,
+        "tracking": 0,
+        "weight": 0,
+        "motion": 0
+      }
+    },
+    {
+      "id": "controller_battle_menu",
+      "text": "显示战斗菜单",
+      "rect": [
+        756,
+        204,
+        132,
+        36
+      ],
+      "font_size": 18,
+      "align": "center",
+      "ink_padding": {
+        "x": 2,
+        "y": 1
+      },
+      "font": {
+        "path": "build/font-source/NotoSansCJKsc-Regular.otf",
+        "sha256": "2c76254f6fc379fddfce0a7e84fb5385bb135d3e399294f6eeb6680d0365b74b"
+      },
+      "style": {
+        "fill": [
+          245,
+          245,
+          245,
+          255
+        ],
+        "stroke_fill": [
+          0,
+          0,
+          0,
+          240
+        ],
+        "shadow_fill": [
+          0,
+          0,
+          0,
+          150
+        ]
+      },
+      "restoration": {
+        "source_rgba_sha256": "0d11ee58e44505ab961b93cb3b93b8c90b31a6783a88cd4866a4e6aa1242d107",
+        "mask": {
+          "path": "locales/zh-Hans/texture-overlays/restorations/controller_battle_menu.mask.png",
+          "sha256": "5fa762bfc184ece3dd45c892d0edf3bdb2f4d8b0a27c99fbfefe669caac8364a"
+        },
+        "patch": {
+          "path": "locales/zh-Hans/texture-overlays/restorations/controller_battle_menu.patch.png",
+          "sha256": "5c946f385cfae3162102a4f9e624ff06d1bda255783f826e9d8e15303d47917f"
+        }
+      },
+      "appearance": {
+        "kind": "source-style-v1",
+        "ink_box": [
+          0,
+          4,
+          130,
+          19
+        ],
+        "align": "center",
+        "gradient": [
+          [
+            0,
+            [
+              214,
+              214,
+              214,
+              255
+            ]
+          ],
+          [
+            56,
+            [
+              255,
+              255,
+              255,
+              255
+            ]
+          ],
+          [
+            111,
+            [
+              255,
+              255,
+              255,
+              255
+            ]
+          ],
+          [
+            167,
+            [
+              255,
+              255,
+              255,
+              255
+            ]
+          ],
+          [
+            222,
+            [
+              255,
+              255,
+              255,
+              255
+            ]
+          ],
+          [
+            278,
+            [
+              255,
+              255,
+              255,
+              255
+            ]
+          ],
+          [
+            333,
+            [
+              255,
+              255,
+              255,
+              255
+            ]
+          ],
+          [
+            389,
+            [
+              255,
+              255,
+              255,
+              255
+            ]
+          ],
+          [
+            444,
+            [
+              247,
+              247,
+              247,
+              255
+            ]
+          ],
+          [
+            500,
+            [
+              239,
+              235,
+              239,
+              255
+            ]
+          ],
+          [
+            556,
+            [
+              239,
+              235,
+              239,
+              255
+            ]
+          ],
+          [
+            611,
+            [
+              231,
+              235,
+              231,
+              255
+            ]
+          ],
+          [
+            667,
+            [
+              189,
+              190,
+              189,
+              255
+            ]
+          ],
+          [
+            722,
+            [
+              189,
+              190,
+              189,
+              255
+            ]
+          ],
+          [
+            778,
+            [
+              189,
+              190,
+              189,
+              255
+            ]
+          ],
+          [
+            833,
+            [
+              189,
+              190,
+              189,
+              255
+            ]
+          ],
+          [
+            889,
+            [
+              156,
+              158,
+              156,
+              255
+            ]
+          ],
+          [
+            944,
+            [
+              156,
+              158,
+              156,
+              255
+            ]
+          ],
+          [
+            1000,
+            [
+              152,
+              152,
+              152,
+              255
+            ]
+          ]
+        ],
+        "outline": [
+          12,
+          12,
+          12,
+          170
+        ],
+        "outline_width": 0.2,
+        "glow": [
+          220,
+          220,
+          220,
+          70
+        ],
+        "glow_radius": 0.5,
+        "shadow": [
+          0,
+          0,
+          0,
+          80
+        ],
+        "shadow_offset": [
+          1,
+          1
+        ],
+        "shadow_radius": 0.7,
+        "italic": 0,
+        "tracking": 0,
+        "weight": 0,
+        "motion": 0
+      }
+    },
+    {
+      "id": "controller_cancel_unique",
+      "text": "取消／使用固有技",
+      "rect": [
+        780,
+        260,
+        176,
+        40
+      ],
+      "font_size": 18,
+      "align": "center",
+      "ink_padding": {
+        "x": 2,
+        "y": 1
+      },
+      "font": {
+        "path": "build/font-source/NotoSansCJKsc-Regular.otf",
+        "sha256": "2c76254f6fc379fddfce0a7e84fb5385bb135d3e399294f6eeb6680d0365b74b"
+      },
+      "style": {
+        "fill": [
+          245,
+          245,
+          245,
+          255
+        ],
+        "stroke_fill": [
+          0,
+          0,
+          0,
+          240
+        ],
+        "shadow_fill": [
+          0,
+          0,
+          0,
+          150
+        ]
+      },
+      "restoration": {
+        "source_rgba_sha256": "9fc8eaa0d26f120d01c2ba2805be05d5c09f6cdc8d10a6a2868a729f5512d110",
+        "mask": {
+          "path": "locales/zh-Hans/texture-overlays/restorations/controller_cancel_unique.mask.png",
+          "sha256": "54babb6576cc44a9e36f5e0f0be2580e9f05da80e3162b6bc9be9488284ad0ce"
+        },
+        "patch": {
+          "path": "locales/zh-Hans/texture-overlays/restorations/controller_cancel_unique.patch.png",
+          "sha256": "942bb5588bb142efaf52290d920ffeaff1ef7f88569566fa8a9aa852fd56987f"
+        }
+      },
+      "appearance": {
+        "kind": "source-style-v1",
+        "ink_box": [
+          0,
+          5,
+          174,
+          19
+        ],
+        "align": "center",
+        "gradient": [
+          [
+            0,
+            [
+              216,
+              214,
+              216,
+              255
+            ]
+          ],
+          [
+            56,
+            [
+              230,
+              231,
+              230,
+              255
+            ]
+          ],
+          [
+            111,
+            [
+              255,
+              251,
+              255,
+              255
+            ]
+          ],
+          [
+            167,
+            [
+              247,
+              251,
+              247,
+              255
+            ]
+          ],
+          [
+            222,
+            [
+              255,
+              255,
+              255,
+              255
+            ]
+          ],
+          [
+            278,
+            [
+              255,
+              251,
+              255,
+              255
+            ]
+          ],
+          [
+            333,
+            [
+              255,
+              251,
+              255,
+              255
+            ]
+          ],
+          [
+            389,
+            [
+              247,
+              247,
+              247,
+              255
+            ]
+          ],
+          [
+            444,
+            [
+              247,
+              243,
+              247,
+              255
+            ]
+          ],
+          [
+            500,
+            [
+              239,
+              243,
+              239,
+              255
+            ]
+          ],
+          [
+            556,
+            [
+              239,
+              235,
+              239,
+              255
+            ]
+          ],
+          [
+            611,
+            [
+              222,
+              219,
+              222,
+              255
+            ]
+          ],
+          [
+            667,
+            [
+              214,
+              211,
+              214,
+              255
+            ]
+          ],
+          [
+            722,
+            [
+              214,
+              211,
+              214,
+              255
+            ]
+          ],
+          [
+            778,
+            [
+              214,
+              211,
+              214,
+              255
+            ]
+          ],
+          [
+            833,
+            [
+              173,
+              178,
+              173,
+              255
+            ]
+          ],
+          [
+            889,
+            [
+              169,
+              168,
+              169,
+              255
+            ]
+          ],
+          [
+            944,
+            [
+              165,
+              166,
+              165,
+              255
+            ]
+          ],
+          [
+            1000,
+            [
+              162,
+              163,
+              162,
+              255
+            ]
+          ]
+        ],
+        "outline": [
+          12,
+          12,
+          12,
+          170
+        ],
+        "outline_width": 0.2,
+        "glow": [
+          220,
+          220,
+          220,
+          70
+        ],
+        "glow_radius": 0.5,
+        "shadow": [
+          0,
+          0,
+          0,
+          80
+        ],
+        "shadow_offset": [
+          1,
+          1
+        ],
+        "shadow_radius": 0.7,
+        "italic": 0,
+        "tracking": 0,
+        "weight": 0,
+        "motion": 0
+      }
+    },
+    {
+      "id": "controller_confirm_attack",
+      "text": "确认／使用普通攻击",
+      "rect": [
+        772,
+        320,
+        176,
+        40
+      ],
+      "font_size": 18,
+      "align": "center",
+      "ink_padding": {
+        "x": 2,
+        "y": 1
+      },
+      "font": {
+        "path": "build/font-source/NotoSansCJKsc-Regular.otf",
+        "sha256": "2c76254f6fc379fddfce0a7e84fb5385bb135d3e399294f6eeb6680d0365b74b"
+      },
+      "style": {
+        "fill": [
+          245,
+          245,
+          245,
+          255
+        ],
+        "stroke_fill": [
+          0,
+          0,
+          0,
+          240
+        ],
+        "shadow_fill": [
+          0,
+          0,
+          0,
+          150
+        ]
+      },
+      "restoration": {
+        "source_rgba_sha256": "a4e0501a1a5ca9f2a8a9e140846e639717d17315594b10968c9af630ee6c6c79",
+        "mask": {
+          "path": "locales/zh-Hans/texture-overlays/restorations/controller_confirm_attack.mask.png",
+          "sha256": "79009facfc37e3c0b9bc084b26162b6533748f1470e3b6cf8c30343f98dfe63a"
+        },
+        "patch": {
+          "path": "locales/zh-Hans/texture-overlays/restorations/controller_confirm_attack.patch.png",
+          "sha256": "a279988f00f1203c27d50c08c4cf4d21413ff13f0b3514552aee5ba90c83ca5d"
+        }
+      },
+      "appearance": {
+        "kind": "source-style-v1",
+        "ink_box": [
+          0,
+          7,
+          174,
+          19
+        ],
+        "align": "center",
+        "gradient": [
+          [
+            0,
+            [
+              228,
+              227,
+              228,
+              255
+            ]
+          ],
+          [
+            56,
+            [
+              239,
+              241,
+              239,
+              255
+            ]
+          ],
+          [
+            111,
+            [
+              247,
+              251,
+              247,
+              255
+            ]
+          ],
+          [
+            167,
+            [
+              247,
+              251,
+              247,
+              255
+            ]
+          ],
+          [
+            222,
+            [
+              255,
+              255,
+              255,
+              255
+            ]
+          ],
+          [
+            278,
+            [
+              255,
+              255,
+              255,
+              255
+            ]
+          ],
+          [
+            333,
+            [
+              255,
+              255,
+              255,
+              255
+            ]
+          ],
+          [
+            389,
+            [
+              247,
+              251,
+              247,
+              255
+            ]
+          ],
+          [
+            444,
+            [
+              247,
+              251,
+              247,
+              255
+            ]
+          ],
+          [
+            500,
+            [
+              239,
+              235,
+              239,
+              255
+            ]
+          ],
+          [
+            556,
+            [
+              231,
+              235,
+              231,
+              255
+            ]
+          ],
+          [
+            611,
+            [
+              231,
+              235,
+              231,
+              255
+            ]
+          ],
+          [
+            667,
+            [
+              214,
+              215,
+              214,
+              255
+            ]
+          ],
+          [
+            722,
+            [
+              189,
+              186,
+              189,
+              255
+            ]
+          ],
+          [
+            778,
+            [
+              181,
+              186,
+              181,
+              255
+            ]
+          ],
+          [
+            833,
+            [
+              181,
+              186,
+              181,
+              255
+            ]
+          ],
+          [
+            889,
+            [
+              181,
+              182,
+              181,
+              255
+            ]
+          ],
+          [
+            944,
+            [
+              156,
+              154,
+              156,
+              255
+            ]
+          ],
+          [
+            1000,
+            [
+              156,
+              154,
+              156,
+              255
+            ]
+          ]
+        ],
+        "outline": [
+          12,
+          12,
+          12,
+          170
+        ],
+        "outline_width": 0.2,
+        "glow": [
+          220,
+          220,
+          220,
+          70
+        ],
+        "glow_radius": 0.5,
+        "shadow": [
+          0,
+          0,
+          0,
+          80
+        ],
+        "shadow_offset": [
+          1,
+          1
+        ],
+        "shadow_radius": 0.7,
+        "italic": 0,
+        "tracking": 0,
+        "weight": 0,
+        "motion": 0
+      }
+    },
+    {
+      "id": "controller_move_dash",
+      "text": "移动角色（按下）冲刺",
+      "rect": [
+        140,
+        224,
+        128,
+        60
+      ],
+      "font_size": 18,
+      "align": "center",
+      "ink_padding": {
+        "x": 2,
+        "y": 1
+      },
+      "font": {
+        "path": "build/font-source/NotoSansCJKsc-Regular.otf",
+        "sha256": "2c76254f6fc379fddfce0a7e84fb5385bb135d3e399294f6eeb6680d0365b74b"
+      },
+      "style": {
+        "fill": [
+          245,
+          245,
+          245,
+          255
+        ],
+        "stroke_fill": [
+          0,
+          0,
+          0,
+          240
+        ],
+        "shadow_fill": [
+          0,
+          0,
+          0,
+          150
+        ]
+      },
+      "restoration": {
+        "source_rgba_sha256": "251b52dba2e8c6d905350f17126696a0b0cf66990887e6cf666ec265a5906eb0",
+        "mask": {
+          "path": "locales/zh-Hans/texture-overlays/restorations/controller_move_dash.mask.png",
+          "sha256": "5d94c01a2256a7a7d7b8e6550c269610e57821d3e8b0aca08d60bfb66c766acd"
+        },
+        "patch": {
+          "path": "locales/zh-Hans/texture-overlays/restorations/controller_move_dash.patch.png",
+          "sha256": "ee7caea2489e139609922306f3b1120ca26695f5b505cbce7e3f1243bf255ce5"
+        }
+      },
+      "line_breaks": [
+        4
+      ],
+      "appearance": {
+        "kind": "source-style-v1",
+        "ink_box": [
+          0,
+          8,
+          126,
+          42
+        ],
+        "align": "center",
+        "gradient": [
+          [
+            0,
+            [
+              234,
+              237,
+              234,
+              255
+            ]
+          ],
+          [
+            24,
+            [
+              239,
+              237,
+              239,
+              255
+            ]
+          ],
+          [
+            49,
+            [
+              247,
+              247,
+              247,
+              255
+            ]
+          ],
+          [
+            73,
+            [
+              247,
+              251,
+              247,
+              255
+            ]
+          ],
+          [
+            98,
+            [
+              247,
+              251,
+              247,
+              255
+            ]
+          ],
+          [
+            122,
+            [
+              247,
+              251,
+              247,
+              255
+            ]
+          ],
+          [
+            146,
+            [
+              255,
+              255,
+              255,
+              255
+            ]
+          ],
+          [
+            171,
+            [
+              255,
+              255,
+              255,
+              255
+            ]
+          ],
+          [
+            195,
+            [
+              247,
+              247,
+              247,
+              255
+            ]
+          ],
+          [
+            220,
+            [
+              222,
+              223,
+              222,
+              255
+            ]
+          ],
+          [
+            244,
+            [
+              222,
+              223,
+              222,
+              255
+            ]
+          ],
+          [
+            268,
+            [
+              247,
+              247,
+              247,
+              255
+            ]
+          ],
+          [
+            293,
+            [
+              255,
+              255,
+              255,
+              255
+            ]
+          ],
+          [
+            317,
+            [
+              255,
+              255,
+              255,
+              255
+            ]
+          ],
+          [
+            341,
+            [
+              255,
+              253,
+              255,
+              255
+            ]
+          ],
+          [
+            366,
+            [
+              255,
+              253,
+              255,
+              255
+            ]
+          ],
+          [
+            390,
+            [
+              247,
+              247,
+              247,
+              255
+            ]
+          ],
+          [
+            415,
+            [
+              247,
+              247,
+              247,
+              255
+            ]
+          ],
+          [
+            439,
+            [
+              247,
+              247,
+              247,
+              255
+            ]
+          ],
+          [
+            585,
+            [
+              214,
+              215,
+              214,
+              255
+            ]
+          ],
+          [
+            610,
+            [
+              214,
+              215,
+              214,
+              255
+            ]
+          ],
+          [
+            634,
+            [
+              214,
+              215,
+              214,
+              255
+            ]
+          ],
+          [
+            659,
+            [
+              198,
+              195,
+              198,
+              255
+            ]
+          ],
+          [
+            683,
+            [
+              198,
+              195,
+              198,
+              255
+            ]
+          ],
+          [
+            707,
+            [
+              198,
+              195,
+              198,
+              255
+            ]
+          ],
+          [
+            732,
+            [
+              194,
+              195,
+              194,
+              255
+            ]
+          ],
+          [
+            756,
+            [
+              189,
+              195,
+              189,
+              255
+            ]
+          ],
+          [
+            780,
+            [
+              173,
+              174,
+              173,
+              255
+            ]
+          ],
+          [
+            805,
+            [
+              173,
+              174,
+              173,
+              255
+            ]
+          ],
+          [
+            829,
+            [
+              165,
+              170,
+              165,
+              255
+            ]
+          ],
+          [
+            854,
+            [
+              156,
+              154,
+              156,
+              255
+            ]
+          ],
+          [
+            878,
+            [
+              156,
+              154,
+              156,
+              255
+            ]
+          ],
+          [
+            902,
+            [
+              156,
+              152,
+              156,
+              255
+            ]
+          ],
+          [
+            927,
+            [
+              156,
+              152,
+              156,
+              255
+            ]
+          ],
+          [
+            951,
+            [
+              156,
+              152,
+              156,
+              255
+            ]
+          ],
+          [
+            976,
+            [
+              148,
+              146,
+              148,
+              255
+            ]
+          ],
+          [
+            1000,
+            [
+              144,
+              144,
+              144,
+              255
+            ]
+          ]
+        ],
+        "outline": [
+          12,
+          12,
+          12,
+          170
+        ],
+        "outline_width": 0.2,
+        "glow": [
+          220,
+          220,
+          220,
+          70
+        ],
+        "glow_radius": 0.5,
+        "shadow": [
+          0,
+          0,
+          0,
+          80
+        ],
+        "shadow_offset": [
+          1,
+          1
+        ],
+        "shadow_radius": 0.7,
+        "italic": 0,
+        "tracking": 0,
+        "weight": 0,
+        "motion": 0
+      }
+    },
+    {
+      "id": "controller_leader_renkai",
+      "text": "切换队长发动连携奥义",
+      "rect": [
+        136,
+        332,
+        136,
+        56
+      ],
+      "font_size": 18,
+      "align": "center",
+      "ink_padding": {
+        "x": 2,
+        "y": 1
+      },
+      "font": {
+        "path": "build/font-source/NotoSansCJKsc-Regular.otf",
+        "sha256": "2c76254f6fc379fddfce0a7e84fb5385bb135d3e399294f6eeb6680d0365b74b"
+      },
+      "style": {
+        "fill": [
+          245,
+          245,
+          245,
+          255
+        ],
+        "stroke_fill": [
+          0,
+          0,
+          0,
+          240
+        ],
+        "shadow_fill": [
+          0,
+          0,
+          0,
+          150
+        ]
+      },
+      "restoration": {
+        "source_rgba_sha256": "050a9409ebb97a3faca0b6add8e14e3d058f540bf7ea2708aba38d61a6741aa7",
+        "mask": {
+          "path": "locales/zh-Hans/texture-overlays/restorations/controller_leader_renkai.mask.png",
+          "sha256": "e57dd8a79456769d941f801adc08c8cee1c461119d0064cdda5c07a7adbf70c7"
+        },
+        "patch": {
+          "path": "locales/zh-Hans/texture-overlays/restorations/controller_leader_renkai.patch.png",
+          "sha256": "7b635a6a9416b46f2c5a46ba80f5afb3a1c12adbfec459a082cc8bc39fe84208"
+        }
+      },
+      "line_breaks": [
+        4
+      ],
+      "appearance": {
+        "kind": "source-style-v1",
+        "ink_box": [
+          0,
+          4,
+          134,
+          41
+        ],
+        "align": "center",
+        "gradient": [
+          [
+            0,
+            [
+              206,
+              206,
+              206,
+              255
+            ]
+          ],
+          [
+            25,
+            [
+              239,
+              239,
+              239,
+              255
+            ]
+          ],
+          [
+            50,
+            [
+              239,
+              243,
+              239,
+              255
+            ]
+          ],
+          [
+            75,
+            [
+              255,
+              255,
+              255,
+              255
+            ]
+          ],
+          [
+            100,
+            [
+              255,
+              255,
+              255,
+              255
+            ]
+          ],
+          [
+            125,
+            [
+              255,
+              255,
+              255,
+              255
+            ]
+          ],
+          [
+            150,
+            [
+              255,
+              255,
+              255,
+              255
+            ]
+          ],
+          [
+            175,
+            [
+              255,
+              255,
+              255,
+              255
+            ]
+          ],
+          [
+            200,
+            [
+              255,
+              255,
+              255,
+              255
+            ]
+          ],
+          [
+            225,
+            [
+              255,
+              255,
+              255,
+              255
+            ]
+          ],
+          [
+            250,
+            [
+              255,
+              255,
+              255,
+              255
+            ]
+          ],
+          [
+            275,
+            [
+              255,
+              255,
+              255,
+              255
+            ]
+          ],
+          [
+            300,
+            [
+              255,
+              255,
+              255,
+              255
+            ]
+          ],
+          [
+            325,
+            [
+              255,
+              255,
+              255,
+              255
+            ]
+          ],
+          [
+            350,
+            [
+              255,
+              255,
+              255,
+              255
+            ]
+          ],
+          [
+            375,
+            [
+              247,
+              247,
+              247,
+              255
+            ]
+          ],
+          [
+            400,
+            [
+              231,
+              235,
+              231,
+              255
+            ]
+          ],
+          [
+            425,
+            [
+              231,
+              233,
+              231,
+              255
+            ]
+          ],
+          [
+            450,
+            [
+              222,
+              219,
+              222,
+              255
+            ]
+          ],
+          [
+            475,
+            [
+              164,
+              160,
+              164,
+              255
+            ]
+          ],
+          [
+            550,
+            [
+              164,
+              160,
+              164,
+              255
+            ]
+          ],
+          [
+            575,
+            [
+              206,
+              207,
+              206,
+              255
+            ]
+          ],
+          [
+            600,
+            [
+              214,
+              211,
+              214,
+              255
+            ]
+          ],
+          [
+            625,
+            [
+              214,
+              211,
+              214,
+              255
+            ]
+          ],
+          [
+            650,
+            [
+              206,
+              211,
+              206,
+              255
+            ]
+          ],
+          [
+            675,
+            [
+              206,
+              209,
+              206,
+              255
+            ]
+          ],
+          [
+            700,
+            [
+              189,
+              190,
+              189,
+              255
+            ]
+          ],
+          [
+            725,
+            [
+              189,
+              190,
+              189,
+              255
+            ]
+          ],
+          [
+            750,
+            [
+              189,
+              186,
+              189,
+              255
+            ]
+          ],
+          [
+            775,
+            [
+              189,
+              186,
+              189,
+              255
+            ]
+          ],
+          [
+            800,
+            [
+              173,
+              176,
+              173,
+              255
+            ]
+          ],
+          [
+            825,
+            [
+              173,
+              170,
+              173,
+              255
+            ]
+          ],
+          [
+            850,
+            [
+              173,
+              170,
+              173,
+              255
+            ]
+          ],
+          [
+            875,
+            [
+              173,
+              170,
+              173,
+              255
+            ]
+          ],
+          [
+            900,
+            [
+              156,
+              154,
+              156,
+              255
+            ]
+          ],
+          [
+            925,
+            [
+              156,
+              154,
+              156,
+              255
+            ]
+          ],
+          [
+            950,
+            [
+              156,
+              154,
+              156,
+              255
+            ]
+          ],
+          [
+            975,
+            [
+              156,
+              154,
+              156,
+              255
+            ]
+          ],
+          [
+            1000,
+            [
+              148,
+              148,
+              148,
+              255
+            ]
+          ]
+        ],
+        "outline": [
+          12,
+          12,
+          12,
+          170
+        ],
+        "outline_width": 0.2,
+        "glow": [
+          220,
+          220,
+          220,
+          70
+        ],
+        "glow_radius": 0.5,
+        "shadow": [
+          0,
+          0,
+          0,
+          80
+        ],
+        "shadow_offset": [
+          1,
+          1
+        ],
+        "shadow_radius": 0.7,
+        "italic": 0,
+        "tracking": 0,
+        "weight": 0,
+        "motion": 0
+      }
+    },
+    {
+      "id": "controller_main_menu",
+      "text": "显示主菜单",
+      "rect": [
+        416,
+        440,
+        136,
+        40
+      ],
+      "font_size": 18,
+      "align": "center",
+      "ink_padding": {
+        "x": 2,
+        "y": 1
+      },
+      "font": {
+        "path": "build/font-source/NotoSansCJKsc-Regular.otf",
+        "sha256": "2c76254f6fc379fddfce0a7e84fb5385bb135d3e399294f6eeb6680d0365b74b"
+      },
+      "style": {
+        "fill": [
+          245,
+          245,
+          245,
+          255
+        ],
+        "stroke_fill": [
+          0,
+          0,
+          0,
+          240
+        ],
+        "shadow_fill": [
+          0,
+          0,
+          0,
+          150
+        ]
+      },
+      "restoration": {
+        "source_rgba_sha256": "ca105d781bd723e0d9e3f4ed46872b556e4f7e1de53d99764d712e2562227c2b",
+        "mask": {
+          "path": "locales/zh-Hans/texture-overlays/restorations/controller_main_menu.mask.png",
+          "sha256": "b8d104dbf8cfa7b44323473423d962751ae50dd2a54983d3019cd088001f5445"
+        },
+        "patch": {
+          "path": "locales/zh-Hans/texture-overlays/restorations/controller_main_menu.patch.png",
+          "sha256": "ff5a5f1ebe85a034c5cecee2753375ca10aafd2edaaadf632061b4127ad5615e"
+        }
+      },
+      "appearance": {
+        "kind": "source-style-v1",
+        "ink_box": [
+          0,
+          6,
+          134,
+          19
+        ],
+        "align": "center",
+        "gradient": [
+          [
+            0,
+            [
+              224,
+              226,
+              224,
+              255
+            ]
+          ],
+          [
+            56,
+            [
+              226,
+              229,
+              226,
+              255
+            ]
+          ],
+          [
+            111,
+            [
+              255,
+              255,
+              255,
+              255
+            ]
+          ],
+          [
+            167,
+            [
+              255,
+              255,
+              255,
+              255
+            ]
+          ],
+          [
+            222,
+            [
+              255,
+              255,
+              255,
+              255
+            ]
+          ],
+          [
+            278,
+            [
+              255,
+              255,
+              255,
+              255
+            ]
+          ],
+          [
+            333,
+            [
+              255,
+              251,
+              255,
+              255
+            ]
+          ],
+          [
+            389,
+            [
+              251,
+              251,
+              251,
+              255
+            ]
+          ],
+          [
+            444,
+            [
+              251,
+              251,
+              251,
+              255
+            ]
+          ],
+          [
+            500,
+            [
+              247,
+              251,
+              247,
+              255
+            ]
+          ],
+          [
+            556,
+            [
+              231,
+              231,
+              231,
+              255
+            ]
+          ],
+          [
+            611,
+            [
+              231,
+              227,
+              231,
+              255
+            ]
+          ],
+          [
+            667,
+            [
+              214,
+              215,
+              214,
+              255
+            ]
+          ],
+          [
+            722,
+            [
+              168,
+              170,
+              168,
+              255
+            ]
+          ],
+          [
+            778,
+            [
+              173,
+              170,
+              173,
+              255
+            ]
+          ],
+          [
+            833,
+            [
+              165,
+              170,
+              165,
+              255
+            ]
+          ],
+          [
+            889,
+            [
+              165,
+              170,
+              165,
+              255
+            ]
+          ],
+          [
+            944,
+            [
+              165,
+              166,
+              165,
+              255
+            ]
+          ],
+          [
+            1000,
+            [
+              156,
+              156,
+              156,
+              255
+            ]
+          ]
+        ],
+        "outline": [
+          12,
+          12,
+          12,
+          170
+        ],
+        "outline_width": 0.2,
+        "glow": [
+          220,
+          220,
+          220,
+          70
+        ],
+        "glow_radius": 0.5,
+        "shadow": [
+          0,
+          0,
+          0,
+          80
+        ],
+        "shadow_offset": [
+          1,
+          1
+        ],
+        "shadow_radius": 0.7,
+        "italic": 0,
+        "tracking": 0,
+        "weight": 0,
+        "motion": 0
+      }
+    },
+    {
+      "id": "controller_camera",
+      "text": "移动镜头（按下）重置镜头",
+      "rect": [
+        568,
+        420,
+        120,
+        80
+      ],
+      "font_size": 18,
+      "align": "center",
+      "ink_padding": {
+        "x": 2,
+        "y": 1
+      },
+      "font": {
+        "path": "build/font-source/NotoSansCJKsc-Regular.otf",
+        "sha256": "2c76254f6fc379fddfce0a7e84fb5385bb135d3e399294f6eeb6680d0365b74b"
+      },
+      "style": {
+        "fill": [
+          245,
+          245,
+          245,
+          255
+        ],
+        "stroke_fill": [
+          0,
+          0,
+          0,
+          240
+        ],
+        "shadow_fill": [
+          0,
+          0,
+          0,
+          150
+        ]
+      },
+      "restoration": {
+        "source_rgba_sha256": "1eefce9aa4c60d37103867c3111daf78837b45f23d324e84c0b57913d164ad78",
+        "mask": {
+          "path": "locales/zh-Hans/texture-overlays/restorations/controller_camera.mask.png",
+          "sha256": "1e9031fb5f82810b57d4c2160453eb7614768c796ece950564a7d7ab50cc55f5"
+        },
+        "patch": {
+          "path": "locales/zh-Hans/texture-overlays/restorations/controller_camera.patch.png",
+          "sha256": "9344680986d5a680ad62582758cb57eccd57e66923f30689c00f14904020d531"
+        }
+      },
+      "line_breaks": [
+        4,
+        8
+      ],
+      "appearance": {
+        "kind": "source-style-v1",
+        "ink_box": [
+          0,
+          7,
+          118,
+          54
+        ],
+        "align": "center",
+        "gradient": [
+          [
+            0,
+            [
+              216,
+              216,
+              216,
+              255
+            ]
+          ],
+          [
+            19,
+            [
+              255,
+              255,
+              255,
+              255
+            ]
+          ],
+          [
+            38,
+            [
+              255,
+              255,
+              255,
+              255
+            ]
+          ],
+          [
+            57,
+            [
+              255,
+              255,
+              255,
+              255
+            ]
+          ],
+          [
+            75,
+            [
+              255,
+              255,
+              255,
+              255
+            ]
+          ],
+          [
+            94,
+            [
+              255,
+              255,
+              255,
+              255
+            ]
+          ],
+          [
+            113,
+            [
+              255,
+              255,
+              255,
+              255
+            ]
+          ],
+          [
+            132,
+            [
+              255,
+              255,
+              255,
+              255
+            ]
+          ],
+          [
+            151,
+            [
+              255,
+              255,
+              255,
+              255
+            ]
+          ],
+          [
+            170,
+            [
+              255,
+              255,
+              255,
+              255
+            ]
+          ],
+          [
+            189,
+            [
+              255,
+              255,
+              255,
+              255
+            ]
+          ],
+          [
+            208,
+            [
+              255,
+              255,
+              255,
+              255
+            ]
+          ],
+          [
+            226,
+            [
+              255,
+              255,
+              255,
+              255
+            ]
+          ],
+          [
+            245,
+            [
+              255,
+              255,
+              255,
+              255
+            ]
+          ],
+          [
+            264,
+            [
+              255,
+              255,
+              255,
+              255
+            ]
+          ],
+          [
+            283,
+            [
+              255,
+              255,
+              255,
+              255
+            ]
+          ],
+          [
+            302,
+            [
+              255,
+              255,
+              255,
+              255
+            ]
+          ],
+          [
+            321,
+            [
+              247,
+              247,
+              247,
+              255
+            ]
+          ],
+          [
+            340,
+            [
+              231,
+              231,
+              231,
+              255
+            ]
+          ],
+          [
+            396,
+            [
+              214,
+              215,
+              214,
+              255
+            ]
+          ],
+          [
+            415,
+            [
+              214,
+              215,
+              214,
+              255
+            ]
+          ],
+          [
+            434,
+            [
+              214,
+              215,
+              214,
+              255
+            ]
+          ],
+          [
+            453,
+            [
+              222,
+              223,
+              222,
+              255
+            ]
+          ],
+          [
+            472,
+            [
+              239,
+              239,
+              239,
+              255
+            ]
+          ],
+          [
+            491,
+            [
+              239,
+              239,
+              239,
+              255
+            ]
+          ],
+          [
+            509,
+            [
+              231,
+              231,
+              231,
+              255
+            ]
+          ],
+          [
+            528,
+            [
+              202,
+              199,
+              202,
+              255
+            ]
+          ],
+          [
+            547,
+            [
+              202,
+              199,
+              202,
+              255
+            ]
+          ],
+          [
+            566,
+            [
+              198,
+              195,
+              198,
+              255
+            ]
+          ],
+          [
+            585,
+            [
+              198,
+              195,
+              198,
+              255
+            ]
+          ],
+          [
+            604,
+            [
+              198,
+              195,
+              198,
+              255
+            ]
+          ],
+          [
+            623,
+            [
+              206,
+              203,
+              206,
+              255
+            ]
+          ],
+          [
+            642,
+            [
+              206,
+              203,
+              206,
+              255
+            ]
+          ],
+          [
+            660,
+            [
+              198,
+              199,
+              198,
+              255
+            ]
+          ],
+          [
+            679,
+            [
+              189,
+              195,
+              189,
+              255
+            ]
+          ],
+          [
+            698,
+            [
+              189,
+              195,
+              189,
+              255
+            ]
+          ],
+          [
+            717,
+            [
+              189,
+              195,
+              189,
+              255
+            ]
+          ],
+          [
+            736,
+            [
+              189,
+              190,
+              189,
+              255
+            ]
+          ],
+          [
+            755,
+            [
+              189,
+              186,
+              189,
+              255
+            ]
+          ],
+          [
+            774,
+            [
+              181,
+              178,
+              181,
+              255
+            ]
+          ],
+          [
+            792,
+            [
+              181,
+              178,
+              181,
+              255
+            ]
+          ],
+          [
+            811,
+            [
+              181,
+              178,
+              181,
+              255
+            ]
+          ],
+          [
+            830,
+            [
+              173,
+              174,
+              173,
+              255
+            ]
+          ],
+          [
+            849,
+            [
+              165,
+              166,
+              165,
+              255
+            ]
+          ],
+          [
+            868,
+            [
+              165,
+              166,
+              165,
+              255
+            ]
+          ],
+          [
+            887,
+            [
+              165,
+              166,
+              165,
+              255
+            ]
+          ],
+          [
+            906,
+            [
+              156,
+              158,
+              156,
+              255
+            ]
+          ],
+          [
+            925,
+            [
+              152,
+              154,
+              152,
+              255
+            ]
+          ],
+          [
+            943,
+            [
+              152,
+              154,
+              152,
+              255
+            ]
+          ],
+          [
+            962,
+            [
+              148,
+              150,
+              148,
+              255
+            ]
+          ],
+          [
+            981,
+            [
+              148,
+              150,
+              148,
+              255
+            ]
+          ],
+          [
+            1000,
+            [
+              140,
+              142,
+              140,
+              255
+            ]
+          ]
+        ],
+        "outline": [
+          12,
+          12,
+          12,
+          170
+        ],
+        "outline_width": 0.2,
+        "glow": [
+          220,
+          220,
+          220,
+          70
+        ],
+        "glow_radius": 0.5,
+        "shadow": [
+          0,
+          0,
+          0,
+          80
+        ],
+        "shadow_offset": [
+          1,
+          1
+        ],
+        "shadow_radius": 0.7,
+        "italic": 0,
+        "tracking": 0,
+        "weight": 0,
+        "motion": 0
+      }
+    }
+  ],
+  "sources": [
+    {
+      "path": "MC2Game/CookedXenon/UI_Field_Option_Control.xxx",
+      "discs": [
+        1,
+        2
+      ],
+      "original": {
+        "path": "build/poc-game/disc1/MC2Game/CookedXenon/UI_Field_Option_Control.xxx",
+        "sha256": "149191478e44bf8ebea59413ebe96a20fcf126fe64d18fbd7c59ea88c7e9a3d8"
+      },
+      "base": {
+        "path": "build/poc-game/disc1/MC2Game/CookedXenon/UI_Field_Option_Control.xxx",
+        "sha256": "149191478e44bf8ebea59413ebe96a20fcf126fe64d18fbd7c59ea88c7e9a3d8"
+      },
+      "textures": [
+        {
+          "object": "Img_Cont",
+          "regions": [
+            "controller_move_mode",
+            "controller_world_map",
+            "controller_action_list",
+            "controller_target_left",
+            "controller_target_right",
+            "controller_use_skill",
+            "controller_battle_menu",
+            "controller_cancel_unique",
+            "controller_confirm_attack",
+            "controller_move_dash",
+            "controller_leader_renkai",
+            "controller_main_menu",
+            "controller_camera"
+          ],
+          "image_id": "controller_guide",
+          "payload_sha256": "97269b9f013491a421f5f348ce1e4de0d4b5c2441a718bbc72e14e2057bf8899",
+          "tiled_sha256": "f975a8dcc84cf1cf5a786e30b3dfc467c2fbae660f47e4a66bbe920b35795ad7",
+          "dimensions": [
+            1024,
+            512
+          ],
+          "profile": {
+            "kind": "xbox-inline-bc-v1",
+            "format": 7
+          },
+          "channel_mode": "rgba",
+          "preserve_unchanged_blocks": true,
+          "protected_regions": [
+            {
+              "id": "original_controller_body_and_buttons",
+              "rect": [
+                280,
+                120,
+                476,
+                296
+              ],
+              "rgba_sha256": "34df7bdf1293f0a865f6f18955ba38e3dbb05c1ef85043c564364a7e994b7a99"
+            }
+          ],
+          "alpha_encoding": "adaptive-range"
+        }
+      ]
+    }
+  ]
+}

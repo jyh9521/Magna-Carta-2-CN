@@ -1638,3 +1638,11 @@ remain separate confidence levels. Existing parser/coverage rules are unchanged.
 描边/阴影、共享状态几何、英文保护区及光学字形框见 PHASE_319_SECOND_IMAGE_FEEDBACK.md。
 
 `source-style-v1` 以有界逐行RGBA渐变、原生墨迹框、斜切/字距、缩小字段和独立光晕重建文字，不更改旧层默认输出。`preserve-source-v1` 只有在原生tiles完全不变时保留原导出，普通no-op仍拒绝。地图稀疏mask、BC块和原按钮/箭头守卫仍强制执行。实现、复审原生PNG来源及复现见 [阶段318](docs/PHASE_318_IMAGE_STYLE_REVISIONS.md)。
+
+## 阶段328动态字形重排（Verified offline）
+
+`reface_font` 用显式字体/字号/码点计划重排已映射字形，保留remap、未选glyph和导出。
+必须同时改tagged/native FontCharacter，Xbox BC3写入和回读均做16位字节交换。
+新字形按4px单元避让保留字形；七个别名共18066字形独立原生解码核验。
+全字库光学尺寸、字幕31px字格和1px黑影、控制图223块有界移植及未验收项见
+[阶段328](docs/PHASE_328_DYNAMIC_FONT_AND_TEXT.md)。

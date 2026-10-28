@@ -22,7 +22,7 @@ class VisitorTests(unittest.TestCase):
   ts=[e['translation'] for e in self.p['entries']];self.assertTrue(any('150年' in t for t in ts));self.assertTrue(any('祖先吧？' in t for t in ts));self.assertTrue(any('我倒觉得' in t and '本人' in t for t in ts));self.assertTrue(any('似乎' in t and '平息' in t for t in ts));self.assertIn('我以为她是北部军的残党，起初本来想解决掉她，',ts)
  def test_shared_candidates_reused(self):
   ts={t['source']:t for t in load('locales/zh-Hans/terms.json')['terms']}
-  for source,target in [('마비향','麻痹香'),('타스','塔斯'),('스라츠','斯拉茨'),('마그나카르타','玛格纳卡尔塔'),('트레와 족','特雷瓦族')]:self.assertEqual(ts[source]['target'],target);self.assertEqual(ts[source]['review_status'],'candidate')
+  for source,target in [('마비향','麻痹香'),('타스','塔斯'),('스라츠','斯拉茨'),('마그나카르타','真名法典'),('트레와 족','特雷瓦族')]:self.assertEqual(ts[source]['target'],target);self.assertEqual(ts[source]['review_status'],'candidate')
  def test_historical_inscriptions_unchanged(self):
   rows=[e for e in load('locales/zh-Hans/batch-057.json')['entries'] if e['id'] in load('locales/zh-Hans/batch-057.review.json')['preserved_functional_break_ids']];self.assertEqual([e['translation'].count('\\n') for e in rows],[2,2,2,2,3]);self.assertTrue(rows[3]['translation'].endswith('    '));self.assertEqual(sum(len(load(p['path'])['entries']) for p in load('locales/zh-Hans/subtitle-profile.json')['plans'][:35]),254)
 if __name__=='__main__':unittest.main()

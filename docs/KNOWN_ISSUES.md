@@ -1657,6 +1657,10 @@ Known limitations should be documented clearly rather than hidden.
 
 ## 2026-10-28阶段328当前候选
 
+2026-10-29阶段329在其上修复属性图集六层暗段，原生alpha与其他图片保持，
+离线验证和复测范围见 [阶段329](PHASE_329_STATUS_LABEL_STROKES.md)。
+实际游戏中的缩放/选中状态观感仍待本轮用户复测。
+
 朱雀仿宋合成500已生成七个动态字体别名，字幕黑影保留，图片字不换字体。
 控制图左目标尺寸/孤立线段、拾取“已获得”内部间隔及所有INT/TXT运行文本旧译名
 已通过离线资源验证；详见PHASE_328_DYNAMIC_FONT_AND_TEXT.md。

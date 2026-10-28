@@ -140,6 +140,7 @@ def compose_restored_region(label,rgba,before,width):
 
 
 def overlay_regions(tiles,width,height,edit,layers,encoding_cache=None):
+    if 'rgb_encoding' in edit:raise FormatError('RGB encoding requires explicit profile')
     if 'protected_pixel_regions' in edit:raise FormatError('pixel guard requires explicit profile')
     if 'alpha_encoding' in edit:raise FormatError('alpha encoding requires explicit profile')
     ids=layer_ids(edit);protected=edit.get('protected_regions',[])
@@ -325,6 +326,9 @@ def overlay_profile_regions(texture,edit,layers,encoding_cache=None):
     if (fmt==7 and mode!='rgba') or (fmt==5 and mode not in ('opaque-luma','opaque-rgb')):
         raise FormatError('explicit supported texture channel mode required')
     alpha_encoding=edit.get('alpha_encoding')
+    rgb_encoding=edit.get('rgb_encoding')
+    if 'rgb_encoding' in edit and (rgb_encoding!='weighted-fit-v1' or fmt!=7 or mode!='rgba'):
+        raise FormatError('weighted RGB fit requires explicit BC3 RGBA')
     if 'alpha_encoding' in edit and (alpha_encoding!='adaptive-range' or fmt!=7 or mode!='rgba' or not preserve):
         raise FormatError('adaptive alpha requires restored BC3 RGBA with unchanged-block preservation')
     if 'protected_pixel_regions' in edit and (fmt!=7 or mode!='rgba' or not preserve):raise FormatError('pixel guard requires restored BC3 RGBA and unchanged-block preservation')
@@ -361,7 +365,8 @@ def overlay_profile_regions(texture,edit,layers,encoding_cache=None):
         protected_units|=units
     tiles=texture['tiles'];patched=tiles;proofs=[];preserved=0
     for label,rgba in resolved:
-        patched,proof=overlay_rect(patched,layout,label['rect'],rgba,encoding_cache,alpha_encoding=alpha_encoding)
+        patched,proof=overlay_rect(patched,layout,label['rect'],rgba,encoding_cache,
+                                   alpha_encoding=alpha_encoding,rgb_encoding=rgb_encoding)
         if preserve:
             # Decoded equality is checked before compression. Retain the exact
             # original BC bytes instead of re-quantizing untouched artwork.
@@ -388,6 +393,7 @@ def overlay_profile_regions(texture,edit,layers,encoding_cache=None):
     if mode=='opaque-rgb':result.update(rgb_matte=[0,0,0],source_transparent_pixels=sum(a==0 for a in before[3::4]),opaque_alpha_inside_authorized_regions=True)
     if preserve:result['unchanged_region_blocks_preserved']=preserved
     if alpha_encoding is not None:result['alpha_encoding']=alpha_encoding
+    if rgb_encoding is not None:result['rgb_encoding']=rgb_encoding
     if pixel_checks is not None:result['protected_pixel_regions']=pixel_checks
     if protected:
         after=decode_texture(texture,patched);checks=[]

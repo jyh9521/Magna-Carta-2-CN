@@ -1661,6 +1661,14 @@ The source-locked Tutorial_32_1 package contains Core.Package export15 and Engin
 `appearance.kind=source-style-v1` 使用0..1000严格升序渐变stop（首0末1000，2..256项）、RGBA字节、画布内墨迹框和有界效果参数；不接受未知字段。可选spans声明原文索引[start,end)及缩放，不插入或删除机器控制符。`preserve-source-v1` 为空绘制层，由原生补丁路径验证tiles未变并保留原导出。无appearance的历史格式和默认光栅输出不变。完整语义见 PHASE_318_IMAGE_STYLE_REVISIONS.md。
 
 
+## 显式BC3 RGB拟合与有界标签修复（阶段329）
+
+Xbox BC3 RGBA profile可选 `rgb_encoding: "weighted-fit-v1"`。
+默认仍为原最远颜色对编码，BC1和未知模式拒绝该选项；缓存键与旧编码隔离。
+固定8轮最小二乘端点重估与4轮RGB565坐标搜索，只接受alpha平方加权RGB误差下降，
+不改alpha编码。高层 `bounded-label-rgb-repair-v1` 配方引用已有label计划和资源哈希，
+只允许删去明确列出的内部渐变取样位置，原生alpha块不重编码；详见阶段329文档。
+
 ## 显式艺术字alpha输入（阶段320）
 
 `glyph_mask` 是label级别的 `path`/`sha256` PNG引用。构建器与其他输入一样

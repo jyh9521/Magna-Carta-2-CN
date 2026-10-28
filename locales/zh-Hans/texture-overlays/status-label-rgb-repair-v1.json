@@ -1,0 +1,75 @@
+{
+  "schema_version": 1,
+  "kind": "bounded-label-rgb-repair-v1",
+  "label_plan": {
+    "path": "locales/zh-Hans/texture-overlays/ui-labels-gameplay-v7.json",
+    "sha256": "e8ae524a13ad91f595333b515865b78f10ff03b14f60fdb3c805df5ee30dd936"
+  },
+  "source_tiled_sha256": "fbd126228f7fa964c4a50fda94624cde9f02f5489ad7c9a6b5e210dae90a5f87",
+  "dimensions": [
+    256,
+    128
+  ],
+  "labels": [
+    {
+      "id": "img_ui_name_jpn_157_2",
+      "remove_gradient_positions": [
+        56
+      ]
+    },
+    {
+      "id": "img_ui_name_jpn_157_8",
+      "remove_gradient_positions": [
+        722,
+        778,
+        833,
+        889,
+        944
+      ]
+    },
+    {
+      "id": "img_ui_name_jpn_157_9",
+      "remove_gradient_positions": [
+        53,
+        105,
+        947
+      ]
+    },
+    {
+      "id": "img_ui_name_jpn_157_10",
+      "remove_gradient_positions": [
+        53
+      ]
+    },
+    {
+      "id": "img_ui_name_jpn_157_11",
+      "remove_gradient_positions": []
+    },
+    {
+      "id": "img_ui_name_jpn_157_12",
+      "remove_gradient_positions": [
+        53,
+        105,
+        947
+      ]
+    }
+  ],
+  "resources": [
+    {
+      "path": "MC2Game/CookedXenon/MC2Game.xxx",
+      "object": "UI_Name_Jpn.Tex.Common_State_Tex",
+      "input": {
+        "path": "build/phase-329-status-label-repair/baseline-resources/MC2Game/CookedXenon/MC2Game.xxx",
+        "sha256": "caa488fc8fa927cdaff5761c0c9c370f568be4bf5db50ab68b19f65121a18eb5"
+      }
+    },
+    {
+      "path": "MC2Game/CookedXenon/UI_Name_Jpn.xxx",
+      "object": "Tex.Common_State_Tex",
+      "input": {
+        "path": "build/phase-329-status-label-repair/baseline-resources/MC2Game/CookedXenon/UI_Name_Jpn.xxx",
+        "sha256": "64d2de80e4c47824753641c4c904ec73baef848dde79b81a83098be4576f8b33"
+      }
+    }
+  ]
+}

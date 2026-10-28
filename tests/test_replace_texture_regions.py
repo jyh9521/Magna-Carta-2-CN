@@ -1,6 +1,6 @@
 import unittest
 from tools import texture_overlay as overlay
-from tools.replace_texture_regions import replace, selected
+from tools.replace_texture_regions import replace, selected, replace_tiles
 from tools.reface_font import sha
 from test_texture_layout import profile_fixture
 from test_supplement_font import stored_decoder
@@ -27,6 +27,14 @@ class TextureRegionTransferTests(unittest.TestCase):
             replace(before,'0'*64,obj,donor,sha(donor),obj,[[8,4,8,8]],stored_decoder)
         with self.assertRaisesRegex(ValueError,'outside'):
             replace(before,sha(before),obj,donor,sha(donor),obj,[[0,0,4,4]],stored_decoder)
+
+    def test_direct_tiles_reject_bad_lengths_empty_or_overlapping_authorization(self):
+        before,donor,obj=self.pair();tiles=selected(donor,obj,stored_decoder)[3]['tiles']
+        for invalid in [tiles[:-1],bytearray(tiles)]:
+            with self.assertRaisesRegex(ValueError,'tile size'):
+                replace_tiles(before,sha(before),obj,invalid,[[8,4,8,8]],stored_decoder)
+        for rects in [[],[[8,4,8,8],[8,4,8,8]]]:
+            with self.assertRaises(ValueError):replace_tiles(before,sha(before),obj,tiles,rects,stored_decoder)
 
 
 if __name__=='__main__':unittest.main()

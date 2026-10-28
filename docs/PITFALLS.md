@@ -1737,6 +1737,13 @@ Verified：source-style-v1先绘制字形，再缩放到appearance.ink_box的高
 本地Regular字体只有400字重且无fvar；500只是明确标注的合成预览目标，
 不改OS/2标签冒充上游Medium字形。参数和证据见ZHUQUE_MEDIUM_PREVIEW.md。
 
+## 小字号渐变笔画的假断点（阶段329）
+
+Verified：过暗的逐行渐变点与最远颜色对BC3量化会制造暗段，即使alpha和UV完整。
+不能用“alpha未丢失”或未压缩预览充当修复验收。应保留字形/效果参数，
+检查渐变离群点，再核对原生BC3回读、未选中块和各物理别名。
+本轮拟合选项默认关闭，避免重编码所有已接受字图。见PHASE_329_STATUS_LABEL_STROKES.md。
+
 ## 动态换字体与存储形态（阶段328）
 
 不能直接把线性BC3的16字节块复制到Xbox tiled atlas。初版缺少16位字节交换，

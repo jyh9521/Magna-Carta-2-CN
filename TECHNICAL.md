@@ -1,3 +1,5 @@
+> 阶段330技术补充：基于真实FontCharacter.USize的locale断行、count-locked `<br>`、同长度tagged scalar字段、当前包上的有界原生tile叠加、全帧联合视频掩膜与数字基线校正，见 [阶段330](docs/PHASE_330_GAMEPLAY_QA.md)。已验证序列化事实、保守预算和未证运行行为分别记录。
+
 > 阶段325：新增真实UV消费者合同、alpha连通分量/原生块保护、字体黑色阴影、源锁定Bink逐帧重放、私有桌面批处理及XDVDFS目录字段绑定。合成顺序与证据边界见 [阶段325](docs/PHASE_325_GAMEPLAY_FEEDBACK.md)。
 
 > 阶段324：现场 PC 0x82488884 读取违例与历史 stored-LZX 无改动对照相同；这支持包装路径嫌疑，尚非完整动态因果证明。已加入 exact-generated 流归一化、TOC sector/size 独立核对及可中断恢复的增量 ISO 事务，见 [阶段324](docs/PHASE_324_STARTUP_CRASH.md)。

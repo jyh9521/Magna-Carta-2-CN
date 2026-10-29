@@ -1,0 +1,54 @@
+{
+  "schema_version": 1,
+  "kind": "native-font-optical-audit",
+  "characters": "0123456789１",
+  "reference": "真名法典",
+  "sample": "没有《真名法典2》的游戏数据",
+  "min_ratio": 0.78,
+  "max_ratio": 0.95,
+  "fonts": [
+    {
+      "resource": "MC2Game/CookedXenon/font.xxx",
+      "object": "General_15",
+      "role": "general",
+      "preview": true
+    },
+    {
+      "resource": "MC2Game/CookedXenon/font.xxx",
+      "object": "EngineMedium_Subtitle",
+      "role": "subtitle",
+      "preview": true
+    },
+    {
+      "resource": "MC2Game/CookedXenon/Engine.xxx",
+      "object": "EngineFonts.SmallFont",
+      "role": "small",
+      "preview": true
+    },
+    {
+      "resource": "MC2Game/CookedXenon/MC2Game.xxx",
+      "object": "Font.General_15",
+      "role": "general",
+      "preview": false
+    },
+    {
+      "resource": "MC2Game/CookedXenon/Startup_int.xxx",
+      "object": "Font.General_15",
+      "role": "general",
+      "preview": false
+    },
+    {
+      "resource": "MC2Game/CookedXenon/Startup_int.xxx",
+      "object": "EngineFonts.SmallFont",
+      "role": "small",
+      "preview": false
+    },
+    {
+      "resource": "MC2Game/CookedXenon/Startup_int.xxx",
+      "object": "Font.EngineMedium_Subtitle",
+      "role": "subtitle",
+      "preview": false
+    }
+  ],
+  "max_bottom_delta": 1
+}

@@ -1,0 +1,464 @@
+{
+  "schema_version": 1,
+  "profile": "ue3-tagged-scalar-fields-v1",
+  "locale": "zh-Hans",
+  "revision": "gameplay-ui-v9",
+  "source_package_sha256": "a87c10ef28441d6abf9529ca4464f750c73ce8a3a44ba6b71ce2e4af13abab11",
+  "source_package": "MC2Game/CookedXenon/MC2Game.xxx",
+  "scope": [
+    "QuestInfoDecision normal and accept-only footer",
+    "Scene_ButtonX Selected and X_0..3"
+  ],
+  "objects": [
+    {
+      "object_path": "UI_Battle.Scenes.Scene_ButtonX.Bundle.Base.ButtonX_Bundle.Selected.KanNum.LabelStringRenderer",
+      "class_path": "Engine.UIComp_DrawString",
+      "tagged_offset": 8,
+      "before_sha256": "5b15de4a899e02508a8b203dedd67afd5fe52e9e66b1d18bbd375c6c9eb1720a",
+      "fields": [
+        {
+          "property_path": [
+            {
+              "name": "TextStyleCustomization",
+              "array_index": 0
+            },
+            {
+              "name": "TextAlignment",
+              "array_index": 0
+            }
+          ],
+          "type": "ByteProperty",
+          "before": 2,
+          "after": 0
+        }
+      ],
+      "after_sha256": "3f731e5eb2bf3779ac7904a3c7353b217af04aefc4e8003e4890500b56c342eb"
+    },
+    {
+      "object_path": "UI_Battle.Scenes.Scene_ButtonX.Bundle.Base.ButtonX_Bundle.X_0.KanNum_0.LabelStringRenderer",
+      "class_path": "Engine.UIComp_DrawString",
+      "tagged_offset": 8,
+      "before_sha256": "6f0c346efc636d165ddf0d974df7324c7816ccfa1ed4c74f83f70352090983cf",
+      "fields": [
+        {
+          "property_path": [
+            {
+              "name": "TextStyleCustomization",
+              "array_index": 0
+            },
+            {
+              "name": "TextAlignment",
+              "array_index": 0
+            }
+          ],
+          "type": "ByteProperty",
+          "before": 2,
+          "after": 0
+        }
+      ],
+      "after_sha256": "1895af3f121b254192fe3bc822cbc5703e8eb78935974d4a1eca1cc9d624d1cf"
+    },
+    {
+      "object_path": "UI_Battle.Scenes.Scene_ButtonX.Bundle.Base.ButtonX_Bundle.X_1.KanNum_1.LabelStringRenderer",
+      "class_path": "Engine.UIComp_DrawString",
+      "tagged_offset": 8,
+      "before_sha256": "9340a71865b50e0faccd5cfef2437b507867677be18cce69fefcfe352992f2f8",
+      "fields": [
+        {
+          "property_path": [
+            {
+              "name": "TextStyleCustomization",
+              "array_index": 0
+            },
+            {
+              "name": "TextAlignment",
+              "array_index": 0
+            }
+          ],
+          "type": "ByteProperty",
+          "before": 2,
+          "after": 0
+        }
+      ],
+      "after_sha256": "5a7af873ed70c24c42a829db0f2e4420e75d5e9ce622bd1682c71dfa3333fea8"
+    },
+    {
+      "object_path": "UI_Battle.Scenes.Scene_ButtonX.Bundle.Base.ButtonX_Bundle.X_2.KanNum_2.LabelStringRenderer",
+      "class_path": "Engine.UIComp_DrawString",
+      "tagged_offset": 8,
+      "before_sha256": "a8046d1c2da25e37abeeace18c9b8d6d2874bf81cc4aa1503a36130735d4a2e0",
+      "fields": [
+        {
+          "property_path": [
+            {
+              "name": "TextStyleCustomization",
+              "array_index": 0
+            },
+            {
+              "name": "TextAlignment",
+              "array_index": 0
+            }
+          ],
+          "type": "ByteProperty",
+          "before": 2,
+          "after": 0
+        }
+      ],
+      "after_sha256": "5877d0af98d21dca1d3a66f2805af6ce44235a720b718b9713a10be00bd20c6e"
+    },
+    {
+      "object_path": "UI_Battle.Scenes.Scene_ButtonX.Bundle.Base.ButtonX_Bundle.X_3.KanNum_3.LabelStringRenderer",
+      "class_path": "Engine.UIComp_DrawString",
+      "tagged_offset": 8,
+      "before_sha256": "6714a64230f6d6d1344f733bc144bc53aace3c927d9684dbdad4fc2f5444d6e0",
+      "fields": [
+        {
+          "property_path": [
+            {
+              "name": "TextStyleCustomization",
+              "array_index": 0
+            },
+            {
+              "name": "TextAlignment",
+              "array_index": 0
+            }
+          ],
+          "type": "ByteProperty",
+          "before": 2,
+          "after": 0
+        }
+      ],
+      "after_sha256": "a53cf9e932a3e952c0e4d4776ba25742afe66348ff038619dfe32678183d7f0d"
+    },
+    {
+      "object_path": "UI_Battle.Scenes.Scene_ButtonX.Bundle.Base.ButtonX_Bundle.Selected.Skill",
+      "class_path": "MC2UIImage",
+      "tagged_offset": 4,
+      "before_sha256": "b4840c6d8181726135bbe46ae4548b868dc9383e9dd896c8517da800d0e4e9d7",
+      "fields": [
+        {
+          "property_path": [
+            {
+              "name": "Position",
+              "array_index": 0
+            },
+            {
+              "name": "Value",
+              "array_index": 0
+            }
+          ],
+          "type": "FloatProperty",
+          "before": 206.0,
+          "after": 200.0
+        }
+      ],
+      "after_sha256": "13a92608fbafcf386df8db0fcd2c21641914ce59bdb740b7ff28b3e0f59a6f1c"
+    },
+    {
+      "object_path": "UI_Core.Scenes.QuestInfoDecision.Base.Quest_Info_window.Bt_A",
+      "class_path": "MC2UILabel",
+      "tagged_offset": 4,
+      "before_sha256": "ef3eab607b0cc3864b113a349fcecdfb2963ebe6456c660ecbb23c50114380dd",
+      "fields": [
+        {
+          "property_path": [
+            {
+              "name": "Position",
+              "array_index": 0
+            },
+            {
+              "name": "Value",
+              "array_index": 0
+            }
+          ],
+          "type": "FloatProperty",
+          "before": 517,
+          "after": 460
+        },
+        {
+          "property_path": [
+            {
+              "name": "Position",
+              "array_index": 0
+            },
+            {
+              "name": "Value",
+              "array_index": 2
+            }
+          ],
+          "type": "FloatProperty",
+          "before": 63,
+          "after": 90
+        }
+      ],
+      "after_sha256": "93bf79102ad405321ece50ac750d874d6c5a4419d04131f551b2752477b60d59"
+    },
+    {
+      "object_path": "UI_Core.Scenes.QuestInfoDecision.Base.Quest_Info_window.Bt_A_OnlyYes",
+      "class_path": "MC2UILabel",
+      "tagged_offset": 4,
+      "before_sha256": "e8851c7368958b8852e9cd77dec183ce78ca050148a278b2a7801368eee9cb59",
+      "fields": [
+        {
+          "property_path": [
+            {
+              "name": "Position",
+              "array_index": 0
+            },
+            {
+              "name": "Value",
+              "array_index": 0
+            }
+          ],
+          "type": "FloatProperty",
+          "before": 580,
+          "after": 562
+        },
+        {
+          "property_path": [
+            {
+              "name": "Position",
+              "array_index": 0
+            },
+            {
+              "name": "Value",
+              "array_index": 2
+            }
+          ],
+          "type": "FloatProperty",
+          "before": 956,
+          "after": 90
+        },
+        {
+          "property_path": [
+            {
+              "name": "Position",
+              "array_index": 0
+            },
+            {
+              "name": "ScaleType",
+              "array_index": 2
+            }
+          ],
+          "type": "ByteProperty",
+          "before": 1,
+          "after": 0
+        }
+      ],
+      "after_sha256": "32990d922f437253ea14f13e1ac252831921b0c558df5ac643c43287e793e7e3"
+    },
+    {
+      "object_path": "UI_Core.Scenes.QuestInfoDecision.Base.Quest_Info_window.Bt_Deny",
+      "class_path": "MC2UILabel",
+      "tagged_offset": 4,
+      "before_sha256": "6d3ddac026f462316270a2e9a656eaab748c479d4a824e95cbb644d38e04f02c",
+      "fields": [
+        {
+          "property_path": [
+            {
+              "name": "Position",
+              "array_index": 0
+            },
+            {
+              "name": "Value",
+              "array_index": 0
+            }
+          ],
+          "type": "FloatProperty",
+          "before": 576,
+          "after": 562
+        },
+        {
+          "property_path": [
+            {
+              "name": "Position",
+              "array_index": 0
+            },
+            {
+              "name": "Value",
+              "array_index": 2
+            }
+          ],
+          "type": "FloatProperty",
+          "before": 76,
+          "after": 90
+        }
+      ],
+      "after_sha256": "54911ada9f1abe51f047a3bcf681aa773e4022993d028b285a7a3d7ac122c666"
+    },
+    {
+      "object_path": "UI_Core.Scenes.QuestInfoDecision.Base.Quest_Info_window.Bt_Y",
+      "class_path": "MC2UILabel",
+      "tagged_offset": 4,
+      "before_sha256": "6d66045348b23ee74bef164560e0fa82b8f59cce7644c33c394709eb61705a90",
+      "fields": [
+        {
+          "property_path": [
+            {
+              "name": "Position",
+              "array_index": 0
+            },
+            {
+              "name": "Value",
+              "array_index": 0
+            }
+          ],
+          "type": "FloatProperty",
+          "before": 409,
+          "after": 307
+        },
+        {
+          "property_path": [
+            {
+              "name": "Position",
+              "array_index": 0
+            },
+            {
+              "name": "Value",
+              "array_index": 2
+            }
+          ],
+          "type": "FloatProperty",
+          "before": 98,
+          "after": 141
+        }
+      ],
+      "after_sha256": "dbe0e410d209739a0f970407253216fd6e8befb8ab8e5dc4154245eb001ae9e0"
+    },
+    {
+      "object_path": "UI_Core.Scenes.QuestInfoDecision.Base.Quest_Info_window.Bt_Y_OnlyYes",
+      "class_path": "MC2UILabel",
+      "tagged_offset": 4,
+      "before_sha256": "21cea455e5d4aeaabed5d39e38385abeaf00184a1bb323cd7c2473d589e74477",
+      "fields": [
+        {
+          "property_path": [
+            {
+              "name": "Position",
+              "array_index": 0
+            },
+            {
+              "name": "Value",
+              "array_index": 0
+            }
+          ],
+          "type": "FloatProperty",
+          "before": 465,
+          "after": 409
+        },
+        {
+          "property_path": [
+            {
+              "name": "Position",
+              "array_index": 0
+            },
+            {
+              "name": "Value",
+              "array_index": 2
+            }
+          ],
+          "type": "FloatProperty",
+          "before": 98,
+          "after": 141
+        }
+      ],
+      "after_sha256": "330607906146e3a4c400f9a07c5422406fb3d63e9ebcc7f9125a7e8875c21730"
+    },
+    {
+      "object_path": "UI_Core.Scenes.QuestInfoDecision.Base.Quest_Info_window.Bt_A.LabelStringRenderer",
+      "class_path": "Engine.UIComp_DrawString",
+      "tagged_offset": 8,
+      "before_sha256": "5ae1187e2e7aa3a22c94753b0cd6448c4a138ca8c7a80f44081557b5b285c32d",
+      "fields": [
+        {
+          "property_path": [
+            {
+              "name": "AutoSizeParameters",
+              "array_index": 0
+            },
+            {
+              "name": "bAutoSizeEnabled",
+              "array_index": 0
+            }
+          ],
+          "type": "BoolProperty",
+          "before": 1,
+          "after": 0
+        }
+      ],
+      "after_sha256": "70e7c71589910e03cbe2bc5360b5b2acd3231685a81f1986d02ce8b8c52e839b"
+    },
+    {
+      "object_path": "UI_Core.Scenes.QuestInfoDecision.Base.Quest_Info_window.Bt_A_OnlyYes.LabelStringRenderer",
+      "class_path": "Engine.UIComp_DrawString",
+      "tagged_offset": 8,
+      "before_sha256": "4b6e1900cde00cca3d64f1a608b2da8b83c2049798b443ae7f7b1c44f3ef7290",
+      "fields": [
+        {
+          "property_path": [
+            {
+              "name": "AutoSizeParameters",
+              "array_index": 0
+            },
+            {
+              "name": "bAutoSizeEnabled",
+              "array_index": 0
+            }
+          ],
+          "type": "BoolProperty",
+          "before": 1,
+          "after": 0
+        }
+      ],
+      "after_sha256": "c4a1c7a9485f65065a516af9779db1cb306147a8e1cd401a7604b8360020832b"
+    },
+    {
+      "object_path": "UI_Core.Scenes.QuestInfoDecision.Base.Quest_Info_window.Bt_Y.LabelStringRenderer",
+      "class_path": "Engine.UIComp_DrawString",
+      "tagged_offset": 8,
+      "before_sha256": "05ef2527f8acf340b8bbf2945d79133f8f7bd3f4c579b843a60cf0a20ee12594",
+      "fields": [
+        {
+          "property_path": [
+            {
+              "name": "AutoSizeParameters",
+              "array_index": 0
+            },
+            {
+              "name": "bAutoSizeEnabled",
+              "array_index": 0
+            }
+          ],
+          "type": "BoolProperty",
+          "before": 1,
+          "after": 0
+        }
+      ],
+      "after_sha256": "dd5e2a0bba26d3680b195df3f769f37403c1f009d7ed132116bb91eb2c7ba0e6"
+    },
+    {
+      "object_path": "UI_Core.Scenes.QuestInfoDecision.Base.Quest_Info_window.Bt_Y_OnlyYes.LabelStringRenderer",
+      "class_path": "Engine.UIComp_DrawString",
+      "tagged_offset": 8,
+      "before_sha256": "5d3bf09350838743dc7abb17063c30bb1ce0daffce883aa988a41b2429bc1f4e",
+      "fields": [
+        {
+          "property_path": [
+            {
+              "name": "AutoSizeParameters",
+              "array_index": 0
+            },
+            {
+              "name": "bAutoSizeEnabled",
+              "array_index": 0
+            }
+          ],
+          "type": "BoolProperty",
+          "before": 1,
+          "after": 0
+        }
+      ],
+      "after_sha256": "55dc29bc93ca19f90f295408269b47becbd9226e033bd566c9c5e02fd811ddb5"
+    }
+  ]
+}

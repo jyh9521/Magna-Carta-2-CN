@@ -81,6 +81,12 @@ def raster_cells(font_path, expected_sha, spec, codepoints, previous_widths):
         baseline += 1
     if baseline+min(b[1] for b in boxes) < 0:
         raise ValueError('full glyph union exceeds metric height')
+    shift = spec.get('baseline_offset', 0)
+    if type(shift) is not int or not -height <= shift <= height:
+        raise ValueError('invalid explicit optical baseline offset')
+    baseline += shift
+    if baseline+min(b[1] for b in boxes) < 0 or baseline+descent > height:
+        raise ValueError('optical baseline moves foreground outside metric height')
     for row in rows:
         w,h = row['width'], row['height']
         glyph_face=selected_face(row['source_character'])
@@ -93,6 +99,8 @@ def raster_cells(font_path, expected_sha, spec, codepoints, previous_widths):
         cell = dict(width=w,height=h,metric_width=row['metric_width'],
                     character=row['source_character'])
         alpha,growth = embolden_glyph(glyph_face,cell,record,im.tobytes(),height,spec['stroke_em'])
+        if shift and growth['boundary_samples']:
+            raise ValueError('optical baseline clips expanded outline')
         row.update(baseline=baseline,outline_growth=growth)
         # Verify that neither original nor weighted foreground is clipped.
         if record['raster_bbox'] and (record['raster_bbox'][3]>height or record['raster_bbox'][0]<0):

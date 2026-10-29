@@ -14,8 +14,8 @@ def validate(appearance, width, height):
     if appearance=={'kind':'preserve-source-v1'}:return
     keys={'kind','ink_box','align','gradient','outline','outline_width','glow',
           'glow_radius','shadow','shadow_offset','shadow_radius','italic',
-          'tracking','weight','motion','spans','blur','width_scale'}
-    required=keys-{'spans','blur','width_scale'}
+          'tracking','weight','motion','spans','blur','width_scale','effect_clip'}
+    required=keys-{'spans','blur','width_scale','effect_clip'}
     if set(appearance)-keys or not required<=set(appearance) or appearance['kind']!='source-style-v1':
         raise FormatError('unknown or missing text appearance fields')
     def number(v,lo,hi):return type(v) in (int,float) and math.isfinite(v) and lo<=v<=hi
@@ -24,6 +24,12 @@ def validate(appearance, width, height):
             or min(box[:2])<0 or min(box[2:])<1 or box[0]+box[2]>width or box[1]+box[3]>height):
         raise FormatError('appearance ink box outside canvas')
     if appearance['align'] not in ('left','right','center'):raise FormatError('appearance alignment')
+    if 'effect_clip' in appearance:
+        clip=appearance['effect_clip']
+        if (not isinstance(clip,list) or len(clip)!=4 or any(type(v) is not int for v in clip)
+                or min(clip[:2])<0 or min(clip[2:])<1
+                or clip[0]+clip[2]>width or clip[1]+clip[3]>height):
+            raise FormatError('appearance effect clip outside canvas')
     def rgba(v):return isinstance(v,list) and len(v)==4 and all(type(c) is int and 0<=c<=255 for c in v)
     stops=appearance['gradient']
     if (not isinstance(stops,list) or not 2<=len(stops)<=256
@@ -135,6 +141,13 @@ def render(font_bytes,label):
         rows.extend(bytes(round(c+(d-c)*f) for c,d in zip(lo[1],hi[1]))*w)
     fill=Image.frombytes('RGBA',(w,h),bytes(rows));fill.putalpha(ImageChops.multiply(fill.getchannel('A'),mask_full))
     image=Image.alpha_composite(image,fill)
+    if 'effect_clip' in a:
+        x,y,cw,ch=a['effect_clip']; clip=Image.new('L',(w,h))
+        clip.paste(255,(x,y,x+cw,y+ch))
+        if ImageChops.subtract(mask_full,clip).getbbox() is not None:
+            raise FormatError('appearance effect clip would crop glyph ink')
+        bounded=Image.new('RGBA',(w,h));bounded.paste(image.crop((x,y,x+cw,y+ch)),(x,y))
+        image=bounded
     if crop is not None:
         x,y,cw,ch=crop;image=image.crop((x,y,x+cw,y+ch))
     return image.tobytes()

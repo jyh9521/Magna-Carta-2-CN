@@ -1,0 +1,6400 @@
+{
+  "schema_version": 1,
+  "kind": "texture-region-repair-delta",
+  "game_rendering_verified": false,
+  "labels": [
+    {
+      "expected_label_sha256": "ae4559e845078dd9cba883efc2313bbfa19e9b3f4e8d1e9ef6c35297b8f99491",
+      "label": {
+        "id": "img_ui_name_jpn_186_0",
+        "text": "全部",
+        "rect": [
+          0,
+          0,
+          128,
+          32
+        ],
+        "font_size": 20,
+        "style": {
+          "fill": [
+            244,
+            244,
+            236,
+            255
+          ],
+          "stroke_fill": [
+            35,
+            35,
+            35,
+            240
+          ],
+          "shadow_fill": [
+            230,
+            45,
+            15,
+            200
+          ]
+        },
+        "align": "center",
+        "translation_basis": "source-image-cell-with-context",
+        "source_text_sha256": "a4b69faf0c1113faf1f7cf9d9a6224cf3b62a16c6e841a22882adafcced64db9",
+        "source_ids": [
+          "coalesced:15f99f72979f4701e11ef740eb56010960df234b50f90bce5e922b259782bcfc",
+          "coalesced:5ee91b27eb51636709557e06174edbc6cf0cef5ce95f2ab6c607f8b57e64dd8a"
+        ],
+        "restoration": {
+          "source_rgba_sha256": "44e7298a2f7b13134e2dfe9e03c0356a679ce8af2de6054e6daedc12177bd0c0",
+          "mask": {
+            "path": "locales/zh-Hans/texture-overlays/restorations/gameplay-v9/img_ui_name_jpn_186_0-mask.png",
+            "sha256": "effb451e5f46d0886b7af4619db5e926331493d39d5553f9a4216ac1f526589c"
+          },
+          "patch": {
+            "path": "locales/zh-Hans/texture-overlays/restorations/gameplay-v9/img_ui_name_jpn_186_0-patch.png",
+            "sha256": "fe1f528c2512f15a5fcf200a16a9fb9991409e3f34190d55bbfd76600ce11fb5"
+          }
+        },
+        "font": {
+          "path": "build/font-source/NotoSansCJKsc-Bold.otf",
+          "sha256": "b5f0d1a190a7f9b43c310a8850630af12553df32c4c050543f9059732d9b4c0a"
+        },
+        "appearance": {
+          "kind": "source-style-v1",
+          "ink_box": [
+            2,
+            6,
+            75,
+            19
+          ],
+          "align": "center",
+          "gradient": [
+            [
+              0,
+              [
+                255,
+                255,
+                255,
+                255
+              ]
+            ],
+            [
+              1000,
+              [
+                239,
+                239,
+                239,
+                255
+              ]
+            ]
+          ],
+          "outline": [
+            230,
+            118,
+            80,
+            255
+          ],
+          "outline_width": 0.85,
+          "glow": [
+            255,
+            121,
+            78,
+            185
+          ],
+          "glow_radius": 1.15,
+          "shadow": [
+            58,
+            11,
+            6,
+            170
+          ],
+          "shadow_offset": [
+            0,
+            1
+          ],
+          "shadow_radius": 0.6,
+          "italic": 0,
+          "tracking": 0,
+          "weight": 0,
+          "motion": 0
+        }
+      }
+    },
+    {
+      "expected_label_sha256": "f550ec3069511e9d8801ab165ecb44c541832ad985e6cfafd4ca074d1aef68c3",
+      "label": {
+        "id": "img_ui_name_jpn_186_1",
+        "text": "能力",
+        "rect": [
+          0,
+          32,
+          128,
+          32
+        ],
+        "font_size": 20,
+        "style": {
+          "fill": [
+            244,
+            244,
+            236,
+            255
+          ],
+          "stroke_fill": [
+            35,
+            35,
+            35,
+            240
+          ],
+          "shadow_fill": [
+            230,
+            45,
+            15,
+            200
+          ]
+        },
+        "align": "center",
+        "translation_basis": "source-image-cell-with-context",
+        "source_text_sha256": "f9c5a220974330b54c6e0c74bccaeef29c97d839c512d45d421f42189bbf2959",
+        "source_ids": [],
+        "restoration": {
+          "source_rgba_sha256": "1b4edaff7f465d597a6f84a18328204e4a6afaf7e3a3aa00aa2bb2ffc7aca603",
+          "mask": {
+            "path": "locales/zh-Hans/texture-overlays/restorations/gameplay-v9/img_ui_name_jpn_186_1-mask.png",
+            "sha256": "effb451e5f46d0886b7af4619db5e926331493d39d5553f9a4216ac1f526589c"
+          },
+          "patch": {
+            "path": "locales/zh-Hans/texture-overlays/restorations/gameplay-v9/img_ui_name_jpn_186_1-patch.png",
+            "sha256": "e9eb59e67ae8f9fb50aee97aebd60efce57dcdd80cd1e205a919e08a43913b00"
+          }
+        },
+        "font": {
+          "path": "build/font-source/NotoSansCJKsc-Bold.otf",
+          "sha256": "b5f0d1a190a7f9b43c310a8850630af12553df32c4c050543f9059732d9b4c0a"
+        },
+        "appearance": {
+          "kind": "source-style-v1",
+          "ink_box": [
+            2,
+            6,
+            75,
+            19
+          ],
+          "align": "center",
+          "gradient": [
+            [
+              0,
+              [
+                255,
+                255,
+                255,
+                255
+              ]
+            ],
+            [
+              1000,
+              [
+                239,
+                239,
+                239,
+                255
+              ]
+            ]
+          ],
+          "outline": [
+            230,
+            118,
+            80,
+            255
+          ],
+          "outline_width": 0.85,
+          "glow": [
+            255,
+            121,
+            78,
+            185
+          ],
+          "glow_radius": 1.15,
+          "shadow": [
+            58,
+            11,
+            6,
+            170
+          ],
+          "shadow_offset": [
+            0,
+            1
+          ],
+          "shadow_radius": 0.6,
+          "italic": 0,
+          "tracking": 0,
+          "weight": 0,
+          "motion": 0
+        }
+      }
+    },
+    {
+      "expected_label_sha256": "55b9107dd124769fa83d298a78f3ead5d1ed03ff13533e3a6f357d3b873d9e39",
+      "label": {
+        "id": "img_ui_name_jpn_186_2",
+        "text": "状态",
+        "rect": [
+          0,
+          64,
+          128,
+          32
+        ],
+        "font_size": 20,
+        "style": {
+          "fill": [
+            244,
+            244,
+            236,
+            255
+          ],
+          "stroke_fill": [
+            35,
+            35,
+            35,
+            240
+          ],
+          "shadow_fill": [
+            230,
+            45,
+            15,
+            200
+          ]
+        },
+        "align": "center",
+        "translation_basis": "source-image-cell-with-context",
+        "source_text_sha256": "e10195a1239fb321327bafbe0397ebfcf7f0985a6e3bc28661a65132025b6808",
+        "source_ids": [],
+        "restoration": {
+          "source_rgba_sha256": "dde947e07ba21c54485b9ec5ad4ea48cf8addcc0b572a4ef8ab2e183a81801eb",
+          "mask": {
+            "path": "locales/zh-Hans/texture-overlays/restorations/gameplay-v9/img_ui_name_jpn_186_2-mask.png",
+            "sha256": "effb451e5f46d0886b7af4619db5e926331493d39d5553f9a4216ac1f526589c"
+          },
+          "patch": {
+            "path": "locales/zh-Hans/texture-overlays/restorations/gameplay-v9/img_ui_name_jpn_186_2-patch.png",
+            "sha256": "427f67d5db3854e4fc3876fd85cbaee74343206ac7416c1b867c0bcf179b388e"
+          }
+        },
+        "font": {
+          "path": "build/font-source/NotoSansCJKsc-Bold.otf",
+          "sha256": "b5f0d1a190a7f9b43c310a8850630af12553df32c4c050543f9059732d9b4c0a"
+        },
+        "appearance": {
+          "kind": "source-style-v1",
+          "ink_box": [
+            2,
+            6,
+            75,
+            19
+          ],
+          "align": "center",
+          "gradient": [
+            [
+              0,
+              [
+                255,
+                255,
+                255,
+                255
+              ]
+            ],
+            [
+              1000,
+              [
+                239,
+                239,
+                239,
+                255
+              ]
+            ]
+          ],
+          "outline": [
+            230,
+            118,
+            80,
+            255
+          ],
+          "outline_width": 0.85,
+          "glow": [
+            255,
+            121,
+            78,
+            185
+          ],
+          "glow_radius": 1.15,
+          "shadow": [
+            58,
+            11,
+            6,
+            170
+          ],
+          "shadow_offset": [
+            0,
+            1
+          ],
+          "shadow_radius": 0.6,
+          "italic": 0,
+          "tracking": 0,
+          "weight": 0,
+          "motion": 0
+        }
+      }
+    },
+    {
+      "expected_label_sha256": "416b05c737ec0f9835838a6517afcfe225143d87c31671c7e2922a6c07e9a35a",
+      "label": {
+        "id": "img_ui_name_jpn_186_3",
+        "text": "特殊",
+        "rect": [
+          0,
+          96,
+          128,
+          32
+        ],
+        "font_size": 20,
+        "style": {
+          "fill": [
+            244,
+            244,
+            236,
+            255
+          ],
+          "stroke_fill": [
+            35,
+            35,
+            35,
+            240
+          ],
+          "shadow_fill": [
+            230,
+            45,
+            15,
+            200
+          ]
+        },
+        "align": "center",
+        "translation_basis": "source-image-cell-with-context",
+        "source_text_sha256": "ccc0d708878f798eb60b6a58a10b26b519f5ab228d622e16d65473a13c955b53",
+        "source_ids": [],
+        "restoration": {
+          "source_rgba_sha256": "58dc82e8834285c40ec1ab0f83796606dfad200caa91e0b9177a6080cf1fb6c7",
+          "mask": {
+            "path": "locales/zh-Hans/texture-overlays/restorations/gameplay-v9/img_ui_name_jpn_186_3-mask.png",
+            "sha256": "effb451e5f46d0886b7af4619db5e926331493d39d5553f9a4216ac1f526589c"
+          },
+          "patch": {
+            "path": "locales/zh-Hans/texture-overlays/restorations/gameplay-v9/img_ui_name_jpn_186_3-patch.png",
+            "sha256": "e9eb59e67ae8f9fb50aee97aebd60efce57dcdd80cd1e205a919e08a43913b00"
+          }
+        },
+        "font": {
+          "path": "build/font-source/NotoSansCJKsc-Bold.otf",
+          "sha256": "b5f0d1a190a7f9b43c310a8850630af12553df32c4c050543f9059732d9b4c0a"
+        },
+        "appearance": {
+          "kind": "source-style-v1",
+          "ink_box": [
+            2,
+            6,
+            75,
+            19
+          ],
+          "align": "center",
+          "gradient": [
+            [
+              0,
+              [
+                255,
+                255,
+                255,
+                255
+              ]
+            ],
+            [
+              1000,
+              [
+                239,
+                239,
+                239,
+                255
+              ]
+            ]
+          ],
+          "outline": [
+            230,
+            118,
+            80,
+            255
+          ],
+          "outline_width": 0.85,
+          "glow": [
+            255,
+            121,
+            78,
+            185
+          ],
+          "glow_radius": 1.15,
+          "shadow": [
+            58,
+            11,
+            6,
+            170
+          ],
+          "shadow_offset": [
+            0,
+            1
+          ],
+          "shadow_radius": 0.6,
+          "italic": 0,
+          "tracking": 0,
+          "weight": 0,
+          "motion": 0
+        }
+      }
+    },
+    {
+      "expected_label_sha256": "0f81a5e5259b10614ffdc4ccc53662455b660baf27ce887d32fed77682699b46",
+      "label": {
+        "id": "img_ui_name_jpn_187_0",
+        "text": "全部",
+        "rect": [
+          0,
+          0,
+          128,
+          32
+        ],
+        "font_size": 20,
+        "style": {
+          "fill": [
+            244,
+            244,
+            236,
+            255
+          ],
+          "stroke_fill": [
+            35,
+            35,
+            35,
+            240
+          ],
+          "shadow_fill": [
+            0,
+            0,
+            0,
+            180
+          ]
+        },
+        "align": "center",
+        "translation_basis": "source-image-cell-with-context",
+        "source_text_sha256": "a4b69faf0c1113faf1f7cf9d9a6224cf3b62a16c6e841a22882adafcced64db9",
+        "source_ids": [
+          "coalesced:15f99f72979f4701e11ef740eb56010960df234b50f90bce5e922b259782bcfc",
+          "coalesced:5ee91b27eb51636709557e06174edbc6cf0cef5ce95f2ab6c607f8b57e64dd8a"
+        ],
+        "restoration": {
+          "source_rgba_sha256": "377b3155250f3f19a71d20cf399b25647f0aecfb39cb6944ca8351095d1b3c52",
+          "mask": {
+            "path": "locales/zh-Hans/texture-overlays/restorations/review-v3-20261026/img_ui_name_jpn_187_0-mask.png",
+            "sha256": "effb451e5f46d0886b7af4619db5e926331493d39d5553f9a4216ac1f526589c"
+          },
+          "patch": {
+            "path": "locales/zh-Hans/texture-overlays/restorations/review-v3-20261026/img_ui_name_jpn_187_0-patch.png",
+            "sha256": "37eb4b9d33971770e1523b880ec91e7916bdf8807069ec5e423b27714822857f"
+          }
+        },
+        "font": {
+          "path": "build/font-source/NotoSansCJKsc-Bold.otf",
+          "sha256": "b5f0d1a190a7f9b43c310a8850630af12553df32c4c050543f9059732d9b4c0a"
+        },
+        "appearance": {
+          "kind": "source-style-v1",
+          "ink_box": [
+            2,
+            6,
+            75,
+            19
+          ],
+          "align": "center",
+          "gradient": [
+            [
+              0,
+              [
+                216,
+                216,
+                216,
+                255
+              ]
+            ],
+            [
+              56,
+              [
+                255,
+                255,
+                255,
+                255
+              ]
+            ],
+            [
+              111,
+              [
+                255,
+                255,
+                255,
+                255
+              ]
+            ],
+            [
+              167,
+              [
+                255,
+                255,
+                255,
+                255
+              ]
+            ],
+            [
+              222,
+              [
+                255,
+                255,
+                255,
+                255
+              ]
+            ],
+            [
+              278,
+              [
+                255,
+                255,
+                255,
+                255
+              ]
+            ],
+            [
+              333,
+              [
+                255,
+                255,
+                255,
+                255
+              ]
+            ],
+            [
+              389,
+              [
+                255,
+                255,
+                255,
+                255
+              ]
+            ],
+            [
+              444,
+              [
+                255,
+                255,
+                255,
+                255
+              ]
+            ],
+            [
+              500,
+              [
+                255,
+                255,
+                255,
+                255
+              ]
+            ],
+            [
+              556,
+              [
+                255,
+                255,
+                255,
+                255
+              ]
+            ],
+            [
+              611,
+              [
+                243,
+                241,
+                243,
+                255
+              ]
+            ],
+            [
+              667,
+              [
+                239,
+                239,
+                239,
+                255
+              ]
+            ],
+            [
+              722,
+              [
+                222,
+                227,
+                222,
+                255
+              ]
+            ],
+            [
+              778,
+              [
+                206,
+                211,
+                206,
+                255
+              ]
+            ],
+            [
+              833,
+              [
+                181,
+                180,
+                177,
+                255
+              ]
+            ],
+            [
+              889,
+              [
+                181,
+                180,
+                177,
+                255
+              ]
+            ],
+            [
+              944,
+              [
+                164,
+                166,
+                160,
+                255
+              ]
+            ],
+            [
+              1000,
+              [
+                160,
+                160,
+                156,
+                255
+              ]
+            ]
+          ],
+          "outline": [
+            8,
+            8,
+            10,
+            245
+          ],
+          "outline_width": 1.15,
+          "glow": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "glow_radius": 0,
+          "shadow": [
+            0,
+            0,
+            0,
+            230
+          ],
+          "shadow_offset": [
+            1,
+            2
+          ],
+          "shadow_radius": 0.65,
+          "italic": 0,
+          "tracking": 0,
+          "weight": 0,
+          "motion": 0
+        }
+      }
+    },
+    {
+      "expected_label_sha256": "6ec299022d7aeff84f1b81b4e2c0fde385e3569ee883c1cbf1839fb8b87e8162",
+      "label": {
+        "id": "img_ui_name_jpn_187_1",
+        "text": "能力",
+        "rect": [
+          0,
+          32,
+          128,
+          32
+        ],
+        "font_size": 20,
+        "style": {
+          "fill": [
+            244,
+            244,
+            236,
+            255
+          ],
+          "stroke_fill": [
+            35,
+            35,
+            35,
+            240
+          ],
+          "shadow_fill": [
+            0,
+            0,
+            0,
+            180
+          ]
+        },
+        "align": "center",
+        "translation_basis": "source-image-cell-with-context",
+        "source_text_sha256": "f9c5a220974330b54c6e0c74bccaeef29c97d839c512d45d421f42189bbf2959",
+        "source_ids": [],
+        "restoration": {
+          "source_rgba_sha256": "6970d57c5fe7d9efa00ebc4fb2ca7126646634847637e481b82b0dfdfea4a594",
+          "mask": {
+            "path": "locales/zh-Hans/texture-overlays/restorations/review-v3-20261026/img_ui_name_jpn_187_1-mask.png",
+            "sha256": "effb451e5f46d0886b7af4619db5e926331493d39d5553f9a4216ac1f526589c"
+          },
+          "patch": {
+            "path": "locales/zh-Hans/texture-overlays/restorations/review-v3-20261026/img_ui_name_jpn_187_1-patch.png",
+            "sha256": "17a425de1c2ea8a9e1e0ea23499f7e3bd3c638e431bec2a78bcc756aa09e14b2"
+          }
+        },
+        "font": {
+          "path": "build/font-source/NotoSansCJKsc-Bold.otf",
+          "sha256": "b5f0d1a190a7f9b43c310a8850630af12553df32c4c050543f9059732d9b4c0a"
+        },
+        "appearance": {
+          "kind": "source-style-v1",
+          "ink_box": [
+            2,
+            6,
+            75,
+            19
+          ],
+          "align": "center",
+          "gradient": [
+            [
+              0,
+              [
+                206,
+                205,
+                204,
+                255
+              ]
+            ],
+            [
+              53,
+              [
+                239,
+                239,
+                239,
+                255
+              ]
+            ],
+            [
+              105,
+              [
+                239,
+                239,
+                239,
+                255
+              ]
+            ],
+            [
+              158,
+              [
+                247,
+                247,
+                247,
+                255
+              ]
+            ],
+            [
+              211,
+              [
+                214,
+                214,
+                212,
+                255
+              ]
+            ],
+            [
+              263,
+              [
+                247,
+                247,
+                247,
+                255
+              ]
+            ],
+            [
+              316,
+              [
+                214,
+                214,
+                212,
+                255
+              ]
+            ],
+            [
+              368,
+              [
+                247,
+                247,
+                247,
+                255
+              ]
+            ],
+            [
+              421,
+              [
+                181,
+                180,
+                180,
+                255
+              ]
+            ],
+            [
+              474,
+              [
+                247,
+                247,
+                247,
+                255
+              ]
+            ],
+            [
+              526,
+              [
+                181,
+                180,
+                180,
+                255
+              ]
+            ],
+            [
+              579,
+              [
+                170,
+                168,
+                167,
+                255
+              ]
+            ],
+            [
+              632,
+              [
+                170,
+                168,
+                167,
+                255
+              ]
+            ],
+            [
+              684,
+              [
+                214,
+                215,
+                214,
+                255
+              ]
+            ],
+            [
+              737,
+              [
+                214,
+                215,
+                214,
+                255
+              ]
+            ],
+            [
+              789,
+              [
+                181,
+                178,
+                173,
+                255
+              ]
+            ],
+            [
+              842,
+              [
+                181,
+                178,
+                173,
+                255
+              ]
+            ],
+            [
+              895,
+              [
+                177,
+                174,
+                173,
+                255
+              ]
+            ],
+            [
+              947,
+              [
+                165,
+                162,
+                165,
+                255
+              ]
+            ],
+            [
+              1000,
+              [
+                144,
+                142,
+                144,
+                255
+              ]
+            ]
+          ],
+          "outline": [
+            8,
+            8,
+            10,
+            245
+          ],
+          "outline_width": 1.15,
+          "glow": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "glow_radius": 0,
+          "shadow": [
+            0,
+            0,
+            0,
+            230
+          ],
+          "shadow_offset": [
+            1,
+            2
+          ],
+          "shadow_radius": 0.65,
+          "italic": 0,
+          "tracking": 0,
+          "weight": 0,
+          "motion": 0
+        }
+      }
+    },
+    {
+      "expected_label_sha256": "e068458f46de16f1375670a431a5a17808986636f834fd0f76a2032afcf5da1d",
+      "label": {
+        "id": "img_ui_name_jpn_187_2",
+        "text": "状态",
+        "rect": [
+          0,
+          64,
+          128,
+          32
+        ],
+        "font_size": 20,
+        "style": {
+          "fill": [
+            244,
+            244,
+            236,
+            255
+          ],
+          "stroke_fill": [
+            35,
+            35,
+            35,
+            240
+          ],
+          "shadow_fill": [
+            0,
+            0,
+            0,
+            180
+          ]
+        },
+        "align": "center",
+        "translation_basis": "source-image-cell-with-context",
+        "source_text_sha256": "e10195a1239fb321327bafbe0397ebfcf7f0985a6e3bc28661a65132025b6808",
+        "source_ids": [],
+        "restoration": {
+          "source_rgba_sha256": "9c8b4724e5ff35ff67e0bbda1c37476acc7738fb3fcd729b7351f2f368cd2c65",
+          "mask": {
+            "path": "locales/zh-Hans/texture-overlays/restorations/review-v3-20261026/img_ui_name_jpn_187_2-mask.png",
+            "sha256": "effb451e5f46d0886b7af4619db5e926331493d39d5553f9a4216ac1f526589c"
+          },
+          "patch": {
+            "path": "locales/zh-Hans/texture-overlays/restorations/review-v3-20261026/img_ui_name_jpn_187_2-patch.png",
+            "sha256": "afcb522975d8be6547cfce3cdec8c541619ce6af686b52479e68f8d068b6cc53"
+          }
+        },
+        "font": {
+          "path": "build/font-source/NotoSansCJKsc-Bold.otf",
+          "sha256": "b5f0d1a190a7f9b43c310a8850630af12553df32c4c050543f9059732d9b4c0a"
+        },
+        "appearance": {
+          "kind": "source-style-v1",
+          "ink_box": [
+            2,
+            6,
+            75,
+            19
+          ],
+          "align": "center",
+          "gradient": [
+            [
+              0,
+              [
+                218,
+                217,
+                216,
+                255
+              ]
+            ],
+            [
+              53,
+              [
+                255,
+                255,
+                255,
+                255
+              ]
+            ],
+            [
+              105,
+              [
+                255,
+                255,
+                255,
+                255
+              ]
+            ],
+            [
+              158,
+              [
+                247,
+                247,
+                247,
+                255
+              ]
+            ],
+            [
+              211,
+              [
+                247,
+                247,
+                247,
+                255
+              ]
+            ],
+            [
+              263,
+              [
+                247,
+                247,
+                247,
+                255
+              ]
+            ],
+            [
+              316,
+              [
+                255,
+                255,
+                255,
+                255
+              ]
+            ],
+            [
+              368,
+              [
+                255,
+                255,
+                255,
+                255
+              ]
+            ],
+            [
+              421,
+              [
+                255,
+                255,
+                255,
+                255
+              ]
+            ],
+            [
+              474,
+              [
+                255,
+                255,
+                255,
+                255
+              ]
+            ],
+            [
+              526,
+              [
+                239,
+                243,
+                239,
+                255
+              ]
+            ],
+            [
+              579,
+              [
+                239,
+                243,
+                239,
+                255
+              ]
+            ],
+            [
+              632,
+              [
+                239,
+                243,
+                239,
+                255
+              ]
+            ],
+            [
+              684,
+              [
+                239,
+                243,
+                239,
+                255
+              ]
+            ],
+            [
+              737,
+              [
+                198,
+                198,
+                198,
+                255
+              ]
+            ],
+            [
+              789,
+              [
+                189,
+                190,
+                189,
+                255
+              ]
+            ],
+            [
+              842,
+              [
+                189,
+                190,
+                189,
+                255
+              ]
+            ],
+            [
+              895,
+              [
+                174,
+                175,
+                174,
+                255
+              ]
+            ],
+            [
+              947,
+              [
+                156,
+                162,
+                156,
+                255
+              ]
+            ],
+            [
+              1000,
+              [
+                132,
+                138,
+                132,
+                255
+              ]
+            ]
+          ],
+          "outline": [
+            8,
+            8,
+            10,
+            245
+          ],
+          "outline_width": 1.15,
+          "glow": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "glow_radius": 0,
+          "shadow": [
+            0,
+            0,
+            0,
+            230
+          ],
+          "shadow_offset": [
+            1,
+            2
+          ],
+          "shadow_radius": 0.65,
+          "italic": 0,
+          "tracking": 0,
+          "weight": 0,
+          "motion": 0
+        }
+      }
+    },
+    {
+      "expected_label_sha256": "167bd093da7917b4d6d8ad473470b1dbfeb14cb1c6e9af01cc68f1fad2ddbb80",
+      "label": {
+        "id": "img_ui_name_jpn_187_3",
+        "text": "特殊",
+        "rect": [
+          0,
+          96,
+          128,
+          32
+        ],
+        "font_size": 20,
+        "style": {
+          "fill": [
+            244,
+            244,
+            236,
+            255
+          ],
+          "stroke_fill": [
+            35,
+            35,
+            35,
+            240
+          ],
+          "shadow_fill": [
+            0,
+            0,
+            0,
+            180
+          ]
+        },
+        "align": "center",
+        "translation_basis": "source-image-cell-with-context",
+        "source_text_sha256": "ccc0d708878f798eb60b6a58a10b26b519f5ab228d622e16d65473a13c955b53",
+        "source_ids": [],
+        "restoration": {
+          "source_rgba_sha256": "0aa9ea31927732d93ddfa22b50f652530804209827b1b889c6a92c3d2e1863d1",
+          "mask": {
+            "path": "locales/zh-Hans/texture-overlays/restorations/review-v3-20261026/img_ui_name_jpn_187_3-mask.png",
+            "sha256": "effb451e5f46d0886b7af4619db5e926331493d39d5553f9a4216ac1f526589c"
+          },
+          "patch": {
+            "path": "locales/zh-Hans/texture-overlays/restorations/review-v3-20261026/img_ui_name_jpn_187_3-patch.png",
+            "sha256": "7348676a924984aa832599dd315104f78bd3a4cedba3c11dd40a3e4cc5d8ffc3"
+          }
+        },
+        "font": {
+          "path": "build/font-source/NotoSansCJKsc-Bold.otf",
+          "sha256": "b5f0d1a190a7f9b43c310a8850630af12553df32c4c050543f9059732d9b4c0a"
+        },
+        "appearance": {
+          "kind": "source-style-v1",
+          "ink_box": [
+            2,
+            6,
+            75,
+            19
+          ],
+          "align": "center",
+          "gradient": [
+            [
+              0,
+              [
+                226,
+                227,
+                226,
+                255
+              ]
+            ],
+            [
+              59,
+              [
+                247,
+                247,
+                247,
+                255
+              ]
+            ],
+            [
+              118,
+              [
+                255,
+                255,
+                255,
+                255
+              ]
+            ],
+            [
+              176,
+              [
+                247,
+                247,
+                247,
+                255
+              ]
+            ],
+            [
+              235,
+              [
+                247,
+                251,
+                247,
+                255
+              ]
+            ],
+            [
+              294,
+              [
+                247,
+                251,
+                247,
+                255
+              ]
+            ],
+            [
+              353,
+              [
+                247,
+                251,
+                247,
+                255
+              ]
+            ],
+            [
+              412,
+              [
+                247,
+                247,
+                247,
+                255
+              ]
+            ],
+            [
+              529,
+              [
+                239,
+                235,
+                239,
+                255
+              ]
+            ],
+            [
+              588,
+              [
+                239,
+                235,
+                239,
+                255
+              ]
+            ],
+            [
+              647,
+              [
+                239,
+                235,
+                239,
+                255
+              ]
+            ],
+            [
+              706,
+              [
+                239,
+                235,
+                239,
+                255
+              ]
+            ],
+            [
+              765,
+              [
+                198,
+                195,
+                194,
+                255
+              ]
+            ],
+            [
+              824,
+              [
+                198,
+                195,
+                194,
+                255
+              ]
+            ],
+            [
+              882,
+              [
+                198,
+                195,
+                194,
+                255
+              ]
+            ],
+            [
+              941,
+              [
+                198,
+                195,
+                194,
+                255
+              ]
+            ],
+            [
+              1000,
+              [
+                181,
+                180,
+                179,
+                255
+              ]
+            ]
+          ],
+          "outline": [
+            8,
+            8,
+            10,
+            245
+          ],
+          "outline_width": 1.15,
+          "glow": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "glow_radius": 0,
+          "shadow": [
+            0,
+            0,
+            0,
+            230
+          ],
+          "shadow_offset": [
+            1,
+            2
+          ],
+          "shadow_radius": 0.65,
+          "italic": 0,
+          "tracking": 0,
+          "weight": 0,
+          "motion": 0
+        }
+      }
+    },
+    {
+      "expected_label_sha256": "b7fad43306fe519d41e7428e7a7d9b8def56d793e18884c4f66f7ec19b877a8a",
+      "label": {
+        "id": "img_ui_name_jpn_188_2",
+        "text": "持有金钱",
+        "rect": [
+          176,
+          0,
+          80,
+          28
+        ],
+        "font_size": 17,
+        "style": {
+          "fill": [
+            244,
+            215,
+            145,
+            255
+          ],
+          "stroke_fill": [
+            35,
+            35,
+            35,
+            240
+          ],
+          "shadow_fill": [
+            0,
+            0,
+            0,
+            180
+          ]
+        },
+        "align": "left",
+        "translation_basis": "source-image-cell-with-context",
+        "source_text_sha256": "2a7b3f529f182f2b5e4ee4084f4bd7bf0905b871ec3d2b6e9bba872edea5daf8",
+        "source_ids": [],
+        "restoration": {
+          "source_rgba_sha256": "69f7e2b0496aa9312a4760ccb374fcab8faef9197f11c9f6da2acd3d2b5a7cfd",
+          "mask": {
+            "path": "locales/zh-Hans/texture-overlays/restorations/review-v3-20261026/img_ui_name_jpn_188_2-mask.png",
+            "sha256": "ccc64a2427f8f65ac8ae8c4c736cd6af4c00a845b71b67fca5cd75627ae8d7bb"
+          },
+          "patch": {
+            "path": "locales/zh-Hans/texture-overlays/restorations/review-v3-20261026/img_ui_name_jpn_188_2-patch.png",
+            "sha256": "bb870f7f056e3f77eb3a50040af774125ba907fde72a31c59ef3d294500f18f1"
+          }
+        },
+        "font": {
+          "path": "build/font-source/NotoSansCJKsc-Bold.otf",
+          "sha256": "b5f0d1a190a7f9b43c310a8850630af12553df32c4c050543f9059732d9b4c0a"
+        },
+        "appearance": {
+          "kind": "source-style-v1",
+          "ink_box": [
+            3,
+            4,
+            61,
+            19
+          ],
+          "align": "left",
+          "gradient": [
+            [
+              0,
+              [
+                218,
+                208,
+                196,
+                255
+              ]
+            ],
+            [
+              56,
+              [
+                255,
+                235,
+                222,
+                255
+              ]
+            ],
+            [
+              111,
+              [
+                255,
+                235,
+                222,
+                255
+              ]
+            ],
+            [
+              167,
+              [
+                255,
+                235,
+                222,
+                255
+              ]
+            ],
+            [
+              222,
+              [
+                251,
+                229,
+                160,
+                255
+              ]
+            ],
+            [
+              278,
+              [
+                251,
+                229,
+                156,
+                255
+              ]
+            ],
+            [
+              333,
+              [
+                247,
+                227,
+                156,
+                255
+              ]
+            ],
+            [
+              389,
+              [
+                255,
+                227,
+                140,
+                255
+              ]
+            ],
+            [
+              444,
+              [
+                239,
+                223,
+                123,
+                255
+              ]
+            ],
+            [
+              500,
+              [
+                243,
+                211,
+                115,
+                255
+              ]
+            ],
+            [
+              556,
+              [
+                239,
+                207,
+                115,
+                255
+              ]
+            ],
+            [
+              611,
+              [
+                243,
+                207,
+                115,
+                255
+              ]
+            ],
+            [
+              667,
+              [
+                255,
+                190,
+                123,
+                255
+              ]
+            ],
+            [
+              722,
+              [
+                255,
+                186,
+                123,
+                255
+              ]
+            ],
+            [
+              778,
+              [
+                255,
+                182,
+                123,
+                255
+              ]
+            ],
+            [
+              833,
+              [
+                255,
+                158,
+                123,
+                255
+              ]
+            ],
+            [
+              889,
+              [
+                255,
+                158,
+                123,
+                255
+              ]
+            ],
+            [
+              944,
+              [
+                255,
+                158,
+                123,
+                255
+              ]
+            ],
+            [
+              1000,
+              [
+                198,
+                125,
+                94,
+                255
+              ]
+            ]
+          ],
+          "outline": [
+            8,
+            8,
+            10,
+            245
+          ],
+          "outline_width": 1.15,
+          "glow": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "glow_radius": 0,
+          "shadow": [
+            0,
+            0,
+            0,
+            230
+          ],
+          "shadow_offset": [
+            1,
+            2
+          ],
+          "shadow_radius": 0.65,
+          "italic": 0,
+          "tracking": 0,
+          "weight": 0,
+          "motion": 0
+        }
+      }
+    },
+    {
+      "expected_label_sha256": "7d538104fc34591591bc500a72724e140aa25a8a21ab0b6b96c4ee9554c83fc6",
+      "label": {
+        "id": "img_ui_name_jpn_188_4",
+        "text": "购买",
+        "rect": [
+          0,
+          72,
+          176,
+          28
+        ],
+        "font_size": 17,
+        "style": {
+          "fill": [
+            244,
+            215,
+            145,
+            255
+          ],
+          "stroke_fill": [
+            35,
+            35,
+            35,
+            240
+          ],
+          "shadow_fill": [
+            0,
+            0,
+            0,
+            180
+          ]
+        },
+        "align": "left",
+        "translation_basis": "source-image-cell-with-context",
+        "source_text_sha256": "4f4d2e7bfc6fa1b13c8d8028360dba3febdd71bb3ebfd559ef39fffc763a4b08",
+        "source_ids": [],
+        "restoration": {
+          "source_rgba_sha256": "640502fff931b54f6199094e0a25234727636fbce3c489882969cb9ae84040db",
+          "mask": {
+            "path": "locales/zh-Hans/texture-overlays/restorations/review-v3-20261026/img_ui_name_jpn_188_4-mask.png",
+            "sha256": "206e6d0fb6889632bdd40f4a765d0491eee7fd87af0a81c2dd3dddb854f6d42d"
+          },
+          "patch": {
+            "path": "locales/zh-Hans/texture-overlays/restorations/review-v3-20261026/img_ui_name_jpn_188_4-patch.png",
+            "sha256": "a81c2f647c3cd153a32282148c03106999c45f2c77795af56470d82b25d7f0ae"
+          }
+        },
+        "font": {
+          "path": "build/font-source/NotoSansCJKsc-Bold.otf",
+          "sha256": "b5f0d1a190a7f9b43c310a8850630af12553df32c4c050543f9059732d9b4c0a"
+        },
+        "appearance": {
+          "kind": "source-style-v1",
+          "ink_box": [
+            3,
+            1,
+            170,
+            18
+          ],
+          "align": "left",
+          "gradient": [
+            [
+              0,
+              [
+                142,
+                134,
+                122,
+                255
+              ]
+            ],
+            [
+              38,
+              [
+                178,
+                166,
+                156,
+                255
+              ]
+            ],
+            [
+              77,
+              [
+                251,
+                233,
+                198,
+                255
+              ]
+            ],
+            [
+              115,
+              [
+                255,
+                235,
+                198,
+                255
+              ]
+            ],
+            [
+              154,
+              [
+                255,
+                235,
+                198,
+                255
+              ]
+            ],
+            [
+              192,
+              [
+                255,
+                235,
+                198,
+                255
+              ]
+            ],
+            [
+              231,
+              [
+                255,
+                235,
+                198,
+                255
+              ]
+            ],
+            [
+              269,
+              [
+                255,
+                231,
+                140,
+                255
+              ]
+            ],
+            [
+              308,
+              [
+                243,
+                219,
+                132,
+                255
+              ]
+            ],
+            [
+              346,
+              [
+                255,
+                223,
+                123,
+                255
+              ]
+            ],
+            [
+              385,
+              [
+                206,
+                190,
+                114,
+                255
+              ]
+            ],
+            [
+              423,
+              [
+                243,
+                195,
+                115,
+                255
+              ]
+            ],
+            [
+              462,
+              [
+                243,
+                195,
+                115,
+                255
+              ]
+            ],
+            [
+              500,
+              [
+                243,
+                195,
+                115,
+                255
+              ]
+            ],
+            [
+              538,
+              [
+                243,
+                176,
+                115,
+                255
+              ]
+            ],
+            [
+              577,
+              [
+                247,
+                170,
+                123,
+                255
+              ]
+            ],
+            [
+              615,
+              [
+                247,
+                166,
+                123,
+                255
+              ]
+            ],
+            [
+              654,
+              [
+                247,
+                166,
+                123,
+                255
+              ]
+            ],
+            [
+              692,
+              [
+                247,
+                166,
+                123,
+                255
+              ]
+            ],
+            [
+              731,
+              [
+                198,
+                121,
+                115,
+                255
+              ]
+            ],
+            [
+              1000,
+              [
+                165,
+                121,
+                107,
+                255
+              ]
+            ]
+          ],
+          "outline": [
+            8,
+            8,
+            10,
+            245
+          ],
+          "outline_width": 1.15,
+          "glow": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "glow_radius": 0,
+          "shadow": [
+            0,
+            0,
+            0,
+            230
+          ],
+          "shadow_offset": [
+            1,
+            2
+          ],
+          "shadow_radius": 0.65,
+          "italic": 0,
+          "tracking": 0,
+          "weight": 0,
+          "motion": 0,
+          "effect_clip": [
+            0,
+            0,
+            176,
+            24
+          ]
+        }
+      }
+    },
+    {
+      "expected_label_sha256": "e0922b3a4507aa531086f472a275cc2e1b44cc350c0d2be5ca6509e5b52b45ab",
+      "label": {
+        "id": "img_ui_name_jpn_188_5",
+        "text": "出售",
+        "rect": [
+          0,
+          100,
+          176,
+          28
+        ],
+        "font_size": 18,
+        "style": {
+          "fill": [
+            244,
+            215,
+            145,
+            255
+          ],
+          "stroke_fill": [
+            35,
+            35,
+            35,
+            240
+          ],
+          "shadow_fill": [
+            0,
+            0,
+            0,
+            180
+          ]
+        },
+        "align": "left",
+        "translation_basis": "source-image-cell-with-context",
+        "source_text_sha256": "ee8c398bbe6e22331de3123b3c46b10efd98ef779c48c66da666adb9e6432256",
+        "source_ids": [],
+        "restoration": {
+          "source_rgba_sha256": "96e445db59e17f127d0827c11796babcfa52b9a7ce1a385eb5f4b35014e850a7",
+          "mask": {
+            "path": "locales/zh-Hans/texture-overlays/restorations/review-v3-20261026/img_ui_name_jpn_188_5-mask.png",
+            "sha256": "206e6d0fb6889632bdd40f4a765d0491eee7fd87af0a81c2dd3dddb854f6d42d"
+          },
+          "patch": {
+            "path": "locales/zh-Hans/texture-overlays/restorations/review-v3-20261026/img_ui_name_jpn_188_5-patch.png",
+            "sha256": "a81c2f647c3cd153a32282148c03106999c45f2c77795af56470d82b25d7f0ae"
+          }
+        },
+        "font": {
+          "path": "build/font-source/NotoSansCJKsc-Bold.otf",
+          "sha256": "b5f0d1a190a7f9b43c310a8850630af12553df32c4c050543f9059732d9b4c0a"
+        },
+        "appearance": {
+          "kind": "source-style-v1",
+          "ink_box": [
+            3,
+            0,
+            170,
+            18
+          ],
+          "align": "left",
+          "gradient": [
+            [
+              0,
+              [
+                255,
+                239,
+                231,
+                255
+              ]
+            ],
+            [
+              37,
+              [
+                255,
+                239,
+                231,
+                255
+              ]
+            ],
+            [
+              74,
+              [
+                255,
+                239,
+                222,
+                255
+              ]
+            ],
+            [
+              111,
+              [
+                255,
+                237,
+                218,
+                255
+              ]
+            ],
+            [
+              148,
+              [
+                255,
+                231,
+                165,
+                255
+              ]
+            ],
+            [
+              185,
+              [
+                255,
+                231,
+                165,
+                255
+              ]
+            ],
+            [
+              222,
+              [
+                255,
+                231,
+                165,
+                255
+              ]
+            ],
+            [
+              259,
+              [
+                255,
+                231,
+                165,
+                255
+              ]
+            ],
+            [
+              296,
+              [
+                255,
+                223,
+                123,
+                255
+              ]
+            ],
+            [
+              333,
+              [
+                255,
+                223,
+                123,
+                255
+              ]
+            ],
+            [
+              370,
+              [
+                255,
+                219,
+                123,
+                255
+              ]
+            ],
+            [
+              407,
+              [
+                255,
+                219,
+                123,
+                255
+              ]
+            ],
+            [
+              444,
+              [
+                255,
+                190,
+                123,
+                255
+              ]
+            ],
+            [
+              481,
+              [
+                255,
+                190,
+                123,
+                255
+              ]
+            ],
+            [
+              519,
+              [
+                255,
+                190,
+                123,
+                255
+              ]
+            ],
+            [
+              556,
+              [
+                255,
+                190,
+                123,
+                255
+              ]
+            ],
+            [
+              593,
+              [
+                247,
+                152,
+                119,
+                255
+              ]
+            ],
+            [
+              630,
+              [
+                190,
+                124,
+                93,
+                255
+              ]
+            ],
+            [
+              667,
+              [
+                167,
+                134,
+                119,
+                255
+              ]
+            ],
+            [
+              1000,
+              [
+                158,
+                122,
+                101,
+                255
+              ]
+            ]
+          ],
+          "outline": [
+            8,
+            8,
+            10,
+            245
+          ],
+          "outline_width": 1.15,
+          "glow": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "glow_radius": 0,
+          "shadow": [
+            0,
+            0,
+            0,
+            230
+          ],
+          "shadow_offset": [
+            1,
+            2
+          ],
+          "shadow_radius": 0.65,
+          "italic": 0,
+          "tracking": 0,
+          "weight": 0,
+          "motion": 0,
+          "effect_clip": [
+            0,
+            0,
+            176,
+            22
+          ]
+        }
+      }
+    },
+    {
+      "expected_label_sha256": "d972045ab6d8864647a8e589a8ca20b7b9a9ccdf531e5098771e20ad0a0032b0",
+      "label": {
+        "id": "img_ui_name_jpn_188_6",
+        "text": "加工",
+        "rect": [
+          0,
+          128,
+          176,
+          24
+        ],
+        "font_size": 13,
+        "style": {
+          "fill": [
+            244,
+            215,
+            145,
+            255
+          ],
+          "stroke_fill": [
+            35,
+            35,
+            35,
+            240
+          ],
+          "shadow_fill": [
+            0,
+            0,
+            0,
+            180
+          ]
+        },
+        "align": "left",
+        "translation_basis": "source-image-cell-with-context",
+        "source_text_sha256": "b04b5797fb4c857b7421f1625192c31c43aa6ee12423dc9e4a3892ee1e532c3b",
+        "source_ids": [],
+        "restoration": {
+          "source_rgba_sha256": "4643947de6dceddbc597d7392c94104b441fa8f063e50b708c4bad8b36769e61",
+          "mask": {
+            "path": "locales/zh-Hans/texture-overlays/restorations/review-v3-20261026/img_ui_name_jpn_188_6-mask.png",
+            "sha256": "61d13c3889dba939746b368e8ad509374f7d56c28ae256f012844818089ada51"
+          },
+          "patch": {
+            "path": "locales/zh-Hans/texture-overlays/restorations/review-v3-20261026/img_ui_name_jpn_188_6-patch.png",
+            "sha256": "35e5784899776624021b156e29e867b93333608afb232e26e8356882e98e7606"
+          }
+        },
+        "font": {
+          "path": "build/font-source/NotoSansCJKsc-Bold.otf",
+          "sha256": "b5f0d1a190a7f9b43c310a8850630af12553df32c4c050543f9059732d9b4c0a"
+        },
+        "appearance": {
+          "kind": "source-style-v1",
+          "ink_box": [
+            3,
+            0,
+            170,
+            17
+          ],
+          "align": "left",
+          "gradient": [
+            [
+              0,
+              [
+                219,
+                209,
+                202,
+                255
+              ]
+            ],
+            [
+              56,
+              [
+                255,
+                239,
+                222,
+                255
+              ]
+            ],
+            [
+              111,
+              [
+                255,
+                239,
+                222,
+                255
+              ]
+            ],
+            [
+              167,
+              [
+                255,
+                239,
+                222,
+                255
+              ]
+            ],
+            [
+              222,
+              [
+                255,
+                239,
+                169,
+                255
+              ]
+            ],
+            [
+              278,
+              [
+                255,
+                235,
+                165,
+                255
+              ]
+            ],
+            [
+              333,
+              [
+                255,
+                235,
+                165,
+                255
+              ]
+            ],
+            [
+              389,
+              [
+                255,
+                231,
+                165,
+                255
+              ]
+            ],
+            [
+              444,
+              [
+                255,
+                227,
+                123,
+                255
+              ]
+            ],
+            [
+              500,
+              [
+                255,
+                227,
+                123,
+                255
+              ]
+            ],
+            [
+              556,
+              [
+                255,
+                223,
+                123,
+                255
+              ]
+            ],
+            [
+              611,
+              [
+                255,
+                223,
+                123,
+                255
+              ]
+            ],
+            [
+              667,
+              [
+                255,
+                195,
+                123,
+                255
+              ]
+            ],
+            [
+              722,
+              [
+                255,
+                186,
+                123,
+                255
+              ]
+            ],
+            [
+              778,
+              [
+                255,
+                186,
+                123,
+                255
+              ]
+            ],
+            [
+              833,
+              [
+                255,
+                186,
+                123,
+                255
+              ]
+            ],
+            [
+              889,
+              [
+                255,
+                162,
+                123,
+                255
+              ]
+            ],
+            [
+              944,
+              [
+                255,
+                158,
+                123,
+                255
+              ]
+            ],
+            [
+              1000,
+              [
+                218,
+                140,
+                105,
+                255
+              ]
+            ]
+          ],
+          "outline": [
+            8,
+            8,
+            10,
+            245
+          ],
+          "outline_width": 1.15,
+          "glow": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "glow_radius": 0,
+          "shadow": [
+            0,
+            0,
+            0,
+            230
+          ],
+          "shadow_offset": [
+            1,
+            2
+          ],
+          "shadow_radius": 0.65,
+          "italic": 0,
+          "tracking": 0,
+          "weight": 0,
+          "motion": 0,
+          "effect_clip": [
+            0,
+            0,
+            176,
+            20
+          ]
+        }
+      }
+    },
+    {
+      "expected_label_sha256": null,
+      "label": {
+        "id": "quest_illustration_00_clawpers",
+        "text": "克洛普斯",
+        "rect": [
+          32,
+          220,
+          192,
+          36
+        ],
+        "font_size": 18,
+        "align": "center",
+        "translation_basis": "quest-current-text-and-existing-monster-name-inventory",
+        "source_text_sha256": "f64f2063a7518c57b94cbc6da149afc0119138e9dae1d62e8fb99f8be73f777e",
+        "source_ids": [],
+        "font": {
+          "path": "build/font-source/NotoSansCJKsc-Regular.otf",
+          "sha256": "2c76254f6fc379fddfce0a7e84fb5385bb135d3e399294f6eeb6680d0365b74b"
+        },
+        "restoration": {
+          "source_rgba_sha256": "43770bec614d063dd2cffe8d7d532b9cb0fed69fdf3b4cf1c62969cf78edf4ac",
+          "mask": {
+            "path": "locales/zh-Hans/texture-overlays/restorations/gameplay-v9/quest_illustration_00_clawpers-mask.png",
+            "sha256": "f27f58d026e59a0dd7eb29ef6d6a1b7f8de556d6f51fb43bcc9f83ead3908320"
+          },
+          "patch": {
+            "path": "locales/zh-Hans/texture-overlays/restorations/gameplay-v9/quest_illustration_00_clawpers-patch.png",
+            "sha256": "879e666d21351aff737c5c268e8567016004e941cc9d804df92e94ae6363c6a0"
+          }
+        },
+        "appearance": {
+          "kind": "source-style-v1",
+          "ink_box": [
+            4,
+            6,
+            184,
+            18
+          ],
+          "align": "center",
+          "gradient": [
+            [
+              0,
+              [
+                255,
+                137,
+                139,
+                255
+              ]
+            ],
+            [
+              430,
+              [
+                255,
+                172,
+                173,
+                255
+              ]
+            ],
+            [
+              1000,
+              [
+                255,
+                244,
+                238,
+                255
+              ]
+            ]
+          ],
+          "outline": [
+            8,
+            8,
+            10,
+            245
+          ],
+          "outline_width": 1,
+          "shadow": [
+            0,
+            0,
+            0,
+            220
+          ],
+          "shadow_offset": [
+            1,
+            1
+          ],
+          "shadow_radius": 0.5,
+          "glow": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "glow_radius": 0,
+          "italic": 0,
+          "tracking": 0,
+          "weight": 0,
+          "motion": 0
+        }
+      }
+    },
+    {
+      "expected_label_sha256": null,
+      "label": {
+        "id": "quest_illustration_01_pierce",
+        "text": "穿刺蠕虫",
+        "rect": [
+          32,
+          220,
+          192,
+          36
+        ],
+        "font_size": 18,
+        "align": "center",
+        "translation_basis": "quest-current-text-and-existing-monster-name-inventory",
+        "source_text_sha256": "55a02eb65005ef534f12193ce50a13cb1cc579f368460fa74a7450adc057e550",
+        "source_ids": [],
+        "font": {
+          "path": "build/font-source/NotoSansCJKsc-Regular.otf",
+          "sha256": "2c76254f6fc379fddfce0a7e84fb5385bb135d3e399294f6eeb6680d0365b74b"
+        },
+        "restoration": {
+          "source_rgba_sha256": "ba4dc3667667d39cbf7aa762c98ad619fea72f0e126442ae80e3b592c690ee63",
+          "mask": {
+            "path": "locales/zh-Hans/texture-overlays/restorations/gameplay-v9/quest_illustration_01_pierce-mask.png",
+            "sha256": "f6214501e97a26f51f47d2d487393deb83b94b0052a320c2c4f38ac30f13d014"
+          },
+          "patch": {
+            "path": "locales/zh-Hans/texture-overlays/restorations/gameplay-v9/quest_illustration_01_pierce-patch.png",
+            "sha256": "879e666d21351aff737c5c268e8567016004e941cc9d804df92e94ae6363c6a0"
+          }
+        },
+        "appearance": {
+          "kind": "source-style-v1",
+          "ink_box": [
+            4,
+            5,
+            184,
+            18
+          ],
+          "align": "center",
+          "gradient": [
+            [
+              0,
+              [
+                255,
+                137,
+                139,
+                255
+              ]
+            ],
+            [
+              430,
+              [
+                255,
+                172,
+                173,
+                255
+              ]
+            ],
+            [
+              1000,
+              [
+                255,
+                244,
+                238,
+                255
+              ]
+            ]
+          ],
+          "outline": [
+            8,
+            8,
+            10,
+            245
+          ],
+          "outline_width": 1,
+          "shadow": [
+            0,
+            0,
+            0,
+            220
+          ],
+          "shadow_offset": [
+            1,
+            1
+          ],
+          "shadow_radius": 0.5,
+          "glow": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "glow_radius": 0,
+          "italic": 0,
+          "tracking": 0,
+          "weight": 0,
+          "motion": 0
+        }
+      }
+    },
+    {
+      "expected_label_sha256": null,
+      "label": {
+        "id": "quest_illustration_02_poison",
+        "text": "毒蠕虫",
+        "rect": [
+          32,
+          220,
+          192,
+          36
+        ],
+        "font_size": 18,
+        "align": "center",
+        "translation_basis": "quest-current-text-and-existing-monster-name-inventory",
+        "source_text_sha256": "012acf4666c21273311dfd81912355c9f95220dbe3e337892320733033669f26",
+        "source_ids": [],
+        "font": {
+          "path": "build/font-source/NotoSansCJKsc-Regular.otf",
+          "sha256": "2c76254f6fc379fddfce0a7e84fb5385bb135d3e399294f6eeb6680d0365b74b"
+        },
+        "restoration": {
+          "source_rgba_sha256": "b9588894cc074ea9286bb5e34bb061106bbc9cd79984913b9fe9bb89cbebc5cc",
+          "mask": {
+            "path": "locales/zh-Hans/texture-overlays/restorations/gameplay-v9/quest_illustration_02_poison-mask.png",
+            "sha256": "58b54061b1692530fc1e7116feefefcfc760bf04984d40300cd53c4846cba3da"
+          },
+          "patch": {
+            "path": "locales/zh-Hans/texture-overlays/restorations/gameplay-v9/quest_illustration_02_poison-patch.png",
+            "sha256": "879e666d21351aff737c5c268e8567016004e941cc9d804df92e94ae6363c6a0"
+          }
+        },
+        "appearance": {
+          "kind": "source-style-v1",
+          "ink_box": [
+            4,
+            11,
+            184,
+            18
+          ],
+          "align": "center",
+          "gradient": [
+            [
+              0,
+              [
+                255,
+                137,
+                139,
+                255
+              ]
+            ],
+            [
+              430,
+              [
+                255,
+                172,
+                173,
+                255
+              ]
+            ],
+            [
+              1000,
+              [
+                255,
+                244,
+                238,
+                255
+              ]
+            ]
+          ],
+          "outline": [
+            8,
+            8,
+            10,
+            245
+          ],
+          "outline_width": 1,
+          "shadow": [
+            0,
+            0,
+            0,
+            220
+          ],
+          "shadow_offset": [
+            1,
+            1
+          ],
+          "shadow_radius": 0.5,
+          "glow": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "glow_radius": 0,
+          "italic": 0,
+          "tracking": 0,
+          "weight": 0,
+          "motion": 0
+        }
+      }
+    },
+    {
+      "expected_label_sha256": null,
+      "label": {
+        "id": "quest_illustration_03_phong",
+        "text": "蓬蓬",
+        "rect": [
+          32,
+          220,
+          192,
+          36
+        ],
+        "font_size": 18,
+        "align": "center",
+        "translation_basis": "quest-current-text-and-existing-monster-name-inventory",
+        "source_text_sha256": "7ec788e78807ecdd09a99bc76c9dbf20745682528cf46e30b4314b9607d00111",
+        "source_ids": [],
+        "font": {
+          "path": "build/font-source/NotoSansCJKsc-Regular.otf",
+          "sha256": "2c76254f6fc379fddfce0a7e84fb5385bb135d3e399294f6eeb6680d0365b74b"
+        },
+        "restoration": {
+          "source_rgba_sha256": "56da144ab374cdc32eb859c3942ba167e37f77c896f868f512768726de0099a8",
+          "mask": {
+            "path": "locales/zh-Hans/texture-overlays/restorations/gameplay-v9/quest_illustration_03_phong-mask.png",
+            "sha256": "ba5298f861ccd49a5312daa7774eb5a0923ad0dd3dad8eb77332d8bb3d2e8967"
+          },
+          "patch": {
+            "path": "locales/zh-Hans/texture-overlays/restorations/gameplay-v9/quest_illustration_03_phong-patch.png",
+            "sha256": "879e666d21351aff737c5c268e8567016004e941cc9d804df92e94ae6363c6a0"
+          }
+        },
+        "appearance": {
+          "kind": "source-style-v1",
+          "ink_box": [
+            4,
+            5,
+            184,
+            18
+          ],
+          "align": "center",
+          "gradient": [
+            [
+              0,
+              [
+                255,
+                137,
+                139,
+                255
+              ]
+            ],
+            [
+              430,
+              [
+                255,
+                172,
+                173,
+                255
+              ]
+            ],
+            [
+              1000,
+              [
+                255,
+                244,
+                238,
+                255
+              ]
+            ]
+          ],
+          "outline": [
+            8,
+            8,
+            10,
+            245
+          ],
+          "outline_width": 1,
+          "shadow": [
+            0,
+            0,
+            0,
+            220
+          ],
+          "shadow_offset": [
+            1,
+            1
+          ],
+          "shadow_radius": 0.5,
+          "glow": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "glow_radius": 0,
+          "italic": 0,
+          "tracking": 0,
+          "weight": 0,
+          "motion": 0
+        }
+      }
+    },
+    {
+      "expected_label_sha256": null,
+      "label": {
+        "id": "quest_illustration_04_black",
+        "text": "黑猫猫",
+        "rect": [
+          32,
+          220,
+          192,
+          36
+        ],
+        "font_size": 18,
+        "align": "center",
+        "translation_basis": "quest-current-text-and-existing-monster-name-inventory",
+        "source_text_sha256": "477a9fc859647601d319331114a5c2ddb32e3dda5f3bb96bcd4829295a954bf5",
+        "source_ids": [],
+        "font": {
+          "path": "build/font-source/NotoSansCJKsc-Regular.otf",
+          "sha256": "2c76254f6fc379fddfce0a7e84fb5385bb135d3e399294f6eeb6680d0365b74b"
+        },
+        "restoration": {
+          "source_rgba_sha256": "0e6a687f2be304248966782e9d6425116e88777f0b95fc08d29ed6c23623aaca",
+          "mask": {
+            "path": "locales/zh-Hans/texture-overlays/restorations/gameplay-v9/quest_illustration_04_black-mask.png",
+            "sha256": "e7ed4ec167b4977190c92a3208857cfd32050ef5fa265fab9110c5f4aa6d5e4b"
+          },
+          "patch": {
+            "path": "locales/zh-Hans/texture-overlays/restorations/gameplay-v9/quest_illustration_04_black-patch.png",
+            "sha256": "879e666d21351aff737c5c268e8567016004e941cc9d804df92e94ae6363c6a0"
+          }
+        },
+        "appearance": {
+          "kind": "source-style-v1",
+          "ink_box": [
+            4,
+            9,
+            184,
+            18
+          ],
+          "align": "center",
+          "gradient": [
+            [
+              0,
+              [
+                255,
+                137,
+                139,
+                255
+              ]
+            ],
+            [
+              430,
+              [
+                255,
+                172,
+                173,
+                255
+              ]
+            ],
+            [
+              1000,
+              [
+                255,
+                244,
+                238,
+                255
+              ]
+            ]
+          ],
+          "outline": [
+            8,
+            8,
+            10,
+            245
+          ],
+          "outline_width": 1,
+          "shadow": [
+            0,
+            0,
+            0,
+            220
+          ],
+          "shadow_offset": [
+            1,
+            1
+          ],
+          "shadow_radius": 0.5,
+          "glow": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "glow_radius": 0,
+          "italic": 0,
+          "tracking": 0,
+          "weight": 0,
+          "motion": 0
+        }
+      }
+    },
+    {
+      "expected_label_sha256": null,
+      "label": {
+        "id": "quest_illustration_05_mighty",
+        "text": "强壮拉普斯",
+        "rect": [
+          32,
+          220,
+          192,
+          36
+        ],
+        "font_size": 18,
+        "align": "center",
+        "translation_basis": "quest-current-text-and-existing-monster-name-inventory",
+        "source_text_sha256": "b93036b11b6855b816df00ad15a330e14e39d5a560b625316020021938acca80",
+        "source_ids": [],
+        "font": {
+          "path": "build/font-source/NotoSansCJKsc-Regular.otf",
+          "sha256": "2c76254f6fc379fddfce0a7e84fb5385bb135d3e399294f6eeb6680d0365b74b"
+        },
+        "restoration": {
+          "source_rgba_sha256": "1be3ab516cbd8fbf28e9ad512a1861586a7e61af9042dccf32adfb1e43e30721",
+          "mask": {
+            "path": "locales/zh-Hans/texture-overlays/restorations/gameplay-v9/quest_illustration_05_mighty-mask.png",
+            "sha256": "80601a734024c207847334f1e649b7117794636441f491547c48b105a9def4b5"
+          },
+          "patch": {
+            "path": "locales/zh-Hans/texture-overlays/restorations/gameplay-v9/quest_illustration_05_mighty-patch.png",
+            "sha256": "879e666d21351aff737c5c268e8567016004e941cc9d804df92e94ae6363c6a0"
+          }
+        },
+        "appearance": {
+          "kind": "source-style-v1",
+          "ink_box": [
+            4,
+            11,
+            184,
+            18
+          ],
+          "align": "center",
+          "gradient": [
+            [
+              0,
+              [
+                255,
+                137,
+                139,
+                255
+              ]
+            ],
+            [
+              430,
+              [
+                255,
+                172,
+                173,
+                255
+              ]
+            ],
+            [
+              1000,
+              [
+                255,
+                244,
+                238,
+                255
+              ]
+            ]
+          ],
+          "outline": [
+            8,
+            8,
+            10,
+            245
+          ],
+          "outline_width": 1,
+          "shadow": [
+            0,
+            0,
+            0,
+            220
+          ],
+          "shadow_offset": [
+            1,
+            1
+          ],
+          "shadow_radius": 0.5,
+          "glow": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "glow_radius": 0,
+          "italic": 0,
+          "tracking": 0,
+          "weight": 0,
+          "motion": 0
+        }
+      }
+    },
+    {
+      "expected_label_sha256": null,
+      "label": {
+        "id": "quest_illustration_06_clawbeast",
+        "text": "乌鸦兽",
+        "rect": [
+          32,
+          220,
+          192,
+          36
+        ],
+        "font_size": 18,
+        "align": "center",
+        "translation_basis": "quest-current-text-and-existing-monster-name-inventory",
+        "source_text_sha256": "ea1182d8f268033b99357ad47987647100ce722ff1256d18f5656878b835460d",
+        "source_ids": [],
+        "font": {
+          "path": "build/font-source/NotoSansCJKsc-Regular.otf",
+          "sha256": "2c76254f6fc379fddfce0a7e84fb5385bb135d3e399294f6eeb6680d0365b74b"
+        },
+        "restoration": {
+          "source_rgba_sha256": "65de6fe93b8b263c48e827d90982e52faa1318f62857158e1e044be59fd39595",
+          "mask": {
+            "path": "locales/zh-Hans/texture-overlays/restorations/gameplay-v9/quest_illustration_06_clawbeast-mask.png",
+            "sha256": "09786a7de5b23f97ebaeeff11734ec0f478c142b355e7a445806e6c198fb98e9"
+          },
+          "patch": {
+            "path": "locales/zh-Hans/texture-overlays/restorations/gameplay-v9/quest_illustration_06_clawbeast-patch.png",
+            "sha256": "879e666d21351aff737c5c268e8567016004e941cc9d804df92e94ae6363c6a0"
+          }
+        },
+        "appearance": {
+          "kind": "source-style-v1",
+          "ink_box": [
+            4,
+            11,
+            184,
+            18
+          ],
+          "align": "center",
+          "gradient": [
+            [
+              0,
+              [
+                255,
+                137,
+                139,
+                255
+              ]
+            ],
+            [
+              430,
+              [
+                255,
+                172,
+                173,
+                255
+              ]
+            ],
+            [
+              1000,
+              [
+                255,
+                244,
+                238,
+                255
+              ]
+            ]
+          ],
+          "outline": [
+            8,
+            8,
+            10,
+            245
+          ],
+          "outline_width": 1,
+          "shadow": [
+            0,
+            0,
+            0,
+            220
+          ],
+          "shadow_offset": [
+            1,
+            1
+          ],
+          "shadow_radius": 0.5,
+          "glow": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "glow_radius": 0,
+          "italic": 0,
+          "tracking": 0,
+          "weight": 0,
+          "motion": 0
+        }
+      }
+    },
+    {
+      "expected_label_sha256": null,
+      "label": {
+        "id": "quest_illustration_07_mere",
+        "text": "梅雷",
+        "rect": [
+          32,
+          220,
+          192,
+          36
+        ],
+        "font_size": 18,
+        "align": "center",
+        "translation_basis": "quest-current-text-and-existing-monster-name-inventory",
+        "source_text_sha256": "d0fd8e369f4c112bec3039eb9e33c06b91f9d049f6fd6b11622766a0e1bdf031",
+        "source_ids": [],
+        "font": {
+          "path": "build/font-source/NotoSansCJKsc-Regular.otf",
+          "sha256": "2c76254f6fc379fddfce0a7e84fb5385bb135d3e399294f6eeb6680d0365b74b"
+        },
+        "restoration": {
+          "source_rgba_sha256": "5561dd8989ddd00569490a49ec02d01771cd645a35d118096b5af2070c257aad",
+          "mask": {
+            "path": "locales/zh-Hans/texture-overlays/restorations/gameplay-v9/quest_illustration_07_mere-mask.png",
+            "sha256": "4259cce1c6bc40e46cac75eeba6eefffffd9a982493e82cdc71152ebad620397"
+          },
+          "patch": {
+            "path": "locales/zh-Hans/texture-overlays/restorations/gameplay-v9/quest_illustration_07_mere-patch.png",
+            "sha256": "879e666d21351aff737c5c268e8567016004e941cc9d804df92e94ae6363c6a0"
+          }
+        },
+        "appearance": {
+          "kind": "source-style-v1",
+          "ink_box": [
+            4,
+            5,
+            184,
+            18
+          ],
+          "align": "center",
+          "gradient": [
+            [
+              0,
+              [
+                255,
+                137,
+                139,
+                255
+              ]
+            ],
+            [
+              430,
+              [
+                255,
+                172,
+                173,
+                255
+              ]
+            ],
+            [
+              1000,
+              [
+                255,
+                244,
+                238,
+                255
+              ]
+            ]
+          ],
+          "outline": [
+            8,
+            8,
+            10,
+            245
+          ],
+          "outline_width": 1,
+          "shadow": [
+            0,
+            0,
+            0,
+            220
+          ],
+          "shadow_offset": [
+            1,
+            1
+          ],
+          "shadow_radius": 0.5,
+          "glow": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "glow_radius": 0,
+          "italic": 0,
+          "tracking": 0,
+          "weight": 0,
+          "motion": 0
+        }
+      }
+    },
+    {
+      "expected_label_sha256": null,
+      "label": {
+        "id": "quest_illustration_08_blaborer",
+        "text": "布莱博拉",
+        "rect": [
+          32,
+          220,
+          192,
+          36
+        ],
+        "font_size": 18,
+        "align": "center",
+        "translation_basis": "quest-current-text-and-existing-monster-name-inventory",
+        "source_text_sha256": "95e9495b87cdca88f1e80dbe5a617105e467ec09c63f94f9d99742e14eefc468",
+        "source_ids": [],
+        "font": {
+          "path": "build/font-source/NotoSansCJKsc-Regular.otf",
+          "sha256": "2c76254f6fc379fddfce0a7e84fb5385bb135d3e399294f6eeb6680d0365b74b"
+        },
+        "restoration": {
+          "source_rgba_sha256": "f89fb9c30728cd609d299a1a017ee6a6df57923e2db8d238d31ce6c9d34fc3ac",
+          "mask": {
+            "path": "locales/zh-Hans/texture-overlays/restorations/gameplay-v9/quest_illustration_08_blaborer-mask.png",
+            "sha256": "dc37dd3596d654496e9d031b73027be10ce6d8c4a7299873b58ff8dfceebf522"
+          },
+          "patch": {
+            "path": "locales/zh-Hans/texture-overlays/restorations/gameplay-v9/quest_illustration_08_blaborer-patch.png",
+            "sha256": "879e666d21351aff737c5c268e8567016004e941cc9d804df92e94ae6363c6a0"
+          }
+        },
+        "appearance": {
+          "kind": "source-style-v1",
+          "ink_box": [
+            4,
+            11,
+            184,
+            18
+          ],
+          "align": "center",
+          "gradient": [
+            [
+              0,
+              [
+                255,
+                137,
+                139,
+                255
+              ]
+            ],
+            [
+              430,
+              [
+                255,
+                172,
+                173,
+                255
+              ]
+            ],
+            [
+              1000,
+              [
+                255,
+                244,
+                238,
+                255
+              ]
+            ]
+          ],
+          "outline": [
+            8,
+            8,
+            10,
+            245
+          ],
+          "outline_width": 1,
+          "shadow": [
+            0,
+            0,
+            0,
+            220
+          ],
+          "shadow_offset": [
+            1,
+            1
+          ],
+          "shadow_radius": 0.5,
+          "glow": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "glow_radius": 0,
+          "italic": 0,
+          "tracking": 0,
+          "weight": 0,
+          "motion": 0
+        }
+      }
+    },
+    {
+      "expected_label_sha256": null,
+      "label": {
+        "id": "quest_illustration_09_warewolfthief",
+        "text": "狼人盗贼",
+        "rect": [
+          32,
+          220,
+          192,
+          36
+        ],
+        "font_size": 18,
+        "align": "center",
+        "translation_basis": "quest-current-text-and-existing-monster-name-inventory",
+        "source_text_sha256": "d256938cf12011c1c91fc7a50dee25d031bd0ae569c597e85d7b03471c2b91ba",
+        "source_ids": [],
+        "font": {
+          "path": "build/font-source/NotoSansCJKsc-Regular.otf",
+          "sha256": "2c76254f6fc379fddfce0a7e84fb5385bb135d3e399294f6eeb6680d0365b74b"
+        },
+        "restoration": {
+          "source_rgba_sha256": "fb448c921073fb4c0165628184b2757281a31b0cce4ab42237196c89fcc41e3c",
+          "mask": {
+            "path": "locales/zh-Hans/texture-overlays/restorations/gameplay-v9/quest_illustration_09_warewolfthief-mask.png",
+            "sha256": "ebc1c007b78bbcff703a29a51da78d467f679ee32be0fc348cef0bd753b944a6"
+          },
+          "patch": {
+            "path": "locales/zh-Hans/texture-overlays/restorations/gameplay-v9/quest_illustration_09_warewolfthief-patch.png",
+            "sha256": "879e666d21351aff737c5c268e8567016004e941cc9d804df92e94ae6363c6a0"
+          }
+        },
+        "appearance": {
+          "kind": "source-style-v1",
+          "ink_box": [
+            4,
+            11,
+            184,
+            18
+          ],
+          "align": "center",
+          "gradient": [
+            [
+              0,
+              [
+                255,
+                137,
+                139,
+                255
+              ]
+            ],
+            [
+              430,
+              [
+                255,
+                172,
+                173,
+                255
+              ]
+            ],
+            [
+              1000,
+              [
+                255,
+                244,
+                238,
+                255
+              ]
+            ]
+          ],
+          "outline": [
+            8,
+            8,
+            10,
+            245
+          ],
+          "outline_width": 1,
+          "shadow": [
+            0,
+            0,
+            0,
+            220
+          ],
+          "shadow_offset": [
+            1,
+            1
+          ],
+          "shadow_radius": 0.5,
+          "glow": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "glow_radius": 0,
+          "italic": 0,
+          "tracking": 0,
+          "weight": 0,
+          "motion": 0
+        }
+      }
+    },
+    {
+      "expected_label_sha256": null,
+      "label": {
+        "id": "quest_illustration_10_wereboar",
+        "text": "野猪人",
+        "rect": [
+          32,
+          220,
+          192,
+          36
+        ],
+        "font_size": 18,
+        "align": "center",
+        "translation_basis": "quest-current-text-and-existing-monster-name-inventory",
+        "source_text_sha256": "dc3683c9ac889d6210eb8d1c2661023e52e4075d3275a4403faab33162c6886b",
+        "source_ids": [],
+        "font": {
+          "path": "build/font-source/NotoSansCJKsc-Regular.otf",
+          "sha256": "2c76254f6fc379fddfce0a7e84fb5385bb135d3e399294f6eeb6680d0365b74b"
+        },
+        "restoration": {
+          "source_rgba_sha256": "685f4799db085e2801b9090e15b47de8fb06a6d68c2d537f74e8f56520ac05a5",
+          "mask": {
+            "path": "locales/zh-Hans/texture-overlays/restorations/gameplay-v9/quest_illustration_10_wereboar-mask.png",
+            "sha256": "e1fa42719760fe5c0b4f3d6ae6035b63330b85bf01a34f6da9b88c042df3aebc"
+          },
+          "patch": {
+            "path": "locales/zh-Hans/texture-overlays/restorations/gameplay-v9/quest_illustration_10_wereboar-patch.png",
+            "sha256": "879e666d21351aff737c5c268e8567016004e941cc9d804df92e94ae6363c6a0"
+          }
+        },
+        "appearance": {
+          "kind": "source-style-v1",
+          "ink_box": [
+            4,
+            11,
+            184,
+            18
+          ],
+          "align": "center",
+          "gradient": [
+            [
+              0,
+              [
+                255,
+                137,
+                139,
+                255
+              ]
+            ],
+            [
+              430,
+              [
+                255,
+                172,
+                173,
+                255
+              ]
+            ],
+            [
+              1000,
+              [
+                255,
+                244,
+                238,
+                255
+              ]
+            ]
+          ],
+          "outline": [
+            8,
+            8,
+            10,
+            245
+          ],
+          "outline_width": 1,
+          "shadow": [
+            0,
+            0,
+            0,
+            220
+          ],
+          "shadow_offset": [
+            1,
+            1
+          ],
+          "shadow_radius": 0.5,
+          "glow": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "glow_radius": 0,
+          "italic": 0,
+          "tracking": 0,
+          "weight": 0,
+          "motion": 0
+        }
+      }
+    },
+    {
+      "expected_label_sha256": null,
+      "label": {
+        "id": "quest_illustration_11_zebasa",
+        "text": "杰巴萨",
+        "rect": [
+          32,
+          220,
+          192,
+          36
+        ],
+        "font_size": 18,
+        "align": "center",
+        "translation_basis": "quest-current-text-and-existing-monster-name-inventory",
+        "source_text_sha256": "8548ade8afe13d1b8da4ee2e1cd88f1fa562d2653ced9e1be3b8e3779f8965d0",
+        "source_ids": [],
+        "font": {
+          "path": "build/font-source/NotoSansCJKsc-Regular.otf",
+          "sha256": "2c76254f6fc379fddfce0a7e84fb5385bb135d3e399294f6eeb6680d0365b74b"
+        },
+        "restoration": {
+          "source_rgba_sha256": "5b37b728a5ee65fec78244752e13a2ea50ee139f04018df2325558a9f543816e",
+          "mask": {
+            "path": "locales/zh-Hans/texture-overlays/restorations/gameplay-v9/quest_illustration_11_zebasa-mask.png",
+            "sha256": "e02fdc26bb1d2bad50c4669437ebb5f15ea061a092adcd7c19d91cb33a089a17"
+          },
+          "patch": {
+            "path": "locales/zh-Hans/texture-overlays/restorations/gameplay-v9/quest_illustration_11_zebasa-patch.png",
+            "sha256": "879e666d21351aff737c5c268e8567016004e941cc9d804df92e94ae6363c6a0"
+          }
+        },
+        "appearance": {
+          "kind": "source-style-v1",
+          "ink_box": [
+            4,
+            11,
+            184,
+            18
+          ],
+          "align": "center",
+          "gradient": [
+            [
+              0,
+              [
+                255,
+                137,
+                139,
+                255
+              ]
+            ],
+            [
+              430,
+              [
+                255,
+                172,
+                173,
+                255
+              ]
+            ],
+            [
+              1000,
+              [
+                255,
+                244,
+                238,
+                255
+              ]
+            ]
+          ],
+          "outline": [
+            8,
+            8,
+            10,
+            245
+          ],
+          "outline_width": 1,
+          "shadow": [
+            0,
+            0,
+            0,
+            220
+          ],
+          "shadow_offset": [
+            1,
+            1
+          ],
+          "shadow_radius": 0.5,
+          "glow": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "glow_radius": 0,
+          "italic": 0,
+          "tracking": 0,
+          "weight": 0,
+          "motion": 0
+        }
+      }
+    },
+    {
+      "expected_label_sha256": null,
+      "label": {
+        "id": "quest_illustration_12_deathballista",
+        "text": "死亡弩炮",
+        "rect": [
+          32,
+          220,
+          192,
+          36
+        ],
+        "font_size": 18,
+        "align": "center",
+        "translation_basis": "quest-current-text-and-existing-monster-name-inventory",
+        "source_text_sha256": "4f2f42bad579c689739572502f1b5ab0762350ca180f5c5089186ec56cd04f0c",
+        "source_ids": [],
+        "font": {
+          "path": "build/font-source/NotoSansCJKsc-Regular.otf",
+          "sha256": "2c76254f6fc379fddfce0a7e84fb5385bb135d3e399294f6eeb6680d0365b74b"
+        },
+        "restoration": {
+          "source_rgba_sha256": "ee81462e1ea373cf6ba27e8b420693db18ab58e86dd78f8d034d61adbf9a845b",
+          "mask": {
+            "path": "locales/zh-Hans/texture-overlays/restorations/gameplay-v9/quest_illustration_12_deathballista-mask.png",
+            "sha256": "6dcd63ed4043ec95834b42888563f41ff62c1bc8db433fb5c6a135f7a06b4cc1"
+          },
+          "patch": {
+            "path": "locales/zh-Hans/texture-overlays/restorations/gameplay-v9/quest_illustration_12_deathballista-patch.png",
+            "sha256": "879e666d21351aff737c5c268e8567016004e941cc9d804df92e94ae6363c6a0"
+          }
+        },
+        "appearance": {
+          "kind": "source-style-v1",
+          "ink_box": [
+            4,
+            10,
+            184,
+            18
+          ],
+          "align": "center",
+          "gradient": [
+            [
+              0,
+              [
+                255,
+                137,
+                139,
+                255
+              ]
+            ],
+            [
+              430,
+              [
+                255,
+                172,
+                173,
+                255
+              ]
+            ],
+            [
+              1000,
+              [
+                255,
+                244,
+                238,
+                255
+              ]
+            ]
+          ],
+          "outline": [
+            8,
+            8,
+            10,
+            245
+          ],
+          "outline_width": 1,
+          "shadow": [
+            0,
+            0,
+            0,
+            220
+          ],
+          "shadow_offset": [
+            1,
+            1
+          ],
+          "shadow_radius": 0.5,
+          "glow": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "glow_radius": 0,
+          "italic": 0,
+          "tracking": 0,
+          "weight": 0,
+          "motion": 0
+        }
+      }
+    },
+    {
+      "expected_label_sha256": null,
+      "label": {
+        "id": "quest_illustration_13_colusus",
+        "text": "科洛瑟斯",
+        "rect": [
+          32,
+          220,
+          192,
+          36
+        ],
+        "font_size": 18,
+        "align": "center",
+        "translation_basis": "quest-current-text-and-existing-monster-name-inventory",
+        "source_text_sha256": "ad8b059284caec239ed5a7069109885f8130de76407db2b7f74b7256e2d11ed7",
+        "source_ids": [],
+        "font": {
+          "path": "build/font-source/NotoSansCJKsc-Regular.otf",
+          "sha256": "2c76254f6fc379fddfce0a7e84fb5385bb135d3e399294f6eeb6680d0365b74b"
+        },
+        "restoration": {
+          "source_rgba_sha256": "b840d6c150bc0040d9624771f6b39a04919463107d3ecf83b4b481e1a9648207",
+          "mask": {
+            "path": "locales/zh-Hans/texture-overlays/restorations/gameplay-v9/quest_illustration_13_colusus-mask.png",
+            "sha256": "5d017daa14bd42fba3c095dd6dc5c5c7cfa4341ac6569d378014dd9214395038"
+          },
+          "patch": {
+            "path": "locales/zh-Hans/texture-overlays/restorations/gameplay-v9/quest_illustration_13_colusus-patch.png",
+            "sha256": "879e666d21351aff737c5c268e8567016004e941cc9d804df92e94ae6363c6a0"
+          }
+        },
+        "appearance": {
+          "kind": "source-style-v1",
+          "ink_box": [
+            4,
+            11,
+            184,
+            18
+          ],
+          "align": "center",
+          "gradient": [
+            [
+              0,
+              [
+                255,
+                137,
+                139,
+                255
+              ]
+            ],
+            [
+              430,
+              [
+                255,
+                172,
+                173,
+                255
+              ]
+            ],
+            [
+              1000,
+              [
+                255,
+                244,
+                238,
+                255
+              ]
+            ]
+          ],
+          "outline": [
+            8,
+            8,
+            10,
+            245
+          ],
+          "outline_width": 1,
+          "shadow": [
+            0,
+            0,
+            0,
+            220
+          ],
+          "shadow_offset": [
+            1,
+            1
+          ],
+          "shadow_radius": 0.5,
+          "glow": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "glow_radius": 0,
+          "italic": 0,
+          "tracking": 0,
+          "weight": 0,
+          "motion": 0
+        }
+      }
+    },
+    {
+      "expected_label_sha256": null,
+      "label": {
+        "id": "quest_illustration_14_nurence",
+        "text": "努伦斯",
+        "rect": [
+          32,
+          220,
+          192,
+          36
+        ],
+        "font_size": 18,
+        "align": "center",
+        "translation_basis": "quest-current-text-and-existing-monster-name-inventory",
+        "source_text_sha256": "27874c28aaf5e028cd5c54d866f0fd0cf7329195c2d86a22ab83ec29753a9d4a",
+        "source_ids": [],
+        "font": {
+          "path": "build/font-source/NotoSansCJKsc-Regular.otf",
+          "sha256": "2c76254f6fc379fddfce0a7e84fb5385bb135d3e399294f6eeb6680d0365b74b"
+        },
+        "restoration": {
+          "source_rgba_sha256": "c825dc690725a880784ec7aa16f9e963b20ae31b9e5ed79c070d4f445223a9e8",
+          "mask": {
+            "path": "locales/zh-Hans/texture-overlays/restorations/gameplay-v9/quest_illustration_14_nurence-mask.png",
+            "sha256": "67d1268fca14096a1cca4243a0831119a64c20172ebec74e5e2abd14e12e8926"
+          },
+          "patch": {
+            "path": "locales/zh-Hans/texture-overlays/restorations/gameplay-v9/quest_illustration_14_nurence-patch.png",
+            "sha256": "879e666d21351aff737c5c268e8567016004e941cc9d804df92e94ae6363c6a0"
+          }
+        },
+        "appearance": {
+          "kind": "source-style-v1",
+          "ink_box": [
+            4,
+            11,
+            184,
+            18
+          ],
+          "align": "center",
+          "gradient": [
+            [
+              0,
+              [
+                255,
+                137,
+                139,
+                255
+              ]
+            ],
+            [
+              430,
+              [
+                255,
+                172,
+                173,
+                255
+              ]
+            ],
+            [
+              1000,
+              [
+                255,
+                244,
+                238,
+                255
+              ]
+            ]
+          ],
+          "outline": [
+            8,
+            8,
+            10,
+            245
+          ],
+          "outline_width": 1,
+          "shadow": [
+            0,
+            0,
+            0,
+            220
+          ],
+          "shadow_offset": [
+            1,
+            1
+          ],
+          "shadow_radius": 0.5,
+          "glow": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "glow_radius": 0,
+          "italic": 0,
+          "tracking": 0,
+          "weight": 0,
+          "motion": 0
+        }
+      }
+    },
+    {
+      "expected_label_sha256": null,
+      "label": {
+        "id": "quest_illustration_15_rati",
+        "text": "拉提",
+        "rect": [
+          32,
+          220,
+          192,
+          36
+        ],
+        "font_size": 18,
+        "align": "center",
+        "translation_basis": "quest-current-text-and-existing-monster-name-inventory",
+        "source_text_sha256": "919393b3595bd1453f0719eecd7113636996b23adcfb3674a2f8fbbd725b0308",
+        "source_ids": [],
+        "font": {
+          "path": "build/font-source/NotoSansCJKsc-Regular.otf",
+          "sha256": "2c76254f6fc379fddfce0a7e84fb5385bb135d3e399294f6eeb6680d0365b74b"
+        },
+        "restoration": {
+          "source_rgba_sha256": "8150d552686f4ac1e4ba973b4ca6066793532c5b397cb7b8e2377320742eea20",
+          "mask": {
+            "path": "locales/zh-Hans/texture-overlays/restorations/gameplay-v9/quest_illustration_15_rati-mask.png",
+            "sha256": "dc96798dc224f89e53ea4acbac81f2ec097843cbde6963761309562413feda1d"
+          },
+          "patch": {
+            "path": "locales/zh-Hans/texture-overlays/restorations/gameplay-v9/quest_illustration_15_rati-patch.png",
+            "sha256": "879e666d21351aff737c5c268e8567016004e941cc9d804df92e94ae6363c6a0"
+          }
+        },
+        "appearance": {
+          "kind": "source-style-v1",
+          "ink_box": [
+            4,
+            11,
+            184,
+            18
+          ],
+          "align": "center",
+          "gradient": [
+            [
+              0,
+              [
+                255,
+                137,
+                139,
+                255
+              ]
+            ],
+            [
+              430,
+              [
+                255,
+                172,
+                173,
+                255
+              ]
+            ],
+            [
+              1000,
+              [
+                255,
+                244,
+                238,
+                255
+              ]
+            ]
+          ],
+          "outline": [
+            8,
+            8,
+            10,
+            245
+          ],
+          "outline_width": 1,
+          "shadow": [
+            0,
+            0,
+            0,
+            220
+          ],
+          "shadow_offset": [
+            1,
+            1
+          ],
+          "shadow_radius": 0.5,
+          "glow": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "glow_radius": 0,
+          "italic": 0,
+          "tracking": 0,
+          "weight": 0,
+          "motion": 0
+        }
+      }
+    },
+    {
+      "expected_label_sha256": null,
+      "label": {
+        "id": "quest_illustration_16_swamp_eel",
+        "text": "沼泽鳗",
+        "rect": [
+          32,
+          220,
+          192,
+          36
+        ],
+        "font_size": 18,
+        "align": "center",
+        "translation_basis": "quest-current-text-and-existing-monster-name-inventory",
+        "source_text_sha256": "8b6de5f1da2ed43b23787cc4393b314b8019d04064abe346330f9b2c7b7649d6",
+        "source_ids": [],
+        "font": {
+          "path": "build/font-source/NotoSansCJKsc-Regular.otf",
+          "sha256": "2c76254f6fc379fddfce0a7e84fb5385bb135d3e399294f6eeb6680d0365b74b"
+        },
+        "restoration": {
+          "source_rgba_sha256": "ff0abeff4615d603498841f34562d9a30753533cda6828c9f010ed00d63e4cd1",
+          "mask": {
+            "path": "locales/zh-Hans/texture-overlays/restorations/gameplay-v9/quest_illustration_16_swamp_eel-mask.png",
+            "sha256": "93ead7d195de92471752439838868709d9ee8f5b0eaf1680f1e0a2bf3a2fd809"
+          },
+          "patch": {
+            "path": "locales/zh-Hans/texture-overlays/restorations/gameplay-v9/quest_illustration_16_swamp_eel-patch.png",
+            "sha256": "879e666d21351aff737c5c268e8567016004e941cc9d804df92e94ae6363c6a0"
+          }
+        },
+        "appearance": {
+          "kind": "source-style-v1",
+          "ink_box": [
+            4,
+            11,
+            184,
+            18
+          ],
+          "align": "center",
+          "gradient": [
+            [
+              0,
+              [
+                255,
+                137,
+                139,
+                255
+              ]
+            ],
+            [
+              430,
+              [
+                255,
+                172,
+                173,
+                255
+              ]
+            ],
+            [
+              1000,
+              [
+                255,
+                244,
+                238,
+                255
+              ]
+            ]
+          ],
+          "outline": [
+            8,
+            8,
+            10,
+            245
+          ],
+          "outline_width": 1,
+          "shadow": [
+            0,
+            0,
+            0,
+            220
+          ],
+          "shadow_offset": [
+            1,
+            1
+          ],
+          "shadow_radius": 0.5,
+          "glow": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "glow_radius": 0,
+          "italic": 0,
+          "tracking": 0,
+          "weight": 0,
+          "motion": 0
+        }
+      }
+    },
+    {
+      "expected_label_sha256": null,
+      "label": {
+        "id": "quest_illustration_18_thief_reader",
+        "text": "杜南盗贼",
+        "rect": [
+          32,
+          220,
+          192,
+          36
+        ],
+        "font_size": 18,
+        "align": "center",
+        "translation_basis": "quest-current-text-and-existing-monster-name-inventory",
+        "source_text_sha256": "e6a383d52aa68e7012047f6ec1a194117fa24c7404a9aabab746493b18687dc1",
+        "source_ids": [],
+        "font": {
+          "path": "build/font-source/NotoSansCJKsc-Regular.otf",
+          "sha256": "2c76254f6fc379fddfce0a7e84fb5385bb135d3e399294f6eeb6680d0365b74b"
+        },
+        "restoration": {
+          "source_rgba_sha256": "2e09ecfc473bb65928a02908723fd266cd3ecb7c55ce2ce600f0da0c2e03fa51",
+          "mask": {
+            "path": "locales/zh-Hans/texture-overlays/restorations/gameplay-v9/quest_illustration_18_thief_reader-mask.png",
+            "sha256": "28869a69ccfad66f0cbd70604679c3b004b7858cdd7c11ebcf01441e72443f44"
+          },
+          "patch": {
+            "path": "locales/zh-Hans/texture-overlays/restorations/gameplay-v9/quest_illustration_18_thief_reader-patch.png",
+            "sha256": "879e666d21351aff737c5c268e8567016004e941cc9d804df92e94ae6363c6a0"
+          }
+        },
+        "appearance": {
+          "kind": "source-style-v1",
+          "ink_box": [
+            4,
+            11,
+            184,
+            18
+          ],
+          "align": "center",
+          "gradient": [
+            [
+              0,
+              [
+                255,
+                137,
+                139,
+                255
+              ]
+            ],
+            [
+              430,
+              [
+                255,
+                172,
+                173,
+                255
+              ]
+            ],
+            [
+              1000,
+              [
+                255,
+                244,
+                238,
+                255
+              ]
+            ]
+          ],
+          "outline": [
+            8,
+            8,
+            10,
+            245
+          ],
+          "outline_width": 1,
+          "shadow": [
+            0,
+            0,
+            0,
+            220
+          ],
+          "shadow_offset": [
+            1,
+            1
+          ],
+          "shadow_radius": 0.5,
+          "glow": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "glow_radius": 0,
+          "italic": 0,
+          "tracking": 0,
+          "weight": 0,
+          "motion": 0
+        }
+      }
+    },
+    {
+      "expected_label_sha256": null,
+      "label": {
+        "id": "quest_illustration_19_union",
+        "text": "尤尼昂",
+        "rect": [
+          32,
+          220,
+          192,
+          36
+        ],
+        "font_size": 18,
+        "align": "center",
+        "translation_basis": "quest-current-text-and-existing-monster-name-inventory",
+        "source_text_sha256": "cddfb272193d29dd995fec08a331e85eb759624ecc617d0462e2640dcde57c2b",
+        "source_ids": [],
+        "font": {
+          "path": "build/font-source/NotoSansCJKsc-Regular.otf",
+          "sha256": "2c76254f6fc379fddfce0a7e84fb5385bb135d3e399294f6eeb6680d0365b74b"
+        },
+        "restoration": {
+          "source_rgba_sha256": "4441a528de660ad499b165882a9c8dc276c701e757a2a77ace0a1b91f65da264",
+          "mask": {
+            "path": "locales/zh-Hans/texture-overlays/restorations/gameplay-v9/quest_illustration_19_union-mask.png",
+            "sha256": "a6ddc3a7a10610a3aa5b6367044ebff9e1cc08ffc326a60ebb6ee708f12c3eeb"
+          },
+          "patch": {
+            "path": "locales/zh-Hans/texture-overlays/restorations/gameplay-v9/quest_illustration_19_union-patch.png",
+            "sha256": "879e666d21351aff737c5c268e8567016004e941cc9d804df92e94ae6363c6a0"
+          }
+        },
+        "appearance": {
+          "kind": "source-style-v1",
+          "ink_box": [
+            4,
+            5,
+            184,
+            18
+          ],
+          "align": "center",
+          "gradient": [
+            [
+              0,
+              [
+                255,
+                137,
+                139,
+                255
+              ]
+            ],
+            [
+              430,
+              [
+                255,
+                172,
+                173,
+                255
+              ]
+            ],
+            [
+              1000,
+              [
+                255,
+                244,
+                238,
+                255
+              ]
+            ]
+          ],
+          "outline": [
+            8,
+            8,
+            10,
+            245
+          ],
+          "outline_width": 1,
+          "shadow": [
+            0,
+            0,
+            0,
+            220
+          ],
+          "shadow_offset": [
+            1,
+            1
+          ],
+          "shadow_radius": 0.5,
+          "glow": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "glow_radius": 0,
+          "italic": 0,
+          "tracking": 0,
+          "weight": 0,
+          "motion": 0
+        }
+      }
+    },
+    {
+      "expected_label_sha256": null,
+      "label": {
+        "id": "quest_illustration_23",
+        "text": "暗黑特雷瓦头领",
+        "rect": [
+          32,
+          220,
+          192,
+          36
+        ],
+        "font_size": 18,
+        "align": "center",
+        "translation_basis": "quest-current-text-and-existing-monster-name-inventory",
+        "source_text_sha256": "6bce41dd627b43aa0577e5fdf2dd718170cfab2de2a2fa4877f407b34a60d7df",
+        "source_ids": [],
+        "font": {
+          "path": "build/font-source/NotoSansCJKsc-Regular.otf",
+          "sha256": "2c76254f6fc379fddfce0a7e84fb5385bb135d3e399294f6eeb6680d0365b74b"
+        },
+        "restoration": {
+          "source_rgba_sha256": "80774b91116c2e4f50bc3c7d0fa128268b08a4f60e5ddcdfcecdb223c4ed21bd",
+          "mask": {
+            "path": "locales/zh-Hans/texture-overlays/restorations/gameplay-v9/quest_illustration_23-mask.png",
+            "sha256": "e7f4af8b14f56373871e413c98b802bcce45ace0afbba75d83555851454668bb"
+          },
+          "patch": {
+            "path": "locales/zh-Hans/texture-overlays/restorations/gameplay-v9/quest_illustration_23-patch.png",
+            "sha256": "879e666d21351aff737c5c268e8567016004e941cc9d804df92e94ae6363c6a0"
+          }
+        },
+        "appearance": {
+          "kind": "source-style-v1",
+          "ink_box": [
+            4,
+            8,
+            184,
+            18
+          ],
+          "align": "center",
+          "gradient": [
+            [
+              0,
+              [
+                255,
+                137,
+                139,
+                255
+              ]
+            ],
+            [
+              430,
+              [
+                255,
+                172,
+                173,
+                255
+              ]
+            ],
+            [
+              1000,
+              [
+                255,
+                244,
+                238,
+                255
+              ]
+            ]
+          ],
+          "outline": [
+            8,
+            8,
+            10,
+            245
+          ],
+          "outline_width": 1,
+          "shadow": [
+            0,
+            0,
+            0,
+            220
+          ],
+          "shadow_offset": [
+            1,
+            1
+          ],
+          "shadow_radius": 0.5,
+          "glow": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "glow_radius": 0,
+          "italic": 0,
+          "tracking": 0,
+          "weight": 0,
+          "motion": 0
+        }
+      }
+    },
+    {
+      "expected_label_sha256": null,
+      "label": {
+        "id": "quest_illustration_24",
+        "text": "布雷兹",
+        "rect": [
+          32,
+          220,
+          192,
+          36
+        ],
+        "font_size": 18,
+        "align": "center",
+        "translation_basis": "quest-current-text-and-existing-monster-name-inventory",
+        "source_text_sha256": "033da29c612fea044719c97e5e87c27b30a212eaf3749d66bd04e90423e64f2a",
+        "source_ids": [],
+        "font": {
+          "path": "build/font-source/NotoSansCJKsc-Regular.otf",
+          "sha256": "2c76254f6fc379fddfce0a7e84fb5385bb135d3e399294f6eeb6680d0365b74b"
+        },
+        "restoration": {
+          "source_rgba_sha256": "234e4f84cfc849ace7bc53b8c634da53fd28f3158bba99e8fd92291941085be4",
+          "mask": {
+            "path": "locales/zh-Hans/texture-overlays/restorations/gameplay-v9/quest_illustration_24-mask.png",
+            "sha256": "21e3d23604f840af845b15a5bacf0e91018421f33b9d1712bca9bcc1af1145d4"
+          },
+          "patch": {
+            "path": "locales/zh-Hans/texture-overlays/restorations/gameplay-v9/quest_illustration_24-patch.png",
+            "sha256": "879e666d21351aff737c5c268e8567016004e941cc9d804df92e94ae6363c6a0"
+          }
+        },
+        "appearance": {
+          "kind": "source-style-v1",
+          "ink_box": [
+            4,
+            5,
+            184,
+            18
+          ],
+          "align": "center",
+          "gradient": [
+            [
+              0,
+              [
+                255,
+                137,
+                139,
+                255
+              ]
+            ],
+            [
+              430,
+              [
+                255,
+                172,
+                173,
+                255
+              ]
+            ],
+            [
+              1000,
+              [
+                255,
+                244,
+                238,
+                255
+              ]
+            ]
+          ],
+          "outline": [
+            8,
+            8,
+            10,
+            245
+          ],
+          "outline_width": 1,
+          "shadow": [
+            0,
+            0,
+            0,
+            220
+          ],
+          "shadow_offset": [
+            1,
+            1
+          ],
+          "shadow_radius": 0.5,
+          "glow": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "glow_radius": 0,
+          "italic": 0,
+          "tracking": 0,
+          "weight": 0,
+          "motion": 0
+        }
+      }
+    },
+    {
+      "expected_label_sha256": null,
+      "label": {
+        "id": "quest_illustration_25",
+        "text": "地狱鱼",
+        "rect": [
+          32,
+          220,
+          192,
+          36
+        ],
+        "font_size": 18,
+        "align": "center",
+        "translation_basis": "quest-current-text-and-existing-monster-name-inventory",
+        "source_text_sha256": "9e2f77a1f8cd781ef0426e155af42b94ba8ad013cb09668dd030bf33d19d2a68",
+        "source_ids": [],
+        "font": {
+          "path": "build/font-source/NotoSansCJKsc-Regular.otf",
+          "sha256": "2c76254f6fc379fddfce0a7e84fb5385bb135d3e399294f6eeb6680d0365b74b"
+        },
+        "restoration": {
+          "source_rgba_sha256": "3bd476e0da19878d2a44a0f9e2f391745af161842cecc64e1aaa673f73f8e688",
+          "mask": {
+            "path": "locales/zh-Hans/texture-overlays/restorations/gameplay-v9/quest_illustration_25-mask.png",
+            "sha256": "78c9ddf393144c1f9877dc707d5d18a685d8c90ec6648988c073dc3766516a99"
+          },
+          "patch": {
+            "path": "locales/zh-Hans/texture-overlays/restorations/gameplay-v9/quest_illustration_25-patch.png",
+            "sha256": "879e666d21351aff737c5c268e8567016004e941cc9d804df92e94ae6363c6a0"
+          }
+        },
+        "appearance": {
+          "kind": "source-style-v1",
+          "ink_box": [
+            4,
+            11,
+            184,
+            18
+          ],
+          "align": "center",
+          "gradient": [
+            [
+              0,
+              [
+                255,
+                137,
+                139,
+                255
+              ]
+            ],
+            [
+              430,
+              [
+                255,
+                172,
+                173,
+                255
+              ]
+            ],
+            [
+              1000,
+              [
+                255,
+                244,
+                238,
+                255
+              ]
+            ]
+          ],
+          "outline": [
+            8,
+            8,
+            10,
+            245
+          ],
+          "outline_width": 1,
+          "shadow": [
+            0,
+            0,
+            0,
+            220
+          ],
+          "shadow_offset": [
+            1,
+            1
+          ],
+          "shadow_radius": 0.5,
+          "glow": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "glow_radius": 0,
+          "italic": 0,
+          "tracking": 0,
+          "weight": 0,
+          "motion": 0
+        }
+      }
+    },
+    {
+      "expected_label_sha256": null,
+      "label": {
+        "id": "quest_illustration_20_wereboar",
+        "text": "野猪人",
+        "rect": [
+          32,
+          220,
+          192,
+          36
+        ],
+        "font_size": 18,
+        "align": "center",
+        "translation_basis": "quest-current-text-and-existing-monster-name-inventory",
+        "source_text_sha256": "dc3683c9ac889d6210eb8d1c2661023e52e4075d3275a4403faab33162c6886b",
+        "source_ids": [],
+        "font": {
+          "path": "build/font-source/NotoSansCJKsc-Regular.otf",
+          "sha256": "2c76254f6fc379fddfce0a7e84fb5385bb135d3e399294f6eeb6680d0365b74b"
+        },
+        "restoration": {
+          "source_rgba_sha256": "83d9dbbfbb9364ff7f835f3bc1f74db4ac0f3c5e9f22283b86cec7c3cd24208d",
+          "mask": {
+            "path": "locales/zh-Hans/texture-overlays/restorations/gameplay-v9/quest_illustration_20_wereboar-mask.png",
+            "sha256": "f4606ed4b743029ac240f32c0ad7a46465971aa4a9248963c7d52d97b04cbf2c"
+          },
+          "patch": {
+            "path": "locales/zh-Hans/texture-overlays/restorations/gameplay-v9/quest_illustration_20_wereboar-patch.png",
+            "sha256": "879e666d21351aff737c5c268e8567016004e941cc9d804df92e94ae6363c6a0"
+          }
+        },
+        "appearance": {
+          "kind": "source-style-v1",
+          "ink_box": [
+            4,
+            5,
+            184,
+            18
+          ],
+          "align": "center",
+          "gradient": [
+            [
+              0,
+              [
+                255,
+                137,
+                139,
+                255
+              ]
+            ],
+            [
+              430,
+              [
+                255,
+                172,
+                173,
+                255
+              ]
+            ],
+            [
+              1000,
+              [
+                255,
+                244,
+                238,
+                255
+              ]
+            ]
+          ],
+          "outline": [
+            8,
+            8,
+            10,
+            245
+          ],
+          "outline_width": 1,
+          "shadow": [
+            0,
+            0,
+            0,
+            220
+          ],
+          "shadow_offset": [
+            1,
+            1
+          ],
+          "shadow_radius": 0.5,
+          "glow": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "glow_radius": 0,
+          "italic": 0,
+          "tracking": 0,
+          "weight": 0,
+          "motion": 0
+        }
+      }
+    },
+    {
+      "expected_label_sha256": null,
+      "label": {
+        "id": "quest_illustration_21_grami",
+        "text": "格拉米",
+        "rect": [
+          32,
+          220,
+          192,
+          36
+        ],
+        "font_size": 18,
+        "align": "center",
+        "translation_basis": "quest-current-text-and-existing-monster-name-inventory",
+        "source_text_sha256": "b6df76d89410ddb8ec908a36100b91c7d0abc69e41de8c6de477069115acf033",
+        "source_ids": [],
+        "font": {
+          "path": "build/font-source/NotoSansCJKsc-Regular.otf",
+          "sha256": "2c76254f6fc379fddfce0a7e84fb5385bb135d3e399294f6eeb6680d0365b74b"
+        },
+        "restoration": {
+          "source_rgba_sha256": "aca2824dd9d036e204925e7bc712491ed0a47dea9ea00c8ca5b40c4ba83a9e30",
+          "mask": {
+            "path": "locales/zh-Hans/texture-overlays/restorations/gameplay-v9/quest_illustration_21_grami-mask.png",
+            "sha256": "bb5096e4cbb65e4bca715e1167b77e6a4680e4585396e5c3d97715c0d40ee25b"
+          },
+          "patch": {
+            "path": "locales/zh-Hans/texture-overlays/restorations/gameplay-v9/quest_illustration_21_grami-patch.png",
+            "sha256": "879e666d21351aff737c5c268e8567016004e941cc9d804df92e94ae6363c6a0"
+          }
+        },
+        "appearance": {
+          "kind": "source-style-v1",
+          "ink_box": [
+            4,
+            5,
+            184,
+            18
+          ],
+          "align": "center",
+          "gradient": [
+            [
+              0,
+              [
+                255,
+                137,
+                139,
+                255
+              ]
+            ],
+            [
+              430,
+              [
+                255,
+                172,
+                173,
+                255
+              ]
+            ],
+            [
+              1000,
+              [
+                255,
+                244,
+                238,
+                255
+              ]
+            ]
+          ],
+          "outline": [
+            8,
+            8,
+            10,
+            245
+          ],
+          "outline_width": 1,
+          "shadow": [
+            0,
+            0,
+            0,
+            220
+          ],
+          "shadow_offset": [
+            1,
+            1
+          ],
+          "shadow_radius": 0.5,
+          "glow": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "glow_radius": 0,
+          "italic": 0,
+          "tracking": 0,
+          "weight": 0,
+          "motion": 0
+        }
+      }
+    },
+    {
+      "expected_label_sha256": null,
+      "label": {
+        "id": "quest_illustration_22_groundbeast",
+        "text": "地行兽",
+        "rect": [
+          32,
+          220,
+          192,
+          36
+        ],
+        "font_size": 18,
+        "align": "center",
+        "translation_basis": "quest-current-text-and-existing-monster-name-inventory",
+        "source_text_sha256": "9f708282cbc69eddde0975041636427b89502842c0cdbb24f8ec6bbaa73c9f3c",
+        "source_ids": [],
+        "font": {
+          "path": "build/font-source/NotoSansCJKsc-Regular.otf",
+          "sha256": "2c76254f6fc379fddfce0a7e84fb5385bb135d3e399294f6eeb6680d0365b74b"
+        },
+        "restoration": {
+          "source_rgba_sha256": "d042b156192533e5e6406736ac4dbb25da0b4df6f89723cb53512cf866c6b0e2",
+          "mask": {
+            "path": "locales/zh-Hans/texture-overlays/restorations/gameplay-v9/quest_illustration_22_groundbeast-mask.png",
+            "sha256": "8052565250a8d350a72b22362734c82708987df89b3c54c02b9f960bbec634a2"
+          },
+          "patch": {
+            "path": "locales/zh-Hans/texture-overlays/restorations/gameplay-v9/quest_illustration_22_groundbeast-patch.png",
+            "sha256": "879e666d21351aff737c5c268e8567016004e941cc9d804df92e94ae6363c6a0"
+          }
+        },
+        "appearance": {
+          "kind": "source-style-v1",
+          "ink_box": [
+            4,
+            11,
+            184,
+            18
+          ],
+          "align": "center",
+          "gradient": [
+            [
+              0,
+              [
+                255,
+                137,
+                139,
+                255
+              ]
+            ],
+            [
+              430,
+              [
+                255,
+                172,
+                173,
+                255
+              ]
+            ],
+            [
+              1000,
+              [
+                255,
+                244,
+                238,
+                255
+              ]
+            ]
+          ],
+          "outline": [
+            8,
+            8,
+            10,
+            245
+          ],
+          "outline_width": 1,
+          "shadow": [
+            0,
+            0,
+            0,
+            220
+          ],
+          "shadow_offset": [
+            1,
+            1
+          ],
+          "shadow_radius": 0.5,
+          "glow": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "glow_radius": 0,
+          "italic": 0,
+          "tracking": 0,
+          "weight": 0,
+          "motion": 0
+        }
+      }
+    }
+  ],
+  "source_additions": [
+    {
+      "expected_header_sha256": null,
+      "source": {
+        "path": "MC2Game/CookedXenon/Quest_Monster_00_clawpers.xxx",
+        "discs": [
+          1,
+          2
+        ],
+        "original": {
+          "path": "build/poc-game/disc1/MC2Game/CookedXenon/Quest_Monster_00_clawpers.xxx",
+          "sha256": "1d94cebbff5fbfbe5a0535db1c07ea3fb52b1e27db1be5cb3e09543239614693"
+        },
+        "base": {
+          "path": "build/poc-game/disc1/MC2Game/CookedXenon/Quest_Monster_00_clawpers.xxx",
+          "sha256": "1d94cebbff5fbfbe5a0535db1c07ea3fb52b1e27db1be5cb3e09543239614693"
+        }
+      },
+      "textures": [
+        {
+          "object": "Quest_Monster_00_clawpers",
+          "payload_sha256": "050c0d6f433c04463e73a475184387cce5ea33b8383bc2b576acf0dca5bfc494",
+          "tiled_sha256": "baa5418e8482b9a21ba492e2b09d7560d91d7db2f9b2f950a58a992921fb5783",
+          "dimensions": [
+            256,
+            256
+          ],
+          "label": "quest_illustration_00_clawpers",
+          "profile": {
+            "kind": "xbox-inline-bc-v1",
+            "format": 7
+          },
+          "channel_mode": "rgba",
+          "preserve_unchanged_blocks": true,
+          "alpha_encoding": "adaptive-range",
+          "rgb_encoding": "weighted-fit-v1",
+          "protected_regions": [
+            {
+              "id": "monster-artwork",
+              "rect": [
+                0,
+                0,
+                256,
+                220
+              ],
+              "rgba_sha256": "263877ea7ad3333e0657f734d8e4c9f9473e923faadc0e56e15bd36818ab6bce"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "expected_header_sha256": null,
+      "source": {
+        "path": "MC2Game/CookedXenon/Quest_Monster_01_Pierce.xxx",
+        "discs": [
+          1,
+          2
+        ],
+        "original": {
+          "path": "build/poc-game/disc1/MC2Game/CookedXenon/Quest_Monster_01_Pierce.xxx",
+          "sha256": "2af49c6b33c254daf85d861141e20ec1e13ef191b35b5e4784716bc611a01c86"
+        },
+        "base": {
+          "path": "build/poc-game/disc1/MC2Game/CookedXenon/Quest_Monster_01_Pierce.xxx",
+          "sha256": "2af49c6b33c254daf85d861141e20ec1e13ef191b35b5e4784716bc611a01c86"
+        }
+      },
+      "textures": [
+        {
+          "object": "Quest_Monster_01_Pierce",
+          "payload_sha256": "3dcef2275899d7ba04354db412c9126bcdf69c840c451109c8e21bbeb6342fa4",
+          "tiled_sha256": "b637fd16318f4135ef3bbb7c4fffc06de92d9a1d217ad09f94e4d40c653e92b3",
+          "dimensions": [
+            256,
+            256
+          ],
+          "label": "quest_illustration_01_pierce",
+          "profile": {
+            "kind": "xbox-inline-bc-v1",
+            "format": 7
+          },
+          "channel_mode": "rgba",
+          "preserve_unchanged_blocks": true,
+          "alpha_encoding": "adaptive-range",
+          "rgb_encoding": "weighted-fit-v1",
+          "protected_regions": [
+            {
+              "id": "monster-artwork",
+              "rect": [
+                0,
+                0,
+                256,
+                220
+              ],
+              "rgba_sha256": "8629a0fe1291071b08ef9143069b0bd0edbb155e63536603e0212cda34bdee71"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "expected_header_sha256": null,
+      "source": {
+        "path": "MC2Game/CookedXenon/Quest_Monster_02_poison.xxx",
+        "discs": [
+          1,
+          2
+        ],
+        "original": {
+          "path": "build/poc-game/disc1/MC2Game/CookedXenon/Quest_Monster_02_poison.xxx",
+          "sha256": "494f1f0dbb034cdb7b779cb8f050faabb1f6398f0f24e15dbdbe56e323cac375"
+        },
+        "base": {
+          "path": "build/poc-game/disc1/MC2Game/CookedXenon/Quest_Monster_02_poison.xxx",
+          "sha256": "494f1f0dbb034cdb7b779cb8f050faabb1f6398f0f24e15dbdbe56e323cac375"
+        }
+      },
+      "textures": [
+        {
+          "object": "Quest_Monster_02_poison",
+          "payload_sha256": "6bb6fe92ec190ff32695132e81e0b776ae24b2d4dc7ae22113d034e04f0ecad1",
+          "tiled_sha256": "91c5cc56b529e2e5af15e6f08211af63ba5b1ba5cbdbe97e2ca08ce36e113b0d",
+          "dimensions": [
+            256,
+            256
+          ],
+          "label": "quest_illustration_02_poison",
+          "profile": {
+            "kind": "xbox-inline-bc-v1",
+            "format": 7
+          },
+          "channel_mode": "rgba",
+          "preserve_unchanged_blocks": true,
+          "alpha_encoding": "adaptive-range",
+          "rgb_encoding": "weighted-fit-v1",
+          "protected_regions": [
+            {
+              "id": "monster-artwork",
+              "rect": [
+                0,
+                0,
+                256,
+                220
+              ],
+              "rgba_sha256": "6f91b0d811ddd491316b98ca8ed2ed553608460ffea5ffe8b89159186aa92065"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "expected_header_sha256": null,
+      "source": {
+        "path": "MC2Game/CookedXenon/Quest_Monster_03_phong.xxx",
+        "discs": [
+          1,
+          2
+        ],
+        "original": {
+          "path": "build/poc-game/disc1/MC2Game/CookedXenon/Quest_Monster_03_phong.xxx",
+          "sha256": "fe3201691494d77b776b02d73c6ab3fce6b7c5831bb636f0aa47ca86b5e7d774"
+        },
+        "base": {
+          "path": "build/poc-game/disc1/MC2Game/CookedXenon/Quest_Monster_03_phong.xxx",
+          "sha256": "fe3201691494d77b776b02d73c6ab3fce6b7c5831bb636f0aa47ca86b5e7d774"
+        }
+      },
+      "textures": [
+        {
+          "object": "Quest_Monster_03_phong",
+          "payload_sha256": "ed9de65b6103e75a07a54484996d0c821db51ce5e0f1e1c61a129bb01db95651",
+          "tiled_sha256": "897a5717aacd73211f4ffdc3f3e463c2a2e1f855326b43ba93d600ba3dd7231c",
+          "dimensions": [
+            256,
+            256
+          ],
+          "label": "quest_illustration_03_phong",
+          "profile": {
+            "kind": "xbox-inline-bc-v1",
+            "format": 7
+          },
+          "channel_mode": "rgba",
+          "preserve_unchanged_blocks": true,
+          "alpha_encoding": "adaptive-range",
+          "rgb_encoding": "weighted-fit-v1",
+          "protected_regions": [
+            {
+              "id": "monster-artwork",
+              "rect": [
+                0,
+                0,
+                256,
+                220
+              ],
+              "rgba_sha256": "845ff134395d6f79b9c1c6095c99c5b278ccefa42b2389126b874f3d260e5c03"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "expected_header_sha256": null,
+      "source": {
+        "path": "MC2Game/CookedXenon/Quest_Monster_04_Black.xxx",
+        "discs": [
+          1,
+          2
+        ],
+        "original": {
+          "path": "build/poc-game/disc1/MC2Game/CookedXenon/Quest_Monster_04_Black.xxx",
+          "sha256": "a529bbbbf8d73179aa9774df091235504032386eaae04f945a03e843ad916162"
+        },
+        "base": {
+          "path": "build/poc-game/disc1/MC2Game/CookedXenon/Quest_Monster_04_Black.xxx",
+          "sha256": "a529bbbbf8d73179aa9774df091235504032386eaae04f945a03e843ad916162"
+        }
+      },
+      "textures": [
+        {
+          "object": "Quest_Monster_04_Black",
+          "payload_sha256": "9fbcf649239ef8e22f12e65fbd12e2b25202586c68e4a796b47a71f23de7a387",
+          "tiled_sha256": "9f354bdc4cb280be96ea3dbe89c44c528656a52abb2543f8db0a598f07fcf99f",
+          "dimensions": [
+            256,
+            256
+          ],
+          "label": "quest_illustration_04_black",
+          "profile": {
+            "kind": "xbox-inline-bc-v1",
+            "format": 7
+          },
+          "channel_mode": "rgba",
+          "preserve_unchanged_blocks": true,
+          "alpha_encoding": "adaptive-range",
+          "rgb_encoding": "weighted-fit-v1",
+          "protected_regions": [
+            {
+              "id": "monster-artwork",
+              "rect": [
+                0,
+                0,
+                256,
+                220
+              ],
+              "rgba_sha256": "0368802952d6ee5f68ee13234b7e2c5782b3ce5f96179dad5c84aa3e402e2af3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "expected_header_sha256": null,
+      "source": {
+        "path": "MC2Game/CookedXenon/Quest_Monster_05_Mighty.xxx",
+        "discs": [
+          1,
+          2
+        ],
+        "original": {
+          "path": "build/poc-game/disc1/MC2Game/CookedXenon/Quest_Monster_05_Mighty.xxx",
+          "sha256": "0648734d7f42bdf17c68b6bcb789b20532446a3a079df889158487503ce4e019"
+        },
+        "base": {
+          "path": "build/poc-game/disc1/MC2Game/CookedXenon/Quest_Monster_05_Mighty.xxx",
+          "sha256": "0648734d7f42bdf17c68b6bcb789b20532446a3a079df889158487503ce4e019"
+        }
+      },
+      "textures": [
+        {
+          "object": "Quest_Monster_05_Mighty",
+          "payload_sha256": "49c45a59222aa2f2ee709caf8d3fb99c3efa04d4dadd8f202ea73ba3441c0c79",
+          "tiled_sha256": "d6482f387808ca08b0bff36b667cb37e3227a438da27ca1d2bd77b4d476e516e",
+          "dimensions": [
+            256,
+            256
+          ],
+          "label": "quest_illustration_05_mighty",
+          "profile": {
+            "kind": "xbox-inline-bc-v1",
+            "format": 7
+          },
+          "channel_mode": "rgba",
+          "preserve_unchanged_blocks": true,
+          "alpha_encoding": "adaptive-range",
+          "rgb_encoding": "weighted-fit-v1",
+          "protected_regions": [
+            {
+              "id": "monster-artwork",
+              "rect": [
+                0,
+                0,
+                256,
+                220
+              ],
+              "rgba_sha256": "00e0df1ea4d8ed7f568390ce1b9801663b99fee310b2b0402b59ce1fbfc27d24"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "expected_header_sha256": null,
+      "source": {
+        "path": "MC2Game/CookedXenon/Quest_Monster_06_clawBeast.xxx",
+        "discs": [
+          1,
+          2
+        ],
+        "original": {
+          "path": "build/poc-game/disc1/MC2Game/CookedXenon/Quest_Monster_06_clawBeast.xxx",
+          "sha256": "8990faf66f445f6ab1856628d7a30ffc311b17e805a34c36a8241219657634c5"
+        },
+        "base": {
+          "path": "build/poc-game/disc1/MC2Game/CookedXenon/Quest_Monster_06_clawBeast.xxx",
+          "sha256": "8990faf66f445f6ab1856628d7a30ffc311b17e805a34c36a8241219657634c5"
+        }
+      },
+      "textures": [
+        {
+          "object": "Quest_Monster_06_clawBeast",
+          "payload_sha256": "33e5bae27c6b928069ece379d1d7281996baa60b29d8baf77cb3012faf3505f3",
+          "tiled_sha256": "3d1de247ab8c5c0688e5efd631510445a2d1aa961c726a720a6c741dd71bdf4a",
+          "dimensions": [
+            256,
+            256
+          ],
+          "label": "quest_illustration_06_clawbeast",
+          "profile": {
+            "kind": "xbox-inline-bc-v1",
+            "format": 7
+          },
+          "channel_mode": "rgba",
+          "preserve_unchanged_blocks": true,
+          "alpha_encoding": "adaptive-range",
+          "rgb_encoding": "weighted-fit-v1",
+          "protected_regions": [
+            {
+              "id": "monster-artwork",
+              "rect": [
+                0,
+                0,
+                256,
+                220
+              ],
+              "rgba_sha256": "eb7662f60b34dae6cc02e1ac73fcb15ee19ce774800d99ccba5e96361cb01466"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "expected_header_sha256": null,
+      "source": {
+        "path": "MC2Game/CookedXenon/Quest_Monster_07_Mere.xxx",
+        "discs": [
+          1,
+          2
+        ],
+        "original": {
+          "path": "build/poc-game/disc1/MC2Game/CookedXenon/Quest_Monster_07_Mere.xxx",
+          "sha256": "75cbb2c846276c71d6cf1f5451df33db6d334cbb5895a5fd90ca8fcc4cf47594"
+        },
+        "base": {
+          "path": "build/poc-game/disc1/MC2Game/CookedXenon/Quest_Monster_07_Mere.xxx",
+          "sha256": "75cbb2c846276c71d6cf1f5451df33db6d334cbb5895a5fd90ca8fcc4cf47594"
+        }
+      },
+      "textures": [
+        {
+          "object": "Quest_Monster_07_Mere",
+          "payload_sha256": "31807c6fbc350322234e2b6eb3d5dfe2245f4ab3f264edfb04bf9534c9e307c4",
+          "tiled_sha256": "5f08ba1bff217cc8ca0c57a298a087a6562b2b7997b6370df5c8bcbbcb48f2f6",
+          "dimensions": [
+            256,
+            256
+          ],
+          "label": "quest_illustration_07_mere",
+          "profile": {
+            "kind": "xbox-inline-bc-v1",
+            "format": 7
+          },
+          "channel_mode": "rgba",
+          "preserve_unchanged_blocks": true,
+          "alpha_encoding": "adaptive-range",
+          "rgb_encoding": "weighted-fit-v1",
+          "protected_regions": [
+            {
+              "id": "monster-artwork",
+              "rect": [
+                0,
+                0,
+                256,
+                220
+              ],
+              "rgba_sha256": "83d20bfbe923e8e71a210c50d3a6dd30daa916e83c49ee4adcc1e33dbd88b4d6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "expected_header_sha256": null,
+      "source": {
+        "path": "MC2Game/CookedXenon/Quest_Monster_08_Blaborer.xxx",
+        "discs": [
+          1,
+          2
+        ],
+        "original": {
+          "path": "build/poc-game/disc1/MC2Game/CookedXenon/Quest_Monster_08_Blaborer.xxx",
+          "sha256": "c2a38c829fc4a46c547488e3dfa9233831e7a15728ff941e0948793c69742182"
+        },
+        "base": {
+          "path": "build/poc-game/disc1/MC2Game/CookedXenon/Quest_Monster_08_Blaborer.xxx",
+          "sha256": "c2a38c829fc4a46c547488e3dfa9233831e7a15728ff941e0948793c69742182"
+        }
+      },
+      "textures": [
+        {
+          "object": "Quest_Monster_08_Blaborer",
+          "payload_sha256": "77ab34d728e39ade3853b87397b4e70299ca9d497d4cba9f064c66f5c734553e",
+          "tiled_sha256": "8c42e45c0f5710ff0278dd7799b6fe512ff63654b709121d1c8d65579864a532",
+          "dimensions": [
+            256,
+            256
+          ],
+          "label": "quest_illustration_08_blaborer",
+          "profile": {
+            "kind": "xbox-inline-bc-v1",
+            "format": 7
+          },
+          "channel_mode": "rgba",
+          "preserve_unchanged_blocks": true,
+          "alpha_encoding": "adaptive-range",
+          "rgb_encoding": "weighted-fit-v1",
+          "protected_regions": [
+            {
+              "id": "monster-artwork",
+              "rect": [
+                0,
+                0,
+                256,
+                220
+              ],
+              "rgba_sha256": "24d489fee2f481e4cda1d509f43c83979adfa2b7b68d9ad42b4b2fcd5b199429"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "expected_header_sha256": null,
+      "source": {
+        "path": "MC2Game/CookedXenon/Quest_Monster_09_WarewolfThief.xxx",
+        "discs": [
+          1,
+          2
+        ],
+        "original": {
+          "path": "build/poc-game/disc1/MC2Game/CookedXenon/Quest_Monster_09_WarewolfThief.xxx",
+          "sha256": "566c654870028a4ad975f16e7fd016c5c435884a5e1cd235bac1c6519dccf0fc"
+        },
+        "base": {
+          "path": "build/poc-game/disc1/MC2Game/CookedXenon/Quest_Monster_09_WarewolfThief.xxx",
+          "sha256": "566c654870028a4ad975f16e7fd016c5c435884a5e1cd235bac1c6519dccf0fc"
+        }
+      },
+      "textures": [
+        {
+          "object": "Quest_Monster_09_WarewolfThief",
+          "payload_sha256": "221f341fd110862846b4093bc004b87c9f7bea4bcc3994128a0f590187b40242",
+          "tiled_sha256": "cdfdcc16e32fcb6dd78eeba95d07e9122d87bdb2af4c37c4fb207f6cd8c4139b",
+          "dimensions": [
+            256,
+            256
+          ],
+          "label": "quest_illustration_09_warewolfthief",
+          "profile": {
+            "kind": "xbox-inline-bc-v1",
+            "format": 7
+          },
+          "channel_mode": "rgba",
+          "preserve_unchanged_blocks": true,
+          "alpha_encoding": "adaptive-range",
+          "rgb_encoding": "weighted-fit-v1",
+          "protected_regions": [
+            {
+              "id": "monster-artwork",
+              "rect": [
+                0,
+                0,
+                256,
+                220
+              ],
+              "rgba_sha256": "08838391c5aebbbaf1471a47271a03a0e4dddcd445e7cece5a05dc4cc34b3176"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "expected_header_sha256": null,
+      "source": {
+        "path": "MC2Game/CookedXenon/Quest_Monster_10_Wereboar.xxx",
+        "discs": [
+          1,
+          2
+        ],
+        "original": {
+          "path": "build/poc-game/disc1/MC2Game/CookedXenon/Quest_Monster_10_Wereboar.xxx",
+          "sha256": "b50161f02c8d303e5de447b81759d8d992f5568d6b2cb5282e9544c2fd175010"
+        },
+        "base": {
+          "path": "build/poc-game/disc1/MC2Game/CookedXenon/Quest_Monster_10_Wereboar.xxx",
+          "sha256": "b50161f02c8d303e5de447b81759d8d992f5568d6b2cb5282e9544c2fd175010"
+        }
+      },
+      "textures": [
+        {
+          "object": "Quest_Monster_10_Wereboar",
+          "payload_sha256": "f91e8756b8fd0d93e285f030dfa3023cefd6aaf68c727252ff528ee6ae2af8a5",
+          "tiled_sha256": "c8d99d5fee7bdbdb7ce15862fcd3ad262276e92067f0981b4ee27d0f3ed10a58",
+          "dimensions": [
+            256,
+            256
+          ],
+          "label": "quest_illustration_10_wereboar",
+          "profile": {
+            "kind": "xbox-inline-bc-v1",
+            "format": 7
+          },
+          "channel_mode": "rgba",
+          "preserve_unchanged_blocks": true,
+          "alpha_encoding": "adaptive-range",
+          "rgb_encoding": "weighted-fit-v1",
+          "protected_regions": [
+            {
+              "id": "monster-artwork",
+              "rect": [
+                0,
+                0,
+                256,
+                220
+              ],
+              "rgba_sha256": "63a22b4b19431930ba74eb97b13a82f07ab7e15c471f81d3d2051e2d03f47187"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "expected_header_sha256": null,
+      "source": {
+        "path": "MC2Game/CookedXenon/Quest_Monster_11_Zebasa.xxx",
+        "discs": [
+          1,
+          2
+        ],
+        "original": {
+          "path": "build/poc-game/disc1/MC2Game/CookedXenon/Quest_Monster_11_Zebasa.xxx",
+          "sha256": "260318d629b7b472ece320c0774a2f598e72d89d403566b0a4921b2dd263df75"
+        },
+        "base": {
+          "path": "build/poc-game/disc1/MC2Game/CookedXenon/Quest_Monster_11_Zebasa.xxx",
+          "sha256": "260318d629b7b472ece320c0774a2f598e72d89d403566b0a4921b2dd263df75"
+        }
+      },
+      "textures": [
+        {
+          "object": "Quest_Monster_11_Zebasa",
+          "payload_sha256": "2f3d8f031e27ed67b803d1bb51092ad9580451f9a1d3c1eb933e9b11e479ee54",
+          "tiled_sha256": "3443cc9f1cdc92b0b83ce8b727a789da8cbd6900b2931393dcba4def876af875",
+          "dimensions": [
+            256,
+            256
+          ],
+          "label": "quest_illustration_11_zebasa",
+          "profile": {
+            "kind": "xbox-inline-bc-v1",
+            "format": 7
+          },
+          "channel_mode": "rgba",
+          "preserve_unchanged_blocks": true,
+          "alpha_encoding": "adaptive-range",
+          "rgb_encoding": "weighted-fit-v1",
+          "protected_regions": [
+            {
+              "id": "monster-artwork",
+              "rect": [
+                0,
+                0,
+                256,
+                220
+              ],
+              "rgba_sha256": "72770e973f5d7dc4c506eec9374db50b6d8f12e213ff40118a39539e4a5e07a5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "expected_header_sha256": null,
+      "source": {
+        "path": "MC2Game/CookedXenon/Quest_Monster_12_DeathBallista.xxx",
+        "discs": [
+          1,
+          2
+        ],
+        "original": {
+          "path": "build/poc-game/disc1/MC2Game/CookedXenon/Quest_Monster_12_DeathBallista.xxx",
+          "sha256": "abafe49b5e4f500669dc62b3a32b52a8e66d95bc5941ba3cfac8ab48f70c4d8c"
+        },
+        "base": {
+          "path": "build/poc-game/disc1/MC2Game/CookedXenon/Quest_Monster_12_DeathBallista.xxx",
+          "sha256": "abafe49b5e4f500669dc62b3a32b52a8e66d95bc5941ba3cfac8ab48f70c4d8c"
+        }
+      },
+      "textures": [
+        {
+          "object": "Quest_Monster_12_DeathBallista",
+          "payload_sha256": "3b0d8765ee66dd69494e04ae4fb1ebd054f6ef429d56c831378394e7055ead3f",
+          "tiled_sha256": "9b720c7285106950a3f47710dd97bb10bdefd18400315cb5f8f2f619e9d0a932",
+          "dimensions": [
+            256,
+            256
+          ],
+          "label": "quest_illustration_12_deathballista",
+          "profile": {
+            "kind": "xbox-inline-bc-v1",
+            "format": 7
+          },
+          "channel_mode": "rgba",
+          "preserve_unchanged_blocks": true,
+          "alpha_encoding": "adaptive-range",
+          "rgb_encoding": "weighted-fit-v1",
+          "protected_regions": [
+            {
+              "id": "monster-artwork",
+              "rect": [
+                0,
+                0,
+                256,
+                220
+              ],
+              "rgba_sha256": "ddc1c6144837020bca2e73afff0b8f059fb1b37370487783930c21e946d8d7e6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "expected_header_sha256": null,
+      "source": {
+        "path": "MC2Game/CookedXenon/Quest_Monster_13_Colusus.xxx",
+        "discs": [
+          1,
+          2
+        ],
+        "original": {
+          "path": "build/poc-game/disc1/MC2Game/CookedXenon/Quest_Monster_13_Colusus.xxx",
+          "sha256": "8f8a95879dd87e924e4fc465958fda10616e41f00917d2dc00c38488c68e17ac"
+        },
+        "base": {
+          "path": "build/poc-game/disc1/MC2Game/CookedXenon/Quest_Monster_13_Colusus.xxx",
+          "sha256": "8f8a95879dd87e924e4fc465958fda10616e41f00917d2dc00c38488c68e17ac"
+        }
+      },
+      "textures": [
+        {
+          "object": "Quest_Monster_13_Colusus",
+          "payload_sha256": "ee8f07513e79332b0ea284b4e9799297346fec11304d4722db104a0bf404fa30",
+          "tiled_sha256": "17f90dfa5f563ef9513ae080bb4e52204f6bb0bc04c1fdf4f6449d132f5cc12b",
+          "dimensions": [
+            256,
+            256
+          ],
+          "label": "quest_illustration_13_colusus",
+          "profile": {
+            "kind": "xbox-inline-bc-v1",
+            "format": 7
+          },
+          "channel_mode": "rgba",
+          "preserve_unchanged_blocks": true,
+          "alpha_encoding": "adaptive-range",
+          "rgb_encoding": "weighted-fit-v1",
+          "protected_regions": [
+            {
+              "id": "monster-artwork",
+              "rect": [
+                0,
+                0,
+                256,
+                220
+              ],
+              "rgba_sha256": "e36352245e6dc3cfd50f4d30370e48cf76b85ec7163fc96e2d3303f63377d32a"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "expected_header_sha256": null,
+      "source": {
+        "path": "MC2Game/CookedXenon/Quest_Monster_14_Nurence.xxx",
+        "discs": [
+          1,
+          2
+        ],
+        "original": {
+          "path": "build/poc-game/disc1/MC2Game/CookedXenon/Quest_Monster_14_Nurence.xxx",
+          "sha256": "c10c674da146d7f729307f3fd2f55f0bfed809b3239ca9a1fc0448cd7d431d19"
+        },
+        "base": {
+          "path": "build/poc-game/disc1/MC2Game/CookedXenon/Quest_Monster_14_Nurence.xxx",
+          "sha256": "c10c674da146d7f729307f3fd2f55f0bfed809b3239ca9a1fc0448cd7d431d19"
+        }
+      },
+      "textures": [
+        {
+          "object": "Quest_Monster_14_Nurence",
+          "payload_sha256": "fc01c1908069564e7473641e0db8cf0ac7cfce8236f6b3ecbdc3092a9a88cd35",
+          "tiled_sha256": "ebff149cc2ae065f625ecc5af09f449829cdfd9a47c83a9a9c26f5110028e87f",
+          "dimensions": [
+            256,
+            256
+          ],
+          "label": "quest_illustration_14_nurence",
+          "profile": {
+            "kind": "xbox-inline-bc-v1",
+            "format": 7
+          },
+          "channel_mode": "rgba",
+          "preserve_unchanged_blocks": true,
+          "alpha_encoding": "adaptive-range",
+          "rgb_encoding": "weighted-fit-v1",
+          "protected_regions": [
+            {
+              "id": "monster-artwork",
+              "rect": [
+                0,
+                0,
+                256,
+                220
+              ],
+              "rgba_sha256": "6bdd194c8a6d7037e7f68964fecf9e954acfa011fe83887838e846ee1b8551e2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "expected_header_sha256": null,
+      "source": {
+        "path": "MC2Game/CookedXenon/Quest_Monster_15_Rati.xxx",
+        "discs": [
+          1,
+          2
+        ],
+        "original": {
+          "path": "build/poc-game/disc1/MC2Game/CookedXenon/Quest_Monster_15_Rati.xxx",
+          "sha256": "eb0a68be0fc516525664ae576dab236f56893ef48ecfbced9fa62e874a93f22a"
+        },
+        "base": {
+          "path": "build/poc-game/disc1/MC2Game/CookedXenon/Quest_Monster_15_Rati.xxx",
+          "sha256": "eb0a68be0fc516525664ae576dab236f56893ef48ecfbced9fa62e874a93f22a"
+        }
+      },
+      "textures": [
+        {
+          "object": "Quest_Monster_15_Rati",
+          "payload_sha256": "39c9955fd0e6a6a4a72b811e9bc9e735604204876ebdcf2abacf98cf2651043b",
+          "tiled_sha256": "496533f406bbc71aaa42582b4a624c3c148fa3e6493fadf7daa6f2af90078e8f",
+          "dimensions": [
+            256,
+            256
+          ],
+          "label": "quest_illustration_15_rati",
+          "profile": {
+            "kind": "xbox-inline-bc-v1",
+            "format": 7
+          },
+          "channel_mode": "rgba",
+          "preserve_unchanged_blocks": true,
+          "alpha_encoding": "adaptive-range",
+          "rgb_encoding": "weighted-fit-v1",
+          "protected_regions": [
+            {
+              "id": "monster-artwork",
+              "rect": [
+                0,
+                0,
+                256,
+                220
+              ],
+              "rgba_sha256": "0e60785c225c3d82dcd883c441f9c2668dcd57d49bf514f332f4b504e20feb13"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "expected_header_sha256": null,
+      "source": {
+        "path": "MC2Game/CookedXenon/Quest_Monster_16_Swamp_eel.xxx",
+        "discs": [
+          1,
+          2
+        ],
+        "original": {
+          "path": "build/poc-game/disc1/MC2Game/CookedXenon/Quest_Monster_16_Swamp_eel.xxx",
+          "sha256": "afcbc59b21f99b85a7fed3745623a1c35cde30f0e1d4cfb51c81bcd693f506cf"
+        },
+        "base": {
+          "path": "build/poc-game/disc1/MC2Game/CookedXenon/Quest_Monster_16_Swamp_eel.xxx",
+          "sha256": "afcbc59b21f99b85a7fed3745623a1c35cde30f0e1d4cfb51c81bcd693f506cf"
+        }
+      },
+      "textures": [
+        {
+          "object": "Quest_Monster_16_Swamp_eel",
+          "payload_sha256": "fed9e913d8c8214f5dfd1885246f4cd4683e7ce0aa3adc44761f1010f860a7ab",
+          "tiled_sha256": "6e054e41a12333d7fe4944ae9091756e2fd833e6e9112961b223058634bb574a",
+          "dimensions": [
+            256,
+            256
+          ],
+          "label": "quest_illustration_16_swamp_eel",
+          "profile": {
+            "kind": "xbox-inline-bc-v1",
+            "format": 7
+          },
+          "channel_mode": "rgba",
+          "preserve_unchanged_blocks": true,
+          "alpha_encoding": "adaptive-range",
+          "rgb_encoding": "weighted-fit-v1",
+          "protected_regions": [
+            {
+              "id": "monster-artwork",
+              "rect": [
+                0,
+                0,
+                256,
+                220
+              ],
+              "rgba_sha256": "9e21fd0231d58f5991a37cd1312c8327e436596a9ac63ee61881e180c0d7c646"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "expected_header_sha256": null,
+      "source": {
+        "path": "MC2Game/CookedXenon/Quest_Monster_18_Thief_reader.xxx",
+        "discs": [
+          1,
+          2
+        ],
+        "original": {
+          "path": "build/poc-game/disc1/MC2Game/CookedXenon/Quest_Monster_18_Thief_reader.xxx",
+          "sha256": "1495efdbe720b8ffaa19fcbbe02c27122a4634bffe93c40129c2982bccd961df"
+        },
+        "base": {
+          "path": "build/poc-game/disc1/MC2Game/CookedXenon/Quest_Monster_18_Thief_reader.xxx",
+          "sha256": "1495efdbe720b8ffaa19fcbbe02c27122a4634bffe93c40129c2982bccd961df"
+        }
+      },
+      "textures": [
+        {
+          "object": "Quest_Monster_18_Thief_reader",
+          "payload_sha256": "27b608277b6dd108cc432ed90b84e8eb42a8f4983248b3d8905d5c1f209d1c86",
+          "tiled_sha256": "afd57d2092ebe41597a7e20a27ff3daf78dd032af79aaa8bc78e7d71fcd4d68b",
+          "dimensions": [
+            256,
+            256
+          ],
+          "label": "quest_illustration_18_thief_reader",
+          "profile": {
+            "kind": "xbox-inline-bc-v1",
+            "format": 7
+          },
+          "channel_mode": "rgba",
+          "preserve_unchanged_blocks": true,
+          "alpha_encoding": "adaptive-range",
+          "rgb_encoding": "weighted-fit-v1",
+          "protected_regions": [
+            {
+              "id": "monster-artwork",
+              "rect": [
+                0,
+                0,
+                256,
+                220
+              ],
+              "rgba_sha256": "d8a015a61bf87614f49b5ca9a3efe1d7ff72a5fc056a7caaaf621a510a549980"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "expected_header_sha256": null,
+      "source": {
+        "path": "MC2Game/CookedXenon/Quest_Monster_19_Union.xxx",
+        "discs": [
+          1,
+          2
+        ],
+        "original": {
+          "path": "build/poc-game/disc1/MC2Game/CookedXenon/Quest_Monster_19_Union.xxx",
+          "sha256": "a17b429e75621b5e8580e63e1ac353789deaf28ba185ae4d04dd5b8874a89319"
+        },
+        "base": {
+          "path": "build/poc-game/disc1/MC2Game/CookedXenon/Quest_Monster_19_Union.xxx",
+          "sha256": "a17b429e75621b5e8580e63e1ac353789deaf28ba185ae4d04dd5b8874a89319"
+        }
+      },
+      "textures": [
+        {
+          "object": "Quest_Monster_19_Union",
+          "payload_sha256": "e2247b35228dd6637bbc03e06936afaa0c69eaa7add95ae003cf984505eecbbc",
+          "tiled_sha256": "445072b0c5262672a3b0a8066417a084246cdfb858e45c21581a9d994e956d99",
+          "dimensions": [
+            256,
+            256
+          ],
+          "label": "quest_illustration_19_union",
+          "profile": {
+            "kind": "xbox-inline-bc-v1",
+            "format": 7
+          },
+          "channel_mode": "rgba",
+          "preserve_unchanged_blocks": true,
+          "alpha_encoding": "adaptive-range",
+          "rgb_encoding": "weighted-fit-v1",
+          "protected_regions": [
+            {
+              "id": "monster-artwork",
+              "rect": [
+                0,
+                0,
+                256,
+                220
+              ],
+              "rgba_sha256": "6414b24d9a942c3ab2ab9ce5c55b92c982afb1c14724f42a35f9c63503dac04f"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "expected_header_sha256": null,
+      "source": {
+        "path": "MC2Game/CookedXenon/Quest_Monster_23.xxx",
+        "discs": [
+          1,
+          2
+        ],
+        "original": {
+          "path": "build/poc-game/disc1/MC2Game/CookedXenon/Quest_Monster_23.xxx",
+          "sha256": "82837c3fe438f9bafb3687207593ac5f4476f2118141b7dd011e7467a75ccd00"
+        },
+        "base": {
+          "path": "build/poc-game/disc1/MC2Game/CookedXenon/Quest_Monster_23.xxx",
+          "sha256": "82837c3fe438f9bafb3687207593ac5f4476f2118141b7dd011e7467a75ccd00"
+        }
+      },
+      "textures": [
+        {
+          "object": "Quest_Monster_23",
+          "payload_sha256": "cf33778c6711113588486b8c33ccdeae895d6a194d3a35febde7446600992e60",
+          "tiled_sha256": "3b367f54708fce23e6fb2bf6491d47682b45e1d2e464fadc1f04d179b8644236",
+          "dimensions": [
+            256,
+            256
+          ],
+          "label": "quest_illustration_23",
+          "profile": {
+            "kind": "xbox-inline-bc-v1",
+            "format": 7
+          },
+          "channel_mode": "rgba",
+          "preserve_unchanged_blocks": true,
+          "alpha_encoding": "adaptive-range",
+          "rgb_encoding": "weighted-fit-v1",
+          "protected_regions": [
+            {
+              "id": "monster-artwork",
+              "rect": [
+                0,
+                0,
+                256,
+                220
+              ],
+              "rgba_sha256": "9bb57747c22549247a6b4d7f0dd38834de268ee7963e1d3140d60f1280bcc274"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "expected_header_sha256": null,
+      "source": {
+        "path": "MC2Game/CookedXenon/Quest_Monster_24.xxx",
+        "discs": [
+          1,
+          2
+        ],
+        "original": {
+          "path": "build/poc-game/disc1/MC2Game/CookedXenon/Quest_Monster_24.xxx",
+          "sha256": "88f3a4b1505077c0b322d94f4d7dd81e096e15b860270f532367951ebf4a39ca"
+        },
+        "base": {
+          "path": "build/poc-game/disc1/MC2Game/CookedXenon/Quest_Monster_24.xxx",
+          "sha256": "88f3a4b1505077c0b322d94f4d7dd81e096e15b860270f532367951ebf4a39ca"
+        }
+      },
+      "textures": [
+        {
+          "object": "Quest_Monster_24",
+          "payload_sha256": "d15c258f345cd42c1a896d1d87414b895ffd85dcc84b2effe35473e14813b75b",
+          "tiled_sha256": "74dbe639f97aff798fb003eaa0e3990bcd31f1a086e2b4662fdc2ca16c344c3a",
+          "dimensions": [
+            256,
+            256
+          ],
+          "label": "quest_illustration_24",
+          "profile": {
+            "kind": "xbox-inline-bc-v1",
+            "format": 7
+          },
+          "channel_mode": "rgba",
+          "preserve_unchanged_blocks": true,
+          "alpha_encoding": "adaptive-range",
+          "rgb_encoding": "weighted-fit-v1",
+          "protected_regions": [
+            {
+              "id": "monster-artwork",
+              "rect": [
+                0,
+                0,
+                256,
+                220
+              ],
+              "rgba_sha256": "6a049902c925d799c470d9160ef2e96c7f4b6817be34a8376dbcd43025db9552"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "expected_header_sha256": null,
+      "source": {
+        "path": "MC2Game/CookedXenon/Quest_Monster_25.xxx",
+        "discs": [
+          1,
+          2
+        ],
+        "original": {
+          "path": "build/poc-game/disc1/MC2Game/CookedXenon/Quest_Monster_25.xxx",
+          "sha256": "a4efa4e172684812c725e426730cb24116c1e5f2d013a836bd76f10e0ea109e0"
+        },
+        "base": {
+          "path": "build/poc-game/disc1/MC2Game/CookedXenon/Quest_Monster_25.xxx",
+          "sha256": "a4efa4e172684812c725e426730cb24116c1e5f2d013a836bd76f10e0ea109e0"
+        }
+      },
+      "textures": [
+        {
+          "object": "Quest_Monster_25",
+          "payload_sha256": "20a68bf8568df4bf4aadd3e27d7a9ae3e176ffb929e7f6ba91d628206f953e44",
+          "tiled_sha256": "447892012c8f6891a61bba9ea93de9b5ae6c7343a13adf90a83585b85d1542bd",
+          "dimensions": [
+            256,
+            256
+          ],
+          "label": "quest_illustration_25",
+          "profile": {
+            "kind": "xbox-inline-bc-v1",
+            "format": 7
+          },
+          "channel_mode": "rgba",
+          "preserve_unchanged_blocks": true,
+          "alpha_encoding": "adaptive-range",
+          "rgb_encoding": "weighted-fit-v1",
+          "protected_regions": [
+            {
+              "id": "monster-artwork",
+              "rect": [
+                0,
+                0,
+                256,
+                220
+              ],
+              "rgba_sha256": "cfcba0636cc5f94def7e3817daabe5baaaf20ed18a2fb6de1336a962d6d700c5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "expected_header_sha256": null,
+      "source": {
+        "path": "MC2Game/CookedXenon/Quest_Monster_20_Wereboar.xxx",
+        "discs": [
+          2
+        ],
+        "original": {
+          "path": "build/poc-game/disc2/MC2Game/CookedXenon/Quest_Monster_20_Wereboar.xxx",
+          "sha256": "3aa6bc8c06ca214cd9c4fe75b5f55ddffde9205f88b7df85a9ab89b7b99638a1"
+        },
+        "base": {
+          "path": "build/poc-game/disc2/MC2Game/CookedXenon/Quest_Monster_20_Wereboar.xxx",
+          "sha256": "3aa6bc8c06ca214cd9c4fe75b5f55ddffde9205f88b7df85a9ab89b7b99638a1"
+        }
+      },
+      "textures": [
+        {
+          "object": "Quest_Monster_20_Wereboar",
+          "payload_sha256": "82bc04038a2c9b975f15e801ab3bfa9ddcecd4d6d6014432d8204838c76f305e",
+          "tiled_sha256": "16c1a4405922304a6ce38f525ad1f1a4dba57f7708e9591ecc9f2bf521bcdfba",
+          "dimensions": [
+            256,
+            256
+          ],
+          "label": "quest_illustration_20_wereboar",
+          "profile": {
+            "kind": "xbox-inline-bc-v1",
+            "format": 7
+          },
+          "channel_mode": "rgba",
+          "preserve_unchanged_blocks": true,
+          "alpha_encoding": "adaptive-range",
+          "rgb_encoding": "weighted-fit-v1",
+          "protected_regions": [
+            {
+              "id": "monster-artwork",
+              "rect": [
+                0,
+                0,
+                256,
+                220
+              ],
+              "rgba_sha256": "e9a494467ec65361682573d95d063816c19d36225a51409b4e381359e2650319"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "expected_header_sha256": null,
+      "source": {
+        "path": "MC2Game/CookedXenon/Quest_Monster_21_Grami.xxx",
+        "discs": [
+          2
+        ],
+        "original": {
+          "path": "build/poc-game/disc2/MC2Game/CookedXenon/Quest_Monster_21_Grami.xxx",
+          "sha256": "57cb1a2c43d34e43b9409f033c32fdd246657d0ec66d04db6736b051b3fa0e4d"
+        },
+        "base": {
+          "path": "build/poc-game/disc2/MC2Game/CookedXenon/Quest_Monster_21_Grami.xxx",
+          "sha256": "57cb1a2c43d34e43b9409f033c32fdd246657d0ec66d04db6736b051b3fa0e4d"
+        }
+      },
+      "textures": [
+        {
+          "object": "Quest_Monster_21_Grami",
+          "payload_sha256": "90f917de4b8764b8db7a2eca6d58b4c87dc1fd89665828cb99aa81b920cfc8c4",
+          "tiled_sha256": "7180e5b38824419af74bebcd7be2375bae710620b237de2150c22cf7d49a7977",
+          "dimensions": [
+            256,
+            256
+          ],
+          "label": "quest_illustration_21_grami",
+          "profile": {
+            "kind": "xbox-inline-bc-v1",
+            "format": 7
+          },
+          "channel_mode": "rgba",
+          "preserve_unchanged_blocks": true,
+          "alpha_encoding": "adaptive-range",
+          "rgb_encoding": "weighted-fit-v1",
+          "protected_regions": [
+            {
+              "id": "monster-artwork",
+              "rect": [
+                0,
+                0,
+                256,
+                220
+              ],
+              "rgba_sha256": "3b441b7aec6953bc62998ceedbd3230b58512806bbdb011644b1f14428717e17"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "expected_header_sha256": null,
+      "source": {
+        "path": "MC2Game/CookedXenon/Quest_Monster_22_Groundbeast.xxx",
+        "discs": [
+          2
+        ],
+        "original": {
+          "path": "build/poc-game/disc2/MC2Game/CookedXenon/Quest_Monster_22_Groundbeast.xxx",
+          "sha256": "b97c6a94060a60ca12608fb7386559a488868f1ec28f480e0d821e51797d62bd"
+        },
+        "base": {
+          "path": "build/poc-game/disc2/MC2Game/CookedXenon/Quest_Monster_22_Groundbeast.xxx",
+          "sha256": "b97c6a94060a60ca12608fb7386559a488868f1ec28f480e0d821e51797d62bd"
+        }
+      },
+      "textures": [
+        {
+          "object": "Quest_Monster_22_Groundbeast",
+          "payload_sha256": "02e487074c58f559d056cf1fcbbb2ff13e19f099489fdb2b8d4b0035e1a96431",
+          "tiled_sha256": "7c983ab387f78e31006b77b4945c999a34aad6a555b4641f6417f9077ead289f",
+          "dimensions": [
+            256,
+            256
+          ],
+          "label": "quest_illustration_22_groundbeast",
+          "profile": {
+            "kind": "xbox-inline-bc-v1",
+            "format": 7
+          },
+          "channel_mode": "rgba",
+          "preserve_unchanged_blocks": true,
+          "alpha_encoding": "adaptive-range",
+          "rgb_encoding": "weighted-fit-v1",
+          "protected_regions": [
+            {
+              "id": "monster-artwork",
+              "rect": [
+                0,
+                0,
+                256,
+                220
+              ],
+              "rgba_sha256": "356aa5d32e0a279f4d8235eb71da81077f08da089efec8aa902128101dd6de34"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

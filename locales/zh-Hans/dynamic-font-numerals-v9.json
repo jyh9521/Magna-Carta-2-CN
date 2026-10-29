@@ -1,0 +1,145 @@
+{
+  "schema_version": 1,
+  "kind": "font-reface-plan",
+  "font": {
+    "path": "build/phase-326-font-preview/fonts/ZhuqueFangsong-Regular.ttf",
+    "sha256": "558c62730844fe54ba220146ed62f859d4e2880188d92d985f8921c6e3743bc4",
+    "source_weight": 400,
+    "target_weight": 500,
+    "method": "freetype-fractional-outline-stroke-v1"
+  },
+  "roles": [
+    {
+      "id": "general",
+      "font_size": 28,
+      "metric_height": 25,
+      "wide_advance": 27,
+      "texture_index": 5,
+      "stroke_em": 0.006,
+      "shadow": false,
+      "glyph_aliases": {
+        "１": "1"
+      },
+      "codepoints": [
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        65297
+      ],
+      "baseline_offset": -2
+    },
+    {
+      "id": "small",
+      "font_size": 20,
+      "metric_height": 18,
+      "wide_advance": 20,
+      "texture_index": 0,
+      "stroke_em": 0.006,
+      "shadow": false,
+      "glyph_aliases": {
+        "１": "1"
+      },
+      "codepoints": [
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        65297
+      ],
+      "baseline_offset": -1
+    },
+    {
+      "id": "subtitle",
+      "font_size": 34,
+      "metric_height": 31,
+      "wide_advance": 32,
+      "texture_index": 3,
+      "stroke_em": 0.006,
+      "shadow": true,
+      "glyph_aliases": {
+        "１": "1"
+      },
+      "codepoints": [
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        65297
+      ],
+      "baseline_offset": -2
+    }
+  ],
+  "sources": [
+    {
+      "path": "MC2Game/CookedXenon/font.xxx",
+      "before_sha256": "d4662b259fab9e15613871463f4d00a2703732a251e164738e957471172878e7",
+      "fonts": [
+        {
+          "object": "General_15",
+          "role": "general"
+        },
+        {
+          "object": "EngineMedium_Subtitle",
+          "role": "subtitle"
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/Engine.xxx",
+      "before_sha256": "f46b0b7e04c910a437f047ae55ac40a3ee47ef8a4eab7c288ed46b0010637d6c",
+      "fonts": [
+        {
+          "object": "EngineFonts.SmallFont",
+          "role": "small"
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/MC2Game.xxx",
+      "before_sha256": "a87c10ef28441d6abf9529ca4464f750c73ce8a3a44ba6b71ce2e4af13abab11",
+      "fonts": [
+        {
+          "object": "Font.General_15",
+          "role": "general"
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/Startup_int.xxx",
+      "before_sha256": "e1ae313015f0dcb11a9d4d59df9746e0f5031705408c7d719d2a617e0bed67b0",
+      "fonts": [
+        {
+          "object": "Font.General_15",
+          "role": "general"
+        },
+        {
+          "object": "EngineFonts.SmallFont",
+          "role": "small"
+        },
+        {
+          "object": "Font.EngineMedium_Subtitle",
+          "role": "subtitle"
+        }
+      ]
+    }
+  ]
+}

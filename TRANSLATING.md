@@ -1,3 +1,5 @@
+> 阶段330：正文排版规则进入 `gameplay-text-layout-v9.json`，关闭标点/闭括号行首，保护括号、样式、格式参数、空段和全文。仅显式源SHA锁定的7条允许段内软换行重排；5条原有裸反斜杠整条保留。详见 [全文排版](docs/PHASE_330_TEXT_LAYOUT.md)。
+
 > 载入影片译文独立维护在 `locales/zh-Hans/loading-captions-v7.json`。角色/地名沿用terms；换行按原可见行数与28/29px步长安排，先改自然断句而非缩字或拉伸。01/11/12右对齐，其他左对齐；标题与正文分开匹配风格，不把原背景光带当通用文字glow。模板与复现见 [阶段325](docs/PHASE_325_GAMEPLAY_FEEDBACK.md)。
 
 > 阶段322：第五轮4条非空记录中3图修订，GitHub博客作为非图像备注原样记录；用户确认1071/1082奖品同步放大。829图保持第五版，空白不代表审美通过。见 [阶段322](docs/PHASE_322_FIFTH_IMAGE_FEEDBACK.md)。

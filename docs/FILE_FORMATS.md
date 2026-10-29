@@ -1,3 +1,5 @@
+> 阶段330：timed-subtitle条目可显式提供仅针对`<br>`的`break_policy`与前后次数，反向重建交换次数并保持时码/clear事件；UE3标量字段补丁按导出payload SHA、嵌套tag路径、array_index和精确旧/新字节守护。见 [文本](PHASE_330_TEXT_LAYOUT.md) / [UI字段](PHASE_330_UI_CONSUMERS.md)。
+
 > 阶段325的静音BIKi载入子集：44字节固定字段后是frames+1个32位偏移（最低bit另有标志）；验证总长度、重复帧数、最大帧长、顺序、尺寸及无音轨/alpha。源90帧、1280×720、fps=10000000/333333。原时间基只在全部帧数与内容尺寸验证后恢复，不能用篡改frame count掩盖编码丢帧。格式守卫/逐帧重放见 `tools/video_caption.py`、`tools/build_video_captions.py` 与[阶段325](PHASE_325_GAMEPLAY_FEEDBACK.md)。
 
 ## XDVDFS 与 Xbox360TOC 联动（阶段324）

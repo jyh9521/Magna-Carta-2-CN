@@ -1,0 +1,249 @@
+{
+  "schema_version": 1,
+  "kind": "texture-consumer-probe-contracts",
+  "game_rendering_verified": false,
+  "cases": [
+    {
+      "name": "category 186/0: 79-pixel UV center",
+      "mode": "glyph-bounds",
+      "sample": {
+        "label": "img_ui_name_jpn_186_0",
+        "window": [
+          0,
+          0,
+          79,
+          31
+        ]
+      },
+      "center": [
+        39.5,
+        15.5
+      ],
+      "tolerance": 1,
+      "min_left": 2,
+      "max_right": 77
+    },
+    {
+      "name": "category 186/1: 79-pixel UV center",
+      "mode": "glyph-bounds",
+      "sample": {
+        "label": "img_ui_name_jpn_186_1",
+        "window": [
+          0,
+          32,
+          79,
+          31
+        ]
+      },
+      "center": [
+        39.5,
+        15.5
+      ],
+      "tolerance": 1,
+      "min_left": 2,
+      "max_right": 77
+    },
+    {
+      "name": "category 186/2: 79-pixel UV center",
+      "mode": "glyph-bounds",
+      "sample": {
+        "label": "img_ui_name_jpn_186_2",
+        "window": [
+          0,
+          64,
+          79,
+          31
+        ]
+      },
+      "center": [
+        39.5,
+        15.5
+      ],
+      "tolerance": 1,
+      "min_left": 2,
+      "max_right": 77
+    },
+    {
+      "name": "category 186/3: 79-pixel UV center",
+      "mode": "glyph-bounds",
+      "sample": {
+        "label": "img_ui_name_jpn_186_3",
+        "window": [
+          0,
+          96,
+          79,
+          31
+        ]
+      },
+      "center": [
+        39.5,
+        15.5
+      ],
+      "tolerance": 1,
+      "min_left": 2,
+      "max_right": 77
+    },
+    {
+      "name": "category 187/0: 79-pixel UV center",
+      "mode": "glyph-bounds",
+      "sample": {
+        "label": "img_ui_name_jpn_187_0",
+        "window": [
+          0,
+          0,
+          79,
+          31
+        ]
+      },
+      "center": [
+        39.5,
+        15.5
+      ],
+      "tolerance": 1,
+      "min_left": 2,
+      "max_right": 77
+    },
+    {
+      "name": "category 187/1: 79-pixel UV center",
+      "mode": "glyph-bounds",
+      "sample": {
+        "label": "img_ui_name_jpn_187_1",
+        "window": [
+          0,
+          32,
+          79,
+          31
+        ]
+      },
+      "center": [
+        39.5,
+        15.5
+      ],
+      "tolerance": 1,
+      "min_left": 2,
+      "max_right": 77
+    },
+    {
+      "name": "category 187/2: 79-pixel UV center",
+      "mode": "glyph-bounds",
+      "sample": {
+        "label": "img_ui_name_jpn_187_2",
+        "window": [
+          0,
+          64,
+          79,
+          31
+        ]
+      },
+      "center": [
+        39.5,
+        15.5
+      ],
+      "tolerance": 1,
+      "min_left": 2,
+      "max_right": 77
+    },
+    {
+      "name": "category 187/3: 79-pixel UV center",
+      "mode": "glyph-bounds",
+      "sample": {
+        "label": "img_ui_name_jpn_187_3",
+        "window": [
+          0,
+          96,
+          79,
+          31
+        ]
+      },
+      "center": [
+        39.5,
+        15.5
+      ],
+      "tolerance": 1,
+      "min_left": 2,
+      "max_right": 77
+    },
+    {
+      "name": "money: 68-pixel UV contains entire label",
+      "mode": "glyph-bounds",
+      "sample": {
+        "label": "img_ui_name_jpn_188_2",
+        "window": [
+          176,
+          0,
+          68,
+          26
+        ]
+      },
+      "min_left": 2,
+      "max_right": 65,
+      "max_bottom": 24
+    },
+    {
+      "name": "subtitle 4: 26-pixel UV contains ink",
+      "mode": "glyph-bounds",
+      "sample": {
+        "label": "img_ui_name_jpn_188_4",
+        "window": [
+          0,
+          70,
+          203,
+          26
+        ]
+      },
+      "min_top": 0,
+      "max_bottom": 24
+    },
+    {
+      "name": "subtitle 4: no next-slot shadow",
+      "mode": "alpha-after",
+      "label": "img_ui_name_jpn_188_4",
+      "atlas_y": 96,
+      "max_alpha": 0
+    },
+    {
+      "name": "subtitle 5: 26-pixel UV contains ink",
+      "mode": "glyph-bounds",
+      "sample": {
+        "label": "img_ui_name_jpn_188_5",
+        "window": [
+          0,
+          96,
+          203,
+          26
+        ]
+      },
+      "min_top": 0,
+      "max_bottom": 24
+    },
+    {
+      "name": "subtitle 5: no next-slot shadow",
+      "mode": "alpha-after",
+      "label": "img_ui_name_jpn_188_5",
+      "atlas_y": 122,
+      "max_alpha": 0
+    },
+    {
+      "name": "subtitle 6: 26-pixel UV contains ink",
+      "mode": "glyph-bounds",
+      "sample": {
+        "label": "img_ui_name_jpn_188_6",
+        "window": [
+          0,
+          122,
+          203,
+          26
+        ]
+      },
+      "min_top": 0,
+      "max_bottom": 24
+    },
+    {
+      "name": "subtitle 6: no next-slot shadow",
+      "mode": "alpha-after",
+      "label": "img_ui_name_jpn_188_6",
+      "atlas_y": 148,
+      "max_alpha": 0
+    }
+  ]
+}

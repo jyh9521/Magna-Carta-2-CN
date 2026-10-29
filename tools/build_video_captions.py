@@ -15,12 +15,19 @@ import shutil
 import subprocess
 import sys
 from .video_caption import (sha, bink_header, preserve_timing, render_layer,
-    source_ink_mask, component_ink_mask, restore_masked, decoded_frames)
+    source_ink_mask, temporal_ink_mask, component_ink_mask, restore_masked, decoded_frames)
 from .verify_resource_phase import hash_value, unique, relative as canonical_relative
 
 
 def encoded(value):
     return (json.dumps(value,ensure_ascii=False,indent=2)+'\n').encode('utf-8')
+
+
+def verify_report_fields(previous,current,fields):
+    """Compare persisted JSON values, including tuple-valued Pillow bounds."""
+    for key in fields:
+        if previous[key]!=json.loads(encoded(current[key])):
+            raise ValueError('Independent movie report mismatch: '+key)
 
 
 def locked_file(path, expected, limit=512*1024*1024):
@@ -104,8 +111,16 @@ def prepare_layers(plan,entry,root,source_root,ffmpeg):
         erase=caption['erase']; rect=erase['rect']
         if 'reference' in erase:
             ref=erase['reference']; path=member(source_root,ref['file'])
-            data=locked_file(path,ref['sha256']); frame=first_frame(ffmpeg,path,bink_header(data))
-            mask=source_ink_mask(frame,ref['rect'],erase['threshold'],erase['radius'])
+            data=locked_file(path,ref['sha256']); ref_header=bink_header(data)
+            sampling=ref.get('sampling','first-frame')
+            if sampling=='all-frames-union':
+                frames=(Image.frombytes('RGB',(ref_header['width'],ref_header['height']),raw)
+                        for raw in decoded_frames(ffmpeg,path,ref_header))
+                mask=temporal_ink_mask(frames,ref['rect'],erase['threshold'],erase['radius'],ref_header['frames'])
+            elif sampling=='first-frame':
+                frame=first_frame(ffmpeg,path,ref_header)
+                mask=source_ink_mask(frame,ref['rect'],erase['threshold'],erase['radius'])
+            else:raise ValueError('Unsupported reference mask sampling')
             if tuple(mask.shape)!=(rect[3],rect[2]): raise ValueError('Reference mask geometry mismatch')
         elif 'selection' in erase:
             mask=component_ink_mask(original,rect,erase['selection'],erase['radius'])
@@ -270,8 +285,7 @@ def run(args):
             source_font_identity_recovered=False,hidden_background_reconstructed=True,
             scratch_retained=False)
         if args.verify:
-            for key in ('header','output_sha256','output_size','captions','frames','changed_support_pixels'):
-                if previous[key]!=report[key]: raise ValueError('Independent movie report mismatch: '+key)
+            verify_report_fields(previous,report,('header','output_sha256','output_size','captions','frames','changed_support_pixels'))
         else:report_path.write_bytes(encoded(report))
         if sha(source.read_bytes())!=entry['source']['sha256'] or args.plan.read_bytes()!=plan_raw:
             raise ValueError('Original movie or plan changed during build')

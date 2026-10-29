@@ -137,6 +137,27 @@ def render_layer(text, font_bytes, canvas, style):
     return image, dict(lines=lines,ink_boxes=ink_boxes,style=style,alpha_bbox=image.getbbox())
 
 
+def temporal_ink_mask(frames, rect, threshold, radius, expected_frames):
+    """Union source-supported ink over a bounded, identity-locked reference clip.
+
+    Animated dots and glow may not be visible in the first reference frame.
+    No colour or geometry from the destination artwork enters this mask.
+    """
+    import numpy as np
+    if type(expected_frames) is not int or not 1 <= expected_frames <= 600:
+        raise ValueError('Temporal mask frame bound')
+    result=None; count=0; size=None
+    for frame in frames:
+        count+=1
+        if count>expected_frames:raise ValueError('Temporal mask frame count mismatch')
+        if size is not None and frame.size!=size:raise ValueError('Temporal mask canvas mismatch')
+        size=frame.size
+        mask=source_ink_mask(frame,rect,threshold,radius)
+        result=mask.copy() if result is None else np.logical_or(result,mask)
+    if count!=expected_frames:raise ValueError('Temporal mask frame count mismatch')
+    return result
+
+
 def source_ink_mask(frame, rect, threshold, radius):
     import numpy as np
     from PIL import Image, ImageFilter

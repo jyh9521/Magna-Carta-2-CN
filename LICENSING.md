@@ -501,3 +501,12 @@ redistributed. Local static instruction/metadata reports remain ignored.
 独立Python工具不包含上游运行时代码，作者/版本/许可见NOTICE与DLC研究锁。
 两个原DLC包及完整修改后内容包只留在本地忽略目录；仓库只提交译表、
 源摘要、可重建工具、测试与技术记录，不提交完整声音、图片、模型或游戏包。
+
+## 稀疏载入字形修复（阶段333）
+
+`locales/zh-Hans/loading-restoration-v10`仅收录15张192×40透明稀疏修复块
+及来源摘要；总计60,556个有色像素，其他RGBA全零。它们来自对未知/低置信
+字形位置的图像生成修复，不含完整游戏帧、人物图、视频或完整原生FX纹理。
+完整源图、生成参考整图与Bink只保存在忽略目录，未加入Git。
+稀疏派生素材仍受已有游戏美术权利边界约束，不宣称原始美术属于项目。
+Noto Serif CJK字体沿用已记录的OFL来源与摘要，完整字体不提交。

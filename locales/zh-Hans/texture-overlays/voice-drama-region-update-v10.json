@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "kind": "native-texture-region-update",
+  "game_rendering_verified": false,
+  "overlay_plan": {
+    "path": "locales/zh-Hans/texture-overlays/voice-drama-headings-v10.json",
+    "sha256": "1a73b7de4df228036183f46ff705487db4f3639bd1ac35f12abdc90d68954195"
+  },
+  "resources": [
+    {
+      "path": "MC2Game/CookedXenon/TitleMap_MSPT.xxx",
+      "input_sha256": "521a8d968c7c671a60bc7d3032638b330485fdd4fd695e02649496c5fafb8c7f",
+      "object": "UI_Name_Jpn.Extra_Tex.Extra_Drama_Tex0",
+      "donor_object": "UI_Name_Jpn.Extra_Tex.Extra_Drama_Tex0",
+      "rectangles": [
+        [
+          28,
+          0,
+          228,
+          28
+        ]
+      ],
+      "discs": [
+        1,
+        2
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/UI_Name_Jpn.xxx",
+      "input_sha256": "904ba9d4e3398c88aa9f2bfe0fe4f4476819ed6fa6409282ff8fbe32dd427333",
+      "object": "Extra_Tex.Extra_Drama_Tex0",
+      "donor_object": "Extra_Tex.Extra_Drama_Tex0",
+      "rectangles": [
+        [
+          28,
+          0,
+          228,
+          28
+        ]
+      ],
+      "discs": [
+        1,
+        2
+      ]
+    }
+  ],
+  "disc": 1
+}

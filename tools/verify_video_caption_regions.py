@@ -31,10 +31,15 @@ def local_layers(plan,entry,role,root,source_root,ffmpeg,rect):
     x,y,w,h=rect;box=(x,y,x+w,y+h)
     if x+w>header['width'] or y+h>header['height']:raise ValueError('ROI outside movie')
     shifted=[];erase=np.zeros((h,w),bool)
-    for area,mask in masks:
+    from .video_native_indicator import NativeIndicator
+    for operation in masks:
+        area,mask=operation
         xx,yy,ww,hh=area
         if xx<x or yy<y or xx+ww>x+w or yy+hh>y+h:raise ValueError('ROI must contain complete erase mask')
-        shifted.append(([xx-x,yy-y,ww,hh],mask));erase[yy-y:yy-y+hh,xx-x:xx-x+ww]|=mask
+        if isinstance(operation,NativeIndicator):
+            moved=copy.copy(operation);moved.rect=(xx-x,yy-y,ww,hh);shifted.append(moved)
+        else:shifted.append(([xx-x,yy-y,ww,hh],mask))
+        erase[yy-y:yy-y+hh,xx-x:xx-x+ww]|=mask
     # Reject unaccounted-for neighbouring captions in the selected crop.
     for c in entry['captions']:
         if c['role']!=role and intersection(c['style']['rect'],rect):
@@ -55,6 +60,7 @@ def main():
     for name in ('plan-sha256','prior-plan-sha256','ffmpeg-sha256','role'):p.add_argument('--'+name,required=True)
     p.add_argument('--project-root',type=Path,default=Path('.'));p.add_argument('--region',type=rectangle,required=True)
     p.add_argument('--reference-caption-x',type=int)
+    p.add_argument('--measurement',choices=('new-erase-halo','owned-text-support'),default='new-erase-halo')
     p.add_argument('--protect',type=rectangle,action='append',default=[])
     p.add_argument('--max-mean',type=float,default=5);p.add_argument('--max-p99',type=float,default=20)
     a=p.parse_args()
@@ -70,8 +76,8 @@ def main():
         args=(a.role,a.project_root,a.source_root,a.ffmpeg,region)
         source,source_raw,header,masks,layer,changed,erase,proof=local_layers(plan,e,*args)
         _,_,_,old_masks,old_layer,old_changed,old_erase,_=local_layers(prior,old[e['id']],*args)
-        halo=erase&~old_erase&~(np.asarray(layer.getchannel('A'))>0)
-        if not halo.any():raise ValueError('No newly erased source halo to audit')
+        halo=changed if a.measurement=='owned-text-support' else erase&~old_erase&~(np.asarray(layer.getchannel('A'))>0)
+        if not halo.any():raise ValueError('Selected measurement support is empty')
         protected=np.zeros_like(changed);x,y,w,h=region
         for px,py,pw,ph in guards:
             if px<x or py<y or px+pw>x+w or py+ph>y+h:raise ValueError('Protected region outside ROI')
@@ -85,10 +91,10 @@ def main():
         try:
             for frame_no,(s,c,b) in enumerate(zip(*streams,strict=True)):
                 images=[Image.frombytes('RGB',(header['width'],header['height']),raw).crop(box) for raw in (s,c,b)]
-                expected=composite(images[0],masks,layer,changed)
+                expected=composite(images[0],masks,layer,changed,frame_no)
                 delta=np.abs(np.array(expected).astype('int16')-np.array(images[1]).astype('int16'))
                 old_delta=np.abs(np.array(expected).astype('int16')-np.array(images[2]).astype('int16'))
-                old_expected=composite(images[0],old_masks,old_layer,old_changed)
+                old_expected=composite(images[0],old_masks,old_layer,old_changed,frame_no)
                 if not np.array_equal(np.array(expected)[protected],np.array(images[0])[protected]):raise ValueError('Protected preencode pixels changed')
                 if not np.array_equal(np.array(expected)[~(changed|old_changed)],np.array(old_expected)[~(changed|old_changed)]):raise ValueError('Caption change escaped mask union')
                 row=dict(frame=frame_no,modified_halo=metrics(delta,halo),baseline_halo=metrics(old_delta,halo),
@@ -105,7 +111,9 @@ def main():
         for path,content in ((source,source_raw),(candidate,candidate_raw),(baseline,baseline_raw)):
             if sha(path.read_bytes())!=sha(content):raise ValueError('Movie changed during focused replay: '+str(path))
         report=dict(id=e['id'],source_sha256=sha(source_raw),baseline_sha256=sha(baseline_raw),output_sha256=sha(candidate_raw),
-            role=a.role,region=region,protect=guards,new_halo_pixels=int(halo.sum()),mask=proof,frames=rows,passed=True)
+            role=a.role,region=region,protect=guards,measurement=a.measurement,
+            new_halo_pixels=int(halo.sum()) if a.measurement=='new-erase-halo' else 0,
+            measured_pixels=int(halo.sum()),mask=proof,frames=rows,passed=True)
         (out/(e['id']+'.json')).write_bytes(encoded(report));all_rows.append(report)
         print('PASS',e['id'],'frames',len(rows),'halo_max_mean',round(max(r['modified_halo']['mean'] for r in rows),4),flush=True)
     contact.save(out/'baseline-mid__modified-first-mid-last.png')

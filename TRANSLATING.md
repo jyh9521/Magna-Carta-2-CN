@@ -2323,3 +2323,12 @@ flags remain false; no story translation gate changes.
 短剧对白与12种特殊武器的36个显示字段引用本体Coalesced，避免创建第二套不同译名。
 23处原字幕错键通过独立同FaceFX字幕佐证修订，不凭相邻编号推断。
 详见 [DLC汉化记录](docs/PHASE_331_DLC_LOCALIZATION.md)。
+
+## 语音剧简介标点与图片字体（阶段333）
+
+`voice-drama-punctuation-v10.json`在当前Coalesced摘要上补三段简介的5处标点；
+句末陈述用句号，“之际”作为后续主句的从句用逗号。标题/短标签的无句号约定
+不适用于剧情简介。保留原字词、控制符、段落与省略号，不改历史hash绑定批次。
+上下标题共享实际下方标签的同一字体和完整效果。载入提示的三种点数状态、
+22px字体与稀疏修复数据均放在locale目录，而非硬编码到通用工具。
+详见[阶段333](docs/PHASE_333_VOICE_LOADING.md)。

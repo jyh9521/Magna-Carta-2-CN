@@ -1705,3 +1705,12 @@ STFS文件表成员名称上限40字节与外部容器文件名不是同一约�
 > 阶段332新增最终生成包profile `xenon-446-25-raw32k-v1`：BE446/25、raw压缩三字段、
 > 32KiB物理尾部、活跃Texture2D无本项目精确stored-LZX流。对象/原生tile不变；
 > 非通用UE3规则。独立wrapper识别与历史包差异见[阶段332](PHASE_332_STARTUP_ENVELOPE.md)。
+
+## Video caption native-screen extension（阶段333）
+
+`bink-caption-plan`的可选`erase.native_screen`绑定方法、参考上下文矩形、
+transmittance阈值、跨全部帧的不一致容差、matte/repair-mask SHA256、
+稀疏RGBA路径/摘要及三个文字状态。PNG必须192×40（本locale数据），
+alpha仅0/255，未选区域RGBA全零；重算的支持域须与文件精确相等。
+参数改变、源文件改变或有额外修复像素时拒绝构建。通用实现支持有界其他尺寸。
+原BIKi头、90帧及10000000/333333时基不变；详见[阶段333](PHASE_333_VOICE_LOADING.md)。

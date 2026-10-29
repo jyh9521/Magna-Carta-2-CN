@@ -78,6 +78,51 @@ def load_plan(path, expected):
     return plan,raw
 
 
+def prepare_native_indicator(caption,mask,font,original,source,header,root,source_root,ffmpeg):
+    from PIL import Image
+    import numpy as np
+    from .video_screen_underlay import extract_glyph_matte,inverse_screen
+    from .video_native_indicator import NativeIndicator
+    erase=caption['erase'];spec=erase['native_screen'];ref=erase['reference']
+    if spec.get('method')!='boundary-compensated-screen-v1':raise ValueError('Unsupported native screen method')
+    x,y,w,h=erase['rect'];rx,ry,rw,rh=ref['rect'];cx,cy,cw,ch=spec['context_rect']
+    if (rw,rh)!=(w,h) or min(rx-cx,ry-cy)<0 or rx+w>cx+cw or ry+h>cy+ch:
+        raise ValueError('Native screen source context does not contain caption')
+    path=member(source_root,ref['file']);data=locked_file(path,ref['sha256']);fh=bink_header(data)
+    if cx<0 or cy<0 or cx+cw>fh['width'] or cy+ch>fh['height']:raise ValueError('Native screen context outside reference')
+    fullmask=np.zeros((ch,cw),bool);ox=rx-cx;oy=ry-cy;fullmask[oy:oy+h,ox:ox+w]=mask
+    frames=(np.asarray(Image.frombytes('RGB',(fh['width'],fh['height']),raw).crop((cx,cy,cx+cw,cy+ch)))
+            for raw in decoded_frames(ffmpeg,path,fh))
+    inference=extract_glyph_matte(frames,fullmask)
+    matte=inference['matte_rgb'][oy:oy+h,ox:ox+w].copy()
+    threshold=spec['minimum_transmittance'];tolerance=spec['invalid_tolerance']
+    if type(tolerance)is not int or not 0<=tolerance<=8:raise ValueError('Native screen inconsistency tolerance')
+    invalid=np.zeros((h,w),bool)
+    for raw in decoded_frames(ffmpeg,source,header):
+        crop=np.asarray(Image.frombytes('RGB',original.size,raw).crop((x,y,x+w,y+h)))
+        invalid|=(matte.astype(np.int16)>crop.astype(np.int16)+tolerance).any(2)&mask
+    anchor=np.asarray(original.crop((x,y,x+w,y+h)))
+    unknown=inverse_screen(anchor,matte,minimum_transmittance=threshold)['unknown']|invalid
+    if sha(matte.tobytes())!=spec['matte_sha256'] or sha(unknown.tobytes())!=spec['repair_mask_sha256']:
+        raise ValueError('Native screen matte or repair support changed')
+    asset=spec['core_patch'];raw_patch=locked_file(member(root,asset['path']),asset['sha256'],1024*1024)
+    patch=Image.open(io.BytesIO(raw_patch));patch.load()
+    states=spec['text_states']
+    if len(states)!=3 or states[-1]!=caption['text'] or any(not isinstance(s,str) or not s for s in states):
+        raise ValueError('Native indicator needs three explicit complete text states')
+    layers=[]
+    for state in states:
+        rendered,_=render_layer(state,font,original.size,caption['style'])
+        bounds=rendered.getbbox()
+        if bounds and (bounds[0]<x or bounds[1]<y or bounds[2]>x+w or bounds[3]>y+h):
+            raise ValueError('Native indicator glow leaves its bounded canvas')
+        layers.append(rendered.crop((x,y,x+w,y+h)))
+    operation=NativeIndicator(erase['rect'],mask,matte,anchor,patch,layers,header['frames'],threshold,invalid)
+    evidence=operation.proof();evidence.update(core_patch_sha256=asset['sha256'],invalid_model_pixels=int(invalid.sum()),
+        matte_inference={k:v for k,v in inference.items() if not isinstance(v,np.ndarray)})
+    return operation,evidence
+
+
 def prepare_layers(plan,entry,root,source_root,ffmpeg):
     from PIL import Image
     import numpy as np
@@ -105,7 +150,8 @@ def prepare_layers(plan,entry,root,source_root,ffmpeg):
         from fontTools.ttLib import TTFont
         with TTFont(io.BytesIO(font)) as tt:
             cmap=tt.getBestCmap()
-            if any(not ch.isspace() and ord(ch) not in cmap for ch in caption['text']):
+            texts=[caption['text']]+caption.get('erase',{}).get('native_screen',{}).get('text_states',[])
+            if any(not ch.isspace() and ord(ch) not in cmap for text in texts for ch in text):
                 raise ValueError('Caption font has missing glyphs')
         rendered,proof=render_layer(caption['text'],font,canvas,caption['style'])
         erase=caption['erase']; rect=erase['rect']
@@ -130,8 +176,13 @@ def prepare_layers(plan,entry,root,source_root,ffmpeg):
         x,y,w,h=rect
         if x<0 or y<0 or x+w>canvas[0] or y+h>canvas[1]: raise ValueError('Erase rectangle outside movie')
         changed[y:y+h,x:x+w]|=mask
-        masks.append((rect,mask))
-        layer=Image.alpha_composite(layer,rendered)
+        if 'native_screen' in erase:
+            operation,evidence=prepare_native_indicator(caption,mask,font,original,source,header,root,source_root,ffmpeg)
+            masks.append(operation);proof['native_screen']=evidence
+            for state in operation.layers:changed[y:y+h,x:x+w]|=np.asarray(state.getchannel('A'))>0
+        else:
+            masks.append((rect,mask))
+            layer=Image.alpha_composite(layer,rendered)
         proof.update(text=caption['text'],font_sha256=sha(font),mask_sha256=sha(mask.tobytes()),
                      mask_pixels=int(mask.sum()),erase_rect=rect)
         proofs.append(proof)
@@ -140,12 +191,15 @@ def prepare_layers(plan,entry,root,source_root,ffmpeg):
     return source,raw,header,masks,layer,changed,proofs
 
 
-def composite(frame,masks,layer,changed):
+def composite(frame,masks,layer,changed,frame_index=0):
     from PIL import Image
     import numpy as np
     result=frame
-    for rect,mask in masks:
-        result,_=restore_masked(result,rect,mask)
+    from .video_native_indicator import NativeIndicator
+    for operation in masks:
+        if isinstance(operation,NativeIndicator):result=operation.apply(result,frame_index)
+        else:
+            rect,mask=operation;result,_=restore_masked(result,rect,mask)
     result=Image.alpha_composite(result.convert('RGBA'),layer).convert('RGB')
     if not np.array_equal(np.asarray(frame)[~changed],np.asarray(result)[~changed]):
         raise ValueError('Movie artwork changed outside text support')
@@ -177,7 +231,7 @@ def write_avi(ffmpeg,source,header,masks,layer,changed,path):
     try:
         for index,data in enumerate(decoded_frames(ffmpeg,source,header)):
             frame=Image.frombytes('RGB',(header['width'],header['height']),data)
-            result=composite(frame,masks,layer,changed)
+            result=composite(frame,masks,layer,changed,index)
             if index==0: preview=result
             content=result.tobytes(); hashes.append(sha(content));p.stdin.write(content)
         p.stdin.close();errors=p.stderr.read();code=p.wait(timeout=60)
@@ -199,7 +253,7 @@ def replay(ffmpeg,source,output,header,masks,layer,changed):
     try:
         for index,(a,b) in enumerate(zip(before,after,strict=True)):
             frame=Image.frombytes('RGB',(header['width'],header['height']),a)
-            expected=composite(frame,masks,layer,changed)
+            expected=composite(frame,masks,layer,changed,index)
             actual=Image.frombytes('RGB',frame.size,b)
             delta=np.abs(np.asarray(expected).astype('int16')-np.asarray(actual).astype('int16'))
             rows.append(dict(index=index,expected_rgb_sha256=sha(expected.tobytes()),

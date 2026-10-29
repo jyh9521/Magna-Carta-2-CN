@@ -1,0 +1,659 @@
+{
+  "schema_version": 1,
+  "kind": "texture-text-overlay-plan",
+  "game_rendering_verified": false,
+  "font": {
+    "path": "build/font-source/NotoSansCJKsc-Regular.otf",
+    "sha256": "2c76254f6fc379fddfce0a7e84fb5385bb135d3e399294f6eeb6680d0365b74b"
+  },
+  "rasterizer_versions": {
+    "Pillow": "12.2.0",
+    "fonttools": "4.63.0"
+  },
+  "labels": [
+    {
+      "id": "img_ui_name_jpn_13_0",
+      "text": "主要登场人物",
+      "rect": [
+        28,
+        0,
+        228,
+        28
+      ],
+      "font_size": 20,
+      "style": {
+        "fill": [
+          244,
+          215,
+          145,
+          255
+        ],
+        "stroke_fill": [
+          35,
+          35,
+          35,
+          240
+        ],
+        "shadow_fill": [
+          0,
+          0,
+          0,
+          180
+        ]
+      },
+      "align": "left",
+      "translation_basis": "source-image-cell-with-context",
+      "source_text_sha256": "37e7714badce1c9a30af3567b5cc100116f1c1ef7d1efa0e8a8885f071f4d485",
+      "source_ids": [],
+      "restoration": {
+        "source_rgba_sha256": "e913c9f6ecd7a6fa2d641a365746073f3fcfd54d3d069310337daf1e2ac4362e",
+        "patch": {
+          "path": "locales/zh-Hans/texture-overlays/restorations/review-20261026/img_ui_name_jpn_13_0-patch.png",
+          "sha256": "8b5a427b41442d590b3cc9a04a9cdc336b9285ccdacc1083508ad9b1ea97e31f"
+        },
+        "mask": {
+          "path": "locales/zh-Hans/texture-overlays/restorations/review-20261026/img_ui_name_jpn_13_0-mask.png",
+          "sha256": "6c0919d3671001ec794a9a5e4c8f3d44684f656455669972cb5620fadc213c3f"
+        }
+      },
+      "font": {
+        "path": "build/font-source/NotoSerifCJKsc-SemiBold.otf",
+        "sha256": "d627b53dbcde61e07de1498d2623a8b287f78585ffbc90cc0618d0caaa2ed6b0"
+      },
+      "appearance": {
+        "kind": "source-style-v1",
+        "ink_box": [
+          1,
+          4,
+          226,
+          20
+        ],
+        "align": "left",
+        "gradient": [
+          [
+            0,
+            [
+              200,
+              186,
+              175,
+              255
+            ]
+          ],
+          [
+            53,
+            [
+              255,
+              235,
+              231,
+              255
+            ]
+          ],
+          [
+            105,
+            [
+              255,
+              237,
+              231,
+              255
+            ]
+          ],
+          [
+            158,
+            [
+              255,
+              235,
+              231,
+              255
+            ]
+          ],
+          [
+            211,
+            [
+              255,
+              235,
+              214,
+              255
+            ]
+          ],
+          [
+            263,
+            [
+              247,
+              227,
+              173,
+              255
+            ]
+          ],
+          [
+            316,
+            [
+              247,
+              227,
+              156,
+              255
+            ]
+          ],
+          [
+            368,
+            [
+              247,
+              223,
+              148,
+              255
+            ]
+          ],
+          [
+            421,
+            [
+              247,
+              215,
+              126,
+              255
+            ]
+          ],
+          [
+            474,
+            [
+              247,
+              215,
+              123,
+              255
+            ]
+          ],
+          [
+            526,
+            [
+              247,
+              215,
+              119,
+              255
+            ]
+          ],
+          [
+            579,
+            [
+              247,
+              215,
+              119,
+              255
+            ]
+          ],
+          [
+            632,
+            [
+              239,
+              207,
+              115,
+              255
+            ]
+          ],
+          [
+            684,
+            [
+              251,
+              188,
+              123,
+              255
+            ]
+          ],
+          [
+            737,
+            [
+              251,
+              182,
+              123,
+              255
+            ]
+          ],
+          [
+            789,
+            [
+              251,
+              182,
+              123,
+              255
+            ]
+          ],
+          [
+            842,
+            [
+              255,
+              162,
+              123,
+              255
+            ]
+          ],
+          [
+            895,
+            [
+              255,
+              158,
+              123,
+              255
+            ]
+          ],
+          [
+            947,
+            [
+              255,
+              158,
+              123,
+              255
+            ]
+          ],
+          [
+            1000,
+            [
+              216,
+              136,
+              104,
+              255
+            ]
+          ]
+        ],
+        "outline": [
+          30,
+          18,
+          15,
+          210
+        ],
+        "outline_width": 0.45,
+        "glow": [
+          190,
+          90,
+          25,
+          150
+        ],
+        "glow_radius": 1.2,
+        "shadow": [
+          0,
+          0,
+          0,
+          160
+        ],
+        "shadow_offset": [
+          1,
+          1
+        ],
+        "shadow_radius": 0.7,
+        "italic": 0,
+        "tracking": 0,
+        "weight": 0,
+        "motion": 0
+      }
+    },
+    {
+      "id": "img_ui_name_jpn_13_1",
+      "text": "剧情简介",
+      "rect": [
+        28,
+        28,
+        228,
+        36
+      ],
+      "font_size": 20,
+      "style": {
+        "fill": [
+          244,
+          215,
+          145,
+          255
+        ],
+        "stroke_fill": [
+          35,
+          35,
+          35,
+          240
+        ],
+        "shadow_fill": [
+          0,
+          0,
+          0,
+          180
+        ]
+      },
+      "align": "left",
+      "translation_basis": "source-image-cell-with-context",
+      "source_text_sha256": "687bf8f66ea0f5850f42156ae7f9b15987130f5f26f388aaed1ceb7a714af00b",
+      "source_ids": [],
+      "restoration": {
+        "source_rgba_sha256": "2d1e9850754c4bf3c77395d2c684cadddcc85acc1ebef692439813cfbf1ddce9",
+        "patch": {
+          "path": "locales/zh-Hans/texture-overlays/restorations/review-20261026/img_ui_name_jpn_13_1-patch.png",
+          "sha256": "0f5216f8785f8062bdad5660d7d0ab376784d62b80d1a7da54fd7dc304ef81dc"
+        },
+        "mask": {
+          "path": "locales/zh-Hans/texture-overlays/restorations/review-20261026/img_ui_name_jpn_13_1-mask.png",
+          "sha256": "91741c8255c175c24c18ade5253741e0792e0f2aca0a2649da435cd6123e58b5"
+        }
+      },
+      "font": {
+        "path": "build/font-source/NotoSerifCJKsc-SemiBold.otf",
+        "sha256": "d627b53dbcde61e07de1498d2623a8b287f78585ffbc90cc0618d0caaa2ed6b0"
+      },
+      "appearance": {
+        "kind": "source-style-v1",
+        "ink_box": [
+          1,
+          7,
+          226,
+          20
+        ],
+        "align": "left",
+        "gradient": [
+          [
+            0,
+            [
+              200,
+              186,
+              175,
+              255
+            ]
+          ],
+          [
+            53,
+            [
+              255,
+              235,
+              231,
+              255
+            ]
+          ],
+          [
+            105,
+            [
+              255,
+              237,
+              231,
+              255
+            ]
+          ],
+          [
+            158,
+            [
+              255,
+              235,
+              231,
+              255
+            ]
+          ],
+          [
+            211,
+            [
+              255,
+              235,
+              214,
+              255
+            ]
+          ],
+          [
+            263,
+            [
+              247,
+              227,
+              173,
+              255
+            ]
+          ],
+          [
+            316,
+            [
+              247,
+              227,
+              156,
+              255
+            ]
+          ],
+          [
+            368,
+            [
+              247,
+              223,
+              148,
+              255
+            ]
+          ],
+          [
+            421,
+            [
+              247,
+              215,
+              126,
+              255
+            ]
+          ],
+          [
+            474,
+            [
+              247,
+              215,
+              123,
+              255
+            ]
+          ],
+          [
+            526,
+            [
+              247,
+              215,
+              119,
+              255
+            ]
+          ],
+          [
+            579,
+            [
+              247,
+              215,
+              119,
+              255
+            ]
+          ],
+          [
+            632,
+            [
+              239,
+              207,
+              115,
+              255
+            ]
+          ],
+          [
+            684,
+            [
+              251,
+              188,
+              123,
+              255
+            ]
+          ],
+          [
+            737,
+            [
+              251,
+              182,
+              123,
+              255
+            ]
+          ],
+          [
+            789,
+            [
+              251,
+              182,
+              123,
+              255
+            ]
+          ],
+          [
+            842,
+            [
+              255,
+              162,
+              123,
+              255
+            ]
+          ],
+          [
+            895,
+            [
+              255,
+              158,
+              123,
+              255
+            ]
+          ],
+          [
+            947,
+            [
+              255,
+              158,
+              123,
+              255
+            ]
+          ],
+          [
+            1000,
+            [
+              216,
+              136,
+              104,
+              255
+            ]
+          ]
+        ],
+        "outline": [
+          30,
+          18,
+          15,
+          210
+        ],
+        "outline_width": 0.45,
+        "glow": [
+          190,
+          90,
+          25,
+          150
+        ],
+        "glow_radius": 1.2,
+        "shadow": [
+          0,
+          0,
+          0,
+          160
+        ],
+        "shadow_offset": [
+          1,
+          1
+        ],
+        "shadow_radius": 0.7,
+        "italic": 0,
+        "tracking": 0,
+        "weight": 0,
+        "motion": 0
+      }
+    }
+  ],
+  "sources": [
+    {
+      "path": "MC2Game/CookedXenon/TitleMap_MSPT.xxx",
+      "discs": [
+        1,
+        2
+      ],
+      "original": {
+        "path": "build/poc-game/disc1/MC2Game/CookedXenon/TitleMap_MSPT.xxx",
+        "sha256": "e094df8399beac753e07a1ee388d5192b8f0a721fa854d786104de7439e98395"
+      },
+      "base": {
+        "path": "build/poc-game/disc1/MC2Game/CookedXenon/TitleMap_MSPT.xxx",
+        "sha256": "e094df8399beac753e07a1ee388d5192b8f0a721fa854d786104de7439e98395"
+      },
+      "textures": [
+        {
+          "object": "UI_Name_Jpn.Extra_Tex.Extra_Drama_Tex0",
+          "payload_sha256": "ca34375f821d3bbec2a9edfe5cfdbd3baec5d02de79c367b233dcd74b4d27b44",
+          "tiled_sha256": "58b2d868065a3fe42bf136a5b18eaacccad71d0c6ee5354d493a6bfaabfe9653",
+          "dimensions": [
+            256,
+            64
+          ],
+          "regions": [
+            "img_ui_name_jpn_13_0",
+            "img_ui_name_jpn_13_1"
+          ],
+          "image_id": "img_ui_name_jpn_13",
+          "protected_regions": [
+            {
+              "id": "img_ui_name_jpn_13_protected_0",
+              "rect": [
+                0,
+                0,
+                28,
+                64
+              ],
+              "rgba_sha256": "f26509e351ef2c46819e1080828897c7544bc44084b212837a23912c393678ce"
+            }
+          ],
+          "profile": {
+            "kind": "xbox-inline-bc-v1",
+            "format": 7
+          },
+          "channel_mode": "rgba",
+          "preserve_unchanged_blocks": true,
+          "alpha_encoding": "adaptive-range"
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/UI_Name_Jpn.xxx",
+      "discs": [
+        1,
+        2
+      ],
+      "original": {
+        "path": "build/poc-game/disc1/MC2Game/CookedXenon/UI_Name_Jpn.xxx",
+        "sha256": "5f962a3735c51c3941841622a753ec82248a7db62edb2b47fb031faf043cecfc"
+      },
+      "base": {
+        "path": "build/poc-game/disc1/MC2Game/CookedXenon/UI_Name_Jpn.xxx",
+        "sha256": "5f962a3735c51c3941841622a753ec82248a7db62edb2b47fb031faf043cecfc"
+      },
+      "textures": [
+        {
+          "object": "Extra_Tex.Extra_Drama_Tex0",
+          "payload_sha256": "5a2b4c8ba5a4e18a4552630e24681f94861ae5966edc80a007ef9d7b2b529e73",
+          "tiled_sha256": "58b2d868065a3fe42bf136a5b18eaacccad71d0c6ee5354d493a6bfaabfe9653",
+          "dimensions": [
+            256,
+            64
+          ],
+          "regions": [
+            "img_ui_name_jpn_13_0",
+            "img_ui_name_jpn_13_1"
+          ],
+          "image_id": "img_ui_name_jpn_13",
+          "protected_regions": [
+            {
+              "id": "img_ui_name_jpn_13_protected_0",
+              "rect": [
+                0,
+                0,
+                28,
+                64
+              ],
+              "rgba_sha256": "f26509e351ef2c46819e1080828897c7544bc44084b212837a23912c393678ce"
+            }
+          ],
+          "profile": {
+            "kind": "xbox-inline-bc-v1",
+            "format": 7
+          },
+          "channel_mode": "rgba",
+          "preserve_unchanged_blocks": true,
+          "alpha_encoding": "adaptive-range"
+        }
+      ]
+    }
+  ]
+}

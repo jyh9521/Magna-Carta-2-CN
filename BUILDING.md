@@ -1919,3 +1919,12 @@ candidate、controls、raw-controls或live合并，结束时再次核验独立�
 中文CMD与prepare/refresh均新增最终`runtime-envelope`检查，拒绝“哈希正确但物理包
 不合格”的候选。详见[完整命令、证据和边界](docs/PHASE_332_STARTUP_ENVELOPE.md)。
 继续沿用本文件的增量收尾约定：不重建ISO/完整游戏目录，保留原件、存档、配置及runs。
+
+## 语音剧与载入字形重制（阶段333）
+
+标题以实际“剧情简介”原生纹理为参照统一，三个简介只补5处标点。
+15段载入循环从原始Bink重建，保留正文/片头字体与既有时序；
+`loading-captions-v10.json`使用独立FX参考推导字形遮罩、稀疏修复和动态省略点，
+不再对人物/背景使用整片平滑盖底。
+[构建命令、数据与验收边界](docs/PHASE_333_VOICE_LOADING.md)。
+继续增量刷新既有测试目录，并对最终packet执行阶段332外包门禁，不生成新ISO。

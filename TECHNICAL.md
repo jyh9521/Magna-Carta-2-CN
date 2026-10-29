@@ -1659,3 +1659,12 @@ remain separate confidence levels. Existing parser/coverage rules are unchanged.
 > 阶段332：目录版遗漏最终外包归一化导致启动问题；用户原文对照可运行、中文无DLC
 > 仍黑屏，归一化后确认可进入游戏。补齐最终packet的raw32k门禁和重建工具，保持
 > 对象身份与原生tile。指令/物理资源/对照证据见[阶段332](docs/PHASE_332_STARTUP_ENVELOPE.md)。
+
+## 阶段333：字形前景与原生背景分离
+
+新增源锁定原生块区域转移与可复用screen合成逆运算。不能把黑底FX的
+逐帧最小值直接当文字alpha，否则会一并去掉环境雾光，形成暗矩形。
+现只在独立黑底FX参考上估计漫射底层，人物/场景逐像素逆合成；
+生产阈值0.90限制噪声放大，低置信字形区域以明确稀疏修复代替伪称恢复。
+原生下标题0像素差、三字段标点、全部15个循环及失败方案见
+[阶段333](docs/PHASE_333_VOICE_LOADING.md)。

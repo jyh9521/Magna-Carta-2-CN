@@ -63,8 +63,9 @@ def stable(snapshots):
         if file_state(path)!=expected:raise ValueError('resource or packet changed during check')
 
 
-def inspect(packet_root,manifest_sha256,resource_root,phase):
+def inspect(packet_root,manifest_sha256,resource_root,phase,runtime_envelope=False):
     if phase not in PHASES:raise ValueError('unsupported resource phase')
+    if runtime_envelope and phase != 'candidate':raise ValueError('runtime envelope gate requires candidate phase')
     packet=Path(packet_root).resolve();game=Path(resource_root).resolve()
     if not packet.is_dir() or not game.is_dir():raise ValueError('packet and resource roots must exist')
     manifest_path=confined(packet,'manifest.json')
@@ -102,6 +103,28 @@ def inspect(packet_root,manifest_sha256,resource_root,phase):
         status='missing' if actual is None else ('matched' if actual==expected else 'mismatch')
         snapshots.extend([(source,expected),(target,actual)])
         rows.append(dict(path=name,status=status,expected=expected,actual=actual))
+    envelope_errors=[];envelope_checked=0
+    if runtime_envelope:
+        try:
+            from .runtime_envelope import MAGICS,require_raw_envelope
+        except ImportError:
+            from runtime_envelope import MAGICS,require_raw_envelope
+        contracts={r['path']:r for r in m['resources']}
+        for row in rows:
+            name=row['path'];contract=contracts[name]
+            if (row['status']!='matched' or not name.lower().endswith('.xxx')
+                    or contract['candidate_sha256']==contract['original_sha256']):continue
+            data=confined(game,name).read_bytes()
+            control=confined(packet,'controls/'+name)
+            control_state=file_state(control)
+            if control_state!={'size':contract['original_size'],'sha256':contract['original_sha256']}:
+                raise ValueError('runtime envelope original identity mismatch')
+            snapshots.append((control,control_state))
+            with control.open('rb') as stream:original_magic=stream.read(4)
+            if data[:4] not in MAGICS and original_magic not in MAGICS:continue
+            envelope_checked+=1
+            try:require_raw_envelope(data)
+            except ValueError as exc:envelope_errors.append(dict(path=name,error=str(exc)))
     stable(snapshots)
     matched=sum(r['status']=='matched' for r in rows)
     result=dict(schema_version=1,kind='read-only-resource-phase-check',packet_manifest_sha256=sha(raw),phase=phase,
@@ -109,6 +132,10 @@ def inspect(packet_root,manifest_sha256,resource_root,phase):
         resource_count=len(rows),matched_count=matched,all_resources_match=matched==len(rows),resources=rows,
         scope='only the declared packet resource bytes; not execution, rendering or runtime behavior',
         game_rendering_verified=False,game_started=False,resource_writes_performed=False,deployment_performed=False)
+    if runtime_envelope:
+        result.update(runtime_envelope_checked=envelope_checked,
+                      runtime_envelope_errors=envelope_errors,
+                      all_runtime_envelopes_match=not envelope_errors)
     return result,snapshots
 
 
@@ -116,20 +143,22 @@ def main(argv=None):
     p=argparse.ArgumentParser(description=__doc__)
     p.add_argument('--packet-root',type=Path,required=True);p.add_argument('--manifest-sha256',required=True)
     p.add_argument('--resource-root',type=Path,required=True);p.add_argument('--phase',choices=PHASES,required=True)
-    p.add_argument('--output',type=Path,required=True);a=p.parse_args(argv);created=False;data=None
+    p.add_argument('--output',type=Path,required=True)
+    p.add_argument('--runtime-envelope',action='store_true',help='gate modified UE3 candidate packages for final Xenon delivery')
+    a=p.parse_args(argv);created=False;data=None
     try:
         output=a.output.resolve();roots=[a.packet_root.resolve(),a.resource_root.resolve()]
         if a.output.exists() or a.output.is_symlink() or any(output.is_relative_to(root) for root in roots):
             raise ValueError('phase report must be new and outside packet/resource roots')
-        result,snapshots=inspect(a.packet_root,a.manifest_sha256,a.resource_root,a.phase)
+        result,snapshots=inspect(a.packet_root,a.manifest_sha256,a.resource_root,a.phase,runtime_envelope=a.runtime_envelope)
         data=(json.dumps(result,sort_keys=True,indent=2,allow_nan=False)+'\n').encode('utf8')
         output.parent.mkdir(parents=True,exist_ok=True)
         with output.open('xb') as stream:created=True;stream.write(data)
         if output.read_bytes()!=data:raise ValueError('phase report reopening mismatch')
         stable(snapshots)
-        code=0 if result['all_resources_match'] else 1
+        code=0 if result['all_resources_match'] and result.get('all_runtime_envelopes_match',True) else 1
         print(json.dumps(dict(phase=result['phase'],matched=result['matched_count'],resources=result['resource_count'],
-            result='resource-bytes-match' if code==0 else 'resource-bytes-mismatch',game_started=False),sort_keys=True));return code
+            result=('resource-bytes-and-runtime-envelope-match' if a.runtime_envelope else 'resource-bytes-match') if code==0 else 'resource-validation-failed',game_started=False),sort_keys=True));return code
     except (OSError,ValueError,KeyError,TypeError) as exc:
         if created:
             try:

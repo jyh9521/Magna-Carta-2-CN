@@ -30,6 +30,7 @@ def launcher(python,project,packet,manifest_sha,exe,config,config_sha,phase,patc
              content_bundle=None,content_manifest_sha256=None):
     """Only produce text. This function does not execute the launcher."""
     check=' '.join(map(quote,[python,project/'tools/verify_resource_phase.py','--packet-root',packet,'--manifest-sha256',manifest_sha]))
+    if phase=='candidate':check+=' --runtime-envelope'
     run=' '.join(map(quote,[python,project/'tools/launch_xenia.py','--exe',exe,'--config',config,'--config-sha256',config_sha]))
     if patch_bundle is not None:
         run+=' '+' '.join(map(quote,['--patch-bundle',patch_bundle,'--patch-manifest-sha256',patch_manifest_sha256]))
@@ -72,7 +73,9 @@ def prepare(source_root,packet_root,manifest_sha256,game_sha256,exe,config,outpu
     if not original['all_resources_match']:raise ValueError('original game resource bytes differ from packet controls')
     phases=('candidate','raw-controls');phase_snapshots=[];phase_bytes=0
     for phase in phases:
-        r,s=inspect(packet,manifest_sha256,packet/phase,phase)
+        r,s=inspect(packet,manifest_sha256,packet/phase,phase,runtime_envelope=phase=='candidate')
+        if phase=='candidate':
+            if not r['all_runtime_envelopes_match']:raise ValueError('candidate runtime envelopes require normalization')
         if not r['all_resources_match']:raise ValueError('packet phase did not match')
         phase_snapshots.extend(s)
         phase_bytes+=sum(row['expected']['size'] for row in r['resources'])

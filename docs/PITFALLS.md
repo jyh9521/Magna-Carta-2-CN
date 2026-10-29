@@ -1772,3 +1772,9 @@ Windows旧JSON证明文件可能CRLF；独立字体回放仅对JSON行尾归一�
 
 阶段331补充：摘要锁定的JSON应以LF写出，并从Git暂存树导出源码再重建。
 工作区CRLF文本会被Git规范化；不能把尚未规范化的依赖摘要当成干净检出身份。
+## 目录版也必须执行最终资源归一化（阶段332）
+
+不能把ISO修复链路的raw包结论套给独立的comparison/candidate目录。阶段332实际目录
+仍含350个generated stored-LZX外包及19个内层bulk包；哈希、逻辑对象和译文均正确仍会
+漏过此问题。最终packet应先运行`normalize_runtime_comparison`，再刷新既有目录；
+中文入口使用`--runtime-envelope`核验物理格式。详见[阶段332](PHASE_332_STARTUP_ENVELOPE.md)。

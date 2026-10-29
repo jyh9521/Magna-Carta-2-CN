@@ -1656,3 +1656,6 @@ remain separate confidence levels. Existing parser/coverage rules are unchanged.
 实际DLC资产不带新字体，短剧使用本体文字；原包23处键错配有逐字段佐证。
 三个成员规范化为非压缩UE3后只改等长字幕引用，不动媒体与时点。
 共享ISO入口和隔离one-click入口有不同content根，分别增量安装，不迁移存档。
+> 阶段332：目录版遗漏最终外包归一化导致启动问题；用户原文对照可运行、中文无DLC
+> 仍黑屏，归一化后确认可进入游戏。补齐最终packet的raw32k门禁和重建工具，保持
+> 对象身份与原生tile。指令/物理资源/对照证据见[阶段332](docs/PHASE_332_STARTUP_ENVELOPE.md)。

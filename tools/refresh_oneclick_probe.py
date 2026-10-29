@@ -117,6 +117,9 @@ def refresh(root,prepared_sha256,packet,manifest_sha256,exe,config,backup,projec
         read_bundle(content['bundle'],content['manifest_sha256'])
         content_root=Path(content['bundle']).resolve()
         snapshots.extend((p,file_state(p))for p in content_root.rglob('*')if p.is_file())
+    checked,checked_states=inspect(packet,manifest_sha256,packet/'candidate','candidate',runtime_envelope=True)
+    if not checked['all_runtime_envelopes_match']:raise ValueError('candidate runtime envelopes require normalization')
+    snapshots.extend(checked_states)
     for row in new_candidate['resources']:
         p=confined(root/'candidate',row['path']);data=confined(packet/'candidate',row['path']).read_bytes()
         if p.read_bytes()!=data:updates[p]=data

@@ -121,7 +121,7 @@ def normalize_package(data, expected_sha256, decoder):
     original_lzx_textures = 0
     raw_textures_preserved = 0
     for index, export in enumerate(tables['exports']):
-        if export['class_path'] != 'Engine.Texture2D':
+        if export['class_path'] not in ('Engine.Texture2D', 'Texture2D'):
             continue
         offset, size = export['serial_offset'], export['serial_size']
         payload = logical[offset:offset + size]

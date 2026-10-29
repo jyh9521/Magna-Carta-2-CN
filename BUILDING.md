@@ -1909,3 +1909,13 @@ candidate、controls、raw-controls或live合并，结束时再次核验独立�
 `tools.install_dlc_bundle` 将两包增量加入共享content，并给既有中文测试入口绑定
 严格hash清单；`refresh_oneclick_probe` 之后会保留该绑定。安装和回滚均不启动游戏。
 本轮本地证据和可执行回滚入口位于 `build/phase-331-dlc/`；无需新ISO或完整游戏副本。
+## 目录版最终资源门禁（阶段332，2026-10-30）
+
+在`compose_revision_layers`/`compose_incremental_comparison`之后、
+`prepare_oneclick_probe`/`refresh_oneclick_probe`之前，必须对最终comparison packet运行
+`python -X utf8 -m tools.normalize_runtime_comparison build`，传入原packet、可信manifest摘要、
+`--toc-path MC2Game/Xbox360TOC.txt`、全新`--output-dir`和锁定的`--lzx-dll`。
+刷新使用该输出`packet/`，不是上游未归一化目录。无变化时沿用已检查的输入packet。
+中文CMD与prepare/refresh均新增最终`runtime-envelope`检查，拒绝“哈希正确但物理包
+不合格”的候选。详见[完整命令、证据和边界](docs/PHASE_332_STARTUP_ENVELOPE.md)。
+继续沿用本文件的增量收尾约定：不重建ISO/完整游戏目录，保留原件、存档、配置及runs。

@@ -1676,3 +1676,7 @@ Known limitations should be documented clearly rather than hidden.
 不更改配置、档案、存档或许可证设置；没有进行游戏启动。保留原签名字节不等于
 修改后重新取得发布方签名，当前候选仅面向既有Xenia测试环境。
 构建、哈希、回滚见 [阶段331](PHASE_331_DLC_LOCALIZATION.md)。
+> 阶段332：目录版中文入口Logo后在`0x82DF5E90`读取空模板；用户原文对照可进游戏，
+> 中文无DLC仍复现。修复最终资源外包归一化遗漏，并增加启动前检查。
+> 2026-10-30用户已确认当前中文入口可越过Logo并进入游戏；全流程及
+> DLC内容验收仍单列。详见[阶段332](PHASE_332_STARTUP_ENVELOPE.md)。

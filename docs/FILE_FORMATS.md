@@ -1702,3 +1702,6 @@ Xbox BC3块地址由tiled布局给出，每个16位word与线性BC3字节序相�
 [XDBF/XSTR目录、UTF-8字符串及精确逆向](PHASE_331_DLC_LOCALIZATION.md)。
 STFS文件表成员名称上限40字节与外部容器文件名不是同一约束；本作两个外部包名均42位。
 源锁与能力边界由 `stfs_package`、`xdbf_strings` 的合成及实际夹具验证。
+> 阶段332新增最终生成包profile `xenon-446-25-raw32k-v1`：BE446/25、raw压缩三字段、
+> 32KiB物理尾部、活跃Texture2D无本项目精确stored-LZX流。对象/原生tile不变；
+> 非通用UE3规则。独立wrapper识别与历史包差异见[阶段332](PHASE_332_STARTUP_ENVELOPE.md)。

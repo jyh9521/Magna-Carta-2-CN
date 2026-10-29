@@ -1,0 +1,118 @@
+{
+  "schema_version": 1,
+  "kind": "upstream-read-only-format-research",
+  "project": "xenia-canary/xenia-canary",
+  "authors": "Xenia and Canary contributors",
+  "commit": "48b318a2ad7c36f8f3901a94e290ba70ae0ffec5",
+  "license": "BSD-3-Clause",
+  "license_file": "licenses/Xenia-BSD-3-Clause.txt",
+  "reused_code": false,
+  "verification": "Every downloaded source matched the exact-commit Git blob SHA-1; independent native read fixture; no guest read-call trace",
+  "sources": [
+    {
+      "source_path": "src/xenia/vfs/devices/host_path_file.cc",
+      "url": "https://raw.githubusercontent.com/xenia-canary/xenia-canary/48b318a2ad7c36f8f3901a94e290ba70ae0ffec5/src/xenia/vfs/devices/host_path_file.cc",
+      "git_blob_sha1": "48ab1a62028198b01290e084a368dc26eb337246",
+      "sha256": "1aa40da1c37340567e9b2010787069fe632490c4c9930db05ea807a5e12892e4",
+      "size": 2346
+    },
+    {
+      "source_path": "src/xenia/vfs/devices/host_path_file.h",
+      "url": "https://raw.githubusercontent.com/xenia-canary/xenia-canary/48b318a2ad7c36f8f3901a94e290ba70ae0ffec5/src/xenia/vfs/devices/host_path_file.h",
+      "git_blob_sha1": "3f0b50b236bdb70c4b0c25c77b1632cc4968055b",
+      "sha256": "f3b66484d0a3021ad8e99cda2ca62b3d9336a93e4d1590d7adc669ad9712a79d",
+      "size": 1409
+    },
+    {
+      "source_path": "src/xenia/vfs/devices/disc_image_file.cc",
+      "url": "https://raw.githubusercontent.com/xenia-canary/xenia-canary/48b318a2ad7c36f8f3901a94e290ba70ae0ffec5/src/xenia/vfs/devices/disc_image_file.cc",
+      "git_blob_sha1": "d1db59d68f9bb9ca20587da0d07d8be762caeb3a",
+      "sha256": "46ab34581ae12944623715c0e6d1e2cf9c71416f29f57be174b49e92ddbae2f9",
+      "size": 1581
+    },
+    {
+      "source_path": "src/xenia/vfs/devices/disc_image_file.h",
+      "url": "https://raw.githubusercontent.com/xenia-canary/xenia-canary/48b318a2ad7c36f8f3901a94e290ba70ae0ffec5/src/xenia/vfs/devices/disc_image_file.h",
+      "git_blob_sha1": "b2c0cf99fb12e4ba025033692607790519fb0745",
+      "sha256": "a572ea90f386d18223647deea277429f2dcbc872246a432a13fe3b4edd78c746",
+      "size": 1331
+    },
+    {
+      "source_path": "src/xenia/kernel/xfile.cc",
+      "url": "https://raw.githubusercontent.com/xenia-canary/xenia-canary/48b318a2ad7c36f8f3901a94e290ba70ae0ffec5/src/xenia/kernel/xfile.cc",
+      "git_blob_sha1": "fe5f1176fa0e8383c6660748b27444e3adc54b3a",
+      "sha256": "4cc7e70fd5fedb4e3332e87943e5dfd036f86a16c8fd9bb821b02d59fdc3f39d",
+      "size": 14526
+    },
+    {
+      "source_path": "src/xenia/kernel/xboxkrnl/xboxkrnl_io.cc",
+      "url": "https://raw.githubusercontent.com/xenia-canary/xenia-canary/48b318a2ad7c36f8f3901a94e290ba70ae0ffec5/src/xenia/kernel/xboxkrnl/xboxkrnl_io.cc",
+      "git_blob_sha1": "711a2aec4e93387485d96f19888d6e9b53d61c30",
+      "sha256": "ac7deb49fc75debd16fdce750a461723e15ce0e6d8a6df37e46ea5717109a051",
+      "size": 31898
+    },
+    {
+      "source_path": "src/xenia/base/filesystem_win.cc",
+      "url": "https://raw.githubusercontent.com/xenia-canary/xenia-canary/48b318a2ad7c36f8f3901a94e290ba70ae0ffec5/src/xenia/base/filesystem_win.cc",
+      "git_blob_sha1": "7a50d8b1277059644696278e538a43b88972ad03",
+      "sha256": "f57ef9b591b4fc28fa780caf425f3d736d400146918e7fd1c4d5f8877a216a96",
+      "size": 8138
+    },
+    {
+      "source_path": "src/xenia/base/filesystem.h",
+      "url": "https://raw.githubusercontent.com/xenia-canary/xenia-canary/48b318a2ad7c36f8f3901a94e290ba70ae0ffec5/src/xenia/base/filesystem.h",
+      "git_blob_sha1": "9069cb51625e033959cab48cb61daaedc2b39743",
+      "sha256": "3be60b2e4e1af2908cc922acac4d7bd2086155d36e53570045465b9703b72d46",
+      "size": 5766
+    },
+    {
+      "source_path": "src/xenia/vfs/devices/disc_image_entry.cc",
+      "url": "https://raw.githubusercontent.com/xenia-canary/xenia-canary/48b318a2ad7c36f8f3901a94e290ba70ae0ffec5/src/xenia/vfs/devices/disc_image_entry.cc",
+      "git_blob_sha1": "7c71c2f7007bcca7a98e09a78def9b011c17a6f9",
+      "sha256": "e054c2b005ab2c8615aac3c836bc71e750a1e5d984e61f8ac97ba1f7512ad741",
+      "size": 1909
+    },
+    {
+      "source_path": "src/xenia/vfs/devices/disc_image_entry.h",
+      "url": "https://raw.githubusercontent.com/xenia-canary/xenia-canary/48b318a2ad7c36f8f3901a94e290ba70ae0ffec5/src/xenia/vfs/devices/disc_image_entry.h",
+      "git_blob_sha1": "fd458d84f8067a6b265985b24844467672fd1c81",
+      "sha256": "708d278f29edbeb4c1e0e10cae7c5137ffaf771c0ceb46b162a4729e80174e1a",
+      "size": 1882
+    },
+    {
+      "source_path": "src/xenia/vfs/devices/host_path_entry.cc",
+      "url": "https://raw.githubusercontent.com/xenia-canary/xenia-canary/48b318a2ad7c36f8f3901a94e290ba70ae0ffec5/src/xenia/vfs/devices/host_path_entry.cc",
+      "git_blob_sha1": "41f74df690a038fe277c1465df41b9a17061d770",
+      "sha256": "997922f13880191086811046ff4143653744fb007bc5f1f91c90c6ec270a1568",
+      "size": 6942
+    },
+    {
+      "source_path": "src/xenia/vfs/devices/disc_image_device.cc",
+      "url": "https://raw.githubusercontent.com/xenia-canary/xenia-canary/48b318a2ad7c36f8f3901a94e290ba70ae0ffec5/src/xenia/vfs/devices/disc_image_device.cc",
+      "git_blob_sha1": "123d5a262c7a0318302a8aeeb1f7e0a31ca00069",
+      "sha256": "1e0036795023cbebfe554dc34b24425c3ec9aca756f3e85c50af735b6f11884a",
+      "size": 6445
+    },
+    {
+      "source_path": "src/xenia/vfs/devices/disc_image_device.h",
+      "url": "https://raw.githubusercontent.com/xenia-canary/xenia-canary/48b318a2ad7c36f8f3901a94e290ba70ae0ffec5/src/xenia/vfs/devices/disc_image_device.h",
+      "git_blob_sha1": "3b098944cacf67858c86765eccc8c05296ee58c5",
+      "sha256": "c9e3b648fccd62cce46f627fb0258e248947e79e586a1e649fdf8a9daf81d20c",
+      "size": 2718
+    },
+    {
+      "source_path": "src/xenia/vfs/devices/host_path_device.h",
+      "url": "https://raw.githubusercontent.com/xenia-canary/xenia-canary/48b318a2ad7c36f8f3901a94e290ba70ae0ffec5/src/xenia/vfs/devices/host_path_device.h",
+      "git_blob_sha1": "e166603e97054d98bffd39689b94b7c05ba85999",
+      "sha256": "49adac7f90aa5370379192ca1ec5d0c24f2ec596a1fab95b51351faf2261c8e1",
+      "size": 2372
+    },
+    {
+      "source_path": "src/xenia/vfs/device.h",
+      "url": "https://raw.githubusercontent.com/xenia-canary/xenia-canary/48b318a2ad7c36f8f3901a94e290ba70ae0ffec5/src/xenia/vfs/device.h",
+      "git_blob_sha1": "ded98e92e999d20377a0e06948b4af65b63deef4",
+      "sha256": "f29a376cc1d38085983dcba5112c81ca8ab5de21dfe2d17d51e335b0f0fb03e6",
+      "size": 1682
+    }
+  ]
+}

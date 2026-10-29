@@ -17,6 +17,7 @@ Xbox 360 版《MagnaCarta II》的简体中文汉化项目，包含结构化译�
 | 内容 | 文档 |
 | --- | --- |
 | 构建与测试 | [构建说明](BUILDING.md) · [支持版本](docs/RESOURCE_SURVEY.md) |
+| 提交前与云端验证 | [统一 CI 入口与推送检查](docs/CI_VALIDATION.md) |
 | 翻译与术语 | [翻译说明](TRANSLATING.md) · [术语表](GLOSSARY.md) |
 | 技术与格式 | [技术说明](TECHNICAL.md) · [文件格式](docs/FILE_FORMATS.md) |
 | 进度与问题 | [翻译接续点](docs/TRANSLATION_QUEUE.md) · [已知问题](docs/KNOWN_ISSUES.md) |

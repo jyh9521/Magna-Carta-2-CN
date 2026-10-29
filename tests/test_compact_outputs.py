@@ -14,7 +14,8 @@ class CompactOutputsTests(unittest.TestCase):
     def setUp(self):
         self.temp = tempfile.TemporaryDirectory()
         self.addCleanup(self.temp.cleanup)
-        self.root = Path(self.temp.name)
+        # Valid fixtures must not accidentally exercise the traversal guard.
+        self.root = Path(self.temp.name).resolve()
         self.a = self.root / "packet/candidate/a.bin"
         self.b = self.root / "packet/controls/b.bin"
         self.a.parent.mkdir(parents=True)

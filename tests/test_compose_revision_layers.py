@@ -15,7 +15,8 @@ from test_supplement_font import stored_decoder
 class RevisionLayerTests(unittest.TestCase):
     def setUp(self):
         self.tmp = tempfile.TemporaryDirectory(); self.addCleanup(self.tmp.cleanup)
-        self.root = Path(self.tmp.name)
+        # Hosted Windows TEMP may use 8.3 spelling. The output guard stays strict.
+        self.root = Path(self.tmp.name).resolve()
 
     def ref(self, name, data):
         (self.root/name).write_bytes(data)
@@ -33,6 +34,13 @@ class RevisionLayerTests(unittest.TestCase):
         self.assertEqual(r['resources'][0]['before_sha256'], sha(b'old'))
         self.assertTrue((out/'manifest.json').is_file())
         with self.assertRaisesRegex(ValueError, 'new canonical'): build(p, self.root, out)
+
+    def test_noncanonical_output_is_rejected_before_writing(self):
+        p = self.plan()
+        alias = self.root / '..' / self.root.name / 'out'
+        with self.assertRaisesRegex(ValueError, 'new canonical'):
+            build(p, self.root, alias)
+        self.assertFalse((self.root / 'out').exists())
 
     def test_all_inputs_locked(self):
         for role in ('base', 'before'):

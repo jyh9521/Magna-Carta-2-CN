@@ -57,6 +57,14 @@
 
 ## GitHub Actions 测试依赖
 
+**每轮收尾必须通过推送前干净源码检查，并等待同一提交的四组 Actions 全部成功。**
+不能再以本机单元测试通过、推送成功或远端 SHA 一致替代云端结果。
+首次执行 `python tools/ci_preflight.py install-hook`，其后 `git push` 自动在
+提交快照和新虚拟环境中执行统一验证。手动完整入口为
+`python tools/validate_ci.py --report-dir build/ci`；包含普通路径和路径别名两套
+完整测试、仓库/编译/术语/固定来源检查。操作与结果判定见
+[CI_VALIDATION](docs/CI_VALIDATION.md)。工程检查不写游戏资源或已有测试目录。
+
 完整测试包含图像编解码、修复蒙版和字体夹具，运行前必须执行
 `python -m pip install -r requirements-font.txt`，随后执行 `python -m pip check`。
 这不是只在开发者电脑上可选的测试依赖；新建虚拟环境和 hosted runner 都须安装。

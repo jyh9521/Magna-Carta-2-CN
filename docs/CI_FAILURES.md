@@ -1,3 +1,38 @@
+# Windows 连续四次失败与提交前检查闭环（2026-10-30）
+
+## 已验证的根因
+
+运行 `40813213682`、`40925799658`、`40937260175`、
+[40953504077](https://github.com/jyh9521/Magna-Carta-2-CN/actions/runs/40953504077)
+分别对应 `291adee`、`a43acbf`、`14c9919`、`c0dc373`。
+四次都是 Ubuntu 两组成功，Windows 两组失败。实际日志中的失败点相同：
+`RevisionLayerTests.test_locked_replacement_roundtrip_and_immutable_inputs`，
+`ValueError: new canonical output directory required`。不是最近载入动画、DLC、
+资源包装或 Pillow 安装引起的另一种错误。
+
+夹具把临时目录的原始拼写直接用于输出；hosted Windows 的 TEMP 使用短名时，
+不符合 compose_revision_layers.build 明确要求的 canonical 输出契约。
+本机普通路径及普通干净检出都可能通过，因而此前只验证这两种场景漏掉了错误。
+同一夹具在本地真实 `directory/../directory` 别名上稳定复现完全相同的异常。
+基线完整别名套件 2651 项检出 12 项失败/错误：1 项是实际云端故障，另 11 项
+属于 compact_outputs 夹具意外触发明确的 `..` 禁止规则，不是 11 个新云端故障。
+
+## 修复与防回归
+
+- 仅在两组合法输入夹具处解析 TEMP 的规范路径。生产构建器/压缩整理工具未改，
+  增加直接的非规范输出拒绝断言，保留哈希、越界和 reparse-point 检查。
+- 跨平台回归在修复前已失败；整个测试集合新增别名模式，不只追补当前一个函数。
+- 单一本地/云端检查入口、新虚拟环境和精确提交快照，阻止未提交修复或本机依赖
+  造成假绿灯。导出还逐文件核对 Git blob，禁止 archive 属性漏掉源码。
+- 真实临时 Git remote 验证 pre-push 的红/绿行为、未提交修复隔离和原 index 不变。
+- 四组矩阵与失败传播保持；新增失败日志产物，checkout/setup-python 更新到已核对
+  的 v6 提交。生产运行和原始游戏资源不变。
+
+完整入口、安装与推送后验收规则见 [CI_VALIDATION](CI_VALIDATION.md)。
+本轮基线、修改、独立副本逆补丁、固定输入摘要及云端结果保存在
+`build/phase-334-ci-hardening/`。后续是否收尾必须看精确提交的四组实际结果，
+不把本文或一次本地 PASS 当成未来运行证明。
+
 # GitHub Actions 生成术语表不同步（2026-10-28）
 
 ## 已验证的根因

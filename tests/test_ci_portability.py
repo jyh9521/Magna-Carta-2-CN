@@ -30,13 +30,27 @@ class CIPortabilityTests(unittest.TestCase):
                 case.run(result)
             self.assertTrue(result.wasSuccessful(), result.errors + result.failures)
 
+    def test_revision_fixture_accepts_noncanonical_temp_path(self):
+        import test_compose_revision_layers as fixture
+        from tools.run_test_suite import aliased_temporary_directories
+        case = fixture.RevisionLayerTests(
+            'test_locked_replacement_roundtrip_and_immutable_inputs')
+        result = unittest.TestResult()
+        with aliased_temporary_directories() as metrics:
+            case.run(result)
+        self.assertGreater(metrics['aliased_directories'], 0)
+        self.assertTrue(result.wasSuccessful(), result.errors + result.failures)
+
     def test_reference_validation_fetches_pinned_inputs_before_check(self):
+        from tools.validate_ci import validation_commands
         workflow = (ROOT / '.github/workflows/validate.yml').read_text(encoding='utf8')
-        fetch = 'python tools/series_terms.py fetch'
-        check = 'python tools/series_terms.py check --with-references'
-        self.assertIn(fetch, workflow)
-        self.assertIn(check, workflow)
-        self.assertLess(workflow.index(fetch), workflow.index(check))
+        self.assertIn('python tools/validate_ci.py --report-dir build/ci', workflow)
+        commands = list(validation_commands('python', 'report'))
+        names = [name for name, _ in commands]
+        self.assertLess(names.index('references-fetch'), names.index('references-check'))
+        self.assertEqual(dict(commands)['references-fetch'][-2:], ['tools/series_terms.py', 'fetch'])
+        self.assertEqual(dict(commands)['references-check'][-3:],
+                         ['tools/series_terms.py', 'check', '--with-references'])
         self.assertNotIn('continue-on-error', workflow)
         self.assertIn('fail-fast: false', workflow)
 

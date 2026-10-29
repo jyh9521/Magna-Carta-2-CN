@@ -1779,6 +1779,14 @@ Windows旧JSON证明文件可能CRLF；独立字体回放仅对JSON行尾归一�
 漏过此问题。最终packet应先运行`normalize_runtime_comparison`，再刷新既有目录；
 中文入口使用`--runtime-envelope`核验物理格式。详见[阶段332](PHASE_332_STARTUP_ENVELOPE.md)。
 
+## 本机测试与干净源码测试仍不等于 CI 环境覆盖（2026-10-30）
+
+普通干净检出能查出缺失文件，不能自动模拟 Windows TEMP 短名、别名或跨盘。
+应使用同一验证入口并增加完整路径别名套件；合法输入夹具先按生产契约解析路径，
+不要为了测试绿灯删除生产路径保护。推送 hook 必须验证实际提交而不是工作区，
+并在调用子仓库 Git 前清除 Git 导出的 local-env-vars。否则本机未提交修复会
+掩盖待推送的坏版本，或误写原仓库 index。详见 [CI_VALIDATION](CI_VALIDATION.md)。
+
 ## 载入文字清除：不能以低误差替代观感（阶段333）
 
 把宽文字蒙版直接用于人物图的平均/Laplace修复会抹掉靴边、腿部和衣纹。

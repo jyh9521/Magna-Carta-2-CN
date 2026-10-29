@@ -1695,3 +1695,10 @@ Xbox BC3 RGBA profile可选 `rgb_encoding: "weighted-fit-v1"`。
 保留所有未选字形占用的4×4块，显式更新所选atlas记录，remap不改。
 Xbox BC3块地址由tiled布局给出，每个16位word与线性BC3字节序相反。
 写后须按新度量从native块独立采样并与预期RGBA摘要比对，不能只验证内存中的线性源。
+
+## LIVE/STFS 与 SPA/XDBF（阶段331，Verified）
+
+参见 [STFS字段、混合端序与SHA1树](PHASE_331_STFS.md) 和
+[XDBF/XSTR目录、UTF-8字符串及精确逆向](PHASE_331_DLC_LOCALIZATION.md)。
+STFS文件表成员名称上限40字节与外部容器文件名不是同一约束；本作两个外部包名均42位。
+源锁与能力边界由 `stfs_package`、`xdbf_strings` 的合成及实际夹具验证。

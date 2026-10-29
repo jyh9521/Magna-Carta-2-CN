@@ -57,4 +57,25 @@ class RefreshTests(unittest.TestCase):
                 update.refresh(*a)
             for p,data in before.items():self.assertEqual(p.read_bytes(),data)
 
+    def test_refresh_retains_verified_optional_dlc_in_candidate_only(self):
+        from test_content_bundle import make_bundle
+        with tempfile.TemporaryDirectory() as d:
+            _,a=self.fixture(Path(d));bundle=a[0]/'dlc-content';_,h=make_bundle(bundle)
+            p=a[0]/'PREPARED.json';record=json.loads(p.read_bytes())
+            record['content_bundle']=dict(bundle=str(bundle),manifest_sha256=h);p.write_bytes(json.dumps(record).encode());a[1]=sha(p.read_bytes())
+            update.refresh(*a)
+            self.assertIn(b'--content-bundle',(a[0]/'开始中文测试.cmd').read_bytes())
+            self.assertNotIn(b'--content-bundle',(a[0]/'开始原文对照.cmd').read_bytes())
+            self.assertEqual(json.loads(p.read_bytes())['content_bundle'],record['content_bundle'])
+
+    def test_changed_retained_bundle_rejects_before_refresh(self):
+        from test_content_bundle import make_bundle,REL
+        with tempfile.TemporaryDirectory() as d:
+            _,a=self.fixture(Path(d));bundle=a[0]/'dlc-content';_,h=make_bundle(bundle)
+            p=a[0]/'PREPARED.json';record=json.loads(p.read_bytes())
+            record['content_bundle']=dict(bundle=str(bundle),manifest_sha256=h);p.write_bytes(json.dumps(record).encode());a[1]=sha(p.read_bytes())
+            (bundle/'files'/REL).write_bytes(b'changed')
+            with self.assertRaises(ValueError):update.refresh(*a)
+            self.assertFalse(a[6].exists())
+
 if __name__=='__main__':unittest.main()

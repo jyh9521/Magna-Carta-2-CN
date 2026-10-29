@@ -73,3 +73,12 @@ are in references/runtime-patch-research.lock.json; no upstream implementation o
 emulator binary is committed. The existing Xenia BSD license is retained.
 
 Xbox packed BC texture origin adaptation: Copyright 2022 Ben Vanik / Xenia, BSD-3-Clause, commit28b69c21becd785364bb7c13dfe5b4dd757a8bb3, texture_util.cc GetPackedMipOffset. Source identities in references/texture-layout-research.lock.json; full license in licenses/Xenia-BSD-3-Clause.txt. Existing attributed UEViewer tiled addressing/BC3 codec reused; UEViewer EPixelFormat/DXT1 research corroborates Format5. Only bounded inline single-mip BC1/BC3 production profile integrated; multi-mip/Format2 fixture research is not enabled for patching. No emulator or game asset integrated.
+
+STFS/XDBF DLC format and content lookup research: Ben Vanik and Xenia contributors,
+xenia-project/xenia (95a5c3ee250f80c3b9d139658649d9ffb6db3eec) and
+xenia-canary/xenia-canary (48b318a2ad7c36f8f3901a94e290ba70ae0ffec5), BSD-3-Clause.
+Independent Python parsers, rebuilders and launcher integration; upstream code is
+not incorporated. Exact files and digests: references/dlc-stfs-research.lock.json
+and references/dlc-format-research.lock.json. Existing license retained at
+licenses/Xenia-BSD-3-Clause.txt. Original DLC containers and complete game assets
+remain user-supplied, locally ignored build inputs/outputs, not tracked sources.

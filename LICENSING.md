@@ -496,3 +496,8 @@ redistributed. Local static instruction/metadata reports remain ignored.
 合成500使用原始Regular400轮廓作0.006em扩张；不修改字体内部名称/字重声明。
 两个新增控制图修复PNG是既有稀疏修复块/蒙版的有界修订，不含完整游戏底图。
 所有完整包、原图、字幕容器和测试ISO只保留在忽略的build/dist目录。
+
+阶段331的STFS/XDBF及Xenia内容路由研究使用版本固定的公开格式实现作交叉依据；
+独立Python工具不包含上游运行时代码，作者/版本/许可见NOTICE与DLC研究锁。
+两个原DLC包及完整修改后内容包只留在本地忽略目录；仓库只提交译表、
+源摘要、可重建工具、测试与技术记录，不提交完整声音、图片、模型或游戏包。

@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "kind": "source-research-lock",
+  "sources": [
+    {
+      "repository": "https://github.com/xenia-project/xenia",
+      "commit": "95a5c3ee250f80c3b9d139658649d9ffb6db3eec",
+      "path": "src/xenia/kernel/util/xdbf_utils.h",
+      "url": "https://raw.githubusercontent.com/xenia-project/xenia/95a5c3ee250f80c3b9d139658649d9ffb6db3eec/src/xenia/kernel/util/xdbf_utils.h",
+      "sha256": "95c4aa586747f96388b19fb83b9180ba9cb4c7a4552de309ba03716b8dcda4c7",
+      "bytes": 4220,
+      "license": "BSD-3-Clause",
+      "authors": "Ben Vanik and Xenia contributors",
+      "use": "XDBF entry and XSTR string table structures; independent reader and inverse fixture",
+      "reused_code": false
+    },
+    {
+      "repository": "https://github.com/xenia-project/xenia",
+      "commit": "95a5c3ee250f80c3b9d139658649d9ffb6db3eec",
+      "path": "src/xenia/kernel/util/xdbf_utils.cc",
+      "url": "https://raw.githubusercontent.com/xenia-project/xenia/95a5c3ee250f80c3b9d139658649d9ffb6db3eec/src/xenia/kernel/util/xdbf_utils.cc",
+      "sha256": "643f8cdbedfcdb6974a39281f0d3a55c456a066101cd7d811298ed02c87820f8",
+      "bytes": 4757,
+      "license": "BSD-3-Clause",
+      "authors": "Ben Vanik and Xenia contributors",
+      "use": "XDBF entry and XSTR string table structures; independent reader and inverse fixture",
+      "reused_code": false
+    },
+    {
+      "repository": "https://github.com/xenia-canary/xenia-canary",
+      "commit": "48b318a2ad7c36f8f3901a94e290ba70ae0ffec5",
+      "path": "src/xenia/kernel/xam/xdbf/spa_info.h",
+      "url": "https://raw.githubusercontent.com/xenia-canary/xenia-canary/48b318a2ad7c36f8f3901a94e290ba70ae0ffec5/src/xenia/kernel/xam/xdbf/spa_info.h",
+      "sha256": "18c2c0e7f1a147bf508673a38fc277408ed76f1be2037b771475835560e0fba5",
+      "bytes": 9738,
+      "license": "BSD-3-Clause",
+      "authors": "Ben Vanik and Xenia contributors",
+      "use": "Version-matched SPA strings and title/default language fallback",
+      "reused_code": false
+    },
+    {
+      "repository": "https://github.com/xenia-canary/xenia-canary",
+      "commit": "48b318a2ad7c36f8f3901a94e290ba70ae0ffec5",
+      "path": "src/xenia/kernel/xam/xdbf/spa_info.cc",
+      "url": "https://raw.githubusercontent.com/xenia-canary/xenia-canary/48b318a2ad7c36f8f3901a94e290ba70ae0ffec5/src/xenia/kernel/xam/xdbf/spa_info.cc",
+      "sha256": "93961764fa7ecbe32c87679be812b6e60448ea27b3dd1aed8826b323d92113b2",
+      "bytes": 17204,
+      "license": "BSD-3-Clause",
+      "authors": "Ben Vanik and Xenia contributors",
+      "use": "Version-matched SPA strings and title/default language fallback",
+      "reused_code": false
+    }
+  ],
+  "stfs_reference": "references/dlc-stfs-research.lock.json"
+}

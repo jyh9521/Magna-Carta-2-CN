@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "kind": "source-research-lock",
+  "sources": [
+    {
+      "repository": "https://github.com/xenia-project/xenia",
+      "commit": "95a5c3ee250f80c3b9d139658649d9ffb6db3eec",
+      "path": "src/xenia/vfs/devices/stfs_xbox.h",
+      "url": "https://raw.githubusercontent.com/xenia-project/xenia/95a5c3ee250f80c3b9d139658649d9ffb6db3eec/src/xenia/vfs/devices/stfs_xbox.h",
+      "sha256": "e3bfc346cd9c39513e999406cebdb0214c52a82abbc2bb0f35f6337fcfe8ee25",
+      "bytes": 14460,
+      "license": "BSD-3-Clause",
+      "authors": "Ben Vanik and Xenia contributors",
+      "use": "STFS metadata, descriptor, directory and hash structures",
+      "reused_code": false
+    },
+    {
+      "repository": "https://github.com/xenia-project/xenia",
+      "commit": "95a5c3ee250f80c3b9d139658649d9ffb6db3eec",
+      "path": "src/xenia/vfs/devices/stfs_container_device.cc",
+      "url": "https://raw.githubusercontent.com/xenia-project/xenia/95a5c3ee250f80c3b9d139658649d9ffb6db3eec/src/xenia/vfs/devices/stfs_container_device.cc",
+      "sha256": "58bb786ff43e5386dff05e64bb5dbe89643021cebee1d741b21006563cb4f156",
+      "bytes": 30072,
+      "license": "BSD-3-Clause",
+      "authors": "Ben Vanik and Xenia contributors",
+      "use": "STFS logical block and hash-table physical addressing",
+      "reused_code": false
+    },
+    {
+      "repository": "https://github.com/xenia-canary/xenia-canary",
+      "commit": "48b318a2ad7c36f8f3901a94e290ba70ae0ffec5",
+      "path": "src/xenia/kernel/xam/xcontent/xcontent.h",
+      "url": "https://raw.githubusercontent.com/xenia-canary/xenia-canary/48b318a2ad7c36f8f3901a94e290ba70ae0ffec5/src/xenia/kernel/xam/xcontent/xcontent.h",
+      "sha256": "ff8ef10422fc311063e3ef49f3611d0ee5f5347bc0af6c1e7100fe8535f1218a",
+      "bytes": 17411,
+      "license": "BSD-3-Clause",
+      "authors": "Ben Vanik and Xenia contributors",
+      "use": "12-slot metadata and English fallback at console language 17",
+      "reused_code": false
+    },
+    {
+      "repository": "https://github.com/xenia-canary/xenia-canary",
+      "commit": "48b318a2ad7c36f8f3901a94e290ba70ae0ffec5",
+      "path": "src/xenia/xbox.h",
+      "url": "https://raw.githubusercontent.com/xenia-canary/xenia-canary/48b318a2ad7c36f8f3901a94e290ba70ae0ffec5/src/xenia/xbox.h",
+      "sha256": "22e7966667ebea6f4b9a92990699d7a87af869c7792b630e580616c32cb32dc3",
+      "bytes": 24063,
+      "license": "BSD-3-Clause",
+      "authors": "Ben Vanik and Xenia contributors",
+      "use": "XLanguage SChinese value 17",
+      "reused_code": false
+    }
+  ],
+  "implementation": "Independent Python implementation; reference code remains outside tracked sources.",
+  "limitations": [
+    "SHA1 content integrity is not RSA publisher signature verification.",
+    "Console language 17 fallback was observed in pinned source, not live UI execution."
+  ]
+}

@@ -109,11 +109,21 @@ def refresh(root,prepared_sha256,packet,manifest_sha256,exe,config,backup,projec
         if not p.is_file():raise ValueError('missing launcher dependency')
         snapshots.append((p,file_state(p)))
     config_sha=digest(config);updates={}
+    content=old.get('content_bundle')
+    if content is not None:
+        from .content_bundle import read_bundle
+        if not isinstance(content,dict) or set(content)!={'bundle','manifest_sha256'}:
+            raise ValueError('invalid retained content bundle record')
+        read_bundle(content['bundle'],content['manifest_sha256'])
+        content_root=Path(content['bundle']).resolve()
+        snapshots.extend((p,file_state(p))for p in content_root.rglob('*')if p.is_file())
     for row in new_candidate['resources']:
         p=confined(root/'candidate',row['path']);data=confined(packet/'candidate',row['path']).read_bytes()
         if p.read_bytes()!=data:updates[p]=data
     for name,phase in [('开始中文测试.cmd','candidate'),('开始原文对照.cmd','raw-controls')]:
-        updates[confined(root,name)]=launcher(Path(sys.executable).resolve(),project,packet,manifest_sha256,exe,config,config_sha,phase)
+        kwargs=({'content_bundle':content['bundle'],'content_manifest_sha256':content['manifest_sha256']}
+                if content is not None and phase=='candidate' else {})
+        updates[confined(root,name)]=launcher(Path(sys.executable).resolve(),project,packet,manifest_sha256,exe,config,config_sha,phase,**kwargs)
     report=dict(old,packet_root=str(packet),packet_manifest_sha256=manifest_sha256,config_sha256=config_sha,
                 previous_packet_manifest_sha256=old['packet_manifest_sha256'],runs_and_saves_preserved=True,
                 game_started=False,game_rendering_verified=False)

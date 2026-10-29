@@ -1648,3 +1648,11 @@ remain separate confidence levels. Existing parser/coverage rules are unchanged.
 新字形按4px单元避让保留字形；七个别名共18066字形独立原生解码核验。
 全字库光学尺寸、字幕31px字格和1px黑影、控制图223块有界移植及未验收项见
 [阶段328](docs/PHASE_328_DYNAMIC_FONT_AND_TEXT.md)。
+
+## 阶段331 DLC 管线（Verified offline）
+
+[STFS结构](docs/PHASE_331_STFS.md) 与 [XDBF/字幕绑定](docs/PHASE_331_DLC_LOCALIZATION.md)
+记录两种独立容器读写器、哈希树重建、原始42位不透明包名及语言路由。
+实际DLC资产不带新字体，短剧使用本体文字；原包23处键错配有逐字段佐证。
+三个成员规范化为非压缩UE3后只改等长字幕引用，不动媒体与时点。
+共享ISO入口和隔离one-click入口有不同content根，分别增量安装，不迁移存档。

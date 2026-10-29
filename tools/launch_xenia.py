@@ -19,7 +19,22 @@ def file_hash(path):
 
 
 def prepare(exe, config, game, run_dir, expected_config=None, keyboard_test_input=False,
-            patch_bundle=None, patch_manifest_sha256=None):
+            patch_bundle=None, patch_manifest_sha256=None,
+            content_bundle=None, content_manifest_sha256=None):
+    content_manifest = content_payloads = None
+    if (content_bundle is None) != (content_manifest_sha256 is None):
+        raise ValueError('content bundle and trusted manifest SHA256 must be supplied together')
+    if content_bundle is not None:
+        try:
+            from .content_bundle import read_bundle as read_content_bundle, check_no_links
+        except ImportError:
+            from content_bundle import read_bundle as read_content_bundle, check_no_links
+        check_no_links(run_dir)
+        content_manifest, content_payloads = read_content_bundle(content_bundle, content_manifest_sha256)
+        source_root = Path(content_bundle).resolve()
+        resolved_run = Path(run_dir).resolve()
+        if resolved_run == source_root or source_root in resolved_run.parents:
+            raise ValueError('run directory must be outside content bundle')
     exe, config, game, run_dir = (Path(p).resolve() for p in (exe, config, game, run_dir))
     for p in (exe, config, game):
         if not p.is_file():
@@ -63,6 +78,15 @@ def prepare(exe, config, game, run_dir, expected_config=None, keyboard_test_inpu
             if target.read_bytes()!=data:raise ValueError('runtime patch copy reopening mismatch')
         record['runtime_patch']=dict(bundle=str(Path(patch_bundle).resolve()),manifest_sha256=patch_manifest_sha256,
             files={str(patch_root/name):hashlib.sha256(data).hexdigest() for name,data in payloads.items()})
+    if content_payloads is not None:
+        try:
+            from .content_bundle import install_bundle
+        except ImportError:
+            from content_bundle import install_bundle
+        installed = install_bundle(run_dir / 'content', content_manifest, content_payloads)
+        record['content_bundle'] = dict(bundle=str(Path(content_bundle).resolve()),
+            manifest_sha256=content_manifest_sha256, title_id=content_manifest['title_id'],
+            files=installed, profiles_copied=False, saves_copied=False)
     save(run_dir, record)
     return record
 
@@ -72,6 +96,12 @@ def save(run_dir, record):
 
 
 def launch(run_dir, record):
+    if 'content_bundle' in record:
+        try:
+            from .content_bundle import check_no_links
+        except ImportError:
+            from content_bundle import check_no_links
+        check_no_links(run_dir)
     run_dir=Path(run_dir).resolve()
     if record["status"] != "prepared":
         raise ValueError("run is not prepared")
@@ -91,6 +121,21 @@ def launch(run_dir, record):
             raise ValueError('runtime patch inventory changed before launch')
         for p,h in r['files'].items():
             if Path(p).is_symlink() or file_hash(p)!=h:raise ValueError('runtime patch copy changed before launch')
+    if 'content_bundle' in record:
+        try:
+            from .content_bundle import read_bundle as read_content_bundle, verify_installed
+        except ImportError:
+            from content_bundle import read_bundle as read_content_bundle, verify_installed
+        r = record['content_bundle']
+        content_options = [arg for arg in record['command'] if arg.startswith('--content_root=')]
+        if content_options != [f"--content_root={run_dir / 'content'}"]:
+            raise ValueError('content command root changed')
+        manifest, _ = read_content_bundle(r['bundle'], r['manifest_sha256'])
+        expected_files = {str(run_dir / 'content' / entry['path']): entry['sha256']
+                          for entry in manifest['files']}
+        if r['files'] != expected_files or r['title_id'] != manifest['title_id']:
+            raise ValueError('content run record changed')
+        verify_installed(run_dir / 'content', manifest)
     process = subprocess.Popen(record["command"], cwd=record["cwd"])
     record.update(status="started", pid=process.pid)
     save(run_dir, record)
@@ -128,20 +173,24 @@ def main(argv=None):
     parser.add_argument("--launch", action="store_true")
     parser.add_argument('--patch-bundle',type=Path)
     parser.add_argument('--patch-manifest-sha256')
+    parser.add_argument('--content-bundle', type=Path)
+    parser.add_argument('--content-manifest-sha256')
     parser.add_argument("--keyboard-test-input", action="store_true",
                         help="Explicit temporary keyboard-controller CLI override; source TOML unchanged")
     args = parser.parse_args(argv)
     try:
         if args.verify:
             if any((args.exe, args.config, args.game, args.run_dir, args.launch,
-                    args.config_sha256, args.keyboard_test_input,args.patch_bundle,args.patch_manifest_sha256)):
+                    args.config_sha256, args.keyboard_test_input,args.patch_bundle,args.patch_manifest_sha256,
+                    args.content_bundle,args.content_manifest_sha256)):
                 raise ValueError("verify cannot be combined with launch arguments")
             result = verify_config(args.verify)
         else:
             if not all((args.exe, args.config, args.game, args.run_dir)):
                 raise ValueError("exe, config, game and run-dir are required")
             result = prepare(args.exe, args.config, args.game, args.run_dir,
-                             args.config_sha256, args.keyboard_test_input,args.patch_bundle,args.patch_manifest_sha256)
+                             args.config_sha256, args.keyboard_test_input,args.patch_bundle,args.patch_manifest_sha256,
+                             args.content_bundle,args.content_manifest_sha256)
             if args.launch:
                 launch(args.run_dir, result)
         print(json.dumps(result, ensure_ascii=True))

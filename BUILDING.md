@@ -1899,3 +1899,13 @@ candidate、controls、raw-controls或live合并，结束时再次核验独立�
 哈希保护增量ISO/文件夹测试入口与隔离回滚见
 [PHASE_328_DYNAMIC_FONT_AND_TEXT](docs/PHASE_328_DYNAMIC_FONT_AND_TEXT.md)。
 本轮按用户明确要求刷新已有v6两张ISO，不增加完整镜像副本。
+
+## 阶段331 DLC 增量汉化与安装
+
+完整源锁、构建和审计命令见 [DLC汉化](docs/PHASE_331_DLC_LOCALIZATION.md)。
+`tools.build_dlc_localization` 从使用者提供的两份STFS包和版本化译表构建；
+`tools.audit_dlc_localization` 绑定当前本体中文与字体做593处字幕/36个武器字段检查。
+原容器不写入，完整二进制只保存在忽略的build/dist/xenia目录。
+`tools.install_dlc_bundle` 将两包增量加入共享content，并给既有中文测试入口绑定
+严格hash清单；`refresh_oneclick_probe` 之后会保留该绑定。安装和回滚均不启动游戏。
+本轮本地证据和可执行回滚入口位于 `build/phase-331-dlc/`；无需新ISO或完整游戏副本。

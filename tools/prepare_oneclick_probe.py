@@ -26,12 +26,17 @@ def quote(value):
     return '"'+value+'"'
 
 
-def launcher(python,project,packet,manifest_sha,exe,config,config_sha,phase,patch_bundle=None,patch_manifest_sha256=None):
+def launcher(python,project,packet,manifest_sha,exe,config,config_sha,phase,patch_bundle=None,patch_manifest_sha256=None,
+             content_bundle=None,content_manifest_sha256=None):
     """Only produce text. This function does not execute the launcher."""
     check=' '.join(map(quote,[python,project/'tools/verify_resource_phase.py','--packet-root',packet,'--manifest-sha256',manifest_sha]))
     run=' '.join(map(quote,[python,project/'tools/launch_xenia.py','--exe',exe,'--config',config,'--config-sha256',config_sha]))
     if patch_bundle is not None:
         run+=' '+' '.join(map(quote,['--patch-bundle',patch_bundle,'--patch-manifest-sha256',patch_manifest_sha256]))
+    if (content_bundle is None)!=(content_manifest_sha256 is None):
+        raise ValueError('content bundle and manifest SHA256 must be supplied together')
+    if content_bundle is not None:
+        run+=' '+' '.join(map(quote,['--content-bundle',content_bundle,'--content-manifest-sha256',content_manifest_sha256]))
     lines=['@echo off','chcp 65001 >nul','setlocal DisableDelayedExpansion','cd /d "%~dp0"',
         'set "MC2_RUN_ID='+phase+'-%RANDOM%-%RANDOM%"',
         check+' --resource-root "%~dp0'+phase+'" --phase '+phase+' --output "%~dp0runs\\%MC2_RUN_ID%-check.json"',

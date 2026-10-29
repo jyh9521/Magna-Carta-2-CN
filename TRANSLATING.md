@@ -2314,3 +2314,12 @@ flags remain false; no story translation gate changes.
 以及 `subtitles/terminology-v8-csm09-40.txt.json` 的3条独立字幕。
 `terms.json` 已同步；此用户约定不代表官方译名或跨作实体同一性验证。
 另6条拾取字段将前缀移入完整“已获得/已习得”，保留脚本拼接空格和机器标记。
+
+## DLC 文字与绑定
+
+阶段331使用 `locales/zh-Hans/dlc-strings.json` 的共享210条XSTR译文，
+并在 `dlc-packages.json` 中记录包名/简介及来源摘要。成就编号、数值、
+占位符与11条保留项需保持；不要翻译 `.DLC` 解锁标记名或资源路径。
+短剧对白与12种特殊武器的36个显示字段引用本体Coalesced，避免创建第二套不同译名。
+23处原字幕错键通过独立同FaceFX字幕佐证修订，不凭相邻编号推断。
+详见 [DLC汉化记录](docs/PHASE_331_DLC_LOCALIZATION.md)。

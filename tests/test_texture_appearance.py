@@ -55,6 +55,32 @@ class AppearanceTests(unittest.TestCase):
         label=self.label();label['appearance']={'kind':'preserve-source-v1'}
         self.assertEqual(set(render_label(self.font,label)),{0})
 
+    def test_shared_em_scale_does_not_enlarge_short_capitals(self):
+        import io
+        from fontTools.ttLib import TTFont
+        font=TTFont(io.BytesIO(self.font))
+        glyph=font['glyf']['B']
+        for i,(x,y) in enumerate(glyph.coordinates):glyph.coordinates[i]=(x,y//2)
+        stream=io.BytesIO();font.save(stream);data=stream.getvalue()
+        label=self.label();label['text']='B'
+        def bounds():
+            im=Image.frombytes('RGBA',(160,64),render_label(data,label))
+            return im.getchannel('A').point(lambda a:255 if a>=128 else 0).getbbox()
+        before=bounds()
+        label['appearance']['font_scale_reference']='A'
+        after=bounds()
+        self.assertEqual(before[3]-before[1],40)
+        self.assertEqual(after[3]-after[1],20)
+        self.assertEqual(after[3],before[3])
+        self.assertLess(after[2]-after[0],before[2]-before[0])
+
+    def test_font_scale_reference_rejects_missing_empty_and_mixed_fonts(self):
+        for reference in ('','\n','C','A'*129,False):
+            label=self.label();label['appearance']['font_scale_reference']=reference
+            with self.subTest(reference=reference),self.assertRaises(FormatError):render_label(self.font,label)
+        label=self.label();label['appearance'].update(font_scale_reference='A',spans=[dict(start=0,end=1,scale=.5)])
+        with self.assertRaises(FormatError):render_label(self.font,label)
+
     def test_gradient_survives_native_bc3_roundtrip(self):
         from tools.texture_layout import unit_layout,decode_texture
         from tools.texture_overlay import overlay_profile_regions

@@ -14,8 +14,9 @@ def validate(appearance, width, height):
     if appearance=={'kind':'preserve-source-v1'}:return
     keys={'kind','ink_box','align','gradient','outline','outline_width','glow',
           'glow_radius','shadow','shadow_offset','shadow_radius','italic',
-          'tracking','weight','motion','spans','blur','width_scale','effect_clip'}
-    required=keys-{'spans','blur','width_scale','effect_clip'}
+          'tracking','weight','motion','spans','blur','width_scale','effect_clip',
+          'font_scale_reference'}
+    required=keys-{'spans','blur','width_scale','effect_clip','font_scale_reference'}
     if set(appearance)-keys or not required<=set(appearance) or appearance['kind']!='source-style-v1':
         raise FormatError('unknown or missing text appearance fields')
     def number(v,lo,hi):return type(v) in (int,float) and math.isfinite(v) and lo<=v<=hi
@@ -24,6 +25,13 @@ def validate(appearance, width, height):
             or min(box[:2])<0 or min(box[2:])<1 or box[0]+box[2]>width or box[1]+box[3]>height):
         raise FormatError('appearance ink box outside canvas')
     if appearance['align'] not in ('left','right','center'):raise FormatError('appearance alignment')
+    if 'font_scale_reference' in appearance:
+        reference=appearance['font_scale_reference']
+        if (not isinstance(reference,str) or not 1<=len(reference)<=128
+                or any(ord(c)<32 for c in reference)):
+            raise FormatError('invalid font scale reference')
+        if appearance.get('spans'):
+            raise FormatError('font scale reference requires one font size')
     if 'effect_clip' in appearance:
         clip=appearance['effect_clip']
         if (not isinstance(clip,list) or len(clip)!=4 or any(type(v) is not int for v in clip)
@@ -98,6 +106,19 @@ def render(font_bytes,label):
         if box is None:raise FormatError('empty glyph mask')
         mask=mask.crop(box)
     bx,by,bw,bh=a['ink_box'];inkheight=bh
+    if 'font_scale_reference' in a:
+        # Independent ink-height fitting enlarges short Latin capitals relative
+        # to CJK glyphs. An explicit locale-owned reference shares the em scale;
+        # the reserved box's bottom remains the common visible baseline.
+        reference=a['font_scale_reference']
+        if 'glyph_mask' in label or any(ord(c) not in font_codepoints(font_bytes) for c in reference):
+            raise FormatError('font scale reference requires supported font glyphs')
+        reference_box=font.getbbox(reference,anchor='ls')
+        reference_height=reference_box[3]-reference_box[1]
+        if reference_height<=0:raise FormatError('empty font scale reference')
+        inkheight=max(1,round(mask.height*bh/reference_height))
+        if inkheight>bh:raise FormatError('reference-scaled ink exceeds reserved height')
+        by+=bh-inkheight
     mask=mask.resize((max(1,round(mask.width*inkheight/mask.height*scale)),inkheight*scale),Image.Resampling.LANCZOS)
     if a['weight']:
         k=round(a['weight']*scale)*2+1

@@ -1719,3 +1719,7 @@ alpha仅0/255，未选区域RGBA全零；重算的支持域须与文件精确相
 ## MCD1 安装差异
 
 本项目新增格式，不是游戏原生格式。大端头 `>4sQQ32s32s`：MCD1、源长度、目标长度、源/目标SHA256；随后每1MiB目标块使用4字节大端压缩长度及独立zlib XOR数据，源尾部补零。严格验证原件、输出、块大小、解压上限和EOF。压缩UE3先按清单使用ue3-raw-v1规范化源；其他资源identity。实现/回归见 tools/installer_delta.py、tests/test_installer.py。ZAR沿用Exzap格式，未另造同名容器。
+
+## 共同字号与原生标签合同（阶段336）
+
+font_scale_reference 是 source-style-v1 的可选工具元数据，不是引擎序列化字段。它是1–128字符且无控制码的字体支持字符串；其基线包围盒高度作为共同 em 缩放分母，ink_box 保留底线。混合 spans、外部字形蒙版、空字芯和缩放后高度越界拒绝。ui-geometry-contracts 可用 image_labels 绑定实际图像引用链、UV、贴图别名、字芯区域/阈值及预期右端/高度/底线；equal_fields 比较真实数值字段。详见 [阶段336](PHASE_336_SAVE_SLOT_ALIGNMENT.md)。

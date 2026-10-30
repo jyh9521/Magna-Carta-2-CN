@@ -1673,3 +1673,7 @@ remain separate confidence levels. Existing parser/coverage rules are unchanged.
 ## 安装器事务与虚拟归档（阶段334）
 
 已验证的实现：独立双盘清单、XEX Execution ID预检、完整ISO摘要前后复核、MCD1逐块来源绑定、raw runtime-envelope门禁、Exzap ZArchive成员读回、STFS输出哈希树校验、无覆盖原子发布与显式中断恢复。详见 [INSTALLER](docs/INSTALLER.md)。这些离线证明不等同换碟/DLC/实机验收。
+
+## 存读档物理副本与共同字号（阶段336）
+
+Verified：标题地图 TitleMap_MSPT 另存 GameStart_Load，不能以 UI_Pillar 中的同名对象替代它。相同字芯高度不是相同 em；可选 font_scale_reference 将语言数据中的共同字形参照用于缩放，默认路径保持。153项检查绑定实际图像引用、UV、两份原生贴图和九槽数值边界/样式。事实、推断与画面复测分列于 [阶段336](docs/PHASE_336_SAVE_SLOT_ALIGNMENT.md)。

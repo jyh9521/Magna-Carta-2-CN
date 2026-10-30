@@ -1,0 +1,398 @@
+{
+  "schema_version": 1,
+  "kind": "texture-text-overlay-plan",
+  "game_rendering_verified": false,
+  "font": {
+    "path": "build/font-source/NotoSansCJKsc-Regular.otf",
+    "sha256": "2c76254f6fc379fddfce0a7e84fb5385bb135d3e399294f6eeb6680d0365b74b"
+  },
+  "rasterizer_versions": {
+    "Pillow": "12.2.0",
+    "fonttools": "4.63.0"
+  },
+  "labels": [
+    {
+      "id": "style_info_play_time",
+      "text": "游戏时间",
+      "rect": [
+        152,
+        16,
+        80,
+        16
+      ],
+      "font_size": 16,
+      "font": {
+        "path": "build/font-source/NotoSansCJKsc-Regular.otf",
+        "sha256": "2c76254f6fc379fddfce0a7e84fb5385bb135d3e399294f6eeb6680d0365b74b"
+      },
+      "align": "center",
+      "ink_padding": {
+        "x": 1,
+        "y": 0
+      },
+      "style": {
+        "fill": [
+          245,
+          224,
+          146,
+          255
+        ],
+        "stroke_fill": [
+          25,
+          18,
+          6,
+          220
+        ],
+        "shadow_fill": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "restoration": {
+        "source_rgba_sha256": "4e7067edbfaedd4b4b19d5233eb7ee55d3eb0de71e33810f05d7744a23d69834",
+        "mask": {
+          "path": "locales/zh-Hans/texture-overlays/restorations/review-v3-20261026/style_info_play_time-mask.png",
+          "sha256": "57e9609018d280d130c5c96eace6e43a4a2dd65b75a1ed3ba64717946720d791"
+        },
+        "patch": {
+          "path": "locales/zh-Hans/texture-overlays/restorations/review-v3-20261026/style_info_play_time-patch.png",
+          "sha256": "f58ba10518164f05cd05ea87f446bd13b1a9e0fc7becaed777133cec6d949224"
+        }
+      },
+      "appearance": {
+        "kind": "source-style-v1",
+        "ink_box": [
+          2,
+          2,
+          76,
+          13
+        ],
+        "align": "left",
+        "gradient": [
+          [
+            0,
+            [
+              255,
+              255,
+              216,
+              255
+            ]
+          ],
+          [
+            380,
+            [
+              255,
+              242,
+              176,
+              255
+            ]
+          ],
+          [
+            1000,
+            [
+              224,
+              175,
+              96,
+              255
+            ]
+          ]
+        ],
+        "outline": [
+          55,
+          34,
+          9,
+          240
+        ],
+        "outline_width": 0.6,
+        "glow": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "glow_radius": 0,
+        "shadow": [
+          0,
+          0,
+          0,
+          230
+        ],
+        "shadow_offset": [
+          1,
+          1
+        ],
+        "shadow_radius": 0.65,
+        "italic": 0,
+        "tracking": 0,
+        "weight": 0,
+        "motion": 0,
+        "font_scale_reference": "游戏时间"
+      }
+    },
+    {
+      "id": "style_info_sid",
+      "text": "SID",
+      "rect": [
+        152,
+        32,
+        80,
+        16
+      ],
+      "font_size": 16,
+      "font": {
+        "path": "build/font-source/NotoSansCJKsc-Regular.otf",
+        "sha256": "2c76254f6fc379fddfce0a7e84fb5385bb135d3e399294f6eeb6680d0365b74b"
+      },
+      "align": "center",
+      "ink_padding": {
+        "x": 1,
+        "y": 0
+      },
+      "style": {
+        "fill": [
+          245,
+          224,
+          146,
+          255
+        ],
+        "stroke_fill": [
+          25,
+          18,
+          6,
+          220
+        ],
+        "shadow_fill": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "appearance": {
+        "kind": "source-style-v1",
+        "ink_box": [
+          2,
+          3,
+          76,
+          13
+        ],
+        "align": "left",
+        "gradient": [
+          [
+            0,
+            [
+              255,
+              255,
+              216,
+              255
+            ]
+          ],
+          [
+            380,
+            [
+              255,
+              242,
+              176,
+              255
+            ]
+          ],
+          [
+            1000,
+            [
+              224,
+              175,
+              96,
+              255
+            ]
+          ]
+        ],
+        "outline": [
+          55,
+          34,
+          9,
+          240
+        ],
+        "outline_width": 0.6,
+        "glow": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "glow_radius": 0,
+        "shadow": [
+          0,
+          0,
+          0,
+          230
+        ],
+        "shadow_offset": [
+          1,
+          1
+        ],
+        "shadow_radius": 0.65,
+        "italic": 0,
+        "tracking": 0,
+        "weight": 0,
+        "motion": 0,
+        "font_scale_reference": "游戏时间"
+      },
+      "translation_basis": "protected-original-token-redrawn",
+      "restoration": {
+        "source_rgba_sha256": "22a5d970732a9202a2ac67bfc1086e9314db4b43eb0d3ebd93ab636eba65151e",
+        "mask": {
+          "path": "locales/zh-Hans/texture-overlays/restorations/review-v3-20261026/style_info_sid-mask.png",
+          "sha256": "9d283f40f128dfdaa493df2b718e3183c17ac5edc4b5c03643f18c04e415d5fa"
+        },
+        "patch": {
+          "path": "locales/zh-Hans/texture-overlays/restorations/review-v3-20261026/style_info_sid-patch.png",
+          "sha256": "f58ba10518164f05cd05ea87f446bd13b1a9e0fc7becaed777133cec6d949224"
+        }
+      }
+    }
+  ],
+  "sources": [
+    {
+      "path": "MC2Game/CookedXenon/MC2Game.xxx",
+      "discs": [
+        1,
+        2
+      ],
+      "original": {
+        "path": "build/poc-game/disc1/MC2Game/CookedXenon/MC2Game.xxx",
+        "sha256": "13f92622e2ae2920f6ce6dfc7b0edbbcbec7e83adeacbd56fed84a021739a641"
+      },
+      "base": {
+        "path": "build/phase-285-verification/route-probe/candidate/MC2Game/CookedXenon/MC2Game.xxx",
+        "sha256": "5595562dab1233cbbf7979fff1b9c9ca031707b40f10adf75eb97ec1e999d425"
+      },
+      "textures": [
+        {
+          "object": "UI_Field.Textures.Field_MainMenu_Info_Tex04",
+          "image_id": "style_info_atlas",
+          "regions": [
+            "style_info_play_time",
+            "style_info_sid"
+          ],
+          "profile": {
+            "kind": "xbox-inline-bc-v1",
+            "format": 7
+          },
+          "channel_mode": "rgba",
+          "preserve_unchanged_blocks": true,
+          "alpha_encoding": "adaptive-range",
+          "protected_regions": [
+            {
+              "id": "frame",
+              "rect": [
+                0,
+                0,
+                136,
+                40
+              ],
+              "rgba_sha256": "0a3b67e7f46c2b492dc7bb8b2feaa03106b54f5e127b147df9363bf119613686"
+            },
+            {
+              "id": "bullets",
+              "rect": [
+                136,
+                0,
+                16,
+                48
+              ],
+              "rgba_sha256": "519483a31ca410e5b264b5f9ebdadca1cca7fbde8b0ad9498b97fededd1c2cc8"
+            },
+            {
+              "id": "right_margin",
+              "rect": [
+                232,
+                0,
+                24,
+                64
+              ],
+              "rgba_sha256": "3f58d7570293e604386f6c12c3ee8d81a4a729751aca057c94d33e9a20796289"
+            }
+          ],
+          "payload_sha256": "2356be61d9150160c97807ed6501dfc8dfadf793dac1fc7b6b31e7b6f8074c76",
+          "tiled_sha256": "68f2d82ba5031d05b92587c2860be942cef742d32ed88c1ef471734d1c3829c7",
+          "dimensions": [
+            256,
+            64
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/UI_Field.xxx",
+      "discs": [
+        1,
+        2
+      ],
+      "original": {
+        "path": "build/poc-game/common/MC2Game/CookedXenon/UI_Field.xxx",
+        "sha256": "34cee17b049c0c6eacb0fb945504cb246ec2aa260d4f33e0d954b239cf8644c8"
+      },
+      "base": {
+        "path": "build/poc-game/common/MC2Game/CookedXenon/UI_Field.xxx",
+        "sha256": "34cee17b049c0c6eacb0fb945504cb246ec2aa260d4f33e0d954b239cf8644c8"
+      },
+      "textures": [
+        {
+          "object": "Textures.Field_MainMenu_Info_Tex04",
+          "image_id": "style_info_atlas",
+          "regions": [
+            "style_info_play_time",
+            "style_info_sid"
+          ],
+          "profile": {
+            "kind": "xbox-inline-bc-v1",
+            "format": 7
+          },
+          "channel_mode": "rgba",
+          "preserve_unchanged_blocks": true,
+          "alpha_encoding": "adaptive-range",
+          "protected_regions": [
+            {
+              "id": "frame",
+              "rect": [
+                0,
+                0,
+                136,
+                40
+              ],
+              "rgba_sha256": "0a3b67e7f46c2b492dc7bb8b2feaa03106b54f5e127b147df9363bf119613686"
+            },
+            {
+              "id": "bullets",
+              "rect": [
+                136,
+                0,
+                16,
+                48
+              ],
+              "rgba_sha256": "519483a31ca410e5b264b5f9ebdadca1cca7fbde8b0ad9498b97fededd1c2cc8"
+            },
+            {
+              "id": "right_margin",
+              "rect": [
+                232,
+                0,
+                24,
+                64
+              ],
+              "rgba_sha256": "3f58d7570293e604386f6c12c3ee8d81a4a729751aca057c94d33e9a20796289"
+            }
+          ],
+          "payload_sha256": "96126f23e29e5b7fe69c680aaa59f8059917880c427592cfc260c846eb4aa54c",
+          "tiled_sha256": "68f2d82ba5031d05b92587c2860be942cef742d32ed88c1ef471734d1c3829c7",
+          "dimensions": [
+            256,
+            64
+          ]
+        }
+      ]
+    }
+  ]
+}

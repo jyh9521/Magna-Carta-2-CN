@@ -1694,3 +1694,7 @@ Known limitations should be documented clearly rather than hidden.
 ## 安装器候选版验收状态
 
 0.1.0-rc.1的离线打包/校验与游戏内结论分列，见 [INSTALLER](INSTALLER.md)。新ZAR启动、换碟、旧存档、DLC枚举/短剧播放/武器解锁、Edge、RGH/JTAG及Aurora/Freestyle Dash尚待实测。默认不启动游戏、不改模拟器配置，不以既有目录版启动记录代替新产物验收。
+
+## 存读档界面复测（阶段336）
+
+用户指出主界面读档仍然字号、右端不一致；阶段335的离线通过不足以覆盖这一入口。现补齐标题地图副本、共同字体缩放及全部槽位数值边界检查。153项离线合同通过不代替实际画面；主界面读取、游戏内保存、游戏内读取的选中/未选中状态与长数值仍由用户复测。旧ZAR/ISO不会自动收到目录版刷新。见 [阶段336](PHASE_336_SAVE_SLOT_ALIGNMENT.md)。

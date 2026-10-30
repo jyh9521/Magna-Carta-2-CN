@@ -1948,3 +1948,11 @@ candidate、controls、raw-controls或live合并，结束时再次核验独立�
 运行前逐文件核对，退出后清理引导器临时目录；通过 `--verify-only --report` 无窗口验收。
 输出玩家指南按实际格式和 DLC 选择生成。存档页、战斗消耗与商店选中底的源锁、离线契约和重建入口见
 [PHASE_335_RELEASE_POLISH](docs/PHASE_335_RELEASE_POLISH.md)。继续只增量刷新既有测试目录，不生成完整游戏副本。
+
+## 主界面与游戏内存读档（阶段336）
+
+当前存读档使用 `save-slot-geometry.json` 同时核对 `TitleMap_MSPT.xxx` 和
+`UI_Pillar.xxx` 的独立副本，以及两份原生标签贴图。不要再仅运行阶段335的
+历史存档墨迹偏移合同。共用字号参照、三入口验证和有界重建见
+[PHASE_336_SAVE_SLOT_ALIGNMENT](docs/PHASE_336_SAVE_SLOT_ALIGNMENT.md)。
+原有测试目录按摘要增量刷新；已有独立ZAR/ISO不在此刷新写集中。

@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "kind": "native-texture-region-update",
+  "game_rendering_verified": false,
+  "disc": 1,
+  "overlay_plan": {
+    "path": "locales/zh-Hans/texture-overlays/save-slot-labels.json",
+    "sha256": "f290983c13974ac2ac8e06fc1112374648d90b631a241125a47419ca1558a126"
+  },
+  "resources": [
+    {
+      "path": "MC2Game/CookedXenon/MC2Game.xxx",
+      "discs": [
+        1,
+        2
+      ],
+      "input_sha256": "7cd3295e6fe45c1dacfd76ea158a0fd5d8695f02303e9a6ec1171cd0b7fa7b3f",
+      "object": "UI_Field.Textures.Field_MainMenu_Info_Tex04",
+      "donor_object": "UI_Field.Textures.Field_MainMenu_Info_Tex04",
+      "rectangles": [
+        [
+          152,
+          16,
+          80,
+          32
+        ]
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/UI_Field.xxx",
+      "discs": [
+        1,
+        2
+      ],
+      "input_sha256": "61321fcdf9951a45ea4a037c6ca98c46454a25d67453eeb51aea12d7b4df5a33",
+      "object": "Textures.Field_MainMenu_Info_Tex04",
+      "donor_object": "Textures.Field_MainMenu_Info_Tex04",
+      "rectangles": [
+        [
+          152,
+          16,
+          80,
+          32
+        ]
+      ]
+    }
+  ]
+}

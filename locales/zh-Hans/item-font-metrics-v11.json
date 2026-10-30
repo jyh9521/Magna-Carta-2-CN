@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "kind": "font-metrics-overlay",
+  "base_layout_sha256": "acd9b19a19a033abe54c09a5fd141ed6b54384ce18989849b812ad864a2a547b",
+  "fonts": {
+    "general": {
+      "resource": "MC2Game/CookedXenon/font.xxx",
+      "object": "General_15",
+      "advances_sha256": "ae8eb933458acedc2bffc13d80e4d894226e93d508503cf2a0de90b8d22e99dc",
+      "max_glyph_height": 25
+    },
+    "subtitle": {
+      "resource": "MC2Game/CookedXenon/font.xxx",
+      "object": "EngineMedium_Subtitle",
+      "advances_sha256": "f7c940d630b3d47d3e612f2c1542afc9d6eda95d795e590a6dfbe692c0a91aef",
+      "max_glyph_height": 31
+    },
+    "icons": {
+      "resource": "MC2Game/CookedXenon/Startup_int.xxx",
+      "object": "font_ui.MC2StyleFont_0",
+      "advances_sha256": "13df79f1af8cbe296dee950d46cb5b296855cdc0b40e0b6cc857c6116d650417",
+      "max_glyph_height": 38
+    }
+  }
+}

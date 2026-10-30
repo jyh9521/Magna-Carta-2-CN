@@ -79,7 +79,7 @@ def load_plan(path, expected):
 
 
 def prepare_native_indicator(caption,mask,font,original,source,header,root,source_root,ffmpeg):
-    from PIL import Image
+    from PIL import Image,ImageFilter
     import numpy as np
     from .video_screen_underlay import extract_glyph_matte,inverse_screen
     from .video_native_indicator import NativeIndicator
@@ -117,7 +117,39 @@ def prepare_native_indicator(caption,mask,font,original,source,header,root,sourc
         if bounds and (bounds[0]<x or bounds[1]<y or bounds[2]>x+w or bounds[3]>y+h):
             raise ValueError('Native indicator glow leaves its bounded canvas')
         layers.append(rendered.crop((x,y,x+w,y+h)))
-    operation=NativeIndicator(erase['rect'],mask,matte,anchor,patch,layers,header['frames'],threshold,invalid)
+    method=spec.get('temporal_lighting','nearest-known-v1')
+    operation_rect=erase['rect'];weight=None
+    if method=='harmonic-feathered-v1':
+        feather=spec.get('lighting_feather')
+        if (not isinstance(feather,dict) or set(feather)!={'padding','dilation','blur_radius','cutoff'}
+                or not isinstance(feather['padding'],list) or len(feather['padding'])!=4
+                or any(type(v)is not int or not 0<=v<=64 for v in feather['padding'])
+                or type(feather['dilation'])is not int or not 1<=feather['dilation']<=16
+                or type(feather['blur_radius'])is not int or not 1<=feather['blur_radius']<=8
+                or type(feather['cutoff'])is not int or not 1<=feather['cutoff']<=16):
+            raise ValueError('invalid bounded lighting feather')
+        # Keep the left-hand native spinner outside the operation. Top/right/
+        # bottom light-only feathering removes a glyph-shaped temporal seam.
+        left,top,right,bottom=feather['padding'];new_h=h+top+bottom;new_w=w+left+right
+        new_x,new_y=x-left,y-top
+        if min(new_x,new_y)<0 or new_x+new_w>original.width or new_y+new_h>original.height:
+            raise ValueError('lighting feather leaves movie bounds')
+        expanded=np.zeros((new_h,new_w),bool);expanded[top:top+h,left:left+w]=mask
+        weight=np.asarray(Image.fromarray(expanded.astype(np.uint8)*255)
+            .filter(ImageFilter.MaxFilter(2*feather['dilation']+1))
+            .filter(ImageFilter.GaussianBlur(feather['blur_radius']))).copy()
+        weight[weight<feather['cutoff']]=0;weight[expanded]=255
+        padded=np.zeros((new_h,new_w,3),np.uint8);padded[top:top+h,left:left+w]=matte;matte=padded
+        padded=np.zeros((new_h,new_w),bool);padded[top:top+h,left:left+w]=invalid;invalid=padded
+        p=Image.new('RGBA',(new_w,new_h));p.paste(patch,(left,top));patch=p
+        layers=[Image.new('RGBA',(new_w,new_h)) for _ in states]
+        for output,state in zip(layers,states):
+            full,_=render_layer(state,font,original.size,caption['style'])
+            output.paste(full.crop((new_x,new_y,new_x+new_w,new_y+new_h)),(0,0))
+        mask=expanded;operation_rect=[new_x,new_y,new_w,new_h]
+        anchor=np.asarray(original.crop((new_x,new_y,new_x+new_w,new_y+new_h)))
+    operation=NativeIndicator(operation_rect,mask,matte,anchor,patch,layers,header['frames'],threshold,invalid,
+        temporal_lighting=method,lighting_weight=weight)
     evidence=operation.proof();evidence.update(core_patch_sha256=asset['sha256'],invalid_model_pixels=int(invalid.sum()),
         matte_inference={k:v for k,v in inference.items() if not isinstance(v,np.ndarray)})
     return operation,evidence
@@ -179,7 +211,9 @@ def prepare_layers(plan,entry,root,source_root,ffmpeg):
         if 'native_screen' in erase:
             operation,evidence=prepare_native_indicator(caption,mask,font,original,source,header,root,source_root,ffmpeg)
             masks.append(operation);proof['native_screen']=evidence
-            for state in operation.layers:changed[y:y+h,x:x+w]|=np.asarray(state.getchannel('A'))>0
+            xx,yy,ww,hh=operation.rect
+            changed[yy:yy+hh,xx:xx+ww]|=operation.mask
+            for state in operation.layers:changed[yy:yy+hh,xx:xx+ww]|=np.asarray(state.getchannel('A'))>0
         else:
             masks.append((rect,mask))
             layer=Image.alpha_composite(layer,rendered)

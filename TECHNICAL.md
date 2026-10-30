@@ -1677,3 +1677,7 @@ remain separate confidence levels. Existing parser/coverage rules are unchanged.
 ## 存读档物理副本与共同字号（阶段336）
 
 Verified：标题地图 TitleMap_MSPT 另存 GameStart_Load，不能以 UI_Pillar 中的同名对象替代它。相同字芯高度不是相同 em；可选 font_scale_reference 将语言数据中的共同字形参照用于缩放，默认路径保持。153项检查绑定实际图像引用、UV、两份原生贴图和九槽数值边界/样式。事实、推断与画面复测分列于 [阶段336](docs/PHASE_336_SAVE_SLOT_ALIGNMENT.md)。
+
+## 动态光照与原生字格透明边距（阶段337）
+
+Verified：旧提示的最近像素光照传播在移动闪光中形成分片；新方案以边界谐波颜色校正、矩形Dirichlet光照和有界羽化替换，保留原字号和纹理。全部15×90帧的实际光照场及最终Bink复解码均检查。物品名采用四包七别名的tagged/native StartU、USize同步透明裁边，图集字节不变；两盘流式驻留引用及689条名称全量审计。隐藏底图仍属重建，游戏画面验收单列。见 [阶段337](docs/PHASE_337_LOADING_ITEM_SPACING.md)。

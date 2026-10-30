@@ -1956,3 +1956,12 @@ candidate、controls、raw-controls或live合并，结束时再次核验独立�
 历史存档墨迹偏移合同。共用字号参照、三入口验证和有界重建见
 [PHASE_336_SAVE_SLOT_ALIGNMENT](docs/PHASE_336_SAVE_SLOT_ALIGNMENT.md)。
 原有测试目录按摘要增量刷新；已有独立ZAR/ISO不在此刷新写集中。
+
+## 载入动态光照与全物品字距（阶段337）
+
+当前loading计划为 `loading-captions-v11.json`，动态字格修订为
+`item-font-padding-v11.json`；只调整选中字格的透明边距，不重绘字形。
+完整名称银行、七字体别名、两盘实际资源视图与复现命令见
+[PHASE_337_LOADING_ITEM_SPACING](docs/PHASE_337_LOADING_ITEM_SPACING.md)。
+使用源锁定重建、1350帧成品复解码、独立回滚及现有目录增量刷新，
+不为验证建立新ISO或完整游戏副本。

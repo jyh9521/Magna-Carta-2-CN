@@ -10,6 +10,73 @@ from itertools import zip_longest
 import numpy as np
 
 
+def rectangular_lighting(delta, *, limit=48):
+    """Dirichlet harmonic light field from the context perimeter only.
+
+    A separable discrete-sine transform solves the rectangular Laplacian via
+    NumPy FFT. Unlike per-frame relaxation this is bounded O(N log N), and it
+    does not read any old-caption/repair pixel in the rectangle interior.
+    """
+    if (not isinstance(delta,np.ndarray) or delta.ndim!=3 or delta.shape[2]!=3
+            or delta.dtype.kind not in 'fiu' or not np.isfinite(delta).all()
+            or min(delta.shape[:2])<3 or delta.shape[0]*delta.shape[1]>65536
+            or type(limit)is not int or not 1<=limit<=128):
+        raise ValueError('invalid rectangular temporal-light contract')
+    out=np.clip(delta,-limit,limit).astype(np.float64)
+    h,w=out.shape[:2];rhs=np.zeros((h-2,w-2,3),np.float64)
+    rhs[0]-=out[0,1:-1];rhs[-1]-=out[-1,1:-1]
+    rhs[:,0]-=out[1:-1,0];rhs[:,-1]-=out[1:-1,-1]
+    def dst(value,axis):
+        n=value.shape[axis];shape=list(value.shape);shape[axis]=2*(n+1)
+        extended=np.zeros(shape,np.float64)
+        sl=[slice(None)]*value.ndim;sl[axis]=slice(1,n+1);extended[tuple(sl)]=value
+        sl[axis]=slice(n+2,None);extended[tuple(sl)]=-np.flip(value,axis)
+        sl[axis]=slice(1,n+1)
+        return -np.fft.fft(extended,axis=axis).imag[tuple(sl)]/2
+    eigen=(2*np.cos(np.pi*np.arange(1,h-1)/(h-1))[:,None]
+           +2*np.cos(np.pi*np.arange(1,w-1)/(w-1))[None,:]-4)
+    transformed=dst(dst(rhs,0),1)/eigen[:,:,None]
+    out[1:-1,1:-1]=dst(dst(transformed,0),1)*4/((h-1)*(w-1))
+    return np.clip(out,-limit,limit)
+
+
+def harmonic_lighting(delta, mask, *, limit=48, tolerance=.0005, max_iterations=4096):
+    """Extend temporal light change, not artwork, through an explicit support.
+
+    Bounded red/black SOR solves the four-neighbour discrete Laplace equation.
+    Known boundary samples are fixed. Masked samples never participate in the
+    boundary data; source lettering and flashes inside the caption cannot seed
+    polygonal donor cells. No pixel in the input arrays is mutated.
+    """
+    if (not isinstance(delta,np.ndarray) or delta.ndim!=3 or delta.shape[2]!=3
+            or delta.dtype.kind not in 'fiu' or not np.isfinite(delta).all()
+            or not isinstance(mask,np.ndarray) or mask.dtype!=np.bool_
+            or mask.shape!=delta.shape[:2] or not mask.size or mask.size>65536
+            or mask.all() or type(limit)is not int or not 1<=limit<=128
+            or isinstance(tolerance,bool) or not 0<tolerance<=.01
+            or type(max_iterations)is not int or not 1<=max_iterations<=8192):
+        raise ValueError('invalid harmonic temporal-light contract')
+    values=np.clip(delta,-limit,limit).astype(np.float64)
+    values[mask]=0
+    if not mask.any():return values
+    y,x=np.indices(mask.shape)
+    selections=[np.where(mask&((x+y)%2==n)) for n in (0,1)]
+    for _ in range(max_iterations):
+        largest=0.
+        for yy,xx in selections:
+            previous=values[yy,xx].copy()
+            # Zero normal gradient at the bounded canvas edge. Connected
+            # unmasked samples still supply Dirichlet boundary conditions.
+            mean=(values[np.maximum(yy-1,0),xx]+values[np.minimum(yy+1,mask.shape[0]-1),xx]
+                  +values[yy,np.maximum(xx-1,0)]+values[yy,np.minimum(xx+1,mask.shape[1]-1)])/4
+            updated=previous+1.7*(mean-previous)
+            values[yy,xx]=updated
+            largest=max(largest,float(np.max(np.abs(updated-previous),initial=0)))
+        if largest<tolerance:
+            return np.clip(values,-limit,limit)
+    raise ValueError('harmonic temporal-light solver did not converge')
+
+
 def _pairs(reference_frames,target_frames,max_frames,max_pixels):
     if type(max_frames) is not int or not 1<=max_frames<=4096:
         raise ValueError('screen frame limit outside bound')

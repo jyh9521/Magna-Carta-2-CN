@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "kind": "native-item-spacing-audit",
+  "coalesced": {
+    "resource": "MC2Game/Localization/Coalesced.int",
+    "sha256": "b2417128487060db0d659ea2ccaf51baa414b7fef321b373a506ba43a5d2ccfa",
+    "original_sha256": "179e265cfc9e6d3e9f2586abe75b5da303b2af9b8484079851dab72f9f7edb8c"
+  },
+  "banks": [
+    {
+      "file": "MC2Item.int",
+      "sections": null,
+      "description_suffixes": [
+        "_d",
+        "_s"
+      ],
+      "expected_fields": 1630,
+      "expected_names": 586
+    },
+    {
+      "file": "MC2Kamond.int",
+      "sections": [
+        "Karmond"
+      ],
+      "description_suffixes": [
+        "_d",
+        "_s"
+      ],
+      "expected_fields": 309,
+      "expected_names": 103
+    }
+  ],
+  "minimum_gap": 5,
+  "maximum_gap": 8,
+  "fonts": [
+    {
+      "resource": "MC2Game/CookedXenon/font.xxx",
+      "object": "General_15",
+      "role": "general"
+    },
+    {
+      "resource": "MC2Game/CookedXenon/font.xxx",
+      "object": "EngineMedium_Subtitle",
+      "role": "subtitle"
+    },
+    {
+      "resource": "MC2Game/CookedXenon/Engine.xxx",
+      "object": "EngineFonts.SmallFont",
+      "role": "small"
+    },
+    {
+      "resource": "MC2Game/CookedXenon/MC2Game.xxx",
+      "object": "Font.General_15",
+      "role": "general"
+    },
+    {
+      "resource": "MC2Game/CookedXenon/Startup_int.xxx",
+      "object": "Font.General_15",
+      "role": "general"
+    },
+    {
+      "resource": "MC2Game/CookedXenon/Startup_int.xxx",
+      "object": "EngineFonts.SmallFont",
+      "role": "small"
+    },
+    {
+      "resource": "MC2Game/CookedXenon/Startup_int.xxx",
+      "object": "Font.EngineMedium_Subtitle",
+      "role": "subtitle"
+    }
+  ],
+  "dlc": {
+    "resource": "MC2Game/CookedXenon/data_weapon.xxx",
+    "sha256": "7acd0f68c228ec8c18e90cd70073695d084b4c78ed4649be450dc7f6bd97234e",
+    "expected_names": 12
+  },
+  "duplicate_references": {
+    "<strings:mc2item.valuables.key_laboratory>": [
+      "coalesced:22f361b7bcf01648e114220572dcea5fda07c2548dd2ed39d05fa75dbddbf607",
+      "coalesced:41480d3d2e33c26493aec2504ab8efd18a0262ddc9ab1dd6d0fc8f223723d895"
+    ]
+  },
+  "retained_unbound_sha256": "00fded9d9c20ad3c83e6ad54ee68d7abd28423dfdf20b20e6f84c897d9f131d9",
+  "retained_unbound_sha256_by_disc": {
+    "1": "00fded9d9c20ad3c83e6ad54ee68d7abd28423dfdf20b20e6f84c897d9f131d9",
+    "2": "87f000b38194ebe94b9b8cb7ae585cec58dfca05db123e874b3d1f04af090676"
+  }
+}

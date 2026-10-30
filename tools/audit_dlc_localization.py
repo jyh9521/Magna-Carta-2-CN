@@ -16,10 +16,27 @@ from .ue3_subtitle_refs import read_fields,sha
 from .xdbf_strings import Xdbf
 
 
-def audit(packages,project,game,decoder,profile_path,layout_path):
+def layout_with_font_metrics(layout_path,metrics_path=None):
+    raw=Path(layout_path).read_bytes();layout=json.loads(raw)
+    if metrics_path is None:return layout
+    overlay=read_json(metrics_path)
+    if (overlay.get('kind')!='font-metrics-overlay' or overlay.get('schema_version')!=1
+            or overlay.get('base_layout_sha256')!=sha(raw)
+            or set(overlay['fonts'])!=set(layout['fonts'])):
+        raise ValueError('font metric overlay source/schema mismatch')
+    for role,updated in overlay['fonts'].items():
+        before=layout['fonts'][role]
+        if ({k:v for k,v in updated.items() if k!='advances_sha256'}
+                !={k:v for k,v in before.items() if k!='advances_sha256'}):
+            raise ValueError('font metric overlay may change advances only')
+    layout['fonts']=overlay['fonts']
+    return layout
+
+
+def audit(packages,project,game,decoder,profile_path,layout_path,font_metrics_path=None):
     p=read_json(profile_path)
     shared=read_json(project/p['strings']);assets=read_json(project/p['assets'])
-    layout=read_json(layout_path)
+    layout=layout_with_font_metrics(layout_path,font_metrics_path)
     metrics=font_metrics(game,layout['fonts'])
     coal_path=game/layout['coalesced']['resource'];coal=coal_path.read_bytes()
     rows=extract_entries(parse(coal),layout['coalesced']['resource']);lookup={}
@@ -86,9 +103,10 @@ def audit(packages,project,game,decoder,profile_path,layout_path):
 def main():
     p=argparse.ArgumentParser(description=__doc__)
     for key in ('packages','project','game','profile','layout-profile','lzx-library','output'):p.add_argument('--'+key,type=Path,required=True)
+    p.add_argument('--font-metrics-profile',type=Path)
     a=p.parse_args()
     try:
-        r=audit(a.packages,a.project,a.game,LzxDecoder(a.lzx_library),a.profile,a.layout_profile)
+        r=audit(a.packages,a.project,a.game,LzxDecoder(a.lzx_library),a.profile,a.layout_profile,a.font_metrics_profile)
         a.output.parent.mkdir(parents=True,exist_ok=True)
         with a.output.open('xb')as f:f.write(json_bytes(r))
         if read_json(a.output)!=r:raise ValueError('audit output readback mismatch')

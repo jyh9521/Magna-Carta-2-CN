@@ -27,7 +27,7 @@ int APIENTRY wWinMain(_In_ HINSTANCE instance, _In_opt_ HINSTANCE prev,
   FlutterWindow window(project);
   Win32Window::Point origin(100, 60);
   Win32Window::Size size(1080, 870);
-  if (!window.Create(L"真名法典 2 · 简体中文汉化补丁安装器", origin, size)) {
+  if (!window.Create(L"《真名法典2》简体中文汉化补丁", origin, size)) {
     return EXIT_FAILURE;
   }
   window.SetQuitOnClose(true);

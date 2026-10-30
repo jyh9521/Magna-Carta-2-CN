@@ -1,0 +1,911 @@
+{
+  "schema_version": 1,
+  "kind": "ui-geometry-contracts",
+  "packages": {
+    "game": "MC2Game/CookedXenon/MC2Game.xxx",
+    "save": "MC2Game/CookedXenon/UI_Pillar.xxx",
+    "startup": "MC2Game/CookedXenon/Startup_int.xxx",
+    "names": "MC2Game/CookedXenon/UI_Name_Jpn.xxx"
+  },
+  "anchors": [
+    {
+      "name": "Selected cost right edge",
+      "terms": [
+        {
+          "package": "game",
+          "object": "UI_Battle.Scenes.Scene_ButtonX.Bundle.Base.ButtonX_Bundle.Selected.KanNum",
+          "field": [
+            [
+              "Position",
+              0
+            ],
+            [
+              "Value",
+              0
+            ]
+          ]
+        },
+        {
+          "package": "game",
+          "object": "UI_Battle.Scenes.Scene_ButtonX.Bundle.Base.ButtonX_Bundle.Selected.KanNum",
+          "field": [
+            [
+              "Position",
+              0
+            ],
+            [
+              "Value",
+              2
+            ]
+          ]
+        }
+      ],
+      "expected": 231
+    },
+    {
+      "name": "Selected cost right alignment",
+      "terms": [
+        {
+          "package": "game",
+          "object": "UI_Battle.Scenes.Scene_ButtonX.Bundle.Base.ButtonX_Bundle.Selected.KanNum.LabelStringRenderer",
+          "prefix": 8,
+          "field": [
+            [
+              "TextStyleCustomization",
+              0
+            ],
+            [
+              "TextAlignment",
+              0
+            ]
+          ]
+        }
+      ],
+      "expected": 2
+    },
+    {
+      "name": "X_0 cost right edge",
+      "terms": [
+        {
+          "package": "game",
+          "object": "UI_Battle.Scenes.Scene_ButtonX.Bundle.Base.ButtonX_Bundle.X_0.KanNum_0",
+          "field": [
+            [
+              "Position",
+              0
+            ],
+            [
+              "Value",
+              0
+            ]
+          ]
+        },
+        {
+          "package": "game",
+          "object": "UI_Battle.Scenes.Scene_ButtonX.Bundle.Base.ButtonX_Bundle.X_0.KanNum_0",
+          "field": [
+            [
+              "Position",
+              0
+            ],
+            [
+              "Value",
+              2
+            ]
+          ]
+        }
+      ],
+      "expected": 231
+    },
+    {
+      "name": "X_0 cost right alignment",
+      "terms": [
+        {
+          "package": "game",
+          "object": "UI_Battle.Scenes.Scene_ButtonX.Bundle.Base.ButtonX_Bundle.X_0.KanNum_0.LabelStringRenderer",
+          "prefix": 8,
+          "field": [
+            [
+              "TextStyleCustomization",
+              0
+            ],
+            [
+              "TextAlignment",
+              0
+            ]
+          ]
+        }
+      ],
+      "expected": 2
+    },
+    {
+      "name": "X_1 cost right edge",
+      "terms": [
+        {
+          "package": "game",
+          "object": "UI_Battle.Scenes.Scene_ButtonX.Bundle.Base.ButtonX_Bundle.X_1.KanNum_1",
+          "field": [
+            [
+              "Position",
+              0
+            ],
+            [
+              "Value",
+              0
+            ]
+          ]
+        },
+        {
+          "package": "game",
+          "object": "UI_Battle.Scenes.Scene_ButtonX.Bundle.Base.ButtonX_Bundle.X_1.KanNum_1",
+          "field": [
+            [
+              "Position",
+              0
+            ],
+            [
+              "Value",
+              2
+            ]
+          ]
+        }
+      ],
+      "expected": 231
+    },
+    {
+      "name": "X_1 cost right alignment",
+      "terms": [
+        {
+          "package": "game",
+          "object": "UI_Battle.Scenes.Scene_ButtonX.Bundle.Base.ButtonX_Bundle.X_1.KanNum_1.LabelStringRenderer",
+          "prefix": 8,
+          "field": [
+            [
+              "TextStyleCustomization",
+              0
+            ],
+            [
+              "TextAlignment",
+              0
+            ]
+          ]
+        }
+      ],
+      "expected": 2
+    },
+    {
+      "name": "X_2 cost right edge",
+      "terms": [
+        {
+          "package": "game",
+          "object": "UI_Battle.Scenes.Scene_ButtonX.Bundle.Base.ButtonX_Bundle.X_2.KanNum_2",
+          "field": [
+            [
+              "Position",
+              0
+            ],
+            [
+              "Value",
+              0
+            ]
+          ]
+        },
+        {
+          "package": "game",
+          "object": "UI_Battle.Scenes.Scene_ButtonX.Bundle.Base.ButtonX_Bundle.X_2.KanNum_2",
+          "field": [
+            [
+              "Position",
+              0
+            ],
+            [
+              "Value",
+              2
+            ]
+          ]
+        }
+      ],
+      "expected": 231
+    },
+    {
+      "name": "X_2 cost right alignment",
+      "terms": [
+        {
+          "package": "game",
+          "object": "UI_Battle.Scenes.Scene_ButtonX.Bundle.Base.ButtonX_Bundle.X_2.KanNum_2.LabelStringRenderer",
+          "prefix": 8,
+          "field": [
+            [
+              "TextStyleCustomization",
+              0
+            ],
+            [
+              "TextAlignment",
+              0
+            ]
+          ]
+        }
+      ],
+      "expected": 2
+    },
+    {
+      "name": "X_3 cost right edge",
+      "terms": [
+        {
+          "package": "game",
+          "object": "UI_Battle.Scenes.Scene_ButtonX.Bundle.Base.ButtonX_Bundle.X_3.KanNum_3",
+          "field": [
+            [
+              "Position",
+              0
+            ],
+            [
+              "Value",
+              0
+            ]
+          ]
+        },
+        {
+          "package": "game",
+          "object": "UI_Battle.Scenes.Scene_ButtonX.Bundle.Base.ButtonX_Bundle.X_3.KanNum_3",
+          "field": [
+            [
+              "Position",
+              0
+            ],
+            [
+              "Value",
+              2
+            ]
+          ]
+        }
+      ],
+      "expected": 231
+    },
+    {
+      "name": "X_3 cost right alignment",
+      "terms": [
+        {
+          "package": "game",
+          "object": "UI_Battle.Scenes.Scene_ButtonX.Bundle.Base.ButtonX_Bundle.X_3.KanNum_3.LabelStringRenderer",
+          "prefix": 8,
+          "field": [
+            [
+              "TextStyleCustomization",
+              0
+            ],
+            [
+              "TextAlignment",
+              0
+            ]
+          ]
+        }
+      ],
+      "expected": 2
+    },
+    {
+      "name": "A reference right edge",
+      "terms": [
+        {
+          "package": "game",
+          "object": "UI_Battle.Scenes.Scene_ButtonA.Bundle.Base.Skill_window.Skill",
+          "field": [
+            [
+              "Position",
+              0
+            ],
+            [
+              "Value",
+              0
+            ]
+          ]
+        },
+        {
+          "package": "game",
+          "object": "UI_Battle.Scenes.Scene_ButtonA.Bundle.Base.Skill_window.Skill.TextA",
+          "field": [
+            [
+              "Position",
+              0
+            ],
+            [
+              "Value",
+              0
+            ]
+          ]
+        },
+        {
+          "package": "game",
+          "object": "UI_Battle.Scenes.Scene_ButtonA.Bundle.Base.Skill_window.Skill.TextA",
+          "field": [
+            [
+              "Position",
+              0
+            ],
+            [
+              "Value",
+              2
+            ]
+          ]
+        }
+      ],
+      "expected": 231
+    },
+    {
+      "name": "B reference right edge",
+      "terms": [
+        {
+          "package": "game",
+          "object": "UI_Battle.Scenes.Scene_ButtonB.Bundle.Base.Skill_window.Skill",
+          "field": [
+            [
+              "Position",
+              0
+            ],
+            [
+              "Value",
+              0
+            ]
+          ]
+        },
+        {
+          "package": "game",
+          "object": "UI_Battle.Scenes.Scene_ButtonB.Bundle.Base.Skill_window.Skill.TextB",
+          "field": [
+            [
+              "Position",
+              0
+            ],
+            [
+              "Value",
+              0
+            ]
+          ]
+        },
+        {
+          "package": "game",
+          "object": "UI_Battle.Scenes.Scene_ButtonB.Bundle.Base.Skill_window.Skill.TextB",
+          "field": [
+            [
+              "Position",
+              0
+            ],
+            [
+              "Value",
+              2
+            ]
+          ]
+        }
+      ],
+      "expected": 231
+    },
+    {
+      "name": "Scenes.SaveLoad.SlotPanel.BoxPanel_0.Box_0.List.ListContentBundle.PlayTime_Title visible right edge",
+      "terms": [
+        {
+          "package": "save",
+          "object": "Scenes.SaveLoad.SlotPanel.BoxPanel_0.Box_0.List.ListContentBundle.PlayTime_Title",
+          "field": [
+            [
+              "Position",
+              0
+            ],
+            [
+              "Value",
+              0
+            ]
+          ]
+        }
+      ],
+      "offset": 75,
+      "expected": 840
+    },
+    {
+      "name": "Scenes.SaveLoad.SlotPanel.BoxPanel_0.Box_0.List.ListContentBundle.SID_Title visible right edge",
+      "terms": [
+        {
+          "package": "save",
+          "object": "Scenes.SaveLoad.SlotPanel.BoxPanel_0.Box_0.List.ListContentBundle.SID_Title",
+          "field": [
+            [
+              "Position",
+              0
+            ],
+            [
+              "Value",
+              0
+            ]
+          ]
+        }
+      ],
+      "offset": 46,
+      "expected": 840
+    },
+    {
+      "name": "Scenes.SaveLoad.SlotPanel.BoxPanel_0.Box_0.List.ListContentBundle.PlayTime numeric right alignment",
+      "terms": [
+        {
+          "package": "save",
+          "object": "Scenes.SaveLoad.SlotPanel.BoxPanel_0.Box_0.List.ListContentBundle.PlayTime.LabelStringRenderer",
+          "prefix": 8,
+          "field": [
+            [
+              "TextStyleCustomization",
+              0
+            ],
+            [
+              "TextAlignment",
+              0
+            ]
+          ]
+        }
+      ],
+      "expected": 2
+    },
+    {
+      "name": "Scenes.SaveLoad.SlotPanel.BoxPanel_0.Box_0.List.ListContentBundle.Sid numeric right alignment",
+      "terms": [
+        {
+          "package": "save",
+          "object": "Scenes.SaveLoad.SlotPanel.BoxPanel_0.Box_0.List.ListContentBundle.Sid.LabelStringRenderer",
+          "prefix": 8,
+          "field": [
+            [
+              "TextStyleCustomization",
+              0
+            ],
+            [
+              "TextAlignment",
+              0
+            ]
+          ]
+        }
+      ],
+      "expected": 2
+    },
+    {
+      "name": "Scenes.SaveLoad.SlotPanel.BoxPanel_1.Box_1.List.ListContentBundle.PlayTime_Title visible right edge",
+      "terms": [
+        {
+          "package": "save",
+          "object": "Scenes.SaveLoad.SlotPanel.BoxPanel_1.Box_1.List.ListContentBundle.PlayTime_Title",
+          "field": [
+            [
+              "Position",
+              0
+            ],
+            [
+              "Value",
+              0
+            ]
+          ]
+        }
+      ],
+      "offset": 75,
+      "expected": 840
+    },
+    {
+      "name": "Scenes.SaveLoad.SlotPanel.BoxPanel_1.Box_1.List.ListContentBundle.SID_Title visible right edge",
+      "terms": [
+        {
+          "package": "save",
+          "object": "Scenes.SaveLoad.SlotPanel.BoxPanel_1.Box_1.List.ListContentBundle.SID_Title",
+          "field": [
+            [
+              "Position",
+              0
+            ],
+            [
+              "Value",
+              0
+            ]
+          ]
+        }
+      ],
+      "offset": 46,
+      "expected": 840
+    },
+    {
+      "name": "Scenes.SaveLoad.SlotPanel.BoxPanel_1.Box_1.List.ListContentBundle.PlayTime numeric right alignment",
+      "terms": [
+        {
+          "package": "save",
+          "object": "Scenes.SaveLoad.SlotPanel.BoxPanel_1.Box_1.List.ListContentBundle.PlayTime.LabelStringRenderer",
+          "prefix": 8,
+          "field": [
+            [
+              "TextStyleCustomization",
+              0
+            ],
+            [
+              "TextAlignment",
+              0
+            ]
+          ]
+        }
+      ],
+      "expected": 2
+    },
+    {
+      "name": "Scenes.SaveLoad.SlotPanel.BoxPanel_1.Box_1.List.ListContentBundle.Sid numeric right alignment",
+      "terms": [
+        {
+          "package": "save",
+          "object": "Scenes.SaveLoad.SlotPanel.BoxPanel_1.Box_1.List.ListContentBundle.Sid.LabelStringRenderer",
+          "prefix": 8,
+          "field": [
+            [
+              "TextStyleCustomization",
+              0
+            ],
+            [
+              "TextAlignment",
+              0
+            ]
+          ]
+        }
+      ],
+      "expected": 2
+    },
+    {
+      "name": "Scenes.SaveLoad.SlotPanel.BoxPanel_2.Box_2.List.ListContentBundle.PlayTime_Title visible right edge",
+      "terms": [
+        {
+          "package": "save",
+          "object": "Scenes.SaveLoad.SlotPanel.BoxPanel_2.Box_2.List.ListContentBundle.PlayTime_Title",
+          "field": [
+            [
+              "Position",
+              0
+            ],
+            [
+              "Value",
+              0
+            ]
+          ]
+        }
+      ],
+      "offset": 75,
+      "expected": 840
+    },
+    {
+      "name": "Scenes.SaveLoad.SlotPanel.BoxPanel_2.Box_2.List.ListContentBundle.SID_Title visible right edge",
+      "terms": [
+        {
+          "package": "save",
+          "object": "Scenes.SaveLoad.SlotPanel.BoxPanel_2.Box_2.List.ListContentBundle.SID_Title",
+          "field": [
+            [
+              "Position",
+              0
+            ],
+            [
+              "Value",
+              0
+            ]
+          ]
+        }
+      ],
+      "offset": 46,
+      "expected": 840
+    },
+    {
+      "name": "Scenes.SaveLoad.SlotPanel.BoxPanel_2.Box_2.List.ListContentBundle.PlayTime numeric right alignment",
+      "terms": [
+        {
+          "package": "save",
+          "object": "Scenes.SaveLoad.SlotPanel.BoxPanel_2.Box_2.List.ListContentBundle.PlayTime.LabelStringRenderer",
+          "prefix": 8,
+          "field": [
+            [
+              "TextStyleCustomization",
+              0
+            ],
+            [
+              "TextAlignment",
+              0
+            ]
+          ]
+        }
+      ],
+      "expected": 2
+    },
+    {
+      "name": "Scenes.SaveLoad.SlotPanel.BoxPanel_2.Box_2.List.ListContentBundle.Sid numeric right alignment",
+      "terms": [
+        {
+          "package": "save",
+          "object": "Scenes.SaveLoad.SlotPanel.BoxPanel_2.Box_2.List.ListContentBundle.Sid.LabelStringRenderer",
+          "prefix": 8,
+          "field": [
+            [
+              "TextStyleCustomization",
+              0
+            ],
+            [
+              "TextAlignment",
+              0
+            ]
+          ]
+        }
+      ],
+      "expected": 2
+    },
+    {
+      "name": "UI_Pillar_Title.Scenes.GameStart_Load.SlotPanel.BoxPanel_0.Box_0.List.ListContentBundle.PlayTime_Title visible right edge",
+      "terms": [
+        {
+          "package": "save",
+          "object": "UI_Pillar_Title.Scenes.GameStart_Load.SlotPanel.BoxPanel_0.Box_0.List.ListContentBundle.PlayTime_Title",
+          "field": [
+            [
+              "Position",
+              0
+            ],
+            [
+              "Value",
+              0
+            ]
+          ]
+        }
+      ],
+      "offset": 75,
+      "expected": 840
+    },
+    {
+      "name": "UI_Pillar_Title.Scenes.GameStart_Load.SlotPanel.BoxPanel_0.Box_0.List.ListContentBundle.SID_Title visible right edge",
+      "terms": [
+        {
+          "package": "save",
+          "object": "UI_Pillar_Title.Scenes.GameStart_Load.SlotPanel.BoxPanel_0.Box_0.List.ListContentBundle.SID_Title",
+          "field": [
+            [
+              "Position",
+              0
+            ],
+            [
+              "Value",
+              0
+            ]
+          ]
+        }
+      ],
+      "offset": 46,
+      "expected": 840
+    },
+    {
+      "name": "UI_Pillar_Title.Scenes.GameStart_Load.SlotPanel.BoxPanel_0.Box_0.List.ListContentBundle.PlayTime numeric right alignment",
+      "terms": [
+        {
+          "package": "save",
+          "object": "UI_Pillar_Title.Scenes.GameStart_Load.SlotPanel.BoxPanel_0.Box_0.List.ListContentBundle.PlayTime.LabelStringRenderer",
+          "prefix": 8,
+          "field": [
+            [
+              "TextStyleCustomization",
+              0
+            ],
+            [
+              "TextAlignment",
+              0
+            ]
+          ]
+        }
+      ],
+      "expected": 2
+    },
+    {
+      "name": "UI_Pillar_Title.Scenes.GameStart_Load.SlotPanel.BoxPanel_0.Box_0.List.ListContentBundle.Sid numeric right alignment",
+      "terms": [
+        {
+          "package": "save",
+          "object": "UI_Pillar_Title.Scenes.GameStart_Load.SlotPanel.BoxPanel_0.Box_0.List.ListContentBundle.Sid.LabelStringRenderer",
+          "prefix": 8,
+          "field": [
+            [
+              "TextStyleCustomization",
+              0
+            ],
+            [
+              "TextAlignment",
+              0
+            ]
+          ]
+        }
+      ],
+      "expected": 2
+    },
+    {
+      "name": "UI_Pillar_Title.Scenes.GameStart_Load.SlotPanel.BoxPanel_1.Box_1.List.ListContentBundle.PlayTime_Title visible right edge",
+      "terms": [
+        {
+          "package": "save",
+          "object": "UI_Pillar_Title.Scenes.GameStart_Load.SlotPanel.BoxPanel_1.Box_1.List.ListContentBundle.PlayTime_Title",
+          "field": [
+            [
+              "Position",
+              0
+            ],
+            [
+              "Value",
+              0
+            ]
+          ]
+        }
+      ],
+      "offset": 75,
+      "expected": 840
+    },
+    {
+      "name": "UI_Pillar_Title.Scenes.GameStart_Load.SlotPanel.BoxPanel_1.Box_1.List.ListContentBundle.SID_Title visible right edge",
+      "terms": [
+        {
+          "package": "save",
+          "object": "UI_Pillar_Title.Scenes.GameStart_Load.SlotPanel.BoxPanel_1.Box_1.List.ListContentBundle.SID_Title",
+          "field": [
+            [
+              "Position",
+              0
+            ],
+            [
+              "Value",
+              0
+            ]
+          ]
+        }
+      ],
+      "offset": 46,
+      "expected": 840
+    },
+    {
+      "name": "UI_Pillar_Title.Scenes.GameStart_Load.SlotPanel.BoxPanel_1.Box_1.List.ListContentBundle.PlayTime numeric right alignment",
+      "terms": [
+        {
+          "package": "save",
+          "object": "UI_Pillar_Title.Scenes.GameStart_Load.SlotPanel.BoxPanel_1.Box_1.List.ListContentBundle.PlayTime.LabelStringRenderer",
+          "prefix": 8,
+          "field": [
+            [
+              "TextStyleCustomization",
+              0
+            ],
+            [
+              "TextAlignment",
+              0
+            ]
+          ]
+        }
+      ],
+      "expected": 2
+    },
+    {
+      "name": "UI_Pillar_Title.Scenes.GameStart_Load.SlotPanel.BoxPanel_1.Box_1.List.ListContentBundle.Sid numeric right alignment",
+      "terms": [
+        {
+          "package": "save",
+          "object": "UI_Pillar_Title.Scenes.GameStart_Load.SlotPanel.BoxPanel_1.Box_1.List.ListContentBundle.Sid.LabelStringRenderer",
+          "prefix": 8,
+          "field": [
+            [
+              "TextStyleCustomization",
+              0
+            ],
+            [
+              "TextAlignment",
+              0
+            ]
+          ]
+        }
+      ],
+      "expected": 2
+    },
+    {
+      "name": "UI_Pillar_Title.Scenes.GameStart_Load.SlotPanel.BoxPanel_2.Box_2.List.ListContentBundle.PlayTime_Title visible right edge",
+      "terms": [
+        {
+          "package": "save",
+          "object": "UI_Pillar_Title.Scenes.GameStart_Load.SlotPanel.BoxPanel_2.Box_2.List.ListContentBundle.PlayTime_Title",
+          "field": [
+            [
+              "Position",
+              0
+            ],
+            [
+              "Value",
+              0
+            ]
+          ]
+        }
+      ],
+      "offset": 75,
+      "expected": 840
+    },
+    {
+      "name": "UI_Pillar_Title.Scenes.GameStart_Load.SlotPanel.BoxPanel_2.Box_2.List.ListContentBundle.SID_Title visible right edge",
+      "terms": [
+        {
+          "package": "save",
+          "object": "UI_Pillar_Title.Scenes.GameStart_Load.SlotPanel.BoxPanel_2.Box_2.List.ListContentBundle.SID_Title",
+          "field": [
+            [
+              "Position",
+              0
+            ],
+            [
+              "Value",
+              0
+            ]
+          ]
+        }
+      ],
+      "offset": 46,
+      "expected": 840
+    },
+    {
+      "name": "UI_Pillar_Title.Scenes.GameStart_Load.SlotPanel.BoxPanel_2.Box_2.List.ListContentBundle.PlayTime numeric right alignment",
+      "terms": [
+        {
+          "package": "save",
+          "object": "UI_Pillar_Title.Scenes.GameStart_Load.SlotPanel.BoxPanel_2.Box_2.List.ListContentBundle.PlayTime.LabelStringRenderer",
+          "prefix": 8,
+          "field": [
+            [
+              "TextStyleCustomization",
+              0
+            ],
+            [
+              "TextAlignment",
+              0
+            ]
+          ]
+        }
+      ],
+      "expected": 2
+    },
+    {
+      "name": "UI_Pillar_Title.Scenes.GameStart_Load.SlotPanel.BoxPanel_2.Box_2.List.ListContentBundle.Sid numeric right alignment",
+      "terms": [
+        {
+          "package": "save",
+          "object": "UI_Pillar_Title.Scenes.GameStart_Load.SlotPanel.BoxPanel_2.Box_2.List.ListContentBundle.Sid.LabelStringRenderer",
+          "prefix": 8,
+          "field": [
+            [
+              "TextStyleCustomization",
+              0
+            ],
+            [
+              "TextAlignment",
+              0
+            ]
+          ]
+        }
+      ],
+      "expected": 2
+    }
+  ],
+  "alpha_bounds": [
+    {
+      "name": "startup selected background inside frame",
+      "package": "startup",
+      "object": "UI_Name_Jpn.Tex.Store_Kamond_Meun_click",
+      "clip": [
+        8,
+        0,
+        60,
+        128
+      ]
+    },
+    {
+      "name": "names selected background inside frame",
+      "package": "names",
+      "object": "Tex.Store_Kamond_Meun_click",
+      "clip": [
+        8,
+        0,
+        60,
+        128
+      ]
+    }
+  ]
+}

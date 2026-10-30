@@ -157,6 +157,8 @@ def audit(contexts, files, plan):
         align = field(package, role['number_label'] + '.LabelStringRenderer', [('TextStyleCustomization', 0), ('TextAlignment', 0)], 8)
         if align not in (0, 2):
             raise FormatError('unknown cost horizontal alignment')
+        if 'cost_right_edge' in plan and (align != 2 or abs(x + w - plan['cost_right_edge']) > .01):
+            failures.append(role['name'] + ':cost-right-edge-mismatch')
         gaps = []
         for name in measured_names:
             for number in measured_numbers:

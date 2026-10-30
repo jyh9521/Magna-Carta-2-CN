@@ -1,15 +1,17 @@
-# 双碟汉化补丁安装器（0.1.0-rc.1）
+# 《真名法典2》简体中文汉化补丁（v1.0）
 
 ## 当前交付
 
-Windows 10/11 x64 离线便携图形安装器，Flutter Material Design 3。
-完整解压后运行 `MC2Installer.exe`；无需另装 Python、Flutter、ZArchive 或管理员权限。
+Windows 10/11 x64 离线单文件图形安装器，Flutter Material Design 3。
+直接运行 `MC2-CN-v1.0.exe`；无需另装 Python、Flutter、VC++ 或 ZArchive，也不请求管理员权限。
+运行时临时展开内置组件，正常关闭后清理；详细构建、自检和 UI 契约见
+[v1.0 发布整理](PHASE_335_RELEASE_POLISH.md)。旧版便携目录仍可作为开发构建输出，不再作为玩家交付入口。
 只包含差异补丁和工具，不包含完整原盘、XEX 或 DLC。
 新版 LOGO 原样嵌入，保持透明度与比例；所有页面最右下角的「伯翎飞云」
 打开 <https://blog.blfy.cc/>。深浅主题、格式分段选择、阶段切换、实际进度、取消、
 错误重试、日志、磁盘估算和中断恢复均接入真实后端。
 Windows 文件选择和外部链接通过窄 MethodChannel 实现，不依赖额外 Flutter 插件。
-本轮为**安装器候选版**，不是游戏全流程验收或所有模拟器/实机兼容承诺。
+版本号不代替游戏全流程验收，模拟器换碟及实机兼容仍按后文逐项确认。
 
 ## 输入
 
@@ -27,7 +29,7 @@ Title ID `4E4D0811`；Media ID 分别 `4C23BE53` / `4D4C6B53`；盘号1/2，Disc
 ## 输出与使用
 
 ZAR 输出 `MagnaCarta2_CN_Disc1.zar`、`MagnaCarta2_CN_Disc2.zar`，XEX 输出 `Disc1/default.xex`、
-`Disc2/default.xex` 及各自完整目录。均另附 `使用说明.txt`、`安装结果.json`，
+`Disc2/default.xex` 及各自完整目录。均另附按本次格式/DLC选择生成的 `使用说明.txt`、`安装结果.json`，
 DLC 输出在 `Content/0000000000000000/4E4D0811/00000002/`。
 
 ZAR 是真实 ZArchive 容器，不是改后缀的 ISO/ZIP；以每盘 XEX 文件树为根。

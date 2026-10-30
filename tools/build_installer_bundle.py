@@ -20,12 +20,22 @@ from .stfs_package import StfsPackage
 from .ue3_package import LzxDecoder, parse_summary
 
 
-def build(recipe_path, expected, output):
+def build(recipe_path, expected, output, reuse=None, reuse_sha256=None):
     recipe_path, output = Path(recipe_path).resolve(), Path(output).resolve()
     raw = recipe_path.read_bytes()
     if digest(raw) != expected:
         raise ValueError('recipe SHA256 mismatch')
     recipe = json.loads(raw)
+    previous = None; reusable = {}
+    if reuse is not None:
+        if not reuse_sha256:
+            raise ValueError('reused bundle needs an explicit trusted manifest hash')
+        previous = Bundle(reuse, reuse_sha256)
+        records = previous.data['dlc'] + [r for d in previous.data['discs'] for r in d['files']]
+        for record in records:
+            if 'patch' in record:
+                key=(record['base_sha256'], record['output_sha256'], record['transform'])
+                reusable[key]=record
     if output.exists():
         raise FileExistsError('bundle output must be new')
     output.mkdir(parents=True)
@@ -58,7 +68,11 @@ def build(recipe_path, expected, output):
                     decoder = LzxDecoder(output / manifest['tools']['lzx']['path'])
                 base, _ = decompress_copy(source, digest(source), decoder, alignment=1)
                 transform = 'ue3-raw-v1'
-        patch = create_delta(base, target)
+        previous_entry = reusable.get((digest(base), digest(target), transform))
+        if previous_entry:
+            patch = previous.member(previous_entry['patch'], previous_entry['patch_sha256']).read_bytes()
+        else:
+            patch = create_delta(base, target)
         if apply_delta(base, patch) != target:
             raise ValueError('independent delta replay failed')
         patch_hash = digest(patch)
@@ -143,8 +157,10 @@ def main(argv=None):
     parser.add_argument('--recipe', type=Path, required=True)
     parser.add_argument('--recipe-sha256', required=True)
     parser.add_argument('--output', type=Path, required=True)
+    parser.add_argument('--reuse-bundle', type=Path)
+    parser.add_argument('--reuse-manifest-sha256')
     args = parser.parse_args(argv)
-    build(args.recipe, args.recipe_sha256, args.output)
+    build(args.recipe, args.recipe_sha256, args.output, args.reuse_bundle, args.reuse_manifest_sha256)
 
 
 if __name__ == '__main__':

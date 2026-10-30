@@ -133,9 +133,23 @@ def compose_restored_region(label,rgba,before,width):
         raise FormatError('invalid or unresolved restoration pixels/mask')
     if any(pixels[i*4:i*4+4]!=bytes(4) for i,v in enumerate(mask) if not v):
         raise FormatError('restoration patch escaped traced mask')
+    clip=label['restoration'].get('clip')
+    feather=label['restoration'].get('clip_feather',0)
+    if (type(feather) is not int or feather<0 or feather>32 or (feather and clip is None)):
+        raise FormatError('invalid background feather')
+    if clip is not None:
+        if (not isinstance(clip,list) or len(clip)!=4 or any(type(v) is not int for v in clip)
+                or clip[0]<0 or clip[1]<0 or clip[2]<=0 or clip[3]<=0
+                or clip[0]+clip[2]>w or clip[1]+clip[3]>h):
+            raise FormatError('invalid restoration background clip')
     background=bytearray(source)
     for i,v in enumerate(mask):
-        if v:background[i*4:i*4+4]=pixels[i*4:i*4+4]
+        if v:
+            inside=clip is None or (clip[0]<=i%w<clip[0]+clip[2] and clip[1]<=i//w<clip[1]+clip[3])
+            background[i*4:i*4+4]=pixels[i*4:i*4+4] if inside else bytes(4)
+            if inside and feather:
+                distance=min(i%w-clip[0],clip[0]+clip[2]-1-i%w,i//w-clip[1],clip[1]+clip[3]-1-i//w)
+                background[i*4+3]=round(background[i*4+3]*min(1,distance/feather))
     return Image.alpha_composite(Image.frombytes('RGBA',(w,h),bytes(background)),Image.frombytes('RGBA',(w,h),rgba)).tobytes()
 
 

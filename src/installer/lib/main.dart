@@ -23,7 +23,7 @@ class _InstallerAppState extends State<InstallerApp> {
   @override
   Widget build(BuildContext context) => MaterialApp(
     debugShowCheckedModeBanner: false,
-    title: '真名法典 2 · 汉化补丁安装器',
+    title: '《真名法典2》简体中文汉化补丁',
     theme: installerTheme(Brightness.light),
     darkTheme: installerTheme(Brightness.dark),
     themeMode: dark ? ThemeMode.dark : ThemeMode.light,
@@ -262,11 +262,17 @@ class _InstallerHomeState extends State<InstallerHome> {
             'DLC 需要原版短剧包与特殊武器包。选择两个包所在的 00000002 文件夹；默认一起汉化输出。\n\n'
             'ZAR 推荐支持 ZArchive 的 Xenia Canary / Edge；XEX 推荐 RGH / JTAG，也兼容 Xenia。\n\n'
             'DLC 输出到标准 Content 目录，不塞进主游戏 ZAR。请使用模拟器的“安装内容”功能，或按输出说明复制到实际 content_root；实机复制到 HDD1:/Content/。\n\n'
-            '当前为候选发布版。文件生成与读回检查不等于游戏验收。换碟、旧存档、DLC 实际识别和 RGH/JTAG 均未实测。',
+            '完成后打开输出文件夹中的“使用说明.txt”，按所选格式启动游戏、安装 DLC 和换碟。请保留原存档备份；换碟和 RGH/JTAG 仍需实机确认。',
           ),
         ),
       ),
       actions: [
+        TextButton(
+          onPressed: () => open(
+            '${File(Platform.resolvedExecutable).parent.path}\\THIRD-PARTY',
+          ),
+          child: const Text('组件许可与源码'),
+        ),
         FilledButton(
           onPressed: () => Navigator.pop(context),
           child: const Text('明白了'),
@@ -950,7 +956,7 @@ class _InstallerHomeState extends State<InstallerHome> {
               child: Row(
                 children: [
                   Text(
-                    '简体中文汉化补丁安装器  ·  ${backend.info?['version'] ?? '0.1.0-rc.1'}',
+                    '《真名法典2》简体中文汉化补丁  ·  ${backend.info?['version'] ?? 'v1.0'}',
                     style: TextStyle(color: c.onSurfaceVariant, fontSize: 11),
                   ),
                   const Spacer(),

@@ -51,7 +51,15 @@ void main() {
   testWidgets('latest logo is centered, intact, and footer blog is clickable', (
     tester,
   ) async {
-    await show(tester);
+    final backend = await show(tester);
+    backend.info!['version'] = 'v1.0';
+    backend.notifyListeners();
+    await tester.pump();
+    expect(
+      tester.widget<MaterialApp>(find.byType(MaterialApp)).title,
+      '《真名法典2》简体中文汉化补丁',
+    );
+    expect(find.text('《真名法典2》简体中文汉化补丁  ·  v1.0'), findsOneWidget);
     final image = find.byType(Image);
     expect(image, findsOneWidget);
     final widget = tester.widget<Image>(image);

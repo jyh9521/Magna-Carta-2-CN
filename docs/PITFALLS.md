@@ -1801,3 +1801,10 @@ Windows旧JSON证明文件可能CRLF；独立字体回放仅对JSON行尾归一�
 ## Windows安装器构建（阶段334）
 
 Flutter无外部插件路线使用原生Windows MethodChannel，避免文件选择插件要求开发者模式软链接，不改系统设置。首次长路径checkout失败时仅在新工具链目录开启core.longpaths，恢复worktree和index并核对干净提交；只恢复worktree会让所有文件仍表现为staged deletion并影响Flutter引擎身份。ZArchive writer首个文件回调索引是-1，不是0；已由合成往返发现并修正。资源journal的file_inventory是变更前快照，最终期望值必须叠加该journal的changes，不能直接作最新输出。
+
+## 发布 UI 与说明陷阱（阶段335）
+
+- 控件右边界不一定等于文字可见右边界。贴图标题须计入 UV 和实际字形墨迹，动态数字须核对 TextAlignment 与真实 advance。
+- 79 px 类别取样窗口不等于 72 px 按钮内框；背景与文字要分开约束，只缩整个控件会连字号一起缩小。
+- 玩家输出指南不应照搬开发验收报告，必须根据实际 ZAR/XEX 和 DLC 结果选择操作步骤。
+- 单文件封装仍会临时展开内置运行时；必须等待 GUI 退出再清理，并验证冻结后端没有错误继承外层 PyInstaller 目录。

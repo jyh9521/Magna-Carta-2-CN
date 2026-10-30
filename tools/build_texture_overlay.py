@@ -74,7 +74,8 @@ def prepare(plan,root,decoder,disc=None):
             from PIL import Image
             import io
             r=label['restoration']
-            if not isinstance(r,dict) or set(r)!={'patch','mask','source_rgba_sha256'}:raise ValueError('invalid restoration contract')
+            if (not isinstance(r,dict) or not {'patch','mask','source_rgba_sha256'} <= set(r)
+                    or set(r)-{'patch','mask','source_rgba_sha256','clip','clip_feather'}):raise ValueError('invalid restoration contract')
             _hash(r['source_rgba_sha256'])
             for key,mode,target in [('patch','RGBA','_repair_pixels'),('mask','L','_repair_mask')]:
                 raw=locked_bytes(r[key])

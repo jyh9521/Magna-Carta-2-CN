@@ -478,7 +478,10 @@ class Installer:
                 if sha_file(path, self.check_cancel) != entry['sha256']:
                     raise InstallError('处理期间原版 DLC 被其他程序更改')
             instructions = self.bundle.member('USAGE.txt', self.bundle.data['usage_sha256'])
-            shutil.copyfile(instructions, stage / '使用说明.txt')
+            from .installer_usage import render_usage
+            guide = render_usage(instructions.read_text(encoding='utf-8'), format_name,
+                                 self.bundle.data['output_name'], bool(receipt['dlc']))
+            (stage / '使用说明.txt').write_text(guide, encoding='utf-8')
             (stage / '安装结果.json').write_text(json.dumps(receipt, indent=2, ensure_ascii=False)+'\n', encoding='utf-8')
             # Atomic no-replace publication: a failed/cancelled run never creates
             # the final output name. No user data is merged or overwritten.

@@ -220,6 +220,11 @@ class InstallerTests(unittest.TestCase):
         new=Bundle(self.root/'rebuilt',sha_file(self.root/'rebuilt/manifest.json'))
         result=Installer(new).install(self.images,self.root/'rebuilt-output','xex')
         self.assertEqual(len(result['discs']),2)
+        with patch('tools.build_installer_bundle.create_delta',side_effect=AssertionError('must reuse verified delta')):
+            reused=build(path,sha_file(path),self.root/'reused',new.root,new.sha256)
+        self.assertEqual(reused,new.data)
+        with self.assertRaises(ValueError):
+            build(path,sha_file(path),self.root/'missing-trust',new.root)
 
 
 NATIVE=Path(os.environ.get('MC2_ZAR_TOOL','build/phase-334-installer/native/Release/mc2-zar.exe'))

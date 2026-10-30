@@ -46,6 +46,41 @@ def pinned_checkout(path, commit):
         raise ValueError('upstream source has local edits: ' + str(path))
 
 
+def single_file(payload, work, output):
+    """Embed the byte-verified portable tree without altering its DLLs/data."""
+    output = output.resolve()
+    if output.exists() or output.suffix.lower() != '.exe':
+        raise ValueError('single-file output must be a new EXE')
+    expected = sha_file(payload / 'release-files.json')
+    (work / 'singlefile_release.py').write_text(f'PAYLOAD_SHA256 = {expected!r}\n', encoding='utf-8')
+    version = work / 'singlefile-version.txt'
+    version.write_text('''VSVersionInfo(ffi=FixedFileInfo(filevers=(1,0,0,1), prodvers=(1,0,0,1),
+mask=0x3f, flags=0, OS=0x40004, fileType=1, subtype=0, date=(0,0)),
+kids=[StringFileInfo([StringTable('080404B0', [
+StringStruct('FileDescription','《真名法典2》简体中文汉化补丁'),
+StringStruct('ProductName','《真名法典2》简体中文汉化补丁'),
+StringStruct('ProductVersion','v1.0'), StringStruct('FileVersion','1.0.0.1'),
+StringStruct('OriginalFilename','MC2-CN-v1.0.exe')])]),
+VarFileInfo([VarStruct('Translation',[2052,1200])])])''', encoding='utf-8')
+    run([sys.executable, '-m', 'PyInstaller', '--clean', '--noconfirm', '--onefile',
+         '--windowed', '--noupx', '--name', output.stem, '--paths', work,
+         '--hidden-import', 'singlefile_release', '--version-file', version,
+         '--icon', ROOT / 'src/installer/windows/runner/resources/app_icon.ico',
+         '--add-data', str(payload) + os.pathsep + 'payload',
+         '--distpath', work / 'singlefile', '--workpath', work / 'singlefile-build',
+         '--specpath', work, ROOT / 'tools/installer_singlefile.py'], work / 'singlefile-build.log')
+    output.parent.mkdir(parents=True, exist_ok=True)
+    shutil.copy2(work / 'singlefile' / output.name, output)
+    report = work / 'singlefile-check.json'
+    run([output, '--verify-only', '--report', report], work / 'singlefile-check.log')
+    result = json.loads(report.read_bytes())
+    if result['status'] != 'PASS' or Path(result['temporary_root']).exists():
+        raise ValueError('single-file self-test or temporary cleanup failed')
+    result.update(exe=str(output), sha256=sha_file(output), bytes=output.stat().st_size,
+                  temporary_cleanup_verified=True)
+    return result
+
+
 def package(args):
     lock_path = ROOT / 'references/installer-toolchain.lock.json'
     lock = json.loads(lock_path.read_bytes())
@@ -83,7 +118,11 @@ def package(args):
     shutil.copytree(built, out, ignore=shutil.ignore_patterns('*.pdb', '*.lib', '*.exp'))
     shutil.copytree(work / 'frozen/mc2-patch', out / 'backend')
     shutil.copytree(bundle.root, out / 'patch')
-    shutil.copy2(bundle.root / 'USAGE.txt', out / '使用说明.txt')
+    (out / '使用说明.txt').write_text(
+        '《真名法典2》简体中文汉化补丁 v1.0\n\n'
+        '运行补丁程序，依次选择原版两盘 ISO、可选 DLC 和输出格式，再指定一个新输出目录。\n'
+        '完成后请打开输出目录中的“使用说明.txt”，其中包含对应格式的启动、换碟和 DLC 步骤。\n'
+        '程序已内置所需组件，无需另装 Python、Flutter 或 VC++ 运行库。\n', encoding='utf-8')
     finder = Path(os.environ['ProgramFiles(x86)']) / 'Microsoft Visual Studio/Installer/vswhere.exe'
     vs = Path(subprocess.check_output([str(finder), '-latest', '-products', '*', '-requires',
               'Microsoft.VisualStudio.Component.VC.Tools.x86.x64', '-property', 'installationPath'], text=True).strip())
@@ -124,6 +163,11 @@ def package(args):
                   for p in sorted(out.rglob('*')) if p.is_file()}
     write_json(out / 'release-files.json', dict(schema=1, manifest_sha256=bundle.sha256,
                files=identities, logo_sha256=sha_file(logo), version=bundle.data['version']))
+    if args.single_file:
+        result = single_file(out, work, args.single_file)
+        write_json(work / 'package-result.json', result)
+        print(json.dumps(result), flush=True)
+        return
     with zipfile.ZipFile(archive, 'x', compression=zipfile.ZIP_DEFLATED, compresslevel=6) as z:
         for path in sorted(out.rglob('*')):
             if path.is_file():
@@ -149,6 +193,7 @@ def main():
     for name in ('bundle', 'flutter', 'libmspack', 'zarchive', 'zstd', 'output', 'work'):
         parser.add_argument('--' + name, type=Path, required=True)
     parser.add_argument('--manifest-sha256', required=True)
+    parser.add_argument('--single-file', type=Path, help='deliver only this EXE; output is internal staging')
     package(parser.parse_args())
 
 

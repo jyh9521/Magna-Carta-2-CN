@@ -1965,3 +1965,12 @@ candidate、controls、raw-controls或live合并，结束时再次核验独立�
 [PHASE_337_LOADING_ITEM_SPACING](docs/PHASE_337_LOADING_ITEM_SPACING.md)。
 使用源锁定重建、1350帧成品复解码、独立回滚及现有目录增量刷新，
 不为验证建立新ISO或完整游戏副本。
+
+## 汉字数字混排与技能行（阶段338）
+
+当前入口为`tools.build_metric_revision`配合`metric-revision-v12.json`，
+组合透明字格边距、45个HUD标量字段与20处精确译文空格修订。
+`audit_mixed_text_layout`验证可见字芯，`audit_ui_residency`验证两盘全部驻留副本。
+重建、回滚、回归profile及复测见
+[PHASE_338_MIXED_TEXT_AND_HUD](docs/PHASE_338_MIXED_TEXT_AND_HUD.md)。
+本轮优先紧凑字距，替代阶段335数字右端固定合同；仍只增量刷新已有目录及安装器。

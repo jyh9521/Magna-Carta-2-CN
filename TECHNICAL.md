@@ -1681,3 +1681,7 @@ Verified：标题地图 TitleMap_MSPT 另存 GameStart_Load，不能以 UI_Pilla
 ## 动态光照与原生字格透明边距（阶段337）
 
 Verified：旧提示的最近像素光照传播在移动闪光中形成分片；新方案以边界谐波颜色校正、矩形Dirichlet光照和有界羽化替换，保留原字号和纹理。全部15×90帧的实际光照场及最终Bink复解码均检查。物品名采用四包七别名的tagged/native StartU、USize同步透明裁边，图集字节不变；两盘流式驻留引用及689条名称全量审计。隐藏底图仍属重建，游戏画面验收单列。见 [阶段337](docs/PHASE_337_LOADING_ITEM_SPACING.md)。
+
+## 原生混排与HUD字芯（阶段338）
+
+已验证五个26宽KAN数字槽、七组文字及28个阴影的序列化消费者；两个GeneralFont/WhiteNumber样式各含六个状态。原生Font非remap数字采用索引直映，独立font_ui的外部bulk与MC2Game内嵌atlas分开验证。字段、间距/中心公式及复现见[阶段338](docs/PHASE_338_MIXED_TEXT_AND_HUD.md)。

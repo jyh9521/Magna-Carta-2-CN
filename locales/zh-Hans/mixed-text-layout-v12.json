@@ -1,0 +1,268 @@
+{
+  "schema_version": 1,
+  "kind": "native-mixed-text-layout",
+  "spacing_plan": "gameplay-ui-spacing-v12.json",
+  "letter_ranges": [
+    [
+      13312,
+      40959
+    ]
+  ],
+  "digit_ranges": [
+    [
+      48,
+      57
+    ],
+    [
+      65296,
+      65305
+    ]
+  ],
+  "letter_count": 2363,
+  "digit_count": 11,
+  "mixed_gap": [
+    4,
+    8
+  ],
+  "cost_ink_gap": [
+    4,
+    8
+  ],
+  "center_tolerance": 1.01,
+  "fonts": [
+    {
+      "resource": "MC2Game/CookedXenon/font.xxx",
+      "object": "General_15"
+    },
+    {
+      "resource": "MC2Game/CookedXenon/font.xxx",
+      "object": "EngineMedium_Subtitle"
+    },
+    {
+      "resource": "MC2Game/CookedXenon/Engine.xxx",
+      "object": "EngineFonts.SmallFont"
+    },
+    {
+      "resource": "MC2Game/CookedXenon/MC2Game.xxx",
+      "object": "Font.General_15"
+    },
+    {
+      "resource": "MC2Game/CookedXenon/Startup_int.xxx",
+      "object": "Font.General_15"
+    },
+    {
+      "resource": "MC2Game/CookedXenon/Startup_int.xxx",
+      "object": "EngineFonts.SmallFont"
+    },
+    {
+      "resource": "MC2Game/CookedXenon/Startup_int.xxx",
+      "object": "Font.EngineMedium_Subtitle"
+    }
+  ],
+  "vertical_roles": [
+    {
+      "name": "Selected",
+      "label": "UI_Battle.Scenes.Scene_ButtonX.Bundle.Base.ButtonX_Bundle.Selected.Skill.TextX",
+      "parent": "UI_Battle.Scenes.Scene_ButtonX.Bundle.Base.ButtonX_Bundle.Selected.Skill",
+      "band": "UI_Battle.Scenes.Scene_ButtonX.Bundle.Base.ButtonX_Bundle.Selected",
+      "shadows": [
+        {
+          "path": "UI_Battle.Scenes.Scene_ButtonX.Bundle.Base.ButtonX_Bundle.Selected.Skill.TextX_Sel_Shadow_0",
+          "delta_y": 0.0
+        },
+        {
+          "path": "UI_Battle.Scenes.Scene_ButtonX.Bundle.Base.ButtonX_Bundle.Selected.Skill.TextX_Sel_Shadow_1",
+          "delta_y": 0.0
+        },
+        {
+          "path": "UI_Battle.Scenes.Scene_ButtonX.Bundle.Base.ButtonX_Bundle.Selected.Skill.TextX_Sel_Shadow_2",
+          "delta_y": -1.0
+        },
+        {
+          "path": "UI_Battle.Scenes.Scene_ButtonX.Bundle.Base.ButtonX_Bundle.Selected.Skill.TextX_Sel_Shadow_3",
+          "delta_y": 1.0
+        }
+      ],
+      "text": null
+    },
+    {
+      "name": "X_0",
+      "label": "UI_Battle.Scenes.Scene_ButtonX.Bundle.Base.ButtonX_Bundle.X_0.Skill_0.TextX_0",
+      "parent": "UI_Battle.Scenes.Scene_ButtonX.Bundle.Base.ButtonX_Bundle.X_0.Skill_0",
+      "band": "UI_Battle.Scenes.Scene_ButtonX.Bundle.Base.ButtonX_Bundle.X_0",
+      "shadows": [
+        {
+          "path": "UI_Battle.Scenes.Scene_ButtonX.Bundle.Base.ButtonX_Bundle.X_0.Skill_0.TextX_0_Shadow_0",
+          "delta_y": 0.0
+        },
+        {
+          "path": "UI_Battle.Scenes.Scene_ButtonX.Bundle.Base.ButtonX_Bundle.X_0.Skill_0.TextX_0_Shadow_1",
+          "delta_y": 0.0
+        },
+        {
+          "path": "UI_Battle.Scenes.Scene_ButtonX.Bundle.Base.ButtonX_Bundle.X_0.Skill_0.TextX_0_Shadow_2",
+          "delta_y": -1.0
+        },
+        {
+          "path": "UI_Battle.Scenes.Scene_ButtonX.Bundle.Base.ButtonX_Bundle.X_0.Skill_0.TextX_0_Shadow_3",
+          "delta_y": 1.0
+        }
+      ],
+      "text": null
+    },
+    {
+      "name": "X_1",
+      "label": "UI_Battle.Scenes.Scene_ButtonX.Bundle.Base.ButtonX_Bundle.X_1.Skill_1.TextX_1",
+      "parent": "UI_Battle.Scenes.Scene_ButtonX.Bundle.Base.ButtonX_Bundle.X_1.Skill_1",
+      "band": "UI_Battle.Scenes.Scene_ButtonX.Bundle.Base.ButtonX_Bundle.X_1",
+      "shadows": [
+        {
+          "path": "UI_Battle.Scenes.Scene_ButtonX.Bundle.Base.ButtonX_Bundle.X_1.Skill_1.TextX_1_Shadow_0",
+          "delta_y": 0.0
+        },
+        {
+          "path": "UI_Battle.Scenes.Scene_ButtonX.Bundle.Base.ButtonX_Bundle.X_1.Skill_1.TextX_1_Shadow_1",
+          "delta_y": 0.0
+        },
+        {
+          "path": "UI_Battle.Scenes.Scene_ButtonX.Bundle.Base.ButtonX_Bundle.X_1.Skill_1.TextX_1_Shadow_2",
+          "delta_y": -1.0
+        },
+        {
+          "path": "UI_Battle.Scenes.Scene_ButtonX.Bundle.Base.ButtonX_Bundle.X_1.Skill_1.TextX_1_Shadow_3",
+          "delta_y": 1.0
+        }
+      ],
+      "text": null
+    },
+    {
+      "name": "X_2",
+      "label": "UI_Battle.Scenes.Scene_ButtonX.Bundle.Base.ButtonX_Bundle.X_2.Skill_2.TextX_2",
+      "parent": "UI_Battle.Scenes.Scene_ButtonX.Bundle.Base.ButtonX_Bundle.X_2.Skill_2",
+      "band": "UI_Battle.Scenes.Scene_ButtonX.Bundle.Base.ButtonX_Bundle.X_2",
+      "shadows": [
+        {
+          "path": "UI_Battle.Scenes.Scene_ButtonX.Bundle.Base.ButtonX_Bundle.X_2.Skill_2.TextX_2_Shadow_0",
+          "delta_y": 0.0
+        },
+        {
+          "path": "UI_Battle.Scenes.Scene_ButtonX.Bundle.Base.ButtonX_Bundle.X_2.Skill_2.TextX_2_Shadow_1",
+          "delta_y": 0.0
+        },
+        {
+          "path": "UI_Battle.Scenes.Scene_ButtonX.Bundle.Base.ButtonX_Bundle.X_2.Skill_2.TextX_2_Shadow_2",
+          "delta_y": -1.0
+        },
+        {
+          "path": "UI_Battle.Scenes.Scene_ButtonX.Bundle.Base.ButtonX_Bundle.X_2.Skill_2.TextX_2_Shadow_3",
+          "delta_y": 1.0
+        }
+      ],
+      "text": null
+    },
+    {
+      "name": "X_3",
+      "label": "UI_Battle.Scenes.Scene_ButtonX.Bundle.Base.ButtonX_Bundle.X_3.Skill_3.TextX_3",
+      "parent": "UI_Battle.Scenes.Scene_ButtonX.Bundle.Base.ButtonX_Bundle.X_3.Skill_3",
+      "band": "UI_Battle.Scenes.Scene_ButtonX.Bundle.Base.ButtonX_Bundle.X_3",
+      "shadows": [
+        {
+          "path": "UI_Battle.Scenes.Scene_ButtonX.Bundle.Base.ButtonX_Bundle.X_3.Skill_3.TextX_3_Shadow_0",
+          "delta_y": 0.0
+        },
+        {
+          "path": "UI_Battle.Scenes.Scene_ButtonX.Bundle.Base.ButtonX_Bundle.X_3.Skill_3.TextX_3_Shadow_1",
+          "delta_y": 0.0
+        },
+        {
+          "path": "UI_Battle.Scenes.Scene_ButtonX.Bundle.Base.ButtonX_Bundle.X_3.Skill_3.TextX_3_Shadow_2",
+          "delta_y": -1.0
+        },
+        {
+          "path": "UI_Battle.Scenes.Scene_ButtonX.Bundle.Base.ButtonX_Bundle.X_3.Skill_3.TextX_3_Shadow_3",
+          "delta_y": 1.0
+        }
+      ],
+      "text": null
+    },
+    {
+      "name": "A",
+      "label": "UI_Battle.Scenes.Scene_ButtonA.Bundle.Base.Skill_window.Skill.TextA",
+      "parent": "UI_Battle.Scenes.Scene_ButtonA.Bundle.Base.Skill_window.Skill",
+      "band": "UI_Battle.Scenes.Scene_ButtonA.Bundle.Base.Skill_window",
+      "shadows": [
+        {
+          "path": "UI_Battle.Scenes.Scene_ButtonA.Bundle.Base.Skill_window.Skill.TextA_Shadow_0",
+          "delta_y": 0.0
+        },
+        {
+          "path": "UI_Battle.Scenes.Scene_ButtonA.Bundle.Base.Skill_window.Skill.TextA_Shadow_1",
+          "delta_y": 0.0
+        },
+        {
+          "path": "UI_Battle.Scenes.Scene_ButtonA.Bundle.Base.Skill_window.Skill.TextA_Shadow_2",
+          "delta_y": -1.0
+        },
+        {
+          "path": "UI_Battle.Scenes.Scene_ButtonA.Bundle.Base.Skill_window.Skill.TextA_Shadow_3",
+          "delta_y": 1.0
+        }
+      ],
+      "text": "攻击"
+    },
+    {
+      "name": "B",
+      "label": "UI_Battle.Scenes.Scene_ButtonB.Bundle.Base.Skill_window.Skill.TextB",
+      "parent": "UI_Battle.Scenes.Scene_ButtonB.Bundle.Base.Skill_window.Skill",
+      "band": "UI_Battle.Scenes.Scene_ButtonB.Bundle.Base.Skill_window",
+      "shadows": [
+        {
+          "path": "UI_Battle.Scenes.Scene_ButtonB.Bundle.Base.Skill_window.Skill.TextB_Shadow_0",
+          "delta_y": 0.0
+        },
+        {
+          "path": "UI_Battle.Scenes.Scene_ButtonB.Bundle.Base.Skill_window.Skill.TextB_Shadow_1",
+          "delta_y": 0.0
+        },
+        {
+          "path": "UI_Battle.Scenes.Scene_ButtonB.Bundle.Base.Skill_window.Skill.TextB_Shadow_2",
+          "delta_y": -1.0
+        },
+        {
+          "path": "UI_Battle.Scenes.Scene_ButtonB.Bundle.Base.Skill_window.Skill.TextB_Shadow_3",
+          "delta_y": 1.0
+        }
+      ],
+      "text": "反击",
+      "style": "names"
+    }
+  ],
+  "styles": {
+    "names": {
+      "package": "startup",
+      "object": "style_ui.Base.GeneralFont",
+      "states": 6,
+      "font": "Font.General_15"
+    },
+    "numbers": {
+      "package": "startup",
+      "object": "style_ui.Base.WhiteNumber",
+      "states": 6,
+      "font": "font_ui.NormalNumber"
+    }
+  },
+  "number_source": {
+    "resource": "MC2Game/CookedXenon/font_ui.xxx",
+    "object": "NormalNumber"
+  },
+  "resident_ui": {
+    "pattern": "(?:^|\\.)Scenes\\.Scene_Button[ABX](?:\\.|$)",
+    "expected": {
+      "MC2Game/CookedXenon/MC2Game.xxx": 498
+    },
+    "native_counts": {
+      "1": 1912,
+      "2": 2233
+    }
+  }
+}

@@ -1,0 +1,190 @@
+{
+  "schema_version": 1,
+  "profile": "serialized-ui-spacing-v1",
+  "locale": "zh-Hans",
+  "packages": {
+    "game": "MC2Game/CookedXenon/MC2Game.xxx",
+    "startup": "MC2Game/CookedXenon/Startup_int.xxx",
+    "skills": "MC2Game/CookedXenon/Data_Skill.xxx"
+  },
+  "ui_package": "game",
+  "text_resource": "MC2Game/Localization/Coalesced.int",
+  "fonts": {
+    "footer": {
+      "package": "startup",
+      "object": "Font.General_15"
+    },
+    "icons": {
+      "package": "startup",
+      "object": "font_ui.MC2StyleFont_0"
+    },
+    "names": {
+      "package": "game",
+      "object": "Font.General_15"
+    },
+    "numbers": {
+      "package": "game",
+      "object": "font_ui.normalnumber"
+    }
+  },
+  "footer_groups": [
+    {
+      "name": "accept-deny",
+      "owner_left": 313,
+      "right_limit": 652,
+      "minimum_gap": 10,
+      "labels": [
+        {
+          "object": "UI_Core.Scenes.QuestInfoDecision.Base.Quest_Info_window.Bt_Y",
+          "file": "MC2UI.int",
+          "section": "Common",
+          "key": "Image",
+          "icon": "Y",
+          "autosize_field": true,
+          "right_scale_field": false
+        },
+        {
+          "object": "UI_Core.Scenes.QuestInfoDecision.Base.Quest_Info_window.Bt_A",
+          "file": "MC2UI.int",
+          "section": "Common",
+          "key": "QAccept",
+          "icon": "A",
+          "autosize_field": true,
+          "right_scale_field": false
+        },
+        {
+          "object": "UI_Core.Scenes.QuestInfoDecision.Base.Quest_Info_window.Bt_Deny",
+          "file": "MC2UI.int",
+          "section": "Common",
+          "key": "Deny",
+          "icon": "B",
+          "autosize_field": false,
+          "right_scale_field": false
+        }
+      ]
+    },
+    {
+      "name": "accept-only",
+      "owner_left": 313,
+      "right_limit": 652,
+      "minimum_gap": 10,
+      "labels": [
+        {
+          "object": "UI_Core.Scenes.QuestInfoDecision.Base.Quest_Info_window.Bt_Y_OnlyYes",
+          "file": "MC2UI.int",
+          "section": "Common",
+          "key": "Image",
+          "icon": "Y",
+          "autosize_field": true,
+          "right_scale_field": false
+        },
+        {
+          "object": "UI_Core.Scenes.QuestInfoDecision.Base.Quest_Info_window.Bt_A_OnlyYes",
+          "file": "MC2UI.int",
+          "section": "Common",
+          "key": "QAccept",
+          "icon": "A",
+          "autosize_field": true,
+          "right_scale_field": true
+        }
+      ]
+    }
+  ],
+  "names": {
+    "file": "MC2Skill.int",
+    "sections": [
+      "Juto_Style1",
+      "Juto_Style2",
+      "Argo_Style1",
+      "Argo_Style2",
+      "Zephie_Style1",
+      "Zephie_Style2",
+      "Celestine_style1",
+      "Celestine_style2",
+      "Rue_Style1",
+      "Rue_Style2",
+      "Crocell_Style1",
+      "Crocell_Style2",
+      "Renkai_Ougi"
+    ],
+    "key_pattern": "(?!Skill_d_).+",
+    "expected_count": 119
+  },
+  "numeric_domain": {
+    "package": "skills",
+    "class_path": "MC2Game.MC2SkillData",
+    "field": "NeededKan",
+    "default_object": "Default__MC2SkillData",
+    "expected_count": 620,
+    "maximum_value": 99,
+    "extra_boundary_values": [
+      99
+    ]
+  },
+  "cost_roles": [
+    {
+      "name": "Selected",
+      "name_parent": "UI_Battle.Scenes.Scene_ButtonX.Bundle.Base.ButtonX_Bundle.Selected.Skill",
+      "name_label": "UI_Battle.Scenes.Scene_ButtonX.Bundle.Base.ButtonX_Bundle.Selected.Skill.TextX",
+      "number_label": "UI_Battle.Scenes.Scene_ButtonX.Bundle.Base.ButtonX_Bundle.Selected.KanNum",
+      "shadows": [
+        "UI_Battle.Scenes.Scene_ButtonX.Bundle.Base.ButtonX_Bundle.Selected.Skill.TextX_Sel_Shadow_0",
+        "UI_Battle.Scenes.Scene_ButtonX.Bundle.Base.ButtonX_Bundle.Selected.Skill.TextX_Sel_Shadow_1",
+        "UI_Battle.Scenes.Scene_ButtonX.Bundle.Base.ButtonX_Bundle.Selected.Skill.TextX_Sel_Shadow_2",
+        "UI_Battle.Scenes.Scene_ButtonX.Bundle.Base.ButtonX_Bundle.Selected.Skill.TextX_Sel_Shadow_3"
+      ]
+    },
+    {
+      "name": "X_0",
+      "name_parent": "UI_Battle.Scenes.Scene_ButtonX.Bundle.Base.ButtonX_Bundle.X_0.Skill_0",
+      "name_label": "UI_Battle.Scenes.Scene_ButtonX.Bundle.Base.ButtonX_Bundle.X_0.Skill_0.TextX_0",
+      "number_label": "UI_Battle.Scenes.Scene_ButtonX.Bundle.Base.ButtonX_Bundle.X_0.KanNum_0",
+      "shadows": [
+        "UI_Battle.Scenes.Scene_ButtonX.Bundle.Base.ButtonX_Bundle.X_0.Skill_0.TextX_0_Shadow_0",
+        "UI_Battle.Scenes.Scene_ButtonX.Bundle.Base.ButtonX_Bundle.X_0.Skill_0.TextX_0_Shadow_1",
+        "UI_Battle.Scenes.Scene_ButtonX.Bundle.Base.ButtonX_Bundle.X_0.Skill_0.TextX_0_Shadow_2",
+        "UI_Battle.Scenes.Scene_ButtonX.Bundle.Base.ButtonX_Bundle.X_0.Skill_0.TextX_0_Shadow_3"
+      ]
+    },
+    {
+      "name": "X_1",
+      "name_parent": "UI_Battle.Scenes.Scene_ButtonX.Bundle.Base.ButtonX_Bundle.X_1.Skill_1",
+      "name_label": "UI_Battle.Scenes.Scene_ButtonX.Bundle.Base.ButtonX_Bundle.X_1.Skill_1.TextX_1",
+      "number_label": "UI_Battle.Scenes.Scene_ButtonX.Bundle.Base.ButtonX_Bundle.X_1.KanNum_1",
+      "shadows": [
+        "UI_Battle.Scenes.Scene_ButtonX.Bundle.Base.ButtonX_Bundle.X_1.Skill_1.TextX_1_Shadow_0",
+        "UI_Battle.Scenes.Scene_ButtonX.Bundle.Base.ButtonX_Bundle.X_1.Skill_1.TextX_1_Shadow_1",
+        "UI_Battle.Scenes.Scene_ButtonX.Bundle.Base.ButtonX_Bundle.X_1.Skill_1.TextX_1_Shadow_2",
+        "UI_Battle.Scenes.Scene_ButtonX.Bundle.Base.ButtonX_Bundle.X_1.Skill_1.TextX_1_Shadow_3"
+      ]
+    },
+    {
+      "name": "X_2",
+      "name_parent": "UI_Battle.Scenes.Scene_ButtonX.Bundle.Base.ButtonX_Bundle.X_2.Skill_2",
+      "name_label": "UI_Battle.Scenes.Scene_ButtonX.Bundle.Base.ButtonX_Bundle.X_2.Skill_2.TextX_2",
+      "number_label": "UI_Battle.Scenes.Scene_ButtonX.Bundle.Base.ButtonX_Bundle.X_2.KanNum_2",
+      "shadows": [
+        "UI_Battle.Scenes.Scene_ButtonX.Bundle.Base.ButtonX_Bundle.X_2.Skill_2.TextX_2_Shadow_0",
+        "UI_Battle.Scenes.Scene_ButtonX.Bundle.Base.ButtonX_Bundle.X_2.Skill_2.TextX_2_Shadow_1",
+        "UI_Battle.Scenes.Scene_ButtonX.Bundle.Base.ButtonX_Bundle.X_2.Skill_2.TextX_2_Shadow_2",
+        "UI_Battle.Scenes.Scene_ButtonX.Bundle.Base.ButtonX_Bundle.X_2.Skill_2.TextX_2_Shadow_3"
+      ]
+    },
+    {
+      "name": "X_3",
+      "name_parent": "UI_Battle.Scenes.Scene_ButtonX.Bundle.Base.ButtonX_Bundle.X_3.Skill_3",
+      "name_label": "UI_Battle.Scenes.Scene_ButtonX.Bundle.Base.ButtonX_Bundle.X_3.Skill_3.TextX_3",
+      "number_label": "UI_Battle.Scenes.Scene_ButtonX.Bundle.Base.ButtonX_Bundle.X_3.KanNum_3",
+      "shadows": [
+        "UI_Battle.Scenes.Scene_ButtonX.Bundle.Base.ButtonX_Bundle.X_3.Skill_3.TextX_3_Shadow_0",
+        "UI_Battle.Scenes.Scene_ButtonX.Bundle.Base.ButtonX_Bundle.X_3.Skill_3.TextX_3_Shadow_1",
+        "UI_Battle.Scenes.Scene_ButtonX.Bundle.Base.ButtonX_Bundle.X_3.Skill_3.TextX_3_Shadow_2",
+        "UI_Battle.Scenes.Scene_ButtonX.Bundle.Base.ButtonX_Bundle.X_3.Skill_3.TextX_3_Shadow_3"
+      ]
+    }
+  ],
+  "cost_gap": [
+    0,
+    0
+  ]
+}

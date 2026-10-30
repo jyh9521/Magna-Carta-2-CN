@@ -25,7 +25,9 @@ class Sampler:
         e = exports[0]
         self.font = parse_font_payload(data[e['serial_offset']:e['serial_offset']+e['serial_size']],
                                        self.ctx['tables']['names'])
-        self.mapping = {r['codepoint']:r['glyph_index'] for r in self.font['remap']}
+        self.mapping = ({r['codepoint']:r['glyph_index'] for r in self.font['remap']}
+                        if self.font['is_remapped'] else
+                        {i: i for i in range(len(self.font['characters']))})
         self.atlases = {}
 
     def glyph(self, cp):

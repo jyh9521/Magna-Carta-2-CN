@@ -1,0 +1,41 @@
+真名法典 2 · 简体中文汉化补丁安装器 0.1.0-rc.1
+
+本包只有安装器和差异补丁，不包含原版游戏或完整 DLC。需要自行准备匹配的韩版双碟 ISO。
+包含 DLC 时，还需提供两个原版 LIVE 包所在的 00000002 文件夹：
+  18B8C8A148D63B0BAFE42CF63E203D482BE029C24E  短剧包（全3集）
+  A6075CF4FC20724B15DA064AB2FCAB16B1CCC3FD4E  特殊武器包（全12种）
+文件名是原始不透明标识；实际版本由完整 SHA256、STFS 元数据与哈希树校验。
+
+ZAR：面向支持 ZArchive 的 Xenia Canary / Edge。打开 MagnaCarta2_CN_Disc1.zar；第二张盘单独保留。
+XEX：面向 Xbox 360 RGH / JTAG，也可在 Xenia 中打开 Disc1/default.xex。
+两盘 default.xex、盘号、Media ID 和独有资源保持独立，不合盘，不改可执行文件。
+
+DLC 并不是主游戏目录中的普通文件，也不会嵌入主游戏 ZAR。
+安装器自动输出：Content/0000000000000000/4E4D0811/00000002/（两份已汉化内容包）。
+Xenia Canary：在模拟器“Install Content / 安装内容”中选择这两份输出包；或将 Content
+内的 0000000000000000 子目录复制到当前模拟器配置的 content_root。保持原有目录、档案
+与存档，不替换整个 content_root。支持直接 STFS 的构建才可直接复制完整包。
+Xenia Edge：按所用构建的内容安装入口安装输出包；本安装器未对每个 Edge 构建实测。
+RGH / JTAG：将 Content 内目录合并复制到 HDD1:/Content/，保持完整层级与包名。
+修改后 STFS 的 SHA1 树已重建，原发布方签名字节保留但不等于重新签名；实机识别尚未实测。
+原版零售主机不在当前交付验证范围内。
+
+换碟：保留两盘相邻，不混用原版/旧补丁与当前输出。在游戏要求换碟时按模拟器提示选择
+第二盘对应文件；本作 XEX / ZAR 的实际换碟、保存继承及 Aurora / Freestyle Dash 行为
+均待真实流程验证。建议先备份自己的存档；安装器不会迁移或修改存档、配置与许可证设置。
+
+验证范围：完整输入摘要、盘身份、全部输出文件读回、ZAR 完整性与成员摘要、DLC 结构。
+这些不是全游戏流程验收。新发布包的 ZAR 启动、DLC 枚举/短剧播放/武器解锁、双碟切换、
+旧存档继承、Edge 与 RGH/JTAG 均为“未实测”；既有目录版启动记录不自动覆盖本发布包。
+
+失败/取消：最终目录只在全部校验通过后出现。原 ISO / DLC 始终只读。普通取消会清理本次
+临时工作目录；断电/强制结束留下的 .mc2-*.partial 与 .install-lock 请使用界面中断清理。
+日志保存在输出上级 MC2-Installer-Logs；预检查诊断另存 %LOCALAPPDATA%/MC2Installer/logs。请提交安装结果.json、对应 JSONL 日志、
+模拟器版本、场景与复现步骤。日志含本机文件路径，公开前可检查个人路径信息。
+
+Windows 10/11 x64；完整解压后运行 MC2Installer.exe，不要仅复制主程序。
+安装器完全离线工作，不下载组件，不申请管理员权限，不启动游戏。
+工具链与许可证见随包 THIRD-PARTY 目录；工程与重建说明见项目仓库：
+https://github.com/jyh9521/Magna-Carta-2-CN
+
+伯翎飞云  https://blog.blfy.cc/

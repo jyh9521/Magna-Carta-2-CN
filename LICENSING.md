@@ -510,3 +510,8 @@ redistributed. Local static instruction/metadata reports remain ignored.
 完整源图、生成参考整图与Bink只保存在忽略目录，未加入Git。
 稀疏派生素材仍受已有游戏美术权利边界约束，不宣称原始美术属于项目。
 Noto Serif CJK字体沿用已记录的OFL来源与摘要，完整字体不提交。
+
+
+## 安装器分发
+
+安装器新增代码遵循项目MIT；用户提供的汉化品牌LOGO不自动改授MIT。差异包不含完整原盘/XEX/DLC。便携包包含Flutter/Dart及引擎notices、Python/PyInstaller启动器例外、Exzap ZArchive MIT-0、Zstandard BSD、libmspack LGPL-2.1完整许可和对应源码/桥接源码/替换重建说明。MSVC应用目录运行库保持Microsoft条款，见 src/installer/THIRD-PARTY.md。

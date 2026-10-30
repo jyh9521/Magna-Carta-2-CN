@@ -1689,3 +1689,8 @@ Known limitations should be documented clearly rather than hidden.
 全部15段资源的离线逐帧与回滚证据不替代用户对所有实际场景切换的验收。
 本轮未启动游戏；阶段332已确认的启动结果不自动等于本轮游戏内验收。
 [重建方式和边界](PHASE_333_VOICE_LOADING.md)。
+
+
+## 安装器候选版验收状态
+
+0.1.0-rc.1的离线打包/校验与游戏内结论分列，见 [INSTALLER](INSTALLER.md)。新ZAR启动、换碟、旧存档、DLC枚举/短剧播放/武器解锁、Edge、RGH/JTAG及Aurora/Freestyle Dash尚待实测。默认不启动游戏、不改模拟器配置，不以既有目录版启动记录代替新产物验收。

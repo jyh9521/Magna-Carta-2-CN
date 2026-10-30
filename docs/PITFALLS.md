@@ -1796,3 +1796,8 @@ Windows旧JSON证明文件可能CRLF；独立字体回放仅对JSON行尾归一�
 雾光，以0.90限制目标像素逆运算；显式修复不可靠字形，保留原生旋转图标。
 左侧三段不能简单平移右侧FX；须使用跨全部90帧的静态有效性并集。
 详见[阶段333](PHASE_333_VOICE_LOADING.md)。
+
+
+## Windows安装器构建（阶段334）
+
+Flutter无外部插件路线使用原生Windows MethodChannel，避免文件选择插件要求开发者模式软链接，不改系统设置。首次长路径checkout失败时仅在新工具链目录开启core.longpaths，恢复worktree和index并核对干净提交；只恢复worktree会让所有文件仍表现为staged deletion并影响Flutter引擎身份。ZArchive writer首个文件回调索引是-1，不是0；已由合成往返发现并修正。资源journal的file_inventory是变更前快照，最终期望值必须叠加该journal的changes，不能直接作最新输出。

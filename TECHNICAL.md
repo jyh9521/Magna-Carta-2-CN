@@ -1668,3 +1668,8 @@ remain separate confidence levels. Existing parser/coverage rules are unchanged.
 生产阈值0.90限制噪声放大，低置信字形区域以明确稀疏修复代替伪称恢复。
 原生下标题0像素差、三字段标点、全部15个循环及失败方案见
 [阶段333](docs/PHASE_333_VOICE_LOADING.md)。
+
+
+## 安装器事务与虚拟归档（阶段334）
+
+已验证的实现：独立双盘清单、XEX Execution ID预检、完整ISO摘要前后复核、MCD1逐块来源绑定、raw runtime-envelope门禁、Exzap ZArchive成员读回、STFS输出哈希树校验、无覆盖原子发布与显式中断恢复。详见 [INSTALLER](docs/INSTALLER.md)。这些离线证明不等同换碟/DLC/实机验收。

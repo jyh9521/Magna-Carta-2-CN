@@ -1,0 +1,57 @@
+{
+  "project_root": ".",
+  "version": "0.1.0-rc.1",
+  "title_id": "4E4D0811",
+  "output_name": "MagnaCarta2_CN",
+  "usage": "src/installer/USAGE.txt",
+  "disc1": {
+    "iso": "MagnaCarta II (Korea) (Disc 1).iso",
+    "iso_sha256": "23e96219aa8b2116239c35e6f65013329bfd298d46a726edffa5224498028ac5",
+    "inventory": "build\\disc1-hashed.json",
+    "inventory_sha256": "2f09849a02729be1d2cae94de5e3e6a1f9fdbf5efa0e007c192a55f2f1bb56d9",
+    "packet": "build/phase-333-voice-loading/packet",
+    "manifest_sha256": "c5892de612a03cca0b0758f9e47e0d5c921f73b5b0791acd691f48b2d97e2abf"
+  },
+  "disc2": {
+    "iso": "MagnaCarta II (Korea) (Disc 2).iso",
+    "iso_sha256": "9497b336d37529fd8ed1d0d64b560b130354fa1d6168fad1dd428e51e8f6bea2",
+    "inventory": "build\\disc2-hashed.json",
+    "inventory_sha256": "4e693032145d09265dac5b9a18c221c5d065591cf77278f074081e142b20ecc9",
+    "packet": "build/phase-322-review-v6/disc2-comparison-final",
+    "manifest_sha256": "afce2b33fc64e7b8d1b91d5950ac7e998ead7fc81edd898576dc0d982da20457",
+    "journal": "build\\phase-330-gameplay-qa\\disc2-refresh\\plan.json",
+    "journal_sha256": "076c5067436f2abe79300da6d994dd3b414c1c647224af3f5bd0bbe1529d332e"
+  },
+  "tools": {
+    "lzx": {
+      "file": "build/lzx/native-verified/ue3_lzx.dll",
+      "sha256": "f16a0ef5dcac1f7ee8a9461f0cb02b7c0db06d48482d956a4317b9e285c0ffa1"
+    },
+    "zar": {
+      "file": "build/phase-334-installer/native/Release/mc2-zar.exe",
+      "sha256": "23284fafe0b953422ac2ebb335333c34cbb6e700c59b10e81637856111097831"
+    }
+  },
+  "lzx": {
+    "file": "build/lzx/native-verified/ue3_lzx.dll",
+    "sha256": "f16a0ef5dcac1f7ee8a9461f0cb02b7c0db06d48482d956a4317b9e285c0ffa1"
+  },
+  "dlc": [
+    {
+      "name": "18B8C8A148D63B0BAFE42CF63E203D482BE029C24E",
+      "label": "短剧包（全3集）",
+      "source": "4E4D0811/00000002/18B8C8A148D63B0BAFE42CF63E203D482BE029C24E",
+      "candidate": "build\\phase-331-dlc\\modified\\packages\\4E4D0811\\00000002\\18B8C8A148D63B0BAFE42CF63E203D482BE029C24E",
+      "sha256": "059b3f9b2a844f765eab34c4ce886bcbf6e954ab78e6ac5abfeef929d175ec9e",
+      "output_sha256": "0232648ce81e9986cd6dc27cb841426ac021113ad9440dba826927560271f2f3"
+    },
+    {
+      "name": "A6075CF4FC20724B15DA064AB2FCAB16B1CCC3FD4E",
+      "label": "特殊武器包（全12种）",
+      "source": "4E4D0811/00000002/A6075CF4FC20724B15DA064AB2FCAB16B1CCC3FD4E",
+      "candidate": "build\\phase-331-dlc\\modified\\packages\\4E4D0811\\00000002\\A6075CF4FC20724B15DA064AB2FCAB16B1CCC3FD4E",
+      "sha256": "0a6ca3c0bdd9e5dffa2789a4d60eff216a1f82d0ea7273bf5b97ed9a2658f43f",
+      "output_sha256": "7acd0f68c228ec8c18e90cd70073695d084b4c78ed4649be450dc7f6bd97234e"
+    }
+  ]
+}

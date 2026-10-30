@@ -1936,3 +1936,8 @@ candidate、controls、raw-controls或live合并，结束时再次核验独立�
 不再对人物/背景使用整片平滑盖底。
 [构建命令、数据与验收边界](docs/PHASE_333_VOICE_LOADING.md)。
 继续增量刷新既有测试目录，并对最终packet执行阶段332外包门禁，不生成新ISO。
+
+
+## Windows图形安装器（阶段334）
+
+入口和完整数据流见 [INSTALLER](docs/INSTALLER.md)。ZArchive从原盘区段和改动资源组成的虚拟树流式构建，不新增ISO/完整XEX测试副本；测试输出属于发布验收派生物，不刷新现有游戏运行目录。使用固定工具链、源摘要recipe、全新输出，第三方许可与对应源码随包分发。

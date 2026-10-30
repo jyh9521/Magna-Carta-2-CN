@@ -14,10 +14,14 @@ Xbox 360 版《MagnaCarta II》的简体中文汉化项目，包含结构化译�
 
 ## 文档入口
 
+Windows 图形安装器候选版：[使用、构建、ZAR/XEX/DLC与验收说明](docs/INSTALLER.md)。
+采用新版 LOGO，右下角「伯翎飞云」链接至 <https://blog.blfy.cc/>。
+
 | 内容 | 文档 |
 | --- | --- |
 | 构建与测试 | [构建说明](BUILDING.md) · [支持版本](docs/RESOURCE_SURVEY.md) |
 | 提交前与云端验证 | [统一 CI 入口与推送检查](docs/CI_VALIDATION.md) |
+| 图形安装器 | [安装/构建/故障恢复](docs/INSTALLER.md) · [更新记录](CHANGELOG.md) |
 | 翻译与术语 | [翻译说明](TRANSLATING.md) · [术语表](GLOSSARY.md) |
 | 技术与格式 | [技术说明](TECHNICAL.md) · [文件格式](docs/FILE_FORMATS.md) |
 | 进度与问题 | [翻译接续点](docs/TRANSLATION_QUEUE.md) · [已知问题](docs/KNOWN_ISSUES.md) |

@@ -1714,3 +1714,8 @@ transmittance阈值、跨全部帧的不一致容差、matte/repair-mask SHA256�
 alpha仅0/255，未选区域RGBA全零；重算的支持域须与文件精确相等。
 参数改变、源文件改变或有额外修复像素时拒绝构建。通用实现支持有界其他尺寸。
 原BIKi头、90帧及10000000/333333时基不变；详见[阶段333](PHASE_333_VOICE_LOADING.md)。
+
+
+## MCD1 安装差异
+
+本项目新增格式，不是游戏原生格式。大端头 `>4sQQ32s32s`：MCD1、源长度、目标长度、源/目标SHA256；随后每1MiB目标块使用4字节大端压缩长度及独立zlib XOR数据，源尾部补零。严格验证原件、输出、块大小、解压上限和EOF。压缩UE3先按清单使用ue3-raw-v1规范化源；其他资源identity。实现/回归见 tools/installer_delta.py、tests/test_installer.py。ZAR沿用Exzap格式，未另造同名容器。

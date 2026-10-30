@@ -82,3 +82,8 @@ not incorporated. Exact files and digests: references/dlc-stfs-research.lock.jso
 and references/dlc-format-research.lock.json. Existing license retained at
 licenses/Xenia-BSD-3-Clause.txt. Original DLC containers and complete game assets
 remain user-supplied, locally ignored build inputs/outputs, not tracked sources.
+
+
+## Windows installer / ZArchive
+
+Flutter/Dart: Google and contributors, BSD and engine notices. ZArchive: Exzap, MIT-0, commit965b66c8d67b6b7e30fd63b3b75aa91a99ff303b, SHA256 implementation public domain. Zstandard: Meta Platforms and contributors, BSD option, commitf8745da6ff1ad1e7bab384bd1f9d742439278e99. Native adapter is independently written; writer/reader/codec compiled from these pinned checkouts. PyInstaller bootloader exception and Python licenses accompany the portable release. libmspack dynamic decoder retains existing pinned attribution and ships its corresponding source. See references/installer-toolchain.lock.json and src/installer/THIRD-PARTY.md.

@@ -1,0 +1,20 @@
+cmake_minimum_required(VERSION 3.20)
+project(localization_archive LANGUAGES C CXX)
+set(CMAKE_CXX_STANDARD 20)
+set(CMAKE_MSVC_RUNTIME_LIBRARY "MultiThreaded$<$<CONFIG:Debug>:Debug>")
+if(NOT DEFINED ZARCHIVE_SOURCE OR NOT DEFINED ZSTD_SOURCE)
+  message(FATAL_ERROR "Supply pinned ZARCHIVE_SOURCE and ZSTD_SOURCE checkouts")
+endif()
+set(ZSTD_BUILD_PROGRAMS OFF CACHE BOOL "" FORCE)
+set(ZSTD_BUILD_SHARED OFF CACHE BOOL "" FORCE)
+set(ZSTD_BUILD_TESTS OFF CACHE BOOL "" FORCE)
+add_subdirectory("${ZSTD_SOURCE}/build/cmake" zstd)
+add_executable(mc2-zar archive.cpp
+  "${ZARCHIVE_SOURCE}/src/zarchivewriter.cpp"
+  "${ZARCHIVE_SOURCE}/src/zarchivereader.cpp"
+  "${ZARCHIVE_SOURCE}/src/sha_256.c")
+target_include_directories(mc2-zar PRIVATE "${ZARCHIVE_SOURCE}/include" "${ZARCHIVE_SOURCE}/src" "${ZSTD_SOURCE}/lib")
+target_link_libraries(mc2-zar PRIVATE libzstd_static)
+if(MSVC)
+  target_compile_options(mc2-zar PRIVATE /utf-8 /W4)
+endif()

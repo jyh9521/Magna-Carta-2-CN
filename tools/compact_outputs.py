@@ -67,10 +67,17 @@ class _Hashes:
 
 
 def compact_outputs(manifests: list[Path], root: Path, output: Path,
-                    minimum_size: int = 65536, rollback_only: bool = False) -> dict:
-    """Compact immutable outputs, or a separately inventoried backup-only pool."""
+                    minimum_size: int = 65536, rollback_only: bool = False,
+                    inventory_prefixes: list[str] | None = None) -> dict:
+    """Compact immutable outputs, backups, or an explicitly inventoried closed pool."""
     if minimum_size < 0 or not manifests or type(rollback_only) is not bool:
         raise ValueError("Supply manifests and a nonnegative minimum_size")
+    if inventory_prefixes is not None:
+        if rollback_only or not isinstance(inventory_prefixes, list) or not inventory_prefixes or any(
+                not isinstance(p, str) or not p or p in {".", ".."}
+                or any(c in p for c in "/\\:") for p in inventory_prefixes):
+            raise ValueError("Inventory prefixes must be explicit top-level names, without rollback_only")
+    independent_pool = rollback_only or inventory_prefixes is not None
     root = root.absolute()
     if root.is_symlink() or root.is_junction():
         raise ValueError("Allowed root must not be a reparse point")
@@ -81,6 +88,8 @@ def compact_outputs(manifests: list[Path], root: Path, output: Path,
     manifest_hashes: dict[Path, str] = {}
     excluded = {".sav", ".save", ".xex", ".exe", ".dll", ".toml"}
     prefixes = {"rollback-check", "raw-rollback-check"} if rollback_only else {"candidate", "controls", "raw-controls"}
+    if inventory_prefixes is not None:
+        prefixes = set(inventory_prefixes)
     for manifest in manifests:
         manifest = _checked(manifest, root)
         manifest_hashes[manifest] = hashes(manifest)
@@ -102,9 +111,10 @@ def compact_outputs(manifests: list[Path], root: Path, output: Path,
                 raise ValueError(f"Conflicting manifest hashes: {path}")
             rows[path] = expected
     skipped_external_links = 0
-    if rollback_only:
-        # A separate backup-only pool must never share an inode with candidate,
-        # live, or any other unlisted path. Account for every existing hardlink.
+    if independent_pool:
+        # A closed inventory must never share an inode with live data or any
+        # other unlisted path. Keep candidate and backup inventories separate.
+        # Account for every existing hardlink, not just visible file names.
         groups: dict[tuple[int, int], list[Path]] = {}
         for path in rows:
             stat = path.stat()
@@ -148,7 +158,7 @@ def compact_outputs(manifests: list[Path], root: Path, output: Path,
             source_stat = source.stat()
             source_inode = source_stat.st_dev, source_stat.st_ino
             target_inode = stat.st_dev, stat.st_ino
-            if rollback_only and (source_stat.st_nlink != link_counts[source_inode]
+            if independent_pool and (source_stat.st_nlink != link_counts[source_inode]
                                   or stat.st_nlink != link_counts[target_inode]):
                 raise ValueError("Rollback pool link inventory changed")
             temporary = path.with_name(".dedup-" + uuid.uuid4().hex)
@@ -181,7 +191,7 @@ def compact_outputs(manifests: list[Path], root: Path, output: Path,
             operations.append(row)
             log.write(json.dumps(dict(state="after", **row)) + "\n")
             log.flush()
-    if rollback_only:
+    if independent_pool:
         current_counts: dict[tuple[int, int], int] = {}
         for path in rows:
             stat = path.stat()
@@ -195,8 +205,10 @@ def compact_outputs(manifests: list[Path], root: Path, output: Path,
         if hashes(path) != expected:
             raise ValueError(f"Post-compaction SHA256 mismatch: {path}")
     report = dict(verified_files=len(rows), verified_manifests=len(manifest_hashes),
-                  mode="independent-rollback-pool" if rollback_only else "immutable-output-pool",
+                  mode=("independent-inventory-pool" if inventory_prefixes is not None else
+                        "independent-rollback-pool" if rollback_only else "immutable-output-pool"),
                   rollback_pool_independence_verified=rollback_only,
+                  pool_independence_verified=independent_pool,
                   skipped_external_links=skipped_external_links,
                   skipped_read_only=skipped_read_only,
                   skipped_permission_denied=skipped_permission_denied,
@@ -216,6 +228,8 @@ def main() -> int:
     parser.add_argument("--output-dir", type=Path)
     parser.add_argument("--rollback-only", action="store_true",
                         help="Separate backup-only pool; never merge with candidate/control/live inodes")
+    parser.add_argument("--inventory-prefix", action="append",
+                        help="Explicit immutable inventory prefix; verifies a closed, independent hardlink pool")
     args = parser.parse_args()
     try:
         if args.check_space_only:
@@ -224,7 +238,8 @@ def main() -> int:
             if args.output_dir is None:
                 raise ValueError("Compaction requires a new --output-dir")
             print(json.dumps(compact_outputs(args.manifest, args.root, args.output_dir,
-                                             rollback_only=args.rollback_only)))
+                                             rollback_only=args.rollback_only,
+                                             inventory_prefixes=args.inventory_prefix)))
     except (ValueError, OSError) as error:
         parser.exit(2, f"ERROR: {error}\n")
     return 0

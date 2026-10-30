@@ -185,6 +185,48 @@ class CompactOutputsTests(unittest.TestCase):
         self.assertTrue(os.path.samefile(r, t))
         self.assertFalse(os.path.samefile(self.a, t))
 
+    def test_explicit_inventory_pool_preserves_default_exclusions(self):
+        report = compact_outputs([self.manifest], self.root, self.root / "report",
+                                 minimum_size=1, inventory_prefixes=["candidate", "controls"])
+        self.assertEqual(report["mode"], "independent-inventory-pool")
+        self.assertTrue(report["pool_independence_verified"])
+        self.assertEqual(report["linked_files"], 1)
+        self.assertTrue(os.path.samefile(self.a, self.b))
+
+    def test_inventory_pool_excludes_an_unlisted_live_link(self):
+        live = self.root / "live.bin"
+        os.link(self.a, live)
+        report = compact_outputs([self.manifest], self.root, self.root / "report",
+                                 minimum_size=1, inventory_prefixes=["candidate", "controls"])
+        self.assertEqual(report["skipped_external_links"], 1)
+        self.assertEqual(report["linked_files"], 0)
+        self.assertFalse(os.path.samefile(self.a, self.b))
+        self.assertEqual(live.read_bytes(), self.data)
+
+    def test_inventory_prefixes_cannot_select_parents_or_absolute_paths(self):
+        for prefixes in ([], [".."], ["."], ["../other"], ["a/b"], ["a\\b"], ["C:"], [""],
+                         "candidate", True, [None], [1]):
+            with self.subTest(prefixes=prefixes), self.assertRaises(ValueError):
+                compact_outputs([self.manifest], self.root, self.root / "report",
+                                minimum_size=1, inventory_prefixes=prefixes)
+        self.assertFalse((self.root / "report").exists())
+
+    def test_inventory_and_rollback_modes_are_mutually_exclusive(self):
+        with self.assertRaises(ValueError):
+            compact_outputs([self.manifest], self.root, self.root / "report",
+                            rollback_only=True, inventory_prefixes=["candidate"])
+
+    def test_inventory_pool_keeps_protected_file_types_independent(self):
+        for suffix in (".sav", ".save", ".xex", ".exe", ".dll", ".toml"):
+            path = self.a.with_suffix(suffix)
+            path.write_bytes(self.data)
+            self.members[path.relative_to(self.manifest.parent).as_posix()] = self.members["candidate/a.bin"]
+        self.save()
+        compact_outputs([self.manifest], self.root, self.root / "report", minimum_size=1,
+                        inventory_prefixes=["candidate", "controls"])
+        for suffix in (".sav", ".save", ".xex", ".exe", ".dll", ".toml"):
+            self.assertFalse(os.path.samefile(self.a, self.a.with_suffix(suffix)))
+
 
 if __name__ == "__main__":
     unittest.main()

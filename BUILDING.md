@@ -1974,3 +1974,8 @@ candidate、controls、raw-controls或live合并，结束时再次核验独立�
 重建、回滚、回归profile及复测见
 [PHASE_338_MIXED_TEXT_AND_HUD](docs/PHASE_338_MIXED_TEXT_AND_HUD.md)。
 本轮优先紧凑字距，替代阶段335数字右端固定合同；仍只增量刷新已有目录及安装器。
+
+
+## 阶段339：磁盘占用收尾
+
+见 [PHASE_339_STORAGE_CLEANUP](docs/PHASE_339_STORAGE_CLEANUP.md)。成功验证后淘汰旧安装器打包临时目录、已验证ZIP的展开源码、过期CI source/venv，保留receipt、日志和源身份。不可变资源允许显式清单的独立硬链接池；回滚池与候选池分开。大型历史文本可逐文件NTFS压缩并核对原SHA，不改变目录继承属性。统计实际C盘可用空间，避免把硬链接逻辑大小或并行阶段磁盘差值重复计数。当前原版、测试入口、runs/账号/配置/存档、活动包依赖及必要回滚数据继续保留。

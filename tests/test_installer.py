@@ -147,10 +147,26 @@ class InstallerTests(unittest.TestCase):
         self.assertFalse((self.root/'out').exists());self.assertFalse(list(self.root.glob('*.partial')))
         self.assertTrue(list((self.root/'MC2-Installer-Logs').glob('*.jsonl')))
     def test_corrupt_patch_cleans_stage_and_keeps_input(self):
-        patch_path=next((self.bundle.root/'patches').iterdir());patch_path.write_bytes(b'corrupt')
+        # Directory iteration order is platform-dependent and may pick the
+        # unselected DLC delta. Corrupt a patch this installation will consume.
+        entry=next(e for e in self.bundle.data['discs'][0]['files'] if 'patch' in e)
+        (self.bundle.root/entry['patch']).write_bytes(b'corrupt')
         before=[sha_file(p) for p in self.images]
         with self.assertRaises(InstallError):Installer(self.bundle).install(self.images,self.root/'out','xex')
         self.assertEqual(before,[sha_file(p) for p in self.images]);self.assertFalse((self.root/'out').exists())
+        self.assertFalse(list(self.root.glob('*.partial')))
+        self.assertFalse(list(self.root.glob('*.install-lock')))
+    def test_corrupt_selected_dlc_patch_cleans_stage_and_keeps_inputs(self):
+        entry=self.bundle.data['dlc'][0]
+        (self.bundle.root/entry['patch']).write_bytes(b'corrupt')
+        inputs=[*self.images,self.dlc/entry['name']]
+        before=[sha_file(p) for p in inputs]
+        with self.assertRaises(InstallError):
+            Installer(self.bundle).install(self.images,self.root/'out','xex',self.dlc)
+        self.assertEqual(before,[sha_file(p) for p in inputs])
+        self.assertFalse((self.root/'out').exists())
+        self.assertFalse(list(self.root.glob('*.partial')))
+        self.assertFalse(list(self.root.glob('*.install-lock')))
     def test_manifest_tamper(self):
         with self.assertRaises(InstallError):Bundle(self.bundle.root,'0'*64)
     def test_manifest_duplicate_case_and_traversal(self):

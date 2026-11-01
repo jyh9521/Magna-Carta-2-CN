@@ -1833,3 +1833,15 @@ Flutter无外部插件路线使用原生Windows MethodChannel，避免文件选�
 - IsRemapped=false使用native索引直映，空remap不代表没有数字。外部TFC atlas不能当作内嵌像素。
 - 不用全局删空格去修字体；只改源锁定的20个值，保留不同属性间隔。
 - 扫描驻留副本同时匹配完整和短路径，不只查询UI_Battle.Scenes。见[阶段338](PHASE_338_MIXED_TEXT_AND_HUD.md)。
+
+
+## 阶段340：字图行距、同名export与视觉截断
+
+- 正常/选中按钮字图的分区起点不等于控件V坐标；按每行自身边界居中仍会错位，必须测实际采样窗及父子Position。
+- 数字右对齐的advance边界不等于字芯右端；透明右边距不同会让1/3与其他数错位。别扩大字格采到邻居，也别覆盖原atlas。
+- 地图标题的Package与Texture2D可能同名；只按path选export会歧义，原生块替换必须同时选择纹理class。
+- 深色渐变尾端能看似整行裁切；先比较native glyph/UV和底行颜色再改采样。对6种同伴层的检查中只重建3种有问题的层，避免改动已经正常的图标。
+- 英文原图中已有黑雾/残留线；不能把整条保护区原样保留视为背景已干净。明确alpha写集，保持RGB及写集外块，记录BC3保留alpha量化误差。
+- 第二盘独有地图不随Disc1共享资源采纳自动更新；在归一化后的recipe增加源摘要锁定的resource_updates，保留原journal链与独立TOC。
+
+细节与定量结果见[PHASE_340_UI_INK_ALIGNMENT](PHASE_340_UI_INK_ALIGNMENT.md)。

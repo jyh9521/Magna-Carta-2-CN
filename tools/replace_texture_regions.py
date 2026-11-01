@@ -3,14 +3,14 @@ import struct
 from .build_font_supplement import context
 from .texture_layout import read_texture, rect_units
 from .reface_font import sha
+from .texture_overlay import select_texture_export
 
 
 def selected(data,obj,decoder):
     c=context(data,decoder)
     if c['logical']!=data:raise ValueError('normalized raw package required')
-    es=[e for e in c['tables']['exports'] if e['path']==obj]
-    if len(es)!=1:raise ValueError('explicit texture export not found')
-    e=es[0];off=e['serial_offset'];p=data[off:off+e['serial_size']]
+    e=select_texture_export(c['tables'],obj)
+    off=e['serial_offset'];p=data[off:off+e['serial_size']]
     t=read_texture(p,c['tables']['names'],off,{'kind':'xbox-inline-bc-v1','format':7},decoder)
     return c,e,p,t
 

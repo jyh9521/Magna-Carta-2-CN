@@ -1979,3 +1979,12 @@ candidate、controls、raw-controls或live合并，结束时再次核验独立�
 ## 阶段339：磁盘占用收尾
 
 见 [PHASE_339_STORAGE_CLEANUP](docs/PHASE_339_STORAGE_CLEANUP.md)。成功验证后淘汰旧安装器打包临时目录、已验证ZIP的展开源码、过期CI source/venv，保留receipt、日志和源身份。不可变资源允许显式清单的独立硬链接池；回滚池与候选池分开。大型历史文本可逐文件NTFS压缩并核对原SHA，不改变目录继承属性。统计实际C盘可用空间，避免把硬链接逻辑大小或并行阶段磁盘差值重复计数。当前原版、测试入口、runs/账号/配置/存档、活动包依赖及必要回滚数据继续保留。
+
+## 阶段340：五项截图反馈与原生墨迹边界
+
+现行构建/审计为 `build_ui_ink_revision` / `audit_ui_ink_revision` 配合v13数据。
+数字以可见右端227对齐反击，替代阶段338的紧凑左锚点选择；不要同时要求两份
+互斥旧合同通过。快捷按钮、地图英文alpha、名字首行、大小同伴标签、两盘独有地图
+追加、可复现命令和人工复测项见
+[PHASE_340_UI_INK_ALIGNMENT](docs/PHASE_340_UI_INK_ALIGNMENT.md)。
+本轮仍只源锁定地增量刷新既有测试目录及安装器，不生成ISO/整盘副本，不启动游戏。

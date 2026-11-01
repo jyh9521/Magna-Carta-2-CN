@@ -3,6 +3,8 @@
 Replays existing hash-bound Disc-2 resource journals, then explicitly adopts
 the latest shared Disc-1 resources only when original path AND digest match.
 Disc-specific resources remain independent. TOCs are rebuilt from each original.
+Optional source-locked sparse updates apply after normalization/shared adoption;
+this preserves the old journal chain without rebuilding an entire disc image.
 """
 from __future__ import annotations
 import argparse
@@ -21,6 +23,44 @@ def locked(path, expected):
     path=Path(path).resolve()
     if sha_file(path)!=expected:raise ValueError('source lock mismatch: '+str(path))
     return json.loads(path.read_text(encoding='utf-8'))
+
+
+def apply_resource_updates(candidates, originals, updates, root, disc, toc):
+    if not isinstance(updates, list) or len(updates) > 16:
+        raise ValueError('bounded resource update list required')
+    result = {r['path']:dict(r) for r in candidates}
+    provenance = []
+    for ref in updates:
+        manifest_path = Path(root)/safe_relative(ref['manifest'])
+        manifest = locked(manifest_path, ref['sha256'])
+        if (manifest.get('schema_version') != 1
+                or manifest.get('kind') != 'incremental-comparison-replacements'
+                or manifest.get('disc') != disc or manifest.get('toc_path') != toc
+                or not isinstance(manifest.get('resources'), list)
+                or not 1 <= len(manifest['resources']) <= 128):
+            raise ValueError('resource update manifest identity mismatch')
+        seen = set()
+        for row in manifest['resources']:
+            name = safe_relative(row['path'])
+            if (name.casefold() in seen or name == toc or name not in originals
+                    or not name.lower().endswith(('.xxx', '.int'))):
+                raise ValueError('duplicate or unknown resource update')
+            seen.add(name.casefold())
+            previous = result.get(name, originals[name])
+            if row['before_sha256'] != previous['sha256']:
+                raise ValueError('resource update before SHA256 mismatch: ' + name)
+            path = manifest_path.parent/safe_relative(row['file'])
+            if (type(row['size']) is not int or not 0 < row['size'] <= 512*1024*1024
+                    or path.stat().st_size != row['size'] or sha_file(path) != row['sha256']):
+                raise ValueError('resource update candidate identity mismatch')
+            if name.lower().endswith('.xxx'):
+                require_raw_envelope(path.read_bytes())
+            result[name] = dict(path=name, file=str(path.resolve()), sha256=row['sha256'])
+        if sha_file(manifest_path) != ref['sha256']:
+            raise ValueError('resource update manifest changed')
+        provenance.append(dict(kind='normalized-resource-update', disc=disc,
+                               sha256=ref['sha256'], resources=len(seen)))
+    return sorted(result.values(), key=lambda r:r['path']), provenance
 
 
 def prepare(spec_path, expected, output):
@@ -84,6 +124,9 @@ def prepare(spec_path, expected, output):
                     cache[old_hash]=entry
             normalized.append(entry)
             if i%75==0:print(f'PREPARE {n} {i+1}/{len(candidates)}',flush=True)
+        normalized, layers = apply_resource_updates(normalized, originals[n-1],
+            spec[f'disc{n}'].get('resource_updates', []), root, n, toc)
+        provenance.extend(layers)
         iso=root/spec[f'disc{n}']['iso'];disc=Disc(iso);record=next(e for e in disc.inventory() if e['path']==toc)
         source=disc.read(record['offset'],record['size'])
         changes=[]

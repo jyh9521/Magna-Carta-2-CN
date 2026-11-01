@@ -2332,3 +2332,8 @@ flags remain false; no story translation gate changes.
 上下标题共享实际下方标签的同一字体和完整效果。载入提示的三种点数状态、
 22px字体与稀疏修复数据均放在locale目录，而非硬编码到通用工具。
 详见[阶段333](docs/PHASE_333_VOICE_LOADING.md)。
+
+
+## 阶段340：名字首行与共享片段
+
+`party-line-layout-v13.json`作为当前八字段原子修订：Subjective_0/1为INI引号内的ASCII空格，四个系统事件原有`\n`后才放“已”，升级/制作完成同步补回完成体。不可单独把Subjective改空、删除既有换行或仅修JoinGuest，否则其他原生消费者会失去语义。固定ID、源值UTF-8摘要及token守卫保留。不要用给技能名称增删空格代替数字右端布局；见[阶段340](docs/PHASE_340_UI_INK_ALIGNMENT.md)。

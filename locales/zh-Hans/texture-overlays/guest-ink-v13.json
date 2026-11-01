@@ -1,0 +1,1981 @@
+{
+  "schema_version": 1,
+  "kind": "texture-text-overlay-plan",
+  "game_rendering_verified": false,
+  "font": {
+    "path": "build/font-source/NotoSansCJKsc-Regular.otf",
+    "sha256": "2c76254f6fc379fddfce0a7e84fb5385bb135d3e399294f6eeb6680d0365b74b"
+  },
+  "rasterizer_versions": {
+    "Pillow": "12.2.0",
+    "fonttools": "4.63.0"
+  },
+  "labels": [
+    {
+      "id": "field_menu_guest",
+      "text": "临时同伴",
+      "rect": [
+        148,
+        44,
+        192,
+        52
+      ],
+      "font_size": 24,
+      "align": "center",
+      "ink_padding": {
+        "x": 1,
+        "y": 0
+      },
+      "font": {
+        "path": "build/font-source/NotoSansCJKsc-Regular.otf",
+        "sha256": "2c76254f6fc379fddfce0a7e84fb5385bb135d3e399294f6eeb6680d0365b74b"
+      },
+      "style": {
+        "fill": [
+          235,
+          255,
+          255,
+          255
+        ],
+        "stroke_fill": [
+          0,
+          110,
+          130,
+          210
+        ],
+        "shadow_fill": [
+          0,
+          150,
+          170,
+          140
+        ]
+      },
+      "restoration": {
+        "source_rgba_sha256": "d934acdd0fe994b2fb909c02e8cb86a4207a34763f0f9788888ee2fe6ee636fa",
+        "mask": {
+          "path": "locales/zh-Hans/texture-overlays/restorations/review-v3-20261026/field_menu_guest-mask.png",
+          "sha256": "761fa442ea13d5d2743349da2364818752b12cdeb2e2683a07d0a6327b2494bb"
+        },
+        "patch": {
+          "path": "locales/zh-Hans/texture-overlays/restorations/review-v3-20261026/field_menu_guest-patch.png",
+          "sha256": "5f65db851d573f6cf32bf4af063324f61d8e1b791ca49bd959fff5e62f3cd90d"
+        }
+      },
+      "appearance": {
+        "kind": "source-style-v1",
+        "ink_box": [
+          0,
+          14,
+          190,
+          25
+        ],
+        "align": "center",
+        "gradient": [
+          [
+            0,
+            [
+              251,
+              255,
+              255,
+              255
+            ]
+          ],
+          [
+            700,
+            [
+              210,
+              255,
+              251,
+              255
+            ]
+          ],
+          [
+            1000,
+            [
+              165,
+              247,
+              239,
+              255
+            ]
+          ]
+        ],
+        "outline": [
+          8,
+          8,
+          10,
+          245
+        ],
+        "outline_width": 1.15,
+        "glow": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "glow_radius": 0,
+        "shadow": [
+          0,
+          0,
+          0,
+          230
+        ],
+        "shadow_offset": [
+          1,
+          2
+        ],
+        "shadow_radius": 0.65,
+        "italic": 0,
+        "tracking": 0,
+        "weight": 0,
+        "motion": 0
+      }
+    },
+    {
+      "id": "ui_batch_899_guest",
+      "text": "临时同伴",
+      "rect": [
+        128,
+        36,
+        256,
+        64
+      ],
+      "font_size": 28,
+      "font": {
+        "path": "build/font-source/NotoSansCJKsc-Regular.otf",
+        "sha256": "2c76254f6fc379fddfce0a7e84fb5385bb135d3e399294f6eeb6680d0365b74b"
+      },
+      "align": "center",
+      "ink_padding": {
+        "x": 1,
+        "y": 0
+      },
+      "style": {
+        "fill": [
+          180,
+          250,
+          255,
+          255
+        ],
+        "stroke_fill": [
+          20,
+          20,
+          20,
+          230
+        ],
+        "shadow_fill": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "restoration": {
+        "source_rgba_sha256": "10184956dbcafa6d6b2fa99d253143acc22c68c24193f0b58f9393096903711a",
+        "mask": {
+          "path": "locales/zh-Hans/texture-overlays/restorations/ui_batch_899_guest.mask.png",
+          "sha256": "047d0206db68d20b81e02e0609098685677c4aa52671aa433e80c97b67894394"
+        },
+        "patch": {
+          "path": "locales/zh-Hans/texture-overlays/restorations/ui_batch_899_guest.patch.png",
+          "sha256": "eca9b0214286c4dd4b62259adc0282e83137dfe8f17a660903513e1c54c302fe"
+        }
+      },
+      "appearance": {
+        "kind": "source-style-v1",
+        "ink_box": [
+          0,
+          20,
+          254,
+          24
+        ],
+        "align": "center",
+        "gradient": [
+          [
+            0,
+            [
+              251,
+              255,
+              255,
+              255
+            ]
+          ],
+          [
+            700,
+            [
+              210,
+              255,
+              251,
+              255
+            ]
+          ],
+          [
+            1000,
+            [
+              165,
+              247,
+              239,
+              255
+            ]
+          ]
+        ],
+        "outline": [
+          0,
+          115,
+          130,
+          255
+        ],
+        "outline_width": 1.15,
+        "glow": [
+          80,
+          245,
+          255,
+          240
+        ],
+        "glow_radius": 2.2,
+        "shadow": [
+          0,
+          0,
+          0,
+          230
+        ],
+        "shadow_offset": [
+          1,
+          2
+        ],
+        "shadow_radius": 0.65,
+        "italic": 0,
+        "tracking": 0,
+        "weight": 0,
+        "motion": 0
+      }
+    },
+    {
+      "id": "ui_batch_961_guest",
+      "text": "临时同伴",
+      "rect": [
+        64,
+        20,
+        132,
+        48
+      ],
+      "font_size": 22,
+      "font": {
+        "path": "build/font-source/NotoSansCJKsc-Regular.otf",
+        "sha256": "2c76254f6fc379fddfce0a7e84fb5385bb135d3e399294f6eeb6680d0365b74b"
+      },
+      "align": "center",
+      "ink_padding": {
+        "x": 1,
+        "y": 0
+      },
+      "style": {
+        "fill": [
+          180,
+          250,
+          255,
+          255
+        ],
+        "stroke_fill": [
+          20,
+          20,
+          20,
+          230
+        ],
+        "shadow_fill": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "restoration": {
+        "source_rgba_sha256": "0c94b32d055bc860079d15e57a89f31442fe80bb8e0391d678dfaccd6c6787cc",
+        "mask": {
+          "path": "locales/zh-Hans/texture-overlays/restorations/ui_batch_961_guest.mask.png",
+          "sha256": "71c13a26073d2fad801cead2dedf06f96c41cce9164041a59fe89f2500e037eb"
+        },
+        "patch": {
+          "path": "locales/zh-Hans/texture-overlays/restorations/ui_batch_961_guest.patch.png",
+          "sha256": "e43ad5470523188974d12c15921600ee09802011b69c898ecda5c9e7853301e9"
+        }
+      },
+      "appearance": {
+        "kind": "source-style-v1",
+        "ink_box": [
+          0,
+          18,
+          130,
+          20
+        ],
+        "align": "center",
+        "gradient": [
+          [
+            0,
+            [
+              251,
+              255,
+              255,
+              255
+            ]
+          ],
+          [
+            700,
+            [
+              210,
+              255,
+              251,
+              255
+            ]
+          ],
+          [
+            1000,
+            [
+              165,
+              247,
+              239,
+              255
+            ]
+          ]
+        ],
+        "outline": [
+          0,
+          115,
+          130,
+          255
+        ],
+        "outline_width": 1.15,
+        "glow": [
+          80,
+          245,
+          255,
+          240
+        ],
+        "glow_radius": 2.2,
+        "shadow": [
+          0,
+          0,
+          0,
+          230
+        ],
+        "shadow_offset": [
+          1,
+          2
+        ],
+        "shadow_radius": 0.65,
+        "italic": 0,
+        "tracking": 0,
+        "weight": 0,
+        "motion": 0
+      }
+    },
+    {
+      "id": "field_menu_location",
+      "text": "位置",
+      "rect": [
+        424,
+        0,
+        80,
+        16
+      ],
+      "font_size": 12,
+      "align": "center",
+      "ink_padding": {
+        "x": 1,
+        "y": 0
+      },
+      "font": {
+        "path": "build/font-source/NotoSansCJKsc-Regular.otf",
+        "sha256": "2c76254f6fc379fddfce0a7e84fb5385bb135d3e399294f6eeb6680d0365b74b"
+      },
+      "style": {
+        "fill": [
+          245,
+          224,
+          146,
+          255
+        ],
+        "stroke_fill": [
+          25,
+          18,
+          6,
+          220
+        ],
+        "shadow_fill": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "restoration": {
+        "source_rgba_sha256": "294afd2edfb30108a8bfa69c5895b3a56d02a4928c105daf7039f5b6f65ac53a",
+        "mask": {
+          "path": "locales/zh-Hans/texture-overlays/restorations/review-v3-20261026/field_menu_location-mask.png",
+          "sha256": "3c1b3f9c0533e38f6b1dcf2da5313e13d818153ea6cd879825230ea33896fcb2"
+        },
+        "patch": {
+          "path": "locales/zh-Hans/texture-overlays/restorations/review-v3-20261026/field_menu_location-patch.png",
+          "sha256": "f58ba10518164f05cd05ea87f446bd13b1a9e0fc7becaed777133cec6d949224"
+        }
+      },
+      "appearance": {
+        "kind": "source-style-v1",
+        "ink_box": [
+          2,
+          3,
+          76,
+          11
+        ],
+        "align": "left",
+        "gradient": [
+          [
+            0,
+            [
+              255,
+              255,
+              216,
+              255
+            ]
+          ],
+          [
+            380,
+            [
+              255,
+              242,
+              176,
+              255
+            ]
+          ],
+          [
+            1000,
+            [
+              224,
+              175,
+              96,
+              255
+            ]
+          ]
+        ],
+        "outline": [
+          55,
+          34,
+          9,
+          240
+        ],
+        "outline_width": 0.6,
+        "glow": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "glow_radius": 0,
+        "shadow": [
+          0,
+          0,
+          0,
+          230
+        ],
+        "shadow_offset": [
+          1,
+          1
+        ],
+        "shadow_radius": 0.65,
+        "italic": 0,
+        "tracking": 0,
+        "weight": 0,
+        "motion": 0
+      }
+    },
+    {
+      "id": "field_menu_play_time",
+      "text": "游戏时间",
+      "rect": [
+        424,
+        16,
+        80,
+        16
+      ],
+      "font_size": 12,
+      "align": "center",
+      "ink_padding": {
+        "x": 1,
+        "y": 0
+      },
+      "font": {
+        "path": "build/font-source/NotoSansCJKsc-Regular.otf",
+        "sha256": "2c76254f6fc379fddfce0a7e84fb5385bb135d3e399294f6eeb6680d0365b74b"
+      },
+      "style": {
+        "fill": [
+          245,
+          224,
+          146,
+          255
+        ],
+        "stroke_fill": [
+          25,
+          18,
+          6,
+          220
+        ],
+        "shadow_fill": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "restoration": {
+        "source_rgba_sha256": "1fd7ec88b800a69910326d481ed74092e718bf5868fd8d552377b6b4c090289f",
+        "mask": {
+          "path": "locales/zh-Hans/texture-overlays/restorations/review-v3-20261026/field_menu_play_time-mask.png",
+          "sha256": "7175eb4bf5477df5bebbb30d8fdf87bab0fca77895db57952f41c95a2ead250a"
+        },
+        "patch": {
+          "path": "locales/zh-Hans/texture-overlays/restorations/review-v3-20261026/field_menu_play_time-patch.png",
+          "sha256": "f58ba10518164f05cd05ea87f446bd13b1a9e0fc7becaed777133cec6d949224"
+        }
+      },
+      "appearance": {
+        "kind": "source-style-v1",
+        "ink_box": [
+          2,
+          3,
+          76,
+          11
+        ],
+        "align": "left",
+        "gradient": [
+          [
+            0,
+            [
+              255,
+              255,
+              216,
+              255
+            ]
+          ],
+          [
+            380,
+            [
+              255,
+              242,
+              176,
+              255
+            ]
+          ],
+          [
+            1000,
+            [
+              224,
+              175,
+              96,
+              255
+            ]
+          ]
+        ],
+        "outline": [
+          55,
+          34,
+          9,
+          240
+        ],
+        "outline_width": 0.6,
+        "glow": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "glow_radius": 0,
+        "shadow": [
+          0,
+          0,
+          0,
+          230
+        ],
+        "shadow_offset": [
+          1,
+          1
+        ],
+        "shadow_radius": 0.65,
+        "italic": 0,
+        "tracking": 0,
+        "weight": 0,
+        "motion": 0
+      }
+    },
+    {
+      "id": "field_menu_weapon_list",
+      "text": "武器列表",
+      "rect": [
+        284,
+        176,
+        92,
+        20
+      ],
+      "font_size": 12,
+      "align": "center",
+      "ink_padding": {
+        "x": 1,
+        "y": 0
+      },
+      "font": {
+        "path": "build/font-source/NotoSansCJKsc-Regular.otf",
+        "sha256": "2c76254f6fc379fddfce0a7e84fb5385bb135d3e399294f6eeb6680d0365b74b"
+      },
+      "style": {
+        "fill": [
+          245,
+          224,
+          146,
+          255
+        ],
+        "stroke_fill": [
+          25,
+          18,
+          6,
+          220
+        ],
+        "shadow_fill": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "restoration": {
+        "source_rgba_sha256": "329ef4a845736e0ad86969fdbfbf26e82a1f439641bcc850f8ed86f8deb612dc",
+        "mask": {
+          "path": "locales/zh-Hans/texture-overlays/restorations/review-v3-20261026/field_menu_weapon_list-mask.png",
+          "sha256": "ce2dc12f17440dc6ef67b12cea83a4bd1bdfa99044683f7552551b73c9a109de"
+        },
+        "patch": {
+          "path": "locales/zh-Hans/texture-overlays/restorations/review-v3-20261026/field_menu_weapon_list-patch.png",
+          "sha256": "c1f5a81b2372a2ae3b3545cf4d562b723c95ba44f6dd8ff7b2ffcd6f99ee06d5"
+        }
+      },
+      "appearance": {
+        "kind": "source-style-v1",
+        "ink_box": [
+          2,
+          4,
+          88,
+          12
+        ],
+        "align": "left",
+        "gradient": [
+          [
+            0,
+            [
+              255,
+              255,
+              216,
+              255
+            ]
+          ],
+          [
+            380,
+            [
+              255,
+              242,
+              176,
+              255
+            ]
+          ],
+          [
+            1000,
+            [
+              224,
+              175,
+              96,
+              255
+            ]
+          ]
+        ],
+        "outline": [
+          60,
+          37,
+          10,
+          240
+        ],
+        "outline_width": 0.6,
+        "glow": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "glow_radius": 0,
+        "shadow": [
+          0,
+          0,
+          0,
+          230
+        ],
+        "shadow_offset": [
+          1,
+          1
+        ],
+        "shadow_radius": 0.65,
+        "italic": 0.18,
+        "tracking": 0,
+        "weight": 0,
+        "motion": 0
+      }
+    },
+    {
+      "id": "field_menu_style_list",
+      "text": "风格列表",
+      "rect": [
+        376,
+        176,
+        80,
+        20
+      ],
+      "font_size": 12,
+      "align": "center",
+      "ink_padding": {
+        "x": 1,
+        "y": 0
+      },
+      "font": {
+        "path": "build/font-source/NotoSansCJKsc-Regular.otf",
+        "sha256": "2c76254f6fc379fddfce0a7e84fb5385bb135d3e399294f6eeb6680d0365b74b"
+      },
+      "style": {
+        "fill": [
+          245,
+          224,
+          146,
+          255
+        ],
+        "stroke_fill": [
+          25,
+          18,
+          6,
+          220
+        ],
+        "shadow_fill": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "restoration": {
+        "source_rgba_sha256": "82c8bf064852a09cfc2bbde5d5190b76c14fb6f4c89a685ee7438cfda86cd565",
+        "mask": {
+          "path": "locales/zh-Hans/texture-overlays/restorations/review-v3-20261026/field_menu_style_list-mask.png",
+          "sha256": "c54dd8c103ef2d7f3008090b77e5f281c8168c172145645a1fc3bb5c9366942e"
+        },
+        "patch": {
+          "path": "locales/zh-Hans/texture-overlays/restorations/review-v3-20261026/field_menu_style_list-patch.png",
+          "sha256": "3bc88a5d50c0292d19ee1e5645a0cb010a166081d7ee6a5e68f0ed1cc9f35544"
+        }
+      },
+      "appearance": {
+        "kind": "source-style-v1",
+        "ink_box": [
+          2,
+          4,
+          76,
+          12
+        ],
+        "align": "left",
+        "gradient": [
+          [
+            0,
+            [
+              255,
+              255,
+              216,
+              255
+            ]
+          ],
+          [
+            380,
+            [
+              255,
+              242,
+              176,
+              255
+            ]
+          ],
+          [
+            1000,
+            [
+              224,
+              175,
+              96,
+              255
+            ]
+          ]
+        ],
+        "outline": [
+          60,
+          37,
+          10,
+          240
+        ],
+        "outline_width": 0.6,
+        "glow": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "glow_radius": 0,
+        "shadow": [
+          0,
+          0,
+          0,
+          230
+        ],
+        "shadow_offset": [
+          1,
+          1
+        ],
+        "shadow_radius": 0.65,
+        "italic": 0.18,
+        "tracking": 0,
+        "weight": 0,
+        "motion": 0
+      }
+    },
+    {
+      "id": "field_menu_information",
+      "text": "信息",
+      "rect": [
+        284,
+        196,
+        128,
+        16
+      ],
+      "font_size": 12,
+      "align": "center",
+      "ink_padding": {
+        "x": 1,
+        "y": 0
+      },
+      "font": {
+        "path": "build/font-source/NotoSansCJKsc-Regular.otf",
+        "sha256": "2c76254f6fc379fddfce0a7e84fb5385bb135d3e399294f6eeb6680d0365b74b"
+      },
+      "style": {
+        "fill": [
+          245,
+          224,
+          146,
+          255
+        ],
+        "stroke_fill": [
+          25,
+          18,
+          6,
+          220
+        ],
+        "shadow_fill": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "restoration": {
+        "source_rgba_sha256": "11a517761c93c22cb0381154d8fe4308a6f1656ef8b099b38b25e33cfe0ab37d",
+        "mask": {
+          "path": "locales/zh-Hans/texture-overlays/restorations/review-v3-20261026/field_menu_information-mask.png",
+          "sha256": "80ef1d9786bf3eedb8df5b321de64d3faa3756e3b048a15458065ca9b842ed60"
+        },
+        "patch": {
+          "path": "locales/zh-Hans/texture-overlays/restorations/review-v3-20261026/field_menu_information-patch.png",
+          "sha256": "1f0d9942b197496ad93cfe45e5db4298a3af9510420ca5706adca5c3fb5e17b9"
+        }
+      },
+      "appearance": {
+        "kind": "source-style-v1",
+        "ink_box": [
+          2,
+          2,
+          124,
+          12
+        ],
+        "align": "left",
+        "gradient": [
+          [
+            0,
+            [
+              255,
+              255,
+              216,
+              255
+            ]
+          ],
+          [
+            380,
+            [
+              255,
+              242,
+              176,
+              255
+            ]
+          ],
+          [
+            1000,
+            [
+              224,
+              175,
+              96,
+              255
+            ]
+          ]
+        ],
+        "outline": [
+          60,
+          37,
+          10,
+          240
+        ],
+        "outline_width": 0.6,
+        "glow": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "glow_radius": 0,
+        "shadow": [
+          0,
+          0,
+          0,
+          230
+        ],
+        "shadow_offset": [
+          1,
+          1
+        ],
+        "shadow_radius": 0.65,
+        "italic": 0.18,
+        "tracking": 0,
+        "weight": 0,
+        "motion": 0
+      }
+    },
+    {
+      "id": "field_menu_current_kamond",
+      "text": "当前卡蒙德",
+      "rect": [
+        284,
+        212,
+        128,
+        20
+      ],
+      "font_size": 12,
+      "align": "center",
+      "ink_padding": {
+        "x": 1,
+        "y": 0
+      },
+      "font": {
+        "path": "build/font-source/NotoSansCJKsc-Regular.otf",
+        "sha256": "2c76254f6fc379fddfce0a7e84fb5385bb135d3e399294f6eeb6680d0365b74b"
+      },
+      "style": {
+        "fill": [
+          245,
+          224,
+          146,
+          255
+        ],
+        "stroke_fill": [
+          25,
+          18,
+          6,
+          220
+        ],
+        "shadow_fill": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "restoration": {
+        "source_rgba_sha256": "49c93786d47928e978a7fadff8a2e12270460f642f71015811a8cb481b768df9",
+        "mask": {
+          "path": "locales/zh-Hans/texture-overlays/restorations/review-v3-20261026/field_menu_current_kamond-mask.png",
+          "sha256": "861a54ad2c2d9c2df7c03e8f233d1948460aaae798e21ae8d6837a58ad89609a"
+        },
+        "patch": {
+          "path": "locales/zh-Hans/texture-overlays/restorations/review-v3-20261026/field_menu_current_kamond-patch.png",
+          "sha256": "bcb69b46bc427550f553d7533ebe67d610d7b3ac610038eb6094ac48c8f95cd9"
+        }
+      },
+      "appearance": {
+        "kind": "source-style-v1",
+        "ink_box": [
+          2,
+          4,
+          124,
+          12
+        ],
+        "align": "left",
+        "gradient": [
+          [
+            0,
+            [
+              255,
+              255,
+              216,
+              255
+            ]
+          ],
+          [
+            380,
+            [
+              255,
+              242,
+              176,
+              255
+            ]
+          ],
+          [
+            1000,
+            [
+              224,
+              175,
+              96,
+              255
+            ]
+          ]
+        ],
+        "outline": [
+          60,
+          37,
+          10,
+          240
+        ],
+        "outline_width": 0.6,
+        "glow": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "glow_radius": 0,
+        "shadow": [
+          0,
+          0,
+          0,
+          230
+        ],
+        "shadow_offset": [
+          1,
+          1
+        ],
+        "shadow_radius": 0.65,
+        "italic": 0.18,
+        "tracking": 0,
+        "weight": 0,
+        "motion": 0
+      }
+    },
+    {
+      "id": "field_menu_kamond_board",
+      "text": "卡蒙德盘",
+      "rect": [
+        284,
+        232,
+        128,
+        16
+      ],
+      "font_size": 12,
+      "align": "center",
+      "ink_padding": {
+        "x": 1,
+        "y": 0
+      },
+      "font": {
+        "path": "build/font-source/NotoSansCJKsc-Regular.otf",
+        "sha256": "2c76254f6fc379fddfce0a7e84fb5385bb135d3e399294f6eeb6680d0365b74b"
+      },
+      "style": {
+        "fill": [
+          245,
+          224,
+          146,
+          255
+        ],
+        "stroke_fill": [
+          25,
+          18,
+          6,
+          220
+        ],
+        "shadow_fill": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "restoration": {
+        "source_rgba_sha256": "fa8e87ba0ce7c5f5b931bbf3435cf06ffe6f43d13f0a9221f508a3b2cd236775",
+        "mask": {
+          "path": "locales/zh-Hans/texture-overlays/restorations/review-v3-20261026/field_menu_kamond_board-mask.png",
+          "sha256": "900078a3bf941f1967ae4af893241ba1730ec0c24668e07867b5c79a154b5236"
+        },
+        "patch": {
+          "path": "locales/zh-Hans/texture-overlays/restorations/review-v3-20261026/field_menu_kamond_board-patch.png",
+          "sha256": "1f0d9942b197496ad93cfe45e5db4298a3af9510420ca5706adca5c3fb5e17b9"
+        }
+      },
+      "appearance": {
+        "kind": "source-style-v1",
+        "ink_box": [
+          2,
+          2,
+          124,
+          12
+        ],
+        "align": "left",
+        "gradient": [
+          [
+            0,
+            [
+              255,
+              255,
+              216,
+              255
+            ]
+          ],
+          [
+            380,
+            [
+              255,
+              242,
+              176,
+              255
+            ]
+          ],
+          [
+            1000,
+            [
+              224,
+              175,
+              96,
+              255
+            ]
+          ]
+        ],
+        "outline": [
+          60,
+          37,
+          10,
+          240
+        ],
+        "outline_width": 0.6,
+        "glow": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "glow_radius": 0,
+        "shadow": [
+          0,
+          0,
+          0,
+          230
+        ],
+        "shadow_offset": [
+          1,
+          1
+        ],
+        "shadow_radius": 0.65,
+        "italic": 0.18,
+        "tracking": 0,
+        "weight": 0,
+        "motion": 0
+      }
+    },
+    {
+      "id": "field_menu_equip_list",
+      "text": "装备列表",
+      "rect": [
+        284,
+        248,
+        128,
+        20
+      ],
+      "font_size": 12,
+      "align": "center",
+      "ink_padding": {
+        "x": 1,
+        "y": 0
+      },
+      "font": {
+        "path": "build/font-source/NotoSansCJKsc-Regular.otf",
+        "sha256": "2c76254f6fc379fddfce0a7e84fb5385bb135d3e399294f6eeb6680d0365b74b"
+      },
+      "style": {
+        "fill": [
+          245,
+          224,
+          146,
+          255
+        ],
+        "stroke_fill": [
+          25,
+          18,
+          6,
+          220
+        ],
+        "shadow_fill": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "restoration": {
+        "source_rgba_sha256": "beb4f315df8c82ff996697b9521e5f3344b9d66ad6e2d7cb3a93f54dbd320827",
+        "mask": {
+          "path": "locales/zh-Hans/texture-overlays/restorations/review-v3-20261026/field_menu_equip_list-mask.png",
+          "sha256": "906145ad49f4949897e544d6c0715006e874b0d04a04e9b623ae478b0387f32b"
+        },
+        "patch": {
+          "path": "locales/zh-Hans/texture-overlays/restorations/review-v3-20261026/field_menu_equip_list-patch.png",
+          "sha256": "bcb69b46bc427550f553d7533ebe67d610d7b3ac610038eb6094ac48c8f95cd9"
+        }
+      },
+      "appearance": {
+        "kind": "source-style-v1",
+        "ink_box": [
+          2,
+          4,
+          124,
+          12
+        ],
+        "align": "left",
+        "gradient": [
+          [
+            0,
+            [
+              255,
+              255,
+              216,
+              255
+            ]
+          ],
+          [
+            380,
+            [
+              255,
+              242,
+              176,
+              255
+            ]
+          ],
+          [
+            1000,
+            [
+              224,
+              175,
+              96,
+              255
+            ]
+          ]
+        ],
+        "outline": [
+          60,
+          37,
+          10,
+          240
+        ],
+        "outline_width": 0.6,
+        "glow": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "glow_radius": 0,
+        "shadow": [
+          0,
+          0,
+          0,
+          230
+        ],
+        "shadow_offset": [
+          1,
+          1
+        ],
+        "shadow_radius": 0.65,
+        "italic": 0.18,
+        "tracking": 0,
+        "weight": 0,
+        "motion": 0
+      }
+    },
+    {
+      "id": "field_menu_master",
+      "text": "精通",
+      "rect": [
+        404,
+        52,
+        60,
+        20
+      ],
+      "font_size": 13,
+      "font": {
+        "path": "build/font-source/NotoSansCJKsc-Regular.otf",
+        "sha256": "2c76254f6fc379fddfce0a7e84fb5385bb135d3e399294f6eeb6680d0365b74b"
+      },
+      "align": "center",
+      "ink_padding": {
+        "x": 1,
+        "y": 0
+      },
+      "style": {
+        "fill": [
+          235,
+          255,
+          255,
+          255
+        ],
+        "stroke_fill": [
+          25,
+          145,
+          155,
+          200
+        ],
+        "shadow_fill": [
+          0,
+          180,
+          190,
+          180
+        ]
+      },
+      "restoration": {
+        "source_rgba_sha256": "d9a61cbbb0f44c1ff1c841ee4f3d81f7bca1a1a202a05e5e042992a0be5f6a2b",
+        "mask": {
+          "path": "locales/zh-Hans/texture-overlays/restorations/review-v3-20261026/field_menu_master-mask.png",
+          "sha256": "1eb443966cf802ceb8d08a1dc324d8392cbb03b898106730ac68467f984471d9"
+        },
+        "patch": {
+          "path": "locales/zh-Hans/texture-overlays/restorations/review-v3-20261026/field_menu_master-patch.png",
+          "sha256": "7e3538aee8e3650a96cae10ada1367f85e4e2f433f65aa9b8d1a5ac37a153d1e"
+        }
+      },
+      "appearance": {
+        "kind": "source-style-v1",
+        "ink_box": [
+          2,
+          3,
+          56,
+          12
+        ],
+        "align": "left",
+        "gradient": [
+          [
+            0,
+            [
+              243,
+              255,
+              255,
+              255
+            ]
+          ],
+          [
+            450,
+            [
+              204,
+              255,
+              255,
+              255
+            ]
+          ],
+          [
+            1000,
+            [
+              104,
+              232,
+              233,
+              255
+            ]
+          ]
+        ],
+        "outline": [
+          16,
+          115,
+          119,
+          255
+        ],
+        "outline_width": 0.65,
+        "glow": [
+          88,
+          244,
+          249,
+          160
+        ],
+        "glow_radius": 0.8,
+        "shadow": [
+          0,
+          0,
+          0,
+          230
+        ],
+        "shadow_offset": [
+          1,
+          1
+        ],
+        "shadow_radius": 0.65,
+        "italic": 0.18,
+        "tracking": 0,
+        "weight": 0,
+        "motion": 0
+      }
+    },
+    {
+      "id": "field_menu_sid",
+      "text": "SID",
+      "rect": [
+        424,
+        32,
+        80,
+        16
+      ],
+      "font_size": 12,
+      "align": "center",
+      "ink_padding": {
+        "x": 1,
+        "y": 0
+      },
+      "font": {
+        "path": "build/font-source/NotoSansCJKsc-Regular.otf",
+        "sha256": "2c76254f6fc379fddfce0a7e84fb5385bb135d3e399294f6eeb6680d0365b74b"
+      },
+      "style": {
+        "fill": [
+          245,
+          224,
+          146,
+          255
+        ],
+        "stroke_fill": [
+          25,
+          18,
+          6,
+          220
+        ],
+        "shadow_fill": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "appearance": {
+        "kind": "source-style-v1",
+        "ink_box": [
+          2,
+          3,
+          76,
+          10
+        ],
+        "align": "left",
+        "gradient": [
+          [
+            0,
+            [
+              255,
+              255,
+              216,
+              255
+            ]
+          ],
+          [
+            380,
+            [
+              255,
+              242,
+              176,
+              255
+            ]
+          ],
+          [
+            1000,
+            [
+              224,
+              175,
+              96,
+              255
+            ]
+          ]
+        ],
+        "outline": [
+          55,
+          34,
+          9,
+          240
+        ],
+        "outline_width": 0.6,
+        "glow": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "glow_radius": 0,
+        "shadow": [
+          0,
+          0,
+          0,
+          230
+        ],
+        "shadow_offset": [
+          1,
+          1
+        ],
+        "shadow_radius": 0.65,
+        "italic": 0,
+        "tracking": 0,
+        "weight": 0,
+        "motion": 0
+      },
+      "translation_basis": "protected-original-token-redrawn",
+      "restoration": {
+        "source_rgba_sha256": "250ebe50e4c5a2e942fc87a151a706acaaca29c36659d9eb6463d13322048893",
+        "mask": {
+          "path": "locales/zh-Hans/texture-overlays/restorations/review-v3-20261026/field_menu_sid-mask.png",
+          "sha256": "bd68b8c2a3c2e93d63c17dc937cb77dae7f024b8b5f08f8c0e371cec4959809e"
+        },
+        "patch": {
+          "path": "locales/zh-Hans/texture-overlays/restorations/review-v3-20261026/field_menu_sid-patch.png",
+          "sha256": "f58ba10518164f05cd05ea87f446bd13b1a9e0fc7becaed777133cec6d949224"
+        }
+      }
+    },
+    {
+      "id": "field_menu_left_residue_cleanup",
+      "text": "信息",
+      "rect": [
+        280,
+        176,
+        4,
+        92
+      ],
+      "font_size": 12,
+      "align": "center",
+      "ink_padding": {
+        "x": 1,
+        "y": 0
+      },
+      "font": {
+        "path": "build/font-source/NotoSansCJKsc-Regular.otf",
+        "sha256": "2c76254f6fc379fddfce0a7e84fb5385bb135d3e399294f6eeb6680d0365b74b"
+      },
+      "style": {
+        "fill": [
+          245,
+          224,
+          146,
+          255
+        ],
+        "stroke_fill": [
+          25,
+          18,
+          6,
+          220
+        ],
+        "shadow_fill": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "restoration": {
+        "source_rgba_sha256": "ecbd83ab68b92fd6b8a666b83679ac5d595488c1093045bd9c5757a0163dc13e",
+        "mask": {
+          "path": "locales/zh-Hans/texture-overlays/restorations/review-v5-20261026/field_menu_left_residue_cleanup-mask.png",
+          "sha256": "07776b68c1ff35cc80c3c92cb29325bd7b689f6f53a90270dd4574a592e018b8"
+        },
+        "patch": {
+          "path": "locales/zh-Hans/texture-overlays/restorations/review-v5-20261026/field_menu_left_residue_cleanup-patch.png",
+          "sha256": "69c875545af7ea0ea7addd3d2d1bd279acb4ab6e93310232de70ac3913295cfe"
+        }
+      },
+      "appearance": {
+        "kind": "preserve-source-v1"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "path": "MC2Game/CookedXenon/MC2Game.xxx",
+      "discs": [
+        1,
+        2
+      ],
+      "original": {
+        "path": "build/poc-game/disc1/MC2Game/CookedXenon/MC2Game.xxx",
+        "sha256": "13f92622e2ae2920f6ce6dfc7b0edbbcbec7e83adeacbd56fed84a021739a641"
+      },
+      "base": {
+        "path": "build/phase-285-verification/route-probe/candidate/MC2Game/CookedXenon/MC2Game.xxx",
+        "sha256": "5595562dab1233cbbf7979fff1b9c9ca031707b40f10adf75eb97ec1e999d425"
+      },
+      "textures": [
+        {
+          "object": "UI_Field.Textures.Field_MainMenu_Info_Tex_Guest",
+          "image_id": "ui_batch_899",
+          "regions": [
+            "ui_batch_899_guest"
+          ],
+          "profile": {
+            "kind": "xbox-inline-bc-v1",
+            "format": 7
+          },
+          "channel_mode": "rgba",
+          "preserve_unchanged_blocks": true,
+          "alpha_encoding": "adaptive-range",
+          "protected_regions": [
+            {
+              "id": "left_frame",
+              "rect": [
+                0,
+                0,
+                128,
+                128
+              ],
+              "rgba_sha256": "232e7db80c56dd13700bef15c7eab27021207bfe492ad2fdfd4ca35591d34c3c"
+            },
+            {
+              "id": "right_frame",
+              "rect": [
+                384,
+                0,
+                128,
+                128
+              ],
+              "rgba_sha256": "59cbb45d97534695be548d4f2e2c50b521a2f3429b84347d1eadd467e526a4e8"
+            },
+            {
+              "id": "top_frame",
+              "rect": [
+                128,
+                0,
+                256,
+                36
+              ],
+              "rgba_sha256": "8aff0bc47fd2df456e64398e2d07572c9d4f2eb737c6d554d8f6452aee9d9db2"
+            },
+            {
+              "id": "bottom_frame",
+              "rect": [
+                128,
+                100,
+                256,
+                28
+              ],
+              "rgba_sha256": "f8009f123eaa8b73d6e88b3ad424d758803b5b0c46d829ec70f31e5b9c975b8f"
+            }
+          ],
+          "payload_sha256": "c0d4e7631dbc5eab3e15d515d740021d6e6cd5824eefe216be30e7679f19b9b8",
+          "tiled_sha256": "da3ddc1b477b74adb017ba48765e8438736a19f55b0a1c3658553cbb86c9df36",
+          "dimensions": [
+            512,
+            128
+          ]
+        },
+        {
+          "object": "UI_Field_2.Textures.Item_Char_Box_Guest",
+          "image_id": "ui_batch_961",
+          "regions": [
+            "ui_batch_961_guest"
+          ],
+          "profile": {
+            "kind": "xbox-inline-bc-v1",
+            "format": 7
+          },
+          "channel_mode": "rgba",
+          "preserve_unchanged_blocks": true,
+          "alpha_encoding": "adaptive-range",
+          "protected_regions": [
+            {
+              "id": "left_panel",
+              "rect": [
+                0,
+                0,
+                64,
+                80
+              ],
+              "rgba_sha256": "eef276835f3c3026533e6af2b4378775f0cd3263b5950f3b72351328532e57d8"
+            },
+            {
+              "id": "right_panel",
+              "rect": [
+                196,
+                0,
+                12,
+                80
+              ],
+              "rgba_sha256": "600eec46aa4f9288f96b763055ecdd74f82e4aa469d331e4c11904768e637d78"
+            },
+            {
+              "id": "upper_panel",
+              "rect": [
+                64,
+                0,
+                132,
+                20
+              ],
+              "rgba_sha256": "c8ee269510fdb431830b5e9c72ec6139d917c52043172515db9517bd49d822dc"
+            },
+            {
+              "id": "lower_panel",
+              "rect": [
+                64,
+                68,
+                132,
+                12
+              ],
+              "rgba_sha256": "74b8909a34ea186d8c145365ba34855ca7ece28537bd4c7c3224ebdf26fa60fa"
+            }
+          ],
+          "payload_sha256": "f9d05893c459e1d73b1977a6d4e8419e567e4f5627d94e95c34cfb2bbf8577c5",
+          "tiled_sha256": "1476b1e0d59243a91e7176093f6ce3df3f539afc0fb01d7a4ee519da92cde989",
+          "dimensions": [
+            256,
+            128
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/UI_Field.xxx",
+      "discs": [
+        1,
+        2
+      ],
+      "original": {
+        "path": "build/poc-game/common/MC2Game/CookedXenon/UI_Field.xxx",
+        "sha256": "34cee17b049c0c6eacb0fb945504cb246ec2aa260d4f33e0d954b239cf8644c8"
+      },
+      "base": {
+        "path": "build/poc-game/common/MC2Game/CookedXenon/UI_Field.xxx",
+        "sha256": "34cee17b049c0c6eacb0fb945504cb246ec2aa260d4f33e0d954b239cf8644c8"
+      },
+      "textures": [
+        {
+          "object": "Textures.Field_MainMenu_Tex01",
+          "image_id": "field_mainmenu_atlas",
+          "regions": [
+            "field_menu_guest",
+            "field_menu_location",
+            "field_menu_play_time",
+            "field_menu_weapon_list",
+            "field_menu_style_list",
+            "field_menu_information",
+            "field_menu_current_kamond",
+            "field_menu_kamond_board",
+            "field_menu_equip_list",
+            "field_menu_master",
+            "field_menu_sid",
+            "field_menu_left_residue_cleanup"
+          ],
+          "profile": {
+            "kind": "xbox-inline-bc-v1",
+            "format": 7
+          },
+          "channel_mode": "rgba",
+          "preserve_unchanged_blocks": true,
+          "alpha_encoding": "adaptive-range",
+          "protected_regions": [
+            {
+              "id": "original_SID_arrow_only",
+              "rect": [
+                404,
+                32,
+                20,
+                16
+              ],
+              "rgba_sha256": "f34bae647485b65b3407d5abc442aa14367fcfa0b85f50bc7561b53f6da13823"
+            },
+            {
+              "id": "hp_exp_lv_panel",
+              "rect": [
+                0,
+                136,
+                280,
+                128
+              ],
+              "rgba_sha256": "72ff94a26c8234255ed0e52134a4877df4496985a114ff87ceef3fa813035924"
+            },
+            {
+              "id": "blue_panel_art",
+              "rect": [
+                280,
+                136,
+                136,
+                40
+              ],
+              "rgba_sha256": "f86bf6ee5ce7cd8f36c7cbde04c88311e27f2d2e65a72d0903c2491c2056e3dc"
+            }
+          ],
+          "payload_sha256": "21c8e65f844b6cd3bbff67155c625741290bf6ef8341110559ac35319523e20f",
+          "tiled_sha256": "2c356bbcd253638f802d149beb3e7c05e58b76bed2e16912086c8681f4eb6327",
+          "dimensions": [
+            512,
+            512
+          ]
+        },
+        {
+          "object": "Textures.Field_MainMenu_Info_Tex_Guest",
+          "image_id": "ui_batch_899",
+          "regions": [
+            "ui_batch_899_guest"
+          ],
+          "profile": {
+            "kind": "xbox-inline-bc-v1",
+            "format": 7
+          },
+          "channel_mode": "rgba",
+          "preserve_unchanged_blocks": true,
+          "alpha_encoding": "adaptive-range",
+          "protected_regions": [
+            {
+              "id": "left_frame",
+              "rect": [
+                0,
+                0,
+                128,
+                128
+              ],
+              "rgba_sha256": "232e7db80c56dd13700bef15c7eab27021207bfe492ad2fdfd4ca35591d34c3c"
+            },
+            {
+              "id": "right_frame",
+              "rect": [
+                384,
+                0,
+                128,
+                128
+              ],
+              "rgba_sha256": "59cbb45d97534695be548d4f2e2c50b521a2f3429b84347d1eadd467e526a4e8"
+            },
+            {
+              "id": "top_frame",
+              "rect": [
+                128,
+                0,
+                256,
+                36
+              ],
+              "rgba_sha256": "8aff0bc47fd2df456e64398e2d07572c9d4f2eb737c6d554d8f6452aee9d9db2"
+            },
+            {
+              "id": "bottom_frame",
+              "rect": [
+                128,
+                100,
+                256,
+                28
+              ],
+              "rgba_sha256": "f8009f123eaa8b73d6e88b3ad424d758803b5b0c46d829ec70f31e5b9c975b8f"
+            }
+          ],
+          "payload_sha256": "a483e4ef7e2c6ed8f418b893fe789891def51f76c552b702e5a8b7fcb7c13bc1",
+          "tiled_sha256": "da3ddc1b477b74adb017ba48765e8438736a19f55b0a1c3658553cbb86c9df36",
+          "dimensions": [
+            512,
+            128
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/UI_Field_2.xxx",
+      "discs": [
+        1,
+        2
+      ],
+      "original": {
+        "path": "build/poc-game/common/MC2Game/CookedXenon/UI_Field_2.xxx",
+        "sha256": "025e5f575356cffa76ada2d582997158474e4d035eca0ee3756b94a8663bbf1d"
+      },
+      "base": {
+        "path": "build/poc-game/common/MC2Game/CookedXenon/UI_Field_2.xxx",
+        "sha256": "025e5f575356cffa76ada2d582997158474e4d035eca0ee3756b94a8663bbf1d"
+      },
+      "textures": [
+        {
+          "object": "Textures.Item_Char_Box_Guest",
+          "image_id": "ui_batch_961",
+          "regions": [
+            "ui_batch_961_guest"
+          ],
+          "profile": {
+            "kind": "xbox-inline-bc-v1",
+            "format": 7
+          },
+          "channel_mode": "rgba",
+          "preserve_unchanged_blocks": true,
+          "alpha_encoding": "adaptive-range",
+          "protected_regions": [
+            {
+              "id": "left_panel",
+              "rect": [
+                0,
+                0,
+                64,
+                80
+              ],
+              "rgba_sha256": "eef276835f3c3026533e6af2b4378775f0cd3263b5950f3b72351328532e57d8"
+            },
+            {
+              "id": "right_panel",
+              "rect": [
+                196,
+                0,
+                12,
+                80
+              ],
+              "rgba_sha256": "600eec46aa4f9288f96b763055ecdd74f82e4aa469d331e4c11904768e637d78"
+            },
+            {
+              "id": "upper_panel",
+              "rect": [
+                64,
+                0,
+                132,
+                20
+              ],
+              "rgba_sha256": "c8ee269510fdb431830b5e9c72ec6139d917c52043172515db9517bd49d822dc"
+            },
+            {
+              "id": "lower_panel",
+              "rect": [
+                64,
+                68,
+                132,
+                12
+              ],
+              "rgba_sha256": "74b8909a34ea186d8c145365ba34855ca7ece28537bd4c7c3224ebdf26fa60fa"
+            }
+          ],
+          "payload_sha256": "0fe64ef364ac7fc8fd93ab1919fa0269448d0a2e23e61f9ed8a31726af5bed06",
+          "tiled_sha256": "1476b1e0d59243a91e7176093f6ce3df3f539afc0fb01d7a4ee519da92cde989",
+          "dimensions": [
+            256,
+            128
+          ]
+        }
+      ]
+    }
+  ]
+}

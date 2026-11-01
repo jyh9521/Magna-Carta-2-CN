@@ -9,8 +9,8 @@
     "iso_sha256": "23e96219aa8b2116239c35e6f65013329bfd298d46a726edffa5224498028ac5",
     "inventory": "build\\disc1-hashed.json",
     "inventory_sha256": "2f09849a02729be1d2cae94de5e3e6a1f9fdbf5efa0e007c192a55f2f1bb56d9",
-    "packet": "build/phase-338-hud-mixed-spacing/packet",
-    "manifest_sha256": "fcc0549c928be6bde923bbd5e550e29627ceadd1563451e27b30ae1e31db1f01"
+    "packet": "build/phase-340-ui-feedback/packet",
+    "manifest_sha256": "5c7b7df51f72135528a9e95982d2744536e7c4a6553098d5a42a4adb4f9591a9"
   },
   "disc2": {
     "iso": "MagnaCarta II (Korea) (Disc 2).iso",
@@ -20,7 +20,13 @@
     "packet": "build/phase-322-review-v6/disc2-comparison-final",
     "manifest_sha256": "afce2b33fc64e7b8d1b91d5950ac7e998ead7fc81edd898576dc0d982da20457",
     "journal": "build\\phase-330-gameplay-qa\\disc2-refresh\\plan.json",
-    "journal_sha256": "076c5067436f2abe79300da6d994dd3b414c1c647224af3f5bd0bbe1529d332e"
+    "journal_sha256": "076c5067436f2abe79300da6d994dd3b414c1c647224af3f5bd0bbe1529d332e",
+    "resource_updates": [
+      {
+        "manifest": "build/phase-340-ui-feedback/disc2/replacements-disc2-only.json",
+        "sha256": "5e2606b9de9c8bc76edfd65605caf427d7768f7278e4c1ba225db9b7d7f0532b"
+      }
+    ]
   },
   "tools": {
     "lzx": {

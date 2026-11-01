@@ -1,0 +1,948 @@
+{
+  "schema_version": 1,
+  "kind": "native-ui-ink-audit",
+  "ui_resource": "MC2Game/CookedXenon/MC2Game.xxx",
+  "spacing_plan": "locales/zh-Hans/gameplay-ui-spacing-v13.json",
+  "button_core_tolerance": 0.5,
+  "right_tolerance": 0.0,
+  "name_font": "Font.General_15",
+  "number_font": "font_ui.NormalNumber",
+  "buttons": [
+    {
+      "name": "道具",
+      "parent": "UI_Core.Scenes.QuickMenu.BundlePannel.CategoryBundle.CategoryBox_0",
+      "label": "UI_Core.Scenes.QuickMenu.BundlePannel.CategoryBundle.CategoryBox_0.Category_0",
+      "states": [
+        {
+          "name": "Normal",
+          "resource": "MC2Game/CookedXenon/Startup_int.xxx",
+          "object": "UI_Name_Jpn.Tex.QuickMenu_MenuButton_Normal",
+          "uv": [
+            0,
+            0,
+            90,
+            30
+          ]
+        },
+        {
+          "name": "Click",
+          "resource": "MC2Game/CookedXenon/Startup_int.xxx",
+          "object": "UI_Name_Jpn.Tex.QuickMenu_MenuButton_Click",
+          "uv": [
+            0,
+            0,
+            90,
+            30
+          ]
+        }
+      ]
+    },
+    {
+      "name": "队长",
+      "parent": "UI_Core.Scenes.QuickMenu.BundlePannel.CategoryBundle.CategoryBox_1",
+      "label": "UI_Core.Scenes.QuickMenu.BundlePannel.CategoryBundle.CategoryBox_1.Category_1",
+      "states": [
+        {
+          "name": "Normal",
+          "resource": "MC2Game/CookedXenon/Startup_int.xxx",
+          "object": "UI_Name_Jpn.Tex.QuickMenu_MenuButton_Normal",
+          "uv": [
+            0,
+            31,
+            90,
+            30
+          ]
+        },
+        {
+          "name": "Click",
+          "resource": "MC2Game/CookedXenon/Startup_int.xxx",
+          "object": "UI_Name_Jpn.Tex.QuickMenu_MenuButton_Click",
+          "uv": [
+            0,
+            31,
+            90,
+            30
+          ]
+        }
+      ]
+    },
+    {
+      "name": "AI设置",
+      "parent": "UI_Core.Scenes.QuickMenu.BundlePannel.CategoryBundle.CategoryBox_2",
+      "label": "UI_Core.Scenes.QuickMenu.BundlePannel.CategoryBundle.CategoryBox_2.Category_2",
+      "states": [
+        {
+          "name": "Normal",
+          "resource": "MC2Game/CookedXenon/Startup_int.xxx",
+          "object": "UI_Name_Jpn.Tex.QuickMenu_MenuButton_Normal",
+          "uv": [
+            0,
+            62,
+            90,
+            30
+          ]
+        },
+        {
+          "name": "Click",
+          "resource": "MC2Game/CookedXenon/Startup_int.xxx",
+          "object": "UI_Name_Jpn.Tex.QuickMenu_MenuButton_Click",
+          "uv": [
+            0,
+            62,
+            90,
+            30
+          ]
+        }
+      ]
+    }
+  ],
+  "english": [
+    {
+      "resource": "MC2Game/CookedXenon/Map_View_DunanHill.xxx",
+      "object": "Map_View_DunanHill_Title",
+      "rectangles": [
+        [
+          0,
+          44,
+          256,
+          20
+        ]
+      ],
+      "rgb_ceiling": 32,
+      "max_retained_delta": 24
+    },
+    {
+      "resource": "MC2Game/CookedXenon/Map_View_Abazet.xxx",
+      "object": "Map_View_Abazet_1",
+      "rectangles": [
+        [
+          276,
+          44,
+          64,
+          28
+        ]
+      ],
+      "rgb_ceiling": 32,
+      "max_retained_delta": 24
+    },
+    {
+      "resource": "MC2Game/CookedXenon/Map_View_Cotamare.xxx",
+      "object": "Map_View_Cotamare1",
+      "rectangles": [
+        [
+          352,
+          416,
+          160,
+          32
+        ]
+      ],
+      "rgb_ceiling": 32,
+      "max_retained_delta": 24
+    },
+    {
+      "resource": "MC2Game/CookedXenon/Map_View_DunanF.xxx",
+      "object": "Map_View_DunanF",
+      "rectangles": [
+        [
+          160,
+          284,
+          160,
+          32
+        ]
+      ],
+      "rgb_ceiling": 32,
+      "max_retained_delta": 24
+    },
+    {
+      "resource": "MC2Game/CookedXenon/Map_View_Highwind.xxx",
+      "object": "Map_Highwind_Down",
+      "rectangles": [
+        [
+          320,
+          16,
+          192,
+          36
+        ]
+      ],
+      "rgb_ceiling": 32,
+      "max_retained_delta": 24
+    },
+    {
+      "resource": "MC2Game/CookedXenon/Map_View_Highwind_2.xxx",
+      "object": "Map_Highwind_Down",
+      "rectangles": [
+        [
+          320,
+          16,
+          192,
+          36
+        ]
+      ],
+      "rgb_ceiling": 32,
+      "max_retained_delta": 24
+    },
+    {
+      "resource": "MC2Game/CookedXenon/Map_View_Oldfox.xxx",
+      "object": "Map_View_Oldfox",
+      "rectangles": [
+        [
+          680,
+          72,
+          256,
+          32
+        ]
+      ],
+      "rgb_ceiling": 32,
+      "max_retained_delta": 24
+    },
+    {
+      "resource": "MC2Game/CookedXenon/Map_View_Undersea.xxx",
+      "object": "Map_View_Undersea",
+      "rectangles": [
+        [
+          264,
+          444,
+          144,
+          28
+        ]
+      ],
+      "rgb_ceiling": 32,
+      "max_retained_delta": 24
+    },
+    {
+      "resource": "MC2Game/CookedXenon/Map_View_Lastrada_00.xxx",
+      "object": "Map_View_Lastrada_Title",
+      "rectangles": [
+        [
+          0,
+          44,
+          256,
+          20
+        ]
+      ],
+      "rgb_ceiling": 32,
+      "max_retained_delta": 24
+    },
+    {
+      "resource": "MC2Game/CookedXenon/Map_View_Lastrada_01.xxx",
+      "object": "Map_View_Lastrada_Title",
+      "rectangles": [
+        [
+          0,
+          44,
+          256,
+          20
+        ]
+      ],
+      "rgb_ceiling": 32,
+      "max_retained_delta": 24
+    },
+    {
+      "resource": "MC2Game/CookedXenon/Map_View_Lastrada_02.xxx",
+      "object": "Map_View_Lastrada_Title",
+      "rectangles": [
+        [
+          0,
+          44,
+          256,
+          20
+        ]
+      ],
+      "rgb_ceiling": 32,
+      "max_retained_delta": 24
+    },
+    {
+      "resource": "MC2Game/CookedXenon/Map_View_Lastrada_03.xxx",
+      "object": "Map_View_Lastrada_Title",
+      "rectangles": [
+        [
+          0,
+          44,
+          256,
+          20
+        ]
+      ],
+      "rgb_ceiling": 32,
+      "max_retained_delta": 24
+    },
+    {
+      "resource": "MC2Game/CookedXenon/Map_View_Lastrada_04.xxx",
+      "object": "Map_View_Lastrada_Title",
+      "rectangles": [
+        [
+          0,
+          44,
+          256,
+          20
+        ]
+      ],
+      "rgb_ceiling": 32,
+      "max_retained_delta": 24
+    },
+    {
+      "resource": "MC2Game/CookedXenon/Map_View_Lastrada_05.xxx",
+      "object": "Map_View_Lastrada_Title",
+      "rectangles": [
+        [
+          0,
+          44,
+          256,
+          20
+        ]
+      ],
+      "rgb_ceiling": 32,
+      "max_retained_delta": 24
+    },
+    {
+      "resource": "MC2Game/CookedXenon/Map_View_Lastrada_06.xxx",
+      "object": "Map_View_Lastrada_Title",
+      "rectangles": [
+        [
+          0,
+          44,
+          256,
+          20
+        ]
+      ],
+      "rgb_ceiling": 32,
+      "max_retained_delta": 24
+    },
+    {
+      "resource": "MC2Game/CookedXenon/Map_View_Lastrada_07.xxx",
+      "object": "Map_View_Lastrada_Title",
+      "rectangles": [
+        [
+          0,
+          44,
+          256,
+          20
+        ]
+      ],
+      "rgb_ceiling": 32,
+      "max_retained_delta": 24
+    },
+    {
+      "resource": "MC2Game/CookedXenon/Map_View_Lastrada_08.xxx",
+      "object": "Map_View_Lastrada_Title",
+      "rectangles": [
+        [
+          0,
+          44,
+          256,
+          20
+        ]
+      ],
+      "rgb_ceiling": 32,
+      "max_retained_delta": 24
+    },
+    {
+      "resource": "MC2Game/CookedXenon/Map_View_Lastrada_09.xxx",
+      "object": "Map_View_Lastrada_Title",
+      "rectangles": [
+        [
+          0,
+          44,
+          256,
+          20
+        ]
+      ],
+      "rgb_ceiling": 32,
+      "max_retained_delta": 24
+    },
+    {
+      "resource": "MC2Game/CookedXenon/Map_View_Lastrada_10.xxx",
+      "object": "Map_View_Lastrada_Title",
+      "rectangles": [
+        [
+          0,
+          44,
+          256,
+          20
+        ]
+      ],
+      "rgb_ceiling": 32,
+      "max_retained_delta": 24
+    },
+    {
+      "resource": "MC2Game/CookedXenon/Map_View_Lastrada_11.xxx",
+      "object": "Map_View_Lastrada_Title",
+      "rectangles": [
+        [
+          0,
+          44,
+          256,
+          20
+        ]
+      ],
+      "rgb_ceiling": 32,
+      "max_retained_delta": 24
+    },
+    {
+      "resource": "MC2Game/CookedXenon/Map_View_Lastrada_12.xxx",
+      "object": "Map_View_Lastrada_Title",
+      "rectangles": [
+        [
+          0,
+          44,
+          256,
+          20
+        ]
+      ],
+      "rgb_ceiling": 32,
+      "max_retained_delta": 24
+    },
+    {
+      "resource": "MC2Game/CookedXenon/Map_View_Lastrada_13.xxx",
+      "object": "Map_View_Lastrada_Title",
+      "rectangles": [
+        [
+          0,
+          44,
+          256,
+          20
+        ]
+      ],
+      "rgb_ceiling": 32,
+      "max_retained_delta": 24
+    },
+    {
+      "resource": "MC2Game/CookedXenon/Map_View_Lastrada_14.xxx",
+      "object": "Map_View_Lastrada_Title",
+      "rectangles": [
+        [
+          0,
+          44,
+          256,
+          20
+        ]
+      ],
+      "rgb_ceiling": 32,
+      "max_retained_delta": 24
+    },
+    {
+      "resource": "MC2Game/CookedXenon/Map_View_Lastrada_15.xxx",
+      "object": "Map_View_Lastrada_Title",
+      "rectangles": [
+        [
+          0,
+          44,
+          256,
+          20
+        ]
+      ],
+      "rgb_ceiling": 32,
+      "max_retained_delta": 24
+    },
+    {
+      "resource": "MC2Game/CookedXenon/Map_View_Lastrada_16.xxx",
+      "object": "Map_View_Lastrada_Title",
+      "rectangles": [
+        [
+          0,
+          44,
+          256,
+          20
+        ]
+      ],
+      "rgb_ceiling": 32,
+      "max_retained_delta": 24
+    },
+    {
+      "resource": "MC2Game/CookedXenon/Map_View_Lastrada_17.xxx",
+      "object": "Map_View_Lastrada_Title",
+      "rectangles": [
+        [
+          0,
+          44,
+          256,
+          20
+        ]
+      ],
+      "rgb_ceiling": 32,
+      "max_retained_delta": 24
+    },
+    {
+      "resource": "MC2Game/CookedXenon/Map_View_SentinelLab.xxx",
+      "object": "Map_View_Senti_Title",
+      "rectangles": [
+        [
+          0,
+          56,
+          256,
+          44
+        ]
+      ],
+      "rgb_ceiling": 32,
+      "max_retained_delta": 24
+    },
+    {
+      "resource": "MC2Game/CookedXenon/Map_View_Ruhalt_East.xxx",
+      "object": "Map_View_Ruhalt",
+      "rectangles": [
+        [
+          80,
+          88,
+          196,
+          32
+        ],
+        [
+          760,
+          288,
+          204,
+          40
+        ]
+      ],
+      "rgb_ceiling": 32,
+      "max_retained_delta": 24
+    },
+    {
+      "resource": "MC2Game/CookedXenon/Map_View_Ruhalt_West.xxx",
+      "object": "Map_View_Ruhalt",
+      "rectangles": [
+        [
+          80,
+          88,
+          196,
+          32
+        ],
+        [
+          760,
+          288,
+          204,
+          40
+        ]
+      ],
+      "rgb_ceiling": 32,
+      "max_retained_delta": 24
+    },
+    {
+      "resource": "MC2Game/CookedXenon/Map_View_Undersea_2.xxx",
+      "object": "Map_View_Undersea_2",
+      "rectangles": [
+        [
+          264,
+          444,
+          144,
+          28
+        ]
+      ],
+      "rgb_ceiling": 32,
+      "max_retained_delta": 24
+    },
+    {
+      "resource": "MC2Game/CookedXenon/Map_View_Velfort_01.xxx",
+      "object": "Map_View_Velfort01",
+      "rectangles": [
+        [
+          60,
+          356,
+          80,
+          32
+        ]
+      ],
+      "rgb_ceiling": 32,
+      "max_retained_delta": 24
+    },
+    {
+      "resource": "MC2Game/CookedXenon/Map_View_Velfort_02.xxx",
+      "object": "Map_View_Velfort01",
+      "rectangles": [
+        [
+          60,
+          356,
+          80,
+          32
+        ]
+      ],
+      "rgb_ceiling": 32,
+      "max_retained_delta": 24
+    },
+    {
+      "resource": "MC2Game/CookedXenon/Map_View_Velfort_03.xxx",
+      "object": "Map_View_Velfort01",
+      "rectangles": [
+        [
+          60,
+          356,
+          80,
+          32
+        ]
+      ],
+      "rgb_ceiling": 32,
+      "max_retained_delta": 24
+    },
+    {
+      "resource": "MC2Game/CookedXenon/Map_View_Velfort_04.xxx",
+      "object": "Map_View_Velfort01",
+      "rectangles": [
+        [
+          60,
+          356,
+          80,
+          32
+        ]
+      ],
+      "rgb_ceiling": 32,
+      "max_retained_delta": 24
+    },
+    {
+      "resource": "MC2Game/CookedXenon/Map_View_Velfort_05.xxx",
+      "object": "Map_View_Velfort01",
+      "rectangles": [
+        [
+          60,
+          356,
+          80,
+          32
+        ]
+      ],
+      "rgb_ceiling": 32,
+      "max_retained_delta": 24
+    },
+    {
+      "resource": "MC2Game/CookedXenon/Map_View_Velfort_06.xxx",
+      "object": "Map_View_Velfort01",
+      "rectangles": [
+        [
+          60,
+          356,
+          80,
+          32
+        ]
+      ],
+      "rgb_ceiling": 32,
+      "max_retained_delta": 24
+    },
+    {
+      "resource": "MC2Game/CookedXenon/Map_View_Velfort_07.xxx",
+      "object": "Map_View_Velfort01",
+      "rectangles": [
+        [
+          60,
+          356,
+          80,
+          32
+        ]
+      ],
+      "rgb_ceiling": 32,
+      "max_retained_delta": 24
+    },
+    {
+      "resource": "MC2Game/CookedXenon/Map_View_Velfort_08.xxx",
+      "object": "Map_View_Velfort01",
+      "rectangles": [
+        [
+          60,
+          356,
+          80,
+          32
+        ]
+      ],
+      "rgb_ceiling": 32,
+      "max_retained_delta": 24
+    },
+    {
+      "resource": "MC2Game/CookedXenon/Map_View_Velfort_09.xxx",
+      "object": "Map_View_Velfort01",
+      "rectangles": [
+        [
+          60,
+          356,
+          80,
+          32
+        ]
+      ],
+      "rgb_ceiling": 32,
+      "max_retained_delta": 24
+    },
+    {
+      "resource": "MC2Game/CookedXenon/Map_View_Velfort_10.xxx",
+      "object": "Map_View_Velfort01",
+      "rectangles": [
+        [
+          60,
+          356,
+          80,
+          32
+        ]
+      ],
+      "rgb_ceiling": 32,
+      "max_retained_delta": 24
+    },
+    {
+      "resource": "MC2Game/CookedXenon/Map_View_Velfort_11.xxx",
+      "object": "Map_View_Velfort01",
+      "rectangles": [
+        [
+          60,
+          356,
+          80,
+          32
+        ]
+      ],
+      "rgb_ceiling": 32,
+      "max_retained_delta": 24
+    },
+    {
+      "resource": "MC2Game/CookedXenon/Map_View_Velfort_12.xxx",
+      "object": "Map_View_Velfort01",
+      "rectangles": [
+        [
+          60,
+          356,
+          80,
+          32
+        ]
+      ],
+      "rgb_ceiling": 32,
+      "max_retained_delta": 24
+    }
+  ],
+  "guests": [
+    {
+      "id": "hud_complete_00_02",
+      "resource": "MC2Game/CookedXenon/MC2Game.xxx",
+      "object": "UI_Battle.Tex.Battle",
+      "ink_box": [
+        384,
+        3,
+        54,
+        14
+      ]
+    },
+    {
+      "id": "hud_complete_17_00",
+      "resource": "MC2Game/CookedXenon/MC2Game.xxx",
+      "object": "UI_Battle_Master.Tex.Battel_Chra_Guest",
+      "ink_box": [
+        160,
+        10,
+        62,
+        13
+      ]
+    },
+    {
+      "id": "ui_batch_899_guest",
+      "resource": "MC2Game/CookedXenon/MC2Game.xxx",
+      "object": "UI_Field.Textures.Field_MainMenu_Info_Tex_Guest",
+      "ink_box": [
+        128,
+        56,
+        254,
+        24
+      ]
+    },
+    {
+      "id": "ui_batch_961_guest",
+      "resource": "MC2Game/CookedXenon/MC2Game.xxx",
+      "object": "UI_Field_2.Textures.Item_Char_Box_Guest",
+      "ink_box": [
+        64,
+        38,
+        130,
+        20
+      ]
+    },
+    {
+      "id": "ui_guest_icon",
+      "resource": "MC2Game/CookedXenon/TitleMap_MSPT.xxx",
+      "object": "UI_Pillar_Title.Tex.Guest_Icon",
+      "ink_box": [
+        0,
+        7,
+        64,
+        16
+      ]
+    },
+    {
+      "id": "hud_complete_00_02",
+      "resource": "MC2Game/CookedXenon/UI_Battle.xxx",
+      "object": "Tex.Battle",
+      "ink_box": [
+        384,
+        3,
+        54,
+        14
+      ]
+    },
+    {
+      "id": "hud_complete_17_00",
+      "resource": "MC2Game/CookedXenon/UI_Battle_Master.xxx",
+      "object": "Tex.Battel_Chra_Guest",
+      "ink_box": [
+        160,
+        10,
+        62,
+        13
+      ]
+    },
+    {
+      "id": "field_menu_guest",
+      "resource": "MC2Game/CookedXenon/UI_Field.xxx",
+      "object": "Textures.Field_MainMenu_Tex01",
+      "ink_box": [
+        148,
+        58,
+        190,
+        25
+      ],
+      "minimum_green": 160
+    },
+    {
+      "id": "ui_batch_899_guest",
+      "resource": "MC2Game/CookedXenon/UI_Field.xxx",
+      "object": "Textures.Field_MainMenu_Info_Tex_Guest",
+      "ink_box": [
+        128,
+        56,
+        254,
+        24
+      ]
+    },
+    {
+      "id": "ui_batch_961_guest",
+      "resource": "MC2Game/CookedXenon/UI_Field_2.xxx",
+      "object": "Textures.Item_Char_Box_Guest",
+      "ink_box": [
+        64,
+        38,
+        130,
+        20
+      ]
+    },
+    {
+      "id": "ui_guest_icon",
+      "resource": "MC2Game/CookedXenon/UI_Pillar.xxx",
+      "object": "Tex.Guest_Icon",
+      "ink_box": [
+        0,
+        7,
+        64,
+        16
+      ]
+    },
+    {
+      "id": "ui_guest_icon",
+      "resource": "MC2Game/CookedXenon/UI_Pillar.xxx",
+      "object": "UI_Pillar_Title.Tex.Guest_Icon",
+      "ink_box": [
+        0,
+        7,
+        64,
+        16
+      ]
+    },
+    {
+      "id": "ui_guest_icon",
+      "resource": "MC2Game/CookedXenon/UI_Pillar_Title.xxx",
+      "object": "Tex.Guest_Icon",
+      "ink_box": [
+        0,
+        7,
+        64,
+        16
+      ]
+    }
+  ],
+  "guest_bottom_green_min": 195,
+  "party_file": "MC2UI.int",
+  "party_samples": [
+    "洁菲",
+    "阿尔戈",
+    "洁菲，阿尔戈",
+    "朱特，洁菲，阿尔戈"
+  ],
+  "subject_keys": [
+    [
+      "diction",
+      "Subjective_0"
+    ],
+    [
+      "diction",
+      "Subjective_1"
+    ]
+  ],
+  "party_keys": [
+    [
+      "System_Log",
+      "JoinParty"
+    ],
+    [
+      "System_Log",
+      "JoinGuest"
+    ],
+    [
+      "System_Log",
+      "LeaveParty"
+    ],
+    [
+      "System_Log",
+      "LeaveGuest"
+    ]
+  ],
+  "atomic_text": [
+    {
+      "file": "MC2UI.int",
+      "section": "Battle_Log",
+      "key": "LevelUp",
+      "expected": "已升级"
+    },
+    {
+      "file": "MC2UI.int",
+      "section": "System_Log",
+      "key": "JoinParty",
+      "expected": "\\n已加入队伍"
+    },
+    {
+      "file": "MC2UI.int",
+      "section": "System_Log",
+      "key": "LeaveParty",
+      "expected": "\\n已离开队伍"
+    },
+    {
+      "file": "MC2UI.int",
+      "section": "System_Log",
+      "key": "JoinGuest",
+      "expected": "\\n已作为临时同伴加入队伍"
+    },
+    {
+      "file": "MC2UI.int",
+      "section": "System_Log",
+      "key": "LeaveGuest",
+      "expected": "\\n已不再作为临时同伴同行"
+    },
+    {
+      "file": "MC2UI.int",
+      "section": "diction",
+      "key": "Subjective_0",
+      "expected": " "
+    },
+    {
+      "file": "MC2UI.int",
+      "section": "diction",
+      "key": "Subjective_1",
+      "expected": " "
+    },
+    {
+      "file": "MC2UI_Shop.int",
+      "section": "Kamond shop Menu_Description",
+      "key": "work_E",
+      "expected": "已制作完成！"
+    }
+  ],
+  "right_reference": {
+    "parent": "UI_Battle.Scenes.Scene_ButtonB.Bundle.Base.Skill_window.Skill",
+    "label": "UI_Battle.Scenes.Scene_ButtonB.Bundle.Base.Skill_window.Skill.TextB",
+    "text": "反击"
+  },
+  "resident_ui": {
+    "pattern": "(?:^|\\.)Scenes\\.Scene_Button[ABX](?:\\.|$)|(?:^|\\.)Scenes\\.QuickMenu\\.BundlePannel\\.CategoryBundle(?:\\.|$)",
+    "expected": {
+      "MC2Game/CookedXenon/MC2Game.xxx": 547
+    },
+    "native_counts": {
+      "1": 1912,
+      "2": 2233
+    }
+  }
+}

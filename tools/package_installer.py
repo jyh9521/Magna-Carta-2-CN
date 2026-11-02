@@ -46,6 +46,18 @@ def pinned_checkout(path, commit):
         raise ValueError('upstream source has local edits: ' + str(path))
 
 
+def single_file_version_info():
+    """Player-facing v1.0; the PE's required numeric quad has no build suffix."""
+    return '''VSVersionInfo(ffi=FixedFileInfo(filevers=(1,0,0,0), prodvers=(1,0,0,0),
+mask=0x3f, flags=0, OS=0x40004, fileType=1, subtype=0, date=(0,0)),
+kids=[StringFileInfo([StringTable('080404B0', [
+StringStruct('FileDescription','《真名法典2》简体中文汉化补丁'),
+StringStruct('ProductName','《真名法典2》简体中文汉化补丁'),
+StringStruct('ProductVersion','v1.0'), StringStruct('FileVersion','v1.0'),
+StringStruct('OriginalFilename','MC2-CN-v1.0.exe')])]),
+VarFileInfo([VarStruct('Translation',[2052,1200])])])'''
+
+
 def single_file(payload, work, output):
     """Embed the byte-verified portable tree without altering its DLLs/data."""
     output = output.resolve()
@@ -54,14 +66,7 @@ def single_file(payload, work, output):
     expected = sha_file(payload / 'release-files.json')
     (work / 'singlefile_release.py').write_text(f'PAYLOAD_SHA256 = {expected!r}\n', encoding='utf-8')
     version = work / 'singlefile-version.txt'
-    version.write_text('''VSVersionInfo(ffi=FixedFileInfo(filevers=(1,0,0,1), prodvers=(1,0,0,1),
-mask=0x3f, flags=0, OS=0x40004, fileType=1, subtype=0, date=(0,0)),
-kids=[StringFileInfo([StringTable('080404B0', [
-StringStruct('FileDescription','《真名法典2》简体中文汉化补丁'),
-StringStruct('ProductName','《真名法典2》简体中文汉化补丁'),
-StringStruct('ProductVersion','v1.0'), StringStruct('FileVersion','1.0.0.1'),
-StringStruct('OriginalFilename','MC2-CN-v1.0.exe')])]),
-VarFileInfo([VarStruct('Translation',[2052,1200])])])''', encoding='utf-8')
+    version.write_text(single_file_version_info(), encoding='utf-8')
     run([sys.executable, '-m', 'PyInstaller', '--clean', '--noconfirm', '--onefile',
          '--windowed', '--noupx', '--name', output.stem, '--paths', work,
          '--hidden-import', 'singlefile_release', '--version-file', version,

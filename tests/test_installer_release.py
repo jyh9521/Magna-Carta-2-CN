@@ -1,5 +1,6 @@
 """Source-only player-guide and single-file payload integrity regressions."""
 import json
+import copy
 from pathlib import Path
 import tempfile
 import unittest
@@ -7,6 +8,51 @@ from tools.installer_singlefile import verify_payload, extract_payload, sha_file
 from tools.installer_usage import render_usage
 
 ROOT = Path(__file__).resolve().parents[1]
+
+
+class CurrentReleaseTests(unittest.TestCase):
+    def test_display_version_and_numeric_quad_have_no_build_one(self):
+        from tools.package_installer import single_file_version_info
+        version=single_file_version_info()
+        self.assertIn('filevers=(1,0,0,0)',version)
+        self.assertIn('prodvers=(1,0,0,0)',version)
+        for key in ('FileVersion','ProductVersion'):
+            self.assertIn(f"StringStruct('{key}','v1.0')",version)
+        self.assertNotIn('1.0.0.1',version)
+        self.assertIn('version: 1.0.0+0',(ROOT/'src/installer/pubspec.yaml').read_text())
+        self.assertIn('#define VERSION_AS_STRING "v1.0"',
+                      (ROOT/'src/installer/windows/runner/Runner.rc').read_text(encoding='utf8'))
+
+    def fixture(self):
+        recipe=dict(version='v1.0',title_id='owned',output_name='owned',dlc=[],discs=[
+            dict(sha256=str(n)*64,resources=[dict(path='art.xxx',sha256='a'*64)])for n in (1,2)])
+        manifest=dict(version='v1.0',title_id='owned',output_name='owned',dlc=[],discs=[
+            dict(sha256=str(n)*64,files=[dict(path='art.xxx',sha256='b'*64,output_sha256='a'*64)])for n in (1,2)])
+        return manifest,recipe
+
+    def test_recipe_checks_both_disc_outputs_not_just_version_text(self):
+        from tools.audit_installer_release import compare_manifest
+        manifest,recipe=self.fixture();self.assertTrue(compare_manifest(manifest,recipe)['passed'])
+        manifest['discs'][1]['files'][0]['output_sha256']='c'*64
+        result=compare_manifest(manifest,recipe)
+        self.assertEqual(result['resources'],2)
+        self.assertEqual(result['failures'],['disc2:art.xxx'])
+
+    def test_wrong_disc_identity_and_duplicate_or_missing_overlay_fail(self):
+        from tools.audit_installer_release import compare_manifest
+        manifest,recipe=self.fixture();bad=copy.deepcopy(manifest)
+        bad['discs'].reverse();self.assertFalse(compare_manifest(bad,recipe)['passed'])
+        bad=copy.deepcopy(manifest);bad['discs'][0]['files']=[]
+        self.assertFalse(compare_manifest(bad,recipe)['passed'])
+        bad=copy.deepcopy(manifest);bad['discs'][0]['files']*=2
+        with self.assertRaises(ValueError):compare_manifest(bad,recipe)
+
+    def test_dlc_and_version_are_part_of_current_payload_identity(self):
+        from tools.audit_installer_release import compare_manifest
+        manifest,recipe=self.fixture();recipe['dlc']=[dict(name='owned',sha256='d'*64,output_sha256='e'*64)]
+        self.assertFalse(compare_manifest(manifest,recipe)['passed'])
+        manifest['dlc']=copy.deepcopy(recipe['dlc']);self.assertTrue(compare_manifest(manifest,recipe)['passed'])
+        manifest['version']='stale';self.assertFalse(compare_manifest(manifest,recipe)['passed'])
 
 
 class PlayerGuideTests(unittest.TestCase):

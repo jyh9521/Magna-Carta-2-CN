@@ -6,6 +6,8 @@ Windows 10/11 x64 离线单文件图形安装器，Flutter Material Design 3。
 直接运行 `MC2-CN-v1.0.exe`；无需另装 Python、Flutter、VC++ 或 ZArchive，也不请求管理员权限。
 运行时临时展开内置组件，正常关闭后清理；详细构建、自检和 UI 契约见
 [v1.0 发布整理](PHASE_335_RELEASE_POLISH.md)。旧版便携目录仍可作为开发构建输出，不再作为玩家交付入口。
+当前单文件已收录至阶段342追加修正，见[安装器刷新与版本核验](PHASE_343_INSTALLER_REFRESH.md)。
+外层启动器与内置界面的文件/产品显示版本均为 `v1.0`；PE 数字版本为 `1.0.0.0`，不再附加构建号1。
 只包含差异补丁和工具，不包含完整原盘、XEX 或 DLC。
 新版 LOGO 原样嵌入，保持透明度与比例；所有页面最右下角的「伯翎飞云」
 打开 <https://blog.blfy.cc/>。深浅主题、格式分段选择、阶段切换、实际进度、取消、
@@ -51,17 +53,18 @@ STFS 哈希树、Title ID、Content Type、大小和输出摘要均检查；保�
 ## 构建数据流
 
 1. 由原盘与版本化译文/配置构建 comparison packets。当前 Disc1 接续
-   [阶段333](PHASE_333_VOICE_LOADING.md)，DLC 接续阶段331；Disc2 接续 v6 packet
-   与阶段324/325/328/329/330的哈希绑定资源 journal。中间资源不进入公开源码库。
+   [阶段342追加](PHASE_342_TEXT_DARK_BANDS.md)的 v16 packet，包含此前累计修复；
+   DLC 接续阶段331；Disc2 接续 v6 packet、阶段324/325/328/329/330的哈希绑定
+   resource journal，以及源锁内阶段340/342的独有资源更新。中间资源不进入公开源码库。
 2. `tools.prepare_installer_sources` 验证所有来源清单和资源摘要，重放 Disc2 journal，
    仅在**原始路径及摘要相同**时采用最新 Disc1 共享资源。每盘独立更新 TOC；
-   改动 `.xxx` 经过阶段332 raw runtime-envelope 门禁。本次覆盖441/542项。
+   改动 `.xxx` 经过阶段332 raw runtime-envelope 门禁。本次覆盖442/543项。
 3. `tools.build_installer_bundle` 读取完整原盘、变换源、产生 MCD1 差异，逐份独立
    应用核验；相同差异按摘要去重，完整清单列出两盘全部成员。
 4. `tools.package_installer` 编译 Flutter、冻结 Python 后端、嵌入可信清单 SHA256、
    带上工具和许可，逐文件校验 ZIP 读回。发布后端不接受运行时替换信任摘要。
 
-准备工具接受 `--spec / --spec-sha256`；差异构建接受 `--recipe / --recipe-sha256`。
+准备工具接受 `--spec / --sha256`；差异构建接受 `--recipe / --recipe-sha256`。
 本次来源身份见 `references/installer-inputs.lock.json`。重建历史中间结果依照对应阶段
 文档；也可直接提供两盘全部候选覆盖项的 recipe，绕过旧 journal 组装。
 所有路径由调用者明确传入，不把本机绝对路径硬编码进后端或发布清单。
@@ -75,14 +78,26 @@ ZIP 排序/时间戳固定；PE 时间戳等因素意味着未宣称重编译逐
 # 上游 checkout 必须匹配工具链 lock 的完整提交。
 ./tools/build_installer_native.ps1 -ZArchiveSource build/upstream/ZArchive-installer `
   -ZstdSource build/upstream/zstd-installer -Output build/installer-native
-python -m tools.build_installer_bundle --recipe build/release/recipe.json `
+$spec='references/installer-inputs.lock.json'
+python -m tools.prepare_installer_sources --spec $spec `
+  --sha256 (Get-FileHash $spec -Algorithm SHA256).Hash.ToLower() `
+  --output build/release/prepared
+python -m tools.build_installer_bundle --recipe build/release/prepared/recipe.json `
   --recipe-sha256 <已确认的recipe摘要> --output build/release/bundle
 python -m tools.package_installer --bundle build/release/bundle `
   --manifest-sha256 <上一步输出摘要> --flutter build/toolchain/flutter `
   --libmspack build/upstream/libmspack-55d501976171397ccd5d5a7a1ca7da065b1d9a06 `
   --zarchive build/upstream/ZArchive-installer --zstd build/upstream/zstd-installer `
-  --output dist/MC2-CN-Installer-0.1.0-rc.1-win64 --work build/release/package
+  --output build/release/portable --work build/release/package `
+  --single-file build/release/MC2-CN-v1.0.exe
+python -m tools.audit_installer_release --installer build/release/MC2-CN-v1.0.exe `
+  --recipe build/release/prepared/recipe.json --recipe-sha256 <已确认的recipe摘要> `
+  --report build/release/installer-audit.json
 ```
+
+构建输出和报告必须使用新路径；先保存已有安装器摘要与独立副本，核验后再替换玩家入口。
+审计读取实际 EXE 的内置清单、全部716项 payload、双盘覆盖项、DLC与两层 PE 版本，
+不以文件名相同或界面仍显示 v1.0 代替最新资源验证。完整安装/游戏验收仍单独记录。
 
 Recipe 顶层包括 version/title_id/output_name/usage、tools、discs、dlc。
 tools 每项包括 file/sha256；discs 两项各含 iso/sha256/resources，resources 每项含

@@ -2004,3 +2004,13 @@ candidate、controls、raw-controls或live合并，结束时再次核验独立�
 本轮不重建安装器或ISO，不改任何文字大小与位置。
 首轮v15后叠加v16的三项用户反馈修正；v16按首轮成品摘要构建，追加审计包含明确
 暗行/描边像素。最终入口、双盘recipe和证据见同一阶段文档的追加小节。
+
+## 阶段343：v1.0安装器累计刷新
+
+将源锁的最新双盘442/543项资源与2项DLC重新打入单文件入口，包含阶段342的v16追加修复。
+外层启动器和内置界面的FileVersion/ProductVersion均显示`v1.0`，PE数字版本为`1.0.0.0`。
+`tools.audit_installer_release`从实际EXE核对recipe覆盖项、完整payload、DLC和两层版本，
+避免文件名/界面版本相同但内置资源落后的误判。旧版、修改版和隔离回滚审计见
+[PHASE_343_INSTALLER_REFRESH](docs/PHASE_343_INSTALLER_REFRESH.md)。
+验证后删除明确的可重建打包/CI缓存，保留单文件、源依赖、原始安装器和收尾证据；
+本轮不再刷新已是最新的测试目录，不生成ISO/整盘副本，不启动游戏。

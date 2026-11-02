@@ -1988,3 +1988,10 @@ candidate、controls、raw-controls或live合并，结束时再次核验独立�
 追加、可复现命令和人工复测项见
 [PHASE_340_UI_INK_ALIGNMENT](docs/PHASE_340_UI_INK_ALIGNMENT.md)。
 本轮仍只源锁定地增量刷新既有测试目录及安装器，不生成ISO/整盘副本，不启动游戏。
+
+## 阶段341：按钮视觉中心与信息标签单层重绘
+
+现行三项检查为 `audit_ui_texture_polish` 配合 `ui-polish-audit-v14.json`；
+辅助装备的首轮微缩与随后精确X/Y纠正分别验证。四包源锁定重建、双盘共享身份、
+隔离回滚和原测试目录增量刷新见 [阶段341](docs/PHASE_341_BUTTON_VISUAL_CENTER.md)。
+不按含阴影的整张贴图求中心，也不忽略消费者UV相对字图单元的偏移。

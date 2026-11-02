@@ -1,0 +1,126 @@
+{
+  "schema_version": 1,
+  "kind": "ui-ink-revision",
+  "disc": 1,
+  "toc_path": "MC2Game/Xbox360TOC.txt",
+  "sources": [
+    {
+      "resource": "MC2Game/CookedXenon/MC2Game.xxx",
+      "sha256": "50868205375368ef0bd9800cf602699c8384c224747fbafa1a34020baaa5caf6"
+    },
+    {
+      "resource": "MC2Game/CookedXenon/UI_Field.xxx",
+      "sha256": "46ebd8c70b47cd0499cf7477134e263ba88d727bb20912cbdd9953c43d820e9d"
+    },
+    {
+      "resource": "MC2Game/CookedXenon/Startup_int.xxx",
+      "sha256": "5a7d3fb9c68a30c6246fe212ad1c650a467bb377eddb451fbf1aa4a8c5230211"
+    },
+    {
+      "resource": "MC2Game/CookedXenon/UI_Name_Jpn.xxx",
+      "sha256": "df4ba57818e34e9ee743aee1c15fc443869b998a80a675fa3896c87cf1e11f05"
+    }
+  ],
+  "overlay": {
+    "path": "locales/zh-Hans/texture-overlays/ui-polish-v14.json",
+    "sha256": "619545cbf4ac8bd536fdb493356ba78d375ef510a3c8a6d1ab8593f82e51a5a4"
+  },
+  "transfers": [
+    {
+      "resource": "MC2Game/CookedXenon/MC2Game.xxx",
+      "object": "UI_Field.Textures.Field_MainMenu_Info_Tex04",
+      "rectangles": [
+        [
+          152,
+          16,
+          80,
+          16
+        ],
+        [
+          152,
+          32,
+          80,
+          16
+        ]
+      ]
+    },
+    {
+      "resource": "MC2Game/CookedXenon/UI_Field.xxx",
+      "object": "Textures.Field_MainMenu_Info_Tex04",
+      "rectangles": [
+        [
+          152,
+          16,
+          80,
+          16
+        ],
+        [
+          152,
+          32,
+          80,
+          16
+        ]
+      ]
+    },
+    {
+      "resource": "MC2Game/CookedXenon/Startup_int.xxx",
+      "object": "UI_Name_Jpn.Tex.Field_MainMenu_Item_Button_Click",
+      "rectangles": [
+        [
+          0,
+          88,
+          128,
+          32
+        ]
+      ]
+    },
+    {
+      "resource": "MC2Game/CookedXenon/Startup_int.xxx",
+      "object": "UI_Name_Jpn.Tex.Field_MainMenu_Item_Button_Normal",
+      "rectangles": [
+        [
+          0,
+          88,
+          128,
+          32
+        ]
+      ]
+    },
+    {
+      "resource": "MC2Game/CookedXenon/UI_Name_Jpn.xxx",
+      "object": "Tex.Field_MainMenu_Item_Button_Click",
+      "rectangles": [
+        [
+          0,
+          88,
+          128,
+          32
+        ]
+      ]
+    },
+    {
+      "resource": "MC2Game/CookedXenon/UI_Name_Jpn.xxx",
+      "object": "Tex.Field_MainMenu_Item_Button_Normal",
+      "rectangles": [
+        [
+          0,
+          88,
+          128,
+          32
+        ]
+      ]
+    }
+  ],
+  "field_plans": [
+    {
+      "resource": "MC2Game/CookedXenon/MC2Game.xxx",
+      "plan": {
+        "path": "locales/zh-Hans/ui-polish-fields-v14.json",
+        "sha256": "0327bbae654073a801cef76871d1301c176b7cb86d67fee8d1e7d4a959b2d45d"
+      }
+    }
+  ],
+  "alpha_filters": [],
+  "font_metrics": [],
+  "text_plans": []
+}

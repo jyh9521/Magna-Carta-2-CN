@@ -1690,3 +1690,9 @@ Verified：旧提示的最近像素光照传播在移动闪光中形成分片；
 ## 阶段340：原生可见墨迹边界
 
 见 [PHASE_340_UI_INK_ALIGNMENT](docs/PHASE_340_UI_INK_ALIGNMENT.md)。已验证QuickMenu采样行0/31/62与旧字图分区不一致；五个数字槽改右对齐并同时更新NormalNumber两份字体的tagged/native宽度。地图采用限定矩形的BC3 alpha清理，RGB半块不变；所有阈值、对象、字段及物理别名由v13 locale数据控制。共享Subjective片段与四种系统事件、升级、制作完成共八项原子移动；小号同伴问题来自暗渐变尾端而非越界UV。资源和离线拼接已验证，游戏最终合成仍待人工复测。
+
+## 阶段341：可见按钮边框与跨行采样
+
+已验证 StoreButtonBox 的128×64贴图含底部阴影，边框中心Y=29.5；
+辅助装备的字图起点88与消费者V=90须分别处理。时间标签V=17、高16读到SID首行32，
+旧阴影因此跨行显现。原生像素、对象路径、两次修订及重放见 [阶段341](docs/PHASE_341_BUTTON_VISUAL_CENTER.md)。

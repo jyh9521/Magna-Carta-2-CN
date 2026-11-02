@@ -1,0 +1,865 @@
+{
+  "schema_version": 1,
+  "kind": "texture-text-overlay-plan",
+  "game_rendering_verified": false,
+  "font": {
+    "path": "build/font-source/NotoSansCJKsc-Regular.otf",
+    "sha256": "2c76254f6fc379fddfce0a7e84fb5385bb135d3e399294f6eeb6680d0365b74b"
+  },
+  "rasterizer_versions": {
+    "Pillow": "12.2.0",
+    "fonttools": "4.63.0"
+  },
+  "labels": [
+    {
+      "id": "style_info_play_time",
+      "text": "游戏时间",
+      "rect": [
+        152,
+        16,
+        80,
+        16
+      ],
+      "font_size": 16,
+      "font": {
+        "path": "build/font-source/NotoSansCJKsc-Regular.otf",
+        "sha256": "2c76254f6fc379fddfce0a7e84fb5385bb135d3e399294f6eeb6680d0365b74b"
+      },
+      "align": "center",
+      "ink_padding": {
+        "x": 1,
+        "y": 0
+      },
+      "style": {
+        "fill": [
+          245,
+          224,
+          146,
+          255
+        ],
+        "stroke_fill": [
+          25,
+          18,
+          6,
+          220
+        ],
+        "shadow_fill": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "restoration": {
+        "source_rgba_sha256": "4e7067edbfaedd4b4b19d5233eb7ee55d3eb0de71e33810f05d7744a23d69834",
+        "mask": {
+          "path": "locales/zh-Hans/texture-overlays/restorations/ui-polish-v14/text-cell-80x16-mask.png",
+          "sha256": "75742bf5a833140ee496eda27e6003860cac5735829e222c63bb16f4d0f05dbc"
+        },
+        "patch": {
+          "path": "locales/zh-Hans/texture-overlays/restorations/ui-polish-v14/text-cell-80x16-patch.png",
+          "sha256": "f58ba10518164f05cd05ea87f446bd13b1a9e0fc7becaed777133cec6d949224"
+        }
+      },
+      "appearance": {
+        "kind": "source-style-v1",
+        "ink_box": [
+          2,
+          2,
+          76,
+          13
+        ],
+        "align": "left",
+        "gradient": [
+          [
+            0,
+            [
+              255,
+              255,
+              216,
+              255
+            ]
+          ],
+          [
+            380,
+            [
+              255,
+              242,
+              176,
+              255
+            ]
+          ],
+          [
+            1000,
+            [
+              224,
+              175,
+              96,
+              255
+            ]
+          ]
+        ],
+        "outline": [
+          55,
+          34,
+          9,
+          240
+        ],
+        "outline_width": 0.6,
+        "glow": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "glow_radius": 0,
+        "shadow": [
+          0,
+          0,
+          0,
+          230
+        ],
+        "shadow_offset": [
+          1,
+          1
+        ],
+        "shadow_radius": 0.65,
+        "italic": 0,
+        "tracking": 0,
+        "weight": 0,
+        "motion": 0,
+        "font_scale_reference": "游戏时间"
+      }
+    },
+    {
+      "id": "style_info_sid",
+      "text": "SID",
+      "rect": [
+        152,
+        32,
+        80,
+        16
+      ],
+      "font_size": 16,
+      "font": {
+        "path": "build/font-source/NotoSansCJKsc-Regular.otf",
+        "sha256": "2c76254f6fc379fddfce0a7e84fb5385bb135d3e399294f6eeb6680d0365b74b"
+      },
+      "align": "center",
+      "ink_padding": {
+        "x": 1,
+        "y": 0
+      },
+      "style": {
+        "fill": [
+          245,
+          224,
+          146,
+          255
+        ],
+        "stroke_fill": [
+          25,
+          18,
+          6,
+          220
+        ],
+        "shadow_fill": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "appearance": {
+        "kind": "source-style-v1",
+        "ink_box": [
+          2,
+          3,
+          76,
+          13
+        ],
+        "align": "left",
+        "gradient": [
+          [
+            0,
+            [
+              255,
+              255,
+              216,
+              255
+            ]
+          ],
+          [
+            380,
+            [
+              255,
+              242,
+              176,
+              255
+            ]
+          ],
+          [
+            1000,
+            [
+              224,
+              175,
+              96,
+              255
+            ]
+          ]
+        ],
+        "outline": [
+          55,
+          34,
+          9,
+          240
+        ],
+        "outline_width": 0.6,
+        "glow": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "glow_radius": 0,
+        "shadow": [
+          0,
+          0,
+          0,
+          230
+        ],
+        "shadow_offset": [
+          1,
+          1
+        ],
+        "shadow_radius": 0.65,
+        "italic": 0,
+        "tracking": 0,
+        "weight": 0,
+        "motion": 0,
+        "font_scale_reference": "游戏时间"
+      },
+      "translation_basis": "protected-original-token-redrawn",
+      "restoration": {
+        "source_rgba_sha256": "22a5d970732a9202a2ac67bfc1086e9314db4b43eb0d3ebd93ab636eba65151e",
+        "mask": {
+          "path": "locales/zh-Hans/texture-overlays/restorations/ui-polish-v14/text-cell-80x16-mask.png",
+          "sha256": "75742bf5a833140ee496eda27e6003860cac5735829e222c63bb16f4d0f05dbc"
+        },
+        "patch": {
+          "path": "locales/zh-Hans/texture-overlays/restorations/ui-polish-v14/text-cell-80x16-patch.png",
+          "sha256": "f58ba10518164f05cd05ea87f446bd13b1a9e0fc7becaed777133cec6d949224"
+        }
+      }
+    },
+    {
+      "id": "img_ui_name_jpn_166_3",
+      "text": "辅助装备",
+      "rect": [
+        0,
+        88,
+        128,
+        32
+      ],
+      "font_size": 20,
+      "style": {
+        "fill": [
+          244,
+          244,
+          236,
+          255
+        ],
+        "stroke_fill": [
+          35,
+          35,
+          35,
+          240
+        ],
+        "shadow_fill": [
+          230,
+          45,
+          15,
+          200
+        ]
+      },
+      "align": "center",
+      "translation_basis": "source-image-cell-with-context",
+      "source_text_sha256": "931b1921eb8e25d196a4687d9dd7b6e96864a2b52df1edbc0b58dae75003006d",
+      "source_ids": [],
+      "restoration": {
+        "source_rgba_sha256": "4f1691605e64a6eef1d0266a262bc8dbe3e7095f1d5c44849e12b0799825fced",
+        "mask": {
+          "path": "locales/zh-Hans/texture-overlays/restorations/gameplay-v7-20261027/img_ui_name_jpn_166_3-mask.png",
+          "sha256": "effb451e5f46d0886b7af4619db5e926331493d39d5553f9a4216ac1f526589c"
+        },
+        "patch": {
+          "path": "locales/zh-Hans/texture-overlays/restorations/gameplay-v7-20261027/img_ui_name_jpn_166_3-patch.png",
+          "sha256": "f26f289d2677c13339c3f5afabc83494d6db26b894b4f58075ec16d44469b9c9"
+        }
+      },
+      "font": {
+        "path": "build/font-source/NotoSansCJKsc-Bold.otf",
+        "sha256": "b5f0d1a190a7f9b43c310a8850630af12553df32c4c050543f9059732d9b4c0a"
+      },
+      "appearance": {
+        "kind": "source-style-v1",
+        "ink_box": [
+          4,
+          7,
+          80,
+          17
+        ],
+        "align": "center",
+        "gradient": [
+          [
+            0,
+            [
+              255,
+              255,
+              255,
+              255
+            ]
+          ],
+          [
+            1000,
+            [
+              239,
+              239,
+              239,
+              255
+            ]
+          ]
+        ],
+        "outline": [
+          230,
+          118,
+          80,
+          255
+        ],
+        "outline_width": 0.85,
+        "glow": [
+          255,
+          121,
+          78,
+          185
+        ],
+        "glow_radius": 1.15,
+        "shadow": [
+          58,
+          11,
+          6,
+          170
+        ],
+        "shadow_offset": [
+          0,
+          1
+        ],
+        "shadow_radius": 0.6,
+        "italic": 0,
+        "tracking": 0,
+        "weight": 0,
+        "motion": 0
+      }
+    },
+    {
+      "id": "img_ui_name_jpn_167_3",
+      "text": "辅助装备",
+      "rect": [
+        0,
+        88,
+        128,
+        32
+      ],
+      "font_size": 20,
+      "style": {
+        "fill": [
+          244,
+          244,
+          236,
+          255
+        ],
+        "stroke_fill": [
+          35,
+          35,
+          35,
+          240
+        ],
+        "shadow_fill": [
+          0,
+          0,
+          0,
+          180
+        ]
+      },
+      "align": "center",
+      "translation_basis": "source-image-cell-with-context",
+      "source_text_sha256": "931b1921eb8e25d196a4687d9dd7b6e96864a2b52df1edbc0b58dae75003006d",
+      "source_ids": [],
+      "restoration": {
+        "source_rgba_sha256": "4be83e33008ef02699cc6bc8a7be74f60ea335eacdb633646696d104738fd6cf",
+        "mask": {
+          "path": "locales/zh-Hans/texture-overlays/restorations/gameplay-v7-20261027/img_ui_name_jpn_167_3-mask.png",
+          "sha256": "525f26f065f1ea856e79c5ee42a5fd84afc757316c4df2d234e47066dae5481d"
+        },
+        "patch": {
+          "path": "locales/zh-Hans/texture-overlays/restorations/gameplay-v7-20261027/img_ui_name_jpn_167_3-patch.png",
+          "sha256": "83091c9b1125b683ef6b0f7ca02af571464e3055d31f02a6e6c101d8ad6328d7"
+        }
+      },
+      "font": {
+        "path": "build/font-source/NotoSansCJKsc-Bold.otf",
+        "sha256": "b5f0d1a190a7f9b43c310a8850630af12553df32c4c050543f9059732d9b4c0a"
+      },
+      "appearance": {
+        "kind": "source-style-v1",
+        "ink_box": [
+          4,
+          7,
+          80,
+          17
+        ],
+        "align": "center",
+        "gradient": [
+          [
+            0,
+            [
+              247,
+              244,
+              247,
+              255
+            ]
+          ],
+          [
+            37,
+            [
+              247,
+              243,
+              247,
+              255
+            ]
+          ],
+          [
+            74,
+            [
+              247,
+              245,
+              247,
+              255
+            ]
+          ],
+          [
+            111,
+            [
+              247,
+              245,
+              247,
+              255
+            ]
+          ],
+          [
+            148,
+            [
+              247,
+              247,
+              247,
+              255
+            ]
+          ],
+          [
+            185,
+            [
+              247,
+              247,
+              247,
+              255
+            ]
+          ],
+          [
+            222,
+            [
+              247,
+              251,
+              247,
+              255
+            ]
+          ],
+          [
+            259,
+            [
+              247,
+              251,
+              247,
+              255
+            ]
+          ],
+          [
+            296,
+            [
+              247,
+              247,
+              247,
+              255
+            ]
+          ],
+          [
+            333,
+            [
+              239,
+              239,
+              239,
+              255
+            ]
+          ],
+          [
+            370,
+            [
+              239,
+              239,
+              239,
+              255
+            ]
+          ],
+          [
+            407,
+            [
+              214,
+              211,
+              206,
+              255
+            ]
+          ],
+          [
+            444,
+            [
+              173,
+              174,
+              173,
+              255
+            ]
+          ],
+          [
+            481,
+            [
+              173,
+              172,
+              173,
+              255
+            ]
+          ],
+          [
+            519,
+            [
+              173,
+              170,
+              173,
+              255
+            ]
+          ],
+          [
+            556,
+            [
+              173,
+              170,
+              173,
+              255
+            ]
+          ],
+          [
+            1000,
+            [
+              164,
+              166,
+              164,
+              255
+            ]
+          ]
+        ],
+        "outline": [
+          8,
+          8,
+          10,
+          245
+        ],
+        "outline_width": 1.15,
+        "glow": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "glow_radius": 0,
+        "shadow": [
+          0,
+          0,
+          0,
+          230
+        ],
+        "shadow_offset": [
+          1,
+          2
+        ],
+        "shadow_radius": 0.65,
+        "italic": 0,
+        "tracking": 0,
+        "weight": 0,
+        "motion": 0
+      }
+    }
+  ],
+  "sources": [
+    {
+      "path": "MC2Game/CookedXenon/MC2Game.xxx",
+      "discs": [
+        1,
+        2
+      ],
+      "original": {
+        "path": "build/poc-game/disc1/MC2Game/CookedXenon/MC2Game.xxx",
+        "sha256": "13f92622e2ae2920f6ce6dfc7b0edbbcbec7e83adeacbd56fed84a021739a641"
+      },
+      "base": {
+        "path": "build/phase-285-verification/route-probe/candidate/MC2Game/CookedXenon/MC2Game.xxx",
+        "sha256": "5595562dab1233cbbf7979fff1b9c9ca031707b40f10adf75eb97ec1e999d425"
+      },
+      "textures": [
+        {
+          "object": "UI_Field.Textures.Field_MainMenu_Info_Tex04",
+          "image_id": "style_info_atlas",
+          "regions": [
+            "style_info_play_time",
+            "style_info_sid"
+          ],
+          "profile": {
+            "kind": "xbox-inline-bc-v1",
+            "format": 7
+          },
+          "channel_mode": "rgba",
+          "preserve_unchanged_blocks": true,
+          "alpha_encoding": "adaptive-range",
+          "protected_regions": [
+            {
+              "id": "frame",
+              "rect": [
+                0,
+                0,
+                136,
+                40
+              ],
+              "rgba_sha256": "0a3b67e7f46c2b492dc7bb8b2feaa03106b54f5e127b147df9363bf119613686"
+            },
+            {
+              "id": "bullets",
+              "rect": [
+                136,
+                0,
+                16,
+                48
+              ],
+              "rgba_sha256": "519483a31ca410e5b264b5f9ebdadca1cca7fbde8b0ad9498b97fededd1c2cc8"
+            },
+            {
+              "id": "right_margin",
+              "rect": [
+                232,
+                0,
+                24,
+                64
+              ],
+              "rgba_sha256": "3f58d7570293e604386f6c12c3ee8d81a4a729751aca057c94d33e9a20796289"
+            }
+          ],
+          "payload_sha256": "2356be61d9150160c97807ed6501dfc8dfadf793dac1fc7b6b31e7b6f8074c76",
+          "tiled_sha256": "68f2d82ba5031d05b92587c2860be942cef742d32ed88c1ef471734d1c3829c7",
+          "dimensions": [
+            256,
+            64
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/UI_Field.xxx",
+      "discs": [
+        1,
+        2
+      ],
+      "original": {
+        "path": "build/poc-game/common/MC2Game/CookedXenon/UI_Field.xxx",
+        "sha256": "34cee17b049c0c6eacb0fb945504cb246ec2aa260d4f33e0d954b239cf8644c8"
+      },
+      "base": {
+        "path": "build/poc-game/common/MC2Game/CookedXenon/UI_Field.xxx",
+        "sha256": "34cee17b049c0c6eacb0fb945504cb246ec2aa260d4f33e0d954b239cf8644c8"
+      },
+      "textures": [
+        {
+          "object": "Textures.Field_MainMenu_Info_Tex04",
+          "image_id": "style_info_atlas",
+          "regions": [
+            "style_info_play_time",
+            "style_info_sid"
+          ],
+          "profile": {
+            "kind": "xbox-inline-bc-v1",
+            "format": 7
+          },
+          "channel_mode": "rgba",
+          "preserve_unchanged_blocks": true,
+          "alpha_encoding": "adaptive-range",
+          "protected_regions": [
+            {
+              "id": "frame",
+              "rect": [
+                0,
+                0,
+                136,
+                40
+              ],
+              "rgba_sha256": "0a3b67e7f46c2b492dc7bb8b2feaa03106b54f5e127b147df9363bf119613686"
+            },
+            {
+              "id": "bullets",
+              "rect": [
+                136,
+                0,
+                16,
+                48
+              ],
+              "rgba_sha256": "519483a31ca410e5b264b5f9ebdadca1cca7fbde8b0ad9498b97fededd1c2cc8"
+            },
+            {
+              "id": "right_margin",
+              "rect": [
+                232,
+                0,
+                24,
+                64
+              ],
+              "rgba_sha256": "3f58d7570293e604386f6c12c3ee8d81a4a729751aca057c94d33e9a20796289"
+            }
+          ],
+          "payload_sha256": "96126f23e29e5b7fe69c680aaa59f8059917880c427592cfc260c846eb4aa54c",
+          "tiled_sha256": "68f2d82ba5031d05b92587c2860be942cef742d32ed88c1ef471734d1c3829c7",
+          "dimensions": [
+            256,
+            64
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/Startup_int.xxx",
+      "discs": [
+        1,
+        2
+      ],
+      "original": {
+        "path": "build/poc-game/disc1/MC2Game/CookedXenon/Startup_int.xxx",
+        "sha256": "be264d1397e7fca36b5098e1f2b6ee4f8001f7a7216268bcf2c65edcd8de82c3"
+      },
+      "base": {
+        "path": "build/phase-325-gameplay-feedback/text-runtime/pre-overlay/MC2Game/CookedXenon/Startup_int.xxx",
+        "sha256": "3eb6b69217f438257642f2d1929466cbd49f36555ab7183f4438e64ea415dfe0"
+      },
+      "textures": [
+        {
+          "object": "UI_Name_Jpn.Tex.Field_MainMenu_Item_Button_Click",
+          "payload_sha256": "42a32b0926d679c2df26d55bcb3adbe90bcc7133d25352974a48302a8641f096",
+          "tiled_sha256": "00226b43edda9e8288903a56bd416ff7c7ac53cfa519ad32451fcd57b91d36ce",
+          "dimensions": [
+            128,
+            256
+          ],
+          "regions": [
+            "img_ui_name_jpn_166_3"
+          ],
+          "image_id": "img_ui_name_jpn_166",
+          "profile": {
+            "kind": "xbox-inline-bc-v1",
+            "format": 7
+          },
+          "channel_mode": "rgba",
+          "preserve_unchanged_blocks": true,
+          "alpha_encoding": "adaptive-range"
+        },
+        {
+          "object": "UI_Name_Jpn.Tex.Field_MainMenu_Item_Button_Normal",
+          "payload_sha256": "86b879e6d542fdd63693f362755d231c13049d8f210965f72df406bc778d3088",
+          "tiled_sha256": "070957f1cd46fcd028452a9b62b879033115a05bfc761d36bcc4a3f7853710b8",
+          "dimensions": [
+            128,
+            256
+          ],
+          "regions": [
+            "img_ui_name_jpn_167_3"
+          ],
+          "image_id": "img_ui_name_jpn_167",
+          "profile": {
+            "kind": "xbox-inline-bc-v1",
+            "format": 7
+          },
+          "channel_mode": "rgba",
+          "preserve_unchanged_blocks": true,
+          "alpha_encoding": "adaptive-range"
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/UI_Name_Jpn.xxx",
+      "discs": [
+        1,
+        2
+      ],
+      "original": {
+        "path": "build/poc-game/disc1/MC2Game/CookedXenon/UI_Name_Jpn.xxx",
+        "sha256": "5f962a3735c51c3941841622a753ec82248a7db62edb2b47fb031faf043cecfc"
+      },
+      "base": {
+        "path": "build/poc-game/disc1/MC2Game/CookedXenon/UI_Name_Jpn.xxx",
+        "sha256": "5f962a3735c51c3941841622a753ec82248a7db62edb2b47fb031faf043cecfc"
+      },
+      "textures": [
+        {
+          "object": "Tex.Field_MainMenu_Item_Button_Click",
+          "payload_sha256": "7cfbf33123f875a036e97ec9a7f6f195482aa2829312e28d3c618e25a3b71bdb",
+          "tiled_sha256": "00226b43edda9e8288903a56bd416ff7c7ac53cfa519ad32451fcd57b91d36ce",
+          "dimensions": [
+            128,
+            256
+          ],
+          "regions": [
+            "img_ui_name_jpn_166_3"
+          ],
+          "image_id": "img_ui_name_jpn_166",
+          "profile": {
+            "kind": "xbox-inline-bc-v1",
+            "format": 7
+          },
+          "channel_mode": "rgba",
+          "preserve_unchanged_blocks": true,
+          "alpha_encoding": "adaptive-range"
+        },
+        {
+          "object": "Tex.Field_MainMenu_Item_Button_Normal",
+          "payload_sha256": "ad5f3a0654b6fd68f522b1165368d971b36e857205ab75a221b863090aeb42e0",
+          "tiled_sha256": "070957f1cd46fcd028452a9b62b879033115a05bfc761d36bcc4a3f7853710b8",
+          "dimensions": [
+            128,
+            256
+          ],
+          "regions": [
+            "img_ui_name_jpn_167_3"
+          ],
+          "image_id": "img_ui_name_jpn_167",
+          "profile": {
+            "kind": "xbox-inline-bc-v1",
+            "format": 7
+          },
+          "channel_mode": "rgba",
+          "preserve_unchanged_blocks": true,
+          "alpha_encoding": "adaptive-range"
+        }
+      ]
+    }
+  ]
+}

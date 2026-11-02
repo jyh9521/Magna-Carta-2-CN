@@ -1845,3 +1845,11 @@ Flutter无外部插件路线使用原生Windows MethodChannel，避免文件选�
 - 第二盘独有地图不随Disc1共享资源采纳自动更新；在归一化后的recipe增加源摘要锁定的resource_updates，保留原journal链与独立TOC。
 
 细节与定量结果见[PHASE_340_UI_INK_ALIGNMENT](PHASE_340_UI_INK_ALIGNMENT.md)。
+
+## 阶段341：缩小不是居中，字图单元不等于实际UV
+
+辅助装备首轮只减字芯高度，仍保留子控件(1,5)，在真实UV内偏右0.5、偏上1.3203125。
+须按蓝色面板边框和V=90采样窗一起求中心，普通/选中态同时核对。
+时间标签读到相邻SID单元的首行；只检查时间自身的16px矩形会漏掉横线。
+BC3的透明RGB或等价编码不算可见残留。完整清空文字专用区域仍用显式全蒙版，
+保留adaptive-alpha所需的restoration和unchanged-block约束。见 [阶段341](PHASE_341_BUTTON_VISUAL_CENTER.md)。

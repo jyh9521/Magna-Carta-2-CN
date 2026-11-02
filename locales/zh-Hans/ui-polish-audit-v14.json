@@ -1,0 +1,292 @@
+{
+  "schema_version": 1,
+  "kind": "native-ui-texture-polish",
+  "ui_resource": "MC2Game/CookedXenon/MC2Game.xxx",
+  "buttons": [
+    {
+      "name": "道具",
+      "parent": "UI_Core.Scenes.QuickMenu.BundlePannel.CategoryBundle.CategoryBox_0",
+      "label": "UI_Core.Scenes.QuickMenu.BundlePannel.CategoryBundle.CategoryBox_0.Category_0",
+      "states": [
+        {
+          "name": "Normal",
+          "resource": "MC2Game/CookedXenon/Startup_int.xxx",
+          "object": "UI_Name_Jpn.Tex.QuickMenu_MenuButton_Normal",
+          "uv": [
+            0,
+            0,
+            90,
+            30
+          ]
+        },
+        {
+          "name": "Click",
+          "resource": "MC2Game/CookedXenon/Startup_int.xxx",
+          "object": "UI_Name_Jpn.Tex.QuickMenu_MenuButton_Click",
+          "uv": [
+            0,
+            0,
+            90,
+            30
+          ]
+        }
+      ],
+      "background": {
+        "resource": "MC2Game/CookedXenon/Startup_int.xxx",
+        "object": "UI_Store.Tex.Style_buttonBOX"
+      }
+    },
+    {
+      "name": "队长",
+      "parent": "UI_Core.Scenes.QuickMenu.BundlePannel.CategoryBundle.CategoryBox_1",
+      "label": "UI_Core.Scenes.QuickMenu.BundlePannel.CategoryBundle.CategoryBox_1.Category_1",
+      "states": [
+        {
+          "name": "Normal",
+          "resource": "MC2Game/CookedXenon/Startup_int.xxx",
+          "object": "UI_Name_Jpn.Tex.QuickMenu_MenuButton_Normal",
+          "uv": [
+            0,
+            31,
+            90,
+            30
+          ]
+        },
+        {
+          "name": "Click",
+          "resource": "MC2Game/CookedXenon/Startup_int.xxx",
+          "object": "UI_Name_Jpn.Tex.QuickMenu_MenuButton_Click",
+          "uv": [
+            0,
+            31,
+            90,
+            30
+          ]
+        }
+      ],
+      "background": {
+        "resource": "MC2Game/CookedXenon/Startup_int.xxx",
+        "object": "UI_Store.Tex.Style_buttonBOX"
+      },
+      "verify_v": true
+    },
+    {
+      "name": "AI设置",
+      "parent": "UI_Core.Scenes.QuickMenu.BundlePannel.CategoryBundle.CategoryBox_2",
+      "label": "UI_Core.Scenes.QuickMenu.BundlePannel.CategoryBundle.CategoryBox_2.Category_2",
+      "states": [
+        {
+          "name": "Normal",
+          "resource": "MC2Game/CookedXenon/Startup_int.xxx",
+          "object": "UI_Name_Jpn.Tex.QuickMenu_MenuButton_Normal",
+          "uv": [
+            0,
+            62,
+            90,
+            30
+          ]
+        },
+        {
+          "name": "Click",
+          "resource": "MC2Game/CookedXenon/Startup_int.xxx",
+          "object": "UI_Name_Jpn.Tex.QuickMenu_MenuButton_Click",
+          "uv": [
+            0,
+            62,
+            90,
+            30
+          ]
+        }
+      ],
+      "background": {
+        "resource": "MC2Game/CookedXenon/Startup_int.xxx",
+        "object": "UI_Store.Tex.Style_buttonBOX"
+      },
+      "verify_v": true
+    },
+    {
+      "name": "辅助装备",
+      "parent": "UI_Field_2.Scenes.Item.ItemListPannel.CategoryBundle.CategoryBox_3",
+      "label": "UI_Field_2.Scenes.Item.ItemListPannel.CategoryBundle.CategoryBox_3.Category_3",
+      "tolerance": 0.01,
+      "background": {
+        "resource": "MC2Game/CookedXenon/Startup_int.xxx",
+        "object": "UI_Store.Tex.Style_buttonBOX"
+      },
+      "states": [
+        {
+          "name": "Startup_int.xxx:Normal",
+          "resource": "MC2Game/CookedXenon/Startup_int.xxx",
+          "object": "UI_Name_Jpn.Tex.Field_MainMenu_Item_Button_Normal",
+          "uv": [
+            0,
+            90,
+            88,
+            29
+          ]
+        },
+        {
+          "name": "Startup_int.xxx:Click",
+          "resource": "MC2Game/CookedXenon/Startup_int.xxx",
+          "object": "UI_Name_Jpn.Tex.Field_MainMenu_Item_Button_Click",
+          "uv": [
+            0,
+            90,
+            88,
+            29
+          ]
+        },
+        {
+          "name": "UI_Name_Jpn.xxx:Normal",
+          "resource": "MC2Game/CookedXenon/UI_Name_Jpn.xxx",
+          "object": "Tex.Field_MainMenu_Item_Button_Normal",
+          "uv": [
+            0,
+            90,
+            88,
+            29
+          ]
+        },
+        {
+          "name": "UI_Name_Jpn.xxx:Click",
+          "resource": "MC2Game/CookedXenon/UI_Name_Jpn.xxx",
+          "object": "Tex.Field_MainMenu_Item_Button_Click",
+          "uv": [
+            0,
+            90,
+            88,
+            29
+          ]
+        }
+      ],
+      "verify_v": true
+    }
+  ],
+  "button_tolerance": 0.5,
+  "clean_labels": {
+    "plan": {
+      "path": "locales/zh-Hans/texture-overlays/save-slot-labels.json",
+      "sha256": "f290983c13974ac2ac8e06fc1112374648d90b631a241125a47419ca1558a126"
+    },
+    "textures": [
+      {
+        "resource": "MC2Game/CookedXenon/MC2Game.xxx",
+        "object": "UI_Field.Textures.Field_MainMenu_Info_Tex04"
+      },
+      {
+        "resource": "MC2Game/CookedXenon/UI_Field.xxx",
+        "object": "Textures.Field_MainMenu_Info_Tex04"
+      }
+    ]
+  },
+  "sized_labels": [
+    {
+      "resource": "MC2Game/CookedXenon/Startup_int.xxx",
+      "object": "UI_Name_Jpn.Tex.Field_MainMenu_Item_Button_Normal",
+      "region": [
+        0,
+        88,
+        88,
+        32
+      ],
+      "width": [
+        67,
+        70
+      ],
+      "height": [
+        17,
+        17
+      ]
+    },
+    {
+      "resource": "MC2Game/CookedXenon/Startup_int.xxx",
+      "object": "UI_Name_Jpn.Tex.Field_MainMenu_Item_Button_Click",
+      "region": [
+        0,
+        88,
+        88,
+        32
+      ],
+      "width": [
+        67,
+        70
+      ],
+      "height": [
+        17,
+        17
+      ]
+    },
+    {
+      "resource": "MC2Game/CookedXenon/UI_Name_Jpn.xxx",
+      "object": "Tex.Field_MainMenu_Item_Button_Normal",
+      "region": [
+        0,
+        88,
+        88,
+        32
+      ],
+      "width": [
+        67,
+        70
+      ],
+      "height": [
+        17,
+        17
+      ]
+    },
+    {
+      "resource": "MC2Game/CookedXenon/UI_Name_Jpn.xxx",
+      "object": "Tex.Field_MainMenu_Item_Button_Click",
+      "region": [
+        0,
+        88,
+        88,
+        32
+      ],
+      "width": [
+        67,
+        70
+      ],
+      "height": [
+        17,
+        17
+      ]
+    }
+  ],
+  "sampling_edges": [
+    {
+      "resource": "MC2Game/CookedXenon/MC2Game.xxx",
+      "object": "UI_Field.Textures.Field_MainMenu_Info_Tex04",
+      "component": "UI_Field_Core.FieldMenu.Base.Info.PlayTime_Title.ImageComponentTemplate",
+      "uv": [
+        134,
+        17,
+        96,
+        16
+      ],
+      "clear_region": [
+        152,
+        32,
+        78,
+        1
+      ]
+    },
+    {
+      "resource": "MC2Game/CookedXenon/UI_Field.xxx",
+      "object": "Textures.Field_MainMenu_Info_Tex04",
+      "component": "UI_Field_Core.FieldMenu.Base.Info.PlayTime_Title.ImageComponentTemplate",
+      "uv": [
+        134,
+        17,
+        96,
+        16
+      ],
+      "clear_region": [
+        152,
+        32,
+        78,
+        1
+      ]
+    }
+  ]
+}

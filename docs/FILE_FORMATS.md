@@ -1727,3 +1727,12 @@ font_scale_reference 是 source-style-v1 的可选工具元数据，不是引擎
 ## Font字格与ItemName属性读取（阶段337）
 
 Verified：本次原生FontCharacter同时包含tagged与native StartU/USize副本；两者同步变更，StartV/VSize、图集、remap不变。native对应记录内偏移0/8为StartU/USize，读取器先解析记录边界，不能将此视为未知版本绝对偏移。ItemName为StrProperty；无关属性FName的number合法非零，number=3表示后缀_2。专用有界读取器检查类型、长度、终止和重复字段。源版本、包SHA及选中字格由profile锁定；见 [阶段337](PHASE_337_LOADING_ITEM_SPACING.md)。
+
+## 有界原生纹理平移合同（阶段344，工具格式）
+
+`native-texture-translation-v1`不是游戏格式。资源SHA、两盘来源和tiles SHA绑定输入；
+`translate`提供整块对齐的rect、整数offset和alpha/预乘颜色误差上限；
+`clear-dark-alpha`提供显式rectangles、RGB阈值和保留alpha误差上限。
+同一纹理操作写集不得重叠，非零alpha裁切拒绝，输出写入新目录并原生回读。
+整数块平移直接复制BC3块；非整块平移复用既有编码器。完整语义、地图别名与审计
+见[阶段344](PHASE_344_TITLE_ALIGNMENT.md)。

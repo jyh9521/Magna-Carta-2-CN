@@ -2014,3 +2014,11 @@ candidate、controls、raw-controls或live合并，结束时再次核验独立�
 [PHASE_343_INSTALLER_REFRESH](docs/PHASE_343_INSTALLER_REFRESH.md)。
 验证后删除明确的可重建打包/CI缓存，保留单文件、源依赖、原始安装器和收尾证据；
 本轮不再刷新已是最新的测试目录，不生成ISO/整盘副本，不启动游戏。
+
+## 阶段344：主菜单残影与地图双行标题
+
+当前纹理增量为 `translate_texture_regions` 配合 `title-alignment-v17.json`，
+以原盘图像分别确认左/右/居中，覆盖41组物理双行组合及两份菜单字图。
+整数平移已有字形而非重绘；跨片标题同步，英文保护区保持。
+三态、原图分类、两盘7/39项增量、原测试目录刷新及同版本v1.0安装器见
+[PHASE_344_TITLE_ALIGNMENT](docs/PHASE_344_TITLE_ALIGNMENT.md)。

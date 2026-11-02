@@ -1,0 +1,1250 @@
+{
+  "schema_version": 1,
+  "kind": "native-texture-translation-v1",
+  "resources": [
+    {
+      "path": "MC2Game/CookedXenon/MC2Game.xxx",
+      "sha256": "bdaed936dc28b187e705a746580a755467999b6edccd1f32052d3909a64d8eb0",
+      "discs": [
+        1,
+        2
+      ],
+      "textures": [
+        {
+          "object": "UI_Name_Jpn.Tex.Field_MainMenu_Big_Title0",
+          "tiled_sha256": "b8abb87ce16edbe3331023cb1b4147abdf1615b54395d563cdc05cc76387a6e9",
+          "operations": [
+            {
+              "kind": "clear-dark-alpha",
+              "rectangles": [
+                [
+                  32,
+                  0,
+                  4,
+                  36
+                ]
+              ],
+              "rgb_ceiling": 96,
+              "max_retained_delta": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/Map_View_Cotamare.xxx",
+      "sha256": "17b083612a7f9f923e20370810721e46630d81df88067e764b9b84167c563311",
+      "discs": [
+        1,
+        2
+      ],
+      "textures": [
+        {
+          "object": "Map_View_Cotamare1",
+          "tiled_sha256": "bf1de045a091f5ef6d8687a5f2fcbe42164402098f67145304d389718e9e5d8c",
+          "operations": [
+            {
+              "kind": "translate",
+              "rect": [
+                344,
+                372,
+                160,
+                44
+              ],
+              "offset": [
+                -6,
+                0
+              ],
+              "max_alpha_delta": 24,
+              "max_premultiplied_delta": 48
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/Map_View_DunanF.xxx",
+      "sha256": "7820b063eb7c5512bf537397fdc0f8cd73233c9060528c68fe8c36724a9594d6",
+      "discs": [
+        1,
+        2
+      ],
+      "textures": [
+        {
+          "object": "Map_View_DunanF",
+          "tiled_sha256": "0e31295fdff04acb9e637839d959ed5aacac684decb4bb58f67dfccef658a876",
+          "operations": [
+            {
+              "kind": "translate",
+              "rect": [
+                160,
+                240,
+                152,
+                44
+              ],
+              "offset": [
+                2,
+                0
+              ],
+              "max_alpha_delta": 24,
+              "max_premultiplied_delta": 48
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/Map_View_Highwind.xxx",
+      "sha256": "7c0561929025d4ac3c488bf36eb6c0004f23bdee0947daa1769bc9e359d72422",
+      "discs": [
+        1,
+        2
+      ],
+      "textures": [
+        {
+          "object": "Map_Highwind_Up",
+          "tiled_sha256": "e6a05449fc505d57997ad2e4fb967762437c907ca5531581b136194a3f0822c3",
+          "operations": [
+            {
+              "kind": "translate",
+              "rect": [
+                320,
+                484,
+                192,
+                28
+              ],
+              "offset": [
+                37,
+                0
+              ],
+              "max_alpha_delta": 24,
+              "max_premultiplied_delta": 48
+            }
+          ]
+        },
+        {
+          "object": "Map_Highwind_Down",
+          "tiled_sha256": "25818e5038d48a3724e391bc3b857acdec78bf666b3be52b38dfc1acbd09a2ce",
+          "operations": [
+            {
+              "kind": "translate",
+              "rect": [
+                320,
+                0,
+                192,
+                16
+              ],
+              "offset": [
+                37,
+                0
+              ],
+              "max_alpha_delta": 24,
+              "max_premultiplied_delta": 48
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/Map_View_Highwind_2.xxx",
+      "sha256": "146dd43277d51e44cc172be2ab2f724b52affe175689feb2711971f714864ebb",
+      "discs": [
+        1
+      ],
+      "textures": [
+        {
+          "object": "Map_Highwind_Up_Cave",
+          "tiled_sha256": "d4817d51fb40141610f30a68f0ee22ce23399b61c8c1f8ae4e9cf2ca7389894c",
+          "operations": [
+            {
+              "kind": "translate",
+              "rect": [
+                320,
+                484,
+                192,
+                28
+              ],
+              "offset": [
+                37,
+                0
+              ],
+              "max_alpha_delta": 24,
+              "max_premultiplied_delta": 48
+            }
+          ]
+        },
+        {
+          "object": "Map_Highwind_Down",
+          "tiled_sha256": "25818e5038d48a3724e391bc3b857acdec78bf666b3be52b38dfc1acbd09a2ce",
+          "operations": [
+            {
+              "kind": "translate",
+              "rect": [
+                320,
+                0,
+                192,
+                16
+              ],
+              "offset": [
+                37,
+                0
+              ],
+              "max_alpha_delta": 24,
+              "max_premultiplied_delta": 48
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/Map_View_Lastrada_00.xxx",
+      "sha256": "de5e5ad56fe4b89c8949c3145505048c6c8195e738eace6a71560c7be17f9e92",
+      "discs": [
+        2
+      ],
+      "textures": [
+        {
+          "object": "Map_View_Lastrada_Title",
+          "tiled_sha256": "99829cec549d19dc3e4a955154932b20a8d41901be5df9ce09d34c8efa69c061",
+          "operations": [
+            {
+              "kind": "translate",
+              "rect": [
+                0,
+                0,
+                256,
+                44
+              ],
+              "offset": [
+                4,
+                0
+              ],
+              "max_alpha_delta": 24,
+              "max_premultiplied_delta": 48
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/Map_View_Lastrada_01.xxx",
+      "sha256": "b1357ed302f9d8cbfe91dfb4a3b0954baacb20f8f90257888e27917b8c73a12c",
+      "discs": [
+        2
+      ],
+      "textures": [
+        {
+          "object": "Map_View_Lastrada_Title",
+          "tiled_sha256": "99829cec549d19dc3e4a955154932b20a8d41901be5df9ce09d34c8efa69c061",
+          "operations": [
+            {
+              "kind": "translate",
+              "rect": [
+                0,
+                0,
+                256,
+                44
+              ],
+              "offset": [
+                4,
+                0
+              ],
+              "max_alpha_delta": 24,
+              "max_premultiplied_delta": 48
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/Map_View_Lastrada_02.xxx",
+      "sha256": "4431029ff8f451c3d29fef7c07be29bb8ed4316157cc384931021b44f32ac5e2",
+      "discs": [
+        2
+      ],
+      "textures": [
+        {
+          "object": "Map_View_Lastrada_Title",
+          "tiled_sha256": "99829cec549d19dc3e4a955154932b20a8d41901be5df9ce09d34c8efa69c061",
+          "operations": [
+            {
+              "kind": "translate",
+              "rect": [
+                0,
+                0,
+                256,
+                44
+              ],
+              "offset": [
+                4,
+                0
+              ],
+              "max_alpha_delta": 24,
+              "max_premultiplied_delta": 48
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/Map_View_Lastrada_03.xxx",
+      "sha256": "45264bc5761fc9b360501c9b0cd79a6efefe89dfaa444b91f1a8f261b27ef2c3",
+      "discs": [
+        2
+      ],
+      "textures": [
+        {
+          "object": "Map_View_Lastrada_Title",
+          "tiled_sha256": "99829cec549d19dc3e4a955154932b20a8d41901be5df9ce09d34c8efa69c061",
+          "operations": [
+            {
+              "kind": "translate",
+              "rect": [
+                0,
+                0,
+                256,
+                44
+              ],
+              "offset": [
+                4,
+                0
+              ],
+              "max_alpha_delta": 24,
+              "max_premultiplied_delta": 48
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/Map_View_Lastrada_04.xxx",
+      "sha256": "d178c137d9aca281d48e5399fb208ebcff1ec769e391add9dd5a5216ffec3cbf",
+      "discs": [
+        2
+      ],
+      "textures": [
+        {
+          "object": "Map_View_Lastrada_Title",
+          "tiled_sha256": "99829cec549d19dc3e4a955154932b20a8d41901be5df9ce09d34c8efa69c061",
+          "operations": [
+            {
+              "kind": "translate",
+              "rect": [
+                0,
+                0,
+                256,
+                44
+              ],
+              "offset": [
+                4,
+                0
+              ],
+              "max_alpha_delta": 24,
+              "max_premultiplied_delta": 48
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/Map_View_Lastrada_05.xxx",
+      "sha256": "d2f5b222bc0290cf03e4e78dc4b2b83684afc29a7026ceee423fee27db4acfe3",
+      "discs": [
+        2
+      ],
+      "textures": [
+        {
+          "object": "Map_View_Lastrada_Title",
+          "tiled_sha256": "99829cec549d19dc3e4a955154932b20a8d41901be5df9ce09d34c8efa69c061",
+          "operations": [
+            {
+              "kind": "translate",
+              "rect": [
+                0,
+                0,
+                256,
+                44
+              ],
+              "offset": [
+                4,
+                0
+              ],
+              "max_alpha_delta": 24,
+              "max_premultiplied_delta": 48
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/Map_View_Lastrada_06.xxx",
+      "sha256": "8248fb5f5367608d2ebf03895b8fcb4dab9c67d715481811da36061cbd170b5e",
+      "discs": [
+        2
+      ],
+      "textures": [
+        {
+          "object": "Map_View_Lastrada_Title",
+          "tiled_sha256": "99829cec549d19dc3e4a955154932b20a8d41901be5df9ce09d34c8efa69c061",
+          "operations": [
+            {
+              "kind": "translate",
+              "rect": [
+                0,
+                0,
+                256,
+                44
+              ],
+              "offset": [
+                4,
+                0
+              ],
+              "max_alpha_delta": 24,
+              "max_premultiplied_delta": 48
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/Map_View_Lastrada_07.xxx",
+      "sha256": "3eb43468b72e7d2ef5c259c0cb9f2448b4a45aae3460f916dbcb34d931a38b2e",
+      "discs": [
+        2
+      ],
+      "textures": [
+        {
+          "object": "Map_View_Lastrada_Title",
+          "tiled_sha256": "99829cec549d19dc3e4a955154932b20a8d41901be5df9ce09d34c8efa69c061",
+          "operations": [
+            {
+              "kind": "translate",
+              "rect": [
+                0,
+                0,
+                256,
+                44
+              ],
+              "offset": [
+                4,
+                0
+              ],
+              "max_alpha_delta": 24,
+              "max_premultiplied_delta": 48
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/Map_View_Lastrada_08.xxx",
+      "sha256": "ccbe6cb635bd0ee49bd52f42461336ef55ea97f753d2ccf2fe02bd8e2f767256",
+      "discs": [
+        2
+      ],
+      "textures": [
+        {
+          "object": "Map_View_Lastrada_Title",
+          "tiled_sha256": "99829cec549d19dc3e4a955154932b20a8d41901be5df9ce09d34c8efa69c061",
+          "operations": [
+            {
+              "kind": "translate",
+              "rect": [
+                0,
+                0,
+                256,
+                44
+              ],
+              "offset": [
+                4,
+                0
+              ],
+              "max_alpha_delta": 24,
+              "max_premultiplied_delta": 48
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/Map_View_Lastrada_09.xxx",
+      "sha256": "b371d7d1015be5d3ae4053de32e940873b2da1a107bd2489a1adf447d7f738a5",
+      "discs": [
+        2
+      ],
+      "textures": [
+        {
+          "object": "Map_View_Lastrada_Title",
+          "tiled_sha256": "99829cec549d19dc3e4a955154932b20a8d41901be5df9ce09d34c8efa69c061",
+          "operations": [
+            {
+              "kind": "translate",
+              "rect": [
+                0,
+                0,
+                256,
+                44
+              ],
+              "offset": [
+                4,
+                0
+              ],
+              "max_alpha_delta": 24,
+              "max_premultiplied_delta": 48
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/Map_View_Lastrada_10.xxx",
+      "sha256": "fd231ba4c3393a81e74a51e96fc2d306ec3a2c96304abefe00371152121412f0",
+      "discs": [
+        2
+      ],
+      "textures": [
+        {
+          "object": "Map_View_Lastrada_Title",
+          "tiled_sha256": "99829cec549d19dc3e4a955154932b20a8d41901be5df9ce09d34c8efa69c061",
+          "operations": [
+            {
+              "kind": "translate",
+              "rect": [
+                0,
+                0,
+                256,
+                44
+              ],
+              "offset": [
+                4,
+                0
+              ],
+              "max_alpha_delta": 24,
+              "max_premultiplied_delta": 48
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/Map_View_Lastrada_11.xxx",
+      "sha256": "e42cace60004cd81339849ccea9c77e3c54957de31ff66180d4af03874c6a663",
+      "discs": [
+        2
+      ],
+      "textures": [
+        {
+          "object": "Map_View_Lastrada_Title",
+          "tiled_sha256": "99829cec549d19dc3e4a955154932b20a8d41901be5df9ce09d34c8efa69c061",
+          "operations": [
+            {
+              "kind": "translate",
+              "rect": [
+                0,
+                0,
+                256,
+                44
+              ],
+              "offset": [
+                4,
+                0
+              ],
+              "max_alpha_delta": 24,
+              "max_premultiplied_delta": 48
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/Map_View_Lastrada_12.xxx",
+      "sha256": "74c24a6d92043dc03a90a528c1b94565c072cb8a36f0ad5a57d1b8166f8185c3",
+      "discs": [
+        2
+      ],
+      "textures": [
+        {
+          "object": "Map_View_Lastrada_Title",
+          "tiled_sha256": "99829cec549d19dc3e4a955154932b20a8d41901be5df9ce09d34c8efa69c061",
+          "operations": [
+            {
+              "kind": "translate",
+              "rect": [
+                0,
+                0,
+                256,
+                44
+              ],
+              "offset": [
+                4,
+                0
+              ],
+              "max_alpha_delta": 24,
+              "max_premultiplied_delta": 48
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/Map_View_Lastrada_13.xxx",
+      "sha256": "97d9f0df36ddfa5f59f93e41004595230be218fd57d8d47d60f328a3180edf85",
+      "discs": [
+        2
+      ],
+      "textures": [
+        {
+          "object": "Map_View_Lastrada_Title",
+          "tiled_sha256": "99829cec549d19dc3e4a955154932b20a8d41901be5df9ce09d34c8efa69c061",
+          "operations": [
+            {
+              "kind": "translate",
+              "rect": [
+                0,
+                0,
+                256,
+                44
+              ],
+              "offset": [
+                4,
+                0
+              ],
+              "max_alpha_delta": 24,
+              "max_premultiplied_delta": 48
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/Map_View_Lastrada_14.xxx",
+      "sha256": "34107c76d31b14e526017db6d2244a678a3c2a68d34bf81f5b80726147c54c5d",
+      "discs": [
+        2
+      ],
+      "textures": [
+        {
+          "object": "Map_View_Lastrada_Title",
+          "tiled_sha256": "99829cec549d19dc3e4a955154932b20a8d41901be5df9ce09d34c8efa69c061",
+          "operations": [
+            {
+              "kind": "translate",
+              "rect": [
+                0,
+                0,
+                256,
+                44
+              ],
+              "offset": [
+                4,
+                0
+              ],
+              "max_alpha_delta": 24,
+              "max_premultiplied_delta": 48
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/Map_View_Lastrada_15.xxx",
+      "sha256": "a4987f2e04c9908bbca93821abd83fd5111b48a29cd631bf0ef9dad40ae5f1be",
+      "discs": [
+        2
+      ],
+      "textures": [
+        {
+          "object": "Map_View_Lastrada_Title",
+          "tiled_sha256": "99829cec549d19dc3e4a955154932b20a8d41901be5df9ce09d34c8efa69c061",
+          "operations": [
+            {
+              "kind": "translate",
+              "rect": [
+                0,
+                0,
+                256,
+                44
+              ],
+              "offset": [
+                4,
+                0
+              ],
+              "max_alpha_delta": 24,
+              "max_premultiplied_delta": 48
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/Map_View_Lastrada_16.xxx",
+      "sha256": "e31e12f7bbbae822815a6b3e9fd58f481d64631b8694e61183d5789bd74f5ebf",
+      "discs": [
+        2
+      ],
+      "textures": [
+        {
+          "object": "Map_View_Lastrada_Title",
+          "tiled_sha256": "99829cec549d19dc3e4a955154932b20a8d41901be5df9ce09d34c8efa69c061",
+          "operations": [
+            {
+              "kind": "translate",
+              "rect": [
+                0,
+                0,
+                256,
+                44
+              ],
+              "offset": [
+                4,
+                0
+              ],
+              "max_alpha_delta": 24,
+              "max_premultiplied_delta": 48
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/Map_View_Lastrada_17.xxx",
+      "sha256": "f9eb953e17c22efbaaf19baa5f7067cfaca0658e8d37de6650d67ca6e2667133",
+      "discs": [
+        2
+      ],
+      "textures": [
+        {
+          "object": "Map_View_Lastrada_Title",
+          "tiled_sha256": "99829cec549d19dc3e4a955154932b20a8d41901be5df9ce09d34c8efa69c061",
+          "operations": [
+            {
+              "kind": "translate",
+              "rect": [
+                0,
+                0,
+                256,
+                44
+              ],
+              "offset": [
+                4,
+                0
+              ],
+              "max_alpha_delta": 24,
+              "max_premultiplied_delta": 48
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/Map_View_Oldfox.xxx",
+      "sha256": "5eb3313cfdfc5845db43393353ea94fbd2ff10ad3d97170551d588a88457b430",
+      "discs": [
+        1,
+        2
+      ],
+      "textures": [
+        {
+          "object": "Map_View_Oldfox",
+          "tiled_sha256": "4cf6eecddefad26725c7f5345c2d6736192e9c4142d0c4888088fcf09c9ea7fd",
+          "operations": [
+            {
+              "kind": "translate",
+              "rect": [
+                676,
+                20,
+                248,
+                44
+              ],
+              "offset": [
+                -8,
+                0
+              ],
+              "max_alpha_delta": 24,
+              "max_premultiplied_delta": 48
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/Map_View_Ruhalt_East.xxx",
+      "sha256": "6aaeff9aaf9adea393724ee2ad350c2724a6839077be2de1b8e99fd3552e265f",
+      "discs": [
+        2
+      ],
+      "textures": [
+        {
+          "object": "Map_View_Ruhalt",
+          "tiled_sha256": "739df540e98e33dcc59e3218d42ebc03801f10c6a64782203cc310d08c5deb8a",
+          "operations": [
+            {
+              "kind": "translate",
+              "rect": [
+                760,
+                248,
+                188,
+                48
+              ],
+              "offset": [
+                32,
+                0
+              ],
+              "max_alpha_delta": 24,
+              "max_premultiplied_delta": 48
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/Map_View_Ruhalt_West.xxx",
+      "sha256": "36227a5e74b864a81fdd741e31ce00cd2ddeb90de5159da610b4787a30b1565f",
+      "discs": [
+        2
+      ],
+      "textures": [
+        {
+          "object": "Map_View_Ruhalt",
+          "tiled_sha256": "739df540e98e33dcc59e3218d42ebc03801f10c6a64782203cc310d08c5deb8a",
+          "operations": [
+            {
+              "kind": "translate",
+              "rect": [
+                760,
+                248,
+                188,
+                48
+              ],
+              "offset": [
+                32,
+                0
+              ],
+              "max_alpha_delta": 24,
+              "max_premultiplied_delta": 48
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/Map_View_SentinelLab.xxx",
+      "sha256": "f5a32c588ca05086d1eb2a1b507d49c661992216d88250687b3943eddccdb033",
+      "discs": [
+        2
+      ],
+      "textures": [
+        {
+          "object": "Map_View_Senti_Title",
+          "tiled_sha256": "deee55fe4848a95e13b78f90c836555ea631f5e52bde0736370435a7307008f8",
+          "operations": [
+            {
+              "kind": "translate",
+              "rect": [
+                0,
+                8,
+                256,
+                48
+              ],
+              "offset": [
+                4,
+                0
+              ],
+              "max_alpha_delta": 24,
+              "max_premultiplied_delta": 48
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/Map_View_Velfort_01.xxx",
+      "sha256": "a61f92c719eebaaa206c0e0abaea43940dd29d8033277ae011c98f2d9a10c4d5",
+      "discs": [
+        2
+      ],
+      "textures": [
+        {
+          "object": "Map_View_Velfort01",
+          "tiled_sha256": "c34ef9b4e143c3440e2d4ea4c6655ab79662179141ab20ddfad1fe71a169987f",
+          "operations": [
+            {
+              "kind": "translate",
+              "rect": [
+                4,
+                316,
+                132,
+                40
+              ],
+              "offset": [
+                -5,
+                0
+              ],
+              "max_alpha_delta": 24,
+              "max_premultiplied_delta": 48
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/Map_View_Velfort_02.xxx",
+      "sha256": "976e6a53dbefef8c1ffbc8e64a2e8f7238af663edb973bd9d8ecd68fd25edcb2",
+      "discs": [
+        2
+      ],
+      "textures": [
+        {
+          "object": "Map_View_Velfort01",
+          "tiled_sha256": "c34ef9b4e143c3440e2d4ea4c6655ab79662179141ab20ddfad1fe71a169987f",
+          "operations": [
+            {
+              "kind": "translate",
+              "rect": [
+                4,
+                316,
+                132,
+                40
+              ],
+              "offset": [
+                -5,
+                0
+              ],
+              "max_alpha_delta": 24,
+              "max_premultiplied_delta": 48
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/Map_View_Velfort_03.xxx",
+      "sha256": "f820ebfad901108f6e5140d75dd5a31a18aa5d8b45fdff23d055997d559cbb21",
+      "discs": [
+        2
+      ],
+      "textures": [
+        {
+          "object": "Map_View_Velfort01",
+          "tiled_sha256": "c34ef9b4e143c3440e2d4ea4c6655ab79662179141ab20ddfad1fe71a169987f",
+          "operations": [
+            {
+              "kind": "translate",
+              "rect": [
+                4,
+                316,
+                132,
+                40
+              ],
+              "offset": [
+                -5,
+                0
+              ],
+              "max_alpha_delta": 24,
+              "max_premultiplied_delta": 48
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/Map_View_Velfort_04.xxx",
+      "sha256": "875013ddefac7746bbcb035f04924a687b9ea51d9cfe2a7aad6ed566ec51a27c",
+      "discs": [
+        2
+      ],
+      "textures": [
+        {
+          "object": "Map_View_Velfort01",
+          "tiled_sha256": "c34ef9b4e143c3440e2d4ea4c6655ab79662179141ab20ddfad1fe71a169987f",
+          "operations": [
+            {
+              "kind": "translate",
+              "rect": [
+                4,
+                316,
+                132,
+                40
+              ],
+              "offset": [
+                -5,
+                0
+              ],
+              "max_alpha_delta": 24,
+              "max_premultiplied_delta": 48
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/Map_View_Velfort_05.xxx",
+      "sha256": "d3055a9a40f4001bd6fb21cc1cf27c3ce472467332621121c0bcc4e0d10aa697",
+      "discs": [
+        2
+      ],
+      "textures": [
+        {
+          "object": "Map_View_Velfort01",
+          "tiled_sha256": "c34ef9b4e143c3440e2d4ea4c6655ab79662179141ab20ddfad1fe71a169987f",
+          "operations": [
+            {
+              "kind": "translate",
+              "rect": [
+                4,
+                316,
+                132,
+                40
+              ],
+              "offset": [
+                -5,
+                0
+              ],
+              "max_alpha_delta": 24,
+              "max_premultiplied_delta": 48
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/Map_View_Velfort_06.xxx",
+      "sha256": "43f7b37da9a69ad07e3aeebb59a97f151a0aef361393530e48c14b2e4577ea85",
+      "discs": [
+        2
+      ],
+      "textures": [
+        {
+          "object": "Map_View_Velfort01",
+          "tiled_sha256": "c34ef9b4e143c3440e2d4ea4c6655ab79662179141ab20ddfad1fe71a169987f",
+          "operations": [
+            {
+              "kind": "translate",
+              "rect": [
+                4,
+                316,
+                132,
+                40
+              ],
+              "offset": [
+                -5,
+                0
+              ],
+              "max_alpha_delta": 24,
+              "max_premultiplied_delta": 48
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/Map_View_Velfort_07.xxx",
+      "sha256": "7a8b2eefabb844494704e0273a3e8d5cc4ddf2236dda015aee63be26c511e2fd",
+      "discs": [
+        2
+      ],
+      "textures": [
+        {
+          "object": "Map_View_Velfort01",
+          "tiled_sha256": "c34ef9b4e143c3440e2d4ea4c6655ab79662179141ab20ddfad1fe71a169987f",
+          "operations": [
+            {
+              "kind": "translate",
+              "rect": [
+                4,
+                316,
+                132,
+                40
+              ],
+              "offset": [
+                -5,
+                0
+              ],
+              "max_alpha_delta": 24,
+              "max_premultiplied_delta": 48
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/Map_View_Velfort_08.xxx",
+      "sha256": "9979137df0b847bcac766b40aa416be9483b9060c79b758f5a595cc3f71394ca",
+      "discs": [
+        2
+      ],
+      "textures": [
+        {
+          "object": "Map_View_Velfort01",
+          "tiled_sha256": "c34ef9b4e143c3440e2d4ea4c6655ab79662179141ab20ddfad1fe71a169987f",
+          "operations": [
+            {
+              "kind": "translate",
+              "rect": [
+                4,
+                316,
+                132,
+                40
+              ],
+              "offset": [
+                -5,
+                0
+              ],
+              "max_alpha_delta": 24,
+              "max_premultiplied_delta": 48
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/Map_View_Velfort_09.xxx",
+      "sha256": "ae3e63cd7dc42dc66ab8c4acd75093680c2453fe40c9c610ba11244c39d7a5a4",
+      "discs": [
+        2
+      ],
+      "textures": [
+        {
+          "object": "Map_View_Velfort01",
+          "tiled_sha256": "c34ef9b4e143c3440e2d4ea4c6655ab79662179141ab20ddfad1fe71a169987f",
+          "operations": [
+            {
+              "kind": "translate",
+              "rect": [
+                4,
+                316,
+                132,
+                40
+              ],
+              "offset": [
+                -5,
+                0
+              ],
+              "max_alpha_delta": 24,
+              "max_premultiplied_delta": 48
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/Map_View_Velfort_10.xxx",
+      "sha256": "b06262f3fdb21ebfa2bbf3b6a96ffe75d57b1284268f0b294a8d24c2c9e150c3",
+      "discs": [
+        2
+      ],
+      "textures": [
+        {
+          "object": "Map_View_Velfort01",
+          "tiled_sha256": "c34ef9b4e143c3440e2d4ea4c6655ab79662179141ab20ddfad1fe71a169987f",
+          "operations": [
+            {
+              "kind": "translate",
+              "rect": [
+                4,
+                316,
+                132,
+                40
+              ],
+              "offset": [
+                -5,
+                0
+              ],
+              "max_alpha_delta": 24,
+              "max_premultiplied_delta": 48
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/Map_View_Velfort_11.xxx",
+      "sha256": "890615dbea759cca071d1c8f444086de513175591a67ebf73e90090e7b5dece6",
+      "discs": [
+        2
+      ],
+      "textures": [
+        {
+          "object": "Map_View_Velfort01",
+          "tiled_sha256": "c34ef9b4e143c3440e2d4ea4c6655ab79662179141ab20ddfad1fe71a169987f",
+          "operations": [
+            {
+              "kind": "translate",
+              "rect": [
+                4,
+                316,
+                132,
+                40
+              ],
+              "offset": [
+                -5,
+                0
+              ],
+              "max_alpha_delta": 24,
+              "max_premultiplied_delta": 48
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/Map_View_Velfort_12.xxx",
+      "sha256": "b9622198cef35a4fc0560e09060ff8deb3266733e00bfe52b94101336162eea8",
+      "discs": [
+        2
+      ],
+      "textures": [
+        {
+          "object": "Map_View_Velfort01",
+          "tiled_sha256": "c34ef9b4e143c3440e2d4ea4c6655ab79662179141ab20ddfad1fe71a169987f",
+          "operations": [
+            {
+              "kind": "translate",
+              "rect": [
+                4,
+                316,
+                132,
+                40
+              ],
+              "offset": [
+                -5,
+                0
+              ],
+              "max_alpha_delta": 24,
+              "max_premultiplied_delta": 48
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/UI_Name_Jpn.xxx",
+      "sha256": "ad197e44fa681a9d4ed9dae1e018eaf67178653ade7bae2968e70f90e3a14fc5",
+      "discs": [
+        1,
+        2
+      ],
+      "textures": [
+        {
+          "object": "Tex.Field_MainMenu_Big_Title0",
+          "tiled_sha256": "b8abb87ce16edbe3331023cb1b4147abdf1615b54395d563cdc05cc76387a6e9",
+          "operations": [
+            {
+              "kind": "clear-dark-alpha",
+              "rectangles": [
+                [
+                  32,
+                  0,
+                  4,
+                  36
+                ]
+              ],
+              "rgb_ceiling": 96,
+              "max_retained_delta": 3
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

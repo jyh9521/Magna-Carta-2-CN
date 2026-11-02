@@ -1995,3 +1995,12 @@ candidate、controls、raw-controls或live合并，结束时再次核验独立�
 辅助装备的首轮微缩与随后精确X/Y纠正分别验证。四包源锁定重建、双盘共享身份、
 隔离回滚和原测试目录增量刷新见 [阶段341](docs/PHASE_341_BUTTON_VISUAL_CENTER.md)。
 不按含阴影的整张贴图求中心，也不忽略消费者UV相对字图单元的偏移。
+
+## 阶段342：文字暗带的RGB局部修复
+
+`tools.repair_texture_dark_bands`按`texture-overlays/text-dark-bands-v15.json`锁定当前资源，
+只改明确文字行涉及的BC3颜色字节；所有原生alpha和非授权字节须严格保持。
+全量只读筛查、重建、三态审计及双盘/增量收尾见[阶段342](docs/PHASE_342_TEXT_DARK_BANDS.md)。
+本轮不重建安装器或ISO，不改任何文字大小与位置。
+首轮v15后叠加v16的三项用户反馈修正；v16按首轮成品摘要构建，追加审计包含明确
+暗行/描边像素。最终入口、双盘recipe和证据见同一阶段文档的追加小节。

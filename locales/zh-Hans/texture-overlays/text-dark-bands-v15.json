@@ -1,0 +1,6820 @@
+{
+  "schema_version": 1,
+  "kind": "native-rgb-band-repair-v1",
+  "label_plans": [
+    {
+      "path": "locales/zh-Hans/texture-overlays/ui-labels-gameplay-v9.json",
+      "sha256": "7b42c56dd392e65fdc419c2b53dfb8cd1f447f9f50ea5d4534fb4da3938e80e9"
+    },
+    {
+      "path": "locales/zh-Hans/texture-overlays/controller-feedback-v8.json",
+      "sha256": "715e13d2ca52bb14a0a84a894ceeb31685c0e0aade205c8da92a9149810ccd26"
+    },
+    {
+      "path": "locales/zh-Hans/texture-overlays/voice-drama-headings-v10.json",
+      "sha256": "1a73b7de4df228036183f46ff705487db4f3639bd1ac35f12abdc90d68954195"
+    },
+    {
+      "path": "locales/zh-Hans/texture-overlays/release-category-clip.json",
+      "sha256": "6d3e1f58323ba14ff972839555d2f3e0ca9b3bd5749ca2dfb0f521f716043d1f"
+    },
+    {
+      "path": "locales/zh-Hans/texture-overlays/save-slot-labels.json",
+      "sha256": "f290983c13974ac2ac8e06fc1112374648d90b631a241125a47419ca1558a126"
+    },
+    {
+      "path": "locales/zh-Hans/texture-overlays/guest-ink-v13.json",
+      "sha256": "6f0a7018ab22b913e935a0a8290abfc9bcef604af178b4b62fdca6b25c417f93"
+    },
+    {
+      "path": "locales/zh-Hans/texture-overlays/ui-polish-v14.json",
+      "sha256": "619545cbf4ac8bd536fdb493356ba78d375ef510a3c8a6d1ab8593f82e51a5a4"
+    }
+  ],
+  "prior_gradient_revisions": [
+    {
+      "path": "locales/zh-Hans/texture-overlays/status-label-rgb-repair-v1.json",
+      "sha256": "9f0a737d00b30b874e057836d927f025bc59c6d542f4779fbc3cd412654a04d7"
+    }
+  ],
+  "requests": [
+    {
+      "id": "ui_boss_sion",
+      "remove_gradient_positions": [
+        840
+      ],
+      "refit_rows": [
+        23,
+        41
+      ]
+    },
+    {
+      "id": "ui_character_name_zephi",
+      "remove_gradient_positions": [
+        118
+      ],
+      "refit_rows": []
+    },
+    {
+      "id": "ui_character_name_zephi_red",
+      "remove_gradient_positions": [
+        118
+      ],
+      "refit_rows": []
+    },
+    {
+      "id": "img_ui_name_jpn_26",
+      "remove_gradient_positions": [
+        706
+      ],
+      "refit_rows": []
+    },
+    {
+      "id": "img_ui_name_jpn_34",
+      "remove_gradient_positions": [
+        889
+      ],
+      "refit_rows": [
+        22
+      ]
+    },
+    {
+      "id": "img_ui_name_jpn_36",
+      "remove_gradient_positions": [
+        889
+      ],
+      "refit_rows": [
+        22
+      ]
+    },
+    {
+      "id": "img_ui_name_jpn_38",
+      "remove_gradient_positions": [
+        611,
+        889
+      ],
+      "refit_rows": [
+        17
+      ]
+    },
+    {
+      "id": "img_ui_name_jpn_42",
+      "remove_gradient_positions": [
+        556
+      ],
+      "refit_rows": [
+        8,
+        16
+      ]
+    },
+    {
+      "id": "img_ui_name_jpn_43",
+      "remove_gradient_positions": [
+        812
+      ],
+      "refit_rows": []
+    },
+    {
+      "id": "img_ui_name_jpn_49",
+      "remove_gradient_positions": [
+        765
+      ],
+      "refit_rows": []
+    },
+    {
+      "id": "img_ui_name_jpn_52",
+      "remove_gradient_positions": [
+        59
+      ],
+      "refit_rows": []
+    },
+    {
+      "id": "img_ui_name_jpn_60",
+      "remove_gradient_positions": [
+        59,
+        765
+      ],
+      "refit_rows": [
+        20
+      ]
+    },
+    {
+      "id": "img_ui_name_jpn_61",
+      "remove_gradient_positions": [
+        765
+      ],
+      "refit_rows": [
+        20
+      ]
+    },
+    {
+      "id": "img_ui_name_jpn_62",
+      "remove_gradient_positions": [
+        59
+      ],
+      "refit_rows": []
+    },
+    {
+      "id": "img_ui_name_jpn_63",
+      "remove_gradient_positions": [
+        765
+      ],
+      "refit_rows": []
+    },
+    {
+      "id": "img_ui_name_jpn_64",
+      "remove_gradient_positions": [
+        56
+      ],
+      "refit_rows": []
+    },
+    {
+      "id": "img_ui_name_jpn_65",
+      "remove_gradient_positions": [
+        56
+      ],
+      "refit_rows": []
+    },
+    {
+      "id": "img_ui_name_jpn_67",
+      "remove_gradient_positions": [
+        889
+      ],
+      "refit_rows": []
+    },
+    {
+      "id": "img_ui_name_jpn_70",
+      "remove_gradient_positions": [
+        59
+      ],
+      "refit_rows": []
+    },
+    {
+      "id": "img_ui_name_jpn_72",
+      "remove_gradient_positions": [
+        59
+      ],
+      "refit_rows": []
+    },
+    {
+      "id": "img_ui_name_jpn_86",
+      "remove_gradient_positions": [
+        59
+      ],
+      "refit_rows": []
+    },
+    {
+      "id": "img_ui_name_jpn_89",
+      "remove_gradient_positions": [
+        889
+      ],
+      "refit_rows": [
+        22
+      ]
+    },
+    {
+      "id": "img_ui_name_jpn_90",
+      "remove_gradient_positions": [
+        889
+      ],
+      "refit_rows": []
+    },
+    {
+      "id": "img_ui_name_jpn_91",
+      "remove_gradient_positions": [
+        611
+      ],
+      "refit_rows": [
+        17
+      ]
+    },
+    {
+      "id": "img_ui_name_jpn_93",
+      "remove_gradient_positions": [
+        56,
+        889
+      ],
+      "refit_rows": []
+    },
+    {
+      "id": "img_ui_name_jpn_94",
+      "remove_gradient_positions": [
+        59,
+        176
+      ],
+      "refit_rows": []
+    },
+    {
+      "id": "img_ui_name_jpn_95",
+      "remove_gradient_positions": [
+        118
+      ],
+      "refit_rows": []
+    },
+    {
+      "id": "img_ui_name_jpn_109",
+      "remove_gradient_positions": [
+        722
+      ],
+      "refit_rows": []
+    },
+    {
+      "id": "img_ui_name_jpn_111",
+      "remove_gradient_positions": [
+        59
+      ],
+      "refit_rows": []
+    },
+    {
+      "id": "img_ui_name_jpn_114",
+      "remove_gradient_positions": [
+        588
+      ],
+      "refit_rows": [
+        12,
+        20
+      ]
+    },
+    {
+      "id": "img_ui_name_jpn_118",
+      "remove_gradient_positions": [
+        722
+      ],
+      "refit_rows": []
+    },
+    {
+      "id": "img_ui_name_jpn_121",
+      "remove_gradient_positions": [
+        722
+      ],
+      "refit_rows": []
+    },
+    {
+      "id": "img_ui_name_jpn_122",
+      "remove_gradient_positions": [
+        722
+      ],
+      "refit_rows": []
+    },
+    {
+      "id": "img_ui_name_jpn_133",
+      "remove_gradient_positions": [
+        56
+      ],
+      "refit_rows": []
+    },
+    {
+      "id": "img_ui_monster_name_jpn_10",
+      "remove_gradient_positions": [
+        722
+      ],
+      "refit_rows": []
+    },
+    {
+      "id": "img_ui_monster_name_jpn_13",
+      "remove_gradient_positions": [
+        889
+      ],
+      "refit_rows": []
+    },
+    {
+      "id": "img_ui_monster_name_jpn_14",
+      "remove_gradient_positions": [
+        556
+      ],
+      "refit_rows": []
+    },
+    {
+      "id": "img_ui_monster_name_jpn_35",
+      "remove_gradient_positions": [
+        889
+      ],
+      "refit_rows": []
+    },
+    {
+      "id": "img_ui_monster_name_jpn_38",
+      "remove_gradient_positions": [
+        706
+      ],
+      "refit_rows": [
+        20
+      ]
+    },
+    {
+      "id": "img_ui_monster_name_jpn_40",
+      "remove_gradient_positions": [
+        889
+      ],
+      "refit_rows": []
+    },
+    {
+      "id": "img_ui_monster_name_jpn_42",
+      "remove_gradient_positions": [
+        611,
+        889
+      ],
+      "refit_rows": []
+    },
+    {
+      "id": "img_ui_monster_name_jpn_51",
+      "remove_gradient_positions": [
+        611
+      ],
+      "refit_rows": []
+    },
+    {
+      "id": "img_ui_monster_name_jpn_53",
+      "remove_gradient_positions": [
+        59,
+        765
+      ],
+      "refit_rows": [
+        20
+      ]
+    },
+    {
+      "id": "img_ui_monster_name_jpn_54",
+      "remove_gradient_positions": [
+        118
+      ],
+      "refit_rows": []
+    },
+    {
+      "id": "img_ui_monster_name_jpn_55",
+      "remove_gradient_positions": [
+        56
+      ],
+      "refit_rows": []
+    },
+    {
+      "id": "img_ui_monster_name_jpn_63",
+      "remove_gradient_positions": [
+        59,
+        471
+      ],
+      "refit_rows": []
+    },
+    {
+      "id": "img_ui_monster_name_jpn_64",
+      "remove_gradient_positions": [
+        611
+      ],
+      "refit_rows": []
+    },
+    {
+      "id": "img_ui_monster_name_jpn_68",
+      "remove_gradient_positions": [
+        970
+      ],
+      "refit_rows": [
+        39
+      ]
+    },
+    {
+      "id": "img_ui_monster_name_jpn_80",
+      "remove_gradient_positions": [
+        556
+      ],
+      "refit_rows": []
+    },
+    {
+      "id": "img_ui_monster_name_jpn_81",
+      "remove_gradient_positions": [
+        812
+      ],
+      "refit_rows": []
+    },
+    {
+      "id": "img_ui_monster_name_jpn_87",
+      "remove_gradient_positions": [
+        765
+      ],
+      "refit_rows": [
+        12,
+        20
+      ]
+    },
+    {
+      "id": "img_ui_monster_name_jpn_90",
+      "remove_gradient_positions": [
+        59
+      ],
+      "refit_rows": []
+    },
+    {
+      "id": "img_ui_monster_name_jpn_98",
+      "remove_gradient_positions": [
+        59,
+        765
+      ],
+      "refit_rows": []
+    },
+    {
+      "id": "img_ui_monster_name_jpn_99",
+      "remove_gradient_positions": [
+        722
+      ],
+      "refit_rows": []
+    },
+    {
+      "id": "img_ui_monster_name_jpn_100",
+      "remove_gradient_positions": [
+        59
+      ],
+      "refit_rows": []
+    },
+    {
+      "id": "img_ui_monster_name_jpn_102",
+      "remove_gradient_positions": [
+        56
+      ],
+      "refit_rows": []
+    },
+    {
+      "id": "img_ui_monster_name_jpn_103",
+      "remove_gradient_positions": [
+        56
+      ],
+      "refit_rows": []
+    },
+    {
+      "id": "img_ui_monster_name_jpn_105",
+      "remove_gradient_positions": [
+        889
+      ],
+      "refit_rows": []
+    },
+    {
+      "id": "img_ui_monster_name_jpn_108",
+      "remove_gradient_positions": [
+        59
+      ],
+      "refit_rows": []
+    },
+    {
+      "id": "img_ui_monster_name_jpn_110",
+      "remove_gradient_positions": [
+        59
+      ],
+      "refit_rows": []
+    },
+    {
+      "id": "img_ui_monster_name_jpn_124",
+      "remove_gradient_positions": [
+        59
+      ],
+      "refit_rows": []
+    },
+    {
+      "id": "img_ui_monster_name_jpn_126",
+      "remove_gradient_positions": [
+        889
+      ],
+      "refit_rows": []
+    },
+    {
+      "id": "img_ui_monster_name_jpn_129",
+      "remove_gradient_positions": [
+        889
+      ],
+      "refit_rows": []
+    },
+    {
+      "id": "img_ui_monster_name_jpn_130",
+      "remove_gradient_positions": [
+        56,
+        889
+      ],
+      "refit_rows": []
+    },
+    {
+      "id": "img_ui_monster_name_jpn_131",
+      "remove_gradient_positions": [
+        611
+      ],
+      "refit_rows": []
+    },
+    {
+      "id": "img_ui_monster_name_jpn_134",
+      "remove_gradient_positions": [
+        611
+      ],
+      "refit_rows": []
+    },
+    {
+      "id": "img_ui_monster_name_jpn_135",
+      "remove_gradient_positions": [
+        611,
+        722
+      ],
+      "refit_rows": [
+        20
+      ]
+    },
+    {
+      "id": "img_ui_monster_name_jpn_139",
+      "remove_gradient_positions": [
+        59
+      ],
+      "refit_rows": []
+    },
+    {
+      "id": "img_ui_monster_name_jpn_145",
+      "remove_gradient_positions": [
+        59
+      ],
+      "refit_rows": []
+    },
+    {
+      "id": "img_ui_monster_name_jpn_147",
+      "remove_gradient_positions": [
+        722
+      ],
+      "refit_rows": []
+    },
+    {
+      "id": "img_ui_monster_name_jpn_159",
+      "remove_gradient_positions": [
+        722
+      ],
+      "refit_rows": []
+    },
+    {
+      "id": "img_ui_monster_name_jpn_160",
+      "remove_gradient_positions": [
+        722
+      ],
+      "refit_rows": []
+    },
+    {
+      "id": "img_ui_monster_name_jpn_161",
+      "remove_gradient_positions": [
+        722
+      ],
+      "refit_rows": []
+    },
+    {
+      "id": "img_ui_monster_name_jpn_165",
+      "remove_gradient_positions": [
+        59
+      ],
+      "refit_rows": []
+    },
+    {
+      "id": "img_ui_monster_name_jpn_166",
+      "remove_gradient_positions": [
+        59
+      ],
+      "refit_rows": []
+    },
+    {
+      "id": "img_ui_monster_name_jpn_172",
+      "remove_gradient_positions": [
+        588
+      ],
+      "refit_rows": [
+        12,
+        20
+      ]
+    },
+    {
+      "id": "img_ui_monster_name_jpn_180",
+      "remove_gradient_positions": [
+        56
+      ],
+      "refit_rows": []
+    },
+    {
+      "id": "img_ui_monster_name_jpn_184",
+      "remove_gradient_positions": [
+        59
+      ],
+      "refit_rows": []
+    },
+    {
+      "id": "img_ui_monster_name_jpn_193",
+      "remove_gradient_positions": [
+        722
+      ],
+      "refit_rows": []
+    },
+    {
+      "id": "img_ui_name_jpn_10",
+      "remove_gradient_positions": [
+        722
+      ],
+      "refit_rows": []
+    },
+    {
+      "id": "img_ui_name_jpn_175_3",
+      "remove_gradient_positions": [
+        67
+      ],
+      "refit_rows": [
+        18
+      ]
+    },
+    {
+      "id": "img_ui_name_jpn_136_0",
+      "remove_gradient_positions": [
+        833
+      ],
+      "refit_rows": []
+    },
+    {
+      "id": "img_ui_name_jpn_136_1",
+      "remove_gradient_positions": [
+        71,
+        214,
+        786,
+        929
+      ],
+      "refit_rows": []
+    },
+    {
+      "id": "img_ui_name_jpn_136_2",
+      "remove_gradient_positions": [
+        778
+      ],
+      "refit_rows": []
+    },
+    {
+      "id": "img_ui_name_jpn_136_3",
+      "remove_gradient_positions": [
+        789
+      ],
+      "refit_rows": [
+        20
+      ]
+    },
+    {
+      "id": "img_ui_name_jpn_136_4",
+      "remove_gradient_positions": [
+        789
+      ],
+      "refit_rows": [
+        22
+      ]
+    },
+    {
+      "id": "img_ui_name_jpn_136_5",
+      "remove_gradient_positions": [
+        704,
+        963
+      ],
+      "refit_rows": [
+        22
+      ]
+    },
+    {
+      "id": "img_ui_name_jpn_157_5",
+      "remove_gradient_positions": [
+        56,
+        833
+      ],
+      "refit_rows": []
+    },
+    {
+      "id": "img_ui_name_jpn_158_1",
+      "remove_gradient_positions": [
+        947
+      ],
+      "refit_rows": []
+    },
+    {
+      "id": "img_ui_name_jpn_162_2",
+      "remove_gradient_positions": [
+        533
+      ],
+      "refit_rows": []
+    },
+    {
+      "id": "img_ui_name_jpn_165_0",
+      "remove_gradient_positions": [
+        789
+      ],
+      "refit_rows": [
+        20
+      ]
+    },
+    {
+      "id": "img_ui_name_jpn_169_7",
+      "remove_gradient_positions": [
+        700,
+        750,
+        800
+      ],
+      "refit_rows": []
+    },
+    {
+      "id": "img_ui_name_jpn_172_0",
+      "remove_gradient_positions": [
+        800
+      ],
+      "refit_rows": []
+    },
+    {
+      "id": "img_ui_name_jpn_187_1",
+      "remove_gradient_positions": [
+        211,
+        316,
+        421
+      ],
+      "refit_rows": []
+    },
+    {
+      "id": "img_ui_name_jpn_188_4",
+      "remove_gradient_positions": [
+        385
+      ],
+      "refit_rows": []
+    },
+    {
+      "id": "img_ui_name_jpn_188_7",
+      "remove_gradient_positions": [
+        789
+      ],
+      "refit_rows": [
+        18
+      ]
+    },
+    {
+      "id": "img_ui_name_jpn_188_9",
+      "remove_gradient_positions": [
+        519
+      ],
+      "refit_rows": []
+    },
+    {
+      "id": "img_ui_name_jpn_188_14",
+      "remove_gradient_positions": [
+        56
+      ],
+      "refit_rows": []
+    },
+    {
+      "id": "img_ui_name_jpn_188_15",
+      "remove_gradient_positions": [
+        53,
+        158,
+        579,
+        684
+      ],
+      "refit_rows": [
+        14
+      ]
+    },
+    {
+      "id": "img_ui_battle_08_jp_8_3",
+      "remove_gradient_positions": [
+        529
+      ],
+      "refit_rows": []
+    },
+    {
+      "id": "img_ui_battle_08_jp_13_1",
+      "remove_gradient_positions": [
+        522
+      ],
+      "refit_rows": []
+    },
+    {
+      "id": "img_ui_battle_08_jp_60_1",
+      "remove_gradient_positions": [
+        59
+      ],
+      "refit_rows": []
+    },
+    {
+      "id": "img_ui_battle_08_jp_156_1",
+      "remove_gradient_positions": [
+        59,
+        176
+      ],
+      "refit_rows": []
+    },
+    {
+      "id": "hud_complete_22_00",
+      "remove_gradient_positions": [
+        111,
+        159,
+        206,
+        254,
+        730
+      ],
+      "refit_rows": [
+        20,
+        39
+      ]
+    },
+    {
+      "id": "hud_complete_23_00",
+      "remove_gradient_positions": [
+        111,
+        159,
+        206,
+        254,
+        730
+      ],
+      "refit_rows": []
+    },
+    {
+      "id": "hud_complete_27_00",
+      "remove_gradient_positions": [
+        190
+      ],
+      "refit_rows": [
+        17
+      ]
+    },
+    {
+      "id": "ui_batch_933_new",
+      "remove_gradient_positions": [
+        900
+      ],
+      "refit_rows": []
+    },
+    {
+      "id": "ui_batch_1097_icearrow",
+      "remove_gradient_positions": [
+        824
+      ],
+      "refit_rows": []
+    },
+    {
+      "id": "ui_batch_1099_instruction",
+      "remove_gradient_positions": [
+        778
+      ],
+      "refit_rows": []
+    },
+    {
+      "id": "runtime_skill_010",
+      "remove_gradient_positions": [
+        24
+      ],
+      "refit_rows": []
+    },
+    {
+      "id": "runtime_skill_045",
+      "remove_gradient_positions": [
+        24
+      ],
+      "refit_rows": []
+    },
+    {
+      "id": "runtime_skill_048",
+      "remove_gradient_positions": [
+        24
+      ],
+      "refit_rows": []
+    },
+    {
+      "id": "runtime_skill_051",
+      "remove_gradient_positions": [
+        24
+      ],
+      "refit_rows": []
+    },
+    {
+      "id": "runtime_skill_058",
+      "remove_gradient_positions": [
+        24
+      ],
+      "refit_rows": []
+    },
+    {
+      "id": "runtime_skill_059",
+      "remove_gradient_positions": [
+        24
+      ],
+      "refit_rows": []
+    },
+    {
+      "id": "runtime_skill_066",
+      "remove_gradient_positions": [
+        24
+      ],
+      "refit_rows": []
+    },
+    {
+      "id": "runtime_skill_108",
+      "remove_gradient_positions": [
+        738
+      ],
+      "refit_rows": []
+    },
+    {
+      "id": "runtime_skill_126",
+      "remove_gradient_positions": [
+        24
+      ],
+      "refit_rows": []
+    },
+    {
+      "id": "normal_style_005_cell_001",
+      "remove_gradient_positions": [
+        611
+      ],
+      "refit_rows": []
+    },
+    {
+      "id": "normal_style_019_cell_018",
+      "remove_gradient_positions": [
+        56
+      ],
+      "refit_rows": []
+    },
+    {
+      "id": "normal_style_019_cell_019",
+      "remove_gradient_positions": [
+        611
+      ],
+      "refit_rows": []
+    },
+    {
+      "id": "normal_style_003_cell_050",
+      "remove_gradient_positions": [
+        556
+      ],
+      "refit_rows": [
+        19
+      ]
+    },
+    {
+      "id": "normal_style_003_cell_052",
+      "remove_gradient_positions": [
+        111,
+        722
+      ],
+      "refit_rows": []
+    },
+    {
+      "id": "normal_style_008_cell_084",
+      "remove_gradient_positions": [
+        556
+      ],
+      "refit_rows": [
+        15
+      ]
+    },
+    {
+      "id": "normal_style_008_cell_085",
+      "remove_gradient_positions": [
+        556
+      ],
+      "refit_rows": [
+        14
+      ]
+    },
+    {
+      "id": "normal_map_terrain_map_view_undersea_00",
+      "remove_gradient_positions": [
+        769
+      ],
+      "refit_rows": []
+    },
+    {
+      "id": "normal_map_terrain_map_view_undersea_2_00",
+      "remove_gradient_positions": [
+        769
+      ],
+      "refit_rows": []
+    },
+    {
+      "id": "normal_map_terrain_map_view_dunanf_01",
+      "remove_gradient_positions": [
+        971
+      ],
+      "refit_rows": []
+    },
+    {
+      "id": "ui_batch_1099_styled_digit",
+      "remove_gradient_positions": [
+        778
+      ],
+      "refit_rows": []
+    },
+    {
+      "id": "ch01_03_cave",
+      "remove_gradient_positions": [],
+      "refit_rows": [
+        31
+      ]
+    },
+    {
+      "id": "ch02_12_Wail_wall",
+      "remove_gradient_positions": [],
+      "refit_rows": [
+        23
+      ]
+    },
+    {
+      "id": "ch02_HeathOfSilence",
+      "remove_gradient_positions": [],
+      "refit_rows": [
+        35
+      ]
+    },
+    {
+      "id": "Ch03_Tomb",
+      "remove_gradient_positions": [],
+      "refit_rows": [
+        35
+      ]
+    },
+    {
+      "id": "Ch03_Undersea",
+      "remove_gradient_positions": [],
+      "refit_rows": [
+        31,
+        35
+      ]
+    },
+    {
+      "id": "Ch06_Lanoara",
+      "remove_gradient_positions": [],
+      "refit_rows": [
+        35
+      ]
+    },
+    {
+      "id": "Map_LaStrada",
+      "remove_gradient_positions": [],
+      "refit_rows": [
+        39
+      ]
+    },
+    {
+      "id": "ui_boss_ch4_vekas",
+      "remove_gradient_positions": [],
+      "refit_rows": [
+        43
+      ]
+    },
+    {
+      "id": "ui_boss_ch5_zebasa",
+      "remove_gradient_positions": [],
+      "refit_rows": [
+        43
+      ]
+    },
+    {
+      "id": "img_ui_name_jpn_25",
+      "remove_gradient_positions": [],
+      "refit_rows": [
+        16
+      ]
+    },
+    {
+      "id": "img_ui_name_jpn_68",
+      "remove_gradient_positions": [],
+      "refit_rows": [
+        21
+      ]
+    },
+    {
+      "id": "img_ui_name_jpn_97",
+      "remove_gradient_positions": [],
+      "refit_rows": [
+        17
+      ]
+    },
+    {
+      "id": "img_ui_name_jpn_99",
+      "remove_gradient_positions": [],
+      "refit_rows": [
+        16
+      ]
+    },
+    {
+      "id": "img_ui_name_jpn_113",
+      "remove_gradient_positions": [],
+      "refit_rows": [
+        20
+      ]
+    },
+    {
+      "id": "img_ui_monster_name_jpn_37",
+      "remove_gradient_positions": [],
+      "refit_rows": [
+        20
+      ]
+    },
+    {
+      "id": "img_ui_monster_name_jpn_48",
+      "remove_gradient_positions": [],
+      "refit_rows": [
+        20
+      ]
+    },
+    {
+      "id": "img_ui_monster_name_jpn_69",
+      "remove_gradient_positions": [],
+      "refit_rows": [
+        35
+      ]
+    },
+    {
+      "id": "img_ui_monster_name_jpn_72",
+      "remove_gradient_positions": [],
+      "refit_rows": [
+        35
+      ]
+    },
+    {
+      "id": "img_ui_monster_name_jpn_75",
+      "remove_gradient_positions": [],
+      "refit_rows": [
+        35
+      ]
+    },
+    {
+      "id": "img_ui_monster_name_jpn_76",
+      "remove_gradient_positions": [],
+      "refit_rows": [
+        48
+      ]
+    },
+    {
+      "id": "img_ui_monster_name_jpn_77",
+      "remove_gradient_positions": [],
+      "refit_rows": [
+        48
+      ]
+    },
+    {
+      "id": "img_ui_monster_name_jpn_88",
+      "remove_gradient_positions": [],
+      "refit_rows": [
+        16
+      ]
+    },
+    {
+      "id": "img_ui_monster_name_jpn_101",
+      "remove_gradient_positions": [],
+      "refit_rows": [
+        16
+      ]
+    },
+    {
+      "id": "img_ui_monster_name_jpn_115",
+      "remove_gradient_positions": [],
+      "refit_rows": [
+        16
+      ]
+    },
+    {
+      "id": "img_ui_monster_name_jpn_196",
+      "remove_gradient_positions": [],
+      "refit_rows": [
+        20
+      ]
+    },
+    {
+      "id": "img_ui_name_jpn_174_4",
+      "remove_gradient_positions": [],
+      "refit_rows": [
+        8,
+        15
+      ]
+    },
+    {
+      "id": "img_ui_name_jpn_175_4",
+      "remove_gradient_positions": [],
+      "refit_rows": [
+        19
+      ]
+    },
+    {
+      "id": "img_ui_name_jpn_146_0",
+      "remove_gradient_positions": [],
+      "refit_rows": [
+        19
+      ]
+    },
+    {
+      "id": "img_ui_name_jpn_164_1",
+      "remove_gradient_positions": [],
+      "refit_rows": [
+        19
+      ]
+    },
+    {
+      "id": "img_ui_name_jpn_164_2",
+      "remove_gradient_positions": [],
+      "refit_rows": [
+        19
+      ]
+    },
+    {
+      "id": "img_ui_name_jpn_167_4",
+      "remove_gradient_positions": [],
+      "refit_rows": [
+        19
+      ]
+    },
+    {
+      "id": "img_ui_name_jpn_184_0",
+      "remove_gradient_positions": [],
+      "refit_rows": [
+        22
+      ]
+    },
+    {
+      "id": "img_ui_name_jpn_188_0",
+      "remove_gradient_positions": [],
+      "refit_rows": [
+        17
+      ]
+    },
+    {
+      "id": "img_ui_name_jpn_188_3",
+      "remove_gradient_positions": [],
+      "refit_rows": [
+        12
+      ]
+    },
+    {
+      "id": "img_ui_name_jpn_189_1",
+      "remove_gradient_positions": [],
+      "refit_rows": [
+        19
+      ]
+    },
+    {
+      "id": "img_ui_name_jpn_190_1",
+      "remove_gradient_positions": [],
+      "refit_rows": [
+        20
+      ]
+    },
+    {
+      "id": "img_ui_name_jpn_190_2",
+      "remove_gradient_positions": [],
+      "refit_rows": [
+        13
+      ]
+    },
+    {
+      "id": "img_ui_battle_08_jp_175_2",
+      "remove_gradient_positions": [],
+      "refit_rows": [
+        3
+      ]
+    },
+    {
+      "id": "hud_complete_10_00",
+      "remove_gradient_positions": [],
+      "refit_rows": [
+        55
+      ]
+    },
+    {
+      "id": "hud_complete_25_00",
+      "remove_gradient_positions": [],
+      "refit_rows": [
+        37
+      ]
+    },
+    {
+      "id": "world_map_header_title",
+      "remove_gradient_positions": [],
+      "refit_rows": [
+        27
+      ]
+    },
+    {
+      "id": "ui_batch_1071_danger",
+      "remove_gradient_positions": [],
+      "refit_rows": [
+        9
+      ]
+    },
+    {
+      "id": "ui_batch_1082_danger",
+      "remove_gradient_positions": [],
+      "refit_rows": [
+        9
+      ]
+    },
+    {
+      "id": "ui_batch_1095_danger",
+      "remove_gradient_positions": [],
+      "refit_rows": [
+        11
+      ]
+    },
+    {
+      "id": "normal_style_005_cell_002",
+      "remove_gradient_positions": [],
+      "refit_rows": [
+        19
+      ]
+    },
+    {
+      "id": "normal_style_005_cell_004",
+      "remove_gradient_positions": [],
+      "refit_rows": [
+        22
+      ]
+    },
+    {
+      "id": "normal_style_006_cell_009",
+      "remove_gradient_positions": [],
+      "refit_rows": [
+        15
+      ]
+    },
+    {
+      "id": "normal_style_006_cell_014",
+      "remove_gradient_positions": [],
+      "refit_rows": [
+        19
+      ]
+    },
+    {
+      "id": "normal_style_006_cell_016",
+      "remove_gradient_positions": [],
+      "refit_rows": [
+        19
+      ]
+    },
+    {
+      "id": "normal_style_018_cell_026",
+      "remove_gradient_positions": [],
+      "refit_rows": [
+        19
+      ]
+    },
+    {
+      "id": "normal_style_019_cell_025",
+      "remove_gradient_positions": [],
+      "refit_rows": [
+        19
+      ]
+    },
+    {
+      "id": "normal_style_021_cell_031",
+      "remove_gradient_positions": [],
+      "refit_rows": [
+        19
+      ]
+    },
+    {
+      "id": "normal_style_021_cell_033",
+      "remove_gradient_positions": [],
+      "refit_rows": [
+        19
+      ]
+    },
+    {
+      "id": "normal_style_001_cell_036",
+      "remove_gradient_positions": [],
+      "refit_rows": [
+        19
+      ]
+    },
+    {
+      "id": "normal_style_001_cell_038",
+      "remove_gradient_positions": [],
+      "refit_rows": [
+        19
+      ]
+    },
+    {
+      "id": "normal_style_001_cell_041",
+      "remove_gradient_positions": [],
+      "refit_rows": [
+        22
+      ]
+    },
+    {
+      "id": "normal_style_002_cell_044",
+      "remove_gradient_positions": [],
+      "refit_rows": [
+        19
+      ]
+    },
+    {
+      "id": "normal_style_002_cell_046",
+      "remove_gradient_positions": [],
+      "refit_rows": [
+        19
+      ]
+    },
+    {
+      "id": "normal_style_003_cell_049",
+      "remove_gradient_positions": [],
+      "refit_rows": [
+        19
+      ]
+    },
+    {
+      "id": "normal_style_003_cell_051",
+      "remove_gradient_positions": [],
+      "refit_rows": [
+        22
+      ]
+    },
+    {
+      "id": "normal_style_003_cell_054",
+      "remove_gradient_positions": [],
+      "refit_rows": [
+        19
+      ]
+    },
+    {
+      "id": "normal_style_004_cell_059",
+      "remove_gradient_positions": [],
+      "refit_rows": [
+        19
+      ]
+    },
+    {
+      "id": "normal_style_004_cell_060",
+      "remove_gradient_positions": [],
+      "refit_rows": [
+        19
+      ]
+    },
+    {
+      "id": "normal_style_004_cell_062",
+      "remove_gradient_positions": [],
+      "refit_rows": [
+        19
+      ]
+    },
+    {
+      "id": "normal_style_013_cell_072",
+      "remove_gradient_positions": [],
+      "refit_rows": [
+        19
+      ]
+    },
+    {
+      "id": "normal_style_013_cell_078",
+      "remove_gradient_positions": [],
+      "refit_rows": [
+        19
+      ]
+    },
+    {
+      "id": "normal_style_008_cell_081",
+      "remove_gradient_positions": [],
+      "refit_rows": [
+        18
+      ]
+    },
+    {
+      "id": "normal_style_008_cell_082",
+      "remove_gradient_positions": [],
+      "refit_rows": [
+        19
+      ]
+    },
+    {
+      "id": "normal_style_008_cell_083",
+      "remove_gradient_positions": [],
+      "refit_rows": [
+        19
+      ]
+    },
+    {
+      "id": "normal_style_022_cell_101",
+      "remove_gradient_positions": [],
+      "refit_rows": [
+        19
+      ]
+    },
+    {
+      "id": "normal_map_title_025_0",
+      "remove_gradient_positions": [],
+      "refit_rows": [
+        35
+      ]
+    },
+    {
+      "id": "normal_map_terrain_map_view_abazet_1_03",
+      "remove_gradient_positions": [],
+      "refit_rows": [
+        8,
+        12
+      ]
+    },
+    {
+      "id": "normal_map_terrain_map_view_abazet_1_04",
+      "remove_gradient_positions": [],
+      "refit_rows": [
+        23
+      ]
+    },
+    {
+      "id": "normal_map_terrain_map_view_abazet_1_06",
+      "remove_gradient_positions": [],
+      "refit_rows": [
+        23
+      ]
+    },
+    {
+      "id": "normal_map_terrain_map_highwind_up_01",
+      "remove_gradient_positions": [],
+      "refit_rows": [
+        23
+      ]
+    },
+    {
+      "id": "normal_map_terrain_map_highwind_up_cave_01",
+      "remove_gradient_positions": [],
+      "refit_rows": [
+        23
+      ]
+    },
+    {
+      "id": "normal_map_terrain_map_highwind_down_00",
+      "remove_gradient_positions": [],
+      "refit_rows": [
+        10
+      ]
+    },
+    {
+      "id": "normal_map_terrain_map_view_oldfox_02",
+      "remove_gradient_positions": [],
+      "refit_rows": [
+        14,
+        20
+      ]
+    },
+    {
+      "id": "normal_map_terrain_map_view_undersea_03",
+      "remove_gradient_positions": [],
+      "refit_rows": [
+        23
+      ]
+    },
+    {
+      "id": "normal_map_terrain_map_view_undersea_2_03",
+      "remove_gradient_positions": [],
+      "refit_rows": [
+        23
+      ]
+    },
+    {
+      "id": "normal_map_terrain_map_view_dunanf_02",
+      "remove_gradient_positions": [],
+      "refit_rows": [
+        23
+      ]
+    },
+    {
+      "id": "normal_map_terrain_map_view_dunanf_08",
+      "remove_gradient_positions": [],
+      "refit_rows": [
+        22
+      ]
+    },
+    {
+      "id": "normal_room_senti_title_0",
+      "remove_gradient_positions": [],
+      "refit_rows": [
+        15
+      ]
+    },
+    {
+      "id": "quest_illustration_00_clawpers",
+      "remove_gradient_positions": [],
+      "refit_rows": [
+        13
+      ]
+    }
+  ],
+  "resources": [
+    {
+      "path": "MC2Game/CookedXenon/02_Village_Persistent.xxx",
+      "sha256": "73d81910b588906f80fa215a6de467e6cfd7387c436c4b543f794b64b2f760b5",
+      "discs": [
+        1
+      ],
+      "textures": [
+        {
+          "object": "UI_title.Chapter01.ch01_03_cave",
+          "tiled_sha256": "797f10d9b635d108fdda5ed27befa2778c7098f75a7f3c5f97c08b4e30ad14a8",
+          "labels": [
+            "ch01_03_cave"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/Abazet_CSMB02_25.xxx",
+      "sha256": "8a09eda1c8ff3ef9f5f0a5eedbfb74ca11b94a259cf6b63069d538867ede05c6",
+      "discs": [
+        1
+      ],
+      "textures": [
+        {
+          "object": "UI_Name_Jpn.Monster_Name.Mname_13",
+          "tiled_sha256": "9cdbabc22ed3ca2759d907dff0512a01136613a0fc49d64a992e41fe71c339d0",
+          "labels": [
+            "img_ui_name_jpn_52"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/Abazet_MON02_01_har01.xxx",
+      "sha256": "7193bb636c550328462fe1f3f670dd6b15c213df7acd7a2faddd27424f9c1bcd",
+      "discs": [
+        1,
+        2
+      ],
+      "textures": [
+        {
+          "object": "UI_Monster_Name_Jpn.Monster_Name.Mname_22",
+          "tiled_sha256": "ff9b3976802aa7426fce19014de8e74c4c0ee0cb1ea5b1df73fad83a56d6aacc",
+          "labels": [
+            "img_ui_monster_name_jpn_99"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/Abazet_MON02_01_thf01_E.xxx",
+      "sha256": "e491fc1d0afc8b1f488adc99d8affd3ed84af50aaa95565f0192008b490ebe62",
+      "discs": [
+        1
+      ],
+      "textures": [
+        {
+          "object": "UI_Name_Jpn.Monster_Name.Mname_13",
+          "tiled_sha256": "9cdbabc22ed3ca2759d907dff0512a01136613a0fc49d64a992e41fe71c339d0",
+          "labels": [
+            "img_ui_name_jpn_52"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/Abazet_MON02_01_vly03.xxx",
+      "sha256": "baaf53e49d2fe8b09f8e70bfee351a451d53958179b822b8f4d8ac4c6d9e026d",
+      "discs": [
+        1,
+        2
+      ],
+      "textures": [
+        {
+          "object": "UI_Name_Jpn.Monster_Name.Mname_13",
+          "tiled_sha256": "9cdbabc22ed3ca2759d907dff0512a01136613a0fc49d64a992e41fe71c339d0",
+          "labels": [
+            "img_ui_name_jpn_52"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/Argo_Yupa1_S_0108.xxx",
+      "sha256": "3ed863cb96bf0084def9a82da41b9aa0a5b85262018702b93d39162e1803a3b5",
+      "discs": [
+        1,
+        2
+      ],
+      "textures": [
+        {
+          "object": "SkillName_Jpn.Argo.Skill_Argo_Main_03",
+          "tiled_sha256": "42013cdbfea7eff8a8b4f1ec24af47edb4bff844a9eefc47036f23163389ca33",
+          "labels": [
+            "runtime_skill_010"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/Argo_Yupa2_S_0129.xxx",
+      "sha256": "f0d210187362c781498cdd9bef30ba6f15c8d2efd9b81daaa031ed20bbf1321e",
+      "discs": [
+        1,
+        2
+      ],
+      "textures": [
+        {
+          "object": "SkillName_Jpn.Argo.Skill_Argo_Main_03",
+          "tiled_sha256": "42013cdbfea7eff8a8b4f1ec24af47edb4bff844a9eefc47036f23163389ca33",
+          "labels": [
+            "runtime_skill_010"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/Astral_Mon_Slab.xxx",
+      "sha256": "e2e394539cfa2c49340efaa72f79860222b6e248bb20f3d872a4452691293d0f",
+      "discs": [
+        2
+      ],
+      "textures": [
+        {
+          "object": "UI_Monster_Name_Jpn.Boss_Name.BOSS_32",
+          "tiled_sha256": "f4189f5822ac7cdb8f489a99d5e1b85dcfc3b672b020b94e26ef275c9f88df85",
+          "labels": [
+            "img_ui_monster_name_jpn_63"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/Astral_Mon_Velfort.xxx",
+      "sha256": "41fa51a23c9c934e1941f7b473f3af38228fd6bda333cb8466bddfb7da44d77f",
+      "discs": [
+        2
+      ],
+      "textures": [
+        {
+          "object": "UI_Monster_Name_Jpn.Boss_Name.BOSS_33",
+          "tiled_sha256": "1d9dc7cb5d43fe2a464357d98094f44847915dd50e4cb628ad412f038f59cbc2",
+          "labels": [
+            "img_ui_monster_name_jpn_64"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/BG03_abazetfield_Persistent.xxx",
+      "sha256": "018fcb65914e4045c66e738fa51333608535fda2613ed1f4aa7e272c356a6e88",
+      "discs": [
+        1,
+        2
+      ],
+      "textures": [
+        {
+          "object": "UI_Title_Jpn.Chapter02.ch02_HeathOfSilence",
+          "tiled_sha256": "423c8d6038a7d253185264f0d4a28b2d09f4b546bb4c7319ca49cf8e0f19d626",
+          "labels": [
+            "ch02_HeathOfSilence"
+          ]
+        },
+        {
+          "object": "UI_title.Chapter02.ch02_HeathOfSilence",
+          "tiled_sha256": "423c8d6038a7d253185264f0d4a28b2d09f4b546bb4c7319ca49cf8e0f19d626",
+          "labels": [
+            "ch02_HeathOfSilence"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/BG06_Ucave_P.xxx",
+      "sha256": "093704d9aa82f6914fdfbe0fbe4c94583dd2aca35ce508227a31eae335e3ed2a",
+      "discs": [
+        1,
+        2
+      ],
+      "textures": [
+        {
+          "object": "UI_title.Chapter03.Ch03_Tomb",
+          "tiled_sha256": "752735d0095a3304e024f107dd5da53b59bd8e200a874c215fb4208a51712f91",
+          "labels": [
+            "Ch03_Tomb"
+          ]
+        },
+        {
+          "object": "UI_title.Chapter03.Ch03_Undersea",
+          "tiled_sha256": "a9efec529e37077b85da0fcde6546dd2debbf62efb1eace34b7b200b46b89588",
+          "labels": [
+            "Ch03_Undersea"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/ChinookIsland_CSMB00_15.xxx",
+      "sha256": "68f4867eef0ee525a3ae65e1630b411902f39cf1fd346c1a13f502e53404f8cf",
+      "discs": [
+        1
+      ],
+      "textures": [
+        {
+          "object": "UI_Name_Jpn.Monster_Name.Mname_13",
+          "tiled_sha256": "9cdbabc22ed3ca2759d907dff0512a01136613a0fc49d64a992e41fe71c339d0",
+          "labels": [
+            "img_ui_name_jpn_52"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/ChinookIsland_CompTuto_03.xxx",
+      "sha256": "b0da628aa2e380b1616297d0079dbd30939011d54e687c3fd970112050d153f9",
+      "discs": [
+        1
+      ],
+      "textures": [
+        {
+          "object": "SkillName_Jpn.Argo.Skill_Argo_Main_03",
+          "tiled_sha256": "42013cdbfea7eff8a8b4f1ec24af47edb4bff844a9eefc47036f23163389ca33",
+          "labels": [
+            "runtime_skill_010"
+          ]
+        },
+        {
+          "object": "SkillName_Jpn.Zephie.Skill_Zephie_Main_02",
+          "tiled_sha256": "59ec94ef2ebfd53dc05d308e057ad623c0c30377c29b90a3b11b8f79344e6700",
+          "labels": [
+            "runtime_skill_108"
+          ]
+        },
+        {
+          "object": "SkillName_Jpn.Zephie.Skill_Zephie_Sub_08",
+          "tiled_sha256": "f87659104d5a0b2649e8ab4272c7827fb0a232d2763f8c3ffc1d29a897cee4f9",
+          "labels": [
+            "runtime_skill_126"
+          ]
+        },
+        {
+          "object": "UI_Name_Jpn.Monster_Name.Mname_13",
+          "tiled_sha256": "9cdbabc22ed3ca2759d907dff0512a01136613a0fc49d64a992e41fe71c339d0",
+          "labels": [
+            "img_ui_name_jpn_52"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/ChinookIsland_Monster01_01_S.xxx",
+      "sha256": "6e57993c35a89133da8aad93ca4627dfcb78ac2a1432aee31d5c137e0cb3552d",
+      "discs": [
+        1
+      ],
+      "textures": [
+        {
+          "object": "UI_Name_Jpn.Monster_Name.BOSS_306",
+          "tiled_sha256": "5b60234a6e2f86227df157cea2970bbd834d9ac850ceb3d002dee7cff7fd251a",
+          "labels": [
+            "img_ui_name_jpn_34"
+          ]
+        },
+        {
+          "object": "UI_Name_Jpn.Monster_Name.Mname_13",
+          "tiled_sha256": "9cdbabc22ed3ca2759d907dff0512a01136613a0fc49d64a992e41fe71c339d0",
+          "labels": [
+            "img_ui_name_jpn_52"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/ChinookIsland_Monster01_01_S2.xxx",
+      "sha256": "8c207a24cd7c63287503bfb9054f4594da9c9e65e98f782b2a4f8c01f594a693",
+      "discs": [
+        1
+      ],
+      "textures": [
+        {
+          "object": "UI_Name_Jpn.Monster_Name.Mname_13",
+          "tiled_sha256": "9cdbabc22ed3ca2759d907dff0512a01136613a0fc49d64a992e41fe71c339d0",
+          "labels": [
+            "img_ui_name_jpn_52"
+          ]
+        },
+        {
+          "object": "UI_Name_Jpn.Monster_Name.Mname_33",
+          "tiled_sha256": "ab4fe76257bcac890bb0b93af49a1f0435455ba300742796298f8718c2c2f803",
+          "labels": [
+            "img_ui_name_jpn_72"
+          ]
+        },
+        {
+          "object": "UI_Name_Jpn.Monster_Name.North_103",
+          "tiled_sha256": "b599036bed35025975f992392f041fd3eeadbce109d7f48a432611e5deac8f8c",
+          "labels": [
+            "img_ui_name_jpn_109"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/ChinookIsland_Monster01_04_S.xxx",
+      "sha256": "20d3f22cc3ce9da8a0eb72354f94cc10828d2e32d5f5b8abbb5ecb594c285fa9",
+      "discs": [
+        1
+      ],
+      "textures": [
+        {
+          "object": "UI_Name_Jpn.Monster_Name.Mname_13",
+          "tiled_sha256": "9cdbabc22ed3ca2759d907dff0512a01136613a0fc49d64a992e41fe71c339d0",
+          "labels": [
+            "img_ui_name_jpn_52"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/ChinookIsland_Monster01_05_S.xxx",
+      "sha256": "5fb17915bf36b1e75b059d60101955a102eb97071287d54c1b9131f49caf0f1b",
+      "discs": [
+        1
+      ],
+      "textures": [
+        {
+          "object": "UI_Name_Jpn.Monster_Name.Mname_13",
+          "tiled_sha256": "9cdbabc22ed3ca2759d907dff0512a01136613a0fc49d64a992e41fe71c339d0",
+          "labels": [
+            "img_ui_name_jpn_52"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/ChinookIsland_Monster05_01_S.xxx",
+      "sha256": "540701c4abd377ec334223fd254ac6f866f6d018e3234bfc68167c654e56748c",
+      "discs": [
+        1
+      ],
+      "textures": [
+        {
+          "object": "UI_Name_Jpn.Monster_Name.Mname_13",
+          "tiled_sha256": "9cdbabc22ed3ca2759d907dff0512a01136613a0fc49d64a992e41fe71c339d0",
+          "labels": [
+            "img_ui_name_jpn_52"
+          ]
+        },
+        {
+          "object": "UI_Name_Jpn.Monster_Name.North_103",
+          "tiled_sha256": "b599036bed35025975f992392f041fd3eeadbce109d7f48a432611e5deac8f8c",
+          "labels": [
+            "img_ui_name_jpn_109"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/ChinookIsland_Monster05_03_E.xxx",
+      "sha256": "be1b284f35a401c3557cfea34abaafc66d174b5032bd8a48efc9e21d30d36726",
+      "discs": [
+        1
+      ],
+      "textures": [
+        {
+          "object": "UI_Name_Jpn.Monster_Name.Mname_28",
+          "tiled_sha256": "a8c086230a1a274fcab280119959caf6be95ea3850298dd8a4bbae0adc72149a",
+          "labels": [
+            "img_ui_name_jpn_67"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/ChinookIsland_Monster05_05_S.xxx",
+      "sha256": "0e71b04bcb59f7440f82f577ac13e8cfed75c2c37816c178f5bb926e750cdf84",
+      "discs": [
+        1
+      ],
+      "textures": [
+        {
+          "object": "UI_Name_Jpn.Monster_Name.Mname_13",
+          "tiled_sha256": "9cdbabc22ed3ca2759d907dff0512a01136613a0fc49d64a992e41fe71c339d0",
+          "labels": [
+            "img_ui_name_jpn_52"
+          ]
+        },
+        {
+          "object": "UI_Name_Jpn.Monster_Name.North_103",
+          "tiled_sha256": "b599036bed35025975f992392f041fd3eeadbce109d7f48a432611e5deac8f8c",
+          "labels": [
+            "img_ui_name_jpn_109"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/ChinookIsland_Zebasa_Spawn.xxx",
+      "sha256": "5043f48567dd21848ba18548d980a5d9d8e027078c03a8428fa1c833f6eed24d",
+      "discs": [
+        1
+      ],
+      "textures": [
+        {
+          "object": "UI_title.BOSS.Boss_Ch5_Zebasa",
+          "tiled_sha256": "bb0c20046a0e202a8017b739410ccae2edb21aefaaf87622bab1c984dac8ee00",
+          "labels": [
+            "ui_boss_ch5_zebasa"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/Crocell_Yupa1_SS_0516.xxx",
+      "sha256": "260d07d4a5886414cb0adebd414dcf010f2d12bbf9f6c3b3e3600b03168ff8f7",
+      "discs": [
+        1,
+        2
+      ],
+      "textures": [
+        {
+          "object": "SkillName_Jpn.Crocell.Skill_Crocell_Main_08",
+          "tiled_sha256": "01b728786ddf1d70abf24cfd96338f6a9f58df6099d7b4abf85bac931d203d25",
+          "labels": [
+            "runtime_skill_051"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/Crocell_Yupa2_S_0533.xxx",
+      "sha256": "c2ac70ba7b1a2ca4341c38f14205ddaf8350556cbb287a3a4a18a0c2b33244d2",
+      "discs": [
+        1,
+        2
+      ],
+      "textures": [
+        {
+          "object": "SkillName_Jpn.Crocell.Skill_Crocell_Sub_06",
+          "tiled_sha256": "541cd3fcf67a1e5fc8b1f975b7f8bc62ca119d6e58c9ac16949e39d2d8ca634c",
+          "labels": [
+            "runtime_skill_058"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/Data_Char_Argo.xxx",
+      "sha256": "09c5902b74b6898d70109fa6729d930c61eee2827f8546256d917a093f100d9c",
+      "discs": [
+        1,
+        2
+      ],
+      "textures": [
+        {
+          "object": "SkillName_Jpn.Argo.Skill_Argo_Main_03",
+          "tiled_sha256": "42013cdbfea7eff8a8b4f1ec24af47edb4bff844a9eefc47036f23163389ca33",
+          "labels": [
+            "runtime_skill_010"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/Data_Char_Crosell.xxx",
+      "sha256": "90275c55fa48e3c8bf1347f89825e7424da9e8c09537568e44103f3b816e69c3",
+      "discs": [
+        1,
+        2
+      ],
+      "textures": [
+        {
+          "object": "SkillName_Jpn.Crocell.Skill_Crocell_Main_02",
+          "tiled_sha256": "013c86235522b5e7ad68820eef0298ded6d724817cd675d39ab662c0e94fc185",
+          "labels": [
+            "runtime_skill_045"
+          ]
+        },
+        {
+          "object": "SkillName_Jpn.Crocell.Skill_Crocell_Main_05",
+          "tiled_sha256": "7556e7ede8f1005a954de6de45d021fcaa73fa24e89a3a43d630e0157afb25ca",
+          "labels": [
+            "runtime_skill_048"
+          ]
+        },
+        {
+          "object": "SkillName_Jpn.Crocell.Skill_Crocell_Main_08",
+          "tiled_sha256": "01b728786ddf1d70abf24cfd96338f6a9f58df6099d7b4abf85bac931d203d25",
+          "labels": [
+            "runtime_skill_051"
+          ]
+        },
+        {
+          "object": "SkillName_Jpn.Crocell.Skill_Crocell_Sub_06",
+          "tiled_sha256": "541cd3fcf67a1e5fc8b1f975b7f8bc62ca119d6e58c9ac16949e39d2d8ca634c",
+          "labels": [
+            "runtime_skill_058"
+          ]
+        },
+        {
+          "object": "SkillName_Jpn.Crocell.Skill_Crocell_Sub_07",
+          "tiled_sha256": "8a12ac0630b505915cc3159ba76aa5ce9479f4e2ae1bc2fd5bc3fe1aac409192",
+          "labels": [
+            "runtime_skill_059"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/Data_Char_Juto.xxx",
+      "sha256": "94acb30b836dcae1358c68c1ad7eb7823ce9d4509f4348fdfe1f1d6ceca22380",
+      "discs": [
+        1,
+        2
+      ],
+      "textures": [
+        {
+          "object": "SkillName_Jpn.Juto.Skill_Juto_Main_00",
+          "tiled_sha256": "6aa6266bcbde1e39bd3f55979db55ee3c61d3bb89146cacb7356a85f58572e0a",
+          "labels": [
+            "runtime_skill_066"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/Data_Char_Juto_Last.xxx",
+      "sha256": "7db1b30b0027273ab83b60c8a06c3c14ffea1614c833357fa1407104999e6cd6",
+      "discs": [
+        2
+      ],
+      "textures": [
+        {
+          "object": "SkillName_Jpn.Juto.Skill_Juto_Main_00",
+          "tiled_sha256": "6aa6266bcbde1e39bd3f55979db55ee3c61d3bb89146cacb7356a85f58572e0a",
+          "labels": [
+            "runtime_skill_066"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/Data_Char_Juto_Weltgeist02.xxx",
+      "sha256": "7afd24815945a40c8b45f55e9cd52834e08829e05213883c565abcb2528681e1",
+      "discs": [
+        2
+      ],
+      "textures": [
+        {
+          "object": "UI_Monster_Name_Jpn.Boss_Name.BOSS_32",
+          "tiled_sha256": "f4189f5822ac7cdb8f489a99d5e1b85dcfc3b672b020b94e26ef275c9f88df85",
+          "labels": [
+            "img_ui_monster_name_jpn_63"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/Data_Char_Zephi.xxx",
+      "sha256": "109d9367cec85a4d88551976357f932acc0442ac478f1c69b081d82e01186530",
+      "discs": [
+        1,
+        2
+      ],
+      "textures": [
+        {
+          "object": "SkillName_Jpn.Zephie.Skill_Zephie_Main_02",
+          "tiled_sha256": "59ec94ef2ebfd53dc05d308e057ad623c0c30377c29b90a3b11b8f79344e6700",
+          "labels": [
+            "runtime_skill_108"
+          ]
+        },
+        {
+          "object": "SkillName_Jpn.Zephie.Skill_Zephie_Sub_08",
+          "tiled_sha256": "f87659104d5a0b2649e8ab4272c7827fb0a232d2763f8c3ffc1d29a897cee4f9",
+          "labels": [
+            "runtime_skill_126"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/DunanField_Mon_Ter02.xxx",
+      "sha256": "4075de2e8e068ce3b50724f378d0c1639221cce347aa17d8cb4efd9114960b76",
+      "discs": [
+        2
+      ],
+      "textures": [
+        {
+          "object": "UI_Monster_Name_Jpn.Monster_Name.Mname_55",
+          "tiled_sha256": "70674ba2d7c0cb26c29e69a5182488b68367ae87326758ff35a00a61c3e7b5be",
+          "labels": [
+            "img_ui_monster_name_jpn_134"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/DunanField_Quest_thief.xxx",
+      "sha256": "58d7f9c794d19d87779fd2e01087a789c452ec07934a801246b964386a07b739",
+      "discs": [
+        2
+      ],
+      "textures": [
+        {
+          "object": "UI_Monster_Name_Jpn.Monster_Name.Mname_56",
+          "tiled_sha256": "4c3678c0e0aec2267cf901aa35a5f7239daa28c612f1f50ccc2814a2ee90252a",
+          "labels": [
+            "img_ui_monster_name_jpn_135"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/Dunan_Monster04_BGA01_S.xxx",
+      "sha256": "86f0b9135007ceec2799a5632d8c24e8e4a1ae6c59128ad4fc2803088bb33b1e",
+      "discs": [
+        1
+      ],
+      "textures": [
+        {
+          "object": "UI_Name_Jpn.Monster_Name.North_103",
+          "tiled_sha256": "b599036bed35025975f992392f041fd3eeadbce109d7f48a432611e5deac8f8c",
+          "labels": [
+            "img_ui_name_jpn_109"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/Dunan_Monster04_BGA02_N.xxx",
+      "sha256": "03d973100c57c2e3b40e522f74494175b558a4a2cf411b0026a1e9ecbf5ef3c6",
+      "discs": [
+        1
+      ],
+      "textures": [
+        {
+          "object": "UI_Name_Jpn.Monster_Name.North_103",
+          "tiled_sha256": "b599036bed35025975f992392f041fd3eeadbce109d7f48a432611e5deac8f8c",
+          "labels": [
+            "img_ui_name_jpn_109"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/Dunan_Monster04_BGA02_S.xxx",
+      "sha256": "fc543a86afd309528cd97dbea35fe7489bae795698a45737cb8f916b28385dd9",
+      "discs": [
+        1
+      ],
+      "textures": [
+        {
+          "object": "UI_Name_Jpn.Monster_Name.Mname_51",
+          "tiled_sha256": "3b2e2b4eaded8c9631a8e9671a3fd39688b47479f05a1bdd1d5b98078e7392a3",
+          "labels": [
+            "img_ui_name_jpn_89"
+          ]
+        },
+        {
+          "object": "UI_Name_Jpn.Monster_Name.North_103",
+          "tiled_sha256": "b599036bed35025975f992392f041fd3eeadbce109d7f48a432611e5deac8f8c",
+          "labels": [
+            "img_ui_name_jpn_109"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/Dunan_Monster04_BGA03_S.xxx",
+      "sha256": "6d1e19b22dcecc60fe630a123d784a3f2cf337b9e181c892c3a141472824fb95",
+      "discs": [
+        1
+      ],
+      "textures": [
+        {
+          "object": "UI_Name_Jpn.Monster_Name.North_103",
+          "tiled_sha256": "b599036bed35025975f992392f041fd3eeadbce109d7f48a432611e5deac8f8c",
+          "labels": [
+            "img_ui_name_jpn_109"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/Dunan_Vekas_Spawn.xxx",
+      "sha256": "9438b98e1538f5a7c269f83c92e39be23f201cfa58bab51b180604b4b3d68acb",
+      "discs": [
+        1
+      ],
+      "textures": [
+        {
+          "object": "UI_Title_Jpn.BOSS.Boss_Ch4_Vekas",
+          "tiled_sha256": "c40f665459b9934894378247fd831a808b6d5f6bcecbdc3cab6e47dca6d23ea0",
+          "labels": [
+            "ui_boss_ch4_vekas"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/Dunanfield_SG_Spwan.xxx",
+      "sha256": "27c2dcb4a4a5b345dc27f626f835e90cd9762f6019fcad8c72caf79540825f65",
+      "discs": [
+        2
+      ],
+      "textures": [
+        {
+          "object": "UI_Monster_Name_Jpn.Boss_Name_Big.Boss_SwampEel",
+          "tiled_sha256": "c0fbc3f5b999ac019c3e1b39a7dd4c286915263fd31c4f211671dadacf2377fd",
+          "labels": [
+            "img_ui_monster_name_jpn_77"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/Kotamare_Mon_Area01_S.xxx",
+      "sha256": "7c91d60f5cc264c4c0b898b8a5957fb9f26dbfc7e8c4badeb949ebac9cb4b0c1",
+      "discs": [
+        1
+      ],
+      "textures": [
+        {
+          "object": "UI_Name_Jpn.Monster_Name.Boss_011_01",
+          "tiled_sha256": "87ec4f68cff63c0055f85156fa40e953b119ed8be8553ec37a4c00eddc82f661",
+          "labels": [
+            "img_ui_name_jpn_25"
+          ]
+        },
+        {
+          "object": "UI_Name_Jpn.Monster_Name.Boss_011_02",
+          "tiled_sha256": "6ff0e2c63f8019608f7bc61ccbfe3c1cb6754b4887201b77de6767793fbfe137",
+          "labels": [
+            "img_ui_name_jpn_26"
+          ]
+        },
+        {
+          "object": "UI_Name_Jpn.Monster_Name.Mname_13",
+          "tiled_sha256": "9cdbabc22ed3ca2759d907dff0512a01136613a0fc49d64a992e41fe71c339d0",
+          "labels": [
+            "img_ui_name_jpn_52"
+          ]
+        },
+        {
+          "object": "UI_Name_Jpn.Monster_Name.Mname_23",
+          "tiled_sha256": "6442cd5fe904df023934993865ecabe643c5d9ea8045f0d10096e7ec312c2c24",
+          "labels": [
+            "img_ui_name_jpn_62"
+          ]
+        },
+        {
+          "object": "UI_Name_Jpn.Monster_Name.Mname_33",
+          "tiled_sha256": "ab4fe76257bcac890bb0b93af49a1f0435455ba300742796298f8718c2c2f803",
+          "labels": [
+            "img_ui_name_jpn_72"
+          ]
+        },
+        {
+          "object": "UI_Name_Jpn.Monster_Name.North_103",
+          "tiled_sha256": "b599036bed35025975f992392f041fd3eeadbce109d7f48a432611e5deac8f8c",
+          "labels": [
+            "img_ui_name_jpn_109"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/Kotamare_Mon_Area02.xxx",
+      "sha256": "626acbb88f515809391125bd8747c064a5ed734448d9eaea22ebe9108a0f0b49",
+      "discs": [
+        1,
+        2
+      ],
+      "textures": [
+        {
+          "object": "UI_Monster_Name_Jpn.Monster_Name.Mname_22",
+          "tiled_sha256": "ff9b3976802aa7426fce19014de8e74c4c0ee0cb1ea5b1df73fad83a56d6aacc",
+          "labels": [
+            "img_ui_monster_name_jpn_99"
+          ]
+        },
+        {
+          "object": "UI_Monster_Name_Jpn.Monster_Name.Mname_68",
+          "tiled_sha256": "86e7b7d094a0b1e6acff8a1219cbd2e961e36fd0b3dda3e9f492214095c863e5",
+          "labels": [
+            "img_ui_monster_name_jpn_147"
+          ]
+        },
+        {
+          "object": "UI_Name_Jpn.Monster_Name.Mname_24",
+          "tiled_sha256": "d393d6f107e0019b9b9e147bc40291f03c1c24c15e6809c604345529347eb344",
+          "labels": [
+            "img_ui_name_jpn_63"
+          ]
+        },
+        {
+          "object": "UI_Name_Jpn.Monster_Name.North_103",
+          "tiled_sha256": "b599036bed35025975f992392f041fd3eeadbce109d7f48a432611e5deac8f8c",
+          "labels": [
+            "img_ui_name_jpn_109"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/Kotamare_Mon_Area02_Clare.xxx",
+      "sha256": "0a53cd2d2e63eaf5c319c43e800d1eb55498da32c348da647593ef420771f321",
+      "discs": [
+        2
+      ],
+      "textures": [
+        {
+          "object": "UI_Monster_Name_Jpn.Boss_Name.BOSS_012",
+          "tiled_sha256": "de74feef4a73461d0d174fb13a1f72613de3d7a5ddde00a4c886debf8af787d5",
+          "labels": [
+            "img_ui_monster_name_jpn_40"
+          ]
+        },
+        {
+          "object": "UI_Name_Jpn.Monster_Name.Mname_13",
+          "tiled_sha256": "9cdbabc22ed3ca2759d907dff0512a01136613a0fc49d64a992e41fe71c339d0",
+          "labels": [
+            "img_ui_name_jpn_52"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/Kotamare_Mon_Area02_S.xxx",
+      "sha256": "86be4cca113e5e13fb98b136370938db18692d659dd8a7b47432ee18d972ece1",
+      "discs": [
+        1
+      ],
+      "textures": [
+        {
+          "object": "UI_Name_Jpn.Monster_Name.Mname_13",
+          "tiled_sha256": "9cdbabc22ed3ca2759d907dff0512a01136613a0fc49d64a992e41fe71c339d0",
+          "labels": [
+            "img_ui_name_jpn_52"
+          ]
+        },
+        {
+          "object": "UI_Name_Jpn.Monster_Name.Mname_23",
+          "tiled_sha256": "6442cd5fe904df023934993865ecabe643c5d9ea8045f0d10096e7ec312c2c24",
+          "labels": [
+            "img_ui_name_jpn_62"
+          ]
+        },
+        {
+          "object": "UI_Name_Jpn.Monster_Name.Mname_33",
+          "tiled_sha256": "ab4fe76257bcac890bb0b93af49a1f0435455ba300742796298f8718c2c2f803",
+          "labels": [
+            "img_ui_name_jpn_72"
+          ]
+        },
+        {
+          "object": "UI_Name_Jpn.Monster_Name.North_103",
+          "tiled_sha256": "b599036bed35025975f992392f041fd3eeadbce109d7f48a432611e5deac8f8c",
+          "labels": [
+            "img_ui_name_jpn_109"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/Kotamare_Mon_Area02_S2n.xxx",
+      "sha256": "fbde4c70e6d8492a441505ff95c8515dd67ef6d59c2ae12c4a92acaf03e32eef",
+      "discs": [
+        2
+      ],
+      "textures": [
+        {
+          "object": "UI_Monster_Name_Jpn.North_Name.North_06",
+          "tiled_sha256": "ae9990ea4c6ee8a525a8b03b75a5a1d70cc75686f788cfbac01d6f072d4cf588",
+          "labels": [
+            "img_ui_monster_name_jpn_161"
+          ]
+        },
+        {
+          "object": "UI_Name_Jpn.Monster_Name.Mname_13",
+          "tiled_sha256": "9cdbabc22ed3ca2759d907dff0512a01136613a0fc49d64a992e41fe71c339d0",
+          "labels": [
+            "img_ui_name_jpn_52"
+          ]
+        },
+        {
+          "object": "UI_Name_Jpn.Monster_Name.North_103",
+          "tiled_sha256": "b599036bed35025975f992392f041fd3eeadbce109d7f48a432611e5deac8f8c",
+          "labels": [
+            "img_ui_name_jpn_109"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/Kotamare_Quest_Patrol.xxx",
+      "sha256": "a629fe7725b72a1e9ed1194be801e42216dad7d44897846e33912e5a80f76c00",
+      "discs": [
+        1,
+        2
+      ],
+      "textures": [
+        {
+          "object": "UI_Name_Jpn.Monster_Name.Mname_13",
+          "tiled_sha256": "9cdbabc22ed3ca2759d907dff0512a01136613a0fc49d64a992e41fe71c339d0",
+          "labels": [
+            "img_ui_name_jpn_52"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/Kotamare_Quest_drego.xxx",
+      "sha256": "46298ff8c26b842032e5937bd3dc19d9f66735449d7f2b7857c5b4d17fa9302c",
+      "discs": [
+        2
+      ],
+      "textures": [
+        {
+          "object": "UI_Monster_Name_Jpn.Monster_Name.Mname_66",
+          "tiled_sha256": "b07af1543aa9beac4318ce3cff88e829da0eb1bb99800ebadc4e22db0e56785f",
+          "labels": [
+            "img_ui_monster_name_jpn_145"
+          ]
+        },
+        {
+          "object": "UI_Name_Jpn.Monster_Name.North_107",
+          "tiled_sha256": "99307bd9922f693c63469714e69de734e67f7dd27a59de09d0f93d64fe8d5b5e",
+          "labels": [
+            "img_ui_name_jpn_111"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/Kotamare_Quest_grami.xxx",
+      "sha256": "a97e3039af45ee9f70ed8774e28b5f75b5fb5502590d12536c04a582f7fb2d39",
+      "discs": [
+        2
+      ],
+      "textures": [
+        {
+          "object": "UI_Monster_Name_Jpn.Monster_Name.Mname_60",
+          "tiled_sha256": "1608a847a19fb0dd36fbe431a4aea6ec61e4318bf231214a6a8fe434130105fc",
+          "labels": [
+            "img_ui_monster_name_jpn_139"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/Kotamare_Quest_nurence.xxx",
+      "sha256": "440f8c64a5f95206fa78e8cec51261cb214192001058ccf0006fccdcc65520be",
+      "discs": [
+        1,
+        2
+      ],
+      "textures": [
+        {
+          "object": "UI_Name_Jpn.Monster_Name.Mname_13",
+          "tiled_sha256": "9cdbabc22ed3ca2759d907dff0512a01136613a0fc49d64a992e41fe71c339d0",
+          "labels": [
+            "img_ui_name_jpn_52"
+          ]
+        },
+        {
+          "object": "UI_Name_Jpn.Monster_Name.Mname_26",
+          "tiled_sha256": "aad2bb3e6e240bd8d42704647f3fae2c9bc265144b60b7523060cb6b5e9fd09e",
+          "labels": [
+            "img_ui_name_jpn_65"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/Lastrada_Mon_Clare.xxx",
+      "sha256": "f6b0d44887c94f4c9be16a9fd3697846716ffa605ea969f35756f1690fccab6d",
+      "discs": [
+        2
+      ],
+      "textures": [
+        {
+          "object": "UI_Monster_Name_Jpn.Boss_Name.BOSS_012",
+          "tiled_sha256": "de74feef4a73461d0d174fb13a1f72613de3d7a5ddde00a4c886debf8af787d5",
+          "labels": [
+            "img_ui_monster_name_jpn_40"
+          ]
+        },
+        {
+          "object": "UI_Name_Jpn.Monster_Name.Mname_13",
+          "tiled_sha256": "9cdbabc22ed3ca2759d907dff0512a01136613a0fc49d64a992e41fe71c339d0",
+          "labels": [
+            "img_ui_name_jpn_52"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/Lastrada_Mon_Huaren.xxx",
+      "sha256": "d89f6a44e0603d6afaef7e3b25471eb26d15bc6032e7c79d556b7231f4131503",
+      "discs": [
+        2
+      ],
+      "textures": [
+        {
+          "object": "UI_Name_Jpn.Monster_Name.Boss_011_01",
+          "tiled_sha256": "87ec4f68cff63c0055f85156fa40e953b119ed8be8553ec37a4c00eddc82f661",
+          "labels": [
+            "img_ui_name_jpn_25"
+          ]
+        },
+        {
+          "object": "UI_Name_Jpn.Monster_Name.Boss_011_02",
+          "tiled_sha256": "6ff0e2c63f8019608f7bc61ccbfe3c1cb6754b4887201b77de6767793fbfe137",
+          "labels": [
+            "img_ui_name_jpn_26"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/Lastrada_Mon_Schauenzeit.xxx",
+      "sha256": "77d3bca5b42f2f90589b2b0ec15089762b31a7a8d7e9a1c97fbe0680d7ed9666",
+      "discs": [
+        2
+      ],
+      "textures": [
+        {
+          "object": "UI_Monster_Name_Jpn.Boss_Name.Boss_017_02",
+          "tiled_sha256": "f139e43b2e0f66965feb1cc0b227e5d0e318f21dd23d5f6380314c0b8b269e94",
+          "labels": [
+            "img_ui_monster_name_jpn_48"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/Latrada_Comp13_01.xxx",
+      "sha256": "536497ecf6cd3889c47e7b4486afc2d916328a61a01192371e6c58d838212411",
+      "discs": [
+        2
+      ],
+      "textures": [
+        {
+          "object": "UI_MiniGame.Tex.Game02_Tex01",
+          "tiled_sha256": "48031e30deab199c76b4e21847d9af798d3efc7633bcb83185b9c97e57ddee26",
+          "labels": [
+            "ui_batch_1071_danger"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/MC2Game.xxx",
+      "sha256": "70d2104eba10ca77a2cba90071f2a17b8f0b8ea2a2a0659177ec5c7a178b2fa7",
+      "discs": [
+        1,
+        2
+      ],
+      "textures": [
+        {
+          "object": "Style_Tree_Skill_Name_Jpn.Argo_Skill_Main",
+          "tiled_sha256": "f1d1571bd925897d2da9314706fb798b7b073e53518f496235c71af86314141c",
+          "labels": [
+            "normal_style_001_cell_036",
+            "normal_style_001_cell_038",
+            "normal_style_001_cell_041"
+          ]
+        },
+        {
+          "object": "Style_Tree_Skill_Name_Jpn.Argo_Skill_Sub",
+          "tiled_sha256": "7c314e5ec8abf07dbc3d9cdba61056b227f6bb410b0fc193f7d91cd8ad3d5a79",
+          "labels": [
+            "normal_style_002_cell_044",
+            "normal_style_002_cell_046"
+          ]
+        },
+        {
+          "object": "Style_Tree_Skill_Name_Jpn.Crocell_Skill_Main",
+          "tiled_sha256": "bf496b7f76e0ead49d7cc60e3a7901ac3cba48b32c344c418d111f497734b98f",
+          "labels": [
+            "normal_style_003_cell_049",
+            "normal_style_003_cell_050",
+            "normal_style_003_cell_051",
+            "normal_style_003_cell_052",
+            "normal_style_003_cell_054"
+          ]
+        },
+        {
+          "object": "Style_Tree_Skill_Name_Jpn.Crocell_Skill_Sub",
+          "tiled_sha256": "37405526502935c526143f70d7429286e3bedf1b6286b27e7d67df9c7522aea5",
+          "labels": [
+            "normal_style_004_cell_059",
+            "normal_style_004_cell_060",
+            "normal_style_004_cell_062"
+          ]
+        },
+        {
+          "object": "Style_Tree_Skill_Name_Jpn.Juto_Skill_Main",
+          "tiled_sha256": "bf79eddd56484ed20305e80bab94a1e5c87fbfd7389472f59e88a328d7791d90",
+          "labels": [
+            "normal_style_005_cell_001",
+            "normal_style_005_cell_002",
+            "normal_style_005_cell_004"
+          ]
+        },
+        {
+          "object": "Style_Tree_Skill_Name_Jpn.Juto_Skill_Sub00",
+          "tiled_sha256": "dcd9379c7138e0349c66b03a8c86292b643fff56d2d9c2e6eadbf3d1e69e8e52",
+          "labels": [
+            "normal_style_006_cell_009",
+            "normal_style_006_cell_014",
+            "normal_style_006_cell_016"
+          ]
+        },
+        {
+          "object": "Style_Tree_Skill_Name_Jpn.Ru_Skill_Main",
+          "tiled_sha256": "2668f5319e5a163712dbca8ab70e0dc9d03dd011d7b8164c2d023fa8358b43a4",
+          "labels": [
+            "normal_style_008_cell_081",
+            "normal_style_008_cell_082",
+            "normal_style_008_cell_083",
+            "normal_style_008_cell_084",
+            "normal_style_008_cell_085"
+          ]
+        },
+        {
+          "object": "Style_Tree_Skill_Name_Jpn.Sere_Skill_Sub",
+          "tiled_sha256": "b164505ff916344576f7be876c9e76be89b147da26531c1bcd1dd7cb02a222de",
+          "labels": [
+            "normal_style_013_cell_072",
+            "normal_style_013_cell_078"
+          ]
+        },
+        {
+          "object": "Style_Tree_Skill_Name_Jpn.Zephie_Skill_Main00",
+          "tiled_sha256": "2755713504b4c97d2512e0f07ede7d57d6220525c0f4e1bfe322ed465837386a",
+          "labels": [
+            "normal_style_018_cell_026"
+          ]
+        },
+        {
+          "object": "Style_Tree_Skill_Name_Jpn.Zephie_Skill_Main01",
+          "tiled_sha256": "0b8360132bf557d10351d657c42aff9fa6777c6af5390b9015297182009bdaef",
+          "labels": [
+            "normal_style_019_cell_018",
+            "normal_style_019_cell_019",
+            "normal_style_019_cell_025"
+          ]
+        },
+        {
+          "object": "Style_Tree_Skill_Name_Jpn.Zephie_Skill_Sub",
+          "tiled_sha256": "b5f75a625e7d277f17225f68a5fab4c370179a04297c0cc2351c92e88c33ce5b",
+          "labels": [
+            "normal_style_021_cell_031",
+            "normal_style_021_cell_033"
+          ]
+        },
+        {
+          "object": "Style_Tree_Skill_Name_Jpn.Zephie_Skill_Sub1",
+          "tiled_sha256": "a42314614c2278d61b43ff46ec3a82f845d0df6f5770836f459e12de5613f40f",
+          "labels": [
+            "normal_style_022_cell_101"
+          ]
+        },
+        {
+          "object": "UI_Battle_Chain_JoinAttack.Tex.Effect_Img_Chain_Text",
+          "tiled_sha256": "ffb887fafaf73c1872cd5d45acf607e018f135f2178d7d65f2e968662c924b5d",
+          "labels": [
+            "hud_complete_10_00"
+          ]
+        },
+        {
+          "object": "UI_Battle_Master.Tex.Tex_OverDrive",
+          "tiled_sha256": "426e6380ed82f9056d9d18394eb47ca64a65a9c6e91203e2e95f453d5235ae9f",
+          "labels": [
+            "hud_complete_25_00"
+          ]
+        },
+        {
+          "object": "UI_Battle_Master.Tex.Tex_OverHeat",
+          "tiled_sha256": "8dae39ad2575402e7635f4d54aa0955800a7a9a3fff62b64b2e93094094653c4",
+          "labels": [
+            "hud_complete_27_00"
+          ]
+        },
+        {
+          "object": "UI_Field.Textures.Mail_Icon",
+          "tiled_sha256": "cfadc16309ac3ac545180e185c5b533a025203c3d0f9666f4bffb1dd19a81f7f",
+          "labels": [
+            "ui_batch_933_new"
+          ]
+        },
+        {
+          "object": "UI_Name_Jpn.Tex.Common_State_Tex",
+          "tiled_sha256": "5ce9946ca6f4faf268db31f7306112a3e6372cadbfdb9e2940a171b71fb539b8",
+          "labels": [
+            "img_ui_name_jpn_157_5"
+          ]
+        },
+        {
+          "object": "UI_Name_Jpn.Tex.Field_MainMenu_Info_Title",
+          "tiled_sha256": "a571aa576ce8cfb3e4f624641230fafd73792643104205ca904f67011c7ec76c",
+          "labels": [
+            "img_ui_name_jpn_165_0"
+          ]
+        },
+        {
+          "object": "UI_Name_Jpn.Tex.Field_Option",
+          "tiled_sha256": "f66ac3d384e5b93c3869045f705b21b46557396f3de8488d238ed402eb9d32c1",
+          "labels": [
+            "img_ui_name_jpn_169_7"
+          ]
+        },
+        {
+          "object": "UI_Name_Jpn.Tex.LevelUP_Tex",
+          "tiled_sha256": "23db74c75442054267480588409c247d87987385deaa3f7a986d2c763bc6dfa8",
+          "labels": [
+            "img_ui_name_jpn_172_0"
+          ]
+        },
+        {
+          "object": "UI_Name_Jpn.Tex.Name",
+          "tiled_sha256": "0024332f950987ec602f747a9f65b5d3ff7069a8d4e70e7fa70e77e7680d4612",
+          "labels": [
+            "img_ui_name_jpn_174_4"
+          ]
+        },
+        {
+          "object": "UI_Name_Jpn.Tex.Name0",
+          "tiled_sha256": "f86d4f8a7b5857301f12821ca658a22bafe2541fb9635889a61f058574758bce",
+          "labels": [
+            "img_ui_name_jpn_175_3",
+            "img_ui_name_jpn_175_4"
+          ]
+        },
+        {
+          "object": "UI_Name_Jpn.Tex.Store_tex_01",
+          "tiled_sha256": "6264eadbce4139242ba0d291d617094db9589332672152595c64859b84117545",
+          "labels": [
+            "img_ui_name_jpn_188_0",
+            "img_ui_name_jpn_188_14",
+            "img_ui_name_jpn_188_15",
+            "img_ui_name_jpn_188_3",
+            "img_ui_name_jpn_188_4",
+            "img_ui_name_jpn_188_7",
+            "img_ui_name_jpn_188_9"
+          ]
+        },
+        {
+          "object": "UI_Name_Jpn.Tex.Store_tex_02",
+          "tiled_sha256": "22ca2d69d729d26e8c7f23f45079af1b088dd02c595522be09dfd4def9f82498",
+          "labels": [
+            "img_ui_name_jpn_189_1"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/Map04_oldfox_03field_c.xxx",
+      "sha256": "1dca1148bf9ebd6ebb7249d4ca55ffba3fc164a01bc2147dd2bfb319e66211f9",
+      "discs": [
+        1,
+        2
+      ],
+      "textures": [
+        {
+          "object": "UI_Name_Jpn.Monster_Name.Mname_13",
+          "tiled_sha256": "9cdbabc22ed3ca2759d907dff0512a01136613a0fc49d64a992e41fe71c339d0",
+          "labels": [
+            "img_ui_name_jpn_52"
+          ]
+        },
+        {
+          "object": "UI_Name_Jpn.Monster_Name.North_103",
+          "tiled_sha256": "b599036bed35025975f992392f041fd3eeadbce109d7f48a432611e5deac8f8c",
+          "labels": [
+            "img_ui_name_jpn_109"
+          ]
+        },
+        {
+          "object": "UI_Name_Jpn.Monster_Name.Object_401",
+          "tiled_sha256": "bbb3cbad7f2822b1600e5586dd2755c48938b2efebca2eba19c1f605b457c6c2",
+          "labels": [
+            "img_ui_name_jpn_121"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/Map04_oldfox_08field_s.xxx",
+      "sha256": "8cc2dfd619b980e1261c246cbcfa2b07b532319f2c378376d3579ed60be34e51",
+      "discs": [
+        1,
+        2
+      ],
+      "textures": [
+        {
+          "object": "UI_Name_Jpn.Monster_Name.Mname_13",
+          "tiled_sha256": "9cdbabc22ed3ca2759d907dff0512a01136613a0fc49d64a992e41fe71c339d0",
+          "labels": [
+            "img_ui_name_jpn_52"
+          ]
+        },
+        {
+          "object": "UI_Name_Jpn.Monster_Name.North_103",
+          "tiled_sha256": "b599036bed35025975f992392f041fd3eeadbce109d7f48a432611e5deac8f8c",
+          "labels": [
+            "img_ui_name_jpn_109"
+          ]
+        },
+        {
+          "object": "UI_Name_Jpn.Monster_Name.Object_401",
+          "tiled_sha256": "bbb3cbad7f2822b1600e5586dd2755c48938b2efebca2eba19c1f605b457c6c2",
+          "labels": [
+            "img_ui_name_jpn_121"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/Map04_oldfox_13northfort2.xxx",
+      "sha256": "d93b36fb5812a58918ea434b7e3ca96ef8fac76921d6432e4a0f42ffec6bc41d",
+      "discs": [
+        1,
+        2
+      ],
+      "textures": [
+        {
+          "object": "UI_Name_Jpn.Monster_Name.Mname_13",
+          "tiled_sha256": "9cdbabc22ed3ca2759d907dff0512a01136613a0fc49d64a992e41fe71c339d0",
+          "labels": [
+            "img_ui_name_jpn_52"
+          ]
+        },
+        {
+          "object": "UI_Name_Jpn.Monster_Name.North_103",
+          "tiled_sha256": "b599036bed35025975f992392f041fd3eeadbce109d7f48a432611e5deac8f8c",
+          "labels": [
+            "img_ui_name_jpn_109"
+          ]
+        },
+        {
+          "object": "UI_Name_Jpn.Monster_Name.Object_401",
+          "tiled_sha256": "bbb3cbad7f2822b1600e5586dd2755c48938b2efebca2eba19c1f605b457c6c2",
+          "labels": [
+            "img_ui_name_jpn_121"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/Map07a_DField_P.xxx",
+      "sha256": "1e4827b2979c0d569625f065b3be402f5b502441bab9c3b726110877f44583d7",
+      "discs": [
+        2
+      ],
+      "textures": [
+        {
+          "object": "UI_title.Chapter06.Ch06_Lanoara",
+          "tiled_sha256": "bd4a99ddd389229a17f85d5138e06d9f36b564c8db6f5983c8b13165b689198c",
+          "labels": [
+            "Ch06_Lanoara"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/Map_View_Abazet.xxx",
+      "sha256": "07bfbb37e22d70614afaa06959a1516e687e2c8cf18ccea91d97f7d413318598",
+      "discs": [
+        1,
+        2
+      ],
+      "textures": [
+        {
+          "object": "Map_View_Abazet_1",
+          "tiled_sha256": "c70aabc8fbfdc7c605c3cd2d015ee0b43822696cd981be09d6e151c5c97c7e33",
+          "labels": [
+            "normal_map_terrain_map_view_abazet_1_03",
+            "normal_map_terrain_map_view_abazet_1_04",
+            "normal_map_terrain_map_view_abazet_1_06"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/Map_View_DunanF.xxx",
+      "sha256": "369fe55478dc1061a5cf7322cd8b2ca10f910f3bab571bc56ebafdffc4c34b9e",
+      "discs": [
+        1,
+        2
+      ],
+      "textures": [
+        {
+          "object": "Map_View_DunanF",
+          "tiled_sha256": "d97fc3a80df5ca2ce59708727fe0d46a810651410ea7d2b17474a0b6ea1b0c2c",
+          "labels": [
+            "normal_map_terrain_map_view_dunanf_01",
+            "normal_map_terrain_map_view_dunanf_02",
+            "normal_map_terrain_map_view_dunanf_08"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/Map_View_Highwind.xxx",
+      "sha256": "73c1ffdc82ff255565163fb40a55da328e04d83c2dc35f53c83ef5de4ade97f7",
+      "discs": [
+        1,
+        2
+      ],
+      "textures": [
+        {
+          "object": "Map_Highwind_Down",
+          "tiled_sha256": "653effe1ae7852a7845d9368741ec62b5b6bb1804ccc12f54db3141126dc5489",
+          "labels": [
+            "normal_map_terrain_map_highwind_down_00"
+          ]
+        },
+        {
+          "object": "Map_Highwind_Up",
+          "tiled_sha256": "1bce411f1015c6868cecfaaa6fef9ae691c88a39f15e6660245aec1055902c1e",
+          "labels": [
+            "normal_map_terrain_map_highwind_up_01"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/Map_View_Highwind_2.xxx",
+      "sha256": "0b05259289d0c3283bc68664bbff099d2b96f4427aeac014e3534241356f83cb",
+      "discs": [
+        1
+      ],
+      "textures": [
+        {
+          "object": "Map_Highwind_Down",
+          "tiled_sha256": "653effe1ae7852a7845d9368741ec62b5b6bb1804ccc12f54db3141126dc5489",
+          "labels": [
+            "normal_map_terrain_map_highwind_down_00"
+          ]
+        },
+        {
+          "object": "Map_Highwind_Up_Cave",
+          "tiled_sha256": "1a2c659fa05f8545aa9bba5f1dfa4ce2371188789b3c1db3bb320aff9f23e26e",
+          "labels": [
+            "normal_map_terrain_map_highwind_up_cave_01"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/Map_View_Oldfox.xxx",
+      "sha256": "7855c3c661e264384356ec3f83826d8280dbab07775901ae3f8623f34d735fa7",
+      "discs": [
+        1,
+        2
+      ],
+      "textures": [
+        {
+          "object": "Map_View_Oldfox",
+          "tiled_sha256": "e07ddf65707e161ab34e7f1a22992a0ab9ef6cdf718d308740c9337fc116af93",
+          "labels": [
+            "normal_map_terrain_map_view_oldfox_02"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/Map_View_SentinelLab.xxx",
+      "sha256": "2bf04f43e4a8563d7a7d84f37a869d7be8dcecfcb41cfb94e4b23de497f049e6",
+      "discs": [
+        2
+      ],
+      "textures": [
+        {
+          "object": "Map_View_Senti_Title",
+          "tiled_sha256": "87ef3e415e4bf02b11b726f9705864e09fe52842a6cca7d52db3fd3732ac7644",
+          "labels": [
+            "normal_map_title_025_0",
+            "normal_room_senti_title_0"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/Map_View_Undersea.xxx",
+      "sha256": "e1e5fe92d62df54f8059f0607009838bbee7785e94d9d7c02227c971dcc15e3b",
+      "discs": [
+        1,
+        2
+      ],
+      "textures": [
+        {
+          "object": "Map_View_Undersea",
+          "tiled_sha256": "6b7fa9560d8b709d85259ecfe618a39afda09c48b22396f5ad5b6912eff81914",
+          "labels": [
+            "normal_map_terrain_map_view_undersea_00",
+            "normal_map_terrain_map_view_undersea_03"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/Map_View_Undersea_2.xxx",
+      "sha256": "a517d1f5e1237fab27adf981da778222702ec9fb4a1754cb1d1786fef1fa1268",
+      "discs": [
+        2
+      ],
+      "textures": [
+        {
+          "object": "Map_View_Undersea_2",
+          "tiled_sha256": "8347a0841b4a431bf1fadd3fa7bae14977eef22d38f76b60920684b8ca21fafd",
+          "labels": [
+            "normal_map_terrain_map_view_undersea_2_00",
+            "normal_map_terrain_map_view_undersea_2_03"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/NoneUse_NekoNeko.xxx",
+      "sha256": "74fc30222e26a82cca21ebb54c4f0109adde2344eab789e1c6027c18ed8d74e2",
+      "discs": [
+        1,
+        2
+      ],
+      "textures": [
+        {
+          "object": "UI_Name_Jpn.Monster_Name.Mname_13",
+          "tiled_sha256": "9cdbabc22ed3ca2759d907dff0512a01136613a0fc49d64a992e41fe71c339d0",
+          "labels": [
+            "img_ui_name_jpn_52"
+          ]
+        },
+        {
+          "object": "UI_Name_Jpn.Monster_Name.Mname_26",
+          "tiled_sha256": "aad2bb3e6e240bd8d42704647f3fae2c9bc265144b60b7523060cb6b5e9fd09e",
+          "labels": [
+            "img_ui_name_jpn_65"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/NoneUse_ShootNekoNeko.xxx",
+      "sha256": "b03cf5fa0c1b6b8f2c8601a52abbfec2d4fe4c3858d69e8c7f593682faa297f9",
+      "discs": [
+        1,
+        2
+      ],
+      "textures": [
+        {
+          "object": "UI_Name_Jpn.Monster_Name.Mname_13",
+          "tiled_sha256": "9cdbabc22ed3ca2759d907dff0512a01136613a0fc49d64a992e41fe71c339d0",
+          "labels": [
+            "img_ui_name_jpn_52"
+          ]
+        },
+        {
+          "object": "UI_Name_Jpn.Monster_Name.Mname_26",
+          "tiled_sha256": "aad2bb3e6e240bd8d42704647f3fae2c9bc265144b60b7523060cb6b5e9fd09e",
+          "labels": [
+            "img_ui_name_jpn_65"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/Oldfox_Comp02_02_Nekoneko.xxx",
+      "sha256": "5ad069daa7420636a4aff5e1450741c5a1f53f434a5f49db355aad8504119587",
+      "discs": [
+        1,
+        2
+      ],
+      "textures": [
+        {
+          "object": "UI_Name_Jpn.Monster_Name.Mname_13",
+          "tiled_sha256": "9cdbabc22ed3ca2759d907dff0512a01136613a0fc49d64a992e41fe71c339d0",
+          "labels": [
+            "img_ui_name_jpn_52"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/Oldfox_Inferno_Spwan.xxx",
+      "sha256": "d2b2d35e1cc8f10a0d8f9ac08815e6e6211baea106d1209acace9d1fdf650e1d",
+      "discs": [
+        2
+      ],
+      "textures": [
+        {
+          "object": "UI_Monster_Name_Jpn.Boss_Name_Big.Boss_Inferno",
+          "tiled_sha256": "7c6179c9fcf4849b37ce5434ef38848f294a0ccc98f631c2a5bd6b6056902b95",
+          "labels": [
+            "img_ui_monster_name_jpn_75"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/Oldfox_Mon01_S.xxx",
+      "sha256": "4252ae3d1b361383ab1855a46badec7231a18eaeadf1e957518c7e3dd82e8f80",
+      "discs": [
+        1
+      ],
+      "textures": [
+        {
+          "object": "UI_Name_Jpn.Monster_Name.Mname_13",
+          "tiled_sha256": "9cdbabc22ed3ca2759d907dff0512a01136613a0fc49d64a992e41fe71c339d0",
+          "labels": [
+            "img_ui_name_jpn_52"
+          ]
+        },
+        {
+          "object": "UI_Name_Jpn.Monster_Name.North_103",
+          "tiled_sha256": "b599036bed35025975f992392f041fd3eeadbce109d7f48a432611e5deac8f8c",
+          "labels": [
+            "img_ui_name_jpn_109"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/Oldfox_Mon02_S.xxx",
+      "sha256": "082eaa7e1d37f0f2320cab6acb1dbb33d6c0e90d59086e6e53d685fc0780ad03",
+      "discs": [
+        1
+      ],
+      "textures": [
+        {
+          "object": "UI_Name_Jpn.Monster_Name.Mname_13",
+          "tiled_sha256": "9cdbabc22ed3ca2759d907dff0512a01136613a0fc49d64a992e41fe71c339d0",
+          "labels": [
+            "img_ui_name_jpn_52"
+          ]
+        },
+        {
+          "object": "UI_Name_Jpn.Monster_Name.North_103",
+          "tiled_sha256": "b599036bed35025975f992392f041fd3eeadbce109d7f48a432611e5deac8f8c",
+          "labels": [
+            "img_ui_name_jpn_109"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/Oldfox_Mon03_S.xxx",
+      "sha256": "d441d3122f374a48fe30e9cced2754a4f01c421d0ba2f988df7c8c2a9667f9fd",
+      "discs": [
+        1
+      ],
+      "textures": [
+        {
+          "object": "UI_Name_Jpn.Monster_Name.Mname_13",
+          "tiled_sha256": "9cdbabc22ed3ca2759d907dff0512a01136613a0fc49d64a992e41fe71c339d0",
+          "labels": [
+            "img_ui_name_jpn_52"
+          ]
+        },
+        {
+          "object": "UI_Name_Jpn.Monster_Name.North_103",
+          "tiled_sha256": "b599036bed35025975f992392f041fd3eeadbce109d7f48a432611e5deac8f8c",
+          "labels": [
+            "img_ui_name_jpn_109"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/Oldfox_Mon04_S.xxx",
+      "sha256": "5c720d173ed86b4a76ae56c0ba4ed4a533862f5a8738a4e8a659c2f2a8642d57",
+      "discs": [
+        1
+      ],
+      "textures": [
+        {
+          "object": "UI_Name_Jpn.Monster_Name.Mname_13",
+          "tiled_sha256": "9cdbabc22ed3ca2759d907dff0512a01136613a0fc49d64a992e41fe71c339d0",
+          "labels": [
+            "img_ui_name_jpn_52"
+          ]
+        },
+        {
+          "object": "UI_Name_Jpn.Monster_Name.North_103",
+          "tiled_sha256": "b599036bed35025975f992392f041fd3eeadbce109d7f48a432611e5deac8f8c",
+          "labels": [
+            "img_ui_name_jpn_109"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/Oldfox_Mon05_S.xxx",
+      "sha256": "08959beeb180011533f13bfe3ebd931ab36e026a69667ba8f916caf6699dedf5",
+      "discs": [
+        1
+      ],
+      "textures": [
+        {
+          "object": "UI_Name_Jpn.Monster_Name.Mname_13",
+          "tiled_sha256": "9cdbabc22ed3ca2759d907dff0512a01136613a0fc49d64a992e41fe71c339d0",
+          "labels": [
+            "img_ui_name_jpn_52"
+          ]
+        },
+        {
+          "object": "UI_Name_Jpn.Monster_Name.North_103",
+          "tiled_sha256": "b599036bed35025975f992392f041fd3eeadbce109d7f48a432611e5deac8f8c",
+          "labels": [
+            "img_ui_name_jpn_109"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/Oldfox_Mon06_S.xxx",
+      "sha256": "4ea1b98795662be98f11c0612f7ee5fe32e90c362c9d45c4a7ba6ef0453fe69a",
+      "discs": [
+        1
+      ],
+      "textures": [
+        {
+          "object": "UI_Name_Jpn.Monster_Name.Mname_13",
+          "tiled_sha256": "9cdbabc22ed3ca2759d907dff0512a01136613a0fc49d64a992e41fe71c339d0",
+          "labels": [
+            "img_ui_name_jpn_52"
+          ]
+        },
+        {
+          "object": "UI_Name_Jpn.Monster_Name.Mname_26",
+          "tiled_sha256": "aad2bb3e6e240bd8d42704647f3fae2c9bc265144b60b7523060cb6b5e9fd09e",
+          "labels": [
+            "img_ui_name_jpn_65"
+          ]
+        },
+        {
+          "object": "UI_Name_Jpn.Monster_Name.North_103",
+          "tiled_sha256": "b599036bed35025975f992392f041fd3eeadbce109d7f48a432611e5deac8f8c",
+          "labels": [
+            "img_ui_name_jpn_109"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/Oldfox_Mon07_E.xxx",
+      "sha256": "4722286db9b3013cac3af2dbbcc9e263761084d66fb9067da6e213152b54dac7",
+      "discs": [
+        1
+      ],
+      "textures": [
+        {
+          "object": "UI_Name_Jpn.Monster_Name.Mname_13",
+          "tiled_sha256": "9cdbabc22ed3ca2759d907dff0512a01136613a0fc49d64a992e41fe71c339d0",
+          "labels": [
+            "img_ui_name_jpn_52"
+          ]
+        },
+        {
+          "object": "UI_Name_Jpn.Monster_Name.North_103",
+          "tiled_sha256": "b599036bed35025975f992392f041fd3eeadbce109d7f48a432611e5deac8f8c",
+          "labels": [
+            "img_ui_name_jpn_109"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/Oldfox_Mon07_S.xxx",
+      "sha256": "15cd94425685510d0927ea3692d0988fb8e943570a4e05974899dcff5c94a8f7",
+      "discs": [
+        1
+      ],
+      "textures": [
+        {
+          "object": "UI_Name_Jpn.Monster_Name.Mname_13",
+          "tiled_sha256": "9cdbabc22ed3ca2759d907dff0512a01136613a0fc49d64a992e41fe71c339d0",
+          "labels": [
+            "img_ui_name_jpn_52"
+          ]
+        },
+        {
+          "object": "UI_Name_Jpn.Monster_Name.North_111",
+          "tiled_sha256": "3cc036e8803c3e24110e219b90f4087f35e5f2f6dad3411d0d06a1744bcab1a2",
+          "labels": [
+            "img_ui_name_jpn_113"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/Oldfox_Mon07_S2.xxx",
+      "sha256": "40ab211e5f6837680fdf31d2c77cee947f41b2d1a2d546e2abdff5ce19aab47b",
+      "discs": [
+        1
+      ],
+      "textures": [
+        {
+          "object": "UI_Name_Jpn.Monster_Name.Mname_13",
+          "tiled_sha256": "9cdbabc22ed3ca2759d907dff0512a01136613a0fc49d64a992e41fe71c339d0",
+          "labels": [
+            "img_ui_name_jpn_52"
+          ]
+        },
+        {
+          "object": "UI_Name_Jpn.Monster_Name.North_103",
+          "tiled_sha256": "b599036bed35025975f992392f041fd3eeadbce109d7f48a432611e5deac8f8c",
+          "labels": [
+            "img_ui_name_jpn_109"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/Oldfox_Mon08_E.xxx",
+      "sha256": "e7a763f8ce8a5181fb55b0b61b6d18f6d3e51b8e19a696f07431e57c0a63adb6",
+      "discs": [
+        1
+      ],
+      "textures": [
+        {
+          "object": "UI_Name_Jpn.Monster_Name.North_103",
+          "tiled_sha256": "b599036bed35025975f992392f041fd3eeadbce109d7f48a432611e5deac8f8c",
+          "labels": [
+            "img_ui_name_jpn_109"
+          ]
+        },
+        {
+          "object": "UI_Name_Jpn.Monster_Name.North_17",
+          "tiled_sha256": "3c2aaf09c091e28de916e82da894c0fea3bdfcfee8784032a4a5a749b7918013",
+          "labels": [
+            "img_ui_name_jpn_114"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/Oldfox_Mon08_S.xxx",
+      "sha256": "5a955798b582dfbe9037328276a74bd856bc2fbb64f993b6ad93607163721f2f",
+      "discs": [
+        1
+      ],
+      "textures": [
+        {
+          "object": "UI_Monster_Name_Jpn.Boss_Name.BOSS_012",
+          "tiled_sha256": "de74feef4a73461d0d174fb13a1f72613de3d7a5ddde00a4c886debf8af787d5",
+          "labels": [
+            "img_ui_monster_name_jpn_40"
+          ]
+        },
+        {
+          "object": "UI_Name_Jpn.Monster_Name.Mname_13",
+          "tiled_sha256": "9cdbabc22ed3ca2759d907dff0512a01136613a0fc49d64a992e41fe71c339d0",
+          "labels": [
+            "img_ui_name_jpn_52"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/Oldfox_Quest_Inferno.xxx",
+      "sha256": "0908d08b127b432f53a282593b8c8488cf9f954afb1ccde1f677e977c7edc0ab",
+      "discs": [
+        2
+      ],
+      "textures": [
+        {
+          "object": "UI_Monster_Name_Jpn.Boss_Name.Boss_020",
+          "tiled_sha256": "1c6a97f1ffe877153bfeb0d0c3141c96cf9d50239c5375ba68e09856eec50a90",
+          "labels": [
+            "img_ui_monster_name_jpn_51"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/Oldfox_Situation02_Sionlegral.xxx",
+      "sha256": "d8236cbb20dd2f43d93b126eba848ea470875a0f9ee3f06b81508a681cb65c57",
+      "discs": [
+        1
+      ],
+      "textures": [
+        {
+          "object": "UI_Title_Jpn.BOSS.Boss_Sion",
+          "tiled_sha256": "4f672e494f679a60ee84a4ac7743e0aecbe2052b53e3e3ce5c19763eec7b215b",
+          "labels": [
+            "ui_boss_sion"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/Pock_map.xxx",
+      "sha256": "2d876ba39c2451ffd85593724cd8db3d53846c35d352ac5f4ed89c783625f623",
+      "discs": [
+        1,
+        2
+      ],
+      "textures": [
+        {
+          "object": "SkillName_Jpn.Crocell.Skill_Crocell_Main_08",
+          "tiled_sha256": "01b728786ddf1d70abf24cfd96338f6a9f58df6099d7b4abf85bac931d203d25",
+          "labels": [
+            "runtime_skill_051"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/PreF_Argo_Yupa1.xxx",
+      "sha256": "9fdb89f8067f4fa75ca9f773849685f891d4aaa55b18dd18b7376734c498f000",
+      "discs": [
+        1,
+        2
+      ],
+      "textures": [
+        {
+          "object": "SkillName_Jpn.Argo.Skill_Argo_Main_03",
+          "tiled_sha256": "42013cdbfea7eff8a8b4f1ec24af47edb4bff844a9eefc47036f23163389ca33",
+          "labels": [
+            "runtime_skill_010"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/PreF_Argo_Yupa2.xxx",
+      "sha256": "cc99e6205df12213c172f6bd4bb211dcb52d267bee204eb9442086ca9fc4ae66",
+      "discs": [
+        1,
+        2
+      ],
+      "textures": [
+        {
+          "object": "SkillName_Jpn.Argo.Skill_Argo_Main_03",
+          "tiled_sha256": "42013cdbfea7eff8a8b4f1ec24af47edb4bff844a9eefc47036f23163389ca33",
+          "labels": [
+            "runtime_skill_010"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/PreF_Crosell_Yupa1.xxx",
+      "sha256": "b369159ac6a1ccdf7f92c08617184b5132fb4fd482ed6f5367661660122d03b3",
+      "discs": [
+        1,
+        2
+      ],
+      "textures": [
+        {
+          "object": "SkillName_Jpn.Crocell.Skill_Crocell_Main_08",
+          "tiled_sha256": "01b728786ddf1d70abf24cfd96338f6a9f58df6099d7b4abf85bac931d203d25",
+          "labels": [
+            "runtime_skill_051"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/PreF_Crosell_Yupa2.xxx",
+      "sha256": "bf38bd85802f5d5814947159ce1ce1388f67de4a6371b31704512744318e01c5",
+      "discs": [
+        1,
+        2
+      ],
+      "textures": [
+        {
+          "object": "SkillName_Jpn.Crocell.Skill_Crocell_Sub_06",
+          "tiled_sha256": "541cd3fcf67a1e5fc8b1f975b7f8bc62ca119d6e58c9ac16949e39d2d8ca634c",
+          "labels": [
+            "runtime_skill_058"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/PreF_Zephi_Yupa1.xxx",
+      "sha256": "f1199958a493902470bb2532b3382877cdcdf6944df31c25aa378d077fe07b77",
+      "discs": [
+        1,
+        2
+      ],
+      "textures": [
+        {
+          "object": "SkillName_Jpn.Zephie.Skill_Zephie_Main_02",
+          "tiled_sha256": "59ec94ef2ebfd53dc05d308e057ad623c0c30377c29b90a3b11b8f79344e6700",
+          "labels": [
+            "runtime_skill_108"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/PreF_Zephi_Yupa2.xxx",
+      "sha256": "bd6954b8f9ce3e2e8c73b2cd256e7ef0efd581d50cc7804572d7cec9b11176c4",
+      "discs": [
+        1,
+        2
+      ],
+      "textures": [
+        {
+          "object": "SkillName_Jpn.Zephie.Skill_Zephie_Sub_08",
+          "tiled_sha256": "f87659104d5a0b2649e8ab4272c7827fb0a232d2763f8c3ffc1d29a897cee4f9",
+          "labels": [
+            "runtime_skill_126"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/Quest_Monster_00_clawpers.xxx",
+      "sha256": "99cbbded1ffd0397c2bde73d7f86ee7e55c5c5864e6d39bf9b05794a3a42295a",
+      "discs": [
+        1,
+        2
+      ],
+      "textures": [
+        {
+          "object": "Quest_Monster_00_clawpers",
+          "tiled_sha256": "8fd49089dd5864a4676b5399fc430275e2fc5fd8ab8bbf7d17dd86bd497e514c",
+          "labels": [
+            "quest_illustration_00_clawpers"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/Ruhalt_Mon_01enter_S.xxx",
+      "sha256": "b77f3c809771c7f7a6ab22c86b57c90271a37dadf50d6e9b6db25b1d538c3853",
+      "discs": [
+        2
+      ],
+      "textures": [
+        {
+          "object": "UI_Name_Jpn.Monster_Name.North_103",
+          "tiled_sha256": "b599036bed35025975f992392f041fd3eeadbce109d7f48a432611e5deac8f8c",
+          "labels": [
+            "img_ui_name_jpn_109"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/Ruhalt_Mon_02road1_S.xxx",
+      "sha256": "2c1cb58307dd4c2d592cb79f10bc347ced038aca0c1033b6bcad4844ff7f8e15",
+      "discs": [
+        2
+      ],
+      "textures": [
+        {
+          "object": "UI_Name_Jpn.Monster_Name.Mname_23",
+          "tiled_sha256": "6442cd5fe904df023934993865ecabe643c5d9ea8045f0d10096e7ec312c2c24",
+          "labels": [
+            "img_ui_name_jpn_62"
+          ]
+        },
+        {
+          "object": "UI_Name_Jpn.Monster_Name.North_103",
+          "tiled_sha256": "b599036bed35025975f992392f041fd3eeadbce109d7f48a432611e5deac8f8c",
+          "labels": [
+            "img_ui_name_jpn_109"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/Ruhalt_Mon_03road2_S.xxx",
+      "sha256": "ffdd63b86d274b4598b865ecda1f6d63834b84d678f14d25a1e1fe6c9613cbae",
+      "discs": [
+        2
+      ],
+      "textures": [
+        {
+          "object": "UI_Name_Jpn.Monster_Name.Mname_23",
+          "tiled_sha256": "6442cd5fe904df023934993865ecabe643c5d9ea8045f0d10096e7ec312c2c24",
+          "labels": [
+            "img_ui_name_jpn_62"
+          ]
+        },
+        {
+          "object": "UI_Name_Jpn.Monster_Name.North_103",
+          "tiled_sha256": "b599036bed35025975f992392f041fd3eeadbce109d7f48a432611e5deac8f8c",
+          "labels": [
+            "img_ui_name_jpn_109"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/Ruhalt_Mon_04road3_S.xxx",
+      "sha256": "4c2b4bc8ce4b4e236b5cefd45078a48769a0194ac842904f0262f08156b37563",
+      "discs": [
+        2
+      ],
+      "textures": [
+        {
+          "object": "UI_Monster_Name_Jpn.North_Name.North_06",
+          "tiled_sha256": "ae9990ea4c6ee8a525a8b03b75a5a1d70cc75686f788cfbac01d6f072d4cf588",
+          "labels": [
+            "img_ui_monster_name_jpn_161"
+          ]
+        },
+        {
+          "object": "UI_Name_Jpn.Monster_Name.North_103",
+          "tiled_sha256": "b599036bed35025975f992392f041fd3eeadbce109d7f48a432611e5deac8f8c",
+          "labels": [
+            "img_ui_name_jpn_109"
+          ]
+        },
+        {
+          "object": "UI_Name_Jpn.Monster_Name.North_107",
+          "tiled_sha256": "99307bd9922f693c63469714e69de734e67f7dd27a59de09d0f93d64fe8d5b5e",
+          "labels": [
+            "img_ui_name_jpn_111"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/Ruhalt_Mon_06north_S.xxx",
+      "sha256": "3dc40eee87b057cf57dafdcee06d022ecbfaa4bcdba32ad241137c840a190185",
+      "discs": [
+        2
+      ],
+      "textures": [
+        {
+          "object": "UI_Monster_Name_Jpn.North_Name.North_06",
+          "tiled_sha256": "ae9990ea4c6ee8a525a8b03b75a5a1d70cc75686f788cfbac01d6f072d4cf588",
+          "labels": [
+            "img_ui_monster_name_jpn_161"
+          ]
+        },
+        {
+          "object": "UI_Name_Jpn.Monster_Name.North_103",
+          "tiled_sha256": "b599036bed35025975f992392f041fd3eeadbce109d7f48a432611e5deac8f8c",
+          "labels": [
+            "img_ui_name_jpn_109"
+          ]
+        },
+        {
+          "object": "UI_Name_Jpn.Monster_Name.North_107",
+          "tiled_sha256": "99307bd9922f693c63469714e69de734e67f7dd27a59de09d0f93d64fe8d5b5e",
+          "labels": [
+            "img_ui_name_jpn_111"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/Ruhalt_Mon_07thun_S.xxx",
+      "sha256": "56279aa409a59c3e2ea2874aad4d57a0bd2d5638adefc4bfa7d50c2fa0eeca2b",
+      "discs": [
+        2
+      ],
+      "textures": [
+        {
+          "object": "UI_Monster_Name_Jpn.North_Name.North_06",
+          "tiled_sha256": "ae9990ea4c6ee8a525a8b03b75a5a1d70cc75686f788cfbac01d6f072d4cf588",
+          "labels": [
+            "img_ui_monster_name_jpn_161"
+          ]
+        },
+        {
+          "object": "UI_Name_Jpn.Monster_Name.North_103",
+          "tiled_sha256": "b599036bed35025975f992392f041fd3eeadbce109d7f48a432611e5deac8f8c",
+          "labels": [
+            "img_ui_name_jpn_109"
+          ]
+        },
+        {
+          "object": "UI_Name_Jpn.Monster_Name.North_107",
+          "tiled_sha256": "99307bd9922f693c63469714e69de734e67f7dd27a59de09d0f93d64fe8d5b5e",
+          "labels": [
+            "img_ui_name_jpn_111"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/Ruhalt_Mon_08boss_S.xxx",
+      "sha256": "fcad7ffc80b6fec2e967c5b6380a10246e84b1803d7eb6187a60d0388d3dd3b1",
+      "discs": [
+        2
+      ],
+      "textures": [
+        {
+          "object": "UI_Monster_Name_Jpn.North_Name.North_06",
+          "tiled_sha256": "ae9990ea4c6ee8a525a8b03b75a5a1d70cc75686f788cfbac01d6f072d4cf588",
+          "labels": [
+            "img_ui_monster_name_jpn_161"
+          ]
+        },
+        {
+          "object": "UI_Name_Jpn.Monster_Name.North_103",
+          "tiled_sha256": "b599036bed35025975f992392f041fd3eeadbce109d7f48a432611e5deac8f8c",
+          "labels": [
+            "img_ui_name_jpn_109"
+          ]
+        },
+        {
+          "object": "UI_Name_Jpn.Monster_Name.North_107",
+          "tiled_sha256": "99307bd9922f693c63469714e69de734e67f7dd27a59de09d0f93d64fe8d5b5e",
+          "labels": [
+            "img_ui_name_jpn_111"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/Ruhalt_Mon_09eroad1.xxx",
+      "sha256": "6616726df1197d7f967de88f080ebbbcce9c80e8a622dd45be80bc2afa6d0908",
+      "discs": [
+        2
+      ],
+      "textures": [
+        {
+          "object": "UI_Name_Jpn.Monster_Name.North_103",
+          "tiled_sha256": "b599036bed35025975f992392f041fd3eeadbce109d7f48a432611e5deac8f8c",
+          "labels": [
+            "img_ui_name_jpn_109"
+          ]
+        },
+        {
+          "object": "UI_Name_Jpn.Monster_Name.North_107",
+          "tiled_sha256": "99307bd9922f693c63469714e69de734e67f7dd27a59de09d0f93d64fe8d5b5e",
+          "labels": [
+            "img_ui_name_jpn_111"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/Ruhalt_Mon_13Trewa.xxx",
+      "sha256": "507be7ed8475414f2ad43cce2e305f8f3d7547bd8c93e4219bfa009058ad200d",
+      "discs": [
+        2
+      ],
+      "textures": [
+        {
+          "object": "UI_Name_Jpn.Monster_Name.North_107",
+          "tiled_sha256": "99307bd9922f693c63469714e69de734e67f7dd27a59de09d0f93d64fe8d5b5e",
+          "labels": [
+            "img_ui_name_jpn_111"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/Ruhalt_Mon_15warp.xxx",
+      "sha256": "d591be554413f81503a8ff1bd44909dddbcd22a5563c756db4c17fa9caa2d5b0",
+      "discs": [
+        2
+      ],
+      "textures": [
+        {
+          "object": "UI_Monster_Name_Jpn.Monster_Name.Mname_56",
+          "tiled_sha256": "4c3678c0e0aec2267cf901aa35a5f7239daa28c612f1f50ccc2814a2ee90252a",
+          "labels": [
+            "img_ui_monster_name_jpn_135"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/Ruhalt_Mon_Alex.xxx",
+      "sha256": "276a99dcdcdbb336685d0aeed9e97034e470bbcda362b57287048431b63fb645",
+      "discs": [
+        2
+      ],
+      "textures": [
+        {
+          "object": "UI_Monster_Name_Jpn.Boss_Name.BOSS_014",
+          "tiled_sha256": "e544b8159f3ad8506c500b9e440053d7f9349d49667937cf720bc294c7b9f93a",
+          "labels": [
+            "img_ui_monster_name_jpn_42"
+          ]
+        },
+        {
+          "object": "UI_Name_Jpn.Monster_Name.North_111",
+          "tiled_sha256": "3cc036e8803c3e24110e219b90f4087f35e5f2f6dad3411d0d06a1744bcab1a2",
+          "labels": [
+            "img_ui_name_jpn_113"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/Ruhalt_Mon_Raud.xxx",
+      "sha256": "9928365258bb5f6d9dfdabcb8a8de4c653b62efaf23e784e138b64129a9b04aa",
+      "discs": [
+        2
+      ],
+      "textures": [
+        {
+          "object": "UI_Monster_Name_Jpn.North_Name.North_06",
+          "tiled_sha256": "ae9990ea4c6ee8a525a8b03b75a5a1d70cc75686f788cfbac01d6f072d4cf588",
+          "labels": [
+            "img_ui_monster_name_jpn_161"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/Ruhalt_Quest_malacia4.xxx",
+      "sha256": "df2d2c6c439678878c1594b144cd5a4681a23a8749500a0286c6e58379ba10f9",
+      "discs": [
+        2
+      ],
+      "textures": [
+        {
+          "object": "UI_Name_Jpn.Monster_Name.North_103",
+          "tiled_sha256": "b599036bed35025975f992392f041fd3eeadbce109d7f48a432611e5deac8f8c",
+          "labels": [
+            "img_ui_name_jpn_109"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/SentinelLab_Mon_Sector1In.xxx",
+      "sha256": "0808d60577ff141a99b3575e9eb951360b1cbcd162145cd23efb4434071619ac",
+      "discs": [
+        2
+      ],
+      "textures": [
+        {
+          "object": "UI_Monster_Name_Jpn.North_Name.North_06",
+          "tiled_sha256": "ae9990ea4c6ee8a525a8b03b75a5a1d70cc75686f788cfbac01d6f072d4cf588",
+          "labels": [
+            "img_ui_monster_name_jpn_161"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/SentinelLab_Mon_Sector2In.xxx",
+      "sha256": "22a6516f75f7fa55ae76a5dc46b281a8ec6525ed15990e47979f0da2a4261836",
+      "discs": [
+        2
+      ],
+      "textures": [
+        {
+          "object": "UI_Monster_Name_Jpn.North_Name.North_06",
+          "tiled_sha256": "ae9990ea4c6ee8a525a8b03b75a5a1d70cc75686f788cfbac01d6f072d4cf588",
+          "labels": [
+            "img_ui_monster_name_jpn_161"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/SentinelLab_Mon_Sector2In_R.xxx",
+      "sha256": "d159c994817e09361dc9cc8fb49cf73a7a1310e4d85b358db476202c19fa9116",
+      "discs": [
+        2
+      ],
+      "textures": [
+        {
+          "object": "UI_Monster_Name_Jpn.North_Name.North_06",
+          "tiled_sha256": "ae9990ea4c6ee8a525a8b03b75a5a1d70cc75686f788cfbac01d6f072d4cf588",
+          "labels": [
+            "img_ui_monster_name_jpn_161"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/SentinelLab_Mon_Sector4In.xxx",
+      "sha256": "dea0121a19ba5e1d15a1b2fdb947a4fb7293e832210f8c50ebaf45469dc1023a",
+      "discs": [
+        2
+      ],
+      "textures": [
+        {
+          "object": "UI_Monster_Name_Jpn.North_Name.North_06",
+          "tiled_sha256": "ae9990ea4c6ee8a525a8b03b75a5a1d70cc75686f788cfbac01d6f072d4cf588",
+          "labels": [
+            "img_ui_monster_name_jpn_161"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/SentinelLab_Mon_SectorCore.xxx",
+      "sha256": "acf673c4dc96475accbb740a8d810c7d60c8abb74a14405fbed10ebc56130af6",
+      "discs": [
+        2
+      ],
+      "textures": [
+        {
+          "object": "UI_Name_Jpn.Monster_Name.BOSS_306",
+          "tiled_sha256": "5b60234a6e2f86227df157cea2970bbd834d9ac850ceb3d002dee7cff7fd251a",
+          "labels": [
+            "img_ui_name_jpn_34"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/SkillName_Jpn.xxx",
+      "sha256": "f029bfc37f53f6bedc2eecdfd0bea37a88ef11760a8a869da517b80e2d62ddca",
+      "discs": [
+        1,
+        2
+      ],
+      "textures": [
+        {
+          "object": "Argo.Skill_Argo_Main_03",
+          "tiled_sha256": "42013cdbfea7eff8a8b4f1ec24af47edb4bff844a9eefc47036f23163389ca33",
+          "labels": [
+            "runtime_skill_010"
+          ]
+        },
+        {
+          "object": "Crocell.Skill_Crocell_Main_02",
+          "tiled_sha256": "013c86235522b5e7ad68820eef0298ded6d724817cd675d39ab662c0e94fc185",
+          "labels": [
+            "runtime_skill_045"
+          ]
+        },
+        {
+          "object": "Crocell.Skill_Crocell_Main_05",
+          "tiled_sha256": "7556e7ede8f1005a954de6de45d021fcaa73fa24e89a3a43d630e0157afb25ca",
+          "labels": [
+            "runtime_skill_048"
+          ]
+        },
+        {
+          "object": "Crocell.Skill_Crocell_Main_08",
+          "tiled_sha256": "01b728786ddf1d70abf24cfd96338f6a9f58df6099d7b4abf85bac931d203d25",
+          "labels": [
+            "runtime_skill_051"
+          ]
+        },
+        {
+          "object": "Crocell.Skill_Crocell_Sub_06",
+          "tiled_sha256": "541cd3fcf67a1e5fc8b1f975b7f8bc62ca119d6e58c9ac16949e39d2d8ca634c",
+          "labels": [
+            "runtime_skill_058"
+          ]
+        },
+        {
+          "object": "Crocell.Skill_Crocell_Sub_07",
+          "tiled_sha256": "8a12ac0630b505915cc3159ba76aa5ce9479f4e2ae1bc2fd5bc3fe1aac409192",
+          "labels": [
+            "runtime_skill_059"
+          ]
+        },
+        {
+          "object": "Juto.Skill_Juto_Main_00",
+          "tiled_sha256": "6aa6266bcbde1e39bd3f55979db55ee3c61d3bb89146cacb7356a85f58572e0a",
+          "labels": [
+            "runtime_skill_066"
+          ]
+        },
+        {
+          "object": "Zephie.Skill_Zephie_Main_02",
+          "tiled_sha256": "59ec94ef2ebfd53dc05d308e057ad623c0c30377c29b90a3b11b8f79344e6700",
+          "labels": [
+            "runtime_skill_108"
+          ]
+        },
+        {
+          "object": "Zephie.Skill_Zephie_Sub_08",
+          "tiled_sha256": "f87659104d5a0b2649e8ab4272c7827fb0a232d2763f8c3ffc1d29a897cee4f9",
+          "labels": [
+            "runtime_skill_126"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/Startup_int.xxx",
+      "sha256": "69ad3bbd6fdfbfc1cd3dda56e13ccc2da2767363c80d51c23bb4310f720781fb",
+      "discs": [
+        1,
+        2
+      ],
+      "textures": [
+        {
+          "object": "UI_Name_Jpn.Tex.Field_MainMenu_Info_Button_Normal",
+          "tiled_sha256": "a67b3c2c6a655bee25c16afb819fc492fce2855f5eaa42d063dd7b86651b6e40",
+          "labels": [
+            "img_ui_name_jpn_164_1",
+            "img_ui_name_jpn_164_2"
+          ]
+        },
+        {
+          "object": "UI_Name_Jpn.Tex.Field_MainMenu_Item_Button_Normal",
+          "tiled_sha256": "ce1938eec14594ad56a572306ff11936d0b715d001b0fd6409a74f1601515fb3",
+          "labels": [
+            "img_ui_name_jpn_167_4"
+          ]
+        },
+        {
+          "object": "UI_Name_Jpn.Tex.Field_MainMenu_button_normal",
+          "tiled_sha256": "0ed1d70888b71dd8b662433e13f777248d9d6432e56c4258d5b4465165d8a8b7",
+          "labels": [
+            "img_ui_name_jpn_162_2"
+          ]
+        },
+        {
+          "object": "UI_Name_Jpn.Tex.QuickMenu_MenuButton_Normal",
+          "tiled_sha256": "f19226d3f02f1133660af01d84159d13d71b4c2a1f82960e96578d88e5d05f34",
+          "labels": [
+            "img_ui_name_jpn_184_0"
+          ]
+        },
+        {
+          "object": "UI_Name_Jpn.Tex.StoreMenu_0",
+          "tiled_sha256": "e33c1b564ac5f8641f2136186caabba0b8d6095cf0df6cce380277ebb18e03a1",
+          "labels": [
+            "img_ui_name_jpn_190_1",
+            "img_ui_name_jpn_190_2"
+          ]
+        },
+        {
+          "object": "UI_Name_Jpn.Tex.Store_Kamond_Meun_normal",
+          "tiled_sha256": "d83c65e5533ef2049de9c81f5f41058b9f2aa05738e4daf96f0faf04de5c0b90",
+          "labels": [
+            "img_ui_name_jpn_187_1"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/Style_Tree_Skill_Name_Jpn.xxx",
+      "sha256": "a4c786cd55ee00f763cebfb97b5ed8d0145fdd50791739af6a264f586d0dd211",
+      "discs": [
+        1,
+        2
+      ],
+      "textures": [
+        {
+          "object": "Argo_Skill_Main",
+          "tiled_sha256": "f1d1571bd925897d2da9314706fb798b7b073e53518f496235c71af86314141c",
+          "labels": [
+            "normal_style_001_cell_036",
+            "normal_style_001_cell_038",
+            "normal_style_001_cell_041"
+          ]
+        },
+        {
+          "object": "Argo_Skill_Sub",
+          "tiled_sha256": "7c314e5ec8abf07dbc3d9cdba61056b227f6bb410b0fc193f7d91cd8ad3d5a79",
+          "labels": [
+            "normal_style_002_cell_044",
+            "normal_style_002_cell_046"
+          ]
+        },
+        {
+          "object": "Crocell_Skill_Main",
+          "tiled_sha256": "bf496b7f76e0ead49d7cc60e3a7901ac3cba48b32c344c418d111f497734b98f",
+          "labels": [
+            "normal_style_003_cell_049",
+            "normal_style_003_cell_050",
+            "normal_style_003_cell_051",
+            "normal_style_003_cell_052",
+            "normal_style_003_cell_054"
+          ]
+        },
+        {
+          "object": "Crocell_Skill_Sub",
+          "tiled_sha256": "37405526502935c526143f70d7429286e3bedf1b6286b27e7d67df9c7522aea5",
+          "labels": [
+            "normal_style_004_cell_059",
+            "normal_style_004_cell_060",
+            "normal_style_004_cell_062"
+          ]
+        },
+        {
+          "object": "Juto_Skill_Main",
+          "tiled_sha256": "bf79eddd56484ed20305e80bab94a1e5c87fbfd7389472f59e88a328d7791d90",
+          "labels": [
+            "normal_style_005_cell_001",
+            "normal_style_005_cell_002",
+            "normal_style_005_cell_004"
+          ]
+        },
+        {
+          "object": "Juto_Skill_Sub00",
+          "tiled_sha256": "dcd9379c7138e0349c66b03a8c86292b643fff56d2d9c2e6eadbf3d1e69e8e52",
+          "labels": [
+            "normal_style_006_cell_009",
+            "normal_style_006_cell_014",
+            "normal_style_006_cell_016"
+          ]
+        },
+        {
+          "object": "Ru_Skill_Main",
+          "tiled_sha256": "2668f5319e5a163712dbca8ab70e0dc9d03dd011d7b8164c2d023fa8358b43a4",
+          "labels": [
+            "normal_style_008_cell_081",
+            "normal_style_008_cell_082",
+            "normal_style_008_cell_083",
+            "normal_style_008_cell_084",
+            "normal_style_008_cell_085"
+          ]
+        },
+        {
+          "object": "Sere_Skill_Sub",
+          "tiled_sha256": "b164505ff916344576f7be876c9e76be89b147da26531c1bcd1dd7cb02a222de",
+          "labels": [
+            "normal_style_013_cell_072",
+            "normal_style_013_cell_078"
+          ]
+        },
+        {
+          "object": "Zephie_Skill_Main00",
+          "tiled_sha256": "2755713504b4c97d2512e0f07ede7d57d6220525c0f4e1bfe322ed465837386a",
+          "labels": [
+            "normal_style_018_cell_026"
+          ]
+        },
+        {
+          "object": "Zephie_Skill_Main01",
+          "tiled_sha256": "0b8360132bf557d10351d657c42aff9fa6777c6af5390b9015297182009bdaef",
+          "labels": [
+            "normal_style_019_cell_018",
+            "normal_style_019_cell_019",
+            "normal_style_019_cell_025"
+          ]
+        },
+        {
+          "object": "Zephie_Skill_Sub",
+          "tiled_sha256": "b5f75a625e7d277f17225f68a5fab4c370179a04297c0cc2351c92e88c33ce5b",
+          "labels": [
+            "normal_style_021_cell_031",
+            "normal_style_021_cell_033"
+          ]
+        },
+        {
+          "object": "Zephie_Skill_Sub1",
+          "tiled_sha256": "a42314614c2278d61b43ff46ec3a82f845d0df6f5770836f459e12de5613f40f",
+          "labels": [
+            "normal_style_022_cell_101"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/TitleMap_MSPT.xxx",
+      "sha256": "f64893cdca651c548c547363b7eaf8ff030c9198db8bf9ca5cc8dfdd33a30a6e",
+      "discs": [
+        1,
+        2
+      ],
+      "textures": [
+        {
+          "object": "UI_Name_Jpn.Pillar.Piller_Menu_Title",
+          "tiled_sha256": "4357af0ad45b0fd531d1b21c1a30dbf62a93816dce115e747ce3af7bd89bf3d3",
+          "labels": [
+            "img_ui_name_jpn_136_0",
+            "img_ui_name_jpn_136_1",
+            "img_ui_name_jpn_136_2",
+            "img_ui_name_jpn_136_3",
+            "img_ui_name_jpn_136_4",
+            "img_ui_name_jpn_136_5"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/UI_Battle_08_Jp.xxx",
+      "sha256": "22207e49c2754cffd690fbfa3585ffcebff04e1100062f3bd92274b4e592d1ab",
+      "discs": [
+        1,
+        2
+      ],
+      "textures": [
+        {
+          "object": "Test.Test_Skill_List_Juto",
+          "tiled_sha256": "1c3335bad04412377314d528ff4ac632e13eaf5f08ab1c4c43df5c3ee220d933",
+          "labels": [
+            "img_ui_battle_08_jp_8_3"
+          ]
+        },
+        {
+          "object": "Tex.Battle_Skill_Celestin",
+          "tiled_sha256": "fed41897350c0bebaefd37ee5afeb1759ab42ace5076dc07200ec01d5ee88447",
+          "labels": [
+            "img_ui_battle_08_jp_13_1"
+          ]
+        },
+        {
+          "object": "Tex.Character_Name_Zephi",
+          "tiled_sha256": "829d693a7acbec15bc359b1dfeeac1a9c675553ff933a03ea8aa287907a9630a",
+          "labels": [
+            "ui_character_name_zephi"
+          ]
+        },
+        {
+          "object": "Tex.Character_Name_Zephi_Red",
+          "tiled_sha256": "68ae20ee3c47991316fa4dd9c3bca87deae8bada78b467bf11c699c00000067e",
+          "labels": [
+            "ui_character_name_zephi_red"
+          ]
+        },
+        {
+          "object": "Tex.Communication_Text_Skill",
+          "tiled_sha256": "00c03dec7e1a6bc99844a50c0d22ec2ee8f919329601f3aa39a3d7eecc8533ff",
+          "labels": [
+            "img_ui_battle_08_jp_60_1"
+          ]
+        },
+        {
+          "object": "Tex.Skill_Name_00",
+          "tiled_sha256": "48bb3ef4819a5cc9819e2f3a80ffd8754f3e868814d0116f139a01ca47e5c820",
+          "labels": [
+            "img_ui_battle_08_jp_156_1"
+          ]
+        },
+        {
+          "object": "Tex.Speech_Zephi_8",
+          "tiled_sha256": "2b385ef71a877e9b21de735a4a60a41b7a107a3a36ecef4c5d1462253ef905f0",
+          "labels": [
+            "img_ui_battle_08_jp_175_2"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/UI_Battle_Chain_JoinAttack.xxx",
+      "sha256": "ccda7d2e1251cd763d3b44de3afbc5bebeacac790d186af95a4695599856ac52",
+      "discs": [
+        1,
+        2
+      ],
+      "textures": [
+        {
+          "object": "Tex.Effect_Img_Chain_Text",
+          "tiled_sha256": "ffb887fafaf73c1872cd5d45acf607e018f135f2178d7d65f2e968662c924b5d",
+          "labels": [
+            "hud_complete_10_00"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/UI_Battle_Master.xxx",
+      "sha256": "0a8a00c30b9e46c38d58aa05b6bd8e8c50b15aa455c869d94c66a768180f2924",
+      "discs": [
+        1,
+        2
+      ],
+      "textures": [
+        {
+          "object": "Tex.Tex_ChainDrive",
+          "tiled_sha256": "2073974e3068e39ee90fcf73da49a2305ba56c7adebda810166e1647ff7bd1af",
+          "labels": [
+            "hud_complete_22_00"
+          ]
+        },
+        {
+          "object": "Tex.Tex_ChainDrive_Big",
+          "tiled_sha256": "6f53a793469cc278faf006478a6f2a3c2340369cdb4f2ad243859b9875609d3d",
+          "labels": [
+            "hud_complete_23_00"
+          ]
+        },
+        {
+          "object": "Tex.Tex_OverDrive",
+          "tiled_sha256": "426e6380ed82f9056d9d18394eb47ca64a65a9c6e91203e2e95f453d5235ae9f",
+          "labels": [
+            "hud_complete_25_00"
+          ]
+        },
+        {
+          "object": "Tex.Tex_OverHeat",
+          "tiled_sha256": "8dae39ad2575402e7635f4d54aa0955800a7a9a3fff62b64b2e93094094653c4",
+          "labels": [
+            "hud_complete_27_00"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/UI_Field.xxx",
+      "sha256": "b1a0a1f1342b90474dbb1c59f0f283ee5976a83458ffdab675bc838d630cd168",
+      "discs": [
+        1,
+        2
+      ],
+      "textures": [
+        {
+          "object": "Textures.Mail_Icon",
+          "tiled_sha256": "cfadc16309ac3ac545180e185c5b533a025203c3d0f9666f4bffb1dd19a81f7f",
+          "labels": [
+            "ui_batch_933_new"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/UI_MiniGame.xxx",
+      "sha256": "7fc7f4a466adbf66177bb74a6f411879c073409c76c56558c5560130a231609e",
+      "discs": [
+        1,
+        2
+      ],
+      "textures": [
+        {
+          "object": "Tex.Game02_Tex01",
+          "tiled_sha256": "48031e30deab199c76b4e21847d9af798d3efc7633bcb83185b9c97e57ddee26",
+          "labels": [
+            "ui_batch_1071_danger"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/UI_MiniGame2.xxx",
+      "sha256": "20bfc4f303db728cd79ae1c755ade90faf31bd4634bc87ad434c2f2adf92ff6a",
+      "discs": [
+        1,
+        2
+      ],
+      "textures": [
+        {
+          "object": "Tex.Game02_Tex01",
+          "tiled_sha256": "48031e30deab199c76b4e21847d9af798d3efc7633bcb83185b9c97e57ddee26",
+          "labels": [
+            "ui_batch_1082_danger"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/UI_Minigame_Cere.xxx",
+      "sha256": "eece2c3b7c23b3114bfa6dcea1f63f2c162ed8fe76404eee253f1679eac2e70e",
+      "discs": [
+        1,
+        2
+      ],
+      "textures": [
+        {
+          "object": "Tex_Danger",
+          "tiled_sha256": "6d3f0557da27bd8e3425b69b9516708caf246c605697c888fd8d9d12da5a1be5",
+          "labels": [
+            "ui_batch_1095_danger"
+          ]
+        },
+        {
+          "object": "Tex_Skill_A",
+          "tiled_sha256": "573dc331aac4ff00b7640a133ed6cd7ee25a2e6440399298182d6ea895f88ddd",
+          "labels": [
+            "ui_batch_1097_icearrow"
+          ]
+        },
+        {
+          "object": "Tex_Skill_X",
+          "tiled_sha256": "16f9671ef628584c838197ff07d1ff5fc098db9e44b04de103650095d0f646a1",
+          "labels": [
+            "ui_batch_1099_instruction",
+            "ui_batch_1099_styled_digit"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/UI_Monster_Name_Jpn.xxx",
+      "sha256": "a9ff38766b080558d48c491e262c442fb6771cbefda7b0cdff61375c17f93e3a",
+      "discs": [
+        1,
+        2
+      ],
+      "textures": [
+        {
+          "object": "Battle_Npc.Npc_02",
+          "tiled_sha256": "5ae010be5d3730df7a8b9cf81c385aabc3f4b82bf8955639759ac226cc3da74b",
+          "labels": [
+            "img_ui_monster_name_jpn_10"
+          ]
+        },
+        {
+          "object": "Battle_Npc.Npc_05",
+          "tiled_sha256": "d288130ae97571227ef09bae82dca0ee0002289b9a57a74e6066f0963e2b9913",
+          "labels": [
+            "img_ui_monster_name_jpn_13"
+          ]
+        },
+        {
+          "object": "Battle_Npc.Npc_06",
+          "tiled_sha256": "4f8f6065fe9d0c3e9a7c431150c17b2190015a1918f9e50967f63125fbc3fe21",
+          "labels": [
+            "img_ui_monster_name_jpn_14"
+          ]
+        },
+        {
+          "object": "Boss_Name.BOSS_010",
+          "tiled_sha256": "ab7095b46cd63ff91679c03ab4a6709ba60371ac5eff7748b3e960c489e02b63",
+          "labels": [
+            "img_ui_monster_name_jpn_35"
+          ]
+        },
+        {
+          "object": "Boss_Name.BOSS_012",
+          "tiled_sha256": "de74feef4a73461d0d174fb13a1f72613de3d7a5ddde00a4c886debf8af787d5",
+          "labels": [
+            "img_ui_monster_name_jpn_40"
+          ]
+        },
+        {
+          "object": "Boss_Name.BOSS_014",
+          "tiled_sha256": "e544b8159f3ad8506c500b9e440053d7f9349d49667937cf720bc294c7b9f93a",
+          "labels": [
+            "img_ui_monster_name_jpn_42"
+          ]
+        },
+        {
+          "object": "Boss_Name.BOSS_32",
+          "tiled_sha256": "f4189f5822ac7cdb8f489a99d5e1b85dcfc3b672b020b94e26ef275c9f88df85",
+          "labels": [
+            "img_ui_monster_name_jpn_63"
+          ]
+        },
+        {
+          "object": "Boss_Name.BOSS_33",
+          "tiled_sha256": "1d9dc7cb5d43fe2a464357d98094f44847915dd50e4cb628ad412f038f59cbc2",
+          "labels": [
+            "img_ui_monster_name_jpn_64"
+          ]
+        },
+        {
+          "object": "Boss_Name.Boss_011_01",
+          "tiled_sha256": "f7dd4a44c30f236c433dd7a833999e2a3de1d840f8d440159fd4e4215c209176",
+          "labels": [
+            "img_ui_monster_name_jpn_37"
+          ]
+        },
+        {
+          "object": "Boss_Name.Boss_011_02",
+          "tiled_sha256": "b479fbcb6e1635a2ad78e7ff24d22c1c501b0f1fb4196f0dfaff3b31b2d4898f",
+          "labels": [
+            "img_ui_monster_name_jpn_38"
+          ]
+        },
+        {
+          "object": "Boss_Name.Boss_017_02",
+          "tiled_sha256": "f139e43b2e0f66965feb1cc0b227e5d0e318f21dd23d5f6380314c0b8b269e94",
+          "labels": [
+            "img_ui_monster_name_jpn_48"
+          ]
+        },
+        {
+          "object": "Boss_Name.Boss_020",
+          "tiled_sha256": "1c6a97f1ffe877153bfeb0d0c3141c96cf9d50239c5375ba68e09856eec50a90",
+          "labels": [
+            "img_ui_monster_name_jpn_51"
+          ]
+        },
+        {
+          "object": "Boss_Name.Boss_022",
+          "tiled_sha256": "f2c5b499a6b12c9e386b58ec38fc5c555790d2111806d0eab5362b047dfd4abc",
+          "labels": [
+            "img_ui_monster_name_jpn_53"
+          ]
+        },
+        {
+          "object": "Boss_Name.Boss_023",
+          "tiled_sha256": "b501460ef707763928a2164528db665fb84a76e9f4152cd813db7f9a4448b9ca",
+          "labels": [
+            "img_ui_monster_name_jpn_54"
+          ]
+        },
+        {
+          "object": "Boss_Name.Boss_024",
+          "tiled_sha256": "e592a531ce2cd357408dbeb6262e2c0b20a6b9a35d7f29d70c060d94563056b3",
+          "labels": [
+            "img_ui_monster_name_jpn_55"
+          ]
+        },
+        {
+          "object": "Boss_Name_Big.Boss_Ch11_Melissa",
+          "tiled_sha256": "6b7240fc4053ea0ce3ab7abf1a5819011ad433a15931d07d8f6cbbf2d5dfe8d7",
+          "labels": [
+            "img_ui_monster_name_jpn_68"
+          ]
+        },
+        {
+          "object": "Boss_Name_Big.Boss_Ch12_Alex",
+          "tiled_sha256": "cc3330a8fe5363628d0e10284d7babc49795257d8f6b54f6c8d7fd2d4f26c9f7",
+          "labels": [
+            "img_ui_monster_name_jpn_69"
+          ]
+        },
+        {
+          "object": "Boss_Name_Big.Boss_Ch6_CrazyJuto",
+          "tiled_sha256": "d6ba16b6977df1fd76b196f55dab04e79ab522c1cf2147a62bfbe6ef70b58cb0",
+          "labels": [
+            "img_ui_monster_name_jpn_72"
+          ]
+        },
+        {
+          "object": "Boss_Name_Big.Boss_Inferno",
+          "tiled_sha256": "7c6179c9fcf4849b37ce5434ef38848f294a0ccc98f631c2a5bd6b6056902b95",
+          "labels": [
+            "img_ui_monster_name_jpn_75"
+          ]
+        },
+        {
+          "object": "Boss_Name_Big.Boss_MadGolem",
+          "tiled_sha256": "155eb0710aac5b30d01f072bc2cafb54a262ffc0f401f4914c383e73d36a433d",
+          "labels": [
+            "img_ui_monster_name_jpn_76"
+          ]
+        },
+        {
+          "object": "Boss_Name_Big.Boss_SwampEel",
+          "tiled_sha256": "c0fbc3f5b999ac019c3e1b39a7dd4c286915263fd31c4f211671dadacf2377fd",
+          "labels": [
+            "img_ui_monster_name_jpn_77"
+          ]
+        },
+        {
+          "object": "Monster_Name.Mname_03",
+          "tiled_sha256": "0a614d69139ec03a2dd77cabfd9816d39d68889ceefe1ed66fec7020bcad4e30",
+          "labels": [
+            "img_ui_monster_name_jpn_80"
+          ]
+        },
+        {
+          "object": "Monster_Name.Mname_04",
+          "tiled_sha256": "3dceb382ab936527b5ef9ca92450e376cc5046ca0c1d553480d368e41b7c5525",
+          "labels": [
+            "img_ui_monster_name_jpn_81"
+          ]
+        },
+        {
+          "object": "Monster_Name.Mname_10",
+          "tiled_sha256": "d0626cf152b984048708607062d7f92aee6039638c17f7bb2cdc922a9e26357a",
+          "labels": [
+            "img_ui_monster_name_jpn_87"
+          ]
+        },
+        {
+          "object": "Monster_Name.Mname_11",
+          "tiled_sha256": "21f662e4f7c05da5034c334abaf3e1090d67edb7f38d1d75639c3392700d8d7f",
+          "labels": [
+            "img_ui_monster_name_jpn_88"
+          ]
+        },
+        {
+          "object": "Monster_Name.Mname_13",
+          "tiled_sha256": "915277c43a57766ffd5ac85d501f5e562d31b3fc23ee7011f1314617f2d6faa4",
+          "labels": [
+            "img_ui_monster_name_jpn_90"
+          ]
+        },
+        {
+          "object": "Monster_Name.Mname_21",
+          "tiled_sha256": "00f8ba5243ccb01b03b2224a75d83c17d809bda8e2decd4b82223ed7468ceac4",
+          "labels": [
+            "img_ui_monster_name_jpn_98"
+          ]
+        },
+        {
+          "object": "Monster_Name.Mname_22",
+          "tiled_sha256": "ff9b3976802aa7426fce19014de8e74c4c0ee0cb1ea5b1df73fad83a56d6aacc",
+          "labels": [
+            "img_ui_monster_name_jpn_99"
+          ]
+        },
+        {
+          "object": "Monster_Name.Mname_23",
+          "tiled_sha256": "158e93d946d0b2777b0f2887fff2421ae086d0ce981ce3e69228392f9e3406a6",
+          "labels": [
+            "img_ui_monster_name_jpn_100"
+          ]
+        },
+        {
+          "object": "Monster_Name.Mname_24",
+          "tiled_sha256": "9d20c3af23e76220852517ec64072ac4f364c28ce19b92e62c11663bc4192efe",
+          "labels": [
+            "img_ui_monster_name_jpn_101"
+          ]
+        },
+        {
+          "object": "Monster_Name.Mname_25",
+          "tiled_sha256": "800e4d6a5d658040b66892398b350e093a7f8bd701bf21b7c52d88c283c63f6c",
+          "labels": [
+            "img_ui_monster_name_jpn_102"
+          ]
+        },
+        {
+          "object": "Monster_Name.Mname_26",
+          "tiled_sha256": "001316af79164b14306bea1130fee0344fccd6215f75ad85e11f51c4bf658cae",
+          "labels": [
+            "img_ui_monster_name_jpn_103"
+          ]
+        },
+        {
+          "object": "Monster_Name.Mname_28",
+          "tiled_sha256": "6b97301e0b91f04a2a52985ad00e21a8d480cbb8f2b68e76671c4158d8c7e4e3",
+          "labels": [
+            "img_ui_monster_name_jpn_105"
+          ]
+        },
+        {
+          "object": "Monster_Name.Mname_31",
+          "tiled_sha256": "1831e37f5d92ba060aaec72d1924b392a81c36d54db958d946dfef392ea77f44",
+          "labels": [
+            "img_ui_monster_name_jpn_108"
+          ]
+        },
+        {
+          "object": "Monster_Name.Mname_33",
+          "tiled_sha256": "9d838451bd7468dfab85a062b0b19e362efb7848cf9621344e32ebe408fb6f83",
+          "labels": [
+            "img_ui_monster_name_jpn_110"
+          ]
+        },
+        {
+          "object": "Monster_Name.Mname_39",
+          "tiled_sha256": "38bee897e0b8646ecdd2bbb2ee038070cd3851ddaa55e29d98767eba2f4e48a7",
+          "labels": [
+            "img_ui_monster_name_jpn_115"
+          ]
+        },
+        {
+          "object": "Monster_Name.Mname_48",
+          "tiled_sha256": "283e307f5c577773c74de85177ac006e70e980993015a8ffa353fdc012161124",
+          "labels": [
+            "img_ui_monster_name_jpn_124"
+          ]
+        },
+        {
+          "object": "Monster_Name.Mname_50",
+          "tiled_sha256": "9c090a76fa9bbb10dcbfe729126599f5544ddd3e4c0d754c21515fcede3c4565",
+          "labels": [
+            "img_ui_monster_name_jpn_126"
+          ]
+        },
+        {
+          "object": "Monster_Name.Mname_52",
+          "tiled_sha256": "827f28d8ce4957d6c469d457041bb7039c857e4e0199db81b3080743937d7d23",
+          "labels": [
+            "img_ui_monster_name_jpn_129"
+          ]
+        },
+        {
+          "object": "Monster_Name.Mname_53",
+          "tiled_sha256": "b50d38146490d9653f9d283d756ca6cecd8d467a6cbb8c6a4fc319515e01c09e",
+          "labels": [
+            "img_ui_monster_name_jpn_130"
+          ]
+        },
+        {
+          "object": "Monster_Name.Mname_53ft",
+          "tiled_sha256": "7aae7f32c1a802f5e0b505cb39b3260f2e079de5829ef8689878fe6ffd8a9b87",
+          "labels": [
+            "img_ui_monster_name_jpn_131"
+          ]
+        },
+        {
+          "object": "Monster_Name.Mname_55",
+          "tiled_sha256": "70674ba2d7c0cb26c29e69a5182488b68367ae87326758ff35a00a61c3e7b5be",
+          "labels": [
+            "img_ui_monster_name_jpn_134"
+          ]
+        },
+        {
+          "object": "Monster_Name.Mname_56",
+          "tiled_sha256": "4c3678c0e0aec2267cf901aa35a5f7239daa28c612f1f50ccc2814a2ee90252a",
+          "labels": [
+            "img_ui_monster_name_jpn_135"
+          ]
+        },
+        {
+          "object": "Monster_Name.Mname_60",
+          "tiled_sha256": "1608a847a19fb0dd36fbe431a4aea6ec61e4318bf231214a6a8fe434130105fc",
+          "labels": [
+            "img_ui_monster_name_jpn_139"
+          ]
+        },
+        {
+          "object": "Monster_Name.Mname_66",
+          "tiled_sha256": "b07af1543aa9beac4318ce3cff88e829da0eb1bb99800ebadc4e22db0e56785f",
+          "labels": [
+            "img_ui_monster_name_jpn_145"
+          ]
+        },
+        {
+          "object": "Monster_Name.Mname_68",
+          "tiled_sha256": "86e7b7d094a0b1e6acff8a1219cbd2e961e36fd0b3dda3e9f492214095c863e5",
+          "labels": [
+            "img_ui_monster_name_jpn_147"
+          ]
+        },
+        {
+          "object": "North_Name.North_04",
+          "tiled_sha256": "ae9990ea4c6ee8a525a8b03b75a5a1d70cc75686f788cfbac01d6f072d4cf588",
+          "labels": [
+            "img_ui_monster_name_jpn_159"
+          ]
+        },
+        {
+          "object": "North_Name.North_05",
+          "tiled_sha256": "ae9990ea4c6ee8a525a8b03b75a5a1d70cc75686f788cfbac01d6f072d4cf588",
+          "labels": [
+            "img_ui_monster_name_jpn_160"
+          ]
+        },
+        {
+          "object": "North_Name.North_06",
+          "tiled_sha256": "ae9990ea4c6ee8a525a8b03b75a5a1d70cc75686f788cfbac01d6f072d4cf588",
+          "labels": [
+            "img_ui_monster_name_jpn_161"
+          ]
+        },
+        {
+          "object": "North_Name.North_10",
+          "tiled_sha256": "99307bd9922f693c63469714e69de734e67f7dd27a59de09d0f93d64fe8d5b5e",
+          "labels": [
+            "img_ui_monster_name_jpn_165"
+          ]
+        },
+        {
+          "object": "North_Name.North_11",
+          "tiled_sha256": "429a592274eddbf60b3115aa68bcc3502ce6774ccd3cdd652f61d2d2c53c9868",
+          "labels": [
+            "img_ui_monster_name_jpn_166"
+          ]
+        },
+        {
+          "object": "North_Name.North_17",
+          "tiled_sha256": "3c2aaf09c091e28de916e82da894c0fea3bdfcfee8784032a4a5a749b7918013",
+          "labels": [
+            "img_ui_monster_name_jpn_172"
+          ]
+        },
+        {
+          "object": "North_Name.North_23",
+          "tiled_sha256": "a5ee334259f41a0c628761d09c894401492e0159acd77ed8c4dbce9dea61f320",
+          "labels": [
+            "img_ui_monster_name_jpn_180"
+          ]
+        },
+        {
+          "object": "North_Name.North_28",
+          "tiled_sha256": "fd018c97e18e44de80ddc0f6e989f2123116af75bf3e36233eb4e4553d0d5477",
+          "labels": [
+            "img_ui_monster_name_jpn_184"
+          ]
+        },
+        {
+          "object": "Object_Name.Object_002",
+          "tiled_sha256": "bbb3cbad7f2822b1600e5586dd2755c48938b2efebca2eba19c1f605b457c6c2",
+          "labels": [
+            "img_ui_monster_name_jpn_193"
+          ]
+        },
+        {
+          "object": "Object_Name.Object_005",
+          "tiled_sha256": "0433898dc5466003ec82e83c9874ea37d4c3853b2f046156cbd7dec7ced88e21",
+          "labels": [
+            "img_ui_monster_name_jpn_196"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/UI_Name_Jpn.xxx",
+      "sha256": "1843628f99380cc636cf6717d5ed897f2b3e011bab89b73f03c17662d7ee8b1c",
+      "discs": [
+        1,
+        2
+      ],
+      "textures": [
+        {
+          "object": "Battle_Npc.Npc_02",
+          "tiled_sha256": "826bf54af1f59d6061dcc5cd69ede923b72886be6bf8cb931db3b4658313e6ca",
+          "labels": [
+            "img_ui_name_jpn_10"
+          ]
+        },
+        {
+          "object": "Monster_Name.BOSS_306",
+          "tiled_sha256": "5b60234a6e2f86227df157cea2970bbd834d9ac850ceb3d002dee7cff7fd251a",
+          "labels": [
+            "img_ui_name_jpn_34"
+          ]
+        },
+        {
+          "object": "Monster_Name.BOSS_308",
+          "tiled_sha256": "79f8e3486c3498ba84419af7dc347e2c9d3d74450a689304fe8df524076bc408",
+          "labels": [
+            "img_ui_name_jpn_36"
+          ]
+        },
+        {
+          "object": "Monster_Name.BOSS_310",
+          "tiled_sha256": "c55423af80ddd3f74e04e14466905434dd9566ce6927b36d2bc848a951c2feae",
+          "labels": [
+            "img_ui_name_jpn_38"
+          ]
+        },
+        {
+          "object": "Monster_Name.Boss_011_01",
+          "tiled_sha256": "87ec4f68cff63c0055f85156fa40e953b119ed8be8553ec37a4c00eddc82f661",
+          "labels": [
+            "img_ui_name_jpn_25"
+          ]
+        },
+        {
+          "object": "Monster_Name.Boss_011_02",
+          "tiled_sha256": "6ff0e2c63f8019608f7bc61ccbfe3c1cb6754b4887201b77de6767793fbfe137",
+          "labels": [
+            "img_ui_name_jpn_26"
+          ]
+        },
+        {
+          "object": "Monster_Name.Mname_03",
+          "tiled_sha256": "f1f7b1d031961a354078b13dd59e5aaedd0264b54d8afc6b6304c6bcc9dbae37",
+          "labels": [
+            "img_ui_name_jpn_42"
+          ]
+        },
+        {
+          "object": "Monster_Name.Mname_04",
+          "tiled_sha256": "50bc01f32ca7fbd72190d513cadb555340672c47f7f03069054bd12ad56fa3b9",
+          "labels": [
+            "img_ui_name_jpn_43"
+          ]
+        },
+        {
+          "object": "Monster_Name.Mname_10",
+          "tiled_sha256": "0eabbc5054c93289edde410f266bd1f6929ca8fbe1b3c146b7b849487b463cc0",
+          "labels": [
+            "img_ui_name_jpn_49"
+          ]
+        },
+        {
+          "object": "Monster_Name.Mname_13",
+          "tiled_sha256": "9cdbabc22ed3ca2759d907dff0512a01136613a0fc49d64a992e41fe71c339d0",
+          "labels": [
+            "img_ui_name_jpn_52"
+          ]
+        },
+        {
+          "object": "Monster_Name.Mname_21",
+          "tiled_sha256": "34777560418713ba3073db5e385019e707a95f555978a41eff37d3b9fd802055",
+          "labels": [
+            "img_ui_name_jpn_60"
+          ]
+        },
+        {
+          "object": "Monster_Name.Mname_22",
+          "tiled_sha256": "3fc7fbecedadd77e6533108c5677b2a16f1292ff1fc14faa8eff9592f5a504be",
+          "labels": [
+            "img_ui_name_jpn_61"
+          ]
+        },
+        {
+          "object": "Monster_Name.Mname_23",
+          "tiled_sha256": "6442cd5fe904df023934993865ecabe643c5d9ea8045f0d10096e7ec312c2c24",
+          "labels": [
+            "img_ui_name_jpn_62"
+          ]
+        },
+        {
+          "object": "Monster_Name.Mname_24",
+          "tiled_sha256": "d393d6f107e0019b9b9e147bc40291f03c1c24c15e6809c604345529347eb344",
+          "labels": [
+            "img_ui_name_jpn_63"
+          ]
+        },
+        {
+          "object": "Monster_Name.Mname_25",
+          "tiled_sha256": "156b575c15caaf3e2440a2e68b14dfdc44ae5f0e683a0b90b55605952946cba1",
+          "labels": [
+            "img_ui_name_jpn_64"
+          ]
+        },
+        {
+          "object": "Monster_Name.Mname_26",
+          "tiled_sha256": "aad2bb3e6e240bd8d42704647f3fae2c9bc265144b60b7523060cb6b5e9fd09e",
+          "labels": [
+            "img_ui_name_jpn_65"
+          ]
+        },
+        {
+          "object": "Monster_Name.Mname_28",
+          "tiled_sha256": "a8c086230a1a274fcab280119959caf6be95ea3850298dd8a4bbae0adc72149a",
+          "labels": [
+            "img_ui_name_jpn_67"
+          ]
+        },
+        {
+          "object": "Monster_Name.Mname_29",
+          "tiled_sha256": "71c36060ce64ee6c39b5bea7c204023cd4d7052bec9d9151a27d9bd4db09a780",
+          "labels": [
+            "img_ui_name_jpn_68"
+          ]
+        },
+        {
+          "object": "Monster_Name.Mname_31",
+          "tiled_sha256": "e655ba84c829b31355b851195108de4a6a154ac2962f5322b4bf32253cc9f0f9",
+          "labels": [
+            "img_ui_name_jpn_70"
+          ]
+        },
+        {
+          "object": "Monster_Name.Mname_33",
+          "tiled_sha256": "ab4fe76257bcac890bb0b93af49a1f0435455ba300742796298f8718c2c2f803",
+          "labels": [
+            "img_ui_name_jpn_72"
+          ]
+        },
+        {
+          "object": "Monster_Name.Mname_48",
+          "tiled_sha256": "2550097c0e13563f79891c81795bccb3a4049bd35a450287d09c7e5cd14d29f2",
+          "labels": [
+            "img_ui_name_jpn_86"
+          ]
+        },
+        {
+          "object": "Monster_Name.Mname_51",
+          "tiled_sha256": "3b2e2b4eaded8c9631a8e9671a3fd39688b47479f05a1bdd1d5b98078e7392a3",
+          "labels": [
+            "img_ui_name_jpn_89"
+          ]
+        },
+        {
+          "object": "Monster_Name.Mname_52",
+          "tiled_sha256": "60fd8b1c480a67adad22b646c1e5fa47665bb314eddea28d285c61d1f1050f89",
+          "labels": [
+            "img_ui_name_jpn_90"
+          ]
+        },
+        {
+          "object": "Monster_Name.Mname_53",
+          "tiled_sha256": "fb00cd71b196e8a65cb6696a1ca78e364996f7a72e5b383f3ff2042bca89c392",
+          "labels": [
+            "img_ui_name_jpn_91"
+          ]
+        },
+        {
+          "object": "Monster_Name.Mname_55",
+          "tiled_sha256": "d2f1b57374b62588fd4edd3306e1f3db9de36ac68f7cc75c306086c2c340e4b3",
+          "labels": [
+            "img_ui_name_jpn_93"
+          ]
+        },
+        {
+          "object": "Monster_Name.Mname_56",
+          "tiled_sha256": "71b320ea15cf5b3677592ef55c97fbc47be7275c8a160263b7279c1f59cb9abe",
+          "labels": [
+            "img_ui_name_jpn_94"
+          ]
+        },
+        {
+          "object": "Monster_Name.Mname_57",
+          "tiled_sha256": "0e3456855633bc44a3741f554565cc099cf18f96eec5bfd10fdf54d7d2f51f82",
+          "labels": [
+            "img_ui_name_jpn_95"
+          ]
+        },
+        {
+          "object": "Monster_Name.Mname_59",
+          "tiled_sha256": "b3e2212a1c2eeca5cec2221f79e071f00baf81d5d8fdd911ac91206de4701393",
+          "labels": [
+            "img_ui_name_jpn_97"
+          ]
+        },
+        {
+          "object": "Monster_Name.Mname_61",
+          "tiled_sha256": "fa5dce624e0b6fd85260e0aa350eca92dda222adabed1a83e1b23d2a7230102e",
+          "labels": [
+            "img_ui_name_jpn_99"
+          ]
+        },
+        {
+          "object": "Monster_Name.North_103",
+          "tiled_sha256": "b599036bed35025975f992392f041fd3eeadbce109d7f48a432611e5deac8f8c",
+          "labels": [
+            "img_ui_name_jpn_109"
+          ]
+        },
+        {
+          "object": "Monster_Name.North_107",
+          "tiled_sha256": "99307bd9922f693c63469714e69de734e67f7dd27a59de09d0f93d64fe8d5b5e",
+          "labels": [
+            "img_ui_name_jpn_111"
+          ]
+        },
+        {
+          "object": "Monster_Name.North_111",
+          "tiled_sha256": "3cc036e8803c3e24110e219b90f4087f35e5f2f6dad3411d0d06a1744bcab1a2",
+          "labels": [
+            "img_ui_name_jpn_113"
+          ]
+        },
+        {
+          "object": "Monster_Name.North_17",
+          "tiled_sha256": "3c2aaf09c091e28de916e82da894c0fea3bdfcfee8784032a4a5a749b7918013",
+          "labels": [
+            "img_ui_name_jpn_114"
+          ]
+        },
+        {
+          "object": "Monster_Name.Object_002",
+          "tiled_sha256": "bbb3cbad7f2822b1600e5586dd2755c48938b2efebca2eba19c1f605b457c6c2",
+          "labels": [
+            "img_ui_name_jpn_118"
+          ]
+        },
+        {
+          "object": "Monster_Name.Object_401",
+          "tiled_sha256": "bbb3cbad7f2822b1600e5586dd2755c48938b2efebca2eba19c1f605b457c6c2",
+          "labels": [
+            "img_ui_name_jpn_121"
+          ]
+        },
+        {
+          "object": "Monster_Name.Object_402",
+          "tiled_sha256": "bbb3cbad7f2822b1600e5586dd2755c48938b2efebca2eba19c1f605b457c6c2",
+          "labels": [
+            "img_ui_name_jpn_122"
+          ]
+        },
+        {
+          "object": "Monster_Name.South_500",
+          "tiled_sha256": "a5ee334259f41a0c628761d09c894401492e0159acd77ed8c4dbce9dea61f320",
+          "labels": [
+            "img_ui_name_jpn_133"
+          ]
+        },
+        {
+          "object": "Pillar.Piller_Menu_Title",
+          "tiled_sha256": "4357af0ad45b0fd531d1b21c1a30dbf62a93816dce115e747ce3af7bd89bf3d3",
+          "labels": [
+            "img_ui_name_jpn_136_0",
+            "img_ui_name_jpn_136_1",
+            "img_ui_name_jpn_136_2",
+            "img_ui_name_jpn_136_3",
+            "img_ui_name_jpn_136_4",
+            "img_ui_name_jpn_136_5"
+          ]
+        },
+        {
+          "object": "Style_Title_Name.Ru_Skill_Sub0",
+          "tiled_sha256": "51ba69d386c9bf624175ce79e1ad03490b8166bd28e16beab252236e906780c8",
+          "labels": [
+            "img_ui_name_jpn_146_0"
+          ]
+        },
+        {
+          "object": "Tex.Common_State_Tex",
+          "tiled_sha256": "5ce9946ca6f4faf268db31f7306112a3e6372cadbfdb9e2940a171b71fb539b8",
+          "labels": [
+            "img_ui_name_jpn_157_5"
+          ]
+        },
+        {
+          "object": "Tex.Field_Common",
+          "tiled_sha256": "34f156e818c4625596fdf69ddbd05ae0aeb92ccf110a5ffae869063d628309da",
+          "labels": [
+            "img_ui_name_jpn_158_1"
+          ]
+        },
+        {
+          "object": "Tex.Field_MainMenu_Info_Button_Normal",
+          "tiled_sha256": "a67b3c2c6a655bee25c16afb819fc492fce2855f5eaa42d063dd7b86651b6e40",
+          "labels": [
+            "img_ui_name_jpn_164_1",
+            "img_ui_name_jpn_164_2"
+          ]
+        },
+        {
+          "object": "Tex.Field_MainMenu_Info_Title",
+          "tiled_sha256": "a571aa576ce8cfb3e4f624641230fafd73792643104205ca904f67011c7ec76c",
+          "labels": [
+            "img_ui_name_jpn_165_0"
+          ]
+        },
+        {
+          "object": "Tex.Field_MainMenu_Item_Button_Normal",
+          "tiled_sha256": "ce1938eec14594ad56a572306ff11936d0b715d001b0fd6409a74f1601515fb3",
+          "labels": [
+            "img_ui_name_jpn_167_4"
+          ]
+        },
+        {
+          "object": "Tex.Field_MainMenu_button_normal",
+          "tiled_sha256": "0ed1d70888b71dd8b662433e13f777248d9d6432e56c4258d5b4465165d8a8b7",
+          "labels": [
+            "img_ui_name_jpn_162_2"
+          ]
+        },
+        {
+          "object": "Tex.Field_Option",
+          "tiled_sha256": "f66ac3d384e5b93c3869045f705b21b46557396f3de8488d238ed402eb9d32c1",
+          "labels": [
+            "img_ui_name_jpn_169_7"
+          ]
+        },
+        {
+          "object": "Tex.LevelUP_Tex",
+          "tiled_sha256": "23db74c75442054267480588409c247d87987385deaa3f7a986d2c763bc6dfa8",
+          "labels": [
+            "img_ui_name_jpn_172_0"
+          ]
+        },
+        {
+          "object": "Tex.Name",
+          "tiled_sha256": "0024332f950987ec602f747a9f65b5d3ff7069a8d4e70e7fa70e77e7680d4612",
+          "labels": [
+            "img_ui_name_jpn_174_4"
+          ]
+        },
+        {
+          "object": "Tex.Name0",
+          "tiled_sha256": "f86d4f8a7b5857301f12821ca658a22bafe2541fb9635889a61f058574758bce",
+          "labels": [
+            "img_ui_name_jpn_175_3",
+            "img_ui_name_jpn_175_4"
+          ]
+        },
+        {
+          "object": "Tex.QuickMenu_MenuButton_Normal",
+          "tiled_sha256": "f19226d3f02f1133660af01d84159d13d71b4c2a1f82960e96578d88e5d05f34",
+          "labels": [
+            "img_ui_name_jpn_184_0"
+          ]
+        },
+        {
+          "object": "Tex.StoreMenu_0",
+          "tiled_sha256": "e33c1b564ac5f8641f2136186caabba0b8d6095cf0df6cce380277ebb18e03a1",
+          "labels": [
+            "img_ui_name_jpn_190_1",
+            "img_ui_name_jpn_190_2"
+          ]
+        },
+        {
+          "object": "Tex.Store_Kamond_Meun_normal",
+          "tiled_sha256": "d83c65e5533ef2049de9c81f5f41058b9f2aa05738e4daf96f0faf04de5c0b90",
+          "labels": [
+            "img_ui_name_jpn_187_1"
+          ]
+        },
+        {
+          "object": "Tex.Store_tex_01",
+          "tiled_sha256": "6264eadbce4139242ba0d291d617094db9589332672152595c64859b84117545",
+          "labels": [
+            "img_ui_name_jpn_188_0",
+            "img_ui_name_jpn_188_14",
+            "img_ui_name_jpn_188_15",
+            "img_ui_name_jpn_188_3",
+            "img_ui_name_jpn_188_4",
+            "img_ui_name_jpn_188_7",
+            "img_ui_name_jpn_188_9"
+          ]
+        },
+        {
+          "object": "Tex.Store_tex_02",
+          "tiled_sha256": "22ca2d69d729d26e8c7f23f45079af1b088dd02c595522be09dfd4def9f82498",
+          "labels": [
+            "img_ui_name_jpn_189_1"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/UI_Pillar.xxx",
+      "sha256": "421134b27ea6bb5ffd1e1b01c0ca2125e569c6cde175f13ffa33724694d725e3",
+      "discs": [
+        1,
+        2
+      ],
+      "textures": [
+        {
+          "object": "UI_Name_Jpn.Pillar.Piller_Menu_Title",
+          "tiled_sha256": "4357af0ad45b0fd531d1b21c1a30dbf62a93816dce115e747ce3af7bd89bf3d3",
+          "labels": [
+            "img_ui_name_jpn_136_0",
+            "img_ui_name_jpn_136_1",
+            "img_ui_name_jpn_136_2",
+            "img_ui_name_jpn_136_3",
+            "img_ui_name_jpn_136_4",
+            "img_ui_name_jpn_136_5"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/UI_Title.xxx",
+      "sha256": "07c690b34245ef7cd1dfd2ed1444fdb1c2524d20d0cb7c0884c7d4a41bb2fe18",
+      "discs": [
+        1,
+        2
+      ],
+      "textures": [
+        {
+          "object": "BOSS.Boss_Ch4_Vekas",
+          "tiled_sha256": "c40f665459b9934894378247fd831a808b6d5f6bcecbdc3cab6e47dca6d23ea0",
+          "labels": [
+            "ui_boss_ch4_vekas"
+          ]
+        },
+        {
+          "object": "BOSS.Boss_Ch5_Zebasa",
+          "tiled_sha256": "bb0c20046a0e202a8017b739410ccae2edb21aefaaf87622bab1c984dac8ee00",
+          "labels": [
+            "ui_boss_ch5_zebasa"
+          ]
+        },
+        {
+          "object": "BOSS.Boss_Sion",
+          "tiled_sha256": "4f672e494f679a60ee84a4ac7743e0aecbe2052b53e3e3ce5c19763eec7b215b",
+          "labels": [
+            "ui_boss_sion"
+          ]
+        },
+        {
+          "object": "Chapter01.ch01_03_cave",
+          "tiled_sha256": "797f10d9b635d108fdda5ed27befa2778c7098f75a7f3c5f97c08b4e30ad14a8",
+          "labels": [
+            "ch01_03_cave"
+          ]
+        },
+        {
+          "object": "Chapter02.ch02_12_Wail_wall",
+          "tiled_sha256": "48f6b448b9c5dc3929cc1c5782312ccfdbfb8ff2b942823e97defe90b2a01fcc",
+          "labels": [
+            "ch02_12_Wail_wall"
+          ]
+        },
+        {
+          "object": "Chapter02.ch02_HeathOfSilence",
+          "tiled_sha256": "423c8d6038a7d253185264f0d4a28b2d09f4b546bb4c7319ca49cf8e0f19d626",
+          "labels": [
+            "ch02_HeathOfSilence"
+          ]
+        },
+        {
+          "object": "Chapter03.Ch03_Tomb",
+          "tiled_sha256": "752735d0095a3304e024f107dd5da53b59bd8e200a874c215fb4208a51712f91",
+          "labels": [
+            "Ch03_Tomb"
+          ]
+        },
+        {
+          "object": "Chapter03.Ch03_Undersea",
+          "tiled_sha256": "a9efec529e37077b85da0fcde6546dd2debbf62efb1eace34b7b200b46b89588",
+          "labels": [
+            "Ch03_Undersea"
+          ]
+        },
+        {
+          "object": "Chapter06.Ch06_Lanoara",
+          "tiled_sha256": "bd4a99ddd389229a17f85d5138e06d9f36b564c8db6f5983c8b13165b689198c",
+          "labels": [
+            "Ch06_Lanoara"
+          ]
+        },
+        {
+          "object": "Chapter12.Map_LaStrada",
+          "tiled_sha256": "2aa1ad60062d180103bc1026a29e5e5139bf52ff483962d37be9635a73743c43",
+          "labels": [
+            "Map_LaStrada"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/UI_Title_Jpn.xxx",
+      "sha256": "5b19c53d4b9f7e87829d45d3160d663dd1094c036c1486c2fbe354e0ba114faf",
+      "discs": [
+        1,
+        2
+      ],
+      "textures": [
+        {
+          "object": "BOSS.Boss_Ch4_Vekas",
+          "tiled_sha256": "c40f665459b9934894378247fd831a808b6d5f6bcecbdc3cab6e47dca6d23ea0",
+          "labels": [
+            "ui_boss_ch4_vekas"
+          ]
+        },
+        {
+          "object": "BOSS.Boss_Ch5_Zebasa",
+          "tiled_sha256": "bb0c20046a0e202a8017b739410ccae2edb21aefaaf87622bab1c984dac8ee00",
+          "labels": [
+            "ui_boss_ch5_zebasa"
+          ]
+        },
+        {
+          "object": "BOSS.Boss_Sion",
+          "tiled_sha256": "4f672e494f679a60ee84a4ac7743e0aecbe2052b53e3e3ce5c19763eec7b215b",
+          "labels": [
+            "ui_boss_sion"
+          ]
+        },
+        {
+          "object": "Chapter01.ch01_03_cave",
+          "tiled_sha256": "797f10d9b635d108fdda5ed27befa2778c7098f75a7f3c5f97c08b4e30ad14a8",
+          "labels": [
+            "ch01_03_cave"
+          ]
+        },
+        {
+          "object": "Chapter02.ch02_12_Wail_wall",
+          "tiled_sha256": "48f6b448b9c5dc3929cc1c5782312ccfdbfb8ff2b942823e97defe90b2a01fcc",
+          "labels": [
+            "ch02_12_Wail_wall"
+          ]
+        },
+        {
+          "object": "Chapter02.ch02_HeathOfSilence",
+          "tiled_sha256": "423c8d6038a7d253185264f0d4a28b2d09f4b546bb4c7319ca49cf8e0f19d626",
+          "labels": [
+            "ch02_HeathOfSilence"
+          ]
+        },
+        {
+          "object": "Chapter03.Ch03_Tomb",
+          "tiled_sha256": "752735d0095a3304e024f107dd5da53b59bd8e200a874c215fb4208a51712f91",
+          "labels": [
+            "Ch03_Tomb"
+          ]
+        },
+        {
+          "object": "Chapter03.Ch03_Undersea",
+          "tiled_sha256": "a9efec529e37077b85da0fcde6546dd2debbf62efb1eace34b7b200b46b89588",
+          "labels": [
+            "Ch03_Undersea"
+          ]
+        },
+        {
+          "object": "Chapter06.Ch06_Lanoara",
+          "tiled_sha256": "bd4a99ddd389229a17f85d5138e06d9f36b564c8db6f5983c8b13165b689198c",
+          "labels": [
+            "Ch06_Lanoara"
+          ]
+        },
+        {
+          "object": "Chapter12.Map_LaStrada",
+          "tiled_sha256": "2aa1ad60062d180103bc1026a29e5e5139bf52ff483962d37be9635a73743c43",
+          "labels": [
+            "Map_LaStrada"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/UI_WorldMap.xxx",
+      "sha256": "675ad204b6178abac1593e2fcc1815c3962ba495cec4a66d3af4a7fb9c409dcd",
+      "discs": [
+        1,
+        2
+      ],
+      "textures": [
+        {
+          "object": "Textures.WorldMap_Tex",
+          "tiled_sha256": "b83c762a61db063661eb6834633cb50c7bac8e8e5d8e9fecea3b32cd67d28266",
+          "labels": [
+            "world_map_header_title"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/Ucave_Comp03_01.xxx",
+      "sha256": "815f6c9d83a4e1102c271a264b2ac535223893e848a76234dc728ee0eb308b83",
+      "discs": [
+        1,
+        2
+      ],
+      "textures": [
+        {
+          "object": "UI_title.Chapter03.Ch03_Undersea",
+          "tiled_sha256": "a9efec529e37077b85da0fcde6546dd2debbf62efb1eace34b7b200b46b89588",
+          "labels": [
+            "Ch03_Undersea"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/Ucave_Mon_02gate_E.xxx",
+      "sha256": "f3a7fbca83251aaa24530b789dca52efd60c0e2d746cbbd12d67f9c141e87958",
+      "discs": [
+        1,
+        2
+      ],
+      "textures": [
+        {
+          "object": "UI_Name_Jpn.Monster_Name.South_500",
+          "tiled_sha256": "a5ee334259f41a0c628761d09c894401492e0159acd77ed8c4dbce9dea61f320",
+          "labels": [
+            "img_ui_name_jpn_133"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/Ucave_Mon_05gate_J.xxx",
+      "sha256": "558885c01df360b7a38cdcab6affb9805c75c362fd7d0e1f8c8b89d269f7c332",
+      "discs": [
+        1,
+        2
+      ],
+      "textures": [
+        {
+          "object": "UI_Monster_Name_Jpn.Boss_Name.Boss_022",
+          "tiled_sha256": "f2c5b499a6b12c9e386b58ec38fc5c555790d2111806d0eab5362b047dfd4abc",
+          "labels": [
+            "img_ui_monster_name_jpn_53"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/Velfort_Mon_Crocell.xxx",
+      "sha256": "37c414c63d59570f180102266f4601b5dd4f0bfd38b043ad6da2882c98667554",
+      "discs": [
+        2
+      ],
+      "textures": [
+        {
+          "object": "UI_Monster_Name_Jpn.North_Name.North_28",
+          "tiled_sha256": "fd018c97e18e44de80ddc0f6e989f2123116af75bf3e36233eb4e4553d0d5477",
+          "labels": [
+            "img_ui_monster_name_jpn_184"
+          ]
+        },
+        {
+          "object": "UI_Name_Jpn.Monster_Name.North_107",
+          "tiled_sha256": "99307bd9922f693c63469714e69de734e67f7dd27a59de09d0f93d64fe8d5b5e",
+          "labels": [
+            "img_ui_name_jpn_111"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/Velfort_Mon_Enter_S.xxx",
+      "sha256": "aae5bb2ae28cdc4d301cf0d816dabb1875e0d877a8514f80e30375ac6618229b",
+      "discs": [
+        2
+      ],
+      "textures": [
+        {
+          "object": "UI_Monster_Name_Jpn.North_Name.North_06",
+          "tiled_sha256": "ae9990ea4c6ee8a525a8b03b75a5a1d70cc75686f788cfbac01d6f072d4cf588",
+          "labels": [
+            "img_ui_monster_name_jpn_161"
+          ]
+        },
+        {
+          "object": "UI_Monster_Name_Jpn.Object_Name.Object_005",
+          "tiled_sha256": "0433898dc5466003ec82e83c9874ea37d4c3853b2f046156cbd7dec7ced88e21",
+          "labels": [
+            "img_ui_monster_name_jpn_196"
+          ]
+        },
+        {
+          "object": "UI_Name_Jpn.Monster_Name.North_107",
+          "tiled_sha256": "99307bd9922f693c63469714e69de734e67f7dd27a59de09d0f93d64fe8d5b5e",
+          "labels": [
+            "img_ui_name_jpn_111"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/Velfort_Mon_Far_S.xxx",
+      "sha256": "db59a42e2bea3e182f49b11c609cdf5fdc6ddab9f205cd476dc8057de91726b3",
+      "discs": [
+        2
+      ],
+      "textures": [
+        {
+          "object": "UI_Monster_Name_Jpn.North_Name.North_06",
+          "tiled_sha256": "ae9990ea4c6ee8a525a8b03b75a5a1d70cc75686f788cfbac01d6f072d4cf588",
+          "labels": [
+            "img_ui_monster_name_jpn_161"
+          ]
+        },
+        {
+          "object": "UI_Monster_Name_Jpn.Object_Name.Object_005",
+          "tiled_sha256": "0433898dc5466003ec82e83c9874ea37d4c3853b2f046156cbd7dec7ced88e21",
+          "labels": [
+            "img_ui_monster_name_jpn_196"
+          ]
+        },
+        {
+          "object": "UI_Name_Jpn.Monster_Name.North_103",
+          "tiled_sha256": "b599036bed35025975f992392f041fd3eeadbce109d7f48a432611e5deac8f8c",
+          "labels": [
+            "img_ui_name_jpn_109"
+          ]
+        },
+        {
+          "object": "UI_Name_Jpn.Monster_Name.North_107",
+          "tiled_sha256": "99307bd9922f693c63469714e69de734e67f7dd27a59de09d0f93d64fe8d5b5e",
+          "labels": [
+            "img_ui_name_jpn_111"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/Velfort_Mon_Fountain_S.xxx",
+      "sha256": "0a73eb11ce54cdb285220e4292855ffa9f55241ea5f7bc8df2ae2ce4667778d9",
+      "discs": [
+        2
+      ],
+      "textures": [
+        {
+          "object": "UI_Monster_Name_Jpn.North_Name.North_06",
+          "tiled_sha256": "ae9990ea4c6ee8a525a8b03b75a5a1d70cc75686f788cfbac01d6f072d4cf588",
+          "labels": [
+            "img_ui_monster_name_jpn_161"
+          ]
+        },
+        {
+          "object": "UI_Monster_Name_Jpn.Object_Name.Object_005",
+          "tiled_sha256": "0433898dc5466003ec82e83c9874ea37d4c3853b2f046156cbd7dec7ced88e21",
+          "labels": [
+            "img_ui_monster_name_jpn_196"
+          ]
+        },
+        {
+          "object": "UI_Name_Jpn.Monster_Name.North_103",
+          "tiled_sha256": "b599036bed35025975f992392f041fd3eeadbce109d7f48a432611e5deac8f8c",
+          "labels": [
+            "img_ui_name_jpn_109"
+          ]
+        },
+        {
+          "object": "UI_Name_Jpn.Monster_Name.North_107",
+          "tiled_sha256": "99307bd9922f693c63469714e69de734e67f7dd27a59de09d0f93d64fe8d5b5e",
+          "labels": [
+            "img_ui_name_jpn_111"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/Velfort_Mon_Hideout_Q.xxx",
+      "sha256": "9b015ad08b12f60a87f6e90d5d00fac4db36757dbf424715bd8ea53fb5a3594c",
+      "discs": [
+        2
+      ],
+      "textures": [
+        {
+          "object": "UI_Name_Jpn.Monster_Name.North_107",
+          "tiled_sha256": "99307bd9922f693c63469714e69de734e67f7dd27a59de09d0f93d64fe8d5b5e",
+          "labels": [
+            "img_ui_name_jpn_111"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/Velfort_Mon_Hideout_S.xxx",
+      "sha256": "0ebed8bd150c35ee066f8e2c9fb203f39b4c8c8fb5cf80ae58fdba56f5eda4af",
+      "discs": [
+        2
+      ],
+      "textures": [
+        {
+          "object": "UI_Name_Jpn.Monster_Name.North_103",
+          "tiled_sha256": "b599036bed35025975f992392f041fd3eeadbce109d7f48a432611e5deac8f8c",
+          "labels": [
+            "img_ui_name_jpn_109"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/Velfort_Mon_Square_S.xxx",
+      "sha256": "ed68b30e82f41a8b8dead58fcb80d7132b22ab77f6783b39573a030bbae9bb1b",
+      "discs": [
+        2
+      ],
+      "textures": [
+        {
+          "object": "UI_Monster_Name_Jpn.North_Name.North_06",
+          "tiled_sha256": "ae9990ea4c6ee8a525a8b03b75a5a1d70cc75686f788cfbac01d6f072d4cf588",
+          "labels": [
+            "img_ui_monster_name_jpn_161"
+          ]
+        },
+        {
+          "object": "UI_Name_Jpn.Monster_Name.North_103",
+          "tiled_sha256": "b599036bed35025975f992392f041fd3eeadbce109d7f48a432611e5deac8f8c",
+          "labels": [
+            "img_ui_name_jpn_109"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/Velfort_Mon_Stairway.xxx",
+      "sha256": "d4cfae440534650faa2b8691de7552bf626f85e04f6dfe21deba4523950f8f6f",
+      "discs": [
+        2
+      ],
+      "textures": [
+        {
+          "object": "UI_Monster_Name_Jpn.North_Name.North_28",
+          "tiled_sha256": "fd018c97e18e44de80ddc0f6e989f2123116af75bf3e36233eb4e4553d0d5477",
+          "labels": [
+            "img_ui_monster_name_jpn_184"
+          ]
+        },
+        {
+          "object": "UI_Name_Jpn.Monster_Name.North_107",
+          "tiled_sha256": "99307bd9922f693c63469714e69de734e67f7dd27a59de09d0f93d64fe8d5b5e",
+          "labels": [
+            "img_ui_name_jpn_111"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/Velfort_Mon_Stairway_S.xxx",
+      "sha256": "7955f9ee6f616e86990112747cd48c0720a39f89d7bcc3d106672c5ce810d1ff",
+      "discs": [
+        2
+      ],
+      "textures": [
+        {
+          "object": "UI_Monster_Name_Jpn.North_Name.North_06",
+          "tiled_sha256": "ae9990ea4c6ee8a525a8b03b75a5a1d70cc75686f788cfbac01d6f072d4cf588",
+          "labels": [
+            "img_ui_monster_name_jpn_161"
+          ]
+        },
+        {
+          "object": "UI_Monster_Name_Jpn.Object_Name.Object_005",
+          "tiled_sha256": "0433898dc5466003ec82e83c9874ea37d4c3853b2f046156cbd7dec7ced88e21",
+          "labels": [
+            "img_ui_monster_name_jpn_196"
+          ]
+        },
+        {
+          "object": "UI_Name_Jpn.Monster_Name.North_103",
+          "tiled_sha256": "b599036bed35025975f992392f041fd3eeadbce109d7f48a432611e5deac8f8c",
+          "labels": [
+            "img_ui_name_jpn_109"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/Velfort_Mon_Street1.xxx",
+      "sha256": "b8bfccc6f205aa8ed444e42a703df517bd57be77d92fb482f32429049c45cc41",
+      "discs": [
+        2
+      ],
+      "textures": [
+        {
+          "object": "UI_Monster_Name_Jpn.North_Name.North_28",
+          "tiled_sha256": "fd018c97e18e44de80ddc0f6e989f2123116af75bf3e36233eb4e4553d0d5477",
+          "labels": [
+            "img_ui_monster_name_jpn_184"
+          ]
+        },
+        {
+          "object": "UI_Name_Jpn.Monster_Name.North_107",
+          "tiled_sha256": "99307bd9922f693c63469714e69de734e67f7dd27a59de09d0f93d64fe8d5b5e",
+          "labels": [
+            "img_ui_name_jpn_111"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/Velfort_Mon_Street1_S.xxx",
+      "sha256": "e3414b23e2a0a17057ee1a5e8facaf332ca8bd1ffc9ed63ef837c4e91ab48dfc",
+      "discs": [
+        2
+      ],
+      "textures": [
+        {
+          "object": "UI_Name_Jpn.Monster_Name.North_103",
+          "tiled_sha256": "b599036bed35025975f992392f041fd3eeadbce109d7f48a432611e5deac8f8c",
+          "labels": [
+            "img_ui_name_jpn_109"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/Velfort_Mon_Street3_S.xxx",
+      "sha256": "b060ae9004b693d917f6aac2bc0d8293d01a9f57b7cdc7b18da2aa9574bd08c1",
+      "discs": [
+        2
+      ],
+      "textures": [
+        {
+          "object": "UI_Name_Jpn.Monster_Name.North_107",
+          "tiled_sha256": "99307bd9922f693c63469714e69de734e67f7dd27a59de09d0f93d64fe8d5b5e",
+          "labels": [
+            "img_ui_name_jpn_111"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/Velfort_Quest_malacia.xxx",
+      "sha256": "fb72372ed447adae882539a4c59349a21ff7897677c5dbfa0a968c9d84831c37",
+      "discs": [
+        2
+      ],
+      "textures": [
+        {
+          "object": "UI_Monster_Name_Jpn.Battle_Npc.Npc_05",
+          "tiled_sha256": "d288130ae97571227ef09bae82dca0ee0002289b9a57a74e6066f0963e2b9913",
+          "labels": [
+            "img_ui_monster_name_jpn_13"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/Velfort_Quest_malacia2.xxx",
+      "sha256": "a61b9fdd841fd3f82d7abf3d1c97fa774cf9269eb1ff1de8fde238491f339232",
+      "discs": [
+        2
+      ],
+      "textures": [
+        {
+          "object": "UI_Monster_Name_Jpn.Battle_Npc.Npc_05",
+          "tiled_sha256": "d288130ae97571227ef09bae82dca0ee0002289b9a57a74e6066f0963e2b9913",
+          "labels": [
+            "img_ui_monster_name_jpn_13"
+          ]
+        },
+        {
+          "object": "UI_Monster_Name_Jpn.North_Name.North_06",
+          "tiled_sha256": "ae9990ea4c6ee8a525a8b03b75a5a1d70cc75686f788cfbac01d6f072d4cf588",
+          "labels": [
+            "img_ui_monster_name_jpn_161"
+          ]
+        },
+        {
+          "object": "UI_Name_Jpn.Monster_Name.North_103",
+          "tiled_sha256": "b599036bed35025975f992392f041fd3eeadbce109d7f48a432611e5deac8f8c",
+          "labels": [
+            "img_ui_name_jpn_109"
+          ]
+        },
+        {
+          "object": "UI_Name_Jpn.Monster_Name.North_107",
+          "tiled_sha256": "99307bd9922f693c63469714e69de734e67f7dd27a59de09d0f93d64fe8d5b5e",
+          "labels": [
+            "img_ui_name_jpn_111"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/Zephi_Yupa1_A_0209.xxx",
+      "sha256": "c04e00322e338d17be2ff814bca654178e5ecf95e537cf689ae0f7e999487da0",
+      "discs": [
+        1,
+        2
+      ],
+      "textures": [
+        {
+          "object": "SkillName_Jpn.Zephie.Skill_Zephie_Main_02",
+          "tiled_sha256": "59ec94ef2ebfd53dc05d308e057ad623c0c30377c29b90a3b11b8f79344e6700",
+          "labels": [
+            "runtime_skill_108"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/Zephi_Yupa2_S_0241.xxx",
+      "sha256": "ac2e9ec6127c1b3fd38f39236f3a257e09e6c0807e3b2f3e656b5ca677bc9d35",
+      "discs": [
+        1,
+        2
+      ],
+      "textures": [
+        {
+          "object": "SkillName_Jpn.Zephie.Skill_Zephie_Sub_08",
+          "tiled_sha256": "f87659104d5a0b2649e8ab4272c7827fb0a232d2763f8c3ffc1d29a897cee4f9",
+          "labels": [
+            "runtime_skill_126"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/abazet_Quest_GiantMoss.xxx",
+      "sha256": "28355b3ef944b384415ee3fad67dbeb33c708663fb37f1aae31e91fc3b840aef",
+      "discs": [
+        2
+      ],
+      "textures": [
+        {
+          "object": "UI_Monster_Name_Jpn.Boss_Name.Boss_024",
+          "tiled_sha256": "e592a531ce2cd357408dbeb6262e2c0b20a6b9a35d7f29d70c060d94563056b3",
+          "labels": [
+            "img_ui_monster_name_jpn_55"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/abazet_Quest_Shot.xxx",
+      "sha256": "b1a6e06f883190c9e20d5bcab8e5d87677697e8a28423ce8479e92957dd19748",
+      "discs": [
+        1
+      ],
+      "textures": [
+        {
+          "object": "UI_Name_Jpn.Monster_Name.Mname_13",
+          "tiled_sha256": "9cdbabc22ed3ca2759d907dff0512a01136613a0fc49d64a992e41fe71c339d0",
+          "labels": [
+            "img_ui_name_jpn_52"
+          ]
+        },
+        {
+          "object": "UI_Name_Jpn.Monster_Name.Mname_26",
+          "tiled_sha256": "aad2bb3e6e240bd8d42704647f3fae2c9bc265144b60b7523060cb6b5e9fd09e",
+          "labels": [
+            "img_ui_name_jpn_65"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/data_char_ArmorWolf_01.xxx",
+      "sha256": "108d0b55689098a7f67fb659a44fee96f8ae069a3aa72e833f0fdbf84b2d2495",
+      "discs": [
+        1,
+        2
+      ],
+      "textures": [
+        {
+          "object": "UI_Name_Jpn.Monster_Name.Mname_33",
+          "tiled_sha256": "ab4fe76257bcac890bb0b93af49a1f0435455ba300742796298f8718c2c2f803",
+          "labels": [
+            "img_ui_name_jpn_72"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/data_char_BadNekoneko_01.xxx",
+      "sha256": "247bec2e7e9ae1eb53fd630395f197df2497665e9b1eb0e04f9473d39f69988f",
+      "discs": [
+        1,
+        2
+      ],
+      "textures": [
+        {
+          "object": "UI_Monster_Name_Jpn.Monster_Name.Mname_22",
+          "tiled_sha256": "ff9b3976802aa7426fce19014de8e74c4c0ee0cb1ea5b1df73fad83a56d6aacc",
+          "labels": [
+            "img_ui_monster_name_jpn_99"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/data_char_BadNekoneko_02.xxx",
+      "sha256": "04fc2be05d647f9355d1dd7cf652232bb3ceff0cad949643410d1d2ae37f128a",
+      "discs": [
+        1,
+        2
+      ],
+      "textures": [
+        {
+          "object": "UI_Name_Jpn.Monster_Name.Mname_23",
+          "tiled_sha256": "6442cd5fe904df023934993865ecabe643c5d9ea8045f0d10096e7ec312c2c24",
+          "labels": [
+            "img_ui_name_jpn_62"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/data_char_BadNekoneko_02_I.xxx",
+      "sha256": "2ccf455915f735dcb5e2b76d0de3c8bd14dcd55fe30980b9d88abc530c066f6c",
+      "discs": [
+        1,
+        2
+      ],
+      "textures": [
+        {
+          "object": "UI_Name_Jpn.Monster_Name.Mname_23",
+          "tiled_sha256": "6442cd5fe904df023934993865ecabe643c5d9ea8045f0d10096e7ec312c2c24",
+          "labels": [
+            "img_ui_name_jpn_62"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/data_char_BadNekoneko_02_L.xxx",
+      "sha256": "a8120e5c72522989e245e31e15e09e77b61cbc6b991c3abf64ef10f1037756e7",
+      "discs": [
+        1,
+        2
+      ],
+      "textures": [
+        {
+          "object": "UI_Name_Jpn.Monster_Name.Mname_23",
+          "tiled_sha256": "6442cd5fe904df023934993865ecabe643c5d9ea8045f0d10096e7ec312c2c24",
+          "labels": [
+            "img_ui_name_jpn_62"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/data_char_BadNekoneko_02_W.xxx",
+      "sha256": "94f3d78907350759a7e21de8aab7535c7902de4e1bb67bebce572ef7aa5bbff7",
+      "discs": [
+        1,
+        2
+      ],
+      "textures": [
+        {
+          "object": "UI_Name_Jpn.Monster_Name.Mname_23",
+          "tiled_sha256": "6442cd5fe904df023934993865ecabe643c5d9ea8045f0d10096e7ec312c2c24",
+          "labels": [
+            "img_ui_name_jpn_62"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/data_char_BadNekoneko_03.xxx",
+      "sha256": "7671b2331d08987b57119e0d388971a5d12d898a2d34698835f48703a9f7fe39",
+      "discs": [
+        1,
+        2
+      ],
+      "textures": [
+        {
+          "object": "UI_Name_Jpn.Monster_Name.Mname_24",
+          "tiled_sha256": "d393d6f107e0019b9b9e147bc40291f03c1c24c15e6809c604345529347eb344",
+          "labels": [
+            "img_ui_name_jpn_63"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/data_char_Blaze.xxx",
+      "sha256": "4816fac9123bf7db39f3574650e0c2a7dd87bf3bec77cee1ffb4a08012cea1ae",
+      "discs": [
+        2
+      ],
+      "textures": [
+        {
+          "object": "UI_Name_Jpn.Monster_Name.Mname_55",
+          "tiled_sha256": "d2f1b57374b62588fd4edd3306e1f3db9de36ac68f7cc75c306086c2c340e4b3",
+          "labels": [
+            "img_ui_name_jpn_93"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/data_char_Clawbeast_02.xxx",
+      "sha256": "29a675f1083df165a84163e4c11ad8fccf34976413b37ac95d05fdfc5e084a56",
+      "discs": [
+        1,
+        2
+      ],
+      "textures": [
+        {
+          "object": "UI_Name_Jpn.Monster_Name.Mname_31",
+          "tiled_sha256": "e655ba84c829b31355b851195108de4a6a154ac2962f5322b4bf32253cc9f0f9",
+          "labels": [
+            "img_ui_name_jpn_70"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/data_char_Croker_03.xxx",
+      "sha256": "df170974a14fb1e6922483f173e8761450c365cef5130372c8dbc1c1b4e24803",
+      "discs": [
+        1,
+        2
+      ],
+      "textures": [
+        {
+          "object": "UI_Name_Jpn.Monster_Name.Mname_10",
+          "tiled_sha256": "0eabbc5054c93289edde410f266bd1f6929ca8fbe1b3c146b7b849487b463cc0",
+          "labels": [
+            "img_ui_name_jpn_49"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/data_char_Ddagebi_01.xxx",
+      "sha256": "3ef20df10645b6befccf01b5c3e66a6d4454707b90e7e297e024c7b507b178e0",
+      "discs": [
+        1,
+        2
+      ],
+      "textures": [
+        {
+          "object": "UI_Name_Jpn.Monster_Name.Mname_25",
+          "tiled_sha256": "156b575c15caaf3e2440a2e68b14dfdc44ae5f0e683a0b90b55605952946cba1",
+          "labels": [
+            "img_ui_name_jpn_64"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/data_char_Dracore_01.xxx",
+      "sha256": "f4fbbf89c5bead30a3450af4b76cd29c2cfc3c7a8a6c665a140f80017521460e",
+      "discs": [
+        2
+      ],
+      "textures": [
+        {
+          "object": "UI_Monster_Name_Jpn.Monster_Name.Mname_48",
+          "tiled_sha256": "283e307f5c577773c74de85177ac006e70e980993015a8ffa353fdc012161124",
+          "labels": [
+            "img_ui_monster_name_jpn_124"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/data_char_Dracore_02.xxx",
+      "sha256": "ab1bcf8e5f0959eb53d25022175dcdb59224fa6e18067e24f11ca853ac1b380b",
+      "discs": [
+        2
+      ],
+      "textures": [
+        {
+          "object": "UI_Monster_Name_Jpn.Monster_Name.Mname_48",
+          "tiled_sha256": "283e307f5c577773c74de85177ac006e70e980993015a8ffa353fdc012161124",
+          "labels": [
+            "img_ui_monster_name_jpn_124"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/data_char_GelFish_02.xxx",
+      "sha256": "db4745258509907560f1dd05fbc45da20bc8e1b36d93fdc3d4d5140c829381bb",
+      "discs": [
+        1,
+        2
+      ],
+      "textures": [
+        {
+          "object": "UI_Name_Jpn.Monster_Name.Mname_28",
+          "tiled_sha256": "a8c086230a1a274fcab280119959caf6be95ea3850298dd8a4bbae0adc72149a",
+          "labels": [
+            "img_ui_name_jpn_67"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/data_char_GelFish_03.xxx",
+      "sha256": "86772da2b847d395c94f5bb943904e636573350dab2e1ed9fe41447b926256f4",
+      "discs": [
+        1,
+        2
+      ],
+      "textures": [
+        {
+          "object": "UI_Name_Jpn.Monster_Name.Mname_29",
+          "tiled_sha256": "71c36060ce64ee6c39b5bea7c204023cd4d7052bec9d9151a27d9bd4db09a780",
+          "labels": [
+            "img_ui_name_jpn_68"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/data_char_MadDdagebi_01.xxx",
+      "sha256": "b20b1c4d2a835e5a2283ba501c5bc8c74424f88b30ced9b421fe01391ce65c29",
+      "discs": [
+        1,
+        2
+      ],
+      "textures": [
+        {
+          "object": "UI_Name_Jpn.Monster_Name.Mname_26",
+          "tiled_sha256": "aad2bb3e6e240bd8d42704647f3fae2c9bc265144b60b7523060cb6b5e9fd09e",
+          "labels": [
+            "img_ui_name_jpn_65"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/data_char_MiniGame_Raty_01.xxx",
+      "sha256": "9d606ccac2f706545b74cbdf177bf9c18384209f59b68312bd75c409434cc5da",
+      "discs": [
+        1,
+        2
+      ],
+      "textures": [
+        {
+          "object": "UI_Name_Jpn.Monster_Name.Mname_13",
+          "tiled_sha256": "9cdbabc22ed3ca2759d907dff0512a01136613a0fc49d64a992e41fe71c339d0",
+          "labels": [
+            "img_ui_name_jpn_52"
+          ]
+        },
+        {
+          "object": "UI_Name_Jpn.Monster_Name.Mname_26",
+          "tiled_sha256": "aad2bb3e6e240bd8d42704647f3fae2c9bc265144b60b7523060cb6b5e9fd09e",
+          "labels": [
+            "img_ui_name_jpn_65"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/data_char_MiniGame_Raty_03.xxx",
+      "sha256": "578d12434732047cbdddc1b2576a5a141e60036cfcfb6b0de9ee50cbedb70067",
+      "discs": [
+        1,
+        2
+      ],
+      "textures": [
+        {
+          "object": "UI_Name_Jpn.Monster_Name.Mname_13",
+          "tiled_sha256": "9cdbabc22ed3ca2759d907dff0512a01136613a0fc49d64a992e41fe71c339d0",
+          "labels": [
+            "img_ui_name_jpn_52"
+          ]
+        },
+        {
+          "object": "UI_Name_Jpn.Monster_Name.Mname_26",
+          "tiled_sha256": "aad2bb3e6e240bd8d42704647f3fae2c9bc265144b60b7523060cb6b5e9fd09e",
+          "labels": [
+            "img_ui_name_jpn_65"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/data_char_NorthHealer.xxx",
+      "sha256": "e5bcd49f9bc03310cd629b906ea7909e2068febba2ccf62471a6cfb11e8d532c",
+      "discs": [
+        1,
+        2
+      ],
+      "textures": [
+        {
+          "object": "UI_Monster_Name_Jpn.North_Name.North_06",
+          "tiled_sha256": "ae9990ea4c6ee8a525a8b03b75a5a1d70cc75686f788cfbac01d6f072d4cf588",
+          "labels": [
+            "img_ui_monster_name_jpn_161"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/data_char_NorthMagic_Lr.xxx",
+      "sha256": "d95d5032f242034c36593e68d02f6a1f3abf28cbc5cb365b9e9e003106399880",
+      "discs": [
+        1,
+        2
+      ],
+      "textures": [
+        {
+          "object": "UI_Name_Jpn.Monster_Name.North_103",
+          "tiled_sha256": "b599036bed35025975f992392f041fd3eeadbce109d7f48a432611e5deac8f8c",
+          "labels": [
+            "img_ui_name_jpn_109"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/data_char_NorthMagic_Surface.xxx",
+      "sha256": "bf29f63abef24c8269fa4e5ff3bcd920d0d7275fca2c5b383116269053aaadb7",
+      "discs": [
+        1,
+        2
+      ],
+      "textures": [
+        {
+          "object": "UI_Name_Jpn.Monster_Name.North_103",
+          "tiled_sha256": "b599036bed35025975f992392f041fd3eeadbce109d7f48a432611e5deac8f8c",
+          "labels": [
+            "img_ui_name_jpn_109"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/data_char_NorthMagic_Surface_I.xxx",
+      "sha256": "45219b2a6750900c05d2683710def1d580dc4e861904c5e39effd510f99c11ea",
+      "discs": [
+        1,
+        2
+      ],
+      "textures": [
+        {
+          "object": "UI_Name_Jpn.Monster_Name.North_103",
+          "tiled_sha256": "b599036bed35025975f992392f041fd3eeadbce109d7f48a432611e5deac8f8c",
+          "labels": [
+            "img_ui_name_jpn_109"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/data_char_NorthMagic_Surface_L.xxx",
+      "sha256": "e63b87a1f10ed2172b88b27eee3a264af6a56480a8ba697669b1425ae7998777",
+      "discs": [
+        1,
+        2
+      ],
+      "textures": [
+        {
+          "object": "UI_Name_Jpn.Monster_Name.North_103",
+          "tiled_sha256": "b599036bed35025975f992392f041fd3eeadbce109d7f48a432611e5deac8f8c",
+          "labels": [
+            "img_ui_name_jpn_109"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/data_char_NorthMagic_Surface_W.xxx",
+      "sha256": "1186dad9c791c813e17a13087ee92849f4b44eab2e64f7c6124c7644fa1c664b",
+      "discs": [
+        1,
+        2
+      ],
+      "textures": [
+        {
+          "object": "UI_Name_Jpn.Monster_Name.North_103",
+          "tiled_sha256": "b599036bed35025975f992392f041fd3eeadbce109d7f48a432611e5deac8f8c",
+          "labels": [
+            "img_ui_name_jpn_109"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/data_char_NorthMagician.xxx",
+      "sha256": "7621f54f96a862958b6156f5206ab176a908544f36044b4953845159cd2326cf",
+      "discs": [
+        1,
+        2
+      ],
+      "textures": [
+        {
+          "object": "UI_Name_Jpn.Monster_Name.North_103",
+          "tiled_sha256": "b599036bed35025975f992392f041fd3eeadbce109d7f48a432611e5deac8f8c",
+          "labels": [
+            "img_ui_name_jpn_109"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/data_char_NorthMagician_I.xxx",
+      "sha256": "e22de42ce8c9b8f6347609626680054e5280df606d14955b1289e57e0ec3f811",
+      "discs": [
+        1,
+        2
+      ],
+      "textures": [
+        {
+          "object": "UI_Name_Jpn.Monster_Name.North_103",
+          "tiled_sha256": "b599036bed35025975f992392f041fd3eeadbce109d7f48a432611e5deac8f8c",
+          "labels": [
+            "img_ui_name_jpn_109"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/data_char_NorthMagician_L.xxx",
+      "sha256": "b444be5c207c75859dbba415a1ebda7af87a235fc437c4f890c7e5e5e24461de",
+      "discs": [
+        1,
+        2
+      ],
+      "textures": [
+        {
+          "object": "UI_Name_Jpn.Monster_Name.North_103",
+          "tiled_sha256": "b599036bed35025975f992392f041fd3eeadbce109d7f48a432611e5deac8f8c",
+          "labels": [
+            "img_ui_name_jpn_109"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/data_char_NorthMagician_Q.xxx",
+      "sha256": "2f65709fa3283bf7b03cb8219a975ad0c49a93684c752c5d9e5239152777cda0",
+      "discs": [
+        1,
+        2
+      ],
+      "textures": [
+        {
+          "object": "UI_Name_Jpn.Monster_Name.North_103",
+          "tiled_sha256": "b599036bed35025975f992392f041fd3eeadbce109d7f48a432611e5deac8f8c",
+          "labels": [
+            "img_ui_name_jpn_109"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/data_char_NorthMagician_W.xxx",
+      "sha256": "d47772b50e3698e08891bf2b3f07d63b8a692d33e5b32f42e60b152c221f043d",
+      "discs": [
+        1,
+        2
+      ],
+      "textures": [
+        {
+          "object": "UI_Name_Jpn.Monster_Name.North_103",
+          "tiled_sha256": "b599036bed35025975f992392f041fd3eeadbce109d7f48a432611e5deac8f8c",
+          "labels": [
+            "img_ui_name_jpn_109"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/data_char_NorthTrewa_01.xxx",
+      "sha256": "ebf928891a3244ffc8051afbf849c2f3687db60823a527d2e668bd3ee41a9c58",
+      "discs": [
+        1,
+        2
+      ],
+      "textures": [
+        {
+          "object": "UI_Name_Jpn.Monster_Name.North_107",
+          "tiled_sha256": "99307bd9922f693c63469714e69de734e67f7dd27a59de09d0f93d64fe8d5b5e",
+          "labels": [
+            "img_ui_name_jpn_111"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/data_char_NorthTrewa_02.xxx",
+      "sha256": "8b2f95bc1208a63749f2eb8b4f26e9e53e17d4761db34388f71547d8846d9e39",
+      "discs": [
+        1,
+        2
+      ],
+      "textures": [
+        {
+          "object": "UI_Name_Jpn.Monster_Name.North_107",
+          "tiled_sha256": "99307bd9922f693c63469714e69de734e67f7dd27a59de09d0f93d64fe8d5b5e",
+          "labels": [
+            "img_ui_name_jpn_111"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/data_char_Phong_03.xxx",
+      "sha256": "0e8cb108ee6dd8f67b6fb32cb4438c9dec11ed9549c7fe52ae51115501920aa9",
+      "discs": [
+        1,
+        2
+      ],
+      "textures": [
+        {
+          "object": "UI_Name_Jpn.Monster_Name.Mname_03",
+          "tiled_sha256": "f1f7b1d031961a354078b13dd59e5aaedd0264b54d8afc6b6304c6bcc9dbae37",
+          "labels": [
+            "img_ui_name_jpn_42"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/data_char_TrewaNPC1.xxx",
+      "sha256": "335a51ea214f30647c00476d2b1891b7ef6da1bd9e5338cfa92cd28cdf5faed4",
+      "discs": [
+        2
+      ],
+      "textures": [
+        {
+          "object": "UI_Name_Jpn.Monster_Name.North_107",
+          "tiled_sha256": "99307bd9922f693c63469714e69de734e67f7dd27a59de09d0f93d64fe8d5b5e",
+          "labels": [
+            "img_ui_name_jpn_111"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/data_char_TrewaNPC2.xxx",
+      "sha256": "dc52b4f0045b837ab3ca122ce2c5534dedbc3fcf920c9c4c71083838eaa846b5",
+      "discs": [
+        2
+      ],
+      "textures": [
+        {
+          "object": "UI_Name_Jpn.Monster_Name.North_107",
+          "tiled_sha256": "99307bd9922f693c63469714e69de734e67f7dd27a59de09d0f93d64fe8d5b5e",
+          "labels": [
+            "img_ui_name_jpn_111"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/data_char_Warbore_01.xxx",
+      "sha256": "4a255bc61c2fd94897fbab2b59ed4841221be04e965b8e5b62cb321b2d6cc794",
+      "discs": [
+        1,
+        2
+      ],
+      "textures": [
+        {
+          "object": "UI_Name_Jpn.Monster_Name.Mname_51",
+          "tiled_sha256": "3b2e2b4eaded8c9631a8e9671a3fd39688b47479f05a1bdd1d5b98078e7392a3",
+          "labels": [
+            "img_ui_name_jpn_89"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/data_char_Warbore_03.xxx",
+      "sha256": "9e5308dbcadd26f20ae04dcfa301980bfcc9f94aaefffaeef76fa3f757d11d49",
+      "discs": [
+        1,
+        2
+      ],
+      "textures": [
+        {
+          "object": "UI_Monster_Name_Jpn.Monster_Name.Mname_52",
+          "tiled_sha256": "827f28d8ce4957d6c469d457041bb7039c857e4e0199db81b3080743937d7d23",
+          "labels": [
+            "img_ui_monster_name_jpn_129"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/data_char_alex.xxx",
+      "sha256": "ecd3c1f1bd283e5aa85672b57251bc4beccd49c24180093895cce4d5ade790b6",
+      "discs": [
+        1,
+        2
+      ],
+      "textures": [
+        {
+          "object": "UI_Monster_Name_Jpn.Boss_Name.BOSS_014",
+          "tiled_sha256": "e544b8159f3ad8506c500b9e440053d7f9349d49667937cf720bc294c7b9f93a",
+          "labels": [
+            "img_ui_monster_name_jpn_42"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/data_char_dunanthiefBoss_01.xxx",
+      "sha256": "68de4c814372498515e84a9a8442bc9274dce2badc068a6d2a6f62d1859ff584",
+      "discs": [
+        1,
+        2
+      ],
+      "textures": [
+        {
+          "object": "UI_Monster_Name_Jpn.Monster_Name.Mname_56",
+          "tiled_sha256": "4c3678c0e0aec2267cf901aa35a5f7239daa28c612f1f50ccc2814a2ee90252a",
+          "labels": [
+            "img_ui_monster_name_jpn_135"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/data_char_dunanthief_01.xxx",
+      "sha256": "346bf55b2869ec6168c1396d1eb67f9e9c5f000d7745e719059eec443b6c3201",
+      "discs": [
+        1,
+        2
+      ],
+      "textures": [
+        {
+          "object": "UI_Monster_Name_Jpn.Monster_Name.Mname_56",
+          "tiled_sha256": "4c3678c0e0aec2267cf901aa35a5f7239daa28c612f1f50ccc2814a2ee90252a",
+          "labels": [
+            "img_ui_monster_name_jpn_135"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/data_char_grami.xxx",
+      "sha256": "ebb29037b2d9709e9d5a9020e35bde15a721938c8e2307bcdc58b31814fbcafb",
+      "discs": [
+        1,
+        2
+      ],
+      "textures": [
+        {
+          "object": "UI_Monster_Name_Jpn.Monster_Name.Mname_60",
+          "tiled_sha256": "1608a847a19fb0dd36fbe431a4aea6ec61e4318bf231214a6a8fe434130105fc",
+          "labels": [
+            "img_ui_monster_name_jpn_139"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/data_char_grami_01.xxx",
+      "sha256": "d957f4117f8a2bbce63753f80b8513de0f93cea3c9dfe96dac465d053ce145e5",
+      "discs": [
+        1,
+        2
+      ],
+      "textures": [
+        {
+          "object": "UI_Monster_Name_Jpn.Monster_Name.Mname_60",
+          "tiled_sha256": "1608a847a19fb0dd36fbe431a4aea6ec61e4318bf231214a6a8fe434130105fc",
+          "labels": [
+            "img_ui_monster_name_jpn_139"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/data_char_newRabper_02.xxx",
+      "sha256": "8c14307659c7063167edee8f4580b46a8769e1a5632fda457c2d48d5d68a53d9",
+      "discs": [
+        1,
+        2
+      ],
+      "textures": [
+        {
+          "object": "UI_Name_Jpn.Monster_Name.Mname_13",
+          "tiled_sha256": "9cdbabc22ed3ca2759d907dff0512a01136613a0fc49d64a992e41fe71c339d0",
+          "labels": [
+            "img_ui_name_jpn_52"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/data_char_newRabper_03.xxx",
+      "sha256": "cc30d9b466e2fae4415744ebe819934db1be9e0b22df79232a56cb2397e4af96",
+      "discs": [
+        1,
+        2
+      ],
+      "textures": [
+        {
+          "object": "UI_Name_Jpn.Monster_Name.Mname_13",
+          "tiled_sha256": "9cdbabc22ed3ca2759d907dff0512a01136613a0fc49d64a992e41fe71c339d0",
+          "labels": [
+            "img_ui_name_jpn_52"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/data_char_object.xxx",
+      "sha256": "2446603dbda7591866aee2044c8a41669486496dba80af8883ad3c74eed45053",
+      "discs": [
+        1,
+        2
+      ],
+      "textures": [
+        {
+          "object": "UI_Monster_Name_Jpn.Object_Name.Object_005",
+          "tiled_sha256": "0433898dc5466003ec82e83c9874ea37d4c3853b2f046156cbd7dec7ced88e21",
+          "labels": [
+            "img_ui_monster_name_jpn_196"
+          ]
+        },
+        {
+          "object": "UI_Name_Jpn.Monster_Name.Object_401",
+          "tiled_sha256": "bbb3cbad7f2822b1600e5586dd2755c48938b2efebca2eba19c1f605b457c6c2",
+          "labels": [
+            "img_ui_name_jpn_121"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/data_char_thiefghost_01.xxx",
+      "sha256": "af09e279eef8844d0abe4285794d319c2aecb952ffd3dde3ca80a4d6b5cdbbaa",
+      "discs": [
+        2
+      ],
+      "textures": [
+        {
+          "object": "UI_Monster_Name_Jpn.Monster_Name.Mname_56",
+          "tiled_sha256": "4c3678c0e0aec2267cf901aa35a5f7239daa28c612f1f50ccc2814a2ee90252a",
+          "labels": [
+            "img_ui_monster_name_jpn_135"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/data_party_player.xxx",
+      "sha256": "c9a3596b500ac90e461dfdd26a5586fc16890685cd84ae330df70f0368e43aba",
+      "discs": [
+        1,
+        2
+      ],
+      "textures": [
+        {
+          "object": "SkillName_Jpn.Argo.Skill_Argo_Main_03",
+          "tiled_sha256": "42013cdbfea7eff8a8b4f1ec24af47edb4bff844a9eefc47036f23163389ca33",
+          "labels": [
+            "runtime_skill_010"
+          ]
+        },
+        {
+          "object": "SkillName_Jpn.Crocell.Skill_Crocell_Main_02",
+          "tiled_sha256": "013c86235522b5e7ad68820eef0298ded6d724817cd675d39ab662c0e94fc185",
+          "labels": [
+            "runtime_skill_045"
+          ]
+        },
+        {
+          "object": "SkillName_Jpn.Crocell.Skill_Crocell_Main_05",
+          "tiled_sha256": "7556e7ede8f1005a954de6de45d021fcaa73fa24e89a3a43d630e0157afb25ca",
+          "labels": [
+            "runtime_skill_048"
+          ]
+        },
+        {
+          "object": "SkillName_Jpn.Crocell.Skill_Crocell_Main_08",
+          "tiled_sha256": "01b728786ddf1d70abf24cfd96338f6a9f58df6099d7b4abf85bac931d203d25",
+          "labels": [
+            "runtime_skill_051"
+          ]
+        },
+        {
+          "object": "SkillName_Jpn.Crocell.Skill_Crocell_Sub_06",
+          "tiled_sha256": "541cd3fcf67a1e5fc8b1f975b7f8bc62ca119d6e58c9ac16949e39d2d8ca634c",
+          "labels": [
+            "runtime_skill_058"
+          ]
+        },
+        {
+          "object": "SkillName_Jpn.Crocell.Skill_Crocell_Sub_07",
+          "tiled_sha256": "8a12ac0630b505915cc3159ba76aa5ce9479f4e2ae1bc2fd5bc3fe1aac409192",
+          "labels": [
+            "runtime_skill_059"
+          ]
+        },
+        {
+          "object": "SkillName_Jpn.Juto.Skill_Juto_Main_00",
+          "tiled_sha256": "6aa6266bcbde1e39bd3f55979db55ee3c61d3bb89146cacb7356a85f58572e0a",
+          "labels": [
+            "runtime_skill_066"
+          ]
+        },
+        {
+          "object": "SkillName_Jpn.Zephie.Skill_Zephie_Main_02",
+          "tiled_sha256": "59ec94ef2ebfd53dc05d308e057ad623c0c30377c29b90a3b11b8f79344e6700",
+          "labels": [
+            "runtime_skill_108"
+          ]
+        },
+        {
+          "object": "SkillName_Jpn.Zephie.Skill_Zephie_Sub_08",
+          "tiled_sha256": "f87659104d5a0b2649e8ab4272c7827fb0a232d2763f8c3ffc1d29a897cee4f9",
+          "labels": [
+            "runtime_skill_126"
+          ]
+        }
+      ]
+    }
+  ]
+}

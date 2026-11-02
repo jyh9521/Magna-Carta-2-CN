@@ -1,0 +1,138 @@
+{
+  "schema_version": 1,
+  "kind": "native-rgb-band-repair-v1",
+  "label_plans": [
+    {
+      "path": "locales/zh-Hans/texture-overlays/ui-labels-gameplay-v9.json",
+      "sha256": "7b42c56dd392e65fdc419c2b53dfb8cd1f447f9f50ea5d4534fb4da3938e80e9"
+    },
+    {
+      "path": "locales/zh-Hans/texture-overlays/controller-feedback-v8.json",
+      "sha256": "715e13d2ca52bb14a0a84a894ceeb31685c0e0aade205c8da92a9149810ccd26"
+    },
+    {
+      "path": "locales/zh-Hans/texture-overlays/voice-drama-headings-v10.json",
+      "sha256": "1a73b7de4df228036183f46ff705487db4f3639bd1ac35f12abdc90d68954195"
+    },
+    {
+      "path": "locales/zh-Hans/texture-overlays/release-category-clip.json",
+      "sha256": "6d3e1f58323ba14ff972839555d2f3e0ca9b3bd5749ca2dfb0f521f716043d1f"
+    },
+    {
+      "path": "locales/zh-Hans/texture-overlays/save-slot-labels.json",
+      "sha256": "f290983c13974ac2ac8e06fc1112374648d90b631a241125a47419ca1558a126"
+    },
+    {
+      "path": "locales/zh-Hans/texture-overlays/guest-ink-v13.json",
+      "sha256": "6f0a7018ab22b913e935a0a8290abfc9bcef604af178b4b62fdca6b25c417f93"
+    },
+    {
+      "path": "locales/zh-Hans/texture-overlays/ui-polish-v14.json",
+      "sha256": "619545cbf4ac8bd536fdb493356ba78d375ef510a3c8a6d1ab8593f82e51a5a4"
+    }
+  ],
+  "prior_gradient_revisions": [
+    {
+      "path": "locales/zh-Hans/texture-overlays/status-label-rgb-repair-v1.json",
+      "sha256": "9f0a737d00b30b874e057836d927f025bc59c6d542f4779fbc3cd412654a04d7"
+    }
+  ],
+  "requests": [
+    {
+      "id": "world_map_header_title",
+      "remove_gradient_positions": [
+        815,
+        852
+      ]
+    },
+    {
+      "id": "img_ui_name_jpn_188_0",
+      "remove_gradient_positions": [
+        556,
+        593
+      ]
+    },
+    {
+      "id": "img_ui_name_jpn_190_1",
+      "remove_gradient_positions": [],
+      "restore_outline_rgb": true
+    }
+  ],
+  "resources": [
+    {
+      "path": "MC2Game/CookedXenon/MC2Game.xxx",
+      "sha256": "b199b40f337390728019a7be51be082cff9f18d7debed83a9197f7dfeac9ae7c",
+      "discs": [
+        1,
+        2
+      ],
+      "textures": [
+        {
+          "object": "UI_Name_Jpn.Tex.Store_tex_01",
+          "tiled_sha256": "7b5275dba648b044367875c17acb039017a0daf26fbed0eea1d70c0e57d59e7a",
+          "labels": [
+            "img_ui_name_jpn_188_0"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/Startup_int.xxx",
+      "sha256": "5d4d2d73041f422ee237503bb05518e4d293a4096cedfa2a22ba933c7d455abf",
+      "discs": [
+        1,
+        2
+      ],
+      "textures": [
+        {
+          "object": "UI_Name_Jpn.Tex.StoreMenu_0",
+          "tiled_sha256": "0095f82f591ca3884f7a1f63e76fa8715f564e98334db1d5a825f809028cc1f2",
+          "labels": [
+            "img_ui_name_jpn_190_1"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/UI_Name_Jpn.xxx",
+      "sha256": "76ec7944e5307b22fff9aa17fef9aec504818e14611ac9e6239039049a798a21",
+      "discs": [
+        1,
+        2
+      ],
+      "textures": [
+        {
+          "object": "Tex.StoreMenu_0",
+          "tiled_sha256": "0095f82f591ca3884f7a1f63e76fa8715f564e98334db1d5a825f809028cc1f2",
+          "labels": [
+            "img_ui_name_jpn_190_1"
+          ]
+        },
+        {
+          "object": "Tex.Store_tex_01",
+          "tiled_sha256": "7b5275dba648b044367875c17acb039017a0daf26fbed0eea1d70c0e57d59e7a",
+          "labels": [
+            "img_ui_name_jpn_188_0"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/UI_WorldMap.xxx",
+      "sha256": "c52a169f25c6c7a327c8966195a66c569e9919c61953959b6018a0bddbf0817b",
+      "discs": [
+        1,
+        2
+      ],
+      "textures": [
+        {
+          "object": "Textures.WorldMap_Tex",
+          "tiled_sha256": "e020c0694f8b0fdb410e0942b550d0b7cefeb574b65d363bc3586cd56e5e3379",
+          "labels": [
+            "world_map_header_title"
+          ]
+        }
+      ]
+    }
+  ]
+}

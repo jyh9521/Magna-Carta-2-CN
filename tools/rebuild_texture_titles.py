@@ -13,6 +13,7 @@ from .bc3_error_bound import refine
 from .build_font_supplement import context
 from .font_binding_plan import confined_path
 from .lettering_layers import box, source_ink, font_ink, effects
+from .map_underlay import retained_art, scanline_art
 from .patch_tagged_fields import digest
 from .replace_texture_regions import selected, replace_tiles
 from .runtime_envelope import ALIGNMENT, require_raw_envelope
@@ -44,6 +45,10 @@ def compose_island(original, spec, assets):
                 label[dest] = im.tobytes()
         background = Image.frombytes('RGBA', (w,h), compose_restored_region(
             label, background.tobytes(), original.tobytes(), original.width))
+        if 'retain_rects' in spec['background']:
+            background = retained_art(background, spec['background']['retain_rects'])
+    elif spec['background']['kind'] == 'scanline-map-art-v1':
+        background = scanline_art(original, spec['rect'], spec['background'])
     elif spec['background'] != {'kind':'transparent'}:
         raise ValueError('unknown background mode')
     result = background.copy(); rendered=[]

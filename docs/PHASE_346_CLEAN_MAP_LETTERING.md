@@ -43,8 +43,15 @@
    英文轮廓。其余标题按原图色调与层次作视觉近似，不声称新阴影与
    原作者的笔刷逐像素相同。
 4. **地图底图**：大标题区域从全透明底重建，绝不复用旧覆字修补图。
-   地形与文字相交的小地名，底图使用已有SHA锁定的独立去字修复层，
-   文字效果仍从新字形生成。写集外原生块和其他export保持原字节。
+   小地名的旧去字层也单独关闭文字检查：阿巴泽特港口、草原、荒野森林
+   和青灵森林的旧修复层确实保留了韩文字尾，不能把旧底图全部当作
+   审计白名单。当前计划逐项声明保留的地图/引线区域，其余旧底图像素
+   清零；房间标记的真实光晕独立保留。五种与地形相交的布局（含风息岛
+   海岸，两种地图副本共七处）使用 `tools.map_underlay`，只采样已核查的
+   上下干净行，按地图边界插值估计被原字遮挡的局部地形，已露出的右侧
+   地形按显式区域保留。该估计不声称恢复原作者隐藏的地形细节，不复制
+   区间内的原字或旧阴影；测试替换整个区间的黑/白字仍须得到相同底图。
+   写集外原生块和其他export保持原字节。
 5. **原生回读**：重新编码Xbox BC3后再审查，不只看编码前PNG。
    透明像素必须仍为零alpha；alpha误差上限24/255，标题预乘颜色
    上限48/255，地形混合区域上限64/255。超过预算的RGB块使用显式
@@ -63,6 +70,13 @@
 仍须失败。另有纯黑污染、字符间RGB杂色、源/字体/纹理SHA、不相交
 输出、重复资源、BC3读回与双盘manifest测试。
 
+最终底图复查在关闭全部新文字时单独进行。仅按亮度数黑像素会把地形
+轮廓和房间标记算作残影，因此先查看完整原地图确定真实美术元素，
+再核对81种独立小地名底图；没有将所有暗像素粗暴删除。首次文字层
+通过后的中间提交和安装包仍保存在本轮 `underlay/`，最终交付身份
+以 `VERIFICATION.txt` 为准。最终资源、packet、recipe 与 bundle 位于
+本轮 `final/`，不再指向首次文字层检查的中间候选。
+
 全部比较图在 `build/phase-346-clean-map-lettering/review/index.html`，
 风息岛两片合并显示。原尺寸、整数倍放大、浅色/深色/棋盘底图及
 单独字形/轮廓/投影图用于离线检查。实际游戏内缩放仍由原测试入口
@@ -79,7 +93,7 @@ python -B -X utf8 -m tools.rebuild_texture_titles --profile $p --profile-sha256 
   --lzx-library build/lzx/native-verified/ue3_lzx.dll
 python -B -X utf8 -m tools.audit_texture_titles --profile $p --project-root . `
   --baseline "$e/baseline" --actual-root "$e/rebuild/candidate" `
-  --reference "$e/modified/manifest.json" --lzx-library build/lzx/native-verified/ue3_lzx.dll `
+  --reference "$e/final/modified/manifest.json" --lzx-library build/lzx/native-verified/ue3_lzx.dll `
   --report "$e/rebuild-audit.json"
 ```
 

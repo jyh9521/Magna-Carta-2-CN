@@ -1,0 +1,353 @@
+{
+  "schema_version": 1,
+  "kind": "clean-lettering-v1",
+  "rasterizer_versions": {
+    "Pillow": "12.2.0",
+    "fonttools": "4.63.0"
+  },
+  "resources": [
+    {
+      "path": "MC2Game/CookedXenon/Map_View_Oldfox.xxx",
+      "sha256": "3d41c2807cd05e3740663b93ac0c6116a42461b5f7b243d2aa114f3279cfc505",
+      "original": {
+        "path": "build/poc-game/common/MC2Game/CookedXenon/Map_View_Oldfox.xxx",
+        "sha256": "4675e4e4872ddacf37bb7a8b6a9a077d085f0fbf3cabf0a9e85786ab37c19985"
+      },
+      "discs": [
+        1,
+        2
+      ],
+      "textures": [
+        {
+          "object": "Map_View_Oldfox",
+          "profile": {
+            "kind": "xbox-inline-bc-v1",
+            "format": 7
+          },
+          "tiled_sha256": "eb21aa903160f73b52a9b3a8e52ef8f2e6b826631d4807d9f294d434b734e99a",
+          "original_tiled_sha256": "d4644a236e6ba09ce595b9725d3190ed03538e44cb9e7239ea2c603cbaa6b301",
+          "islands": [
+            {
+              "id": "MC2Game/CookedXenon/Map_View_Oldfox.xxx:normal_map_terrain_map_view_oldfox_02",
+              "name": "恸哭之门",
+              "rect": [
+                520,
+                172,
+                92,
+                32
+              ],
+              "background": {
+                "kind": "restored-art",
+                "label": {
+                  "id": "normal_map_terrain_map_view_oldfox_02",
+                  "rect": [
+                    520,
+                    172,
+                    92,
+                    32
+                  ],
+                  "restoration": {
+                    "source_rgba_sha256": "2de8b2f600a73dc09bed54a1c7d064f57ea2a5fa9aaf0e3d2e20275e7b0a80f0",
+                    "mask": {
+                      "path": "locales/zh-Hans/texture-overlays/restorations/review-v3-20261026/normal_map_terrain_map_view_oldfox_02-mask.png",
+                      "sha256": "77ebddf7daf825b4d8217e57fc0b342a98ca8da026a70ab3242f6e59e8dc7696"
+                    },
+                    "patch": {
+                      "path": "locales/zh-Hans/texture-overlays/restorations/review-v3-20261026/normal_map_terrain_map_view_oldfox_02-patch.png",
+                      "sha256": "fca6c7ba9705241098afcced7b0fa0bf578fb36ea9320b127472d0193c0c0352"
+                    }
+                  }
+                },
+                "retain_rects": [
+                  [
+                    84,
+                    22,
+                    8,
+                    10
+                  ],
+                  [
+                    25,
+                    25,
+                    8,
+                    7
+                  ]
+                ]
+              },
+              "layers": [
+                {
+                  "id": "normal_map_terrain_map_view_oldfox_02",
+                  "kind": "font",
+                  "font": {
+                    "path": "build/font-source/NotoSansCJKsc-Regular.otf",
+                    "sha256": "2c76254f6fc379fddfce0a7e84fb5385bb135d3e399294f6eeb6680d0365b74b"
+                  },
+                  "label": {
+                    "id": "normal_map_terrain_map_view_oldfox_02",
+                    "text": "恸哭之门",
+                    "font_size": 22,
+                    "rect": [
+                      0,
+                      0,
+                      92,
+                      32
+                    ],
+                    "appearance": {
+                      "kind": "source-style-v1",
+                      "ink_box": [
+                        2,
+                        7,
+                        88,
+                        18
+                      ],
+                      "align": "right",
+                      "gradient": [
+                        [
+                          0,
+                          [
+                            254,
+                            251,
+                            247,
+                            255
+                          ]
+                        ],
+                        [
+                          56,
+                          [
+                            255,
+                            243,
+                            222,
+                            255
+                          ]
+                        ],
+                        [
+                          111,
+                          [
+                            251,
+                            236,
+                            210,
+                            255
+                          ]
+                        ],
+                        [
+                          167,
+                          [
+                            253,
+                            238,
+                            212,
+                            255
+                          ]
+                        ],
+                        [
+                          222,
+                          [
+                            252,
+                            237,
+                            210,
+                            255
+                          ]
+                        ],
+                        [
+                          278,
+                          [
+                            255,
+                            210,
+                            147,
+                            255
+                          ]
+                        ],
+                        [
+                          333,
+                          [
+                            255,
+                            210,
+                            147,
+                            255
+                          ]
+                        ],
+                        [
+                          389,
+                          [
+                            255,
+                            206,
+                            141,
+                            255
+                          ]
+                        ],
+                        [
+                          444,
+                          [
+                            255,
+                            206,
+                            141,
+                            255
+                          ]
+                        ],
+                        [
+                          500,
+                          [
+                            253,
+                            174,
+                            93,
+                            255
+                          ]
+                        ],
+                        [
+                          556,
+                          [
+                            250,
+                            163,
+                            82,
+                            255
+                          ]
+                        ],
+                        [
+                          611,
+                          [
+                            250,
+                            163,
+                            82,
+                            255
+                          ]
+                        ],
+                        [
+                          667,
+                          [
+                            249,
+                            162,
+                            83,
+                            255
+                          ]
+                        ],
+                        [
+                          722,
+                          [
+                            252,
+                            104,
+                            49,
+                            255
+                          ]
+                        ],
+                        [
+                          778,
+                          [
+                            255,
+                            101,
+                            49,
+                            255
+                          ]
+                        ],
+                        [
+                          833,
+                          [
+                            226,
+                            91,
+                            41,
+                            255
+                          ]
+                        ],
+                        [
+                          889,
+                          [
+                            170,
+                            72,
+                            37,
+                            255
+                          ]
+                        ],
+                        [
+                          944,
+                          [
+                            206,
+                            32,
+                            16,
+                            255
+                          ]
+                        ],
+                        [
+                          1000,
+                          [
+                            202,
+                            30,
+                            16,
+                            255
+                          ]
+                        ]
+                      ],
+                      "outline": [
+                        8,
+                        8,
+                        10,
+                        245
+                      ],
+                      "outline_width": 1.2,
+                      "glow": [
+                        0,
+                        0,
+                        0,
+                        0
+                      ],
+                      "glow_radius": 0,
+                      "shadow": [
+                        0,
+                        0,
+                        0,
+                        230
+                      ],
+                      "shadow_offset": [
+                        1,
+                        1
+                      ],
+                      "shadow_radius": 0.65,
+                      "italic": 0,
+                      "tracking": 0,
+                      "weight": 0.15,
+                      "motion": 0
+                    },
+                    "style": {
+                      "fill": [
+                        237,
+                        237,
+                        237,
+                        255
+                      ],
+                      "stroke_fill": [
+                        16,
+                        16,
+                        16,
+                        220
+                      ],
+                      "shadow_fill": [
+                        0,
+                        0,
+                        0,
+                        0
+                      ]
+                    },
+                    "align": "center",
+                    "ink_padding": {
+                      "x": 1,
+                      "y": 0
+                    }
+                  },
+                  "effects": {
+                    "outline_width": 0.5,
+                    "outline_alpha": 190,
+                    "shadow_radius": 1.0,
+                    "shadow_alpha": 175,
+                    "shadow_offset": [
+                      1,
+                      1
+                    ],
+                    "support_radius": 3
+                  }
+                }
+              ],
+              "max_alpha_delta": 24,
+              "max_premultiplied_delta": 64
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

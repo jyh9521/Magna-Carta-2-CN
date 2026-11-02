@@ -1,3 +1,5 @@
+> 阶段346：禁止按邻近距离搬运原图暗像素作为英文阴影；干净字形解衬底、有限支撑域效果、跨纹理审计与BC3 minimax细化见 [地图字形分层](docs/PHASE_346_CLEAN_MAP_LETTERING.md)。
+
 > 阶段330技术补充：基于真实FontCharacter.USize的locale断行、count-locked `<br>`、同长度tagged scalar字段、当前包上的有界原生tile叠加、全帧联合视频掩膜与数字基线校正，见 [阶段330](docs/PHASE_330_GAMEPLAY_QA.md)。已验证序列化事实、保守预算和未证运行行为分别记录。
 
 > 阶段325：新增真实UV消费者合同、alpha连通分量/原生块保护、字体黑色阴影、源锁定Bink逐帧重放、私有桌面批处理及XDVDFS目录字段绑定。合成顺序与证据边界见 [阶段325](docs/PHASE_325_GAMEPLAY_FEEDBACK.md)。

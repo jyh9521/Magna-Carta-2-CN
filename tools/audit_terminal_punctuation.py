@@ -60,9 +60,15 @@ def corrected(text, kind, rules):
 
 def classifications(contract, project):
     kinds = {}
+    hash_mode = contract.get('classification_hash_mode', 'raw')
+    if hash_mode not in ('raw', 'canonical-lf'):
+        raise ValueError('unsupported classification hash mode')
     for ref in contract['classification_sources']:
         raw = confined_path(Path(project).resolve(), ref['path']).read_bytes()
-        if digest(raw) != ref['sha256']:
+        # Git text snapshots use LF. This explicit mode covers only JSON review
+        # metadata; legacy raw locks and all game-resource locks stay exact.
+        checked = raw.replace(b'\r\n', b'\n') if hash_mode == 'canonical-lf' else raw
+        if digest(checked) != ref['sha256']:
             raise ValueError('classification source SHA256 mismatch')
         for row in json.loads(raw)['entries']:
             if row.get('text_kind'):

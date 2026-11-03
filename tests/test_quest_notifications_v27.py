@@ -1,5 +1,7 @@
 import json
+import hashlib
 from pathlib import Path
+import tempfile
 import unittest
 
 from tools.audit_terminal_punctuation import classifications, corrected
@@ -52,6 +54,39 @@ class QuestNotificationTests(unittest.TestCase):
             if identity in edits:
                 self.assertEqual(edits[identity]['source_sha256'], row['before_sha256'])
                 self.assertEqual(edits[identity]['translation'], row['translation'])
+
+    def test_canonical_review_locks_accept_lf_and_crlf_without_rewriting_files(self):
+        raw = b'{\n  "entries": [{"id": "a", "text_kind": "system_message"}]\n}\n'
+        contract = dict(classification_hash_mode='canonical-lf', classification_overrides=[],
+                        classification_sources=[dict(path='review.json', sha256=hashlib.sha256(raw).hexdigest())])
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            for data in [raw, raw.replace(b'\n', b'\r\n')]:
+                (root/'review.json').write_bytes(data)
+                self.assertEqual(classifications(contract, root), {'a': 'system_message'})
+                self.assertEqual((root/'review.json').read_bytes(), data)
+
+    def test_canonical_hash_does_not_accept_changed_classification_content(self):
+        raw = b'{\n"entries": []\n}\n'
+        contract = dict(classification_hash_mode='canonical-lf', classification_overrides=[],
+                        classification_sources=[dict(path='review.json', sha256=hashlib.sha256(raw).hexdigest())])
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            (root/'review.json').write_bytes(raw.replace(b'[]', b'[{}]').replace(b'\n', b'\r\n'))
+            with self.assertRaisesRegex(ValueError, 'SHA256 mismatch'):
+                classifications(contract, root)
+
+    def test_legacy_raw_and_unknown_hash_modes_are_not_relaxed(self):
+        raw = b'{\n"entries": []\n}\n'
+        contract = dict(classification_overrides=[],
+                        classification_sources=[dict(path='review.json', sha256=hashlib.sha256(raw).hexdigest())])
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp); (root/'review.json').write_bytes(raw.replace(b'\n', b'\r\n'))
+            with self.assertRaisesRegex(ValueError, 'SHA256 mismatch'):
+                classifications(contract, root)
+            contract['classification_hash_mode'] = 'unknown'
+            with self.assertRaisesRegex(ValueError, 'unsupported'):
+                classifications(contract, root)
 
 
 if __name__ == '__main__':

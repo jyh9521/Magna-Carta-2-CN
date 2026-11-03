@@ -87,5 +87,17 @@ class FontSelectionTests(unittest.TestCase):
         import hashlib
         self.assertEqual(hashlib.sha256((ROOT/profile['overlay_plan']['path']).read_bytes()).hexdigest(),profile['overlay_plan']['sha256'])
 
+    def test_screenshot_skill_label_uses_same_face_but_keeps_its_white_ramp(self):
+        p=self.load('texture-overlays/screenshot-skill-font-v26.overlay.json')
+        self.assertEqual(len(p['labels']),1)
+        label=p['labels'][0];self.assertEqual(label['id'],'img_ui_name_jpn_141_3')
+        self.assertEqual(label['text'],'爆炸')
+        review=self.load('candidate-decisions/monster-font-20261103.json')
+        self.assertEqual(label['font'],review['target_font'])
+        old=next(r for r in self.load('texture-overlays/name-consistency-v22.json')['labels']if r['id']==label['id'])
+        self.assertEqual(label['appearance']['gradient'],old['appearance']['gradient'])
+        aliases=self.load('texture-overlays/screenshot-skill-font-v26.json')
+        self.assertEqual(sum(len(r['textures'])for r in aliases['resources']),2)
+
 
 if __name__=='__main__':unittest.main()

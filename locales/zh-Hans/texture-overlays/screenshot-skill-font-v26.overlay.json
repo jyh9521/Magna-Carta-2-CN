@@ -1,0 +1,316 @@
+{
+  "schema_version": 1,
+  "kind": "texture-text-overlay-plan",
+  "game_rendering_verified": false,
+  "font": {
+    "path": "build/font-source/NotoSansCJKsc-Regular.otf",
+    "sha256": "2c76254f6fc379fddfce0a7e84fb5385bb135d3e399294f6eeb6680d0365b74b"
+  },
+  "rasterizer_versions": {
+    "Pillow": "12.2.0",
+    "fonttools": "4.63.0"
+  },
+  "labels": [
+    {
+      "id": "img_ui_name_jpn_141_3",
+      "text": "爆炸",
+      "rect": [
+        24,
+        92,
+        152,
+        32
+      ],
+      "font_size": 18,
+      "style": {
+        "fill": [
+          244,
+          244,
+          236,
+          255
+        ],
+        "stroke_fill": [
+          35,
+          35,
+          35,
+          240
+        ],
+        "shadow_fill": [
+          0,
+          0,
+          0,
+          180
+        ]
+      },
+      "align": "center",
+      "translation_basis": "source-image-cell-with-context",
+      "source_text_sha256": "f437c0eac3480aee58acf07572dfe2ae0608ce6c065573c9d7cdd1dd08cc1a84",
+      "source_ids": [],
+      "restoration": {
+        "source_rgba_sha256": "e74ffe73618f12f8dc1d3adc66fd1e40053b000810f012c1719d91ebc41db032",
+        "mask": {
+          "path": "locales/zh-Hans/texture-overlays/restorations/review-v3-20261026/img_ui_name_jpn_141_3-mask.png",
+          "sha256": "547ede8b742dd763622008185b445ee10500088f57359d52a629974f8fb735a7"
+        },
+        "patch": {
+          "path": "locales/zh-Hans/texture-overlays/restorations/review-v3-20261026/img_ui_name_jpn_141_3-patch.png",
+          "sha256": "576e730310a3ec2c98b723248c74a998c412b8c6f96999e4dd7712f1cc048644"
+        }
+      },
+      "font": {
+        "path": "build/font-source/NotoSansCJKsc-Bold.otf",
+        "sha256": "b5f0d1a190a7f9b43c310a8850630af12553df32c4c050543f9059732d9b4c0a"
+      },
+      "appearance": {
+        "kind": "source-style-v1",
+        "ink_box": [
+          2,
+          6,
+          148,
+          20
+        ],
+        "align": "center",
+        "gradient": [
+          [
+            0,
+            [
+              253,
+              253,
+              253,
+              255
+            ]
+          ],
+          [
+            56,
+            [
+              255,
+              255,
+              255,
+              255
+            ]
+          ],
+          [
+            111,
+            [
+              255,
+              255,
+              255,
+              255
+            ]
+          ],
+          [
+            167,
+            [
+              255,
+              255,
+              255,
+              255
+            ]
+          ],
+          [
+            222,
+            [
+              255,
+              255,
+              255,
+              255
+            ]
+          ],
+          [
+            278,
+            [
+              247,
+              247,
+              247,
+              255
+            ]
+          ],
+          [
+            333,
+            [
+              247,
+              247,
+              247,
+              255
+            ]
+          ],
+          [
+            389,
+            [
+              247,
+              247,
+              247,
+              255
+            ]
+          ],
+          [
+            444,
+            [
+              239,
+              239,
+              239,
+              255
+            ]
+          ],
+          [
+            500,
+            [
+              239,
+              239,
+              239,
+              255
+            ]
+          ],
+          [
+            556,
+            [
+              239,
+              239,
+              239,
+              255
+            ]
+          ],
+          [
+            611,
+            [
+              231,
+              231,
+              231,
+              255
+            ]
+          ],
+          [
+            667,
+            [
+              222,
+              223,
+              222,
+              255
+            ]
+          ],
+          [
+            722,
+            [
+              214,
+              215,
+              214,
+              255
+            ]
+          ],
+          [
+            778,
+            [
+              214,
+              215,
+              214,
+              255
+            ]
+          ],
+          [
+            833,
+            [
+              206,
+              207,
+              206,
+              255
+            ]
+          ],
+          [
+            889,
+            [
+              206,
+              207,
+              206,
+              255
+            ]
+          ],
+          [
+            944,
+            [
+              206,
+              203,
+              206,
+              255
+            ]
+          ],
+          [
+            1000,
+            [
+              202,
+              201,
+              202,
+              255
+            ]
+          ]
+        ],
+        "outline": [
+          8,
+          8,
+          10,
+          245
+        ],
+        "outline_width": 1.15,
+        "glow": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "glow_radius": 0,
+        "shadow": [
+          0,
+          0,
+          0,
+          230
+        ],
+        "shadow_offset": [
+          1,
+          2
+        ],
+        "shadow_radius": 0.65,
+        "italic": 0,
+        "tracking": 0,
+        "weight": 0,
+        "motion": 0
+      }
+    }
+  ],
+  "sources": [
+    {
+      "path": "MC2Game/CookedXenon/UI_Name_Jpn.xxx",
+      "discs": [
+        1,
+        2
+      ],
+      "original": {
+        "path": "build/poc-game/disc1/MC2Game/CookedXenon/UI_Name_Jpn.xxx",
+        "sha256": "5f962a3735c51c3941841622a753ec82248a7db62edb2b47fb031faf043cecfc"
+      },
+      "base": {
+        "path": "build/poc-game/disc1/MC2Game/CookedXenon/UI_Name_Jpn.xxx",
+        "sha256": "5f962a3735c51c3941841622a753ec82248a7db62edb2b47fb031faf043cecfc"
+      },
+      "textures": [
+        {
+          "object": "Style_Title_Name.Crocell_Skill_Sub",
+          "payload_sha256": "3d5a807a76e08719cf410088bbdc18811307c8bbb0e2e8e0e38c3868fc1d7b4d",
+          "tiled_sha256": "6ea7eba234de846f25bd0a0990c60d75de530be592aba14547b2fbd0223da908",
+          "dimensions": [
+            256,
+            256
+          ],
+          "regions": [
+            "img_ui_name_jpn_141_3"
+          ],
+          "image_id": "img_ui_name_jpn_141",
+          "profile": {
+            "kind": "xbox-inline-bc-v1",
+            "format": 7
+          },
+          "channel_mode": "rgba",
+          "preserve_unchanged_blocks": true,
+          "alpha_encoding": "adaptive-range"
+        }
+      ]
+    }
+  ]
+}

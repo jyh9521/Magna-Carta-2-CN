@@ -576,5 +576,17 @@
     "img_ui_name_jpn_99"
   ],
   "native_reconciliation_aliases": 96,
-  "native_reconciliation_reason": "Structured font/style selection already matches, but 96 installed native aliases for 23 labels differ from the independent source-style rebuild; regenerate those blocks without changing their text or label data."
+  "native_reconciliation_reason": "Structured font/style selection already matches, but 96 installed native aliases for 23 labels differ from the independent source-style rebuild; regenerate those blocks without changing their text or label data.",
+  "screenshot_skill_label": {
+    "id": "img_ui_name_jpn_141_3",
+    "text": "爆炸",
+    "object": "Style_Title_Name.Crocell_Skill_Sub",
+    "original_observation": "Japanese skill label uses sans-serif glyphs with a white ramp and dark outline/shadow, not the prior serif translation.",
+    "font": {
+      "path": "build/font-source/NotoSansCJKsc-Bold.otf",
+      "sha256": "b5f0d1a190a7f9b43c310a8850630af12553df32c4c050543f9059732d9b4c0a"
+    },
+    "white_colour_ramp_preserved": true,
+    "physical_aliases": 2
+  }
 }

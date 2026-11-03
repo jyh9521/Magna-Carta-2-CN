@@ -26,6 +26,7 @@ General_15中其他文本引用的这11个数字也随同获得统一字高；�
 - 第一段修订覆盖178条资源路径、538个物理别名。完整家族842个别名连同此前改名的其余7个窗口一起核验，共849个窗口。通用构建器的单资源纹理上限有界扩至256，当前最大190，257拒绝发布。
 - 全家族原生检查继续检出23个配置已一致的名称仍有96个旧栅格副本不匹配，分布在58条资源路径。第二段 `monster-font-native-reconcile-v26.json` 单独按哈希锁定修复这些窗口，文本/字体配置不变。不能以JSON选中了相同字体替代真实纹理验收；第一次整合的96处失败报告保留，最终须达到849窗口零失败。
 - 两段合计实际重建248个名称区域、634个物理别名，覆盖203条资源路径；其余名称窗口由完整原生合同核验保持。双盘资源总数仍为442/543，含数字和TOC的最终增量分别114/175项；2个DLC及文本文件保持阶段351身份。
+- 截图中额外的白色“爆炸”（`img_ui_name_jpn_141_3`）实际是技能标签，不是敌方姓名。单独核对原图 `Style_Title_Name.Crocell_Skill_Sub`，日文使用无衬线字形及黑描边，而旧译图误用了宋体。补充 `screenshot-skill-font-v26.json` 将两份副本改为同一Noto Sans字体，保留原白色渐变，并恢复黑色描边/投影；不套怪物名粉色。总计249个修订区域、636个物理别名，849窗口合同也包含这一项。
 - 保留每张原图测得的独立渐变、位置、字高及字距；按原小型名称保留黑描边和偏移黑投影，去掉误套的橙色光晕。大标题保留字体、颜色、花饰与布局，原图的黑描边和黑投影单独恢复，不改成小型名称的黑体。
 - 遗留 `img_ui_name_jpn_96` 没有appearance定义；它与 `img_ui_monster_name_jpn_55` 原始tiled SHA256完全相同，复用同源的样式定义，不猜测颜色。
 - 当前“克洛普斯”等已统一译名保持，不把字体修订回退为旧译名。剧情、字幕、战斗数值与其他图片不作修改。
@@ -39,7 +40,8 @@ General_15中其他文本引用的这11个数字也随同获得统一字高；�
 3. 使用 `tools.normalize_runtime_comparison` 相同的raw envelope规范补齐追加payload的运行时包。
 4. `tools.build_texture_alias_update`，计划 `texture-overlays/monster-font-alias-update-v26.json`；所有输入及供体依赖必须满足哈希。
 5. 合成第一段候选后，再用相同工具应用 `texture-overlays/monster-font-native-reconcile-v26.json`；其输入锁定第一段实际资源，不应用到更早的资源上。
-6. 用 `tools.compose_incremental_comparison` 合并第二段增量，`prepare_installer_sources`校验双盘，刷新既有测试副本与同版本v1.0安装器。
+6. 合并第二段后应用 `texture-overlays/screenshot-skill-font-v26.json`，补齐截图中白色技能标签的两份副本。
+7. 用 `tools.compose_incremental_comparison` 合并最终增量，`prepare_installer_sources`校验双盘，刷新既有测试副本与同版本v1.0安装器。
 
 当前验收合同为 `gameplay-ui-spacing-v25.json`、`monster-font-native-audit-v26.json`、`menu-title-audit-v21.json`、`terminal-punctuation-v24.json`。v23间距与v22名字像素合同仍是历史状态，不作为本轮新字体的最终像素期望。
 

@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "kind": "texture-alias-update-v1",
+  "overlay_plan": {
+    "path": "locales/zh-Hans/texture-overlays/screenshot-skill-font-v26.overlay.json",
+    "sha256": "534d9b3425353ef417a6834283dde8ef5971186f89b901ecf2a825fe7f7d5512"
+  },
+  "resources": [
+    {
+      "path": "MC2Game/CookedXenon/Startup_int.xxx",
+      "sha256": "b30e472a4b77d6e653615585325614be46f8a1053c2567b379aefd6416548bb0",
+      "discs": [
+        1,
+        2
+      ],
+      "textures": [
+        {
+          "object": "UI_Name_Jpn.Style_Title_Name.Crocell_Skill_Sub",
+          "tiled_sha256": "a72e7a32b98cabc745993b49ecaa3328af1f578ebffb69eeb3f2a3c45a36172e",
+          "donor_resource": "MC2Game/CookedXenon/UI_Name_Jpn.xxx",
+          "donor_object": "Style_Title_Name.Crocell_Skill_Sub",
+          "rectangles": [
+            [
+              24,
+              92,
+              152,
+              32
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/UI_Name_Jpn.xxx",
+      "sha256": "1583e18ab2b48913e71f2f87d2a851ff835c24a39d27f8951ca8bf2d2601dc5a",
+      "discs": [
+        1,
+        2
+      ],
+      "textures": [
+        {
+          "object": "Style_Title_Name.Crocell_Skill_Sub",
+          "tiled_sha256": "a72e7a32b98cabc745993b49ecaa3328af1f578ebffb69eeb3f2a3c45a36172e",
+          "donor_resource": "MC2Game/CookedXenon/UI_Name_Jpn.xxx",
+          "donor_object": "Style_Title_Name.Crocell_Skill_Sub",
+          "rectangles": [
+            [
+              24,
+              92,
+              152,
+              32
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

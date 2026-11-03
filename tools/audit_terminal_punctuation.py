@@ -30,6 +30,14 @@ def needs_stop(text, rules):
 
 
 def corrected(text, kind, rules):
+    # Notification labels are not prose: a colon may delimit a title or counter
+    # without requiring a sentence terminator. Keep the policy in locale data.
+    if kind in rules.get('no_terminal_stop_kinds', []):
+        trimmed = text.rstrip()
+        stop = rules['full_stop']
+        if stop and trimmed.endswith(stop):
+            return trimmed[:-len(stop)] + text[len(trimmed):]
+        return text
     if kind not in rules['sentence_kinds']:
         return text
     # Keep whitespace, markup, literal breaks and numeric stat rows byte-exact.
@@ -74,15 +82,22 @@ def audit(data, contract, project):
         raise ValueError('text inventory coverage changed')
     kinds = classifications(contract, project)
     violations, counts = [], {}
+    missing, unexpected = 0, 0
     for row in rows:
         kind = kinds.get(row['id'], 'unlocalized')
         counts[kind] = counts.get(kind, 0) + 1
         proposed = corrected(row['source'], kind, contract['rules'])
         if proposed != row['source']:
+            if kind in contract['rules'].get('no_terminal_stop_kinds', []):
+                unexpected += 1
+            else:
+                missing += 1
             violations.append(dict(id=row['id'], text_kind=kind,
                 source_sha256=digest(row['source'].encode()), translation=proposed))
     return dict(schema_version=1, rows=len(rows), classifications=counts,
-                violations=violations, passed=not violations, game_started=False)
+                violations=violations, missing_terminators=missing,
+                unexpected_terminators=unexpected,
+                passed=not violations, game_started=False)
 
 
 def main():
@@ -96,7 +111,8 @@ def main():
     a.report.write_bytes(raw)
     if a.report.read_bytes() != raw:
         raise ValueError('report readback mismatch')
-    print(f"ROWS={result['rows']} MISSING_TERMINATORS={len(result['violations'])} "
+    print(f"ROWS={result['rows']} MISSING_TERMINATORS={result['missing_terminators']} "
+          f"UNEXPECTED_TERMINATORS={result['unexpected_terminators']} "
           f"RESULT={'PASS' if result['passed'] else 'FAIL'}")
     return int(not result['passed'])
 

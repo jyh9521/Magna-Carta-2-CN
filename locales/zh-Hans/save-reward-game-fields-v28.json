@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "profile": "ue3-tagged-scalar-fields-v1",
+  "objects": [
+    {
+      "object_path": "UI_Core.Scenes.QuestCompleteReward.Base.Quest_Check_Window.Quest_Check_Title_img",
+      "class_path": "MC2UIImage",
+      "tagged_offset": 4,
+      "before_sha256": "f25fdcab41590003b43afbe72ee97cbdc5fc34d312d2e22d1259a4be8e540ea8",
+      "after_sha256": "223d0bedb5e13c9d1acbdb846dd95cd9c899d006c9ff53421eb76796e82e7f04",
+      "fields": [
+        {
+          "property_path": [
+            {
+              "name": "Position",
+              "array_index": 0
+            },
+            {
+              "name": "Value",
+              "array_index": 0
+            }
+          ],
+          "type": "FloatProperty",
+          "before": 271.0,
+          "after": 301.0
+        },
+        {
+          "property_path": [
+            {
+              "name": "Position",
+              "array_index": 0
+            },
+            {
+              "name": "Value",
+              "array_index": 1
+            }
+          ],
+          "type": "FloatProperty",
+          "before": -11.0,
+          "after": -8.5
+        }
+      ]
+    }
+  ]
+}

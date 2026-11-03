@@ -6,7 +6,9 @@ Windows 10/11 x64 离线单文件图形安装器，Flutter Material Design 3。
 直接运行 `MC2-CN-v1.0.exe`；无需另装 Python、Flutter、VC++ 或 ZArchive，也不请求管理员权限。
 运行时临时展开内置组件，正常关闭后清理；详细构建、自检和 UI 契约见
 [v1.0 发布整理](PHASE_335_RELEASE_POLISH.md)。旧版便携目录仍可作为开发构建输出，不再作为玩家交付入口。
-当前单文件已收录至阶段342追加修正，见[安装器刷新与版本核验](PHASE_343_INSTALLER_REFRESH.md)。
+当前单文件已收录至阶段354–355的任务通知、存档点裁切和任务完成标题居中修正，
+见[阶段356安装器刷新](PHASE_356_INSTALLER_REFRESH.md)。同名v1.0旧文件不代表内容相同，
+以实际EXE摘要和内置资源审计为准；重新运行新包并选择新的输出目录，旧ZAR/XEX输出不会自动更新。
 外层启动器与内置界面的文件/产品显示版本均为 `v1.0`；PE 数字版本为 `1.0.0.0`，不再附加构建号1。
 只包含差异补丁和工具，不包含完整原盘、XEX 或 DLC。
 新版 LOGO 原样嵌入，保持透明度与比例；所有页面最右下角的「伯翎飞云」
@@ -53,9 +55,10 @@ STFS 哈希树、Title ID、Content Type、大小和输出摘要均检查；保�
 ## 构建数据流
 
 1. 由原盘与版本化译文/配置构建 comparison packets。当前 Disc1 接续
-   [阶段342追加](PHASE_342_TEXT_DARK_BANDS.md)的 v16 packet，包含此前累计修复；
-   DLC 接续阶段331；Disc2 接续 v6 packet、阶段324/325/328/329/330的哈希绑定
-   resource journal，以及源锁内阶段340/342的独有资源更新。中间资源不进入公开源码库。
+   [阶段355](PHASE_355_SAVE_REWARD_LAYOUT.md)的 packet，包含此前累计修复；
+   DLC 接续阶段331；Disc2 按当前 `references/installer-inputs.lock.json` 中的
+   v6 packet、哈希绑定 resource journal 和独有资源更新重新组装。
+   当前标点/图像控件合同为v27/v28；中间资源不进入公开源码库。
 2. `tools.prepare_installer_sources` 验证所有来源清单和资源摘要，重放 Disc2 journal，
    仅在**原始路径及摘要相同**时采用最新 Disc1 共享资源。每盘独立更新 TOC；
    改动 `.xxx` 经过阶段332 raw runtime-envelope 门禁。本次覆盖442/543项。
@@ -96,7 +99,7 @@ python -m tools.audit_installer_release --installer build/release/MC2-CN-v1.0.ex
 ```
 
 构建输出和报告必须使用新路径；先保存已有安装器摘要与独立副本，核验后再替换玩家入口。
-审计读取实际 EXE 的内置清单、全部716项 payload、双盘覆盖项、DLC与两层 PE 版本，
+审计读取实际 EXE 的内置清单、全部717项 payload、双盘覆盖项、DLC与两层 PE 版本，
 不以文件名相同或界面仍显示 v1.0 代替最新资源验证。完整安装/游戏验收仍单独记录。
 
 Recipe 顶层包括 version/title_id/output_name/usage、tools、discs、dlc。

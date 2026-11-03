@@ -1,0 +1,406 @@
+{
+  "schema_version": 1,
+  "kind": "native-texture-alignment-audit",
+  "groups": [
+    {
+      "id": "0-options-title-left",
+      "alignment": "left",
+      "tolerance": 0,
+      "upper": [
+        {
+          "resource": "MC2Game/CookedXenon/MC2Game.xxx",
+          "object": "UI_Name_Jpn.Tex.Field_MainMenu_Big_Title0",
+          "rect": [
+            36,
+            180,
+            164,
+            36
+          ]
+        }
+      ],
+      "lower": [
+        {
+          "resource": "MC2Game/CookedXenon/MC2Game.xxx",
+          "object": "UI_Name_Jpn.Tex.Field_MainMenu_Big_Title1",
+          "rect": [
+            36,
+            0,
+            160,
+            36
+          ]
+        }
+      ],
+      "upper_thresholds": {
+        "min_alpha": 160,
+        "min_rgb": 128
+      },
+      "lower_thresholds": {
+        "min_alpha": 160,
+        "min_rgb": 128
+      }
+    },
+    {
+      "id": "1-options-title-left",
+      "alignment": "left",
+      "tolerance": 0,
+      "upper": [
+        {
+          "resource": "MC2Game/CookedXenon/UI_Name_Jpn.xxx",
+          "object": "Tex.Field_MainMenu_Big_Title0",
+          "rect": [
+            36,
+            180,
+            164,
+            36
+          ]
+        }
+      ],
+      "lower": [
+        {
+          "resource": "MC2Game/CookedXenon/UI_Name_Jpn.xxx",
+          "object": "Tex.Field_MainMenu_Big_Title1",
+          "rect": [
+            36,
+            0,
+            160,
+            36
+          ]
+        }
+      ],
+      "upper_thresholds": {
+        "min_alpha": 160,
+        "min_rgb": 128
+      },
+      "lower_thresholds": {
+        "min_alpha": 160,
+        "min_rgb": 128
+      }
+    }
+  ],
+  "gaps": [
+    {
+      "resource": "MC2Game/CookedXenon/MC2Game.xxx",
+      "object": "UI_Name_Jpn.Tex.Field_MainMenu_Big_Title0",
+      "rect": [
+        33,
+        0,
+        3,
+        36
+      ],
+      "rgb_ceiling": 96
+    },
+    {
+      "resource": "MC2Game/CookedXenon/MC2Game.xxx",
+      "object": "UI_Name_Jpn.Tex.Field_MainMenu_Big_Title0",
+      "rect": [
+        33,
+        36,
+        3,
+        36
+      ],
+      "rgb_ceiling": 96
+    },
+    {
+      "resource": "MC2Game/CookedXenon/MC2Game.xxx",
+      "object": "UI_Name_Jpn.Tex.Field_MainMenu_Big_Title0",
+      "rect": [
+        33,
+        72,
+        3,
+        36
+      ],
+      "rgb_ceiling": 96
+    },
+    {
+      "resource": "MC2Game/CookedXenon/MC2Game.xxx",
+      "object": "UI_Name_Jpn.Tex.Field_MainMenu_Big_Title0",
+      "rect": [
+        33,
+        108,
+        3,
+        36
+      ],
+      "rgb_ceiling": 96
+    },
+    {
+      "resource": "MC2Game/CookedXenon/MC2Game.xxx",
+      "object": "UI_Name_Jpn.Tex.Field_MainMenu_Big_Title0",
+      "rect": [
+        33,
+        144,
+        3,
+        36
+      ],
+      "rgb_ceiling": 96
+    },
+    {
+      "resource": "MC2Game/CookedXenon/MC2Game.xxx",
+      "object": "UI_Name_Jpn.Tex.Field_MainMenu_Big_Title0",
+      "rect": [
+        33,
+        180,
+        3,
+        36
+      ],
+      "rgb_ceiling": 96
+    },
+    {
+      "resource": "MC2Game/CookedXenon/MC2Game.xxx",
+      "object": "UI_Name_Jpn.Tex.Field_MainMenu_Big_Title0",
+      "rect": [
+        33,
+        216,
+        3,
+        36
+      ],
+      "rgb_ceiling": 96
+    },
+    {
+      "resource": "MC2Game/CookedXenon/UI_Name_Jpn.xxx",
+      "object": "Tex.Field_MainMenu_Big_Title0",
+      "rect": [
+        33,
+        0,
+        3,
+        36
+      ],
+      "rgb_ceiling": 96
+    },
+    {
+      "resource": "MC2Game/CookedXenon/UI_Name_Jpn.xxx",
+      "object": "Tex.Field_MainMenu_Big_Title0",
+      "rect": [
+        33,
+        36,
+        3,
+        36
+      ],
+      "rgb_ceiling": 96
+    },
+    {
+      "resource": "MC2Game/CookedXenon/UI_Name_Jpn.xxx",
+      "object": "Tex.Field_MainMenu_Big_Title0",
+      "rect": [
+        33,
+        72,
+        3,
+        36
+      ],
+      "rgb_ceiling": 96
+    },
+    {
+      "resource": "MC2Game/CookedXenon/UI_Name_Jpn.xxx",
+      "object": "Tex.Field_MainMenu_Big_Title0",
+      "rect": [
+        33,
+        108,
+        3,
+        36
+      ],
+      "rgb_ceiling": 96
+    },
+    {
+      "resource": "MC2Game/CookedXenon/UI_Name_Jpn.xxx",
+      "object": "Tex.Field_MainMenu_Big_Title0",
+      "rect": [
+        33,
+        144,
+        3,
+        36
+      ],
+      "rgb_ceiling": 96
+    },
+    {
+      "resource": "MC2Game/CookedXenon/UI_Name_Jpn.xxx",
+      "object": "Tex.Field_MainMenu_Big_Title0",
+      "rect": [
+        33,
+        180,
+        3,
+        36
+      ],
+      "rgb_ceiling": 96
+    },
+    {
+      "resource": "MC2Game/CookedXenon/UI_Name_Jpn.xxx",
+      "object": "Tex.Field_MainMenu_Big_Title0",
+      "rect": [
+        33,
+        216,
+        3,
+        36
+      ],
+      "rgb_ceiling": 96
+    }
+  ],
+  "protected": [
+    {
+      "id": "0-icons",
+      "resource": "MC2Game/CookedXenon/MC2Game.xxx",
+      "object": "UI_Name_Jpn.Tex.Field_MainMenu_Big_Title0",
+      "rect": [
+        0,
+        0,
+        32,
+        256
+      ],
+      "rgba_sha256": "eb4ead6912888ca167e4dda86c30349a41acc14e140479a87ead40d6f1168436"
+    },
+    {
+      "id": "0-all-current-lettering",
+      "resource": "MC2Game/CookedXenon/MC2Game.xxx",
+      "object": "UI_Name_Jpn.Tex.Field_MainMenu_Big_Title0",
+      "rect": [
+        36,
+        0,
+        220,
+        256
+      ],
+      "rgba_sha256": "90d1071291f888ccdb714149545e4628b4eebd29a6aa5828f934b942bfd8b7ca"
+    },
+    {
+      "id": "0-fixed-main-menu",
+      "resource": "MC2Game/CookedXenon/MC2Game.xxx",
+      "object": "UI_Name_Jpn.Tex.Field_MainMenu_Big_Title0",
+      "rect": [
+        32,
+        0,
+        4,
+        36
+      ],
+      "rgba_sha256": "0de69a57e6b5339325c2d1f11533959f9d1e43802bb491cf2a72ed4b1144229d"
+    },
+    {
+      "id": "0-atlas-tail",
+      "resource": "MC2Game/CookedXenon/MC2Game.xxx",
+      "object": "UI_Name_Jpn.Tex.Field_MainMenu_Big_Title0",
+      "rect": [
+        32,
+        252,
+        4,
+        4
+      ],
+      "rgba_sha256": "f0115a08446a174c302f87f91cece14b672cce0b6539ea1467d339f02f2e57af"
+    },
+    {
+      "id": "0-option-icon",
+      "resource": "MC2Game/CookedXenon/MC2Game.xxx",
+      "object": "UI_Name_Jpn.Tex.Field_MainMenu_Big_Title1",
+      "rect": [
+        0,
+        0,
+        32,
+        36
+      ],
+      "rgba_sha256": "df1f90b0bc4365faba0d24ba516358018e5a4b465dfbaae4070ac40bea6e8465"
+    },
+    {
+      "id": "0-tutorial-label",
+      "resource": "MC2Game/CookedXenon/MC2Game.xxx",
+      "object": "UI_Name_Jpn.Tex.Field_MainMenu_Big_Title1",
+      "rect": [
+        0,
+        36,
+        256,
+        28
+      ],
+      "rgba_sha256": "db39fabe373d8a7353b65316e2e86ba661a746862aee8f2dc08bc5a288728f6e"
+    },
+    {
+      "id": "0-options-shared-font-style",
+      "resource": "MC2Game/CookedXenon/MC2Game.xxx",
+      "object": "UI_Name_Jpn.Tex.Field_MainMenu_Big_Title1",
+      "rect": [
+        32,
+        0,
+        224,
+        36
+      ],
+      "rgba_sha256": "8e031f51385873e51b60a44d747eda4bfdc8da61760b062d7b84bc5d46c8beba"
+    },
+    {
+      "id": "1-icons",
+      "resource": "MC2Game/CookedXenon/UI_Name_Jpn.xxx",
+      "object": "Tex.Field_MainMenu_Big_Title0",
+      "rect": [
+        0,
+        0,
+        32,
+        256
+      ],
+      "rgba_sha256": "eb4ead6912888ca167e4dda86c30349a41acc14e140479a87ead40d6f1168436"
+    },
+    {
+      "id": "1-all-current-lettering",
+      "resource": "MC2Game/CookedXenon/UI_Name_Jpn.xxx",
+      "object": "Tex.Field_MainMenu_Big_Title0",
+      "rect": [
+        36,
+        0,
+        220,
+        256
+      ],
+      "rgba_sha256": "90d1071291f888ccdb714149545e4628b4eebd29a6aa5828f934b942bfd8b7ca"
+    },
+    {
+      "id": "1-fixed-main-menu",
+      "resource": "MC2Game/CookedXenon/UI_Name_Jpn.xxx",
+      "object": "Tex.Field_MainMenu_Big_Title0",
+      "rect": [
+        32,
+        0,
+        4,
+        36
+      ],
+      "rgba_sha256": "0de69a57e6b5339325c2d1f11533959f9d1e43802bb491cf2a72ed4b1144229d"
+    },
+    {
+      "id": "1-atlas-tail",
+      "resource": "MC2Game/CookedXenon/UI_Name_Jpn.xxx",
+      "object": "Tex.Field_MainMenu_Big_Title0",
+      "rect": [
+        32,
+        252,
+        4,
+        4
+      ],
+      "rgba_sha256": "f0115a08446a174c302f87f91cece14b672cce0b6539ea1467d339f02f2e57af"
+    },
+    {
+      "id": "1-option-icon",
+      "resource": "MC2Game/CookedXenon/UI_Name_Jpn.xxx",
+      "object": "Tex.Field_MainMenu_Big_Title1",
+      "rect": [
+        0,
+        0,
+        32,
+        36
+      ],
+      "rgba_sha256": "df1f90b0bc4365faba0d24ba516358018e5a4b465dfbaae4070ac40bea6e8465"
+    },
+    {
+      "id": "1-tutorial-label",
+      "resource": "MC2Game/CookedXenon/UI_Name_Jpn.xxx",
+      "object": "Tex.Field_MainMenu_Big_Title1",
+      "rect": [
+        0,
+        36,
+        256,
+        28
+      ],
+      "rgba_sha256": "db39fabe373d8a7353b65316e2e86ba661a746862aee8f2dc08bc5a288728f6e"
+    },
+    {
+      "id": "1-options-shared-font-style",
+      "resource": "MC2Game/CookedXenon/UI_Name_Jpn.xxx",
+      "object": "Tex.Field_MainMenu_Big_Title1",
+      "rect": [
+        32,
+        0,
+        224,
+        36
+      ],
+      "rgba_sha256": "8e031f51385873e51b60a44d747eda4bfdc8da61760b062d7b84bc5d46c8beba"
+    }
+  ]
+}

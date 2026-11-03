@@ -1,0 +1,540 @@
+{
+  "schema_version": 1,
+  "kind": "terminal-punctuation-audit-v1",
+  "resource": "MC2Game/Localization/Coalesced.int",
+  "entry_count": 18176,
+  "classification_sources": [
+    {
+      "path": "locales/zh-Hans/readability-fix.review.json",
+      "sha256": "edf2574f5823352d7c711ebab823d8e63325cbd14a534099a843ee3ff5ce3f4c"
+    },
+    {
+      "path": "locales/zh-Hans/batch-001.review.json",
+      "sha256": "3d7a0f098dd8b4d4b847aec281451b06613bded387b7e966edaa051e9dd49e3b"
+    },
+    {
+      "path": "locales/zh-Hans/batch-002.review.json",
+      "sha256": "e8d135450c247fb337403d3d7499c9feeadd299041d9f719fb8221ec7acbc831"
+    },
+    {
+      "path": "locales/zh-Hans/batch-003.review.json",
+      "sha256": "b940003fd52e450d3e4a69c04527a3a213df56d890c41b048d369aab4dd9d9b9"
+    },
+    {
+      "path": "locales/zh-Hans/batch-004.review.json",
+      "sha256": "4242d8c667655bd55bfc68616d4861e2d7391cb4d36b51b94b94b9e0c231cd2d"
+    },
+    {
+      "path": "locales/zh-Hans/batch-005.review.json",
+      "sha256": "e28b4f89f1e3fd11cc925b9481db731920f087bfe11b2c4f9a2f041540371e1e"
+    },
+    {
+      "path": "locales/zh-Hans/batch-006.review.json",
+      "sha256": "2ed8ff2621206b57410796f91658c95864169ccf4aa19b6b309e562f28e81b50"
+    },
+    {
+      "path": "locales/zh-Hans/batch-007.review.json",
+      "sha256": "b0e0cb1ca1987cec02286edf91763ae05409078140210ecfdb5fafe3c2ff0634"
+    },
+    {
+      "path": "locales/zh-Hans/batch-008.review.json",
+      "sha256": "b42c91dab878dcbc1c339fdb8169645e38dea679169f7ccb152d5bacc1f8bc41"
+    },
+    {
+      "path": "locales/zh-Hans/batch-009.review.json",
+      "sha256": "8d8372dcd6f03a8503a261f6fde5c177745da1b4a3fd60fa73ae08a245052968"
+    },
+    {
+      "path": "locales/zh-Hans/batch-010.review.json",
+      "sha256": "7bc86e84043dd39a31f9e706d8e23e1d13f3bc009ee3378134d6f0407c13429d"
+    },
+    {
+      "path": "locales/zh-Hans/batch-011.review.json",
+      "sha256": "15ccea836de916fc382c672aa621b47563a40eca1a4a8535081e814f844d1a42"
+    },
+    {
+      "path": "locales/zh-Hans/batch-012.review.json",
+      "sha256": "6a4b723008a8df415f51127dd19f32ec8e5abe5bf2501dc5e08bb3fa562f9460"
+    },
+    {
+      "path": "locales/zh-Hans/batch-013.review.json",
+      "sha256": "68ea65f7da1b14f67de843f0c34bd7c34de1f82ab8c1e97406fe079e8a86e63d"
+    },
+    {
+      "path": "locales/zh-Hans/batch-014.review.json",
+      "sha256": "ad01ad28eca3ab6d8a8d4868e1729509a0effa836abee37ff9a095950b76fdf3"
+    },
+    {
+      "path": "locales/zh-Hans/batch-015.review.json",
+      "sha256": "76f10958585a877f65e2437c59271b0771f1b7df7f028680641884b3bb9ed569"
+    },
+    {
+      "path": "locales/zh-Hans/batch-016.review.json",
+      "sha256": "9a8c8306aff300b9ac0d9d33732ada85129c860b0a5ea5b2bc012e6015387454"
+    },
+    {
+      "path": "locales/zh-Hans/batch-017.review.json",
+      "sha256": "18e5dac7cc334612035693f2b0efad39a8b115c918b2298d4075556e425146c4"
+    },
+    {
+      "path": "locales/zh-Hans/batch-018.review.json",
+      "sha256": "a5b62855e59f5de577294a87fa761bb3cded75d48b10f098b880079998b5a538"
+    },
+    {
+      "path": "locales/zh-Hans/batch-019.review.json",
+      "sha256": "b84d2c47459e40b145f0c6af987678ba3794407d85fb7d3a4d81999e40328e2f"
+    },
+    {
+      "path": "locales/zh-Hans/batch-020.review.json",
+      "sha256": "97505075d24a03abc72638bfffa0bb74476cb7073fb5812c775fc406cc24dba8"
+    },
+    {
+      "path": "locales/zh-Hans/batch-021.review.json",
+      "sha256": "35dbec4c0c4081f487c201c29c2d3a9f1edcdab9b99c3af160e1f8f1f8462402"
+    },
+    {
+      "path": "locales/zh-Hans/batch-022.review.json",
+      "sha256": "62258b70af16a91bc49b8fe48f3f2ea769439e4abc6e6ed23b007f1326000b77"
+    },
+    {
+      "path": "locales/zh-Hans/batch-023.review.json",
+      "sha256": "3f9d17832c7630af78758269bf4e8912e6c54dd90cd558064afaa9395b618faa"
+    },
+    {
+      "path": "locales/zh-Hans/batch-024.review.json",
+      "sha256": "eea5be97e0d748a602bc3c01b6edd37f9ea948bda03b69661344b48db36ef769"
+    },
+    {
+      "path": "locales/zh-Hans/batch-025.review.json",
+      "sha256": "272a5bd5e7699bd4970a06ee9a8d32b0b2c8040f2bfc9bdcb5d4489c06cb9682"
+    },
+    {
+      "path": "locales/zh-Hans/batch-026.review.json",
+      "sha256": "536da62cb2e2706215b9574178c9ce61fccf3bd2336092722cfbac2ba90488ed"
+    },
+    {
+      "path": "locales/zh-Hans/batch-027.review.json",
+      "sha256": "1381814149bfb7ffd732c6d076d154a5b4d5ff11ca9ff5a045377bc2ef158486"
+    },
+    {
+      "path": "locales/zh-Hans/batch-028.review.json",
+      "sha256": "99932de0d2fa0b22e738fba2a33d5d2f205d3bfef1273315a61560ce95e35f6b"
+    },
+    {
+      "path": "locales/zh-Hans/batch-029.review.json",
+      "sha256": "2ce37bae02d748366c6f900b6fcb4edd3b9e000618b3222302e8bd8e7d7e6396"
+    },
+    {
+      "path": "locales/zh-Hans/batch-030.review.json",
+      "sha256": "a2ca3fe07aace74f51ab561131972d427262fac5c76225a95c7ebe8706d2b100"
+    },
+    {
+      "path": "locales/zh-Hans/batch-031.review.json",
+      "sha256": "312526e0de0bbd710ce78a9beed9d230194c206f1bdd5f9f8793d36ca28811ef"
+    },
+    {
+      "path": "locales/zh-Hans/batch-032.review.json",
+      "sha256": "4cb51d8db1aa827547ae1c6bf53c3e79544cb266fb18f603a482cfec7967638f"
+    },
+    {
+      "path": "locales/zh-Hans/batch-033.review.json",
+      "sha256": "ad6a4fd70fd0170b03dab818567393afa13233274042d6cdc5a1cc1f0b5ea13f"
+    },
+    {
+      "path": "locales/zh-Hans/batch-034.review.json",
+      "sha256": "10db55e849749321bb9bcf62924fdac5661a1822aa3fd55054ed352c94cd6a02"
+    },
+    {
+      "path": "locales/zh-Hans/batch-035.review.json",
+      "sha256": "4f386a6d7acc1080b98f160c60f8e42e8e14a1d65e24fd7fdbb60283deda4bf4"
+    },
+    {
+      "path": "locales/zh-Hans/batch-036.review.json",
+      "sha256": "a3e8c942d8f55056267d57253f7b86d47f6086c1f71c55c0bc7fcb529e288a01"
+    },
+    {
+      "path": "locales/zh-Hans/batch-037.review.json",
+      "sha256": "6e2b74e593087b0fc898a845f7a3105da2b6cd1a44b10fcd06c815f69b1cf4d2"
+    },
+    {
+      "path": "locales/zh-Hans/batch-038.review.json",
+      "sha256": "bac83e9149f620311d13f5fb4c13291a3774f4cb42435ad8d83706207e5a3b1f"
+    },
+    {
+      "path": "locales/zh-Hans/batch-039.review.json",
+      "sha256": "9549bb9a1ea9c1f5bad55af4e6592237d2ddfeb30eff5ffce28bf450aef90f0a"
+    },
+    {
+      "path": "locales/zh-Hans/batch-040.review.json",
+      "sha256": "2862243cfb16867071075b76980960170567b98f5a836de4c23ba92c7a2819d5"
+    },
+    {
+      "path": "locales/zh-Hans/batch-041.review.json",
+      "sha256": "7c3fc75cf3eb61fb79fc71f1881a752cb3c1bb79c6782d0e51b91d81b12e4a85"
+    },
+    {
+      "path": "locales/zh-Hans/batch-042.review.json",
+      "sha256": "8eb3cbbd69c65f7aa5af04bb18367794a4cfc00edbf51a8bab1b653f87fa5619"
+    },
+    {
+      "path": "locales/zh-Hans/batch-043.review.json",
+      "sha256": "68f7b7ac357ed96d7cc94512617ad8b07e256f6195ea773f8faec2aac6978903"
+    },
+    {
+      "path": "locales/zh-Hans/batch-044.review.json",
+      "sha256": "efd64138e745cd35de039550452fe9a3cc8ffd7e02e71224c1e7be041d1f84c2"
+    },
+    {
+      "path": "locales/zh-Hans/batch-045.review.json",
+      "sha256": "f44aa9d60988ca5ede0291b23ad9f53841d7f286ad22dc0a4e90e6f310e88d6e"
+    },
+    {
+      "path": "locales/zh-Hans/batch-046.review.json",
+      "sha256": "8b9a38810d240b24491128dd3180d328423f369d13f82cea3353195b813dabc4"
+    },
+    {
+      "path": "locales/zh-Hans/batch-047.review.json",
+      "sha256": "aaad42968e91de42858f5eeeb653cb28c1781578996f4e259bdcb1587b075fe8"
+    },
+    {
+      "path": "locales/zh-Hans/batch-048.review.json",
+      "sha256": "28a2afb199310d220c0908f7491a93dcd3ecb76af4f7848b6d0e5fc486d02490"
+    },
+    {
+      "path": "locales/zh-Hans/batch-049.review.json",
+      "sha256": "7eaad839b77a1314c9e15c569866899372d0ceef43f9c51e83bd10225dd39d60"
+    },
+    {
+      "path": "locales/zh-Hans/batch-050.review.json",
+      "sha256": "66f1138d613ea463423e9cd43b9d72a56feaf916e103c72cf8d741345769631b"
+    },
+    {
+      "path": "locales/zh-Hans/batch-051.review.json",
+      "sha256": "6fb67397a7d8358052e37930b27b6a75083d0e1e06a488474adbe23389ae2701"
+    },
+    {
+      "path": "locales/zh-Hans/batch-052.review.json",
+      "sha256": "8bb420e47518e51ba9bfd5051b8e0133ddb85cc4c371d66d4b2af2c2fc1cae5e"
+    },
+    {
+      "path": "locales/zh-Hans/batch-053.review.json",
+      "sha256": "9d81a46fdd6e2017e4abcda520f0d4cd2955d35b1a0fe13307bd83de5ac7ad33"
+    },
+    {
+      "path": "locales/zh-Hans/batch-054.review.json",
+      "sha256": "46bacfb89226ec03bd27ad744ef9a1926d0a6d9e4bc85d503ca1263fafeddf2e"
+    },
+    {
+      "path": "locales/zh-Hans/batch-055.review.json",
+      "sha256": "c9fa341c7d18b04bce39149ef4f2c2eaa252ede022b1c9c55d4ddca66c90a406"
+    },
+    {
+      "path": "locales/zh-Hans/batch-056.review.json",
+      "sha256": "607de394b161d00f4ce174356afc64fd757a5cb35c2fbbbfbf5c41501e4a778b"
+    },
+    {
+      "path": "locales/zh-Hans/batch-057.review.json",
+      "sha256": "40d51c06ed5367bd445681aa6b351bc7b4ee2db1ab7976845aa404367141c8be"
+    },
+    {
+      "path": "locales/zh-Hans/batch-058.review.json",
+      "sha256": "206c9fdf27b617ad4c0bc39dded2fad985b8c401643dc1aaa7919fa66e000d7d"
+    },
+    {
+      "path": "locales/zh-Hans/batch-059.review.json",
+      "sha256": "afb16940913f8d1e504f1c6d60278913b4e3cb1d2bf13b67557fe011ab04e14c"
+    },
+    {
+      "path": "locales/zh-Hans/batch-060.review.json",
+      "sha256": "dc4bc60a752b9b8caa1ca9df14ed6b6fc46e57838d2af53cb9d46d2abbb4dde3"
+    },
+    {
+      "path": "locales/zh-Hans/batch-061.review.json",
+      "sha256": "818792e8f7d8b5d8be077e37304d2dae27fbadd80dabf24c042c0a1e0b5c4bcc"
+    },
+    {
+      "path": "locales/zh-Hans/batch-062.review.json",
+      "sha256": "548f9bcdc15007c410347f3ee735fe9c126abac6c38ce3bccf25a3c12cb9606c"
+    },
+    {
+      "path": "locales/zh-Hans/batch-063.review.json",
+      "sha256": "787b12a6dfb9af2b3d18082903c66559c9e76026b99979fce6bc380d58024e92"
+    },
+    {
+      "path": "locales/zh-Hans/batch-064.review.json",
+      "sha256": "80ef1d5fe3ab8c968af5717f508b5797fd6a2560924e44b8884787e2d5e1ce53"
+    },
+    {
+      "path": "locales/zh-Hans/batch-065.review.json",
+      "sha256": "81cf7015ad17ca01d83ab71f59e232bbd0b68ad50e9f2b5ed0f9664d74fb0c4f"
+    },
+    {
+      "path": "locales/zh-Hans/batch-066.review.json",
+      "sha256": "9b7563e51ec0f08fbf01e635b84d0b8d0b27484b63b5827bf07e73f226b6bb8e"
+    },
+    {
+      "path": "locales/zh-Hans/batch-067.review.json",
+      "sha256": "1ffce7bc3b740fad2d4d181f50aa8d1f5b06ea2142e6fb9362d1fb9630724a69"
+    },
+    {
+      "path": "locales/zh-Hans/batch-068.review.json",
+      "sha256": "c7439ae37451a0209e3eb3a5c84f39bb88dc8714699b8b62c84144c83132de96"
+    },
+    {
+      "path": "locales/zh-Hans/batch-069.review.json",
+      "sha256": "276b08429c0e17e3bc78690f99af303bd90f51559f65a8b6068308d94463c9d4"
+    },
+    {
+      "path": "locales/zh-Hans/batch-070.review.json",
+      "sha256": "be11e4b0f523577b697608d73cf33730564a21e0abf123d58febf3ea4e299548"
+    },
+    {
+      "path": "locales/zh-Hans/batch-071.review.json",
+      "sha256": "9bc69568643f77de6ef66932af915f0d65109d72049d5411615a3f40c8ec132e"
+    },
+    {
+      "path": "locales/zh-Hans/batch-072.review.json",
+      "sha256": "a25ec70f29929f1360b64bae946afb75a97af50c3069f6fd9ee7a1ff24367254"
+    },
+    {
+      "path": "locales/zh-Hans/batch-073.review.json",
+      "sha256": "995fad5d9bb7b29443ced4af98b7bd50d584781cf115557f8dc741a8e696b05e"
+    },
+    {
+      "path": "locales/zh-Hans/batch-074.review.json",
+      "sha256": "ce868eb99b6ba3a6a4002c782bcabecb7df2fb3b408388361c5caa2e0c56a56a"
+    },
+    {
+      "path": "locales/zh-Hans/batch-075.review.json",
+      "sha256": "01bc5bea7cb8685ccd2e27acce8897c253c788206730953ebd90d559bafbf538"
+    },
+    {
+      "path": "locales/zh-Hans/batch-076.review.json",
+      "sha256": "8723e1c58b0030f7f3ec94bbe920c1951fbff912c9c654e483db2c903fbb2f51"
+    },
+    {
+      "path": "locales/zh-Hans/batch-077.review.json",
+      "sha256": "d93fafa85edf09424af60b0b38a334d97afac2ca23c13aa6888361b86b1e9161"
+    },
+    {
+      "path": "locales/zh-Hans/batch-078.review.json",
+      "sha256": "4fa16b801d89156d8ed0d02e561a29e9dda599a2d290c866062ae1c4c5a9275f"
+    },
+    {
+      "path": "locales/zh-Hans/batch-079.review.json",
+      "sha256": "41e213127b0e7782bd34e97783a08c548e77e75d2533b4e8804b42c247898960"
+    },
+    {
+      "path": "locales/zh-Hans/batch-080.review.json",
+      "sha256": "0da36bc5ec6b61e6e0179e20aebd41f9b6708042741e3a3fd365f883e18aaeb0"
+    },
+    {
+      "path": "locales/zh-Hans/batch-081.review.json",
+      "sha256": "739409a83c9fec83782955938bb9961258de93dbb1118be4c44aa59b4ea6ed8f"
+    },
+    {
+      "path": "locales/zh-Hans/batch-082.review.json",
+      "sha256": "837a4cde65b348bcb3bfcf80dc8dd4f2de1d7c9e6f01638913da6eb9b185570e"
+    },
+    {
+      "path": "locales/zh-Hans/batch-083.review.json",
+      "sha256": "20b3e9b2b55a256a2af11facc6aa419c30b90b368cf7aa9c83f227db2da2b160"
+    },
+    {
+      "path": "locales/zh-Hans/batch-084.review.json",
+      "sha256": "409995675b98a200322a738b5f21d38c825991d5ee5317b7d7eca0d03f86c46a"
+    },
+    {
+      "path": "locales/zh-Hans/batch-085.review.json",
+      "sha256": "0d9a152125744ba890327e9fd202bede1d7eab8847a8012729708674b21b510d"
+    },
+    {
+      "path": "locales/zh-Hans/batch-086.review.json",
+      "sha256": "99811f0ded6cd195530d22532103536263317f9023900eebddc7eef9a797ef4a"
+    },
+    {
+      "path": "locales/zh-Hans/batch-087.review.json",
+      "sha256": "25bafbe531602e1f418ac1b5abf70d2a5f85a7e52d77d68a2d72239c51d20008"
+    },
+    {
+      "path": "locales/zh-Hans/batch-088.review.json",
+      "sha256": "19087633060496f4ab052dc508b7f5f916991cb5a4f42dda001a8281440409e3"
+    },
+    {
+      "path": "locales/zh-Hans/batch-089.review.json",
+      "sha256": "8f7c26704d1d5e8087b872b16d995d4ce491b77f6704c32e18d74793d16b9627"
+    },
+    {
+      "path": "locales/zh-Hans/batch-090.review.json",
+      "sha256": "30406b0afbcdf3b61e016c5a9119b025b550bed0fb3b5a989fc41dd81823d103"
+    },
+    {
+      "path": "locales/zh-Hans/batch-091.review.json",
+      "sha256": "634608a8515e3c621073a155ec2987b4db9c6c4a9dfc739f531c215088630ce6"
+    },
+    {
+      "path": "locales/zh-Hans/batch-092.review.json",
+      "sha256": "39cd2abea5fe6f7b7b98dd2c2026a4673dc60084d1db06a1201158b4e6996022"
+    },
+    {
+      "path": "locales/zh-Hans/batch-093.review.json",
+      "sha256": "165a44dc064898f8dc6b4e53e7b3fe92d79f05610eac2aa04b9888d46b13c669"
+    },
+    {
+      "path": "locales/zh-Hans/batch-094.review.json",
+      "sha256": "e3bb11a4e4882be781da500c6c34dce67d823fee11b9e09d80de7666d6e14b9b"
+    },
+    {
+      "path": "locales/zh-Hans/batch-095.review.json",
+      "sha256": "59379163c94df9f4791f14531dc828333bea50abc8171ea8acf2f82af5b7abad"
+    },
+    {
+      "path": "locales/zh-Hans/batch-096.review.json",
+      "sha256": "9171bccc935ca0b3e5a34e8d4547cdc4a1a520e7b1c9d43ea82b1c6af7333de1"
+    },
+    {
+      "path": "locales/zh-Hans/batch-097.review.json",
+      "sha256": "4e9c8026f3ebb8e6c333f55108e2f9619384d5990739bc2eaf9f70ee7fd76137"
+    },
+    {
+      "path": "locales/zh-Hans/batch-098.review.json",
+      "sha256": "dbfb1ebe5ed923289195a2f2eaca39803f0697a6f047c0d41e6856a28c712190"
+    },
+    {
+      "path": "locales/zh-Hans/batch-099.review.json",
+      "sha256": "cf34d449cfba1d517e3b047f609e9e1e852ce695cddc77a3665126c7a7038419"
+    },
+    {
+      "path": "locales/zh-Hans/batch-100.review.json",
+      "sha256": "1dc01da38572f1809498f9b8b1943663502721337a5c068f36c0973d781422e1"
+    },
+    {
+      "path": "locales/zh-Hans/batch-101.review.json",
+      "sha256": "c416506a13ba60012ac186bedce9e75cd8edf691a4b4b15f221996c3a7dd5c00"
+    },
+    {
+      "path": "locales/zh-Hans/batch-102.review.json",
+      "sha256": "d1088dae9f309d72cdffc798cbf2f1d17107eaffe6cdacbc556d89632f2ecc34"
+    },
+    {
+      "path": "locales/zh-Hans/batch-103.review.json",
+      "sha256": "22cc8ff19eb4f645ba2ba5da2dcd689a5637555ea784653b66436d50e12cbfc9"
+    },
+    {
+      "path": "locales/zh-Hans/batch-104.review.json",
+      "sha256": "698e2f4797e042fd413abfcc55fda3d595e8a3b80c81a18e02f5d063be2f91f6"
+    },
+    {
+      "path": "locales/zh-Hans/batch-105.review.json",
+      "sha256": "1df1a82ed75d013f47edb36101f1df793edc33251653e5b0b7951a662eeb8a2e"
+    },
+    {
+      "path": "locales/zh-Hans/batch-106.review.json",
+      "sha256": "1807d55a5a2676a9bed437d91e7b42bd0edeba8ba31f265ecc0ccee3d8fb3497"
+    },
+    {
+      "path": "locales/zh-Hans/batch-107.review.json",
+      "sha256": "8e78872ecee9d7c16414f402fddce555750ad556a8c1f5e34bbd9e85ee22e6b2"
+    },
+    {
+      "path": "locales/zh-Hans/batch-108.review.json",
+      "sha256": "c9282ed9f19dcf7846be2664031f7c5d941337addc609df254471934ca3bcefd"
+    },
+    {
+      "path": "locales/zh-Hans/batch-109.review.json",
+      "sha256": "01f997caa53436468c4623ac4b5c5239188b3190b81d6e714109519134faa5df"
+    },
+    {
+      "path": "locales/zh-Hans/batch-110.review.json",
+      "sha256": "114c6d8ffce339bb2bfcd60a2e03993d9c97450b702baf18c3b396667c9a95e5"
+    },
+    {
+      "path": "locales/zh-Hans/batch-111.review.json",
+      "sha256": "0814b9d48225e210c4e561a212ea02a7fb23c7ba50d75f27c21b13ebf568b706"
+    },
+    {
+      "path": "locales/zh-Hans/batch-112.review.json",
+      "sha256": "e3d1b747288400f1706653a734cb61700c28d270c1dac28ac6649cfc7913bc97"
+    },
+    {
+      "path": "locales/zh-Hans/batch-113.review.json",
+      "sha256": "8ba7015a00f248c213cf9a7f6e5aedde9024502d62f54995b45cbb552af8f46f"
+    },
+    {
+      "path": "locales/zh-Hans/batch-114.review.json",
+      "sha256": "ce12f12dc35ebb0bbbdf07020acaccbf7bc11713d6ef0c657d748a977583ea61"
+    },
+    {
+      "path": "locales/zh-Hans/batch-115.review.json",
+      "sha256": "1379fa08690a3179073ba17014717e4bc89e76c522ecd1499940d2352b145588"
+    },
+    {
+      "path": "locales/zh-Hans/batch-116.review.json",
+      "sha256": "352d8f5cbe326fa1626c50e08e29402a85f03906fb238f6ef4321e02a768591e"
+    },
+    {
+      "path": "locales/zh-Hans/batch-117.review.json",
+      "sha256": "b65b2737050f27fcae2f97cb1e187f7b09db3976889f8985197200b0c0bc79dc"
+    },
+    {
+      "path": "locales/zh-Hans/batch-118.review.json",
+      "sha256": "64917109944d7b73fcefdefdf79f261f168ab6789614bdda7184800cc8979e8e"
+    },
+    {
+      "path": "locales/zh-Hans/batch-119.review.json",
+      "sha256": "02acb51d06c016abe6b0fcf5bb53b8d54a4926a9a65663128312b4d31941b482"
+    },
+    {
+      "path": "locales/zh-Hans/batch-120.review.json",
+      "sha256": "bb76fa95ea91d0e8080aea8d71e0a8c0df20d290b7c8cca5b143731d5f1febf8"
+    },
+    {
+      "path": "locales/zh-Hans/batch-121.review.json",
+      "sha256": "df45e2019b688b83d88cc90748063fff467d46454c23e61e71532d7cb9cda9a7"
+    }
+  ],
+  "classification_overrides": [
+    {
+      "id": "coalesced:8493644dfe4e48aef58b4996233ee1f95d65dd78329be483203af2599e23f07b",
+      "before": "mail_body",
+      "after": "fragment",
+      "reason": "original unresolved fragment; no invented sentence ending"
+    }
+  ],
+  "rules": {
+    "sentence_kinds": [
+      "item_description",
+      "equipment_description",
+      "skill_description",
+      "effect_description",
+      "quest_description",
+      "quest_objective",
+      "quest_progress",
+      "quest_status",
+      "system_message",
+      "system",
+      "tutorial",
+      "menu_description",
+      "mail_body",
+      "mail_subject",
+      "menu",
+      "menu_option"
+    ],
+    "stat_line_kinds": [
+      "item_description",
+      "equipment_description",
+      "effect_description"
+    ],
+    "stat_line_pattern": "(?=.*\\d)(?=.*[+\\-−＋])[^，、；：。！？!?]*",
+    "internal_pattern": "[，、；：,;:。！？!?…“”‘’「」『』《》（）()]",
+    "closing_characters": "”’」』】）)]〉》",
+    "endings": "。.!！?？…～~—：:,，",
+    "full_stop": "。",
+    "annotation_pattern": "[（(][^()（）]*[)）]",
+    "choice_kinds": [
+      "menu_option",
+      "menu"
+    ],
+    "choice_marker_pattern": "<Styles:MC2_StyleFont_0>"
+  }
+}

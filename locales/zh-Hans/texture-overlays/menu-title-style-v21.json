@@ -1,0 +1,460 @@
+{
+  "schema_version": 1,
+  "kind": "texture-text-overlay-plan",
+  "game_rendering_verified": false,
+  "font": {
+    "path": "build/font-source/NotoSerifCJKsc-SemiBold.otf",
+    "sha256": "d627b53dbcde61e07de1498d2623a8b287f78585ffbc90cc0618d0caaa2ed6b0"
+  },
+  "rasterizer_versions": {
+    "Pillow": "12.2.0",
+    "fonttools": "4.63.0"
+  },
+  "labels": [
+    {
+      "id": "img_ui_name_jpn_160_0",
+      "text": "选项",
+      "rect": [
+        32,
+        0,
+        224,
+        36
+      ],
+      "font_size": 20,
+      "style": {
+        "fill": [
+          255,
+          218,
+          187,
+          255
+        ],
+        "stroke_fill": [
+          109,
+          51,
+          21,
+          230
+        ],
+        "shadow_fill": [
+          0,
+          0,
+          0,
+          180
+        ]
+      },
+      "align": "left",
+      "translation_basis": "source-image-cell-with-context",
+      "source_text_sha256": "cb076d9796f531e2d334dc62e0273321f1fc19c714959f4af2d9151b5cbd1f90",
+      "source_ids": [],
+      "restoration": {
+        "source_rgba_sha256": "17e06d76b9de49aca6d0f6844c445cfb0c23ae50e1effff9f21f0a8201c7c480",
+        "mask": {
+          "path": "locales/zh-Hans/texture-overlays/restorations/review-v3-20261026/img_ui_name_jpn_160_0-mask.png",
+          "sha256": "25479b5dda4f3a3c573c76b19c7a6d2dc1f772b914094586fa951879c9943ffa"
+        },
+        "patch": {
+          "path": "locales/zh-Hans/texture-overlays/restorations/review-v3-20261026/img_ui_name_jpn_160_0-patch.png",
+          "sha256": "5815674d9df602279eefc36f3eb14ae86f2d77cb83332245f5edb4aba970ff9a"
+        }
+      },
+      "font": {
+        "path": "build/font-source/NotoSerifCJKsc-SemiBold.otf",
+        "sha256": "d627b53dbcde61e07de1498d2623a8b287f78585ffbc90cc0618d0caaa2ed6b0"
+      },
+      "appearance": {
+        "kind": "source-style-v1",
+        "ink_box": [
+          5,
+          3,
+          212,
+          28
+        ],
+        "align": "left",
+        "gradient": [
+          [
+            0,
+            [
+              206,
+              196,
+              189,
+              255
+            ]
+          ],
+          [
+            37,
+            [
+              255,
+              253,
+              255,
+              255
+            ]
+          ],
+          [
+            74,
+            [
+              255,
+              253,
+              255,
+              255
+            ]
+          ],
+          [
+            111,
+            [
+              255,
+              251,
+              255,
+              255
+            ]
+          ],
+          [
+            148,
+            [
+              255,
+              251,
+              255,
+              255
+            ]
+          ],
+          [
+            185,
+            [
+              255,
+              255,
+              255,
+              255
+            ]
+          ],
+          [
+            222,
+            [
+              255,
+              255,
+              255,
+              255
+            ]
+          ],
+          [
+            259,
+            [
+              255,
+              255,
+              255,
+              255
+            ]
+          ],
+          [
+            296,
+            [
+              255,
+              251,
+              255,
+              255
+            ]
+          ],
+          [
+            333,
+            [
+              255,
+              251,
+              247,
+              255
+            ]
+          ],
+          [
+            370,
+            [
+              255,
+              251,
+              247,
+              255
+            ]
+          ],
+          [
+            407,
+            [
+              255,
+              251,
+              247,
+              255
+            ]
+          ],
+          [
+            444,
+            [
+              255,
+              251,
+              247,
+              255
+            ]
+          ],
+          [
+            481,
+            [
+              255,
+              243,
+              231,
+              255
+            ]
+          ],
+          [
+            519,
+            [
+              255,
+              243,
+              231,
+              255
+            ]
+          ],
+          [
+            556,
+            [
+              255,
+              235,
+              222,
+              255
+            ]
+          ],
+          [
+            593,
+            [
+              255,
+              235,
+              222,
+              255
+            ]
+          ],
+          [
+            630,
+            [
+              255,
+              227,
+              206,
+              255
+            ]
+          ],
+          [
+            667,
+            [
+              255,
+              221,
+              198,
+              255
+            ]
+          ],
+          [
+            704,
+            [
+              255,
+              227,
+              206,
+              255
+            ]
+          ],
+          [
+            741,
+            [
+              255,
+              221,
+              198,
+              255
+            ]
+          ],
+          [
+            778,
+            [
+              255,
+              211,
+              181,
+              255
+            ]
+          ],
+          [
+            815,
+            [
+              255,
+              211,
+              181,
+              255
+            ]
+          ],
+          [
+            852,
+            [
+              255,
+              211,
+              181,
+              255
+            ]
+          ],
+          [
+            889,
+            [
+              255,
+              207,
+              177,
+              255
+            ]
+          ],
+          [
+            926,
+            [
+              255,
+              195,
+              156,
+              255
+            ]
+          ],
+          [
+            963,
+            [
+              255,
+              195,
+              156,
+              255
+            ]
+          ],
+          [
+            1000,
+            [
+              189,
+              138,
+              104,
+              255
+            ]
+          ]
+        ],
+        "outline": [
+          12,
+          12,
+          12,
+          170
+        ],
+        "outline_width": 0.45,
+        "glow": [
+          220,
+          220,
+          220,
+          70
+        ],
+        "glow_radius": 1.2,
+        "shadow": [
+          0,
+          0,
+          0,
+          160
+        ],
+        "shadow_offset": [
+          1,
+          1
+        ],
+        "shadow_radius": 0.7,
+        "italic": 0,
+        "tracking": 1.2,
+        "weight": 0,
+        "motion": 0
+      }
+    }
+  ],
+  "sources": [
+    {
+      "path": "MC2Game/CookedXenon/MC2Game.xxx",
+      "discs": [
+        1,
+        2
+      ],
+      "original": {
+        "path": "build/poc-game/disc1/MC2Game/CookedXenon/MC2Game.xxx",
+        "sha256": "13f92622e2ae2920f6ce6dfc7b0edbbcbec7e83adeacbd56fed84a021739a641"
+      },
+      "base": {
+        "path": "build/poc-game/disc1/MC2Game/CookedXenon/MC2Game.xxx",
+        "sha256": "13f92622e2ae2920f6ce6dfc7b0edbbcbec7e83adeacbd56fed84a021739a641"
+      },
+      "textures": [
+        {
+          "object": "UI_Name_Jpn.Tex.Field_MainMenu_Big_Title1",
+          "payload_sha256": "c7ded258945bc6a5dc68895076e63299c3a785d2916de7a07b02902b4add2782",
+          "tiled_sha256": "4e4d4e5b2062a344f81a56a581d50bb72a9d1f3dd887a5378d46c830baf91615",
+          "dimensions": [
+            256,
+            64
+          ],
+          "regions": [
+            "img_ui_name_jpn_160_0"
+          ],
+          "image_id": "img_ui_name_jpn_160",
+          "protected_regions": [
+            {
+              "id": "img_ui_name_jpn_160_protected_0",
+              "rect": [
+                0,
+                0,
+                32,
+                36
+              ],
+              "rgba_sha256": "df1f90b0bc4365faba0d24ba516358018e5a4b465dfbaae4070ac40bea6e8465"
+            }
+          ],
+          "profile": {
+            "kind": "xbox-inline-bc-v1",
+            "format": 7
+          },
+          "channel_mode": "rgba",
+          "preserve_unchanged_blocks": true,
+          "alpha_encoding": "adaptive-range",
+          "rgb_encoding": "weighted-fit-v1"
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/UI_Name_Jpn.xxx",
+      "discs": [
+        1,
+        2
+      ],
+      "original": {
+        "path": "build/poc-game/disc1/MC2Game/CookedXenon/UI_Name_Jpn.xxx",
+        "sha256": "5f962a3735c51c3941841622a753ec82248a7db62edb2b47fb031faf043cecfc"
+      },
+      "base": {
+        "path": "build/poc-game/disc1/MC2Game/CookedXenon/UI_Name_Jpn.xxx",
+        "sha256": "5f962a3735c51c3941841622a753ec82248a7db62edb2b47fb031faf043cecfc"
+      },
+      "textures": [
+        {
+          "object": "Tex.Field_MainMenu_Big_Title1",
+          "payload_sha256": "b9ce8b901c8cb1cda733918675c4abcef01567b95e55a910eee65e150b40c477",
+          "tiled_sha256": "4e4d4e5b2062a344f81a56a581d50bb72a9d1f3dd887a5378d46c830baf91615",
+          "dimensions": [
+            256,
+            64
+          ],
+          "regions": [
+            "img_ui_name_jpn_160_0"
+          ],
+          "image_id": "img_ui_name_jpn_160",
+          "protected_regions": [
+            {
+              "id": "img_ui_name_jpn_160_protected_0",
+              "rect": [
+                0,
+                0,
+                32,
+                36
+              ],
+              "rgba_sha256": "df1f90b0bc4365faba0d24ba516358018e5a4b465dfbaae4070ac40bea6e8465"
+            }
+          ],
+          "profile": {
+            "kind": "xbox-inline-bc-v1",
+            "format": 7
+          },
+          "channel_mode": "rgba",
+          "preserve_unchanged_blocks": true,
+          "alpha_encoding": "adaptive-range",
+          "rgb_encoding": "weighted-fit-v1"
+        }
+      ]
+    }
+  ]
+}

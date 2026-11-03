@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "kind": "native-texture-translation-v1",
+  "resources": [
+    {
+      "path": "MC2Game/CookedXenon/MC2Game.xxx",
+      "sha256": "8f077927635f6f5df1ea9dca2ea74ede67df03130dcfc96ca53ed5e217fdae08",
+      "discs": [
+        1,
+        2
+      ],
+      "textures": [
+        {
+          "object": "UI_Name_Jpn.Tex.Field_MainMenu_Big_Title0",
+          "tiled_sha256": "866d216aa97066a8399f0b297ea761f81b230e675845aa19d5246d56621ac8bf",
+          "operations": [
+            {
+              "kind": "clear-dark-alpha",
+              "rectangles": [
+                [
+                  32,
+                  36,
+                  4,
+                  216
+                ]
+              ],
+              "rgb_ceiling": 96,
+              "max_retained_delta": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/UI_Name_Jpn.xxx",
+      "sha256": "432371c6496046fd4a29121b68f3503a65de173117a53abc5445f7885aab4965",
+      "discs": [
+        1,
+        2
+      ],
+      "textures": [
+        {
+          "object": "Tex.Field_MainMenu_Big_Title0",
+          "tiled_sha256": "866d216aa97066a8399f0b297ea761f81b230e675845aa19d5246d56621ac8bf",
+          "operations": [
+            {
+              "kind": "clear-dark-alpha",
+              "rectangles": [
+                [
+                  32,
+                  36,
+                  4,
+                  216
+                ]
+              ],
+              "rgb_ceiling": 96,
+              "max_retained_delta": 3
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

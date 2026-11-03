@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "kind": "native-texture-region-update",
+  "game_rendering_verified": false,
+  "disc": 1,
+  "overlay_plan": {
+    "path": "locales/zh-Hans/texture-overlays/menu-title-style-v21.json",
+    "sha256": "cecf5775b4c1363c5f103c17601adb01faabab8879f34c4230bc7dd64411c93c"
+  },
+  "resources": [
+    {
+      "path": "MC2Game/CookedXenon/MC2Game.xxx",
+      "input_sha256": "23efd1d7911ecb01993eb37d44d99279c74fd987b14273da740caa2c9c811c79",
+      "discs": [
+        1,
+        2
+      ],
+      "object": "UI_Name_Jpn.Tex.Field_MainMenu_Big_Title1",
+      "donor_object": "UI_Name_Jpn.Tex.Field_MainMenu_Big_Title1",
+      "rectangles": [
+        [
+          32,
+          0,
+          224,
+          36
+        ]
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/UI_Name_Jpn.xxx",
+      "input_sha256": "c399153e4dd5338bc854ba7d159ec04be6adb5ae2573b8cd3c9fd835101adc11",
+      "discs": [
+        1,
+        2
+      ],
+      "object": "Tex.Field_MainMenu_Big_Title1",
+      "donor_object": "Tex.Field_MainMenu_Big_Title1",
+      "rectangles": [
+        [
+          32,
+          0,
+          224,
+          36
+        ]
+      ]
+    }
+  ]
+}

@@ -9,8 +9,8 @@
     "iso_sha256": "23e96219aa8b2116239c35e6f65013329bfd298d46a726edffa5224498028ac5",
     "inventory": "build\\disc1-hashed.json",
     "inventory_sha256": "2f09849a02729be1d2cae94de5e3e6a1f9fdbf5efa0e007c192a55f2f1bb56d9",
-    "packet": "build/phase-351-punctuation/packet",
-    "manifest_sha256": "3333ab2ecc95dc15f41f987df8ce71fc821d13588c37affade2b28de6e70906f"
+    "packet": "build/phase-353-monster-font/packet-final",
+    "manifest_sha256": "5480eed4a3dfc02c1576bf8396b201a5a8af691fdeb0d26d36e59bd6b4b1901f"
   },
   "disc2": {
     "iso": "MagnaCarta II (Korea) (Disc 2).iso",
@@ -41,6 +41,14 @@
       {
         "manifest": "build/phase-349-name-consistency/modified/replacements-disc2-only.json",
         "sha256": "5f04612597f4079caae33e5b33666120b28a351f4359ea2024f82a910ccfa52b"
+      },
+      {
+        "manifest": "build/phase-353-monster-font/combined/replacements-disc2-only.json",
+        "sha256": "b338b47bb13e6cc4fd609bfa752d69958abdfbc01c845532aabae4aec18117ed"
+      },
+      {
+        "manifest": "build/phase-353-monster-font/reconciled/replacements-disc2-only.json",
+        "sha256": "42c6f0229ae07808fb48a7d68e6cf8a2afd3ebc9dab2ea685d8c4a3a53577bae"
       }
     ]
   },

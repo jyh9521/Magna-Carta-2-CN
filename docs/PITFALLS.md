@@ -1917,3 +1917,19 @@ BC3的透明RGB或等价编码不算可见残留。完整清空文字专用区�
 - 对描述逐视觉行检查会漏掉“上一行有逗号，下一行无句号”。按完整逻辑消息检查，并分离属性数值行、选项与运行时原子片段。详见阶段348–351。
 
 - Source-hash profiles must be authored as LF bytes before hashing: .gitattributes normalizes JSON to LF in Git. Hashing CRLF working files produces broken clean-checkout dependencies. Validate dependency digests against the committed blob, not only the working copy.
+
+## Font consistency follow-up
+
+Matching baseline alone does not match visible numeral height. Measure the actual
+bound Font atlas, not the source TTF em or the name font: KanNum originally uses
+NormalNumber (14–15px ink) while the adjacent CJK is 19–21px. Do not change the
+shared WhiteNumber style to fix five slots; it has 379 explicit consumers.
+Append-only renderer payload edits remain uncompressed but are no longer
+32768-byte aligned. Normalize and pad before texture transfer/composition; the
+runtime-envelope failure is valid and must not be bypassed.
+
+Matching font/style JSON does not prove installed pixels match that plan. The
+full-family native audit found 96 stale aliases for 23 otherwise matching labels
+after the first font pass. Rebuild those explicit windows from independent
+original-source donors and audit all 849 windows again; do not bless the current
+output by copying its pixel hashes into the expectation.

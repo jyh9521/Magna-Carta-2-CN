@@ -1,0 +1,6411 @@
+{
+  "schema_version": 1,
+  "kind": "texture-text-overlay-plan",
+  "game_rendering_verified": false,
+  "font": {
+    "path": "build/font-source/NotoSansCJKsc-Regular.otf",
+    "sha256": "2c76254f6fc379fddfce0a7e84fb5385bb135d3e399294f6eeb6680d0365b74b"
+  },
+  "rasterizer_versions": {
+    "Pillow": "12.2.0",
+    "fonttools": "4.63.0"
+  },
+  "labels": [
+    {
+      "id": "img_ui_name_jpn_25",
+      "text": "喜悦碎片",
+      "rect": [
+        0,
+        0,
+        128,
+        32
+      ],
+      "font_size": 18,
+      "style": {
+        "fill": [
+          255,
+          225,
+          220,
+          255
+        ],
+        "stroke_fill": [
+          140,
+          36,
+          32,
+          230
+        ],
+        "shadow_fill": [
+          0,
+          0,
+          0,
+          190
+        ]
+      },
+      "align": "left",
+      "translation_basis": "new-visible-image-translation-reviewed",
+      "source_text_sha256": "8300fad74c8601948aad5d26e0e086c34c85b645f5577c7cfb44358287c2e1fa",
+      "source_ids": [],
+      "restoration": {
+        "source_rgba_sha256": "d508f7021b5acab446e2f552fea464cf4c6e12c9872b9992e1929869436a3258",
+        "mask": {
+          "path": "locales/zh-Hans/texture-overlays/restorations/review-v3-20261026/img_ui_name_jpn_25-mask.png",
+          "sha256": "630064de85e0599f0c8144fade30a859a6ad1dac907ff5f4b80e4b978875fb3e"
+        },
+        "patch": {
+          "path": "locales/zh-Hans/texture-overlays/restorations/review-v3-20261026/img_ui_name_jpn_25-patch.png",
+          "sha256": "83091c9b1125b683ef6b0f7ca02af571464e3055d31f02a6e6c101d8ad6328d7"
+        }
+      },
+      "font": {
+        "path": "build/font-source/NotoSansCJKsc-Bold.otf",
+        "sha256": "b5f0d1a190a7f9b43c310a8850630af12553df32c4c050543f9059732d9b4c0a"
+      },
+      "appearance": {
+        "kind": "source-style-v1",
+        "ink_box": [
+          2,
+          6,
+          124,
+          19
+        ],
+        "align": "left",
+        "gradient": [
+          [
+            0,
+            [
+              206,
+              110,
+              110,
+              255
+            ]
+          ],
+          [
+            56,
+            [
+              239,
+              125,
+              123,
+              255
+            ]
+          ],
+          [
+            111,
+            [
+              239,
+              125,
+              123,
+              255
+            ]
+          ],
+          [
+            167,
+            [
+              247,
+              138,
+              140,
+              255
+            ]
+          ],
+          [
+            222,
+            [
+              255,
+              150,
+              148,
+              255
+            ]
+          ],
+          [
+            278,
+            [
+              255,
+              154,
+              156,
+              255
+            ]
+          ],
+          [
+            333,
+            [
+              255,
+              158,
+              156,
+              255
+            ]
+          ],
+          [
+            389,
+            [
+              255,
+              162,
+              165,
+              255
+            ]
+          ],
+          [
+            444,
+            [
+              255,
+              180,
+              181,
+              255
+            ]
+          ],
+          [
+            500,
+            [
+              255,
+              182,
+              181,
+              255
+            ]
+          ],
+          [
+            556,
+            [
+              255,
+              182,
+              181,
+              255
+            ]
+          ],
+          [
+            611,
+            [
+              231,
+              182,
+              181,
+              255
+            ]
+          ],
+          [
+            667,
+            [
+              231,
+              182,
+              181,
+              255
+            ]
+          ],
+          [
+            722,
+            [
+              231,
+              205,
+              206,
+              255
+            ]
+          ],
+          [
+            778,
+            [
+              239,
+              209,
+              206,
+              255
+            ]
+          ],
+          [
+            833,
+            [
+              255,
+              243,
+              247,
+              255
+            ]
+          ],
+          [
+            889,
+            [
+              255,
+              243,
+              247,
+              255
+            ]
+          ],
+          [
+            944,
+            [
+              234,
+              231,
+              230,
+              255
+            ]
+          ],
+          [
+            1000,
+            [
+              222,
+              217,
+              216,
+              255
+            ]
+          ]
+        ],
+        "outline": [
+          8,
+          8,
+          10,
+          245
+        ],
+        "outline_width": 1.15,
+        "glow": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "glow_radius": 0,
+        "shadow": [
+          0,
+          0,
+          0,
+          230
+        ],
+        "shadow_offset": [
+          1,
+          2
+        ],
+        "shadow_radius": 0.65,
+        "italic": 0,
+        "tracking": 0,
+        "weight": 0,
+        "motion": 0
+      }
+    },
+    {
+      "id": "img_ui_name_jpn_26",
+      "text": "混沌碎片",
+      "rect": [
+        0,
+        0,
+        128,
+        32
+      ],
+      "font_size": 18,
+      "style": {
+        "fill": [
+          255,
+          225,
+          220,
+          255
+        ],
+        "stroke_fill": [
+          140,
+          36,
+          32,
+          230
+        ],
+        "shadow_fill": [
+          0,
+          0,
+          0,
+          190
+        ]
+      },
+      "align": "left",
+      "translation_basis": "new-visible-image-translation-reviewed",
+      "source_text_sha256": "cb8b6b549de0e6b597151db69e3191ffb097475fca713ae9e5ad7c330493d70a",
+      "source_ids": [],
+      "restoration": {
+        "source_rgba_sha256": "6d4f1e319f1938fc97352182e44dbf813c6a26e50da6d65aee93e65cdc625fc3",
+        "mask": {
+          "path": "locales/zh-Hans/texture-overlays/restorations/review-v3-20261026/img_ui_name_jpn_26-mask.png",
+          "sha256": "e82fa9cb76d8fb6c8ff95f1f03a6fadc44db8df6144a6dcfb0dd4422cd641a71"
+        },
+        "patch": {
+          "path": "locales/zh-Hans/texture-overlays/restorations/review-v3-20261026/img_ui_name_jpn_26-patch.png",
+          "sha256": "83091c9b1125b683ef6b0f7ca02af571464e3055d31f02a6e6c101d8ad6328d7"
+        }
+      },
+      "font": {
+        "path": "build/font-source/NotoSansCJKsc-Bold.otf",
+        "sha256": "b5f0d1a190a7f9b43c310a8850630af12553df32c4c050543f9059732d9b4c0a"
+      },
+      "appearance": {
+        "kind": "source-style-v1",
+        "ink_box": [
+          2,
+          6,
+          124,
+          19
+        ],
+        "align": "left",
+        "gradient": [
+          [
+            0,
+            [
+              245,
+              128,
+              126,
+              255
+            ]
+          ],
+          [
+            59,
+            [
+              251,
+              130,
+              128,
+              255
+            ]
+          ],
+          [
+            118,
+            [
+              239,
+              136,
+              136,
+              255
+            ]
+          ],
+          [
+            176,
+            [
+              239,
+              146,
+              148,
+              255
+            ]
+          ],
+          [
+            235,
+            [
+              239,
+              150,
+              148,
+              255
+            ]
+          ],
+          [
+            294,
+            [
+              247,
+              150,
+              148,
+              255
+            ]
+          ],
+          [
+            353,
+            [
+              247,
+              162,
+              165,
+              255
+            ]
+          ],
+          [
+            412,
+            [
+              247,
+              178,
+              173,
+              255
+            ]
+          ],
+          [
+            471,
+            [
+              247,
+              182,
+              181,
+              255
+            ]
+          ],
+          [
+            529,
+            [
+              255,
+              190,
+              189,
+              255
+            ]
+          ],
+          [
+            588,
+            [
+              255,
+              190,
+              189,
+              255
+            ]
+          ],
+          [
+            647,
+            [
+              239,
+              190,
+              189,
+              255
+            ]
+          ],
+          [
+            706,
+            [
+              175,
+              164,
+              167,
+              255
+            ]
+          ],
+          [
+            765,
+            [
+              239,
+              209,
+              206,
+              255
+            ]
+          ],
+          [
+            824,
+            [
+              255,
+              243,
+              247,
+              255
+            ]
+          ],
+          [
+            882,
+            [
+              255,
+              255,
+              255,
+              255
+            ]
+          ],
+          [
+            941,
+            [
+              255,
+              255,
+              255,
+              255
+            ]
+          ],
+          [
+            1000,
+            [
+              215,
+              214,
+              214,
+              255
+            ]
+          ]
+        ],
+        "outline": [
+          8,
+          8,
+          10,
+          245
+        ],
+        "outline_width": 1.15,
+        "glow": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "glow_radius": 0,
+        "shadow": [
+          0,
+          0,
+          0,
+          230
+        ],
+        "shadow_offset": [
+          1,
+          2
+        ],
+        "shadow_radius": 0.65,
+        "italic": 0,
+        "tracking": 0,
+        "weight": 0,
+        "motion": 0
+      }
+    },
+    {
+      "id": "img_ui_name_jpn_34",
+      "text": "艾尔加",
+      "rect": [
+        0,
+        0,
+        128,
+        32
+      ],
+      "font_size": 18,
+      "style": {
+        "fill": [
+          255,
+          225,
+          220,
+          255
+        ],
+        "stroke_fill": [
+          140,
+          36,
+          32,
+          230
+        ],
+        "shadow_fill": [
+          0,
+          0,
+          0,
+          190
+        ]
+      },
+      "align": "left",
+      "translation_basis": "existing-adopted-source",
+      "source_text_sha256": "7c6f49bbad9b01a2f7d53fe31dc7f7c9351e4836c4e8a44a6a2b9d1e390b7dbb",
+      "source_ids": [
+        "coalesced:1b0de89908471eea1002b1fda2add9e70c16a803e4475f1821fd30549f4eae6f",
+        "coalesced:dcf03b83a3d23010541abfb5db095193b7f2bd5ce3b3ff039a7ee5619c154614",
+        "coalesced:2ed90b69d89f349abb32610a29e9bdcfca1258450de13e3f1e0c4a937ab41a08"
+      ],
+      "restoration": {
+        "source_rgba_sha256": "cb5fe2a4b65120421a16ac72ce6f88b206625730d2a7d892bd018efbadf1e961",
+        "mask": {
+          "path": "locales/zh-Hans/texture-overlays/restorations/review-v3-20261026/img_ui_name_jpn_34-mask.png",
+          "sha256": "a95251b674c241457946d8ae203c312d9007c84c290b1453d077cc4889e62b2c"
+        },
+        "patch": {
+          "path": "locales/zh-Hans/texture-overlays/restorations/review-v3-20261026/img_ui_name_jpn_34-patch.png",
+          "sha256": "83091c9b1125b683ef6b0f7ca02af571464e3055d31f02a6e6c101d8ad6328d7"
+        }
+      },
+      "font": {
+        "path": "build/font-source/NotoSansCJKsc-Bold.otf",
+        "sha256": "b5f0d1a190a7f9b43c310a8850630af12553df32c4c050543f9059732d9b4c0a"
+      },
+      "appearance": {
+        "kind": "source-style-v1",
+        "ink_box": [
+          2,
+          6,
+          124,
+          19
+        ],
+        "align": "left",
+        "gradient": [
+          [
+            0,
+            [
+              216,
+              109,
+              108,
+              255
+            ]
+          ],
+          [
+            56,
+            [
+              231,
+              121,
+              123,
+              255
+            ]
+          ],
+          [
+            111,
+            [
+              247,
+              132,
+              132,
+              255
+            ]
+          ],
+          [
+            167,
+            [
+              247,
+              132,
+              132,
+              255
+            ]
+          ],
+          [
+            222,
+            [
+              247,
+              134,
+              132,
+              255
+            ]
+          ],
+          [
+            278,
+            [
+              251,
+              164,
+              165,
+              255
+            ]
+          ],
+          [
+            333,
+            [
+              251,
+              164,
+              165,
+              255
+            ]
+          ],
+          [
+            389,
+            [
+              251,
+              164,
+              165,
+              255
+            ]
+          ],
+          [
+            444,
+            [
+              247,
+              168,
+              169,
+              255
+            ]
+          ],
+          [
+            500,
+            [
+              255,
+              180,
+              181,
+              255
+            ]
+          ],
+          [
+            556,
+            [
+              255,
+              205,
+              202,
+              255
+            ]
+          ],
+          [
+            611,
+            [
+              255,
+              205,
+              202,
+              255
+            ]
+          ],
+          [
+            667,
+            [
+              231,
+              207,
+              206,
+              255
+            ]
+          ],
+          [
+            722,
+            [
+              231,
+              211,
+              206,
+              255
+            ]
+          ],
+          [
+            778,
+            [
+              231,
+              211,
+              206,
+              255
+            ]
+          ],
+          [
+            833,
+            [
+              255,
+              243,
+              239,
+              255
+            ]
+          ],
+          [
+            889,
+            [
+              203,
+              188,
+              184,
+              255
+            ]
+          ],
+          [
+            944,
+            [
+              255,
+              243,
+              243,
+              255
+            ]
+          ],
+          [
+            1000,
+            [
+              215,
+              216,
+              215,
+              255
+            ]
+          ]
+        ],
+        "outline": [
+          8,
+          8,
+          10,
+          245
+        ],
+        "outline_width": 1.15,
+        "glow": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "glow_radius": 0,
+        "shadow": [
+          0,
+          0,
+          0,
+          230
+        ],
+        "shadow_offset": [
+          1,
+          2
+        ],
+        "shadow_radius": 0.65,
+        "italic": 0,
+        "tracking": 0,
+        "weight": 0,
+        "motion": 0
+      }
+    },
+    {
+      "id": "img_ui_name_jpn_36",
+      "text": "克蕾尔",
+      "rect": [
+        0,
+        0,
+        128,
+        32
+      ],
+      "font_size": 18,
+      "style": {
+        "fill": [
+          255,
+          225,
+          220,
+          255
+        ],
+        "stroke_fill": [
+          140,
+          36,
+          32,
+          230
+        ],
+        "shadow_fill": [
+          0,
+          0,
+          0,
+          190
+        ]
+      },
+      "align": "left",
+      "translation_basis": "existing-adopted-source",
+      "source_text_sha256": "c1308fcb43ef6eedc017a1d46e4f8ab081402ce51157440b08242f4f2198299c",
+      "source_ids": [
+        "coalesced:5afcb5c9e296971e253b232e5e0a5eecf830d51ada15c9072ea4c39f72e080c6",
+        "coalesced:a7969c804e4681523d8424f799ac2df3f1cebfb1c2428ae3a835d9c41d1b45a3"
+      ],
+      "restoration": {
+        "source_rgba_sha256": "f139a4af0d0fe0537ac1d9443cf4099b4117a0b9dba4266bd008824e27d1ae43",
+        "mask": {
+          "path": "locales/zh-Hans/texture-overlays/restorations/review-v3-20261026/img_ui_name_jpn_36-mask.png",
+          "sha256": "8a85dc77a6b05b3b9b2c50f445cb4b69bbe6bbed5c44e66f511b1f8406c06507"
+        },
+        "patch": {
+          "path": "locales/zh-Hans/texture-overlays/restorations/review-v3-20261026/img_ui_name_jpn_36-patch.png",
+          "sha256": "83091c9b1125b683ef6b0f7ca02af571464e3055d31f02a6e6c101d8ad6328d7"
+        }
+      },
+      "font": {
+        "path": "build/font-source/NotoSansCJKsc-Bold.otf",
+        "sha256": "b5f0d1a190a7f9b43c310a8850630af12553df32c4c050543f9059732d9b4c0a"
+      },
+      "appearance": {
+        "kind": "source-style-v1",
+        "ink_box": [
+          2,
+          6,
+          124,
+          19
+        ],
+        "align": "left",
+        "gradient": [
+          [
+            0,
+            [
+              210,
+              109,
+              110,
+              255
+            ]
+          ],
+          [
+            56,
+            [
+              222,
+              113,
+              115,
+              255
+            ]
+          ],
+          [
+            111,
+            [
+              247,
+              125,
+              123,
+              255
+            ]
+          ],
+          [
+            167,
+            [
+              247,
+              138,
+              140,
+              255
+            ]
+          ],
+          [
+            222,
+            [
+              247,
+              150,
+              148,
+              255
+            ]
+          ],
+          [
+            278,
+            [
+              247,
+              150,
+              148,
+              255
+            ]
+          ],
+          [
+            333,
+            [
+              255,
+              158,
+              156,
+              255
+            ]
+          ],
+          [
+            389,
+            [
+              255,
+              162,
+              165,
+              255
+            ]
+          ],
+          [
+            444,
+            [
+              255,
+              166,
+              165,
+              255
+            ]
+          ],
+          [
+            500,
+            [
+              251,
+              190,
+              189,
+              255
+            ]
+          ],
+          [
+            556,
+            [
+              251,
+              190,
+              189,
+              255
+            ]
+          ],
+          [
+            611,
+            [
+              255,
+              190,
+              189,
+              255
+            ]
+          ],
+          [
+            667,
+            [
+              255,
+              211,
+              214,
+              255
+            ]
+          ],
+          [
+            722,
+            [
+              255,
+              223,
+              222,
+              255
+            ]
+          ],
+          [
+            778,
+            [
+              255,
+              223,
+              222,
+              255
+            ]
+          ],
+          [
+            833,
+            [
+              255,
+              235,
+              231,
+              255
+            ]
+          ],
+          [
+            889,
+            [
+              222,
+              195,
+              198,
+              255
+            ]
+          ],
+          [
+            944,
+            [
+              255,
+              243,
+              247,
+              255
+            ]
+          ],
+          [
+            1000,
+            [
+              215,
+              214,
+              215,
+              255
+            ]
+          ]
+        ],
+        "outline": [
+          8,
+          8,
+          10,
+          245
+        ],
+        "outline_width": 1.15,
+        "glow": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "glow_radius": 0,
+        "shadow": [
+          0,
+          0,
+          0,
+          230
+        ],
+        "shadow_offset": [
+          1,
+          2
+        ],
+        "shadow_radius": 0.65,
+        "italic": 0,
+        "tracking": 0,
+        "weight": 0,
+        "motion": 0
+      }
+    },
+    {
+      "id": "img_ui_name_jpn_38",
+      "text": "亚历克斯",
+      "rect": [
+        0,
+        0,
+        128,
+        32
+      ],
+      "font_size": 18,
+      "style": {
+        "fill": [
+          255,
+          225,
+          220,
+          255
+        ],
+        "stroke_fill": [
+          140,
+          36,
+          32,
+          230
+        ],
+        "shadow_fill": [
+          0,
+          0,
+          0,
+          190
+        ]
+      },
+      "align": "left",
+      "translation_basis": "existing-adopted-source",
+      "source_text_sha256": "cb0991f69e0a4e835f7360396e77b4391da97bfc744cbf20703c5ac8e919caa7",
+      "source_ids": [
+        "coalesced:43c4ee751adaecabfb0d865cfe60fa4d32313edbd27298df1edb818f8b1b85a7",
+        "coalesced:3226ecc406706b2148eb14f6cfe78fe7d5738486a22963fc6237cef4641abe7d"
+      ],
+      "restoration": {
+        "source_rgba_sha256": "077ead3423c445195f231e3f06936ac552448cf85fdb0aaf1b0f3c16cc627d24",
+        "mask": {
+          "path": "locales/zh-Hans/texture-overlays/restorations/review-v3-20261026/img_ui_name_jpn_38-mask.png",
+          "sha256": "03758a724231d202e697c0217ee7f237dbb1c28e8a2c05ef845507c71b3b9e72"
+        },
+        "patch": {
+          "path": "locales/zh-Hans/texture-overlays/restorations/review-v3-20261026/img_ui_name_jpn_38-patch.png",
+          "sha256": "83091c9b1125b683ef6b0f7ca02af571464e3055d31f02a6e6c101d8ad6328d7"
+        }
+      },
+      "font": {
+        "path": "build/font-source/NotoSansCJKsc-Bold.otf",
+        "sha256": "b5f0d1a190a7f9b43c310a8850630af12553df32c4c050543f9059732d9b4c0a"
+      },
+      "appearance": {
+        "kind": "source-style-v1",
+        "ink_box": [
+          2,
+          6,
+          124,
+          19
+        ],
+        "align": "left",
+        "gradient": [
+          [
+            0,
+            [
+              172,
+              92,
+              93,
+              255
+            ]
+          ],
+          [
+            56,
+            [
+              172,
+              92,
+              93,
+              255
+            ]
+          ],
+          [
+            111,
+            [
+              239,
+              125,
+              123,
+              255
+            ]
+          ],
+          [
+            167,
+            [
+              243,
+              128,
+              123,
+              255
+            ]
+          ],
+          [
+            222,
+            [
+              251,
+              152,
+              152,
+              255
+            ]
+          ],
+          [
+            278,
+            [
+              255,
+              154,
+              156,
+              255
+            ]
+          ],
+          [
+            333,
+            [
+              255,
+              154,
+              156,
+              255
+            ]
+          ],
+          [
+            389,
+            [
+              255,
+              154,
+              156,
+              255
+            ]
+          ],
+          [
+            444,
+            [
+              255,
+              178,
+              181,
+              255
+            ]
+          ],
+          [
+            500,
+            [
+              255,
+              178,
+              181,
+              255
+            ]
+          ],
+          [
+            556,
+            [
+              255,
+              195,
+              198,
+              255
+            ]
+          ],
+          [
+            611,
+            [
+              198,
+              148,
+              150,
+              255
+            ]
+          ],
+          [
+            667,
+            [
+              239,
+              199,
+              202,
+              255
+            ]
+          ],
+          [
+            722,
+            [
+              239,
+              209,
+              206,
+              255
+            ]
+          ],
+          [
+            778,
+            [
+              239,
+              209,
+              206,
+              255
+            ]
+          ],
+          [
+            833,
+            [
+              251,
+              243,
+              239,
+              255
+            ]
+          ],
+          [
+            889,
+            [
+              175,
+              174,
+              175,
+              255
+            ]
+          ],
+          [
+            944,
+            [
+              251,
+              249,
+              247,
+              255
+            ]
+          ],
+          [
+            1000,
+            [
+              215,
+              214,
+              215,
+              255
+            ]
+          ]
+        ],
+        "outline": [
+          8,
+          8,
+          10,
+          245
+        ],
+        "outline_width": 1.15,
+        "glow": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "glow_radius": 0,
+        "shadow": [
+          0,
+          0,
+          0,
+          230
+        ],
+        "shadow_offset": [
+          1,
+          2
+        ],
+        "shadow_radius": 0.65,
+        "italic": 0,
+        "tracking": 0,
+        "weight": 0,
+        "motion": 0
+      }
+    },
+    {
+      "id": "img_ui_name_jpn_43",
+      "text": "格拉米",
+      "rect": [
+        0,
+        0,
+        128,
+        32
+      ],
+      "font_size": 18,
+      "style": {
+        "fill": [
+          255,
+          225,
+          220,
+          255
+        ],
+        "stroke_fill": [
+          140,
+          36,
+          32,
+          230
+        ],
+        "shadow_fill": [
+          0,
+          0,
+          0,
+          190
+        ]
+      },
+      "align": "left",
+      "translation_basis": "existing-adopted-source",
+      "source_text_sha256": "b6df76d89410ddb8ec908a36100b91c7d0abc69e41de8c6de477069115acf033",
+      "source_ids": [
+        "coalesced:d5bb13f3119b06d71f12ff1f5a44d1357358f18cbe331e4b0feae2edf43f25ee"
+      ],
+      "restoration": {
+        "source_rgba_sha256": "0b4df79aff806d0845899b81f4d93b5dfc937d0268043f1e5c0172da737fa370",
+        "mask": {
+          "path": "locales/zh-Hans/texture-overlays/restorations/review-v3-20261026/img_ui_name_jpn_43-mask.png",
+          "sha256": "8c1a5956dad0f9a4f1a8f894418403661eeaec5654ce79b117951b833452b020"
+        },
+        "patch": {
+          "path": "locales/zh-Hans/texture-overlays/restorations/review-v3-20261026/img_ui_name_jpn_43-patch.png",
+          "sha256": "83091c9b1125b683ef6b0f7ca02af571464e3055d31f02a6e6c101d8ad6328d7"
+        }
+      },
+      "font": {
+        "path": "build/font-source/NotoSansCJKsc-Bold.otf",
+        "sha256": "b5f0d1a190a7f9b43c310a8850630af12553df32c4c050543f9059732d9b4c0a"
+      },
+      "appearance": {
+        "kind": "source-style-v1",
+        "ink_box": [
+          2,
+          6,
+          124,
+          19
+        ],
+        "align": "left",
+        "gradient": [
+          [
+            0,
+            [
+              168,
+              90,
+              93,
+              255
+            ]
+          ],
+          [
+            62,
+            [
+              172,
+              98,
+              98,
+              255
+            ]
+          ],
+          [
+            125,
+            [
+              247,
+              138,
+              140,
+              255
+            ]
+          ],
+          [
+            188,
+            [
+              247,
+              154,
+              156,
+              255
+            ]
+          ],
+          [
+            250,
+            [
+              247,
+              154,
+              156,
+              255
+            ]
+          ],
+          [
+            312,
+            [
+              247,
+              154,
+              156,
+              255
+            ]
+          ],
+          [
+            375,
+            [
+              247,
+              170,
+              172,
+              255
+            ]
+          ],
+          [
+            438,
+            [
+              255,
+              172,
+              173,
+              255
+            ]
+          ],
+          [
+            500,
+            [
+              255,
+              195,
+              189,
+              255
+            ]
+          ],
+          [
+            562,
+            [
+              255,
+              199,
+              198,
+              255
+            ]
+          ],
+          [
+            625,
+            [
+              255,
+              195,
+              189,
+              255
+            ]
+          ],
+          [
+            688,
+            [
+              222,
+              190,
+              189,
+              255
+            ]
+          ],
+          [
+            750,
+            [
+              222,
+              190,
+              189,
+              255
+            ]
+          ],
+          [
+            812,
+            [
+              175,
+              168,
+              167,
+              255
+            ]
+          ],
+          [
+            875,
+            [
+              203,
+              197,
+              195,
+              255
+            ]
+          ],
+          [
+            938,
+            [
+              203,
+              197,
+              195,
+              255
+            ]
+          ],
+          [
+            1000,
+            [
+              203,
+              197,
+              195,
+              255
+            ]
+          ]
+        ],
+        "outline": [
+          8,
+          8,
+          10,
+          245
+        ],
+        "outline_width": 1.15,
+        "glow": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "glow_radius": 0,
+        "shadow": [
+          0,
+          0,
+          0,
+          230
+        ],
+        "shadow_offset": [
+          1,
+          2
+        ],
+        "shadow_radius": 0.65,
+        "italic": 0,
+        "tracking": 0,
+        "weight": 0,
+        "motion": 0
+      }
+    },
+    {
+      "id": "img_ui_name_jpn_49",
+      "text": "米罗克",
+      "rect": [
+        0,
+        0,
+        128,
+        32
+      ],
+      "font_size": 18,
+      "style": {
+        "fill": [
+          255,
+          225,
+          220,
+          255
+        ],
+        "stroke_fill": [
+          140,
+          36,
+          32,
+          230
+        ],
+        "shadow_fill": [
+          0,
+          0,
+          0,
+          190
+        ]
+      },
+      "align": "left",
+      "translation_basis": "new-visible-image-translation-reviewed",
+      "source_text_sha256": "8e42f1b818421d5b2b92330dd3d10649c3d382c639642fbf2fb11ccd3aa2de48",
+      "source_ids": [],
+      "restoration": {
+        "source_rgba_sha256": "46d0ab6e8b09c728a250ba3b73532060f2f45b9570c2f48441578ac54e7eabc9",
+        "mask": {
+          "path": "locales/zh-Hans/texture-overlays/restorations/review-v3-20261026/img_ui_name_jpn_49-mask.png",
+          "sha256": "effb451e5f46d0886b7af4619db5e926331493d39d5553f9a4216ac1f526589c"
+        },
+        "patch": {
+          "path": "locales/zh-Hans/texture-overlays/restorations/review-v3-20261026/img_ui_name_jpn_49-patch.png",
+          "sha256": "83091c9b1125b683ef6b0f7ca02af571464e3055d31f02a6e6c101d8ad6328d7"
+        }
+      },
+      "font": {
+        "path": "build/font-source/NotoSansCJKsc-Bold.otf",
+        "sha256": "b5f0d1a190a7f9b43c310a8850630af12553df32c4c050543f9059732d9b4c0a"
+      },
+      "appearance": {
+        "kind": "source-style-v1",
+        "ink_box": [
+          2,
+          6,
+          124,
+          19
+        ],
+        "align": "left",
+        "gradient": [
+          [
+            0,
+            [
+              232,
+              120,
+              120,
+              255
+            ]
+          ],
+          [
+            59,
+            [
+              255,
+              142,
+              140,
+              255
+            ]
+          ],
+          [
+            118,
+            [
+              255,
+              142,
+              140,
+              255
+            ]
+          ],
+          [
+            176,
+            [
+              239,
+              134,
+              132,
+              255
+            ]
+          ],
+          [
+            235,
+            [
+              239,
+              134,
+              132,
+              255
+            ]
+          ],
+          [
+            294,
+            [
+              239,
+              138,
+              140,
+              255
+            ]
+          ],
+          [
+            353,
+            [
+              255,
+              166,
+              165,
+              255
+            ]
+          ],
+          [
+            412,
+            [
+              255,
+              166,
+              165,
+              255
+            ]
+          ],
+          [
+            471,
+            [
+              255,
+              174,
+              173,
+              255
+            ]
+          ],
+          [
+            529,
+            [
+              247,
+              186,
+              189,
+              255
+            ]
+          ],
+          [
+            588,
+            [
+              247,
+              190,
+              189,
+              255
+            ]
+          ],
+          [
+            647,
+            [
+              231,
+              190,
+              189,
+              255
+            ]
+          ],
+          [
+            706,
+            [
+              255,
+              215,
+              214,
+              255
+            ]
+          ],
+          [
+            765,
+            [
+              231,
+              190,
+              189,
+              255
+            ]
+          ],
+          [
+            824,
+            [
+              255,
+              243,
+              247,
+              255
+            ]
+          ],
+          [
+            882,
+            [
+              255,
+              243,
+              243,
+              255
+            ]
+          ],
+          [
+            941,
+            [
+              255,
+              247,
+              247,
+              255
+            ]
+          ],
+          [
+            1000,
+            [
+              255,
+              247,
+              247,
+              255
+            ]
+          ]
+        ],
+        "outline": [
+          8,
+          8,
+          10,
+          245
+        ],
+        "outline_width": 1.15,
+        "glow": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "glow_radius": 0,
+        "shadow": [
+          0,
+          0,
+          0,
+          230
+        ],
+        "shadow_offset": [
+          1,
+          2
+        ],
+        "shadow_radius": 0.65,
+        "italic": 0,
+        "tracking": 0,
+        "weight": 0,
+        "motion": 0
+      }
+    },
+    {
+      "id": "img_ui_name_jpn_52",
+      "text": "克雷珀斯",
+      "rect": [
+        0,
+        0,
+        128,
+        32
+      ],
+      "font_size": 18,
+      "style": {
+        "fill": [
+          255,
+          225,
+          220,
+          255
+        ],
+        "stroke_fill": [
+          140,
+          36,
+          32,
+          230
+        ],
+        "shadow_fill": [
+          0,
+          0,
+          0,
+          190
+        ]
+      },
+      "align": "left",
+      "translation_basis": "new-visible-image-translation-reviewed",
+      "source_text_sha256": "cd4c14fb84a03e712121b7b2ee70acd3f3b40e6b00da37a3f675f4ede1a36b8c",
+      "source_ids": [],
+      "restoration": {
+        "source_rgba_sha256": "1dbb32e3ea274f2920cf267873a5d4fa8a0437f10a3db75f8d753e3e14853c7a",
+        "mask": {
+          "path": "locales/zh-Hans/texture-overlays/restorations/review-v3-20261026/img_ui_name_jpn_52-mask.png",
+          "sha256": "efca289c723925ad09967977e6088006319fba1bbb988ebe24ebbaab130062a3"
+        },
+        "patch": {
+          "path": "locales/zh-Hans/texture-overlays/restorations/review-v3-20261026/img_ui_name_jpn_52-patch.png",
+          "sha256": "83091c9b1125b683ef6b0f7ca02af571464e3055d31f02a6e6c101d8ad6328d7"
+        }
+      },
+      "font": {
+        "path": "build/font-source/NotoSansCJKsc-Bold.otf",
+        "sha256": "b5f0d1a190a7f9b43c310a8850630af12553df32c4c050543f9059732d9b4c0a"
+      },
+      "appearance": {
+        "kind": "source-style-v1",
+        "ink_box": [
+          2,
+          6,
+          124,
+          19
+        ],
+        "align": "left",
+        "gradient": [
+          [
+            0,
+            [
+              230,
+              122,
+              120,
+              255
+            ]
+          ],
+          [
+            59,
+            [
+              206,
+              98,
+              99,
+              255
+            ]
+          ],
+          [
+            118,
+            [
+              255,
+              142,
+              140,
+              255
+            ]
+          ],
+          [
+            176,
+            [
+              239,
+              130,
+              132,
+              255
+            ]
+          ],
+          [
+            235,
+            [
+              247,
+              142,
+              140,
+              255
+            ]
+          ],
+          [
+            294,
+            [
+              243,
+              160,
+              160,
+              255
+            ]
+          ],
+          [
+            353,
+            [
+              247,
+              162,
+              160,
+              255
+            ]
+          ],
+          [
+            412,
+            [
+              243,
+              162,
+              165,
+              255
+            ]
+          ],
+          [
+            471,
+            [
+              239,
+              164,
+              165,
+              255
+            ]
+          ],
+          [
+            529,
+            [
+              239,
+              190,
+              189,
+              255
+            ]
+          ],
+          [
+            588,
+            [
+              235,
+              190,
+              189,
+              255
+            ]
+          ],
+          [
+            647,
+            [
+              239,
+              190,
+              189,
+              255
+            ]
+          ],
+          [
+            706,
+            [
+              255,
+              205,
+              206,
+              255
+            ]
+          ],
+          [
+            765,
+            [
+              255,
+              247,
+              247,
+              255
+            ]
+          ],
+          [
+            824,
+            [
+              255,
+              247,
+              247,
+              255
+            ]
+          ],
+          [
+            882,
+            [
+              255,
+              247,
+              247,
+              255
+            ]
+          ],
+          [
+            941,
+            [
+              247,
+              245,
+              247,
+              255
+            ]
+          ],
+          [
+            1000,
+            [
+              251,
+              246,
+              247,
+              255
+            ]
+          ]
+        ],
+        "outline": [
+          8,
+          8,
+          10,
+          245
+        ],
+        "outline_width": 1.15,
+        "glow": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "glow_radius": 0,
+        "shadow": [
+          0,
+          0,
+          0,
+          230
+        ],
+        "shadow_offset": [
+          1,
+          2
+        ],
+        "shadow_radius": 0.65,
+        "italic": 0,
+        "tracking": 0,
+        "weight": 0,
+        "motion": 0
+      }
+    },
+    {
+      "id": "img_ui_name_jpn_60",
+      "text": "猫猫",
+      "rect": [
+        0,
+        0,
+        128,
+        32
+      ],
+      "font_size": 18,
+      "style": {
+        "fill": [
+          255,
+          225,
+          220,
+          255
+        ],
+        "stroke_fill": [
+          140,
+          36,
+          32,
+          230
+        ],
+        "shadow_fill": [
+          0,
+          0,
+          0,
+          190
+        ]
+      },
+      "align": "left",
+      "translation_basis": "existing-adopted-source",
+      "source_text_sha256": "31329642a42fad1edf453ba6f81a72b9bb0f73d571474f3aee5dac6d4652b29e",
+      "source_ids": [
+        "coalesced:001cdb36f31458aad652cfb7ed2531bad0420e624daeaba937e15ccc480cb49e",
+        "coalesced:ea123ef6431b2dc1ddb7fd15bfbcad758ce0322fede19685d333f437ed97a4b5"
+      ],
+      "restoration": {
+        "source_rgba_sha256": "81799784224a0fd288fe214d53d2f78a587e7a693b879f59bc25c80a5caed224",
+        "mask": {
+          "path": "locales/zh-Hans/texture-overlays/restorations/review-v3-20261026/img_ui_name_jpn_60-mask.png",
+          "sha256": "57aac71e37eb64e8f02d583b606f58e0f88e16294088742f68423e2c099b9f4d"
+        },
+        "patch": {
+          "path": "locales/zh-Hans/texture-overlays/restorations/review-v3-20261026/img_ui_name_jpn_60-patch.png",
+          "sha256": "83091c9b1125b683ef6b0f7ca02af571464e3055d31f02a6e6c101d8ad6328d7"
+        }
+      },
+      "font": {
+        "path": "build/font-source/NotoSansCJKsc-Bold.otf",
+        "sha256": "b5f0d1a190a7f9b43c310a8850630af12553df32c4c050543f9059732d9b4c0a"
+      },
+      "appearance": {
+        "kind": "source-style-v1",
+        "ink_box": [
+          2,
+          6,
+          124,
+          19
+        ],
+        "align": "left",
+        "gradient": [
+          [
+            0,
+            [
+              212,
+              112,
+              116,
+              255
+            ]
+          ],
+          [
+            59,
+            [
+              172,
+              98,
+              98,
+              255
+            ]
+          ],
+          [
+            118,
+            [
+              251,
+              132,
+              136,
+              255
+            ]
+          ],
+          [
+            176,
+            [
+              247,
+              142,
+              148,
+              255
+            ]
+          ],
+          [
+            235,
+            [
+              247,
+              154,
+              156,
+              255
+            ]
+          ],
+          [
+            294,
+            [
+              247,
+              154,
+              156,
+              255
+            ]
+          ],
+          [
+            353,
+            [
+              247,
+              154,
+              156,
+              255
+            ]
+          ],
+          [
+            412,
+            [
+              251,
+              178,
+              173,
+              255
+            ]
+          ],
+          [
+            471,
+            [
+              251,
+              195,
+              198,
+              255
+            ]
+          ],
+          [
+            529,
+            [
+              251,
+              195,
+              198,
+              255
+            ]
+          ],
+          [
+            588,
+            [
+              255,
+              195,
+              198,
+              255
+            ]
+          ],
+          [
+            647,
+            [
+              255,
+              195,
+              198,
+              255
+            ]
+          ],
+          [
+            706,
+            [
+              247,
+              203,
+              198,
+              255
+            ]
+          ],
+          [
+            765,
+            [
+              172,
+              168,
+              167,
+              255
+            ]
+          ],
+          [
+            824,
+            [
+              247,
+              229,
+              226,
+              255
+            ]
+          ],
+          [
+            882,
+            [
+              247,
+              243,
+              243,
+              255
+            ]
+          ],
+          [
+            941,
+            [
+              247,
+              243,
+              243,
+              255
+            ]
+          ],
+          [
+            1000,
+            [
+              247,
+              243,
+              243,
+              255
+            ]
+          ]
+        ],
+        "outline": [
+          8,
+          8,
+          10,
+          245
+        ],
+        "outline_width": 1.15,
+        "glow": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "glow_radius": 0,
+        "shadow": [
+          0,
+          0,
+          0,
+          230
+        ],
+        "shadow_offset": [
+          1,
+          2
+        ],
+        "shadow_radius": 0.65,
+        "italic": 0,
+        "tracking": 0,
+        "weight": 0,
+        "motion": 0
+      }
+    },
+    {
+      "id": "img_ui_name_jpn_61",
+      "text": "猫杰克",
+      "rect": [
+        0,
+        0,
+        128,
+        32
+      ],
+      "font_size": 18,
+      "style": {
+        "fill": [
+          255,
+          225,
+          220,
+          255
+        ],
+        "stroke_fill": [
+          140,
+          36,
+          32,
+          230
+        ],
+        "shadow_fill": [
+          0,
+          0,
+          0,
+          190
+        ]
+      },
+      "align": "left",
+      "translation_basis": "new-visible-image-translation-reviewed",
+      "source_text_sha256": "fca947a414072088b0284a0215fb3c27a67b8b20accb88f7d3617982a5706056",
+      "source_ids": [],
+      "restoration": {
+        "source_rgba_sha256": "6d926c77eb5c3b77a5313815c7192a12c97cde3d320d6794a17c4bb545f2167b",
+        "mask": {
+          "path": "locales/zh-Hans/texture-overlays/restorations/review-v3-20261026/img_ui_name_jpn_61-mask.png",
+          "sha256": "09b0577eccf5acbe12dcdc4f99bb29f940b7085c6ed64f3c56b444ac68e9293c"
+        },
+        "patch": {
+          "path": "locales/zh-Hans/texture-overlays/restorations/review-v3-20261026/img_ui_name_jpn_61-patch.png",
+          "sha256": "83091c9b1125b683ef6b0f7ca02af571464e3055d31f02a6e6c101d8ad6328d7"
+        }
+      },
+      "font": {
+        "path": "build/font-source/NotoSansCJKsc-Bold.otf",
+        "sha256": "b5f0d1a190a7f9b43c310a8850630af12553df32c4c050543f9059732d9b4c0a"
+      },
+      "appearance": {
+        "kind": "source-style-v1",
+        "ink_box": [
+          2,
+          6,
+          124,
+          19
+        ],
+        "align": "left",
+        "gradient": [
+          [
+            0,
+            [
+              206,
+              108,
+              110,
+              255
+            ]
+          ],
+          [
+            59,
+            [
+              239,
+              121,
+              123,
+              255
+            ]
+          ],
+          [
+            118,
+            [
+              239,
+              125,
+              123,
+              255
+            ]
+          ],
+          [
+            176,
+            [
+              255,
+              142,
+              140,
+              255
+            ]
+          ],
+          [
+            235,
+            [
+              255,
+              154,
+              156,
+              255
+            ]
+          ],
+          [
+            294,
+            [
+              255,
+              154,
+              156,
+              255
+            ]
+          ],
+          [
+            353,
+            [
+              255,
+              158,
+              160,
+              255
+            ]
+          ],
+          [
+            412,
+            [
+              247,
+              166,
+              165,
+              255
+            ]
+          ],
+          [
+            471,
+            [
+              247,
+              182,
+              181,
+              255
+            ]
+          ],
+          [
+            529,
+            [
+              247,
+              182,
+              181,
+              255
+            ]
+          ],
+          [
+            588,
+            [
+              247,
+              182,
+              181,
+              255
+            ]
+          ],
+          [
+            647,
+            [
+              239,
+              182,
+              181,
+              255
+            ]
+          ],
+          [
+            706,
+            [
+              239,
+              199,
+              198,
+              255
+            ]
+          ],
+          [
+            765,
+            [
+              175,
+              168,
+              170,
+              255
+            ]
+          ],
+          [
+            824,
+            [
+              239,
+              203,
+              206,
+              255
+            ]
+          ],
+          [
+            882,
+            [
+              239,
+              227,
+              231,
+              255
+            ]
+          ],
+          [
+            941,
+            [
+              247,
+              241,
+              243,
+              255
+            ]
+          ],
+          [
+            1000,
+            [
+              243,
+              234,
+              237,
+              255
+            ]
+          ]
+        ],
+        "outline": [
+          8,
+          8,
+          10,
+          245
+        ],
+        "outline_width": 1.15,
+        "glow": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "glow_radius": 0,
+        "shadow": [
+          0,
+          0,
+          0,
+          230
+        ],
+        "shadow_offset": [
+          1,
+          2
+        ],
+        "shadow_radius": 0.65,
+        "italic": 0,
+        "tracking": 0,
+        "weight": 0,
+        "motion": 0
+      }
+    },
+    {
+      "id": "img_ui_name_jpn_62",
+      "text": "卡奈科",
+      "rect": [
+        0,
+        0,
+        128,
+        32
+      ],
+      "font_size": 18,
+      "style": {
+        "fill": [
+          255,
+          225,
+          220,
+          255
+        ],
+        "stroke_fill": [
+          140,
+          36,
+          32,
+          230
+        ],
+        "shadow_fill": [
+          0,
+          0,
+          0,
+          190
+        ]
+      },
+      "align": "left",
+      "translation_basis": "new-visible-image-translation-reviewed",
+      "source_text_sha256": "96be2ce290f3ed31c23fa3e27706c5451763b009d9546779b6fb941e3e854347",
+      "source_ids": [],
+      "restoration": {
+        "source_rgba_sha256": "ae0cf2aeee497ae691fb384a5db0f2d57791699904e9c0f384c8912c7a9c6024",
+        "mask": {
+          "path": "locales/zh-Hans/texture-overlays/restorations/review-v3-20261026/img_ui_name_jpn_62-mask.png",
+          "sha256": "590430b576e9b9386fcac837e96d81cfff63fe00ad7401d76aa86663396063cc"
+        },
+        "patch": {
+          "path": "locales/zh-Hans/texture-overlays/restorations/review-v3-20261026/img_ui_name_jpn_62-patch.png",
+          "sha256": "83091c9b1125b683ef6b0f7ca02af571464e3055d31f02a6e6c101d8ad6328d7"
+        }
+      },
+      "font": {
+        "path": "build/font-source/NotoSansCJKsc-Bold.otf",
+        "sha256": "b5f0d1a190a7f9b43c310a8850630af12553df32c4c050543f9059732d9b4c0a"
+      },
+      "appearance": {
+        "kind": "source-style-v1",
+        "ink_box": [
+          2,
+          6,
+          124,
+          19
+        ],
+        "align": "left",
+        "gradient": [
+          [
+            0,
+            [
+              214,
+              109,
+              111,
+              255
+            ]
+          ],
+          [
+            59,
+            [
+              189,
+              98,
+              96,
+              255
+            ]
+          ],
+          [
+            118,
+            [
+              239,
+              125,
+              132,
+              255
+            ]
+          ],
+          [
+            176,
+            [
+              239,
+              125,
+              132,
+              255
+            ]
+          ],
+          [
+            235,
+            [
+              247,
+              142,
+              140,
+              255
+            ]
+          ],
+          [
+            294,
+            [
+              239,
+              158,
+              156,
+              255
+            ]
+          ],
+          [
+            353,
+            [
+              247,
+              158,
+              156,
+              255
+            ]
+          ],
+          [
+            412,
+            [
+              247,
+              162,
+              165,
+              255
+            ]
+          ],
+          [
+            471,
+            [
+              247,
+              174,
+              173,
+              255
+            ]
+          ],
+          [
+            529,
+            [
+              247,
+              190,
+              189,
+              255
+            ]
+          ],
+          [
+            588,
+            [
+              247,
+              190,
+              189,
+              255
+            ]
+          ],
+          [
+            647,
+            [
+              247,
+              190,
+              189,
+              255
+            ]
+          ],
+          [
+            706,
+            [
+              239,
+              203,
+              198,
+              255
+            ]
+          ],
+          [
+            765,
+            [
+              239,
+              190,
+              189,
+              255
+            ]
+          ],
+          [
+            824,
+            [
+              239,
+              219,
+              222,
+              255
+            ]
+          ],
+          [
+            882,
+            [
+              239,
+              219,
+              222,
+              255
+            ]
+          ],
+          [
+            941,
+            [
+              239,
+              231,
+              222,
+              255
+            ]
+          ],
+          [
+            1000,
+            [
+              235,
+              225,
+              222,
+              255
+            ]
+          ]
+        ],
+        "outline": [
+          8,
+          8,
+          10,
+          245
+        ],
+        "outline_width": 1.15,
+        "glow": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "glow_radius": 0,
+        "shadow": [
+          0,
+          0,
+          0,
+          230
+        ],
+        "shadow_offset": [
+          1,
+          2
+        ],
+        "shadow_radius": 0.65,
+        "italic": 0,
+        "tracking": 0,
+        "weight": 0,
+        "motion": 0
+      }
+    },
+    {
+      "id": "img_ui_name_jpn_63",
+      "text": "青猫",
+      "rect": [
+        0,
+        0,
+        128,
+        32
+      ],
+      "font_size": 18,
+      "style": {
+        "fill": [
+          255,
+          225,
+          220,
+          255
+        ],
+        "stroke_fill": [
+          140,
+          36,
+          32,
+          230
+        ],
+        "shadow_fill": [
+          0,
+          0,
+          0,
+          190
+        ]
+      },
+      "align": "left",
+      "translation_basis": "new-visible-image-translation-reviewed",
+      "source_text_sha256": "5b232c6897e3d84935903904554afa4f3abcb26b892bdbffdefe98bc434461f1",
+      "source_ids": [],
+      "restoration": {
+        "source_rgba_sha256": "b8e0be73467355dd2d5ab6724bc41182dc872923cf419ca5e9545e4ab3b8b0d0",
+        "mask": {
+          "path": "locales/zh-Hans/texture-overlays/restorations/review-v3-20261026/img_ui_name_jpn_63-mask.png",
+          "sha256": "ab417e16cbc80df5179ddadb537e5319db2bc73a44363cef4c4876b9cf4b2b57"
+        },
+        "patch": {
+          "path": "locales/zh-Hans/texture-overlays/restorations/review-v3-20261026/img_ui_name_jpn_63-patch.png",
+          "sha256": "83091c9b1125b683ef6b0f7ca02af571464e3055d31f02a6e6c101d8ad6328d7"
+        }
+      },
+      "font": {
+        "path": "build/font-source/NotoSansCJKsc-Bold.otf",
+        "sha256": "b5f0d1a190a7f9b43c310a8850630af12553df32c4c050543f9059732d9b4c0a"
+      },
+      "appearance": {
+        "kind": "source-style-v1",
+        "ink_box": [
+          2,
+          6,
+          124,
+          19
+        ],
+        "align": "left",
+        "gradient": [
+          [
+            0,
+            [
+              220,
+              112,
+              111,
+              255
+            ]
+          ],
+          [
+            59,
+            [
+              231,
+              121,
+              123,
+              255
+            ]
+          ],
+          [
+            118,
+            [
+              239,
+              130,
+              132,
+              255
+            ]
+          ],
+          [
+            176,
+            [
+              239,
+              125,
+              132,
+              255
+            ]
+          ],
+          [
+            235,
+            [
+              255,
+              146,
+              140,
+              255
+            ]
+          ],
+          [
+            294,
+            [
+              247,
+              160,
+              160,
+              255
+            ]
+          ],
+          [
+            353,
+            [
+              255,
+              166,
+              165,
+              255
+            ]
+          ],
+          [
+            412,
+            [
+              255,
+              166,
+              165,
+              255
+            ]
+          ],
+          [
+            471,
+            [
+              255,
+              170,
+              173,
+              255
+            ]
+          ],
+          [
+            529,
+            [
+              255,
+              190,
+              189,
+              255
+            ]
+          ],
+          [
+            588,
+            [
+              255,
+              197,
+              198,
+              255
+            ]
+          ],
+          [
+            647,
+            [
+              255,
+              197,
+              198,
+              255
+            ]
+          ],
+          [
+            706,
+            [
+              255,
+              197,
+              198,
+              255
+            ]
+          ],
+          [
+            765,
+            [
+              231,
+              178,
+              173,
+              255
+            ]
+          ],
+          [
+            824,
+            [
+              255,
+              235,
+              231,
+              255
+            ]
+          ],
+          [
+            882,
+            [
+              239,
+              219,
+              222,
+              255
+            ]
+          ],
+          [
+            941,
+            [
+              239,
+              231,
+              231,
+              255
+            ]
+          ],
+          [
+            1000,
+            [
+              235,
+              225,
+              226,
+              255
+            ]
+          ]
+        ],
+        "outline": [
+          8,
+          8,
+          10,
+          245
+        ],
+        "outline_width": 1.15,
+        "glow": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "glow_radius": 0,
+        "shadow": [
+          0,
+          0,
+          0,
+          230
+        ],
+        "shadow_offset": [
+          1,
+          2
+        ],
+        "shadow_radius": 0.65,
+        "italic": 0,
+        "tracking": 0,
+        "weight": 0,
+        "motion": 0
+      }
+    },
+    {
+      "id": "img_ui_name_jpn_64",
+      "text": "藤壶",
+      "rect": [
+        0,
+        0,
+        128,
+        32
+      ],
+      "font_size": 18,
+      "style": {
+        "fill": [
+          255,
+          225,
+          220,
+          255
+        ],
+        "stroke_fill": [
+          140,
+          36,
+          32,
+          230
+        ],
+        "shadow_fill": [
+          0,
+          0,
+          0,
+          190
+        ]
+      },
+      "align": "left",
+      "translation_basis": "new-visible-image-translation-reviewed",
+      "source_text_sha256": "06ab56eb377cd4e3ef3c24f3cb20398407959d398cace5327e66bbf1fb7a120f",
+      "source_ids": [],
+      "restoration": {
+        "source_rgba_sha256": "05533e5825ca74fdb00e5e65c5c49b86e4491dd0f8c8c90b317baa15b2f4fed2",
+        "mask": {
+          "path": "locales/zh-Hans/texture-overlays/restorations/review-v3-20261026/img_ui_name_jpn_64-mask.png",
+          "sha256": "1f1ffc1363a78a0fc11638863eb5a07a3c11b7e6a023d5d424ff39b7da753516"
+        },
+        "patch": {
+          "path": "locales/zh-Hans/texture-overlays/restorations/review-v3-20261026/img_ui_name_jpn_64-patch.png",
+          "sha256": "83091c9b1125b683ef6b0f7ca02af571464e3055d31f02a6e6c101d8ad6328d7"
+        }
+      },
+      "font": {
+        "path": "build/font-source/NotoSansCJKsc-Bold.otf",
+        "sha256": "b5f0d1a190a7f9b43c310a8850630af12553df32c4c050543f9059732d9b4c0a"
+      },
+      "appearance": {
+        "kind": "source-style-v1",
+        "ink_box": [
+          2,
+          6,
+          124,
+          19
+        ],
+        "align": "left",
+        "gradient": [
+          [
+            0,
+            [
+              230,
+              116,
+              118,
+              255
+            ]
+          ],
+          [
+            56,
+            [
+              210,
+              110,
+              115,
+              255
+            ]
+          ],
+          [
+            111,
+            [
+              239,
+              134,
+              132,
+              255
+            ]
+          ],
+          [
+            167,
+            [
+              239,
+              134,
+              132,
+              255
+            ]
+          ],
+          [
+            222,
+            [
+              239,
+              134,
+              132,
+              255
+            ]
+          ],
+          [
+            278,
+            [
+              247,
+              136,
+              136,
+              255
+            ]
+          ],
+          [
+            333,
+            [
+              247,
+              158,
+              156,
+              255
+            ]
+          ],
+          [
+            389,
+            [
+              247,
+              162,
+              156,
+              255
+            ]
+          ],
+          [
+            444,
+            [
+              247,
+              162,
+              156,
+              255
+            ]
+          ],
+          [
+            500,
+            [
+              239,
+              174,
+              173,
+              255
+            ]
+          ],
+          [
+            556,
+            [
+              239,
+              186,
+              189,
+              255
+            ]
+          ],
+          [
+            611,
+            [
+              239,
+              186,
+              189,
+              255
+            ]
+          ],
+          [
+            667,
+            [
+              239,
+              190,
+              189,
+              255
+            ]
+          ],
+          [
+            722,
+            [
+              239,
+              215,
+              214,
+              255
+            ]
+          ],
+          [
+            778,
+            [
+              239,
+              215,
+              214,
+              255
+            ]
+          ],
+          [
+            833,
+            [
+              247,
+              225,
+              226,
+              255
+            ]
+          ],
+          [
+            889,
+            [
+              231,
+              207,
+              206,
+              255
+            ]
+          ],
+          [
+            944,
+            [
+              255,
+              235,
+              239,
+              255
+            ]
+          ],
+          [
+            1000,
+            [
+              215,
+              214,
+              214,
+              255
+            ]
+          ]
+        ],
+        "outline": [
+          8,
+          8,
+          10,
+          245
+        ],
+        "outline_width": 1.15,
+        "glow": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "glow_radius": 0,
+        "shadow": [
+          0,
+          0,
+          0,
+          230
+        ],
+        "shadow_offset": [
+          1,
+          2
+        ],
+        "shadow_radius": 0.65,
+        "italic": 0,
+        "tracking": 0,
+        "weight": 0,
+        "motion": 0
+      }
+    },
+    {
+      "id": "img_ui_name_jpn_65",
+      "text": "狂暴藤壶",
+      "rect": [
+        0,
+        0,
+        128,
+        32
+      ],
+      "font_size": 18,
+      "style": {
+        "fill": [
+          255,
+          225,
+          220,
+          255
+        ],
+        "stroke_fill": [
+          140,
+          36,
+          32,
+          230
+        ],
+        "shadow_fill": [
+          0,
+          0,
+          0,
+          190
+        ]
+      },
+      "align": "left",
+      "translation_basis": "new-visible-image-translation-reviewed",
+      "source_text_sha256": "10338fd19c728da359ca77ce33297f41428d1fabaacdc343fda6b3c6adf306df",
+      "source_ids": [],
+      "restoration": {
+        "source_rgba_sha256": "f9c0ae90fa364e50f893054c8b03531dc0909df99b4833051ad00a981e134035",
+        "mask": {
+          "path": "locales/zh-Hans/texture-overlays/restorations/review-v3-20261026/img_ui_name_jpn_65-mask.png",
+          "sha256": "b6085fc23c8f057bc94b9d31177f1b0f5adfc2626c78cd90404ce96f8cf8af28"
+        },
+        "patch": {
+          "path": "locales/zh-Hans/texture-overlays/restorations/review-v3-20261026/img_ui_name_jpn_65-patch.png",
+          "sha256": "83091c9b1125b683ef6b0f7ca02af571464e3055d31f02a6e6c101d8ad6328d7"
+        }
+      },
+      "font": {
+        "path": "build/font-source/NotoSansCJKsc-Bold.otf",
+        "sha256": "b5f0d1a190a7f9b43c310a8850630af12553df32c4c050543f9059732d9b4c0a"
+      },
+      "appearance": {
+        "kind": "source-style-v1",
+        "ink_box": [
+          2,
+          6,
+          124,
+          19
+        ],
+        "align": "left",
+        "gradient": [
+          [
+            0,
+            [
+              207,
+              110,
+              110,
+              255
+            ]
+          ],
+          [
+            56,
+            [
+              175,
+              97,
+              96,
+              255
+            ]
+          ],
+          [
+            111,
+            [
+              239,
+              125,
+              123,
+              255
+            ]
+          ],
+          [
+            167,
+            [
+              255,
+              140,
+              140,
+              255
+            ]
+          ],
+          [
+            222,
+            [
+              255,
+              154,
+              156,
+              255
+            ]
+          ],
+          [
+            278,
+            [
+              255,
+              154,
+              156,
+              255
+            ]
+          ],
+          [
+            333,
+            [
+              255,
+              158,
+              156,
+              255
+            ]
+          ],
+          [
+            389,
+            [
+              255,
+              158,
+              156,
+              255
+            ]
+          ],
+          [
+            444,
+            [
+              255,
+              190,
+              189,
+              255
+            ]
+          ],
+          [
+            500,
+            [
+              255,
+              190,
+              189,
+              255
+            ]
+          ],
+          [
+            556,
+            [
+              255,
+              195,
+              198,
+              255
+            ]
+          ],
+          [
+            611,
+            [
+              239,
+              182,
+              181,
+              255
+            ]
+          ],
+          [
+            667,
+            [
+              255,
+              199,
+              198,
+              255
+            ]
+          ],
+          [
+            722,
+            [
+              255,
+              223,
+              222,
+              255
+            ]
+          ],
+          [
+            778,
+            [
+              255,
+              223,
+              222,
+              255
+            ]
+          ],
+          [
+            833,
+            [
+              247,
+              235,
+              231,
+              255
+            ]
+          ],
+          [
+            889,
+            [
+              239,
+              227,
+              231,
+              255
+            ]
+          ],
+          [
+            944,
+            [
+              247,
+              235,
+              231,
+              255
+            ]
+          ],
+          [
+            1000,
+            [
+              247,
+              241,
+              243,
+              255
+            ]
+          ]
+        ],
+        "outline": [
+          8,
+          8,
+          10,
+          245
+        ],
+        "outline_width": 1.15,
+        "glow": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "glow_radius": 0,
+        "shadow": [
+          0,
+          0,
+          0,
+          230
+        ],
+        "shadow_offset": [
+          1,
+          2
+        ],
+        "shadow_radius": 0.65,
+        "italic": 0,
+        "tracking": 0,
+        "weight": 0,
+        "motion": 0
+      }
+    },
+    {
+      "id": "img_ui_name_jpn_67",
+      "text": "格尔鱼",
+      "rect": [
+        0,
+        0,
+        128,
+        32
+      ],
+      "font_size": 18,
+      "style": {
+        "fill": [
+          255,
+          225,
+          220,
+          255
+        ],
+        "stroke_fill": [
+          140,
+          36,
+          32,
+          230
+        ],
+        "shadow_fill": [
+          0,
+          0,
+          0,
+          190
+        ]
+      },
+      "align": "left",
+      "translation_basis": "new-visible-image-translation-reviewed",
+      "source_text_sha256": "0b4e8b3877974656a3d4c3aa4a1635d59da27996ef5b29063f266168c226f12e",
+      "source_ids": [],
+      "restoration": {
+        "source_rgba_sha256": "5fc549ab6ea6beea80c726ae5f67d0561750354af1482e5a8029d03750470b41",
+        "mask": {
+          "path": "locales/zh-Hans/texture-overlays/restorations/review-v3-20261026/img_ui_name_jpn_67-mask.png",
+          "sha256": "72ff8139e676c53645bc903d708302f0cafad625c938747bcaaaf8dd3599ede6"
+        },
+        "patch": {
+          "path": "locales/zh-Hans/texture-overlays/restorations/review-v3-20261026/img_ui_name_jpn_67-patch.png",
+          "sha256": "83091c9b1125b683ef6b0f7ca02af571464e3055d31f02a6e6c101d8ad6328d7"
+        }
+      },
+      "font": {
+        "path": "build/font-source/NotoSansCJKsc-Bold.otf",
+        "sha256": "b5f0d1a190a7f9b43c310a8850630af12553df32c4c050543f9059732d9b4c0a"
+      },
+      "appearance": {
+        "kind": "source-style-v1",
+        "ink_box": [
+          2,
+          6,
+          124,
+          19
+        ],
+        "align": "left",
+        "gradient": [
+          [
+            0,
+            [
+              209,
+              105,
+              107,
+              255
+            ]
+          ],
+          [
+            56,
+            [
+              212,
+              113,
+              115,
+              255
+            ]
+          ],
+          [
+            111,
+            [
+              247,
+              134,
+              132,
+              255
+            ]
+          ],
+          [
+            167,
+            [
+              255,
+              134,
+              132,
+              255
+            ]
+          ],
+          [
+            222,
+            [
+              247,
+              134,
+              132,
+              255
+            ]
+          ],
+          [
+            278,
+            [
+              247,
+              156,
+              156,
+              255
+            ]
+          ],
+          [
+            333,
+            [
+              247,
+              158,
+              156,
+              255
+            ]
+          ],
+          [
+            389,
+            [
+              251,
+              160,
+              160,
+              255
+            ]
+          ],
+          [
+            444,
+            [
+              255,
+              166,
+              165,
+              255
+            ]
+          ],
+          [
+            500,
+            [
+              255,
+              186,
+              181,
+              255
+            ]
+          ],
+          [
+            556,
+            [
+              255,
+              195,
+              198,
+              255
+            ]
+          ],
+          [
+            611,
+            [
+              239,
+              186,
+              181,
+              255
+            ]
+          ],
+          [
+            667,
+            [
+              239,
+              199,
+              198,
+              255
+            ]
+          ],
+          [
+            722,
+            [
+              239,
+              215,
+              214,
+              255
+            ]
+          ],
+          [
+            778,
+            [
+              239,
+              215,
+              214,
+              255
+            ]
+          ],
+          [
+            833,
+            [
+              255,
+              235,
+              235,
+              255
+            ]
+          ],
+          [
+            889,
+            [
+              231,
+              207,
+              206,
+              255
+            ]
+          ],
+          [
+            944,
+            [
+              255,
+              235,
+              235,
+              255
+            ]
+          ],
+          [
+            1000,
+            [
+              231,
+              228,
+              229,
+              255
+            ]
+          ]
+        ],
+        "outline": [
+          8,
+          8,
+          10,
+          245
+        ],
+        "outline_width": 1.15,
+        "glow": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "glow_radius": 0,
+        "shadow": [
+          0,
+          0,
+          0,
+          230
+        ],
+        "shadow_offset": [
+          1,
+          2
+        ],
+        "shadow_radius": 0.65,
+        "italic": 0,
+        "tracking": 0,
+        "weight": 0,
+        "motion": 0
+      }
+    },
+    {
+      "id": "img_ui_name_jpn_68",
+      "text": "地狱鱼",
+      "rect": [
+        0,
+        0,
+        128,
+        32
+      ],
+      "font_size": 18,
+      "style": {
+        "fill": [
+          255,
+          225,
+          220,
+          255
+        ],
+        "stroke_fill": [
+          140,
+          36,
+          32,
+          230
+        ],
+        "shadow_fill": [
+          0,
+          0,
+          0,
+          190
+        ]
+      },
+      "align": "left",
+      "translation_basis": "new-visible-image-translation-reviewed",
+      "source_text_sha256": "9e2f77a1f8cd781ef0426e155af42b94ba8ad013cb09668dd030bf33d19d2a68",
+      "source_ids": [],
+      "restoration": {
+        "source_rgba_sha256": "4ebe851b89057360ac57f01e553d68f6de7cbcc6b3b467d6eea4ffec8b0dcab6",
+        "mask": {
+          "path": "locales/zh-Hans/texture-overlays/restorations/review-v3-20261026/img_ui_name_jpn_68-mask.png",
+          "sha256": "0f4cec860cbab0ff828690f5af914da5a4b865ef2ba721cd4a63b2d8dc8e80da"
+        },
+        "patch": {
+          "path": "locales/zh-Hans/texture-overlays/restorations/review-v3-20261026/img_ui_name_jpn_68-patch.png",
+          "sha256": "83091c9b1125b683ef6b0f7ca02af571464e3055d31f02a6e6c101d8ad6328d7"
+        }
+      },
+      "font": {
+        "path": "build/font-source/NotoSansCJKsc-Bold.otf",
+        "sha256": "b5f0d1a190a7f9b43c310a8850630af12553df32c4c050543f9059732d9b4c0a"
+      },
+      "appearance": {
+        "kind": "source-style-v1",
+        "ink_box": [
+          2,
+          6,
+          124,
+          19
+        ],
+        "align": "left",
+        "gradient": [
+          [
+            0,
+            [
+              226,
+              111,
+              111,
+              255
+            ]
+          ],
+          [
+            56,
+            [
+              230,
+              113,
+              115,
+              255
+            ]
+          ],
+          [
+            111,
+            [
+              247,
+              138,
+              140,
+              255
+            ]
+          ],
+          [
+            167,
+            [
+              255,
+              142,
+              140,
+              255
+            ]
+          ],
+          [
+            222,
+            [
+              255,
+              142,
+              140,
+              255
+            ]
+          ],
+          [
+            278,
+            [
+              255,
+              146,
+              148,
+              255
+            ]
+          ],
+          [
+            333,
+            [
+              255,
+              166,
+              165,
+              255
+            ]
+          ],
+          [
+            389,
+            [
+              255,
+              166,
+              165,
+              255
+            ]
+          ],
+          [
+            444,
+            [
+              255,
+              166,
+              165,
+              255
+            ]
+          ],
+          [
+            500,
+            [
+              255,
+              174,
+              173,
+              255
+            ]
+          ],
+          [
+            556,
+            [
+              247,
+              186,
+              181,
+              255
+            ]
+          ],
+          [
+            611,
+            [
+              255,
+              195,
+              198,
+              255
+            ]
+          ],
+          [
+            667,
+            [
+              255,
+              207,
+              206,
+              255
+            ]
+          ],
+          [
+            722,
+            [
+              255,
+              207,
+              206,
+              255
+            ]
+          ],
+          [
+            778,
+            [
+              214,
+              195,
+              198,
+              255
+            ]
+          ],
+          [
+            833,
+            [
+              214,
+              195,
+              198,
+              255
+            ]
+          ],
+          [
+            889,
+            [
+              247,
+              231,
+              231,
+              255
+            ]
+          ],
+          [
+            944,
+            [
+              255,
+              241,
+              243,
+              255
+            ]
+          ],
+          [
+            1000,
+            [
+              251,
+              241,
+              243,
+              255
+            ]
+          ]
+        ],
+        "outline": [
+          8,
+          8,
+          10,
+          245
+        ],
+        "outline_width": 1.15,
+        "glow": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "glow_radius": 0,
+        "shadow": [
+          0,
+          0,
+          0,
+          230
+        ],
+        "shadow_offset": [
+          1,
+          2
+        ],
+        "shadow_radius": 0.65,
+        "italic": 0,
+        "tracking": 0,
+        "weight": 0,
+        "motion": 0
+      }
+    },
+    {
+      "id": "img_ui_name_jpn_70",
+      "text": "烈焰兽",
+      "rect": [
+        0,
+        0,
+        128,
+        32
+      ],
+      "font_size": 18,
+      "style": {
+        "fill": [
+          255,
+          225,
+          220,
+          255
+        ],
+        "stroke_fill": [
+          140,
+          36,
+          32,
+          230
+        ],
+        "shadow_fill": [
+          0,
+          0,
+          0,
+          190
+        ]
+      },
+      "align": "left",
+      "translation_basis": "new-visible-image-translation-reviewed",
+      "source_text_sha256": "06f2fe5634d2dad4fd1dd9e45c963ca8cb40b5f912732f29b2e0861630cb10cc",
+      "source_ids": [],
+      "restoration": {
+        "source_rgba_sha256": "6653e99dddbedaf4b9b9b4ba8c5a30c637a9c72c63c5df8e9dfc1e533d9d6ee4",
+        "mask": {
+          "path": "locales/zh-Hans/texture-overlays/restorations/review-v3-20261026/img_ui_name_jpn_70-mask.png",
+          "sha256": "ff8e77cb66df0d65f5790bbd79b1e4cb8fabfd62cb0197b56e77159686567e8d"
+        },
+        "patch": {
+          "path": "locales/zh-Hans/texture-overlays/restorations/review-v3-20261026/img_ui_name_jpn_70-patch.png",
+          "sha256": "83091c9b1125b683ef6b0f7ca02af571464e3055d31f02a6e6c101d8ad6328d7"
+        }
+      },
+      "font": {
+        "path": "build/font-source/NotoSansCJKsc-Bold.otf",
+        "sha256": "b5f0d1a190a7f9b43c310a8850630af12553df32c4c050543f9059732d9b4c0a"
+      },
+      "appearance": {
+        "kind": "source-style-v1",
+        "ink_box": [
+          2,
+          6,
+          124,
+          19
+        ],
+        "align": "left",
+        "gradient": [
+          [
+            0,
+            [
+              214,
+              112,
+              111,
+              255
+            ]
+          ],
+          [
+            59,
+            [
+              172,
+              98,
+              98,
+              255
+            ]
+          ],
+          [
+            118,
+            [
+              255,
+              134,
+              132,
+              255
+            ]
+          ],
+          [
+            176,
+            [
+              247,
+              142,
+              140,
+              255
+            ]
+          ],
+          [
+            235,
+            [
+              247,
+              158,
+              156,
+              255
+            ]
+          ],
+          [
+            294,
+            [
+              247,
+              158,
+              156,
+              255
+            ]
+          ],
+          [
+            353,
+            [
+              247,
+              158,
+              156,
+              255
+            ]
+          ],
+          [
+            412,
+            [
+              247,
+              166,
+              165,
+              255
+            ]
+          ],
+          [
+            471,
+            [
+              247,
+              184,
+              185,
+              255
+            ]
+          ],
+          [
+            529,
+            [
+              247,
+              186,
+              189,
+              255
+            ]
+          ],
+          [
+            588,
+            [
+              247,
+              190,
+              189,
+              255
+            ]
+          ],
+          [
+            647,
+            [
+              247,
+              190,
+              189,
+              255
+            ]
+          ],
+          [
+            706,
+            [
+              255,
+              215,
+              214,
+              255
+            ]
+          ],
+          [
+            765,
+            [
+              255,
+              227,
+              231,
+              255
+            ]
+          ],
+          [
+            824,
+            [
+              255,
+              227,
+              231,
+              255
+            ]
+          ],
+          [
+            882,
+            [
+              255,
+              247,
+              247,
+              255
+            ]
+          ],
+          [
+            941,
+            [
+              255,
+              247,
+              247,
+              255
+            ]
+          ],
+          [
+            1000,
+            [
+              255,
+              247,
+              247,
+              255
+            ]
+          ]
+        ],
+        "outline": [
+          8,
+          8,
+          10,
+          245
+        ],
+        "outline_width": 1.15,
+        "glow": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "glow_radius": 0,
+        "shadow": [
+          0,
+          0,
+          0,
+          230
+        ],
+        "shadow_offset": [
+          1,
+          2
+        ],
+        "shadow_radius": 0.65,
+        "italic": 0,
+        "tracking": 0,
+        "weight": 0,
+        "motion": 0
+      }
+    },
+    {
+      "id": "img_ui_name_jpn_72",
+      "text": "装甲兽",
+      "rect": [
+        0,
+        0,
+        128,
+        32
+      ],
+      "font_size": 18,
+      "style": {
+        "fill": [
+          255,
+          225,
+          220,
+          255
+        ],
+        "stroke_fill": [
+          140,
+          36,
+          32,
+          230
+        ],
+        "shadow_fill": [
+          0,
+          0,
+          0,
+          190
+        ]
+      },
+      "align": "left",
+      "translation_basis": "new-visible-image-translation-reviewed",
+      "source_text_sha256": "4a927dfde315c0e921112db55bffe11b4d54de4cc1cf32fd6c0940dfa7a9dac5",
+      "source_ids": [],
+      "restoration": {
+        "source_rgba_sha256": "0b55fd37222b079a7c221a9e940c5bad41a0c1a0d1416d89f0e4911cb01d03cf",
+        "mask": {
+          "path": "locales/zh-Hans/texture-overlays/restorations/review-v3-20261026/img_ui_name_jpn_72-mask.png",
+          "sha256": "454482ac83d62d017256e30281f6ae9d919e69b6f7a195e6ae0ee7adfa7a14f6"
+        },
+        "patch": {
+          "path": "locales/zh-Hans/texture-overlays/restorations/review-v3-20261026/img_ui_name_jpn_72-patch.png",
+          "sha256": "83091c9b1125b683ef6b0f7ca02af571464e3055d31f02a6e6c101d8ad6328d7"
+        }
+      },
+      "font": {
+        "path": "build/font-source/NotoSansCJKsc-Bold.otf",
+        "sha256": "b5f0d1a190a7f9b43c310a8850630af12553df32c4c050543f9059732d9b4c0a"
+      },
+      "appearance": {
+        "kind": "source-style-v1",
+        "ink_box": [
+          2,
+          6,
+          124,
+          19
+        ],
+        "align": "left",
+        "gradient": [
+          [
+            0,
+            [
+              206,
+              104,
+              110,
+              255
+            ]
+          ],
+          [
+            59,
+            [
+              172,
+              98,
+              98,
+              255
+            ]
+          ],
+          [
+            118,
+            [
+              247,
+              125,
+              132,
+              255
+            ]
+          ],
+          [
+            176,
+            [
+              247,
+              138,
+              140,
+              255
+            ]
+          ],
+          [
+            235,
+            [
+              255,
+              154,
+              156,
+              255
+            ]
+          ],
+          [
+            294,
+            [
+              247,
+              154,
+              156,
+              255
+            ]
+          ],
+          [
+            353,
+            [
+              255,
+              158,
+              156,
+              255
+            ]
+          ],
+          [
+            412,
+            [
+              247,
+              162,
+              165,
+              255
+            ]
+          ],
+          [
+            471,
+            [
+              251,
+              186,
+              189,
+              255
+            ]
+          ],
+          [
+            529,
+            [
+              247,
+              186,
+              189,
+              255
+            ]
+          ],
+          [
+            588,
+            [
+              251,
+              186,
+              189,
+              255
+            ]
+          ],
+          [
+            647,
+            [
+              243,
+              186,
+              189,
+              255
+            ]
+          ],
+          [
+            706,
+            [
+              255,
+              195,
+              198,
+              255
+            ]
+          ],
+          [
+            765,
+            [
+              255,
+              227,
+              222,
+              255
+            ]
+          ],
+          [
+            824,
+            [
+              255,
+              227,
+              222,
+              255
+            ]
+          ],
+          [
+            882,
+            [
+              239,
+              231,
+              231,
+              255
+            ]
+          ],
+          [
+            941,
+            [
+              239,
+              231,
+              231,
+              255
+            ]
+          ],
+          [
+            1000,
+            [
+              239,
+              231,
+              231,
+              255
+            ]
+          ]
+        ],
+        "outline": [
+          8,
+          8,
+          10,
+          245
+        ],
+        "outline_width": 1.15,
+        "glow": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "glow_radius": 0,
+        "shadow": [
+          0,
+          0,
+          0,
+          230
+        ],
+        "shadow_offset": [
+          1,
+          2
+        ],
+        "shadow_radius": 0.65,
+        "italic": 0,
+        "tracking": 0,
+        "weight": 0,
+        "motion": 0
+      }
+    },
+    {
+      "id": "img_ui_name_jpn_86",
+      "text": "德拉科尔",
+      "rect": [
+        0,
+        0,
+        128,
+        32
+      ],
+      "font_size": 18,
+      "style": {
+        "fill": [
+          255,
+          225,
+          220,
+          255
+        ],
+        "stroke_fill": [
+          140,
+          36,
+          32,
+          230
+        ],
+        "shadow_fill": [
+          0,
+          0,
+          0,
+          190
+        ]
+      },
+      "align": "left",
+      "translation_basis": "new-visible-image-translation-reviewed",
+      "source_text_sha256": "1969efdc9455a6ab1b0f4106526a946441ca0e4b948636e3ad226b733aab7b1e",
+      "source_ids": [],
+      "restoration": {
+        "source_rgba_sha256": "e74e1c67bc84ec509bf950415f02e9ba9403c1ce862b219bbab119b9af45e596",
+        "mask": {
+          "path": "locales/zh-Hans/texture-overlays/restorations/review-v3-20261026/img_ui_name_jpn_86-mask.png",
+          "sha256": "a5f699cba31e5e4682069a080eb099f707ef946a51f341898035dec56b6abe5e"
+        },
+        "patch": {
+          "path": "locales/zh-Hans/texture-overlays/restorations/review-v3-20261026/img_ui_name_jpn_86-patch.png",
+          "sha256": "83091c9b1125b683ef6b0f7ca02af571464e3055d31f02a6e6c101d8ad6328d7"
+        }
+      },
+      "font": {
+        "path": "build/font-source/NotoSansCJKsc-Bold.otf",
+        "sha256": "b5f0d1a190a7f9b43c310a8850630af12553df32c4c050543f9059732d9b4c0a"
+      },
+      "appearance": {
+        "kind": "source-style-v1",
+        "ink_box": [
+          2,
+          6,
+          124,
+          19
+        ],
+        "align": "left",
+        "gradient": [
+          [
+            0,
+            [
+              232,
+              122,
+              120,
+              255
+            ]
+          ],
+          [
+            59,
+            [
+              210,
+              100,
+              99,
+              255
+            ]
+          ],
+          [
+            118,
+            [
+              255,
+              146,
+              140,
+              255
+            ]
+          ],
+          [
+            176,
+            [
+              255,
+              134,
+              132,
+              255
+            ]
+          ],
+          [
+            235,
+            [
+              255,
+              146,
+              140,
+              255
+            ]
+          ],
+          [
+            294,
+            [
+              255,
+              162,
+              160,
+              255
+            ]
+          ],
+          [
+            353,
+            [
+              255,
+              170,
+              173,
+              255
+            ]
+          ],
+          [
+            412,
+            [
+              255,
+              170,
+              173,
+              255
+            ]
+          ],
+          [
+            471,
+            [
+              255,
+              174,
+              173,
+              255
+            ]
+          ],
+          [
+            529,
+            [
+              247,
+              174,
+              173,
+              255
+            ]
+          ],
+          [
+            588,
+            [
+              247,
+              190,
+              189,
+              255
+            ]
+          ],
+          [
+            647,
+            [
+              247,
+              195,
+              198,
+              255
+            ]
+          ],
+          [
+            706,
+            [
+              255,
+              215,
+              214,
+              255
+            ]
+          ],
+          [
+            765,
+            [
+              255,
+              243,
+              243,
+              255
+            ]
+          ],
+          [
+            824,
+            [
+              255,
+              247,
+              247,
+              255
+            ]
+          ],
+          [
+            882,
+            [
+              255,
+              247,
+              247,
+              255
+            ]
+          ],
+          [
+            941,
+            [
+              255,
+              247,
+              247,
+              255
+            ]
+          ],
+          [
+            1000,
+            [
+              251,
+              245,
+              245,
+              255
+            ]
+          ]
+        ],
+        "outline": [
+          8,
+          8,
+          10,
+          245
+        ],
+        "outline_width": 1.15,
+        "glow": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "glow_radius": 0,
+        "shadow": [
+          0,
+          0,
+          0,
+          230
+        ],
+        "shadow_offset": [
+          1,
+          2
+        ],
+        "shadow_radius": 0.65,
+        "italic": 0,
+        "tracking": 0,
+        "weight": 0,
+        "motion": 0
+      }
+    },
+    {
+      "id": "img_ui_name_jpn_91",
+      "text": "因费尔诺",
+      "rect": [
+        0,
+        0,
+        128,
+        32
+      ],
+      "font_size": 18,
+      "style": {
+        "fill": [
+          255,
+          225,
+          220,
+          255
+        ],
+        "stroke_fill": [
+          140,
+          36,
+          32,
+          230
+        ],
+        "shadow_fill": [
+          0,
+          0,
+          0,
+          190
+        ]
+      },
+      "align": "left",
+      "translation_basis": "existing-adopted-source",
+      "source_text_sha256": "6db91a51985c45e63a482d9144d240eb51524bcbfca4121d6ff87d7d1e05b32d",
+      "source_ids": [
+        "coalesced:ac3eb30c778b07b7d286ae93b86a42916bb085858c33b5400ef5838f0d0c74a5"
+      ],
+      "restoration": {
+        "source_rgba_sha256": "0dfed6a91c43e0bf7fc3a463c32690c8db10407cec260554e97600fbd0929b80",
+        "mask": {
+          "path": "locales/zh-Hans/texture-overlays/restorations/review-v3-20261026/img_ui_name_jpn_91-mask.png",
+          "sha256": "effb451e5f46d0886b7af4619db5e926331493d39d5553f9a4216ac1f526589c"
+        },
+        "patch": {
+          "path": "locales/zh-Hans/texture-overlays/restorations/review-v3-20261026/img_ui_name_jpn_91-patch.png",
+          "sha256": "83091c9b1125b683ef6b0f7ca02af571464e3055d31f02a6e6c101d8ad6328d7"
+        }
+      },
+      "font": {
+        "path": "build/font-source/NotoSansCJKsc-Bold.otf",
+        "sha256": "b5f0d1a190a7f9b43c310a8850630af12553df32c4c050543f9059732d9b4c0a"
+      },
+      "appearance": {
+        "kind": "source-style-v1",
+        "ink_box": [
+          2,
+          6,
+          124,
+          19
+        ],
+        "align": "left",
+        "gradient": [
+          [
+            0,
+            [
+              230,
+              120,
+              120,
+              255
+            ]
+          ],
+          [
+            56,
+            [
+              255,
+              138,
+              140,
+              255
+            ]
+          ],
+          [
+            111,
+            [
+              255,
+              138,
+              140,
+              255
+            ]
+          ],
+          [
+            167,
+            [
+              247,
+              134,
+              132,
+              255
+            ]
+          ],
+          [
+            222,
+            [
+              247,
+              134,
+              132,
+              255
+            ]
+          ],
+          [
+            278,
+            [
+              247,
+              158,
+              156,
+              255
+            ]
+          ],
+          [
+            333,
+            [
+              247,
+              162,
+              165,
+              255
+            ]
+          ],
+          [
+            389,
+            [
+              247,
+              162,
+              165,
+              255
+            ]
+          ],
+          [
+            444,
+            [
+              247,
+              162,
+              165,
+              255
+            ]
+          ],
+          [
+            500,
+            [
+              247,
+              178,
+              173,
+              255
+            ]
+          ],
+          [
+            556,
+            [
+              255,
+              186,
+              189,
+              255
+            ]
+          ],
+          [
+            611,
+            [
+              222,
+              178,
+              173,
+              255
+            ]
+          ],
+          [
+            667,
+            [
+              255,
+              203,
+              198,
+              255
+            ]
+          ],
+          [
+            722,
+            [
+              255,
+              233,
+              231,
+              255
+            ]
+          ],
+          [
+            778,
+            [
+              255,
+              243,
+              239,
+              255
+            ]
+          ],
+          [
+            833,
+            [
+              255,
+              243,
+              239,
+              255
+            ]
+          ],
+          [
+            889,
+            [
+              255,
+              243,
+              239,
+              255
+            ]
+          ],
+          [
+            944,
+            [
+              255,
+              231,
+              231,
+              255
+            ]
+          ],
+          [
+            1000,
+            [
+              238,
+              239,
+              238,
+              255
+            ]
+          ]
+        ],
+        "outline": [
+          8,
+          8,
+          10,
+          245
+        ],
+        "outline_width": 1.15,
+        "glow": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "glow_radius": 0,
+        "shadow": [
+          0,
+          0,
+          0,
+          230
+        ],
+        "shadow_offset": [
+          1,
+          2
+        ],
+        "shadow_radius": 0.65,
+        "italic": 0,
+        "tracking": 0,
+        "weight": 0,
+        "motion": 0
+      }
+    },
+    {
+      "id": "img_ui_name_jpn_95",
+      "text": "库姆",
+      "rect": [
+        0,
+        0,
+        128,
+        32
+      ],
+      "font_size": 18,
+      "style": {
+        "fill": [
+          255,
+          225,
+          220,
+          255
+        ],
+        "stroke_fill": [
+          140,
+          36,
+          32,
+          230
+        ],
+        "shadow_fill": [
+          0,
+          0,
+          0,
+          190
+        ]
+      },
+      "align": "left",
+      "translation_basis": "new-visible-image-translation-reviewed",
+      "source_text_sha256": "e6ed166a04fe11f7cca24b9f0c0d2ec244653d54e2d1ff5451d21389865d82b1",
+      "source_ids": [],
+      "restoration": {
+        "source_rgba_sha256": "d424fa382c2f8afd34ff154ec453b4984e71440f44bbaabba004090ee37d8fc3",
+        "mask": {
+          "path": "locales/zh-Hans/texture-overlays/restorations/review-v3-20261026/img_ui_name_jpn_95-mask.png",
+          "sha256": "27799906b4cb4eefa28ffdf49471e3c325ae2e9986bf89ee1f4bb427422009b7"
+        },
+        "patch": {
+          "path": "locales/zh-Hans/texture-overlays/restorations/review-v3-20261026/img_ui_name_jpn_95-patch.png",
+          "sha256": "83091c9b1125b683ef6b0f7ca02af571464e3055d31f02a6e6c101d8ad6328d7"
+        }
+      },
+      "font": {
+        "path": "build/font-source/NotoSansCJKsc-Bold.otf",
+        "sha256": "b5f0d1a190a7f9b43c310a8850630af12553df32c4c050543f9059732d9b4c0a"
+      },
+      "appearance": {
+        "kind": "source-style-v1",
+        "ink_box": [
+          2,
+          6,
+          124,
+          19
+        ],
+        "align": "left",
+        "gradient": [
+          [
+            0,
+            [
+              215,
+              110,
+              111,
+              255
+            ]
+          ],
+          [
+            59,
+            [
+              255,
+              130,
+              132,
+              255
+            ]
+          ],
+          [
+            118,
+            [
+              175,
+              90,
+              93,
+              255
+            ]
+          ],
+          [
+            176,
+            [
+              239,
+              130,
+              132,
+              255
+            ]
+          ],
+          [
+            235,
+            [
+              239,
+              134,
+              140,
+              255
+            ]
+          ],
+          [
+            294,
+            [
+              239,
+              142,
+              140,
+              255
+            ]
+          ],
+          [
+            353,
+            [
+              239,
+              142,
+              140,
+              255
+            ]
+          ],
+          [
+            412,
+            [
+              239,
+              170,
+              165,
+              255
+            ]
+          ],
+          [
+            471,
+            [
+              255,
+              182,
+              181,
+              255
+            ]
+          ],
+          [
+            529,
+            [
+              255,
+              186,
+              189,
+              255
+            ]
+          ],
+          [
+            588,
+            [
+              255,
+              186,
+              189,
+              255
+            ]
+          ],
+          [
+            647,
+            [
+              255,
+              186,
+              189,
+              255
+            ]
+          ],
+          [
+            706,
+            [
+              255,
+              221,
+              222,
+              255
+            ]
+          ],
+          [
+            765,
+            [
+              255,
+              221,
+              222,
+              255
+            ]
+          ],
+          [
+            824,
+            [
+              255,
+              221,
+              222,
+              255
+            ]
+          ],
+          [
+            882,
+            [
+              214,
+              207,
+              206,
+              255
+            ]
+          ],
+          [
+            941,
+            [
+              214,
+              207,
+              206,
+              255
+            ]
+          ],
+          [
+            1000,
+            [
+              214,
+              207,
+              206,
+              255
+            ]
+          ]
+        ],
+        "outline": [
+          8,
+          8,
+          10,
+          245
+        ],
+        "outline_width": 1.15,
+        "glow": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "glow_radius": 0,
+        "shadow": [
+          0,
+          0,
+          0,
+          230
+        ],
+        "shadow_offset": [
+          1,
+          2
+        ],
+        "shadow_radius": 0.65,
+        "italic": 0,
+        "tracking": 0,
+        "weight": 0,
+        "motion": 0
+      }
+    },
+    {
+      "id": "img_ui_name_jpn_97",
+      "text": "致命巨蛾",
+      "rect": [
+        0,
+        0,
+        128,
+        32
+      ],
+      "font_size": 18,
+      "style": {
+        "fill": [
+          255,
+          225,
+          220,
+          255
+        ],
+        "stroke_fill": [
+          140,
+          36,
+          32,
+          230
+        ],
+        "shadow_fill": [
+          0,
+          0,
+          0,
+          190
+        ]
+      },
+      "align": "left",
+      "translation_basis": "new-visible-image-translation-reviewed",
+      "source_text_sha256": "00bfc90ce4498190e031f1355c6db520a0ca1e1d7f6f19c03e9b73710137bc81",
+      "source_ids": [],
+      "restoration": {
+        "source_rgba_sha256": "30ef15ba3cad9438ee178f194695b7ca9459429a04e8791fb2e00f57787c1cbb",
+        "mask": {
+          "path": "locales/zh-Hans/texture-overlays/restorations/review-v3-20261026/img_ui_name_jpn_97-mask.png",
+          "sha256": "effb451e5f46d0886b7af4619db5e926331493d39d5553f9a4216ac1f526589c"
+        },
+        "patch": {
+          "path": "locales/zh-Hans/texture-overlays/restorations/review-v3-20261026/img_ui_name_jpn_97-patch.png",
+          "sha256": "83091c9b1125b683ef6b0f7ca02af571464e3055d31f02a6e6c101d8ad6328d7"
+        }
+      },
+      "font": {
+        "path": "build/font-source/NotoSansCJKsc-Bold.otf",
+        "sha256": "b5f0d1a190a7f9b43c310a8850630af12553df32c4c050543f9059732d9b4c0a"
+      },
+      "appearance": {
+        "kind": "source-style-v1",
+        "ink_box": [
+          2,
+          6,
+          124,
+          19
+        ],
+        "align": "left",
+        "gradient": [
+          [
+            0,
+            [
+              192,
+              102,
+              103,
+              255
+            ]
+          ],
+          [
+            56,
+            [
+              211,
+              110,
+              110,
+              255
+            ]
+          ],
+          [
+            111,
+            [
+              247,
+              125,
+              123,
+              255
+            ]
+          ],
+          [
+            167,
+            [
+              255,
+              138,
+              140,
+              255
+            ]
+          ],
+          [
+            222,
+            [
+              255,
+              150,
+              148,
+              255
+            ]
+          ],
+          [
+            278,
+            [
+              255,
+              154,
+              156,
+              255
+            ]
+          ],
+          [
+            333,
+            [
+              255,
+              154,
+              156,
+              255
+            ]
+          ],
+          [
+            389,
+            [
+              255,
+              154,
+              156,
+              255
+            ]
+          ],
+          [
+            444,
+            [
+              255,
+              182,
+              181,
+              255
+            ]
+          ],
+          [
+            500,
+            [
+              243,
+              182,
+              181,
+              255
+            ]
+          ],
+          [
+            556,
+            [
+              243,
+              182,
+              181,
+              255
+            ]
+          ],
+          [
+            611,
+            [
+              239,
+              178,
+              177,
+              255
+            ]
+          ],
+          [
+            667,
+            [
+              255,
+              195,
+              198,
+              255
+            ]
+          ],
+          [
+            722,
+            [
+              255,
+              227,
+              231,
+              255
+            ]
+          ],
+          [
+            778,
+            [
+              255,
+              235,
+              231,
+              255
+            ]
+          ],
+          [
+            833,
+            [
+              255,
+              235,
+              235,
+              255
+            ]
+          ],
+          [
+            889,
+            [
+              247,
+              235,
+              231,
+              255
+            ]
+          ],
+          [
+            944,
+            [
+              247,
+              235,
+              235,
+              255
+            ]
+          ],
+          [
+            1000,
+            [
+              215,
+              214,
+              214,
+              255
+            ]
+          ]
+        ],
+        "outline": [
+          8,
+          8,
+          10,
+          245
+        ],
+        "outline_width": 1.15,
+        "glow": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "glow_radius": 0,
+        "shadow": [
+          0,
+          0,
+          0,
+          230
+        ],
+        "shadow_offset": [
+          1,
+          2
+        ],
+        "shadow_radius": 0.65,
+        "italic": 0,
+        "tracking": 0,
+        "weight": 0,
+        "motion": 0
+      }
+    },
+    {
+      "id": "img_ui_name_jpn_99",
+      "text": "狂暴魔像",
+      "rect": [
+        0,
+        0,
+        128,
+        32
+      ],
+      "font_size": 18,
+      "style": {
+        "fill": [
+          255,
+          225,
+          220,
+          255
+        ],
+        "stroke_fill": [
+          140,
+          36,
+          32,
+          230
+        ],
+        "shadow_fill": [
+          0,
+          0,
+          0,
+          190
+        ]
+      },
+      "align": "left",
+      "translation_basis": "new-visible-image-translation-reviewed",
+      "source_text_sha256": "19c834c9a7cc0067ed5536713627664f885d98f4bcc674d636f0230c5ef9460c",
+      "source_ids": [],
+      "restoration": {
+        "source_rgba_sha256": "53153ea496fc9ebf381b75fa41df64abd66af54c140ae55a99aa047638e10e00",
+        "mask": {
+          "path": "locales/zh-Hans/texture-overlays/restorations/review-v3-20261026/img_ui_name_jpn_99-mask.png",
+          "sha256": "effb451e5f46d0886b7af4619db5e926331493d39d5553f9a4216ac1f526589c"
+        },
+        "patch": {
+          "path": "locales/zh-Hans/texture-overlays/restorations/review-v3-20261026/img_ui_name_jpn_99-patch.png",
+          "sha256": "83091c9b1125b683ef6b0f7ca02af571464e3055d31f02a6e6c101d8ad6328d7"
+        }
+      },
+      "font": {
+        "path": "build/font-source/NotoSansCJKsc-Bold.otf",
+        "sha256": "b5f0d1a190a7f9b43c310a8850630af12553df32c4c050543f9059732d9b4c0a"
+      },
+      "appearance": {
+        "kind": "source-style-v1",
+        "ink_box": [
+          2,
+          6,
+          124,
+          19
+        ],
+        "align": "left",
+        "gradient": [
+          [
+            0,
+            [
+              239,
+              121,
+              123,
+              255
+            ]
+          ],
+          [
+            59,
+            [
+              239,
+              121,
+              123,
+              255
+            ]
+          ],
+          [
+            118,
+            [
+              239,
+              142,
+              140,
+              255
+            ]
+          ],
+          [
+            176,
+            [
+              239,
+              146,
+              148,
+              255
+            ]
+          ],
+          [
+            235,
+            [
+              239,
+              146,
+              148,
+              255
+            ]
+          ],
+          [
+            294,
+            [
+              239,
+              150,
+              148,
+              255
+            ]
+          ],
+          [
+            353,
+            [
+              239,
+              150,
+              148,
+              255
+            ]
+          ],
+          [
+            412,
+            [
+              239,
+              162,
+              165,
+              255
+            ]
+          ],
+          [
+            471,
+            [
+              231,
+              162,
+              165,
+              255
+            ]
+          ],
+          [
+            529,
+            [
+              222,
+              162,
+              165,
+              255
+            ]
+          ],
+          [
+            588,
+            [
+              206,
+              162,
+              165,
+              255
+            ]
+          ],
+          [
+            647,
+            [
+              222,
+              178,
+              181,
+              255
+            ]
+          ],
+          [
+            706,
+            [
+              239,
+              211,
+              206,
+              255
+            ]
+          ],
+          [
+            765,
+            [
+              239,
+              211,
+              206,
+              255
+            ]
+          ],
+          [
+            824,
+            [
+              230,
+              221,
+              218,
+              255
+            ]
+          ],
+          [
+            882,
+            [
+              222,
+              215,
+              214,
+              255
+            ]
+          ],
+          [
+            941,
+            [
+              230,
+              221,
+              218,
+              255
+            ]
+          ],
+          [
+            1000,
+            [
+              238,
+              233,
+              232,
+              255
+            ]
+          ]
+        ],
+        "outline": [
+          8,
+          8,
+          10,
+          245
+        ],
+        "outline_width": 1.15,
+        "glow": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "glow_radius": 0,
+        "shadow": [
+          0,
+          0,
+          0,
+          230
+        ],
+        "shadow_offset": [
+          1,
+          2
+        ],
+        "shadow_radius": 0.65,
+        "italic": 0,
+        "tracking": 0,
+        "weight": 0,
+        "motion": 0
+      }
+    }
+  ],
+  "sources": [
+    {
+      "path": "MC2Game/CookedXenon/UI_Name_Jpn.xxx",
+      "discs": [
+        1,
+        2
+      ],
+      "original": {
+        "path": "build/poc-game/disc1/MC2Game/CookedXenon/UI_Name_Jpn.xxx",
+        "sha256": "5f962a3735c51c3941841622a753ec82248a7db62edb2b47fb031faf043cecfc"
+      },
+      "base": {
+        "path": "build/poc-game/disc1/MC2Game/CookedXenon/UI_Name_Jpn.xxx",
+        "sha256": "5f962a3735c51c3941841622a753ec82248a7db62edb2b47fb031faf043cecfc"
+      },
+      "textures": [
+        {
+          "object": "Monster_Name.Boss_011_01",
+          "payload_sha256": "6cf2420270bccd7f77c9108104464eb7b172f39c96f2b8a5859fdee329d10010",
+          "tiled_sha256": "6dd7ab2f366dd9b729d9a23f17a86e9542bf7dfeaa3761ea71c1ab77d9a2f8e1",
+          "dimensions": [
+            128,
+            32
+          ],
+          "regions": [
+            "img_ui_name_jpn_25"
+          ],
+          "image_id": "img_ui_name_jpn_25",
+          "profile": {
+            "kind": "xbox-inline-bc-v1",
+            "format": 7
+          },
+          "channel_mode": "rgba",
+          "preserve_unchanged_blocks": true,
+          "alpha_encoding": "adaptive-range"
+        },
+        {
+          "object": "Monster_Name.Boss_011_02",
+          "payload_sha256": "ffd67423a39020b305ec2c2d31429d94c2483a6dcc2b8d1f051a6ecc986c83e8",
+          "tiled_sha256": "4c21071992d32fe0b491de02f32351a15c2deb3dc9eca699aaa085d79e32b1b5",
+          "dimensions": [
+            128,
+            32
+          ],
+          "regions": [
+            "img_ui_name_jpn_26"
+          ],
+          "image_id": "img_ui_name_jpn_26",
+          "profile": {
+            "kind": "xbox-inline-bc-v1",
+            "format": 7
+          },
+          "channel_mode": "rgba",
+          "preserve_unchanged_blocks": true,
+          "alpha_encoding": "adaptive-range"
+        },
+        {
+          "object": "Monster_Name.BOSS_306",
+          "payload_sha256": "7fd9ca17af1c8aad79c28cbcd0cc21b2fb335c97e39fffc6001abf7ce93a2e59",
+          "tiled_sha256": "d309ad4d40fd626c3fc7f11fe1b6c61bc23d68cf703d78b177a04e269b825715",
+          "dimensions": [
+            128,
+            32
+          ],
+          "regions": [
+            "img_ui_name_jpn_34"
+          ],
+          "image_id": "img_ui_name_jpn_34",
+          "profile": {
+            "kind": "xbox-inline-bc-v1",
+            "format": 7
+          },
+          "channel_mode": "rgba",
+          "preserve_unchanged_blocks": true,
+          "alpha_encoding": "adaptive-range"
+        },
+        {
+          "object": "Monster_Name.BOSS_308",
+          "payload_sha256": "ce29a355c8a223ad3e353e3db720215cded38cfe98b78d01be35f0de22c8a2ce",
+          "tiled_sha256": "62c435ff50b03143e91516e4b2849baa30a70e8332c265637888abfcbf7977b4",
+          "dimensions": [
+            128,
+            32
+          ],
+          "regions": [
+            "img_ui_name_jpn_36"
+          ],
+          "image_id": "img_ui_name_jpn_36",
+          "profile": {
+            "kind": "xbox-inline-bc-v1",
+            "format": 7
+          },
+          "channel_mode": "rgba",
+          "preserve_unchanged_blocks": true,
+          "alpha_encoding": "adaptive-range"
+        },
+        {
+          "object": "Monster_Name.BOSS_310",
+          "payload_sha256": "6b956c36dad4f9ece95452dc8c2fd0fbca1d329598aa220c91e451328499722b",
+          "tiled_sha256": "f00e545803118474a70b8d69e5b8171187de6810a559ab594f076663c0b1ab97",
+          "dimensions": [
+            128,
+            32
+          ],
+          "regions": [
+            "img_ui_name_jpn_38"
+          ],
+          "image_id": "img_ui_name_jpn_38",
+          "profile": {
+            "kind": "xbox-inline-bc-v1",
+            "format": 7
+          },
+          "channel_mode": "rgba",
+          "preserve_unchanged_blocks": true,
+          "alpha_encoding": "adaptive-range"
+        },
+        {
+          "object": "Monster_Name.Mname_04",
+          "payload_sha256": "f9ad74be45e3755e72382873cdd66ec62c0815b4374a4299c25a567a8e3fb11b",
+          "tiled_sha256": "96d544466fca097e629ef725032565061c4759186c9f8ae830c6cde14e46c7c2",
+          "dimensions": [
+            128,
+            32
+          ],
+          "regions": [
+            "img_ui_name_jpn_43"
+          ],
+          "image_id": "img_ui_name_jpn_43",
+          "profile": {
+            "kind": "xbox-inline-bc-v1",
+            "format": 7
+          },
+          "channel_mode": "rgba",
+          "preserve_unchanged_blocks": true,
+          "alpha_encoding": "adaptive-range"
+        },
+        {
+          "object": "Monster_Name.Mname_10",
+          "payload_sha256": "ccf4453be87d3ea3815666b156fe6d28470c3bfcf028704f6a89eb99fa7e02c3",
+          "tiled_sha256": "d17e5eeb73d9ab4a8e4670592883ce3aef1241d9337a1797b10219f00b7cd169",
+          "dimensions": [
+            128,
+            32
+          ],
+          "regions": [
+            "img_ui_name_jpn_49"
+          ],
+          "image_id": "img_ui_name_jpn_49",
+          "profile": {
+            "kind": "xbox-inline-bc-v1",
+            "format": 7
+          },
+          "channel_mode": "rgba",
+          "preserve_unchanged_blocks": true,
+          "alpha_encoding": "adaptive-range"
+        },
+        {
+          "object": "Monster_Name.Mname_13",
+          "payload_sha256": "3c29942e967dca428ffb0ec481084ef48c9af266433b5ed62f80c2299605d059",
+          "tiled_sha256": "747a1bd6dc96f0e48c9fe39a16d059f5a741bf14ebd1c0aed084859045f1f93e",
+          "dimensions": [
+            128,
+            32
+          ],
+          "regions": [
+            "img_ui_name_jpn_52"
+          ],
+          "image_id": "img_ui_name_jpn_52",
+          "profile": {
+            "kind": "xbox-inline-bc-v1",
+            "format": 7
+          },
+          "channel_mode": "rgba",
+          "preserve_unchanged_blocks": true,
+          "alpha_encoding": "adaptive-range"
+        },
+        {
+          "object": "Monster_Name.Mname_21",
+          "payload_sha256": "525a01f8a7a323eb0bc4053e7f201a1bf982062d08aed94482608a188ea7c89e",
+          "tiled_sha256": "bca5541c4597bbbfc88de147cccb5c0328e516525a0fe08a666ce230fefd2e0a",
+          "dimensions": [
+            128,
+            32
+          ],
+          "regions": [
+            "img_ui_name_jpn_60"
+          ],
+          "image_id": "img_ui_name_jpn_60",
+          "profile": {
+            "kind": "xbox-inline-bc-v1",
+            "format": 7
+          },
+          "channel_mode": "rgba",
+          "preserve_unchanged_blocks": true,
+          "alpha_encoding": "adaptive-range"
+        },
+        {
+          "object": "Monster_Name.Mname_22",
+          "payload_sha256": "a8cbac6ba18be2c59c6dcd534e4f8341405ef1997a35d62ee3ed8c34996bfc3e",
+          "tiled_sha256": "8d8fe264e13d1b6391e945bf5e07858cfa66a880d2c0e30a81736abdc633efe1",
+          "dimensions": [
+            128,
+            32
+          ],
+          "regions": [
+            "img_ui_name_jpn_61"
+          ],
+          "image_id": "img_ui_name_jpn_61",
+          "profile": {
+            "kind": "xbox-inline-bc-v1",
+            "format": 7
+          },
+          "channel_mode": "rgba",
+          "preserve_unchanged_blocks": true,
+          "alpha_encoding": "adaptive-range"
+        },
+        {
+          "object": "Monster_Name.Mname_23",
+          "payload_sha256": "30c4d2a4a93d950c6b7f2f4d77ee76d64bc628f017d8de737e08f5461edbc53a",
+          "tiled_sha256": "804c23af16ff0c5351e0645b36701c88aea8c8a1e617b032c54d57cd4cdac367",
+          "dimensions": [
+            128,
+            32
+          ],
+          "regions": [
+            "img_ui_name_jpn_62"
+          ],
+          "image_id": "img_ui_name_jpn_62",
+          "profile": {
+            "kind": "xbox-inline-bc-v1",
+            "format": 7
+          },
+          "channel_mode": "rgba",
+          "preserve_unchanged_blocks": true,
+          "alpha_encoding": "adaptive-range"
+        },
+        {
+          "object": "Monster_Name.Mname_24",
+          "payload_sha256": "94d2af8043e3fe3e9b1f9d19d01b1061744440f430a0e8f777c89491c2e707b7",
+          "tiled_sha256": "26dbef7013a959bd237ac29a61813ac4b0639f641639a085934bd5a879d3da51",
+          "dimensions": [
+            128,
+            32
+          ],
+          "regions": [
+            "img_ui_name_jpn_63"
+          ],
+          "image_id": "img_ui_name_jpn_63",
+          "profile": {
+            "kind": "xbox-inline-bc-v1",
+            "format": 7
+          },
+          "channel_mode": "rgba",
+          "preserve_unchanged_blocks": true,
+          "alpha_encoding": "adaptive-range"
+        },
+        {
+          "object": "Monster_Name.Mname_25",
+          "payload_sha256": "97eccf15dc0208fdda79d6b2cebb90186c01b361f31a2be68614068b24429596",
+          "tiled_sha256": "cab6464510d52e26c9af28fbeeebaef717e7348a8f7fc718ea5e39822461fe4b",
+          "dimensions": [
+            128,
+            32
+          ],
+          "regions": [
+            "img_ui_name_jpn_64"
+          ],
+          "image_id": "img_ui_name_jpn_64",
+          "profile": {
+            "kind": "xbox-inline-bc-v1",
+            "format": 7
+          },
+          "channel_mode": "rgba",
+          "preserve_unchanged_blocks": true,
+          "alpha_encoding": "adaptive-range"
+        },
+        {
+          "object": "Monster_Name.Mname_26",
+          "payload_sha256": "eb52bc2a98d874a18bb921e46b894a0ab0b0a85616479e4318f5004b160a18ee",
+          "tiled_sha256": "1e0e5b6eda0ea706b2baab693c0d46ef62cfa97ea211eca7488cd0093dd67ae7",
+          "dimensions": [
+            128,
+            32
+          ],
+          "regions": [
+            "img_ui_name_jpn_65"
+          ],
+          "image_id": "img_ui_name_jpn_65",
+          "profile": {
+            "kind": "xbox-inline-bc-v1",
+            "format": 7
+          },
+          "channel_mode": "rgba",
+          "preserve_unchanged_blocks": true,
+          "alpha_encoding": "adaptive-range"
+        },
+        {
+          "object": "Monster_Name.Mname_28",
+          "payload_sha256": "87dac2851578ba884d6bd42dcaef70f11d73ff296f091bd71e20c9c29de0bd89",
+          "tiled_sha256": "01ff257a5697411691d94fb397a162240690684824b5ca4d0450b993531a004c",
+          "dimensions": [
+            128,
+            32
+          ],
+          "regions": [
+            "img_ui_name_jpn_67"
+          ],
+          "image_id": "img_ui_name_jpn_67",
+          "profile": {
+            "kind": "xbox-inline-bc-v1",
+            "format": 7
+          },
+          "channel_mode": "rgba",
+          "preserve_unchanged_blocks": true,
+          "alpha_encoding": "adaptive-range"
+        },
+        {
+          "object": "Monster_Name.Mname_29",
+          "payload_sha256": "922ab43e236b9d1d076fe84102e4da367f1e2ec55216290fdc8a1b3b614056aa",
+          "tiled_sha256": "dbfd26bee95c6ef530517aa06ee9a49b2a77044cd7c680007590a605d59e8f3f",
+          "dimensions": [
+            128,
+            32
+          ],
+          "regions": [
+            "img_ui_name_jpn_68"
+          ],
+          "image_id": "img_ui_name_jpn_68",
+          "profile": {
+            "kind": "xbox-inline-bc-v1",
+            "format": 7
+          },
+          "channel_mode": "rgba",
+          "preserve_unchanged_blocks": true,
+          "alpha_encoding": "adaptive-range"
+        },
+        {
+          "object": "Monster_Name.Mname_31",
+          "payload_sha256": "cd58e2dcc3129085b23aa3f96909d36b76a77ace168770a91dc211a546f7bc2a",
+          "tiled_sha256": "7e81ad24d540948d613fbe614f8bf046ef2059805e7738d125dd7a410ad43e3b",
+          "dimensions": [
+            128,
+            32
+          ],
+          "regions": [
+            "img_ui_name_jpn_70"
+          ],
+          "image_id": "img_ui_name_jpn_70",
+          "profile": {
+            "kind": "xbox-inline-bc-v1",
+            "format": 7
+          },
+          "channel_mode": "rgba",
+          "preserve_unchanged_blocks": true,
+          "alpha_encoding": "adaptive-range"
+        },
+        {
+          "object": "Monster_Name.Mname_33",
+          "payload_sha256": "9d3697beaedeb834b2dfb2b735f7571ac5faa4c7772bb591a2d033594d8dd575",
+          "tiled_sha256": "85c59ea5aa0f9aba996beef67a9f1ce708763743981acfe1b8c3c147404fdce3",
+          "dimensions": [
+            128,
+            32
+          ],
+          "regions": [
+            "img_ui_name_jpn_72"
+          ],
+          "image_id": "img_ui_name_jpn_72",
+          "profile": {
+            "kind": "xbox-inline-bc-v1",
+            "format": 7
+          },
+          "channel_mode": "rgba",
+          "preserve_unchanged_blocks": true,
+          "alpha_encoding": "adaptive-range"
+        },
+        {
+          "object": "Monster_Name.Mname_48",
+          "payload_sha256": "1ecc3c9b7a0e95b1912087aeb742407d9c44984d327bc66abc8885dea919c4e6",
+          "tiled_sha256": "697930b023460e3a57257b6ae55d9b399208d415b66ae047be83f4ccd89b7be5",
+          "dimensions": [
+            128,
+            32
+          ],
+          "regions": [
+            "img_ui_name_jpn_86"
+          ],
+          "image_id": "img_ui_name_jpn_86",
+          "profile": {
+            "kind": "xbox-inline-bc-v1",
+            "format": 7
+          },
+          "channel_mode": "rgba",
+          "preserve_unchanged_blocks": true,
+          "alpha_encoding": "adaptive-range"
+        },
+        {
+          "object": "Monster_Name.Mname_53",
+          "payload_sha256": "9beaef5a5e97365e821fc14a500ff6f8c58a16e7ead907f50b42ad851fe16baa",
+          "tiled_sha256": "17dc4f6e6834b1947c3e867376ca0329343e12e4019b2fa1d6c28d08d44fbca4",
+          "dimensions": [
+            128,
+            32
+          ],
+          "regions": [
+            "img_ui_name_jpn_91"
+          ],
+          "image_id": "img_ui_name_jpn_91",
+          "profile": {
+            "kind": "xbox-inline-bc-v1",
+            "format": 7
+          },
+          "channel_mode": "rgba",
+          "preserve_unchanged_blocks": true,
+          "alpha_encoding": "adaptive-range"
+        },
+        {
+          "object": "Monster_Name.Mname_57",
+          "payload_sha256": "877968cf8274d6588578c9caa6909e823c86154d32792ecda425f9fd4edea7ff",
+          "tiled_sha256": "a949c8692710c4e75c4316a8f4d1abb80a01a8930a641309c17038330e691e62",
+          "dimensions": [
+            128,
+            32
+          ],
+          "regions": [
+            "img_ui_name_jpn_95"
+          ],
+          "image_id": "img_ui_name_jpn_95",
+          "profile": {
+            "kind": "xbox-inline-bc-v1",
+            "format": 7
+          },
+          "channel_mode": "rgba",
+          "preserve_unchanged_blocks": true,
+          "alpha_encoding": "adaptive-range"
+        },
+        {
+          "object": "Monster_Name.Mname_59",
+          "payload_sha256": "bed3c591e77b8dcd4d3554087c970e2d549cf2de913c52b0992b3ebf4892ccbb",
+          "tiled_sha256": "fcebcfd6eb1b3f9c7c1eb63222ed5ed6255e6e08113b1dfc54e4f0d4d1fb3fd5",
+          "dimensions": [
+            128,
+            32
+          ],
+          "regions": [
+            "img_ui_name_jpn_97"
+          ],
+          "image_id": "img_ui_name_jpn_97",
+          "profile": {
+            "kind": "xbox-inline-bc-v1",
+            "format": 7
+          },
+          "channel_mode": "rgba",
+          "preserve_unchanged_blocks": true,
+          "alpha_encoding": "adaptive-range"
+        },
+        {
+          "object": "Monster_Name.Mname_61",
+          "payload_sha256": "8be1525119dc23e6235231303ef41781e62bb94483779999e2bb90c932706600",
+          "tiled_sha256": "3bc4eec2bd4b81335bbb8b96577a5ba364728cf824b3da17d2c6e57b81741c2d",
+          "dimensions": [
+            128,
+            32
+          ],
+          "regions": [
+            "img_ui_name_jpn_99"
+          ],
+          "image_id": "img_ui_name_jpn_99",
+          "profile": {
+            "kind": "xbox-inline-bc-v1",
+            "format": 7
+          },
+          "channel_mode": "rgba",
+          "preserve_unchanged_blocks": true,
+          "alpha_encoding": "adaptive-range"
+        }
+      ]
+    }
+  ]
+}

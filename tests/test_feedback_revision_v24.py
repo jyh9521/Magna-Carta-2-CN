@@ -122,6 +122,16 @@ class TextureAliasUpdateTests(unittest.TestCase):
             with self.assertRaisesRegex(ValueError,'duplicate'):
                 build(bad,root,source,root/'bad',stored_decoder)
 
+    def test_expanded_texture_count_remains_bounded(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root=Path(tmp);raw,donor,source,p=self.prepare_fixture(root)
+            texture=p['resources'][0]['textures'][0]
+            p['resources'][0]['textures']=[dict(texture,object=f'name_{i}')for i in range(257)]
+            with patch('tools.build_texture_alias_update.prepare',return_value=({'candidate/donor.xxx':donor},{},[])):
+                with self.assertRaisesRegex(ValueError,'excessive'):
+                    build(p,root,source,root/'bad',stored_decoder)
+            self.assertFalse((root/'bad').exists())
+
 
 if __name__ == '__main__':
     unittest.main()

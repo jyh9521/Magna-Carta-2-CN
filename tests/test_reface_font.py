@@ -62,5 +62,26 @@ class FontRefaceTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError,'capacity'):
             ref.place_cells(4,4,[],[dict(width=8,height=8)])
 
+    def test_explicit_optical_fit_keeps_cell_height_and_bounded_advance(self):
+        from tools.audit_font_optical_size import Sampler, ink_box
+        s=copy.deepcopy(self.spec)
+        s['optical_fit']=dict(height=20,top=1,advance=13,left=1,right=2)
+        before=package_fixture()
+        after,proof=ref.reface(before,ref.sha(before),'General',self.font,self.hash,s)
+        cell=Sampler(after,'General').glyph(65);box=ink_box(cell)
+        self.assertEqual(cell.size,(13,24))
+        # Native BC3 threshold excludes faint antialiasing at synthetic edges.
+        self.assertGreaterEqual(box[3]-box[1],18)
+        self.assertLessEqual(box[3]-box[1],20)
+        self.assertLessEqual(box[2],11)
+        self.assertEqual(proof['glyphs'][0]['optical_fit'],s['optical_fit'])
+
+    def test_optical_fit_rejects_height_and_margin_overflow(self):
+        for fit in [dict(height=25,top=1,advance=13,left=1,right=2),
+                    dict(height=20,top=1,advance=2,left=1,right=2)]:
+            s=copy.deepcopy(self.spec);s['optical_fit']=fit
+            with self.assertRaisesRegex(ValueError,'optical glyph fit'):
+                ref.raster_cells(self.font,self.hash,s,[65],{65:20})
+
 
 if __name__=='__main__':unittest.main()

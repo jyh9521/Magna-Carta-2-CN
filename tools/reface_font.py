@@ -102,6 +102,29 @@ def raster_cells(font_path, expected_sha, spec, codepoints, previous_widths):
         if shift and growth['boundary_samples']:
             raise ValueError('optical baseline clips expanded outline')
         row.update(baseline=baseline,outline_growth=growth)
+        fit = spec.get('optical_fit')
+        if fit is not None:
+            if (set(fit) != {'height', 'top', 'advance', 'left', 'right'}
+                    or any(type(v) is not int for v in fit.values())
+                    or min(fit.values()) < 0 or fit['height'] < 1
+                    or fit['top'] + fit['height'] > height
+                    or not 1 <= fit['advance'] <= 128
+                    or fit['left'] + fit['right'] >= fit['advance'] or row['bounds'] is None):
+                raise ValueError('invalid optical glyph fit')
+            from PIL import Image as PILImage
+            source = PILImage.frombytes('L', (w, h), alpha)
+            bounds = source.getbbox()
+            if bounds is None:
+                raise ValueError('empty optical glyph')
+            source = source.crop(bounds)
+            iw = min(fit['advance'] - fit['left'] - fit['right'],
+                     max(1, round(source.width * fit['height'] / source.height)))
+            source = source.resize((iw, fit['height']), PILImage.Resampling.LANCZOS)
+            w = (fit['advance'] + 3) // 4 * 4
+            out = PILImage.new('L', (w, h))
+            out.paste(source, (fit['advance'] - fit['right'] - iw, fit['top']))
+            alpha = out.tobytes()
+            row.update(width=w, metric_width=fit['advance'], optical_fit=dict(fit))
         # Verify that neither original nor weighted foreground is clipped.
         if record['raster_bbox'] and (record['raster_bbox'][3]>height or record['raster_bbox'][0]<0):
             raise ValueError('foreground clipping')

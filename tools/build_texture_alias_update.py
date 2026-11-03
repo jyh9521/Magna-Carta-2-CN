@@ -14,6 +14,8 @@ from .patch_tagged_fields import digest
 from .replace_texture_regions import selected
 from .ue3_package import LzxDecoder
 
+MAX_ALIAS_TEXTURES = 256
+
 
 def build(profile, project, source, output, decoder):
     project, source, output = (Path(p).resolve() for p in (project, source, output))
@@ -53,7 +55,7 @@ def build(profile, project, source, output, decoder):
     for r in resources:
         original = confined_path(source, r['path']).read_bytes(); data = original
         textures = r['textures']
-        if not 1 <= len(textures) <= 64 or len({t['object'] for t in textures}) != len(textures):
+        if not 1 <= len(textures) <= MAX_ALIAS_TEXTURES or len({t['object'] for t in textures}) != len(textures):
             raise ValueError('duplicate/excessive alias textures')
         for t in textures:
             if set(t) != {'object', 'tiled_sha256', 'donor_resource', 'donor_object', 'rectangles'}:

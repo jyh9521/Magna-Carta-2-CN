@@ -1,0 +1,74 @@
+{
+  "schema_version": 1,
+  "kind": "font-reface-plan",
+  "font": {
+    "path": "build/phase-326-font-preview/fonts/LXGWZhenKaiSlabGB-Regular.ttf",
+    "sha256": "bf4ea8c39b51784469020120125715d3075137233fe337b5d0a7327f9dfc03bd"
+  },
+  "roles": [
+    {
+      "id": "general",
+      "font_size": 28,
+      "metric_height": 25,
+      "wide_advance": 13,
+      "texture_index": 5,
+      "stroke_em": 0,
+      "shadow": true,
+      "glyph_aliases": {
+        "１": "1"
+      },
+      "codepoints": [
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        65297
+      ],
+      "optical_fit": {
+        "height": 20,
+        "top": 1,
+        "advance": 13,
+        "left": 1,
+        "right": 2
+      }
+    }
+  ],
+  "sources": [
+    {
+      "path": "MC2Game/CookedXenon/font.xxx",
+      "before_sha256": "21e236140f86e3c9672793ab1c31a8b58194da64c604bf60c8bb2cf50f123004",
+      "fonts": [
+        {
+          "object": "General_15",
+          "role": "general"
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/MC2Game.xxx",
+      "before_sha256": "c67f535fd3d6c50024570f3929e3db264923c6b467f880898a3c566515e6589f",
+      "fonts": [
+        {
+          "object": "Font.General_15",
+          "role": "general"
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/Startup_int.xxx",
+      "before_sha256": "93ee638bb7a4749e89cabaea16946bccbe41d0c037fdf1a826f8ff2dee7e9f1a",
+      "fonts": [
+        {
+          "object": "Font.General_15",
+          "role": "general"
+        }
+      ]
+    }
+  ]
+}

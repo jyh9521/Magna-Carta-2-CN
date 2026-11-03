@@ -3,3 +3,6 @@
 *.md text eol=lf whitespace=-blank-at-eol
 *.json text eol=lf
 *.yml text eol=lf
+
+# Preserve the pinned upstream license bytes, including original line endings.
+licenses/LXGWZhenKai-OFL.txt -text whitespace=-blank-at-eol

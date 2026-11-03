@@ -515,3 +515,10 @@ Noto Serif CJK字体沿用已记录的OFL来源与摘要，完整字体不提交
 ## 安装器分发
 
 安装器新增代码遵循项目MIT；用户提供的汉化品牌LOGO不自动改授MIT。差异包不含完整原盘/XEX/DLC。便携包包含Flutter/Dart及引擎notices、Python/PyInstaller启动器例外、Exzap ZArchive MIT-0、Zstandard BSD、libmspack LGPL-2.1完整许可和对应源码/桥接源码/替换重建说明。MSVC应用目录运行库保持Microsoft条款，见 src/installer/THIRD-PARTY.md。
+
+## 阶段352数字轮廓来源
+
+霞鹜臻楷 Slab GB v0.827，由LXGW及其列明上游作者提供，采用SIL OFL-1.1。
+版本、原始TTF SHA256及许可SHA256见 `references/numeric-font-v25.lock.json`；
+完整许可保存在 `licenses/LXGWZhenKai-OFL.txt`，安装器按既有licenses打包流程附带。
+只从锁定字体生成数字图集，不将修改后的可安装桌面字体冠以保留字体名称发布。

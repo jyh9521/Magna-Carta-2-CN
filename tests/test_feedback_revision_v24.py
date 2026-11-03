@@ -80,6 +80,8 @@ class TextureAliasUpdateTests(unittest.TestCase):
         self.assertEqual(len(expected),45)
         self.assertEqual({r['id']:r['text']for r in p['labels']},expected)
         self.assertEqual(len(aliases['resources']),86)
+        self.assertEqual(sha((ROOT/aliases['overlay_plan']['path']).read_bytes()),aliases['overlay_plan']['sha256'])
+        self.assertNotIn(b'\r\n',(base/'texture-overlays/name-consistency-v22.json').read_bytes())
         self.assertEqual(sum(len(r['textures'])for r in aliases['resources']),136)
         self.assertEqual(len(d['candidate_review']),136)
         text=json.loads((base/'name-text-consistency-v22.json').read_bytes())

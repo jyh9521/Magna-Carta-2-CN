@@ -1915,3 +1915,5 @@ BC3的透明RGB或等价编码不算可见残留。完整清空文字专用区�
 - UI名字图集与任务文本是独立资源，不共享译名表。以原文ID/哈希建立关联并覆盖两盘物理别名；로드等同形异义词及候选术语不可全局替换。
 - 数字右对齐后不能只验逻辑slot空隙；透明bearing不等于可见间距。移动名称父节点可保留数字右缘及四层投影的共同锚点，但必须覆盖真实双位数成本。
 - 对描述逐视觉行检查会漏掉“上一行有逗号，下一行无句号”。按完整逻辑消息检查，并分离属性数值行、选项与运行时原子片段。详见阶段348–351。
+
+- Source-hash profiles must be authored as LF bytes before hashing: .gitattributes normalizes JSON to LF in Git. Hashing CRLF working files produces broken clean-checkout dependencies. Validate dependency digests against the committed blob, not only the working copy.

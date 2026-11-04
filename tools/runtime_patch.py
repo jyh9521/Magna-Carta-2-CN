@@ -81,9 +81,17 @@ def apply_image(image,plan,reverse=False):
 def patch_toml(plan):
     # JSON strings are valid TOML basic strings for these pinned ASCII fields.
     q=lambda s:json.dumps(s,ensure_ascii=True)
+    description=plan.get('description','Subtract the line origin from forced intra-token wrap extents')
+    enabled=plan.get('is_enabled',True)
+    author=plan.get('author')
+    if (not isinstance(description,str) or not 1<=len(description)<=1024
+            or type(enabled) is not bool
+            or (author is not None and (not isinstance(author,str) or not 1<=len(author)<=256))):
+        raise ValueError('invalid runtime patch presentation metadata')
     lines=['title_name = '+q(plan['title_name']),'title_id = '+q(plan['title_id']),
            'hash = '+q(plan['module_hash']),'','[[patch]]','name = '+q(plan['name']),
-           'desc = "Subtract the line origin from forced intra-token wrap extents"','is_enabled = true']
+           'desc = '+q(description),'is_enabled = '+str(enabled).lower()]
+    if author is not None:lines+=['author = '+q(author)]
     for w in plan['writes']:
         value=bytes.fromhex(w['replacement'])
         for i in range(0,len(value),4):

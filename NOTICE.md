@@ -1,5 +1,9 @@
 # 来源与许可
 
+## Xenia 图形补丁调查
+
+60 FPS、tiling 光照修复、后处理及 16×AF 思路来自 boma 提交的 `xenia-canary/game-patches` PR #169，固定快照 `fe957a050e37f5a1e3f485ca43c2e37ee2a9c92d`。本项目独立定位韩版 AF 调用链，只生成默认关闭的单指令候选；不将上游思路视为本项目原创。Xenos 位域及模块散列规则参考 Ben Vanik 和 Xenia contributors 的 BSD-3-Clause 源码，许可原文沿用 `licenses/Xenia-BSD-3-Clause.txt`。未集成或重新许可上游实现；完整源码链接、独立验证和剩余项见 [韩版补丁调查](docs/XENIA_PATCH_KOREAN_PORT.md) 与 [上游来源](docs/XENIA_PATCH_UPSTREAM_RESEARCH.md)。
+
 ## Cooked Font 命名空间研究
 
 EF_ForcedExport 与 uncooked package 名解析参考 Konstantin Nosov 的 MIT UEViewer 固定提交 `a0bfb468d42be831b126632fd8a0ae6b3614f981`；两文件 URL/SHA256 在 references/font-namespace-research.lock.json。与已锁定 Unreal-Library ExportFlags enum 相互核对。Python 审计为独立实现，仅验证命名空间候选与数据等价，不移植游戏 loader，也不声称证明实际加载优先级。

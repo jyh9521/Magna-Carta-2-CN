@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "kind": "ppc-runtime-patch",
+  "image_base": 2181038080,
+  "image_sha256": "d18d49fb2960426715ba17d61d069cce42b1eadac153af13c9395cd42b1773e9",
+  "game_sha256": "26146f0ceaeb1945bc8e0031d31bfd7fe929c85a6e9e0992aeaa823968c0750f",
+  "emulator_sha256": "82f7637bff8895b5e9ce625131a40d2ad709e9111dc55f59e03ffe3737a46d33",
+  "title_id": "4E4D0811",
+  "module_hash": "0FAA852250B131D1",
+  "title_name": "Magna Carta II KOR 16x AF",
+  "name": "16x Anisotropic Filtering - Korean static candidate",
+  "description": "Korean TU0: change the reviewed sampler limit from 4x to 16x. Offline verified only; game rendering and performance need testing. Does not force non-anisotropic textures to anisotropic filtering.",
+  "author": "boma (original patch idea); Korean address independently verified",
+  "is_enabled": false,
+  "windows": [
+    {
+      "label": "sampler-caller",
+      "address": 2185535992,
+      "size": 276,
+      "sha256": "7357c0a23df82c191065b33c82fcf345ce304dd7051d403598b8ba3ffc6d632a"
+    },
+    {
+      "label": "sampler-consumer",
+      "address": 2184642456,
+      "size": 104,
+      "sha256": "2d895f6b124d549d22b4d192dd2af120c3d486fae43b2063c0f6ceda85d91c5c"
+    },
+    {
+      "label": "anisotropy-table",
+      "address": 2182415112,
+      "size": 68,
+      "sha256": "b05a446fbaad9538fc57666d5b19ab6a3df88edbb34ead7bee3a8abb460837e4"
+    }
+  ],
+  "writes": [
+    {
+      "address": 2185536176,
+      "expected": "38a00004",
+      "replacement": "38a00010"
+    }
+  ],
+  "sampler_probe": {
+    "argument_address": 2185536176,
+    "loop_compare_address": 2185536192,
+    "table_address": 2182415112,
+    "table_entries": 17
+  },
+  "supported_disc_sources": [
+    {
+      "disc": 1,
+      "sha256": "26146f0ceaeb1945bc8e0031d31bfd7fe929c85a6e9e0992aeaa823968c0750f"
+    },
+    {
+      "disc": 2,
+      "sha256": "44976b6bf9f978312f14387ea4e60bbdfffd1a8aa72f31841f7a58ab2ebef586"
+    }
+  ],
+  "evidence": {
+    "confidence": "verified static instruction and field mapping; runtime unverified",
+    "report": "docs/XENIA_PATCH_KOREAN_PORT.md",
+    "upstream_commit": "fe957a050e37f5a1e3f485ca43c2e37ee2a9c92d",
+    "upstream_path": "patches/4E4D080B - Magnacarta2.patch.toml",
+    "upstream_address": "0x8244A5D0",
+    "upstream_replacement": "0x38A00010",
+    "xenia_build": "96ce1ac47",
+    "raw_code_xxh3": "6CBEBC778AC32F0C",
+    "import_normalized_code_xxh3": "0FAA852250B131D1",
+    "normalized_import_thunks": 246
+  }
+}

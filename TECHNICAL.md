@@ -1,3 +1,5 @@
+> 阶段357：Xenia 美欧补丁五个原地址在韩版错位；AF 经独立调用链/枚举/位域验证重定位至 `0x8244A2B0`。模块 XXH3 的输入须先处理 246 个导入跳板。默认关闭候选、三态回滚及未证实项目见 [韩版补丁调查](docs/XENIA_PATCH_KOREAN_PORT.md)。
+
 > 阶段346：禁止按邻近距离搬运原图暗像素作为英文阴影；干净字形解衬底、有限支撑域效果、跨纹理审计与BC3 minimax细化见 [地图字形分层](docs/PHASE_346_CLEAN_MAP_LETTERING.md)。
 
 > 阶段330技术补充：基于真实FontCharacter.USize的locale断行、count-locked `<br>`、同长度tagged scalar字段、当前包上的有界原生tile叠加、全帧联合视频掩膜与数字基线校正，见 [阶段330](docs/PHASE_330_GAMEPLAY_QA.md)。已验证序列化事实、保守预算和未证运行行为分别记录。

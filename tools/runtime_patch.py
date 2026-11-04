@@ -81,21 +81,43 @@ def apply_image(image,plan,reverse=False):
 def patch_toml(plan):
     # JSON strings are valid TOML basic strings for these pinned ASCII fields.
     q=lambda s:json.dumps(s,ensure_ascii=True)
-    description=plan.get('description','Subtract the line origin from forced intra-token wrap extents')
-    enabled=plan.get('is_enabled',True)
-    author=plan.get('author')
-    if (not isinstance(description,str) or not 1<=len(description)<=1024
-            or type(enabled) is not bool
-            or (author is not None and (not isinstance(author,str) or not 1<=len(author)<=256))):
-        raise ValueError('invalid runtime patch presentation metadata')
+    sections=plan.get('patch_sections')
+    if sections is None:
+        selected=[(plan,plan['writes'])]
+    else:
+        if not isinstance(sections,list) or not 1<=len(sections)<=8:
+            raise ValueError('invalid runtime patch section count')
+        writes={w['address']:w for w in plan['writes']};used=set();selected=[]
+        if len(writes)!=len(plan['writes']):raise ValueError('duplicate runtime write address')
+        for section in sections:
+            if (not isinstance(section,dict) or set(section)-{'name','description','is_enabled','author','write_addresses'}):
+                raise ValueError('invalid runtime patch section fields')
+            addresses=section.get('write_addresses')
+            if (not isinstance(addresses,list) or not addresses
+                    or any(type(a) is not int or a not in writes or a in used for a in addresses)
+                    or len(set(addresses))!=len(addresses)):
+                raise ValueError('invalid runtime patch section writes')
+            used.update(addresses)
+            selected.append(({**plan,**section},[writes[a] for a in addresses]))
+        if used!=set(writes):raise ValueError('runtime patch section writes incomplete')
     lines=['title_name = '+q(plan['title_name']),'title_id = '+q(plan['title_id']),
-           'hash = '+q(plan['module_hash']),'','[[patch]]','name = '+q(plan['name']),
-           'desc = '+q(description),'is_enabled = '+str(enabled).lower()]
-    if author is not None:lines+=['author = '+q(author)]
-    for w in plan['writes']:
-        value=bytes.fromhex(w['replacement'])
-        for i in range(0,len(value),4):
-            lines+=['','[[patch.be32]]',f"address = 0x{w['address']+i:08x}",f'value = 0x{value[i:i+4].hex()}']
+           'hash = '+q(plan['module_hash']),'']
+    for index,(section,writes) in enumerate(selected):
+        description=section.get('description','Subtract the line origin from forced intra-token wrap extents')
+        enabled=section.get('is_enabled',True);author=section.get('author');name=section['name']
+        if (not isinstance(name,str) or not 1<=len(name)<=256
+                or not isinstance(description,str) or not 1<=len(description)<=1024
+                or type(enabled) is not bool
+                or (author is not None and (not isinstance(author,str) or not 1<=len(author)<=256))):
+            raise ValueError('invalid runtime patch presentation metadata')
+        if index:lines+=['']
+        lines+=['[[patch]]','name = '+q(name),'desc = '+q(description),
+                'is_enabled = '+str(enabled).lower()]
+        if author is not None:lines+=['author = '+q(author)]
+        for w in writes:
+            value=bytes.fromhex(w['replacement'])
+            for i in range(0,len(value),4):
+                lines+=['','[[patch.be32]]',f"address = 0x{w['address']+i:08x}",f'value = 0x{value[i:i+4].hex()}']
     return ('\n'.join(lines)+'\n').encode('utf8')
 
 
@@ -132,7 +154,9 @@ def build(image,plan,game,exe,output):
     if apply_image(modified,plan,True)!=image:raise ValueError('runtime patch rollback mismatch')
     patch=patch_toml(plan);name=plan['title_id']+' - '+plan['title_name']+'.patch.toml'
     # Validate generated TOML before publication, not only its digest.
-    parsed=tomllib.loads(patch.decode('utf8'));assert len(parsed['patch'][0]['be32'])==sum(len(bytes.fromhex(w['replacement']))//4 for w in plan['writes'])
+    parsed=tomllib.loads(patch.decode('utf8'))
+    if sum(len(p['be32']) for p in parsed['patch'])!=sum(len(bytes.fromhex(w['replacement']))//4 for w in plan['writes']):
+        raise ValueError('runtime patch serialization write count mismatch')
     manifest=dict(schema_version=1,kind='xenia-runtime-patch-bundle',game_sha256=plan['game_sha256'],
         emulator_sha256=plan['emulator_sha256'],title_id=plan['title_id'],module_hash=plan['module_hash'],
         image_sha256=plan['image_sha256'],modified_image_sha256=digest(modified),patches={name:digest(patch)},

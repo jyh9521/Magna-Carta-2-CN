@@ -1,3 +1,5 @@
+> 阶段358：韩版60帧间隔编码 `0x8237C264`、tiling双全局 `0x8320AD30/0x8320AD98` 已形成静态候选；SCRATCH回调／vblank计数与受控PPC片段闭合。后处理 `0x8249B3C4` 为独立空链路径实验。数据、指令、已证语义和运行未验边界见 [阶段358](docs/XENIA_GRAPHICS_OFFLINE_VALIDATION.md)。
+
 > 阶段357：Xenia 美欧补丁五个原地址在韩版错位；AF 经独立调用链/枚举/位域验证重定位至 `0x8244A2B0`。模块 XXH3 的输入须先处理 246 个导入跳板。默认关闭候选、三态回滚及未证实项目见 [韩版补丁调查](docs/XENIA_PATCH_KOREAN_PORT.md)。
 
 > 阶段346：禁止按邻近距离搬运原图暗像素作为英文阴影；干净字形解衬底、有限支撑域效果、跨纹理审计与BC3 minimax细化见 [地图字形分层](docs/PHASE_346_CLEAN_MAP_LETTERING.md)。

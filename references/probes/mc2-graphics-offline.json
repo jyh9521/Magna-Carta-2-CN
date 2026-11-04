@@ -1,0 +1,404 @@
+{
+  "schema_version": 1,
+  "kind": "ppc-runtime-patch",
+  "image_base": 2181038080,
+  "image_sha256": "d18d49fb2960426715ba17d61d069cce42b1eadac153af13c9395cd42b1773e9",
+  "game_sha256": "26146f0ceaeb1945bc8e0031d31bfd7fe929c85a6e9e0992aeaa823968c0750f",
+  "emulator_sha256": "82f7637bff8895b5e9ce625131a40d2ad709e9111dc55f59e03ffe3737a46d33",
+  "title_id": "4E4D0811",
+  "module_hash": "0FAA852250B131D1",
+  "title_name": "Magna Carta II KOR Graphics Candidates",
+  "name": "Korean offline graphics candidates",
+  "is_enabled": false,
+  "author": "boma (original FPS and tiling patch ideas); Korean addresses independently verified",
+  "windows": [
+    {
+      "label": "frame-present-packer",
+      "address": 2184692096,
+      "size": 456,
+      "sha256": "b9c0dc717e0d948ce0824a37691fbd703c69050bf27e3f0e64de8723adf5a507"
+    },
+    {
+      "label": "frame-scratch-packet-writer",
+      "address": 2184630096,
+      "size": 540,
+      "sha256": "633ffb34ee17ff6a96fdfeb9629fddc752e10bc45586dd46905841f3d8459c5c"
+    },
+    {
+      "label": "frame-scratch-initialization",
+      "address": 2184632008,
+      "size": 160,
+      "sha256": "0b26a0c70ee4d73f57f54e226ff89111d24c929caa717d07f181cc51558a0faf"
+    },
+    {
+      "label": "frame-interrupt-registration",
+      "address": 2184676284,
+      "size": 24,
+      "sha256": "bd01744a93c65d2fca9c9c466955ddb2599f2b05751f4fc09bbe9b2c3243aa12"
+    },
+    {
+      "label": "frame-interrupt-dispatcher",
+      "address": 2184630640,
+      "size": 148,
+      "sha256": "361abf201376798698ac7d45737d2ef2ce879e08ba6bd0dbf0138693110bb365"
+    },
+    {
+      "label": "frame-vblank-handler",
+      "address": 2184691384,
+      "size": 276,
+      "sha256": "6352fc549c724fc12593c4450aa4d2fbfbf4db55c9db5ff79f90497e1bdce8be"
+    },
+    {
+      "label": "frame-present-scheduler",
+      "address": 2184691664,
+      "size": 428,
+      "sha256": "01a08e59e5128153bc3ebf728851cfa55bd5057ec6da3f794aa236c01460c541"
+    },
+    {
+      "label": "frame-rhi-present-caller",
+      "address": 2185801096,
+      "size": 164,
+      "sha256": "0c665b689936b9baada77d2d8386b600a672570cb6f0f35e527a4a8e352d9e4e"
+    },
+    {
+      "label": "tiling-tiling-console",
+      "address": 2185811920,
+      "size": 1064,
+      "sha256": "017b5e5f3c53b9ba8c231ae3420513f2eb12ba412db5238d85d3090f20c6ec37"
+    },
+    {
+      "label": "tiling-rhi-init",
+      "address": 2185800008,
+      "size": 1084,
+      "sha256": "fb0a2179c5b14eaf5833750fa89e7654d8c3df8a15811c05057151de2f63dbba"
+    },
+    {
+      "label": "tiling-scene-tile-gate",
+      "address": 2185882960,
+      "size": 172,
+      "sha256": "7625f339fdbfa8e8f335f54ffbd9fb70a12336c023ef74ba83df84c25320ca13"
+    },
+    {
+      "label": "tiling-view-offset-gate",
+      "address": 2185887688,
+      "size": 88,
+      "sha256": "be26d54e544ec2a0bb60a7b8b60aab7e01bdab209df7eefe3d10c5d387996d15"
+    },
+    {
+      "label": "tiling-mode-surface-lookup",
+      "address": 2188220152,
+      "size": 196,
+      "sha256": "d85e2a17627f4ceae2bafafcae05ecca251378afdf32596be236da3908a3cb52"
+    },
+    {
+      "label": "tiling-temporary-disable-restore",
+      "address": 2185891792,
+      "size": 252,
+      "sha256": "e2499cb1469bde66637ad868fd5a173f069b433c59d7b4d4af333418d6fce1ae"
+    },
+    {
+      "label": "tiling-tiling-labels",
+      "address": 2182594228,
+      "size": 40,
+      "sha256": "973ec7b6d0732551dbe115cb1294fda770164e0db9d3fe8466913b729c7a7c25"
+    },
+    {
+      "label": "tiling-mode-label-pointers",
+      "address": 2199956788,
+      "size": 20,
+      "sha256": "ef3c98aeec2cfeafaa5ae3f720f2a5619152abaa2f3168997d13d1cf8ee95904"
+    },
+    {
+      "label": "tiling-mode-subpixel-offsets",
+      "address": 2199956808,
+      "size": 40,
+      "sha256": "ab9e2f2af80f4e0befa37068108c2e52eb490a7cb7e6f748654f4b8d53a4b3a7"
+    },
+    {
+      "label": "tiling-use-tiling-flag",
+      "address": 2199956888,
+      "size": 4,
+      "sha256": "b40711a88c7039756fb8a73827eabe2c0fe5a0346ca7e0a104adc0fc764f528d"
+    },
+    {
+      "label": "tiling-tiling-mode",
+      "address": 2199956784,
+      "size": 4,
+      "sha256": "b40711a88c7039756fb8a73827eabe2c0fe5a0346ca7e0a104adc0fc764f528d"
+    },
+    {
+      "label": "post-post-proxy-view-constructor",
+      "address": 2185867104,
+      "size": 1584,
+      "sha256": "e0ce77976a8dea8c44f7257deb49a99ac010e97784026f33974797b3ca116806"
+    },
+    {
+      "label": "post-view-base-copy",
+      "address": 2185869832,
+      "size": 592,
+      "sha256": "050cf033001420729a8c98f526ef4fe14f4cdfe7075d71b2c83cd07c04f81c52"
+    },
+    {
+      "label": "post-view-array-parent",
+      "address": 2185872440,
+      "size": 1340,
+      "sha256": "6ab0cea3fc60ed5a2742d27c4ae3f62f8da6afb239d8d1d6ecca249cc548b9c0"
+    },
+    {
+      "label": "post-show-flag-table",
+      "address": 2187171032,
+      "size": 864,
+      "sha256": "50461772a6d0bea594d03fea5e9411115694b2a155ac7f1876593f036d9b44ed"
+    },
+    {
+      "label": "post-show-flag-toggle-consumer",
+      "address": 2187172104,
+      "size": 184,
+      "sha256": "b8b622b29b9c11ba17206fb28c88f173ed6e546dae9c599eff323b3f3e68ed28"
+    },
+    {
+      "label": "post-base-effect-visible-leaf",
+      "address": 2188972976,
+      "size": 76,
+      "sha256": "b0bb38e625981bd83601edfd2fad97436cb20df85c43c40e1c4f0f2759dee109"
+    },
+    {
+      "label": "post-uber-effect-visible",
+      "address": 2188913752,
+      "size": 80,
+      "sha256": "883e9c00270cd0589e7dcf782744c83bf930ee72a5ea38e630f14768eed24b77"
+    },
+    {
+      "label": "post-common-bloom-visible-leaf",
+      "address": 2188919440,
+      "size": 108,
+      "sha256": "a6af78e89941dea6a6a0a715dcc0d47f7fa6f437a06be145868b775f954bbe9e"
+    },
+    {
+      "label": "post-uber-proxy-factory",
+      "address": 2189051408,
+      "size": 88,
+      "sha256": "af29141a0ddbfe603f6be610c1ba6b157aecd9b44747d3476244ce784eea93c2"
+    },
+    {
+      "label": "post-uber-effect-vtable-constructor",
+      "address": 2189051776,
+      "size": 24,
+      "sha256": "1cd0203e37dc1d85b1d0c65d7279e4e393107a9fbd77aaf76a37b01ecdac11ee"
+    },
+    {
+      "label": "post-postprocess-chain-class",
+      "address": 2185397872,
+      "size": 280,
+      "sha256": "700d8a7b8bee7f2fad9ad210fc11bfadbbb83d4cdb5d91ab63b9008a9e55b4b2"
+    },
+    {
+      "label": "post-postprocess-effect-class",
+      "address": 2185397592,
+      "size": 280,
+      "sha256": "4f387a7d5e4c0158531c40804bafcb4aa883bf0b4cfe77b2f32c276b33648d37"
+    },
+    {
+      "label": "post-uber-effect-class",
+      "address": 2185383568,
+      "size": 280,
+      "sha256": "c2fed41f54f59bb51a0b6ffc3deee3feb509b17436abc31b89620642000374d7"
+    },
+    {
+      "label": "post-post-proxy-consumer",
+      "address": 2185891528,
+      "size": 264,
+      "sha256": "75fd10b553214c254ea884e37634a3d0440ea6f0828b011311418635a8f098eb"
+    }
+  ],
+  "writes": [
+    {
+      "address": 2184692324,
+      "expected": "39600002",
+      "replacement": "39600001"
+    },
+    {
+      "address": 2199956784,
+      "expected": "00000001",
+      "replacement": "00000000"
+    },
+    {
+      "address": 2199956888,
+      "expected": "00000001",
+      "replacement": "00000000"
+    },
+    {
+      "address": 2185868228,
+      "expected": "419a01bc",
+      "replacement": "480001bc"
+    }
+  ],
+  "patch_sections": [
+    {
+      "name": "60 FPS - Korean static candidate",
+      "description": "Convert requested two-vblank interval to one. Nominal 60 only with 60 vblank ticks per second; above 60 may cause timing issues. Offline verified, game acceptance pending.",
+      "is_enabled": false,
+      "write_addresses": [
+        2184692324
+      ]
+    },
+    {
+      "name": "Dynamic Lighting and Shadows - Korean tiling bypass",
+      "description": "Disable the reviewed tiling switch and reset its mode. Mode 0 alone does not disable AA. Mirrors the upstream workaround; visual and stability acceptance pending.",
+      "is_enabled": false,
+      "write_addresses": [
+        2199956784,
+        2199956888
+      ]
+    },
+    {
+      "name": "Experimental skip post-process-chain proxies",
+      "description": "Independent Korean implementation, NOT a proven byte-for-byte relocation of the upstream post-processing patch. Skip per-view chain proxy construction through the existing empty-chain exit; other rendering effects remain unverified.",
+      "author": "Independent Korean post-process-chain bypass research",
+      "is_enabled": false,
+      "write_addresses": [
+        2185868228
+      ]
+    }
+  ],
+  "graphics_probe": {
+    "frame": {
+      "write_address": 2184692324,
+      "callback": 2184691664,
+      "encode": {
+        "entry": 2184692272,
+        "end": 2184692368,
+        "stops": [
+          2184692368
+        ]
+      },
+      "increment": {
+        "entry": 2184691412,
+        "end": 2184691428,
+        "stops": [
+          2184691428
+        ]
+      },
+      "target": {
+        "entry": 2184691836,
+        "end": 2184691880,
+        "stops": [
+          2184691880
+        ]
+      },
+      "scratch_init": {
+        "entry": 2184632008,
+        "end": 2184632128,
+        "stops": [
+          2184632128
+        ]
+      },
+      "packet": {
+        "entry": 2184630228,
+        "end": 2184630256,
+        "stops": [
+          2184630256
+        ]
+      },
+      "dispatch": {
+        "entry": 2184630652,
+        "end": 2184630788,
+        "stops": [
+          2184630684,
+          2184630776,
+          2184630780
+        ],
+        "callback_stop": 2184630684,
+        "vblank_stop": 2184630776,
+        "return_stop": 2184630780
+      },
+      "decode": {
+        "entry": 2184691736,
+        "end": 2184691740,
+        "stops": [
+          2184691740
+        ]
+      }
+    },
+    "tiling": {
+      "flag_address": 2199956888,
+      "mode_address": 2199956784,
+      "scene": {
+        "entry": 2185882960,
+        "end": 2185883008,
+        "stops": [
+          2185883008,
+          2185883132
+        ],
+        "body": 2185883008,
+        "skip": 2185883132
+      },
+      "view": {
+        "entry": 2185887692,
+        "end": 2185887724,
+        "stops": [
+          2185887724,
+          2185887776
+        ],
+        "body": 2185887724,
+        "skip": 2185887776
+      },
+      "index": {
+        "entry": 2188220168,
+        "end": 2188220200,
+        "stops": [
+          2188220200
+        ]
+      }
+    },
+    "post": {
+      "write_address": 2185868228,
+      "initialize": {
+        "entry": 2185868032,
+        "end": 2185868044,
+        "stops": [
+          2185868044
+        ]
+      },
+      "gate": {
+        "entry": 2185868220,
+        "end": 2185868676,
+        "stops": [
+          2185868256,
+          2185868540,
+          2185868676
+        ],
+        "body": 2185868256,
+        "empty": 2185868540,
+        "returned": 2185868676
+      },
+      "consumer": {
+        "entry": 2185891604,
+        "end": 2185891624,
+        "stops": [
+          2185891624,
+          2185891740
+        ],
+        "empty": 2185891740
+      }
+    }
+  },
+  "supported_disc_sources": [
+    {
+      "disc": 1,
+      "sha256": "26146f0ceaeb1945bc8e0031d31bfd7fe929c85a6e9e0992aeaa823968c0750f"
+    },
+    {
+      "disc": 2,
+      "sha256": "44976b6bf9f978312f14387ea4e60bbdfffd1a8aa72f31841f7a58ab2ebef586"
+    }
+  ],
+  "evidence": {
+    "report": "docs/XENIA_GRAPHICS_OFFLINE_VALIDATION.md",
+    "upstream_commit": "fe957a050e37f5a1e3f485ca43c2e37ee2a9c92d",
+    "xenia_commit": "96ce1ac47ee7646deac2a2c9c912351e8ff0edee",
+    "game_started": false,
+    "runtime_verified": false,
+    "postprocess_equivalence_to_upstream_verified": false
+  }
+}

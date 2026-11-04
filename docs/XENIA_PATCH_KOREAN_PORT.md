@@ -2,6 +2,8 @@
 
 日期：2026-11-05（Asia/Tokyo）。公开来源见 [上游报告](XENIA_PATCH_UPSTREAM_RESEARCH.md)。
 
+> 后续阶段358已完成60帧与tiling韩版静态候选，并验证独立后处理实验分支，见 [离线验证](XENIA_GRAPHICS_OFFLINE_VALIDATION.md)。下表及本页“三项待定位”属于阶段357历史检查点；AF候选本身保持不变。
+
 ## 结论
 
 | 美欧版功能 | 韩版调查结果 | 本轮交付 |

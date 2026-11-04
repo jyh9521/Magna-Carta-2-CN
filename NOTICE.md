@@ -2,6 +2,8 @@
 
 ## Xenia 图形补丁调查
 
+阶段358追加的vblank／SCRATCH／PM4／间隔文档主源固定到 Xenia `96ce1ac47ee7646deac2a2c9c912351e8ff0edee`，Microsoft XNA官方文档及八项URL/SHA见 `references/xenia-graphics-offline-research.lock.json`。片段解释器独立实现有限PowerPC整数语义，参考Xenia定义和IBM指令文档，不复制上游实现；LFS只读取原位模式，不实现浮点/GPU。后处理空链绕过独立署名，不归作boma原分支移植。完整验证见 [阶段358](docs/XENIA_GRAPHICS_OFFLINE_VALIDATION.md)。
+
 60 FPS、tiling 光照修复、后处理及 16×AF 思路来自 boma 提交的 `xenia-canary/game-patches` PR #169，固定快照 `fe957a050e37f5a1e3f485ca43c2e37ee2a9c92d`。本项目独立定位韩版 AF 调用链，只生成默认关闭的单指令候选；不将上游思路视为本项目原创。Xenos 位域及模块散列规则参考 Ben Vanik 和 Xenia contributors 的 BSD-3-Clause 源码，许可原文沿用 `licenses/Xenia-BSD-3-Clause.txt`。未集成或重新许可上游实现；完整源码链接、独立验证和剩余项见 [韩版补丁调查](docs/XENIA_PATCH_KOREAN_PORT.md) 与 [上游来源](docs/XENIA_PATCH_UPSTREAM_RESEARCH.md)。
 
 ## Cooked Font 命名空间研究

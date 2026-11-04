@@ -1,0 +1,54 @@
+{
+  "commit": "96ce1ac47ee7646deac2a2c9c912351e8ff0edee",
+  "game_started": false,
+  "files": [
+    {
+      "path": "xboxkrnl_video.cc",
+      "url": "https://raw.githubusercontent.com/xenia-canary/xenia-canary/96ce1ac47ee7646deac2a2c9c912351e8ff0edee/src/xenia/kernel/xboxkrnl/xboxkrnl_video.cc",
+      "sha256": "9594d2cf7c77394de350b378cd0826e5e497051fcb8f66d02cf645a092004a41"
+    },
+    {
+      "path": "command_processor.cc",
+      "url": "https://raw.githubusercontent.com/xenia-canary/xenia-canary/96ce1ac47ee7646deac2a2c9c912351e8ff0edee/src/xenia/gpu/command_processor.cc",
+      "sha256": "433eaf160cbb4974de37ba5f3ed5549c49715b3f7a8c960b11a033914265439d"
+    },
+    {
+      "path": "graphics_system.cc",
+      "url": "https://raw.githubusercontent.com/xenia-canary/xenia-canary/96ce1ac47ee7646deac2a2c9c912351e8ff0edee/src/xenia/gpu/graphics_system.cc",
+      "sha256": "f9c76ccaaa33b3b7bc76fd890dcd46f1b013f290aa24e756e8bc44200e7afafd"
+    },
+    {
+      "path": "xenos.h",
+      "url": "https://raw.githubusercontent.com/xenia-canary/xenia-canary/96ce1ac47ee7646deac2a2c9c912351e8ff0edee/src/xenia/gpu/xenos.h",
+      "sha256": "3c06823852467a32a1a859e3763c38ac53a046aae7083883a1528970550d60c7"
+    },
+    {
+      "path": "pm4_command_processor_implement.h",
+      "url": "https://raw.githubusercontent.com/xenia-canary/xenia-canary/96ce1ac47ee7646deac2a2c9c912351e8ff0edee/src/xenia/gpu/pm4_command_processor_implement.h",
+      "sha256": "0b5a02aef6afd9155ac8909960c46c160f4d1602eb960bf9659e86e124352c18"
+    },
+    {
+      "path": "kernel_state.cc",
+      "url": "https://raw.githubusercontent.com/xenia-canary/xenia-canary/96ce1ac47ee7646deac2a2c9c912351e8ff0edee/src/xenia/kernel/kernel_state.cc",
+      "sha256": "1484aa0de09e77edc6590f054941d7f78d5c28cc101f28fe60ce0b2be3ae4c70"
+    },
+    {
+      "path": "XNA_Game_Studio_2.0_en-us.pdf",
+      "url": "https://download.microsoft.com/download/D/F/6/DF6BE85E-8523-46DF-9DA6-730EABDDFDE4/XNA_Game_Studio_2.0_en-us.pdf",
+      "sha256": "3886740b63039387ae257c84fc0d90c710d6f31a8d8ee09a5a37bfb9c4b865bb",
+      "page_1_based": 3853
+    },
+    {
+      "path": "register_table.inc",
+      "url": "https://raw.githubusercontent.com/xenia-canary/xenia-canary/96ce1ac47ee7646deac2a2c9c912351e8ff0edee/src/xenia/gpu/register_table.inc",
+      "sha256": "7a9af7b2edfb81ba10df1397761898730faf9ac24360202e316f53d017713f58"
+    }
+  ],
+  "schema_version": 1,
+  "investigation_date": "2026-11-05",
+  "reuse": "Read-only primary-source register, vblank, PM4 and presentation-interval semantics; independent Python fragment interpreter and Korean address analysis. No upstream implementation copied.",
+  "semantic_references": [
+    "https://github.com/xenia-canary/xenia-canary/blob/96ce1ac47ee7646deac2a2c9c912351e8ff0edee/src/xenia/cpu/ppc/ppc_emit_alu.cc",
+    "https://www.ibm.com/docs/tr/aix/7.3?topic=set-subfe-sfe-subtract-from-extended-instruction"
+  ]
+}

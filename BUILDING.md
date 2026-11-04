@@ -1040,6 +1040,10 @@ CI须先执行`python tools/series_terms.py fetch`获取series.lock固定的9份
 相对路径测试必须以自己的fixture为工作目录，不能跨盘调用无start的relpath。
 失败原因、跨盘复现与回归说明见[CI_FAILURES](docs/CI_FAILURES.md)。
 
+## Xenia 图形候选离线验证（阶段358，2026-11-05）
+
+60帧请求间隔2→1与tiling双变量已完成韩版静态链验证；后处理为独立代理构建绕过实验，不冒称与美版原分支等效。三个默认关闭区块、33窗口、每态214个实际PPC片段、八种独立组合和AF／汉化折行兼容性见 [离线验证](docs/XENIA_GRAPHICS_OFFLINE_VALIDATION.md)。原版／配置／既有入口保持，无资源刷新、ISO、安装器或游戏启动。
+
 ## Xenia 跨区补丁调查（阶段357，2026-11-05）
 
 美欧版四项上游补丁中，16×AF 已完成韩版独立静态重定位，候选默认关闭；另外三项仍待定位。构建、双盘身份、模块 hash 的导入处理、三态验证及本地证据见 [韩版补丁调查](docs/XENIA_PATCH_KOREAN_PORT.md)。本轮没有游戏资源变动，不刷新现有测试包、不重打安装器、不生成 ISO、不启动游戏。

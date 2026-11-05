@@ -49,5 +49,27 @@ class RuntimeSectionTests(unittest.TestCase):
             p=plan();p['patch_sections'][1][key]=value
             with self.subTest(key=key),self.assertRaises(ValueError):patch_toml(p)
 
+    def test_readable_utf8_header_and_section_comments(self):
+        p=plan();p['comments']=['Présentation'];p['patch_sections'][0].update(name='表示',description='説明',comments=['日本語'])
+        data=patch_toml(p);text=data.decode('utf8');t=tomllib.loads(text)
+        self.assertTrue(text.startswith('# Présentation\n'))
+        self.assertIn('# 日本語\n',text);self.assertIn('name = "表示"',text)
+        self.assertNotIn('\\u',text)
+        self.assertEqual(t['patch'][0]['name'],'表示')
+        self.assertEqual(text.count('# Présentation'),1)
+
+    def test_invalid_comments_do_not_inject_fields(self):
+        for comments in ['text',[None],['line\n[[patch]]'],['nul\0'],['x'*513],['x']*33]:
+            for where in ['header','section']:
+                p=plan()
+                if where=='header':p['comments']=comments
+                else:p['patch_sections'][0]['comments']=comments
+                with self.subTest(comments=comments,where=where),self.assertRaises(ValueError):patch_toml(p)
+
+    def test_no_comments_keeps_the_existing_ascii_serialization(self):
+        p=plan();before=patch_toml(p);p['comments']=[]
+        for s in p['patch_sections']:s['comments']=[]
+        self.assertEqual(patch_toml(p),before)
+
 
 if __name__=='__main__':unittest.main()

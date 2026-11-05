@@ -1740,3 +1740,13 @@ Verified：本次原生FontCharacter同时包含tagged与native StartU/USize副�
 同一纹理操作写集不得重叠，非零alpha裁切拒绝，输出写入新目录并原生回读。
 整数块平移直接复制BC3块；非整块平移复用既有编码器。完整语义、地图别名与审计
 见[阶段344](PHASE_344_TITLE_ALIGNMENT.md)。
+
+## Runtime patch 注释与元数据刷新（阶段359，工具格式）
+
+计划顶层和每个 `patch_sections` 可含 `comments: string[]`；最多32行，每行1–512字符，
+禁止控制字符和多行注入。它只生成TOML `#`注释，不写入guest。名称／说明等以可读UTF-8输出，
+没有注释且原元数据为ASCII的旧计划输出字节不变；顶层注释不会隐式复制到各分段。
+`runtime_patch_metadata`只接受受支持的BE32 TOML，核对原SHA、版本身份与完整序列化分组，
+保留各段 `is_enabled`，可按明确地址额外启用整段。一个guarded write可能展开为多个word；
+起始地址相等不足以证明分组相等。刷新只写新的独立文件，部署是另一个显式事务。
+参见[阶段359](PHASE_359_XENIA_PATCH_METADATA.md)。

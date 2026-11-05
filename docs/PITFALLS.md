@@ -1939,3 +1939,10 @@ full-family native audit found 96 stale aliases for 23 otherwise matching labels
 after the first font pass. Rebuild those explicit windows from independent
 original-source donors and audit all 849 windows again; do not bless the current
 output by copying its pixel hashes into the expectation.
+
+## Xenia 补丁元数据更新（阶段359）
+
+- 在Windows上，`CANDIDATE.patch.toml`与`candidate.patch.toml`是同一路径；独立输出守卫拦截了覆盖，改用不只改变大小写的新名称。
+- 一个guarded write可展开为多条BE32（例如代码洞）；元数据刷新必须匹配序列化后的整个分组，不能只比较原始写入起点。
+- 更新注释不能重置用户开关；活动111与源码默认000必须分开记录。配置若在工作期间被外部改变，不应以早先备份覆盖新状态。
+- 阶段358报告保留当时的候选摘要；后续中文元数据增量与原始备份见[阶段359](PHASE_359_XENIA_PATCH_METADATA.md)，不能重跑旧验证来冒充新身份。

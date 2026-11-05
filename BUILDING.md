@@ -2048,3 +2048,11 @@ candidate、controls、raw-controls或live合并，结束时再次核验独立�
 数字字高与怪物名字体修订见 `docs/PHASE_352_353_FONT_CONSISTENCY.md`。
 当前原生验收使用v25技能间距/字高合同及v26名字完整家族合同；旧v23/v22像素期望只用于历史回归。
 renderer追加payload后必须先恢复raw 32768字节边界，不能直接交给增量纹理工具。
+
+## Xenia 图形补丁中文说明与后处理（阶段359）
+
+当前活动图形补丁保留用户已开的60帧／光照修复，并启用独立实验的后处理链绕过；
+源码和bundle的发布默认仍全部关闭。生成器使用可读UTF-8及可选注释数组，
+`runtime_patch_metadata`按完整机器写入分组守卫并保留用户开关，不直接覆盖活动文件。
+光照修复的性质、复现、现有bundle增量更新、三态回滚与配置保留见
+[阶段359](docs/PHASE_359_XENIA_PATCH_METADATA.md)。没有启动游戏或重建安装器／ISO。

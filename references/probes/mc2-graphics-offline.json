@@ -8,9 +8,9 @@
   "title_id": "4E4D0811",
   "module_hash": "0FAA852250B131D1",
   "title_name": "Magna Carta II KOR Graphics Candidates",
-  "name": "Korean offline graphics candidates",
+  "name": "韩版图形补丁",
   "is_enabled": false,
-  "author": "boma (original FPS and tiling patch ideas); Korean addresses independently verified",
+  "author": "boma（原60帧与分块渲染修复思路）；韩版地址独立验证",
   "windows": [
     {
       "label": "frame-present-packer",
@@ -235,29 +235,42 @@
   ],
   "patch_sections": [
     {
-      "name": "60 FPS - Korean static candidate",
-      "description": "Convert requested two-vblank interval to one. Nominal 60 only with 60 vblank ticks per second; above 60 may cause timing issues. Offline verified, game acceptance pending.",
+      "name": "60帧",
+      "description": "将双刷新间隔改为单刷新间隔；60Hz下目标为60帧。用户已反馈有效，长时间游玩的时序与稳定性仍需实测。",
       "is_enabled": false,
       "write_addresses": [
         2184692324
+      ],
+      "comments": [
+        "作用：把双刷新间隔改为单刷新间隔，60Hz下目标为60帧。",
+        "验证：用户已反馈60帧有效；本轮没有启动游戏。"
       ]
     },
     {
-      "name": "Dynamic Lighting and Shadows - Korean tiling bypass",
-      "description": "Disable the reviewed tiling switch and reset its mode. Mode 0 alone does not disable AA. Mirrors the upstream workaround; visual and stability acceptance pending.",
+      "name": "光照／阴影异常修复",
+      "description": "兼容性修复，针对动态光照和阴影的异常黑影／错误着色；绕过MSAA分块渲染路径，不是画质增强，韩版画面效果仍待实测。",
       "is_enabled": false,
       "write_addresses": [
         2199956784,
         2199956888
+      ],
+      "comments": [
+        "类型：兼容性修复，针对动态光照和阴影的错误黑影／着色，不是画质增强。",
+        "做法：同时关闭分块渲染路径并重置模式；mode=0本身不代表关闭抗锯齿。"
       ]
     },
     {
-      "name": "Experimental skip post-process-chain proxies",
-      "description": "Independent Korean implementation, NOT a proven byte-for-byte relocation of the upstream post-processing patch. Skip per-view chain proxy construction through the existing empty-chain exit; other rendering effects remain unverified.",
-      "author": "Independent Korean post-process-chain bypass research",
+      "name": "关闭后处理链（实验）",
+      "description": "跳过每个视图的后处理代理构建，使用原有空链出口；这是韩版独立实验实现，未证明与美版原分支完全等价，画面与稳定性待实测。",
+      "author": "韩版独立后处理链绕过方案",
       "is_enabled": false,
       "write_addresses": [
         2185868228
+      ],
+      "comments": [
+        "类型：关闭后处理链的独立实验方案，不是增加后处理效果。",
+        "做法：跳过每个视图的后处理代理构建，使用原有空链出口。",
+        "边界：不等于关闭所有GPU效果；与美版原分支的等价性仍未证实。"
       ]
     }
   ],
@@ -399,6 +412,17 @@
     "xenia_commit": "96ce1ac47ee7646deac2a2c9c912351e8ff0edee",
     "game_started": false,
     "runtime_verified": false,
-    "postprocess_equivalence_to_upstream_verified": false
-  }
+    "postprocess_equivalence_to_upstream_verified": false,
+    "user_feedback": {
+      "date": "2026-11-05",
+      "fps": "用户反馈60帧已有效",
+      "lighting": "尚未收到画面效果验收",
+      "postprocess": "本轮要求启用，画面效果尚未验收",
+      "automated_game_execution": false
+    }
+  },
+  "comments": [
+    "《真名法典2》韩版图形补丁：true 为启用对应补丁，false 为关闭，各项可分别选择。",
+    "版本匹配字段和写入地址／数值保持原样；运行时补丁不改写原版 XEX 或 ISO。"
+  ]
 }

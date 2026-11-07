@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "kind": "bink-audio-packet-transport-research-lock",
+  "upstream": {
+    "project": "FFmpeg",
+    "authors": [
+      "Peter Ross",
+      "Daniel Verkamp",
+      "FFmpeg contributors"
+    ],
+    "commit": "967f0ffb10c3e77cfb8f7e1ba1cbed2e0a29d127",
+    "path": "libavformat/bink.c",
+    "url": "https://raw.githubusercontent.com/FFmpeg/FFmpeg/967f0ffb10c3e77cfb8f7e1ba1cbed2e0a29d127/libavformat/bink.c",
+    "sha256": "37861312f1eb24ea31d89999804e08c49015a8b6e3d6b770ec7688c188c8b5ae",
+    "license": "LGPL-2.1-or-later"
+  },
+  "reuse": "Container layout cross-check only. No upstream code copied; independent bounded Python parser/remuxer remains project MIT.",
+  "verified_offline": [
+    "BIKi audio metadata is three per-track 4-byte arrays before frame offsets.",
+    "Each frame stores one LE32 packet length plus packet bytes for each audio track, then video bytes.",
+    "Original metadata and per-frame compressed audio packets survive identity strip/remux byte-for-byte on all eleven worldmap movies."
+  ],
+  "source_ranges": [
+    "libavformat/bink.c:162-186",
+    "libavformat/bink.c:243-270"
+  ],
+  "limitations": [
+    "Only BIKi, flags0, <=6144 frames, <=8 audio tracks and bounded geometry supported; the legacy silent-caption builder still defaults to 600 frames unless the plan explicitly opts in.",
+    "Packet preservation and offline decode do not establish game runtime or visual acceptance."
+  ]
+}

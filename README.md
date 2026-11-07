@@ -12,6 +12,11 @@ Xbox 360 版《MagnaCarta II》的简体中文汉化项目，包含结构化译�
 最近一轮实测修订见 [阶段330：数字比例、正文排版与UI](docs/PHASE_330_GAMEPLAY_QA.md)。
 该记录保留全量扫描分母、原有控制符待核实项和离线/游戏内验收边界。
 
+2026-11-08追加返工：14张装备立绘的残留／右倾方向，以及11段Boss／恸哭之门过场特写，
+见 [装备重制](docs/PHASE_360_EQUIPMENT_REMAKE.md)与[时序字图重制](docs/PHASE_363_TEMPORAL_TITLES.md)。
+旧涂抹原型已退役；新资源经过离线原生检查与成品回解，游戏／用户美术验收单列。
+剧情过场后的独立大章节名称仍在[修复列表](docs/GAMEPLAY_FIX_LIST.md)追踪，不以地图地名或Boss影片冒充完成。
+
 ## 文档入口
 
 Windows 图形安装器候选版：[使用、构建、ZAR/XEX/DLC与验收说明](docs/INSTALLER.md)。

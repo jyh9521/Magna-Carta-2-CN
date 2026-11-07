@@ -283,6 +283,8 @@ def render_text(label):
 
 def render_label(font_bytes,label):
     """Render an owned text layer only; no original image is fed to the rasterizer."""
+    if 'parts' in label:
+        return render_parts(font_bytes,label)
     if 'appearance' in label:
         from .texture_appearance import render
         return render(font_bytes,label)
@@ -314,6 +316,35 @@ def render_label(font_bytes,label):
     if image.getbbox() is None:raise FormatError('empty text layer')
     if crop is not None:
         x,y,cw,ch=crop;image=image.crop((x,y,x+cw,y+ch))
+    return image.tobytes()
+
+
+def render_parts(font_bytes,label):
+    """Compose bounded independent styled runs before one sparse restoration.
+
+    Parts are locale data, not runtime control codes. Keeping them inside one
+    owned layer permits overlapping glow without overlapping BC edit regions.
+    """
+    from PIL import Image
+    width,height,crop=render_geometry(label)
+    parts=label['parts']
+    if (crop is not None or any(k in label for k in ('appearance','line_breaks','style','align','ink_padding','glyph_mask'))
+            or not isinstance(parts,list) or not 1<=len(parts)<=8
+            or any(not isinstance(p,dict) or set(p)-{'text','rect','font_size','appearance','style','align','ink_padding'}
+                   or not {'text','rect','font_size'}<=set(p)
+                   or not isinstance(p.get('text'),str) or not p['text']
+                   for p in parts)
+            or not isinstance(label.get('text'),str) or not 1<=len(label['text'])<=128
+            or ''.join(p['text'] for p in parts)!=label.get('text')):
+        raise FormatError('bounded owned text parts required')
+    image=Image.new('RGBA',(width,height))
+    for part in parts:
+        x,y,w,h=part['rect']
+        if (any(type(v) is not int for v in (x,y,w,h)) or min(x,y)<0
+                or min(w,h)<=0 or x+w>width or y+h>height):
+            raise FormatError('text part outside owned layer')
+        child=Image.frombytes('RGBA',(w,h),render_label(font_bytes,part))
+        image.alpha_composite(child,(x,y))
     return image.tobytes()
 
 

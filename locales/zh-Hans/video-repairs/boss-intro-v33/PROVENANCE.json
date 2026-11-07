@@ -1,0 +1,455 @@
+{
+  "schema_version": 1,
+  "kind": "frozen-video-repair-provenance",
+  "rebuild_requires_neural_runtime": false,
+  "hidden_content_is_reconstructed_not_recovered": true,
+  "upstream": {
+    "project": "ProPainter",
+    "authors": [
+      "Shangchen Zhou",
+      "Chongyi Li",
+      "Kelvin C.K. Chan",
+      "Chen Change Loy"
+    ],
+    "repository": "https://github.com/sczhou/ProPainter",
+    "commit": "326782529a63d997cab80ab21439b92ed422b3d3",
+    "license": "S-Lab License 1.0",
+    "weights": [
+      {
+        "file": "ProPainter.pth",
+        "size": 157780510,
+        "sha256": "12c070c4b48f374c91d8a2a17851140b85c159621080989f9e191bbc18bd6591"
+      },
+      {
+        "file": "raft-things.pth",
+        "size": 21108000,
+        "sha256": "fcfa4125d6418f4de95d84aec20a3c5f4e205101715a79f193243c186ac9a7e1"
+      },
+      {
+        "file": "recurrent_flow_completion.pth",
+        "size": 20348681,
+        "sha256": "22939a1a7900da878dbe1ccd011d646b1bfb30b8290039d8ff0e0c2fefbfd283"
+      }
+    ],
+    "weights_distributed": false
+  },
+  "variants": {
+    "finite_guard": "Assert finite floating predictions before uint8 conversion; no NaN-to-zero coercion.",
+    "feature_context_override": [
+      "updated_frames = masked_frames",
+      "updated_masks = masks_dilated"
+    ],
+    "rgb_image_propagation": "Original upstream image propagation plus finite guard and union inference mask."
+  },
+  "entries": [
+    {
+      "id": "csm00-35",
+      "source_sha256": "83432049889402cb79c970a63f3e1b35060dc2fbda4d3618023c65d7c188c447",
+      "method": "finite-feature-context",
+      "precision": "fp32",
+      "native_crop": [
+        384,
+        264,
+        512,
+        192
+      ],
+      "input_original_frame_range": [
+        180,
+        280
+      ],
+      "copyback_rect": [
+        524,
+        324,
+        232,
+        72
+      ],
+      "mask": {
+        "path": "locales/zh-Hans/video-repairs/boss-intro-v33/masks/csm00-35.png",
+        "sha256": "bb61abec11804b1aef1eb5c04c5370489b3d5d361d06900de85b9cdb991991eb",
+        "pixels_sha256": "ed8f08edd20e43c7868e251aa53efbe3d04f1c579f41c0374b35bd1d7113e239",
+        "pixels": 13952
+      },
+      "cleanup_first": 190,
+      "cleanup_last_inclusive": 264,
+      "cleanup_frames": 75,
+      "global_rgb_exposure": false,
+      "producer_receipt": {
+        "path": "build\\phase-363-propainter\\csm00-35-v33-result.json",
+        "sha256": "31e1e3e7a9c61c6a2f40f8a3fc698a957f10e5be15740d94c5fed5b50e1d1830"
+      },
+      "compiled_sparse_manifest_sha256": "22fb2893503aa537e4ce6b4adb107be1739ea33f0491cc464b98dd97160fae32"
+    },
+    {
+      "id": "csm02-52",
+      "source_sha256": "a2cf0ecbd5f44757d8eb37ac1afb44aed91ffa3528dc8e42a2dfb62446c02199",
+      "method": "finite-feature-context",
+      "precision": "fp16",
+      "native_crop": [
+        384,
+        264,
+        512,
+        192
+      ],
+      "input_original_frame_range": [
+        120,
+        242
+      ],
+      "copyback_rect": [
+        540,
+        324,
+        200,
+        72
+      ],
+      "mask": {
+        "path": "locales/zh-Hans/video-repairs/boss-intro-v33/masks/csm02-52.png",
+        "sha256": "dad8bb2cdffbf355521d67706383afe0ff90daaca9ed67d8a1b75b7a661d7388",
+        "pixels_sha256": "7611bc7c0ef698893341bf6168702c8e3d1c9935b6ee9325148b8b6c31516c5f",
+        "pixels": 11904
+      },
+      "cleanup_first": 131,
+      "cleanup_last_inclusive": 239,
+      "cleanup_frames": 109,
+      "global_rgb_exposure": true,
+      "producer_receipt": {
+        "path": "build\\phase-363-propainter\\csm02-52-ending-corrected-result.json",
+        "sha256": "7402ea41a3cf2967eb60d53999998f2e501ee9f46cb1796cf5f5994274cfa037"
+      },
+      "compiled_sparse_manifest_sha256": "aed005820ada972f3c48504645a52c2cf6305633fd3fe1908b6186127d0aa9db"
+    },
+    {
+      "id": "csm02-54",
+      "source_sha256": "62d7e54850ff7d4f9dd21f07e0abb18e128de32068ceac925b65af7706fccb5c",
+      "method": "finite-feature-context",
+      "precision": "fp16",
+      "native_crop": [
+        384,
+        264,
+        512,
+        192
+      ],
+      "input_original_frame_range": [
+        28,
+        178
+      ],
+      "copyback_rect": [
+        540,
+        324,
+        200,
+        72
+      ],
+      "mask": {
+        "path": "locales/zh-Hans/video-repairs/boss-intro-v33/masks/csm02-54.png",
+        "sha256": "dad8bb2cdffbf355521d67706383afe0ff90daaca9ed67d8a1b75b7a661d7388",
+        "pixels_sha256": "7611bc7c0ef698893341bf6168702c8e3d1c9935b6ee9325148b8b6c31516c5f",
+        "pixels": 11904
+      },
+      "cleanup_first": 39,
+      "cleanup_last_inclusive": 172,
+      "cleanup_frames": 134,
+      "global_rgb_exposure": false,
+      "producer_receipt": {
+        "path": "build\\phase-363-propainter\\csm02-54-final-native-result.json",
+        "sha256": "6bf48616999f1ca1ab04a2eb59c8ee4292a70e92aed2399d4b51408e04af1eeb"
+      },
+      "compiled_sparse_manifest_sha256": "a91289a48e643909333fb468c00963494e5062cb1bd558c6f130b5d1779a5048"
+    },
+    {
+      "id": "csm03-122",
+      "source_sha256": "b76becd06edf78e0b7e715d5f39bdaf2a43e2a68ae782536efc7967cedcf8825",
+      "method": "finite-feature-context",
+      "precision": "fp16",
+      "native_crop": [
+        384,
+        264,
+        512,
+        192
+      ],
+      "input_original_frame_range": [
+        174,
+        271
+      ],
+      "copyback_rect": [
+        556,
+        324,
+        168,
+        72
+      ],
+      "mask": {
+        "path": "locales/zh-Hans/video-repairs/boss-intro-v33/masks/csm03-122.png",
+        "sha256": "bef58dd079099e943570a073a46fe4f713418fdcd17629ea659b06d3c41b09e1",
+        "pixels_sha256": "b14626538a56222e4df659179e76ccb7e74cdeb54aafbf02fc4ddb5cb476e9d8",
+        "pixels": 9856
+      },
+      "cleanup_first": 185,
+      "cleanup_last_inclusive": 269,
+      "cleanup_frames": 85,
+      "global_rgb_exposure": true,
+      "producer_receipt": {
+        "path": "build\\phase-363-propainter\\csm03-122-ending-corrected-result.json",
+        "sha256": "24d8601feeb62b13f23e3c88e75a281126f743268a1bcdb828cbc0699861fe07"
+      },
+      "compiled_sparse_manifest_sha256": "d4e4dbd50f855537572df529bc9e44ea1b7a9a60d39b5e3a874707814d893351"
+    },
+    {
+      "id": "csm03-185",
+      "source_sha256": "445d96dfa4f2d39aed2951b56c6672ae731784788e169046ff27be2f629810e9",
+      "method": "finite-feature-context",
+      "precision": "fp16",
+      "native_crop": [
+        384,
+        264,
+        512,
+        192
+      ],
+      "input_original_frame_range": [
+        375,
+        546
+      ],
+      "copyback_rect": [
+        508,
+        324,
+        264,
+        72
+      ],
+      "mask": {
+        "path": "locales/zh-Hans/video-repairs/boss-intro-v33/masks/csm03-185.png",
+        "sha256": "1d3dca20b78e3f561735f7ff36f5e37422fb8dc2a1254877ad7418e216315f84",
+        "pixels_sha256": "9a38f805ca684546d71e0795f50f8a37d19303cd309684254e80b0c4f4fd3efd",
+        "pixels": 16000
+      },
+      "cleanup_first": 386,
+      "cleanup_last_inclusive": 539,
+      "cleanup_frames": 154,
+      "global_rgb_exposure": true,
+      "producer_receipt": {
+        "path": "build\\phase-363-propainter\\csm03-185-ending-corrected-result.json",
+        "sha256": "d4c19c5912b3d69a023795b3226150b48af09de2d8bb39a018aa3f9c9ed2aef8"
+      },
+      "compiled_sparse_manifest_sha256": "afd8071755cf560fffe09d7d18f97a2af4f3671c3e93798cd876c97847805078"
+    },
+    {
+      "id": "csm02-61",
+      "source_sha256": "147fd3d2df76714d7e32faf4acde1bb0785bfef4b45c4deed16b0a4b7a70e0a3",
+      "method": "finite-feature-context",
+      "precision": "fp16",
+      "native_crop": [
+        384,
+        264,
+        512,
+        192
+      ],
+      "input_original_frame_range": [
+        1304,
+        1423
+      ],
+      "copyback_rect": [
+        524,
+        324,
+        232,
+        72
+      ],
+      "mask": {
+        "path": "locales/zh-Hans/video-repairs/boss-intro-v33/masks/csm02-61.png",
+        "sha256": "bb61abec11804b1aef1eb5c04c5370489b3d5d361d06900de85b9cdb991991eb",
+        "pixels_sha256": "ed8f08edd20e43c7868e251aa53efbe3d04f1c579f41c0374b35bd1d7113e239",
+        "pixels": 13952
+      },
+      "cleanup_first": 1315,
+      "cleanup_last_inclusive": 1414,
+      "cleanup_frames": 100,
+      "global_rgb_exposure": false,
+      "producer_receipt": {
+        "path": "build\\phase-363-propainter\\csm02-61-final-native-result.json",
+        "sha256": "d926094e19a66e30626d42b810c8acf0b7e8766b89e297e5bcb7474ad7939269"
+      },
+      "compiled_sparse_manifest_sha256": "aecaa2205eeb6d0a71674af388d9191a4fcc73166e4b7c8865950716bbcfd016"
+    },
+    {
+      "id": "csm04-111",
+      "source_sha256": "086a09aafb11320f834ad960764ceb73c5e763872561adbfa581ea1b968b6ad7",
+      "method": "finite-feature-context",
+      "precision": "fp16",
+      "native_crop": [
+        384,
+        264,
+        512,
+        192
+      ],
+      "input_original_frame_range": [
+        530,
+        616
+      ],
+      "copyback_rect": [
+        540,
+        324,
+        200,
+        72
+      ],
+      "mask": {
+        "path": "locales/zh-Hans/video-repairs/boss-intro-v33/masks/csm04-111.png",
+        "sha256": "9d01f5a87c692a214f06b278962f7524ec78deff90f1a8c56955c081f868a6a4",
+        "pixels_sha256": "d6d63017d353c0b3844092a742c6660b228aff1df133b4d0e5e1c461c4ba9ae3",
+        "pixels": 10496
+      },
+      "cleanup_first": 541,
+      "cleanup_last_inclusive": 604,
+      "cleanup_frames": 64,
+      "global_rgb_exposure": false,
+      "producer_receipt": {
+        "path": "build\\phase-363-propainter\\csm04-111-final-native-result.json",
+        "sha256": "0a3cb51be374345643903eca4f8ae234af0651e8790ba84f39958a65fdc8e0cd"
+      },
+      "compiled_sparse_manifest_sha256": "d0ab78a68ca98498ed9356dac8680c60036d812f190ead7198aab7d310813f10"
+    },
+    {
+      "id": "csm06-80",
+      "source_sha256": "76306364d1d75dc245f33688a1c31b3e33cd1e7efc9a6eda701462332bcc5d0f",
+      "method": "finite-feature-context",
+      "precision": "fp16",
+      "native_crop": [
+        384,
+        264,
+        512,
+        192
+      ],
+      "input_original_frame_range": [
+        342,
+        437
+      ],
+      "copyback_rect": [
+        516,
+        324,
+        248,
+        72
+      ],
+      "mask": {
+        "path": "locales/zh-Hans/video-repairs/boss-intro-v33/masks/csm06-80.png",
+        "sha256": "dbe2888762ecfa9805570b179404b81bfb5c2852150b36023597c4ae46d3946a",
+        "pixels_sha256": "0488ffd4e61e1e17c3ec0ba911b8aa67ae451d51e82841441338d1843489fbd4",
+        "pixels": 14976
+      },
+      "cleanup_first": 353,
+      "cleanup_last_inclusive": 425,
+      "cleanup_frames": 73,
+      "global_rgb_exposure": false,
+      "producer_receipt": {
+        "path": "build\\phase-363-propainter\\csm06-80-final-native-result.json",
+        "sha256": "109e51c6f72d8d038d40ea1ff5ef197f950c4c6bef1a9efbd260e8b472089755"
+      },
+      "compiled_sparse_manifest_sha256": "20cd5aad9d618d502dfe8e2e41ea2508c26927369148576d06699563bf40d238"
+    },
+    {
+      "id": "csm11-50",
+      "source_sha256": "bf0ecc00f6479d6354a05095a37a29cf035c38cfe9f87eccbc6e4d66ceac0a75",
+      "method": "finite-feature-context",
+      "precision": "fp16",
+      "native_crop": [
+        384,
+        264,
+        512,
+        192
+      ],
+      "input_original_frame_range": [
+        1173,
+        1261
+      ],
+      "copyback_rect": [
+        564,
+        324,
+        152,
+        72
+      ],
+      "mask": {
+        "path": "locales/zh-Hans/video-repairs/boss-intro-v33/masks/csm11-50.png",
+        "sha256": "e108d9d73643793be4f2492ab267218c33e9a5c8b40b7fe035a260daaf99b001",
+        "pixels_sha256": "a4e985a77c7c3de0d219d5b2c3de55a0f76a9ea9cc532167c740e7e8ecea169a",
+        "pixels": 8832
+      },
+      "cleanup_first": 1184,
+      "cleanup_last_inclusive": 1249,
+      "cleanup_frames": 66,
+      "global_rgb_exposure": false,
+      "producer_receipt": {
+        "path": "build\\phase-363-propainter\\csm11-50-final-native-result.json",
+        "sha256": "e1c918a2c7e30ee168987aa8e17fff84b3034357e42d29ceae4376639df52ac2"
+      },
+      "compiled_sparse_manifest_sha256": "2a6bb85b5ced9f5ad090a76106117f05eb4ca11493bbc2cefcc7a23bf43c16e4"
+    },
+    {
+      "id": "csm05-82",
+      "source_sha256": "36dcf7b64e7ccf48bfab31e58eb235313e069a53c8dc1062bbcbc50d2434060d",
+      "method": "guarded-rgb-image-propagation-union-mask",
+      "precision": "fp16",
+      "native_crop": [
+        384,
+        264,
+        512,
+        192
+      ],
+      "input_original_frame_range": [
+        258,
+        334
+      ],
+      "copyback_rect": [
+        564,
+        324,
+        152,
+        72
+      ],
+      "mask": {
+        "path": "locales/zh-Hans/video-repairs/boss-intro-v33/masks/csm05-82.png",
+        "sha256": "ede54ec071f0061a63022bdbd25da3985b51aed4a22694eab9edf523baae7771",
+        "pixels_sha256": "dd0ef9ee969db90e8f70f6df5e2dbb3b1e651edf06e2259ed685194fb938ec9a",
+        "pixels": 4723
+      },
+      "cleanup_first": 269,
+      "cleanup_last_inclusive": 322,
+      "cleanup_frames": 54,
+      "global_rgb_exposure": false,
+      "producer_receipt": {
+        "path": "build\\phase-363-propainter\\guarded-rgb-union\\csm05-82-result.json",
+        "sha256": "1f4793b9aa6d0d807a19e5406cd3328c3bff3fefc5102c4ea9d1144f33aa8cbe"
+      },
+      "compiled_sparse_manifest_sha256": "fe1e5a5634b13ecd0accff8af7e3b51e64623fbbc96c447aa9fc9826eb3e9c0b"
+    },
+    {
+      "id": "csm13-40",
+      "source_sha256": "b44deb9b088b4bef7d5135682187015a4b7373cbd8edb2342b2894684052c609",
+      "method": "guarded-rgb-image-propagation-union-mask",
+      "precision": "fp16",
+      "native_crop": [
+        384,
+        264,
+        512,
+        192
+      ],
+      "input_original_frame_range": [
+        1250,
+        1369
+      ],
+      "copyback_rect": [
+        548,
+        324,
+        184,
+        72
+      ],
+      "mask": {
+        "path": "locales/zh-Hans/video-repairs/boss-intro-v33/masks/csm13-40.png",
+        "sha256": "7e74b008d0f72c844ce794f7c12f1742edcc534f9f135208e12bd3cd51ec65b8",
+        "pixels_sha256": "449d0a0ac42b518ed3f7bef3b15926633483f9da37dbb36c28346028262fc7e4",
+        "pixels": 5187
+      },
+      "cleanup_first": 1261,
+      "cleanup_last_inclusive": 1357,
+      "cleanup_frames": 97,
+      "global_rgb_exposure": false,
+      "producer_receipt": {
+        "path": "build\\phase-363-propainter\\guarded-rgb-union\\csm13-40-result.json",
+        "sha256": "6a2695f9d33be0d54e6c456d913c8fb875a746bd3d81dee66c19e18389102eca"
+      },
+      "compiled_sparse_manifest_sha256": "cc6708a78d6fda37b40f02d05b485f91ca9cba4a6b27fc5f885bd1f4a17b092c"
+    }
+  ],
+  "technical_notes": "docs/PHASE_363_TEMPORAL_TITLES.md",
+  "qa_scope": "All1011 raw cleanup frames reviewed; encoded visual sampling and game acceptance tracked separately."
+}

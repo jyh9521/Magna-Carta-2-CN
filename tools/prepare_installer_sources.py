@@ -43,7 +43,7 @@ def apply_resource_updates(candidates, originals, updates, root, disc, toc):
         for row in manifest['resources']:
             name = safe_relative(row['path'])
             if (name.casefold() in seen or name == toc or name not in originals
-                    or not name.lower().endswith(('.xxx', '.int'))):
+                    or not name.lower().endswith(('.xxx', '.int', '.bik'))):
                 raise ValueError('duplicate or unknown resource update')
             seen.add(name.casefold())
             previous = result.get(name, originals[name])
@@ -55,6 +55,12 @@ def apply_resource_updates(candidates, originals, updates, root, disc, toc):
                 raise ValueError('resource update candidate identity mismatch')
             if name.lower().endswith('.xxx'):
                 require_raw_envelope(path.read_bytes())
+            elif name.lower().endswith('.bik'):
+                # Movie updates use the same original/candidate hash guards as
+                # packages. Also reject malformed Bink data before publishing a
+                # release recipe; audio-bearing revision-i clips stay encoded.
+                from .bink_audio import inspect
+                inspect(path.read_bytes())
             result[name] = dict(path=name, file=str(path.resolve()), sha256=row['sha256'])
         if sha_file(manifest_path) != ref['sha256']:
             raise ValueError('resource update manifest changed')

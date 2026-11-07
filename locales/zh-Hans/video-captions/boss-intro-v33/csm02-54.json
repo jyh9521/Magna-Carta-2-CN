@@ -1,0 +1,1418 @@
+{
+  "schema_version": 1,
+  "kind": "bink-audio-caption-plan",
+  "locale": "zh-Hans",
+  "game_rendering_verified": false,
+  "source_font_identity_recovered": false,
+  "style_basis": "Source-measured native title scale, light sans typography, tracked spacing and coral-to-cream fill. Reviewed per-frame temporal background reconstructions; no flat RGB hole filling. Original wing ornaments retained. Reconstructed hidden content is not recovered original artwork.",
+  "rasterizer_versions": {
+    "Pillow": "12.2.0",
+    "numpy": "2.5.1",
+    "fontTools": "4.63.0"
+  },
+  "fonts": {
+    "caption": {
+      "path": "build/font-source/NotoSansCJKsc-Regular.otf",
+      "sha256": "2c76254f6fc379fddfce0a7e84fb5385bb135d3e399294f6eeb6680d0365b74b"
+    }
+  },
+  "entries": [
+    {
+      "id": "csm02-54",
+      "source": {
+        "file": "csm02-54.bik",
+        "member": "MC2Game/Movies/csm02-54.bik",
+        "size": 13192308,
+        "sha256": "62d7e54850ff7d4f9dd21f07e0abb18e128de32068ceac925b65af7706fccb5c",
+        "first_rgb_sha256": "822e3a311bc34185394aeb709bb83310f1243089b95cdadc218eee179b1d6f78",
+        "discs": [
+          1
+        ]
+      },
+      "expected_header": {
+        "width": 1280,
+        "height": 720,
+        "frames": 178,
+        "numerator": 10000000,
+        "denominator": 333333,
+        "magic": "BIKi",
+        "audio_tracks": 6
+      },
+      "maximum_frames": 600,
+      "maximum_encoded_bytes": 134217728,
+      "encoder_timeout_seconds": 600,
+      "scratch_reserve_bytes": 8589934592,
+      "minimum_start_free_bytes": 17179869184,
+      "encoder_guard_frames": 1,
+      "encode_from_frame": 39,
+      "source_text": "통곡의 문",
+      "translation_basis": "Actual burned-in original title; reuses adopted project names without adding HUD-only words.",
+      "captions": [
+        {
+          "role": "special-camera-title",
+          "text": "恸哭之门",
+          "font": "caption",
+          "font_size": 36,
+          "appearance": {
+            "kind": "source-style-v1",
+            "ink_box": [
+              480,
+              342,
+              320,
+              36
+            ],
+            "align": "center",
+            "gradient": [
+              [
+                0,
+                [
+                  220,
+                  141,
+                  142,
+                  255
+                ]
+              ],
+              [
+                350,
+                [
+                  232,
+                  171,
+                  151,
+                  255
+                ]
+              ],
+              [
+                700,
+                [
+                  255,
+                  236,
+                  200,
+                  255
+                ]
+              ],
+              [
+                1000,
+                [
+                  255,
+                  250,
+                  224,
+                  255
+                ]
+              ]
+            ],
+            "outline": [
+              8,
+              5,
+              5,
+              245
+            ],
+            "outline_width": 0.75,
+            "glow": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "glow_radius": 0,
+            "shadow": [
+              0,
+              0,
+              0,
+              210
+            ],
+            "shadow_offset": [
+              1,
+              1
+            ],
+            "shadow_radius": 0.5,
+            "italic": 0,
+            "tracking": 3,
+            "weight": 0,
+            "motion": 0
+          },
+          "frame_alpha": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            12,
+            24,
+            36,
+            49,
+            61,
+            73,
+            85,
+            97,
+            109,
+            121,
+            134,
+            146,
+            158,
+            170,
+            182,
+            194,
+            206,
+            219,
+            231,
+            243,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            243,
+            232,
+            220,
+            209,
+            197,
+            185,
+            174,
+            162,
+            151,
+            139,
+            128,
+            116,
+            104,
+            93,
+            81,
+            70,
+            58,
+            46,
+            35,
+            23,
+            12,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "erase": {
+            "rect": [
+              540,
+              324,
+              200,
+              72
+            ],
+            "mask_asset": {
+              "path": "locales/zh-Hans/video-repairs/boss-intro-v33/masks/csm02-54.png",
+              "sha256": "dad8bb2cdffbf355521d67706383afe0ff90daaca9ed67d8a1b75b7a661d7388",
+              "pixels_sha256": "7611bc7c0ef698893341bf6168702c8e3d1c9935b6ee9325148b8b6c31516c5f",
+              "pixels": 11904
+            },
+            "frame_repairs": {
+              "method": "sparse-frame-rgba-v1",
+              "records": [
+                {
+                  "index": 39,
+                  "source_crop_sha256": "f382d3d2abf9e0202d8bc7830120e5a8bebd7ea8c53264a09bad621ac45c7c35",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/boss-intro-v33/csm02-54/0039.png",
+                    "sha256": "cd51c77e7e22587ed33976b47a0ede53c4a9a602de78242806d170c89d7fe8a6"
+                  }
+                },
+                {
+                  "index": 40,
+                  "source_crop_sha256": "3b5d74edb0ea8ba499dcd20da931fe5a569a1e6a09c566d46c25908f74177e5d",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/boss-intro-v33/csm02-54/0040.png",
+                    "sha256": "e1a7ce91bcb3a50875b0eae26a579e16a1cd0fac50f8cdf933634e3ab8a03788"
+                  }
+                },
+                {
+                  "index": 41,
+                  "source_crop_sha256": "61592c7451b0fb953c5837044c3dd3f01b717d5153b54421df522f279271dbc3",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/boss-intro-v33/csm02-54/0041.png",
+                    "sha256": "cd58e1a6b1e7357be3a61b21ab246ed8b6afd5c457976ef45c1bc8a8ade41344"
+                  }
+                },
+                {
+                  "index": 42,
+                  "source_crop_sha256": "d6836e1eaf837a809b2fc3a9738bd7da261ab5c0c3c9bc1cf31031164edb8b28",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/boss-intro-v33/csm02-54/0042.png",
+                    "sha256": "a2b994631f2d5c90a0acdcbe07cc18ee879075daac615894cac0372f8a1ee869"
+                  }
+                },
+                {
+                  "index": 43,
+                  "source_crop_sha256": "c135868b55a80dfdb6840064778e0c8cd45c7c6fa5669c51d8934bb689a87fdd",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/boss-intro-v33/csm02-54/0043.png",
+                    "sha256": "9874b0afca9c9ff22fcabf18cb2618b09230edfb118bba3524b695ab01fc1247"
+                  }
+                },
+                {
+                  "index": 44,
+                  "source_crop_sha256": "b482fd48c201f8711e030ce837afa55f236b4a1f1914e6519323395b9a165732",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/boss-intro-v33/csm02-54/0044.png",
+                    "sha256": "0584906deb1c955e7fc4a35ffb985ebb94296839903f3c6215a457379a960bd0"
+                  }
+                },
+                {
+                  "index": 45,
+                  "source_crop_sha256": "11778fcbd67be811b68735f3c34e00f332f2eafe141d1afd18ade5a13e116c37",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/boss-intro-v33/csm02-54/0045.png",
+                    "sha256": "6c9a215c46ff1e6ac94986c14c6dba9277a9d5d6565c47d4ff2ce454a4749001"
+                  }
+                },
+                {
+                  "index": 46,
+                  "source_crop_sha256": "f4c5d2d40b2f7b517348d9ba45a2391d6844fcb1759080ccd5f5fcc255be077a",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/boss-intro-v33/csm02-54/0046.png",
+                    "sha256": "4872d18654c64498f69abbde05c859dc19f5d328c3ff9d81b95973dfb7aedc6e"
+                  }
+                },
+                {
+                  "index": 47,
+                  "source_crop_sha256": "34645139357a6144a1ae55025d9e21a3dc90217247c5f19a87fb41def87ddd81",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/boss-intro-v33/csm02-54/0047.png",
+                    "sha256": "4f5964120543da0418091319d27089b07e3a4ff3934be679cf7fd2f1edd91b7b"
+                  }
+                },
+                {
+                  "index": 48,
+                  "source_crop_sha256": "ece2f9b18b3721bf53ee7fbabd80782381004321a975a8c908bd205aa777031f",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/boss-intro-v33/csm02-54/0048.png",
+                    "sha256": "8bea5e6fa377c088d69fbe0fbeccba92bfe069ae31e70b4588efe5af297773f4"
+                  }
+                },
+                {
+                  "index": 49,
+                  "source_crop_sha256": "6260d23cf747373621cdb67b0c5fdadb55428fd8e9c69649a0b4b0b092da8557",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/boss-intro-v33/csm02-54/0049.png",
+                    "sha256": "59cf30ec4d5e38855f67df996113a8f56017bae5caf6c02058a2bb0241f2b2bf"
+                  }
+                },
+                {
+                  "index": 50,
+                  "source_crop_sha256": "60ad8dbb662973615cec4e7d4b987ad0444d9e16369a286c27a954611cf91587",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/boss-intro-v33/csm02-54/0050.png",
+                    "sha256": "21708dbf48619286d9e25b5422bf923acb514362252dafe5c78340bedfdde038"
+                  }
+                },
+                {
+                  "index": 51,
+                  "source_crop_sha256": "eee97759106864f6dc6307dde27425fc306796aa26b3e29d3ee7c9555b7b99ac",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/boss-intro-v33/csm02-54/0051.png",
+                    "sha256": "764dd44bc486ffacd51f05c730cbe6c9907dca1888a6a07412643554298658e3"
+                  }
+                },
+                {
+                  "index": 52,
+                  "source_crop_sha256": "389e36763f3edd25ec44ccf3377ebe7aea2eddc02a168343c65b62a68d6dda7e",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/boss-intro-v33/csm02-54/0052.png",
+                    "sha256": "ab01819c3357c31243ed83d9979180cf38d1d63699218af2de0f782026550f7d"
+                  }
+                },
+                {
+                  "index": 53,
+                  "source_crop_sha256": "fc0083be9093a9669787af80f0bf80cea9fd4bf01117cf1dce63662241cbf0e9",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/boss-intro-v33/csm02-54/0053.png",
+                    "sha256": "2f92c56736e0b2faa13f60345eca5dc2ff37eec00403ff7f55a0bec7353002c4"
+                  }
+                },
+                {
+                  "index": 54,
+                  "source_crop_sha256": "ee7f66a686ecc106c2366444b7f12de6a39dd994e591b50c4ee5a5a0e25bb283",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/boss-intro-v33/csm02-54/0054.png",
+                    "sha256": "10534d0a8e9ab74ab04e3f5455e1c33164684a4c52f6c9df735ce9dd0fbfe1cc"
+                  }
+                },
+                {
+                  "index": 55,
+                  "source_crop_sha256": "c06f7440d38eecff0e483fa685280c5e9bf593e4026b0b14fc7c293f3c22cc8e",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/boss-intro-v33/csm02-54/0055.png",
+                    "sha256": "43c424c498001d639246c012a5e1bb78f5e475470deea47a67ea4f7bed31143b"
+                  }
+                },
+                {
+                  "index": 56,
+                  "source_crop_sha256": "381df9038e9f6f41d7475c04bf215b61ff10266ad826979785741acd990c9f94",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/boss-intro-v33/csm02-54/0056.png",
+                    "sha256": "64a1bea08af5312d4b272f4c298d0b954563570be38e249ceb8fc0c6546d4cf5"
+                  }
+                },
+                {
+                  "index": 57,
+                  "source_crop_sha256": "37587297f685cba54cf11037ed6694952b27ad5c07c9af3faf90df558393713b",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/boss-intro-v33/csm02-54/0057.png",
+                    "sha256": "1a5fc5be479f6fba0bd8ad51fba78175c00d3c779ace706c28b2a859dd59c057"
+                  }
+                },
+                {
+                  "index": 58,
+                  "source_crop_sha256": "9d1f97afd1f2ee4904f5f6c2b50f5ccfc93f30342f3f0b471f0fab5a4e7a4f05",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/boss-intro-v33/csm02-54/0058.png",
+                    "sha256": "f76cfbb6195fb363dc23cb0ce8a94a7daf97ac56f4ef2e6c67fdd3e6d5d548dc"
+                  }
+                },
+                {
+                  "index": 59,
+                  "source_crop_sha256": "76ffb9a7be73f36b0e438cd3b642d586ccca1066f5356c3e0e9d03c27bf3a684",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/boss-intro-v33/csm02-54/0059.png",
+                    "sha256": "533935d247c1ccc11b1a7d6f27f6889419cd5b799e04ea30cf45e0470d6569f1"
+                  }
+                },
+                {
+                  "index": 60,
+                  "source_crop_sha256": "c89e1e7c76e880e85d3de1688ee789ada8442dc61c15d7f56bf293ed3faaf906",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/boss-intro-v33/csm02-54/0060.png",
+                    "sha256": "5504248f530a7e2efc01a9ab61e39995757383b6cce0e774b134218a9595094f"
+                  }
+                },
+                {
+                  "index": 61,
+                  "source_crop_sha256": "3519515cc5287a02a27caafa893fac44fc4c2516f6b5f45260dd9ac52fbd50e3",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/boss-intro-v33/csm02-54/0061.png",
+                    "sha256": "286f2e74ef94cce874f6fa2f1debf777686757f6a3bd255d92f3ed978fb9222d"
+                  }
+                },
+                {
+                  "index": 62,
+                  "source_crop_sha256": "3163126359e9b0896e1bf31de9bd88f79f1e1c6aaa4bab9b794007b03c800552",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/boss-intro-v33/csm02-54/0062.png",
+                    "sha256": "24ee3a862ff10d50f378c011235000c4cc22547d45220d59fc2fccca258ada92"
+                  }
+                },
+                {
+                  "index": 63,
+                  "source_crop_sha256": "ea9b5220bba186238179f6d7e685388a8211f43cb9644ddc30273006631bb8b7",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/boss-intro-v33/csm02-54/0063.png",
+                    "sha256": "39b5f55c4db3c9905596bce30c6010ac601b8d38521b3491240422a8337812b0"
+                  }
+                },
+                {
+                  "index": 64,
+                  "source_crop_sha256": "cf4f4346fe05409c73899c615a56c5917629600a028a3863397db8be63270442",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/boss-intro-v33/csm02-54/0064.png",
+                    "sha256": "fa9cc4c49deed05184356d4d87c691c2e1e0341be29488ea66537e7ae5610702"
+                  }
+                },
+                {
+                  "index": 65,
+                  "source_crop_sha256": "ac2ad322840c19b58b69c614f1a93b269f872c379271d3991c6faa8018609ae7",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/boss-intro-v33/csm02-54/0065.png",
+                    "sha256": "c77d2445ddf88b781eede4da118b44c58548a36c6fa19cae51a13bb0ef9e4b30"
+                  }
+                },
+                {
+                  "index": 66,
+                  "source_crop_sha256": "cedd86403269658d7070a62b9051f668c4611b519224105ac08fbb9ac8e62279",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/boss-intro-v33/csm02-54/0066.png",
+                    "sha256": "7448765fe392740f71a124e851a3156128a5a18cccf0bc50152779ee58298f20"
+                  }
+                },
+                {
+                  "index": 67,
+                  "source_crop_sha256": "f4fcdb8381e60ab463cc1eef38e2b18ef066f489493b2fc7c4c4584e19cf920a",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/boss-intro-v33/csm02-54/0067.png",
+                    "sha256": "40f0d5dc141ec67df3c78c310e3dc90f1ceb5bec85b31ed7f76516dae566b035"
+                  }
+                },
+                {
+                  "index": 68,
+                  "source_crop_sha256": "c952db54deec07dba3c33848fac34851e6b1e24f2610fc472606b9202f9e624b",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/boss-intro-v33/csm02-54/0068.png",
+                    "sha256": "30005c8391b779c4e73b8e4d03d6771aefdc1503f090b4d1f5b9b32a0d27740f"
+                  }
+                },
+                {
+                  "index": 69,
+                  "source_crop_sha256": "72b2ecce35c3d00d81010e4250301816aa8e0ac7d8d15fa064530ea78e2a900b",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/boss-intro-v33/csm02-54/0069.png",
+                    "sha256": "cbb7babbdb12f5d0403397759acdb09d7ada35590c68275b334b2415ce2c7538"
+                  }
+                },
+                {
+                  "index": 70,
+                  "source_crop_sha256": "c27bc76b3c3896d0960686d0318c72506d8d9d0520cd7a9011246890d455162b",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/boss-intro-v33/csm02-54/0070.png",
+                    "sha256": "255dbbad83ff85b0a70d2e179a3fa325daa543892219dc8f2885b8bff96f5043"
+                  }
+                },
+                {
+                  "index": 71,
+                  "source_crop_sha256": "c00e5775301d41a382db2e0cc239f3ab4fe4f7a7a63bcdf2c4346795f92da0de",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/boss-intro-v33/csm02-54/0071.png",
+                    "sha256": "3b3221a69773553310fb916ce8b4a25d37c2a5109926c3f4880c217748ddd220"
+                  }
+                },
+                {
+                  "index": 72,
+                  "source_crop_sha256": "232195fabbc0abdb9004c837f89245cff0624989d767209635acacf0caa5de7b",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/boss-intro-v33/csm02-54/0072.png",
+                    "sha256": "c9c673308ad669d8b83b94b39b95521adbfaa58f4dc4f5ceb9cafec441f9d643"
+                  }
+                },
+                {
+                  "index": 73,
+                  "source_crop_sha256": "47a633251c1169db106b0e80fae7975ab87bb5f0dafa737ce7aa203f5dd709de",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/boss-intro-v33/csm02-54/0073.png",
+                    "sha256": "d973e0c3b00b0d0430a9643d6641dc5bc5f3c50a96dcb0e7ed8d819b05ac43b2"
+                  }
+                },
+                {
+                  "index": 74,
+                  "source_crop_sha256": "65666492f38eb0f3062ba50be56d19091ad55d773ebca6472507a8b70d8a4ed4",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/boss-intro-v33/csm02-54/0074.png",
+                    "sha256": "58973e41afd6a6a71ca7af8f14fa646fb6cafd62cafabcb3fb1bc9b054838d6d"
+                  }
+                },
+                {
+                  "index": 75,
+                  "source_crop_sha256": "785e56eda8db7612032626440cf64c3492cd5eaf59c709e3e074038f172e0737",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/boss-intro-v33/csm02-54/0075.png",
+                    "sha256": "93579313047e7f2dd240d703150b296a36865a53efdd225fed79f34c178d3044"
+                  }
+                },
+                {
+                  "index": 76,
+                  "source_crop_sha256": "c807bf6ba69688dead3e2883ec72494f360b1793c4e23cffddd0d702402200c4",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/boss-intro-v33/csm02-54/0076.png",
+                    "sha256": "493d65d54bf04a353ea796ce33359cc575d700e471a5efa16aac260ef21ebab7"
+                  }
+                },
+                {
+                  "index": 77,
+                  "source_crop_sha256": "008a259855505ad1c5cc6c520dbe7040249d5c735a59992f848ec05f09d36ce6",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/boss-intro-v33/csm02-54/0077.png",
+                    "sha256": "df6b7a78aa0d312b86ef93fad78447fb7efd5cba28dc9267be49fad87c3d3eb9"
+                  }
+                },
+                {
+                  "index": 78,
+                  "source_crop_sha256": "c00211f000e8606702cfb3d505e8558fb28e37b5a286c463548a5a2b41fcd1fc",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/boss-intro-v33/csm02-54/0078.png",
+                    "sha256": "7db70de600ba71a78fa313a0092eb1082bd1225a20e61a70d03d5734746c64cd"
+                  }
+                },
+                {
+                  "index": 79,
+                  "source_crop_sha256": "4f46eee30cb7cc771bfe6b095c7f4db6a85025210e090e6e5ad866c1941ed81a",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/boss-intro-v33/csm02-54/0079.png",
+                    "sha256": "e862e0c0e128267fb1d4c5243887a11d9871336394ef943f773e8cc081639252"
+                  }
+                },
+                {
+                  "index": 80,
+                  "source_crop_sha256": "1d02fb2ee57d0387ec51de161962f6b9dbe41abe2fe5a548513b3bea6f173d60",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/boss-intro-v33/csm02-54/0080.png",
+                    "sha256": "a92ea250981b9a1355ec8fd33626bb6ca991c554ad138245a2c6f5f2a61d4b1a"
+                  }
+                },
+                {
+                  "index": 81,
+                  "source_crop_sha256": "c5494abde73175dfc752c38f3a4a27f2d39f711780902f48812b7ff13a8cafa3",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/boss-intro-v33/csm02-54/0081.png",
+                    "sha256": "67eeb029c8e14f0b0572f5702a3e2a76598ac197316c2258d753b4d451af2c91"
+                  }
+                },
+                {
+                  "index": 82,
+                  "source_crop_sha256": "1c9370b4eef17dafcf78816f283fc61f1caba963649f7ec6c91fa25434585266",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/boss-intro-v33/csm02-54/0082.png",
+                    "sha256": "bd157d1a0bbf362848236602b669dd397a379626edd04d5e45014923a3411d8e"
+                  }
+                },
+                {
+                  "index": 83,
+                  "source_crop_sha256": "1edb2372386187ef1e8f2d371feb08edab18293e2ef313d6d7c613f6748b19df",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/boss-intro-v33/csm02-54/0083.png",
+                    "sha256": "6fca3d40c1e8ffd16a2bbe13a9b8df6a6dc38508843c57735d8309bcf10d0faf"
+                  }
+                },
+                {
+                  "index": 84,
+                  "source_crop_sha256": "b12fe523d633433f7848ee9a6869949e23e9e99d1eb21888acc648bf617bad5c",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/boss-intro-v33/csm02-54/0084.png",
+                    "sha256": "9dd64067e76e75efcfa5b9b93f418c7df9d07f5de00e4206f2faee1c71bc652d"
+                  }
+                },
+                {
+                  "index": 85,
+                  "source_crop_sha256": "bf3ec0274bf44b7e8658ffd209931020df2ac64e7910a823c1e3adca1452e8b4",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/boss-intro-v33/csm02-54/0085.png",
+                    "sha256": "7f76a6d9fb1996a422d7b876988459e2da272a390c017fbb2a57953f4a447243"
+                  }
+                },
+                {
+                  "index": 86,
+                  "source_crop_sha256": "908562e2848b596b38021e18a7449e819bc60a5ee491e4a7b610ce1dc29416d7",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/boss-intro-v33/csm02-54/0086.png",
+                    "sha256": "7b44b74b19c509a837a8e3c6513025a188b8d942473c7f869528545cb6431f7a"
+                  }
+                },
+                {
+                  "index": 87,
+                  "source_crop_sha256": "9994dabed7338cd857195dafdbade89d7ddfbfab2fe574138e5babe4243c6287",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/boss-intro-v33/csm02-54/0087.png",
+                    "sha256": "57f9d1a0af7b3679f1927ed8471af4d79a8ad4fe49835474fdd3622c780683a8"
+                  }
+                },
+                {
+                  "index": 88,
+                  "source_crop_sha256": "7349d549816600f53edc1f5ab23aa32155c79185acc47c61b7a28a3ff837d0dc",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/boss-intro-v33/csm02-54/0088.png",
+                    "sha256": "237d271a387462c34763d219488aa721b92be2b37d61e688cc94fe539e54db7c"
+                  }
+                },
+                {
+                  "index": 89,
+                  "source_crop_sha256": "9806803e7120a2b1d42a359332fe8fccb0a1511abbd52b386857ac75ab0abea7",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/boss-intro-v33/csm02-54/0089.png",
+                    "sha256": "6f5eb696783919048c4a8a900726d3d08aabacb3d68e0ce2098b95d8b8786328"
+                  }
+                },
+                {
+                  "index": 90,
+                  "source_crop_sha256": "70941b98807f4d0493234f5b7790b09eaf211966ac1f5b44dc987d97ff8cf355",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/boss-intro-v33/csm02-54/0090.png",
+                    "sha256": "2d57d8667408e7fc2ea135a928b7bade892763be03d385194fafb222dd7215ce"
+                  }
+                },
+                {
+                  "index": 91,
+                  "source_crop_sha256": "ff712f39c1325e859c1b18d8a80acb346a75d4ccde8f0eb32ee19b4a6ed7e24b",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/boss-intro-v33/csm02-54/0091.png",
+                    "sha256": "6e07ab5b6f7a90e50a007efe0562dbab7410c8cf2694cd5def4b179d613a8730"
+                  }
+                },
+                {
+                  "index": 92,
+                  "source_crop_sha256": "b330634a4826aa6b7843ebde08557a9b1f4e7c00ddfbb429586937f2415d96a9",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/boss-intro-v33/csm02-54/0092.png",
+                    "sha256": "c710f2bc18e7e1e19f218ee5396720ddaacfbdc5df15c23f60f8a394158d7ac8"
+                  }
+                },
+                {
+                  "index": 93,
+                  "source_crop_sha256": "22231018cd5777a54d3a2d670ef22633e9cb7089ffd5fdbc4dfc48637879359c",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/boss-intro-v33/csm02-54/0093.png",
+                    "sha256": "2179a31711d4e286bf7ef78b10e0616429303d1cd2182abefe361bbadb03af7f"
+                  }
+                },
+                {
+                  "index": 94,
+                  "source_crop_sha256": "263b9d7b2f131fab9be1403bc2f23bdd376ac589f74d812ad2bddb3b27417827",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/boss-intro-v33/csm02-54/0094.png",
+                    "sha256": "ddd00e9d55dbb67dcde0b3815c1cfb7281cd0fb9fa07ebaa53f8707e3b6fde24"
+                  }
+                },
+                {
+                  "index": 95,
+                  "source_crop_sha256": "7222ef38a77b7906b9a84f9ac027bb937065879ddfce5ba9db81b356ffb15aa0",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/boss-intro-v33/csm02-54/0095.png",
+                    "sha256": "dda85157e2d0e93c48f7b8acb2dd782ae9b7e04c2fcbadd591253e7cdd0deb9d"
+                  }
+                },
+                {
+                  "index": 96,
+                  "source_crop_sha256": "3b26d3b4253ba0d388ecc7f8d7dbba80d9bf2228ac5cf119b3648d0d1921d925",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/boss-intro-v33/csm02-54/0096.png",
+                    "sha256": "0b5f246a48bffbf818c8b4cfb7b971f376030023482958c8105d01d491003cc9"
+                  }
+                },
+                {
+                  "index": 97,
+                  "source_crop_sha256": "284d37a203fe1be28e3262cca25e0da1f116e8fff06f6c4aab5b456187c1a292",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/boss-intro-v33/csm02-54/0097.png",
+                    "sha256": "d5ae8b030789849d2e89d56aeaede98f79621266d6c64a0a914af9c732d06a34"
+                  }
+                },
+                {
+                  "index": 98,
+                  "source_crop_sha256": "b12d55141b1e5c25e2f9077828f84c20b604e966e4dc15b9ecce500888a9d2f7",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/boss-intro-v33/csm02-54/0098.png",
+                    "sha256": "f411416e6c41a00169ef8e41d97bc0f115b47eb7e09be6c377b5a287e3dea85a"
+                  }
+                },
+                {
+                  "index": 99,
+                  "source_crop_sha256": "acafc252bbde4065b42d23b71131a4f4382970a455c65af8b8a0339586f0538a",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/boss-intro-v33/csm02-54/0099.png",
+                    "sha256": "6919767ecd43c817f3661bf5ff5d3ee4bd17501b47113b6005e9e3b975f1d310"
+                  }
+                },
+                {
+                  "index": 100,
+                  "source_crop_sha256": "ead5c9f9a3b286e74c64aa1b221a2b144553d8dc0d1426219f6a02745a53d491",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/boss-intro-v33/csm02-54/0100.png",
+                    "sha256": "ead42bf6d40c81def7206edff56de92caa49b353c578082a4200d002e6ba27a0"
+                  }
+                },
+                {
+                  "index": 101,
+                  "source_crop_sha256": "84807391b773340cbdb1c1300d95d581b0727b38d45d73f35de88865602414c2",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/boss-intro-v33/csm02-54/0101.png",
+                    "sha256": "0e14271c46e0ff223dd6519f7071205b7f8ee7d9dfb62db6d14a83ebf73eaa98"
+                  }
+                },
+                {
+                  "index": 102,
+                  "source_crop_sha256": "6b1d3005a8824ae73b2fa830316538fdf6f5b77256301670a07bb204ee917233",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/boss-intro-v33/csm02-54/0102.png",
+                    "sha256": "1c3f88de669a94575d2110bf1316ca0426cfcc4791274271aab36c50d87de7bb"
+                  }
+                },
+                {
+                  "index": 103,
+                  "source_crop_sha256": "bd555cc1d2fc1cbe49abcc8a4db073886adde0430be1d5e4192b56940b8349fa",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/boss-intro-v33/csm02-54/0103.png",
+                    "sha256": "0c6e42b6ddec6bec5c8fe282d6fdd105b423ef77c6b06dff54f1904fee7848e8"
+                  }
+                },
+                {
+                  "index": 104,
+                  "source_crop_sha256": "828ecdf04a62c0295916daaa787e0ee0f75a9482046d88efa18031f22f831e08",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/boss-intro-v33/csm02-54/0104.png",
+                    "sha256": "f2ff5698f4dcfa7e681a715ddbcdf41fdd0c5c4b327fc940ac0e49ddd0b80873"
+                  }
+                },
+                {
+                  "index": 105,
+                  "source_crop_sha256": "f828a0f195e02fa1e4659558bdc9dcec199d61eb08196569549705ad24548753",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/boss-intro-v33/csm02-54/0105.png",
+                    "sha256": "66fdb4e8e452e5e12e94f01a2d290504c36f39f0a80317d4a44418a25ae52976"
+                  }
+                },
+                {
+                  "index": 106,
+                  "source_crop_sha256": "9948c19c7be35d53ace0072793a17d301627603b15852997f64f82ba7ea2fa73",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/boss-intro-v33/csm02-54/0106.png",
+                    "sha256": "96b90d4eba0a90b8dd00f580ec2078c3357bda99e11fd098a17198b19a09cba5"
+                  }
+                },
+                {
+                  "index": 107,
+                  "source_crop_sha256": "3999746998afe2d0146c31f1b5428d5773b0c81df1776f936fe2ef57435834d5",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/boss-intro-v33/csm02-54/0107.png",
+                    "sha256": "bb08bb67cd589fde1ed2c002390c389b9723a6488a3ed7dfe3be885e094552f6"
+                  }
+                },
+                {
+                  "index": 108,
+                  "source_crop_sha256": "02fc67a8f4a83f6bd793319b3be20cfa6d35a490b44ac4f98881e5bc92413c0d",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/boss-intro-v33/csm02-54/0108.png",
+                    "sha256": "cd1f57d29b862ea0aec9ea7c8fe4ee6550d034cf5b205adee1a80819c823f175"
+                  }
+                },
+                {
+                  "index": 109,
+                  "source_crop_sha256": "a624d6f7fda0f196b2fa38b6b24a34a975f672e5f214f170b582cd45e0d7405c",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/boss-intro-v33/csm02-54/0109.png",
+                    "sha256": "12343fcf47aedd32660f0ade2a41465e85db314bcd12e2793b3825df662ac667"
+                  }
+                },
+                {
+                  "index": 110,
+                  "source_crop_sha256": "fe8a1c7d45d0c7a8cf35f1815ca1517e9536b1181095c928194a47a52ab9ff02",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/boss-intro-v33/csm02-54/0110.png",
+                    "sha256": "69a41246a7c6b7c8a640cefda558dbb9f7ddf08c7b88698412bf57cc9a8f78a6"
+                  }
+                },
+                {
+                  "index": 111,
+                  "source_crop_sha256": "7aac9e6bc2eea2d7a0edf8b0e7a4cf44b81f42443631070cdf1e33bb34c62536",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/boss-intro-v33/csm02-54/0111.png",
+                    "sha256": "9d1f6e3c270ccbed59a58b545ea260df3fb4e5bffcd5ad2247894744fd223ebd"
+                  }
+                },
+                {
+                  "index": 112,
+                  "source_crop_sha256": "88d95b9e7d02d9855413b4f3d683d6ab0895ea3f62f650e10ac5c26c462d6274",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/boss-intro-v33/csm02-54/0112.png",
+                    "sha256": "4a1955eb8577d141c189936ae5beb964705f3206a3aedbc471b6ca24dcf52473"
+                  }
+                },
+                {
+                  "index": 113,
+                  "source_crop_sha256": "2b0123e4d85f1bee909f10e84638b7796bd68e8cd81b5ac504d6b69548bfe37b",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/boss-intro-v33/csm02-54/0113.png",
+                    "sha256": "c58ac8a987f027f8329537cf0c871cfe1e636eccead2b082aea267503db04d99"
+                  }
+                },
+                {
+                  "index": 114,
+                  "source_crop_sha256": "82e0c97742fa1e904516bcda10798bdaf0e1511e127250aabf8e79d2c8a204f3",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/boss-intro-v33/csm02-54/0114.png",
+                    "sha256": "8052ae24b89ffe2851aad30ee0387445fcd2a9a98236403059bf943b2a43bea0"
+                  }
+                },
+                {
+                  "index": 115,
+                  "source_crop_sha256": "c5a46a70afc403b651cba2bdc00e05276fe952bec13635e9d9f329ee856486ae",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/boss-intro-v33/csm02-54/0115.png",
+                    "sha256": "1892cef4b1f13b76ad1cc214b299aad58debd27f108ad76f470cec02fd2c5aa5"
+                  }
+                },
+                {
+                  "index": 116,
+                  "source_crop_sha256": "fa422aeeb725d5697536f8776f4dcc73b5cb7ef3f3bda7b49d60c87c9930aee7",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/boss-intro-v33/csm02-54/0116.png",
+                    "sha256": "42b1a2dfdc4ac98f5ff3c6a0501cd43282a8e2634b5a30551e3558f38f596d44"
+                  }
+                },
+                {
+                  "index": 117,
+                  "source_crop_sha256": "0e6efcddafaf6b1bd9c6cc9ae20ef6a619dd3f8363ce7d1aa5a538bc74d72eb9",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/boss-intro-v33/csm02-54/0117.png",
+                    "sha256": "cd0030ac1490d252fa8e1cc04e2736adb2d955ba30b0692d618a1aa25cd183aa"
+                  }
+                },
+                {
+                  "index": 118,
+                  "source_crop_sha256": "bf14a8fafb4c6bfcf981ecfa63c66630c2571b72023e0a57ab99d396fc04cae9",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/boss-intro-v33/csm02-54/0118.png",
+                    "sha256": "bcc3a16b9dc908729a74667587f50f94ab51a45f4765063bf897f2e9545cd66f"
+                  }
+                },
+                {
+                  "index": 119,
+                  "source_crop_sha256": "36ed01a9e6a7d69e83457b50be6c1dcaff77a2f6f0c06b893aa2ee91de5822d8",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/boss-intro-v33/csm02-54/0119.png",
+                    "sha256": "c9056e10b8c8d604094bcded8efe24697d492be00a83933c9848a4b3f527d72a"
+                  }
+                },
+                {
+                  "index": 120,
+                  "source_crop_sha256": "954bbac7d22a652e6f7dd978dd38a72b08e60c2c071f478ce69385f3b307333f",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/boss-intro-v33/csm02-54/0120.png",
+                    "sha256": "baa79d0b027114140e9cbeab945e6f75bd4576a723952e9117202beb90a1c07d"
+                  }
+                },
+                {
+                  "index": 121,
+                  "source_crop_sha256": "f4f4331045556bbb922d5eac6c23c6a7f133ab5958c60ac1a44e7f19d9311871",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/boss-intro-v33/csm02-54/0121.png",
+                    "sha256": "747ded21eb1588f42fc2e5a467e761d947aac290e4749f929545559b29cb54c4"
+                  }
+                },
+                {
+                  "index": 122,
+                  "source_crop_sha256": "48e68613cd23fa5f315f7b948f9012536f2f7266c868bc01195b7e9fa3659517",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/boss-intro-v33/csm02-54/0122.png",
+                    "sha256": "87145dd35aa04634b2dfe605509ba32d4488659faf2a68b1b4fc7dbb3319b866"
+                  }
+                },
+                {
+                  "index": 123,
+                  "source_crop_sha256": "35ed690869e3c9b9bc902e561a20db6a2113bc5d888a9952b695a72e1ae7409f",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/boss-intro-v33/csm02-54/0123.png",
+                    "sha256": "1bea501e69880803fc04efe8a9b1ee6763206b883ccc0db332fc894bdc4104fa"
+                  }
+                },
+                {
+                  "index": 124,
+                  "source_crop_sha256": "220ffce83ccc36a23a34f502cc5179fe997ba372bef49f1d2c8570f7237a2f99",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/boss-intro-v33/csm02-54/0124.png",
+                    "sha256": "9e668bb0517ca11bd85cb84b1c0b80344f35771a39fe30f8ba8b7763b8490da9"
+                  }
+                },
+                {
+                  "index": 125,
+                  "source_crop_sha256": "6833d96eef13c63ab1f1398b14b4b0b2f45bd074e381628bf29167a43f88e5cd",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/boss-intro-v33/csm02-54/0125.png",
+                    "sha256": "67b1e4253e2abee84c248c023c884bfb1fe65be236311733678110ed4237239d"
+                  }
+                },
+                {
+                  "index": 126,
+                  "source_crop_sha256": "a16f5cb76b45cc95f4c0651f74a6d8f2580baa82b822530dbd72521e1086864b",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/boss-intro-v33/csm02-54/0126.png",
+                    "sha256": "3b9b4e9a50791949ffd20086ea334445eeb24e9669157061d029838bfa7d7377"
+                  }
+                },
+                {
+                  "index": 127,
+                  "source_crop_sha256": "4a566a992b88c7759ab173938e91346d34016dc0bb5eb89e8b4327593a6b316e",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/boss-intro-v33/csm02-54/0127.png",
+                    "sha256": "e71cb59355c5a1a664369d7b596dd833417b8be8e53eca78b786ae43efc2641b"
+                  }
+                },
+                {
+                  "index": 128,
+                  "source_crop_sha256": "53f3ec6893887f512dbb956886373acf53b7889603ad7532a0777a86bb10be15",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/boss-intro-v33/csm02-54/0128.png",
+                    "sha256": "8e81c8f9005efadadeb95237ad7908002f1e6ef5a93fc55fd8e852fae226dca8"
+                  }
+                },
+                {
+                  "index": 129,
+                  "source_crop_sha256": "d691d7c3eb51c96c788ed3718dc0b533d7e640e6b9315a8ef3d86a05eef66498",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/boss-intro-v33/csm02-54/0129.png",
+                    "sha256": "2ec0cd0f10ced31768d4fda40dbbeb776b8258edf74a84a16d1d4966b095c0e2"
+                  }
+                },
+                {
+                  "index": 130,
+                  "source_crop_sha256": "f2a5f32bf81c5a2633b4d8bd1292c0f09ac6ea6274462f6233f5871057d71271",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/boss-intro-v33/csm02-54/0130.png",
+                    "sha256": "1a3ceefe30d5c80e1d0808151f0141836b3aa624dffe6a3867d5e32353226a9e"
+                  }
+                },
+                {
+                  "index": 131,
+                  "source_crop_sha256": "ced0cd0cce1bec872df4574185c5e5ebe81742885240e7a71f25dc038c82ef55",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/boss-intro-v33/csm02-54/0131.png",
+                    "sha256": "66e0b88b3ff4f4c2e482916c90c7b52cc985d8419ad2c12d78282d58b9ec35d8"
+                  }
+                },
+                {
+                  "index": 132,
+                  "source_crop_sha256": "65fdcab354acaabf0bcec7f890575de762c54887c0f9a87ece1eb4498a35e068",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/boss-intro-v33/csm02-54/0132.png",
+                    "sha256": "3c2a3cdbc00732d3910c53e02bf41869b9be7bde525ef5b281f3bbe9474fa758"
+                  }
+                },
+                {
+                  "index": 133,
+                  "source_crop_sha256": "659f0f334f6381a9adc3c2ec15c6977f16f5d66cf8fa7551bb48a1f12fe2bc4c",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/boss-intro-v33/csm02-54/0133.png",
+                    "sha256": "9443850ee86e7eb5cd8b72ecc8729c6ef9d99437b7c5570e39902dfcc792b387"
+                  }
+                },
+                {
+                  "index": 134,
+                  "source_crop_sha256": "bd160b3159ca249f71ecdfefb1d7798fdcb7b18c9918f65774510edc3fce1657",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/boss-intro-v33/csm02-54/0134.png",
+                    "sha256": "4161f0389325d65f6f3665a0f82215811f6b01cd30c5665cc89a1ea56ac1863c"
+                  }
+                },
+                {
+                  "index": 135,
+                  "source_crop_sha256": "595e99a9fa53636cd5be5f4a4afd93c4137bfe30c1823e12af76575a2c7a1724",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/boss-intro-v33/csm02-54/0135.png",
+                    "sha256": "bce12bd85b1fcc82d179cb14e0311d202e70fc86aafecc310fcc2ab052ca679a"
+                  }
+                },
+                {
+                  "index": 136,
+                  "source_crop_sha256": "d5f98a5ecab593e01a124208b8fdeb398896438f19fd4765837340c9494049be",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/boss-intro-v33/csm02-54/0136.png",
+                    "sha256": "770f0872e2a8a3c592ac54347ec9dd6103b4fecbbda3fcd19601f39197d642a0"
+                  }
+                },
+                {
+                  "index": 137,
+                  "source_crop_sha256": "9842f49318392f17ab1a377d0183572f0b45329cdf49c72dc9a8f40ea88f1bbd",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/boss-intro-v33/csm02-54/0137.png",
+                    "sha256": "53e7976924c2f07fe96520920142ffd5f18d2d053c619f685ac9af7f74200ded"
+                  }
+                },
+                {
+                  "index": 138,
+                  "source_crop_sha256": "5a0d708f1c5ca2fe52174b700bdd043b069bcb5f6ff5b761eabca8169381974a",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/boss-intro-v33/csm02-54/0138.png",
+                    "sha256": "3779d8480fee2a27e41bab79d6f287c4b2f557c8ba22b8ca6fefe5b2f0e27d1c"
+                  }
+                },
+                {
+                  "index": 139,
+                  "source_crop_sha256": "d175a19725ed634be4bd97cbf24335b09652739abf4ec0f5b40e268a0abc20f4",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/boss-intro-v33/csm02-54/0139.png",
+                    "sha256": "5dbbedf004ca432290bfb265b47b77aad2219c3969912b544d0797014eee89f7"
+                  }
+                },
+                {
+                  "index": 140,
+                  "source_crop_sha256": "ff88d986fb82ff927731e5a35023c9670df1281f49a2fa9da6919854bf9e9f76",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/boss-intro-v33/csm02-54/0140.png",
+                    "sha256": "7c0d34e58a7e4b5f5aff6d3392a598164dcea7856578b616deab49f8341f7369"
+                  }
+                },
+                {
+                  "index": 141,
+                  "source_crop_sha256": "5cde565e7f8a4dc3d86d276985e62843c4c01f8a7817fa862377d9e412b50b7a",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/boss-intro-v33/csm02-54/0141.png",
+                    "sha256": "06f8bb57c03613fc64156177d5098bc9177d4e15d1b9bc0a162db9cba727d03f"
+                  }
+                },
+                {
+                  "index": 142,
+                  "source_crop_sha256": "c2463660504139179699032993b70c94d7696c0cdd3084f464e6413452ad5342",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/boss-intro-v33/csm02-54/0142.png",
+                    "sha256": "78f6b3488e541c359ba632165436beb00afa56cf2c591ffb530bb43d52129465"
+                  }
+                },
+                {
+                  "index": 143,
+                  "source_crop_sha256": "f6d2ed29b4c16cac6b7a4dd97f622652b8c2372726424d66415cf47e69425cea",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/boss-intro-v33/csm02-54/0143.png",
+                    "sha256": "8442a576262d12479268aa39c751f29bc785482096b6746122dc7cbcc827530c"
+                  }
+                },
+                {
+                  "index": 144,
+                  "source_crop_sha256": "3507b8fa1461905b1eafc31e6ffe148c34f2bb0174072bfe34be3790b1eaba13",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/boss-intro-v33/csm02-54/0144.png",
+                    "sha256": "f78cb05414c7c71eaab1f4bbdd9f54009c8003823a5e05cc75ce53638976dfd2"
+                  }
+                },
+                {
+                  "index": 145,
+                  "source_crop_sha256": "284c23ff2e27425e9b2bc0f99f2c453ac781743422469dca886fb788ed1a3d91",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/boss-intro-v33/csm02-54/0145.png",
+                    "sha256": "6060d5205b80656dbcc481c1220f6250287820e88b3046c9f715df9f6322516d"
+                  }
+                },
+                {
+                  "index": 146,
+                  "source_crop_sha256": "7da3cdbf1a17faf3d073a395f97d8389a1659470bdd73d0c882c6b3a01d5d40c",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/boss-intro-v33/csm02-54/0146.png",
+                    "sha256": "970a6307824214cd14a5ed5b6c92af95bef65dde61b291be1ea6d867e69ec585"
+                  }
+                },
+                {
+                  "index": 147,
+                  "source_crop_sha256": "b7f25a9fc3aade167bd5299d727ee3d0de399196a43caac1eff4969b16ad2606",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/boss-intro-v33/csm02-54/0147.png",
+                    "sha256": "6dcc5a3e29c9203dad479b4c886f56821d861f4ce538266e555255cc5ecaa7ec"
+                  }
+                },
+                {
+                  "index": 148,
+                  "source_crop_sha256": "6f235c14ec9238450971d750943a4dc0dd724189b48653e52e48f24394965a3c",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/boss-intro-v33/csm02-54/0148.png",
+                    "sha256": "bc0c18012094d051a0352627e30fe4bb9eb88d38f693420f63fccb13c4f556a9"
+                  }
+                },
+                {
+                  "index": 149,
+                  "source_crop_sha256": "216a50c5784c5f3376e153c166f93c845ace45469b22518ff2c88bf157544c98",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/boss-intro-v33/csm02-54/0149.png",
+                    "sha256": "9896c298f32341272559ce3872d85153ce59f03c443ce618d8a468f80f59f738"
+                  }
+                },
+                {
+                  "index": 150,
+                  "source_crop_sha256": "e9f128ec808715f4a93086e25d5b96d143d2857ea0568a204ec30f41b2b0ab0d",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/boss-intro-v33/csm02-54/0150.png",
+                    "sha256": "385c16342aeabce6a5245f5005e4cf69b966bcede587fa0562a9b9ee6eed867d"
+                  }
+                },
+                {
+                  "index": 151,
+                  "source_crop_sha256": "fc1a866b5aca728ac1cda1b5e899d3c2cb5fe42571cbccd978e64390c2a507f5",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/boss-intro-v33/csm02-54/0151.png",
+                    "sha256": "16c527bc532024f7acfd12ff044cf68b257e52a83bf20e0e9a24de2d497bbb57"
+                  }
+                },
+                {
+                  "index": 152,
+                  "source_crop_sha256": "7e9836e1f0d0dc1dee56989b6178e80279cbd0bea4921cd7f36f7e865674d599",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/boss-intro-v33/csm02-54/0152.png",
+                    "sha256": "a37f04fd9e4a354e94cc03b693fc742bd702c6929c1df871f86081038bac973c"
+                  }
+                },
+                {
+                  "index": 153,
+                  "source_crop_sha256": "ee0ab5f88e70d25121506fd13d4a68a32154e2e877220502b961eb4e80f964b2",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/boss-intro-v33/csm02-54/0153.png",
+                    "sha256": "6f948783d2a1a54241d3ec95220ea97ff9402255ca007a650329f8650147ed39"
+                  }
+                },
+                {
+                  "index": 154,
+                  "source_crop_sha256": "2bc39068ffb772c4e6983d72f87626010f9950e43df336ad2133afa3241005e9",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/boss-intro-v33/csm02-54/0154.png",
+                    "sha256": "d6165be30cb3e5dcce51b6614053bd2caf56d67cc5c8994f62316db9cd5fbadb"
+                  }
+                },
+                {
+                  "index": 155,
+                  "source_crop_sha256": "71abb960d769a67e37a98c81949910aa27d5813d73abcfdee27b93f9c47870b6",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/boss-intro-v33/csm02-54/0155.png",
+                    "sha256": "0afb1c74a765c74ba408f87399220d96130050dfd8f78861387515e49a8de820"
+                  }
+                },
+                {
+                  "index": 156,
+                  "source_crop_sha256": "1cc7f66d017282f718c98bb009f05b2d1b54f05ffa318d4312a687e7af18e0aa",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/boss-intro-v33/csm02-54/0156.png",
+                    "sha256": "212d1329938f74d3d9a59ab6470e70c7ec1ee1623edc49885096786f56600b52"
+                  }
+                },
+                {
+                  "index": 157,
+                  "source_crop_sha256": "d5ea761f7625433de80350868595a03f389dfde14b3ec8373c6e8d51b46c0fa0",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/boss-intro-v33/csm02-54/0157.png",
+                    "sha256": "b936022447b6e5695b5a1709806b4e0923aed78da2d65319444fc2effdfdb9b8"
+                  }
+                },
+                {
+                  "index": 158,
+                  "source_crop_sha256": "a30891682b88f5dd337590a72443e759278f0275814108da0644d9d5b6606804",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/boss-intro-v33/csm02-54/0158.png",
+                    "sha256": "99f77874fb17ab63ce8d227a7c6833f3b2043632b7a3808860620e40e18afa58"
+                  }
+                },
+                {
+                  "index": 159,
+                  "source_crop_sha256": "9d9e40b86781eaf04d8a83d635aca6243826291c702272ea0d1e16ca97717621",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/boss-intro-v33/csm02-54/0159.png",
+                    "sha256": "10032ccc440cdcd087c100e3ec792e8c533dceb515c9981117a5499825fed132"
+                  }
+                },
+                {
+                  "index": 160,
+                  "source_crop_sha256": "6158002f9d737146d11c82348fbbfadc7822a604fbe9816875ab952021358bdc",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/boss-intro-v33/csm02-54/0160.png",
+                    "sha256": "788658d286e5eec00bde0137844cc1756f1ffd99c921a88679ab0e0c211d9ace"
+                  }
+                },
+                {
+                  "index": 161,
+                  "source_crop_sha256": "850c814f20f38e86f23a47c6395de489f688c0a2e9a3ff78f28c9218d19c247c",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/boss-intro-v33/csm02-54/0161.png",
+                    "sha256": "0a5b103928b53a7362bd11fcd0b3390298abbb42982d354fca6432381610a1ec"
+                  }
+                },
+                {
+                  "index": 162,
+                  "source_crop_sha256": "af2d2a2d241127e2fd42ffff887552e0f4bc44d52ad97728909155a2a5e8ed47",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/boss-intro-v33/csm02-54/0162.png",
+                    "sha256": "dafb9782e75d56903660cc77339035c710c81e80fd4f76afae0adf59ed9d3ffb"
+                  }
+                },
+                {
+                  "index": 163,
+                  "source_crop_sha256": "50c4aebc4ae3c9e1de83f7e559ef4f78d5566b73bec4a8a8954896ec6ef3f910",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/boss-intro-v33/csm02-54/0163.png",
+                    "sha256": "c431b3d605c0160df93caab017e6eb9a8bd6244ff39d7bc8e470808c52cb4dca"
+                  }
+                },
+                {
+                  "index": 164,
+                  "source_crop_sha256": "fcdfd310b45b8ec3e4164e242dc5face25692c46427a563b4f031ed199d40666",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/boss-intro-v33/csm02-54/0164.png",
+                    "sha256": "b50436bc1d82a6b5cd88266558019b8186341881139bfdbd9fb1f4b52c91dd60"
+                  }
+                },
+                {
+                  "index": 165,
+                  "source_crop_sha256": "76eb0979580fc7279887d32e25f2c866cf142adb2bc6cc9dfb0aed04ab315fb1",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/boss-intro-v33/csm02-54/0165.png",
+                    "sha256": "eb5ccee827559b2e3e749c884941ca5f2a212e50395a2aaf104373b4d9e0575a"
+                  }
+                },
+                {
+                  "index": 166,
+                  "source_crop_sha256": "bda6cee8cd4e0ca98a5a21680bee54153c03d66a9795e84dfe9ef35850e8bfff",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/boss-intro-v33/csm02-54/0166.png",
+                    "sha256": "e878e15017bfeb9d8b99d15e6c1d069dc8e46bb0f3dea83ee927a0e3b044e0b8"
+                  }
+                },
+                {
+                  "index": 167,
+                  "source_crop_sha256": "91131290c84da63f1cc3221b13420f659a04e1e747b7de1cc0ae12b8a3f8acb8",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/boss-intro-v33/csm02-54/0167.png",
+                    "sha256": "716fff397ec950dc35193283a0356823619b972504b697ecf4cf1048877c5e69"
+                  }
+                },
+                {
+                  "index": 168,
+                  "source_crop_sha256": "117549cf64a74a7a471f902ccc30573414a6664cfde5690b515b84ab50853e75",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/boss-intro-v33/csm02-54/0168.png",
+                    "sha256": "0ff436ab589fd5746e86a67a9ef0b221b99eef85f22074d35433a36a4c2402a0"
+                  }
+                },
+                {
+                  "index": 169,
+                  "source_crop_sha256": "074ebb373134a8166e8d93ef3c276b9ff19f1669378840e6c5e65568774d22f5",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/boss-intro-v33/csm02-54/0169.png",
+                    "sha256": "9ba3147757b22dc25240d5b97183ce9e4039c4bba04742111f088311d3570ec1"
+                  }
+                },
+                {
+                  "index": 170,
+                  "source_crop_sha256": "463dd93ce5c3503376508a5cc06255aea57c3179bb8a52053246b69055161382",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/boss-intro-v33/csm02-54/0170.png",
+                    "sha256": "2ca1bcfee21df1afc917d9570917fd0852c309dc2f4e17280bb8a482b3858803"
+                  }
+                },
+                {
+                  "index": 171,
+                  "source_crop_sha256": "432b608c3ef8054f05386756cafe6dc90f358f233c16c669d6af3e12241b01dd",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/boss-intro-v33/csm02-54/0171.png",
+                    "sha256": "d1cb444b1d3bf022e18c8d8d4f22bde9087a860a5a7fcbbf5a46b39b0712bc91"
+                  }
+                },
+                {
+                  "index": 172,
+                  "source_crop_sha256": "c028f23ae3906c88e1a6990c068032eb10178defe79a856250c956e4ae82d71a",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/boss-intro-v33/csm02-54/0172.png",
+                    "sha256": "2722aa0d3b0d6c80e4da072afe506cb8db71528e81b8932b5fd8cb5af4c26063"
+                  }
+                }
+              ]
+            }
+          }
+        }
+      ],
+      "review_frames": [
+        38,
+        39,
+        59,
+        82,
+        151,
+        171,
+        172,
+        173
+      ]
+    }
+  ]
+}

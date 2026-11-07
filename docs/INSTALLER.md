@@ -6,8 +6,8 @@ Windows 10/11 x64 离线单文件图形安装器，Flutter Material Design 3。
 直接运行 `MC2-CN-v1.0.exe`；无需另装 Python、Flutter、VC++ 或 ZArchive，也不请求管理员权限。
 运行时临时展开内置组件，正常关闭后清理；详细构建、自检和 UI 契约见
 [v1.0 发布整理](PHASE_335_RELEASE_POLISH.md)。旧版便携目录仍可作为开发构建输出，不再作为玩家交付入口。
-当前单文件已收录至阶段354–355的任务通知、存档点裁切和任务完成标题居中修正，
-见[阶段356安装器刷新](PHASE_356_INSTALLER_REFRESH.md)。同名v1.0旧文件不代表内容相同，
+当前单文件接续阶段354–355，并收录14张装备立绘返工和11段Boss／恸哭之门特写电影重制，
+见[阶段363时序标题](PHASE_363_TEMPORAL_TITLES.md)。同名v1.0旧文件不代表内容相同，
 以实际EXE摘要和内置资源审计为准；重新运行新包并选择新的输出目录，旧ZAR/XEX输出不会自动更新。
 外层启动器与内置界面的文件/产品显示版本均为 `v1.0`；PE 数字版本为 `1.0.0.0`，不再附加构建号1。
 只包含差异补丁和工具，不包含完整原盘、XEX 或 DLC。
@@ -55,13 +55,13 @@ STFS 哈希树、Title ID、Content Type、大小和输出摘要均检查；保�
 ## 构建数据流
 
 1. 由原盘与版本化译文/配置构建 comparison packets。当前 Disc1 接续
-   [阶段355](PHASE_355_SAVE_REWARD_LAYOUT.md)的 packet，包含此前累计修复；
+   阶段363的 packet，包含此前累计修复；
    DLC 接续阶段331；Disc2 按当前 `references/installer-inputs.lock.json` 中的
    v6 packet、哈希绑定 resource journal 和独有资源更新重新组装。
    当前标点/图像控件合同为v27/v28；中间资源不进入公开源码库。
 2. `tools.prepare_installer_sources` 验证所有来源清单和资源摘要，重放 Disc2 journal，
    仅在**原始路径及摘要相同**时采用最新 Disc1 共享资源。每盘独立更新 TOC；
-   改动 `.xxx` 经过阶段332 raw runtime-envelope 门禁。本次覆盖442/543项。
+   改动 `.xxx` 经过阶段332 raw runtime-envelope 门禁，`.bik` 独立核对结构。本次覆盖462/560项。
 3. `tools.build_installer_bundle` 读取完整原盘、变换源、产生 MCD1 差异，逐份独立
    应用核验；相同差异按摘要去重，完整清单列出两盘全部成员。
 4. `tools.package_installer` 编译 Flutter、冻结 Python 后端、嵌入可信清单 SHA256、
@@ -99,7 +99,7 @@ python -m tools.audit_installer_release --installer build/release/MC2-CN-v1.0.ex
 ```
 
 构建输出和报告必须使用新路径；先保存已有安装器摘要与独立副本，核验后再替换玩家入口。
-审计读取实际 EXE 的内置清单、全部717项 payload、双盘覆盖项、DLC与两层 PE 版本，
+审计读取实际 EXE 的内置清单、全部 payload、双盘覆盖项、DLC与两层 PE 版本，
 不以文件名相同或界面仍显示 v1.0 代替最新资源验证。完整安装/游戏验收仍单独记录。
 
 Recipe 顶层包括 version/title_id/output_name/usage、tools、discs、dlc。

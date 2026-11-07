@@ -17,11 +17,13 @@ def sha(data):
     return hashlib.sha256(data).hexdigest()
 
 
-def bink_header(data):
+def bink_header(data, *, maximum_frames=600):
+    if type(maximum_frames) is not int or not 1 <= maximum_frames <= 6144:
+        raise ValueError('Explicit Bink frame limit must be within 1..6144')
     if len(data) < 48 or data[:4] != b'BIKi':
         raise ValueError('Expected supported Bink 1 revision i')
     size, frames, largest, repeated, width, height, numerator, denominator, flags, audio = struct.unpack_from('<10I', data, 4)
-    if size+8 != len(data) or frames != repeated or not 1 <= frames <= 600:
+    if size+8 != len(data) or frames != repeated or not 1 <= frames <= maximum_frames:
         raise ValueError('Invalid Bink size/frame fields')
     if not 1 <= width <= 1920 or not 1 <= height <= 1080 or not numerator or not denominator or audio or flags:
         raise ValueError('Only bounded silent non-alpha Bink clips are supported')
@@ -36,15 +38,15 @@ def bink_header(data):
                 denominator=denominator,magic='BIKi',audio_tracks=audio)
 
 
-def preserve_timing(source, encoded):
-    old = bink_header(source); new = bink_header(encoded)
+def preserve_timing(source, encoded, *, maximum_frames=600):
+    old = bink_header(source,maximum_frames=maximum_frames); new = bink_header(encoded,maximum_frames=maximum_frames)
     for key in ('width','height','frames','magic','audio_tracks'):
         if old[key] != new[key]: raise ValueError('Encoded clip changed '+key)
     a = old['numerator']/old['denominator']; b = new['numerator']/new['denominator']
     if abs(a-b)/a > .0001: raise ValueError('Encoder changed frame rate')
     out = bytearray(encoded)
     struct.pack_into('<II', out, 28, old['numerator'], old['denominator'])
-    if bink_header(out) != old: raise ValueError('Timing restoration failed')
+    if bink_header(out,maximum_frames=maximum_frames) != old: raise ValueError('Timing restoration failed')
     return bytes(out)
 
 

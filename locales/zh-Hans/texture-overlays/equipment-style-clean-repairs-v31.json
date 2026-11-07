@@ -1,0 +1,600 @@
+{
+  "schema_version": 1,
+  "kind": "texture-cleanplate-repair-v1",
+  "method": "premultiplied-harmonic-boundary-v1",
+  "hidden_artwork": "reconstruction-not-original",
+  "rasterizer_versions": {
+    "Pillow": "12.2.0",
+    "numpy": "2.5.1"
+  },
+  "cases": [
+    {
+      "id": "style_argo_main_lettering",
+      "source": {
+        "path": "build/poc-game/disc1/MC2Game/CookedXenon/MC2Game.xxx",
+        "sha256": "13f92622e2ae2920f6ce6dfc7b0edbbcbec7e83adeacbd56fed84a021739a641"
+      },
+      "object": "Style_Argo_Main.Style_Argo_Main",
+      "profile": {
+        "kind": "xbox-inline-bc-v1",
+        "format": 7
+      },
+      "dimensions": [
+        512,
+        512
+      ],
+      "tiled_sha256": "545258fca7ec932a350f829b61002b5ddc0bd01eefc5652c3b451e95df802d7a",
+      "rect": [
+        108,
+        308,
+        224,
+        68
+      ],
+      "source_rgba_sha256": "f965b0de6490d93fada5dad1b96da6e9bfea3b2df51a3ac72373498c9e7d5a0d",
+      "mask": {
+        "path": "locales/zh-Hans/texture-overlays/restorations/equipment-style-clean-v31/Style_Argo_Main-mask.png",
+        "sha256": "5c1dfb5e651c0735388a3cfc6f875ebfc81fa312e104445d7aa9e652b37b002d"
+      },
+      "plate": {
+        "path": "build/phase-360-equipment-cleanplates/Style_Argo_Main-cleanplate.png",
+        "sha256": "5413df8ea2ef50be2d8716006faaf6ca6a32bb35427d8ffac79284cc6bffabf7"
+      },
+      "plate_size": [
+        1254,
+        1254
+      ],
+      "iterations": 1000,
+      "alpha_mode": "interpolate-source-alpha-v1",
+      "patch": {
+        "path": "locales/zh-Hans/texture-overlays/restorations/equipment-style-clean-v31/Style_Argo_Main-patch.png",
+        "sha256": "c726e006831f81c9ff5dde68eed9fa6dae733cbbffe6f9c043ec272dfd768ff9"
+      }
+    },
+    {
+      "id": "style_argo_sub_lettering",
+      "source": {
+        "path": "build/poc-game/disc1/MC2Game/CookedXenon/MC2Game.xxx",
+        "sha256": "13f92622e2ae2920f6ce6dfc7b0edbbcbec7e83adeacbd56fed84a021739a641"
+      },
+      "object": "Style_Argo_Sub.Style_Argo_Sub",
+      "profile": {
+        "kind": "xbox-inline-bc-v1",
+        "format": 7
+      },
+      "dimensions": [
+        512,
+        512
+      ],
+      "tiled_sha256": "12bb1d98d16a39ee9922db4762962cafbf074840c5b2862ec89d92e2882e8261",
+      "rect": [
+        108,
+        308,
+        168,
+        68
+      ],
+      "source_rgba_sha256": "0abbaed2c9a1ded224d5afdf0e3ea1ed67aa10c8c7281654aad422888959c5ce",
+      "mask": {
+        "path": "locales/zh-Hans/texture-overlays/restorations/equipment-style-clean-v31/Style_Argo_Sub-mask.png",
+        "sha256": "ce849de339f6eda7cc9dc99c3f4a96e2dfd76cc1186fee3127d39de895e7e349"
+      },
+      "plate": {
+        "path": "build/phase-360-equipment-cleanplates/Style_Argo_Sub-cleanplate.png",
+        "sha256": "2d8b7166b4b3743aec2de1102c3c3edf92192948d0f254ffd0909b336cc49435"
+      },
+      "plate_size": [
+        1254,
+        1254
+      ],
+      "iterations": 1000,
+      "alpha_mode": "interpolate-source-alpha-v1",
+      "patch": {
+        "path": "locales/zh-Hans/texture-overlays/restorations/equipment-style-clean-v31/Style_Argo_Sub-patch.png",
+        "sha256": "e7e1dad141b149bdfc54249c57a9c63a70d4a208efc9e5abd892776abac3383e"
+      }
+    },
+    {
+      "id": "style_crocell_main_lettering",
+      "source": {
+        "path": "build/poc-game/disc1/MC2Game/CookedXenon/MC2Game.xxx",
+        "sha256": "13f92622e2ae2920f6ce6dfc7b0edbbcbec7e83adeacbd56fed84a021739a641"
+      },
+      "object": "Style_Crocell_Main.Style_Crocell_Main",
+      "profile": {
+        "kind": "xbox-inline-bc-v1",
+        "format": 7
+      },
+      "dimensions": [
+        512,
+        512
+      ],
+      "tiled_sha256": "35dfe4d62e64b35cc90c4cbff7b2c25efb304f2d65464e9484332fbb9bca3342",
+      "rect": [
+        80,
+        308,
+        220,
+        68
+      ],
+      "source_rgba_sha256": "41ac58727414e535e94526fce0e1fe3e9ac32f543dfc3e933da78046d00cc24b",
+      "mask": {
+        "path": "locales/zh-Hans/texture-overlays/restorations/equipment-style-clean-v31/Style_Crocell_Main-mask.png",
+        "sha256": "7f00cbe9b837081c83272969bb03012d5507d4900809ac08b2af59d0e0344ed2"
+      },
+      "plate": {
+        "path": "build/phase-360-equipment-cleanplates/Style_Crocell_Main-cleanplate.png",
+        "sha256": "85460208b27a915910392ebe79ab3c057c4630fd742b82c25940025a830cdec7"
+      },
+      "plate_size": [
+        1254,
+        1254
+      ],
+      "iterations": 1000,
+      "alpha_mode": "interpolate-source-alpha-v1",
+      "patch": {
+        "path": "locales/zh-Hans/texture-overlays/restorations/equipment-style-clean-v31/Style_Crocell_Main-patch.png",
+        "sha256": "ff146580f506b0e4344627f50e6a298beb54eaa10db07ce97b225f2a05f59ef8"
+      }
+    },
+    {
+      "id": "style_crocell_sub_lettering",
+      "source": {
+        "path": "build/poc-game/disc1/MC2Game/CookedXenon/MC2Game.xxx",
+        "sha256": "13f92622e2ae2920f6ce6dfc7b0edbbcbec7e83adeacbd56fed84a021739a641"
+      },
+      "object": "Style_Crocell_Sub.Style_Crocell_Sub",
+      "profile": {
+        "kind": "xbox-inline-bc-v1",
+        "format": 7
+      },
+      "dimensions": [
+        512,
+        512
+      ],
+      "tiled_sha256": "4ea58617b4d9562ce2eb86c78e3cea2f196a918dfde320cbc76edcc986267def",
+      "rect": [
+        80,
+        308,
+        220,
+        68
+      ],
+      "source_rgba_sha256": "2d623a0869cf8e338dbbb40256b6776fc528ef9f2a0a9470cc643cdc33e90f69",
+      "mask": {
+        "path": "locales/zh-Hans/texture-overlays/restorations/equipment-style-clean-v31/Style_Crocell_Sub-mask.png",
+        "sha256": "d4be1ab346a9fb0768790c69e5618c51c6dba0aa4484dafb917dba92c033bf50"
+      },
+      "plate": {
+        "path": "build/phase-360-equipment-cleanplates/Style_Crocell_Sub-cleanplate.png",
+        "sha256": "db90b90cc1fc3f30ddd86501f82eb0506e580e4ea1f5d11bf43811c48b9b0cda"
+      },
+      "plate_size": [
+        1254,
+        1254
+      ],
+      "iterations": 1000,
+      "alpha_mode": "interpolate-source-alpha-v1",
+      "patch": {
+        "path": "locales/zh-Hans/texture-overlays/restorations/equipment-style-clean-v31/Style_Crocell_Sub-patch.png",
+        "sha256": "a4af323982ea1691c8a65eb23943f9c2625a5777418d623e8bf3193697269481"
+      }
+    },
+    {
+      "id": "style_juto_main_lettering",
+      "source": {
+        "path": "build/poc-game/disc1/MC2Game/CookedXenon/MC2Game.xxx",
+        "sha256": "13f92622e2ae2920f6ce6dfc7b0edbbcbec7e83adeacbd56fed84a021739a641"
+      },
+      "object": "Style_Juto_Main.Style_Juto_Main",
+      "profile": {
+        "kind": "xbox-inline-bc-v1",
+        "format": 7
+      },
+      "dimensions": [
+        512,
+        512
+      ],
+      "tiled_sha256": "00e77a246c1f106dfa5aa5fed70c8b26a58635825d98a9b89f77457c395c3c6e",
+      "rect": [
+        80,
+        304,
+        268,
+        72
+      ],
+      "source_rgba_sha256": "79dc32dec6e5f32ba09c67b62b19b40e2e581a3246d43895cbe1064c988ae056",
+      "mask": {
+        "path": "locales/zh-Hans/texture-overlays/restorations/equipment-style-clean-v31/Style_Juto_Main-mask.png",
+        "sha256": "fea3938dc216b6af8758dd0f965572d10c88786d4c7e2225bd6b7a670429f2fb"
+      },
+      "plate": {
+        "path": "build/phase-360-equipment-cleanplates/Style_Juto_Main-cleanplate.png",
+        "sha256": "27218037a464149c9fbad30cbc257c88ad6a2d27dae827ccc050593627ee77fd"
+      },
+      "plate_size": [
+        1254,
+        1254
+      ],
+      "iterations": 1000,
+      "alpha_mode": "interpolate-source-alpha-v1",
+      "patch": {
+        "path": "locales/zh-Hans/texture-overlays/restorations/equipment-style-clean-v31/Style_Juto_Main-patch.png",
+        "sha256": "4824a9c59a4779c3a6843b2c6339502c071b2783591a5e8e76484a7a189ccb1b"
+      }
+    },
+    {
+      "id": "style_juto_sub_lettering",
+      "source": {
+        "path": "build/poc-game/disc1/MC2Game/CookedXenon/MC2Game.xxx",
+        "sha256": "13f92622e2ae2920f6ce6dfc7b0edbbcbec7e83adeacbd56fed84a021739a641"
+      },
+      "object": "Style_Juto_Sub.Style_Juto_Sub",
+      "profile": {
+        "kind": "xbox-inline-bc-v1",
+        "format": 7
+      },
+      "dimensions": [
+        512,
+        512
+      ],
+      "tiled_sha256": "ac207ac46608df97a4419b291be68b1b4867ff0f7a67331573b706cb8706469c",
+      "rect": [
+        80,
+        304,
+        268,
+        72
+      ],
+      "source_rgba_sha256": "24c7d4a6297f3a2461baef94153d7a14d8911354fa4a4bed05054f0579408cf1",
+      "mask": {
+        "path": "locales/zh-Hans/texture-overlays/restorations/equipment-style-clean-v31/Style_Juto_Sub-mask.png",
+        "sha256": "bd217f84ad5364ea03135343ff9c1998b4fc1beea2452897934a6a497b5e49c3"
+      },
+      "plate": {
+        "path": "build/phase-360-equipment-cleanplates/Style_Juto_Sub-cleanplate.png",
+        "sha256": "bfea99a2b677de6015606452d4d19f8d69598acec5f6fa40993b72676c161b23"
+      },
+      "plate_size": [
+        1254,
+        1254
+      ],
+      "iterations": 1000,
+      "alpha_mode": "interpolate-source-alpha-v1",
+      "patch": {
+        "path": "locales/zh-Hans/texture-overlays/restorations/equipment-style-clean-v31/Style_Juto_Sub-patch.png",
+        "sha256": "71c3424d57032eb8a17aa08080930f6dddcd2a81caa8b0b45c886cc164459388"
+      }
+    },
+    {
+      "id": "style_juto_w_main_lettering",
+      "source": {
+        "path": "build/poc-game/disc1/MC2Game/CookedXenon/MC2Game.xxx",
+        "sha256": "13f92622e2ae2920f6ce6dfc7b0edbbcbec7e83adeacbd56fed84a021739a641"
+      },
+      "object": "Style_Juto_W_Main.Style_Juto_W_Main",
+      "profile": {
+        "kind": "xbox-inline-bc-v1",
+        "format": 7
+      },
+      "dimensions": [
+        512,
+        512
+      ],
+      "tiled_sha256": "cd8ff7a17c8e240d158b477b9d9d1646056ff0faf41df2f7484cf31d7ead654b",
+      "rect": [
+        80,
+        304,
+        268,
+        72
+      ],
+      "source_rgba_sha256": "9f1b0dd38dcd7c5a853860782e45883e10b4928270ee693e3247b5301cea917f",
+      "mask": {
+        "path": "locales/zh-Hans/texture-overlays/restorations/equipment-style-clean-v31/Style_Juto_W_Main-mask.png",
+        "sha256": "fea3938dc216b6af8758dd0f965572d10c88786d4c7e2225bd6b7a670429f2fb"
+      },
+      "plate": {
+        "path": "build/phase-360-equipment-cleanplates/Style_Juto_W_Main-cleanplate.png",
+        "sha256": "806a5e823d1dfedff7653d8b68417db364763500350839380a25332da6932d26"
+      },
+      "plate_size": [
+        1254,
+        1254
+      ],
+      "iterations": 1000,
+      "alpha_mode": "interpolate-source-alpha-v1",
+      "patch": {
+        "path": "locales/zh-Hans/texture-overlays/restorations/equipment-style-clean-v31/Style_Juto_W_Main-patch.png",
+        "sha256": "5d7fd5ec15686eb6fe5d580a9600de76cbf35b394235f918a3ce2984ac2ab161"
+      }
+    },
+    {
+      "id": "style_juto_w_sub_lettering",
+      "source": {
+        "path": "build/poc-game/disc1/MC2Game/CookedXenon/MC2Game.xxx",
+        "sha256": "13f92622e2ae2920f6ce6dfc7b0edbbcbec7e83adeacbd56fed84a021739a641"
+      },
+      "object": "Style_Juto_W_Sub.Style_Juto_W_Sub",
+      "profile": {
+        "kind": "xbox-inline-bc-v1",
+        "format": 7
+      },
+      "dimensions": [
+        512,
+        512
+      ],
+      "tiled_sha256": "d6b2d6952665b9b4750c260285f89fee842d4cdad461a49bab8221f24df8cf02",
+      "rect": [
+        80,
+        304,
+        268,
+        72
+      ],
+      "source_rgba_sha256": "66924f1680b34a23da92ba78ea46ce60aa45225e29d23f9ce830b52247e5ba83",
+      "mask": {
+        "path": "locales/zh-Hans/texture-overlays/restorations/equipment-style-clean-v31/Style_Juto_W_Sub-mask.png",
+        "sha256": "bd217f84ad5364ea03135343ff9c1998b4fc1beea2452897934a6a497b5e49c3"
+      },
+      "plate": {
+        "path": "build/phase-360-equipment-cleanplates/Style_Juto_W_Sub-cleanplate.png",
+        "sha256": "2937a08dab9fc3a1b83455d61cbf34ebc15db3daf02c3cba435bf3049b9623da"
+      },
+      "plate_size": [
+        1254,
+        1254
+      ],
+      "iterations": 1000,
+      "alpha_mode": "interpolate-source-alpha-v1",
+      "patch": {
+        "path": "locales/zh-Hans/texture-overlays/restorations/equipment-style-clean-v31/Style_Juto_W_Sub-patch.png",
+        "sha256": "da177b48e0052fe747af2ff5654067d5fa55c06aea586852e95de9f342a3c84d"
+      }
+    },
+    {
+      "id": "style_ru_main_lettering",
+      "source": {
+        "path": "build/poc-game/disc1/MC2Game/CookedXenon/MC2Game.xxx",
+        "sha256": "13f92622e2ae2920f6ce6dfc7b0edbbcbec7e83adeacbd56fed84a021739a641"
+      },
+      "object": "Style_Ru_Main.Style_Ru_Main",
+      "profile": {
+        "kind": "xbox-inline-bc-v1",
+        "format": 7
+      },
+      "dimensions": [
+        512,
+        512
+      ],
+      "tiled_sha256": "7b551bb363a9b1970b1e1ef2fa037b23dccb963e499a2e0d58d6ec4767b70322",
+      "rect": [
+        124,
+        308,
+        188,
+        68
+      ],
+      "source_rgba_sha256": "aa3e7f507ae2d7fe3bca71fcf99119c11720dc9e5d003910bbf1b3f009a9e821",
+      "mask": {
+        "path": "locales/zh-Hans/texture-overlays/restorations/equipment-style-clean-v31/Style_Ru_Main-mask.png",
+        "sha256": "be0cb0972c281aae6feb83ff80ae2a26063969bfe6de8af19c17a4401b1f3c60"
+      },
+      "plate": {
+        "path": "build/phase-360-equipment-cleanplates/Style_Ru_Main-cleanplate.png",
+        "sha256": "e153702951c634c05471b5fdab2c620cab536a5101b0e98c95e6c2f1a4f46231"
+      },
+      "plate_size": [
+        1254,
+        1254
+      ],
+      "iterations": 1000,
+      "alpha_mode": "interpolate-source-alpha-v1",
+      "patch": {
+        "path": "locales/zh-Hans/texture-overlays/restorations/equipment-style-clean-v31/Style_Ru_Main-patch.png",
+        "sha256": "112b1999a01c1aea17d32c9625108fce105439fab279914abaff24a3fdba75b3"
+      }
+    },
+    {
+      "id": "style_ru_sub_lettering",
+      "source": {
+        "path": "build/poc-game/disc1/MC2Game/CookedXenon/MC2Game.xxx",
+        "sha256": "13f92622e2ae2920f6ce6dfc7b0edbbcbec7e83adeacbd56fed84a021739a641"
+      },
+      "object": "Style_Ru_Sub.Style_Ru_Sub",
+      "profile": {
+        "kind": "xbox-inline-bc-v1",
+        "format": 7
+      },
+      "dimensions": [
+        512,
+        512
+      ],
+      "tiled_sha256": "b91274eeb9a85ec591c47abef65dcb3567fb932ef2775ddc214461ebd8dcbbc4",
+      "rect": [
+        124,
+        308,
+        216,
+        68
+      ],
+      "source_rgba_sha256": "830e5bf007b413adf6be024eea011d475dbfd48f10d031f5b463e3260e83f80b",
+      "mask": {
+        "path": "locales/zh-Hans/texture-overlays/restorations/equipment-style-clean-v31/Style_Ru_Sub-mask.png",
+        "sha256": "dc98480672777fe0af3b79577e648f19a9f91dfb4a73f544710c8dfd400bb627"
+      },
+      "plate": {
+        "path": "build/phase-360-equipment-cleanplates/Style_Ru_Sub-cleanplate.png",
+        "sha256": "711cc252d34e7e6388540145079fb93b4823b936de3657e639c2a6a593a9d36b"
+      },
+      "plate_size": [
+        1254,
+        1254
+      ],
+      "iterations": 1000,
+      "alpha_mode": "interpolate-source-alpha-v1",
+      "patch": {
+        "path": "locales/zh-Hans/texture-overlays/restorations/equipment-style-clean-v31/Style_Ru_Sub-patch.png",
+        "sha256": "f1efa4fcd52e9d3255cd40154327a84372a6c511bf8ac8ebada1942f5a04fb28"
+      }
+    },
+    {
+      "id": "style_serestin_main_lettering",
+      "source": {
+        "path": "build/poc-game/disc1/MC2Game/CookedXenon/MC2Game.xxx",
+        "sha256": "13f92622e2ae2920f6ce6dfc7b0edbbcbec7e83adeacbd56fed84a021739a641"
+      },
+      "object": "Style_Serestin_Main.Style_Serestin_Main",
+      "profile": {
+        "kind": "xbox-inline-bc-v1",
+        "format": 7
+      },
+      "dimensions": [
+        512,
+        512
+      ],
+      "tiled_sha256": "bc621be991df952dd9774005eafb7eb86cc226af24403883626686cd75623dae",
+      "rect": [
+        84,
+        304,
+        312,
+        76
+      ],
+      "source_rgba_sha256": "6c01976fd4d668f327a6f58fef3b07bf7ab72ce7d90ea875f11a1277493876e8",
+      "mask": {
+        "path": "locales/zh-Hans/texture-overlays/restorations/equipment-style-clean-v31/Style_Serestin_Main-mask.png",
+        "sha256": "6bcaa80fffcdea868e997981b26923ad2722f2cba82cea11c322b86ede900538"
+      },
+      "plate": {
+        "path": "build/phase-360-equipment-cleanplates/Style_Serestin_Main-cleanplate.png",
+        "sha256": "0fbff0b7c3349659202ed795ad9755e393eff667b9740bee80a8b63684fa13a7"
+      },
+      "plate_size": [
+        1254,
+        1254
+      ],
+      "iterations": 1000,
+      "alpha_mode": "interpolate-source-alpha-v1",
+      "patch": {
+        "path": "locales/zh-Hans/texture-overlays/restorations/equipment-style-clean-v31/Style_Serestin_Main-patch.png",
+        "sha256": "d2371bd63e60be0492a2a0bba1895931d8598ced2ac0003b32f46027b10744f8"
+      }
+    },
+    {
+      "id": "style_serestin_sub_lettering",
+      "source": {
+        "path": "build/poc-game/disc1/MC2Game/CookedXenon/MC2Game.xxx",
+        "sha256": "13f92622e2ae2920f6ce6dfc7b0edbbcbec7e83adeacbd56fed84a021739a641"
+      },
+      "object": "Style_Serestin_Sub.Style_Serestin_Sub",
+      "profile": {
+        "kind": "xbox-inline-bc-v1",
+        "format": 7
+      },
+      "dimensions": [
+        512,
+        512
+      ],
+      "tiled_sha256": "901cc527552385d833f225f0d6f99a5867f3065c931a0a62acbd8d3b2ed6e691",
+      "rect": [
+        84,
+        304,
+        204,
+        72
+      ],
+      "source_rgba_sha256": "3d3f566a7186f2aabe0bc3468a5d3184a30334d5fdffc7eea24121404bfa6323",
+      "mask": {
+        "path": "locales/zh-Hans/texture-overlays/restorations/equipment-style-clean-v31/Style_Serestin_Sub-mask.png",
+        "sha256": "b58fbd38f26abfef4826b6fe99a17e3361bc9d8e76488fcb80457f595e68576e"
+      },
+      "plate": {
+        "path": "build/phase-360-equipment-cleanplates/Style_Serestin_Sub-cleanplate.png",
+        "sha256": "1865ca8b459438b1d3b80badfd7a721f40d714e5442f8a1d531c6f2fc573a8b8"
+      },
+      "plate_size": [
+        1254,
+        1254
+      ],
+      "iterations": 1000,
+      "alpha_mode": "interpolate-source-alpha-v1",
+      "patch": {
+        "path": "locales/zh-Hans/texture-overlays/restorations/equipment-style-clean-v31/Style_Serestin_Sub-patch.png",
+        "sha256": "f0fc3031aabfd9fae88fc93f717d32c84ade6f54930efe287bb392dd756203ca"
+      }
+    },
+    {
+      "id": "style_zephie_main_lettering",
+      "source": {
+        "path": "build/poc-game/disc1/MC2Game/CookedXenon/MC2Game.xxx",
+        "sha256": "13f92622e2ae2920f6ce6dfc7b0edbbcbec7e83adeacbd56fed84a021739a641"
+      },
+      "object": "Style_Zephie_Main.Style_Zephie_Main",
+      "profile": {
+        "kind": "xbox-inline-bc-v1",
+        "format": 7
+      },
+      "dimensions": [
+        512,
+        512
+      ],
+      "tiled_sha256": "5bfc36b862c1df4cb53f4ee53dc984a5a7bce6438324f37ebdb7655db9ba250b",
+      "rect": [
+        80,
+        308,
+        216,
+        68
+      ],
+      "source_rgba_sha256": "6c4ba25864b25b368aa12fec077db60f91c637693a57a0ea1a2b82fed209f51b",
+      "mask": {
+        "path": "locales/zh-Hans/texture-overlays/restorations/equipment-style-clean-v31/Style_Zephie_Main-mask.png",
+        "sha256": "0dca9d0435555a07c224fcb8bf3533789f944e61a13ba767de65703b4849967e"
+      },
+      "plate": {
+        "path": "build/phase-360-equipment-cleanplates/Style_Zephie_Main-cleanplate.png",
+        "sha256": "f1b69cd216337649e939b9108f772065bd4f6bd2fc59e9e5b9432f2f3d890871"
+      },
+      "plate_size": [
+        1254,
+        1254
+      ],
+      "iterations": 1000,
+      "alpha_mode": "interpolate-source-alpha-v1",
+      "patch": {
+        "path": "locales/zh-Hans/texture-overlays/restorations/equipment-style-clean-v31/Style_Zephie_Main-patch.png",
+        "sha256": "5a65551c09ba730ef4be3fdffbab9cfec81bc34e27d738e528e43513edcfe80c"
+      }
+    },
+    {
+      "id": "style_zephie_sub_lettering",
+      "source": {
+        "path": "build/poc-game/disc1/MC2Game/CookedXenon/MC2Game.xxx",
+        "sha256": "13f92622e2ae2920f6ce6dfc7b0edbbcbec7e83adeacbd56fed84a021739a641"
+      },
+      "object": "Style_Zephie_Sub.Style_Zephie_Sub",
+      "profile": {
+        "kind": "xbox-inline-bc-v1",
+        "format": 7
+      },
+      "dimensions": [
+        512,
+        512
+      ],
+      "tiled_sha256": "3af8a1310032565d128f12773391bf5dc5524921dc5812b405e795b87077cf46",
+      "rect": [
+        80,
+        308,
+        192,
+        68
+      ],
+      "source_rgba_sha256": "4bb9068e7759c5c21811ecc44e149f9f8bed6e48b2ccfe05e557dedef4f77adc",
+      "mask": {
+        "path": "locales/zh-Hans/texture-overlays/restorations/equipment-style-clean-v31/Style_Zephie_Sub-mask.png",
+        "sha256": "604572b0f3dd8c3138412ec54b11af84c9dbba88e5571b7451cedefb36cd0130"
+      },
+      "plate": {
+        "path": "build/phase-360-equipment-cleanplates/Style_Zephie_Sub-cleanplate.png",
+        "sha256": "c2d669524369ab5abae97d912e1324d0db7002e40cdff502c778a423b2dc195a"
+      },
+      "plate_size": [
+        1254,
+        1254
+      ],
+      "iterations": 1000,
+      "alpha_mode": "interpolate-source-alpha-v1",
+      "patch": {
+        "path": "locales/zh-Hans/texture-overlays/restorations/equipment-style-clean-v31/Style_Zephie_Sub-patch.png",
+        "sha256": "07b3adcef73156a0639e280a75a6baa79542c4aa5df6b0e242c3dbd5cda9cbb8"
+      }
+    }
+  ]
+}

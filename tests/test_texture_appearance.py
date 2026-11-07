@@ -40,6 +40,22 @@ class AppearanceTests(unittest.TestCase):
         label['appearance']['italic']=0.24
         self.assertTrue(a!=render_label(self.font,label))
 
+    def test_positive_inverse_affine_shear_leans_top_to_the_right(self):
+        # The self-authored fixture glyph is a rectangle. Comparing row centers
+        # tests visible direction, rather than merely asserting pixels changed.
+        def lean(value):
+            label=self.label();label['text']='A'
+            label['appearance'].update(italic=value, align='left')
+            image=Image.frombytes('RGBA',(160,64),render_label(self.font,label))
+            rows=[]
+            for y in range(image.height):
+                xs=[x for x in range(image.width) if image.getpixel((x,y))[3]>=200]
+                if xs: rows.append(sum(xs)/len(xs))
+            return sum(rows[3:8])/5-sum(rows[-8:-3])/5
+        self.assertGreater(lean(0.18),3)
+        self.assertLess(lean(-0.18),-3)
+        self.assertAlmostEqual(lean(0),0)
+
     def test_explicit_soft_variant_preserves_default_and_rejects_bad_radius(self):
         import copy
         label=self.label();before=render_label(self.font,label)

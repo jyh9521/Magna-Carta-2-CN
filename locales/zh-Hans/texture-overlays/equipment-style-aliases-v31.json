@@ -1,0 +1,550 @@
+{
+  "schema_version": 1,
+  "kind": "texture-alias-update-v1",
+  "overlay_plan": {
+    "path": "locales/zh-Hans/texture-overlays/equipment-style-clean-v31.json",
+    "sha256": "790111766c7f24907b97ae53133c27aacd33a44c30ee4e1251b2bd6a4bf44fc3"
+  },
+  "resources": [
+    {
+      "path": "MC2Game/CookedXenon/MC2Game.xxx",
+      "sha256": "db29c67f6e9b3ab480d942f3dd604109ce4022e0f460d78da4fd3961fa9912e8",
+      "discs": [
+        1,
+        2
+      ],
+      "textures": [
+        {
+          "object": "Style_Argo_Main.Style_Argo_Main",
+          "tiled_sha256": "545258fca7ec932a350f829b61002b5ddc0bd01eefc5652c3b451e95df802d7a",
+          "donor_resource": "MC2Game/CookedXenon/MC2Game.xxx",
+          "donor_object": "Style_Argo_Main.Style_Argo_Main",
+          "rectangles": [
+            [
+              108,
+              308,
+              224,
+              68
+            ]
+          ]
+        },
+        {
+          "object": "Style_Argo_Sub.Style_Argo_Sub",
+          "tiled_sha256": "12bb1d98d16a39ee9922db4762962cafbf074840c5b2862ec89d92e2882e8261",
+          "donor_resource": "MC2Game/CookedXenon/MC2Game.xxx",
+          "donor_object": "Style_Argo_Sub.Style_Argo_Sub",
+          "rectangles": [
+            [
+              108,
+              308,
+              168,
+              68
+            ]
+          ]
+        },
+        {
+          "object": "Style_Crocell_Main.Style_Crocell_Main",
+          "tiled_sha256": "35dfe4d62e64b35cc90c4cbff7b2c25efb304f2d65464e9484332fbb9bca3342",
+          "donor_resource": "MC2Game/CookedXenon/MC2Game.xxx",
+          "donor_object": "Style_Crocell_Main.Style_Crocell_Main",
+          "rectangles": [
+            [
+              80,
+              308,
+              220,
+              68
+            ]
+          ]
+        },
+        {
+          "object": "Style_Crocell_Sub.Style_Crocell_Sub",
+          "tiled_sha256": "4ea58617b4d9562ce2eb86c78e3cea2f196a918dfde320cbc76edcc986267def",
+          "donor_resource": "MC2Game/CookedXenon/MC2Game.xxx",
+          "donor_object": "Style_Crocell_Sub.Style_Crocell_Sub",
+          "rectangles": [
+            [
+              80,
+              308,
+              220,
+              68
+            ]
+          ]
+        },
+        {
+          "object": "Style_Juto_Main.Style_Juto_Main",
+          "tiled_sha256": "00e77a246c1f106dfa5aa5fed70c8b26a58635825d98a9b89f77457c395c3c6e",
+          "donor_resource": "MC2Game/CookedXenon/MC2Game.xxx",
+          "donor_object": "Style_Juto_Main.Style_Juto_Main",
+          "rectangles": [
+            [
+              80,
+              304,
+              268,
+              72
+            ]
+          ]
+        },
+        {
+          "object": "Style_Juto_Sub.Style_Juto_Sub",
+          "tiled_sha256": "ac207ac46608df97a4419b291be68b1b4867ff0f7a67331573b706cb8706469c",
+          "donor_resource": "MC2Game/CookedXenon/MC2Game.xxx",
+          "donor_object": "Style_Juto_Sub.Style_Juto_Sub",
+          "rectangles": [
+            [
+              80,
+              304,
+              268,
+              72
+            ]
+          ]
+        },
+        {
+          "object": "Style_Juto_W_Main.Style_Juto_W_Main",
+          "tiled_sha256": "cd8ff7a17c8e240d158b477b9d9d1646056ff0faf41df2f7484cf31d7ead654b",
+          "donor_resource": "MC2Game/CookedXenon/MC2Game.xxx",
+          "donor_object": "Style_Juto_W_Main.Style_Juto_W_Main",
+          "rectangles": [
+            [
+              80,
+              304,
+              268,
+              72
+            ]
+          ]
+        },
+        {
+          "object": "Style_Juto_W_Sub.Style_Juto_W_Sub",
+          "tiled_sha256": "d6b2d6952665b9b4750c260285f89fee842d4cdad461a49bab8221f24df8cf02",
+          "donor_resource": "MC2Game/CookedXenon/MC2Game.xxx",
+          "donor_object": "Style_Juto_W_Sub.Style_Juto_W_Sub",
+          "rectangles": [
+            [
+              80,
+              304,
+              268,
+              72
+            ]
+          ]
+        },
+        {
+          "object": "Style_Ru_Main.Style_Ru_Main",
+          "tiled_sha256": "7b551bb363a9b1970b1e1ef2fa037b23dccb963e499a2e0d58d6ec4767b70322",
+          "donor_resource": "MC2Game/CookedXenon/MC2Game.xxx",
+          "donor_object": "Style_Ru_Main.Style_Ru_Main",
+          "rectangles": [
+            [
+              124,
+              308,
+              188,
+              68
+            ]
+          ]
+        },
+        {
+          "object": "Style_Ru_Sub.Style_Ru_Sub",
+          "tiled_sha256": "b91274eeb9a85ec591c47abef65dcb3567fb932ef2775ddc214461ebd8dcbbc4",
+          "donor_resource": "MC2Game/CookedXenon/MC2Game.xxx",
+          "donor_object": "Style_Ru_Sub.Style_Ru_Sub",
+          "rectangles": [
+            [
+              124,
+              308,
+              216,
+              68
+            ]
+          ]
+        },
+        {
+          "object": "Style_Serestin_Main.Style_Serestin_Main",
+          "tiled_sha256": "bc621be991df952dd9774005eafb7eb86cc226af24403883626686cd75623dae",
+          "donor_resource": "MC2Game/CookedXenon/MC2Game.xxx",
+          "donor_object": "Style_Serestin_Main.Style_Serestin_Main",
+          "rectangles": [
+            [
+              84,
+              304,
+              312,
+              76
+            ]
+          ]
+        },
+        {
+          "object": "Style_Serestin_Sub.Style_Serestin_Sub",
+          "tiled_sha256": "901cc527552385d833f225f0d6f99a5867f3065c931a0a62acbd8d3b2ed6e691",
+          "donor_resource": "MC2Game/CookedXenon/MC2Game.xxx",
+          "donor_object": "Style_Serestin_Sub.Style_Serestin_Sub",
+          "rectangles": [
+            [
+              84,
+              304,
+              204,
+              72
+            ]
+          ]
+        },
+        {
+          "object": "Style_Zephie_Main.Style_Zephie_Main",
+          "tiled_sha256": "5bfc36b862c1df4cb53f4ee53dc984a5a7bce6438324f37ebdb7655db9ba250b",
+          "donor_resource": "MC2Game/CookedXenon/MC2Game.xxx",
+          "donor_object": "Style_Zephie_Main.Style_Zephie_Main",
+          "rectangles": [
+            [
+              80,
+              308,
+              216,
+              68
+            ]
+          ]
+        },
+        {
+          "object": "Style_Zephie_Sub.Style_Zephie_Sub",
+          "tiled_sha256": "3af8a1310032565d128f12773391bf5dc5524921dc5812b405e795b87077cf46",
+          "donor_resource": "MC2Game/CookedXenon/MC2Game.xxx",
+          "donor_object": "Style_Zephie_Sub.Style_Zephie_Sub",
+          "rectangles": [
+            [
+              80,
+              308,
+              192,
+              68
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/Style_Argo_Main.xxx",
+      "sha256": "96c877f79ceaee75be69d6d565463ba9464903086d10f09787fb625cb3ef9286",
+      "discs": [
+        1,
+        2
+      ],
+      "textures": [
+        {
+          "object": "Style_Argo_Main",
+          "tiled_sha256": "545258fca7ec932a350f829b61002b5ddc0bd01eefc5652c3b451e95df802d7a",
+          "donor_resource": "MC2Game/CookedXenon/MC2Game.xxx",
+          "donor_object": "Style_Argo_Main.Style_Argo_Main",
+          "rectangles": [
+            [
+              108,
+              308,
+              224,
+              68
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/Style_Argo_Sub.xxx",
+      "sha256": "02d54b1a352c92356d6930ec6e5756b8b6f483d69c35dca572190b6de401d615",
+      "discs": [
+        1,
+        2
+      ],
+      "textures": [
+        {
+          "object": "Style_Argo_Sub",
+          "tiled_sha256": "12bb1d98d16a39ee9922db4762962cafbf074840c5b2862ec89d92e2882e8261",
+          "donor_resource": "MC2Game/CookedXenon/MC2Game.xxx",
+          "donor_object": "Style_Argo_Sub.Style_Argo_Sub",
+          "rectangles": [
+            [
+              108,
+              308,
+              168,
+              68
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/Style_Crocell_Main.xxx",
+      "sha256": "097f8f69fdc8abbe83d17c456a3a9bcc72f92514af581593c7eec1dde0af3f9b",
+      "discs": [
+        1,
+        2
+      ],
+      "textures": [
+        {
+          "object": "Style_Crocell_Main",
+          "tiled_sha256": "35dfe4d62e64b35cc90c4cbff7b2c25efb304f2d65464e9484332fbb9bca3342",
+          "donor_resource": "MC2Game/CookedXenon/MC2Game.xxx",
+          "donor_object": "Style_Crocell_Main.Style_Crocell_Main",
+          "rectangles": [
+            [
+              80,
+              308,
+              220,
+              68
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/Style_Crocell_Sub.xxx",
+      "sha256": "efde0e0b53d12af16e21af286e9fbe3f2629be91455e62108c4833b630e5753d",
+      "discs": [
+        1,
+        2
+      ],
+      "textures": [
+        {
+          "object": "Style_Crocell_Sub",
+          "tiled_sha256": "4ea58617b4d9562ce2eb86c78e3cea2f196a918dfde320cbc76edcc986267def",
+          "donor_resource": "MC2Game/CookedXenon/MC2Game.xxx",
+          "donor_object": "Style_Crocell_Sub.Style_Crocell_Sub",
+          "rectangles": [
+            [
+              80,
+              308,
+              220,
+              68
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/Style_Juto_Main.xxx",
+      "sha256": "198842a257b443832180baf7cb8dcc227777da44ca78bc14afb7ba879aefdee2",
+      "discs": [
+        1,
+        2
+      ],
+      "textures": [
+        {
+          "object": "Style_Juto_Main",
+          "tiled_sha256": "00e77a246c1f106dfa5aa5fed70c8b26a58635825d98a9b89f77457c395c3c6e",
+          "donor_resource": "MC2Game/CookedXenon/MC2Game.xxx",
+          "donor_object": "Style_Juto_Main.Style_Juto_Main",
+          "rectangles": [
+            [
+              80,
+              304,
+              268,
+              72
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/Style_Juto_Sub.xxx",
+      "sha256": "7c74adfa1f84984d9f066235d35107d2ec6fca64fe8fe13a04cf121b831ca95d",
+      "discs": [
+        1,
+        2
+      ],
+      "textures": [
+        {
+          "object": "Style_Juto_Sub",
+          "tiled_sha256": "ac207ac46608df97a4419b291be68b1b4867ff0f7a67331573b706cb8706469c",
+          "donor_resource": "MC2Game/CookedXenon/MC2Game.xxx",
+          "donor_object": "Style_Juto_Sub.Style_Juto_Sub",
+          "rectangles": [
+            [
+              80,
+              304,
+              268,
+              72
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/Style_Ru_Main.xxx",
+      "sha256": "a6fdad307a774568ca68488c57e46d6f5e9aff14852fb81cd3bcfb7ec4a2b1a1",
+      "discs": [
+        1,
+        2
+      ],
+      "textures": [
+        {
+          "object": "Style_Ru_Main",
+          "tiled_sha256": "7b551bb363a9b1970b1e1ef2fa037b23dccb963e499a2e0d58d6ec4767b70322",
+          "donor_resource": "MC2Game/CookedXenon/MC2Game.xxx",
+          "donor_object": "Style_Ru_Main.Style_Ru_Main",
+          "rectangles": [
+            [
+              124,
+              308,
+              188,
+              68
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/Style_Ru_Sub.xxx",
+      "sha256": "1ac987e4d7647d430d78a075e00d01cbdbe754f3351064f2ba39d08a063e5590",
+      "discs": [
+        1,
+        2
+      ],
+      "textures": [
+        {
+          "object": "Style_Ru_Sub",
+          "tiled_sha256": "b91274eeb9a85ec591c47abef65dcb3567fb932ef2775ddc214461ebd8dcbbc4",
+          "donor_resource": "MC2Game/CookedXenon/MC2Game.xxx",
+          "donor_object": "Style_Ru_Sub.Style_Ru_Sub",
+          "rectangles": [
+            [
+              124,
+              308,
+              216,
+              68
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/Style_Serestin_Main.xxx",
+      "sha256": "899b77fe8e5bbfe45d2aedc65f2a5757576e330e1ed8b7c86bab2c8333ded7e6",
+      "discs": [
+        1,
+        2
+      ],
+      "textures": [
+        {
+          "object": "Style_Serestin_Main",
+          "tiled_sha256": "bc621be991df952dd9774005eafb7eb86cc226af24403883626686cd75623dae",
+          "donor_resource": "MC2Game/CookedXenon/MC2Game.xxx",
+          "donor_object": "Style_Serestin_Main.Style_Serestin_Main",
+          "rectangles": [
+            [
+              84,
+              304,
+              312,
+              76
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/Style_Serestin_Sub.xxx",
+      "sha256": "3f5104f77583fee49823a120d28f2aea3b9e87a319a3d6c4f1f207808cc7179f",
+      "discs": [
+        1,
+        2
+      ],
+      "textures": [
+        {
+          "object": "Style_Serestin_Sub",
+          "tiled_sha256": "901cc527552385d833f225f0d6f99a5867f3065c931a0a62acbd8d3b2ed6e691",
+          "donor_resource": "MC2Game/CookedXenon/MC2Game.xxx",
+          "donor_object": "Style_Serestin_Sub.Style_Serestin_Sub",
+          "rectangles": [
+            [
+              84,
+              304,
+              204,
+              72
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/Style_Zephie_Main.xxx",
+      "sha256": "b540f97062392b09ef42124b3d0e68a2725a26a2d07c50826640e316faf19ba8",
+      "discs": [
+        1,
+        2
+      ],
+      "textures": [
+        {
+          "object": "Style_Zephie_Main",
+          "tiled_sha256": "5bfc36b862c1df4cb53f4ee53dc984a5a7bce6438324f37ebdb7655db9ba250b",
+          "donor_resource": "MC2Game/CookedXenon/MC2Game.xxx",
+          "donor_object": "Style_Zephie_Main.Style_Zephie_Main",
+          "rectangles": [
+            [
+              80,
+              308,
+              216,
+              68
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/Style_Zephie_Sub.xxx",
+      "sha256": "86df0edb4b68f55f81d449a539e786f11e6ac3b698bcb9b238675f3538ece55d",
+      "discs": [
+        1,
+        2
+      ],
+      "textures": [
+        {
+          "object": "Style_Zephie_Sub",
+          "tiled_sha256": "3af8a1310032565d128f12773391bf5dc5524921dc5812b405e795b87077cf46",
+          "donor_resource": "MC2Game/CookedXenon/MC2Game.xxx",
+          "donor_object": "Style_Zephie_Sub.Style_Zephie_Sub",
+          "rectangles": [
+            [
+              80,
+              308,
+              192,
+              68
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/Style_Juto_W_Main.xxx",
+      "sha256": "717df4681216930fcda8fbe12f54a50c209079b53a1f4911e72d9e5f929f151e",
+      "discs": [
+        2
+      ],
+      "textures": [
+        {
+          "object": "Style_Juto_W_Main",
+          "tiled_sha256": "cd8ff7a17c8e240d158b477b9d9d1646056ff0faf41df2f7484cf31d7ead654b",
+          "donor_resource": "MC2Game/CookedXenon/MC2Game.xxx",
+          "donor_object": "Style_Juto_W_Main.Style_Juto_W_Main",
+          "rectangles": [
+            [
+              80,
+              304,
+              268,
+              72
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "path": "MC2Game/CookedXenon/Style_Juto_W_Sub.xxx",
+      "sha256": "37b2c63ead98bdb586a12584b7a4fefa822c377ddeb0d672f44326fef0b568c8",
+      "discs": [
+        2
+      ],
+      "textures": [
+        {
+          "object": "Style_Juto_W_Sub",
+          "tiled_sha256": "d6b2d6952665b9b4750c260285f89fee842d4cdad461a49bab8221f24df8cf02",
+          "donor_resource": "MC2Game/CookedXenon/MC2Game.xxx",
+          "donor_object": "Style_Juto_W_Sub.Style_Juto_W_Sub",
+          "rectangles": [
+            [
+              80,
+              304,
+              268,
+              72
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

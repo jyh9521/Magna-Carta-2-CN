@@ -1,0 +1,1324 @@
+{
+  "schema_version": 1,
+  "kind": "bink-audio-caption-plan",
+  "locale": "zh-Hans",
+  "game_rendering_verified": false,
+  "source_font_identity_recovered": false,
+  "style_basis": "Measured fixed left anchor, native-sized serif lettering, pale-to-location-tinted fill, dark outline/shadow; existing scene/ring/icon is retained outside glyph-only support. Hidden background underneath Korean glyphs is reconstructed, not recovered original art.",
+  "rasterizer_versions": {
+    "Pillow": "12.2.0",
+    "numpy": "2.5.1",
+    "fontTools": "4.63.0"
+  },
+  "fonts": {
+    "caption": {
+      "path": "build/font-source/NotoSerifCJKsc-SemiBold.otf",
+      "sha256": "d627b53dbcde61e07de1498d2623a8b287f78585ffbc90cc0618d0caaa2ed6b0"
+    }
+  },
+  "entries": [
+    {
+      "id": "worldmapmovie_01_village",
+      "source": {
+        "file": "worldmapmovie_01_village.bik",
+        "member": "MC2Game/Movies/worldmapmovie_01_village.bik",
+        "size": 26835516,
+        "sha256": "2d169ca638c89f615e16875d534ca692b09876b6c566f8295c27548d188cf7e7",
+        "first_rgb_sha256": "8ce2ba111797ebe8e054b67d52bdfdb93d3276c7ada53410f2d0d985f67147fe",
+        "discs": [
+          1
+        ]
+      },
+      "expected_header": {
+        "width": 1280,
+        "height": 720,
+        "frames": 360,
+        "numerator": 10000000,
+        "denominator": 333333,
+        "magic": "BIKi",
+        "audio_tracks": 6
+      },
+      "source_text": "높새바람 섬",
+      "term_ids": [
+        "mc2-place-007"
+      ],
+      "source_ids": [
+        "coalesced:aeb87dbfcf7207386fcfbd850b100f5ad8f77eedcffe79e10c6226643712cefa"
+      ],
+      "translation_basis": "Existing project term; displayed Korean qualifier retained. No extra district/basin qualifier for unqualified names.",
+      "captions": [
+        {
+          "role": "transition-location-title",
+          "text": "风息岛",
+          "font": "caption",
+          "style": {
+            "font_size": 32,
+            "line_height": 40,
+            "rect": [
+              254,
+              344,
+              300,
+              42
+            ],
+            "align": "left",
+            "outline_width": 1,
+            "outline": [
+              0,
+              0,
+              0,
+              245
+            ],
+            "shadow": [
+              0,
+              0,
+              0,
+              220
+            ],
+            "shadow_offset": [
+              1,
+              2
+            ],
+            "shadow_radius": 1.2,
+            "glow": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "glow_radius": 0,
+            "gradient": [
+              [
+                0,
+                [
+                  255,
+                  255,
+                  245,
+                  255
+                ]
+              ],
+              [
+                450,
+                [
+                  247,
+                  244,
+                  220,
+                  255
+                ]
+              ],
+              [
+                1000,
+                [
+                  154,
+                  213,
+                  56,
+                  255
+                ]
+              ]
+            ]
+          },
+          "erase": {
+            "rect": [
+              248,
+              336,
+              300,
+              56
+            ],
+            "temporal_static": {
+              "minimum_brightness": 110,
+              "maximum_range": 28,
+              "dilation": 6,
+              "mask_sha256": "496683e8053ba98160b19801234ed2fe413eb4377c37076e082414dc15b98305",
+              "pixels": 6232
+            }
+          }
+        }
+      ],
+      "maximum_encoded_bytes": 134217728
+    },
+    {
+      "id": "worldmapmovie_02_abazet",
+      "source": {
+        "file": "worldmapmovie_02_abazet.bik",
+        "member": "MC2Game/Movies/worldmapmovie_02_abazet.bik",
+        "size": 26852988,
+        "sha256": "340509f3b807f6b8b1f9e36bb58497e5940801ea4ccc35d83d0abdc378cfc31f",
+        "first_rgb_sha256": "55480efda9bad3183b5ca0965de4cc4ccd166421839e0cd1f4c175d5a2623bb5",
+        "discs": [
+          1,
+          2
+        ]
+      },
+      "expected_header": {
+        "width": 1280,
+        "height": 720,
+        "frames": 360,
+        "numerator": 10000000,
+        "denominator": 333333,
+        "magic": "BIKi",
+        "audio_tracks": 6
+      },
+      "source_text": "아바젯",
+      "term_ids": [
+        "mc2-place-008"
+      ],
+      "source_ids": [
+        "coalesced:23754e0028c00bc6b12e3650882966bb4d42bc2d45f159c5410243a95e464fbf"
+      ],
+      "translation_basis": "Existing project term; displayed Korean qualifier retained. No extra district/basin qualifier for unqualified names.",
+      "captions": [
+        {
+          "role": "transition-location-title",
+          "text": "阿巴泽特",
+          "font": "caption",
+          "style": {
+            "font_size": 32,
+            "line_height": 40,
+            "rect": [
+              254,
+              344,
+              300,
+              42
+            ],
+            "align": "left",
+            "outline_width": 1,
+            "outline": [
+              0,
+              0,
+              0,
+              245
+            ],
+            "shadow": [
+              0,
+              0,
+              0,
+              220
+            ],
+            "shadow_offset": [
+              1,
+              2
+            ],
+            "shadow_radius": 1.2,
+            "glow": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "glow_radius": 0,
+            "gradient": [
+              [
+                0,
+                [
+                  255,
+                  255,
+                  245,
+                  255
+                ]
+              ],
+              [
+                450,
+                [
+                  247,
+                  244,
+                  220,
+                  255
+                ]
+              ],
+              [
+                1000,
+                [
+                  212,
+                  161,
+                  38,
+                  255
+                ]
+              ]
+            ]
+          },
+          "erase": {
+            "rect": [
+              248,
+              336,
+              300,
+              56
+            ],
+            "temporal_static": {
+              "minimum_brightness": 110,
+              "maximum_range": 28,
+              "dilation": 6,
+              "mask_sha256": "345bdcb5e34184e755ac2c969fe273732ea4f49e0f58d2ffa7a4866b06a9836d",
+              "pixels": 3989
+            }
+          }
+        }
+      ],
+      "maximum_encoded_bytes": 134217728
+    },
+    {
+      "id": "worldmapmovie_03_oldfox",
+      "source": {
+        "file": "worldmapmovie_03_oldfox.bik",
+        "member": "MC2Game/Movies/worldmapmovie_03_oldfox.bik",
+        "size": 26671224,
+        "sha256": "99e30e219db32de5fd39076caff9f5fde3767ce367d85b406edb8f5497fc1847",
+        "first_rgb_sha256": "475c6467f1f8022f1504c11b25d1ebc9d4f5da75c1d36355086ddf18dd07806c",
+        "discs": [
+          1,
+          2
+        ]
+      },
+      "expected_header": {
+        "width": 1280,
+        "height": 720,
+        "frames": 360,
+        "numerator": 10000000,
+        "denominator": 333333,
+        "magic": "BIKi",
+        "audio_tracks": 6
+      },
+      "source_text": "늙은 여우 협곡",
+      "term_ids": [
+        "mc2-abazet-081"
+      ],
+      "source_ids": [
+        "coalesced:220a6319bce74e8f0a8077a11231c815efa98011e9d9e35a798ef77c45d0e672"
+      ],
+      "translation_basis": "Existing project term; displayed Korean qualifier retained. No extra district/basin qualifier for unqualified names.",
+      "captions": [
+        {
+          "role": "transition-location-title",
+          "text": "老狐峡谷",
+          "font": "caption",
+          "style": {
+            "font_size": 32,
+            "line_height": 40,
+            "rect": [
+              254,
+              344,
+              300,
+              42
+            ],
+            "align": "left",
+            "outline_width": 1,
+            "outline": [
+              0,
+              0,
+              0,
+              245
+            ],
+            "shadow": [
+              0,
+              0,
+              0,
+              220
+            ],
+            "shadow_offset": [
+              1,
+              2
+            ],
+            "shadow_radius": 1.2,
+            "glow": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "glow_radius": 0,
+            "gradient": [
+              [
+                0,
+                [
+                  255,
+                  255,
+                  245,
+                  255
+                ]
+              ],
+              [
+                450,
+                [
+                  247,
+                  244,
+                  220,
+                  255
+                ]
+              ],
+              [
+                1000,
+                [
+                  232,
+                  171,
+                  57,
+                  255
+                ]
+              ]
+            ]
+          },
+          "erase": {
+            "rect": [
+              248,
+              336,
+              300,
+              56
+            ],
+            "temporal_static": {
+              "minimum_brightness": 110,
+              "maximum_range": 28,
+              "dilation": 6,
+              "mask_sha256": "d311b512ce6cb5842a1dd0916a0171eb53430586951b4df69c10f3a10966c6f6",
+              "pixels": 6900
+            }
+          }
+        }
+      ],
+      "maximum_encoded_bytes": 134217728
+    },
+    {
+      "id": "worldmapmovie_04_kotamare",
+      "source": {
+        "file": "worldmapmovie_04_kotamare.bik",
+        "member": "MC2Game/Movies/worldmapmovie_04_kotamare.bik",
+        "size": 26923484,
+        "sha256": "85ee0f595a267b65a7f9d7b3358ecd248e3123b1de74b8cb741b29ba26f2f030",
+        "first_rgb_sha256": "24efe13e71fdfcf6b8ffc57fd5c7597ad865e4dd2b36bfe637d3f468a62683cc",
+        "discs": [
+          1,
+          2
+        ]
+      },
+      "expected_header": {
+        "width": 1280,
+        "height": 720,
+        "frames": 360,
+        "numerator": 10000000,
+        "denominator": 333333,
+        "magic": "BIKi",
+        "audio_tracks": 6
+      },
+      "source_text": "코타마레",
+      "term_ids": [
+        "mc2-orders-127"
+      ],
+      "source_ids": [
+        "coalesced:acf63e073dcc0a556c8e48fba0b71782e571a8988907f007d07d0e4b5a36fd60"
+      ],
+      "translation_basis": "Existing project term; displayed Korean qualifier retained. No extra district/basin qualifier for unqualified names.",
+      "captions": [
+        {
+          "role": "transition-location-title",
+          "text": "柯塔马雷",
+          "font": "caption",
+          "style": {
+            "font_size": 32,
+            "line_height": 40,
+            "rect": [
+              254,
+              344,
+              300,
+              42
+            ],
+            "align": "left",
+            "outline_width": 1,
+            "outline": [
+              0,
+              0,
+              0,
+              245
+            ],
+            "shadow": [
+              0,
+              0,
+              0,
+              220
+            ],
+            "shadow_offset": [
+              1,
+              2
+            ],
+            "shadow_radius": 1.2,
+            "glow": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "glow_radius": 0,
+            "gradient": [
+              [
+                0,
+                [
+                  255,
+                  255,
+                  245,
+                  255
+                ]
+              ],
+              [
+                450,
+                [
+                  247,
+                  244,
+                  220,
+                  255
+                ]
+              ],
+              [
+                1000,
+                [
+                  123,
+                  208,
+                  162,
+                  255
+                ]
+              ]
+            ]
+          },
+          "erase": {
+            "rect": [
+              248,
+              336,
+              300,
+              56
+            ],
+            "temporal_static": {
+              "minimum_brightness": 110,
+              "maximum_range": 28,
+              "dilation": 6,
+              "mask_sha256": "5fc79de00c71e21469652ae75d8773539421dcda70258ff15c8b9faaffe8abb0",
+              "pixels": 4629
+            }
+          }
+        }
+      ],
+      "maximum_encoded_bytes": 134217728
+    },
+    {
+      "id": "worldmapmovie_05_ucave",
+      "source": {
+        "file": "worldmapmovie_05_ucave.bik",
+        "member": "MC2Game/Movies/worldmapmovie_05_ucave.bik",
+        "size": 26607176,
+        "sha256": "4f2f993c038450bcc4d826f4225cefcdffb03cf66552bc78e294dbd92adc210e",
+        "first_rgb_sha256": "80a4f9bafcddea1e8544791140f52755b6befdd0dd3b355d72ae968fecc3beff",
+        "discs": [
+          1,
+          2
+        ]
+      },
+      "expected_header": {
+        "width": 1280,
+        "height": 720,
+        "frames": 360,
+        "numerator": 10000000,
+        "denominator": 333333,
+        "magic": "BIKi",
+        "audio_tracks": 6
+      },
+      "source_text": "해저 동굴",
+      "term_ids": [
+        "mc2-kotamare-153"
+      ],
+      "source_ids": [
+        "coalesced:d06f0b5a5a1f129206470eede236562027163c8a827bf6e76fa298b674674cd8"
+      ],
+      "translation_basis": "Existing project term; displayed Korean qualifier retained. No extra district/basin qualifier for unqualified names.",
+      "captions": [
+        {
+          "role": "transition-location-title",
+          "text": "海底洞窟",
+          "font": "caption",
+          "style": {
+            "font_size": 32,
+            "line_height": 40,
+            "rect": [
+              254,
+              344,
+              300,
+              42
+            ],
+            "align": "left",
+            "outline_width": 1,
+            "outline": [
+              0,
+              0,
+              0,
+              245
+            ],
+            "shadow": [
+              0,
+              0,
+              0,
+              220
+            ],
+            "shadow_offset": [
+              1,
+              2
+            ],
+            "shadow_radius": 1.2,
+            "glow": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "glow_radius": 0,
+            "gradient": [
+              [
+                0,
+                [
+                  255,
+                  255,
+                  245,
+                  255
+                ]
+              ],
+              [
+                450,
+                [
+                  247,
+                  244,
+                  220,
+                  255
+                ]
+              ],
+              [
+                1000,
+                [
+                  184,
+                  166,
+                  224,
+                  255
+                ]
+              ]
+            ]
+          },
+          "erase": {
+            "rect": [
+              248,
+              336,
+              300,
+              56
+            ],
+            "temporal_static": {
+              "minimum_brightness": 110,
+              "maximum_range": 28,
+              "dilation": 6,
+              "mask_sha256": "051b0c7986a11dcc32f21523554009bd3aa8bb28721fb749df4d55bc6249154e",
+              "pixels": 5127
+            }
+          }
+        }
+      ],
+      "maximum_encoded_bytes": 134217728
+    },
+    {
+      "id": "worldmapmovie_06_dunan",
+      "source": {
+        "file": "worldmapmovie_06_dunan.bik",
+        "member": "MC2Game/Movies/worldmapmovie_06_dunan.bik",
+        "size": 26709228,
+        "sha256": "c4cc523dd022764dc6e505df861515c0d45d92d49a592c12512dd883e0995aef",
+        "first_rgb_sha256": "94abc1fc9506bffea77fbb25520f5e80d24459c52de1284b6cf5295b715f006b",
+        "discs": [
+          1,
+          2
+        ]
+      },
+      "expected_header": {
+        "width": 1280,
+        "height": 720,
+        "frames": 360,
+        "numerator": 10000000,
+        "denominator": 333333,
+        "magic": "BIKi",
+        "audio_tracks": 6
+      },
+      "source_text": "듀난 언덕",
+      "term_ids": [
+        "mc2-canyon-143"
+      ],
+      "source_ids": [
+        "coalesced:b42ed4576f0e48c58c5e365561e0bd765d188ff29b3a1eeed065fdd702085c7f"
+      ],
+      "translation_basis": "Existing project term; displayed Korean qualifier retained. No extra district/basin qualifier for unqualified names.",
+      "captions": [
+        {
+          "role": "transition-location-title",
+          "text": "杜南丘陵",
+          "font": "caption",
+          "style": {
+            "font_size": 32,
+            "line_height": 40,
+            "rect": [
+              254,
+              344,
+              300,
+              42
+            ],
+            "align": "left",
+            "outline_width": 1,
+            "outline": [
+              0,
+              0,
+              0,
+              245
+            ],
+            "shadow": [
+              0,
+              0,
+              0,
+              220
+            ],
+            "shadow_offset": [
+              1,
+              2
+            ],
+            "shadow_radius": 1.2,
+            "glow": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "glow_radius": 0,
+            "gradient": [
+              [
+                0,
+                [
+                  255,
+                  255,
+                  245,
+                  255
+                ]
+              ],
+              [
+                450,
+                [
+                  247,
+                  244,
+                  220,
+                  255
+                ]
+              ],
+              [
+                1000,
+                [
+                  199,
+                  128,
+                  48,
+                  255
+                ]
+              ]
+            ]
+          },
+          "erase": {
+            "rect": [
+              248,
+              336,
+              300,
+              56
+            ],
+            "temporal_static": {
+              "minimum_brightness": 110,
+              "maximum_range": 28,
+              "dilation": 6,
+              "mask_sha256": "eff8bf5a2ebccd3a62af11660f83d952ff5e4c6ea815603ce12c78515794eec5",
+              "pixels": 4558
+            }
+          }
+        }
+      ],
+      "maximum_encoded_bytes": 134217728
+    },
+    {
+      "id": "worldmapmovie_07_dunanfield",
+      "source": {
+        "file": "worldmapmovie_07_dunanfield.bik",
+        "member": "MC2Game/Movies/worldmapmovie_07_dunanfield.bik",
+        "size": 26791264,
+        "sha256": "ca1cea8f90626b68a513f6cf988e495853ab347be0d783b1431e1be272a16c01",
+        "first_rgb_sha256": "8b7386c816c32e679898149f0b60e641a7f8fafcb444c5beda2da77665e6a7f2",
+        "discs": [
+          2
+        ]
+      },
+      "expected_header": {
+        "width": 1280,
+        "height": 720,
+        "frames": 360,
+        "numerator": 10000000,
+        "denominator": 333333,
+        "magic": "BIKi",
+        "audio_tracks": 6
+      },
+      "source_text": "듀난 평원",
+      "term_ids": [
+        "mc2-rescue-157"
+      ],
+      "source_ids": [
+        "coalesced:02795d3b6756bada8f83fc15d4c0040485032d4c3e9c738da55603884290bb92"
+      ],
+      "translation_basis": "Existing project term; displayed Korean qualifier retained. No extra district/basin qualifier for unqualified names.",
+      "captions": [
+        {
+          "role": "transition-location-title",
+          "text": "杜南平原",
+          "font": "caption",
+          "style": {
+            "font_size": 32,
+            "line_height": 40,
+            "rect": [
+              254,
+              344,
+              300,
+              42
+            ],
+            "align": "left",
+            "outline_width": 1,
+            "outline": [
+              0,
+              0,
+              0,
+              245
+            ],
+            "shadow": [
+              0,
+              0,
+              0,
+              220
+            ],
+            "shadow_offset": [
+              1,
+              2
+            ],
+            "shadow_radius": 1.2,
+            "glow": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "glow_radius": 0,
+            "gradient": [
+              [
+                0,
+                [
+                  255,
+                  255,
+                  245,
+                  255
+                ]
+              ],
+              [
+                450,
+                [
+                  247,
+                  244,
+                  220,
+                  255
+                ]
+              ],
+              [
+                1000,
+                [
+                  217,
+                  185,
+                  78,
+                  255
+                ]
+              ]
+            ]
+          },
+          "erase": {
+            "rect": [
+              248,
+              336,
+              300,
+              56
+            ],
+            "temporal_static": {
+              "minimum_brightness": 110,
+              "maximum_range": 28,
+              "dilation": 6,
+              "mask_sha256": "5278edc6514963dd3f3b5ca403ee9310df88410749e8064d795792bb4a208227",
+              "pixels": 5146
+            }
+          }
+        }
+      ],
+      "maximum_encoded_bytes": 134217728
+    },
+    {
+      "id": "worldmapmovie_08_ruhalt",
+      "source": {
+        "file": "worldmapmovie_08_ruhalt.bik",
+        "member": "MC2Game/Movies/worldmapmovie_08_ruhalt.bik",
+        "size": 26689176,
+        "sha256": "34bbe59cd06f627b49ef5681023e3ecbc16a9995a9957ab17925f32cdaeea16a",
+        "first_rgb_sha256": "4dd9563e76e9f9f6da601a843a4d5058b24153895ec19df27749edc5e5e1719c",
+        "discs": [
+          2
+        ]
+      },
+      "expected_header": {
+        "width": 1280,
+        "height": 720,
+        "frames": 360,
+        "numerator": 10000000,
+        "denominator": 333333,
+        "magic": "BIKi",
+        "audio_tracks": 6
+      },
+      "source_text": "루할트",
+      "term_ids": [
+        "mc2-return-abazet-177"
+      ],
+      "source_ids": [
+        "coalesced:ff29a054d61738336accbaeea2708e73866823d78c29917e5a68dc833429e8aa"
+      ],
+      "translation_basis": "Existing project term; displayed Korean qualifier retained. No extra district/basin qualifier for unqualified names.",
+      "captions": [
+        {
+          "role": "transition-location-title",
+          "text": "鲁哈尔特",
+          "font": "caption",
+          "style": {
+            "font_size": 32,
+            "line_height": 40,
+            "rect": [
+              254,
+              344,
+              300,
+              42
+            ],
+            "align": "left",
+            "outline_width": 1,
+            "outline": [
+              0,
+              0,
+              0,
+              245
+            ],
+            "shadow": [
+              0,
+              0,
+              0,
+              220
+            ],
+            "shadow_offset": [
+              1,
+              2
+            ],
+            "shadow_radius": 1.2,
+            "glow": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "glow_radius": 0,
+            "gradient": [
+              [
+                0,
+                [
+                  255,
+                  255,
+                  245,
+                  255
+                ]
+              ],
+              [
+                450,
+                [
+                  247,
+                  244,
+                  220,
+                  255
+                ]
+              ],
+              [
+                1000,
+                [
+                  199,
+                  137,
+                  60,
+                  255
+                ]
+              ]
+            ]
+          },
+          "erase": {
+            "rect": [
+              248,
+              336,
+              300,
+              56
+            ],
+            "temporal_static": {
+              "minimum_brightness": 110,
+              "maximum_range": 28,
+              "dilation": 6,
+              "mask_sha256": "5f2c9a7e975ce80d30e6b96c03fef8b3f508a8c9f6b15eaffe11341cf498aa0a",
+              "pixels": 3647
+            }
+          }
+        }
+      ],
+      "maximum_encoded_bytes": 134217728
+    },
+    {
+      "id": "worldmapmovie_09_velfort",
+      "source": {
+        "file": "worldmapmovie_09_velfort.bik",
+        "member": "MC2Game/Movies/worldmapmovie_09_velfort.bik",
+        "size": 26592096,
+        "sha256": "e9b78b5cd62faa326fb6d5c579d7dbc00776d9eba8a32f1c6a6c2dff53951c7e",
+        "first_rgb_sha256": "84d719bfee4a687b3bb1292ade873ed56a58c08f1b6325e1066f54ce040149dd",
+        "discs": [
+          2
+        ]
+      },
+      "expected_header": {
+        "width": 1280,
+        "height": 720,
+        "frames": 360,
+        "numerator": 10000000,
+        "denominator": 333333,
+        "magic": "BIKi",
+        "audio_tracks": 6
+      },
+      "source_text": "벨포트",
+      "term_ids": [
+        "mc2-kotamare-154"
+      ],
+      "source_ids": [
+        "coalesced:150058458be81f9870d0696e0a9e6ab132e6a73b4b438a61fb46a43fd248f454"
+      ],
+      "translation_basis": "Existing project term; displayed Korean qualifier retained. No extra district/basin qualifier for unqualified names.",
+      "captions": [
+        {
+          "role": "transition-location-title",
+          "text": "贝尔福特",
+          "font": "caption",
+          "style": {
+            "font_size": 32,
+            "line_height": 40,
+            "rect": [
+              254,
+              344,
+              300,
+              42
+            ],
+            "align": "left",
+            "outline_width": 1,
+            "outline": [
+              0,
+              0,
+              0,
+              245
+            ],
+            "shadow": [
+              0,
+              0,
+              0,
+              220
+            ],
+            "shadow_offset": [
+              1,
+              2
+            ],
+            "shadow_radius": 1.2,
+            "glow": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "glow_radius": 0,
+            "gradient": [
+              [
+                0,
+                [
+                  255,
+                  255,
+                  245,
+                  255
+                ]
+              ],
+              [
+                450,
+                [
+                  247,
+                  244,
+                  220,
+                  255
+                ]
+              ],
+              [
+                1000,
+                [
+                  197,
+                  164,
+                  121,
+                  255
+                ]
+              ]
+            ]
+          },
+          "erase": {
+            "rect": [
+              248,
+              336,
+              300,
+              56
+            ],
+            "temporal_static": {
+              "minimum_brightness": 110,
+              "maximum_range": 28,
+              "dilation": 6,
+              "mask_sha256": "353055f12f2aabd8bf24c4fae609a3bb134ca2652bcb15ed2b3c77d8d9bb9082",
+              "pixels": 3737
+            }
+          }
+        }
+      ],
+      "maximum_encoded_bytes": 134217728
+    },
+    {
+      "id": "worldmapmovie_10_sentinellab",
+      "source": {
+        "file": "worldmapmovie_10_sentinellab.bik",
+        "member": "MC2Game/Movies/worldmapmovie_10_sentinellab.bik",
+        "size": 26573172,
+        "sha256": "bfcd0df50c436d02da292651d81bfef0fd43da5370c445fc7f0e62fc88a674f9",
+        "first_rgb_sha256": "7964904cf6cf937c441f1b1b2c729fda322b3708e4e622e604f4c1d69183dc5a",
+        "discs": [
+          2
+        ]
+      },
+      "expected_header": {
+        "width": 1280,
+        "height": 720,
+        "frames": 360,
+        "numerator": 10000000,
+        "denominator": 333333,
+        "magic": "BIKi",
+        "audio_tracks": 6
+      },
+      "source_text": "센티넬 연구소",
+      "term_ids": [
+        "mc2-velfort-informant-262"
+      ],
+      "source_ids": [
+        "coalesced:6f908df94472d5bd1ea098820291a9e93a15a460aee31f355ed6baa118de64f1"
+      ],
+      "translation_basis": "Existing project term; displayed Korean qualifier retained. No extra district/basin qualifier for unqualified names.",
+      "captions": [
+        {
+          "role": "transition-location-title",
+          "text": "哨兵研究所",
+          "font": "caption",
+          "style": {
+            "font_size": 32,
+            "line_height": 40,
+            "rect": [
+              254,
+              344,
+              300,
+              42
+            ],
+            "align": "left",
+            "outline_width": 1,
+            "outline": [
+              0,
+              0,
+              0,
+              245
+            ],
+            "shadow": [
+              0,
+              0,
+              0,
+              220
+            ],
+            "shadow_offset": [
+              1,
+              2
+            ],
+            "shadow_radius": 1.2,
+            "glow": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "glow_radius": 0,
+            "gradient": [
+              [
+                0,
+                [
+                  255,
+                  255,
+                  245,
+                  255
+                ]
+              ],
+              [
+                450,
+                [
+                  247,
+                  244,
+                  220,
+                  255
+                ]
+              ],
+              [
+                1000,
+                [
+                  183,
+                  155,
+                  220,
+                  255
+                ]
+              ]
+            ]
+          },
+          "erase": {
+            "rect": [
+              248,
+              336,
+              300,
+              56
+            ],
+            "temporal_static": {
+              "minimum_brightness": 110,
+              "maximum_range": 28,
+              "dilation": 6,
+              "mask_sha256": "53a20a8b787a1c796ba051f8bbee7270b6928489b63afb98fbb31c0a5683bc4a",
+              "pixels": 7129
+            }
+          }
+        }
+      ],
+      "maximum_encoded_bytes": 134217728
+    },
+    {
+      "id": "worldmapmovie_11_lastrada",
+      "source": {
+        "file": "worldmapmovie_11_lastrada.bik",
+        "member": "MC2Game/Movies/worldmapmovie_11_lastrada.bik",
+        "size": 26626076,
+        "sha256": "a2ef4f4ee667a23e08f1b3284d0e0365c7a12b35c13bf7c38bedf2a0dfb66dd8",
+        "first_rgb_sha256": "2f9adf38aa5cc39c3f6a861dfc801dbf332f94154fa0414a78c2906f1976ee3a",
+        "discs": [
+          2
+        ]
+      },
+      "expected_header": {
+        "width": 1280,
+        "height": 720,
+        "frames": 360,
+        "numerator": 10000000,
+        "denominator": 333333,
+        "magic": "BIKi",
+        "audio_tracks": 6
+      },
+      "source_text": "라 스트라다",
+      "term_ids": [
+        "mc2-opening-046"
+      ],
+      "source_ids": [
+        "coalesced:78dc2621dfe750f12268d057759f3fe0034694dd83715654b626561a438cce90"
+      ],
+      "translation_basis": "Existing project term; displayed Korean qualifier retained. No extra district/basin qualifier for unqualified names.",
+      "captions": [
+        {
+          "role": "transition-location-title",
+          "text": "拉·斯特拉达",
+          "font": "caption",
+          "style": {
+            "font_size": 32,
+            "line_height": 40,
+            "rect": [
+              254,
+              344,
+              300,
+              42
+            ],
+            "align": "left",
+            "outline_width": 1,
+            "outline": [
+              0,
+              0,
+              0,
+              245
+            ],
+            "shadow": [
+              0,
+              0,
+              0,
+              220
+            ],
+            "shadow_offset": [
+              1,
+              2
+            ],
+            "shadow_radius": 1.2,
+            "glow": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "glow_radius": 0,
+            "gradient": [
+              [
+                0,
+                [
+                  255,
+                  255,
+                  245,
+                  255
+                ]
+              ],
+              [
+                450,
+                [
+                  247,
+                  244,
+                  220,
+                  255
+                ]
+              ],
+              [
+                1000,
+                [
+                  131,
+                  204,
+                  166,
+                  255
+                ]
+              ]
+            ]
+          },
+          "erase": {
+            "rect": [
+              248,
+              336,
+              300,
+              56
+            ],
+            "temporal_static": {
+              "minimum_brightness": 110,
+              "maximum_range": 28,
+              "dilation": 6,
+              "mask_sha256": "71df81adb8698eff36adeee8f892e6d75d588ca56875ee8f5868c496138cd6eb",
+              "pixels": 5737
+            }
+          }
+        }
+      ],
+      "maximum_encoded_bytes": 134217728
+    }
+  ]
+}

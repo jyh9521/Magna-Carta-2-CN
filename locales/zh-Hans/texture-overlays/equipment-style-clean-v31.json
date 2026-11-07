@@ -1,0 +1,4262 @@
+{
+  "schema_version": 1,
+  "kind": "texture-text-overlay-plan",
+  "game_rendering_verified": false,
+  "font": {
+    "path": "build/font-source/NotoSerifCJKsc-SemiBold.otf",
+    "sha256": "d627b53dbcde61e07de1498d2623a8b287f78585ffbc90cc0618d0caaa2ed6b0"
+  },
+  "rasterizer_versions": {
+    "Pillow": "12.2.0",
+    "fonttools": "4.63.0"
+  },
+  "labels": [
+    {
+      "id": "style_argo_main_lettering",
+      "text": "阿尔戈流派锤",
+      "rect": [
+        108,
+        308,
+        224,
+        68
+      ],
+      "font_size": 32,
+      "parts": [
+        {
+          "text": "阿尔戈",
+          "rect": [
+            6,
+            5,
+            90,
+            37
+          ],
+          "font_size": 32,
+          "appearance": {
+            "kind": "source-style-v1",
+            "ink_box": [
+              2,
+              2,
+              86,
+              28
+            ],
+            "align": "left",
+            "gradient": [
+              [
+                0,
+                [
+                  238,
+                  238,
+                  230,
+                  255
+                ]
+              ],
+              [
+                1000,
+                [
+                  221,
+                  220,
+                  213,
+                  255
+                ]
+              ]
+            ],
+            "outline": [
+              28,
+              24,
+              21,
+              225
+            ],
+            "outline_width": 0.7,
+            "glow": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "glow_radius": 0,
+            "shadow": [
+              0,
+              0,
+              0,
+              180
+            ],
+            "shadow_offset": [
+              1,
+              1
+            ],
+            "shadow_radius": 1,
+            "italic": 0.18,
+            "tracking": 0.2,
+            "weight": 0,
+            "motion": 0
+          }
+        },
+        {
+          "text": "流派",
+          "rect": [
+            95,
+            17,
+            42,
+            25
+          ],
+          "font_size": 20,
+          "appearance": {
+            "kind": "source-style-v1",
+            "ink_box": [
+              2,
+              2,
+              38,
+              16
+            ],
+            "align": "left",
+            "gradient": [
+              [
+                0,
+                [
+                  238,
+                  238,
+                  230,
+                  255
+                ]
+              ],
+              [
+                1000,
+                [
+                  221,
+                  220,
+                  213,
+                  255
+                ]
+              ]
+            ],
+            "outline": [
+              28,
+              24,
+              21,
+              225
+            ],
+            "outline_width": 0.7,
+            "glow": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "glow_radius": 0,
+            "shadow": [
+              0,
+              0,
+              0,
+              180
+            ],
+            "shadow_offset": [
+              1,
+              1
+            ],
+            "shadow_radius": 1,
+            "italic": 0.18,
+            "tracking": 0.2,
+            "weight": 0,
+            "motion": 0
+          }
+        },
+        {
+          "text": "锤",
+          "rect": [
+            113,
+            35,
+            38,
+            32
+          ],
+          "font_size": 27,
+          "appearance": {
+            "kind": "source-style-v1",
+            "ink_box": [
+              2,
+              2,
+              34,
+              23
+            ],
+            "align": "left",
+            "gradient": [
+              [
+                0,
+                [
+                  255,
+                  253,
+                  231,
+                  255
+                ]
+              ],
+              [
+                1000,
+                [
+                  255,
+                  231,
+                  207,
+                  255
+                ]
+              ]
+            ],
+            "outline": [
+              128,
+              40,
+              27,
+              180
+            ],
+            "outline_width": 0.7,
+            "glow": [
+              255,
+              62,
+              33,
+              210
+            ],
+            "glow_radius": 2,
+            "shadow": [
+              0,
+              0,
+              0,
+              180
+            ],
+            "shadow_offset": [
+              1,
+              1
+            ],
+            "shadow_radius": 1,
+            "italic": 0.18,
+            "tracking": 0.2,
+            "weight": 0,
+            "motion": 0
+          }
+        }
+      ],
+      "translation_basis": "existing-adopted-character-and-weapon-type",
+      "source_ids": [
+        "coalesced:a0893174632d460384fa5d2888976b2e70f66bb5e92ca00120b2d792475984e8",
+        "coalesced:9fd0c5e59e3e30957442c28f708de028eeb7f3836a14556ec7edbe54547b1cb5"
+      ],
+      "term_ids": [
+        "mc2-support-alias-1100",
+        "mc2-system-025"
+      ],
+      "source_text": "Argo style Hammer",
+      "source_text_sha256": "39ade829efccba563044696cf4e988bcd7b56c31e70bed70c495d4c6cdf5a8c1",
+      "restoration": {
+        "source_rgba_sha256": "f965b0de6490d93fada5dad1b96da6e9bfea3b2df51a3ac72373498c9e7d5a0d",
+        "mask": {
+          "path": "locales/zh-Hans/texture-overlays/restorations/equipment-style-clean-v31/Style_Argo_Main-mask.png",
+          "sha256": "5c1dfb5e651c0735388a3cfc6f875ebfc81fa312e104445d7aa9e652b37b002d"
+        },
+        "patch": {
+          "path": "locales/zh-Hans/texture-overlays/restorations/equipment-style-clean-v31/Style_Argo_Main-patch.png",
+          "sha256": "c726e006831f81c9ff5dde68eed9fa6dae733cbbffe6f9c043ec272dfd768ff9"
+        }
+      }
+    },
+    {
+      "id": "style_argo_sub_lettering",
+      "text": "阿尔戈流派斧",
+      "rect": [
+        108,
+        308,
+        168,
+        68
+      ],
+      "font_size": 32,
+      "parts": [
+        {
+          "text": "阿尔戈",
+          "rect": [
+            6,
+            5,
+            90,
+            37
+          ],
+          "font_size": 32,
+          "appearance": {
+            "kind": "source-style-v1",
+            "ink_box": [
+              2,
+              2,
+              86,
+              28
+            ],
+            "align": "left",
+            "gradient": [
+              [
+                0,
+                [
+                  238,
+                  238,
+                  230,
+                  255
+                ]
+              ],
+              [
+                1000,
+                [
+                  221,
+                  220,
+                  213,
+                  255
+                ]
+              ]
+            ],
+            "outline": [
+              28,
+              24,
+              21,
+              225
+            ],
+            "outline_width": 0.7,
+            "glow": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "glow_radius": 0,
+            "shadow": [
+              0,
+              0,
+              0,
+              180
+            ],
+            "shadow_offset": [
+              1,
+              1
+            ],
+            "shadow_radius": 1,
+            "italic": 0.18,
+            "tracking": 0.2,
+            "weight": 0,
+            "motion": 0
+          }
+        },
+        {
+          "text": "流派",
+          "rect": [
+            95,
+            17,
+            42,
+            25
+          ],
+          "font_size": 20,
+          "appearance": {
+            "kind": "source-style-v1",
+            "ink_box": [
+              2,
+              2,
+              38,
+              16
+            ],
+            "align": "left",
+            "gradient": [
+              [
+                0,
+                [
+                  238,
+                  238,
+                  230,
+                  255
+                ]
+              ],
+              [
+                1000,
+                [
+                  221,
+                  220,
+                  213,
+                  255
+                ]
+              ]
+            ],
+            "outline": [
+              28,
+              24,
+              21,
+              225
+            ],
+            "outline_width": 0.7,
+            "glow": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "glow_radius": 0,
+            "shadow": [
+              0,
+              0,
+              0,
+              180
+            ],
+            "shadow_offset": [
+              1,
+              1
+            ],
+            "shadow_radius": 1,
+            "italic": 0.18,
+            "tracking": 0.2,
+            "weight": 0,
+            "motion": 0
+          }
+        },
+        {
+          "text": "斧",
+          "rect": [
+            113,
+            35,
+            38,
+            32
+          ],
+          "font_size": 27,
+          "appearance": {
+            "kind": "source-style-v1",
+            "ink_box": [
+              2,
+              2,
+              34,
+              23
+            ],
+            "align": "left",
+            "gradient": [
+              [
+                0,
+                [
+                  255,
+                  253,
+                  231,
+                  255
+                ]
+              ],
+              [
+                1000,
+                [
+                  255,
+                  231,
+                  207,
+                  255
+                ]
+              ]
+            ],
+            "outline": [
+              128,
+              40,
+              27,
+              180
+            ],
+            "outline_width": 0.7,
+            "glow": [
+              255,
+              62,
+              33,
+              210
+            ],
+            "glow_radius": 2,
+            "shadow": [
+              0,
+              0,
+              0,
+              180
+            ],
+            "shadow_offset": [
+              1,
+              1
+            ],
+            "shadow_radius": 1,
+            "italic": 0.18,
+            "tracking": 0.2,
+            "weight": 0,
+            "motion": 0
+          }
+        }
+      ],
+      "translation_basis": "existing-adopted-character-and-weapon-type",
+      "source_ids": [
+        "coalesced:a0893174632d460384fa5d2888976b2e70f66bb5e92ca00120b2d792475984e8",
+        "coalesced:8eee7ca9caeb89ae2d25aef287d70685b3f62548bcab65b0c3003cba416c6d51"
+      ],
+      "term_ids": [
+        "mc2-support-alias-1100",
+        "mc2-system-024"
+      ],
+      "source_text": "Argo style Axe",
+      "source_text_sha256": "380ae90afbed4c052b18a111cf2deab836fc28e78f6c6d9931a73cdee9a01e65",
+      "restoration": {
+        "source_rgba_sha256": "0abbaed2c9a1ded224d5afdf0e3ea1ed67aa10c8c7281654aad422888959c5ce",
+        "mask": {
+          "path": "locales/zh-Hans/texture-overlays/restorations/equipment-style-clean-v31/Style_Argo_Sub-mask.png",
+          "sha256": "ce849de339f6eda7cc9dc99c3f4a96e2dfd76cc1186fee3127d39de895e7e349"
+        },
+        "patch": {
+          "path": "locales/zh-Hans/texture-overlays/restorations/equipment-style-clean-v31/Style_Argo_Sub-patch.png",
+          "sha256": "e7e1dad141b149bdfc54249c57a9c63a70d4a208efc9e5abd892776abac3383e"
+        }
+      }
+    },
+    {
+      "id": "style_crocell_main_lettering",
+      "text": "克罗塞尔流派火球",
+      "rect": [
+        80,
+        308,
+        220,
+        68
+      ],
+      "font_size": 32,
+      "parts": [
+        {
+          "text": "克罗塞尔",
+          "rect": [
+            5,
+            5,
+            118,
+            37
+          ],
+          "font_size": 32,
+          "appearance": {
+            "kind": "source-style-v1",
+            "ink_box": [
+              2,
+              2,
+              114,
+              28
+            ],
+            "align": "left",
+            "gradient": [
+              [
+                0,
+                [
+                  238,
+                  238,
+                  230,
+                  255
+                ]
+              ],
+              [
+                1000,
+                [
+                  221,
+                  220,
+                  213,
+                  255
+                ]
+              ]
+            ],
+            "outline": [
+              28,
+              24,
+              21,
+              225
+            ],
+            "outline_width": 0.7,
+            "glow": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "glow_radius": 0,
+            "shadow": [
+              0,
+              0,
+              0,
+              180
+            ],
+            "shadow_offset": [
+              1,
+              1
+            ],
+            "shadow_radius": 1,
+            "italic": 0.18,
+            "tracking": 0.2,
+            "weight": 0,
+            "motion": 0
+          }
+        },
+        {
+          "text": "流派",
+          "rect": [
+            122,
+            17,
+            42,
+            25
+          ],
+          "font_size": 20,
+          "appearance": {
+            "kind": "source-style-v1",
+            "ink_box": [
+              2,
+              2,
+              38,
+              16
+            ],
+            "align": "left",
+            "gradient": [
+              [
+                0,
+                [
+                  238,
+                  238,
+                  230,
+                  255
+                ]
+              ],
+              [
+                1000,
+                [
+                  221,
+                  220,
+                  213,
+                  255
+                ]
+              ]
+            ],
+            "outline": [
+              28,
+              24,
+              21,
+              225
+            ],
+            "outline_width": 0.7,
+            "glow": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "glow_radius": 0,
+            "shadow": [
+              0,
+              0,
+              0,
+              180
+            ],
+            "shadow_offset": [
+              1,
+              1
+            ],
+            "shadow_radius": 1,
+            "italic": 0.18,
+            "tracking": 0.2,
+            "weight": 0,
+            "motion": 0
+          }
+        },
+        {
+          "text": "火球",
+          "rect": [
+            115,
+            35,
+            60,
+            32
+          ],
+          "font_size": 27,
+          "appearance": {
+            "kind": "source-style-v1",
+            "ink_box": [
+              2,
+              2,
+              56,
+              23
+            ],
+            "align": "left",
+            "gradient": [
+              [
+                0,
+                [
+                  255,
+                  253,
+                  231,
+                  255
+                ]
+              ],
+              [
+                1000,
+                [
+                  255,
+                  231,
+                  207,
+                  255
+                ]
+              ]
+            ],
+            "outline": [
+              128,
+              40,
+              27,
+              180
+            ],
+            "outline_width": 0.7,
+            "glow": [
+              255,
+              62,
+              33,
+              210
+            ],
+            "glow_radius": 2,
+            "shadow": [
+              0,
+              0,
+              0,
+              180
+            ],
+            "shadow_offset": [
+              1,
+              1
+            ],
+            "shadow_radius": 1,
+            "italic": 0.18,
+            "tracking": 0.2,
+            "weight": 0,
+            "motion": 0
+          }
+        }
+      ],
+      "translation_basis": "existing-adopted-character-and-weapon-type",
+      "source_ids": [
+        "coalesced:e1bf9f25b14709fe8e4c613086c99abb53872fdb036c2b278c36d0d53a589d81",
+        "coalesced:0ead576d14aad8495e772e678bf7cf9164d3ffbfdf03a7ca68824b9df337520f"
+      ],
+      "term_ids": [
+        "mc2-support-alias-1099",
+        "mc2-system-028"
+      ],
+      "source_text": "Crocell style Fireball",
+      "source_text_sha256": "883be5acc8d6c418e09f57a165bf174448998eadafba7c33b9b596b9a4b7e6c0",
+      "restoration": {
+        "source_rgba_sha256": "41ac58727414e535e94526fce0e1fe3e9ac32f543dfc3e933da78046d00cc24b",
+        "mask": {
+          "path": "locales/zh-Hans/texture-overlays/restorations/equipment-style-clean-v31/Style_Crocell_Main-mask.png",
+          "sha256": "7f00cbe9b837081c83272969bb03012d5507d4900809ac08b2af59d0e0344ed2"
+        },
+        "patch": {
+          "path": "locales/zh-Hans/texture-overlays/restorations/equipment-style-clean-v31/Style_Crocell_Main-patch.png",
+          "sha256": "ff146580f506b0e4344627f50e6a298beb54eaa10db07ce97b225f2a05f59ef8"
+        }
+      }
+    },
+    {
+      "id": "style_crocell_sub_lettering",
+      "text": "克罗塞尔流派拳套",
+      "rect": [
+        80,
+        308,
+        220,
+        68
+      ],
+      "font_size": 32,
+      "parts": [
+        {
+          "text": "克罗塞尔",
+          "rect": [
+            5,
+            5,
+            118,
+            37
+          ],
+          "font_size": 32,
+          "appearance": {
+            "kind": "source-style-v1",
+            "ink_box": [
+              2,
+              2,
+              114,
+              28
+            ],
+            "align": "left",
+            "gradient": [
+              [
+                0,
+                [
+                  238,
+                  238,
+                  230,
+                  255
+                ]
+              ],
+              [
+                1000,
+                [
+                  221,
+                  220,
+                  213,
+                  255
+                ]
+              ]
+            ],
+            "outline": [
+              28,
+              24,
+              21,
+              225
+            ],
+            "outline_width": 0.7,
+            "glow": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "glow_radius": 0,
+            "shadow": [
+              0,
+              0,
+              0,
+              180
+            ],
+            "shadow_offset": [
+              1,
+              1
+            ],
+            "shadow_radius": 1,
+            "italic": 0.18,
+            "tracking": 0.2,
+            "weight": 0,
+            "motion": 0
+          }
+        },
+        {
+          "text": "流派",
+          "rect": [
+            122,
+            17,
+            42,
+            25
+          ],
+          "font_size": 20,
+          "appearance": {
+            "kind": "source-style-v1",
+            "ink_box": [
+              2,
+              2,
+              38,
+              16
+            ],
+            "align": "left",
+            "gradient": [
+              [
+                0,
+                [
+                  238,
+                  238,
+                  230,
+                  255
+                ]
+              ],
+              [
+                1000,
+                [
+                  221,
+                  220,
+                  213,
+                  255
+                ]
+              ]
+            ],
+            "outline": [
+              28,
+              24,
+              21,
+              225
+            ],
+            "outline_width": 0.7,
+            "glow": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "glow_radius": 0,
+            "shadow": [
+              0,
+              0,
+              0,
+              180
+            ],
+            "shadow_offset": [
+              1,
+              1
+            ],
+            "shadow_radius": 1,
+            "italic": 0.18,
+            "tracking": 0.2,
+            "weight": 0,
+            "motion": 0
+          }
+        },
+        {
+          "text": "拳套",
+          "rect": [
+            117,
+            35,
+            60,
+            32
+          ],
+          "font_size": 27,
+          "appearance": {
+            "kind": "source-style-v1",
+            "ink_box": [
+              2,
+              2,
+              56,
+              23
+            ],
+            "align": "left",
+            "gradient": [
+              [
+                0,
+                [
+                  255,
+                  253,
+                  231,
+                  255
+                ]
+              ],
+              [
+                1000,
+                [
+                  255,
+                  231,
+                  207,
+                  255
+                ]
+              ]
+            ],
+            "outline": [
+              128,
+              40,
+              27,
+              180
+            ],
+            "outline_width": 0.7,
+            "glow": [
+              255,
+              62,
+              33,
+              210
+            ],
+            "glow_radius": 2,
+            "shadow": [
+              0,
+              0,
+              0,
+              180
+            ],
+            "shadow_offset": [
+              1,
+              1
+            ],
+            "shadow_radius": 1,
+            "italic": 0.18,
+            "tracking": 0.2,
+            "weight": 0,
+            "motion": 0
+          }
+        }
+      ],
+      "translation_basis": "existing-adopted-character-and-weapon-type",
+      "source_ids": [
+        "coalesced:e1bf9f25b14709fe8e4c613086c99abb53872fdb036c2b278c36d0d53a589d81",
+        "coalesced:d95e719813f873cb4079eccbf072eabfdab322306747da25dc44a5600a15ffb7"
+      ],
+      "term_ids": [
+        "mc2-support-alias-1099",
+        "mc2-system-029"
+      ],
+      "source_text": "Crocell style Knuckle",
+      "source_text_sha256": "f058a9f65ac2ecaf99d6549d14703d4bc048aaa18a48c37afe6fba9d86abe21b",
+      "restoration": {
+        "source_rgba_sha256": "2d623a0869cf8e338dbbb40256b6776fc528ef9f2a0a9470cc643cdc33e90f69",
+        "mask": {
+          "path": "locales/zh-Hans/texture-overlays/restorations/equipment-style-clean-v31/Style_Crocell_Sub-mask.png",
+          "sha256": "d4be1ab346a9fb0768790c69e5618c51c6dba0aa4484dafb917dba92c033bf50"
+        },
+        "patch": {
+          "path": "locales/zh-Hans/texture-overlays/restorations/equipment-style-clean-v31/Style_Crocell_Sub-patch.png",
+          "sha256": "a4af323982ea1691c8a65eb23943f9c2625a5777418d623e8bf3193697269481"
+        }
+      }
+    },
+    {
+      "id": "style_juto_main_lettering",
+      "text": "朱特流派单手剑",
+      "rect": [
+        80,
+        304,
+        268,
+        72
+      ],
+      "font_size": 32,
+      "parts": [
+        {
+          "text": "朱特",
+          "rect": [
+            9,
+            9,
+            62,
+            37
+          ],
+          "font_size": 32,
+          "appearance": {
+            "kind": "source-style-v1",
+            "ink_box": [
+              2,
+              2,
+              58,
+              28
+            ],
+            "align": "left",
+            "gradient": [
+              [
+                0,
+                [
+                  238,
+                  238,
+                  230,
+                  255
+                ]
+              ],
+              [
+                1000,
+                [
+                  221,
+                  220,
+                  213,
+                  255
+                ]
+              ]
+            ],
+            "outline": [
+              28,
+              24,
+              21,
+              225
+            ],
+            "outline_width": 0.7,
+            "glow": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "glow_radius": 0,
+            "shadow": [
+              0,
+              0,
+              0,
+              180
+            ],
+            "shadow_offset": [
+              1,
+              1
+            ],
+            "shadow_radius": 1,
+            "italic": 0.18,
+            "tracking": 0.2,
+            "weight": 0,
+            "motion": 0
+          }
+        },
+        {
+          "text": "流派",
+          "rect": [
+            70,
+            21,
+            42,
+            25
+          ],
+          "font_size": 20,
+          "appearance": {
+            "kind": "source-style-v1",
+            "ink_box": [
+              2,
+              2,
+              38,
+              16
+            ],
+            "align": "left",
+            "gradient": [
+              [
+                0,
+                [
+                  238,
+                  238,
+                  230,
+                  255
+                ]
+              ],
+              [
+                1000,
+                [
+                  221,
+                  220,
+                  213,
+                  255
+                ]
+              ]
+            ],
+            "outline": [
+              28,
+              24,
+              21,
+              225
+            ],
+            "outline_width": 0.7,
+            "glow": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "glow_radius": 0,
+            "shadow": [
+              0,
+              0,
+              0,
+              180
+            ],
+            "shadow_offset": [
+              1,
+              1
+            ],
+            "shadow_radius": 1,
+            "italic": 0.18,
+            "tracking": 0.2,
+            "weight": 0,
+            "motion": 0
+          }
+        },
+        {
+          "text": "单手剑",
+          "rect": [
+            71,
+            39,
+            86,
+            32
+          ],
+          "font_size": 27,
+          "appearance": {
+            "kind": "source-style-v1",
+            "ink_box": [
+              2,
+              2,
+              82,
+              23
+            ],
+            "align": "left",
+            "gradient": [
+              [
+                0,
+                [
+                  255,
+                  253,
+                  231,
+                  255
+                ]
+              ],
+              [
+                1000,
+                [
+                  255,
+                  231,
+                  207,
+                  255
+                ]
+              ]
+            ],
+            "outline": [
+              128,
+              40,
+              27,
+              180
+            ],
+            "outline_width": 0.7,
+            "glow": [
+              255,
+              62,
+              33,
+              210
+            ],
+            "glow_radius": 2,
+            "shadow": [
+              0,
+              0,
+              0,
+              180
+            ],
+            "shadow_offset": [
+              1,
+              1
+            ],
+            "shadow_radius": 1,
+            "italic": 0.18,
+            "tracking": 0.2,
+            "weight": 0,
+            "motion": 0
+          }
+        }
+      ],
+      "translation_basis": "existing-adopted-character-and-weapon-type",
+      "source_ids": [
+        "coalesced:4cf6df67a7244c417922da2a435e02edc1315946297e11bdccbbf3f9dae973d0",
+        "coalesced:3f08b561c9f8469b9740499abb283497adebef0915e0042ef6f9bb7c4ff5bd90"
+      ],
+      "term_ids": [
+        "mc2-support-alias-1098",
+        "mc2-combat-018"
+      ],
+      "source_text": "Juto style One-hand Sword",
+      "source_text_sha256": "eb6cb808a402ed3ce6304acbd584ffced8c74d81b8bf4ce7848c2827a5b37aa1",
+      "restoration": {
+        "source_rgba_sha256": "79dc32dec6e5f32ba09c67b62b19b40e2e581a3246d43895cbe1064c988ae056",
+        "mask": {
+          "path": "locales/zh-Hans/texture-overlays/restorations/equipment-style-clean-v31/Style_Juto_Main-mask.png",
+          "sha256": "fea3938dc216b6af8758dd0f965572d10c88786d4c7e2225bd6b7a670429f2fb"
+        },
+        "patch": {
+          "path": "locales/zh-Hans/texture-overlays/restorations/equipment-style-clean-v31/Style_Juto_Main-patch.png",
+          "sha256": "4824a9c59a4779c3a6843b2c6339502c071b2783591a5e8e76484a7a189ccb1b"
+        }
+      }
+    },
+    {
+      "id": "style_juto_sub_lettering",
+      "text": "朱特流派双手剑",
+      "rect": [
+        80,
+        304,
+        268,
+        72
+      ],
+      "font_size": 32,
+      "parts": [
+        {
+          "text": "朱特",
+          "rect": [
+            9,
+            9,
+            62,
+            37
+          ],
+          "font_size": 32,
+          "appearance": {
+            "kind": "source-style-v1",
+            "ink_box": [
+              2,
+              2,
+              58,
+              28
+            ],
+            "align": "left",
+            "gradient": [
+              [
+                0,
+                [
+                  238,
+                  238,
+                  230,
+                  255
+                ]
+              ],
+              [
+                1000,
+                [
+                  221,
+                  220,
+                  213,
+                  255
+                ]
+              ]
+            ],
+            "outline": [
+              28,
+              24,
+              21,
+              225
+            ],
+            "outline_width": 0.7,
+            "glow": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "glow_radius": 0,
+            "shadow": [
+              0,
+              0,
+              0,
+              180
+            ],
+            "shadow_offset": [
+              1,
+              1
+            ],
+            "shadow_radius": 1,
+            "italic": 0.18,
+            "tracking": 0.2,
+            "weight": 0,
+            "motion": 0
+          }
+        },
+        {
+          "text": "流派",
+          "rect": [
+            70,
+            21,
+            42,
+            25
+          ],
+          "font_size": 20,
+          "appearance": {
+            "kind": "source-style-v1",
+            "ink_box": [
+              2,
+              2,
+              38,
+              16
+            ],
+            "align": "left",
+            "gradient": [
+              [
+                0,
+                [
+                  238,
+                  238,
+                  230,
+                  255
+                ]
+              ],
+              [
+                1000,
+                [
+                  221,
+                  220,
+                  213,
+                  255
+                ]
+              ]
+            ],
+            "outline": [
+              28,
+              24,
+              21,
+              225
+            ],
+            "outline_width": 0.7,
+            "glow": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "glow_radius": 0,
+            "shadow": [
+              0,
+              0,
+              0,
+              180
+            ],
+            "shadow_offset": [
+              1,
+              1
+            ],
+            "shadow_radius": 1,
+            "italic": 0.18,
+            "tracking": 0.2,
+            "weight": 0,
+            "motion": 0
+          }
+        },
+        {
+          "text": "双手剑",
+          "rect": [
+            69,
+            39,
+            86,
+            32
+          ],
+          "font_size": 27,
+          "appearance": {
+            "kind": "source-style-v1",
+            "ink_box": [
+              2,
+              2,
+              82,
+              23
+            ],
+            "align": "left",
+            "gradient": [
+              [
+                0,
+                [
+                  255,
+                  253,
+                  231,
+                  255
+                ]
+              ],
+              [
+                1000,
+                [
+                  255,
+                  231,
+                  207,
+                  255
+                ]
+              ]
+            ],
+            "outline": [
+              128,
+              40,
+              27,
+              180
+            ],
+            "outline_width": 0.7,
+            "glow": [
+              255,
+              62,
+              33,
+              210
+            ],
+            "glow_radius": 2,
+            "shadow": [
+              0,
+              0,
+              0,
+              180
+            ],
+            "shadow_offset": [
+              1,
+              1
+            ],
+            "shadow_radius": 1,
+            "italic": 0.18,
+            "tracking": 0.2,
+            "weight": 0,
+            "motion": 0
+          }
+        }
+      ],
+      "translation_basis": "existing-adopted-character-and-weapon-type",
+      "source_ids": [
+        "coalesced:4cf6df67a7244c417922da2a435e02edc1315946297e11bdccbbf3f9dae973d0",
+        "coalesced:3f08b561c9f8469b9740499abb283497adebef0915e0042ef6f9bb7c4ff5bd90"
+      ],
+      "term_ids": [
+        "mc2-support-alias-1098",
+        "mc2-combat-019"
+      ],
+      "source_text": "Juto style Two-hand Sword",
+      "source_text_sha256": "a26cd2104a4097bcc792f3151e41a84f712806570866d1748f2c6056c4d33b9e",
+      "restoration": {
+        "source_rgba_sha256": "24c7d4a6297f3a2461baef94153d7a14d8911354fa4a4bed05054f0579408cf1",
+        "mask": {
+          "path": "locales/zh-Hans/texture-overlays/restorations/equipment-style-clean-v31/Style_Juto_Sub-mask.png",
+          "sha256": "bd217f84ad5364ea03135343ff9c1998b4fc1beea2452897934a6a497b5e49c3"
+        },
+        "patch": {
+          "path": "locales/zh-Hans/texture-overlays/restorations/equipment-style-clean-v31/Style_Juto_Sub-patch.png",
+          "sha256": "71c3424d57032eb8a17aa08080930f6dddcd2a81caa8b0b45c886cc164459388"
+        }
+      }
+    },
+    {
+      "id": "style_juto_w_main_lettering",
+      "text": "朱特流派单手剑",
+      "rect": [
+        80,
+        304,
+        268,
+        72
+      ],
+      "font_size": 32,
+      "parts": [
+        {
+          "text": "朱特",
+          "rect": [
+            9,
+            9,
+            62,
+            37
+          ],
+          "font_size": 32,
+          "appearance": {
+            "kind": "source-style-v1",
+            "ink_box": [
+              2,
+              2,
+              58,
+              28
+            ],
+            "align": "left",
+            "gradient": [
+              [
+                0,
+                [
+                  238,
+                  238,
+                  230,
+                  255
+                ]
+              ],
+              [
+                1000,
+                [
+                  221,
+                  220,
+                  213,
+                  255
+                ]
+              ]
+            ],
+            "outline": [
+              28,
+              24,
+              21,
+              225
+            ],
+            "outline_width": 0.7,
+            "glow": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "glow_radius": 0,
+            "shadow": [
+              0,
+              0,
+              0,
+              180
+            ],
+            "shadow_offset": [
+              1,
+              1
+            ],
+            "shadow_radius": 1,
+            "italic": 0.18,
+            "tracking": 0.2,
+            "weight": 0,
+            "motion": 0
+          }
+        },
+        {
+          "text": "流派",
+          "rect": [
+            70,
+            21,
+            42,
+            25
+          ],
+          "font_size": 20,
+          "appearance": {
+            "kind": "source-style-v1",
+            "ink_box": [
+              2,
+              2,
+              38,
+              16
+            ],
+            "align": "left",
+            "gradient": [
+              [
+                0,
+                [
+                  238,
+                  238,
+                  230,
+                  255
+                ]
+              ],
+              [
+                1000,
+                [
+                  221,
+                  220,
+                  213,
+                  255
+                ]
+              ]
+            ],
+            "outline": [
+              28,
+              24,
+              21,
+              225
+            ],
+            "outline_width": 0.7,
+            "glow": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "glow_radius": 0,
+            "shadow": [
+              0,
+              0,
+              0,
+              180
+            ],
+            "shadow_offset": [
+              1,
+              1
+            ],
+            "shadow_radius": 1,
+            "italic": 0.18,
+            "tracking": 0.2,
+            "weight": 0,
+            "motion": 0
+          }
+        },
+        {
+          "text": "单手剑",
+          "rect": [
+            71,
+            39,
+            86,
+            32
+          ],
+          "font_size": 27,
+          "appearance": {
+            "kind": "source-style-v1",
+            "ink_box": [
+              2,
+              2,
+              82,
+              23
+            ],
+            "align": "left",
+            "gradient": [
+              [
+                0,
+                [
+                  255,
+                  253,
+                  231,
+                  255
+                ]
+              ],
+              [
+                1000,
+                [
+                  255,
+                  231,
+                  207,
+                  255
+                ]
+              ]
+            ],
+            "outline": [
+              128,
+              40,
+              27,
+              180
+            ],
+            "outline_width": 0.7,
+            "glow": [
+              255,
+              62,
+              33,
+              210
+            ],
+            "glow_radius": 2,
+            "shadow": [
+              0,
+              0,
+              0,
+              180
+            ],
+            "shadow_offset": [
+              1,
+              1
+            ],
+            "shadow_radius": 1,
+            "italic": 0.18,
+            "tracking": 0.2,
+            "weight": 0,
+            "motion": 0
+          }
+        }
+      ],
+      "translation_basis": "existing-adopted-character-and-weapon-type",
+      "source_ids": [
+        "coalesced:4cf6df67a7244c417922da2a435e02edc1315946297e11bdccbbf3f9dae973d0",
+        "coalesced:3f08b561c9f8469b9740499abb283497adebef0915e0042ef6f9bb7c4ff5bd90"
+      ],
+      "term_ids": [
+        "mc2-support-alias-1098",
+        "mc2-combat-018"
+      ],
+      "source_text": "Juto style One-hand Sword",
+      "source_text_sha256": "eb6cb808a402ed3ce6304acbd584ffced8c74d81b8bf4ce7848c2827a5b37aa1",
+      "restoration": {
+        "source_rgba_sha256": "9f1b0dd38dcd7c5a853860782e45883e10b4928270ee693e3247b5301cea917f",
+        "mask": {
+          "path": "locales/zh-Hans/texture-overlays/restorations/equipment-style-clean-v31/Style_Juto_W_Main-mask.png",
+          "sha256": "fea3938dc216b6af8758dd0f965572d10c88786d4c7e2225bd6b7a670429f2fb"
+        },
+        "patch": {
+          "path": "locales/zh-Hans/texture-overlays/restorations/equipment-style-clean-v31/Style_Juto_W_Main-patch.png",
+          "sha256": "5d7fd5ec15686eb6fe5d580a9600de76cbf35b394235f918a3ce2984ac2ab161"
+        }
+      }
+    },
+    {
+      "id": "style_juto_w_sub_lettering",
+      "text": "朱特流派双手剑",
+      "rect": [
+        80,
+        304,
+        268,
+        72
+      ],
+      "font_size": 32,
+      "parts": [
+        {
+          "text": "朱特",
+          "rect": [
+            9,
+            9,
+            62,
+            37
+          ],
+          "font_size": 32,
+          "appearance": {
+            "kind": "source-style-v1",
+            "ink_box": [
+              2,
+              2,
+              58,
+              28
+            ],
+            "align": "left",
+            "gradient": [
+              [
+                0,
+                [
+                  238,
+                  238,
+                  230,
+                  255
+                ]
+              ],
+              [
+                1000,
+                [
+                  221,
+                  220,
+                  213,
+                  255
+                ]
+              ]
+            ],
+            "outline": [
+              28,
+              24,
+              21,
+              225
+            ],
+            "outline_width": 0.7,
+            "glow": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "glow_radius": 0,
+            "shadow": [
+              0,
+              0,
+              0,
+              180
+            ],
+            "shadow_offset": [
+              1,
+              1
+            ],
+            "shadow_radius": 1,
+            "italic": 0.18,
+            "tracking": 0.2,
+            "weight": 0,
+            "motion": 0
+          }
+        },
+        {
+          "text": "流派",
+          "rect": [
+            70,
+            21,
+            42,
+            25
+          ],
+          "font_size": 20,
+          "appearance": {
+            "kind": "source-style-v1",
+            "ink_box": [
+              2,
+              2,
+              38,
+              16
+            ],
+            "align": "left",
+            "gradient": [
+              [
+                0,
+                [
+                  238,
+                  238,
+                  230,
+                  255
+                ]
+              ],
+              [
+                1000,
+                [
+                  221,
+                  220,
+                  213,
+                  255
+                ]
+              ]
+            ],
+            "outline": [
+              28,
+              24,
+              21,
+              225
+            ],
+            "outline_width": 0.7,
+            "glow": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "glow_radius": 0,
+            "shadow": [
+              0,
+              0,
+              0,
+              180
+            ],
+            "shadow_offset": [
+              1,
+              1
+            ],
+            "shadow_radius": 1,
+            "italic": 0.18,
+            "tracking": 0.2,
+            "weight": 0,
+            "motion": 0
+          }
+        },
+        {
+          "text": "双手剑",
+          "rect": [
+            69,
+            39,
+            86,
+            32
+          ],
+          "font_size": 27,
+          "appearance": {
+            "kind": "source-style-v1",
+            "ink_box": [
+              2,
+              2,
+              82,
+              23
+            ],
+            "align": "left",
+            "gradient": [
+              [
+                0,
+                [
+                  255,
+                  253,
+                  231,
+                  255
+                ]
+              ],
+              [
+                1000,
+                [
+                  255,
+                  231,
+                  207,
+                  255
+                ]
+              ]
+            ],
+            "outline": [
+              128,
+              40,
+              27,
+              180
+            ],
+            "outline_width": 0.7,
+            "glow": [
+              255,
+              62,
+              33,
+              210
+            ],
+            "glow_radius": 2,
+            "shadow": [
+              0,
+              0,
+              0,
+              180
+            ],
+            "shadow_offset": [
+              1,
+              1
+            ],
+            "shadow_radius": 1,
+            "italic": 0.18,
+            "tracking": 0.2,
+            "weight": 0,
+            "motion": 0
+          }
+        }
+      ],
+      "translation_basis": "existing-adopted-character-and-weapon-type",
+      "source_ids": [
+        "coalesced:4cf6df67a7244c417922da2a435e02edc1315946297e11bdccbbf3f9dae973d0",
+        "coalesced:3f08b561c9f8469b9740499abb283497adebef0915e0042ef6f9bb7c4ff5bd90"
+      ],
+      "term_ids": [
+        "mc2-support-alias-1098",
+        "mc2-combat-019"
+      ],
+      "source_text": "Juto style Two-hand Sword",
+      "source_text_sha256": "a26cd2104a4097bcc792f3151e41a84f712806570866d1748f2c6056c4d33b9e",
+      "restoration": {
+        "source_rgba_sha256": "66924f1680b34a23da92ba78ea46ce60aa45225e29d23f9ce830b52247e5ba83",
+        "mask": {
+          "path": "locales/zh-Hans/texture-overlays/restorations/equipment-style-clean-v31/Style_Juto_W_Sub-mask.png",
+          "sha256": "bd217f84ad5364ea03135343ff9c1998b4fc1beea2452897934a6a497b5e49c3"
+        },
+        "patch": {
+          "path": "locales/zh-Hans/texture-overlays/restorations/equipment-style-clean-v31/Style_Juto_W_Sub-patch.png",
+          "sha256": "da177b48e0052fe747af2ff5654067d5fa55c06aea586852e95de9f342a3c84d"
+        }
+      }
+    },
+    {
+      "id": "style_ru_main_lettering",
+      "text": "露流派太刀",
+      "rect": [
+        124,
+        308,
+        188,
+        68
+      ],
+      "font_size": 32,
+      "parts": [
+        {
+          "text": "露",
+          "rect": [
+            6,
+            5,
+            34,
+            37
+          ],
+          "font_size": 32,
+          "appearance": {
+            "kind": "source-style-v1",
+            "ink_box": [
+              2,
+              2,
+              30,
+              28
+            ],
+            "align": "left",
+            "gradient": [
+              [
+                0,
+                [
+                  238,
+                  238,
+                  230,
+                  255
+                ]
+              ],
+              [
+                1000,
+                [
+                  221,
+                  220,
+                  213,
+                  255
+                ]
+              ]
+            ],
+            "outline": [
+              28,
+              24,
+              21,
+              225
+            ],
+            "outline_width": 0.7,
+            "glow": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "glow_radius": 0,
+            "shadow": [
+              0,
+              0,
+              0,
+              180
+            ],
+            "shadow_offset": [
+              1,
+              1
+            ],
+            "shadow_radius": 1,
+            "italic": 0.18,
+            "tracking": 0.2,
+            "weight": 0,
+            "motion": 0
+          }
+        },
+        {
+          "text": "流派",
+          "rect": [
+            39,
+            17,
+            42,
+            25
+          ],
+          "font_size": 20,
+          "appearance": {
+            "kind": "source-style-v1",
+            "ink_box": [
+              2,
+              2,
+              38,
+              16
+            ],
+            "align": "left",
+            "gradient": [
+              [
+                0,
+                [
+                  238,
+                  238,
+                  230,
+                  255
+                ]
+              ],
+              [
+                1000,
+                [
+                  221,
+                  220,
+                  213,
+                  255
+                ]
+              ]
+            ],
+            "outline": [
+              28,
+              24,
+              21,
+              225
+            ],
+            "outline_width": 0.7,
+            "glow": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "glow_radius": 0,
+            "shadow": [
+              0,
+              0,
+              0,
+              180
+            ],
+            "shadow_offset": [
+              1,
+              1
+            ],
+            "shadow_radius": 1,
+            "italic": 0.18,
+            "tracking": 0.2,
+            "weight": 0,
+            "motion": 0
+          }
+        },
+        {
+          "text": "太刀",
+          "rect": [
+            97,
+            35,
+            60,
+            32
+          ],
+          "font_size": 27,
+          "appearance": {
+            "kind": "source-style-v1",
+            "ink_box": [
+              2,
+              2,
+              56,
+              23
+            ],
+            "align": "left",
+            "gradient": [
+              [
+                0,
+                [
+                  255,
+                  253,
+                  231,
+                  255
+                ]
+              ],
+              [
+                1000,
+                [
+                  255,
+                  231,
+                  207,
+                  255
+                ]
+              ]
+            ],
+            "outline": [
+              128,
+              40,
+              27,
+              180
+            ],
+            "outline_width": 0.7,
+            "glow": [
+              255,
+              62,
+              33,
+              210
+            ],
+            "glow_radius": 2,
+            "shadow": [
+              0,
+              0,
+              0,
+              180
+            ],
+            "shadow_offset": [
+              1,
+              1
+            ],
+            "shadow_radius": 1,
+            "italic": 0.18,
+            "tracking": 0.2,
+            "weight": 0,
+            "motion": 0
+          }
+        }
+      ],
+      "translation_basis": "existing-adopted-character-and-weapon-type",
+      "source_ids": [
+        "coalesced:6e1033e2ed450c5aea126fd7aa373cba07fcd4715fc73c42b9a96a5f384d1d31",
+        "coalesced:ca3c9056778336ea476b2b8416a87d3ffb93dc2e73c722da87cc1a5edd078ade"
+      ],
+      "term_ids": [
+        "mc2-support-alias-1097",
+        "mc2-system-034"
+      ],
+      "source_text": "Rue style Katana",
+      "source_text_sha256": "4447bb46ce8890886b80bc345c268f303ffc2cad5209789182ff61ff607c47bb",
+      "restoration": {
+        "source_rgba_sha256": "aa3e7f507ae2d7fe3bca71fcf99119c11720dc9e5d003910bbf1b3f009a9e821",
+        "mask": {
+          "path": "locales/zh-Hans/texture-overlays/restorations/equipment-style-clean-v31/Style_Ru_Main-mask.png",
+          "sha256": "be0cb0972c281aae6feb83ff80ae2a26063969bfe6de8af19c17a4401b1f3c60"
+        },
+        "patch": {
+          "path": "locales/zh-Hans/texture-overlays/restorations/equipment-style-clean-v31/Style_Ru_Main-patch.png",
+          "sha256": "112b1999a01c1aea17d32c9625108fce105439fab279914abaff24a3fdba75b3"
+        }
+      }
+    },
+    {
+      "id": "style_ru_sub_lettering",
+      "text": "露流派手里剑",
+      "rect": [
+        124,
+        308,
+        216,
+        68
+      ],
+      "font_size": 32,
+      "parts": [
+        {
+          "text": "露",
+          "rect": [
+            6,
+            5,
+            34,
+            37
+          ],
+          "font_size": 32,
+          "appearance": {
+            "kind": "source-style-v1",
+            "ink_box": [
+              2,
+              2,
+              30,
+              28
+            ],
+            "align": "left",
+            "gradient": [
+              [
+                0,
+                [
+                  238,
+                  238,
+                  230,
+                  255
+                ]
+              ],
+              [
+                1000,
+                [
+                  221,
+                  220,
+                  213,
+                  255
+                ]
+              ]
+            ],
+            "outline": [
+              28,
+              24,
+              21,
+              225
+            ],
+            "outline_width": 0.7,
+            "glow": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "glow_radius": 0,
+            "shadow": [
+              0,
+              0,
+              0,
+              180
+            ],
+            "shadow_offset": [
+              1,
+              1
+            ],
+            "shadow_radius": 1,
+            "italic": 0.18,
+            "tracking": 0.2,
+            "weight": 0,
+            "motion": 0
+          }
+        },
+        {
+          "text": "流派",
+          "rect": [
+            39,
+            17,
+            42,
+            25
+          ],
+          "font_size": 20,
+          "appearance": {
+            "kind": "source-style-v1",
+            "ink_box": [
+              2,
+              2,
+              38,
+              16
+            ],
+            "align": "left",
+            "gradient": [
+              [
+                0,
+                [
+                  238,
+                  238,
+                  230,
+                  255
+                ]
+              ],
+              [
+                1000,
+                [
+                  221,
+                  220,
+                  213,
+                  255
+                ]
+              ]
+            ],
+            "outline": [
+              28,
+              24,
+              21,
+              225
+            ],
+            "outline_width": 0.7,
+            "glow": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "glow_radius": 0,
+            "shadow": [
+              0,
+              0,
+              0,
+              180
+            ],
+            "shadow_offset": [
+              1,
+              1
+            ],
+            "shadow_radius": 1,
+            "italic": 0.18,
+            "tracking": 0.2,
+            "weight": 0,
+            "motion": 0
+          }
+        },
+        {
+          "text": "手里剑",
+          "rect": [
+            97,
+            35,
+            86,
+            32
+          ],
+          "font_size": 27,
+          "appearance": {
+            "kind": "source-style-v1",
+            "ink_box": [
+              2,
+              2,
+              82,
+              23
+            ],
+            "align": "left",
+            "gradient": [
+              [
+                0,
+                [
+                  255,
+                  253,
+                  231,
+                  255
+                ]
+              ],
+              [
+                1000,
+                [
+                  255,
+                  231,
+                  207,
+                  255
+                ]
+              ]
+            ],
+            "outline": [
+              128,
+              40,
+              27,
+              180
+            ],
+            "outline_width": 0.7,
+            "glow": [
+              255,
+              62,
+              33,
+              210
+            ],
+            "glow_radius": 2,
+            "shadow": [
+              0,
+              0,
+              0,
+              180
+            ],
+            "shadow_offset": [
+              1,
+              1
+            ],
+            "shadow_radius": 1,
+            "italic": 0.18,
+            "tracking": 0.2,
+            "weight": 0,
+            "motion": 0
+          }
+        }
+      ],
+      "translation_basis": "existing-adopted-character-and-weapon-type",
+      "source_ids": [
+        "coalesced:6e1033e2ed450c5aea126fd7aa373cba07fcd4715fc73c42b9a96a5f384d1d31",
+        "coalesced:61baaf510986343e368de5e68772c06b300ee186400773deb2149229481fd2ce"
+      ],
+      "term_ids": [
+        "mc2-support-alias-1097",
+        "mc2-system-035"
+      ],
+      "source_text": "Rue style Shuriken",
+      "source_text_sha256": "f61354ea8ad391e60da61bc8214b26b717ce5aa4d0f08562aa0962b1511bfc1f",
+      "restoration": {
+        "source_rgba_sha256": "830e5bf007b413adf6be024eea011d475dbfd48f10d031f5b463e3260e83f80b",
+        "mask": {
+          "path": "locales/zh-Hans/texture-overlays/restorations/equipment-style-clean-v31/Style_Ru_Sub-mask.png",
+          "sha256": "dc98480672777fe0af3b79577e648f19a9f91dfb4a73f544710c8dfd400bb627"
+        },
+        "patch": {
+          "path": "locales/zh-Hans/texture-overlays/restorations/equipment-style-clean-v31/Style_Ru_Sub-patch.png",
+          "sha256": "f1efa4fcd52e9d3255cd40154327a84372a6c511bf8ac8ebada1942f5a04fb28"
+        }
+      }
+    },
+    {
+      "id": "style_serestin_main_lettering",
+      "text": "塞蕾丝汀流派香器",
+      "rect": [
+        84,
+        304,
+        312,
+        76
+      ],
+      "font_size": 32,
+      "parts": [
+        {
+          "text": "塞蕾丝汀",
+          "rect": [
+            6,
+            9,
+            118,
+            37
+          ],
+          "font_size": 32,
+          "appearance": {
+            "kind": "source-style-v1",
+            "ink_box": [
+              2,
+              2,
+              114,
+              28
+            ],
+            "align": "left",
+            "gradient": [
+              [
+                0,
+                [
+                  238,
+                  238,
+                  230,
+                  255
+                ]
+              ],
+              [
+                1000,
+                [
+                  221,
+                  220,
+                  213,
+                  255
+                ]
+              ]
+            ],
+            "outline": [
+              28,
+              24,
+              21,
+              225
+            ],
+            "outline_width": 0.7,
+            "glow": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "glow_radius": 0,
+            "shadow": [
+              0,
+              0,
+              0,
+              180
+            ],
+            "shadow_offset": [
+              1,
+              1
+            ],
+            "shadow_radius": 1,
+            "italic": 0.18,
+            "tracking": 0.2,
+            "weight": 0,
+            "motion": 0
+          }
+        },
+        {
+          "text": "流派",
+          "rect": [
+            123,
+            21,
+            42,
+            25
+          ],
+          "font_size": 20,
+          "appearance": {
+            "kind": "source-style-v1",
+            "ink_box": [
+              2,
+              2,
+              38,
+              16
+            ],
+            "align": "left",
+            "gradient": [
+              [
+                0,
+                [
+                  238,
+                  238,
+                  230,
+                  255
+                ]
+              ],
+              [
+                1000,
+                [
+                  221,
+                  220,
+                  213,
+                  255
+                ]
+              ]
+            ],
+            "outline": [
+              28,
+              24,
+              21,
+              225
+            ],
+            "outline_width": 0.7,
+            "glow": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "glow_radius": 0,
+            "shadow": [
+              0,
+              0,
+              0,
+              180
+            ],
+            "shadow_offset": [
+              1,
+              1
+            ],
+            "shadow_radius": 1,
+            "italic": 0.18,
+            "tracking": 0.2,
+            "weight": 0,
+            "motion": 0
+          }
+        },
+        {
+          "text": "香器",
+          "rect": [
+            137,
+            39,
+            60,
+            32
+          ],
+          "font_size": 27,
+          "appearance": {
+            "kind": "source-style-v1",
+            "ink_box": [
+              2,
+              2,
+              56,
+              23
+            ],
+            "align": "left",
+            "gradient": [
+              [
+                0,
+                [
+                  255,
+                  253,
+                  231,
+                  255
+                ]
+              ],
+              [
+                1000,
+                [
+                  255,
+                  231,
+                  207,
+                  255
+                ]
+              ]
+            ],
+            "outline": [
+              128,
+              40,
+              27,
+              180
+            ],
+            "outline_width": 0.7,
+            "glow": [
+              255,
+              62,
+              33,
+              210
+            ],
+            "glow_radius": 2,
+            "shadow": [
+              0,
+              0,
+              0,
+              180
+            ],
+            "shadow_offset": [
+              1,
+              1
+            ],
+            "shadow_radius": 1,
+            "italic": 0.18,
+            "tracking": 0.2,
+            "weight": 0,
+            "motion": 0
+          }
+        }
+      ],
+      "translation_basis": "existing-adopted-character-and-weapon-type",
+      "source_ids": [
+        "coalesced:21064456f8d1c9aaa4b3d07e3b2d4aa5e3f8e9febcc376fe9a7598a9749ea126",
+        "coalesced:661aa7b0313ebd385f082a6eebf4ffba3ba041af4d86a424675c3826a6fe4caa"
+      ],
+      "term_ids": [
+        "mc2-mail-support-1096",
+        "mc2-system-030"
+      ],
+      "source_text": "Celestine style Aroma sprayer",
+      "source_text_sha256": "16c6abb557bca4fbdc2f1e5919b53a5605cafd682c59c33b866e0c5cf1eb59ce",
+      "restoration": {
+        "source_rgba_sha256": "6c01976fd4d668f327a6f58fef3b07bf7ab72ce7d90ea875f11a1277493876e8",
+        "mask": {
+          "path": "locales/zh-Hans/texture-overlays/restorations/equipment-style-clean-v31/Style_Serestin_Main-mask.png",
+          "sha256": "6bcaa80fffcdea868e997981b26923ad2722f2cba82cea11c322b86ede900538"
+        },
+        "patch": {
+          "path": "locales/zh-Hans/texture-overlays/restorations/equipment-style-clean-v31/Style_Serestin_Main-patch.png",
+          "sha256": "d2371bd63e60be0492a2a0bba1895931d8598ced2ac0003b32f46027b10744f8"
+        }
+      }
+    },
+    {
+      "id": "style_serestin_sub_lettering",
+      "text": "塞蕾丝汀流派弓",
+      "rect": [
+        84,
+        304,
+        204,
+        72
+      ],
+      "font_size": 32,
+      "parts": [
+        {
+          "text": "塞蕾丝汀",
+          "rect": [
+            6,
+            9,
+            118,
+            37
+          ],
+          "font_size": 32,
+          "appearance": {
+            "kind": "source-style-v1",
+            "ink_box": [
+              2,
+              2,
+              114,
+              28
+            ],
+            "align": "left",
+            "gradient": [
+              [
+                0,
+                [
+                  238,
+                  238,
+                  230,
+                  255
+                ]
+              ],
+              [
+                1000,
+                [
+                  221,
+                  220,
+                  213,
+                  255
+                ]
+              ]
+            ],
+            "outline": [
+              28,
+              24,
+              21,
+              225
+            ],
+            "outline_width": 0.7,
+            "glow": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "glow_radius": 0,
+            "shadow": [
+              0,
+              0,
+              0,
+              180
+            ],
+            "shadow_offset": [
+              1,
+              1
+            ],
+            "shadow_radius": 1,
+            "italic": 0.18,
+            "tracking": 0.2,
+            "weight": 0,
+            "motion": 0
+          }
+        },
+        {
+          "text": "流派",
+          "rect": [
+            123,
+            21,
+            42,
+            25
+          ],
+          "font_size": 20,
+          "appearance": {
+            "kind": "source-style-v1",
+            "ink_box": [
+              2,
+              2,
+              38,
+              16
+            ],
+            "align": "left",
+            "gradient": [
+              [
+                0,
+                [
+                  238,
+                  238,
+                  230,
+                  255
+                ]
+              ],
+              [
+                1000,
+                [
+                  221,
+                  220,
+                  213,
+                  255
+                ]
+              ]
+            ],
+            "outline": [
+              28,
+              24,
+              21,
+              225
+            ],
+            "outline_width": 0.7,
+            "glow": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "glow_radius": 0,
+            "shadow": [
+              0,
+              0,
+              0,
+              180
+            ],
+            "shadow_offset": [
+              1,
+              1
+            ],
+            "shadow_radius": 1,
+            "italic": 0.18,
+            "tracking": 0.2,
+            "weight": 0,
+            "motion": 0
+          }
+        },
+        {
+          "text": "弓",
+          "rect": [
+            138,
+            39,
+            38,
+            32
+          ],
+          "font_size": 27,
+          "appearance": {
+            "kind": "source-style-v1",
+            "ink_box": [
+              2,
+              2,
+              34,
+              23
+            ],
+            "align": "left",
+            "gradient": [
+              [
+                0,
+                [
+                  255,
+                  253,
+                  231,
+                  255
+                ]
+              ],
+              [
+                1000,
+                [
+                  255,
+                  231,
+                  207,
+                  255
+                ]
+              ]
+            ],
+            "outline": [
+              128,
+              40,
+              27,
+              180
+            ],
+            "outline_width": 0.7,
+            "glow": [
+              255,
+              62,
+              33,
+              210
+            ],
+            "glow_radius": 2,
+            "shadow": [
+              0,
+              0,
+              0,
+              180
+            ],
+            "shadow_offset": [
+              1,
+              1
+            ],
+            "shadow_radius": 1,
+            "italic": 0.18,
+            "tracking": 0.2,
+            "weight": 0,
+            "motion": 0
+          }
+        }
+      ],
+      "translation_basis": "existing-adopted-character-and-weapon-type",
+      "source_ids": [
+        "coalesced:21064456f8d1c9aaa4b3d07e3b2d4aa5e3f8e9febcc376fe9a7598a9749ea126",
+        "coalesced:150a9568f0b7da37790c7664c2fee179fbdd491be336fd6b3886a41716355d86"
+      ],
+      "term_ids": [
+        "mc2-mail-support-1096",
+        "mc2-system-031"
+      ],
+      "source_text": "Celestine style Bow",
+      "source_text_sha256": "82756c198249ad39826323bc5af650cb1e36b9905f2fbf39c0c81702bf3044ba",
+      "restoration": {
+        "source_rgba_sha256": "3d3f566a7186f2aabe0bc3468a5d3184a30334d5fdffc7eea24121404bfa6323",
+        "mask": {
+          "path": "locales/zh-Hans/texture-overlays/restorations/equipment-style-clean-v31/Style_Serestin_Sub-mask.png",
+          "sha256": "b58fbd38f26abfef4826b6fe99a17e3361bc9d8e76488fcb80457f595e68576e"
+        },
+        "patch": {
+          "path": "locales/zh-Hans/texture-overlays/restorations/equipment-style-clean-v31/Style_Serestin_Sub-patch.png",
+          "sha256": "f0fc3031aabfd9fae88fc93f717d32c84ade6f54930efe287bb392dd756203ca"
+        }
+      }
+    },
+    {
+      "id": "style_zephie_main_lettering",
+      "text": "洁菲流派法杖",
+      "rect": [
+        80,
+        308,
+        216,
+        68
+      ],
+      "font_size": 32,
+      "parts": [
+        {
+          "text": "洁菲",
+          "rect": [
+            8,
+            5,
+            62,
+            37
+          ],
+          "font_size": 32,
+          "appearance": {
+            "kind": "source-style-v1",
+            "ink_box": [
+              2,
+              2,
+              58,
+              28
+            ],
+            "align": "left",
+            "gradient": [
+              [
+                0,
+                [
+                  238,
+                  238,
+                  230,
+                  255
+                ]
+              ],
+              [
+                1000,
+                [
+                  221,
+                  220,
+                  213,
+                  255
+                ]
+              ]
+            ],
+            "outline": [
+              28,
+              24,
+              21,
+              225
+            ],
+            "outline_width": 0.7,
+            "glow": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "glow_radius": 0,
+            "shadow": [
+              0,
+              0,
+              0,
+              180
+            ],
+            "shadow_offset": [
+              1,
+              1
+            ],
+            "shadow_radius": 1,
+            "italic": 0.18,
+            "tracking": 0.2,
+            "weight": 0,
+            "motion": 0
+          }
+        },
+        {
+          "text": "流派",
+          "rect": [
+            69,
+            17,
+            42,
+            25
+          ],
+          "font_size": 20,
+          "appearance": {
+            "kind": "source-style-v1",
+            "ink_box": [
+              2,
+              2,
+              38,
+              16
+            ],
+            "align": "left",
+            "gradient": [
+              [
+                0,
+                [
+                  238,
+                  238,
+                  230,
+                  255
+                ]
+              ],
+              [
+                1000,
+                [
+                  221,
+                  220,
+                  213,
+                  255
+                ]
+              ]
+            ],
+            "outline": [
+              28,
+              24,
+              21,
+              225
+            ],
+            "outline_width": 0.7,
+            "glow": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "glow_radius": 0,
+            "shadow": [
+              0,
+              0,
+              0,
+              180
+            ],
+            "shadow_offset": [
+              1,
+              1
+            ],
+            "shadow_radius": 1,
+            "italic": 0.18,
+            "tracking": 0.2,
+            "weight": 0,
+            "motion": 0
+          }
+        },
+        {
+          "text": "法杖",
+          "rect": [
+            142,
+            35,
+            60,
+            32
+          ],
+          "font_size": 27,
+          "appearance": {
+            "kind": "source-style-v1",
+            "ink_box": [
+              2,
+              2,
+              56,
+              23
+            ],
+            "align": "left",
+            "gradient": [
+              [
+                0,
+                [
+                  255,
+                  253,
+                  231,
+                  255
+                ]
+              ],
+              [
+                1000,
+                [
+                  255,
+                  231,
+                  207,
+                  255
+                ]
+              ]
+            ],
+            "outline": [
+              128,
+              40,
+              27,
+              180
+            ],
+            "outline_width": 0.7,
+            "glow": [
+              255,
+              62,
+              33,
+              210
+            ],
+            "glow_radius": 2,
+            "shadow": [
+              0,
+              0,
+              0,
+              180
+            ],
+            "shadow_offset": [
+              1,
+              1
+            ],
+            "shadow_radius": 1,
+            "italic": 0.18,
+            "tracking": 0.2,
+            "weight": 0,
+            "motion": 0
+          }
+        }
+      ],
+      "translation_basis": "existing-adopted-character-and-weapon-type",
+      "source_ids": [
+        "coalesced:abf4a204b0987c79943092e455f568b207f4bc3d3e65ef3f561146ccc110d535",
+        "coalesced:c91d1343fba224e2dd00b6b88b53006942f72c3be2bb9ae6923c3a34486c2433"
+      ],
+      "term_ids": [
+        "mc2-mail-support-1095",
+        "mc2-system-027"
+      ],
+      "source_text": "Zephie style Rod",
+      "source_text_sha256": "89a677347dc5ab7482fa247ef6169e3177efef3d4212f288f5ffcc52f580edaa",
+      "restoration": {
+        "source_rgba_sha256": "6c4ba25864b25b368aa12fec077db60f91c637693a57a0ea1a2b82fed209f51b",
+        "mask": {
+          "path": "locales/zh-Hans/texture-overlays/restorations/equipment-style-clean-v31/Style_Zephie_Main-mask.png",
+          "sha256": "0dca9d0435555a07c224fcb8bf3533789f944e61a13ba767de65703b4849967e"
+        },
+        "patch": {
+          "path": "locales/zh-Hans/texture-overlays/restorations/equipment-style-clean-v31/Style_Zephie_Main-patch.png",
+          "sha256": "5a65551c09ba730ef4be3fdffbab9cfec81bc34e27d738e528e43513edcfe80c"
+        }
+      }
+    },
+    {
+      "id": "style_zephie_sub_lettering",
+      "text": "洁菲流派扇",
+      "rect": [
+        80,
+        308,
+        192,
+        68
+      ],
+      "font_size": 32,
+      "parts": [
+        {
+          "text": "洁菲",
+          "rect": [
+            8,
+            5,
+            62,
+            37
+          ],
+          "font_size": 32,
+          "appearance": {
+            "kind": "source-style-v1",
+            "ink_box": [
+              2,
+              2,
+              58,
+              28
+            ],
+            "align": "left",
+            "gradient": [
+              [
+                0,
+                [
+                  238,
+                  238,
+                  230,
+                  255
+                ]
+              ],
+              [
+                1000,
+                [
+                  221,
+                  220,
+                  213,
+                  255
+                ]
+              ]
+            ],
+            "outline": [
+              28,
+              24,
+              21,
+              225
+            ],
+            "outline_width": 0.7,
+            "glow": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "glow_radius": 0,
+            "shadow": [
+              0,
+              0,
+              0,
+              180
+            ],
+            "shadow_offset": [
+              1,
+              1
+            ],
+            "shadow_radius": 1,
+            "italic": 0.18,
+            "tracking": 0.2,
+            "weight": 0,
+            "motion": 0
+          }
+        },
+        {
+          "text": "流派",
+          "rect": [
+            69,
+            17,
+            42,
+            25
+          ],
+          "font_size": 20,
+          "appearance": {
+            "kind": "source-style-v1",
+            "ink_box": [
+              2,
+              2,
+              38,
+              16
+            ],
+            "align": "left",
+            "gradient": [
+              [
+                0,
+                [
+                  238,
+                  238,
+                  230,
+                  255
+                ]
+              ],
+              [
+                1000,
+                [
+                  221,
+                  220,
+                  213,
+                  255
+                ]
+              ]
+            ],
+            "outline": [
+              28,
+              24,
+              21,
+              225
+            ],
+            "outline_width": 0.7,
+            "glow": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "glow_radius": 0,
+            "shadow": [
+              0,
+              0,
+              0,
+              180
+            ],
+            "shadow_offset": [
+              1,
+              1
+            ],
+            "shadow_radius": 1,
+            "italic": 0.18,
+            "tracking": 0.2,
+            "weight": 0,
+            "motion": 0
+          }
+        },
+        {
+          "text": "扇",
+          "rect": [
+            143,
+            35,
+            38,
+            32
+          ],
+          "font_size": 27,
+          "appearance": {
+            "kind": "source-style-v1",
+            "ink_box": [
+              2,
+              2,
+              34,
+              23
+            ],
+            "align": "left",
+            "gradient": [
+              [
+                0,
+                [
+                  255,
+                  253,
+                  231,
+                  255
+                ]
+              ],
+              [
+                1000,
+                [
+                  255,
+                  231,
+                  207,
+                  255
+                ]
+              ]
+            ],
+            "outline": [
+              128,
+              40,
+              27,
+              180
+            ],
+            "outline_width": 0.7,
+            "glow": [
+              255,
+              62,
+              33,
+              210
+            ],
+            "glow_radius": 2,
+            "shadow": [
+              0,
+              0,
+              0,
+              180
+            ],
+            "shadow_offset": [
+              1,
+              1
+            ],
+            "shadow_radius": 1,
+            "italic": 0.18,
+            "tracking": 0.2,
+            "weight": 0,
+            "motion": 0
+          }
+        }
+      ],
+      "translation_basis": "existing-adopted-character-and-weapon-type",
+      "source_ids": [
+        "coalesced:abf4a204b0987c79943092e455f568b207f4bc3d3e65ef3f561146ccc110d535",
+        "coalesced:8b9d1c48baac8eb941c8e1fcbb8f90151c4d6d8ad440de0369d362d80bc706ab"
+      ],
+      "term_ids": [
+        "mc2-mail-support-1095",
+        "mc2-system-026"
+      ],
+      "source_text": "Zephie style Fan",
+      "source_text_sha256": "e2cf7967538d62e677948f7f58fe7b6a9a02b9257741f4f01f922f4f5b141cac",
+      "restoration": {
+        "source_rgba_sha256": "4bb9068e7759c5c21811ecc44e149f9f8bed6e48b2ccfe05e557dedef4f77adc",
+        "mask": {
+          "path": "locales/zh-Hans/texture-overlays/restorations/equipment-style-clean-v31/Style_Zephie_Sub-mask.png",
+          "sha256": "604572b0f3dd8c3138412ec54b11af84c9dbba88e5571b7451cedefb36cd0130"
+        },
+        "patch": {
+          "path": "locales/zh-Hans/texture-overlays/restorations/equipment-style-clean-v31/Style_Zephie_Sub-patch.png",
+          "sha256": "07b3adcef73156a0639e280a75a6baa79542c4aa5df6b0e242c3dbd5cda9cbb8"
+        }
+      }
+    }
+  ],
+  "sources": [
+    {
+      "path": "MC2Game/CookedXenon/MC2Game.xxx",
+      "discs": [
+        1,
+        2
+      ],
+      "original": {
+        "path": "build/poc-game/disc1/MC2Game/CookedXenon/MC2Game.xxx",
+        "sha256": "13f92622e2ae2920f6ce6dfc7b0edbbcbec7e83adeacbd56fed84a021739a641"
+      },
+      "base": {
+        "path": "build/poc-game/disc1/MC2Game/CookedXenon/MC2Game.xxx",
+        "sha256": "13f92622e2ae2920f6ce6dfc7b0edbbcbec7e83adeacbd56fed84a021739a641"
+      },
+      "textures": [
+        {
+          "object": "Style_Argo_Main.Style_Argo_Main",
+          "label": "style_argo_main_lettering",
+          "payload_sha256": "122347ef096d7f7a3960b02dca15e2bf2190d67b609fc971c0c62b0ea933bd14",
+          "tiled_sha256": "545258fca7ec932a350f829b61002b5ddc0bd01eefc5652c3b451e95df802d7a",
+          "dimensions": [
+            512,
+            512
+          ],
+          "profile": {
+            "kind": "xbox-inline-bc-v1",
+            "format": 7
+          },
+          "channel_mode": "rgba",
+          "preserve_unchanged_blocks": true,
+          "alpha_encoding": "adaptive-range",
+          "rgb_encoding": "weighted-fit-v1",
+          "protected_regions": [
+            {
+              "id": "style_argo_main_lettering_outside_0",
+              "rect": [
+                0,
+                0,
+                512,
+                308
+              ],
+              "rgba_sha256": "29ce9a5491c561b845d95d6921ab34bf7b5a9010aea9c5febb904cbb12643060"
+            },
+            {
+              "id": "style_argo_main_lettering_outside_1",
+              "rect": [
+                0,
+                376,
+                512,
+                136
+              ],
+              "rgba_sha256": "fc78d5841cf9147b505f85612c47fd49f10df79418d55f83d305feda69341253"
+            },
+            {
+              "id": "style_argo_main_lettering_outside_2",
+              "rect": [
+                0,
+                308,
+                108,
+                68
+              ],
+              "rgba_sha256": "7056180f34ff4a0dcc579fc8f46c166356d0d8713f8fd19095812a25774452cc"
+            },
+            {
+              "id": "style_argo_main_lettering_outside_3",
+              "rect": [
+                332,
+                308,
+                180,
+                68
+              ],
+              "rgba_sha256": "0674a429f329dded940107d97b15ec8a0e9bc4470e2b4bf908350c32020ef3d4"
+            }
+          ]
+        },
+        {
+          "object": "Style_Argo_Sub.Style_Argo_Sub",
+          "label": "style_argo_sub_lettering",
+          "payload_sha256": "086cfbd7bc7d2a4d59efdaf4624eec65adefff697e66a399867f655943546828",
+          "tiled_sha256": "12bb1d98d16a39ee9922db4762962cafbf074840c5b2862ec89d92e2882e8261",
+          "dimensions": [
+            512,
+            512
+          ],
+          "profile": {
+            "kind": "xbox-inline-bc-v1",
+            "format": 7
+          },
+          "channel_mode": "rgba",
+          "preserve_unchanged_blocks": true,
+          "alpha_encoding": "adaptive-range",
+          "rgb_encoding": "weighted-fit-v1",
+          "protected_regions": [
+            {
+              "id": "style_argo_sub_lettering_outside_0",
+              "rect": [
+                0,
+                0,
+                512,
+                308
+              ],
+              "rgba_sha256": "1be19ce481a9b9cc336228a16df4b46533cc323c630e1800f5cf42c789d2a25d"
+            },
+            {
+              "id": "style_argo_sub_lettering_outside_1",
+              "rect": [
+                0,
+                376,
+                512,
+                136
+              ],
+              "rgba_sha256": "e43a5afe30f42852b2b850d454063db80c8bc9d9ad77f23e14bd2ed3e23e6700"
+            },
+            {
+              "id": "style_argo_sub_lettering_outside_2",
+              "rect": [
+                0,
+                308,
+                108,
+                68
+              ],
+              "rgba_sha256": "065157c40e030b192f8dae3a3ac77a391fe51ee31836dedc5c7c5c3cd63dd16f"
+            },
+            {
+              "id": "style_argo_sub_lettering_outside_3",
+              "rect": [
+                276,
+                308,
+                236,
+                68
+              ],
+              "rgba_sha256": "9de6885a06a4662208b4706a470d1e31ad8e5a8bf809671416966871e574aa1f"
+            }
+          ]
+        },
+        {
+          "object": "Style_Crocell_Main.Style_Crocell_Main",
+          "label": "style_crocell_main_lettering",
+          "payload_sha256": "e16a61e3d4d665173887e5591cd86a1fc66e1cfef4b8d30e54394a1998f5b3b2",
+          "tiled_sha256": "35dfe4d62e64b35cc90c4cbff7b2c25efb304f2d65464e9484332fbb9bca3342",
+          "dimensions": [
+            512,
+            512
+          ],
+          "profile": {
+            "kind": "xbox-inline-bc-v1",
+            "format": 7
+          },
+          "channel_mode": "rgba",
+          "preserve_unchanged_blocks": true,
+          "alpha_encoding": "adaptive-range",
+          "rgb_encoding": "weighted-fit-v1",
+          "protected_regions": [
+            {
+              "id": "style_crocell_main_lettering_outside_0",
+              "rect": [
+                0,
+                0,
+                512,
+                308
+              ],
+              "rgba_sha256": "cf3f917148c9bd7b82d8c815a8f68019392016e335a0cbe15b907e2bfb96d977"
+            },
+            {
+              "id": "style_crocell_main_lettering_outside_1",
+              "rect": [
+                0,
+                376,
+                512,
+                136
+              ],
+              "rgba_sha256": "048dc31761ed8c0999835ee5ae9f7e579827cb5c54c26c8bf7cfe9c5258ac79a"
+            },
+            {
+              "id": "style_crocell_main_lettering_outside_2",
+              "rect": [
+                0,
+                308,
+                80,
+                68
+              ],
+              "rgba_sha256": "6249fd56078805efbd88b405b3292a718c557de137bd380e66ebb21a56aab06d"
+            },
+            {
+              "id": "style_crocell_main_lettering_outside_3",
+              "rect": [
+                300,
+                308,
+                212,
+                68
+              ],
+              "rgba_sha256": "e3cb6837f3a0f860cd1dda3868a9171f9d3ca136e7e03305a5917d9f15f75b62"
+            }
+          ]
+        },
+        {
+          "object": "Style_Crocell_Sub.Style_Crocell_Sub",
+          "label": "style_crocell_sub_lettering",
+          "payload_sha256": "54052cac48cf354bc1fd34a6adfca44eacb4793d0c5421482e3c8c1b7d7c88b6",
+          "tiled_sha256": "4ea58617b4d9562ce2eb86c78e3cea2f196a918dfde320cbc76edcc986267def",
+          "dimensions": [
+            512,
+            512
+          ],
+          "profile": {
+            "kind": "xbox-inline-bc-v1",
+            "format": 7
+          },
+          "channel_mode": "rgba",
+          "preserve_unchanged_blocks": true,
+          "alpha_encoding": "adaptive-range",
+          "rgb_encoding": "weighted-fit-v1",
+          "protected_regions": [
+            {
+              "id": "style_crocell_sub_lettering_outside_0",
+              "rect": [
+                0,
+                0,
+                512,
+                308
+              ],
+              "rgba_sha256": "77df02fa18df46623ff3bacc46157a3aef7e0d65981084ad9f3f77b4cf357ef1"
+            },
+            {
+              "id": "style_crocell_sub_lettering_outside_1",
+              "rect": [
+                0,
+                376,
+                512,
+                136
+              ],
+              "rgba_sha256": "3761ff4e448bd2550e381cf40d05fa2108e14c92d8378a23dea50761b04daef9"
+            },
+            {
+              "id": "style_crocell_sub_lettering_outside_2",
+              "rect": [
+                0,
+                308,
+                80,
+                68
+              ],
+              "rgba_sha256": "e84c7b644d5fc30cfa28118b31d1e75f4a68edeeff965f11b984e2ad0b03617a"
+            },
+            {
+              "id": "style_crocell_sub_lettering_outside_3",
+              "rect": [
+                300,
+                308,
+                212,
+                68
+              ],
+              "rgba_sha256": "d973b6911dbf8c75da4088592970e0594428ff48a1ca82bd93c93f6209745300"
+            }
+          ]
+        },
+        {
+          "object": "Style_Juto_Main.Style_Juto_Main",
+          "label": "style_juto_main_lettering",
+          "payload_sha256": "2fbee4ecd75c1833ba7347d341b58530f983d878b7599be1bff7cd67dfcb710d",
+          "tiled_sha256": "00e77a246c1f106dfa5aa5fed70c8b26a58635825d98a9b89f77457c395c3c6e",
+          "dimensions": [
+            512,
+            512
+          ],
+          "profile": {
+            "kind": "xbox-inline-bc-v1",
+            "format": 7
+          },
+          "channel_mode": "rgba",
+          "preserve_unchanged_blocks": true,
+          "alpha_encoding": "adaptive-range",
+          "rgb_encoding": "weighted-fit-v1",
+          "protected_regions": [
+            {
+              "id": "style_juto_main_lettering_outside_0",
+              "rect": [
+                0,
+                0,
+                512,
+                304
+              ],
+              "rgba_sha256": "f90d4759aa29c3f1ddb8b186499f086c0101d29d1a209aec059af39ba5247011"
+            },
+            {
+              "id": "style_juto_main_lettering_outside_1",
+              "rect": [
+                0,
+                376,
+                512,
+                136
+              ],
+              "rgba_sha256": "c8e6da85c7c7851990a1b36b4f6dccecbab58f18e3edb0c3ee3f8ac872dca6c7"
+            },
+            {
+              "id": "style_juto_main_lettering_outside_2",
+              "rect": [
+                0,
+                304,
+                80,
+                72
+              ],
+              "rgba_sha256": "766b3b5ee59f454247bb386c9b1d685ceed9c99b477ee9f7090f9ce8f4e28cb6"
+            },
+            {
+              "id": "style_juto_main_lettering_outside_3",
+              "rect": [
+                348,
+                304,
+                164,
+                72
+              ],
+              "rgba_sha256": "ab64d0ca0fed53ebb9bd39817b1f4ba7c449e9cf969242ae5e36ad2d6b7546a3"
+            }
+          ]
+        },
+        {
+          "object": "Style_Juto_Sub.Style_Juto_Sub",
+          "label": "style_juto_sub_lettering",
+          "payload_sha256": "4406bc5b087ca7e9a785c7f9aabcbd55392b7cd38878d26e3e67b00b1357e6de",
+          "tiled_sha256": "ac207ac46608df97a4419b291be68b1b4867ff0f7a67331573b706cb8706469c",
+          "dimensions": [
+            512,
+            512
+          ],
+          "profile": {
+            "kind": "xbox-inline-bc-v1",
+            "format": 7
+          },
+          "channel_mode": "rgba",
+          "preserve_unchanged_blocks": true,
+          "alpha_encoding": "adaptive-range",
+          "rgb_encoding": "weighted-fit-v1",
+          "protected_regions": [
+            {
+              "id": "style_juto_sub_lettering_outside_0",
+              "rect": [
+                0,
+                0,
+                512,
+                304
+              ],
+              "rgba_sha256": "2f046764554f0822154f7e2a9c1ffdd3ebf764bcd78d29435faff48ada3b600f"
+            },
+            {
+              "id": "style_juto_sub_lettering_outside_1",
+              "rect": [
+                0,
+                376,
+                512,
+                136
+              ],
+              "rgba_sha256": "5cb17c731eab710b008a311adb0b9960cb8a9cc204cbbe847e40632f2cf919bf"
+            },
+            {
+              "id": "style_juto_sub_lettering_outside_2",
+              "rect": [
+                0,
+                304,
+                80,
+                72
+              ],
+              "rgba_sha256": "766b3b5ee59f454247bb386c9b1d685ceed9c99b477ee9f7090f9ce8f4e28cb6"
+            },
+            {
+              "id": "style_juto_sub_lettering_outside_3",
+              "rect": [
+                348,
+                304,
+                164,
+                72
+              ],
+              "rgba_sha256": "b4a16a4bac6fc12ad63a78aa42dc9fc767cd483b0a23985e8356341b7edc7bef"
+            }
+          ]
+        },
+        {
+          "object": "Style_Juto_W_Main.Style_Juto_W_Main",
+          "label": "style_juto_w_main_lettering",
+          "payload_sha256": "83125a8481936bb8fd9e07ce2cd19c9d356478d64704e80c35e02c13b8565e20",
+          "tiled_sha256": "cd8ff7a17c8e240d158b477b9d9d1646056ff0faf41df2f7484cf31d7ead654b",
+          "dimensions": [
+            512,
+            512
+          ],
+          "profile": {
+            "kind": "xbox-inline-bc-v1",
+            "format": 7
+          },
+          "channel_mode": "rgba",
+          "preserve_unchanged_blocks": true,
+          "alpha_encoding": "adaptive-range",
+          "rgb_encoding": "weighted-fit-v1",
+          "protected_regions": [
+            {
+              "id": "style_juto_w_main_lettering_outside_0",
+              "rect": [
+                0,
+                0,
+                512,
+                304
+              ],
+              "rgba_sha256": "b7da348e7715dd536662545cbce6a2890b3961da6ad102b3cbc960f4093489c7"
+            },
+            {
+              "id": "style_juto_w_main_lettering_outside_1",
+              "rect": [
+                0,
+                376,
+                512,
+                136
+              ],
+              "rgba_sha256": "5cbc46ea59442f75828422b0011bb8675ef1d73f433ddb7e5ac504ed599b214d"
+            },
+            {
+              "id": "style_juto_w_main_lettering_outside_2",
+              "rect": [
+                0,
+                304,
+                80,
+                72
+              ],
+              "rgba_sha256": "766b3b5ee59f454247bb386c9b1d685ceed9c99b477ee9f7090f9ce8f4e28cb6"
+            },
+            {
+              "id": "style_juto_w_main_lettering_outside_3",
+              "rect": [
+                348,
+                304,
+                164,
+                72
+              ],
+              "rgba_sha256": "b2e492c7372bde97b18415c767d134b59ef22938abfa6946497f2c1705a98edd"
+            }
+          ]
+        },
+        {
+          "object": "Style_Juto_W_Sub.Style_Juto_W_Sub",
+          "label": "style_juto_w_sub_lettering",
+          "payload_sha256": "f481727cc4f53ec71488f45e0a1ada7033c909e66ef27587a919e5898a26eedb",
+          "tiled_sha256": "d6b2d6952665b9b4750c260285f89fee842d4cdad461a49bab8221f24df8cf02",
+          "dimensions": [
+            512,
+            512
+          ],
+          "profile": {
+            "kind": "xbox-inline-bc-v1",
+            "format": 7
+          },
+          "channel_mode": "rgba",
+          "preserve_unchanged_blocks": true,
+          "alpha_encoding": "adaptive-range",
+          "rgb_encoding": "weighted-fit-v1",
+          "protected_regions": [
+            {
+              "id": "style_juto_w_sub_lettering_outside_0",
+              "rect": [
+                0,
+                0,
+                512,
+                304
+              ],
+              "rgba_sha256": "a795d6885b8b1f50b7b198c5578791c4b7f4f3f448736b248e16338bcaf8c212"
+            },
+            {
+              "id": "style_juto_w_sub_lettering_outside_1",
+              "rect": [
+                0,
+                376,
+                512,
+                136
+              ],
+              "rgba_sha256": "fbb9ae708b5f3c54711e895cbbdb2ca8a770cbfacd3a730433fb8401fc27e7a5"
+            },
+            {
+              "id": "style_juto_w_sub_lettering_outside_2",
+              "rect": [
+                0,
+                304,
+                80,
+                72
+              ],
+              "rgba_sha256": "766b3b5ee59f454247bb386c9b1d685ceed9c99b477ee9f7090f9ce8f4e28cb6"
+            },
+            {
+              "id": "style_juto_w_sub_lettering_outside_3",
+              "rect": [
+                348,
+                304,
+                164,
+                72
+              ],
+              "rgba_sha256": "4fc771bd200b5b53f427df5ce6c3965b96ce4ac73fe2cebd76c66127c87e117a"
+            }
+          ]
+        },
+        {
+          "object": "Style_Ru_Main.Style_Ru_Main",
+          "label": "style_ru_main_lettering",
+          "payload_sha256": "d64a9f69085dc244d6f7e13fac472e3cb282a1e69b18df4475bca519824b5e09",
+          "tiled_sha256": "7b551bb363a9b1970b1e1ef2fa037b23dccb963e499a2e0d58d6ec4767b70322",
+          "dimensions": [
+            512,
+            512
+          ],
+          "profile": {
+            "kind": "xbox-inline-bc-v1",
+            "format": 7
+          },
+          "channel_mode": "rgba",
+          "preserve_unchanged_blocks": true,
+          "alpha_encoding": "adaptive-range",
+          "rgb_encoding": "weighted-fit-v1",
+          "protected_regions": [
+            {
+              "id": "style_ru_main_lettering_outside_0",
+              "rect": [
+                0,
+                0,
+                512,
+                308
+              ],
+              "rgba_sha256": "ac9e529da8790ce99dc5b8d39bf1033fc69ec9f7894ba96482fcdb4615ca23ae"
+            },
+            {
+              "id": "style_ru_main_lettering_outside_1",
+              "rect": [
+                0,
+                376,
+                512,
+                136
+              ],
+              "rgba_sha256": "59d4f2ff1ef20b1ba2beb8c4e307b9524f4c50128e048e0e906c20aaab1ccf7e"
+            },
+            {
+              "id": "style_ru_main_lettering_outside_2",
+              "rect": [
+                0,
+                308,
+                124,
+                68
+              ],
+              "rgba_sha256": "b8f82db51cb5712ff60d757d9a2d6f3ae04a0b223df7aca875899dab88189ea5"
+            },
+            {
+              "id": "style_ru_main_lettering_outside_3",
+              "rect": [
+                312,
+                308,
+                200,
+                68
+              ],
+              "rgba_sha256": "d4548952758df61e44a581edd094e04e0d13e395e3b569acd83ec35a563026f2"
+            }
+          ]
+        },
+        {
+          "object": "Style_Ru_Sub.Style_Ru_Sub",
+          "label": "style_ru_sub_lettering",
+          "payload_sha256": "81a52cd5f63cd71d0645119d1ad7a1195a2d470048d075d1ac98f2b9af2d713b",
+          "tiled_sha256": "b91274eeb9a85ec591c47abef65dcb3567fb932ef2775ddc214461ebd8dcbbc4",
+          "dimensions": [
+            512,
+            512
+          ],
+          "profile": {
+            "kind": "xbox-inline-bc-v1",
+            "format": 7
+          },
+          "channel_mode": "rgba",
+          "preserve_unchanged_blocks": true,
+          "alpha_encoding": "adaptive-range",
+          "rgb_encoding": "weighted-fit-v1",
+          "protected_regions": [
+            {
+              "id": "style_ru_sub_lettering_outside_0",
+              "rect": [
+                0,
+                0,
+                512,
+                308
+              ],
+              "rgba_sha256": "f7da9714cb2d27f2c9c216aac15b2fcc5bcdef1ff1e929cf2c7046a7da474cc0"
+            },
+            {
+              "id": "style_ru_sub_lettering_outside_1",
+              "rect": [
+                0,
+                376,
+                512,
+                136
+              ],
+              "rgba_sha256": "bd68e6dc596e2f6c8b2394985450ad899b968cf7d50ad2a7f5713e784b67cbc6"
+            },
+            {
+              "id": "style_ru_sub_lettering_outside_2",
+              "rect": [
+                0,
+                308,
+                124,
+                68
+              ],
+              "rgba_sha256": "28e775944ab61ae1907ed473114df4f3d6307cfaf69d09c009e3df1f7b232fe0"
+            },
+            {
+              "id": "style_ru_sub_lettering_outside_3",
+              "rect": [
+                340,
+                308,
+                172,
+                68
+              ],
+              "rgba_sha256": "1ac826518e0808ea1005423a2ba5c974399afb95379b6ef5daadeef321b2140e"
+            }
+          ]
+        },
+        {
+          "object": "Style_Serestin_Main.Style_Serestin_Main",
+          "label": "style_serestin_main_lettering",
+          "payload_sha256": "426172d6953cbb0b437f65b3a0c5a8bf8e596e9fab0a662239f94160ef8a746e",
+          "tiled_sha256": "bc621be991df952dd9774005eafb7eb86cc226af24403883626686cd75623dae",
+          "dimensions": [
+            512,
+            512
+          ],
+          "profile": {
+            "kind": "xbox-inline-bc-v1",
+            "format": 7
+          },
+          "channel_mode": "rgba",
+          "preserve_unchanged_blocks": true,
+          "alpha_encoding": "adaptive-range",
+          "rgb_encoding": "weighted-fit-v1",
+          "protected_regions": [
+            {
+              "id": "style_serestin_main_lettering_outside_0",
+              "rect": [
+                0,
+                0,
+                512,
+                304
+              ],
+              "rgba_sha256": "c79c7ddd61ea99adc65f5008ee5015415ef717e7291d408f9d89e82cd67d8043"
+            },
+            {
+              "id": "style_serestin_main_lettering_outside_1",
+              "rect": [
+                0,
+                380,
+                512,
+                132
+              ],
+              "rgba_sha256": "153e62ec22a1d3d21ee2abc008489699905557c2ad0f0bfdabf78e01fe13b0c7"
+            },
+            {
+              "id": "style_serestin_main_lettering_outside_2",
+              "rect": [
+                0,
+                304,
+                84,
+                76
+              ],
+              "rgba_sha256": "6d51e14928d2c5e00ffa0ac405fce24548c0f2fed350632ca062438a39c4c944"
+            },
+            {
+              "id": "style_serestin_main_lettering_outside_3",
+              "rect": [
+                396,
+                304,
+                116,
+                76
+              ],
+              "rgba_sha256": "912f6a5444ddd480506aed04768a98fcf05073798deefe85738fc9a6dc817093"
+            }
+          ]
+        },
+        {
+          "object": "Style_Serestin_Sub.Style_Serestin_Sub",
+          "label": "style_serestin_sub_lettering",
+          "payload_sha256": "f23065c011ce6b7c4aac3e8cf8e6415129628a7bebf6fc7905a0d0e2a37373ef",
+          "tiled_sha256": "901cc527552385d833f225f0d6f99a5867f3065c931a0a62acbd8d3b2ed6e691",
+          "dimensions": [
+            512,
+            512
+          ],
+          "profile": {
+            "kind": "xbox-inline-bc-v1",
+            "format": 7
+          },
+          "channel_mode": "rgba",
+          "preserve_unchanged_blocks": true,
+          "alpha_encoding": "adaptive-range",
+          "rgb_encoding": "weighted-fit-v1",
+          "protected_regions": [
+            {
+              "id": "style_serestin_sub_lettering_outside_0",
+              "rect": [
+                0,
+                0,
+                512,
+                304
+              ],
+              "rgba_sha256": "88b861874c2072405544c839f26efbf42e2f09f3da5105d56289bbdcd52dc2e4"
+            },
+            {
+              "id": "style_serestin_sub_lettering_outside_1",
+              "rect": [
+                0,
+                376,
+                512,
+                136
+              ],
+              "rgba_sha256": "e52587e0c359845ca0c471d270653c7ee19de1c4480848a37a9b7047473a996b"
+            },
+            {
+              "id": "style_serestin_sub_lettering_outside_2",
+              "rect": [
+                0,
+                304,
+                84,
+                72
+              ],
+              "rgba_sha256": "a09535824062e0a000cdee02b985feaaf87f7415992a672b980eb498630c8570"
+            },
+            {
+              "id": "style_serestin_sub_lettering_outside_3",
+              "rect": [
+                288,
+                304,
+                224,
+                72
+              ],
+              "rgba_sha256": "8e46dc76bd36009a7dd6d1527b482c88f3507537f36c94ac5aa9926bc9f79a65"
+            }
+          ]
+        },
+        {
+          "object": "Style_Zephie_Main.Style_Zephie_Main",
+          "label": "style_zephie_main_lettering",
+          "payload_sha256": "5bf9dd8afe338370456d7cd3884a2e6ea27f272d8a345de5c817c9090c3ea3c1",
+          "tiled_sha256": "5bfc36b862c1df4cb53f4ee53dc984a5a7bce6438324f37ebdb7655db9ba250b",
+          "dimensions": [
+            512,
+            512
+          ],
+          "profile": {
+            "kind": "xbox-inline-bc-v1",
+            "format": 7
+          },
+          "channel_mode": "rgba",
+          "preserve_unchanged_blocks": true,
+          "alpha_encoding": "adaptive-range",
+          "rgb_encoding": "weighted-fit-v1",
+          "protected_regions": [
+            {
+              "id": "style_zephie_main_lettering_outside_0",
+              "rect": [
+                0,
+                0,
+                512,
+                308
+              ],
+              "rgba_sha256": "08d41a53a76f4864651798f063f8e8f8258dd79bc28b648875e638cc4363d25f"
+            },
+            {
+              "id": "style_zephie_main_lettering_outside_1",
+              "rect": [
+                0,
+                376,
+                512,
+                136
+              ],
+              "rgba_sha256": "c36ab233d6cd94e19304665ad3177789793fee6ac800ab1d5fb8087fc42911fc"
+            },
+            {
+              "id": "style_zephie_main_lettering_outside_2",
+              "rect": [
+                0,
+                308,
+                80,
+                68
+              ],
+              "rgba_sha256": "e84c7b644d5fc30cfa28118b31d1e75f4a68edeeff965f11b984e2ad0b03617a"
+            },
+            {
+              "id": "style_zephie_main_lettering_outside_3",
+              "rect": [
+                296,
+                308,
+                216,
+                68
+              ],
+              "rgba_sha256": "fa13af6de000671291e67818a60fb457dab17139f7efb71015573ff7af665ff5"
+            }
+          ]
+        },
+        {
+          "object": "Style_Zephie_Sub.Style_Zephie_Sub",
+          "label": "style_zephie_sub_lettering",
+          "payload_sha256": "ea4b4338ae90764cc3dc777a5d7533aa263ffc1453b12e37f0735edb5a4e6086",
+          "tiled_sha256": "3af8a1310032565d128f12773391bf5dc5524921dc5812b405e795b87077cf46",
+          "dimensions": [
+            512,
+            512
+          ],
+          "profile": {
+            "kind": "xbox-inline-bc-v1",
+            "format": 7
+          },
+          "channel_mode": "rgba",
+          "preserve_unchanged_blocks": true,
+          "alpha_encoding": "adaptive-range",
+          "rgb_encoding": "weighted-fit-v1",
+          "protected_regions": [
+            {
+              "id": "style_zephie_sub_lettering_outside_0",
+              "rect": [
+                0,
+                0,
+                512,
+                308
+              ],
+              "rgba_sha256": "4ff739b0da34c96913798eb3cbe138661e168a9078577625a9eaab95f8305b47"
+            },
+            {
+              "id": "style_zephie_sub_lettering_outside_1",
+              "rect": [
+                0,
+                376,
+                512,
+                136
+              ],
+              "rgba_sha256": "c571c1e38b79a6a3c427ec05a40a185c993f2de3e2c87325a67e9081176f9cd2"
+            },
+            {
+              "id": "style_zephie_sub_lettering_outside_2",
+              "rect": [
+                0,
+                308,
+                80,
+                68
+              ],
+              "rgba_sha256": "e84c7b644d5fc30cfa28118b31d1e75f4a68edeeff965f11b984e2ad0b03617a"
+            },
+            {
+              "id": "style_zephie_sub_lettering_outside_3",
+              "rect": [
+                272,
+                308,
+                240,
+                68
+              ],
+              "rgba_sha256": "fb6cd523ac072e652c0a5d683844bcf22783b16c7883d0fc24f9916b87591767"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

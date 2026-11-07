@@ -1,5 +1,7 @@
 > 阶段330：timed-subtitle条目可显式提供仅针对`<br>`的`break_policy`与前后次数，反向重建交换次数并保持时码/clear事件；UE3标量字段补丁按导出payload SHA、嵌套tag路径、array_index和精确旧/新字节守护。见 [文本](PHASE_330_TEXT_LAYOUT.md) / [UI字段](PHASE_330_UI_CONSUMERS.md)。
 
+> 阶段364 Verified：已复核的StrProperty负长度FString使用BE signed长度＋UTF-16LE字符载荷（包含NUL），不能由Xbox平台BE推断字符载荷也BE。原生offset／长度／最小18字节样本和独立范围证明见 [遗漏筛查](PHASE_364_OMISSION_SCREEN.md)。这是已检查的类型字段结论，不推广到全部原生载荷或脚本UnicodeConst；StyleGraph旧BE显示不适合作为“无韩文”的证据。
+
 > 阶段325的静音BIKi载入子集：44字节固定字段后是frames+1个32位偏移（最低bit另有标志）；验证总长度、重复帧数、最大帧长、顺序、尺寸及无音轨/alpha。源90帧、1280×720、fps=10000000/333333。原时间基只在全部帧数与内容尺寸验证后恢复，不能用篡改frame count掩盖编码丢帧。格式守卫/逐帧重放见 `tools/video_caption.py`、`tools/build_video_captions.py` 与[阶段325](PHASE_325_GAMEPLAY_FEEDBACK.md)。
 
 ## XDVDFS 与 Xbox360TOC 联动（阶段324）

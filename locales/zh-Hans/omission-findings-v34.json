@@ -1,0 +1,929 @@
+{
+  "schema_version": 1,
+  "kind": "verified-localization-omission-register",
+  "locale": "zh-Hans",
+  "source_head": "28778aca197dbd4f88e509393717232ac5195c00",
+  "effective_recipe_sha256": "38d60784f0179ebb6f1a94a8b8cec65ba9aef8aab6ee68af04ee308b5f610049",
+  "counts": {
+    "movie_clips": 13,
+    "movie_memberships": 20,
+    "image_labels": 8,
+    "image_physical_exports": 32,
+    "text_prefix_fields": 8,
+    "new_findings": 18,
+    "reconfirmed_prior_movie_gaps": 11,
+    "additional_attack_copy_aliases_pending": 2
+  },
+  "findings": [
+    {
+      "id": "ANIM-364-SD01",
+      "kind": "baked-movie-text",
+      "member": "MC2Game/Movies/swapdisc01.bik",
+      "discs": [
+        1,
+        2
+      ],
+      "source_text": "마그나카르타2 디스크 1을 넣어주십시오.",
+      "original_sha256": "9423f6e7e7161b19fa7d3061cce50eea976a99cdaeb0405619a720d30e41709c",
+      "effective_sha256": "9423f6e7e7161b19fa7d3061cce50eea976a99cdaeb0405619a720d30e41709c",
+      "representative_frame": 15,
+      "newly_discovered": true,
+      "observation": "verified-current-native-pixels",
+      "runtime_display_observed": false,
+      "repair_status": "not-modified-in-screen"
+    },
+    {
+      "id": "ANIM-364-SD02",
+      "kind": "baked-movie-text",
+      "member": "MC2Game/Movies/swapdisc02.bik",
+      "discs": [
+        1,
+        2
+      ],
+      "source_text": "마그나카르타2 디스크 2를 넣어주십시오.",
+      "original_sha256": "46d01abba11aa1a12027b42ba09444f7f9b2c0bc60764f2e05d291e09816e800",
+      "effective_sha256": "46d01abba11aa1a12027b42ba09444f7f9b2c0bc60764f2e05d291e09816e800",
+      "representative_frame": 15,
+      "newly_discovered": true,
+      "observation": "verified-current-native-pixels",
+      "runtime_display_observed": false,
+      "repair_status": "not-modified-in-screen"
+    },
+    {
+      "id": "ANIM-364-WM01",
+      "kind": "baked-movie-text",
+      "member": "MC2Game/Movies/worldmapmovie_01_village.bik",
+      "discs": [
+        1
+      ],
+      "source_text": "높새바람 섬",
+      "original_sha256": "2d169ca638c89f615e16875d534ca692b09876b6c566f8295c27548d188cf7e7",
+      "effective_sha256": "2d169ca638c89f615e16875d534ca692b09876b6c566f8295c27548d188cf7e7",
+      "representative_frame": 180,
+      "newly_discovered": false,
+      "observation": "verified-current-native-pixels",
+      "runtime_display_observed": false,
+      "repair_status": "not-modified-in-screen"
+    },
+    {
+      "id": "ANIM-364-WM02",
+      "kind": "baked-movie-text",
+      "member": "MC2Game/Movies/worldmapmovie_02_abazet.bik",
+      "discs": [
+        1,
+        2
+      ],
+      "source_text": "아바젯",
+      "original_sha256": "340509f3b807f6b8b1f9e36bb58497e5940801ea4ccc35d83d0abdc378cfc31f",
+      "effective_sha256": "340509f3b807f6b8b1f9e36bb58497e5940801ea4ccc35d83d0abdc378cfc31f",
+      "representative_frame": 180,
+      "newly_discovered": false,
+      "observation": "verified-current-native-pixels",
+      "runtime_display_observed": false,
+      "repair_status": "not-modified-in-screen"
+    },
+    {
+      "id": "ANIM-364-WM03",
+      "kind": "baked-movie-text",
+      "member": "MC2Game/Movies/worldmapmovie_03_oldfox.bik",
+      "discs": [
+        1,
+        2
+      ],
+      "source_text": "늙은 여우 협곡",
+      "original_sha256": "99e30e219db32de5fd39076caff9f5fde3767ce367d85b406edb8f5497fc1847",
+      "effective_sha256": "99e30e219db32de5fd39076caff9f5fde3767ce367d85b406edb8f5497fc1847",
+      "representative_frame": 180,
+      "newly_discovered": false,
+      "observation": "verified-current-native-pixels",
+      "runtime_display_observed": false,
+      "repair_status": "not-modified-in-screen"
+    },
+    {
+      "id": "ANIM-364-WM04",
+      "kind": "baked-movie-text",
+      "member": "MC2Game/Movies/worldmapmovie_04_kotamare.bik",
+      "discs": [
+        1,
+        2
+      ],
+      "source_text": "코타마레",
+      "original_sha256": "85ee0f595a267b65a7f9d7b3358ecd248e3123b1de74b8cb741b29ba26f2f030",
+      "effective_sha256": "85ee0f595a267b65a7f9d7b3358ecd248e3123b1de74b8cb741b29ba26f2f030",
+      "representative_frame": 180,
+      "newly_discovered": false,
+      "observation": "verified-current-native-pixels",
+      "runtime_display_observed": false,
+      "repair_status": "not-modified-in-screen"
+    },
+    {
+      "id": "ANIM-364-WM05",
+      "kind": "baked-movie-text",
+      "member": "MC2Game/Movies/worldmapmovie_05_ucave.bik",
+      "discs": [
+        1,
+        2
+      ],
+      "source_text": "해저 동굴",
+      "original_sha256": "4f2f993c038450bcc4d826f4225cefcdffb03cf66552bc78e294dbd92adc210e",
+      "effective_sha256": "4f2f993c038450bcc4d826f4225cefcdffb03cf66552bc78e294dbd92adc210e",
+      "representative_frame": 180,
+      "newly_discovered": false,
+      "observation": "verified-current-native-pixels",
+      "runtime_display_observed": false,
+      "repair_status": "not-modified-in-screen"
+    },
+    {
+      "id": "ANIM-364-WM06",
+      "kind": "baked-movie-text",
+      "member": "MC2Game/Movies/worldmapmovie_06_dunan.bik",
+      "discs": [
+        1,
+        2
+      ],
+      "source_text": "듀난 언덕",
+      "original_sha256": "c4cc523dd022764dc6e505df861515c0d45d92d49a592c12512dd883e0995aef",
+      "effective_sha256": "c4cc523dd022764dc6e505df861515c0d45d92d49a592c12512dd883e0995aef",
+      "representative_frame": 180,
+      "newly_discovered": false,
+      "observation": "verified-current-native-pixels",
+      "runtime_display_observed": false,
+      "repair_status": "not-modified-in-screen"
+    },
+    {
+      "id": "ANIM-364-WM07",
+      "kind": "baked-movie-text",
+      "member": "MC2Game/Movies/worldmapmovie_07_dunanfield.bik",
+      "discs": [
+        2
+      ],
+      "source_text": "듀난 평원",
+      "original_sha256": "ca1cea8f90626b68a513f6cf988e495853ab347be0d783b1431e1be272a16c01",
+      "effective_sha256": "ca1cea8f90626b68a513f6cf988e495853ab347be0d783b1431e1be272a16c01",
+      "representative_frame": 180,
+      "newly_discovered": false,
+      "observation": "verified-current-native-pixels",
+      "runtime_display_observed": false,
+      "repair_status": "not-modified-in-screen"
+    },
+    {
+      "id": "ANIM-364-WM08",
+      "kind": "baked-movie-text",
+      "member": "MC2Game/Movies/worldmapmovie_08_ruhalt.bik",
+      "discs": [
+        2
+      ],
+      "source_text": "루할트",
+      "original_sha256": "34bbe59cd06f627b49ef5681023e3ecbc16a9995a9957ab17925f32cdaeea16a",
+      "effective_sha256": "34bbe59cd06f627b49ef5681023e3ecbc16a9995a9957ab17925f32cdaeea16a",
+      "representative_frame": 180,
+      "newly_discovered": false,
+      "observation": "verified-current-native-pixels",
+      "runtime_display_observed": false,
+      "repair_status": "not-modified-in-screen"
+    },
+    {
+      "id": "ANIM-364-WM09",
+      "kind": "baked-movie-text",
+      "member": "MC2Game/Movies/worldmapmovie_09_velfort.bik",
+      "discs": [
+        2
+      ],
+      "source_text": "벨포트",
+      "original_sha256": "e9b78b5cd62faa326fb6d5c579d7dbc00776d9eba8a32f1c6a6c2dff53951c7e",
+      "effective_sha256": "e9b78b5cd62faa326fb6d5c579d7dbc00776d9eba8a32f1c6a6c2dff53951c7e",
+      "representative_frame": 180,
+      "newly_discovered": false,
+      "observation": "verified-current-native-pixels",
+      "runtime_display_observed": false,
+      "repair_status": "not-modified-in-screen"
+    },
+    {
+      "id": "ANIM-364-WM10",
+      "kind": "baked-movie-text",
+      "member": "MC2Game/Movies/worldmapmovie_10_sentinellab.bik",
+      "discs": [
+        2
+      ],
+      "source_text": "센티넬 연구소",
+      "original_sha256": "bfcd0df50c436d02da292651d81bfef0fd43da5370c445fc7f0e62fc88a674f9",
+      "effective_sha256": "bfcd0df50c436d02da292651d81bfef0fd43da5370c445fc7f0e62fc88a674f9",
+      "representative_frame": 180,
+      "newly_discovered": false,
+      "observation": "verified-current-native-pixels",
+      "runtime_display_observed": false,
+      "repair_status": "not-modified-in-screen"
+    },
+    {
+      "id": "ANIM-364-WM11",
+      "kind": "baked-movie-text",
+      "member": "MC2Game/Movies/worldmapmovie_11_lastrada.bik",
+      "discs": [
+        2
+      ],
+      "source_text": "라 스트라다",
+      "original_sha256": "a2ef4f4ee667a23e08f1b3284d0e0365c7a12b35c13bf7c38bedf2a0dfb66dd8",
+      "effective_sha256": "a2ef4f4ee667a23e08f1b3284d0e0365c7a12b35c13bf7c38bedf2a0dfb66dd8",
+      "representative_frame": 180,
+      "newly_discovered": false,
+      "observation": "verified-current-native-pixels",
+      "runtime_display_observed": false,
+      "repair_status": "not-modified-in-screen"
+    },
+    {
+      "id": "IMG-364-DEF_normal",
+      "kind": "normal-ui-texture",
+      "object": "Style_Tree_Resources.Style_Skill_Status_DEF_normal",
+      "newly_discovered": true,
+      "observation": "verified-Korean-pixels-and-typed-current-UITexture-binding",
+      "runtime_display_observed": false,
+      "repair_status": "not-modified-in-screen",
+      "typed_ui_reference_count": 7,
+      "example_consumer": {
+        "owner": "Style_Tree_00_Juto.Scene.StyleTree_Juto_Main.TreePanel.JutoMainBundle.Box_2.Box_Normal.ImageComponentTemplate.UITexture_2",
+        "property": {
+          "property_path": [
+            {
+              "name": "ImageTexture",
+              "array_index": 0
+            }
+          ],
+          "type": "ObjectProperty",
+          "logical_package_offset": 57914487,
+          "reference": 55422
+        },
+        "target_export": 55422
+      },
+      "carriers": [
+        {
+          "disc": 1,
+          "package": "MC2Game/CookedXenon/MC2Game.xxx",
+          "object": "Style_Tree_Resources.Style_Skill_Status_DEF_normal",
+          "export": 55422,
+          "original_package_sha256": "13f92622e2ae2920f6ce6dfc7b0edbbcbec7e83adeacbd56fed84a021739a641",
+          "effective_package_sha256": "6a5d568d93a75083df6188dddc628a36e62d5c1c549055bba8567172a7c83bad",
+          "effective_rgba_sha256": "7d1075f7231d9c0da71742b1309aa1e9d3ac5ffa590715b1c45251353988faed"
+        },
+        {
+          "disc": 1,
+          "package": "MC2Game/CookedXenon/Style_Tree_Resources.xxx",
+          "object": "Style_Skill_Status_DEF_normal",
+          "export": 21,
+          "original_package_sha256": "6f9562d8f2a52dabc2c36e598f23bd9ac8d383e8c2cab95284d65a2feae2e5bc",
+          "effective_package_sha256": "6f9562d8f2a52dabc2c36e598f23bd9ac8d383e8c2cab95284d65a2feae2e5bc",
+          "effective_rgba_sha256": "7d1075f7231d9c0da71742b1309aa1e9d3ac5ffa590715b1c45251353988faed"
+        },
+        {
+          "disc": 2,
+          "package": "MC2Game/CookedXenon/MC2Game.xxx",
+          "object": "Style_Tree_Resources.Style_Skill_Status_DEF_normal",
+          "export": 55422,
+          "original_package_sha256": "13f92622e2ae2920f6ce6dfc7b0edbbcbec7e83adeacbd56fed84a021739a641",
+          "effective_package_sha256": "6a5d568d93a75083df6188dddc628a36e62d5c1c549055bba8567172a7c83bad",
+          "effective_rgba_sha256": "7d1075f7231d9c0da71742b1309aa1e9d3ac5ffa590715b1c45251353988faed"
+        },
+        {
+          "disc": 2,
+          "package": "MC2Game/CookedXenon/Style_Tree_Resources.xxx",
+          "object": "Style_Skill_Status_DEF_normal",
+          "export": 21,
+          "original_package_sha256": "6f9562d8f2a52dabc2c36e598f23bd9ac8d383e8c2cab95284d65a2feae2e5bc",
+          "effective_package_sha256": "6f9562d8f2a52dabc2c36e598f23bd9ac8d383e8c2cab95284d65a2feae2e5bc",
+          "effective_rgba_sha256": "7d1075f7231d9c0da71742b1309aa1e9d3ac5ffa590715b1c45251353988faed"
+        }
+      ]
+    },
+    {
+      "id": "IMG-364-DEX_normal",
+      "kind": "normal-ui-texture",
+      "object": "Style_Tree_Resources.Style_Skill_Status_DEX_normal",
+      "newly_discovered": true,
+      "observation": "verified-Korean-pixels-and-typed-current-UITexture-binding",
+      "runtime_display_observed": false,
+      "repair_status": "not-modified-in-screen",
+      "typed_ui_reference_count": 10,
+      "example_consumer": {
+        "owner": "Style_Tree_00_Juto.Scene.StyleTree_Juto_Sub.TreePanel.JutoMainBundle.Box_11.Box_Normal.ImageComponentTemplate.UITexture_2",
+        "property": {
+          "property_path": [
+            {
+              "name": "ImageTexture",
+              "array_index": 0
+            }
+          ],
+          "type": "ObjectProperty",
+          "logical_package_offset": 57918475,
+          "reference": 55423
+        },
+        "target_export": 55423
+      },
+      "carriers": [
+        {
+          "disc": 1,
+          "package": "MC2Game/CookedXenon/MC2Game.xxx",
+          "object": "Style_Tree_Resources.Style_Skill_Status_DEX_normal",
+          "export": 55423,
+          "original_package_sha256": "13f92622e2ae2920f6ce6dfc7b0edbbcbec7e83adeacbd56fed84a021739a641",
+          "effective_package_sha256": "6a5d568d93a75083df6188dddc628a36e62d5c1c549055bba8567172a7c83bad",
+          "effective_rgba_sha256": "0662a3dc918813ae69635e7f2bcc81045bbe5a42590a5c4dc8dd6218a6eef1a8"
+        },
+        {
+          "disc": 1,
+          "package": "MC2Game/CookedXenon/Style_Tree_Resources.xxx",
+          "object": "Style_Skill_Status_DEX_normal",
+          "export": 22,
+          "original_package_sha256": "6f9562d8f2a52dabc2c36e598f23bd9ac8d383e8c2cab95284d65a2feae2e5bc",
+          "effective_package_sha256": "6f9562d8f2a52dabc2c36e598f23bd9ac8d383e8c2cab95284d65a2feae2e5bc",
+          "effective_rgba_sha256": "0662a3dc918813ae69635e7f2bcc81045bbe5a42590a5c4dc8dd6218a6eef1a8"
+        },
+        {
+          "disc": 2,
+          "package": "MC2Game/CookedXenon/MC2Game.xxx",
+          "object": "Style_Tree_Resources.Style_Skill_Status_DEX_normal",
+          "export": 55423,
+          "original_package_sha256": "13f92622e2ae2920f6ce6dfc7b0edbbcbec7e83adeacbd56fed84a021739a641",
+          "effective_package_sha256": "6a5d568d93a75083df6188dddc628a36e62d5c1c549055bba8567172a7c83bad",
+          "effective_rgba_sha256": "0662a3dc918813ae69635e7f2bcc81045bbe5a42590a5c4dc8dd6218a6eef1a8"
+        },
+        {
+          "disc": 2,
+          "package": "MC2Game/CookedXenon/Style_Tree_Resources.xxx",
+          "object": "Style_Skill_Status_DEX_normal",
+          "export": 22,
+          "original_package_sha256": "6f9562d8f2a52dabc2c36e598f23bd9ac8d383e8c2cab95284d65a2feae2e5bc",
+          "effective_package_sha256": "6f9562d8f2a52dabc2c36e598f23bd9ac8d383e8c2cab95284d65a2feae2e5bc",
+          "effective_rgba_sha256": "0662a3dc918813ae69635e7f2bcc81045bbe5a42590a5c4dc8dd6218a6eef1a8"
+        }
+      ]
+    },
+    {
+      "id": "IMG-364-ESP_normal",
+      "kind": "normal-ui-texture",
+      "object": "Style_Tree_Resources.Style_Skill_Status_ESP_normal",
+      "newly_discovered": true,
+      "observation": "verified-Korean-pixels-and-typed-current-UITexture-binding",
+      "runtime_display_observed": false,
+      "repair_status": "not-modified-in-screen",
+      "typed_ui_reference_count": 12,
+      "example_consumer": {
+        "owner": "Style_Tree_01_Zephie.Scene.StyleTree_Zephi_Sub.TreePanel.Zephie_SubBundle.Box_1.Box_Normal.ImageComponentTemplate.UITexture_2",
+        "property": {
+          "property_path": [
+            {
+              "name": "ImageTexture",
+              "array_index": 0
+            }
+          ],
+          "type": "ObjectProperty",
+          "logical_package_offset": 57929083,
+          "reference": 55424
+        },
+        "target_export": 55424
+      },
+      "carriers": [
+        {
+          "disc": 1,
+          "package": "MC2Game/CookedXenon/MC2Game.xxx",
+          "object": "Style_Tree_Resources.Style_Skill_Status_ESP_normal",
+          "export": 55424,
+          "original_package_sha256": "13f92622e2ae2920f6ce6dfc7b0edbbcbec7e83adeacbd56fed84a021739a641",
+          "effective_package_sha256": "6a5d568d93a75083df6188dddc628a36e62d5c1c549055bba8567172a7c83bad",
+          "effective_rgba_sha256": "e4b3785b89e369a62819fc20761912d4329e9370c519c4d7c7a36a88b0ae0f00"
+        },
+        {
+          "disc": 1,
+          "package": "MC2Game/CookedXenon/Style_Tree_Resources.xxx",
+          "object": "Style_Skill_Status_ESP_normal",
+          "export": 23,
+          "original_package_sha256": "6f9562d8f2a52dabc2c36e598f23bd9ac8d383e8c2cab95284d65a2feae2e5bc",
+          "effective_package_sha256": "6f9562d8f2a52dabc2c36e598f23bd9ac8d383e8c2cab95284d65a2feae2e5bc",
+          "effective_rgba_sha256": "e4b3785b89e369a62819fc20761912d4329e9370c519c4d7c7a36a88b0ae0f00"
+        },
+        {
+          "disc": 2,
+          "package": "MC2Game/CookedXenon/MC2Game.xxx",
+          "object": "Style_Tree_Resources.Style_Skill_Status_ESP_normal",
+          "export": 55424,
+          "original_package_sha256": "13f92622e2ae2920f6ce6dfc7b0edbbcbec7e83adeacbd56fed84a021739a641",
+          "effective_package_sha256": "6a5d568d93a75083df6188dddc628a36e62d5c1c549055bba8567172a7c83bad",
+          "effective_rgba_sha256": "e4b3785b89e369a62819fc20761912d4329e9370c519c4d7c7a36a88b0ae0f00"
+        },
+        {
+          "disc": 2,
+          "package": "MC2Game/CookedXenon/Style_Tree_Resources.xxx",
+          "object": "Style_Skill_Status_ESP_normal",
+          "export": 23,
+          "original_package_sha256": "6f9562d8f2a52dabc2c36e598f23bd9ac8d383e8c2cab95284d65a2feae2e5bc",
+          "effective_package_sha256": "6f9562d8f2a52dabc2c36e598f23bd9ac8d383e8c2cab95284d65a2feae2e5bc",
+          "effective_rgba_sha256": "e4b3785b89e369a62819fc20761912d4329e9370c519c4d7c7a36a88b0ae0f00"
+        }
+      ]
+    },
+    {
+      "id": "IMG-364-ESR_normal",
+      "kind": "normal-ui-texture",
+      "object": "Style_Tree_Resources.Style_Skill_Status_ESR_normal",
+      "newly_discovered": true,
+      "observation": "verified-Korean-pixels-and-typed-current-UITexture-binding",
+      "runtime_display_observed": false,
+      "repair_status": "not-modified-in-screen",
+      "typed_ui_reference_count": 7,
+      "example_consumer": {
+        "owner": "Style_Tree_00_Juto.Scene.StyleTree_Juto_Main.TreePanel.JutoMainBundle.Box_10.Box_Normal.ImageComponentTemplate.UITexture_2",
+        "property": {
+          "property_path": [
+            {
+              "name": "ImageTexture",
+              "array_index": 0
+            }
+          ],
+          "type": "ObjectProperty",
+          "logical_package_offset": 57913611,
+          "reference": 55425
+        },
+        "target_export": 55425
+      },
+      "carriers": [
+        {
+          "disc": 1,
+          "package": "MC2Game/CookedXenon/MC2Game.xxx",
+          "object": "Style_Tree_Resources.Style_Skill_Status_ESR_normal",
+          "export": 55425,
+          "original_package_sha256": "13f92622e2ae2920f6ce6dfc7b0edbbcbec7e83adeacbd56fed84a021739a641",
+          "effective_package_sha256": "6a5d568d93a75083df6188dddc628a36e62d5c1c549055bba8567172a7c83bad",
+          "effective_rgba_sha256": "64dfdee11700c216a524f43b2c739dcc28f3d3d89c5264fd7c066a1f73f68907"
+        },
+        {
+          "disc": 1,
+          "package": "MC2Game/CookedXenon/Style_Tree_Resources.xxx",
+          "object": "Style_Skill_Status_ESR_normal",
+          "export": 24,
+          "original_package_sha256": "6f9562d8f2a52dabc2c36e598f23bd9ac8d383e8c2cab95284d65a2feae2e5bc",
+          "effective_package_sha256": "6f9562d8f2a52dabc2c36e598f23bd9ac8d383e8c2cab95284d65a2feae2e5bc",
+          "effective_rgba_sha256": "64dfdee11700c216a524f43b2c739dcc28f3d3d89c5264fd7c066a1f73f68907"
+        },
+        {
+          "disc": 2,
+          "package": "MC2Game/CookedXenon/MC2Game.xxx",
+          "object": "Style_Tree_Resources.Style_Skill_Status_ESR_normal",
+          "export": 55425,
+          "original_package_sha256": "13f92622e2ae2920f6ce6dfc7b0edbbcbec7e83adeacbd56fed84a021739a641",
+          "effective_package_sha256": "6a5d568d93a75083df6188dddc628a36e62d5c1c549055bba8567172a7c83bad",
+          "effective_rgba_sha256": "64dfdee11700c216a524f43b2c739dcc28f3d3d89c5264fd7c066a1f73f68907"
+        },
+        {
+          "disc": 2,
+          "package": "MC2Game/CookedXenon/Style_Tree_Resources.xxx",
+          "object": "Style_Skill_Status_ESR_normal",
+          "export": 24,
+          "original_package_sha256": "6f9562d8f2a52dabc2c36e598f23bd9ac8d383e8c2cab95284d65a2feae2e5bc",
+          "effective_package_sha256": "6f9562d8f2a52dabc2c36e598f23bd9ac8d383e8c2cab95284d65a2feae2e5bc",
+          "effective_rgba_sha256": "64dfdee11700c216a524f43b2c739dcc28f3d3d89c5264fd7c066a1f73f68907"
+        }
+      ]
+    },
+    {
+      "id": "IMG-364-HP_normal",
+      "kind": "normal-ui-texture",
+      "object": "Style_Tree_Resources.Style_Skill_Status_HP_normal",
+      "newly_discovered": true,
+      "observation": "verified-Korean-pixels-and-typed-current-UITexture-binding",
+      "runtime_display_observed": false,
+      "repair_status": "not-modified-in-screen",
+      "typed_ui_reference_count": 2,
+      "example_consumer": {
+        "owner": "Style_Tree_00_Juto.Scene.StyleTree_Juto_Main.TreePanel.JutoMainBundle.Box_7.Box_Normal.ImageComponentTemplate.UITexture_2",
+        "property": {
+          "property_path": [
+            {
+              "name": "ImageTexture",
+              "array_index": 0
+            }
+          ],
+          "type": "ObjectProperty",
+          "logical_package_offset": 57915627,
+          "reference": 55426
+        },
+        "target_export": 55426
+      },
+      "carriers": [
+        {
+          "disc": 1,
+          "package": "MC2Game/CookedXenon/MC2Game.xxx",
+          "object": "Style_Tree_Resources.Style_Skill_Status_HP_normal",
+          "export": 55426,
+          "original_package_sha256": "13f92622e2ae2920f6ce6dfc7b0edbbcbec7e83adeacbd56fed84a021739a641",
+          "effective_package_sha256": "6a5d568d93a75083df6188dddc628a36e62d5c1c549055bba8567172a7c83bad",
+          "effective_rgba_sha256": "90f60b0092bcd604ef2b24782e104f681eee6872d3bd685ab3dd8bf413c21073"
+        },
+        {
+          "disc": 1,
+          "package": "MC2Game/CookedXenon/Style_Tree_Resources.xxx",
+          "object": "Style_Skill_Status_HP_normal",
+          "export": 25,
+          "original_package_sha256": "6f9562d8f2a52dabc2c36e598f23bd9ac8d383e8c2cab95284d65a2feae2e5bc",
+          "effective_package_sha256": "6f9562d8f2a52dabc2c36e598f23bd9ac8d383e8c2cab95284d65a2feae2e5bc",
+          "effective_rgba_sha256": "90f60b0092bcd604ef2b24782e104f681eee6872d3bd685ab3dd8bf413c21073"
+        },
+        {
+          "disc": 2,
+          "package": "MC2Game/CookedXenon/MC2Game.xxx",
+          "object": "Style_Tree_Resources.Style_Skill_Status_HP_normal",
+          "export": 55426,
+          "original_package_sha256": "13f92622e2ae2920f6ce6dfc7b0edbbcbec7e83adeacbd56fed84a021739a641",
+          "effective_package_sha256": "6a5d568d93a75083df6188dddc628a36e62d5c1c549055bba8567172a7c83bad",
+          "effective_rgba_sha256": "90f60b0092bcd604ef2b24782e104f681eee6872d3bd685ab3dd8bf413c21073"
+        },
+        {
+          "disc": 2,
+          "package": "MC2Game/CookedXenon/Style_Tree_Resources.xxx",
+          "object": "Style_Skill_Status_HP_normal",
+          "export": 25,
+          "original_package_sha256": "6f9562d8f2a52dabc2c36e598f23bd9ac8d383e8c2cab95284d65a2feae2e5bc",
+          "effective_package_sha256": "6f9562d8f2a52dabc2c36e598f23bd9ac8d383e8c2cab95284d65a2feae2e5bc",
+          "effective_rgba_sha256": "90f60b0092bcd604ef2b24782e104f681eee6872d3bd685ab3dd8bf413c21073"
+        }
+      ]
+    },
+    {
+      "id": "IMG-364-SRV_normal",
+      "kind": "normal-ui-texture",
+      "object": "Style_Tree_Resources.Style_Skill_Status_SRV_normal",
+      "newly_discovered": true,
+      "observation": "verified-Korean-pixels-and-typed-current-UITexture-binding",
+      "runtime_display_observed": false,
+      "repair_status": "not-modified-in-screen",
+      "typed_ui_reference_count": 7,
+      "example_consumer": {
+        "owner": "Style_Tree_01_Zephie.Scene.StyleTree_Zephi_Sub.TreePanel.Zephie_SubBundle.Box_12.Box_Normal.ImageComponentTemplate.UITexture_2",
+        "property": {
+          "property_path": [
+            {
+              "name": "ImageTexture",
+              "array_index": 0
+            }
+          ],
+          "type": "ObjectProperty",
+          "logical_package_offset": 57929799,
+          "reference": 55428
+        },
+        "target_export": 55428
+      },
+      "carriers": [
+        {
+          "disc": 1,
+          "package": "MC2Game/CookedXenon/MC2Game.xxx",
+          "object": "Style_Tree_Resources.Style_Skill_Status_SRV_normal",
+          "export": 55428,
+          "original_package_sha256": "13f92622e2ae2920f6ce6dfc7b0edbbcbec7e83adeacbd56fed84a021739a641",
+          "effective_package_sha256": "6a5d568d93a75083df6188dddc628a36e62d5c1c549055bba8567172a7c83bad",
+          "effective_rgba_sha256": "8e4c02c47db22011982ba5b4430cf5c589cfed40bebd7299850154357012dec5"
+        },
+        {
+          "disc": 1,
+          "package": "MC2Game/CookedXenon/Style_Tree_Resources.xxx",
+          "object": "Style_Skill_Status_SRV_normal",
+          "export": 27,
+          "original_package_sha256": "6f9562d8f2a52dabc2c36e598f23bd9ac8d383e8c2cab95284d65a2feae2e5bc",
+          "effective_package_sha256": "6f9562d8f2a52dabc2c36e598f23bd9ac8d383e8c2cab95284d65a2feae2e5bc",
+          "effective_rgba_sha256": "8e4c02c47db22011982ba5b4430cf5c589cfed40bebd7299850154357012dec5"
+        },
+        {
+          "disc": 2,
+          "package": "MC2Game/CookedXenon/MC2Game.xxx",
+          "object": "Style_Tree_Resources.Style_Skill_Status_SRV_normal",
+          "export": 55428,
+          "original_package_sha256": "13f92622e2ae2920f6ce6dfc7b0edbbcbec7e83adeacbd56fed84a021739a641",
+          "effective_package_sha256": "6a5d568d93a75083df6188dddc628a36e62d5c1c549055bba8567172a7c83bad",
+          "effective_rgba_sha256": "8e4c02c47db22011982ba5b4430cf5c589cfed40bebd7299850154357012dec5"
+        },
+        {
+          "disc": 2,
+          "package": "MC2Game/CookedXenon/Style_Tree_Resources.xxx",
+          "object": "Style_Skill_Status_SRV_normal",
+          "export": 27,
+          "original_package_sha256": "6f9562d8f2a52dabc2c36e598f23bd9ac8d383e8c2cab95284d65a2feae2e5bc",
+          "effective_package_sha256": "6f9562d8f2a52dabc2c36e598f23bd9ac8d383e8c2cab95284d65a2feae2e5bc",
+          "effective_rgba_sha256": "8e4c02c47db22011982ba5b4430cf5c589cfed40bebd7299850154357012dec5"
+        }
+      ]
+    },
+    {
+      "id": "IMG-364-STA_normal",
+      "kind": "normal-ui-texture",
+      "object": "Style_Tree_Resources.Style_Skill_Status_STA_normal",
+      "newly_discovered": true,
+      "observation": "verified-Korean-pixels-and-typed-current-UITexture-binding",
+      "runtime_display_observed": false,
+      "repair_status": "not-modified-in-screen",
+      "typed_ui_reference_count": 5,
+      "example_consumer": {
+        "owner": "Style_Tree_01_Zephie.Scene.StyleTree_Zephi_Main.TreePanel.Zephie_MainBundle.Box_5.Box_Normal.ImageComponentTemplate.UITexture_2",
+        "property": {
+          "property_path": [
+            {
+              "name": "ImageTexture",
+              "array_index": 0
+            }
+          ],
+          "type": "ObjectProperty",
+          "logical_package_offset": 57925995,
+          "reference": 55429
+        },
+        "target_export": 55429
+      },
+      "carriers": [
+        {
+          "disc": 1,
+          "package": "MC2Game/CookedXenon/MC2Game.xxx",
+          "object": "Style_Tree_Resources.Style_Skill_Status_STA_normal",
+          "export": 55429,
+          "original_package_sha256": "13f92622e2ae2920f6ce6dfc7b0edbbcbec7e83adeacbd56fed84a021739a641",
+          "effective_package_sha256": "6a5d568d93a75083df6188dddc628a36e62d5c1c549055bba8567172a7c83bad",
+          "effective_rgba_sha256": "d7d599cae4193169fcba830d4128d1289e5f5da064fd0c390452edc667ae4d4b"
+        },
+        {
+          "disc": 1,
+          "package": "MC2Game/CookedXenon/Style_Tree_Resources.xxx",
+          "object": "Style_Skill_Status_STA_normal",
+          "export": 28,
+          "original_package_sha256": "6f9562d8f2a52dabc2c36e598f23bd9ac8d383e8c2cab95284d65a2feae2e5bc",
+          "effective_package_sha256": "6f9562d8f2a52dabc2c36e598f23bd9ac8d383e8c2cab95284d65a2feae2e5bc",
+          "effective_rgba_sha256": "d7d599cae4193169fcba830d4128d1289e5f5da064fd0c390452edc667ae4d4b"
+        },
+        {
+          "disc": 2,
+          "package": "MC2Game/CookedXenon/MC2Game.xxx",
+          "object": "Style_Tree_Resources.Style_Skill_Status_STA_normal",
+          "export": 55429,
+          "original_package_sha256": "13f92622e2ae2920f6ce6dfc7b0edbbcbec7e83adeacbd56fed84a021739a641",
+          "effective_package_sha256": "6a5d568d93a75083df6188dddc628a36e62d5c1c549055bba8567172a7c83bad",
+          "effective_rgba_sha256": "d7d599cae4193169fcba830d4128d1289e5f5da064fd0c390452edc667ae4d4b"
+        },
+        {
+          "disc": 2,
+          "package": "MC2Game/CookedXenon/Style_Tree_Resources.xxx",
+          "object": "Style_Skill_Status_STA_normal",
+          "export": 28,
+          "original_package_sha256": "6f9562d8f2a52dabc2c36e598f23bd9ac8d383e8c2cab95284d65a2feae2e5bc",
+          "effective_package_sha256": "6f9562d8f2a52dabc2c36e598f23bd9ac8d383e8c2cab95284d65a2feae2e5bc",
+          "effective_rgba_sha256": "d7d599cae4193169fcba830d4128d1289e5f5da064fd0c390452edc667ae4d4b"
+        }
+      ]
+    },
+    {
+      "id": "IMG-364-STR_normal",
+      "kind": "normal-ui-texture",
+      "object": "Style_Tree_Resources.Style_Skill_Status_STR_normal",
+      "newly_discovered": true,
+      "observation": "verified-Korean-pixels-and-typed-current-UITexture-binding",
+      "runtime_display_observed": false,
+      "repair_status": "not-modified-in-screen",
+      "typed_ui_reference_count": 10,
+      "example_consumer": {
+        "owner": "Style_Tree_00_Juto.Scene.StyleTree_Juto_Sub.TreePanel.JutoMainBundle.Box_10.Box_Normal.ImageComponentTemplate.UITexture_2",
+        "property": {
+          "property_path": [
+            {
+              "name": "ImageTexture",
+              "array_index": 0
+            }
+          ],
+          "type": "ObjectProperty",
+          "logical_package_offset": 57918343,
+          "reference": 55430
+        },
+        "target_export": 55430
+      },
+      "carriers": [
+        {
+          "disc": 1,
+          "package": "MC2Game/CookedXenon/MC2Game.xxx",
+          "object": "Style_Tree_Resources.Style_Skill_Status_STR_normal",
+          "export": 55430,
+          "original_package_sha256": "13f92622e2ae2920f6ce6dfc7b0edbbcbec7e83adeacbd56fed84a021739a641",
+          "effective_package_sha256": "6a5d568d93a75083df6188dddc628a36e62d5c1c549055bba8567172a7c83bad",
+          "effective_rgba_sha256": "b32540543c2ecc28a5d7d39c898d205d8134378c839fa5370bdf4e246d1c8552"
+        },
+        {
+          "disc": 1,
+          "package": "MC2Game/CookedXenon/Style_Tree_Resources.xxx",
+          "object": "Style_Skill_Status_STR_normal",
+          "export": 29,
+          "original_package_sha256": "6f9562d8f2a52dabc2c36e598f23bd9ac8d383e8c2cab95284d65a2feae2e5bc",
+          "effective_package_sha256": "6f9562d8f2a52dabc2c36e598f23bd9ac8d383e8c2cab95284d65a2feae2e5bc",
+          "effective_rgba_sha256": "b32540543c2ecc28a5d7d39c898d205d8134378c839fa5370bdf4e246d1c8552"
+        },
+        {
+          "disc": 2,
+          "package": "MC2Game/CookedXenon/MC2Game.xxx",
+          "object": "Style_Tree_Resources.Style_Skill_Status_STR_normal",
+          "export": 55430,
+          "original_package_sha256": "13f92622e2ae2920f6ce6dfc7b0edbbcbec7e83adeacbd56fed84a021739a641",
+          "effective_package_sha256": "6a5d568d93a75083df6188dddc628a36e62d5c1c549055bba8567172a7c83bad",
+          "effective_rgba_sha256": "b32540543c2ecc28a5d7d39c898d205d8134378c839fa5370bdf4e246d1c8552"
+        },
+        {
+          "disc": 2,
+          "package": "MC2Game/CookedXenon/Style_Tree_Resources.xxx",
+          "object": "Style_Skill_Status_STR_normal",
+          "export": 29,
+          "original_package_sha256": "6f9562d8f2a52dabc2c36e598f23bd9ac8d383e8c2cab95284d65a2feae2e5bc",
+          "effective_package_sha256": "6f9562d8f2a52dabc2c36e598f23bd9ac8d383e8c2cab95284d65a2feae2e5bc",
+          "effective_rgba_sha256": "b32540543c2ecc28a5d7d39c898d205d8134378c839fa5370bdf4e246d1c8552"
+        }
+      ]
+    },
+    {
+      "id": "TEXT-364-a0edfd5edb62b25655599b7013b4c7e99f7d0e1fb289119ff60f261de3ef870f",
+      "kind": "untranslated-notification-prefix",
+      "resource": "MC2Game/Localization/Coalesced.int",
+      "field_id": "coalesced:a0edfd5edb62b25655599b7013b4c7e99f7d0e1fb289119ff60f261de3ef870f",
+      "discs": [
+        1,
+        2
+      ],
+      "context": "..\\MC2Game\\Localization\\INT\\MC2Quest.int [Ch02_252_0] Success #1",
+      "effective_value": "Quest: 精华提取成功！",
+      "effective_value_sha256": "1b257440731fd0756d89d53b195e0a0d0c33d3b0fe94de87d12ad5172933a934",
+      "newly_discovered": true,
+      "observation": "verified-current-primary-text-value",
+      "runtime_display_observed": false,
+      "repair_status": "not-modified-in-screen"
+    },
+    {
+      "id": "TEXT-364-c9a69ef7794a809eca1aac051129a6a9fe126600e21201e6fefc2e5bfce7be26",
+      "kind": "untranslated-notification-prefix",
+      "resource": "MC2Game/Localization/Coalesced.int",
+      "field_id": "coalesced:c9a69ef7794a809eca1aac051129a6a9fe126600e21201e6fefc2e5bfce7be26",
+      "discs": [
+        1,
+        2
+      ],
+      "context": "..\\MC2Game\\Localization\\INT\\MC2Quest.int [03_360_0] get_item #1",
+      "effective_value": "Quest%s: 获得马雷的吊坠",
+      "effective_value_sha256": "b53a3f7f22593db64cffebbbb7f78703a448171d33d5b49c0886fecebc4bbbf1",
+      "newly_discovered": true,
+      "observation": "verified-current-primary-text-value",
+      "runtime_display_observed": false,
+      "repair_status": "not-modified-in-screen"
+    },
+    {
+      "id": "TEXT-364-558ea06559937a934ec1c77934db21f43c99d7896fb8060874960ace7b1cb41a",
+      "kind": "untranslated-notification-prefix",
+      "resource": "MC2Game/Localization/Coalesced.int",
+      "field_id": "coalesced:558ea06559937a934ec1c77934db21f43c99d7896fb8060874960ace7b1cb41a",
+      "discs": [
+        1,
+        2
+      ],
+      "context": "..\\MC2Game\\Localization\\INT\\MC2Quest.int [05_112_0] result #1",
+      "effective_value": "Quest: 护送完成",
+      "effective_value_sha256": "e17e03567f4e0c3d23302e3ed5697203cef4973b78c5dab4130a32205fa63a73",
+      "newly_discovered": true,
+      "observation": "verified-current-primary-text-value",
+      "runtime_display_observed": false,
+      "repair_status": "not-modified-in-screen"
+    },
+    {
+      "id": "TEXT-364-f8de8fce38844e795707ee2fa2559454d8cc989cac61692a2a271042d0456d07",
+      "kind": "untranslated-notification-prefix",
+      "resource": "MC2Game/Localization/Coalesced.int",
+      "field_id": "coalesced:f8de8fce38844e795707ee2fa2559454d8cc989cac61692a2a271042d0456d07",
+      "discs": [
+        1,
+        2
+      ],
+      "context": "..\\MC2Game\\Localization\\INT\\MC2Quest.int [05_209_0] Kill #1",
+      "effective_value": "Quest: 击败不死怪物",
+      "effective_value_sha256": "203c5f4eff33d54ba26764dcd64b680e52cd4a686516aad504904660980f8a0f",
+      "newly_discovered": true,
+      "observation": "verified-current-primary-text-value",
+      "runtime_display_observed": false,
+      "repair_status": "not-modified-in-screen"
+    },
+    {
+      "id": "TEXT-364-7adc39bf7cbc2ac6a62ebfdcf503d8bf20e150906c65e28d7962af2c938d0ec9",
+      "kind": "untranslated-notification-prefix",
+      "resource": "MC2Game/Localization/Coalesced.int",
+      "field_id": "coalesced:7adc39bf7cbc2ac6a62ebfdcf503d8bf20e150906c65e28d7962af2c938d0ec9",
+      "discs": [
+        1,
+        2
+      ],
+      "context": "..\\MC2Game\\Localization\\INT\\MC2Quest.int [07_703_0] Get #1",
+      "effective_value": "Quest: 获得红色宝石",
+      "effective_value_sha256": "724e527bf68caf767d51bd3fae1cc78dce16a04a7b4d11360229210fbff68f35",
+      "newly_discovered": true,
+      "observation": "verified-current-primary-text-value",
+      "runtime_display_observed": false,
+      "repair_status": "not-modified-in-screen"
+    },
+    {
+      "id": "TEXT-364-87c426d8ad900077fda305de3748c52fe778c84f03a06bae3ddf560670dbd765",
+      "kind": "untranslated-notification-prefix",
+      "resource": "MC2Game/Localization/Coalesced.int",
+      "field_id": "coalesced:87c426d8ad900077fda305de3748c52fe778c84f03a06bae3ddf560670dbd765",
+      "discs": [
+        1,
+        2
+      ],
+      "context": "..\\MC2Game\\Localization\\INT\\MC2Quest.int [11_303_0] get1 #1",
+      "effective_value": "Quest%s: 神奇蘑菇 (%s/%s)",
+      "effective_value_sha256": "2ef504ac813b6cf39854c6147605634ce7c19ba8251c647d08cb01c518086a1c",
+      "newly_discovered": true,
+      "observation": "verified-current-primary-text-value",
+      "runtime_display_observed": false,
+      "repair_status": "not-modified-in-screen"
+    },
+    {
+      "id": "TEXT-364-54000fac1db719f438709fedf3a66068d2b82683d07d8605d5ec070cde4b7afb",
+      "kind": "untranslated-notification-prefix",
+      "resource": "MC2Game/Localization/Coalesced.int",
+      "field_id": "coalesced:54000fac1db719f438709fedf3a66068d2b82683d07d8605d5ec070cde4b7afb",
+      "discs": [
+        1,
+        2
+      ],
+      "context": "..\\MC2Game\\Localization\\INT\\MC2Quest.int [11_303_0] get2 #1",
+      "effective_value": "Quest%s: 毒蘑菇 (%s/%s)",
+      "effective_value_sha256": "2f1524ee6b91c4f7b6deade3e364a6388dc5c28be92e877df5bc2b65e1a9c46e",
+      "newly_discovered": true,
+      "observation": "verified-current-primary-text-value",
+      "runtime_display_observed": false,
+      "repair_status": "not-modified-in-screen"
+    },
+    {
+      "id": "TEXT-364-3ae2e0cfa10b454b248e0abdca70b5c01749e4ec86f040a13bc1d10de808a953",
+      "kind": "untranslated-notification-prefix",
+      "resource": "MC2Game/Localization/Coalesced.int",
+      "field_id": "coalesced:3ae2e0cfa10b454b248e0abdca70b5c01749e4ec86f040a13bc1d10de808a953",
+      "discs": [
+        1,
+        2
+      ],
+      "context": "..\\MC2Game\\Localization\\INT\\MC2Quest.int [11_307_0] get #1",
+      "effective_value": "Quest%s: 采集海底洞窟香料 (%s/%s)",
+      "effective_value_sha256": "01f0b26df69245a70bc8e581bd1d0ab1f49314a01f802776b29acaac0fa9bd22",
+      "newly_discovered": true,
+      "observation": "verified-current-primary-text-value",
+      "runtime_display_observed": false,
+      "repair_status": "not-modified-in-screen"
+    }
+  ],
+  "unresolved": [
+    "User-reported large chapter title after cutscenes: actual display route remains unbound.",
+    "Known primary-text holds, serialized defaults, unsupported texture/native payloads require separate follow-up; classification is not repair or proof of non-use."
+  ],
+  "evidence_reports": [
+    {
+      "path": "build/phase-364-omission-screen/animations/FINDINGS.json",
+      "sha256": "d74ac9801fc234a8f4c48c547e1537dfb7f879a0b3d6fe52a5ac68752e3f2bf3"
+    },
+    {
+      "path": "build/phase-364-omission-screen/images/stat-pill-current-bindings.json",
+      "sha256": "0d58d68a147626ea3e56dcae631c97f930a91df6bdbbdb90f5cee5102b3bfcbf"
+    },
+    {
+      "path": "build/phase-364-omission-screen/images/stat-pill-effective-aliases.json",
+      "sha256": "b5a87744d3270d87d00cd0e59c308fde5722e1f4edfafcc08c5d36b4b81cde2a"
+    },
+    {
+      "path": "build/phase-364-omission-screen/MODIFIED-verification.json",
+      "sha256": "ce4f5db0cd821901d954df52c0bda63afb124c7338457c3b37cbd7ef1c4ea9d5"
+    },
+    {
+      "path": "build/phase-364-omission-screen/serialized-text/REPORT.md",
+      "sha256": "47800654014aafb70bb33087e061e1a462e9dfcceb8930db6c89b8b76d2284aa"
+    },
+    {
+      "path": "build/phase-364-omission-screen/images/FINAL_IMAGE_SCREEN.json",
+      "sha256": "1c8029ea3cb3ba11070d24206889e497a48b56454aed84ec557cea877c2fc968"
+    }
+  ],
+  "game_started": false,
+  "game_resources_modified": false,
+  "coverage_is_bounded": true,
+  "related_unbound_texture_copies": [
+    {
+      "disc": 1,
+      "package": "MC2Game/CookedXenon/Style_Tree_Resources.xxx",
+      "object": "Style_Skill_Status_STR_normalcopy",
+      "export": 30,
+      "original_package_sha256": "6f9562d8f2a52dabc2c36e598f23bd9ac8d383e8c2cab95284d65a2feae2e5bc",
+      "effective_package_sha256": "6f9562d8f2a52dabc2c36e598f23bd9ac8d383e8c2cab95284d65a2feae2e5bc",
+      "effective_rgba_sha256": "74fc320dc319aa7ab08c38c115d536b251ec3bca130405e974918aa7a7a103c4",
+      "status": "Korean-copy-runtime-use-unverified"
+    },
+    {
+      "disc": 2,
+      "package": "MC2Game/CookedXenon/Style_Tree_Resources.xxx",
+      "object": "Style_Skill_Status_STR_normalcopy",
+      "export": 30,
+      "original_package_sha256": "6f9562d8f2a52dabc2c36e598f23bd9ac8d383e8c2cab95284d65a2feae2e5bc",
+      "effective_package_sha256": "6f9562d8f2a52dabc2c36e598f23bd9ac8d383e8c2cab95284d65a2feae2e5bc",
+      "effective_rgba_sha256": "74fc320dc319aa7ab08c38c115d536b251ec3bca130405e974918aa7a7a103c4",
+      "status": "Korean-copy-runtime-use-unverified"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "kind": "text-screen-resource-selectors",
+  "selectors": [
+    {
+      "pattern": "MC2Game/Localization/Coalesced.*",
+      "kind": "coalesced",
+      "role_by_suffix": {
+        ".int": "primary",
+        ".jpn": "alternate-locale",
+        ".kor": "alternate-locale"
+      }
+    },
+    {
+      "pattern": "MC2Game/Config/Xenon/Cooked/Coalesced.ini",
+      "kind": "coalesced",
+      "role": "configuration"
+    },
+    {
+      "pattern": "MC2Game/Movies/*.txt",
+      "kind": "timed-cues",
+      "role": "primary"
+    }
+  ]
+}

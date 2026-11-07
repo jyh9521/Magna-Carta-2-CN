@@ -71,7 +71,7 @@ class VideoFrameRepairIntegrationTests(unittest.TestCase):
         with tempfile.TemporaryDirectory() as directory:
             fixture=self.fixture(Path(directory));source,raw,header,operations,layer,changed,proofs=self.prepare(fixture)
             self.assertEqual(header['frames'],4)
-            self.assertEqual(source,fixture['source_root']/'owned.bik')
+            self.assertEqual(source,(fixture['source_root']/'owned.bik').resolve())
             self.assertEqual(raw,source.read_bytes())
             self.assertIsNone(layer.getbbox())
             operation=operations[0]

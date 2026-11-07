@@ -118,7 +118,8 @@ class WorldMapTransportTests(unittest.TestCase):
                 for frame in expected_frames])).encode())
             return []
         def decode(ffmpeg,path,header):
-            return iter(source_frames if Path(path)==args.source_root/'movie_a.bik' else expected_frames)
+            is_source=Path(path).resolve()==(args.source_root/'movie_a.bik').resolve()
+            return iter(source_frames if is_source else expected_frames)
         return args,producer,decode
 
     def test_background_only_repairs_outlive_text_during_build_and_verify(self):

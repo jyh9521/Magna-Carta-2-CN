@@ -1962,6 +1962,9 @@ candidate、controls、raw-controls或live合并，结束时再次核验独立�
 
 ## Windows图形安装器（阶段334）
 
+独立的 Material 3 Expressive UI 设计预览使用另一个 Dart 入口与隔离构建目录，
+不覆盖现有安装器；三种布局、演示流程及重建方法见 [预览说明](docs/INSTALLER_EXPRESSIVE_PREVIEW.md)。
+
 入口和完整数据流见 [INSTALLER](docs/INSTALLER.md)。ZArchive从原盘区段和改动资源组成的虚拟树流式构建，不新增ISO/完整XEX测试副本；测试输出属于发布验收派生物，不刷新现有游戏运行目录。使用固定工具链、源摘要recipe、全新输出，第三方许可与对应源码随包分发。
 
 ## v1.0 单文件与界面修正（阶段335）

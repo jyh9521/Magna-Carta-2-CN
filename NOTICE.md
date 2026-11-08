@@ -100,3 +100,14 @@ The selected numeric outlines use LXGW ZhenKai Slab GB v0.827 by LXGW,
 with the upstream Klee and Batang/Gungsuh authors credited in
 `licenses/LXGWZhenKai-OFL.txt` (SIL Open Font License 1.1).
 Source and license identities are recorded in `references/numeric-font-v25.lock.json`.
+
+## Empty Actor state-frame format research (phase365)
+
+Eliot van Uytfanghe / Unreal-Library, MIT,
+commit `8236c39b79e30887a487ecf9b018204e430a5ebc`:
+UStateFrame.cs and PackageObjectLegacyVersion.cs are referenced for layout facts;
+exact source URLs/SHA256 are in `references/actor-stateframe-research.lock.json`.
+The version-guarded research reader is independently implemented, checked against
+152 real UE3 446/25 source/current volume instances and five synthetic guards.
+No upstream runtime or source is integrated. See the existing MIT notice above
+and `docs/PHASE_365_POSTCUTSCENE_TITLE_ROUTE.md` for the bounded consumer results.

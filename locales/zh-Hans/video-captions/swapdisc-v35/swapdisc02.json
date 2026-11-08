@@ -1,0 +1,495 @@
+{
+  "schema_version": 1,
+  "kind": "bink-audio-caption-plan",
+  "locale": "zh-Hans",
+  "game_rendering_verified": false,
+  "source_font_identity_recovered": false,
+  "style_basis": "Native 22px prompt; original white and yellow disc emphasis; sparse dual-native-row transport preserves all card borders/ornaments. Hidden gradient continuation is an explicit inference.",
+  "rasterizer_versions": {
+    "Pillow": "12.2.0",
+    "numpy": "2.5.1",
+    "fontTools": "4.63.0"
+  },
+  "fonts": {
+    "caption": {
+      "path": "build/font-source/NotoSansCJKsc-Regular.otf",
+      "sha256": "2c76254f6fc379fddfce0a7e84fb5385bb135d3e399294f6eeb6680d0365b74b"
+    }
+  },
+  "entries": [
+    {
+      "id": "swapdisc02",
+      "source": {
+        "file": "swapdisc02.bik",
+        "member": "MC2Game/Movies/swapdisc02.bik",
+        "size": 39788,
+        "sha256": "46d01abba11aa1a12027b42ba09444f7f9b2c0bc60764f2e05d291e09816e800",
+        "first_rgb_sha256": "c0d4a53b335be4d79689f5751c5ef75a776ef7a8b5c29f19dee76c87e7e534ef",
+        "discs": [
+          1,
+          2
+        ]
+      },
+      "expected_header": {
+        "width": 1280,
+        "height": 720,
+        "frames": 30,
+        "numerator": 10000000,
+        "denominator": 333333,
+        "magic": "BIKi",
+        "audio_tracks": 0
+      },
+      "maximum_frames": 600,
+      "maximum_encoded_bytes": 16777216,
+      "source_text": "마그나카르타2 디스크 2를 넣어주십시오.",
+      "captions": [
+        {
+          "role": "insert-disc-prompt",
+          "text": "请放入《真名法典2》第2张光盘",
+          "font": "caption",
+          "parts": [
+            {
+              "text": "请放入《真名法典2》",
+              "rect": [
+                467,
+                342,
+                237,
+                38
+              ],
+              "font_size": 24,
+              "appearance": {
+                "kind": "source-style-v1",
+                "ink_box": [
+                  4,
+                  7,
+                  229,
+                  22
+                ],
+                "align": "left",
+                "gradient": [
+                  [
+                    0,
+                    [
+                      239,
+                      239,
+                      239,
+                      255
+                    ]
+                  ],
+                  [
+                    1000,
+                    [
+                      239,
+                      239,
+                      239,
+                      255
+                    ]
+                  ]
+                ],
+                "outline": [
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                "outline_width": 0,
+                "glow": [
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                "glow_radius": 0,
+                "shadow": [
+                  0,
+                  0,
+                  0,
+                  220
+                ],
+                "shadow_offset": [
+                  1,
+                  2
+                ],
+                "shadow_radius": 0.35,
+                "italic": 0,
+                "tracking": 0,
+                "weight": 0,
+                "motion": 0
+              }
+            },
+            {
+              "text": "第2张光盘",
+              "rect": [
+                696,
+                342,
+                117,
+                38
+              ],
+              "font_size": 24,
+              "appearance": {
+                "kind": "source-style-v1",
+                "ink_box": [
+                  4,
+                  7,
+                  109,
+                  22
+                ],
+                "align": "left",
+                "gradient": [
+                  [
+                    0,
+                    [
+                      243,
+                      203,
+                      28,
+                      255
+                    ]
+                  ],
+                  [
+                    1000,
+                    [
+                      243,
+                      203,
+                      28,
+                      255
+                    ]
+                  ]
+                ],
+                "outline": [
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                "outline_width": 0,
+                "glow": [
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                "glow_radius": 0,
+                "shadow": [
+                  0,
+                  0,
+                  0,
+                  220
+                ],
+                "shadow_offset": [
+                  1,
+                  2
+                ],
+                "shadow_radius": 0.35,
+                "italic": 0,
+                "tracking": 0,
+                "weight": 0,
+                "motion": 0
+              }
+            }
+          ],
+          "frame_alpha": [
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255
+          ],
+          "erase": {
+            "rect": [
+              438,
+              338,
+              404,
+              47
+            ],
+            "mask_asset": {
+              "path": "locales/zh-Hans/video-repairs/swapdisc-v35/swapdisc02-mask.png",
+              "sha256": "26356791f48088557c852e24b6808b05b2618cddb0c26d930d92882c86c0feaf",
+              "pixels_sha256": "408debf7625e6aee05822ffd45a83bc407669a68d10cba1e217dca8828e9bfe2",
+              "pixels": 6116
+            },
+            "frame_repairs": {
+              "method": "sparse-frame-rgba-v1",
+              "records": [
+                {
+                  "index": 0,
+                  "source_crop_sha256": "3ff5f25e6c1f881b3cb1c5595aabfdb9afa5114ac626c9eb0855f71c03b47d24",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/swapdisc-v35/swapdisc02/0000.png",
+                    "sha256": "5c788e22fe5426fc538c48ba90d00ce35192f4a51c6b2ab94cd91ee5abc27943"
+                  }
+                },
+                {
+                  "index": 1,
+                  "source_crop_sha256": "3ff5f25e6c1f881b3cb1c5595aabfdb9afa5114ac626c9eb0855f71c03b47d24",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/swapdisc-v35/swapdisc02/0001.png",
+                    "sha256": "5c788e22fe5426fc538c48ba90d00ce35192f4a51c6b2ab94cd91ee5abc27943"
+                  }
+                },
+                {
+                  "index": 2,
+                  "source_crop_sha256": "3ff5f25e6c1f881b3cb1c5595aabfdb9afa5114ac626c9eb0855f71c03b47d24",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/swapdisc-v35/swapdisc02/0002.png",
+                    "sha256": "5c788e22fe5426fc538c48ba90d00ce35192f4a51c6b2ab94cd91ee5abc27943"
+                  }
+                },
+                {
+                  "index": 3,
+                  "source_crop_sha256": "3ff5f25e6c1f881b3cb1c5595aabfdb9afa5114ac626c9eb0855f71c03b47d24",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/swapdisc-v35/swapdisc02/0003.png",
+                    "sha256": "5c788e22fe5426fc538c48ba90d00ce35192f4a51c6b2ab94cd91ee5abc27943"
+                  }
+                },
+                {
+                  "index": 4,
+                  "source_crop_sha256": "3ff5f25e6c1f881b3cb1c5595aabfdb9afa5114ac626c9eb0855f71c03b47d24",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/swapdisc-v35/swapdisc02/0004.png",
+                    "sha256": "5c788e22fe5426fc538c48ba90d00ce35192f4a51c6b2ab94cd91ee5abc27943"
+                  }
+                },
+                {
+                  "index": 5,
+                  "source_crop_sha256": "3ff5f25e6c1f881b3cb1c5595aabfdb9afa5114ac626c9eb0855f71c03b47d24",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/swapdisc-v35/swapdisc02/0005.png",
+                    "sha256": "5c788e22fe5426fc538c48ba90d00ce35192f4a51c6b2ab94cd91ee5abc27943"
+                  }
+                },
+                {
+                  "index": 6,
+                  "source_crop_sha256": "3ff5f25e6c1f881b3cb1c5595aabfdb9afa5114ac626c9eb0855f71c03b47d24",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/swapdisc-v35/swapdisc02/0006.png",
+                    "sha256": "5c788e22fe5426fc538c48ba90d00ce35192f4a51c6b2ab94cd91ee5abc27943"
+                  }
+                },
+                {
+                  "index": 7,
+                  "source_crop_sha256": "3ff5f25e6c1f881b3cb1c5595aabfdb9afa5114ac626c9eb0855f71c03b47d24",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/swapdisc-v35/swapdisc02/0007.png",
+                    "sha256": "5c788e22fe5426fc538c48ba90d00ce35192f4a51c6b2ab94cd91ee5abc27943"
+                  }
+                },
+                {
+                  "index": 8,
+                  "source_crop_sha256": "3ff5f25e6c1f881b3cb1c5595aabfdb9afa5114ac626c9eb0855f71c03b47d24",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/swapdisc-v35/swapdisc02/0008.png",
+                    "sha256": "5c788e22fe5426fc538c48ba90d00ce35192f4a51c6b2ab94cd91ee5abc27943"
+                  }
+                },
+                {
+                  "index": 9,
+                  "source_crop_sha256": "3ff5f25e6c1f881b3cb1c5595aabfdb9afa5114ac626c9eb0855f71c03b47d24",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/swapdisc-v35/swapdisc02/0009.png",
+                    "sha256": "5c788e22fe5426fc538c48ba90d00ce35192f4a51c6b2ab94cd91ee5abc27943"
+                  }
+                },
+                {
+                  "index": 10,
+                  "source_crop_sha256": "3ff5f25e6c1f881b3cb1c5595aabfdb9afa5114ac626c9eb0855f71c03b47d24",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/swapdisc-v35/swapdisc02/0010.png",
+                    "sha256": "5c788e22fe5426fc538c48ba90d00ce35192f4a51c6b2ab94cd91ee5abc27943"
+                  }
+                },
+                {
+                  "index": 11,
+                  "source_crop_sha256": "3ff5f25e6c1f881b3cb1c5595aabfdb9afa5114ac626c9eb0855f71c03b47d24",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/swapdisc-v35/swapdisc02/0011.png",
+                    "sha256": "5c788e22fe5426fc538c48ba90d00ce35192f4a51c6b2ab94cd91ee5abc27943"
+                  }
+                },
+                {
+                  "index": 12,
+                  "source_crop_sha256": "3ff5f25e6c1f881b3cb1c5595aabfdb9afa5114ac626c9eb0855f71c03b47d24",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/swapdisc-v35/swapdisc02/0012.png",
+                    "sha256": "5c788e22fe5426fc538c48ba90d00ce35192f4a51c6b2ab94cd91ee5abc27943"
+                  }
+                },
+                {
+                  "index": 13,
+                  "source_crop_sha256": "3ff5f25e6c1f881b3cb1c5595aabfdb9afa5114ac626c9eb0855f71c03b47d24",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/swapdisc-v35/swapdisc02/0013.png",
+                    "sha256": "5c788e22fe5426fc538c48ba90d00ce35192f4a51c6b2ab94cd91ee5abc27943"
+                  }
+                },
+                {
+                  "index": 14,
+                  "source_crop_sha256": "3ff5f25e6c1f881b3cb1c5595aabfdb9afa5114ac626c9eb0855f71c03b47d24",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/swapdisc-v35/swapdisc02/0014.png",
+                    "sha256": "5c788e22fe5426fc538c48ba90d00ce35192f4a51c6b2ab94cd91ee5abc27943"
+                  }
+                },
+                {
+                  "index": 15,
+                  "source_crop_sha256": "3ff5f25e6c1f881b3cb1c5595aabfdb9afa5114ac626c9eb0855f71c03b47d24",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/swapdisc-v35/swapdisc02/0015.png",
+                    "sha256": "5c788e22fe5426fc538c48ba90d00ce35192f4a51c6b2ab94cd91ee5abc27943"
+                  }
+                },
+                {
+                  "index": 16,
+                  "source_crop_sha256": "3ff5f25e6c1f881b3cb1c5595aabfdb9afa5114ac626c9eb0855f71c03b47d24",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/swapdisc-v35/swapdisc02/0016.png",
+                    "sha256": "5c788e22fe5426fc538c48ba90d00ce35192f4a51c6b2ab94cd91ee5abc27943"
+                  }
+                },
+                {
+                  "index": 17,
+                  "source_crop_sha256": "3ff5f25e6c1f881b3cb1c5595aabfdb9afa5114ac626c9eb0855f71c03b47d24",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/swapdisc-v35/swapdisc02/0017.png",
+                    "sha256": "5c788e22fe5426fc538c48ba90d00ce35192f4a51c6b2ab94cd91ee5abc27943"
+                  }
+                },
+                {
+                  "index": 18,
+                  "source_crop_sha256": "3ff5f25e6c1f881b3cb1c5595aabfdb9afa5114ac626c9eb0855f71c03b47d24",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/swapdisc-v35/swapdisc02/0018.png",
+                    "sha256": "5c788e22fe5426fc538c48ba90d00ce35192f4a51c6b2ab94cd91ee5abc27943"
+                  }
+                },
+                {
+                  "index": 19,
+                  "source_crop_sha256": "3ff5f25e6c1f881b3cb1c5595aabfdb9afa5114ac626c9eb0855f71c03b47d24",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/swapdisc-v35/swapdisc02/0019.png",
+                    "sha256": "5c788e22fe5426fc538c48ba90d00ce35192f4a51c6b2ab94cd91ee5abc27943"
+                  }
+                },
+                {
+                  "index": 20,
+                  "source_crop_sha256": "3ff5f25e6c1f881b3cb1c5595aabfdb9afa5114ac626c9eb0855f71c03b47d24",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/swapdisc-v35/swapdisc02/0020.png",
+                    "sha256": "5c788e22fe5426fc538c48ba90d00ce35192f4a51c6b2ab94cd91ee5abc27943"
+                  }
+                },
+                {
+                  "index": 21,
+                  "source_crop_sha256": "3ff5f25e6c1f881b3cb1c5595aabfdb9afa5114ac626c9eb0855f71c03b47d24",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/swapdisc-v35/swapdisc02/0021.png",
+                    "sha256": "5c788e22fe5426fc538c48ba90d00ce35192f4a51c6b2ab94cd91ee5abc27943"
+                  }
+                },
+                {
+                  "index": 22,
+                  "source_crop_sha256": "3ff5f25e6c1f881b3cb1c5595aabfdb9afa5114ac626c9eb0855f71c03b47d24",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/swapdisc-v35/swapdisc02/0022.png",
+                    "sha256": "5c788e22fe5426fc538c48ba90d00ce35192f4a51c6b2ab94cd91ee5abc27943"
+                  }
+                },
+                {
+                  "index": 23,
+                  "source_crop_sha256": "3ff5f25e6c1f881b3cb1c5595aabfdb9afa5114ac626c9eb0855f71c03b47d24",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/swapdisc-v35/swapdisc02/0023.png",
+                    "sha256": "5c788e22fe5426fc538c48ba90d00ce35192f4a51c6b2ab94cd91ee5abc27943"
+                  }
+                },
+                {
+                  "index": 24,
+                  "source_crop_sha256": "3ff5f25e6c1f881b3cb1c5595aabfdb9afa5114ac626c9eb0855f71c03b47d24",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/swapdisc-v35/swapdisc02/0024.png",
+                    "sha256": "5c788e22fe5426fc538c48ba90d00ce35192f4a51c6b2ab94cd91ee5abc27943"
+                  }
+                },
+                {
+                  "index": 25,
+                  "source_crop_sha256": "3ff5f25e6c1f881b3cb1c5595aabfdb9afa5114ac626c9eb0855f71c03b47d24",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/swapdisc-v35/swapdisc02/0025.png",
+                    "sha256": "5c788e22fe5426fc538c48ba90d00ce35192f4a51c6b2ab94cd91ee5abc27943"
+                  }
+                },
+                {
+                  "index": 26,
+                  "source_crop_sha256": "3ff5f25e6c1f881b3cb1c5595aabfdb9afa5114ac626c9eb0855f71c03b47d24",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/swapdisc-v35/swapdisc02/0026.png",
+                    "sha256": "5c788e22fe5426fc538c48ba90d00ce35192f4a51c6b2ab94cd91ee5abc27943"
+                  }
+                },
+                {
+                  "index": 27,
+                  "source_crop_sha256": "3ff5f25e6c1f881b3cb1c5595aabfdb9afa5114ac626c9eb0855f71c03b47d24",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/swapdisc-v35/swapdisc02/0027.png",
+                    "sha256": "5c788e22fe5426fc538c48ba90d00ce35192f4a51c6b2ab94cd91ee5abc27943"
+                  }
+                },
+                {
+                  "index": 28,
+                  "source_crop_sha256": "3ff5f25e6c1f881b3cb1c5595aabfdb9afa5114ac626c9eb0855f71c03b47d24",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/swapdisc-v35/swapdisc02/0028.png",
+                    "sha256": "5c788e22fe5426fc538c48ba90d00ce35192f4a51c6b2ab94cd91ee5abc27943"
+                  }
+                },
+                {
+                  "index": 29,
+                  "source_crop_sha256": "3ff5f25e6c1f881b3cb1c5595aabfdb9afa5114ac626c9eb0855f71c03b47d24",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/swapdisc-v35/swapdisc02/0029.png",
+                    "sha256": "5c788e22fe5426fc538c48ba90d00ce35192f4a51c6b2ab94cd91ee5abc27943"
+                  }
+                }
+              ]
+            }
+          }
+        }
+      ],
+      "scratch_reserve_bytes": 8589934592,
+      "minimum_start_free_bytes": 17179869184,
+      "review_frames": [
+        0,
+        1,
+        15,
+        28,
+        29
+      ],
+      "encoder_guard_frames": 1
+    }
+  ]
+}

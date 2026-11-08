@@ -1,0 +1,413 @@
+{
+  "schema_version": 1,
+  "kind": "worldmap-destination-caption-catalog",
+  "locale": "zh-Hans",
+  "game_rendering_verified": false,
+  "source_font_identity_recovered": false,
+  "unique_movies": 11,
+  "physical_memberships": 16,
+  "source_inventory": {
+    "path": "locales/zh-Hans/source-resources/worldmap-destination-movies.json",
+    "sha256": "e95dc6a314b86599a666109f7c491d19bc7d2180f4870037fdc8e9f1f8f51875"
+  },
+  "source_screen": {
+    "path": "locales/zh-Hans/video-captions/worldmap-v35/source-screen-2026-11-08.json",
+    "sha256": "e4cc4b59595dae7aa4c91ec666e15187dcf1ca0df9117e9fbfd981aa07035371"
+  },
+  "provenance": {
+    "path": "locales/zh-Hans/video-repairs/worldmap-v35/PROVENANCE.json",
+    "sha256": "9d0c6e194a35d816ab69b8da65caf99b22dd6b5ed10b37f98d8cfe3894a5a24c"
+  },
+  "entries": [
+    {
+      "id": "worldmapmovie_01_village",
+      "plan": {
+        "path": "locales/zh-Hans/video-captions/worldmap-v35/worldmapmovie_01_village.json",
+        "sha256": "7fba71ec92f740aefb84154c4318540d10a939b476cfa772457f26f0032834dc"
+      },
+      "source_member": "MC2Game/Movies/worldmapmovie_01_village.bik",
+      "source_sha256": "2d169ca638c89f615e16875d534ca692b09876b6c566f8295c27548d188cf7e7",
+      "discs": [
+        1
+      ],
+      "text": "风息岛",
+      "frames": 360,
+      "native_geometry": {
+        "basis": "Native strong stable glyph-body measured across360 source frames; parent independently approved this32px Chinese pilot as a1px optical adjustment to the33px native source.",
+        "source_ink_box": [
+          256,
+          345,
+          157,
+          33
+        ],
+        "Chinese_ink_box": [
+          256,
+          345,
+          300,
+          32
+        ],
+        "height_delta": -1,
+        "x_delta": 0,
+        "y_delta": 0,
+        "original_font_identity_recovered": false,
+        "natural_advance": true,
+        "width_stretch": false
+      }
+    },
+    {
+      "id": "worldmapmovie_02_abazet",
+      "plan": {
+        "path": "locales/zh-Hans/video-captions/worldmap-v35/worldmapmovie_02_abazet.native-geometry-r2.json",
+        "sha256": "6e26c4db7663016f834b145df6ace727450e4c2e67a7a91d59513b7afff57e0e"
+      },
+      "source_member": "MC2Game/Movies/worldmapmovie_02_abazet.bik",
+      "source_sha256": "340509f3b807f6b8b1f9e36bb58497e5940801ea4ccc35d83d0abdc378cfc31f",
+      "discs": [
+        1,
+        2
+      ],
+      "text": "阿巴泽特",
+      "frames": 360,
+      "native_geometry": {
+        "basis": "Measured strong stable original glyph-body support plus separately source-verified dim components; outline/glow are not the ink-height reference.",
+        "source_ink_box": [
+          256,
+          348,
+          111,
+          31
+        ],
+        "Chinese_ink_box": [
+          256,
+          348,
+          300,
+          31
+        ],
+        "height_delta": 0,
+        "x_delta": 0,
+        "y_delta": 0,
+        "original_font_identity_recovered": false,
+        "natural_advance": true,
+        "width_stretch": false
+      }
+    },
+    {
+      "id": "worldmapmovie_03_oldfox",
+      "plan": {
+        "path": "locales/zh-Hans/video-captions/worldmap-v35/worldmapmovie_03_oldfox.json",
+        "sha256": "ca3c99939cce656dbe98824daa4523049e43ec1ac7c5b7b1900d6408c9458189"
+      },
+      "source_member": "MC2Game/Movies/worldmapmovie_03_oldfox.bik",
+      "source_sha256": "99e30e219db32de5fd39076caff9f5fde3767ce367d85b406edb8f5497fc1847",
+      "discs": [
+        1,
+        2
+      ],
+      "text": "老狐峡谷",
+      "frames": 360,
+      "native_geometry": {
+        "basis": "Measured strong stable original glyph-body support plus separately source-verified dim components; outline/glow are not the ink-height reference.",
+        "source_ink_box": [
+          256,
+          344,
+          199,
+          32
+        ],
+        "Chinese_ink_box": [
+          256,
+          344,
+          300,
+          32
+        ],
+        "height_delta": 0,
+        "x_delta": 0,
+        "y_delta": 0,
+        "original_font_identity_recovered": false,
+        "natural_advance": true,
+        "width_stretch": false
+      }
+    },
+    {
+      "id": "worldmapmovie_04_kotamare",
+      "plan": {
+        "path": "locales/zh-Hans/video-captions/worldmap-v35/worldmapmovie_04_kotamare.json",
+        "sha256": "f7991faec9202cbcf4856b144ffdcac30661dc6bb38e63b36ec78757a94aba2b"
+      },
+      "source_member": "MC2Game/Movies/worldmapmovie_04_kotamare.bik",
+      "source_sha256": "85ee0f595a267b65a7f9d7b3358ecd248e3123b1de74b8cb741b29ba26f2f030",
+      "discs": [
+        1,
+        2
+      ],
+      "text": "柯塔马雷",
+      "frames": 360,
+      "native_geometry": {
+        "basis": "Measured strong stable original glyph-body support plus separately source-verified dim components; outline/glow are not the ink-height reference.",
+        "source_ink_box": [
+          259,
+          344,
+          122,
+          31
+        ],
+        "Chinese_ink_box": [
+          259,
+          344,
+          300,
+          31
+        ],
+        "height_delta": 0,
+        "x_delta": 0,
+        "y_delta": 0,
+        "original_font_identity_recovered": false,
+        "natural_advance": true,
+        "width_stretch": false
+      }
+    },
+    {
+      "id": "worldmapmovie_05_ucave",
+      "plan": {
+        "path": "locales/zh-Hans/video-captions/worldmap-v35/worldmapmovie_05_ucave.json",
+        "sha256": "8f2a21b09050a8380f0be8f69cbb66695894c3325f13b88f228686df046a24b8"
+      },
+      "source_member": "MC2Game/Movies/worldmapmovie_05_ucave.bik",
+      "source_sha256": "4f2f993c038450bcc4d826f4225cefcdffb03cf66552bc78e294dbd92adc210e",
+      "discs": [
+        1,
+        2
+      ],
+      "text": "海底洞窟",
+      "frames": 360,
+      "native_geometry": {
+        "basis": "Measured strong stable original glyph-body support plus separately source-verified dim components; outline/glow are not the ink-height reference.",
+        "source_ink_box": [
+          255,
+          344,
+          137,
+          33
+        ],
+        "Chinese_ink_box": [
+          255,
+          344,
+          300,
+          33
+        ],
+        "height_delta": 0,
+        "x_delta": 0,
+        "y_delta": 0,
+        "original_font_identity_recovered": false,
+        "natural_advance": true,
+        "width_stretch": false
+      }
+    },
+    {
+      "id": "worldmapmovie_06_dunan",
+      "plan": {
+        "path": "locales/zh-Hans/video-captions/worldmap-v35/worldmapmovie_06_dunan.json",
+        "sha256": "35fcf6a3324192d6af6fd3dc5cf48f389e2598e1cc1c8fa3385594cfb7b90005"
+      },
+      "source_member": "MC2Game/Movies/worldmapmovie_06_dunan.bik",
+      "source_sha256": "c4cc523dd022764dc6e505df861515c0d45d92d49a592c12512dd883e0995aef",
+      "discs": [
+        1,
+        2
+      ],
+      "text": "杜南丘陵",
+      "frames": 360,
+      "native_geometry": {
+        "basis": "Measured strong stable original glyph-body support plus separately source-verified dim components; outline/glow are not the ink-height reference.",
+        "source_ink_box": [
+          256,
+          342,
+          125,
+          31
+        ],
+        "Chinese_ink_box": [
+          256,
+          342,
+          300,
+          31
+        ],
+        "height_delta": 0,
+        "x_delta": 0,
+        "y_delta": 0,
+        "original_font_identity_recovered": false,
+        "natural_advance": true,
+        "width_stretch": false
+      }
+    },
+    {
+      "id": "worldmapmovie_07_dunanfield",
+      "plan": {
+        "path": "locales/zh-Hans/video-captions/worldmap-v35/worldmapmovie_07_dunanfield.json",
+        "sha256": "9c8547aa62fd39147db83681058a02643a1af7a3029fa5fa3e92f5aab254075e"
+      },
+      "source_member": "MC2Game/Movies/worldmapmovie_07_dunanfield.bik",
+      "source_sha256": "ca1cea8f90626b68a513f6cf988e495853ab347be0d783b1431e1be272a16c01",
+      "discs": [
+        2
+      ],
+      "text": "杜南平原",
+      "frames": 360,
+      "native_geometry": {
+        "basis": "Measured strong stable original glyph-body support plus separately source-verified dim components; outline/glow are not the ink-height reference.",
+        "source_ink_box": [
+          256,
+          343,
+          125,
+          32
+        ],
+        "Chinese_ink_box": [
+          256,
+          343,
+          300,
+          32
+        ],
+        "height_delta": 0,
+        "x_delta": 0,
+        "y_delta": 0,
+        "original_font_identity_recovered": false,
+        "natural_advance": true,
+        "width_stretch": false
+      }
+    },
+    {
+      "id": "worldmapmovie_08_ruhalt",
+      "plan": {
+        "path": "locales/zh-Hans/video-captions/worldmap-v35/worldmapmovie_08_ruhalt.json",
+        "sha256": "a5cce99304804283dd199a230fba6848c4d1b8dd6ef21c9ce7c06ed59ed4546f"
+      },
+      "source_member": "MC2Game/Movies/worldmapmovie_08_ruhalt.bik",
+      "source_sha256": "34bbe59cd06f627b49ef5681023e3ecbc16a9995a9957ab17925f32cdaeea16a",
+      "discs": [
+        2
+      ],
+      "text": "鲁哈尔特",
+      "frames": 360,
+      "native_geometry": {
+        "basis": "Measured strong stable original glyph-body support plus separately source-verified dim components; outline/glow are not the ink-height reference.",
+        "source_ink_box": [
+          255,
+          348,
+          112,
+          32
+        ],
+        "Chinese_ink_box": [
+          255,
+          348,
+          300,
+          32
+        ],
+        "height_delta": 0,
+        "x_delta": 0,
+        "y_delta": 0,
+        "original_font_identity_recovered": false,
+        "natural_advance": true,
+        "width_stretch": false
+      }
+    },
+    {
+      "id": "worldmapmovie_09_velfort",
+      "plan": {
+        "path": "locales/zh-Hans/video-captions/worldmap-v35/worldmapmovie_09_velfort.json",
+        "sha256": "86620f433df83b9cad7d415110f12a032baf33fd4b59ab24a211a2cdf3390400"
+      },
+      "source_member": "MC2Game/Movies/worldmapmovie_09_velfort.bik",
+      "source_sha256": "e9b78b5cd62faa326fb6d5c579d7dbc00776d9eba8a32f1c6a6c2dff53951c7e",
+      "discs": [
+        2
+      ],
+      "text": "贝尔福特",
+      "frames": 360,
+      "native_geometry": {
+        "basis": "Measured strong stable original glyph-body support plus separately source-verified dim components; outline/glow are not the ink-height reference.",
+        "source_ink_box": [
+          256,
+          341,
+          112,
+          33
+        ],
+        "Chinese_ink_box": [
+          256,
+          341,
+          300,
+          33
+        ],
+        "height_delta": 0,
+        "x_delta": 0,
+        "y_delta": 0,
+        "original_font_identity_recovered": false,
+        "natural_advance": true,
+        "width_stretch": false
+      }
+    },
+    {
+      "id": "worldmapmovie_10_sentinellab",
+      "plan": {
+        "path": "locales/zh-Hans/video-captions/worldmap-v35/worldmapmovie_10_sentinellab.json",
+        "sha256": "2dbbd580545c04de304487869948ac2407a487dba538d9c456388613523c6e9a"
+      },
+      "source_member": "MC2Game/Movies/worldmapmovie_10_sentinellab.bik",
+      "source_sha256": "bfcd0df50c436d02da292651d81bfef0fd43da5370c445fc7f0e62fc88a674f9",
+      "discs": [
+        2
+      ],
+      "text": "哨兵研究所",
+      "frames": 360,
+      "native_geometry": {
+        "basis": "Measured strong stable original glyph-body support plus separately source-verified dim components; outline/glow are not the ink-height reference.",
+        "source_ink_box": [
+          255,
+          347,
+          188,
+          33
+        ],
+        "Chinese_ink_box": [
+          255,
+          347,
+          300,
+          33
+        ],
+        "height_delta": 0,
+        "x_delta": 0,
+        "y_delta": 0,
+        "original_font_identity_recovered": false,
+        "natural_advance": true,
+        "width_stretch": false
+      }
+    },
+    {
+      "id": "worldmapmovie_11_lastrada",
+      "plan": {
+        "path": "locales/zh-Hans/video-captions/worldmap-v35/worldmapmovie_11_lastrada.json",
+        "sha256": "7ff114d1bdf3a4e76d2c6a9e11150ba8c95a03f793221585375c02b71e1e7c2a"
+      },
+      "source_member": "MC2Game/Movies/worldmapmovie_11_lastrada.bik",
+      "source_sha256": "a2ef4f4ee667a23e08f1b3284d0e0365c7a12b35c13bf7c38bedf2a0dfb66dd8",
+      "discs": [
+        2
+      ],
+      "text": "拉·斯特拉达",
+      "frames": 360,
+      "native_geometry": {
+        "basis": "Measured strong stable original glyph-body support plus separately source-verified dim components; outline/glow are not the ink-height reference.",
+        "source_ink_box": [
+          256,
+          347,
+          164,
+          32
+        ],
+        "Chinese_ink_box": [
+          256,
+          347,
+          300,
+          32
+        ],
+        "height_delta": 0,
+        "x_delta": 0,
+        "y_delta": 0,
+        "original_font_identity_recovered": false,
+        "natural_advance": true,
+        "width_stretch": false
+      }
+    }
+  ]
+}

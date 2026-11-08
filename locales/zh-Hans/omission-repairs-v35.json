@@ -1,0 +1,932 @@
+{
+  "schema_version": 1,
+  "kind": "verified-localization-omission-repair-resolution",
+  "locale": "zh-Hans",
+  "dated_findings": {
+    "path": "locales/zh-Hans/omission-findings-v34.json",
+    "sha256": "7fc5fe5fd854bc7873019a43141cd8ad8868de234b5b5ac2031a294cbd10a6dd"
+  },
+  "counts": {
+    "repaired_findings": 29,
+    "movie_clips": 13,
+    "movie_memberships": 20,
+    "image_labels": 8,
+    "normal_image_aliases": 32,
+    "additional_attack_copy_aliases": 2,
+    "text_prefix_fields": 8,
+    "changed_resource_records": 28
+  },
+  "source_input_head": "b2473bc689993e0b854bf8addd0aed7c1a15fe00",
+  "effective_recipe_sha256": "f9f80fad31dfd7b90d909504248745aa357dfdcee9c661fc2d3b818701114ff2",
+  "entries": [
+    {
+      "id": "ANIM-364-SD01",
+      "kind": "baked-movie-text",
+      "repair_status": "repaired-offline",
+      "runtime_display_observed": false,
+      "artistic_user_acceptance": false,
+      "member": "MC2Game/Movies/swapdisc01.bik",
+      "translation": "请放入《真名法典2》第1张光盘",
+      "source_plan": {
+        "path": "locales/zh-Hans/video-captions/swapdisc-v35/swapdisc01.json",
+        "sha256": "20d2e9091dc420e88f73507e13de0cd96c97c9060084a90ba536b579d60601c5"
+      },
+      "after_carriers": [
+        {
+          "disc": 1,
+          "path": "MC2Game/Movies/swapdisc01.bik",
+          "sha256": "6a3ad43f2658c92de422e850e0f4f6f10e46276e00f315aeed61578d65508f95"
+        },
+        {
+          "disc": 2,
+          "path": "MC2Game/Movies/swapdisc01.bik",
+          "sha256": "6a3ad43f2658c92de422e850e0f4f6f10e46276e00f315aeed61578d65508f95"
+        }
+      ],
+      "full_frame_replay": 30
+    },
+    {
+      "id": "ANIM-364-SD02",
+      "kind": "baked-movie-text",
+      "repair_status": "repaired-offline",
+      "runtime_display_observed": false,
+      "artistic_user_acceptance": false,
+      "member": "MC2Game/Movies/swapdisc02.bik",
+      "translation": "请放入《真名法典2》第2张光盘",
+      "source_plan": {
+        "path": "locales/zh-Hans/video-captions/swapdisc-v35/swapdisc02.json",
+        "sha256": "8e66f1b2629ceb7378c2a2492e1e6a4c71e9846922aec1c0aff07130dfd8c902"
+      },
+      "after_carriers": [
+        {
+          "disc": 1,
+          "path": "MC2Game/Movies/swapdisc02.bik",
+          "sha256": "c58c6f31dd32087ca80ac574d234cd54157c9eeb7e091a04de97b24cc92467f8"
+        },
+        {
+          "disc": 2,
+          "path": "MC2Game/Movies/swapdisc02.bik",
+          "sha256": "c58c6f31dd32087ca80ac574d234cd54157c9eeb7e091a04de97b24cc92467f8"
+        }
+      ],
+      "full_frame_replay": 30
+    },
+    {
+      "id": "ANIM-364-WM01",
+      "kind": "baked-movie-text",
+      "repair_status": "repaired-offline",
+      "runtime_display_observed": false,
+      "artistic_user_acceptance": false,
+      "member": "MC2Game/Movies/worldmapmovie_01_village.bik",
+      "translation": "风息岛",
+      "source_plan": {
+        "path": "locales/zh-Hans/video-captions/worldmap-v35/worldmapmovie_01_village.json",
+        "sha256": "7fba71ec92f740aefb84154c4318540d10a939b476cfa772457f26f0032834dc"
+      },
+      "after_carriers": [
+        {
+          "disc": 1,
+          "path": "MC2Game/Movies/worldmapmovie_01_village.bik",
+          "sha256": "41f4d8d8305a007983f2220c59f707eee14ed674cb24f7a16162eaef96112a6f"
+        }
+      ],
+      "full_frame_replay": 360
+    },
+    {
+      "id": "ANIM-364-WM02",
+      "kind": "baked-movie-text",
+      "repair_status": "repaired-offline",
+      "runtime_display_observed": false,
+      "artistic_user_acceptance": false,
+      "member": "MC2Game/Movies/worldmapmovie_02_abazet.bik",
+      "translation": "阿巴泽特",
+      "source_plan": {
+        "path": "locales/zh-Hans/video-captions/worldmap-v35/worldmapmovie_02_abazet.native-geometry-r2.json",
+        "sha256": "6e26c4db7663016f834b145df6ace727450e4c2e67a7a91d59513b7afff57e0e"
+      },
+      "after_carriers": [
+        {
+          "disc": 1,
+          "path": "MC2Game/Movies/worldmapmovie_02_abazet.bik",
+          "sha256": "a6937b22792f6ae75ca790d2c8e81e528842089c20b656a43ef9017705229146"
+        },
+        {
+          "disc": 2,
+          "path": "MC2Game/Movies/worldmapmovie_02_abazet.bik",
+          "sha256": "a6937b22792f6ae75ca790d2c8e81e528842089c20b656a43ef9017705229146"
+        }
+      ],
+      "full_frame_replay": 360
+    },
+    {
+      "id": "ANIM-364-WM03",
+      "kind": "baked-movie-text",
+      "repair_status": "repaired-offline",
+      "runtime_display_observed": false,
+      "artistic_user_acceptance": false,
+      "member": "MC2Game/Movies/worldmapmovie_03_oldfox.bik",
+      "translation": "老狐峡谷",
+      "source_plan": {
+        "path": "locales/zh-Hans/video-captions/worldmap-v35/worldmapmovie_03_oldfox.json",
+        "sha256": "ca3c99939cce656dbe98824daa4523049e43ec1ac7c5b7b1900d6408c9458189"
+      },
+      "after_carriers": [
+        {
+          "disc": 1,
+          "path": "MC2Game/Movies/worldmapmovie_03_oldfox.bik",
+          "sha256": "7012668890ea28ba3f1d0284bf734ff2d35f2520229c4de2eb25d2e6fa25c48f"
+        },
+        {
+          "disc": 2,
+          "path": "MC2Game/Movies/worldmapmovie_03_oldfox.bik",
+          "sha256": "7012668890ea28ba3f1d0284bf734ff2d35f2520229c4de2eb25d2e6fa25c48f"
+        }
+      ],
+      "full_frame_replay": 360
+    },
+    {
+      "id": "ANIM-364-WM04",
+      "kind": "baked-movie-text",
+      "repair_status": "repaired-offline",
+      "runtime_display_observed": false,
+      "artistic_user_acceptance": false,
+      "member": "MC2Game/Movies/worldmapmovie_04_kotamare.bik",
+      "translation": "柯塔马雷",
+      "source_plan": {
+        "path": "locales/zh-Hans/video-captions/worldmap-v35/worldmapmovie_04_kotamare.json",
+        "sha256": "f7991faec9202cbcf4856b144ffdcac30661dc6bb38e63b36ec78757a94aba2b"
+      },
+      "after_carriers": [
+        {
+          "disc": 1,
+          "path": "MC2Game/Movies/worldmapmovie_04_kotamare.bik",
+          "sha256": "1d8034cb6b93935949963718304531631c0a04a754f5cca55ad3fc9e50d1ef55"
+        },
+        {
+          "disc": 2,
+          "path": "MC2Game/Movies/worldmapmovie_04_kotamare.bik",
+          "sha256": "1d8034cb6b93935949963718304531631c0a04a754f5cca55ad3fc9e50d1ef55"
+        }
+      ],
+      "full_frame_replay": 360
+    },
+    {
+      "id": "ANIM-364-WM05",
+      "kind": "baked-movie-text",
+      "repair_status": "repaired-offline",
+      "runtime_display_observed": false,
+      "artistic_user_acceptance": false,
+      "member": "MC2Game/Movies/worldmapmovie_05_ucave.bik",
+      "translation": "海底洞窟",
+      "source_plan": {
+        "path": "locales/zh-Hans/video-captions/worldmap-v35/worldmapmovie_05_ucave.json",
+        "sha256": "8f2a21b09050a8380f0be8f69cbb66695894c3325f13b88f228686df046a24b8"
+      },
+      "after_carriers": [
+        {
+          "disc": 1,
+          "path": "MC2Game/Movies/worldmapmovie_05_ucave.bik",
+          "sha256": "07eab8b2b75b1356173b95b3853ab3d6f88b7101e3f619b2e40289fce28093a5"
+        },
+        {
+          "disc": 2,
+          "path": "MC2Game/Movies/worldmapmovie_05_ucave.bik",
+          "sha256": "07eab8b2b75b1356173b95b3853ab3d6f88b7101e3f619b2e40289fce28093a5"
+        }
+      ],
+      "full_frame_replay": 360
+    },
+    {
+      "id": "ANIM-364-WM06",
+      "kind": "baked-movie-text",
+      "repair_status": "repaired-offline",
+      "runtime_display_observed": false,
+      "artistic_user_acceptance": false,
+      "member": "MC2Game/Movies/worldmapmovie_06_dunan.bik",
+      "translation": "杜南丘陵",
+      "source_plan": {
+        "path": "locales/zh-Hans/video-captions/worldmap-v35/worldmapmovie_06_dunan.json",
+        "sha256": "35fcf6a3324192d6af6fd3dc5cf48f389e2598e1cc1c8fa3385594cfb7b90005"
+      },
+      "after_carriers": [
+        {
+          "disc": 1,
+          "path": "MC2Game/Movies/worldmapmovie_06_dunan.bik",
+          "sha256": "629360053d13f5c4842616aecb90ed5cca3ccedcab7099b2bd4374634653ce0b"
+        },
+        {
+          "disc": 2,
+          "path": "MC2Game/Movies/worldmapmovie_06_dunan.bik",
+          "sha256": "629360053d13f5c4842616aecb90ed5cca3ccedcab7099b2bd4374634653ce0b"
+        }
+      ],
+      "full_frame_replay": 360
+    },
+    {
+      "id": "ANIM-364-WM07",
+      "kind": "baked-movie-text",
+      "repair_status": "repaired-offline",
+      "runtime_display_observed": false,
+      "artistic_user_acceptance": false,
+      "member": "MC2Game/Movies/worldmapmovie_07_dunanfield.bik",
+      "translation": "杜南平原",
+      "source_plan": {
+        "path": "locales/zh-Hans/video-captions/worldmap-v35/worldmapmovie_07_dunanfield.json",
+        "sha256": "9c8547aa62fd39147db83681058a02643a1af7a3029fa5fa3e92f5aab254075e"
+      },
+      "after_carriers": [
+        {
+          "disc": 2,
+          "path": "MC2Game/Movies/worldmapmovie_07_dunanfield.bik",
+          "sha256": "96c9bf815707d0e0939f2e079e13d6f655033b27cd7fa2af1f26b5304997609d"
+        }
+      ],
+      "full_frame_replay": 360
+    },
+    {
+      "id": "ANIM-364-WM08",
+      "kind": "baked-movie-text",
+      "repair_status": "repaired-offline",
+      "runtime_display_observed": false,
+      "artistic_user_acceptance": false,
+      "member": "MC2Game/Movies/worldmapmovie_08_ruhalt.bik",
+      "translation": "鲁哈尔特",
+      "source_plan": {
+        "path": "locales/zh-Hans/video-captions/worldmap-v35/worldmapmovie_08_ruhalt.json",
+        "sha256": "a5cce99304804283dd199a230fba6848c4d1b8dd6ef21c9ce7c06ed59ed4546f"
+      },
+      "after_carriers": [
+        {
+          "disc": 2,
+          "path": "MC2Game/Movies/worldmapmovie_08_ruhalt.bik",
+          "sha256": "da8270044d80752d06ccdb9d7d18954ad24544c25ec80cdab6e0b74a9728de8d"
+        }
+      ],
+      "full_frame_replay": 360
+    },
+    {
+      "id": "ANIM-364-WM09",
+      "kind": "baked-movie-text",
+      "repair_status": "repaired-offline",
+      "runtime_display_observed": false,
+      "artistic_user_acceptance": false,
+      "member": "MC2Game/Movies/worldmapmovie_09_velfort.bik",
+      "translation": "贝尔福特",
+      "source_plan": {
+        "path": "locales/zh-Hans/video-captions/worldmap-v35/worldmapmovie_09_velfort.json",
+        "sha256": "86620f433df83b9cad7d415110f12a032baf33fd4b59ab24a211a2cdf3390400"
+      },
+      "after_carriers": [
+        {
+          "disc": 2,
+          "path": "MC2Game/Movies/worldmapmovie_09_velfort.bik",
+          "sha256": "3ef2e23f3e0a8e2cdd24175b346787c94fa3d29c8682a341cd98999426ddfc67"
+        }
+      ],
+      "full_frame_replay": 360
+    },
+    {
+      "id": "ANIM-364-WM10",
+      "kind": "baked-movie-text",
+      "repair_status": "repaired-offline",
+      "runtime_display_observed": false,
+      "artistic_user_acceptance": false,
+      "member": "MC2Game/Movies/worldmapmovie_10_sentinellab.bik",
+      "translation": "哨兵研究所",
+      "source_plan": {
+        "path": "locales/zh-Hans/video-captions/worldmap-v35/worldmapmovie_10_sentinellab.json",
+        "sha256": "2dbbd580545c04de304487869948ac2407a487dba538d9c456388613523c6e9a"
+      },
+      "after_carriers": [
+        {
+          "disc": 2,
+          "path": "MC2Game/Movies/worldmapmovie_10_sentinellab.bik",
+          "sha256": "c6c8508f5bcae01f70ac30c97e7ef18c4b1119c5877b0604924579ba2e93c5d1"
+        }
+      ],
+      "full_frame_replay": 360
+    },
+    {
+      "id": "ANIM-364-WM11",
+      "kind": "baked-movie-text",
+      "repair_status": "repaired-offline",
+      "runtime_display_observed": false,
+      "artistic_user_acceptance": false,
+      "member": "MC2Game/Movies/worldmapmovie_11_lastrada.bik",
+      "translation": "拉·斯特拉达",
+      "source_plan": {
+        "path": "locales/zh-Hans/video-captions/worldmap-v35/worldmapmovie_11_lastrada.json",
+        "sha256": "7ff114d1bdf3a4e76d2c6a9e11150ba8c95a03f793221585375c02b71e1e7c2a"
+      },
+      "after_carriers": [
+        {
+          "disc": 2,
+          "path": "MC2Game/Movies/worldmapmovie_11_lastrada.bik",
+          "sha256": "5b97e59527060c7f38bc28e27b3d63db8b4ddb8e3bede5bf59ae6e8dd1e155a2"
+        }
+      ],
+      "full_frame_replay": 360
+    },
+    {
+      "id": "IMG-364-DEF_normal",
+      "kind": "normal-ui-texture",
+      "repair_status": "repaired-offline",
+      "runtime_display_observed": false,
+      "artistic_user_acceptance": false,
+      "object": "Style_Tree_Resources.Style_Skill_Status_DEF_normal",
+      "translation": "防御",
+      "source_plan": {
+        "path": "locales/zh-Hans/texture-overlays/style-stat-labels-v35.json",
+        "sha256": "a2a3dfe7f6266875c710f795a643236faf9caa01493a706eb9902d1e4c840db8"
+      },
+      "alias_plan": {
+        "path": "locales/zh-Hans/texture-overlays/style-stat-aliases-v35.json",
+        "sha256": "9f42c461924f00f9cf57ec4f3da51bd6779edef4c99eb0de06af1ac3aa147d21"
+      },
+      "after_carriers": [
+        {
+          "disc": 1,
+          "path": "MC2Game/CookedXenon/MC2Game.xxx",
+          "export": 55422,
+          "sha256": "9bcc6e024b155f58fd841c9d75ff794c584e016e292500375388c80020b294f7"
+        },
+        {
+          "disc": 1,
+          "path": "MC2Game/CookedXenon/Style_Tree_Resources.xxx",
+          "export": 21,
+          "sha256": "40f6773603200233c34aca073e899a768c7f723b6cd10761f93a42b7b65dda6c"
+        },
+        {
+          "disc": 2,
+          "path": "MC2Game/CookedXenon/MC2Game.xxx",
+          "export": 55422,
+          "sha256": "9bcc6e024b155f58fd841c9d75ff794c584e016e292500375388c80020b294f7"
+        },
+        {
+          "disc": 2,
+          "path": "MC2Game/CookedXenon/Style_Tree_Resources.xxx",
+          "export": 21,
+          "sha256": "40f6773603200233c34aca073e899a768c7f723b6cd10761f93a42b7b65dda6c"
+        }
+      ],
+      "original_bc3_alpha_preserved": true
+    },
+    {
+      "id": "IMG-364-DEX_normal",
+      "kind": "normal-ui-texture",
+      "repair_status": "repaired-offline",
+      "runtime_display_observed": false,
+      "artistic_user_acceptance": false,
+      "object": "Style_Tree_Resources.Style_Skill_Status_DEX_normal",
+      "translation": "速度",
+      "source_plan": {
+        "path": "locales/zh-Hans/texture-overlays/style-stat-labels-v35.json",
+        "sha256": "a2a3dfe7f6266875c710f795a643236faf9caa01493a706eb9902d1e4c840db8"
+      },
+      "alias_plan": {
+        "path": "locales/zh-Hans/texture-overlays/style-stat-aliases-v35.json",
+        "sha256": "9f42c461924f00f9cf57ec4f3da51bd6779edef4c99eb0de06af1ac3aa147d21"
+      },
+      "after_carriers": [
+        {
+          "disc": 1,
+          "path": "MC2Game/CookedXenon/MC2Game.xxx",
+          "export": 55423,
+          "sha256": "9bcc6e024b155f58fd841c9d75ff794c584e016e292500375388c80020b294f7"
+        },
+        {
+          "disc": 1,
+          "path": "MC2Game/CookedXenon/Style_Tree_Resources.xxx",
+          "export": 22,
+          "sha256": "40f6773603200233c34aca073e899a768c7f723b6cd10761f93a42b7b65dda6c"
+        },
+        {
+          "disc": 2,
+          "path": "MC2Game/CookedXenon/MC2Game.xxx",
+          "export": 55423,
+          "sha256": "9bcc6e024b155f58fd841c9d75ff794c584e016e292500375388c80020b294f7"
+        },
+        {
+          "disc": 2,
+          "path": "MC2Game/CookedXenon/Style_Tree_Resources.xxx",
+          "export": 22,
+          "sha256": "40f6773603200233c34aca073e899a768c7f723b6cd10761f93a42b7b65dda6c"
+        }
+      ],
+      "original_bc3_alpha_preserved": true
+    },
+    {
+      "id": "IMG-364-ESP_normal",
+      "kind": "normal-ui-texture",
+      "repair_status": "repaired-offline",
+      "runtime_display_observed": false,
+      "artistic_user_acceptance": false,
+      "object": "Style_Tree_Resources.Style_Skill_Status_ESP_normal",
+      "translation": "精神",
+      "source_plan": {
+        "path": "locales/zh-Hans/texture-overlays/style-stat-labels-v35.json",
+        "sha256": "a2a3dfe7f6266875c710f795a643236faf9caa01493a706eb9902d1e4c840db8"
+      },
+      "alias_plan": {
+        "path": "locales/zh-Hans/texture-overlays/style-stat-aliases-v35.json",
+        "sha256": "9f42c461924f00f9cf57ec4f3da51bd6779edef4c99eb0de06af1ac3aa147d21"
+      },
+      "after_carriers": [
+        {
+          "disc": 1,
+          "path": "MC2Game/CookedXenon/MC2Game.xxx",
+          "export": 55424,
+          "sha256": "9bcc6e024b155f58fd841c9d75ff794c584e016e292500375388c80020b294f7"
+        },
+        {
+          "disc": 1,
+          "path": "MC2Game/CookedXenon/Style_Tree_Resources.xxx",
+          "export": 23,
+          "sha256": "40f6773603200233c34aca073e899a768c7f723b6cd10761f93a42b7b65dda6c"
+        },
+        {
+          "disc": 2,
+          "path": "MC2Game/CookedXenon/MC2Game.xxx",
+          "export": 55424,
+          "sha256": "9bcc6e024b155f58fd841c9d75ff794c584e016e292500375388c80020b294f7"
+        },
+        {
+          "disc": 2,
+          "path": "MC2Game/CookedXenon/Style_Tree_Resources.xxx",
+          "export": 23,
+          "sha256": "40f6773603200233c34aca073e899a768c7f723b6cd10761f93a42b7b65dda6c"
+        }
+      ],
+      "original_bc3_alpha_preserved": true
+    },
+    {
+      "id": "IMG-364-ESR_normal",
+      "kind": "normal-ui-texture",
+      "repair_status": "repaired-offline",
+      "runtime_display_observed": false,
+      "artistic_user_acceptance": false,
+      "object": "Style_Tree_Resources.Style_Skill_Status_ESR_normal",
+      "translation": "抗性",
+      "source_plan": {
+        "path": "locales/zh-Hans/texture-overlays/style-stat-labels-v35.json",
+        "sha256": "a2a3dfe7f6266875c710f795a643236faf9caa01493a706eb9902d1e4c840db8"
+      },
+      "alias_plan": {
+        "path": "locales/zh-Hans/texture-overlays/style-stat-aliases-v35.json",
+        "sha256": "9f42c461924f00f9cf57ec4f3da51bd6779edef4c99eb0de06af1ac3aa147d21"
+      },
+      "after_carriers": [
+        {
+          "disc": 1,
+          "path": "MC2Game/CookedXenon/MC2Game.xxx",
+          "export": 55425,
+          "sha256": "9bcc6e024b155f58fd841c9d75ff794c584e016e292500375388c80020b294f7"
+        },
+        {
+          "disc": 1,
+          "path": "MC2Game/CookedXenon/Style_Tree_Resources.xxx",
+          "export": 24,
+          "sha256": "40f6773603200233c34aca073e899a768c7f723b6cd10761f93a42b7b65dda6c"
+        },
+        {
+          "disc": 2,
+          "path": "MC2Game/CookedXenon/MC2Game.xxx",
+          "export": 55425,
+          "sha256": "9bcc6e024b155f58fd841c9d75ff794c584e016e292500375388c80020b294f7"
+        },
+        {
+          "disc": 2,
+          "path": "MC2Game/CookedXenon/Style_Tree_Resources.xxx",
+          "export": 24,
+          "sha256": "40f6773603200233c34aca073e899a768c7f723b6cd10761f93a42b7b65dda6c"
+        }
+      ],
+      "original_bc3_alpha_preserved": true
+    },
+    {
+      "id": "IMG-364-HP_normal",
+      "kind": "normal-ui-texture",
+      "repair_status": "repaired-offline",
+      "runtime_display_observed": false,
+      "artistic_user_acceptance": false,
+      "object": "Style_Tree_Resources.Style_Skill_Status_HP_normal",
+      "translation": "生命值提升",
+      "source_plan": {
+        "path": "locales/zh-Hans/texture-overlays/style-stat-labels-v35.json",
+        "sha256": "a2a3dfe7f6266875c710f795a643236faf9caa01493a706eb9902d1e4c840db8"
+      },
+      "alias_plan": {
+        "path": "locales/zh-Hans/texture-overlays/style-stat-aliases-v35.json",
+        "sha256": "9f42c461924f00f9cf57ec4f3da51bd6779edef4c99eb0de06af1ac3aa147d21"
+      },
+      "after_carriers": [
+        {
+          "disc": 1,
+          "path": "MC2Game/CookedXenon/MC2Game.xxx",
+          "export": 55426,
+          "sha256": "9bcc6e024b155f58fd841c9d75ff794c584e016e292500375388c80020b294f7"
+        },
+        {
+          "disc": 1,
+          "path": "MC2Game/CookedXenon/Style_Tree_Resources.xxx",
+          "export": 25,
+          "sha256": "40f6773603200233c34aca073e899a768c7f723b6cd10761f93a42b7b65dda6c"
+        },
+        {
+          "disc": 2,
+          "path": "MC2Game/CookedXenon/MC2Game.xxx",
+          "export": 55426,
+          "sha256": "9bcc6e024b155f58fd841c9d75ff794c584e016e292500375388c80020b294f7"
+        },
+        {
+          "disc": 2,
+          "path": "MC2Game/CookedXenon/Style_Tree_Resources.xxx",
+          "export": 25,
+          "sha256": "40f6773603200233c34aca073e899a768c7f723b6cd10761f93a42b7b65dda6c"
+        }
+      ],
+      "original_bc3_alpha_preserved": true
+    },
+    {
+      "id": "IMG-364-SRV_normal",
+      "kind": "normal-ui-texture",
+      "repair_status": "repaired-offline",
+      "runtime_display_observed": false,
+      "artistic_user_acceptance": false,
+      "object": "Style_Tree_Resources.Style_Skill_Status_SRV_normal",
+      "translation": "耐力恢复",
+      "source_plan": {
+        "path": "locales/zh-Hans/texture-overlays/style-stat-labels-v35.json",
+        "sha256": "a2a3dfe7f6266875c710f795a643236faf9caa01493a706eb9902d1e4c840db8"
+      },
+      "alias_plan": {
+        "path": "locales/zh-Hans/texture-overlays/style-stat-aliases-v35.json",
+        "sha256": "9f42c461924f00f9cf57ec4f3da51bd6779edef4c99eb0de06af1ac3aa147d21"
+      },
+      "after_carriers": [
+        {
+          "disc": 1,
+          "path": "MC2Game/CookedXenon/MC2Game.xxx",
+          "export": 55428,
+          "sha256": "9bcc6e024b155f58fd841c9d75ff794c584e016e292500375388c80020b294f7"
+        },
+        {
+          "disc": 1,
+          "path": "MC2Game/CookedXenon/Style_Tree_Resources.xxx",
+          "export": 27,
+          "sha256": "40f6773603200233c34aca073e899a768c7f723b6cd10761f93a42b7b65dda6c"
+        },
+        {
+          "disc": 2,
+          "path": "MC2Game/CookedXenon/MC2Game.xxx",
+          "export": 55428,
+          "sha256": "9bcc6e024b155f58fd841c9d75ff794c584e016e292500375388c80020b294f7"
+        },
+        {
+          "disc": 2,
+          "path": "MC2Game/CookedXenon/Style_Tree_Resources.xxx",
+          "export": 27,
+          "sha256": "40f6773603200233c34aca073e899a768c7f723b6cd10761f93a42b7b65dda6c"
+        }
+      ],
+      "original_bc3_alpha_preserved": true
+    },
+    {
+      "id": "IMG-364-STA_normal",
+      "kind": "normal-ui-texture",
+      "repair_status": "repaired-offline",
+      "runtime_display_observed": false,
+      "artistic_user_acceptance": false,
+      "object": "Style_Tree_Resources.Style_Skill_Status_STA_normal",
+      "translation": "耐力",
+      "source_plan": {
+        "path": "locales/zh-Hans/texture-overlays/style-stat-labels-v35.json",
+        "sha256": "a2a3dfe7f6266875c710f795a643236faf9caa01493a706eb9902d1e4c840db8"
+      },
+      "alias_plan": {
+        "path": "locales/zh-Hans/texture-overlays/style-stat-aliases-v35.json",
+        "sha256": "9f42c461924f00f9cf57ec4f3da51bd6779edef4c99eb0de06af1ac3aa147d21"
+      },
+      "after_carriers": [
+        {
+          "disc": 1,
+          "path": "MC2Game/CookedXenon/MC2Game.xxx",
+          "export": 55429,
+          "sha256": "9bcc6e024b155f58fd841c9d75ff794c584e016e292500375388c80020b294f7"
+        },
+        {
+          "disc": 1,
+          "path": "MC2Game/CookedXenon/Style_Tree_Resources.xxx",
+          "export": 28,
+          "sha256": "40f6773603200233c34aca073e899a768c7f723b6cd10761f93a42b7b65dda6c"
+        },
+        {
+          "disc": 2,
+          "path": "MC2Game/CookedXenon/MC2Game.xxx",
+          "export": 55429,
+          "sha256": "9bcc6e024b155f58fd841c9d75ff794c584e016e292500375388c80020b294f7"
+        },
+        {
+          "disc": 2,
+          "path": "MC2Game/CookedXenon/Style_Tree_Resources.xxx",
+          "export": 28,
+          "sha256": "40f6773603200233c34aca073e899a768c7f723b6cd10761f93a42b7b65dda6c"
+        }
+      ],
+      "original_bc3_alpha_preserved": true
+    },
+    {
+      "id": "IMG-364-STR_normal",
+      "kind": "normal-ui-texture",
+      "repair_status": "repaired-offline",
+      "runtime_display_observed": false,
+      "artistic_user_acceptance": false,
+      "object": "Style_Tree_Resources.Style_Skill_Status_STR_normal",
+      "translation": "攻击",
+      "source_plan": {
+        "path": "locales/zh-Hans/texture-overlays/style-stat-labels-v35.json",
+        "sha256": "a2a3dfe7f6266875c710f795a643236faf9caa01493a706eb9902d1e4c840db8"
+      },
+      "alias_plan": {
+        "path": "locales/zh-Hans/texture-overlays/style-stat-aliases-v35.json",
+        "sha256": "9f42c461924f00f9cf57ec4f3da51bd6779edef4c99eb0de06af1ac3aa147d21"
+      },
+      "after_carriers": [
+        {
+          "disc": 1,
+          "path": "MC2Game/CookedXenon/MC2Game.xxx",
+          "export": 55430,
+          "sha256": "9bcc6e024b155f58fd841c9d75ff794c584e016e292500375388c80020b294f7"
+        },
+        {
+          "disc": 1,
+          "path": "MC2Game/CookedXenon/Style_Tree_Resources.xxx",
+          "export": 29,
+          "sha256": "40f6773603200233c34aca073e899a768c7f723b6cd10761f93a42b7b65dda6c"
+        },
+        {
+          "disc": 2,
+          "path": "MC2Game/CookedXenon/MC2Game.xxx",
+          "export": 55430,
+          "sha256": "9bcc6e024b155f58fd841c9d75ff794c584e016e292500375388c80020b294f7"
+        },
+        {
+          "disc": 2,
+          "path": "MC2Game/CookedXenon/Style_Tree_Resources.xxx",
+          "export": 29,
+          "sha256": "40f6773603200233c34aca073e899a768c7f723b6cd10761f93a42b7b65dda6c"
+        }
+      ],
+      "original_bc3_alpha_preserved": true
+    },
+    {
+      "id": "TEXT-364-a0edfd5edb62b25655599b7013b4c7e99f7d0e1fb289119ff60f261de3ef870f",
+      "kind": "untranslated-notification-prefix",
+      "repair_status": "repaired-offline",
+      "runtime_display_observed": false,
+      "artistic_user_acceptance": false,
+      "resource": "MC2Game/Localization/Coalesced.int",
+      "field_id": "coalesced:a0edfd5edb62b25655599b7013b4c7e99f7d0e1fb289119ff60f261de3ef870f",
+      "translation": "任务: 精华提取成功！",
+      "source_plan": {
+        "path": "locales/zh-Hans/quest-prefix-fix-v35.json",
+        "sha256": "9b65409219fad87d897fa48b4c85d835d855c12a93de051060d6b3e5041cf60e"
+      },
+      "after_carriers": [
+        {
+          "disc": 1,
+          "path": "MC2Game/Localization/Coalesced.int",
+          "sha256": "ee45b275cbcd5275d65a48926bc26d7f2270fd7d19757ad3f7719f57edad0f60"
+        },
+        {
+          "disc": 2,
+          "path": "MC2Game/Localization/Coalesced.int",
+          "sha256": "ee45b275cbcd5275d65a48926bc26d7f2270fd7d19757ad3f7719f57edad0f60"
+        }
+      ],
+      "protected_suffix_and_tokens_preserved": true
+    },
+    {
+      "id": "TEXT-364-c9a69ef7794a809eca1aac051129a6a9fe126600e21201e6fefc2e5bfce7be26",
+      "kind": "untranslated-notification-prefix",
+      "repair_status": "repaired-offline",
+      "runtime_display_observed": false,
+      "artistic_user_acceptance": false,
+      "resource": "MC2Game/Localization/Coalesced.int",
+      "field_id": "coalesced:c9a69ef7794a809eca1aac051129a6a9fe126600e21201e6fefc2e5bfce7be26",
+      "translation": "任务%s: 获得马雷的吊坠",
+      "source_plan": {
+        "path": "locales/zh-Hans/quest-prefix-fix-v35.json",
+        "sha256": "9b65409219fad87d897fa48b4c85d835d855c12a93de051060d6b3e5041cf60e"
+      },
+      "after_carriers": [
+        {
+          "disc": 1,
+          "path": "MC2Game/Localization/Coalesced.int",
+          "sha256": "ee45b275cbcd5275d65a48926bc26d7f2270fd7d19757ad3f7719f57edad0f60"
+        },
+        {
+          "disc": 2,
+          "path": "MC2Game/Localization/Coalesced.int",
+          "sha256": "ee45b275cbcd5275d65a48926bc26d7f2270fd7d19757ad3f7719f57edad0f60"
+        }
+      ],
+      "protected_suffix_and_tokens_preserved": true
+    },
+    {
+      "id": "TEXT-364-558ea06559937a934ec1c77934db21f43c99d7896fb8060874960ace7b1cb41a",
+      "kind": "untranslated-notification-prefix",
+      "repair_status": "repaired-offline",
+      "runtime_display_observed": false,
+      "artistic_user_acceptance": false,
+      "resource": "MC2Game/Localization/Coalesced.int",
+      "field_id": "coalesced:558ea06559937a934ec1c77934db21f43c99d7896fb8060874960ace7b1cb41a",
+      "translation": "任务: 护送完成",
+      "source_plan": {
+        "path": "locales/zh-Hans/quest-prefix-fix-v35.json",
+        "sha256": "9b65409219fad87d897fa48b4c85d835d855c12a93de051060d6b3e5041cf60e"
+      },
+      "after_carriers": [
+        {
+          "disc": 1,
+          "path": "MC2Game/Localization/Coalesced.int",
+          "sha256": "ee45b275cbcd5275d65a48926bc26d7f2270fd7d19757ad3f7719f57edad0f60"
+        },
+        {
+          "disc": 2,
+          "path": "MC2Game/Localization/Coalesced.int",
+          "sha256": "ee45b275cbcd5275d65a48926bc26d7f2270fd7d19757ad3f7719f57edad0f60"
+        }
+      ],
+      "protected_suffix_and_tokens_preserved": true
+    },
+    {
+      "id": "TEXT-364-f8de8fce38844e795707ee2fa2559454d8cc989cac61692a2a271042d0456d07",
+      "kind": "untranslated-notification-prefix",
+      "repair_status": "repaired-offline",
+      "runtime_display_observed": false,
+      "artistic_user_acceptance": false,
+      "resource": "MC2Game/Localization/Coalesced.int",
+      "field_id": "coalesced:f8de8fce38844e795707ee2fa2559454d8cc989cac61692a2a271042d0456d07",
+      "translation": "任务: 击败不死怪物",
+      "source_plan": {
+        "path": "locales/zh-Hans/quest-prefix-fix-v35.json",
+        "sha256": "9b65409219fad87d897fa48b4c85d835d855c12a93de051060d6b3e5041cf60e"
+      },
+      "after_carriers": [
+        {
+          "disc": 1,
+          "path": "MC2Game/Localization/Coalesced.int",
+          "sha256": "ee45b275cbcd5275d65a48926bc26d7f2270fd7d19757ad3f7719f57edad0f60"
+        },
+        {
+          "disc": 2,
+          "path": "MC2Game/Localization/Coalesced.int",
+          "sha256": "ee45b275cbcd5275d65a48926bc26d7f2270fd7d19757ad3f7719f57edad0f60"
+        }
+      ],
+      "protected_suffix_and_tokens_preserved": true
+    },
+    {
+      "id": "TEXT-364-7adc39bf7cbc2ac6a62ebfdcf503d8bf20e150906c65e28d7962af2c938d0ec9",
+      "kind": "untranslated-notification-prefix",
+      "repair_status": "repaired-offline",
+      "runtime_display_observed": false,
+      "artistic_user_acceptance": false,
+      "resource": "MC2Game/Localization/Coalesced.int",
+      "field_id": "coalesced:7adc39bf7cbc2ac6a62ebfdcf503d8bf20e150906c65e28d7962af2c938d0ec9",
+      "translation": "任务: 获得红色宝石",
+      "source_plan": {
+        "path": "locales/zh-Hans/quest-prefix-fix-v35.json",
+        "sha256": "9b65409219fad87d897fa48b4c85d835d855c12a93de051060d6b3e5041cf60e"
+      },
+      "after_carriers": [
+        {
+          "disc": 1,
+          "path": "MC2Game/Localization/Coalesced.int",
+          "sha256": "ee45b275cbcd5275d65a48926bc26d7f2270fd7d19757ad3f7719f57edad0f60"
+        },
+        {
+          "disc": 2,
+          "path": "MC2Game/Localization/Coalesced.int",
+          "sha256": "ee45b275cbcd5275d65a48926bc26d7f2270fd7d19757ad3f7719f57edad0f60"
+        }
+      ],
+      "protected_suffix_and_tokens_preserved": true
+    },
+    {
+      "id": "TEXT-364-87c426d8ad900077fda305de3748c52fe778c84f03a06bae3ddf560670dbd765",
+      "kind": "untranslated-notification-prefix",
+      "repair_status": "repaired-offline",
+      "runtime_display_observed": false,
+      "artistic_user_acceptance": false,
+      "resource": "MC2Game/Localization/Coalesced.int",
+      "field_id": "coalesced:87c426d8ad900077fda305de3748c52fe778c84f03a06bae3ddf560670dbd765",
+      "translation": "任务%s: 神奇蘑菇 (%s/%s)",
+      "source_plan": {
+        "path": "locales/zh-Hans/quest-prefix-fix-v35.json",
+        "sha256": "9b65409219fad87d897fa48b4c85d835d855c12a93de051060d6b3e5041cf60e"
+      },
+      "after_carriers": [
+        {
+          "disc": 1,
+          "path": "MC2Game/Localization/Coalesced.int",
+          "sha256": "ee45b275cbcd5275d65a48926bc26d7f2270fd7d19757ad3f7719f57edad0f60"
+        },
+        {
+          "disc": 2,
+          "path": "MC2Game/Localization/Coalesced.int",
+          "sha256": "ee45b275cbcd5275d65a48926bc26d7f2270fd7d19757ad3f7719f57edad0f60"
+        }
+      ],
+      "protected_suffix_and_tokens_preserved": true
+    },
+    {
+      "id": "TEXT-364-54000fac1db719f438709fedf3a66068d2b82683d07d8605d5ec070cde4b7afb",
+      "kind": "untranslated-notification-prefix",
+      "repair_status": "repaired-offline",
+      "runtime_display_observed": false,
+      "artistic_user_acceptance": false,
+      "resource": "MC2Game/Localization/Coalesced.int",
+      "field_id": "coalesced:54000fac1db719f438709fedf3a66068d2b82683d07d8605d5ec070cde4b7afb",
+      "translation": "任务%s: 毒蘑菇 (%s/%s)",
+      "source_plan": {
+        "path": "locales/zh-Hans/quest-prefix-fix-v35.json",
+        "sha256": "9b65409219fad87d897fa48b4c85d835d855c12a93de051060d6b3e5041cf60e"
+      },
+      "after_carriers": [
+        {
+          "disc": 1,
+          "path": "MC2Game/Localization/Coalesced.int",
+          "sha256": "ee45b275cbcd5275d65a48926bc26d7f2270fd7d19757ad3f7719f57edad0f60"
+        },
+        {
+          "disc": 2,
+          "path": "MC2Game/Localization/Coalesced.int",
+          "sha256": "ee45b275cbcd5275d65a48926bc26d7f2270fd7d19757ad3f7719f57edad0f60"
+        }
+      ],
+      "protected_suffix_and_tokens_preserved": true
+    },
+    {
+      "id": "TEXT-364-3ae2e0cfa10b454b248e0abdca70b5c01749e4ec86f040a13bc1d10de808a953",
+      "kind": "untranslated-notification-prefix",
+      "repair_status": "repaired-offline",
+      "runtime_display_observed": false,
+      "artistic_user_acceptance": false,
+      "resource": "MC2Game/Localization/Coalesced.int",
+      "field_id": "coalesced:3ae2e0cfa10b454b248e0abdca70b5c01749e4ec86f040a13bc1d10de808a953",
+      "translation": "任务%s: 采集海底洞窟香料 (%s/%s)",
+      "source_plan": {
+        "path": "locales/zh-Hans/quest-prefix-fix-v35.json",
+        "sha256": "9b65409219fad87d897fa48b4c85d835d855c12a93de051060d6b3e5041cf60e"
+      },
+      "after_carriers": [
+        {
+          "disc": 1,
+          "path": "MC2Game/Localization/Coalesced.int",
+          "sha256": "ee45b275cbcd5275d65a48926bc26d7f2270fd7d19757ad3f7719f57edad0f60"
+        },
+        {
+          "disc": 2,
+          "path": "MC2Game/Localization/Coalesced.int",
+          "sha256": "ee45b275cbcd5275d65a48926bc26d7f2270fd7d19757ad3f7719f57edad0f60"
+        }
+      ],
+      "protected_suffix_and_tokens_preserved": true
+    }
+  ],
+  "related_attack_copies": {
+    "original_language": "Japanese",
+    "original_short_label": "攻撃",
+    "translation": "攻击",
+    "physical_aliases": 2,
+    "runtime_use_observed": false,
+    "independently_restored": true
+  },
+  "known_hangul_holds": {
+    "count": 63,
+    "pending": 40,
+    "excluded": 23,
+    "status": "unchanged",
+    "policy": {
+      "path": "locales/zh-Hans/omission-screen-v35.json",
+      "sha256": "1e9574eab251f35ccfe530ad1ae292f2fc527c64ebd8b304dfb10d4e1d7bc40a"
+    }
+  },
+  "unresolved": [
+    {
+      "id": "UI-20261107-02",
+      "status": "actual-independent-chapter-card-not-identified",
+      "new_verified_routes": 2,
+      "action_texture_aliases": 66,
+      "volume_texture_aliases": 37,
+      "alias_counts_overlap": true,
+      "field_menu_location_macros": 34,
+      "report": "docs/PHASE_365_POSTCUTSCENE_TITLE_ROUTE.md"
+    }
+  ],
+  "game_started": false,
+  "coverage_is_bounded": true,
+  "full_game_copy_created": false
+}

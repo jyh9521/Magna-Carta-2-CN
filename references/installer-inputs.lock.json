@@ -9,8 +9,8 @@
     "iso_sha256": "23e96219aa8b2116239c35e6f65013329bfd298d46a726edffa5224498028ac5",
     "inventory": "build\\disc1-hashed.json",
     "inventory_sha256": "2f09849a02729be1d2cae94de5e3e6a1f9fdbf5efa0e007c192a55f2f1bb56d9",
-    "packet": "build/phase-363-title-rework/packet",
-    "manifest_sha256": "c22e9ce288f127f24fb679f8e3bfcda048fff5b302dfd5957247135b392bd5ee"
+    "packet": "build/phase-365-omission-repair/packet",
+    "manifest_sha256": "c6054deeb10f3ebb9caff5f045b08917b60d284219cdf0c36e53ca4b48de5aff"
   },
   "disc2": {
     "iso": "MagnaCarta II (Korea) (Disc 2).iso",
@@ -57,6 +57,10 @@
       {
         "manifest": "build/phase-363-title-rework/replacements-disc2.json",
         "sha256": "0654d97c38c2cea2f125a12860962da32eb5a2cc0714c06de5df6e93e54a04c9"
+      },
+      {
+        "manifest": "build/phase-365-omission-repair/replacements-disc2.json",
+        "sha256": "b47892b7efcf5570570692e9f67c0a940cc023218c0a61865b945a95856d9fba"
       }
     ]
   },

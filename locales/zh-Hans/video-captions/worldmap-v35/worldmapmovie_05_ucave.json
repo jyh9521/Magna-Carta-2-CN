@@ -1,0 +1,3448 @@
+{
+  "schema_version": 1,
+  "kind": "bink-audio-caption-plan",
+  "locale": "zh-Hans",
+  "game_rendering_verified": false,
+  "source_font_identity_recovered": false,
+  "style_basis": "Per-clip native measured visible ink/baseline geometry, left-anchored serif destination title, and source-normalized map-specific foreground gradient. Finite-guarded temporal RGB propagation copied only inside measured old glyph+outline support. Native compass/point/all unowned RGB source-exact before encoding. No flat fill, width stretch or covering bar; hidden RGB remains reviewed reconstruction rather than recovered original art.",
+  "rasterizer_versions": {
+    "Pillow": "12.2.0",
+    "numpy": "2.5.1",
+    "fontTools": "4.63.0"
+  },
+  "fonts": {
+    "caption": {
+      "path": "build/font-source/NotoSerifCJKsc-SemiBold.otf",
+      "sha256": "d627b53dbcde61e07de1498d2623a8b287f78585ffbc90cc0618d0caaa2ed6b0"
+    }
+  },
+  "entries": [
+    {
+      "id": "worldmapmovie_05_ucave",
+      "source": {
+        "file": "worldmapmovie_05_ucave.bik",
+        "member": "MC2Game/Movies/worldmapmovie_05_ucave.bik",
+        "size": 26607176,
+        "sha256": "4f2f993c038450bcc4d826f4225cefcdffb03cf66552bc78e294dbd92adc210e",
+        "first_rgb_sha256": "80a4f9bafcddea1e8544791140f52755b6befdd0dd3b355d72ae968fecc3beff",
+        "discs": [
+          1,
+          2
+        ]
+      },
+      "expected_header": {
+        "width": 1280,
+        "height": 720,
+        "frames": 360,
+        "numerator": 10000000,
+        "denominator": 333333,
+        "magic": "BIKi",
+        "audio_tracks": 6
+      },
+      "maximum_frames": 600,
+      "maximum_encoded_bytes": 134217728,
+      "encoder_timeout_seconds": 600,
+      "source_text": "해저 동굴",
+      "translation_basis": "Exact baked destination name; reuses the adopted project place-name. Native em size/advance is retained; natural target string length is not width-stretched. Not the independently unresolved postplot chapter-title route.",
+      "scratch_reserve_bytes": 8589934592,
+      "minimum_start_free_bytes": 17179869184,
+      "encoder_guard_frames": 1,
+      "review_frames": [
+        0,
+        1,
+        2,
+        39,
+        40,
+        41,
+        79,
+        80,
+        81,
+        119,
+        120,
+        121,
+        159,
+        160,
+        161,
+        179,
+        180,
+        181,
+        239,
+        240,
+        241,
+        269,
+        270,
+        271,
+        319,
+        320,
+        321,
+        357,
+        358,
+        359
+      ],
+      "captions": [
+        {
+          "role": "worldmap-destination-title",
+          "text": "海底洞窟",
+          "font": "caption",
+          "font_size": 32,
+          "appearance": {
+            "kind": "source-style-v1",
+            "ink_box": [
+              255,
+              344,
+              300,
+              33
+            ],
+            "align": "left",
+            "gradient": [
+              [
+                0,
+                [
+                  246,
+                  246,
+                  248,
+                  255
+                ]
+              ],
+              [
+                260,
+                [
+                  244,
+                  244,
+                  250,
+                  255
+                ]
+              ],
+              [
+                450,
+                [
+                  198,
+                  188,
+                  229,
+                  255
+                ]
+              ],
+              [
+                650,
+                [
+                  140,
+                  124,
+                  203,
+                  255
+                ]
+              ],
+              [
+                800,
+                [
+                  159,
+                  187,
+                  239,
+                  255
+                ]
+              ],
+              [
+                1000,
+                [
+                  170,
+                  210,
+                  248,
+                  255
+                ]
+              ]
+            ],
+            "outline": [
+              0,
+              0,
+              0,
+              235
+            ],
+            "outline_width": 1,
+            "glow": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "glow_radius": 0,
+            "shadow": [
+              0,
+              0,
+              0,
+              180
+            ],
+            "shadow_offset": [
+              1,
+              2
+            ],
+            "shadow_radius": 0.8,
+            "italic": 0,
+            "tracking": 1,
+            "weight": 0,
+            "motion": 0
+          },
+          "frame_alpha": [
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255
+          ],
+          "erase": {
+            "rect": [
+              248,
+              336,
+              300,
+              56
+            ],
+            "mask_asset": {
+              "path": "locales/zh-Hans/video-repairs/worldmap-v35/masks/worldmapmovie_05_ucave.png",
+              "sha256": "67b6be4b255bf33e525d6329e1a4c3ec855d89f2aabe22962038f32768505b17",
+              "pixels_sha256": "03f7d2796cd037d544aac9a91833edaff888c8db44c914f46980f639d6adbeb2",
+              "pixels": 5072
+            },
+            "frame_repairs": {
+              "method": "sparse-frame-rgba-v1",
+              "records": [
+                {
+                  "index": 0,
+                  "source_crop_sha256": "d476f43071f28b27079d0ee32b25cc45ed2421ec93347f742c575627d31562a5",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0000.png",
+                    "sha256": "7ed29a9727dfde04db8a4fc6195efb9cc08724c4cd45746fff5f6c9298bed070"
+                  }
+                },
+                {
+                  "index": 1,
+                  "source_crop_sha256": "d9e797e2725f6ac57d13b244e4685d28b0c5df9f463d119ff55c689cfc2969e1",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0001.png",
+                    "sha256": "aafb190b96ac26ec75d212a059f4884c7d8d8835d18da2dd7ac6b648c924b0d5"
+                  }
+                },
+                {
+                  "index": 2,
+                  "source_crop_sha256": "be361b92d6c98eaeccea5485e896cd7510d57a406504e3ee64506df671c744e2",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0002.png",
+                    "sha256": "c9e3681c4c9613367b71dfe4e2ec7d9cbb6adadf37c41bb03391e234b315e589"
+                  }
+                },
+                {
+                  "index": 3,
+                  "source_crop_sha256": "5821c46c737e1b1248fc60fc6384228f23d2ace3bbe8fdc292b9d0d2c7fe7071",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0003.png",
+                    "sha256": "7329f803cc79d240dfd0350987d957e96653df46ac4a221f82ab40dd5e56ff2d"
+                  }
+                },
+                {
+                  "index": 4,
+                  "source_crop_sha256": "e71a40e1ddb47c1ee64c0ca2ea6496454df56429c035ee3d3f31da0c6e4dfeca",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0004.png",
+                    "sha256": "68ada56e55582c7293db8fcb2431ba4d75e5efc958fce3982677b6cf8731369a"
+                  }
+                },
+                {
+                  "index": 5,
+                  "source_crop_sha256": "423bacd36f3118596119d67f31d81405d22547939d386293ea4b5b8186e718d6",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0005.png",
+                    "sha256": "4131c06bb1c7d0aebaf3e10a0d7dfc0c65112a466cf7aae3b973922e023cc1a6"
+                  }
+                },
+                {
+                  "index": 6,
+                  "source_crop_sha256": "2bce410f0255121b1615b237c657f052625c36e3baf2d622f5c1bb7ed5b6d6c2",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0006.png",
+                    "sha256": "fda9fb1d9350c64136405d42fca225243475621f96ed99dd5e5c9b73fbbfe40e"
+                  }
+                },
+                {
+                  "index": 7,
+                  "source_crop_sha256": "6238080c0e497aa1e84b80d88c814c64dfbb6b5808bc14be7abf10db835b84b5",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0007.png",
+                    "sha256": "0e4f7cac91623729a2355c3a80910730baf683c1a9c86b10a9b979f1ed529d9c"
+                  }
+                },
+                {
+                  "index": 8,
+                  "source_crop_sha256": "1ee8e1671404a27697c93adb0a3e8d5e0edb550fc614a5d0f6c7a678a9f2ed93",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0008.png",
+                    "sha256": "8b179d5d00029ec25085eb64067fa6ecd9c2f0478fc87bee00da3f19c72563b6"
+                  }
+                },
+                {
+                  "index": 9,
+                  "source_crop_sha256": "24cd8d2b0a03fd10dde0e9395e40d30650f106e7b448275a0799f259e6532b6e",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0009.png",
+                    "sha256": "8917167e2c9eda582b1529cccc1d35bf9343ce55617ff8b591a77a262d58f43b"
+                  }
+                },
+                {
+                  "index": 10,
+                  "source_crop_sha256": "661fe8216d2c967b1483720e279d6b1396c39d3f5a4cff994ae9b3e8c5d0e902",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0010.png",
+                    "sha256": "80ff9e5f2f6ca68cbc608de0b7ea9c4681e9fb5abf24dcfc5e187d3e6fa8ef33"
+                  }
+                },
+                {
+                  "index": 11,
+                  "source_crop_sha256": "3b6628ef22307764bd2ba0e609f724b76a95261333a7f625aa4ac91cab8f4779",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0011.png",
+                    "sha256": "38f1ef838cdfdb2cc3c8126deb0a2a3b1c7801c4b5fc350a46cd75dcd6e6cc22"
+                  }
+                },
+                {
+                  "index": 12,
+                  "source_crop_sha256": "761ef05a4bcbde4de398ef93ba07b753ed1b9c87d55b77aa9efd8b760b37c62a",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0012.png",
+                    "sha256": "608b3403003207ce4fb0289b740bb64790f313e5d9471a512bb38b9a92dfac2d"
+                  }
+                },
+                {
+                  "index": 13,
+                  "source_crop_sha256": "a2ad21604be9534ad097ff2b5a91e2e90fdc0c4e087eef1fca017fb532a8a200",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0013.png",
+                    "sha256": "7c72384fd6c917374c8f72f0056b3aa75bd212d03140888d0b199eac77638618"
+                  }
+                },
+                {
+                  "index": 14,
+                  "source_crop_sha256": "2593ba636fbebd371489b17c955ca39f5f896205dc4fb64a173d35706ef2be5e",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0014.png",
+                    "sha256": "d4f64f180255dd901691a9133fe25ef7a56128fabaa44d557b4efcdffa93352d"
+                  }
+                },
+                {
+                  "index": 15,
+                  "source_crop_sha256": "443292f12e2beb7c5507e80611897995e2b96c7a4b0136d0705fc76f4d226a3e",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0015.png",
+                    "sha256": "af399f9470b6a08b828c3319763f353b5c1cc61b49852f30bdc04c321e3081b3"
+                  }
+                },
+                {
+                  "index": 16,
+                  "source_crop_sha256": "d83aa7c0325e2575d57ce4fc61328a3820f79848f7348b1865a9003386802e8a",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0016.png",
+                    "sha256": "70a868c22a4a8935e071cc6bdec8442a34911d8b11147901e8a8ae5e4de9a462"
+                  }
+                },
+                {
+                  "index": 17,
+                  "source_crop_sha256": "691edd19cbf2232ae5a74101faa44c71e50687d2d413d1da352d50ccb4b9a311",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0017.png",
+                    "sha256": "26aaa0a6ba47bd0bfee2cde3ab14f9f44050bf2ea89af5797e32171bac26691d"
+                  }
+                },
+                {
+                  "index": 18,
+                  "source_crop_sha256": "6005eba7985b7d71bdef2529c28d027a8213021b876ec9f9e396740cfd6674e2",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0018.png",
+                    "sha256": "8d2d5f172d01040d984d12e63a173edce7b27bf15b08498acad953699e95519e"
+                  }
+                },
+                {
+                  "index": 19,
+                  "source_crop_sha256": "aca8af177d0f101bb269b7ed65ef3f291b00825835ca8af8f6e78ce09fd7ca3d",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0019.png",
+                    "sha256": "99d6106b1e68852d74b4261e27b2dee9b725bdf07b67521a890fb361cecb089c"
+                  }
+                },
+                {
+                  "index": 20,
+                  "source_crop_sha256": "033cdf20e67af7cf6bba100961fb7a7673727f6daefdad72d2ef68ecc533306d",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0020.png",
+                    "sha256": "d6d59efe4ee5b1fd51ba6148a9be83eab1ab790b3cfb74a2eacefe2a52042df6"
+                  }
+                },
+                {
+                  "index": 21,
+                  "source_crop_sha256": "f624210c3cb98f95f5699d925bca9a862c2bcd9b09d42e77a7148750a1f03f66",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0021.png",
+                    "sha256": "502d2527b303699b0b69d4bfa0480493792f92ec28151597ccbe992d17637959"
+                  }
+                },
+                {
+                  "index": 22,
+                  "source_crop_sha256": "503abc0dfebaf6c23bc231564b8ed510c69e20fdf6987a276cc7e575d08020a2",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0022.png",
+                    "sha256": "2367c76e43d9a5b20a1ee9df6232b54ef666eb271c95254dec14b4d2ebef7e6e"
+                  }
+                },
+                {
+                  "index": 23,
+                  "source_crop_sha256": "043bc161779f8cad9b010b44ee4d6c8ae900b75544bac523c1f69d5e6560fec5",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0023.png",
+                    "sha256": "2fc2ff8e09627e7318f296ab337f2d69b5d730c69899cb04832f413256f3796a"
+                  }
+                },
+                {
+                  "index": 24,
+                  "source_crop_sha256": "0ba0faa6305116a41550ac0ed8dd958c5e27955507280f9e4fb89411a60ca0e5",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0024.png",
+                    "sha256": "b7738c2cbee4687a3652af8dec8a789515593db0029ae4b9f740a00126484b12"
+                  }
+                },
+                {
+                  "index": 25,
+                  "source_crop_sha256": "81d4c1bae8ffbd096d8903bc4e53d0f85322ea623e4444abf97f320943ce371b",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0025.png",
+                    "sha256": "2cfd3294f92564a3453b12cacf88b9eefb951e63447955b4369f1f333a01ba3a"
+                  }
+                },
+                {
+                  "index": 26,
+                  "source_crop_sha256": "7cc962a3b0da269d3a0712ef474aa27af4b5b9f423c09e6370035be19574e544",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0026.png",
+                    "sha256": "13233d5aec82ec9d292e6e9e7d3f71d4c2572f20d1d0e2f7d2fc23f71a33b3ff"
+                  }
+                },
+                {
+                  "index": 27,
+                  "source_crop_sha256": "0cb2fc14bb91c82602423fd19e459863f33bc4ddaf165efb7e0d5f7e56058dc6",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0027.png",
+                    "sha256": "a113c4dacbb162d5ee878ae2705850dc5cae0db8a5a51b9e4618f8fc813467f1"
+                  }
+                },
+                {
+                  "index": 28,
+                  "source_crop_sha256": "a45834e553181c292120497b9eca929c4215f777f67c69e5c54fd38c7c5350c3",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0028.png",
+                    "sha256": "dceea658bc03237787e29196e8b53452cd737fd44246bf989334ffdf5bcae375"
+                  }
+                },
+                {
+                  "index": 29,
+                  "source_crop_sha256": "f8e12dffcf54be523dfd9a3f4ea7f86e19b92b647e7d9cd2cab49369808f3c2f",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0029.png",
+                    "sha256": "db3f650bf6efacc84a5102288d9ac5aff2832909651a62b7a83413102da9b7c7"
+                  }
+                },
+                {
+                  "index": 30,
+                  "source_crop_sha256": "3ced28dc30875f44e4406b818d585a17741c4bfa7838df20a0839a372831472c",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0030.png",
+                    "sha256": "dfdacaf9f6cc4c52d0188b45dc81a72c95c65e4a1cec73ac8472ef54dacec4b3"
+                  }
+                },
+                {
+                  "index": 31,
+                  "source_crop_sha256": "3da2241e97b551b9d16f585256ec6032fd4caa924517c6bf21eff01f6e068c55",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0031.png",
+                    "sha256": "06e9eb94e925aef2945cae04dd7715ecbf78dfcb9d43d7dd257ef35b82fbc2b0"
+                  }
+                },
+                {
+                  "index": 32,
+                  "source_crop_sha256": "0e2804dda342e241692e19437918d6251cb1bd5a452136ca71d6aba79756ceb1",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0032.png",
+                    "sha256": "b1769c3d24d66e9e9486f05f1dfe15d12a6b5061d065eae2e58186ba49358422"
+                  }
+                },
+                {
+                  "index": 33,
+                  "source_crop_sha256": "58c8c9ad7ef1f1d1d52799a8ab623ef9e37f9af4a1f967f212e652d67c369d1b",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0033.png",
+                    "sha256": "6ace8e2c23372f1c895fff665b50014199d13a17911ad5058c9f4c1d359aa8a5"
+                  }
+                },
+                {
+                  "index": 34,
+                  "source_crop_sha256": "be18984c85943fb10cf74eb0ee2128f644803b6c88ff33bb8b53f8ce4fea9ba7",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0034.png",
+                    "sha256": "7af8bd76714ca16d77487abe0cff386ed6894fbe38656512e8d18b1746f8e1be"
+                  }
+                },
+                {
+                  "index": 35,
+                  "source_crop_sha256": "8da59791e8d1be9a6bc657a4b927a5a719a603f98b8796a31071c350fb48de6c",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0035.png",
+                    "sha256": "4ab547cde9f8cb13ca4d573c5190cdd5e75bf3dadeacd2d85e76e854cded9d28"
+                  }
+                },
+                {
+                  "index": 36,
+                  "source_crop_sha256": "9f0bf9d4c46b386b675c9d742ec76e98da337de7873580d4ccef19e8eaaf3681",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0036.png",
+                    "sha256": "ca28241bee266ac616abe459312213f04674be66d5d6ee27a654932478b471f9"
+                  }
+                },
+                {
+                  "index": 37,
+                  "source_crop_sha256": "01ea6d31249df70c788214fbbcecb0368e5663040c8da92fdc6149c9ddac19ec",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0037.png",
+                    "sha256": "156f7ad221cf9ae645cf8df6cbc9b34bcfed804887f9e61ea277aafce46275c5"
+                  }
+                },
+                {
+                  "index": 38,
+                  "source_crop_sha256": "d0d9dfcdf12c0f314b1f94a2fcf9fc69c215b04b62965d7c4dc02ca7bedbb9cd",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0038.png",
+                    "sha256": "d80c5667f46fadf817f43f92bf6f7341063ce4bcfc54a2c995e3ec7df2c3575b"
+                  }
+                },
+                {
+                  "index": 39,
+                  "source_crop_sha256": "7bc904773ae88e056dc5bcdb3e83465540d735f47d5944a377045c4c5c86334e",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0039.png",
+                    "sha256": "268c17a159c8838ba1444133d4d41ccc59657691fcc617a0ed7acbbf71f29379"
+                  }
+                },
+                {
+                  "index": 40,
+                  "source_crop_sha256": "a7c009d60a73a1a98069802ab2b1388f2c7d8aabbcda4d29e0e1b3edeca476ac",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0040.png",
+                    "sha256": "7e1f68f62f627ac70c0a4acf7cadec1eaa1be44b1ea9cced46ed7e3912e5ff8f"
+                  }
+                },
+                {
+                  "index": 41,
+                  "source_crop_sha256": "9eb5c4fc57d3bbbd86caac2566257b99781f40b536d77d4f09d15655476d9e2c",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0041.png",
+                    "sha256": "600a775592526c5a2f7c70f7174392445e42342432ddc08c207a1ac2901b1584"
+                  }
+                },
+                {
+                  "index": 42,
+                  "source_crop_sha256": "f1250bac9245102a245ede5ded6f8c625a7ad3b259f2a8a32c195ad954b99e29",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0042.png",
+                    "sha256": "cc71dac769785412cf9e4069b3629ec77960d5f3677261277a2265a62dc868b4"
+                  }
+                },
+                {
+                  "index": 43,
+                  "source_crop_sha256": "04d38b5fafe644cc873e18d1118ebfaa310952ab77a9b3a595c4b29b1ec1e952",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0043.png",
+                    "sha256": "d23bb4b47b2170933b381f76178f827f7ad6b5b7d9f5c1737c7b601a3b354599"
+                  }
+                },
+                {
+                  "index": 44,
+                  "source_crop_sha256": "71b235a8eed6d450df169c00bc41f6245e26eb6f5384e6079228cea3863c538d",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0044.png",
+                    "sha256": "c9ad6cc68a96052347dc6943ec3eacb661c033fd49a7e8fbc31a64043a17bb73"
+                  }
+                },
+                {
+                  "index": 45,
+                  "source_crop_sha256": "1dd3dd42b9b74d7bdfea56978ed91dbb3a627c9cedcd95555c39c02150a4b50f",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0045.png",
+                    "sha256": "c58b8e5a37f8a716b0d57fcbd6cff031a477555183543f99ba7210cd3055fbb7"
+                  }
+                },
+                {
+                  "index": 46,
+                  "source_crop_sha256": "92b669b19579af425a88ece2e280b5394252cb59eab0bf7b3b687c6287d9f264",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0046.png",
+                    "sha256": "5f9fc5fa4015b79e7719c3d8f2259839e600691af082ad40c484016a870327c1"
+                  }
+                },
+                {
+                  "index": 47,
+                  "source_crop_sha256": "006dd4d0fcebda23e984fa1f2194a10957f18f945da067fcdee2ae753418f6fc",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0047.png",
+                    "sha256": "bcbe13002dfb0c5792b02bbadf83ec47d501f18285cf6c4ea58974565daa2937"
+                  }
+                },
+                {
+                  "index": 48,
+                  "source_crop_sha256": "48db6a0439aabad507b3e8dd33fd10158e68f3d495e0064dc70f0f0fe0210b97",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0048.png",
+                    "sha256": "051174e1c85fd9d4b26f585867d6cc8205d9644a21134b01185d57dcc165970b"
+                  }
+                },
+                {
+                  "index": 49,
+                  "source_crop_sha256": "329deabe457d0968c251f4df32edeaf630d855f3688790b8f65a0192f14cd93c",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0049.png",
+                    "sha256": "412a5c7ad06503c0456d8d2589f683f45cfbbcfd94ef5d9324839bfa07598b44"
+                  }
+                },
+                {
+                  "index": 50,
+                  "source_crop_sha256": "a5ee66ed04473835574a468c491afad4bcb920e0ee083cac8e630cb1555c7a05",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0050.png",
+                    "sha256": "93037f50d153a129ce067b14668bc208d3e70dde73b4cb7cae0cf42f4692eaa4"
+                  }
+                },
+                {
+                  "index": 51,
+                  "source_crop_sha256": "37a535cd60333e33ceb7afa2c51de04b1a02c4954523ff875284a2e4a6ac1305",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0051.png",
+                    "sha256": "c64e69555fe19f26b45faa1c514087986c72af915beaf4357b1300be670c9de0"
+                  }
+                },
+                {
+                  "index": 52,
+                  "source_crop_sha256": "0ed6de0c47192d2339bbb5dc52ada0c7404083734b2f7e1987c7c935658111fd",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0052.png",
+                    "sha256": "b3faf4c33f35369ff426503d415d842d4517d0a31ce10f5778609e1be5070270"
+                  }
+                },
+                {
+                  "index": 53,
+                  "source_crop_sha256": "63860d1147f10988e192e19190756071a7e052a2be66a53b47b50dab09b50f68",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0053.png",
+                    "sha256": "ef4ab61e7d74caafd440bc6a00ea71fabc04ab0b40eeaa77f1df25347ff8e967"
+                  }
+                },
+                {
+                  "index": 54,
+                  "source_crop_sha256": "bc7c2b39557943b5e3912401d3de2cf73a2b0a2540cc45d6e2aa663a18d63b20",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0054.png",
+                    "sha256": "faf364a6fa0a0827401c79e37355fdc9361f2877acf0bfa7ec949c96a4cc2a9c"
+                  }
+                },
+                {
+                  "index": 55,
+                  "source_crop_sha256": "48aed8767fe35d4ff68aaa829fe2d06399d772d3fcfc724050f49f24bd974415",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0055.png",
+                    "sha256": "e7141781dc47f59659b49076cdfbe6cc90f89532d5958724a3814266ac7ad062"
+                  }
+                },
+                {
+                  "index": 56,
+                  "source_crop_sha256": "e62a6b75e29a2f823f12a71b15943c903b0575021ced42d87fb2486d7844cc92",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0056.png",
+                    "sha256": "207c36b4d94df1c7487d819a384aaae452368e23b6972309b8c8d74b822235be"
+                  }
+                },
+                {
+                  "index": 57,
+                  "source_crop_sha256": "083b9792fb438c5f7154c4ad2fc8acd01ee2e0e65ec50cab352079c325dbfe22",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0057.png",
+                    "sha256": "b7f0341bd11694ab0ddcdd8ac1f6d30d1cb3e6678a5c077d30ae1535ac9dc22f"
+                  }
+                },
+                {
+                  "index": 58,
+                  "source_crop_sha256": "2e47203d0b29f8b9956b8621600f7ab5d6fa6876275e20133a45a2d4737034d4",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0058.png",
+                    "sha256": "c68749789888653cb0b984d2db96e11e850310b9c3fe6c2d0b0cdbf89a949f4d"
+                  }
+                },
+                {
+                  "index": 59,
+                  "source_crop_sha256": "1a960729c4e09928b0ad7278c4a345fd483023c5dc4459be7ca9d55d2806d9d9",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0059.png",
+                    "sha256": "9c623f31fa017982f6722d1bc0cd94ad6652acbfe3ed7e41440a83bd3ccac22a"
+                  }
+                },
+                {
+                  "index": 60,
+                  "source_crop_sha256": "938427bb686192bc40f1812846603cff9a3db6c7195af015a913dd626c5143f6",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0060.png",
+                    "sha256": "2d5f956c7af227eefb562321e7531eb4c919b414ff2a0f38e9ac4847d848f095"
+                  }
+                },
+                {
+                  "index": 61,
+                  "source_crop_sha256": "f359861da99f752b8311dac43e92f188843d69a3be38646eb7145196112cbe76",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0061.png",
+                    "sha256": "d09b1d0d0336051b0b72b615378041d1c44094a6242483fb8c440ea551e3d4be"
+                  }
+                },
+                {
+                  "index": 62,
+                  "source_crop_sha256": "c7fb1bd20b30916bafad0f7c31ef25adb16241608dce7ae275b2779e9f984e3b",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0062.png",
+                    "sha256": "6366199ed50e1dcde1f9484daad90a30705d23b934b2f7c01daf974c3cac028f"
+                  }
+                },
+                {
+                  "index": 63,
+                  "source_crop_sha256": "d1536901e1c6e0895f24eb4b567201f7f073256f047030bbd6b6105cacb51867",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0063.png",
+                    "sha256": "e27b1fddec50425a08d27ec8021e3f1f45036aaadd4e36db20824447ffae521a"
+                  }
+                },
+                {
+                  "index": 64,
+                  "source_crop_sha256": "9f091077e4851a6241e3d20169ea1d549d164e3c337151964c3ce2526e5eb43f",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0064.png",
+                    "sha256": "f63f5b19be5587851b020d45a8221dc8534783d0c92e96bc5f59ef5b0a770da3"
+                  }
+                },
+                {
+                  "index": 65,
+                  "source_crop_sha256": "1f76e81e380b27f74e6f5b588b2128cae4c5ab7ea4e5c90f099da81a4c09f137",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0065.png",
+                    "sha256": "6b2b4d41f133cb3858a34b7f5a0d5747b108268d3b836b649bbdc4b6c32937a4"
+                  }
+                },
+                {
+                  "index": 66,
+                  "source_crop_sha256": "7cb68e93aa023b8ee4e2efc7788f0669e30c5d2aa698881adcb23abf2ff0fdb3",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0066.png",
+                    "sha256": "d15c646db8e127a108791432e58ae9528c90a7c526d5350a7e3da4eb78f931cc"
+                  }
+                },
+                {
+                  "index": 67,
+                  "source_crop_sha256": "5c82b65125d5002d96dc6359065d4459d025d6e191f23934fd526e8c287c1308",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0067.png",
+                    "sha256": "2329c2b966ecc30323157d638b24a444e06cad9c9ff7b32c2f498c9424d6c5b1"
+                  }
+                },
+                {
+                  "index": 68,
+                  "source_crop_sha256": "4f522fbc24b5a8375d9292c0920fa7bb8d1a262cdab130f43b42fb0e1cfd0e92",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0068.png",
+                    "sha256": "9e1efe8783198d926e176934cde6b15a237451980b1e207c32d49c5f77dea27f"
+                  }
+                },
+                {
+                  "index": 69,
+                  "source_crop_sha256": "4b43114c5ea99fca8b0a1819cc57e2dfea6325efeb9cdaeb410bbcc2c2084019",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0069.png",
+                    "sha256": "bb43ada9a1175b47643d68a650ebd666749b68d465823dcc765d02ea7e558b4b"
+                  }
+                },
+                {
+                  "index": 70,
+                  "source_crop_sha256": "5df38dcadb30c878133fc1d8cee197391d0a345e34c846591b77a2982e54a585",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0070.png",
+                    "sha256": "66c8753870b0f554fcefcf4bd20df72c5252eca848cc81b13d17d397c3fb8975"
+                  }
+                },
+                {
+                  "index": 71,
+                  "source_crop_sha256": "f0a5dbe106d75f6cf6b153e0e172391392671a069831165db31614feb5488822",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0071.png",
+                    "sha256": "23bd72e7313164a3e1d73b93cf45afd169aafda4310c419d6d2c7182abd72444"
+                  }
+                },
+                {
+                  "index": 72,
+                  "source_crop_sha256": "8260ec18db3294204e264edce933353e02f12ab517c95f65bdefdd31d4af94b9",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0072.png",
+                    "sha256": "35620f13ed401bf47985f740ea4630bc4f685770cdfd16862e1ee9f6d7c498b3"
+                  }
+                },
+                {
+                  "index": 73,
+                  "source_crop_sha256": "8adb8d415cfbb54e95f35c3964a830c22c19ccbe02aac92279fc542f6a90a7c5",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0073.png",
+                    "sha256": "7527066da3eb1c2c19b1c3e2c1a1d613dca497555692fd7c50cfd4677aa208be"
+                  }
+                },
+                {
+                  "index": 74,
+                  "source_crop_sha256": "4da66e913f629ad884a22aa154236d3b7556981c6466a17572af1b6d38d6113e",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0074.png",
+                    "sha256": "cf6529838d163aa6955e8fa94cf215ca38bfb1d5427c48e3bb8927e926f5c737"
+                  }
+                },
+                {
+                  "index": 75,
+                  "source_crop_sha256": "9dda2165e2bf218036b930b7482a8b3b628a04d9156f81a2d55e34cb20a957cf",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0075.png",
+                    "sha256": "4efbb5e07698d0d4ea361d57f55443f23a73a52858e8f2b2d71c13d7e3bb85a3"
+                  }
+                },
+                {
+                  "index": 76,
+                  "source_crop_sha256": "41f547139eae97e7ba5859c52c5fa1670be9b0c8a2791280c5fc7136ce1b9fa9",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0076.png",
+                    "sha256": "028d77e99d0a48723b8a334e755e574e97a5cbb8d2a85df2d414b98230891a68"
+                  }
+                },
+                {
+                  "index": 77,
+                  "source_crop_sha256": "fdbae1e513a4edcef2918830e1403f747fc9fadb98f031f89bd21f1f455cdaa2",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0077.png",
+                    "sha256": "4216cc8c4207c55dc250b44213500edfbdd3db66760ec36949b2b1481b26abcf"
+                  }
+                },
+                {
+                  "index": 78,
+                  "source_crop_sha256": "43575731bed4672f774944432ce6932e6c7f5e225e85d23fe3ba85a1218614bd",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0078.png",
+                    "sha256": "24d40ea58ad08a0090adb6d01e4099ac47404b725380891bf69b7dc2a210d4cf"
+                  }
+                },
+                {
+                  "index": 79,
+                  "source_crop_sha256": "5554e1854ea77bba837cc96dfa32ae02a06d9f45f48141a6b0e9e1e0f427fe6d",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0079.png",
+                    "sha256": "6349298f1295f00e24f6ff32e5b97f61f7af80a7238054683a748c87c8ef488b"
+                  }
+                },
+                {
+                  "index": 80,
+                  "source_crop_sha256": "66a0d261704a3524f70868b31e058a76e8e3d9baa05ffbaf15f9b7d33e0ddea9",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0080.png",
+                    "sha256": "cda9fbc942c9da6e9584d23d05cb65e2c3643db86b3ff47b97fc45f16d8a8224"
+                  }
+                },
+                {
+                  "index": 81,
+                  "source_crop_sha256": "77d7a999ba6166a7b754d01b34b82df1511a65e9d183fedc7d6963e46a2b720f",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0081.png",
+                    "sha256": "5c32271ded83216fa520f503a8990744dca3510ec5d7f2fa86354e57a9ac4c61"
+                  }
+                },
+                {
+                  "index": 82,
+                  "source_crop_sha256": "57db80c847a6d80cb4344c12abc6b2284bbfe6a1d575444f59c22cc7aeb5fed7",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0082.png",
+                    "sha256": "1ef23acdf9e84c42bdf473047372c017832308cc42cabc7adf665c2f7d430bf5"
+                  }
+                },
+                {
+                  "index": 83,
+                  "source_crop_sha256": "1f5fd3edb5b4ead9995be1a99a89977bd9828cea9aa5832cdc32513a851931ff",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0083.png",
+                    "sha256": "66fdc7b5d3d6d9e3250c390f8f3c54236c6ed7d6537a408cb2e29dc211edaeae"
+                  }
+                },
+                {
+                  "index": 84,
+                  "source_crop_sha256": "9a7e0c23565a3c019acae74b4d037ca1dc54b3a08f16f8c7d6ec54ee5bd58c54",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0084.png",
+                    "sha256": "a22732bbb8462ee715597954cd784aad3ccf5594473e5bd1cd96b2663cb54cac"
+                  }
+                },
+                {
+                  "index": 85,
+                  "source_crop_sha256": "c2ae20daf9227ab837a020202f778695c29b8ec0eacf9f8ffa3cb231b5208840",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0085.png",
+                    "sha256": "96709381d06ff4fe68ee0657365d9c64f4f80ef6a0856185a931110eaa39bcf6"
+                  }
+                },
+                {
+                  "index": 86,
+                  "source_crop_sha256": "33d9925f907ced6392f2a607c663bcba9b0091d7f883c6930d764dd04289141c",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0086.png",
+                    "sha256": "06a57050828f4e7acf943272884d95169b0922fb7f55e0eefa75dc271fa56b62"
+                  }
+                },
+                {
+                  "index": 87,
+                  "source_crop_sha256": "378ef297cf6042450baac4045df77a393f474655956d85a1af29bd2629be5f1d",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0087.png",
+                    "sha256": "602ba4e500f276171c785f8e5a4417f530f642198de3c7983e9d6eccf1129a71"
+                  }
+                },
+                {
+                  "index": 88,
+                  "source_crop_sha256": "0f00a4f47dde68ec00ae0bf855c3c59ccd8bbc95278dcb3a5cb9a291eb74f3ca",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0088.png",
+                    "sha256": "1761a5605d620d598348935d5535674278144b094e245dde6b8c19f816d11621"
+                  }
+                },
+                {
+                  "index": 89,
+                  "source_crop_sha256": "929cd2be8b87f4a88ebda6b1e95381a0ad0ca810c7a9479336920a5674db94d0",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0089.png",
+                    "sha256": "81675365f5edd220f7863239422488713cd5dab6312ff5b95afa7a878da0278e"
+                  }
+                },
+                {
+                  "index": 90,
+                  "source_crop_sha256": "1a0ae4880e02755a139ce72cc52adff2ca096f36df158804339e3e8eab6f3fac",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0090.png",
+                    "sha256": "86fc27f958fda27a4a3bae790cceaa25b34557f87bf203f82fc7a255705e1a8f"
+                  }
+                },
+                {
+                  "index": 91,
+                  "source_crop_sha256": "c55b1a5067d32a8bc5758d26877a26bfa4e990e7e7cd0b93f7efe01ebaee2a3c",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0091.png",
+                    "sha256": "427ce2e399d3d6f48401f5328f701cd9b318529bd393941fd3a857556876a79f"
+                  }
+                },
+                {
+                  "index": 92,
+                  "source_crop_sha256": "2ed1df65ce77215f561ed849a2de056726c310b7980be1941c8cf776c9d129c6",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0092.png",
+                    "sha256": "5446e684667f30cda9c05b9c597e745e8c4a4bc47be9e2b8dcb49f9290c3542f"
+                  }
+                },
+                {
+                  "index": 93,
+                  "source_crop_sha256": "80622b682559de18acd64912e620e9e2192e8904b9b04c3f28d15abd6e055abe",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0093.png",
+                    "sha256": "b8ea70a7cea68a8a1cf50ae027689a430b1137a12230a1c5a9daba676c84c3f0"
+                  }
+                },
+                {
+                  "index": 94,
+                  "source_crop_sha256": "317a0a81b474be6fcc882ae8b034ced2c857525a27f1ab4dc33b89617850b2be",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0094.png",
+                    "sha256": "08957984d9c375d805f0ce251c3c2d0dc24eb6d6f8bce12fa608299845fbc34c"
+                  }
+                },
+                {
+                  "index": 95,
+                  "source_crop_sha256": "ad4625e2080e0b1ddb565ecdfa8e0d1c1c2d1e42ba21ebff0cfb1d9fad18a675",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0095.png",
+                    "sha256": "6dd78068359b35e6fef1256ccb8304e55dabaeee27f3e26e712255153e286897"
+                  }
+                },
+                {
+                  "index": 96,
+                  "source_crop_sha256": "d2f15544826cc88b43aeeef2f82360304b20ffac7de8c810db6e61dc7c802bf7",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0096.png",
+                    "sha256": "478a11dcf6236b945dc61319447222ee832de83812d3b30f94b8a5508312b895"
+                  }
+                },
+                {
+                  "index": 97,
+                  "source_crop_sha256": "8222e698310deaf1a8e06827691ada3b7e68a412e607addfcf7d759edb6d71fe",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0097.png",
+                    "sha256": "8713fedb45d43c2ac5affaac00066491eafe3d7a159bde49da2ecac745b9bc13"
+                  }
+                },
+                {
+                  "index": 98,
+                  "source_crop_sha256": "0e58c53917ca119e15cc6e13ea155557c3abd9b2a3b455679cbd73b7db80be36",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0098.png",
+                    "sha256": "49d1898582e6dcc02c4e6a0c792c84175055aa02c9152a48af967c196168743e"
+                  }
+                },
+                {
+                  "index": 99,
+                  "source_crop_sha256": "c1a69195dc157e0ea4b87547ae45921e375ecf2f504eeaea0f519f2aca5d8e1f",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0099.png",
+                    "sha256": "057066719b1b5848fd8b00b69883189a131834605d73d895a5b95862c723544c"
+                  }
+                },
+                {
+                  "index": 100,
+                  "source_crop_sha256": "7cafa890685880cd8c1492d3796c603aa5e72355cd0ef5d92b0d46a7f719f9c7",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0100.png",
+                    "sha256": "5fa8ce45b1579a19a7db8ad9504ea038b4a775ef978aaa1217d2c8b2fb81a740"
+                  }
+                },
+                {
+                  "index": 101,
+                  "source_crop_sha256": "4a43af427ae098cd71a0f213024ec73d480ec5092166d1e0ee1dd85210118237",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0101.png",
+                    "sha256": "dcb88c19b3e61b2424f4b9edae4f8c636d670fe7352d7de98a90cb4e818f4f0e"
+                  }
+                },
+                {
+                  "index": 102,
+                  "source_crop_sha256": "65c35911dcc6da954519c991d5862158431404ebeb27a98d709eabd60d96af1b",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0102.png",
+                    "sha256": "cf776e55553e5714692e2e512363c697e7a76382a16f08439a4952e1bda4b704"
+                  }
+                },
+                {
+                  "index": 103,
+                  "source_crop_sha256": "c38a046f5175bacfed78ddff1de4f809f969adcfad9e86aa6e6b0c3ff9dca405",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0103.png",
+                    "sha256": "4b055696c140e3f521ab7576d1a5664bbd0573f39b46a7b3faaa8e994c14341a"
+                  }
+                },
+                {
+                  "index": 104,
+                  "source_crop_sha256": "b9c10a5686c36badb9c24b7626524f538f0aa8c4ca7c035310408d40a728de8c",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0104.png",
+                    "sha256": "9e4492428f8fbf8273ccedf57cadf18c838232f43d823a0b0b5f116f64193937"
+                  }
+                },
+                {
+                  "index": 105,
+                  "source_crop_sha256": "865e5889caaf4d81ae5ddbc869d7b833fd12c492b57bc6d49f5dac238896d056",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0105.png",
+                    "sha256": "d5057aee02913308fe8aaa5ff3beca9c3dd16d9e0fe942f6f8ce9d2e287da99f"
+                  }
+                },
+                {
+                  "index": 106,
+                  "source_crop_sha256": "21eea53dbb064bf19a2e27fb872582f10d05be5a5b2f806f8d279f15baa94ec5",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0106.png",
+                    "sha256": "ccc4b3d0adeaefc5b7621063a3683628f3ac63415c2564e702fdd818519bb332"
+                  }
+                },
+                {
+                  "index": 107,
+                  "source_crop_sha256": "d44a706cf8f6cc2083cd9f41f04f6551cc37843af5187aeb55327a574d8d9f05",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0107.png",
+                    "sha256": "abce082760ad9945a3d34a1044d9da7179e8bd25c8cf82a4a85402ce004cecf4"
+                  }
+                },
+                {
+                  "index": 108,
+                  "source_crop_sha256": "4ea5b0abb292ae15369177ec9ff4e49b0e7b5145a7d04901929ed7664a05fe67",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0108.png",
+                    "sha256": "6ec62bf1a6b98d710335f928f8d2fbe8ddb2a649bee10c8c840af330d70f6653"
+                  }
+                },
+                {
+                  "index": 109,
+                  "source_crop_sha256": "5dcfec5bfe6c9c1a578607d45fb4ab4b12e736a943e1533a84ad333f980d0f29",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0109.png",
+                    "sha256": "6ffde56fca8133e18ec38e149983c85683e8b9844e9d51a5ad6b64799f2ef9d1"
+                  }
+                },
+                {
+                  "index": 110,
+                  "source_crop_sha256": "9e82df3694291d74574be4aa1d7382abd80a888d9630ba6fe1b14b3d45e046ee",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0110.png",
+                    "sha256": "a0123dfcaa540a0b9ec33f2c5ff09786fce6e5e9ab2ff6a55d54e58982eb953c"
+                  }
+                },
+                {
+                  "index": 111,
+                  "source_crop_sha256": "c74d94b3f607a37ec32dee8c6a20a60c17ec1df912b67875aa5b263afbd96a64",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0111.png",
+                    "sha256": "205f684c373f95edde36914fa6189093bf00eb0b38f244e59b2475d0f2fda6de"
+                  }
+                },
+                {
+                  "index": 112,
+                  "source_crop_sha256": "1098dfa28f40db870e5ad7cc1054562095c0c040f9e158dfcce6d951b9e5b571",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0112.png",
+                    "sha256": "a5b784c3bfa1e552710f278205eda75672c4cba2c087f3c82cfd7c098674eac9"
+                  }
+                },
+                {
+                  "index": 113,
+                  "source_crop_sha256": "23f5f5f35e02f4f7da188c87c0de32ba3169671648c7cb0dea707390645dc960",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0113.png",
+                    "sha256": "2b5f5438aa97b182eca51a4b1cb62f0ae1e2d54447fcc7fe59c6b3274f2614be"
+                  }
+                },
+                {
+                  "index": 114,
+                  "source_crop_sha256": "4e0e5573fa0770e98aa1dc08babbcdc2b2490517a2adc170c8c5263e4fd8fb09",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0114.png",
+                    "sha256": "7589368fb754adfb4980d7a574e656e44d950621a3d4d697656ceb29a17c97a5"
+                  }
+                },
+                {
+                  "index": 115,
+                  "source_crop_sha256": "0088e45e7687a89f77d433ae48135c4ab07751897dcaa5a3f34a281f016b24e4",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0115.png",
+                    "sha256": "deacfa3e6cc008c8dc1cb95a2a90c0082128e131313c78426ad8e4729bc8caa5"
+                  }
+                },
+                {
+                  "index": 116,
+                  "source_crop_sha256": "7f5a33aee21ea1645734ad2c86a21e5493c64933ae126066a7ce24b606b05ce5",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0116.png",
+                    "sha256": "445bf382e0570bc33844facf27b938cb5e0114358a82efced6a1db9c42fda282"
+                  }
+                },
+                {
+                  "index": 117,
+                  "source_crop_sha256": "64c16ecb18e929c8aea60bbe5304e1d4854f87a8f915e49a89945ed9632176d4",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0117.png",
+                    "sha256": "c268b7e246130dac8d0196384adc2435d79a04f60793a5c6bf198e831acae48c"
+                  }
+                },
+                {
+                  "index": 118,
+                  "source_crop_sha256": "76168bebc363481b254d7a3532c046f70ef1eebe48eb73c9a47dc44cf2a3fbf6",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0118.png",
+                    "sha256": "e54e27f76b72d8f5f33218f48b268807bc3a9c82f2901dcb79b0e13b9c82edc6"
+                  }
+                },
+                {
+                  "index": 119,
+                  "source_crop_sha256": "9ebaf9f97bb81bb019fbbcfcb6873c8c7beaa542db4d041623f1b52a5f998d36",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0119.png",
+                    "sha256": "23273b4d391e87fb30c8fbf2df6efa80fb1e401f81491ba1e27cc23ec253d2b1"
+                  }
+                },
+                {
+                  "index": 120,
+                  "source_crop_sha256": "7a40f2936ab5f90ab40ea83e9fa903b2b988cff84ad732749a82d12c2a4ae580",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0120.png",
+                    "sha256": "dade9424ccb09cea76a4819854e0e69a427cd48d1b0935b5774973da0d26add6"
+                  }
+                },
+                {
+                  "index": 121,
+                  "source_crop_sha256": "2494fe43e380c58dc7796c5bdf22742f28282da4045f7c7d793ffc1755b9d12d",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0121.png",
+                    "sha256": "ed350d92e95bb3f36aa531e9c98ec0f5c755c60e711c3d77ea806bb90df63d0d"
+                  }
+                },
+                {
+                  "index": 122,
+                  "source_crop_sha256": "480bcc9a5e033d8d18d1bfb0518a2c076e6346f203dcf0bca2f3d5dd5c5c9bf4",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0122.png",
+                    "sha256": "b6df135b4e7d97c969370c5d69a411e43a9b5564097d301b9b03307bcd020364"
+                  }
+                },
+                {
+                  "index": 123,
+                  "source_crop_sha256": "72ce85abdebcd20965fe359f411db2a9cf6602e8e3b9928398af745882cfacf5",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0123.png",
+                    "sha256": "2cd85146166d236168bf2882aeeef41cbc5c09914cba61cb6468951e9de09ff8"
+                  }
+                },
+                {
+                  "index": 124,
+                  "source_crop_sha256": "1dd0076019f6015cbb82ba0651ce87827e61deb899d9436102dbed465da65f86",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0124.png",
+                    "sha256": "2c1966d80f3923d529f7532c0a141f19324f4f230297c0b52d4646c1ce6e6910"
+                  }
+                },
+                {
+                  "index": 125,
+                  "source_crop_sha256": "94b14b66df014887173b4a0f8127b34ccaa8c5bc59e58c0c984e43f31808af00",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0125.png",
+                    "sha256": "fb5349fb63fbde41a3dabc611ad2c82c2570d2174d80657cab487d1eff059c95"
+                  }
+                },
+                {
+                  "index": 126,
+                  "source_crop_sha256": "7a95a2428e65457b587f53788ca18cc54cf1ff0145dd9a47e2040b3a4fb4d8eb",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0126.png",
+                    "sha256": "6fb6581a7c383c5bb3211804cb572f681b1a97ad3e54b679571d64557f5f18c7"
+                  }
+                },
+                {
+                  "index": 127,
+                  "source_crop_sha256": "aa1fc1fb39fda1bbe1ba2bf149802992291947d263cd48553bc72a3ded2fbd32",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0127.png",
+                    "sha256": "dd842e0d937cbec66ca4a4666be292a08ebe8cd8b2a5c88ea4a4c2ef39768a7b"
+                  }
+                },
+                {
+                  "index": 128,
+                  "source_crop_sha256": "580cd9b5fa2b3b1447dce37eb8b760b211431ccab889a9b30d18300e148c02c0",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0128.png",
+                    "sha256": "19649505cf9704219c2a52437972624c8055400b5f92cbb08a5ff5c6b8545e2e"
+                  }
+                },
+                {
+                  "index": 129,
+                  "source_crop_sha256": "651f95073c55e9fed4a7dcf171c4982774ee6c7371080015c2f44491e8f1f31a",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0129.png",
+                    "sha256": "7ddb3c4e11148628b966df7ca1be167723feb57f62c3a7225a09a796a2fbae8d"
+                  }
+                },
+                {
+                  "index": 130,
+                  "source_crop_sha256": "485eed20a80b7271535d38f10b26b38db4ce94c6323aaac891bb098adc972511",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0130.png",
+                    "sha256": "739a0d2501e40094efd9375ed2035c885976ef44419200d7c6bed4b41625e207"
+                  }
+                },
+                {
+                  "index": 131,
+                  "source_crop_sha256": "9d76349624d95bf4034960e1cba68cbbbe1da98accb5c63064305d0ad2e8f701",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0131.png",
+                    "sha256": "365ee9ff64b15ce4fc07eb38dbc545058e729a78a515d8cab64d68e6ff6ca36b"
+                  }
+                },
+                {
+                  "index": 132,
+                  "source_crop_sha256": "4de9cfed5f784e1ddc9d724db88c19753f7777e731aa1c87e7870d4300e56dc7",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0132.png",
+                    "sha256": "4eb36136884eee57f5aad612094d760734e6e3d49ec630fc8b2aa381b892e44b"
+                  }
+                },
+                {
+                  "index": 133,
+                  "source_crop_sha256": "9e48585294aeb3592b0225407419456a1e4a5876f73b98d55ddf7e1427b4ca4b",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0133.png",
+                    "sha256": "9cd6d18d7d518c8af902aee39e05ba816306e4ac1061538140da27c3e6ae16ec"
+                  }
+                },
+                {
+                  "index": 134,
+                  "source_crop_sha256": "7a39619c76fc7443c948dfde2d38a3ae363e4eb727bc2c799361aecadaeb20fb",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0134.png",
+                    "sha256": "79a45facd85ed79571e52c18e03eaa048ae09079ddbed0012fcf0b2912f57c51"
+                  }
+                },
+                {
+                  "index": 135,
+                  "source_crop_sha256": "b1ac0e4e3239cca60daea2ccb8b1af2d9f5bf0da9f06c1cde3a9fe0026c3f33c",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0135.png",
+                    "sha256": "04035ea2c1b8de3d814e3f8fbdbdeaaae6aa5692dfc1cbca8cafee794eb9d338"
+                  }
+                },
+                {
+                  "index": 136,
+                  "source_crop_sha256": "654ba4b050978f2dc91fca2e7e9b5df54cd6315a5d2c3041694024100f1b63a2",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0136.png",
+                    "sha256": "06bb693ec96c6264f130b093bdc31bddb3a563c5e8eef0d0212e81145861c800"
+                  }
+                },
+                {
+                  "index": 137,
+                  "source_crop_sha256": "01cc4230baba383ae8dfdeda9c9d1a0ac5c42e490fbdd879f3680194896ad363",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0137.png",
+                    "sha256": "d94eddd06a6e35a99981262115dd0dd446a0e734db8179292015c836f1db0a1f"
+                  }
+                },
+                {
+                  "index": 138,
+                  "source_crop_sha256": "34ee3731ca46abab932d1a8dde254b8920db0f652429785ee861829899d92eae",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0138.png",
+                    "sha256": "ecad25976b3c3b0b3f5009944ab6af256b6ba3ef3bfec553f87ccba2829508d6"
+                  }
+                },
+                {
+                  "index": 139,
+                  "source_crop_sha256": "9c277c2bbaae373edf7ce0cd0246f97e858b2559fff70a34497349c0f4c16a54",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0139.png",
+                    "sha256": "93b2bf2cd68e11db9ab72148d330bc8f97f3dcaac7af4094bf5af0c250c22140"
+                  }
+                },
+                {
+                  "index": 140,
+                  "source_crop_sha256": "82b8db8d6fe89889c756301d92561bda56f97a7ca308783b2921299c18373a0e",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0140.png",
+                    "sha256": "e3743aa9457968ee9cef8b630ec482cc0e2c9561547a81d4d6a392f03d0e3938"
+                  }
+                },
+                {
+                  "index": 141,
+                  "source_crop_sha256": "11086c033936c487f307b801db36d8001e4e3d09c6ddb8db8b86f4ae431c8cd7",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0141.png",
+                    "sha256": "cf3b6bd420e76f4cfee12d14a6ceada4ea7f7b74ee294ee0ab697a00de0b3bd8"
+                  }
+                },
+                {
+                  "index": 142,
+                  "source_crop_sha256": "9e2f728913e3deeed5af56721be9ebeb3996f334089eb6c9f71d19ef94a99878",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0142.png",
+                    "sha256": "a176b79eaa48d50e45dd0756ebea05a894c8dd8a1cbf6587253036b32905afaa"
+                  }
+                },
+                {
+                  "index": 143,
+                  "source_crop_sha256": "edf0a5c394d6fe7cf8575ea98e12191397ccf567c6e7512bafc351c2879f2d2b",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0143.png",
+                    "sha256": "0d50df2c2fde10965a08bb651e2985d9320f3d814273381e2dd01d2608e5d85b"
+                  }
+                },
+                {
+                  "index": 144,
+                  "source_crop_sha256": "792b2060aacf902a41faef4724a163a046c146edadde4db8845d7c5bbf8c9893",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0144.png",
+                    "sha256": "15dfb80a6b3a185ab30592be8f4ee8c4d9638a19c332de2c6bb3c740da81caf2"
+                  }
+                },
+                {
+                  "index": 145,
+                  "source_crop_sha256": "6a95252d2162346e5507be3a23f9c7705d36bbae3cdb578df70eb63151b4eb95",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0145.png",
+                    "sha256": "539e342a0af9010431d57cb8823aef3f3857b0296c9748b8bfbb00024a9d290a"
+                  }
+                },
+                {
+                  "index": 146,
+                  "source_crop_sha256": "30ee56204a0cccfe83399c904f8aaaac1e3361cf276527a86e24c8bed06938c2",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0146.png",
+                    "sha256": "4ad52fc078625ca477047227fa5a8b4a8edcfe4fbb7e39005927a696e618aea5"
+                  }
+                },
+                {
+                  "index": 147,
+                  "source_crop_sha256": "2526e65badc7394686363e752e690e234ae1201a6ffd0da0149017f72b7235d7",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0147.png",
+                    "sha256": "10b83c7aab54a32b332b18e6d106faa40fc80621341440bb4e068cd8ea497eee"
+                  }
+                },
+                {
+                  "index": 148,
+                  "source_crop_sha256": "3b690935645a957c909cce7d4517a2bbbca26bbd10468d1f61d54041883bf3ed",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0148.png",
+                    "sha256": "f33f5fc6f9cfd4e228d4c34f906bc97ee202dd03e21871a24fc2aab33e4c2933"
+                  }
+                },
+                {
+                  "index": 149,
+                  "source_crop_sha256": "f99d54b33bba3bc13214a9f334ab59960601e645c3cde9ec0592b4b1845e9ea8",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0149.png",
+                    "sha256": "83d72b83814db3c6a09b4d6e0c4967ca4a7621d75c1e191c0110b2f0bfa5b55e"
+                  }
+                },
+                {
+                  "index": 150,
+                  "source_crop_sha256": "181cd470ebc6924d5bf69c78c96ecb51889f17f211a7e464be7150e13ab315b8",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0150.png",
+                    "sha256": "9d1a533612c9f1b60ec3420b98b126b172056f180dcc8a0c4efaaa27703f3083"
+                  }
+                },
+                {
+                  "index": 151,
+                  "source_crop_sha256": "25cd5af9800aece400e30195297283376e915a1c80f37cfb0ee16f5ffa13c3cf",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0151.png",
+                    "sha256": "1a822812f50bc1666fc6b4e5c44993cd102f67c24fab3b7b8b3f63b57457b609"
+                  }
+                },
+                {
+                  "index": 152,
+                  "source_crop_sha256": "81da0e2557df1fd6f8159d06c5e617d32243cdd7e7569d78e9f1a59bdd453f50",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0152.png",
+                    "sha256": "a3938645ea4c12686d79888188da8263535f55b7c697bea4c12a491a2b6a9af8"
+                  }
+                },
+                {
+                  "index": 153,
+                  "source_crop_sha256": "698ee17d14777d264c383bb877ad7a4410068d416c32cb35cd02ae1523f81810",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0153.png",
+                    "sha256": "4f509aa9a1b043cd9611ca0aa5b3d531a231494255d69e027a1d1b0c96284b33"
+                  }
+                },
+                {
+                  "index": 154,
+                  "source_crop_sha256": "90ad7c8142712e57d44f60979ad3348800aef7ebbba4bafc30979ee47d2615e4",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0154.png",
+                    "sha256": "2122d59707312c594ed874117bd211d169621c1f03b897e603ae0f580cbd0035"
+                  }
+                },
+                {
+                  "index": 155,
+                  "source_crop_sha256": "f0a091d215b4f58b15fb74401b2cf07629ad030697ba68a503451d5698cb9ebe",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0155.png",
+                    "sha256": "4c7ada9c62265acb1a0fb4b619fb71328e0933a4230ca5c298daec866d3f1a19"
+                  }
+                },
+                {
+                  "index": 156,
+                  "source_crop_sha256": "96b32be88a80f970971cdf1ceda63494edc6653a4c914981a1cab5def7fdac27",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0156.png",
+                    "sha256": "633986ff2716c69aac1059d3fac26049535e08c53c8b2dd4c690b3c9c435b1ef"
+                  }
+                },
+                {
+                  "index": 157,
+                  "source_crop_sha256": "1ffc64c8c85240756ca5bdf0b639b7504263cdef8c7c66da34226a88b128370d",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0157.png",
+                    "sha256": "efeb410e466d27fa4208130e615a4e69e4615cecb8010a527d99394df8703071"
+                  }
+                },
+                {
+                  "index": 158,
+                  "source_crop_sha256": "49790f4b564e8e51a44aab87be8a1ffb9e985d902f197c5c7c4042a8c779ba56",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0158.png",
+                    "sha256": "0801049a325af20d55108832ae0410ae9e62821ee0ab7de92d579050567df280"
+                  }
+                },
+                {
+                  "index": 159,
+                  "source_crop_sha256": "2a7497772e77b116942e44cf6fe24b5bed724c0e6a5114467871781bd12dce5c",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0159.png",
+                    "sha256": "f2752facab8b713f22fe8ee0f2ef30ba21b195404e843f16ccd591309326bb07"
+                  }
+                },
+                {
+                  "index": 160,
+                  "source_crop_sha256": "2fa9c46769a21bb2bfd6a62adbc6f9d2576054e45e9204246cb42623e85d9290",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0160.png",
+                    "sha256": "315d9fb3a8aeb5d4aed953309c2fa053aa753b9170e70a3f7709f87f0a5381ff"
+                  }
+                },
+                {
+                  "index": 161,
+                  "source_crop_sha256": "158b71519054ccfb00eb79b880067a969bcdd37f46c62bad8b922f6e0febd9ec",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0161.png",
+                    "sha256": "bba3e489a14f0080f38b0323a234c385c9e21f02bd6cf550ea27bdeb739cd043"
+                  }
+                },
+                {
+                  "index": 162,
+                  "source_crop_sha256": "25af9e8d0298997abce3fb7f56ba919e4e0b93b38043d98e25b62a3d9592e40d",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0162.png",
+                    "sha256": "0b6a0ecf6404f3043b37e0fa352802c651ccca87e610205d3f4a2791a24beaf8"
+                  }
+                },
+                {
+                  "index": 163,
+                  "source_crop_sha256": "b7066e132984e6c357b6fa0a22a60adca9f9e7e269ec817d3d8a0637a8447795",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0163.png",
+                    "sha256": "3e3f04187756ddd3a7702a4232e15671d8a563f821102fddf9f9921aad5da55f"
+                  }
+                },
+                {
+                  "index": 164,
+                  "source_crop_sha256": "47b13bb27553b55aeaab6986fdfa07f1d0ee1f05b5fb80b6a4a883485c1edf92",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0164.png",
+                    "sha256": "a4996f01be190db6a94b8ff1f4bb667f618648204e8a21c62ede4000da764cbd"
+                  }
+                },
+                {
+                  "index": 165,
+                  "source_crop_sha256": "f9e0f15b5b3b831f2e47315dbb5d97000ea48c2625c058cb447d9f6970b69545",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0165.png",
+                    "sha256": "7432d7b2d45643a794e78f1f3d488d13e75ce693c7b34b651bd9f9b9b66c8a81"
+                  }
+                },
+                {
+                  "index": 166,
+                  "source_crop_sha256": "209b7539526db24d2e08482daf11a1fd3dd42d3280c5ac1a503845ad588a7adc",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0166.png",
+                    "sha256": "cb4ef9b1dc51d1e3c09b9d87daf4430ae0c2e174fa5a47747680bfbb01e0fb83"
+                  }
+                },
+                {
+                  "index": 167,
+                  "source_crop_sha256": "f338f0f40b33b56f5319799974e8b3d222818c71cf667b3e74956645c86c270b",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0167.png",
+                    "sha256": "9d9ca1b1aa7dcf25758e833fe6b0e8a43cc3bd44041bd263741acf60237f1193"
+                  }
+                },
+                {
+                  "index": 168,
+                  "source_crop_sha256": "a0166942bdda0a776038724dc8d5fef4d1d27435b1f27863ae09362b31be43ad",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0168.png",
+                    "sha256": "e17c1db4318359dada470ec091bb3f78883e4237cf3db31da0f1894bbf5c5925"
+                  }
+                },
+                {
+                  "index": 169,
+                  "source_crop_sha256": "7603930ce051c6f64325550a62cc9047ce0c1db87f87bfba765f0f51c5050094",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0169.png",
+                    "sha256": "f183d1f0a8ec16097a58424abc45ce3fdc0ebabd02702ab2bdb5066ca0c9a14c"
+                  }
+                },
+                {
+                  "index": 170,
+                  "source_crop_sha256": "5ef174928bb62d6805c26c501abd9bb9fddeeb86852262352bbf42f35910fb22",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0170.png",
+                    "sha256": "c7d05dfc4bb975c99307bb1d5b6ef848f70f85c425ee1a54686d9b1782367053"
+                  }
+                },
+                {
+                  "index": 171,
+                  "source_crop_sha256": "107d12131ec53a7cc040068cfe31b8644cf47ac54d1320ce9570f2b9a52343e1",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0171.png",
+                    "sha256": "f86c4b0a48047e4157d12c199fc9142d3e5e005e87ce319b5e43503a48771b69"
+                  }
+                },
+                {
+                  "index": 172,
+                  "source_crop_sha256": "6fba01efb92464ad0c31cbe30999e1ef4edd28a0ce3c0800315ca5fc5705c8e9",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0172.png",
+                    "sha256": "3819960eb5bd1c882081ca8f9ee649b518060b28323f4c2bc72aab3609f9b7b4"
+                  }
+                },
+                {
+                  "index": 173,
+                  "source_crop_sha256": "1d131912893bfcedf080050c088f5069bfb0117767a9944d4b8d383d08defa35",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0173.png",
+                    "sha256": "36741bf8a713b63c64b97a0428d41a5d6d958aac454e6dd02cf0cfd7d1ac244f"
+                  }
+                },
+                {
+                  "index": 174,
+                  "source_crop_sha256": "114b685230ab8ce30c556b2f36b9a8121a7d1153a13db2edfe49b655f4ccd265",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0174.png",
+                    "sha256": "4efd5259f41c6e8e3824329c6dd22f00eeb1655f520b15484ae7dcfff9b40a18"
+                  }
+                },
+                {
+                  "index": 175,
+                  "source_crop_sha256": "52247c60171cfa5c6dadeb8351f4fe890e07caf3939657f055a52dd39fce61af",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0175.png",
+                    "sha256": "c6e0f2a9dc0496ece0784bbabced791c45a40a10c3b7a116cf2450b321108e65"
+                  }
+                },
+                {
+                  "index": 176,
+                  "source_crop_sha256": "368923c3fc6ac06b0d587eac9cbec7af8d1fccc571129897b90e07f288513a72",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0176.png",
+                    "sha256": "3fc0a4e2f29ff1dbe66f8ee5589357419b3d8b4b7e9b961e398b7073c50331ee"
+                  }
+                },
+                {
+                  "index": 177,
+                  "source_crop_sha256": "d6454891289853dda51d6eaf6741023403935480ff99639c3e2cad13ec7793fb",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0177.png",
+                    "sha256": "898716a13808971c43f1005ec59be37c24b0089015facb56234f91f4380fa923"
+                  }
+                },
+                {
+                  "index": 178,
+                  "source_crop_sha256": "ca0fa40443ec03948d046978fe571a98ca6a2fef9c15e69d0cb4c28504a84fe2",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0178.png",
+                    "sha256": "7439c4958fd4738010ff8aa0b71d29ebe8f9c2009ec76127c99f4bee404a6401"
+                  }
+                },
+                {
+                  "index": 179,
+                  "source_crop_sha256": "c28b5c1d169f76ceac06db19dd6fe993be22e42e79cb332d9504dcbb9db8cdaf",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0179.png",
+                    "sha256": "8f463066bfe9b34e576935126505c78d82573c455dd6e467c4c2708efd8d3313"
+                  }
+                },
+                {
+                  "index": 180,
+                  "source_crop_sha256": "5ca67fd0bb30c8f21cf9cdf8fa39623769579e68adb059bfaf80f359bd233350",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0180.png",
+                    "sha256": "8543ed88d91413f00adff4e448fa436f9e5689c8719e784fb6dba2c281274462"
+                  }
+                },
+                {
+                  "index": 181,
+                  "source_crop_sha256": "265975aa52598606fe1e804aafa3d02d72e20952d5151abb2402f21dc46d1994",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0181.png",
+                    "sha256": "bc9bd118f9d2cfcc02e01ccf6795dbe87f68ae87aa05d92cf5703e75e75ba852"
+                  }
+                },
+                {
+                  "index": 182,
+                  "source_crop_sha256": "beb2298b7d96ab752f4db31d766708089c14b3d1249f985315696884aa9b2806",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0182.png",
+                    "sha256": "19ed2874b1ed4ae9a83b9b0085b8ff6fb0065941d080ee8f0f951e8b7c0965b3"
+                  }
+                },
+                {
+                  "index": 183,
+                  "source_crop_sha256": "4d8a951aaa00457c491a825d4f20b7ecfe734b1e28f2a4a5b3966d926c2ada52",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0183.png",
+                    "sha256": "7578ab4d29244c40412d251aa8ba07532eb803f36fe589f02209b9e8d06337c8"
+                  }
+                },
+                {
+                  "index": 184,
+                  "source_crop_sha256": "e88578f263d8d473cd36b2726ba33b1f780fe5158f4f42a166ebc54e7e2fbb38",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0184.png",
+                    "sha256": "81c71baedd85650d27a4639508cc2f00daa82f5f62fb4021474ea30bba6d9ce4"
+                  }
+                },
+                {
+                  "index": 185,
+                  "source_crop_sha256": "d437e2224db0548e6bb04f627e8a120f09a8370f5735dd8884462b4e401acbff",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0185.png",
+                    "sha256": "ce5f0e521aea8750fd463728b2b8ad24deb4543ddcb65a2867aebdf2fd433b08"
+                  }
+                },
+                {
+                  "index": 186,
+                  "source_crop_sha256": "9f2466afa3ed546a0cf5a6d3b062d35d24f5f40efe18b8f5ac8564039b8e4f8a",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0186.png",
+                    "sha256": "e2ea81e107ab85b156af71719ca7777705b35a348d5720e1540d7dc48c4c1865"
+                  }
+                },
+                {
+                  "index": 187,
+                  "source_crop_sha256": "1e42d89d15be8aa87a311aa5f8bbbafd50bdba26fc2cd5572bdc2e2ac48ebd5d",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0187.png",
+                    "sha256": "a29b279a6850751fccd33b017cf514d2ea8fd6617dc480f21fda99171431b04d"
+                  }
+                },
+                {
+                  "index": 188,
+                  "source_crop_sha256": "b5e10d873dd9f36282ada25c8afc0ee56934572c988f7632054d4fb031822bfd",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0188.png",
+                    "sha256": "057f9a343edcaab1e2dac813221d8a2dad8dc35b60d82eb2dd5eb5a7ac8cb937"
+                  }
+                },
+                {
+                  "index": 189,
+                  "source_crop_sha256": "f0734c4913dccfab2b45292a903341fbf9ee17f532b1564dfe0ece2aef3258b0",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0189.png",
+                    "sha256": "bb7ad06f6722adbc946964d932d1bb554332b0f1d7ac59256af3c6ca54c73b63"
+                  }
+                },
+                {
+                  "index": 190,
+                  "source_crop_sha256": "b06f3d53781c3fced3f54ad66eeffbb5aa8096b89230a06a447d27bd7a79a110",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0190.png",
+                    "sha256": "acfed8c647c83d57b9ad748f10a533480ee31ca319b50c8dd531dfb432721a80"
+                  }
+                },
+                {
+                  "index": 191,
+                  "source_crop_sha256": "5b286d69d2a0f08d411afb4e22c6ae8e6b639131916f36d40e242599b9c2cf83",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0191.png",
+                    "sha256": "1920eca08dc13d355e8989bda36eec0f5f6a0d3056a77065404eff0a9142fe9c"
+                  }
+                },
+                {
+                  "index": 192,
+                  "source_crop_sha256": "5c4e456b74a718fd61c2798219ef622eba1445553ea92fd72610eed29f329564",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0192.png",
+                    "sha256": "38b066dd38152b232ec7c7c926e075e8cff4c1b5447ffe542f7329806a653e21"
+                  }
+                },
+                {
+                  "index": 193,
+                  "source_crop_sha256": "cc36a3c26935c4e9f661ef13b9c9fafec8c11b69b37e9c71fa0ed4dd92659d8f",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0193.png",
+                    "sha256": "82898484928cd6c44a08e53dfb1dbbefc643041be8a36dace7a3f2caaa96fea0"
+                  }
+                },
+                {
+                  "index": 194,
+                  "source_crop_sha256": "d0ded6198c0b4ff7eef2650e81f76c64d57f766d20b8197d8c73de88cbe3b2f3",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0194.png",
+                    "sha256": "1bb5e245acd272ae3bab90e15c00299b0449c64997624cc12a983cee56d86562"
+                  }
+                },
+                {
+                  "index": 195,
+                  "source_crop_sha256": "4785aafb5744b39409d862323b02ab4f2e16b0a6c6e973da05ba06f6b9ddcb40",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0195.png",
+                    "sha256": "8eae89f587b89802de9e03c3f2a399db3bc755f877a5ef494ae9458eb3a39cf9"
+                  }
+                },
+                {
+                  "index": 196,
+                  "source_crop_sha256": "9ec87ddff00c51801a07e3df2bf08402a321938a438134d35cfb9e8516f30f4f",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0196.png",
+                    "sha256": "b341bcfa3d9b600377425c1aaaab1df2dfc2d8e8f394e58f9e9ae5565046825a"
+                  }
+                },
+                {
+                  "index": 197,
+                  "source_crop_sha256": "e2c42594567eaba77207cd5cf43321edfbe46cab64eabb46be78a09a25c4c7f4",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0197.png",
+                    "sha256": "9e1ed342c1dadff3c70ff8b6c0a592f55c5d36185cbdc56df346fdc2ea1579d3"
+                  }
+                },
+                {
+                  "index": 198,
+                  "source_crop_sha256": "520c9c065733b1f4246028d9a03a164e28efb696dbd04b157b43b291d72e2c75",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0198.png",
+                    "sha256": "4b46ddf07e2c5f9b1738a5af842d7211972ef1a1c03f5dd62942fd704c31b436"
+                  }
+                },
+                {
+                  "index": 199,
+                  "source_crop_sha256": "5d3173804c74c6bb5a47779f8ea55cd4aa90964444680c82901a8eef555e7132",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0199.png",
+                    "sha256": "ebfce9f8eae60dafcf4a5c6ef3f317c618f6fd5f62b21fcf6cdccea1c53cdaf7"
+                  }
+                },
+                {
+                  "index": 200,
+                  "source_crop_sha256": "435c3848456aa26a8ea6cd1a1f4ed822ddc15fa020387f647848e47ef9c35973",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0200.png",
+                    "sha256": "41630e8efcab24d67c7691c0785d520e8b46219938e742e4aca450df77f0fa8c"
+                  }
+                },
+                {
+                  "index": 201,
+                  "source_crop_sha256": "847e4e6eef8f7f7dfdf34d2c877dd81a94b805726b66b866c7d2f5ad771adeec",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0201.png",
+                    "sha256": "6279f9f095b208dba88e46c8859f4615e489427314e025cb47a92c906abad2f9"
+                  }
+                },
+                {
+                  "index": 202,
+                  "source_crop_sha256": "d1c1c549993dc6b0c40f2c5154b7a0f3eb2148e4ae3fc1bccac4a458731f6d99",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0202.png",
+                    "sha256": "eb4ee2b8b2baa43b4978b04782bf336971b94914abfa919e68da3a97e72403a4"
+                  }
+                },
+                {
+                  "index": 203,
+                  "source_crop_sha256": "010bac0c305d045041357aba7bf483422e6414c1577815a5100b52d9bdd0764b",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0203.png",
+                    "sha256": "7294a5d28bd9f9aaf1ec3adaebd78f10f8d5a4caf6c1371aac8d35cd6be77ee1"
+                  }
+                },
+                {
+                  "index": 204,
+                  "source_crop_sha256": "9b7c786f5ed1cf814bd955121c30bc9e913c175d8868ffb7ba8f661a0a7fd901",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0204.png",
+                    "sha256": "de3ba746d4b6586e2cbb1cb0f4612bf5dc924b37fddef9549631705e7e12e8bd"
+                  }
+                },
+                {
+                  "index": 205,
+                  "source_crop_sha256": "b340f401b7f4ff5706a9f97a3bf290ed5b393bdf6bfbb24a40f70b67eac1467d",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0205.png",
+                    "sha256": "c85a262f4b5a71d0bdb10c99e0caf332a30144c3792a98edc5793b10451e5730"
+                  }
+                },
+                {
+                  "index": 206,
+                  "source_crop_sha256": "d232b76e40d27f772455cc8950fe328acb3ac68df5c64886471d2453bb4acda5",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0206.png",
+                    "sha256": "a2e7a9f01c27bf40f833841f43bb22ab02cf0571970241623d6341fc5f0c0fc2"
+                  }
+                },
+                {
+                  "index": 207,
+                  "source_crop_sha256": "0bec7b40a99ef92523f46c147615248b4d096d71565e3391a1ae944e52785012",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0207.png",
+                    "sha256": "f19ab4bec1ea9c7dbe605504d5fd28196e3d3efcc9a80ebe92398cda1bf62e23"
+                  }
+                },
+                {
+                  "index": 208,
+                  "source_crop_sha256": "92425e18140c457828e391bf4e9643ed445b07718379d93fa4f786acf7574ca4",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0208.png",
+                    "sha256": "d67bd4d74218fb7c93290f117c08fbd7f262ebedcb3371fbee7e3355bfc1c0af"
+                  }
+                },
+                {
+                  "index": 209,
+                  "source_crop_sha256": "695adee03ffc9bdae93b62f8b68f5e5dbc7d9e88eab7f37585975dbb4f8e7bd3",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0209.png",
+                    "sha256": "d0e8fdf74369b376564cb1d540fb615bed30ce64ad014fa9e898be9948fb0164"
+                  }
+                },
+                {
+                  "index": 210,
+                  "source_crop_sha256": "1cd92bfb6e3cbb0d6180afc62a1c53959fa2f780c6b887fc1e6f5770137f6b58",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0210.png",
+                    "sha256": "b57205c5237b80734a3f29f6d9ae9d82b20493abfab954ea447fa2e3ef7b9534"
+                  }
+                },
+                {
+                  "index": 211,
+                  "source_crop_sha256": "7f7f92d334b0c1e19a6059e8096750f84870d55986fb07bdcd532a48c5fde04a",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0211.png",
+                    "sha256": "421ff0cba44264901856af3b4b1e0afdc5c9b79e40a95267ce141bb2aba327a5"
+                  }
+                },
+                {
+                  "index": 212,
+                  "source_crop_sha256": "63d78954076b0ecdab531e858646ddc32ce33a863d056374405a0457e0469df8",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0212.png",
+                    "sha256": "16c97a33df62827735e1e07bbceb10e447a8c03b08d45aea56b16fabfef767e5"
+                  }
+                },
+                {
+                  "index": 213,
+                  "source_crop_sha256": "614d272d1916f27906f1eea1b2f042b98a5d7f03d62bf4f9e3e374289205eb5b",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0213.png",
+                    "sha256": "1d1cf40471bceb458cad3e838a720ba8074b91e2d97a764aefefec8cd58b5467"
+                  }
+                },
+                {
+                  "index": 214,
+                  "source_crop_sha256": "397fc09a2221dee371d83f0bf08aa0d15ec2a65b254a0f1782920449fa21d6f6",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0214.png",
+                    "sha256": "cd456b2795292c57a8daa2c08b1ab8996d5838353229ee9e96d137720aaa9e15"
+                  }
+                },
+                {
+                  "index": 215,
+                  "source_crop_sha256": "3717d66b0d093e6fd9016462603241e4da4722b374550bb4dd85a0e761a68c36",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0215.png",
+                    "sha256": "9d5feccf82f567cfe9559874607fa46e3ce62a8e3a34983f8a9d8f205eb9ada9"
+                  }
+                },
+                {
+                  "index": 216,
+                  "source_crop_sha256": "297c9c93e0f6cbf35f372b95d7de3dcac9f6aa1f3e4656dcff1ab28ee20a096a",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0216.png",
+                    "sha256": "0cc03031a337bfc1aeeb729f39b21148f740f51a875772ac82350bb2e5af6e00"
+                  }
+                },
+                {
+                  "index": 217,
+                  "source_crop_sha256": "56e7cce1aa7e5ffce4196963a798fb633a9b736c396d59bd8b4711b7998417ee",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0217.png",
+                    "sha256": "22958ef766107b32e4dda42167def9b4c3c11ceba54f09b9302f07b73bae6748"
+                  }
+                },
+                {
+                  "index": 218,
+                  "source_crop_sha256": "90496d76bbd65d12677686c947cf800c221c8540df7af7897e5e9b1cf407d329",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0218.png",
+                    "sha256": "e53bb66ff92de147b1a7706e41a5ada501249d4c3783164c84391733edf44a7b"
+                  }
+                },
+                {
+                  "index": 219,
+                  "source_crop_sha256": "5535f0a170534d958b45927b16d53f95655a0b6e2ec97164e1effc934ebcebf2",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0219.png",
+                    "sha256": "50f1cd03e1b01c8ea9e00ee62e5cfce1d2602b15ed8f8d17a2ec3ca74d9a71af"
+                  }
+                },
+                {
+                  "index": 220,
+                  "source_crop_sha256": "7685ae8c0092aacff0e721ead5dd9570160b706508a4a321d18cd23969a4b747",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0220.png",
+                    "sha256": "8dd65afd8eacf3ded522f0afb7325785c01bafe7e9e90e62f7c439499b1b6843"
+                  }
+                },
+                {
+                  "index": 221,
+                  "source_crop_sha256": "2d96225bab0b6aec5ac04704289278c480e15baa8c2adb7f32c355287ec8497e",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0221.png",
+                    "sha256": "65a4857ff01214db859536f0e5cb8f1be464df8a764ab0fccb78d8d749ab14a6"
+                  }
+                },
+                {
+                  "index": 222,
+                  "source_crop_sha256": "b58167bb6b831019932591cafa8c7db27d2d910a21717974210b8df30395009a",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0222.png",
+                    "sha256": "4ae8d02af4fadd1fde61d04048fbb86c1a8576fdd839d95900b8920fb686d8d1"
+                  }
+                },
+                {
+                  "index": 223,
+                  "source_crop_sha256": "82adcba8d1c594a3f287e6a69ff092e604ed00e4a1f35029fea142492a8268f6",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0223.png",
+                    "sha256": "38d4681c718ee4a3ae0a5d30fcaefe3ddd8f4b5b0ade6575548d47c8364a87f4"
+                  }
+                },
+                {
+                  "index": 224,
+                  "source_crop_sha256": "b0e20d7fb958f6b66563a19b527ab2138f8ccc30f10ea397a5d3161402807126",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0224.png",
+                    "sha256": "20bcd1bb09e0171cc031c666986c5595792ec40dd49b6cdd3531a14d59c3e30c"
+                  }
+                },
+                {
+                  "index": 225,
+                  "source_crop_sha256": "f50251e77b18a1fd60da828d067a94da5ede76b17d2bdd66cc633e2ec1647fd8",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0225.png",
+                    "sha256": "a2654e2f31246e84dadf59f2e19ec81e871180189c5728f6c4cef4bfa8fdb070"
+                  }
+                },
+                {
+                  "index": 226,
+                  "source_crop_sha256": "5bfed4bd2e3056cebd261ced2cf84bf0fd18506da46d7c1fd0d1469338ab6d69",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0226.png",
+                    "sha256": "729b8a19ae6631306cd3a3a3820fd1df7893c805c835f39cd62d0979042cc452"
+                  }
+                },
+                {
+                  "index": 227,
+                  "source_crop_sha256": "295adfb7c6a6a83f8bcc7546a8b8f877b9ce356028c98eecb927274c00b4f35c",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0227.png",
+                    "sha256": "5b0797f93140aed8df38cc543e84f7914986936c725ad8a6203509599f9c6e52"
+                  }
+                },
+                {
+                  "index": 228,
+                  "source_crop_sha256": "7c799a9ea1a66956f65a27dab6a650d0d6d621135ee1ad8034f7388746b8955b",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0228.png",
+                    "sha256": "fd112f206ae3c444fbddcefc3fdb2eaebe1d160b95644612ee410301e8d9b326"
+                  }
+                },
+                {
+                  "index": 229,
+                  "source_crop_sha256": "69b25bd99dcd3dafd6339a4b41c84304cf799f60cd58e92601ccd3ef649d2042",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0229.png",
+                    "sha256": "a6570de29425002310faf19feab971c382be48e0535c85c678bec77445ec2565"
+                  }
+                },
+                {
+                  "index": 230,
+                  "source_crop_sha256": "b35770cee0c8beb6cc2a01e849fe6a1139db8eb8d4059f164696943373939c94",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0230.png",
+                    "sha256": "e0de7a8e6aa88b4bb094db212c7b701d465da1a09d4f5906ea6737d1cee30d3a"
+                  }
+                },
+                {
+                  "index": 231,
+                  "source_crop_sha256": "71903ffca6511e55da131d8a398948d19bc141d171a95bbf81b45de1b3e7dbf8",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0231.png",
+                    "sha256": "7c5bd23cc849b6364b86a029a23da2a78eb8bc206099e516fce0258efdf4a447"
+                  }
+                },
+                {
+                  "index": 232,
+                  "source_crop_sha256": "99b37c141738e08415ac17050c801e577a357b8972b0cd0f02459012d38a68fa",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0232.png",
+                    "sha256": "66e2ca5bb601cb80b42dc6fe3e8bac145a402189d830648cfa35bbe6e61aa697"
+                  }
+                },
+                {
+                  "index": 233,
+                  "source_crop_sha256": "26dd98cd6059329af868faf373e1d16a38363b8f47e5ffbfbf0c490d5de54fb5",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0233.png",
+                    "sha256": "e0a7267328c70ac704bd735accbbb65a02fc451aad4eebbdc7c64443965178a2"
+                  }
+                },
+                {
+                  "index": 234,
+                  "source_crop_sha256": "f1cadffadbba0224503d9327310aa747fd6dbf248c943dd1d8fc8bea7f6ca47b",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0234.png",
+                    "sha256": "6ab2a509eee23e11e028e7e4730410713b4e3b4bd79582396371a1918a05c904"
+                  }
+                },
+                {
+                  "index": 235,
+                  "source_crop_sha256": "328657baaa202b062485b683e40b44136d73db4fb8663140323c4e656ba3a8e2",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0235.png",
+                    "sha256": "95df8d59c0867bcf4b6e3fdb4c4c9e04cf789bafdaae01d053d6c940f3b8930f"
+                  }
+                },
+                {
+                  "index": 236,
+                  "source_crop_sha256": "30df7a8c865ec022a374d334d0d6127c7888d89f7bafad14cff6b6d3ebc0bcb6",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0236.png",
+                    "sha256": "1191efd3d119a99eaba967f8b6915e0853b8f8345e4dcf940a0f654c4e7e474c"
+                  }
+                },
+                {
+                  "index": 237,
+                  "source_crop_sha256": "4f58915f88f998b4df052952bdc9b664c2bf9d04e067c3f0fb76ff9aea8a8458",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0237.png",
+                    "sha256": "840e4dddae048ccf05fe7d52225ef85825cd772e6a1cacfd3ad8e3d155c6bafa"
+                  }
+                },
+                {
+                  "index": 238,
+                  "source_crop_sha256": "0a834178d0f23d543db5e9b4c2d73d5ef8093f3468f6dfc6486850197a3f1094",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0238.png",
+                    "sha256": "a51e71070aeda802cec095e6b5528783d7a968e7e91c8892888e2a4ae76219a2"
+                  }
+                },
+                {
+                  "index": 239,
+                  "source_crop_sha256": "4ec5d946416d8253155dd4a29f28fb7edcf02f481c417d7cdb1166f19c6ef641",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0239.png",
+                    "sha256": "74b8b9c682e218804496b3b932fcd2998724f7968a065849fd0433795b927c0c"
+                  }
+                },
+                {
+                  "index": 240,
+                  "source_crop_sha256": "53c21f64c9d5a98313fcaa821601de38b05dbb2f6d1d1f57daa566f4e039e8a4",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0240.png",
+                    "sha256": "d3653f0e56bc8e1795e9b557bf3f03166b0b8dceb4d0addcde76fe0a790a1bb0"
+                  }
+                },
+                {
+                  "index": 241,
+                  "source_crop_sha256": "4c67ced0539428af46086e0e228c2b1e510c947a2a097c36f617b82d1aad9308",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0241.png",
+                    "sha256": "e7d09b81d9dc00e033998fb194bb304dd13ea2069ce0d930d31bd86f14999ee2"
+                  }
+                },
+                {
+                  "index": 242,
+                  "source_crop_sha256": "94814424f85939d5d87851c298948559041da2b96ee0a5e6f641187de5076cd2",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0242.png",
+                    "sha256": "8147ab3951999b38e28a0c62666e583e29d8095eae6c95361dd61b4ac1f4fec5"
+                  }
+                },
+                {
+                  "index": 243,
+                  "source_crop_sha256": "604ee889ecc07118d3e955bae25708f7d77278dd115864541b444ab56ec233f9",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0243.png",
+                    "sha256": "ed0c98df72d71844a60d4612e965f41e33f5a16db51a2fa1a9eda21c5c91dfd5"
+                  }
+                },
+                {
+                  "index": 244,
+                  "source_crop_sha256": "96dfa2522086e20cec768801c67b81c183dc82ad90ba471b94ce5eaf95301bf6",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0244.png",
+                    "sha256": "05d25c979e8235ec81b070e1aa399971fcccd0ca89453acdf43fa21dd2e5db8b"
+                  }
+                },
+                {
+                  "index": 245,
+                  "source_crop_sha256": "47f1d61f589e07941170c5a8be8bc109b381beadd5dc741775c47273c500e981",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0245.png",
+                    "sha256": "11547cd05ffe86be2d885764734ccc6a8f0ef296157703d3257edb638a65e16f"
+                  }
+                },
+                {
+                  "index": 246,
+                  "source_crop_sha256": "0b4d5567791f9eceec7720dd0768066610e512130e1578b16f98790545b07f28",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0246.png",
+                    "sha256": "b1993658e4a763ed5721c4a888b018dfad5582e676882035217b0af98c6073cb"
+                  }
+                },
+                {
+                  "index": 247,
+                  "source_crop_sha256": "8255830969e8eb81dd6eff08ea802cb9236c4fefb0627057945c3f2bd898c825",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0247.png",
+                    "sha256": "1262d5b90d9802ff94e8df9c70753d39188c18373d8960f114e6747370edf808"
+                  }
+                },
+                {
+                  "index": 248,
+                  "source_crop_sha256": "1c9cde5c03defff43faa67efcf40e5e6f07e5833cbd0705d8f4cf786f2055a5d",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0248.png",
+                    "sha256": "9a137f10b1d24ded2262b455db4b1b0942d2f5ae2da029f6ba9842ff9e6244d6"
+                  }
+                },
+                {
+                  "index": 249,
+                  "source_crop_sha256": "e0cf24991cb4124b84e89a689ca795281fe8e067a552b75a0458c07f5d1c7fb4",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0249.png",
+                    "sha256": "d21561cb8cec33528a28aff01c95ed2c476afd6a7f98dde6aa09e93005ff0fb1"
+                  }
+                },
+                {
+                  "index": 250,
+                  "source_crop_sha256": "c8d48d1fc4465428b9f2723bf021caeea04452c71c6c6293af054109db68a402",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0250.png",
+                    "sha256": "87ae3cb552f99c1820ea37d41016112897c35b31330862818662b555e5099eb9"
+                  }
+                },
+                {
+                  "index": 251,
+                  "source_crop_sha256": "d97fe97275b69eda5c6adef78b3ee1f21a6bf3d45fb58e6bbaf5d43240542d18",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0251.png",
+                    "sha256": "248bec6e3ddc758188331e5a5deba115040ca96bdd432b0ce1029afe883e5f87"
+                  }
+                },
+                {
+                  "index": 252,
+                  "source_crop_sha256": "068abcff0738905a546eb5555f947c4ccd7d300164440383c218f89e821cd76c",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0252.png",
+                    "sha256": "73391186f37d7694e1f45429cc8b427f1e007762d0aeb64e28a0f4eebade3a93"
+                  }
+                },
+                {
+                  "index": 253,
+                  "source_crop_sha256": "6e17c19309842c89e76d22425be0494a1f0405f669816fa3de3dcbd1bfd83f32",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0253.png",
+                    "sha256": "38777a6fff1caae6ae5ea7dcc677902dbc6b9e8f9f845dee3acab0f305be3f80"
+                  }
+                },
+                {
+                  "index": 254,
+                  "source_crop_sha256": "4acef64a9ea5ce7966e6841f26abaa7d99d41710a415e43c4d68e71307870c29",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0254.png",
+                    "sha256": "7d0f0eae73b4b65fec0707b406f67396fb15716e5dfedfbae96a82ef8ca82bf1"
+                  }
+                },
+                {
+                  "index": 255,
+                  "source_crop_sha256": "d49fadaffb296a9a4fe1242ff037c04768bdf1ee60ba97775ff5c7304ece7db8",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0255.png",
+                    "sha256": "7af68a9af661510681a605f7a44a4d77bc2cfa3bfe7c57abe4a1cba889d9f0ba"
+                  }
+                },
+                {
+                  "index": 256,
+                  "source_crop_sha256": "a77da5311a52061c634876c5b220e983f656e0e1557239bd27352870d34a2a26",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0256.png",
+                    "sha256": "4213a2dd18681536f6d4da1e3162d6bc0eb0ea4660d622171510a8b2be6b400f"
+                  }
+                },
+                {
+                  "index": 257,
+                  "source_crop_sha256": "48e0f090c5d1fca84645ca8ce7a47e6fe4559ea2dcada0aff0ae95ffa2663833",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0257.png",
+                    "sha256": "8159ae043886413d9c596f705ee9a9b6a2327b551eeebe0192d4c9e43c861da8"
+                  }
+                },
+                {
+                  "index": 258,
+                  "source_crop_sha256": "8e682da5c63b41e09f02788792dc2303170630aceff78a8c722d6e0627597ded",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0258.png",
+                    "sha256": "7631ed1186148dae063a42d0c77ae47ff5d570c29efcd76e3007b5133d0b8c0b"
+                  }
+                },
+                {
+                  "index": 259,
+                  "source_crop_sha256": "ac9998cc41bba90123892c96e349e7c2bb02df7198021f6442357e75ca946217",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0259.png",
+                    "sha256": "1d3cdb8df02ba988d712aecc170b45c52d288880368ee2af56019780bdf20a3a"
+                  }
+                },
+                {
+                  "index": 260,
+                  "source_crop_sha256": "60e309dc1e0320fba7e9824fadb47aa52f15a8fba8a0b66683162b0a0b3ca4ce",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0260.png",
+                    "sha256": "8ab256d8be855c3c1b8495f05f7f75056f328d6c8af71a0d83f5c5f2043d9121"
+                  }
+                },
+                {
+                  "index": 261,
+                  "source_crop_sha256": "fc4f631590f4e319a783cc5190b3e62ff967a4a94c998cf393bd90c3d843951c",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0261.png",
+                    "sha256": "868aa77a4dd93ff365303750d244566b4446808be9f83ae25c4188dc222f4379"
+                  }
+                },
+                {
+                  "index": 262,
+                  "source_crop_sha256": "caa32ff8821c4169fbef08aef9daa0e5344479d735b57d7afa33523f79065d60",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0262.png",
+                    "sha256": "7d0830657c0a1ba9f7494215d1784bcb63b68b6649ab90c550fd7b17f14c54f5"
+                  }
+                },
+                {
+                  "index": 263,
+                  "source_crop_sha256": "56ab496adf4deca2cd593e2a7e6cb1b030af261afd05839ad14a91d5cd9c3ea9",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0263.png",
+                    "sha256": "c28486c3ae14f0a32117fe20987b49b26a34e3fa2e3171f14578d4586a363667"
+                  }
+                },
+                {
+                  "index": 264,
+                  "source_crop_sha256": "c2b2a94e28a64436acc7c09971aa3d257e854eb6298c593f57b0682c094f9575",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0264.png",
+                    "sha256": "77e231763f820a42de74db9821accd7d9d097fe4c2343ee4dab46fdd2b48a3e4"
+                  }
+                },
+                {
+                  "index": 265,
+                  "source_crop_sha256": "7b7ff12e47955f2ddb668c0a346e8f6739e36d68949b9d20bac8d0c6759da777",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0265.png",
+                    "sha256": "6c3ba66bd34ec7b3e622a1214622882dc07164057ae289a04bc8ce4b63438405"
+                  }
+                },
+                {
+                  "index": 266,
+                  "source_crop_sha256": "df14c304dcb94b6163cd43540a6386998dee5a8f8ff5940c6c580a155548c7e9",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0266.png",
+                    "sha256": "a3e4591c6513db8f8432d63f5000787017d439ea292290da73b08aa9c3b16317"
+                  }
+                },
+                {
+                  "index": 267,
+                  "source_crop_sha256": "80b465fe6df4cb2d4966a9ae5ca9150bf02840dd26b0a99b5fe27456f10bf7f3",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0267.png",
+                    "sha256": "595213c85f0a54a0cd1a495b6bff27c2055bfa0709c89c136405cffd987807a3"
+                  }
+                },
+                {
+                  "index": 268,
+                  "source_crop_sha256": "ff82f8b33fb5edf2458da07e65bc78e9414b7016c7b94463a75ae2614d64e922",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0268.png",
+                    "sha256": "6dc6014ad485088c5038d045938ce3d7e496463a3ef32864b1fc6d6a7a8ce3d8"
+                  }
+                },
+                {
+                  "index": 269,
+                  "source_crop_sha256": "4f06fc2516000b4e93689cce26c032dbf6f4c7dd589c9130ec1d9d2710dd75ae",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0269.png",
+                    "sha256": "b773dc08960e89db412f099c79cf735d5a5110027fa0caf762366f8929363969"
+                  }
+                },
+                {
+                  "index": 270,
+                  "source_crop_sha256": "17f65a9d91cac140c382ec8eeca6ff79bb404232b5b62c5f2b23b44ba4b9b274",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0270.png",
+                    "sha256": "62b9e3839153ebb1129b68faef761c6942c23726942832588f1a8c5c0a4c55c0"
+                  }
+                },
+                {
+                  "index": 271,
+                  "source_crop_sha256": "e06790dcdde41836c1430619e63e6e61a033b1f0600fe763a78601a5eb4bf3eb",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0271.png",
+                    "sha256": "4f10176ee40b23c00835a28906fb7470268bc1192e871b7a18894a98e1a50008"
+                  }
+                },
+                {
+                  "index": 272,
+                  "source_crop_sha256": "90cc73b2e79a4ffb5d5fa229f4d8c8cb07d38653fccb330c8718195b741c7299",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0272.png",
+                    "sha256": "958819a7af0a5e137f774fb2905e7273c4f49ba6a936786c495e3fba1e798bb3"
+                  }
+                },
+                {
+                  "index": 273,
+                  "source_crop_sha256": "c8353131bd6659a7851c55aeca6eb28dc1d0be46d662a100096d5d6f3850ee89",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0273.png",
+                    "sha256": "6affcac50f3544e617eee1437dae90bb0357df0a1f775f3b8b81d10eb222831e"
+                  }
+                },
+                {
+                  "index": 274,
+                  "source_crop_sha256": "a575e5709ab89299306d1f70b82dfee616231c16e89336dcfc84f516b7ad7c01",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0274.png",
+                    "sha256": "60919eabffeb24f19af7e9ab8a2085a7f8b392152178dd480db8a3f121506395"
+                  }
+                },
+                {
+                  "index": 275,
+                  "source_crop_sha256": "3ddafc507c509c252626500de141900d956feb3975bad47afc0daa22c0285e9a",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0275.png",
+                    "sha256": "1087186564cbdcb92cfcd37b0283b03b0abfdc36a5fd57fc979bb300afb5d15e"
+                  }
+                },
+                {
+                  "index": 276,
+                  "source_crop_sha256": "aefdd869a2b57e4db6011118a386d6114f0146df0415da7029cd958f6f0d1c0e",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0276.png",
+                    "sha256": "e53753c5c1a67531d5a377aca2aff36a99dd244efb36e611288e31e8f8e5c182"
+                  }
+                },
+                {
+                  "index": 277,
+                  "source_crop_sha256": "f24f760b1397ff2c865841a538dad1983d7aef1a245ec2090cc39053bfa6ae76",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0277.png",
+                    "sha256": "0270fa88deaf2f5bdd2e84e1508caf701715e785d641d4d6b92121fb081eeca5"
+                  }
+                },
+                {
+                  "index": 278,
+                  "source_crop_sha256": "9bf17d0c94674f4960ba62aa8d364c2d1dcfc06c74a3463a023e9348b73d3e3e",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0278.png",
+                    "sha256": "99132ec6eb7c1b1174761398a12eac8d1fbc5988e17f8bd2dfcdf200d43cbd7a"
+                  }
+                },
+                {
+                  "index": 279,
+                  "source_crop_sha256": "fcf8c8c8486b7676dbc7febcb8f48b2cdb4c9d421aa4b53f2c7cd299ffa49964",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0279.png",
+                    "sha256": "e61a028728728bf01e080d69e65322b4cb8f699ef8ef29232601a7bb3171f209"
+                  }
+                },
+                {
+                  "index": 280,
+                  "source_crop_sha256": "ac2be6fbe94d82e08c103055f0ceafb9dcaa6be56f62e9a70e5b9752645a5f4d",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0280.png",
+                    "sha256": "106b7663bda359ffbd8507b42c287884bfd1750378f02a3c55b0dc7a2832cb3a"
+                  }
+                },
+                {
+                  "index": 281,
+                  "source_crop_sha256": "c5ad602440c3bacc52041fbbf9ae5ab06f4368feee6c25597ee17c4ba46a6798",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0281.png",
+                    "sha256": "a29dfe2a4b7137cbe0f67d8cb2d3487ac0bbcefa1cb54b2f57f55b2d68cbf2a9"
+                  }
+                },
+                {
+                  "index": 282,
+                  "source_crop_sha256": "86c3d987243539073a09a88a9a682ebff48921f1e51365932d05a63d87d151b0",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0282.png",
+                    "sha256": "f1e4390b0a5380d70e708e97ecb8246d048922cf51c7bb50f04095a6f4ebcb47"
+                  }
+                },
+                {
+                  "index": 283,
+                  "source_crop_sha256": "218c44c162ff0301e50790694f3b0f50002c15de764837e6fc51717648486ef6",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0283.png",
+                    "sha256": "24f1e3c7abb433386fa839acaa57738588a57435ed7b2cef6621e567e3caebe7"
+                  }
+                },
+                {
+                  "index": 284,
+                  "source_crop_sha256": "23c4b44099b968724d1a0af31beb532e01c370717654378c5d3b49b99ca6180a",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0284.png",
+                    "sha256": "e802c44f9ec7425a5d8ac0cc0a80c9e104be78d192f24f923a546a9c1a73283c"
+                  }
+                },
+                {
+                  "index": 285,
+                  "source_crop_sha256": "184d24066d9bc015582bf3d7b991d1ec2a4e916219e6410b7587ffc54eecac40",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0285.png",
+                    "sha256": "0c606bd38973cad3e2c0b572eb62a4076fa64718ceb4393c1fbc45ad7e5977bd"
+                  }
+                },
+                {
+                  "index": 286,
+                  "source_crop_sha256": "d7ca0abe4f89a379a37415ee5c2c9480772e62d863e42e85598ce169a7354965",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0286.png",
+                    "sha256": "40eba31185e19c5b773114bab388e4227c29ffce6ce9f6009735a45bd657e205"
+                  }
+                },
+                {
+                  "index": 287,
+                  "source_crop_sha256": "fdb3294bc1e0717c1133172a93e3784eadf96aeb802f5f2e9305767efd8077da",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0287.png",
+                    "sha256": "c4ff3af2f7cace1ce10e7d5a82893bf30ec5cf6e4682fa3bb3036ed2b6bc2604"
+                  }
+                },
+                {
+                  "index": 288,
+                  "source_crop_sha256": "0c79c8328ce6a472dc48d0fc2441002e7df7901e8d4571790fb615446be55e17",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0288.png",
+                    "sha256": "bc4c6aae6f81c5d140f79f8ef0e1eddb86356583a5e5ee31be65a9f45433b982"
+                  }
+                },
+                {
+                  "index": 289,
+                  "source_crop_sha256": "c753f3a294fe020ebefe485796a7950e6aed3e5766815bae1e2b5d54490f69c2",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0289.png",
+                    "sha256": "ca80ae9a3d4d826b7ad5d2a424d04900d767c155d67e4b4a49e55770e52c5d17"
+                  }
+                },
+                {
+                  "index": 290,
+                  "source_crop_sha256": "23ae928dd925910c12453a43fdd4b380959cb66cd808bd03d95082f85a9d6931",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0290.png",
+                    "sha256": "ab6306e4a26becc48134c8078fc140d6acca4d804c37dcadd36e626a945c0903"
+                  }
+                },
+                {
+                  "index": 291,
+                  "source_crop_sha256": "3d19b79cf01d504fea54b93133d637a1665d38614253e99a1930dc7aa29ee4d8",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0291.png",
+                    "sha256": "543979b7d4bbafbcd12285ed0bf1352fb731954c89c0b0ca676a2887c17f57fc"
+                  }
+                },
+                {
+                  "index": 292,
+                  "source_crop_sha256": "977be30f6af36708e5aa588edf8a7a0b39cce3af9bb04d716f7f9923304dd0c2",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0292.png",
+                    "sha256": "2162acd9b5d789d61694476041381d40b559fd91c47b4f09d80645d82ee208ac"
+                  }
+                },
+                {
+                  "index": 293,
+                  "source_crop_sha256": "3dfad8335a2f203e5cfe81143d6be7ae86f30e6bb55382b340ccefca02aff91a",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0293.png",
+                    "sha256": "552491d3918c3a03efaa537e3c5065c447d44481c87538d48d55d610fb8b3a2c"
+                  }
+                },
+                {
+                  "index": 294,
+                  "source_crop_sha256": "2f495e1944a06500ab71b6198dc54903372e6de2cbf2a8dd1eb674fa456190c8",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0294.png",
+                    "sha256": "dc8ba3dda801364009bb8bf231eb1b56235483b8b495dab631ffe94b0391e12e"
+                  }
+                },
+                {
+                  "index": 295,
+                  "source_crop_sha256": "8057d3af9ad58385a14c5a3ef4970ae7e4ae0ce91f922be87b183099ea70a3d9",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0295.png",
+                    "sha256": "039a7c8b2ae43c1dd41bc0a56b7d6e902c881f5954f2658e6d1124bc4790cd0d"
+                  }
+                },
+                {
+                  "index": 296,
+                  "source_crop_sha256": "7c54c827b608e35f6e540557f698e7e53c36f8815d4af12556a0fb2c84aa29e0",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0296.png",
+                    "sha256": "412b952ae538dd6d7bbc9fe00c67323a772f45b2bb7bb3abd4335ced43abc85a"
+                  }
+                },
+                {
+                  "index": 297,
+                  "source_crop_sha256": "87e7a1f1558ea0958219a8fb95a63d10774e491f6f176034ea1879445ea2d7db",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0297.png",
+                    "sha256": "a5ec55b12d6ebe3f0fe4b9a504a15ba6e5bf24fa6415a466ddbf9814dbd95643"
+                  }
+                },
+                {
+                  "index": 298,
+                  "source_crop_sha256": "72859115acf461913d18f490723bb11884c4c77a5631136a2edef6807049b0cb",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0298.png",
+                    "sha256": "7dadde8b90d8a7f8d65037d701e37efb7f5ee11cfd9d4a02831dd667b4eece5a"
+                  }
+                },
+                {
+                  "index": 299,
+                  "source_crop_sha256": "f53120353829124a0eaecd7936b24ed7131eb35e9695eb56a6268618757a3f0e",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0299.png",
+                    "sha256": "2321054cfde2aeac60795598553a591a37b4c51a0fa551070a29a4f282ed7882"
+                  }
+                },
+                {
+                  "index": 300,
+                  "source_crop_sha256": "968508a1548d4f730c3f1ec8553b2005a1e5f132b8bbb64a847fbe20f074a055",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0300.png",
+                    "sha256": "3843f01c4f90f3aeabf0c3adc95e2074796fc6e8cff4ccd85215811298ca6921"
+                  }
+                },
+                {
+                  "index": 301,
+                  "source_crop_sha256": "a72ab6956275b05daa734c09d347b6ffcdbb5777baa33e8e9b9ea2cbc357005b",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0301.png",
+                    "sha256": "ff90258e20c7fab1c4246ea0bf8cc61906aec56ae9d01b7fb4b63758400e953a"
+                  }
+                },
+                {
+                  "index": 302,
+                  "source_crop_sha256": "1c4735df7dde283eb2fe7c90cd6439942e7aa1fc8e35cdff70f92977366fc96b",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0302.png",
+                    "sha256": "b7a1042cef75c350bc4a25531ae64757d285bf3f4cc9fe1654e799291f242b98"
+                  }
+                },
+                {
+                  "index": 303,
+                  "source_crop_sha256": "c8689ff5e98321348209a28edfe3868b637ae1c37724ebd1c5dc9570f8da7953",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0303.png",
+                    "sha256": "b28dbd62194d3a69bddf79db5a3d08f852e863555d92513582d8389dc6a34c5f"
+                  }
+                },
+                {
+                  "index": 304,
+                  "source_crop_sha256": "f82c32474b534941869fd173445f02db66907ca8d7bedd85187dd38f7dca5e55",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0304.png",
+                    "sha256": "f7dfc5d35c8b7db453fa24824d8bd87a06dc7526f878b7b108f617822c348818"
+                  }
+                },
+                {
+                  "index": 305,
+                  "source_crop_sha256": "f9d1257c505ccc23ec5a369423620608539d2c1237718d9c3526bedddf9f4179",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0305.png",
+                    "sha256": "0ed34606befecee1f398568e2f420df9d9bf1cf05b751dd2cd1f7a9b5b9b67dc"
+                  }
+                },
+                {
+                  "index": 306,
+                  "source_crop_sha256": "0855fc33e08303250f43d6130585b16df62afaa168eb7c8e330c764be15ec079",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0306.png",
+                    "sha256": "f05470bcac67f559314e0b9682a3a30a6365ef2c0b9e9591aafd51b753d3c7a1"
+                  }
+                },
+                {
+                  "index": 307,
+                  "source_crop_sha256": "18ec091c191a6b76bcac71ce681809cd4b37301ac3b80bfec9d22f7ea7d150cb",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0307.png",
+                    "sha256": "7789d58a98d606dae360c041c4cf33034f89553222bacbfca78b08fa2596f67c"
+                  }
+                },
+                {
+                  "index": 308,
+                  "source_crop_sha256": "42072f249cc5ace8555412a628013c04fdbb910fe7002f14ed2a40f9e6a2f7d7",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0308.png",
+                    "sha256": "baf69f44db7fef8af0261fc227d10b758be2d2a72abcca4b68efbfb58f34b3dc"
+                  }
+                },
+                {
+                  "index": 309,
+                  "source_crop_sha256": "d30b5f7dd7b0cc22cc98f99998d65d0f52f0463807d7d778b01882da08ff0f46",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0309.png",
+                    "sha256": "eb63a622c67e969e7267d270bcbac9ec47643b951935d5016ee5c2597e321a70"
+                  }
+                },
+                {
+                  "index": 310,
+                  "source_crop_sha256": "80501fb222acdc27939eafa081733212e4e2a98bc360427457f412ef12c6c241",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0310.png",
+                    "sha256": "9e78dacafeb7fbf9f2997b2fee02ff90d7872a151d3950888aee09519fa429c4"
+                  }
+                },
+                {
+                  "index": 311,
+                  "source_crop_sha256": "7fcce7eeb2c018a819fd416d1ee74bebe81c9c0da303284013f76a21ec332a3f",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0311.png",
+                    "sha256": "94b078c8e7bf59869098048affdcf349644cd57ac24e738094f35a5f4bcec3ee"
+                  }
+                },
+                {
+                  "index": 312,
+                  "source_crop_sha256": "8dfaa5d6ed26f704c098aeaefd5bb100f0001355bc01148ba1320303915d9bf6",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0312.png",
+                    "sha256": "346fcc568d6a6f7e77f6daebdcc256dfc961a40d9f9521a887b681fb49f3e93b"
+                  }
+                },
+                {
+                  "index": 313,
+                  "source_crop_sha256": "8dd71d0b0663a242a3d4b8e9cccc76a375aa724cdc4ffb2458a71f2893dd6ab6",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0313.png",
+                    "sha256": "4efb5281c4d5259e12592e6268922fec17deffd6847b94b01f55f9f238a278d0"
+                  }
+                },
+                {
+                  "index": 314,
+                  "source_crop_sha256": "2b2adadc54a1d669524795c656f0e365ee0dacc94d6907bed50dcf83f8ad03da",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0314.png",
+                    "sha256": "d5ff5b49866b8197f6da2cbb01645ea7369fd6024334cdd0423ccca8be1a856d"
+                  }
+                },
+                {
+                  "index": 315,
+                  "source_crop_sha256": "3dc8de28028ff01050637c6dfa6c6e6903ea62c01df5ecfc347adb60747aba5a",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0315.png",
+                    "sha256": "d5ec2c52ebd6bbb73790e887363f02e9b292d095312be77ad6920dbb7703fa83"
+                  }
+                },
+                {
+                  "index": 316,
+                  "source_crop_sha256": "7deed6addd570986d8dbe6fca6a1744d4c17e8d94a28686f372bd5983a4a4340",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0316.png",
+                    "sha256": "3ae63cbf16286266d56a0bdfb213beb3d5174414df7fa6e1bc9caee8fecc694d"
+                  }
+                },
+                {
+                  "index": 317,
+                  "source_crop_sha256": "16c14193059a73ed995ce0d4904ca87a788260ac99c4d13780d1a5f1e93b7b33",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0317.png",
+                    "sha256": "9a943505263122ea9c527c21a6d21bde85c69abeedef0c36055afdb6996c20ba"
+                  }
+                },
+                {
+                  "index": 318,
+                  "source_crop_sha256": "4c049ebe9bb9d63e3cfde5e98d7b279624088a20d237d1762fe9ee1a94d1ddd2",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0318.png",
+                    "sha256": "63208ff5d50fde266e90277804da442dc8129db6c975d9dbe23b9e4e15d00b17"
+                  }
+                },
+                {
+                  "index": 319,
+                  "source_crop_sha256": "04ba83738eef113947fa041d2c2444d6b2107e172fd179c19b5a5696edaf3081",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0319.png",
+                    "sha256": "c264c40c7bfc42ff07234f4213cf79eff0af2245bafa23962bae21a400ddde55"
+                  }
+                },
+                {
+                  "index": 320,
+                  "source_crop_sha256": "22af9535153611bfcd53792ec82434137e1ede9b91abd97ebcb10da942f92f27",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0320.png",
+                    "sha256": "6dcef8948471a55039cddd2f1423a2873a5ab5ff17cc0c85621af817533badda"
+                  }
+                },
+                {
+                  "index": 321,
+                  "source_crop_sha256": "1051a79b0799f331877fe772fd2f60796d54f594874f64dc48629601eaa9049d",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0321.png",
+                    "sha256": "6c87371914d1d5d45439b4428d04a46ac99402c997b225dbd03a8a8b5aa0e1cd"
+                  }
+                },
+                {
+                  "index": 322,
+                  "source_crop_sha256": "e9f671d600c796b4be74292f2011406bc4b928c0fcb0976cd6e7142d21a3722f",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0322.png",
+                    "sha256": "f25e85eb9d7ee1bb2cd7130c2315cd00988766d95a1e9fa1dcdc18cb5c1a8e44"
+                  }
+                },
+                {
+                  "index": 323,
+                  "source_crop_sha256": "62825b865a2c224d56b96992ce33634473f40bc47e1fc833673615e9b835b0ac",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0323.png",
+                    "sha256": "ed77ad321d59c370201df38173f1449609d57f2054477910f1a800d280772a97"
+                  }
+                },
+                {
+                  "index": 324,
+                  "source_crop_sha256": "1dba63a54d889b63b25fecaf5a153845dc5199a863525508e7bf66281bd3b242",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0324.png",
+                    "sha256": "acb47cb0336a684790a58964c5d297eabdfc37704537bc5fbebdee07c1543a77"
+                  }
+                },
+                {
+                  "index": 325,
+                  "source_crop_sha256": "7b87e4e4f292ec0babb535fd7690d03a8a847b964dc6c89e2d3557c80765b24c",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0325.png",
+                    "sha256": "59eda652b69065c902b0ba1158289f8b8d75f40c65a606c6180500aacedadd56"
+                  }
+                },
+                {
+                  "index": 326,
+                  "source_crop_sha256": "9dbe21d22071f926dcd7b37c13b39b064900afd6d31719d1c1a0dd681955eece",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0326.png",
+                    "sha256": "f2beb0741be7f74b19cb9121b70872b525f66032babf092e0804569c57248278"
+                  }
+                },
+                {
+                  "index": 327,
+                  "source_crop_sha256": "fe83fa03f4a5dd9bf57e447444ca5c9f8d7a567f10f53ff8eb453e3feaa30106",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0327.png",
+                    "sha256": "46ab34f22e54c508257b5966c8f937697ac93799d1bd92c060fe372991c7ad4c"
+                  }
+                },
+                {
+                  "index": 328,
+                  "source_crop_sha256": "e638bd7565b7c7da57f442bece845bed7a0cba109b74ef036d066681befc35a0",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0328.png",
+                    "sha256": "5292a456b45a248a1d53952807d9fb594816047c0512274c80f3505062a12c3f"
+                  }
+                },
+                {
+                  "index": 329,
+                  "source_crop_sha256": "b8239a125b6f4b5e3bbaa44e4bc90e908cd1a2a70730ca5a1a9fd577ff1ceb71",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0329.png",
+                    "sha256": "28de5b80c1de7902c35ebb83ee38489f0466db692f8f5e1c35abef1ef3b3b918"
+                  }
+                },
+                {
+                  "index": 330,
+                  "source_crop_sha256": "8d8ca4f31a2103de65b5df834c97eaa784ba4ded6229315a0052f44f6af8294e",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0330.png",
+                    "sha256": "b145087d76156559318725763578f4390747afd7a7c8a5497fe3ac3364671cd8"
+                  }
+                },
+                {
+                  "index": 331,
+                  "source_crop_sha256": "635c2160e1f6a98faff67b7b86400f61448c580e4c4ddd91d40f5ff5245c4eb4",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0331.png",
+                    "sha256": "a7976e6c5f07caf492049924630a493e9062abbb4564a6a159f9bf6b0714fd87"
+                  }
+                },
+                {
+                  "index": 332,
+                  "source_crop_sha256": "0e42a025bc5f2b477fdbfafccf4ba137a43a71de910bc9d1feeb05736e29781d",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0332.png",
+                    "sha256": "3b345901bf2d0e02307da06ff99eef07f6f46d2da0953c367f75e05c165b0a34"
+                  }
+                },
+                {
+                  "index": 333,
+                  "source_crop_sha256": "3efb5f1961979e02269dc397725d046efc2b1eaeeedd3967bc9a7d58eedb5106",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0333.png",
+                    "sha256": "323d08f11635020dbe29e5d1fa1e08ff6ace56ea06311ebc04e6dd653a6723fd"
+                  }
+                },
+                {
+                  "index": 334,
+                  "source_crop_sha256": "e0d39b488f8477492aad067c4d2512e1e79bdb4cba628975c5c446237604c974",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0334.png",
+                    "sha256": "9c1101ca2aee67ebd12dd4ce7dad2aa6340709d82e92c963cbd8575d6199f2ee"
+                  }
+                },
+                {
+                  "index": 335,
+                  "source_crop_sha256": "b7392259c57940bbe7a15ba34390fc4418690061b435c689855c0d69e7191179",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0335.png",
+                    "sha256": "2e56a4c628f8127840932d8a7983d0f5d3a2c62b6a99e60e51fa4c69fe5ae9f4"
+                  }
+                },
+                {
+                  "index": 336,
+                  "source_crop_sha256": "850de5c110a52bcc6d4fab8150423fe23fe737327b00a65f1b5d26cae04cc806",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0336.png",
+                    "sha256": "1cdfbbbf86fc96dc095a361db804f6a30724437ca993db17569d6cf620347eaf"
+                  }
+                },
+                {
+                  "index": 337,
+                  "source_crop_sha256": "08473ec9626256594297c03e3abc9cd27d3d7e4fd834be0c2f82b4ecc3f9c6f4",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0337.png",
+                    "sha256": "e58e54e3b91841af486aae6078902cb2810c6be3f09162746efb9366b075a942"
+                  }
+                },
+                {
+                  "index": 338,
+                  "source_crop_sha256": "3ba0cb1774467023f790265209c8411fb282617d070523ddc55eb36ae9102c64",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0338.png",
+                    "sha256": "c600e104e382fa46868a9b50f2f00f36d2bbabf14423345a5d3f8bc74afffcfc"
+                  }
+                },
+                {
+                  "index": 339,
+                  "source_crop_sha256": "fb1a09efa8e8ce56c9d7a5385af323929f01bd9e6f6c146e1e9122498692c59e",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0339.png",
+                    "sha256": "e459603c4ab5651b0516d9339f6b9493176507c696f8f48092b75d63a94b6ee6"
+                  }
+                },
+                {
+                  "index": 340,
+                  "source_crop_sha256": "81440b53ba6099076f65a25baaec4396f193fab785f452865b3b61b0e4f09c6b",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0340.png",
+                    "sha256": "16df3eef7ecbe45b4c947f96495678d90c600051a95fe556d81233d9a0aa15a9"
+                  }
+                },
+                {
+                  "index": 341,
+                  "source_crop_sha256": "bc242bbbeb08c3a80777f6ceaa0befa63e2174ab9699bb14b6ad78d89172f715",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0341.png",
+                    "sha256": "6355889c5a4b7d0a6e99c423a63ca90b3aae47ad70e8bf952c5a7ff989cb998a"
+                  }
+                },
+                {
+                  "index": 342,
+                  "source_crop_sha256": "0b695b447cc886159e8603f96a715d473f814acdefef43fe966a2aa59beecf10",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0342.png",
+                    "sha256": "d42b12e3a6759d58dd2463b7599163d0adcec7c26e2a7f8a3e02a48880900a27"
+                  }
+                },
+                {
+                  "index": 343,
+                  "source_crop_sha256": "a29812d295d3280bdb1267f6816b7c99b196326ba22dc8bd3f233414958c7bab",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0343.png",
+                    "sha256": "5c32a1f72b005d3db20d42755c03f38260e93149bc0a5c2e31d652428bff4aeb"
+                  }
+                },
+                {
+                  "index": 344,
+                  "source_crop_sha256": "ebcc39441bb3fea12a4120f224b165e5167d41622ec343c3cf9825d83bc17426",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0344.png",
+                    "sha256": "5b33a41196d65b7dedbd55bf5d52baacfc9bbce6c339b94fff44ab2e3f7aec71"
+                  }
+                },
+                {
+                  "index": 345,
+                  "source_crop_sha256": "b4dcc68d559819e573ea606186a780cb21b3c6f243dc83527ce0fe106e0b8c01",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0345.png",
+                    "sha256": "4c42df600a2c813f8855e21c82378f849a893e7abf02b226b51c6b65bfeee5da"
+                  }
+                },
+                {
+                  "index": 346,
+                  "source_crop_sha256": "bb824b7ab9c29474f3c22025bf8bb52b6a269cd85350bd494de4af487fab9013",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0346.png",
+                    "sha256": "76fb4acb72fd9856760c40115bd1d5935f334cf0deb9debb3365f87dc29e5c79"
+                  }
+                },
+                {
+                  "index": 347,
+                  "source_crop_sha256": "de88fe7d28fe7cbb050f4912d67baba3eda71dc7cb894328c4c5da7ec6da64c3",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0347.png",
+                    "sha256": "2f44da53b018b5550a53488f44a538169f053de9a6fe5dc01c6b5cd396c5e08a"
+                  }
+                },
+                {
+                  "index": 348,
+                  "source_crop_sha256": "cd0fe8eaddfed67e439f40f5853c57dc543489b7b0e01d750c0b7252cf4ab7a8",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0348.png",
+                    "sha256": "167d395ca0faab5ebb6456dd7b46a94fd82252495c2ac5e2ddab9b0ead161a81"
+                  }
+                },
+                {
+                  "index": 349,
+                  "source_crop_sha256": "cf35dfb5a57750368fbe052e748a6aa48058db6391346eb7c207e1a7a334b1b8",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0349.png",
+                    "sha256": "c24ab24778f9af80e85d3dc1343c9516b11d7298293fd3f110e0dc0308d77308"
+                  }
+                },
+                {
+                  "index": 350,
+                  "source_crop_sha256": "fb626ff82f600e1fd0aec0665cc13050c50258e77b626fd42a3816e70fe2a389",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0350.png",
+                    "sha256": "e79cb26c99c52c7d48219feabef4e47062655f03db5aeb1753c542383621d093"
+                  }
+                },
+                {
+                  "index": 351,
+                  "source_crop_sha256": "48d0f90c50079f629a1ce0b284fb997710f6a8a3a1f3c0f6dbd05b27d8b2b031",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0351.png",
+                    "sha256": "05ec74e5de9569f851ddbdf37a6a810c81b2a64f5f77023dd1a3ac6a47e20b54"
+                  }
+                },
+                {
+                  "index": 352,
+                  "source_crop_sha256": "fc8da8270826d2a367912981e9e5590c583b8eba3c36c0d6e036988705216dd7",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0352.png",
+                    "sha256": "41bf1602ca94254f49335050887e58092d0ca98df18a1d1fc069ce2c7907424f"
+                  }
+                },
+                {
+                  "index": 353,
+                  "source_crop_sha256": "bee72cbc6a64a94afd7d0f0503d7503adb40374b0cea466a8ac85b03dc2b8866",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0353.png",
+                    "sha256": "e15e39272df9f26127c30bd6ce73667c0aabd8ec2fbe4a9b3d02739c34fdd942"
+                  }
+                },
+                {
+                  "index": 354,
+                  "source_crop_sha256": "fbf8cb5b2988ef04138ac4a750a1d230632b346e524e54e35853477c9f756849",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0354.png",
+                    "sha256": "8c063f227378c1b95426924acdcb1f6a3e7dca78676e3c5e0d5a42e356281bbd"
+                  }
+                },
+                {
+                  "index": 355,
+                  "source_crop_sha256": "7f1bbc50f8c66bd5d7be2917f533cd2494628ee22c4411ab9a03527761a9ecd3",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0355.png",
+                    "sha256": "b933c4485b422d1a35fe7c9c069492fa41ac718534b910db5ce8de1ef40486c7"
+                  }
+                },
+                {
+                  "index": 356,
+                  "source_crop_sha256": "19deb6fe0c1ac98e28c0f1cea3f9397ae5b7bff6cca583e9e080b993ac83f859",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0356.png",
+                    "sha256": "667ddc10639a9382ca20c07961b804f875ea0bd3063fcf10cdbf5765b60701c5"
+                  }
+                },
+                {
+                  "index": 357,
+                  "source_crop_sha256": "5d5c17e807cfe033ec8e45f6a64f5707181ba1e68860132ca253506613115fa2",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0357.png",
+                    "sha256": "85ae6c81cae43947f8788b825ec7cb3853d4a389b1688c986014318b5808ecd6"
+                  }
+                },
+                {
+                  "index": 358,
+                  "source_crop_sha256": "b1127b33aee3253c6c3785bbf3e88e6008529aa9eae8efda025cabd4c57eb45f",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0358.png",
+                    "sha256": "4345a95b332cdaf479cbe1a24a68d1180b0db961fece88ee0d895e69e787a4c8"
+                  }
+                },
+                {
+                  "index": 359,
+                  "source_crop_sha256": "29a887aec8b07514c1ad21164246a98d2b5fd1bb6b69421447e65b195476d7d3",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_05_ucave/0359.png",
+                    "sha256": "a8c80148a52dd404a24a1cb7d844085e61395fa52d9f24b8c62862311edb3926"
+                  }
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

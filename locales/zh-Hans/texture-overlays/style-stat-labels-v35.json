@@ -1,0 +1,1024 @@
+{
+  "schema_version": 1,
+  "kind": "texture-text-overlay-plan",
+  "game_rendering_verified": false,
+  "font": {
+    "path": "build/font-source/NotoSansCJKsc-Regular.otf",
+    "sha256": "2c76254f6fc379fddfce0a7e84fb5385bb135d3e399294f6eeb6680d0365b74b"
+  },
+  "rasterizer_versions": {
+    "Pillow": "12.2.0",
+    "fonttools": "4.63.0"
+  },
+  "labels": [
+    {
+      "id": "style_stat_def",
+      "text": "防御",
+      "rect": [
+        0,
+        0,
+        128,
+        32
+      ],
+      "font_size": 24,
+      "source_text_sha256": "1ca3cf82813fd6b9f9a7b7c9549e62ae51b20a03e733709bd4172ddcef314d9d",
+      "translation_basis": "active-Common_State_Tex-stat-cell",
+      "appearance": {
+        "kind": "source-style-v1",
+        "ink_box": [
+          26,
+          7,
+          80,
+          18
+        ],
+        "align": "left",
+        "gradient": [
+          [
+            0,
+            [
+              0,
+              58,
+              172,
+              255
+            ]
+          ],
+          [
+            1000,
+            [
+              74,
+              200,
+              255,
+              255
+            ]
+          ]
+        ],
+        "outline": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "outline_width": 0,
+        "glow": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "glow_radius": 0,
+        "shadow": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "shadow_offset": [
+          0,
+          0
+        ],
+        "shadow_radius": 0,
+        "italic": 0,
+        "tracking": 0.1,
+        "weight": 0,
+        "motion": 0
+      },
+      "restoration": {
+        "patch": {
+          "path": "locales/zh-Hans/texture-overlays/style-stat-restorations-v35/DEF-patch.png",
+          "sha256": "0570d42d75c5006534877b9bb38675630e9b6942941ada4c2d5ba254994ad24f"
+        },
+        "mask": {
+          "path": "locales/zh-Hans/texture-overlays/style-stat-restorations-v35/DEF-mask.png",
+          "sha256": "b06faed5d6b0a9c66528ae1a7114c7ec2fc2ac4056882c9f94685d28894442b5"
+        },
+        "source_rgba_sha256": "7d1075f7231d9c0da71742b1309aa1e9d3ac5ffa590715b1c45251353988faed"
+      }
+    },
+    {
+      "id": "style_stat_dex",
+      "text": "速度",
+      "rect": [
+        0,
+        0,
+        128,
+        32
+      ],
+      "font_size": 24,
+      "source_text_sha256": "c25a33c8ea36ba3b57ce6ea4ee75c06aaba6d206dbbc35d86d0955c3c3ead9b4",
+      "translation_basis": "active-Common_State_Tex-stat-cell",
+      "appearance": {
+        "kind": "source-style-v1",
+        "ink_box": [
+          26,
+          7,
+          80,
+          18
+        ],
+        "align": "left",
+        "gradient": [
+          [
+            0,
+            [
+              94,
+              0,
+              148,
+              255
+            ]
+          ],
+          [
+            1000,
+            [
+              190,
+              57,
+              255,
+              255
+            ]
+          ]
+        ],
+        "outline": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "outline_width": 0,
+        "glow": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "glow_radius": 0,
+        "shadow": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "shadow_offset": [
+          0,
+          0
+        ],
+        "shadow_radius": 0,
+        "italic": 0,
+        "tracking": 0.1,
+        "weight": 0,
+        "motion": 0
+      },
+      "restoration": {
+        "patch": {
+          "path": "locales/zh-Hans/texture-overlays/style-stat-restorations-v35/DEX-patch.png",
+          "sha256": "4c7d8390173574915eb0c954721d487425e5f2cb45c852dcfadb4092f595a8ea"
+        },
+        "mask": {
+          "path": "locales/zh-Hans/texture-overlays/style-stat-restorations-v35/DEX-mask.png",
+          "sha256": "8a4dcd2e430d86955a5b076759f7284419e231c96da999eec84cde8745231631"
+        },
+        "source_rgba_sha256": "0662a3dc918813ae69635e7f2bcc81045bbe5a42590a5c4dc8dd6218a6eef1a8"
+      }
+    },
+    {
+      "id": "style_stat_esp",
+      "text": "精神",
+      "rect": [
+        0,
+        0,
+        128,
+        32
+      ],
+      "font_size": 24,
+      "source_text_sha256": "2c3d6b050d278eb5e5ed62e5292e016e607a0c57f59fa77c906c574a1ef1489a",
+      "translation_basis": "active-Common_State_Tex-stat-cell",
+      "appearance": {
+        "kind": "source-style-v1",
+        "ink_box": [
+          24,
+          7,
+          82,
+          18
+        ],
+        "align": "left",
+        "gradient": [
+          [
+            0,
+            [
+              148,
+              16,
+              123,
+              255
+            ]
+          ],
+          [
+            1000,
+            [
+              255,
+              123,
+              239,
+              255
+            ]
+          ]
+        ],
+        "outline": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "outline_width": 0,
+        "glow": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "glow_radius": 0,
+        "shadow": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "shadow_offset": [
+          0,
+          0
+        ],
+        "shadow_radius": 0,
+        "italic": 0,
+        "tracking": 0.1,
+        "weight": 0,
+        "motion": 0
+      },
+      "restoration": {
+        "patch": {
+          "path": "locales/zh-Hans/texture-overlays/style-stat-restorations-v35/ESP-patch.png",
+          "sha256": "7c0b3778170b2cedb48ab550c07e220051dcb0059ec9bb706758ff0b5e2ef57b"
+        },
+        "mask": {
+          "path": "locales/zh-Hans/texture-overlays/style-stat-restorations-v35/ESP-mask.png",
+          "sha256": "dc61440e5573d469a2ed622b03fab1fc983e628230ff80822d5216c75165a42d"
+        },
+        "source_rgba_sha256": "e4b3785b89e369a62819fc20761912d4329e9370c519c4d7c7a36a88b0ae0f00"
+      }
+    },
+    {
+      "id": "style_stat_esr",
+      "text": "抗性",
+      "rect": [
+        0,
+        0,
+        128,
+        32
+      ],
+      "font_size": 24,
+      "source_text_sha256": "7e7900336788f593f159bab2e326042a06ef454d49d0510c18d47110e70fdd2d",
+      "translation_basis": "active-Common_State_Tex-stat-cell",
+      "appearance": {
+        "kind": "source-style-v1",
+        "ink_box": [
+          26,
+          7,
+          80,
+          18
+        ],
+        "align": "left",
+        "gradient": [
+          [
+            0,
+            [
+              197,
+              78,
+              0,
+              255
+            ]
+          ],
+          [
+            1000,
+            [
+              255,
+              182,
+              24,
+              255
+            ]
+          ]
+        ],
+        "outline": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "outline_width": 0,
+        "glow": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "glow_radius": 0,
+        "shadow": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "shadow_offset": [
+          0,
+          0
+        ],
+        "shadow_radius": 0,
+        "italic": 0,
+        "tracking": 0.1,
+        "weight": 0,
+        "motion": 0
+      },
+      "restoration": {
+        "patch": {
+          "path": "locales/zh-Hans/texture-overlays/style-stat-restorations-v35/ESR-patch.png",
+          "sha256": "8a0b10a884f7d1ec3fb29f71c850531742fae2d63cfa4bd91d7aabd52984e602"
+        },
+        "mask": {
+          "path": "locales/zh-Hans/texture-overlays/style-stat-restorations-v35/ESR-mask.png",
+          "sha256": "2d7cc0d2968680b1164fa14a60d5f9fd43200a4e138ec873ac7ec9d4dd7ff631"
+        },
+        "source_rgba_sha256": "64dfdee11700c216a524f43b2c739dcc28f3d3d89c5264fd7c066a1f73f68907"
+      }
+    },
+    {
+      "id": "style_stat_hp",
+      "text": "生命值提升",
+      "rect": [
+        0,
+        0,
+        128,
+        32
+      ],
+      "font_size": 24,
+      "source_text_sha256": "ba761ff8c54f80a3e4ce33918ff44ba37b94f28b7f482bcff27e266dc507060e",
+      "translation_basis": "active-Common_State_Tex-stat-cell; HP-UP-retained-as-separate-small-run",
+      "restoration": {
+        "patch": {
+          "path": "locales/zh-Hans/texture-overlays/style-stat-restorations-v35/HP-patch.png",
+          "sha256": "d31b2a67f038d2b87dc41cb599b8f990983b1c291af29cdefac5b87ff7beea0c"
+        },
+        "mask": {
+          "path": "locales/zh-Hans/texture-overlays/style-stat-restorations-v35/HP-mask.png",
+          "sha256": "18c7c6d6f6f3f5cd3639552ba568eb1552611c2a4efb627dfb4c512c99659c29"
+        },
+        "source_rgba_sha256": "90f60b0092bcd604ef2b24782e104f681eee6872d3bd685ab3dd8bf413c21073"
+      },
+      "parts": [
+        {
+          "text": "生命值",
+          "rect": [
+            25,
+            7,
+            55,
+            18
+          ],
+          "font_size": 24,
+          "appearance": {
+            "kind": "source-style-v1",
+            "ink_box": [
+              0,
+              0,
+              55,
+              18
+            ],
+            "align": "left",
+            "gradient": [
+              [
+                0,
+                [
+                  0,
+                  90,
+                  8,
+                  255
+                ]
+              ],
+              [
+                1000,
+                [
+                  99,
+                  231,
+                  74,
+                  255
+                ]
+              ]
+            ],
+            "outline": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "outline_width": 0,
+            "glow": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "glow_radius": 0,
+            "shadow": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "shadow_offset": [
+              0,
+              0
+            ],
+            "shadow_radius": 0,
+            "italic": 0,
+            "tracking": 0.1,
+            "weight": 0,
+            "motion": 0
+          }
+        },
+        {
+          "text": "提升",
+          "rect": [
+            82,
+            11,
+            24,
+            13
+          ],
+          "font_size": 24,
+          "appearance": {
+            "kind": "source-style-v1",
+            "ink_box": [
+              0,
+              0,
+              24,
+              13
+            ],
+            "align": "left",
+            "gradient": [
+              [
+                0,
+                [
+                  0,
+                  90,
+                  8,
+                  255
+                ]
+              ],
+              [
+                1000,
+                [
+                  99,
+                  231,
+                  74,
+                  255
+                ]
+              ]
+            ],
+            "outline": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "outline_width": 0,
+            "glow": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "glow_radius": 0,
+            "shadow": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "shadow_offset": [
+              0,
+              0
+            ],
+            "shadow_radius": 0,
+            "italic": 0,
+            "tracking": 0.1,
+            "weight": 0,
+            "motion": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "style_stat_srv",
+      "text": "耐力恢复",
+      "rect": [
+        0,
+        0,
+        128,
+        32
+      ],
+      "font_size": 24,
+      "source_text_sha256": "45c2ce35be1a195b702ba1b51ccf3ba22f20234d77216802e888d1782b99845d",
+      "translation_basis": "active-Common_State_Tex-stat-cell",
+      "appearance": {
+        "kind": "source-style-v1",
+        "ink_box": [
+          17,
+          7,
+          89,
+          18
+        ],
+        "align": "left",
+        "gradient": [
+          [
+            0,
+            [
+              66,
+              94,
+              0,
+              255
+            ]
+          ],
+          [
+            1000,
+            [
+              173,
+              203,
+              74,
+              255
+            ]
+          ]
+        ],
+        "outline": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "outline_width": 0,
+        "glow": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "glow_radius": 0,
+        "shadow": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "shadow_offset": [
+          0,
+          0
+        ],
+        "shadow_radius": 0,
+        "italic": 0,
+        "tracking": 0.1,
+        "weight": 0,
+        "motion": 0
+      },
+      "restoration": {
+        "patch": {
+          "path": "locales/zh-Hans/texture-overlays/style-stat-restorations-v35/SRV-patch.png",
+          "sha256": "e8990d80affd0201049d04b4b8c7663b4256e00b163f14f053add6611e397971"
+        },
+        "mask": {
+          "path": "locales/zh-Hans/texture-overlays/style-stat-restorations-v35/SRV-mask.png",
+          "sha256": "c831cbbf7dc59e22e31d3a1ec080173a45cd3a129943fdcbccbf4d6795ffcf54"
+        },
+        "source_rgba_sha256": "8e4c02c47db22011982ba5b4430cf5c589cfed40bebd7299850154357012dec5"
+      }
+    },
+    {
+      "id": "style_stat_sta",
+      "text": "耐力",
+      "rect": [
+        0,
+        0,
+        128,
+        32
+      ],
+      "font_size": 24,
+      "source_text_sha256": "3ae1d3f7d6c09097b0b2ea45d45ab897a24e4eb7a0b73d536f65126d6f2bb368",
+      "translation_basis": "active-Common_State_Tex-stat-cell",
+      "appearance": {
+        "kind": "source-style-v1",
+        "ink_box": [
+          24,
+          7,
+          82,
+          18
+        ],
+        "align": "left",
+        "gradient": [
+          [
+            0,
+            [
+              0,
+              103,
+              99,
+              255
+            ]
+          ],
+          [
+            1000,
+            [
+              82,
+              190,
+              181,
+              255
+            ]
+          ]
+        ],
+        "outline": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "outline_width": 0,
+        "glow": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "glow_radius": 0,
+        "shadow": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "shadow_offset": [
+          0,
+          0
+        ],
+        "shadow_radius": 0,
+        "italic": 0,
+        "tracking": 0.1,
+        "weight": 0,
+        "motion": 0
+      },
+      "restoration": {
+        "patch": {
+          "path": "locales/zh-Hans/texture-overlays/style-stat-restorations-v35/STA-patch.png",
+          "sha256": "d2e4c99d11cea48f5e309bc2390ef29dcc771ca35c7121883f32c758c889de81"
+        },
+        "mask": {
+          "path": "locales/zh-Hans/texture-overlays/style-stat-restorations-v35/STA-mask.png",
+          "sha256": "d2a9c51ce747b96a916a61174c71ed9ff5bf9ea4c76f4ebe53d5285bf5b0ec0e"
+        },
+        "source_rgba_sha256": "d7d599cae4193169fcba830d4128d1289e5f5da064fd0c390452edc667ae4d4b"
+      }
+    },
+    {
+      "id": "style_stat_str",
+      "text": "攻击",
+      "rect": [
+        0,
+        0,
+        128,
+        32
+      ],
+      "font_size": 24,
+      "source_text_sha256": "ff1b59466ae65927bbbbb1f8059e9a9817bcd636add2727708406237db906b74",
+      "translation_basis": "active-Common_State_Tex-stat-cell",
+      "appearance": {
+        "kind": "source-style-v1",
+        "ink_box": [
+          26,
+          7,
+          80,
+          18
+        ],
+        "align": "left",
+        "gradient": [
+          [
+            0,
+            [
+              132,
+              16,
+              24,
+              255
+            ]
+          ],
+          [
+            1000,
+            [
+              255,
+              107,
+              115,
+              255
+            ]
+          ]
+        ],
+        "outline": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "outline_width": 0,
+        "glow": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "glow_radius": 0,
+        "shadow": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "shadow_offset": [
+          0,
+          0
+        ],
+        "shadow_radius": 0,
+        "italic": 0,
+        "tracking": 0.1,
+        "weight": 0,
+        "motion": 0
+      },
+      "restoration": {
+        "patch": {
+          "path": "locales/zh-Hans/texture-overlays/style-stat-restorations-v35/STR-patch.png",
+          "sha256": "e07a57ef5f726440b590c08c7b512640bdf53d79dfd79fcaa86cf0cee5850091"
+        },
+        "mask": {
+          "path": "locales/zh-Hans/texture-overlays/style-stat-restorations-v35/STR-mask.png",
+          "sha256": "a7e2dcad2684bf4e610fdccbfc893662c08bdd75f43963868c63c06e1777ad39"
+        },
+        "source_rgba_sha256": "b32540543c2ecc28a5d7d39c898d205d8134378c839fa5370bdf4e246d1c8552"
+      }
+    },
+    {
+      "id": "style_stat_strcopy",
+      "text": "攻击",
+      "rect": [
+        0,
+        0,
+        128,
+        32
+      ],
+      "font_size": 24,
+      "source_text_sha256": "c62991e857bf6db8df7b84e105550cd4d03590f0238997e583bcd078388afb32",
+      "translation_basis": "active-Common_State_Tex-stat-cell",
+      "appearance": {
+        "kind": "source-style-v1",
+        "ink_box": [
+          26,
+          7,
+          80,
+          18
+        ],
+        "align": "left",
+        "gradient": [
+          [
+            0,
+            [
+              107,
+              0,
+              0,
+              255
+            ]
+          ],
+          [
+            1000,
+            [
+              247,
+              90,
+              90,
+              255
+            ]
+          ]
+        ],
+        "outline": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "outline_width": 0,
+        "glow": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "glow_radius": 0,
+        "shadow": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "shadow_offset": [
+          0,
+          0
+        ],
+        "shadow_radius": 0,
+        "italic": 0,
+        "tracking": 0.1,
+        "weight": 0,
+        "motion": 0
+      },
+      "restoration": {
+        "patch": {
+          "path": "locales/zh-Hans/texture-overlays/style-stat-restorations-v35/STRcopy-patch.png",
+          "sha256": "e59544196bf5c2a575ca04608a532ad0d249c10b3aa5f623bff870e2d80a88ae"
+        },
+        "mask": {
+          "path": "locales/zh-Hans/texture-overlays/style-stat-restorations-v35/STRcopy-mask.png",
+          "sha256": "1f3dbd9f4cd00e969213aee5e02419784b84fd4bde5560efa7eac483181be042"
+        },
+        "source_rgba_sha256": "74fc320dc319aa7ab08c38c115d536b251ec3bca130405e974918aa7a7a103c4"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "path": "MC2Game/CookedXenon/Style_Tree_Resources.xxx",
+      "discs": [
+        1,
+        2
+      ],
+      "original": {
+        "path": "build/phase-365-style-stats/sources/MC2Game/CookedXenon/Style_Tree_Resources.xxx",
+        "sha256": "6f9562d8f2a52dabc2c36e598f23bd9ac8d383e8c2cab95284d65a2feae2e5bc"
+      },
+      "base": {
+        "path": "build/phase-365-style-stats/sources/MC2Game/CookedXenon/Style_Tree_Resources.xxx",
+        "sha256": "6f9562d8f2a52dabc2c36e598f23bd9ac8d383e8c2cab95284d65a2feae2e5bc"
+      },
+      "textures": [
+        {
+          "object": "Style_Skill_Status_DEF_normal",
+          "label": "style_stat_def",
+          "payload_sha256": "7c85a2994f2839693dba60f37bc64004f2034a11fa98430f22048c662305990c",
+          "tiled_sha256": "573678d942386b6700947cb844780e2104c5eee13e089ff8f446c767c278b3d7",
+          "dimensions": [
+            128,
+            32
+          ],
+          "profile": {
+            "kind": "xbox-inline-bc-v1",
+            "format": 7
+          },
+          "channel_mode": "rgba",
+          "preserve_unchanged_blocks": true,
+          "alpha_encoding": "preserve-source",
+          "rgb_encoding": "weighted-fit-v1"
+        },
+        {
+          "object": "Style_Skill_Status_DEX_normal",
+          "label": "style_stat_dex",
+          "payload_sha256": "b7e5b80aedf3111f0a99debc45d1d3f0d3943b2875b2f07abcc61129345b3386",
+          "tiled_sha256": "d33cf6e86d458ebaf05082ac5c68dfdfcffde9bc8bdab162e5ed511b8f09254c",
+          "dimensions": [
+            128,
+            32
+          ],
+          "profile": {
+            "kind": "xbox-inline-bc-v1",
+            "format": 7
+          },
+          "channel_mode": "rgba",
+          "preserve_unchanged_blocks": true,
+          "alpha_encoding": "preserve-source",
+          "rgb_encoding": "weighted-fit-v1"
+        },
+        {
+          "object": "Style_Skill_Status_ESP_normal",
+          "label": "style_stat_esp",
+          "payload_sha256": "2d2f3bd909727d60db394237e4c8923ba315abf7b3b2b9b0cf2cc2ccd09ce51a",
+          "tiled_sha256": "f54c119e74b82a2c975c1a81e7a1c9971439dba8d8fa0c0aa267de053f7720ce",
+          "dimensions": [
+            128,
+            32
+          ],
+          "profile": {
+            "kind": "xbox-inline-bc-v1",
+            "format": 7
+          },
+          "channel_mode": "rgba",
+          "preserve_unchanged_blocks": true,
+          "alpha_encoding": "preserve-source",
+          "rgb_encoding": "weighted-fit-v1"
+        },
+        {
+          "object": "Style_Skill_Status_ESR_normal",
+          "label": "style_stat_esr",
+          "payload_sha256": "2735932c7842807fe51c9d95d7cf88bc90527f00915ad6345fe2faa5c6f3c9bb",
+          "tiled_sha256": "4b9eaa9750d360d41f3946a2981500696e14749750233abb66ff7fd293e1f9ff",
+          "dimensions": [
+            128,
+            32
+          ],
+          "profile": {
+            "kind": "xbox-inline-bc-v1",
+            "format": 7
+          },
+          "channel_mode": "rgba",
+          "preserve_unchanged_blocks": true,
+          "alpha_encoding": "preserve-source",
+          "rgb_encoding": "weighted-fit-v1"
+        },
+        {
+          "object": "Style_Skill_Status_HP_normal",
+          "label": "style_stat_hp",
+          "payload_sha256": "fbffbba6e3976c4ed9dd021cf91fb9c6bfc40a16c093b76ffa703bea7ffba1c8",
+          "tiled_sha256": "20e6d53383a58a8bc40f108a6198ef29886ec6ae98a3803226068ea08f9e9ebe",
+          "dimensions": [
+            128,
+            32
+          ],
+          "profile": {
+            "kind": "xbox-inline-bc-v1",
+            "format": 7
+          },
+          "channel_mode": "rgba",
+          "preserve_unchanged_blocks": true,
+          "alpha_encoding": "preserve-source",
+          "rgb_encoding": "weighted-fit-v1"
+        },
+        {
+          "object": "Style_Skill_Status_SRV_normal",
+          "label": "style_stat_srv",
+          "payload_sha256": "e518b047db6ae9f902852c973685e0b6f02e15664746202146c06e9a703d078f",
+          "tiled_sha256": "a35e8ae59986c87dcd1227ad292c80bb80ab0000a742e3ff338c03c2f3b3cf6a",
+          "dimensions": [
+            128,
+            32
+          ],
+          "profile": {
+            "kind": "xbox-inline-bc-v1",
+            "format": 7
+          },
+          "channel_mode": "rgba",
+          "preserve_unchanged_blocks": true,
+          "alpha_encoding": "preserve-source",
+          "rgb_encoding": "weighted-fit-v1"
+        },
+        {
+          "object": "Style_Skill_Status_STA_normal",
+          "label": "style_stat_sta",
+          "payload_sha256": "601c2e7e3c3aa5fa83e0bfc232251ea2e3fbf28ea17cc8098f8fe864a3aa061a",
+          "tiled_sha256": "6e6573ba4eda97f7e4e61a39024a2651614f2c84413299b4d5fd3e20e40a8250",
+          "dimensions": [
+            128,
+            32
+          ],
+          "profile": {
+            "kind": "xbox-inline-bc-v1",
+            "format": 7
+          },
+          "channel_mode": "rgba",
+          "preserve_unchanged_blocks": true,
+          "alpha_encoding": "preserve-source",
+          "rgb_encoding": "weighted-fit-v1"
+        },
+        {
+          "object": "Style_Skill_Status_STR_normal",
+          "label": "style_stat_str",
+          "payload_sha256": "d23a277eaa672e80e03e85eddb376a74679f3754cfdc29475ead65817f332243",
+          "tiled_sha256": "c55491b716f2484b1fee4387feac1f06dd8ca1063635bf6f837a503e8d39f584",
+          "dimensions": [
+            128,
+            32
+          ],
+          "profile": {
+            "kind": "xbox-inline-bc-v1",
+            "format": 7
+          },
+          "channel_mode": "rgba",
+          "preserve_unchanged_blocks": true,
+          "alpha_encoding": "preserve-source",
+          "rgb_encoding": "weighted-fit-v1"
+        },
+        {
+          "object": "Style_Skill_Status_STR_normalcopy",
+          "label": "style_stat_strcopy",
+          "payload_sha256": "b1078f84bf4bb5634a9fb61aab7fd490defe10d731e61ef2933987c37c138983",
+          "tiled_sha256": "e14f9c653ecc46f17d3668c43e98e6b41974e4f82129bb5df8dd31512bd206aa",
+          "dimensions": [
+            128,
+            32
+          ],
+          "profile": {
+            "kind": "xbox-inline-bc-v1",
+            "format": 7
+          },
+          "channel_mode": "rgba",
+          "preserve_unchanged_blocks": true,
+          "alpha_encoding": "preserve-source",
+          "rgb_encoding": "weighted-fit-v1"
+        }
+      ]
+    }
+  ]
+}

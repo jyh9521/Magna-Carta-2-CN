@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "kind": "source-locked-video-caption-catalog",
+  "locale": "zh-Hans",
+  "entries": [
+    {
+      "id": "swapdisc01",
+      "source_member": "MC2Game/Movies/swapdisc01.bik",
+      "discs": [
+        1,
+        2
+      ],
+      "plan": {
+        "path": "locales/zh-Hans/video-captions/swapdisc-v35/swapdisc01.json",
+        "sha256": "20d2e9091dc420e88f73507e13de0cd96c97c9060084a90ba536b579d60601c5"
+      },
+      "proof": {
+        "path": "build/phase-365-swapdisc/swapdisc01/native-row-proof.json",
+        "sha256": "b5d547e2cdfbc3bd32853370602367187c25d58d934eaad401beab9fa5df2f34"
+      }
+    },
+    {
+      "id": "swapdisc02",
+      "source_member": "MC2Game/Movies/swapdisc02.bik",
+      "discs": [
+        1,
+        2
+      ],
+      "plan": {
+        "path": "locales/zh-Hans/video-captions/swapdisc-v35/swapdisc02.json",
+        "sha256": "8e66f1b2629ceb7378c2a2492e1e6a4c71e9846922aec1c0aff07130dfd8c902"
+      },
+      "proof": {
+        "path": "build/phase-365-swapdisc/swapdisc02/native-row-proof.json",
+        "sha256": "7cdd005ae7b7dc6a6adedbb2bd8bd978c77c131707e1d171f1cb04597910e984"
+      }
+    }
+  ]
+}

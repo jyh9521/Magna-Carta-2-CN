@@ -374,8 +374,8 @@ def overlay_profile_regions(texture,edit,layers,encoding_cache=None):
     rgb_encoding=edit.get('rgb_encoding')
     if 'rgb_encoding' in edit and (rgb_encoding!='weighted-fit-v1' or fmt!=7 or mode!='rgba'):
         raise FormatError('weighted RGB fit requires explicit BC3 RGBA')
-    if 'alpha_encoding' in edit and (alpha_encoding!='adaptive-range' or fmt!=7 or mode!='rgba' or not preserve):
-        raise FormatError('adaptive alpha requires restored BC3 RGBA with unchanged-block preservation')
+    if 'alpha_encoding' in edit and (alpha_encoding not in ('adaptive-range','preserve-source') or fmt!=7 or mode!='rgba' or not preserve):
+        raise FormatError('explicit alpha encoding requires restored BC3 RGBA with unchanged-block preservation')
     if 'protected_pixel_regions' in edit and (fmt!=7 or mode!='rgba' or not preserve):raise FormatError('pixel guard requires restored BC3 RGBA and unchanged-block preservation')
     before=decode_texture(texture)
     if fmt==5 and mode=='opaque-luma' and any(a!=255 for a in before[3::4]):raise FormatError('opaque BC1 source has transparent pixels')
@@ -397,6 +397,8 @@ def overlay_profile_regions(texture,edit,layers,encoding_cache=None):
                     or any(pixels[i*4+3]!=255 for i,v in enumerate(mask) if v)):
                 raise FormatError('opaque restoration requires opaque source crop and masked patch pixels')
         rgba=compose_restored_region(label,rgba,before,w)
+        if alpha_encoding=='preserve-source' and rgba[3::4]!=rgba_crop(before,w,label['rect'])[3::4]:
+            raise FormatError('preserve-source requires exactly unchanged source alpha')
         if mode=='opaque-luma':rgba=b''.join(bytes([a,a,a,255]) for a in rgba[3::4])
         elif mode=='opaque-rgb':rgba=b''.join(bytes([(r*a+127)//255,(g*a+127)//255,(b*a+127)//255,255]) for r,g,b,a in zip(rgba[::4],rgba[1::4],rgba[2::4],rgba[3::4]))
         resolved.append((label,rgba))
@@ -411,7 +413,7 @@ def overlay_profile_regions(texture,edit,layers,encoding_cache=None):
     tiles=texture['tiles'];patched=tiles;proofs=[];preserved=0
     for label,rgba in resolved:
         patched,proof=overlay_rect(patched,layout,label['rect'],rgba,encoding_cache,
-                                   alpha_encoding=alpha_encoding,rgb_encoding=rgb_encoding)
+                                   alpha_encoding=None if alpha_encoding=='preserve-source' else alpha_encoding,rgb_encoding=rgb_encoding)
         if preserve:
             # Decoded equality is checked before compression. Retain the exact
             # original BC bytes instead of re-quantizing untouched artwork.
@@ -425,11 +427,22 @@ def overlay_profile_regions(texture,edit,layers,encoding_cache=None):
             patched=bytes(out);preserved+=kept
             proof=dict(proof,changed_blocks=sum(tiles[o:o+layout['unit_bytes']]!=patched[o:o+layout['unit_bytes']] for o in units),unchanged_region_blocks_preserved=kept)
         proofs.append(proof)
+    if alpha_encoding=='preserve-source':
+        # RGB-only text repairs keep the original compressed alpha endpoints and
+        # indices, including mixed-opacity cap cells. Re-encoding equal decoded
+        # alpha can otherwise change the silhouette by a quantization step.
+        out=bytearray(patched)
+        for o in allowed:out[o:o+8]=tiles[o:o+8]
+        patched=bytes(out)
+        proofs=[dict(proof,changed_blocks=sum(tiles[o:o+layout['unit_bytes']]!=patched[o:o+layout['unit_bytes']] for o in rect_units(layout,label['rect']))) for (label,_),proof in zip(resolved,proofs)]
     pixel_checks=None
     if 'protected_pixel_regions' in edit:
         from .bc_palette_guard import apply_pixel_guards
         patched,pixel_checks=apply_pixel_guards(texture,before,patched,resolved,edit['protected_pixel_regions'])
         proofs=[dict(proof,changed_blocks=sum(tiles[o:o+layout['unit_bytes']]!=patched[o:o+layout['unit_bytes']] for o in rect_units(layout,label['rect']))) for (label,_),proof in zip(resolved,proofs)]
+    if alpha_encoding=='preserve-source' and (any(tiles[o:o+8]!=patched[o:o+8] for o in range(0,len(tiles),16))
+            or decode_texture(texture,patched)[3::4]!=before[3::4]):
+        raise FormatError('preserve-source alpha block/readback mismatch')
     bs=layout['unit_bytes'];changed={i for i in range(0,len(tiles),bs) if tiles[i:i+bs]!=patched[i:i+bs]}
     if not changed<=allowed:raise FormatError('composite edit escaped authorized region union')
     result=dict(regions=proofs,changed_blocks=len(changed),authorized_blocks=len(allowed),
@@ -438,6 +451,7 @@ def overlay_profile_regions(texture,edit,layers,encoding_cache=None):
     if mode=='opaque-rgb':result.update(rgb_matte=[0,0,0],source_transparent_pixels=sum(a==0 for a in before[3::4]),opaque_alpha_inside_authorized_regions=True)
     if preserve:result['unchanged_region_blocks_preserved']=preserved
     if alpha_encoding is not None:result['alpha_encoding']=alpha_encoding
+    if alpha_encoding=='preserve-source':result['source_alpha_blocks_preserved']=True
     if rgb_encoding is not None:result['rgb_encoding']=rgb_encoding
     if pixel_checks is not None:result['protected_pixel_regions']=pixel_checks
     if protected:

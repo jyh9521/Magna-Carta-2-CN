@@ -1752,3 +1752,39 @@ Verified：本次原生FontCharacter同时包含tagged与native StartU/USize副�
 保留各段 `is_enabled`，可按明确地址额外启用整段。一个guarded write可能展开为多个word；
 起始地址相等不足以证明分组相等。刷新只写新的独立文件，部署是另一个显式事务。
 参见[阶段359](PHASE_359_XENIA_PATCH_METADATA.md)。
+
+## 单次修复的多色电影字层与原Alpha保留（阶段365，工具格式）
+
+电影caption可使用`parts`，其语法复用`texture_overlay.render_parts`：1–8个有界run，
+每个具有`text/rect/font_size`和显式字形风格，所有`text`连接必须等于caption的完整`text`。
+该格式与caption顶层`appearance/font_size/style`互斥。所有run先合成一张透明字层，
+然后只执行一次稀疏背景修复；不能通过连续重擦同一mask去覆盖前一个有色run。
+证明字段为`render_method="owned-text-parts-v1"`、字层RGBA摘要、原生canvas及run数据。
+
+BC3 profile可显式选择`alpha_encoding="preserve-source"`，仅适用于`format=7`、
+`channel_mode="rgba"`、`preserve_unchanged_blocks=true`的原生恢复路径。
+合成区域Alpha必须与原生源逐字节相同，否则拒绝；RGB编码后复制原始BC3 Alpha8字节，
+再次核对全纹理Alpha块及解码Alpha。旧默认／`adaptive-range`行为不变。
+字体、颜色、术语、run几何与资源摘要仍属于locale数据，不固化进通用工具。
+
+## UE3 Actor空class-state前缀（阶段365，只读有界profile）
+
+本轮对`MC2FieldLevelNameVolume`独立实现研究读取器，没有修改共享UI／属性解析器。
+先由包summary严格验证**大端UE3 version446、licensee25**，再检查对象flags的LO
+`0x02000000`（HasStack）；CDO与无HasStack对象不能盲跳相同字节数。
+
+该版本的FStateFrame顺序为：Node对象引用i32、StateNode对象引用i32、ProbeMask u64、
+LatentAction u32、StateStack数量i32；本次仅接受Node＝StateNode＝实际class引用、
+引用均在表内、ProbeMask全1、空StateStack。Node非零时随后读取code offset i32，
+本profile只接受-1。这样**解析得到28字节**，之后才读NetIndex i32和tagged properties；
+不是对未知Actor直接seek28／32。LatentAction是保留的未解释u32，实际值不止一种，
+不得把`0x80000000`硬当唯一合法哨兵。非空栈、其他state、越界引用、截断、版本／端序
+变化均明确拒绝，不搜索“看起来像属性”的起点。
+
+布局参考EliotVU/Unreal-Library固定提交`8236c39b79e30887a487ecf9b018204e430a5ebc`的
+[UStateFrame.cs](https://github.com/EliotVU/Unreal-Library/blob/8236c39b79e30887a487ecf9b018204e430a5ebc/src/Core/UStateFrame.cs)
+与[版本枚举](https://github.com/EliotVU/Unreal-Library/blob/8236c39b79e30887a487ecf9b018204e430a5ebc/src/Branch/PackageObjectLegacyVersion.cs)：
+StateStack自189引入，LatentAction到566才缩为u16，ProbeMask到691才缩为u32。
+读取器为独立实现；本地保留上游文件SHA和实际源对象前缀、字段范围。5项合成guard测试
+与双盘152个真实volume实例支持此有限profile，不推广为完整运行时状态／所有Actor支持。
+实际纹理／字符串消费者及证据边界见[过场后标题路线](PHASE_365_POSTCUTSCENE_TITLE_ROUTE.md)。

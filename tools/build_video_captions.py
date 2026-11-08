@@ -146,6 +146,11 @@ def load_plan(path, expected):
 
 def render_caption_layer(caption,font,canvas):
     """Choose one explicit renderer; never silently mix legacy/new style data."""
+    if 'parts' in caption:
+        from .video_title_caption import render_title_parts
+        if any(key in caption for key in ('appearance', 'font_size', 'style')):
+            raise ValueError('Caption parts must replace its single-run style')
+        return render_title_parts(font, caption['text'], canvas, caption['parts'])
     if 'appearance' in caption or 'font_size' in caption:
         from .video_title_caption import render_title_layer
         if ('appearance' not in caption or 'font_size' not in caption or 'style' in caption

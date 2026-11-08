@@ -5,6 +5,31 @@ import hashlib
 import copy
 
 
+def render_title_parts(font_bytes, text, canvas, parts):
+    """Reuse independently styled owned text runs before a single restoration.
+
+    This is the same bounded parts format used by texture labels. It permits
+    native emphasis colours without erasing or repainting an earlier run.
+    """
+    from PIL import Image
+    from .texture_overlay import render_parts
+    if (not isinstance(canvas, (tuple, list)) or len(canvas) != 2
+            or any(type(value) is not int for value in canvas)
+            or not 1 <= canvas[0] <= 1920 or not 1 <= canvas[1] <= 1080
+            or not isinstance(font_bytes, bytes) or not 0 < len(font_bytes) <= 40*1024*1024):
+        raise ValueError('Title layer font/canvas bound')
+    label = dict(id='explicit-video-title-parts', text=text, rect=[0, 0, *canvas],
+                 parts=copy.deepcopy(parts))
+    rgba = render_parts(font_bytes, label)
+    image = Image.frombytes('RGBA', tuple(canvas), rgba)
+    if image.getbbox() is None:
+        raise ValueError('Title layer has no visible glyphs')
+    return image, dict(render_method='owned-text-parts-v1', canvas=list(canvas),
+                      font_sha256=hashlib.sha256(font_bytes).hexdigest(),
+                      rgba_sha256=hashlib.sha256(rgba).hexdigest(),
+                      alpha_bbox=list(image.getbbox()), parts=copy.deepcopy(parts))
+
+
 def render_title_layer(font_bytes, text, canvas, *, font_size, appearance):
     """Reuse the native-ink/tracking renderer without touching any background.
 

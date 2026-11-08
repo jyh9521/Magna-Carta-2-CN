@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "project": "Unreal-Library",
+  "author": "Eliot van Uytfanghe",
+  "repository": "https://github.com/EliotVU/Unreal-Library",
+  "commit": "8236c39b79e30887a487ecf9b018204e430a5ebc",
+  "license": "MIT",
+  "reuse": "format research only; independently implemented read-only UE3 446/25 empty Actor state-frame profile; no upstream runtime/source integrated",
+  "files": [
+    {
+      "path": "src/Core/UStateFrame.cs",
+      "url": "https://raw.githubusercontent.com/EliotVU/Unreal-Library/8236c39b79e30887a487ecf9b018204e430a5ebc/src/Core/UStateFrame.cs",
+      "sha256": "f0b85e401e30e34fa535561ada7fdefd87474971584cdfed1d53fda25ddd8bbe"
+    },
+    {
+      "path": "src/Branch/PackageObjectLegacyVersion.cs",
+      "url": "https://raw.githubusercontent.com/EliotVU/Unreal-Library/8236c39b79e30887a487ecf9b018204e430a5ebc/src/Branch/PackageObjectLegacyVersion.cs",
+      "sha256": "b2d2a17e092f34ad5019704840d52abfaf477eaa57a98b7f3e187f9ec489f6f4"
+    }
+  ],
+  "independent_verification": "152 real source/current volume instances; five synthetic guard tests; unsupported states rejected",
+  "related_locks": [
+    "references/ui-style-research.lock.json",
+    "references/function-metadata-research.lock.json"
+  ]
+}

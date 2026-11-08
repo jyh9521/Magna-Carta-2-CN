@@ -1727,3 +1727,22 @@ Verified：中文名称／说明／注释刷新没有改变Title ID、模块hash
 后处理代理构建从原分支变为空链出口。用户反馈60帧有效与离线结果分开记录。
 光照项是上游tiled MSAA异常的兼容性workaround，后处理仍为独立实验，像素效果未验。
 工具保留各语言数据与机器字段的边界，详情见[阶段359](docs/PHASE_359_XENIA_PATCH_METADATA.md)。
+
+## 原生背景运输、压缩Alpha与过场标题消费者（阶段365）
+
+Verified：两段换碟提示的原生文字高度区间中，左右两个相隔的55像素宽供体带，
+全部60个源帧的每行RGB均完全相同。`row_background.restore_rows`只向明确旧字／阴影
+稀疏mask运输该行原生像素，不绘制矩形底板，不模糊边框。未被旧字遮住的水平恒定性
+已经验证；被遮住区域的渐变延续仍是明确的重建推断，不称为恢复了不可见原图。
+
+Verified：BC3解码Alpha相同，重新量化的Alpha块仍可能产生边缘漂移。
+属性芯片的`alpha_encoding="preserve-source"`仅接受合成前后Alpha逐字节相同的区域，
+保留原始每块8字节Alpha端点／索引，再核对完整压缩Alpha和原生回读。
+该模式不改RGB拟合方法；新字涉及的4×4块内RGB存在量化误差，不能声称这些块内所有
+非字像素都与原图相同。稀疏合成前的非授权像素、压缩后的非授权BC块分别严格保护。
+
+Verified：剧情结束标题存在实际`FinishCSMB → ActivateRemoteEvent → OpenEntranceTitle`
+连线，并由HUD将Texture2D写入材质`TitleTexture`参数。这不同于WorldMap Bink，也不同于
+此前排除的声音键`GetChapterStr`或定格画面`SubTitle`。绑定与当前别名逐图验证见
+[独立消费者调查](docs/PHASE_365_POSTCUTSCENE_TITLE_ROUTE.md)。
+用户所指独立大章节卡是否属于这条显示路线仍未证实，不以入口标题已中文替代该项验收。

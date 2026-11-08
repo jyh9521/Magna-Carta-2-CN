@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "kind": "locked-resource-source-subset",
+  "resources": [
+    {
+      "resource": "MC2Game/Movies/swapdisc01.bik",
+      "destination": "build/phase-365-swapdisc/original/swapdisc01.bik",
+      "discs": [1, 2],
+      "expected_sha256": "9423f6e7e7161b19fa7d3061cce50eea976a99cdaeb0405619a720d30e41709c"
+    },
+    {
+      "resource": "MC2Game/Movies/swapdisc02.bik",
+      "destination": "build/phase-365-swapdisc/original/swapdisc02.bik",
+      "discs": [1, 2],
+      "expected_sha256": "46d01abba11aa1a12027b42ba09444f7f9b2c0bc60764f2e05d291e09816e800"
+    }
+  ]
+}

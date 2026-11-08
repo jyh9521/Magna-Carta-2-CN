@@ -1,0 +1,3447 @@
+{
+  "schema_version": 1,
+  "kind": "bink-audio-caption-plan",
+  "locale": "zh-Hans",
+  "game_rendering_verified": false,
+  "source_font_identity_recovered": false,
+  "style_basis": "Per-clip native measured visible ink/baseline geometry, left-anchored serif destination title, and source-normalized map-specific foreground gradient. Finite-guarded temporal RGB propagation copied only inside measured old glyph+outline support. Native compass/point/all unowned RGB source-exact before encoding. No flat fill, width stretch or covering bar; hidden RGB remains reviewed reconstruction rather than recovered original art.",
+  "rasterizer_versions": {
+    "Pillow": "12.2.0",
+    "numpy": "2.5.1",
+    "fontTools": "4.63.0"
+  },
+  "fonts": {
+    "caption": {
+      "path": "build/font-source/NotoSerifCJKsc-SemiBold.otf",
+      "sha256": "d627b53dbcde61e07de1498d2623a8b287f78585ffbc90cc0618d0caaa2ed6b0"
+    }
+  },
+  "entries": [
+    {
+      "id": "worldmapmovie_11_lastrada",
+      "source": {
+        "file": "worldmapmovie_11_lastrada.bik",
+        "member": "MC2Game/Movies/worldmapmovie_11_lastrada.bik",
+        "size": 26626076,
+        "sha256": "a2ef4f4ee667a23e08f1b3284d0e0365c7a12b35c13bf7c38bedf2a0dfb66dd8",
+        "first_rgb_sha256": "2f9adf38aa5cc39c3f6a861dfc801dbf332f94154fa0414a78c2906f1976ee3a",
+        "discs": [
+          2
+        ]
+      },
+      "expected_header": {
+        "width": 1280,
+        "height": 720,
+        "frames": 360,
+        "numerator": 10000000,
+        "denominator": 333333,
+        "magic": "BIKi",
+        "audio_tracks": 6
+      },
+      "maximum_frames": 600,
+      "maximum_encoded_bytes": 134217728,
+      "encoder_timeout_seconds": 600,
+      "source_text": "라 스트라다",
+      "translation_basis": "Exact baked destination name; reuses the adopted project place-name. Native em size/advance is retained; natural target string length is not width-stretched. Not the independently unresolved postplot chapter-title route.",
+      "scratch_reserve_bytes": 8589934592,
+      "minimum_start_free_bytes": 17179869184,
+      "encoder_guard_frames": 1,
+      "review_frames": [
+        0,
+        1,
+        2,
+        39,
+        40,
+        41,
+        79,
+        80,
+        81,
+        119,
+        120,
+        121,
+        159,
+        160,
+        161,
+        179,
+        180,
+        181,
+        239,
+        240,
+        241,
+        269,
+        270,
+        271,
+        319,
+        320,
+        321,
+        357,
+        358,
+        359
+      ],
+      "captions": [
+        {
+          "role": "worldmap-destination-title",
+          "text": "拉·斯特拉达",
+          "font": "caption",
+          "font_size": 32,
+          "appearance": {
+            "kind": "source-style-v1",
+            "ink_box": [
+              256,
+              347,
+              300,
+              32
+            ],
+            "align": "left",
+            "gradient": [
+              [
+                0,
+                [
+                  249,
+                  249,
+                  249,
+                  255
+                ]
+              ],
+              [
+                260,
+                [
+                  250,
+                  250,
+                  250,
+                  255
+                ]
+              ],
+              [
+                450,
+                [
+                  208,
+                  246,
+                  228,
+                  255
+                ]
+              ],
+              [
+                650,
+                [
+                  138,
+                  240,
+                  185,
+                  255
+                ]
+              ],
+              [
+                800,
+                [
+                  121,
+                  228,
+                  195,
+                  255
+                ]
+              ],
+              [
+                1000,
+                [
+                  148,
+                  212,
+                  220,
+                  255
+                ]
+              ]
+            ],
+            "outline": [
+              0,
+              0,
+              0,
+              235
+            ],
+            "outline_width": 1,
+            "glow": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "glow_radius": 0,
+            "shadow": [
+              0,
+              0,
+              0,
+              180
+            ],
+            "shadow_offset": [
+              1,
+              2
+            ],
+            "shadow_radius": 0.8,
+            "italic": 0,
+            "tracking": 1,
+            "weight": 0,
+            "motion": 0
+          },
+          "frame_alpha": [
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255
+          ],
+          "erase": {
+            "rect": [
+              248,
+              336,
+              300,
+              56
+            ],
+            "mask_asset": {
+              "path": "locales/zh-Hans/video-repairs/worldmap-v35/masks/worldmapmovie_11_lastrada.png",
+              "sha256": "58cc3d0292609176af2dbc2e15325611e6cf160c213fa46d4f1a3431d6c51dc4",
+              "pixels_sha256": "aae5d150eacb7fa0330acfb3e91790c3b378e35add76adc9d449fc43fc28c771",
+              "pixels": 5697
+            },
+            "frame_repairs": {
+              "method": "sparse-frame-rgba-v1",
+              "records": [
+                {
+                  "index": 0,
+                  "source_crop_sha256": "934b7ab87e310272c069e84c401a1fed318bbf3ed3d6a41d903498dc9b64c487",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0000.png",
+                    "sha256": "2bdc9041a10007c8c168949505f9960d284c04c1162a6ace1be286cdeda221b5"
+                  }
+                },
+                {
+                  "index": 1,
+                  "source_crop_sha256": "9712662a36f03f6b7a7408e58d177b4ebb7126358520f0d19a4853a43124ce7a",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0001.png",
+                    "sha256": "65eb275c95499a0f9178f1fbc46456d68c7d14354a6c0050cb67e3eedaff915d"
+                  }
+                },
+                {
+                  "index": 2,
+                  "source_crop_sha256": "2835960772e0c74cd60c04bd1dd7844971e08823a1ce406c4a3b6aa13d3d4780",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0002.png",
+                    "sha256": "5e1167f5b2572ed238907b092428bfecb1ceeaed3a066681617a1ef6b554ac43"
+                  }
+                },
+                {
+                  "index": 3,
+                  "source_crop_sha256": "6e4534889f7687dcb7ce03d706b709f948e8de74841a35ac5f9a9d640c6f529d",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0003.png",
+                    "sha256": "3bf3f7fbfce8232cccc8eeef00663c4086b15f0f7e26f7d8593a3d228214fa1b"
+                  }
+                },
+                {
+                  "index": 4,
+                  "source_crop_sha256": "62c6565e519ad7f51ffd6b6f3fb35f27bdb7a2341a5d9153f6426ceab1cc49fb",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0004.png",
+                    "sha256": "978059d272b4bd99cb63e0fbbee276737c7df384942b292dd0660728310db876"
+                  }
+                },
+                {
+                  "index": 5,
+                  "source_crop_sha256": "8f2451f7ba1d872fd629a591dea314cebbab4e670aec2e0b6bff42558d71ce3b",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0005.png",
+                    "sha256": "945de4d1cab3c2a0c703ab01880effd00aac8d100ca6ac5a555ed84e6fc1d405"
+                  }
+                },
+                {
+                  "index": 6,
+                  "source_crop_sha256": "4776ce4fc719c712d1bb976113bd773f5829a2de6ec9ffc4fd9208a80852f1ca",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0006.png",
+                    "sha256": "260e9407b9b05e0b66b13e181991be284a42c379b65c11ee85a75b79c4c8632f"
+                  }
+                },
+                {
+                  "index": 7,
+                  "source_crop_sha256": "3380e1809ff8cdc8e9cb4551517aa345aac8659e2c5c6162f3591cf25f47e8e5",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0007.png",
+                    "sha256": "cf94668a1514f46a42adee1b5131e24c1ee998fc6ba04a22a34519ab1da866bd"
+                  }
+                },
+                {
+                  "index": 8,
+                  "source_crop_sha256": "64d6b12db3595d8a22b168b0a6250fb39f27c80aa72f3722ca1f9d81c0569a28",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0008.png",
+                    "sha256": "39acfc3c5ebd32abf989f0b90e0e86b592c53e07466ce49ee78898a49f9176f9"
+                  }
+                },
+                {
+                  "index": 9,
+                  "source_crop_sha256": "f4ee30d395dc1009be603cb4ab0dfbe2edc0a06c90b88b60dd3fae0d4c3b1ed0",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0009.png",
+                    "sha256": "604fe4d813268b144abdde2b80cdab1af2f3e380b0bf9a66bad7e656c631c926"
+                  }
+                },
+                {
+                  "index": 10,
+                  "source_crop_sha256": "449e165f71157efc1464a23abec6562e5ecab4802732e3c3a96c3c4d55ede01f",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0010.png",
+                    "sha256": "e0a619171ec67647dcccc3f7a03b0f9f923a3b5fd3f7ab8ed3480097ef763afb"
+                  }
+                },
+                {
+                  "index": 11,
+                  "source_crop_sha256": "e5f0862ef233783d3e1f629b5ff3ee840e9c44e6435f64490ccca6b23943f8f6",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0011.png",
+                    "sha256": "6344d35f82173922270e3a374c6598a4412d50f19042e9e9179933404e5b126d"
+                  }
+                },
+                {
+                  "index": 12,
+                  "source_crop_sha256": "9f9a83b1058e53a5eff78936cb1942674faec519edd98321c647077426a951ea",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0012.png",
+                    "sha256": "3fccfd5a2975ac2655140fa92ffef3ca03ed9b016947e8bb40813b145f34d030"
+                  }
+                },
+                {
+                  "index": 13,
+                  "source_crop_sha256": "041469a525b1ccf1df08184cb4e5442d75bebceb5fdd49940388b2c812cac6cf",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0013.png",
+                    "sha256": "44026ff64e27de37595ca9e41366e18d048fd82aca049b49a6eedc0a06672a67"
+                  }
+                },
+                {
+                  "index": 14,
+                  "source_crop_sha256": "aa7e7dde031c6c70b44b8d249dad3113fc108eb30afe9a57578e437c62700ef5",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0014.png",
+                    "sha256": "ebabbe4b14df2954e3d98f6d2cd05ed3aed48d4f3e492edfc678865a90e20883"
+                  }
+                },
+                {
+                  "index": 15,
+                  "source_crop_sha256": "10476f8d25f81828d60b204a290ec3963a6b3903942b7ac9eb934e2d3ec14025",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0015.png",
+                    "sha256": "00fa7a67e1f2c47a2ec80fe41b607edd7af7549011274e79b25facbea9edfb79"
+                  }
+                },
+                {
+                  "index": 16,
+                  "source_crop_sha256": "1697566fbc3ee773454210cb6e761de5e0608ab073d041d8f032509f5fc89f2c",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0016.png",
+                    "sha256": "6709c2be9279d1b5c999a0370e53f1d15ac80e81e0a5829d3f29113401989dd4"
+                  }
+                },
+                {
+                  "index": 17,
+                  "source_crop_sha256": "eac4511314f8bfee16d721ae7da0e511495afde758dd3e03f1d66907bdc67db7",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0017.png",
+                    "sha256": "4e5c07f6ceeb3382305095c57f9e6925fe2d239bffba9eaec5bdff3ab9aa05d5"
+                  }
+                },
+                {
+                  "index": 18,
+                  "source_crop_sha256": "b62ddc3fbfe7a7415d27d6008ed55ad61f55e56f40a4d247520fca694dd5562b",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0018.png",
+                    "sha256": "854c1ed5126e1ddddcbb85f68ce6cd8fa8f434ab417a026e8d136cf1a81ac66c"
+                  }
+                },
+                {
+                  "index": 19,
+                  "source_crop_sha256": "e53073ab883639e9f1bc462ab13ebb5446b11ab3b7320a3d2c0597067ad8f6cc",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0019.png",
+                    "sha256": "0e148d238cf46a305527a41b5485c1d105438173b319b4ebb3b7c21961ee10aa"
+                  }
+                },
+                {
+                  "index": 20,
+                  "source_crop_sha256": "bc26a64e9f26902edd98c720b6ec845e1aee939e917bd3b17487bf868ae3ad11",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0020.png",
+                    "sha256": "282eeee9a085087c9dd10eab63026328c2f924a82c94e9241cb2b4082fea6de2"
+                  }
+                },
+                {
+                  "index": 21,
+                  "source_crop_sha256": "b2085fb8e0cac7dbee1e8576bfdabd22674abfd655b4b474cc9ca95ea1240c08",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0021.png",
+                    "sha256": "2130932c60531c05bef64b986e80f226ce5e5f9ba87728d3b98389f094260efd"
+                  }
+                },
+                {
+                  "index": 22,
+                  "source_crop_sha256": "f922626145a423e6eb6a18aaef72067adb3a1af4e501d4ed6d6dfbe234212520",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0022.png",
+                    "sha256": "229f3c5344f2da46efcd5e0b17144916c5dc53f577a0caea350385cc31301928"
+                  }
+                },
+                {
+                  "index": 23,
+                  "source_crop_sha256": "2c9a078633f2b7e3abc9b751d84719401011352e1e4a0277065365bd71a23999",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0023.png",
+                    "sha256": "4012bc1c151c17193abe500120effe0dff9ef4b95425bcc8fc2e87d023bc4095"
+                  }
+                },
+                {
+                  "index": 24,
+                  "source_crop_sha256": "d3026d8f01e6f26a4b9f78c8dd5dc60daa19105b3a6ac1e8fc1322abc46718fa",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0024.png",
+                    "sha256": "fd58424f34397572c872054a664797686759a7c1a60853776ac7b4eafa1200c9"
+                  }
+                },
+                {
+                  "index": 25,
+                  "source_crop_sha256": "72aa5c297acf86ec06677bd4fb0aee26954b25e0c5b67d36c2d1771fd4b5db1e",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0025.png",
+                    "sha256": "9b195e3cc8654f7186fee1dc5883915e7bb7214fe2e8d38650786d09b89b1352"
+                  }
+                },
+                {
+                  "index": 26,
+                  "source_crop_sha256": "506c46b772511d49aa823a0a8044a641c1ae3205a9df68239c4d3b5b599bef34",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0026.png",
+                    "sha256": "d7c5d7d51d787bc1dde89c0dd9ea57a92bb4048f45fc04cebf839bede273a766"
+                  }
+                },
+                {
+                  "index": 27,
+                  "source_crop_sha256": "6a67714e62a17d7e0e0d2b815280a8d63ae8f596c285655979f5a2b441fe35d8",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0027.png",
+                    "sha256": "fc7f95c9e1f07dcf59f44ad7e5d9d131f0399ab1775280b97aec9674992c2c7e"
+                  }
+                },
+                {
+                  "index": 28,
+                  "source_crop_sha256": "44a9245d8372c2b5c3084b4725009f42b41cdac192018f7cd0ffe971515bf564",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0028.png",
+                    "sha256": "0b132ae290d8fb7d951a89061a7436f7ed3df6cebbc967cfb83911c005ad31cd"
+                  }
+                },
+                {
+                  "index": 29,
+                  "source_crop_sha256": "3e551c88b73f752ba9afd5a1d08b513f2294495a20d1763e6d7bbf3d0fd2e82b",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0029.png",
+                    "sha256": "8ceb4cb4d1fa6181ad4a930a52e0914a49ecce3ca2ebf0f49172919af09025ba"
+                  }
+                },
+                {
+                  "index": 30,
+                  "source_crop_sha256": "4bf0bb0424dd5c07347957339d87308d9bbaf279c6cd15e93512393711f6a24b",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0030.png",
+                    "sha256": "197b77aaff834684fc45ac5437fa093ea6a69d160e83ac43aeb906b1baee4494"
+                  }
+                },
+                {
+                  "index": 31,
+                  "source_crop_sha256": "46000aae33a4c430d2c99291a8139548a299d7c328a129da15178b10e2528b8e",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0031.png",
+                    "sha256": "75d202432be0f0fd9c2bff336e9ad941a2a3f7704a63280976a4d5d35920c9fe"
+                  }
+                },
+                {
+                  "index": 32,
+                  "source_crop_sha256": "a23b4a34af0a1aae787d30d7c87d3b368e2085b8ce676a3e2120eaf507aaa5cf",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0032.png",
+                    "sha256": "cce2a15978e3a112f7479f55b8f452cd39404604d5c77c33970a2d8ccf634960"
+                  }
+                },
+                {
+                  "index": 33,
+                  "source_crop_sha256": "98e9ef9487daba6e128fb9381410678653ad0833ed07fd1deb3cf410d8cd8f57",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0033.png",
+                    "sha256": "097d98ba46f30bbe2267d2c98906cf8bf7d32872a2ca21e98cc8c569e4c2c290"
+                  }
+                },
+                {
+                  "index": 34,
+                  "source_crop_sha256": "6b175e8c64722875c0f592a1bed9bb315ab06bcacad77d4a04610f4f0ea24e67",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0034.png",
+                    "sha256": "1063169c523f02c36d800b797e102e191b746ef6a9695016d2a0668b69385ddf"
+                  }
+                },
+                {
+                  "index": 35,
+                  "source_crop_sha256": "2574832f932af753fe0eeff6d6aeda1c0ec9bd396c7f2049d22797bd584aed3a",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0035.png",
+                    "sha256": "590912ccbaff98ba6fdd8dba34e733fb59013db783dc36e1d48e0084298f05c4"
+                  }
+                },
+                {
+                  "index": 36,
+                  "source_crop_sha256": "2fdd509e8293d6ba2015f7be8c9521fda283097cce75efc2b075eda5448666e7",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0036.png",
+                    "sha256": "5900a76368aeb092cd112c12ef3fcd1457688ebf24a71eeb753b7c1bd1c53b0c"
+                  }
+                },
+                {
+                  "index": 37,
+                  "source_crop_sha256": "d675e3cf15f5ab2a0265bfd13a6045fe0a398142316d1212efd35507b2413eff",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0037.png",
+                    "sha256": "a570293bcf21fa0df616a8e639c44ad08ebe8fd1d95e54638d9a9ab5dd13f7cb"
+                  }
+                },
+                {
+                  "index": 38,
+                  "source_crop_sha256": "77dc425a65f7ea884cc92373ad7985a7737a68fe875175974cb550a5e565b0f3",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0038.png",
+                    "sha256": "f9dd41e167c41be04ffbbf034dc794659bb2a4b32fb83cade17557a7e1a3d2ef"
+                  }
+                },
+                {
+                  "index": 39,
+                  "source_crop_sha256": "d9beaebf1b6ef181a7355ae3f03c5ad53970020c2c051b72da652a421683f2db",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0039.png",
+                    "sha256": "dedd803952d4f21526a9be440738e61133dad79afd4ce00afd16ce0c2c482a13"
+                  }
+                },
+                {
+                  "index": 40,
+                  "source_crop_sha256": "533d5bea0fb993a5ded3891fc85adb532ac01db36ddc055cc3616db4a727effe",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0040.png",
+                    "sha256": "2e8eadfa46b3907d91d971860e7ed44b453c3a7178beec5350cb84a1becdb394"
+                  }
+                },
+                {
+                  "index": 41,
+                  "source_crop_sha256": "3bbd9e5c4f2d2c6c76d74a5b7abda7edc0d9e50bff50a62bb2c56b201de3c679",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0041.png",
+                    "sha256": "6aaaba94881a57d0ba044591cb51936c81f615b5fafa41056430ea041ecf426d"
+                  }
+                },
+                {
+                  "index": 42,
+                  "source_crop_sha256": "1c0b97dc6a1b3fd11e1fea541d3749f206cb311185c3fcd20d412f63ef203109",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0042.png",
+                    "sha256": "6809d0f39048e84230606dc37356833f3f35c65160da0425114f4696bbbbf415"
+                  }
+                },
+                {
+                  "index": 43,
+                  "source_crop_sha256": "f674d66f3673ff7c1f6c3b5ffad513104646710e70a8648437e48fac23c93125",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0043.png",
+                    "sha256": "0abf288ab66036510763f2f720ff4a5772e6bdea39913b61e231a85ec7c940c1"
+                  }
+                },
+                {
+                  "index": 44,
+                  "source_crop_sha256": "7bed759bdb11da61e43ef211bfe4f9fe96776e859ba1ec3f74e5eaeeb0ea6693",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0044.png",
+                    "sha256": "50aae6fcec62602bba70cfa0de644953ad391099cca8d13fc3ce79566badb8ca"
+                  }
+                },
+                {
+                  "index": 45,
+                  "source_crop_sha256": "43c158e8e072825015a37e97a038de29e8673b6dcd82cfcade8d02e892609c2b",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0045.png",
+                    "sha256": "64bee7ab8cb301d5c9e2913dadae8ffcf2bd076ecd3d0ed8100db8210554c785"
+                  }
+                },
+                {
+                  "index": 46,
+                  "source_crop_sha256": "8ca177b992410634416e8d8d21f76f84dcde1b1791fee88110024edf64a41a1b",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0046.png",
+                    "sha256": "45785bedda3be730569eec2a2d1f77ba37189ba90462c07365796d64f077764d"
+                  }
+                },
+                {
+                  "index": 47,
+                  "source_crop_sha256": "dfe8b593bf0875d5d1d083442bd782fb731af4d9a4d24d191b24ac89fee73854",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0047.png",
+                    "sha256": "4c5c415e412b668052687880f5a6a1925d08c14154bc66c2985e79ee5ef8cfd7"
+                  }
+                },
+                {
+                  "index": 48,
+                  "source_crop_sha256": "55141bea57400c9420ace150bf0842c8ed1a86e1c1c93c4ee7019551c7f036af",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0048.png",
+                    "sha256": "c175aaf4090e3130734ef767dc40cee0cccd53db64dc8325da1e865bd972e2b9"
+                  }
+                },
+                {
+                  "index": 49,
+                  "source_crop_sha256": "102ed09c61b88a2274df1211a8c9d00f5c50c739dbaba701672f1d3f5d10c14d",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0049.png",
+                    "sha256": "cc5e1d74348de42c71871fc629194975ef37a08ee48c56ee9e04049e045c2b08"
+                  }
+                },
+                {
+                  "index": 50,
+                  "source_crop_sha256": "88b88660c8834dcf4da9c7fa70194e19ae36fa468e28127a25ae61c2d24e9109",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0050.png",
+                    "sha256": "de2c56309a34d9c0430e162dd8b4dbf69490d4d6ecaf09896a5da24647c52747"
+                  }
+                },
+                {
+                  "index": 51,
+                  "source_crop_sha256": "dfe7ab577d9fb667b8c95a1dfedc21faf7646b5633c09335190e135132fa0f90",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0051.png",
+                    "sha256": "c336354111fa744b7896fc0c356dd29a5db7bfd1f7418630e241b0576e7e1824"
+                  }
+                },
+                {
+                  "index": 52,
+                  "source_crop_sha256": "2c592e45ffb98779fa2f749d622c4787d149b3f90c32edf026790781266f992e",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0052.png",
+                    "sha256": "97def3d77ebc7a95ec0b1dff15bdd2b7def54a5d8e493a5512919f0da86dacb1"
+                  }
+                },
+                {
+                  "index": 53,
+                  "source_crop_sha256": "80ea43b02537608232f36bda47b917f46b15c3aca552405658b59583f10c3ffa",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0053.png",
+                    "sha256": "57b30afd3391754ae3dd59700a6696d08f6f8aa623ae80635d7f95decd83a9cf"
+                  }
+                },
+                {
+                  "index": 54,
+                  "source_crop_sha256": "da30fd66621a3c068e22810483e8c6f996a7247e777ac0fa7a8d3056ab7c9320",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0054.png",
+                    "sha256": "6e03ff88fde5d1fc281c53cad216eb1502c26699552e31f9c7404fd52f5765ad"
+                  }
+                },
+                {
+                  "index": 55,
+                  "source_crop_sha256": "47e056fb0d08d199a1a7d9b51d93a9b2bbb686942e069cdd067fb0a29a6fb27c",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0055.png",
+                    "sha256": "8cd11bc4be9fa3add8347418a24ff39a8d813539680da1c2caea1b5288f9a3d5"
+                  }
+                },
+                {
+                  "index": 56,
+                  "source_crop_sha256": "ce94cb3e9a70e471a2dc293c172cfae74f8904e5794f91b168942de53d9ccb3a",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0056.png",
+                    "sha256": "153d805f0895e27dc7b9acaa26431a1d47faecd027714703e5840341905339fc"
+                  }
+                },
+                {
+                  "index": 57,
+                  "source_crop_sha256": "233cef269d4811bec596bb91fd8fa4d3d1450f8913e99d7435f1f5163651c4a8",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0057.png",
+                    "sha256": "b208edd02921d48a078a511ce00513892bf4dca81916a02ab533e759a8cef088"
+                  }
+                },
+                {
+                  "index": 58,
+                  "source_crop_sha256": "7b687cf7d7f4096316bc722cc52cc6dc36c1d4592ce2e2006d3346c1148fa618",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0058.png",
+                    "sha256": "4d6af85544465286e891f7ee7828589eaf8874e0e28d69721ce614f2d4ca61ec"
+                  }
+                },
+                {
+                  "index": 59,
+                  "source_crop_sha256": "35f66d7adc02753cb454c0d31103553f859790021a5bf9d70c1124078f890261",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0059.png",
+                    "sha256": "c8c3a218bbe7fcdcaad7df543e02b5d77bb0dd8b8c9d545c471f43828dbf3d87"
+                  }
+                },
+                {
+                  "index": 60,
+                  "source_crop_sha256": "8f2489d517bef4bfacec49f6c1e1ba3dd168aa57f9e40265605cbdb09ca2f8ca",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0060.png",
+                    "sha256": "9e41b753fa07ef018762498cbc67927573b8277ffa89d478f826def559d6f078"
+                  }
+                },
+                {
+                  "index": 61,
+                  "source_crop_sha256": "57ede63793433ae450e938471a6c3610099dcb0eecbd200e9ab80fff5427e734",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0061.png",
+                    "sha256": "4e090bfe3680de161f72f5c8e4be8b663acf67cdbb55912837274d0823ed100d"
+                  }
+                },
+                {
+                  "index": 62,
+                  "source_crop_sha256": "3fdbcc3bb1e54f253f68a75827460b6e9042516852c41560403ba9d2cf233c8c",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0062.png",
+                    "sha256": "edcbb40d2647faba4b9050ec18e1e93be14c29c3c4f3bc1bc1e1925180c20087"
+                  }
+                },
+                {
+                  "index": 63,
+                  "source_crop_sha256": "370256a20d731fadb467e63071e32d1998f1dfd111dcf07719642c23be917767",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0063.png",
+                    "sha256": "005a0cd464a955efd1f6613bf73fde1155ff3a151cd1955036427882a2d8b21a"
+                  }
+                },
+                {
+                  "index": 64,
+                  "source_crop_sha256": "ccc981f0e78b089351fca86bc80449a85d276cbcef85d718c91e138089e77f8e",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0064.png",
+                    "sha256": "dc8c33750fe3f17b0265950fc3c52c9fa8917b825ab902e120d7f112cd8ae5f7"
+                  }
+                },
+                {
+                  "index": 65,
+                  "source_crop_sha256": "e056457e09facd379601424924463c6ed6865e247cd0532a8cca5607958d7f39",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0065.png",
+                    "sha256": "c6939b423045425e7b2e3a0ae0cb7183d7ba2ef202e2105a9c97dca5ab6674b4"
+                  }
+                },
+                {
+                  "index": 66,
+                  "source_crop_sha256": "b2de5a4fc39921876f533269f6f3ef0af7cf6eacc85ce04a67e113d3ff7fc6b8",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0066.png",
+                    "sha256": "febc8fd5a6ce5b0bc35dd0c4a0c99dd24fde6a7ec82b0fcf804b910817e9f750"
+                  }
+                },
+                {
+                  "index": 67,
+                  "source_crop_sha256": "59b52375352da5a0754ad050ff937d98c6fb5960d74e34ceb246704a0388a7c2",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0067.png",
+                    "sha256": "91f9ce2cf0a86414f6c37fbebb8d74e25986da94a43ed8ceffacd77edb487c21"
+                  }
+                },
+                {
+                  "index": 68,
+                  "source_crop_sha256": "3543dc6ba1268a2756cf5de48e86db97d4a6c85b4657d0dd8c236ee2f7d28347",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0068.png",
+                    "sha256": "7c7f5852791df68ecec2d3b5928c61098e0b96a96caa7f7e2ee0af8c9a548239"
+                  }
+                },
+                {
+                  "index": 69,
+                  "source_crop_sha256": "cd8d7fe5db98f8156477742b62420fd09a45aa66190dc958dbce5a58207b2394",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0069.png",
+                    "sha256": "ca344e69374cd4f9c391ea0e2cbc8b5a826536829ab306428ff233965a390249"
+                  }
+                },
+                {
+                  "index": 70,
+                  "source_crop_sha256": "992aa7029d61bc44bbd2aa3a2b88c54ebc0ef7f43c345bc98b4487a581da6206",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0070.png",
+                    "sha256": "fee0592df4b89144ee4a418644ffb3cea6e39968f7a979dfdf3d6aa3e59b65ea"
+                  }
+                },
+                {
+                  "index": 71,
+                  "source_crop_sha256": "5ab5aaa8d076bfa63921277dfa62d179d0f547e963bef7ef053a051238ff8cec",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0071.png",
+                    "sha256": "f34c9d3c1f86c6005d9baed538ad864bacc29f97de88ae099968bef40de23c3f"
+                  }
+                },
+                {
+                  "index": 72,
+                  "source_crop_sha256": "6f60c107e9d526633621621d5c1ff9ba74ae0668b20f239fcda91d4ca2d07547",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0072.png",
+                    "sha256": "24c699242d7da9f5f14673b06963e7c57aebeccf6701345c4c87b0022e3deb18"
+                  }
+                },
+                {
+                  "index": 73,
+                  "source_crop_sha256": "b416e6a58f6807e861d602d296c62edd831c31d67fa434841783377ae61c1f25",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0073.png",
+                    "sha256": "885d7bcfbfe0e3d92539629041bbd46440bebbda43f26c2275654d6cd5a37b66"
+                  }
+                },
+                {
+                  "index": 74,
+                  "source_crop_sha256": "5a5acba0571942f434c1678bf5703bb067e82ba7bd6f03938ebfd59796e07994",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0074.png",
+                    "sha256": "2d20f1e8f595eafb2651b2561036e092b8bf53165219ec533d8e9e825faf6cc7"
+                  }
+                },
+                {
+                  "index": 75,
+                  "source_crop_sha256": "286d1b66555010359bdc0eec0c75c0123b94c5ff4496dde066a0c3cea4b843d1",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0075.png",
+                    "sha256": "e9ea5174ea0777f2ea968be11cb6244be02ec4b666a3b8eed3b34eabf241b0a5"
+                  }
+                },
+                {
+                  "index": 76,
+                  "source_crop_sha256": "709c25d02ed484b488e714413f01b9d1779f23fd3864d2817ad203361cb50870",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0076.png",
+                    "sha256": "1d69c49b17f1ca1414724050b40eed063d1d9ff3ea0be5ef6b901fe83942d2e4"
+                  }
+                },
+                {
+                  "index": 77,
+                  "source_crop_sha256": "b5fb847d3f4944fbe9e69dd64c48584d2475a92dc20f8d38562cba884688c482",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0077.png",
+                    "sha256": "d468d558e11dec281d8f09ccef22c501fabe434c973ef7e305fd70a59467a4be"
+                  }
+                },
+                {
+                  "index": 78,
+                  "source_crop_sha256": "6c1b6c6a77ca9942c79d54e3094e156dd7c06e724998a9c883a0ecdb0451f52b",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0078.png",
+                    "sha256": "10985da8d66e914837c45302bcfa8289a581cf0a456c6dda962fcfb668c03e17"
+                  }
+                },
+                {
+                  "index": 79,
+                  "source_crop_sha256": "20dac565beb46918b6b9d0bf1f7fc3abb4dc127b979ef97fa34093cbbea2eed0",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0079.png",
+                    "sha256": "7dcaa056e864da580bfcc13049708aec884f25b2f6ce6d987a036e39fd36219c"
+                  }
+                },
+                {
+                  "index": 80,
+                  "source_crop_sha256": "65fc12c66c72dbab3f63fab6838514acd9cda4491b4bcbbca38eca0718618c88",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0080.png",
+                    "sha256": "f961df73094023097a17a3002f4e31f7ea23e97c8907279033152b120c418471"
+                  }
+                },
+                {
+                  "index": 81,
+                  "source_crop_sha256": "e92ae95789126dd5648555d051d0c58a952ea0cb2ae2e7d599a062198195a1c2",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0081.png",
+                    "sha256": "220c9f691f3332e154a165a26c9d4f0f475e8d7a29423cb918eb45a89bf876d3"
+                  }
+                },
+                {
+                  "index": 82,
+                  "source_crop_sha256": "0028bcd77803f1c1535df1c71dfcd1436fed25e02b1b959e4e524c5a7454afa3",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0082.png",
+                    "sha256": "4fb6e5999199cc996260e819ef2f8cdbab64eaa9efa77f0b5326d2f2d531da47"
+                  }
+                },
+                {
+                  "index": 83,
+                  "source_crop_sha256": "ab5ef954f597602ff86afb27605380db09abe0ea1b7a79b6b9375d05fbaff573",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0083.png",
+                    "sha256": "f314c35d50c06b9464f1c1dc2af54a252516a7ec4a1a9c2f74bd2c04b7b776b5"
+                  }
+                },
+                {
+                  "index": 84,
+                  "source_crop_sha256": "0ba8da25e6b97b6c2cd841c361902665b31f18200de2695c3ea0fb06ce301465",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0084.png",
+                    "sha256": "117bb1842323a5856ee8a0dab7d383b590a32cf81cb4559e81f8b51c592b39c4"
+                  }
+                },
+                {
+                  "index": 85,
+                  "source_crop_sha256": "56c457570a604c7ef3cd9ed734889d91bf4de9f3a45a01b707061d5c4897c35a",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0085.png",
+                    "sha256": "0240be8e3ba0abe2d0993c963aa1ebe5ec1542e7e031c583987aebbeafffd634"
+                  }
+                },
+                {
+                  "index": 86,
+                  "source_crop_sha256": "c0f0ff648d7f0c7beae95edb71d22cfe40e11ebde6c7698befcaae93eaa2e023",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0086.png",
+                    "sha256": "0ef2e192ba6978608751f02fff0318c3edd11f8864f3e5417b8661ed3a57683c"
+                  }
+                },
+                {
+                  "index": 87,
+                  "source_crop_sha256": "ba9a20ca778868f39e9b4719e168a68a0d68126d1ae4569457861a4baadb0470",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0087.png",
+                    "sha256": "7d10a99a4d51f04a97e29ae6cd9a0abbb7db0bc9159898efe9afd4d205da3c0b"
+                  }
+                },
+                {
+                  "index": 88,
+                  "source_crop_sha256": "3fc62633c9f231b5fc965b33699e786eb7984fde39d80b28b948dae4b2614998",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0088.png",
+                    "sha256": "e9c69c6a0ffbdc05262b9b63f1a076dd44a1b1d40c868f31eccca6abe8d33f35"
+                  }
+                },
+                {
+                  "index": 89,
+                  "source_crop_sha256": "41019cbcb09bfa51906b5871dcbfdb05717777afe6c00339d7e3d98a7ba984cb",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0089.png",
+                    "sha256": "6d77864796aeded276d409d127dd45baef26fa9f2628d68e6dd0a51a3ef38686"
+                  }
+                },
+                {
+                  "index": 90,
+                  "source_crop_sha256": "2a39bb621efff8b1f248a5c55a3bfd4f4edecaa429a1b63575326e40ee70bee2",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0090.png",
+                    "sha256": "294aa9f37b9d415a697ce5815da920f865f5f5dc5b638998a458847118a608bc"
+                  }
+                },
+                {
+                  "index": 91,
+                  "source_crop_sha256": "a76a78107147e7ca2dcc20469798e769cf2638ef8675fab539604be5cf812d37",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0091.png",
+                    "sha256": "39cce556785717ee2a6b43a45828cb3329001ee5e31a369a2af606daf0bdc258"
+                  }
+                },
+                {
+                  "index": 92,
+                  "source_crop_sha256": "db2e479c5cb8e7159f8ae713c9c41a66e483361a130696b54cbb323e3bad3393",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0092.png",
+                    "sha256": "9b0cb976021927541cf69ed03bacb21b14fbd330063c145cad703fe79b4a9351"
+                  }
+                },
+                {
+                  "index": 93,
+                  "source_crop_sha256": "7566f828f73ad9c10454429e50bb05b55d92c794f5e708c6baa625883c813764",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0093.png",
+                    "sha256": "c9568a06cf0b2971b3fde0993300ed9bb98e69e3332a0d31a903e19a1cef92bb"
+                  }
+                },
+                {
+                  "index": 94,
+                  "source_crop_sha256": "edd63d1dcc089cdc69975c5c11477c69ec27eb10f90f04cb1138946cb081a999",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0094.png",
+                    "sha256": "6956c3e00631e3f7e5274c778d3c3109b1076111ababc95275d297ad136760b6"
+                  }
+                },
+                {
+                  "index": 95,
+                  "source_crop_sha256": "dabfddfbb8dcef914edb1f073b66cdb8766fa596e2297b5c16149b27b972bdca",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0095.png",
+                    "sha256": "ed278f502027fc3cf4878d1c213e9926e19959f87634f623c07f871374e4aaa8"
+                  }
+                },
+                {
+                  "index": 96,
+                  "source_crop_sha256": "b09660196c6554f4ce2f667c35bd22384dbef3ae61d4b58a5b7cf73c2e1620e7",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0096.png",
+                    "sha256": "61205e4138625710dc1e4515621b680e905424b3f53a5f6f56d41bd17b99df70"
+                  }
+                },
+                {
+                  "index": 97,
+                  "source_crop_sha256": "06e2d4a2eb84b2c3eeaf1a7e56a3a1ae7ed491b246acd8fa732165a2185326a0",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0097.png",
+                    "sha256": "a2fdfd209e0c865d97cd7730c2b0d8604116d22f00d889ad77bf88791391d0a7"
+                  }
+                },
+                {
+                  "index": 98,
+                  "source_crop_sha256": "01e030f89fddd49b86f7bb092d9e96c51df320a59f5807039985d7ee8e8bfc5d",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0098.png",
+                    "sha256": "0b582c10c2390320027ecf5c9d6a98c094175c19eac3cd9b1c6165a49a93d7c9"
+                  }
+                },
+                {
+                  "index": 99,
+                  "source_crop_sha256": "32bdb08e1954621ec8d0ce574834a3d4793c229779d883581a33e1a91050553b",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0099.png",
+                    "sha256": "9204ed06bc186ffa2e49443b2662429ae247ea7e34565afb775ad6aba29e164c"
+                  }
+                },
+                {
+                  "index": 100,
+                  "source_crop_sha256": "cb95be56a6ed3f781041845b15554722af40dced39afefb2475f6e56fa322030",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0100.png",
+                    "sha256": "bbdf9865892dbe704609f67dba7c61918008f212e07a00817aa253a220b2e17d"
+                  }
+                },
+                {
+                  "index": 101,
+                  "source_crop_sha256": "d658df6a6a14037ded19e0f414f2b005e3880d3eab5cee31174e20eee6eec2ac",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0101.png",
+                    "sha256": "7d08ba9282968ad4065151dbef691020dcf3837db0514c8368d6236aba3184a0"
+                  }
+                },
+                {
+                  "index": 102,
+                  "source_crop_sha256": "1c8282bc2f23b97591156a9073212681a5a87e0930a47f49deb993462034bf17",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0102.png",
+                    "sha256": "e0dfbf80f9b98ae0cf4f74d97c5d1fa9a6dd6390464570c81c86fbea6c106735"
+                  }
+                },
+                {
+                  "index": 103,
+                  "source_crop_sha256": "03dae4e9acb64848d8a2eb55b6101d961488d220f246d205ece2e779ee46f7b8",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0103.png",
+                    "sha256": "c80b2b06bda78f42cd522cd46fe0e9c8166aba694e0ef905c516f29a8dc505be"
+                  }
+                },
+                {
+                  "index": 104,
+                  "source_crop_sha256": "4e96700a1b6aa23fdce9c97775c04463d5d2177eebfa75b905ad0867c7417a1d",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0104.png",
+                    "sha256": "b8d4830150255db64931e4a49d6b5fb5a970feb003bee1b6ca50e3914d0d4138"
+                  }
+                },
+                {
+                  "index": 105,
+                  "source_crop_sha256": "ebda93fa669f6700c04c2f1079218e6b03c832db7b7b175535d6f5ad61df5968",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0105.png",
+                    "sha256": "53ab3985bc432d4be73d3ca32ce425b4eaac790d3c2d061210d214e62a00c6af"
+                  }
+                },
+                {
+                  "index": 106,
+                  "source_crop_sha256": "78c11804a28b98d991206703f10f5b2d15acb668c189691bf46b734bee211da7",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0106.png",
+                    "sha256": "ffff4381a43b349346ca990720ad90726d4e8b4818aacf7e66d13b7bfb107ade"
+                  }
+                },
+                {
+                  "index": 107,
+                  "source_crop_sha256": "43405a9c0110281eaeaeb6167a9e116f70b9e1f3cf1099a113b8a320226ed626",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0107.png",
+                    "sha256": "ce220d959c3185459ad662187311acbc0662fdaa0303ece4835fb3f3e1a7b89b"
+                  }
+                },
+                {
+                  "index": 108,
+                  "source_crop_sha256": "a321d6c95663617d77fa66b7ce8ee189e5a7546b4bf8a710b4626aecd4992834",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0108.png",
+                    "sha256": "85b8a73ba95182140e989311c717ac21f50ad62205eb98d1ac5e5100afd0c768"
+                  }
+                },
+                {
+                  "index": 109,
+                  "source_crop_sha256": "6d6d9cdb8b45ca636c2404d6f1ea4506c029aabd3d4a76457573e79764bbd4c2",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0109.png",
+                    "sha256": "029df6f55541374386cec1b62f6ce26fb4f7fed7f085fb49c979564363dcf67f"
+                  }
+                },
+                {
+                  "index": 110,
+                  "source_crop_sha256": "fb3d3cc01f3e8034c2ed3aa57259d53e6136bfa89d3c106dd6f8757c5a480160",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0110.png",
+                    "sha256": "32ecbfbd6b8157dbfb86421467b98fcbb8b1e1308b0428cbd9d2e8e01c722f61"
+                  }
+                },
+                {
+                  "index": 111,
+                  "source_crop_sha256": "c55aedaa8093fc3af717a3222646233c2511256930f3920461892286c339c4b7",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0111.png",
+                    "sha256": "1aab3109bf2fff5ea73a2a4cd0e88a33bb8c61c2a00562883af06a82aa13a9f5"
+                  }
+                },
+                {
+                  "index": 112,
+                  "source_crop_sha256": "85531c43b6a0e995b6527a15f480388b70fdbfc2d75851e59097f84a57ce9dbc",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0112.png",
+                    "sha256": "166ed685d449ff018a5cb84f01ab4afb84ab91c6080c9446702b366b40b13f94"
+                  }
+                },
+                {
+                  "index": 113,
+                  "source_crop_sha256": "5be7e75f5d1b35c35f289d9a277d60152e87ba1591387ae7bbf8291ae5fbb2bc",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0113.png",
+                    "sha256": "d12a53589d8372c76dd564e974a616cbbc2fd9542d88e01ffb21be6527a66221"
+                  }
+                },
+                {
+                  "index": 114,
+                  "source_crop_sha256": "f58156a497b3fc84e0393c8700d9406c62afbb4a5916b8f4fb16dd9d3f5e2b1c",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0114.png",
+                    "sha256": "c00e3589cc1a7cac7732abee42a5bcd41f5be81ac68638d7061e61b079df85e2"
+                  }
+                },
+                {
+                  "index": 115,
+                  "source_crop_sha256": "10f5ed0d916df17f6c42baf3d22fc90cf101e0eb7ddce3a63be7a577258bb2ed",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0115.png",
+                    "sha256": "e8c59680896d96897c1730c49539a7dab72b0726aa4d6b96c345f7832026308a"
+                  }
+                },
+                {
+                  "index": 116,
+                  "source_crop_sha256": "cf1727beef3712d0dd278e25072c0e8a21f6660a23e9344d889fcd02647c6618",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0116.png",
+                    "sha256": "29b5a42bca4438d7672db7ea5f5580010ba3f14f6882fbdd7166938cfa70052c"
+                  }
+                },
+                {
+                  "index": 117,
+                  "source_crop_sha256": "839a1d9232e5c7c7619e21184301fd3a7779e5232d2853ed894d5be1a127fbec",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0117.png",
+                    "sha256": "3a31b72ddc2e7a7d247261f26f02ebe3b1815df444e06b7722d7f5fa0e1a755c"
+                  }
+                },
+                {
+                  "index": 118,
+                  "source_crop_sha256": "54ae2889e78586dece6009c22aba33d91c89e416e9c8e5ecd024c6ec176bad08",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0118.png",
+                    "sha256": "f8ae48aea250f9a8407236ff724b17c282a8b92ffffd51743e6afc9b39df7a8e"
+                  }
+                },
+                {
+                  "index": 119,
+                  "source_crop_sha256": "906a73cec366df65c64085f429ed8dfac8db8f8e1687f63b788135435c0b46e0",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0119.png",
+                    "sha256": "964892406e43fe1f1f9c74d6b421248b5a0f5c2500653e9f2d74976dfcef9f5f"
+                  }
+                },
+                {
+                  "index": 120,
+                  "source_crop_sha256": "cbcd9ab0c4ce3d87868db3d78046b4cf8aec25c3b51ea3b1b52bf8c8ba6c2480",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0120.png",
+                    "sha256": "74031f569d3ba473b6b516c3c842c41b633de39f6079eca933ffe7239e051baf"
+                  }
+                },
+                {
+                  "index": 121,
+                  "source_crop_sha256": "22dcc078e568fa2d194b19d596ec236382ddb1abe57805beafbe5e93a0c48ad5",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0121.png",
+                    "sha256": "73e138e9e0f863add98251c6753f6984ae2dfd72b219588a1170a3b14444b2c4"
+                  }
+                },
+                {
+                  "index": 122,
+                  "source_crop_sha256": "60e0fae07c709d1777985498ad326b86f7c4f7cb7b56fca98f804ede86fe238d",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0122.png",
+                    "sha256": "85661b2ad7ba2f87063368c01e78a602709f1570e9d924eb88db58ccb156241f"
+                  }
+                },
+                {
+                  "index": 123,
+                  "source_crop_sha256": "b21a2ab2d89aaf15b336d3d90920bcdef29666ad70e234cdb491cf8f590a5be7",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0123.png",
+                    "sha256": "fffef7b9428817a8699344d6693272fd8c2b97b65c5bbdcaf106ae891d55ff7c"
+                  }
+                },
+                {
+                  "index": 124,
+                  "source_crop_sha256": "59754e51564d641de886197787582821e9cabcfe0f457ec870eb2896538623a6",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0124.png",
+                    "sha256": "debb5b052bc3cac73b866668c0c057594fa015939e2f9106ccc6574b3bcac45e"
+                  }
+                },
+                {
+                  "index": 125,
+                  "source_crop_sha256": "3675bd4aace58a8452a7ce9abb81f8400838fa4b3cdcb2741bf3ac319c400453",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0125.png",
+                    "sha256": "fbea1c7ecf693c8ba3ba1f76d3f159bcfb1e859a9461a54ae44eabf2360520e4"
+                  }
+                },
+                {
+                  "index": 126,
+                  "source_crop_sha256": "a2565948de9ec33de3dc96d482dd7d8cc6ded07979d781d6f7a87575213938df",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0126.png",
+                    "sha256": "3a8879fb7769798e9dfab8561e3677ed4c601b5d4c9e8a9c21a6d6368549e9f0"
+                  }
+                },
+                {
+                  "index": 127,
+                  "source_crop_sha256": "9d11600df251f7bf0435c9c0b9613ba7924f7aece30a082b8d6f094a33fd30e5",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0127.png",
+                    "sha256": "4aae9e1f8db4d1e63d81b212e6be7ce3113f5bd8a26d916085435fdc9c87ee92"
+                  }
+                },
+                {
+                  "index": 128,
+                  "source_crop_sha256": "cf394a256ff578d0580cb2421e4c4ade46493c16fed0513c7d3ca6e093f5bdaf",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0128.png",
+                    "sha256": "d0038d7b4612d7e1fab290ef33bdc0fb7edfa30123e8d494f9e5ffb4532a8bc3"
+                  }
+                },
+                {
+                  "index": 129,
+                  "source_crop_sha256": "a24428b3cba9a2c2974080053e54ece29e412efb814ef9cf0344ce03e7c995a3",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0129.png",
+                    "sha256": "1c012c269e51e9914c74841573c4be5d585e6ffd7d596367b9f682d15aa84597"
+                  }
+                },
+                {
+                  "index": 130,
+                  "source_crop_sha256": "88c34edad128faf7d553e12da614570824ce2b6c489aa0c2e7c0ef34027e183a",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0130.png",
+                    "sha256": "4a6ec7e2f0d82eef824ab0bcdbed52d4b8bbc7148f58e7ca6f085e34f75997c1"
+                  }
+                },
+                {
+                  "index": 131,
+                  "source_crop_sha256": "48ecc69b55e95ae2c448e2f60e16e2e8b1d544d3fbed72f7626bdcdb7e68ed02",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0131.png",
+                    "sha256": "01771c6d60cdb374bdd91c1aef0e9656fd577905a9961f9ae2395093723b351a"
+                  }
+                },
+                {
+                  "index": 132,
+                  "source_crop_sha256": "6f7fb53ec6b7151aa0732eea2d3e2c10d1e0b63565534a09444e915fdef7b164",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0132.png",
+                    "sha256": "2589c3ca3dd48e6f0582e88e11e4f779526e3745ffaf2f68d3a1f1803789d305"
+                  }
+                },
+                {
+                  "index": 133,
+                  "source_crop_sha256": "706acec64f614076e887073917b92a3a9d5fbdb8e51472b1a4fc003ea9829e76",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0133.png",
+                    "sha256": "01906cbf6fc25950cd40d7b688bf4b5294d4d0542ca8d31323c0d39df3c5f9b0"
+                  }
+                },
+                {
+                  "index": 134,
+                  "source_crop_sha256": "b3dbdd4c580ae3592b80bb8830608c27fada1919aac8fe3e7326cb3a7a5ab5ad",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0134.png",
+                    "sha256": "559071b81155ac87291df1df221b7e699b142b79cd51e7672be39830e3cacb8b"
+                  }
+                },
+                {
+                  "index": 135,
+                  "source_crop_sha256": "a02d02e378fd187e361e034baa60eacdeb825652cc4894435bb0aeb9f585642f",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0135.png",
+                    "sha256": "5838fdbdc4d8822010e0c58a992e1ad5cbe8692c25a5765d56f75fa3965b16e5"
+                  }
+                },
+                {
+                  "index": 136,
+                  "source_crop_sha256": "7929db4bddcecb7c39e0181a0be4e7dd7e5b6dbeb1b41e506bed82e9c3797206",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0136.png",
+                    "sha256": "197a96dc0ae668683f6aad1ff127d7154de3b1d74337ba32ed9c742f16a3d094"
+                  }
+                },
+                {
+                  "index": 137,
+                  "source_crop_sha256": "0db268bf97a35bcb5558cbca679d28e45ba2c4f9334b949f43bd76fc640fb5e0",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0137.png",
+                    "sha256": "82f1d538d6965ec53b5333cfbf60d4820a46f602fb15e43b7785c3c3844354f1"
+                  }
+                },
+                {
+                  "index": 138,
+                  "source_crop_sha256": "128f0482bbb1055290abbba2e3fdb56e1dc312677d84f2b66e8def9e477ca317",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0138.png",
+                    "sha256": "ec25b40e5e7c1501b4719be039c4044069206fc09fb5c244b865d73ee3deb8ae"
+                  }
+                },
+                {
+                  "index": 139,
+                  "source_crop_sha256": "49291c6e97b7b5839b207c578267ed2c59f8be7e0aa2f8083e5e157975ce2182",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0139.png",
+                    "sha256": "d447bdb775181fb0d60682190826299baf20e1bfb5ac6ef08e4d7b3872de805a"
+                  }
+                },
+                {
+                  "index": 140,
+                  "source_crop_sha256": "5c7c12294c793899700c363bc6d9826285e345974f0613ddcf1d91c8a8a22e3d",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0140.png",
+                    "sha256": "93ccf57ea432adfa7f6834cf73b7fd20a7360b5b5ad3b403c07094c03ff983f4"
+                  }
+                },
+                {
+                  "index": 141,
+                  "source_crop_sha256": "a701dcb07c4c9389af0dd6349dbccba8883c572bec2b2f7e74549aff5d3a3fa5",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0141.png",
+                    "sha256": "1947ec94029d56f6db324f5e6f032ffee7555224aa87f42833803d5de314beb6"
+                  }
+                },
+                {
+                  "index": 142,
+                  "source_crop_sha256": "a077a694452a1b158ce90eaeee17df97c347801f9cb86c53e2a15909dbbbd233",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0142.png",
+                    "sha256": "e4f8b1b2fe7eec3dee6f65dd670cdbdb5adbe1bcf485657b1a286abf1b92fbb6"
+                  }
+                },
+                {
+                  "index": 143,
+                  "source_crop_sha256": "6a9b0793c66a22e73981bb2d99f4d46d694b35d12c12e47a804200737170e581",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0143.png",
+                    "sha256": "672720554c682bb0c5882a02b6ffa042588dca70de92c146f4a73f8cb59d7918"
+                  }
+                },
+                {
+                  "index": 144,
+                  "source_crop_sha256": "4b61ffc7e36430af2ed77a7f8e595450f7f5e12690c9cc0b4ef11b0dbbe9437f",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0144.png",
+                    "sha256": "4245387a40871b2b358d60449d5854c6947434c13f51a55154efab6758cdc17a"
+                  }
+                },
+                {
+                  "index": 145,
+                  "source_crop_sha256": "648bd5bc194ff33a5477194a52e03bb0e656334bc1fec3c289bf1b95470112df",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0145.png",
+                    "sha256": "8503e741275fbf1972395eb2927c13707512065b9f52bed979394c4b1654d8a3"
+                  }
+                },
+                {
+                  "index": 146,
+                  "source_crop_sha256": "a62c338cdad537ab14399b77eed22371a3ff654cf60c34e27d6bf127f46e362c",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0146.png",
+                    "sha256": "961a8c727404bf27c173dbeb3325a5823cf80dfa61ba4d7f6a0b266137b4cf4d"
+                  }
+                },
+                {
+                  "index": 147,
+                  "source_crop_sha256": "38c1a9cc8af106626378e6a7661b562002046e4e3aa45e8e1c267f219b52b984",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0147.png",
+                    "sha256": "4cd848fbdcf386362a2efb25215090356fcb21192e0cafd23413bc3a64eff54f"
+                  }
+                },
+                {
+                  "index": 148,
+                  "source_crop_sha256": "a5cf89ad7306b4e19aade02988dbbcfddd3eb0c48e908d4519c183465a707c6c",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0148.png",
+                    "sha256": "36b881b47fc605caaebc214a5b5725a3091b62782f16f66feaa84f7382fb07f0"
+                  }
+                },
+                {
+                  "index": 149,
+                  "source_crop_sha256": "43bb845d243c89baa50a470a1c9a3bddf52c10d269f44f45f4ac021a676144f5",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0149.png",
+                    "sha256": "ceaad46c12e0963e0def7d71d066bfe0b1af87ac345e1c9268944a4608242ad1"
+                  }
+                },
+                {
+                  "index": 150,
+                  "source_crop_sha256": "995b2c00d3ece7fe16c72e0de26e6d81b1e23daec9be38c975480d937d4a4fc7",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0150.png",
+                    "sha256": "2c5bb2d23379d3b380fed37cf47424d7f44eb541bc1672e70d9b2d9ca32747f8"
+                  }
+                },
+                {
+                  "index": 151,
+                  "source_crop_sha256": "4f0809d8c461862778dc74d10a9f5c2625301246f1c95dc93757ba2bc5af2171",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0151.png",
+                    "sha256": "f1e2d76dbbabb24f10d4d89891156815be3fbb9e95bfa612f09b10c7c493a10f"
+                  }
+                },
+                {
+                  "index": 152,
+                  "source_crop_sha256": "9317b2e6ae22e4793f2bd0fa1e31abdc09cb87c94a47c1525a3c443545afd70c",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0152.png",
+                    "sha256": "54b72eaa586db7980afe4f6fd70ee5b73fad968caf405d2d530f7e36423451a4"
+                  }
+                },
+                {
+                  "index": 153,
+                  "source_crop_sha256": "b7a4fc588b05d10c1bb4c24513ba864551aa621b4593b08b64cca280fc639e1a",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0153.png",
+                    "sha256": "e575ca83e9764dd81c8752ac814e374cad1f9cb779e45c13947e7d1aa78af003"
+                  }
+                },
+                {
+                  "index": 154,
+                  "source_crop_sha256": "273a75689fdc957c4c6fa4ea83006fe9df54fa8c698f1ee065e1fd3c906a5be8",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0154.png",
+                    "sha256": "06ed0f4a2ee171b4f768d0175d59cf1ddedeaf4a3711d296ee209dc2cf30cf60"
+                  }
+                },
+                {
+                  "index": 155,
+                  "source_crop_sha256": "1f8844997c8a9ec7d4a8b44e8ed323f69ac8266bc3c14487d8d6ceba449d1f1c",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0155.png",
+                    "sha256": "14a158a309e49abfdc2d5553a22d60d77c6738de59436ea04d762f4b2dee8a0b"
+                  }
+                },
+                {
+                  "index": 156,
+                  "source_crop_sha256": "1254aa4182f45b61afb73756ceace2fc3b60fad09457f695863a3055cc3517de",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0156.png",
+                    "sha256": "7d803349178a522b54e6c0ffb68af598793f4f1915877bf903aec185c7bd5b00"
+                  }
+                },
+                {
+                  "index": 157,
+                  "source_crop_sha256": "47c05be6f8793089fd4e56afb73c11bf2cb220900ba01b04aab8f99d77798976",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0157.png",
+                    "sha256": "f70546bf9bc2c6d34f2f00ca4c5ed480d07b0ab458076028d8cf0233c30f7ac2"
+                  }
+                },
+                {
+                  "index": 158,
+                  "source_crop_sha256": "c97b11c73925694158e4f45a429ceb2d28097a5b5d64d86e0dadc7a1fe3f2049",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0158.png",
+                    "sha256": "7dbb0081a61b98b77825b539ee71850ebc4ba5dc88d51039cd2369b22aab544a"
+                  }
+                },
+                {
+                  "index": 159,
+                  "source_crop_sha256": "92c7fc73b872f1259fae2346b09054225bf56bd31d1cea2cb4311521a6d6bb87",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0159.png",
+                    "sha256": "ad46a599a9ef4489ca0ef1deaabfe1d28c79af2f71508506aef5eaf026597168"
+                  }
+                },
+                {
+                  "index": 160,
+                  "source_crop_sha256": "ac94f2dc18642544876606443bf532675704452a614877075b55fa76285c57e2",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0160.png",
+                    "sha256": "0adb990693318275bfb7dda2d288090c98a51eea467b4b40c9f149f7ea333805"
+                  }
+                },
+                {
+                  "index": 161,
+                  "source_crop_sha256": "aa622667318f020ec0373037d884eb0506abbb5f1055ef7dfb1f8f82313d740e",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0161.png",
+                    "sha256": "e1e15b229d64dc919dfd68f41af5dee896e4eb3f1e1b1050a5c8b63ee940fa0b"
+                  }
+                },
+                {
+                  "index": 162,
+                  "source_crop_sha256": "e88be4b57e84ce5287118dbf7d1c5cde4b4613f7ae50d00e6b63bf893505f705",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0162.png",
+                    "sha256": "f8407dd540124ac2db152b6d1db075f0954e6ec208f43208d0e7be01e77f3adc"
+                  }
+                },
+                {
+                  "index": 163,
+                  "source_crop_sha256": "46806337a6e707b28af1f5e8c0ecd934c1fbd019509df3ace167bd5e09533b47",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0163.png",
+                    "sha256": "2bc3e18e767a8df856c0a45ca08ae1299d65c608a868ce7b11752cdc6f2155d8"
+                  }
+                },
+                {
+                  "index": 164,
+                  "source_crop_sha256": "ab3910089fc8e9c058c39bcde460b63e3a1e6c65b199454ca92c23195185c492",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0164.png",
+                    "sha256": "77975e8b872f38c07dde8ad9ef1fed00f44d1535bd6b09d3fd82d402406b9831"
+                  }
+                },
+                {
+                  "index": 165,
+                  "source_crop_sha256": "6e0e2de5b60a4c7c28f2983bb5ebc170be4a1e1e37ab082aab73fb6fd6cca5b1",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0165.png",
+                    "sha256": "897f36cad7ced0baa7d69cbb6c0c5a89f67ab7b57446975da6598372de052711"
+                  }
+                },
+                {
+                  "index": 166,
+                  "source_crop_sha256": "816d5d47c4243c325f6a24948a1e4f7089935fcac66c186cd06dd0ef77bac9e0",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0166.png",
+                    "sha256": "7aeb0eebf85f1656c9ea397fddd588b28bcb00548578e64943443dcaca29a14f"
+                  }
+                },
+                {
+                  "index": 167,
+                  "source_crop_sha256": "27f1da8b0aa578c16d94ac8362895241d3db1a8b79788036f0252b6959ef33e1",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0167.png",
+                    "sha256": "7dd5da5c46c4abcabfc7fda807f305fd84e311d3f11a41697cf3347b7037efa8"
+                  }
+                },
+                {
+                  "index": 168,
+                  "source_crop_sha256": "7f1739b99092c38f8fe9e5e10ee99558c2d66558c8f0f5f6e60d3aacdb2118c7",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0168.png",
+                    "sha256": "fa753d6b892621063b85430191d0c8860e9237908416d51d05fcf668acf01023"
+                  }
+                },
+                {
+                  "index": 169,
+                  "source_crop_sha256": "20bfd361d0bba3b90384882b53b9c802c50b231fec591b648a29c40affb5bf29",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0169.png",
+                    "sha256": "c9090cdff313a937d5ee68bce2bf459f5fb77dd05394f5c219deebfba6247cbe"
+                  }
+                },
+                {
+                  "index": 170,
+                  "source_crop_sha256": "81db5a3eec28fd8f93217674aec68374e8c229db638a703afba465ddeb7c39d2",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0170.png",
+                    "sha256": "8ee45c15f42ad7db469adb62b13e32ac55ae959bfb29892820ef8f2c2e0aeae3"
+                  }
+                },
+                {
+                  "index": 171,
+                  "source_crop_sha256": "a84ba19e91d1c8c33e455c091e851490e4730198e476b8823b542573d804e10a",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0171.png",
+                    "sha256": "e8e81d4feaa92cd185177361ae0e6a023649c4981bbf546c9f15c9febf731667"
+                  }
+                },
+                {
+                  "index": 172,
+                  "source_crop_sha256": "ce4e9b0fa72e7bf2f3357bb36880dc8edcd0cb2300e3c44cb8d272a10c5f1173",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0172.png",
+                    "sha256": "7e685034253de252d518388485f13a9e817bf96e290e431085f96636888f95cd"
+                  }
+                },
+                {
+                  "index": 173,
+                  "source_crop_sha256": "2616ff1316c22f4834a06b7cbecd5f336b0f0b9ebca257475f6eba8dd65d134d",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0173.png",
+                    "sha256": "5f9ccbd7630eeecf595b83677d4bd9d625ec11daec6c045644fafcbcccecf3b1"
+                  }
+                },
+                {
+                  "index": 174,
+                  "source_crop_sha256": "b22a1020a72c1d7249f8a142453cb436250e2a6eff998e4f45ef79cd34693b91",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0174.png",
+                    "sha256": "c133523adfd8d9f3bc95a2ebe738e55729de7eaa91513d49d07fa5ab5a235678"
+                  }
+                },
+                {
+                  "index": 175,
+                  "source_crop_sha256": "14c2e6b36dbd9219ec04c53a5a9e4fe402585f2ed05b3f6a44d0be1c69e59491",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0175.png",
+                    "sha256": "1b3547b9724bacd1aab9ef698ca1a9f0670477e166a80a607cfd28d16749608d"
+                  }
+                },
+                {
+                  "index": 176,
+                  "source_crop_sha256": "f6ca5d32cf2b65373ae0d0d594ad6fdca971892f3f25517a8738dd762a5a464a",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0176.png",
+                    "sha256": "37de63274f9d786c6b35d3f8d752e64d38de10df57f5d62ebfdfb9695c460456"
+                  }
+                },
+                {
+                  "index": 177,
+                  "source_crop_sha256": "d5df70495023480ebef7e77ba4ea0d08184fbec7f0c11a7534ec41e679cde7b4",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0177.png",
+                    "sha256": "156b580d65723f1d6599ba0e452faeed4c12055b85908754c548b8088912b8e2"
+                  }
+                },
+                {
+                  "index": 178,
+                  "source_crop_sha256": "7c78b84e1de0935e65c4c700e540749841645a8b3683933fab24356787b33b05",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0178.png",
+                    "sha256": "293938c00171f5d937c295639d4bcd02a4fb33e484cf3d2e168f9f2c41236ae6"
+                  }
+                },
+                {
+                  "index": 179,
+                  "source_crop_sha256": "9844d9559be4861a4f99f17f97549c17b7940bd672dc9d841047adb4e3ec159a",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0179.png",
+                    "sha256": "45118b68d03c07fe4c15f770cc858d553b4861e4b60fb8ef00d897b7db0ef977"
+                  }
+                },
+                {
+                  "index": 180,
+                  "source_crop_sha256": "97827bedce8a77dd7f75f9213ff03f00eccc8a7549d3f39297588fc46eed19c2",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0180.png",
+                    "sha256": "1d39f1cbf5e169912b3facd55351a1d70a92554e2554f1e429f3e93c24ba5820"
+                  }
+                },
+                {
+                  "index": 181,
+                  "source_crop_sha256": "99244fddf60015d1a3a8df20d79d2f6a40fd8e2fc453f332ac590d117203fe1c",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0181.png",
+                    "sha256": "a1b4bb182e2ed4ace0a7a33a56c5a0f119b48b20f68db346a38e88d887d8b15a"
+                  }
+                },
+                {
+                  "index": 182,
+                  "source_crop_sha256": "872f521a27d4e5d4e738fb46ff742065168b5c50ab01805bdfbe343dc2e60eb6",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0182.png",
+                    "sha256": "bc81dab6da0c09dd919a76ba072a420b71cfe82c0db5375256c24e36650c47f7"
+                  }
+                },
+                {
+                  "index": 183,
+                  "source_crop_sha256": "c8513ab786c88101ca6bd5bd90f90cd8527002d676ec93822c260138d91c9f6d",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0183.png",
+                    "sha256": "550d6253cf7fedf89b49dbcbcaf8595fbf52bc11f1798af7163330e09c343ab2"
+                  }
+                },
+                {
+                  "index": 184,
+                  "source_crop_sha256": "fa63e9893603eb2034ba1388da129099154b91efe0430f4a55e0e5acd98175c3",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0184.png",
+                    "sha256": "650a427ef8e59178218198ebe5c232b9198cc3f41771b583f50aedd1a94b7b62"
+                  }
+                },
+                {
+                  "index": 185,
+                  "source_crop_sha256": "80f6caf7580f18d99161148b4e19f6376f8fa7478d55a8966e4a1ae00dac04b0",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0185.png",
+                    "sha256": "2da418701c4cd1fa8770e0df22720deb928815ffe992d197d4efe996f0c05996"
+                  }
+                },
+                {
+                  "index": 186,
+                  "source_crop_sha256": "31e8eadb0007c44dba68ab1bf6f2a2800702f26218684ef4bf24e0948c8d201e",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0186.png",
+                    "sha256": "c32c2cc8daace2e22d87d8127ae8500108b9a891ed608c678cb8277783df0c1c"
+                  }
+                },
+                {
+                  "index": 187,
+                  "source_crop_sha256": "2067767523938e7c3029a779d2991e5698e62f85fa8fcbdb5517e0020992fc17",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0187.png",
+                    "sha256": "8346a912ef083e531c09f3da6eb98a29ac30ffd832b756fa064a5fdff59c3432"
+                  }
+                },
+                {
+                  "index": 188,
+                  "source_crop_sha256": "371f7206644e985fa2bfbb7b6c4a7e128ac9c192061a25fc82779ea35245f1ce",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0188.png",
+                    "sha256": "03af1851f7d6e2d8c5804f5321cd01696bafa5d0566e5e006472195575137da3"
+                  }
+                },
+                {
+                  "index": 189,
+                  "source_crop_sha256": "9152bd2f4dac4e3bb5ac657a7bcb6997b6f829ffae1c5f129dc4f96416c97ba3",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0189.png",
+                    "sha256": "3618ff715a66214d6ad9087bf42bf4c5f48af786b4f4c9ca45e0b64dac30fdaf"
+                  }
+                },
+                {
+                  "index": 190,
+                  "source_crop_sha256": "fa310f8c5d6fa93837bd32acc2065cfeecf04058455c527c3387c91bebd57fb3",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0190.png",
+                    "sha256": "fb87a1db647cbbe6776a7b8eba9ecdcf074ecd2a5e4fcb4dd131dd68f81a0dd6"
+                  }
+                },
+                {
+                  "index": 191,
+                  "source_crop_sha256": "e3fe176ec319bab8d25dade4a6bad3fa87b14fe6ed66da5d5d6688db5a7cea85",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0191.png",
+                    "sha256": "9f610ec7010d58b12d92e0e88b758de32b59ec10a3f2eb7f38405b375b1d0a8b"
+                  }
+                },
+                {
+                  "index": 192,
+                  "source_crop_sha256": "aee3b362952ca8070762a7af5a1b35683fba4c65ae9eb600287057893956c458",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0192.png",
+                    "sha256": "289631545c1c499752b0e86cfe565ff866b9648de10594e21177394cdb5017c3"
+                  }
+                },
+                {
+                  "index": 193,
+                  "source_crop_sha256": "dca65f41fb021f92f5b41cdbc8ccf0ccf93b2d7a23071c966834ad9b306ac0db",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0193.png",
+                    "sha256": "8948fc1904be5a08c4ae81de5a52b2f67383f51944ce4c1489d8179efb6b6e16"
+                  }
+                },
+                {
+                  "index": 194,
+                  "source_crop_sha256": "9de08421ad7119c888ecbea0d98e3c4af323b3d41ec808fc9f975d2b73479f92",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0194.png",
+                    "sha256": "ac1ff2936a67b79357996c9f65e2e1ffaba6b83c5f8822414dfea44e273f670c"
+                  }
+                },
+                {
+                  "index": 195,
+                  "source_crop_sha256": "ece0011f8063ef2809d17caecd923cd895c5d2d752fc2c84233931b22cdf17ef",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0195.png",
+                    "sha256": "fdd2d9519e07ca568f90b768036137547926d4652f9b2a558dda9638a6a4b743"
+                  }
+                },
+                {
+                  "index": 196,
+                  "source_crop_sha256": "dd4002dbb4cf00006ecc7b6b16327ead628de65ee1a2d367f73deb324ed7469e",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0196.png",
+                    "sha256": "dffa61b6d066c860b91f0000c01eac7b24025b4094b4a35e97f9cd27014d01de"
+                  }
+                },
+                {
+                  "index": 197,
+                  "source_crop_sha256": "fe675c9afa9fa38a2af8f46ef091e08cea187fe0c9cbd81e9c95de6b5f16425c",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0197.png",
+                    "sha256": "6efb557bed1d2a1e2e5647ef13e5ff7e15159fe9d84d961407dfe94bb431b40b"
+                  }
+                },
+                {
+                  "index": 198,
+                  "source_crop_sha256": "74566deedf1539353b80d26bf1bbd4a9d1dca024e13b2f665f21991be97e0121",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0198.png",
+                    "sha256": "05dc7a78687b0f1ba918574dc9524069c8741db429e19c7a940e284d74974cad"
+                  }
+                },
+                {
+                  "index": 199,
+                  "source_crop_sha256": "4546a86124f4745dc7784299af191c42a03eff394f5d509ff1c845ba9d25d726",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0199.png",
+                    "sha256": "d8d48eeb5324face32077c9ce38b1d8ad7aaf80f74b196c39544b12ee10e1b7b"
+                  }
+                },
+                {
+                  "index": 200,
+                  "source_crop_sha256": "a0d559fc0f78e85accee8b099e5991bb4ede2d82a84adb408279bbb54755091e",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0200.png",
+                    "sha256": "91867d9458f9a0016761fdd833d209d961b58c84b1bd1f7a462fa7cee6afd59a"
+                  }
+                },
+                {
+                  "index": 201,
+                  "source_crop_sha256": "839dae391a5116ce52bc06c3a05160714a40e886f4c49162f9e366249d7e3c5e",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0201.png",
+                    "sha256": "dcb9c3636f334fbf9edb0fed4199f1ab3c096c0591ed79ae782e3e22fd791a2d"
+                  }
+                },
+                {
+                  "index": 202,
+                  "source_crop_sha256": "d184c09b2a03e1e226af0870fecea939fd924d40591270994435070b46417e5c",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0202.png",
+                    "sha256": "78f8d00bf9a5ee3a44435eea8a8120c6c728866d4e46dad97d0b1a269aba9607"
+                  }
+                },
+                {
+                  "index": 203,
+                  "source_crop_sha256": "d84d79f128ef55d5bcf954da96d6f556da36cdc60430e7663290ea06d26392a6",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0203.png",
+                    "sha256": "318e5cf70efd65c2d123f7a6cb498fefb86cef98cdd5f8255f1a2cf05ad4c3c3"
+                  }
+                },
+                {
+                  "index": 204,
+                  "source_crop_sha256": "0a1fc73baf0437e5d158c69798f0ca06eec6dbd67103978f84514a4c2fac6011",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0204.png",
+                    "sha256": "a16e1f7fbe9c3bbecd313401193dcc1e8c0a5715bd7a00117b19c50387b48a79"
+                  }
+                },
+                {
+                  "index": 205,
+                  "source_crop_sha256": "46b8d9c189bbb9e3eb6689ffc215f4e79a204bfd457a8bbb4b160c32e71f4c39",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0205.png",
+                    "sha256": "a2140fd98b9c376798e6c278aa32a21731a84e61334313f115bf6b2d0beb9934"
+                  }
+                },
+                {
+                  "index": 206,
+                  "source_crop_sha256": "cd70375a7824042d61fe6ef38b0da8a92bff52e9bf80334e698f21c6fb48c6e8",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0206.png",
+                    "sha256": "c7a21316918f3c6c2c14302dedd2e4995f7efd9aa438838a8a40ab38c8d8450b"
+                  }
+                },
+                {
+                  "index": 207,
+                  "source_crop_sha256": "003906debeeaca386c7a1e38dea9813a77c41f26b3af63d75453dbee7f7bfdf4",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0207.png",
+                    "sha256": "1c938519b72eebb1787fba135c054830e03190ea7993d7294f3214f330ae4d9d"
+                  }
+                },
+                {
+                  "index": 208,
+                  "source_crop_sha256": "07d846bd891956289b385555bc3d5785d73a3efa6668bc2de54b2d5c0ba2b03d",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0208.png",
+                    "sha256": "3895ffefa9cc961c2c34627dcf817cb5f35a8df579005f8a94a0e8113a09ccc0"
+                  }
+                },
+                {
+                  "index": 209,
+                  "source_crop_sha256": "6ff3cd4b7aa3da0975f6850bf3fee3948b3192737fd8aa3abea42882745534c1",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0209.png",
+                    "sha256": "af2459915dfec05502d74afccd3e36a6b711c77270b3948528912b7e28c6c19d"
+                  }
+                },
+                {
+                  "index": 210,
+                  "source_crop_sha256": "d73d49bf8c1b2ef25c407a302028257efeb5b2480687d209f349d67c449adfba",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0210.png",
+                    "sha256": "2219c5171a407cf197aac2334aea9f3cb84122ad00ce2e14dccb0fc693f1b550"
+                  }
+                },
+                {
+                  "index": 211,
+                  "source_crop_sha256": "f0e8e91b3ba9e01db863aeba6b35cd5ab96b8af964105743f17a842fe3b4f0a0",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0211.png",
+                    "sha256": "24322e4c8187d2ea62023d0ff7661c5c6545f9add44ccedd11ff54c3f381efe4"
+                  }
+                },
+                {
+                  "index": 212,
+                  "source_crop_sha256": "ab4e74250fcbc0ca714b3c028c9ff9f0c96db08fbc71f085e7d52425fda96e48",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0212.png",
+                    "sha256": "5c0963852aa8bb6cc9bad156e329a7e31cca4c7069fa5fddc566eec55d49b401"
+                  }
+                },
+                {
+                  "index": 213,
+                  "source_crop_sha256": "264931c26a921f4530fae77b583f5195b0ad889243381e605bd8103193e18f89",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0213.png",
+                    "sha256": "26c4c5cc3a5067f04040f510b58e6d9b3081680c2c62e336a3587c3e8d12ada1"
+                  }
+                },
+                {
+                  "index": 214,
+                  "source_crop_sha256": "a6e4d3e855fd74be931bb223dba9d1e686296de77ce44f2264578fb4135141d9",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0214.png",
+                    "sha256": "971e46f5ee7ce2485408453a169a941a24ceee1b5c5330279284bf9468b6930d"
+                  }
+                },
+                {
+                  "index": 215,
+                  "source_crop_sha256": "80f40524f297a13ddde6e8f9774821777d2201bf1daaa5f0a659cc901940c280",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0215.png",
+                    "sha256": "2f7c14dcde2f232d36faf87267a5f4013a4f9fa9416389cc9fe79d1e3aa9b2cd"
+                  }
+                },
+                {
+                  "index": 216,
+                  "source_crop_sha256": "7304c23ce2b292031e6ed50a0739b88fd3b5b239d12f9ba7df6795af3f2956ab",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0216.png",
+                    "sha256": "dee43d429e20ff7a4fd65e22047737b2d71a8877dd487d4e6f734ad36ab2e5a3"
+                  }
+                },
+                {
+                  "index": 217,
+                  "source_crop_sha256": "6414150a6acfdc02cefb48e16060182e5572796d392042776b512ccf6efa7977",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0217.png",
+                    "sha256": "dbfacfc4af7ca2fa55899c81f650d6f2f33dbc660de6deff85d2b90bad983d04"
+                  }
+                },
+                {
+                  "index": 218,
+                  "source_crop_sha256": "8d7fd0212345a7e02d4232eb89b1dee8c44c392b3fb8797342e9ac93b71a4d5b",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0218.png",
+                    "sha256": "d3ea48b0d2d346fecd2305b12514e441ec301c1d2c98efa2af44db532d969887"
+                  }
+                },
+                {
+                  "index": 219,
+                  "source_crop_sha256": "e91f5e2dfb71c224e244f2f9963a5c4821a5862add585fe6b6381990099fe84c",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0219.png",
+                    "sha256": "f7cb3f9dcd074b0f64c799aa5e7d8bd2aa2531511ea882fb17721d1e0402583a"
+                  }
+                },
+                {
+                  "index": 220,
+                  "source_crop_sha256": "e39d4ea1973ea047b8bb8acb71c96a7004a49216f195cbf08c8ac5854932d4b6",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0220.png",
+                    "sha256": "bbd088546278c2140e77d79ee14b84a708ba42756cf7746cd1a358d291cb1cd6"
+                  }
+                },
+                {
+                  "index": 221,
+                  "source_crop_sha256": "68f9251d1750db0435801390098ab47bfa4f4fb96768c397c7b326731337cff3",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0221.png",
+                    "sha256": "ec2618eb152bc8a66a6f5eace3c280b01c780697deb2850c3fb6afc8ab747c4c"
+                  }
+                },
+                {
+                  "index": 222,
+                  "source_crop_sha256": "1591df14d30a1887535068430d6500ebb7ef118473c5addd00a1bd05291bb119",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0222.png",
+                    "sha256": "6c0afd3a52ef7a82b2608040c1b95615b53af5847d987a2743090ac52c45f841"
+                  }
+                },
+                {
+                  "index": 223,
+                  "source_crop_sha256": "e69339e0a70f7fcde4d9092eaddf14509010481655abcf8eaa799281ad8465c0",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0223.png",
+                    "sha256": "f9f2e238670c9f430aea235e33f137c6490de87849cf329f4954b45b270664c5"
+                  }
+                },
+                {
+                  "index": 224,
+                  "source_crop_sha256": "33caaaa4c66f6bb76b5d85e3ec49dfa5dc5b90e94ace1d49b03382fc4b19620a",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0224.png",
+                    "sha256": "94a62885c6001510163a816612ac988d777374ad73835615c5dda462788a0857"
+                  }
+                },
+                {
+                  "index": 225,
+                  "source_crop_sha256": "53dabfffbe849130d72eb3e424918ff0a599a1ebd99c1cf89472925677d3ddb8",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0225.png",
+                    "sha256": "f23fab2e7b45b7ae6d2b3be0d199554fca9090cad4871a91aa627a90f8589fb3"
+                  }
+                },
+                {
+                  "index": 226,
+                  "source_crop_sha256": "fd4943d046cb434194733ab9e6ed6b409a51f6126c147704aade52135d1509fc",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0226.png",
+                    "sha256": "372c097feee3cd5b149da77d20cea3397afb907d745ad991f4b162367837cf77"
+                  }
+                },
+                {
+                  "index": 227,
+                  "source_crop_sha256": "de2ed7791c7bdca1a90a8e56a1a020961df0c7befad7f44b6babe228e454f387",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0227.png",
+                    "sha256": "c338eb04b28bd412dd2f380143d9a1cd74692fd603c1a8d815ce0022712dc131"
+                  }
+                },
+                {
+                  "index": 228,
+                  "source_crop_sha256": "9abe50501906288349524d898e2c45e005508a8663551ae63ebc1407088b66f0",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0228.png",
+                    "sha256": "a5cb1928d72dd86fb2a8b75a3225e15f3344959b7f98e7eaae38fd37fe33cbeb"
+                  }
+                },
+                {
+                  "index": 229,
+                  "source_crop_sha256": "b592d4268d16d00f5242cd6b90f1784dd3104f685a0bc8a6f16582a078796b15",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0229.png",
+                    "sha256": "31f07ba6d3238ff8b10c9af92a0e11765b98d52795b04a078f44906fd75b5f87"
+                  }
+                },
+                {
+                  "index": 230,
+                  "source_crop_sha256": "15465d96902fabbeb9f3920fe4012f3692745b9dd829d056a7605d864f1b4a81",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0230.png",
+                    "sha256": "3ce2b9b7790b112107c023a6a8c752456b90af24674c8c97415936a94695892d"
+                  }
+                },
+                {
+                  "index": 231,
+                  "source_crop_sha256": "c35323bfa921b7d47d5f17b9b696504dbcf408f6c7c23534733b61ec5b66e14f",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0231.png",
+                    "sha256": "0aab3aa1e9546bc4c312d956de66e25d33ceb3dcef4d1d90b40701bb3fed1656"
+                  }
+                },
+                {
+                  "index": 232,
+                  "source_crop_sha256": "1b24b29efbafb713a4286a261b7401fad684e994fb01e233e809d66bfc054acb",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0232.png",
+                    "sha256": "bad5fdb90c968585996af7d59a6b8119bc85ae154b4c6b1568dba958354b04b1"
+                  }
+                },
+                {
+                  "index": 233,
+                  "source_crop_sha256": "87f68c1eebde793efc0d77d75b972256b7d0a7ef3f1ed2fee2752bc20b54eb05",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0233.png",
+                    "sha256": "195241ecdd883429ab27a13083bc3bd87cba1216809f94954d8e72d9488c4011"
+                  }
+                },
+                {
+                  "index": 234,
+                  "source_crop_sha256": "7a8bc9db00c8fef179ae358682d940bdf6816c92a71d77e8c47bcf38e414eb3b",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0234.png",
+                    "sha256": "8a2b156423dba8346cb8fc5b7a3267af7bf810442f919b903dfa38b40b46e899"
+                  }
+                },
+                {
+                  "index": 235,
+                  "source_crop_sha256": "f78aeded2b2323fbd0b48b1365416f38f4c006825bf1c67554007c070293ee6c",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0235.png",
+                    "sha256": "ba9adc0a4f289b349e36e8b9fbc62dcd6e3ccfe0ee7ad173c636133a4ec040f8"
+                  }
+                },
+                {
+                  "index": 236,
+                  "source_crop_sha256": "be889176660b9cb8da657cb77bf17b48dcb82f77c0139516ea88fe2a13b7bcdd",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0236.png",
+                    "sha256": "6780ab9545fb4e03e5b26acd38897845353a01fb28e92a32885e1adb5fe2fbf5"
+                  }
+                },
+                {
+                  "index": 237,
+                  "source_crop_sha256": "0be8ae345416ba952f1cc20caddb13fcd8fd6d14be1f81972b372ed0fb6c3f77",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0237.png",
+                    "sha256": "c0070ace89599a2c92d60cf5c0824a0e6f9dc406a23de27256c30d61f38d58aa"
+                  }
+                },
+                {
+                  "index": 238,
+                  "source_crop_sha256": "142a1377c4eb4c5a6b731a54f272decbf4928681307de39ec0e5045009d26285",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0238.png",
+                    "sha256": "00b21b638c477caa45c4c2bc921687170b8a71a5ee754e7f459d48bcf78c34e1"
+                  }
+                },
+                {
+                  "index": 239,
+                  "source_crop_sha256": "1adff507d91bf74afd2cf6ab16ce63449ccf652ef4e5445fffacace306d86960",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0239.png",
+                    "sha256": "d7decbd9fcb2cf8f8490060bbc8e22eb782bc23be9d31b10eff4d063bdc338dc"
+                  }
+                },
+                {
+                  "index": 240,
+                  "source_crop_sha256": "5993d4ed1dcd4981c9d759ec5cc191add2dd48e2540c2af118d1a55028462ae0",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0240.png",
+                    "sha256": "49c8cee534a3909e623cd105804d667a202b671d7cd86486a267736895188fb6"
+                  }
+                },
+                {
+                  "index": 241,
+                  "source_crop_sha256": "b1eb27322ec884763602ec3b9aba4c1be590c4c530a3c84d7cd448b51980ed00",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0241.png",
+                    "sha256": "2d15cdb82480e94d5cab2315a7ad391f087bd15ebf926a6252f80ac150fe25ce"
+                  }
+                },
+                {
+                  "index": 242,
+                  "source_crop_sha256": "9d6a495c292000271b180d4d46b8899673a3a167ac4affa3f1200d3a6ee38025",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0242.png",
+                    "sha256": "b738adb4593656290d90a1dc8c8c0be4a535c2bdd0797a5cb4b712aacf5cda58"
+                  }
+                },
+                {
+                  "index": 243,
+                  "source_crop_sha256": "de3522e0d6aa127ef0f045fb76b3879ae18bc4676c995c768a80766a6d209353",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0243.png",
+                    "sha256": "a6956916f80b1316de53be83aa71dbee18435e02ccb2b81f5d7fafac2264f0bc"
+                  }
+                },
+                {
+                  "index": 244,
+                  "source_crop_sha256": "2ce71a4af95b7fb462b50fb88afe50e0c323d25f71b09d256cbbdeca95142ee0",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0244.png",
+                    "sha256": "abc99cf3c5fa89e8821813e498e4d35416e14cd200052133fdec3fbfa3a2c5bb"
+                  }
+                },
+                {
+                  "index": 245,
+                  "source_crop_sha256": "94415e9970db94949ee6d6552c153251b01a06c1230c0fb22c9d83762c549b2b",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0245.png",
+                    "sha256": "7d656f0210971567bcd39413eb7f774d85cac730a0b511964a2c4f00050cc430"
+                  }
+                },
+                {
+                  "index": 246,
+                  "source_crop_sha256": "d52f4ae4d06229bfcf8128bb1e50d06e206a65571a859bffbef1d77db52bbcb0",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0246.png",
+                    "sha256": "13b2da790c586ebe85f2b0b58ac710ac063c8bd6e218c14a4c66cc512dc3dddf"
+                  }
+                },
+                {
+                  "index": 247,
+                  "source_crop_sha256": "967645e8a24b06e0ae0e5e6b74e758e925a34d3329f5033414ae92d8fbfcbe5e",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0247.png",
+                    "sha256": "0060625720b5b83f9673d9a733cbb512200b3f52eec0deb1471eb44039748daf"
+                  }
+                },
+                {
+                  "index": 248,
+                  "source_crop_sha256": "8671c7d1cd9e7a255899d31d2afd8134794c9e5b78b2f13e4aaf18a43f5308af",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0248.png",
+                    "sha256": "40d86c6b4db6888591a563d3a9ce224e004f463432a779f5a3cf1f85831d2aba"
+                  }
+                },
+                {
+                  "index": 249,
+                  "source_crop_sha256": "5288d6b825e6623156e43ddf33fc645dd011003eda348cee1bcd684269a762ed",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0249.png",
+                    "sha256": "fb0642232223b90957b2e52f2de7bd286cfe17cbe660d4870198db6921229698"
+                  }
+                },
+                {
+                  "index": 250,
+                  "source_crop_sha256": "2dd3e9c1aaa6d0cd3f0a5c7a557e0425ea04a5e207bfd89995ae3853a5824362",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0250.png",
+                    "sha256": "5797bebd1e3de94a612debc2638ec2c4cf267eb882c239c2e4238093414ddbd3"
+                  }
+                },
+                {
+                  "index": 251,
+                  "source_crop_sha256": "9ec7e4a3bbb4000d077c8655309eac624557f090ce905b394058c94f96ef83e4",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0251.png",
+                    "sha256": "8239c51e31bf7661c975ac7638677a32010e8936a3c1a0341a5363fab69ee07e"
+                  }
+                },
+                {
+                  "index": 252,
+                  "source_crop_sha256": "c419064af37fe1dbf345a3f2ac8a46ae7611515b60aa62816bc05bcfab66c5e4",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0252.png",
+                    "sha256": "8e970f0c8807c99982a083f25a52473dd325d1ecae4f2a6c5fdacf6ef79d57bf"
+                  }
+                },
+                {
+                  "index": 253,
+                  "source_crop_sha256": "c81248a657cce4cb8b5aa350846d0fd363f7ad7ae9e49d59eb0f741357a3e4cf",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0253.png",
+                    "sha256": "169d9702e1c45f01d158fc2ffb6d24d134148d1d0425d73ecf9b820e33b119cd"
+                  }
+                },
+                {
+                  "index": 254,
+                  "source_crop_sha256": "4f26893fc43e9a9214b1ca693b702d7e015f2c628b372ff440f2ed1af8be4483",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0254.png",
+                    "sha256": "5c41741d7f21e9933834d2aa3c89690e8cf6650abc32ed5e52d9f6b231a2b33e"
+                  }
+                },
+                {
+                  "index": 255,
+                  "source_crop_sha256": "a38c958220c3cbd367707891a9f5e2cebe2a8dd6c4833a60e67a16d08e420dca",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0255.png",
+                    "sha256": "2143171b0fa34838c458c000e06125fbf38d5ee650025d4db2f848572a83b9fd"
+                  }
+                },
+                {
+                  "index": 256,
+                  "source_crop_sha256": "e0fdf312dfe0ec011a4aa88aa52e1b69122541ab7ca502bf6c81f175800ef3d1",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0256.png",
+                    "sha256": "997609b71cc6b88d852b25963cc0486dab2d97ae0a2c829eb99d4b22444e8da3"
+                  }
+                },
+                {
+                  "index": 257,
+                  "source_crop_sha256": "c4711d0cb06db6ae7d19a793466ac9c844cdb42a4ea57d90ffc63a9f36373741",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0257.png",
+                    "sha256": "f8c44c0a317b2d6a1688aceb464f354c6737bfd163c4af3f9b4280f1c898d9e6"
+                  }
+                },
+                {
+                  "index": 258,
+                  "source_crop_sha256": "4b4b85766b78e4bae518ad786fc7431fa5f34efa8130f930f8e98a1910842f18",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0258.png",
+                    "sha256": "17969a6c47f7874dafc82dd2d3f09aa2d39f2ef53195900cb9d008d42ba98765"
+                  }
+                },
+                {
+                  "index": 259,
+                  "source_crop_sha256": "7d398f9547d604a654ca4078c84d5e78d0c317c559f401f16af4849309134e83",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0259.png",
+                    "sha256": "0af493eb41552153d1395e1d53686a590c2f7c832a52ad15cbb657a881ecd349"
+                  }
+                },
+                {
+                  "index": 260,
+                  "source_crop_sha256": "44146fd7f6f54c150266395f6dbf4963ae8d40a61deb3db49cb58cf036b3f225",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0260.png",
+                    "sha256": "b1f9ef7ff21e25423e7f6d47843844fea16920ef9b4824aeba61df7af9514bc7"
+                  }
+                },
+                {
+                  "index": 261,
+                  "source_crop_sha256": "d09611e409f9d1741fadda5a23ee7cd573737d9ca42bd0fdecacd2fae2885c54",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0261.png",
+                    "sha256": "2d918703b2f0eff59cc8d4e19257b7c5d3dd9abf846cb009fdda0f3854910183"
+                  }
+                },
+                {
+                  "index": 262,
+                  "source_crop_sha256": "0843382e6f7e4f7a459e44170651bc65766347097abc644f8cb0077886e3a9dd",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0262.png",
+                    "sha256": "67f81f3f6924145b222892d32ed8f94e480bf4e3929a29c65504fadf6110d9ff"
+                  }
+                },
+                {
+                  "index": 263,
+                  "source_crop_sha256": "e069ce522a85a3d961cb194fa9c38fad0fb9b1a9ff739fccffc4f2ef6b1ef8a9",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0263.png",
+                    "sha256": "74ed92533299c113f36fd62befc64d5df58cac11b50bd8cb4992a04b5efb77ee"
+                  }
+                },
+                {
+                  "index": 264,
+                  "source_crop_sha256": "3a558b0f4dfdd5886a3d6e7b444331efeca51d083f052ddea4d5b1d1b3686016",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0264.png",
+                    "sha256": "617ae652fba9e67f0664cf145543ff19cba14cc5f9a4eee2374be5b577a80a48"
+                  }
+                },
+                {
+                  "index": 265,
+                  "source_crop_sha256": "29ad5848656e91d25de788e6da49f747861c89d9e7f80022b6072d1bfdb86ad8",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0265.png",
+                    "sha256": "45b555a78a51d7080ef50cb79966e3741d221be77ff7c36594f84c830ed612d0"
+                  }
+                },
+                {
+                  "index": 266,
+                  "source_crop_sha256": "b9546ce2de93855c4507a377f6c3c6f072a882e285501ca1e1ea1c7250646610",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0266.png",
+                    "sha256": "e0973ce2839aa0a6b5fb4c6c8b3116b11846b5df6f949f486f767e36f5d90fef"
+                  }
+                },
+                {
+                  "index": 267,
+                  "source_crop_sha256": "d0ef1fe3ae9ad5cf470519c4af6ea745cdae7ed3703df48ae0a72562d51d277a",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0267.png",
+                    "sha256": "a5362d54a58e4b7d1a4afd915a8e9ad007d8892fddf7340f22d3356b1dd953fd"
+                  }
+                },
+                {
+                  "index": 268,
+                  "source_crop_sha256": "95daa1c67d434fa91a793bc86ab0fa28e560e27b49d41b81fc2c3c7647832367",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0268.png",
+                    "sha256": "da9dbcc5eebff3184c2fec0ed14b609f67cf808306108c613900a27a2769fa07"
+                  }
+                },
+                {
+                  "index": 269,
+                  "source_crop_sha256": "ac7223991bb193790835db5e6f6be2532626b4d3bbe467ae9df3db8058843a12",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0269.png",
+                    "sha256": "0c0a0d03e5015dcaad6beb155f11f94e9d605f0700c15d6dc07cdef143e73e6d"
+                  }
+                },
+                {
+                  "index": 270,
+                  "source_crop_sha256": "cc005c8b13be6461c1b7c10f8032b277fdd54a75b2a744e560eabf1f4137dc6f",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0270.png",
+                    "sha256": "33566dab7b6d16fe2ee60f8baad47b0797aa2d1c06dc966a200df46445f4170e"
+                  }
+                },
+                {
+                  "index": 271,
+                  "source_crop_sha256": "9a52230681ae18f1054edae776944e50675dc8d0c680cacddeaf67bb48cfe1e5",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0271.png",
+                    "sha256": "276409428a21a01cd52d7ce69129b919ff1cdf5547fb481a2f252333f961a7e6"
+                  }
+                },
+                {
+                  "index": 272,
+                  "source_crop_sha256": "c21ea0837044f205cb2791731ff49c38898420ed33f57dba9779a637dba0a2c1",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0272.png",
+                    "sha256": "c3fa822edbfade4a6bee4e5fd0a121f412e943a7e1d1bd37d068586102146306"
+                  }
+                },
+                {
+                  "index": 273,
+                  "source_crop_sha256": "58734b5a5aa29961610bb265d3009267cbc76544546890b0566c11b8397ee4e0",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0273.png",
+                    "sha256": "655e5c1a5173c77016a3e865f99dee785fbd2bd66fd10b4ecf5722e52ff954d5"
+                  }
+                },
+                {
+                  "index": 274,
+                  "source_crop_sha256": "6245f93cc022db6e85b7db0c7e104f77c39331dab652fb8e438e87fc0bdb9694",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0274.png",
+                    "sha256": "41931b6795a3808388a9fb56a0ba496b2de2b6a196b829feefefa7e5d7ef4b11"
+                  }
+                },
+                {
+                  "index": 275,
+                  "source_crop_sha256": "828c3fb39437ecd6d71e0633cdf7781e5d2ac25dde43b0f62e9d514e686bfdbc",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0275.png",
+                    "sha256": "5ac8b5f392f8b14ce0728d72af8e9867ed1ee2c6e276ffbc179f12408638c5e0"
+                  }
+                },
+                {
+                  "index": 276,
+                  "source_crop_sha256": "cd701c17adbc8686ee5347f72401aee9b4c01946997dbad7d80f849470e6c504",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0276.png",
+                    "sha256": "23f36a170396265ebeecac4e24641c5cab706e2d2b5a0c6b39eceeff9942b2c7"
+                  }
+                },
+                {
+                  "index": 277,
+                  "source_crop_sha256": "dade6c812aeb9863da00ac625e03fa5c6e8a1e0c9d898d80c27b91245a5ba2c4",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0277.png",
+                    "sha256": "c8d462cec3654e5e628cc8fa7c191b1dc715ab36f7df2e10fc5e6e3e68e551ea"
+                  }
+                },
+                {
+                  "index": 278,
+                  "source_crop_sha256": "cdde4813f775d834f1e1eabe4aa5ddecdc49415abbaab371f6441e6d0719991a",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0278.png",
+                    "sha256": "c6221b67a91301e9bc95b51db7d9c757d47b79f46299ee66756662f7e95aa5f1"
+                  }
+                },
+                {
+                  "index": 279,
+                  "source_crop_sha256": "ca2587305e45a3b4cfae96a89fa4606aac0e2c3429ab6e11a7022ca32f45106a",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0279.png",
+                    "sha256": "c108a361090397df7607c9280beb50a894addb2a9b8c583b9a2a88dc5faabe88"
+                  }
+                },
+                {
+                  "index": 280,
+                  "source_crop_sha256": "b9e2e1306ac713578a9c84cb2860ea5e1bd02bbb4bdba7deaf96dcac419afa7c",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0280.png",
+                    "sha256": "21846611408eedcf904afd094d927998ffacd7d5d7d44f0cc2c39946f86cacb6"
+                  }
+                },
+                {
+                  "index": 281,
+                  "source_crop_sha256": "1ed4a633a662bc5601e62f8c457ef9933658fa5fd2f4cf2f1931766d7378fc62",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0281.png",
+                    "sha256": "8806ab095104b9881e64b64f4f5749a6dc6b2616ff09f5503d81c6bca4556a92"
+                  }
+                },
+                {
+                  "index": 282,
+                  "source_crop_sha256": "b80157242391b03740c5c25ed736f5a8e8ba089df65222b3a26447950b0e16f0",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0282.png",
+                    "sha256": "0e7ee2ca4bfdf2e7096761100ed0ce1436cfadbc3c769b7d54b5f44af7ec8fb9"
+                  }
+                },
+                {
+                  "index": 283,
+                  "source_crop_sha256": "81f79b626829816472615504a6e25cd0bfaa842d8c04f2dfc02e6382b85cac5f",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0283.png",
+                    "sha256": "59886fe80dd0e480f397abb1647cab7b1e590dd9712daa3bbce5b93049d3beb2"
+                  }
+                },
+                {
+                  "index": 284,
+                  "source_crop_sha256": "9e6123b87f1f79145a142479f6c1864ef3df3eb7733252917abf6b076468e94d",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0284.png",
+                    "sha256": "d521688ca0d49f9e9d398bdb8e1f2768ecc4d83c07ba38753eea57370fc39e01"
+                  }
+                },
+                {
+                  "index": 285,
+                  "source_crop_sha256": "86c2a75b22036d8145912f2b790794c39ae63d3fa8d9af6e5437953d3d438eca",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0285.png",
+                    "sha256": "4c7506a76d68f945131d1761789f922e4ca18260a06b93af59162c8c32002d4c"
+                  }
+                },
+                {
+                  "index": 286,
+                  "source_crop_sha256": "fc331f46e98a019c288be616736ca54e49e2710d605626298b92bce52f344d7f",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0286.png",
+                    "sha256": "14ae5e850ad1bb52677b3bfd01460bf7c67539fd8d90fa63de2e47b258f46d8e"
+                  }
+                },
+                {
+                  "index": 287,
+                  "source_crop_sha256": "8281355bdfd64aede7894d4eedf7a31572db9f5d1f9f3fdb99cf08018004dfa8",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0287.png",
+                    "sha256": "c52935ae7f7f50ee674ef156cd4710a9586fd9558bd047f2176ae6052dd513f0"
+                  }
+                },
+                {
+                  "index": 288,
+                  "source_crop_sha256": "6905c5b168351c3038e2dc073505b4ead043a51514e5ea2d864c7dacd67ac686",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0288.png",
+                    "sha256": "c1d0716e6ea3484cb2829c1a8def67743d1fda981a40de89f30c6898c8e544a7"
+                  }
+                },
+                {
+                  "index": 289,
+                  "source_crop_sha256": "c1691417fc31db1f51b491a6ad87febf8a00c1d349eac1fbe7dcff35a28ba8f3",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0289.png",
+                    "sha256": "a8bbe02443abadfbbf97184a5587b9317b34194d7a379aac0d015b930a7552ea"
+                  }
+                },
+                {
+                  "index": 290,
+                  "source_crop_sha256": "9ab057783dbcafa1f1ad2c6c50b7b7480615c9d69cbdf791f05283479600a6b3",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0290.png",
+                    "sha256": "640334e22b4611fa8d9fb968121b6b3a040e2d5efbac89bd6b10bb7bf637d3c0"
+                  }
+                },
+                {
+                  "index": 291,
+                  "source_crop_sha256": "e8fa96550f9b9c717bff6c1020efa5660af3e0e768cccf00243cc7bfa404df37",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0291.png",
+                    "sha256": "65f97c8e5062b602d7ff8a7297cb0d98135e44747b47a0c6995566cb25200259"
+                  }
+                },
+                {
+                  "index": 292,
+                  "source_crop_sha256": "41169c495e8ce9c06640e681b1a5bf77c7196dc5fdfa297127cb8eabde103084",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0292.png",
+                    "sha256": "56ed1b40f13680a7e80751c57f85bcea04d539be8c12043567a21ad9f7a7afc7"
+                  }
+                },
+                {
+                  "index": 293,
+                  "source_crop_sha256": "fadd4f3c75fdb87bc96e96fab6f2e78c88318460fe9cfa66cbd204f8022465a0",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0293.png",
+                    "sha256": "00635e0c09ba48be74f60714c80c8e2686e67ee3c24be033f4419c91b21cd505"
+                  }
+                },
+                {
+                  "index": 294,
+                  "source_crop_sha256": "d56fe352c3f2a83de4c7481a9e871547e70e6c34c6ecc5173df51b883f4a6e06",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0294.png",
+                    "sha256": "b59fd860d0f515d61a5a5a711034cab80a80ad17d8a5b60116d1b133741e1f49"
+                  }
+                },
+                {
+                  "index": 295,
+                  "source_crop_sha256": "eb4f9750ae19653bd215889f5204412ad36273ad033f0e7d5e6f90dd671ac9c9",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0295.png",
+                    "sha256": "179d9090c3e702ee5fd509f82b854b76c543dc3cd5c423ceea7791e3baa7e62a"
+                  }
+                },
+                {
+                  "index": 296,
+                  "source_crop_sha256": "e296a2a0d277b2a68977260ee698724a8e1f6f257a490e0fb0bef0407286f7e6",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0296.png",
+                    "sha256": "6749688a4199701dbea2018c025b58cf5ab6482e1cc7bfc54605dd4636ecef67"
+                  }
+                },
+                {
+                  "index": 297,
+                  "source_crop_sha256": "de0ae8b7fe048f6a34e9a8ab715aa3b05504a019220b3d1e6e6b7b3a049723de",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0297.png",
+                    "sha256": "692a01135c85b782f769d6ac8d8205a5fc8e3d8ef624b52b04b69eba07bab733"
+                  }
+                },
+                {
+                  "index": 298,
+                  "source_crop_sha256": "4744cbe366b0caf802d1b06c6998f2f95ca617d89549ab8bf68fcd881ae5189a",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0298.png",
+                    "sha256": "a457689be9d1afc4c1028f5db79aabb29c98bdfc521866036060e2fdd76e58a8"
+                  }
+                },
+                {
+                  "index": 299,
+                  "source_crop_sha256": "940f59f96de753dba1f72a4887d909fb22ccf95bf73f104fec4f11aa14cab01e",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0299.png",
+                    "sha256": "01588c8540d1026eba87a99f69a752b4d7aeb6843880b0858faa840c544f7de0"
+                  }
+                },
+                {
+                  "index": 300,
+                  "source_crop_sha256": "af5fdd29a579ff3806b7ffe7de066ce54eeb7fcf90e6c914c40e9427aceb05d9",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0300.png",
+                    "sha256": "f3f01f660ca17931c5662073ea5054956d487edfbb565289b96ce782e200c883"
+                  }
+                },
+                {
+                  "index": 301,
+                  "source_crop_sha256": "44cdcfc670b79c11de645cbc4633a615901342273dce591eba1a45df2b6a6a8f",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0301.png",
+                    "sha256": "0ec35c7ef22a20c91fa12042c748d90c4d68330553bb57af916e8b8fd26c779f"
+                  }
+                },
+                {
+                  "index": 302,
+                  "source_crop_sha256": "ad0dbace5a112e10c31ec048ea9af36bc7273b54ba28520aa3b1b88d6ac9c94a",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0302.png",
+                    "sha256": "272945ce1f671606ab8f955462fac14e59b56d7902448a81345833d75c1627a7"
+                  }
+                },
+                {
+                  "index": 303,
+                  "source_crop_sha256": "ac2dce284258cd5fdcd993929952834a72992d5e00a05bc9d96ef452f329efa2",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0303.png",
+                    "sha256": "c4a48a733b3015404b2e7d6a70e97b8135fc1238a023d38355fd768eaaa8df64"
+                  }
+                },
+                {
+                  "index": 304,
+                  "source_crop_sha256": "1187c76871e4598bc98c130b938e6952c5ba8346fe858d2c013dbb904c3146d6",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0304.png",
+                    "sha256": "bc729a8ab4ea9a384767867a9535ce72832efb7060964cb1b5a1129b70b73e61"
+                  }
+                },
+                {
+                  "index": 305,
+                  "source_crop_sha256": "ef80ac8fb2b2abad7447cee32ab29ff04d9bc463b2798d039719267d70c20637",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0305.png",
+                    "sha256": "d0c13811ff68980ba877532c162a8c034f422dec6c3a4df52aec69660bc38fbc"
+                  }
+                },
+                {
+                  "index": 306,
+                  "source_crop_sha256": "9e68cc9af7cfed7c1dfb47b52b5c814e13a547f83256ec83f71ca1b362b621dd",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0306.png",
+                    "sha256": "2ffbe61a5235ebb8c12c1ffc444077c0552bdc677b3cb7afa9ee87fe07c8d305"
+                  }
+                },
+                {
+                  "index": 307,
+                  "source_crop_sha256": "9ef2572d65eccc641284b396708965e0964f45388aa9b265c9aea48026863e68",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0307.png",
+                    "sha256": "bfb8d0b648a4fd5aa24f61f40c30646e683d49ab3f15974540daf001465976ca"
+                  }
+                },
+                {
+                  "index": 308,
+                  "source_crop_sha256": "a818ebe39d7179f99bfc85ce8bef63f27763b8d63c86f8f68361d9095bf56b33",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0308.png",
+                    "sha256": "4c272fd9b2f2a732201081da5e24d5810a6678e295d2e6620093bc68a377167a"
+                  }
+                },
+                {
+                  "index": 309,
+                  "source_crop_sha256": "dabd61a0facae1f7868550c2a1322457992984bdbcffe765a262c575364d3fe1",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0309.png",
+                    "sha256": "815eb4306315e002cd1c7a70dfdd75e337a8e76aa22910383b952945c982c770"
+                  }
+                },
+                {
+                  "index": 310,
+                  "source_crop_sha256": "50d2bd4d8c4c69ff970afd43797f08c679af382e1f5a9c2c59e3f4ca46348d7d",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0310.png",
+                    "sha256": "51f72a3cd2b07457e58698e1883d4953ac182d3acf3c10ec85d9d1a2c3cfed34"
+                  }
+                },
+                {
+                  "index": 311,
+                  "source_crop_sha256": "2733f531e1203002bb3cb6dbbff56befeaf2b83ce5997b716a05e1f9ef3050f5",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0311.png",
+                    "sha256": "6d5aefff647f21cf7effcbc8b5b6154c65908edc1e5ca70cca621d81d3ed5472"
+                  }
+                },
+                {
+                  "index": 312,
+                  "source_crop_sha256": "f1cf93d5287a13095e4b3e994b647947bb16a129897b9198878b938785a73a9c",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0312.png",
+                    "sha256": "ea3481dd64174bcc0a2ca1cf1a4fb034fed84fe2cfa3c492786a7a907a56d22d"
+                  }
+                },
+                {
+                  "index": 313,
+                  "source_crop_sha256": "e077d17717fc69706bdd66e5b2ef0856758e29a6cc641e8d74ab4db77ea6ca02",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0313.png",
+                    "sha256": "b5200b532ed1596047e9a98c78f5909d52efefadbd2c94225cb16847e33f62c8"
+                  }
+                },
+                {
+                  "index": 314,
+                  "source_crop_sha256": "0fa93f34c236e7cb3f96077ff8787b73227b9a9ac9c9f097496048ff154758c3",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0314.png",
+                    "sha256": "96f3a376b8447b8a9164711c2e123e4e9c0d8677f035b69ad3564d28ba3c951f"
+                  }
+                },
+                {
+                  "index": 315,
+                  "source_crop_sha256": "9be294a44e1a1549b408175717935bb9259694f7eb70f7f2e9c56a49382999f4",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0315.png",
+                    "sha256": "5a9352bb0d82504b76dfceced01bfd29c4988c4a5b3777e3ec763a35f75ed0d8"
+                  }
+                },
+                {
+                  "index": 316,
+                  "source_crop_sha256": "75a3fa2fea7f86664c1c5a5c3bba516adf7c08110ab4358951c81167415e61f2",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0316.png",
+                    "sha256": "59991020bfa644711a03a36ba3fc7c179be14b0bc18f8d34578195e11d740169"
+                  }
+                },
+                {
+                  "index": 317,
+                  "source_crop_sha256": "9e059d5066d832906906d889a58605775dbc4b6e031396954025f4f859165e83",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0317.png",
+                    "sha256": "6ef286c786eda27ae2c49a64b10fb0967b02c41a1faf6e4ad39d8d4a93d2ffab"
+                  }
+                },
+                {
+                  "index": 318,
+                  "source_crop_sha256": "5b019b16ab25d86aee6b5a177b6697a696ead20665c4a3fd2f819ae785ca9a2c",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0318.png",
+                    "sha256": "87455083ea11b9274be9eb14a4bd1ebcb16ae6d7fe3ddbd88fca473e70f22b13"
+                  }
+                },
+                {
+                  "index": 319,
+                  "source_crop_sha256": "392efe591f41b539790f691bc8f08c00cfab283834a6ae23f4e15817668ccc6f",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0319.png",
+                    "sha256": "379a92dcd13d091d62ee06a7782f13e35584e3e7f1cdcadbddebbc1a148f49df"
+                  }
+                },
+                {
+                  "index": 320,
+                  "source_crop_sha256": "77820acac40d2d048e609a8275312264609366a52cfd3e5bfe4513b9beda52cb",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0320.png",
+                    "sha256": "8ba1c4f6ae9ee3294a940355897e8f07a3c66d7357cec92d5db93106a8747a9d"
+                  }
+                },
+                {
+                  "index": 321,
+                  "source_crop_sha256": "6e54f17bb338f1e49a10e19791758a06e700707acdcb7faca9f5bd343a7ae150",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0321.png",
+                    "sha256": "52ac39e2114f3db258728947ea796fccdd235ca6e5b3418c7604836c5425e03b"
+                  }
+                },
+                {
+                  "index": 322,
+                  "source_crop_sha256": "c2a852e865b3117bfa9a0c1e2b3d794f9a8200a7cb0a932f179651e3d8eddc8b",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0322.png",
+                    "sha256": "74a5736d3405e16aa7fddb0b8c66d5ca468596909aeb1782600cab5c497ddde2"
+                  }
+                },
+                {
+                  "index": 323,
+                  "source_crop_sha256": "ba180876516b46b957a2e069954a46111e16ad6e62cf850e3d3b00d66dde3775",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0323.png",
+                    "sha256": "36a33ecda476f32027962a63308a9d78d3093de229d830163540e20e7c723218"
+                  }
+                },
+                {
+                  "index": 324,
+                  "source_crop_sha256": "d1664afaab55b5aa686174821cdab7ea0cdda1078a95900444e8aaf15206a56b",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0324.png",
+                    "sha256": "ebba3dd9f8147a0c249a2818c8c0512263248e99af16ed3a1453074215cc5de7"
+                  }
+                },
+                {
+                  "index": 325,
+                  "source_crop_sha256": "ea51f0b49a57c3fa752f24df5da3251bf2eff44efdf4f8bffed948e831efa8cc",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0325.png",
+                    "sha256": "700566ea61c31dbd5f9906ec5e991c2e203866d4ac14ef56d1839fbdafef810b"
+                  }
+                },
+                {
+                  "index": 326,
+                  "source_crop_sha256": "ea20ba8dc57455fc3a2fb947265de50080bb437763075e502940b849b5b1d74d",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0326.png",
+                    "sha256": "f7f5039cfc3308c44560454efac9433e52ce02bbbff25f19818a1296bc641da4"
+                  }
+                },
+                {
+                  "index": 327,
+                  "source_crop_sha256": "c26b330446eff3177dbfc080d2b3746efe550c0998a881e666c072047c4229d5",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0327.png",
+                    "sha256": "8f4d370642dd61d9199788e8069f203d6f3402b7cbc418ce5104922b59a98d48"
+                  }
+                },
+                {
+                  "index": 328,
+                  "source_crop_sha256": "b358e0baeae030871c0b8bb4b3dd5a18aafbcd5723448598720593513d6c3466",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0328.png",
+                    "sha256": "ead8296a2f40a362428eb30b288fcfd443e8d92759ef516ad72f68a803d87722"
+                  }
+                },
+                {
+                  "index": 329,
+                  "source_crop_sha256": "6f4833f1bfd7fa5259af7b6d05a1f668edef52781fe0d49bbb3a5cc46db2dcce",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0329.png",
+                    "sha256": "f5bc319ca78e4a463fcaa3e7da784c3058a0d2cccbd2e1b2907d855b96c1903a"
+                  }
+                },
+                {
+                  "index": 330,
+                  "source_crop_sha256": "19fa7c355260a816096e2f356987d2467c9cb599984980a7890afb967577d8b0",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0330.png",
+                    "sha256": "e6b5918f6353f18b2073072b340c67e6327929b4309a830a9d07d47f448ce5da"
+                  }
+                },
+                {
+                  "index": 331,
+                  "source_crop_sha256": "ca14a38a8e1d09505d97523f0012abdd6a712f95c9aa317ed521102026fcd626",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0331.png",
+                    "sha256": "9eb804362263a4acf799ed6c0e648e8326a6d631447fbfd61d0bbde88b85dac0"
+                  }
+                },
+                {
+                  "index": 332,
+                  "source_crop_sha256": "a6f4a1c69f95843b675c37de24d5ac822934628f5f2d01544f7b277ab778a861",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0332.png",
+                    "sha256": "43b2bf4e4213b1609b40ce1b6987b89c466a1452e744c354ee76b1c55f88de0d"
+                  }
+                },
+                {
+                  "index": 333,
+                  "source_crop_sha256": "7801f75efd33d50daf922ef6855a6030dd0769558f8d5329be6849eb538329e1",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0333.png",
+                    "sha256": "cd050c1e3ba0ee73e6c21846f75bb95b2ee6423930436b69cbda07ab53c67b03"
+                  }
+                },
+                {
+                  "index": 334,
+                  "source_crop_sha256": "2074abd611aeab85b69169eb21c3068239bf92726cad24e5d3dcbf4ba5da6449",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0334.png",
+                    "sha256": "4bea3001e66be0c95638214abfed47b90e9244cc4a18693824bd8c6db1e7ad2b"
+                  }
+                },
+                {
+                  "index": 335,
+                  "source_crop_sha256": "cf3afdd9e868b9b170b88817606592edcbafd4df64058c12422077df7df8af5c",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0335.png",
+                    "sha256": "f09333c4d023ec5a8506e9e21fcb538a221cdae0b63c43ca1df4d18cd61f0ed5"
+                  }
+                },
+                {
+                  "index": 336,
+                  "source_crop_sha256": "5746a61500c41715a165150fb26b2fd9a8a5cec2fdb85770ef2dfd1852f99b3d",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0336.png",
+                    "sha256": "955702bca410c69c2ac483e3a9f5c2c91a3f83303b8fff9e85838fd0e7c95ab1"
+                  }
+                },
+                {
+                  "index": 337,
+                  "source_crop_sha256": "7778a9797d9898ec2aeb6a65939a54c3276c60c2a293daae5bc6d4d850891cfb",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0337.png",
+                    "sha256": "45be44e1465b21ee723aacaa5533b48df30f4e9c0b30a438d27c63b8ade2a8cc"
+                  }
+                },
+                {
+                  "index": 338,
+                  "source_crop_sha256": "5acdda82985ef2b92a7d114ecbae2bd50182929b4f3a1e5048ab6e85b7ca84af",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0338.png",
+                    "sha256": "abdb2dc38726ebd2dafbcc5e6293b7f12bc9eacf3d5ba3ff794cc765de08b6a8"
+                  }
+                },
+                {
+                  "index": 339,
+                  "source_crop_sha256": "4373d0be4db8093bc2276518d2301b74a4a06e24bc7b0900c09de6b08e0a9683",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0339.png",
+                    "sha256": "eb9ddcf9f7874d55e6d296229601056a44b3a62d7002fc77aa8fdc61bcd87dbb"
+                  }
+                },
+                {
+                  "index": 340,
+                  "source_crop_sha256": "75c11fc2d9601eb50079e3e46139b516c2a8cbb89986bba5d1ec5151bc717270",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0340.png",
+                    "sha256": "00836351de41117c7f5c5b8f237ca6758ec1e9eadad9f5b20a153b41df01c2ac"
+                  }
+                },
+                {
+                  "index": 341,
+                  "source_crop_sha256": "30c3a9989b45ed836e41aaa43382f68f714ee7c6559a414a640ddd81f9918147",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0341.png",
+                    "sha256": "e974fd1ea5b8eb8e142ea31b35e3ab46513076425d6dd29c264ad40db048e198"
+                  }
+                },
+                {
+                  "index": 342,
+                  "source_crop_sha256": "7cb1eef34e15443e8468837c11796bc8a7173ff93177d3a4ff994d474ac09c87",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0342.png",
+                    "sha256": "450f00893a5b6cc4b1cbc77e938a59a1859deadf361974a6f066b2dc05eb2df1"
+                  }
+                },
+                {
+                  "index": 343,
+                  "source_crop_sha256": "074e937348c370117dbf1e959828a6c572d16bf16744a2cba2b0c5fe1c6a3ddb",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0343.png",
+                    "sha256": "0f7f1a3317aa0bce77ab7e52051f137334e415eeb6c291fa69ebdbd3ec79aaf0"
+                  }
+                },
+                {
+                  "index": 344,
+                  "source_crop_sha256": "984c51a188a513081a117c4aceacd65927c51be58dd8385c25e8c1edba5c9234",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0344.png",
+                    "sha256": "b961d0690815cd5851a2d9621e57e7c1e98f3f6216f968cc0d05022ecbab1183"
+                  }
+                },
+                {
+                  "index": 345,
+                  "source_crop_sha256": "acef5b7dd20a5afa4f8534e709375e95bd8d2988c143feaffcdc5478ef7731c5",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0345.png",
+                    "sha256": "7124f8e47e1e0ffd1832d7ab3c1a0c2d15b04391cbee0f0b25678d681a080c8e"
+                  }
+                },
+                {
+                  "index": 346,
+                  "source_crop_sha256": "b6de347d630acb435e7c466fc52f291c9c7ab55e630b7f931c13303eaf45fba4",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0346.png",
+                    "sha256": "ecce968af568f67475761c97f3d4a3d59bfe2d09095042ce4761bec79a00875b"
+                  }
+                },
+                {
+                  "index": 347,
+                  "source_crop_sha256": "31df910405d02232a104964650b1eb599d1903a788ed816d175a3b27577c5eb9",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0347.png",
+                    "sha256": "671551c9d893828b63edf29e654d7f8dac83656e2a41e4d5c456c8b3ee4aa9f4"
+                  }
+                },
+                {
+                  "index": 348,
+                  "source_crop_sha256": "acb7150ec976c54dba43341e1609db7086d8a69dd30830b9c2486a70a450784f",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0348.png",
+                    "sha256": "e324c11824f5663b8c456dbb5db0f6fd4d078975d2a0df57640890840e345d0a"
+                  }
+                },
+                {
+                  "index": 349,
+                  "source_crop_sha256": "490c81aaf0ac1499aa6a5c18cd489d1060d7163076acf0118e13b22d8e4282d7",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0349.png",
+                    "sha256": "a20b6b8ba2d6cbb4f61267bbb2a0a779e46ba327996c722ecedc1809f292a49b"
+                  }
+                },
+                {
+                  "index": 350,
+                  "source_crop_sha256": "5fb692ad490b01a37e696efc09cdbc43e6f890d879465b03ecf100f6a104f97d",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0350.png",
+                    "sha256": "d9db0800e5b0a2b1e6e65341d85b26b0fd975a7dbc48c20db0659663ed5b5623"
+                  }
+                },
+                {
+                  "index": 351,
+                  "source_crop_sha256": "0ce27c18f6221cb7430de67e14f9ceb7ad8fa770bd6d65f5d4f3b3945fcc88a0",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0351.png",
+                    "sha256": "b53978b3b08a430a2595f540fbfbc1765e6ec2b8e54c802a2b545ffb01924dbf"
+                  }
+                },
+                {
+                  "index": 352,
+                  "source_crop_sha256": "2f90f1b91be877c77a0e78692fb7d5b5ec332f0755ebd565a649b1e19427db2b",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0352.png",
+                    "sha256": "c9fb83e4b165498a162a2de7b83e31c70e992c736f6ef628dfaa8f66841960ef"
+                  }
+                },
+                {
+                  "index": 353,
+                  "source_crop_sha256": "87168dab21f67435286666ae66bedb70e5033c6fd3ff83a826e79e5e082c8007",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0353.png",
+                    "sha256": "78084a2b30379faf12b596bc504f04ea1120a7540ece2e4795c853a7bc52fa8b"
+                  }
+                },
+                {
+                  "index": 354,
+                  "source_crop_sha256": "2a524636f15fea7ace30547f417038562847f37b9b25fbcdddd2fac4b423b35e",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0354.png",
+                    "sha256": "a74e0071ac9b7a42c318492d7b691353bdcfbd389c96c78102018aa9a1963ce9"
+                  }
+                },
+                {
+                  "index": 355,
+                  "source_crop_sha256": "e4f464332d4c78e8fe6954798af0f688b9003193ee63e230f78295dc8a3d425b",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0355.png",
+                    "sha256": "ac2f783ac4bd65a412fec46e41aa4450217dfb0b9e861a808434b2f356e95b1d"
+                  }
+                },
+                {
+                  "index": 356,
+                  "source_crop_sha256": "25ff15db351d425c20fdc634558759b22ee682ba646f1697eb03c4e34569a05c",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0356.png",
+                    "sha256": "ee6b2463cca04799b6b622723911bec3f4d7bd7782beb000edb80f96917ad997"
+                  }
+                },
+                {
+                  "index": 357,
+                  "source_crop_sha256": "207b45b5ab0c193cd6e482476168183999ecceccb323ecfacf6e7f12b62d9c59",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0357.png",
+                    "sha256": "131ca0aaccd4641bd0fd1b1cf65ba94de9b7a1e14a3180501254bfb1e4639e27"
+                  }
+                },
+                {
+                  "index": 358,
+                  "source_crop_sha256": "d29c64584374295313f9cea8b5687528aa6fb356c28da80b0e28db1fd227ab10",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0358.png",
+                    "sha256": "950349cf4590f07855d7e4736383d42cf684265c71ab7b23c932dca88e66fe8a"
+                  }
+                },
+                {
+                  "index": 359,
+                  "source_crop_sha256": "6a44e4b544a6c4b5a440eba1a34db6c88ff1e83ebb01c1424edb5263c555aac6",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_11_lastrada/0359.png",
+                    "sha256": "e2eaaf079d8a9b16ab4990f5e34d8b46bd66b8ee12a6a4b7f7b6de89d04fbafe"
+                  }
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

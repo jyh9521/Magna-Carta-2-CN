@@ -1,0 +1,3447 @@
+{
+  "schema_version": 1,
+  "kind": "bink-audio-caption-plan",
+  "locale": "zh-Hans",
+  "game_rendering_verified": false,
+  "source_font_identity_recovered": false,
+  "style_basis": "Per-clip native measured visible ink/baseline geometry, left-anchored serif destination title, and source-normalized map-specific foreground gradient. Finite-guarded temporal RGB propagation copied only inside measured old glyph+outline support. Native compass/point/all unowned RGB source-exact before encoding. No flat fill, width stretch or covering bar; hidden RGB remains reviewed reconstruction rather than recovered original art.",
+  "rasterizer_versions": {
+    "Pillow": "12.2.0",
+    "numpy": "2.5.1",
+    "fontTools": "4.63.0"
+  },
+  "fonts": {
+    "caption": {
+      "path": "build/font-source/NotoSerifCJKsc-SemiBold.otf",
+      "sha256": "d627b53dbcde61e07de1498d2623a8b287f78585ffbc90cc0618d0caaa2ed6b0"
+    }
+  },
+  "entries": [
+    {
+      "id": "worldmapmovie_08_ruhalt",
+      "source": {
+        "file": "worldmapmovie_08_ruhalt.bik",
+        "member": "MC2Game/Movies/worldmapmovie_08_ruhalt.bik",
+        "size": 26689176,
+        "sha256": "34bbe59cd06f627b49ef5681023e3ecbc16a9995a9957ab17925f32cdaeea16a",
+        "first_rgb_sha256": "4dd9563e76e9f9f6da601a843a4d5058b24153895ec19df27749edc5e5e1719c",
+        "discs": [
+          2
+        ]
+      },
+      "expected_header": {
+        "width": 1280,
+        "height": 720,
+        "frames": 360,
+        "numerator": 10000000,
+        "denominator": 333333,
+        "magic": "BIKi",
+        "audio_tracks": 6
+      },
+      "maximum_frames": 600,
+      "maximum_encoded_bytes": 134217728,
+      "encoder_timeout_seconds": 600,
+      "source_text": "루할트",
+      "translation_basis": "Exact baked destination name; reuses the adopted project place-name. Native em size/advance is retained; natural target string length is not width-stretched. Not the independently unresolved postplot chapter-title route.",
+      "scratch_reserve_bytes": 8589934592,
+      "minimum_start_free_bytes": 17179869184,
+      "encoder_guard_frames": 1,
+      "review_frames": [
+        0,
+        1,
+        2,
+        39,
+        40,
+        41,
+        79,
+        80,
+        81,
+        119,
+        120,
+        121,
+        159,
+        160,
+        161,
+        179,
+        180,
+        181,
+        239,
+        240,
+        241,
+        269,
+        270,
+        271,
+        319,
+        320,
+        321,
+        357,
+        358,
+        359
+      ],
+      "captions": [
+        {
+          "role": "worldmap-destination-title",
+          "text": "鲁哈尔特",
+          "font": "caption",
+          "font_size": 32,
+          "appearance": {
+            "kind": "source-style-v1",
+            "ink_box": [
+              255,
+              348,
+              300,
+              32
+            ],
+            "align": "left",
+            "gradient": [
+              [
+                0,
+                [
+                  254,
+                  251,
+                  236,
+                  255
+                ]
+              ],
+              [
+                260,
+                [
+                  248,
+                  227,
+                  190,
+                  255
+                ]
+              ],
+              [
+                450,
+                [
+                  252,
+                  216,
+                  149,
+                  255
+                ]
+              ],
+              [
+                650,
+                [
+                  239,
+                  186,
+                  103,
+                  255
+                ]
+              ],
+              [
+                800,
+                [
+                  205,
+                  128,
+                  46,
+                  255
+                ]
+              ],
+              [
+                1000,
+                [
+                  187,
+                  88,
+                  19,
+                  255
+                ]
+              ]
+            ],
+            "outline": [
+              0,
+              0,
+              0,
+              235
+            ],
+            "outline_width": 1,
+            "glow": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "glow_radius": 0,
+            "shadow": [
+              0,
+              0,
+              0,
+              180
+            ],
+            "shadow_offset": [
+              1,
+              2
+            ],
+            "shadow_radius": 0.8,
+            "italic": 0,
+            "tracking": 1,
+            "weight": 0,
+            "motion": 0
+          },
+          "frame_alpha": [
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255
+          ],
+          "erase": {
+            "rect": [
+              248,
+              336,
+              300,
+              56
+            ],
+            "mask_asset": {
+              "path": "locales/zh-Hans/video-repairs/worldmap-v35/masks/worldmapmovie_08_ruhalt.png",
+              "sha256": "4d627a2bb52f1b66be95b880f387102c9e26301c951f75b508163d6817efc7d0",
+              "pixels_sha256": "84240e046279a0fb26257470ca285971dff45ae4c445058bca77790ce91940ef",
+              "pixels": 3729
+            },
+            "frame_repairs": {
+              "method": "sparse-frame-rgba-v1",
+              "records": [
+                {
+                  "index": 0,
+                  "source_crop_sha256": "09d39f7e737d95b14cc227aab79667760294a8c155b2037d6daceeea05d65cb7",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0000.png",
+                    "sha256": "dacce5da2b730ad0ca763f1ba761be620855979f084196082a8a5ee3744056b2"
+                  }
+                },
+                {
+                  "index": 1,
+                  "source_crop_sha256": "bd26877bcc8472b0921df6f98032f2b777c06319e0192c2dbb05b1436d8ea863",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0001.png",
+                    "sha256": "da9406a3bd2ff838a8015227c6ec61fb8faa0c232fc9c49b932bae13b7872a84"
+                  }
+                },
+                {
+                  "index": 2,
+                  "source_crop_sha256": "05c052e2c5065261781cfa02dd515f7d2a493c32038e92ee982def4fd1ca5817",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0002.png",
+                    "sha256": "4a2bc4211cd4adf135a6b83bc5a870b5e1de02f4dbfaa1323a35283be4573e5a"
+                  }
+                },
+                {
+                  "index": 3,
+                  "source_crop_sha256": "842365ec491eed0a35df04ac08e2f939bc147ddc9cdb1c0fa3c5ff642df7c2a2",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0003.png",
+                    "sha256": "047add236fa67855812e5c367e9c7246cfa4d8bd48a689cea3e9c922cf6f7537"
+                  }
+                },
+                {
+                  "index": 4,
+                  "source_crop_sha256": "4a245b0c629bb7f14024026daae964d3de6a8598cd876119055d47e8fb3d77b3",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0004.png",
+                    "sha256": "6a2f2a5908471d34a3167ccca3caeb3c3231df435f5c02a667b2ed3cb811da9e"
+                  }
+                },
+                {
+                  "index": 5,
+                  "source_crop_sha256": "5d0def505dcbe8a662e272e4ab5ff24334033e89d4d817af52e112faba4525a5",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0005.png",
+                    "sha256": "5a118bc3e34c1272904a12660a01f48854bca58833c37764e5dfa02546258189"
+                  }
+                },
+                {
+                  "index": 6,
+                  "source_crop_sha256": "c9701fc1f81b861e3af33a2aaf254863e80b84668ad2f8db35bb3b6762f80f4e",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0006.png",
+                    "sha256": "8fe948b9697042ec7ae2c9aa45163c804f0e532f29c0c903c8e5d11c3dfbe264"
+                  }
+                },
+                {
+                  "index": 7,
+                  "source_crop_sha256": "f4de4a41118d28dcb2ac894caa89cf7b698f804e5d07c42ca34e8e3b4f7858eb",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0007.png",
+                    "sha256": "b9c75ce51ccb8580d0cbe74fd0148cdf5fb067792aa3bf0eddec0e41bc4faca9"
+                  }
+                },
+                {
+                  "index": 8,
+                  "source_crop_sha256": "0d006bf2ba137e457e0c6a69c35cc09812ee67b3b5ac73bfe5ff92834dfac0c3",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0008.png",
+                    "sha256": "c62e8e464d824ac9d9960b96445c9b2339e33f24b9cfd71981a953df15be9487"
+                  }
+                },
+                {
+                  "index": 9,
+                  "source_crop_sha256": "a91499787b88b1b132bbc20afcd9600cb6e37aa78e53c9feaa4e44ac6ca65760",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0009.png",
+                    "sha256": "0bfe57a9a3fbbfd1429b979311d1a04b94697ee3f3f46cd5acf1b19e2d270a38"
+                  }
+                },
+                {
+                  "index": 10,
+                  "source_crop_sha256": "a70fddab11210e7e1c9cff24c9a4121f76a04f0e007acb3ff858fbe8b66b116a",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0010.png",
+                    "sha256": "ef9deced924afdb6f9805d7b17eb98843cf2e6a25c8645f7d059d05adbe5b828"
+                  }
+                },
+                {
+                  "index": 11,
+                  "source_crop_sha256": "0a4947379101bdb25436f577e331c15efef2d7ef6f23be4064e67febeedbed34",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0011.png",
+                    "sha256": "cef8f90f3caf5a6912310021ba80ed60360bcabc8b1a0e28a0541328bfe5f977"
+                  }
+                },
+                {
+                  "index": 12,
+                  "source_crop_sha256": "2ffd6306d797c18f43d25e3557e5f98945fb7c864d106468e1e73106482ac3b6",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0012.png",
+                    "sha256": "cb4214f9265ed7bbb2b9b0840912ee4e884ba93a89eba6016a50b8d172ade679"
+                  }
+                },
+                {
+                  "index": 13,
+                  "source_crop_sha256": "0c27b9c1dd8beb8833f45e96b97505b2ce12ead41a2da61bbca9c560c5ebec0c",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0013.png",
+                    "sha256": "a957d2c7a424865f5859b473d7b4422e55f4cc85fff86e2447676470ae8a334d"
+                  }
+                },
+                {
+                  "index": 14,
+                  "source_crop_sha256": "a4d8ec4ef37480cf43f2bb8ab87738715b7d31c2201e21fab06daf5352c85ea4",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0014.png",
+                    "sha256": "a4106d59535569d4ca46d5e72566d26e2cc7873b4431eb88867c9f37c6977c97"
+                  }
+                },
+                {
+                  "index": 15,
+                  "source_crop_sha256": "90aab289dd11e21a9dd2588fd973bd2b6c29d3022b1f58954c5d4434d4dfa87f",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0015.png",
+                    "sha256": "d21b33704d3d9d8edeb411acd6abc4442ba8185685b8a093f007c280e7f83cb2"
+                  }
+                },
+                {
+                  "index": 16,
+                  "source_crop_sha256": "377e540bbc23950267a0db776c5d183370a6688ad598288f302c82bc3c1fb001",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0016.png",
+                    "sha256": "6d51fe411c9e6c9c319af11ee73d839af597b6f3f5ee37011fb756f19f1e779c"
+                  }
+                },
+                {
+                  "index": 17,
+                  "source_crop_sha256": "1640897bcbddb3399eb574a132650b1db9b3953f7a49afa2eba3094283aa4faf",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0017.png",
+                    "sha256": "07d167fdfb033b32e1707df7c537fc91470e37806eb647b6a8e008a27cb9fbf5"
+                  }
+                },
+                {
+                  "index": 18,
+                  "source_crop_sha256": "2f8b244f2f235e2b39a7939c89b44b6187170bb09a09a537c80fd51426301f1e",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0018.png",
+                    "sha256": "2dfbee010340604c923ef526842b8d6489f39ce0455521da4bd6ed63c40bc8cd"
+                  }
+                },
+                {
+                  "index": 19,
+                  "source_crop_sha256": "c56b9d7f420ea84a747947ea7df2f1161b6bc4b6463032155afc7df08cb8f067",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0019.png",
+                    "sha256": "b0ebbba7b4e31a0f1deba85109d0505d3b29becfff9af147ca2414ee2e8eae93"
+                  }
+                },
+                {
+                  "index": 20,
+                  "source_crop_sha256": "0a0e73a6e2cf350266a3645b73305cc4603ff0d6cfd779e85a76c7ba41a89fef",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0020.png",
+                    "sha256": "98a0091c464ad361a85bbbc4773586f9a4055b99c9a4b249c5f068e38be313f2"
+                  }
+                },
+                {
+                  "index": 21,
+                  "source_crop_sha256": "227f62b56cbea810f9ff80cae8e5602d7bd907a5fa91f628f61eabd72c28b600",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0021.png",
+                    "sha256": "ea445b02cbb61586b8ea8b084d7e1705bb6599090b7dd175f042dcee2a07f95a"
+                  }
+                },
+                {
+                  "index": 22,
+                  "source_crop_sha256": "c87b82ba309beaeaadd1051b0c1497876315627e0f814154324cc47aba37e0ba",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0022.png",
+                    "sha256": "ff446e8118d8fcc4f80ae09a402d0c8973ea8ee63d3ebc70913a00286db1240e"
+                  }
+                },
+                {
+                  "index": 23,
+                  "source_crop_sha256": "3e5f5b3b83333729ab448ecb09b61ca316de5be679e9adda1056e3a3995506d6",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0023.png",
+                    "sha256": "724c967982593f2c54f339af19716d44cc88443c7630aed165d258bd8c16758e"
+                  }
+                },
+                {
+                  "index": 24,
+                  "source_crop_sha256": "dd81fa9facbdb39793a1d298bffe6f35f462e123d0851cbd2eb4715f2fc080bb",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0024.png",
+                    "sha256": "9d508dab08a6f095c30e181a567c47c6ad273d8b4aa0129246bf6a227c3dbbe6"
+                  }
+                },
+                {
+                  "index": 25,
+                  "source_crop_sha256": "156edb4be53af8af210d36ec896c5b3bb2a20ebd3e8fae127fd088360642a699",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0025.png",
+                    "sha256": "c825c630597fc32398e46c640639c0e96ad9a772ce6b20c1716207e264281527"
+                  }
+                },
+                {
+                  "index": 26,
+                  "source_crop_sha256": "0b9b9473ec9c2287de5c0c6f2db8d9175108b0be0ad02e263dee932606c26a57",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0026.png",
+                    "sha256": "8a0f373cef8d31d5c08533706023ee238c640339c22e264e7b530bc4ab81371e"
+                  }
+                },
+                {
+                  "index": 27,
+                  "source_crop_sha256": "15ef05b58398eab63b46a0dfd37353114e3915663cf3cb0c8c98ee3d7a71ec03",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0027.png",
+                    "sha256": "de8ac41b272369dc11e88ccb89d613d46f1c863905f996e351fdd537db2f3e7b"
+                  }
+                },
+                {
+                  "index": 28,
+                  "source_crop_sha256": "51e5285624222d5847948cf63887d2472bcc3ec78f9190ca0f1bae562e86ebde",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0028.png",
+                    "sha256": "fdf7fc774a85ed0cbff275cf1738ea33aac7bd99345561e578a7d82044f19051"
+                  }
+                },
+                {
+                  "index": 29,
+                  "source_crop_sha256": "d15e92d837fb44cd423061b0dc6d96dcb040188f0550ad0e716500ff3c039496",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0029.png",
+                    "sha256": "1515bc184f9c51f28db0a77b8f21220496edd9743f2ea16d4be483c0a8759003"
+                  }
+                },
+                {
+                  "index": 30,
+                  "source_crop_sha256": "5288d335a1dd9622c6aa81f343d59c349122f5ca8624bbd4db800f04232982d9",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0030.png",
+                    "sha256": "9b21a50c88709fd70fb674e847d038404c50a677ca0f5237d50bdb9068c82166"
+                  }
+                },
+                {
+                  "index": 31,
+                  "source_crop_sha256": "fde14e18b65973967f7f8df048eb7de8dbaf595868cacef9a1da9ae799448548",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0031.png",
+                    "sha256": "e4ea391ef902ce6ded8e1e4042199a14d32cd2b4fc94d0bcb3147d1606154f56"
+                  }
+                },
+                {
+                  "index": 32,
+                  "source_crop_sha256": "e613b636d69d705063084238b251739b070aedb3b9099f5b1ee17dda3664117b",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0032.png",
+                    "sha256": "3add71a0447999be30ce62563f4ba90d4c20e1299a43fd4acdb42b6dfa412f69"
+                  }
+                },
+                {
+                  "index": 33,
+                  "source_crop_sha256": "07bd98eebe06cf7aa7524563ff4b503c03ea1c5f455e38c941fbe315ba9a0750",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0033.png",
+                    "sha256": "489ae943bcbd71f60e86e4a982a74592fd0fa70b2fe10f51db0dbf463db548e2"
+                  }
+                },
+                {
+                  "index": 34,
+                  "source_crop_sha256": "a2e7277073e828c378fbd53b239f7356780a4aa444e40c26d5cf517938cec386",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0034.png",
+                    "sha256": "2f821fb696471f55e302195db11f45c8170e2fcd917c5406b32867145a422389"
+                  }
+                },
+                {
+                  "index": 35,
+                  "source_crop_sha256": "a97585b94e8917e12fb9e9aceb795c5e762dd7957122542a8c9e835582860a48",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0035.png",
+                    "sha256": "db59e4b004f0e602a7d25c564bac0f63b1315a642dcaef433f1ba1bd6a86bd3d"
+                  }
+                },
+                {
+                  "index": 36,
+                  "source_crop_sha256": "2caec0550f8787dcec3949ff56e9f15b29d749ebfa028cd534c392e3fbec4cc9",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0036.png",
+                    "sha256": "6f4e9c775d9c050075bba9d0fb53e8f02833925cbf892a464f5e287dd9ac9aab"
+                  }
+                },
+                {
+                  "index": 37,
+                  "source_crop_sha256": "70d048fb2bb3abba189b0c8b4db8af87a973ff3168882cd4e94472624a8c1749",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0037.png",
+                    "sha256": "8aa4d46a9bf00188014ea650ad81efcaed68f5e52d7f730fdf10150dc068752b"
+                  }
+                },
+                {
+                  "index": 38,
+                  "source_crop_sha256": "4fb4e87a2e62615f5518767ae867eabea888a21f0236df4fc0ddc271bfa393b9",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0038.png",
+                    "sha256": "6fafde379aa699338f05d564aa2f35ff408c1f2525e4a2cafc8ed6e6ec8183f9"
+                  }
+                },
+                {
+                  "index": 39,
+                  "source_crop_sha256": "d470b9693278e07655a8add629a74dbc87f89738b520b1a0d0be560791e86dc2",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0039.png",
+                    "sha256": "75462163a3ea4d8dfcac9ff32b605ec949cf520598f557c33b14c4259f82e373"
+                  }
+                },
+                {
+                  "index": 40,
+                  "source_crop_sha256": "032124605de97e0fe22c7c4abba5a1494302af920f6993d4bcf03c7901841ce9",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0040.png",
+                    "sha256": "014d1b468aa338011b4b2f8e88257c327e5003120f0a36d9a6d616ba43dc4a3c"
+                  }
+                },
+                {
+                  "index": 41,
+                  "source_crop_sha256": "84a45a8f9723385b8c9dc1432e6c34b1a18b56922c2a904298cdaaaf87cd5245",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0041.png",
+                    "sha256": "2b3a0771d1d94d264372eb928c2f071373d121b1bc7583118a30e34f48ac794b"
+                  }
+                },
+                {
+                  "index": 42,
+                  "source_crop_sha256": "66277fe164cb4acb589c386101d76d899b38e795d0efe029899cf3d0678683bd",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0042.png",
+                    "sha256": "7a5ad028aa83a9035893a5b3de161111132a7cdb425bc7898a57beabb88b6b28"
+                  }
+                },
+                {
+                  "index": 43,
+                  "source_crop_sha256": "0582965a84836f6e4f8b682117625dae11e04c9dad59c802ca2406b6d9948fdb",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0043.png",
+                    "sha256": "1a43e589a6947bffe6311f710e3e351467c9cf63533e181992e7c2bd8c6c0e04"
+                  }
+                },
+                {
+                  "index": 44,
+                  "source_crop_sha256": "8f1011b5ade88acfbb689f45febc1fc28d584b33741fef9db0a94e4ede58bce7",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0044.png",
+                    "sha256": "dba832c19f532169e00d9b64717bcb0bb3a522018cd755f7e583b8b7ab9be44b"
+                  }
+                },
+                {
+                  "index": 45,
+                  "source_crop_sha256": "e60839efa57b0d33ddd1023832959e829249c70c418b4bf4b52a5c5ef094da0b",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0045.png",
+                    "sha256": "b345f01939944c59e1e523b8613c0c7ab9ebea8a6232d85aa25f4d26ec86bae8"
+                  }
+                },
+                {
+                  "index": 46,
+                  "source_crop_sha256": "2bcd69d638db18979034545c82a66fb32d7e385be51f5390154df7d7ac7b6def",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0046.png",
+                    "sha256": "2ecda47cbe7fe7fe25c9531cc38121ccc4884962dbe98e4ce712da10d08caf91"
+                  }
+                },
+                {
+                  "index": 47,
+                  "source_crop_sha256": "a515cd6059a6d9f20c9cdeeca5c83ea524b54f109e93c888d24f34e1aed6f160",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0047.png",
+                    "sha256": "d50d273480f883fc325783aff8dc9dc65e486fa49c5d51d548f77265fc8bb068"
+                  }
+                },
+                {
+                  "index": 48,
+                  "source_crop_sha256": "ca4ec638ddd4a99e2f021f72e84081af0659b2639616d04f85811940b476a6dc",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0048.png",
+                    "sha256": "4b1748f07fb0018127d0553851348b14f8358c31f835947901d8c83ced3167e1"
+                  }
+                },
+                {
+                  "index": 49,
+                  "source_crop_sha256": "69f9ea196f8a2beeb20bb979853622b7e640cc75779093f5722a8ff57311be6c",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0049.png",
+                    "sha256": "454eed9fa549876b1be0ecc8f0db8e4cd459c85844732c286b45daf2f52f4060"
+                  }
+                },
+                {
+                  "index": 50,
+                  "source_crop_sha256": "72f918053b351f489914cf051ee99bbb7ec49a36fb3b11b32b5f4ba8b5ff5d35",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0050.png",
+                    "sha256": "9bfb6a93e91d5bd5f301b1e46594b1b58c45d3fc52695ac056fb88dc85cd78b9"
+                  }
+                },
+                {
+                  "index": 51,
+                  "source_crop_sha256": "db3dbf86d69de07af65e916e1fc14ac8f88e99763534d9ebf1c05e39bf626a9a",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0051.png",
+                    "sha256": "9567494680a5b0942865fb56b8f9481e5d3e72dd57a698f580b011e6d37856de"
+                  }
+                },
+                {
+                  "index": 52,
+                  "source_crop_sha256": "f3979b935bd07b53a423bdb5140f9272ad8042bb2b352dfda85b5f12000b5ed6",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0052.png",
+                    "sha256": "5a0262d3d30ac3d46891a9e31500bbeb400d2e1ded24a9714627aa5fdf631f37"
+                  }
+                },
+                {
+                  "index": 53,
+                  "source_crop_sha256": "725ad61bb046bb748660b75c1f57401dc2944a1b1b5284c397861fe4600e564d",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0053.png",
+                    "sha256": "1561d30b82368925e97480644b1563ac7f4133f61d3afd1168579969b355ee73"
+                  }
+                },
+                {
+                  "index": 54,
+                  "source_crop_sha256": "9827c2df2b4111f1c55e51c64534f1c4455a5fd978c9556124b2326c8f5a68e1",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0054.png",
+                    "sha256": "7d5fabe4981b49f932d9b60af6bb635421acc292e3399a397596e7929dba5247"
+                  }
+                },
+                {
+                  "index": 55,
+                  "source_crop_sha256": "feb2ab6f07204ec8798c70c1f9c98b9f036722e8e8abb65a1ac0baa3f2579c40",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0055.png",
+                    "sha256": "bdbf444538d9e18efda4d0af7b32641d526f45b98deb89b631d64c10c82bec54"
+                  }
+                },
+                {
+                  "index": 56,
+                  "source_crop_sha256": "b2d4689002dc9a2e803b1eb96cf074e1b7c089b7905326685eeb4e46063a8e21",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0056.png",
+                    "sha256": "5122fb1f22ba18f18eb3545beb30d13a28ab73b31945ad79b64c93c6ff783357"
+                  }
+                },
+                {
+                  "index": 57,
+                  "source_crop_sha256": "60552339e3d3f14e0f539a7aee28a4275d652293616043305856168faf23e57f",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0057.png",
+                    "sha256": "13aea11abc202834d95b3233f49efc79d19f7d3b9c659cbdc5396ff30f9f64fd"
+                  }
+                },
+                {
+                  "index": 58,
+                  "source_crop_sha256": "3f5e84aa62b7bba9d81165ae5eee955dc11b10e83e9d4fdaf8f51f99749f007c",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0058.png",
+                    "sha256": "c33970a8c580639e2fde1b9e6ecfee9e47eb70f409a472ca90fe62e1f686eff9"
+                  }
+                },
+                {
+                  "index": 59,
+                  "source_crop_sha256": "0f263a1bfcc885925546f5cbd27149150c7f4f1035a21befe15fd99cd01c2af4",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0059.png",
+                    "sha256": "3300cd5453f6318422525d82d75530044d0ac6683b89fcf8ced0c97964e75864"
+                  }
+                },
+                {
+                  "index": 60,
+                  "source_crop_sha256": "48091901ae572a221db8b094e6741106b6a32c7d989df3fff84027b55d07a45a",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0060.png",
+                    "sha256": "3e758046b4bc4000eedcf50675a7ad963ed906a89fe85b85ae14feabd7e85f43"
+                  }
+                },
+                {
+                  "index": 61,
+                  "source_crop_sha256": "4db4725341037492b3cbc6d7e94f65990d2534f1001419378ce7c4a8b1f10bc1",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0061.png",
+                    "sha256": "ab8f783d9aca8178d0f5dda3f80724777d012c86c3c84338537a84d1eaba115f"
+                  }
+                },
+                {
+                  "index": 62,
+                  "source_crop_sha256": "40b547dc00bf7752e2f540587b8cb6b377e1ee48230e7d1820f4ea910cd3e665",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0062.png",
+                    "sha256": "9d3337bec3d88c1718cfbd4a8f52af3a92a20d7935e924fab0351336ffd6b997"
+                  }
+                },
+                {
+                  "index": 63,
+                  "source_crop_sha256": "15d32646d533eace8ce4130371accaa8cb87f6cc256d10bc4a3845cd67ce20fa",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0063.png",
+                    "sha256": "7c564959edc2bf545658837c4d2ef9356842daa8e738f37b3d41a69ff8c112e2"
+                  }
+                },
+                {
+                  "index": 64,
+                  "source_crop_sha256": "ed7d72c4abf0d49dc0445b2939a9c7f7a5d2fbd70afe9c8414b44e2c4dc1de5d",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0064.png",
+                    "sha256": "29121ab7215e2b35f8c7f2b5a05cefd108d4ea9c3d01c43f7d924300f2acb2be"
+                  }
+                },
+                {
+                  "index": 65,
+                  "source_crop_sha256": "5da9d6c65dd1ea4326eb9e3704a8a17e574f21f97b270004559e481d4280b679",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0065.png",
+                    "sha256": "f1ee8c4811b2284e591d40f2860bb0d52e1c7aedc5b222ac8eb509f982738d99"
+                  }
+                },
+                {
+                  "index": 66,
+                  "source_crop_sha256": "d244a5866d208a2953a28ab4c817def04e9e411aa5e959d92cb097c861773a0e",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0066.png",
+                    "sha256": "973073773127ae5293db487ba130d48f3c10c576d0e344329d891bd6223ad7fd"
+                  }
+                },
+                {
+                  "index": 67,
+                  "source_crop_sha256": "b24aeee1d5e1489a045702f7b1fcfd710685b9205a4b35e0a07911d4956b91a5",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0067.png",
+                    "sha256": "f1192eab8ac7c6158da14f327c81761656993ff1022b4eb7e71047552f524a73"
+                  }
+                },
+                {
+                  "index": 68,
+                  "source_crop_sha256": "b4cf9cfecc0f49bb192fdda0e9877e038ef3eaef6e0dded347ea5822c033ab0f",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0068.png",
+                    "sha256": "f6177fc98eb619af101b8df349515df2d23aabab6dd3e41f0d51e96c8f5ff2cd"
+                  }
+                },
+                {
+                  "index": 69,
+                  "source_crop_sha256": "0701f2d3334b483f4208b94911a93f1dff1d44dc04f89c19f0ef7b8e9433dcb3",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0069.png",
+                    "sha256": "8a681eaa20d92a57eb75ff073c26ab735945ae533ad3449926732fe2cc0f818a"
+                  }
+                },
+                {
+                  "index": 70,
+                  "source_crop_sha256": "765aff4667f0e6771effaec37b4fc79d189c5cfa1455f6a6c3a73222771ae7c4",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0070.png",
+                    "sha256": "3574286ba6ed5877582863261c20f2942e0ad4dce217b6fda9e92f8ce08e90b8"
+                  }
+                },
+                {
+                  "index": 71,
+                  "source_crop_sha256": "5661308a188277418972859f4f80d2fd9126753f96d9a6bea381564cea605f79",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0071.png",
+                    "sha256": "be14c2f85d441ffe23967b741f2d8d07e2fa54e59e3932ce521fcd80c93ecd1f"
+                  }
+                },
+                {
+                  "index": 72,
+                  "source_crop_sha256": "1bce58d38f3aa07a2ac970f347cbfd8942d06e8bc26dd0532f1dac7784d0e202",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0072.png",
+                    "sha256": "c8c567c3901d1f2a657015b3ba79f5d097438107dbdd0981ac3c090c33cbad28"
+                  }
+                },
+                {
+                  "index": 73,
+                  "source_crop_sha256": "1db302d729b55234d08240d1aa3af7c41c38e81630a3fe0995ee0800230d805c",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0073.png",
+                    "sha256": "6b79d42a40eabb2111dcdcbb159c706153399205136d4f6c3d913ecbe0554120"
+                  }
+                },
+                {
+                  "index": 74,
+                  "source_crop_sha256": "fc7fda5c4ccad59d9aa07a5a4af8098f014e1b2bdf20e64b36e2135a921b115e",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0074.png",
+                    "sha256": "5cfdf028cbec591a73da300ad3b002a6f1608e6d80d452ed1a51a8d35c999e8b"
+                  }
+                },
+                {
+                  "index": 75,
+                  "source_crop_sha256": "ac2b4cf6030bf5ddcafef89edbde8d8431a15740328b137f640da3365953be04",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0075.png",
+                    "sha256": "9129105a77432840c8fa3547ffdd4500a0b6ddaaaaa27f854f517d3bbf243425"
+                  }
+                },
+                {
+                  "index": 76,
+                  "source_crop_sha256": "f3f95cc38df68f5f1d0c6e3dca68077eff57d198596906529c31ea4a7c3e0544",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0076.png",
+                    "sha256": "3dd88ec81d9f19ed8ea96537e5c217a2afe6330d2030132d0e89e27c951c68f8"
+                  }
+                },
+                {
+                  "index": 77,
+                  "source_crop_sha256": "c4ca6623d4bb5a067e7cf63be212543139c34e9c57cab027ae6fb0f6ec584664",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0077.png",
+                    "sha256": "70e2397dc38a7a39609c4f14abcd569ecfa106639289747b96dc77bcd393f556"
+                  }
+                },
+                {
+                  "index": 78,
+                  "source_crop_sha256": "dc0e90f6ce1b9009284e27a029292f5a9c94d0941186d457a930e9c0cd4fcfb3",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0078.png",
+                    "sha256": "f3e3104664e2b6ce28e065c3034aa8b1fa10cd5baac1f79b3c5daf0a453f478a"
+                  }
+                },
+                {
+                  "index": 79,
+                  "source_crop_sha256": "fbbb52cbfb00d59a6c55786f2e941bc199a800569dda007f2cbef7685c385cf8",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0079.png",
+                    "sha256": "4dbe0ae58b282d257b3a8700d6dd71e5303d14a9b2c7c4972159e3bc6ae4ae7d"
+                  }
+                },
+                {
+                  "index": 80,
+                  "source_crop_sha256": "42267e5cea0d11d768eacb7c91d287c16431725740a618bcef6f5c12ab6040c2",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0080.png",
+                    "sha256": "e1b70b8a99a28b57f3f9107ef395c055070f6f4bef4e2771e623692e7ab44ba8"
+                  }
+                },
+                {
+                  "index": 81,
+                  "source_crop_sha256": "48badf52056f32f1c606eeac6906042335dd4f18f5e65c7eee5a1793dbde838b",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0081.png",
+                    "sha256": "5a7abdf99ab51aceebfc7269bb127540e3fb8b26d94033137ead809685e149e6"
+                  }
+                },
+                {
+                  "index": 82,
+                  "source_crop_sha256": "0669976ae26d646df916654914bf960fa9c46b4dda12d988954b6ba1c71f1318",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0082.png",
+                    "sha256": "e7ae7262048c698470deba1ed4b177260ca2d2ce1392f0b3f00e9a021ed6facd"
+                  }
+                },
+                {
+                  "index": 83,
+                  "source_crop_sha256": "d8f740b1bd813f4ed03dc46b0f258ea0e7cc23cf32ee62e936c4ca871565cca3",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0083.png",
+                    "sha256": "0712189e1c710025bd78c711d18dae0508dbe1f9d18138c88ae3b51d7d8ae9af"
+                  }
+                },
+                {
+                  "index": 84,
+                  "source_crop_sha256": "6c23e9fb53b21faf0ab9c3679bdeff37493a5dbc8f602d42efab93c4b754f913",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0084.png",
+                    "sha256": "7999524ba8785626efcc4cf6e8a2bea92cba3a7eed3ebd1eddfd1ea0223a2885"
+                  }
+                },
+                {
+                  "index": 85,
+                  "source_crop_sha256": "6fb10fe93f2620f64193f487611a7a6e6b55541a6b3d036646519e0ea61e679d",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0085.png",
+                    "sha256": "d820cfba2537e40e2c5fafb5f2f03a4d12e921fd84237ff0a2cb40e76d5af07b"
+                  }
+                },
+                {
+                  "index": 86,
+                  "source_crop_sha256": "2e8f513355932d1b0ddcc8d89ebe4776e3035291e3dc96149eee5bdbe98a637e",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0086.png",
+                    "sha256": "5e462d30ebbb9421fa49e9748b1c0d537ae8badcf267bf94a415438072c6e13c"
+                  }
+                },
+                {
+                  "index": 87,
+                  "source_crop_sha256": "ff534df4878ce9ebcd542bbc7476fe0b9c20f23af1fe89c1107cff2318d36a55",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0087.png",
+                    "sha256": "d69c5a26cf9f19b8d31ce8f445e95312dbda94bd8dbebdd89b400c22d20c2b7f"
+                  }
+                },
+                {
+                  "index": 88,
+                  "source_crop_sha256": "45c523f5ee4c827f092bf0809742a11438bb411dafce655d34a6ff5e35c785cb",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0088.png",
+                    "sha256": "ef4eb57c166a3f780bb45a546d5570108f0875c355e673db052f53ed45dd3715"
+                  }
+                },
+                {
+                  "index": 89,
+                  "source_crop_sha256": "1c84dc8e334b2ace294d89beb3c9c0ecc3356b805389191440690be3f659b31b",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0089.png",
+                    "sha256": "a79417bf73aa0511cc65e2885233396beb078226eac057c88cc66cfe3d0ce607"
+                  }
+                },
+                {
+                  "index": 90,
+                  "source_crop_sha256": "a4c8d7ea28be3880ddd3898abb7b06f540733371069843eafebe81295d5a2910",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0090.png",
+                    "sha256": "0c9709788f4cdf81c645868ed2ea31234870119be530ff2eac25c0d5d1cda303"
+                  }
+                },
+                {
+                  "index": 91,
+                  "source_crop_sha256": "723e1e53a80d33649659e126e32d602a6f7e172ed8e705b6efec58a04a191e60",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0091.png",
+                    "sha256": "2639e37ae971945edcfb0c2fe6a00bdf1e2c072cb47cb179996443067826a1cb"
+                  }
+                },
+                {
+                  "index": 92,
+                  "source_crop_sha256": "94c182640ba35c40abe61fd078a13eb056d5a789da48aa53913d4743828c8b85",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0092.png",
+                    "sha256": "71f6dacb3593379df65bb474833f7242e4a94777f747f8935fe33887cfd77e56"
+                  }
+                },
+                {
+                  "index": 93,
+                  "source_crop_sha256": "c8f0f81bf5be40f1732980ce4a89bc98bd8004d4430a82abec6d170c6f57cfac",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0093.png",
+                    "sha256": "e07d92beec5f018552ad433bba2611f79291488dda25fc3f7678ebdcae3acc97"
+                  }
+                },
+                {
+                  "index": 94,
+                  "source_crop_sha256": "f25767fe5d47e17b9b694bc5021ab35681ba98705da1bcc0aef77ca140a33de2",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0094.png",
+                    "sha256": "3adb76828ac0215c51e46973e577c6ea5185b5c56bf8f3f78781463eb57d5664"
+                  }
+                },
+                {
+                  "index": 95,
+                  "source_crop_sha256": "2511a46b5e44bbffa19a910786825603cc963a09aa77e7ec915169c7de684d8a",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0095.png",
+                    "sha256": "b48678c2151b710996d37c533994267eacf7f51b1b67aebe0557bec6b4be8293"
+                  }
+                },
+                {
+                  "index": 96,
+                  "source_crop_sha256": "6fcffffb16499bf2954a7a449dbf13fa0aac1870d968edf9a18df833e7fe37a7",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0096.png",
+                    "sha256": "0c3690fc383621f05ff21f82be51b5c8d4fc02b38a027da23729dfe7e9cc2774"
+                  }
+                },
+                {
+                  "index": 97,
+                  "source_crop_sha256": "39dff5b77dfe945cf103f44365892006f4057c8f77e84a459a8a3215d92a2722",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0097.png",
+                    "sha256": "6aae01c4a77a074dc69633656fbb7e08adb91a7675170e91a746813770cc4b8d"
+                  }
+                },
+                {
+                  "index": 98,
+                  "source_crop_sha256": "7e4e24b30a86b9565034bc895a7bfdb43a4c74cb2cfbce9501f32eeca763947f",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0098.png",
+                    "sha256": "e59ba922a24cef49d56cd176887b4cb39dff1ad97e2070b5315324142f547e5c"
+                  }
+                },
+                {
+                  "index": 99,
+                  "source_crop_sha256": "dbc23ad1da72237267161515dce20a38a38a720eb496e9469909b422d1858dd7",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0099.png",
+                    "sha256": "0dcf7b4f87f4abd5d04a3a06233a74c06cfa801433c5c29ad8b12af568e78cf2"
+                  }
+                },
+                {
+                  "index": 100,
+                  "source_crop_sha256": "cbe6f93c9ebda286d9756f386c6b054f40f6b4227e91a3895ec9dbc055f9cfc9",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0100.png",
+                    "sha256": "51c8b60adb72805c2217cd778155bd5f00ef132d91c793270aa32031c3178321"
+                  }
+                },
+                {
+                  "index": 101,
+                  "source_crop_sha256": "52a8b16a4f0e21c1b697decba87b9848284adb7789accca1954634171f477b38",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0101.png",
+                    "sha256": "6580646302552aa37d3d32254203828890b7e4b42156052194f651fef90be7cc"
+                  }
+                },
+                {
+                  "index": 102,
+                  "source_crop_sha256": "4a2a7f06162bf5d866e853c40faf6ceccf5f6c1f40c0bb8e6b1c7f3db010cfe0",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0102.png",
+                    "sha256": "e4599f4e9969b1590bb9b07cfe2d4bbfc0aa01736c23d5aa36b00e4e7961c42e"
+                  }
+                },
+                {
+                  "index": 103,
+                  "source_crop_sha256": "c22a0ff2cf3bbcd8369924d5070167e2ec5c1ce88466b3a91e9de00db38e85b4",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0103.png",
+                    "sha256": "9a1995b2f9f4fc58c598b97953b1cc7ef497489a3f8c9e47b958699394018595"
+                  }
+                },
+                {
+                  "index": 104,
+                  "source_crop_sha256": "f742c336a5cf1b4f0991a83487453378a9a90b2d3504c4eebe3c22f7944c6667",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0104.png",
+                    "sha256": "e2e10c0743409e164c99e04a51925883c904d3c92370b124169bc761f3f4edda"
+                  }
+                },
+                {
+                  "index": 105,
+                  "source_crop_sha256": "42d406a6021b96f6044d723bde4e88eb3ee895fdbbde4a0b5955581eb0ad72a5",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0105.png",
+                    "sha256": "992a30ba8567600001959148dd5c0e52b352fb00369df401f6f86dadecf3c2a7"
+                  }
+                },
+                {
+                  "index": 106,
+                  "source_crop_sha256": "e4fb55fcd9977ff9e1b10cd74b187b60c76dc226c1ea14fae928bfa62c884224",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0106.png",
+                    "sha256": "5704460023d402d0f090d65947ac1c7ac7ad60a3689a7e8762c01204b9f434bf"
+                  }
+                },
+                {
+                  "index": 107,
+                  "source_crop_sha256": "58705351b4a9e714c4d27834f972eb250e7559f57834bd398229a9d3a02fd609",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0107.png",
+                    "sha256": "3c6cf998980638904b4bcfff2a431cdac3ce5e8649dae13269042d8c46c796e1"
+                  }
+                },
+                {
+                  "index": 108,
+                  "source_crop_sha256": "1145db090184df7cc13e7762290ee84c0981cecf8ee62b08055c29273569739d",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0108.png",
+                    "sha256": "e03076a6e24e360ab2b7175dbc6141ae28991ca1eddc8f457bd3ce5817c35469"
+                  }
+                },
+                {
+                  "index": 109,
+                  "source_crop_sha256": "7a5b4a5c22bd987a265f8ae4d4d478c3bb34e972dc824ec0c58b44f31ebcbc95",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0109.png",
+                    "sha256": "d954e74b9f7bded48109f1781917d1e852aa4bc4dac833505b4f51942e0a0720"
+                  }
+                },
+                {
+                  "index": 110,
+                  "source_crop_sha256": "08d65e714045cc3d0bca6477634d85d20613363e19d9e4fd892b4de63fd0cfe4",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0110.png",
+                    "sha256": "846c495bc0011657836530f35cf156b21b6404a9fcba843203859e0f22b01182"
+                  }
+                },
+                {
+                  "index": 111,
+                  "source_crop_sha256": "3404289abbe85c3e5e01d1cbb545de9de6cbe3d0dd16df9c31ee03f20e138c88",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0111.png",
+                    "sha256": "22b422834b6de13e6f82b74762b06aa3647b7626bce34570719e08c7cf391543"
+                  }
+                },
+                {
+                  "index": 112,
+                  "source_crop_sha256": "88303f8915483370a51db6d6499da2dac00e758ed46458405d665f7ec268a881",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0112.png",
+                    "sha256": "90e74d48e73b814dc367d34427e550c3ae26191bf426022e6d2bd59e0ef3a984"
+                  }
+                },
+                {
+                  "index": 113,
+                  "source_crop_sha256": "f27f54584e196466cda54d81a6524b99075efd9c587fbbb5727c47e484393aa0",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0113.png",
+                    "sha256": "4c5beea797916e5be928c16da5fbde03f3f831ab1103e4533db901e41f40b592"
+                  }
+                },
+                {
+                  "index": 114,
+                  "source_crop_sha256": "b73acdd65756c1893ff0b253ad8883ff54f5c2907b0d9ff27afc17dc4161bbf3",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0114.png",
+                    "sha256": "2c0565ada1f5c2a404eb83ecfee303ebb86981282f62b2f16a84f34b3bb80527"
+                  }
+                },
+                {
+                  "index": 115,
+                  "source_crop_sha256": "75549703d89b0af1f8b5b731f3b141c81841387e47fb7ac933b5acfe874dcbe6",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0115.png",
+                    "sha256": "fbde2165fc3a44674ce1082c6c2808cd1f33d1a2cd97daf77de434c6927d9bfc"
+                  }
+                },
+                {
+                  "index": 116,
+                  "source_crop_sha256": "a37a4380962bb7a3bb0cb7717f438fa321ec5163795ce8b29d99afa35bed98e0",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0116.png",
+                    "sha256": "4e5d5db966106ce6fe074129bf380fe36274ea59f360e6e46b2988e1cc7cd072"
+                  }
+                },
+                {
+                  "index": 117,
+                  "source_crop_sha256": "6b39d0d6463365c3a66dac2826c96713dabf05e44a1140f32a2dd416dc3942ea",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0117.png",
+                    "sha256": "491cf318c2313e3c25a20267205e07c3db9023f8cb0f0beeae6582fb2daec971"
+                  }
+                },
+                {
+                  "index": 118,
+                  "source_crop_sha256": "f26ca2366ce4d47cc452a62e963da13aaa133241eee99d4d503c64f9a29cd08e",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0118.png",
+                    "sha256": "6ddeecdd901b0e31843c23b8a241c883996cea7cd75ba45b1c1729c8b25d8b6a"
+                  }
+                },
+                {
+                  "index": 119,
+                  "source_crop_sha256": "e56eed15fda3205c1e2f24181b3a2656b34d94c8662051a527da93e140b19402",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0119.png",
+                    "sha256": "eccf1611c8174c6be35b7cba79ce0533a8c341d1be6f85400ce053dccb94f137"
+                  }
+                },
+                {
+                  "index": 120,
+                  "source_crop_sha256": "7e546a8e4d8fd893ecce3f644d58528026c10887a8148433bacdad6844db20ed",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0120.png",
+                    "sha256": "9868ad57f1545711937259d88336755db73e4d8fd9cc811c76faa8ace4d7e860"
+                  }
+                },
+                {
+                  "index": 121,
+                  "source_crop_sha256": "0a6ca5e470de3211add2a31719c23124066407cd7d3e6fc7b58e09a5c0b75d6d",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0121.png",
+                    "sha256": "150e32233127dea3f5fbc192fecaeca952c2e327cc152c1e4257679cfd69d296"
+                  }
+                },
+                {
+                  "index": 122,
+                  "source_crop_sha256": "5abf425429e29789a507aa59078f90b1c68df1e234420378af3c4ef303a1e932",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0122.png",
+                    "sha256": "5e98e520f2ebea0b12fed56951638d7951de1351c47d7df997db348f2f5a9674"
+                  }
+                },
+                {
+                  "index": 123,
+                  "source_crop_sha256": "ffb277c1f4addfe11839d3eb3fdcea2817c99198fb7fb2f4b407e34cff1c3f1c",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0123.png",
+                    "sha256": "733ecb6989796b97b9dd2dbea0493acde4197cad1351a67e6d121df0deba3b83"
+                  }
+                },
+                {
+                  "index": 124,
+                  "source_crop_sha256": "39d567f92b47b98541f7dd566777130c032894bf35684dd41ae943f41245fd9e",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0124.png",
+                    "sha256": "7ecc2c9e10997e4cd56f1c816091abc4515579e97e7bbfade1c73906df27172f"
+                  }
+                },
+                {
+                  "index": 125,
+                  "source_crop_sha256": "51eb8f42abfd196a7dae356009cfdb9e4ace3ca4457d2b978fa94655539f8514",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0125.png",
+                    "sha256": "afc973249e1ba1bfa2733767fea44e2b9215925911e7593869d03e260d7b4f3d"
+                  }
+                },
+                {
+                  "index": 126,
+                  "source_crop_sha256": "759a4186f0d4717a1c9ceea3ae06cf66c6d5705e60b9d56418ad8b33b9e7518b",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0126.png",
+                    "sha256": "328d439bdbfbc3a78a0ae237bbbd034f08aa394e2e0982214f3c3117e0b6ff26"
+                  }
+                },
+                {
+                  "index": 127,
+                  "source_crop_sha256": "79c2f707dace243cb30a73861619c73367dad914b9ef4ac6d8b7f0c627d7f595",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0127.png",
+                    "sha256": "08a63712b15b0f8c5974017abbaaa3206f84ebfb51ee2bf0938148d8610ec00b"
+                  }
+                },
+                {
+                  "index": 128,
+                  "source_crop_sha256": "a0d00900f8b1026dc63c02885297b860878499cfb6c4abcceed6d7b394c6a67e",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0128.png",
+                    "sha256": "507b25fc33984fd25e768a08c8c09abb192d5bb540e6ccc49fc678c4e8685cf0"
+                  }
+                },
+                {
+                  "index": 129,
+                  "source_crop_sha256": "e88af79618041482ab42485d816d6df46eb50c99e5ca031f5049fffb259e8963",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0129.png",
+                    "sha256": "fce43e4d236c876aa16a3eb2934ef7ba7133399dc7b98980c88c30dc32e49af5"
+                  }
+                },
+                {
+                  "index": 130,
+                  "source_crop_sha256": "ed24f26afaf858111ab87b4ca1c316eb2ee65607e463ce7f2e3c946db7b374b3",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0130.png",
+                    "sha256": "74820b659d47ec8a64f492c24f9ac4b9fa68a39089bd4361b6a95883e89d832c"
+                  }
+                },
+                {
+                  "index": 131,
+                  "source_crop_sha256": "1253ebdfc34de62aa36941575f1f69f3784a1f7fb97de90dbf59717e91077c51",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0131.png",
+                    "sha256": "17f3a162aebc1377478f039231b0446b5a762e2dba2290e5313540d2336df9ba"
+                  }
+                },
+                {
+                  "index": 132,
+                  "source_crop_sha256": "4af1a1fc4aa239ba6f902eeb43a01ea32bfc67d6bf2a73293fc8946a3a122804",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0132.png",
+                    "sha256": "1815a64e4148a3413a426bfa2f17bfc15b9122eee2d6849f9906fab5d3ae644e"
+                  }
+                },
+                {
+                  "index": 133,
+                  "source_crop_sha256": "4998a532652f51e4d56e86b6d0b2b9e94043cb7ba660875bb1e7f7a42f3fb7fb",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0133.png",
+                    "sha256": "d27bcd60d7cb9795b42017ed8ccd3c66b7d526aac525cad2751e93ecc2ca5b47"
+                  }
+                },
+                {
+                  "index": 134,
+                  "source_crop_sha256": "5b14da8fffd53d3f88b72a50615079a44b212ffaceb50d63b8b083e1b887e0a2",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0134.png",
+                    "sha256": "5999ea25e5a282052df39a81e95cee5f859c72077829d0cad3fbafbc95456cc4"
+                  }
+                },
+                {
+                  "index": 135,
+                  "source_crop_sha256": "9a6fc2eddc5554f13fc18af7418d104d87c7e7435e2a3531fac348bce1fa15b2",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0135.png",
+                    "sha256": "6523d06970ad8fe6d13c5fdd098c1af356ae74fd072af315afe9d69a52edbe2d"
+                  }
+                },
+                {
+                  "index": 136,
+                  "source_crop_sha256": "c4c4abb2d4d40f19be95e6554c34239be580b981c93ca8cae6fee1c1cd255db9",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0136.png",
+                    "sha256": "b5d635833d9900a5367e874f134f969f91f651e7a8995b5742328b7e60d64f92"
+                  }
+                },
+                {
+                  "index": 137,
+                  "source_crop_sha256": "f7dd4e1e0c2d376b4a4400612711de023ee80cd0558ed6d20d4ca78eb53445a2",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0137.png",
+                    "sha256": "0ebed74ec095e740129980329a940ea51852f867aeb50d6cc60c6680e1e66eeb"
+                  }
+                },
+                {
+                  "index": 138,
+                  "source_crop_sha256": "d5f5314c17212cbed1209849f1fd729ce6de97302cdfe527d625178276502d7a",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0138.png",
+                    "sha256": "e89f90cc451b4bcd04cba0e5f5b852b866aebcbe4a2bf45d5416c1bdca5b8c27"
+                  }
+                },
+                {
+                  "index": 139,
+                  "source_crop_sha256": "73621202bb97516b9bda355f9c46153c57151ea6ab5da027abda524b22cbde0e",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0139.png",
+                    "sha256": "4ccb0c227334b4f00348f60f1f1d71d6000a2ecc9e85307c81aa38592466b32c"
+                  }
+                },
+                {
+                  "index": 140,
+                  "source_crop_sha256": "c7f827ea84cce2f7dd0636dd48584868bc27cec6ae70915714b06ecb9f9d30f0",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0140.png",
+                    "sha256": "d5ec367c60362b29510724991e731a58d0b24fc0d92a25a9df94a7c3cda53746"
+                  }
+                },
+                {
+                  "index": 141,
+                  "source_crop_sha256": "c025f33496c63fc66cd0b3a965ea5cfc62382a4b82380dfcc5f3b8ecd4fff165",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0141.png",
+                    "sha256": "26d9c00969eb1f68fc4c17e3ee028082237f91414e1bb845b006d4d5259e112a"
+                  }
+                },
+                {
+                  "index": 142,
+                  "source_crop_sha256": "89716ae77c50fb2d91aad5fbfba9b16a6b9aa36e59350e1d7e4da91c11b15231",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0142.png",
+                    "sha256": "904004d5bd681a9ced28924950d715657dff03e91a670bd831f97dcaef05b947"
+                  }
+                },
+                {
+                  "index": 143,
+                  "source_crop_sha256": "b19773789ee45c3730744f1628985d7e43a5efc8344dbdbc8d43392c08dbb0c6",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0143.png",
+                    "sha256": "1f9a53a14f3ab7cfbb8278b9d5c59947d87b84bdc61b3e172329e7bd6f328df4"
+                  }
+                },
+                {
+                  "index": 144,
+                  "source_crop_sha256": "ebcd50afad754bd17afbedff000c02e96ca1d5facc66edadb4c191350edf0004",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0144.png",
+                    "sha256": "9769691743e0de9113cb20e477c85eb8665bd8e8a6fa29821a4c6c6311ec4162"
+                  }
+                },
+                {
+                  "index": 145,
+                  "source_crop_sha256": "d4e9c1e54918b493e67f5cf7529cc5c504132778aeff35e0cec6c377dde583b5",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0145.png",
+                    "sha256": "68eb5bd7fe4bee2369cc0f4fcaabdcb8a79236dd28900de9b912cb715e5bb052"
+                  }
+                },
+                {
+                  "index": 146,
+                  "source_crop_sha256": "30522f2b49b86a5a3486936a28daa760171abb0c179932e84254e779a58a0f59",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0146.png",
+                    "sha256": "03d113ef2dd2b4c7cec6a00be53c0a54797720695e97420f471461dbf76b1294"
+                  }
+                },
+                {
+                  "index": 147,
+                  "source_crop_sha256": "3965d8ca82ae099c30f0fcf443ed33abf1824256ff1111d0840adefac514d773",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0147.png",
+                    "sha256": "7b3972c3ee62a3e83054d3f0892e32a7b10fdbdb0cc82e1a2630a10f18b36f7f"
+                  }
+                },
+                {
+                  "index": 148,
+                  "source_crop_sha256": "4181c9361c20190590a2b623fb435bcf67a50255bd797c27a247d5cc3612239c",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0148.png",
+                    "sha256": "f7e5335aee4f07bf2a88616c00670512c11f40b2d619695a3f9771afbafe50fa"
+                  }
+                },
+                {
+                  "index": 149,
+                  "source_crop_sha256": "97031e516438e871c1cce8baa384153db68ef3b1d45ad0bb3fd9eb023c7fcf19",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0149.png",
+                    "sha256": "781a5048f0f8e499edca5d35d634d11479f221ad4487e4c385ef548826121d0c"
+                  }
+                },
+                {
+                  "index": 150,
+                  "source_crop_sha256": "95bd802dfc2632765d777e52cc9c85df75350dc7cf5592a434ffe02b06ac9a0a",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0150.png",
+                    "sha256": "631a26cdd2f1131a6f801912edb6fa2c316adcad7a47898033ceb1079769533f"
+                  }
+                },
+                {
+                  "index": 151,
+                  "source_crop_sha256": "0513ae060ceebe271817ccb32dbb42746bfb610ba6a5c8a1b0f2f43e8e3aa2de",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0151.png",
+                    "sha256": "4792f4e6f916779fe01b948e4215e74b6054c55939e6362c85df6cb9c712f11e"
+                  }
+                },
+                {
+                  "index": 152,
+                  "source_crop_sha256": "dc98c0fe2688945c47f3135beb1fc0c267466f1214a29b562417a249b616619d",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0152.png",
+                    "sha256": "1310dee01327e0deffdb49975da7064c39805642896c8af9f9a313ec39d322e0"
+                  }
+                },
+                {
+                  "index": 153,
+                  "source_crop_sha256": "9d803b8d7ecf69fa714a47f41bfeeef758eb2a3fb9311aa66ad7472623cb4ac9",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0153.png",
+                    "sha256": "191261a160ba53f6798ff9c5e9dd44a02ce4602020cd1760270d6713e8b706d7"
+                  }
+                },
+                {
+                  "index": 154,
+                  "source_crop_sha256": "1f5db531171ff9db2cfebd6a7dcf64b454d45308ac1cc42681af0bd5dec32672",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0154.png",
+                    "sha256": "f59ac3f54635151c4e46eff0c189f9c852baee600376891b83bacbe19ea64af8"
+                  }
+                },
+                {
+                  "index": 155,
+                  "source_crop_sha256": "ad77d1b7f9c8bde3d75221d28dd61542240ed1e82d74d68c991e057b36d8373d",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0155.png",
+                    "sha256": "3e7765ecea4d84a0a7f49b7e5c09666b941d1217ff1c4836073459eb485b509e"
+                  }
+                },
+                {
+                  "index": 156,
+                  "source_crop_sha256": "f0f8a6792f4aa85b08c1fc9e7c0c3a3d2f82595e360d00fe1c85d0b5c1235ad0",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0156.png",
+                    "sha256": "b3b1cee222691278b41b6373379f36d6e4333da1671691d84ab9133d2b287b6a"
+                  }
+                },
+                {
+                  "index": 157,
+                  "source_crop_sha256": "3ef4a501a6cdf2c8ba67c4f65d90c3884b10767d114fb73a6cb28a0410752536",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0157.png",
+                    "sha256": "6e9c5bfcba9247f9cf9e42c7677d3ca6fcd545a1ab6af6d60208d389bc569e48"
+                  }
+                },
+                {
+                  "index": 158,
+                  "source_crop_sha256": "4463e4ddce55630495e97fcfe54281118ce35d9c0a0287ea5e47644d86bc7985",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0158.png",
+                    "sha256": "a04eb42eb5f31f6842b039673b6fba2571ca15b8662a308bb8c458f9d69e2006"
+                  }
+                },
+                {
+                  "index": 159,
+                  "source_crop_sha256": "882229a8f6576387657a8a0c7e941f13d2abe6c233abb905979d89889fc57f45",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0159.png",
+                    "sha256": "72cbe477fd7038ef549d605cb34a5ba7a2004671988630dcefa760786eca584b"
+                  }
+                },
+                {
+                  "index": 160,
+                  "source_crop_sha256": "70c8969e6cab4f56287380ce6757e91232f6ef9734a0bbf2f1ea00993cc24f79",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0160.png",
+                    "sha256": "50c1f1a5427781c160f86c466891fede18ed9b71d53e2ac29f0ca3fdc38a4a25"
+                  }
+                },
+                {
+                  "index": 161,
+                  "source_crop_sha256": "1c826ad9e16d25caddf904f9ef835dc1af6716e0f4556294548b6e11f8173914",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0161.png",
+                    "sha256": "98e495e35f7e7654787929b8e358e1ed2bfa6350fa864db51ff8ac88842d926c"
+                  }
+                },
+                {
+                  "index": 162,
+                  "source_crop_sha256": "e750733604f9144fd02766962251319cbedf1daf11c4e884337bdd98524da15a",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0162.png",
+                    "sha256": "7bffd642dcbd5f346d967d6a53323b82b4365e5f10ce96899526e8b741ba8768"
+                  }
+                },
+                {
+                  "index": 163,
+                  "source_crop_sha256": "c6af159e8ed48a73870400423158e1f648c76ff8348132de7be7638570903608",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0163.png",
+                    "sha256": "c4592e75153fb0c7b6ac08f2b86deaa7d53264a85d7b93953a4bd118f179d206"
+                  }
+                },
+                {
+                  "index": 164,
+                  "source_crop_sha256": "4fd6d8e28858c8bcd152790b5858406502c70348ebe423d40345f7c64d97ab45",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0164.png",
+                    "sha256": "8293936002b46c472b0d3f130f5a0f4a451f0a94f9a876237248b78368f1a46e"
+                  }
+                },
+                {
+                  "index": 165,
+                  "source_crop_sha256": "2d9cca2d8ac64cb39b0f93aa991b7dbe86cc77fb19d59d929a4996e91b89a326",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0165.png",
+                    "sha256": "a26f3a8324c3872a97c7b10527eed0d37b2d8e0ae3509831282e348ecec510c4"
+                  }
+                },
+                {
+                  "index": 166,
+                  "source_crop_sha256": "0699bfca0c5493eec34abf6efa67bfaf17896b728025962296dc791bcfeb7fde",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0166.png",
+                    "sha256": "9e6eb8abbd0f28b04178722e50f9340397763a12908da26011bf7456f2008f79"
+                  }
+                },
+                {
+                  "index": 167,
+                  "source_crop_sha256": "e8f69f9464180cff76d833fe7628b195dde1d62a8ad4c32ad41b617c724b44d8",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0167.png",
+                    "sha256": "7e06326fbbae2c85b7259076e7cdf8e67a091201d22379f11ed71c9c77d12031"
+                  }
+                },
+                {
+                  "index": 168,
+                  "source_crop_sha256": "b7459ffeb50d43010ce37825136ea666a15dd060a2ae5e1a8f821992e58a9bb4",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0168.png",
+                    "sha256": "364d4ec906404f9f0c6adfab6615bb999cb7a550652727bac0fd8735c84edba0"
+                  }
+                },
+                {
+                  "index": 169,
+                  "source_crop_sha256": "b55434fd3e981c92b1166565599b4350cf746bc1b6225ac02d4500a9adc6a483",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0169.png",
+                    "sha256": "229d7c6ed544a9f977dcddc5179415875212d031b50acffa2007fd619925f432"
+                  }
+                },
+                {
+                  "index": 170,
+                  "source_crop_sha256": "ef924195555d5d15f2be708c59d579a25ccf87f346bbe93fe7cc7bbcac358e5e",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0170.png",
+                    "sha256": "b3e5cbfd3751f3ed8ae6737d165fbb2d6f427df3b6af4fd317270b6324b26213"
+                  }
+                },
+                {
+                  "index": 171,
+                  "source_crop_sha256": "306cdb987f5185c3b17af47a7e0a9189b9fd1c6dd3de024acc7f73ce1bb57560",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0171.png",
+                    "sha256": "3fe0ca3f4d599f4264898e9fc35eea8e2686821cf3a24c6295e015cda20028ca"
+                  }
+                },
+                {
+                  "index": 172,
+                  "source_crop_sha256": "22393a35e1424d132603b72abc1f8efd51786e85237bb4776cd2de363f3a387e",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0172.png",
+                    "sha256": "4b9adcfa91563dad7507c6401c87ed46372799b94568a87aae0f4186c32dc16f"
+                  }
+                },
+                {
+                  "index": 173,
+                  "source_crop_sha256": "659b67eb57f7322644154a402089b0a3418d23a0e56004feb7eed4e861ea3500",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0173.png",
+                    "sha256": "fce1066d988fc78d8a5e9d491f26bf3392954c265beedbb7e151b1caf70b3414"
+                  }
+                },
+                {
+                  "index": 174,
+                  "source_crop_sha256": "b224ff781b800504e7a529090330b4433198de49409f4583f391bc1ea2ae2bd1",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0174.png",
+                    "sha256": "3f064dd4b99ea6f677cb9d9df155497e13de260e168992e4dda49867b6b15fc4"
+                  }
+                },
+                {
+                  "index": 175,
+                  "source_crop_sha256": "c60d9ba40e0bbf393c00347b0d6c7b351f5b2f9bd7cccc465b7aae4327db9645",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0175.png",
+                    "sha256": "211f4987bada604919e5d6363965134e5fe520f44701f6883db27d52d34e348c"
+                  }
+                },
+                {
+                  "index": 176,
+                  "source_crop_sha256": "925d09b805b13e11e8092e30b3fb2ee1715250a165d55db871e79428b0be1799",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0176.png",
+                    "sha256": "1a55d97977fe2c1272a5e5241764681fa8fd992b51f536cc964edf3456b8f1d7"
+                  }
+                },
+                {
+                  "index": 177,
+                  "source_crop_sha256": "80a1edc7b3b54e6cfe6af4d318f32f694aa19da911b8b58810c872cf0f64a3d4",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0177.png",
+                    "sha256": "7e11aa0634bcfd962032068393706272a90a63bb1fe91bdefe47e43a0444f715"
+                  }
+                },
+                {
+                  "index": 178,
+                  "source_crop_sha256": "b703c605bd32e90aa2644fa16271199e2a3f6a6199ce95aeccc442859953f89c",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0178.png",
+                    "sha256": "f1f7bef20e9d8893c838e2ba202bac17a61e12b97ae8f93032fe0e4723cbf328"
+                  }
+                },
+                {
+                  "index": 179,
+                  "source_crop_sha256": "517c67a31b21c24a58a17b764067ac79694c1c2f6da6898136dfecd2dfb0ab8d",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0179.png",
+                    "sha256": "c2443fa2368cb4ace94d511197af64b1885426c2806e8c996da19ea1ef548dac"
+                  }
+                },
+                {
+                  "index": 180,
+                  "source_crop_sha256": "a4e918a177c75802c7a5a41b95f929d0876050619259e2057848c362aa389779",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0180.png",
+                    "sha256": "f11e98e088bf3beb69d66e518bc90cafe9f7935b998a0393ad3a824432354198"
+                  }
+                },
+                {
+                  "index": 181,
+                  "source_crop_sha256": "baf50089bd0c7018089ee5e9214cbd5f734dbd876d8d599a4f35e522614f565e",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0181.png",
+                    "sha256": "96d7d877dafd136c4d3f39a8922992c3c6dea26e364e28935b179c2b75707e21"
+                  }
+                },
+                {
+                  "index": 182,
+                  "source_crop_sha256": "cad71408d9eb0465228673ec5dcf25ea7f3b93a82f05a3b3e68c95d93238855b",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0182.png",
+                    "sha256": "d52375ac4ebd298bebf06dea95f512b098f763594b81a8353202949f5fd2127a"
+                  }
+                },
+                {
+                  "index": 183,
+                  "source_crop_sha256": "e1ec43e907f2eed053538a0b846872f27bf70ec087d38b3cc38e7126c4541a69",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0183.png",
+                    "sha256": "900ad51c8b9a3f35efff71880986ad269f9ccbd5a6ea4d9c7aca69d990aa30ee"
+                  }
+                },
+                {
+                  "index": 184,
+                  "source_crop_sha256": "3c5bd6ec038f56d10786c34f9cc2fdb6e5d9fdc2a79d4b1a5a94d40d27cbb1b2",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0184.png",
+                    "sha256": "ec7b7d01fe507ef01caa0f891f089a113219db2bfae119f4d6d6ae5a0f721480"
+                  }
+                },
+                {
+                  "index": 185,
+                  "source_crop_sha256": "6e32a7b3ed3385ffc958464700a875bd2dfd4485ec3d56defa171ea0e9bfdebd",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0185.png",
+                    "sha256": "5572284ae8c87b404cf5a6576f2fe103124a0f8f4ac5eebe51332ece584f59b3"
+                  }
+                },
+                {
+                  "index": 186,
+                  "source_crop_sha256": "b840c75999785119054f1b4e7b4633df4d1b8114db1cc76f7e9d804f7bb984ba",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0186.png",
+                    "sha256": "251b6590e01ccb84e765dc71a6a4eca297a101b5b7eed730b9cd1a41aa01228e"
+                  }
+                },
+                {
+                  "index": 187,
+                  "source_crop_sha256": "16b57a12dc8886e8d21cf40fcffa269dc5cfacdcb6ad28903b912e373d86dc62",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0187.png",
+                    "sha256": "178d0f547a0a875d816533e0c12a62762a720b74183039788bbf1244e36e3ba1"
+                  }
+                },
+                {
+                  "index": 188,
+                  "source_crop_sha256": "541d9933d7f1067a2d918cc96963896466fe08a03471aae893dcecc874a0cddb",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0188.png",
+                    "sha256": "0070687093bf43c2858b5cb964995205d28262faa318635a7fcdbff6f3b49468"
+                  }
+                },
+                {
+                  "index": 189,
+                  "source_crop_sha256": "aa5de07b8c903bdbeee4fe2e0b0f5a286dc158db3144a66d682423fc44ac6fc8",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0189.png",
+                    "sha256": "c67d0ac8d77ec0467a0ba87820e1b93e5027642a25f1e457dd0cc7497a132ace"
+                  }
+                },
+                {
+                  "index": 190,
+                  "source_crop_sha256": "276bdcc765ed8214babb175bbb460512005178148e3dabf6f35593686ece1408",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0190.png",
+                    "sha256": "3136c10961ecae16b0954241d5679b6eb9808336f5f953025deb5fad69d67f71"
+                  }
+                },
+                {
+                  "index": 191,
+                  "source_crop_sha256": "632febcb0d14e45d2d35b52e654d917cf9731de9388328a9de548396d7a7faa3",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0191.png",
+                    "sha256": "aa2ac19e8854a16808acb1c98704c619166ce048a357ab3f175e167346a25c95"
+                  }
+                },
+                {
+                  "index": 192,
+                  "source_crop_sha256": "fff43335e0cb14c93baca923d82ff84a545b686f5feb27bf7dfe6b6c9c482acb",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0192.png",
+                    "sha256": "6865f370d594f981cd0edae0d7ac20a36c6cf3a74f743ae0e32dbcfbe4b41acc"
+                  }
+                },
+                {
+                  "index": 193,
+                  "source_crop_sha256": "d108c4a8408def0eb8a26b3bbea21196cfc225aa4b89df8b760f78d6784e1370",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0193.png",
+                    "sha256": "e5d1a64a8260e2d2572dc0a1adcb235bef22243f72ae36ad074124bfc9e3dcca"
+                  }
+                },
+                {
+                  "index": 194,
+                  "source_crop_sha256": "7c8ed9ace0039ed2c70851a71ae7cf9e65ed604f9651038f6d6970968d2f0c73",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0194.png",
+                    "sha256": "99598c2db37f974c4b6fea9bf528191a688c11c53ad5f810d14fd01acbca95cb"
+                  }
+                },
+                {
+                  "index": 195,
+                  "source_crop_sha256": "5a51af4c1d1f267088a6bdc961df07acdb43d1d9cb4e44e2a4fa4ddfb4de38e5",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0195.png",
+                    "sha256": "cacfde1606db0796e08931fa74ae56a0c85b5724ae61187d2f4643dd5545c59b"
+                  }
+                },
+                {
+                  "index": 196,
+                  "source_crop_sha256": "0fcb779edef3701c6a85a271d5d29ada5c8ae552ebc9f33feb4be22c197f1f0e",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0196.png",
+                    "sha256": "f48287e2e1536191bc4269577e21593ef6ff8e3ba2de3d5a43527256a89765e3"
+                  }
+                },
+                {
+                  "index": 197,
+                  "source_crop_sha256": "526404422b2b37e15d7971d32d1cd51314f305505d089fd372c5b51936f2de03",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0197.png",
+                    "sha256": "e86e8f1a7117986511216e64b970f6c66310e0cac134b47489828fe717004db8"
+                  }
+                },
+                {
+                  "index": 198,
+                  "source_crop_sha256": "418ade4b47ed74615731ba24f7653224cba5e8849df95731c710ab02a3fc191c",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0198.png",
+                    "sha256": "13194a726eb5468c9c41096ee9ec5e5b70f54b60ce99204af01a00467ea99d0c"
+                  }
+                },
+                {
+                  "index": 199,
+                  "source_crop_sha256": "0d48c3a898323659aaf18f333ffcc8cbc5335d43977a09653e67e8c83ae06c79",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0199.png",
+                    "sha256": "08c6856dc5951bcc0a4dd207c4fdedd003aed61f3812793b596a36089927d987"
+                  }
+                },
+                {
+                  "index": 200,
+                  "source_crop_sha256": "a9a05f67e03cf055b0a56dde1fd29e7af5a88c3ae2748b579dc82feadcdc5073",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0200.png",
+                    "sha256": "2f35373e5af82417e7b0a4b152ea4fdb4d02d75cfe3a0dca0cc28735be1dc06a"
+                  }
+                },
+                {
+                  "index": 201,
+                  "source_crop_sha256": "1884d0c89c753899036e433c37713489e0d5a26ceb7f6a1e8f31c936f8a6c84d",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0201.png",
+                    "sha256": "96a293310ed84eb342210dd7a73179372e421d01f68bbe4cf28aa6264246a3e2"
+                  }
+                },
+                {
+                  "index": 202,
+                  "source_crop_sha256": "0bb6f5e1d9dfead3aa9b6e2da21deeac6196a765ca27d508a5beab9280a5a01e",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0202.png",
+                    "sha256": "3f3e295ef5cc2fe492b7ff75c821f9ac2da8c892f572a4527a2d79d583120d6b"
+                  }
+                },
+                {
+                  "index": 203,
+                  "source_crop_sha256": "af670b3ba0370d97f43e3e9afb020eb7d0eb37200eee63cb77f0eadafaace878",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0203.png",
+                    "sha256": "e21ce0fd02885ac086b974ea90ac6e92ec8d87e43b71b4706d00a5b51ebbf6bf"
+                  }
+                },
+                {
+                  "index": 204,
+                  "source_crop_sha256": "2028a61fe1b34ef7e53cab4566184928c3547a6c2aa55c82eb1438afb4e37b67",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0204.png",
+                    "sha256": "e5efbd3dcf04f2c6dd682340f42618f1d28a03af60198489bdb06135de048018"
+                  }
+                },
+                {
+                  "index": 205,
+                  "source_crop_sha256": "27bef8df230eb1e57f809b4b13a28362ff73e0bf0bf76277299c24f8e30c5d37",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0205.png",
+                    "sha256": "9529b455c22e2aacd0e737f9308fe2630fba7a9a353ac6737d9b3df2fa33b0bf"
+                  }
+                },
+                {
+                  "index": 206,
+                  "source_crop_sha256": "515d328ef8250e4db565c66aa1d65b769fc0cd38ab05b969385138534a950384",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0206.png",
+                    "sha256": "d91042ea664b8758b00fc6e8a0bee12628c93c9d0364903fc5d2adeb57cf7cc7"
+                  }
+                },
+                {
+                  "index": 207,
+                  "source_crop_sha256": "5e74f6b9acce425f2d7f63e81bf914a79eaa105244279289a97649e6e908957f",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0207.png",
+                    "sha256": "e72e24a75303ea42c5fd586619419d49f61f0e20913d4062dd7d6719f6903490"
+                  }
+                },
+                {
+                  "index": 208,
+                  "source_crop_sha256": "1e6552155c6be0125633338108ee4550de28f39bc7c688241d633ce961ba043f",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0208.png",
+                    "sha256": "b75e023546b295a0a6c6bcb22805ad56e86642b4478062df5ee4dce4ff3da586"
+                  }
+                },
+                {
+                  "index": 209,
+                  "source_crop_sha256": "b97df6de1e8c1536eedcdf482fdb133f058e4e99da3c145a8402dbf73328f34f",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0209.png",
+                    "sha256": "0ef2e9a7893c3aa1fce643f7264d46afe05f94af3e303c83b700296a082a64bd"
+                  }
+                },
+                {
+                  "index": 210,
+                  "source_crop_sha256": "0b7b4c93c67785e4868c890c083a1c642cd314c03a62bf74bbb084de15ead7f2",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0210.png",
+                    "sha256": "ee975e0cfc2f5106c0abe93b2940f67dbf5e314135170c59409f8bb639e8dd38"
+                  }
+                },
+                {
+                  "index": 211,
+                  "source_crop_sha256": "1b871321d62b3c960052317fd7a01ac5e132544bea8443554079340b16dc768c",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0211.png",
+                    "sha256": "22f603d7a5cc55213644a347693f61d328617cabc632744c634f3ad0e01ebb0d"
+                  }
+                },
+                {
+                  "index": 212,
+                  "source_crop_sha256": "a4140f1414a64f8889b2712587d02d7d7e88c35598dd29b5797fb33db5943026",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0212.png",
+                    "sha256": "28e2adaa850a2f53ce3487bd79d8f70869041964214b406bc728b77b9a50a27c"
+                  }
+                },
+                {
+                  "index": 213,
+                  "source_crop_sha256": "f8980e002cc0da6a927a0968a0c28ad2517891a901d00c1b94bf86e0d88edac0",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0213.png",
+                    "sha256": "b71ea47c3acaf583996e1a7298a34ef379b5318f228bdf4b11a93e2ce5ca1408"
+                  }
+                },
+                {
+                  "index": 214,
+                  "source_crop_sha256": "e0784ccb28f85966b168710072ad565221358ce508037c47c130df341ae22e1a",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0214.png",
+                    "sha256": "d754d9b494f943e1291d1f65c181683e557af804cc71a009b4b93de0db5c586f"
+                  }
+                },
+                {
+                  "index": 215,
+                  "source_crop_sha256": "22a76b07f2800c4319a925b60835a93381ff8d69b32561664094b4fda84ac58a",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0215.png",
+                    "sha256": "11dccc9198b391a63718f739c940f85f9eb486b41d0c5fd8ceaf9b6a35729600"
+                  }
+                },
+                {
+                  "index": 216,
+                  "source_crop_sha256": "84c01aee2e9c1416e3084b25da0469446d07f71b6652631ca96177d3234e8117",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0216.png",
+                    "sha256": "ad18c9914185ca02cd7bc9e2f93d0ad2c1ea814052a620d87501192105ee2653"
+                  }
+                },
+                {
+                  "index": 217,
+                  "source_crop_sha256": "dfa96a02f60db51bcb56bcf256a74ecb3071665715fa592d6793e2414aace776",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0217.png",
+                    "sha256": "f1995d9971bc66c016011cb9bbfff0579b6ea9f387c4e23b3a75faedb5b83f87"
+                  }
+                },
+                {
+                  "index": 218,
+                  "source_crop_sha256": "37b249da838b4b7725f6db432fe43babff1c0496cf205da2d09fa5e21362f089",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0218.png",
+                    "sha256": "b48177335ef00c2be7f8a8a8b4d1410ca74915d021dcfe7d43f9853f623eb759"
+                  }
+                },
+                {
+                  "index": 219,
+                  "source_crop_sha256": "090d2b6b48581b43d395c69f3d19162f2b17648c50e2ef918d966cb2f0f4dae7",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0219.png",
+                    "sha256": "66d87d62caaee8c471f594dc17988555018d7156dfe4f5e8cc004f4e1ef99fa4"
+                  }
+                },
+                {
+                  "index": 220,
+                  "source_crop_sha256": "6243e139b7db25c4711bc9a6b8f1bc07f477faa3e553c515f8562cc26e50f6c8",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0220.png",
+                    "sha256": "6c52eab3a925aeddb594bf801890eef2f0f07a24f5a392cced4825224c9a7c66"
+                  }
+                },
+                {
+                  "index": 221,
+                  "source_crop_sha256": "0fa808e389e921c1611fc7360d7fd27a705363d64ad46e9dfc095931b162265f",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0221.png",
+                    "sha256": "14a7772550045365b1b24ec90fc347745b4bff13401fefb3add472b79c5b1e52"
+                  }
+                },
+                {
+                  "index": 222,
+                  "source_crop_sha256": "9507b94e078765a78f91e2b346c85262361a2a9b2f3a7cdea1b140b278f1ecd1",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0222.png",
+                    "sha256": "67670b5906ef032964dc61e263c1c4bd605924083108848d37c3dd05e8556027"
+                  }
+                },
+                {
+                  "index": 223,
+                  "source_crop_sha256": "2f2510ce7e3eb6c73857119de192d089cb250cc42a6929cf43db0995516185cb",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0223.png",
+                    "sha256": "20a443fe9ea7292537dc20d9fac712f9db9ff1bfc7cc1fe74e921970429ea296"
+                  }
+                },
+                {
+                  "index": 224,
+                  "source_crop_sha256": "6f282db777b5ecb2964ef07c4f0954ffcf46ac3851e9f0de0c9755ac23614be0",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0224.png",
+                    "sha256": "3a48b256681b878dfc9366b7aa69f8ebf5df44d8276be6a83dd83ccd149fb392"
+                  }
+                },
+                {
+                  "index": 225,
+                  "source_crop_sha256": "1dd26c9c35c30817d9c22a11ee6854db2751e982c5843bc12482b1eae71727eb",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0225.png",
+                    "sha256": "a2a969252065188feeecff92ba034ed6a5aaec28ed00fbd8b2a305c9ef9f6d0a"
+                  }
+                },
+                {
+                  "index": 226,
+                  "source_crop_sha256": "8ba994fc85289f8073498670a2aad2bf5e6be6be2934df247b2f607e418a5d25",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0226.png",
+                    "sha256": "55c0b5b5824ae6c06f1a905959778414d9339658e6d25696f7a09171d287ed7e"
+                  }
+                },
+                {
+                  "index": 227,
+                  "source_crop_sha256": "11ffa2dd1dcfea00a79450c0236b0a4da9d860d7fea384a363fd764f8d25ec2a",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0227.png",
+                    "sha256": "0fb4ebaa404005b6f02c14b6eb10b5fdbde5f0a3bd51c020f5e854ffb3d3d69a"
+                  }
+                },
+                {
+                  "index": 228,
+                  "source_crop_sha256": "cbeea54ec6f00ffc77778d67a5a401eca0c238be750d3aec1a3a21c4a03a5a4b",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0228.png",
+                    "sha256": "3e2d1d3577ba16055f6fc81ca1302ac066fd45a2cc4cac623ec45c94c3e11ea1"
+                  }
+                },
+                {
+                  "index": 229,
+                  "source_crop_sha256": "fc294e8777e1e08cc6af8b1a094b48adbc3095a05596a439ce0bc479d59729f2",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0229.png",
+                    "sha256": "c4cbca3a6284066e5c3c53efa21478dbfe83d72e634e36fcd05dce451298502b"
+                  }
+                },
+                {
+                  "index": 230,
+                  "source_crop_sha256": "0c3cb50f5f5e940a288a16e611f61cd9e27b7c4cb55431ae5971ee1e61dd9a9c",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0230.png",
+                    "sha256": "5831157b59a495b76dc28bd0df0ee5b930254892b9b7645c163056a7dff9b037"
+                  }
+                },
+                {
+                  "index": 231,
+                  "source_crop_sha256": "73b3736b07b50edbf621a1dcc634f24ce6221fc198ddcbaf488cde51cef1bfb2",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0231.png",
+                    "sha256": "44ab4ddab8a917d5d7dacffcacce5e933adf80ca9cd478a61be8f72930d0b2e5"
+                  }
+                },
+                {
+                  "index": 232,
+                  "source_crop_sha256": "8742ffadbc27c89f27ee1142736c3ab85125f0eec14dbca401406ba5fb45aeb4",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0232.png",
+                    "sha256": "9f0643174085fc0d645728e6372b97d820d2b8e6a35deffa6a5d8db9cf5d4026"
+                  }
+                },
+                {
+                  "index": 233,
+                  "source_crop_sha256": "e5b155aed6ea0c642dd91f33031eb6403e7a40a10ab46ec5645f52ec806330ef",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0233.png",
+                    "sha256": "4a1f08719bc8c3a983d534f0174f70d05e10becf0c3ba4fafbe9615c978d88c2"
+                  }
+                },
+                {
+                  "index": 234,
+                  "source_crop_sha256": "e09853a0d656b2ad3076e0235b805cb6b0a4ce97d03c80c118b74d4f918fb8db",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0234.png",
+                    "sha256": "947718e480f743fe26e9f0fa926614278a8c5afb5c245e17a614fbbeabaa5bce"
+                  }
+                },
+                {
+                  "index": 235,
+                  "source_crop_sha256": "5b469ebd5d99ebc5871e0466e2be2d1e7842ae12c852f85bbfb15a5f96afae6d",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0235.png",
+                    "sha256": "2cbfa53893178eb79f7f84f1a70886db924356d1b64e221a0ac4073974896e6a"
+                  }
+                },
+                {
+                  "index": 236,
+                  "source_crop_sha256": "e750cfcc355188c96f5ebf967f95c1de065f4458f307957f8fb6c7c4810c3af5",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0236.png",
+                    "sha256": "24c9952abd5545726586537a655dbb569456a9fe167b0bcdb2a048a9f576cf41"
+                  }
+                },
+                {
+                  "index": 237,
+                  "source_crop_sha256": "4c96573383e314bc6e37bb673d9de85c2d705da043c5559d76138ac1b7a95e5b",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0237.png",
+                    "sha256": "c3fffc5c67336359ebe2d071126fe86369ba872b95cdb11dd276197485e3cc74"
+                  }
+                },
+                {
+                  "index": 238,
+                  "source_crop_sha256": "93906687f8880806d893f436f7f034f8dedcbf82e620703fbfb27b64bdf25da5",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0238.png",
+                    "sha256": "2403742eb7f41450e60aee6699e51e1cbf020372be55adef0f8140a3df534867"
+                  }
+                },
+                {
+                  "index": 239,
+                  "source_crop_sha256": "4bbbad472a339bdeb9cf86f6d48fc25625d787686584468ee25860b422a07dab",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0239.png",
+                    "sha256": "5b085226c45397f05b45c483ec792cc73e114749a16dabcd1149bbf80fb0f6f1"
+                  }
+                },
+                {
+                  "index": 240,
+                  "source_crop_sha256": "6d2b85557a3347af5ee757ad42caed5c1c289db2a992a31f9ebace872c21b282",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0240.png",
+                    "sha256": "ca5209ea4d52a7edaf7cb5e055a06f05359497b40dc84a366da39d8cb67a39c7"
+                  }
+                },
+                {
+                  "index": 241,
+                  "source_crop_sha256": "bfd8a2e71a6dffca4514a949b649291a8e795364bcd51fb59ccac909a2a9a591",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0241.png",
+                    "sha256": "a46fb16204361180b16cffa2d27b31c41860d7ed76804ced6c2134cc8c001d2e"
+                  }
+                },
+                {
+                  "index": 242,
+                  "source_crop_sha256": "faaf58ba56b6cba7746be3b9c0418a33a1de86cc1d8296755a5046116a14a1b6",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0242.png",
+                    "sha256": "dd56fdf8b52c45c5be30db15ed4968c19e923ddba6dab56f5b9db2982ff82e8c"
+                  }
+                },
+                {
+                  "index": 243,
+                  "source_crop_sha256": "d935bdc79e0e9f4e695f89838794b29d791e4ac85c3e3b6d9125a30b245214fe",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0243.png",
+                    "sha256": "f047ddd5ca00c6bdc88bb143f2c357d0e2eab88e363fa4474567f240874d5328"
+                  }
+                },
+                {
+                  "index": 244,
+                  "source_crop_sha256": "c6b82de607881f37567222902811982f3c3c63f57d15eab6a5c4d1a9f67252b7",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0244.png",
+                    "sha256": "e2470252e94a74bb885ce2c8500161a60d3fbc9afbd3f5fb85ed887e9b2103fd"
+                  }
+                },
+                {
+                  "index": 245,
+                  "source_crop_sha256": "29ba20f434ddfd8cc9c2273211d5ef866dbd1b6b2bd6cdd2c97c274aed645cf0",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0245.png",
+                    "sha256": "fd8f05c7899ad7babb129e457fd1d75579210cd08722915b3036add35125f4b7"
+                  }
+                },
+                {
+                  "index": 246,
+                  "source_crop_sha256": "b440e4e14c1266e0e6a7ff68f603a51df87c2634753115e09e212e590f97aa00",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0246.png",
+                    "sha256": "396dd723c41d8724708f30870d522ddcd1463b2a69e328e5088f69f4d2960a18"
+                  }
+                },
+                {
+                  "index": 247,
+                  "source_crop_sha256": "f6128c2e84024b28758abbacdfefc7ae4f0b5a16ad8829606371389145abfe2f",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0247.png",
+                    "sha256": "28741f5097d399682fe8a6f1726f68635cd3c566a67de735a65346c8747b9187"
+                  }
+                },
+                {
+                  "index": 248,
+                  "source_crop_sha256": "020543655c1e184bf3d226023df8d34c0f2b23e3ece9e669cb68fa5aeb90aa1b",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0248.png",
+                    "sha256": "8431bc5ee7b351d729f455a318e81958f76bb8f4c7444af5add48f7fe76cc413"
+                  }
+                },
+                {
+                  "index": 249,
+                  "source_crop_sha256": "4ea2cea57ab183dcdd57226aa3ebdab851993e14e0cc1020ac4384d23c29c2b9",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0249.png",
+                    "sha256": "7c302c47916729b40db40bc160c4ba56c86e57d84b2063e874ce369bd86c2332"
+                  }
+                },
+                {
+                  "index": 250,
+                  "source_crop_sha256": "e7f6ddea8f64883e6751134cd0bef136a5f3c803f7b5e2dcc531c4b46619d8c0",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0250.png",
+                    "sha256": "f42f63d3c16ee28d5fc95f0e3cd7c4aa2ed202580277ef061d38a9a5b9ab5d03"
+                  }
+                },
+                {
+                  "index": 251,
+                  "source_crop_sha256": "b55591101ce9f154a8e77737a1eb725623c097cef6b780a6ddf4c6a503d0b2ba",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0251.png",
+                    "sha256": "a6ad06433b961a2699b80b44be631f2611d0d85b3cf1dde4b2fede244dcd88f7"
+                  }
+                },
+                {
+                  "index": 252,
+                  "source_crop_sha256": "85b67d104ba3235b67de8ada3ceadc1f743c7bd851d87382b351f609d6b65fdb",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0252.png",
+                    "sha256": "18a945e88e22371f6d09ac46bab910cba0e1be7c47d796e0d13cc6a505fa75cd"
+                  }
+                },
+                {
+                  "index": 253,
+                  "source_crop_sha256": "15abc1ec53d3ff8b977b1818665c7794577a6f4f6d9f0185691ff7db11c3e8c1",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0253.png",
+                    "sha256": "c5b929ab9334ed7460f82a5a60617c6353f755b056265b38c4d95ed8de4c68f0"
+                  }
+                },
+                {
+                  "index": 254,
+                  "source_crop_sha256": "163f0cee36f5c473d8ce6a53d949e0d0cf352c41c353c60305bcab3b761ee1e8",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0254.png",
+                    "sha256": "cc6a03abb40ab29e91536536d628b3803ce5e7d749a557186ae7f10152632fe4"
+                  }
+                },
+                {
+                  "index": 255,
+                  "source_crop_sha256": "9bcabcc7355512fe0c9449ba0b487c20540924209f4bade356f90545d8630358",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0255.png",
+                    "sha256": "e8dbd400f4c47ba93cfe61ce022c8639bad367d78f26463dc43256e076391d69"
+                  }
+                },
+                {
+                  "index": 256,
+                  "source_crop_sha256": "fd8ee1c77e4efc5bfa58544b63235da97106ce120d27ab6f777a5f5b43eebff9",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0256.png",
+                    "sha256": "d7eb86b7c561358df65b45d0a97779fabb6dfffed4dda8fd9ad79b4a1558e22f"
+                  }
+                },
+                {
+                  "index": 257,
+                  "source_crop_sha256": "f304a2f09b57513160246bc16eeebd3954b15b32022fa31897fc9ab6b3e3802e",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0257.png",
+                    "sha256": "4cdbd4945ee59c5b2e7df8d059f23e4c650ccc41a88176cf2de8e6323304a74e"
+                  }
+                },
+                {
+                  "index": 258,
+                  "source_crop_sha256": "6afe177d625be8344335335b6e7de55f52d718760d1cdc3ec0f951a6e4a4299d",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0258.png",
+                    "sha256": "b748f6fe1ad471c9d94a6e5c5df71cde992bee106214eda77acb972ce452e7ae"
+                  }
+                },
+                {
+                  "index": 259,
+                  "source_crop_sha256": "386e5e5289992379bfae667455a6dd2a6b0ba8fe3d42c594f487eb78cd86dc4d",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0259.png",
+                    "sha256": "f3ebf682f96c2f0118a043c5d42bf8ded857d03a01a68c7e42a0c41b1161e2e1"
+                  }
+                },
+                {
+                  "index": 260,
+                  "source_crop_sha256": "d6608d82f87fc4e0fa426ac8e332c20c5eb1e582c9658ec9ad0ee41a5e133579",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0260.png",
+                    "sha256": "9b6458e3fc2a494505d12a71eee5dc9a8bede64769ca3bec247e845cfeaf5eac"
+                  }
+                },
+                {
+                  "index": 261,
+                  "source_crop_sha256": "40b1d71fba67491b93815893bc74cabbd1af5f663e9a03d33803d3a3e4b5d93f",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0261.png",
+                    "sha256": "1b054540e3818b0fc4a0dfb52d7e3b9c1730bb9bc9201e46cca9ef85e0088a8b"
+                  }
+                },
+                {
+                  "index": 262,
+                  "source_crop_sha256": "0b6ffb5bd8b6fe16a0dc2a3ca529208c330b80c71ea2e879d8059419db4fb99e",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0262.png",
+                    "sha256": "9f18204fa4095aabea70af4ad5d0517ea13e0d760a96c81f506b27d534f35129"
+                  }
+                },
+                {
+                  "index": 263,
+                  "source_crop_sha256": "6c8e76e0641918e6d9224d6033f5103475ddbe6bb28feedc7f0543579e2665c1",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0263.png",
+                    "sha256": "a6997b2e116830dcfdb003d2e78b2d2f1618d62c9c154881c10eb66b672bd24f"
+                  }
+                },
+                {
+                  "index": 264,
+                  "source_crop_sha256": "25f32fd0c27a2a5fa3d2e96dd985ca8bffa81b0e8a2ce70920616a21081a7dd5",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0264.png",
+                    "sha256": "cfc3d0f2596363e4ea1862e9e95a5272c327da59197867354a9ac48ed073caa9"
+                  }
+                },
+                {
+                  "index": 265,
+                  "source_crop_sha256": "6375be5f2a0acee4f219fe82613b41ac50c4d42dda0e64c31f30e9b12f53690a",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0265.png",
+                    "sha256": "ca5fb087aba134cb0c1b85706c413596cc625b3d28ae543856023f256248a4c1"
+                  }
+                },
+                {
+                  "index": 266,
+                  "source_crop_sha256": "55cc6a428e4b4bb446467488c4da7ac3d0aa13f20d3f1eeb6876b0be3879a4ea",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0266.png",
+                    "sha256": "eea8e932959e123c8193d6e9116a3b7dbad6a8aea6748a9b618e5d0ab22efd47"
+                  }
+                },
+                {
+                  "index": 267,
+                  "source_crop_sha256": "6acbdbe18f0292275880738d5ea9dd7d8cda1f94d3fb4628f2dd5f801fb5707a",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0267.png",
+                    "sha256": "6eea14c0612502a651dfcda19499a572e97d284e510a042184297f370b44dfc2"
+                  }
+                },
+                {
+                  "index": 268,
+                  "source_crop_sha256": "3568ff629979b74909367ef6ae80e93726c26f752d4fa5ae6a9ea00101cebc5e",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0268.png",
+                    "sha256": "4949f510f55bb596774db0a393f2cac1abb37ae8fde3fb682dd55adb11e80392"
+                  }
+                },
+                {
+                  "index": 269,
+                  "source_crop_sha256": "7de464965b302a329c5201565ddef4bedd0c4bfc09fedd18876f489d21c91e23",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0269.png",
+                    "sha256": "482e2706886b657ce7cf1816e4a8883da514100dd6d4c47b037a9346b9719636"
+                  }
+                },
+                {
+                  "index": 270,
+                  "source_crop_sha256": "c01a0c4b02a593019f95b4343f2c67140c71c40884d63b179c42fbf9597a50e2",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0270.png",
+                    "sha256": "3f902574add7b0ef62181493b078d35f49eed211fe107baee61dcef8f8622ed4"
+                  }
+                },
+                {
+                  "index": 271,
+                  "source_crop_sha256": "eb00bca52b8abdbd981994f8214dd6e7c5e98b6153033eca5d8652d342d97921",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0271.png",
+                    "sha256": "42a9458bd3d5798e2ae47a5feae1003b0d99477bc4c1daac4621328c09d54e9b"
+                  }
+                },
+                {
+                  "index": 272,
+                  "source_crop_sha256": "be5352148afd871875cdc5216d5c9d4b012caeb13d0da182fcba06b8b95bb0c6",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0272.png",
+                    "sha256": "1fcd72bc47336cc6b3db7f1ce4cf56c09b6348c5ddd7484e7e8e9522037a2dad"
+                  }
+                },
+                {
+                  "index": 273,
+                  "source_crop_sha256": "cc3ea367441aad0368830c2a9a116e19fd270113ae43399066ac998fd8905db8",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0273.png",
+                    "sha256": "4b7c8cd7dd7fe1c646bc67757b2738c3251ea672927b61476993c9f3515d31ac"
+                  }
+                },
+                {
+                  "index": 274,
+                  "source_crop_sha256": "d98397ee3284b55c7209e0dc7062b0d4da4d623a10f764ea3b7a3d78180dff3e",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0274.png",
+                    "sha256": "c37e2e0d7a7f8990725fa433a51dc8b4e72c3bb7a2c8391738a0562e5819ddd7"
+                  }
+                },
+                {
+                  "index": 275,
+                  "source_crop_sha256": "1e240595ceb7d6f73430d048f7a4e568d8392d7e8338c8a6ecf2904bb7467174",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0275.png",
+                    "sha256": "cb84a8c21b9a2384fd78f769b714aeb8394b06d46e872206a6229c0ac2066303"
+                  }
+                },
+                {
+                  "index": 276,
+                  "source_crop_sha256": "08a8ea5e444d4e3e9c6bb9729916af5c720d6e3e50fd78f8a8b5a7a660c0c8b3",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0276.png",
+                    "sha256": "8cd8680969c91a10c42ddd4fddaefd4a7f22cdf04c286e62f297d06fdd1023ce"
+                  }
+                },
+                {
+                  "index": 277,
+                  "source_crop_sha256": "996e614fbdc70db0451d091238b24e1b9c3eb8fa27d407171b78def178639291",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0277.png",
+                    "sha256": "c4000d46055f63902703c5a2ce244b5cf5d6b20a063b32df72d005f0e68bef37"
+                  }
+                },
+                {
+                  "index": 278,
+                  "source_crop_sha256": "8ac0c12193f403d3118553a4d8daffd970360125e275a04ab86b997c1e1cb11a",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0278.png",
+                    "sha256": "fd3602eeb4a85a15bc0913beaff9d707d92d39793563de6217545c729a6a2416"
+                  }
+                },
+                {
+                  "index": 279,
+                  "source_crop_sha256": "42c1d997d74a45686f6005dfd45e1fc7bfb2f20223861452c7791e149941ec94",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0279.png",
+                    "sha256": "63fbc12cd27aa614e5bebfad28a08b7899d39c33adf5b2c13d67901dbc2e62c2"
+                  }
+                },
+                {
+                  "index": 280,
+                  "source_crop_sha256": "72708996f701acbb8749adbef01403db8f876cb6bebfb7fe6c22e2ddf688956c",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0280.png",
+                    "sha256": "22aa626caf1f0b191294c0a65f3a574a1e1744e65078cb2847cf7cca98600bcb"
+                  }
+                },
+                {
+                  "index": 281,
+                  "source_crop_sha256": "46d9dff89a8c3f9840798bf8f62d5f7fa4259c0f612ae932e9ba8bbaf747637f",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0281.png",
+                    "sha256": "508faba99a034fc2671635574da2c5598ac859aa3d2be4d2c51cb3468b6cb986"
+                  }
+                },
+                {
+                  "index": 282,
+                  "source_crop_sha256": "62b7e961d69177c8da93e4cde21708cb289556bd519646c8863bee814e7a9ab1",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0282.png",
+                    "sha256": "0e34b4192c7fe3bc26931d99fe1bc8a2c705244c6e3f48039b36b0836874c79a"
+                  }
+                },
+                {
+                  "index": 283,
+                  "source_crop_sha256": "1fbef8d0a6bced8c199c3fe43bdf1f8a3982d1b07ac8e9c33fc62ed090324d6e",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0283.png",
+                    "sha256": "8ebd95762d25a6b1ca50d1694c322683bd81e55353abaa9c9149ac675b3b5e89"
+                  }
+                },
+                {
+                  "index": 284,
+                  "source_crop_sha256": "86e515b2765eb8fa57672c63de1fed41e363dbe74a795ea5614e7fd2c7376c39",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0284.png",
+                    "sha256": "4a3afa020a04737769f7fadc209002dfa0057b2fbc6279eac93f4e99116072d2"
+                  }
+                },
+                {
+                  "index": 285,
+                  "source_crop_sha256": "10863263669f6b174c54b1f598d8c477890010427f3dc172d8a869a2668d56c8",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0285.png",
+                    "sha256": "89ca4942ddd55d8e9057938a736f608a06578d1fccceaceb5d3af1da047047a2"
+                  }
+                },
+                {
+                  "index": 286,
+                  "source_crop_sha256": "be479c9558a2e8012d4229207a23ca9d105f6a4b0bfca1d0483f2b9ffa93f52c",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0286.png",
+                    "sha256": "769c79c0d0e6978712fc345531599c09142b9190a9cd08c8f93918378fd80573"
+                  }
+                },
+                {
+                  "index": 287,
+                  "source_crop_sha256": "9880f9669ab40fdd09279145a137305cc9ddb72ce7b78ee92f0ac872af1af6aa",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0287.png",
+                    "sha256": "d6cf95f499aa129e9826e585b9f74936c0308491a600ea5918e84f58d1ca623c"
+                  }
+                },
+                {
+                  "index": 288,
+                  "source_crop_sha256": "45a2b339e4a633e154db1c3d597632cc06d64e9c1a271c44658e90897033e61d",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0288.png",
+                    "sha256": "8056db5aa37ebb49c6c1a79b4d95708132b8c7897297fb22e89a25ee1c60e8d3"
+                  }
+                },
+                {
+                  "index": 289,
+                  "source_crop_sha256": "df648827b04650475e93886ca31caff0dfe860fd4a4a361342839ba4ea1c0ef3",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0289.png",
+                    "sha256": "d72fc9a718f398800c3a0fab4b95aa5755869ea4d0a03fc8538bbbcb465e68c0"
+                  }
+                },
+                {
+                  "index": 290,
+                  "source_crop_sha256": "4d95540ecb73e45df4639238ba592d21f2bcd8967fe7e8ddf9abc95fecd434f4",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0290.png",
+                    "sha256": "9b706f465a84b8169284f89d5b8d80c4caa930a89c3a495f61849e893f9ba82c"
+                  }
+                },
+                {
+                  "index": 291,
+                  "source_crop_sha256": "c7e0da29e20acae81ee016a7c20cb96e2b4a69778373515718e6a08c2bba64c8",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0291.png",
+                    "sha256": "2d8ba46d4e23a427e150c6c4f2dae8184f3d10957e12b431f64115a35c9ade4c"
+                  }
+                },
+                {
+                  "index": 292,
+                  "source_crop_sha256": "9965797e4fae9893504d281ced5edb36dd5736dbd65ea61f47c6a5d6f256324a",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0292.png",
+                    "sha256": "4ec9e9f0d4e16f1e904a5541870f6fd96e8e0460b20187a307b40e1a8de15c04"
+                  }
+                },
+                {
+                  "index": 293,
+                  "source_crop_sha256": "028d2e20bb7b8c55a5d43c3424a31a6972a59c00d0e6f851b209955db12ad47b",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0293.png",
+                    "sha256": "8d1932bef36672411ab411819d565728c3cb5beaecd92f3d25c1d84106d707e5"
+                  }
+                },
+                {
+                  "index": 294,
+                  "source_crop_sha256": "6a0549fd36b7c8d50a57505a68e897435f297caa01e66040646d8b51e023496c",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0294.png",
+                    "sha256": "f715629bd6f94f07758365e16e393af9b651fd917430ad0c681273415bce54d7"
+                  }
+                },
+                {
+                  "index": 295,
+                  "source_crop_sha256": "1be3151288aa0d733825d67fe0270124fead6ea60225f544cb875951b2a5aade",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0295.png",
+                    "sha256": "957108e33703075d6a8d87705d7153fa4979fe760519ec5732594a2ef57c9823"
+                  }
+                },
+                {
+                  "index": 296,
+                  "source_crop_sha256": "f3d5ad94ea235136c975f32fcffe276e52b122a3f96b70842c13feefb38ff715",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0296.png",
+                    "sha256": "f48d9937006d7b54b83dd6cbd5a9183e2210350f12c79222a3a21730f4d98b6d"
+                  }
+                },
+                {
+                  "index": 297,
+                  "source_crop_sha256": "0a5596c7999aac074f9c5ccadd9cfa7d00483f993f65e4b2041ed346ecbad837",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0297.png",
+                    "sha256": "29411137dfabb47f07b6bccf7fb54a7a131d359814832bd2d890315f2396fc06"
+                  }
+                },
+                {
+                  "index": 298,
+                  "source_crop_sha256": "1f109206457662d09d4f5c55f7c381341068aec0704eb91dc264209eed9f362e",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0298.png",
+                    "sha256": "ae494fb1273df3bf7af7b59a09bb59f89687eddde714c561ce0dce29015b7441"
+                  }
+                },
+                {
+                  "index": 299,
+                  "source_crop_sha256": "44f8b012ed2a06f2ddafa3ca87c8a382700a45ea2cb3d7cdf206f866a0ceefd5",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0299.png",
+                    "sha256": "f90c86707788726274f29b63cda7193ecd0e3acb792ea5dd737781c238b7144a"
+                  }
+                },
+                {
+                  "index": 300,
+                  "source_crop_sha256": "94d092712005b4f01b2ef20a7bd7b7e6e871ab268478a6d8a947482f4722faee",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0300.png",
+                    "sha256": "edde9f70a5ff17dc87bebe671f3cc319d4adb58d9aa4064c0990ba1b44e267b6"
+                  }
+                },
+                {
+                  "index": 301,
+                  "source_crop_sha256": "a8e8209124cc026793207472de769ef24f3014357aace2e520f30d01a6b4a461",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0301.png",
+                    "sha256": "6ea7143405db1c00daac48b468751d3020a5e7e1f556e033dd5f9e42e598f424"
+                  }
+                },
+                {
+                  "index": 302,
+                  "source_crop_sha256": "985e94772987c92e15dab69efc26d15606f7ee40dba8e8e6445ce506673f3195",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0302.png",
+                    "sha256": "9308d36733a115192363a91c86eb07f71cb443f1d4b8d4142aece5d5cd8219f3"
+                  }
+                },
+                {
+                  "index": 303,
+                  "source_crop_sha256": "e8cb138135a255e6f59d5e518edebf965a1f6f5174d73759e153fb23889b2091",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0303.png",
+                    "sha256": "aa90e938579b11f5d0909c955b48b7422afb9c9a07d435f64a42bca748202ec5"
+                  }
+                },
+                {
+                  "index": 304,
+                  "source_crop_sha256": "e8563038c569241f27565181ab15624808467eaafa1d0498f581d15bcc7e78f1",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0304.png",
+                    "sha256": "687166566fa70d15a66d84c425be213a9b60cbc474144e8c4256f81849e1d98d"
+                  }
+                },
+                {
+                  "index": 305,
+                  "source_crop_sha256": "23d254434d5fa6e70d799016e553f1871dc7175ba81a5bc26d95cd3f81606c5b",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0305.png",
+                    "sha256": "06cf52d9e6aa3a18582a3825c2cdbade5bee8ab9b54bca15de3833c25d584a31"
+                  }
+                },
+                {
+                  "index": 306,
+                  "source_crop_sha256": "5e49b90d9e08e87e9559e60ce92ae7d06260ebe60249cdb94449e035263c67a6",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0306.png",
+                    "sha256": "9f9000071d86aa6b6f620e69f61281cfadc4459442e30bdf82aa86e6a08c55ff"
+                  }
+                },
+                {
+                  "index": 307,
+                  "source_crop_sha256": "a38b2d1fb042c62c25266e86a8bb0eba764aee2fa9669c25138f81d36f358f9e",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0307.png",
+                    "sha256": "e907b90efce03de0c82216dea6337109a3229743c32943c39cbd3c04e42e0e98"
+                  }
+                },
+                {
+                  "index": 308,
+                  "source_crop_sha256": "ceb6edbdd993e77e9756b9cda66918be9e21227f078c3f5ec70417a739f6dec4",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0308.png",
+                    "sha256": "e10649f15ec01d1ea1deae8faf802e8f6b8a9edfd3f070db1c8c1e6fab44c873"
+                  }
+                },
+                {
+                  "index": 309,
+                  "source_crop_sha256": "568b8e71d61c676a61355bf8fe3cacbeccbbac80da062ad4cf2a91b61a3c705b",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0309.png",
+                    "sha256": "dbab5a84c431e630ddbf2a472474d650b6fd3a228f29d2c9a7a4c8b5ddff0ada"
+                  }
+                },
+                {
+                  "index": 310,
+                  "source_crop_sha256": "7dc355e587a1bccdebf397df6cbd2e1b8eb91c94fc900dfc7ada5489fc3eb160",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0310.png",
+                    "sha256": "7eddc5f4de8ab06e5128dbe7dcf4dd53eab2ef314a77da464832b678af3da02f"
+                  }
+                },
+                {
+                  "index": 311,
+                  "source_crop_sha256": "82a2228afb8ce0af061a8a7f72fadf861f37d1a391eee1bc4b7d2e45e089f738",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0311.png",
+                    "sha256": "cd98b50f5a1722539fdecdcc524bad7e1575542b3e266823b0c562f51282e0bd"
+                  }
+                },
+                {
+                  "index": 312,
+                  "source_crop_sha256": "7b101860a6806710391f8dbddb26c210ae3c394778d26e67f0542398c661753e",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0312.png",
+                    "sha256": "c41afd3ff540d6af36d05350fc3f8ff294143d7011818f706565d04e38686179"
+                  }
+                },
+                {
+                  "index": 313,
+                  "source_crop_sha256": "52284976b138763b94f78ae1ae8f176104e94d688eaed3ee85b72771e9b30608",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0313.png",
+                    "sha256": "cdc12cf4c2e137a95baa82c676e65044631a301839783658ce0d4ae77b2df847"
+                  }
+                },
+                {
+                  "index": 314,
+                  "source_crop_sha256": "bfeb2cd3ee34861e6258aa5ccc34cf6c3d49a329071c8706c694e41fdf0dc0b1",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0314.png",
+                    "sha256": "660b7e58cdff00fd2cf92bc34fb190e65291ec34560a47f15dea58d9ac04dbdb"
+                  }
+                },
+                {
+                  "index": 315,
+                  "source_crop_sha256": "d045f60eaad8b05c4bfcc0003cf936c531bd84933b1d6ca1c99475ac37573f0b",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0315.png",
+                    "sha256": "d493fe31533c39b62747b461ce913548a27f0e1e639f3e1e6bd5c736b1c7222d"
+                  }
+                },
+                {
+                  "index": 316,
+                  "source_crop_sha256": "ba839b2f24429d8eb6a0d2f36dd08218838d60d167ea61f09a02bfd1ff6efe45",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0316.png",
+                    "sha256": "0a7e17dfbc767763697825ea194792bcca6729bd3fc3ce6678a0927b46786187"
+                  }
+                },
+                {
+                  "index": 317,
+                  "source_crop_sha256": "19ed9eaf7e6d404fa02f4c677e0bdb9fbb770d10e86685dbd8feaa0a24d46817",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0317.png",
+                    "sha256": "c21f73994c1f359383c29fe61194162322fe8a87f39082fc824b7d2d2a061e54"
+                  }
+                },
+                {
+                  "index": 318,
+                  "source_crop_sha256": "2407705328286582a835ae4ad858cecdf542e52669ddf7125e705e80db904a70",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0318.png",
+                    "sha256": "fe9ade5487537a151ac70f5a4e5514c02e3b13e0443c8c00401537c7cdcad843"
+                  }
+                },
+                {
+                  "index": 319,
+                  "source_crop_sha256": "4f4b47bc6384178ecab1c034ea20addfda48e2d2a11ae6ef98d1a498a8a51c8f",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0319.png",
+                    "sha256": "f1b52065dc83852fc73c0a3ac095e02a67b6ab871ea908425ac168221891d8de"
+                  }
+                },
+                {
+                  "index": 320,
+                  "source_crop_sha256": "3b9b6d53660b91f544cd5a461b2c060fe43856bfb7806a9343894f7bc9184308",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0320.png",
+                    "sha256": "45e64669a63f5610f0ebc9f6fc95bccba8fc9d991b80744550f39c4497966d30"
+                  }
+                },
+                {
+                  "index": 321,
+                  "source_crop_sha256": "275989623573a6f61c59ff0f23c96330673ce3bc143451e1d788b3359709a030",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0321.png",
+                    "sha256": "c68448487a69b396fdc56c32d1a820da08824141ac747420f33274d5c6daf7da"
+                  }
+                },
+                {
+                  "index": 322,
+                  "source_crop_sha256": "0d19d1ab95649ee7450b0657544077bd9000125d361580b20d59e890e86f1c51",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0322.png",
+                    "sha256": "3a6196604a4eac1e31e9d1b7ae0e117866d912fcca6f3ceee08730187a18b6d2"
+                  }
+                },
+                {
+                  "index": 323,
+                  "source_crop_sha256": "320df9cbdd8621f6a6af1254767111f6949e17271b5b741cea3b57a65ef02d16",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0323.png",
+                    "sha256": "1bf4d690ec1bc815a9e6141d453b183e7bcaa107d9dc07016dc78e707d0e8cab"
+                  }
+                },
+                {
+                  "index": 324,
+                  "source_crop_sha256": "45f5a1d11e6b2302c3327defa3bcb38a75de5ea151339a402e313561c1115bd3",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0324.png",
+                    "sha256": "bb9859058af229d0fcdad24109ede21b5725d8c4a5eac352d9dfda3da59f6c60"
+                  }
+                },
+                {
+                  "index": 325,
+                  "source_crop_sha256": "6dd0f73e10296b6a1399ebf2eba952cb8252b8eb7189807663f9e48d9ffc068b",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0325.png",
+                    "sha256": "02cd261606fe28c5f4482315d29f421be749b0d0ed340763bb510d107ec505f4"
+                  }
+                },
+                {
+                  "index": 326,
+                  "source_crop_sha256": "eb5e0ea01a5ea331e0a5624780bbf2c32ae742de13a23736d097d57c38c5131e",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0326.png",
+                    "sha256": "f8414ebddd2e19391076a762ec912273dc7a6e4d510448645235b58dbfb76f12"
+                  }
+                },
+                {
+                  "index": 327,
+                  "source_crop_sha256": "846c23545a3ecebbd8b5aab7c1ee35c112937f06365aac4abcb7acc0ae303b1e",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0327.png",
+                    "sha256": "ca8c683464913602e2caaefb3f5c844ba21c5d2bd41849c14aa34811be0f6611"
+                  }
+                },
+                {
+                  "index": 328,
+                  "source_crop_sha256": "ba67ef089dabe707e83a2a047e875fd557dde4d40d1f82c47657c7c878feb7bb",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0328.png",
+                    "sha256": "47137089eb2ccf2ccd29d51c9d63f4412b975825f5b5ceeb4f15003b2dcbf8ee"
+                  }
+                },
+                {
+                  "index": 329,
+                  "source_crop_sha256": "f63beb3ba4942dd10b530a3991f48a2f7817aa70167cae3790c37d4767e5e01e",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0329.png",
+                    "sha256": "103abdc57051f3cece15dee339800c0096c5d8d6f652dfce1b773ab8e6040ed7"
+                  }
+                },
+                {
+                  "index": 330,
+                  "source_crop_sha256": "af1b2dca0543e42b6cd5a016e44f2dadae53f64142ea28f9bbc954e1f631720d",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0330.png",
+                    "sha256": "1791ac609cdd4ad78db5c80eceba40280a6d31160b09c78a3fa852d5893d9200"
+                  }
+                },
+                {
+                  "index": 331,
+                  "source_crop_sha256": "79cf55d97522f53a87225d2f6fd8965702c25bd0d95dc53f050238b619c7cbe4",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0331.png",
+                    "sha256": "0c1041e1d8078ce6da7ea8ad42d8465f38b9d9948518ee222c276c363707b236"
+                  }
+                },
+                {
+                  "index": 332,
+                  "source_crop_sha256": "6b80790b79f5a6958b202eacb9e2374ed283e23e7d23bbf48648c5f6cc0c6fb0",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0332.png",
+                    "sha256": "ac1ef89c6929010854033110359285b307b3e03c5ffe308af02783ac3443534c"
+                  }
+                },
+                {
+                  "index": 333,
+                  "source_crop_sha256": "4f59f3eaa288c2af4c332421a22cf15a87dc2ad3c209f7e8ea649d5672313e63",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0333.png",
+                    "sha256": "267ae7fdcd26cf62305f8f4b27f280cd4c8d53ee586afafcaf4ef280b443baa1"
+                  }
+                },
+                {
+                  "index": 334,
+                  "source_crop_sha256": "9a5ee205146b2b1b86804ca626b8de2b59042f07ab5b5ac3c1754c5c467d7192",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0334.png",
+                    "sha256": "27e99431c85bd8f521f3a74f8ca97072fa26941e7e66504b6e053f27577762ab"
+                  }
+                },
+                {
+                  "index": 335,
+                  "source_crop_sha256": "3b94b3738cb3466231e0995af80fc4e490425bf2466787d75f3640118c6364fb",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0335.png",
+                    "sha256": "8e928a17fa6a5b3bbdd326fe0f0674cd9198d07856b0c50aacf659052f06535b"
+                  }
+                },
+                {
+                  "index": 336,
+                  "source_crop_sha256": "8e1b6b467b591d79ff1fe19164577b50ba2fbea8c666c8d2bbd19082615d71b7",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0336.png",
+                    "sha256": "1b9535358505aac152300f3ad4a91a080d5382aa92b0be2bd25559e668ddebae"
+                  }
+                },
+                {
+                  "index": 337,
+                  "source_crop_sha256": "8df26a6f95dde965be1f886f0794ab96a2d74f1f077ff636484a73332101bb3d",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0337.png",
+                    "sha256": "a3c7643adc0c4c118e3033b83e6233c98789c5d464c844b253725af338a3006c"
+                  }
+                },
+                {
+                  "index": 338,
+                  "source_crop_sha256": "785c5c0f57154a3cae75699c33687d6d686383903fc9aeffa3a5c29c14d389ea",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0338.png",
+                    "sha256": "70148b49d17e45478117d6b74a4b265b072df0434ded08f1c7234ccad497cc83"
+                  }
+                },
+                {
+                  "index": 339,
+                  "source_crop_sha256": "c0c5b2962a48655d16ab3010898618bea875e1c5f90584043fca27a1990b9743",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0339.png",
+                    "sha256": "a58432d2c6dd52fe5d9511ff99c9296457b0bcf054809517f4dc41d6988f9f54"
+                  }
+                },
+                {
+                  "index": 340,
+                  "source_crop_sha256": "fce8c01ede8c30f20952102062b5963ced457f11948e951c469b153fe55d579c",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0340.png",
+                    "sha256": "14f5013379bcd6899ce81cda834c5640cb875164322f3cc5cd8e4621597dbca8"
+                  }
+                },
+                {
+                  "index": 341,
+                  "source_crop_sha256": "35418506534ae293473fe17389a7be697338798966ea0067cea5afc212248381",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0341.png",
+                    "sha256": "ae450d63d5b4478e840dad624bc3f138d3af437d706ded86405297d8169858c5"
+                  }
+                },
+                {
+                  "index": 342,
+                  "source_crop_sha256": "441a355432afc8005d22184c4d56abc07e34acb06f18ce0467a06266b8524ab1",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0342.png",
+                    "sha256": "b7fe5a9091a743849578c5e1257f2dad0d1be91b456d4f5f06bcee04ba8b2a3a"
+                  }
+                },
+                {
+                  "index": 343,
+                  "source_crop_sha256": "138494980a29e7ae8cd7744ed704933ae3ac3605390f3581b97098985419a463",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0343.png",
+                    "sha256": "274c8dcded4c30997a603468a3d53943017a0872dae80c783046d09d512d5d6f"
+                  }
+                },
+                {
+                  "index": 344,
+                  "source_crop_sha256": "0a7311f8fb9783aca6b587175b968d97474c53c4cd4842390ba5f26ba7bbac40",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0344.png",
+                    "sha256": "055cd0c5e25f427c1580a635ecb900b9d3037a882bd969287664665bb9a1a326"
+                  }
+                },
+                {
+                  "index": 345,
+                  "source_crop_sha256": "11ec29acd38fbdf162c10990caea4198aea08e9e6c85679f81430a84c2142f79",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0345.png",
+                    "sha256": "f6dc00f37638b5db0263de63437eebf5d89b2361624d31b08d064e5f8fc3d6cb"
+                  }
+                },
+                {
+                  "index": 346,
+                  "source_crop_sha256": "9e0de76d894e95cc513e6374dc8bc21fc86130928a75c473da94372e8e985ba5",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0346.png",
+                    "sha256": "75cf10a4d2035e8382fb88dfc3c0ad7073ab7a838507d770359754817ca41374"
+                  }
+                },
+                {
+                  "index": 347,
+                  "source_crop_sha256": "937484c059b5578f6a6513f15d0128adb718869f0fb54c1e042549d8ab0756e9",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0347.png",
+                    "sha256": "600506a8e278c4eef8898ff429f9b1be3f74c37f29568dabdd749c92a62f7c72"
+                  }
+                },
+                {
+                  "index": 348,
+                  "source_crop_sha256": "fe766e7545e56128929e699b2ca27bd8762566e453923f27bd304d57fdddd398",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0348.png",
+                    "sha256": "54cd291aa96c94ca2c6f141ed53d42da2e5063a7e17bf52998f373e610dcb0e5"
+                  }
+                },
+                {
+                  "index": 349,
+                  "source_crop_sha256": "d624d082b05336d0ee1edd6b605c7c6857d0f9925864946ebdf01006ab614176",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0349.png",
+                    "sha256": "c16a3f22dbc82952598ad2bacf324466c149fe6f68bf16adda94ee9052e49095"
+                  }
+                },
+                {
+                  "index": 350,
+                  "source_crop_sha256": "6f0efde586375997c461c5e3682e5250e9f78fdd6b6f94afc8196e72ac64420e",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0350.png",
+                    "sha256": "d8a1e76545be4d4b5ce4f266521de5c3cd80f9799ee34bf6d3c17492859202b8"
+                  }
+                },
+                {
+                  "index": 351,
+                  "source_crop_sha256": "d42aeb78e66d398545a15477b562c97731c29d7007773c06ee7fbe0619617b20",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0351.png",
+                    "sha256": "34a6d9d8eba4c0b70fe4fcf8658e136a61eceb15da22210152943a5f6b7ca1a7"
+                  }
+                },
+                {
+                  "index": 352,
+                  "source_crop_sha256": "11c39200715cf90486258dc16f2b6021d1a22fa8341c85331a214018a3fad846",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0352.png",
+                    "sha256": "da8ddff6aad7ce2f81359ac36075883281425f86cabc6a770e7b348032bcaef9"
+                  }
+                },
+                {
+                  "index": 353,
+                  "source_crop_sha256": "deca9320f02a56424bf272011325d85431fd8715006cc7ef985d56a060649e4b",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0353.png",
+                    "sha256": "44d7387b484a3b166b071b54f33bfc78989c92f3fdae0ae74bdffd7586d8c2e4"
+                  }
+                },
+                {
+                  "index": 354,
+                  "source_crop_sha256": "c9a8d96faa9711a681f60a8f9922c66a8e9dda09c6c3531193a08d0ccef0509d",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0354.png",
+                    "sha256": "8e8742467f36a16847b060d52c21cb1854bac49ba8d4225c23eba1288ee2c567"
+                  }
+                },
+                {
+                  "index": 355,
+                  "source_crop_sha256": "8045f3bc1b7b3e2c39d7185aa0d9ff72d110d4cdff480243539cdba52b57f8ca",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0355.png",
+                    "sha256": "7d9f0f3deed041e317752930e05ff8ec674f1f4337fc40116f56fd8e5cda827c"
+                  }
+                },
+                {
+                  "index": 356,
+                  "source_crop_sha256": "5f65d160e0b775d93b87305e410629bb2445c95b26f171cb889c8fd620180b3f",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0356.png",
+                    "sha256": "e85a75b4ae5cd4f52f71320b67c97c018f5cb81a1bbb673c4dd23288a8380c26"
+                  }
+                },
+                {
+                  "index": 357,
+                  "source_crop_sha256": "e754248b26f8b9b3bc343e7f00b318ccb4321935c58427fe80475be655448276",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0357.png",
+                    "sha256": "cbcd001ba43eb2f08fe382bbdb0feb4dcda5f2be7b7400c28b2a038f88fb8db8"
+                  }
+                },
+                {
+                  "index": 358,
+                  "source_crop_sha256": "4c4437cbc4ed6c6a0c8179f43c5306b822cd7981a1ee24aaa572ab1775f92118",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0358.png",
+                    "sha256": "aa0fe7f36d488b3485243e4a69b21c27ba5dd09332433b668edcc8d464c009e9"
+                  }
+                },
+                {
+                  "index": 359,
+                  "source_crop_sha256": "888ccf1ede2e35f1f5cdd409ce96d03bd6c238b8e9e59f946ffd8c27bb0aee9a",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_08_ruhalt/0359.png",
+                    "sha256": "045db1c1752e220e953444bbc038b9b4176a4e12bb0233a607605e973a262db3"
+                  }
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,3 +1,5 @@
+> 阶段365：29项遗漏的现行源计划、清底／成品原生检查及重建命令见[成套修复](docs/PHASE_365_OMISSION_REPAIRS.md)。最终recipe为双盘471／573项资源及2项DLC；只摘要增量刷新既有测试目录与同名v1.0安装器。独立大章节标题调查仍未结，不能以WorldMap目的地代替。
+
 > 阶段356：用户明确要求通过安装包模拟真实用户流程，现已将阶段354–355修复重新打入 `dist/MC2-CN-v1.0.exe`，文件名/显示版本仍为v1.0。实际EXE的双盘985项资源、2个DLC、717个内置文件及隔离回滚均已核验，见 [安装包刷新](docs/PHASE_356_INSTALLER_REFRESH.md)。本轮不生成完整游戏副本或ISO，不改现有测试目录；用户用新包选择原版输入及新输出目录进行完整安装复测。
 
 > 阶段354–355：任务通知91处去句号，存读档9个“存档点”修复取图裁切，任务完成标题按自身原生边框居中；EXP/SID底框与原版一致，保留。当前标点/图像控件合同为v27/v28；沿用既有目录增量刷新，见 [任务标点](docs/PHASE_354_QUEST_NOTIFICATIONS.md) / [存档及奖励界面](docs/PHASE_355_SAVE_REWARD_LAYOUT.md)。这两个阶段当时没有重打包安装器或ISO；后续安装器刷新见阶段356。
@@ -2073,3 +2075,17 @@ renderer追加payload后必须先恢复raw 32768字节边界，不能直接交�
 [遗漏筛查](docs/PHASE_364_OMISSION_SCREEN.md)。`prepare_text_screen_inputs` 从锁定原盘／当前资源生成文本子集，
 `audit_text_residuals` 读取独立locale策略，输出已分类残留与明确遗漏；分类通过不代表没有漏译。
 本轮未改游戏资源，不刷新现有测试目录／安装器，不生成ISO／完整游戏副本；三态恢复只针对隔离审计策略。
+
+## 29项遗漏修复与章节消费者调查（阶段365）
+
+阶段364的dated清单保持不变，新结案表使用 `omission-repairs-v35.json`，
+文本策略使用 `omission-screen-v35.json`，49视图／52成员重新从最终recipe准备。
+电影入口分别为 `worldmap-captions-v35.catalog.json`／`swapdisc-captions-v35.catalog.json`；
+属性入口为 `style-stat-aliases-v35.json`，源像素清底由 `build_native_pixel_repairs` 重放。
+精确构建命令、源锁、原生alpha、量化边界和逐片清底退回记录见[阶段365](docs/PHASE_365_OMISSION_REPAIRS.md)。
+
+累计comparison完成后仍先跑 `normalize_runtime_comparison`，本轮结果为ALREADY_CANONICAL。
+Disc1新增9项必须显式登记原始资源，再运行 `refresh_oneclick_probe`；
+Disc2按锁定原始身份合入共享修订与5段独有地图更新，不合盘，不重建ISO或完整游戏副本。
+大章节路线的新六条CSMB结束事件及HUD／材质证据单列[调查报告](docs/PHASE_365_POSTCUTSCENE_TITLE_ROUTE.md)。
+同一提交仍须通过干净快照预检及四组云端CI，实际EXE三态审计及独立回滚不能用源码测试代替。

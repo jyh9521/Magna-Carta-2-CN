@@ -1,0 +1,6248 @@
+{
+  "schema_version": 1,
+  "kind": "native-pixel-transport-texture-repair-v1",
+  "method": "nearest-source-pixel-rgb-preserve-alpha-v1",
+  "hidden_background": "native-motif-continuation-not-original-recovery",
+  "cases": [
+    {
+      "id": "style_stat_def",
+      "source": {
+        "path": "build/phase-365-style-stats/sources/MC2Game/CookedXenon/Style_Tree_Resources.xxx",
+        "sha256": "6f9562d8f2a52dabc2c36e598f23bd9ac8d383e8c2cab95284d65a2feae2e5bc"
+      },
+      "object": "Style_Skill_Status_DEF_normal",
+      "profile": {
+        "kind": "xbox-inline-bc-v1",
+        "format": 7
+      },
+      "dimensions": [
+        128,
+        32
+      ],
+      "rgba_sha256": "7d1075f7231d9c0da71742b1309aa1e9d3ac5ffa590715b1c45251353988faed",
+      "mask": {
+        "path": "locales/zh-Hans/texture-overlays/style-stat-restorations-v35/DEF-mask.png",
+        "sha256": "b06faed5d6b0a9c66528ae1a7114c7ec2fc2ac4056882c9f94685d28894442b5"
+      },
+      "donors": [
+        {
+          "id": "DEF",
+          "source": {
+            "path": "build/phase-365-style-stats/sources/MC2Game/CookedXenon/Style_Tree_Resources.xxx",
+            "sha256": "6f9562d8f2a52dabc2c36e598f23bd9ac8d383e8c2cab95284d65a2feae2e5bc"
+          },
+          "object": "Style_Skill_Status_DEF_normal",
+          "profile": {
+            "kind": "xbox-inline-bc-v1",
+            "format": 7
+          },
+          "dimensions": [
+            128,
+            32
+          ],
+          "rgba_sha256": "7d1075f7231d9c0da71742b1309aa1e9d3ac5ffa590715b1c45251353988faed",
+          "clean_rectangles": [
+            [
+              64,
+              0,
+              64,
+              32
+            ]
+          ]
+        }
+      ],
+      "runs": [
+        {
+          "destination": [
+            30,
+            5,
+            2
+          ],
+          "donor": "DEF",
+          "source": [
+            97,
+            5
+          ],
+          "step_x": -1
+        },
+        {
+          "destination": [
+            56,
+            5,
+            4
+          ],
+          "donor": "DEF",
+          "source": [
+            80,
+            5
+          ],
+          "step_x": 0
+        },
+        {
+          "destination": [
+            28,
+            6,
+            4
+          ],
+          "donor": "DEF",
+          "source": [
+            99,
+            6
+          ],
+          "step_x": -1
+        },
+        {
+          "destination": [
+            56,
+            6,
+            4
+          ],
+          "donor": "DEF",
+          "source": [
+            80,
+            6
+          ],
+          "step_x": 0
+        },
+        {
+          "destination": [
+            28,
+            7,
+            4
+          ],
+          "donor": "DEF",
+          "source": [
+            99,
+            7
+          ],
+          "step_x": -1
+        },
+        {
+          "destination": [
+            39,
+            7,
+            1
+          ],
+          "donor": "DEF",
+          "source": [
+            88,
+            7
+          ],
+          "step_x": -1
+        },
+        {
+          "destination": [
+            40,
+            7,
+            1
+          ],
+          "donor": "DEF",
+          "source": [
+            80,
+            7
+          ],
+          "step_x": 0
+        },
+        {
+          "destination": [
+            55,
+            7,
+            5
+          ],
+          "donor": "DEF",
+          "source": [
+            80,
+            7
+          ],
+          "step_x": 0
+        },
+        {
+          "destination": [
+            24,
+            8,
+            16
+          ],
+          "donor": "DEF",
+          "source": [
+            103,
+            8
+          ],
+          "step_x": -1
+        },
+        {
+          "destination": [
+            40,
+            8,
+            20
+          ],
+          "donor": "DEF",
+          "source": [
+            80,
+            8
+          ],
+          "step_x": 0
+        },
+        {
+          "destination": [
+            24,
+            9,
+            16
+          ],
+          "donor": "DEF",
+          "source": [
+            103,
+            9
+          ],
+          "step_x": -1
+        },
+        {
+          "destination": [
+            40,
+            9,
+            20
+          ],
+          "donor": "DEF",
+          "source": [
+            80,
+            9
+          ],
+          "step_x": 0
+        },
+        {
+          "destination": [
+            24,
+            10,
+            16
+          ],
+          "donor": "DEF",
+          "source": [
+            103,
+            10
+          ],
+          "step_x": -1
+        },
+        {
+          "destination": [
+            40,
+            10,
+            20
+          ],
+          "donor": "DEF",
+          "source": [
+            80,
+            10
+          ],
+          "step_x": 0
+        },
+        {
+          "destination": [
+            24,
+            11,
+            16
+          ],
+          "donor": "DEF",
+          "source": [
+            103,
+            11
+          ],
+          "step_x": -1
+        },
+        {
+          "destination": [
+            40,
+            11,
+            21
+          ],
+          "donor": "DEF",
+          "source": [
+            80,
+            11
+          ],
+          "step_x": 0
+        },
+        {
+          "destination": [
+            24,
+            12,
+            16
+          ],
+          "donor": "DEF",
+          "source": [
+            103,
+            12
+          ],
+          "step_x": -1
+        },
+        {
+          "destination": [
+            40,
+            12,
+            24
+          ],
+          "donor": "DEF",
+          "source": [
+            80,
+            12
+          ],
+          "step_x": 0
+        },
+        {
+          "destination": [
+            24,
+            13,
+            16
+          ],
+          "donor": "DEF",
+          "source": [
+            103,
+            13
+          ],
+          "step_x": -1
+        },
+        {
+          "destination": [
+            40,
+            13,
+            24
+          ],
+          "donor": "DEF",
+          "source": [
+            80,
+            13
+          ],
+          "step_x": 0
+        },
+        {
+          "destination": [
+            24,
+            14,
+            16
+          ],
+          "donor": "DEF",
+          "source": [
+            103,
+            14
+          ],
+          "step_x": -1
+        },
+        {
+          "destination": [
+            40,
+            14,
+            24
+          ],
+          "donor": "DEF",
+          "source": [
+            80,
+            14
+          ],
+          "step_x": 0
+        },
+        {
+          "destination": [
+            24,
+            15,
+            16
+          ],
+          "donor": "DEF",
+          "source": [
+            103,
+            15
+          ],
+          "step_x": -1
+        },
+        {
+          "destination": [
+            40,
+            15,
+            24
+          ],
+          "donor": "DEF",
+          "source": [
+            80,
+            15
+          ],
+          "step_x": 0
+        },
+        {
+          "destination": [
+            24,
+            16,
+            16
+          ],
+          "donor": "DEF",
+          "source": [
+            103,
+            16
+          ],
+          "step_x": -1
+        },
+        {
+          "destination": [
+            40,
+            16,
+            21
+          ],
+          "donor": "DEF",
+          "source": [
+            80,
+            16
+          ],
+          "step_x": 0
+        },
+        {
+          "destination": [
+            24,
+            17,
+            16
+          ],
+          "donor": "DEF",
+          "source": [
+            103,
+            17
+          ],
+          "step_x": -1
+        },
+        {
+          "destination": [
+            40,
+            17,
+            21
+          ],
+          "donor": "DEF",
+          "source": [
+            80,
+            17
+          ],
+          "step_x": 0
+        },
+        {
+          "destination": [
+            24,
+            18,
+            16
+          ],
+          "donor": "DEF",
+          "source": [
+            103,
+            18
+          ],
+          "step_x": -1
+        },
+        {
+          "destination": [
+            40,
+            18,
+            21
+          ],
+          "donor": "DEF",
+          "source": [
+            80,
+            18
+          ],
+          "step_x": 0
+        },
+        {
+          "destination": [
+            24,
+            19,
+            16
+          ],
+          "donor": "DEF",
+          "source": [
+            103,
+            19
+          ],
+          "step_x": -1
+        },
+        {
+          "destination": [
+            40,
+            19,
+            20
+          ],
+          "donor": "DEF",
+          "source": [
+            80,
+            19
+          ],
+          "step_x": 0
+        },
+        {
+          "destination": [
+            30,
+            20,
+            10
+          ],
+          "donor": "DEF",
+          "source": [
+            97,
+            20
+          ],
+          "step_x": -1
+        },
+        {
+          "destination": [
+            40,
+            20,
+            20
+          ],
+          "donor": "DEF",
+          "source": [
+            80,
+            20
+          ],
+          "step_x": 0
+        },
+        {
+          "destination": [
+            30,
+            21,
+            10
+          ],
+          "donor": "DEF",
+          "source": [
+            97,
+            21
+          ],
+          "step_x": -1
+        },
+        {
+          "destination": [
+            40,
+            21,
+            20
+          ],
+          "donor": "DEF",
+          "source": [
+            80,
+            21
+          ],
+          "step_x": 0
+        },
+        {
+          "destination": [
+            31,
+            22,
+            9
+          ],
+          "donor": "DEF",
+          "source": [
+            96,
+            22
+          ],
+          "step_x": -1
+        },
+        {
+          "destination": [
+            40,
+            22,
+            20
+          ],
+          "donor": "DEF",
+          "source": [
+            80,
+            22
+          ],
+          "step_x": 0
+        },
+        {
+          "destination": [
+            32,
+            23,
+            8
+          ],
+          "donor": "DEF",
+          "source": [
+            95,
+            23
+          ],
+          "step_x": -1
+        },
+        {
+          "destination": [
+            40,
+            23,
+            4
+          ],
+          "donor": "DEF",
+          "source": [
+            80,
+            23
+          ],
+          "step_x": 0
+        },
+        {
+          "destination": [
+            52,
+            23,
+            8
+          ],
+          "donor": "DEF",
+          "source": [
+            80,
+            23
+          ],
+          "step_x": 0
+        },
+        {
+          "destination": [
+            28,
+            24,
+            12
+          ],
+          "donor": "DEF",
+          "source": [
+            99,
+            24
+          ],
+          "step_x": -1
+        },
+        {
+          "destination": [
+            52,
+            24,
+            8
+          ],
+          "donor": "DEF",
+          "source": [
+            80,
+            24
+          ],
+          "step_x": 0
+        },
+        {
+          "destination": [
+            30,
+            25,
+            10
+          ],
+          "donor": "DEF",
+          "source": [
+            97,
+            25
+          ],
+          "step_x": -1
+        },
+        {
+          "destination": [
+            52,
+            25,
+            8
+          ],
+          "donor": "DEF",
+          "source": [
+            80,
+            25
+          ],
+          "step_x": 0
+        }
+      ],
+      "patch": {
+        "path": "DEF-patch.png",
+        "sha256": "0570d42d75c5006534877b9bb38675630e9b6942941ada4c2d5ba254994ad24f"
+      },
+      "result_rgba_sha256": "47d7b138c3dc1275e8943ae355f3de022192c6c6e8b8a415abe6127f12898128"
+    },
+    {
+      "id": "style_stat_dex",
+      "source": {
+        "path": "build/phase-365-style-stats/sources/MC2Game/CookedXenon/Style_Tree_Resources.xxx",
+        "sha256": "6f9562d8f2a52dabc2c36e598f23bd9ac8d383e8c2cab95284d65a2feae2e5bc"
+      },
+      "object": "Style_Skill_Status_DEX_normal",
+      "profile": {
+        "kind": "xbox-inline-bc-v1",
+        "format": 7
+      },
+      "dimensions": [
+        128,
+        32
+      ],
+      "rgba_sha256": "0662a3dc918813ae69635e7f2bcc81045bbe5a42590a5c4dc8dd6218a6eef1a8",
+      "mask": {
+        "path": "locales/zh-Hans/texture-overlays/style-stat-restorations-v35/DEX-mask.png",
+        "sha256": "8a4dcd2e430d86955a5b076759f7284419e231c96da999eec84cde8745231631"
+      },
+      "donors": [
+        {
+          "id": "DEX",
+          "source": {
+            "path": "build/phase-365-style-stats/sources/MC2Game/CookedXenon/Style_Tree_Resources.xxx",
+            "sha256": "6f9562d8f2a52dabc2c36e598f23bd9ac8d383e8c2cab95284d65a2feae2e5bc"
+          },
+          "object": "Style_Skill_Status_DEX_normal",
+          "profile": {
+            "kind": "xbox-inline-bc-v1",
+            "format": 7
+          },
+          "dimensions": [
+            128,
+            32
+          ],
+          "rgba_sha256": "0662a3dc918813ae69635e7f2bcc81045bbe5a42590a5c4dc8dd6218a6eef1a8",
+          "clean_rectangles": [
+            [
+              73,
+              0,
+              55,
+              32
+            ]
+          ]
+        }
+      ],
+      "runs": [
+        {
+          "destination": [
+            30,
+            5,
+            10
+          ],
+          "donor": "DEX",
+          "source": [
+            97,
+            5
+          ],
+          "step_x": -1
+        },
+        {
+          "destination": [
+            60,
+            5,
+            4
+          ],
+          "donor": "DEX",
+          "source": [
+            80,
+            5
+          ],
+          "step_x": 0
+        },
+        {
+          "destination": [
+            27,
+            6,
+            13
+          ],
+          "donor": "DEX",
+          "source": [
+            100,
+            6
+          ],
+          "step_x": -1
+        },
+        {
+          "destination": [
+            60,
+            6,
+            4
+          ],
+          "donor": "DEX",
+          "source": [
+            80,
+            6
+          ],
+          "step_x": 0
+        },
+        {
+          "destination": [
+            25,
+            7,
+            15
+          ],
+          "donor": "DEX",
+          "source": [
+            102,
+            7
+          ],
+          "step_x": -1
+        },
+        {
+          "destination": [
+            60,
+            7,
+            4
+          ],
+          "donor": "DEX",
+          "source": [
+            80,
+            7
+          ],
+          "step_x": 0
+        },
+        {
+          "destination": [
+            24,
+            8,
+            16
+          ],
+          "donor": "DEX",
+          "source": [
+            103,
+            8
+          ],
+          "step_x": -1
+        },
+        {
+          "destination": [
+            40,
+            8,
+            12
+          ],
+          "donor": "DEX",
+          "source": [
+            80,
+            8
+          ],
+          "step_x": 0
+        },
+        {
+          "destination": [
+            56,
+            8,
+            12
+          ],
+          "donor": "DEX",
+          "source": [
+            80,
+            8
+          ],
+          "step_x": 0
+        },
+        {
+          "destination": [
+            23,
+            9,
+            17
+          ],
+          "donor": "DEX",
+          "source": [
+            104,
+            9
+          ],
+          "step_x": -1
+        },
+        {
+          "destination": [
+            40,
+            9,
+            28
+          ],
+          "donor": "DEX",
+          "source": [
+            80,
+            9
+          ],
+          "step_x": 0
+        },
+        {
+          "destination": [
+            23,
+            10,
+            17
+          ],
+          "donor": "DEX",
+          "source": [
+            104,
+            10
+          ],
+          "step_x": -1
+        },
+        {
+          "destination": [
+            40,
+            10,
+            28
+          ],
+          "donor": "DEX",
+          "source": [
+            80,
+            10
+          ],
+          "step_x": 0
+        },
+        {
+          "destination": [
+            22,
+            11,
+            18
+          ],
+          "donor": "DEX",
+          "source": [
+            105,
+            11
+          ],
+          "step_x": -1
+        },
+        {
+          "destination": [
+            40,
+            11,
+            28
+          ],
+          "donor": "DEX",
+          "source": [
+            80,
+            11
+          ],
+          "step_x": 0
+        },
+        {
+          "destination": [
+            22,
+            12,
+            18
+          ],
+          "donor": "DEX",
+          "source": [
+            105,
+            12
+          ],
+          "step_x": -1
+        },
+        {
+          "destination": [
+            40,
+            12,
+            28
+          ],
+          "donor": "DEX",
+          "source": [
+            80,
+            12
+          ],
+          "step_x": 0
+        },
+        {
+          "destination": [
+            22,
+            13,
+            18
+          ],
+          "donor": "DEX",
+          "source": [
+            105,
+            13
+          ],
+          "step_x": -1
+        },
+        {
+          "destination": [
+            40,
+            13,
+            28
+          ],
+          "donor": "DEX",
+          "source": [
+            80,
+            13
+          ],
+          "step_x": 0
+        },
+        {
+          "destination": [
+            21,
+            14,
+            19
+          ],
+          "donor": "DEX",
+          "source": [
+            106,
+            14
+          ],
+          "step_x": -1
+        },
+        {
+          "destination": [
+            40,
+            14,
+            28
+          ],
+          "donor": "DEX",
+          "source": [
+            80,
+            14
+          ],
+          "step_x": 0
+        },
+        {
+          "destination": [
+            21,
+            15,
+            19
+          ],
+          "donor": "DEX",
+          "source": [
+            106,
+            15
+          ],
+          "step_x": -1
+        },
+        {
+          "destination": [
+            40,
+            15,
+            28
+          ],
+          "donor": "DEX",
+          "source": [
+            80,
+            15
+          ],
+          "step_x": 0
+        },
+        {
+          "destination": [
+            22,
+            16,
+            18
+          ],
+          "donor": "DEX",
+          "source": [
+            105,
+            16
+          ],
+          "step_x": -1
+        },
+        {
+          "destination": [
+            40,
+            16,
+            28
+          ],
+          "donor": "DEX",
+          "source": [
+            80,
+            16
+          ],
+          "step_x": 0
+        },
+        {
+          "destination": [
+            22,
+            17,
+            18
+          ],
+          "donor": "DEX",
+          "source": [
+            105,
+            17
+          ],
+          "step_x": -1
+        },
+        {
+          "destination": [
+            40,
+            17,
+            28
+          ],
+          "donor": "DEX",
+          "source": [
+            80,
+            17
+          ],
+          "step_x": 0
+        },
+        {
+          "destination": [
+            22,
+            18,
+            18
+          ],
+          "donor": "DEX",
+          "source": [
+            105,
+            18
+          ],
+          "step_x": -1
+        },
+        {
+          "destination": [
+            40,
+            18,
+            28
+          ],
+          "donor": "DEX",
+          "source": [
+            80,
+            18
+          ],
+          "step_x": 0
+        },
+        {
+          "destination": [
+            22,
+            19,
+            18
+          ],
+          "donor": "DEX",
+          "source": [
+            105,
+            19
+          ],
+          "step_x": -1
+        },
+        {
+          "destination": [
+            40,
+            19,
+            28
+          ],
+          "donor": "DEX",
+          "source": [
+            80,
+            19
+          ],
+          "step_x": 0
+        },
+        {
+          "destination": [
+            24,
+            20,
+            16
+          ],
+          "donor": "DEX",
+          "source": [
+            103,
+            20
+          ],
+          "step_x": -1
+        },
+        {
+          "destination": [
+            40,
+            20,
+            28
+          ],
+          "donor": "DEX",
+          "source": [
+            80,
+            20
+          ],
+          "step_x": 0
+        },
+        {
+          "destination": [
+            24,
+            21,
+            16
+          ],
+          "donor": "DEX",
+          "source": [
+            103,
+            21
+          ],
+          "step_x": -1
+        },
+        {
+          "destination": [
+            40,
+            21,
+            28
+          ],
+          "donor": "DEX",
+          "source": [
+            80,
+            21
+          ],
+          "step_x": 0
+        },
+        {
+          "destination": [
+            24,
+            22,
+            16
+          ],
+          "donor": "DEX",
+          "source": [
+            103,
+            22
+          ],
+          "step_x": -1
+        },
+        {
+          "destination": [
+            40,
+            22,
+            28
+          ],
+          "donor": "DEX",
+          "source": [
+            80,
+            22
+          ],
+          "step_x": 0
+        },
+        {
+          "destination": [
+            25,
+            23,
+            3
+          ],
+          "donor": "DEX",
+          "source": [
+            102,
+            23
+          ],
+          "step_x": -1
+        },
+        {
+          "destination": [
+            34,
+            23,
+            6
+          ],
+          "donor": "DEX",
+          "source": [
+            93,
+            23
+          ],
+          "step_x": -1
+        },
+        {
+          "destination": [
+            52,
+            23,
+            4
+          ],
+          "donor": "DEX",
+          "source": [
+            80,
+            23
+          ],
+          "step_x": 0
+        },
+        {
+          "destination": [
+            60,
+            23,
+            4
+          ],
+          "donor": "DEX",
+          "source": [
+            80,
+            23
+          ],
+          "step_x": 0
+        },
+        {
+          "destination": [
+            35,
+            24,
+            2
+          ],
+          "donor": "DEX",
+          "source": [
+            92,
+            24
+          ],
+          "step_x": -1
+        },
+        {
+          "destination": [
+            62,
+            24,
+            2
+          ],
+          "donor": "DEX",
+          "source": [
+            80,
+            24
+          ],
+          "step_x": 0
+        }
+      ],
+      "patch": {
+        "path": "DEX-patch.png",
+        "sha256": "4c7d8390173574915eb0c954721d487425e5f2cb45c852dcfadb4092f595a8ea"
+      },
+      "result_rgba_sha256": "62e1dc699dd24d7277b3604bef7262e68dfbaea5712df2554d60a7bd30fee278"
+    },
+    {
+      "id": "style_stat_esp",
+      "source": {
+        "path": "build/phase-365-style-stats/sources/MC2Game/CookedXenon/Style_Tree_Resources.xxx",
+        "sha256": "6f9562d8f2a52dabc2c36e598f23bd9ac8d383e8c2cab95284d65a2feae2e5bc"
+      },
+      "object": "Style_Skill_Status_ESP_normal",
+      "profile": {
+        "kind": "xbox-inline-bc-v1",
+        "format": 7
+      },
+      "dimensions": [
+        128,
+        32
+      ],
+      "rgba_sha256": "e4b3785b89e369a62819fc20761912d4329e9370c519c4d7c7a36a88b0ae0f00",
+      "mask": {
+        "path": "locales/zh-Hans/texture-overlays/style-stat-restorations-v35/ESP-mask.png",
+        "sha256": "dc61440e5573d469a2ed622b03fab1fc983e628230ff80822d5216c75165a42d"
+      },
+      "donors": [
+        {
+          "id": "ESP",
+          "source": {
+            "path": "build/phase-365-style-stats/sources/MC2Game/CookedXenon/Style_Tree_Resources.xxx",
+            "sha256": "6f9562d8f2a52dabc2c36e598f23bd9ac8d383e8c2cab95284d65a2feae2e5bc"
+          },
+          "object": "Style_Skill_Status_ESP_normal",
+          "profile": {
+            "kind": "xbox-inline-bc-v1",
+            "format": 7
+          },
+          "dimensions": [
+            128,
+            32
+          ],
+          "rgba_sha256": "e4b3785b89e369a62819fc20761912d4329e9370c519c4d7c7a36a88b0ae0f00",
+          "clean_rectangles": [
+            [
+              64,
+              0,
+              64,
+              32
+            ]
+          ]
+        }
+      ],
+      "runs": [
+        {
+          "destination": [
+            28,
+            5,
+            12
+          ],
+          "donor": "ESP",
+          "source": [
+            95,
+            5
+          ],
+          "step_x": -1
+        },
+        {
+          "destination": [
+            40,
+            5,
+            16
+          ],
+          "donor": "ESP",
+          "source": [
+            80,
+            5
+          ],
+          "step_x": 0
+        },
+        {
+          "destination": [
+            25,
+            6,
+            15
+          ],
+          "donor": "ESP",
+          "source": [
+            98,
+            6
+          ],
+          "step_x": -1
+        },
+        {
+          "destination": [
+            40,
+            6,
+            16
+          ],
+          "donor": "ESP",
+          "source": [
+            80,
+            6
+          ],
+          "step_x": 0
+        },
+        {
+          "destination": [
+            23,
+            7,
+            17
+          ],
+          "donor": "ESP",
+          "source": [
+            100,
+            7
+          ],
+          "step_x": -1
+        },
+        {
+          "destination": [
+            40,
+            7,
+            16
+          ],
+          "donor": "ESP",
+          "source": [
+            80,
+            7
+          ],
+          "step_x": 0
+        },
+        {
+          "destination": [
+            24,
+            8,
+            15
+          ],
+          "donor": "ESP",
+          "source": [
+            99,
+            8
+          ],
+          "step_x": -1
+        },
+        {
+          "destination": [
+            40,
+            8,
+            16
+          ],
+          "donor": "ESP",
+          "source": [
+            80,
+            8
+          ],
+          "step_x": 0
+        },
+        {
+          "destination": [
+            24,
+            9,
+            16
+          ],
+          "donor": "ESP",
+          "source": [
+            99,
+            9
+          ],
+          "step_x": -1
+        },
+        {
+          "destination": [
+            40,
+            9,
+            16
+          ],
+          "donor": "ESP",
+          "source": [
+            80,
+            9
+          ],
+          "step_x": 0
+        },
+        {
+          "destination": [
+            24,
+            10,
+            16
+          ],
+          "donor": "ESP",
+          "source": [
+            99,
+            10
+          ],
+          "step_x": -1
+        },
+        {
+          "destination": [
+            40,
+            10,
+            16
+          ],
+          "donor": "ESP",
+          "source": [
+            80,
+            10
+          ],
+          "step_x": 0
+        },
+        {
+          "destination": [
+            24,
+            11,
+            16
+          ],
+          "donor": "ESP",
+          "source": [
+            99,
+            11
+          ],
+          "step_x": -1
+        },
+        {
+          "destination": [
+            40,
+            11,
+            16
+          ],
+          "donor": "ESP",
+          "source": [
+            80,
+            11
+          ],
+          "step_x": 0
+        },
+        {
+          "destination": [
+            20,
+            12,
+            20
+          ],
+          "donor": "ESP",
+          "source": [
+            103,
+            12
+          ],
+          "step_x": -1
+        },
+        {
+          "destination": [
+            40,
+            12,
+            20
+          ],
+          "donor": "ESP",
+          "source": [
+            80,
+            12
+          ],
+          "step_x": 0
+        },
+        {
+          "destination": [
+            20,
+            13,
+            20
+          ],
+          "donor": "ESP",
+          "source": [
+            103,
+            13
+          ],
+          "step_x": -1
+        },
+        {
+          "destination": [
+            40,
+            13,
+            20
+          ],
+          "donor": "ESP",
+          "source": [
+            80,
+            13
+          ],
+          "step_x": 0
+        },
+        {
+          "destination": [
+            20,
+            14,
+            20
+          ],
+          "donor": "ESP",
+          "source": [
+            103,
+            14
+          ],
+          "step_x": -1
+        },
+        {
+          "destination": [
+            40,
+            14,
+            20
+          ],
+          "donor": "ESP",
+          "source": [
+            80,
+            14
+          ],
+          "step_x": 0
+        },
+        {
+          "destination": [
+            20,
+            15,
+            20
+          ],
+          "donor": "ESP",
+          "source": [
+            103,
+            15
+          ],
+          "step_x": -1
+        },
+        {
+          "destination": [
+            40,
+            15,
+            20
+          ],
+          "donor": "ESP",
+          "source": [
+            80,
+            15
+          ],
+          "step_x": 0
+        },
+        {
+          "destination": [
+            20,
+            16,
+            20
+          ],
+          "donor": "ESP",
+          "source": [
+            103,
+            16
+          ],
+          "step_x": -1
+        },
+        {
+          "destination": [
+            40,
+            16,
+            20
+          ],
+          "donor": "ESP",
+          "source": [
+            80,
+            16
+          ],
+          "step_x": 0
+        },
+        {
+          "destination": [
+            20,
+            17,
+            20
+          ],
+          "donor": "ESP",
+          "source": [
+            103,
+            17
+          ],
+          "step_x": -1
+        },
+        {
+          "destination": [
+            40,
+            17,
+            20
+          ],
+          "donor": "ESP",
+          "source": [
+            80,
+            17
+          ],
+          "step_x": 0
+        },
+        {
+          "destination": [
+            20,
+            18,
+            20
+          ],
+          "donor": "ESP",
+          "source": [
+            103,
+            18
+          ],
+          "step_x": -1
+        },
+        {
+          "destination": [
+            40,
+            18,
+            20
+          ],
+          "donor": "ESP",
+          "source": [
+            80,
+            18
+          ],
+          "step_x": 0
+        },
+        {
+          "destination": [
+            24,
+            19,
+            16
+          ],
+          "donor": "ESP",
+          "source": [
+            99,
+            19
+          ],
+          "step_x": -1
+        },
+        {
+          "destination": [
+            40,
+            19,
+            12
+          ],
+          "donor": "ESP",
+          "source": [
+            80,
+            19
+          ],
+          "step_x": 0
+        },
+        {
+          "destination": [
+            28,
+            20,
+            12
+          ],
+          "donor": "ESP",
+          "source": [
+            95,
+            20
+          ],
+          "step_x": -1
+        },
+        {
+          "destination": [
+            40,
+            20,
+            16
+          ],
+          "donor": "ESP",
+          "source": [
+            80,
+            20
+          ],
+          "step_x": 0
+        },
+        {
+          "destination": [
+            28,
+            21,
+            12
+          ],
+          "donor": "ESP",
+          "source": [
+            95,
+            21
+          ],
+          "step_x": -1
+        },
+        {
+          "destination": [
+            40,
+            21,
+            16
+          ],
+          "donor": "ESP",
+          "source": [
+            80,
+            21
+          ],
+          "step_x": 0
+        },
+        {
+          "destination": [
+            28,
+            22,
+            12
+          ],
+          "donor": "ESP",
+          "source": [
+            95,
+            22
+          ],
+          "step_x": -1
+        },
+        {
+          "destination": [
+            40,
+            22,
+            16
+          ],
+          "donor": "ESP",
+          "source": [
+            80,
+            22
+          ],
+          "step_x": 0
+        },
+        {
+          "destination": [
+            28,
+            23,
+            12
+          ],
+          "donor": "ESP",
+          "source": [
+            95,
+            23
+          ],
+          "step_x": -1
+        },
+        {
+          "destination": [
+            44,
+            23,
+            12
+          ],
+          "donor": "ESP",
+          "source": [
+            80,
+            23
+          ],
+          "step_x": 0
+        },
+        {
+          "destination": [
+            32,
+            24,
+            4
+          ],
+          "donor": "ESP",
+          "source": [
+            91,
+            24
+          ],
+          "step_x": -1
+        },
+        {
+          "destination": [
+            32,
+            25,
+            4
+          ],
+          "donor": "ESP",
+          "source": [
+            91,
+            25
+          ],
+          "step_x": -1
+        }
+      ],
+      "patch": {
+        "path": "ESP-patch.png",
+        "sha256": "7c0b3778170b2cedb48ab550c07e220051dcb0059ec9bb706758ff0b5e2ef57b"
+      },
+      "result_rgba_sha256": "646f452d45309fa54875e34961edf202f4cd4c72a40c798a701e7813e9dcdc34"
+    },
+    {
+      "id": "style_stat_esr",
+      "source": {
+        "path": "build/phase-365-style-stats/sources/MC2Game/CookedXenon/Style_Tree_Resources.xxx",
+        "sha256": "6f9562d8f2a52dabc2c36e598f23bd9ac8d383e8c2cab95284d65a2feae2e5bc"
+      },
+      "object": "Style_Skill_Status_ESR_normal",
+      "profile": {
+        "kind": "xbox-inline-bc-v1",
+        "format": 7
+      },
+      "dimensions": [
+        128,
+        32
+      ],
+      "rgba_sha256": "64dfdee11700c216a524f43b2c739dcc28f3d3d89c5264fd7c066a1f73f68907",
+      "mask": {
+        "path": "locales/zh-Hans/texture-overlays/style-stat-restorations-v35/ESR-mask.png",
+        "sha256": "2d7cc0d2968680b1164fa14a60d5f9fd43200a4e138ec873ac7ec9d4dd7ff631"
+      },
+      "donors": [
+        {
+          "id": "ESR",
+          "source": {
+            "path": "build/phase-365-style-stats/sources/MC2Game/CookedXenon/Style_Tree_Resources.xxx",
+            "sha256": "6f9562d8f2a52dabc2c36e598f23bd9ac8d383e8c2cab95284d65a2feae2e5bc"
+          },
+          "object": "Style_Skill_Status_ESR_normal",
+          "profile": {
+            "kind": "xbox-inline-bc-v1",
+            "format": 7
+          },
+          "dimensions": [
+            128,
+            32
+          ],
+          "rgba_sha256": "64dfdee11700c216a524f43b2c739dcc28f3d3d89c5264fd7c066a1f73f68907",
+          "clean_rectangles": [
+            [
+              64,
+              0,
+              64,
+              32
+            ]
+          ]
+        }
+      ],
+      "runs": [
+        {
+          "destination": [
+            30,
+            5,
+            2
+          ],
+          "donor": "ESR",
+          "source": [
+            97,
+            5
+          ],
+          "step_x": -1
+        },
+        {
+          "destination": [
+            36,
+            5,
+            4
+          ],
+          "donor": "ESR",
+          "source": [
+            91,
+            5
+          ],
+          "step_x": -1
+        },
+        {
+          "destination": [
+            52,
+            5,
+            4
+          ],
+          "donor": "ESR",
+          "source": [
+            80,
+            5
+          ],
+          "step_x": 0
+        },
+        {
+          "destination": [
+            28,
+            6,
+            4
+          ],
+          "donor": "ESR",
+          "source": [
+            99,
+            6
+          ],
+          "step_x": -1
+        },
+        {
+          "destination": [
+            36,
+            6,
+            4
+          ],
+          "donor": "ESR",
+          "source": [
+            91,
+            6
+          ],
+          "step_x": -1
+        },
+        {
+          "destination": [
+            52,
+            6,
+            4
+          ],
+          "donor": "ESR",
+          "source": [
+            80,
+            6
+          ],
+          "step_x": 0
+        },
+        {
+          "destination": [
+            28,
+            7,
+            4
+          ],
+          "donor": "ESR",
+          "source": [
+            99,
+            7
+          ],
+          "step_x": -1
+        },
+        {
+          "destination": [
+            36,
+            7,
+            4
+          ],
+          "donor": "ESR",
+          "source": [
+            91,
+            7
+          ],
+          "step_x": -1
+        },
+        {
+          "destination": [
+            52,
+            7,
+            4
+          ],
+          "donor": "ESR",
+          "source": [
+            80,
+            7
+          ],
+          "step_x": 0
+        },
+        {
+          "destination": [
+            24,
+            8,
+            12
+          ],
+          "donor": "ESR",
+          "source": [
+            103,
+            8
+          ],
+          "step_x": -1
+        },
+        {
+          "destination": [
+            38,
+            8,
+            2
+          ],
+          "donor": "ESR",
+          "source": [
+            89,
+            8
+          ],
+          "step_x": -1
+        },
+        {
+          "destination": [
+            40,
+            8,
+            24
+          ],
+          "donor": "ESR",
+          "source": [
+            80,
+            8
+          ],
+          "step_x": 0
+        },
+        {
+          "destination": [
+            24,
+            9,
+            16
+          ],
+          "donor": "ESR",
+          "source": [
+            103,
+            9
+          ],
+          "step_x": -1
+        },
+        {
+          "destination": [
+            40,
+            9,
+            24
+          ],
+          "donor": "ESR",
+          "source": [
+            80,
+            9
+          ],
+          "step_x": 0
+        },
+        {
+          "destination": [
+            23,
+            10,
+            17
+          ],
+          "donor": "ESR",
+          "source": [
+            104,
+            10
+          ],
+          "step_x": -1
+        },
+        {
+          "destination": [
+            40,
+            10,
+            24
+          ],
+          "donor": "ESR",
+          "source": [
+            80,
+            10
+          ],
+          "step_x": 0
+        },
+        {
+          "destination": [
+            22,
+            11,
+            18
+          ],
+          "donor": "ESR",
+          "source": [
+            105,
+            11
+          ],
+          "step_x": -1
+        },
+        {
+          "destination": [
+            40,
+            11,
+            24
+          ],
+          "donor": "ESR",
+          "source": [
+            80,
+            11
+          ],
+          "step_x": 0
+        },
+        {
+          "destination": [
+            24,
+            12,
+            16
+          ],
+          "donor": "ESR",
+          "source": [
+            103,
+            12
+          ],
+          "step_x": -1
+        },
+        {
+          "destination": [
+            40,
+            12,
+            24
+          ],
+          "donor": "ESR",
+          "source": [
+            80,
+            12
+          ],
+          "step_x": 0
+        },
+        {
+          "destination": [
+            24,
+            13,
+            16
+          ],
+          "donor": "ESR",
+          "source": [
+            103,
+            13
+          ],
+          "step_x": -1
+        },
+        {
+          "destination": [
+            40,
+            13,
+            24
+          ],
+          "donor": "ESR",
+          "source": [
+            80,
+            13
+          ],
+          "step_x": 0
+        },
+        {
+          "destination": [
+            24,
+            14,
+            16
+          ],
+          "donor": "ESR",
+          "source": [
+            103,
+            14
+          ],
+          "step_x": -1
+        },
+        {
+          "destination": [
+            40,
+            14,
+            24
+          ],
+          "donor": "ESR",
+          "source": [
+            80,
+            14
+          ],
+          "step_x": 0
+        },
+        {
+          "destination": [
+            24,
+            15,
+            16
+          ],
+          "donor": "ESR",
+          "source": [
+            103,
+            15
+          ],
+          "step_x": -1
+        },
+        {
+          "destination": [
+            40,
+            15,
+            24
+          ],
+          "donor": "ESR",
+          "source": [
+            80,
+            15
+          ],
+          "step_x": 0
+        },
+        {
+          "destination": [
+            24,
+            16,
+            16
+          ],
+          "donor": "ESR",
+          "source": [
+            103,
+            16
+          ],
+          "step_x": -1
+        },
+        {
+          "destination": [
+            40,
+            16,
+            20
+          ],
+          "donor": "ESR",
+          "source": [
+            80,
+            16
+          ],
+          "step_x": 0
+        },
+        {
+          "destination": [
+            24,
+            17,
+            16
+          ],
+          "donor": "ESR",
+          "source": [
+            103,
+            17
+          ],
+          "step_x": -1
+        },
+        {
+          "destination": [
+            40,
+            17,
+            20
+          ],
+          "donor": "ESR",
+          "source": [
+            80,
+            17
+          ],
+          "step_x": 0
+        },
+        {
+          "destination": [
+            24,
+            18,
+            16
+          ],
+          "donor": "ESR",
+          "source": [
+            103,
+            18
+          ],
+          "step_x": -1
+        },
+        {
+          "destination": [
+            40,
+            18,
+            20
+          ],
+          "donor": "ESR",
+          "source": [
+            80,
+            18
+          ],
+          "step_x": 0
+        },
+        {
+          "destination": [
+            24,
+            19,
+            16
+          ],
+          "donor": "ESR",
+          "source": [
+            103,
+            19
+          ],
+          "step_x": -1
+        },
+        {
+          "destination": [
+            40,
+            19,
+            20
+          ],
+          "donor": "ESR",
+          "source": [
+            80,
+            19
+          ],
+          "step_x": 0
+        },
+        {
+          "destination": [
+            24,
+            20,
+            16
+          ],
+          "donor": "ESR",
+          "source": [
+            103,
+            20
+          ],
+          "step_x": -1
+        },
+        {
+          "destination": [
+            40,
+            20,
+            17
+          ],
+          "donor": "ESR",
+          "source": [
+            80,
+            20
+          ],
+          "step_x": 0
+        },
+        {
+          "destination": [
+            24,
+            21,
+            16
+          ],
+          "donor": "ESR",
+          "source": [
+            103,
+            21
+          ],
+          "step_x": -1
+        },
+        {
+          "destination": [
+            40,
+            21,
+            16
+          ],
+          "donor": "ESR",
+          "source": [
+            80,
+            21
+          ],
+          "step_x": 0
+        },
+        {
+          "destination": [
+            24,
+            22,
+            16
+          ],
+          "donor": "ESR",
+          "source": [
+            103,
+            22
+          ],
+          "step_x": -1
+        },
+        {
+          "destination": [
+            40,
+            22,
+            16
+          ],
+          "donor": "ESR",
+          "source": [
+            80,
+            22
+          ],
+          "step_x": 0
+        },
+        {
+          "destination": [
+            24,
+            23,
+            4
+          ],
+          "donor": "ESR",
+          "source": [
+            103,
+            23
+          ],
+          "step_x": -1
+        },
+        {
+          "destination": [
+            36,
+            23,
+            4
+          ],
+          "donor": "ESR",
+          "source": [
+            91,
+            23
+          ],
+          "step_x": -1
+        },
+        {
+          "destination": [
+            44,
+            23,
+            12
+          ],
+          "donor": "ESR",
+          "source": [
+            80,
+            23
+          ],
+          "step_x": 0
+        },
+        {
+          "destination": [
+            36,
+            24,
+            4
+          ],
+          "donor": "ESR",
+          "source": [
+            91,
+            24
+          ],
+          "step_x": -1
+        },
+        {
+          "destination": [
+            47,
+            24,
+            9
+          ],
+          "donor": "ESR",
+          "source": [
+            80,
+            24
+          ],
+          "step_x": 0
+        },
+        {
+          "destination": [
+            36,
+            25,
+            4
+          ],
+          "donor": "ESR",
+          "source": [
+            91,
+            25
+          ],
+          "step_x": -1
+        },
+        {
+          "destination": [
+            48,
+            25,
+            8
+          ],
+          "donor": "ESR",
+          "source": [
+            80,
+            25
+          ],
+          "step_x": 0
+        }
+      ],
+      "patch": {
+        "path": "ESR-patch.png",
+        "sha256": "8a0b10a884f7d1ec3fb29f71c850531742fae2d63cfa4bd91d7aabd52984e602"
+      },
+      "result_rgba_sha256": "5fae4f70f30f98e9559f15a3e36cbaf4d541b002c55fa6b6faf3255599103b75"
+    },
+    {
+      "id": "style_stat_hp",
+      "source": {
+        "path": "build/phase-365-style-stats/sources/MC2Game/CookedXenon/Style_Tree_Resources.xxx",
+        "sha256": "6f9562d8f2a52dabc2c36e598f23bd9ac8d383e8c2cab95284d65a2feae2e5bc"
+      },
+      "object": "Style_Skill_Status_HP_normal",
+      "profile": {
+        "kind": "xbox-inline-bc-v1",
+        "format": 7
+      },
+      "dimensions": [
+        128,
+        32
+      ],
+      "rgba_sha256": "90f60b0092bcd604ef2b24782e104f681eee6872d3bd685ab3dd8bf413c21073",
+      "mask": {
+        "path": "locales/zh-Hans/texture-overlays/style-stat-restorations-v35/HP-mask.png",
+        "sha256": "18c7c6d6f6f3f5cd3639552ba568eb1552611c2a4efb627dfb4c512c99659c29"
+      },
+      "donors": [
+        {
+          "id": "DEF",
+          "source": {
+            "path": "build/phase-365-style-stats/sources/MC2Game/CookedXenon/Style_Tree_Resources.xxx",
+            "sha256": "6f9562d8f2a52dabc2c36e598f23bd9ac8d383e8c2cab95284d65a2feae2e5bc"
+          },
+          "object": "Style_Skill_Status_DEF_normal",
+          "profile": {
+            "kind": "xbox-inline-bc-v1",
+            "format": 7
+          },
+          "dimensions": [
+            128,
+            32
+          ],
+          "rgba_sha256": "7d1075f7231d9c0da71742b1309aa1e9d3ac5ffa590715b1c45251353988faed",
+          "clean_rectangles": [
+            [
+              64,
+              0,
+              64,
+              32
+            ]
+          ]
+        },
+        {
+          "id": "HP",
+          "source": {
+            "path": "build/phase-365-style-stats/sources/MC2Game/CookedXenon/Style_Tree_Resources.xxx",
+            "sha256": "6f9562d8f2a52dabc2c36e598f23bd9ac8d383e8c2cab95284d65a2feae2e5bc"
+          },
+          "object": "Style_Skill_Status_HP_normal",
+          "profile": {
+            "kind": "xbox-inline-bc-v1",
+            "format": 7
+          },
+          "dimensions": [
+            128,
+            32
+          ],
+          "rgba_sha256": "90f60b0092bcd604ef2b24782e104f681eee6872d3bd685ab3dd8bf413c21073",
+          "clean_rectangles": [
+            [
+              64,
+              0,
+              18,
+              32
+            ]
+          ]
+        }
+      ],
+      "runs": [
+        {
+          "destination": [
+            30,
+            5,
+            2
+          ],
+          "donor": "DEF",
+          "source": [
+            97,
+            5
+          ],
+          "step_x": -1
+        },
+        {
+          "destination": [
+            52,
+            5,
+            4
+          ],
+          "donor": "HP",
+          "source": [
+            70,
+            5
+          ],
+          "step_x": 0
+        },
+        {
+          "destination": [
+            27,
+            6,
+            5
+          ],
+          "donor": "DEF",
+          "source": [
+            100,
+            6
+          ],
+          "step_x": -1
+        },
+        {
+          "destination": [
+            52,
+            6,
+            4
+          ],
+          "donor": "HP",
+          "source": [
+            70,
+            6
+          ],
+          "step_x": 0
+        },
+        {
+          "destination": [
+            100,
+            6,
+            1
+          ],
+          "donor": "DEF",
+          "source": [
+            100,
+            6
+          ],
+          "step_x": 1
+        },
+        {
+          "destination": [
+            25,
+            7,
+            7
+          ],
+          "donor": "DEF",
+          "source": [
+            102,
+            7
+          ],
+          "step_x": -1
+        },
+        {
+          "destination": [
+            39,
+            7,
+            1
+          ],
+          "donor": "DEF",
+          "source": [
+            88,
+            7
+          ],
+          "step_x": -1
+        },
+        {
+          "destination": [
+            40,
+            7,
+            1
+          ],
+          "donor": "HP",
+          "source": [
+            70,
+            7
+          ],
+          "step_x": 0
+        },
+        {
+          "destination": [
+            52,
+            7,
+            4
+          ],
+          "donor": "HP",
+          "source": [
+            70,
+            7
+          ],
+          "step_x": 0
+        },
+        {
+          "destination": [
+            100,
+            7,
+            3
+          ],
+          "donor": "DEF",
+          "source": [
+            100,
+            7
+          ],
+          "step_x": 1
+        },
+        {
+          "destination": [
+            24,
+            8,
+            16
+          ],
+          "donor": "DEF",
+          "source": [
+            103,
+            8
+          ],
+          "step_x": -1
+        },
+        {
+          "destination": [
+            40,
+            8,
+            20
+          ],
+          "donor": "HP",
+          "source": [
+            70,
+            8
+          ],
+          "step_x": 0
+        },
+        {
+          "destination": [
+            82,
+            8,
+            2
+          ],
+          "donor": "DEF",
+          "source": [
+            82,
+            8
+          ],
+          "step_x": 1
+        },
+        {
+          "destination": [
+            88,
+            8,
+            16
+          ],
+          "donor": "DEF",
+          "source": [
+            88,
+            8
+          ],
+          "step_x": 1
+        },
+        {
+          "destination": [
+            24,
+            9,
+            16
+          ],
+          "donor": "DEF",
+          "source": [
+            103,
+            9
+          ],
+          "step_x": -1
+        },
+        {
+          "destination": [
+            40,
+            9,
+            20
+          ],
+          "donor": "HP",
+          "source": [
+            70,
+            9
+          ],
+          "step_x": 0
+        },
+        {
+          "destination": [
+            82,
+            9,
+            22
+          ],
+          "donor": "DEF",
+          "source": [
+            82,
+            9
+          ],
+          "step_x": 1
+        },
+        {
+          "destination": [
+            24,
+            10,
+            16
+          ],
+          "donor": "DEF",
+          "source": [
+            103,
+            10
+          ],
+          "step_x": -1
+        },
+        {
+          "destination": [
+            40,
+            10,
+            20
+          ],
+          "donor": "HP",
+          "source": [
+            70,
+            10
+          ],
+          "step_x": 0
+        },
+        {
+          "destination": [
+            82,
+            10,
+            22
+          ],
+          "donor": "DEF",
+          "source": [
+            82,
+            10
+          ],
+          "step_x": 1
+        },
+        {
+          "destination": [
+            24,
+            11,
+            16
+          ],
+          "donor": "DEF",
+          "source": [
+            103,
+            11
+          ],
+          "step_x": -1
+        },
+        {
+          "destination": [
+            40,
+            11,
+            20
+          ],
+          "donor": "HP",
+          "source": [
+            70,
+            11
+          ],
+          "step_x": 0
+        },
+        {
+          "destination": [
+            82,
+            11,
+            22
+          ],
+          "donor": "DEF",
+          "source": [
+            82,
+            11
+          ],
+          "step_x": 1
+        },
+        {
+          "destination": [
+            24,
+            12,
+            16
+          ],
+          "donor": "DEF",
+          "source": [
+            103,
+            12
+          ],
+          "step_x": -1
+        },
+        {
+          "destination": [
+            40,
+            12,
+            20
+          ],
+          "donor": "HP",
+          "source": [
+            70,
+            12
+          ],
+          "step_x": 0
+        },
+        {
+          "destination": [
+            82,
+            12,
+            23
+          ],
+          "donor": "DEF",
+          "source": [
+            82,
+            12
+          ],
+          "step_x": 1
+        },
+        {
+          "destination": [
+            24,
+            13,
+            16
+          ],
+          "donor": "DEF",
+          "source": [
+            103,
+            13
+          ],
+          "step_x": -1
+        },
+        {
+          "destination": [
+            40,
+            13,
+            20
+          ],
+          "donor": "HP",
+          "source": [
+            70,
+            13
+          ],
+          "step_x": 0
+        },
+        {
+          "destination": [
+            82,
+            13,
+            23
+          ],
+          "donor": "DEF",
+          "source": [
+            82,
+            13
+          ],
+          "step_x": 1
+        },
+        {
+          "destination": [
+            24,
+            14,
+            16
+          ],
+          "donor": "DEF",
+          "source": [
+            103,
+            14
+          ],
+          "step_x": -1
+        },
+        {
+          "destination": [
+            40,
+            14,
+            20
+          ],
+          "donor": "HP",
+          "source": [
+            70,
+            14
+          ],
+          "step_x": 0
+        },
+        {
+          "destination": [
+            82,
+            14,
+            23
+          ],
+          "donor": "DEF",
+          "source": [
+            82,
+            14
+          ],
+          "step_x": 1
+        },
+        {
+          "destination": [
+            24,
+            15,
+            16
+          ],
+          "donor": "DEF",
+          "source": [
+            103,
+            15
+          ],
+          "step_x": -1
+        },
+        {
+          "destination": [
+            40,
+            15,
+            20
+          ],
+          "donor": "HP",
+          "source": [
+            70,
+            15
+          ],
+          "step_x": 0
+        },
+        {
+          "destination": [
+            82,
+            15,
+            23
+          ],
+          "donor": "DEF",
+          "source": [
+            82,
+            15
+          ],
+          "step_x": 1
+        },
+        {
+          "destination": [
+            24,
+            16,
+            16
+          ],
+          "donor": "DEF",
+          "source": [
+            103,
+            16
+          ],
+          "step_x": -1
+        },
+        {
+          "destination": [
+            40,
+            16,
+            20
+          ],
+          "donor": "HP",
+          "source": [
+            70,
+            16
+          ],
+          "step_x": 0
+        },
+        {
+          "destination": [
+            82,
+            16,
+            22
+          ],
+          "donor": "DEF",
+          "source": [
+            82,
+            16
+          ],
+          "step_x": 1
+        },
+        {
+          "destination": [
+            22,
+            17,
+            18
+          ],
+          "donor": "DEF",
+          "source": [
+            105,
+            17
+          ],
+          "step_x": -1
+        },
+        {
+          "destination": [
+            40,
+            17,
+            20
+          ],
+          "donor": "HP",
+          "source": [
+            70,
+            17
+          ],
+          "step_x": 0
+        },
+        {
+          "destination": [
+            82,
+            17,
+            23
+          ],
+          "donor": "DEF",
+          "source": [
+            82,
+            17
+          ],
+          "step_x": 1
+        },
+        {
+          "destination": [
+            22,
+            18,
+            18
+          ],
+          "donor": "DEF",
+          "source": [
+            105,
+            18
+          ],
+          "step_x": -1
+        },
+        {
+          "destination": [
+            40,
+            18,
+            20
+          ],
+          "donor": "HP",
+          "source": [
+            70,
+            18
+          ],
+          "step_x": 0
+        },
+        {
+          "destination": [
+            82,
+            18,
+            23
+          ],
+          "donor": "DEF",
+          "source": [
+            82,
+            18
+          ],
+          "step_x": 1
+        },
+        {
+          "destination": [
+            22,
+            19,
+            18
+          ],
+          "donor": "DEF",
+          "source": [
+            105,
+            19
+          ],
+          "step_x": -1
+        },
+        {
+          "destination": [
+            40,
+            19,
+            20
+          ],
+          "donor": "HP",
+          "source": [
+            70,
+            19
+          ],
+          "step_x": 0
+        },
+        {
+          "destination": [
+            82,
+            19,
+            18
+          ],
+          "donor": "DEF",
+          "source": [
+            82,
+            19
+          ],
+          "step_x": 1
+        },
+        {
+          "destination": [
+            104,
+            19,
+            1
+          ],
+          "donor": "DEF",
+          "source": [
+            104,
+            19
+          ],
+          "step_x": 1
+        },
+        {
+          "destination": [
+            24,
+            20,
+            16
+          ],
+          "donor": "DEF",
+          "source": [
+            103,
+            20
+          ],
+          "step_x": -1
+        },
+        {
+          "destination": [
+            40,
+            20,
+            17
+          ],
+          "donor": "HP",
+          "source": [
+            70,
+            20
+          ],
+          "step_x": 0
+        },
+        {
+          "destination": [
+            84,
+            20,
+            20
+          ],
+          "donor": "DEF",
+          "source": [
+            84,
+            20
+          ],
+          "step_x": 1
+        },
+        {
+          "destination": [
+            24,
+            21,
+            16
+          ],
+          "donor": "DEF",
+          "source": [
+            103,
+            21
+          ],
+          "step_x": -1
+        },
+        {
+          "destination": [
+            40,
+            21,
+            17
+          ],
+          "donor": "HP",
+          "source": [
+            70,
+            21
+          ],
+          "step_x": 0
+        },
+        {
+          "destination": [
+            84,
+            21,
+            20
+          ],
+          "donor": "DEF",
+          "source": [
+            84,
+            21
+          ],
+          "step_x": 1
+        },
+        {
+          "destination": [
+            24,
+            22,
+            16
+          ],
+          "donor": "DEF",
+          "source": [
+            103,
+            22
+          ],
+          "step_x": -1
+        },
+        {
+          "destination": [
+            40,
+            22,
+            17
+          ],
+          "donor": "HP",
+          "source": [
+            70,
+            22
+          ],
+          "step_x": 0
+        },
+        {
+          "destination": [
+            84,
+            22,
+            20
+          ],
+          "donor": "DEF",
+          "source": [
+            84,
+            22
+          ],
+          "step_x": 1
+        },
+        {
+          "destination": [
+            25,
+            23,
+            3
+          ],
+          "donor": "DEF",
+          "source": [
+            102,
+            23
+          ],
+          "step_x": -1
+        },
+        {
+          "destination": [
+            32,
+            23,
+            8
+          ],
+          "donor": "DEF",
+          "source": [
+            95,
+            23
+          ],
+          "step_x": -1
+        },
+        {
+          "destination": [
+            40,
+            23,
+            8
+          ],
+          "donor": "HP",
+          "source": [
+            70,
+            23
+          ],
+          "step_x": 0
+        },
+        {
+          "destination": [
+            52,
+            23,
+            4
+          ],
+          "donor": "HP",
+          "source": [
+            70,
+            23
+          ],
+          "step_x": 0
+        },
+        {
+          "destination": [
+            84,
+            23,
+            4
+          ],
+          "donor": "DEF",
+          "source": [
+            84,
+            23
+          ],
+          "step_x": 1
+        },
+        {
+          "destination": [
+            96,
+            23,
+            7
+          ],
+          "donor": "DEF",
+          "source": [
+            96,
+            23
+          ],
+          "step_x": 1
+        },
+        {
+          "destination": [
+            28,
+            24,
+            4
+          ],
+          "donor": "DEF",
+          "source": [
+            99,
+            24
+          ],
+          "step_x": -1
+        },
+        {
+          "destination": [
+            39,
+            24,
+            1
+          ],
+          "donor": "DEF",
+          "source": [
+            88,
+            24
+          ],
+          "step_x": -1
+        },
+        {
+          "destination": [
+            40,
+            24,
+            1
+          ],
+          "donor": "HP",
+          "source": [
+            70,
+            24
+          ],
+          "step_x": 0
+        },
+        {
+          "destination": [
+            52,
+            24,
+            4
+          ],
+          "donor": "HP",
+          "source": [
+            70,
+            24
+          ],
+          "step_x": 0
+        },
+        {
+          "destination": [
+            96,
+            24,
+            4
+          ],
+          "donor": "DEF",
+          "source": [
+            96,
+            24
+          ],
+          "step_x": 1
+        },
+        {
+          "destination": [
+            30,
+            25,
+            2
+          ],
+          "donor": "DEF",
+          "source": [
+            97,
+            25
+          ],
+          "step_x": -1
+        },
+        {
+          "destination": [
+            52,
+            25,
+            4
+          ],
+          "donor": "HP",
+          "source": [
+            70,
+            25
+          ],
+          "step_x": 0
+        },
+        {
+          "destination": [
+            96,
+            25,
+            2
+          ],
+          "donor": "DEF",
+          "source": [
+            96,
+            25
+          ],
+          "step_x": 1
+        }
+      ],
+      "patch": {
+        "path": "HP-patch.png",
+        "sha256": "d31b2a67f038d2b87dc41cb599b8f990983b1c291af29cdefac5b87ff7beea0c"
+      },
+      "result_rgba_sha256": "16fddd23006057a89ad7079255894a120fc817fd8719e74549bb9543fd99cafe"
+    },
+    {
+      "id": "style_stat_srv",
+      "source": {
+        "path": "build/phase-365-style-stats/sources/MC2Game/CookedXenon/Style_Tree_Resources.xxx",
+        "sha256": "6f9562d8f2a52dabc2c36e598f23bd9ac8d383e8c2cab95284d65a2feae2e5bc"
+      },
+      "object": "Style_Skill_Status_SRV_normal",
+      "profile": {
+        "kind": "xbox-inline-bc-v1",
+        "format": 7
+      },
+      "dimensions": [
+        128,
+        32
+      ],
+      "rgba_sha256": "8e4c02c47db22011982ba5b4430cf5c589cfed40bebd7299850154357012dec5",
+      "mask": {
+        "path": "locales/zh-Hans/texture-overlays/style-stat-restorations-v35/SRV-mask.png",
+        "sha256": "c831cbbf7dc59e22e31d3a1ec080173a45cd3a129943fdcbccbf4d6795ffcf54"
+      },
+      "donors": [
+        {
+          "id": "SRV",
+          "source": {
+            "path": "build/phase-365-style-stats/sources/MC2Game/CookedXenon/Style_Tree_Resources.xxx",
+            "sha256": "6f9562d8f2a52dabc2c36e598f23bd9ac8d383e8c2cab95284d65a2feae2e5bc"
+          },
+          "object": "Style_Skill_Status_SRV_normal",
+          "profile": {
+            "kind": "xbox-inline-bc-v1",
+            "format": 7
+          },
+          "dimensions": [
+            128,
+            32
+          ],
+          "rgba_sha256": "8e4c02c47db22011982ba5b4430cf5c589cfed40bebd7299850154357012dec5",
+          "clean_rectangles": [
+            [
+              89,
+              0,
+              39,
+              32
+            ]
+          ]
+        }
+      ],
+      "runs": [
+        {
+          "destination": [
+            60,
+            4,
+            4
+          ],
+          "donor": "SRV",
+          "source": [
+            100,
+            4
+          ],
+          "step_x": 0
+        },
+        {
+          "destination": [
+            68,
+            4,
+            12
+          ],
+          "donor": "SRV",
+          "source": [
+            100,
+            4
+          ],
+          "step_x": 0
+        },
+        {
+          "destination": [
+            20,
+            5,
+            1
+          ],
+          "donor": "SRV",
+          "source": [
+            107,
+            5
+          ],
+          "step_x": -1
+        },
+        {
+          "destination": [
+            68,
+            5,
+            12
+          ],
+          "donor": "SRV",
+          "source": [
+            100,
+            5
+          ],
+          "step_x": 0
+        },
+        {
+          "destination": [
+            18,
+            6,
+            1
+          ],
+          "donor": "SRV",
+          "source": [
+            109,
+            6
+          ],
+          "step_x": -1
+        },
+        {
+          "destination": [
+            68,
+            6,
+            12
+          ],
+          "donor": "SRV",
+          "source": [
+            100,
+            6
+          ],
+          "step_x": 0
+        },
+        {
+          "destination": [
+            16,
+            7,
+            1
+          ],
+          "donor": "SRV",
+          "source": [
+            111,
+            7
+          ],
+          "step_x": -1
+        },
+        {
+          "destination": [
+            59,
+            7,
+            3
+          ],
+          "donor": "SRV",
+          "source": [
+            100,
+            7
+          ],
+          "step_x": 0
+        },
+        {
+          "destination": [
+            68,
+            7,
+            13
+          ],
+          "donor": "SRV",
+          "source": [
+            100,
+            7
+          ],
+          "step_x": 0
+        },
+        {
+          "destination": [
+            16,
+            8,
+            16
+          ],
+          "donor": "SRV",
+          "source": [
+            111,
+            8
+          ],
+          "step_x": -1
+        },
+        {
+          "destination": [
+            32,
+            8,
+            14
+          ],
+          "donor": "SRV",
+          "source": [
+            100,
+            8
+          ],
+          "step_x": 0
+        },
+        {
+          "destination": [
+            48,
+            8,
+            40
+          ],
+          "donor": "SRV",
+          "source": [
+            100,
+            8
+          ],
+          "step_x": 0
+        },
+        {
+          "destination": [
+            16,
+            9,
+            16
+          ],
+          "donor": "SRV",
+          "source": [
+            111,
+            9
+          ],
+          "step_x": -1
+        },
+        {
+          "destination": [
+            32,
+            9,
+            56
+          ],
+          "donor": "SRV",
+          "source": [
+            100,
+            9
+          ],
+          "step_x": 0
+        },
+        {
+          "destination": [
+            16,
+            10,
+            16
+          ],
+          "donor": "SRV",
+          "source": [
+            111,
+            10
+          ],
+          "step_x": -1
+        },
+        {
+          "destination": [
+            32,
+            10,
+            56
+          ],
+          "donor": "SRV",
+          "source": [
+            100,
+            10
+          ],
+          "step_x": 0
+        },
+        {
+          "destination": [
+            16,
+            11,
+            16
+          ],
+          "donor": "SRV",
+          "source": [
+            111,
+            11
+          ],
+          "step_x": -1
+        },
+        {
+          "destination": [
+            32,
+            11,
+            56
+          ],
+          "donor": "SRV",
+          "source": [
+            100,
+            11
+          ],
+          "step_x": 0
+        },
+        {
+          "destination": [
+            13,
+            12,
+            19
+          ],
+          "donor": "SRV",
+          "source": [
+            114,
+            12
+          ],
+          "step_x": -1
+        },
+        {
+          "destination": [
+            32,
+            12,
+            56
+          ],
+          "donor": "SRV",
+          "source": [
+            100,
+            12
+          ],
+          "step_x": 0
+        },
+        {
+          "destination": [
+            13,
+            13,
+            19
+          ],
+          "donor": "SRV",
+          "source": [
+            114,
+            13
+          ],
+          "step_x": -1
+        },
+        {
+          "destination": [
+            32,
+            13,
+            56
+          ],
+          "donor": "SRV",
+          "source": [
+            100,
+            13
+          ],
+          "step_x": 0
+        },
+        {
+          "destination": [
+            13,
+            14,
+            19
+          ],
+          "donor": "SRV",
+          "source": [
+            114,
+            14
+          ],
+          "step_x": -1
+        },
+        {
+          "destination": [
+            32,
+            14,
+            56
+          ],
+          "donor": "SRV",
+          "source": [
+            100,
+            14
+          ],
+          "step_x": 0
+        },
+        {
+          "destination": [
+            16,
+            15,
+            16
+          ],
+          "donor": "SRV",
+          "source": [
+            111,
+            15
+          ],
+          "step_x": -1
+        },
+        {
+          "destination": [
+            32,
+            15,
+            56
+          ],
+          "donor": "SRV",
+          "source": [
+            100,
+            15
+          ],
+          "step_x": 0
+        },
+        {
+          "destination": [
+            12,
+            16,
+            20
+          ],
+          "donor": "SRV",
+          "source": [
+            115,
+            16
+          ],
+          "step_x": -1
+        },
+        {
+          "destination": [
+            32,
+            16,
+            56
+          ],
+          "donor": "SRV",
+          "source": [
+            100,
+            16
+          ],
+          "step_x": 0
+        },
+        {
+          "destination": [
+            12,
+            17,
+            20
+          ],
+          "donor": "SRV",
+          "source": [
+            115,
+            17
+          ],
+          "step_x": -1
+        },
+        {
+          "destination": [
+            32,
+            17,
+            56
+          ],
+          "donor": "SRV",
+          "source": [
+            100,
+            17
+          ],
+          "step_x": 0
+        },
+        {
+          "destination": [
+            13,
+            18,
+            19
+          ],
+          "donor": "SRV",
+          "source": [
+            114,
+            18
+          ],
+          "step_x": -1
+        },
+        {
+          "destination": [
+            32,
+            18,
+            56
+          ],
+          "donor": "SRV",
+          "source": [
+            100,
+            18
+          ],
+          "step_x": 0
+        },
+        {
+          "destination": [
+            16,
+            19,
+            16
+          ],
+          "donor": "SRV",
+          "source": [
+            111,
+            19
+          ],
+          "step_x": -1
+        },
+        {
+          "destination": [
+            32,
+            19,
+            56
+          ],
+          "donor": "SRV",
+          "source": [
+            100,
+            19
+          ],
+          "step_x": 0
+        },
+        {
+          "destination": [
+            14,
+            20,
+            18
+          ],
+          "donor": "SRV",
+          "source": [
+            113,
+            20
+          ],
+          "step_x": -1
+        },
+        {
+          "destination": [
+            32,
+            20,
+            52
+          ],
+          "donor": "SRV",
+          "source": [
+            100,
+            20
+          ],
+          "step_x": 0
+        },
+        {
+          "destination": [
+            14,
+            21,
+            18
+          ],
+          "donor": "SRV",
+          "source": [
+            113,
+            21
+          ],
+          "step_x": -1
+        },
+        {
+          "destination": [
+            32,
+            21,
+            52
+          ],
+          "donor": "SRV",
+          "source": [
+            100,
+            21
+          ],
+          "step_x": 0
+        },
+        {
+          "destination": [
+            15,
+            22,
+            17
+          ],
+          "donor": "SRV",
+          "source": [
+            112,
+            22
+          ],
+          "step_x": -1
+        },
+        {
+          "destination": [
+            32,
+            22,
+            52
+          ],
+          "donor": "SRV",
+          "source": [
+            100,
+            22
+          ],
+          "step_x": 0
+        },
+        {
+          "destination": [
+            16,
+            23,
+            16
+          ],
+          "donor": "SRV",
+          "source": [
+            111,
+            23
+          ],
+          "step_x": -1
+        },
+        {
+          "destination": [
+            44,
+            23,
+            4
+          ],
+          "donor": "SRV",
+          "source": [
+            100,
+            23
+          ],
+          "step_x": 0
+        },
+        {
+          "destination": [
+            52,
+            23,
+            8
+          ],
+          "donor": "SRV",
+          "source": [
+            100,
+            23
+          ],
+          "step_x": 0
+        },
+        {
+          "destination": [
+            68,
+            23,
+            16
+          ],
+          "donor": "SRV",
+          "source": [
+            100,
+            23
+          ],
+          "step_x": 0
+        },
+        {
+          "destination": [
+            20,
+            24,
+            4
+          ],
+          "donor": "SRV",
+          "source": [
+            107,
+            24
+          ],
+          "step_x": -1
+        },
+        {
+          "destination": [
+            79,
+            24,
+            2
+          ],
+          "donor": "SRV",
+          "source": [
+            100,
+            24
+          ],
+          "step_x": 0
+        },
+        {
+          "destination": [
+            21,
+            25,
+            3
+          ],
+          "donor": "SRV",
+          "source": [
+            106,
+            25
+          ],
+          "step_x": -1
+        }
+      ],
+      "patch": {
+        "path": "SRV-patch.png",
+        "sha256": "e8990d80affd0201049d04b4b8c7663b4256e00b163f14f053add6611e397971"
+      },
+      "result_rgba_sha256": "61519350cf9e1ab6e0ca79bc9115a89cd1a46e19d8ad82d63e7d5590cf34f57f"
+    },
+    {
+      "id": "style_stat_sta",
+      "source": {
+        "path": "build/phase-365-style-stats/sources/MC2Game/CookedXenon/Style_Tree_Resources.xxx",
+        "sha256": "6f9562d8f2a52dabc2c36e598f23bd9ac8d383e8c2cab95284d65a2feae2e5bc"
+      },
+      "object": "Style_Skill_Status_STA_normal",
+      "profile": {
+        "kind": "xbox-inline-bc-v1",
+        "format": 7
+      },
+      "dimensions": [
+        128,
+        32
+      ],
+      "rgba_sha256": "d7d599cae4193169fcba830d4128d1289e5f5da064fd0c390452edc667ae4d4b",
+      "mask": {
+        "path": "locales/zh-Hans/texture-overlays/style-stat-restorations-v35/STA-mask.png",
+        "sha256": "d2a9c51ce747b96a916a61174c71ed9ff5bf9ea4c76f4ebe53d5285bf5b0ec0e"
+      },
+      "donors": [
+        {
+          "id": "STA",
+          "source": {
+            "path": "build/phase-365-style-stats/sources/MC2Game/CookedXenon/Style_Tree_Resources.xxx",
+            "sha256": "6f9562d8f2a52dabc2c36e598f23bd9ac8d383e8c2cab95284d65a2feae2e5bc"
+          },
+          "object": "Style_Skill_Status_STA_normal",
+          "profile": {
+            "kind": "xbox-inline-bc-v1",
+            "format": 7
+          },
+          "dimensions": [
+            128,
+            32
+          ],
+          "rgba_sha256": "d7d599cae4193169fcba830d4128d1289e5f5da064fd0c390452edc667ae4d4b",
+          "clean_rectangles": [
+            [
+              78,
+              0,
+              50,
+              32
+            ]
+          ]
+        }
+      ],
+      "runs": [
+        {
+          "destination": [
+            52,
+            5,
+            4
+          ],
+          "donor": "STA",
+          "source": [
+            80,
+            5
+          ],
+          "step_x": 0
+        },
+        {
+          "destination": [
+            25,
+            6,
+            3
+          ],
+          "donor": "STA",
+          "source": [
+            98,
+            6
+          ],
+          "step_x": -1
+        },
+        {
+          "destination": [
+            52,
+            6,
+            4
+          ],
+          "donor": "STA",
+          "source": [
+            80,
+            6
+          ],
+          "step_x": 0
+        },
+        {
+          "destination": [
+            23,
+            7,
+            5
+          ],
+          "donor": "STA",
+          "source": [
+            100,
+            7
+          ],
+          "step_x": -1
+        },
+        {
+          "destination": [
+            43,
+            7,
+            2
+          ],
+          "donor": "STA",
+          "source": [
+            80,
+            7
+          ],
+          "step_x": 0
+        },
+        {
+          "destination": [
+            52,
+            7,
+            5
+          ],
+          "donor": "STA",
+          "source": [
+            80,
+            7
+          ],
+          "step_x": 0
+        },
+        {
+          "destination": [
+            66,
+            7,
+            2
+          ],
+          "donor": "STA",
+          "source": [
+            80,
+            7
+          ],
+          "step_x": 0
+        },
+        {
+          "destination": [
+            24,
+            8,
+            16
+          ],
+          "donor": "STA",
+          "source": [
+            99,
+            8
+          ],
+          "step_x": -1
+        },
+        {
+          "destination": [
+            40,
+            8,
+            32
+          ],
+          "donor": "STA",
+          "source": [
+            80,
+            8
+          ],
+          "step_x": 0
+        },
+        {
+          "destination": [
+            24,
+            9,
+            16
+          ],
+          "donor": "STA",
+          "source": [
+            99,
+            9
+          ],
+          "step_x": -1
+        },
+        {
+          "destination": [
+            40,
+            9,
+            32
+          ],
+          "donor": "STA",
+          "source": [
+            80,
+            9
+          ],
+          "step_x": 0
+        },
+        {
+          "destination": [
+            24,
+            10,
+            16
+          ],
+          "donor": "STA",
+          "source": [
+            99,
+            10
+          ],
+          "step_x": -1
+        },
+        {
+          "destination": [
+            40,
+            10,
+            32
+          ],
+          "donor": "STA",
+          "source": [
+            80,
+            10
+          ],
+          "step_x": 0
+        },
+        {
+          "destination": [
+            24,
+            11,
+            16
+          ],
+          "donor": "STA",
+          "source": [
+            99,
+            11
+          ],
+          "step_x": -1
+        },
+        {
+          "destination": [
+            40,
+            11,
+            32
+          ],
+          "donor": "STA",
+          "source": [
+            80,
+            11
+          ],
+          "step_x": 0
+        },
+        {
+          "destination": [
+            20,
+            12,
+            20
+          ],
+          "donor": "STA",
+          "source": [
+            103,
+            12
+          ],
+          "step_x": -1
+        },
+        {
+          "destination": [
+            40,
+            12,
+            32
+          ],
+          "donor": "STA",
+          "source": [
+            80,
+            12
+          ],
+          "step_x": 0
+        },
+        {
+          "destination": [
+            20,
+            13,
+            20
+          ],
+          "donor": "STA",
+          "source": [
+            103,
+            13
+          ],
+          "step_x": -1
+        },
+        {
+          "destination": [
+            40,
+            13,
+            32
+          ],
+          "donor": "STA",
+          "source": [
+            80,
+            13
+          ],
+          "step_x": 0
+        },
+        {
+          "destination": [
+            20,
+            14,
+            20
+          ],
+          "donor": "STA",
+          "source": [
+            103,
+            14
+          ],
+          "step_x": -1
+        },
+        {
+          "destination": [
+            40,
+            14,
+            32
+          ],
+          "donor": "STA",
+          "source": [
+            80,
+            14
+          ],
+          "step_x": 0
+        },
+        {
+          "destination": [
+            20,
+            15,
+            20
+          ],
+          "donor": "STA",
+          "source": [
+            103,
+            15
+          ],
+          "step_x": -1
+        },
+        {
+          "destination": [
+            40,
+            15,
+            32
+          ],
+          "donor": "STA",
+          "source": [
+            80,
+            15
+          ],
+          "step_x": 0
+        },
+        {
+          "destination": [
+            20,
+            16,
+            20
+          ],
+          "donor": "STA",
+          "source": [
+            103,
+            16
+          ],
+          "step_x": -1
+        },
+        {
+          "destination": [
+            40,
+            16,
+            32
+          ],
+          "donor": "STA",
+          "source": [
+            80,
+            16
+          ],
+          "step_x": 0
+        },
+        {
+          "destination": [
+            20,
+            17,
+            20
+          ],
+          "donor": "STA",
+          "source": [
+            103,
+            17
+          ],
+          "step_x": -1
+        },
+        {
+          "destination": [
+            40,
+            17,
+            32
+          ],
+          "donor": "STA",
+          "source": [
+            80,
+            17
+          ],
+          "step_x": 0
+        },
+        {
+          "destination": [
+            20,
+            18,
+            20
+          ],
+          "donor": "STA",
+          "source": [
+            103,
+            18
+          ],
+          "step_x": -1
+        },
+        {
+          "destination": [
+            40,
+            18,
+            32
+          ],
+          "donor": "STA",
+          "source": [
+            80,
+            18
+          ],
+          "step_x": 0
+        },
+        {
+          "destination": [
+            20,
+            19,
+            20
+          ],
+          "donor": "STA",
+          "source": [
+            103,
+            19
+          ],
+          "step_x": -1
+        },
+        {
+          "destination": [
+            40,
+            19,
+            32
+          ],
+          "donor": "STA",
+          "source": [
+            80,
+            19
+          ],
+          "step_x": 0
+        },
+        {
+          "destination": [
+            21,
+            20,
+            19
+          ],
+          "donor": "STA",
+          "source": [
+            102,
+            20
+          ],
+          "step_x": -1
+        },
+        {
+          "destination": [
+            40,
+            20,
+            32
+          ],
+          "donor": "STA",
+          "source": [
+            80,
+            20
+          ],
+          "step_x": 0
+        },
+        {
+          "destination": [
+            21,
+            21,
+            19
+          ],
+          "donor": "STA",
+          "source": [
+            102,
+            21
+          ],
+          "step_x": -1
+        },
+        {
+          "destination": [
+            40,
+            21,
+            32
+          ],
+          "donor": "STA",
+          "source": [
+            80,
+            21
+          ],
+          "step_x": 0
+        },
+        {
+          "destination": [
+            22,
+            22,
+            18
+          ],
+          "donor": "STA",
+          "source": [
+            101,
+            22
+          ],
+          "step_x": -1
+        },
+        {
+          "destination": [
+            40,
+            22,
+            32
+          ],
+          "donor": "STA",
+          "source": [
+            80,
+            22
+          ],
+          "step_x": 0
+        },
+        {
+          "destination": [
+            23,
+            23,
+            1
+          ],
+          "donor": "STA",
+          "source": [
+            100,
+            23
+          ],
+          "step_x": -1
+        },
+        {
+          "destination": [
+            32,
+            23,
+            4
+          ],
+          "donor": "STA",
+          "source": [
+            91,
+            23
+          ],
+          "step_x": -1
+        },
+        {
+          "destination": [
+            40,
+            23,
+            8
+          ],
+          "donor": "STA",
+          "source": [
+            80,
+            23
+          ],
+          "step_x": 0
+        },
+        {
+          "destination": [
+            52,
+            23,
+            8
+          ],
+          "donor": "STA",
+          "source": [
+            80,
+            23
+          ],
+          "step_x": 0
+        },
+        {
+          "destination": [
+            64,
+            23,
+            4
+          ],
+          "donor": "STA",
+          "source": [
+            80,
+            23
+          ],
+          "step_x": 0
+        },
+        {
+          "destination": [
+            28,
+            24,
+            4
+          ],
+          "donor": "STA",
+          "source": [
+            95,
+            24
+          ],
+          "step_x": -1
+        },
+        {
+          "destination": [
+            43,
+            24,
+            5
+          ],
+          "donor": "STA",
+          "source": [
+            80,
+            24
+          ],
+          "step_x": 0
+        },
+        {
+          "destination": [
+            52,
+            24,
+            5
+          ],
+          "donor": "STA",
+          "source": [
+            80,
+            24
+          ],
+          "step_x": 0
+        },
+        {
+          "destination": [
+            64,
+            24,
+            4
+          ],
+          "donor": "STA",
+          "source": [
+            80,
+            24
+          ],
+          "step_x": 0
+        },
+        {
+          "destination": [
+            28,
+            25,
+            4
+          ],
+          "donor": "STA",
+          "source": [
+            95,
+            25
+          ],
+          "step_x": -1
+        },
+        {
+          "destination": [
+            44,
+            25,
+            4
+          ],
+          "donor": "STA",
+          "source": [
+            80,
+            25
+          ],
+          "step_x": 0
+        },
+        {
+          "destination": [
+            52,
+            25,
+            4
+          ],
+          "donor": "STA",
+          "source": [
+            80,
+            25
+          ],
+          "step_x": 0
+        },
+        {
+          "destination": [
+            64,
+            25,
+            4
+          ],
+          "donor": "STA",
+          "source": [
+            80,
+            25
+          ],
+          "step_x": 0
+        }
+      ],
+      "patch": {
+        "path": "STA-patch.png",
+        "sha256": "d2e4c99d11cea48f5e309bc2390ef29dcc771ca35c7121883f32c758c889de81"
+      },
+      "result_rgba_sha256": "1402742e28d56aa86657bccbc3770b864b1b0d989cdab1340cd254493ee1c0ce"
+    },
+    {
+      "id": "style_stat_str",
+      "source": {
+        "path": "build/phase-365-style-stats/sources/MC2Game/CookedXenon/Style_Tree_Resources.xxx",
+        "sha256": "6f9562d8f2a52dabc2c36e598f23bd9ac8d383e8c2cab95284d65a2feae2e5bc"
+      },
+      "object": "Style_Skill_Status_STR_normal",
+      "profile": {
+        "kind": "xbox-inline-bc-v1",
+        "format": 7
+      },
+      "dimensions": [
+        128,
+        32
+      ],
+      "rgba_sha256": "b32540543c2ecc28a5d7d39c898d205d8134378c839fa5370bdf4e246d1c8552",
+      "mask": {
+        "path": "locales/zh-Hans/texture-overlays/style-stat-restorations-v35/STR-mask.png",
+        "sha256": "a7e2dcad2684bf4e610fdccbfc893662c08bdd75f43963868c63c06e1777ad39"
+      },
+      "donors": [
+        {
+          "id": "STR",
+          "source": {
+            "path": "build/phase-365-style-stats/sources/MC2Game/CookedXenon/Style_Tree_Resources.xxx",
+            "sha256": "6f9562d8f2a52dabc2c36e598f23bd9ac8d383e8c2cab95284d65a2feae2e5bc"
+          },
+          "object": "Style_Skill_Status_STR_normal",
+          "profile": {
+            "kind": "xbox-inline-bc-v1",
+            "format": 7
+          },
+          "dimensions": [
+            128,
+            32
+          ],
+          "rgba_sha256": "b32540543c2ecc28a5d7d39c898d205d8134378c839fa5370bdf4e246d1c8552",
+          "clean_rectangles": [
+            [
+              64,
+              0,
+              64,
+              32
+            ]
+          ]
+        }
+      ],
+      "runs": [
+        {
+          "destination": [
+            30,
+            5,
+            10
+          ],
+          "donor": "STR",
+          "source": [
+            98,
+            5
+          ],
+          "step_x": -1
+        },
+        {
+          "destination": [
+            44,
+            5,
+            8
+          ],
+          "donor": "STR",
+          "source": [
+            80,
+            5
+          ],
+          "step_x": 0
+        },
+        {
+          "destination": [
+            56,
+            5,
+            4
+          ],
+          "donor": "STR",
+          "source": [
+            80,
+            5
+          ],
+          "step_x": 0
+        },
+        {
+          "destination": [
+            28,
+            6,
+            12
+          ],
+          "donor": "STR",
+          "source": [
+            100,
+            6
+          ],
+          "step_x": -1
+        },
+        {
+          "destination": [
+            44,
+            6,
+            8
+          ],
+          "donor": "STR",
+          "source": [
+            80,
+            6
+          ],
+          "step_x": 0
+        },
+        {
+          "destination": [
+            55,
+            6,
+            5
+          ],
+          "donor": "STR",
+          "source": [
+            80,
+            6
+          ],
+          "step_x": 0
+        },
+        {
+          "destination": [
+            28,
+            7,
+            12
+          ],
+          "donor": "STR",
+          "source": [
+            100,
+            7
+          ],
+          "step_x": -1
+        },
+        {
+          "destination": [
+            44,
+            7,
+            8
+          ],
+          "donor": "STR",
+          "source": [
+            80,
+            7
+          ],
+          "step_x": 0
+        },
+        {
+          "destination": [
+            54,
+            7,
+            6
+          ],
+          "donor": "STR",
+          "source": [
+            80,
+            7
+          ],
+          "step_x": 0
+        },
+        {
+          "destination": [
+            25,
+            8,
+            15
+          ],
+          "donor": "STR",
+          "source": [
+            103,
+            8
+          ],
+          "step_x": -1
+        },
+        {
+          "destination": [
+            40,
+            8,
+            20
+          ],
+          "donor": "STR",
+          "source": [
+            80,
+            8
+          ],
+          "step_x": 0
+        },
+        {
+          "destination": [
+            23,
+            9,
+            17
+          ],
+          "donor": "STR",
+          "source": [
+            105,
+            9
+          ],
+          "step_x": -1
+        },
+        {
+          "destination": [
+            40,
+            9,
+            20
+          ],
+          "donor": "STR",
+          "source": [
+            80,
+            9
+          ],
+          "step_x": 0
+        },
+        {
+          "destination": [
+            23,
+            10,
+            17
+          ],
+          "donor": "STR",
+          "source": [
+            105,
+            10
+          ],
+          "step_x": -1
+        },
+        {
+          "destination": [
+            40,
+            10,
+            20
+          ],
+          "donor": "STR",
+          "source": [
+            80,
+            10
+          ],
+          "step_x": 0
+        },
+        {
+          "destination": [
+            22,
+            11,
+            18
+          ],
+          "donor": "STR",
+          "source": [
+            106,
+            11
+          ],
+          "step_x": -1
+        },
+        {
+          "destination": [
+            40,
+            11,
+            20
+          ],
+          "donor": "STR",
+          "source": [
+            80,
+            11
+          ],
+          "step_x": 0
+        },
+        {
+          "destination": [
+            22,
+            12,
+            18
+          ],
+          "donor": "STR",
+          "source": [
+            106,
+            12
+          ],
+          "step_x": -1
+        },
+        {
+          "destination": [
+            40,
+            12,
+            24
+          ],
+          "donor": "STR",
+          "source": [
+            80,
+            12
+          ],
+          "step_x": 0
+        },
+        {
+          "destination": [
+            22,
+            13,
+            18
+          ],
+          "donor": "STR",
+          "source": [
+            106,
+            13
+          ],
+          "step_x": -1
+        },
+        {
+          "destination": [
+            40,
+            13,
+            24
+          ],
+          "donor": "STR",
+          "source": [
+            80,
+            13
+          ],
+          "step_x": 0
+        },
+        {
+          "destination": [
+            22,
+            14,
+            18
+          ],
+          "donor": "STR",
+          "source": [
+            106,
+            14
+          ],
+          "step_x": -1
+        },
+        {
+          "destination": [
+            40,
+            14,
+            24
+          ],
+          "donor": "STR",
+          "source": [
+            80,
+            14
+          ],
+          "step_x": 0
+        },
+        {
+          "destination": [
+            21,
+            15,
+            19
+          ],
+          "donor": "STR",
+          "source": [
+            107,
+            15
+          ],
+          "step_x": -1
+        },
+        {
+          "destination": [
+            40,
+            15,
+            24
+          ],
+          "donor": "STR",
+          "source": [
+            80,
+            15
+          ],
+          "step_x": 0
+        },
+        {
+          "destination": [
+            22,
+            16,
+            18
+          ],
+          "donor": "STR",
+          "source": [
+            106,
+            16
+          ],
+          "step_x": -1
+        },
+        {
+          "destination": [
+            40,
+            16,
+            24
+          ],
+          "donor": "STR",
+          "source": [
+            80,
+            16
+          ],
+          "step_x": 0
+        },
+        {
+          "destination": [
+            22,
+            17,
+            18
+          ],
+          "donor": "STR",
+          "source": [
+            106,
+            17
+          ],
+          "step_x": -1
+        },
+        {
+          "destination": [
+            40,
+            17,
+            24
+          ],
+          "donor": "STR",
+          "source": [
+            80,
+            17
+          ],
+          "step_x": 0
+        },
+        {
+          "destination": [
+            22,
+            18,
+            18
+          ],
+          "donor": "STR",
+          "source": [
+            106,
+            18
+          ],
+          "step_x": -1
+        },
+        {
+          "destination": [
+            40,
+            18,
+            24
+          ],
+          "donor": "STR",
+          "source": [
+            80,
+            18
+          ],
+          "step_x": 0
+        },
+        {
+          "destination": [
+            22,
+            19,
+            3
+          ],
+          "donor": "STR",
+          "source": [
+            106,
+            19
+          ],
+          "step_x": -1
+        },
+        {
+          "destination": [
+            28,
+            19,
+            12
+          ],
+          "donor": "STR",
+          "source": [
+            100,
+            19
+          ],
+          "step_x": -1
+        },
+        {
+          "destination": [
+            40,
+            19,
+            20
+          ],
+          "donor": "STR",
+          "source": [
+            80,
+            19
+          ],
+          "step_x": 0
+        },
+        {
+          "destination": [
+            23,
+            20,
+            17
+          ],
+          "donor": "STR",
+          "source": [
+            105,
+            20
+          ],
+          "step_x": -1
+        },
+        {
+          "destination": [
+            40,
+            20,
+            2
+          ],
+          "donor": "STR",
+          "source": [
+            80,
+            20
+          ],
+          "step_x": 0
+        },
+        {
+          "destination": [
+            47,
+            20,
+            13
+          ],
+          "donor": "STR",
+          "source": [
+            80,
+            20
+          ],
+          "step_x": 0
+        },
+        {
+          "destination": [
+            23,
+            21,
+            17
+          ],
+          "donor": "STR",
+          "source": [
+            105,
+            21
+          ],
+          "step_x": -1
+        },
+        {
+          "destination": [
+            40,
+            21,
+            2
+          ],
+          "donor": "STR",
+          "source": [
+            80,
+            21
+          ],
+          "step_x": 0
+        },
+        {
+          "destination": [
+            48,
+            21,
+            12
+          ],
+          "donor": "STR",
+          "source": [
+            80,
+            21
+          ],
+          "step_x": 0
+        },
+        {
+          "destination": [
+            24,
+            22,
+            16
+          ],
+          "donor": "STR",
+          "source": [
+            104,
+            22
+          ],
+          "step_x": -1
+        },
+        {
+          "destination": [
+            40,
+            22,
+            1
+          ],
+          "donor": "STR",
+          "source": [
+            80,
+            22
+          ],
+          "step_x": 0
+        },
+        {
+          "destination": [
+            48,
+            22,
+            12
+          ],
+          "donor": "STR",
+          "source": [
+            80,
+            22
+          ],
+          "step_x": 0
+        },
+        {
+          "destination": [
+            25,
+            23,
+            15
+          ],
+          "donor": "STR",
+          "source": [
+            103,
+            23
+          ],
+          "step_x": -1
+        },
+        {
+          "destination": [
+            52,
+            23,
+            8
+          ],
+          "donor": "STR",
+          "source": [
+            80,
+            23
+          ],
+          "step_x": 0
+        },
+        {
+          "destination": [
+            27,
+            24,
+            1
+          ],
+          "donor": "STR",
+          "source": [
+            101,
+            24
+          ],
+          "step_x": -1
+        },
+        {
+          "destination": [
+            29,
+            24,
+            7
+          ],
+          "donor": "STR",
+          "source": [
+            99,
+            24
+          ],
+          "step_x": -1
+        },
+        {
+          "destination": [
+            52,
+            24,
+            8
+          ],
+          "donor": "STR",
+          "source": [
+            80,
+            24
+          ],
+          "step_x": 0
+        },
+        {
+          "destination": [
+            30,
+            25,
+            6
+          ],
+          "donor": "STR",
+          "source": [
+            98,
+            25
+          ],
+          "step_x": -1
+        },
+        {
+          "destination": [
+            52,
+            25,
+            8
+          ],
+          "donor": "STR",
+          "source": [
+            80,
+            25
+          ],
+          "step_x": 0
+        }
+      ],
+      "patch": {
+        "path": "STR-patch.png",
+        "sha256": "e07a57ef5f726440b590c08c7b512640bdf53d79dfd79fcaa86cf0cee5850091"
+      },
+      "result_rgba_sha256": "e94829a723116360b9d0f337c99bc0112da6b2ec976e8bae222692cb5c12dbc3"
+    },
+    {
+      "id": "style_stat_strcopy",
+      "source": {
+        "path": "build/phase-365-style-stats/sources/MC2Game/CookedXenon/Style_Tree_Resources.xxx",
+        "sha256": "6f9562d8f2a52dabc2c36e598f23bd9ac8d383e8c2cab95284d65a2feae2e5bc"
+      },
+      "object": "Style_Skill_Status_STR_normalcopy",
+      "profile": {
+        "kind": "xbox-inline-bc-v1",
+        "format": 7
+      },
+      "dimensions": [
+        128,
+        32
+      ],
+      "rgba_sha256": "74fc320dc319aa7ab08c38c115d536b251ec3bca130405e974918aa7a7a103c4",
+      "mask": {
+        "path": "locales/zh-Hans/texture-overlays/style-stat-restorations-v35/STRcopy-mask.png",
+        "sha256": "1f3dbd9f4cd00e969213aee5e02419784b84fd4bde5560efa7eac483181be042"
+      },
+      "donors": [
+        {
+          "id": "STRcopy",
+          "source": {
+            "path": "build/phase-365-style-stats/sources/MC2Game/CookedXenon/Style_Tree_Resources.xxx",
+            "sha256": "6f9562d8f2a52dabc2c36e598f23bd9ac8d383e8c2cab95284d65a2feae2e5bc"
+          },
+          "object": "Style_Skill_Status_STR_normalcopy",
+          "profile": {
+            "kind": "xbox-inline-bc-v1",
+            "format": 7
+          },
+          "dimensions": [
+            128,
+            32
+          ],
+          "rgba_sha256": "74fc320dc319aa7ab08c38c115d536b251ec3bca130405e974918aa7a7a103c4",
+          "clean_rectangles": [
+            [
+              67,
+              0,
+              61,
+              32
+            ]
+          ]
+        }
+      ],
+      "runs": [
+        {
+          "destination": [
+            36,
+            4,
+            4
+          ],
+          "donor": "STRcopy",
+          "source": [
+            80,
+            4
+          ],
+          "step_x": 0
+        },
+        {
+          "destination": [
+            44,
+            4,
+            20
+          ],
+          "donor": "STRcopy",
+          "source": [
+            80,
+            4
+          ],
+          "step_x": 0
+        },
+        {
+          "destination": [
+            30,
+            5,
+            10
+          ],
+          "donor": "STRcopy",
+          "source": [
+            98,
+            5
+          ],
+          "step_x": -1
+        },
+        {
+          "destination": [
+            48,
+            5,
+            16
+          ],
+          "donor": "STRcopy",
+          "source": [
+            80,
+            5
+          ],
+          "step_x": 0
+        },
+        {
+          "destination": [
+            27,
+            6,
+            1
+          ],
+          "donor": "STRcopy",
+          "source": [
+            101,
+            6
+          ],
+          "step_x": -1
+        },
+        {
+          "destination": [
+            29,
+            6,
+            11
+          ],
+          "donor": "STRcopy",
+          "source": [
+            99,
+            6
+          ],
+          "step_x": -1
+        },
+        {
+          "destination": [
+            48,
+            6,
+            16
+          ],
+          "donor": "STRcopy",
+          "source": [
+            80,
+            6
+          ],
+          "step_x": 0
+        },
+        {
+          "destination": [
+            25,
+            7,
+            3
+          ],
+          "donor": "STRcopy",
+          "source": [
+            103,
+            7
+          ],
+          "step_x": -1
+        },
+        {
+          "destination": [
+            29,
+            7,
+            11
+          ],
+          "donor": "STRcopy",
+          "source": [
+            99,
+            7
+          ],
+          "step_x": -1
+        },
+        {
+          "destination": [
+            46,
+            7,
+            18
+          ],
+          "donor": "STRcopy",
+          "source": [
+            80,
+            7
+          ],
+          "step_x": 0
+        },
+        {
+          "destination": [
+            28,
+            8,
+            12
+          ],
+          "donor": "STRcopy",
+          "source": [
+            100,
+            8
+          ],
+          "step_x": -1
+        },
+        {
+          "destination": [
+            40,
+            8,
+            24
+          ],
+          "donor": "STRcopy",
+          "source": [
+            80,
+            8
+          ],
+          "step_x": 0
+        },
+        {
+          "destination": [
+            23,
+            9,
+            2
+          ],
+          "donor": "STRcopy",
+          "source": [
+            105,
+            9
+          ],
+          "step_x": -1
+        },
+        {
+          "destination": [
+            28,
+            9,
+            12
+          ],
+          "donor": "STRcopy",
+          "source": [
+            100,
+            9
+          ],
+          "step_x": -1
+        },
+        {
+          "destination": [
+            40,
+            9,
+            24
+          ],
+          "donor": "STRcopy",
+          "source": [
+            80,
+            9
+          ],
+          "step_x": 0
+        },
+        {
+          "destination": [
+            23,
+            10,
+            2
+          ],
+          "donor": "STRcopy",
+          "source": [
+            105,
+            10
+          ],
+          "step_x": -1
+        },
+        {
+          "destination": [
+            28,
+            10,
+            12
+          ],
+          "donor": "STRcopy",
+          "source": [
+            100,
+            10
+          ],
+          "step_x": -1
+        },
+        {
+          "destination": [
+            40,
+            10,
+            24
+          ],
+          "donor": "STRcopy",
+          "source": [
+            80,
+            10
+          ],
+          "step_x": 0
+        },
+        {
+          "destination": [
+            22,
+            11,
+            3
+          ],
+          "donor": "STRcopy",
+          "source": [
+            106,
+            11
+          ],
+          "step_x": -1
+        },
+        {
+          "destination": [
+            28,
+            11,
+            12
+          ],
+          "donor": "STRcopy",
+          "source": [
+            100,
+            11
+          ],
+          "step_x": -1
+        },
+        {
+          "destination": [
+            40,
+            11,
+            25
+          ],
+          "donor": "STRcopy",
+          "source": [
+            80,
+            11
+          ],
+          "step_x": 0
+        },
+        {
+          "destination": [
+            22,
+            12,
+            18
+          ],
+          "donor": "STRcopy",
+          "source": [
+            106,
+            12
+          ],
+          "step_x": -1
+        },
+        {
+          "destination": [
+            40,
+            12,
+            27
+          ],
+          "donor": "STRcopy",
+          "source": [
+            80,
+            12
+          ],
+          "step_x": 0
+        },
+        {
+          "destination": [
+            22,
+            13,
+            18
+          ],
+          "donor": "STRcopy",
+          "source": [
+            106,
+            13
+          ],
+          "step_x": -1
+        },
+        {
+          "destination": [
+            40,
+            13,
+            27
+          ],
+          "donor": "STRcopy",
+          "source": [
+            80,
+            13
+          ],
+          "step_x": 0
+        },
+        {
+          "destination": [
+            22,
+            14,
+            18
+          ],
+          "donor": "STRcopy",
+          "source": [
+            106,
+            14
+          ],
+          "step_x": -1
+        },
+        {
+          "destination": [
+            40,
+            14,
+            27
+          ],
+          "donor": "STRcopy",
+          "source": [
+            80,
+            14
+          ],
+          "step_x": 0
+        },
+        {
+          "destination": [
+            21,
+            15,
+            19
+          ],
+          "donor": "STRcopy",
+          "source": [
+            107,
+            15
+          ],
+          "step_x": -1
+        },
+        {
+          "destination": [
+            40,
+            15,
+            27
+          ],
+          "donor": "STRcopy",
+          "source": [
+            80,
+            15
+          ],
+          "step_x": 0
+        },
+        {
+          "destination": [
+            22,
+            16,
+            18
+          ],
+          "donor": "STRcopy",
+          "source": [
+            106,
+            16
+          ],
+          "step_x": -1
+        },
+        {
+          "destination": [
+            40,
+            16,
+            27
+          ],
+          "donor": "STRcopy",
+          "source": [
+            80,
+            16
+          ],
+          "step_x": 0
+        },
+        {
+          "destination": [
+            22,
+            17,
+            18
+          ],
+          "donor": "STRcopy",
+          "source": [
+            106,
+            17
+          ],
+          "step_x": -1
+        },
+        {
+          "destination": [
+            40,
+            17,
+            27
+          ],
+          "donor": "STRcopy",
+          "source": [
+            80,
+            17
+          ],
+          "step_x": 0
+        },
+        {
+          "destination": [
+            22,
+            18,
+            18
+          ],
+          "donor": "STRcopy",
+          "source": [
+            106,
+            18
+          ],
+          "step_x": -1
+        },
+        {
+          "destination": [
+            40,
+            18,
+            27
+          ],
+          "donor": "STRcopy",
+          "source": [
+            80,
+            18
+          ],
+          "step_x": 0
+        },
+        {
+          "destination": [
+            22,
+            19,
+            18
+          ],
+          "donor": "STRcopy",
+          "source": [
+            106,
+            19
+          ],
+          "step_x": -1
+        },
+        {
+          "destination": [
+            40,
+            19,
+            24
+          ],
+          "donor": "STRcopy",
+          "source": [
+            80,
+            19
+          ],
+          "step_x": 0
+        },
+        {
+          "destination": [
+            23,
+            20,
+            17
+          ],
+          "donor": "STRcopy",
+          "source": [
+            105,
+            20
+          ],
+          "step_x": -1
+        },
+        {
+          "destination": [
+            40,
+            20,
+            24
+          ],
+          "donor": "STRcopy",
+          "source": [
+            80,
+            20
+          ],
+          "step_x": 0
+        },
+        {
+          "destination": [
+            23,
+            21,
+            17
+          ],
+          "donor": "STRcopy",
+          "source": [
+            105,
+            21
+          ],
+          "step_x": -1
+        },
+        {
+          "destination": [
+            40,
+            21,
+            24
+          ],
+          "donor": "STRcopy",
+          "source": [
+            80,
+            21
+          ],
+          "step_x": 0
+        },
+        {
+          "destination": [
+            24,
+            22,
+            16
+          ],
+          "donor": "STRcopy",
+          "source": [
+            104,
+            22
+          ],
+          "step_x": -1
+        },
+        {
+          "destination": [
+            40,
+            22,
+            24
+          ],
+          "donor": "STRcopy",
+          "source": [
+            80,
+            22
+          ],
+          "step_x": 0
+        },
+        {
+          "destination": [
+            25,
+            23,
+            11
+          ],
+          "donor": "STRcopy",
+          "source": [
+            103,
+            23
+          ],
+          "step_x": -1
+        },
+        {
+          "destination": [
+            52,
+            23,
+            12
+          ],
+          "donor": "STRcopy",
+          "source": [
+            80,
+            23
+          ],
+          "step_x": 0
+        },
+        {
+          "destination": [
+            28,
+            24,
+            4
+          ],
+          "donor": "STRcopy",
+          "source": [
+            100,
+            24
+          ],
+          "step_x": -1
+        },
+        {
+          "destination": [
+            30,
+            25,
+            2
+          ],
+          "donor": "STRcopy",
+          "source": [
+            98,
+            25
+          ],
+          "step_x": -1
+        }
+      ],
+      "patch": {
+        "path": "STRcopy-patch.png",
+        "sha256": "e59544196bf5c2a575ca04608a532ad0d249c10b3aa5f623bff870e2d80a88ae"
+      },
+      "result_rgba_sha256": "b5aadccb9c522e437da8c1e59dafc5935d200984322e195b31b00d462f65cf9f"
+    }
+  ]
+}

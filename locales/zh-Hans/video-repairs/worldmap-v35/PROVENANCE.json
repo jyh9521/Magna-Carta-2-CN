@@ -1,0 +1,3561 @@
+{
+  "schema_version": 1,
+  "kind": "worldmap-destination-sparse-temporal-art-provenance",
+  "scope": "11 ordinary WorldMap destination loops; not narrative postplot chapter titles",
+  "unique_movies": 11,
+  "physical_memberships": 16,
+  "frames_per_movie": 360,
+  "approved_font_family": "NotoSerifCJKsc-SemiBold",
+  "source_screen": {
+    "path": "locales/zh-Hans/video-captions/worldmap-v35/source-screen-2026-11-08.json",
+    "sha256": "e4cc4b59595dae7aa4c91ec666e15187dcf1ca0df9117e9fbfd981aa07035371"
+  },
+  "source_inventory": {
+    "path": "locales/zh-Hans/source-resources/worldmap-destination-movies.json",
+    "sha256": "e95dc6a314b86599a666109f7c491d19bc7d2180f4870037fdc8e9f1f8f51875"
+  },
+  "rebuild": "Normal caption build replays frozen source-guarded sparse per-frame PNG repairs, not a new neural inference. Frozen bytes govern repeatability; neural provenance records research/model production, not a promise of bit-identical re-inference on another GPU.",
+  "artistic_method": "Per-clip complete source glyph-body/outline support, sparse temporal RGB reconstruction, copyback only owned pixels, native compass/fan pixels outside mask retained; native measured Chinese serif height/anchor and source-normalized colour rows. No flat-fill bar, widened text cover or harmonic RGB interpolation.",
+  "limits": "Hidden original art is unknown. All-frame native bounded review and independent decode/audio checks are offline evidence, not game/user acceptance.",
+  "entries": [
+    {
+      "id": "worldmapmovie_01_village",
+      "source_member": "MC2Game/Movies/worldmapmovie_01_village.bik",
+      "source_sha256": "2d169ca638c89f615e16875d534ca692b09876b6c566f8295c27548d188cf7e7",
+      "discs": [
+        1
+      ],
+      "source_text": "높새바람 섬",
+      "text": "风息岛",
+      "frames": 360,
+      "plan": {
+        "path": "locales/zh-Hans/video-captions/worldmap-v35/worldmapmovie_01_village.json",
+        "sha256": "7fba71ec92f740aefb84154c4318540d10a939b476cfa772457f26f0032834dc"
+      },
+      "native_geometry": {
+        "basis": "Native strong stable glyph-body measured across360 source frames; parent independently approved this32px Chinese pilot as a1px optical adjustment to the33px native source.",
+        "source_ink_box": [
+          256,
+          345,
+          157,
+          33
+        ],
+        "Chinese_ink_box": [
+          256,
+          345,
+          300,
+          32
+        ],
+        "height_delta": -1,
+        "x_delta": 0,
+        "y_delta": 0,
+        "original_font_identity_recovered": false,
+        "natural_advance": true,
+        "width_stretch": false
+      },
+      "typography": {
+        "layout_box_semantics": "Chinese_ink_box is the native-positioned maximum render box, not a width-stretched foreground. Actual natural-advance glyph bounds are recorded separately below; outline margin and antialiasing are explicit.",
+        "target_foreground_alpha_gt0_bbox": [
+          257,
+          345,
+          100,
+          32
+        ],
+        "target_foreground_alpha_ge128_bbox": [
+          257,
+          345,
+          99,
+          32
+        ],
+        "target_effect_alpha_bbox": [
+          253,
+          341,
+          362,
+          383
+        ],
+        "font_size": 32,
+        "font": {
+          "path": "build/font-source/NotoSerifCJKsc-SemiBold.otf",
+          "sha256": "d627b53dbcde61e07de1498d2623a8b287f78585ffbc90cc0618d0caaa2ed6b0"
+        },
+        "appearance": {
+          "kind": "source-style-v1",
+          "ink_box": [
+            256,
+            345,
+            300,
+            32
+          ],
+          "align": "left",
+          "gradient": [
+            [
+              0,
+              [
+                253,
+                253,
+                251,
+                255
+              ]
+            ],
+            [
+              260,
+              [
+                249,
+                252,
+                235,
+                255
+              ]
+            ],
+            [
+              450,
+              [
+                232,
+                244,
+                175,
+                255
+              ]
+            ],
+            [
+              650,
+              [
+                212,
+                242,
+                119,
+                255
+              ]
+            ],
+            [
+              800,
+              [
+                195,
+                249,
+                127,
+                255
+              ]
+            ],
+            [
+              1000,
+              [
+                165,
+                251,
+                145,
+                255
+              ]
+            ]
+          ],
+          "outline": [
+            0,
+            0,
+            0,
+            235
+          ],
+          "outline_width": 1,
+          "glow": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "glow_radius": 0,
+          "shadow": [
+            0,
+            0,
+            0,
+            180
+          ],
+          "shadow_offset": [
+            1,
+            2
+          ],
+          "shadow_radius": 0.8,
+          "italic": 0,
+          "tracking": 1,
+          "weight": 0,
+          "motion": 0
+        }
+      },
+      "source_colour_measurements": [
+        {
+          "source_native_y": [
+            345,
+            351
+          ],
+          "opaque_mask_pixels": 39,
+          "median_RGB": [
+            253,
+            253,
+            251
+          ],
+          "gradient_position": 0
+        },
+        {
+          "source_native_y": [
+            351,
+            357
+          ],
+          "opaque_mask_pixels": 78,
+          "median_RGB": [
+            249,
+            252,
+            235
+          ],
+          "gradient_position": 260
+        },
+        {
+          "source_native_y": [
+            357,
+            363
+          ],
+          "opaque_mask_pixels": 90,
+          "median_RGB": [
+            232,
+            244,
+            175
+          ],
+          "gradient_position": 450
+        },
+        {
+          "source_native_y": [
+            363,
+            369
+          ],
+          "opaque_mask_pixels": 58,
+          "median_RGB": [
+            212,
+            242,
+            119
+          ],
+          "gradient_position": 650
+        },
+        {
+          "source_native_y": [
+            369,
+            374
+          ],
+          "opaque_mask_pixels": 19,
+          "median_RGB": [
+            195,
+            249,
+            127
+          ],
+          "gradient_position": 800
+        },
+        {
+          "source_native_y": [
+            374,
+            378
+          ],
+          "opaque_mask_pixels": 11,
+          "median_RGB": [
+            165,
+            251,
+            145
+          ],
+          "gradient_position": 1000
+        }
+      ],
+      "sparse_mask": {
+        "path": "locales/zh-Hans/video-repairs/worldmap-v35/masks/worldmapmovie_01_village.png",
+        "sha256": "54d4646af2b574fdf0e539f6a3c5138b66ffc93c2f50b9c526afab8bf01e1fa5",
+        "pixels_sha256": "68cc088fa8fb81b2cdee47688752c20befa84ff5eed647a6b4bf36a1acd24e1c",
+        "pixels": 6202
+      },
+      "model_provenance": {
+        "upstream_commit": "326782529a63d997cab80ab21439b92ed422b3d3",
+        "upstream_project": "https://github.com/sczhou/ProPainter",
+        "variant": "RGB image propagation with native PNG output and explicit finite-tensor guard before conversion; no feature-context overrides",
+        "crop": [
+          160,
+          232,
+          512,
+          256
+        ],
+        "parameters": {
+          "resize_ratio": 1.0,
+          "mask_dilation": 0,
+          "ref_stride": 10,
+          "neighbor_length": 6,
+          "subvideo_length": 40,
+          "raft_iter": 20,
+          "fp16": true
+        },
+        "weights": [
+          {
+            "file": "ProPainter.pth",
+            "size": 157780510,
+            "sha256": "12c070c4b48f374c91d8a2a17851140b85c159621080989f9e191bbc18bd6591"
+          },
+          {
+            "file": "raft-things.pth",
+            "size": 21108000,
+            "sha256": "fcfa4125d6418f4de95d84aec20a3c5f4e205101715a79f193243c186ac9a7e1"
+          },
+          {
+            "file": "recurrent_flow_completion.pth",
+            "size": 20348681,
+            "sha256": "22939a1a7900da878dbe1ccd011d646b1bfb30b8290039d8ff0e0c2fefbfd283"
+          }
+        ],
+        "finite_wrapper_sha256": "dad25af43087e1f8e53fe239071e59b67c6d41bdc58d85d1ada4d4449d305e66",
+        "native_inference_script_sha256": "88c73fcdaa35dd6d51e6281bccd6058832dcbf6b9f27fb38126f0625d4b34850",
+        "frozen_model_run_receipt": {
+          "path": "build/phase-365-worldmap-v35/VILLAGE_FINITE_REPLAY.json",
+          "sha256": "fdbaefedf8576f3a946eaa04ed9d6b63448cc52da481e61b730049e48d76a7dd"
+        },
+        "source_profile": {
+          "path": "build/phase-363-worldmap-clean-source/propainter-village-inputs.json",
+          "sha256": "54f1a491a816e2f3cb47308c7dd9c4c224f217b85a8c55c8f263158dcdaffab2"
+        },
+        "correction": null,
+        "evidence_only_build_paths_not_runtime_dependencies": true
+      },
+      "raw_native_review": {
+        "path": "build/phase-365-worldmap-v35/VILLAGE_RAW_NATIVE_QA.json",
+        "sha256": "4b6527ae73438839a228322a6a94fdea26f171623b20dcd3ab5cb9f0d01f5cd6"
+      },
+      "limits": {
+        "original_font_identity_recovered": false,
+        "original_hidden_RGB_ground_truth_recovered": false,
+        "unowned_source_RGB_exact_before_encode": true,
+        "lossy_encoded_background_exact_claimed": false,
+        "game_or_user_acceptance_claimed": false
+      }
+    },
+    {
+      "id": "worldmapmovie_02_abazet",
+      "source_member": "MC2Game/Movies/worldmapmovie_02_abazet.bik",
+      "source_sha256": "340509f3b807f6b8b1f9e36bb58497e5940801ea4ccc35d83d0abdc378cfc31f",
+      "discs": [
+        1,
+        2
+      ],
+      "source_text": "아바젯",
+      "text": "阿巴泽特",
+      "frames": 360,
+      "plan": {
+        "path": "locales/zh-Hans/video-captions/worldmap-v35/worldmapmovie_02_abazet.native-geometry-r2.json",
+        "sha256": "6e26c4db7663016f834b145df6ace727450e4c2e67a7a91d59513b7afff57e0e"
+      },
+      "native_geometry": {
+        "basis": "Measured strong stable original glyph-body support plus separately source-verified dim components; outline/glow are not the ink-height reference.",
+        "source_ink_box": [
+          256,
+          348,
+          111,
+          31
+        ],
+        "Chinese_ink_box": [
+          256,
+          348,
+          300,
+          31
+        ],
+        "height_delta": 0,
+        "x_delta": 0,
+        "y_delta": 0,
+        "original_font_identity_recovered": false,
+        "natural_advance": true,
+        "width_stretch": false
+      },
+      "typography": {
+        "layout_box_semantics": "Chinese_ink_box is the native-positioned maximum render box, not a width-stretched foreground. Actual natural-advance glyph bounds are recorded separately below; outline margin and antialiasing are explicit.",
+        "target_foreground_alpha_gt0_bbox": [
+          257,
+          348,
+          131,
+          31
+        ],
+        "target_foreground_alpha_ge128_bbox": [
+          257,
+          348,
+          131,
+          31
+        ],
+        "target_effect_alpha_bbox": [
+          253,
+          344,
+          393,
+          385
+        ],
+        "font_size": 32,
+        "font": {
+          "path": "build/font-source/NotoSerifCJKsc-SemiBold.otf",
+          "sha256": "d627b53dbcde61e07de1498d2623a8b287f78585ffbc90cc0618d0caaa2ed6b0"
+        },
+        "appearance": {
+          "kind": "source-style-v1",
+          "ink_box": [
+            256,
+            348,
+            300,
+            31
+          ],
+          "align": "left",
+          "gradient": [
+            [
+              0,
+              [
+                251,
+                248,
+                227,
+                255
+              ]
+            ],
+            [
+              260,
+              [
+                248,
+                242,
+                188,
+                255
+              ]
+            ],
+            [
+              450,
+              [
+                250,
+                238,
+                149,
+                255
+              ]
+            ],
+            [
+              650,
+              [
+                250,
+                224,
+                91,
+                255
+              ]
+            ],
+            [
+              800,
+              [
+                233,
+                181,
+                39,
+                255
+              ]
+            ],
+            [
+              1000,
+              [
+                207,
+                143,
+                27,
+                255
+              ]
+            ]
+          ],
+          "outline": [
+            0,
+            0,
+            0,
+            235
+          ],
+          "outline_width": 1,
+          "glow": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "glow_radius": 0,
+          "shadow": [
+            0,
+            0,
+            0,
+            180
+          ],
+          "shadow_offset": [
+            1,
+            2
+          ],
+          "shadow_radius": 0.8,
+          "italic": 0,
+          "tracking": 1,
+          "weight": 0,
+          "motion": 0
+        }
+      },
+      "source_colour_measurements": [
+        {
+          "source_native_y": [
+            348,
+            354
+          ],
+          "pixels": 25,
+          "method": "opaque-core-eroded1px",
+          "median_RGB": [
+            251,
+            248,
+            227
+          ],
+          "gradient_position": 0
+        },
+        {
+          "source_native_y": [
+            354,
+            359
+          ],
+          "pixels": 38,
+          "method": "opaque-core-eroded1px",
+          "median_RGB": [
+            248,
+            242,
+            188
+          ],
+          "gradient_position": 260
+        },
+        {
+          "source_native_y": [
+            359,
+            365
+          ],
+          "pixels": 32,
+          "method": "opaque-core-eroded1px",
+          "median_RGB": [
+            250,
+            238,
+            149
+          ],
+          "gradient_position": 450
+        },
+        {
+          "source_native_y": [
+            365,
+            371
+          ],
+          "pixels": 10,
+          "method": "opaque-core-eroded1px",
+          "median_RGB": [
+            250,
+            224,
+            91
+          ],
+          "gradient_position": 650
+        },
+        {
+          "source_native_y": [
+            371,
+            375
+          ],
+          "pixels": 1,
+          "method": "opaque-core-eroded1px",
+          "median_RGB": [
+            233,
+            181,
+            39
+          ],
+          "gradient_position": 800
+        },
+        {
+          "source_native_y": [
+            375,
+            379
+          ],
+          "pixels": 28,
+          "method": "source-stable-core (no eroded pixels in these rows)",
+          "median_RGB": [
+            207,
+            143,
+            27
+          ],
+          "gradient_position": 1000
+        }
+      ],
+      "sparse_mask": {
+        "path": "locales/zh-Hans/video-repairs/worldmap-v35/masks/worldmapmovie_02_abazet.png",
+        "sha256": "3bd0bea8c190227bcbbe9e6a64dc4d9a2e4c188d92784b76b21d06cb2c8e1ebc",
+        "pixels_sha256": "695363b423ab8da2505bfac1b72b4f0b535f360ef23f1aeffdf947a6acf2cf36",
+        "pixels": 3952
+      },
+      "model_provenance": {
+        "upstream_commit": "326782529a63d997cab80ab21439b92ed422b3d3",
+        "upstream_project": "https://github.com/sczhou/ProPainter",
+        "variant": "RGB image propagation with native PNG output and explicit finite-tensor guard before conversion; no feature-context overrides",
+        "crop": [
+          160,
+          232,
+          512,
+          256
+        ],
+        "parameters": {
+          "resize_ratio": 1.0,
+          "mask_dilation": 0,
+          "ref_stride": 10,
+          "neighbor_length": 6,
+          "subvideo_length": 40,
+          "raft_iter": 20,
+          "fp16": true
+        },
+        "weights": [
+          {
+            "file": "ProPainter.pth",
+            "size": 157780510,
+            "sha256": "12c070c4b48f374c91d8a2a17851140b85c159621080989f9e191bbc18bd6591"
+          },
+          {
+            "file": "raft-things.pth",
+            "size": 21108000,
+            "sha256": "fcfa4125d6418f4de95d84aec20a3c5f4e205101715a79f193243c186ac9a7e1"
+          },
+          {
+            "file": "recurrent_flow_completion.pth",
+            "size": 20348681,
+            "sha256": "22939a1a7900da878dbe1ccd011d646b1bfb30b8290039d8ff0e0c2fefbfd283"
+          }
+        ],
+        "finite_wrapper_sha256": "dad25af43087e1f8e53fe239071e59b67c6d41bdc58d85d1ada4d4449d305e66",
+        "native_inference_script_sha256": "88c73fcdaa35dd6d51e6281bccd6058832dcbf6b9f27fb38126f0625d4b34850",
+        "frozen_model_run_receipt": {
+          "path": "build/phase-365-worldmap-v35/models/worldmapmovie_02_abazet/RESULT.json",
+          "sha256": "107a47c092dff953dfdde7fa0f73b20e5ea3818e1265a29a698f79ddf01e1e0a"
+        },
+        "source_profile": {
+          "path": "build/phase-365-worldmap-v35/models/worldmapmovie_02_abazet/INPUTS.json",
+          "sha256": "c825516b805fc2c805e9b95ffdb7bfc3bb431d7469f2c274718c59bd66d3850c"
+        },
+        "correction": null,
+        "evidence_only_build_paths_not_runtime_dependencies": true
+      },
+      "raw_native_review": {
+        "path": "build/phase-365-worldmap-v35/raw-qa-native-geometry/worldmapmovie_02_abazet/RAW_QA.json",
+        "sha256": "e9163858f0029e83051cab838924b394cd7ec345b4cef7f2ec494348db0b5a64"
+      },
+      "limits": {
+        "original_font_identity_recovered": false,
+        "original_hidden_RGB_ground_truth_recovered": false,
+        "unowned_source_RGB_exact_before_encode": true,
+        "lossy_encoded_background_exact_claimed": false,
+        "game_or_user_acceptance_claimed": false
+      }
+    },
+    {
+      "id": "worldmapmovie_03_oldfox",
+      "source_member": "MC2Game/Movies/worldmapmovie_03_oldfox.bik",
+      "source_sha256": "99e30e219db32de5fd39076caff9f5fde3767ce367d85b406edb8f5497fc1847",
+      "discs": [
+        1,
+        2
+      ],
+      "source_text": "늙은 여우 협곡",
+      "text": "老狐峡谷",
+      "frames": 360,
+      "plan": {
+        "path": "locales/zh-Hans/video-captions/worldmap-v35/worldmapmovie_03_oldfox.json",
+        "sha256": "ca3c99939cce656dbe98824daa4523049e43ec1ac7c5b7b1900d6408c9458189"
+      },
+      "native_geometry": {
+        "basis": "Measured strong stable original glyph-body support plus separately source-verified dim components; outline/glow are not the ink-height reference.",
+        "source_ink_box": [
+          256,
+          344,
+          199,
+          32
+        ],
+        "Chinese_ink_box": [
+          256,
+          344,
+          300,
+          32
+        ],
+        "height_delta": 0,
+        "x_delta": 0,
+        "y_delta": 0,
+        "original_font_identity_recovered": false,
+        "natural_advance": true,
+        "width_stretch": false
+      },
+      "typography": {
+        "layout_box_semantics": "Chinese_ink_box is the native-positioned maximum render box, not a width-stretched foreground. Actual natural-advance glyph bounds are recorded separately below; outline margin and antialiasing are explicit.",
+        "target_foreground_alpha_gt0_bbox": [
+          257,
+          344,
+          136,
+          32
+        ],
+        "target_foreground_alpha_ge128_bbox": [
+          258,
+          344,
+          135,
+          32
+        ],
+        "target_effect_alpha_bbox": [
+          253,
+          340,
+          398,
+          382
+        ],
+        "font_size": 32,
+        "font": {
+          "path": "build/font-source/NotoSerifCJKsc-SemiBold.otf",
+          "sha256": "d627b53dbcde61e07de1498d2623a8b287f78585ffbc90cc0618d0caaa2ed6b0"
+        },
+        "appearance": {
+          "kind": "source-style-v1",
+          "ink_box": [
+            256,
+            344,
+            300,
+            32
+          ],
+          "align": "left",
+          "gradient": [
+            [
+              0,
+              [
+                248,
+                242,
+                231,
+                255
+              ]
+            ],
+            [
+              260,
+              [
+                246,
+                235,
+                199,
+                255
+              ]
+            ],
+            [
+              450,
+              [
+                250,
+                220,
+                140,
+                255
+              ]
+            ],
+            [
+              650,
+              [
+                244,
+                194,
+                95,
+                255
+              ]
+            ],
+            [
+              800,
+              [
+                235,
+                170,
+                63,
+                255
+              ]
+            ],
+            [
+              1000,
+              [
+                197,
+                105,
+                21,
+                255
+              ]
+            ]
+          ],
+          "outline": [
+            0,
+            0,
+            0,
+            235
+          ],
+          "outline_width": 1,
+          "glow": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "glow_radius": 0,
+          "shadow": [
+            0,
+            0,
+            0,
+            180
+          ],
+          "shadow_offset": [
+            1,
+            2
+          ],
+          "shadow_radius": 0.8,
+          "italic": 0,
+          "tracking": 1,
+          "weight": 0,
+          "motion": 0
+        }
+      },
+      "source_colour_measurements": [
+        {
+          "source_native_y": [
+            344,
+            350
+          ],
+          "pixels": 20,
+          "method": "opaque-core-eroded1px",
+          "median_RGB": [
+            248,
+            242,
+            231
+          ],
+          "gradient_position": 0
+        },
+        {
+          "source_native_y": [
+            350,
+            356
+          ],
+          "pixels": 55,
+          "method": "opaque-core-eroded1px",
+          "median_RGB": [
+            246,
+            235,
+            199
+          ],
+          "gradient_position": 260
+        },
+        {
+          "source_native_y": [
+            356,
+            362
+          ],
+          "pixels": 17,
+          "method": "opaque-core-eroded1px",
+          "median_RGB": [
+            250,
+            220,
+            140
+          ],
+          "gradient_position": 450
+        },
+        {
+          "source_native_y": [
+            362,
+            367
+          ],
+          "pixels": 4,
+          "method": "opaque-core-eroded1px",
+          "median_RGB": [
+            244,
+            194,
+            95
+          ],
+          "gradient_position": 650
+        },
+        {
+          "source_native_y": [
+            367,
+            372
+          ],
+          "pixels": 1,
+          "method": "opaque-core-eroded1px",
+          "median_RGB": [
+            235,
+            170,
+            63
+          ],
+          "gradient_position": 800
+        },
+        {
+          "source_native_y": [
+            372,
+            376
+          ],
+          "pixels": 56,
+          "method": "source-stable-core (no eroded pixels in these rows)",
+          "median_RGB": [
+            197,
+            105,
+            21
+          ],
+          "gradient_position": 1000
+        }
+      ],
+      "sparse_mask": {
+        "path": "locales/zh-Hans/video-repairs/worldmap-v35/masks/worldmapmovie_03_oldfox.png",
+        "sha256": "fde43052a49c6eb1c53dd1e59d2f671e55c9c8a61f077d17f5827de45c328133",
+        "pixels_sha256": "9fd1bb6effc3940a8386c62a87fc598d48e79a54ac91c831889603aecb01bdcc",
+        "pixels": 7077
+      },
+      "model_provenance": {
+        "upstream_commit": "326782529a63d997cab80ab21439b92ed422b3d3",
+        "upstream_project": "https://github.com/sczhou/ProPainter",
+        "variant": "RGB image propagation with native PNG output and explicit finite-tensor guard before conversion; no feature-context overrides",
+        "crop": [
+          160,
+          232,
+          512,
+          256
+        ],
+        "parameters": {
+          "resize_ratio": 1.0,
+          "mask_dilation": 0,
+          "ref_stride": 10,
+          "neighbor_length": 6,
+          "subvideo_length": 40,
+          "raft_iter": 20,
+          "fp16": true
+        },
+        "weights": [
+          {
+            "file": "ProPainter.pth",
+            "size": 157780510,
+            "sha256": "12c070c4b48f374c91d8a2a17851140b85c159621080989f9e191bbc18bd6591"
+          },
+          {
+            "file": "raft-things.pth",
+            "size": 21108000,
+            "sha256": "fcfa4125d6418f4de95d84aec20a3c5f4e205101715a79f193243c186ac9a7e1"
+          },
+          {
+            "file": "recurrent_flow_completion.pth",
+            "size": 20348681,
+            "sha256": "22939a1a7900da878dbe1ccd011d646b1bfb30b8290039d8ff0e0c2fefbfd283"
+          }
+        ],
+        "finite_wrapper_sha256": "dad25af43087e1f8e53fe239071e59b67c6d41bdc58d85d1ada4d4449d305e66",
+        "native_inference_script_sha256": "88c73fcdaa35dd6d51e6281bccd6058832dcbf6b9f27fb38126f0625d4b34850",
+        "frozen_model_run_receipt": {
+          "path": "build/phase-365-worldmap-v35/models-corrections-r2/worldmapmovie_03_oldfox/RESULT.json",
+          "sha256": "47bfc5e5275b6c38ea111876171a976922094edd78f8f525f816e210e2024602"
+        },
+        "source_profile": {
+          "path": "build/phase-365-worldmap-v35/models-corrections-r2/worldmapmovie_03_oldfox/INPUTS.json",
+          "sha256": "04ad827a320f8cead1a048aee884db5c43a12b18c4d7d4abedc7467522747faa"
+        },
+        "correction": {
+          "reason": "A second source lower bar below first 늙 was not declared core: source x266..269/y374–375 has RGBmean≈98; its dark red taper at269,377 is outside the previous6px union. The first bar is source-proven, not a fan feature.",
+          "source_body_region": [
+            261,
+            374,
+            11,
+            2
+          ],
+          "selected_source_body_points": [
+            [
+              262,
+              374
+            ],
+            [
+              263,
+              374
+            ],
+            [
+              264,
+              374
+            ],
+            [
+              265,
+              374
+            ],
+            [
+              266,
+              374
+            ],
+            [
+              267,
+              374
+            ],
+            [
+              268,
+              374
+            ],
+            [
+              269,
+              374
+            ],
+            [
+              262,
+              375
+            ],
+            [
+              263,
+              375
+            ],
+            [
+              264,
+              375
+            ],
+            [
+              265,
+              375
+            ],
+            [
+              266,
+              375
+            ],
+            [
+              267,
+              375
+            ],
+            [
+              268,
+              375
+            ],
+            [
+              269,
+              375
+            ]
+          ],
+          "selected_body_pixels": 16,
+          "source_fringe_point": [
+            269,
+            377
+          ],
+          "framewise_fringe_min_red_minus_green": 21,
+          "framewise_fringe_min_red_minus_blue": 22,
+          "shadow_glow_dilation": 6,
+          "original_owned_pixels": 7047,
+          "added_owned_pixels": 30,
+          "final_owned_pixels": 7077,
+          "previous_rejected_input": {
+            "path": "build/phase-365-worldmap-v35/models-corrections/worldmapmovie_03_oldfox/INPUTS.json",
+            "sha256": "01cec76463ffeee58bada05feb9d6e482998d37b13b15f6aa398a7ab9ab9fcbc"
+          },
+          "previous_rejected_result": {
+            "path": "build/phase-365-worldmap-v35/models-corrections/worldmapmovie_03_oldfox/RESULT.json",
+            "sha256": "3f7ff8a7e60de8198fa1954c08c4c3cfa4ea547cefd079e4a8ebedd67da21f9b"
+          },
+          "previous_correction": {
+            "reason": "Source Korean lower stroke at x301..307/y374..375 has RGBmean≈102, so fixed110 brightness seed omitted it.",
+            "source_audit_sha256": "48530ea37e491ef94ea751ca8a8a91b323af89d65061aad490579f1a22f32c95",
+            "source_dim_seed_png_sha256": "36363314e82d4e0266a4cb6fa66e9be8b902f0d1c1bc24e37f107bcba5a105f9",
+            "source_dim_core_pixels": 14,
+            "shadow_glow_dilation": 6,
+            "added_owned_pixels": 175,
+            "original_owned_pixels": 6872,
+            "final_owned_pixels": 7047,
+            "original_failed_model_and_clean_preserved": true
+          },
+          "old_failed_models_and_native_sheets_preserved": true,
+          "geometry_note": "Only actual coloured body joins glyph height; red shadow point does not enlarge the Chinese title."
+        },
+        "evidence_only_build_paths_not_runtime_dependencies": true
+      },
+      "raw_native_review": {
+        "path": "build/phase-365-worldmap-v35/raw-qa-corrected-r2/worldmapmovie_03_oldfox/RAW_QA.json",
+        "sha256": "4adccff308391d4b1f83af2dd0f1a8e445235fb98c2791966b2ea74225a374a8"
+      },
+      "limits": {
+        "original_font_identity_recovered": false,
+        "original_hidden_RGB_ground_truth_recovered": false,
+        "unowned_source_RGB_exact_before_encode": true,
+        "lossy_encoded_background_exact_claimed": false,
+        "game_or_user_acceptance_claimed": false
+      }
+    },
+    {
+      "id": "worldmapmovie_04_kotamare",
+      "source_member": "MC2Game/Movies/worldmapmovie_04_kotamare.bik",
+      "source_sha256": "85ee0f595a267b65a7f9d7b3358ecd248e3123b1de74b8cb741b29ba26f2f030",
+      "discs": [
+        1,
+        2
+      ],
+      "source_text": "코타마레",
+      "text": "柯塔马雷",
+      "frames": 360,
+      "plan": {
+        "path": "locales/zh-Hans/video-captions/worldmap-v35/worldmapmovie_04_kotamare.json",
+        "sha256": "f7991faec9202cbcf4856b144ffdcac30661dc6bb38e63b36ec78757a94aba2b"
+      },
+      "native_geometry": {
+        "basis": "Measured strong stable original glyph-body support plus separately source-verified dim components; outline/glow are not the ink-height reference.",
+        "source_ink_box": [
+          259,
+          344,
+          122,
+          31
+        ],
+        "Chinese_ink_box": [
+          259,
+          344,
+          300,
+          31
+        ],
+        "height_delta": 0,
+        "x_delta": 0,
+        "y_delta": 0,
+        "original_font_identity_recovered": false,
+        "natural_advance": true,
+        "width_stretch": false
+      },
+      "typography": {
+        "layout_box_semantics": "Chinese_ink_box is the native-positioned maximum render box, not a width-stretched foreground. Actual natural-advance glyph bounds are recorded separately below; outline margin and antialiasing are explicit.",
+        "target_foreground_alpha_gt0_bbox": [
+          260,
+          344,
+          134,
+          31
+        ],
+        "target_foreground_alpha_ge128_bbox": [
+          260,
+          344,
+          134,
+          31
+        ],
+        "target_effect_alpha_bbox": [
+          256,
+          340,
+          399,
+          381
+        ],
+        "font_size": 32,
+        "font": {
+          "path": "build/font-source/NotoSerifCJKsc-SemiBold.otf",
+          "sha256": "d627b53dbcde61e07de1498d2623a8b287f78585ffbc90cc0618d0caaa2ed6b0"
+        },
+        "appearance": {
+          "kind": "source-style-v1",
+          "ink_box": [
+            259,
+            344,
+            300,
+            31
+          ],
+          "align": "left",
+          "gradient": [
+            [
+              0,
+              [
+                246,
+                246,
+                246,
+                255
+              ]
+            ],
+            [
+              260,
+              [
+                244,
+                244,
+                245,
+                255
+              ]
+            ],
+            [
+              450,
+              [
+                234,
+                243,
+                238,
+                255
+              ]
+            ],
+            [
+              650,
+              [
+                164,
+                250,
+                208,
+                255
+              ]
+            ],
+            [
+              800,
+              [
+                122,
+                246,
+                197,
+                255
+              ]
+            ],
+            [
+              1000,
+              [
+                146,
+                201,
+                202,
+                255
+              ]
+            ]
+          ],
+          "outline": [
+            0,
+            0,
+            0,
+            235
+          ],
+          "outline_width": 1,
+          "glow": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "glow_radius": 0,
+          "shadow": [
+            0,
+            0,
+            0,
+            180
+          ],
+          "shadow_offset": [
+            1,
+            2
+          ],
+          "shadow_radius": 0.8,
+          "italic": 0,
+          "tracking": 1,
+          "weight": 0,
+          "motion": 0
+        }
+      },
+      "source_colour_measurements": [
+        {
+          "source_native_y": [
+            344,
+            350
+          ],
+          "pixels": 17,
+          "method": "opaque-core-eroded1px",
+          "median_RGB": [
+            246,
+            246,
+            246
+          ],
+          "gradient_position": 0
+        },
+        {
+          "source_native_y": [
+            350,
+            355
+          ],
+          "pixels": 56,
+          "method": "opaque-core-eroded1px",
+          "median_RGB": [
+            244,
+            244,
+            245
+          ],
+          "gradient_position": 260
+        },
+        {
+          "source_native_y": [
+            355,
+            361
+          ],
+          "pixels": 59,
+          "method": "opaque-core-eroded1px",
+          "median_RGB": [
+            234,
+            243,
+            238
+          ],
+          "gradient_position": 450
+        },
+        {
+          "source_native_y": [
+            361,
+            367
+          ],
+          "pixels": 10,
+          "method": "opaque-core-eroded1px",
+          "median_RGB": [
+            164,
+            250,
+            208
+          ],
+          "gradient_position": 650
+        },
+        {
+          "source_native_y": [
+            367,
+            371
+          ],
+          "pixels": 1,
+          "method": "opaque-core-eroded1px",
+          "median_RGB": [
+            122,
+            246,
+            197
+          ],
+          "gradient_position": 800
+        },
+        {
+          "source_native_y": [
+            371,
+            375
+          ],
+          "pixels": 25,
+          "method": "source-stable-core (no eroded pixels in these rows)",
+          "median_RGB": [
+            146,
+            201,
+            202
+          ],
+          "gradient_position": 1000
+        }
+      ],
+      "sparse_mask": {
+        "path": "locales/zh-Hans/video-repairs/worldmap-v35/masks/worldmapmovie_04_kotamare.png",
+        "sha256": "f86b87791dc04b3379948e4a682381660fdcac470bc7c63033d989b5adfc8041",
+        "pixels_sha256": "5fc79de00c71e21469652ae75d8773539421dcda70258ff15c8b9faaffe8abb0",
+        "pixels": 4629
+      },
+      "model_provenance": {
+        "upstream_commit": "326782529a63d997cab80ab21439b92ed422b3d3",
+        "upstream_project": "https://github.com/sczhou/ProPainter",
+        "variant": "RGB image propagation with native PNG output and explicit finite-tensor guard before conversion; no feature-context overrides",
+        "crop": [
+          160,
+          232,
+          512,
+          256
+        ],
+        "parameters": {
+          "resize_ratio": 1.0,
+          "mask_dilation": 0,
+          "ref_stride": 10,
+          "neighbor_length": 6,
+          "subvideo_length": 40,
+          "raft_iter": 20,
+          "fp16": true
+        },
+        "weights": [
+          {
+            "file": "ProPainter.pth",
+            "size": 157780510,
+            "sha256": "12c070c4b48f374c91d8a2a17851140b85c159621080989f9e191bbc18bd6591"
+          },
+          {
+            "file": "raft-things.pth",
+            "size": 21108000,
+            "sha256": "fcfa4125d6418f4de95d84aec20a3c5f4e205101715a79f193243c186ac9a7e1"
+          },
+          {
+            "file": "recurrent_flow_completion.pth",
+            "size": 20348681,
+            "sha256": "22939a1a7900da878dbe1ccd011d646b1bfb30b8290039d8ff0e0c2fefbfd283"
+          }
+        ],
+        "finite_wrapper_sha256": "dad25af43087e1f8e53fe239071e59b67c6d41bdc58d85d1ada4d4449d305e66",
+        "native_inference_script_sha256": "88c73fcdaa35dd6d51e6281bccd6058832dcbf6b9f27fb38126f0625d4b34850",
+        "frozen_model_run_receipt": {
+          "path": "build/phase-365-worldmap-v35/models/worldmapmovie_04_kotamare/RESULT.json",
+          "sha256": "1d0f1f4d0857c350c5f68b37f4ea22daab08f00e48d0e7ed703339c904364904"
+        },
+        "source_profile": {
+          "path": "build/phase-365-worldmap-v35/models/worldmapmovie_04_kotamare/INPUTS.json",
+          "sha256": "079b2b8184c0212e89f490d30a827f87221be633a204582476f5a346a4130968"
+        },
+        "correction": null,
+        "evidence_only_build_paths_not_runtime_dependencies": true
+      },
+      "raw_native_review": {
+        "path": "build/phase-365-worldmap-v35/raw-qa-native-geometry/worldmapmovie_04_kotamare/RAW_QA.json",
+        "sha256": "15bbc220dfd82dee7eec2cb17c32d29ddc10fa463c639c4ed90b6e2752597ea3"
+      },
+      "limits": {
+        "original_font_identity_recovered": false,
+        "original_hidden_RGB_ground_truth_recovered": false,
+        "unowned_source_RGB_exact_before_encode": true,
+        "lossy_encoded_background_exact_claimed": false,
+        "game_or_user_acceptance_claimed": false
+      }
+    },
+    {
+      "id": "worldmapmovie_05_ucave",
+      "source_member": "MC2Game/Movies/worldmapmovie_05_ucave.bik",
+      "source_sha256": "4f2f993c038450bcc4d826f4225cefcdffb03cf66552bc78e294dbd92adc210e",
+      "discs": [
+        1,
+        2
+      ],
+      "source_text": "해저 동굴",
+      "text": "海底洞窟",
+      "frames": 360,
+      "plan": {
+        "path": "locales/zh-Hans/video-captions/worldmap-v35/worldmapmovie_05_ucave.json",
+        "sha256": "8f2a21b09050a8380f0be8f69cbb66695894c3325f13b88f228686df046a24b8"
+      },
+      "native_geometry": {
+        "basis": "Measured strong stable original glyph-body support plus separately source-verified dim components; outline/glow are not the ink-height reference.",
+        "source_ink_box": [
+          255,
+          344,
+          137,
+          33
+        ],
+        "Chinese_ink_box": [
+          255,
+          344,
+          300,
+          33
+        ],
+        "height_delta": 0,
+        "x_delta": 0,
+        "y_delta": 0,
+        "original_font_identity_recovered": false,
+        "natural_advance": true,
+        "width_stretch": false
+      },
+      "typography": {
+        "layout_box_semantics": "Chinese_ink_box is the native-positioned maximum render box, not a width-stretched foreground. Actual natural-advance glyph bounds are recorded separately below; outline margin and antialiasing are explicit.",
+        "target_foreground_alpha_gt0_bbox": [
+          256,
+          344,
+          140,
+          33
+        ],
+        "target_foreground_alpha_ge128_bbox": [
+          257,
+          344,
+          139,
+          33
+        ],
+        "target_effect_alpha_bbox": [
+          252,
+          340,
+          401,
+          383
+        ],
+        "font_size": 32,
+        "font": {
+          "path": "build/font-source/NotoSerifCJKsc-SemiBold.otf",
+          "sha256": "d627b53dbcde61e07de1498d2623a8b287f78585ffbc90cc0618d0caaa2ed6b0"
+        },
+        "appearance": {
+          "kind": "source-style-v1",
+          "ink_box": [
+            255,
+            344,
+            300,
+            33
+          ],
+          "align": "left",
+          "gradient": [
+            [
+              0,
+              [
+                246,
+                246,
+                248,
+                255
+              ]
+            ],
+            [
+              260,
+              [
+                244,
+                244,
+                250,
+                255
+              ]
+            ],
+            [
+              450,
+              [
+                198,
+                188,
+                229,
+                255
+              ]
+            ],
+            [
+              650,
+              [
+                140,
+                124,
+                203,
+                255
+              ]
+            ],
+            [
+              800,
+              [
+                159,
+                187,
+                239,
+                255
+              ]
+            ],
+            [
+              1000,
+              [
+                170,
+                210,
+                248,
+                255
+              ]
+            ]
+          ],
+          "outline": [
+            0,
+            0,
+            0,
+            235
+          ],
+          "outline_width": 1,
+          "glow": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "glow_radius": 0,
+          "shadow": [
+            0,
+            0,
+            0,
+            180
+          ],
+          "shadow_offset": [
+            1,
+            2
+          ],
+          "shadow_radius": 0.8,
+          "italic": 0,
+          "tracking": 1,
+          "weight": 0,
+          "motion": 0
+        }
+      },
+      "source_colour_measurements": [
+        {
+          "source_native_y": [
+            344,
+            350
+          ],
+          "pixels": 48,
+          "method": "opaque-core-eroded1px",
+          "median_RGB": [
+            246,
+            246,
+            248
+          ],
+          "gradient_position": 0
+        },
+        {
+          "source_native_y": [
+            350,
+            356
+          ],
+          "pixels": 45,
+          "method": "opaque-core-eroded1px",
+          "median_RGB": [
+            244,
+            244,
+            250
+          ],
+          "gradient_position": 260
+        },
+        {
+          "source_native_y": [
+            356,
+            362
+          ],
+          "pixels": 26,
+          "method": "opaque-core-eroded1px",
+          "median_RGB": [
+            198,
+            188,
+            229
+          ],
+          "gradient_position": 450
+        },
+        {
+          "source_native_y": [
+            362,
+            368
+          ],
+          "pixels": 9,
+          "method": "opaque-core-eroded1px",
+          "median_RGB": [
+            140,
+            124,
+            203
+          ],
+          "gradient_position": 650
+        },
+        {
+          "source_native_y": [
+            368,
+            373
+          ],
+          "pixels": 15,
+          "method": "opaque-core-eroded1px",
+          "median_RGB": [
+            159,
+            187,
+            239
+          ],
+          "gradient_position": 800
+        },
+        {
+          "source_native_y": [
+            373,
+            377
+          ],
+          "pixels": 4,
+          "method": "opaque-core-eroded1px",
+          "median_RGB": [
+            170,
+            210,
+            248
+          ],
+          "gradient_position": 1000
+        }
+      ],
+      "sparse_mask": {
+        "path": "locales/zh-Hans/video-repairs/worldmap-v35/masks/worldmapmovie_05_ucave.png",
+        "sha256": "67b6be4b255bf33e525d6329e1a4c3ec855d89f2aabe22962038f32768505b17",
+        "pixels_sha256": "03f7d2796cd037d544aac9a91833edaff888c8db44c914f46980f639d6adbeb2",
+        "pixels": 5072
+      },
+      "model_provenance": {
+        "upstream_commit": "326782529a63d997cab80ab21439b92ed422b3d3",
+        "upstream_project": "https://github.com/sczhou/ProPainter",
+        "variant": "RGB image propagation with native PNG output and explicit finite-tensor guard before conversion; no feature-context overrides",
+        "crop": [
+          160,
+          232,
+          512,
+          256
+        ],
+        "parameters": {
+          "resize_ratio": 1.0,
+          "mask_dilation": 0,
+          "ref_stride": 10,
+          "neighbor_length": 6,
+          "subvideo_length": 40,
+          "raft_iter": 20,
+          "fp16": true
+        },
+        "weights": [
+          {
+            "file": "ProPainter.pth",
+            "size": 157780510,
+            "sha256": "12c070c4b48f374c91d8a2a17851140b85c159621080989f9e191bbc18bd6591"
+          },
+          {
+            "file": "raft-things.pth",
+            "size": 21108000,
+            "sha256": "fcfa4125d6418f4de95d84aec20a3c5f4e205101715a79f193243c186ac9a7e1"
+          },
+          {
+            "file": "recurrent_flow_completion.pth",
+            "size": 20348681,
+            "sha256": "22939a1a7900da878dbe1ccd011d646b1bfb30b8290039d8ff0e0c2fefbfd283"
+          }
+        ],
+        "finite_wrapper_sha256": "dad25af43087e1f8e53fe239071e59b67c6d41bdc58d85d1ada4d4449d305e66",
+        "native_inference_script_sha256": "88c73fcdaa35dd6d51e6281bccd6058832dcbf6b9f27fb38126f0625d4b34850",
+        "frozen_model_run_receipt": {
+          "path": "build/phase-365-worldmap-v35/models/worldmapmovie_05_ucave/RESULT.json",
+          "sha256": "bd65cbb6d53c10dd5f4e15eacafa366e7927c0304b4ea0731ace25b9801cefcd"
+        },
+        "source_profile": {
+          "path": "build/phase-365-worldmap-v35/models/worldmapmovie_05_ucave/INPUTS.json",
+          "sha256": "3b28e556004ad3dd1a70823aa1d0b62a46865285ee2b07dca84f7a9e16e32d9d"
+        },
+        "correction": null,
+        "evidence_only_build_paths_not_runtime_dependencies": true
+      },
+      "raw_native_review": {
+        "path": "build/phase-365-worldmap-v35/raw-qa-native-geometry/worldmapmovie_05_ucave/RAW_QA.json",
+        "sha256": "1f0605e3a169e2cd9c9b8ab9246a8d4f442d3f70654260add2ebef5ef1829c05"
+      },
+      "limits": {
+        "original_font_identity_recovered": false,
+        "original_hidden_RGB_ground_truth_recovered": false,
+        "unowned_source_RGB_exact_before_encode": true,
+        "lossy_encoded_background_exact_claimed": false,
+        "game_or_user_acceptance_claimed": false
+      }
+    },
+    {
+      "id": "worldmapmovie_06_dunan",
+      "source_member": "MC2Game/Movies/worldmapmovie_06_dunan.bik",
+      "source_sha256": "c4cc523dd022764dc6e505df861515c0d45d92d49a592c12512dd883e0995aef",
+      "discs": [
+        1,
+        2
+      ],
+      "source_text": "듀난 언덕",
+      "text": "杜南丘陵",
+      "frames": 360,
+      "plan": {
+        "path": "locales/zh-Hans/video-captions/worldmap-v35/worldmapmovie_06_dunan.json",
+        "sha256": "35fcf6a3324192d6af6fd3dc5cf48f389e2598e1cc1c8fa3385594cfb7b90005"
+      },
+      "native_geometry": {
+        "basis": "Measured strong stable original glyph-body support plus separately source-verified dim components; outline/glow are not the ink-height reference.",
+        "source_ink_box": [
+          256,
+          342,
+          125,
+          31
+        ],
+        "Chinese_ink_box": [
+          256,
+          342,
+          300,
+          31
+        ],
+        "height_delta": 0,
+        "x_delta": 0,
+        "y_delta": 0,
+        "original_font_identity_recovered": false,
+        "natural_advance": true,
+        "width_stretch": false
+      },
+      "typography": {
+        "layout_box_semantics": "Chinese_ink_box is the native-positioned maximum render box, not a width-stretched foreground. Actual natural-advance glyph bounds are recorded separately below; outline margin and antialiasing are explicit.",
+        "target_foreground_alpha_gt0_bbox": [
+          257,
+          342,
+          132,
+          31
+        ],
+        "target_foreground_alpha_ge128_bbox": [
+          257,
+          342,
+          131,
+          31
+        ],
+        "target_effect_alpha_bbox": [
+          253,
+          338,
+          394,
+          379
+        ],
+        "font_size": 32,
+        "font": {
+          "path": "build/font-source/NotoSerifCJKsc-SemiBold.otf",
+          "sha256": "d627b53dbcde61e07de1498d2623a8b287f78585ffbc90cc0618d0caaa2ed6b0"
+        },
+        "appearance": {
+          "kind": "source-style-v1",
+          "ink_box": [
+            256,
+            342,
+            300,
+            31
+          ],
+          "align": "left",
+          "gradient": [
+            [
+              0,
+              [
+                252,
+                244,
+                228,
+                255
+              ]
+            ],
+            [
+              260,
+              [
+                253,
+                231,
+                183,
+                255
+              ]
+            ],
+            [
+              450,
+              [
+                251,
+                217,
+                151,
+                255
+              ]
+            ],
+            [
+              650,
+              [
+                242,
+                184,
+                97,
+                255
+              ]
+            ],
+            [
+              800,
+              [
+                211,
+                130,
+                53,
+                255
+              ]
+            ],
+            [
+              1000,
+              [
+                197,
+                84,
+                10,
+                255
+              ]
+            ]
+          ],
+          "outline": [
+            0,
+            0,
+            0,
+            235
+          ],
+          "outline_width": 1,
+          "glow": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "glow_radius": 0,
+          "shadow": [
+            0,
+            0,
+            0,
+            180
+          ],
+          "shadow_offset": [
+            1,
+            2
+          ],
+          "shadow_radius": 0.8,
+          "italic": 0,
+          "tracking": 1,
+          "weight": 0,
+          "motion": 0
+        }
+      },
+      "source_colour_measurements": [
+        {
+          "source_native_y": [
+            342,
+            348
+          ],
+          "pixels": 36,
+          "method": "opaque-core-eroded1px",
+          "median_RGB": [
+            252,
+            244,
+            228
+          ],
+          "gradient_position": 0
+        },
+        {
+          "source_native_y": [
+            348,
+            353
+          ],
+          "pixels": 48,
+          "method": "opaque-core-eroded1px",
+          "median_RGB": [
+            253,
+            231,
+            183
+          ],
+          "gradient_position": 260
+        },
+        {
+          "source_native_y": [
+            353,
+            359
+          ],
+          "pixels": 35,
+          "method": "opaque-core-eroded1px",
+          "median_RGB": [
+            251,
+            217,
+            151
+          ],
+          "gradient_position": 450
+        },
+        {
+          "source_native_y": [
+            359,
+            365
+          ],
+          "pixels": 32,
+          "method": "opaque-core-eroded1px",
+          "median_RGB": [
+            242,
+            184,
+            97
+          ],
+          "gradient_position": 650
+        },
+        {
+          "source_native_y": [
+            365,
+            369
+          ],
+          "pixels": 37,
+          "method": "source-stable-core (no eroded pixels in these rows)",
+          "median_RGB": [
+            211,
+            130,
+            53
+          ],
+          "gradient_position": 800
+        },
+        {
+          "source_native_y": [
+            369,
+            373
+          ],
+          "pixels": 20,
+          "method": "source-stable-core (no eroded pixels in these rows)",
+          "median_RGB": [
+            197,
+            84,
+            10
+          ],
+          "gradient_position": 1000
+        }
+      ],
+      "sparse_mask": {
+        "path": "locales/zh-Hans/video-repairs/worldmap-v35/masks/worldmapmovie_06_dunan.png",
+        "sha256": "454812be286f5855afcd48580bbee777086c9ae1a7aecf0b36cb1fc43e12a1c2",
+        "pixels_sha256": "5f19ea3da1e4963699b839d3c5b07dcf80838cfa84d72f0c9a976eedf8ed6731",
+        "pixels": 4780
+      },
+      "model_provenance": {
+        "upstream_commit": "326782529a63d997cab80ab21439b92ed422b3d3",
+        "upstream_project": "https://github.com/sczhou/ProPainter",
+        "variant": "RGB image propagation with native PNG output and explicit finite-tensor guard before conversion; no feature-context overrides",
+        "crop": [
+          160,
+          232,
+          512,
+          256
+        ],
+        "parameters": {
+          "resize_ratio": 1.0,
+          "mask_dilation": 0,
+          "ref_stride": 10,
+          "neighbor_length": 6,
+          "subvideo_length": 40,
+          "raft_iter": 20,
+          "fp16": true
+        },
+        "weights": [
+          {
+            "file": "ProPainter.pth",
+            "size": 157780510,
+            "sha256": "12c070c4b48f374c91d8a2a17851140b85c159621080989f9e191bbc18bd6591"
+          },
+          {
+            "file": "raft-things.pth",
+            "size": 21108000,
+            "sha256": "fcfa4125d6418f4de95d84aec20a3c5f4e205101715a79f193243c186ac9a7e1"
+          },
+          {
+            "file": "recurrent_flow_completion.pth",
+            "size": 20348681,
+            "sha256": "22939a1a7900da878dbe1ccd011d646b1bfb30b8290039d8ff0e0c2fefbfd283"
+          }
+        ],
+        "finite_wrapper_sha256": "dad25af43087e1f8e53fe239071e59b67c6d41bdc58d85d1ada4d4449d305e66",
+        "native_inference_script_sha256": "88c73fcdaa35dd6d51e6281bccd6058832dcbf6b9f27fb38126f0625d4b34850",
+        "frozen_model_run_receipt": {
+          "path": "build/phase-365-worldmap-v35/models-corrections/worldmapmovie_06_dunan/RESULT.json",
+          "sha256": "9bfe001750e2d2aebefcb5a1debd5c61d04ec1bf23d2ea6f534b5f0d37e9c747"
+        },
+        "source_profile": {
+          "path": "build/phase-365-worldmap-v35/models-corrections/worldmapmovie_06_dunan/INPUTS.json",
+          "sha256": "a354ea131bf9b9d93637ad7cd782599b0b150bc59dc73e794bc64ae551d00a40"
+        },
+        "correction": {
+          "reason": "Original Korean 난/언 lower-stroke source pixels have RGBmean≈97 and were omitted by a110 brightness seed.",
+          "source_audit_sha256": "d314fab09461718af892d4933b479490b47126d6aecdaf6d25119bd0f8d2637b",
+          "source_dim_seed_png_sha256": "50744d180992dee11805c8bf05d42b814e984fb41b1829ea5be2cdc97b08d5bc",
+          "source_dim_core_pixels": 14,
+          "shadow_glow_dilation": 6,
+          "added_owned_pixels": 252,
+          "original_owned_pixels": 4528,
+          "final_owned_pixels": 4780,
+          "original_failed_model_preserved": true
+        },
+        "evidence_only_build_paths_not_runtime_dependencies": true
+      },
+      "raw_native_review": {
+        "path": "build/phase-365-worldmap-v35/raw-qa-corrected/worldmapmovie_06_dunan/RAW_QA.json",
+        "sha256": "9bd97f9a1d48a315b8075e346f5eb1971ebc2868e063a0ce3db0b97570bdf9bf"
+      },
+      "limits": {
+        "original_font_identity_recovered": false,
+        "original_hidden_RGB_ground_truth_recovered": false,
+        "unowned_source_RGB_exact_before_encode": true,
+        "lossy_encoded_background_exact_claimed": false,
+        "game_or_user_acceptance_claimed": false
+      }
+    },
+    {
+      "id": "worldmapmovie_07_dunanfield",
+      "source_member": "MC2Game/Movies/worldmapmovie_07_dunanfield.bik",
+      "source_sha256": "ca1cea8f90626b68a513f6cf988e495853ab347be0d783b1431e1be272a16c01",
+      "discs": [
+        2
+      ],
+      "source_text": "듀난 평원",
+      "text": "杜南平原",
+      "frames": 360,
+      "plan": {
+        "path": "locales/zh-Hans/video-captions/worldmap-v35/worldmapmovie_07_dunanfield.json",
+        "sha256": "9c8547aa62fd39147db83681058a02643a1af7a3029fa5fa3e92f5aab254075e"
+      },
+      "native_geometry": {
+        "basis": "Measured strong stable original glyph-body support plus separately source-verified dim components; outline/glow are not the ink-height reference.",
+        "source_ink_box": [
+          256,
+          343,
+          125,
+          32
+        ],
+        "Chinese_ink_box": [
+          256,
+          343,
+          300,
+          32
+        ],
+        "height_delta": 0,
+        "x_delta": 0,
+        "y_delta": 0,
+        "original_font_identity_recovered": false,
+        "natural_advance": true,
+        "width_stretch": false
+      },
+      "typography": {
+        "layout_box_semantics": "Chinese_ink_box is the native-positioned maximum render box, not a width-stretched foreground. Actual natural-advance glyph bounds are recorded separately below; outline margin and antialiasing are explicit.",
+        "target_foreground_alpha_gt0_bbox": [
+          257,
+          343,
+          137,
+          32
+        ],
+        "target_foreground_alpha_ge128_bbox": [
+          258,
+          343,
+          135,
+          32
+        ],
+        "target_effect_alpha_bbox": [
+          253,
+          339,
+          399,
+          381
+        ],
+        "font_size": 32,
+        "font": {
+          "path": "build/font-source/NotoSerifCJKsc-SemiBold.otf",
+          "sha256": "d627b53dbcde61e07de1498d2623a8b287f78585ffbc90cc0618d0caaa2ed6b0"
+        },
+        "appearance": {
+          "kind": "source-style-v1",
+          "ink_box": [
+            256,
+            343,
+            300,
+            32
+          ],
+          "align": "left",
+          "gradient": [
+            [
+              0,
+              [
+                247,
+                244,
+                227,
+                255
+              ]
+            ],
+            [
+              260,
+              [
+                253,
+                250,
+                195,
+                255
+              ]
+            ],
+            [
+              450,
+              [
+                250,
+                236,
+                133,
+                255
+              ]
+            ],
+            [
+              650,
+              [
+                242,
+                220,
+                107,
+                255
+              ]
+            ],
+            [
+              800,
+              [
+                227,
+                178,
+                56,
+                255
+              ]
+            ],
+            [
+              1000,
+              [
+                184,
+                133,
+                48,
+                255
+              ]
+            ]
+          ],
+          "outline": [
+            0,
+            0,
+            0,
+            235
+          ],
+          "outline_width": 1,
+          "glow": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "glow_radius": 0,
+          "shadow": [
+            0,
+            0,
+            0,
+            180
+          ],
+          "shadow_offset": [
+            1,
+            2
+          ],
+          "shadow_radius": 0.8,
+          "italic": 0,
+          "tracking": 1,
+          "weight": 0,
+          "motion": 0
+        }
+      },
+      "source_colour_measurements": [
+        {
+          "source_native_y": [
+            343,
+            349
+          ],
+          "pixels": 44,
+          "method": "opaque-core-eroded1px",
+          "median_RGB": [
+            247,
+            244,
+            227
+          ],
+          "gradient_position": 0
+        },
+        {
+          "source_native_y": [
+            349,
+            355
+          ],
+          "pixels": 47,
+          "method": "opaque-core-eroded1px",
+          "median_RGB": [
+            253,
+            250,
+            195
+          ],
+          "gradient_position": 260
+        },
+        {
+          "source_native_y": [
+            355,
+            361
+          ],
+          "pixels": 57,
+          "method": "opaque-core-eroded1px",
+          "median_RGB": [
+            250,
+            236,
+            133
+          ],
+          "gradient_position": 450
+        },
+        {
+          "source_native_y": [
+            361,
+            366
+          ],
+          "pixels": 32,
+          "method": "opaque-core-eroded1px",
+          "median_RGB": [
+            242,
+            220,
+            107
+          ],
+          "gradient_position": 650
+        },
+        {
+          "source_native_y": [
+            366,
+            371
+          ],
+          "pixels": 1,
+          "method": "opaque-core-eroded1px",
+          "median_RGB": [
+            227,
+            178,
+            56
+          ],
+          "gradient_position": 800
+        },
+        {
+          "source_native_y": [
+            371,
+            375
+          ],
+          "pixels": 85,
+          "method": "source-stable-core (no eroded pixels in these rows)",
+          "median_RGB": [
+            184,
+            133,
+            48
+          ],
+          "gradient_position": 1000
+        }
+      ],
+      "sparse_mask": {
+        "path": "locales/zh-Hans/video-repairs/worldmap-v35/masks/worldmapmovie_07_dunanfield.png",
+        "sha256": "540b0e785154dc31106a576a61977f513a603c301ae0803f69c44114537a718d",
+        "pixels_sha256": "73486cd21414b4e04bb4f7bbdfddfceb5e32d96e96c3cc7c1d22b4b5535a6dda",
+        "pixels": 5116
+      },
+      "model_provenance": {
+        "upstream_commit": "326782529a63d997cab80ab21439b92ed422b3d3",
+        "upstream_project": "https://github.com/sczhou/ProPainter",
+        "variant": "RGB image propagation with native PNG output and explicit finite-tensor guard before conversion; no feature-context overrides",
+        "crop": [
+          160,
+          232,
+          512,
+          256
+        ],
+        "parameters": {
+          "resize_ratio": 1.0,
+          "mask_dilation": 0,
+          "ref_stride": 10,
+          "neighbor_length": 6,
+          "subvideo_length": 40,
+          "raft_iter": 20,
+          "fp16": true
+        },
+        "weights": [
+          {
+            "file": "ProPainter.pth",
+            "size": 157780510,
+            "sha256": "12c070c4b48f374c91d8a2a17851140b85c159621080989f9e191bbc18bd6591"
+          },
+          {
+            "file": "raft-things.pth",
+            "size": 21108000,
+            "sha256": "fcfa4125d6418f4de95d84aec20a3c5f4e205101715a79f193243c186ac9a7e1"
+          },
+          {
+            "file": "recurrent_flow_completion.pth",
+            "size": 20348681,
+            "sha256": "22939a1a7900da878dbe1ccd011d646b1bfb30b8290039d8ff0e0c2fefbfd283"
+          }
+        ],
+        "finite_wrapper_sha256": "dad25af43087e1f8e53fe239071e59b67c6d41bdc58d85d1ada4d4449d305e66",
+        "native_inference_script_sha256": "88c73fcdaa35dd6d51e6281bccd6058832dcbf6b9f27fb38126f0625d4b34850",
+        "frozen_model_run_receipt": {
+          "path": "build/phase-365-worldmap-v35/models/worldmapmovie_07_dunanfield/RESULT.json",
+          "sha256": "60e7a381c14dabc9d0a28b0887f10fe8d23e2758f54dc960b55d79be6127aecd"
+        },
+        "source_profile": {
+          "path": "build/phase-365-worldmap-v35/models/worldmapmovie_07_dunanfield/INPUTS.json",
+          "sha256": "625c04a1400f83fc322a639071a6c439aed974531552eff3e5037e4cc4e31b5c"
+        },
+        "correction": null,
+        "evidence_only_build_paths_not_runtime_dependencies": true
+      },
+      "raw_native_review": {
+        "path": "build/phase-365-worldmap-v35/raw-qa-native-geometry/worldmapmovie_07_dunanfield/RAW_QA.json",
+        "sha256": "8277fea7b3870e76caf7d327c3c07fe1fa5d033e118cf8a4b723189411958201"
+      },
+      "limits": {
+        "original_font_identity_recovered": false,
+        "original_hidden_RGB_ground_truth_recovered": false,
+        "unowned_source_RGB_exact_before_encode": true,
+        "lossy_encoded_background_exact_claimed": false,
+        "game_or_user_acceptance_claimed": false
+      }
+    },
+    {
+      "id": "worldmapmovie_08_ruhalt",
+      "source_member": "MC2Game/Movies/worldmapmovie_08_ruhalt.bik",
+      "source_sha256": "34bbe59cd06f627b49ef5681023e3ecbc16a9995a9957ab17925f32cdaeea16a",
+      "discs": [
+        2
+      ],
+      "source_text": "루할트",
+      "text": "鲁哈尔特",
+      "frames": 360,
+      "plan": {
+        "path": "locales/zh-Hans/video-captions/worldmap-v35/worldmapmovie_08_ruhalt.json",
+        "sha256": "a5cce99304804283dd199a230fba6848c4d1b8dd6ef21c9ce7c06ed59ed4546f"
+      },
+      "native_geometry": {
+        "basis": "Measured strong stable original glyph-body support plus separately source-verified dim components; outline/glow are not the ink-height reference.",
+        "source_ink_box": [
+          255,
+          348,
+          112,
+          32
+        ],
+        "Chinese_ink_box": [
+          255,
+          348,
+          300,
+          32
+        ],
+        "height_delta": 0,
+        "x_delta": 0,
+        "y_delta": 0,
+        "original_font_identity_recovered": false,
+        "natural_advance": true,
+        "width_stretch": false
+      },
+      "typography": {
+        "layout_box_semantics": "Chinese_ink_box is the native-positioned maximum render box, not a width-stretched foreground. Actual natural-advance glyph bounds are recorded separately below; outline margin and antialiasing are explicit.",
+        "target_foreground_alpha_gt0_bbox": [
+          256,
+          348,
+          137,
+          32
+        ],
+        "target_foreground_alpha_ge128_bbox": [
+          257,
+          348,
+          136,
+          32
+        ],
+        "target_effect_alpha_bbox": [
+          252,
+          344,
+          398,
+          386
+        ],
+        "font_size": 32,
+        "font": {
+          "path": "build/font-source/NotoSerifCJKsc-SemiBold.otf",
+          "sha256": "d627b53dbcde61e07de1498d2623a8b287f78585ffbc90cc0618d0caaa2ed6b0"
+        },
+        "appearance": {
+          "kind": "source-style-v1",
+          "ink_box": [
+            255,
+            348,
+            300,
+            32
+          ],
+          "align": "left",
+          "gradient": [
+            [
+              0,
+              [
+                254,
+                251,
+                236,
+                255
+              ]
+            ],
+            [
+              260,
+              [
+                248,
+                227,
+                190,
+                255
+              ]
+            ],
+            [
+              450,
+              [
+                252,
+                216,
+                149,
+                255
+              ]
+            ],
+            [
+              650,
+              [
+                239,
+                186,
+                103,
+                255
+              ]
+            ],
+            [
+              800,
+              [
+                205,
+                128,
+                46,
+                255
+              ]
+            ],
+            [
+              1000,
+              [
+                187,
+                88,
+                19,
+                255
+              ]
+            ]
+          ],
+          "outline": [
+            0,
+            0,
+            0,
+            235
+          ],
+          "outline_width": 1,
+          "glow": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "glow_radius": 0,
+          "shadow": [
+            0,
+            0,
+            0,
+            180
+          ],
+          "shadow_offset": [
+            1,
+            2
+          ],
+          "shadow_radius": 0.8,
+          "italic": 0,
+          "tracking": 1,
+          "weight": 0,
+          "motion": 0
+        }
+      },
+      "source_colour_measurements": [
+        {
+          "source_native_y": [
+            348,
+            354
+          ],
+          "pixels": 15,
+          "method": "opaque-core-eroded1px",
+          "median_RGB": [
+            254,
+            251,
+            236
+          ],
+          "gradient_position": 0
+        },
+        {
+          "source_native_y": [
+            354,
+            360
+          ],
+          "pixels": 34,
+          "method": "opaque-core-eroded1px",
+          "median_RGB": [
+            248,
+            227,
+            190
+          ],
+          "gradient_position": 260
+        },
+        {
+          "source_native_y": [
+            360,
+            366
+          ],
+          "pixels": 9,
+          "method": "opaque-core-eroded1px",
+          "median_RGB": [
+            252,
+            216,
+            149
+          ],
+          "gradient_position": 450
+        },
+        {
+          "source_native_y": [
+            366,
+            371
+          ],
+          "pixels": 24,
+          "method": "opaque-core-eroded1px",
+          "median_RGB": [
+            239,
+            186,
+            103
+          ],
+          "gradient_position": 650
+        },
+        {
+          "source_native_y": [
+            371,
+            376
+          ],
+          "pixels": 95,
+          "method": "source-stable-core (no eroded pixels in these rows)",
+          "median_RGB": [
+            205,
+            128,
+            46
+          ],
+          "gradient_position": 800
+        },
+        {
+          "source_native_y": [
+            376,
+            380
+          ],
+          "pixels": 17,
+          "method": "source-stable-core (no eroded pixels in these rows)",
+          "median_RGB": [
+            187,
+            88,
+            19
+          ],
+          "gradient_position": 1000
+        }
+      ],
+      "sparse_mask": {
+        "path": "locales/zh-Hans/video-repairs/worldmap-v35/masks/worldmapmovie_08_ruhalt.png",
+        "sha256": "4d627a2bb52f1b66be95b880f387102c9e26301c951f75b508163d6817efc7d0",
+        "pixels_sha256": "84240e046279a0fb26257470ca285971dff45ae4c445058bca77790ce91940ef",
+        "pixels": 3729
+      },
+      "model_provenance": {
+        "upstream_commit": "326782529a63d997cab80ab21439b92ed422b3d3",
+        "upstream_project": "https://github.com/sczhou/ProPainter",
+        "variant": "RGB image propagation with native PNG output and explicit finite-tensor guard before conversion; no feature-context overrides",
+        "crop": [
+          160,
+          232,
+          512,
+          256
+        ],
+        "parameters": {
+          "resize_ratio": 1.0,
+          "mask_dilation": 0,
+          "ref_stride": 10,
+          "neighbor_length": 6,
+          "subvideo_length": 40,
+          "raft_iter": 20,
+          "fp16": true
+        },
+        "weights": [
+          {
+            "file": "ProPainter.pth",
+            "size": 157780510,
+            "sha256": "12c070c4b48f374c91d8a2a17851140b85c159621080989f9e191bbc18bd6591"
+          },
+          {
+            "file": "raft-things.pth",
+            "size": 21108000,
+            "sha256": "fcfa4125d6418f4de95d84aec20a3c5f4e205101715a79f193243c186ac9a7e1"
+          },
+          {
+            "file": "recurrent_flow_completion.pth",
+            "size": 20348681,
+            "sha256": "22939a1a7900da878dbe1ccd011d646b1bfb30b8290039d8ff0e0c2fefbfd283"
+          }
+        ],
+        "finite_wrapper_sha256": "dad25af43087e1f8e53fe239071e59b67c6d41bdc58d85d1ada4d4449d305e66",
+        "native_inference_script_sha256": "88c73fcdaa35dd6d51e6281bccd6058832dcbf6b9f27fb38126f0625d4b34850",
+        "frozen_model_run_receipt": {
+          "path": "build/phase-365-worldmap-v35/models-corrections/worldmapmovie_08_ruhalt/RESULT.json",
+          "sha256": "69522c8ea466d9706f033ab182e24098816b1da67df02f3b5bd50b598c38c446"
+        },
+        "source_profile": {
+          "path": "build/phase-365-worldmap-v35/models-corrections/worldmapmovie_08_ruhalt/INPUTS.json",
+          "sha256": "5cd13b1a3fb692031eaa2c83923702820580d361e554aa80a20554b36fc5c5df"
+        },
+        "correction": {
+          "reason": "Seven original red fringe pixels at native313..319/y381 remain source-identical but fall below mean30 and vary by more than28 RGB. They form the last fringe of the original lower coloured 할 stroke.",
+          "independently_rejected_QA_sha256": "7c6274d669badbebee7a43e2bf5a5fc00bfc97c89ed895efc4d8fad37a10831d",
+          "fringe_pixels": 7,
+          "strong_coloured_body_pixels": 14,
+          "source_body_region": [
+            313,
+            378,
+            7,
+            2
+          ],
+          "source_fringe_region": [
+            313,
+            381,
+            7,
+            1
+          ],
+          "framewise_min_red_minus_green": 28,
+          "framewise_min_red_minus_blue": 36,
+          "shadow_glow_dilation": 6,
+          "original_owned_pixels": 3604,
+          "added_owned_pixels": 125,
+          "final_owned_pixels": 3729,
+          "geometry_note": "Strong coloured original body rows378–379 join the ink measurement; faint red fringe381 belongs only to erasure/shadow scope, not a taller Chinese glyph.",
+          "old_failed_model_preserved": true
+        },
+        "evidence_only_build_paths_not_runtime_dependencies": true
+      },
+      "raw_native_review": {
+        "path": "build/phase-365-worldmap-v35/raw-qa-corrected/worldmapmovie_08_ruhalt/RAW_QA.json",
+        "sha256": "f7cfa2ae0a6025dd6af5f6dfdfac2f60290a07d88f8be201236a682038482494"
+      },
+      "limits": {
+        "original_font_identity_recovered": false,
+        "original_hidden_RGB_ground_truth_recovered": false,
+        "unowned_source_RGB_exact_before_encode": true,
+        "lossy_encoded_background_exact_claimed": false,
+        "game_or_user_acceptance_claimed": false
+      }
+    },
+    {
+      "id": "worldmapmovie_09_velfort",
+      "source_member": "MC2Game/Movies/worldmapmovie_09_velfort.bik",
+      "source_sha256": "e9b78b5cd62faa326fb6d5c579d7dbc00776d9eba8a32f1c6a6c2dff53951c7e",
+      "discs": [
+        2
+      ],
+      "source_text": "벨포트",
+      "text": "贝尔福特",
+      "frames": 360,
+      "plan": {
+        "path": "locales/zh-Hans/video-captions/worldmap-v35/worldmapmovie_09_velfort.json",
+        "sha256": "86620f433df83b9cad7d415110f12a032baf33fd4b59ab24a211a2cdf3390400"
+      },
+      "native_geometry": {
+        "basis": "Measured strong stable original glyph-body support plus separately source-verified dim components; outline/glow are not the ink-height reference.",
+        "source_ink_box": [
+          256,
+          341,
+          112,
+          33
+        ],
+        "Chinese_ink_box": [
+          256,
+          341,
+          300,
+          33
+        ],
+        "height_delta": 0,
+        "x_delta": 0,
+        "y_delta": 0,
+        "original_font_identity_recovered": false,
+        "natural_advance": true,
+        "width_stretch": false
+      },
+      "typography": {
+        "layout_box_semantics": "Chinese_ink_box is the native-positioned maximum render box, not a width-stretched foreground. Actual natural-advance glyph bounds are recorded separately below; outline margin and antialiasing are explicit.",
+        "target_foreground_alpha_gt0_bbox": [
+          257,
+          341,
+          140,
+          33
+        ],
+        "target_foreground_alpha_ge128_bbox": [
+          257,
+          341,
+          140,
+          33
+        ],
+        "target_effect_alpha_bbox": [
+          253,
+          337,
+          402,
+          380
+        ],
+        "font_size": 32,
+        "font": {
+          "path": "build/font-source/NotoSerifCJKsc-SemiBold.otf",
+          "sha256": "d627b53dbcde61e07de1498d2623a8b287f78585ffbc90cc0618d0caaa2ed6b0"
+        },
+        "appearance": {
+          "kind": "source-style-v1",
+          "ink_box": [
+            256,
+            341,
+            300,
+            33
+          ],
+          "align": "left",
+          "gradient": [
+            [
+              0,
+              [
+                255,
+                255,
+                255,
+                255
+              ]
+            ],
+            [
+              260,
+              [
+                254,
+                227,
+                221,
+                255
+              ]
+            ],
+            [
+              450,
+              [
+                249,
+                177,
+                162,
+                255
+              ]
+            ],
+            [
+              650,
+              [
+                235,
+                186,
+                130,
+                255
+              ]
+            ],
+            [
+              800,
+              [
+                228,
+                222,
+                140,
+                255
+              ]
+            ],
+            [
+              1000,
+              [
+                208,
+                207,
+                138,
+                255
+              ]
+            ]
+          ],
+          "outline": [
+            0,
+            0,
+            0,
+            235
+          ],
+          "outline_width": 1,
+          "glow": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "glow_radius": 0,
+          "shadow": [
+            0,
+            0,
+            0,
+            180
+          ],
+          "shadow_offset": [
+            1,
+            2
+          ],
+          "shadow_radius": 0.8,
+          "italic": 0,
+          "tracking": 1,
+          "weight": 0,
+          "motion": 0
+        }
+      },
+      "source_colour_measurements": [
+        {
+          "source_native_y": [
+            341,
+            347
+          ],
+          "pixels": 17,
+          "method": "opaque-core-eroded1px",
+          "median_RGB": [
+            255,
+            255,
+            255
+          ],
+          "gradient_position": 0
+        },
+        {
+          "source_native_y": [
+            347,
+            353
+          ],
+          "pixels": 41,
+          "method": "opaque-core-eroded1px",
+          "median_RGB": [
+            254,
+            227,
+            221
+          ],
+          "gradient_position": 260
+        },
+        {
+          "source_native_y": [
+            353,
+            359
+          ],
+          "pixels": 30,
+          "method": "opaque-core-eroded1px",
+          "median_RGB": [
+            249,
+            177,
+            162
+          ],
+          "gradient_position": 450
+        },
+        {
+          "source_native_y": [
+            359,
+            365
+          ],
+          "pixels": 9,
+          "method": "opaque-core-eroded1px",
+          "median_RGB": [
+            235,
+            186,
+            130
+          ],
+          "gradient_position": 650
+        },
+        {
+          "source_native_y": [
+            365,
+            370
+          ],
+          "pixels": 6,
+          "method": "opaque-core-eroded1px",
+          "median_RGB": [
+            228,
+            222,
+            140
+          ],
+          "gradient_position": 800
+        },
+        {
+          "source_native_y": [
+            370,
+            374
+          ],
+          "pixels": 8,
+          "method": "opaque-core-eroded1px",
+          "median_RGB": [
+            208,
+            207,
+            138
+          ],
+          "gradient_position": 1000
+        }
+      ],
+      "sparse_mask": {
+        "path": "locales/zh-Hans/video-repairs/worldmap-v35/masks/worldmapmovie_09_velfort.png",
+        "sha256": "3d5f042673a75c362b26b9dabac3ba1002b6b1f400734bf964afee052f6a97d4",
+        "pixels_sha256": "f40e0e1cfe6f9dae733693fc5eb141b43b9520c8f2f41e795d573b1f510ce6e6",
+        "pixels": 3697
+      },
+      "model_provenance": {
+        "upstream_commit": "326782529a63d997cab80ab21439b92ed422b3d3",
+        "upstream_project": "https://github.com/sczhou/ProPainter",
+        "variant": "RGB image propagation with native PNG output and explicit finite-tensor guard before conversion; no feature-context overrides",
+        "crop": [
+          160,
+          232,
+          512,
+          256
+        ],
+        "parameters": {
+          "resize_ratio": 1.0,
+          "mask_dilation": 0,
+          "ref_stride": 10,
+          "neighbor_length": 6,
+          "subvideo_length": 40,
+          "raft_iter": 20,
+          "fp16": true
+        },
+        "weights": [
+          {
+            "file": "ProPainter.pth",
+            "size": 157780510,
+            "sha256": "12c070c4b48f374c91d8a2a17851140b85c159621080989f9e191bbc18bd6591"
+          },
+          {
+            "file": "raft-things.pth",
+            "size": 21108000,
+            "sha256": "fcfa4125d6418f4de95d84aec20a3c5f4e205101715a79f193243c186ac9a7e1"
+          },
+          {
+            "file": "recurrent_flow_completion.pth",
+            "size": 20348681,
+            "sha256": "22939a1a7900da878dbe1ccd011d646b1bfb30b8290039d8ff0e0c2fefbfd283"
+          }
+        ],
+        "finite_wrapper_sha256": "dad25af43087e1f8e53fe239071e59b67c6d41bdc58d85d1ada4d4449d305e66",
+        "native_inference_script_sha256": "88c73fcdaa35dd6d51e6281bccd6058832dcbf6b9f27fb38126f0625d4b34850",
+        "frozen_model_run_receipt": {
+          "path": "build/phase-365-worldmap-v35/models/worldmapmovie_09_velfort/RESULT.json",
+          "sha256": "ff5aa282a48a5e9aa8b4718292ce4317b816cf5c6a1ff8773a9de79fd8d2b498"
+        },
+        "source_profile": {
+          "path": "build/phase-365-worldmap-v35/models/worldmapmovie_09_velfort/INPUTS.json",
+          "sha256": "66e368821e1358d38da4698918410eb7232724ef0751ac93e857bf4c3a601e63"
+        },
+        "correction": null,
+        "evidence_only_build_paths_not_runtime_dependencies": true
+      },
+      "raw_native_review": {
+        "path": "build/phase-365-worldmap-v35/raw-qa-native-geometry/worldmapmovie_09_velfort/RAW_QA.json",
+        "sha256": "dc1758b7e3173a1fdc9e79386e299c464b9137bbc9305f91db938825f7c6bb02"
+      },
+      "limits": {
+        "original_font_identity_recovered": false,
+        "original_hidden_RGB_ground_truth_recovered": false,
+        "unowned_source_RGB_exact_before_encode": true,
+        "lossy_encoded_background_exact_claimed": false,
+        "game_or_user_acceptance_claimed": false
+      }
+    },
+    {
+      "id": "worldmapmovie_10_sentinellab",
+      "source_member": "MC2Game/Movies/worldmapmovie_10_sentinellab.bik",
+      "source_sha256": "bfcd0df50c436d02da292651d81bfef0fd43da5370c445fc7f0e62fc88a674f9",
+      "discs": [
+        2
+      ],
+      "source_text": "센티넬 연구소",
+      "text": "哨兵研究所",
+      "frames": 360,
+      "plan": {
+        "path": "locales/zh-Hans/video-captions/worldmap-v35/worldmapmovie_10_sentinellab.json",
+        "sha256": "2dbbd580545c04de304487869948ac2407a487dba538d9c456388613523c6e9a"
+      },
+      "native_geometry": {
+        "basis": "Measured strong stable original glyph-body support plus separately source-verified dim components; outline/glow are not the ink-height reference.",
+        "source_ink_box": [
+          255,
+          347,
+          188,
+          33
+        ],
+        "Chinese_ink_box": [
+          255,
+          347,
+          300,
+          33
+        ],
+        "height_delta": 0,
+        "x_delta": 0,
+        "y_delta": 0,
+        "original_font_identity_recovered": false,
+        "natural_advance": true,
+        "width_stretch": false
+      },
+      "typography": {
+        "layout_box_semantics": "Chinese_ink_box is the native-positioned maximum render box, not a width-stretched foreground. Actual natural-advance glyph bounds are recorded separately below; outline margin and antialiasing are explicit.",
+        "target_foreground_alpha_gt0_bbox": [
+          256,
+          347,
+          173,
+          33
+        ],
+        "target_foreground_alpha_ge128_bbox": [
+          256,
+          347,
+          173,
+          33
+        ],
+        "target_effect_alpha_bbox": [
+          252,
+          343,
+          434,
+          386
+        ],
+        "font_size": 32,
+        "font": {
+          "path": "build/font-source/NotoSerifCJKsc-SemiBold.otf",
+          "sha256": "d627b53dbcde61e07de1498d2623a8b287f78585ffbc90cc0618d0caaa2ed6b0"
+        },
+        "appearance": {
+          "kind": "source-style-v1",
+          "ink_box": [
+            255,
+            347,
+            300,
+            33
+          ],
+          "align": "left",
+          "gradient": [
+            [
+              0,
+              [
+                255,
+                254,
+                253,
+                255
+              ]
+            ],
+            [
+              260,
+              [
+                248,
+                245,
+                251,
+                255
+              ]
+            ],
+            [
+              450,
+              [
+                214,
+                187,
+                226,
+                255
+              ]
+            ],
+            [
+              650,
+              [
+                166,
+                126,
+                203,
+                255
+              ]
+            ],
+            [
+              800,
+              [
+                160,
+                151,
+                231,
+                255
+              ]
+            ],
+            [
+              1000,
+              [
+                162,
+                176,
+                231,
+                255
+              ]
+            ]
+          ],
+          "outline": [
+            0,
+            0,
+            0,
+            235
+          ],
+          "outline_width": 1,
+          "glow": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "glow_radius": 0,
+          "shadow": [
+            0,
+            0,
+            0,
+            180
+          ],
+          "shadow_offset": [
+            1,
+            2
+          ],
+          "shadow_radius": 0.8,
+          "italic": 0,
+          "tracking": 1,
+          "weight": 0,
+          "motion": 0
+        }
+      },
+      "source_colour_measurements": [
+        {
+          "source_native_y": [
+            347,
+            353
+          ],
+          "pixels": 41,
+          "method": "opaque-core-eroded1px",
+          "median_RGB": [
+            255,
+            254,
+            253
+          ],
+          "gradient_position": 0
+        },
+        {
+          "source_native_y": [
+            353,
+            359
+          ],
+          "pixels": 88,
+          "method": "opaque-core-eroded1px",
+          "median_RGB": [
+            248,
+            245,
+            251
+          ],
+          "gradient_position": 260
+        },
+        {
+          "source_native_y": [
+            359,
+            365
+          ],
+          "pixels": 34,
+          "method": "opaque-core-eroded1px",
+          "median_RGB": [
+            214,
+            187,
+            226
+          ],
+          "gradient_position": 450
+        },
+        {
+          "source_native_y": [
+            365,
+            371
+          ],
+          "pixels": 6,
+          "method": "opaque-core-eroded1px",
+          "median_RGB": [
+            166,
+            126,
+            203
+          ],
+          "gradient_position": 650
+        },
+        {
+          "source_native_y": [
+            371,
+            376
+          ],
+          "pixels": 15,
+          "method": "opaque-core-eroded1px",
+          "median_RGB": [
+            160,
+            151,
+            231
+          ],
+          "gradient_position": 800
+        },
+        {
+          "source_native_y": [
+            376,
+            380
+          ],
+          "pixels": 12,
+          "method": "opaque-core-eroded1px",
+          "median_RGB": [
+            162,
+            176,
+            231
+          ],
+          "gradient_position": 1000
+        }
+      ],
+      "sparse_mask": {
+        "path": "locales/zh-Hans/video-repairs/worldmap-v35/masks/worldmapmovie_10_sentinellab.png",
+        "sha256": "84d228cb8fdf98314b7f989b1c8323cd98c807ad43b923f988d61b38f0f6f42d",
+        "pixels_sha256": "864e36cb77772c1c81d71aed1793b16ad68878547a148936994a23007c4e3119",
+        "pixels": 7085
+      },
+      "model_provenance": {
+        "upstream_commit": "326782529a63d997cab80ab21439b92ed422b3d3",
+        "upstream_project": "https://github.com/sczhou/ProPainter",
+        "variant": "RGB image propagation with native PNG output and explicit finite-tensor guard before conversion; no feature-context overrides",
+        "crop": [
+          160,
+          232,
+          512,
+          256
+        ],
+        "parameters": {
+          "resize_ratio": 1.0,
+          "mask_dilation": 0,
+          "ref_stride": 10,
+          "neighbor_length": 6,
+          "subvideo_length": 40,
+          "raft_iter": 20,
+          "fp16": true
+        },
+        "weights": [
+          {
+            "file": "ProPainter.pth",
+            "size": 157780510,
+            "sha256": "12c070c4b48f374c91d8a2a17851140b85c159621080989f9e191bbc18bd6591"
+          },
+          {
+            "file": "raft-things.pth",
+            "size": 21108000,
+            "sha256": "fcfa4125d6418f4de95d84aec20a3c5f4e205101715a79f193243c186ac9a7e1"
+          },
+          {
+            "file": "recurrent_flow_completion.pth",
+            "size": 20348681,
+            "sha256": "22939a1a7900da878dbe1ccd011d646b1bfb30b8290039d8ff0e0c2fefbfd283"
+          }
+        ],
+        "finite_wrapper_sha256": "dad25af43087e1f8e53fe239071e59b67c6d41bdc58d85d1ada4d4449d305e66",
+        "native_inference_script_sha256": "88c73fcdaa35dd6d51e6281bccd6058832dcbf6b9f27fb38126f0625d4b34850",
+        "frozen_model_run_receipt": {
+          "path": "build/phase-365-worldmap-v35/models/worldmapmovie_10_sentinellab/RESULT.json",
+          "sha256": "80b9779c3f450a25a1cf778b32b00a50a63ab5584e05640f5174a71241a38727"
+        },
+        "source_profile": {
+          "path": "build/phase-365-worldmap-v35/models/worldmapmovie_10_sentinellab/INPUTS.json",
+          "sha256": "99bbfdc737dd97a79db981141e2cb241e28a47bc478126203d77d4eb2c1a8657"
+        },
+        "correction": null,
+        "evidence_only_build_paths_not_runtime_dependencies": true
+      },
+      "raw_native_review": {
+        "path": "build/phase-365-worldmap-v35/raw-qa-native-geometry/worldmapmovie_10_sentinellab/RAW_QA.json",
+        "sha256": "faa511f5cd4b5ac197f9776e2da6867f87f30cf0ecd71ad664f175a0caf28bb8"
+      },
+      "limits": {
+        "original_font_identity_recovered": false,
+        "original_hidden_RGB_ground_truth_recovered": false,
+        "unowned_source_RGB_exact_before_encode": true,
+        "lossy_encoded_background_exact_claimed": false,
+        "game_or_user_acceptance_claimed": false
+      }
+    },
+    {
+      "id": "worldmapmovie_11_lastrada",
+      "source_member": "MC2Game/Movies/worldmapmovie_11_lastrada.bik",
+      "source_sha256": "a2ef4f4ee667a23e08f1b3284d0e0365c7a12b35c13bf7c38bedf2a0dfb66dd8",
+      "discs": [
+        2
+      ],
+      "source_text": "라 스트라다",
+      "text": "拉·斯特拉达",
+      "frames": 360,
+      "plan": {
+        "path": "locales/zh-Hans/video-captions/worldmap-v35/worldmapmovie_11_lastrada.json",
+        "sha256": "7ff114d1bdf3a4e76d2c6a9e11150ba8c95a03f793221585375c02b71e1e7c2a"
+      },
+      "native_geometry": {
+        "basis": "Measured strong stable original glyph-body support plus separately source-verified dim components; outline/glow are not the ink-height reference.",
+        "source_ink_box": [
+          256,
+          347,
+          164,
+          32
+        ],
+        "Chinese_ink_box": [
+          256,
+          347,
+          300,
+          32
+        ],
+        "height_delta": 0,
+        "x_delta": 0,
+        "y_delta": 0,
+        "original_font_identity_recovered": false,
+        "natural_advance": true,
+        "width_stretch": false
+      },
+      "typography": {
+        "layout_box_semantics": "Chinese_ink_box is the native-positioned maximum render box, not a width-stretched foreground. Actual natural-advance glyph bounds are recorded separately below; outline margin and antialiasing are explicit.",
+        "target_foreground_alpha_gt0_bbox": [
+          257,
+          347,
+          184,
+          32
+        ],
+        "target_foreground_alpha_ge128_bbox": [
+          257,
+          347,
+          184,
+          32
+        ],
+        "target_effect_alpha_bbox": [
+          253,
+          343,
+          446,
+          385
+        ],
+        "font_size": 32,
+        "font": {
+          "path": "build/font-source/NotoSerifCJKsc-SemiBold.otf",
+          "sha256": "d627b53dbcde61e07de1498d2623a8b287f78585ffbc90cc0618d0caaa2ed6b0"
+        },
+        "appearance": {
+          "kind": "source-style-v1",
+          "ink_box": [
+            256,
+            347,
+            300,
+            32
+          ],
+          "align": "left",
+          "gradient": [
+            [
+              0,
+              [
+                249,
+                249,
+                249,
+                255
+              ]
+            ],
+            [
+              260,
+              [
+                250,
+                250,
+                250,
+                255
+              ]
+            ],
+            [
+              450,
+              [
+                208,
+                246,
+                228,
+                255
+              ]
+            ],
+            [
+              650,
+              [
+                138,
+                240,
+                185,
+                255
+              ]
+            ],
+            [
+              800,
+              [
+                121,
+                228,
+                195,
+                255
+              ]
+            ],
+            [
+              1000,
+              [
+                148,
+                212,
+                220,
+                255
+              ]
+            ]
+          ],
+          "outline": [
+            0,
+            0,
+            0,
+            235
+          ],
+          "outline_width": 1,
+          "glow": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "glow_radius": 0,
+          "shadow": [
+            0,
+            0,
+            0,
+            180
+          ],
+          "shadow_offset": [
+            1,
+            2
+          ],
+          "shadow_radius": 0.8,
+          "italic": 0,
+          "tracking": 1,
+          "weight": 0,
+          "motion": 0
+        }
+      },
+      "source_colour_measurements": [
+        {
+          "source_native_y": [
+            347,
+            353
+          ],
+          "pixels": 33,
+          "method": "opaque-core-eroded1px",
+          "median_RGB": [
+            249,
+            249,
+            249
+          ],
+          "gradient_position": 0
+        },
+        {
+          "source_native_y": [
+            353,
+            359
+          ],
+          "pixels": 65,
+          "method": "opaque-core-eroded1px",
+          "median_RGB": [
+            250,
+            250,
+            250
+          ],
+          "gradient_position": 260
+        },
+        {
+          "source_native_y": [
+            359,
+            365
+          ],
+          "pixels": 57,
+          "method": "opaque-core-eroded1px",
+          "median_RGB": [
+            208,
+            246,
+            228
+          ],
+          "gradient_position": 450
+        },
+        {
+          "source_native_y": [
+            365,
+            370
+          ],
+          "pixels": 38,
+          "method": "opaque-core-eroded1px",
+          "median_RGB": [
+            138,
+            240,
+            185
+          ],
+          "gradient_position": 650
+        },
+        {
+          "source_native_y": [
+            370,
+            375
+          ],
+          "pixels": 7,
+          "method": "opaque-core-eroded1px",
+          "median_RGB": [
+            121,
+            228,
+            195
+          ],
+          "gradient_position": 800
+        },
+        {
+          "source_native_y": [
+            375,
+            379
+          ],
+          "pixels": 4,
+          "method": "opaque-core-eroded1px",
+          "median_RGB": [
+            148,
+            212,
+            220
+          ],
+          "gradient_position": 1000
+        }
+      ],
+      "sparse_mask": {
+        "path": "locales/zh-Hans/video-repairs/worldmap-v35/masks/worldmapmovie_11_lastrada.png",
+        "sha256": "58cc3d0292609176af2dbc2e15325611e6cf160c213fa46d4f1a3431d6c51dc4",
+        "pixels_sha256": "aae5d150eacb7fa0330acfb3e91790c3b378e35add76adc9d449fc43fc28c771",
+        "pixels": 5697
+      },
+      "model_provenance": {
+        "upstream_commit": "326782529a63d997cab80ab21439b92ed422b3d3",
+        "upstream_project": "https://github.com/sczhou/ProPainter",
+        "variant": "RGB image propagation with native PNG output and explicit finite-tensor guard before conversion; no feature-context overrides",
+        "crop": [
+          160,
+          232,
+          512,
+          256
+        ],
+        "parameters": {
+          "resize_ratio": 1.0,
+          "mask_dilation": 0,
+          "ref_stride": 10,
+          "neighbor_length": 6,
+          "subvideo_length": 40,
+          "raft_iter": 20,
+          "fp16": true
+        },
+        "weights": [
+          {
+            "file": "ProPainter.pth",
+            "size": 157780510,
+            "sha256": "12c070c4b48f374c91d8a2a17851140b85c159621080989f9e191bbc18bd6591"
+          },
+          {
+            "file": "raft-things.pth",
+            "size": 21108000,
+            "sha256": "fcfa4125d6418f4de95d84aec20a3c5f4e205101715a79f193243c186ac9a7e1"
+          },
+          {
+            "file": "recurrent_flow_completion.pth",
+            "size": 20348681,
+            "sha256": "22939a1a7900da878dbe1ccd011d646b1bfb30b8290039d8ff0e0c2fefbfd283"
+          }
+        ],
+        "finite_wrapper_sha256": "dad25af43087e1f8e53fe239071e59b67c6d41bdc58d85d1ada4d4449d305e66",
+        "native_inference_script_sha256": "88c73fcdaa35dd6d51e6281bccd6058832dcbf6b9f27fb38126f0625d4b34850",
+        "frozen_model_run_receipt": {
+          "path": "build/phase-365-worldmap-v35/models/worldmapmovie_11_lastrada/RESULT.json",
+          "sha256": "1daca98738d3c517d06123c0c5426d71f1079274ce7a45fee6ff9ded0a70e3a8"
+        },
+        "source_profile": {
+          "path": "build/phase-365-worldmap-v35/models/worldmapmovie_11_lastrada/INPUTS.json",
+          "sha256": "ee39218c9118607167e3fc031389eb222720db806d94ee6fb0506a47092f1bb0"
+        },
+        "correction": null,
+        "evidence_only_build_paths_not_runtime_dependencies": true
+      },
+      "raw_native_review": {
+        "path": "build/phase-365-worldmap-v35/raw-qa-native-geometry/worldmapmovie_11_lastrada/RAW_QA.json",
+        "sha256": "adca2e14c83c71c1d284f6aeca429520a8cd47f9653c56518c10fff60d3d7504"
+      },
+      "limits": {
+        "original_font_identity_recovered": false,
+        "original_hidden_RGB_ground_truth_recovered": false,
+        "unowned_source_RGB_exact_before_encode": true,
+        "lossy_encoded_background_exact_claimed": false,
+        "game_or_user_acceptance_claimed": false
+      }
+    }
+  ]
+}

@@ -1,0 +1,3447 @@
+{
+  "schema_version": 1,
+  "kind": "bink-audio-caption-plan",
+  "locale": "zh-Hans",
+  "game_rendering_verified": false,
+  "source_font_identity_recovered": false,
+  "style_basis": "Per-clip native measured visible ink/baseline geometry, left-anchored serif destination title, and source-normalized map-specific foreground gradient. Finite-guarded temporal RGB propagation copied only inside measured old glyph+outline support. Native compass/point/all unowned RGB source-exact before encoding. No flat fill, width stretch or covering bar; hidden RGB remains reviewed reconstruction rather than recovered original art.",
+  "rasterizer_versions": {
+    "Pillow": "12.2.0",
+    "numpy": "2.5.1",
+    "fontTools": "4.63.0"
+  },
+  "fonts": {
+    "caption": {
+      "path": "build/font-source/NotoSerifCJKsc-SemiBold.otf",
+      "sha256": "d627b53dbcde61e07de1498d2623a8b287f78585ffbc90cc0618d0caaa2ed6b0"
+    }
+  },
+  "entries": [
+    {
+      "id": "worldmapmovie_09_velfort",
+      "source": {
+        "file": "worldmapmovie_09_velfort.bik",
+        "member": "MC2Game/Movies/worldmapmovie_09_velfort.bik",
+        "size": 26592096,
+        "sha256": "e9b78b5cd62faa326fb6d5c579d7dbc00776d9eba8a32f1c6a6c2dff53951c7e",
+        "first_rgb_sha256": "84d719bfee4a687b3bb1292ade873ed56a58c08f1b6325e1066f54ce040149dd",
+        "discs": [
+          2
+        ]
+      },
+      "expected_header": {
+        "width": 1280,
+        "height": 720,
+        "frames": 360,
+        "numerator": 10000000,
+        "denominator": 333333,
+        "magic": "BIKi",
+        "audio_tracks": 6
+      },
+      "maximum_frames": 600,
+      "maximum_encoded_bytes": 134217728,
+      "encoder_timeout_seconds": 600,
+      "source_text": "벨포트",
+      "translation_basis": "Exact baked destination name; reuses the adopted project place-name. Native em size/advance is retained; natural target string length is not width-stretched. Not the independently unresolved postplot chapter-title route.",
+      "scratch_reserve_bytes": 8589934592,
+      "minimum_start_free_bytes": 17179869184,
+      "encoder_guard_frames": 1,
+      "review_frames": [
+        0,
+        1,
+        2,
+        39,
+        40,
+        41,
+        79,
+        80,
+        81,
+        119,
+        120,
+        121,
+        159,
+        160,
+        161,
+        179,
+        180,
+        181,
+        239,
+        240,
+        241,
+        269,
+        270,
+        271,
+        319,
+        320,
+        321,
+        357,
+        358,
+        359
+      ],
+      "captions": [
+        {
+          "role": "worldmap-destination-title",
+          "text": "贝尔福特",
+          "font": "caption",
+          "font_size": 32,
+          "appearance": {
+            "kind": "source-style-v1",
+            "ink_box": [
+              256,
+              341,
+              300,
+              33
+            ],
+            "align": "left",
+            "gradient": [
+              [
+                0,
+                [
+                  255,
+                  255,
+                  255,
+                  255
+                ]
+              ],
+              [
+                260,
+                [
+                  254,
+                  227,
+                  221,
+                  255
+                ]
+              ],
+              [
+                450,
+                [
+                  249,
+                  177,
+                  162,
+                  255
+                ]
+              ],
+              [
+                650,
+                [
+                  235,
+                  186,
+                  130,
+                  255
+                ]
+              ],
+              [
+                800,
+                [
+                  228,
+                  222,
+                  140,
+                  255
+                ]
+              ],
+              [
+                1000,
+                [
+                  208,
+                  207,
+                  138,
+                  255
+                ]
+              ]
+            ],
+            "outline": [
+              0,
+              0,
+              0,
+              235
+            ],
+            "outline_width": 1,
+            "glow": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "glow_radius": 0,
+            "shadow": [
+              0,
+              0,
+              0,
+              180
+            ],
+            "shadow_offset": [
+              1,
+              2
+            ],
+            "shadow_radius": 0.8,
+            "italic": 0,
+            "tracking": 1,
+            "weight": 0,
+            "motion": 0
+          },
+          "frame_alpha": [
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255
+          ],
+          "erase": {
+            "rect": [
+              248,
+              336,
+              300,
+              56
+            ],
+            "mask_asset": {
+              "path": "locales/zh-Hans/video-repairs/worldmap-v35/masks/worldmapmovie_09_velfort.png",
+              "sha256": "3d5f042673a75c362b26b9dabac3ba1002b6b1f400734bf964afee052f6a97d4",
+              "pixels_sha256": "f40e0e1cfe6f9dae733693fc5eb141b43b9520c8f2f41e795d573b1f510ce6e6",
+              "pixels": 3697
+            },
+            "frame_repairs": {
+              "method": "sparse-frame-rgba-v1",
+              "records": [
+                {
+                  "index": 0,
+                  "source_crop_sha256": "5c5a1bcadff4dd3f2d4dafac0b7e01c77349a0de93fcb536feb80b4b07e0121b",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0000.png",
+                    "sha256": "169e3979a70d5d5c7c0e5c00795c0faefa3643360e753d0979542e809f053f48"
+                  }
+                },
+                {
+                  "index": 1,
+                  "source_crop_sha256": "1d0195f54ddfb3bbaa2b709c83b01824e0a6bedbc19e6e664a85429db288ceed",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0001.png",
+                    "sha256": "16fe69b00ab3efb59faf8a3815ee9ef03be9aac26916ba278ac475213738fba0"
+                  }
+                },
+                {
+                  "index": 2,
+                  "source_crop_sha256": "f3e153231fc4355f83493783b8cd52472fdf5b66f9a3e111a5eabdd66371de16",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0002.png",
+                    "sha256": "aee73ea14ccc680ceedce1f10f686b0c9070d8d6b2a575e2ef95a24448c38e1c"
+                  }
+                },
+                {
+                  "index": 3,
+                  "source_crop_sha256": "e89ba1710e85bb238c21d04568dfdb90d855d592fe5d6b0cc6b247486cda211e",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0003.png",
+                    "sha256": "0d357b9307097c599c85e27b5b3d91db4f0006193884fcd4aa5295eee9da0a8a"
+                  }
+                },
+                {
+                  "index": 4,
+                  "source_crop_sha256": "137e82629929330e53bebddcc33aa26eb3aeb77b06fcf9045b0710bc92e1c6fe",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0004.png",
+                    "sha256": "1d6595b81aa4f69448c4344ea8cccb2610fb8a7d6eebe3a708d8f69377d1c9dd"
+                  }
+                },
+                {
+                  "index": 5,
+                  "source_crop_sha256": "73cc373eb19231064494597a05382011c03c4de279d3467fb2cdc261d5a4738f",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0005.png",
+                    "sha256": "6a20dbaff0e5261cdca62211c076c19441081ed1bb45f5c1936b9af132ec0048"
+                  }
+                },
+                {
+                  "index": 6,
+                  "source_crop_sha256": "f98a197a6459a812e89c126d63f655d661f91dddfee388de7a676000135040aa",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0006.png",
+                    "sha256": "4b14f075934c46e0495f992a7493724dd33a492e2a9f58fa5186d13faf9f3559"
+                  }
+                },
+                {
+                  "index": 7,
+                  "source_crop_sha256": "6d5f18fbacfbae2447c9d1ffd97170fbb4c652223c1ddf31a9d97c875db20f96",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0007.png",
+                    "sha256": "59be567c2b77446d7d02b266439d75fc8218c60f179d213ab1b9be790d81f54a"
+                  }
+                },
+                {
+                  "index": 8,
+                  "source_crop_sha256": "2cd74ca76323d82ad1e2588a85a093c4bd76fd4e52546cac0ebb7a07203b8070",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0008.png",
+                    "sha256": "76062bac202f52fd974fd232ec2d51b510796f8668da1ba972fa2df1a5f55771"
+                  }
+                },
+                {
+                  "index": 9,
+                  "source_crop_sha256": "5df768f68f53ea9d6f38437831a948096807c7214308d33405faccf5e0199a02",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0009.png",
+                    "sha256": "671cb49ec33ea6bf542030c30f43045e2755f736afe4607ab0c0452a56c627b9"
+                  }
+                },
+                {
+                  "index": 10,
+                  "source_crop_sha256": "38a75c9c49e95615ddb459a62f7eaf226deda38b11f10e9a1341f861a1d6f7b7",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0010.png",
+                    "sha256": "eddec2f52a17af0c672263ca658a21645be35d639d39d8316e2ca796a2bf87e5"
+                  }
+                },
+                {
+                  "index": 11,
+                  "source_crop_sha256": "0921852352704ae062b4d5900e93757abb40e7834b34cdfcad7851ec84915b8c",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0011.png",
+                    "sha256": "eb2364573e8c9d9e40a94f99210f5fbce94df4fca1ff93faea6051180aaac6e5"
+                  }
+                },
+                {
+                  "index": 12,
+                  "source_crop_sha256": "41605b7fc6a59d27303e71abd72afcec82843bc13af043bab26644743ce92b3b",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0012.png",
+                    "sha256": "bf14ad606fd848595e96e7462a79b7c98726259f8cb118bd8676f3bf987e80d6"
+                  }
+                },
+                {
+                  "index": 13,
+                  "source_crop_sha256": "73a72ed1c5d63025ca95329742637f36543ceed2d661bc8d73d6f8e170512247",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0013.png",
+                    "sha256": "3ddf490202e1dff291393352d5e86e48eabf4cf5c77e2648624b9fd432b49c9e"
+                  }
+                },
+                {
+                  "index": 14,
+                  "source_crop_sha256": "beea292f350c33876f5203b48b3a714e11b4b371da288804a690be07a5b20f3f",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0014.png",
+                    "sha256": "78e5344339f2f115d6ce9ee0c892dc753f3fb2dd6ae2f605d1e2b4ab3ec6b677"
+                  }
+                },
+                {
+                  "index": 15,
+                  "source_crop_sha256": "accf9850eef05dcb71d04cd0628395e0a22a4696b0b808a7ff23785727822d40",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0015.png",
+                    "sha256": "f866776a8029f5a33d721f46c2533a0cfa12da67ad0eed23dc3e1b39e319aae0"
+                  }
+                },
+                {
+                  "index": 16,
+                  "source_crop_sha256": "134038a3c8a82a7080e41f47e58f7530be894f5a43e9410d79e2958440feb731",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0016.png",
+                    "sha256": "fddc41269dc18eaaf23ac5f26155bc8fc67d6c31461cf10e49e739418b7f73e6"
+                  }
+                },
+                {
+                  "index": 17,
+                  "source_crop_sha256": "08a9fbd4591bc553baa270a522c285f1c2bc8ae3eefbe17674ad787421f03d67",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0017.png",
+                    "sha256": "804e5e149b7e8dd9221e4330c00125ad749632da0623d38daac07e6957713736"
+                  }
+                },
+                {
+                  "index": 18,
+                  "source_crop_sha256": "f97ffa1a88e5dd2d007d4be5558600c095d9c988b123d5cf3e5474e0543beb79",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0018.png",
+                    "sha256": "ef3ca8095c1a6079ccee812db440bc2298f2816dacf1b7b281dcc14f8479fb75"
+                  }
+                },
+                {
+                  "index": 19,
+                  "source_crop_sha256": "fcf5bf78805a3dee7d392f4e62fa51ffa5dfaa5728052b89ccb45fbf409f2af6",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0019.png",
+                    "sha256": "73a44159a7d4c94997d18ceea57b519cf2ec214e3813ef9fbd9f47b2d4ee2655"
+                  }
+                },
+                {
+                  "index": 20,
+                  "source_crop_sha256": "3a578b2b026f0550c54fde1fc6880878a548d59ac8e198eb72ab7a28aaf9a0c0",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0020.png",
+                    "sha256": "5df83745be202798d0f5432e6f395ab6a5ee7e0032873e60abcba300d7e1698f"
+                  }
+                },
+                {
+                  "index": 21,
+                  "source_crop_sha256": "7dbae20afe9f6bd9bcf9445a923cc470c4fd3a8e151189b74c14bbf57d9fe871",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0021.png",
+                    "sha256": "26a2f3db958cfa76a04b0c6419b047e0371ba6f1903bd34f763ae187b0cad36e"
+                  }
+                },
+                {
+                  "index": 22,
+                  "source_crop_sha256": "75af080733cc45b8248783d48fca4fd89838dc39d35b94aa6e785d6ede6e7865",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0022.png",
+                    "sha256": "13658bb3a875cf28d958e80fd458585501b8f50cfab5f1487d4334cd8ddabb05"
+                  }
+                },
+                {
+                  "index": 23,
+                  "source_crop_sha256": "78b2800d1ead900924e8bd8e787a03ca0beee04803ebe4790a6e4a235d217a19",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0023.png",
+                    "sha256": "a42400aad1be405bb7e39001f056f0dce9c4b0e6757f22d8a4ffa5dccfddb1af"
+                  }
+                },
+                {
+                  "index": 24,
+                  "source_crop_sha256": "5d3650dba82720fd3e0d29b3a868acbaa326088adca4ac335c32ad247eda9abc",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0024.png",
+                    "sha256": "5f3460e50b05d27821f2b67f20f512a61abba31285ad2c66190c735e06eb8989"
+                  }
+                },
+                {
+                  "index": 25,
+                  "source_crop_sha256": "0d99a995b8204f4013a008e24b5225c3b8c6f93276aa66158fdf19b41ee153d0",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0025.png",
+                    "sha256": "e41595abb041cfca5fc04d38f89766137c824bb68bf200ffed02d0cc35190a0b"
+                  }
+                },
+                {
+                  "index": 26,
+                  "source_crop_sha256": "79786135bf6d230f7610b9c0052596b6337b992fe5d52930b5b342f9263c4b34",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0026.png",
+                    "sha256": "1d5323755ea4fca2bfd1a2ce2bdcab3864a718f9adbaa8e54207ece04a29a846"
+                  }
+                },
+                {
+                  "index": 27,
+                  "source_crop_sha256": "3c867c4707a8d38d3963e2bca7a94512f36b3ef673f753b6c8cfed867c110362",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0027.png",
+                    "sha256": "427cb42f47adc4c4950f1d55e879125d0587036f61ec63a58140a2b965c32829"
+                  }
+                },
+                {
+                  "index": 28,
+                  "source_crop_sha256": "9e593c39baf2ec60d6fd817528fc947204f7ee173c57d3c9f30463a70a091cad",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0028.png",
+                    "sha256": "fb3e53f5fcd3170e1b9cafea35699960df506b5b30b047729f24ee7d022e71ff"
+                  }
+                },
+                {
+                  "index": 29,
+                  "source_crop_sha256": "cc011c4a1101c3e0abe2cde9a38486abbb56879ecb32fed68f31da747bdf18f0",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0029.png",
+                    "sha256": "d274787323ad9d38baa7747701a017105f15b23ad860a4719e3ad5fb145e39a9"
+                  }
+                },
+                {
+                  "index": 30,
+                  "source_crop_sha256": "f9d7132dbf0bb6010692717ef13cfa92d5aa8511a1deddcc9d7ec102ec43497b",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0030.png",
+                    "sha256": "8b06ab12567d9e2db82f22347e483dc84c7d98d89425e2fd7af23b3ba46cefbf"
+                  }
+                },
+                {
+                  "index": 31,
+                  "source_crop_sha256": "1b6ed9636f7b5bb36ff48f2d9433bd209f1d797f0f028942b3ea60caa6279faa",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0031.png",
+                    "sha256": "b91cb439a6294f884868fb6b80cc644c3f1f0c4281e8a6cbab55b12cdb5904d9"
+                  }
+                },
+                {
+                  "index": 32,
+                  "source_crop_sha256": "be0ebe1ed539050f99da2c39b205c853060208885dcd0485fc65d1199698be46",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0032.png",
+                    "sha256": "d688f8262ae7af0a41868942bb24ed42c1b9149884d9775cd486bad14a2cbbbf"
+                  }
+                },
+                {
+                  "index": 33,
+                  "source_crop_sha256": "18c4087aab7609afa53f2af31d9cf09773eb9cf4057910e8bfa24a4275add12a",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0033.png",
+                    "sha256": "cf28e04984eb5539e5fedf723842590dd4ec95ad6dfcc1516468d3f3bf0b1d87"
+                  }
+                },
+                {
+                  "index": 34,
+                  "source_crop_sha256": "25ead380e10bc02ee23181f23c01d6b59553226063ce2ffdaff113e5bf8bda0e",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0034.png",
+                    "sha256": "8ed417ba3cd9d1273806430290cb64a11b5b8f5a9d3246f13eec6ffe8650440e"
+                  }
+                },
+                {
+                  "index": 35,
+                  "source_crop_sha256": "420c57d71f781131407647d77f547e9b4d9901c2f99b4ba846f651e5f0de04aa",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0035.png",
+                    "sha256": "4eb2fc4915cfaead5c30fd85c20f2b9d6cc5615653362b83475d6f4c5f0fc866"
+                  }
+                },
+                {
+                  "index": 36,
+                  "source_crop_sha256": "7a6ba3da3b2dba95d2e25888fbbde7e0874b998bbbf9a9d74099419f04a2590b",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0036.png",
+                    "sha256": "e18fe633c4db5c701f5371bde75eee8c598a3a2a1640ff5f1cdd022abcbab1e0"
+                  }
+                },
+                {
+                  "index": 37,
+                  "source_crop_sha256": "9323bacd29a752f2690adfb28f00a699f62dbe2156539b9003e3e1dc6c44f3b0",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0037.png",
+                    "sha256": "7a7dcda04c5d7d1ab64d0732f4570d43f9771a80294bd76a6c316a4e04047300"
+                  }
+                },
+                {
+                  "index": 38,
+                  "source_crop_sha256": "2e9acc730f258f92a6efb42419965893a47015a24c52230fbadee4e1107216ca",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0038.png",
+                    "sha256": "4675c5db76957366cb6f3536363f8e771b70b18018482e8690c5a5bfad2fc812"
+                  }
+                },
+                {
+                  "index": 39,
+                  "source_crop_sha256": "5a1ebed4aec32c6b5887e79dd259f4d50d4c35c29054c46193400c8859cec6b7",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0039.png",
+                    "sha256": "7763ca847ff2e8add2d07a8b44de6c9821796b75e67adfc751536c516e28bf52"
+                  }
+                },
+                {
+                  "index": 40,
+                  "source_crop_sha256": "84327857781d238b0b082e2684970cf9c9297cfec473f8a07aa352608524607d",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0040.png",
+                    "sha256": "fc4e5586e5f92642d33a26119e9d15e066c7be4e43d8a203c01afa4a5b67b1a8"
+                  }
+                },
+                {
+                  "index": 41,
+                  "source_crop_sha256": "cfea47602e74b996d20e5d96aaaa92faa985978e9ca9266e12032a8a57f1ef57",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0041.png",
+                    "sha256": "aad927a76f6346807ee927357aae6fc00edf71e5b89e98183d6d9b4761e92b27"
+                  }
+                },
+                {
+                  "index": 42,
+                  "source_crop_sha256": "e27d648101fb643e7e43cdb6b12b4c72b71f0f2e6f3e4213069061325ec48077",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0042.png",
+                    "sha256": "45b544246d76d1eabfee0cb768ccefe17acf81ee7bc5e5994abaead47eb2268a"
+                  }
+                },
+                {
+                  "index": 43,
+                  "source_crop_sha256": "8ceda43c4a31f4b643091aaf223c1fdaf7e8e9b949c0fcda9ea044f284d10ec1",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0043.png",
+                    "sha256": "8a396ffbea1b4749196999fdf09ea0f205cb5e8574adf04af44126af4f044935"
+                  }
+                },
+                {
+                  "index": 44,
+                  "source_crop_sha256": "dbd41864375a892ff8e715729c7a26b7192aa18e8c52ec6a29d385f95bc397b9",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0044.png",
+                    "sha256": "6b76d0e7add484bcc75c41df5ccfe4ab0cd5045c1b4edd32a6598484fb7dce9e"
+                  }
+                },
+                {
+                  "index": 45,
+                  "source_crop_sha256": "7d9832e07134f9712313043f834be4e73f21583cf3dc424a1b16a3e290bf9a81",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0045.png",
+                    "sha256": "a93a876ded49ae230441ab198162e2f4dc645537cc739b49ea670c7eb7bfd4ef"
+                  }
+                },
+                {
+                  "index": 46,
+                  "source_crop_sha256": "19bd21953bd171b3f2a269d07cb858398c7f8b458d7e04ab65e1140a79b592e6",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0046.png",
+                    "sha256": "1ea9bda4df93d202d62cc4371ee73314f12079f267dfe7d8ad9cf40750c467c8"
+                  }
+                },
+                {
+                  "index": 47,
+                  "source_crop_sha256": "556a173e7efaa08abafeff822e3b2ee1f2d2e821e1937af20648e7b874b1607a",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0047.png",
+                    "sha256": "d8f69acd3ec852464041f2fa9ca5c5ff00d9947169d7f26fabb680dde2b302b6"
+                  }
+                },
+                {
+                  "index": 48,
+                  "source_crop_sha256": "ff7c388b821b7bf42f5da1eab879bdd46967f915e630997c0765bd6011b1596e",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0048.png",
+                    "sha256": "7ed0b7e1da2d765c87f1ccbf5a4a8c4f780b699ae354a540d049eca52d7f7bb5"
+                  }
+                },
+                {
+                  "index": 49,
+                  "source_crop_sha256": "f58edd488c2173b95bfed7e123221fb2ce55549256c93a8e6cc343fb43ab091f",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0049.png",
+                    "sha256": "48f8701606f9fa6404c190c89d1789dd86a0fe362cbe69b04e46f92113751eb1"
+                  }
+                },
+                {
+                  "index": 50,
+                  "source_crop_sha256": "bae921316ddb80faefc53d8b49c723f4dbbf5b4f532213fd8b2331a51701afc9",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0050.png",
+                    "sha256": "274e293824ef86c6daabe49fa40e8437dcce1c75a98e0c344b4e5de11cf0d920"
+                  }
+                },
+                {
+                  "index": 51,
+                  "source_crop_sha256": "051a56a1fc0f2b9b0daf0ddb82abe84a0135abd09323cdaab7dc74505f7bb035",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0051.png",
+                    "sha256": "07196b749a0feb59e96c669302d19e3915168f08a49794d66e5bff0101d94664"
+                  }
+                },
+                {
+                  "index": 52,
+                  "source_crop_sha256": "39ae85ac99a339f9655ba285dcf99d3423dab2e4c249a240b3688d68ebfa719b",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0052.png",
+                    "sha256": "0ba020a1349d1256d74ee078afa12087ca2b6a8b9ec2f38827dfd23766858f0f"
+                  }
+                },
+                {
+                  "index": 53,
+                  "source_crop_sha256": "8fedcbcbfa81748ae1aaada7e9d836af4580e3150086f5fe8c21467186d69153",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0053.png",
+                    "sha256": "975633ca494562f5743881594f52a195c4553fa54d9bcfda294efea5df170ee4"
+                  }
+                },
+                {
+                  "index": 54,
+                  "source_crop_sha256": "d9c5be5f10da9cd22a7ceb42f0597d739315af0d95ff306b0fdaefc5ec30e33f",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0054.png",
+                    "sha256": "2ea596da7f72cafa774e99e38fd06b50ff1b44635c2202b39723a81397ae6628"
+                  }
+                },
+                {
+                  "index": 55,
+                  "source_crop_sha256": "a971799a17eaf72cfcd42a2240cf91f6640c93f0e90446addff7701846cfe328",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0055.png",
+                    "sha256": "cd33fe5de1604461743e3a32087225255a8f23aff6d5a553d2bb8f094e3d286a"
+                  }
+                },
+                {
+                  "index": 56,
+                  "source_crop_sha256": "ada260acc07981569e02882cba7c7c6e733aed7b7e530b4f9773d7b077cc0ac1",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0056.png",
+                    "sha256": "ad8c280ff3ab7e299371e53b5264b304f7ca9ba08c7e1fa4bc585acd6b039ce6"
+                  }
+                },
+                {
+                  "index": 57,
+                  "source_crop_sha256": "b71abacd5963aa8d4f757dd4f954d49f7c24c936094d043a9175f01d5d56ccf8",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0057.png",
+                    "sha256": "2b49ad04b6960e49c0446c47a716f02ad005f4535cf59356992cc0313c31a583"
+                  }
+                },
+                {
+                  "index": 58,
+                  "source_crop_sha256": "1785add3d3c06a4173f873fc2334d29272286babeeb485f345421eb648c4a3b6",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0058.png",
+                    "sha256": "e6f5ee2b362f9643427738afc513bcb5a14502bc09f86739b268dd7efb1bba71"
+                  }
+                },
+                {
+                  "index": 59,
+                  "source_crop_sha256": "ee7590f3075b6426bce99942f6749fcc42c2936b72152377a22d44b2505df1b7",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0059.png",
+                    "sha256": "15d7dd9bca4024ecb932c7e6e1905f392c7e815cadbd56972b7b3b36c54057f5"
+                  }
+                },
+                {
+                  "index": 60,
+                  "source_crop_sha256": "a7ff474ac5e7a233d4eef39eb8907db6f9ed3b9baad64c5ede0c08034d80d95b",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0060.png",
+                    "sha256": "abf69ac329fbf30e8c5bd82916ed9d197f31c4e7717741a4fe87b79695364694"
+                  }
+                },
+                {
+                  "index": 61,
+                  "source_crop_sha256": "10ea07509fd1fa8145ab0477730f0e97f05493fbac2511f8124652008d5c2acd",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0061.png",
+                    "sha256": "9ecebffa2efbaefcd25b7edde83c66849a587486ca855d3297c719e543c68d85"
+                  }
+                },
+                {
+                  "index": 62,
+                  "source_crop_sha256": "12b9b7b8759ab7c4bb5ea99f6a277f790d50c4ffb2675aedecd4dc05386d3623",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0062.png",
+                    "sha256": "257e4881f6e219111a620b347f22b1f3597fbd6a381d9411759dd27e46037fab"
+                  }
+                },
+                {
+                  "index": 63,
+                  "source_crop_sha256": "40558857cb87b0c653a4eca98d75e06893d360ce4216e95431cc97f01d457e5b",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0063.png",
+                    "sha256": "3c3d3bded36bd19df8d4898c3dcccd53522514c4de310bda40dbf834fa304401"
+                  }
+                },
+                {
+                  "index": 64,
+                  "source_crop_sha256": "dcd0ec6edf1fde77e5ab9c0604d939ee16478dd1fefd7ce26e890e521ed83956",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0064.png",
+                    "sha256": "01582d9284b3b4a906d2a69bc4b4022f8ecfad4ae0b1507a60f8b9575259764f"
+                  }
+                },
+                {
+                  "index": 65,
+                  "source_crop_sha256": "969a9b138139626b3e77680921535bab2e4028cd0aa953bf22f4d76e0fb64b96",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0065.png",
+                    "sha256": "08de0c78e9473a44a256410f24a789a01d6eba7df53c5a94e71509472ed06582"
+                  }
+                },
+                {
+                  "index": 66,
+                  "source_crop_sha256": "95be563b8dc1f80e6b3e3c44a6a48a5262c690500c9f042b0359a1f783d580c0",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0066.png",
+                    "sha256": "e760b327d3039af0bc7880b7b0c0e1e461b1a66f9815adf9eb967be9b3645272"
+                  }
+                },
+                {
+                  "index": 67,
+                  "source_crop_sha256": "271502f67772027b41f3a2c0a618e3ececc25863173f0010e6ac8fc1fe0d9e22",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0067.png",
+                    "sha256": "d3f23058f937eaefb596ab662bd436e5ce1d9b7f4d048fdf81fe4c3b3905c483"
+                  }
+                },
+                {
+                  "index": 68,
+                  "source_crop_sha256": "d8d970f4905288cff28995793d6dfb4ef9b8c163a14b8cf8e4abe61ed9d2af46",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0068.png",
+                    "sha256": "227c202570af3ad747c00a47fb69c1955288866eb18427f7024d1e42b2a5550d"
+                  }
+                },
+                {
+                  "index": 69,
+                  "source_crop_sha256": "4aecbe02de75523d27c89316f1f21017aba50d378c8eb855589a7e971883901b",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0069.png",
+                    "sha256": "b6c3f2d2a7060520c6330e460905b387167fbd8dd8024986a4f256404638ff8d"
+                  }
+                },
+                {
+                  "index": 70,
+                  "source_crop_sha256": "a80510a88229f207e2bcfdf6f7728a450b67a958e2811bd757df63836882abbe",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0070.png",
+                    "sha256": "600417f82f723160dc1da08ed91347fa606ac6d719035a6a4b213369c05e785d"
+                  }
+                },
+                {
+                  "index": 71,
+                  "source_crop_sha256": "89ab7d9b14609e6524ca5a62d1175f71f8592fc5af07f250aaa8138b15340462",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0071.png",
+                    "sha256": "eca35115553d52fae252cfa8d49189609f4945aa6b16a8f72dcfce3b6f22ced7"
+                  }
+                },
+                {
+                  "index": 72,
+                  "source_crop_sha256": "635b7bd6ccfadd0fe180e34413b0e0083bbda8c23c6756631993b1378da64da5",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0072.png",
+                    "sha256": "0e312bcd63a41a3b1d0395f9b1c4463f5a9288ce598d969252cec3afbcdfeedc"
+                  }
+                },
+                {
+                  "index": 73,
+                  "source_crop_sha256": "d188f02f1489e92aed46c09354a34019c3c085a703e5ffee1f50ae615611b002",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0073.png",
+                    "sha256": "9133f571796881c2f4263c355fb6224307b1ab8eec7b73f335a8c9e63b19b9c6"
+                  }
+                },
+                {
+                  "index": 74,
+                  "source_crop_sha256": "9f0f1cafee5a0275e5c812330c570f23de98cd17b3e6685c678b9ef90fd68c3f",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0074.png",
+                    "sha256": "df4726a2e855654e5b7237e4a69148fa68f346ccddcb2316c6fdb2de06e049a9"
+                  }
+                },
+                {
+                  "index": 75,
+                  "source_crop_sha256": "b7b1d0d79718ff9e1c631245fabb281960bf4afaa67cfefb3000c01ca0a2626c",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0075.png",
+                    "sha256": "a96995c813e3de08a94fcaf0b0f565a4d21614939386790ab5c4593f750a3c45"
+                  }
+                },
+                {
+                  "index": 76,
+                  "source_crop_sha256": "377b9a1e88c418a6053e08bff24db8715d8e440406c47e24ac997b37168ea562",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0076.png",
+                    "sha256": "20421c5da30c274efe9a917c4ad201e91e03cbc34fe935f3613632e7cbadbe4a"
+                  }
+                },
+                {
+                  "index": 77,
+                  "source_crop_sha256": "b1657c254c7cfb62e9b59cbf5d2fc5f04f76ef41ea5cfcce5136ce50e6e06170",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0077.png",
+                    "sha256": "cb21203d58a92bcd5a4dca2940a81e203449947cca41915f715460dc135a832b"
+                  }
+                },
+                {
+                  "index": 78,
+                  "source_crop_sha256": "a0e11344436648ff05dcaa10f1f9a937f0e0a0409b4cc7248e8bb1f89422dfff",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0078.png",
+                    "sha256": "8bd9bd9971f08dd4854c66e9efc0bf69e05e67597df6ff471c2df1f124ca5d95"
+                  }
+                },
+                {
+                  "index": 79,
+                  "source_crop_sha256": "443f80472a2c80bf9e8d598e6c9b6ac444370ae3613056bdf77be22583f9a0d1",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0079.png",
+                    "sha256": "1301c7a4c12d3d5f9620690b651337f252428226c31bb479e80d31f35badea4e"
+                  }
+                },
+                {
+                  "index": 80,
+                  "source_crop_sha256": "df09d931d646e25e3a63a2238e4647a2ba020b7b2bfe2669a3804561a4f630c5",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0080.png",
+                    "sha256": "8afecba93835d0fa44627f2d8033748aa7f60495feba68ed4bf5038ecf250eba"
+                  }
+                },
+                {
+                  "index": 81,
+                  "source_crop_sha256": "d6c4f2187176e991833ac745a864e5c23e3e0773b49b4471e243e41704b6823b",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0081.png",
+                    "sha256": "60618aa8fa6508d8a4a398c5ef70e74bc2ec0e168a793aa991d8de45033340b1"
+                  }
+                },
+                {
+                  "index": 82,
+                  "source_crop_sha256": "ef0541a56f55c7fdf81848d4f577452e3fc2073a587599b25c06eaf0dc832668",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0082.png",
+                    "sha256": "fdce9c04571e764ebcff3e5c769b61b9d49eaa8d39651d5e72f90e2d2bc3bb03"
+                  }
+                },
+                {
+                  "index": 83,
+                  "source_crop_sha256": "1a458674d63d7009782911fbdfb1cf5061a3ad256106c5e1ad45890bbfb60967",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0083.png",
+                    "sha256": "270e093f3c17b9d1371ef3884d4491d86546f4e7e97b66218af6433988d5cacb"
+                  }
+                },
+                {
+                  "index": 84,
+                  "source_crop_sha256": "c562a479f2a1392da069b9e5f8b7e2510bde4fed8e8679c6faf56134d9139dc9",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0084.png",
+                    "sha256": "d6dc6c2e83c54b2f87389f2fcadbb3a89417bad2ce092814a674d85747785098"
+                  }
+                },
+                {
+                  "index": 85,
+                  "source_crop_sha256": "c284cd5758b82f9cfda1d0997f0d8df335ed6aae0b637559f85ad5e7eb888fb2",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0085.png",
+                    "sha256": "1579c3272b51109ce1dc61801a60b070dd18cf428b114c2f80bfcb2817245c8c"
+                  }
+                },
+                {
+                  "index": 86,
+                  "source_crop_sha256": "5b331acae14ab4e61b94be25ea7744831a6b93a620f5fc4b4cdcac59e0c14491",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0086.png",
+                    "sha256": "c8184151d79c75a97d08e3566a6501576407641b5d7f1c453afc794ea7971a40"
+                  }
+                },
+                {
+                  "index": 87,
+                  "source_crop_sha256": "a448e14e97a4f7045378080f11deb07c5934615afdd9d378c34b4969870d243f",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0087.png",
+                    "sha256": "32ec16c73e7a84d0e16ac568e9481b0a498315d697d6668fecd107b10b38f3a5"
+                  }
+                },
+                {
+                  "index": 88,
+                  "source_crop_sha256": "cede2390dacdf3bd260900b88d2720a03e0f9ed319d8287e975c503518560bf6",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0088.png",
+                    "sha256": "7f7ae950c47c6b3244b294065dd37fc6912231972c9464b6656f0593a420d04a"
+                  }
+                },
+                {
+                  "index": 89,
+                  "source_crop_sha256": "91b279cbb971806b2853a603acf92b0b95c16edb14d8dff0fc222d40ed5d492a",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0089.png",
+                    "sha256": "01a06e1210a9a70770777180f5dd439af4eb7cb1cf9487c82dcca4c4f6c68e32"
+                  }
+                },
+                {
+                  "index": 90,
+                  "source_crop_sha256": "7ee175bd3375ac3ba16db7b57f8ecfb2b35443ba3f5ba6b65bfffd0ec23d5066",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0090.png",
+                    "sha256": "17ade4bc748812228d3038508af4d1075e8678494b63ebe5a3af51690aef1452"
+                  }
+                },
+                {
+                  "index": 91,
+                  "source_crop_sha256": "1c80172222a4a86c2e6e617951231bbc4979c24108f6d8112a3bfb6c03c3b076",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0091.png",
+                    "sha256": "3f868d02a2601d40fd646bf8ec07024305962b442c63666e4b1420d21e760d4f"
+                  }
+                },
+                {
+                  "index": 92,
+                  "source_crop_sha256": "71d915a0ccdc8209af49ed7b4d084c4d1c9356866b5bfbfb8f1eb66c06854394",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0092.png",
+                    "sha256": "f0e8f803c767ea111a15f18b73a4dc19347ea192c73cfd004c1d63522879c1f2"
+                  }
+                },
+                {
+                  "index": 93,
+                  "source_crop_sha256": "82bb2be4130b73d9dddfb65fc02fa4c9a401bff37f27911e2b8b332bf5694968",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0093.png",
+                    "sha256": "2bf65d56f8d97d262140b8512f1885aa824fed2bb920ffcb13719d5e2b3e7ff0"
+                  }
+                },
+                {
+                  "index": 94,
+                  "source_crop_sha256": "073799959673f8483bb378c5d113ba5ebe98a6e63b3a7c3c2b4a3183fed46ddb",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0094.png",
+                    "sha256": "a772e3955d03bd1d3f371f7a467c1338ef9c65e374708ea280bd717687c5a8a4"
+                  }
+                },
+                {
+                  "index": 95,
+                  "source_crop_sha256": "cf109568db1a5cf9d541be0480a6acf88373e7e1893a3608311b46e4cd3db01c",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0095.png",
+                    "sha256": "d2092efe3094b17ec1ba226bb203798e04fcce84fe1b9aa07edd4032f3225cc6"
+                  }
+                },
+                {
+                  "index": 96,
+                  "source_crop_sha256": "76bc1c1b15582a04e9aa1f2d8ce357ed18315c22c30a2eb817338b08e1c917ca",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0096.png",
+                    "sha256": "6839903c2c37ad3820bd177b30986a30cc4b8c5cb57f8f007b4e398f02607264"
+                  }
+                },
+                {
+                  "index": 97,
+                  "source_crop_sha256": "13198ae15b2d10184171685cab60dde3359977dda67564aeb63f3aa114926111",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0097.png",
+                    "sha256": "da6f0c973f98be04416a1b1b8970c12630da6e9f0a7900d821b40a1a0dc6fa9d"
+                  }
+                },
+                {
+                  "index": 98,
+                  "source_crop_sha256": "07b425288c223ba422a7330b185d9d60d7ca50ec899af85ddcaf6f8a40795d15",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0098.png",
+                    "sha256": "980f56f8c24f4d7a2dc8913ea7c6f820805820ffd902c242455dffea31bdc368"
+                  }
+                },
+                {
+                  "index": 99,
+                  "source_crop_sha256": "9493c954c5c4393da8cbe44690f27603c797a9b49b449e57358b04b4bbe8cd7f",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0099.png",
+                    "sha256": "487f1f4cce28c2b8c6696d5d60503cedc781c7103657beccc8c3781cf6a219f7"
+                  }
+                },
+                {
+                  "index": 100,
+                  "source_crop_sha256": "e634b5c9123bdefeaeaf09c313e08957a4dcb2e4ee49ea2da2c80f4b675b8734",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0100.png",
+                    "sha256": "a028285d8ae891a12793d46d10079edfcc3e26e50fa1a6e8f19c998894868579"
+                  }
+                },
+                {
+                  "index": 101,
+                  "source_crop_sha256": "977b265b694bf58c0855a17aad6370420f4617a616111c378595e2d3ea7ef1bf",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0101.png",
+                    "sha256": "5608813aafa0ed6f3e4205d0d531eb15e0c6bc91bad2ca97a44135983af96df7"
+                  }
+                },
+                {
+                  "index": 102,
+                  "source_crop_sha256": "43fb9ec124dcd7ba3f4cf851f53ed455dc93157ffaaf5c90da2ca8ba5562826c",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0102.png",
+                    "sha256": "38f51de9003d8f4ce33a652845e32d90e0c2ffa781ed0cabd28b92e9431121c3"
+                  }
+                },
+                {
+                  "index": 103,
+                  "source_crop_sha256": "321b026a7cbc80ee9744c51f72bcfa1df9fdc108eae220a41f1981e1f174fc9a",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0103.png",
+                    "sha256": "b1241e5bb067470b4a89676b6c88cb3b46c4ebc0b10784fe38a456f09390447c"
+                  }
+                },
+                {
+                  "index": 104,
+                  "source_crop_sha256": "3b565b1699bc6be404db56f60a9ed46727d91fb2a3e6f279e99ba48abcf4df53",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0104.png",
+                    "sha256": "e509dc5c95cc26857dfdded616987c2356fa733ccdb42befd3d3df7bc18999ff"
+                  }
+                },
+                {
+                  "index": 105,
+                  "source_crop_sha256": "a33f662c826134c1bb165e7321e68476e2e63047fb50dfc5c2a600bc05456223",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0105.png",
+                    "sha256": "b0dff6a24b57b58055c5e44a848d4cfb7c3c4f68a04216dcf6db0ab33629760a"
+                  }
+                },
+                {
+                  "index": 106,
+                  "source_crop_sha256": "11e99614e80249f1455f91d63f9d7037716ddc4ceb1de5d90f922b448cea46a4",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0106.png",
+                    "sha256": "70f00186465e31be17da88c018b5e8c2d2b355c25fd695e3773d1693f293e0a6"
+                  }
+                },
+                {
+                  "index": 107,
+                  "source_crop_sha256": "8a6e6346a1169fb092856a71795afe0cf3d8fec6f9f635aee33b7bedae3f722b",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0107.png",
+                    "sha256": "8613d3e635608e9a414fa314eb635819d8d74981f14b497166eb186ee18867e3"
+                  }
+                },
+                {
+                  "index": 108,
+                  "source_crop_sha256": "7d9ebbdb3c5b30c74cdd652d34cdcd7a352e1bd5058c475e861b9d64a2a84fdb",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0108.png",
+                    "sha256": "93628ac77bd0b2d4b4daf4038d59ae44eda614214f9017733f8b2e78dc933d9b"
+                  }
+                },
+                {
+                  "index": 109,
+                  "source_crop_sha256": "3e0d0f636b6a81a5867491bd243d53d1958bd592eeb73cdc949ac8f179a4b605",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0109.png",
+                    "sha256": "1926d7c0ceac29200d616472dfc43ff9803fc2f098ac7734b6a3b417a538a773"
+                  }
+                },
+                {
+                  "index": 110,
+                  "source_crop_sha256": "ed347838239cef02a81a47af4e0a7191ba051d372d62d1bdf82b0bb34b226b6f",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0110.png",
+                    "sha256": "80f12bcd78787570081c9a2966bccb9073e12cb4ae0ad972e9a22eb637e09785"
+                  }
+                },
+                {
+                  "index": 111,
+                  "source_crop_sha256": "bb804033af71b6e0236688801c1ed1e57a9c87cea62d9feb42cf01859434c81d",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0111.png",
+                    "sha256": "fbc28b6b1d5be8bd79ca6d5b6e3d47d9d68c2f81967c95066a3e9176d0986a42"
+                  }
+                },
+                {
+                  "index": 112,
+                  "source_crop_sha256": "4f9cf19fb0a44d8a1817124ec9204b82ab12af100af655fa94f15ce187cb264b",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0112.png",
+                    "sha256": "876ac7157dbfbfa0fd6bd7c829a9daf38331103449cac3bde7ee8eda117dcfb5"
+                  }
+                },
+                {
+                  "index": 113,
+                  "source_crop_sha256": "17ecfba5930ab726ec7beca1561ef07b21a30f03ed5316aea7566f4f215f8d67",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0113.png",
+                    "sha256": "5ab855d526cd8624c6f319e97770cb3f54b38d86c3b402a3050e75d4ef612940"
+                  }
+                },
+                {
+                  "index": 114,
+                  "source_crop_sha256": "445ae539d9fa817dab73812df304fe2447554381a49e9abe78a4976ca6acb916",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0114.png",
+                    "sha256": "f463024a060833ca8ec8a0f3a3cad15c5b930022f39f4e1136e2ae845663062f"
+                  }
+                },
+                {
+                  "index": 115,
+                  "source_crop_sha256": "d3404a7c820b2db45ccc00ff78585aeba37f4fb47d5d55d9bed39677690bace5",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0115.png",
+                    "sha256": "b5b3ae9359b0b93e73d48a658507e2ba94cab55ab8b159f6c7f69bcb1854065a"
+                  }
+                },
+                {
+                  "index": 116,
+                  "source_crop_sha256": "c193080d2e42f19578fceab2cf35b3078429f3c60f7e3ae690b3a2e7868359dc",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0116.png",
+                    "sha256": "2738ae825c12ab606db16ee42dd864769ae66ff7a179a27e3559ab5c323b4fa9"
+                  }
+                },
+                {
+                  "index": 117,
+                  "source_crop_sha256": "8c6fe375393537a27acfa31db49d3587254dc7c5d34141f4036313186d1cbdff",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0117.png",
+                    "sha256": "2130d08d7bfbbdb01bd234dc07c90c2421452c434be1a3a153255a164676dadd"
+                  }
+                },
+                {
+                  "index": 118,
+                  "source_crop_sha256": "167473ba46263bc5061f1ce29b4530475d76353fd8b6fb87091cd6be71b663b1",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0118.png",
+                    "sha256": "f0e5aaff9ff7fa95e391487a64aef3e3cc6afe52fb617eef9e6762a3d045697d"
+                  }
+                },
+                {
+                  "index": 119,
+                  "source_crop_sha256": "4cd0eb452072017166fc9c57a84cbe172833ba096892e4753c432b882a9faf64",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0119.png",
+                    "sha256": "3bf92b13758ff2399e17e177a675f7790717a3e88f798bb6ac1de026929c2c38"
+                  }
+                },
+                {
+                  "index": 120,
+                  "source_crop_sha256": "463cbbb328023c8c2003cb76293e9e9b14ecf3ebbef043d2119b624a55551fba",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0120.png",
+                    "sha256": "6c4da999e3b43e4ff412dd5aa9e7cc9c09a69dd7ff14a30e9fe88c5a8ba515f6"
+                  }
+                },
+                {
+                  "index": 121,
+                  "source_crop_sha256": "e2bcaf6b738303417f77cd34cb31e7143d351cb8c4c97ab440953add90d3c6b3",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0121.png",
+                    "sha256": "cc072ab46214b58897e7c291cef7546aa8899c306f90f1355710de7076c942b1"
+                  }
+                },
+                {
+                  "index": 122,
+                  "source_crop_sha256": "b547c9dd0fcaca8b255ef68617733237eb05da28918b4a86bd697d4964231908",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0122.png",
+                    "sha256": "4f818a8dd6bc4ba541196c6a2e8bc2b268fabab1f87ed6a85af0dbeb848b3a62"
+                  }
+                },
+                {
+                  "index": 123,
+                  "source_crop_sha256": "7858816ce3c755a25c0c33ec22534c0254c32047bb5f7c192d4c633929cd2a7f",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0123.png",
+                    "sha256": "2ce311635e5fd6466b11893903eff502b9a3e721a056312aa12d3783d39f02a5"
+                  }
+                },
+                {
+                  "index": 124,
+                  "source_crop_sha256": "c992aa6fc33ca48dfcdd1657280d75d6c28ece065b3b075b2901fd80dd45d9f0",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0124.png",
+                    "sha256": "c4d4edcea3b4cccd3c8668eb5856c1ee80633c816e0d6e4fbd7983ca11b5dc01"
+                  }
+                },
+                {
+                  "index": 125,
+                  "source_crop_sha256": "58f85c0d060eaece6c916c274ff2aad50c8afe8a2051d7b41730b3051f8942da",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0125.png",
+                    "sha256": "500155931f7979daec6f6425f46667638ff0f32a96760b8f351367e55c451023"
+                  }
+                },
+                {
+                  "index": 126,
+                  "source_crop_sha256": "702bc72da8e985d927823baa77d733b3556fa57a2fea8d0c1ecf1957d4e6aba6",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0126.png",
+                    "sha256": "18b82126cd7d7ea7dcc5e7b975820a458cce0c5af0a680fa514f510122958984"
+                  }
+                },
+                {
+                  "index": 127,
+                  "source_crop_sha256": "065d83972a37a6c7731d179f631a092c9c1122e45409567d0dc1627f9d5108c6",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0127.png",
+                    "sha256": "dba1ff793c81b023b4a4c0318b09b5b2220ae411b720db0623842a4e133fe365"
+                  }
+                },
+                {
+                  "index": 128,
+                  "source_crop_sha256": "5fa5c2988ff85cbb07cfacfca07bb38bb18156f102fb1f13fdb998d01eb091d0",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0128.png",
+                    "sha256": "baaa22a3a31ae5c4f9505f7741f81f6f7aa142010b293ff5e1a000e7d48401c7"
+                  }
+                },
+                {
+                  "index": 129,
+                  "source_crop_sha256": "4d187591f240fa77f30c5313d10a6c49354575625b480203bf07c0c919048f47",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0129.png",
+                    "sha256": "464586f6881232bc4834e89359e9bd2f803a8ad3a6ceed6a951eb5e9c629907f"
+                  }
+                },
+                {
+                  "index": 130,
+                  "source_crop_sha256": "903399bcd9ac4164e9e37d07d32e36f3365d2bacec157839c0084d8adb59c29e",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0130.png",
+                    "sha256": "23b6e575086ea566c1760af3fbd30e1f165b33c996b3c4e2c8936bf659bf9c42"
+                  }
+                },
+                {
+                  "index": 131,
+                  "source_crop_sha256": "fc5845d63e9d3ea610bdbb38fdaaa9093dbfb151c7d140b36286c3cf172aff96",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0131.png",
+                    "sha256": "c93014a3a77972d1a5e438467bf3231de7e1816bab96efe961fa38ade83b8838"
+                  }
+                },
+                {
+                  "index": 132,
+                  "source_crop_sha256": "057208e998a7b1a2a24549d485e82a617ada615f21efeeb4424775c8cd54a8fa",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0132.png",
+                    "sha256": "66c0a084e46d9f247f06444341ddba10873f1d65717e27a9da0fbf4e1b8ec0c3"
+                  }
+                },
+                {
+                  "index": 133,
+                  "source_crop_sha256": "82c5e6b6ac4d8325f3b499a18c0e9e7c8a3cc76e9f6a7acb6a15b8a3d58b364d",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0133.png",
+                    "sha256": "4ed8e0f8be4642531d3a4af656fb8182eb84ded35c96c4829928e6b3effc2aa2"
+                  }
+                },
+                {
+                  "index": 134,
+                  "source_crop_sha256": "48046ded88c703d01311dfa78827661a1ae7b9b03fa637d5aa105288763acbf1",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0134.png",
+                    "sha256": "97d381958bc2593046a64d2a5ed8da05ff7b4ab050dcbd2038be9a7c6c9ebb7c"
+                  }
+                },
+                {
+                  "index": 135,
+                  "source_crop_sha256": "fdf41097d0a152856f6ea72d5fa19f4b8308bbe7305e9dcea4b865bf735477a9",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0135.png",
+                    "sha256": "d9d30405277b1ea99a35f66ec2bb97a7942ee81564f709c7b539f4437d1134db"
+                  }
+                },
+                {
+                  "index": 136,
+                  "source_crop_sha256": "3f01a6e4929e37cc7a26ddeafe1c9bdabb93f9ca5de1bf2fd64e657e1a9d2318",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0136.png",
+                    "sha256": "40c015288cbc5261d6c32fc8233fcf5860de8d718de8cb6ce04cad6d9a093379"
+                  }
+                },
+                {
+                  "index": 137,
+                  "source_crop_sha256": "d6b44ec25281528d8fff1585a250650d12b712ed70192b35dda009d21ee8cb33",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0137.png",
+                    "sha256": "529a78e3dc09d07302f7497f87d13790e6f81ae66d2e6ce59d48ad4cf71cd427"
+                  }
+                },
+                {
+                  "index": 138,
+                  "source_crop_sha256": "25c53b0f19c75461f7daa9d1f5c7fa43a505176d7d06a0d4829cf7e45a9dd774",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0138.png",
+                    "sha256": "995f1129c9af713e87e780f6024de8a2414f601eec22657afe449a28fa936d7e"
+                  }
+                },
+                {
+                  "index": 139,
+                  "source_crop_sha256": "616f994af20ce6486fc0567bb1806594c1bb6c10f7224d13942de89c0f9e401b",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0139.png",
+                    "sha256": "a92c6e4aea72001ea8b8fcd5b3c758f7dd95fe727a74a8f6b8e9f629455f473f"
+                  }
+                },
+                {
+                  "index": 140,
+                  "source_crop_sha256": "8ca2263ee7fa95aa831248bef7f3e91d1a7f1a1c6d58ed282adeaac10916277c",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0140.png",
+                    "sha256": "41beeba7b95961d14dc6afdf44fa9f53aa923924ae06b6c9475a1ab6d5009000"
+                  }
+                },
+                {
+                  "index": 141,
+                  "source_crop_sha256": "380b8f695d1d92438d5edb496a902b9c1fbb22f009207b29ed93b5f378b85b67",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0141.png",
+                    "sha256": "f17ec6cdba3490446fdea0aa4aaa368fd14cdf6414f2d08a522f21333687e881"
+                  }
+                },
+                {
+                  "index": 142,
+                  "source_crop_sha256": "6dcad69c0bf36faba676ba1757f7c617a500b0bdbf081519c37daa419ec03060",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0142.png",
+                    "sha256": "0dd62be630e101ee4972d5f18a5cd61771b7cb55b6453600d9eff3c9e6d72dac"
+                  }
+                },
+                {
+                  "index": 143,
+                  "source_crop_sha256": "c183b7e9a132e215263052acf8d12f84096a719ed9fdbc89f2eeafdb54bf718d",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0143.png",
+                    "sha256": "c61416fd654be9cbc53d2b0d2771f29cf81d91d4aa500e0dd8ae5b80b22735d5"
+                  }
+                },
+                {
+                  "index": 144,
+                  "source_crop_sha256": "f25de5e7cca9f5c9fb760eb3d3babbf89c7f50e54b371b3996c0ce8f41de836b",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0144.png",
+                    "sha256": "362c37ae7378d308e1d399663d3c0bb19d6da7aa8f9ef327ec4b35c4bd54d1f0"
+                  }
+                },
+                {
+                  "index": 145,
+                  "source_crop_sha256": "2d2224be51853a8e3d117478ffca524b7ad07d7df5a955a71a64b7f0b975c5b3",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0145.png",
+                    "sha256": "090a723dcd51c71f19ce2400f12115a488a6fd9b109aefb197228ceeddfdf748"
+                  }
+                },
+                {
+                  "index": 146,
+                  "source_crop_sha256": "48fdc4f5dd2fa6a08727f022ea8ce004db1c81ebcdb256834ccf07487d376414",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0146.png",
+                    "sha256": "147d06d556623dd677e79bbeecbbf122c0278327fb4af73bcd8466ddfe36790b"
+                  }
+                },
+                {
+                  "index": 147,
+                  "source_crop_sha256": "d2fc53d62cedf9f852cb0c50e110f0f52628fbaa53f3f3e44465c53e8ca93913",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0147.png",
+                    "sha256": "e855082c50e7f18d5968dc02943a93b15de287ea6cffb7b93dbcde49a0a000a1"
+                  }
+                },
+                {
+                  "index": 148,
+                  "source_crop_sha256": "4cda5a06ea673dc284067a80ff51fbff9a66c6c339d68b3cf7ca8eda35c844ef",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0148.png",
+                    "sha256": "c4adbddbe804f37bdf730b237ace69c86b472edc9c9b88e90d92eea418a76a4b"
+                  }
+                },
+                {
+                  "index": 149,
+                  "source_crop_sha256": "664fe689af863f29ab97df62befaf6ae87897da838b020c89ba93dad5770878d",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0149.png",
+                    "sha256": "2ff3ba3050ecd39e9c44dedce7736ff6326b41b6c8a8bc34310dcce0c02fa07f"
+                  }
+                },
+                {
+                  "index": 150,
+                  "source_crop_sha256": "07e80f9d219a71c2b997e61efe418e97ab8ab4b84865d9de7c7348c396efc9b2",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0150.png",
+                    "sha256": "477022d4c3231d09544b57dc4623b13412726a4f4eca8186cbc409089ae1ae7a"
+                  }
+                },
+                {
+                  "index": 151,
+                  "source_crop_sha256": "fce7b73745ddf8a66e6fac20f39ec0baa20e867950f349b7851498b16e87ceb6",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0151.png",
+                    "sha256": "e019fea3986a3b4377b3ecb2ba22978933d14275f30564016a88c01f417eeeda"
+                  }
+                },
+                {
+                  "index": 152,
+                  "source_crop_sha256": "8d54d0bc862c1e9d443f9992166c54beebc45303c1a76b9c6499ecdceab9a15f",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0152.png",
+                    "sha256": "5e2bc8f748b05676e570a94049a218d2f5a38c1e983fd51174591bb358627d11"
+                  }
+                },
+                {
+                  "index": 153,
+                  "source_crop_sha256": "0c66076438afd915905b740ed470d5532358739f0b41251b71df1fdb144c6f0a",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0153.png",
+                    "sha256": "bb07eeb06dbbcfe4bd254a1be1a6c840e0267128f0f0d27a541e377b560dfce3"
+                  }
+                },
+                {
+                  "index": 154,
+                  "source_crop_sha256": "d2b80277d715bdc083b94d2dc13068f5a6a563fa20cdc7ede3371bfa2fae7181",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0154.png",
+                    "sha256": "f88eadabe33089f612886c3b83afccceb322af00451c520b5a74e09a25e470fd"
+                  }
+                },
+                {
+                  "index": 155,
+                  "source_crop_sha256": "f23432ad467a48f427ba2449e548358d6491fce7f3a3479de52e13935450c0e6",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0155.png",
+                    "sha256": "e412c8de1ded3c044956fe34b87bc8a0ecd3b304ba6bcf4d47f74ea4717550c2"
+                  }
+                },
+                {
+                  "index": 156,
+                  "source_crop_sha256": "204055f9b7cd8b36a6aa2a8ddfb886fe5a580c27f1b321b942f7d9b4a4f976d7",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0156.png",
+                    "sha256": "bcc146513a7ac5bdca283fd3f1d7395683d4809705be76102dc81f371f0f21fc"
+                  }
+                },
+                {
+                  "index": 157,
+                  "source_crop_sha256": "215d75ce970928766428480e1d5f88994f8a74e06622b34b8f1ff28188c03201",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0157.png",
+                    "sha256": "6b47de84edcf573b7a5bac97c4adf9352065ba546ee86b34e5dff578abb104c6"
+                  }
+                },
+                {
+                  "index": 158,
+                  "source_crop_sha256": "28f6ee46c7f73dc08dfd872fad07561e42075577de2bb7d58681efc7d1f8e451",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0158.png",
+                    "sha256": "ad222873a21dd07d155a56ee03ce3a9cf3e18e9f367f75c2b936c6e459c29416"
+                  }
+                },
+                {
+                  "index": 159,
+                  "source_crop_sha256": "b69307ff5f852fcc90e219016fe11d9634c496fda7356f89432d0f09e8192185",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0159.png",
+                    "sha256": "ead9042146893537debe575033d5f5c39cc89194637f93f532b73c441585bec2"
+                  }
+                },
+                {
+                  "index": 160,
+                  "source_crop_sha256": "4f629ef9691fbdfe8b1e2ff55e545d00a2b0cb91b54d4842bd332e87ffbc0fc0",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0160.png",
+                    "sha256": "5838524fa2f2fd4176d3bea0d2520d58ed51edc6ac7222fc65814b927a1db3ed"
+                  }
+                },
+                {
+                  "index": 161,
+                  "source_crop_sha256": "5b6bbc8e022079a9de42a63ced9e3de880ac37d1db8fddaa4abce63899a941c2",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0161.png",
+                    "sha256": "6084cf9e9875799fc471840d9683c2398bf3dac49d2f5b837c26275dd2982bc6"
+                  }
+                },
+                {
+                  "index": 162,
+                  "source_crop_sha256": "70c783e3a1352aa3af4fc02017c5b587feb9e51a8157cab99570f5cd774f77ef",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0162.png",
+                    "sha256": "0476b60137f5a2ccdb5700214ca8fd9eb9bec60be0ce2368516f5d5ba5201f0b"
+                  }
+                },
+                {
+                  "index": 163,
+                  "source_crop_sha256": "0fd4f5dc07000010c1122baf8dbcf2cd72e5ccdd343b3124d4df5471dafd5e10",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0163.png",
+                    "sha256": "4937bcfd377f0974633d463fe361029e6bc93c45d68e3d80325949a7d14d2341"
+                  }
+                },
+                {
+                  "index": 164,
+                  "source_crop_sha256": "620042887ea369cc9cbf1d150c3b31642f2dd06e2b8332bc0b532bc69c953a09",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0164.png",
+                    "sha256": "ebca52cbe0d9728837adc6f552d8c671f548cdb90ae052ab66abda7413d4c6db"
+                  }
+                },
+                {
+                  "index": 165,
+                  "source_crop_sha256": "d1342f3b3898a6ab844519c0a43e384926082c672cdb13455079daeb1b120d2a",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0165.png",
+                    "sha256": "48a9f7c088cddc89d2a195904ba5930e4537faa569a3b753007766b2a1bd3d67"
+                  }
+                },
+                {
+                  "index": 166,
+                  "source_crop_sha256": "b5d1421a02d60818749dc9c454ec03d63d8dcfd69e34871ac4aedcd31f649c83",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0166.png",
+                    "sha256": "ce16ab1e1cb0877b1c2461f5d2cdb5e2cc6c406633236ada715dadc90d023be4"
+                  }
+                },
+                {
+                  "index": 167,
+                  "source_crop_sha256": "99ebfe75b47134d968e40d1dd5d4e900930397b10db64512544fb63206930c97",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0167.png",
+                    "sha256": "d64cfda3f0670bb07ac4b35859a2abffe7b2aed652854228127bde062eeac572"
+                  }
+                },
+                {
+                  "index": 168,
+                  "source_crop_sha256": "252b0fde6df80950ae8f59a1ce271a6ce95f13f6a951d61f5a13e4f00459fc61",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0168.png",
+                    "sha256": "c408c4aa6411bd17ef4f77aae1578d0b0fbc26fa2a59309d63f2bcd26b808546"
+                  }
+                },
+                {
+                  "index": 169,
+                  "source_crop_sha256": "6c59aed964c6987cb80b236ed61cfa62efd94400cfe91c363f400b9985b733c0",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0169.png",
+                    "sha256": "032fb263edf59055e55e8ec9abf33d4c86c51c09b20a231c60c478bc2854fdd6"
+                  }
+                },
+                {
+                  "index": 170,
+                  "source_crop_sha256": "1d350c67818084be52362ab0a4271cc4885f8df9f17720453c5298d38de7c446",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0170.png",
+                    "sha256": "55cfd030684a52db5417c3c9491a1750d53e27b51b04e25b701ac73554f9d84b"
+                  }
+                },
+                {
+                  "index": 171,
+                  "source_crop_sha256": "11a1c3afe5d86e4d4c5ba416edc0da5e7be22bcd53abb7daac5ec3aeb91fb4a0",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0171.png",
+                    "sha256": "83f694cabc2fb4a6b275adb77e9a7af56038d2c32886918db63f16b36b55103e"
+                  }
+                },
+                {
+                  "index": 172,
+                  "source_crop_sha256": "c4489648ccd1887e3d4a704d9dba931f5adc472e442d0d081f0252d9a02c4676",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0172.png",
+                    "sha256": "2c1271457ead444455b6f8fb746a875bd83baa60b6d6cdd4c54a75524732d243"
+                  }
+                },
+                {
+                  "index": 173,
+                  "source_crop_sha256": "6f3f60d4719fef335922ee88984ee1ec02c2763becfbfb34dd90af72aa3549aa",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0173.png",
+                    "sha256": "587b5f288d6218b1915732d0e6f11f34ba0e493f7626722f34adaf693fd9cc43"
+                  }
+                },
+                {
+                  "index": 174,
+                  "source_crop_sha256": "e71f1693d7288b8e6caf476a8eeeb5411fd1f9f95160e979b995207eb568cca2",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0174.png",
+                    "sha256": "e43ae2ab1441af4f997f190febf6b7f76d27a0525f024e6769079b561db3019d"
+                  }
+                },
+                {
+                  "index": 175,
+                  "source_crop_sha256": "6c96483e4a7ea81b5be9b4e4af25eb021483e1a6c47559a8262613797e6008c9",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0175.png",
+                    "sha256": "f88e7f9b0ebe25c77c58b65aa8d50a3faa96b8f65bb1ad8a007d26d9cedee5cd"
+                  }
+                },
+                {
+                  "index": 176,
+                  "source_crop_sha256": "b588ac67f19fcca17a1053c59498d5e616d33794a932d7a61ac6914771fcd268",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0176.png",
+                    "sha256": "f7371121b2ea80f9a21a07303de4bc573c9cabe2323d81191b021ccc2cc55d36"
+                  }
+                },
+                {
+                  "index": 177,
+                  "source_crop_sha256": "1b4480cc9453e60fb310cf8546f4b2c0308dec5cfd3a68040bbdba84329479eb",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0177.png",
+                    "sha256": "a4ec236c19e8af9032ca4acdcfc86ab005255ccb06d835126d515e7c4167cac0"
+                  }
+                },
+                {
+                  "index": 178,
+                  "source_crop_sha256": "a7887c364e69ad4a963ea7eb42ebc6ad4c616531bd4974c0046f7e1f88543e25",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0178.png",
+                    "sha256": "8ed4b559f10d7b9eb3abf17fecca09e2ebdc3db4a35a6856d25210d037c5240a"
+                  }
+                },
+                {
+                  "index": 179,
+                  "source_crop_sha256": "f4fe001d45bd5345e14f67105427cda476554180009958988b99c0cb75907535",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0179.png",
+                    "sha256": "ea5bac4f4364ec0aafa54ffd7d4d2f6b9dc949921116f305015603431131de13"
+                  }
+                },
+                {
+                  "index": 180,
+                  "source_crop_sha256": "ad5186883a772598f27e68f78b6d16cccca769a244ab252efb20e0f470a9523b",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0180.png",
+                    "sha256": "99f19b6da29907ae48a8844fe834792268f22bbdf3055429fdcae641b0360b63"
+                  }
+                },
+                {
+                  "index": 181,
+                  "source_crop_sha256": "a81a11aa3c988167ae24cf79de9d5ed0e926149bfad04c0f861ddc6a40538fb5",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0181.png",
+                    "sha256": "10fca5020370dfbe2b4aa10dbfc8941f45627af4ad6b765f8dc829a82a2fa99b"
+                  }
+                },
+                {
+                  "index": 182,
+                  "source_crop_sha256": "eec7d34f513a8495a5942d632cd5bbb2431a407f8a49a7b60914af75eb6bdb1c",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0182.png",
+                    "sha256": "daf141c657b845ca2150ac658a65e649b1d872a40fd8e0dc42ec0089fd123ee6"
+                  }
+                },
+                {
+                  "index": 183,
+                  "source_crop_sha256": "7e196a9c93d0f46e0d139df7c6e1255bee9bcf69d583c1815a3556a33fcadd40",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0183.png",
+                    "sha256": "ccd697305e51eff1800126bfec44c367328849e75bedc6ae93097b2e3d8dbd01"
+                  }
+                },
+                {
+                  "index": 184,
+                  "source_crop_sha256": "bf093af9c186b6fc872ba64faff8864fd80fa8ca4a8df4ff326c3e99733463e4",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0184.png",
+                    "sha256": "f2d19c3af8838461a90dfd3e816c036a52dfc7e4055938fa4402fb4773a78854"
+                  }
+                },
+                {
+                  "index": 185,
+                  "source_crop_sha256": "42eb97325e979a7d282a6ca4c0fed97077439131ac593f66c9741e78b1ba23e4",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0185.png",
+                    "sha256": "a9c43adeada52693f76ac930422ddd6139808bf6304953f2578bdef54fdd2f21"
+                  }
+                },
+                {
+                  "index": 186,
+                  "source_crop_sha256": "0f444ecf9f5013110dfdd3045c6640d92132c9d65a48423264581e889cc594ef",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0186.png",
+                    "sha256": "b20947425a3368dff8d4a629161d1dcebec939f2ab0741eabda6b1b57611e983"
+                  }
+                },
+                {
+                  "index": 187,
+                  "source_crop_sha256": "0c6a42cb6c2c7614a8b679e16ce98b18adb3cca48757f6125f9618a5e2b7386d",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0187.png",
+                    "sha256": "a3db0068b6a4d0cddbfc7d602c9c4e255a4d8ddd7f538f6b80fdcdb0ec9ae5ed"
+                  }
+                },
+                {
+                  "index": 188,
+                  "source_crop_sha256": "8261bd8a7ffba4560ac152b8e59ef95e7ff217d83f3deda4da30cfbef5d35808",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0188.png",
+                    "sha256": "583a08205a6c04658f2f97d56f47c3502d397f4a36cd3cd0254a07df80d40c04"
+                  }
+                },
+                {
+                  "index": 189,
+                  "source_crop_sha256": "16b5811ca52f6c19af1c8a3ec5bf91df5e4034e0226d787ebc2a0dbe1113ca69",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0189.png",
+                    "sha256": "8716ba90a77aa306d0cfbeaaf03fc3f98a44c8630ffc31f3a414602bf8efa3d0"
+                  }
+                },
+                {
+                  "index": 190,
+                  "source_crop_sha256": "3ab0fd76a4970a0da7207a7064b84a87da1e98dd013856edf9bd467c33fb8826",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0190.png",
+                    "sha256": "f99bb428ffa94432f9ea055f8ab0fb4bcf38746446286455e678e16abdef9642"
+                  }
+                },
+                {
+                  "index": 191,
+                  "source_crop_sha256": "318e8b0f8c91fc2ff1fc5839bfa2937faa7108cfe9a304202e0c77c9321aa9d5",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0191.png",
+                    "sha256": "1c7c11b21740393b64b0a2b24fbe9019b5bf309e3bc096d67670661385563a7b"
+                  }
+                },
+                {
+                  "index": 192,
+                  "source_crop_sha256": "e055cd3f34a863897fdeee4aae8e2d29afb2fb8430b980e7d68a980c02ec7584",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0192.png",
+                    "sha256": "3198c3e5b405c6ae6a8d61ce7ea8e8381097565170f1dc9efb2b8fc45226f398"
+                  }
+                },
+                {
+                  "index": 193,
+                  "source_crop_sha256": "5d4fd6c98d8adfbb7fa1525a96571731cbb16078319042e4a7f853abeedca2ab",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0193.png",
+                    "sha256": "ce9653103ef12a41ce19c2b5d6c8caa8d555986e2ac7ce132161d323a702c6c1"
+                  }
+                },
+                {
+                  "index": 194,
+                  "source_crop_sha256": "75c78b131349ff7ea9cd0f9fef169ba5bd85a9b05491e7aa865cfeba6d7b35e5",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0194.png",
+                    "sha256": "5945cab91e9164e5c7da662183d47114e55dfa7e81e1344a350afb3ee9455038"
+                  }
+                },
+                {
+                  "index": 195,
+                  "source_crop_sha256": "89b654a9501ee53d99f71ef943393bf1ea85a0a069a9e97704084fb4e8fac159",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0195.png",
+                    "sha256": "efd8a736d420c9b0dd6e916cc6de337f91125a2dabdc3f0f2614bfb8348dca57"
+                  }
+                },
+                {
+                  "index": 196,
+                  "source_crop_sha256": "06f94dd725e4531d51054c44cfadfdd04e67cbe5581bfb8e2c8a6ddef7a8589e",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0196.png",
+                    "sha256": "b75ae1b52232c9308888cdc03edd87f5375c1d749bcd89b0bff66c928f91207d"
+                  }
+                },
+                {
+                  "index": 197,
+                  "source_crop_sha256": "318ea315213a9875d35da3aa1e777f675fbfcc7a9ac88ea32c2a55ada5840cf8",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0197.png",
+                    "sha256": "912e590fe28c4763a41b0ece72f5c7716ef81d086e2f1fcd51ca7044380965c4"
+                  }
+                },
+                {
+                  "index": 198,
+                  "source_crop_sha256": "c3a4bca80b60a5ad2e350fcc6932d5a37fb633ae443b05f1585c6d7c810fe4ae",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0198.png",
+                    "sha256": "cbec449d210b1cc76c45782c1e550e6d890e334a9b8bed710efbefe16eedcf96"
+                  }
+                },
+                {
+                  "index": 199,
+                  "source_crop_sha256": "bea89508c44f46ce20c375d02d302bc7d796581d37343fd634b6d7bfdfac06dc",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0199.png",
+                    "sha256": "19d28e2eb64c528214f91fb070a004a1ee9fb9d2bc7a5e309eb7df4c0fbd0c64"
+                  }
+                },
+                {
+                  "index": 200,
+                  "source_crop_sha256": "f04f6beed69a691f41671621bbb379d5043a248e841560e2bfb3ff6b4ca60042",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0200.png",
+                    "sha256": "f88c8cc291eb813462f3564b10afb45d815f5565761bf352956c3a88c6aa6bfa"
+                  }
+                },
+                {
+                  "index": 201,
+                  "source_crop_sha256": "dcd9d6857aa9460920d8ab8c1817202af9233ab56e62390b021455aab12fa3a9",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0201.png",
+                    "sha256": "881cf2153416b8dab6eb4ef2bf1b07d56ac7421a8bea4f3a950224750fe52521"
+                  }
+                },
+                {
+                  "index": 202,
+                  "source_crop_sha256": "4f1a73a947b281b6f691105b240922327ed361caae66461fd193f66527fcb0f3",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0202.png",
+                    "sha256": "1a81e900a37b7ac7bb58335a144ec29a1e021c0199714f9b81596a78a0b0ee6f"
+                  }
+                },
+                {
+                  "index": 203,
+                  "source_crop_sha256": "b1679c36b4f0c30a7a9fe053a799c1d3dc88502a65ffbfd348aeba1f1589060f",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0203.png",
+                    "sha256": "f21ea24f4488e976f5d423451dbf3daa66edae0d8442e21f26ac455ba91a733c"
+                  }
+                },
+                {
+                  "index": 204,
+                  "source_crop_sha256": "06ff9db261c7d6b24f1ad6e2e3e71e9c0c48c3b7f7b6d5be3047c43ee19d7c2b",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0204.png",
+                    "sha256": "12cc5938634548486298226142087a11433b282270361e6f67090aed606ae113"
+                  }
+                },
+                {
+                  "index": 205,
+                  "source_crop_sha256": "5148a93755652f4902b392c5cf2444f9394dcb9608614ba7a25c8dc1f886980f",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0205.png",
+                    "sha256": "261aa8ec42385a37a92ba5bb7d9edc06a6aba4fb0ac0f5c4856e4f68bf2d13d5"
+                  }
+                },
+                {
+                  "index": 206,
+                  "source_crop_sha256": "166c20b81c2438a293e987a283ae46f72ed49bf8135641ecd0131fb30dd91d90",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0206.png",
+                    "sha256": "7fbd20ab060ad022973b1b5112076c49a9c8fff29a7086664589ca4adab93cd2"
+                  }
+                },
+                {
+                  "index": 207,
+                  "source_crop_sha256": "adc4273c2875855d8b8cb93ffad77188ca067e41475bf3919e162bf818db7c67",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0207.png",
+                    "sha256": "79130fd72c80777dba98cb56d806d8eabfbcbf9aa48e245f4926a5d806d2769b"
+                  }
+                },
+                {
+                  "index": 208,
+                  "source_crop_sha256": "2d4d65d68b964a88515deb4ac4a6a8caf664bb28d31426c4f320ea2c8e5df6a6",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0208.png",
+                    "sha256": "8ce8e3f8be6020ae2b6a64987ef3c1b27f504e94d15bca7e05131093e35ff208"
+                  }
+                },
+                {
+                  "index": 209,
+                  "source_crop_sha256": "c6a786cd1dd34ab5aa1950a78f60687dc43420e153dbef00b93b13e9c391521e",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0209.png",
+                    "sha256": "444251b025838ae9d89539fbf88124a4af470cb05d6458fbc6e8cd41050892a9"
+                  }
+                },
+                {
+                  "index": 210,
+                  "source_crop_sha256": "a77ec9ead3ebec319f3d98f4f336b0358afb32947b58853d62b2a3bda25b7364",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0210.png",
+                    "sha256": "43d034a6bfc4e8cec85f2dddfe2955d492239bf67455f8f1aa3e2423a8a65db9"
+                  }
+                },
+                {
+                  "index": 211,
+                  "source_crop_sha256": "f080bca23c0ca3e65c55f5acaad2263728a526242bb6eb5325ff32a651066b6a",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0211.png",
+                    "sha256": "0f06e62c47f7bb8811e4f5c3fcb9f31ede3d87560def7767a2ecdb5007bc8b8e"
+                  }
+                },
+                {
+                  "index": 212,
+                  "source_crop_sha256": "3fea7845f6657b3a2f656b16dae7bc94dc8779093acabf4b1920225a9b58a539",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0212.png",
+                    "sha256": "62ce326d257f283d46e38f73f3fb524beeab5181d0e998878c096bed8417dce6"
+                  }
+                },
+                {
+                  "index": 213,
+                  "source_crop_sha256": "83114ff233c80e108b6f377eef5c3c8da3060b4b42a02262b846de4948ac1875",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0213.png",
+                    "sha256": "2b005e3d2024eff81268b0ca494a9a65d49f166678337c8a435639dfd0b48d4b"
+                  }
+                },
+                {
+                  "index": 214,
+                  "source_crop_sha256": "766889ae0b718db9f38a26c5dd47940873909553edd655399250f6d4a5f5171f",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0214.png",
+                    "sha256": "55042342cf4c73554138606b129cc720a498c26706c3272dcbd01e7872753bc9"
+                  }
+                },
+                {
+                  "index": 215,
+                  "source_crop_sha256": "1dcfbe2290bfcfb2d24985ac08784ff7040c37166d21236dfca6b132677850cc",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0215.png",
+                    "sha256": "96b3c7062071b917cdba481cc54cc346df4b36606ca33115c8219dc848933cf0"
+                  }
+                },
+                {
+                  "index": 216,
+                  "source_crop_sha256": "870794bdb80a0bc49c489e5cae75d31794f0e0c47263c7f3e9d0460e2b81e5a3",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0216.png",
+                    "sha256": "1805a6841d51fe6bb6ee9347811757acf1d91ea60e795b930b5305fed8e9d0e0"
+                  }
+                },
+                {
+                  "index": 217,
+                  "source_crop_sha256": "e93b9dfbf8dcaaac5ee1ad9960ceee8cef96d3380663b2f2c00fd3b45988f37b",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0217.png",
+                    "sha256": "16d312871eca1dfc9b4759e223f38aa9d5e41a67ccf0302254a7653611161c58"
+                  }
+                },
+                {
+                  "index": 218,
+                  "source_crop_sha256": "39b4cc13f4e3dec7d3f7872822cdac517155484c10b0a8db2d038d8923fd244c",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0218.png",
+                    "sha256": "0196caf91d718c35a943d909f414a9ab2f532848a0578736747ffe60522886d4"
+                  }
+                },
+                {
+                  "index": 219,
+                  "source_crop_sha256": "a8b824922993719e0da458be70667c0e66d8a87ebea4d4802bc749644f460f9e",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0219.png",
+                    "sha256": "51046f2621ea5ecd189a5ceded257d50d4588ca3b4eececf1f0a1c0b44e2f4a5"
+                  }
+                },
+                {
+                  "index": 220,
+                  "source_crop_sha256": "9ee5c4793e1db4cac9ec391a75ec90ecb387666ef4631c89810b30711649ba15",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0220.png",
+                    "sha256": "156545bb71dd487bbdb0479de778310a881734dc73acbe95a326fb4ded721f0d"
+                  }
+                },
+                {
+                  "index": 221,
+                  "source_crop_sha256": "5f6e7d24ec87110f7ec320f366bfd292ca294cdfa1264a876006e81037593d7c",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0221.png",
+                    "sha256": "6f554fc679561c5e97dc9bffcc05c4250baa5aee395da56fe7fac54101d82517"
+                  }
+                },
+                {
+                  "index": 222,
+                  "source_crop_sha256": "731150eb1cbab9a2d08a1d4c743e969377dcba2ecab7f543f840c76f1fa65b6b",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0222.png",
+                    "sha256": "53633e59b024c2a9855a851ec44f33a3e727006edc3c94e41794e99eba02c688"
+                  }
+                },
+                {
+                  "index": 223,
+                  "source_crop_sha256": "4674d27ad3e356e50396ebd72a6284cf89bcccfedac99829ca213e26d572faa5",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0223.png",
+                    "sha256": "2d22cf02e78014450ae5916d82c1ba26fc1464d7e474e84b2de449efbc126066"
+                  }
+                },
+                {
+                  "index": 224,
+                  "source_crop_sha256": "bb6c3dbb5573aa3478595c76caa0e59f78f45c3ce4e2bfd9fc9c55d2f3f104a8",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0224.png",
+                    "sha256": "bca1a282c5560d1892d8691249cea8a8c221269486411786b84c586ea9176847"
+                  }
+                },
+                {
+                  "index": 225,
+                  "source_crop_sha256": "70ae7bcd17590d5184b056133ea18694464fce467c7600c688f98d35890ac2b9",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0225.png",
+                    "sha256": "7b7cf25437a3d1aeb7c445524eac53e76dc28041c6d0a7bf348d5476f0f21dff"
+                  }
+                },
+                {
+                  "index": 226,
+                  "source_crop_sha256": "c8069abe5d7e53920ad166d2d8f0868f44912ea9b97706862e79eeeda2e87699",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0226.png",
+                    "sha256": "1b86e2459e5127c10fb78d30265ea34e10a0aa0f4ff6171138d3d7d7876bd075"
+                  }
+                },
+                {
+                  "index": 227,
+                  "source_crop_sha256": "47109ef775dffee7e50a52114e52117c6c12cbf24c7ec5c8fa74c60e932364c9",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0227.png",
+                    "sha256": "d65d1309ceff324da8a1d49116785b8a78d4af620b7224cc6bd6ce38b227f298"
+                  }
+                },
+                {
+                  "index": 228,
+                  "source_crop_sha256": "40a6b679f02efc7195e6c1ba82aca2519f59fcfc094d37b9a692d80175e8b7aa",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0228.png",
+                    "sha256": "c81a2570f58863908afdb91a30c968038f77efcf7c03882766772fd27979e8b0"
+                  }
+                },
+                {
+                  "index": 229,
+                  "source_crop_sha256": "253374aff9000039f5d72cb957c637e665ea84528575274a0b5dbfc25006787f",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0229.png",
+                    "sha256": "f80480dd5b39fa111bd8d29d45d0b69d4cfc49b591c8bb0dce007f58f70966ee"
+                  }
+                },
+                {
+                  "index": 230,
+                  "source_crop_sha256": "180bf3738b285bd068395a84ea8f11d5c5a8cd0d7e0573f05e1ed9cf6cce068c",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0230.png",
+                    "sha256": "5bf16bf2b6fba8aea4b2b62618c8c5e63f16ba59fe539774874fa4c6d7df234c"
+                  }
+                },
+                {
+                  "index": 231,
+                  "source_crop_sha256": "e17612fe16a39495ab295cac5b8cf56a8f5cda736a8db28592c15d6b55b19154",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0231.png",
+                    "sha256": "141b65334ac10c524d37f724c5bf6effb6d03ac12765cfdfe0a44509547b1d96"
+                  }
+                },
+                {
+                  "index": 232,
+                  "source_crop_sha256": "1b7474f98690397f8625ab7816966e70d50cc963636b2eb67ba26ccddefe0fcd",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0232.png",
+                    "sha256": "0bb120633d56123b1b3c261682c295d9d459f3957f1e6fdbc9ec5ed1591a1f44"
+                  }
+                },
+                {
+                  "index": 233,
+                  "source_crop_sha256": "d108b0a51095c208120c6e9112eb702a5baf8ffe5d4c7c062b0caf094dc3f3ee",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0233.png",
+                    "sha256": "26499ac88cfd813dc9e4c3571e17e11d6c25933d594f6782bb50b2b2a509a8b1"
+                  }
+                },
+                {
+                  "index": 234,
+                  "source_crop_sha256": "66db280ae7ca9061df2744254537d5284d4d43feaa28826a94eed5b86d248680",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0234.png",
+                    "sha256": "16e17d50e28176705be05ad2aac226bab8fd8c6a21f792400d15177e566f4dc3"
+                  }
+                },
+                {
+                  "index": 235,
+                  "source_crop_sha256": "f9cfd8a20d886b22abcd1a77c92706993eb02fdb5f98f18e10165b34b32418f0",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0235.png",
+                    "sha256": "7d4727dd3f57ac4ac599b7aec4576f39d5c44f3524f1089f859d9c0676c0b692"
+                  }
+                },
+                {
+                  "index": 236,
+                  "source_crop_sha256": "2a4f6307c850857caa472eea515563360028303277c94d0008baf55dd0a5184d",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0236.png",
+                    "sha256": "d2c87a310311b730e698ebb3b4047d76195c86c473761112d6c3ccf0c4233a89"
+                  }
+                },
+                {
+                  "index": 237,
+                  "source_crop_sha256": "790b0cb87e757355345b129eb20faf171b3b95850105e07959af80288713512d",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0237.png",
+                    "sha256": "d28ab92762a486c7902cc58094474299ebe100799f953dac3acd5c85362f2b57"
+                  }
+                },
+                {
+                  "index": 238,
+                  "source_crop_sha256": "4a6fa817d0fcf4342100aa58d0e132abbc948f7da8180a3ca2830f57054ca07a",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0238.png",
+                    "sha256": "997abe156535e0a9fb99e656ac7625f8e3a1bafda94ccf079f4643d10c8139b5"
+                  }
+                },
+                {
+                  "index": 239,
+                  "source_crop_sha256": "bb59115041b38ac4a8de567d6fa93c99d3553de73c8be4325252258fbd62e1a9",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0239.png",
+                    "sha256": "51bb8acd76f090a60b1557f8ea6904baf894c637511bd4480610b2c7f216f2ac"
+                  }
+                },
+                {
+                  "index": 240,
+                  "source_crop_sha256": "7ab8f4583a10271dc4ba6b38c486f46c4aec86315c163281d22d2669f210fa70",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0240.png",
+                    "sha256": "a7f08f4653c1f8b447b18784349b821863328452af746b976eb4497112ac3e08"
+                  }
+                },
+                {
+                  "index": 241,
+                  "source_crop_sha256": "0b6c4d974847f7b56adba6751e96c5d8d6b319189aff4d0a09be3602c879158e",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0241.png",
+                    "sha256": "6bcf8569f37f30565420a6e3dc4c1ba5f65ffd7b828232296505cd4a656dba2d"
+                  }
+                },
+                {
+                  "index": 242,
+                  "source_crop_sha256": "514bf1c9c28c2557c4c99437cd72e0bd99c12f9d2d5babb76f0ae4aa5d8994fb",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0242.png",
+                    "sha256": "f27b4361be4a6d7b0da92e091c91f83edce586411e61e0e48841bbb4999a6c64"
+                  }
+                },
+                {
+                  "index": 243,
+                  "source_crop_sha256": "b0afdf29c9042256a919be17c05fdc1f7ad9d57f334083de628fdc9288af9329",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0243.png",
+                    "sha256": "9f044aaac24d88daf13e4a473182697fae87e815ce06d1162544eb6b99ced4c2"
+                  }
+                },
+                {
+                  "index": 244,
+                  "source_crop_sha256": "38117828a3e10ffde808e182fab9097272ad9626a4a4a47d33605f6bdbb94b2a",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0244.png",
+                    "sha256": "91ee69b8260edf236872718decc6d6bfea96603c12d8bcaf4e015c9d7cb5757c"
+                  }
+                },
+                {
+                  "index": 245,
+                  "source_crop_sha256": "359fc30be720af50bcb92fc9b393a35a8098cf88eae9ca565d970a2f4773692c",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0245.png",
+                    "sha256": "fa3bf455a7dba1c6cfa3ea8613690bc6aafd775a432d1657f7e584fa72b741e1"
+                  }
+                },
+                {
+                  "index": 246,
+                  "source_crop_sha256": "363be97020b9f7875f48eb3d830d78bd42c79088350858ec40b25eb022070fa7",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0246.png",
+                    "sha256": "8b7d0fdf8882f460f9c48d58121cffdb4bcbf9dffbf99b93e38887b8da847b5d"
+                  }
+                },
+                {
+                  "index": 247,
+                  "source_crop_sha256": "9151bf883a5617dfc30ad036669f0d2a97a5a82f8dab0da76c04ebaa2d225b03",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0247.png",
+                    "sha256": "87c0009935cf6a6a05d94337c9348b464ab216aa9b09839947c6251562d3e743"
+                  }
+                },
+                {
+                  "index": 248,
+                  "source_crop_sha256": "792e42ec2bfd79267991ae35b9d9518419f99338b7853dafa35f613591ec868c",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0248.png",
+                    "sha256": "f88873d5d86b39c23c6fe5f0da6459b5053ddbcf395a33db4383925a000e7103"
+                  }
+                },
+                {
+                  "index": 249,
+                  "source_crop_sha256": "f7e06845ff2a6d4bd156d4d0e6cde09fba71db74b6f03ee5bf890134e52e920b",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0249.png",
+                    "sha256": "ea95a0e24d562cefc3b86f6a4119555985a8986022c065b4bc1d0cdaa224512b"
+                  }
+                },
+                {
+                  "index": 250,
+                  "source_crop_sha256": "3cc11c1bf6fa959520b3d0fcd6e5538cf4bdb5ed306dfbeb9714a35651b79446",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0250.png",
+                    "sha256": "046ca6db5194406a983b1fcfe0e07536233e42373dc6a62e0761755f682a6ba3"
+                  }
+                },
+                {
+                  "index": 251,
+                  "source_crop_sha256": "54f73baf2fb14154fd36e1a546ea9f06bef5d9de9445533ebf3a3977b42380f7",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0251.png",
+                    "sha256": "b002a6d4f509ef09c21a3e23bb603b0a7cc4078fb732204019e36f13b0bb3854"
+                  }
+                },
+                {
+                  "index": 252,
+                  "source_crop_sha256": "b64854338f394d6ad2ae4d1d3145752a85cc4ca05d5aeca8201667eb34fd99eb",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0252.png",
+                    "sha256": "c23db36902e905d41130cc492c9ceaa6e997599ed5f563ff84543639af0e94f4"
+                  }
+                },
+                {
+                  "index": 253,
+                  "source_crop_sha256": "fed764415372f0b57119b479b4e12b94c3f86c5941e1d30b01d47de451b1891b",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0253.png",
+                    "sha256": "fbd091f668bf904d1117bd75f0c67b1a7a992c80ad91084ac7b7c47a08562f58"
+                  }
+                },
+                {
+                  "index": 254,
+                  "source_crop_sha256": "77b5341e785cc184364e90a7e8ce8cc6d7080ef45c3dce6379c67200c2b2b5e0",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0254.png",
+                    "sha256": "222f43bc1de5167c4af0031963a89cbb7af7a38bf48e128f7d0f2e2a304b4dc2"
+                  }
+                },
+                {
+                  "index": 255,
+                  "source_crop_sha256": "93757c1ee043c0d10bfb70f58ea162e79ac5d263d9a0aa33c9f4fee5faa933ac",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0255.png",
+                    "sha256": "bd3a3530d6b56d80f1aa4e42742fb9f83f7688d4dabf700dca474e8d53833e25"
+                  }
+                },
+                {
+                  "index": 256,
+                  "source_crop_sha256": "86ad2dd7906cc205b51f6aaeec4485f8ae1c9e0b188956ba011fe824b0295399",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0256.png",
+                    "sha256": "190f4e8f620e0f04fd5c9d8eb617d0fd0e31ab606fa9545dd9780cbd55404cdf"
+                  }
+                },
+                {
+                  "index": 257,
+                  "source_crop_sha256": "763755b52b9e27c84e2a09d0166a5e1871c576cea6798de4d9db8f0041cdd682",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0257.png",
+                    "sha256": "bc4a5662d20dcb9bb4ee7564ea71aac997b58a52537b0111da29383bc3067d36"
+                  }
+                },
+                {
+                  "index": 258,
+                  "source_crop_sha256": "bb132d593a27ce12a08fef854ccb76d19fbc04fad896c8246fafaab149872d58",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0258.png",
+                    "sha256": "110120d59281e5309686b39ec195b25ed0d0298462832de80c1440db7e071ee9"
+                  }
+                },
+                {
+                  "index": 259,
+                  "source_crop_sha256": "3375e0acd1dd55c336ecd983831288c564264824c78336d45ab70b59dd8e29c3",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0259.png",
+                    "sha256": "8ce5146b2c25c1b8b6bdc102868fee28f89b4b3c19dd2dd56dc81170caad8901"
+                  }
+                },
+                {
+                  "index": 260,
+                  "source_crop_sha256": "9e9f812cd521c0086a8b239dbee00b24d671c5450289819c727767c821d3251e",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0260.png",
+                    "sha256": "515ac71eb55376605df2372dcec6632303865d16e2e70dab566385979b5f95f6"
+                  }
+                },
+                {
+                  "index": 261,
+                  "source_crop_sha256": "9973e1dd2c910aed7c35d099b553eea7ed45edf3c0795f3b2aa6c84dc874c949",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0261.png",
+                    "sha256": "0a7ec885f72fdc8d2e76018f9f7866df417925054cc4f41a4299ba0636f9ecce"
+                  }
+                },
+                {
+                  "index": 262,
+                  "source_crop_sha256": "b07f1f0b62e2d75a1e751fccf70a09015c80af6646a5de21d9f7bc8f3c1d41d7",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0262.png",
+                    "sha256": "afde2da9311f8e1b4d46295c2b57a19d3b520af29ad2999b8ae3928fc93a9a74"
+                  }
+                },
+                {
+                  "index": 263,
+                  "source_crop_sha256": "c034b2073999cb74e917b98af01bad378ea10a0ffd3a83d8eef1f7ba0f1bb3ab",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0263.png",
+                    "sha256": "62222e1cde52b9d8ba98422d3ee9ea36083c63194d1796dcfbfd63c8d4ac64e8"
+                  }
+                },
+                {
+                  "index": 264,
+                  "source_crop_sha256": "4aee01971f6c77c25fb19a731137039494ec343159f57fb8533c3d5a4b7934a5",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0264.png",
+                    "sha256": "6f8d81a1de3c54ac2b6e2fd6bf3a9f562e0e494b717fc9e462e717fae2619ea7"
+                  }
+                },
+                {
+                  "index": 265,
+                  "source_crop_sha256": "1c34ddbc10d7e44a334798a9c32ec49a40f61011e0b8b84805f1690afe211aec",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0265.png",
+                    "sha256": "d9359e5ea5bccf1e6b78ee2b44fcd05623a1d756fd84e6061815089ef02bf2d9"
+                  }
+                },
+                {
+                  "index": 266,
+                  "source_crop_sha256": "1ab7a80fa90cdd9ef1bd525a46858eed3c8deac8cf66a107808ebed12568c0ef",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0266.png",
+                    "sha256": "bda129748a5082bcfa1a20de9072c856c0dba2c39e5935631db7ceb02bbba627"
+                  }
+                },
+                {
+                  "index": 267,
+                  "source_crop_sha256": "281ce62b0802840d650b3617e8a5b72aea46a47e60cbbfd1231afc10ee91ee93",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0267.png",
+                    "sha256": "f59b99085862ed5b47c2d27c7317785b4c557429e661a0feac9fb0743e4df08d"
+                  }
+                },
+                {
+                  "index": 268,
+                  "source_crop_sha256": "ab5ebd18d640d5f912189c3e755fc5cf5c68bd975647b778968010ce1a1507b9",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0268.png",
+                    "sha256": "48c76fa3a5b1cc96c4fbd6598c05d0b8d8e63a023a2e6934575f5318ba714f42"
+                  }
+                },
+                {
+                  "index": 269,
+                  "source_crop_sha256": "abd809f0f1c5b128ce5516576815cbf06989d0e7131a578c75b779a5a853919f",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0269.png",
+                    "sha256": "e18a9384f2edfc76c07405a0a212bdff0a627304d36467624deed5fa847f9ae3"
+                  }
+                },
+                {
+                  "index": 270,
+                  "source_crop_sha256": "bbcc56eb8e7d990857f841c500918d20ae5acfe0f734889263d1e75fe130aea0",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0270.png",
+                    "sha256": "4e89e999d41e44e37c29d6bc416b158947556c5a495c78cad18db99a2f5ff9d0"
+                  }
+                },
+                {
+                  "index": 271,
+                  "source_crop_sha256": "60ecf54c7257925eaff9ad79397e5a90bb5edb1d94ecc9d7a2a31a323b47ec09",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0271.png",
+                    "sha256": "124f1effa968cb88ad4ac65a0a0028c98e7b26972828fa4e11e22a724f6cc7b9"
+                  }
+                },
+                {
+                  "index": 272,
+                  "source_crop_sha256": "aa1bd21cc952172f3496899c2c982ff91d3b6f5151a126b3da0a958709b24c3c",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0272.png",
+                    "sha256": "3c28085b8d89f97314eb92be930cc074fb25f3409e708f4aba6ef653259301ce"
+                  }
+                },
+                {
+                  "index": 273,
+                  "source_crop_sha256": "136e5714d55c4f8d1e03ca3fdfcc85474a0b7e85e78c52944b7998a2b15705e8",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0273.png",
+                    "sha256": "31d0c4001964d5d832036c22a0185c1cd9f16c77b4126b92603bff4568546ea3"
+                  }
+                },
+                {
+                  "index": 274,
+                  "source_crop_sha256": "02b38eb8e3bfc0c07a73392975778de17b4ff71615a97f3f592770e707010eb4",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0274.png",
+                    "sha256": "3d3e244f817c40fd050481ccb9ec60d8f0a65eff95ad5c70547d6f0c543699bd"
+                  }
+                },
+                {
+                  "index": 275,
+                  "source_crop_sha256": "b2b47a41ab920d3fa00525711ac7e9bfdb830f43722cc2d5b5b35ff07b581739",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0275.png",
+                    "sha256": "77f201846c306186c4fb2b4c133987a82e4f11cc1838908457ad5e208636b712"
+                  }
+                },
+                {
+                  "index": 276,
+                  "source_crop_sha256": "87818a2b4220ec9aa2dd354acad3bd4e4b249c4bd6ca076a6ed9ac5b11710fd1",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0276.png",
+                    "sha256": "7456f3035a51cd26fe8f917e46789dcaa6a49e1e321097e5219217aa53f2a59d"
+                  }
+                },
+                {
+                  "index": 277,
+                  "source_crop_sha256": "36d5432b8db6859d548fcac734476421bf7252d001be4813fe3e9ee4455959fd",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0277.png",
+                    "sha256": "fdba4692d4493c11f4e127a36ecbf05a543ce8a72c508da25cad0c271019f499"
+                  }
+                },
+                {
+                  "index": 278,
+                  "source_crop_sha256": "cdfdea0f1f0a4e7326192b2c16f72a3b8b877fde7d5b81106b83ae4036d808c6",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0278.png",
+                    "sha256": "12ff7a9f1ef46047e153da504be0ed9baf861a83ca614ffb696273eeacccc0de"
+                  }
+                },
+                {
+                  "index": 279,
+                  "source_crop_sha256": "50bd406c4e965d5c86dca18a2448fe8989c474f5dcf8c579bf61e41159ca25e5",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0279.png",
+                    "sha256": "99f991bb5379bee2d2a0672a08c78d7e3a687db58659daec5af0d746ea3271a3"
+                  }
+                },
+                {
+                  "index": 280,
+                  "source_crop_sha256": "f842194738002462c1d4c99ee536ed8e5690d9a1656114c59f7bbcbf04ce7f73",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0280.png",
+                    "sha256": "8147f262ee33314373585377271441248a7bac0b138a5bca9169bb842bbc3abd"
+                  }
+                },
+                {
+                  "index": 281,
+                  "source_crop_sha256": "987f12d51df112834954c5741b8e99d5254de81b08220c25359c80de5f6a69c1",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0281.png",
+                    "sha256": "952066e7db30857d262dc4ce9b3bdecf2604bfa550f5c92c17e14900ed137ace"
+                  }
+                },
+                {
+                  "index": 282,
+                  "source_crop_sha256": "b42da51d4eb04cf0be9b8a4494285c41651649220f3e7502181085b44508dbf5",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0282.png",
+                    "sha256": "003fa3f53cb05a1ae5377a7040e022bb1ee6f29568c16fb332d76499fe7589de"
+                  }
+                },
+                {
+                  "index": 283,
+                  "source_crop_sha256": "824b30e887ee8381a27a99e8c06bd1ddf7223716df8f9f6105ba41ab8a870a67",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0283.png",
+                    "sha256": "b7ed65e6c3b89b0fdca2146646f4b1122d1e199d6c4552f4b777f0605f33309b"
+                  }
+                },
+                {
+                  "index": 284,
+                  "source_crop_sha256": "d8344ece26afe0a3be2580d61c07b95e30e1e3e6084455613d490cc3c91c430e",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0284.png",
+                    "sha256": "c1d2173e85092342ac8ebd8da8fa671eea5c3bd065065aedcd2bbd3d961e0e52"
+                  }
+                },
+                {
+                  "index": 285,
+                  "source_crop_sha256": "9228e64d0e9742f3b605b6343b3e6fbffabfda72d16bcd86f66e99faf4ae0af0",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0285.png",
+                    "sha256": "11989d6954e877f99be1eecf5341d4219a76f7c41ebccd25c07b4ed5d2067a16"
+                  }
+                },
+                {
+                  "index": 286,
+                  "source_crop_sha256": "5c95f1a09c2668c23080d9c27d7e231db9f4e6c418090feab0282d449b1012eb",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0286.png",
+                    "sha256": "074dd2011b524a73a67b62940dc1cde763b797c9560df9a8dd06144e40e2eaad"
+                  }
+                },
+                {
+                  "index": 287,
+                  "source_crop_sha256": "3e9043ab8f4f73e8d00fb123d015367bfb96c7bb73a5719ea2e16b0773f5f9b5",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0287.png",
+                    "sha256": "5cdff2644416093c390abe798709dafc9c71531f36c2b6fc55c9ccc678240428"
+                  }
+                },
+                {
+                  "index": 288,
+                  "source_crop_sha256": "3c8fa0a56127115e99c4261c0a2c62c5bc737b3db21e74957fa4827efe4a11ed",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0288.png",
+                    "sha256": "3a675f5104994bfd7b4e899eff5a572e1d24e05a942bf888692d3ee5dbf65ae9"
+                  }
+                },
+                {
+                  "index": 289,
+                  "source_crop_sha256": "319ffe0c653be5c7e8c0469c2ae0cdaabb7999109b51a2286b4e4478115b6613",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0289.png",
+                    "sha256": "d5ad3b35af2976291d770e7d4c5cf94138eee792d5eb58642b8907eab60de045"
+                  }
+                },
+                {
+                  "index": 290,
+                  "source_crop_sha256": "01754e4306c4c7c85d4b9416d7380b0e4788f4d13abe2aff10b3a67a70dc5b60",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0290.png",
+                    "sha256": "695d9d4a2787f0fd2c69cf51a1ed10120664492895dba684637d4efbaa1398e7"
+                  }
+                },
+                {
+                  "index": 291,
+                  "source_crop_sha256": "2ecc35cef8c8c5abdca164359b71c19937089c6571b8d76e3e144ab165c5fd25",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0291.png",
+                    "sha256": "6fef89add82a8685df5fbc101416d0e056e25f96611e717530f2ff7c5bd4f63b"
+                  }
+                },
+                {
+                  "index": 292,
+                  "source_crop_sha256": "2464a943914fdac6bfc4becb1ffdb680e020f8a2e8da5275ed3471a0fc5e6097",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0292.png",
+                    "sha256": "c4b98d685ee0505ac29f11f7e895889718e97824e712270597ac7568b4a885fc"
+                  }
+                },
+                {
+                  "index": 293,
+                  "source_crop_sha256": "1f1acb66f6fc79a11ed6edebbc5783b1353a4c4c0321bd787159d82439f1ceba",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0293.png",
+                    "sha256": "6c82358d17f3491cf40d630b10c12227909ff275996081add86847415b719847"
+                  }
+                },
+                {
+                  "index": 294,
+                  "source_crop_sha256": "42dee52a051fbce45b331f7b0f182cb048f91d7de2316025193626fa573ddfea",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0294.png",
+                    "sha256": "2856f4a0d780299669a7d61f85ce09834018da85074c91e2a195522c70045536"
+                  }
+                },
+                {
+                  "index": 295,
+                  "source_crop_sha256": "97e9e951bf539224b4daba9807bcefa7e4c938347402787e56de98b04905ce56",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0295.png",
+                    "sha256": "e53dc114bb56bfdfd9f1edba1110438951542565665744f9a8041298378203ae"
+                  }
+                },
+                {
+                  "index": 296,
+                  "source_crop_sha256": "2187c3d8036c9bd467a371ccb919e7408dcc19a44bcbea3d83562e2e02a73616",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0296.png",
+                    "sha256": "ca72a00df3f2e82950241fa757eccbf47c527f0c48e820edcded5258dfea21b4"
+                  }
+                },
+                {
+                  "index": 297,
+                  "source_crop_sha256": "ad2fd2a54ade4e743bec78d61b3539ea282d55a05e17521b5a746bb4a45703c0",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0297.png",
+                    "sha256": "59580c3684b2a5ffcf2de56ed3ddf3d07dce1912b98ad3a4e354d6f51ae493d2"
+                  }
+                },
+                {
+                  "index": 298,
+                  "source_crop_sha256": "f1ffddb39a5b83910c36b2b84c5608e5a4fe7f892e6988eecb39d0a58492315b",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0298.png",
+                    "sha256": "643e35faaa6945a79c0e0d08c2055c094c3ee61e99c92f7b78d51f1fb63d298c"
+                  }
+                },
+                {
+                  "index": 299,
+                  "source_crop_sha256": "ac9ee88bb4113f65947d7206ff3bf29c0f20457f9ce9576e9b3290e4f7755ff5",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0299.png",
+                    "sha256": "8048ceef4324b3998c1efb3a2ef5bb03e0ee5a3a4637b81e918159c617e3ad22"
+                  }
+                },
+                {
+                  "index": 300,
+                  "source_crop_sha256": "77e7a38db471ede17167eccb894883d11333d65dd69d1a3afb140b8a05cf0312",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0300.png",
+                    "sha256": "a27a042dc342209dd81ba342feb72f68bdce81fdf8294742411938a897d41f91"
+                  }
+                },
+                {
+                  "index": 301,
+                  "source_crop_sha256": "7f27b3482d189b5048e6e2191706f9355bbd8869601d03e36876229b7d40f9cd",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0301.png",
+                    "sha256": "3d45ae8038b665fa8584d39dd8599dc0cafd0cf3e8de814d56ba775f59cdd1da"
+                  }
+                },
+                {
+                  "index": 302,
+                  "source_crop_sha256": "fbfbbf3d7f22e74b006f4a6e9f10348a164e9d1cdc72ab72caa038ba9bb19f5d",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0302.png",
+                    "sha256": "47075df1b63142f8d55421652a7cbb8e8182ab5bede67bd48af9570f98a9bb38"
+                  }
+                },
+                {
+                  "index": 303,
+                  "source_crop_sha256": "2716b68e58aa8aea41822c450b93e1e61320907b1e2ab30ae4f738a61dde971b",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0303.png",
+                    "sha256": "403f64855f49afd83302f6bc270689514d98c3744839c1b858869042e1996d88"
+                  }
+                },
+                {
+                  "index": 304,
+                  "source_crop_sha256": "d0a0039c419d02002fe211a8c9c0189fde710989e032228f370f74ed28e08c25",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0304.png",
+                    "sha256": "9a0c321cde934444789fe32c470e6ed5a20f774d3b406bd47b61b34d5e89f49e"
+                  }
+                },
+                {
+                  "index": 305,
+                  "source_crop_sha256": "f0765fd2545cc615ac9d3974bd63fdf830753a03617b7012fa8e28e65e4cff5f",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0305.png",
+                    "sha256": "009839435586452a8c39332d5de824770cf7b8e03c09bb6e7140853fef90123f"
+                  }
+                },
+                {
+                  "index": 306,
+                  "source_crop_sha256": "5374f40c8dd98aca17e04d7d8d07484586b9ed554c68cb1417babbf70ebb6ff2",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0306.png",
+                    "sha256": "cf7c54643855df92b3bdaedddd662f1a6fca699067870095560c9dc553cd0d26"
+                  }
+                },
+                {
+                  "index": 307,
+                  "source_crop_sha256": "c86902ba32e0f7b3c0b15072249ae9a41c698b17df5082c6a6f3935596a6fc20",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0307.png",
+                    "sha256": "3d15d1a408f1b16dc55bd959296b9f9c99e5d2782f674dcd8670e4d5c172b3e9"
+                  }
+                },
+                {
+                  "index": 308,
+                  "source_crop_sha256": "1e1d08e025c54c0a93ac46f1608ee1801e083d0d029553639fe2c27353dd4788",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0308.png",
+                    "sha256": "6a5b6527a0cfe79e467a78f0a16f37e3f25d9859caa5ec61097e50dbdaf068ef"
+                  }
+                },
+                {
+                  "index": 309,
+                  "source_crop_sha256": "b026298f406cddeae2650324046f1c470f3821b3f46bde5adb11c3fd88f9f81b",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0309.png",
+                    "sha256": "4c79996f8b50bd3307e8a7c21e26692aa7e298ba3a94d6cc2ee3f8091b6b67a8"
+                  }
+                },
+                {
+                  "index": 310,
+                  "source_crop_sha256": "2f1315f12ecaed7dd5b11d826a563387a79c47b6c99d14397ea6ad8019ba77be",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0310.png",
+                    "sha256": "d6f1bb0b244d859591c5e9b6952879bd7933d7c51a609b263e5602f3a742b273"
+                  }
+                },
+                {
+                  "index": 311,
+                  "source_crop_sha256": "936cda700453eb49509d2fc58479f89de238e8247c2bbe756da6bcd88214e4cf",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0311.png",
+                    "sha256": "1da47b98cca79a573562bde77d9cafe9b83218faaf497b22278baf9e0cb08dc4"
+                  }
+                },
+                {
+                  "index": 312,
+                  "source_crop_sha256": "721f950da04be16a8ca1e98e3a234030be38ccb951530c9630436242bc09116c",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0312.png",
+                    "sha256": "f5663d6d0b6909f5442124b087a0155d17974e6cfba653c820d2785d4e06e619"
+                  }
+                },
+                {
+                  "index": 313,
+                  "source_crop_sha256": "98759a39617e9f57519dfee45560fc9fb7a067ab866141bbd3846976f6dddd6e",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0313.png",
+                    "sha256": "03e75662d37140c04c6241cd77e3f662b3af9302ff7fd55bb81947685f5cd107"
+                  }
+                },
+                {
+                  "index": 314,
+                  "source_crop_sha256": "21f40877fec7c6283c0a67b724488e200ec8565d831b12ea1676d7e6489f8e94",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0314.png",
+                    "sha256": "158c77f31e692fe75f9b726586997100befe05ca83b220f631f6df8387ccfb39"
+                  }
+                },
+                {
+                  "index": 315,
+                  "source_crop_sha256": "a6235656f6aafaa99d66f88b62a2405823ef37714dfec31215337b409f716837",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0315.png",
+                    "sha256": "77f98e05d9be9229762c193a44aa5a7ceb342ac7f457458e6e466fd4fa44f197"
+                  }
+                },
+                {
+                  "index": 316,
+                  "source_crop_sha256": "5fcbe817bdab99ed3a81adf137574a5486fe7dc183317080e1041b148655b868",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0316.png",
+                    "sha256": "8cba26e691f87b69d91ab81a9af6cbb93926c15050ccd013f6d1dee740a35ddb"
+                  }
+                },
+                {
+                  "index": 317,
+                  "source_crop_sha256": "69221bf621293e56184727a89dc347b92563192d42e186bc7276f6a2607586ec",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0317.png",
+                    "sha256": "1ba91bdf6414c59f0820ae49ff1eba38f594fa6fbb37cbb1ad55a0eb1b70c7e8"
+                  }
+                },
+                {
+                  "index": 318,
+                  "source_crop_sha256": "39e5a98d3aab9376cc7838e04ca12dfb7cc5cf277771dcb088259ce5cace42e0",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0318.png",
+                    "sha256": "5174e6387f5ccaa78b7c0648664a1b692e2d8ece9303f4d9ca16795d337223da"
+                  }
+                },
+                {
+                  "index": 319,
+                  "source_crop_sha256": "537bfd53b9cd32e888600626681467c245102fc6fc64dd1e5aadd00dc6678129",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0319.png",
+                    "sha256": "9d0c16631ec8096f3214261ba1bc21a3339170b2e5d42cbca2a6d781b301c18c"
+                  }
+                },
+                {
+                  "index": 320,
+                  "source_crop_sha256": "c1ae1bdfaf0a8c6d04ea08287b2ddb23e92e04eb0c825414cfc811e05801d9e6",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0320.png",
+                    "sha256": "2c74b4349ffe1f028e92da2bf1a5d45c6eb49f38e6e6eccc284b3dd41f6cf2b3"
+                  }
+                },
+                {
+                  "index": 321,
+                  "source_crop_sha256": "8c14c5bdd0609bbcd36aff851a41e31163f9c809793a137f97773167d1634d80",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0321.png",
+                    "sha256": "d0612bdc395a596b69cfc6f37d5f78e5365b1ad66e056e842e331c1550a385a9"
+                  }
+                },
+                {
+                  "index": 322,
+                  "source_crop_sha256": "7063bd63419dfee215fa98436343721031bcc5716c9bcabb6245cee64c031e77",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0322.png",
+                    "sha256": "e6b127cf7a0a3e0d04afa8067484b0f13f47e38f9d98c622a6d70de069fa22bc"
+                  }
+                },
+                {
+                  "index": 323,
+                  "source_crop_sha256": "e6ba1e68b4060281fe89baf949a55fddb6841d4345466c4f86f7e54a5899e4c0",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0323.png",
+                    "sha256": "d840ad3544a7f90cfe9416f85ad3abb60348f9f5b02f7b52ae548119efac505f"
+                  }
+                },
+                {
+                  "index": 324,
+                  "source_crop_sha256": "b4b17bc706066d2467640d2d2aca1084753f3c159cec2fe7696340f27bae6926",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0324.png",
+                    "sha256": "234baf1291a3755d5383d008398c4df7c791bb114104bfcbb88f8323900da99c"
+                  }
+                },
+                {
+                  "index": 325,
+                  "source_crop_sha256": "7256de7cf5e36b72d952be690576915896fa289416e50c742479958e33563f2f",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0325.png",
+                    "sha256": "eb5ca12024c1a93549f844d36b999d74963238c7823cd0e842206697899972d8"
+                  }
+                },
+                {
+                  "index": 326,
+                  "source_crop_sha256": "0071f6b29861ea373a63ef12acba1a7c33bbd50a76dde2dd07a54fdf1080dd38",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0326.png",
+                    "sha256": "62db1e5eda02555d00e5ad97bbf7658a79719b22a30d68903ba6375ca41a3f98"
+                  }
+                },
+                {
+                  "index": 327,
+                  "source_crop_sha256": "d7d2bfcb601bd06d29632aa5fe0bbfdd35a9d78f53fa62dad4aaa016538867c5",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0327.png",
+                    "sha256": "3ff48083e25fb1cb8da4601a577309ba7b7715fe099c2715e97d8768170696a6"
+                  }
+                },
+                {
+                  "index": 328,
+                  "source_crop_sha256": "5f314297c8ad7750a2f3c15c67d33c3c7f9331bec119f1324fcd8fed41392776",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0328.png",
+                    "sha256": "a50a6a5dbb811fe15b80ae34e617832bac24aeae37e8a6ae488f1f10dfcb98db"
+                  }
+                },
+                {
+                  "index": 329,
+                  "source_crop_sha256": "840b274cbfe3fc8a82e7f65afa41409c8ae4f584b61b3907bf6d79e2859169c1",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0329.png",
+                    "sha256": "78d8bf087ab61974138b2f648ef9f7d99c5b76c410b7db08ac43ebca0e7cd7dd"
+                  }
+                },
+                {
+                  "index": 330,
+                  "source_crop_sha256": "cd706941bbcad81548f4049765c6f8db79664b8edd50aa672dd9b35cfc34b695",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0330.png",
+                    "sha256": "6ef885bbcc323a4ca4cdebd4bb24de4c2d589c1ac6974faebc6b6258d7c5db80"
+                  }
+                },
+                {
+                  "index": 331,
+                  "source_crop_sha256": "7086c6b8d3df046cd6f371aca76d965e0d9392efefccaa89ef20e59abdaf7c73",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0331.png",
+                    "sha256": "12ef5eaadb88946c61ada31a108497082f8b6874aa8d2583dc01590c8f024d59"
+                  }
+                },
+                {
+                  "index": 332,
+                  "source_crop_sha256": "ac0e1a00736b1798b79288df7a7a92921b5a0dc06048d2c249090ba0b7a9c269",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0332.png",
+                    "sha256": "9738ca117cbb63fa5251ea2b81b201c15f7f2bd0a213af3c57e54d6b04fa9ffa"
+                  }
+                },
+                {
+                  "index": 333,
+                  "source_crop_sha256": "cf4816521c4e3cec674b560dcda7add2eabd7327b7f449cb56bd2fa03d566f28",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0333.png",
+                    "sha256": "5daf533bd01b1d3de824943bdcd8e6029513f7e3a21f6743248ceccfeafc9de5"
+                  }
+                },
+                {
+                  "index": 334,
+                  "source_crop_sha256": "e0507c0fe57e33522a22462842bd31f06ef2106eeb91196985ea0372395a7ed2",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0334.png",
+                    "sha256": "d51d7ee67ca032f1920185afcf8766d6505cd39cf2d2334b2252c1562ac46508"
+                  }
+                },
+                {
+                  "index": 335,
+                  "source_crop_sha256": "4a5db66d19256cd5ebe951147932a54d6a1b6e280bce84713a3e4b0d341259d9",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0335.png",
+                    "sha256": "844ad4e7fa992065772a6efcfc4b72b473853fff701678d075a7387e09dd2af4"
+                  }
+                },
+                {
+                  "index": 336,
+                  "source_crop_sha256": "bf168f18a2e63b89c53fd9e0d7ddde7d8de0ee3760c8dc57e39b071924a2ec17",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0336.png",
+                    "sha256": "9613c395f076785a8edc492b6017c41b452e412d747fea549bdfcd1548605ae2"
+                  }
+                },
+                {
+                  "index": 337,
+                  "source_crop_sha256": "3be6f7b80acdd5ab10a64d9ac53e11d226d3172715656e2884a084e7166a7dba",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0337.png",
+                    "sha256": "9125e1db9075bfe0aece8231e289eff75fadf7a3dea87785fa51b4e04b6caaba"
+                  }
+                },
+                {
+                  "index": 338,
+                  "source_crop_sha256": "3cee0aa209321db7b7a56bf88c52cf0dd95fb615bee1579dc049437bf99ce659",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0338.png",
+                    "sha256": "f2cb490265b344bcf119c309cb21c96fb3ee0384bee109437266951b1a1dfd6e"
+                  }
+                },
+                {
+                  "index": 339,
+                  "source_crop_sha256": "117e8286f2c5cb0c2dffb2365d6e9728c0a5beb889b8d43b7503736c01b97df0",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0339.png",
+                    "sha256": "4d981b4135a2b82f0f50b7d2d29f1c3248d079866d8ebcf38067dd632fbcdee2"
+                  }
+                },
+                {
+                  "index": 340,
+                  "source_crop_sha256": "468ed1c05059fd00c1ef7a8768855b47f67271a8be87778fbe3afb3b57c14961",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0340.png",
+                    "sha256": "6d00b812efdef1c0591bbcf0d25eebb2ef7d0cdca3896e4848932849f0fcc5d1"
+                  }
+                },
+                {
+                  "index": 341,
+                  "source_crop_sha256": "1e40ed131f61f0fff18a19bd7fddcdb10db648de368c3a32f304a5d5362af537",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0341.png",
+                    "sha256": "a05251af9169f9ccbc77775634a39148a3bf72aaf3ac85134343b05fda10ee99"
+                  }
+                },
+                {
+                  "index": 342,
+                  "source_crop_sha256": "a9e3604e5c723e44d95b05534ca6c910e705aea9628910f2a7966e7481dda645",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0342.png",
+                    "sha256": "591175208a50450e0bc019560e99169fd1f14f7a2228543533ba34a949438467"
+                  }
+                },
+                {
+                  "index": 343,
+                  "source_crop_sha256": "ad400c128d189a990411e244f4d3a4fb1a87a09a1903d35603be2f87b191344c",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0343.png",
+                    "sha256": "3a24732f099592f8cef1b18e51263aff8c22b6214a88870ccc57d9909aec9466"
+                  }
+                },
+                {
+                  "index": 344,
+                  "source_crop_sha256": "d95366037a65b3152eca8bf59cab545bf515c5d515b9f7dff781e5127a9d049f",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0344.png",
+                    "sha256": "904bbb2ac52c6b75950ae2b3c575114c98cf97375429f5d5b3579d8e3921cc47"
+                  }
+                },
+                {
+                  "index": 345,
+                  "source_crop_sha256": "abd76b805e2a3c5fac1953678790dfc1db868b92d788b52dcedd936dedb22aa8",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0345.png",
+                    "sha256": "bcba869c81a0cb79049dc77dbf9f591d7a7e71346058d4536d84e37b682e473f"
+                  }
+                },
+                {
+                  "index": 346,
+                  "source_crop_sha256": "dcfc0e6da39d35f2eff03d6d6e39d69f1afa0dd13a764708a5a721bed74d83ed",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0346.png",
+                    "sha256": "9440b8f00236f7970232f4de1f047982af87797fa8fc7916b9516f3cb779bfbf"
+                  }
+                },
+                {
+                  "index": 347,
+                  "source_crop_sha256": "9ead5733e86a140fd2eb35bf2eefd0005adf24d32516870f593451af20282932",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0347.png",
+                    "sha256": "43f671ef2b0a89956e5370edc2fd28914b8d05620d673e6382ee22015b9fe928"
+                  }
+                },
+                {
+                  "index": 348,
+                  "source_crop_sha256": "03e75e7236a5b05abc816835bdb052068f37cbc59a7c069d59855004419ec996",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0348.png",
+                    "sha256": "f3c52a36f830e5b59a90f4a3a21e86b1ee10f09e2274d130895389d73fc9c6ec"
+                  }
+                },
+                {
+                  "index": 349,
+                  "source_crop_sha256": "7646a9708ed9f713ba53622ddb3c10edaca99988084693b1f5bcebf3564c23e4",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0349.png",
+                    "sha256": "f0fd34835655d0aa14bc7dd733a68ad324b973b728adf141118b8b5361386ab9"
+                  }
+                },
+                {
+                  "index": 350,
+                  "source_crop_sha256": "9747a0d1d9ede7df4d3fe58526c5d3cc240fe0af5ec3f48f0249624fb9ea6da7",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0350.png",
+                    "sha256": "367002928e6726aec853ee6af5a89df0f6055d557cd6e5db9956aff3c4403579"
+                  }
+                },
+                {
+                  "index": 351,
+                  "source_crop_sha256": "bc88ede073d1c4b4c8f3a0ccd4810b1d68e748491d9a2ea652e68cbb0f2bd30d",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0351.png",
+                    "sha256": "c0bf18e260ef4998df583d83937cc318ada98202d454d946671f96b6f7a3acf5"
+                  }
+                },
+                {
+                  "index": 352,
+                  "source_crop_sha256": "0ada3e8aef49562c52d4c587459dcffda6cd2f5f555b193ad59f70fd568545fe",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0352.png",
+                    "sha256": "867d4d8d3c180133d3d29d9ac76fb12816af89daad8f43bfb8bdfa5b9bd5b96c"
+                  }
+                },
+                {
+                  "index": 353,
+                  "source_crop_sha256": "0a924d2232d25c9b41b05ac4f7bacc12b43175ec304a20f1edaba49bdb3bb069",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0353.png",
+                    "sha256": "828b6f11dedb3bd29793fda0daa06af64c1f9ea3fa3ed3f12dcfe7c394aeb1c2"
+                  }
+                },
+                {
+                  "index": 354,
+                  "source_crop_sha256": "6aafb5e98fb98248e0427cd565dac97ee7715af3bb6f85cc8b9c0ce3ac6b67bd",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0354.png",
+                    "sha256": "2c3bc3d03c63051687224cf534fa9eed259f62f2538488b224411d35e6cb7d39"
+                  }
+                },
+                {
+                  "index": 355,
+                  "source_crop_sha256": "a73fdbc3aeb69ff1e2a36248a5fa05ea303e5d8f1439fc434ed2b7410504a6b2",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0355.png",
+                    "sha256": "2119131a29e4b12e9d2d55329254f69cea75a1453731e6ac74bc90156b8338fb"
+                  }
+                },
+                {
+                  "index": 356,
+                  "source_crop_sha256": "68e0323d656a3f8d21c804729a28813d614e22d7aa2e538e36a73d65dd426b5a",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0356.png",
+                    "sha256": "b8cbe166fb4c687360b7c2acd83927d0e3e9948f71e7b25c0b1934c70c32d2f1"
+                  }
+                },
+                {
+                  "index": 357,
+                  "source_crop_sha256": "8516a2e9daac7c2a6aefce351236b0240d2b8ae4282d558032c52062343d0cb8",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0357.png",
+                    "sha256": "3efab0413286cc7b1e56b36ec51f9c9e2fd9c0bbeb8ca8e830311e5294a640fc"
+                  }
+                },
+                {
+                  "index": 358,
+                  "source_crop_sha256": "6c3d5ddee3a9be3bebf48b46d41a490584046b38610c79106d0519c96ecb0012",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0358.png",
+                    "sha256": "5dbc60f8f8e3f4d0b905a4a459a676fd78c77e62e3a9cbfb0b866a17a5b4a55a"
+                  }
+                },
+                {
+                  "index": 359,
+                  "source_crop_sha256": "29dab48332c65169eb42efa793edebaba77ccc0bc43eecc4f0d7dbfe142075a9",
+                  "patch": {
+                    "path": "locales/zh-Hans/video-repairs/worldmap-v35/worldmapmovie_09_velfort/0359.png",
+                    "sha256": "29496c9b57b13e298eb0af2e88cd8c393b4d8b88c9424252360109efdee1a05f"
+                  }
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

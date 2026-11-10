@@ -1,3 +1,5 @@
+> 阶段367：碑文绑定Ucave_Comp03_02弹窗；新增可复用等长wide StrProperty补丁，保留完整对象／SHA／反向验证。27个QuestName参数经原生格式化状态机核实不被当前中文模板消耗，MC2Game.int混合编码仅作诊断未重写；见[修复及消费者证据](docs/PHASE_367_RESIDUAL_REPAIRS.md)。
+
 > 阶段366：`MC2Compose.int [Chapter11] Chapter11_27` 与用户图2完全对应；既有pending是语义待查，不是未命中文本。新工具保留所有显式处置、截图来源与44项未决门禁；包内计数FString／VM候选与实际显示分开，见[韩文残留排查](docs/PHASE_366_KOREAN_RESIDUAL_AUDIT.md)。
 
 > 阶段363：Boss／恸哭之门大字实际烘焙于11段Bink，不是已中文的UI模板。完整翼饰、背景时序修复、真无字供体、alpha／全局曝光分离、尾帧保护与6音轨原包运输见 [时序特写重制](docs/PHASE_363_TEMPORAL_TITLES.md)。用户所报独立章节大字仍单独定位。

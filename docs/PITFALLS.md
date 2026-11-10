@@ -1,3 +1,5 @@
+> 阶段367：名字像显示文本不代表可改身份键；PlayerName参与查找／语音键拼接。QuestName存在不等于被当前模板消费。完整键搜索须检查尾边界，CureSeed_New不是CureSeed；无字面引用不是不可达证明。MC2Game.int删CR后出现奇数字节，补零可读不等于可逆修复。见[本轮逐项处置](PHASE_367_RESIDUAL_REPAIRS.md)。
+
 > 阶段366：`RESULT=CLASSIFIED` 仅表示残留已有处置，不表示无漏译；术语待考字段仍可能在正常游戏流程显示。用户图2已证实Chapter11_27这一点。使用独立的`--require-resolved`门禁，并保留非脚本占位、opaque编码和包扫描盲区；见[本轮证据](PHASE_366_KOREAN_RESIDUAL_AUDIT.md)。
 
 > 阶段358：GTilingMode=0原标签仍是4×AA/3tiles，双变量workaround依靠开关绕过tiling，不是单独关闭AA。60帧的间隔是guest回调／vblank目标，不是VdSwap载荷；合成scratch桥与有界解释不等于真实GPU或帧率验收。后处理找到独立空链分支不等于找回上游原分支。见 [阶段358](XENIA_GRAPHICS_OFFLINE_VALIDATION.md)。

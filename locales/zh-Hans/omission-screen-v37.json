@@ -1,0 +1,406 @@
+{
+  "schema_version": 1,
+  "kind": "text-residual-screen-policy",
+  "locale": "zh-Hans",
+  "snapshot": {
+    "current_primary_sha256": "8671b08e5bd4732aad15729d44d8832778a06684980efd8b5776dd071b8fa79a",
+    "dated_snapshot_not_future_freeze": true,
+    "repairs_since_v34": "Only eight source-locked Quest prefixes; all original pending/excluded fields retain exact value hashes.",
+    "audit_date": "2026-11-11",
+    "recipe_sha256": "ae4ae07c0e8d4736aabb1252dd32b36e83b314867207a1089b5441ba075af3ca",
+    "screenshot_does_not_identify_installed_build": true,
+    "changes_since_v36": "41 exact source-locked fields localized; three malformed source fields remain pending; 23 existing exclusions unchanged. No pending field hidden as excluded."
+  },
+  "script_ranges": {
+    "hangul": [
+      [
+        4352,
+        4607
+      ],
+      [
+        12592,
+        12687
+      ],
+      [
+        44032,
+        55203
+      ],
+      [
+        43360,
+        43391
+      ],
+      [
+        55216,
+        55295
+      ]
+    ],
+    "kana": [
+      [
+        12352,
+        12543
+      ],
+      [
+        12784,
+        12799
+      ],
+      [
+        65382,
+        65439
+      ]
+    ]
+  },
+  "prefix_rules": [
+    {
+      "id": "untranslated-quest-prefix",
+      "literal": "Quest",
+      "document_suffix": "\\MC2Quest.int",
+      "case_sensitive": false
+    }
+  ],
+  "known_dispositions": [
+    {
+      "resource": "MC2Game/Localization/Coalesced.int",
+      "id": "coalesced:3b24ce1380e7fbe0623d9c5b311aed9542501d58bf91a903b4315bf7115b8f74",
+      "value_sha256": "67d368f2f203bfb5c2a604ff0fe817437d3686219390a207623021e3db375701",
+      "classification": "editor-document-resident-text-not-player-proof",
+      "status": "excluded",
+      "evidence": "docs/PHASE_364_OMISSION_SCREEN.md",
+      "runtime_display_observed": false,
+      "discs": [
+        1,
+        2
+      ]
+    },
+    {
+      "resource": "MC2Game/Localization/Coalesced.int",
+      "id": "coalesced:a6f100d56439e9e7bc49913d987952cafa784ef8e385004aaadb2e72da28a41b",
+      "value_sha256": "0db9eac22974b600b36fd73518a4576e5b95e16ce31ad22cbb892010e34487d4",
+      "classification": "editor-document-resident-text-not-player-proof",
+      "status": "excluded",
+      "evidence": "docs/PHASE_364_OMISSION_SCREEN.md",
+      "runtime_display_observed": false,
+      "discs": [
+        1,
+        2
+      ]
+    },
+    {
+      "resource": "MC2Game/Localization/Coalesced.int",
+      "id": "coalesced:00293f48e7dcc925a894bdaa9c68d5078d6a02d6395797915191311f5ddbc416",
+      "value_sha256": "0c56256f40de81da73b82de3c8b9b80abd98dd3a32d786d787999779f6396d6a",
+      "classification": "editor-document-resident-text-not-player-proof",
+      "status": "excluded",
+      "evidence": "docs/PHASE_364_OMISSION_SCREEN.md",
+      "runtime_display_observed": false,
+      "discs": [
+        1,
+        2
+      ]
+    },
+    {
+      "resource": "MC2Game/Localization/Coalesced.int",
+      "id": "coalesced:0f6565c6519f1868bd95af93b11dcd198e16c24cf3feedd04341e98687989705",
+      "value_sha256": "c64ac534538b597a61cefb005fe8f66e00011081d1002ef0104a6288f0488ced",
+      "classification": "editor-document-resident-text-not-player-proof",
+      "status": "excluded",
+      "evidence": "docs/PHASE_364_OMISSION_SCREEN.md",
+      "runtime_display_observed": false,
+      "discs": [
+        1,
+        2
+      ]
+    },
+    {
+      "resource": "MC2Game/Localization/Coalesced.int",
+      "id": "coalesced:198536ac99c377bcadb0714d758e13ba769576d999d197adb52645d4feb76539",
+      "value_sha256": "c8a354ffda42db4dee0d7e28ed94e3a29f7eaf62b75ecb4a6695bca2febc858d",
+      "classification": "editor-document-resident-text-not-player-proof",
+      "status": "excluded",
+      "evidence": "docs/PHASE_364_OMISSION_SCREEN.md",
+      "runtime_display_observed": false,
+      "discs": [
+        1,
+        2
+      ]
+    },
+    {
+      "resource": "MC2Game/Localization/Coalesced.int",
+      "id": "coalesced:3550f61edcd4164ec5e17203996d9844735e8aa5956e905074f05d96645e2285",
+      "value_sha256": "1d723a662e3c69aeb489ada50fbc49efde4a455c4c67aa389a93afe3437d0046",
+      "classification": "editor-document-resident-text-not-player-proof",
+      "status": "excluded",
+      "evidence": "docs/PHASE_364_OMISSION_SCREEN.md",
+      "runtime_display_observed": false,
+      "discs": [
+        1,
+        2
+      ]
+    },
+    {
+      "resource": "MC2Game/Localization/Coalesced.int",
+      "id": "coalesced:792c64b66dd625cb183a6b754694586b1e5315c65d6c642791b02c620b88ba17",
+      "value_sha256": "b3761084098f7963fd80580b4cc9f3876101e8d4fb5c52afb43c553acee4ba61",
+      "classification": "editor-document-resident-text-not-player-proof",
+      "status": "excluded",
+      "evidence": "docs/PHASE_364_OMISSION_SCREEN.md",
+      "runtime_display_observed": false,
+      "discs": [
+        1,
+        2
+      ]
+    },
+    {
+      "resource": "MC2Game/Localization/Coalesced.int",
+      "id": "coalesced:3883a0aa987f3e15aa790605bd6b61027f4a65088f7167e2863fb6129998edeb",
+      "value_sha256": "157d9febf1435b782d038cd628178ea98bb13d114e1c1262e6cb1acfbc1cd55d",
+      "classification": "editor-document-resident-text-not-player-proof",
+      "status": "excluded",
+      "evidence": "docs/PHASE_364_OMISSION_SCREEN.md",
+      "runtime_display_observed": false,
+      "discs": [
+        1,
+        2
+      ]
+    },
+    {
+      "resource": "MC2Game/Localization/Coalesced.int",
+      "id": "coalesced:ddbc983b36d5df64784a4551e8cbe9acb4dfd8e6a656accf3aa89f58c7092787",
+      "value_sha256": "be017e5873575da8ee18ec8f44845b34643cfd805ebfdb4eef46218a486424ae",
+      "classification": "editor-document-resident-text-not-player-proof",
+      "status": "excluded",
+      "evidence": "docs/PHASE_364_OMISSION_SCREEN.md",
+      "runtime_display_observed": false,
+      "discs": [
+        1,
+        2
+      ]
+    },
+    {
+      "resource": "MC2Game/Localization/Coalesced.int",
+      "id": "coalesced:f4fdf92dbd1ff62723643a2bbecfff1c0d9d976fe2f957da80346d7f336b08df",
+      "value_sha256": "80a89dccc601c94d709692e12f82c77c1ff915df637e561821840683239e4c3c",
+      "classification": "editor-document-resident-text-not-player-proof",
+      "status": "excluded",
+      "evidence": "docs/PHASE_364_OMISSION_SCREEN.md",
+      "runtime_display_observed": false,
+      "discs": [
+        1,
+        2
+      ]
+    },
+    {
+      "resource": "MC2Game/Localization/Coalesced.int",
+      "id": "coalesced:a4b0f5554a60ca6d02a305b912db84818083325b8d00434a7837692415fb66ac",
+      "value_sha256": "0681fe01c2dbed0e9715051e013c850ccc11f7653bcbcda023447be6eb168902",
+      "classification": "editor-document-resident-text-not-player-proof",
+      "status": "excluded",
+      "evidence": "docs/PHASE_364_OMISSION_SCREEN.md",
+      "runtime_display_observed": false,
+      "discs": [
+        1,
+        2
+      ]
+    },
+    {
+      "resource": "MC2Game/Localization/Coalesced.int",
+      "id": "coalesced:2fd5be3acdb5f3f2c35f54b6f5601bdaab66089df0946f32d43d9f4341660503",
+      "value_sha256": "30216f24e5f754483dab0e232c698ee70a28d96c95eb189cf4a906c2b853d9cf",
+      "classification": "editor-document-resident-text-not-player-proof",
+      "status": "excluded",
+      "evidence": "docs/PHASE_364_OMISSION_SCREEN.md",
+      "runtime_display_observed": false,
+      "discs": [
+        1,
+        2
+      ]
+    },
+    {
+      "resource": "MC2Game/Localization/Coalesced.int",
+      "id": "coalesced:0e1fb9d036e04d66b910ca74b3eafb71ad366810ae650125fc373f830f0d0e55",
+      "value_sha256": "f282b5f2462589bd743183b41d6c1e3467657a5ecb9c8897c727372d78b6455b",
+      "classification": "editor-document-resident-text-not-player-proof",
+      "status": "excluded",
+      "evidence": "docs/PHASE_364_OMISSION_SCREEN.md",
+      "runtime_display_observed": false,
+      "discs": [
+        1,
+        2
+      ]
+    },
+    {
+      "resource": "MC2Game/Localization/Coalesced.int",
+      "id": "coalesced:6d9dc98410fa16815f53a9edde01135d58bf372901070ca1fdda3d7b56111305",
+      "value_sha256": "e907529b0c9100fed32b7aa32a1c5fb33551d1532e8d49fcc577243e1a7db1a8",
+      "classification": "editor-document-resident-text-not-player-proof",
+      "status": "excluded",
+      "evidence": "docs/PHASE_364_OMISSION_SCREEN.md",
+      "runtime_display_observed": false,
+      "discs": [
+        1,
+        2
+      ]
+    },
+    {
+      "resource": "MC2Game/Localization/Coalesced.int",
+      "id": "coalesced:8af9e7bb0cd567f258ad1969d521b9e02c11717325e6f98a36218ec9d224bdd4",
+      "value_sha256": "fdc77ada747019af464f2e7d8e8f5c6aa88035eb9f2c1d4f1f12631d18a43192",
+      "classification": "editor-document-resident-text-not-player-proof",
+      "status": "excluded",
+      "evidence": "docs/PHASE_364_OMISSION_SCREEN.md",
+      "runtime_display_observed": false,
+      "discs": [
+        1,
+        2
+      ]
+    },
+    {
+      "resource": "MC2Game/Localization/Coalesced.int",
+      "id": "coalesced:55f0f30329a550a99dbb40a23ea9868498517acdcf53e7b5475659387f0d5f70",
+      "value_sha256": "ab0af0fb876b4d592cf4bf67efc28a873414585c7130240c9f1a46dd1c94cb5e",
+      "classification": "editor-document-resident-text-not-player-proof",
+      "status": "excluded",
+      "evidence": "docs/PHASE_364_OMISSION_SCREEN.md",
+      "runtime_display_observed": false,
+      "discs": [
+        1,
+        2
+      ]
+    },
+    {
+      "resource": "MC2Game/Localization/Coalesced.int",
+      "id": "coalesced:8c10f2cc9af9cd5c1d3a146e5c70611df6b80b5bf659932fda03430a4dd16a59",
+      "value_sha256": "464a35140b187cf5e4aec532c6ae98f0ff8c5b4670ba60a03dccad75fd9aa56c",
+      "classification": "editor-document-resident-text-not-player-proof",
+      "status": "excluded",
+      "evidence": "docs/PHASE_364_OMISSION_SCREEN.md",
+      "runtime_display_observed": false,
+      "discs": [
+        1,
+        2
+      ]
+    },
+    {
+      "resource": "MC2Game/Localization/Coalesced.int",
+      "id": "coalesced:2174f9a9c28a599c4150a3fc1cd7468ad7000470f01b575447cea6bd83513e8d",
+      "value_sha256": "25b89b4272ec89ace6ef31fe0674b9c1cb5e67e7e6d1e8cf489507f1f331d440",
+      "classification": "editor-document-resident-text-not-player-proof",
+      "status": "excluded",
+      "evidence": "docs/PHASE_364_OMISSION_SCREEN.md",
+      "runtime_display_observed": false,
+      "discs": [
+        1,
+        2
+      ]
+    },
+    {
+      "resource": "MC2Game/Localization/Coalesced.int",
+      "id": "coalesced:b73d68e420452d1852bdb343bb50c67cc6374c16bff29c63ef6c8da935db0146",
+      "value_sha256": "fd90eaef9ddc772619af3fc8f1b7d547823d286d2f6390e82bf70fd780363643",
+      "classification": "editor-document-resident-text-not-player-proof",
+      "status": "excluded",
+      "evidence": "docs/PHASE_364_OMISSION_SCREEN.md",
+      "runtime_display_observed": false,
+      "discs": [
+        1,
+        2
+      ]
+    },
+    {
+      "resource": "MC2Game/Localization/Coalesced.int",
+      "id": "coalesced:f019c954157ae6cdcecca3d7f0a71dbdc86d2ff7083cedeac971d8b1cb972659",
+      "value_sha256": "298bb1e27779c118737d056e6bf52316dcbb315036db0f9145a999d9f893440b",
+      "classification": "editor-document-resident-text-not-player-proof",
+      "status": "excluded",
+      "evidence": "docs/PHASE_364_OMISSION_SCREEN.md",
+      "runtime_display_observed": false,
+      "discs": [
+        1,
+        2
+      ]
+    },
+    {
+      "resource": "MC2Game/Localization/Coalesced.int",
+      "id": "coalesced:df725347575aae40e8996d7a04f2dc0186a53ff7c868172b42987a12bbe7c31a",
+      "value_sha256": "0d5f804f8c3c3b3aa31112f15422b34fd4ba52e4fa8603d93050423f891ad097",
+      "classification": "explicit-source-test-sample",
+      "status": "excluded",
+      "evidence": "locales/zh-Hans/remainder-audit.json",
+      "runtime_display_observed": false,
+      "discs": [
+        1,
+        2
+      ]
+    },
+    {
+      "resource": "MC2Game/Localization/Coalesced.int",
+      "id": "coalesced:c81aa12c64b787b1afa168adc0b350f2cf731dcb6ecfbf27686b2283a81d3417",
+      "value_sha256": "3ff8b1eb9fbb4946d8b47b70fea42d3ada2b3235b7c6551e9f763975e71afc38",
+      "classification": "explicit-source-test-sample",
+      "status": "excluded",
+      "evidence": "locales/zh-Hans/remainder-audit.json",
+      "runtime_display_observed": false,
+      "discs": [
+        1,
+        2
+      ]
+    },
+    {
+      "resource": "MC2Game/Localization/Coalesced.int",
+      "id": "coalesced:e2e6765d392b8245b7c88e3fcd5e449010c5531deb1079903309fa89eb9206af",
+      "value_sha256": "333e7d4da2405c0e83a2990e7b89c1fb7719546ebc94aced44ebba082a68df4a",
+      "classification": "malformed-source-document",
+      "status": "pending",
+      "evidence": "docs/PHASE_367_RESIDUAL_REPAIRS.md#malformed-source",
+      "runtime_display_observed": false,
+      "discs": [
+        1,
+        2
+      ]
+    },
+    {
+      "resource": "MC2Game/Localization/Coalesced.int",
+      "id": "coalesced:138607719fc5fe283e253d5babf92247204487756fb3258df95de1824910e9a7",
+      "value_sha256": "03b3e654c6f617dd251cf72ccdc71a6c74cce38bfd3a7c24c8df6a8cd6208ead",
+      "classification": "malformed-source-document",
+      "status": "pending",
+      "evidence": "docs/PHASE_367_RESIDUAL_REPAIRS.md#malformed-source",
+      "runtime_display_observed": false,
+      "discs": [
+        1,
+        2
+      ]
+    },
+    {
+      "resource": "MC2Game/Localization/Coalesced.int",
+      "id": "coalesced:ce28f9a29400304ae5b0a8656237363473ff2fd21fc2522717318786ef45a65e",
+      "value_sha256": "fddc591f5dfc27fc136ab2d664516ccc2c1f781d2a4d0e7da7fd555bb7bec6c4",
+      "classification": "source-dummy-mail-sample",
+      "status": "excluded",
+      "evidence": "docs/PHASE_364_OMISSION_SCREEN.md",
+      "runtime_display_observed": false,
+      "discs": [
+        1,
+        2
+      ]
+    },
+    {
+      "resource": "MC2Game/Localization/Coalesced.int",
+      "id": "coalesced:3c6f23e574633f18e683c09b64bcfa36338ddc0b01967f638a2017f97564ff27",
+      "discs": [
+        1,
+        2
+      ],
+      "value_sha256": "0207167a7cb295f04902173e6e8d1b460d741121f10dd1611c9de14121234c44",
+      "status": "pending",
+      "classification": "malformed-source-document",
+      "evidence": "docs/PHASE_367_RESIDUAL_REPAIRS.md#malformed-source",
+      "runtime_display_observed": false
+    }
+  ],
+  "notes": [
+    "Classification does not mark pending entries translated or unreachable.",
+    "Alternate locale banks are separate inputs, never mechanically counted as active primary omissions.",
+    "ChainBreak, Boss, KAN, SID, controller marks and brand names follow explicit project retention decisions; this detector does not translate them.",
+    "Current direct-field translations do not prove every dynamic UI consumer has been exercised; malformed MC2Game.int is not normalized to remove the audit gate."
+  ]
+}

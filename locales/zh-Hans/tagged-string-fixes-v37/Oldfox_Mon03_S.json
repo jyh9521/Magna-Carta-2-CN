@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "profile": "ue3-equal-size-wide-tagged-strings-v1",
+  "objects": [
+    {
+      "object_path": "data_char_object.obj_SiegeCannon_01.MC2PawnInterfaceDataBattle_SiegeGun_0.YM.MC2BattleYupa_0",
+      "class_path": "MC2Game.MC2BattleYupa",
+      "tagged_offset": 4,
+      "before_sha256": "c2aa064676f613bfd593df14634c9eefc6141d84af163234448236a4a7551819",
+      "after_sha256": "f6fab711d1aae6fd63a69450cd0cc292256b092debd33e70e0bea5ef90441c79",
+      "fields": [
+        {
+          "name": "StyleName",
+          "array_index": 0,
+          "before": "대포",
+          "after": "大炮"
+        }
+      ]
+    }
+  ]
+}

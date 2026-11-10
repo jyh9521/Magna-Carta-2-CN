@@ -1,0 +1,2183 @@
+{
+  "schema_version": 1,
+  "kind": "residual-resolution-ledger",
+  "locale": "zh-Hans",
+  "baseline_recipe_sha256": "f9f80fad31dfd7b90d909504248745aa357dfdcee9c661fc2d3b818701114ff2",
+  "recipe_sha256": "ae4ae07c0e8d4736aabb1252dd32b36e83b314867207a1089b5441ba075af3ca",
+  "evidence": "docs/PHASE_367_RESIDUAL_REPAIRS.md",
+  "summary": {
+    "localized": 52,
+    "pending-malformed-source": 3,
+    "preserved-current-template-unused-argument": 27,
+    "preserved-identity-bearing-field": 3,
+    "pending-test-data-consumer": 9
+  },
+  "complete_game_coverage_claimed": false,
+  "findings": [
+    {
+      "id": "coalesced:53c21149e6042a65db33e839bdfbb97207a5fab20759ecc43cd6b622f03a5cb4",
+      "kind": "coalesced",
+      "resource": "MC2Game/Localization/Coalesced.int",
+      "selector": {
+        "embedded_path": "..\\MC2Game\\Localization\\INT\\MC2Compose.int",
+        "section": "Chapter11",
+        "key": "Chapter11_27",
+        "occurrence": 1
+      },
+      "source_sha256": "8fcf504429b6addbc0e750a14667647d0573e28f4c35c4a0f2d4b7897d4f5c88",
+      "discs": [
+        1,
+        2
+      ],
+      "disposition": "localized",
+      "translation": "败者啊，将目光投向黑暗。\\n待兴盛之魂苏醒，南天之星将闪耀光芒……",
+      "runtime_display_observed": true,
+      "runtime_translation_verified": false
+    },
+    {
+      "id": "coalesced:fdcc16a3e7b99fc4f926933f59760a2e6db589bc69c8a30a3bd52603f0049fa3",
+      "kind": "coalesced",
+      "resource": "MC2Game/Localization/Coalesced.int",
+      "selector": {
+        "embedded_path": "..\\MC2Game\\Localization\\INT\\MC2CSM.int",
+        "section": "CSM11_12",
+        "key": "435",
+        "occurrence": 1
+      },
+      "source_sha256": "6c995209d5cb3fd1d7735b1de6db618a1d340091ef25c6e77d3c273aa5043a10",
+      "discs": [
+        1,
+        2
+      ],
+      "disposition": "localized",
+      "translation": "哈哈哈",
+      "runtime_display_observed": false,
+      "runtime_translation_verified": false
+    },
+    {
+      "id": "coalesced:d51bb56b238f5354eb327822b03a683295b48b22026565cfecfebfa76d2e8804",
+      "kind": "coalesced",
+      "resource": "MC2Game/Localization/Coalesced.int",
+      "selector": {
+        "embedded_path": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
+        "section": "CSMB05_070",
+        "key": "voc_csmb_05070_27",
+        "occurrence": 1
+      },
+      "source_sha256": "ff19df8fb7d27861fce47d71aed271b8700885416526ee5e289ec0662383271a",
+      "discs": [
+        1,
+        2
+      ],
+      "disposition": "localized",
+      "translation": "缺失的台词？",
+      "runtime_display_observed": false,
+      "runtime_translation_verified": false
+    },
+    {
+      "id": "coalesced:121bb7680380874103448062ad92cd808fec0c1cc2e3664ef7f51dd53591c25e",
+      "kind": "coalesced",
+      "resource": "MC2Game/Localization/Coalesced.int",
+      "selector": {
+        "embedded_path": "..\\MC2Game\\Localization\\INT\\MC2CSMB.int",
+        "section": "CSMB10_80",
+        "key": "voc_csmb_1080_48",
+        "occurrence": 1
+      },
+      "source_sha256": "7ed3c6bfe1bde799bfacaa9f5b5376e5228513a37321850caedb7cbd0b2c79e7",
+      "discs": [
+        1,
+        2
+      ],
+      "disposition": "localized",
+      "translation": "我一直想亲眼看看马雷的资料。（游戏中未使用的台词）",
+      "runtime_display_observed": false,
+      "runtime_translation_verified": false
+    },
+    {
+      "id": "coalesced:e2e6765d392b8245b7c88e3fcd5e449010c5531deb1079903309fa89eb9206af",
+      "kind": "coalesced",
+      "resource": "MC2Game/Localization/Coalesced.int",
+      "selector": {
+        "embedded_path": "..\\MC2Game\\Localization\\INT\\MC2Game.int",
+        "section": "",
+        "key": "Accept",
+        "occurrence": 1
+      },
+      "source_sha256": "333e7d4da2405c0e83a2990e7b89c1fb7719546ebc94aced44ebba082a68df4a",
+      "discs": [
+        1,
+        2
+      ],
+      "disposition": "pending-malformed-source",
+      "action": "Preserve original bytes; CRLF-in-UTF16 diagnostic is not a verified reversible structural repair.",
+      "next_check": "Trace native INI parser interpretation of all three fields, retaining both physical bytes and parsed sections; do not apply heuristic CR removal."
+    },
+    {
+      "id": "coalesced:138607719fc5fe283e253d5babf92247204487756fb3258df95de1824910e9a7",
+      "kind": "coalesced",
+      "resource": "MC2Game/Localization/Coalesced.int",
+      "selector": {
+        "embedded_path": "..\\MC2Game\\Localization\\INT\\MC2Game.int",
+        "section": "",
+        "key": "Cancel",
+        "occurrence": 1
+      },
+      "source_sha256": "03b3e654c6f617dd251cf72ccdc71a6c74cce38bfd3a7c24c8df6a8cd6208ead",
+      "discs": [
+        1,
+        2
+      ],
+      "disposition": "pending-malformed-source",
+      "action": "Preserve original bytes; CRLF-in-UTF16 diagnostic is not a verified reversible structural repair.",
+      "next_check": "Trace native INI parser interpretation of all three fields, retaining both physical bytes and parsed sections; do not apply heuristic CR removal."
+    },
+    {
+      "id": "coalesced:6e63f1c9bbb143b66c8c901fff28edb60ad2d220fd2d5977000653b552be3a49",
+      "kind": "coalesced",
+      "resource": "MC2Game/Localization/Coalesced.int",
+      "selector": {
+        "embedded_path": "..\\MC2Game\\Localization\\INT\\MC2NpcTalk.int",
+        "section": "06_Abajet",
+        "key": "233",
+        "occurrence": 1
+      },
+      "source_sha256": "6139b6c3ed73cd4aa3849fcf25698abce9b6d870ddb9fcb0565ad1372a97c06c",
+      "discs": [
+        1,
+        2
+      ],
+      "disposition": "localized",
+      "translation": "删除",
+      "runtime_display_observed": false,
+      "runtime_translation_verified": false
+    },
+    {
+      "id": "coalesced:1daf79a59916e5d3191f1b3dd7fa4fb1375cf8d19e09eb22fa41a3db68df40f8",
+      "kind": "coalesced",
+      "resource": "MC2Game/Localization/Coalesced.int",
+      "selector": {
+        "embedded_path": "..\\MC2Game\\Localization\\INT\\MC2NpcTalk.int",
+        "section": "06_Abajet",
+        "key": "234",
+        "occurrence": 1
+      },
+      "source_sha256": "6139b6c3ed73cd4aa3849fcf25698abce9b6d870ddb9fcb0565ad1372a97c06c",
+      "discs": [
+        1,
+        2
+      ],
+      "disposition": "localized",
+      "translation": "删除",
+      "runtime_display_observed": false,
+      "runtime_translation_verified": false
+    },
+    {
+      "id": "coalesced:0859388ba33c187efb34a8ccd34a7e8351c82633c7d53c6f11a0e9376fd94742",
+      "kind": "coalesced",
+      "resource": "MC2Game/Localization/Coalesced.int",
+      "selector": {
+        "embedded_path": "..\\MC2Game\\Localization\\INT\\MC2NpcTalk.int",
+        "section": "06_Abajet",
+        "key": "2201",
+        "occurrence": 1
+      },
+      "source_sha256": "6139b6c3ed73cd4aa3849fcf25698abce9b6d870ddb9fcb0565ad1372a97c06c",
+      "discs": [
+        1,
+        2
+      ],
+      "disposition": "localized",
+      "translation": "删除",
+      "runtime_display_observed": false,
+      "runtime_translation_verified": false
+    },
+    {
+      "id": "coalesced:cdf9e14e9899a05cf7e67e40dcedf874d255dbbf65afcfaab4123c302554f6f3",
+      "kind": "coalesced",
+      "resource": "MC2Game/Localization/Coalesced.int",
+      "selector": {
+        "embedded_path": "..\\MC2Game\\Localization\\INT\\MC2NpcTalk.int",
+        "section": "06_Abajet",
+        "key": "2207",
+        "occurrence": 1
+      },
+      "source_sha256": "6139b6c3ed73cd4aa3849fcf25698abce9b6d870ddb9fcb0565ad1372a97c06c",
+      "discs": [
+        1,
+        2
+      ],
+      "disposition": "localized",
+      "translation": "删除",
+      "runtime_display_observed": false,
+      "runtime_translation_verified": false
+    },
+    {
+      "id": "coalesced:981291909bd15a99846fbd629d6461ba417a7ddeec3b8d2c3b1f56a9300198b8",
+      "kind": "coalesced",
+      "resource": "MC2Game/Localization/Coalesced.int",
+      "selector": {
+        "embedded_path": "..\\MC2Game\\Localization\\INT\\MC2NpcTalk.int",
+        "section": "06_Abajet",
+        "key": "2268",
+        "occurrence": 1
+      },
+      "source_sha256": "6139b6c3ed73cd4aa3849fcf25698abce9b6d870ddb9fcb0565ad1372a97c06c",
+      "discs": [
+        1,
+        2
+      ],
+      "disposition": "localized",
+      "translation": "删除",
+      "runtime_display_observed": false,
+      "runtime_translation_verified": false
+    },
+    {
+      "id": "coalesced:488b6ca1cda6dfc1f2546226529c0280ebe6029c12d59c9aaa075a1fb4e64b83",
+      "kind": "coalesced",
+      "resource": "MC2Game/Localization/Coalesced.int",
+      "selector": {
+        "embedded_path": "..\\MC2Game\\Localization\\INT\\MC2NpcTalk.int",
+        "section": "06_Abajet",
+        "key": "2273_0",
+        "occurrence": 1
+      },
+      "source_sha256": "6139b6c3ed73cd4aa3849fcf25698abce9b6d870ddb9fcb0565ad1372a97c06c",
+      "discs": [
+        1,
+        2
+      ],
+      "disposition": "localized",
+      "translation": "删除",
+      "runtime_display_observed": false,
+      "runtime_translation_verified": false
+    },
+    {
+      "id": "coalesced:79f41241aba99f67ef1467b6d586a96d27e52ea7da1db56cb7390f9ef63f049a",
+      "kind": "coalesced",
+      "resource": "MC2Game/Localization/Coalesced.int",
+      "selector": {
+        "embedded_path": "..\\MC2Game\\Localization\\INT\\MC2NpcTalk.int",
+        "section": "06_Abajet",
+        "key": "2216",
+        "occurrence": 1
+      },
+      "source_sha256": "6139b6c3ed73cd4aa3849fcf25698abce9b6d870ddb9fcb0565ad1372a97c06c",
+      "discs": [
+        1,
+        2
+      ],
+      "disposition": "localized",
+      "translation": "删除",
+      "runtime_display_observed": false,
+      "runtime_translation_verified": false
+    },
+    {
+      "id": "coalesced:24ebe57ce83d7b3225d67b22358c0d4fecaa1b613ffc8aa064d3193ba6d69578",
+      "kind": "coalesced",
+      "resource": "MC2Game/Localization/Coalesced.int",
+      "selector": {
+        "embedded_path": "..\\MC2Game\\Localization\\INT\\MC2NpcTalk.int",
+        "section": "06_Abajet",
+        "key": "2219",
+        "occurrence": 1
+      },
+      "source_sha256": "6139b6c3ed73cd4aa3849fcf25698abce9b6d870ddb9fcb0565ad1372a97c06c",
+      "discs": [
+        1,
+        2
+      ],
+      "disposition": "localized",
+      "translation": "删除",
+      "runtime_display_observed": false,
+      "runtime_translation_verified": false
+    },
+    {
+      "id": "coalesced:7f73c8349fe9edd7ac6cd2013eb834b4325fe9f883fb0c0ae0b1c38b25bc6d4c",
+      "kind": "coalesced",
+      "resource": "MC2Game/Localization/Coalesced.int",
+      "selector": {
+        "embedded_path": "..\\MC2Game\\Localization\\INT\\MC2NpcTalk.int",
+        "section": "06_Abajet",
+        "key": "2461",
+        "occurrence": 1
+      },
+      "source_sha256": "6139b6c3ed73cd4aa3849fcf25698abce9b6d870ddb9fcb0565ad1372a97c06c",
+      "discs": [
+        1,
+        2
+      ],
+      "disposition": "localized",
+      "translation": "删除",
+      "runtime_display_observed": false,
+      "runtime_translation_verified": false
+    },
+    {
+      "id": "coalesced:0ac1efb0e20224f103cd959627380a65bce7521cd268c53c5a4cbad4f442036d",
+      "kind": "coalesced",
+      "resource": "MC2Game/Localization/Coalesced.int",
+      "selector": {
+        "embedded_path": "..\\MC2Game\\Localization\\INT\\MC2NpcTalk.int",
+        "section": "06_Abajet",
+        "key": "221",
+        "occurrence": 1
+      },
+      "source_sha256": "6139b6c3ed73cd4aa3849fcf25698abce9b6d870ddb9fcb0565ad1372a97c06c",
+      "discs": [
+        1,
+        2
+      ],
+      "disposition": "localized",
+      "translation": "删除",
+      "runtime_display_observed": false,
+      "runtime_translation_verified": false
+    },
+    {
+      "id": "coalesced:6830bf72e643ed37907dbe954007bf56e4e0e06e13a930972088ca95f87a3085",
+      "kind": "coalesced",
+      "resource": "MC2Game/Localization/Coalesced.int",
+      "selector": {
+        "embedded_path": "..\\MC2Game\\Localization\\INT\\MC2NpcTalk.int",
+        "section": "06_Abajet",
+        "key": "241",
+        "occurrence": 1
+      },
+      "source_sha256": "6139b6c3ed73cd4aa3849fcf25698abce9b6d870ddb9fcb0565ad1372a97c06c",
+      "discs": [
+        1,
+        2
+      ],
+      "disposition": "localized",
+      "translation": "删除",
+      "runtime_display_observed": false,
+      "runtime_translation_verified": false
+    },
+    {
+      "id": "coalesced:ffcb42c59c90adc580325017661aefeb96ff44d7bde08e6edbaf616581bd64f5",
+      "kind": "coalesced",
+      "resource": "MC2Game/Localization/Coalesced.int",
+      "selector": {
+        "embedded_path": "..\\MC2Game\\Localization\\INT\\MC2NpcTalk.int",
+        "section": "06_Abajet",
+        "key": "2229",
+        "occurrence": 1
+      },
+      "source_sha256": "6139b6c3ed73cd4aa3849fcf25698abce9b6d870ddb9fcb0565ad1372a97c06c",
+      "discs": [
+        1,
+        2
+      ],
+      "disposition": "localized",
+      "translation": "删除",
+      "runtime_display_observed": false,
+      "runtime_translation_verified": false
+    },
+    {
+      "id": "coalesced:bf7f858ddf09087983de34d0b2e3df754cbc0803babb050e45e1f829bcead37c",
+      "kind": "coalesced",
+      "resource": "MC2Game/Localization/Coalesced.int",
+      "selector": {
+        "embedded_path": "..\\MC2Game\\Localization\\INT\\MC2NpcTalk.int",
+        "section": "06_Abajet",
+        "key": "2235",
+        "occurrence": 1
+      },
+      "source_sha256": "6139b6c3ed73cd4aa3849fcf25698abce9b6d870ddb9fcb0565ad1372a97c06c",
+      "discs": [
+        1,
+        2
+      ],
+      "disposition": "localized",
+      "translation": "删除",
+      "runtime_display_observed": false,
+      "runtime_translation_verified": false
+    },
+    {
+      "id": "coalesced:9ea59e99263e61efe78fa127b2b1915bb11d15f3b258a365fede5402006445a3",
+      "kind": "coalesced",
+      "resource": "MC2Game/Localization/Coalesced.int",
+      "selector": {
+        "embedded_path": "..\\MC2Game\\Localization\\INT\\MC2NpcTalk.int",
+        "section": "06_Abajet",
+        "key": "2202_0",
+        "occurrence": 2
+      },
+      "source_sha256": "6139b6c3ed73cd4aa3849fcf25698abce9b6d870ddb9fcb0565ad1372a97c06c",
+      "discs": [
+        1,
+        2
+      ],
+      "disposition": "localized",
+      "translation": "删除",
+      "runtime_display_observed": false,
+      "runtime_translation_verified": false
+    },
+    {
+      "id": "coalesced:7ef0039cb1846dc20809a64593c2720adec9bdaf7328afc40f99ee42f307b97b",
+      "kind": "coalesced",
+      "resource": "MC2Game/Localization/Coalesced.int",
+      "selector": {
+        "embedded_path": "..\\MC2Game\\Localization\\INT\\MC2NpcTalk.int",
+        "section": "06_Abajet",
+        "key": "256_0",
+        "occurrence": 1
+      },
+      "source_sha256": "6139b6c3ed73cd4aa3849fcf25698abce9b6d870ddb9fcb0565ad1372a97c06c",
+      "discs": [
+        1,
+        2
+      ],
+      "disposition": "localized",
+      "translation": "删除",
+      "runtime_display_observed": false,
+      "runtime_translation_verified": false
+    },
+    {
+      "id": "coalesced:fb011d6b60a2a34023435f5d3be5fb7d4751ee7db688d873933bc378e1367f9e",
+      "kind": "coalesced",
+      "resource": "MC2Game/Localization/Coalesced.int",
+      "selector": {
+        "embedded_path": "..\\MC2Game\\Localization\\INT\\MC2NpcTalk.int",
+        "section": "06_Abajet",
+        "key": "2411",
+        "occurrence": 1
+      },
+      "source_sha256": "6139b6c3ed73cd4aa3849fcf25698abce9b6d870ddb9fcb0565ad1372a97c06c",
+      "discs": [
+        1,
+        2
+      ],
+      "disposition": "localized",
+      "translation": "删除",
+      "runtime_display_observed": false,
+      "runtime_translation_verified": false
+    },
+    {
+      "id": "coalesced:259cf109cba0980a7b4db6ad8d4614c37b73a857aa52df653d74b95118ba681e",
+      "kind": "coalesced",
+      "resource": "MC2Game/Localization/Coalesced.int",
+      "selector": {
+        "embedded_path": "..\\MC2Game\\Localization\\INT\\MC2NpcTalk.int",
+        "section": "06_Abajet",
+        "key": "2270",
+        "occurrence": 1
+      },
+      "source_sha256": "6139b6c3ed73cd4aa3849fcf25698abce9b6d870ddb9fcb0565ad1372a97c06c",
+      "discs": [
+        1,
+        2
+      ],
+      "disposition": "localized",
+      "translation": "删除",
+      "runtime_display_observed": false,
+      "runtime_translation_verified": false
+    },
+    {
+      "id": "coalesced:faee4fd0a540ef5099908ea86e72b2bac3bc153cf5602b97d32669ee19903f0c",
+      "kind": "coalesced",
+      "resource": "MC2Game/Localization/Coalesced.int",
+      "selector": {
+        "embedded_path": "..\\MC2Game\\Localization\\INT\\MC2NpcTalk.int",
+        "section": "06_Abajet",
+        "key": "2240",
+        "occurrence": 1
+      },
+      "source_sha256": "6139b6c3ed73cd4aa3849fcf25698abce9b6d870ddb9fcb0565ad1372a97c06c",
+      "discs": [
+        1,
+        2
+      ],
+      "disposition": "localized",
+      "translation": "删除",
+      "runtime_display_observed": false,
+      "runtime_translation_verified": false
+    },
+    {
+      "id": "coalesced:49364d1b1f00daf28025b713bc62f2c2fe643493e17cc1ce583c224165d91105",
+      "kind": "coalesced",
+      "resource": "MC2Game/Localization/Coalesced.int",
+      "selector": {
+        "embedded_path": "..\\MC2Game\\Localization\\INT\\MC2NpcTalk.int",
+        "section": "06_Abajet",
+        "key": "2253",
+        "occurrence": 1
+      },
+      "source_sha256": "6139b6c3ed73cd4aa3849fcf25698abce9b6d870ddb9fcb0565ad1372a97c06c",
+      "discs": [
+        1,
+        2
+      ],
+      "disposition": "localized",
+      "translation": "删除",
+      "runtime_display_observed": false,
+      "runtime_translation_verified": false
+    },
+    {
+      "id": "coalesced:0f99ed5ba9d37a1556bde662806a300100ca90296a0925abfac48ae2328c34be",
+      "kind": "coalesced",
+      "resource": "MC2Game/Localization/Coalesced.int",
+      "selector": {
+        "embedded_path": "..\\MC2Game\\Localization\\INT\\MC2NpcTalk.int",
+        "section": "06_Abajet",
+        "key": "2260",
+        "occurrence": 1
+      },
+      "source_sha256": "6139b6c3ed73cd4aa3849fcf25698abce9b6d870ddb9fcb0565ad1372a97c06c",
+      "discs": [
+        1,
+        2
+      ],
+      "disposition": "localized",
+      "translation": "删除",
+      "runtime_display_observed": false,
+      "runtime_translation_verified": false
+    },
+    {
+      "id": "coalesced:5d57f185fb98b6987fff2f9d4cf48d13a3feb80133cbcc708357b39325ba26ff",
+      "kind": "coalesced",
+      "resource": "MC2Game/Localization/Coalesced.int",
+      "selector": {
+        "embedded_path": "..\\MC2Game\\Localization\\INT\\MC2NpcTalk.int",
+        "section": "06_Abajet",
+        "key": "2455",
+        "occurrence": 1
+      },
+      "source_sha256": "6139b6c3ed73cd4aa3849fcf25698abce9b6d870ddb9fcb0565ad1372a97c06c",
+      "discs": [
+        1,
+        2
+      ],
+      "disposition": "localized",
+      "translation": "删除",
+      "runtime_display_observed": false,
+      "runtime_translation_verified": false
+    },
+    {
+      "id": "coalesced:feb90f924f5258b362b9c8dbb0b9681e2a23a1aebb55b285fbdddfc0b26de918",
+      "kind": "coalesced",
+      "resource": "MC2Game/Localization/Coalesced.int",
+      "selector": {
+        "embedded_path": "..\\MC2Game\\Localization\\INT\\MC2NpcTalk.int",
+        "section": "06_Abajet",
+        "key": "2456",
+        "occurrence": 1
+      },
+      "source_sha256": "6139b6c3ed73cd4aa3849fcf25698abce9b6d870ddb9fcb0565ad1372a97c06c",
+      "discs": [
+        1,
+        2
+      ],
+      "disposition": "localized",
+      "translation": "删除",
+      "runtime_display_observed": false,
+      "runtime_translation_verified": false
+    },
+    {
+      "id": "coalesced:3505d16e85c33f9a30ed246f528344be3daa84eb5711d540eb4b8752e31bb287",
+      "kind": "coalesced",
+      "resource": "MC2Game/Localization/Coalesced.int",
+      "selector": {
+        "embedded_path": "..\\MC2Game\\Localization\\INT\\MC2NpcTalk.int",
+        "section": "06_Abajet",
+        "key": "2244_0",
+        "occurrence": 2
+      },
+      "source_sha256": "6139b6c3ed73cd4aa3849fcf25698abce9b6d870ddb9fcb0565ad1372a97c06c",
+      "discs": [
+        1,
+        2
+      ],
+      "disposition": "localized",
+      "translation": "删除",
+      "runtime_display_observed": false,
+      "runtime_translation_verified": false
+    },
+    {
+      "id": "coalesced:a5832ff75a965388f69e36894cb961184fd322fc0cdff5c0f620fafec3f1470a",
+      "kind": "coalesced",
+      "resource": "MC2Game/Localization/Coalesced.int",
+      "selector": {
+        "embedded_path": "..\\MC2Game\\Localization\\INT\\MC2NpcTalk.int",
+        "section": "06_Abajet",
+        "key": "2245_0",
+        "occurrence": 2
+      },
+      "source_sha256": "6139b6c3ed73cd4aa3849fcf25698abce9b6d870ddb9fcb0565ad1372a97c06c",
+      "discs": [
+        1,
+        2
+      ],
+      "disposition": "localized",
+      "translation": "删除",
+      "runtime_display_observed": false,
+      "runtime_translation_verified": false
+    },
+    {
+      "id": "coalesced:2012dce0b2426ac1eb8910eda6dba4b98a096abce2d1c045ad67fbc42e61d3b8",
+      "kind": "coalesced",
+      "resource": "MC2Game/Localization/Coalesced.int",
+      "selector": {
+        "embedded_path": "..\\MC2Game\\Localization\\INT\\MC2UI.int",
+        "section": "Battle_Log",
+        "key": "GetSP",
+        "occurrence": 1
+      },
+      "source_sha256": "14b093d03a9cbe5f37d6dbcecd6bad602b905b03dc98e4cb4dc726a82ea28d34",
+      "discs": [
+        1,
+        2
+      ],
+      "disposition": "localized",
+      "translation": "点技能点已获得",
+      "runtime_display_observed": false,
+      "runtime_translation_verified": false
+    },
+    {
+      "id": "coalesced:99b79fcaa2e8712a5d2354b711f9f4cb1a8145ecfec49e883957f3f2aba42e77",
+      "kind": "coalesced",
+      "resource": "MC2Game/Localization/Coalesced.int",
+      "selector": {
+        "embedded_path": "..\\MC2Game\\Localization\\INT\\MC2UI.int",
+        "section": "Battle_Log",
+        "key": "ReceiveCommunication",
+        "occurrence": 1
+      },
+      "source_sha256": "2d9ea21017b14bc90e5be0b853967926361a78850b30981322eee8e3e1107e6c",
+      "discs": [
+        1,
+        2
+      ],
+      "disposition": "localized",
+      "translation": "请求了帮助",
+      "runtime_display_observed": false,
+      "runtime_translation_verified": false
+    },
+    {
+      "id": "coalesced:d252cbc61a5c55a59d41b9fed3a46d6dd52978badbf467deb89685d379b27b53",
+      "kind": "coalesced",
+      "resource": "MC2Game/Localization/Coalesced.int",
+      "selector": {
+        "embedded_path": "..\\MC2Game\\Localization\\INT\\MC2UI.int",
+        "section": "Battle_Log",
+        "key": "AcceptCommunication",
+        "occurrence": 1
+      },
+      "source_sha256": "f0b002894be00946b5969a2529cc5653ce81cb7733c5a8f69f6f875ea19f2853",
+      "discs": [
+        1,
+        2
+      ],
+      "disposition": "localized",
+      "translation": "接受了请求",
+      "runtime_display_observed": false,
+      "runtime_translation_verified": false
+    },
+    {
+      "id": "coalesced:1ac05a4c65808c31f1a9147c0c9f66377d68e2d6424c03da1aaab7dd761b3398",
+      "kind": "coalesced",
+      "resource": "MC2Game/Localization/Coalesced.int",
+      "selector": {
+        "embedded_path": "..\\MC2Game\\Localization\\INT\\MC2UI.int",
+        "section": "Battle_Log",
+        "key": "AskCommunication",
+        "occurrence": 1
+      },
+      "source_sha256": "49d820bf6a9b71cbffe0ea3d6cd39deff939ba0aa3b0d3f36902b90d2dbd9cfd",
+      "discs": [
+        1,
+        2
+      ],
+      "disposition": "localized",
+      "translation": "：已向其请求帮助",
+      "runtime_display_observed": false,
+      "runtime_translation_verified": false
+    },
+    {
+      "id": "coalesced:b75683d011dedf79e4cbc3ca6ac276ae86a172a83de0e3b8ba4b4d08e8ee6075",
+      "kind": "coalesced",
+      "resource": "MC2Game/Localization/Coalesced.int",
+      "selector": {
+        "embedded_path": "..\\MC2Game\\Localization\\INT\\MC2UI.int",
+        "section": "Battle_Log",
+        "key": "GetItem2",
+        "occurrence": 1
+      },
+      "source_sha256": "a1e8b4add4ce98a04b41917d3a17f67369f1c96b9b883e28861b520b1b04f039",
+      "discs": [
+        1,
+        2
+      ],
+      "disposition": "localized",
+      "translation": "个已获得",
+      "runtime_display_observed": false,
+      "runtime_translation_verified": false
+    },
+    {
+      "id": "coalesced:fe81ea693331bb8f77c9b8514a62d27cfe2880a91565561279458fa66427a573",
+      "kind": "coalesced",
+      "resource": "MC2Game/Localization/Coalesced.int",
+      "selector": {
+        "embedded_path": "..\\MC2Game\\Localization\\INT\\MC2UI.int",
+        "section": "Help",
+        "key": "Left_Request_particle",
+        "occurrence": 1
+      },
+      "source_sha256": "39ba020943ebbc5cadbb42857074e733f9263dea46a283aa6561d52c32e8d705",
+      "discs": [
+        1,
+        2
+      ],
+      "disposition": "localized",
+      "translation": "的",
+      "runtime_display_observed": false,
+      "runtime_translation_verified": false
+    },
+    {
+      "id": "coalesced:e14f7f8ff4b2158c6884fe9ce29a8ecbbf26b87617a4b4d0e68e183d9a85625c",
+      "kind": "coalesced",
+      "resource": "MC2Game/Localization/Coalesced.int",
+      "selector": {
+        "embedded_path": "..\\MC2Game\\Localization\\INT\\MC2UI.int",
+        "section": "Help",
+        "key": "Change",
+        "occurrence": 1
+      },
+      "source_sha256": "e586a7eec3a280fad3bfbc39fe4b09fb8ffd9e0ab666d03f38a7d9f0dd9748db",
+      "discs": [
+        1,
+        2
+      ],
+      "disposition": "localized",
+      "translation": "：切换领队",
+      "runtime_display_observed": false,
+      "runtime_translation_verified": false
+    },
+    {
+      "id": "coalesced:95cb938af75b1172dc93f3a5dd533161477435bc96187ee428e9bb094fb736b5",
+      "kind": "coalesced",
+      "resource": "MC2Game/Localization/Coalesced.int",
+      "selector": {
+        "embedded_path": "..\\MC2Game\\Localization\\INT\\MC2UI.int",
+        "section": "Change_Guidence_Massage",
+        "key": "Guidence_Massage",
+        "occurrence": 1
+      },
+      "source_sha256": "0c6e79a303dff6b671c34d8aa58919f41b87952ea17f88fc8bef6b4df5a45f03",
+      "discs": [
+        1,
+        2
+      ],
+      "disposition": "localized",
+      "translation": "：可切换至此角色",
+      "runtime_display_observed": false,
+      "runtime_translation_verified": false
+    },
+    {
+      "id": "coalesced:dc0b674a5a67daf9ad0968f9b9e3bf804e477dc3a9b67cba06b2364860069f13",
+      "kind": "coalesced",
+      "resource": "MC2Game/Localization/Coalesced.int",
+      "selector": {
+        "embedded_path": "..\\MC2Game\\Localization\\INT\\MC2UI.int",
+        "section": "diction",
+        "key": "Subjective_2",
+        "occurrence": 1
+      },
+      "source_sha256": "3864f4b8f6e19d42fbcaf2b3deca078afdf4dbbb5adc9cec41b35da10d7cdfcb",
+      "discs": [
+        1,
+        2
+      ],
+      "disposition": "localized",
+      "translation": "\" \"",
+      "runtime_display_observed": false,
+      "runtime_translation_verified": false
+    },
+    {
+      "id": "coalesced:f5d99754626a372c4ed135bfe18e305c608eb0cb3987da9007d29f3d71b22a28",
+      "kind": "coalesced",
+      "resource": "MC2Game/Localization/Coalesced.int",
+      "selector": {
+        "embedded_path": "..\\MC2Game\\Localization\\INT\\MC2UI.int",
+        "section": "diction",
+        "key": "Subjective_3",
+        "occurrence": 1
+      },
+      "source_sha256": "6ef5924ec0b673d835ca08a66f650a380dbbf071022a3e9d8a2c324b3149a898",
+      "discs": [
+        1,
+        2
+      ],
+      "disposition": "localized",
+      "translation": "\" \"",
+      "runtime_display_observed": false,
+      "runtime_translation_verified": false
+    },
+    {
+      "id": "coalesced:3c6f23e574633f18e683c09b64bcfa36338ddc0b01967f638a2017f97564ff27",
+      "kind": "coalesced",
+      "resource": "MC2Game/Localization/Coalesced.int",
+      "selector": {
+        "embedded_path": "..\\MC2Game\\Localization\\INT\\MC2Game.int",
+        "section": "",
+        "key": "ItemName",
+        "occurrence": 1
+      },
+      "source_sha256": "0207167a7cb295f04902173e6e8d1b460d741121f10dd1611c9de14121234c44",
+      "discs": [
+        1,
+        2
+      ],
+      "disposition": "pending-malformed-source",
+      "action": "Preserve original bytes; CRLF-in-UTF16 diagnostic is not a verified reversible structural repair.",
+      "next_check": "Trace native INI parser interpretation of all three fields, retaining both physical bytes and parsed sections; do not apply heuristic CR removal."
+    },
+    {
+      "id": "coalesced:9cd0dd397d0257678b598dbf900f9b232e10ea1929afdda80084ed982d10303d",
+      "kind": "coalesced",
+      "resource": "MC2Game/Localization/Coalesced.int",
+      "selector": {
+        "embedded_path": "..\\MC2Game\\Localization\\INT\\MC2NpcTalk.int",
+        "section": "Default",
+        "key": "Default",
+        "occurrence": 1
+      },
+      "source_sha256": "186ee782e36e4371d37df5aa9078023c5562410b48bb17355a7118b11318fba3",
+      "discs": [
+        1,
+        2
+      ],
+      "disposition": "localized",
+      "translation": "默认值：请输入新标签值",
+      "runtime_display_observed": false,
+      "runtime_translation_verified": false
+    },
+    {
+      "id": "coalesced:d81886666173c8c2a539292f8e83da85e253b1db4ef8529e65abf0f1c6ec050e",
+      "kind": "coalesced",
+      "resource": "MC2Game/Localization/Coalesced.int",
+      "selector": {
+        "embedded_path": "..\\MC2Game\\Localization\\INT\\MC2Quest.int",
+        "section": "Default",
+        "key": "Default",
+        "occurrence": 1
+      },
+      "source_sha256": "186ee782e36e4371d37df5aa9078023c5562410b48bb17355a7118b11318fba3",
+      "discs": [
+        1,
+        2
+      ],
+      "disposition": "localized",
+      "translation": "默认值：请输入新标签值",
+      "runtime_display_observed": false,
+      "runtime_translation_verified": false
+    },
+    {
+      "id": "coalesced:07c5884883be808db3c401778320cce52e684e8ad69f6767eae57538d5506dfe",
+      "kind": "coalesced",
+      "resource": "MC2Game/Localization/Coalesced.int",
+      "selector": {
+        "embedded_path": "..\\MC2Game\\Localization\\INT\\MC2Quest.int",
+        "section": "Q07_qube_1",
+        "key": "no_0",
+        "occurrence": 1
+      },
+      "source_sha256": "186ee782e36e4371d37df5aa9078023c5562410b48bb17355a7118b11318fba3",
+      "discs": [
+        1,
+        2
+      ],
+      "disposition": "localized",
+      "translation": "默认值：请输入新标签值",
+      "runtime_display_observed": false,
+      "runtime_translation_verified": false
+    },
+    {
+      "id": "package-string:5613511bef9118d58f5ed4e2fd454411146c931e567dfb7dce27b369eaba1b93",
+      "resource": "MC2Game/CookedXenon/ChinookIsland_Monster01_01_S2.xxx",
+      "discs": [
+        1
+      ],
+      "owner": {
+        "export": 1693,
+        "path": "data_char_object.obj_SiegeCannon_01.MC2PawnInterfaceDataBattle_SiegeGun_0.YM.MC2BattleYupa_0",
+        "class_path": "MC2Game.MC2BattleYupa",
+        "relative_offset": 28
+      },
+      "field": "StyleName",
+      "value_sha256": "45cb967dc7f41ef0472513269b6a941a4aa87428ec60655a93c916a78efe832c",
+      "package_sha256": "fb4192f755a0dbaf5112c637b849e731a361a3c02c68c2d2ea8b4e7d4612ebce",
+      "kind": "tagged-string",
+      "full_object_parse_verified": true,
+      "runtime_translation_verified": false,
+      "disposition": "localized",
+      "translation": "大炮",
+      "action": "Equal-length UTF16LE StrProperty edit; all aliases and both memberships preserved."
+    },
+    {
+      "id": "package-string:b9f940f63dfe8d98f7b64aae6c3cabebde54b9f59191449ab75c5564d04fb926",
+      "resource": "MC2Game/CookedXenon/ChinookIsland_Monster05_01_S.xxx",
+      "discs": [
+        1
+      ],
+      "owner": {
+        "export": 1885,
+        "path": "data_char_object.obj_SiegeCannon_01.MC2PawnInterfaceDataBattle_SiegeGun_0.YM.MC2BattleYupa_0",
+        "class_path": "MC2Game.MC2BattleYupa",
+        "relative_offset": 28
+      },
+      "field": "StyleName",
+      "value_sha256": "45cb967dc7f41ef0472513269b6a941a4aa87428ec60655a93c916a78efe832c",
+      "package_sha256": "d7c2a987433c98f12f229f5ca45f740d2cc213adda7992de890ca3a276197e8a",
+      "kind": "tagged-string",
+      "full_object_parse_verified": true,
+      "runtime_translation_verified": false,
+      "disposition": "localized",
+      "translation": "大炮",
+      "action": "Equal-length UTF16LE StrProperty edit; all aliases and both memberships preserved."
+    },
+    {
+      "id": "package-string:882f297f9a3d6c64faf237cd23a6e956f6efd015236e356b2a2d3e97b2b6c055",
+      "resource": "MC2Game/CookedXenon/CinookIsland_CompTuto_01.xxx",
+      "discs": [
+        1
+      ],
+      "owner": {
+        "export": 630,
+        "path": "TheWorld.PersistentLevel.Main_Sequence.CSM01_35시작.덫깔기.MC2SeqAct_ShowLogKillMonster_0",
+        "class_path": "MC2Game.MC2SeqAct_ShowLogKillMonster",
+        "relative_offset": 100
+      },
+      "field": "QuestName",
+      "value_sha256": "ff895e75035f3c09b03525e6b8e5e084c5edb7959d2c74dc28c79cc3542f615b",
+      "package_sha256": "547a9f75b932f2947f1cf1abc7c2afeb20edbed1c23c445dec1c61eb40530b09",
+      "kind": "tagged-string",
+      "full_object_parse_verified": true,
+      "runtime_translation_verified": false,
+      "disposition": "preserved-current-template-unused-argument",
+      "template": {
+        "complete_sentence": "<Strings:MC2Compose.Chapter01.Chapter01_25>",
+        "resolved_id": "coalesced:47425fc97131598686363aa97177bd93a2db0c3de86c73ddbbd3ffbbfdd47a3d",
+        "resolved_sha256": "7ed3db6255640006acf6b236b9aba01d7c1a6ab5667b7a731ece4d321184c7f7",
+        "resolved_value": "设置爆炸陷阱3/3"
+      },
+      "action": "27 current templates have only native formatter state 0; QuestName vararg is not consumed. Reopen on template hash change."
+    },
+    {
+      "id": "package-string:0739592d917a201b6bac54d6f0d79b77151d31699e160570ee28b0ad0a99441e",
+      "resource": "MC2Game/CookedXenon/CinookIsland_CompTuto_01.xxx",
+      "discs": [
+        1
+      ],
+      "owner": {
+        "export": 631,
+        "path": "TheWorld.PersistentLevel.Main_Sequence.CSM01_35시작.덫깔기.MC2SeqAct_ShowLogKillMonster_1",
+        "class_path": "MC2Game.MC2SeqAct_ShowLogKillMonster",
+        "relative_offset": 100
+      },
+      "field": "QuestName",
+      "value_sha256": "ff895e75035f3c09b03525e6b8e5e084c5edb7959d2c74dc28c79cc3542f615b",
+      "package_sha256": "547a9f75b932f2947f1cf1abc7c2afeb20edbed1c23c445dec1c61eb40530b09",
+      "kind": "tagged-string",
+      "full_object_parse_verified": true,
+      "runtime_translation_verified": false,
+      "disposition": "preserved-current-template-unused-argument",
+      "template": {
+        "complete_sentence": "<Strings:MC2Compose.Chapter01.Chapter01_23>",
+        "resolved_id": "coalesced:03d18f43d2221ec1cbc5c3a5e407c837aceec6b67f55e91babe85b1f41560690",
+        "resolved_sha256": "6f7539f7a1f3e6ab9b16dcd34ee3aee9664e8a4741b1a7cc2d1e3a5fd90346a0",
+        "resolved_value": "设置爆炸陷阱1/3"
+      },
+      "action": "27 current templates have only native formatter state 0; QuestName vararg is not consumed. Reopen on template hash change."
+    },
+    {
+      "id": "package-string:7444989707ffe6590354f338e0db8ad5406100705f639d862aa3a049b17aaf2f",
+      "resource": "MC2Game/CookedXenon/CinookIsland_CompTuto_01.xxx",
+      "discs": [
+        1
+      ],
+      "owner": {
+        "export": 632,
+        "path": "TheWorld.PersistentLevel.Main_Sequence.CSM01_35시작.덫깔기.MC2SeqAct_ShowLogKillMonster_2",
+        "class_path": "MC2Game.MC2SeqAct_ShowLogKillMonster",
+        "relative_offset": 100
+      },
+      "field": "QuestName",
+      "value_sha256": "ff895e75035f3c09b03525e6b8e5e084c5edb7959d2c74dc28c79cc3542f615b",
+      "package_sha256": "547a9f75b932f2947f1cf1abc7c2afeb20edbed1c23c445dec1c61eb40530b09",
+      "kind": "tagged-string",
+      "full_object_parse_verified": true,
+      "runtime_translation_verified": false,
+      "disposition": "preserved-current-template-unused-argument",
+      "template": {
+        "complete_sentence": "<Strings:MC2Compose.Chapter01.Chapter01_24>",
+        "resolved_id": "coalesced:531c8be44aec251847a1f3f413d19d549972818a216457b243166347232bc8a5",
+        "resolved_sha256": "669254fecc3d381b4013728481a7b192191598c296904657b0e2e77b83c977e7",
+        "resolved_value": "设置爆炸陷阱2/3"
+      },
+      "action": "27 current templates have only native formatter state 0; QuestName vararg is not consumed. Reopen on template hash change."
+    },
+    {
+      "id": "package-string:32d8c6d0f6483a9c82c0f18a8d2c16074fcab2b6619684736b0d2767b99a8d82",
+      "resource": "MC2Game/CookedXenon/CinookIsland_CompTuto_01.xxx",
+      "discs": [
+        1
+      ],
+      "owner": {
+        "export": 633,
+        "path": "TheWorld.PersistentLevel.Main_Sequence.CSM01_35시작.붕대치료.MC2SeqAct_ShowLogKillMonster_0",
+        "class_path": "MC2Game.MC2SeqAct_ShowLogKillMonster",
+        "relative_offset": 100
+      },
+      "field": "QuestName",
+      "value_sha256": "8ee3e138d43e33b89d50a8b14db14962cc7e381deef3ccfcca5e066cad8de321",
+      "package_sha256": "547a9f75b932f2947f1cf1abc7c2afeb20edbed1c23c445dec1c61eb40530b09",
+      "kind": "tagged-string",
+      "full_object_parse_verified": true,
+      "runtime_translation_verified": false,
+      "disposition": "preserved-current-template-unused-argument",
+      "template": {
+        "complete_sentence": "<Strings:MC2Compose.Chapter01.Chapter01_16>",
+        "resolved_id": "coalesced:a299b362092d5225b0ae54e687354beebf34ad047132e4bc1ce8cc08266209c2",
+        "resolved_sha256": "e2c81f9986029a62e512aba902aff89b21f40dcc1528d0d4a96a5befd1a0f32c",
+        "resolved_value": "用绷带治疗友军3 / 3"
+      },
+      "action": "27 current templates have only native formatter state 0; QuestName vararg is not consumed. Reopen on template hash change."
+    },
+    {
+      "id": "package-string:1a60c68eccefda1719f061463ac907186b496fa38f675d3b0d26339835401ab3",
+      "resource": "MC2Game/CookedXenon/CinookIsland_CompTuto_01.xxx",
+      "discs": [
+        1
+      ],
+      "owner": {
+        "export": 634,
+        "path": "TheWorld.PersistentLevel.Main_Sequence.CSM01_35시작.붕대치료.MC2SeqAct_ShowLogKillMonster_1",
+        "class_path": "MC2Game.MC2SeqAct_ShowLogKillMonster",
+        "relative_offset": 100
+      },
+      "field": "QuestName",
+      "value_sha256": "8ee3e138d43e33b89d50a8b14db14962cc7e381deef3ccfcca5e066cad8de321",
+      "package_sha256": "547a9f75b932f2947f1cf1abc7c2afeb20edbed1c23c445dec1c61eb40530b09",
+      "kind": "tagged-string",
+      "full_object_parse_verified": true,
+      "runtime_translation_verified": false,
+      "disposition": "preserved-current-template-unused-argument",
+      "template": {
+        "complete_sentence": "<Strings:MC2Compose.Chapter01.Chapter01_14>",
+        "resolved_id": "coalesced:de5537de820eb93286942c5678116f4b261ee380bda2dd93c218e13a0a08b662",
+        "resolved_sha256": "3425da8f27621ff28d6e2122ce31c050b08c3806e8dae195f745dca91402286e",
+        "resolved_value": "用绷带治疗友军1 / 3"
+      },
+      "action": "27 current templates have only native formatter state 0; QuestName vararg is not consumed. Reopen on template hash change."
+    },
+    {
+      "id": "package-string:576031665da42adc6e0d0056a60f59f7815f40cab1cc57374fd438c2ab42e64b",
+      "resource": "MC2Game/CookedXenon/CinookIsland_CompTuto_01.xxx",
+      "discs": [
+        1
+      ],
+      "owner": {
+        "export": 635,
+        "path": "TheWorld.PersistentLevel.Main_Sequence.CSM01_35시작.붕대치료.MC2SeqAct_ShowLogKillMonster_2",
+        "class_path": "MC2Game.MC2SeqAct_ShowLogKillMonster",
+        "relative_offset": 100
+      },
+      "field": "QuestName",
+      "value_sha256": "8ee3e138d43e33b89d50a8b14db14962cc7e381deef3ccfcca5e066cad8de321",
+      "package_sha256": "547a9f75b932f2947f1cf1abc7c2afeb20edbed1c23c445dec1c61eb40530b09",
+      "kind": "tagged-string",
+      "full_object_parse_verified": true,
+      "runtime_translation_verified": false,
+      "disposition": "preserved-current-template-unused-argument",
+      "template": {
+        "complete_sentence": "<Strings:MC2Compose.Chapter01.Chapter01_15>",
+        "resolved_id": "coalesced:5a043409dd3f78974c859c7a6e04098900497de5a132df1378e7bfe97ca28890",
+        "resolved_sha256": "df6bfd05b819a9dcc1cd3268961b0d36b33608335b8f0908eed195f1e3829abc",
+        "resolved_value": "用绷带治疗友军2 / 3"
+      },
+      "action": "27 current templates have only native formatter state 0; QuestName vararg is not consumed. Reopen on template hash change."
+    },
+    {
+      "id": "package-string:aaff380393c0db8d011f48db2e984b14618ae26c5bbac79f41129cd9c61ad4f1",
+      "resource": "MC2Game/CookedXenon/CinookIsland_CompTuto_01.xxx",
+      "discs": [
+        1
+      ],
+      "owner": {
+        "export": 636,
+        "path": "TheWorld.PersistentLevel.Main_Sequence.CSM01_35시작.붕대치료.MC2SeqAct_ShowLogKillMonster_3",
+        "class_path": "MC2Game.MC2SeqAct_ShowLogKillMonster",
+        "relative_offset": 100
+      },
+      "field": "QuestName",
+      "value_sha256": "8ee3e138d43e33b89d50a8b14db14962cc7e381deef3ccfcca5e066cad8de321",
+      "package_sha256": "547a9f75b932f2947f1cf1abc7c2afeb20edbed1c23c445dec1c61eb40530b09",
+      "kind": "tagged-string",
+      "full_object_parse_verified": true,
+      "runtime_translation_verified": false,
+      "disposition": "preserved-current-template-unused-argument",
+      "template": {
+        "complete_sentence": "<Strings:MC2Compose.Chapter01.Chapter01_16>",
+        "resolved_id": "coalesced:a299b362092d5225b0ae54e687354beebf34ad047132e4bc1ce8cc08266209c2",
+        "resolved_sha256": "e2c81f9986029a62e512aba902aff89b21f40dcc1528d0d4a96a5befd1a0f32c",
+        "resolved_value": "用绷带治疗友军3 / 3"
+      },
+      "action": "27 current templates have only native formatter state 0; QuestName vararg is not consumed. Reopen on template hash change."
+    },
+    {
+      "id": "package-string:53ac075a41d86bee33851b67a49cc9accbfb0abcaeb1f1563ed89e3beedae82b",
+      "resource": "MC2Game/CookedXenon/CinookIsland_CompTuto_01.xxx",
+      "discs": [
+        1
+      ],
+      "owner": {
+        "export": 637,
+        "path": "TheWorld.PersistentLevel.Main_Sequence.CSM01_35시작.붕대치료.MC2SeqAct_ShowLogKillMonster_4",
+        "class_path": "MC2Game.MC2SeqAct_ShowLogKillMonster",
+        "relative_offset": 100
+      },
+      "field": "QuestName",
+      "value_sha256": "8ee3e138d43e33b89d50a8b14db14962cc7e381deef3ccfcca5e066cad8de321",
+      "package_sha256": "547a9f75b932f2947f1cf1abc7c2afeb20edbed1c23c445dec1c61eb40530b09",
+      "kind": "tagged-string",
+      "full_object_parse_verified": true,
+      "runtime_translation_verified": false,
+      "disposition": "preserved-current-template-unused-argument",
+      "template": {
+        "complete_sentence": "<Strings:MC2Compose.Chapter01.Chapter01_17>",
+        "resolved_id": "coalesced:352f58a43c28e9ecfac53dee86fa9c1d4cd9bb735047dc5afb830650ed539d7d",
+        "resolved_sha256": "8d4801856dd988adfff7d30a8ec595b600994ddeae692e2d6368be1d8f28a27d",
+        "resolved_value": "用绷带治疗友军4 / 3"
+      },
+      "action": "27 current templates have only native formatter state 0; QuestName vararg is not consumed. Reopen on template hash change."
+    },
+    {
+      "id": "package-string:cc5b6d88dcc0787fd99a38b8b3cddb149ba001e23127092f0f14bd53c03def8e",
+      "resource": "MC2Game/CookedXenon/CinookIsland_CompTuto_01.xxx",
+      "discs": [
+        1
+      ],
+      "owner": {
+        "export": 638,
+        "path": "TheWorld.PersistentLevel.Main_Sequence.공성병기파괴하기.MC2SeqAct_ShowLogKillMonster_0",
+        "class_path": "MC2Game.MC2SeqAct_ShowLogKillMonster",
+        "relative_offset": 100
+      },
+      "field": "QuestName",
+      "value_sha256": "4b3fe9162c76675cdaeaef986ed56fe444815194b054a4f9097fc4630e608760",
+      "package_sha256": "547a9f75b932f2947f1cf1abc7c2afeb20edbed1c23c445dec1c61eb40530b09",
+      "kind": "tagged-string",
+      "full_object_parse_verified": true,
+      "runtime_translation_verified": false,
+      "disposition": "preserved-current-template-unused-argument",
+      "template": {
+        "complete_sentence": "<Strings:MC2Compose.Chapter05.Chapter05_36>",
+        "resolved_id": "coalesced:5533c904790b5d3bea656b0b3c40263b5aabda3a9b6ece4509816eb4699c23bb",
+        "resolved_sha256": "beb87a7d163bab24763f7e2d99c9115ed77a655b41cb3bdfef679fd1a4564424",
+        "resolved_value": "摧毁北部军死亡弩炮 (1/4)"
+      },
+      "action": "27 current templates have only native formatter state 0; QuestName vararg is not consumed. Reopen on template hash change."
+    },
+    {
+      "id": "package-string:d51411eff1b9a6afe8dbd6fd98111d75ad5d471dcc26e76976dcd48b69f4f8e3",
+      "resource": "MC2Game/CookedXenon/CinookIsland_CompTuto_01.xxx",
+      "discs": [
+        1
+      ],
+      "owner": {
+        "export": 639,
+        "path": "TheWorld.PersistentLevel.Main_Sequence.공성병기파괴하기.MC2SeqAct_ShowLogKillMonster_1",
+        "class_path": "MC2Game.MC2SeqAct_ShowLogKillMonster",
+        "relative_offset": 100
+      },
+      "field": "QuestName",
+      "value_sha256": "4b3fe9162c76675cdaeaef986ed56fe444815194b054a4f9097fc4630e608760",
+      "package_sha256": "547a9f75b932f2947f1cf1abc7c2afeb20edbed1c23c445dec1c61eb40530b09",
+      "kind": "tagged-string",
+      "full_object_parse_verified": true,
+      "runtime_translation_verified": false,
+      "disposition": "preserved-current-template-unused-argument",
+      "template": {
+        "complete_sentence": "<Strings:MC2Compose.Chapter05.Chapter05_39>",
+        "resolved_id": "coalesced:33c84cd2f44bc5421ce166142555562cf9376efa028fa6d96d12cabe05135257",
+        "resolved_sha256": "78041fd0e44162ef33f73a328c3eb7d4e4ccaa67c3aa9f7907114445792ad2f4",
+        "resolved_value": "摧毁北部军死亡弩炮 (4/4)"
+      },
+      "action": "27 current templates have only native formatter state 0; QuestName vararg is not consumed. Reopen on template hash change."
+    },
+    {
+      "id": "package-string:cc3f496080c5edef47e373a6acdbfd50408251dfcf330a24a6610421ad12208a",
+      "resource": "MC2Game/CookedXenon/CinookIsland_CompTuto_01.xxx",
+      "discs": [
+        1
+      ],
+      "owner": {
+        "export": 640,
+        "path": "TheWorld.PersistentLevel.Main_Sequence.공성병기파괴하기.MC2SeqAct_ShowLogKillMonster_2",
+        "class_path": "MC2Game.MC2SeqAct_ShowLogKillMonster",
+        "relative_offset": 100
+      },
+      "field": "QuestName",
+      "value_sha256": "4b3fe9162c76675cdaeaef986ed56fe444815194b054a4f9097fc4630e608760",
+      "package_sha256": "547a9f75b932f2947f1cf1abc7c2afeb20edbed1c23c445dec1c61eb40530b09",
+      "kind": "tagged-string",
+      "full_object_parse_verified": true,
+      "runtime_translation_verified": false,
+      "disposition": "preserved-current-template-unused-argument",
+      "template": {
+        "complete_sentence": "<Strings:MC2Compose.Chapter05.Chapter05_37>",
+        "resolved_id": "coalesced:d169c6cf505e85a2fee61cf415b8349278d04f938fd801027f2b9c18048d526c",
+        "resolved_sha256": "3512016019e118eb0ec967a29db28f3e1829c183e72db71f268bc424d4816b5b",
+        "resolved_value": "摧毁北部军死亡弩炮 (2/4)"
+      },
+      "action": "27 current templates have only native formatter state 0; QuestName vararg is not consumed. Reopen on template hash change."
+    },
+    {
+      "id": "package-string:f4b554adeb55fa316f601e41bc9186e713168edd34a476a6ae9355667f763ade",
+      "resource": "MC2Game/CookedXenon/CinookIsland_CompTuto_01.xxx",
+      "discs": [
+        1
+      ],
+      "owner": {
+        "export": 641,
+        "path": "TheWorld.PersistentLevel.Main_Sequence.공성병기파괴하기.MC2SeqAct_ShowLogKillMonster_3",
+        "class_path": "MC2Game.MC2SeqAct_ShowLogKillMonster",
+        "relative_offset": 100
+      },
+      "field": "QuestName",
+      "value_sha256": "4b3fe9162c76675cdaeaef986ed56fe444815194b054a4f9097fc4630e608760",
+      "package_sha256": "547a9f75b932f2947f1cf1abc7c2afeb20edbed1c23c445dec1c61eb40530b09",
+      "kind": "tagged-string",
+      "full_object_parse_verified": true,
+      "runtime_translation_verified": false,
+      "disposition": "preserved-current-template-unused-argument",
+      "template": {
+        "complete_sentence": "<Strings:MC2Compose.Chapter05.Chapter05_38>",
+        "resolved_id": "coalesced:b7e14ab8c9ad3bd6e9cf5e4833d3f0ac4dfe3d0977c1ef36241481c96045bc49",
+        "resolved_sha256": "e896b7664bf976a0262fe66ac3277e340158b62fa3b86ce887c0cb230d6b6c93",
+        "resolved_value": "摧毁北部军死亡弩炮 (3/4)"
+      },
+      "action": "27 current templates have only native formatter state 0; QuestName vararg is not consumed. Reopen on template hash change."
+    },
+    {
+      "id": "package-string:71ccb2c95522061383fbc652c9d867330e9aef0924aaab135fde4f715162049d",
+      "resource": "MC2Game/CookedXenon/CinookIsland_CompTuto_01.xxx",
+      "discs": [
+        1
+      ],
+      "owner": {
+        "export": 642,
+        "path": "TheWorld.PersistentLevel.Main_Sequence.제바사등장이벤트.제바사등장준비.MC2SeqAct_ShowLogKillMonster_0",
+        "class_path": "MC2Game.MC2SeqAct_ShowLogKillMonster",
+        "relative_offset": 100
+      },
+      "field": "QuestName",
+      "value_sha256": "4b3fe9162c76675cdaeaef986ed56fe444815194b054a4f9097fc4630e608760",
+      "package_sha256": "547a9f75b932f2947f1cf1abc7c2afeb20edbed1c23c445dec1c61eb40530b09",
+      "kind": "tagged-string",
+      "full_object_parse_verified": true,
+      "runtime_translation_verified": false,
+      "disposition": "preserved-current-template-unused-argument",
+      "template": {
+        "complete_sentence": "<Strings:MC2Compose.Chapter05.Chapter05_19>",
+        "resolved_id": "coalesced:27781bb35dc8413042d5747b4c0cd0056321f5b5b1ada6ecffcc5da229c78feb",
+        "resolved_sha256": "9ca35fc3ba3c7590f210828a6c93ae059184f29688aa5312619d4ac0805ec3ee",
+        "resolved_value": "击败北部军 (15/15)"
+      },
+      "action": "27 current templates have only native formatter state 0; QuestName vararg is not consumed. Reopen on template hash change."
+    },
+    {
+      "id": "package-string:2ec0bf7db532425fa30b0dfc910767180a0bec6bb7157b74755c571f9b7dfc84",
+      "resource": "MC2Game/CookedXenon/CinookIsland_CompTuto_01.xxx",
+      "discs": [
+        1
+      ],
+      "owner": {
+        "export": 643,
+        "path": "TheWorld.PersistentLevel.Main_Sequence.제바사등장이벤트.제바사등장준비.MC2SeqAct_ShowLogKillMonster_1",
+        "class_path": "MC2Game.MC2SeqAct_ShowLogKillMonster",
+        "relative_offset": 100
+      },
+      "field": "QuestName",
+      "value_sha256": "4b3fe9162c76675cdaeaef986ed56fe444815194b054a4f9097fc4630e608760",
+      "package_sha256": "547a9f75b932f2947f1cf1abc7c2afeb20edbed1c23c445dec1c61eb40530b09",
+      "kind": "tagged-string",
+      "full_object_parse_verified": true,
+      "runtime_translation_verified": false,
+      "disposition": "preserved-current-template-unused-argument",
+      "template": {
+        "complete_sentence": "<Strings:MC2Compose.Chapter05.Chapter05_05>",
+        "resolved_id": "coalesced:7535325f7b63d6b32f242120458c2b6bd047b88c658703711f109583ee5ca67d",
+        "resolved_sha256": "b00e1a677b6fb6b3edebb7485a37a452664ca3d1725cb192d265862098dbeeb3",
+        "resolved_value": "击败北部军 (1/15)"
+      },
+      "action": "27 current templates have only native formatter state 0; QuestName vararg is not consumed. Reopen on template hash change."
+    },
+    {
+      "id": "package-string:3a613b01ce6c37ee430a26a0c8d355532c656d3f5c01289b9077b5dd1ad343bb",
+      "resource": "MC2Game/CookedXenon/CinookIsland_CompTuto_01.xxx",
+      "discs": [
+        1
+      ],
+      "owner": {
+        "export": 644,
+        "path": "TheWorld.PersistentLevel.Main_Sequence.제바사등장이벤트.제바사등장준비.MC2SeqAct_ShowLogKillMonster_10",
+        "class_path": "MC2Game.MC2SeqAct_ShowLogKillMonster",
+        "relative_offset": 100
+      },
+      "field": "QuestName",
+      "value_sha256": "4b3fe9162c76675cdaeaef986ed56fe444815194b054a4f9097fc4630e608760",
+      "package_sha256": "547a9f75b932f2947f1cf1abc7c2afeb20edbed1c23c445dec1c61eb40530b09",
+      "kind": "tagged-string",
+      "full_object_parse_verified": true,
+      "runtime_translation_verified": false,
+      "disposition": "preserved-current-template-unused-argument",
+      "template": {
+        "complete_sentence": "<Strings:MC2Compose.Chapter05.Chapter05_14>",
+        "resolved_id": "coalesced:10da2e72b1c92fd59af1309302184c5d72e22127c5d343ec48f565038f807265",
+        "resolved_sha256": "07c1b1940e59cdb53715f1f053d4935665f505c27ab156bb3e0d50e4fe2ce715",
+        "resolved_value": "击败北部军 (10/15)"
+      },
+      "action": "27 current templates have only native formatter state 0; QuestName vararg is not consumed. Reopen on template hash change."
+    },
+    {
+      "id": "package-string:4bb1e716d6227bcb178870c6585aedc4ee5c5f2863630c1db431af042f0dc3e4",
+      "resource": "MC2Game/CookedXenon/CinookIsland_CompTuto_01.xxx",
+      "discs": [
+        1
+      ],
+      "owner": {
+        "export": 645,
+        "path": "TheWorld.PersistentLevel.Main_Sequence.제바사등장이벤트.제바사등장준비.MC2SeqAct_ShowLogKillMonster_11",
+        "class_path": "MC2Game.MC2SeqAct_ShowLogKillMonster",
+        "relative_offset": 100
+      },
+      "field": "QuestName",
+      "value_sha256": "4b3fe9162c76675cdaeaef986ed56fe444815194b054a4f9097fc4630e608760",
+      "package_sha256": "547a9f75b932f2947f1cf1abc7c2afeb20edbed1c23c445dec1c61eb40530b09",
+      "kind": "tagged-string",
+      "full_object_parse_verified": true,
+      "runtime_translation_verified": false,
+      "disposition": "preserved-current-template-unused-argument",
+      "template": {
+        "complete_sentence": "<Strings:MC2Compose.Chapter05.Chapter05_15>",
+        "resolved_id": "coalesced:d3b666b5c6c4ba0eb5f31b463a256c4c0f9d4d92575374eb39da4ec4845f4fce",
+        "resolved_sha256": "e5b21d154b30fcab6b651c80608d4c44bc232784a0844511f12def6335405caf",
+        "resolved_value": "击败北部军 (11/15)"
+      },
+      "action": "27 current templates have only native formatter state 0; QuestName vararg is not consumed. Reopen on template hash change."
+    },
+    {
+      "id": "package-string:cc9bf9d8d0c44a80561138c51621da6af83eb28edbedb6b93d4f38e86deac090",
+      "resource": "MC2Game/CookedXenon/CinookIsland_CompTuto_01.xxx",
+      "discs": [
+        1
+      ],
+      "owner": {
+        "export": 646,
+        "path": "TheWorld.PersistentLevel.Main_Sequence.제바사등장이벤트.제바사등장준비.MC2SeqAct_ShowLogKillMonster_12",
+        "class_path": "MC2Game.MC2SeqAct_ShowLogKillMonster",
+        "relative_offset": 100
+      },
+      "field": "QuestName",
+      "value_sha256": "4b3fe9162c76675cdaeaef986ed56fe444815194b054a4f9097fc4630e608760",
+      "package_sha256": "547a9f75b932f2947f1cf1abc7c2afeb20edbed1c23c445dec1c61eb40530b09",
+      "kind": "tagged-string",
+      "full_object_parse_verified": true,
+      "runtime_translation_verified": false,
+      "disposition": "preserved-current-template-unused-argument",
+      "template": {
+        "complete_sentence": "<Strings:MC2Compose.Chapter05.Chapter05_16>",
+        "resolved_id": "coalesced:3ed2dee792f1605e782540fbda6ca09ddd5bbf83bc4527a8eaa589ad73489cbe",
+        "resolved_sha256": "7bcf7b5d0619a2565f0ee7fb65b13ca68f2231b941992d0fa085e8195df65947",
+        "resolved_value": "击败北部军 (12/15)"
+      },
+      "action": "27 current templates have only native formatter state 0; QuestName vararg is not consumed. Reopen on template hash change."
+    },
+    {
+      "id": "package-string:e667380e4686160542a48caaa42cf7cf7b8114aa7c15cdbfbfab6d6f3bc79f70",
+      "resource": "MC2Game/CookedXenon/CinookIsland_CompTuto_01.xxx",
+      "discs": [
+        1
+      ],
+      "owner": {
+        "export": 647,
+        "path": "TheWorld.PersistentLevel.Main_Sequence.제바사등장이벤트.제바사등장준비.MC2SeqAct_ShowLogKillMonster_13",
+        "class_path": "MC2Game.MC2SeqAct_ShowLogKillMonster",
+        "relative_offset": 100
+      },
+      "field": "QuestName",
+      "value_sha256": "4b3fe9162c76675cdaeaef986ed56fe444815194b054a4f9097fc4630e608760",
+      "package_sha256": "547a9f75b932f2947f1cf1abc7c2afeb20edbed1c23c445dec1c61eb40530b09",
+      "kind": "tagged-string",
+      "full_object_parse_verified": true,
+      "runtime_translation_verified": false,
+      "disposition": "preserved-current-template-unused-argument",
+      "template": {
+        "complete_sentence": "<Strings:MC2Compose.Chapter05.Chapter05_17>",
+        "resolved_id": "coalesced:a16c408d8e297ed947fd2a3b3a5d415cfb5359a25b60bbe31d39d304a18b12a2",
+        "resolved_sha256": "fe8c32757b992f988be6e71fb6ef0e0d136c8242bb6313a9273dc4dfb8b6f051",
+        "resolved_value": "击败北部军 (13/15)"
+      },
+      "action": "27 current templates have only native formatter state 0; QuestName vararg is not consumed. Reopen on template hash change."
+    },
+    {
+      "id": "package-string:7ce47acbad6fc05ecb103b3d94309ef373b11ab2e001cb5f86a8f46db70630c9",
+      "resource": "MC2Game/CookedXenon/CinookIsland_CompTuto_01.xxx",
+      "discs": [
+        1
+      ],
+      "owner": {
+        "export": 648,
+        "path": "TheWorld.PersistentLevel.Main_Sequence.제바사등장이벤트.제바사등장준비.MC2SeqAct_ShowLogKillMonster_14",
+        "class_path": "MC2Game.MC2SeqAct_ShowLogKillMonster",
+        "relative_offset": 100
+      },
+      "field": "QuestName",
+      "value_sha256": "4b3fe9162c76675cdaeaef986ed56fe444815194b054a4f9097fc4630e608760",
+      "package_sha256": "547a9f75b932f2947f1cf1abc7c2afeb20edbed1c23c445dec1c61eb40530b09",
+      "kind": "tagged-string",
+      "full_object_parse_verified": true,
+      "runtime_translation_verified": false,
+      "disposition": "preserved-current-template-unused-argument",
+      "template": {
+        "complete_sentence": "<Strings:MC2Compose.Chapter05.Chapter05_18>",
+        "resolved_id": "coalesced:689fffc5fd58f3c558e0dad97e9a35bd5c8d5b7e94906d499aa4267023db50cc",
+        "resolved_sha256": "2238abc0597be9222d276f80dde5c5d25c02534663c640bac2d1510069df50f9",
+        "resolved_value": "击败北部军 (14/15)"
+      },
+      "action": "27 current templates have only native formatter state 0; QuestName vararg is not consumed. Reopen on template hash change."
+    },
+    {
+      "id": "package-string:550f455134a9ec45fe69f0001af49fb30cd12eb63a26b648f740fb21a911a9e9",
+      "resource": "MC2Game/CookedXenon/CinookIsland_CompTuto_01.xxx",
+      "discs": [
+        1
+      ],
+      "owner": {
+        "export": 649,
+        "path": "TheWorld.PersistentLevel.Main_Sequence.제바사등장이벤트.제바사등장준비.MC2SeqAct_ShowLogKillMonster_2",
+        "class_path": "MC2Game.MC2SeqAct_ShowLogKillMonster",
+        "relative_offset": 100
+      },
+      "field": "QuestName",
+      "value_sha256": "4b3fe9162c76675cdaeaef986ed56fe444815194b054a4f9097fc4630e608760",
+      "package_sha256": "547a9f75b932f2947f1cf1abc7c2afeb20edbed1c23c445dec1c61eb40530b09",
+      "kind": "tagged-string",
+      "full_object_parse_verified": true,
+      "runtime_translation_verified": false,
+      "disposition": "preserved-current-template-unused-argument",
+      "template": {
+        "complete_sentence": "<Strings:MC2Compose.Chapter05.Chapter05_06>",
+        "resolved_id": "coalesced:a1183758dba02522abeddf84b9b33317fc16f26b5b544aa25c689090584a3ba6",
+        "resolved_sha256": "f4baba5a2e106f77c702e3fbe2f1a78c6f3417f6615984e4598275b37764c46b",
+        "resolved_value": "击败北部军 (2/15)"
+      },
+      "action": "27 current templates have only native formatter state 0; QuestName vararg is not consumed. Reopen on template hash change."
+    },
+    {
+      "id": "package-string:3995f118aecce40e43ab8c8792eeb349103061579a0e3018692a6abab616e436",
+      "resource": "MC2Game/CookedXenon/CinookIsland_CompTuto_01.xxx",
+      "discs": [
+        1
+      ],
+      "owner": {
+        "export": 650,
+        "path": "TheWorld.PersistentLevel.Main_Sequence.제바사등장이벤트.제바사등장준비.MC2SeqAct_ShowLogKillMonster_3",
+        "class_path": "MC2Game.MC2SeqAct_ShowLogKillMonster",
+        "relative_offset": 100
+      },
+      "field": "QuestName",
+      "value_sha256": "4b3fe9162c76675cdaeaef986ed56fe444815194b054a4f9097fc4630e608760",
+      "package_sha256": "547a9f75b932f2947f1cf1abc7c2afeb20edbed1c23c445dec1c61eb40530b09",
+      "kind": "tagged-string",
+      "full_object_parse_verified": true,
+      "runtime_translation_verified": false,
+      "disposition": "preserved-current-template-unused-argument",
+      "template": {
+        "complete_sentence": "<Strings:MC2Compose.Chapter05.Chapter05_07>",
+        "resolved_id": "coalesced:6338cb8594dd4f5cf2a0a5912bc9a1f10d39550eb614be03a3f381c41104ef18",
+        "resolved_sha256": "071cb9b119b09bea043a72e604a48d5d88cf5550e89af0cd38e8fd9ae9779594",
+        "resolved_value": "击败北部军 (3/15)"
+      },
+      "action": "27 current templates have only native formatter state 0; QuestName vararg is not consumed. Reopen on template hash change."
+    },
+    {
+      "id": "package-string:6974626b047cb651912bfc8773ae3507457a5f1663bcd9376e21305440999a09",
+      "resource": "MC2Game/CookedXenon/CinookIsland_CompTuto_01.xxx",
+      "discs": [
+        1
+      ],
+      "owner": {
+        "export": 651,
+        "path": "TheWorld.PersistentLevel.Main_Sequence.제바사등장이벤트.제바사등장준비.MC2SeqAct_ShowLogKillMonster_4",
+        "class_path": "MC2Game.MC2SeqAct_ShowLogKillMonster",
+        "relative_offset": 100
+      },
+      "field": "QuestName",
+      "value_sha256": "4b3fe9162c76675cdaeaef986ed56fe444815194b054a4f9097fc4630e608760",
+      "package_sha256": "547a9f75b932f2947f1cf1abc7c2afeb20edbed1c23c445dec1c61eb40530b09",
+      "kind": "tagged-string",
+      "full_object_parse_verified": true,
+      "runtime_translation_verified": false,
+      "disposition": "preserved-current-template-unused-argument",
+      "template": {
+        "complete_sentence": "<Strings:MC2Compose.Chapter05.Chapter05_08>",
+        "resolved_id": "coalesced:bfc89ab084a6a7d94556de0c111567034afc377556ad2e878e98e8d9c5afb4e4",
+        "resolved_sha256": "bf5be8ed1624e05b774542c332ebf140836641ba485518f022d1ee84aa2ef565",
+        "resolved_value": "击败北部军 (4/15)"
+      },
+      "action": "27 current templates have only native formatter state 0; QuestName vararg is not consumed. Reopen on template hash change."
+    },
+    {
+      "id": "package-string:8d7bb41086a8560197260a5f9363293c793eb50c721fe3a1d5d430349e7a5efd",
+      "resource": "MC2Game/CookedXenon/CinookIsland_CompTuto_01.xxx",
+      "discs": [
+        1
+      ],
+      "owner": {
+        "export": 652,
+        "path": "TheWorld.PersistentLevel.Main_Sequence.제바사등장이벤트.제바사등장준비.MC2SeqAct_ShowLogKillMonster_5",
+        "class_path": "MC2Game.MC2SeqAct_ShowLogKillMonster",
+        "relative_offset": 100
+      },
+      "field": "QuestName",
+      "value_sha256": "4b3fe9162c76675cdaeaef986ed56fe444815194b054a4f9097fc4630e608760",
+      "package_sha256": "547a9f75b932f2947f1cf1abc7c2afeb20edbed1c23c445dec1c61eb40530b09",
+      "kind": "tagged-string",
+      "full_object_parse_verified": true,
+      "runtime_translation_verified": false,
+      "disposition": "preserved-current-template-unused-argument",
+      "template": {
+        "complete_sentence": "<Strings:MC2Compose.Chapter05.Chapter05_09>",
+        "resolved_id": "coalesced:e53435a003cf0a0665b854910c4b94924e8b64ac04573acae9c47506cfbd08b5",
+        "resolved_sha256": "a8eee54207004530946c69499e30b9a6d81bf5f04970dafc28b412f3702faf80",
+        "resolved_value": "击败北部军 (5/15)"
+      },
+      "action": "27 current templates have only native formatter state 0; QuestName vararg is not consumed. Reopen on template hash change."
+    },
+    {
+      "id": "package-string:48d8cf705f9d6571cc129bf1365038232788a49aaa1d59268f75e844cd5a3918",
+      "resource": "MC2Game/CookedXenon/CinookIsland_CompTuto_01.xxx",
+      "discs": [
+        1
+      ],
+      "owner": {
+        "export": 653,
+        "path": "TheWorld.PersistentLevel.Main_Sequence.제바사등장이벤트.제바사등장준비.MC2SeqAct_ShowLogKillMonster_6",
+        "class_path": "MC2Game.MC2SeqAct_ShowLogKillMonster",
+        "relative_offset": 100
+      },
+      "field": "QuestName",
+      "value_sha256": "4b3fe9162c76675cdaeaef986ed56fe444815194b054a4f9097fc4630e608760",
+      "package_sha256": "547a9f75b932f2947f1cf1abc7c2afeb20edbed1c23c445dec1c61eb40530b09",
+      "kind": "tagged-string",
+      "full_object_parse_verified": true,
+      "runtime_translation_verified": false,
+      "disposition": "preserved-current-template-unused-argument",
+      "template": {
+        "complete_sentence": "<Strings:MC2Compose.Chapter05.Chapter05_10>",
+        "resolved_id": "coalesced:2a893d368e50eb4aaf8e0e1c7e82ea4a5ed016bb5c359143ae4e082ef871057f",
+        "resolved_sha256": "1a5ae658e282fb33c706fba1e617522be519159220ad54e2fde370c343601bc1",
+        "resolved_value": "击败北部军 (6/15)"
+      },
+      "action": "27 current templates have only native formatter state 0; QuestName vararg is not consumed. Reopen on template hash change."
+    },
+    {
+      "id": "package-string:13dbded831e10c87ca6fb4c49653f129f42a7220934ab093b0e84268165fdcd2",
+      "resource": "MC2Game/CookedXenon/CinookIsland_CompTuto_01.xxx",
+      "discs": [
+        1
+      ],
+      "owner": {
+        "export": 654,
+        "path": "TheWorld.PersistentLevel.Main_Sequence.제바사등장이벤트.제바사등장준비.MC2SeqAct_ShowLogKillMonster_7",
+        "class_path": "MC2Game.MC2SeqAct_ShowLogKillMonster",
+        "relative_offset": 100
+      },
+      "field": "QuestName",
+      "value_sha256": "4b3fe9162c76675cdaeaef986ed56fe444815194b054a4f9097fc4630e608760",
+      "package_sha256": "547a9f75b932f2947f1cf1abc7c2afeb20edbed1c23c445dec1c61eb40530b09",
+      "kind": "tagged-string",
+      "full_object_parse_verified": true,
+      "runtime_translation_verified": false,
+      "disposition": "preserved-current-template-unused-argument",
+      "template": {
+        "complete_sentence": "<Strings:MC2Compose.Chapter05.Chapter05_11>",
+        "resolved_id": "coalesced:be415f6e34e9df8f1e8e51f518ccd148279305e588776fee592f8f2cae65025a",
+        "resolved_sha256": "f0f172cd37ceef7e4a0cd4e5eef084e0752ecb4d03c1507f451dac1f019d6ce5",
+        "resolved_value": "击败北部军 (7/15)"
+      },
+      "action": "27 current templates have only native formatter state 0; QuestName vararg is not consumed. Reopen on template hash change."
+    },
+    {
+      "id": "package-string:9c67b7baa76c6e7b2b51f72b09046080d6af1f3d691376e66a4e4d6f6d15f641",
+      "resource": "MC2Game/CookedXenon/CinookIsland_CompTuto_01.xxx",
+      "discs": [
+        1
+      ],
+      "owner": {
+        "export": 655,
+        "path": "TheWorld.PersistentLevel.Main_Sequence.제바사등장이벤트.제바사등장준비.MC2SeqAct_ShowLogKillMonster_8",
+        "class_path": "MC2Game.MC2SeqAct_ShowLogKillMonster",
+        "relative_offset": 100
+      },
+      "field": "QuestName",
+      "value_sha256": "4b3fe9162c76675cdaeaef986ed56fe444815194b054a4f9097fc4630e608760",
+      "package_sha256": "547a9f75b932f2947f1cf1abc7c2afeb20edbed1c23c445dec1c61eb40530b09",
+      "kind": "tagged-string",
+      "full_object_parse_verified": true,
+      "runtime_translation_verified": false,
+      "disposition": "preserved-current-template-unused-argument",
+      "template": {
+        "complete_sentence": "<Strings:MC2Compose.Chapter05.Chapter05_12>",
+        "resolved_id": "coalesced:c0bc3f4b9f9ab7dd6c21735f891b2827c61690d58ec817f063f93a53f6798d6d",
+        "resolved_sha256": "145e5b390ec0376373eb225dd04dade535d97dc0d37c6c6dda07bc8e60881ef7",
+        "resolved_value": "击败北部军 (8/15)"
+      },
+      "action": "27 current templates have only native formatter state 0; QuestName vararg is not consumed. Reopen on template hash change."
+    },
+    {
+      "id": "package-string:3d5b6bd32047648f4b37713ff0b69d7279a12fcc9f8c7122efcc32d1dc191798",
+      "resource": "MC2Game/CookedXenon/CinookIsland_CompTuto_01.xxx",
+      "discs": [
+        1
+      ],
+      "owner": {
+        "export": 656,
+        "path": "TheWorld.PersistentLevel.Main_Sequence.제바사등장이벤트.제바사등장준비.MC2SeqAct_ShowLogKillMonster_9",
+        "class_path": "MC2Game.MC2SeqAct_ShowLogKillMonster",
+        "relative_offset": 100
+      },
+      "field": "QuestName",
+      "value_sha256": "4b3fe9162c76675cdaeaef986ed56fe444815194b054a4f9097fc4630e608760",
+      "package_sha256": "547a9f75b932f2947f1cf1abc7c2afeb20edbed1c23c445dec1c61eb40530b09",
+      "kind": "tagged-string",
+      "full_object_parse_verified": true,
+      "runtime_translation_verified": false,
+      "disposition": "preserved-current-template-unused-argument",
+      "template": {
+        "complete_sentence": "<Strings:MC2Compose.Chapter05.Chapter05_13>",
+        "resolved_id": "coalesced:5a2b5267c082cace1882f2a2e3c0834c590fb7a882e80cb33c29345d979a4937",
+        "resolved_sha256": "c59b09561c194f8b8f4fbee130ccf8c9c6e635cc01e366dca67158d5fd5a40d3",
+        "resolved_value": "击败北部军 (9/15)"
+      },
+      "action": "27 current templates have only native formatter state 0; QuestName vararg is not consumed. Reopen on template hash change."
+    },
+    {
+      "id": "package-string:3bf7afcb5461035a2b92000e9ba764d08e3ee2f07bd26eecd469651e69533e0e",
+      "resource": "MC2Game/CookedXenon/data_char_object.xxx",
+      "discs": [
+        1,
+        2
+      ],
+      "owner": {
+        "export": 1711,
+        "path": "obj_LabSwitch.MC2PawnInterfaceDataBattle_SiegeGun_0.YM.MC2BattleYupa_0",
+        "class_path": "MC2Game.MC2BattleYupa",
+        "relative_offset": 28
+      },
+      "field": "StyleName",
+      "value_sha256": "45cb967dc7f41ef0472513269b6a941a4aa87428ec60655a93c916a78efe832c",
+      "package_sha256": "5066fe04a028b1ff7ea7c8f14b8416fc2f0d4ecffc9940c2eb9ddd2b07561017",
+      "kind": "tagged-string",
+      "full_object_parse_verified": true,
+      "runtime_translation_verified": false,
+      "disposition": "localized",
+      "translation": "大炮",
+      "action": "Equal-length UTF16LE StrProperty edit; all aliases and both memberships preserved."
+    },
+    {
+      "id": "package-string:4c230016b207c8f1982a38c87f0c0fd6e4dd6118141b63b1eee5a02321308990",
+      "resource": "MC2Game/CookedXenon/data_char_object.xxx",
+      "discs": [
+        1,
+        2
+      ],
+      "owner": {
+        "export": 1717,
+        "path": "obj_SiegeCannon_01.MC2PawnInterfaceDataBattle_SiegeGun_0.YM.MC2BattleYupa_0",
+        "class_path": "MC2Game.MC2BattleYupa",
+        "relative_offset": 28
+      },
+      "field": "StyleName",
+      "value_sha256": "45cb967dc7f41ef0472513269b6a941a4aa87428ec60655a93c916a78efe832c",
+      "package_sha256": "5066fe04a028b1ff7ea7c8f14b8416fc2f0d4ecffc9940c2eb9ddd2b07561017",
+      "kind": "tagged-string",
+      "full_object_parse_verified": true,
+      "runtime_translation_verified": false,
+      "disposition": "localized",
+      "translation": "大炮",
+      "action": "Equal-length UTF16LE StrProperty edit; all aliases and both memberships preserved."
+    },
+    {
+      "id": "package-string:a98ca1cb31e78d204091183f22f50248918fa74a73c1fadfad12326a90257f11",
+      "resource": "MC2Game/CookedXenon/data_char_object.xxx",
+      "discs": [
+        1,
+        2
+      ],
+      "owner": {
+        "export": 1822,
+        "path": "obj_NoTarget_Maksa",
+        "class_path": "MC2Game.MC2Pawn",
+        "relative_offset": 84
+      },
+      "field": "PlayerName",
+      "value_sha256": "7287696b0c2e8466ee3df66ac795c653e1fd72bc064d2e8b4b5a759661517b5a",
+      "package_sha256": "5066fe04a028b1ff7ea7c8f14b8416fc2f0d4ecffc9940c2eb9ddd2b07561017",
+      "kind": "tagged-string",
+      "full_object_parse_verified": true,
+      "runtime_translation_verified": false,
+      "disposition": "preserved-identity-bearing-field",
+      "action": "Keep original identifier. MC2Party.GetPartyPawnByName, MC2Pawn.LoadBattleVoice and name-tag key composition consume PlayerName; never globally substitute display-like Korean identifiers."
+    },
+    {
+      "id": "package-string:adc9944231867c93e49b0835737f054925070d12792cb6db527fa3e56c50cbbf",
+      "resource": "MC2Game/CookedXenon/Dunan_Monster04_BGA01_S.xxx",
+      "discs": [
+        1
+      ],
+      "owner": {
+        "export": 505,
+        "path": "data_char_object.obj_NoTarget_Maksa",
+        "class_path": "MC2Game.MC2Pawn",
+        "relative_offset": 84
+      },
+      "field": "PlayerName",
+      "value_sha256": "7287696b0c2e8466ee3df66ac795c653e1fd72bc064d2e8b4b5a759661517b5a",
+      "package_sha256": "3dc7184e69e404118d74e4f32549ca3d04397ca0779d5a736cf3b234ca138026",
+      "kind": "tagged-string",
+      "full_object_parse_verified": true,
+      "runtime_translation_verified": false,
+      "disposition": "preserved-identity-bearing-field",
+      "action": "Keep original identifier. MC2Party.GetPartyPawnByName, MC2Pawn.LoadBattleVoice and name-tag key composition consume PlayerName; never globally substitute display-like Korean identifiers."
+    },
+    {
+      "id": "package-string:ff78adaaadd095eb5e92cb1200eba31c757cf7d22c99f56b015a0682cd0d8ef3",
+      "resource": "MC2Game/CookedXenon/Dunan_Monster04_BGA01_S.xxx",
+      "discs": [
+        1
+      ],
+      "owner": {
+        "export": 1689,
+        "path": "data_char_object.obj_SiegeCannon_01.MC2PawnInterfaceDataBattle_SiegeGun_0.YM.MC2BattleYupa_0",
+        "class_path": "MC2Game.MC2BattleYupa",
+        "relative_offset": 28
+      },
+      "field": "StyleName",
+      "value_sha256": "45cb967dc7f41ef0472513269b6a941a4aa87428ec60655a93c916a78efe832c",
+      "package_sha256": "3dc7184e69e404118d74e4f32549ca3d04397ca0779d5a736cf3b234ca138026",
+      "kind": "tagged-string",
+      "full_object_parse_verified": true,
+      "runtime_translation_verified": false,
+      "disposition": "localized",
+      "translation": "大炮",
+      "action": "Equal-length UTF16LE StrProperty edit; all aliases and both memberships preserved."
+    },
+    {
+      "id": "package-string:ac1e072b54aafd6bf26f364a4b8f1e0b9d7d06b31a797553b507e3b82f215d01",
+      "resource": "MC2Game/CookedXenon/Dunan_Monster04_BGA02_S.xxx",
+      "discs": [
+        1
+      ],
+      "owner": {
+        "export": 2234,
+        "path": "data_char_object.obj_SiegeCannon_01.MC2PawnInterfaceDataBattle_SiegeGun_0.YM.MC2BattleYupa_0",
+        "class_path": "MC2Game.MC2BattleYupa",
+        "relative_offset": 28
+      },
+      "field": "StyleName",
+      "value_sha256": "45cb967dc7f41ef0472513269b6a941a4aa87428ec60655a93c916a78efe832c",
+      "package_sha256": "20e1769463e3ef0f080ef76c976f512b39d2984e21bfd1ccc0557b42f3fab1ca",
+      "kind": "tagged-string",
+      "full_object_parse_verified": true,
+      "runtime_translation_verified": false,
+      "disposition": "localized",
+      "translation": "大炮",
+      "action": "Equal-length UTF16LE StrProperty edit; all aliases and both memberships preserved."
+    },
+    {
+      "id": "package-string:f704ac7467b46f3c7d364a0b7de06bf81fdce7e2ef66ade2aabd9b1c1e61a013",
+      "resource": "MC2Game/CookedXenon/Dunan_Monster04_BGA03_S.xxx",
+      "discs": [
+        1
+      ],
+      "owner": {
+        "export": 3008,
+        "path": "data_char_object.obj_SiegeCannon_01.MC2PawnInterfaceDataBattle_SiegeGun_0.YM.MC2BattleYupa_0",
+        "class_path": "MC2Game.MC2BattleYupa",
+        "relative_offset": 28
+      },
+      "field": "StyleName",
+      "value_sha256": "45cb967dc7f41ef0472513269b6a941a4aa87428ec60655a93c916a78efe832c",
+      "package_sha256": "a4ec60b1e88bdb4774bccc2f9ba73a706b9643b5c1b7ca064bc4e4aece1c0168",
+      "kind": "tagged-string",
+      "full_object_parse_verified": true,
+      "runtime_translation_verified": false,
+      "disposition": "localized",
+      "translation": "大炮",
+      "action": "Equal-length UTF16LE StrProperty edit; all aliases and both memberships preserved."
+    },
+    {
+      "id": "package-string:eddf46dd5553c260863a559e4c3e91e5a1791b5632e8e0777fe0b6f79fde833d",
+      "resource": "MC2Game/CookedXenon/Oldfox_Mon02_S.xxx",
+      "discs": [
+        1
+      ],
+      "owner": {
+        "export": 1309,
+        "path": "data_char_object.obj_SiegeCannon_01.MC2PawnInterfaceDataBattle_SiegeGun_0.YM.MC2BattleYupa_0",
+        "class_path": "MC2Game.MC2BattleYupa",
+        "relative_offset": 28
+      },
+      "field": "StyleName",
+      "value_sha256": "45cb967dc7f41ef0472513269b6a941a4aa87428ec60655a93c916a78efe832c",
+      "package_sha256": "aeb4a0ff7b05d5028cde649162840d98fe8ae495323922462e4e644c2a214ed3",
+      "kind": "tagged-string",
+      "full_object_parse_verified": true,
+      "runtime_translation_verified": false,
+      "disposition": "localized",
+      "translation": "大炮",
+      "action": "Equal-length UTF16LE StrProperty edit; all aliases and both memberships preserved."
+    },
+    {
+      "id": "package-string:046c82153f9af75d090e5f43b75e94fff7b703350c4d03527a57d24f0ff5772a",
+      "resource": "MC2Game/CookedXenon/Oldfox_Mon03_S.xxx",
+      "discs": [
+        1
+      ],
+      "owner": {
+        "export": 1334,
+        "path": "data_char_object.obj_SiegeCannon_01.MC2PawnInterfaceDataBattle_SiegeGun_0.YM.MC2BattleYupa_0",
+        "class_path": "MC2Game.MC2BattleYupa",
+        "relative_offset": 28
+      },
+      "field": "StyleName",
+      "value_sha256": "45cb967dc7f41ef0472513269b6a941a4aa87428ec60655a93c916a78efe832c",
+      "package_sha256": "572074f43df55f6fe0c0c42c1fb13118e567c3113d8421a54409bf64a77fb0ae",
+      "kind": "tagged-string",
+      "full_object_parse_verified": true,
+      "runtime_translation_verified": false,
+      "disposition": "localized",
+      "translation": "大炮",
+      "action": "Equal-length UTF16LE StrProperty edit; all aliases and both memberships preserved."
+    },
+    {
+      "id": "package-string:4354e1fe7a55e2bb8380830e16b792d7974e23d6fa788b2ccdfa88fdc6bf2417",
+      "resource": "MC2Game/CookedXenon/Oldfox_Mon04_S.xxx",
+      "discs": [
+        1
+      ],
+      "owner": {
+        "export": 1512,
+        "path": "data_char_object.obj_SiegeCannon_01.MC2PawnInterfaceDataBattle_SiegeGun_0.YM.MC2BattleYupa_0",
+        "class_path": "MC2Game.MC2BattleYupa",
+        "relative_offset": 28
+      },
+      "field": "StyleName",
+      "value_sha256": "45cb967dc7f41ef0472513269b6a941a4aa87428ec60655a93c916a78efe832c",
+      "package_sha256": "d0d558a13797d6e9122ce60cde1264ba0325d4a02f9c32aa88e6d2eb732a123e",
+      "kind": "tagged-string",
+      "full_object_parse_verified": true,
+      "runtime_translation_verified": false,
+      "disposition": "localized",
+      "translation": "大炮",
+      "action": "Equal-length UTF16LE StrProperty edit; all aliases and both memberships preserved."
+    },
+    {
+      "id": "package-string:3a25836713eb972c98611598280ad8cac4655442d855400247e131f79c02d5e8",
+      "resource": "MC2Game/CookedXenon/Oldfox_Mon05_S.xxx",
+      "discs": [
+        1
+      ],
+      "owner": {
+        "export": 1296,
+        "path": "data_char_object.obj_SiegeCannon_01.MC2PawnInterfaceDataBattle_SiegeGun_0.YM.MC2BattleYupa_0",
+        "class_path": "MC2Game.MC2BattleYupa",
+        "relative_offset": 28
+      },
+      "field": "StyleName",
+      "value_sha256": "45cb967dc7f41ef0472513269b6a941a4aa87428ec60655a93c916a78efe832c",
+      "package_sha256": "eae9f92eb831c16b7134ebf64d5389a364b3d82a0fd28a93c2b90f739715f34c",
+      "kind": "tagged-string",
+      "full_object_parse_verified": true,
+      "runtime_translation_verified": false,
+      "disposition": "localized",
+      "translation": "大炮",
+      "action": "Equal-length UTF16LE StrProperty edit; all aliases and both memberships preserved."
+    },
+    {
+      "id": "package-string:47f20a3b6980aaa9289dafb0a85be8122c0f8b205ee83e72c7c3cdb3014e8d56",
+      "resource": "MC2Game/CookedXenon/Startup_int.xxx",
+      "discs": [
+        1,
+        2
+      ],
+      "owner": {
+        "export": 443,
+        "path": "data_item.etc.CureSeed",
+        "class_path": "MC2Game.MC2Item",
+        "relative_offset": 56
+      },
+      "field": "ItemName",
+      "value_sha256": "a9659f8b8d6103d8566c48865df15d5a64591816445faf1067ba358234363aff",
+      "package_sha256": "089868b8120f382c22e71329530824e97f03d6c8fb37681a39224dd4fc89c91e",
+      "kind": "tagged-string",
+      "full_object_parse_verified": true,
+      "runtime_translation_verified": false,
+      "disposition": "pending-test-data-consumer",
+      "action": "Preserve source; ItemName/Subject have lookup or comparison roles. Test path alone does not prove unreachable. Do not replace source identities or compress descriptions to fixed length.",
+      "next_check": "CureSeed/HealLeaf: MC2PlayerController.AddItem contains exact load paths (flags 0x20202); follow its activation and item UI. Ice_Hat/throw_stone/testquest: complete serialized object reference/dynamic-load graph and actual UI path remain unverified."
+    },
+    {
+      "id": "package-string:35f716721642d0aea6ead736c98d15020170d6b937d0316a9048021d5c13549c",
+      "resource": "MC2Game/CookedXenon/Startup_int.xxx",
+      "discs": [
+        1,
+        2
+      ],
+      "owner": {
+        "export": 443,
+        "path": "data_item.etc.CureSeed",
+        "class_path": "MC2Game.MC2Item",
+        "relative_offset": 96
+      },
+      "field": "Description",
+      "value_sha256": "b05d01031f48bc27f8acf69b32a708ac33663b0abc97027f0ab93faa2f944472",
+      "package_sha256": "089868b8120f382c22e71329530824e97f03d6c8fb37681a39224dd4fc89c91e",
+      "kind": "tagged-string",
+      "full_object_parse_verified": true,
+      "runtime_translation_verified": false,
+      "disposition": "pending-test-data-consumer",
+      "action": "Preserve source; ItemName/Subject have lookup or comparison roles. Test path alone does not prove unreachable. Do not replace source identities or compress descriptions to fixed length.",
+      "next_check": "CureSeed/HealLeaf: MC2PlayerController.AddItem contains exact load paths (flags 0x20202); follow its activation and item UI. Ice_Hat/throw_stone/testquest: complete serialized object reference/dynamic-load graph and actual UI path remain unverified."
+    },
+    {
+      "id": "package-string:ed82dc3c72b42b35a6f91b17e8ddd2f44a75e529d27764c2d9c0b82ad0a6a4a9",
+      "resource": "MC2Game/CookedXenon/Startup_int.xxx",
+      "discs": [
+        1,
+        2
+      ],
+      "owner": {
+        "export": 444,
+        "path": "data_item.etc.HealLeaf",
+        "class_path": "MC2Game.MC2Item",
+        "relative_offset": 28
+      },
+      "field": "ItemName",
+      "value_sha256": "211b1540c0de28159b76e3426bf28f0e641a26f51837979ee3f50671375ef9df",
+      "package_sha256": "089868b8120f382c22e71329530824e97f03d6c8fb37681a39224dd4fc89c91e",
+      "kind": "tagged-string",
+      "full_object_parse_verified": true,
+      "runtime_translation_verified": false,
+      "disposition": "pending-test-data-consumer",
+      "action": "Preserve source; ItemName/Subject have lookup or comparison roles. Test path alone does not prove unreachable. Do not replace source identities or compress descriptions to fixed length.",
+      "next_check": "CureSeed/HealLeaf: MC2PlayerController.AddItem contains exact load paths (flags 0x20202); follow its activation and item UI. Ice_Hat/throw_stone/testquest: complete serialized object reference/dynamic-load graph and actual UI path remain unverified."
+    },
+    {
+      "id": "package-string:878d94d4128b8b8800dffafa8c9f3d42cb0eb914d0b0a1d5867c098793750641",
+      "resource": "MC2Game/CookedXenon/Startup_int.xxx",
+      "discs": [
+        1,
+        2
+      ],
+      "owner": {
+        "export": 444,
+        "path": "data_item.etc.HealLeaf",
+        "class_path": "MC2Game.MC2Item",
+        "relative_offset": 66
+      },
+      "field": "Description",
+      "value_sha256": "7a2bb4501330a644d0da951b687107394f02215aa9070a6636e42cbbcd48d9a1",
+      "package_sha256": "089868b8120f382c22e71329530824e97f03d6c8fb37681a39224dd4fc89c91e",
+      "kind": "tagged-string",
+      "full_object_parse_verified": true,
+      "runtime_translation_verified": false,
+      "disposition": "pending-test-data-consumer",
+      "action": "Preserve source; ItemName/Subject have lookup or comparison roles. Test path alone does not prove unreachable. Do not replace source identities or compress descriptions to fixed length.",
+      "next_check": "CureSeed/HealLeaf: MC2PlayerController.AddItem contains exact load paths (flags 0x20202); follow its activation and item UI. Ice_Hat/throw_stone/testquest: complete serialized object reference/dynamic-load graph and actual UI path remain unverified."
+    },
+    {
+      "id": "package-string:997249ab92d31252bdcff890ee74b1bace4313cb89aa8f182de9212b86d53898",
+      "resource": "MC2Game/CookedXenon/Startup_int.xxx",
+      "discs": [
+        1,
+        2
+      ],
+      "owner": {
+        "export": 483,
+        "path": "data_item.Test.Ice_Hat",
+        "class_path": "MC2Game.MC2Item",
+        "relative_offset": 64
+      },
+      "field": "Description",
+      "value_sha256": "6996621a5dcfa6582d57e90e2539cc86aab2f8f6ff7d9d153664ddafcfd58559",
+      "package_sha256": "089868b8120f382c22e71329530824e97f03d6c8fb37681a39224dd4fc89c91e",
+      "kind": "tagged-string",
+      "full_object_parse_verified": true,
+      "runtime_translation_verified": false,
+      "disposition": "pending-test-data-consumer",
+      "action": "Preserve source; ItemName/Subject have lookup or comparison roles. Test path alone does not prove unreachable. Do not replace source identities or compress descriptions to fixed length.",
+      "next_check": "CureSeed/HealLeaf: MC2PlayerController.AddItem contains exact load paths (flags 0x20202); follow its activation and item UI. Ice_Hat/throw_stone/testquest: complete serialized object reference/dynamic-load graph and actual UI path remain unverified."
+    },
+    {
+      "id": "package-string:8590a0cef79afd3714e1f312073c105b87f7c39fa7685da00cb8088fcf686346",
+      "resource": "MC2Game/CookedXenon/Startup_int.xxx",
+      "discs": [
+        1,
+        2
+      ],
+      "owner": {
+        "export": 491,
+        "path": "data_item.Test.throw_stone",
+        "class_path": "MC2Game.MC2Item",
+        "relative_offset": 28
+      },
+      "field": "Description",
+      "value_sha256": "687b61fd6a1e98cc04179739dfc2b0ae5e1c60b8a53b5ea0651d7fa7ca1ab016",
+      "package_sha256": "089868b8120f382c22e71329530824e97f03d6c8fb37681a39224dd4fc89c91e",
+      "kind": "tagged-string",
+      "full_object_parse_verified": true,
+      "runtime_translation_verified": false,
+      "disposition": "pending-test-data-consumer",
+      "action": "Preserve source; ItemName/Subject have lookup or comparison roles. Test path alone does not prove unreachable. Do not replace source identities or compress descriptions to fixed length.",
+      "next_check": "CureSeed/HealLeaf: MC2PlayerController.AddItem contains exact load paths (flags 0x20202); follow its activation and item UI. Ice_Hat/throw_stone/testquest: complete serialized object reference/dynamic-load graph and actual UI path remain unverified."
+    },
+    {
+      "id": "package-string:b7355237f4e7635631491b428b8cc8b2e401f7adcea27a6570abacd020c55ff5",
+      "resource": "MC2Game/CookedXenon/Startup_int.xxx",
+      "discs": [
+        1,
+        2
+      ],
+      "owner": {
+        "export": 1306,
+        "path": "data_quest.Test.testquest",
+        "class_path": "MC2Game.MC2Quest",
+        "relative_offset": 56
+      },
+      "field": "Subject",
+      "value_sha256": "04429512052a2703ee991f11a4c54e1b4f9f09f977315a99cc7020e0ec5c8518",
+      "package_sha256": "089868b8120f382c22e71329530824e97f03d6c8fb37681a39224dd4fc89c91e",
+      "kind": "tagged-string",
+      "full_object_parse_verified": true,
+      "runtime_translation_verified": false,
+      "disposition": "pending-test-data-consumer",
+      "action": "Preserve source; ItemName/Subject have lookup or comparison roles. Test path alone does not prove unreachable. Do not replace source identities or compress descriptions to fixed length.",
+      "next_check": "CureSeed/HealLeaf: MC2PlayerController.AddItem contains exact load paths (flags 0x20202); follow its activation and item UI. Ice_Hat/throw_stone/testquest: complete serialized object reference/dynamic-load graph and actual UI path remain unverified."
+    },
+    {
+      "id": "package-string:f0e9ee737bd88391be3da17277e38329284c6799f89257ff211190e6fe028a32",
+      "resource": "MC2Game/CookedXenon/Startup_int.xxx",
+      "discs": [
+        1,
+        2
+      ],
+      "owner": {
+        "export": 1306,
+        "path": "data_quest.Test.testquest",
+        "class_path": "MC2Game.MC2Quest",
+        "relative_offset": 98
+      },
+      "field": "Description",
+      "value_sha256": "8cd21aa06033047195d790f28fff176ae1dcfe7367667899fbc0b1bfea171fa4",
+      "package_sha256": "089868b8120f382c22e71329530824e97f03d6c8fb37681a39224dd4fc89c91e",
+      "kind": "tagged-string",
+      "full_object_parse_verified": true,
+      "runtime_translation_verified": false,
+      "disposition": "pending-test-data-consumer",
+      "action": "Preserve source; ItemName/Subject have lookup or comparison roles. Test path alone does not prove unreachable. Do not replace source identities or compress descriptions to fixed length.",
+      "next_check": "CureSeed/HealLeaf: MC2PlayerController.AddItem contains exact load paths (flags 0x20202); follow its activation and item UI. Ice_Hat/throw_stone/testquest: complete serialized object reference/dynamic-load graph and actual UI path remain unverified."
+    },
+    {
+      "id": "package-string:29b6b2e20d3953da54fa56c9798374f94e419c2c246facf17097bd0a228d40dd",
+      "resource": "MC2Game/CookedXenon/Startup_int.xxx",
+      "discs": [
+        1,
+        2
+      ],
+      "owner": {
+        "export": 1306,
+        "path": "data_quest.Test.testquest",
+        "class_path": "MC2Game.MC2Quest",
+        "relative_offset": 178
+      },
+      "field": "SpecialReward",
+      "value_sha256": "72ea3d64ace5bc9414498b815d4305c8867b0942a508179e0657ad60d1274daa",
+      "package_sha256": "089868b8120f382c22e71329530824e97f03d6c8fb37681a39224dd4fc89c91e",
+      "kind": "tagged-string",
+      "full_object_parse_verified": true,
+      "runtime_translation_verified": false,
+      "disposition": "pending-test-data-consumer",
+      "action": "Preserve source; ItemName/Subject have lookup or comparison roles. Test path alone does not prove unreachable. Do not replace source identities or compress descriptions to fixed length.",
+      "next_check": "CureSeed/HealLeaf: MC2PlayerController.AddItem contains exact load paths (flags 0x20202); follow its activation and item UI. Ice_Hat/throw_stone/testquest: complete serialized object reference/dynamic-load graph and actual UI path remain unverified."
+    },
+    {
+      "id": "package-string:5d787c1df8d741370e8d94116a9575c31ee1d7281eb763e8badf826699fde663",
+      "resource": "MC2Game/CookedXenon/Lastrada_Mon_Schauenzeit.xxx",
+      "discs": [
+        2
+      ],
+      "owner": {
+        "export": 2594,
+        "path": "data_char_Sent_Schauenzeit.obj_Sent_Schaun_Rail",
+        "class_path": "MC2Game.MC2Pawn",
+        "relative_offset": 140
+      },
+      "field": "PlayerName",
+      "value_sha256": "c91f5b2097e3dff6c37d11356cc7286855a6378ccf0c0455b7114649d33d5b2a",
+      "package_sha256": "92144d6c5b764dbfc53c5241971112fea4eb03c0c6fcfd0cfa00fea37b8c829a",
+      "kind": "tagged-string",
+      "full_object_parse_verified": true,
+      "runtime_translation_verified": false,
+      "disposition": "preserved-identity-bearing-field",
+      "action": "Keep original identifier. MC2Party.GetPartyPawnByName, MC2Pawn.LoadBattleVoice and name-tag key composition consume PlayerName; never globally substitute display-like Korean identifiers."
+    }
+  ],
+  "native_quest_template_proof": {
+    "image_sha256": "d18d49fb2960426715ba17d61d069cce42b1eadac153af13c9395cd42b1773e9",
+    "coalesced_sha256": "8671b08e5bd4732aad15729d44d8832778a06684980efd8b5776dd071b8fa79a",
+    "function_chain": [
+      "0x82320ed8",
+      "0x82d2f358",
+      "0x82d2f1e0",
+      "0x82357a80",
+      "0x8238dfc8",
+      "0x82870b78",
+      "0x82870a48",
+      "0x82872f18"
+    ],
+    "constructor": "0x823584f8",
+    "vtable": "0x821328a8",
+    "method_offset": "0x290",
+    "transition_table_address": "0x82001c88",
+    "transition_table_sha256": "acf0c21c6d2cc2f1d171821e9eb139e9a6f76a53d86716bbc798be1f0b1d4474",
+    "table_hex": "060000060001000010000306000602100445454505050505053530005000000000282038505807080037303057500700002020080000000008606860606060000078707878787808070800000700080808000008000800070800000000000000",
+    "formatter_sha256": "0767de54e0559274d90da5d84fff69fca3f359538634934f9fd9e4b7f54a2a90",
+    "copy_branch": [
+      "0x82873224",
+      "0x8287323c"
+    ],
+    "character_writer_sha256": "f7837ade9f5919e82e4f324691e5098f606e9852a499d1e3328f33f96d4499b5",
+    "next_character": "0x82873928",
+    "argument_register": "r24",
+    "game_started": false,
+    "claim_limit": "Only these 27 current fully localized no-substitution templates. A changed template invalidates this disposition."
+  },
+  "reference_scan": {
+    "unique_packages": 2551,
+    "package_memberships": 4145,
+    "unknown_packages": 0,
+    "scope": "UTF8/UTF16 literal query; no dynamic reachability or visual completeness inference"
+  },
+  "remaining_coverage": [
+    "3 malformed MC2Game.int fields",
+    "9 Startup_int test-data fields",
+    "opaque Core.int document retained by strict gate",
+    "198 script-token and 443 untyped-byte candidates from phase366 remain untyped",
+    "13 resident plus 10 historical undecoded visual objects; 31 English defaults; 39 native payloads and 15 metadata profiles",
+    "independent chapter-card UI-20261107-02 not identified by this inscription repair"
+  ]
+}

@@ -1,3 +1,5 @@
+> 阶段367 Verified：等长wide StrProperty修改profile仅支持BE未压缩包、offset4非stack/CDO、完整对象tagged解析；BE负长度计UTF16单元且含NUL，字符载荷为LE。只改已锁定对象/类/array_index/旧新payload SHA的字段，反向逐字节相同；见[实现及合同](PHASE_367_RESIDUAL_REPAIRS.md)。
+
 > 阶段330：timed-subtitle条目可显式提供仅针对`<br>`的`break_policy`与前后次数，反向重建交换次数并保持时码/clear事件；UE3标量字段补丁按导出payload SHA、嵌套tag路径、array_index和精确旧/新字节守护。见 [文本](PHASE_330_TEXT_LAYOUT.md) / [UI字段](PHASE_330_UI_CONSUMERS.md)。
 
 > 阶段364 Verified：已复核的StrProperty负长度FString使用BE signed长度＋UTF-16LE字符载荷（包含NUL），不能由Xbox平台BE推断字符载荷也BE。原生offset／长度／最小18字节样本和独立范围证明见 [遗漏筛查](PHASE_364_OMISSION_SCREEN.md)。这是已检查的类型字段结论，不推广到全部原生载荷或脚本UnicodeConst；StyleGraph旧BE显示不适合作为“无韩文”的证据。

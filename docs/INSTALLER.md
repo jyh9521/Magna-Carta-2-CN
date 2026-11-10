@@ -2,6 +2,10 @@
 
 ## 当前交付
 
+2026-11-11同名v1.0已纳入[阶段367碑文／残留修复](PHASE_367_RESIDUAL_REPAIRS.md)，
+当前EXE SHA256为 `f32ffaeeaae8e9c303f42c153eedbe2d21a68bbab556618abdbae39a094b330c`。
+含双盘1044资源及2项DLC；以下较早阶段说明属于累计构建历史，不代表同名旧EXE已自动更新。
+
 Windows 10/11 x64 离线单文件图形安装器，Flutter Material Design 3。
 直接运行 `MC2-CN-v1.0.exe`；无需另装 Python、Flutter、VC++ 或 ZArchive，也不请求管理员权限。
 运行时临时展开内置组件，正常关闭后清理；详细构建、自检和 UI 契约见

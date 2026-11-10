@@ -1,9 +1,12 @@
 """Self-authored source/target resources; no original game text fixtures."""
 import copy
+from contextlib import redirect_stdout
+from io import StringIO
 import json
 from pathlib import Path
 import tempfile
 import unittest
+from unittest.mock import patch
 
 from tools.audit_text_residuals import digest,locked,main,paired_rows,policy_tables,prefix_matches,screen
 from tools.coalesced import serialize,extract_entries,parse
@@ -29,7 +32,8 @@ class ResidualScreenTests(unittest.TestCase):
         with tempfile.TemporaryDirectory() as temp:
             r=screen(self.inputs(Path(temp)),policy(),temp)
             self.assertEqual(r['summary'],dict(primary_fields=2,subtitle_cues=0,script_residuals=1,
-                classified_residuals=0,prefix_gaps=1,unclassified=1))
+                classified_residuals=0,prefix_gaps=1,unclassified=1,pending=0,excluded=0,
+                confirmed_player_gaps=0,unresolved=2,opaque_primary_documents=0))
             self.assertFalse(r['game_rendering_verified'])
             self.assertFalse(r['complete_language_coverage_claimed'])
 
@@ -135,4 +139,155 @@ class ResidualScreenTests(unittest.TestCase):
             self.assertEqual(main(args),1);self.assertTrue((root/'report.json').is_file())
             before=(root/'report.json').read_bytes();self.assertEqual(main(args),2)
             self.assertEqual((root/'report.json').read_bytes(),before)
+
+    def disposition(self,root,status='pending'):
+        row=extract_entries(parse((root/'a.bin').read_bytes()),'fixture.int')[0]
+        result=dict(resource='fixture.int',id=row['id'],discs=[1,2],
+            value_sha256=digest(row['source'].encode()),classification='self-authored-review',
+            status=status,evidence='self-authored-test')
+        if status=='confirmed-player-gap':
+            result['runtime_observation']=dict(kind='user-supplied-screenshot',
+                source_path='external/self-authored-capture.png',sha256='a'*64)
+        return result
+
+    def test_known_pending_is_unresolved_even_when_every_residual_is_classified(self):
+        with tempfile.TemporaryDirectory() as temp:
+            root=Path(temp);inputs=self.inputs(root,'[Demo]\nText=원본\n');p=policy()
+            p['known_dispositions']=[self.disposition(root)]
+            result=screen(inputs,p,root)
+            self.assertEqual(result['summary']['unclassified'],0)
+            self.assertEqual(result['summary']['pending'],1)
+            self.assertEqual(result['summary']['excluded'],0)
+            self.assertEqual(result['summary']['unresolved'],1)
+
+    def test_observed_player_gap_keeps_external_evidence_without_claiming_image_validation(self):
+        with tempfile.TemporaryDirectory() as temp:
+            root=Path(temp);inputs=self.inputs(root,'[Demo]\nText=원본\n');p=policy()
+            d=self.disposition(root,'confirmed-player-gap');p['known_dispositions']=[d]
+            original_open=Path.open
+            def guarded_open(path,*args,**kwargs):
+                self.assertNotEqual(path.as_posix(),d['runtime_observation']['source_path'])
+                return original_open(path,*args,**kwargs)
+            with patch.object(Path,'open',guarded_open):result=screen(inputs,p,root)
+            finding=result['findings'][0]
+            self.assertEqual(result['summary']['confirmed_player_gaps'],1)
+            self.assertEqual(result['summary']['unresolved'],1)
+            self.assertTrue(finding['runtime_display_observed'])
+            self.assertEqual(finding['runtime_observation'],d['runtime_observation'])
+            self.assertFalse(finding['runtime_observation_semantics_verified'])
+            self.assertFalse(result['game_rendering_verified'])
+            self.assertFalse(result['game_started'])
+
+    def test_confirmed_gap_requires_valid_observation_metadata_and_disc_evidence_agreement(self):
+        with tempfile.TemporaryDirectory() as temp:
+            root=Path(temp);inputs=self.inputs(root,'[Demo]\nText=원본\n')
+            d=self.disposition(root,'confirmed-player-gap')
+            variants=[None,{},dict(d['runtime_observation'],sha256='0'*63),
+                dict(d['runtime_observation'],source_path=''),
+                dict(d['runtime_observation'],source_path='bad\x00path'),
+                dict(d['runtime_observation'],kind='')]
+            for observation in variants:
+                p=policy();bad=copy.deepcopy(d)
+                if observation is None:bad.pop('runtime_observation')
+                else:bad['runtime_observation']=observation
+                p['known_dispositions']=[bad]
+                with self.subTest(observation=observation),self.assertRaises(ValueError):screen(inputs,p,root)
+            a=copy.deepcopy(d);b=copy.deepcopy(d);a['discs']=[1];b['discs']=[2]
+            b['runtime_observation']['sha256']='b'*64;p=policy();p['known_dispositions']=[a,b]
+            with self.assertRaisesRegex(ValueError,'Conflicting grouped dispositions'):screen(inputs,p,root)
+
+    def test_unresolved_counts_unique_findings_not_script_and_prefix_twice(self):
+        with tempfile.TemporaryDirectory() as temp:
+            result=screen(self.inputs(Path(temp),'[Demo]\nText=Quest: 원본\n'),policy(),temp)
+            self.assertEqual(result['summary']['script_residuals'],1)
+            self.assertEqual(result['summary']['prefix_gaps'],1)
+            self.assertEqual(result['summary']['unresolved'],1)
+
+    def test_explicit_observed_gap_is_not_hidden_by_script_ranges_or_prefix_overlap(self):
+        for value,prefix in [('self-authored foreign text',0),('Quest: 원본',1)]:
+            with self.subTest(value=value),tempfile.TemporaryDirectory() as temp:
+                root=Path(temp);inputs=self.inputs(root,'[Demo]\nText='+value+'\n');p=policy()
+                p['known_dispositions']=[self.disposition(root,'confirmed-player-gap')]
+                result=screen(inputs,p,root)
+                self.assertEqual(result['summary']['confirmed_player_gaps'],1)
+                self.assertEqual(result['summary']['prefix_gaps'],prefix)
+                self.assertEqual(result['summary']['unresolved'],1)
+
+    def test_observation_metadata_does_not_silently_promote_a_pending_decision(self):
+        with tempfile.TemporaryDirectory() as temp:
+            root=Path(temp);inputs=self.inputs(root,'[Demo]\nText=원본\n');p=policy()
+            d=self.disposition(root,'confirmed-player-gap');d['status']='pending'
+            p['known_dispositions']=[d];result=screen(inputs,p,root)
+            self.assertEqual(result['summary']['pending'],1)
+            self.assertEqual(result['summary']['confirmed_player_gaps'],0)
+            self.assertEqual(result['summary']['unresolved'],1)
+
+    def test_legacy_runtime_display_flag_is_boolean_and_matches_observation(self):
+        cases=[(False,False,True),(True,True,True),(False,True,False),(True,False,False),
+               (None,False,False),(0,False,False),(1,True,False),
+               ('false',False,False),([],False,False),({},False,False)]
+        with tempfile.TemporaryDirectory() as temp:
+            root=Path(temp);inputs=self.inputs(root,'[Demo]\nText=원본\n')
+            for flag,observed,valid in cases:
+                with self.subTest(flag=flag,observed=observed):
+                    d=self.disposition(root,'confirmed-player-gap' if observed else 'pending')
+                    d['runtime_display_observed']=flag;p=policy();p['known_dispositions']=[d]
+                    if valid:
+                        result=screen(inputs,p,root)
+                        self.assertIs(result['findings'][0]['runtime_display_observed'],observed)
+                    else:
+                        with self.assertRaisesRegex(ValueError,'Runtime display flag'):
+                            screen(inputs,p,root)
+
+    def test_no_script_dispositions_still_report_pending_or_preserved_status(self):
+        for status in ('pending','excluded'):
+            with self.subTest(status=status),tempfile.TemporaryDirectory() as temp:
+                root=Path(temp);inputs=self.inputs(root,'[Demo]\nText=ASCII source\n');p=policy()
+                p['known_dispositions']=[self.disposition(root,status)];result=screen(inputs,p,root)
+                self.assertEqual(result['summary']['script_residuals'],0)
+                self.assertEqual(result['summary'][status],1)
+                self.assertEqual(result['summary']['unresolved'],int(status=='pending'))
+                self.assertEqual(result['findings'][0]['status'],status)
+
+    def test_opaque_primary_document_blocks_resolution_not_legacy_classification(self):
+        for role,flag,expected in [('primary','--require-resolved',1),
+                ('primary','--require-classified',0),('alternate-locale','--require-resolved',0)]:
+            with self.subTest(role=role,flag=flag),tempfile.TemporaryDirectory() as temp:
+                root=Path(temp);inputs=self.inputs(root);raw=serialize(fixture('\xa9','opaque-8bit'))
+                for phase,name in [('original','a.bin'),('effective','b.bin')]:
+                    (root/name).write_bytes(raw);inputs['resources'][0][phase]['sha256']=digest(raw)
+                inputs['resources'][0]['role']=role;p=policy();result=screen(inputs,p,root)
+                self.assertEqual(result['summary']['unresolved'],0)
+                self.assertEqual(result['summary']['opaque_primary_documents'],int(role=='primary'))
+                for name,value in [('inputs.json',inputs),('policy.json',p)]:
+                    (root/name).write_text(json.dumps(value),encoding='utf8')
+                args=['--inputs',str(root/'inputs.json'),'--inputs-sha256',digest((root/'inputs.json').read_bytes()),
+                    '--policy',str(root/'policy.json'),'--policy-sha256',digest((root/'policy.json').read_bytes()),
+                    '--project-root',str(root),'--output',str(root/'report.json'),flag]
+                output=StringIO()
+                with redirect_stdout(output):self.assertEqual(main(args),expected)
+                verdict='CLASSIFIED' if flag=='--require-classified' else 'UNRESOLVED' if expected else 'RESOLVED'
+                self.assertIn('RESULT='+verdict,output.getvalue())
+
+    def test_resolution_gate_exit_codes_and_classification_compatibility(self):
+        cases=[('unclassified',True,1),('pending',True,1),('confirmed-player-gap',True,1),
+               ('prefix',True,1),('excluded',True,0),('clean',True,0),
+               ('pending',False,0),('confirmed-player-gap',False,0)]
+        for status,resolution_gate,expected in cases:
+            with self.subTest(status=status,resolution_gate=resolution_gate),tempfile.TemporaryDirectory() as temp:
+                root=Path(temp);text='Quest: 自制' if status=='prefix' else '自制' if status=='clean' else '원본'
+                inputs=self.inputs(root,'[Demo]\nText='+text+'\n');p=policy()
+                if status in ('pending','excluded','confirmed-player-gap'):
+                    p['known_dispositions']=[self.disposition(root,status)]
+                for name,value in [('inputs.json',inputs),('policy.json',p)]:
+                    (root/name).write_text(json.dumps(value),encoding='utf8')
+                args=['--inputs',str(root/'inputs.json'),'--inputs-sha256',digest((root/'inputs.json').read_bytes()),
+                    '--policy',str(root/'policy.json'),'--policy-sha256',digest((root/'policy.json').read_bytes()),
+                    '--project-root',str(root),'--output',str(root/'report.json'),
+                    '--require-resolved' if resolution_gate else '--require-classified']
+                output=StringIO()
+                with redirect_stdout(output):self.assertEqual(main(args),expected)
+                if resolution_gate:
+                    self.assertIn('RESULT='+('UNRESOLVED' if expected else 'RESOLVED'),output.getvalue())
+                else:self.assertIn('RESULT=CLASSIFIED',output.getvalue())
 

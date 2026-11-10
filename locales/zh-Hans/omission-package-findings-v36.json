@@ -1,0 +1,2202 @@
+{
+  "schema_version": 1,
+  "kind": "effective-package-text-findings",
+  "locale": "zh-Hans",
+  "source_recipe": {
+    "path": "build/phase-365-omission-repair/prepared/recipe.json",
+    "sha256": "f9f80fad31dfd7b90d909504248745aa357dfdcee9c661fc2d3b818701114ff2"
+  },
+  "source_census": {
+    "path": "build/phase-366-residual-audit/packages/census-r2/report.json",
+    "sha256": "aa8e37148a31f2f7b04e3472a238f46bb013b4a374fe2d9a0a22abb3ac466a94"
+  },
+  "source_classification": {
+    "path": "build/phase-366-residual-audit/packages/classification.json",
+    "sha256": "c65a6987c58dc67ece13b199ec2f54730e0343f3e1d8b356dcdba25bd8d7bea9"
+  },
+  "summary": {
+    "logical_candidates": 50,
+    "expanded_disc_membership_fields": 62,
+    "distinct_texts": 15,
+    "distinct_field_value_pairs": 15,
+    "unique_resources": 13,
+    "fields": {
+      "StyleName": 11,
+      "QuestName": 27,
+      "PlayerName": 3,
+      "ItemName": 2,
+      "Description": 5,
+      "Subject": 1,
+      "SpecialReward": 1
+    },
+    "confirmed_runtime_omissions": 0
+  },
+  "findings": [
+    {
+      "id": "package-string:5613511bef9118d58f5ed4e2fd454411146c931e567dfb7dce27b369eaba1b93",
+      "resource": "MC2Game/CookedXenon/ChinookIsland_Monster01_01_S2.xxx",
+      "discs": [
+        1
+      ],
+      "alias_memberships": [
+        {
+          "disc": 1,
+          "resource": "MC2Game/CookedXenon/ChinookIsland_Monster01_01_S2.xxx"
+        }
+      ],
+      "package_sha256": "fb4192f755a0dbaf5112c637b849e731a361a3c02c68c2d2ea8b4e7d4612ebce",
+      "owner": {
+        "export": 1693,
+        "path": "data_char_object.obj_SiegeCannon_01.MC2PawnInterfaceDataBattle_SiegeGun_0.YM.MC2BattleYupa_0",
+        "class_path": "MC2Game.MC2BattleYupa",
+        "relative_offset": 28
+      },
+      "field": "StyleName",
+      "field_name_number": 0,
+      "array_index": 0,
+      "logical_offset": 4659202,
+      "serialized_size": 10,
+      "value": "대포",
+      "value_sha256": "45cb967dc7f41ef0472513269b6a941a4aa87428ec60655a93c916a78efe832c",
+      "serialized_sha256": "f08098829013d691ea606dbc04fd0a279647f6db772d85865c86ae40d3f4abcf",
+      "encoding": "utf-16-le",
+      "adjacent_property_tag": {
+        "name": "StyleName",
+        "name_number": 0,
+        "type": "StrProperty",
+        "array_index": 0,
+        "logical_offset": 4659178,
+        "raw_header_hex": "0000080b0000000000000807000000000000000a00000000"
+      },
+      "status": "pending-consumer-verification",
+      "runtime_display_observed": false,
+      "full_object_parse_verified": false,
+      "evidence_level": "Verified serialized bytes and adjacent StrProperty tag; consumer reachability/meaning pending",
+      "investigation": "Trace actual readers, localization replacement and scene reachability; property names or Test paths alone do not establish visibility or non-use."
+    },
+    {
+      "id": "package-string:b9f940f63dfe8d98f7b64aae6c3cabebde54b9f59191449ab75c5564d04fb926",
+      "resource": "MC2Game/CookedXenon/ChinookIsland_Monster05_01_S.xxx",
+      "discs": [
+        1
+      ],
+      "alias_memberships": [
+        {
+          "disc": 1,
+          "resource": "MC2Game/CookedXenon/ChinookIsland_Monster05_01_S.xxx"
+        }
+      ],
+      "package_sha256": "d7c2a987433c98f12f229f5ca45f740d2cc213adda7992de890ca3a276197e8a",
+      "owner": {
+        "export": 1885,
+        "path": "data_char_object.obj_SiegeCannon_01.MC2PawnInterfaceDataBattle_SiegeGun_0.YM.MC2BattleYupa_0",
+        "class_path": "MC2Game.MC2BattleYupa",
+        "relative_offset": 28
+      },
+      "field": "StyleName",
+      "field_name_number": 0,
+      "array_index": 0,
+      "logical_offset": 6564690,
+      "serialized_size": 10,
+      "value": "대포",
+      "value_sha256": "45cb967dc7f41ef0472513269b6a941a4aa87428ec60655a93c916a78efe832c",
+      "serialized_sha256": "f08098829013d691ea606dbc04fd0a279647f6db772d85865c86ae40d3f4abcf",
+      "encoding": "utf-16-le",
+      "adjacent_property_tag": {
+        "name": "StyleName",
+        "name_number": 0,
+        "type": "StrProperty",
+        "array_index": 0,
+        "logical_offset": 6564666,
+        "raw_header_hex": "0000082c0000000000000828000000000000000a00000000"
+      },
+      "status": "pending-consumer-verification",
+      "runtime_display_observed": false,
+      "full_object_parse_verified": false,
+      "evidence_level": "Verified serialized bytes and adjacent StrProperty tag; consumer reachability/meaning pending",
+      "investigation": "Trace actual readers, localization replacement and scene reachability; property names or Test paths alone do not establish visibility or non-use."
+    },
+    {
+      "id": "package-string:882f297f9a3d6c64faf237cd23a6e956f6efd015236e356b2a2d3e97b2b6c055",
+      "resource": "MC2Game/CookedXenon/CinookIsland_CompTuto_01.xxx",
+      "discs": [
+        1
+      ],
+      "alias_memberships": [
+        {
+          "disc": 1,
+          "resource": "MC2Game/CookedXenon/CinookIsland_CompTuto_01.xxx"
+        }
+      ],
+      "package_sha256": "547a9f75b932f2947f1cf1abc7c2afeb20edbed1c23c445dec1c61eb40530b09",
+      "owner": {
+        "export": 630,
+        "path": "TheWorld.PersistentLevel.Main_Sequence.CSM01_35시작.덫깔기.MC2SeqAct_ShowLogKillMonster_0",
+        "class_path": "MC2Game.MC2SeqAct_ShowLogKillMonster",
+        "relative_offset": 100
+      },
+      "field": "QuestName",
+      "field_name_number": 0,
+      "array_index": 0,
+      "logical_offset": 997001,
+      "serialized_size": 12,
+      "value": "덫깔기",
+      "value_sha256": "ff895e75035f3c09b03525e6b8e5e084c5edb7959d2c74dc28c79cc3542f615b",
+      "serialized_sha256": "2294b7e7a423ed05792b7989623b26067cc37e3541c14db3501de32743ae7f6e",
+      "encoding": "utf-16-le",
+      "adjacent_property_tag": {
+        "name": "QuestName",
+        "name_number": 0,
+        "type": "StrProperty",
+        "array_index": 0,
+        "logical_offset": 996977,
+        "raw_header_hex": "000002f70000000000000357000000000000000c00000000"
+      },
+      "status": "pending-consumer-verification",
+      "runtime_display_observed": false,
+      "full_object_parse_verified": false,
+      "evidence_level": "Verified serialized bytes and adjacent StrProperty tag; consumer reachability/meaning pending",
+      "investigation": "Trace actual readers, localization replacement and scene reachability; property names or Test paths alone do not establish visibility or non-use."
+    },
+    {
+      "id": "package-string:0739592d917a201b6bac54d6f0d79b77151d31699e160570ee28b0ad0a99441e",
+      "resource": "MC2Game/CookedXenon/CinookIsland_CompTuto_01.xxx",
+      "discs": [
+        1
+      ],
+      "alias_memberships": [
+        {
+          "disc": 1,
+          "resource": "MC2Game/CookedXenon/CinookIsland_CompTuto_01.xxx"
+        }
+      ],
+      "package_sha256": "547a9f75b932f2947f1cf1abc7c2afeb20edbed1c23c445dec1c61eb40530b09",
+      "owner": {
+        "export": 631,
+        "path": "TheWorld.PersistentLevel.Main_Sequence.CSM01_35시작.덫깔기.MC2SeqAct_ShowLogKillMonster_1",
+        "class_path": "MC2Game.MC2SeqAct_ShowLogKillMonster",
+        "relative_offset": 100
+      },
+      "field": "QuestName",
+      "field_name_number": 0,
+      "array_index": 0,
+      "logical_offset": 997936,
+      "serialized_size": 12,
+      "value": "덫깔기",
+      "value_sha256": "ff895e75035f3c09b03525e6b8e5e084c5edb7959d2c74dc28c79cc3542f615b",
+      "serialized_sha256": "2294b7e7a423ed05792b7989623b26067cc37e3541c14db3501de32743ae7f6e",
+      "encoding": "utf-16-le",
+      "adjacent_property_tag": {
+        "name": "QuestName",
+        "name_number": 0,
+        "type": "StrProperty",
+        "array_index": 0,
+        "logical_offset": 997912,
+        "raw_header_hex": "000002f70000000000000357000000000000000c00000000"
+      },
+      "status": "pending-consumer-verification",
+      "runtime_display_observed": false,
+      "full_object_parse_verified": false,
+      "evidence_level": "Verified serialized bytes and adjacent StrProperty tag; consumer reachability/meaning pending",
+      "investigation": "Trace actual readers, localization replacement and scene reachability; property names or Test paths alone do not establish visibility or non-use."
+    },
+    {
+      "id": "package-string:7444989707ffe6590354f338e0db8ad5406100705f639d862aa3a049b17aaf2f",
+      "resource": "MC2Game/CookedXenon/CinookIsland_CompTuto_01.xxx",
+      "discs": [
+        1
+      ],
+      "alias_memberships": [
+        {
+          "disc": 1,
+          "resource": "MC2Game/CookedXenon/CinookIsland_CompTuto_01.xxx"
+        }
+      ],
+      "package_sha256": "547a9f75b932f2947f1cf1abc7c2afeb20edbed1c23c445dec1c61eb40530b09",
+      "owner": {
+        "export": 632,
+        "path": "TheWorld.PersistentLevel.Main_Sequence.CSM01_35시작.덫깔기.MC2SeqAct_ShowLogKillMonster_2",
+        "class_path": "MC2Game.MC2SeqAct_ShowLogKillMonster",
+        "relative_offset": 100
+      },
+      "field": "QuestName",
+      "field_name_number": 0,
+      "array_index": 0,
+      "logical_offset": 998807,
+      "serialized_size": 12,
+      "value": "덫깔기",
+      "value_sha256": "ff895e75035f3c09b03525e6b8e5e084c5edb7959d2c74dc28c79cc3542f615b",
+      "serialized_sha256": "2294b7e7a423ed05792b7989623b26067cc37e3541c14db3501de32743ae7f6e",
+      "encoding": "utf-16-le",
+      "adjacent_property_tag": {
+        "name": "QuestName",
+        "name_number": 0,
+        "type": "StrProperty",
+        "array_index": 0,
+        "logical_offset": 998783,
+        "raw_header_hex": "000002f70000000000000357000000000000000c00000000"
+      },
+      "status": "pending-consumer-verification",
+      "runtime_display_observed": false,
+      "full_object_parse_verified": false,
+      "evidence_level": "Verified serialized bytes and adjacent StrProperty tag; consumer reachability/meaning pending",
+      "investigation": "Trace actual readers, localization replacement and scene reachability; property names or Test paths alone do not establish visibility or non-use."
+    },
+    {
+      "id": "package-string:32d8c6d0f6483a9c82c0f18a8d2c16074fcab2b6619684736b0d2767b99a8d82",
+      "resource": "MC2Game/CookedXenon/CinookIsland_CompTuto_01.xxx",
+      "discs": [
+        1
+      ],
+      "alias_memberships": [
+        {
+          "disc": 1,
+          "resource": "MC2Game/CookedXenon/CinookIsland_CompTuto_01.xxx"
+        }
+      ],
+      "package_sha256": "547a9f75b932f2947f1cf1abc7c2afeb20edbed1c23c445dec1c61eb40530b09",
+      "owner": {
+        "export": 633,
+        "path": "TheWorld.PersistentLevel.Main_Sequence.CSM01_35시작.붕대치료.MC2SeqAct_ShowLogKillMonster_0",
+        "class_path": "MC2Game.MC2SeqAct_ShowLogKillMonster",
+        "relative_offset": 100
+      },
+      "field": "QuestName",
+      "field_name_number": 0,
+      "array_index": 0,
+      "logical_offset": 999678,
+      "serialized_size": 14,
+      "value": "응급붕대",
+      "value_sha256": "8ee3e138d43e33b89d50a8b14db14962cc7e381deef3ccfcca5e066cad8de321",
+      "serialized_sha256": "4e0f282afc7d5c8c81bcd2707fb9f939e243c83e5ea9d528dc6084d1e11fbc18",
+      "encoding": "utf-16-le",
+      "adjacent_property_tag": {
+        "name": "QuestName",
+        "name_number": 0,
+        "type": "StrProperty",
+        "array_index": 0,
+        "logical_offset": 999654,
+        "raw_header_hex": "000002f70000000000000357000000000000000e00000000"
+      },
+      "status": "pending-consumer-verification",
+      "runtime_display_observed": false,
+      "full_object_parse_verified": false,
+      "evidence_level": "Verified serialized bytes and adjacent StrProperty tag; consumer reachability/meaning pending",
+      "investigation": "Trace actual readers, localization replacement and scene reachability; property names or Test paths alone do not establish visibility or non-use."
+    },
+    {
+      "id": "package-string:1a60c68eccefda1719f061463ac907186b496fa38f675d3b0d26339835401ab3",
+      "resource": "MC2Game/CookedXenon/CinookIsland_CompTuto_01.xxx",
+      "discs": [
+        1
+      ],
+      "alias_memberships": [
+        {
+          "disc": 1,
+          "resource": "MC2Game/CookedXenon/CinookIsland_CompTuto_01.xxx"
+        }
+      ],
+      "package_sha256": "547a9f75b932f2947f1cf1abc7c2afeb20edbed1c23c445dec1c61eb40530b09",
+      "owner": {
+        "export": 634,
+        "path": "TheWorld.PersistentLevel.Main_Sequence.CSM01_35시작.붕대치료.MC2SeqAct_ShowLogKillMonster_1",
+        "class_path": "MC2Game.MC2SeqAct_ShowLogKillMonster",
+        "relative_offset": 100
+      },
+      "field": "QuestName",
+      "field_name_number": 0,
+      "array_index": 0,
+      "logical_offset": 1000615,
+      "serialized_size": 14,
+      "value": "응급붕대",
+      "value_sha256": "8ee3e138d43e33b89d50a8b14db14962cc7e381deef3ccfcca5e066cad8de321",
+      "serialized_sha256": "4e0f282afc7d5c8c81bcd2707fb9f939e243c83e5ea9d528dc6084d1e11fbc18",
+      "encoding": "utf-16-le",
+      "adjacent_property_tag": {
+        "name": "QuestName",
+        "name_number": 0,
+        "type": "StrProperty",
+        "array_index": 0,
+        "logical_offset": 1000591,
+        "raw_header_hex": "000002f70000000000000357000000000000000e00000000"
+      },
+      "status": "pending-consumer-verification",
+      "runtime_display_observed": false,
+      "full_object_parse_verified": false,
+      "evidence_level": "Verified serialized bytes and adjacent StrProperty tag; consumer reachability/meaning pending",
+      "investigation": "Trace actual readers, localization replacement and scene reachability; property names or Test paths alone do not establish visibility or non-use."
+    },
+    {
+      "id": "package-string:576031665da42adc6e0d0056a60f59f7815f40cab1cc57374fd438c2ab42e64b",
+      "resource": "MC2Game/CookedXenon/CinookIsland_CompTuto_01.xxx",
+      "discs": [
+        1
+      ],
+      "alias_memberships": [
+        {
+          "disc": 1,
+          "resource": "MC2Game/CookedXenon/CinookIsland_CompTuto_01.xxx"
+        }
+      ],
+      "package_sha256": "547a9f75b932f2947f1cf1abc7c2afeb20edbed1c23c445dec1c61eb40530b09",
+      "owner": {
+        "export": 635,
+        "path": "TheWorld.PersistentLevel.Main_Sequence.CSM01_35시작.붕대치료.MC2SeqAct_ShowLogKillMonster_2",
+        "class_path": "MC2Game.MC2SeqAct_ShowLogKillMonster",
+        "relative_offset": 100
+      },
+      "field": "QuestName",
+      "field_name_number": 0,
+      "array_index": 0,
+      "logical_offset": 1001488,
+      "serialized_size": 14,
+      "value": "응급붕대",
+      "value_sha256": "8ee3e138d43e33b89d50a8b14db14962cc7e381deef3ccfcca5e066cad8de321",
+      "serialized_sha256": "4e0f282afc7d5c8c81bcd2707fb9f939e243c83e5ea9d528dc6084d1e11fbc18",
+      "encoding": "utf-16-le",
+      "adjacent_property_tag": {
+        "name": "QuestName",
+        "name_number": 0,
+        "type": "StrProperty",
+        "array_index": 0,
+        "logical_offset": 1001464,
+        "raw_header_hex": "000002f70000000000000357000000000000000e00000000"
+      },
+      "status": "pending-consumer-verification",
+      "runtime_display_observed": false,
+      "full_object_parse_verified": false,
+      "evidence_level": "Verified serialized bytes and adjacent StrProperty tag; consumer reachability/meaning pending",
+      "investigation": "Trace actual readers, localization replacement and scene reachability; property names or Test paths alone do not establish visibility or non-use."
+    },
+    {
+      "id": "package-string:aaff380393c0db8d011f48db2e984b14618ae26c5bbac79f41129cd9c61ad4f1",
+      "resource": "MC2Game/CookedXenon/CinookIsland_CompTuto_01.xxx",
+      "discs": [
+        1
+      ],
+      "alias_memberships": [
+        {
+          "disc": 1,
+          "resource": "MC2Game/CookedXenon/CinookIsland_CompTuto_01.xxx"
+        }
+      ],
+      "package_sha256": "547a9f75b932f2947f1cf1abc7c2afeb20edbed1c23c445dec1c61eb40530b09",
+      "owner": {
+        "export": 636,
+        "path": "TheWorld.PersistentLevel.Main_Sequence.CSM01_35시작.붕대치료.MC2SeqAct_ShowLogKillMonster_3",
+        "class_path": "MC2Game.MC2SeqAct_ShowLogKillMonster",
+        "relative_offset": 100
+      },
+      "field": "QuestName",
+      "field_name_number": 0,
+      "array_index": 0,
+      "logical_offset": 1002361,
+      "serialized_size": 14,
+      "value": "응급붕대",
+      "value_sha256": "8ee3e138d43e33b89d50a8b14db14962cc7e381deef3ccfcca5e066cad8de321",
+      "serialized_sha256": "4e0f282afc7d5c8c81bcd2707fb9f939e243c83e5ea9d528dc6084d1e11fbc18",
+      "encoding": "utf-16-le",
+      "adjacent_property_tag": {
+        "name": "QuestName",
+        "name_number": 0,
+        "type": "StrProperty",
+        "array_index": 0,
+        "logical_offset": 1002337,
+        "raw_header_hex": "000002f70000000000000357000000000000000e00000000"
+      },
+      "status": "pending-consumer-verification",
+      "runtime_display_observed": false,
+      "full_object_parse_verified": false,
+      "evidence_level": "Verified serialized bytes and adjacent StrProperty tag; consumer reachability/meaning pending",
+      "investigation": "Trace actual readers, localization replacement and scene reachability; property names or Test paths alone do not establish visibility or non-use."
+    },
+    {
+      "id": "package-string:53ac075a41d86bee33851b67a49cc9accbfb0abcaeb1f1563ed89e3beedae82b",
+      "resource": "MC2Game/CookedXenon/CinookIsland_CompTuto_01.xxx",
+      "discs": [
+        1
+      ],
+      "alias_memberships": [
+        {
+          "disc": 1,
+          "resource": "MC2Game/CookedXenon/CinookIsland_CompTuto_01.xxx"
+        }
+      ],
+      "package_sha256": "547a9f75b932f2947f1cf1abc7c2afeb20edbed1c23c445dec1c61eb40530b09",
+      "owner": {
+        "export": 637,
+        "path": "TheWorld.PersistentLevel.Main_Sequence.CSM01_35시작.붕대치료.MC2SeqAct_ShowLogKillMonster_4",
+        "class_path": "MC2Game.MC2SeqAct_ShowLogKillMonster",
+        "relative_offset": 100
+      },
+      "field": "QuestName",
+      "field_name_number": 0,
+      "array_index": 0,
+      "logical_offset": 1003234,
+      "serialized_size": 14,
+      "value": "응급붕대",
+      "value_sha256": "8ee3e138d43e33b89d50a8b14db14962cc7e381deef3ccfcca5e066cad8de321",
+      "serialized_sha256": "4e0f282afc7d5c8c81bcd2707fb9f939e243c83e5ea9d528dc6084d1e11fbc18",
+      "encoding": "utf-16-le",
+      "adjacent_property_tag": {
+        "name": "QuestName",
+        "name_number": 0,
+        "type": "StrProperty",
+        "array_index": 0,
+        "logical_offset": 1003210,
+        "raw_header_hex": "000002f70000000000000357000000000000000e00000000"
+      },
+      "status": "pending-consumer-verification",
+      "runtime_display_observed": false,
+      "full_object_parse_verified": false,
+      "evidence_level": "Verified serialized bytes and adjacent StrProperty tag; consumer reachability/meaning pending",
+      "investigation": "Trace actual readers, localization replacement and scene reachability; property names or Test paths alone do not establish visibility or non-use."
+    },
+    {
+      "id": "package-string:cc5b6d88dcc0787fd99a38b8b3cddb149ba001e23127092f0f14bd53c03def8e",
+      "resource": "MC2Game/CookedXenon/CinookIsland_CompTuto_01.xxx",
+      "discs": [
+        1
+      ],
+      "alias_memberships": [
+        {
+          "disc": 1,
+          "resource": "MC2Game/CookedXenon/CinookIsland_CompTuto_01.xxx"
+        }
+      ],
+      "package_sha256": "547a9f75b932f2947f1cf1abc7c2afeb20edbed1c23c445dec1c61eb40530b09",
+      "owner": {
+        "export": 638,
+        "path": "TheWorld.PersistentLevel.Main_Sequence.공성병기파괴하기.MC2SeqAct_ShowLogKillMonster_0",
+        "class_path": "MC2Game.MC2SeqAct_ShowLogKillMonster",
+        "relative_offset": 100
+      },
+      "field": "QuestName",
+      "field_name_number": 0,
+      "array_index": 0,
+      "logical_offset": 1004107,
+      "serialized_size": 16,
+      "value": "북부군처치",
+      "value_sha256": "4b3fe9162c76675cdaeaef986ed56fe444815194b054a4f9097fc4630e608760",
+      "serialized_sha256": "a429802bf5d48e8eba84e5e6573c99825a890d73ed55ef75277f7155399d1d95",
+      "encoding": "utf-16-le",
+      "adjacent_property_tag": {
+        "name": "QuestName",
+        "name_number": 0,
+        "type": "StrProperty",
+        "array_index": 0,
+        "logical_offset": 1004083,
+        "raw_header_hex": "000002f70000000000000357000000000000001000000000"
+      },
+      "status": "pending-consumer-verification",
+      "runtime_display_observed": false,
+      "full_object_parse_verified": false,
+      "evidence_level": "Verified serialized bytes and adjacent StrProperty tag; consumer reachability/meaning pending",
+      "investigation": "Trace actual readers, localization replacement and scene reachability; property names or Test paths alone do not establish visibility or non-use."
+    },
+    {
+      "id": "package-string:d51411eff1b9a6afe8dbd6fd98111d75ad5d471dcc26e76976dcd48b69f4f8e3",
+      "resource": "MC2Game/CookedXenon/CinookIsland_CompTuto_01.xxx",
+      "discs": [
+        1
+      ],
+      "alias_memberships": [
+        {
+          "disc": 1,
+          "resource": "MC2Game/CookedXenon/CinookIsland_CompTuto_01.xxx"
+        }
+      ],
+      "package_sha256": "547a9f75b932f2947f1cf1abc7c2afeb20edbed1c23c445dec1c61eb40530b09",
+      "owner": {
+        "export": 639,
+        "path": "TheWorld.PersistentLevel.Main_Sequence.공성병기파괴하기.MC2SeqAct_ShowLogKillMonster_1",
+        "class_path": "MC2Game.MC2SeqAct_ShowLogKillMonster",
+        "relative_offset": 100
+      },
+      "field": "QuestName",
+      "field_name_number": 0,
+      "array_index": 0,
+      "logical_offset": 1004982,
+      "serialized_size": 16,
+      "value": "북부군처치",
+      "value_sha256": "4b3fe9162c76675cdaeaef986ed56fe444815194b054a4f9097fc4630e608760",
+      "serialized_sha256": "a429802bf5d48e8eba84e5e6573c99825a890d73ed55ef75277f7155399d1d95",
+      "encoding": "utf-16-le",
+      "adjacent_property_tag": {
+        "name": "QuestName",
+        "name_number": 0,
+        "type": "StrProperty",
+        "array_index": 0,
+        "logical_offset": 1004958,
+        "raw_header_hex": "000002f70000000000000357000000000000001000000000"
+      },
+      "status": "pending-consumer-verification",
+      "runtime_display_observed": false,
+      "full_object_parse_verified": false,
+      "evidence_level": "Verified serialized bytes and adjacent StrProperty tag; consumer reachability/meaning pending",
+      "investigation": "Trace actual readers, localization replacement and scene reachability; property names or Test paths alone do not establish visibility or non-use."
+    },
+    {
+      "id": "package-string:cc3f496080c5edef47e373a6acdbfd50408251dfcf330a24a6610421ad12208a",
+      "resource": "MC2Game/CookedXenon/CinookIsland_CompTuto_01.xxx",
+      "discs": [
+        1
+      ],
+      "alias_memberships": [
+        {
+          "disc": 1,
+          "resource": "MC2Game/CookedXenon/CinookIsland_CompTuto_01.xxx"
+        }
+      ],
+      "package_sha256": "547a9f75b932f2947f1cf1abc7c2afeb20edbed1c23c445dec1c61eb40530b09",
+      "owner": {
+        "export": 640,
+        "path": "TheWorld.PersistentLevel.Main_Sequence.공성병기파괴하기.MC2SeqAct_ShowLogKillMonster_2",
+        "class_path": "MC2Game.MC2SeqAct_ShowLogKillMonster",
+        "relative_offset": 100
+      },
+      "field": "QuestName",
+      "field_name_number": 0,
+      "array_index": 0,
+      "logical_offset": 1005857,
+      "serialized_size": 16,
+      "value": "북부군처치",
+      "value_sha256": "4b3fe9162c76675cdaeaef986ed56fe444815194b054a4f9097fc4630e608760",
+      "serialized_sha256": "a429802bf5d48e8eba84e5e6573c99825a890d73ed55ef75277f7155399d1d95",
+      "encoding": "utf-16-le",
+      "adjacent_property_tag": {
+        "name": "QuestName",
+        "name_number": 0,
+        "type": "StrProperty",
+        "array_index": 0,
+        "logical_offset": 1005833,
+        "raw_header_hex": "000002f70000000000000357000000000000001000000000"
+      },
+      "status": "pending-consumer-verification",
+      "runtime_display_observed": false,
+      "full_object_parse_verified": false,
+      "evidence_level": "Verified serialized bytes and adjacent StrProperty tag; consumer reachability/meaning pending",
+      "investigation": "Trace actual readers, localization replacement and scene reachability; property names or Test paths alone do not establish visibility or non-use."
+    },
+    {
+      "id": "package-string:f4b554adeb55fa316f601e41bc9186e713168edd34a476a6ae9355667f763ade",
+      "resource": "MC2Game/CookedXenon/CinookIsland_CompTuto_01.xxx",
+      "discs": [
+        1
+      ],
+      "alias_memberships": [
+        {
+          "disc": 1,
+          "resource": "MC2Game/CookedXenon/CinookIsland_CompTuto_01.xxx"
+        }
+      ],
+      "package_sha256": "547a9f75b932f2947f1cf1abc7c2afeb20edbed1c23c445dec1c61eb40530b09",
+      "owner": {
+        "export": 641,
+        "path": "TheWorld.PersistentLevel.Main_Sequence.공성병기파괴하기.MC2SeqAct_ShowLogKillMonster_3",
+        "class_path": "MC2Game.MC2SeqAct_ShowLogKillMonster",
+        "relative_offset": 100
+      },
+      "field": "QuestName",
+      "field_name_number": 0,
+      "array_index": 0,
+      "logical_offset": 1006732,
+      "serialized_size": 16,
+      "value": "북부군처치",
+      "value_sha256": "4b3fe9162c76675cdaeaef986ed56fe444815194b054a4f9097fc4630e608760",
+      "serialized_sha256": "a429802bf5d48e8eba84e5e6573c99825a890d73ed55ef75277f7155399d1d95",
+      "encoding": "utf-16-le",
+      "adjacent_property_tag": {
+        "name": "QuestName",
+        "name_number": 0,
+        "type": "StrProperty",
+        "array_index": 0,
+        "logical_offset": 1006708,
+        "raw_header_hex": "000002f70000000000000357000000000000001000000000"
+      },
+      "status": "pending-consumer-verification",
+      "runtime_display_observed": false,
+      "full_object_parse_verified": false,
+      "evidence_level": "Verified serialized bytes and adjacent StrProperty tag; consumer reachability/meaning pending",
+      "investigation": "Trace actual readers, localization replacement and scene reachability; property names or Test paths alone do not establish visibility or non-use."
+    },
+    {
+      "id": "package-string:71ccb2c95522061383fbc652c9d867330e9aef0924aaab135fde4f715162049d",
+      "resource": "MC2Game/CookedXenon/CinookIsland_CompTuto_01.xxx",
+      "discs": [
+        1
+      ],
+      "alias_memberships": [
+        {
+          "disc": 1,
+          "resource": "MC2Game/CookedXenon/CinookIsland_CompTuto_01.xxx"
+        }
+      ],
+      "package_sha256": "547a9f75b932f2947f1cf1abc7c2afeb20edbed1c23c445dec1c61eb40530b09",
+      "owner": {
+        "export": 642,
+        "path": "TheWorld.PersistentLevel.Main_Sequence.제바사등장이벤트.제바사등장준비.MC2SeqAct_ShowLogKillMonster_0",
+        "class_path": "MC2Game.MC2SeqAct_ShowLogKillMonster",
+        "relative_offset": 100
+      },
+      "field": "QuestName",
+      "field_name_number": 0,
+      "array_index": 0,
+      "logical_offset": 1007607,
+      "serialized_size": 16,
+      "value": "북부군처치",
+      "value_sha256": "4b3fe9162c76675cdaeaef986ed56fe444815194b054a4f9097fc4630e608760",
+      "serialized_sha256": "a429802bf5d48e8eba84e5e6573c99825a890d73ed55ef75277f7155399d1d95",
+      "encoding": "utf-16-le",
+      "adjacent_property_tag": {
+        "name": "QuestName",
+        "name_number": 0,
+        "type": "StrProperty",
+        "array_index": 0,
+        "logical_offset": 1007583,
+        "raw_header_hex": "000002f70000000000000357000000000000001000000000"
+      },
+      "status": "pending-consumer-verification",
+      "runtime_display_observed": false,
+      "full_object_parse_verified": false,
+      "evidence_level": "Verified serialized bytes and adjacent StrProperty tag; consumer reachability/meaning pending",
+      "investigation": "Trace actual readers, localization replacement and scene reachability; property names or Test paths alone do not establish visibility or non-use."
+    },
+    {
+      "id": "package-string:2ec0bf7db532425fa30b0dfc910767180a0bec6bb7157b74755c571f9b7dfc84",
+      "resource": "MC2Game/CookedXenon/CinookIsland_CompTuto_01.xxx",
+      "discs": [
+        1
+      ],
+      "alias_memberships": [
+        {
+          "disc": 1,
+          "resource": "MC2Game/CookedXenon/CinookIsland_CompTuto_01.xxx"
+        }
+      ],
+      "package_sha256": "547a9f75b932f2947f1cf1abc7c2afeb20edbed1c23c445dec1c61eb40530b09",
+      "owner": {
+        "export": 643,
+        "path": "TheWorld.PersistentLevel.Main_Sequence.제바사등장이벤트.제바사등장준비.MC2SeqAct_ShowLogKillMonster_1",
+        "class_path": "MC2Game.MC2SeqAct_ShowLogKillMonster",
+        "relative_offset": 100
+      },
+      "field": "QuestName",
+      "field_name_number": 0,
+      "array_index": 0,
+      "logical_offset": 1007927,
+      "serialized_size": 16,
+      "value": "북부군처치",
+      "value_sha256": "4b3fe9162c76675cdaeaef986ed56fe444815194b054a4f9097fc4630e608760",
+      "serialized_sha256": "a429802bf5d48e8eba84e5e6573c99825a890d73ed55ef75277f7155399d1d95",
+      "encoding": "utf-16-le",
+      "adjacent_property_tag": {
+        "name": "QuestName",
+        "name_number": 0,
+        "type": "StrProperty",
+        "array_index": 0,
+        "logical_offset": 1007903,
+        "raw_header_hex": "000002f70000000000000357000000000000001000000000"
+      },
+      "status": "pending-consumer-verification",
+      "runtime_display_observed": false,
+      "full_object_parse_verified": false,
+      "evidence_level": "Verified serialized bytes and adjacent StrProperty tag; consumer reachability/meaning pending",
+      "investigation": "Trace actual readers, localization replacement and scene reachability; property names or Test paths alone do not establish visibility or non-use."
+    },
+    {
+      "id": "package-string:3a613b01ce6c37ee430a26a0c8d355532c656d3f5c01289b9077b5dd1ad343bb",
+      "resource": "MC2Game/CookedXenon/CinookIsland_CompTuto_01.xxx",
+      "discs": [
+        1
+      ],
+      "alias_memberships": [
+        {
+          "disc": 1,
+          "resource": "MC2Game/CookedXenon/CinookIsland_CompTuto_01.xxx"
+        }
+      ],
+      "package_sha256": "547a9f75b932f2947f1cf1abc7c2afeb20edbed1c23c445dec1c61eb40530b09",
+      "owner": {
+        "export": 644,
+        "path": "TheWorld.PersistentLevel.Main_Sequence.제바사등장이벤트.제바사등장준비.MC2SeqAct_ShowLogKillMonster_10",
+        "class_path": "MC2Game.MC2SeqAct_ShowLogKillMonster",
+        "relative_offset": 100
+      },
+      "field": "QuestName",
+      "field_name_number": 0,
+      "array_index": 0,
+      "logical_offset": 1008802,
+      "serialized_size": 16,
+      "value": "북부군처치",
+      "value_sha256": "4b3fe9162c76675cdaeaef986ed56fe444815194b054a4f9097fc4630e608760",
+      "serialized_sha256": "a429802bf5d48e8eba84e5e6573c99825a890d73ed55ef75277f7155399d1d95",
+      "encoding": "utf-16-le",
+      "adjacent_property_tag": {
+        "name": "QuestName",
+        "name_number": 0,
+        "type": "StrProperty",
+        "array_index": 0,
+        "logical_offset": 1008778,
+        "raw_header_hex": "000002f70000000000000357000000000000001000000000"
+      },
+      "status": "pending-consumer-verification",
+      "runtime_display_observed": false,
+      "full_object_parse_verified": false,
+      "evidence_level": "Verified serialized bytes and adjacent StrProperty tag; consumer reachability/meaning pending",
+      "investigation": "Trace actual readers, localization replacement and scene reachability; property names or Test paths alone do not establish visibility or non-use."
+    },
+    {
+      "id": "package-string:4bb1e716d6227bcb178870c6585aedc4ee5c5f2863630c1db431af042f0dc3e4",
+      "resource": "MC2Game/CookedXenon/CinookIsland_CompTuto_01.xxx",
+      "discs": [
+        1
+      ],
+      "alias_memberships": [
+        {
+          "disc": 1,
+          "resource": "MC2Game/CookedXenon/CinookIsland_CompTuto_01.xxx"
+        }
+      ],
+      "package_sha256": "547a9f75b932f2947f1cf1abc7c2afeb20edbed1c23c445dec1c61eb40530b09",
+      "owner": {
+        "export": 645,
+        "path": "TheWorld.PersistentLevel.Main_Sequence.제바사등장이벤트.제바사등장준비.MC2SeqAct_ShowLogKillMonster_11",
+        "class_path": "MC2Game.MC2SeqAct_ShowLogKillMonster",
+        "relative_offset": 100
+      },
+      "field": "QuestName",
+      "field_name_number": 0,
+      "array_index": 0,
+      "logical_offset": 1009677,
+      "serialized_size": 16,
+      "value": "북부군처치",
+      "value_sha256": "4b3fe9162c76675cdaeaef986ed56fe444815194b054a4f9097fc4630e608760",
+      "serialized_sha256": "a429802bf5d48e8eba84e5e6573c99825a890d73ed55ef75277f7155399d1d95",
+      "encoding": "utf-16-le",
+      "adjacent_property_tag": {
+        "name": "QuestName",
+        "name_number": 0,
+        "type": "StrProperty",
+        "array_index": 0,
+        "logical_offset": 1009653,
+        "raw_header_hex": "000002f70000000000000357000000000000001000000000"
+      },
+      "status": "pending-consumer-verification",
+      "runtime_display_observed": false,
+      "full_object_parse_verified": false,
+      "evidence_level": "Verified serialized bytes and adjacent StrProperty tag; consumer reachability/meaning pending",
+      "investigation": "Trace actual readers, localization replacement and scene reachability; property names or Test paths alone do not establish visibility or non-use."
+    },
+    {
+      "id": "package-string:cc9bf9d8d0c44a80561138c51621da6af83eb28edbedb6b93d4f38e86deac090",
+      "resource": "MC2Game/CookedXenon/CinookIsland_CompTuto_01.xxx",
+      "discs": [
+        1
+      ],
+      "alias_memberships": [
+        {
+          "disc": 1,
+          "resource": "MC2Game/CookedXenon/CinookIsland_CompTuto_01.xxx"
+        }
+      ],
+      "package_sha256": "547a9f75b932f2947f1cf1abc7c2afeb20edbed1c23c445dec1c61eb40530b09",
+      "owner": {
+        "export": 646,
+        "path": "TheWorld.PersistentLevel.Main_Sequence.제바사등장이벤트.제바사등장준비.MC2SeqAct_ShowLogKillMonster_12",
+        "class_path": "MC2Game.MC2SeqAct_ShowLogKillMonster",
+        "relative_offset": 100
+      },
+      "field": "QuestName",
+      "field_name_number": 0,
+      "array_index": 0,
+      "logical_offset": 1010552,
+      "serialized_size": 16,
+      "value": "북부군처치",
+      "value_sha256": "4b3fe9162c76675cdaeaef986ed56fe444815194b054a4f9097fc4630e608760",
+      "serialized_sha256": "a429802bf5d48e8eba84e5e6573c99825a890d73ed55ef75277f7155399d1d95",
+      "encoding": "utf-16-le",
+      "adjacent_property_tag": {
+        "name": "QuestName",
+        "name_number": 0,
+        "type": "StrProperty",
+        "array_index": 0,
+        "logical_offset": 1010528,
+        "raw_header_hex": "000002f70000000000000357000000000000001000000000"
+      },
+      "status": "pending-consumer-verification",
+      "runtime_display_observed": false,
+      "full_object_parse_verified": false,
+      "evidence_level": "Verified serialized bytes and adjacent StrProperty tag; consumer reachability/meaning pending",
+      "investigation": "Trace actual readers, localization replacement and scene reachability; property names or Test paths alone do not establish visibility or non-use."
+    },
+    {
+      "id": "package-string:e667380e4686160542a48caaa42cf7cf7b8114aa7c15cdbfbfab6d6f3bc79f70",
+      "resource": "MC2Game/CookedXenon/CinookIsland_CompTuto_01.xxx",
+      "discs": [
+        1
+      ],
+      "alias_memberships": [
+        {
+          "disc": 1,
+          "resource": "MC2Game/CookedXenon/CinookIsland_CompTuto_01.xxx"
+        }
+      ],
+      "package_sha256": "547a9f75b932f2947f1cf1abc7c2afeb20edbed1c23c445dec1c61eb40530b09",
+      "owner": {
+        "export": 647,
+        "path": "TheWorld.PersistentLevel.Main_Sequence.제바사등장이벤트.제바사등장준비.MC2SeqAct_ShowLogKillMonster_13",
+        "class_path": "MC2Game.MC2SeqAct_ShowLogKillMonster",
+        "relative_offset": 100
+      },
+      "field": "QuestName",
+      "field_name_number": 0,
+      "array_index": 0,
+      "logical_offset": 1011427,
+      "serialized_size": 16,
+      "value": "북부군처치",
+      "value_sha256": "4b3fe9162c76675cdaeaef986ed56fe444815194b054a4f9097fc4630e608760",
+      "serialized_sha256": "a429802bf5d48e8eba84e5e6573c99825a890d73ed55ef75277f7155399d1d95",
+      "encoding": "utf-16-le",
+      "adjacent_property_tag": {
+        "name": "QuestName",
+        "name_number": 0,
+        "type": "StrProperty",
+        "array_index": 0,
+        "logical_offset": 1011403,
+        "raw_header_hex": "000002f70000000000000357000000000000001000000000"
+      },
+      "status": "pending-consumer-verification",
+      "runtime_display_observed": false,
+      "full_object_parse_verified": false,
+      "evidence_level": "Verified serialized bytes and adjacent StrProperty tag; consumer reachability/meaning pending",
+      "investigation": "Trace actual readers, localization replacement and scene reachability; property names or Test paths alone do not establish visibility or non-use."
+    },
+    {
+      "id": "package-string:7ce47acbad6fc05ecb103b3d94309ef373b11ab2e001cb5f86a8f46db70630c9",
+      "resource": "MC2Game/CookedXenon/CinookIsland_CompTuto_01.xxx",
+      "discs": [
+        1
+      ],
+      "alias_memberships": [
+        {
+          "disc": 1,
+          "resource": "MC2Game/CookedXenon/CinookIsland_CompTuto_01.xxx"
+        }
+      ],
+      "package_sha256": "547a9f75b932f2947f1cf1abc7c2afeb20edbed1c23c445dec1c61eb40530b09",
+      "owner": {
+        "export": 648,
+        "path": "TheWorld.PersistentLevel.Main_Sequence.제바사등장이벤트.제바사등장준비.MC2SeqAct_ShowLogKillMonster_14",
+        "class_path": "MC2Game.MC2SeqAct_ShowLogKillMonster",
+        "relative_offset": 100
+      },
+      "field": "QuestName",
+      "field_name_number": 0,
+      "array_index": 0,
+      "logical_offset": 1012302,
+      "serialized_size": 16,
+      "value": "북부군처치",
+      "value_sha256": "4b3fe9162c76675cdaeaef986ed56fe444815194b054a4f9097fc4630e608760",
+      "serialized_sha256": "a429802bf5d48e8eba84e5e6573c99825a890d73ed55ef75277f7155399d1d95",
+      "encoding": "utf-16-le",
+      "adjacent_property_tag": {
+        "name": "QuestName",
+        "name_number": 0,
+        "type": "StrProperty",
+        "array_index": 0,
+        "logical_offset": 1012278,
+        "raw_header_hex": "000002f70000000000000357000000000000001000000000"
+      },
+      "status": "pending-consumer-verification",
+      "runtime_display_observed": false,
+      "full_object_parse_verified": false,
+      "evidence_level": "Verified serialized bytes and adjacent StrProperty tag; consumer reachability/meaning pending",
+      "investigation": "Trace actual readers, localization replacement and scene reachability; property names or Test paths alone do not establish visibility or non-use."
+    },
+    {
+      "id": "package-string:550f455134a9ec45fe69f0001af49fb30cd12eb63a26b648f740fb21a911a9e9",
+      "resource": "MC2Game/CookedXenon/CinookIsland_CompTuto_01.xxx",
+      "discs": [
+        1
+      ],
+      "alias_memberships": [
+        {
+          "disc": 1,
+          "resource": "MC2Game/CookedXenon/CinookIsland_CompTuto_01.xxx"
+        }
+      ],
+      "package_sha256": "547a9f75b932f2947f1cf1abc7c2afeb20edbed1c23c445dec1c61eb40530b09",
+      "owner": {
+        "export": 649,
+        "path": "TheWorld.PersistentLevel.Main_Sequence.제바사등장이벤트.제바사등장준비.MC2SeqAct_ShowLogKillMonster_2",
+        "class_path": "MC2Game.MC2SeqAct_ShowLogKillMonster",
+        "relative_offset": 100
+      },
+      "field": "QuestName",
+      "field_name_number": 0,
+      "array_index": 0,
+      "logical_offset": 1013177,
+      "serialized_size": 16,
+      "value": "북부군처치",
+      "value_sha256": "4b3fe9162c76675cdaeaef986ed56fe444815194b054a4f9097fc4630e608760",
+      "serialized_sha256": "a429802bf5d48e8eba84e5e6573c99825a890d73ed55ef75277f7155399d1d95",
+      "encoding": "utf-16-le",
+      "adjacent_property_tag": {
+        "name": "QuestName",
+        "name_number": 0,
+        "type": "StrProperty",
+        "array_index": 0,
+        "logical_offset": 1013153,
+        "raw_header_hex": "000002f70000000000000357000000000000001000000000"
+      },
+      "status": "pending-consumer-verification",
+      "runtime_display_observed": false,
+      "full_object_parse_verified": false,
+      "evidence_level": "Verified serialized bytes and adjacent StrProperty tag; consumer reachability/meaning pending",
+      "investigation": "Trace actual readers, localization replacement and scene reachability; property names or Test paths alone do not establish visibility or non-use."
+    },
+    {
+      "id": "package-string:3995f118aecce40e43ab8c8792eeb349103061579a0e3018692a6abab616e436",
+      "resource": "MC2Game/CookedXenon/CinookIsland_CompTuto_01.xxx",
+      "discs": [
+        1
+      ],
+      "alias_memberships": [
+        {
+          "disc": 1,
+          "resource": "MC2Game/CookedXenon/CinookIsland_CompTuto_01.xxx"
+        }
+      ],
+      "package_sha256": "547a9f75b932f2947f1cf1abc7c2afeb20edbed1c23c445dec1c61eb40530b09",
+      "owner": {
+        "export": 650,
+        "path": "TheWorld.PersistentLevel.Main_Sequence.제바사등장이벤트.제바사등장준비.MC2SeqAct_ShowLogKillMonster_3",
+        "class_path": "MC2Game.MC2SeqAct_ShowLogKillMonster",
+        "relative_offset": 100
+      },
+      "field": "QuestName",
+      "field_name_number": 0,
+      "array_index": 0,
+      "logical_offset": 1014052,
+      "serialized_size": 16,
+      "value": "북부군처치",
+      "value_sha256": "4b3fe9162c76675cdaeaef986ed56fe444815194b054a4f9097fc4630e608760",
+      "serialized_sha256": "a429802bf5d48e8eba84e5e6573c99825a890d73ed55ef75277f7155399d1d95",
+      "encoding": "utf-16-le",
+      "adjacent_property_tag": {
+        "name": "QuestName",
+        "name_number": 0,
+        "type": "StrProperty",
+        "array_index": 0,
+        "logical_offset": 1014028,
+        "raw_header_hex": "000002f70000000000000357000000000000001000000000"
+      },
+      "status": "pending-consumer-verification",
+      "runtime_display_observed": false,
+      "full_object_parse_verified": false,
+      "evidence_level": "Verified serialized bytes and adjacent StrProperty tag; consumer reachability/meaning pending",
+      "investigation": "Trace actual readers, localization replacement and scene reachability; property names or Test paths alone do not establish visibility or non-use."
+    },
+    {
+      "id": "package-string:6974626b047cb651912bfc8773ae3507457a5f1663bcd9376e21305440999a09",
+      "resource": "MC2Game/CookedXenon/CinookIsland_CompTuto_01.xxx",
+      "discs": [
+        1
+      ],
+      "alias_memberships": [
+        {
+          "disc": 1,
+          "resource": "MC2Game/CookedXenon/CinookIsland_CompTuto_01.xxx"
+        }
+      ],
+      "package_sha256": "547a9f75b932f2947f1cf1abc7c2afeb20edbed1c23c445dec1c61eb40530b09",
+      "owner": {
+        "export": 651,
+        "path": "TheWorld.PersistentLevel.Main_Sequence.제바사등장이벤트.제바사등장준비.MC2SeqAct_ShowLogKillMonster_4",
+        "class_path": "MC2Game.MC2SeqAct_ShowLogKillMonster",
+        "relative_offset": 100
+      },
+      "field": "QuestName",
+      "field_name_number": 0,
+      "array_index": 0,
+      "logical_offset": 1014927,
+      "serialized_size": 16,
+      "value": "북부군처치",
+      "value_sha256": "4b3fe9162c76675cdaeaef986ed56fe444815194b054a4f9097fc4630e608760",
+      "serialized_sha256": "a429802bf5d48e8eba84e5e6573c99825a890d73ed55ef75277f7155399d1d95",
+      "encoding": "utf-16-le",
+      "adjacent_property_tag": {
+        "name": "QuestName",
+        "name_number": 0,
+        "type": "StrProperty",
+        "array_index": 0,
+        "logical_offset": 1014903,
+        "raw_header_hex": "000002f70000000000000357000000000000001000000000"
+      },
+      "status": "pending-consumer-verification",
+      "runtime_display_observed": false,
+      "full_object_parse_verified": false,
+      "evidence_level": "Verified serialized bytes and adjacent StrProperty tag; consumer reachability/meaning pending",
+      "investigation": "Trace actual readers, localization replacement and scene reachability; property names or Test paths alone do not establish visibility or non-use."
+    },
+    {
+      "id": "package-string:8d7bb41086a8560197260a5f9363293c793eb50c721fe3a1d5d430349e7a5efd",
+      "resource": "MC2Game/CookedXenon/CinookIsland_CompTuto_01.xxx",
+      "discs": [
+        1
+      ],
+      "alias_memberships": [
+        {
+          "disc": 1,
+          "resource": "MC2Game/CookedXenon/CinookIsland_CompTuto_01.xxx"
+        }
+      ],
+      "package_sha256": "547a9f75b932f2947f1cf1abc7c2afeb20edbed1c23c445dec1c61eb40530b09",
+      "owner": {
+        "export": 652,
+        "path": "TheWorld.PersistentLevel.Main_Sequence.제바사등장이벤트.제바사등장준비.MC2SeqAct_ShowLogKillMonster_5",
+        "class_path": "MC2Game.MC2SeqAct_ShowLogKillMonster",
+        "relative_offset": 100
+      },
+      "field": "QuestName",
+      "field_name_number": 0,
+      "array_index": 0,
+      "logical_offset": 1015802,
+      "serialized_size": 16,
+      "value": "북부군처치",
+      "value_sha256": "4b3fe9162c76675cdaeaef986ed56fe444815194b054a4f9097fc4630e608760",
+      "serialized_sha256": "a429802bf5d48e8eba84e5e6573c99825a890d73ed55ef75277f7155399d1d95",
+      "encoding": "utf-16-le",
+      "adjacent_property_tag": {
+        "name": "QuestName",
+        "name_number": 0,
+        "type": "StrProperty",
+        "array_index": 0,
+        "logical_offset": 1015778,
+        "raw_header_hex": "000002f70000000000000357000000000000001000000000"
+      },
+      "status": "pending-consumer-verification",
+      "runtime_display_observed": false,
+      "full_object_parse_verified": false,
+      "evidence_level": "Verified serialized bytes and adjacent StrProperty tag; consumer reachability/meaning pending",
+      "investigation": "Trace actual readers, localization replacement and scene reachability; property names or Test paths alone do not establish visibility or non-use."
+    },
+    {
+      "id": "package-string:48d8cf705f9d6571cc129bf1365038232788a49aaa1d59268f75e844cd5a3918",
+      "resource": "MC2Game/CookedXenon/CinookIsland_CompTuto_01.xxx",
+      "discs": [
+        1
+      ],
+      "alias_memberships": [
+        {
+          "disc": 1,
+          "resource": "MC2Game/CookedXenon/CinookIsland_CompTuto_01.xxx"
+        }
+      ],
+      "package_sha256": "547a9f75b932f2947f1cf1abc7c2afeb20edbed1c23c445dec1c61eb40530b09",
+      "owner": {
+        "export": 653,
+        "path": "TheWorld.PersistentLevel.Main_Sequence.제바사등장이벤트.제바사등장준비.MC2SeqAct_ShowLogKillMonster_6",
+        "class_path": "MC2Game.MC2SeqAct_ShowLogKillMonster",
+        "relative_offset": 100
+      },
+      "field": "QuestName",
+      "field_name_number": 0,
+      "array_index": 0,
+      "logical_offset": 1016677,
+      "serialized_size": 16,
+      "value": "북부군처치",
+      "value_sha256": "4b3fe9162c76675cdaeaef986ed56fe444815194b054a4f9097fc4630e608760",
+      "serialized_sha256": "a429802bf5d48e8eba84e5e6573c99825a890d73ed55ef75277f7155399d1d95",
+      "encoding": "utf-16-le",
+      "adjacent_property_tag": {
+        "name": "QuestName",
+        "name_number": 0,
+        "type": "StrProperty",
+        "array_index": 0,
+        "logical_offset": 1016653,
+        "raw_header_hex": "000002f70000000000000357000000000000001000000000"
+      },
+      "status": "pending-consumer-verification",
+      "runtime_display_observed": false,
+      "full_object_parse_verified": false,
+      "evidence_level": "Verified serialized bytes and adjacent StrProperty tag; consumer reachability/meaning pending",
+      "investigation": "Trace actual readers, localization replacement and scene reachability; property names or Test paths alone do not establish visibility or non-use."
+    },
+    {
+      "id": "package-string:13dbded831e10c87ca6fb4c49653f129f42a7220934ab093b0e84268165fdcd2",
+      "resource": "MC2Game/CookedXenon/CinookIsland_CompTuto_01.xxx",
+      "discs": [
+        1
+      ],
+      "alias_memberships": [
+        {
+          "disc": 1,
+          "resource": "MC2Game/CookedXenon/CinookIsland_CompTuto_01.xxx"
+        }
+      ],
+      "package_sha256": "547a9f75b932f2947f1cf1abc7c2afeb20edbed1c23c445dec1c61eb40530b09",
+      "owner": {
+        "export": 654,
+        "path": "TheWorld.PersistentLevel.Main_Sequence.제바사등장이벤트.제바사등장준비.MC2SeqAct_ShowLogKillMonster_7",
+        "class_path": "MC2Game.MC2SeqAct_ShowLogKillMonster",
+        "relative_offset": 100
+      },
+      "field": "QuestName",
+      "field_name_number": 0,
+      "array_index": 0,
+      "logical_offset": 1017552,
+      "serialized_size": 16,
+      "value": "북부군처치",
+      "value_sha256": "4b3fe9162c76675cdaeaef986ed56fe444815194b054a4f9097fc4630e608760",
+      "serialized_sha256": "a429802bf5d48e8eba84e5e6573c99825a890d73ed55ef75277f7155399d1d95",
+      "encoding": "utf-16-le",
+      "adjacent_property_tag": {
+        "name": "QuestName",
+        "name_number": 0,
+        "type": "StrProperty",
+        "array_index": 0,
+        "logical_offset": 1017528,
+        "raw_header_hex": "000002f70000000000000357000000000000001000000000"
+      },
+      "status": "pending-consumer-verification",
+      "runtime_display_observed": false,
+      "full_object_parse_verified": false,
+      "evidence_level": "Verified serialized bytes and adjacent StrProperty tag; consumer reachability/meaning pending",
+      "investigation": "Trace actual readers, localization replacement and scene reachability; property names or Test paths alone do not establish visibility or non-use."
+    },
+    {
+      "id": "package-string:9c67b7baa76c6e7b2b51f72b09046080d6af1f3d691376e66a4e4d6f6d15f641",
+      "resource": "MC2Game/CookedXenon/CinookIsland_CompTuto_01.xxx",
+      "discs": [
+        1
+      ],
+      "alias_memberships": [
+        {
+          "disc": 1,
+          "resource": "MC2Game/CookedXenon/CinookIsland_CompTuto_01.xxx"
+        }
+      ],
+      "package_sha256": "547a9f75b932f2947f1cf1abc7c2afeb20edbed1c23c445dec1c61eb40530b09",
+      "owner": {
+        "export": 655,
+        "path": "TheWorld.PersistentLevel.Main_Sequence.제바사등장이벤트.제바사등장준비.MC2SeqAct_ShowLogKillMonster_8",
+        "class_path": "MC2Game.MC2SeqAct_ShowLogKillMonster",
+        "relative_offset": 100
+      },
+      "field": "QuestName",
+      "field_name_number": 0,
+      "array_index": 0,
+      "logical_offset": 1018427,
+      "serialized_size": 16,
+      "value": "북부군처치",
+      "value_sha256": "4b3fe9162c76675cdaeaef986ed56fe444815194b054a4f9097fc4630e608760",
+      "serialized_sha256": "a429802bf5d48e8eba84e5e6573c99825a890d73ed55ef75277f7155399d1d95",
+      "encoding": "utf-16-le",
+      "adjacent_property_tag": {
+        "name": "QuestName",
+        "name_number": 0,
+        "type": "StrProperty",
+        "array_index": 0,
+        "logical_offset": 1018403,
+        "raw_header_hex": "000002f70000000000000357000000000000001000000000"
+      },
+      "status": "pending-consumer-verification",
+      "runtime_display_observed": false,
+      "full_object_parse_verified": false,
+      "evidence_level": "Verified serialized bytes and adjacent StrProperty tag; consumer reachability/meaning pending",
+      "investigation": "Trace actual readers, localization replacement and scene reachability; property names or Test paths alone do not establish visibility or non-use."
+    },
+    {
+      "id": "package-string:3d5b6bd32047648f4b37713ff0b69d7279a12fcc9f8c7122efcc32d1dc191798",
+      "resource": "MC2Game/CookedXenon/CinookIsland_CompTuto_01.xxx",
+      "discs": [
+        1
+      ],
+      "alias_memberships": [
+        {
+          "disc": 1,
+          "resource": "MC2Game/CookedXenon/CinookIsland_CompTuto_01.xxx"
+        }
+      ],
+      "package_sha256": "547a9f75b932f2947f1cf1abc7c2afeb20edbed1c23c445dec1c61eb40530b09",
+      "owner": {
+        "export": 656,
+        "path": "TheWorld.PersistentLevel.Main_Sequence.제바사등장이벤트.제바사등장준비.MC2SeqAct_ShowLogKillMonster_9",
+        "class_path": "MC2Game.MC2SeqAct_ShowLogKillMonster",
+        "relative_offset": 100
+      },
+      "field": "QuestName",
+      "field_name_number": 0,
+      "array_index": 0,
+      "logical_offset": 1019302,
+      "serialized_size": 16,
+      "value": "북부군처치",
+      "value_sha256": "4b3fe9162c76675cdaeaef986ed56fe444815194b054a4f9097fc4630e608760",
+      "serialized_sha256": "a429802bf5d48e8eba84e5e6573c99825a890d73ed55ef75277f7155399d1d95",
+      "encoding": "utf-16-le",
+      "adjacent_property_tag": {
+        "name": "QuestName",
+        "name_number": 0,
+        "type": "StrProperty",
+        "array_index": 0,
+        "logical_offset": 1019278,
+        "raw_header_hex": "000002f70000000000000357000000000000001000000000"
+      },
+      "status": "pending-consumer-verification",
+      "runtime_display_observed": false,
+      "full_object_parse_verified": false,
+      "evidence_level": "Verified serialized bytes and adjacent StrProperty tag; consumer reachability/meaning pending",
+      "investigation": "Trace actual readers, localization replacement and scene reachability; property names or Test paths alone do not establish visibility or non-use."
+    },
+    {
+      "id": "package-string:3bf7afcb5461035a2b92000e9ba764d08e3ee2f07bd26eecd469651e69533e0e",
+      "resource": "MC2Game/CookedXenon/data_char_object.xxx",
+      "discs": [
+        1,
+        2
+      ],
+      "alias_memberships": [
+        {
+          "disc": 1,
+          "resource": "MC2Game/CookedXenon/data_char_object.xxx"
+        },
+        {
+          "disc": 2,
+          "resource": "MC2Game/CookedXenon/data_char_object.xxx"
+        }
+      ],
+      "package_sha256": "5066fe04a028b1ff7ea7c8f14b8416fc2f0d4ecffc9940c2eb9ddd2b07561017",
+      "owner": {
+        "export": 1711,
+        "path": "obj_LabSwitch.MC2PawnInterfaceDataBattle_SiegeGun_0.YM.MC2BattleYupa_0",
+        "class_path": "MC2Game.MC2BattleYupa",
+        "relative_offset": 28
+      },
+      "field": "StyleName",
+      "field_name_number": 0,
+      "array_index": 0,
+      "logical_offset": 1213398,
+      "serialized_size": 10,
+      "value": "대포",
+      "value_sha256": "45cb967dc7f41ef0472513269b6a941a4aa87428ec60655a93c916a78efe832c",
+      "serialized_sha256": "f08098829013d691ea606dbc04fd0a279647f6db772d85865c86ae40d3f4abcf",
+      "encoding": "utf-16-le",
+      "adjacent_property_tag": {
+        "name": "StyleName",
+        "name_number": 0,
+        "type": "StrProperty",
+        "array_index": 0,
+        "logical_offset": 1213374,
+        "raw_header_hex": "0000070200000000000006ff000000000000000a00000000"
+      },
+      "status": "pending-consumer-verification",
+      "runtime_display_observed": false,
+      "full_object_parse_verified": false,
+      "evidence_level": "Verified serialized bytes and adjacent StrProperty tag; consumer reachability/meaning pending",
+      "investigation": "Trace actual readers, localization replacement and scene reachability; property names or Test paths alone do not establish visibility or non-use."
+    },
+    {
+      "id": "package-string:4c230016b207c8f1982a38c87f0c0fd6e4dd6118141b63b1eee5a02321308990",
+      "resource": "MC2Game/CookedXenon/data_char_object.xxx",
+      "discs": [
+        1,
+        2
+      ],
+      "alias_memberships": [
+        {
+          "disc": 1,
+          "resource": "MC2Game/CookedXenon/data_char_object.xxx"
+        },
+        {
+          "disc": 2,
+          "resource": "MC2Game/CookedXenon/data_char_object.xxx"
+        }
+      ],
+      "package_sha256": "5066fe04a028b1ff7ea7c8f14b8416fc2f0d4ecffc9940c2eb9ddd2b07561017",
+      "owner": {
+        "export": 1717,
+        "path": "obj_SiegeCannon_01.MC2PawnInterfaceDataBattle_SiegeGun_0.YM.MC2BattleYupa_0",
+        "class_path": "MC2Game.MC2BattleYupa",
+        "relative_offset": 28
+      },
+      "field": "StyleName",
+      "field_name_number": 0,
+      "array_index": 0,
+      "logical_offset": 1216097,
+      "serialized_size": 10,
+      "value": "대포",
+      "value_sha256": "45cb967dc7f41ef0472513269b6a941a4aa87428ec60655a93c916a78efe832c",
+      "serialized_sha256": "f08098829013d691ea606dbc04fd0a279647f6db772d85865c86ae40d3f4abcf",
+      "encoding": "utf-16-le",
+      "adjacent_property_tag": {
+        "name": "StyleName",
+        "name_number": 0,
+        "type": "StrProperty",
+        "array_index": 0,
+        "logical_offset": 1216073,
+        "raw_header_hex": "0000070200000000000006ff000000000000000a00000000"
+      },
+      "status": "pending-consumer-verification",
+      "runtime_display_observed": false,
+      "full_object_parse_verified": false,
+      "evidence_level": "Verified serialized bytes and adjacent StrProperty tag; consumer reachability/meaning pending",
+      "investigation": "Trace actual readers, localization replacement and scene reachability; property names or Test paths alone do not establish visibility or non-use."
+    },
+    {
+      "id": "package-string:a98ca1cb31e78d204091183f22f50248918fa74a73c1fadfad12326a90257f11",
+      "resource": "MC2Game/CookedXenon/data_char_object.xxx",
+      "discs": [
+        1,
+        2
+      ],
+      "alias_memberships": [
+        {
+          "disc": 1,
+          "resource": "MC2Game/CookedXenon/data_char_object.xxx"
+        },
+        {
+          "disc": 2,
+          "resource": "MC2Game/CookedXenon/data_char_object.xxx"
+        }
+      ],
+      "package_sha256": "5066fe04a028b1ff7ea7c8f14b8416fc2f0d4ecffc9940c2eb9ddd2b07561017",
+      "owner": {
+        "export": 1822,
+        "path": "obj_NoTarget_Maksa",
+        "class_path": "MC2Game.MC2Pawn",
+        "relative_offset": 84
+      },
+      "field": "PlayerName",
+      "field_name_number": 0,
+      "array_index": 0,
+      "logical_offset": 1310719,
+      "serialized_size": 24,
+      "value": "보이지 않는 막사",
+      "value_sha256": "7287696b0c2e8466ee3df66ac795c653e1fd72bc064d2e8b4b5a759661517b5a",
+      "serialized_sha256": "175d041ddfd45f80a6aeb2f51559898cdf1b46154f497faf84b71df1fee7a6a8",
+      "encoding": "utf-16-le",
+      "adjacent_property_tag": {
+        "name": "PlayerName",
+        "name_number": 0,
+        "type": "StrProperty",
+        "array_index": 0,
+        "logical_offset": 1310695,
+        "raw_header_hex": "000005ad00000000000006ff000000000000001800000000"
+      },
+      "status": "pending-consumer-verification",
+      "runtime_display_observed": false,
+      "full_object_parse_verified": false,
+      "evidence_level": "Verified serialized bytes and adjacent StrProperty tag; consumer reachability/meaning pending",
+      "investigation": "Trace actual readers, localization replacement and scene reachability; property names or Test paths alone do not establish visibility or non-use."
+    },
+    {
+      "id": "package-string:adc9944231867c93e49b0835737f054925070d12792cb6db527fa3e56c50cbbf",
+      "resource": "MC2Game/CookedXenon/Dunan_Monster04_BGA01_S.xxx",
+      "discs": [
+        1
+      ],
+      "alias_memberships": [
+        {
+          "disc": 1,
+          "resource": "MC2Game/CookedXenon/Dunan_Monster04_BGA01_S.xxx"
+        }
+      ],
+      "package_sha256": "3dc7184e69e404118d74e4f32549ca3d04397ca0779d5a736cf3b234ca138026",
+      "owner": {
+        "export": 505,
+        "path": "data_char_object.obj_NoTarget_Maksa",
+        "class_path": "MC2Game.MC2Pawn",
+        "relative_offset": 84
+      },
+      "field": "PlayerName",
+      "field_name_number": 0,
+      "array_index": 0,
+      "logical_offset": 4887218,
+      "serialized_size": 24,
+      "value": "보이지 않는 막사",
+      "value_sha256": "7287696b0c2e8466ee3df66ac795c653e1fd72bc064d2e8b4b5a759661517b5a",
+      "serialized_sha256": "175d041ddfd45f80a6aeb2f51559898cdf1b46154f497faf84b71df1fee7a6a8",
+      "encoding": "utf-16-le",
+      "adjacent_property_tag": {
+        "name": "PlayerName",
+        "name_number": 0,
+        "type": "StrProperty",
+        "array_index": 0,
+        "logical_offset": 4887194,
+        "raw_header_hex": "0000066e00000000000007b9000000000000001800000000"
+      },
+      "status": "pending-consumer-verification",
+      "runtime_display_observed": false,
+      "full_object_parse_verified": false,
+      "evidence_level": "Verified serialized bytes and adjacent StrProperty tag; consumer reachability/meaning pending",
+      "investigation": "Trace actual readers, localization replacement and scene reachability; property names or Test paths alone do not establish visibility or non-use."
+    },
+    {
+      "id": "package-string:ff78adaaadd095eb5e92cb1200eba31c757cf7d22c99f56b015a0682cd0d8ef3",
+      "resource": "MC2Game/CookedXenon/Dunan_Monster04_BGA01_S.xxx",
+      "discs": [
+        1
+      ],
+      "alias_memberships": [
+        {
+          "disc": 1,
+          "resource": "MC2Game/CookedXenon/Dunan_Monster04_BGA01_S.xxx"
+        }
+      ],
+      "package_sha256": "3dc7184e69e404118d74e4f32549ca3d04397ca0779d5a736cf3b234ca138026",
+      "owner": {
+        "export": 1689,
+        "path": "data_char_object.obj_SiegeCannon_01.MC2PawnInterfaceDataBattle_SiegeGun_0.YM.MC2BattleYupa_0",
+        "class_path": "MC2Game.MC2BattleYupa",
+        "relative_offset": 28
+      },
+      "field": "StyleName",
+      "field_name_number": 0,
+      "array_index": 0,
+      "logical_offset": 5214075,
+      "serialized_size": 10,
+      "value": "대포",
+      "value_sha256": "45cb967dc7f41ef0472513269b6a941a4aa87428ec60655a93c916a78efe832c",
+      "serialized_sha256": "f08098829013d691ea606dbc04fd0a279647f6db772d85865c86ae40d3f4abcf",
+      "encoding": "utf-16-le",
+      "adjacent_property_tag": {
+        "name": "StyleName",
+        "name_number": 0,
+        "type": "StrProperty",
+        "array_index": 0,
+        "logical_offset": 5214051,
+        "raw_header_hex": "000007bc00000000000007b9000000000000000a00000000"
+      },
+      "status": "pending-consumer-verification",
+      "runtime_display_observed": false,
+      "full_object_parse_verified": false,
+      "evidence_level": "Verified serialized bytes and adjacent StrProperty tag; consumer reachability/meaning pending",
+      "investigation": "Trace actual readers, localization replacement and scene reachability; property names or Test paths alone do not establish visibility or non-use."
+    },
+    {
+      "id": "package-string:ac1e072b54aafd6bf26f364a4b8f1e0b9d7d06b31a797553b507e3b82f215d01",
+      "resource": "MC2Game/CookedXenon/Dunan_Monster04_BGA02_S.xxx",
+      "discs": [
+        1
+      ],
+      "alias_memberships": [
+        {
+          "disc": 1,
+          "resource": "MC2Game/CookedXenon/Dunan_Monster04_BGA02_S.xxx"
+        }
+      ],
+      "package_sha256": "20e1769463e3ef0f080ef76c976f512b39d2984e21bfd1ccc0557b42f3fab1ca",
+      "owner": {
+        "export": 2234,
+        "path": "data_char_object.obj_SiegeCannon_01.MC2PawnInterfaceDataBattle_SiegeGun_0.YM.MC2BattleYupa_0",
+        "class_path": "MC2Game.MC2BattleYupa",
+        "relative_offset": 28
+      },
+      "field": "StyleName",
+      "field_name_number": 0,
+      "array_index": 0,
+      "logical_offset": 6703683,
+      "serialized_size": 10,
+      "value": "대포",
+      "value_sha256": "45cb967dc7f41ef0472513269b6a941a4aa87428ec60655a93c916a78efe832c",
+      "serialized_sha256": "f08098829013d691ea606dbc04fd0a279647f6db772d85865c86ae40d3f4abcf",
+      "encoding": "utf-16-le",
+      "adjacent_property_tag": {
+        "name": "StyleName",
+        "name_number": 0,
+        "type": "StrProperty",
+        "array_index": 0,
+        "logical_offset": 6703659,
+        "raw_header_hex": "00000830000000000000082d000000000000000a00000000"
+      },
+      "status": "pending-consumer-verification",
+      "runtime_display_observed": false,
+      "full_object_parse_verified": false,
+      "evidence_level": "Verified serialized bytes and adjacent StrProperty tag; consumer reachability/meaning pending",
+      "investigation": "Trace actual readers, localization replacement and scene reachability; property names or Test paths alone do not establish visibility or non-use."
+    },
+    {
+      "id": "package-string:f704ac7467b46f3c7d364a0b7de06bf81fdce7e2ef66ade2aabd9b1c1e61a013",
+      "resource": "MC2Game/CookedXenon/Dunan_Monster04_BGA03_S.xxx",
+      "discs": [
+        1
+      ],
+      "alias_memberships": [
+        {
+          "disc": 1,
+          "resource": "MC2Game/CookedXenon/Dunan_Monster04_BGA03_S.xxx"
+        }
+      ],
+      "package_sha256": "a4ec60b1e88bdb4774bccc2f9ba73a706b9643b5c1b7ca064bc4e4aece1c0168",
+      "owner": {
+        "export": 3008,
+        "path": "data_char_object.obj_SiegeCannon_01.MC2PawnInterfaceDataBattle_SiegeGun_0.YM.MC2BattleYupa_0",
+        "class_path": "MC2Game.MC2BattleYupa",
+        "relative_offset": 28
+      },
+      "field": "StyleName",
+      "field_name_number": 0,
+      "array_index": 0,
+      "logical_offset": 6534530,
+      "serialized_size": 10,
+      "value": "대포",
+      "value_sha256": "45cb967dc7f41ef0472513269b6a941a4aa87428ec60655a93c916a78efe832c",
+      "serialized_sha256": "f08098829013d691ea606dbc04fd0a279647f6db772d85865c86ae40d3f4abcf",
+      "encoding": "utf-16-le",
+      "adjacent_property_tag": {
+        "name": "StyleName",
+        "name_number": 0,
+        "type": "StrProperty",
+        "array_index": 0,
+        "logical_offset": 6534506,
+        "raw_header_hex": "00000a2f0000000000000a2c000000000000000a00000000"
+      },
+      "status": "pending-consumer-verification",
+      "runtime_display_observed": false,
+      "full_object_parse_verified": false,
+      "evidence_level": "Verified serialized bytes and adjacent StrProperty tag; consumer reachability/meaning pending",
+      "investigation": "Trace actual readers, localization replacement and scene reachability; property names or Test paths alone do not establish visibility or non-use."
+    },
+    {
+      "id": "package-string:eddf46dd5553c260863a559e4c3e91e5a1791b5632e8e0777fe0b6f79fde833d",
+      "resource": "MC2Game/CookedXenon/Oldfox_Mon02_S.xxx",
+      "discs": [
+        1
+      ],
+      "alias_memberships": [
+        {
+          "disc": 1,
+          "resource": "MC2Game/CookedXenon/Oldfox_Mon02_S.xxx"
+        }
+      ],
+      "package_sha256": "aeb4a0ff7b05d5028cde649162840d98fe8ae495323922462e4e644c2a214ed3",
+      "owner": {
+        "export": 1309,
+        "path": "data_char_object.obj_SiegeCannon_01.MC2PawnInterfaceDataBattle_SiegeGun_0.YM.MC2BattleYupa_0",
+        "class_path": "MC2Game.MC2BattleYupa",
+        "relative_offset": 28
+      },
+      "field": "StyleName",
+      "field_name_number": 0,
+      "array_index": 0,
+      "logical_offset": 3551043,
+      "serialized_size": 10,
+      "value": "대포",
+      "value_sha256": "45cb967dc7f41ef0472513269b6a941a4aa87428ec60655a93c916a78efe832c",
+      "serialized_sha256": "f08098829013d691ea606dbc04fd0a279647f6db772d85865c86ae40d3f4abcf",
+      "encoding": "utf-16-le",
+      "adjacent_property_tag": {
+        "name": "StyleName",
+        "name_number": 0,
+        "type": "StrProperty",
+        "array_index": 0,
+        "logical_offset": 3551019,
+        "raw_header_hex": "000006da00000000000006d7000000000000000a00000000"
+      },
+      "status": "pending-consumer-verification",
+      "runtime_display_observed": false,
+      "full_object_parse_verified": false,
+      "evidence_level": "Verified serialized bytes and adjacent StrProperty tag; consumer reachability/meaning pending",
+      "investigation": "Trace actual readers, localization replacement and scene reachability; property names or Test paths alone do not establish visibility or non-use."
+    },
+    {
+      "id": "package-string:046c82153f9af75d090e5f43b75e94fff7b703350c4d03527a57d24f0ff5772a",
+      "resource": "MC2Game/CookedXenon/Oldfox_Mon03_S.xxx",
+      "discs": [
+        1
+      ],
+      "alias_memberships": [
+        {
+          "disc": 1,
+          "resource": "MC2Game/CookedXenon/Oldfox_Mon03_S.xxx"
+        }
+      ],
+      "package_sha256": "572074f43df55f6fe0c0c42c1fb13118e567c3113d8421a54409bf64a77fb0ae",
+      "owner": {
+        "export": 1334,
+        "path": "data_char_object.obj_SiegeCannon_01.MC2PawnInterfaceDataBattle_SiegeGun_0.YM.MC2BattleYupa_0",
+        "class_path": "MC2Game.MC2BattleYupa",
+        "relative_offset": 28
+      },
+      "field": "StyleName",
+      "field_name_number": 0,
+      "array_index": 0,
+      "logical_offset": 3575807,
+      "serialized_size": 10,
+      "value": "대포",
+      "value_sha256": "45cb967dc7f41ef0472513269b6a941a4aa87428ec60655a93c916a78efe832c",
+      "serialized_sha256": "f08098829013d691ea606dbc04fd0a279647f6db772d85865c86ae40d3f4abcf",
+      "encoding": "utf-16-le",
+      "adjacent_property_tag": {
+        "name": "StyleName",
+        "name_number": 0,
+        "type": "StrProperty",
+        "array_index": 0,
+        "logical_offset": 3575783,
+        "raw_header_hex": "000006f400000000000006f1000000000000000a00000000"
+      },
+      "status": "pending-consumer-verification",
+      "runtime_display_observed": false,
+      "full_object_parse_verified": false,
+      "evidence_level": "Verified serialized bytes and adjacent StrProperty tag; consumer reachability/meaning pending",
+      "investigation": "Trace actual readers, localization replacement and scene reachability; property names or Test paths alone do not establish visibility or non-use."
+    },
+    {
+      "id": "package-string:4354e1fe7a55e2bb8380830e16b792d7974e23d6fa788b2ccdfa88fdc6bf2417",
+      "resource": "MC2Game/CookedXenon/Oldfox_Mon04_S.xxx",
+      "discs": [
+        1
+      ],
+      "alias_memberships": [
+        {
+          "disc": 1,
+          "resource": "MC2Game/CookedXenon/Oldfox_Mon04_S.xxx"
+        }
+      ],
+      "package_sha256": "d0d558a13797d6e9122ce60cde1264ba0325d4a02f9c32aa88e6d2eb732a123e",
+      "owner": {
+        "export": 1512,
+        "path": "data_char_object.obj_SiegeCannon_01.MC2PawnInterfaceDataBattle_SiegeGun_0.YM.MC2BattleYupa_0",
+        "class_path": "MC2Game.MC2BattleYupa",
+        "relative_offset": 28
+      },
+      "field": "StyleName",
+      "field_name_number": 0,
+      "array_index": 0,
+      "logical_offset": 4611085,
+      "serialized_size": 10,
+      "value": "대포",
+      "value_sha256": "45cb967dc7f41ef0472513269b6a941a4aa87428ec60655a93c916a78efe832c",
+      "serialized_sha256": "f08098829013d691ea606dbc04fd0a279647f6db772d85865c86ae40d3f4abcf",
+      "encoding": "utf-16-le",
+      "adjacent_property_tag": {
+        "name": "StyleName",
+        "name_number": 0,
+        "type": "StrProperty",
+        "array_index": 0,
+        "logical_offset": 4611061,
+        "raw_header_hex": "0000072c0000000000000729000000000000000a00000000"
+      },
+      "status": "pending-consumer-verification",
+      "runtime_display_observed": false,
+      "full_object_parse_verified": false,
+      "evidence_level": "Verified serialized bytes and adjacent StrProperty tag; consumer reachability/meaning pending",
+      "investigation": "Trace actual readers, localization replacement and scene reachability; property names or Test paths alone do not establish visibility or non-use."
+    },
+    {
+      "id": "package-string:3a25836713eb972c98611598280ad8cac4655442d855400247e131f79c02d5e8",
+      "resource": "MC2Game/CookedXenon/Oldfox_Mon05_S.xxx",
+      "discs": [
+        1
+      ],
+      "alias_memberships": [
+        {
+          "disc": 1,
+          "resource": "MC2Game/CookedXenon/Oldfox_Mon05_S.xxx"
+        }
+      ],
+      "package_sha256": "eae9f92eb831c16b7134ebf64d5389a364b3d82a0fd28a93c2b90f739715f34c",
+      "owner": {
+        "export": 1296,
+        "path": "data_char_object.obj_SiegeCannon_01.MC2PawnInterfaceDataBattle_SiegeGun_0.YM.MC2BattleYupa_0",
+        "class_path": "MC2Game.MC2BattleYupa",
+        "relative_offset": 28
+      },
+      "field": "StyleName",
+      "field_name_number": 0,
+      "array_index": 0,
+      "logical_offset": 3524243,
+      "serialized_size": 10,
+      "value": "대포",
+      "value_sha256": "45cb967dc7f41ef0472513269b6a941a4aa87428ec60655a93c916a78efe832c",
+      "serialized_sha256": "f08098829013d691ea606dbc04fd0a279647f6db772d85865c86ae40d3f4abcf",
+      "encoding": "utf-16-le",
+      "adjacent_property_tag": {
+        "name": "StyleName",
+        "name_number": 0,
+        "type": "StrProperty",
+        "array_index": 0,
+        "logical_offset": 3524219,
+        "raw_header_hex": "000006c200000000000006bf000000000000000a00000000"
+      },
+      "status": "pending-consumer-verification",
+      "runtime_display_observed": false,
+      "full_object_parse_verified": false,
+      "evidence_level": "Verified serialized bytes and adjacent StrProperty tag; consumer reachability/meaning pending",
+      "investigation": "Trace actual readers, localization replacement and scene reachability; property names or Test paths alone do not establish visibility or non-use."
+    },
+    {
+      "id": "package-string:47f20a3b6980aaa9289dafb0a85be8122c0f8b205ee83e72c7c3cdb3014e8d56",
+      "resource": "MC2Game/CookedXenon/Startup_int.xxx",
+      "discs": [
+        1,
+        2
+      ],
+      "alias_memberships": [
+        {
+          "disc": 1,
+          "resource": "MC2Game/CookedXenon/Startup_int.xxx"
+        },
+        {
+          "disc": 2,
+          "resource": "MC2Game/CookedXenon/Startup_int.xxx"
+        }
+      ],
+      "package_sha256": "089868b8120f382c22e71329530824e97f03d6c8fb37681a39224dd4fc89c91e",
+      "owner": {
+        "export": 443,
+        "path": "data_item.etc.CureSeed",
+        "class_path": "MC2Game.MC2Item",
+        "relative_offset": 56
+      },
+      "field": "ItemName",
+      "field_name_number": 0,
+      "array_index": 0,
+      "logical_offset": 1454441,
+      "serialized_size": 16,
+      "value": "큐어 시드",
+      "value_sha256": "a9659f8b8d6103d8566c48865df15d5a64591816445faf1067ba358234363aff",
+      "serialized_sha256": "c0e28925c5fd2384c76a9fc6914640eeb361f0dc5f0766160453e4c8ceb5531d",
+      "encoding": "utf-16-le",
+      "adjacent_property_tag": {
+        "name": "ItemName",
+        "name_number": 0,
+        "type": "StrProperty",
+        "array_index": 0,
+        "logical_offset": 1454417,
+        "raw_header_hex": "000004ff000000000000089a000000000000001000000000"
+      },
+      "status": "pending-consumer-verification",
+      "runtime_display_observed": false,
+      "full_object_parse_verified": false,
+      "evidence_level": "Verified serialized bytes and adjacent StrProperty tag; consumer reachability/meaning pending",
+      "investigation": "Trace actual readers, localization replacement and scene reachability; property names or Test paths alone do not establish visibility or non-use."
+    },
+    {
+      "id": "package-string:35f716721642d0aea6ead736c98d15020170d6b937d0316a9048021d5c13549c",
+      "resource": "MC2Game/CookedXenon/Startup_int.xxx",
+      "discs": [
+        1,
+        2
+      ],
+      "alias_memberships": [
+        {
+          "disc": 1,
+          "resource": "MC2Game/CookedXenon/Startup_int.xxx"
+        },
+        {
+          "disc": 2,
+          "resource": "MC2Game/CookedXenon/Startup_int.xxx"
+        }
+      ],
+      "package_sha256": "089868b8120f382c22e71329530824e97f03d6c8fb37681a39224dd4fc89c91e",
+      "owner": {
+        "export": 443,
+        "path": "data_item.etc.CureSeed",
+        "class_path": "MC2Game.MC2Item",
+        "relative_offset": 96
+      },
+      "field": "Description",
+      "field_name_number": 0,
+      "array_index": 0,
+      "logical_offset": 1454481,
+      "serialized_size": 24,
+      "value": "한넘 30% 회복",
+      "value_sha256": "b05d01031f48bc27f8acf69b32a708ac33663b0abc97027f0ab93faa2f944472",
+      "serialized_sha256": "1cb786635b6aeebf8dbc13a7be108d4331eaf614bf1d095bf30fcb0937f4c30e",
+      "encoding": "utf-16-le",
+      "adjacent_property_tag": {
+        "name": "Description",
+        "name_number": 0,
+        "type": "StrProperty",
+        "array_index": 0,
+        "logical_offset": 1454457,
+        "raw_header_hex": "00000318000000000000089a000000000000001800000000"
+      },
+      "status": "pending-consumer-verification",
+      "runtime_display_observed": false,
+      "full_object_parse_verified": false,
+      "evidence_level": "Verified serialized bytes and adjacent StrProperty tag; consumer reachability/meaning pending",
+      "investigation": "Trace actual readers, localization replacement and scene reachability; property names or Test paths alone do not establish visibility or non-use."
+    },
+    {
+      "id": "package-string:ed82dc3c72b42b35a6f91b17e8ddd2f44a75e529d27764c2d9c0b82ad0a6a4a9",
+      "resource": "MC2Game/CookedXenon/Startup_int.xxx",
+      "discs": [
+        1,
+        2
+      ],
+      "alias_memberships": [
+        {
+          "disc": 1,
+          "resource": "MC2Game/CookedXenon/Startup_int.xxx"
+        },
+        {
+          "disc": 2,
+          "resource": "MC2Game/CookedXenon/Startup_int.xxx"
+        }
+      ],
+      "package_sha256": "089868b8120f382c22e71329530824e97f03d6c8fb37681a39224dd4fc89c91e",
+      "owner": {
+        "export": 444,
+        "path": "data_item.etc.HealLeaf",
+        "class_path": "MC2Game.MC2Item",
+        "relative_offset": 28
+      },
+      "field": "ItemName",
+      "field_name_number": 0,
+      "array_index": 0,
+      "logical_offset": 1454819,
+      "serialized_size": 14,
+      "value": "힐 리프",
+      "value_sha256": "211b1540c0de28159b76e3426bf28f0e641a26f51837979ee3f50671375ef9df",
+      "serialized_sha256": "07ce831842ca6e6dd6f48df55ed3eb56191b6f6f051f5d1027f3aca17dc76b09",
+      "encoding": "utf-16-le",
+      "adjacent_property_tag": {
+        "name": "ItemName",
+        "name_number": 0,
+        "type": "StrProperty",
+        "array_index": 0,
+        "logical_offset": 1454795,
+        "raw_header_hex": "000004ff000000000000089a000000000000000e00000000"
+      },
+      "status": "pending-consumer-verification",
+      "runtime_display_observed": false,
+      "full_object_parse_verified": false,
+      "evidence_level": "Verified serialized bytes and adjacent StrProperty tag; consumer reachability/meaning pending",
+      "investigation": "Trace actual readers, localization replacement and scene reachability; property names or Test paths alone do not establish visibility or non-use."
+    },
+    {
+      "id": "package-string:878d94d4128b8b8800dffafa8c9f3d42cb0eb914d0b0a1d5867c098793750641",
+      "resource": "MC2Game/CookedXenon/Startup_int.xxx",
+      "discs": [
+        1,
+        2
+      ],
+      "alias_memberships": [
+        {
+          "disc": 1,
+          "resource": "MC2Game/CookedXenon/Startup_int.xxx"
+        },
+        {
+          "disc": 2,
+          "resource": "MC2Game/CookedXenon/Startup_int.xxx"
+        }
+      ],
+      "package_sha256": "089868b8120f382c22e71329530824e97f03d6c8fb37681a39224dd4fc89c91e",
+      "owner": {
+        "export": 444,
+        "path": "data_item.etc.HealLeaf",
+        "class_path": "MC2Game.MC2Item",
+        "relative_offset": 66
+      },
+      "field": "Description",
+      "field_name_number": 0,
+      "array_index": 0,
+      "logical_offset": 1454857,
+      "serialized_size": 24,
+      "value": "전부 30% 회복",
+      "value_sha256": "7a2bb4501330a644d0da951b687107394f02215aa9070a6636e42cbbcd48d9a1",
+      "serialized_sha256": "4ca817ba5c67305871b1584434c6cd4155f430485d7893aa892e5f48a17667dc",
+      "encoding": "utf-16-le",
+      "adjacent_property_tag": {
+        "name": "Description",
+        "name_number": 0,
+        "type": "StrProperty",
+        "array_index": 0,
+        "logical_offset": 1454833,
+        "raw_header_hex": "00000318000000000000089a000000000000001800000000"
+      },
+      "status": "pending-consumer-verification",
+      "runtime_display_observed": false,
+      "full_object_parse_verified": false,
+      "evidence_level": "Verified serialized bytes and adjacent StrProperty tag; consumer reachability/meaning pending",
+      "investigation": "Trace actual readers, localization replacement and scene reachability; property names or Test paths alone do not establish visibility or non-use."
+    },
+    {
+      "id": "package-string:997249ab92d31252bdcff890ee74b1bace4313cb89aa8f182de9212b86d53898",
+      "resource": "MC2Game/CookedXenon/Startup_int.xxx",
+      "discs": [
+        1,
+        2
+      ],
+      "alias_memberships": [
+        {
+          "disc": 1,
+          "resource": "MC2Game/CookedXenon/Startup_int.xxx"
+        },
+        {
+          "disc": 2,
+          "resource": "MC2Game/CookedXenon/Startup_int.xxx"
+        }
+      ],
+      "package_sha256": "089868b8120f382c22e71329530824e97f03d6c8fb37681a39224dd4fc89c91e",
+      "owner": {
+        "export": 483,
+        "path": "data_item.Test.Ice_Hat",
+        "class_path": "MC2Game.MC2Item",
+        "relative_offset": 64
+      },
+      "field": "Description",
+      "field_name_number": 0,
+      "array_index": 0,
+      "logical_offset": 1467642,
+      "serialized_size": 30,
+      "value": "더위 확률 10% 감소",
+      "value_sha256": "6996621a5dcfa6582d57e90e2539cc86aab2f8f6ff7d9d153664ddafcfd58559",
+      "serialized_sha256": "c456e2bd69d77140add1527b0ff7a94767be827e2032feee028cb7faac3d47f2",
+      "encoding": "utf-16-le",
+      "adjacent_property_tag": {
+        "name": "Description",
+        "name_number": 0,
+        "type": "StrProperty",
+        "array_index": 0,
+        "logical_offset": 1467618,
+        "raw_header_hex": "00000318000000000000089a000000000000001e00000000"
+      },
+      "status": "pending-consumer-verification",
+      "runtime_display_observed": false,
+      "full_object_parse_verified": false,
+      "evidence_level": "Verified serialized bytes and adjacent StrProperty tag; consumer reachability/meaning pending",
+      "investigation": "Trace actual readers, localization replacement and scene reachability; property names or Test paths alone do not establish visibility or non-use."
+    },
+    {
+      "id": "package-string:8590a0cef79afd3714e1f312073c105b87f7c39fa7685da00cb8088fcf686346",
+      "resource": "MC2Game/CookedXenon/Startup_int.xxx",
+      "discs": [
+        1,
+        2
+      ],
+      "alias_memberships": [
+        {
+          "disc": 1,
+          "resource": "MC2Game/CookedXenon/Startup_int.xxx"
+        },
+        {
+          "disc": 2,
+          "resource": "MC2Game/CookedXenon/Startup_int.xxx"
+        }
+      ],
+      "package_sha256": "089868b8120f382c22e71329530824e97f03d6c8fb37681a39224dd4fc89c91e",
+      "owner": {
+        "export": 491,
+        "path": "data_item.Test.throw_stone",
+        "class_path": "MC2Game.MC2Item",
+        "relative_offset": 28
+      },
+      "field": "Description",
+      "field_name_number": 0,
+      "array_index": 0,
+      "logical_offset": 1470388,
+      "serialized_size": 20,
+      "value": "던져서 데미지",
+      "value_sha256": "687b61fd6a1e98cc04179739dfc2b0ae5e1c60b8a53b5ea0651d7fa7ca1ab016",
+      "serialized_sha256": "de64058c0547c3542df0e0d639aee91c5180b8dc975df4fa8d451f8973257b03",
+      "encoding": "utf-16-le",
+      "adjacent_property_tag": {
+        "name": "Description",
+        "name_number": 0,
+        "type": "StrProperty",
+        "array_index": 0,
+        "logical_offset": 1470364,
+        "raw_header_hex": "00000318000000000000089a000000000000001400000000"
+      },
+      "status": "pending-consumer-verification",
+      "runtime_display_observed": false,
+      "full_object_parse_verified": false,
+      "evidence_level": "Verified serialized bytes and adjacent StrProperty tag; consumer reachability/meaning pending",
+      "investigation": "Trace actual readers, localization replacement and scene reachability; property names or Test paths alone do not establish visibility or non-use."
+    },
+    {
+      "id": "package-string:b7355237f4e7635631491b428b8cc8b2e401f7adcea27a6570abacd020c55ff5",
+      "resource": "MC2Game/CookedXenon/Startup_int.xxx",
+      "discs": [
+        1,
+        2
+      ],
+      "alias_memberships": [
+        {
+          "disc": 1,
+          "resource": "MC2Game/CookedXenon/Startup_int.xxx"
+        },
+        {
+          "disc": 2,
+          "resource": "MC2Game/CookedXenon/Startup_int.xxx"
+        }
+      ],
+      "package_sha256": "089868b8120f382c22e71329530824e97f03d6c8fb37681a39224dd4fc89c91e",
+      "owner": {
+        "export": 1306,
+        "path": "data_quest.Test.testquest",
+        "class_path": "MC2Game.MC2Quest",
+        "relative_offset": 56
+      },
+      "field": "Subject",
+      "field_name_number": 0,
+      "array_index": 0,
+      "logical_offset": 3867058,
+      "serialized_size": 18,
+      "value": "테스트퀘스트",
+      "value_sha256": "04429512052a2703ee991f11a4c54e1b4f9f09f977315a99cc7020e0ec5c8518",
+      "serialized_sha256": "727bf42d3f19bdc911bc93df34941959ad11164bd492c1a9943c83c19f20b207",
+      "encoding": "utf-16-le",
+      "adjacent_property_tag": {
+        "name": "Subject",
+        "name_number": 0,
+        "type": "StrProperty",
+        "array_index": 0,
+        "logical_offset": 3867034,
+        "raw_header_hex": "000008d0000000000000089a000000000000001200000000"
+      },
+      "status": "pending-consumer-verification",
+      "runtime_display_observed": false,
+      "full_object_parse_verified": false,
+      "evidence_level": "Verified serialized bytes and adjacent StrProperty tag; consumer reachability/meaning pending",
+      "investigation": "Trace actual readers, localization replacement and scene reachability; property names or Test paths alone do not establish visibility or non-use."
+    },
+    {
+      "id": "package-string:f0e9ee737bd88391be3da17277e38329284c6799f89257ff211190e6fe028a32",
+      "resource": "MC2Game/CookedXenon/Startup_int.xxx",
+      "discs": [
+        1,
+        2
+      ],
+      "alias_memberships": [
+        {
+          "disc": 1,
+          "resource": "MC2Game/CookedXenon/Startup_int.xxx"
+        },
+        {
+          "disc": 2,
+          "resource": "MC2Game/CookedXenon/Startup_int.xxx"
+        }
+      ],
+      "package_sha256": "089868b8120f382c22e71329530824e97f03d6c8fb37681a39224dd4fc89c91e",
+      "owner": {
+        "export": 1306,
+        "path": "data_quest.Test.testquest",
+        "class_path": "MC2Game.MC2Quest",
+        "relative_offset": 98
+      },
+      "field": "Description",
+      "field_name_number": 0,
+      "array_index": 0,
+      "logical_offset": 3867100,
+      "serialized_size": 16,
+      "value": "테스트하자",
+      "value_sha256": "8cd21aa06033047195d790f28fff176ae1dcfe7367667899fbc0b1bfea171fa4",
+      "serialized_sha256": "a3deedf76de50e3c158922bfc2ae7f07cd5092ba6beb0d0384cafff00cbf6113",
+      "encoding": "utf-16-le",
+      "adjacent_property_tag": {
+        "name": "Description",
+        "name_number": 0,
+        "type": "StrProperty",
+        "array_index": 0,
+        "logical_offset": 3867076,
+        "raw_header_hex": "00000318000000000000089a000000000000001000000000"
+      },
+      "status": "pending-consumer-verification",
+      "runtime_display_observed": false,
+      "full_object_parse_verified": false,
+      "evidence_level": "Verified serialized bytes and adjacent StrProperty tag; consumer reachability/meaning pending",
+      "investigation": "Trace actual readers, localization replacement and scene reachability; property names or Test paths alone do not establish visibility or non-use."
+    },
+    {
+      "id": "package-string:29b6b2e20d3953da54fa56c9798374f94e419c2c246facf17097bd0a228d40dd",
+      "resource": "MC2Game/CookedXenon/Startup_int.xxx",
+      "discs": [
+        1,
+        2
+      ],
+      "alias_memberships": [
+        {
+          "disc": 1,
+          "resource": "MC2Game/CookedXenon/Startup_int.xxx"
+        },
+        {
+          "disc": 2,
+          "resource": "MC2Game/CookedXenon/Startup_int.xxx"
+        }
+      ],
+      "package_sha256": "089868b8120f382c22e71329530824e97f03d6c8fb37681a39224dd4fc89c91e",
+      "owner": {
+        "export": 1306,
+        "path": "data_quest.Test.testquest",
+        "class_path": "MC2Game.MC2Quest",
+        "relative_offset": 178
+      },
+      "field": "SpecialReward",
+      "field_name_number": 0,
+      "array_index": 0,
+      "logical_offset": 3867180,
+      "serialized_size": 10,
+      "value": "없음",
+      "value_sha256": "72ea3d64ace5bc9414498b815d4305c8867b0942a508179e0657ad60d1274daa",
+      "serialized_sha256": "0f65ea2506821b85e49429bad57d6551b3af9858a68e07a574cffb0a70bd036b",
+      "encoding": "utf-16-le",
+      "adjacent_property_tag": {
+        "name": "SpecialReward",
+        "name_number": 0,
+        "type": "StrProperty",
+        "array_index": 0,
+        "logical_offset": 3867156,
+        "raw_header_hex": "0000084a000000000000089a000000000000000a00000000"
+      },
+      "status": "pending-consumer-verification",
+      "runtime_display_observed": false,
+      "full_object_parse_verified": false,
+      "evidence_level": "Verified serialized bytes and adjacent StrProperty tag; consumer reachability/meaning pending",
+      "investigation": "Trace actual readers, localization replacement and scene reachability; property names or Test paths alone do not establish visibility or non-use."
+    },
+    {
+      "id": "package-string:5d787c1df8d741370e8d94116a9575c31ee1d7281eb763e8badf826699fde663",
+      "resource": "MC2Game/CookedXenon/Lastrada_Mon_Schauenzeit.xxx",
+      "discs": [
+        2
+      ],
+      "alias_memberships": [
+        {
+          "disc": 2,
+          "resource": "MC2Game/CookedXenon/Lastrada_Mon_Schauenzeit.xxx"
+        }
+      ],
+      "package_sha256": "92144d6c5b764dbfc53c5241971112fea4eb03c0c6fcfd0cfa00fea37b8c829a",
+      "owner": {
+        "export": 2594,
+        "path": "data_char_Sent_Schauenzeit.obj_Sent_Schaun_Rail",
+        "class_path": "MC2Game.MC2Pawn",
+        "relative_offset": 140
+      },
+      "field": "PlayerName",
+      "field_name_number": 0,
+      "array_index": 0,
+      "logical_offset": 10917485,
+      "serialized_size": 34,
+      "value": "슈엔자이트 센티넬 백 레일",
+      "value_sha256": "c91f5b2097e3dff6c37d11356cc7286855a6378ccf0c0455b7114649d33d5b2a",
+      "serialized_sha256": "0922eaa4672494739723f89a41590a335f37859a2dabe76efd350df7baf1b7eb",
+      "encoding": "utf-16-le",
+      "adjacent_property_tag": {
+        "name": "PlayerName",
+        "name_number": 0,
+        "type": "StrProperty",
+        "array_index": 0,
+        "logical_offset": 10917461,
+        "raw_header_hex": "000006fa00000000000008b8000000000000002200000000"
+      },
+      "status": "pending-consumer-verification",
+      "runtime_display_observed": false,
+      "full_object_parse_verified": false,
+      "evidence_level": "Verified serialized bytes and adjacent StrProperty tag; consumer reachability/meaning pending",
+      "investigation": "Trace actual readers, localization replacement and scene reachability; property names or Test paths alone do not establish visibility or non-use."
+    }
+  ],
+  "notes": [
+    "Counts are source-locked candidate fields, not confirmed player omissions.",
+    "All nine Startup_int sample fields remain pending, including explicitly Test-named objects.",
+    "Graph labels, production comments, paths, name identifiers, VM-token and untyped byte candidates remain in the full census/classification; they are not silently removed from coverage.",
+    "This report makes no claim about texture/movie text pixels, unsupported native encodings, or UTF8 FString data outside export ranges."
+  ]
+}

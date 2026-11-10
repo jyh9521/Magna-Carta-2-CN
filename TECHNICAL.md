@@ -1,3 +1,5 @@
+> 阶段366：`MC2Compose.int [Chapter11] Chapter11_27` 与用户图2完全对应；既有pending是语义待查，不是未命中文本。新工具保留所有显式处置、截图来源与44项未决门禁；包内计数FString／VM候选与实际显示分开，见[韩文残留排查](docs/PHASE_366_KOREAN_RESIDUAL_AUDIT.md)。
+
 > 阶段363：Boss／恸哭之门大字实际烘焙于11段Bink，不是已中文的UI模板。完整翼饰、背景时序修复、真无字供体、alpha／全局曝光分离、尾帧保护与6音轨原包运输见 [时序特写重制](docs/PHASE_363_TEMPORAL_TITLES.md)。用户所报独立章节大字仍单独定位。
 
 > 阶段364：当前成品只读筛查新增确认8条Quest前缀、8种正常流派树属性字图及两段换碟提示，地图电影11段仍未部署。宽FString的BE长度／LE载荷、声音键GetChapterStr的完整类型消费者、保留项与真正章节名的剩余未知见 [遗漏筛查](docs/PHASE_364_OMISSION_SCREEN.md)；没有改游戏资源。

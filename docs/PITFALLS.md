@@ -1,3 +1,5 @@
+> 阶段366：`RESULT=CLASSIFIED` 仅表示残留已有处置，不表示无漏译；术语待考字段仍可能在正常游戏流程显示。用户图2已证实Chapter11_27这一点。使用独立的`--require-resolved`门禁，并保留非脚本占位、opaque编码和包扫描盲区；见[本轮证据](PHASE_366_KOREAN_RESIDUAL_AUDIT.md)。
+
 > 阶段358：GTilingMode=0原标签仍是4×AA/3tiles，双变量workaround依靠开关绕过tiling，不是单独关闭AA。60帧的间隔是guest回调／vblank目标，不是VdSwap载荷；合成scratch桥与有界解释不等于真实GPU或帧率验收。后处理找到独立空链分支不等于找回上游原分支。见 [阶段358](XENIA_GRAPHICS_OFFLINE_VALIDATION.md)。
 
 > 阶段357：跨区补丁日志显示“已应用”只证明写入，不证明写对地址。韩版直接套用五个美欧地址会改到其他指令/浮点数据；各函数不共享统一偏移。原始解码代码的 XXH3 也不等于模块 hash：Xenia 先改写内核导入跳板。独立 AF 重定位和散列还原见 [韩版补丁调查](XENIA_PATCH_KOREAN_PORT.md)。

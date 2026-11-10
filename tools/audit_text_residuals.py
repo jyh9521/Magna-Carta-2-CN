@@ -2,6 +2,7 @@
 
 Classification is not translation or runtime acceptance. Locale ranges, literal
 rules and dated field-level dispositions are supplied separately from this tool.
+The optional resolution gate covers findings in the selected text views only.
 """
 from __future__ import annotations
 
@@ -33,6 +34,24 @@ def locked(path, expected, limit=64*1024*1024):
     return raw
 
 
+def observation_metadata(value):
+    """Validate a human observation reference, not its image or asserted meaning.
+
+    External captures may have moved since review. Their path and digest remain
+    checkable provenance; this reader neither opens them nor interprets pixels.
+    """
+    if (not isinstance(value,dict)
+            or set(value)!={'kind','source_path','sha256'}
+            or value.get('kind')!='user-supplied-screenshot'
+            or not isinstance(value.get('source_path'),str)
+            or not value['source_path'].strip() or len(value['source_path'])>4096
+            or any(ord(c)<32 for c in value['source_path'])
+            or not isinstance(value.get('sha256'),str)
+            or not re.fullmatch('[0-9a-f]{64}',value['sha256'])):
+        raise ValueError('Invalid runtime observation metadata')
+    return value
+
+
 def policy_tables(policy):
     if not isinstance(policy,dict) or type(policy.get('schema_version')) is not int or policy['schema_version']!=1 or policy.get('kind')!='text-residual-screen-policy':
         raise ValueError('Unsupported screening policy')
@@ -57,9 +76,17 @@ def policy_tables(policy):
         if (not isinstance(discs,list) or not discs or len(set(discs))!=len(discs)
                 or any(type(d) is not int or not 1<=d<=256 for d in discs)
                 or not re.fullmatch('[0-9a-f]{64}',row['value_sha256'])
-                or row['status'] not in ('excluded','pending')
+                or row['status'] not in ('excluded','pending','confirmed-player-gap')
                 or not row.get('classification') or not row.get('evidence')):
             raise ValueError('Duplicate/incomplete field disposition')
+        if 'runtime_observation' in row:
+            observation_metadata(row['runtime_observation'])
+        elif row['status']=='confirmed-player-gap':
+            raise ValueError('Confirmed player gap requires runtime observation metadata')
+        if 'runtime_display_observed' in row:
+            if (type(row['runtime_display_observed']) is not bool
+                    or row['runtime_display_observed']!=bool(row.get('runtime_observation'))):
+                raise ValueError('Runtime display flag conflicts with observation metadata')
         for disc in discs:
             key=(row['resource'],row['id'],disc)
             if key in decisions:raise ValueError('Duplicate field/disc disposition')
@@ -146,19 +173,22 @@ def screen(inputs, policy, project_root):
             if decision:
                 if any(value_sha!=row['value_sha256'] for row in matches):
                     raise ValueError('Field disposition source drift: '+original['id'])
-                if any((row['classification'],row['status'],row['evidence'])!=
-                       (decision['classification'],decision['status'],decision['evidence']) for row in matches):
+                if any((row['classification'],row['status'],row['evidence'],row.get('runtime_observation'))!=
+                       (decision['classification'],decision['status'],decision['evidence'],decision.get('runtime_observation')) for row in matches):
                     raise ValueError('Conflicting grouped dispositions; split the disc view')
                 used.update(identities)
             matched=[r['id'] for r in rules
                      if original.get('embedded_path','').endswith(r['document_suffix']) and prefix_matches(value,r)]
-            if hits or matched:
+            observation=decision.get('runtime_observation') if decision else None
+            player_gap=bool(decision and decision['status']=='confirmed-player-gap')
+            if hits or matched or decision is not None:
                 findings.append(dict(resource=resource,id=original['id'],discs=discs,
                     context=original.get('context',''),value_sha256=value_sha,
                     original_value_sha256=digest(original['source'].encode('utf8')),
                     value_excerpt=value[:120],script_hits=hits,prefix_rules=matched,
-                    disposition=decision,status='confirmed-resource-gap' if matched else decision['status'] if decision else 'unclassified',
-                    runtime_display_observed=False))
+                    disposition=decision,status='confirmed-player-gap' if player_gap else 'confirmed-resource-gap' if matched else decision['status'] if decision else 'unclassified',
+                    runtime_display_observed=bool(observation),runtime_observation=observation,
+                    runtime_observation_semantics_verified=False))
         resources.append(dict(resource=resource,kind=definition['kind'],role=role,discs=discs,
             original_sha256=digest(data[0]),effective_sha256=digest(data[1]),entries=len(rows),
             changed_fields=changed,script_fields=dict(counts),opaque_documents=opaque))
@@ -170,7 +200,12 @@ def screen(inputs, policy, project_root):
         script_residuals=sum(bool(r['script_hits']) for r in findings),
         classified_residuals=sum(bool(r['script_hits']) and r['status']!='unclassified' for r in findings),
         prefix_gaps=sum(bool(r['prefix_rules']) for r in findings),
-        unclassified=sum(r['status']=='unclassified' for r in findings))
+        unclassified=sum(r['status']=='unclassified' for r in findings),
+        pending=sum(r['status']=='pending' for r in findings),
+        excluded=sum(r['status']=='excluded' for r in findings),
+        confirmed_player_gaps=sum(r['status']=='confirmed-player-gap' for r in findings),
+        unresolved=sum(r['status']!='excluded' for r in findings),
+        opaque_primary_documents=sum(r['opaque_documents'] for r in resources if r['role']=='primary'))
     return dict(schema_version=1,kind='effective-text-residual-screen',summary=summary,
         resources=resources,findings=findings,source_files_unchanged=True,
         complete_language_coverage_claimed=False,game_started=False,game_rendering_verified=False)
@@ -181,6 +216,8 @@ def main(argv=None):
     for name in ('inputs','policy','output'):parser.add_argument('--'+name,type=Path,required=True)
     parser.add_argument('--inputs-sha256',required=True);parser.add_argument('--policy-sha256',required=True)
     parser.add_argument('--project-root',type=Path,default=Path('.'));parser.add_argument('--require-classified',action='store_true')
+    parser.add_argument('--require-resolved',action='store_true',
+        help='Fail for unresolved findings or opaque primary documents in the selected text views')
     args=parser.parse_args(argv)
     try:
         if args.output.exists() or args.output.resolve() in (args.inputs.resolve(),args.policy.resolve()):
@@ -192,8 +229,12 @@ def main(argv=None):
         raw=(json.dumps(result,ensure_ascii=False,indent=2)+'\n').encode();args.output.parent.mkdir(parents=True,exist_ok=True)
         with args.output.open('xb') as f:f.write(raw)
         if args.output.read_bytes()!=raw:raise ValueError('Report reopening mismatch')
-        s=result['summary'];print(' '.join(k.upper()+'='+str(v) for k,v in s.items())+' RESULT='+('UNCLASSIFIED' if s['unclassified'] else 'CLASSIFIED'))
-        return int(args.require_classified and bool(s['unclassified']))
+        s=result['summary']
+        unresolved=bool(s['unresolved'] or s['opaque_primary_documents'])
+        verdict=('UNRESOLVED' if unresolved else 'RESOLVED') if args.require_resolved else ('UNCLASSIFIED' if s['unclassified'] else 'CLASSIFIED')
+        print(' '.join(k.upper()+'='+str(v) for k,v in s.items())+' RESULT='+verdict)
+        return int((args.require_classified and bool(s['unclassified']))
+                   or (args.require_resolved and unresolved))
     except (ValueError,OSError,KeyError,TypeError,UnicodeError) as error:
         print('ERROR: '+str(error),file=sys.stderr);return 2
 

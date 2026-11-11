@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "kind": "positive-fstring-byte-widen-profile",
+  "profile_id": "mc2-4e4d0811-disc1-narrow-fstring-v1",
+  "image_base": "0x82000000",
+  "image_sha256": "d18d49fb2960426715ba17d61d069cce42b1eadac153af13c9395cd42b1773e9",
+  "window": {
+    "start": "0x8238e0e8",
+    "end": "0x8238e3b0",
+    "sha256": "01e344d4e08b88c5f225de460d998299ab1f670af18027cb1a08ffd838850394"
+  },
+  "labels": {
+    "entry": "0x8238e1dc",
+    "loop": "0x8238e1f0",
+    "compare": "0x8238e204",
+    "done": "0x8238e210"
+  },
+  "evidence": {
+    "positive_length_gate": "0x8238e1b0",
+    "archive_read_return": "0x8238e1dc",
+    "actual_byte_load": "0x8238e1f0",
+    "actual_wide_store": "0x8238e1fc",
+    "allocator_and_archive_read": "preconditions, not executed in bounded replay",
+    "interpretation": "Unsigned byte widening, not CP949/UTF8 or a guessed code page."
+  }
+}

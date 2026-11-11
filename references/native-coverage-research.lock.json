@@ -1,0 +1,96 @@
+{
+  "schema_version": 1,
+  "kind": "native-payload-format-research",
+  "references": [
+    {
+      "repository": "https://github.com/gildor2/UEViewer",
+      "revision": "882794d2624ae1db987da986e03b138b5d177787",
+      "path": "Unreal/UnCoreSerialize.cpp",
+      "sha256": "c3b0e58e2afce51d2c6d7598dd516e4a16df5be9feded9462afd52b50649fdb8",
+      "use": "Format comparison only; implementation independently authored; no source copied"
+    },
+    {
+      "repository": "https://github.com/gildor2/UEViewer",
+      "revision": "882794d2624ae1db987da986e03b138b5d177787",
+      "path": "Unreal/UnObject.cpp",
+      "sha256": "c21084456e2fe3075f5eaf77cc04e2de79a43cdee3085e01426bc20a6676ac59",
+      "use": "Format comparison only; implementation independently authored; no source copied"
+    },
+    {
+      "repository": "https://github.com/gildor2/UEViewer",
+      "revision": "882794d2624ae1db987da986e03b138b5d177787",
+      "path": "Unreal/UnrealMaterial/UnMaterial3.h",
+      "sha256": "dd1f2d8b84aa96e88e4449377daf60ff63cf794335fdb27ce2d1577d5095e5e0",
+      "use": "Format comparison only; implementation independently authored; no source copied"
+    },
+    {
+      "repository": "https://github.com/gildor2/UEViewer",
+      "revision": "882794d2624ae1db987da986e03b138b5d177787",
+      "path": "Unreal/UnrealMaterial/UnTexture3.cpp",
+      "sha256": "63d55c53aa4b8506286d2238cc3dae2e0ea1d19623f26ef20498a19097f21369",
+      "use": "Format comparison only; implementation independently authored; no source copied"
+    },
+    {
+      "repository": "https://github.com/gildor2/UEViewer",
+      "revision": "882794d2624ae1db987da986e03b138b5d177787",
+      "path": "Unreal/UnrealMesh/UnMesh3.cpp",
+      "sha256": "83f39365a2623975a8d7ba509622865f395f33b5159f04fe9226cd95964cbb60",
+      "use": "Format comparison only; implementation independently authored; no source copied"
+    },
+    {
+      "repository": "https://github.com/gildor2/UEViewer",
+      "revision": "882794d2624ae1db987da986e03b138b5d177787",
+      "path": "Unreal/UnrealMesh/UnMesh3.h",
+      "sha256": "75cafc61f34fa5e1bd8f3eeb45031b1fecf75e8da75fb48e25b6592971dcf62a",
+      "use": "Format comparison only; implementation independently authored; no source copied"
+    },
+    {
+      "repository": "https://github.com/ME3Tweaks/LegendaryExplorer",
+      "revision": "b5e746233491ec5a7cbfc077685996af37a3d125",
+      "path": "LegendaryExplorer/LegendaryExplorerCore/Unreal/BinaryConverters/StaticMesh.cs",
+      "sha256": "f5a6a4dbb4c5acf0bfac719c8eba1f520b46d31086ed30537d2f3275bdc5c2ed",
+      "use": "Format comparison only; PC/ME profiles not blindly applied to Xenon; no source copied"
+    },
+    {
+      "repository": "https://github.com/ME3Tweaks/LegendaryExplorer",
+      "revision": "b5e746233491ec5a7cbfc077685996af37a3d125",
+      "path": "LegendaryExplorer/LegendaryExplorerCore/Unreal/BinaryConverters/ShaderCache.cs",
+      "sha256": "90738841503648534883c80387664fcecbdcddb28ee36969dc51b9b403efff9d",
+      "use": "Format comparison only; PC/ME profiles not blindly applied to Xenon; no source copied"
+    },
+    {
+      "repository": "https://github.com/ME3Tweaks/LegendaryExplorer",
+      "revision": "b5e746233491ec5a7cbfc077685996af37a3d125",
+      "path": "LegendaryExplorer/LegendaryExplorerCore/Unreal/BinaryConverters/Material.cs",
+      "sha256": "ed3f8e802232ed59dc8c65ea7b1049b2803cd96d3a69f016800a4d400c2dd392",
+      "use": "Format comparison only; PC/ME profiles not blindly applied to Xenon; no source copied"
+    },
+    {
+      "repository": "https://github.com/ME3Tweaks/LegendaryExplorer",
+      "revision": "b5e746233491ec5a7cbfc077685996af37a3d125",
+      "path": "LegendaryExplorer/LegendaryExplorerCore/Unreal/BinaryConverters/Model.cs",
+      "sha256": "f77e5ac8324fd5c5831400f6b2ea969e91f8b0381651e3c8eb148365d9e5512e",
+      "use": "Format comparison only; implementation independently authored; no source copied"
+    },
+    {
+      "repository": "https://github.com/ME3Tweaks/LegendaryExplorer",
+      "revision": "b5e746233491ec5a7cbfc077685996af37a3d125",
+      "path": "LegendaryExplorer/LegendaryExplorerCore/Unreal/BinaryConverters/Terrain.cs",
+      "sha256": "e6f10cb797a041dc74c7666019226cefa91a1bef8abb54edba7455bcc2cbfd42",
+      "use": "Format comparison only; implementation independently authored; no source copied"
+    }
+  ],
+  "local_profile": {
+    "package_version": 446,
+    "licensee_version": 25,
+    "byte_order": "big",
+    "supported_engine_classes": [
+      "Engine.StaticMesh",
+      "Engine.ShaderCache"
+    ]
+  },
+  "preserved_unknowns": [
+    "ShaderCache subclass parameter semantics remain high-confidence deduction; 84 regions /1792 bytes, no phase366 candidate intersection",
+    "Compiler-specific GPU instruction semantics and individual parameter slot names not decoded"
+  ]
+}

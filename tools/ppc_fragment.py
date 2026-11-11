@@ -13,6 +13,8 @@ https://github.com/xenia-canary/xenia-canary/blob/96ce1ac47/src/xenia/cpu/ppc/pp
 https://www.ibm.com/docs/tr/aix/7.3?topic=set-subfe-sfe-subtract-from-extended-instruction
 https://www.ibm.com/docs/en/aix/7.1.0?topic=set-lhzu-load-half-zero-update-instruction
 https://www.nxp.com/docs/en/user-guide/821INSTSET.pdf (SRAWI opcode/carry)
+https://www.ibm.com/docs/en/aix/7.3.0?topic=set-lbzx-load-byte-zero-indexed-instruction
+https://www.ibm.com/docs/ssw_aix_71/assembler/idalangref_sthx_instrs.html
 """
 from __future__ import annotations
 
@@ -123,9 +125,9 @@ def run_fragment(image:bytes,base:int,window:tuple[int,int],entry:int,
 
     def read_integer(raw_address,width):
         a=canonical_address(raw_address)
-        name='word' if width==4 else 'halfword'
+        name={1:'byte',2:'halfword',4:'word'}[width]
         if a%width:raise FragmentError(f'unaligned {name} read')
-        fmt='>I' if width==4 else '>H'
+        fmt={1:'>B',2:'>H',4:'>I'}[width]
         if base<=a<=base+len(image)-width:
             return struct.unpack_from(fmt,image,a-base)[0]
         for start,data,_ in segments:
@@ -229,10 +231,14 @@ def run_fragment(image:bytes,base:int,window:tuple[int,int],entry:int,
                 left=reg(ra)&MASK32;right=reg(rb)&MASK32
                 if xo==0:left=_signed(left,32);right=_signed(right,32)
                 compare((word>>23)&7,left,right)
-            elif xo in (23,279):  # LWZX / LHZX.
+            elif xo in (23,87,279):  # LWZX / LBZX / LHZX.
                 if rc:raise FragmentError('unsupported indexed load record bit')
                 address=((reg(ra) if ra else 0)+reg(rb))&MASK64
-                regs[rt]=read_integer(address,4 if xo==23 else 2)
+                regs[rt]=read_integer(address,{23:4,87:1,279:2}[xo])
+            elif xo==407:  # STHX; no update or record form.
+                if rc:raise FragmentError('unsupported indexed store record bit')
+                address=((reg(ra) if ra else 0)+reg(rb))&MASK64
+                write_integer(address,reg(rt),2)
             elif xo==266:
                 if rc:raise FragmentError('unsupported ADD record bit')
                 regs[rt]=(reg(ra)+reg(rb))&MASK64

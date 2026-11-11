@@ -1752,3 +1752,9 @@ Verified：剧情结束标题存在实际`FinishCSMB → ActivateRemoteEvent →
 此前排除的声音键`GetChapterStr`或定格画面`SubTitle`。绑定与当前别名逐图验证见
 [独立消费者调查](docs/PHASE_365_POSTCUTSCENE_TITLE_ROUTE.md)。
 用户所指独立大章节卡是否属于这条显示路线仍未证实，不以入口标题已中文替代该项验收。
+
+## 阶段369：剩余文本覆盖的证据分层
+
+[阶段369](docs/PHASE_369_COVERAGE_CLOSURE.md)区分实际字符串、token操作数、native数组、重定位旧区和像素文字。
+新增工具、源码参考和逐项判定均保留；只读解析通过不代表原生消费者或游戏显示已运行。
+两盘FString窗口一致、当前补丁不覆盖该窗口，Core窄字节重放与策略提取分别验证。

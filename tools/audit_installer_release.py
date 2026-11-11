@@ -35,6 +35,18 @@ def compare_manifest(manifest, recipe):
     return dict(resources=checked,dlc=len(wanted),failures=failures,passed=not failures)
 
 
+def compare_usage(manifest, expected, actual):
+    """Check the current authored instructions, not only self-consistent payloads."""
+    if (not isinstance(expected,bytes) or not isinstance(actual,bytes)
+            or not 0<len(expected)<=4*1024*1024 or not 0<len(actual)<=4*1024*1024):
+        raise ValueError('usage input must be bounded nonempty bytes')
+    failures=[]
+    if hashlib.sha256(actual).hexdigest()!=manifest.get('usage_sha256'):
+        failures.append('embedded usage identity')
+    if actual!=expected:failures.append('current usage instructions')
+    return failures
+
+
 def pe_version(data):
     import pefile
     pe=pefile.PE(data=data,fast_load=True)
@@ -60,6 +72,8 @@ def audit(installer, recipe):
     def member(relative):return archive.extract('payload\\'+relative.replace('/','\\'))
     raw=member('patch/manifest.json');manifest=json.loads(raw);inventory=json.loads(member('release-files.json'))
     result=compare_manifest(manifest,recipe);issues=list(result['failures'])
+    usage_path=Path(recipe['usage']);expected_usage=usage_path.read_bytes()
+    issues.extend(compare_usage(manifest,expected_usage,member('patch/USAGE.txt')))
     if hashlib.sha256(raw).hexdigest()!=inventory['manifest_sha256']:issues.append('embedded manifest identity')
     expected_members={'payload/'+n for n in inventory['files']}|{'payload/release-files.json'}
     actual_members={n.replace('\\','/')for n in archive.toc if n.replace('\\','/').startswith('payload/')}
@@ -76,7 +90,9 @@ def audit(installer, recipe):
             issues.append(name+':version')
     result.update(passed=not issues,failures=issues,versions=versions,files=len(inventory['files']),
                   installer=str(installer.resolve()),installer_sha256=sha_file(installer),
-                  manifest_sha256=hashlib.sha256(raw).hexdigest(),game_started=False)
+                  manifest_sha256=hashlib.sha256(raw).hexdigest(),
+                  current_usage_sha256=hashlib.sha256(expected_usage).hexdigest(),game_started=False)
+    if usage_path.read_bytes()!=expected_usage:raise ValueError('usage changed during audit')
     return result
 
 

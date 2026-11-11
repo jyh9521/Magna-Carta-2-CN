@@ -78,7 +78,7 @@ the independent runtime bundle/launcher implementation. Exact source identities
 are in references/runtime-patch-research.lock.json; no upstream implementation or
 emulator binary is committed. The existing Xenia BSD license is retained.
 
-Xbox packed BC texture origin adaptation: Copyright 2022 Ben Vanik / Xenia, BSD-3-Clause, commit28b69c21becd785364bb7c13dfe5b4dd757a8bb3, texture_util.cc GetPackedMipOffset. Source identities in references/texture-layout-research.lock.json; full license in licenses/Xenia-BSD-3-Clause.txt. Existing attributed UEViewer tiled addressing/BC3 codec reused; UEViewer EPixelFormat/DXT1 research corroborates Format5. Only bounded inline single-mip BC1/BC3 production profile integrated; multi-mip/Format2 fixture research is not enabled for patching. No emulator or game asset integrated.
+Xbox packed BC texture origin adaptation: Copyright 2022 Ben Vanik / Xenia, BSD-3-Clause, commit28b69c21becd785364bb7c13dfe5b4dd757a8bb3, texture_util.cc GetPackedMipOffset. Source identities in references/texture-layout-research.lock.json; full license in licenses/Xenia-BSD-3-Clause.txt. Existing attributed UEViewer tiled addressing/BC3 codec reused; UEViewer EPixelFormat/DXT1 research corroborates Format5. Only bounded inline single-mip BC1/BC3 production profile integrated; multi-mip/Format2 fixture research is not enabled for patching. Phase369 adds a separate read-only Format2/multi-mip inspection reader; the production write profile is unchanged. No emulator or game asset integrated.
 
 STFS/XDBF DLC format and content lookup research: Ben Vanik and Xenia contributors,
 xenia-project/xenia (95a5c3ee250f80c3b9d139658649d9ffb6db3eec) and
@@ -111,3 +111,7 @@ The version-guarded research reader is independently implemented, checked agains
 152 real UE3 446/25 source/current volume instances and five synthetic guards.
 No upstream runtime or source is integrated. See the existing MIT notice above
 and `docs/PHASE_365_POSTCUTSCENE_TITLE_ROUTE.md` for the bounded consumer results.
+
+Function storage and bytecode-boundary research: Eliot van Uytfanghe, Unreal-Library, MIT, commit8236c39b79e30887a487ecf9b018204e430a5ebc. Source identities in references/script-boundaries-research.lock.json. Format research only; independent Python implementation, no upstream runtime or game source integrated.
+
+Native payload format comparison: Konstantin Nosov / UEViewer commit882794d2624ae1db987da986e03b138b5d177787, and ME3Tweaks / LegendaryExplorer contributors commitb5e746233491ec5a7cbfc077685996af37a3d125. Model, Terrain, StaticMesh and ShaderCache profiles were compared as research, not assumed platform-identical. Source identities in references/native-coverage-research.lock.json; independent implementation, no upstream implementation or complete game assets copied.

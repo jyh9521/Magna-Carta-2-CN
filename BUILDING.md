@@ -2098,3 +2098,13 @@ Disc1新增9项必须显式登记原始资源，再运行 `refresh_oneclick_prob
 Disc2按锁定原始身份合入共享修订与5段独有地图更新，不合盘，不重建ISO或完整游戏副本。
 大章节路线的新六条CSMB结束事件及HUD／材质证据单列[调查报告](docs/PHASE_365_POSTCUTSCENE_TITLE_ROUTE.md)。
 同一提交仍须通过干净快照预检及四组云端CI，实际EXE三态审计及独立回滚不能用源码测试代替。
+
+## 阶段369：剩余覆盖缺口与说明同步
+
+见[逐项复核](docs/PHASE_369_COVERAGE_CLOSURE.md)。本轮游戏资源维持阶段368的471／573＋2DLC，
+不因误匹配候选制造binary改动。Core.int通过源锁原生窄字节回放加入读取视图；
+使用 `locales/zh-Hans/omission-screen-v39.json` 与 `--require-resolved` 可复核18,281主字段、315 cue。
+生产重建入口不扩大原纹理／UI执行profile；新VM和多mip读取器仅供只读调查。
+原测试副本按已有packet摘要重新核验／刷新，并同步测试清单。
+安装器仍从锁定recipe及用户原盘重建，`src/installer/USAGE.txt`随bundle收录；
+安装器审计现在也要求嵌入说明与当前source字节相同。独立副本回滚和四件证据随本轮保存。

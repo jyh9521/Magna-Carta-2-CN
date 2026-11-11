@@ -9,7 +9,7 @@ import unittest
 from unittest.mock import patch
 
 from tools.audit_text_residuals import digest,locked,main,paired_rows,policy_tables,prefix_matches,screen
-from tools.coalesced import serialize,extract_entries,parse
+from tools.coalesced import EmbeddedFile,SerializedString,serialize,extract_entries,parse
 from test_coalesced import fixture
 
 
@@ -20,6 +20,42 @@ def policy():
 
 
 class ResidualScreenTests(unittest.TestCase):
+    def opaque_inputs(self, root):
+        files=fixture('[Demo]\nText=own\n');old=files[0]
+        payload=b'[Demo]\nText=own\xa9\n'
+        files[0]=EmbeddedFile(old.path,SerializedString(payload.decode('latin1'),'opaque-8bit',0))
+        raw=serialize(files);(root/'a.bin').write_bytes(raw);(root/'b.bin').write_bytes(raw)
+        inputs=dict(schema_version=1,kind='effective-text-screen-inputs',resources=[dict(
+            resource='fixture.int',kind='coalesced',role='primary',discs=[1,2],
+            original=dict(file='a.bin',sha256=digest(raw)),effective=dict(file='b.bin',sha256=digest(raw)))])
+        p=policy();p['document_decoders']=[dict(resource='fixture.int',embedded_path=old.path.text,
+            discs=[1,2],payload_sha256=digest(payload),decoder='unsigned-byte-to-u16',evidence='authored-native-loop')]
+        return inputs,p,raw
+
+    def test_bound_decoder_adds_real_fields_without_changing_storage_or_defaults(self):
+        with tempfile.TemporaryDirectory() as temp:
+            root=Path(temp);inputs,p,raw=self.opaque_inputs(root)
+            baseline=screen(inputs,policy(),root);self.assertEqual(baseline['summary']['opaque_primary_documents'],1)
+            result=screen(inputs,p,root);self.assertEqual(result['summary']['opaque_primary_documents'],0)
+            self.assertEqual(result['summary']['primary_fields'],baseline['summary']['primary_fields']+1)
+            self.assertEqual(result['resources'][0]['source_bound_document_decoders'],p['document_decoders'])
+            self.assertEqual((root/'a.bin').read_bytes(),raw);self.assertEqual((root/'b.bin').read_bytes(),raw)
+            self.assertEqual(parse(raw)[0].content.encoding,'opaque-8bit')
+
+    def test_bound_decoder_rejects_drift_partial_absent_unknown_and_duplicate(self):
+        with tempfile.TemporaryDirectory() as temp:
+            root=Path(temp);inputs,p,raw=self.opaque_inputs(root)
+            for changes in (dict(payload_sha256='0'*64),dict(discs=[1]),dict(discs=[True]),
+                            dict(embedded_path='missing'),dict(resource='missing'),dict(decoder='cp949'),
+                            dict(evidence=''),dict(payload_sha256=True)):
+                bad=copy.deepcopy(p);bad['document_decoders'][0].update(changes)
+                with self.subTest(changes=changes),self.assertRaises(ValueError):screen(inputs,bad,root)
+            bad=copy.deepcopy(p);bad['document_decoders']*=2
+            with self.assertRaisesRegex(ValueError,'Duplicate'):screen(inputs,bad,root)
+            plain=serialize(fixture('[Demo]\nText=own\n'));(root/'b.bin').write_bytes(plain)
+            inputs['resources'][0]['effective']['sha256']=digest(plain)
+            with self.assertRaisesRegex(ValueError,'opaque storage'):screen(inputs,p,root)
+
     def inputs(self,root,before='[Demo]\nText=원본\nPrefix=Quest%s: 自制\n',after=None):
         after=before if after is None else after
         a=serialize(fixture(before));b=serialize(fixture(after))

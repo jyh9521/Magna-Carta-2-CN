@@ -1792,3 +1792,11 @@ StateStack自189引入，LatentAction到566才缩为u16，ProbeMask到691才缩�
 读取器为独立实现；本地保留上游文件SHA和实际源对象前缀、字段范围。5项合成guard测试
 与双盘152个真实volume实例支持此有限profile，不推广为完整运行时状态／所有Actor支持。
 实际纹理／字符串消费者及证据边界见[过场后标题路线](PHASE_365_POSTCUTSCENE_TITLE_ROUTE.md)。
+
+## 阶段369：只读边界扩展
+
+- `ue3_script_boundaries`显式处理446/25 Function存储、FName number后缀、Net ReplicationOffset和完整脚本token／operand边界；旧严格UI parser不变。见[VM边界](VM_STRING_BOUNDARIES.md)。
+- `replay_narrow_fstring`解释源锁PPC LBZX／STHX窄字节变宽循环；默认Coalesced编码判断不变，只在外置策略授权的读取视图加入Core的105字段。见[Core证据](PHASE_369_COVERAGE_CLOSURE.md#coreint)。
+- `texture_inspection`只读Format2／BC1／BC3多mip与外置payload，原生流读到精确末尾并校验实际packed地址。生产补丁仍限已有profile。见[图片复核](PHASE_369_VISUAL_NATIVE_CLOSURE.md)。
+
+- `ue3_native_coverage`独立只读检查38个StaticMesh和1个ShaderCache；容器字节覆盖与Shader84段／1792字节的未解参数语义严格区分。见[NATIVE_PAYLOAD_COVERAGE](NATIVE_PAYLOAD_COVERAGE.md)。

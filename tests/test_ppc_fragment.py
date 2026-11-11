@@ -117,6 +117,24 @@ class FragmentTests(unittest.TestCase):
         self.assertEqual(r.stores,((a+4,0x9876),))
         self.assertEqual(raw,bytes.fromhex('1234ffff0000'))
 
+    def test_indexed_byte_widen_and_halfword_store_are_unsigned_bounded(self):
+        a=0x90000000;out=0x90000100
+        for value in (0,0x7f,0x80,0xa9,0xff):
+            raw=bytes([0x11,value]);r=execute([x(3,4,5,87),x(3,0,6,407)],
+                {4:a,5:1,6:out},[MemorySegment(a,raw),MemorySegment(out,b'xx',True)])
+            self.assertEqual(r.registers[3],value)
+            self.assertEqual(r.segments[1].data,bytes([0,value]))
+            self.assertEqual(r.segments[0].data,raw)
+        r=execute([x(3,0,4,87)],{4:a+1},[MemorySegment(a,b'\x00\xff')])
+        self.assertEqual(r.registers[3],255)
+        for word,regs in [(x(3,4,5,87,1),{4:a,5:1}),
+                (x(3,4,5,87),{4:a,5:2}), (x(3,0,4,407,1),{3:1,4:a}),
+                (x(3,0,4,407),{3:1,4:a+1})]:
+            with self.subTest(word=word),self.assertRaises(FragmentError):
+                execute([word],regs,[MemorySegment(a,b'xy',True)])
+        with self.assertRaisesRegex(FragmentError,'read-only'):
+            execute([x(3,0,4,407)],{3:0xa9,4:a},[MemorySegment(a,b'xy')])
+
     def test_halfword_invalid_updates_alignment_bounds_and_record_fail(self):
         for word in [d(41,3,0,0),d(41,3,3,0),x(3,4,5,279,1),
                      d(40,3,4,1),d(40,3,4,2),d(44,3,4,1),d(44,3,4,2)]:

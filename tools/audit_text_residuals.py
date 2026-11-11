@@ -14,7 +14,7 @@ from pathlib import Path
 import re
 import sys
 
-from .coalesced import extract_entries, parse, serialize
+from .coalesced import EmbeddedFile, SerializedString, extract_entries, parse, serialize
 from .font_binding_plan import confined_path
 from .subtitle_text import parse as subtitle_parse
 from .verify_resource_phase import unique
@@ -112,16 +112,60 @@ def prefix_matches(value, rule):
     return not rest or not (rest[0].isascii() and (rest[0].isalnum() or rest[0]=='_'))
 
 
-def paired_rows(before, after, resource, kind):
+def decoder_tables(policy):
+    """Explicit source-bound read views; never change parser defaults or bytes."""
+    rows=policy.get('document_decoders',[])
+    if not isinstance(rows,list) or len(rows)>64:raise ValueError('Bounded document decoders required')
+    table={}
+    for row in rows:
+        if (not isinstance(row,dict) or set(row)!={'resource','embedded_path','discs','payload_sha256','decoder','evidence'}
+                or row['decoder']!='unsigned-byte-to-u16'
+                or not isinstance(row['resource'],str) or not row['resource']
+                or not isinstance(row['embedded_path'],str) or not row['embedded_path']
+                or not isinstance(row['evidence'],str) or not row['evidence'].strip()
+                or not isinstance(row['payload_sha256'],str) or not re.fullmatch('[0-9a-f]{64}',row['payload_sha256'])
+                or not isinstance(row['discs'],list) or not row['discs']
+                or any(type(d) is not int or not 1<=d<=256 for d in row['discs'])
+                or len(set(row['discs']))!=len(row['discs'])):
+            raise ValueError('Invalid source-bound document decoder')
+        for disc in row['discs']:
+            key=(row['resource'],row['embedded_path'],disc)
+            if key in table:raise ValueError('Duplicate document decoder membership')
+            table[key]=row
+    return table
+
+
+def decoded_view(files, decoders):
+    result=[];used=set()
+    for file in files:
+        row=decoders.get(file.path.text)
+        if row:
+            if file.content.encoding!='opaque-8bit':
+                raise ValueError('Document decoder requires the declared opaque storage')
+            raw=file.content.text.encode('latin1')
+            if b'\0' in raw or digest(raw)!=row['payload_sha256']:
+                raise ValueError('Document decoder source drift')
+            # This view is consumed only by extraction, never by serialize().
+            text=''.join(chr(b) for b in raw)
+            file=EmbeddedFile(file.path,SerializedString(text,'verified-byte-widen-view',file.content.offset))
+            used.add(file.path.text)
+        result.append(file)
+    if used!=set(decoders):raise ValueError('Document decoder absent from source')
+    return result
+
+
+def paired_rows(before, after, resource, kind, document_decoders=None):
     if kind=='coalesced':
         old,new=parse(before),parse(after)
         if serialize(old)!=before or serialize(new)!=after:
             raise ValueError('Text container roundtrip failed')
+        old=decoded_view(old,document_decoders or {});new=decoded_view(new,document_decoders or {})
         a,b=extract_entries(old,resource),extract_entries(new,resource)
         if [r['id'] for r in a]!=[r['id'] for r in b]:
             raise ValueError('Text field identities changed')
         return [(x,y['source']) for x,y in zip(a,b,strict=True)],sum(f.content.encoding=='opaque-8bit' for f in new)
     if kind=='timed-cues':
+        if document_decoders:raise ValueError('Document decoder requires coalesced input')
         _,old=subtitle_parse(before);_,new=subtitle_parse(after)
         if [(m[2],m[6],m[3]) for m in old]!=[(m[2],m[6],m[3]) for m in new]:
             raise ValueError('Cue timing/class identities changed')
@@ -133,6 +177,7 @@ def paired_rows(before, after, resource, kind):
 
 def screen(inputs, policy, project_root):
     ranges,decisions,rules=policy_tables(policy)
+    decoders=decoder_tables(policy);used_decoders=set()
     if not isinstance(inputs,dict):raise ValueError('Expected effective text input object')
     definitions=inputs.get('resources')
     if (type(inputs.get('schema_version')) is not int or inputs['schema_version']!=1 or inputs.get('kind')!='effective-text-screen-inputs'
@@ -155,7 +200,14 @@ def screen(inputs, policy, project_root):
             snapshots[path]=ref['sha256'];data.append(raw)
         total_bytes+=sum(map(len,data))
         if total_bytes>256*1024*1024:raise ValueError('Total text byte bound')
-        rows,opaque=paired_rows(*data,resource,definition['kind']);total_fields+=len(rows)
+        selected={}
+        for key,row in decoders.items():
+            if key[0]==resource and key[2] in discs:
+                matches=[decoders.get((resource,key[1],disc)) for disc in discs]
+                if any(v is None or v!=row for v in matches):
+                    raise ValueError('Partially decoded membership; split the disc view')
+                selected[key[1]]=row;used_decoders.add(key)
+        rows,opaque=paired_rows(*data,resource,definition['kind'],selected);total_fields+=len(rows)
         if len(rows)>100000 or total_fields>256000:
             raise ValueError('Resource screening bound')
         counts=Counter();changed=0
@@ -192,6 +244,9 @@ def screen(inputs, policy, project_root):
         resources.append(dict(resource=resource,kind=definition['kind'],role=role,discs=discs,
             original_sha256=digest(data[0]),effective_sha256=digest(data[1]),entries=len(rows),
             changed_fields=changed,script_fields=dict(counts),opaque_documents=opaque))
+        if selected:resources[-1]['source_bound_document_decoders']=list(selected.values())
+    if set(decoders)!=used_decoders:
+        raise ValueError('Document decoder absent from current input views')
     if set(decisions)!=used:
         raise ValueError('Disposition field absent from current primary view')
     for path,expected in snapshots.items():locked(path,expected)

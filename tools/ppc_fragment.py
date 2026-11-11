@@ -11,6 +11,8 @@ wrapping mask can retain upper-word bits. Carry here is explicitly 64-bit.
 Semantic cross-checks (independent implementation, no upstream code copied):
 https://github.com/xenia-canary/xenia-canary/blob/96ce1ac47/src/xenia/cpu/ppc/ppc_emit_alu.cc#L987-L1035
 https://www.ibm.com/docs/tr/aix/7.3?topic=set-subfe-sfe-subtract-from-extended-instruction
+https://www.ibm.com/docs/en/aix/7.1.0?topic=set-lhzu-load-half-zero-update-instruction
+https://www.nxp.com/docs/en/user-guide/821INSTSET.pdf (SRAWI opcode/carry)
 """
 from __future__ import annotations
 
@@ -119,25 +121,29 @@ def run_fragment(image:bytes,base:int,window:tuple[int,int],entry:int,
         if r not in regs:raise FragmentError(f'unknown register r{r}')
         return regs[r]
 
-    def read_word(raw_address):
+    def read_integer(raw_address,width):
         a=canonical_address(raw_address)
-        if a%4:raise FragmentError('unaligned word read')
-        if base<=a<=base+len(image)-4:
-            return struct.unpack_from('>I',image,a-base)[0]
+        name='word' if width==4 else 'halfword'
+        if a%width:raise FragmentError(f'unaligned {name} read')
+        fmt='>I' if width==4 else '>H'
+        if base<=a<=base+len(image)-width:
+            return struct.unpack_from(fmt,image,a-base)[0]
         for start,data,_ in segments:
-            if start<=a<=start+len(data)-4:
-                return struct.unpack_from('>I',data,a-start)[0]
+            if start<=a<=start+len(data)-width:
+                return struct.unpack_from(fmt,data,a-start)[0]
         raise FragmentError(f'unknown memory read at 0x{a:08X}')
 
-    def write_word(raw_address,value):
+    def write_integer(raw_address,value,width):
         a=canonical_address(raw_address)
-        if a%4:raise FragmentError('unaligned word write')
-        if a<base+len(image) and base<a+4:raise FragmentError('image is read-only')
+        name='word' if width==4 else 'halfword'
+        if a%width:raise FragmentError(f'unaligned {name} write')
+        if a<base+len(image) and base<a+width:raise FragmentError('image is read-only')
         for start,data,writable in segments:
-            if start<=a<=start+len(data)-4:
+            if start<=a<=start+len(data)-width:
                 if not writable:raise FragmentError('synthetic memory is read-only')
-                struct.pack_into('>I',data,a-start,value&MASK32)
-                stores.append((a,value&MASK32));return
+                value&=(1<<(width*8))-1
+                struct.pack_into('>I' if width==4 else '>H',data,a-start,value)
+                stores.append((a,value));return
         raise FragmentError(f'unknown memory write at 0x{a:08X}')
 
     def compare(field,left,right):
@@ -167,11 +173,19 @@ def run_fragment(image:bytes,base:int,window:tuple[int,int],entry:int,
         elif op in (32,36,37,48):
             if op==37 and not ra:raise FragmentError('STWU requires a nonzero base register')
             address=((reg(ra) if ra else 0)+simm)&MASK64
-            if op==32:regs[rt]=read_word(address)
-            elif op==48:fpr[rt]=read_word(address)
+            if op==32:regs[rt]=read_integer(address,4)
+            elif op==48:fpr[rt]=read_integer(address,4)
             else:
-                value=reg(rt);write_word(address,value)
+                value=reg(rt);write_integer(address,value,4)
                 if op==37:regs[ra]=address
+        elif op in (40,41,44):  # LHZ / LHZU / STH, big-endian halfwords.
+            if op==41 and (not ra or ra==rt):
+                raise FragmentError('LHZU requires nonzero base distinct from target')
+            address=((reg(ra) if ra else 0)+simm)&MASK64
+            if op==44:write_integer(address,reg(rt),2)
+            else:
+                regs[rt]=read_integer(address,2)
+                if op==41:regs[ra]=address
         elif op in (10,11):  # CMPLWI / CMPWI; reject 64-bit/reserved forms.
             if word&(3<<21):raise FragmentError('unsupported compare length/reserved bits')
             field=(word>>23)&7;left=reg(ra)&MASK32
@@ -201,15 +215,24 @@ def run_fragment(image:bytes,base:int,window:tuple[int,int],entry:int,
                 total=(~reg(ra)&MASK64)+reg(rb)+int(carry)
                 regs[rt]=total&MASK64;carry=total>MASK64
                 if rc:record(regs[rt])
+            elif xo==40:  # SUBF; OE forms remain unsupported.
+                regs[rt]=(reg(rb)-reg(ra))&MASK64
+                if rc:record(regs[rt])
+            elif xo==824:  # SRAWI sign-extends the low-word result in PPC64.
+                source=reg(rt)&MASK32;shift=rb
+                signed=_signed(source,32)
+                regs[ra]=(signed>>shift)&MASK64
+                carry=signed<0 and bool(source&((1<<shift)-1))
+                if rc:record(regs[ra])
             elif xo in (0,32):
                 if rc or word&(3<<21):raise FragmentError('unsupported compare length/reserved bits')
                 left=reg(ra)&MASK32;right=reg(rb)&MASK32
                 if xo==0:left=_signed(left,32);right=_signed(right,32)
                 compare((word>>23)&7,left,right)
-            elif xo==23:
+            elif xo in (23,279):  # LWZX / LHZX.
                 if rc:raise FragmentError('unsupported indexed load record bit')
                 address=((reg(ra) if ra else 0)+reg(rb))&MASK64
-                regs[rt]=read_word(address)
+                regs[rt]=read_integer(address,4 if xo==23 else 2)
             elif xo==266:
                 if rc:raise FragmentError('unsupported ADD record bit')
                 regs[rt]=(reg(ra)+reg(rb))&MASK64

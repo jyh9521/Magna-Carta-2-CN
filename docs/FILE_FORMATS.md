@@ -1,3 +1,5 @@
+> 阶段368新增 `ue3-relocated-wide-tagged-strings-v1`：负BE长度＋UTF16LE的StrProperty可变长重建，完整自包含tagged对象4字节对齐追加，只改export记录+32处size／offset各4字节，全包32768对齐。旧payload保留但不再属于活动导出；重叠、数组、未知native tail／struct拒绝。详见[阶段368](PHASE_368_PENDING_CLOSURE.md)。损坏MC2Game.int仍可解码为UTF16LE，却未满足原生INI节准入，不能用宽松行提取等同注册。
+
 > 阶段367 Verified：等长wide StrProperty修改profile仅支持BE未压缩包、offset4非stack/CDO、完整对象tagged解析；BE负长度计UTF16单元且含NUL，字符载荷为LE。只改已锁定对象/类/array_index/旧新payload SHA的字段，反向逐字节相同；见[实现及合同](PHASE_367_RESIDUAL_REPAIRS.md)。
 
 > 阶段330：timed-subtitle条目可显式提供仅针对`<br>`的`break_policy`与前后次数，反向重建交换次数并保持时码/clear事件；UE3标量字段补丁按导出payload SHA、嵌套tag路径、array_index和精确旧/新字节守护。见 [文本](PHASE_330_TEXT_LAYOUT.md) / [UI字段](PHASE_330_UI_CONSUMERS.md)。

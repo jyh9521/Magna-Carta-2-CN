@@ -1,0 +1,101 @@
+{
+  "schema_version": 1,
+  "profile_id": "mc2-4e4d0811-disc1-native-ini-registration-v1",
+  "image_base": "0x82000000",
+  "image_sha256": "d18d49fb2960426715ba17d61d069cce42b1eadac153af13c9395cd42b1773e9",
+  "windows": {
+    "loader": {
+      "start": "0x82479468",
+      "end": "0x82479860",
+      "sha256": "b96c3c9ac3eafa98d5b261d1eca166a971b52ec98abb178f5b849af8c0fc8caa"
+    },
+    "array": {
+      "start": "0x822de1a8",
+      "end": "0x822de2e8",
+      "sha256": "e5559c046082091ae03fabf853d648d0bade745add75f11b4bc322d2c6dd31c0"
+    },
+    "fstring": {
+      "start": "0x8238e0e8",
+      "end": "0x8238e3b0",
+      "sha256": "01e344d4e08b88c5f225de460d998299ab1f670af18027cb1a08ffd838850394"
+    },
+    "macro_replace": {
+      "start": "0x8238d958",
+      "end": "0x8238da78",
+      "sha256": "c482f20eb07df02bdc26f8103eda8f35e7142615c9e88ccb941ce055bebe7e99"
+    },
+    "parser": {
+      "start": "0x82478278",
+      "end": "0x82478748",
+      "sha256": "c0979bc012880f2b6e4d508ca2023e51564598e0342c54992342f3399e16d028"
+    },
+    "wcslen": {
+      "start": "0x8286e0e0",
+      "end": "0x8286e104",
+      "sha256": "112d123456fb6311e799bcad0450ee59f14828ec893bd4dd2eb2142a30b53378"
+    },
+    "wcsstr": {
+      "start": "0x8286e920",
+      "end": "0x8286e994",
+      "sha256": "343f85b260dfff18fb673ce65b13cf114e22706d8b83b1f8618c92a49e3d43e6"
+    }
+  },
+  "labels": {
+    "swap_entry": "0x8238e23c",
+    "swap_loop": "0x8238e250",
+    "swap_compare": "0x8238e274",
+    "swap_done": "0x8238e280",
+    "parser_init": "0x824782c0",
+    "skip_newline": "0x824782e0",
+    "line_start": "0x824782fc",
+    "scan": "0x8247830c",
+    "scan_update": "0x82478320",
+    "split_line": "0x8247832c",
+    "length_call": "0x82478354",
+    "length_return": "0x82478358",
+    "section_admitted": "0x8247836c",
+    "section_gate": "0x824783f4",
+    "find_call": "0x82478410",
+    "find_return": "0x82478414",
+    "key_admitted": "0x8247841c",
+    "line_end": "0x82478730",
+    "parser_done": "0x82478738",
+    "length_entry": "0x8286e0e0",
+    "length_loop": "0x8286e0e4",
+    "length_compare": "0x8286e0ec",
+    "length_return_pc": "0x8286e100",
+    "find_entry": "0x8286e920",
+    "find_empty_return": "0x8286e928",
+    "find_outer": "0x8286e92c",
+    "find_reset": "0x8286e93c",
+    "find_inner": "0x8286e948",
+    "find_check": "0x8286e970",
+    "find_match_return": "0x8286e978",
+    "find_advance": "0x8286e97c",
+    "find_return_pc": "0x8286e990"
+  },
+  "constants": {
+    "macro": {
+      "address": "0x8217a9ec",
+      "text": "%GAME%"
+    },
+    "equals": {
+      "address": "0x821563e4",
+      "text": "="
+    }
+  },
+  "evidence": {
+    "loader_to_parser_call": "0x82479820",
+    "loader_to_array_call": "0x824796b0",
+    "array_to_fstring_calls": [
+      "0x822de27c",
+      "0x822de2c4"
+    ],
+    "parser_to_macro_call": "0x824782a0",
+    "key_insert_calls": [
+      "0x824786f4",
+      "0x8247872c"
+    ]
+  },
+  "boundary": "Offline bounded instruction replay. No game launch, allocator, FString macro expansion or TMap insertion is executed. Macro-bearing documents are rejected. Synthetic positive controls may explicitly inject a non-null section-map success witness after native section admission."
+}

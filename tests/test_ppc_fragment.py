@@ -107,6 +107,36 @@ class FragmentTests(unittest.TestCase):
         r=execute([x(3,0,4,23)],{4:0x90000000},[MemorySegment(0x90000000,bytes.fromhex('ffffffff'))])
         self.assertEqual(r.registers[3],0xffffffff)
 
+    def test_halfword_load_update_indexed_store_and_zero_extension(self):
+        raw=bytes.fromhex('1234ffff0000');a=0x90000000
+        r=execute([d(40,3,4,2),d(41,5,4,2),x(6,0,4,279),d(44,7,4,2)],
+                  {4:a,7:0xabcdef129876},[MemorySegment(a,raw,True)])
+        self.assertEqual((r.registers[3],r.registers[5],r.registers[6]),(65535,65535,65535))
+        self.assertEqual(r.registers[4],a+2)
+        self.assertEqual(r.segments[0].data,bytes.fromhex('1234ffff9876'))
+        self.assertEqual(r.stores,((a+4,0x9876),))
+        self.assertEqual(raw,bytes.fromhex('1234ffff0000'))
+
+    def test_halfword_invalid_updates_alignment_bounds_and_record_fail(self):
+        for word in [d(41,3,0,0),d(41,3,3,0),x(3,4,5,279,1),
+                     d(40,3,4,1),d(40,3,4,2),d(44,3,4,1),d(44,3,4,2)]:
+            with self.subTest(word=hex(word)),self.assertRaises(FragmentError):
+                execute([word],{3:0,4:0x90000000,5:0},[MemorySegment(0x90000000,b'123',True)])
+        with self.assertRaisesRegex(FragmentError,'read-only'):
+            execute([d(44,3,4,0)],{3:1,4:0x90000000},[MemorySegment(0x90000000,b'ab')])
+
+    def test_subf_record_and_signed_word_immediate_shift(self):
+        r=execute([x(5,3,4,40,1)],{3:8,4:3})
+        self.assertEqual(r.registers[5],MASK64-4);self.assertTrue(r.cr_bits[0])
+        for source,shift,want,carry in [(8,1,4,False),(0xffffffff,1,MASK64,True),
+                (0xfffffffe,1,MASK64,False),(0x80000000,31,MASK64,False),
+                (0x1234567880000001,0,0xffffffff80000001,False),
+                (0x1234567880000001,31,MASK64,True)]:
+            r=execute([x(3,4,shift,824,1)],{3:source})
+            self.assertEqual(r.registers[4],want);self.assertEqual(r.carry,carry)
+            self.assertEqual(r.cr_bits[0],bool(want&(1<<63)))
+        with self.assertRaises(FragmentError):execute([x(5,3,4,40|512)],{3:8,4:3})
+
     def test_store_alignment_boundary_and_unknown_source_fail(self):
         for word,regs,data in [
             (d(36,3,4,1),{3:1,4:0x90000000},bytes(8)),

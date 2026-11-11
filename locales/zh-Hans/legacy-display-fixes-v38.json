@@ -1,0 +1,117 @@
+{
+  "schema_version": 1,
+  "profile": "ue3-relocated-wide-tagged-strings-v1",
+  "source_sha256": "089868b8120f382c22e71329530824e97f03d6c8fb37681a39224dd4fc89c91e",
+  "source_size": 28442624,
+  "output_alignment": 32768,
+  "objects": [
+    {
+      "object_path": "data_item.etc.CureSeed",
+      "class_path": "MC2Game.MC2Item",
+      "tagged_offset": 4,
+      "before_sha256": "6d3a2f562d0236cafc9a4c8499f771f62269701d6b8abae30ffab6c08aad0784",
+      "after_sha256": "a1a84e0208b53ecf4e88d9466dd40d39139518bf0fc2328f072ded3b16db6bc7",
+      "fields": [
+        {
+          "name": "ItemName",
+          "array_index": 0,
+          "before": "큐어 시드",
+          "after": "疗愈种子"
+        },
+        {
+          "name": "Description",
+          "array_index": 0,
+          "before": "한넘 30% 회복",
+          "after": "单体恢复30%",
+          "literal_percentages": [
+            "30%"
+          ]
+        }
+      ]
+    },
+    {
+      "object_path": "data_item.etc.HealLeaf",
+      "class_path": "MC2Game.MC2Item",
+      "tagged_offset": 4,
+      "before_sha256": "e24fdf8aecdc73a37712b23e4a717d8ad48c45a6ce4dbda85cf6e5a746f84cc5",
+      "after_sha256": "3d35c04dd2b4593f37e3325b0d2abb72860f7b2e9b3a6d6766a12d8b3f75364a",
+      "fields": [
+        {
+          "name": "ItemName",
+          "array_index": 0,
+          "before": "힐 리프",
+          "after": "治愈叶"
+        },
+        {
+          "name": "Description",
+          "array_index": 0,
+          "before": "전부 30% 회복",
+          "after": "全体恢复30%",
+          "literal_percentages": [
+            "30%"
+          ]
+        }
+      ]
+    },
+    {
+      "object_path": "data_item.Test.Ice_Hat",
+      "class_path": "MC2Game.MC2Item",
+      "tagged_offset": 4,
+      "before_sha256": "71e42ea30c9e271e3e946371460572fe8f5de64f7d2f7447e5d1446f4d67a25d",
+      "after_sha256": "88069d82a4dd582e3a3f5dcf8accd34fc7cb541ab22f8e0b50041dcd4abc6a1b",
+      "fields": [
+        {
+          "name": "Description",
+          "array_index": 0,
+          "before": "더위 확률 10% 감소",
+          "after": "炎热概率降低10%",
+          "literal_percentages": [
+            "10%"
+          ]
+        }
+      ]
+    },
+    {
+      "object_path": "data_item.Test.throw_stone",
+      "class_path": "MC2Game.MC2Item",
+      "tagged_offset": 4,
+      "before_sha256": "db2eedfcc4218fa35ca3faa0590c5aca9bd389502e39a166fb27cae1842e2ce3",
+      "after_sha256": "9619a93b30e7bd4c939b75c6f2535be49d1682641b611187db75b5b7709122ac",
+      "fields": [
+        {
+          "name": "Description",
+          "array_index": 0,
+          "before": "던져서 데미지",
+          "after": "投掷后造成伤害"
+        }
+      ]
+    },
+    {
+      "object_path": "data_quest.Test.testquest",
+      "class_path": "MC2Game.MC2Quest",
+      "tagged_offset": 4,
+      "before_sha256": "eeee4d9ee047614143bb85c3834f3d2548a0ec7bbfcbac313cb91eabd1fa630f",
+      "after_sha256": "04c5920b156192394b8a91a3c6db0859fa26f4e9042ae799dfdb20c618fae9a4",
+      "fields": [
+        {
+          "name": "Subject",
+          "array_index": 0,
+          "before": "테스트퀘스트",
+          "after": "测试任务"
+        },
+        {
+          "name": "Description",
+          "array_index": 0,
+          "before": "테스트하자",
+          "after": "来测试吧"
+        },
+        {
+          "name": "SpecialReward",
+          "array_index": 0,
+          "before": "없음",
+          "after": "无"
+        }
+      ]
+    }
+  ]
+}

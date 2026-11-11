@@ -1,3 +1,5 @@
+> 阶段368：补齐[原生INI节／键准入重放](docs/NATIVE_INI_REGISTRATION.md)与[旧字段消费者](docs/LEGACY_DISPLAY_CONSUMERS.md)。195码元完整遍历无节／键；Subject是显示标题，整数QuestID才是检索键。新增源锁tagged对象追加重定位与精确逆向工具，九字段翻译不改身份／数值；详见[阶段368](docs/PHASE_368_PENDING_CLOSURE.md)。
+
 > 阶段367：碑文绑定Ucave_Comp03_02弹窗；新增可复用等长wide StrProperty补丁，保留完整对象／SHA／反向验证。27个QuestName参数经原生格式化状态机核实不被当前中文模板消耗，MC2Game.int混合编码仅作诊断未重写；见[修复及消费者证据](docs/PHASE_367_RESIDUAL_REPAIRS.md)。
 
 > 阶段366：`MC2Compose.int [Chapter11] Chapter11_27` 与用户图2完全对应；既有pending是语义待查，不是未命中文本。新工具保留所有显式处置、截图来源与44项未决门禁；包内计数FString／VM候选与实际显示分开，见[韩文残留排查](docs/PHASE_366_KOREAN_RESIDUAL_AUDIT.md)。

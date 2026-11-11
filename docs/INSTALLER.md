@@ -2,8 +2,9 @@
 
 ## 当前交付
 
-2026-11-11同名v1.0已纳入[阶段367碑文／残留修复](PHASE_367_RESIDUAL_REPAIRS.md)，
-当前EXE SHA256为 `f32ffaeeaae8e9c303f42c153eedbe2d21a68bbab556618abdbae39a094b330c`。
+2026-11-11同名v1.0已纳入[阶段368剩余12项闭合](PHASE_368_PENDING_CLOSURE.md)，
+当前EXE SHA256为 `ee03ed8bdb6802ca0ab21d5365a02c24bb6e1651406f96438415c92f3f057b42`。
+9个旧显示字段已翻译；3个损坏源字段经原生零注册验证保留，阶段367的图2碑文修复保持。
 含双盘1044资源及2项DLC；以下较早阶段说明属于累计构建历史，不代表同名旧EXE已自动更新。
 
 Windows 10/11 x64 离线单文件图形安装器，Flutter Material Design 3。

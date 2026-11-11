@@ -1,3 +1,5 @@
+> 阶段368：不要修可读乱码而激活原先未注册的INI样例；U+0A0D不是换行，首尾括号必须由原生扫描判断。不要仅凭形参ItemName／Quest_name推断身份查找；Subject实际与整数QuestID分离。变长追加后的旧韩文死payload不得按全文件grep重复算漏译，须跟踪活动export范围。百分数字面量须显式锁定数值，不粗暴放宽printf检查。见[闭合记录](PHASE_368_PENDING_CLOSURE.md)。
+
 > 阶段367：名字像显示文本不代表可改身份键；PlayerName参与查找／语音键拼接。QuestName存在不等于被当前模板消费。完整键搜索须检查尾边界，CureSeed_New不是CureSeed；无字面引用不是不可达证明。MC2Game.int删CR后出现奇数字节，补零可读不等于可逆修复。见[本轮逐项处置](PHASE_367_RESIDUAL_REPAIRS.md)。
 
 > 阶段366：`RESULT=CLASSIFIED` 仅表示残留已有处置，不表示无漏译；术语待考字段仍可能在正常游戏流程显示。用户图2已证实Chapter11_27这一点。使用独立的`--require-resolved`门禁，并保留非脚本占位、opaque编码和包扫描盲区；见[本轮证据](PHASE_366_KOREAN_RESIDUAL_AUDIT.md)。

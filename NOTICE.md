@@ -114,4 +114,6 @@ and `docs/PHASE_365_POSTCUTSCENE_TITLE_ROUTE.md` for the bounded consumer result
 
 Function storage and bytecode-boundary research: Eliot van Uytfanghe, Unreal-Library, MIT, commit8236c39b79e30887a487ecf9b018204e430a5ebc. Source identities in references/script-boundaries-research.lock.json. Format research only; independent Python implementation, no upstream runtime or game source integrated.
 
+Phase370 read-only ArrayAddItem (0x55) format research uses the same author/project/commit and MIT license. ArrayTokens.cs, DefaultEngineBranch.cs and PackageObjectLegacyVersion.cs URLs and exact source SHA256 values are retained in references/ui-defaults-research.lock.json. No upstream code or new VM opcode support is integrated into the production decoder.
+
 Native payload format comparison: Konstantin Nosov / UEViewer commit882794d2624ae1db987da986e03b138b5d177787, and ME3Tweaks / LegendaryExplorer contributors commitb5e746233491ec5a7cbfc077685996af37a3d125. Model, Terrain, StaticMesh and ShaderCache profiles were compared as research, not assumed platform-identical. Source identities in references/native-coverage-research.lock.json; independent implementation, no upstream implementation or complete game assets copied.

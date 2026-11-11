@@ -1758,3 +1758,11 @@ Verified：剧情结束标题存在实际`FinishCSMB → ActivateRemoteEvent →
 [阶段369](docs/PHASE_369_COVERAGE_CLOSURE.md)区分实际字符串、token操作数、native数组、重定位旧区和像素文字。
 新增工具、源码参考和逐项判定均保留；只读解析通过不代表原生消费者或游戏显示已运行。
 两盘FString窗口一致、当前补丁不覆盖该窗口，Core窄字节重放与策略提取分别验证。
+
+## 阶段370：默认字段与实际UI消费者
+
+[阶段370](docs/PHASE_370_UI_DEFAULTS.md)将31个ASCII默认字段绑定到真实的native注册／vtable／setter
+或完整LevelUp脚本控制流。其空态是空FString，不是固定英文提示。Open/Fade早于SetInformation，
+所以正常最终赋值不证明初始化瞬间永远不可见。保留源锁地址／函数摘要和受控模型与实机的区别。
+通用v2重建递归更新StructProperty长度并重定位完整tagged对象，显式支持经声明确认的object数组；
+旧payload仅作为不活动回滚证据保留，active export按新offset读取。

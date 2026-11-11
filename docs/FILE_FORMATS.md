@@ -1800,3 +1800,13 @@ StateStack自189引入，LatentAction到566才缩为u16，ProbeMask到691才缩�
 - `texture_inspection`只读Format2／BC1／BC3多mip与外置payload，原生流读到精确末尾并校验实际packed地址。生产补丁仍限已有profile。见[图片复核](PHASE_369_VISUAL_NATIVE_CLOSURE.md)。
 
 - `ue3_native_coverage`独立只读检查38个StaticMesh和1个ShaderCache；容器字节覆盖与Shader84段／1792字节的未解参数语义严格区分。见[NATIVE_PAYLOAD_COVERAGE](NATIVE_PAYLOAD_COVERAGE.md)。
+
+## 阶段370：nested tagged-string rebuild v2
+
+`ue3-relocated-nested-tagged-strings-v2`／schema2以完整indexed property path选择StrProperty。
+旧值编码必须显式ASCII或UTF-16LE；新非空值为UTF-16LE，新空值为BE i32零count，
+没有NUL payload或空格填充。递归重建父StructProperty size；prefix、未选属性、类型、array_index、
+object/FName引用及None终止标记不变。数组只有明确声明的object-reference array可接受，
+逐项验证count／长度／索引范围；不推测未知容器或native尾部。
+完整新对象4对齐append，package维持32768对齐，原前缀仅改8字节export size/offset。
+SHA锁、canonical forward replay与独立副本rollback见[阶段370](PHASE_370_UI_DEFAULTS.md)。

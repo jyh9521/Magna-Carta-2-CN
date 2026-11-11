@@ -1,0 +1,1181 @@
+{
+  "schema_version": 1,
+  "profile": "ui-quest-tutorial-dynamic-placeholder-consumers",
+  "input_recipe_sha256": "7fc7aca33b52a1f2cbf0c9d70e90181de26aafecd4b2362a49f52f8a9224a0fc",
+  "input_mc2game_sha256": "9bcc6e024b155f58fd841c9d75ff794c584e016e292500375388c80020b294f7",
+  "native_image_sha256": "d18d49fb2960426715ba17d61d069cce42b1eadac153af13c9395cd42b1773e9",
+  "native_image_base": "0x82000000",
+  "fields": [
+    {
+      "id": "UI-12",
+      "package": "MC2Game/CookedXenon/MC2Game.xxx",
+      "source_sha256": "9bcc6e024b155f58fd841c9d75ff794c584e016e292500375388c80020b294f7",
+      "owner": "UI_Field_1.Scenes.QuestJournalScene.ContentsBundlePanel.Content_0.Content_0.List.QuestTitle",
+      "export": 44268,
+      "class_path": "MC2UILabel",
+      "field": [
+        {
+          "name": "DataSource",
+          "array_index": 0
+        },
+        {
+          "name": "MarkupString",
+          "array_index": 0
+        }
+      ],
+      "logical_offset": 19024613,
+      "field_sha256": "1b9637c6598cef44876c1b8a54d4b83cf1568eb9bd13bf7a54fe1a8e88dd4008",
+      "before": "Quest Title",
+      "before_serialized_hex": "0000000c5175657374205469746c6500",
+      "serialized_row_export": 44814,
+      "serialized_children_chain": [
+        44962,
+        65644,
+        65645,
+        43023,
+        44814,
+        44268
+      ],
+      "activation_graph_path": [
+        65532,
+        38442,
+        39306
+      ],
+      "decision": "clear-dynamic-developer-placeholder",
+      "after": "",
+      "after_serialized_hex": "00000000",
+      "preserve": [
+        "Tag",
+        "object identity",
+        "data-source field identity",
+        "actual dynamic title values",
+        "indices and bindings"
+      ],
+      "consumer_profile": "quest-title",
+      "evidence_grade": "Verified static source bytes and decoded branch behavior; gameplay unobserved"
+    },
+    {
+      "id": "UI-13",
+      "package": "MC2Game/CookedXenon/MC2Game.xxx",
+      "source_sha256": "9bcc6e024b155f58fd841c9d75ff794c584e016e292500375388c80020b294f7",
+      "owner": "UI_Field_1.Scenes.QuestJournalScene.ContentsBundlePanel.Content_1.Content_1.List.QuestTitle",
+      "export": 44269,
+      "class_path": "MC2UILabel",
+      "field": [
+        {
+          "name": "DataSource",
+          "array_index": 0
+        },
+        {
+          "name": "MarkupString",
+          "array_index": 0
+        }
+      ],
+      "logical_offset": 19025307,
+      "field_sha256": "1b9637c6598cef44876c1b8a54d4b83cf1568eb9bd13bf7a54fe1a8e88dd4008",
+      "before": "Quest Title",
+      "before_serialized_hex": "0000000c5175657374205469746c6500",
+      "serialized_row_export": 44815,
+      "serialized_children_chain": [
+        44962,
+        65644,
+        65646,
+        43026,
+        44815,
+        44269
+      ],
+      "activation_graph_path": [
+        65532,
+        38442,
+        39306
+      ],
+      "decision": "clear-dynamic-developer-placeholder",
+      "after": "",
+      "after_serialized_hex": "00000000",
+      "preserve": [
+        "Tag",
+        "object identity",
+        "data-source field identity",
+        "actual dynamic title values",
+        "indices and bindings"
+      ],
+      "consumer_profile": "quest-title",
+      "evidence_grade": "Verified static source bytes and decoded branch behavior; gameplay unobserved"
+    },
+    {
+      "id": "UI-14",
+      "package": "MC2Game/CookedXenon/MC2Game.xxx",
+      "source_sha256": "9bcc6e024b155f58fd841c9d75ff794c584e016e292500375388c80020b294f7",
+      "owner": "UI_Field_1.Scenes.QuestJournalScene.ContentsBundlePanel.Content_2.Content_2.List.QuestTitle",
+      "export": 44270,
+      "class_path": "MC2UILabel",
+      "field": [
+        {
+          "name": "DataSource",
+          "array_index": 0
+        },
+        {
+          "name": "MarkupString",
+          "array_index": 0
+        }
+      ],
+      "logical_offset": 19026001,
+      "field_sha256": "1b9637c6598cef44876c1b8a54d4b83cf1568eb9bd13bf7a54fe1a8e88dd4008",
+      "before": "Quest Title",
+      "before_serialized_hex": "0000000c5175657374205469746c6500",
+      "serialized_row_export": 44816,
+      "serialized_children_chain": [
+        44962,
+        65644,
+        65647,
+        43029,
+        44816,
+        44270
+      ],
+      "activation_graph_path": [
+        65532,
+        38442,
+        39306
+      ],
+      "decision": "clear-dynamic-developer-placeholder",
+      "after": "",
+      "after_serialized_hex": "00000000",
+      "preserve": [
+        "Tag",
+        "object identity",
+        "data-source field identity",
+        "actual dynamic title values",
+        "indices and bindings"
+      ],
+      "consumer_profile": "quest-title",
+      "evidence_grade": "Verified static source bytes and decoded branch behavior; gameplay unobserved"
+    },
+    {
+      "id": "UI-15",
+      "package": "MC2Game/CookedXenon/MC2Game.xxx",
+      "source_sha256": "9bcc6e024b155f58fd841c9d75ff794c584e016e292500375388c80020b294f7",
+      "owner": "UI_Field_1.Scenes.QuestJournalScene.ContentsBundlePanel.Content_3.Content_3.List.QuestTitle",
+      "export": 44271,
+      "class_path": "MC2UILabel",
+      "field": [
+        {
+          "name": "DataSource",
+          "array_index": 0
+        },
+        {
+          "name": "MarkupString",
+          "array_index": 0
+        }
+      ],
+      "logical_offset": 19026695,
+      "field_sha256": "1b9637c6598cef44876c1b8a54d4b83cf1568eb9bd13bf7a54fe1a8e88dd4008",
+      "before": "Quest Title",
+      "before_serialized_hex": "0000000c5175657374205469746c6500",
+      "serialized_row_export": 44817,
+      "serialized_children_chain": [
+        44962,
+        65644,
+        65648,
+        43032,
+        44817,
+        44271
+      ],
+      "activation_graph_path": [
+        65532,
+        38442,
+        39306
+      ],
+      "decision": "clear-dynamic-developer-placeholder",
+      "after": "",
+      "after_serialized_hex": "00000000",
+      "preserve": [
+        "Tag",
+        "object identity",
+        "data-source field identity",
+        "actual dynamic title values",
+        "indices and bindings"
+      ],
+      "consumer_profile": "quest-title",
+      "evidence_grade": "Verified static source bytes and decoded branch behavior; gameplay unobserved"
+    },
+    {
+      "id": "UI-16",
+      "package": "MC2Game/CookedXenon/MC2Game.xxx",
+      "source_sha256": "9bcc6e024b155f58fd841c9d75ff794c584e016e292500375388c80020b294f7",
+      "owner": "UI_Field_1.Scenes.QuestJournalScene.ContentsBundlePanel.Content_4.Content_4.List.QuestTitle",
+      "export": 44272,
+      "class_path": "MC2UILabel",
+      "field": [
+        {
+          "name": "DataSource",
+          "array_index": 0
+        },
+        {
+          "name": "MarkupString",
+          "array_index": 0
+        }
+      ],
+      "logical_offset": 19027389,
+      "field_sha256": "1b9637c6598cef44876c1b8a54d4b83cf1568eb9bd13bf7a54fe1a8e88dd4008",
+      "before": "Quest Title",
+      "before_serialized_hex": "0000000c5175657374205469746c6500",
+      "serialized_row_export": 44818,
+      "serialized_children_chain": [
+        44962,
+        65644,
+        65649,
+        43035,
+        44818,
+        44272
+      ],
+      "activation_graph_path": [
+        65532,
+        38442,
+        39306
+      ],
+      "decision": "clear-dynamic-developer-placeholder",
+      "after": "",
+      "after_serialized_hex": "00000000",
+      "preserve": [
+        "Tag",
+        "object identity",
+        "data-source field identity",
+        "actual dynamic title values",
+        "indices and bindings"
+      ],
+      "consumer_profile": "quest-title",
+      "evidence_grade": "Verified static source bytes and decoded branch behavior; gameplay unobserved"
+    },
+    {
+      "id": "UI-17",
+      "package": "MC2Game/CookedXenon/MC2Game.xxx",
+      "source_sha256": "9bcc6e024b155f58fd841c9d75ff794c584e016e292500375388c80020b294f7",
+      "owner": "UI_Field_1.Scenes.QuestJournalScene.ContentsBundlePanel.Content_5.Content_5.List.QuestTitle",
+      "export": 44273,
+      "class_path": "MC2UILabel",
+      "field": [
+        {
+          "name": "DataSource",
+          "array_index": 0
+        },
+        {
+          "name": "MarkupString",
+          "array_index": 0
+        }
+      ],
+      "logical_offset": 19028083,
+      "field_sha256": "1b9637c6598cef44876c1b8a54d4b83cf1568eb9bd13bf7a54fe1a8e88dd4008",
+      "before": "Quest Title",
+      "before_serialized_hex": "0000000c5175657374205469746c6500",
+      "serialized_row_export": 44819,
+      "serialized_children_chain": [
+        44962,
+        65644,
+        65650,
+        43038,
+        44819,
+        44273
+      ],
+      "activation_graph_path": [
+        65532,
+        38442,
+        39306
+      ],
+      "decision": "clear-dynamic-developer-placeholder",
+      "after": "",
+      "after_serialized_hex": "00000000",
+      "preserve": [
+        "Tag",
+        "object identity",
+        "data-source field identity",
+        "actual dynamic title values",
+        "indices and bindings"
+      ],
+      "consumer_profile": "quest-title",
+      "evidence_grade": "Verified static source bytes and decoded branch behavior; gameplay unobserved"
+    },
+    {
+      "id": "UI-18",
+      "package": "MC2Game/CookedXenon/MC2Game.xxx",
+      "source_sha256": "9bcc6e024b155f58fd841c9d75ff794c584e016e292500375388c80020b294f7",
+      "owner": "UI_Field_1.Scenes.QuestJournalScene.ContentsBundlePanel.Content_6.Content_6.List.QuestTitle",
+      "export": 44274,
+      "class_path": "MC2UILabel",
+      "field": [
+        {
+          "name": "DataSource",
+          "array_index": 0
+        },
+        {
+          "name": "MarkupString",
+          "array_index": 0
+        }
+      ],
+      "logical_offset": 19028777,
+      "field_sha256": "1b9637c6598cef44876c1b8a54d4b83cf1568eb9bd13bf7a54fe1a8e88dd4008",
+      "before": "Quest Title",
+      "before_serialized_hex": "0000000c5175657374205469746c6500",
+      "serialized_row_export": 44820,
+      "serialized_children_chain": [
+        44962,
+        65644,
+        65651,
+        43041,
+        44820,
+        44274
+      ],
+      "activation_graph_path": [
+        65532,
+        38442,
+        39306
+      ],
+      "decision": "clear-dynamic-developer-placeholder",
+      "after": "",
+      "after_serialized_hex": "00000000",
+      "preserve": [
+        "Tag",
+        "object identity",
+        "data-source field identity",
+        "actual dynamic title values",
+        "indices and bindings"
+      ],
+      "consumer_profile": "quest-title",
+      "evidence_grade": "Verified static source bytes and decoded branch behavior; gameplay unobserved"
+    },
+    {
+      "id": "UI-19",
+      "package": "MC2Game/CookedXenon/MC2Game.xxx",
+      "source_sha256": "9bcc6e024b155f58fd841c9d75ff794c584e016e292500375388c80020b294f7",
+      "owner": "UI_Field_1.Scenes.QuestJournalScene.ContentsBundlePanel.Content_7.Content_7.List.QuestTitle",
+      "export": 44275,
+      "class_path": "MC2UILabel",
+      "field": [
+        {
+          "name": "DataSource",
+          "array_index": 0
+        },
+        {
+          "name": "MarkupString",
+          "array_index": 0
+        }
+      ],
+      "logical_offset": 19029471,
+      "field_sha256": "1b9637c6598cef44876c1b8a54d4b83cf1568eb9bd13bf7a54fe1a8e88dd4008",
+      "before": "Quest Title",
+      "before_serialized_hex": "0000000c5175657374205469746c6500",
+      "serialized_row_export": 44821,
+      "serialized_children_chain": [
+        44962,
+        65644,
+        65652,
+        43044,
+        44821,
+        44275
+      ],
+      "activation_graph_path": [
+        65532,
+        38442,
+        39306
+      ],
+      "decision": "clear-dynamic-developer-placeholder",
+      "after": "",
+      "after_serialized_hex": "00000000",
+      "preserve": [
+        "Tag",
+        "object identity",
+        "data-source field identity",
+        "actual dynamic title values",
+        "indices and bindings"
+      ],
+      "consumer_profile": "quest-title",
+      "evidence_grade": "Verified static source bytes and decoded branch behavior; gameplay unobserved"
+    },
+    {
+      "id": "UI-20",
+      "package": "MC2Game/CookedXenon/MC2Game.xxx",
+      "source_sha256": "9bcc6e024b155f58fd841c9d75ff794c584e016e292500375388c80020b294f7",
+      "owner": "UI_Field_1.Scenes.QuestJournalScene.ContentsBundlePanel.Content_8.Content_8.List.QuestTitle",
+      "export": 44276,
+      "class_path": "MC2UILabel",
+      "field": [
+        {
+          "name": "DataSource",
+          "array_index": 0
+        },
+        {
+          "name": "MarkupString",
+          "array_index": 0
+        }
+      ],
+      "logical_offset": 19030165,
+      "field_sha256": "1b9637c6598cef44876c1b8a54d4b83cf1568eb9bd13bf7a54fe1a8e88dd4008",
+      "before": "Quest Title",
+      "before_serialized_hex": "0000000c5175657374205469746c6500",
+      "serialized_row_export": 44822,
+      "serialized_children_chain": [
+        44962,
+        65644,
+        65653,
+        43047,
+        44822,
+        44276
+      ],
+      "activation_graph_path": [
+        65532,
+        38442,
+        39306
+      ],
+      "decision": "clear-dynamic-developer-placeholder",
+      "after": "",
+      "after_serialized_hex": "00000000",
+      "preserve": [
+        "Tag",
+        "object identity",
+        "data-source field identity",
+        "actual dynamic title values",
+        "indices and bindings"
+      ],
+      "consumer_profile": "quest-title",
+      "evidence_grade": "Verified static source bytes and decoded branch behavior; gameplay unobserved"
+    },
+    {
+      "id": "UI-23",
+      "package": "MC2Game/CookedXenon/MC2Game.xxx",
+      "source_sha256": "9bcc6e024b155f58fd841c9d75ff794c584e016e292500375388c80020b294f7",
+      "owner": "UI_Field_1.Scenes.RemindTutorial.ContentsBundlePanel.Content_0.Content_0.List",
+      "export": 44823,
+      "class_path": "MC2UIListButton",
+      "field": [
+        {
+          "name": "CaptionDataSource",
+          "array_index": 0
+        },
+        {
+          "name": "MarkupString",
+          "array_index": 0
+        }
+      ],
+      "logical_offset": 19460155,
+      "field_sha256": "8d392d9eb7ff147b5c2ed41a3227b86204e2561182259f421fd296ac2631d7d5",
+      "before": "NO DATA",
+      "before_serialized_hex": "000000084e4f204441544100",
+      "serialized_row_export": 44823,
+      "serialized_children_chain": [
+        44969,
+        65661,
+        65662,
+        43088,
+        44823
+      ],
+      "activation_graph_path": [
+        65533,
+        38203,
+        39307
+      ],
+      "decision": "clear-dynamic-developer-placeholder",
+      "after": "",
+      "after_serialized_hex": "00000000",
+      "preserve": [
+        "Tag",
+        "object identity",
+        "data-source field identity",
+        "actual dynamic title values",
+        "indices and bindings"
+      ],
+      "consumer_profile": "tutorial-caption",
+      "evidence_grade": "Verified static source bytes and decoded branch behavior; gameplay unobserved"
+    },
+    {
+      "id": "UI-24",
+      "package": "MC2Game/CookedXenon/MC2Game.xxx",
+      "source_sha256": "9bcc6e024b155f58fd841c9d75ff794c584e016e292500375388c80020b294f7",
+      "owner": "UI_Field_1.Scenes.RemindTutorial.ContentsBundlePanel.Content_1.Content_1.List",
+      "export": 44824,
+      "class_path": "MC2UIListButton",
+      "field": [
+        {
+          "name": "CaptionDataSource",
+          "array_index": 0
+        },
+        {
+          "name": "MarkupString",
+          "array_index": 0
+        }
+      ],
+      "logical_offset": 19460939,
+      "field_sha256": "8d392d9eb7ff147b5c2ed41a3227b86204e2561182259f421fd296ac2631d7d5",
+      "before": "NO DATA",
+      "before_serialized_hex": "000000084e4f204441544100",
+      "serialized_row_export": 44824,
+      "serialized_children_chain": [
+        44969,
+        65661,
+        65663,
+        43090,
+        44824
+      ],
+      "activation_graph_path": [
+        65533,
+        38203,
+        39307
+      ],
+      "decision": "clear-dynamic-developer-placeholder",
+      "after": "",
+      "after_serialized_hex": "00000000",
+      "preserve": [
+        "Tag",
+        "object identity",
+        "data-source field identity",
+        "actual dynamic title values",
+        "indices and bindings"
+      ],
+      "consumer_profile": "tutorial-caption",
+      "evidence_grade": "Verified static source bytes and decoded branch behavior; gameplay unobserved"
+    },
+    {
+      "id": "UI-25",
+      "package": "MC2Game/CookedXenon/MC2Game.xxx",
+      "source_sha256": "9bcc6e024b155f58fd841c9d75ff794c584e016e292500375388c80020b294f7",
+      "owner": "UI_Field_1.Scenes.RemindTutorial.ContentsBundlePanel.Content_2.Content_2.List",
+      "export": 44825,
+      "class_path": "MC2UIListButton",
+      "field": [
+        {
+          "name": "CaptionDataSource",
+          "array_index": 0
+        },
+        {
+          "name": "MarkupString",
+          "array_index": 0
+        }
+      ],
+      "logical_offset": 19461723,
+      "field_sha256": "8d392d9eb7ff147b5c2ed41a3227b86204e2561182259f421fd296ac2631d7d5",
+      "before": "NO DATA",
+      "before_serialized_hex": "000000084e4f204441544100",
+      "serialized_row_export": 44825,
+      "serialized_children_chain": [
+        44969,
+        65661,
+        65664,
+        43092,
+        44825
+      ],
+      "activation_graph_path": [
+        65533,
+        38203,
+        39307
+      ],
+      "decision": "clear-dynamic-developer-placeholder",
+      "after": "",
+      "after_serialized_hex": "00000000",
+      "preserve": [
+        "Tag",
+        "object identity",
+        "data-source field identity",
+        "actual dynamic title values",
+        "indices and bindings"
+      ],
+      "consumer_profile": "tutorial-caption",
+      "evidence_grade": "Verified static source bytes and decoded branch behavior; gameplay unobserved"
+    },
+    {
+      "id": "UI-26",
+      "package": "MC2Game/CookedXenon/MC2Game.xxx",
+      "source_sha256": "9bcc6e024b155f58fd841c9d75ff794c584e016e292500375388c80020b294f7",
+      "owner": "UI_Field_1.Scenes.RemindTutorial.ContentsBundlePanel.Content_3.Content_3.List",
+      "export": 44826,
+      "class_path": "MC2UIListButton",
+      "field": [
+        {
+          "name": "CaptionDataSource",
+          "array_index": 0
+        },
+        {
+          "name": "MarkupString",
+          "array_index": 0
+        }
+      ],
+      "logical_offset": 19462535,
+      "field_sha256": "8d392d9eb7ff147b5c2ed41a3227b86204e2561182259f421fd296ac2631d7d5",
+      "before": "NO DATA",
+      "before_serialized_hex": "000000084e4f204441544100",
+      "serialized_row_export": 44826,
+      "serialized_children_chain": [
+        44969,
+        65661,
+        65665,
+        43094,
+        44826
+      ],
+      "activation_graph_path": [
+        65533,
+        38203,
+        39307
+      ],
+      "decision": "clear-dynamic-developer-placeholder",
+      "after": "",
+      "after_serialized_hex": "00000000",
+      "preserve": [
+        "Tag",
+        "object identity",
+        "data-source field identity",
+        "actual dynamic title values",
+        "indices and bindings"
+      ],
+      "consumer_profile": "tutorial-caption",
+      "evidence_grade": "Verified static source bytes and decoded branch behavior; gameplay unobserved"
+    },
+    {
+      "id": "UI-27",
+      "package": "MC2Game/CookedXenon/MC2Game.xxx",
+      "source_sha256": "9bcc6e024b155f58fd841c9d75ff794c584e016e292500375388c80020b294f7",
+      "owner": "UI_Field_1.Scenes.RemindTutorial.ContentsBundlePanel.Content_4.Content_4.List",
+      "export": 44827,
+      "class_path": "MC2UIListButton",
+      "field": [
+        {
+          "name": "CaptionDataSource",
+          "array_index": 0
+        },
+        {
+          "name": "MarkupString",
+          "array_index": 0
+        }
+      ],
+      "logical_offset": 19463319,
+      "field_sha256": "8d392d9eb7ff147b5c2ed41a3227b86204e2561182259f421fd296ac2631d7d5",
+      "before": "NO DATA",
+      "before_serialized_hex": "000000084e4f204441544100",
+      "serialized_row_export": 44827,
+      "serialized_children_chain": [
+        44969,
+        65661,
+        65666,
+        43096,
+        44827
+      ],
+      "activation_graph_path": [
+        65533,
+        38203,
+        39307
+      ],
+      "decision": "clear-dynamic-developer-placeholder",
+      "after": "",
+      "after_serialized_hex": "00000000",
+      "preserve": [
+        "Tag",
+        "object identity",
+        "data-source field identity",
+        "actual dynamic title values",
+        "indices and bindings"
+      ],
+      "consumer_profile": "tutorial-caption",
+      "evidence_grade": "Verified static source bytes and decoded branch behavior; gameplay unobserved"
+    },
+    {
+      "id": "UI-28",
+      "package": "MC2Game/CookedXenon/MC2Game.xxx",
+      "source_sha256": "9bcc6e024b155f58fd841c9d75ff794c584e016e292500375388c80020b294f7",
+      "owner": "UI_Field_1.Scenes.RemindTutorial.ContentsBundlePanel.Content_5.Content_5.List",
+      "export": 44828,
+      "class_path": "MC2UIListButton",
+      "field": [
+        {
+          "name": "CaptionDataSource",
+          "array_index": 0
+        },
+        {
+          "name": "MarkupString",
+          "array_index": 0
+        }
+      ],
+      "logical_offset": 19464103,
+      "field_sha256": "8d392d9eb7ff147b5c2ed41a3227b86204e2561182259f421fd296ac2631d7d5",
+      "before": "NO DATA",
+      "before_serialized_hex": "000000084e4f204441544100",
+      "serialized_row_export": 44828,
+      "serialized_children_chain": [
+        44969,
+        65661,
+        65667,
+        43098,
+        44828
+      ],
+      "activation_graph_path": [
+        65533,
+        38203,
+        39307
+      ],
+      "decision": "clear-dynamic-developer-placeholder",
+      "after": "",
+      "after_serialized_hex": "00000000",
+      "preserve": [
+        "Tag",
+        "object identity",
+        "data-source field identity",
+        "actual dynamic title values",
+        "indices and bindings"
+      ],
+      "consumer_profile": "tutorial-caption",
+      "evidence_grade": "Verified static source bytes and decoded branch behavior; gameplay unobserved"
+    },
+    {
+      "id": "UI-29",
+      "package": "MC2Game/CookedXenon/MC2Game.xxx",
+      "source_sha256": "9bcc6e024b155f58fd841c9d75ff794c584e016e292500375388c80020b294f7",
+      "owner": "UI_Field_1.Scenes.RemindTutorial.ContentsBundlePanel.Content_6.Content_6.List",
+      "export": 44829,
+      "class_path": "MC2UIListButton",
+      "field": [
+        {
+          "name": "CaptionDataSource",
+          "array_index": 0
+        },
+        {
+          "name": "MarkupString",
+          "array_index": 0
+        }
+      ],
+      "logical_offset": 19464887,
+      "field_sha256": "8d392d9eb7ff147b5c2ed41a3227b86204e2561182259f421fd296ac2631d7d5",
+      "before": "NO DATA",
+      "before_serialized_hex": "000000084e4f204441544100",
+      "serialized_row_export": 44829,
+      "serialized_children_chain": [
+        44969,
+        65661,
+        65668,
+        43100,
+        44829
+      ],
+      "activation_graph_path": [
+        65533,
+        38203,
+        39307
+      ],
+      "decision": "clear-dynamic-developer-placeholder",
+      "after": "",
+      "after_serialized_hex": "00000000",
+      "preserve": [
+        "Tag",
+        "object identity",
+        "data-source field identity",
+        "actual dynamic title values",
+        "indices and bindings"
+      ],
+      "consumer_profile": "tutorial-caption",
+      "evidence_grade": "Verified static source bytes and decoded branch behavior; gameplay unobserved"
+    },
+    {
+      "id": "UI-30",
+      "package": "MC2Game/CookedXenon/MC2Game.xxx",
+      "source_sha256": "9bcc6e024b155f58fd841c9d75ff794c584e016e292500375388c80020b294f7",
+      "owner": "UI_Field_1.Scenes.RemindTutorial.ContentsBundlePanel.Content_7.Content_7.List",
+      "export": 44830,
+      "class_path": "MC2UIListButton",
+      "field": [
+        {
+          "name": "CaptionDataSource",
+          "array_index": 0
+        },
+        {
+          "name": "MarkupString",
+          "array_index": 0
+        }
+      ],
+      "logical_offset": 19465671,
+      "field_sha256": "8d392d9eb7ff147b5c2ed41a3227b86204e2561182259f421fd296ac2631d7d5",
+      "before": "NO DATA",
+      "before_serialized_hex": "000000084e4f204441544100",
+      "serialized_row_export": 44830,
+      "serialized_children_chain": [
+        44969,
+        65661,
+        65669,
+        43102,
+        44830
+      ],
+      "activation_graph_path": [
+        65533,
+        38203,
+        39307
+      ],
+      "decision": "clear-dynamic-developer-placeholder",
+      "after": "",
+      "after_serialized_hex": "00000000",
+      "preserve": [
+        "Tag",
+        "object identity",
+        "data-source field identity",
+        "actual dynamic title values",
+        "indices and bindings"
+      ],
+      "consumer_profile": "tutorial-caption",
+      "evidence_grade": "Verified static source bytes and decoded branch behavior; gameplay unobserved"
+    },
+    {
+      "id": "UI-31",
+      "package": "MC2Game/CookedXenon/MC2Game.xxx",
+      "source_sha256": "9bcc6e024b155f58fd841c9d75ff794c584e016e292500375388c80020b294f7",
+      "owner": "UI_Field_1.Scenes.RemindTutorial.ContentsBundlePanel.Content_8.Content_8.List",
+      "export": 44831,
+      "class_path": "MC2UIListButton",
+      "field": [
+        {
+          "name": "CaptionDataSource",
+          "array_index": 0
+        },
+        {
+          "name": "MarkupString",
+          "array_index": 0
+        }
+      ],
+      "logical_offset": 19466455,
+      "field_sha256": "8d392d9eb7ff147b5c2ed41a3227b86204e2561182259f421fd296ac2631d7d5",
+      "before": "NO DATA",
+      "before_serialized_hex": "000000084e4f204441544100",
+      "serialized_row_export": 44831,
+      "serialized_children_chain": [
+        44969,
+        65661,
+        65670,
+        43104,
+        44831
+      ],
+      "activation_graph_path": [
+        65533,
+        38203,
+        39307
+      ],
+      "decision": "clear-dynamic-developer-placeholder",
+      "after": "",
+      "after_serialized_hex": "00000000",
+      "preserve": [
+        "Tag",
+        "object identity",
+        "data-source field identity",
+        "actual dynamic title values",
+        "indices and bindings"
+      ],
+      "consumer_profile": "tutorial-caption",
+      "evidence_grade": "Verified static source bytes and decoded branch behavior; gameplay unobserved"
+    }
+  ],
+  "native_windows": [
+    {
+      "role": "List_Initialize.Activated",
+      "start": "0x82d19d90",
+      "end": "0x82d19e84",
+      "sha256": "eecafafef65af244c8b16d91a2ebaf4765df5056955d5e9342966325b822a884"
+    },
+    {
+      "role": "action owner widget",
+      "start": "0x8269f8e8",
+      "end": "0x8269f93c",
+      "sha256": "841cc7e34b788c20737e887174a83af7d9f1d0f096998709b8b9c2feb1707dca"
+    },
+    {
+      "role": "action owner scene",
+      "start": "0x8269f940",
+      "end": "0x8269f9ac",
+      "sha256": "5e5b68ef47a9ef8cdebcaa364d04954c686ea6d6227cc12687b6ba22c5579dc1"
+    },
+    {
+      "role": "List scene class check",
+      "start": "0x82359370",
+      "end": "0x82359404",
+      "sha256": "4a324eb24ea9eeaf7b720a8d16ed536c940867c6019a84a7a649986c73c0ccb2"
+    },
+    {
+      "role": "recursive row collection; calls update slot +0x2c0",
+      "start": "0x82d54bc8",
+      "end": "0x82d55148",
+      "sha256": "95d41e34f62e3129c0bac038c03809ed5acd95738aa8a681017bd4e679dd1b22"
+    },
+    {
+      "role": "GetChildren dispatch",
+      "start": "0x82599698",
+      "end": "0x825996fc",
+      "sha256": "4cff504fc6d4c9981710d16c1c6a12857383db0d9a2e69ac4949b0cb67268746"
+    },
+    {
+      "role": "GetChildren recursive implementation",
+      "start": "0x825994f8",
+      "end": "0x82599664",
+      "sha256": "dec5cde70c8a80d5a2fa191b9b0af2d67ebac3b26f28e8c76df4504f4a282f8e"
+    },
+    {
+      "role": "clear every row caption and UILabel descendant",
+      "start": "0x82d55e68",
+      "end": "0x82d55fd4",
+      "sha256": "775975cdc846d79719724313840b05f62aaa48846d38bab56889213252b67046"
+    },
+    {
+      "role": "Quest update clears before manager guard",
+      "start": "0x82d5c530",
+      "end": "0x82d5c734",
+      "sha256": "077fff3558660d80b111f3689711e8d43cd32f278bac742e18e0746c39733156"
+    },
+    {
+      "role": "Quest data population / empty branch",
+      "start": "0x82d5c028",
+      "end": "0x82d5c3a4",
+      "sha256": "a204a10a7aef393322603d479aea171f3c6fdda7f2a1056ca4818db1dd24d3b1"
+    },
+    {
+      "role": "RemindTutorial SetTutorialList native exec",
+      "start": "0x82320ba8",
+      "end": "0x82320c24",
+      "sha256": "8ede05e2fb480197a2f1cfce1dbdde35b63ad9b5879f51be08d1333be470a168"
+    },
+    {
+      "role": "RemindTutorial InitTutorialList native exec",
+      "start": "0x82320c28",
+      "end": "0x82320ca4",
+      "sha256": "f1244d84973f12b39fd3c4bc76da6a697ff296c0ce8d21db638e0393527cfbfa"
+    },
+    {
+      "role": "SetTutorialList dispatches data update",
+      "start": "0x82d591d0",
+      "end": "0x82d59284",
+      "sha256": "87e79bf47fd9f4de29ac7b902ec367e9a08a716de07faee170e22f3c8b8d52d8"
+    },
+    {
+      "role": "Tutorial clear then per-row valid-data-or-empty assignment",
+      "start": "0x82d59080",
+      "end": "0x82d5919c",
+      "sha256": "90cd4050210a6a1047896c3e03561e29f6cc995fa90737522c10cf7068663f22"
+    },
+    {
+      "role": "Tutorial initialization from HUD records",
+      "start": "0x82d59bb8",
+      "end": "0x82d59c90",
+      "sha256": "5aa4c762f74fa6243b705140262ce19d5bb4831edae30961a0b86c941930cbf5"
+    },
+    {
+      "role": "type 0 tutorial record title copy",
+      "start": "0x82d59918",
+      "end": "0x82d59a04",
+      "sha256": "40a49421d467df96c1377d148362ed65ceb4cd0b030dfe79c43806f476acee38"
+    },
+    {
+      "role": "type 1 tutorial record title copy",
+      "start": "0x82d59678",
+      "end": "0x82d59764",
+      "sha256": "8e9528bc98c2225c5f176c3ca40a542184699f9b2ff437695dd0aa8b4e64d47e"
+    },
+    {
+      "role": "MC2UIListButton caption binding setter",
+      "start": "0x825a7bc8",
+      "end": "0x825a7c38",
+      "sha256": "71613f075b7f29924a3c082131b970b1f07d74ae62cf0a97595c16eeff2f7af5"
+    },
+    {
+      "role": "MC2UIListButton caption refresh",
+      "start": "0x825a7c38",
+      "end": "0x825a7cac",
+      "sha256": "98890748ce3bbb93a0c06d6b3de5b91d250b78144f1cadcf14dba422249bca22"
+    }
+  ],
+  "class_bindings": [
+    {
+      "native_class": "UMC2UIAct_List_Initialize",
+      "size_operand": 240,
+      "registration": {
+        "start": "0x82d0c154",
+        "end": "0x82d0c198",
+        "sha256": "e3ab22309f60edf72be2b5c95e086b8f03f4051f87ca25ddceaa34971f078193"
+      },
+      "callback": {
+        "start": "0x8235f430",
+        "end": "0x8235f448",
+        "sha256": "e93d1edda5cb197cc221d1af9bef25bbbd429726069b29e3d41c6d711cf4d708"
+      }
+    },
+    {
+      "native_class": "UMC2UIListButton",
+      "size_operand": 928,
+      "registration": {
+        "start": "0x82d04154",
+        "end": "0x82d04198",
+        "sha256": "169e803570b9776d8590e9e0ed1b5f72e4e56d1c90444ef20e48f55e5e61e9c3"
+      },
+      "callback": {
+        "start": "0x82363f38",
+        "end": "0x82363f78",
+        "sha256": "6ca82c0e1f7ee1ba6f869cf1a3d977a238d44fbcf967edc587736098dbb9fa87"
+      }
+    },
+    {
+      "native_class": "UMC2UIScene_QuestJournal",
+      "size_operand": 908,
+      "registration": {
+        "start": "0x82d5b884",
+        "end": "0x82d5b8c8",
+        "sha256": "271c028c213939c6e3954bb0a495d8db82d1da860987e1b4becd688bc6e94806"
+      },
+      "callback": {
+        "start": "0x82354e38",
+        "end": "0x82354e6c",
+        "sha256": "f84ed5b1a3d6c26fef925003e5e9eee307f7638d2ca9930951566703e1882c2c"
+      },
+      "vtable": 2182268048
+    },
+    {
+      "native_class": "UMC2UIScene_RemindTutorial",
+      "size_operand": 836,
+      "registration": {
+        "start": "0x82d5b514",
+        "end": "0x82d5b558",
+        "sha256": "e7cbd9fdf8660a9590523730baac1888695f4d53db1b46fea78b3ffea9a72b4f"
+      },
+      "callback": {
+        "start": "0x82354a18",
+        "end": "0x82354a4c",
+        "sha256": "111f747de4a531adac40e5115504c8c8ff69049beb7a8517ee2c24fa2e19313c"
+      },
+      "vtable": 2182268872
+    }
+  ],
+  "script_windows": [
+    {
+      "index": 10601,
+      "path": "MC2UIScene.SceneActivated",
+      "script_offset": 7686585,
+      "script_sha256": "af3a35d3f8b2cfffbc6c01a8e770f498b43e1820732adc0272c9413a047c9cf7"
+    },
+    {
+      "index": 10675,
+      "path": "MC2UIScene_List.SceneActivated",
+      "script_offset": 7692543,
+      "script_sha256": "555a879283ce883f266d67264b63899dca6a17cb017a207a7bc642f6c427fd70"
+    },
+    {
+      "index": 33821,
+      "path": "MC2UIScene_QuestJournal.FindQuestLabel",
+      "script_offset": 10024565,
+      "script_sha256": "0b6c63e388dcfa39c7d167422f9da1901ca42463f4f14a14af312e72a66cbbec"
+    },
+    {
+      "index": 33876,
+      "path": "MC2UIScene_RemindTutorial.SceneActivated",
+      "script_offset": 10030992,
+      "script_sha256": "b662aaaf9f210ef6013fd791f8e3166da82d2b492db5e1a9c36e6a2c3baa4635"
+    },
+    {
+      "index": 33878,
+      "path": "MC2UIScene_RemindTutorial.InitWidgets",
+      "script_offset": 10031483,
+      "script_sha256": "11a0fa27d1b0ff0bae661c3a06870fa5f204136484e87b380128fb0b7f12ec15"
+    },
+    {
+      "index": 27127,
+      "path": "MC2QuestInstance.SetQuestInfo",
+      "script_offset": 9278035,
+      "script_sha256": "2a7e066f2a148e840ceaf2f8a9a412ce1fdca862c81e38fad29c5646a9836585"
+    },
+    {
+      "index": 10621,
+      "path": "MC2UIScene.InitScene",
+      "script_offset": 7688474,
+      "script_sha256": "7094ffc3e6e58c75bce2da75778bbb45964cb38469529e66623934c2fedfb7ae"
+    },
+    {
+      "index": 11964,
+      "path": "MC2HUDUI.RecordTutorialList",
+      "script_offset": 7812530,
+      "script_sha256": "2b9fcdb05ef490463b0246b98120769a91241be25b82e22a9df1711dfb4c9318"
+    },
+    {
+      "index": 11968,
+      "path": "MC2HUDUI.RecordTutorialListByInfo",
+      "script_offset": 7812878,
+      "script_sha256": "4656edd72636a23bfe3e7d50971b2e88750fecc97a7cfff1eff786a1b77b9a5d"
+    }
+  ],
+  "shared": {
+    "row_collection": "0x82d54bc8 gets recursive Children, typechecks MC2UIListButton, fills this+0x260/count+0x264, then calls vslot+0x2c0.",
+    "clear_all": "0x82d55e68 writes empty UTF16BE source at 0x820ae044 to every row+0x350 slot+4, recursively filters MC2UILabel children and writes empty to label+0x330 slot+4.",
+    "caption_setter": "0x82363f38 ctor writes this+0x350=0x82146af4; slot+4=0x825a7bc8 compares/copies FString to interface+0x10 (button+0x360), then always calls refresh slot+0xc=0x825a7c38.",
+    "label_setter": "Independently locked in battle-quick profile: this+0x330=0x8214432c; slot+4=0x825a5f28 writes FString to interface+0x14 (label+0x344), then refresh+0xc=0x825a5fd8."
+  },
+  "profiles": {
+    "quest-title": {
+      "scene_export": 44962,
+      "row_exports": [
+        44814,
+        44815,
+        44816,
+        44817,
+        44818,
+        44819,
+        44820,
+        44821,
+        44822
+      ],
+      "activation": {
+        "event": 65532,
+        "initial_activation": true,
+        "chain": [
+          65532,
+          38442,
+          39306
+        ],
+        "list_type": "AllCube",
+        "targets_linked": false,
+        "init_action_virtual_slot": "0x158",
+        "init_action_native": "0x82d19d90"
+      },
+      "data_update": "0x82d5c530 unconditionally calls clear slot+0x2bc before manager-null check; 0x82d5c028 fills actual valid quest rows only, empty source/counter branches leave cleared fields empty.",
+      "display_calls": [
+        "0x82d55f8c",
+        "0x82d5c274"
+      ],
+      "source_semantics": "MC2QuestInstance.SetQuestInfo export27127 assigns Title=Quest.Subject; native0x82d5c028 reads selected quest+0xb4 FString; script33821 passes selected Title to UILabel.SetValue.",
+      "layout_naming_grade": "High-confidence deduction: native +0xb4 is Title, anchored by declared member order and script consumers; no runtime reflection capture.",
+      "pre_init_visibility": "A serialized Delay action precedes row initialization. No claim that defaults could never appear for a pre-initialization frame."
+    },
+    "tutorial-caption": {
+      "scene_export": 44969,
+      "row_exports": [
+        44823,
+        44824,
+        44825,
+        44826,
+        44827,
+        44828,
+        44829,
+        44830,
+        44831
+      ],
+      "activation": {
+        "event": 65533,
+        "initial_activation": true,
+        "chain": [
+          65533,
+          38203,
+          39307
+        ],
+        "branch": "CheckToBeAlreadyOpened No",
+        "list_type": "MyList",
+        "targets_linked": false,
+        "script_flag": "InitWidgets export33878 sets IsAlreadyOpened=False; Check action implementation not independently executed."
+      },
+      "data_update": "0x82d59080 first calls clear slot+0x2bc, then assigns all rows. It selects the record title when row+offset < category count, otherwise assigns newly constructed empty FString; NO DATA is never restored in this update.",
+      "display_calls": [
+        "0x82d55ec8",
+        "0x82d59160"
+      ],
+      "source_semantics": "HUD RecordTutorialList export11964 appends scene.TutorialTitle to TutorialsToRemind.TutorialTitleList; export11968 appends input title. Native0x82d59bb8 and type-specific0x82d59918/0x82d59678 copy HUD record strings into 24-byte entries; update uses entry first FString.",
+      "layout_naming_grade": "High-confidence deduction: HUD+0x78c is TutorialTitleList, with adjacent 12-byte path/type/title array declarations; direct array data and setter bytes verified."
+    }
+  },
+  "limits": {
+    "runtime_execution_observed": false,
+    "gameplay_layout_or_frame_order_verified": false,
+    "saved_title_cache_rewritten": false,
+    "chapter_cards_included": false,
+    "scope": "18 specified serialized defaults and their static consumer/data-source chains. No global claim that all dynamic states were executed."
+  }
+}

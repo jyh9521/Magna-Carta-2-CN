@@ -1,0 +1,1629 @@
+{
+  "schema_version": 1,
+  "kind": "levelup-default-clear-independent-evidence",
+  "evidence_type": "source-locked static disassembly, controlled AST model, native atlas pixel reads",
+  "recipe_sha256": "7fc7aca33b52a1f2cbf0c9d70e90181de26aafecd4b2362a49f52f8a9224a0fc",
+  "packages": {
+    "core": "1f79abbc4c0992e4c2eef33e755af6a9993dc980cdf053677e9b138f0cecb815",
+    "engine": "67ad212cb85233b1c1524c11ac7ad6bbbf393c61fdfbb399430130fd0c07aef9",
+    "mc2game": "9bcc6e024b155f58fd841c9d75ff794c584e016e292500375388c80020b294f7",
+    "startup_int": "27f179a768b8c18dc884e2d9f6499d0fc1b5b07b41c1b7e181e0398facb39228",
+    "font": "b973eb07b41cc0b3bf51bc7399ff899ae262521f0789681bc10df1f127668e54"
+  },
+  "fields": [
+    {
+      "id": "UI-21",
+      "owner": "mc2game:44509",
+      "old_value": "Level UP",
+      "recommended_value": "",
+      "recommended_fstring_count": 0,
+      "role": "new combo description line, not level-up title"
+    },
+    {
+      "id": "UI-22",
+      "owner": "mc2game:44510",
+      "old_value": "Level Up",
+      "recommended_value": "",
+      "recommended_fstring_count": 0,
+      "role": "new combo description line, not level-up title"
+    }
+  ],
+  "source_functions": [
+    {
+      "index": 11539,
+      "path": "MC2UIScene_LevelUp.FindWidgets",
+      "payload_sha256": "0e7e30250eb331249d0d2124d98bb1fd846ba421574ef9d55761c2f53d3a985c",
+      "script_sha256": "eb26d65901b01426d04ddcdb5c9e5c2aefdf26268fe772dfe8fc1bfc71112253",
+      "script_offset": 7777166
+    },
+    {
+      "index": 11541,
+      "path": "MC2UIScene_LevelUp.InitWidgets",
+      "payload_sha256": "11f967a69cdeb93a99ab76dbe2742c8591fe7066f674a83732ce98b8eca97afa",
+      "script_sha256": "17a66cc2566f801418111aa27562bd245f93b42affadd48d456139771e6ae014",
+      "script_offset": 7777694
+    },
+    {
+      "index": 11550,
+      "path": "MC2UIScene_LevelUp.SetInformation",
+      "payload_sha256": "cab5eb555f10d5891b44c3479e33452a404ce7c228db6c0218a5231b15dc8aa8",
+      "script_sha256": "dca6ff8d0dca5f47c21d7db0918be3ce586450d0c2770dcfe495f9f47902b86e",
+      "script_offset": 7778531
+    },
+    {
+      "index": 11561,
+      "path": "MC2UIScene_LevelUp.ClearLevelUpDescription",
+      "payload_sha256": "6d6d129c2244dcd83307073f6fa7601f916a2a44d22a17ae84cccc18f6a48fe9",
+      "script_sha256": "ab989046a2d3711c69b1a7b9225dabbb57074356f247cb44de05e177da3c1954",
+      "script_offset": 7781872
+    },
+    {
+      "index": 11567,
+      "path": "MC2UIScene_LevelUp.SetLevelUpDescription",
+      "payload_sha256": "4b34067903b521646eda7abf3402e25fa294db032bef16ffb54a6092c4fb4cb6",
+      "script_sha256": "5405bb771797dede031b379b5055acd805ac192e6c1d4f711260a5a2f141ad7a",
+      "script_offset": 7782208
+    },
+    {
+      "index": 11571,
+      "path": "MC2UIScene_LevelUp.GetStyleName",
+      "payload_sha256": "95a7bfc1988f786665507ba9eb9b8d5b5587a4050764072a80bb0f539f60bd6a",
+      "script_sha256": "e054d89951661800f27676df1bc7bdfaa956a1b13d8b97b9c41b7cdd2eb7f3ce",
+      "script_offset": 7783039
+    },
+    {
+      "index": 12069,
+      "path": "MC2HUDUI.OpenLevelUpScene",
+      "payload_sha256": "84322fbf908f415837f3287656a0e480211a71556a5017339ca49eead36fc479",
+      "script_sha256": "a99a260b3f83316072b22daa40ed5af88d53bae3694f4730666a28bf562fb601",
+      "script_offset": 7820846
+    }
+  ],
+  "control_flow": {
+    "find_widgets_pointtext_at": [
+      81,
+      110
+    ],
+    "open_scene_at": 108,
+    "fade_in_at": 168,
+    "set_information_at": 187,
+    "set_information_description_block": [
+      1018,
+      1445
+    ],
+    "set_description_binding_at": 584,
+    "set_description_visibility_true_at": 611,
+    "clear_binding_at": 0,
+    "clear_visibility_false_at": 24,
+    "conclusions": [
+      "Both rows are populated or cleared for zero, one or two matching new-combo entries.",
+      "OpenScene/FadeIn precede SetInformation; initialization visibility is not proven absent.",
+      "The script does not read these default string values.",
+      "Empty defaults mirror the actual no-data clear state rather than adding a misleading translated label."
+    ]
+  },
+  "controls": {
+    "state_cases": 6,
+    "default_variants": 2,
+    "positive_combinations": 126,
+    "all_final_states_identical": true,
+    "all_positive_text_preserved": true,
+    "raw_default_read": false,
+    "text_source_sha256": "8671b08e5bd4732aad15729d44d8832778a06684980efd8b5776dd071b8fa79a",
+    "limits": "Only decoded expression semantics in SetInformation [1018,1445), Set/ClearDescription and GetStyleName; setter/visibility side effects are a controlled model. No native UI function, allocator, real VM or game rendering executed."
+  },
+  "font_pixel_summary": [
+    {
+      "owner": "engine:21326",
+      "payload_sha256": "a6281ac11a5bb437b155a75284d4a387cabaa21ba6feff64d00e1e30e8583402",
+      "codepoints": 38,
+      "all_alpha_nonempty": true,
+      "max_text_width": 277,
+      "max_glyph_height": 18,
+      "atlas_payload_sha256": [
+        "0259c1526ab4b5c8481a63b7ba9e103a148fbf28ccb6f7ebe4301038a0dc0e4c"
+      ]
+    },
+    {
+      "owner": "mc2game:34612",
+      "payload_sha256": "c2330a737ace9c5a3c1e0449b6024385801634ffc0c613e547baa95030da54d7",
+      "codepoints": 38,
+      "all_alpha_nonempty": true,
+      "max_text_width": 362,
+      "max_glyph_height": 25,
+      "atlas_payload_sha256": [
+        "43072712d68a5bacc91213f1cd4d6749aba2af61e9485188cc19efcaf25b6547"
+      ]
+    },
+    {
+      "owner": "startup_int:18",
+      "payload_sha256": "e0445be83990644599a23f9a9e2485bc2d2a701f0771255b4b640e31d357b0ba",
+      "codepoints": 38,
+      "all_alpha_nonempty": true,
+      "max_text_width": 277,
+      "max_glyph_height": 18,
+      "atlas_payload_sha256": [
+        "3c0d396896d5c67b3c613412cac40957cc6135d067b38a8044b71b09abad187b"
+      ]
+    },
+    {
+      "owner": "startup_int:20",
+      "payload_sha256": "3b3b11c93c383aaf9e4949199797fc8bf78c4b20e690aab5a5080b2c57ef82de",
+      "codepoints": 38,
+      "all_alpha_nonempty": true,
+      "max_text_width": 442,
+      "max_glyph_height": 31,
+      "atlas_payload_sha256": [
+        "698df3a23e44cd2e689ed73ebb6c70cf420c10e9fe8ee0840f337919f06560e0"
+      ]
+    },
+    {
+      "owner": "startup_int:21",
+      "payload_sha256": "2f7a0b5b11a96423a9746a9008579269ae51c101f589e73262d394819d2ffa09",
+      "codepoints": 38,
+      "all_alpha_nonempty": true,
+      "max_text_width": 362,
+      "max_glyph_height": 25,
+      "atlas_payload_sha256": [
+        "789dcfc7e7f17061fdfccebf3962de929194d80474051747deed4072b99fbdc7"
+      ]
+    },
+    {
+      "owner": "font:1",
+      "payload_sha256": "24de73ffae64783a3aae7ab53d592779ffdda7676c9421c0bbb445b43ca11b60",
+      "codepoints": 38,
+      "all_alpha_nonempty": true,
+      "max_text_width": 442,
+      "max_glyph_height": 31,
+      "atlas_payload_sha256": [
+        "04ad68fad9fe34e2659805dc66664a3530f4faf5dac6e65642278c0228c47435"
+      ]
+    },
+    {
+      "owner": "font:2",
+      "payload_sha256": "cd0bdab22890782ca94c6099454430e9b8860d9a02f6ceb14551d81e4380812b",
+      "codepoints": 38,
+      "all_alpha_nonempty": true,
+      "max_text_width": 362,
+      "max_glyph_height": 25,
+      "atlas_payload_sha256": [
+        "49d13fc90733fd0cb5cf2c10bab73fd64d879646dac6aa24b273ed0860b14d44"
+      ]
+    }
+  ],
+  "levelup_geometry": {
+    "explicit_width": 556,
+    "explicit_height": 29,
+    "wrap_mode": 3,
+    "vertical_autosize": true,
+    "vertical_padding": [
+      3,
+      3
+    ],
+    "observation": "Serialized owner values; model omits final native scaling/layout."
+  },
+  "renderers": [
+    {
+      "id": "UI-01",
+      "owner": "mc2game:44012",
+      "renderer": "mc2game:59846",
+      "string_style_id": "9fe5e7d1-481e0c9d-c03b5f9f-40f3726d",
+      "explicit_drawfont_override_observations": [],
+      "checked_prototype_nodes": [
+        "mc2game:59846",
+        "mc2game:32829",
+        "engine:21510",
+        "engine:15602",
+        "engine:15479",
+        "engine:6065",
+        "core:4",
+        "core:2"
+      ]
+    },
+    {
+      "id": "UI-02",
+      "owner": "mc2game:44013",
+      "renderer": "mc2game:59847",
+      "string_style_id": "f98b9106-44d561c2-0de70eba-15089c61",
+      "explicit_drawfont_override_observations": [],
+      "checked_prototype_nodes": [
+        "mc2game:59847",
+        "mc2game:32829",
+        "engine:21510",
+        "engine:15602",
+        "engine:15479",
+        "engine:6065",
+        "core:4",
+        "core:2"
+      ]
+    },
+    {
+      "id": "UI-03",
+      "owner": "mc2game:44014",
+      "renderer": "mc2game:59848",
+      "string_style_id": "f98b9106-44d561c2-0de70eba-15089c61",
+      "explicit_drawfont_override_observations": [],
+      "checked_prototype_nodes": [
+        "mc2game:59848",
+        "mc2game:32829",
+        "engine:21510",
+        "engine:15602",
+        "engine:15479",
+        "engine:6065",
+        "core:4",
+        "core:2"
+      ]
+    },
+    {
+      "id": "UI-04",
+      "owner": "mc2game:44015",
+      "renderer": "mc2game:59849",
+      "string_style_id": "f98b9106-44d561c2-0de70eba-15089c61",
+      "explicit_drawfont_override_observations": [],
+      "checked_prototype_nodes": [
+        "mc2game:59849",
+        "mc2game:32829",
+        "engine:21510",
+        "engine:15602",
+        "engine:15479",
+        "engine:6065",
+        "core:4",
+        "core:2"
+      ]
+    },
+    {
+      "id": "UI-05",
+      "owner": "mc2game:44016",
+      "renderer": "mc2game:59850",
+      "string_style_id": "f98b9106-44d561c2-0de70eba-15089c61",
+      "explicit_drawfont_override_observations": [],
+      "checked_prototype_nodes": [
+        "mc2game:59850",
+        "mc2game:32829",
+        "engine:21510",
+        "engine:15602",
+        "engine:15479",
+        "engine:6065",
+        "core:4",
+        "core:2"
+      ]
+    },
+    {
+      "id": "UI-06",
+      "owner": "mc2game:44105",
+      "renderer": "mc2game:59934",
+      "string_style_id": "9fe5e7d1-481e0c9d-c03b5f9f-40f3726d",
+      "explicit_drawfont_override_observations": [],
+      "checked_prototype_nodes": [
+        "mc2game:59934",
+        "mc2game:32829",
+        "engine:21510",
+        "engine:15602",
+        "engine:15479",
+        "engine:6065",
+        "core:4",
+        "core:2"
+      ]
+    },
+    {
+      "id": "UI-07",
+      "owner": "mc2game:44108",
+      "renderer": "mc2game:59938",
+      "string_style_id": "9fe5e7d1-481e0c9d-c03b5f9f-40f3726d",
+      "explicit_drawfont_override_observations": [],
+      "checked_prototype_nodes": [
+        "mc2game:59938",
+        "mc2game:32829",
+        "engine:21510",
+        "engine:15602",
+        "engine:15479",
+        "engine:6065",
+        "core:4",
+        "core:2"
+      ]
+    },
+    {
+      "id": "UI-08",
+      "owner": "mc2game:44111",
+      "renderer": "mc2game:59942",
+      "string_style_id": "9fe5e7d1-481e0c9d-c03b5f9f-40f3726d",
+      "explicit_drawfont_override_observations": [],
+      "checked_prototype_nodes": [
+        "mc2game:59942",
+        "mc2game:32829",
+        "engine:21510",
+        "engine:15602",
+        "engine:15479",
+        "engine:6065",
+        "core:4",
+        "core:2"
+      ]
+    },
+    {
+      "id": "UI-09",
+      "owner": "mc2game:44114",
+      "renderer": "mc2game:59946",
+      "string_style_id": "9fe5e7d1-481e0c9d-c03b5f9f-40f3726d",
+      "explicit_drawfont_override_observations": [],
+      "checked_prototype_nodes": [
+        "mc2game:59946",
+        "mc2game:32829",
+        "engine:21510",
+        "engine:15602",
+        "engine:15479",
+        "engine:6065",
+        "core:4",
+        "core:2"
+      ]
+    },
+    {
+      "id": "UI-10",
+      "owner": "mc2game:44117",
+      "renderer": "mc2game:59950",
+      "string_style_id": "9fe5e7d1-481e0c9d-c03b5f9f-40f3726d",
+      "explicit_drawfont_override_observations": [],
+      "checked_prototype_nodes": [
+        "mc2game:59950",
+        "mc2game:32829",
+        "engine:21510",
+        "engine:15602",
+        "engine:15479",
+        "engine:6065",
+        "core:4",
+        "core:2"
+      ]
+    },
+    {
+      "id": "UI-11",
+      "owner": "mc2game:44120",
+      "renderer": "mc2game:59954",
+      "string_style_id": "9fe5e7d1-481e0c9d-c03b5f9f-40f3726d",
+      "explicit_drawfont_override_observations": [],
+      "checked_prototype_nodes": [
+        "mc2game:59954",
+        "mc2game:32829",
+        "engine:21510",
+        "engine:15602",
+        "engine:15479",
+        "engine:6065",
+        "core:4",
+        "core:2"
+      ]
+    },
+    {
+      "id": "UI-12",
+      "owner": "mc2game:44268",
+      "renderer": "mc2game:60106",
+      "string_style_id": "9fe5e7d1-481e0c9d-c03b5f9f-40f3726d",
+      "explicit_drawfont_override_observations": [],
+      "checked_prototype_nodes": [
+        "mc2game:60106",
+        "mc2game:32829",
+        "engine:21510",
+        "engine:15602",
+        "engine:15479",
+        "engine:6065",
+        "core:4",
+        "core:2"
+      ]
+    },
+    {
+      "id": "UI-13",
+      "owner": "mc2game:44269",
+      "renderer": "mc2game:60108",
+      "string_style_id": "9fe5e7d1-481e0c9d-c03b5f9f-40f3726d",
+      "explicit_drawfont_override_observations": [],
+      "checked_prototype_nodes": [
+        "mc2game:60108",
+        "mc2game:32829",
+        "engine:21510",
+        "engine:15602",
+        "engine:15479",
+        "engine:6065",
+        "core:4",
+        "core:2"
+      ]
+    },
+    {
+      "id": "UI-14",
+      "owner": "mc2game:44270",
+      "renderer": "mc2game:60110",
+      "string_style_id": "9fe5e7d1-481e0c9d-c03b5f9f-40f3726d",
+      "explicit_drawfont_override_observations": [],
+      "checked_prototype_nodes": [
+        "mc2game:60110",
+        "mc2game:32829",
+        "engine:21510",
+        "engine:15602",
+        "engine:15479",
+        "engine:6065",
+        "core:4",
+        "core:2"
+      ]
+    },
+    {
+      "id": "UI-15",
+      "owner": "mc2game:44271",
+      "renderer": "mc2game:60112",
+      "string_style_id": "9fe5e7d1-481e0c9d-c03b5f9f-40f3726d",
+      "explicit_drawfont_override_observations": [],
+      "checked_prototype_nodes": [
+        "mc2game:60112",
+        "mc2game:32829",
+        "engine:21510",
+        "engine:15602",
+        "engine:15479",
+        "engine:6065",
+        "core:4",
+        "core:2"
+      ]
+    },
+    {
+      "id": "UI-16",
+      "owner": "mc2game:44272",
+      "renderer": "mc2game:60114",
+      "string_style_id": "9fe5e7d1-481e0c9d-c03b5f9f-40f3726d",
+      "explicit_drawfont_override_observations": [],
+      "checked_prototype_nodes": [
+        "mc2game:60114",
+        "mc2game:32829",
+        "engine:21510",
+        "engine:15602",
+        "engine:15479",
+        "engine:6065",
+        "core:4",
+        "core:2"
+      ]
+    },
+    {
+      "id": "UI-17",
+      "owner": "mc2game:44273",
+      "renderer": "mc2game:60116",
+      "string_style_id": "9fe5e7d1-481e0c9d-c03b5f9f-40f3726d",
+      "explicit_drawfont_override_observations": [],
+      "checked_prototype_nodes": [
+        "mc2game:60116",
+        "mc2game:32829",
+        "engine:21510",
+        "engine:15602",
+        "engine:15479",
+        "engine:6065",
+        "core:4",
+        "core:2"
+      ]
+    },
+    {
+      "id": "UI-18",
+      "owner": "mc2game:44274",
+      "renderer": "mc2game:60118",
+      "string_style_id": "9fe5e7d1-481e0c9d-c03b5f9f-40f3726d",
+      "explicit_drawfont_override_observations": [],
+      "checked_prototype_nodes": [
+        "mc2game:60118",
+        "mc2game:32829",
+        "engine:21510",
+        "engine:15602",
+        "engine:15479",
+        "engine:6065",
+        "core:4",
+        "core:2"
+      ]
+    },
+    {
+      "id": "UI-19",
+      "owner": "mc2game:44275",
+      "renderer": "mc2game:60120",
+      "string_style_id": "9fe5e7d1-481e0c9d-c03b5f9f-40f3726d",
+      "explicit_drawfont_override_observations": [],
+      "checked_prototype_nodes": [
+        "mc2game:60120",
+        "mc2game:32829",
+        "engine:21510",
+        "engine:15602",
+        "engine:15479",
+        "engine:6065",
+        "core:4",
+        "core:2"
+      ]
+    },
+    {
+      "id": "UI-20",
+      "owner": "mc2game:44276",
+      "renderer": "mc2game:60122",
+      "string_style_id": "9fe5e7d1-481e0c9d-c03b5f9f-40f3726d",
+      "explicit_drawfont_override_observations": [],
+      "checked_prototype_nodes": [
+        "mc2game:60122",
+        "mc2game:32829",
+        "engine:21510",
+        "engine:15602",
+        "engine:15479",
+        "engine:6065",
+        "core:4",
+        "core:2"
+      ]
+    },
+    {
+      "id": "UI-21",
+      "owner": "mc2game:44509",
+      "renderer": "mc2game:60396",
+      "string_style_id": "9fe5e7d1-481e0c9d-c03b5f9f-40f3726d",
+      "explicit_drawfont_override_observations": [],
+      "checked_prototype_nodes": [
+        "mc2game:60396",
+        "mc2game:32829",
+        "engine:21510",
+        "engine:15602",
+        "engine:15479",
+        "engine:6065",
+        "core:4",
+        "core:2"
+      ]
+    },
+    {
+      "id": "UI-22",
+      "owner": "mc2game:44510",
+      "renderer": "mc2game:60397",
+      "string_style_id": "9fe5e7d1-481e0c9d-c03b5f9f-40f3726d",
+      "explicit_drawfont_override_observations": [],
+      "checked_prototype_nodes": [
+        "mc2game:60397",
+        "mc2game:32829",
+        "engine:21510",
+        "engine:15602",
+        "engine:15479",
+        "engine:6065",
+        "core:4",
+        "core:2"
+      ]
+    },
+    {
+      "id": "UI-23",
+      "owner": "mc2game:44823",
+      "renderer": "mc2game:60155",
+      "string_style_id": "9fe5e7d1-481e0c9d-c03b5f9f-40f3726d",
+      "explicit_drawfont_override_observations": [],
+      "checked_prototype_nodes": [
+        "mc2game:60155",
+        "mc2game:44781",
+        "engine:20250",
+        "engine:15602",
+        "engine:15479",
+        "engine:6065",
+        "core:4",
+        "core:2"
+      ]
+    },
+    {
+      "id": "UI-24",
+      "owner": "mc2game:44824",
+      "renderer": "mc2game:60156",
+      "string_style_id": "9fe5e7d1-481e0c9d-c03b5f9f-40f3726d",
+      "explicit_drawfont_override_observations": [],
+      "checked_prototype_nodes": [
+        "mc2game:60156",
+        "mc2game:44781",
+        "engine:20250",
+        "engine:15602",
+        "engine:15479",
+        "engine:6065",
+        "core:4",
+        "core:2"
+      ]
+    },
+    {
+      "id": "UI-25",
+      "owner": "mc2game:44825",
+      "renderer": "mc2game:60157",
+      "string_style_id": "9fe5e7d1-481e0c9d-c03b5f9f-40f3726d",
+      "explicit_drawfont_override_observations": [],
+      "checked_prototype_nodes": [
+        "mc2game:60157",
+        "mc2game:44781",
+        "engine:20250",
+        "engine:15602",
+        "engine:15479",
+        "engine:6065",
+        "core:4",
+        "core:2"
+      ]
+    },
+    {
+      "id": "UI-26",
+      "owner": "mc2game:44826",
+      "renderer": "mc2game:60158",
+      "string_style_id": "9fe5e7d1-481e0c9d-c03b5f9f-40f3726d",
+      "explicit_drawfont_override_observations": [],
+      "checked_prototype_nodes": [
+        "mc2game:60158",
+        "mc2game:44781",
+        "engine:20250",
+        "engine:15602",
+        "engine:15479",
+        "engine:6065",
+        "core:4",
+        "core:2"
+      ]
+    },
+    {
+      "id": "UI-27",
+      "owner": "mc2game:44827",
+      "renderer": "mc2game:60159",
+      "string_style_id": "9fe5e7d1-481e0c9d-c03b5f9f-40f3726d",
+      "explicit_drawfont_override_observations": [],
+      "checked_prototype_nodes": [
+        "mc2game:60159",
+        "mc2game:44781",
+        "engine:20250",
+        "engine:15602",
+        "engine:15479",
+        "engine:6065",
+        "core:4",
+        "core:2"
+      ]
+    },
+    {
+      "id": "UI-28",
+      "owner": "mc2game:44828",
+      "renderer": "mc2game:60160",
+      "string_style_id": "9fe5e7d1-481e0c9d-c03b5f9f-40f3726d",
+      "explicit_drawfont_override_observations": [],
+      "checked_prototype_nodes": [
+        "mc2game:60160",
+        "mc2game:44781",
+        "engine:20250",
+        "engine:15602",
+        "engine:15479",
+        "engine:6065",
+        "core:4",
+        "core:2"
+      ]
+    },
+    {
+      "id": "UI-29",
+      "owner": "mc2game:44829",
+      "renderer": "mc2game:60161",
+      "string_style_id": "9fe5e7d1-481e0c9d-c03b5f9f-40f3726d",
+      "explicit_drawfont_override_observations": [],
+      "checked_prototype_nodes": [
+        "mc2game:60161",
+        "mc2game:44781",
+        "engine:20250",
+        "engine:15602",
+        "engine:15479",
+        "engine:6065",
+        "core:4",
+        "core:2"
+      ]
+    },
+    {
+      "id": "UI-30",
+      "owner": "mc2game:44830",
+      "renderer": "mc2game:60162",
+      "string_style_id": "9fe5e7d1-481e0c9d-c03b5f9f-40f3726d",
+      "explicit_drawfont_override_observations": [],
+      "checked_prototype_nodes": [
+        "mc2game:60162",
+        "mc2game:44781",
+        "engine:20250",
+        "engine:15602",
+        "engine:15479",
+        "engine:6065",
+        "core:4",
+        "core:2"
+      ]
+    },
+    {
+      "id": "UI-31",
+      "owner": "mc2game:44831",
+      "renderer": "mc2game:60163",
+      "string_style_id": "9fe5e7d1-481e0c9d-c03b5f9f-40f3726d",
+      "explicit_drawfont_override_observations": [],
+      "checked_prototype_nodes": [
+        "mc2game:60163",
+        "mc2game:44781",
+        "engine:20250",
+        "engine:15602",
+        "engine:15479",
+        "engine:6065",
+        "core:4",
+        "core:2"
+      ]
+    }
+  ],
+  "styles": [
+    {
+      "owner": "startup_int:3634",
+      "style_id": "f98b9106-44d561c2-0de70eba-15089c61",
+      "style_tag": {
+        "name": "General_Font_Shadow",
+        "number": 0
+      },
+      "paths": [
+        {
+          "state": "engine.default__uistate_enabled",
+          "plane": "explicit-archetype",
+          "font": "startup_int:21",
+          "font_reference_offset": 12815075,
+          "source": "startup_int:4296"
+        },
+        {
+          "state": "engine.default__uistate_enabled",
+          "plane": "class-default-candidate",
+          "font": "engine:21326",
+          "font_reference_offset": 3735073,
+          "source": "engine:20234"
+        },
+        {
+          "state": "engine.default__uistate_active",
+          "plane": "class-default-candidate",
+          "font": "engine:21326",
+          "font_reference_offset": 3735073,
+          "source": "engine:20234"
+        },
+        {
+          "state": "engine.default__uistate_disabled",
+          "plane": "class-default-candidate",
+          "font": "engine:21326",
+          "font_reference_offset": 3735073,
+          "source": "engine:20234"
+        },
+        {
+          "state": "engine.default__uistate_focused",
+          "plane": "class-default-candidate",
+          "font": "engine:21326",
+          "font_reference_offset": 3735073,
+          "source": "engine:20234"
+        },
+        {
+          "state": "engine.default__uistate_pressed",
+          "plane": "class-default-candidate",
+          "font": "engine:21326",
+          "font_reference_offset": 3735073,
+          "source": "engine:20234"
+        },
+        {
+          "state": "engine.default__uistate_targetedtab",
+          "plane": "class-default-candidate",
+          "font": "engine:21326",
+          "font_reference_offset": 3735073,
+          "source": "engine:20234"
+        }
+      ],
+      "runtime_selection_proven": false
+    },
+    {
+      "owner": "startup_int:3635",
+      "style_id": "9fe5e7d1-481e0c9d-c03b5f9f-40f3726d",
+      "style_tag": {
+        "name": "GeneralFont",
+        "number": 0
+      },
+      "paths": [
+        {
+          "state": "engine.default__uistate_enabled",
+          "plane": "explicit-archetype",
+          "font": "startup_int:21",
+          "font_reference_offset": 12815227,
+          "source": "startup_int:4300"
+        },
+        {
+          "state": "engine.default__uistate_enabled",
+          "plane": "class-default-candidate",
+          "font": "engine:21326",
+          "font_reference_offset": 3735073,
+          "source": "engine:20234"
+        },
+        {
+          "state": "engine.default__uistate_active",
+          "plane": "explicit-archetype",
+          "font": "startup_int:21",
+          "font_reference_offset": 12815295,
+          "source": "startup_int:4301"
+        },
+        {
+          "state": "engine.default__uistate_active",
+          "plane": "class-default-candidate",
+          "font": "engine:21326",
+          "font_reference_offset": 3735073,
+          "source": "engine:20234"
+        },
+        {
+          "state": "engine.default__uistate_disabled",
+          "plane": "explicit-archetype",
+          "font": "startup_int:21",
+          "font_reference_offset": 12815363,
+          "source": "startup_int:4302"
+        },
+        {
+          "state": "engine.default__uistate_disabled",
+          "plane": "class-default-candidate",
+          "font": "engine:21326",
+          "font_reference_offset": 3735073,
+          "source": "engine:20234"
+        },
+        {
+          "state": "engine.default__uistate_focused",
+          "plane": "explicit-archetype",
+          "font": "startup_int:21",
+          "font_reference_offset": 12815431,
+          "source": "startup_int:4303"
+        },
+        {
+          "state": "engine.default__uistate_focused",
+          "plane": "class-default-candidate",
+          "font": "engine:21326",
+          "font_reference_offset": 3735073,
+          "source": "engine:20234"
+        },
+        {
+          "state": "engine.default__uistate_pressed",
+          "plane": "explicit-archetype",
+          "font": "startup_int:21",
+          "font_reference_offset": 12815499,
+          "source": "startup_int:4304"
+        },
+        {
+          "state": "engine.default__uistate_pressed",
+          "plane": "class-default-candidate",
+          "font": "engine:21326",
+          "font_reference_offset": 3735073,
+          "source": "engine:20234"
+        },
+        {
+          "state": "engine.default__uistate_targetedtab",
+          "plane": "explicit-archetype",
+          "font": "startup_int:21",
+          "font_reference_offset": 12815567,
+          "source": "startup_int:4305"
+        },
+        {
+          "state": "engine.default__uistate_targetedtab",
+          "plane": "class-default-candidate",
+          "font": "engine:21326",
+          "font_reference_offset": 3735073,
+          "source": "engine:20234"
+        }
+      ],
+      "runtime_selection_proven": false
+    },
+    {
+      "owner": "startup_int:3646",
+      "style_id": "c83fe27e-4afb936c-3802e6b5-781a0ad0",
+      "style_tag": {
+        "name": "MC2UITextStyle",
+        "number": 1
+      },
+      "paths": [
+        {
+          "state": "engine.default__uistate_enabled",
+          "plane": "explicit-archetype",
+          "font": "startup_int:21",
+          "font_reference_offset": 12816639,
+          "source": "startup_int:4345"
+        },
+        {
+          "state": "engine.default__uistate_enabled",
+          "plane": "class-default-candidate",
+          "font": "engine:21326",
+          "font_reference_offset": 3735073,
+          "source": "engine:20234"
+        },
+        {
+          "state": "engine.default__uistate_active",
+          "plane": "explicit-archetype",
+          "font": "startup_int:21",
+          "font_reference_offset": 12816755,
+          "source": "startup_int:4346"
+        },
+        {
+          "state": "engine.default__uistate_active",
+          "plane": "class-default-candidate",
+          "font": "engine:21326",
+          "font_reference_offset": 3735073,
+          "source": "engine:20234"
+        },
+        {
+          "state": "engine.default__uistate_disabled",
+          "plane": "explicit-archetype",
+          "font": "startup_int:21",
+          "font_reference_offset": 12816871,
+          "source": "startup_int:4347"
+        },
+        {
+          "state": "engine.default__uistate_disabled",
+          "plane": "class-default-candidate",
+          "font": "engine:21326",
+          "font_reference_offset": 3735073,
+          "source": "engine:20234"
+        },
+        {
+          "state": "engine.default__uistate_focused",
+          "plane": "explicit-archetype",
+          "font": "startup_int:21",
+          "font_reference_offset": 12816987,
+          "source": "startup_int:4348"
+        },
+        {
+          "state": "engine.default__uistate_focused",
+          "plane": "class-default-candidate",
+          "font": "engine:21326",
+          "font_reference_offset": 3735073,
+          "source": "engine:20234"
+        },
+        {
+          "state": "engine.default__uistate_pressed",
+          "plane": "explicit-archetype",
+          "font": "startup_int:19",
+          "font_reference_offset": 12817103,
+          "source": "startup_int:4349"
+        },
+        {
+          "state": "engine.default__uistate_pressed",
+          "plane": "class-default-candidate",
+          "font": "engine:21326",
+          "font_reference_offset": 3735073,
+          "source": "engine:20234"
+        },
+        {
+          "state": "engine.default__uistate_targetedtab",
+          "plane": "explicit-archetype",
+          "font": "startup_int:19",
+          "font_reference_offset": 12817219,
+          "source": "startup_int:4350"
+        },
+        {
+          "state": "engine.default__uistate_targetedtab",
+          "plane": "class-default-candidate",
+          "font": "engine:21326",
+          "font_reference_offset": 3735073,
+          "source": "engine:20234"
+        }
+      ],
+      "runtime_selection_proven": false
+    }
+  ],
+  "uncertainties": [
+    "No in-game frame, real UnrealScript VM, native setter, or dynamic UI-state execution is claimed.",
+    "Style planes are independent serialized candidates, not a merged effective runtime selection.",
+    "MC2UITextStyle_0 Pressed/TargetedTab retain TinyFont candidates; their reachability for these noninteractive labels is not established and no actual residual text was observed.",
+    "Standalone UI_Level_UP.xxx has no scene/label/renderer export; no standalone renderer override was found."
+  ],
+  "artifacts": {
+    "font_atlas_proof": {
+      "path": "build/phase-370-ui-defaults/levelup-fonts/font-atlas-proof.json",
+      "sha256": "e4c09565297a30fee47d9e0ae0b3517ca94e50f0f6745369aaf682ed13b32a41"
+    },
+    "positive_controls": {
+      "path": "build/phase-370-ui-defaults/levelup-fonts/levelup-positive-controls.json",
+      "sha256": "61e775aac99e4f4ff8c7181f38b4cc500717e1c2aa06f0b78ecb9f077bb3aeb2"
+    },
+    "offline_composition": {
+      "path": "build/phase-370-ui-defaults/levelup-fonts/dynamic-positive-layout.png",
+      "sha256": "6cee0c0ba5e54fb6ccdbe1760b21b522104e7b39177a1f1f47487d1a8049af4b"
+    }
+  },
+  "summary": {
+    "fields_recommended_empty": 2,
+    "dynamic_text_cases": 126,
+    "fonts_checked": 7,
+    "codepoints_per_font": 38,
+    "renderer_count": 31,
+    "renderers_with_drawfont_observations": 0,
+    "general15_max_width": 362
+  },
+  "object_catalog": {
+    "mc2game:44509": {
+      "path": "UI_Level_UP.Scenes.Scene_LevelUp.BundlePanel.Point_Mark_0.Point_Text_0",
+      "class_path": "MC2UILabel",
+      "logical_serial_offset": 19215106,
+      "serial_size": 793
+    },
+    "mc2game:44510": {
+      "path": "UI_Level_UP.Scenes.Scene_LevelUp.BundlePanel.Point_Mark_1.Point_Text_1",
+      "class_path": "MC2UILabel",
+      "logical_serial_offset": 19215899,
+      "serial_size": 793
+    },
+    "engine:21326": {
+      "path": "EngineFonts.SmallFont",
+      "class_path": "Font",
+      "logical_serial_offset": 13238272,
+      "serial_size": 439360
+    },
+    "mc2game:34612": {
+      "path": "Font.General_15",
+      "class_path": "Engine.Font",
+      "logical_serial_offset": 58032128,
+      "serial_size": 829994
+    },
+    "startup_int:18": {
+      "path": "EngineFonts.SmallFont",
+      "class_path": "Engine.Font",
+      "logical_serial_offset": 17869552,
+      "serial_size": 439360
+    },
+    "startup_int:20": {
+      "path": "Font.EngineMedium_Subtitle",
+      "class_path": "Engine.Font",
+      "logical_serial_offset": 22503436,
+      "serial_size": 606028
+    },
+    "startup_int:21": {
+      "path": "Font.General_15",
+      "class_path": "Engine.Font",
+      "logical_serial_offset": 12845056,
+      "serial_size": 829994
+    },
+    "font:1": {
+      "path": "EngineMedium_Subtitle",
+      "class_path": "Engine.Font",
+      "logical_serial_offset": 6367984,
+      "serial_size": 606028
+    },
+    "font:2": {
+      "path": "General_15",
+      "class_path": "Engine.Font",
+      "logical_serial_offset": 1343488,
+      "serial_size": 829994
+    },
+    "mc2game:44012": {
+      "path": "UI_Battle.Scenes.Scene_ButtonB.Bundle.Base.Skill_window.Skill.TextB",
+      "class_path": "MC2UILabel",
+      "logical_serial_offset": 18824712,
+      "serial_size": 825
+    },
+    "mc2game:59846": {
+      "path": "UI_Battle.Scenes.Scene_ButtonB.Bundle.Base.Skill_window.Skill.TextB.LabelStringRenderer",
+      "class_path": "Engine.UIComp_DrawString",
+      "logical_serial_offset": 56343857,
+      "serial_size": 351
+    },
+    "mc2game:32829": {
+      "path": "Default__MC2UILabel.LabelStringRenderer",
+      "class_path": "Engine.UIComp_DrawString",
+      "logical_serial_offset": 9932384,
+      "serial_size": 24
+    },
+    "engine:21510": {
+      "path": "Default__UILabel.LabelStringRenderer",
+      "class_path": "UIComp_DrawString",
+      "logical_serial_offset": 13202229,
+      "serial_size": 24
+    },
+    "engine:15602": {
+      "path": "Default__UIComp_DrawString",
+      "class_path": "UIComp_DrawString",
+      "logical_serial_offset": 3206701,
+      "serial_size": 1072
+    },
+    "engine:15479": {
+      "path": "Default__UIComp_DrawComponents",
+      "class_path": "UIComp_DrawComponents",
+      "logical_serial_offset": 3198381,
+      "serial_size": 12
+    },
+    "engine:6065": {
+      "path": "Default__UIComponent",
+      "class_path": "UIComponent",
+      "logical_serial_offset": 2442636,
+      "serial_size": 12
+    },
+    "core:4": {
+      "path": "Default__Component",
+      "class_path": "Component",
+      "logical_serial_offset": 101750,
+      "serial_size": 12
+    },
+    "core:2": {
+      "path": "Default__Object",
+      "class_path": "Object",
+      "logical_serial_offset": 101639,
+      "serial_size": 12
+    },
+    "mc2game:44013": {
+      "path": "UI_Battle.Scenes.Scene_ButtonB.Bundle.Base.Skill_window.Skill.TextB_Shadow_0",
+      "class_path": "MC2UILabel",
+      "logical_serial_offset": 18825537,
+      "serial_size": 825
+    },
+    "mc2game:59847": {
+      "path": "UI_Battle.Scenes.Scene_ButtonB.Bundle.Base.Skill_window.Skill.TextB_Shadow_0.LabelStringRenderer",
+      "class_path": "Engine.UIComp_DrawString",
+      "logical_serial_offset": 56344208,
+      "serial_size": 399
+    },
+    "mc2game:44014": {
+      "path": "UI_Battle.Scenes.Scene_ButtonB.Bundle.Base.Skill_window.Skill.TextB_Shadow_1",
+      "class_path": "MC2UILabel",
+      "logical_serial_offset": 18826362,
+      "serial_size": 825
+    },
+    "mc2game:59848": {
+      "path": "UI_Battle.Scenes.Scene_ButtonB.Bundle.Base.Skill_window.Skill.TextB_Shadow_1.LabelStringRenderer",
+      "class_path": "Engine.UIComp_DrawString",
+      "logical_serial_offset": 56344607,
+      "serial_size": 399
+    },
+    "mc2game:44015": {
+      "path": "UI_Battle.Scenes.Scene_ButtonB.Bundle.Base.Skill_window.Skill.TextB_Shadow_2",
+      "class_path": "MC2UILabel",
+      "logical_serial_offset": 18827187,
+      "serial_size": 825
+    },
+    "mc2game:59849": {
+      "path": "UI_Battle.Scenes.Scene_ButtonB.Bundle.Base.Skill_window.Skill.TextB_Shadow_2.LabelStringRenderer",
+      "class_path": "Engine.UIComp_DrawString",
+      "logical_serial_offset": 56345006,
+      "serial_size": 399
+    },
+    "mc2game:44016": {
+      "path": "UI_Battle.Scenes.Scene_ButtonB.Bundle.Base.Skill_window.Skill.TextB_Shadow_3",
+      "class_path": "MC2UILabel",
+      "logical_serial_offset": 18828012,
+      "serial_size": 825
+    },
+    "mc2game:59850": {
+      "path": "UI_Battle.Scenes.Scene_ButtonB.Bundle.Base.Skill_window.Skill.TextB_Shadow_3.LabelStringRenderer",
+      "class_path": "Engine.UIComp_DrawString",
+      "logical_serial_offset": 56345405,
+      "serial_size": 399
+    },
+    "mc2game:44105": {
+      "path": "UI_Core.Scenes.QuickMenu.BundlePannel.Cate_0_Pannel.Cate_0_Bundle.ListPannel_0.List_0.ItemName",
+      "class_path": "MC2UILabel",
+      "logical_serial_offset": 18897169,
+      "serial_size": 636
+    },
+    "mc2game:59934": {
+      "path": "UI_Core.Scenes.QuickMenu.BundlePannel.Cate_0_Pannel.Cate_0_Bundle.ListPannel_0.List_0.ItemName.LabelStringRenderer",
+      "class_path": "Engine.UIComp_DrawString",
+      "logical_serial_offset": 56369536,
+      "serial_size": 208
+    },
+    "mc2game:44108": {
+      "path": "UI_Core.Scenes.QuickMenu.BundlePannel.Cate_0_Pannel.Cate_0_Bundle.ListPannel_1.List_1.ItemName",
+      "class_path": "MC2UILabel",
+      "logical_serial_offset": 18899176,
+      "serial_size": 636
+    },
+    "mc2game:59938": {
+      "path": "UI_Core.Scenes.QuickMenu.BundlePannel.Cate_0_Pannel.Cate_0_Bundle.ListPannel_1.List_1.ItemName.LabelStringRenderer",
+      "class_path": "Engine.UIComp_DrawString",
+      "logical_serial_offset": 56370362,
+      "serial_size": 208
+    },
+    "mc2game:44111": {
+      "path": "UI_Core.Scenes.QuickMenu.BundlePannel.Cate_0_Pannel.Cate_0_Bundle.ListPannel_2.List_2.ItemName",
+      "class_path": "MC2UILabel",
+      "logical_serial_offset": 18901183,
+      "serial_size": 636
+    },
+    "mc2game:59942": {
+      "path": "UI_Core.Scenes.QuickMenu.BundlePannel.Cate_0_Pannel.Cate_0_Bundle.ListPannel_2.List_2.ItemName.LabelStringRenderer",
+      "class_path": "Engine.UIComp_DrawString",
+      "logical_serial_offset": 56371188,
+      "serial_size": 208
+    },
+    "mc2game:44114": {
+      "path": "UI_Core.Scenes.QuickMenu.BundlePannel.Cate_0_Pannel.Cate_0_Bundle.ListPannel_3.List_3.ItemName",
+      "class_path": "MC2UILabel",
+      "logical_serial_offset": 18903190,
+      "serial_size": 636
+    },
+    "mc2game:59946": {
+      "path": "UI_Core.Scenes.QuickMenu.BundlePannel.Cate_0_Pannel.Cate_0_Bundle.ListPannel_3.List_3.ItemName.LabelStringRenderer",
+      "class_path": "Engine.UIComp_DrawString",
+      "logical_serial_offset": 56372014,
+      "serial_size": 208
+    },
+    "mc2game:44117": {
+      "path": "UI_Core.Scenes.QuickMenu.BundlePannel.Cate_0_Pannel.Cate_0_Bundle.ListPannel_4.List_4.ItemName",
+      "class_path": "MC2UILabel",
+      "logical_serial_offset": 18905197,
+      "serial_size": 636
+    },
+    "mc2game:59950": {
+      "path": "UI_Core.Scenes.QuickMenu.BundlePannel.Cate_0_Pannel.Cate_0_Bundle.ListPannel_4.List_4.ItemName.LabelStringRenderer",
+      "class_path": "Engine.UIComp_DrawString",
+      "logical_serial_offset": 56372840,
+      "serial_size": 208
+    },
+    "mc2game:44120": {
+      "path": "UI_Core.Scenes.QuickMenu.BundlePannel.Cate_0_Pannel.Cate_0_Bundle.ListPannel_5.List_5.ItemName",
+      "class_path": "MC2UILabel",
+      "logical_serial_offset": 18907204,
+      "serial_size": 636
+    },
+    "mc2game:59954": {
+      "path": "UI_Core.Scenes.QuickMenu.BundlePannel.Cate_0_Pannel.Cate_0_Bundle.ListPannel_5.List_5.ItemName.LabelStringRenderer",
+      "class_path": "Engine.UIComp_DrawString",
+      "logical_serial_offset": 56373666,
+      "serial_size": 208
+    },
+    "mc2game:44268": {
+      "path": "UI_Field_1.Scenes.QuestJournalScene.ContentsBundlePanel.Content_0.Content_0.List.QuestTitle",
+      "class_path": "MC2UILabel",
+      "logical_serial_offset": 19024553,
+      "serial_size": 694
+    },
+    "mc2game:60106": {
+      "path": "UI_Field_1.Scenes.QuestJournalScene.ContentsBundlePanel.Content_0.Content_0.List.QuestTitle.LabelStringRenderer",
+      "class_path": "Engine.UIComp_DrawString",
+      "logical_serial_offset": 56429584,
+      "serial_size": 369
+    },
+    "mc2game:44269": {
+      "path": "UI_Field_1.Scenes.QuestJournalScene.ContentsBundlePanel.Content_1.Content_1.List.QuestTitle",
+      "class_path": "MC2UILabel",
+      "logical_serial_offset": 19025247,
+      "serial_size": 694
+    },
+    "mc2game:60108": {
+      "path": "UI_Field_1.Scenes.QuestJournalScene.ContentsBundlePanel.Content_1.Content_1.List.QuestTitle.LabelStringRenderer",
+      "class_path": "Engine.UIComp_DrawString",
+      "logical_serial_offset": 56430279,
+      "serial_size": 369
+    },
+    "mc2game:44270": {
+      "path": "UI_Field_1.Scenes.QuestJournalScene.ContentsBundlePanel.Content_2.Content_2.List.QuestTitle",
+      "class_path": "MC2UILabel",
+      "logical_serial_offset": 19025941,
+      "serial_size": 694
+    },
+    "mc2game:60110": {
+      "path": "UI_Field_1.Scenes.QuestJournalScene.ContentsBundlePanel.Content_2.Content_2.List.QuestTitle.LabelStringRenderer",
+      "class_path": "Engine.UIComp_DrawString",
+      "logical_serial_offset": 56430974,
+      "serial_size": 369
+    },
+    "mc2game:44271": {
+      "path": "UI_Field_1.Scenes.QuestJournalScene.ContentsBundlePanel.Content_3.Content_3.List.QuestTitle",
+      "class_path": "MC2UILabel",
+      "logical_serial_offset": 19026635,
+      "serial_size": 694
+    },
+    "mc2game:60112": {
+      "path": "UI_Field_1.Scenes.QuestJournalScene.ContentsBundlePanel.Content_3.Content_3.List.QuestTitle.LabelStringRenderer",
+      "class_path": "Engine.UIComp_DrawString",
+      "logical_serial_offset": 56431669,
+      "serial_size": 369
+    },
+    "mc2game:44272": {
+      "path": "UI_Field_1.Scenes.QuestJournalScene.ContentsBundlePanel.Content_4.Content_4.List.QuestTitle",
+      "class_path": "MC2UILabel",
+      "logical_serial_offset": 19027329,
+      "serial_size": 694
+    },
+    "mc2game:60114": {
+      "path": "UI_Field_1.Scenes.QuestJournalScene.ContentsBundlePanel.Content_4.Content_4.List.QuestTitle.LabelStringRenderer",
+      "class_path": "Engine.UIComp_DrawString",
+      "logical_serial_offset": 56432364,
+      "serial_size": 369
+    },
+    "mc2game:44273": {
+      "path": "UI_Field_1.Scenes.QuestJournalScene.ContentsBundlePanel.Content_5.Content_5.List.QuestTitle",
+      "class_path": "MC2UILabel",
+      "logical_serial_offset": 19028023,
+      "serial_size": 694
+    },
+    "mc2game:60116": {
+      "path": "UI_Field_1.Scenes.QuestJournalScene.ContentsBundlePanel.Content_5.Content_5.List.QuestTitle.LabelStringRenderer",
+      "class_path": "Engine.UIComp_DrawString",
+      "logical_serial_offset": 56433059,
+      "serial_size": 369
+    },
+    "mc2game:44274": {
+      "path": "UI_Field_1.Scenes.QuestJournalScene.ContentsBundlePanel.Content_6.Content_6.List.QuestTitle",
+      "class_path": "MC2UILabel",
+      "logical_serial_offset": 19028717,
+      "serial_size": 694
+    },
+    "mc2game:60118": {
+      "path": "UI_Field_1.Scenes.QuestJournalScene.ContentsBundlePanel.Content_6.Content_6.List.QuestTitle.LabelStringRenderer",
+      "class_path": "Engine.UIComp_DrawString",
+      "logical_serial_offset": 56433754,
+      "serial_size": 369
+    },
+    "mc2game:44275": {
+      "path": "UI_Field_1.Scenes.QuestJournalScene.ContentsBundlePanel.Content_7.Content_7.List.QuestTitle",
+      "class_path": "MC2UILabel",
+      "logical_serial_offset": 19029411,
+      "serial_size": 694
+    },
+    "mc2game:60120": {
+      "path": "UI_Field_1.Scenes.QuestJournalScene.ContentsBundlePanel.Content_7.Content_7.List.QuestTitle.LabelStringRenderer",
+      "class_path": "Engine.UIComp_DrawString",
+      "logical_serial_offset": 56434449,
+      "serial_size": 369
+    },
+    "mc2game:44276": {
+      "path": "UI_Field_1.Scenes.QuestJournalScene.ContentsBundlePanel.Content_8.Content_8.List.QuestTitle",
+      "class_path": "MC2UILabel",
+      "logical_serial_offset": 19030105,
+      "serial_size": 694
+    },
+    "mc2game:60122": {
+      "path": "UI_Field_1.Scenes.QuestJournalScene.ContentsBundlePanel.Content_8.Content_8.List.QuestTitle.LabelStringRenderer",
+      "class_path": "Engine.UIComp_DrawString",
+      "logical_serial_offset": 56435144,
+      "serial_size": 369
+    },
+    "mc2game:60396": {
+      "path": "UI_Level_UP.Scenes.Scene_LevelUp.BundlePanel.Point_Mark_0.Point_Text_0.LabelStringRenderer",
+      "class_path": "Engine.UIComp_DrawString",
+      "logical_serial_offset": 56515047,
+      "serial_size": 397
+    },
+    "mc2game:60397": {
+      "path": "UI_Level_UP.Scenes.Scene_LevelUp.BundlePanel.Point_Mark_1.Point_Text_1.LabelStringRenderer",
+      "class_path": "Engine.UIComp_DrawString",
+      "logical_serial_offset": 56515444,
+      "serial_size": 397
+    },
+    "mc2game:44823": {
+      "path": "UI_Field_1.Scenes.RemindTutorial.ContentsBundlePanel.Content_0.Content_0.List",
+      "class_path": "MC2UIListButton",
+      "logical_serial_offset": 19460095,
+      "serial_size": 756
+    },
+    "mc2game:60155": {
+      "path": "UI_Field_1.Scenes.RemindTutorial.ContentsBundlePanel.Content_0.Content_0.List.LabelStringRenderer",
+      "class_path": "Engine.UIComp_DrawString",
+      "logical_serial_offset": 56444822,
+      "serial_size": 326
+    },
+    "mc2game:44781": {
+      "path": "Default__MC2UIListButton.LabelStringRenderer",
+      "class_path": "Engine.UIComp_DrawString",
+      "logical_serial_offset": 19430093,
+      "serial_size": 24
+    },
+    "engine:20250": {
+      "path": "Default__UILabelButton.LabelStringRenderer",
+      "class_path": "UIComp_DrawString",
+      "logical_serial_offset": 3735928,
+      "serial_size": 128
+    },
+    "mc2game:44824": {
+      "path": "UI_Field_1.Scenes.RemindTutorial.ContentsBundlePanel.Content_1.Content_1.List",
+      "class_path": "MC2UIListButton",
+      "logical_serial_offset": 19460851,
+      "serial_size": 784
+    },
+    "mc2game:60156": {
+      "path": "UI_Field_1.Scenes.RemindTutorial.ContentsBundlePanel.Content_1.Content_1.List.LabelStringRenderer",
+      "class_path": "Engine.UIComp_DrawString",
+      "logical_serial_offset": 56445148,
+      "serial_size": 326
+    },
+    "mc2game:44825": {
+      "path": "UI_Field_1.Scenes.RemindTutorial.ContentsBundlePanel.Content_2.Content_2.List",
+      "class_path": "MC2UIListButton",
+      "logical_serial_offset": 19461635,
+      "serial_size": 812
+    },
+    "mc2game:60157": {
+      "path": "UI_Field_1.Scenes.RemindTutorial.ContentsBundlePanel.Content_2.Content_2.List.LabelStringRenderer",
+      "class_path": "Engine.UIComp_DrawString",
+      "logical_serial_offset": 56445474,
+      "serial_size": 326
+    },
+    "mc2game:44826": {
+      "path": "UI_Field_1.Scenes.RemindTutorial.ContentsBundlePanel.Content_3.Content_3.List",
+      "class_path": "MC2UIListButton",
+      "logical_serial_offset": 19462447,
+      "serial_size": 784
+    },
+    "mc2game:60158": {
+      "path": "UI_Field_1.Scenes.RemindTutorial.ContentsBundlePanel.Content_3.Content_3.List.LabelStringRenderer",
+      "class_path": "Engine.UIComp_DrawString",
+      "logical_serial_offset": 56445800,
+      "serial_size": 326
+    },
+    "mc2game:44827": {
+      "path": "UI_Field_1.Scenes.RemindTutorial.ContentsBundlePanel.Content_4.Content_4.List",
+      "class_path": "MC2UIListButton",
+      "logical_serial_offset": 19463231,
+      "serial_size": 784
+    },
+    "mc2game:60159": {
+      "path": "UI_Field_1.Scenes.RemindTutorial.ContentsBundlePanel.Content_4.Content_4.List.LabelStringRenderer",
+      "class_path": "Engine.UIComp_DrawString",
+      "logical_serial_offset": 56446126,
+      "serial_size": 326
+    },
+    "mc2game:44828": {
+      "path": "UI_Field_1.Scenes.RemindTutorial.ContentsBundlePanel.Content_5.Content_5.List",
+      "class_path": "MC2UIListButton",
+      "logical_serial_offset": 19464015,
+      "serial_size": 784
+    },
+    "mc2game:60160": {
+      "path": "UI_Field_1.Scenes.RemindTutorial.ContentsBundlePanel.Content_5.Content_5.List.LabelStringRenderer",
+      "class_path": "Engine.UIComp_DrawString",
+      "logical_serial_offset": 56446452,
+      "serial_size": 326
+    },
+    "mc2game:44829": {
+      "path": "UI_Field_1.Scenes.RemindTutorial.ContentsBundlePanel.Content_6.Content_6.List",
+      "class_path": "MC2UIListButton",
+      "logical_serial_offset": 19464799,
+      "serial_size": 784
+    },
+    "mc2game:60161": {
+      "path": "UI_Field_1.Scenes.RemindTutorial.ContentsBundlePanel.Content_6.Content_6.List.LabelStringRenderer",
+      "class_path": "Engine.UIComp_DrawString",
+      "logical_serial_offset": 56446778,
+      "serial_size": 326
+    },
+    "mc2game:44830": {
+      "path": "UI_Field_1.Scenes.RemindTutorial.ContentsBundlePanel.Content_7.Content_7.List",
+      "class_path": "MC2UIListButton",
+      "logical_serial_offset": 19465583,
+      "serial_size": 784
+    },
+    "mc2game:60162": {
+      "path": "UI_Field_1.Scenes.RemindTutorial.ContentsBundlePanel.Content_7.Content_7.List.LabelStringRenderer",
+      "class_path": "Engine.UIComp_DrawString",
+      "logical_serial_offset": 56447104,
+      "serial_size": 326
+    },
+    "mc2game:44831": {
+      "path": "UI_Field_1.Scenes.RemindTutorial.ContentsBundlePanel.Content_8.Content_8.List",
+      "class_path": "MC2UIListButton",
+      "logical_serial_offset": 19466367,
+      "serial_size": 784
+    },
+    "mc2game:60163": {
+      "path": "UI_Field_1.Scenes.RemindTutorial.ContentsBundlePanel.Content_8.Content_8.List.LabelStringRenderer",
+      "class_path": "Engine.UIComp_DrawString",
+      "logical_serial_offset": 56447430,
+      "serial_size": 326
+    },
+    "startup_int:3634": {
+      "path": "style_ui.Base.General_Font_Shadow",
+      "class_path": "Engine.UIStyle",
+      "logical_serial_offset": 12754303,
+      "serial_size": 324
+    },
+    "startup_int:4296": {
+      "path": "style_ui.Base.General_Font_Shadow.UIStyle_Combo_6.UIStyle_Text_8",
+      "class_path": "Engine.UIStyle_Text",
+      "logical_serial_offset": 12815047,
+      "serial_size": 116
+    },
+    "engine:20234": {
+      "path": "Default__UIStyle_Text",
+      "class_path": "UIStyle_Text",
+      "logical_serial_offset": 3735045,
+      "serial_size": 120
+    },
+    "startup_int:3635": {
+      "path": "style_ui.Base.GeneralFont",
+      "class_path": "Engine.UIStyle",
+      "logical_serial_offset": 12754627,
+      "serial_size": 317
+    },
+    "startup_int:4300": {
+      "path": "style_ui.Base.GeneralFont.UIStyle_Combo_0.UIStyle_Text_2",
+      "class_path": "Engine.UIStyle_Text",
+      "logical_serial_offset": 12815199,
+      "serial_size": 68
+    },
+    "startup_int:4301": {
+      "path": "style_ui.Base.GeneralFont.UIStyle_Combo_1.UIStyle_Text_0",
+      "class_path": "Engine.UIStyle_Text",
+      "logical_serial_offset": 12815267,
+      "serial_size": 68
+    },
+    "startup_int:4302": {
+      "path": "style_ui.Base.GeneralFont.UIStyle_Combo_2.UIStyle_Text_1",
+      "class_path": "Engine.UIStyle_Text",
+      "logical_serial_offset": 12815335,
+      "serial_size": 68
+    },
+    "startup_int:4303": {
+      "path": "style_ui.Base.GeneralFont.UIStyle_Combo_3.UIStyle_Text_3",
+      "class_path": "Engine.UIStyle_Text",
+      "logical_serial_offset": 12815403,
+      "serial_size": 68
+    },
+    "startup_int:4304": {
+      "path": "style_ui.Base.GeneralFont.UIStyle_Combo_4.UIStyle_Text_4",
+      "class_path": "Engine.UIStyle_Text",
+      "logical_serial_offset": 12815471,
+      "serial_size": 68
+    },
+    "startup_int:4305": {
+      "path": "style_ui.Base.GeneralFont.UIStyle_Combo_5.UIStyle_Text_5",
+      "class_path": "Engine.UIStyle_Text",
+      "logical_serial_offset": 12815539,
+      "serial_size": 68
+    },
+    "startup_int:3646": {
+      "path": "style_ui.Base.MC2UITextStyle_0",
+      "class_path": "Engine.UIStyle",
+      "logical_serial_offset": 12758085,
+      "serial_size": 322
+    },
+    "startup_int:4345": {
+      "path": "style_ui.Base.MC2UITextStyle_0.UIStyle_Combo_0.UIStyle_Text_2",
+      "class_path": "Engine.UIStyle_Text",
+      "logical_serial_offset": 12816611,
+      "serial_size": 116
+    },
+    "startup_int:4346": {
+      "path": "style_ui.Base.MC2UITextStyle_0.UIStyle_Combo_1.UIStyle_Text_0",
+      "class_path": "Engine.UIStyle_Text",
+      "logical_serial_offset": 12816727,
+      "serial_size": 116
+    },
+    "startup_int:4347": {
+      "path": "style_ui.Base.MC2UITextStyle_0.UIStyle_Combo_2.UIStyle_Text_1",
+      "class_path": "Engine.UIStyle_Text",
+      "logical_serial_offset": 12816843,
+      "serial_size": 116
+    },
+    "startup_int:4348": {
+      "path": "style_ui.Base.MC2UITextStyle_0.UIStyle_Combo_3.UIStyle_Text_3",
+      "class_path": "Engine.UIStyle_Text",
+      "logical_serial_offset": 12816959,
+      "serial_size": 116
+    },
+    "startup_int:19": {
+      "path": "EngineFonts.TinyFont",
+      "class_path": "Engine.Font",
+      "logical_serial_offset": 535784,
+      "serial_size": 41568
+    },
+    "startup_int:4349": {
+      "path": "style_ui.Base.MC2UITextStyle_0.UIStyle_Combo_4.UIStyle_Text_4",
+      "class_path": "Engine.UIStyle_Text",
+      "logical_serial_offset": 12817075,
+      "serial_size": 116
+    },
+    "startup_int:4350": {
+      "path": "style_ui.Base.MC2UITextStyle_0.UIStyle_Combo_5.UIStyle_Text_5",
+      "class_path": "Engine.UIStyle_Text",
+      "logical_serial_offset": 12817191,
+      "serial_size": 116
+    }
+  },
+  "reproducers": [
+    {
+      "path": "build/phase-370-ui-defaults/levelup-fonts/inspect.py",
+      "sha256": "0af98586f0679c5661b7394f537c4103289b75ec99aa6716fadf60e999464304"
+    },
+    {
+      "path": "build/phase-370-ui-defaults/levelup-fonts/levelup_paths.py",
+      "sha256": "381317f42dce6f6270d52e8b923b6c160598b72f9e3acbab6aec51ab1016d756"
+    },
+    {
+      "path": "build/phase-370-ui-defaults/levelup-fonts/positive_controls.py",
+      "sha256": "ddbe4618504ee63f3f6123fe113d3208984c673a567f3e1f5fad70a8ae568df7"
+    },
+    {
+      "path": "build/phase-370-ui-defaults/levelup-fonts/finish_profile.py",
+      "sha256": "5c409ad0d0117a46e83aaa747abaf158702c48c97c4f8eb403d10e6001f60e33"
+    }
+  ],
+  "evidence_files": [
+    {
+      "path": "build/phase-370-ui-defaults/levelup-fonts/owner-renderer.json",
+      "sha256": "2b109ad66f192f978a537ca49ad41cd82e5b05287d85bbfb01ca3e2a6efef2e3"
+    },
+    {
+      "path": "build/phase-370-ui-defaults/levelup-fonts/dynamic-source-fields.json",
+      "sha256": "ab8dcd9aec55225c388b4e0d6ff0a0bd4246dd658302a3cf5eec138068c13a7c"
+    },
+    {
+      "path": "build/phase-370-ui-defaults/levelup-fonts/levelup-functions.json",
+      "sha256": "9d8871e3b3e8212ec3fa601a16f9e373d3264f2cdf9ed33dd312c0a8e4dc37a3"
+    },
+    {
+      "path": "build/phase-370-ui-defaults/levelup-fonts/levelup-flow-errors.json",
+      "sha256": "e37024ab5a00a915192eaed04abaf557abc3a83e91bc0459bc03ec748f377ac7"
+    }
+  ]
+}

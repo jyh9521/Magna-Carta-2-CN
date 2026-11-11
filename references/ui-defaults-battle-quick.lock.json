@@ -1,0 +1,1863 @@
+{
+  "schema_version": 1,
+  "kind": "ui-default-consumer-source-lock",
+  "scope_ids": [
+    "UI-01",
+    "UI-02",
+    "UI-03",
+    "UI-04",
+    "UI-05",
+    "UI-06",
+    "UI-07",
+    "UI-08",
+    "UI-09",
+    "UI-10",
+    "UI-11"
+  ],
+  "evidence_level": "static-source-bound; no game or pixel observation",
+  "native_image_sha256": "d18d49fb2960426715ba17d61d069cce42b1eadac153af13c9395cd42b1773e9",
+  "native_image_base": 2181038080,
+  "native_image_size": 20119552,
+  "baseline_recipe_sha256": "7fc7aca33b52a1f2cbf0c9d70e90181de26aafecd4b2362a49f52f8a9224a0fc",
+  "mc2game_source_sha256": "9bcc6e024b155f58fd841c9d75ff794c584e016e292500375388c80020b294f7",
+  "native_ranges": [
+    {
+      "start": 2195093164,
+      "end": 2195093232,
+      "size": 68,
+      "sha256": "4a836255419742f7a551f3ec2bf3ae1181f888adea58bb3c48f18ae3106d3ea4",
+      "purpose": "UMC2UIScene_ButtonB registration",
+      "extent_kind": "bounded-window"
+    },
+    {
+      "start": 2184521144,
+      "end": 2184521196,
+      "size": 52,
+      "sha256": "2889885240b8ea2fc98f3a1780753c30eab9f205b328ad505352ecc63a3d28d9",
+      "purpose": "UMC2UIScene_ButtonB constructor",
+      "extent_kind": "explicit-constructor-block"
+    },
+    {
+      "start": 2182246248,
+      "end": 2182246288,
+      "size": 40,
+      "sha256": "5af5767e3c71622548073ca5d4c08d445d3118edd695c1b3b9a40ccfb288905f",
+      "purpose": "UMC2UIScene_ButtonB name",
+      "extent_kind": "constant-string"
+    },
+    {
+      "start": 2182251240,
+      "end": 2182251244,
+      "size": 4,
+      "sha256": "cff52054c26893f285ca4811a95ba3e72e4939ef210ec7f473a06fb496d6b507",
+      "purpose": "UMC2UIScene_ButtonB vslot 0x288",
+      "extent_kind": "vtable-word"
+    },
+    {
+      "start": 2182251244,
+      "end": 2182251248,
+      "size": 4,
+      "sha256": "29178917951efbaf9455069d668e6c190cbef452409d08f745abfcf46f1f988e",
+      "purpose": "UMC2UIScene_ButtonB vslot 0x28c",
+      "extent_kind": "vtable-word"
+    },
+    {
+      "start": 2182251248,
+      "end": 2182251252,
+      "size": 4,
+      "sha256": "5a5590683d4120aff0143197058cdc08711b516c41e8c78e53687bac251fbcfc",
+      "purpose": "UMC2UIScene_ButtonB vslot 0x290",
+      "extent_kind": "vtable-word"
+    },
+    {
+      "start": 2182251252,
+      "end": 2182251256,
+      "size": 4,
+      "sha256": "3b66c960ec95e860d94283c256a9ae08c25455bb51677fa00fb6264183f1ca4d",
+      "purpose": "UMC2UIScene_ButtonB vslot 0x294",
+      "extent_kind": "vtable-word"
+    },
+    {
+      "start": 2194989372,
+      "end": 2194989440,
+      "size": 68,
+      "sha256": "dadcf86a43f86c2dd2f8c54265a27b5f379b9dd013cd8d7c84b32b4010d13294",
+      "purpose": "UMC2UIScene_QuickMenu registration",
+      "extent_kind": "bounded-window"
+    },
+    {
+      "start": 2184534248,
+      "end": 2184534300,
+      "size": 52,
+      "sha256": "b6c1814a541b5173df092c9c795e2de889a8557927f72011050c507573c3cbd8",
+      "purpose": "UMC2UIScene_QuickMenu constructor",
+      "extent_kind": "explicit-constructor-block"
+    },
+    {
+      "start": 2182273352,
+      "end": 2182273396,
+      "size": 44,
+      "sha256": "1bf0f47174895dea7c927fd5ee2e5a7ec97a2faa340b35602bc51b1f272e9ca6",
+      "purpose": "UMC2UIScene_QuickMenu name",
+      "extent_kind": "constant-string"
+    },
+    {
+      "start": 2182274168,
+      "end": 2182274172,
+      "size": 4,
+      "sha256": "94315e58ca7248df2b88a8e4d31edf7a209493bee118b2c3fce686e1beb0cbec",
+      "purpose": "UMC2UIScene_QuickMenu vslot 0x288",
+      "extent_kind": "vtable-word"
+    },
+    {
+      "start": 2182274176,
+      "end": 2182274180,
+      "size": 4,
+      "sha256": "e8506ebb8dc38c6334de48beb2cf2957313c6e7ed1afd0a7a5fd0885a810b84f",
+      "purpose": "UMC2UIScene_QuickMenu vslot 0x290",
+      "extent_kind": "vtable-word"
+    },
+    {
+      "start": 2182274220,
+      "end": 2182274224,
+      "size": 4,
+      "sha256": "df96d73ac03a0b64891b9749478553db3057015b9b1b3b43e672252c90b835d0",
+      "purpose": "UMC2UIScene_QuickMenu vslot 0x2bc",
+      "extent_kind": "vtable-word"
+    },
+    {
+      "start": 2182274224,
+      "end": 2182274228,
+      "size": 4,
+      "sha256": "118e7adc5767939f3229c9f8f3245cdbdb7555b99c3577d218ed35d07777d993",
+      "purpose": "UMC2UIScene_QuickMenu vslot 0x2c0",
+      "extent_kind": "vtable-word"
+    },
+    {
+      "start": 2182274228,
+      "end": 2182274232,
+      "size": 4,
+      "sha256": "2a48e1deea8942626fdb6fc5f57c52fba31cd2c9a37c465808977da8813def7d",
+      "purpose": "UMC2UIScene_QuickMenu vslot 0x2c4",
+      "extent_kind": "vtable-word"
+    },
+    {
+      "start": 2195018428,
+      "end": 2195018496,
+      "size": 68,
+      "sha256": "50d73c7a1144dc7f7d832d6d149369e701c9c43d948286ea55f3f5eaf5fe79fb",
+      "purpose": "UMC2UIScene_List registration",
+      "extent_kind": "bounded-window"
+    },
+    {
+      "start": 2184532080,
+      "end": 2184532132,
+      "size": 52,
+      "sha256": "4bf7e4db11c70d9c6afe0bde6a82e5aeace8d5d4927e1a1cf5a390c57c8b0bed",
+      "purpose": "UMC2UIScene_List constructor",
+      "extent_kind": "explicit-constructor-block"
+    },
+    {
+      "start": 2182269704,
+      "end": 2182269738,
+      "size": 34,
+      "sha256": "ff786a8b28b335b1efd55909b0e310a331bc0417167c369b9adf736465c466b4",
+      "purpose": "UMC2UIScene_List name",
+      "extent_kind": "constant-string"
+    },
+    {
+      "start": 2182261296,
+      "end": 2182261300,
+      "size": 4,
+      "sha256": "94315e58ca7248df2b88a8e4d31edf7a209493bee118b2c3fce686e1beb0cbec",
+      "purpose": "UMC2UIScene_List vslot 0x288",
+      "extent_kind": "vtable-word"
+    },
+    {
+      "start": 2182261304,
+      "end": 2182261308,
+      "size": 4,
+      "sha256": "e8506ebb8dc38c6334de48beb2cf2957313c6e7ed1afd0a7a5fd0885a810b84f",
+      "purpose": "UMC2UIScene_List vslot 0x290",
+      "extent_kind": "vtable-word"
+    },
+    {
+      "start": 2182261348,
+      "end": 2182261352,
+      "size": 4,
+      "sha256": "df96d73ac03a0b64891b9749478553db3057015b9b1b3b43e672252c90b835d0",
+      "purpose": "UMC2UIScene_List vslot 0x2bc",
+      "extent_kind": "vtable-word"
+    },
+    {
+      "start": 2184316160,
+      "end": 2184316284,
+      "size": 124,
+      "sha256": "06a76451fc4a08b985cc11675d3e4dfed38744f976d0bf52c5bc17b71de3e0f0",
+      "purpose": "ButtonB execSetInherentSkillName wrapper",
+      "extent_kind": "exact-pdata-function",
+      "pdata_record": {
+        "index": 2473,
+        "start": 2184316160,
+        "end": 2184316284,
+        "length_words": 31,
+        "prologue_words": 4,
+        "prologue_end": 2184316176,
+        "packed_word": "40001f04",
+        "thirty_two_bit": 1,
+        "exception_flag": 0
+      }
+    },
+    {
+      "start": 2184315112,
+      "end": 2184315236,
+      "size": 124,
+      "sha256": "eda0c850fc0925b7bb82fffdc02d9ce139f6f4ed636e08502fe9c4bca3ea8e12",
+      "purpose": "ButtonB execDoOpeningMotion wrapper",
+      "extent_kind": "exact-pdata-function",
+      "pdata_record": {
+        "index": 2466,
+        "start": 2184315112,
+        "end": 2184315236,
+        "length_words": 31,
+        "prologue_words": 4,
+        "prologue_end": 2184315128,
+        "packed_word": "40001f04",
+        "thirty_two_bit": 1,
+        "exception_flag": 0
+      }
+    },
+    {
+      "start": 2195089304,
+      "end": 2195089648,
+      "size": 344,
+      "sha256": "d39675a65efb2b49fc827f8f84a24abf2904557ec56b9ece2b2600e357cf796f",
+      "purpose": "ButtonB name assignment all five labels, empty guard fallback",
+      "extent_kind": "exact-pdata-function",
+      "pdata_record": {
+        "index": 40627,
+        "start": 2195089304,
+        "end": 2195089648,
+        "length_words": 86,
+        "prologue_words": 4,
+        "prologue_end": 2195089320,
+        "packed_word": "c0005604",
+        "thirty_two_bit": 1,
+        "exception_flag": 1
+      }
+    },
+    {
+      "start": 2195074776,
+      "end": 2195074996,
+      "size": 220,
+      "sha256": "d5a58c3c97984b2535607d073571a5de14718c90b95a3c4aa58e5b01e89b4575",
+      "purpose": "ButtonB opening calls name assignment before return",
+      "extent_kind": "exact-pdata-function",
+      "pdata_record": {
+        "index": 40602,
+        "start": 2195074776,
+        "end": 2195074996,
+        "length_words": 55,
+        "prologue_words": 4,
+        "prologue_end": 2195074792,
+        "packed_word": "40003704",
+        "thirty_two_bit": 1,
+        "exception_flag": 0
+      }
+    },
+    {
+      "start": 2184518520,
+      "end": 2184518660,
+      "size": 140,
+      "sha256": "269b5406d37114e2d2633179705ac0c1fd3f7e8ca2443233240845ccd64c22fd",
+      "purpose": "GetInherentSkillNamText ProcessEvent bridge",
+      "extent_kind": "exact-pdata-function",
+      "pdata_record": {
+        "index": 4639,
+        "start": 2184518520,
+        "end": 2184518660,
+        "length_words": 35,
+        "prologue_words": 4,
+        "prologue_end": 2184518536,
+        "packed_word": "c0002304",
+        "thirty_two_bit": 1,
+        "exception_flag": 1
+      }
+    },
+    {
+      "start": 2194992520,
+      "end": 2194993840,
+      "size": 1320,
+      "sha256": "959a850e98b139674ddfc1926d1ea231311721c8651fe1de9338f7a886c244fb",
+      "purpose": "QuickMenu row population, ItemName tag selection",
+      "extent_kind": "exact-pdata-function",
+      "pdata_record": {
+        "index": 40157,
+        "start": 2194992520,
+        "end": 2194993840,
+        "length_words": 330,
+        "prologue_words": 4,
+        "prologue_end": 2194992536,
+        "packed_word": "c0014a04",
+        "thirty_two_bit": 1,
+        "exception_flag": 1
+      }
+    },
+    {
+      "start": 2194987840,
+      "end": 2194988376,
+      "size": 536,
+      "sha256": "f896a2b9e5d86cc364d66cd0f1c54ae74635cdcd75be62aabb88b6dbeffa0ad6",
+      "purpose": "QuickMenu source inventory type and NewGame filter",
+      "extent_kind": "exact-pdata-function",
+      "pdata_record": {
+        "index": 40140,
+        "start": 2194987840,
+        "end": 2194988376,
+        "length_words": 134,
+        "prologue_words": 3,
+        "prologue_end": 2194987852,
+        "packed_word": "40008603",
+        "thirty_two_bit": 1,
+        "exception_flag": 0
+      }
+    },
+    {
+      "start": 2195021416,
+      "end": 2195021780,
+      "size": 364,
+      "sha256": "775975cdc846d79719724313840b05f62aaa48846d38bab56889213252b67046",
+      "purpose": "List clears all rows and MC2UILabel descendants",
+      "extent_kind": "exact-pdata-function",
+      "pdata_record": {
+        "index": 40292,
+        "start": 2195021416,
+        "end": 2195021780,
+        "length_words": 91,
+        "prologue_words": 4,
+        "prologue_end": 2195021432,
+        "packed_word": "c0005b04",
+        "thirty_two_bit": 1,
+        "exception_flag": 1
+      }
+    },
+    {
+      "start": 2195016648,
+      "end": 2195018056,
+      "size": 1408,
+      "sha256": "95d41e34f62e3129c0bac038c03809ed5acd95738aa8a681017bd4e679dd1b22",
+      "purpose": "List initialize collects row classes and calls update",
+      "extent_kind": "exact-pdata-function",
+      "pdata_record": {
+        "index": 40274,
+        "start": 2195016648,
+        "end": 2195018056,
+        "length_words": 352,
+        "prologue_words": 4,
+        "prologue_end": 2195016664,
+        "packed_word": "c0016004",
+        "thirty_two_bit": 1,
+        "exception_flag": 1
+      }
+    },
+    {
+      "start": 2194775440,
+      "end": 2194775684,
+      "size": 244,
+      "sha256": "eecafafef65af244c8b16d91a2ebaf4765df5056955d5e9342966325b822a884",
+      "purpose": "MC2UIAct_List_Initialize.Activated",
+      "extent_kind": "exact-pdata-function",
+      "pdata_record": {
+        "index": 39124,
+        "start": 2194775440,
+        "end": 2194775684,
+        "length_words": 61,
+        "prologue_words": 3,
+        "prologue_end": 2194775452,
+        "packed_word": "40003d03",
+        "thirty_two_bit": 1,
+        "exception_flag": 0
+      }
+    },
+    {
+      "start": 2186960680,
+      "end": 2186960796,
+      "size": 116,
+      "sha256": "ac92f0ee657188cfa0c520f2887cba75543768757c8e1770d882f3271fe451bc",
+      "purpose": "UILabel secondary-interface setter copies FString then refreshes",
+      "extent_kind": "exact-pdata-function",
+      "pdata_record": {
+        "index": 15776,
+        "start": 2186960680,
+        "end": 2186960796,
+        "length_words": 29,
+        "prologue_words": 3,
+        "prologue_end": 2186960692,
+        "packed_word": "40001d03",
+        "thirty_two_bit": 1,
+        "exception_flag": 0
+      }
+    },
+    {
+      "start": 2186960856,
+      "end": 2186960972,
+      "size": 116,
+      "sha256": "32eed8aa9f3df7f865c9f58fa3b02ff169de95354643d143b8f3d47b6bb67058",
+      "purpose": "UILabel refresh guarded renderer calls",
+      "extent_kind": "exact-pdata-function",
+      "pdata_record": {
+        "index": 15778,
+        "start": 2186960856,
+        "end": 2186960972,
+        "length_words": 29,
+        "prologue_words": 4,
+        "prologue_end": 2186960872,
+        "packed_word": "40001d04",
+        "thirty_two_bit": 1,
+        "exception_flag": 0
+      }
+    },
+    {
+      "start": 2184068624,
+      "end": 2184068840,
+      "size": 216,
+      "sha256": "0ff0ee3a971cfc1e452b9ef0d05b64fb0f515375c8dc67cad65f3575aad5131c",
+      "purpose": "narrow FString constructor; NUL input produces empty string",
+      "extent_kind": "exact-pdata-function",
+      "pdata_record": {
+        "index": 828,
+        "start": 2184068624,
+        "end": 2184068840,
+        "length_words": 54,
+        "prologue_words": 4,
+        "prologue_end": 2184068640,
+        "packed_word": "c0003604",
+        "thirty_two_bit": 1,
+        "exception_flag": 1
+      }
+    },
+    {
+      "start": 2183988552,
+      "end": 2183988692,
+      "size": 140,
+      "sha256": "f8e7238ce3fcf002f18903e04ce6983f5bf7bffae9b7580107e3632b4710a432",
+      "purpose": "FString deep assignment helper",
+      "extent_kind": "exact-pdata-function",
+      "pdata_record": {
+        "index": 11,
+        "start": 2183988552,
+        "end": 2183988692,
+        "length_words": 35,
+        "prologue_words": 5,
+        "prologue_end": 2183988572,
+        "packed_word": "40002305",
+        "thirty_two_bit": 1,
+        "exception_flag": 0
+      }
+    },
+    {
+      "start": 2184068880,
+      "end": 2184068976,
+      "size": 96,
+      "sha256": "6902af98ef2bb98ddf6588c38c1da0d6633126b0e1af0e962b132bd73565ec79",
+      "purpose": "FString inequality helper",
+      "extent_kind": "exact-pdata-function",
+      "pdata_record": {
+        "index": 830,
+        "start": 2184068880,
+        "end": 2184068976,
+        "length_words": 24,
+        "prologue_words": 3,
+        "prologue_end": 2184068892,
+        "packed_word": "40001803",
+        "thirty_two_bit": 1,
+        "exception_flag": 0
+      }
+    },
+    {
+      "start": 2184528496,
+      "end": 2184528644,
+      "size": 148,
+      "sha256": "bb291e6c05fb5c5f365b653ca0dddc04adcaca08b4a24cb9e58ae0d452c03e4d",
+      "purpose": "MC2UILabel cast",
+      "extent_kind": "exact-pdata-function",
+      "pdata_record": {
+        "index": 4756,
+        "start": 2184528496,
+        "end": 2184528644,
+        "length_words": 37,
+        "prologue_words": 5,
+        "prologue_end": 2184528516,
+        "packed_word": "40002505",
+        "thirty_two_bit": 1,
+        "exception_flag": 0
+      }
+    },
+    {
+      "start": 2187983168,
+      "end": 2187983276,
+      "size": 108,
+      "sha256": "5e5b68ef47a9ef8cdebcaa364d04954c686ea6d6227cc12687b6ba22c5579dc1",
+      "purpose": "UI action owner-scene resolver",
+      "extent_kind": "exact-pdata-function",
+      "pdata_record": {
+        "index": 20807,
+        "start": 2187983168,
+        "end": 2187983276,
+        "length_words": 27,
+        "prologue_words": 4,
+        "prologue_end": 2187983184,
+        "packed_word": "40001b04",
+        "thirty_two_bit": 1,
+        "exception_flag": 0
+      }
+    },
+    {
+      "start": 2187983080,
+      "end": 2187983164,
+      "size": 84,
+      "sha256": "841cc7e34b788c20737e887174a83af7d9f1d0f096998709b8b9c2feb1707dca",
+      "purpose": "UI action owner-widget resolver",
+      "extent_kind": "exact-pdata-function",
+      "pdata_record": {
+        "index": 20806,
+        "start": 2187983080,
+        "end": 2187983164,
+        "length_words": 21,
+        "prologue_words": 4,
+        "prologue_end": 2187983096,
+        "packed_word": "40001504",
+        "thirty_two_bit": 1,
+        "exception_flag": 0
+      }
+    },
+    {
+      "start": 2187983624,
+      "end": 2187983728,
+      "size": 104,
+      "sha256": "d7b476663261edc5221d8fb835713521d0cb54be10af0d442c459db0193128b7",
+      "purpose": "UI action automatic target setup",
+      "extent_kind": "exact-pdata-function",
+      "pdata_record": {
+        "index": 20810,
+        "start": 2187983624,
+        "end": 2187983728,
+        "length_words": 26,
+        "prologue_words": 4,
+        "prologue_end": 2187983640,
+        "packed_word": "40001a04",
+        "thirty_two_bit": 1,
+        "exception_flag": 0
+      }
+    },
+    {
+      "start": 2184243992,
+      "end": 2184244132,
+      "size": 140,
+      "sha256": "b5d7f6a75921584785254b8d435c3ec8a2915a009e330c41062a578a25abfd15",
+      "purpose": "Yupa GetInherentSkillData native VM wrapper",
+      "extent_kind": "exact-pdata-function",
+      "pdata_record": {
+        "index": 2069,
+        "start": 2184243992,
+        "end": 2184244132,
+        "length_words": 35,
+        "prologue_words": 5,
+        "prologue_end": 2184244012,
+        "packed_word": "40002305",
+        "thirty_two_bit": 1,
+        "exception_flag": 0
+      }
+    },
+    {
+      "start": 2184590832,
+      "end": 2184590916,
+      "size": 84,
+      "sha256": "f61d7fb8df64d066be62ed58b5675c681d6c7fe5380a5e544f9d33f8af843a53",
+      "purpose": "MC2UILabel constructor: secondary interface at +0x330",
+      "extent_kind": "explicit-constructor-block"
+    },
+    {
+      "start": 2194686836,
+      "end": 2194686904,
+      "size": 68,
+      "sha256": "3fe67a549d106b5ab853154bb5ffb8dfb6323b89b383c911a279875f74092538",
+      "purpose": "MC2UILabel registration",
+      "extent_kind": "bounded-window"
+    },
+    {
+      "start": 2195937812,
+      "end": 2195937900,
+      "size": 88,
+      "sha256": "868dd1726a49069d7300eb875fd54897b99890e4432b6b4628b118d7c9bd06f5",
+      "purpose": "GetInherentSkillNamText FName constructor and global pair stores",
+      "extent_kind": "bounded-window"
+    },
+    {
+      "start": 2195011744,
+      "end": 2195011772,
+      "size": 28,
+      "sha256": "b2cb86d88024259f3fe47a21cc260e09029b673b893c37a1bf2e8562ec7c5e32",
+      "purpose": "List virtual +0x290 resets indices then tailcalls +0x2c4",
+      "extent_kind": "explicit-leaf-block"
+    },
+    {
+      "start": 2182365996,
+      "end": 2182366024,
+      "size": 28,
+      "sha256": "439674335b94c7bdcec33a72412d6564cce83b752e8c2e7f1c22519a57e9de18",
+      "purpose": "MC2UILabel seven secondary vtable entries",
+      "extent_kind": "bounded-vtable-entries"
+    },
+    {
+      "start": 2181750852,
+      "end": 2181750853,
+      "size": 1,
+      "sha256": "6e340b9cffb37a989ca544e6bb780a2c78901d3fb33738768511a30617afa01d",
+      "purpose": "ascii ''",
+      "extent_kind": "constant-string"
+    },
+    {
+      "start": 2181996344,
+      "end": 2181996392,
+      "size": 48,
+      "sha256": "b6ae06d1c8aa167ffa0542fc577994a95434d963c9ec8e47e839378141012f09",
+      "purpose": "utf-16-be 'GetInherentSkillNamText'",
+      "extent_kind": "constant-string"
+    },
+    {
+      "start": 2182273428,
+      "end": 2182273433,
+      "size": 5,
+      "sha256": "4ef55fd1515917b91206227ced232d3b29b8618fd78562365914882016e11740",
+      "purpose": "ascii 'Icon'",
+      "extent_kind": "constant-string"
+    },
+    {
+      "start": 2182273436,
+      "end": 2182273445,
+      "size": 9,
+      "sha256": "98c67420c37c2794adda49ae9ee569b4408f36ea7740a0ed967323241a6ebdbd",
+      "purpose": "ascii 'ItemName'",
+      "extent_kind": "constant-string"
+    },
+    {
+      "start": 2182273448,
+      "end": 2182273456,
+      "size": 8,
+      "sha256": "f6e8190449795a957f5eebfb7b2bd7dce0c05e29ac83f2ea7f6c683ba3053494",
+      "purpose": "ascii 'HaveNum'",
+      "extent_kind": "constant-string"
+    },
+    {
+      "start": 2182273420,
+      "end": 2182273428,
+      "size": 8,
+      "sha256": "aaa22b0e9e73312f0522feb52aa6b898c584f48845111992a71bb97445350a8f",
+      "purpose": "ascii 'NewGame'",
+      "extent_kind": "constant-string"
+    },
+    {
+      "start": 2181734884,
+      "end": 2181734890,
+      "size": 6,
+      "sha256": "9f820a2f0f86171907c7f616d749a39cf74778d005f60a69338aaa407a10c131",
+      "purpose": "utf-16-be '%s'",
+      "extent_kind": "constant-string"
+    },
+    {
+      "start": 2182365020,
+      "end": 2182365044,
+      "size": 24,
+      "sha256": "c0945baebf908218e71b8a72c47e43b4d5c40549a05f56944d6647bcae8f7280",
+      "purpose": "utf-16-be 'UMC2UILabel'",
+      "extent_kind": "constant-string"
+    },
+    {
+      "start": 2181956752,
+      "end": 2181956836,
+      "size": 84,
+      "sha256": "49a1e6586f0b5922ad7609650070329cd77aca4e0b4c7231381cefded793fe7d",
+      "purpose": "intUMC2UIScene_ButtonBexecDoClosingMotion",
+      "extent_kind": "constant-string"
+    },
+    {
+      "start": 2181956664,
+      "end": 2181956748,
+      "size": 84,
+      "sha256": "709b69913b47c19ccab5d15650cfedd0457121dcab0fba64d9b3cfeecfa7f45b",
+      "purpose": "intUMC2UIScene_ButtonBexecDoOpeningMotion",
+      "extent_kind": "constant-string"
+    },
+    {
+      "start": 2181956568,
+      "end": 2181956662,
+      "size": 94,
+      "sha256": "3f5a0d268dadd17ef59afae61893a0aa675b601fb229de3446dd61ef1fcbdeab",
+      "purpose": "intUMC2UIScene_ButtonBexecSetInherentSkillName",
+      "extent_kind": "constant-string"
+    },
+    {
+      "start": 2181956488,
+      "end": 2181956562,
+      "size": 74,
+      "sha256": "81e098c15bf66bdb61573f6810f942852ccd5fec1de1261555153a93628444eb",
+      "purpose": "intUMC2UIScene_ButtonBexecSetActiveB",
+      "extent_kind": "constant-string"
+    },
+    {
+      "start": 2199991176,
+      "end": 2199991216,
+      "size": 40,
+      "sha256": "4c6bfb12d1d0a9ef93d032b9360818141327057fec1f43d1bf339c93c83ef9d8",
+      "purpose": "complete four-row ButtonB native table plus zero sentinel",
+      "extent_kind": "initialized-row8-table"
+    }
+  ],
+  "mc2game_logical_ranges": [
+    {
+      "start": 7686585,
+      "end": 7686629,
+      "sha256": "af3a35d3f8b2cfffbc6c01a8e770f498b43e1820732adc0272c9413a047c9cf7",
+      "purpose": "MC2UIScene.SceneActivated script"
+    },
+    {
+      "start": 7688474,
+      "end": 7688507,
+      "sha256": "7094ffc3e6e58c75bce2da75778bbb45964cb38469529e66623934c2fedfb7ae",
+      "purpose": "MC2UIScene.InitScene script"
+    },
+    {
+      "start": 7688690,
+      "end": 7688720,
+      "sha256": "b61e9eae7aa666f18cf7b7d4b826ac93e434bea2ab9b00157154a04c78fad9c7",
+      "purpose": "MC2UIScene.InitWidgets script"
+    },
+    {
+      "start": 7692543,
+      "end": 7692577,
+      "sha256": "555a879283ce883f266d67264b63899dca6a17cb017a207a7bc642f6c427fd70",
+      "purpose": "MC2UIScene_List.SceneActivated script"
+    },
+    {
+      "start": 7760679,
+      "end": 7760992,
+      "sha256": "d8a3f3f7beb4610b821c6a983337771b8b0aa4966e73677ec3ef1f03747cdb10",
+      "purpose": "MC2UIScene_ButtonB.FindWidgets script"
+    },
+    {
+      "start": 7761051,
+      "end": 7761138,
+      "sha256": "4c83f76e1554e832f2b9e214cea91dff3433a54295e4747b57fd0c9d68d3ef4b",
+      "purpose": "MC2UIScene_ButtonB.InitPosition script"
+    },
+    {
+      "start": 7761197,
+      "end": 7761266,
+      "sha256": "288ca73ed5aa055c68781480d12b9427a230567ae9253994ba004e71460cfd90",
+      "purpose": "MC2UIScene_ButtonB.InitWidgets script"
+    },
+    {
+      "start": 7761325,
+      "end": 7761338,
+      "sha256": "c83da0e1d0a498e4d675ca1cae07e1e4d1466677e38abc54007958492a0e654b",
+      "purpose": "MC2UIScene_ButtonB.DoOpening script"
+    },
+    {
+      "start": 7695640,
+      "end": 7695674,
+      "sha256": "609eab147c7437c9da115971405b0d8c6f57478b23f0f4816d642725937f5df6",
+      "purpose": "MC2UIScene_QuickMenu.SceneActivated script"
+    },
+    {
+      "start": 7695821,
+      "end": 7697107,
+      "sha256": "8e481de40e72bdb1fcc731583bd5c136b278f75e87bbc5cb354e77020b283cbb",
+      "purpose": "MC2UIScene_QuickMenu.FindWidgets script"
+    },
+    {
+      "start": 7697210,
+      "end": 7697372,
+      "sha256": "4dc7cd3a3fcddee241d767645cb2e5c13b4ac754db624441e06622c9bd21d865",
+      "purpose": "MC2UIScene_QuickMenu.InitWidgets script"
+    },
+    {
+      "start": 7697567,
+      "end": 7697826,
+      "sha256": "ff8b43324cd2324de2814b185d316dc5e211613174327be2383647f2547ccff5",
+      "purpose": "MC2UIScene_QuickMenu.InitItemData script"
+    },
+    {
+      "start": 8283938,
+      "end": 8283945,
+      "sha256": "7921ad47e67208767e69acc3b8fcbbc13ecb97d9b2f2b6800cced74d942407a3",
+      "purpose": "MC2PawnInterface.GetInherentSkillNamText script"
+    },
+    {
+      "start": 8410710,
+      "end": 8410776,
+      "sha256": "69fec069573fd3f1000eb84bcb87e94fdff6942c4b327bc4285e5044ee34e7c2",
+      "purpose": "MC2PawnInterfaceBattle.GetInherentSkillNamText script"
+    },
+    {
+      "start": 18824772,
+      "end": 18824789,
+      "sha256": "bddda3cb5980ee5737451f5735d6dfe92648668d2ce1c6e8a5a1859ab2090fdc",
+      "purpose": "UI-01 default FString"
+    },
+    {
+      "start": 18825001,
+      "end": 18825009,
+      "sha256": "82b11497e80b88e3977b8a8da9b1847f53595f3a2d8a3ea553f6cfc2a839d6fd",
+      "purpose": "UI-01 WidgetTag"
+    },
+    {
+      "start": 18824821,
+      "end": 18824825,
+      "sha256": "669f5341bf09ed3c70489e7be23405e70e1f8ee665fef45b5bbc38fa5965ab78",
+      "purpose": "UI-01 StringRenderComponent"
+    },
+    {
+      "start": 18825597,
+      "end": 18825614,
+      "sha256": "bddda3cb5980ee5737451f5735d6dfe92648668d2ce1c6e8a5a1859ab2090fdc",
+      "purpose": "UI-02 default FString"
+    },
+    {
+      "start": 18825826,
+      "end": 18825834,
+      "sha256": "ad990b44a0e77e90bcb9f1d92c0028e68a274aa0e7c3337dbd452238de1aadd8",
+      "purpose": "UI-02 WidgetTag"
+    },
+    {
+      "start": 18825646,
+      "end": 18825650,
+      "sha256": "c2e8e609f08bd959fa6854012445bb2250aacf287e4bd5432cd56fd702e0b68a",
+      "purpose": "UI-02 StringRenderComponent"
+    },
+    {
+      "start": 18826422,
+      "end": 18826439,
+      "sha256": "bddda3cb5980ee5737451f5735d6dfe92648668d2ce1c6e8a5a1859ab2090fdc",
+      "purpose": "UI-03 default FString"
+    },
+    {
+      "start": 18826651,
+      "end": 18826659,
+      "sha256": "1d8290a4213e3765f5460d2be069fe2e2158a6cb3044c029f010dc9046add0e4",
+      "purpose": "UI-03 WidgetTag"
+    },
+    {
+      "start": 18826471,
+      "end": 18826475,
+      "sha256": "d5029fc08d0e7c807a112ceed22aaf82aa3bd6588c9f466f78cdc02e9ae37c24",
+      "purpose": "UI-03 StringRenderComponent"
+    },
+    {
+      "start": 18827247,
+      "end": 18827264,
+      "sha256": "bddda3cb5980ee5737451f5735d6dfe92648668d2ce1c6e8a5a1859ab2090fdc",
+      "purpose": "UI-04 default FString"
+    },
+    {
+      "start": 18827476,
+      "end": 18827484,
+      "sha256": "2766040912afa25112caa174c4d5131acbf5dc58a9d80b1ab8403b2a1503e85f",
+      "purpose": "UI-04 WidgetTag"
+    },
+    {
+      "start": 18827296,
+      "end": 18827300,
+      "sha256": "3457f38657b032dc5eca949dab96403f73affdd911702f69bb88e23c82d6bc51",
+      "purpose": "UI-04 StringRenderComponent"
+    },
+    {
+      "start": 18828072,
+      "end": 18828089,
+      "sha256": "bddda3cb5980ee5737451f5735d6dfe92648668d2ce1c6e8a5a1859ab2090fdc",
+      "purpose": "UI-05 default FString"
+    },
+    {
+      "start": 18828301,
+      "end": 18828309,
+      "sha256": "d5eec36b460d16db6a18c4044633999a001bf6b71b886160b5c6e2a68f53dc97",
+      "purpose": "UI-05 WidgetTag"
+    },
+    {
+      "start": 18828121,
+      "end": 18828125,
+      "sha256": "c5efc4be1b4d9a7f08e7ad53fa32323e7476e741667c7b00d0170ff86ec1f044",
+      "purpose": "UI-05 StringRenderComponent"
+    },
+    {
+      "start": 18897229,
+      "end": 18897243,
+      "sha256": "bbd9812fe8c412e6c31bfe6071ac3ca4eed186fc3bef378861ed81b352a81100",
+      "purpose": "UI-06 default FString"
+    },
+    {
+      "start": 18897455,
+      "end": 18897463,
+      "sha256": "ac4f69b3016582bfcb4dc9390de1bea8b9071bdeaad02aecb0562642cb49691e",
+      "purpose": "UI-06 WidgetTag"
+    },
+    {
+      "start": 18897275,
+      "end": 18897279,
+      "sha256": "d74b78b86194e7e4d4854062f7665a3189851668f6d8018fd7dbea5abb3df8c2",
+      "purpose": "UI-06 StringRenderComponent"
+    },
+    {
+      "start": 18899236,
+      "end": 18899250,
+      "sha256": "bbd9812fe8c412e6c31bfe6071ac3ca4eed186fc3bef378861ed81b352a81100",
+      "purpose": "UI-07 default FString"
+    },
+    {
+      "start": 18899462,
+      "end": 18899470,
+      "sha256": "ac4f69b3016582bfcb4dc9390de1bea8b9071bdeaad02aecb0562642cb49691e",
+      "purpose": "UI-07 WidgetTag"
+    },
+    {
+      "start": 18899282,
+      "end": 18899286,
+      "sha256": "fe39f90a5fc9dab343578631865b61d6e941a084e6318d119800986207e3fa61",
+      "purpose": "UI-07 StringRenderComponent"
+    },
+    {
+      "start": 18901243,
+      "end": 18901257,
+      "sha256": "bbd9812fe8c412e6c31bfe6071ac3ca4eed186fc3bef378861ed81b352a81100",
+      "purpose": "UI-08 default FString"
+    },
+    {
+      "start": 18901469,
+      "end": 18901477,
+      "sha256": "ac4f69b3016582bfcb4dc9390de1bea8b9071bdeaad02aecb0562642cb49691e",
+      "purpose": "UI-08 WidgetTag"
+    },
+    {
+      "start": 18901289,
+      "end": 18901293,
+      "sha256": "630cdd00334e6d48e05d1b761deac24d9ecbb486a83dfb33a481dfe46e4befa0",
+      "purpose": "UI-08 StringRenderComponent"
+    },
+    {
+      "start": 18903250,
+      "end": 18903264,
+      "sha256": "bbd9812fe8c412e6c31bfe6071ac3ca4eed186fc3bef378861ed81b352a81100",
+      "purpose": "UI-09 default FString"
+    },
+    {
+      "start": 18903476,
+      "end": 18903484,
+      "sha256": "ac4f69b3016582bfcb4dc9390de1bea8b9071bdeaad02aecb0562642cb49691e",
+      "purpose": "UI-09 WidgetTag"
+    },
+    {
+      "start": 18903296,
+      "end": 18903300,
+      "sha256": "8989f4ccec0b4d5d118903df168cd8c0ff4f5dec3bbc62ab8a3ac7f7810a44b8",
+      "purpose": "UI-09 StringRenderComponent"
+    },
+    {
+      "start": 18905257,
+      "end": 18905271,
+      "sha256": "bbd9812fe8c412e6c31bfe6071ac3ca4eed186fc3bef378861ed81b352a81100",
+      "purpose": "UI-10 default FString"
+    },
+    {
+      "start": 18905483,
+      "end": 18905491,
+      "sha256": "ac4f69b3016582bfcb4dc9390de1bea8b9071bdeaad02aecb0562642cb49691e",
+      "purpose": "UI-10 WidgetTag"
+    },
+    {
+      "start": 18905303,
+      "end": 18905307,
+      "sha256": "749725ad1d8fa102b6f1fbba81bc63d47449a7957bf777bdad073124c4663299",
+      "purpose": "UI-10 StringRenderComponent"
+    },
+    {
+      "start": 18907264,
+      "end": 18907278,
+      "sha256": "bbd9812fe8c412e6c31bfe6071ac3ca4eed186fc3bef378861ed81b352a81100",
+      "purpose": "UI-11 default FString"
+    },
+    {
+      "start": 18907490,
+      "end": 18907498,
+      "sha256": "ac4f69b3016582bfcb4dc9390de1bea8b9071bdeaad02aecb0562642cb49691e",
+      "purpose": "UI-11 WidgetTag"
+    },
+    {
+      "start": 18907310,
+      "end": 18907314,
+      "sha256": "c61a51cef7995abb4f3dba5df1661da42bc4ea275b5c104fb52976b02cc818ba",
+      "purpose": "UI-11 StringRenderComponent"
+    },
+    {
+      "start": 56875369,
+      "end": 56875701,
+      "sha256": "1ce23e561df16fe279a661adafc7b89e72ff49ad932ad0f3e6f8468558f402c9",
+      "purpose": "65457 OutputLinks"
+    },
+    {
+      "start": 14138308,
+      "end": 14138319,
+      "sha256": "cd9e08cd15d883da130f88e454b70581ee177a9d872f88260517ae311ed346ac",
+      "purpose": "39303 NewListType"
+    },
+    {
+      "start": 14138343,
+      "end": 14138582,
+      "sha256": "be853cb6ca2ff267973f198783e25efb04020be94c7a74945adf2695d8b976a5",
+      "purpose": "39303 InputLinks"
+    },
+    {
+      "start": 14138898,
+      "end": 14139821,
+      "sha256": "07b3be50e3bfc8e74de5afcbf4a3a2069be6c2985cfb371f65549bec55910eaf",
+      "purpose": "39303 VariableLinks"
+    },
+    {
+      "start": 57889153,
+      "end": 57889297,
+      "sha256": "5dba57f641848ea2ccfc023772985151d34f063e366638960aec7e2b8390a213",
+      "purpose": "79681 SequenceObjects"
+    },
+    {
+      "start": 57061645,
+      "end": 57061653,
+      "sha256": "3e7072198d6c97d3a2be92f82c1594c6aa927f32ca3675283dc84ae3a98d9965",
+      "purpose": "65588 Children"
+    },
+    {
+      "start": 17879140,
+      "end": 17879176,
+      "sha256": "9df12478b3ef47183c37c7870cdf3a142d056d9b71fbbcc29242dbef5b435703",
+      "purpose": "42503 Children"
+    },
+    {
+      "start": 57062239,
+      "end": 57062247,
+      "sha256": "a2ae70f8ddb4838a9c6b046debee6c0857b248df839c899e98bd929280be7c6f",
+      "purpose": "65589 Children"
+    },
+    {
+      "start": 19431007,
+      "end": 19431023,
+      "sha256": "3cd8e3e910b978e1f5db6dad76db420656e36874b5b61cfa7338ab8a40ef2f7e",
+      "purpose": "44784 Children"
+    },
+    {
+      "start": 57062833,
+      "end": 57062841,
+      "sha256": "aa3af3a2911948c557bd794426d7a9cb498e9a72b5421b133d37d4e5ae408314",
+      "purpose": "65590 Children"
+    },
+    {
+      "start": 19431949,
+      "end": 19431965,
+      "sha256": "fcb9963a13d1eb4d41738a1087883ff3bc1d7d7162c5b955f1eecce63187afae",
+      "purpose": "44785 Children"
+    },
+    {
+      "start": 57063427,
+      "end": 57063435,
+      "sha256": "8e70fee5f3e167f789d64fc4cfb49479e8c7b2f6ed0b99f1808022a25301848b",
+      "purpose": "65591 Children"
+    },
+    {
+      "start": 19432891,
+      "end": 19432907,
+      "sha256": "8bb09e180cc38021b69d0719cc6cd6470ac30d01dcb6f51c9c59baa42c07c3e6",
+      "purpose": "44786 Children"
+    },
+    {
+      "start": 57064049,
+      "end": 57064057,
+      "sha256": "41f9ba21e347b16dcb6cea1a6a5117d68ebcb48280a3a97d123d68ae4626e6ba",
+      "purpose": "65592 Children"
+    },
+    {
+      "start": 19433833,
+      "end": 19433849,
+      "sha256": "cc811d8684279c367d7001f699bf289e2b3d78f1d0f692dc46b3c443fd32e876",
+      "purpose": "44787 Children"
+    },
+    {
+      "start": 57064643,
+      "end": 57064651,
+      "sha256": "5ff52f863aeb47a3b86f11dfa4767aa2ae02959c7afd15d91a03cf78cd1fd46a",
+      "purpose": "65593 Children"
+    },
+    {
+      "start": 19434775,
+      "end": 19434791,
+      "sha256": "0abea81a41b495740d4bf3fb7587d1ac137c0d943edbb574af32ab56f4f5e1f4",
+      "purpose": "44788 Children"
+    },
+    {
+      "start": 57065237,
+      "end": 57065245,
+      "sha256": "b5f3d57a47f71f53d27f14e22ff8ef68a4569140d8aeeb7c66af26dfa6448e47",
+      "purpose": "65594 Children"
+    },
+    {
+      "start": 19435717,
+      "end": 19435733,
+      "sha256": "b244b468b766415f626e12a142f1902c701b5289ed36830ea3a4afdc04589e7b",
+      "purpose": "44789 Children"
+    },
+    {
+      "start": 17883320,
+      "end": 17883332,
+      "sha256": "7ddf2e1eeabfb9c9d12fdbe4c66989df297e5bd63c430539cd7aca6fed99988a",
+      "purpose": "42509 Children"
+    },
+    {
+      "start": 17879898,
+      "end": 17879918,
+      "sha256": "3d22a36c4a5083886da6ebff8d92d17d500bf20180a1ba5eb2c79c0e41762bcc",
+      "purpose": "42504 Children"
+    }
+  ],
+  "class_bindings": [
+    {
+      "class_name": "UMC2UIScene_ButtonB",
+      "name_address": 2182246248,
+      "registration_start": 2195093164,
+      "registration_end": 2195093232,
+      "registration_callee": 2184864080,
+      "size_operand": 644,
+      "constructor": 2184521144,
+      "vtable": 2182250592,
+      "selected_slots": [
+        {
+          "slot": 648,
+          "target": 2195074424
+        },
+        {
+          "slot": 652,
+          "target": 2195089304
+        },
+        {
+          "slot": 656,
+          "target": 2195074776
+        },
+        {
+          "slot": 660,
+          "target": 2195074584
+        }
+      ],
+      "table_full_extent_claimed": false
+    },
+    {
+      "class_name": "UMC2UIScene_QuickMenu",
+      "name_address": 2182273352,
+      "registration_start": 2194989372,
+      "registration_end": 2194989440,
+      "registration_callee": 2184864080,
+      "size_operand": 1052,
+      "constructor": 2184534248,
+      "vtable": 2182273520,
+      "selected_slots": [
+        {
+          "slot": 648,
+          "target": 2195016648
+        },
+        {
+          "slot": 656,
+          "target": 2195011744
+        },
+        {
+          "slot": 700,
+          "target": 2195021416
+        },
+        {
+          "slot": 704,
+          "target": 2194992520
+        },
+        {
+          "slot": 708,
+          "target": 2194987840
+        }
+      ],
+      "table_full_extent_claimed": false
+    },
+    {
+      "class_name": "UMC2UIScene_List",
+      "name_address": 2182269704,
+      "registration_start": 2195018428,
+      "registration_end": 2195018496,
+      "registration_callee": 2184864080,
+      "size_operand": 780,
+      "constructor": 2184532080,
+      "vtable": 2182260648,
+      "selected_slots": [
+        {
+          "slot": 648,
+          "target": 2195016648
+        },
+        {
+          "slot": 656,
+          "target": 2195011744
+        },
+        {
+          "slot": 700,
+          "target": 2195021416
+        }
+      ],
+      "table_full_extent_claimed": false
+    }
+  ],
+  "label_binding": {
+    "class_name": "UMC2UILabel",
+    "name_address": 2182365020,
+    "registration_start": 2194686836,
+    "registration_end": 2194686904,
+    "constructor": 2184590832,
+    "primary_vtable": 2182372488,
+    "secondary_offset": 816,
+    "secondary_vtable": 2182365996,
+    "setter_slot": 4,
+    "setter": 2186960680,
+    "refresh_slot": 12,
+    "refresh": 2186960856,
+    "string_member_offset": 836,
+    "render_component_offset": 868,
+    "refresh_condition": "component nonnull AND object+0x5c mask0x20000000 set",
+    "renderer_calls": [
+      276,
+      300
+    ],
+    "pixel_execution_observed": false
+  },
+  "buttonb_native_rows": [
+    {
+      "row": 2199991176,
+      "name_address": 2181956752,
+      "name": "intUMC2UIScene_ButtonBexecDoClosingMotion",
+      "entry": 2184314856
+    },
+    {
+      "row": 2199991184,
+      "name_address": 2181956664,
+      "name": "intUMC2UIScene_ButtonBexecDoOpeningMotion",
+      "entry": 2184315112
+    },
+    {
+      "row": 2199991192,
+      "name_address": 2181956568,
+      "name": "intUMC2UIScene_ButtonBexecSetInherentSkillName",
+      "entry": 2184316160
+    },
+    {
+      "row": 2199991200,
+      "name_address": 2181956488,
+      "name": "intUMC2UIScene_ButtonBexecSetActiveB",
+      "entry": 2184319128
+    }
+  ],
+  "script_consumers": [
+    {
+      "export": 10601,
+      "path": "MC2UIScene.SceneActivated",
+      "script_sha256": "af3a35d3f8b2cfffbc6c01a8e770f498b43e1820732adc0272c9413a047c9cf7",
+      "script_size": 44,
+      "logical_script_offset": 7686585,
+      "payload_sha256": "e6d7915f07814582a708abda477d14dee31f391f91c53143481ea669c356191a"
+    },
+    {
+      "export": 10621,
+      "path": "MC2UIScene.InitScene",
+      "script_sha256": "7094ffc3e6e58c75bce2da75778bbb45964cb38469529e66623934c2fedfb7ae",
+      "script_size": 33,
+      "logical_script_offset": 7688474,
+      "payload_sha256": "2dd182f9be50d27172b82e06be408048c4d3ef7aad3ea5383a55fd80a529441b"
+    },
+    {
+      "export": 10624,
+      "path": "MC2UIScene.InitWidgets",
+      "script_sha256": "b61e9eae7aa666f18cf7b7d4b826ac93e434bea2ab9b00157154a04c78fad9c7",
+      "script_size": 30,
+      "logical_script_offset": 7688690,
+      "payload_sha256": "794dc22eb3e25c213f61056024bfe6e326c459d6bc18a46d345e89512cc17589"
+    },
+    {
+      "export": 10675,
+      "path": "MC2UIScene_List.SceneActivated",
+      "script_sha256": "555a879283ce883f266d67264b63899dca6a17cb017a207a7bc642f6c427fd70",
+      "script_size": 34,
+      "logical_script_offset": 7692543,
+      "payload_sha256": "4ed6058c2e7cef0faf337961d46e0d608e280582e2af96c7376c924ab2aa5c93"
+    },
+    {
+      "export": 11360,
+      "path": "MC2UIScene_ButtonB.FindWidgets",
+      "script_sha256": "d8a3f3f7beb4610b821c6a983337771b8b0aa4966e73677ec3ef1f03747cdb10",
+      "script_size": 313,
+      "logical_script_offset": 7760679,
+      "payload_sha256": "8212699b06dc057acf014a60f48e3c8cc2d46dff101ef7e3eebf1140b509ab50"
+    },
+    {
+      "export": 11361,
+      "path": "MC2UIScene_ButtonB.InitPosition",
+      "script_sha256": "4c83f76e1554e832f2b9e214cea91dff3433a54295e4747b57fd0c9d68d3ef4b",
+      "script_size": 87,
+      "logical_script_offset": 7761051,
+      "payload_sha256": "d8685ec1dd8dd86aa41b36dd9a1ef00ee011a3b2c327dc9c5da71b7526cf9706"
+    },
+    {
+      "export": 11362,
+      "path": "MC2UIScene_ButtonB.InitWidgets",
+      "script_sha256": "288ca73ed5aa055c68781480d12b9427a230567ae9253994ba004e71460cfd90",
+      "script_size": 69,
+      "logical_script_offset": 7761197,
+      "payload_sha256": "06a2812c5d9fd7adf834ecb0c81438c5387224796a7ec5ef454434a481ecc032"
+    },
+    {
+      "export": 11363,
+      "path": "MC2UIScene_ButtonB.DoOpening",
+      "script_sha256": "c83da0e1d0a498e4d675ca1cae07e1e4d1466677e38abc54007958492a0e654b",
+      "script_size": 13,
+      "logical_script_offset": 7761325,
+      "payload_sha256": "1412b9b033e5be1003a40ae68a4c47c69ab162aeab6d088c28154a85fc9a9318"
+    },
+    {
+      "export": 10715,
+      "path": "MC2UIScene_QuickMenu.SceneActivated",
+      "script_sha256": "609eab147c7437c9da115971405b0d8c6f57478b23f0f4816d642725937f5df6",
+      "script_size": 34,
+      "logical_script_offset": 7695640,
+      "payload_sha256": "1b7298d53cb35657b93c0db0d7f75c2775662ab5ffea93e9032735fc09086844"
+    },
+    {
+      "export": 10718,
+      "path": "MC2UIScene_QuickMenu.FindWidgets",
+      "script_sha256": "8e481de40e72bdb1fcc731583bd5c136b278f75e87bbc5cb354e77020b283cbb",
+      "script_size": 1286,
+      "logical_script_offset": 7695821,
+      "payload_sha256": "b1fd6adb3b55b420a0cd7ee98302bcd38a688f15d40bbe0d540ef4f310db034f"
+    },
+    {
+      "export": 10720,
+      "path": "MC2UIScene_QuickMenu.InitWidgets",
+      "script_sha256": "4dc7cd3a3fcddee241d767645cb2e5c13b4ac754db624441e06622c9bd21d865",
+      "script_size": 162,
+      "logical_script_offset": 7697210,
+      "payload_sha256": "dfe0c04e43b6059ead05767087651aca00d354cd36f805217a7238088440a86d"
+    },
+    {
+      "export": 10724,
+      "path": "MC2UIScene_QuickMenu.InitItemData",
+      "script_sha256": "ff8b43324cd2324de2814b185d316dc5e211613174327be2383647f2547ccff5",
+      "script_size": 259,
+      "logical_script_offset": 7697567,
+      "payload_sha256": "0c087d629822397c0353879a59b42e5da9153474510b502ac72601f6e0d3b422"
+    },
+    {
+      "export": 16798,
+      "path": "MC2PawnInterface.GetInherentSkillNamText",
+      "script_sha256": "7921ad47e67208767e69acc3b8fcbbc13ecb97d9b2f2b6800cced74d942407a3",
+      "script_size": 7,
+      "logical_script_offset": 8283938,
+      "payload_sha256": "d544e2eafa05cd110bdf89d2b13700fddfa70f0ccbda9bd43a8ba6ac6b678fd9"
+    },
+    {
+      "export": 18258,
+      "path": "MC2PawnInterfaceBattle.GetInherentSkillNamText",
+      "script_sha256": "69fec069573fd3f1000eb84bcb87e94fdff6942c4b327bc4285e5044ee34e7c2",
+      "script_size": 66,
+      "logical_script_offset": 8410710,
+      "payload_sha256": "4690032ca1a38cb784a83bef6062d7b22d86ca72fbd3733ef306c71eee4f088b"
+    }
+  ],
+  "fields": [
+    {
+      "id": "UI-01",
+      "export": 44012,
+      "object": "UI_Battle.Scenes.Scene_ButtonB.Bundle.Base.Skill_window.Skill.TextB",
+      "field": [
+        {
+          "name": "DataSource",
+          "array_index": 0
+        },
+        {
+          "name": "MarkupString",
+          "array_index": 0
+        }
+      ],
+      "source_text": "initial text",
+      "source_field_offset": 18824772,
+      "source_field_size": 17,
+      "source_field_sha256": "bddda3cb5980ee5737451f5735d6dfe92648668d2ce1c6e8a5a1859ab2090fdc",
+      "widget_tag": "TextB",
+      "parent_export": 42297,
+      "renderer_export": 59846,
+      "renderer_class": "Engine.UIComp_DrawString",
+      "consumer_family": "buttonb",
+      "classification": "dynamic display field; serialized English is a development placeholder",
+      "recommended_serialized_value": "",
+      "recommended_encoding": "canonical empty FString count=0",
+      "runtime_visibility_observed": false
+    },
+    {
+      "id": "UI-02",
+      "export": 44013,
+      "object": "UI_Battle.Scenes.Scene_ButtonB.Bundle.Base.Skill_window.Skill.TextB_Shadow_0",
+      "field": [
+        {
+          "name": "DataSource",
+          "array_index": 0
+        },
+        {
+          "name": "MarkupString",
+          "array_index": 0
+        }
+      ],
+      "source_text": "initial text",
+      "source_field_offset": 18825597,
+      "source_field_size": 17,
+      "source_field_sha256": "bddda3cb5980ee5737451f5735d6dfe92648668d2ce1c6e8a5a1859ab2090fdc",
+      "widget_tag": "TextB_Shadow_0",
+      "parent_export": 42297,
+      "renderer_export": 59847,
+      "renderer_class": "Engine.UIComp_DrawString",
+      "consumer_family": "buttonb",
+      "classification": "dynamic display field; serialized English is a development placeholder",
+      "recommended_serialized_value": "",
+      "recommended_encoding": "canonical empty FString count=0",
+      "runtime_visibility_observed": false
+    },
+    {
+      "id": "UI-03",
+      "export": 44014,
+      "object": "UI_Battle.Scenes.Scene_ButtonB.Bundle.Base.Skill_window.Skill.TextB_Shadow_1",
+      "field": [
+        {
+          "name": "DataSource",
+          "array_index": 0
+        },
+        {
+          "name": "MarkupString",
+          "array_index": 0
+        }
+      ],
+      "source_text": "initial text",
+      "source_field_offset": 18826422,
+      "source_field_size": 17,
+      "source_field_sha256": "bddda3cb5980ee5737451f5735d6dfe92648668d2ce1c6e8a5a1859ab2090fdc",
+      "widget_tag": "TextB_Shadow_1",
+      "parent_export": 42297,
+      "renderer_export": 59848,
+      "renderer_class": "Engine.UIComp_DrawString",
+      "consumer_family": "buttonb",
+      "classification": "dynamic display field; serialized English is a development placeholder",
+      "recommended_serialized_value": "",
+      "recommended_encoding": "canonical empty FString count=0",
+      "runtime_visibility_observed": false
+    },
+    {
+      "id": "UI-04",
+      "export": 44015,
+      "object": "UI_Battle.Scenes.Scene_ButtonB.Bundle.Base.Skill_window.Skill.TextB_Shadow_2",
+      "field": [
+        {
+          "name": "DataSource",
+          "array_index": 0
+        },
+        {
+          "name": "MarkupString",
+          "array_index": 0
+        }
+      ],
+      "source_text": "initial text",
+      "source_field_offset": 18827247,
+      "source_field_size": 17,
+      "source_field_sha256": "bddda3cb5980ee5737451f5735d6dfe92648668d2ce1c6e8a5a1859ab2090fdc",
+      "widget_tag": "TextB_Shadow_2",
+      "parent_export": 42297,
+      "renderer_export": 59849,
+      "renderer_class": "Engine.UIComp_DrawString",
+      "consumer_family": "buttonb",
+      "classification": "dynamic display field; serialized English is a development placeholder",
+      "recommended_serialized_value": "",
+      "recommended_encoding": "canonical empty FString count=0",
+      "runtime_visibility_observed": false
+    },
+    {
+      "id": "UI-05",
+      "export": 44016,
+      "object": "UI_Battle.Scenes.Scene_ButtonB.Bundle.Base.Skill_window.Skill.TextB_Shadow_3",
+      "field": [
+        {
+          "name": "DataSource",
+          "array_index": 0
+        },
+        {
+          "name": "MarkupString",
+          "array_index": 0
+        }
+      ],
+      "source_text": "initial text",
+      "source_field_offset": 18828072,
+      "source_field_size": 17,
+      "source_field_sha256": "bddda3cb5980ee5737451f5735d6dfe92648668d2ce1c6e8a5a1859ab2090fdc",
+      "widget_tag": "TextB_Shadow_3",
+      "parent_export": 42297,
+      "renderer_export": 59850,
+      "renderer_class": "Engine.UIComp_DrawString",
+      "consumer_family": "buttonb",
+      "classification": "dynamic display field; serialized English is a development placeholder",
+      "recommended_serialized_value": "",
+      "recommended_encoding": "canonical empty FString count=0",
+      "runtime_visibility_observed": false
+    },
+    {
+      "id": "UI-06",
+      "export": 44105,
+      "object": "UI_Core.Scenes.QuickMenu.BundlePannel.Cate_0_Pannel.Cate_0_Bundle.ListPannel_0.List_0.ItemName",
+      "field": [
+        {
+          "name": "DataSource",
+          "array_index": 0
+        },
+        {
+          "name": "MarkupString",
+          "array_index": 0
+        }
+      ],
+      "source_text": "Item Name",
+      "source_field_offset": 18897229,
+      "source_field_size": 14,
+      "source_field_sha256": "bbd9812fe8c412e6c31bfe6071ac3ca4eed186fc3bef378861ed81b352a81100",
+      "widget_tag": "ItemName",
+      "parent_export": 44784,
+      "renderer_export": 59934,
+      "renderer_class": "Engine.UIComp_DrawString",
+      "consumer_family": "quickmenu",
+      "classification": "dynamic display field; serialized English is a development placeholder",
+      "recommended_serialized_value": "",
+      "recommended_encoding": "canonical empty FString count=0",
+      "runtime_visibility_observed": false
+    },
+    {
+      "id": "UI-07",
+      "export": 44108,
+      "object": "UI_Core.Scenes.QuickMenu.BundlePannel.Cate_0_Pannel.Cate_0_Bundle.ListPannel_1.List_1.ItemName",
+      "field": [
+        {
+          "name": "DataSource",
+          "array_index": 0
+        },
+        {
+          "name": "MarkupString",
+          "array_index": 0
+        }
+      ],
+      "source_text": "Item Name",
+      "source_field_offset": 18899236,
+      "source_field_size": 14,
+      "source_field_sha256": "bbd9812fe8c412e6c31bfe6071ac3ca4eed186fc3bef378861ed81b352a81100",
+      "widget_tag": "ItemName",
+      "parent_export": 44785,
+      "renderer_export": 59938,
+      "renderer_class": "Engine.UIComp_DrawString",
+      "consumer_family": "quickmenu",
+      "classification": "dynamic display field; serialized English is a development placeholder",
+      "recommended_serialized_value": "",
+      "recommended_encoding": "canonical empty FString count=0",
+      "runtime_visibility_observed": false
+    },
+    {
+      "id": "UI-08",
+      "export": 44111,
+      "object": "UI_Core.Scenes.QuickMenu.BundlePannel.Cate_0_Pannel.Cate_0_Bundle.ListPannel_2.List_2.ItemName",
+      "field": [
+        {
+          "name": "DataSource",
+          "array_index": 0
+        },
+        {
+          "name": "MarkupString",
+          "array_index": 0
+        }
+      ],
+      "source_text": "Item Name",
+      "source_field_offset": 18901243,
+      "source_field_size": 14,
+      "source_field_sha256": "bbd9812fe8c412e6c31bfe6071ac3ca4eed186fc3bef378861ed81b352a81100",
+      "widget_tag": "ItemName",
+      "parent_export": 44786,
+      "renderer_export": 59942,
+      "renderer_class": "Engine.UIComp_DrawString",
+      "consumer_family": "quickmenu",
+      "classification": "dynamic display field; serialized English is a development placeholder",
+      "recommended_serialized_value": "",
+      "recommended_encoding": "canonical empty FString count=0",
+      "runtime_visibility_observed": false
+    },
+    {
+      "id": "UI-09",
+      "export": 44114,
+      "object": "UI_Core.Scenes.QuickMenu.BundlePannel.Cate_0_Pannel.Cate_0_Bundle.ListPannel_3.List_3.ItemName",
+      "field": [
+        {
+          "name": "DataSource",
+          "array_index": 0
+        },
+        {
+          "name": "MarkupString",
+          "array_index": 0
+        }
+      ],
+      "source_text": "Item Name",
+      "source_field_offset": 18903250,
+      "source_field_size": 14,
+      "source_field_sha256": "bbd9812fe8c412e6c31bfe6071ac3ca4eed186fc3bef378861ed81b352a81100",
+      "widget_tag": "ItemName",
+      "parent_export": 44787,
+      "renderer_export": 59946,
+      "renderer_class": "Engine.UIComp_DrawString",
+      "consumer_family": "quickmenu",
+      "classification": "dynamic display field; serialized English is a development placeholder",
+      "recommended_serialized_value": "",
+      "recommended_encoding": "canonical empty FString count=0",
+      "runtime_visibility_observed": false
+    },
+    {
+      "id": "UI-10",
+      "export": 44117,
+      "object": "UI_Core.Scenes.QuickMenu.BundlePannel.Cate_0_Pannel.Cate_0_Bundle.ListPannel_4.List_4.ItemName",
+      "field": [
+        {
+          "name": "DataSource",
+          "array_index": 0
+        },
+        {
+          "name": "MarkupString",
+          "array_index": 0
+        }
+      ],
+      "source_text": "Item Name",
+      "source_field_offset": 18905257,
+      "source_field_size": 14,
+      "source_field_sha256": "bbd9812fe8c412e6c31bfe6071ac3ca4eed186fc3bef378861ed81b352a81100",
+      "widget_tag": "ItemName",
+      "parent_export": 44788,
+      "renderer_export": 59950,
+      "renderer_class": "Engine.UIComp_DrawString",
+      "consumer_family": "quickmenu",
+      "classification": "dynamic display field; serialized English is a development placeholder",
+      "recommended_serialized_value": "",
+      "recommended_encoding": "canonical empty FString count=0",
+      "runtime_visibility_observed": false
+    },
+    {
+      "id": "UI-11",
+      "export": 44120,
+      "object": "UI_Core.Scenes.QuickMenu.BundlePannel.Cate_0_Pannel.Cate_0_Bundle.ListPannel_5.List_5.ItemName",
+      "field": [
+        {
+          "name": "DataSource",
+          "array_index": 0
+        },
+        {
+          "name": "MarkupString",
+          "array_index": 0
+        }
+      ],
+      "source_text": "Item Name",
+      "source_field_offset": 18907264,
+      "source_field_size": 14,
+      "source_field_sha256": "bbd9812fe8c412e6c31bfe6071ac3ca4eed186fc3bef378861ed81b352a81100",
+      "widget_tag": "ItemName",
+      "parent_export": 44789,
+      "renderer_export": 59954,
+      "renderer_class": "Engine.UIComp_DrawString",
+      "consumer_family": "quickmenu",
+      "classification": "dynamic display field; serialized English is a development placeholder",
+      "recommended_serialized_value": "",
+      "recommended_encoding": "canonical empty FString count=0",
+      "runtime_visibility_observed": false
+    }
+  ],
+  "buttonb": {
+    "find_widgets_script": 11360,
+    "initialization_scripts": [
+      10601,
+      10621,
+      11361,
+      11362
+    ],
+    "opening_script": 11363,
+    "opening_wrapper": 2184315112,
+    "opening_native": 2195074776,
+    "assignment_call": 2195074980,
+    "name_virtual_slot": 652,
+    "name_native": 2195089304,
+    "initial_string_source": 2181750852,
+    "data_guard_zero_branches": [
+      2195089372,
+      2195089396,
+      2195089436,
+      2195089480
+    ],
+    "all_guard_join": 2195089552,
+    "main_label_member": 600,
+    "shadow_label_members": [
+      604,
+      608,
+      612,
+      616
+    ],
+    "setter_calls": [
+      2195089580,
+      2195089620
+    ],
+    "shadow_loop_count": 4,
+    "name_bridge": 2184518520,
+    "bridge_fname_global": 2200332564,
+    "bridge_fname": "GetInherentSkillNamText",
+    "bridge_fname_initializer": [
+      2195937812,
+      2195937900
+    ],
+    "name_script": 18258,
+    "script_returns": "SkillData.SkillNameText if nonnull; empty string otherwise",
+    "conclusion": "The five labels receive a dynamic skill name or empty string on the inspected opening/assignment path. English initial text is not the native fallback.",
+    "remaining_limit": "Valid scene/widget pointers and normal synchronous source call path; no proof of all malformed-object timing, game visibility or exception paths."
+  },
+  "quickmenu": {
+    "scene": 44966,
+    "focused_panel": 65588,
+    "focused_state": 77558,
+    "sequence": 79681,
+    "enter_state_event": 65457,
+    "initialize_action": 39303,
+    "output_link": {
+      "event": 65457,
+      "output": 0,
+      "connection": 0,
+      "action": 39303,
+      "input": 0
+    },
+    "new_list_type": "MyList",
+    "explicit_target_links": 0,
+    "native_action": 2194775440,
+    "list_initialize_slot": 648,
+    "list_initialize": 2195016648,
+    "collect_children_call": 2195017092,
+    "row_class_global": 2200262916,
+    "row_class": "MC2UIListButton",
+    "row_members": {
+      "array": 608,
+      "count": 612
+    },
+    "serialized_list_buttons": [
+      44784,
+      44785,
+      44786,
+      44787,
+      44788,
+      44789
+    ],
+    "reset_and_build_slot": 656,
+    "reset_and_build": 2195011744,
+    "source_builder_slot": 708,
+    "source_builder": 2194987840,
+    "update_call": 2195017988,
+    "update_slot": 704,
+    "update": 2194992520,
+    "clear_call": 2194992552,
+    "clear_slot": 700,
+    "clear": 2195021416,
+    "child_tag": "ItemName",
+    "child_tag_ascii": 2182273436,
+    "source_name_member": 444,
+    "name_fstring_count_member": 448,
+    "source_name_mapping_confidence": "High-confidence native layout correlation to declared MC2Item.ItemName; current property refs independently decoded",
+    "source_name_branch": [
+      2194993140,
+      2194993212
+    ],
+    "setter_call": 2194993436,
+    "empty_source": 2181750852,
+    "filter": {
+      "inventory_member": 784,
+      "inventory_array": 64,
+      "inventory_count": 68,
+      "type_member": 480,
+      "accepted_types": [
+        3,
+        4
+      ],
+      "additional_condition": "NewGame query result==0 OR (item+0x230 & 0x20000000)!=0",
+      "filter_branch_range": [
+        2194988016,
+        2194988196
+      ],
+      "runtime_inventory_observed": false
+    },
+    "conclusion": "All six row-name fields are cleared first, including unused rows; populated rows receive their item-name FString, not the Item Name placeholder.",
+    "remaining_limit": "Current initialized inventory contents and final frame visibility not observed. Serialized descendants do not prove absence of later runtime tree changes."
+  },
+  "dynamic_sources": {
+    "skill_explicit_references": 117,
+    "skill_references_resolved_to_current_chinese": 117,
+    "inherent_reference_fields": 14,
+    "inherent_unique_keys": 13,
+    "quick_explicit_type_3_4_item_names": 102,
+    "current_chinese_ref_fields": 98,
+    "current_chinese_literal_fields": 2,
+    "preexisting_missing_refs": 2,
+    "unresolved_runtime_inventory_membership": true,
+    "locale_pointer_syntax_and_ids_unchanged": true,
+    "game_execution": false
+  },
+  "preexisting_unresolved_item_refs": [
+    {
+      "export": 752,
+      "object": "data_item.Attack.Anesthetic",
+      "reference": "<Strings:MC2Item.Recover.Anesthetic>",
+      "type": "04",
+      "current_package_sha256": "27f179a768b8c18dc884e2d9f6499d0fc1b5b07b41c1b7e181e0398facb39228",
+      "original_package_sha256": "be264d1397e7fca36b5098e1f2b6ee4f8001f7a7216268bcf2c65edcd8de82c3",
+      "payload_sha256": "f8a06b0679b5e2cd4cab831fb067249a260f477a49dbb8fb472a5694e9783ef7",
+      "payload_size": 547,
+      "payload_unchanged": true,
+      "original_reference": "<Strings:MC2Item.Recover.Anesthetic>",
+      "absent_original_coalesced": true,
+      "current_matches": [],
+      "original_coalesced_sha256": "179e265cfc9e6d3e9f2586abe75b5da303b2af9b8484079851dab72f9f7edb8c",
+      "eligibility": "Type 4 passes numeric type gate if present in ItemManager list; additional game flag/item bit gate applies",
+      "inventory_membership_observed": false,
+      "current_or_original_resolved_text": null,
+      "action": "preserve unchanged pre-existing unresolved reference, not an English placeholder translation"
+    },
+    {
+      "export": 1024,
+      "object": "data_item.Attack.TestBattleAttackAbnormalStatusItem",
+      "reference": "<Strings:MC2Item.Recover.PaticleOfFire1>",
+      "type": "04",
+      "current_package_sha256": "27f179a768b8c18dc884e2d9f6499d0fc1b5b07b41c1b7e181e0398facb39228",
+      "original_package_sha256": "be264d1397e7fca36b5098e1f2b6ee4f8001f7a7216268bcf2c65edcd8de82c3",
+      "payload_sha256": "c2b40d581f53dbf1edf964b129e3580c128cb131ab803f76d4c56a1430ddc4c6",
+      "payload_size": 628,
+      "payload_unchanged": true,
+      "original_reference": "<Strings:MC2Item.Recover.PaticleOfFire1>",
+      "absent_original_coalesced": true,
+      "current_matches": [],
+      "original_coalesced_sha256": "179e265cfc9e6d3e9f2586abe75b5da303b2af9b8484079851dab72f9f7edb8c",
+      "eligibility": "Type 4 passes numeric type gate if present in ItemManager list; additional game flag/item bit gate applies",
+      "inventory_membership_observed": false,
+      "current_or_original_resolved_text": null,
+      "action": "preserve unchanged pre-existing unresolved reference, not an English placeholder translation"
+    }
+  ],
+  "upstream": "No new external RE source reused; repository UE3/PPC readers and Capstone 5 disassembly, independently source-hash checked.",
+  "game_execution": false
+}

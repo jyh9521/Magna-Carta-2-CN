@@ -2356,3 +2356,12 @@ flags remain false; no story translation gate changes.
 HP原图另外的小号`UP`译为“提升”，保留双字号含义。`STR_normalcopy`实际是日文“攻撃”，
 不是韩文；两份副本单独恢复其原生红色底图并同步“攻击”，运行时使用状态仍单列。
 换碟提示采用“请放入《真名法典2》第1／2张光盘”，光盘片段保持原图黄色强调。
+
+## 阶段370：动态默认值不是固定玩家文案
+
+31个 `initial text`／`Item Name`／`Quest Title`／`NO DATA`／`Level UP` 默认字段，
+经真实native／脚本消费者确认是动态内容占位。采用源锁计划 `ui-defaults-v40.json`
+清空为零count FString，不翻译成误导性的“初始文本／任务标题／暂无数据”。
+这不是放宽目录里的 unexpected-empty 校验；只允许计划中完整对象／字段路径及原字节匹配的
+31项显式空态。资源标识与运行时绑定保持不变，真实中文名称和说明另做非空正控。
+详见[阶段370](docs/PHASE_370_UI_DEFAULTS.md)。

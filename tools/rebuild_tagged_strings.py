@@ -22,6 +22,7 @@ from .validate_catalog import TOKEN
 from .verify_resource_phase import unique
 
 PROFILE = 'ue3-relocated-wide-tagged-strings-v1'
+NESTED_PROFILE = 'ue3-relocated-nested-tagged-strings-v2'
 MAX_PACKAGE = 512 * 1024 * 1024
 MAX_PLAN = 4 * 1024 * 1024
 
@@ -53,12 +54,14 @@ def _fstring(raw):
     return value
 
 
-def _self_contained_properties(raw, tables, start=0, depth=0):
+def _self_contained_properties(raw, tables, start=0, depth=0, *, arrays=None, path=(), used=None):
     """Fail closed on arrays, opaque/native tails, and unsupported native structs.
 
     Scalar leaves are serialization values or object/name table indexes, never
     physical file pointers. Vector is the one supported native struct; every
     other struct must itself be a complete tagged stream with supported leaves.
+    V2 may explicitly opt in reviewed object-reference arrays by exact indexed
+    path. The source-bound plan, not byte-pattern guessing, supplies their type.
     """
     if depth > 8: raise FormatError('tagged struct nesting limit')
     reader = Reader(raw); reader.seek(start)
@@ -69,6 +72,7 @@ def _self_contained_properties(raw, tables, start=0, depth=0):
         key = (p['name'], p['array_index'])
         if key in seen: raise FormatError('duplicate indexed property')
         seen.add(key); kind, value = p['type'], p['raw']
+        current = path + (key,)
         if kind == 'StrProperty': _fstring(value)
         elif kind in ('IntProperty', 'FloatProperty', 'ObjectProperty'):
             if len(value) != 4: raise FormatError('invalid scalar property size')
@@ -89,10 +93,127 @@ def _self_contained_properties(raw, tables, start=0, depth=0):
                 if len(value) != 12 or not all(math.isfinite(v) for v in struct.unpack('>fff', value)):
                     raise FormatError('invalid native Vector')
             else:
-                _self_contained_properties(value, tables, 0, depth + 1)
+                _self_contained_properties(value, tables, 0, depth + 1,
+                                           arrays=arrays, path=current, used=used)
+        elif kind == 'ArrayProperty' and arrays is not None and current in arrays:
+            if len(value) < 4: raise FormatError('truncated object-reference array')
+            count = struct.unpack_from('>i', value)[0]
+            if not 0 <= count <= 2048 or len(value) != 4 + 4 * count:
+                raise FormatError('object-reference array count/size mismatch')
+            for ref, in struct.iter_unpack('>i', value[4:]):
+                if not -len(tables['imports']) <= ref <= len(tables['exports']):
+                    raise FormatError('array object reference outside tables')
+            used.add(current)
         else:
             raise FormatError('unsupported self-contained property type: ' + kind)
     return props
+
+
+def _path(value):
+    if not isinstance(value, list) or not 1 <= len(value) <= 9:
+        raise FormatError('bounded indexed property path required')
+    result = []
+    for part in value:
+        if (not isinstance(part, dict) or set(part) != {'name', 'array_index'}
+                or not isinstance(part['name'], str) or not part['name'] or part['name'] == 'None'
+                or type(part['array_index']) is not int or not 0 <= part['array_index'] < 2048):
+            raise FormatError('exact indexed path component required')
+        result.append((part['name'], part['array_index']))
+    return tuple(result)
+
+
+def rewrite_nested_payload(payload, tables, fields, object_reference_arrays):
+    """V2: nested ASCII/wide FString -> wide/empty, rebuilding ancestor sizes.
+
+    Arrays remain byte-identical and must have been established as object-index
+    arrays by source-bound declaration research. This function neither infers
+    array types nor accepts native tails. It does not change bindings or IDs.
+    """
+    if not isinstance(payload, bytes) or not 4 < len(payload) <= 4 * 1024 * 1024:
+        raise FormatError('bounded immutable payload required')
+    if not isinstance(object_reference_arrays, list) or len(object_reference_arrays) > 128:
+        raise FormatError('bounded object-reference array profiles required')
+    arrays = [_path(p) for p in object_reference_arrays]
+    if len(set(arrays)) != len(arrays): raise FormatError('duplicate array path')
+    arrays = set(arrays); used = set()
+    _self_contained_properties(payload, tables, 4, arrays=arrays, used=used)
+    if used != arrays: raise FormatError('unused object-reference array profile')
+    if not isinstance(fields, list) or not 1 <= len(fields) <= 128:
+        raise FormatError('bounded field selection required')
+    selected = {}
+    for field in fields:
+        required = {'path', 'before_encoding', 'before', 'after'}
+        if (not isinstance(field, dict) or not required <= field.keys()
+                or set(field) - required - {'literal_percentages'}):
+            raise FormatError('exact nested string field required')
+        path = _path(field['path'])
+        if path in selected: raise FormatError('duplicate field selection')
+        before, after = field['before'], field['after']
+        wide_before = wide_string(before)
+        # Empty runtime placeholders use the canonical zero-count FString.
+        # Do not emit a misleading translated placeholder or a padded string.
+        wide_after = bytes(4) if after == '' else wide_string(after)
+        if before == after: raise FormatError('non-noop string edit required')
+        if field['before_encoding'] == 'ascii':
+            try: value = before.encode('ascii') + b'\0'
+            except UnicodeEncodeError as exc: raise FormatError('ASCII source required') from exc
+            old = struct.pack('>i', len(value)) + value
+        elif field['before_encoding'] == 'utf-16-le': old = wide_before
+        else: raise FormatError('explicit ASCII/UTF16LE source encoding required')
+        _protected(before, after, field)
+        selected[path] = (old, wide_after, field)
+    for a in selected:
+        if any(len(b) > len(a) and b[:len(a)] == a for b in selected):
+            raise FormatError('overlapping field paths')
+    edits = []
+
+    def rewrite(raw, start, prefix, base):
+        reader = Reader(raw); reader.seek(start); props = read_properties(reader, tables['names'])
+        if reader.pos != len(raw): raise FormatError('unsupported native object/struct tail')
+        out = bytearray(raw[:start])
+        for prop in props:
+            path = prefix + ((prop['name'], prop['array_index']),)
+            value = prop['raw']
+            if path in selected:
+                old, value, field = selected[path]
+                if prop['type'] != 'StrProperty': raise FormatError('selected field is not a string')
+                if prop['raw'] != old: raise FormatError('expected serialized string mismatch')
+                edits.append(dict(path=field['path'], before_encoding=field['before_encoding'],
+                                  tag_offset=base + prop['offset'], value_offset=base + prop['value_offset'],
+                                  before_size=len(old), after_size=len(value),
+                                  before_sha256=digest(old), after_sha256=digest(value)))
+            elif any(p[:len(path)] == path for p in selected):
+                if prop['type'] != 'StructProperty' or prop['struct'] == 'Vector':
+                    raise FormatError('selected path is not a tagged struct')
+                value = rewrite(value, 0, path, base + prop['value_offset'])
+            header = bytearray(raw[prop['offset']:prop['value_offset']])
+            struct.pack_into('>I', header, 16, len(value))
+            out.extend(header + value)
+        out.extend(raw[-8:])  # Exact terminal None FName, already parsed above.
+        return bytes(out)
+
+    result = rewrite(payload, 4, (), 0)
+    if len(edits) != len(selected): raise FormatError('missing selected string field')
+    used = set(); _self_contained_properties(result, tables, 4, arrays=arrays, used=used)
+    if used != arrays: raise FormatError('rebuilt array profile mismatch')
+
+    def compare(a, b, start, prefix):
+        ra, rb = Reader(a), Reader(b); ra.seek(start); rb.seek(start)
+        pa, pb = read_properties(ra, tables['names']), read_properties(rb, tables['names'])
+        if len(pa) != len(pb) or a[:start] != b[:start] or a[-8:] != b[-8:]:
+            raise FormatError('property cardinality/prefix/terminator changed')
+        for old, new in zip(pa, pb, strict=True):
+            path = prefix + ((old['name'], old['array_index']),)
+            for key in ('name', 'array_index', 'type', 'struct', 'bool'):
+                if old.get(key) != new.get(key): raise FormatError('property identity changed')
+            if path in selected:
+                if new['raw'] != selected[path][1]: raise FormatError('nested string readback mismatch')
+            elif any(p[:len(path)] == path for p in selected):
+                compare(old['raw'], new['raw'], 0, path)
+            elif old['raw'] != new['raw'] or old['size'] != new['size']:
+                raise FormatError('unselected property changed')
+    compare(payload, result, 4, ())
+    return result, edits
 
 
 def _protected(before, after, field):
@@ -161,7 +282,7 @@ def rewrite_payload(payload, tables, fields):
 def _plan(plan):
     required = {'schema_version', 'profile', 'source_sha256', 'source_size', 'output_alignment', 'objects'}
     if (not isinstance(plan, dict) or set(plan) != required or type(plan.get('schema_version')) is not int
-            or plan['schema_version'] != 1 or plan['profile'] != PROFILE):
+            or (plan['schema_version'], plan['profile']) not in ((1, PROFILE), (2, NESTED_PROFILE))):
         raise FormatError('unsupported relocated string profile')
     _hash(plan['source_sha256'])
     if type(plan['output_alignment']) is not int or plan['output_alignment'] != 32768:
@@ -172,7 +293,9 @@ def _plan(plan):
         raise FormatError('bounded object selection required')
     seen = set()
     for obj in plan['objects']:
-        if (not isinstance(obj, dict) or set(obj) != {'object_path', 'class_path', 'tagged_offset', 'before_sha256', 'after_sha256', 'fields'}
+        keys = {'object_path', 'class_path', 'tagged_offset', 'before_sha256', 'after_sha256', 'fields'}
+        if plan['schema_version'] == 2: keys.add('object_reference_arrays')
+        if (not isinstance(obj, dict) or set(obj) != keys
                 or not isinstance(obj['object_path'], str) or not obj['object_path']
                 or not isinstance(obj['class_path'], str) or not obj['class_path']
                 or type(obj['tagged_offset']) is not int or obj['tagged_offset'] != 4):
@@ -203,7 +326,10 @@ def apply(data, plan):
             raise FormatError('class/profile mismatch; stack/CDO unsupported')
         start, size = e['serial_offset'], e['serial_size']; payload = data[start:start + size]
         if digest(payload) != obj['before_sha256']: raise FormatError('original payload SHA256 mismatch')
-        new, fields = rewrite_payload(payload, tables, obj['fields'])
+        if plan['schema_version'] == 1:
+            new, fields = rewrite_payload(payload, tables, obj['fields'])
+        else:
+            new, fields = rewrite_nested_payload(payload, tables, obj['fields'], obj['object_reference_arrays'])
         if digest(new) != obj['after_sha256']: raise FormatError('rebuilt payload SHA256 mismatch')
         selected.append((index, e, payload, new, fields))
     # An old payload is inactive only if no other export also owns its bytes.
@@ -248,7 +374,7 @@ def apply(data, plan):
     for row in changes:
         field = row['table_offset'] + 32; restored[field:field + 8] = bytes.fromhex(row['old_metadata_hex'])
     if bytes(restored) != data: raise FormatError('original prefix changed outside selected export metadata')
-    report = dict(schema_version=1, profile=PROFILE, source_sha256=digest(data), source_size=len(data),
+    report = dict(schema_version=1, profile=plan['profile'], source_sha256=digest(data), source_size=len(data),
                   output_sha256=digest(result), output_size=len(result), plan_semantic_sha256=_semantic_sha(plan),
                   fields=sum(len(x['fields']) for x in changes), changes=changes,
                   appended_range=[len(data), len(result)], original_payloads_retained_inactive=True,
@@ -261,7 +387,7 @@ def apply(data, plan):
 def rollback(data, plan, journal):
     _plan(plan)
     if (not isinstance(data, bytes) or not isinstance(journal, dict) or type(journal.get('schema_version')) is not int or journal['schema_version'] != 1
-            or journal.get('profile') != PROFILE or journal.get('plan_semantic_sha256') != _semantic_sha(plan)
+            or journal.get('profile') != plan['profile'] or journal.get('plan_semantic_sha256') != _semantic_sha(plan)
             or journal.get('source_sha256') != plan['source_sha256'] or journal.get('source_size') != plan['source_size']
             or journal.get('output_size') != len(data) or journal.get('output_sha256') != digest(data)):
         raise FormatError('rollback journal/input identity mismatch')
@@ -285,7 +411,7 @@ def rollback(data, plan, journal):
     replayed, replay_journal = apply(result, plan)
     if replayed != data or replay_journal != journal:
         raise FormatError('rollback canonical forward replay mismatch')
-    return result, dict(schema_version=1, profile=PROFILE, input_sha256=digest(data), output_sha256=digest(result),
+    return result, dict(schema_version=1, profile=plan['profile'], input_sha256=digest(data), output_sha256=digest(result),
                         restored_source_size=len(result), fields=journal['fields'], byte_identical=True,
                         canonical_forward_replay=True, game_rendering_verified=False)
 

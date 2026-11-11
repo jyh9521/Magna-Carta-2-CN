@@ -2023,3 +2023,13 @@ Expressive 工作台的右侧摘要在 920×720 首轮测试中纵向溢出58像
 - positive-length Core.int包含A9，不是CP949文本。已验证native逐字节零扩展，只按完整payload源锁允许提取；不要给所有opaque输入套Latin-1猜测。
 - 原生函数的空脚本存根不证明UI默认值永远不可见。31个ASCII默认值已解析，但不作全路径覆盖推断。
 - 安装器的嵌入manifest自洽不证明文档与当前源一致；同时核对USAGE字节。详见[阶段369](PHASE_369_COVERAGE_CLOSURE.md)。
+
+## 阶段370：不要把占位词翻成假界面提示
+
+- Function里的native空存根不代表逻辑为空；ButtonB／列表控件必须追实际注册、vtable和setter。
+- `NO DATA`在这里是序列化开发占位，真实列表空态是空串；直接翻成“暂无数据”会引入原流程没有的提示。
+- 正常最终文本已中文不证明每次初始化前都没有英文窗口；LevelUp的Open/Fade确实早于SetInformation。
+- 清空默认不等于清空真实动态内容；保留source数据／ID／脚本字节，并运行非空中文正控。
+- 全包grep仍会命中保留的旧不活动payload。按export ownership和字段读取，不因保留回滚字节误报active残留。
+- 这31个renderer没有337/338那组A/X标签的显式DrawFont覆盖，不得跨对象套用旧结论。
+详见[阶段370](PHASE_370_UI_DEFAULTS.md)。

@@ -1,0 +1,344 @@
+{
+  "schema_version": 1,
+  "kind": "ui-default-source-bound-research",
+  "source_sha256": "9bcc6e024b155f58fd841c9d75ff794c584e016e292500375388c80020b294f7",
+  "native_image_sha256": "d18d49fb2960426715ba17d61d069cce42b1eadac153af13c9395cd42b1773e9",
+  "evidence": "docs/PHASE_370_UI_DEFAULTS.md",
+  "components": [
+    {
+      "group": "battle-quick",
+      "file": "references/ui-defaults-battle-quick.lock.json",
+      "sha256": "f59dff72afc6fed445810bf8e4513e87da1a4b1b019279fc7854b2abb59119f6",
+      "ids": [
+        "UI-01",
+        "UI-02",
+        "UI-03",
+        "UI-04",
+        "UI-05",
+        "UI-06",
+        "UI-07",
+        "UI-08",
+        "UI-09",
+        "UI-10",
+        "UI-11"
+      ]
+    },
+    {
+      "group": "quest-tutorial",
+      "file": "references/ui-defaults-quest-tutorial.lock.json",
+      "sha256": "d9cbfedaf62f3cf7486485bd0a8aba924063345167c47401e8b6be3d452ddb69",
+      "ids": [
+        "UI-12",
+        "UI-13",
+        "UI-14",
+        "UI-15",
+        "UI-16",
+        "UI-17",
+        "UI-18",
+        "UI-19",
+        "UI-20",
+        "UI-23",
+        "UI-24",
+        "UI-25",
+        "UI-26",
+        "UI-27",
+        "UI-28",
+        "UI-29",
+        "UI-30",
+        "UI-31"
+      ],
+      "source_artifact_sha256": "f0dc0ec97d3cea2e57b3fedbc3be00f17f835fc44eeaafb5ddd1ca43be8159e6",
+      "serialization_normalization": "CRLF-to-LF only; parsed JSON identical"
+    },
+    {
+      "group": "levelup",
+      "file": "references/ui-defaults-levelup.lock.json",
+      "sha256": "bc2c403115e0a55df890b142c3a7e42ec45504166cbfa61974f3cd8cdf13f622",
+      "ids": [
+        "UI-21",
+        "UI-22"
+      ]
+    }
+  ],
+  "object_array_declarations": [
+    {
+      "declaration": {
+        "owner": {
+          "package": "engine",
+          "object_index": 5684,
+          "path": "UIScreenObject.InactiveStates",
+          "class_path": "Core.ArrayProperty",
+          "object_flags": "0007000400000000",
+          "export_flags": 0,
+          "source_sha256": "67ad212cb85233b1c1524c11ac7ad6bbbf393c61fdfbb399430130fd0c07aef9",
+          "logical_serial_offset": 2418589,
+          "serial_size": 48
+        },
+        "name": "InactiveStates",
+        "kind": "ArrayProperty",
+        "net_index": 5698,
+        "next_reference": 5683,
+        "array_dim": 1,
+        "flags_hex": "000000000440000b",
+        "category": {
+          "name": "States",
+          "number": 0
+        },
+        "array_enum": null,
+        "target": null,
+        "meta_class": null,
+        "enum_catalog": null,
+        "array_enum_catalog": null,
+        "container": {
+          "kind": "array",
+          "inner": {
+            "reference": 5659,
+            "path": "engine.uiscreenobject.inactivestates.inactivestates",
+            "class_name": "ObjectProperty"
+          },
+          "type_visibility": "serialized-property-reference"
+        },
+        "payload_sha256": "39e37710e2d17026b93bf21f050e83d78d63062cdbd4344b574c24832ee8c8a6"
+      },
+      "inner": {
+        "owner": {
+          "package": "engine",
+          "object_index": 5659,
+          "path": "UIScreenObject.InactiveStates.InactiveStates",
+          "class_path": "Core.ObjectProperty",
+          "object_flags": "0007000400000000",
+          "export_flags": 0,
+          "source_sha256": "67ad212cb85233b1c1524c11ac7ad6bbbf393c61fdfbb399430130fd0c07aef9",
+          "logical_serial_offset": 2417381,
+          "serial_size": 48
+        },
+        "name": "InactiveStates",
+        "kind": "ObjectProperty",
+        "net_index": 5673,
+        "next_reference": 0,
+        "array_dim": 1,
+        "flags_hex": "0000000004400008",
+        "category": {
+          "name": "None",
+          "number": 0
+        },
+        "array_enum": null,
+        "target": {
+          "reference": 20135,
+          "path": "engine.uistate",
+          "class_name": "Class"
+        },
+        "meta_class": null,
+        "enum_catalog": null,
+        "array_enum_catalog": null,
+        "payload_sha256": "75f0991abd1f7751837abec6e77b209cf700e64cf77c4bd1d14cda25cd878fb9"
+      }
+    },
+    {
+      "declaration": {
+        "owner": {
+          "package": "engine",
+          "object_index": 5687,
+          "path": "UIScreenObject.Children",
+          "class_path": "Core.ArrayProperty",
+          "object_flags": "0007000400000100",
+          "export_flags": 0,
+          "source_sha256": "67ad212cb85233b1c1524c11ac7ad6bbbf393c61fdfbb399430130fd0c07aef9",
+          "logical_serial_offset": 2418737,
+          "serial_size": 48
+        },
+        "name": "Children",
+        "kind": "ArrayProperty",
+        "net_index": 5701,
+        "next_reference": 5686,
+        "array_dim": 1,
+        "flags_hex": "0000000001400000",
+        "category": {
+          "name": "None",
+          "number": 0
+        },
+        "array_enum": null,
+        "target": null,
+        "meta_class": null,
+        "enum_catalog": null,
+        "array_enum_catalog": null,
+        "container": {
+          "kind": "array",
+          "inner": {
+            "reference": 5657,
+            "path": "engine.uiscreenobject.children.children",
+            "class_name": "ObjectProperty"
+          },
+          "type_visibility": "serialized-property-reference"
+        },
+        "payload_sha256": "01d2131a0420f8904c80a1c3056bb3e537bb7f5a8efeb8bdad328e56c33f753a"
+      },
+      "inner": {
+        "owner": {
+          "package": "engine",
+          "object_index": 5657,
+          "path": "UIScreenObject.Children.Children",
+          "class_path": "Core.ObjectProperty",
+          "object_flags": "0007000400000000",
+          "export_flags": 0,
+          "source_sha256": "67ad212cb85233b1c1524c11ac7ad6bbbf393c61fdfbb399430130fd0c07aef9",
+          "logical_serial_offset": 2417281,
+          "serial_size": 48
+        },
+        "name": "Children",
+        "kind": "ObjectProperty",
+        "net_index": 5671,
+        "next_reference": 0,
+        "array_dim": 1,
+        "flags_hex": "0000000000000000",
+        "category": {
+          "name": "None",
+          "number": 0
+        },
+        "array_enum": null,
+        "target": {
+          "reference": 6216,
+          "path": "engine.uiobject",
+          "class_name": "Class"
+        },
+        "meta_class": null,
+        "enum_catalog": null,
+        "array_enum_catalog": null,
+        "payload_sha256": "e47710a11f6e0c21178938ac7a1a4b47e111a45c21801610e52c5f90eabd7bd8"
+      }
+    }
+  ],
+  "declaration_package_hashes": {
+    "core": "1f79abbc4c0992e4c2eef33e755af6a9993dc980cdf053677e9b138f0cecb815",
+    "engine": "67ad212cb85233b1c1524c11ac7ad6bbbf393c61fdfbb399430130fd0c07aef9",
+    "mc2game": "9bcc6e024b155f58fd841c9d75ff794c584e016e292500375388c80020b294f7"
+  },
+  "existing_canonical_empty_examples": [
+    {
+      "owner": "UI_Core.Scenes.QuickMenu.Base.BgBox.Description",
+      "path": [
+        {
+          "name": "DataSource",
+          "array_index": 0
+        },
+        {
+          "name": "MarkupString",
+          "array_index": 0
+        }
+      ],
+      "offset": 18895046,
+      "serialized_hex": "00000000"
+    },
+    {
+      "owner": "UI_Core.Scenes.Scene_Balloon_0.Balloon_Base.Dialogue",
+      "path": [
+        {
+          "name": "DataSource",
+          "array_index": 0
+        },
+        {
+          "name": "MarkupString",
+          "array_index": 0
+        }
+      ],
+      "offset": 18917127,
+      "serialized_hex": "00000000"
+    },
+    {
+      "owner": "UI_Core.Scenes.Scene_Balloon_1.Balloon_Base.Dialogue",
+      "path": [
+        {
+          "name": "DataSource",
+          "array_index": 0
+        },
+        {
+          "name": "MarkupString",
+          "array_index": 0
+        }
+      ],
+      "offset": 18917845,
+      "serialized_hex": "00000000"
+    },
+    {
+      "owner": "UI_Field.Scenes.Organize.Base.Line_00.StatText_0_Shadow_0",
+      "path": [
+        {
+          "name": "DataSource",
+          "array_index": 0
+        },
+        {
+          "name": "MarkupString",
+          "array_index": 0
+        }
+      ],
+      "offset": 18955127,
+      "serialized_hex": "00000000"
+    },
+    {
+      "owner": "UI_Field.Scenes.Organize.Base.Line_00.StatText_0_Shadow_0.StatText_0",
+      "path": [
+        {
+          "name": "DataSource",
+          "array_index": 0
+        },
+        {
+          "name": "MarkupString",
+          "array_index": 0
+        }
+      ],
+      "offset": 18955983,
+      "serialized_hex": "00000000"
+    }
+  ],
+  "integration_review": {
+    "sha256": "2a6891ef454aa26cd9e955367a62523bb8a74edf60b34141d79a4c64aa6f4bec",
+    "summary": {
+      "selected_exports": 31,
+      "canonical_empty_fields": 31,
+      "ancestor_sizes_checked": 31,
+      "unchanged_property_blocks": 312,
+      "unchanged_object_arrays": 40,
+      "unselected_exports_byte_identical": 83361,
+      "preserved_categories": {
+        "function": 8715,
+        "font": 13,
+        "texture": 584
+      },
+      "original_prefix_only_selected_metadata_changes": true,
+      "apply_replay_matches_actual_output_and_journal": true,
+      "rollback_complete_byte_identical": true,
+      "tests_passed": 40,
+      "substantive_bugs_found": 0
+    }
+  },
+  "game_execution_observed": false,
+  "supplemental_evidence": [
+    {
+      "file": "references/ui-defaults-dynamic-titles.lock.json",
+      "sha256": "9373f824dd7d8bf292be3c5bdb80f9bbfdb1ab73175b99411ba7950caa8bb444",
+      "source_artifact_sha256": "81df1c9a0963200c6b84a35be209255b5cefe6399bf3d84210a6eda9ee56044c",
+      "scope": "bounded explicit title fields, not all live or inherited instances"
+    }
+  ],
+  "array_add_item_format_reference": {
+    "project": "EliotVU/Unreal-Library",
+    "author": "Eliot van Uytfanghe",
+    "license": "MIT",
+    "commit": "8236c39b79e30887a487ecf9b018204e430a5ebc",
+    "reuse": "Format research for read-only 446/25 0x55 ArrayAddItem in two scripts; independent ignored research decoder; production decoder unchanged",
+    "sources": [
+      {
+        "url": "https://raw.githubusercontent.com/EliotVU/Unreal-Library/8236c39b79e30887a487ecf9b018204e430a5ebc/src/Core/Tokens/ArrayTokens.cs",
+        "sha256": "720c7070c07caf50d996ea245b1504e731ebcd48f4bcda32dcf493beb7b0bd10"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/EliotVU/Unreal-Library/8236c39b79e30887a487ecf9b018204e430a5ebc/src/Branch/DefaultEngineBranch.cs",
+        "sha256": "b8b6c5962ca04e203af1d82f7ec3d18836fe3d0b802bb64243dd8c7d4230fd49"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/EliotVU/Unreal-Library/8236c39b79e30887a487ecf9b018204e430a5ebc/src/Branch/PackageObjectLegacyVersion.cs",
+        "sha256": "b2d2a17e092f34ad5019704840d52abfaf477eaa57a98b7f3e187f9ec489f6f4"
+      }
+    ]
+  }
+}

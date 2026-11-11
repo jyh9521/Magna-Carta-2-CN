@@ -2108,3 +2108,14 @@ Disc2按锁定原始身份合入共享修订与5段独有地图更新，不合�
 原测试副本按已有packet摘要重新核验／刷新，并同步测试清单。
 安装器仍从锁定recipe及用户原盘重建，`src/installer/USAGE.txt`随bundle收录；
 安装器审计现在也要求嵌入说明与当前source字节相同。独立副本回滚和四件证据随本轮保存。
+
+## 阶段370：嵌套UI默认值与增量交付
+
+[31项处理与准确源hash](docs/PHASE_370_UI_DEFAULTS.md)使用 `rebuild_tagged_strings` 显式v2 profile；
+v1重建输出不变。`locales/zh-Hans/ui-defaults-v40.json`只清空经消费者确认的动态占位，
+不新增Name/import/export、不改动态文字或font。`InactiveStates`、`Children`的object-array类型
+必须先用匹配Engine的属性声明确认，再在计划中逐路径授权；未知数组／native尾部直接失败。
+从阶段368资源身份应用计划后，双盘各更新MC2Game.xxx与TOC，471／573资源集合及2DLC不变。
+当前锁定入口 `references/installer-inputs.lock.json` 指向本轮增量packet；
+同一测试目录、同名v1.0安装器与[复测清单](docs/PHASE_370_TEST_CHECKLIST.md)同步。
+准确baseline／modified／独立rollback及实际安装器回读记录保存在本轮VERIFICATION.txt。

@@ -50,7 +50,55 @@ def shadow_pixels(rgba, width, height, metric_width, metric_height, dx=1, dy=1):
     return bytes(out), added, clipped
 
 
-def apply_shadow(data, expected_sha256, font_object, glyph_plan, dx=1, dy=1):
+def outline_pixels(rgba, width, height, metric_width, metric_height):
+    """One texel of black coverage around white ink, keeping original pixels."""
+    if (any(type(v) is not int for v in (width, height, metric_width, metric_height))
+            or not 1 <= metric_width <= width <= 128
+            or not 1 <= metric_height <= height <= 128
+            or not isinstance(rgba, bytes) or len(rgba) != width * height * 4):
+        raise ValueError('invalid bounded outline cell')
+    out = bytearray(rgba)
+    added = clipped = 0
+    for y in range(-1, metric_height + 1):
+        for x in range(-1, metric_width + 1):
+            inside = 0 <= x < metric_width and 0 <= y < metric_height
+            p = (y * width + x) * 4
+            if inside and rgba[p + 3]:
+                continue
+            alpha = 0
+            for sy in range(max(0, y - 1), min(metric_height, y + 2)):
+                for sx in range(max(0, x - 1), min(metric_width, x + 2)):
+                    q = (sy * width + sx) * 4
+                    if rgba[q:q + 3] == b'\xff\xff\xff':
+                        alpha = max(alpha, rgba[q + 3] * (7 if sx == x or sy == y else 5) // 7)
+            if alpha >= 36:
+                if inside:
+                    out[p:p + 4] = bytes((0, 0, 0, alpha))
+                    added += 1
+                else:
+                    clipped += 1
+    return bytes(out), added, clipped
+
+
+def _outline_block(before, after, original):
+    # Keep the existing alpha endpoints and every unmodified selector. New
+    # coverage uses that block's representable alpha levels.
+    hi, lo = original[:2]
+    palette = [hi, lo]
+    if hi > lo:
+        palette += [((7-i)*hi+i*lo)//7 for i in range(1, 7)]
+    else:
+        palette += [((5-i)*hi+i*lo)//5 for i in range(1, 5)] + [0, 255]
+    selectors = int.from_bytes(original[2:8], 'little')
+    for i in range(16):
+        p = 4*i
+        if before[p:p+4] != after[p:p+4]:
+            choice = min(range(8), key=lambda j: abs(after[p+3]-palette[j]))
+            selectors = (selectors & ~(7 << (3*i))) | (choice << (3*i))
+    return original[:2] + selectors.to_bytes(6, 'little') + encode_rgba_block(after)[8:]
+
+
+def apply_shadow(data, expected_sha256, font_object, glyph_plan, dx=1, dy=1, *, outline=False):
     if not isinstance(data, bytes) or not 0 < len(data) <= 512 * 1024 * 1024 or digest(data) != expected_sha256:
         raise ValueError('package SHA256 mismatch')
     glyphs = validate_plan(glyph_plan)
@@ -109,25 +157,36 @@ def apply_shadow(data, expected_sha256, font_object, glyph_plan, dx=1, dy=1):
                     max(g['y'], other['StartV']) < min(g['y'] + g['height'], other['StartV'] + other['VSize'])):
                 raise ValueError('selected shadow cell covers another glyph')
         before = rgba_crop(decoded, width, rect)
-        after, count, clipped = shadow_pixels(before, g['width'], g['height'],
-                                              metric['USize'], metric['VSize'], dx, dy)
+        if outline:
+            after, count, clipped = outline_pixels(before, g['width'], g['height'], metric['USize'], metric['VSize'])
+        else:
+            after, count, clipped = shadow_pixels(before, g['width'], g['height'],
+                                                  metric['USize'], metric['VSize'], dx, dy)
         linear = bytearray()
         for by in range(0, g['height'], 4):
             for bx in range(0, g['width'], 4):
                 block_rect = [bx, by, 4, 4]
                 pixels = rgba_crop(after, g['width'], block_rect)
-                if pixels == rgba_crop(before, g['width'], block_rect):
-                    at = (((g['y'] + by) // 4) * (width // 4) + (g['x'] + bx) // 4) * 16
+                old_pixels = rgba_crop(before, g['width'], block_rect)
+                at = (((g['y'] + by) // 4) * (width // 4) + (g['x'] + bx) // 4) * 16
+                if pixels == old_pixels:
                     linear.extend(original_linear[at:at + 16])
+                elif outline:
+                    linear.extend(_outline_block(old_pixels, pixels, original_linear[at:at + 16]))
                 else:
                     linear.extend(encode_rgba_block(pixels))
         actual = decode_dxt5(bytes(linear), g['width'], g['height'])
         if any(actual[i:i + 4] != before[i:i + 4]
                for i in range(0, len(before), 4) if before[i + 3]):
             raise ValueError('BC3 encoding changed existing foreground pixels')
-        if any(actual[i:i + 4] != after[i:i + 4]
+        if not outline and any(actual[i:i + 4] != after[i:i + 4]
                for i in range(0, len(after), 4) if after[i + 3]):
             raise ValueError('BC3 encoding changed shadow pixels')
+        if outline:
+            count = sum(not before[i+3] and actual[i+3] and actual[i:i+3] == bytes(3)
+                        for i in range(0, len(before), 4))
+            if not count:
+                raise ValueError('outline has no representable coverage in selected glyph')
         patched = scatter_linear_dxt5_cell(tiles, width, height, *rect, bytes(linear))
         for at in blocks:
             if patched[at:at + 16] != tiles[at:at + 16]:
@@ -149,6 +208,8 @@ def apply_shadow(data, expected_sha256, font_object, glyph_plan, dx=1, dy=1):
                  patches=patches, added_shadow_pixels=sum(r['added_shadow_pixels'] for r in counts),
                  foreground_pixels_preserved=True, font_metrics_preserved=True,
                  unselected_blocks_and_exports_preserved=True, game_rendering_verified=False)
+    if outline:
+        proof['effect'] = 'black-outline-1px'
     if restore_shadow(output, proof) != data:
         raise ValueError('shadow inverse verification failed')
     return output, proof
@@ -182,6 +243,7 @@ def main(argv=None):
     p.add_argument('--glyph-plan-sha256', required=True)
     p.add_argument('--output', type=Path, required=True)
     p.add_argument('--report', type=Path, required=True)
+    p.add_argument('--outline', action='store_true')
     a = p.parse_args(argv)
     try:
         if a.output.exists() or a.report.exists() or len({x.resolve() for x in (a.source, a.glyph_plan, a.output, a.report)}) != 4:
@@ -189,7 +251,7 @@ def main(argv=None):
         data, spec = a.source.read_bytes(), a.glyph_plan.read_bytes()
         if digest(spec) != a.glyph_plan_sha256:
             raise ValueError('glyph plan SHA256 mismatch')
-        output, report = apply_shadow(data, a.sha256, a.font_object, json.loads(spec))
+        output, report = apply_shadow(data, a.sha256, a.font_object, json.loads(spec), outline=a.outline)
         if a.source.read_bytes() != data or a.glyph_plan.read_bytes() != spec:
             raise ValueError('input changed during shadow build')
         encoded = (json.dumps(report, indent=2, sort_keys=True) + '\n').encode()
